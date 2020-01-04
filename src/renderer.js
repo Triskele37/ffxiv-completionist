@@ -1,6 +1,7 @@
+const { shell } = require('electron');
 const data = require('./data');
-const Store = require('electron-store');
 
+const Store = require('electron-store');
 const store = new Store();
 
 
@@ -13,7 +14,6 @@ var app = new Vue({
 	},
 	methods: {
 		onGroupClick: function(group, degree) {
-			console.log(group, degree);
 			if(degree === 1) this.breadcrumbs = [group.name];
 			if(degree === 2) this.breadcrumbs = [this.breadcrumbs[0], group.name];
 			if(degree === 3) this.breadcrumbs = [this.breadcrumbs[0], this.breadcrumbs[1], group.name];
@@ -38,11 +38,11 @@ var app = new Vue({
 			
 			this.$forceUpdate();
 		},
-		gamerEscapeLink: function(name) {
-			return 'https://ffxiv.gamerescape.com/wiki/' + name.replace(/ /g, '_');
+		gotoGamerEscape: function(name) {
+			shell.openExternal('https://ffxiv.gamerescape.com/wiki/' + name.replace(/ /g, '_'));
 		},
-		garlondToolsLink: function(name) {
-			return 'https://www.garlandtools.org/db/#search/' + name.replace(/ /g, '_');
+		gotoGarlandTools: function(name) {
+			shell.openExternal('https://www.garlandtools.org/db/#search/' + name.replace(/ /g, '_'));
 		}
 	}
 });

@@ -86,20 +86,18 @@
 							{{task.name}}
 						</td>
 						<td>
-							<a
-								v-bind:href="gamerEscapeLink(task.name)"
+							<span
 								title="Gamer Escape"
-								target="_blank"
+								v-on:click="gotoGamerEscape(task.name)"
 							>
 								<img src="../assets/gamerescape.png" alt="Gamer Escape" height="20" width="20">
-							</a>
-							<a
-								v-bind:href="garlondToolsLink(task.name)"
+							</span>
+							<span
 								title="Garland Tools"
-								target="_blank"
+								v-on:click="gotoGarlandTools(task.name)"
 							>
 								<img src="../assets/Garland.png" alt="Garland Tools" height="20" width="20">
-							</a>
+							</span>
 						</td>
 					</tr>
 				</table>
