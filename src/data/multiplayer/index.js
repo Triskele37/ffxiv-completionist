@@ -1,9 +1,9 @@
 module.exports = {
 	name: 'Multiplayer',
 	subGroups: [
-		{ name: 'Dungeon' },
-		{ name: 'Trial' },
-		{ name: 'Raid' },
-		{ name: 'Hunt' },
+		require('./dungeon'),
+		require('./trial'),
+		require('./raid'),
+		require('./hunt'),
 	]
 };
