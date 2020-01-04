@@ -1,4 +1,8 @@
 const data = require('./data');
+const Store = require('electron-store');
+
+const store = new Store();
+
 
 var app = new Vue({
 	el: '#app',
@@ -24,6 +28,13 @@ var app = new Vue({
 				case 'X': task.complete = 'N'; break;
 				default: task.complete = 'Y';
 			}
+
+			store.set(task.name, task.complete);
+			// View current tasks status if set to complete or not
+			console.log(store.get('task.name'));
+
+			// View all tasks that have had their status changed
+			console.log(store.get(task));
 			
 			this.$forceUpdate();
 		},
