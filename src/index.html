@@ -68,6 +68,9 @@
 					<tr>
 						<th>Complete</th>
 						<th>Name</th>
+						<th>Description</th>
+						<th>Points</th>
+						<th>Reward</th>
 						<th>External Links</th>
 					</tr>
 					<tr v-for="task in selectedGroup.tasks">
@@ -82,8 +85,23 @@
 						>
 							{{task.complete || 'N'}}
 						</td>
-						<td>
+						<td id="tbl-name">
 							{{task.name}}
+						</td>
+						<td id="tbl-description">
+							{{task.description}}
+						</td>
+						<td>
+							{{task.points}}
+						</td>
+						<td v-if="task.Title">
+							Title: {{task.Title.name}}
+						</td>
+						<td v-else-if="task.Item">
+							Item: {{task.Item.name}}
+						</td>
+						<td v-else>
+							N/A
 						</td>
 						<td>
 							<span
