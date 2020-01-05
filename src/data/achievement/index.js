@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'Achievement',
 	subGroups: [
-		{ name: 'Battle' },
+		require('./battle/index.js'),
 		{ name: 'Character' },
 		{ name: 'PvP' },
 		{ name: 'Item' },
