@@ -1,3 +1,3 @@
 module.exports = {
-	name: 'Abalathia\'s Spine'
+    name: 'Abalathia\'s Spine'
 };
