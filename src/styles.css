@@ -15,7 +15,7 @@ button {
 	grid-template-rows: 10fr 2fr 88fr;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-	
+
 	height: 100%;
 	width: 100%;
 
@@ -26,16 +26,16 @@ button {
 #nav-bar {
 	grid-area: 1 / 1 / 4 / 2;
 	background-color: #fef2cb;
-	
+
 	margin: 50px 0;
 	padding: 10px 0px;
-	
+
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
 .nav-bar-group-container .nav-bar-button {
-	
+
 }
 
 .nav-bar-sub-group-container .nav-bar-button {
@@ -107,4 +107,8 @@ button {
 
 #tbl-name, #tbl-description {
 	text-align: center;
+}
+
+th, td{
+	border: 1px solid black;
 }
