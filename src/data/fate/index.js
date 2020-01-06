@@ -1,4 +1,5 @@
 import { BlackShroudFATEs } from './black-shroud';
+import { CoerthasFATEs } from './coerthas';
 import { LaNosceaFATEs } from './la-noscea';
 import { ThanalanFATEs } from './thanalan';
 
@@ -7,7 +8,7 @@ export const FATEs = {
     subGroups: [
         require('./abalathias-spine'),
         BlackShroudFATEs,
-        require('./coerthas'),
+        CoerthasFATEs,
         require('./diadem'),
         require('./dravania'),
         require('./eureka'),
