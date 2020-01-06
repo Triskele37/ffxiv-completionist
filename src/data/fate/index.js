@@ -6,6 +6,7 @@ import { DravaniaFATEs } from './dravania';
 import { GyrAbaniaFATEs } from './gyr-abania';
 import { LaNosceaFATEs } from './la-noscea';
 import { MorDhonaFATEs } from './mor-dhona';
+import { NorvrandtFATEs } from './norvrandt';
 import { OthardFATEs } from './othard';
 import { ThanalanFATEs } from './thanalan';
 
@@ -21,7 +22,7 @@ export const FATEs = {
         GyrAbaniaFATEs,
         LaNosceaFATEs,
         MorDhonaFATEs,
-        require('./norvrandt'),
+        NorvrandtFATEs,
         OthardFATEs,
         ThanalanFATEs,
     ]
