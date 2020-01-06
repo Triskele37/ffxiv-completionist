@@ -117,9 +117,10 @@
 
 <script>
     const {shell} = require('electron');
-    const data = require('../data');
-
     const Store = require('electron-store');
+
+    import { data } from '../data';
+
     const store = new Store();
 
     export default {

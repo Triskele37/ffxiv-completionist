@@ -1,8 +1,11 @@
-module.exports = {
+import { LaNosceaFATEs } from './la-noscea';
+import { BlackShroudFATEs } from './black-shroud';
+
+export const FATEs = {
     name: 'FATE',
     subGroups: [
-        require('./la-noscea'),
-        require('./black-shroud'),
+        LaNosceaFATEs,
+        BlackShroudFATEs,
         require('./thanalan'),
         require('./coerthas'),
         require('./mor-dhona'),
@@ -15,3 +18,8 @@ module.exports = {
         require('./norvrandt')
     ]
 };
+
+/*
+\r\n(.*)\t(.*)\t(.*)\t(.*)
+{\r\n\tlevel: $1,\r\n\tname: '$2',\r\n\tlocation: '$3',\r\n\ttype: '$4'\r\n}, 
+*/

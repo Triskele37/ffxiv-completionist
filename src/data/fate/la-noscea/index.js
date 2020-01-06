@@ -1,11 +1,18 @@
-module.exports = {
+import { LowerLaNosceaFATEs } from './lower-la-noscea';
+import { MiddleLaNosceaFATEs } from './middle-la-noscea';
+import { UpperLaNosceaFATEs } from './upper-la-noscea';
+import { WesternLaNosceaFATEs } from './western-la-noscea';
+import { EasternLaNosceaFATEs } from './eastern-la-noscea';
+import { OuterLaNosceaFATEs } from './outer-la-noscea';
+
+export const LaNosceaFATEs = {
     name: 'La Noscea',
     subGroups: [
-        require('./lower-la-noscea.js'),
-        require('./middle-la-noscea.js'),
-        require('./upper-la-noscea.js'),
-        require('./western-la-noscea.js'),
-        require('./eastern-la-noscea.js'),
-        require('./outer-la-noscea.js')
+        LowerLaNosceaFATEs,
+        MiddleLaNosceaFATEs,
+        UpperLaNosceaFATEs,
+        WesternLaNosceaFATEs,
+        EasternLaNosceaFATEs,
+        OuterLaNosceaFATEs
     ]
 };
