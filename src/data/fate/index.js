@@ -1,12 +1,13 @@
 import { LaNosceaFATEs } from './la-noscea';
 import { BlackShroudFATEs } from './black-shroud';
+import { ThanalanFATEs } from './thanalan';
 
 export const FATEs = {
     name: 'FATE',
     subGroups: [
         LaNosceaFATEs,
         BlackShroudFATEs,
-        require('./thanalan'),
+        ThanalanFATEs,
         require('./coerthas'),
         require('./mor-dhona'),
         require('./abalathias-spine'),
@@ -21,5 +22,5 @@ export const FATEs = {
 
 /*
 \r\n(.*)\t(.*)\t(.*)\t(.*)
-{\r\n\tlevel: $1,\r\n\tname: '$2',\r\n\tlocation: '$3',\r\n\ttype: '$4'\r\n}, 
+{\r\n\tlevel: $1,\r\n\tname: '$2',\r\n\tlocation: '$3',\r\n\ttype: '$4'\r\n},
 */
