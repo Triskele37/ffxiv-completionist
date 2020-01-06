@@ -1,6 +1,7 @@
 import { AbalathiasSpineFATEs } from './abalathias-spine';
 import { BlackShroudFATEs } from './black-shroud';
 import { CoerthasFATEs } from './coerthas';
+import { DravaniaFATEs } from './dravania';
 import { LaNosceaFATEs } from './la-noscea';
 import { MorDhonaFATEs } from './mor-dhona';
 import { ThanalanFATEs } from './thanalan';
@@ -12,7 +13,7 @@ export const FATEs = {
         BlackShroudFATEs,
         CoerthasFATEs,
         require('./diadem'),
-        require('./dravania'),
+        DravaniaFATEs,
         require('./eureka'),
         require('./gyr-abania'),
         LaNosceaFATEs,
