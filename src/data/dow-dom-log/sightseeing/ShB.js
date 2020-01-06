@@ -1,6 +1,6 @@
 module.exports = {
-	name: 'ShB',
-	tasks: [
-		
-	]
+    name: 'ShB',
+    tasks: [
+
+    ]
 };
