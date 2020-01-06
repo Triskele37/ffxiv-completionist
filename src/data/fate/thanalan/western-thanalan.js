@@ -1,0 +1,96 @@
+export const WesternThanalanFATEs = {
+    name: 'Western',
+    tasks: [
+        {
+        	level: 5,
+        	name: 'Needles to Slay',
+        	location: 'Hammerlea (23,25)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 5,
+        	name: 'A Matter of Rust',
+        	location: 'Hammerlea (23,25)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 6,
+        	name: 'Things that Make You Go Home',
+        	location: 'Hammerlea (23,26)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 8,
+        	name: 'The Cores',
+        	location: 'Hammerlea (17,29)',
+        	type: 'Gather Items'
+        }, {
+        	level: 8,
+        	name: 'Deface the Facts',
+        	location: 'Hammerlea (20,28)',
+        	type: 'Defense'
+        }, {
+        	level: 8,
+        	name: 'Please Hammers, Don\'t Hurt Them',
+        	location: 'Hammerlea (18,28)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 9,
+        	name: 'The Villain',
+        	location: 'Hammerlea (22,23)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 9,
+        	name: 'Doomed',
+        	location: 'Hammerlea (24,21)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 10,
+        	name: 'Pound for Pound',
+        	location: 'Horizon\'s Edge (23,21)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 10,
+        	name: 'Dog Eat Dog',
+        	location: 'Horizon\'s Edge (25,19)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 10,
+        	name: 'Copied Peistes',
+        	location: 'Horizon\'s Edge (24,20)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 13,
+        	name: 'Bigger Fish to Fry',
+        	location: 'The Footfalls (15,16)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 13,
+        	name: 'Bubble Trouble',
+        	location: 'The Footfalls (15,16)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 20,
+        	name: 'Staying Dead',
+        	location: 'The Footfalls (13,11)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 21,
+        	name: 'There Might Be Giants',
+        	location: 'The Footfalls (13,10)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 22,
+        	name: 'Tripped up by the Fruit of Another',
+        	location: 'The Footfalls (14,9)',
+        	type: 'Escort'
+        }, {
+        	level: 22,
+        	name: 'He\'s Got Legs',
+        	location: 'The Footfalls (14,6)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 23,
+        	name: 'Juggernaut Down',
+        	location: 'The Footfalls (13,7)',
+        	type: 'Slay Enemies'
+        },
+    ]
+};

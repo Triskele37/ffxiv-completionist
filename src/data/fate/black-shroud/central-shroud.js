@@ -1,28 +1,121 @@
-module.exports = {
+export const CentralShroudFATEs = {
     name: 'Central',
     tasks: [
-        { name: 'One Enchanted Eve' },
-        { name: 'Clever Girls' },
-        { name: 'Training Day' },
-        { name: 'Lady Killer' },
-        { name: 'A Mother Scorned' },
-        { name: 'Something in the Water' },
-        { name: 'Leader of the Pack' },
-        { name: 'Alux of the Draw' },
-        { name: 'Spirithold Run' },
-        { name: 'Lethe on My Mind' },
-        { name: 'The Sting' },
-        { name: 'Love is in the Air' },
-        { name: 'Sleep Tight' },
-        { name: 'Bleeding Green' },
-        { name: 'There\'s Something About Lou' },
-        { name: 'Sprig Cleaning' },
-        { name: 'What\'s Your Poison (FATE)' },
-        { name: 'Revenant Things' },
-        { name: 'My Baby Green' },
-        { name: 'The Lindwurm Has Turned' },
-        { name: 'If I Only Had a Soul' },
-        { name: 'Asipatra Attacks' },
-        { name: 'In Spite of It All' }
+        {
+        	level: 4,
+        	name: 'One Enchanted Eve',
+        	location: 'Jadeite Thick (25,18)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 5,
+        	name: 'Clever Girls',
+        	location: 'Jadeite Thick (25,19)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 5,
+        	name: 'Training Day',
+        	location: 'Jadeite Thick (21,18)',
+        	type: 'Defense'
+        }, {
+        	level: 7,
+        	name: 'Lady Killer',
+        	location: 'Greentear (29,21)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 8,
+        	name: 'A Mother Scorned',
+        	location: 'Greentear (30,23)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 8,
+        	name: 'Something in the Water',
+        	location: 'Jadeite Thick (23,24)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 9,
+        	name: 'Leader of the Pack',
+        	location: 'Greentear (31,21)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 9,
+        	name: 'Alux of the Draw',
+        	location: 'Greentear (25,25)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 10,
+        	name: 'Spirithold Run',
+        	location: 'Greentear (27,24)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 10,
+        	name: 'Lethe on My Mind',
+        	location: 'Bentbranch (18,19)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 11,
+        	name: 'The Sting',
+        	location: 'Bentbranch (27,29)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 11,
+        	name: 'Love is in the Air',
+        	location: 'Bentbranch (22,26)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 12,
+        	name: 'Sleep Tight',
+        	location: 'Bentbranch (18,27)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 13,
+        	name: 'Bleeding Green',
+        	location: 'Bentbranch (20,30)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 14,
+        	name: 'There\'s Something About Lou',
+        	location: 'Bentbranch (14,25)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 30,
+        	name: 'Sprig Cleaning',
+        	location: 'Sorrel Haven (15,17)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 30,
+        	name: 'What\'s Your Poison (FATE)',
+        	location: 'Sorrel Haven (15,20)',
+        	type: 'Gather Items'
+        }, {
+        	level: 31,
+        	name: 'Revenant Things',
+        	location: 'Sorrel Haven (13,19)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 31,
+        	name: 'My Baby Green',
+        	location: 'Sorrel Haven (13,22)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 31,
+        	name: 'The Lindwurm Has Turned',
+        	location: 'Sorrel Haven (15,17)',
+        	type: 'Slay Enemies'
+        }, {
+        	level: 33,
+        	name: 'If I Only Had a Soul',
+        	location: 'The Standing Corses (11,16)',
+        	type: 'Gather Items'
+        }, {
+        	level: 34,
+        	name: 'Asipatra Attacks',
+        	location: 'Sorrel Haven (17,22)',
+        	type: 'Notorious Monster'
+        }, {
+        	level: 43,
+        	name: 'In Spite of It All',
+        	location: 'The Standing Corses (11,18)',
+        	type: 'Notorious Monster'
+        },
     ]
 };
