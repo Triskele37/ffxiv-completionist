@@ -1,14 +1,14 @@
 import { CentralShroudFATEs } from './central-shroud';
-import { NorthShroudFATEs } from './north-shroud';
 import { EastShroudFATEs } from './east-shroud';
+import { NorthShroudFATEs } from './north-shroud';
 import { SouthShroudFATEs } from './south-shroud';
 
 export const BlackShroudFATEs = {
     name: 'Black Shroud',
     subGroups: [
         CentralShroudFATEs,
-        NorthShroudFATEs,
         EastShroudFATEs,
+        NorthShroudFATEs,
         SouthShroudFATEs
     ],
     tasks: [
