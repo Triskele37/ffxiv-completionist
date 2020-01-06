@@ -1,22 +1,22 @@
-import { LaNosceaFATEs } from './la-noscea';
 import { BlackShroudFATEs } from './black-shroud';
+import { LaNosceaFATEs } from './la-noscea';
 import { ThanalanFATEs } from './thanalan';
 
 export const FATEs = {
     name: 'FATE',
     subGroups: [
-        LaNosceaFATEs,
-        BlackShroudFATEs,
-        ThanalanFATEs,
-        require('./coerthas'),
-        require('./mor-dhona'),
         require('./abalathias-spine'),
-        require('./dravania'),
-        require('./gyr-abania'),
-        require('./othard'),
+        BlackShroudFATEs,
+        require('./coerthas'),
         require('./diadem'),
+        require('./dravania'),
         require('./eureka'),
-        require('./norvrandt')
+        require('./gyr-abania'),
+        LaNosceaFATEs,
+        require('./mor-dhona'),
+        require('./norvrandt'),
+        require('./othard'),
+        ThanalanFATEs,
     ]
 };
 
