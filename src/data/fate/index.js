@@ -32,4 +32,6 @@ export const FATEs = {
 /*
 \r\n(.*)\t(.*)\t(.*)\t(.*)
 {\r\n\tlevel: $1,\r\n\tname: '$2',\r\n\tlocation: '$3',\r\n\ttype: '$4'\r\n},
+
+https://xivapi.com/Fate
 */
