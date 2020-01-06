@@ -60,6 +60,9 @@
                 <tr>
                     <th>Complete</th>
                     <th>Name</th>
+                    <th>Description</th>
+                    <th>Points</th>
+                    <th>Reward</th>
                     <th>External Links</th>
                 </tr>
                 <tr v-for="task in selectedGroup.tasks">
@@ -76,6 +79,21 @@
                     </td>
                     <td>
                         {{task.name}}
+                    </td>
+                    <td id="tbl-description">
+                        {{task.description}}
+                    </td>
+                    <td>
+                        {{task.points}}
+                    </td>
+                    <td v-if="task.Title">
+                        Title: {{task.Title.name}}
+                    </td>
+                    <td v-else-if="task.Item">
+                        Item: {{task.Item.name}}
+                    </td>
+                    <td v-else>
+                        N/A
                     </td>
                     <td>
 						<span
@@ -256,5 +274,13 @@
 
     .task-column-completed-x {
         background-color: #cccccc;
+    }
+
+    #tbl-name, #tbl-description {
+    	text-align: center;
+    }
+
+    th, td{
+    	border: 1px solid black;
     }
 </style>
