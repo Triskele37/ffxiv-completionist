@@ -1,4 +1,5 @@
 import { FATEs } from './fate';
+import { GatheringLogs } from './gathering-log';
 import { Multiplayer } from './multiplayer';
 
 export const data = [
@@ -7,7 +8,7 @@ export const data = [
     require('./crafting-log'),
     require('./dow-dom-log'),
     FATEs,
-    require('./gathering-log'),
+    GatheringLogs,
     require('./leve'),
     Multiplayer,
     require('./quest')
