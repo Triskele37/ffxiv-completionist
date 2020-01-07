@@ -1,12 +1,22 @@
-module.exports = {
-	name: 'Black Shroud',
-	subGroups: [
-		require('./central-shroud.js'),
-		require('./north-shroud.js'),
-		require('./east-shroud.js'),
-		require('./south-shroud.js'),
-	],
-	tasks: [
-		{ name: 'Steel Reign' },
-	]
+import { CentralShroudFATEs } from './central-shroud';
+import { EastShroudFATEs } from './east-shroud';
+import { NorthShroudFATEs } from './north-shroud';
+import { SouthShroudFATEs } from './south-shroud';
+
+export const BlackShroudFATEs = {
+    name: 'Black Shroud',
+    subGroups: [
+        CentralShroudFATEs,
+        EastShroudFATEs,
+        NorthShroudFATEs,
+        SouthShroudFATEs
+    ],
+    tasks: [
+        {
+            level: 50,
+            name: 'Steel Reign',
+            location: 'Sorrel Haven (14,18), Sorrel Haven (14,21), Hopeseed Pond (25,24), Proud Creek (16,27), Gelmorra Ruins (22,22), Alder Springs (26,21), Proud Creek (23,30), Larkscall (16,33), Nine Ivies (20,23), Lower Paths (33,23)',
+            type: 'Notorious Monster'
+        }
+    ]
 };

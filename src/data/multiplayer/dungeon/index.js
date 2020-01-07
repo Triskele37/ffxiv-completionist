@@ -1,9 +1,14 @@
-module.exports = {
-	name: 'Dungeon',
-	subGroups: [
-		require('./ARR.js'),
-		require('./HW.js'),
-		require('./SB.js'),
-		require('./ShB.js'),
-	]
+import { ARRDungeons } from './ARR';
+import { HWDungeons } from './HW';
+import { SBDungeons } from './SB';
+import { ShBDungeons } from './ShB';
+
+export const Dungeons = {
+    name: 'Dungeon',
+    subGroups: [
+        ARRDungeons,
+        HWDungeons,
+        SBDungeons,
+        ShBDungeons
+    ]
 };
