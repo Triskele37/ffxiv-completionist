@@ -1,4 +1,4 @@
-module.exports = {
+export const ARRHunts = {
     name: 'ARR',
     tasks: [
         { rank: 'B', name: 'Albin the Ashen', condition: 'N/A', location: 'Southern Thanalan' },

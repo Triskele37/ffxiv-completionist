@@ -1,9 +1,14 @@
-module.exports = {
+import { Dungeons } from './dungeon';
+import { Raids } from './raid';
+import { Trials } from './trial';
+import { Hunts } from './hunt';
+
+export const Multiplayer = {
     name: 'Multiplayer',
     subGroups: [
-        require('./dungeon'),
-        require('./trial'),
-        require('./raid'),
-        require('./hunt')
+        Dungeons,
+        Raids,
+        Trials,
+        Hunts
     ]
 };

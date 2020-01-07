@@ -1,4 +1,4 @@
-module.exports = {
+export const ShBHunts = {
     name: 'ShB',
     tasks: [
         { rank: 'B', name: 'La Velue', condition: 'N/A', location: 'Lakeland' },

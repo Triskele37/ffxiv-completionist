@@ -1,9 +1,14 @@
-module.exports = {
+import { ARRHunts } from './ARR';
+import { HWHunts } from './HW';
+import { SBHunts } from './SB';
+import { ShBHunts } from './ShB'
+
+export const Hunts = {
     name: 'Hunt',
     subGroups: [
-        require('./ARR.js'),
-        require('./HW.js'),
-        require('./SB.js'),
-        require('./ShB.js')
+        ARRHunts,
+        HWHunts,
+        SBHunts,
+        ShBHunts
     ]
 };

@@ -1,4 +1,4 @@
-module.exports = {
+export const HWHunts = {
     name: 'HW',
     tasks: [
         { rank: 'B', name: 'Alteci', condition: 'N/A', location: 'Coerthas Western Highlands' },

@@ -1,4 +1,4 @@
-module.exports = {
+export const SBHunts = {
     name: 'SB',
     tasks: [
         { rank: 'B', name: 'Aswang', condition: 'N/A', location: 'The Azim Steppe' },
