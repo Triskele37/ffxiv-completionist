@@ -10,6 +10,6 @@ module.exports = {
         require('./dow.js'),
         require('./goldsaucer.js'),
 	],
-    tasks:
+    // tasks:
 
 }
