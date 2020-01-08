@@ -2,46 +2,12 @@
     <div id="app">
         <!--------------------------------- Nav Bar --------------------------------->
         <div id="nav-bar">
-            <!-- 1st Degree -->
-            <div
-                    class="nav-bar-group-container"
-                    v-for="group in groups"
-            >
-                <div
-                        class="nav-bar-button"
-                        v-on:click="onGroupClick(group, 1)"
-                >
-                    {{group.name}}
-                </div>
-
-                <!-- 2nd Degree -->
-                <div
-                        class="nav-bar-sub-group-container"
-                        v-if="breadcrumbs[0] === group.name"
-                        v-for="subGroup in group.subGroups"
-                >
-                    <div
-                            class="nav-bar-button"
-                            v-on:click="onGroupClick(subGroup, 2)"
-                    >
-                        {{subGroup.name}}
-                    </div>
-
-                    <!-- 3rd Degree -->
-                    <div
-                            class="nav-bar-sub-sub-group-container"
-                            v-if="breadcrumbs[1] === subGroup.name"
-                            v-for="subSubGroup in subGroup.subGroups"
-                    >
-                        <div
-                                class="nav-bar-button"
-                                v-on:click="onGroupClick(subSubGroup, 3)"
-                        >
-                            {{subSubGroup.name}}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <nav-group
+                v-bind:degree="0"
+                v-bind:groups="groups"
+                v-bind:breadcrumbs="breadcrumbs"
+                v-on:select-group="onSelectedGroupChange"
+            />
         </div>
 
         <!--------------------------------- Stat Bar --------------------------------->
@@ -67,13 +33,13 @@
                 </tr>
                 <tr v-for="task in selectedGroup.tasks">
                     <td
-                            class="task-column-completed"
-                            v-bind:class="{
-								'task-column-completed-y': task.complete === 'Y',
-								'task-column-completed-n': !task.complete || task.complete === 'N',
-								'task-column-completed-x': task.complete === 'X'
-							}"
-                            v-on:click="onTaskCompleteClick(task)"
+                        class="task-column-completed"
+                        v-bind:class="{
+							'task-column-completed-y': task.complete === 'Y',
+							'task-column-completed-n': !task.complete || task.complete === 'N',
+							'task-column-completed-x': task.complete === 'X'
+						}"
+                        v-on:click="onTaskCompleteClick(task)"
                     >
                         {{task.complete || 'N'}}
                     </td>
@@ -121,6 +87,8 @@
 
     import { data } from '../data';
 
+    import NavGroup from './nav-group/NavGroup.vue';
+
     const store = new Store();
 
     export default {
@@ -130,14 +98,16 @@
             selectedGroup: null
         }),
         methods: {
-            onGroupClick: function (group, degree) {
-                if (degree === 1) this.breadcrumbs = [group.name];
-                if (degree === 2) this.breadcrumbs = [this.breadcrumbs[0], group.name];
-                if (degree === 3) this.breadcrumbs = [this.breadcrumbs[0], this.breadcrumbs[1], group.name];
+            onSelectedGroupChange: function (group, degree) {
+                // Update breadcrumbs
+                let breadcrumbs = [];
+                for(let i = 0; i < degree; i++) {
+                    breadcrumbs.push(this.breadcrumbs[i]);
+                }
+                this.breadcrumbs = breadcrumbs.concat(group.name);
 
+                // Update the selected group
                 this.selectedGroup = group;
-
-                this.$forceUpdate();
             },
             onTaskCompleteClick: function (task) {
                 switch (task.complete) {
@@ -166,6 +136,9 @@
             gotoGarlandTools: function (name) {
                 shell.openExternal('https://www.garlandtools.org/db/#search/' + name.replace(/ /g, '_'));
             }
+        },
+        components: {
+            'nav-group': NavGroup
         }
     };
 </script>
@@ -205,39 +178,6 @@
 
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
-    }
-
-    .nav-bar-group-container .nav-bar-button {
-
-    }
-
-    .nav-bar-sub-group-container .nav-bar-button {
-        filter: brightness(80%);
-        padding-left: 15px;
-    }
-
-    .nav-bar-sub-sub-group-container .nav-bar-button {
-        filter: brightness(60%);
-        padding-left: 30px;
-    }
-
-    /* nav button */
-    .nav-bar-button {
-        background-color: #fef2cb;
-        border-bottom: 1px solid;
-        height: 30px;
-        line-height: 30px;
-        padding: 0 5px;
-        user-select: none;
-    }
-
-    .nav-bar-button:hover {
-        background-color: #9b8cac;
-        cursor: pointer;
-    }
-
-    .nav-bar-button:active {
-        background-color: #5e447b;
     }
 
     /*---------------------- Status Bar ----------------------*/

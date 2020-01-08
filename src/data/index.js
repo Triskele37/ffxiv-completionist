@@ -1,6 +1,7 @@
 import { FATEs } from './fate';
 import { GatheringLogs } from './gathering-log';
 import { Multiplayer } from './multiplayer';
+import { Quests } from './quest';
 
 export const data = [
     require('./achievement'),
@@ -11,5 +12,5 @@ export const data = [
     GatheringLogs,
     require('./leve'),
     Multiplayer,
-    require('./quest')
+    Quests
 ];
