@@ -2,6 +2,7 @@
     <div id="app">
         <!--------------------------------- Nav Bar --------------------------------->
         <div id="nav-bar">
+            <button v-on:click="resetSelections">Reset</button>
             <nav-group
                 v-bind:degree="0"
                 v-bind:groups="groups"
@@ -98,6 +99,10 @@
             selectedGroup: null
         }),
         methods: {
+            resetSelections: function() {
+                this.breadcrumbs = [];
+                this.selectedGroup = null;
+            },
             onSelectedGroupChange: function (group, degree) {
                 // Update breadcrumbs
                 let breadcrumbs = [];
@@ -178,6 +183,8 @@
 
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+
+        overflow: hidden;
     }
 
     /*---------------------- Status Bar ----------------------*/
