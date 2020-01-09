@@ -4,7 +4,7 @@ import { Multiplayer } from "./multiplayer";
 import { Quests } from "./quest";
 
 /*TODO:
-
+Quest - Levequests - Mining/Bot/Fish - Large Scale
 */
 
 export const data = [
