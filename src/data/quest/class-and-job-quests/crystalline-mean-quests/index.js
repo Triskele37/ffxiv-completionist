@@ -14,6 +14,12 @@ export const CrystallineMeanQuests = {
         FacetOfFishingQuests,
     ],
     tasks: [
-
+        {
+            level: "70",
+            name: "The Crystalline Mean"
+        }, {
+            level: "80",
+            name: "For Every Child a Star"
+        }
     ]
 };

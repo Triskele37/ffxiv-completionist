@@ -1,7 +1,8 @@
 import { SeventhUmbralEra } from "./seventh-umbral-era";
 import { SeventhAstralEra } from "./seventh-astral-era";
 import { Heavensward } from "./heavensward"
-import { DragonsongWar } from "./dragonsong-war";
+import { Dragonsong } from "./dragonsong";
+import { PostDragonsong } from "./post-dragonsong";
 import { Stormblood } from "./stormblood";
 import { PostStormblood } from "./post-stormblood";
 import { Shadowbringers } from "./shadowbringers";
@@ -13,7 +14,8 @@ export const MainScenario = {
         SeventhUmbralEra,
         SeventhAstralEra,
         Heavensward,
-        DragonsongWar,
+        Dragonsong,
+        PostDragonsong,
         Stormblood,
         PostStormblood,
         Shadowbringers,

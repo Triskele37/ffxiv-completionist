@@ -157,8 +157,8 @@
     /*----------------------  ----------------------*/
     #app {
         display: grid;
-        grid-template-columns: 10fr 90fr;
-        grid-template-rows: 10fr 2fr 88fr;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 200px 40px calc(100% - 240px);
         grid-column-gap: 10px;
         grid-row-gap: 10px;
 
@@ -197,6 +197,9 @@
         margin: 20px;
         margin-top: 0;
         overflow-y: scroll;
+
+        /* This is a lazy fix, need to figure out why this cell is breaking the grid layout */
+        height: calc(100vh - 280px);
     }
 
     .task-column-completed {
