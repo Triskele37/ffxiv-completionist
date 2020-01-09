@@ -2,8 +2,7 @@ import { MainScenario } from "./main-scenario";
 import { ChroniclesOfANewEra } from "./chronicles-of-a-new-era";
 import { Sidequests } from "./sidequests";
 import { BeastTribes } from "./beast-tribe-quests";
-
-//TODO: Weapon/Zodiac/Anima
+import { ClassAndJob } from "./class-and-job-quests";
 
 export const Quests = {
     name: "Quest",
@@ -12,5 +11,6 @@ export const Quests = {
         ChroniclesOfANewEra,
         Sidequests,
         BeastTribes,
+        ClassAndJob,
     ]
 };
