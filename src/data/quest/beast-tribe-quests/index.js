@@ -1,30 +1,25 @@
 import { AmaljAa } from "./amalj-aa";
-import { Ixal } from "./ixal";
+import { Sylph } from "./sylph";
 import { Kobold } from "./kobold";
 import { Sahagin } from "./sahagin";
-import { Sylph } from "./sylph";
-import { Moogle } from "./moogle";
+import { Ixal } from "./ixal";
+
 import { VanuVanu } from "./vanu-vanu";
 import { Vath } from "./vath";
-import { Ananta } from "./ananta";
+import { Moogle } from "./moogle";
+
 import { Kojin } from "./kojin";
+import { Ananta } from "./ananta";
 import { Namazu } from "./namazu";
+
 import { Pixie } from "./pixie";
 
 export const BeastTribes = {
     name: "Beast Tribes",
     subGroups: [
-        AmaljAa,
-        Ixal,
-        Kobold,
-        Sahagin,
-        Sylph,
-        Moogle,
-        VanuVanu,
-        Vath,
-        Ananta,
-        Kojin,
-        Namazu,
+        AmaljAa, Sylph, Kobold, Sahagin, Ixal,
+        VanuVanu, Vath, Moogle,
+        Kojin, Ananta, Namazu,
         Pixie,
     ]
 };
