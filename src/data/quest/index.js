@@ -3,6 +3,7 @@ import { ChroniclesOfANewEra } from "./chronicles-of-a-new-era";
 import { Sidequests } from "./sidequests";
 import { BeastTribes } from "./beast-tribe-quests";
 import { ClassAndJob } from "./class-and-job-quests";
+import { OtherQuests } from "./other-quests";
 
 export const Quests = {
     name: "Quest",
@@ -12,5 +13,6 @@ export const Quests = {
         Sidequests,
         BeastTribes,
         ClassAndJob,
+        OtherQuests,
     ]
 };
