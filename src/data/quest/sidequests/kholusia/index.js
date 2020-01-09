@@ -1,8 +1,8 @@
-import { Kholusia as KholusiaQuests } from './kholusia';
-import { Eulmore } from './eulmore';
+import { Kholusia as KholusiaQuests } from "./kholusia";
+import { Eulmore } from "./eulmore";
 
 export const Kholusia = {
-    name: 'Kholusia',
+    name: "Kholusia",
     subGroups: [
         KholusiaQuests,
         Eulmore,

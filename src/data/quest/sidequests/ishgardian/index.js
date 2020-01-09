@@ -1,7 +1,7 @@
-import { Ishgard } from './ishgard';
+import { Ishgard } from "./ishgard";
 
 export const Ishgardian = {
-    name: 'Ishgardian',
+    name: "Ishgardian",
     subGroups: [
         Ishgard
     ]

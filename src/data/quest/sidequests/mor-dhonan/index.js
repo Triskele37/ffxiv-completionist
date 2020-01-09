@@ -1,7 +1,7 @@
-import { MorDhona } from './mor-dhona';
+import { MorDhona } from "./mor-dhona";
 
 export const MorDhonan = {
-    name: 'Mor Dhonan',
+    name: "Mor Dhonan",
     subGroups: [
         MorDhona
     ]

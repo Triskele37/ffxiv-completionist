@@ -1,7 +1,7 @@
-import { TheRakTikaGreatwood } from './the-rak-tika-greatwood';
+import { TheRakTikaGreatwood } from "./the-rak-tika-greatwood";
 
 export const RakTika = {
-    name: 'Rak\'Tika',
+    name: "Rak'Tika",
     subGroups: [
         TheRakTikaGreatwood,
     ]

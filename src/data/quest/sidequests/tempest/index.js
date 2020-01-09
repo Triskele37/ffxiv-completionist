@@ -1,7 +1,7 @@
-import { TheTempest } from './the-tempest';
+import { TheTempest } from "./the-tempest";
 
 export const Tempest = {
-    name: 'Tempest',
+    name: "Tempest",
     subGroups: [
         TheTempest,
     ]

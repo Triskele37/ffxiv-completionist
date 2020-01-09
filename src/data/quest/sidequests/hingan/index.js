@@ -1,7 +1,7 @@
-import { Kugane } from './kugane';
+import { Kugane } from "./kugane";
 
 export const Hingan = {
-    name: 'Hingan',
+    name: "Hingan",
     subGroups: [
         Kugane,
     ]

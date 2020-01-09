@@ -1,7 +1,7 @@
-import { VowsOfVirtueDeedsOfCruelty } from './vows-of-virtue-deeds-of-cruelty';
+import { VowsOfVirtueDeedsOfCruelty } from "./vows-of-virtue-deeds-of-cruelty";
 
 export const PostShadowbringers = {
-    name: 'Post-Shadowbringers',
+    name: "Post-Shadowbringers",
     subGroups: [
         VowsOfVirtueDeedsOfCruelty,
     ]
