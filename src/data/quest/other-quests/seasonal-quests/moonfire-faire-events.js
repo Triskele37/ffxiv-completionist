@@ -1,0 +1,30 @@
+export const MoonfireFaireEvents = {
+    name: "Moonfire Faire",
+    tasks: [
+        {
+            level: "30",
+            name: "Jump to the Beach"
+        }, {
+            level: "30",
+            name: "Eorzean Nimble Warrior"
+        }, {
+            level: "30",
+            name: "If at First You Don't Succeed, Give Up"
+        }, {
+            level: "30",
+            name: "Feels Like Moonfire"
+        }, {
+            level: "30",
+            name: "Anything You Can Do"
+        }, {
+            level: "30",
+            name: "High-flying Hijinks"
+        }, {
+            level: "30",
+            name: "Frying for Fame and Fortune"
+        }, {
+            level: "5",
+            name: "Hook, Line, and Sinker"
+        },
+    ]
+};

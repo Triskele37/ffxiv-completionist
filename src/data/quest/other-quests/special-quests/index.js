@@ -6,6 +6,9 @@ export const SpecialQuests = {
         CollaborationQuests,
     ],
     tasks: [
-        // TODO: eternal bonding quests
+        {
+            level: "1",
+            name: "The Ties That Bind"
+        }
     ]
 };
