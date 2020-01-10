@@ -2,7 +2,7 @@
     <div
         class="nav-group"
         ref="container"
-        :style="{height}"
+        :style="{ height }"
         :class="{ collapsed: !show }"
     >
         <div
@@ -90,7 +90,7 @@
 
     .nav-bar-button {
         background-color: #7374A9;
-        border-bottom: 1px solid;
+        border-top: 1px solid;
         height: 30px;
         line-height: 30px;
         padding: 0 5px;
