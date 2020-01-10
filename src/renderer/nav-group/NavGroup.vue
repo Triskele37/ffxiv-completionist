@@ -3,10 +3,12 @@
         <div v-for="group in groups">
             <div
                 class="nav-bar-button"
+                v-if="breadcrumbs.length <= degree || breadcrumbs[degree] === group.name"
                 v-on:click="emitSelect(group, degree)"
+                v-bind:title="group.name"
                 v-bind:style="{
                     filter: 'brightness(' + (100 - degree * 10) + '%)',
-                    'padding-left': (degree * 10) + 'px'
+                    'padding-left': (degree * 5) + 5 + 'px'
                 }"
             >
                 {{group.name}}
