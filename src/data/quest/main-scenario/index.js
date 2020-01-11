@@ -1,24 +1,24 @@
-import { SeventhUmbralEra } from "./seventh-umbral-era";
-import { SeventhAstralEra } from "./seventh-astral-era";
-import { Heavensward } from "./heavensward"
-import { Dragonsong } from "./dragonsong";
-import { PostDragonsong } from "./post-dragonsong";
-import { Stormblood } from "./stormblood";
-import { PostStormblood } from "./post-stormblood";
-import { Shadowbringers } from "./shadowbringers";
+import { SeventhUmbralEraQuests } from "./seventh-umbral-era";
+import { SeventhAstralEraQuests } from "./seventh-astral-era";
+import { HeavenswardQuests } from "./heavensward"
+import { DragonsongQuests } from "./dragonsong";
+import { PostDragonsongQuests } from "./post-dragonsong";
+import { StormbloodQuests } from "./stormblood";
+import { PostStormbloodQuests } from "./post-stormblood";
+import { ShadowbringersQuests } from "./shadowbringers";
 import { PostShadowbringers } from "./post-shadowbringers";
 
-export const MainScenario = {
+export const MainScenarioQuests = {
     name: "Main Scenario",
     subGroups: [
-        SeventhUmbralEra,
-        SeventhAstralEra,
-        Heavensward,
-        Dragonsong,
-        PostDragonsong,
-        Stormblood,
-        PostStormblood,
-        Shadowbringers,
+        SeventhUmbralEraQuests,
+        SeventhAstralEraQuests,
+        HeavenswardQuests,
+        DragonsongQuests,
+        PostDragonsongQuests,
+        StormbloodQuests,
+        PostStormbloodQuests,
+        ShadowbringersQuests,
         PostShadowbringers,
     ]
 };

@@ -1,5 +1,9 @@
-export const Alisaie = {
+export const AlisaieQuests = {
     name: "Alisaie",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

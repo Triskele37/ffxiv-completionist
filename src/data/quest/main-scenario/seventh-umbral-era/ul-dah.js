@@ -1,11 +1,15 @@
-export const UlDah = {
+export const UlDahStartingQuests = {
     name: "Ul'Dah",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "1",
         	name: "Close to Home",
         	npc: "Momodi",
-        	unlock: " Return"
+        	unlock: "Return"
         }, {
         	level: "4",
         	name: "We Must Rebuild",

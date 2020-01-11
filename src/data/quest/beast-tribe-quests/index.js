@@ -14,8 +14,8 @@ import { NamazuQuests } from "./namazu";
 
 import { PixieQuests } from "./pixie";
 
-export const BeastTribes = {
-    name: "Beast Tribes",
+export const BeastTribeQuests = {
+    name: "Beast Tribe",
     subGroups: [
         //--------------------------------- ARR
         AmaljAaQuests,

@@ -1,5 +1,9 @@
 export const ReturnToIvalice = {
     name: "Return to Ivalice",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

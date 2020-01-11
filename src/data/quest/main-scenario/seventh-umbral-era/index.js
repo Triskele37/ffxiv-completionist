@@ -1,14 +1,18 @@
-import { Gridania } from "./gridania";
-import { LimsaLominsa } from "./limsa-lominsa";
-import { UlDah } from "./ul-dah";
+import { GridaniaStartingQuests } from "./gridania";
+import { LimsaLominsaStartingQuests } from "./limsa-lominsa";
+import { UlDahStartingQuests } from "./ul-dah";
 
-export const SeventhUmbralEra = {
+export const SeventhUmbralEraQuests = {
     name: "Seventh Umbral Era",
     subGroups: [
-        Gridania,
-        LimsaLominsa,
-        UlDah,
+        GridaniaStartingQuests,
+        LimsaLominsaStartingQuests,
+        UlDahStartingQuests,
     ],
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "15",

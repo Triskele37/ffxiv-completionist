@@ -1,11 +1,15 @@
-export const LimsaLominsa = {
+export const LimsaLominsaStartingQuests = {
     name: "Limsa Lominsa",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "1",
         	name: "Close to Home",
         	npc: "Baderon",
-        	unlock: " Return"
+        	unlock: "Return"
         }, {
         	level: "4",
         	name: "On to Summerford",

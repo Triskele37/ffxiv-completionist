@@ -1,12 +1,16 @@
-import { Alphinaud } from "./alphinaud";
-import { Alisaie } from "./alisaie";
+import { AlphinaudQuests } from "./alphinaud";
+import { AlisaieQuests } from "./alisaie";
 
-export const Shadowbringers = {
+export const ShadowbringersQuests = {
     name: "Shadowbringers",
     subGroups: [
-        Alphinaud,
-        Alisaie,
+        AlphinaudQuests,
+        AlisaieQuests,
     ],
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

@@ -1,12 +1,16 @@
-import { Artoirel } from "./artoirel";
-import { Emmanellain } from "./emmanellain";
+import { ArtoirelQuests } from "./artoirel";
+import { EmmanellainQuests } from "./emmanellain";
 
-export const Heavensward = {
+export const HeavenswardQuests = {
     name: "Heavensward",
     subGroups: [
-        Artoirel,
-        Emmanellain
+        ArtoirelQuests,
+        EmmanellainQuests
     ],
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "50",

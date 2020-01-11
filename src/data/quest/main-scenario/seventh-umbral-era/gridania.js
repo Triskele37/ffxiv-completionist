@@ -1,11 +1,15 @@
-export const Gridania = {
+export const GridaniaStartingQuests = {
     name: "Gridania",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "1",
         	name: "Close to Home",
         	npc: "Mother Miounne",
-        	unlock: " Return"
+        	unlock: "Return"
         }, {
         	level: "4",
         	name: "To the Bannock",

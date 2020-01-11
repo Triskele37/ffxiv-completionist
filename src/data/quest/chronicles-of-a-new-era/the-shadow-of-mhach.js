@@ -1,5 +1,9 @@
 export const TheShadowOfMhach = {
     name: "The Shadow of Mhach",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "60",

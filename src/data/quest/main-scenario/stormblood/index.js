@@ -1,12 +1,16 @@
-import { MNaago } from "./m-naago";
-import { Meffrid } from "./meffrid";
+import { MNaagoQuests } from "./m-naago";
+import { MeffridQuests } from "./meffrid";
 
-export const Stormblood = {
+export const StormbloodQuests = {
     name: "Stormblood",
     subGroups: [
-        MNaago,
-        Meffrid,
+        MNaagoQuests,
+        MeffridQuests,
     ],
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "60",

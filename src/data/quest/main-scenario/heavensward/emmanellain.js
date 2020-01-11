@@ -1,5 +1,9 @@
-export const Emmanellain = {
+export const EmmanellainQuests = {
     name: "Emmanellain",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "50",

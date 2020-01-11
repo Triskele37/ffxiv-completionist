@@ -1,7 +1,7 @@
-import { MainScenario } from "./main-scenario";
+import { MainScenarioQuests } from "./main-scenario";
 import { ChroniclesOfANewEra } from "./chronicles-of-a-new-era";
 import { Sidequests } from "./sidequests";
-import { BeastTribes } from "./beast-tribe-quests";
+import { BeastTribeQuests } from "./beast-tribe-quests";
 import { ClassAndJob } from "./class-and-job-quests";
 import { OtherQuests } from "./other-quests";
 import { Levequests } from "./levequests";
@@ -9,10 +9,10 @@ import { Levequests } from "./levequests";
 export const Quests = {
     name: "Quest",
     subGroups: [
-        MainScenario,
+        MainScenarioQuests,
         ChroniclesOfANewEra,
         Sidequests,
-        BeastTribes,
+        BeastTribeQuests,
         ClassAndJob,
         OtherQuests,
         Levequests,
