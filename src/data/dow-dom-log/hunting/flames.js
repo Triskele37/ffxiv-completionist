@@ -1,5 +1,9 @@
 module.exports = {
     name: 'Flames',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Flames 01' },
         { name: 'Flames 02' },

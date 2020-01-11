@@ -1,5 +1,9 @@
 module.exports = {
     name: 'SB',
+    tableConfig: {
+        headers: ['#', 'Name', 'Zone', 'Location', 'Weather', 'Time', 'Emote'],
+        columnKeys: ['vista', 'name', 'zone', 'location', 'weather', 'time', 'emote']
+    },
     tasks: [
         { vista: '001', name: 'Castellum Velodyna', zone: 'The Fringes', location: 'Virdjala (21.9, 26.9, 0.8)', emote: 'Lookout' },
         { vista: '002', name: 'Gyr Kehim', zone: 'The Fringes', location: 'The Striped Hills (24.2, 16.3, 0.7)', emote: 'Lookout' },

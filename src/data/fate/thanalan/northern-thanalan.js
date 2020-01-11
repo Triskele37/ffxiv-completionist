@@ -1,5 +1,9 @@
 export const NorthernThanalanFATEs = {
     name: 'Northern',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 49,

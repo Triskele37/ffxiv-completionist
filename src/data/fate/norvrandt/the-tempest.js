@@ -1,5 +1,9 @@
 export const TheTempestFATEs = {
     name: 'The Tempest',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 79,

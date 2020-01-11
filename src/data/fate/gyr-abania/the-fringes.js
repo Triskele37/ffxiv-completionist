@@ -1,5 +1,9 @@
 export const TheFringesFATEs = {
     name: 'The Fringes',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 60,

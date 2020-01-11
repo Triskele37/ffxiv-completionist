@@ -6,32 +6,20 @@
         >
             <tr>
                 <th>&#10004;</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Points</th>
-                <th>Reward</th>
+
+                <th v-for="header in selectedGroup.tableConfig.headers">
+                    {{header}}
+                </th>
+
                 <th>Links</th>
             </tr>
             <tr v-for="task in selectedGroup.tasks">
                 <complete-cell :task="task" />
-                <td>
-                    {{task.name}}
+
+                <td v-for="columnKey in selectedGroup.tableConfig.columnKeys">
+                    {{task[columnKey]}}
                 </td>
-                <td id="tbl-description">
-                    {{task.description}}
-                </td>
-                <td>
-                    {{task.points}}
-                </td>
-                <td v-if="task.Title">
-                    Title: {{task.Title.name}}
-                </td>
-                <td v-else-if="task.Item">
-                    Item: {{task.Item.name}}
-                </td>
-                <td v-else>
-                    N/A
-                </td>
+
                 <external-cell :taskName="task.name" />
             </tr>
         </table>
@@ -78,7 +66,7 @@
 
     .task-table tr {
         background-color: #75748D;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #aaa;
     }
 
     .task-table tr:nth-child(even) {

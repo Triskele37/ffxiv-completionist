@@ -1,5 +1,9 @@
 export const OthardianFolklore = {
     name: 'Othardian Mining Folklore',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Zone', 'Locations'],
+        columnKeys: ['level', 'name', 'zone', 'locations']
+    },
     tasks: [
         {
             level: '70★',

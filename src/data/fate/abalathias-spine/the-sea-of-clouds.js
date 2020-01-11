@@ -1,5 +1,9 @@
 export const TheSeaOfCloudsFATEs = {
     name: 'The Sea of Clouds',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 50,

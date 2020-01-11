@@ -1,5 +1,9 @@
 export const ShBTrials = {
     name: "ShB",
+    tableConfig: {
+        headers: ['Level', 'iLvl', 'Name', 'Boss', 'Roulette', 'Unlock'],
+        columnKeys: ['level', 'iLvlReq', 'name', 'boss', 'roulette', 'unlock']
+    },
     tasks: [
         {
         	level: "73",

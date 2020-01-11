@@ -1,5 +1,9 @@
 export const MiningIshgardRestoration = {
     name: 'Ishgard Restoration',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Zone', 'Locations'],
+        columnKeys: ['level', 'name', 'zone', 'locations']
+    },
     tasks: [
         {
             level: '5',
