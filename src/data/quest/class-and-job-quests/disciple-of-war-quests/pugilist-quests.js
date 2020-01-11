@@ -1,5 +1,9 @@
 export const PugilistQuests = {
     name: "Pugilist",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "1",

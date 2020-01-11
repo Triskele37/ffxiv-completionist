@@ -1,5 +1,9 @@
 export const MonkQuests = {
     name: "Monk",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "30",

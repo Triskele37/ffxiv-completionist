@@ -5,6 +5,10 @@ export const SpecialQuests = {
     subGroups: [
         CollaborationQuests,
     ],
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "1",

@@ -1,5 +1,9 @@
 export const BlacksmithQuests = {
     name: "Blacksmith",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "1",

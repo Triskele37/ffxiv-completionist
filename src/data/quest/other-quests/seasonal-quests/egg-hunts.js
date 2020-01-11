@@ -1,5 +1,9 @@
 export const EggHunts = {
     name: "Egg Hunts",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "15",

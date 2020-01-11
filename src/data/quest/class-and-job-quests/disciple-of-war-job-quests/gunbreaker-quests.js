@@ -1,5 +1,9 @@
 export const GunbreakerQuests = {
     name: "Gunbreaker",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "60",

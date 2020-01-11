@@ -1,5 +1,9 @@
 export const LittleLadiesDayEvents = {
     name: "Little Ladies' Day",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "15",

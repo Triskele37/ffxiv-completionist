@@ -1,5 +1,9 @@
 export const NinjaQuests = {
     name: "Ninja",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "30",

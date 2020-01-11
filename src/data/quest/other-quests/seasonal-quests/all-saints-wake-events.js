@@ -1,5 +1,9 @@
 export const AllSaintsWakeEvents = {
     name: "All Saints' Wake",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "15",

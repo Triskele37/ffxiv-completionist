@@ -1,5 +1,9 @@
 export const TankRoleQuests = {
     name: "Tank Role",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "70",

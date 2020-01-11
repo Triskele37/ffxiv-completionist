@@ -1,5 +1,9 @@
 export const RisingEvents = {
     name: "Rising",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "15",

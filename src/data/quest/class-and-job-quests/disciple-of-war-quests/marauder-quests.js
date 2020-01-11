@@ -1,5 +1,9 @@
 export const MarauderQuests = {
     name: "Marauder",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "1",

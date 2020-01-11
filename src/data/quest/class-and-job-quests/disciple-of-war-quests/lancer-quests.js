@@ -1,5 +1,9 @@
 export const LancerQuests = {
     name: "Lancer",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "1",

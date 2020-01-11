@@ -1,5 +1,9 @@
 export const DancerQuests = {
     name: "Dancer",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "60",

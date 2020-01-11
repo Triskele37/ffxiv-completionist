@@ -11,6 +11,10 @@ export const RoleQuests = {
         PhysicalDPSQuests,
         MagicalDPSQuests,
     ],
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
         	level: "80",

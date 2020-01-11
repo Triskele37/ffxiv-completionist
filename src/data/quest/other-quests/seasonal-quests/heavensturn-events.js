@@ -1,5 +1,9 @@
 export const HeavensturnEvents = {
     name: "Heavensturn",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "15",

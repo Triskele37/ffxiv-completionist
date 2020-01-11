@@ -1,5 +1,9 @@
 export const BlueMageQuests = {
     name: "Blue Mage",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "50",

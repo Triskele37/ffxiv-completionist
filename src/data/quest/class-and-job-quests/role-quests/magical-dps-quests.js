@@ -1,5 +1,9 @@
 export const MagicalDPSQuests = {
     name: "Magical DPS",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "70",

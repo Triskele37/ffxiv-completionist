@@ -1,5 +1,9 @@
 export const OrderOfTheTwinAdderQuests = {
     name: "Order of the Twin Adder",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "30",

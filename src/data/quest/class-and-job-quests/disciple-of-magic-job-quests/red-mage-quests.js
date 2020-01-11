@@ -1,5 +1,9 @@
 export const RedMageQuests = {
     name: "Red Mage",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "50",

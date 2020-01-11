@@ -1,5 +1,9 @@
 export const ImmortalFlamesQuests = {
     name: "Immortal Flames",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "30",

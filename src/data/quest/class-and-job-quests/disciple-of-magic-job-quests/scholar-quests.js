@@ -1,5 +1,9 @@
 export const ScholarQuests = {
     name: "Scholar",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "30",

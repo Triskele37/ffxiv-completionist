@@ -1,5 +1,9 @@
 export const PaladinQuests = {
     name: "Paladin",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "30",

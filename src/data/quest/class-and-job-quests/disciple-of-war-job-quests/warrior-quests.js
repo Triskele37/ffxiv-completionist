@@ -1,5 +1,9 @@
 export const WarriorQuests = {
     name: "Warrior",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "30",

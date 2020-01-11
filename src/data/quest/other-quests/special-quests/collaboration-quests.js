@@ -1,5 +1,9 @@
 export const CollaborationQuests = {
     name: "Collaboration",
+    tableConfig: {
+        headers: ["Level", "Name"],
+        columnKeys: ["level", "name"]
+    },
     tasks: [
         {
             level: "70",

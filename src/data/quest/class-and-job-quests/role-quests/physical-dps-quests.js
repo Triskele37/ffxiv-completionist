@@ -1,5 +1,9 @@
 export const PhysicalDPSQuests = {
     name: "Physical DPS",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "70",

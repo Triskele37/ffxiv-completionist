@@ -1,5 +1,9 @@
 export const DarkKnightQuests = {
     name: "Dark Knight",
+	tableConfig: {
+		headers: ["Level", "Name"],
+		columnKeys: ["level", "name"]
+	},
     tasks: [
         {
         	level: "50",
