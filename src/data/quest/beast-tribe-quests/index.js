@@ -1,25 +1,37 @@
-import { AmaljAa } from "./amalj-aa";
-import { Sylph } from "./sylph";
-import { Kobold } from "./kobold";
-import { Sahagin } from "./sahagin";
-import { Ixal } from "./ixal";
+import { AmaljAaQuests } from "./amalj-aa";
+import { SylphQuests } from "./sylph";
+import { KoboldQuests } from "./kobold";
+import { SahaginQuests } from "./sahagin";
+import { IxalQuests } from "./ixal";
 
-import { VanuVanu } from "./vanu-vanu";
-import { Vath } from "./vath";
-import { Moogle } from "./moogle";
+import { VanuVanuQuests } from "./vanu-vanu";
+import { VathQuests } from "./vath";
+import { MoogleQuests } from "./moogle";
 
-import { Kojin } from "./kojin";
-import { Ananta } from "./ananta";
-import { Namazu } from "./namazu";
+import { KojinQuests } from "./kojin";
+import { AnantaQuests } from "./ananta";
+import { NamazuQuests } from "./namazu";
 
-import { Pixie } from "./pixie";
+import { PixieQuests } from "./pixie";
 
 export const BeastTribes = {
     name: "Beast Tribes",
     subGroups: [
-        AmaljAa, Sylph, Kobold, Sahagin, Ixal,
-        VanuVanu, Vath, Moogle,
-        Kojin, Ananta, Namazu,
-        Pixie,
+        //--------------------------------- ARR
+        AmaljAaQuests,
+        SylphQuests,
+        KoboldQuests,
+        SahaginQuests,
+        IxalQuests,
+        //--------------------------------- HW
+        VanuVanuQuests,
+        VathQuests,
+        MoogleQuests,
+        //--------------------------------- SB
+        KojinQuests,
+        AnantaQuests,
+        NamazuQuests,
+        //--------------------------------- ShB
+        PixieQuests,
     ]
 };

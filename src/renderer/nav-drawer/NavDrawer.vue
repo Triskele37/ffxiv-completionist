@@ -35,6 +35,5 @@
         width: 250px;
 
         overflow-x: hidden;
-        overflow-y: scroll;
     }
 </style>
