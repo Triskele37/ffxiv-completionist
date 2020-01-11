@@ -3,9 +3,9 @@ module.exports = {
 	subGroups: [
 		require('./battle/index.js'),
 		require('./character/index.js'),
-		{ name: 'PvP' },
+		require('./pvp/index.js'),
 		{ name: 'Item' },
-		{ name: 'Crafting' },
+		require('./crafting/index.js'),
 		{ name: 'Gathering' },
 		{ name: 'Quest' },
 		{ name: 'Exploration' },
