@@ -1,9 +1,9 @@
 export const ShBRaids = {
     name: "ShB",
-    tableConfig: {
-        headers: ['Level', 'iLvl', 'Name', 'Roulette', 'Unlock'],
-        columnKeys: ['level', 'iLvlReq', 'name', 'roulette', 'unlock']
-    },
+	tableConfig: {
+		headers: ["Level", "iLvl", "Name", "Roulette", "Unlock"],
+		columnKeys: ["level", "iLvlReq", "name", "roulette", "unlock"]
+	},
     tasks: [
         {
         	level: "80",

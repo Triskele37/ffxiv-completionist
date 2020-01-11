@@ -1,9 +1,9 @@
-import { TheChurningMistsFATEs } from './the-churning-mists';
-import { TheDravanianForelandsFATEs } from './the-dravanian-forelands';
-import { TheDravanianHinterlandsFATEs } from './the-dravanian-hinterlands';
+import { TheChurningMistsFATEs } from "./the-churning-mists";
+import { TheDravanianForelandsFATEs } from "./the-dravanian-forelands";
+import { TheDravanianHinterlandsFATEs } from "./the-dravanian-hinterlands";
 
 export const DravaniaFATEs = {
-    name: 'Dravania',
+    name: "Dravania",
     subGroups: [
         TheChurningMistsFATEs,
         TheDravanianForelandsFATEs,

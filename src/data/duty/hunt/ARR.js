@@ -1,8 +1,8 @@
 export const ARRHunts = {
     name: "ARR",
     tableConfig: {
-        headers: ['Rank', 'Name', 'Condition', 'Location'],
-        columnKeys: ['rank', 'name', 'condition', 'location']
+        headers: ["Rank", "Name", "Condition", "Location"],
+        columnKeys: ["rank", "name", "condition", "location"]
     },
     tasks: [
     	{

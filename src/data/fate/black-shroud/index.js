@@ -1,10 +1,10 @@
-import { CentralShroudFATEs } from './central-shroud';
-import { EastShroudFATEs } from './east-shroud';
-import { NorthShroudFATEs } from './north-shroud';
-import { SouthShroudFATEs } from './south-shroud';
+import { CentralShroudFATEs } from "./central-shroud";
+import { EastShroudFATEs } from "./east-shroud";
+import { NorthShroudFATEs } from "./north-shroud";
+import { SouthShroudFATEs } from "./south-shroud";
 
 export const BlackShroudFATEs = {
-    name: 'Black Shroud',
+    name: "Black Shroud",
     subGroups: [
         CentralShroudFATEs,
         EastShroudFATEs,
@@ -12,15 +12,15 @@ export const BlackShroudFATEs = {
         SouthShroudFATEs
     ],
     tableConfig: {
-        headers: ['Level', 'Name', 'Location', 'Type'],
-        columnKeys: ['level', 'name', 'location', 'type']
+        headers: ["Level", "Name", "Location", "Type"],
+        columnKeys: ["level", "name", "location", "type"]
     },
     tasks: [
         {
             level: 50,
-            name: 'Steel Reign',
-            location: 'Sorrel Haven (14,18), Sorrel Haven (14,21), Hopeseed Pond (25,24), Proud Creek (16,27), Gelmorra Ruins (22,22), Alder Springs (26,21), Proud Creek (23,30), Larkscall (16,33), Nine Ivies (20,23), Lower Paths (33,23)',
-            type: 'Notorious Monster'
+            name: "Steel Reign",
+            location: "Sorrel Haven (14,18), Sorrel Haven (14,21), Hopeseed Pond (25,24), Proud Creek (16,27), Gelmorra Ruins (22,22), Alder Springs (26,21), Proud Creek (23,30), Larkscall (16,33), Nine Ivies (20,23), Lower Paths (33,23)",
+            type: "Notorious Monster"
         }
     ]
 };
