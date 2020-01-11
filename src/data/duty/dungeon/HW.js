@@ -1,5 +1,9 @@
 export const HWDungeons = {
     name: "HW",
+    tableConfig: {
+        headers: ['Level', 'iLvl', 'Name', 'Roulette', 'Unlock'],
+        columnKeys: ['level', 'iLvlReq', 'name', 'roulette', 'unlock']
+    },
     tasks: [
         {
         	level: "51",

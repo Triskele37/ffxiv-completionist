@@ -1,5 +1,9 @@
 module.exports = {
     name: 'PGL',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Pugilist 01' },
         { name: 'Pugilist 02' },

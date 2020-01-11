@@ -1,5 +1,9 @@
 export const TheAzimSteppeFATEs = {
     name: 'The Azim Steppe',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 65,

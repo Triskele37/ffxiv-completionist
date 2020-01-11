@@ -1,5 +1,9 @@
 export const PagosFATEs = {
     name: 'Pagos',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Light', 'Reward'],
+        columnKeys: ['level', 'name', 'location', 'light', 'reward']
+    },
     tasks: [
         {
         	level: 20,

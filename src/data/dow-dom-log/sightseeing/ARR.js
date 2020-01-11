@@ -1,5 +1,9 @@
 module.exports = {
     name: 'ARR',
+    tableConfig: {
+        headers: ['#', 'Name', 'Zone', 'Location', 'Weather', 'Time', 'Emote'],
+        columnKeys: ['vista', 'name', 'zone', 'location', 'weather', 'time', 'emote']
+    },
     tasks: [
         { vista: '01', name: 'Barracuda Piers', zone: 'Limsa Lominsa Upper Decks', location: 'The Bismarck (9,7)', weather: 'Clear Skies/Sunshine', time: '8AM-12PM', emote: 'Lookout' },
         { vista: '02', name: 'The Astalicia', zone: 'Limsa Lominsa Lower Decks', location: 'The Astalicia (7,15)', weather: 'Clear Skies/Sunshine', time: '6PM-5AM', emote: 'Lookout' },

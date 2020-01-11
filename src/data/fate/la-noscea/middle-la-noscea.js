@@ -1,5 +1,9 @@
 export const MiddleLaNosceaFATEs = {
     name: 'Middle',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 3,

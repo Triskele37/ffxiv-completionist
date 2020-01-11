@@ -1,5 +1,9 @@
 export const SBHunts = {
     name: "SB",
+    tableConfig: {
+        headers: ['Rank', 'Name', 'Condition', 'Location'],
+        columnKeys: ['rank', 'name', 'condition', 'location']
+    },
     tasks: [
         {
             rank: "B",

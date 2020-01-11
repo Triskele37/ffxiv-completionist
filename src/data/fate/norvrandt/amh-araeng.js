@@ -1,5 +1,9 @@
 export const AmhAraengFATEs = {
     name: 'Amh Araeng',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 70,
