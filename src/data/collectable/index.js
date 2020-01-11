@@ -1,13 +1,14 @@
 module.exports = {
     name: 'Collectable',
-    subGroups: [
-        { name: 'Aesthetician' },
-        { name: 'Barding' },
-        { name: 'Emote' },
-        { name: 'Minion' },
-        { name: 'Mount' },
+    subGroups:[
+        require('./aesthetician.js'),
+        require('./barding.js'),
+
+        require('./emote.js'),
+        require('./minion.js'),
+        require('./mount.js'),
         { name: 'Orchestrion' },
-        { name: 'Triple Triad - Card' },
-        { name: 'Triple Triad - Opponent' }
+        require('./tripletriad-card.js'),
+        require('./tripletriad-opponent.js'),
     ]
 };
