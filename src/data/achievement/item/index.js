@@ -6,10 +6,10 @@ module.exports = {
         columnKeys: ['name', 'description', 'points', 'reward']
     },
     subGroups: [
-		require('./animaweapons.js.js'),
+		require('./animaweapons.js'),
         require('./collectable.js'),
         require('./currency.js'),
-        require('./deepdungeons.js'),
+        require('./deepdungeon.js'),
         require('./desynthesis.js'),
         require('./eurekaweapons.js'),
         require('./materia.js'),
