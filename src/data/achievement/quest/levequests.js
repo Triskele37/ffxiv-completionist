@@ -1,264 +1,479 @@
-//https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Beast&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
+//https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Levequests&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 module.exports = {
-    name: 'Beast',
+    name: 'Levequests',
     tableConfig: {
         headers: ["Name", "Description", "Points", 'Reward'],
         columnKeys: ['name', 'description', 'points', 'reward']
     },
     tasks: [{
-        description: "Attain rank 1 reputation (neutral) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash I",
+        description: "Complete 10 regional battlecraft levequests.",
+        name: "All the More Region to Leve I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 2 reputation (recognized) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash II",
+        description: "Complete 20 regional battlecraft levequests.",
+        name: "All the More Region to Leve II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash III",
+        description: "Complete 50 regional battlecraft levequests.",
+        name: "All the More Region to Leve III",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 100 regional battlecraft levequests.",
+        name: "All the More Region to Leve IV",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 200 regional battlecraft levequests.",
+        name: "All the More Region to Leve V",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 500 regional battlecraft levequests.",
+        name: "All the More Region to Leve VI",
+        points: 10,
+        reward: "Title: Lord Protector"
+    }, {
+        description: "Complete 1,000 regional battlecraft levequests.",
+        name: "Region d'Etre",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Complete 10 local tradecraft levequests.",
+        name: "Think Global, Quest Local I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 20 local tradecraft levequests.",
+        name: "Think Global, Quest Local II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 50 local tradecraft levequests.",
+        name: "Think Global, Quest Local III",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 100 local tradecraft levequests.",
+        name: "Think Global, Quest Local IV",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 200 local tradecraft levequests.",
+        name: "Think Global, Quest Local V",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 500 local tradecraft levequests.",
+        name: "Think Global, Quest Local VI",
+        points: 10,
+        reward: "Title: Lord Creator"
+    }, {
+        description: "Complete 1,000 local tradecraft levequests.",
+        name: "Lost in Localization",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Complete 10 fieldcraft levequests.",
+        name: "In the Outfield I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 20 fieldcraft levequests.",
+        name: "In the Outfield II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 50 fieldcraft levequests.",
+        name: "In the Outfield III",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 100 fieldcraft levequests.",
+        name: "In the Outfield IV",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 200 fieldcraft levequests.",
+        name: "In the Outfield V",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 500 fieldcraft levequests.",
+        name: "In the Outfield VI",
+        points: 10,
+        reward: "Title: The Reaper"
+    }, {
+        description: "Complete 1,000 fieldcraft levequests.",
+        name: "Field of Dreams",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Complete 10 unique battlecraft levequests.",
+        name: "Uphill Battle I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 50 unique battlecraft levequests.",
+        name: "Uphill Battle II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique battlecraft levequests.",
+        name: "Uphill Battle III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Brotherhood of Ash.",
-        name: "A Real Bad Ash",
-        points: 20,
-        reward: "Title: Brother of Ash"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the sylphs of Little Solace.",
-        name: "Sylph-conscious I",
+        description: "Complete 5 unique carpenter levequests.",
+        name: "With Saw in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 2 reputation (recognized) with the sylphs of Little Solace.",
-        name: "Sylph-conscious II",
+        description: "Complete 20 unique carpenter levequests.",
+        name: "With Saw in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the sylphs of Little Solace.",
-        name: "Sylph-conscious III",
+        description: "Complete 40 unique carpenter levequests.",
+        name: "With Saw in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the sylphs of Little Solace.",
-        name: "Sylph-assured",
-        points: 20,
-        reward: "Title: Sylph-Friend"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold I",
+        description: "Complete 5 unique blacksmith levequests.",
+        name: "With Hammer in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 2 reputation (recognized) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold II",
+        description: "Complete 20 unique blacksmith levequests.",
+        name: "With Hammer in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold III",
+        description: "Complete 40 unique blacksmith levequests.",
+        name: "With Hammer in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the 789th Order kobolds.",
-        name: "Kobold as Brass",
-        points: 20,
-        reward: "Title: 789th Order Champion"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with Novv's Clutch.",
-        name: "Gilling Me Softly I",
+        description: "Complete 5 unique armorer levequests.",
+        name: "With Steel in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 2 reputation (recognized) with Novv's Clutch.",
-        name: "Gilling Me Softly II",
+        description: "Complete 20 unique armorer levequests.",
+        name: "With Steel in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with Novv's Clutch.",
-        name: "Gilling Me Softly III",
+        description: "Complete 40 unique armorer levequests.",
+        name: "With Steel in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with Novv's Clutch.",
-        name: "Licensed to Gill",
-        points: 20,
-        reward: "Title: Novv Clutchmate"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the Ehcatl Nine.",
-        name: "Bird Is the Word I",
+        description: "Complete 5 unique goldsmith levequests.",
+        name: "With Gem in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the Ehcatl Nine.",
-        name: "Bird Is the Word II",
+        description: "Complete 20 unique goldsmith levequests.",
+        name: "With Gem in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 5 reputation (respected) with the Ehcatl Nine.",
-        name: "Bird Is the Word III",
+        description: "Complete 40 unique goldsmith levequests.",
+        name: "With Gem in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Ehcatl Nine.",
-        name: "That's Ixal, Folks",
-        points: 20,
-        reward: "Title: Ehcatl Blackguard"
-    }, {
-        description: "Complete the quest \u201cFriends Forever.\u201d",
-        name: "Sore Thumb",
-        points: 20,
-        reward: "Title: The Negotiator"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the Gundu tribe.",
-        name: "When the Getting's Gundu I",
+        description: "Complete 5 unique leatherworker levequests.",
+        name: "With Skin in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the Gundu tribe.",
-        name: "When the Getting's Gundu II",
+        description: "Complete 20 unique leatherworker levequests.",
+        name: "With Skin in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 5 reputation (respected) with the Gundu tribe.",
-        name: "When the Getting's Gundu III",
+        description: "Complete 40 unique leatherworker levequests.",
+        name: "With Skin in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Gundu tribe.",
-        name: "Top Gundu",
-        points: 20,
-        reward: "Title: Sundrop Dancer"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Vath.",
-        name: "The Vath Less Troubled I",
+        description: "Complete 5 unique weaver levequests.",
+        name: "With Needle in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Vath.",
-        name: "The Vath Less Troubled II",
+        description: "Complete 20 unique weaver levequests.",
+        name: "With Needle in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 6 reputation (honored) with the Vath.",
-        name: "The Vath Less Troubled III",
+        description: "Complete 40 unique weaver levequests.",
+        name: "With Needle in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Vath.",
-        name: "Vathcore",
-        points: 20,
-        reward: "Title: The Newmind"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the Mogmenders of Moghome.",
-        name: "Mog Eat Mog I",
+        description: "Complete 5 unique alchemist levequests.",
+        name: "With Pestle in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 3 reputation (friendly) with the Mogmenders of Moghome.",
-        name: "Mog Eat Mog II",
+        description: "Complete 20 unique alchemist levequests.",
+        name: "With Pestle in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 5 reputation (respected) with the Mogmenders of Moghome.",
-        name: "Mog Eat Mog III",
+        description: "Complete 40 unique alchemist levequests.",
+        name: "With Pestle in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Mogmenders of Moghome.",
-        name: "Top Mog",
-        points: 20,
-        reward: "Title: Pom Friend"
-    }, {
-        description: "Complete the quest \u201cEternity, Loyalty, Honesty.\u201d",
-        name: "Hey Now, You're an All-star",
-        points: 20,
-        reward: "Title: Moonlifter"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Divine Circle.",
-        name: "To Kojin Is Divine I",
+        description: "Complete 5 unique culinarian levequests.",
+        name: "With Pan in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Divine Circle.",
-        name: "To Kojin Is Divine II",
+        description: "Complete 20 unique culinarian levequests.",
+        name: "With Pan in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 6 reputation (honored) with the Divine Circle.",
-        name: "To Kojin Is Divine III",
+        description: "Complete 40 unique culinarian levequests.",
+        name: "With Pan in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Divine Circle.",
-        name: "Divinity: Original Kojin",
-        points: 20,
-        reward: "Title: Of the Blue"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Velodyna Gatekeepers.",
-        name: "Call Me Snake I",
+        description: "Complete 5 unique miner levequests.",
+        name: "With Pick in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Velodyna Gatekeepers.",
-        name: "Call Me Snake II",
+        description: "Complete 20 unique miner levequests.",
+        name: "With Pick in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 6 reputation (honored) with the Velodyna Gatekeepers.",
-        name: "Call Me Snake III",
+        description: "Complete 40 unique miner levequests.",
+        name: "With Pick in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Velodyna Gatekeepers.",
-        name: "My Anantaconda",
-        points: 20,
-        reward: "Title: Snake in the Grass"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Seven Hundred Seventy-Seven.",
-        name: "Fish to Fry I",
+        description: "Complete 5 unique botanist levequests.",
+        name: "With Axe in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Seven Hundred Seventy-Seven.",
-        name: "Fish to Fry II",
+        description: "Complete 20 unique botanist levequests.",
+        name: "With Axe in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 6 reputation (honored) with the Seven Hundred Seventy-Seven.",
-        name: "Fish to Fry III",
+        description: "Complete 40 unique botanist levequests.",
+        name: "With Axe in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Seven Hundred Seventy-Seven.",
-        name: "In a Barrel",
-        points: 20,
-        reward: "Title: Siltwater Socialite"
-    }, {
-        description: "Complete the quest \u201cWhat a Wonder-full World.\u201d",
-        name: "West Meets East",
-        points: 20,
-        reward: "Title: Kageyama Killer"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Dreamspinners.",
-        name: "Bring Me a Dream I",
+        description: "Complete 5 unique fisher levequests.",
+        name: "With Bait in Hand I",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 4 reputation (trusted) with the Dreamspinners.",
-        name: "Bring Me a Dream II",
+        description: "Complete 20 unique fisher levequests.",
+        name: "With Bait in Hand II",
         points: 5,
         reward: "-"
     }, {
-        description: "Attain rank 6 reputation (honored) with the Dreamspinners.",
-        name: "Bring Me a Dream III",
+        description: "Complete 40 unique fisher levequests.",
+        name: "With Bait in Hand III",
         points: 10,
         reward: "-"
     }, {
-        description: "Attain rank 7 reputation (sworn) with the Dreamspinners.",
-        name: "Forever Young",
+        description: "Complete 5,000 regional battlecraft levequests.",
+        name: "All the More Region to Leve VII",
         points: 20,
-        reward: "Title: Sweet Dreamer"
+        reward: "-"
+    }, {
+        description: "Complete 5,000 local tradecraft levequests.",
+        name: "Think Global, Quest Local VII",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Complete 5,000 fieldcraft levequests.",
+        name: "In the Outfield VII",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Complete 150 unique battlecraft levequests.",
+        name: "Uphill Battle IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique carpenter levequests.",
+        name: "With Saw in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique blacksmith levequests.",
+        name: "With Hammer in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique armorer levequests.",
+        name: "With Steel in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique goldsmith levequests.",
+        name: "With Gem in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique leatherworker levequests.",
+        name: "With Skin in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique weaver levequests.",
+        name: "With Needle in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique alchemist levequests.",
+        name: "With Pestle in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique culinarian levequests.",
+        name: "With Pan in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 70 unique miner levequests.",
+        name: "With Pick in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 70 unique botanist levequests.",
+        name: "With Axe in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 70 unique fisher levequests.",
+        name: "With Bait in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique carpenter levequests.",
+        name: "With Saw in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique blacksmith levequests.",
+        name: "With Hammer in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique armorer levequests.",
+        name: "With Steel in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique goldsmith levequests.",
+        name: "With Gem in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique leatherworker levequests.",
+        name: "With Skin in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique weaver levequests.",
+        name: "With Needle in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique alchemist levequests.",
+        name: "With Pestle in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique culinarian levequests.",
+        name: "With Pan in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique botanist levequests.",
+        name: "With Axe in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique miner levequests.",
+        name: "With Pick in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique fisher levequests.",
+        name: "With Bait in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique carpenter levequests.",
+        name: "With Saw in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique blacksmith levequests.",
+        name: "With Hammer in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique armorer levequests.",
+        name: "With Steel in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique goldsmith levequests.",
+        name: "With Gem in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique leatherworker levequests.",
+        name: "With Skin in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique weaver levequests.",
+        name: "With Needle in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique alchemist levequests.",
+        name: "With Pestle in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique culinarian levequests.",
+        name: "With Pan in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 90 unique botanist levequests.",
+        name: "With Axe in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 90 unique miner levequests.",
+        name: "With Pick in Hand VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 90 unique fisher levequests.",
+        name: "With Bait in Hand VI",
+        points: 10,
+        reward: "-"
     }]
 }
