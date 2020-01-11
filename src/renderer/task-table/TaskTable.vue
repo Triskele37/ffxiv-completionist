@@ -1,8 +1,15 @@
 <template>
     <div id="item-container">
+        <div
+            class="helper-error"
+            v-if="selectedGroup && selectedGroup.tasks && !selectedGroup.tableConfig"
+        >
+            Error: Tasks exist with no table config for {{selectedGroup.name}}
+        </div>
+
         <table
             class="task-table"
-            v-if="selectedGroup && selectedGroup.tasks && selectedGroup.tasks.length > 0"
+            v-if="showTable"
         >
             <tr>
                 <th>&#10004;</th>
@@ -42,15 +49,27 @@
         computed: {
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup'
-            })
-        },
-        methods: {
+            }),
+            showTable: function() {
+                // No group
+                if(!this.selectedGroup) return false;
 
+                // No tasks
+                if(!this.selectedGroup.tasks) return false;
+                if(this.selectedGroup.tasks.length === 0) return false;
+
+                // No tableConfig
+                return !!this.selectedGroup.tableConfig;
+            }
         }
     }
 </script>
 
 <style>
+    .helper-error {
+        background-color: red;
+    }
+
     /*---------------------- Item List ----------------------*/
     #item-container {
         height: calc(100% - 140px);
