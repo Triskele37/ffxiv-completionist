@@ -1,7 +1,7 @@
 import { BattlecraftLeves } from "./battlecraft-leves";
 import { MiningLeves } from "./mining-leves";
-// import { BotanyLeves } from "./botany-leves";
-// import { FishingLeves } from "./fishing-leves";
+import { BotanyLeves } from "./botany-leves";
+import { FishingLeves } from "./fishing-leves";
 // import { CarpentryLeves } from "./carpentry-leves";
 // import { BlacksmithingLeves } from "./blacksmithing-leves";
 // import { ArmoringLeves } from "./armoring-leves";
@@ -10,15 +10,14 @@ import { MiningLeves } from "./mining-leves";
 // import { ClothcraftingLeves } from "./clothcrafting-leves";
 // import { AlchemyLeves } from "./alchemy-leves";
 // import { CookingLeves } from "./cooking-leves";
-import { CompanyLeves } from "./company-leves";
 
 export const Levequests = {
     name: "Levequests",
     subGroups: [
         BattlecraftLeves,
         MiningLeves,
-        // BotanyLeves,
-        // FishingLeves,
+        BotanyLeves,
+        FishingLeves,
         // CarpentryLeves,
         // BlacksmithingLeves,
         // ArmoringLeves,
@@ -27,6 +26,5 @@ export const Levequests = {
         // ClothcraftingLeves,
         // AlchemyLeves,
         // CookingLeves,
-        CompanyLeves,
     ]
 };

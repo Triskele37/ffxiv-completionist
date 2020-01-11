@@ -27,7 +27,6 @@ export const data = [
     Logs,
     FATEs,
     GatheringLogs,
-    require("./leve"),
     Duty,
     Quests
 ];
