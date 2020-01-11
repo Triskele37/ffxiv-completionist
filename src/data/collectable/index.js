@@ -7,7 +7,7 @@ module.exports = {
         require('./emote.js'),
         require('./minion.js'),
         require('./mount.js'),
-        { name: 'Orchestrion' },
+        require('./orchestrion/index.js'),
         require('./tripletriad-card.js'),
         require('./tripletriad-opponent.js'),
     ]
