@@ -1,16 +1,16 @@
-import { Logging } from './logging';
-import { Harvesting } from './harvesting';
-import { Mining } from './mining';
-import { Quarrying } from './quarrying';
+import { LoggingLog } from "./logging";
+import { HarvestingLog } from "./harvesting";
+import { MiningLog } from "./mining";
+import { QuarryingLog } from "./quarrying";
 
 export const GatheringLogs = {
-    name: 'Gathering',
+    name: "Gathering",
     subGroups: [
-        Logging,
-        Harvesting,
-        Mining,
-        Quarrying,
-        { name: 'FSH - Catch' },
-        { name: 'FSH - Guide' }
+        LoggingLog,
+        HarvestingLog,
+        MiningLog,
+        QuarryingLog,
+        { name: "FSH - Catch" },
+        { name: "FSH - Guide" }
     ]
 };
