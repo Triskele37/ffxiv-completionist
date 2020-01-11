@@ -1,5 +1,9 @@
 export const IlMhegFATEs = {
     name: 'Il Mheg',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 72,

@@ -1,5 +1,9 @@
 export const EastShroudFATEs = {
     name: 'East',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 11,

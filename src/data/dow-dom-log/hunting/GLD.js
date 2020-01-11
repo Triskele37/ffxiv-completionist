@@ -1,5 +1,9 @@
 module.exports = {
     name: 'GLD',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Gladiator 01' },
         { name: 'Gladiator 02' },

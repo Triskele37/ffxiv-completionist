@@ -2,6 +2,10 @@
 
 module.exports = {
     name: 'Battle',
+    tableConfig: {
+        headers: ['Name', 'Description', 'Points', 'Reward'],
+        columnKeys: ['name', 'description', 'points', 'reward']
+    },
     subGroups: [
 		require('./dungeons.js'),
         require('./hunt.js'),

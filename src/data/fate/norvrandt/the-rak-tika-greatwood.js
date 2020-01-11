@@ -1,5 +1,9 @@
 export const TheRakTikaGreatwoodFATEs = {
     name: 'The Rak\'Tika Greatwood',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 74,

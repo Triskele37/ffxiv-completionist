@@ -1,5 +1,9 @@
 module.exports = {
     name: 'MRD',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Marauder 01' },
         { name: 'Marauder 02' },

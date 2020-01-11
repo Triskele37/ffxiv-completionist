@@ -1,5 +1,9 @@
 export const KholusiaFATEs = {
     name: 'Kholusia',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 70,

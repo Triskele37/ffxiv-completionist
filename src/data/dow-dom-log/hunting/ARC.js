@@ -1,5 +1,9 @@
 module.exports = {
     name: 'ARC',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Archer 01' },
         { name: 'Archer 02' },

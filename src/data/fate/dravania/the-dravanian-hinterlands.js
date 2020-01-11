@@ -1,5 +1,9 @@
 export const TheDravanianHinterlandsFATEs = {
     name: 'The Dravanian Hinterlands',
+    tableConfig: {
+        headers: ['Level', 'Name', 'Location', 'Type'],
+        columnKeys: ['level', 'name', 'location', 'type']
+    },
     tasks: [
         {
         	level: 58,

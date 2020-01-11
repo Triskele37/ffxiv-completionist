@@ -1,5 +1,9 @@
 module.exports = {
     name: 'HW',
+    tableConfig: {
+        headers: ['#', 'Name', 'Zone', 'Location', 'Weather', 'Time', 'Emote'],
+        columnKeys: ['vista', 'name', 'zone', 'location', 'weather', 'time', 'emote']
+    },
     tasks: [
         { vista: '01', name: 'Falcon\'s Nest', zone: 'Coerthas Western Highlands', location: 'Riversmeet (32, 36.2, 2.4)', emote: 'Lookout' },
         { vista: '02', name: 'Camp Riversmeet', zone: 'Coerthas Western Highlands', location: 'Twinpools (20.8, 23.1, 1.7)', emote: 'Lookout' },

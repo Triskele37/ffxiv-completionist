@@ -1,5 +1,9 @@
 module.exports = {
     name: 'Twin Adder',
+    tableConfig: {
+        headers: ['Name'],
+        columnKeys: ['name']
+    },
     tasks: [
         { name: 'Twin Adder 01' },
         { name: 'Twin Adder 02' },
