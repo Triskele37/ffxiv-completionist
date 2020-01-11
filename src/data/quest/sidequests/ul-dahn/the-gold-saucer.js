@@ -1,5 +1,9 @@
 export const TheGoldSaucer = {
     name: "The Gold Saucer",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "15",

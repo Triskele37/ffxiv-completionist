@@ -1,5 +1,9 @@
 export const TheSeaOfClouds = {
     name: "The Sea of Clouds",
+	tableConfig: {
+    	headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "50",

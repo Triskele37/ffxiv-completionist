@@ -1,5 +1,9 @@
 export const CoerthasCentralHighlands = {
     name: "Coerthas Central Highlands",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "35",

@@ -1,5 +1,9 @@
 export const RhalgrsReach = {
     name: "Rhalgr's Reach",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "60",

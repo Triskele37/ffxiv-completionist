@@ -1,5 +1,9 @@
 export const TheRubySea = {
     name: "The Ruby Sea",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "61",

@@ -1,5 +1,9 @@
 export const TheDravanianHinterlands = {
     name: "The Dravanian Hinterlands",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "58",

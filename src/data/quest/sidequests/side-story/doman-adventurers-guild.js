@@ -1,5 +1,9 @@
 export const DomanAdventurersGuild = {
     name: "Doman Adventurers' Guild",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "54",

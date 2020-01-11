@@ -1,5 +1,9 @@
 export const UpperLaNoscea = {
     name: "Upper La Noscea",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "23",

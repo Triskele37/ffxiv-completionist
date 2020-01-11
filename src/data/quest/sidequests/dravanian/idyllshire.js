@@ -1,5 +1,9 @@
 export const Idyllshire = {
     name: "Idyllshire",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "1",

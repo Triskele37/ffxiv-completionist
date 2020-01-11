@@ -1,5 +1,9 @@
 export const UlDah = {
     name: "Ul'dah",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "1",

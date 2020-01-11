@@ -1,5 +1,9 @@
 export const WanderingMinstrel = {
     name: "Wandering Minstrel",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "50",

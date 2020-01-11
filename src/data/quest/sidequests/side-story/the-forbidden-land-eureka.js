@@ -1,5 +1,9 @@
 export const TheForbiddenLandEureka = {
     name: "The Forbidden Land, Eureka",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

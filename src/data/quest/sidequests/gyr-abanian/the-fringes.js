@@ -1,5 +1,9 @@
 export const TheFringes = {
     name: "The Fringes",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "60",

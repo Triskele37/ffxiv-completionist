@@ -1,5 +1,9 @@
 export const SouthShroud = {
     name: "South Shroud",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "17",

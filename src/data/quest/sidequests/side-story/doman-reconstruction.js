@@ -1,5 +1,9 @@
 export const DomanReconstruction = {
     name: "Doman Reconstruction",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

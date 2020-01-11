@@ -1,5 +1,9 @@
 export const TheRakTikaGreatwood = {
     name: "The Rak'Tika Greatwood",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

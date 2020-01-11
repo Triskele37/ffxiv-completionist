@@ -1,5 +1,9 @@
 export const IlMheg = {
     name: "Il Mheg",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "70",

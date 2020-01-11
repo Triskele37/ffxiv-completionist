@@ -1,5 +1,9 @@
 export const CentralThanalan = {
     name: "Central Thanalan",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "6",

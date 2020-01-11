@@ -1,5 +1,9 @@
 export const TheWakingSands = {
     name: "The Waking Sands",
+	tableConfig: {
+		headers: ["Level", "Name", "NPC", "Unlock"],
+		columnKeys: ["level", "name", "npc", "unlock"]
+	},
     tasks: [
         {
         	level: "46",
