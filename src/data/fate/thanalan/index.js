@@ -1,11 +1,11 @@
-import { CentralThanalanFATEs } from './central-thanalan';
-import { EasternThanalanFATEs } from './eastern-thanalan';
-import { NorthernThanalanFATEs } from './northern-thanalan';
-import { SouthernThanalanFATEs } from './southern-thanalan';
-import { WesternThanalanFATEs } from './western-thanalan';
+import { CentralThanalanFATEs } from "./central-thanalan";
+import { EasternThanalanFATEs } from "./eastern-thanalan";
+import { NorthernThanalanFATEs } from "./northern-thanalan";
+import { SouthernThanalanFATEs } from "./southern-thanalan";
+import { WesternThanalanFATEs } from "./western-thanalan";
 
 export const ThanalanFATEs = {
-    name: 'Thanalan',
+    name: "Thanalan",
     subGroups: [
         CentralThanalanFATEs,
         EasternThanalanFATEs,

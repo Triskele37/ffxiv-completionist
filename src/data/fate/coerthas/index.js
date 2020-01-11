@@ -1,8 +1,8 @@
-import { CentralCoerthasFATEs } from './central-coerthas';
-import { WesternCoerthasFATEs } from './western-coerthas';
+import { CentralCoerthasFATEs } from "./central-coerthas";
+import { WesternCoerthasFATEs } from "./western-coerthas";
 
 export const CoerthasFATEs = {
-    name: 'Coerthas',
+    name: "Coerthas",
     subGroups: [
         CentralCoerthasFATEs,
         WesternCoerthasFATEs
