@@ -1,3 +1,5 @@
+// Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=37&columns=ID,Name
+// Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=38&columns=ID,Name
 export const MoogleQuests = {
     name: "Moogle",
     tableConfig: {

@@ -1,3 +1,5 @@
+// Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=31&columns=ID,Name
+// Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=32&columns=ID,Name
 export const IxalQuests = {
     name: "Ixal",
     tableConfig: {

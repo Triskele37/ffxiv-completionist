@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=18&columns=ID,Name&limit=5
 export const TheFourLords = {
     name: "The Four Lords",
 	tableConfig: {

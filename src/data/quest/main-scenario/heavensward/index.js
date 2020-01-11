@@ -1,6 +1,7 @@
 import { ArtoirelQuests } from "./artoirel";
 import { EmmanellainQuests } from "./emmanellain";
 
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=3&columns=ID,Name&limit=94
 export const HeavenswardQuests = {
     name: "Heavensward",
     subGroups: [

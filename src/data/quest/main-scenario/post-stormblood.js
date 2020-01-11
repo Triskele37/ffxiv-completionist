@@ -1,3 +1,5 @@
+
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
 export const PostStormbloodQuests = {
     name: "Post-Stormblood",
     tableConfig: {

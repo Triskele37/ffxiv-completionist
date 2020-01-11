@@ -1,3 +1,5 @@
+
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=10
 export const PostShadowbringers = {
     name: "Post-Shadowbringers",
     tableConfig: {

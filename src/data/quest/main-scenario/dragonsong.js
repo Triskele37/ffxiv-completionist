@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=4&columns=ID,Name&limit=25
 export const DragonsongQuests = {
     name: "Dragonsong",
     tableConfig: {

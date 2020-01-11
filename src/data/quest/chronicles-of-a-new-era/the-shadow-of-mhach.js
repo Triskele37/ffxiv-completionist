@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=15&columns=ID,Name&limit=7
 export const TheShadowOfMhach = {
     name: "The Shadow of Mhach",
 	tableConfig: {

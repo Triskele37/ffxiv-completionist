@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=11&columns=ID,Name&limit=6
 export const Bahamut = {
     name: "Bahamut",
 	tableConfig: {

@@ -1,3 +1,5 @@
+// Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=33&columns=ID,Name
+// Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=34&columns=ID,Name
 export const VanuVanuQuests = {
     name: "Vanu Vanu",
     tableConfig: {

@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=19&columns=ID,Name
 export const Eden = {
     name: "Eden",
 	tableConfig: {

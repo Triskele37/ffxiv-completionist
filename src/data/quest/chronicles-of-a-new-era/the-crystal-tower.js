@@ -1,3 +1,8 @@
+/*
+https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=12&columns=ID,Name&limit=11
+
+api contains 2 "Legacy of Allag"s?
+*/
 export const TheCrystalTower = {
     name: "The Crystal Tower",
 	tableConfig: {

@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=20&columns=ID,Name
 export const YoRHaDarkApocalypse = {
     name: "YoRHa: Dark Apocalypse",
 	tableConfig: {

@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=17&columns=ID,Name&limit=12
 export const ReturnToIvalice = {
     name: "Return to Ivalice",
 	tableConfig: {

@@ -1,3 +1,4 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=16&columns=ID,Name&limit=15
 export const Omega = {
     name: "Omega",
 	tableConfig: {

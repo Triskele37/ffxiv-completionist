@@ -1,3 +1,5 @@
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=10&columns=ID,Name&limit=15
+
 export const Primals = {
     name: "Primals",
 	tableConfig: {

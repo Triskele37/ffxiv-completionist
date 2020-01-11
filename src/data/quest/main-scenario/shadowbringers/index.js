@@ -1,6 +1,7 @@
 import { AlphinaudQuests } from "./alphinaud";
 import { AlisaieQuests } from "./alisaie";
 
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=106
 export const ShadowbringersQuests = {
     name: "Shadowbringers",
     subGroups: [
@@ -51,7 +52,8 @@ export const ShadowbringersQuests = {
         	level: "72",
         	name: "Logistics of War",
         	npc: "Szem Dzenmai",
-        	unlock: "Aether Current"
+        	unlock: "Aether Current",
+			xivapi: "/Quest/68840"
         }, {
         	level: "72",
         	name: "The Oracle of Light",
@@ -131,7 +133,8 @@ export const ShadowbringersQuests = {
         	level: "73",
         	name: "Acht-la Ormh Inn",
         	npc: "Seto",
-        	unlock: "The Dancing Plague, Aether Current"
+        	unlock: "The Dancing Plague, Aether Current",
+			xivapi: "/Quest/68856"
         }, {
         	level: "73",
         	name: "The Wheel Turns",
@@ -321,7 +324,8 @@ export const ShadowbringersQuests = {
         	level: "77",
         	name: "A Fresh Start",
         	npc: "Ryne",
-        	unlock: "Malikah's Well, Aether Current"
+        	unlock: "Malikah's Well, Aether Current",
+			xivapi: "/Quest/59157"
         }, {
         	level: "77",
         	name: "More than a Hunch",
@@ -396,7 +400,8 @@ export const ShadowbringersQuests = {
         	level: "79",
         	name: "Extinguishing the Last Light",
         	npc: "Chai-Nuzz",
-        	unlock: "Mt. Gulg, The Crown of the Immaculate, Aether Current"
+        	unlock: "Mt. Gulg, The Crown of the Immaculate, Aether Current",
+			xivapi: "/Quest/69179"
         }, {
         	level: "79",
         	name: "Reassuring the Masses",

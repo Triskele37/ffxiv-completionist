@@ -11,6 +11,15 @@ import { ClothcraftingLeves } from "./tradecraft/clothcrafting-leves";
 import { AlchemyLeves } from "./tradecraft/alchemy-leves";
 import { CookingLeves } from "./tradecraft/cooking-leves";
 
+/*
+https://xivapi/search
+    ?indexes=Leve
+    &filters=ClassJobCategory.Name=CRP
+    &columns=ID,Name,ClassJobLevel,PlaceNameStart.Name
+
+    having trouble targeting the issuing npc
+*/
+
 export const Levequests = {
     name: "Levequests",
     subGroups: [

@@ -1,6 +1,7 @@
 import { MNaagoQuests } from "./m-naago";
 import { MeffridQuests } from "./meffrid";
 
+// https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=6&columns=ID,Name&limit=122
 export const StormbloodQuests = {
     name: "Stormblood",
     subGroups: [
