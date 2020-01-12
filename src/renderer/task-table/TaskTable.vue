@@ -72,9 +72,9 @@
 
     /*---------------------- Item List ----------------------*/
     #item-container {
-        height: calc(100% - 140px);
-        margin: 0 20px 20px 20px;
-        overflow-y: scroll;
+        height: calc(100% - 150px);
+        margin: 0 10px;
+        overflow-y: auto;
     }
 
     .task-table {
@@ -96,6 +96,13 @@
         background-color: #3282B8;
         position: sticky;
         top: 0;
+
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .task-table th:hover {
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .task-table td {

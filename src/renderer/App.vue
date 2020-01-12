@@ -3,10 +3,7 @@
         <nav-drawer />
 
         <span id="right-container">
-            <div id="stat-bar">
-
-            </div>
-
+            <stat-bar />
             <breadcrumbs />
             <task-table />
         </span>
@@ -14,13 +11,15 @@
 </template>
 
 <script>
-    import NavDrawer from './nav-drawer/NavDrawer.vue';
-    import Breadcrumbs from './breadcrumbs/Breadcrumbs.vue';
-    import TaskTable from './task-table/TaskTable.vue';
+    import NavDrawer from './nav-drawer/NavDrawer';
+    import StatBar from './stat-bar/StatBar';
+    import Breadcrumbs from './breadcrumbs/Breadcrumbs';
+    import TaskTable from './task-table/TaskTable';
 
     export default {
         components: {
             'nav-drawer': NavDrawer,
+            'stat-bar': StatBar,
             'breadcrumbs': Breadcrumbs,
             'task-table': TaskTable,
         },
@@ -59,8 +58,20 @@
         vertical-align: top;
     }
 
-    /*---------------------- Status Bar ----------------------*/
-    #stat-bar {
-        height: 100px;
+    /*---------------------- Scrollbar Override ----------------------*/
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #BBE1FA;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #0F4C75;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #3282B8;
     }
 </style>

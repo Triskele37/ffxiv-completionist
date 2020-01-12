@@ -1,5 +1,9 @@
 export const TheMaskedCarnivale = {
     name: "The Masked Carnivale",
+    tableConfig: {
+        headers: ["Level", "Name", "Standard Time", "Ideal Time"],
+        columnKeys: ["level", "name", "standardTime", "idealTime"]
+    },
     tasks: [
         {
             level: "1",

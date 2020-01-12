@@ -58,7 +58,8 @@
             },
             buttonStyle: function() {
                 return {
-                    filter: `brightness(${100 - this.degree * 15}%)`,
+                    // 'filter': `brightness(${100 - this.degree * 30}%)`,
+                    'background-color': `rgba(0, 0, 0, 0.${this.degree * 2})`,
                     'padding-left': `${(this.degree * 5) + 5}px`
                 };
             }
@@ -98,11 +99,11 @@
     }
 
     .nav-bar-button:hover {
-        background-color: rgba(0, 0, 0, 0.3);
+        filter: brightness(150%);
         cursor: pointer;
     }
 
     .nav-bar-button:active {
-        background-color: rgba(0, 0, 0, 0.2);
+        filter: brightness(50%);
     }
 </style>

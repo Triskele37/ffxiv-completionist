@@ -48,4 +48,8 @@
     .external-link-cell {
         width: 45px;
     }
+
+    .external-link-cell img {
+        cursor: pointer;
+    }
 </style>
