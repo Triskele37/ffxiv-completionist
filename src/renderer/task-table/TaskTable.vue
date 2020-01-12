@@ -60,7 +60,7 @@
 
                 // No tableConfig
                 return !!this.selectedGroup.tableConfig;
-            }
+            },
         }
     }
 </script>
@@ -93,7 +93,9 @@
     }
 
     .task-table th {
-
+        background-color: #3282B8;
+        position: sticky;
+        top: 0;
     }
 
     .task-table td {

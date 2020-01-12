@@ -12,7 +12,6 @@ module.exports = {
         require('./dravania.js'),
         require('./duty.js'),
         require('./lanoscea.js'),
-        require('./duty.js'),
         require('./mordhona.js'),
         require('./norvrandt.js'),
         require('./othard.js'),
