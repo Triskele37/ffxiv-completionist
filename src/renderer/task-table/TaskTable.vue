@@ -84,12 +84,12 @@
     }
 
     .task-table tr {
-        background-color: #75748D;
-        border-bottom: 1px solid #aaa;
+        background-color: #3282B8;
+        border-bottom: 1px solid black;
     }
 
     .task-table tr:nth-child(even) {
-        background-color: #64639C;
+        background-color: #0F4C75;
     }
 
     .task-table th {

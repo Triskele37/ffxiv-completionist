@@ -58,7 +58,7 @@
             },
             buttonStyle: function() {
                 return {
-                    filter: `brightness(${100 - this.degree * 10}%)`,
+                    filter: `brightness(${100 - this.degree * 15}%)`,
                     'padding-left': `${(this.degree * 5) + 5}px`
                 };
             }
@@ -89,8 +89,8 @@
     }
 
     .nav-bar-button {
-        background-color: #7374A9;
-        border-top: 1px solid;
+        background-color: #0F4C75;
+        border-top: 2px solid black;
         height: 30px;
         line-height: 30px;
         padding: 0 5px;
@@ -98,11 +98,11 @@
     }
 
     .nav-bar-button:hover {
-        background-color: #9495B4;
+        background-color: rgba(0, 0, 0, 0.3);
         cursor: pointer;
     }
 
     .nav-bar-button:active {
-        background-color: #BBB8D4;
+        background-color: rgba(0, 0, 0, 0.2);
     }
 </style>

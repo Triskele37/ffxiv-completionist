@@ -49,6 +49,7 @@
 
 <style>
     .completed-cell {
+        color: black;
         cursor: pointer;
         text-align: center;
         user-select: none;
@@ -56,14 +57,14 @@
     }
 
     .completed-cell-y {
-        background-color: #6aa84f;
+        background-color: #0f7538;
     }
 
     .completed-cell-n {
-        background-color: #e06666;
+        background-color: #75190f;
     }
 
     .completed-cell-x {
-        background-color: #cccccc;
+        background-color: #aaa;
     }
 </style>

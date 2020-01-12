@@ -29,8 +29,10 @@
 
 <style>
     /*---------------------- Element Styles ----------------------*/
+    /* https://colorhunt.co/palette/167893 */
     body {
-        background-color: #53526B;
+        background-color: #1B262C;
+        color: #BBE1FA;
         height: 100vh;
         width: 100vw;
         margin: 0;

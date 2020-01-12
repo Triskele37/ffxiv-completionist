@@ -28,7 +28,7 @@
 <style>
     /*---------------------- Navigation Bar ----------------------*/
     #nav-drawer {
-        background-color: #7374A9;
+        background-color: #0F4C75;
         display: inline-block;
 
         height: 100%;
