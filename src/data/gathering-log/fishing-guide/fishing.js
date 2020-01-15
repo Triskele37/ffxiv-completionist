@@ -1,9 +1,8 @@
+import { FishingGuideColumnConfig } from "../columnConfigs";
+
 export const FishingGuideFishing = {
     name: "Fishing",
-    tableConfig: {
-        headers: ["iLVL", "Name", "Prime Location", "Fishing Holes", "Type", "Bait", "Usages", "Special"],
-        columnKeys: ["ilvl", "name", "primeLocation", "fishingHoles", "type", "bait", "usages", "special"]
-    },
+    columns: FishingGuideColumnConfig,
     tasks: [
         {
             ilvl: "4",

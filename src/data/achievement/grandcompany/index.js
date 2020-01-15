@@ -1,14 +1,18 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
+import { ImmortalFlamesGrandCompanyAchievements } from "./immortalflames";
+import { MaelstromGrandCompanyAchievements } from "./maelstrom";
+import { TwinAdderGrandCompanyAchievements } from "./twinadder";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Grand%20Company&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const GrandCompanyAchievements = {
     name: 'Grand Company',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     subGroups: [
-		require('./immortalflames.js'),
-        require('./maelstrom.js'),
-        require('./twinadder.js'),
+        ImmortalFlamesGrandCompanyAchievements,
+        MaelstromGrandCompanyAchievements,
+        TwinAdderGrandCompanyAchievements,
 	],
     tasks: [{
         description: "Complete level 20 caravan security in less than 12 minutes (Earth time).",

@@ -1,11 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 // https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Frontline&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-module.exports = {
+export const FrontlinePVPAchievements = {
 	name: 'Frontline',
-	tableConfig: {
-		headers: ['Name', 'Description', 'Points', 'Reward'],
-		columnKeys: ['name', 'description', 'points', 'reward']
-	},
+	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Participate in a Frontline campaign.",
 

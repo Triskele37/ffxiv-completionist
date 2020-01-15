@@ -1,20 +1,30 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
+import { AnimaWeaponItemAchievements } from "./animaweapons";
+import { CollectableItemAchievements } from "./collectable";
+import { CurrencyItemAchievements } from "./currency";
+import { DeepDungeonItemAchievements } from "./deepdungeon";
+import { DesynthesisItemAchievements } from "./desynthesis";
+import { EurekaWeaponItemAchievements } from "./eurekaweapons";
+import { MateriaItemAchievements } from "./materia";
+import { RelicWeaponItemAchievements } from "./relicweapons";
+import { ZodiacWeaponItemAchievements } from "./zodiacweapons";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const ItemAchievements = {
     name: 'Item',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     subGroups: [
-		require('./animaweapons.js'),
-        require('./collectable.js'),
-        require('./currency.js'),
-        require('./deepdungeon.js'),
-        require('./desynthesis.js'),
-        require('./eurekaweapons.js'),
-        require('./materia.js'),
-        require('./relicweapons.js'),
-        require('./zodiacweapons.js'),
+        AnimaWeaponItemAchievements,
+        CollectableItemAchievements,
+        CurrencyItemAchievements,
+        DeepDungeonItemAchievements,
+        DesynthesisItemAchievements,
+        EurekaWeaponItemAchievements,
+        MateriaItemAchievements,
+        RelicWeaponItemAchievements,
+        ZodiacWeaponItemAchievements,
 	],
     tasks: [{
         description: "Obtain a complete set of templar armor consisting of a templar's chain coif, a templar's haubergeon, a pair of templar's sollerets, and a set of templar's tassets.\n\n* Speak to Jonathas with all four items equipped.",

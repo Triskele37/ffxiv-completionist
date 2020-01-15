@@ -1,10 +1,13 @@
+import { QuestColumnConfig } from "../columnConfigs";
+
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=4&columns=ID,Name&limit=25
 export const DragonsongQuests = {
     name: "Dragonsong",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock", "Patch"],
-        columnKeys: ["level", "name", "npc", "unlock", "patch"]
-    },
+    columns: QuestColumnConfig.concat({
+        header: "Patch",
+        key: "patch",
+        filterable: true
+    }),
     tasks: [
         //------------------------------------------------------------------ As Goes Light, So Goes Darkness
         {

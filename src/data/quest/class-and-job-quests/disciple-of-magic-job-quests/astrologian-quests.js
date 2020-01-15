@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const AstrologianQuests = {
     name: "Astrologian",
-	tableConfig: {
-		headers: ["Level", "Name"],
-		columnKeys: ["level", "name"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "50",

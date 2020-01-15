@@ -1,14 +1,18 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
+import { BotanistGatheringAchievements } from "./botanist";
+import { FisherGatheringAchievements } from "./fisher";
+import { MinerGatheringAchievements } from "./miner";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Gathering&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const GatheringAchievements = {
     name: 'Gathering',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     subGroups: [
-		require('./botanist.js'),
-        require('./fisher.js'),
-        require('./miner.js'),
+        BotanistGatheringAchievements,
+        FisherGatheringAchievements,
+        MinerGatheringAchievements,
 	],
     tasks: [{
         description: "Quarry 10 times at level 1-10 rocky outcrops in La Noscea.",

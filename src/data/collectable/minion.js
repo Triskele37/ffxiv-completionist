@@ -1,9 +1,10 @@
 module.exports = {
     name: "Minions",
-    tableConfig: {
-        headers: ["Minion", "Method", "Unlock"],
-        columnKeys: ["minion", "method", "unlock"]
-    },
+    columns: [
+		{ header: 'Minion', key: 'minion', },
+		{ header: 'Method', key: 'method', },
+		{ header: 'Unlock', key: 'unlock' },
+	],
     tasks: [{
             "minion": "Abroader Otter",
             "method": "Voyages",

@@ -1,10 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Fisher&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const FisherGatheringAchievements = {
     name: 'Fisher',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     tasks: [{
         description: "Fish 20 times from level 1-10 waters in La Noscea.",
         name: "Good Things Come to Those Who Bait: La Noscea I",

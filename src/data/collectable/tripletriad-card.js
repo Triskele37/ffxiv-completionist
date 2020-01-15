@@ -1,9 +1,12 @@
 module.exports = {
     name: "Triple Triad Cards",
-    tableConfig: {
-        headers: ["Card", "Rarity", "Type", "Opponent", "Method of Unlock"],
-        columnKeys: ["card", "rarity", "type", "opponent", "unlock"]
-    },
+    columns: [
+		{ header: 'Card', key: 'card' },
+		{ header: 'Rarity', key: 'rarity', filterable: true },
+		{ header: 'Type', key: 'type', filterable: true },
+		{ header: 'Opponent', key: 'opponent', filterable: true },
+		{ header: 'Method of Unlock', key: 'unlock' },
+	],
     tasks: [
         {
           "card": "Ahriman Card",

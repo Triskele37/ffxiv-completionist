@@ -1,9 +1,8 @@
+import { SightseeingLogColumnConfig } from "../columnConfigs";
+
 export const SightseeingSB = {
     name: "SB",
-    tableConfig: {
-        headers: ["#", "Name", "Zone", "Location", "Weather", "Time", "Emote"],
-        columnKeys: ["vista", "name", "zone", "location", "weather", "time", "emote"]
-    },
+    columns: SightseeingLogColumnConfig,
     tasks: [
         {
             name: "Castellum Velodyna",

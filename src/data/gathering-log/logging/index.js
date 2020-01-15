@@ -1,3 +1,4 @@
+import { GatheringColumnConfig } from "../columnConfigs";
 import { LoggingLogSpecial } from "./special";
 
 export const LoggingLog = {
@@ -5,10 +6,7 @@ export const LoggingLog = {
     subGroups: [
 		LoggingLogSpecial,
     ],
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Locations"],
-        columnKeys: ["level", "name", "zone", "locations"]
-    },
+    columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- 1-5
         {

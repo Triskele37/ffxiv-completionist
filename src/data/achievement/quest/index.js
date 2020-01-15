@@ -1,13 +1,16 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
+import { BeastQuestAchievements } from "./beast";
+import { LeveQuestAchievements } from "./levequests";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Quest&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const QuestAchievements = {
     name: 'Quest',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     subGroups: [
-		require('./beast.js'),
-        require('./levequests.js'),
+        BeastQuestAchievements,
+        LeveQuestAchievements,
 	],
     tasks: [{
         description: "Complete the main scenario quest \u201cThe Lominsan Envoy.\u201d",

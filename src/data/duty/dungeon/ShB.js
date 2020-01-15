@@ -1,9 +1,8 @@
+import { DutyColumnConfig } from "../columnConfigs";
+
 export const ShBDungeons = {
     name: "ShB",
-    tableConfig: {
-        headers: ["Level", "iLvl", "Name", "Roulette", "Unlock"],
-        columnKeys: ["level", "iLvlReq", "name", "roulette", "unlock"]
-    },
+    columns: DutyColumnConfig,
     tasks: [
         {
         	level: "71",

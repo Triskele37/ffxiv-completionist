@@ -1,9 +1,8 @@
+import { FATEColumnConfig } from "../columnConfigs";
+
 export const TheLochsFATEs = {
     name: "The Lochs",
-    tableConfig: {
-        headers: ["Level", "Name", "Location", "Type"],
-        columnKeys: ["level", "name", "location", "type"]
-    },
+    columns: FATEColumnConfig,
     tasks: [
         {
         	level: "69",

@@ -1,10 +1,9 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=14&columns=ID,Name&limit=10
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const TheWarringTriad = {
     name: "The Warring Triad",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "60",

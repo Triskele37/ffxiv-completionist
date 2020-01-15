@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const TheSeaOfClouds = {
     name: "The Sea of Clouds",
-	tableConfig: {
-    	headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "50",

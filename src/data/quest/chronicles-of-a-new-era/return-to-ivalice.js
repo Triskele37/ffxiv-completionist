@@ -1,10 +1,9 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=17&columns=ID,Name&limit=12
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const ReturnToIvalice = {
     name: "Return to Ivalice",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "70",

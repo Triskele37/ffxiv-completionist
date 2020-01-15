@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const TheWakingSands = {
     name: "The Waking Sands",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "46",

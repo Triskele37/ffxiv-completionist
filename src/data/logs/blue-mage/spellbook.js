@@ -1,9 +1,11 @@
 export const BlueMageSpellbook = {
     name: "Spellbook",
-    tableConfig: {
-        headers: ["#", "Name", "Enemy", "Location"],
-        columnKeys: ["number", "spell", "enemy", "location"]
-    },
+    columns: [
+        { header: "#", key: "number" },
+        { header: "Spell", key: "spell" },
+        { header: "Enemy", key: "enemy" },
+        { header: "Location", key: "location" },
+    ],
     tasks: [
         {
             number: "1",

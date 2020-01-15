@@ -1,10 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Sightseeing&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const SightseeingExplorationAchievements = {
     name: 'Sightseeing',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     tasks: [{
         description: "Complete entries 1-20 in your sightseeing log.",
         name: "Out of Sight",

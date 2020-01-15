@@ -1,9 +1,8 @@
+import { SimpleQuestColumnConfig } from "../../columnConfigs";
+
 export const StarlightCelebrationEvents = {
     name: "Starlight Celebration",
-    tableConfig: {
-        headers: ["Level", "Name"],
-        columnKeys: ["level", "name"]
-    },
+    columns: SimpleQuestColumnConfig,
     tasks: [
         {
             level: "15",

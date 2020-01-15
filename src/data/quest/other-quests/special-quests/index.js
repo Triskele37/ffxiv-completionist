@@ -1,3 +1,4 @@
+import { SimpleQuestColumnConfig } from "../../columnConfigs";
 import { CollaborationQuests } from "./collaboration-quests";
 
 export const SpecialQuests = {
@@ -5,10 +6,7 @@ export const SpecialQuests = {
     subGroups: [
         CollaborationQuests,
     ],
-    tableConfig: {
-        headers: ["Level", "Name"],
-        columnKeys: ["level", "name"]
-    },
+    columns: SimpleQuestColumnConfig,
     tasks: [
         {
             level: "1",

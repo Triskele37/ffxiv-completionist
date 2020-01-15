@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const WarriorQuests = {
     name: "Warrior",
-	tableConfig: {
-		headers: ["Level", "Name"],
-		columnKeys: ["level", "name"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "30",

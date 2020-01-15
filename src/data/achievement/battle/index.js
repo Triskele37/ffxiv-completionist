@@ -1,17 +1,22 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
+import { DungeonBattleAchievements } from "./dungeons";
+import { HuntBattleAchievements } from "./hunt";
+import { RaidBattleAchievements } from "./raids";
+import { TrialBattleAchievements } from "./trials";
+import { TreasureHuntBattleAchievements } from "./treasurehunt";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 
-module.exports = {
+export const BattleAchievements = {
     name: 'Battle',
-    tableConfig: {
-        headers: ['Name', 'Description', 'Points', 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     subGroups: [
-		require('./dungeons.js'),
-        require('./hunt.js'),
-        require('./raids.js'),
-        require('./trials.js'),
-        require('./treasurehunt.js'),
+        DungeonBattleAchievements,
+        HuntBattleAchievements,
+        RaidBattleAchievements,
+        TrialBattleAchievements,
+        TreasureHuntBattleAchievements,
 	],
     tasks: [{
         "description": "Defeat 100 enemies.",

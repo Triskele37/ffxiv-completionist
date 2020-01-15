@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const MatoyasCave = {
     name: "Matoya's Cave",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "59",

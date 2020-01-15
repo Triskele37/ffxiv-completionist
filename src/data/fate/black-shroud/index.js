@@ -1,3 +1,5 @@
+import { FATEColumnConfig } from "../columnConfigs";
+
 import { CentralShroudFATEs } from "./central-shroud";
 import { EastShroudFATEs } from "./east-shroud";
 import { NorthShroudFATEs } from "./north-shroud";
@@ -11,10 +13,7 @@ export const BlackShroudFATEs = {
         NorthShroudFATEs,
         SouthShroudFATEs
     ],
-    tableConfig: {
-        headers: ["Level", "Name", "Location", "Type"],
-        columnKeys: ["level", "name", "location", "type"]
-    },
+    columns: FATEColumnConfig,
     tasks: [
         {
             level: 50,

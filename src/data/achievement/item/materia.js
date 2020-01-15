@@ -1,10 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Materia&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const MateriaItemAchievements = {
     name: 'Materia',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully affix 10 materia.",
         name: "Getting Too Attached I",

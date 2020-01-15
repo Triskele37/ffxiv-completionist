@@ -1,9 +1,8 @@
+import { BlueMageLogColumnConfig } from "../../columnConfigs";
+
 export const BlueMageDungeons = {
     name: "Dungeons",
-    tableConfig: {
-        headers: ["Level", "iLvl Req", "Name"],
-        columnKeys: ["level", "iLvlReq", "name"]
-    },
+    columns: BlueMageLogColumnConfig,
     tasks: [
         {
             level: "50",

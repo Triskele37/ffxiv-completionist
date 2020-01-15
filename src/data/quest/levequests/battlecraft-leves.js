@@ -1,9 +1,8 @@
+import { LeveQuestColumnConfig } from "../columnConfigs";
+
 export const BattlecraftLeves = {
     name: "Battlecraft",
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Location", "NPC", "Company"],
-        columnKeys: ["level", "name", "zone", "location", "npc", "company"]
-    },
+    columns: LeveQuestColumnConfig.concat({ header: "Company", key: "company" }),
     tasks: [
         //------------------------------------------------------------------ 1-5
         {

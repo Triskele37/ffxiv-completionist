@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const MarauderQuests = {
     name: "Marauder",
-	tableConfig: {
-		headers: ["Level", "Name"],
-		columnKeys: ["level", "name"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "1",
@@ -29,6 +28,6 @@ export const MarauderQuests = {
         }, {
         	level: "30",
         	name: "Bringing Down the Mountain"
-        }, 
+        },
     ]
 };

@@ -1,9 +1,8 @@
-module.exports = {
+import { OrchestrionColumnConfig } from "./columnConfig";
+
+export const OrchestrionTrial = {
     name: "Trials",
-    tableConfig: {
-        headers: ["Number", "Orchestrion Roll", "Method Type", "Unlock"],
-        columnKeys: ["number", "roll", "method", "unlock"]
-    },
+    columns: OrchestrionColumnConfig,
     tasks: [{
             "number": 1,
             "roll": "Torn from the Heavens",

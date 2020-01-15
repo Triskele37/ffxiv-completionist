@@ -1,23 +1,34 @@
-//https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Exploration&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
-    name: 'Exploration',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
-    subGroups: [
-        require('./abalathiaspine.js'),
-        require('./blackshroud.js'),
-        require('./coerthas.js'),
-        require('./dravania.js'),
-        require('./duty.js'),
-        require('./lanoscea.js'),
-        require('./mordhona.js'),
-        require('./norvrandt.js'),
-        require('./othard.js'),
-        require('./sightseeing.js'),
-        require('./thanalan.js'),
+import { AchievementColumnConfig } from "../columnConfigs";
 
+import { AbalathiasSpineExplorationAchievements } from "./abalathiaspine";
+import { BlackShroudExplorationAchievements } from "./blackshroud";
+import { CoerthasExplorationAchievements } from "./coerthas";
+import { DravaniaExplorationAchievements } from "./dravania";
+import { DutyExplorationAchievements } from "./duty";
+import { LaNosceaExplorationAchievements } from "./lanoscea";
+import { MorDhonaExplorationAchievements } from "./mordhona";
+import { NorvrandtExplorationAchievements } from "./norvrandt";
+import { OthardExplorationAchievements } from "./othard";
+import { SightseeingExplorationAchievements } from "./sightseeing";
+import { ThanalanExplorationAchievements } from "./thanalan";
+
+//https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Exploration&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
+
+export const ExplorationAchievements = {
+    name: 'Exploration',
+    columns: AchievementColumnConfig,
+    subGroups: [
+        AbalathiasSpineExplorationAchievements,
+        BlackShroudExplorationAchievements,
+        CoerthasExplorationAchievements,
+        DravaniaExplorationAchievements,
+        DutyExplorationAchievements,
+        LaNosceaExplorationAchievements,
+        MorDhonaExplorationAchievements,
+        NorvrandtExplorationAchievements,
+        OthardExplorationAchievements,
+        SightseeingExplorationAchievements,
+        ThanalanExplorationAchievements,
 	],
     tasks: [{
         description: "Attune with all 19 aetheryte crystals and aetherial gates in La Noscea.",

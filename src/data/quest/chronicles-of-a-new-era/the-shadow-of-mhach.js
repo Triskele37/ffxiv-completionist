@@ -1,10 +1,9 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=15&columns=ID,Name&limit=7
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const TheShadowOfMhach = {
     name: "The Shadow of Mhach",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "60",

@@ -1,9 +1,8 @@
+import { SimpleQuestColumnConfig } from "../../columnConfigs";
+
 export const HeavensturnEvents = {
     name: "Heavensturn",
-    tableConfig: {
-        headers: ["Level", "Name"],
-        columnKeys: ["level", "name"]
-    },
+    columns: SimpleQuestColumnConfig,
     tasks: [
         {
             level: "15",

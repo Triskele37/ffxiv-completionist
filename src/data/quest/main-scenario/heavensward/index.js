@@ -1,3 +1,4 @@
+import { QuestColumnConfig } from "../../columnConfigs";
 import { ArtoirelQuests } from "./artoirel";
 import { EmmanellainQuests } from "./emmanellain";
 
@@ -8,10 +9,7 @@ export const HeavenswardQuests = {
         ArtoirelQuests,
         EmmanellainQuests
     ],
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "50",

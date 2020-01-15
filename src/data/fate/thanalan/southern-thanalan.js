@@ -1,9 +1,8 @@
+import { FATEColumnConfig } from "../columnConfigs";
+
 export const SouthernThanalanFATEs = {
     name: "Southern",
-    tableConfig: {
-        headers: ["Level", "Name", "Location", "Type"],
-        columnKeys: ["level", "name", "location", "type"]
-    },
+    columns: FATEColumnConfig,
     tasks: [
         {
         	level: "25",

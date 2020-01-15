@@ -1,9 +1,10 @@
 export const HallOfNovice = {
     name: "Hall of Novice",
-    tableConfig: {
-        headers: ["Level", "Name", "Role"],
-        columnKeys: ["level", "name", "role"]
-    },
+    columns: [
+		{ header: 'Level', key: 'level', },
+		{ header: 'Name', key: 'name' },
+		{ header: 'Role', key: 'role', filterable: true },
+	],
     tasks: [
         {
             level: "15",

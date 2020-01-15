@@ -1,9 +1,8 @@
+import { SimpleQuestColumnConfig } from "../../columnConfigs";
+
 export const EggHunts = {
     name: "Egg Hunts",
-    tableConfig: {
-        headers: ["Level", "Name"],
-        columnKeys: ["level", "name"]
-    },
+    columns: SimpleQuestColumnConfig,
     tasks: [
         {
             level: "15",

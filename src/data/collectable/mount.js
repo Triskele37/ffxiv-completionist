@@ -1,9 +1,9 @@
 module.exports = {
     name: "Mount",
-    tableConfig: {
-        headers: ["Mount", "Unlock"],
-        columnKeys: ["mount", "unlock"]
-    },
+    columns: [
+		{ header: 'Mount', key: 'mount', },
+		{ header: 'Unlock', key: 'unlock' },
+	],
     tasks: [{
             "mount": "Adamantoise",
             "unlock": "200,000 MGP from Gold Saucer Attendant (Prize Claim)"

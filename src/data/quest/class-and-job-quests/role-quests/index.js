@@ -1,3 +1,4 @@
+import { QuestColumnConfig } from "../../columnConfigs";
 import { TankRoleQuests } from "./tank-role-quests";
 import { HealerRoleQuests } from "./healer-role-quests";
 import { PhysicalDPSQuests } from "./physical-dps-quests";
@@ -11,10 +12,7 @@ export const RoleQuests = {
         PhysicalDPSQuests,
         MagicalDPSQuests,
     ],
-    tableConfig: {
-        headers: ["Level", "Name"],
-        columnKeys: ["level", "name"]
-    },
+    columns: QuestColumnConfig,
     tasks: [
         {
         	level: "80",

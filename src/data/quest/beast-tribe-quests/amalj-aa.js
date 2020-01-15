@@ -1,11 +1,10 @@
 // Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=23&columns=ID,Name
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=24&columns=ID,Name
+import { BeastTribeQuestColumnConfig } from "../columnConfigs";
+
 export const AmaljAaQuests = {
     name: "Amalj'aa",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Reputation", "Type"],
-        columnKeys: ["level", "name", "npc", "rep", "type"]
-    },
+    columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main
         {

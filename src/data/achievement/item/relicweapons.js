@@ -1,10 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Relic%20Weapons&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const RelicWeaponItemAchievements = {
     name: 'Relic Weapons',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain Curtana and a Holy Shield in the quest \u201cA Relic Reborn.\u201d",
         name: "Raising the Curtana",

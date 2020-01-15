@@ -1,9 +1,8 @@
+import { SightseeingLogColumnConfig } from "../columnConfigs";
+
 export const SightseeingARR = {
     name: "ARR",
-    tableConfig: {
-        headers: ["#", "Name", "Zone", "Location", "Weather", "Time", "Emote"],
-        columnKeys: ["vista", "name", "zone", "location", "weather", "time", "emote"]
-    },
+    columns: SightseeingLogColumnConfig,
     tasks: [
         {
             name: "Barracuda Piers",

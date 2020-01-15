@@ -1,9 +1,16 @@
 module.exports = {
     name: "Triple Triad - Opponent",
-    tableConfig: {
-        headers: ["Deck Strength", "Triple Triad Opponent", "Zone", "Location", "Rules", "Drops", "Time Available", "Pre-Requisites", "Fee (MGP)"],
-        columnKeys: ["deckstrength", "opponent", "zone", "location", "rules", "drops", "timeavailable", "prerequisite", "fee"]
-    },
+    columns: [
+		{ header: 'Deck Strength', key: 'deckstrength', filterable: true },
+		{ header: 'Opponent', key: 'opponent' },
+		{ header: 'Zone', key: 'zone', filterable: true },
+		{ header: 'Location', key: 'location' },
+		{ header: 'Rules', key: 'rules', filterable: true },
+		{ header: 'Drops', key: 'drops' },
+		{ header: 'Time Available', key: 'timeavailable', filterable: true },
+		{ header: 'Req.', key: 'prerequisite' },
+		{ header: 'Fee (MGP)', key: 'fee', filterable: true, filterType: 'number' },
+	],
     tasks:[
         {
           "deckstrength": 13,

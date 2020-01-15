@@ -1,3 +1,4 @@
+import { GatheringColumnConfig } from "../columnConfigs";
 import { HarvestingLogSpecial } from "./special";
 
 export const HarvestingLog = {
@@ -5,10 +6,7 @@ export const HarvestingLog = {
     subGroups: [
 		HarvestingLogSpecial,
     ],
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Locations"],
-        columnKeys: ["level", "name", "zone", "locations"]
-    },
+    columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- 1-5
         {

@@ -1,0 +1,26 @@
+export const GatheringColumnConfig = [
+    { header: "Level", key: "level", filterable: true },
+    { header: "Name", key: "name" },
+    { header: "Zone", key: "zone", filterable: true },
+    { header: "Locations", key: "locations" },
+];
+
+export const FishingLogColumnConfig = [
+    { header: "Level", key: "level", filterable: true },
+    { header: "Log", key: "name" },
+    { header: "Zone", key: "zone", filterable: true },
+    { header: "Location", key: "location" },
+    { header: "Type", key: "type", filterable: true },
+    { header: "Req.", key: "req", filterable: true },
+];
+
+export const FishingGuideColumnConfig = [
+    { header: "iLVL", key: "ilvl", filterable: true },
+    { header: "Name", key: "name" },
+    { header: "Prime Location", key: "primeLocation", filterable: true },
+    { header: "Fishing Holes", key: "fishingHoles" },
+    { header: "Type", key: "type", filterable: true },
+    { header: "Bait", key: "bait", filterable: true },
+    { header: "Usages", key: "usages" },
+    { header: "Special", key: "special" },
+];

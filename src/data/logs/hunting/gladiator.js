@@ -1,9 +1,8 @@
+import { HuntingLogColumnConfig } from "../columnConfigs";
+
 export const GladiatorHunting = {
     name: "Gladiator",
-    tableConfig: {
-        headers: ["#", "Rank", "Mob", "Zone", "Location"],
-        columnKeys: ["log", "rank", "mob", "zone", "location"]
-    },
+    columns: HuntingLogColumnConfig,
     tasks: [
         {
             log: "01",

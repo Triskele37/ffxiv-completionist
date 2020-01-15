@@ -1,3 +1,5 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 import { GridaniaStartingQuests } from "./gridania";
 import { LimsaLominsaStartingQuests } from "./limsa-lominsa";
 import { UlDahStartingQuests } from "./ul-dah";
@@ -19,10 +21,7 @@ export const SeventhUmbralEraQuests = {
         LimsaLominsaStartingQuests,
         UlDahStartingQuests,
     ],
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "15",

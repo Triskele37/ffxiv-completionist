@@ -1,10 +1,9 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=13&columns=ID,Name&limit=15
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const Alexander = {
     name: "Alexander",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "60",

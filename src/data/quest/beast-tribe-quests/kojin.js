@@ -1,11 +1,10 @@
 // Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=39&columns=ID,Name
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=40&columns=ID,Name
+import { BeastTribeQuestColumnConfig } from "../columnConfigs";
+
 export const KojinQuests = {
     name: "Kojin",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Reputation", "Type"],
-        columnKeys: ["level", "name", "npc", "rep", "type"]
-    },
+    columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main
         {

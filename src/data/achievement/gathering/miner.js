@@ -1,10 +1,10 @@
+import { AchievementColumnConfig } from "../columnConfigs";
+
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Miner&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
-module.exports = {
+
+export const MinerGatheringAchievements = {
     name: 'Miner',
-    tableConfig: {
-        headers: ["Name", "Description", "Points", 'Reward'],
-        columnKeys: ['name', 'description', 'points', 'reward']
-    },
+    columns: AchievementColumnConfig,
     tasks: [{
         description: "Mine 20 times at level 1-10 mineral deposits in La Noscea.",
         name: "Mining Your Own Business: La Noscea I",

@@ -1,9 +1,11 @@
 export const TheMaskedCarnivale = {
     name: "The Masked Carnivale",
-    tableConfig: {
-        headers: ["Level", "Name", "Standard Time", "Ideal Time"],
-        columnKeys: ["level", "name", "standardTime", "idealTime"]
-    },
+    columns: [
+        { header: "Level", key: "level" },
+        { header: "Name", key: "name" },
+        { header: "Standard Time", key: "standardTime" },
+        { header: "Ideal Time", key: "idealTime" },
+    ],
     tasks: [
         {
             level: "1",

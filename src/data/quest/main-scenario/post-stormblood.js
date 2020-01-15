@@ -1,11 +1,14 @@
+import { QuestColumnConfig } from "../columnConfigs";
+
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
 export const PostStormbloodQuests = {
     name: "Post-Stormblood",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock", "Patch"],
-        columnKeys: ["level", "name", "npc", "unlock", "patch"]
-    },
+    columns: QuestColumnConfig.concat({
+        header: "Patch",
+        key: "patch",
+        filterable: true
+    }),
     tasks: [
         //------------------------------------------------------------------ The Legend Returns
         {

@@ -1,10 +1,9 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=18&columns=ID,Name&limit=5
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const TheFourLords = {
     name: "The Four Lords",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "70",

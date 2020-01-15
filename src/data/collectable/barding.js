@@ -1,9 +1,9 @@
 module.exports = {
     name: "Barding",
-    tableConfig: {
-        headers: ["Barding", "Unlock"],
-        columnKeys: ["barding", "unlock"]
-    },
+    columns: [
+		{ header: 'Barding', key: 'barding', },
+		{ header: 'Unlock', key: 'unlock' },
+	],
     tasks:[
         {
           "barding": "Abigail Barding",

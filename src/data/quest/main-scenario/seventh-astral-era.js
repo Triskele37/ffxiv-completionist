@@ -1,3 +1,5 @@
+import { QuestColumnConfig } from "../columnConfigs";
+
 /*
 https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=2&columns=ID,Name&limit=102
 Missing: Hest of the Best, Pass the Smell Hest
@@ -5,10 +7,11 @@ spelling: api > The Least among Us, app > The Least Among Us, game matches api
 */
 export const SeventhAstralEraQuests = {
     name: "Seventh Astral Era",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock", "Patch"],
-        columnKeys: ["level", "name", "npc", "unlock", "patch"]
-    },
+    columns: QuestColumnConfig.concat({
+        header: "Patch",
+        key: "patch",
+        filterable: true
+    }),
     tasks: [
         //------------------------------------------------------------------ A Realm Awoken
         {

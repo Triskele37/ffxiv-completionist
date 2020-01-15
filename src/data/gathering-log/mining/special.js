@@ -1,9 +1,8 @@
+import { GatheringColumnConfig } from "../columnConfigs";
+
 export const MiningLogSpecial = {
     name: "Special",
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Locations"],
-        columnKeys: ["level", "name", "zone", "locations"]
-    },
+    columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- Coerthan Folklore
         {

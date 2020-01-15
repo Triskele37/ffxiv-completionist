@@ -1,12 +1,20 @@
-module.exports = {
+import { OrchestrionLocales } from "./locales";
+import { OrchestrionDungeon } from "./dungeons";
+import { OrchestrionMogStation } from "./mogstation";
+import { OrchestrionOther } from "./other";
+import { OrchestrionRaid } from "./raids";
+import { OrchestrionSeasonal } from "./seasonal";
+import { OrchestrionTrial } from "./trials";
+
+export const Orchestrion = {
     name: "Orchestrion",
     subGroups:[
-        require('./locales.js'),
-        require('./dungeons.js'),
-        require('./mogstation.js'),
-        require('./other.js'),
-        require('./raids.js'),
-        require('./seasonal.js'),
-        require('./trials.js'),
+        OrchestrionLocales,
+        OrchestrionDungeon,
+        OrchestrionMogStation,
+        OrchestrionOther,
+        OrchestrionRaid,
+        OrchestrionSeasonal,
+        OrchestrionTrial,
     ]
 }

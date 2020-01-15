@@ -1,9 +1,8 @@
+import { SightseeingLogColumnConfig } from "../columnConfigs";
+
 export const SightseeingHW = {
     name: "HW",
-    tableConfig: {
-        headers: ["#", "Name", "Zone", "Location", "Weather", "Time", "Emote"],
-        columnKeys: ["vista", "name", "zone", "location", "weather", "time", "emote"]
-    },
+    columns: SightseeingLogColumnConfig,
     tasks: [
         {
             name: "Falcon's Nest",

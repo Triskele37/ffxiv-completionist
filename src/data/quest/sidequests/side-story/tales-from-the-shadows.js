@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const TalesFromTheShadows = {
     name: "Tales from the Shadows",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock"],
-        columnKeys: ["level", "name", "npc", "unlock"]
-    },
+    columns: QuestColumnConfig,
     tasks: [
         {
         	level: "80",

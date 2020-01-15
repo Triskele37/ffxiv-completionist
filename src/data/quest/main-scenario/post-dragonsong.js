@@ -1,10 +1,13 @@
+import { QuestColumnConfig } from "../columnConfigs";
+
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=5&columns=ID,Name&limit=19
 export const PostDragonsongQuests = {
     name: "Post-Dragonsong",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock", "Patch"],
-        columnKeys: ["level", "name", "npc", "unlock", "patch"]
-    },
+    columns: QuestColumnConfig.concat({
+        header: "Patch",
+        key: "patch",
+        filterable: true
+    }),
     tasks: [
         //------------------------------------------------------------------ Soul Surrender
         {

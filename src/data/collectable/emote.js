@@ -1,9 +1,10 @@
 module.exports = {
     name: "Emote",
-    tableConfig: {
-        headers: ["Emote", "Command", "Unlock"],
-        columnKeys: ["emote", "command", "unlock"]
-    },
+    columns: [
+		{ header: 'Emote', key: 'emote', },
+		{ header: 'Command', key: 'command', },
+		{ header: 'Unlock', key: 'unlock' },
+	],
     tasks:[
         {
           "emote": "Aback",

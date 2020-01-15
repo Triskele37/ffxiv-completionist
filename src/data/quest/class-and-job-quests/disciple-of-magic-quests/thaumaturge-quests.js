@@ -1,9 +1,8 @@
+import { QuestColumnConfig } from "../../columnConfigs";
+
 export const ThaumaturgeQuests = {
     name: "Thaumaturge",
-	tableConfig: {
-		headers: ["Level", "Name"],
-		columnKeys: ["level", "name"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "1",
@@ -29,6 +28,6 @@ export const ThaumaturgeQuests = {
         }, {
         	level: "30",
         	name: "Facing Your Demons"
-        }, 
+        },
     ]
 };

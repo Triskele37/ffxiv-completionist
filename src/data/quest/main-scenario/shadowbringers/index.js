@@ -1,3 +1,4 @@
+import { QuestColumnConfig } from "../../columnConfigs";
 import { AlphinaudQuests } from "./alphinaud";
 import { AlisaieQuests } from "./alisaie";
 
@@ -8,10 +9,7 @@ export const ShadowbringersQuests = {
         AlphinaudQuests,
         AlisaieQuests,
     ],
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "70",

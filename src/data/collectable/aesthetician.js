@@ -1,9 +1,11 @@
 module.exports = {
     name: "Aesthetician",
-    tableConfig: {
-        headers: ["Hairstyle / Face Paint", "Location", "Method of Unlock", "Gender"],
-        columnKeys: ["hairstylefacepaint", "location", "unlock", "gender"]
-    },
+    columns: [
+		{ header: 'Hairstyle / Face Paint', key: 'hairstylefacepaint', },
+		{ header: 'Location', key: 'location', filterable: true },
+		{ header: 'Method of Unlock', key: 'unlock' },
+		{ header: 'Gender', key: 'gender', filterable: true }
+	],
     tasks: [
         {
           hairstylefacepaint: "Adventure",

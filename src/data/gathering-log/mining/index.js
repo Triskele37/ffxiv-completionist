@@ -1,3 +1,4 @@
+import { GatheringColumnConfig } from "../columnConfigs";
 import { MiningLogSpecial } from "./special";
 
 export const MiningLog = {
@@ -5,10 +6,7 @@ export const MiningLog = {
     subGroups: [
         MiningLogSpecial,
     ],
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Locations"],
-        columnKeys: ["level", "name", "zone", "locations"]
-    },
+    columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- 1-5
         {

@@ -1,9 +1,8 @@
+import { FishingLogColumnConfig } from "../columnConfigs";
+
 export const FishingLog = {
     name: "Fishing Log",
-    tableConfig: {
-        headers: ["Level", "Log", "Zone", "Location", "Type", "Req."],
-        columnKeys: ["level", "name", "zone", "location", "type", "req"]
-    },
+    columns: FishingLogColumnConfig,
     tasks: [
         //------------------------------------------------------------------ La Noscea
         //-------------------------------------------- Limsa Lominsa Upper Decks

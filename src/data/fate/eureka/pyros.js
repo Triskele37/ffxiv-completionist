@@ -1,9 +1,8 @@
+import { EurekaColumnConfig } from "../columnConfigs";
+
 export const PyrosFATEs = {
     name: "Pyros",
-    tableConfig: {
-        headers: ["Level", "Name", "Location", "Light", "Reward"],
-        columnKeys: ["level", "name", "location", "light", "reward"]
-    },
+    columns: EurekaColumnConfig,
     tasks: [
         {
         	level: "35",

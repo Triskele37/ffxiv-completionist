@@ -1,9 +1,8 @@
+import { LeveQuestColumnConfig } from "../../columnConfigs";
+
 export const FishingLeves = {
     name: "Fishing",
-    tableConfig: {
-        headers: ["Level", "Name", "Zone", "Location", "NPC"],
-        columnKeys: ["level", "name", "zone", "location", "npc"]
-    },
+    columns: LeveQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ 1-5
         {

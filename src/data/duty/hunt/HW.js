@@ -1,9 +1,8 @@
+import { HuntColumnConfig } from "../columnConfigs";
+
 export const HWHunts = {
     name: "HW",
-    tableConfig: {
-        headers: ["Rank", "Name", "Condition", "Location"],
-        columnKeys: ["rank", "name", "condition", "location"]
-    },
+    columns: HuntColumnConfig,
     tasks: [
         {
             rank: "B",

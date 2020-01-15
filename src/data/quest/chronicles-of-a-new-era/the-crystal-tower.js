@@ -3,12 +3,11 @@ https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=12&columns=
 
 api contains 2 "Legacy of Allag"s?
 */
+import { QuestColumnConfig } from "../columnConfigs";
+
 export const TheCrystalTower = {
     name: "The Crystal Tower",
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "50",

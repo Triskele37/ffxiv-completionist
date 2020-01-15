@@ -1,3 +1,4 @@
+import { QuestColumnConfig } from "../../columnConfigs";
 import { MNaagoQuests } from "./m-naago";
 import { MeffridQuests } from "./meffrid";
 
@@ -8,10 +9,7 @@ export const StormbloodQuests = {
         MNaagoQuests,
         MeffridQuests,
     ],
-	tableConfig: {
-		headers: ["Level", "Name", "NPC", "Unlock"],
-		columnKeys: ["level", "name", "npc", "unlock"]
-	},
+	columns: QuestColumnConfig,
     tasks: [
         {
         	level: "60",

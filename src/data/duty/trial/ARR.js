@@ -1,9 +1,8 @@
+import { DutyColumnConfig } from "../columnConfigs";
+
 export const ARRTrials = {
     name: "ARR",
-    tableConfig: {
-        headers: ["Level", "iLvl", "Name", "Boss", "Roulette", "Unlock"],
-        columnKeys: ["level", "iLvlReq", "name", "boss", "roulette", "unlock"]
-    },
+    columns: DutyColumnConfig,
     tasks: [
         {
         	level: "20",

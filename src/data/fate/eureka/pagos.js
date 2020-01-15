@@ -1,9 +1,8 @@
+import { EurekaColumnConfig } from "../columnConfigs";
+
 export const PagosFATEs = {
     name: "Pagos",
-    tableConfig: {
-        headers: ["Level", "Name", "Location", "Light", "Reward"],
-        columnKeys: ["level", "name", "location", "light", "reward"]
-    },
+    columns: EurekaColumnConfig,
     tasks: [
         {
         	level: "20",

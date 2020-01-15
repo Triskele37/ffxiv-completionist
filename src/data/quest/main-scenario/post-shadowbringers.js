@@ -1,11 +1,14 @@
+import { QuestColumnConfig } from "../columnConfigs";
+
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=10
 export const PostShadowbringers = {
     name: "Post-Shadowbringers",
-    tableConfig: {
-        headers: ["Level", "Name", "NPC", "Unlock", "Patch"],
-        columnKeys: ["level", "name", "npc", "unlock", "patch"]
-    },
+    columns: QuestColumnConfig.concat({
+        header: "Patch",
+        key: "patch",
+        filterable: true
+    }),
     tasks: [
         //------------------------------------------------------------------ Vows of Virtue, Deeds of Cruelty
         {

@@ -1,9 +1,11 @@
 export const CrystallineMeanQuests = {
     name: "Crystalline Mean",
-    tableConfig: {
-        headers: ["Facet", "Level", "Name", "NPC"],
-        columnKeys: ["facet", "level", "name", "npc"]
-    },
+    columns: [
+        { header: "Facet", key: "facet" },
+        { header: "Level", key: "level" },
+        { header: "Name", key: "name" },
+        { header: "NPC", key: "npc" },
+    ],
     tasks: [
         //------------------------------------------------------------------ Facet of Forging
         { level: "70", facet: "Forging", name: "Iola, Forgemaster", npc: "Iola" },

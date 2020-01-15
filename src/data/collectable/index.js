@@ -1,4 +1,6 @@
-module.exports = {
+import { Orchestrion } from "./orchestrion";
+
+export const Collectable = {
     name: 'Collectable',
     subGroups:[
         require('./aesthetician.js'),
@@ -7,7 +9,7 @@ module.exports = {
         require('./emote.js'),
         require('./minion.js'),
         require('./mount.js'),
-        require('./orchestrion/index.js'),
+        Orchestrion,
         require('./tripletriad-card.js'),
         require('./tripletriad-opponent.js'),
     ]
