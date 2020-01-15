@@ -1,14 +1,14 @@
 <template>
     <td
         class="completed-cell"
-        v-bind:class="{
-            'completed-cell-y': task.complete === 'Y',
-            'completed-cell-n': !task.complete || task.complete === 'N',
-            'completed-cell-x': task.complete === 'X'
+        @click="onTaskCompleteClick(task)"
+        :class="{
+            'completed-cell-y': completed === 'Y',
+            'completed-cell-n': completed === 'N' || !completed,
+            'completed-cell-x': completed === 'X'
         }"
-        v-on:click="onTaskCompleteClick(task)"
     >
-        {{task.complete || 'N'}}
+        {{completed}}
     </td>
 </template>
 
@@ -18,30 +18,27 @@
 
     export default {
         name: 'complete-cell',
+        data: () => ({
+            completed: 'N'
+        }),
         props: {
             task: Object
         },
+        mounted: function() {
+            this.completed = store.get(this.task.name) || 'N';
+        },
         methods: {
             onTaskCompleteClick: function () {
-                switch (this.task.complete) {
-                    case 'Y':
-                        this.task.complete = 'X';
-                        break;
-                    case 'X':
-                        this.task.complete = 'N';
-                        break;
-                    default:
-                        this.task.complete = 'Y';
+                let newComplete;
+
+                switch (this.completed) {
+                    case 'Y': newComplete = 'X'; break;
+                    case 'X': newComplete = 'N'; break;
+                    default: newComplete = 'Y';
                 }
 
-                store.set(this.task.name, this.task.complete);
-                // View current tasks status if set to complete or not
-                console.log(store.get('task.name'));
-
-                // View all tasks that have had their status changed
-                console.log(store.get(this.task));
-
-                this.$forceUpdate();
+                store.set(this.task.name, newComplete);
+                this.completed = newComplete;
             },
         }
     };
