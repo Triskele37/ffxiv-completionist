@@ -92,9 +92,17 @@
                     const key = this.selectedGroup.columns[i].key;
 
                     if(this.filters[key]) {
-                        filtered = filtered.filter(
-                            (task) => task[key] === this.filters[key].value
-                        );
+                        if(this.filters[key].filterType === 'search') {
+                            filtered = filtered.filter(
+                                (task) => task[key].toLowerCase()
+                                    .includes(this.filters[key].value.toLowerCase())
+                            );
+                        }
+                        else {
+                            filtered = filtered.filter(
+                                (task) => task[key] === this.filters[key].value
+                            );
+                        }
                     }
                 }
 
