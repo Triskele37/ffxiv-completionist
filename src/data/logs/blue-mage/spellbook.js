@@ -3,7 +3,7 @@ export const BlueMageSpellbook = {
 	storageKey: "logs.blue-mage.spells",
     columns: [
         { header: "#", key: "number" },
-        { header: "Spell", key: "spell" },
+        { header: "Spell", key: "name" },
         { header: "Enemy", key: "enemy" },
         { header: "Location", key: "location" },
     ],
