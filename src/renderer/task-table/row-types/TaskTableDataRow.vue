@@ -5,7 +5,7 @@
             :key="task.name"
         >
             <complete-cell
-                :group="selectedGroup.name"
+                :group-storage-key="selectedGroup.storageKey"
                 :task="task"
             />
 

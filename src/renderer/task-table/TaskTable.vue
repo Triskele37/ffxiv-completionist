@@ -22,6 +22,8 @@
 </template>
 
 <script>
+    const Store = require('electron-store');
+    const store = new Store();
     import { mapState } from 'vuex';
 
     // Components
@@ -85,19 +87,29 @@
             filteredTasks: function() {
                 let filtered = this.selectedGroup.tasks.concat();
 
+                if(this.filters.completed) {
+                    filtered = filtered.filter((task) => {
+                        const completed = store.get(`${this.selectedGroup.storageKey}.${task.name}`);
+                        const filterCompleted = this.filters.completed.value;
+
+                        if(!completed && filterCompleted === 'N') return true;
+                        return completed === filterCompleted;
+                    });
+                }
+
                 for(let i = 0; i < this.selectedGroup.columns.length; i++) {
                     const key = this.selectedGroup.columns[i].key;
+                    const filter = this.filters[key];
 
-                    if(this.filters[key]) {
-                        if(this.filters[key].filterType === 'search') {
-                            filtered = filtered.filter(
-                                (task) => task[key].toLowerCase()
-                                    .includes(this.filters[key].value.toLowerCase())
+                    if(filter) {
+                        if(filter.filterType === 'search') {
+                            filtered = filtered.filter((task) =>
+                                task[key].toLowerCase().includes(filter.value.toLowerCase())
                             );
                         }
                         else {
-                            filtered = filtered.filter(
-                                (task) => task[key] === this.filters[key].value
+                            filtered = filtered.filter((task) =>
+                                task[key] === filter.value
                             );
                         }
                     }

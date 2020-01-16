@@ -1,6 +1,11 @@
 <template>
     <tr>
-        <th>&#10004;</th>
+        <th class="completed-column">
+            <span class="complete" @click="onFilterCompletion('Y')">&#10004;</span>
+            <span class="incomplete" @click="onFilterCompletion('N')">&#10008;</span>
+            <br/>
+            <span class="exclude" @click="onFilterCompletion('X')">&#10006;</span>
+        </th>
 
         <th v-for="column in columns">
             <div>
@@ -60,6 +65,20 @@
             this.$emit('filter-change', this.filters);
         },
         methods: {
+            onFilterCompletion: function(value) {
+                if(!value || this.filters.completed && this.filters.completed.value === value) {
+                    this.filters.completed = null;
+                }
+                else {
+                    this.filters.completed = {
+                        filterType: 'completed',
+                        value
+                    };
+                }
+
+                this.filters = Object.assign({}, this.filters);
+                this.$emit('filter-change', this.filters);
+            },
             addFilter: function($event, column) {
                 const value = $event.target.value;
 
@@ -113,12 +132,21 @@
         position: sticky;
         top: 0;
 
+        cursor: context-menu;
         user-select: none;
     }
 
     .task-table th:hover {
         /*background-color: rgba(0, 0, 0, 0.1);*/
     }
+
+    .task-table .completed-column span {
+        cursor: pointer;
+    }
+
+    .task-table .completed-column .complete { color: #0f7538; }
+    .task-table .completed-column .incomplete { color: #75190f; }
+    .task-table .completed-column .exclude { color: #aaa; }
 
     .task-table .applied-filter {
         cursor: pointer;

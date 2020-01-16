@@ -24,14 +24,14 @@
         }),
         props: {
             task: Object,
-            group: String,
+            groupStorageKey: String,
         },
         mounted: function() {
             this.completed = store.get(this.storageKey) || 'N';
         },
         computed: {
             storageKey: function() {
-                return `${this.group}.${this.task.name}`;
+                return `${this.groupStorageKey}.${this.task.name}`;
             }
         },
         methods: {
