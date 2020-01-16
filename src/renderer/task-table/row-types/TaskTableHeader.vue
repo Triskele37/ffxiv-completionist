@@ -1,50 +1,54 @@
 <template>
     <tr>
-        <th></th>
+        <th>&#10004;</th>
 
         <th v-for="column in columns">
-            <span
-                class="column-container"
-                v-if="column.filterable"
-            >
-                <select
-                    class="filter-select"
-                    v-if="!filters[column.key]"
-                    @change="addFilter($event, column)"
+            <div>
+                <span
+                    v-if="column.filterable"
                 >
-                    <option></option>
-                    <option v-for="uniqueValue in uniqueValues[column.key]">
-                        {{uniqueValue}}
-                    </option>
-                </select>
+                    <select
+                        class="filter-select"
+                        v-if="!filters[column.key]"
+                        @change="addFilter($event, column)"
+                    >
+                        <option></option>
+                        <option v-for="uniqueValue in uniqueValues[column.key]">
+                            {{uniqueValue}}
+                        </option>
+                    </select>
 
-                <div
-                    class="applied-filter"
-                    v-if="!!filters[column.key]"
-                    @click="removeFilter(column.key)"
+                    <div
+                        class="applied-filter"
+                        v-if="!!filters[column.key]"
+                        @click="removeFilter(column.key)"
+                    >
+                        {{filters[column.key].value}}
+                    </div>
+                </span>
+                <span
+                    class="column-container"
+                    v-else
                 >
-                    {{filters[column.key].value}}
-                </div>
-            </span>
-            <span
-                class="column-container"
-                v-else
-            >
-                <input
-                    class="search-input"
-                    placeholder="..."
-                    @keyup="modifySearch($event, column)"
-                />
-            </span>
+                    <input
+                        class="search-input"
+                        placeholder="..."
+                        @keyup="modifySearch($event, column)"
+                    />
+                </span>
+            </div>
+            <div>
+                {{column.header}}
+            </div>
         </th>
 
-        <th></th>
+        <th>Links</th>
     </tr>
 </template>
 
 <script>
     export default {
-        name: 'filter-header',
+        name: 'task-table-header',
         data: () => ({
             filters: [],
         }),
@@ -99,10 +103,21 @@
 </script>
 
 <style>
-    .task-table .column-container {
+    .task-table th {
         border: 1px solid black;
         border-top: none;
-        border-bottom: none;
+        border-left: none;
+
+        background-color: #3282B8;
+        max-width: 25vw;
+        position: sticky;
+        top: 0;
+
+        user-select: none;
+    }
+
+    .task-table th:hover {
+        /*background-color: rgba(0, 0, 0, 0.1);*/
     }
 
     .task-table .applied-filter {

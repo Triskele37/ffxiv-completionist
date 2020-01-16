@@ -28,7 +28,7 @@
     import * as CellType from './cell-types';
 
     export default {
-        name: 'data-row',
+        name: 'task-table-data-row',
         props: {
             selectedGroup: Object,
             tasks: Array,

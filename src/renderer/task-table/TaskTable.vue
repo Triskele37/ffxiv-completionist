@@ -8,15 +8,12 @@
             class="task-table"
             v-if="showTable"
         >
-            <filter-header
+            <task-table-header
                 @filter-change="onFilterChange"
                 :columns="selectedGroup.columns"
                 :uniqueValues="uniqueValues"
             />
-            <column-header
-                :columns="selectedGroup.columns"
-            />
-            <data-row
+            <task-table-data-row
                 :selected-group="selectedGroup"
                 :tasks="filteredTasks"
             />
@@ -29,16 +26,16 @@
 
     // Components
     import HelperMessages from './HelperMessages';
-    import * as RowTypes from './row-types';
+    import TaskTableHeader from './row-types/TaskTableHeader';
+    import TaskTableDataRow from './row-types/TaskTableDataRow';
 
     // Export component
     export default {
         name: 'task-table',
         components: {
             'helper-error': HelperMessages,
-            'filter-header': RowTypes.FilterHeader,
-            'column-header': RowTypes.ColumnHeader,
-            'data-row': RowTypes.DataRow,
+            'task-table-header': TaskTableHeader,
+            'task-table-data-row': TaskTableDataRow,
         },
         data: () => ({
             filters: {}
@@ -126,7 +123,6 @@
     }
 
     .task-table {
-        border-collapse: collapse;
         border-spacing: 0;
         width: 100%;
     }
