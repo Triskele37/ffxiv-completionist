@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const MNaagoQuests = {
     name: "M'Naago",
+	storageKey: "quest.main-scenario",
 	columns: QuestColumnConfig,
     tasks: [
         {

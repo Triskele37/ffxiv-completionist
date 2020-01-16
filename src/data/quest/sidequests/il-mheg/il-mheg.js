@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const IlMheg = {
     name: "Il Mheg",
+	storageKey: "quest.side-quest.il-mheg",
 	columns: QuestColumnConfig,
     tasks: [
         {

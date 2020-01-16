@@ -2,6 +2,7 @@ import { FishingLogColumnConfig } from "../columnConfigs";
 
 export const FishingLog = {
     name: "Fishing Log",
+	storageKey: "gathering-log.fishing-log",
     columns: FishingLogColumnConfig,
     tasks: [
         //------------------------------------------------------------------ La Noscea

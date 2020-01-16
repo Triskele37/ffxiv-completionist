@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const TheRakTikaGreatwoodFATEs = {
     name: "The Rak'Tika Greatwood",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

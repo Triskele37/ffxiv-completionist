@@ -2,6 +2,7 @@ import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
 export const AllSaintsWakeEvents = {
     name: "All Saints' Wake",
+	storageKey: "quest.other.seasonal",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

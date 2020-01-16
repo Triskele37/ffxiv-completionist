@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const GoldSaucerCharacterAchievements = {
 	name: 'Gold Saucer',
+	storageKey: "achievement.character.gold-saucer",
 	columns: AchievementColumnConfig,
     tasks: [{
         description: "Earn 1,000 MGP at Gold Saucer attractions.",

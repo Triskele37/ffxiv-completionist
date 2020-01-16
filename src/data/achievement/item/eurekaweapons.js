@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const EurekaWeaponItemAchievements = {
     name: 'Eureka Weapons',
+	storageKey: "achievement.item.eureka-weapons",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain Galatyn Anemos and Evalach Anemos.",

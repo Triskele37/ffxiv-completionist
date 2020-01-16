@@ -2,6 +2,7 @@ import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
 export const ValentionesDayEvents = {
     name: "Valentione's Day",
+	storageKey: "quest.other.seasonal",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const BlackShroudExplorationAchievements = {
     name: 'Black Shroud',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Visit the Central Shroud and unlock the area map.",

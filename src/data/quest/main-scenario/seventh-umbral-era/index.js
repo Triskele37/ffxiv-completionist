@@ -21,6 +21,7 @@ export const SeventhUmbralEraQuests = {
         LimsaLominsaStartingQuests,
         UlDahStartingQuests,
     ],
+	storageKey: "quest.main-scenario",
 	columns: QuestColumnConfig,
     tasks: [
         {

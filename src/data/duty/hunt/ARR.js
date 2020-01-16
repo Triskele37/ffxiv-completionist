@@ -2,6 +2,7 @@ import { HuntColumnConfig } from "../columnConfigs";
 
 export const ARRHunts = {
     name: "ARR",
+	storageKey: "duty.the-hunt",
     columns: HuntColumnConfig,
     tasks: [
     	{

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const LancerQuests = {
     name: "Lancer",
+	storageKey: "quest.class-and-job.lancer",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const HuntBattleAchievements = {
 	name: 'The Hunt',
+	storageKey: "achievement.battle.the-hunt",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Slay 4 unique rank B elite marks in the Black Shroud.",

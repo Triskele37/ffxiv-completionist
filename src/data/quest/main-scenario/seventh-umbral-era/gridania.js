@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const GridaniaStartingQuests = {
     name: "Gridania",
+	storageKey: "quest.main-scenario.gridania",
 	columns: QuestColumnConfig,
     tasks: [
         {

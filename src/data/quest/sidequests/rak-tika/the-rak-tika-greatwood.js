@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheRakTikaGreatwood = {
     name: "The Rak'Tika Greatwood",
+	storageKey: "quest.side-quest.rak-tika",
 	columns: QuestColumnConfig,
     tasks: [
         {

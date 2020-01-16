@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const MateriaItemAchievements = {
     name: 'Materia',
+	storageKey: "achievement.item.materia",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully affix 10 materia.",

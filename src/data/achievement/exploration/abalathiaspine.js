@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const AbalathiasSpineExplorationAchievements = {
     name: "Abalathia's Spine",
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Discover every location in the Sea of Clouds.",

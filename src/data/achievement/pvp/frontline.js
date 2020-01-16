@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const FrontlinePVPAchievements = {
 	name: 'Frontline',
+	storageKey: "achievement.pvp.frontline",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Participate in a Frontline campaign.",

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const ImmortalFlamesGrandCompanyAchievements = {
     name: 'Immortal Flames',
+	storageKey: "achievement.grand-company.immortal-flames",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Officially enlist in the Immortal Flames.",

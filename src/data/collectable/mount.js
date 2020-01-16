@@ -1,639 +1,640 @@
 module.exports = {
     name: "Mount",
+	storageKey: "collectable.mount",
     columns: [
-		{ header: 'Mount', key: 'mount', },
+		{ header: 'Mount', key: 'name', },
 		{ header: 'Unlock', key: 'unlock' },
 	],
     tasks: [{
-            "mount": "Adamantoise",
+            name: "Adamantoise",
             "unlock": "200,000 MGP from Gold Saucer Attendant (Prize Claim)"
         },
         {
-            "mount": "Aerodynamics System",
+            name: "Aerodynamics System",
             "unlock": "Awarded from the Achievement In a Blaze of Glory V."
         },
         {
-            "mount": "Ahriman",
+            name: "Ahriman",
             "unlock": "Achievement Certificates"
         },
         {
-            "mount": "Air Force",
+            name: "Air Force",
             "unlock": "Guaranteed drop from Sigmascape V4.0 (Savage)"
         },
         {
-            "mount": "Aithon",
+            name: "Aithon",
             "unlock": "Dropped by Ifrit in The Bowl of Embers (Extreme)."
         },
         {
-            "mount": "Alte Roite",
+            name: "Alte Roite",
             "unlock": "Drops from Deltascape V4.0 (Savage)"
         },
         {
-            "mount": "Amaro",
+            name: "Amaro",
             "unlock": "Completion of the Life of Adventure IV Achievement"
         },
         {
-            "mount": "Amber Draught Chocobo",
+            name: "Amber Draught Chocobo",
             "unlock": "8x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign."
         },
         {
-            "mount": "Aquamarine Carbuncle",
+            name: "Aquamarine Carbuncle",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Archon Throne",
+            name: "Archon Throne",
             "unlock": "750,000 MGP from Gold Saucer Attendant"
         },
         {
-            "mount": "Arrhidaeus",
+            name: "Arrhidaeus",
             "unlock": "Dropped from Alexander - The Soul of the Creator (Savage) (A12S)"
         },
         {
-            "mount": "Astrope",
+            name: "Astrope",
             "unlock": "Rewarded from the 2,000 Mentor Roulette Achievement"
         },
         {
-            "mount": "Auspicious Kamuy",
+            name: "Auspicious Kamuy",
             "unlock": "Rarely from The Jade Stoa (Extreme)."
         },
         {
-            "mount": "Battle Bear",
+            name: "Battle Bear",
             "unlock": "Awarded from the Achievement Tank You, Warrior III."
         },
         {
-            "mount": "Battle Lion",
+            name: "Battle Lion",
             "unlock": "Awarded from the Achievement Tank You, Paladin III."
         },
         {
-            "mount": "Battle Panther",
+            name: "Battle Panther",
             "unlock": "Awarded from the Achievement Tank You, Dark Knight III. "
         },
         {
-            "mount": "Battle Tiger",
+            name: "Battle Tiger",
             "unlock": "Completion of the Tank you Gunbreaker III achievement."
         },
         {
-            "mount": "Behemoth",
+            name: "Behemoth",
             "unlock": "Achievement Certificates"
         },
         {
-            "mount": "Bennu",
+            name: "Bennu",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Black Chocobo",
+            name: "Black Chocobo",
             "unlock": "Completion of Divine Intervention Heavensward Main Scenario Quest"
         },
         {
-            "mount": "Black Pegasus",
+            name: "Black Pegasus",
             "unlock": "From Gold-trimmed Sacks found in Floors 151 - 200 of Palace of the Dead."
         },
         {
-            "mount": "Blissful Kamuy",
+            name: "Blissful Kamuy",
             "unlock": "Dropped from Emanation (Extreme) (Lakshmi Ex)."
         },
         {
-            "mount": "Bomb Palanquin",
+            name: "Bomb Palanquin",
             "unlock": "Kobold Vendor with \"Trusted\" Reputation with the tribe."
         },
         {
-            "mount": "Boreas",
+            name: "Boreas",
             "unlock": "Dropped by Shiva in The Akh Afah Amphitheatre (Extreme)"
         },
         {
-            "mount": "Broken Heart (Left)",
+            name: "Broken Heart (Left)",
             "unlock": "Valentione's Day (2018)"
         },
         {
-            "mount": "Broken Heart (Right)",
+            name: "Broken Heart (Right)",
             "unlock": "Valentione's Day (2018)"
         },
         {
-            "mount": "Cavalry Drake",
+            name: "Cavalry Drake",
             "unlock": "Amalj'aa Vendor with \"Trusted\" Reputation with the tribe."
         },
         {
-            "mount": "Cavalry Elbst",
+            name: "Cavalry Elbst",
             "unlock": "Sahagin Vendor with \"Trusted\" Reputation with the tribe."
         },
         {
-            "mount": "Centurio Tiger",
+            name: "Centurio Tiger",
             "unlock": "You Got Game Hunt Achievement"
         },
         {
-            "mount": "Ceremony Chocobo",
+            name: "Ceremony Chocobo",
             "unlock": "Obtain from Gold or Platinum Eternal Bond."
         },
         {
-            "mount": "Circus Ahriman",
+            name: "Circus Ahriman",
             "unlock": "All Saint's Wake 2019"
         },
         {
-            "mount": "Citrine Carbuncle",
+            name: "Citrine Carbuncle",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Cloud Mallow",
+            name: "Cloud Mallow",
             "unlock": "200,000 gil from Mogmul Mogbelly, at Rank 7 (Sworn) with the Moogle Beast Tribe."
         },
         {
-            "mount": "Coeurl",
+            name: "Coeurl",
             "unlock": "Coeurl Mount is available to players who have purchased the Collector's Edition."
         },
         {
-            "mount": "Company Chocobo",
+            name: "Company Chocobo",
             "unlock": "Completion of one of the My Little Chocobo Grand Company quests."
         },
         {
-            "mount": "Construct VII",
+            name: "Construct VII",
             "unlock": "Awarded from the achievement One Steppe At A Time V"
         },
         {
-            "mount": "Dark Lanner",
+            name: "Dark Lanner",
             "unlock": "Rare drop from Nidhogg Extreme"
         },
         {
-            "mount": "Demi-Osma",
+            name: "Demi-Osma",
             "unlock": "Completion of the achievement We're on Your Side I"
         },
         {
-            "mount": "Demonic Lanner",
+            name: "Demonic Lanner",
             "unlock": "Drops from Containment Bay Z1T9 (Extreme) (Zurvan EX)."
         },
         {
-            "mount": "Direwolf",
+            name: "Direwolf",
             "unlock": "Ixali Vendor with \"Sworn\" Reputation with the tribe."
         },
         {
-            "mount": "Disembodied Head",
+            name: "Disembodied Head",
             "unlock": "Bought from E-Una-Kotor for 10x Gelmorran Potsherd."
         },
         {
-            "mount": "Dodo",
+            name: "Dodo",
             "unlock": "Rarely from Platinum-haloed Sacks from Heaven-on-High"
         },
         {
-            "mount": "Draught Chocobo",
+            name: "Draught Chocobo",
             "unlock": "Received from the Recruit a Friend Campaign."
         },
         {
-            "mount": "Eggshilaration System",
+            name: "Eggshilaration System",
             "unlock": "Purchased from the Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "Eldthurs",
+            name: "Eldthurs",
             "unlock": "Forbidden Land, Eureka Pyros"
         },
         {
-            "mount": "Enbarr",
+            name: "Enbarr",
             "unlock": "Dropped by Leviathan in The Whorleater (Extreme)."
         },
         {
-            "mount": "Euphonious Kamuy",
+            name: "Euphonious Kamuy",
             "unlock": "Trial reward for Hell's Kier (Extreme)"
         },
         {
-            "mount": "Eurekan Petrel",
+            name: "Eurekan Petrel",
             "unlock": "Rarely drops from Eureka Hydatos bunny chest."
         },
         {
-            "mount": "Fae Gwiber",
+            name: "Fae Gwiber",
             "unlock": "Trial reward for Titania - Dancing Plague (Extreme)."
         },
         {
-            "mount": "Falcon",
+            name: "Falcon",
             "unlock": "Acquired from Fly the Falcon Mount Campaign"
         },
         {
-            "mount": "Fat Black Chocobo",
+            name: "Fat Black Chocobo",
             "unlock": "Amazon Promotion"
         },
         {
-            "mount": "Fat Chocobo",
+            name: "Fat Chocobo",
             "unlock": "Obtained from A Realm Reborn Collector's Edition Bonuses."
         },
         {
-            "mount": "Fat Moogle",
+            name: "Fat Moogle",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Fatter Cat",
+            name: "Fatter Cat",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Fenrir",
+            name: "Fenrir",
             "unlock": "1,000,000 MGP from Gold Saucer Attendant (Prize Claim)"
         },
         {
-            "mount": "Firebird",
+            name: "Firebird",
             "unlock": "Acquired all 7 Lanner mounts then complete the Fiery Wings, Fiery Hearts quest."
         },
         {
-            "mount": "Flame Warsteed",
+            name: "Flame Warsteed",
             "unlock": "Completion of the A Line in the Sand IV achievement."
         },
         {
-            "mount": "Flying Chair",
+            name: "Flying Chair",
             "unlock": "Crafted by Alchemist Level 70** with Master Alchemist V. "
         },
         {
-            "mount": "Flying Cumulus",
+            name: "Flying Cumulus",
             "unlock": "NA and JP special DLC Promotional Events"
         },
         {
-            "mount": "Forgiven Reticence",
+            name: "Forgiven Reticence",
             "unlock": "Purchased with 3,200 Sacks of Nuts from Ilfroy"
         },
         {
-            "mount": "Gilded Magitek Armor",
+            name: "Gilded Magitek Armor",
             "unlock": "Completion of the Everybody's Darling achievement."
         },
         {
-            "mount": "Ginga",
+            name: "Ginga",
             "unlock": "Obtained from Frontline Fury Achievement."
         },
         {
-            "mount": "Gloria-class Airship",
+            name: "Gloria-class Airship",
             "unlock": "Completion of the You Are What You Eat IV achievement."
         },
         {
-            "mount": "Gobwalker",
+            name: "Gobwalker",
             "unlock": "Drops from Alexander - The Burden of the Father (Savage) / A4S."
         },
         {
-            "mount": "Goobbue",
+            name: "Goobbue",
             "unlock": "Goobbue Mount is available only to 1.0 players."
         },
         {
-            "mount": "Goten",
+            name: "Goten",
             "unlock": "Fatal Feast PvP Achievement"
         },
         {
-            "mount": "Grani",
+            name: "Grani",
             "unlock": "Purchasing the Collector's Edition of Shadowbringer."
         },
         {
-            "mount": "Griffin",
+            name: "Griffin",
             "unlock": "Purchasing the Collector's Edition of Heavensward."
         },
         {
-            "mount": "Gullfaxi",
+            name: "Gullfaxi",
             "unlock": "Dropped by Titan in The Navel (Extreme)."
         },
         {
-            "mount": "Hallowed Kamuy",
+            name: "Hallowed Kamuy",
             "unlock": "Rare drop from the Wreath of Snakes (Extreme)."
         },
         {
-            "mount": "Indigo Whale",
+            name: "Indigo Whale",
             "unlock": "Purchased from the Mog Station for EUR 20 or $29."
         },
         {
-            "mount": "Innocent Gwiber",
+            name: "Innocent Gwiber",
             "unlock": "Trial reward for Innocence - Crown of the Immaculate (Extreme)."
         },
         {
-            "mount": "Ironfrog Mover",
+            name: "Ironfrog Mover",
             "unlock": "Purchased with 12x Formidable Cog from FATE Chain in Kholusia."
         },
         {
-            "mount": "Ixion",
+            name: "Ixion",
             "unlock": "Trade 12 Ixion Horns to Eschina."
         },
         {
-            "mount": "Juedi",
+            name: "Juedi",
             "unlock": "Have all 4 Empyrean Accessories in your inventory and speak with Cast-off Confederate in Crick."
         },
         {
-            "mount": "Kamuy of the Nine Tails",
+            name: "Kamuy of the Nine Tails",
             "unlock": "Collect every Stormblood Extreme Primal Mount and complete A Lone Wolf No More sidequest."
         },
         {
-            "mount": "Kirin",
+            name: "Kirin",
             "unlock": "Complete the A Legend for a Legend sidequest"
         },
         {
-            "mount": "Kongamato",
+            name: "Kongamato",
             "unlock": "Obtain Rank 7 (Sworn) with Vath Beast Tribe."
         },
         {
-            "mount": "Korpokkur Kolossus",
+            name: "Korpokkur Kolossus",
             "unlock": "Purchased in Gold Saucer for 750,000 MGP"
         },
         {
-            "mount": "Laurel Goobbue",
+            name: "Laurel Goobbue",
             "unlock": "Sylphic Vendor with \"Trusted\" Reputation with the tribe."
         },
         {
-            "mount": "Legacy Chocobo",
+            name: "Legacy Chocobo",
             "unlock": "Legacy Chocobo is available to legacy players."
         },
         {
-            "mount": "Legendary Kamuy",
+            name: "Legendary Kamuy",
             "unlock": "Rare drop in The Minstrel's Ballad: Shinryu's Domain."
         },
         {
-            "mount": "Logistics System",
+            name: "Logistics System",
             "unlock": "Received from the Behind Enemy Lines I Achievement."
         },
         {
-            "mount": "Lone Faehound",
+            name: "Lone Faehound",
             "unlock": "In The Feast Rewards (Season 4), Top 100 Solo Ranking in a Datacenter."
         },
         {
-            "mount": "Lone Hellhound",
+            name: "Lone Hellhound",
             "unlock": "In The Feast Rewards (Season 3), Top 100 Solo Ranking in a Datacenter."
         },
         {
-            "mount": "Lunar Kamuy",
+            name: "Lunar Kamuy",
             "unlock": "  Rare drop from The Minstrel's Ballad: Tsukuyomi's Pain."
         },
         {
-            "mount": "Magicked Bed",
+            name: "Magicked Bed",
             "unlock": "Can be crafted by Carpenter Recipe 80?"
         },
         {
-            "mount": "Magicked Carpet",
+            name: "Magicked Carpet",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Magitek Armor",
+            name: "Magitek Armor",
             "unlock": "Acquired after completing the Main Storyline."
         },
         {
-            "mount": "Magitek Avenger",
+            name: "Magitek Avenger",
             "unlock": "Awarded from the achievement Die Another Day III."
         },
         {
-            "mount": "Magitek Avenger A-1",
+            name: "Magitek Avenger A-1",
             "unlock": "Complete \"Out of Hiding\" Achievement"
         },
         {
-            "mount": "Magitek Conveyer",
+            name: "Magitek Conveyer",
             "unlock": "In The Feast Rewards (Season 7), Top 100 Solo Ranking in a Datacenter."
         },
         {
-            "mount": "Magitek Death Claw",
+            name: "Magitek Death Claw",
             "unlock": "6x Achievement Certificate from Jonathas in New Gridania."
         },
         {
-            "mount": "Magitek Predator",
+            name: "Magitek Predator",
             "unlock": "Dropped by Zenos yae Galvus in the dungeon Ala Mhigo (Dungeon)."
         },
         {
-            "mount": "Magitek Sky Armor",
+            name: "Magitek Sky Armor",
             "unlock": "Bought at PvP Merchant for 20,000 Wolf Marks."
         },
         {
-            "mount": "Magna Roader",
+            name: "Magna Roader",
             "unlock": "The Feast Season 11 Reward"
         },
         {
-            "mount": "Manacutter",
+            name: "Manacutter",
             "unlock": "After completing the Main Scenario Quest Into the Aery."
         },
         {
-            "mount": "Managarm",
+            name: "Managarm",
             "unlock": "8x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign."
         },
         {
-            "mount": "Marid",
+            name: "Marid",
             "unlock": "18x Ananta Dreamstaff from Madhura."
         },
         {
-            "mount": "Markab",
+            name: "Markab",
             "unlock": "Obtained after defeating Ramuh in The Striking Tree (Extreme)"
         },
         {
-            "mount": "Maxima Roader",
+            name: "Maxima Roader",
             "unlock": "Feast Season 12 Reward"
         },
         {
-            "mount": "Midgardsormr",
+            name: "Midgardsormr",
             "unlock": "After completing the Main Scenario Quest Fetters of Lament."
         },
         {
-            "mount": "Mikoshi",
+            name: "Mikoshi",
             "unlock": "20 Namazu Koban from Gyosho"
         },
         {
-            "mount": "Model O",
+            name: "Model O",
             "unlock": "Raid reward for Alphascape V4.0 (Savage)"
         },
         {
-            "mount": "Morbol",
+            name: "Morbol",
             "unlock": "Awarded from the achievement True Blue"
         },
         {
-            "mount": "Mystic Panda",
+            name: "Mystic Panda",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Nezha Chariot",
+            name: "Nezha Chariot",
             "unlock": "Purchased from the Mog Station for EUR 16.80 or $24."
         },
         {
-            "mount": "Nightmare",
+            name: "Nightmare",
             "unlock": "Summoned by Nightmare Whistle. Dropped by Garuda (Extreme), Titan (Extreme), and Ifrit (Extreme)."
         },
         {
-            "mount": "Original Fat Chocobo",
+            name: "Original Fat Chocobo",
             "unlock": "Limited time promotional event with 7-11 (JP), Amazon (US) and GamesMaster (EU)"
         },
         {
-            "mount": "Pack Faehound",
+            name: "Pack Faehound",
             "unlock": "In The Feast Rewards (Season 4), Top 100 Party Ranking in a Datacenter."
         },
         {
-            "mount": "Pack Hellhound",
+            name: "Pack Hellhound",
             "unlock": "In The Feast Rewards (Season 3), Top 100 Party Ranking in a Datacenter."
         },
         {
-            "mount": "Parade Chocobo",
+            name: "Parade Chocobo",
             "unlock": "Leaving a Better Impression II"
         },
         {
-            "mount": "Pegasus",
+            name: "Pegasus",
             "unlock": "Purchased from Spoils Collector (The Pillars) for 99 Brass Sky Pirate Spoils."
         },
         {
-            "mount": "Portly Porxie",
+            name: "Portly Porxie",
             "unlock": "18x Fae Fancy from Jul Oul"
         },
         {
-            "mount": "Prototype Conveyor",
+            name: "Prototype Conveyor",
             "unlock": "In The Feast Rewards (Season 8), Top 100 Party Ranking in a Datacenter."
         },
         {
-            "mount": "Raigo",
+            name: "Raigo",
             "unlock": "Furious Fatalities PvP Achievement"
         },
         {
-            "mount": "Rathalos",
+            name: "Rathalos",
             "unlock": "50x Rathalos Scale+"
         },
         {
-            "mount": "Red Baron",
+            name: "Red Baron",
             "unlock": "Purchased from the Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "Red Hare",
+            name: "Red Hare",
             "unlock": "Purchased from the Mog Station for EUR 16.90 or $24."
         },
         {
-            "mount": "Regalia Type-G",
+            name: "Regalia Type-G",
             "unlock": "Purchased for 200,000 MGP during the A Nocturne for Heroes Event"
         },
         {
-            "mount": "Reveling Kamuy",
+            name: "Reveling Kamuy",
             "unlock": "Rare drop from The Pool of Tribute (Extreme) (Susano Ex)."
         },
         {
-            "mount": "Rose Lanner",
+            name: "Rose Lanner",
             "unlock": "Rare drop from Thok ast Thok (Extreme)."
         },
         {
-            "mount": "Round Lanner",
+            name: "Round Lanner",
             "unlock": "Rare drop from The Minstrel's Ballad: Thordan's Reign."
         },
         {
-            "mount": "Sabotender Emperador",
+            name: "Sabotender Emperador",
             "unlock": "Bought at Gold Saucer for 2,000,000 MGP"
         },
         {
-            "mount": "Safeguard System",
+            name: "Safeguard System",
             "unlock": "Front and Center V PvP Achievement"
         },
         {
-            "mount": "Sanuwa",
+            name: "Sanuwa",
             "unlock": "200,000 gil from Luna Vanu, at Rank 7 with the Vanu Vanu Beast Tribe."
         },
         {
-            "mount": "SDS Fenrir",
+            name: "SDS Fenrir",
             "unlock": "Purchased from the Mog Station for EUR 20 or $29."
         },
         {
-            "mount": "Serpent Warsteed",
+            name: "Serpent Warsteed",
             "unlock": "Completion of the A Line in the Glade IV achievement. "
         },
         {
-            "mount": "Shadow Gwiber",
+            name: "Shadow Gwiber",
             "unlock": "Rare drop from The Minstrel's Ballad: Hades's Elegy"
         },
         {
-            "mount": "Skyslipper",
+            name: "Skyslipper",
             "unlock": "Rare drop from Eden's Gate: Sepulture (Savage)"
         },
         {
-            "mount": "Sleipnir",
+            name: "Sleipnir",
             "unlock": "Purchased from the Mog Station for EUR 16.90 or $24."
         },
         {
-            "mount": "Sophic Lanner",
+            name: "Sophic Lanner",
             "unlock": "Dropped from Containment Bay P1T6 (Extreme)."
         },
         {
-            "mount": "Storm Warsteed",
+            name: "Storm Warsteed",
             "unlock": "Completion of the A Line in the Storm IV achievement."
         },
         {
-            "mount": "Starlight Bear",
+            name: "Starlight Bear",
             "unlock": "Purchased from the Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "Striped Ray",
+            name: "Striped Ray",
             "unlock": "Bought from Shikitahe for 12x Kojin Sango. Bloodsworn Rep required."
         },
         {
-            "mount": "Sunspun Cumulus",
+            name: "Sunspun Cumulus",
             "unlock": "Purchased from Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "Syldra",
+            name: "Syldra",
             "unlock": "Purchase Stormblood Collector's Edition."
         },
         {
-            "mount": "Triceratops",
+            name: "Triceratops",
             "unlock": "Completion of the Nuts for Nutsy achievement."
         },
         {
-            "mount": "True Griffin",
+            name: "True Griffin",
             "unlock": "18x Ananta Dreamstaff from Madhura"
         },
         {
-            "mount": "Twintania",
+            name: "Twintania",
             "unlock": "15x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign."
         },
         {
-            "mount": "Typhon",
+            name: "Typhon",
             "unlock": "Bought at the Gold Saucer for 750,000 MGP"
         },
         {
-            "mount": "Tyrannosaur",
+            name: "Tyrannosaur",
             "unlock": "The Forbidden Land, Eureka Anemos"
         },
         {
-            "mount": "Ufiti",
+            name: "Ufiti",
             "unlock": "Purchased from Enie in The Firmament for 8,400 Skybuilders' Scrips"
         },
         {
-            "mount": "Unicorn",
+            name: "Unicorn",
             "unlock": "Unicorn can be acquired when you level Conjurer to 30 and complete the quest Unicorn Power."
         },
         {
-            "mount": "War Panther",
+            name: "War Panther",
             "unlock": "Completion of the But Somebody's Gotta Do It (Dark Knight) achievement."
         },
         {
-            "mount": "War Tiger",
+            name: "War Tiger",
             "unlock": "Completion of the Tank you Gunbreaker II achievement."
         },
         {
-            "mount": "Warbear",
+            name: "Warbear",
             "unlock": "Completion of the But Somebody's Gotta Do It (Warrior) achievement."
         },
         {
-            "mount": "Warlion",
+            name: "Warlion",
             "unlock": "Completion of the But Somebody's Gotta Do It (Paladin) achievement."
         },
         {
-            "mount": "Warring Lanner",
+            name: "Warring Lanner",
             "unlock": "Rare drop from Containment Bay S1T7 (Extreme)."
         },
         {
-            "mount": "Whisper A-go-go",
+            name: "Whisper A-go-go",
             "unlock": "Acquiring all 13 Yo-kai Weapons from the Yo-kai Watch: Gather One, Gather All! Seasonal Event."
         },
         {
-            "mount": "Whisper-go",
+            name: "Whisper-go",
             "unlock": "Acquiring all 13 Yo-kai Minions from the Yo-kai Watch: Gather One, Gather All! Seasonal Event."
         },
         {
-            "mount": "White Devil",
+            name: "White Devil",
             "unlock": "Purchased from the Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "White Lanner",
+            name: "White Lanner",
             "unlock": "Rare drop from The Limitless Blue (Extreme)."
         },
         {
-            "mount": "Witch's Broom",
+            name: "Witch's Broom",
             "unlock": "Purchased from the Mog Station for EUR 8.40 or $12."
         },
         {
-            "mount": "Wyvern",
+            name: "Wyvern",
             "unlock": "Sold for 6 Clan Mark Logs from Bertana."
         },
         {
-            "mount": "Xanthos",
+            name: "Xanthos",
             "unlock": "Dropped by Garuda in The Howling Eye (Extreme)."
         },
         {
-            "mount": "Yol",
+            name: "Yol",
             "unlock": "In the Footsteps of Bardam the Brave Stormblood Main Scenario Quest"
         },
         {
-            "mount": "Zu",
+            name: "Zu",
             "unlock": "Purchased from Resident Caretaker for 1 Iron Voyage Spoil."
         }
     ]

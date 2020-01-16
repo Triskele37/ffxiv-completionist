@@ -1,5 +1,6 @@
 export const BlueMageSpellbook = {
     name: "Spellbook",
+	storageKey: "logs.blue-mage.spells",
     columns: [
         { header: "#", key: "number" },
         { header: "Spell", key: "spell" },

@@ -17,7 +17,7 @@
                 :columns="selectedGroup.columns"
             />
             <data-row
-                :columns="selectedGroup.columns"
+                :selected-group="selectedGroup"
                 :tasks="filteredTasks"
             />
         </table>

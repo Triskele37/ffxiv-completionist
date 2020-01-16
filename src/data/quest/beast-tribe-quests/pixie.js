@@ -4,6 +4,7 @@ import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
 export const PixieQuests = {
     name: "Pixie",
+	storageKey: "quest.beast-tribe",
     columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main

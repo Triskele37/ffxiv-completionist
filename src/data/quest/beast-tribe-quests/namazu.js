@@ -4,6 +4,7 @@ import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
 export const NamazuQuests = {
     name: "Namazu",
+	storageKey: "quest.beast-tribe",
     columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main

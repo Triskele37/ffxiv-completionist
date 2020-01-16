@@ -9,6 +9,7 @@ export const StormbloodQuests = {
         MNaagoQuests,
         MeffridQuests,
     ],
+	storageKey: "quest.main-scenario",
 	columns: QuestColumnConfig,
     tasks: [
         {

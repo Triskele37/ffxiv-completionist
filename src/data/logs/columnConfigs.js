@@ -5,7 +5,7 @@ export const BlueMageLogColumnConfig = [
 ];
 
 export const HuntingLogColumnConfig = [
-    { header: "#", key: "log" },
+    { header: "#", key: "name" },
     { header: "Rank", key: "rank", filterable: true },
     { header: "Mob", key: "mob" },
     { header: "Zone", key: "zone", filterable: true },

@@ -3,6 +3,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=5&columns=ID,Name&limit=19
 export const PostDragonsongQuests = {
     name: "Post-Dragonsong",
+	storageKey: "quest.main-scenario",
     columns: QuestColumnConfig.concat({
         header: "Patch",
         key: "patch",

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheWakingSands = {
     name: "The Waking Sands",
+	storageKey: "quest.side-quest.ul-dahn",
 	columns: QuestColumnConfig,
     tasks: [
         {

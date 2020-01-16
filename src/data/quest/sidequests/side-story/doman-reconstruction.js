@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const DomanReconstruction = {
     name: "Doman Reconstruction",
+	storageKey: "quest.side-quest.side-story.doman-reconstruction",
 	columns: QuestColumnConfig,
     tasks: [
         {

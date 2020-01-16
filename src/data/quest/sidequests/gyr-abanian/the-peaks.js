@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ThePeaks = {
     name: "The Peaks",
+	storageKey: "quest.side-quest.gyr-abanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

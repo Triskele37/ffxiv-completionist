@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ZodiacWeapons = {
     name: "Zodiac Weapons",
+	storageKey: "quest.side-quest.side-story.zodiac-weapons",
     columns: QuestColumnConfig,
     tasks: [
         {

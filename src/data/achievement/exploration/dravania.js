@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DravaniaExplorationAchievements = {
     name: 'Dravania',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Discover every location in the Dravanian forelands.",

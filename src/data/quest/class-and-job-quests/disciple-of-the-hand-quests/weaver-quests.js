@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const WeaverQuests = {
     name: "Weaver",
+	storageKey: "quest.class-and-job.weaver",
 	columns: QuestColumnConfig,
     tasks: [
         {

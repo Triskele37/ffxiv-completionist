@@ -2,6 +2,7 @@ import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
 export const RisingEvents = {
     name: "Rising",
+	storageKey: "quest.other.seasonal",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

@@ -3,6 +3,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 export const Eden = {
     name: "Eden",
+	storageKey: "quest.chronicles",
 	columns: QuestColumnConfig,
     tasks: [
         {

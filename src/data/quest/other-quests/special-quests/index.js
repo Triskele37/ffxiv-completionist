@@ -6,6 +6,7 @@ export const SpecialQuests = {
     subGroups: [
         CollaborationQuests,
     ],
+	storageKey: "quest.other",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const CoerthasExplorationAchievements = {
     name: 'Coerthas',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Visit the Coerthas central highlands and unlock the area map.",

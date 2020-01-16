@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const LimsaLominsa = {
     name: "Limsa Lominsa",
+	storageKey: "quest.side-quest.lominsan",
 	columns: QuestColumnConfig,
     tasks: [
         {

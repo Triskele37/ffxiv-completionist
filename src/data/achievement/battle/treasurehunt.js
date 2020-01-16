@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const TreasureHuntBattleAchievements = {
 	name: 'Treasure Hunt',
+	storageKey: "achievement.battle.treasure-hunt",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Decipher 3 timeworn leather maps and open the treasure coffers to which they lead.",

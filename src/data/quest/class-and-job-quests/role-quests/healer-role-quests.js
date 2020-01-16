@@ -1,6 +1,7 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 export const HealerRoleQuests = {
     name: "Healer Role",
+	storageKey: "quest.class-and-job.role",
 	columns: QuestColumnConfig,
     tasks: [
         {

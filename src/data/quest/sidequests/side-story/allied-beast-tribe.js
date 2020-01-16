@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const AlliedBeastTribe = {
     name: "Allied Beast Tribe",
+	storageKey: "quest.side-quest.side-story.beast-tribe",
 	columns: QuestColumnConfig,
     tasks: [
         {

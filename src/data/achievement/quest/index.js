@@ -7,6 +7,7 @@ import { LeveQuestAchievements } from "./levequests";
 
 export const QuestAchievements = {
     name: 'Quest',
+	storageKey: "achievement.quest",
     columns: AchievementColumnConfig,
     subGroups: [
         BeastQuestAchievements,

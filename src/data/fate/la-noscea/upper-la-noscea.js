@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const UpperLaNosceaFATEs = {
     name: "Upper",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

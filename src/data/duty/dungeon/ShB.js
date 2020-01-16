@@ -2,6 +2,7 @@ import { DutyColumnConfig } from "../columnConfigs";
 
 export const ShBDungeons = {
     name: "ShB",
+	storageKey: "duty.dungeons",
     columns: DutyColumnConfig,
     tasks: [
         {

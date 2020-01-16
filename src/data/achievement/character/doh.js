@@ -5,6 +5,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DiscipleOfHandCharacterAchievements = {
     name: 'Disciple of Hand',
+	storageKey: "achievement.character.doh",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Achieve carpenter level 10.",

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const CentralThanalan = {
     name: "Central Thanalan",
+	storageKey: "quest.side-quest.ul-dahn",
 	columns: QuestColumnConfig,
     tasks: [
         {

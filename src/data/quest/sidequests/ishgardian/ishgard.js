@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Ishgard = {
     name: "Ishgard",
+	storageKey: "quest.side-quest.ishgardian",
 	columns: QuestColumnConfig,
     tasks: [
         {

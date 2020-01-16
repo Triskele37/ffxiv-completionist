@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const IlMhegFATEs = {
     name: "Il Mheg",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

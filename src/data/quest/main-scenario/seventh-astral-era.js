@@ -7,6 +7,7 @@ spelling: api > The Least among Us, app > The Least Among Us, game matches api
 */
 export const SeventhAstralEraQuests = {
     name: "Seventh Astral Era",
+	storageKey: "quest.main-scenario",
     columns: QuestColumnConfig.concat({
         header: "Patch",
         key: "patch",

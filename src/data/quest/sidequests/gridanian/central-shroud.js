@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const CentralShroud = {
     name: "Central Shroud",
+	storageKey: "quest.side-quest.gridanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

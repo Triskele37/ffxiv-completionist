@@ -4,6 +4,7 @@ import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
 export const AnantaQuests = {
     name: "Ananta",
+	storageKey: "quest.beast-tribe",
     columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main

@@ -12,3 +12,9 @@ export const HuntColumnConfig = [
     { header: 'Condition', key: 'condition' },
     { header: 'Location', key: 'location', filterable: true },
 ];
+
+export const HallOfNoviceColumnConfig = [
+    { header: 'Level', key: 'level', },
+    { header: 'Name', key: 'name' },
+    { header: 'Role', key: 'role', filterable: true },
+];

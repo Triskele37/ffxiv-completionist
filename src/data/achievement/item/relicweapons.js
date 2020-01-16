@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const RelicWeaponItemAchievements = {
     name: 'Relic Weapons',
+	storageKey: "achievement.item.relic-weapons",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain Curtana and a Holy Shield in the quest \u201cA Relic Reborn.\u201d",

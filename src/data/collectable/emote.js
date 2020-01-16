@@ -1,438 +1,439 @@
 module.exports = {
     name: "Emote",
+	storageKey: "collectable.emote",
     columns: [
-		{ header: 'Emote', key: 'emote', },
+		{ header: 'Emote', key: 'name', },
 		{ header: 'Command', key: 'command', },
 		{ header: 'Unlock', key: 'unlock' },
 	],
     tasks:[
         {
-          "emote": "Aback",
+          name: "Aback",
           "command": "/aback",
           "unlock": "Purchased from Kasumi at the Gold Saucer for 5,000 gil"
         },
         {
-          "emote": "At Ease",
+          name: "At Ease",
           "command": "/atease",
           "unlock": "Trade with Grand Company Quartermasters"
         },
         {
-          "emote": "Attention",
+          name: "Attention",
           "command": "/attention",
           "unlock": "Trade with Grand Company Quartermasters"
         },
         {
-          "emote": "Backflip",
+          name: "Backflip",
           "command": "/backflip, /bflip",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Ball Dance",
+          name: "Ball Dance",
           "command": "/balldance",
           "unlock": "Level 14 side quest \"Help Me, Lord of the Dance\""
         },
         {
-          "emote": "Battle Stance",
+          name: "Battle Stance",
           "command": "/battlestance, /bstance",
           "unlock": "Level 60 main quest \"Causes and Costs\""
         },
         {
-          "emote": "Big Grin",
+          name: "Big Grin",
           "command": "/biggrin",
           "unlock": "Bought from the main counter in the Gold Saucer for 20,000 MPG"
         },
         {
-          "emote": "Black Ranger Pose A",
+          name: "Black Ranger Pose A",
           "command": "/blackrangerposea, /brpa",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Black Ranger Pose B",
+          name: "Black Ranger Pose B",
           "command": "/blackrangerposeb, /brpb",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Bomb Dance",
+          name: "Bomb Dance",
           "command": "/bombdance",
           "unlock": "Moonfire Faire (2014), MogStation: 2 USD / 1.4 EUR"
         },
         {
-          "emote": "Box",
+          name: "Box",
           "command": "/box",
           "unlock": "Level 70 main quest \"Arenvald's Adventure\""
         },
         {
-          "emote": "Box Step",
+          name: "Box Step",
           "command": "/boxstep",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Breath Control",
+          name: "Breath Control",
           "command": "/breathcontrol",
           "unlock": "Achievement \"Dear Leader I\""
         },
         {
-          "emote": "Charmed",
+          name: "Charmed",
           "command": "/charmed",
           "unlock": "Trade with Madhura at Castellum Velodyna"
         },
         {
-          "emote": "Cheer Jump",
+          name: "Cheer Jump",
           "command": "/cheerjump",
           "unlock": "Little Ladies' Day (2018)"
         },
         {
-          "emote": "Cheer On",
+          name: "Cheer On",
           "command": "/cheeron",
           "unlock": "Little Ladies' Day (2018)"
         },
         {
-          "emote": "Cheer Wave",
+          name: "Cheer Wave",
           "command": "/cheerwave",
           "unlock": "Little Ladies' Day (2018)"
         },
         {
-          "emote": "Confirm",
+          name: "Confirm",
           "command": "/confirm",
           "unlock": "Treasure Maps - Lost Canals of Uznair"
         },
         {
-          "emote": "Crimson Lotus",
+          name: "Crimson Lotus",
           "command": "/crimsonlotus",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Diamond Dust",
+          name: "Diamond Dust",
           "command": "/iceheart",
           "unlock": "Meister Quality Shiva Figure Order Bonus"
         },
         {
-          "emote": "Dote",
+          name: "Dote",
           "command": "/dote",
           "unlock": "Level 15 Valentione's Day (2017) quest \"Once More with Feeling\". MogStation: 2 USD / 1.4 EUR"
         },
         {
-          "emote": "Eastern Bow",
+          name: "Eastern Bow",
           "command": "/easternbow, /ebow",
           "unlock": "Level 62 main quest \"Confederate Consternation\""
         },
         {
-          "emote": "Eastern Dance",
+          name: "Eastern Dance",
           "command": "/edance",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Eastern Greeting",
+          name: "Eastern Greeting",
           "command": "/easterngreeting",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Eastern Stretch",
+          name: "Eastern Stretch",
           "command": "/estretch",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Egi Glamour",
+          name: "Egi Glamour",
           "command": "/egiglamour",
           "unlock": "Level 50 side quest \"An Egi by Any Other Name\""
         },
         {
-          "emote": "Elucidate",
+          name: "Elucidate",
           "command": "/elucidate",
           "unlock": "Bought from the Storm Sergeant (Wolves' Den Provisioner) in Wolves' Den Pier for 15,000 Wolf Marks"
         },
         {
-          "emote": "Embrace",
+          name: "Embrace",
           "command": "/embrace",
           "unlock": "Level 1 quest \"The Ties that Bind\".  Get married."
         },
         {
-          "emote": "Endure",
+          name: "Endure",
           "command": "/endure",
           "unlock": "Level 70 Main Quest \"The Call\""
         },
         {
-          "emote": "Eureka",
+          name: "Eureka",
           "command": "/eureka",
           "unlock": "Level 15 Make it Rain Campain (2016) quest \"An Inspector's Gadget\". MogStation: 2 USD / 1.4 EUR"
         },
         {
-          "emote": "Fist Bump",
+          name: "Fist Bump",
           "command": "/fistbump",
           "unlock": "Received from the \"Recruit a Friend Campaign\" as either recruiter or recruited."
         },
         {
-          "emote": "Fist Pump",
+          name: "Fist Pump",
           "command": "/fistpump",
           "unlock": "Duty \"The Forbidden Land, Eureka Hydatos\""
         },
         {
-          "emote": "Get Fantasy",
+          name: "Get Fantasy",
           "command": "/getfantasy",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Gold Dance",
+          name: "Gold Dance",
           "command": "/golddance, /gdance",
           "unlock": "Bought from the main counter in the Gold Saucer for 80,000 MPG"
         },
         {
-          "emote": "Gratuity",
+          name: "Gratuity",
           "command": "/gratuity, /makeithail",
           "unlock": "Level 70 side quest \"What a Wonder-full World\""
         },
         {
-          "emote": "Greeting",
+          name: "Greeting",
           "command": "/greet",
           "unlock": "Level 70 main quest \"Tidings from the East\""
         },
         {
-          "emote": "Harvest Dance",
+          name: "Harvest Dance",
           "command": "/harvestdance",
           "unlock": "Level 14 side quest \"Saw That One Coming\""
         },
         {
-          "emote": "Haurchefant",
+          name: "Haurchefant",
           "command": "/haurchefant",
           "unlock": "Level 60 side quest \"The Burdens We Bear\""
         },
         {
-          "emote": "Headache",
+          name: "Headache",
           "command": "/headache",
           "unlock": "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals"
         },
         {
-          "emote": "Hum",
+          name: "Hum",
           "command": "/hum",
           "unlock": "Quest \"Hell's Kier (Normal)\""
         },
         {
-          "emote": "Huzzah",
+          name: "Huzzah",
           "command": "/huzzah, /hurray",
           "unlock": "Level 15 The Rising (2014) quest \"What Blooms in the Night\". MogStation: 2 USD / 1.4 EUR"
         },
         {
-          "emote": "Imperial Salute",
+          name: "Imperial Salute",
           "command": "/imperialsalute",
           "unlock": "Level 45 main quest \"Acting the Part\""
         },
         {
-          "emote": "Lali-ho",
+          name: "Lali-ho",
           "command": "/laliho",
           "unlock": "Sidequest chain continuing on form lvl 78 Aether Current quest"
         },
         {
-          "emote": "Lean",
+          name: "Lean",
           "command": "/lean",
           "unlock": "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
         },
         {
-          "emote": "Manderville Dance",
+          name: "Manderville Dance",
           "command": "/mandervilledance",
           "unlock": "Level 50 side story quest \"The Hammer\""
         },
         {
-          "emote": "Manderville Mambo",
+          name: "Manderville Mambo",
           "command": "/mandervillemambo, /mmambo",
           "unlock": "Level 70 side story quest \"Don't Do the Dewprism\""
         },
         {
-          "emote": "Megaflare",
+          name: "Megaflare",
           "command": "/megaflare",
           "unlock": "Mogstation: 12 USD / 9 EUR"
         },
         {
-          "emote": "Moogle Dance",
+          name: "Moogle Dance",
           "command": "/mogdance",
           "unlock": "Level 50 moogle quest \"Piecing Together the Past\""
         },
         {
-          "emote": "Moonlift Dance",
+          name: "Moonlift Dance",
           "command": "/moonlift",
           "unlock": "Level 60 side story quest \"Eternity, Loyalty, Honesty\""
         },
         {
-          "emote": "Most Gentlemanly",
+          name: "Most Gentlemanly",
           "command": "/hildy",
           "unlock": "Level 50 side story quest \"Her Last Vow\""
         },
         {
-          "emote": "Play Dead",
+          name: "Play Dead",
           "command": "/playdead, /pdead",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Ponder",
+          name: "Ponder",
           "command": "/ponder, /makeyougohmmm",
           "unlock": "Level 70 main quest \"Emmisary of the Dawn\""
         },
         {
-          "emote": "Popoto Step",
+          name: "Popoto Step",
           "command": "/popotostep",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Power Up",
+          name: "Power Up",
           "command": "/powerup",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Pretty Please",
+          name: "Pretty Please",
           "command": "/prettyplease, /pplease",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Push-ups ",
+          name: "Push-ups ",
           "command": "/pushups",
           "unlock": "Achievement \"Dear Leader I\""
         },
         {
-          "emote": "Red Ranger Pose A",
+          name: "Red Ranger Pose A",
           "command": "/redrangerposea, /rrpa",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Red Ranger Pose B",
+          name: "Red Ranger Pose B",
           "command": "/redrangerposeb, /rrpb",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Reflect",
+          name: "Reflect",
           "command": "/reflect",
           "unlock": "10,000 Company Seals"
         },
         {
-          "emote": "Reprimand",
+          name: "Reprimand",
           "command": "/reprimand",
           "unlock": "15,0000 Wolf Marks Exchange"
         },
         {
-          "emote": "Ritual Prayer",
+          name: "Ritual Prayer",
           "command": "/ritualprayer",
           "unlock": "Trade with Shikitahe in Tamamizu"
         },
         {
-          "emote": "Scheme",
+          name: "Scheme",
           "command": "/scheme",
           "unlock": "Duty \"The Forbidden Land, Eureka Pyros\""
         },
         {
-          "emote": "Senor Sabotender",
+          name: "Senor Sabotender",
           "command": "/sabotender",
           "unlock": "\"Make It Rain\" 2019 Event"
         },
         {
-          "emote": "Shiver",
+          name: "Shiver",
           "command": "/shiver",
           "unlock": "Duty \"The Forbidden Land, Eureka Pagos\""
         },
         {
-          "emote": "Side Step",
+          name: "Side Step",
           "command": "/sidestep",
           "unlock": "MogStation: 7 USD / 4.9 EUR"
         },
         {
-          "emote": "Sit-ups",
+          name: "Sit-ups",
           "command": "/situps",
           "unlock": "Achievement \"Dear Leader I\""
         },
         {
-          "emote": "Songbird",
+          name: "Songbird",
           "command": "/songbird",
           "unlock": "Little Ladies' Day (2017), MogStation: 2 USD / 1.4 EUR"
         },
         {
-          "emote": "Spectacles",
+          name: "Spectacles",
           "command": "/spectacles",
           "unlock": "Level 60 side story quest \"Letters from No One\""
         },
         {
-          "emote": "Splash",
+          name: "Splash",
           "command": "/splash",
           "unlock": "Moonfire Faire (2018), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Squats",
+          name: "Squats",
           "command": "/squats",
           "unlock": "Achievement \"Dear Leader I\""
         },
         {
-          "emote": "Step Dance",
+          name: "Step Dance",
           "command": "/stepdance",
           "unlock": "Level 14 side quest \"Good for What Ales You\""
         },
         {
-          "emote": "Sundrop Dance",
+          name: "Sundrop Dance",
           "command": "/sundance, /sundropdance",
           "unlock": "Level 50 Vanu Vanu quest \"Sundrop the Beat\""
         },
         {
-          "emote": "Sweat",
+          name: "Sweat",
           "command": "/sweat",
           "unlock": "Trade with Confederate Custodian in Crick."
         },
         {
-          "emote": "Thavnairian Dance",
+          name: "Thavnairian Dance",
           "command": "/thavnairiandance",
           "unlock": "Bought from the main counter in the Gold Saucer for 80,000 MPG"
         },
         {
-          "emote": "Throw",
+          name: "Throw",
           "command": "/throw",
           "unlock": "Level 36 side quest \"Toss Fit Workout\""
         },
         {
-          "emote": "Toast",
+          name: "Toast",
           "command": "",
           "unlock": "Unknown"
         },
         {
-          "emote": "Tomestone",
+          name: "Tomestone",
           "command": "/tomestone",
           "unlock": "Connect your account to the FFXIV mobile app"
         },
         {
-          "emote": "Tremble",
+          name: "Tremble",
           "command": "/tremble",
           "unlock": "Trade with Eschidna in Rhalgr's Reach"
         },
         {
-          "emote": "Ultima",
+          name: "Ultima",
           "command": "/ultima",
           "unlock": "Meister Quality Ultima Figure order bonus"
         },
         {
-          "emote": "Victory",
+          name: "Victory",
           "command": "/vpose",
           "unlock": "Level 60 main quest \"A Spectacle for the Ages\""
         },
         {
-          "emote": "Water Flip",
+          name: "Water Flip",
           "command": "/waterflip",
           "unlock": "Level 63 main quest \"In Soroban We Trust\""
         },
         {
-          "emote": "Winded",
+          name: "Winded",
           "command": "/winded",
           "unlock": "Trade with Eschidna in Rhalgr's Reach"
         },
         {
-          "emote": "Yellow Ranger Pose A",
+          name: "Yellow Ranger Pose A",
           "command": "/yellowrangerposea, /yrpa",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Yellow Ranger Pose B",
+          name: "Yellow Ranger Pose B",
           "command": "/yellowrangerposeb, /yrpb",
           "unlock": "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
         },
         {
-          "emote": "Yol Dance",
+          name: "Yol Dance",
           "command": "/yoldance",
           "unlock": "Trade with Gyosho in Dhoro Iloh"
         },
         {
-          "emote": "Zantetsuken",
+          name: "Zantetsuken",
           "command": "/zantetsuken, /ztk",
           "unlock": "Item code from purchasing Meister Quality Odin Figure"
         }

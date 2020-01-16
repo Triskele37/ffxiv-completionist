@@ -4,6 +4,7 @@ import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
 export const KojinQuests = {
     name: "Kojin",
+	storageKey: "quest.beast-tribe",
     columns: BeastTribeQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ Main

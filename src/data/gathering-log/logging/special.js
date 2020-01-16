@@ -2,6 +2,7 @@ import { GatheringColumnConfig } from "../columnConfigs";
 
 export const LoggingLogSpecial = {
     name: "Special",
+	storageKey: "gathering-log.logging",
     columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- Coerthan Folklore

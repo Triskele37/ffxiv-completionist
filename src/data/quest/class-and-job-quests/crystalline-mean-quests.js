@@ -1,5 +1,6 @@
 export const CrystallineMeanQuests = {
     name: "Crystalline Mean",
+	storageKey: "quest.class-and-job.crystalline-mean",
     columns: [
         { header: "Facet", key: "facet" },
         { header: "Level", key: "level" },

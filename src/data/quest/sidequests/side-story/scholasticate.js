@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Scholasticate = {
     name: "Scholasticate",
+	storageKey: "quest.side-quest.side-story.scholasticate",
 	columns: QuestColumnConfig,
     tasks: [
         {

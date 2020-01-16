@@ -2,6 +2,7 @@ import { BlueMageLogColumnConfig } from "../../columnConfigs";
 
 export const BlueMageRaids = {
     name: "Raids",
+	storageKey: "logs.blue-mage.log",
     columns: BlueMageLogColumnConfig,
     tasks: [
         {

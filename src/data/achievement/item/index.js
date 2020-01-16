@@ -14,6 +14,7 @@ import { ZodiacWeaponItemAchievements } from "./zodiacweapons";
 
 export const ItemAchievements = {
     name: 'Item',
+	storageKey: "achievement.item",
     columns: AchievementColumnConfig,
     subGroups: [
         AnimaWeaponItemAchievements,

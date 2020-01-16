@@ -6,6 +6,7 @@ export const QuarryingLog = {
     subGroups: [
 		QuarryingLogSpecial,
     ],
+	storageKey: "gathering-log.quarrying",
     columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- 1-5

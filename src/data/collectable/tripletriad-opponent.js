@@ -1,8 +1,9 @@
 module.exports = {
     name: "Triple Triad - Opponent",
+	storageKey: "collectable.triple-triad.opponents",
     columns: [
 		{ header: 'Deck Strength', key: 'deckstrength', filterable: true },
-		{ header: 'Opponent', key: 'opponent' },
+		{ header: 'Opponent', key: 'name' },
 		{ header: 'Zone', key: 'zone', filterable: true },
 		{ header: 'Location', key: 'location' },
 		{ header: 'Rules', key: 'rules', filterable: true },
@@ -14,7 +15,7 @@ module.exports = {
     tasks:[
         {
           "deckstrength": 13,
-          "opponent": "Triple Triad Master",
+          name: "Triple Triad Master",
           "zone": "The Gold Saucer",
           "location": "Card Square (4,7)",
           "rules": "All Open",
@@ -25,7 +26,7 @@ module.exports = {
         },
         {
           "deckstrength": 15,
-          "opponent": "Jonas of the Three Spades",
+          name: "Jonas of the Three Spades",
           "zone": "The Gold Saucer",
           "location": "Card Square (4,7)",
           "rules": "All Open, Same",
@@ -36,7 +37,7 @@ module.exports = {
         },
         {
           "deckstrength": 15,
-          "opponent": "Memeroon",
+          name: "Memeroon",
           "zone": "Upper La Noscea",
           "location": "Oakwood (14,24)",
           "rules": "All Open",
@@ -47,7 +48,7 @@ module.exports = {
         },
         {
           "deckstrength": 15,
-          "opponent": "Roger",
+          name: "Roger",
           "zone": "Central Thanalan",
           "location": "Black Brush (19,20)",
           "rules": "All Open",
@@ -58,7 +59,7 @@ module.exports = {
         },
         {
           "deckstrength": 15,
-          "opponent": "Saushs Koal",
+          name: "Saushs Koal",
           "zone": "Norvrandt",
           "location": "The Tempest (31.6, 17.3)",
           "rules": "All Open",
@@ -69,7 +70,7 @@ module.exports = {
         },
         {
           "deckstrength": 15,
-          "opponent": "Wyra \"Greenhands\" Lyehga",
+          name: "Wyra \"Greenhands\" Lyehga",
           "zone": "Triple Triad Battlehall",
           "location": "Battlehall (3.3,3.3)",
           "rules": "All Opne, Same",
@@ -80,7 +81,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "F'hobhas",
+          name: "F'hobhas",
           "zone": "Central Thanalan",
           "location": "Black Brush (23,13)",
           "rules": "Three Open",
@@ -91,7 +92,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "Glynard",
+          name: "Glynard",
           "zone": "The Crystarium",
           "location": "The Wandering Stairs (10.8-15.2)",
           "rules": "Three Open",
@@ -102,7 +103,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "Guhtwint of the Three Diamonds",
+          name: "Guhtwint of the Three Diamonds",
           "zone": "The Gold Saucer",
           "location": "Card Square (4,7)",
           "rules": "Three Open, Plus",
@@ -113,7 +114,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "Maisenta",
+          name: "Maisenta",
           "zone": "Gridania",
           "location": "New Gridania (11,11)",
           "rules": "All Open",
@@ -124,7 +125,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "Seika",
+          name: "Seika",
           "zone": "The Dravanian Hinterlands",
           "location": "Idyllshire (6,7)",
           "rules": "Chaos, Reverse",
@@ -135,7 +136,7 @@ module.exports = {
         },
         {
           "deckstrength": 16,
-          "opponent": "Wymond",
+          name: "Wymond",
           "zone": "Ul'dah",
           "location": "Steps of Nald (9,8)",
           "rules": "Three Open",
@@ -146,7 +147,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Drery",
+          name: "Drery",
           "zone": "Norvrandt",
           "location": "Amh Araeng (12, 17)",
           "rules": "Same, Plus",
@@ -157,7 +158,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Ercanbald",
+          name: "Ercanbald",
           "zone": "Rhalgr's Reach",
           "location": "Rhalgr's Reach(9.8,9.8)",
           "rules": "Nine",
@@ -168,7 +169,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Gyoei",
+          name: "Gyoei",
           "zone": "Yanxia",
           "location": "Yuzuka Manor (15.7,31.9)",
           "rules": "Roulette, Reverse, Plus",
@@ -179,7 +180,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Gyuf Uin",
+          name: "Gyuf Uin",
           "zone": "Norvrandt",
           "location": "Il Mheg (16.1, 30.6)",
           "rules": "Three Open, Swap",
@@ -190,7 +191,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Ibenart",
+          name: "Ibenart",
           "zone": "Norvrandt",
           "location": "Kholusia (19.1, 17.4)",
           "rules": "Three Open, Fallen Ace",
@@ -201,7 +202,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Joellaut",
+          name: "Joellaut",
           "zone": "Coerthas Central Highlands",
           "location": "Whitebrim (13,15)",
           "rules": "Three Open, Swap",
@@ -212,7 +213,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Mimidoa",
+          name: "Mimidoa",
           "zone": "Lower La Noscea",
           "location": "The Gods' Grip (25,35)",
           "rules": "Three Open",
@@ -223,7 +224,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Momodi",
+          name: "Momodi",
           "zone": "Ul'dah",
           "location": "Steps of Nald (11,9)",
           "rules": "Three Open",
@@ -234,7 +235,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Mother Miounne",
+          name: "Mother Miounne",
           "zone": "Gridania",
           "location": "New Gridania (11,13)",
           "rules": "Three Open",
@@ -245,7 +246,7 @@ module.exports = {
         },
         {
           "deckstrength": 17,
-          "opponent": "Trachtoum",
+          name: "Trachtoum",
           "zone": "Lower La Noscea",
           "location": "Cedarwood (35,15)",
           "rules": "Three Open",
@@ -256,7 +257,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Aurifort of the Three Clubs",
+          name: "Aurifort of the Three Clubs",
           "zone": "The Gold Saucer",
           "location": "Card Square (4,7)",
           "rules": "Three Open, Random",
@@ -267,7 +268,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Baderon",
+          name: "Baderon",
           "zone": "Limsa Lominsa",
           "location": "Limsa Lominsa Upper Decks (11,11)",
           "rules": "Three Open",
@@ -278,7 +279,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Fufulupa",
+          name: "Fufulupa",
           "zone": "Western Thanalan",
           "location": "Horizon's Edge (22,17)",
           "rules": "Three Open",
@@ -289,7 +290,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Hokushin",
+          name: "Hokushin",
           "zone": "Kugane",
           "location": "Kugane �(14.4-11.2)",
           "rules": "Plus, Swap",
@@ -300,7 +301,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Marcechamp",
+          name: "Marcechamp",
           "zone": "The Dravanian Forelands",
           "location": "Chocobo Forest (31,23)",
           "rules": "Reverse, Random",
@@ -311,7 +312,7 @@ module.exports = {
         },
         {
           "deckstrength": 18,
-          "opponent": "Prideful Stag",
+          name: "Prideful Stag",
           "zone": "Triple Triad Battlehall",
           "location": "Battlehall (3.7,3.3)",
           "rules": "Plus",
@@ -322,7 +323,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Eo Sigun",
+          name: "Eo Sigun",
           "zone": "Norvrandt",
           "location": "Il Mheg (22,3)",
           "rules": "Plus",
@@ -333,7 +334,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Garima",
+          name: "Garima",
           "zone": "The Fringes",
           "location": "Vira Nilya (28.2-19.9)",
           "rules": "Sudden Death, Plus, Ascension",
@@ -344,7 +345,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Helmhart",
+          name: "Helmhart",
           "zone": "Eastern Thanalan",
           "location": "Drybone (20,21)",
           "rules": "Three Open",
@@ -355,7 +356,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Kotokaze",
+          name: "Kotokaze",
           "zone": "Kugane",
           "location": "Shiokaze Hostelry (10.2,10.2)",
           "rules": "Sudden Death. Same",
@@ -366,7 +367,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Piralnaut",
+          name: "Piralnaut",
           "zone": "East Shroud",
           "location": "Nine Ivies (17,26)",
           "rules": "Three Open",
@@ -377,7 +378,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Tsuzura",
+          name: "Tsuzura",
           "zone": "The Ruby Sea",
           "location": "The Ruby Sea (28.5,16.4)",
           "rules": "Ascension, Chaos, Roulette",
@@ -388,7 +389,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Ushiogi",
+          name: "Ushiogi",
           "zone": "The Ruby Sea",
           "location": "Rasen Kaikyo (21.7-7.9)",
           "rules": "Swap, Order",
@@ -399,7 +400,7 @@ module.exports = {
         },
         {
           "deckstrength": 19,
-          "opponent": "Yusui",
+          name: "Yusui",
           "zone": "The Ruby Sea",
           "location": "Sakazuki (31.6,37.1)",
           "rules": "Same",
@@ -410,7 +411,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Dominiac",
+          name: "Dominiac",
           "zone": "Coerthas Western Highlands",
           "location": "Twinpools (16,22)",
           "rules": "Order",
@@ -421,7 +422,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Hargra",
+          name: "Hargra",
           "zone": "Norvrandt",
           "location": "Rak'tika Greatwood (18.6, 26)",
           "rules": "Same, Roulette",
@@ -432,7 +433,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "House Fortemps Manservant",
+          name: "House Fortemps Manservant",
           "zone": "Fortemps Manor",
           "location": "Various (Inside Fortemps Manor)",
           "rules": "Three Open, Plus",
@@ -443,7 +444,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Kaizan",
+          name: "Kaizan",
           "zone": "The Ruby Sea",
           "location": "The Ruby Sea (22.3,8.6)",
           "rules": "Sudden Death, Swap, Descension",
@@ -454,7 +455,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Lamlyn",
+          name: "Lamlyn",
           "zone": "Norvrandt",
           "location": "Lakeland (35.4, 20.2)",
           "rules": "Chaos",
@@ -465,7 +466,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Linu Vali",
+          name: "Linu Vali",
           "zone": "The Sea of Clouds",
           "location": "Various",
           "rules": "Reverse, Chaos",
@@ -476,7 +477,7 @@ module.exports = {
         },
         {
           "deckstrength": 20,
-          "opponent": "Noes",
+          name: "Noes",
           "zone": "Gridania",
           "location": "Old Gridania (10,5)",
           "rules": "Descension, Random",
@@ -487,7 +488,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Botan",
+          name: "Botan",
           "zone": "Kugane",
           "location": "Pier 1 �(7.8-14.7)",
           "rules": "Plus, Roulette",
@@ -498,7 +499,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Hetsukaze",
+          name: "Hetsukaze",
           "zone": "Kugane",
           "location": "Pier 1 �(8.0-13.6)",
           "rules": "Same, Plus",
@@ -509,7 +510,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Idle Imperial",
+          name: "Idle Imperial",
           "zone": "Azys La",
           "location": "Gamma Quadrant (28,31)",
           "rules": "Ascension, Random",
@@ -520,7 +521,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Landenel",
+          name: "Landenel",
           "zone": "South Shroud",
           "location": "Camp Tranquil (16,28)",
           "rules": "Fallen Ace, Random",
@@ -531,7 +532,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Mero Roggo",
+          name: "Mero Roggo",
           "zone": "The Dravanian Hinterlands",
           "location": "The Ruling Quarter (12.7-36.8)",
           "rules": "Plus, Roulette",
@@ -542,7 +543,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Mordyn",
+          name: "Mordyn",
           "zone": "Limsa Lominsa",
           "location": "Limsa Lominsa Upper Decks (11,7)",
           "rules": "Swap. Same",
@@ -553,7 +554,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Nell Half-Full",
+          name: "Nell Half-Full",
           "zone": "Triple Triad Battlehall",
           "location": "Battlehall (3.3,3.7)",
           "rules": "Same, Plus",
@@ -564,7 +565,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "O'kalkaya",
+          name: "O'kalkaya",
           "zone": "Limsa Lominsa",
           "location": "Limsa Lominsa Upper Decks (12,13)",
           "rules": "Roulette, Plus",
@@ -575,7 +576,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Redbill Storeboy",
+          name: "Redbill Storeboy",
           "zone": "Idyllshire",
           "location": "Greengrub Mudplots",
           "rules": "Chaos",
@@ -586,7 +587,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Swift",
+          name: "Swift",
           "zone": "Ul'dah",
           "location": "Steps of Nald (8,8)",
           "rules": "Chaos",
@@ -597,7 +598,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Yayake",
+          name: "Yayake",
           "zone": "Ul'dah",
           "location": "Ul'dah - Steps of Nald (7,12)",
           "rules": "Chaos, Roulette",
@@ -608,7 +609,7 @@ module.exports = {
         },
         {
           "deckstrength": 21,
-          "opponent": "Yellow Moon",
+          name: "Yellow Moon",
           "zone": "Ul'dah",
           "location": "Ul'dah - Steps of Nald (14,13)",
           "rules": "Ascension, Random",
@@ -619,7 +620,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Gibrillont",
+          name: "Gibrillont",
           "zone": "Ishgard",
           "location": "Foundation (12,11)",
           "rules": "Roulette",
@@ -630,7 +631,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Hab",
+          name: "Hab",
           "zone": "Southern Thanalan",
           "location": "Sagolii Desert (24,40)",
           "rules": "Descension",
@@ -641,7 +642,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Hachinan",
+          name: "Hachinan",
           "zone": "Yanxia",
           "location": "The House of the Fierce (26.4,12.9)",
           "rules": "Ascension, Fallen Ace",
@@ -652,7 +653,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Indolent Imperial",
+          name: "Indolent Imperial",
           "zone": "Mor Dhona",
           "location": "Mor Dhona (11,17)",
           "rules": "Ascension",
@@ -663,7 +664,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Laniaitte",
+          name: "Laniaitte",
           "zone": "The Sea of Clouds",
           "location": "Cloudtop (16,37)",
           "rules": "Same, Plus",
@@ -674,7 +675,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Masatsuchi",
+          name: "Masatsuchi",
           "zone": "Yanxia",
           "location": "Namai (29.5,20.2)",
           "rules": "Same",
@@ -685,7 +686,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Master Mogzin",
+          name: "Master Mogzin",
           "zone": "The Churning Mists",
           "location": "Idyllshire (15.6,28.8)",
           "rules": "Plus, Same",
@@ -696,7 +697,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Ogodei",
+          name: "Ogodei",
           "zone": "The Azim Steppe",
           "location": "The Dawn Throne (22,20.7)",
           "rules": "Reverse, Descention, Fallen Ace, Plus",
@@ -707,7 +708,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Ourdilic",
+          name: "Ourdilic",
           "zone": "Coerthas Central Highlands",
           "location": "Whitebrim (6,22)",
           "rules": "Order",
@@ -718,7 +719,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Rowena",
+          name: "Rowena",
           "zone": "Mor Dhona",
           "location": "Fogfens (21,5)",
           "rules": "Roulette",
@@ -729,7 +730,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Sezul Totoloc",
+          name: "Sezul Totoloc",
           "zone": "North Shroud",
           "location": "Peacegarden (24,23)",
           "rules": "Same, Plus",
@@ -740,7 +741,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Tapklix",
+          name: "Tapklix",
           "zone": "The Dravanian Hinterlands",
           "location": "The Collectors' Quarter (21,18)",
           "rules": "Swap, Same",
@@ -751,7 +752,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Tataru",
+          name: "Tataru",
           "zone": "Coerthas Central Highlands",
           "location": "Coerthas Central Highlands (26,17)",
           "rules": "Random, Roulette",
@@ -762,7 +763,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Vath Deftarm",
+          name: "Vath Deftarm",
           "zone": "The Dravanian Forelands",
           "location": "Various",
           "rules": "Roulette",
@@ -773,7 +774,7 @@ module.exports = {
         },
         {
           "deckstrength": 22,
-          "opponent": "Wawalago",
+          name: "Wawalago",
           "zone": "Limsa Lominsa",
           "location": "Limsa Lominsa Lower Decks (8,15)",
           "rules": "Swap, Chaos",
@@ -784,7 +785,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Buscarron",
+          name: "Buscarron",
           "zone": "South Shroud",
           "location": "Upper Paths (18,19)",
           "rules": "Order",
@@ -795,7 +796,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Flichoirel the Lordling",
+          name: "Flichoirel the Lordling",
           "zone": "Triple Triad Battlehall",
           "location": "Battlehall (3.7,3.7)",
           "rules": "None",
@@ -806,7 +807,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Grewenn",
+          name: "Grewenn",
           "zone": "Norvrandt",
           "location": "Eulmore (12.5, 9.9)",
           "rules": "Plus, Swap",
@@ -817,7 +818,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Imperial Deserter (The Lochs)",
+          name: "Imperial Deserter (The Lochs)",
           "zone": "The Lochs",
           "location": "The Lochs (32.8,30.1)",
           "rules": "Fallen Ace",
@@ -828,7 +829,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Ironworks Hand",
+          name: "Ironworks Hand",
           "zone": "Rhalgr's Reach",
           "location": "The Yarn (30.7, 31.8)",
           "rules": "Plus, Roulette",
@@ -839,7 +840,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "King Elmer III",
+          name: "King Elmer III",
           "zone": "The Gold Saucer",
           "location": "Card Square (3,7)",
           "rules": "Plus",
@@ -850,7 +851,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Marcette",
+          name: "Marcette",
           "zone": "Central Shroud",
           "location": "Sorrel Haven (16,18)",
           "rules": "Chaos",
@@ -861,7 +862,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Midnight Dew",
+          name: "Midnight Dew",
           "zone": "The Dravanian Hinterlands",
           "location": "Idyllshire (6,7)",
           "rules": "Random, Roulette",
@@ -872,7 +873,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Mogmill",
+          name: "Mogmill",
           "zone": "The Churning Mists",
           "location": "Sohm Al Summit (28,35)",
           "rules": "Roulette",
@@ -883,7 +884,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Munglig",
+          name: "Munglig",
           "zone": "The Azim Steppe",
           "location": "Dotharl Khaa",
           "rules": "Chaos, Reverse, Same",
@@ -894,7 +895,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Nigen",
+          name: "Nigen",
           "zone": "The Azim Steppe",
           "location": "The Azim Steppe (31.9,11.5)",
           "rules": "Same, Plus",
@@ -905,7 +906,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "R'ashaht Rhiki",
+          name: "R'ashaht Rhiki",
           "zone": "Limsa Lominsa",
           "location": "Limsa Lominsa Lower Decks (13,12)",
           "rules": "Same, Plus",
@@ -916,7 +917,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Ruhtwyda of the Three Hearts",
+          name: "Ruhtwyda of the Three Hearts",
           "zone": "The Gold Saucer",
           "location": "Card Square (3,7)",
           "rules": "Ascension, Sudden Death",
@@ -927,7 +928,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Umber Torrent",
+          name: "Umber Torrent",
           "zone": "The Lochs",
           "location": "The Saltery",
           "rules": "Sudden Death, Plus",
@@ -938,7 +939,7 @@ module.exports = {
         },
         {
           "deckstrength": 23,
-          "opponent": "Voracious Vath",
+          name: "Voracious Vath",
           "zone": "Dravanian Forelands",
           "location": "The Smoldering Wastes (23,19)",
           "rules": "Ascension, Swap",
@@ -949,7 +950,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Gegeruju",
+          name: "Gegeruju",
           "zone": "Eastern La Noscea",
           "location": "Bloodshore (35,30)",
           "rules": "Swap, Sudden Death",
@@ -960,7 +961,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Kikimo",
+          name: "Kikimo",
           "zone": "The Ruby Sea",
           "location": "Sakazuki (32.9,37.5)",
           "rules": "Swap, Fallen Ace",
@@ -971,7 +972,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Kiuka",
+          name: "Kiuka",
           "zone": "Doman Enclave",
           "location": "Doman Enclave (5.5,4.5)",
           "rules": "Chaos",
@@ -982,7 +983,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Klynthota",
+          name: "Klynthota",
           "zone": "Mor Dhona",
           "location": "North Silvertear (30,13)",
           "rules": "Same, Plus",
@@ -993,7 +994,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Marielle",
+          name: "Marielle",
           "zone": "The Sea of Clouds",
           "location": "Cloudtop (15,37)",
           "rules": "Order",
@@ -1004,7 +1005,7 @@ module.exports = {
         },
         {
           "deckstrength": 24,
-          "opponent": "Vorsaile Heuloix",
+          name: "Vorsaile Heuloix",
           "zone": "Gridania",
           "location": "New Gridania (9,11)",
           "rules": "Ascension",
@@ -1015,7 +1016,7 @@ module.exports = {
         },
         {
           "deckstrength": 25,
-          "opponent": "Elaisse",
+          name: "Elaisse",
           "zone": "Ishgard",
           "location": "The Pillars (7,10)",
           "rules": "Roulette",
@@ -1026,7 +1027,7 @@ module.exports = {
         },
         {
           "deckstrength": 25,
-          "opponent": "Hall Overseer",
+          name: "Hall Overseer",
           "zone": "Triple Triad Battlehall",
           "location": "Battlehall (3.5,3.5)",
           "rules": "Fallen Ace, Chaos",
@@ -1037,7 +1038,7 @@ module.exports = {
         },
         {
           "deckstrength": 25,
-          "opponent": "Lewena",
+          name: "Lewena",
           "zone": "The Gold Saucer",
           "location": "Entrance Square (4,6)",
           "rules": "Random, Chaos",
@@ -1048,7 +1049,7 @@ module.exports = {
         },
         {
           "deckstrength": 26,
-          "opponent": "Isobe",
+          name: "Isobe",
           "zone": "The Ruby Sea",
           "location": "Sui-no-Sato (20.2,19.5)",
           "rules": "Plus, Swap",

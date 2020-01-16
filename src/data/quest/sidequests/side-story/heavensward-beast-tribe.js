@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const HeavenswardBeastTribe = {
     name: "Heavensward Beast Tribe",
+	storageKey: "quest.side-quest.side-story.beast-tribe",
 	columns: QuestColumnConfig,
     tasks: [
         {

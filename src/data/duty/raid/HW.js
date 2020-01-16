@@ -2,6 +2,7 @@ import { DutyColumnConfig } from "../columnConfigs";
 
 export const HWRaids = {
     name: "HW",
+	storageKey: "duty.raids",
     columns: DutyColumnConfig,
     tasks: [
         {

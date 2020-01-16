@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const UlDahStartingQuests = {
     name: "Ul'Dah",
+	storageKey: "quest.main-scenario.ul-dah",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Kholusia = {
     name: "Kholusia",
+	storageKey: "quest.side-quest.kholusia",
 	columns: QuestColumnConfig,
     tasks: [
         {

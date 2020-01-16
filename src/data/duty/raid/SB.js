@@ -2,6 +2,7 @@ import { DutyColumnConfig } from "../columnConfigs";
 
 export const SBRaids = {
     name: "SB",
+	storageKey: "duty.raids",
     columns: DutyColumnConfig,
     tasks: [
         {

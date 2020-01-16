@@ -3,6 +3,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 export const TheShadowOfMhach = {
     name: "The Shadow of Mhach",
+	storageKey: "quest.chronicles",
 	columns: QuestColumnConfig,
     tasks: [
         {

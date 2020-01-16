@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const DeliveryMoogle = {
     name: "Delivery Moogle",
+	storageKey: "quest.side-quest.side-story.delivery-moogle",
 	columns: QuestColumnConfig,
     tasks: [
         {

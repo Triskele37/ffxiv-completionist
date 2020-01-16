@@ -16,6 +16,7 @@ import { ThanalanExplorationAchievements } from "./thanalan";
 
 export const ExplorationAchievements = {
     name: 'Exploration',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     subGroups: [
         AbalathiasSpineExplorationAchievements,

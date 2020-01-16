@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const RaidBattleAchievements = {
 	name: 'Raids',
+	storageKey: "achievement.battle.raids",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Complete the Binding Coil of Bahamut.",

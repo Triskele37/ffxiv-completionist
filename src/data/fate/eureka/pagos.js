@@ -2,6 +2,7 @@ import { EurekaColumnConfig } from "../columnConfigs";
 
 export const PagosFATEs = {
     name: "Pagos",
+	storageKey: "duty.fate",
     columns: EurekaColumnConfig,
     tasks: [
         {

@@ -3,6 +3,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 export const Alexander = {
     name: "Alexander",
+	storageKey: "quest.chronicles",
 	columns: QuestColumnConfig,
     tasks: [
         {

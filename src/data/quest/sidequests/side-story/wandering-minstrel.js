@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const WanderingMinstrel = {
     name: "Wandering Minstrel",
+	storageKey: "quest.side-quest.side-story.wandering-minstrel",
 	columns: QuestColumnConfig,
     tasks: [
         {

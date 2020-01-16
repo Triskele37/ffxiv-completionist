@@ -2,6 +2,7 @@ import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
 export const HeavensturnEvents = {
     name: "Heavensturn",
+	storageKey: "quest.other.seasonal",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

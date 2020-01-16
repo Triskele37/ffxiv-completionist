@@ -13,6 +13,7 @@ export const BlackShroudFATEs = {
         NorthShroudFATEs,
         SouthShroudFATEs
     ],
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

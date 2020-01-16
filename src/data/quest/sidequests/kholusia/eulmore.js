@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Eulmore = {
     name: "Eulmore",
+	storageKey: "quest.side-quest.kholusia",
 	columns: QuestColumnConfig,
     tasks: [
         {

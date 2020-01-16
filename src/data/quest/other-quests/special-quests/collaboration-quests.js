@@ -2,6 +2,7 @@ import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
 export const CollaborationQuests = {
     name: "Collaboration",
+	storageKey: "quest.other.collaboration",
     columns: SimpleQuestColumnConfig,
     tasks: [
         {

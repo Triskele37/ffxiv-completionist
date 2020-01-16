@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const FisherGatheringAchievements = {
     name: 'Fisher',
+	storageKey: "achievement.gathering.fisher",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Fish 20 times from level 1-10 waters in La Noscea.",

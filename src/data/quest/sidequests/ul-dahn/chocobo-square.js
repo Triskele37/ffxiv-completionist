@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ChocoboSquare = {
     name: "Chocobo Square",
+	storageKey: "quest.side-quest.ul-dahn",
 	columns: QuestColumnConfig,
     tasks: [
         {

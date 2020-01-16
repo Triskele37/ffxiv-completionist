@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const CentralCoerthasFATEs = {
     name: "Central Highlands",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {
@@ -64,11 +65,6 @@ export const CentralCoerthasFATEs = {
         	name: "Svara's Flight",
         	location: "Dragonhead (26,15)",
         	type: "Escort"
-        }, {
-        	level: "38",
-        	name: "Simply Red",
-        	location: "Providence Point (24,13)",
-        	type: "Slay Enemies"
         }, {
         	level: "38",
         	name: "Spring Forward, Fall Back",

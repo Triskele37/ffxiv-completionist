@@ -3,6 +3,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 export const YoRHaDarkApocalypse = {
     name: "YoRHa: Dark Apocalypse",
+	storageKey: "quest.chronicles",
 	columns: QuestColumnConfig,
     tasks: [
         {

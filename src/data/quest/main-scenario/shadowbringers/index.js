@@ -9,6 +9,7 @@ export const ShadowbringersQuests = {
         AlphinaudQuests,
         AlisaieQuests,
     ],
+	storageKey: "quest.main-scenario",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -1,5 +1,6 @@
 export const TheMaskedCarnivale = {
     name: "The Masked Carnivale",
+	storageKey: "logs.blue-mage.carnivale",
     columns: [
         { header: "Level", key: "level" },
         { header: "Name", key: "name" },

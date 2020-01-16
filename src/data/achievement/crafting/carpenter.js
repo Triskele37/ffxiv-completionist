@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const CarpenterCraftingAchievements = {
     name: 'Carpenter',
+	storageKey: "achievement.crafting.carpenter",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully synthesize 50 times for level 1-10 woodworking recipes.",

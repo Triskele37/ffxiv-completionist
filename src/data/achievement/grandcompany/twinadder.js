@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const TwinAdderGrandCompanyAchievements = {
     name: 'Order of the Twin Adder',
+	storageKey: "achievement.grand-company.twin-adder",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Officially enlist in the Order of the Twin Adder.",

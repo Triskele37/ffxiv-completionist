@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const PhysicalDPSQuests = {
     name: "Physical DPS",
+	storageKey: "quest.class-and-job.role",
 	columns: QuestColumnConfig,
     tasks: [
         {

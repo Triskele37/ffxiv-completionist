@@ -4,6 +4,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
 export const PostStormbloodQuests = {
     name: "Post-Stormblood",
+	storageKey: "quest.main-scenario",
     columns: QuestColumnConfig.concat({
         header: "Patch",
         key: "patch",

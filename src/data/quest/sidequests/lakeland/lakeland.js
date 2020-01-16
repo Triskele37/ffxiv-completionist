@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Lakeland = {
     name: "Lakeland",
+	storageKey: "quest.side-quest.lakeland",
 	columns: QuestColumnConfig,
     tasks: [
         {

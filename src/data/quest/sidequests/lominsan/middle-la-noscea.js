@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const MiddleLaNoscea = {
     name: "Middle La Noscea",
+	storageKey: "quest.side-quest.lominsan",
 	columns: QuestColumnConfig,
     tasks: [
         {

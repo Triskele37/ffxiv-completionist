@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const GyrAbaniaExplorationAchievements = {
     name: 'Gyr Abania',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Discover every location within the Fringes.",

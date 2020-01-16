@@ -2,6 +2,7 @@ import { EurekaColumnConfig } from "../columnConfigs";
 
 export const AnemosFATEs = {
     name: "Anemos",
+	storageKey: "duty.fate",
     columns: EurekaColumnConfig,
     tasks: [
         {

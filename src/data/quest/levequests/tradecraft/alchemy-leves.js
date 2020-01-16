@@ -2,6 +2,7 @@ import { LeveQuestColumnConfig } from "../../columnConfigs";
 
 export const AlchemyLeves = {
     name: "Alchemy",
+	storageKey: "quest.levequests.alchemy",
     columns: LeveQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ 1-5

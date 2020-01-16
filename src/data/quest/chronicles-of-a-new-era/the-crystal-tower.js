@@ -7,6 +7,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 export const TheCrystalTower = {
     name: "The Crystal Tower",
+	storageKey: "quest.chronicles",
 	columns: QuestColumnConfig,
     tasks: [
         {

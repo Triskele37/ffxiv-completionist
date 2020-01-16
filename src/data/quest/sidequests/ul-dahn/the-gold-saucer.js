@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheGoldSaucer = {
     name: "The Gold Saucer",
+	storageKey: "quest.side-quest.ul-dahn",
 	columns: QuestColumnConfig,
     tasks: [
         {

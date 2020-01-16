@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const NorvrandtExplorationAchievements = {
     name: 'Norvrandt',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Discover every location in Lakeland.",

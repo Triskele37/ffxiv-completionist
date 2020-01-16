@@ -2,6 +2,7 @@ import { DutyColumnConfig } from "../columnConfigs";
 
 export const SBTrials = {
     name: "SB",
+	storageKey: "duty.trials",
     columns: DutyColumnConfig,
     tasks: [
         {

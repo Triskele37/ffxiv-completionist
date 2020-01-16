@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const LimsaLominsaStartingQuests = {
     name: "Limsa Lominsa",
+	storageKey: "quest.main-scenario.limsa-lominsa",
 	columns: QuestColumnConfig,
     tasks: [
         {

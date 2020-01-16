@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const LeveQuestAchievements = {
     name: 'Levequests',
+	storageKey: "achievement.quest.levequests",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Complete 10 regional battlecraft levequests.",

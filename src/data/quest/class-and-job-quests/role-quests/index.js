@@ -12,6 +12,7 @@ export const RoleQuests = {
         PhysicalDPSQuests,
         MagicalDPSQuests,
     ],
+	storageKey: "quest.class-and-job.role",
     columns: QuestColumnConfig,
     tasks: [
         {

@@ -2,6 +2,7 @@ import { FishingGuideColumnConfig } from "../columnConfigs";
 
 export const FishingGuideSpearfishing = {
     name: "Spearfishing",
+	storageKey: "gathering-log.fishing-guide.spearfishing",
     columns: FishingGuideColumnConfig,
     tasks: [
         {

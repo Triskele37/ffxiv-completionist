@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Hildibrand = {
     name: "Hildibrand",
+	storageKey: "quest.side-quest.side-story.hildibrand",
 	columns: QuestColumnConfig,
     tasks: [
         {

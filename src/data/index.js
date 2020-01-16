@@ -10,6 +10,12 @@
  FATE? under shared fate?
  * */
 
+ /* Duplicate name keys in groups:
+ Rhyme & Region 2018 (label with JP/NA/EU)
+ The Isle of Ken (break out spearfishing)
+ Unspoiled Teeming Waters (?)
+ */
+
 import { Achievements } from "./achievement";
 import { Collectable } from "./collectable";
 import { Logs } from "./logs";

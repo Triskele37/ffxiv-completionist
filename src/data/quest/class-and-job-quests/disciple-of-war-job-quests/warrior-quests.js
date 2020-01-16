@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const WarriorQuests = {
     name: "Warrior",
+	storageKey: "quest.class-and-job.warrior",
 	columns: QuestColumnConfig,
     tasks: [
         {

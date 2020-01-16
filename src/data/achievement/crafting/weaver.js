@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const WeaverCraftingAchievements = {
     name: 'Weaver',
+	storageKey: "achievement.crafting.weaver",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully synthesize 50 times for level 1-10 clothcraft recipes.",

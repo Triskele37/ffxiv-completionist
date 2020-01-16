@@ -2,6 +2,7 @@ import { DutyColumnConfig } from "../columnConfigs";
 
 export const ARRRaids = {
     name: "ARR",
+	storageKey: "duty.raids",
     columns: DutyColumnConfig,
     tasks: [
         {

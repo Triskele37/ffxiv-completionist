@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheCrystarium = {
     name: "The Crystarium",
+	storageKey: "quest.side-quest.lakeland",
 	columns: QuestColumnConfig,
     tasks: [
         {

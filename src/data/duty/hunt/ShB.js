@@ -2,6 +2,7 @@ import { HuntColumnConfig } from "../columnConfigs";
 
 export const ShBHunts = {
     name: "ShB",
+	storageKey: "duty.the-hunt",
     columns: HuntColumnConfig,
     tasks: [
         {

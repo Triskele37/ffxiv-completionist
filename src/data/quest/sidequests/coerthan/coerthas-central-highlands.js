@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const CoerthasCentralHighlands = {
     name: "Coerthas Central Highlands",
+	storageKey: "quest.side-quest.coerthan",
 	columns: QuestColumnConfig,
     tasks: [
         {

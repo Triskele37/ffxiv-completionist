@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Idyllshire = {
     name: "Idyllshire",
+	storageKey: "quest.side-quest.dravanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

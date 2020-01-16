@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const AnimaWeaponItemAchievements = {
     name: 'Anima Weapons',
+	storageKey: "achievement.item.anima-weapons",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain the anima weapons Ancile and Almace.",

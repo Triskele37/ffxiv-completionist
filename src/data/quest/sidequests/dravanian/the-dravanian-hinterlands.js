@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheDravanianHinterlands = {
     name: "The Dravanian Hinterlands",
+	storageKey: "quest.side-quest.dravanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

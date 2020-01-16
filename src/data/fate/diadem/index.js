@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const DiademFATEs = {
     name: "Diadem",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

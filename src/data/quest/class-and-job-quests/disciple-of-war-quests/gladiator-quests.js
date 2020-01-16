@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const GladiatorQuests = {
     name: "Gladiator",
+	storageKey: "quest.class-and-job.gladiator",
 	columns: QuestColumnConfig,
     tasks: [
         {

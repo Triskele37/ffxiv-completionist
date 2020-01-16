@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DesynthesisItemAchievements = {
     name: 'Desynthesis',
+	storageKey: "achievement.item.desynthesis",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully desynthesize 50 items.",

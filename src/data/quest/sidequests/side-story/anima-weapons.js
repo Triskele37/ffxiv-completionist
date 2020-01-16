@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const AnimaWeapons = {
     name: "Anima Weapons",
+	storageKey: "quest.side-quest.side-story.anima-weapons",
     columns: QuestColumnConfig,
     tasks: [
         {

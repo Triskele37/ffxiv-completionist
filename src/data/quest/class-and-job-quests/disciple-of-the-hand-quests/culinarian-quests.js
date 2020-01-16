@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const CulinarianQuests = {
     name: "Culinarian",
+	storageKey: "quest.class-and-job.culinarian",
 	columns: QuestColumnConfig,
     tasks: [
         {

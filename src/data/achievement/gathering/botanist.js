@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const BotanistGatheringAchievements = {
     name: 'Botanist',
+	storageKey: "achievement.gathering.botanist",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Log 20 times from level 1-10 mature trees in La Noscea.",

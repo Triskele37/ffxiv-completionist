@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheAzimSteppe = {
     name: "The Azim Steppe",
+	storageKey: "quest.side-quest.othardian",
 	columns: QuestColumnConfig,
     tasks: [
         {

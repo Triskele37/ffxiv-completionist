@@ -5,6 +5,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DungeonBattleAchievements = {
 	name: 'Dungeons',
+	storageKey: "achievement.battle.dungeons",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Successfully complete 5 unique instanced dungeon raids or trials.",

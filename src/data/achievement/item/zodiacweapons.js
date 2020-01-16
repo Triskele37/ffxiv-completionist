@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const ZodiacWeaponItemAchievements = {
     name: 'Zodiac Weapons',
+	storageKey: "achievement.item.zodiac-weapons",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain a Zodiac Weapon.",

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ThaumaturgeQuests = {
     name: "Thaumaturge",
+	storageKey: "quest.class-and-job.thaumaturge",
 	columns: QuestColumnConfig,
     tasks: [
         {

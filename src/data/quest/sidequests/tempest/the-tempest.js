@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheTempest = {
     name: "The Tempest",
+	storageKey: "quest.side-quest.tempest",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ImmortalFlamesQuests = {
     name: "Immortal Flames",
+	storageKey: "quest.other.immortal-flames",
 	columns: QuestColumnConfig,
     tasks: [
         {

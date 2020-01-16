@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Yanxia = {
     name: "Yanxia",
+	storageKey: "quest.side-quest.othardian",
 	columns: QuestColumnConfig,
     tasks: [
         {

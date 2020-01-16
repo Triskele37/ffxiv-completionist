@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheRubySea = {
     name: "The Ruby Sea",
+	storageKey: "quest.side-quest.othardian",
 	columns: QuestColumnConfig,
     tasks: [
         {

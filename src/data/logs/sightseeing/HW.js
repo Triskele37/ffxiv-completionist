@@ -2,6 +2,7 @@ import { SightseeingLogColumnConfig } from "../columnConfigs";
 
 export const SightseeingHW = {
     name: "HW",
+	storageKey: "logs.sightseeing",
     columns: SightseeingLogColumnConfig,
     tasks: [
         {

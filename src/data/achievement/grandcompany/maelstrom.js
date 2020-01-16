@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const MaelstromGrandCompanyAchievements = {
     name: 'Maelstrom',
+	storageKey: "achievement.grand-company.maelstrom",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Officially enlist in the Maelstrom.",

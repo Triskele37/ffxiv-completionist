@@ -2,6 +2,7 @@ import { EurekaColumnConfig } from "../columnConfigs";
 
 export const PyrosFATEs = {
     name: "Pyros",
+	storageKey: "duty.fate",
     columns: EurekaColumnConfig,
     tasks: [
         {

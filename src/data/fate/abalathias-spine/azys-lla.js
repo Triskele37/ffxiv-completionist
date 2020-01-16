@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const AzysLlaFATEs = {
     name: "Azys Lla",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

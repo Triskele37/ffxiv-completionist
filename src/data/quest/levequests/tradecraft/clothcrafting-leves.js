@@ -2,6 +2,7 @@ import { LeveQuestColumnConfig } from "../../columnConfigs";
 
 export const ClothcraftingLeves = {
     name: "Clothcrafting",
+	storageKey: "quest.levequests.clothcrafting",
     columns: LeveQuestColumnConfig,
     tasks: [
         //------------------------------------------------------------------ 1-5

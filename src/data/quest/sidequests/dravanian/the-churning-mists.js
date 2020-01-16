@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheChurningMists = {
     name: "The Churning Mists",
+	storageKey: "quest.side-quest.dravanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

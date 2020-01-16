@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const MorDhonaExplorationAchievements = {
     name: 'Mor Dhona',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Visit Mor Dhona and unlock the area map.",

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const MinerGatheringAchievements = {
     name: 'Miner',
+	storageKey: "achievement.gathering.miner",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Mine 20 times at level 1-10 mineral deposits in La Noscea.",

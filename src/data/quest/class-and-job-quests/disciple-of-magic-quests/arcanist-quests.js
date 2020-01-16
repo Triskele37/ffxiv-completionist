@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const ArcanistQuests = {
     name: "Arcanist",
+	storageKey: "quest.class-and-job.arcanist",
 	columns: QuestColumnConfig,
     tasks: [
         {

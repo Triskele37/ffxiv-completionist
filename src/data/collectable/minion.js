@@ -1,1772 +1,1773 @@
 module.exports = {
     name: "Minions",
+	storageKey: "collectable.minion",
     columns: [
-		{ header: 'Minion', key: 'minion', },
+		{ header: 'Minion', key: 'name', },
 		{ header: 'Method', key: 'method', },
 		{ header: 'Unlock', key: 'unlock' },
 	],
     tasks: [{
-            "minion": "Abroader Otter",
+            name: "Abroader Otter",
             "method": "Voyages",
             "unlock": "Deep Sea Site 7 Voyage"
         },
         {
-            "minion": "Accompaniment Node",
+            name: "Accompaniment Node",
             "method": "Quest Reward",
             "unlock": "Complete the Level 60 sidequest Do It for Gilly."
         },
         {
-            "minion": "Angel of Mercy",
+            name: "Angel of Mercy",
             "method": "Seasonal Event",
             "unlock": "Acquired in Valentione's Day (2017). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Anima",
+            name: "Anima",
             "method": "Quest Reward",
             "unlock": "Body and Soul Anima Relic Weapon Quest"
         },
         {
-            "minion": "Armadillo Bowler",
+            name: "Armadillo Bowler",
             "method": "Duty",
             "unlock": "Drops from Malikah's Well Duty"
         },
         {
-            "minion": "Assassin Fry",
+            name: "Assassin Fry",
             "method": "Crafted",
             "unlock": "Obtained from Desynthesizing of Ninja Betta."
         },
         {
-            "minion": "Atrophied Atomos",
+            name: "Atrophied Atomos",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Alchemist."
         },
         {
-            "minion": "Attendee #777",
+            name: "Attendee #777",
             "method": "Purchased",
             "unlock": "Bought for 7 Namazu Koban from Gyosho at Trusted (or higher) Beast Tribe Reputation."
         },
         {
-            "minion": "Aurelia Polyp",
+            name: "Aurelia Polyp",
             "method": "Voyages",
             "unlock": "Subaquatic Voyages"
         },
         {
-            "minion": "Axolotl Eft",
+            name: "Axolotl Eft",
             "method": "Retainer Ventures",
             "unlock": "Waterside Exploration XXII Fisher Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Baby Bat",
+            name: "Baby Bat",
             "method": "Purchased",
             "unlock": "From Junkmonger Nonoroon for 2,400 gil in Poor Maid's Mill, Upper La Noscea (11.8,24.7)."
         },
         {
-            "minion": "Baby Behemoth",
+            name: "Baby Behemoth",
             "method": "Collector's",
             "unlock": "Purchase the collectors edition of FFXIV (1.0 or ARR)"
         },
         {
-            "minion": "Baby Brachiosaur",
+            name: "Baby Brachiosaur",
             "method": "FATE Reward",
             "unlock": "Randomly received from completing the Secret of the Lost Legend Boss FATE in The Diadem"
         },
         {
-            "minion": "Baby Bun",
+            name: "Baby Bun",
             "method": "FATE Reward",
             "unlock": "Complete the FATE: Lazy for You with Gold Medal rating in East Shroud (23x y29)."
         },
         {
-            "minion": "Baby Gremlin",
+            name: "Baby Gremlin",
             "method": "Preorder",
             "unlock": "Preordering Shadowbringers"
         },
         {
-            "minion": "Baby Opo-opo",
+            name: "Baby Opo-opo",
             "method": "Duty",
             "unlock": "Found in chest after final boss of Brayflox's Longstop (Hard)."
         },
         {
-            "minion": "Baby Raptor",
+            name: "Baby Raptor",
             "method": "Purchased",
             "unlock": "Boughbury Trader for 2400 if Clearing the Hive has been won."
         },
         {
-            "minion": "Bacon Bits",
+            name: "Bacon Bits",
             "method": "Retainer Ventures",
             "unlock": "Woodland Exploration XXV Botanist Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Beady Eye",
+            name: "Beady Eye",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Behemoth Heir",
+            name: "Behemoth Heir",
             "method": "Purchased",
             "unlock": "400 Centurio Seals from Ardolain"
         },
         {
-            "minion": "Bite-Sized Pudding",
+            name: "Bite-Sized Pudding",
             "method": "Duty",
             "unlock": "Randomly drops from chest in The Wanderer's Palace."
         },
         {
-            "minion": "Bitty Duckbill",
+            name: "Bitty Duckbill",
             "method": "Purchased",
             "unlock": "800x Sacks of Nuts"
         },
         {
-            "minion": "Black Chocobo Chick",
+            name: "Black Chocobo Chick",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Black Coeurl",
+            name: "Black Coeurl",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 20,000 MGP "
         },
         {
-            "minion": "Black Hayate",
+            name: "Black Hayate",
             "method": "Duty",
             "unlock": "Drops from Holminster Switch Duty"
         },
         {
-            "minion": "Blizzaria",
+            name: "Blizzaria",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Bluebird",
+            name: "Bluebird",
             "method": "Treasure Hunt",
             "unlock": "Obtained from Timeworn Peisteskin Map."
         },
         {
-            "minion": "Bom Boko",
+            name: "Bom Boko",
             "method": "Duty/Retainer Ventures",
             "unlock": "Heaven-on-High Silver-haloed Sack or Field Exploration XX and XXII Combat Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Bomb Fish",
+            name: "Bomb Fish",
             "method": "Duty",
             "unlock": "Rare drop from Shisui of the Violet Tides"
         },
         {
-            "minion": "Brave New Y'shtola",
+            name: "Brave New Y'shtola",
             "method": "Seasonal Event",
             "unlock": "The Rising 2019"
         },
         {
-            "minion": "Bridesmoogle",
+            name: "Bridesmoogle",
             "method": "Event",
             "unlock": "Gift for attendees of an Eternal Bonding Anniversary"
         },
         {
-            "minion": "Brina",
+            name: "Brina",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Antitower."
         },
         {
-            "minion": "Buffalo Calf",
+            name: "Buffalo Calf",
             "method": "Quest Reward",
             "unlock": "Complete the Level 50 Main Scenario Quest \"You're Gonna Carry That\"."
         },
         {
-            "minion": "Bullpup",
+            name: "Bullpup",
             "method": "Quest Reward",
             "unlock": "Rarely found in chest after final boss of Baelsar's Wall."
         },
         {
-            "minion": "Butterfly Effect",
+            name: "Butterfly Effect",
             "method": "Purchased",
             "unlock": "Purchased from Nacille in Fanow for 400 Bicolor Gemstones"
         },
         {
-            "minion": "Byakko Cub",
+            name: "Byakko Cub",
             "method": "Crafted",
             "unlock": "Levle 70?? Weaver recipe."
         },
         {
-            "minion": "Cactuar Cutting",
+            name: "Cactuar Cutting",
             "method": "Quest Reward",
             "unlock": "Complete the quest Zombies Are People Too in Southern Thanalan"
         },
         {
-            "minion": "Cait Sith Doll",
+            name: "Cait Sith Doll",
             "method": "Preorder",
             "unlock": "Received for pre-ordering FFXIV: ARR (CE or SE)"
         },
         {
-            "minion": "Calamari",
+            name: "Calamari",
             "method": "Duty",
             "unlock": "Rarely found in chest after final boss of Hullbreaker Isle (Hard)."
         },
         {
-            "minion": "Calca",
+            name: "Calca",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Antitower."
         },
         {
-            "minion": "Capybara Pup",
+            name: "Capybara Pup",
             "method": "Duty",
             "unlock": "The Lost Canals of Uznair"
         },
         {
-            "minion": "Castaway Chocobo Chick",
+            name: "Castaway Chocobo Chick",
             "method": "Fishing",
             "unlock": "Fished from Fishing Log: Isle of Endless Summer North Shore"
         },
         {
-            "minion": "Chameleon",
+            name: "Chameleon",
             "method": "Duty",
             "unlock": "Drops from The Qitana Ravel Duty"
         },
         {
-            "minion": "Cherry Bomb",
+            name: "Cherry Bomb",
             "method": "Purchased",
             "unlock": "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania."
         },
         {
-            "minion": "Chigoe Larva",
+            name: "Chigoe Larva",
             "method": "Quest Reward",
             "unlock": "Complete the quest Occupational Hazards from Yoenne in South Shroud, Quarrymill"
         },
         {
-            "minion": "Chocobo Chick Courier",
+            name: "Chocobo Chick Courier",
             "method": "Preorder",
             "unlock": "Heavensward Pre-order"
         },
         {
-            "minion": "Clionid Larva",
+            name: "Clionid Larva",
             "method": "Duty",
             "unlock": "Akadaemia Anyder"
         },
         {
-            "minion": "Clockwork Barrow",
+            name: "Clockwork Barrow",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Carpenter"
         },
         {
-            "minion": "Clockwork Lantern",
+            name: "Clockwork Lantern",
             "method": "Purchased",
             "unlock": "15,000 Wolf Mark from Storm Sergeant (Materia Provisioner)."
         },
         {
-            "minion": "Clockwork Twintania",
+            name: "Clockwork Twintania",
             "method": "Achievements",
             "unlock": "Complete the Challenge Accepted achievement"
         },
         {
-            "minion": "Coblyn Larva",
+            name: "Coblyn Larva",
             "method": "Mining",
             "unlock": "Unspoiled Deposit, level 46-50 Miner"
         },
         {
-            "minion": "Coeurl Kitten",
+            name: "Coeurl Kitten",
             "method": "Quest Reward",
             "unlock": "Curiosity Killed the Coeurl quest in Aleport from Skribyld."
         },
         {
-            "minion": "Conditional Virtue",
+            name: "Conditional Virtue",
             "method": "Duty",
             "unlock": "The Baldesion Arsenal"
         },
         {
-            "minion": "Construct 8",
+            name: "Construct 8",
             "method": "Duty",
             "unlock": "Raid-wide drop in The Ridorana Lighthouse"
         },
         {
-            "minion": "Continental Eye",
+            name: "Continental Eye",
             "method": "Seasonal Event",
             "unlock": "Acquired from All Saints' Wake (2016). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Copycat Bulb",
+            name: "Copycat Bulb",
             "method": "Duty",
             "unlock": "Rare drop from lockboxes in Eureka: Pagos"
         },
         {
-            "minion": "Cute Justice",
+            name: "Cute Justice",
             "method": "Purchased",
             "unlock": "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals (Requires Level 60 BLU)"
         },
         {
-            "minion": "Demon Box",
+            name: "Demon Box",
             "method": "Other",
             "unlock": "Attending an Eternal Bond ceremony of Gold or Platinum tier."
         },
         {
-            "minion": "Demon Brick",
+            name: "Demon Brick",
             "method": "Duty",
             "unlock": "Found in first chest of Amdapor Keep."
         },
         {
-            "minion": "Dhalmel Calf",
+            name: "Dhalmel Calf",
             "method": "Duty",
             "unlock": "Forbidden Land, Eureka Pyros"
         },
         {
-            "minion": "Domakin",
+            name: "Domakin",
             "method": "Retainer Ventures",
             "unlock": "Waterside Exploration XXV Fisher Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Doman Magpie",
+            name: "Doman Magpie",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Dress-up Alisaie",
+            name: "Dress-up Alisaie",
             "method": "Other",
             "unlock": "Wondrous Tails 2-line Reward"
         },
         {
-            "minion": "Dress-up Estinien",
+            name: "Dress-up Estinien",
             "method": "Purchased",
             "unlock": "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips"
         },
         {
-            "minion": "Dress-up Raubahn",
+            name: "Dress-up Raubahn",
             "method": "Quest Reward",
             "unlock": "Complete the Level 70 Main Scenario Quest Return of the Bull."
         },
         {
-            "minion": "Dress-up Tataru",
+            name: "Dress-up Tataru",
             "method": "Item Code",
             "unlock": "Bonus code from the Art of the Revolution - Eastern Memories Art Book"
         },
         {
-            "minion": "Dress-up Thancred",
+            name: "Dress-up Thancred",
             "method": "Other",
             "unlock": "Wondrous Tails 2-line Reward"
         },
         {
-            "minion": "Dress-up Y'shtola",
+            name: "Dress-up Y'shtola",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2016). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Dress-up Yugiri",
+            name: "Dress-up Yugiri",
             "method": "Duty",
             "unlock": "Rarely found in the final chest of Kugane Castle"
         },
         {
-            "minion": "Dust Bunny",
+            name: "Dust Bunny",
             "method": "Purchased",
             "unlock": "Purchased from Auriana for Tomestones, or from Hatching-tide (2016)"
         },
         {
-            "minion": "Dwarf Rabbit",
+            name: "Dwarf Rabbit",
             "method": "Duty",
             "unlock": "Dropped in The Aquapolis."
         },
         {
-            "minion": "Eden Minor",
+            name: "Eden Minor",
             "method": "Duty",
             "unlock": "Dropped in Eden's Gate: Sepulture"
         },
         {
-            "minion": "Eggplant Knight",
+            name: "Eggplant Knight",
             "method": "Gardening",
             "unlock": "By intercrossing: Krakka Root with Star Anise OR Wizard Eggplant with Mandrake"
         },
         {
-            "minion": "Enkidu",
+            name: "Enkidu",
             "method": "Trials",
             "unlock": "Obtained from Battle in the Big Keep."
         },
         {
-            "minion": "Faepup",
+            name: "Faepup",
             "method": "PvP",
             "unlock": "How Can I Help III (300 assists in The Feast)"
         },
         {
-            "minion": "Fat Cat",
+            name: "Fat Cat",
             "method": "Retainer Ventures",
             "unlock": "Waterside Exploration XIV-XIX Fisher Retainer Venture"
         },
         {
-            "minion": "Faustlet",
+            name: "Faustlet",
             "method": "Duty",
             "unlock": "Obtained from Alexander - The Burden of the Son (Savage)"
         },
         {
-            "minion": "Fenrir Pup",
+            name: "Fenrir Pup",
             "method": "PvP",
             "unlock": "Randomly dropped after The Feast matches."
         },
         {
-            "minion": "Flame Hatchling",
+            name: "Flame Hatchling",
             "method": "Purchased",
             "unlock": "Purchased for 20,000 Flame Seals"
         },
         {
-            "minion": "Fledgling Apkallu",
+            name: "Fledgling Apkallu",
             "method": "Achievements",
             "unlock": "Completing all 80 A Realm Reborn Sightseeing Log Entries"
         },
         {
-            "minion": "Fledgling Dodo",
+            name: "Fledgling Dodo",
             "method": "Purchased",
             "unlock": "Purchased from Auriana for 7 Allagan Tomestones of Soldiery"
         },
         {
-            "minion": "Forgiven Hate",
+            name: "Forgiven Hate",
             "method": "Duty",
             "unlock": "Drops from Mt. Gulg"
         },
         {
-            "minion": "Fox Kit ",
+            name: "Fox Kit ",
             "method": "Purchased",
             "unlock": "Purchased for 3x Sassho-seki Fragments from Eschina"
         },
         {
-            "minion": "Frilled Dragon",
+            name: "Frilled Dragon",
             "method": "Purchased",
             "unlock": "10 Empyrean Potsherds from Confederate Custodian"
         },
         {
-            "minion": "Gaelikitten",
+            name: "Gaelikitten",
             "method": "Duty",
             "unlock": "Found in chest after final boss of Sohm Al."
         },
         {
-            "minion": "Garlic Jester",
+            name: "Garlic Jester",
             "method": "Gardening",
             "unlock": "By intercrossing:   Garlic Clove with Mandrake"
         },
         {
-            "minion": "Gestahl",
+            name: "Gestahl",
             "method": "Duty/Retainer Ventures",
             "unlock": "Heaven-on-High Silver-haloed Sack or Waterside Exploration XVIII or XIX Fisher Retainer Venture"
         },
         {
-            "minion": "Ghido",
+            name: "Ghido",
             "method": "Duty",
             "unlock": "Rare drop from The Sirensong Sea"
         },
         {
-            "minion": "Giant Beaver",
+            name: "Giant Beaver",
             "method": "Purchased",
             "unlock": "1x Dancing Wing from Dancing Plague"
         },
         {
-            "minion": "Gigantpole",
+            name: "Gigantpole",
             "method": "Fishing",
             "unlock": "Rare fishing catch from The Burning Wall in Eastern Thanalan (28-25) with Topwater Frog."
         },
         {
-            "minion": "Gigi",
+            name: "Gigi",
             "method": "Quest Reward",
             "unlock": "Complete Further Hildibrand Adventures Quest: If I Could Turn Back Time."
         },
         {
-            "minion": "Gold Rush Minecart",
+            name: "Gold Rush Minecart",
             "method": "FATE Reward",
             "unlock": "Complete On Dangerous Ground with a Gold Medal rating."
         },
         {
-            "minion": "Goobbue Sproutling",
+            name: "Goobbue Sproutling",
             "method": "Quest Reward",
             "unlock": "Complete the Level 33 Main Scenario Quest \"It Was a Very Good Year\"."
         },
         {
-            "minion": "Gravel Golem",
+            name: "Gravel Golem",
             "method": "Crafted",
             "unlock": "Crafted by Level 50 Goldsmith."
         },
         {
-            "minion": "Griffin Hatchling",
+            name: "Griffin Hatchling",
             "method": "Purchased",
             "unlock": "400 Centurio Seals from Ardolain"
         },
         {
-            "minion": "Heavy Hatchling",
+            name: "Heavy Hatchling",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 20,000 MGP"
         },
         {
-            "minion": "Hecteye",
+            name: "Hecteye",
             "method": "Purchased",
             "unlock": "3 Gelmorran Potsherds from E-Una-Kotor in Quarrymill"
         },
         {
-            "minion": "Hedgehoglet",
+            name: "Hedgehoglet",
             "method": "Duty",
             "unlock": "Canals/Altars of Uznair"
         },
         {
-            "minion": "Heliodor Carbuncle",
+            name: "Heliodor Carbuncle",
             "method": "Item Code",
             "unlock": "Topaz Carbuncle Plush"
         },
         {
-            "minion": "Hellpup",
+            name: "Hellpup",
             "method": "PvP",
             "unlock": "Mama Said Knock You Out III (300 KO's in The Feast)"
         },
         {
-            "minion": "Hoary the Snowman",
+            name: "Hoary the Snowman",
             "method": "Seasonal Event",
             "unlock": "Acquired from the Starlight Celebration (2014). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Hovernyan",
+            name: "Hovernyan",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Hunting Hawk",
+            name: "Hunting Hawk",
             "method": "Duty",
             "unlock": "Dropped from Silver Coffer in The Diadem of the Exploratory Missions."
         },
         {
-            "minion": "Infant Imp",
+            name: "Infant Imp",
             "method": "FATE Reward",
             "unlock": "Complete the FATE Go, Go, Gorgimera with a Gold Medal rating"
         },
         {
-            "minion": "Iron Dwarf",
+            name: "Iron Dwarf",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Armorer."
         },
         {
-            "minion": "Ironfrog Ambler",
+            name: "Ironfrog Ambler",
             "method": "Purchased",
             "unlock": "Pruchased from Fathard in Eulmore Aetheryte Plaze for 6 Formidable Cogs"
         },
         {
-            "minion": "Ivon Coeurlfist Doll",
+            name: "Ivon Coeurlfist Doll",
             "method": "Duty",
             "unlock": "Rare drop in chest after final boss of Temple of the Fist."
         },
         {
-            "minion": "Jibanyan",
+            name: "Jibanyan",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Kidragora",
+            name: "Kidragora",
             "method": "Botany",
             "unlock": "Gathered by level 46-50 Botanist"
         },
         {
-            "minion": "Koala Joey",
+            name: "Koala Joey",
             "method": "Retainer Ventures",
             "unlock": "Woodland Exploration XXII Botanist Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Komainu",
+            name: "Komainu",
             "method": "Achievements",
             "unlock": "2x Achievement Certificate from Jonathas."
         },
         {
-            "minion": "Komajiro",
+            name: "Komajiro",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Komasan",
+            name: "Komasan",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Korpokkur Kid",
+            name: "Korpokkur Kid",
             "method": "Duty",
             "unlock": "Rarely found in chest after final boss of Saint Mocianne's Arboretum."
         },
         {
-            "minion": "Kyubi",
+            name: "Kyubi",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Lesser Panda",
+            name: "Lesser Panda",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Aery."
         },
         {
-            "minion": "Little Leannan",
+            name: "Little Leannan",
             "method": "Duty",
             "unlock": "Randomly drops from chest in The Grand Cosmos"
         },
         {
-            "minion": "Little Yang",
+            name: "Little Yang",
             "method": "Seasonal Event",
             "unlock": "2018 All Saint's Wake"
         },
         {
-            "minion": "Little Yin",
+            name: "Little Yin",
             "method": "Seasonal Event",
             "unlock": "2018 All Saint's Wake"
         },
         {
-            "minion": "Littlefoot",
+            name: "Littlefoot",
             "method": "Retainer Ventures",
             "unlock": "Woodland Exploration XIV-XVIII Botanist Retainer Venture"
         },
         {
-            "minion": "Magic Broom",
+            name: "Magic Broom",
             "method": "Crafted",
             "unlock": "Crafted by Level 50??? Carpenter."
         },
         {
-            "minion": "Magic Bucket",
+            name: "Magic Bucket",
             "method": "Fishing",
             "unlock": "Found in South Banepool with Snagging On and Brute Leech as bait."
         },
         {
-            "minion": "Magitek Avenger F1",
+            name: "Magitek Avenger F1",
             "method": "Duty",
             "unlock": "Rare drop from level 69 dungeon Castrum Abania."
         },
         {
-            "minion": "Mameshiba",
+            name: "Mameshiba",
             "method": "Retainer Ventures",
             "unlock": "Highland Exploration XXII Miner Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Mammet #001",
+            name: "Mammet #001",
             "method": "Purchased",
             "unlock": "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania."
         },
         {
-            "minion": "Mammet #003G",
+            name: "Mammet #003G",
             "method": "Achievements",
             "unlock": "Talk to Jonathas in Old Gridania after completing Bump on a Log: Order of the Twin Adder"
         },
         {
-            "minion": "Mammet #003L",
+            name: "Mammet #003L",
             "method": "Achievements",
             "unlock": "Talk to Jonathas in Old Gridania after completing Bump on a Log: Maelstrom"
         },
         {
-            "minion": "Mammet #003U",
+            name: "Mammet #003U",
             "method": "Achievements",
             "unlock": "Talk to Jonathas in Old Gridania after completing Bump on a Log: Immortal Flames"
         },
         {
-            "minion": "Mandragora Queen",
+            name: "Mandragora Queen",
             "method": "Gardening",
             "unlock": "By intercrossing: Mandrake with Nymeia Lily"
         },
         {
-            "minion": "Manjimutt",
+            name: "Manjimutt",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Meerkat",
+            name: "Meerkat",
             "method": "Voyages",
             "unlock": "Subaquatic Voyages - Coldtoe Isle"
         },
         {
-            "minion": "Micro Gigantender",
+            name: "Micro Gigantender",
             "method": "Purchased",
             "unlock": "400x Bicolour Gemstone (Amh Araeng)"
         },
         {
-            "minion": "Midgardsormr",
+            name: "Midgardsormr",
             "method": "Quest Reward",
             "unlock": "Complete the Main Scenario Quest The Rising Chorus."
         },
         {
-            "minion": "Mini Mole",
+            name: "Mini Mole",
             "method": "Quest Reward",
             "unlock": "Complete the Delivery Moogle Quests Thwack-a-Mole."
         },
         {
-            "minion": "Miniature Minecart",
+            name: "Miniature Minecart",
             "method": "Duty/Retainer Ventures",
             "unlock": "Heaven-on-High Silver-haloed Sack or Highland Exploration XIV Miner Retainer Venture"
         },
         {
-            "minion": "Miniature White Knight",
+            name: "Miniature White Knight",
             "method": "Purchased",
             "unlock": "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips"
         },
         {
-            "minion": "Minion of Light",
+            name: "Minion of Light",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates."
         },
         {
-            "minion": "Minitek Conveyer",
+            name: "Minitek Conveyer",
             "method": "Exchange",
             "unlock": "Exchanged for 15,000 Wolf Marks"
         },
         {
-            "minion": "Minute Mindflayer",
+            name: "Minute Mindflayer",
             "method": "Duty/Retainer Ventures",
             "unlock": "The Aquapolis, Palace of the Dead Bronze-trimmed Sack, or Field, Highland, or Waterside Exploration XIII Retainer Venture"
         },
         {
-            "minion": "Mock-up Grynewaht",
+            name: "Mock-up Grynewaht",
             "method": "Duty",
             "unlock": "Rare drop from Doma Castle"
         },
         {
-            "minion": "Model Enterprise",
+            name: "Model Enterprise",
             "method": "Item Code",
             "unlock": "The Art Of Eorzea, A Final Fantasy XIV Art Book"
         },
         {
-            "minion": "Model Magitek Bit",
+            name: "Model Magitek Bit",
             "method": "Crafted",
             "unlock": "Level 50???? Blacksmith recipe"
         },
         {
-            "minion": "Model Vanguard",
+            name: "Model Vanguard",
             "method": "Crafted",
             "unlock": "Crafted by Level 50 Goldsmith."
         },
         {
-            "minion": "Monkey King",
+            name: "Monkey King",
             "method": "Duty",
             "unlock": "Rare drop from The Swallow's Compass (Duty)."
         },
         {
-            "minion": "Morbol Seedling",
+            name: "Morbol Seedling",
             "method": "Duty",
             "unlock": "Found in third chest of The Aurum Vale."
         },
         {
-            "minion": "Morpho",
+            name: "Morpho",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Lost City of Amdapor (Hard)."
         },
         {
-            "minion": "Motley Egg",
+            name: "Motley Egg",
             "method": "Seasonal Event",
             "unlock": "Hatching-Tide (2018)"
         },
         {
-            "minion": "Mudpie",
+            name: "Mudpie",
             "method": "Duty",
             "unlock": "St Mocianne's Arboretum (Hard)"
         },
         {
-            "minion": "Mummy's Little Mummy",
+            name: "Mummy's Little Mummy",
             "method": "Duty",
             "unlock": "Rarely found in chest after final boss of The Sunken Temple of Qarn (Hard)."
         },
         {
-            "minion": "Mystic Weapon",
+            name: "Mystic Weapon",
             "method": "Retainer Ventures",
             "unlock": "Field Exploration XXV Combat Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Namingway",
+            name: "Namingway",
             "method": "Item Code",
             "unlock": "Libra Eorzea (Lore Book) Bonus Code"
         },
         {
-            "minion": "Nana Bear",
+            name: "Nana Bear",
             "method": "Crafted",
             "unlock": "Crafted by Level 50???? Weaver."
         },
         {
-            "minion": "Naughty Nanka",
+            name: "Naughty Nanka",
             "method": "Duty",
             "unlock": "Found in last chest before final boss of Hullbreaker Isle at (5,10)."
         },
         {
-            "minion": "Noko",
+            name: "Noko",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Nutkin",
+            name: "Nutkin",
             "method": "Treasure Hunt",
             "unlock": "Unhidden Treasure Map, or The Aquapolis"
         },
         {
-            "minion": "Odder Otter",
+            name: "Odder Otter",
             "method": "Duty/Retainer Ventures",
             "unlock": "Heaven-on-High Silver or Gold-haloed Sacks or Highland, Waterside, or Woodland Exploration XIX-XXII Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "OMG",
+            name: "OMG",
             "method": "Duty",
             "unlock": "Alphascape V4.0"
         },
         {
-            "minion": "Onion Prince",
+            name: "Onion Prince",
             "method": "Gardening",
             "unlock": "By intercrossing: Azeyma Rose with Krakka Root OR Krakka Root with mandrake"
         },
         {
-            "minion": "Owlet",
+            name: "Owlet",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Fractal Continuum."
         },
         {
-            "minion": "Page 63",
+            name: "Page 63",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Great Gubal Library."
         },
         {
-            "minion": "Paissa Brat",
+            name: "Paissa Brat",
             "method": "Treasure Hunt",
             "unlock": "Dragonskin Treasure Map, The Aquapolis, or Bronze-trimmed Sacks from Palace of the Dead"
         },
         {
-            "minion": "Palico",
+            name: "Palico",
             "method": "Quest Reward",
             "unlock": "The New King on the Block MHW cross-over quest"
         },
         {
-            "minion": "Panda Cub",
+            name: "Panda Cub",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Pegasus Colt",
+            name: "Pegasus Colt",
             "method": "FATE Reward",
             "unlock": "Acquired in The Diadem, dropped by Bloody Wings FATE."
         },
         {
-            "minion": "Penguin Prince",
+            name: "Penguin Prince",
             "method": "Achievements",
             "unlock": "Complete the The Road of Verminion I achievement"
         },
         {
-            "minion": "Peridot Carbuncle",
+            name: "Peridot Carbuncle",
             "method": "Item Code",
             "unlock": "Emerald Carbuncle Plush"
         },
         {
-            "minion": "Piggy",
+            name: "Piggy",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 30,000 MGP"
         },
         {
-            "minion": "Plush Cushion",
+            name: "Plush Cushion",
             "method": "Crafted",
             "unlock": "Crafted by Level 50??? Weaver."
         },
         {
-            "minion": "Pod 054",
+            name: "Pod 054",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Copied City"
         },
         {
-            "minion": "Pod 316",
+            name: "Pod 316",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Copied City"
         },
         {
-            "minion": "Poogie",
+            name: "Poogie",
             "method": "Purchased",
             "unlock": "5x Scales from the Rathalos Scale Exchange shop"
         },
         {
-            "minion": "Poro Roggo",
+            name: "Poro Roggo",
             "method": "Quest Reward",
             "unlock": "Complete the Level 60 Main Scenario Quest The Word of the Mother."
         },
         {
-            "minion": "The Primogs",
+            name: "The Primogs",
             "method": "Item Code",
             "unlock": "Before the Fall: Final Fantasy XIV Original Soundtrack"
         },
         {
-            "minion": "Princely Hatchling",
+            name: "Princely Hatchling",
             "method": "Achievements",
             "unlock": "Complete the Leaving a Good Impression II Achievement"
         },
         {
-            "minion": "Private Moai",
+            name: "Private Moai",
             "method": "Crafted",
             "unlock": "Level 70 ?? Blacksmith recipe."
         },
         {
-            "minion": "Pudgy Puk",
+            name: "Pudgy Puk",
             "method": "FATE Reward",
             "unlock": "Complete the FATE: The Eyes Have It (FATE) with a Gold Medal rating"
         },
         {
-            "minion": "Puff of Darkness",
+            name: "Puff of Darkness",
             "method": "Duty",
             "unlock": "Found in World of Darkness."
         },
         {
-            "minion": "Pumpkin Butler",
+            name: "Pumpkin Butler",
             "method": "Seasonal Event",
             "unlock": "Acquired from the All Saints' Wake (2015). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Road Sparrow",
+            name: "Road Sparrow",
             "method": "Duty",
             "unlock": "Rare drop after completing Bardam's Mettle."
         },
         {
-            "minion": "Robonyan F-type",
+            name: "Robonyan F-type",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Salt & Pepper Seal",
+            name: "Salt & Pepper Seal",
             "method": "Duty",
             "unlock": "Dropped in The Drowned City of Skalla"
         },
         {
-            "minion": "Scarlet Peacock",
+            name: "Scarlet Peacock",
             "method": "Crafted",
             "unlock": "Level 70 ??? Weaver recipe."
         },
         {
-            "minion": "Seitei",
+            name: "Seitei",
             "method": "Crafted",
             "unlock": "Level 70 ???? Weaver recipe."
         },
         {
-            "minion": "Serpent Hatchling",
+            name: "Serpent Hatchling",
             "method": "Purchased",
             "unlock": "Purchased for 20,000 Serpent Seals."
         },
         {
-            "minion": "Shaggy Shoat",
+            name: "Shaggy Shoat",
             "method": "Duty",
             "unlock": "Rarely found in chest after final boss of Xelphatol."
         },
         {
-            "minion": "Shalloweye",
+            name: "Shalloweye",
             "method": "Achievements",
             "unlock": "Complete the A Load of Verminion II Achievement"
         },
         {
-            "minion": "Sharksucker-class Insubmersible",
+            name: "Sharksucker-class Insubmersible",
             "method": "Voyages",
             "unlock": "Subaquatic Voyages - The Central Charnel Trench, The Southern Charnel Trench"
         },
         {
-            "minion": "Shoebill",
+            name: "Shoebill",
             "method": "Duty",
             "unlock": "Dropped from Amaurot"
         },
         {
-            "minion": "Shogunyan",
+            name: "Shogunyan",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Slime Puddle",
+            name: "Slime Puddle",
             "method": "Duty",
             "unlock": "Randomly drops from chest in Copperbell Mines (Hard)."
         },
         {
-            "minion": "Smallshell",
+            name: "Smallshell",
             "method": "FATE Reward",
             "unlock": "Complete the FATE: It's Not Lupus with a Gold Medal rating"
         },
         {
-            "minion": "Spoony Bard",
+            name: "Spoony Bard",
             "method": "Item Code",
             "unlock": "Final Fantasy XIV: Heavensward Soundtrack"
         },
         {
-            "minion": "Steam-powered Gobwalker G-VII",
+            name: "Steam-powered Gobwalker G-VII",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Armorer."
         },
         {
-            "minion": "Storm Hatchling",
+            name: "Storm Hatchling",
             "method": "Purchased",
             "unlock": "Purchased for 20,000 Storm Seals."
         },
         {
-            "minion": "Taoist Moogle",
+            name: "Taoist Moogle",
             "method": "Purchased",
             "unlock": "Purchased from Itinerant Moogle for 140 gil"
         },
         {
-            "minion": "Tender Lamb",
+            name: "Tender Lamb",
             "method": "Seasonal Event",
             "unlock": "Acquired from Heavensturn (2015). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Tengu Doll",
+            name: "Tengu Doll",
             "method": "Retainer Ventures",
             "unlock": "Field Exploration XXII Combat Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "The Gold Whisker",
+            name: "The Gold Whisker",
             "method": "Duty",
             "unlock": "The Hidden Canals of Uznair"
         },
         {
-            "minion": "The Great Serpent of Ronka",
+            name: "The Great Serpent of Ronka",
             "method": "Quest Reward",
             "unlock": "Complete Level 70 Side Quest Protectors of the Wood"
         },
         {
-            "minion": "The Prince of Anemos",
+            name: "The Prince of Anemos",
             "method": "FATE Reward",
             "unlock": "Occasional drop from The Shadow over Anemos in Eureka Anemos"
         },
         {
-            "minion": "Tight-beaked Parrot",
+            name: "Tight-beaked Parrot",
             "method": "Duty",
             "unlock": "Rarely drops from chest in Sastasha (Hard)."
         },
         {
-            "minion": "Tinker's Bell",
+            name: "Tinker's Bell",
             "method": "Purchased",
             "unlock": "Purchased from Fathard in Eulmore Aetheryte Plaza for 6 Archaeotania's Horn"
         },
         {
-            "minion": "Tiny Bulb",
+            name: "Tiny Bulb",
             "method": "Treasure Hunt",
             "unlock": "Rare reward from Treasure Hunting"
         },
         {
-            "minion": "Tiny Echevore",
+            name: "Tiny Echevore",
             "method": "Duty",
             "unlock": "Dohn Mheg"
         },
         {
-            "minion": "Tiny Rat",
+            name: "Tiny Rat",
             "method": "Purchased",
             "unlock": "From Chachamun for 2400 gil after successfully completing Attack on Highbridge: Act II"
         },
         {
-            "minion": "Tiny Tapir",
+            name: "Tiny Tapir",
             "method": "Retainer Ventures",
             "unlock": "Field Exploration XIV, XV, and XIX Combat Retainer Venture"
         },
         {
-            "minion": "Tiny Tatsunoko",
+            name: "Tiny Tatsunoko",
             "method": "Fishing",
             "unlock": "Spearfishing in the Ruby Sea"
         },
         {
-            "minion": "Tiny Tortoise",
+            name: "Tiny Tortoise",
             "method": "Fishing",
             "unlock": "Use Northern Krill and fish from the The Salt Strand in Lower La Noscea."
         },
         {
-            "minion": "Tomato King",
+            name: "Tomato King",
             "method": "Gardening",
             "unlock": "Intercrossing: Dzemael Tomato w Mandrake OR Krakka Root w Broombush OR Jute w Krakka Root"
         },
         {
-            "minion": "Tora-jiro",
+            name: "Tora-jiro",
             "method": "Purchased",
             "unlock": "Purchased for 800 Centurio Seals from Estril in Kugane"
         },
         {
-            "minion": "Toy Alexander",
+            name: "Toy Alexander",
             "method": "Duty",
             "unlock": "Obtained from Alexander - The Soul of the Creator."
         },
         {
-            "minion": "Treasure Box",
+            name: "Treasure Box",
             "method": "Purchased",
             "unlock": "Purchased from Grand Company's Hunt vendor for 440 Allied Seals."
         },
         {
-            "minion": "USApyon",
+            name: "USApyon",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Ugly Duckling",
+            name: "Ugly Duckling",
             "method": "Duty",
             "unlock": "Found in chest after final boss of Neverreap."
         },
         {
-            "minion": "Unicolt",
+            name: "Unicolt",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Vault."
         },
         {
-            "minion": "Venoct",
+            name: "Venoct",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "Water Imp",
+            name: "Water Imp",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 10,000 MGP"
         },
         {
-            "minion": "Wayward Hatchling",
+            name: "Wayward Hatchling",
             "method": "Purchased",
             "unlock": "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania."
         },
         {
-            "minion": "Whisper",
+            name: "Whisper",
             "method": "Seasonal Event",
             "unlock": "Acquired from Yo-kai Watch: Gather One, Gather All!."
         },
         {
-            "minion": "White Whittret",
+            name: "White Whittret",
             "method": "Duty",
             "unlock": "Rare drop from the final chest in Hells' Lid"
         },
         {
-            "minion": "Wide-eyed Fawn",
+            name: "Wide-eyed Fawn",
             "method": "Purchased",
             "unlock": "Purchased from Auriana for 7 Allagan Tomestones of Soldiery"
         },
         {
-            "minion": "Wind-up Aerith",
+            name: "Wind-up Aerith",
             "method": "Optional Item",
             "unlock": "Mog Station (once the 2019 Japan Fan Festival goes live)"
         },
         {
-            "minion": "Wind-up Airship",
+            name: "Wind-up Airship",
             "method": "Quest Reward",
             "unlock": "Obtain an airship pass (The Gridanian Envoy, The Ul'dahn Envoy, or The Lominsan Envoy.)"
         },
         {
-            "minion": "Wind-up Aldgoat",
+            name: "Wind-up Aldgoat",
             "method": "Crafted",
             "unlock": "Crafted by Level 50 Weaver."
         },
         {
-            "minion": "Wind-up Alisae",
+            name: "Wind-up Alisae",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Alpha",
+            name: "Wind-up Alpha",
             "method": "Quest Reward",
             "unlock": "Post Alphascape 4.0 Quest"
         },
         {
-            "minion": "Wind-up Alphinaud",
+            name: "Wind-up Alphinaud",
             "method": "Quest Reward",
             "unlock": "Complete the Level 51 Main Scenario Quest In Search of Iceheart."
         },
         {
-            "minion": "Wind-up Amalj'aa",
+            name: "Wind-up Amalj'aa",
             "method": "Purchased",
             "unlock": "Bought from Amalj'aa Vendor for 25,000 Gil."
         },
         {
-            "minion": "Wind-up Ananta",
+            name: "Wind-up Ananta",
             "method": "Purchased",
             "unlock": "7x Ananta Dreamstaff from the Ananta Reputation Vendor"
         },
         {
-            "minion": "Wind-up Aymeric",
+            name: "Wind-up Aymeric",
             "method": "Quest Reward",
             "unlock": "Complete the level 60 Main Scenario Quest Litany of Peace."
         },
         {
-            "minion": "Wind-up Bahamut",
+            name: "Wind-up Bahamut",
             "method": "Item Code",
             "unlock": "Final Fantasy XIV: A Realm Reborn Original Soundtrack"
         },
         {
-            "minion": "Wind-up Bartz",
+            name: "Wind-up Bartz",
             "method": "Collector's",
             "unlock": "Purchase Collector's Edition of Stormblood"
         },
         {
-            "minion": "Wind-up Bismarck",
+            name: "Wind-up Bismarck",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Weaver."
         },
         {
-            "minion": "Wind-up Brickman",
+            name: "Wind-up Brickman",
             "method": "Seasonal Event",
             "unlock": "Complete the event quest Breaking Brick Mountains"
         },
         {
-            "minion": "Wind-up Calofisteri",
+            name: "Wind-up Calofisteri",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Weeping City of Mhach."
         },
         {
-            "minion": "Wind-up Cheerleader",
+            name: "Wind-up Cheerleader",
             "method": "Purchased",
             "unlock": "Purchased from Storm Sergeant for 15,000 Wolf Marks in Wolves' Den Pier."
         },
         {
-            "minion": "Wind-up Chimera",
+            name: "Wind-up Chimera",
             "method": "Crafted",
             "unlock": "Crafted by Level 70? Weaver."
         },
         {
-            "minion": "Wind-up Cid",
+            name: "Wind-up Cid",
             "method": "Quest Reward",
             "unlock": "Complete the Level 57 Main Scenario Quest A Difference of Opinion."
         },
         {
-            "minion": "Wind-up Cirina",
+            name: "Wind-up Cirina",
             "method": "Seasonal Event",
             "unlock": "In Adventurers We Trust Seasonal Quest reward (The Rising (2018) anniversary event.)"
         },
         {
-            "minion": "Wind-Up Cloud",
+            name: "Wind-Up Cloud",
             "method": "Optional Item",
             "unlock": "Mog Station (once the 2019 Japan Fan Festival goes live)"
         },
         {
-            "minion": "Wind-up Cursor",
+            name: "Wind-up Cursor",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Dalamud",
+            name: "Wind-up Dalamud",
             "method": "Item Code",
             "unlock": "Obtained when you purchase the Before Meteor Blu-Ray Soundtrack from the Square Enix Store"
         },
         {
-            "minion": "Wind-up Deliver Moogle",
+            name: "Wind-up Deliver Moogle",
             "method": "Item Code",
             "unlock": "Delivery Moogle Plush"
         },
         {
-            "minion": "Wind-up Dezul Qualan",
+            name: "Wind-up Dezul Qualan",
             "method": "Purchased",
             "unlock": "Purchased from Ixali Vendor for 25,000 gil in North Shroud"
         },
         {
-            "minion": "Wind-up Dragonet",
+            name: "Wind-up Dragonet",
             "method": "Purchased",
             "unlock": "Purchased from Mogmul Mogbelly for 30,000 gil at Sworn (or higher) reputation"
         },
         {
-            "minion": "Wind-up Dullahan",
+            name: "Wind-up Dullahan",
             "method": "Crafted",
             "unlock": "Crafted by Level 50 Armorer."
         },
         {
-            "minion": "Wind-up Echidna",
+            name: "Wind-up Echidna",
             "method": "Duty",
             "unlock": "Found in chest after final boss of The Void Ark."
         },
         {
-            "minion": "Wind-up Edda",
+            name: "Wind-up Edda",
             "method": "Duty",
             "unlock": "From Iron Trimmed Sacks found in Palace of the Dead."
         },
         {
-            "minion": "Wind-up Edvya",
+            name: "Wind-up Edvya",
             "method": "Seasonal Event",
             "unlock": "Acquired from the Little Ladies' Day. MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Elvaan",
+            name: "Wind-up Elvaan",
             "method": "FATE Reward",
             "unlock": "You Do Know Jack FATE in East Flamerock"
         },
         {
-            "minion": "Wind-up Estinien",
+            name: "Wind-up Estinien",
             "method": "Other",
             "unlock": "Randomly the 2-line reward of Wondrous Tails."
         },
         {
-            "minion": "Wind-up Exdeath",
+            name: "Wind-up Exdeath",
             "method": "Duty",
             "unlock": "Found in chest after final boss of Deltascape V4.0."
         },
         {
-            "minion": "Wind-up Fafnir",
+            name: "Wind-up Fafnir",
             "method": "FATE Reward",
             "unlock": "Occasional drop from Wine and Honey FATE in Eureka Anemos"
         },
         {
-            "minion": "Wind-up Firion",
+            name: "Wind-up Firion",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Founder",
+            name: "Wind-up Founder",
             "method": "Purchased",
             "unlock": "Purchased from Amalj'aa Vendor for 25,000 gil "
         },
         {
-            "minion": "Wind-up Fran",
+            name: "Wind-up Fran",
             "method": "Collector's",
             "unlock": "Purchase Collector's Edition of Shadowbringers"
         },
         {
-            "minion": "Wind-up Fuath",
+            name: "Wind-up Fuath",
             "method": "Maps",
             "unlock": "Drops from Dungeons of Lyhe Ghiah"
         },
         {
-            "minion": "Wind-up G'raha Tia",
+            name: "Wind-up G'raha Tia",
             "method": "Quest Reward",
             "unlock": "Complete the Level 80 Main Scenario Quest Shadowbringers."
         },
         {
-            "minion": "Wind-up Garuda",
+            name: "Wind-up Garuda",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Weaver"
         },
         {
-            "minion": "Wind-up Gentleman",
+            name: "Wind-up Gentleman",
             "method": "Quest Reward",
             "unlock": "Complete the Level 50 Hildibrand questline Her Last Vow."
         },
         {
-            "minion": "Wind-up Gilgamesh",
+            name: "Wind-up Gilgamesh",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Gnath",
+            name: "Wind-up Gnath",
             "method": "Purchased",
             "unlock": "30,000 gil and Rank 7 (Sworn Reputation) from Vath Stickpeddler."
         },
         {
-            "minion": "Wind-up Goblin",
+            name: "Wind-up Goblin",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Gosetsu",
+            name: "Wind-up Gosetsu",
             "method": "Optional Item",
             "unlock": "Acquired from The Rising (2017). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Gundu Warrior",
+            name: "Wind-up Gundu Warrior",
             "method": "Purchased",
             "unlock": "Purchased from Luna Vanu for 30,000 gil "
         },
         {
-            "minion": "Wind-up Haurchefant",
+            name: "Wind-up Haurchefant",
             "method": "Quest Reward",
             "unlock": "Complete the Level 60 Main Scenario Quest As Goes Light, So Goes Darkness."
         },
         {
-            "minion": "Wind-up Hien",
+            name: "Wind-up Hien",
             "method": "Other",
             "unlock": "Potential reward from Wondrous Tails"
         },
         {
-            "minion": "Wind-up Hobgoblin",
+            name: "Wind-up Hobgoblin",
             "method": "Retainer Ventures",
             "unlock": "Highland Exploration XXV Miner Retainer Venture or Quick Exploration"
         },
         {
-            "minion": "Wind-up Hraesvelgr",
+            name: "Wind-up Hraesvelgr",
             "method": "Item Code",
             "unlock": "FINAL FANTASY XIV: HEAVENSWARD - The Scars of War Art Book"
         },
         {
-            "minion": "Wind-up Iceheart",
+            name: "Wind-up Iceheart",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2015). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Ifrit",
+            name: "Wind-up Ifrit",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Weaver."
         },
         {
-            "minion": "Wind-up Illuminatus",
+            name: "Wind-up Illuminatus",
             "method": "Crafted",
             "unlock": "Crafted by Level 60? Weaver."
         },
         {
-            "minion": "Wind-up Ixal",
+            name: "Wind-up Ixal",
             "method": "Purchased",
             "unlock": "Purchased from Ixali Vendor for 25,000 gil"
         },
         {
-            "minion": "Wind-up Ixion",
+            name: "Wind-up Ixion",
             "method": "FATE Reward",
             "unlock": "Traded from Eschina for 5 Ixion Horns"
         },
         {
-            "minion": "Wind-up Kain",
+            name: "Wind-up Kain",
             "method": "Collector's",
             "unlock": "Heavensward Collector's Edition"
         },
         {
-            "minion": "Wind-up Kefka",
+            name: "Wind-up Kefka",
             "method": "Duty",
             "unlock": "Guaranteed drop from Sigmascape V4.0 and Sigmascape V4.0 (Savage)."
         },
         {
-            "minion": "Wind-up Khloe",
+            name: "Wind-up Khloe",
             "method": "Other",
             "unlock": "Possible Wondrous Tails reward."
         },
         {
-            "minion": "Wind-up Kobold",
+            name: "Wind-up Kobold",
             "method": "Purchased",
             "unlock": "Bought from Kobold Vendor for 25,000 Gil."
         },
         {
-            "minion": "Wind-up Kobolder",
+            name: "Wind-up Kobolder",
             "method": "Purchased",
             "unlock": "Bought from Kobold Vendor for 25,000 Gil."
         },
         {
-            "minion": "Wind-up Kojin",
+            name: "Wind-up Kojin",
             "method": "Purchased",
             "unlock": "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe."
         },
         {
-            "minion": "Wind-up Krile",
+            name: "Wind-up Krile",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2016). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Lakshmi",
+            name: "Wind-up Lakshmi",
             "method": "Crafted",
             "unlock": "Crafted by level 70? Weaver."
         },
         {
-            "minion": "Wind-up Leader",
+            name: "Wind-up Leader",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Leviathan",
+            name: "Wind-up Leviathan",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Weaver."
         },
         {
-            "minion": "Wind-Up Louisoix",
+            name: "Wind-Up Louisoix",
             "method": "Achievements",
             "unlock": "Complete the Out of a Bind I achievement by completing The Final Coil of Bahamut."
         },
         {
-            "minion": "Wind-up Lulu",
+            name: "Wind-up Lulu",
             "method": "Item Code",
             "unlock": "Fan Fest 2016 in Tokyo Event/Live Stream Ticket"
         },
         {
-            "minion": "Wind-up Lyse",
+            name: "Wind-up Lyse",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2017). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Magnai",
+            name: "Wind-up Magnai",
             "method": "Crafted",
             "unlock": "Level 70 ?? Weaver recipe."
         },
         {
-            "minion": "Wind-up Matanga",
+            name: "Wind-up Matanga",
             "method": "Treasure Hunt",
             "unlock": "Potential reward from the Hidden Canals of Uznair"
         },
         {
-            "minion": "Wind-up Meateater",
+            name: "Wind-up Meateater",
             "method": "Purchased",
             "unlock": "Purchased from Estrild in Kugane with 800 Centurio Seals."
         },
         {
-            "minion": "Wind-up Minfilia",
+            name: "Wind-up Minfilia",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2014). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Mithra",
+            name: "Wind-up Mithra",
             "method": "FATE Reward",
             "unlock": "Rarely from Short Serket 2 in Eureka Anemos."
         },
         {
-            "minion": "Wind-up Moenbryda",
+            name: "Wind-up Moenbryda",
             "method": "Quest Reward",
             "unlock": "Complete Level 60 Main Scenario Quest An Ending to Mark a New Beginning."
         },
         {
-            "minion": "Wind-up Moogle",
+            name: "Wind-up Moogle",
             "method": "Collector's",
             "unlock": "Final Fantasy XIV: A Realm Reborn Collector's Edition"
         },
         {
-            "minion": "Wind-up Moon",
+            name: "Wind-up Moon",
             "method": "Other",
             "unlock": "Trade 1 Hi-Elixir to the Magic Pot on The Isles of Umbra."
         },
         {
-            "minion": "Wind-up Namazu",
+            name: "Wind-up Namazu",
             "method": "Treasure Hunt",
             "unlock": "Rarely from Gazelleskin Treasure Maps."
         },
         {
-            "minion": "Wind-up Nanamo",
+            name: "Wind-up Nanamo",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Nero tol Scaeva",
+            name: "Wind-up Nero tol Scaeva",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 30,000 MGP"
         },
         {
-            "minion": "Wind-up Nidhogg",
+            name: "Wind-up Nidhogg",
             "method": "Item Code",
             "unlock": "The Far Edge of Fate: Final Fantasy XIV Original Soundtrack"
         },
         {
-            "minion": "Wind-up Nu Mou",
+            name: "Wind-up Nu Mou",
             "method": "Purchased",
             "unlock": "800x Sacks of Nuts"
         },
         {
-            "minion": "Wind-up Odin",
+            name: "Wind-up Odin",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Ohl Deeh",
+            name: "Wind-up Ohl Deeh",
             "method": "Purchased",
             "unlock": "30,000 Gil from Mogmul Mogbelly at Allied rank"
         },
         {
-            "minion": "Wind-up Omega-F",
+            name: "Wind-up Omega-F",
             "method": "Quest Reward",
             "unlock": "Reward for Wondrous Tales"
         },
         {
-            "minion": "Wind-up Omega-M",
+            name: "Wind-up Omega-M",
             "method": "Quest Reward",
             "unlock": "Reward for Wondrous Tales"
         },
         {
-            "minion": "Wind-up Onion Knight",
+            name: "Wind-up Onion Knight",
             "method": "Duty",
             "unlock": "Found in rare extra chest after final boss of Syrcus Tower."
         },
         {
-            "minion": "Wind-up Papalymo",
+            name: "Wind-up Papalymo",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Pixie",
+            name: "Wind-up Pixie",
             "method": "Purchased",
             "unlock": "8x Fae Fancy from the Pixie Reputation Vendor"
         },
         {
-            "minion": "Wind-up Qalyana",
+            name: "Wind-up Qalyana",
             "method": "Purchased",
             "unlock": "7x Ananta Dreamstaff from the Ananta Reputation Vendor"
         },
         {
-            "minion": "Wind-up Qiqirn",
+            name: "Wind-up Qiqirn",
             "method": "Crafted",
             "unlock": "Crafted by Level 50 Weaver."
         },
         {
-            "minion": "Wind-up Ramuh",
+            name: "Wind-up Ramuh",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Weaver."
         },
         {
-            "minion": "Wind-up Ramza",
+            name: "Wind-up Ramza",
             "method": "Duty",
             "unlock": "Drops from the Osbonne Monastery"
         },
         {
-            "minion": "Wind-up Ravana",
+            name: "Wind-up Ravana",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Weaver."
         },
         {
-            "minion": "Wind-up Red Mage",
+            name: "Wind-up Red Mage",
             "method": "Preorder",
             "unlock": "Preordering Stormblood"
         },
         {
-            "minion": "Wind-up Redback",
+            name: "Wind-up Redback",
             "method": "Purchased",
             "unlock": "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe."
         },
         {
-            "minion": "Wind-up Relm",
+            name: "Wind-up Relm",
             "method": "Item Code",
             "unlock": "HEAVENSWARD | The Art of Ishgard - Stone and Steel Art Book"
         },
         {
-            "minion": "Wind-up Rikku",
+            name: "Wind-up Rikku",
             "method": "Item Code",
             "unlock": "Fan Fest 2016 in Las Vegas Event/Live Stream Ticket"
         },
         {
-            "minion": "Wind-up Sadu",
+            name: "Wind-up Sadu",
             "method": "Crafted",
             "unlock": "Level 70 ?? Weaver recipe."
         },
         {
-            "minion": "Wind-up Sahagin",
+            name: "Wind-up Sahagin",
             "method": "Purchased",
             "unlock": "Bought from Sahagin Vendor for 25,000 Gil."
         },
         {
-            "minion": "Wind-up Sasquatch",
+            name: "Wind-up Sasquatch",
             "method": "Purchased",
             "unlock": "3 Gelmorran Potsherds from E-Una-Kotor at Quarrymill"
         },
         {
-            "minion": "Wind-up Scathach",
+            name: "Wind-up Scathach",
             "method": "Duty",
             "unlock": "Drops at the end of Dun Scaith"
         },
         {
-            "minion": "Wind-up Sea Devil",
+            name: "Wind-up Sea Devil",
             "method": "Purchased",
             "unlock": "Purchased from Sahagin Vendor for 25,000 gil "
         },
         {
-            "minion": "Wind-up Shantotto",
+            name: "Wind-up Shantotto",
             "method": "Optional Item",
             "unlock": "Complete the FFXI Cross-over Event quest Burgeoning Dread. MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Shinryu",
+            name: "Wind-up Shinryu",
             "method": "Crafted",
             "unlock": "Level 70 ?? Weaver recipe."
         },
         {
-            "minion": "Wind-up Shiva",
+            name: "Wind-up Shiva",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Weaver."
         },
         {
-            "minion": "Wind-up Succubus",
+            name: "Wind-up Succubus",
             "method": "Purchased",
             "unlock": "Grand Company's Hunt Billmaster for 500 Allied Seals."
         },
         {
-            "minion": "Wind-up Sun",
+            name: "Wind-up Sun",
             "method": "Purchased",
             "unlock": "Give an Elixir to the Magic Pot at The Ship Graveyard."
         },
         {
-            "minion": "Wind-up Susano",
+            name: "Wind-up Susano",
             "method": "Crafted",
             "unlock": "Level 70 ? Weaver recipe."
         },
         {
-            "minion": "Wind-up Suzaku",
+            name: "Wind-up Suzaku",
             "method": "Item Code",
             "unlock": "From the SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack."
         },
         {
-            "minion": "Wind-up Sylph",
+            name: "Wind-up Sylph",
             "method": "Purchased",
             "unlock": "Purchased from Sylph Vendor for 25,000 gil"
         },
         {
-            "minion": "Wind-up Tarutaru",
+            name: "Wind-up Tarutaru",
             "method": "Duty",
             "unlock": "From Lockboxes in Eureka: Pagos"
         },
         {
-            "minion": "Wind-up Tataru",
+            name: "Wind-up Tataru",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Thancred",
+            name: "Wind-up Thancred",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2014). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Tifa",
+            name: "Wind-up Tifa",
             "method": "Optional Item",
             "unlock": "MogStation: 6.99 USD"
         },
         {
-            "minion": "Wind-up Titan",
+            name: "Wind-up Titan",
             "method": "Crafted",
             "unlock": "Crafted by level 60? Weaver."
         },
         {
-            "minion": "Wind-up Tonberry",
+            name: "Wind-up Tonberry",
             "method": "Treasure Hunt",
             "unlock": "Boarskin Treasure Hunt, The Aquapolis, or Palace of the Dead Bronze-trimmed Sacks."
         },
         {
-            "minion": "Wind-up Tsukuyomi",
+            name: "Wind-up Tsukuyomi",
             "method": "Item Code",
             "unlock": "From the STORMBLOOD: FINAL FANTASY XIV Original Soundtrack."
         },
         {
-            "minion": "Wind-up Ultros",
+            name: "Wind-up Ultros",
             "method": "Trials",
             "unlock": "Obtained from The Dragon's Neck."
         },
         {
-            "minion": "Wind-up Urianger",
+            name: "Wind-up Urianger",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Vath",
+            name: "Wind-up Vath",
             "method": "Purchased",
             "unlock": "30,000 gil and Rank 4 (Trusted Reputation) from Vath Stickpeddler."
         },
         {
-            "minion": "Wind-up Violet",
+            name: "Wind-up Violet",
             "method": "Purchased",
             "unlock": "Purchased from Sylph Vendor for 25,000 gil"
         },
         {
-            "minion": "Wind-up Warrior of Light",
+            name: "Wind-up Warrior of Light",
             "method": "Achievements",
             "unlock": "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates."
         },
         {
-            "minion": "Wind-up Weapon",
+            name: "Wind-up Weapon",
             "method": "Duty",
             "unlock": "Drops from The Ghimlyt Dark"
         },
         {
-            "minion": "Wind-up Y'shtola",
+            name: "Wind-up Y'shtola",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Yda",
+            name: "Wind-up Yda",
             "method": "Optional Item",
             "unlock": "MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Yotsuyu",
+            name: "Wind-up Yotsuyu",
             "method": "Item Code",
             "unlock": "Bonus code from the Stormblood Art Book"
         },
         {
-            "minion": "Wind-up Yugiri",
+            name: "Wind-up Yugiri",
             "method": "Seasonal Event",
             "unlock": "Acquired from The Rising (2015). MogStation: 5 USD / 3.5 EUR"
         },
         {
-            "minion": "Wind-up Yuna",
+            name: "Wind-up Yuna",
             "method": "Item Code",
             "unlock": "Fan Fest 2017 in Frankfurt Event/Live Stream Ticket"
         },
         {
-            "minion": "Wind-up Zhloe",
+            name: "Wind-up Zhloe",
             "method": "Quest Reward",
             "unlock": "Potential Wondrous Tails reward"
         },
         {
-            "minion": "Wind-up Zundu Warrior",
+            name: "Wind-up Zundu Warrior",
             "method": "Purchased",
             "unlock": "30,000 gil and Rank 4 (Trusted Reputation) from Luna Vanu"
         },
         {
-            "minion": "Wolf Pup",
+            name: "Wolf Pup",
             "method": "Quest Reward",
             "unlock": "Man's Best Friend quest in Aleport from Skribyld."
         },
         {
-            "minion": "Yukinko Snowflake",
+            name: "Yukinko Snowflake",
             "method": "Duty",
             "unlock": "The Forbidden Land, Eureka Hydatos"
         },
         {
-            "minion": "Zephyrous Zabuton",
+            name: "Zephyrous Zabuton",
             "method": "Purchased",
             "unlock": "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe."
         },
         {
-            "minion": "Zu Hatchling",
+            name: "Zu Hatchling",
             "method": "Purchased",
             "unlock": "Purchased from Gold Saucer Attendant for 10,000 MGP"
         }

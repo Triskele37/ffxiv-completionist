@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const MatoyasCave = {
     name: "Matoya's Cave",
+	storageKey: "quest.side-quest.dravanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

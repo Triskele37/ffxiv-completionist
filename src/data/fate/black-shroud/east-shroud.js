@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const EastShroudFATEs = {
     name: "East",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

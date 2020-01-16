@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const CollectableItemAchievements = {
     name: 'Collectable',
+	storageKey: "achievement.item.collectable",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Synthesize 100 collectables.",

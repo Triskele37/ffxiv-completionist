@@ -8,6 +8,7 @@ import { TwinAdderGrandCompanyAchievements } from "./twinadder";
 
 export const GrandCompanyAchievements = {
     name: 'Grand Company',
+	storageKey: "achievement.grand-company",
     columns: AchievementColumnConfig,
     subGroups: [
         ImmortalFlamesGrandCompanyAchievements,

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheSeaOfClouds = {
     name: "The Sea of Clouds",
+	storageKey: "quest.side-quest.abalathian",
 	columns: QuestColumnConfig,
     tasks: [
         {

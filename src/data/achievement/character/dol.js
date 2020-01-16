@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DiscipleOfLandCharacterAchievements = {
     name: 'Disciple of the Land',
+	storageKey: "achievement.character.dol",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Achieve miner level 10.",

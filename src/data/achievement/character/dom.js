@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DiscipleOfMagicCharacterAchievements = {
     name: 'Disciple of Magic',
+	storageKey: "achievement.character.dom",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Achieve conjurer level 10.",

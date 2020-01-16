@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TalesOfTheDragonsongWar = {
     name: "Tales of the Dragonsong War",
+	storageKey: "quest.side-quest.side-story.tales-of-the-dragonsong-war",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const BeastQuestAchievements = {
     name: 'Beast',
+	storageKey: "achievement.quest.beast-tribe",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Attain rank 1 reputation (neutral) with the Brotherhood of Ash.",

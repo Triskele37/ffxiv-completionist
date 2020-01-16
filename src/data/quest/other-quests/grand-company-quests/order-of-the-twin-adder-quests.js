@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const OrderOfTheTwinAdderQuests = {
     name: "Order of the Twin Adder",
+	storageKey: "quest.other.twin-adder",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -1,9 +1,15 @@
 <template>
     <tbody>
-        <tr v-for="task in tasks">
-            <complete-cell :task="task" />
+        <tr
+            v-for="task in tasks"
+            :key="task.name"
+        >
+            <complete-cell
+                :group="selectedGroup.name"
+                :task="task"
+            />
 
-            <td v-for="column in columns">
+            <td v-for="column in selectedGroup.columns">
                 {{task[column.key]}}
             </td>
 
@@ -18,8 +24,8 @@
     export default {
         name: 'data-row',
         props: {
+            selectedGroup: Object,
             tasks: Array,
-            columns: Array,
         },
         components: {
             'complete-cell': CellType.CompleteCell,

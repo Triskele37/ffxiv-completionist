@@ -5,6 +5,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const CommendationCharacterAchievements = {
     name: 'Commendations',
+	storageKey: "achievement.character.commendation",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Receive 10 player commendations.",

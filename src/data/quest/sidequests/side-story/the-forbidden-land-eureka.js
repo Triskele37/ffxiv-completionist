@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheForbiddenLandEureka = {
     name: "The Forbidden Land, Eureka",
+	storageKey: "quest.side-quest.side-story.eureka",
 	columns: QuestColumnConfig,
     tasks: [
         {

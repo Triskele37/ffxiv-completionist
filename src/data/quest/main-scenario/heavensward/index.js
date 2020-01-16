@@ -9,6 +9,7 @@ export const HeavenswardQuests = {
         ArtoirelQuests,
         EmmanellainQuests
     ],
+	storageKey: "quest.main-scenario",
 	columns: QuestColumnConfig,
     tasks: [
         {

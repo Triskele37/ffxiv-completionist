@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const MaelstromQuests = {
     name: "Maelstrom",
+	storageKey: "quest.other.maelstrom",
 	columns: QuestColumnConfig,
     tasks: [
         {

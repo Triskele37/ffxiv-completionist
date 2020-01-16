@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const LeatherworkerCraftingAchievements = {
     name: 'Leatherworker',
+	storageKey: "achievement.crafting.leatherworker",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully synthesize 50 times for level 1-10 leatherworking recipes.",

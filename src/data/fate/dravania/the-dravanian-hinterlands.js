@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const TheDravanianHinterlandsFATEs = {
     name: "The Dravanian Hinterlands",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

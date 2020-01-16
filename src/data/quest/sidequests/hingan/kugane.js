@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const Kugane = {
     name: "Kugane",
+	storageKey: "quest.side-quest.hingan",
 	columns: QuestColumnConfig,
     tasks: [
         {

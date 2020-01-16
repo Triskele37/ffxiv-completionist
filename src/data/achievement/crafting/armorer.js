@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const ArmorerCraftingAchievements = {
     name: 'Armorer',
+	storageKey: "achievement.crafting.armorer",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Successfully synthesize 50 times for level 1-10 armorcraft recipes.",

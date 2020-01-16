@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const WolvesDenPier = {
     name: "Wolves' Den Pier",
+	storageKey: "quest.side-quest.lominsan",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -1,7 +1,8 @@
 module.exports = {
     name: "Triple Triad Cards",
+	storageKey: "collectable.triple-triad.cards",
     columns: [
-		{ header: 'Card', key: 'card' },
+		{ header: 'Card', key: 'name' },
 		{ header: 'Rarity', key: 'rarity', filterable: true },
 		{ header: 'Type', key: 'type', filterable: true },
 		{ header: 'Opponent', key: 'opponent', filterable: true },
@@ -9,1974 +10,1974 @@ module.exports = {
 	],
     tasks: [
         {
-          "card": "Ahriman Card",
+          name: "Ahriman Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Ourdilic",
           "unlock": "Drops from Dzemael Darkhold"
         },
         {
-          "card": "Amalj'aa Card",
+          name: "Amalj'aa Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Memeroon",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Amaro Card",
+          name: "Amaro Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Glynard",
           "unlock": ""
         },
         {
-          "card": "Apkallu Card",
+          name: "Apkallu Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Wyra Lyegha",
           "unlock": ""
         },
         {
-          "card": "Bomb Card",
+          name: "Bomb Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Starter Deck"
         },
         {
-          "card": "Chocobo Card",
+          name: "Chocobo Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Triple Triad Master, Jonas of the Three Spades, Guhtwint of the Three Diamonds",
           "unlock": "Purchased from Triple Triad Trader for 600 MGP."
         },
         {
-          "card": "Coblyn Card",
+          name: "Coblyn Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Maisenta, Wymond",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Coeurl Card",
+          name: "Coeurl Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Starter Deck"
         },
         {
-          "card": "Colibri Card",
+          name: "Colibri Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Flichoirel the Lordling",
           "unlock": ""
         },
         {
-          "card": "Deepeye Card",
+          name: "Deepeye Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Dominiac",
           "unlock": ""
         },
         {
-          "card": "Dodo Card",
+          name: "Dodo Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Starter Deck"
         },
         {
-          "card": "Evil Weapon Card",
+          name: "Evil Weapon Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Drery",
           "unlock": ""
         },
         {
-          "card": "Gaelicat Card",
+          name: "Gaelicat Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Noes",
           "unlock": ""
         },
         {
-          "card": "Goobbue Card",
+          name: "Goobbue Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Mother Miounne, Aurifort of the Three Clubs",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Hobgoblin",
+          name: "Hobgoblin",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Ixal Card",
+          name: "Ixal Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Jonas of the Three Spades, Joellaut",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Karakuri Hanya Card�",
+          name: "Karakuri Hanya Card�",
           "rarity": "★",
           "type": "None",
           "opponent": "Hokushin",
           "unlock": ""
         },
         {
-          "card": "Kobold Card",
+          name: "Kobold Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Koja Card",
+          name: "Koja Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Masatsuchi",
           "unlock": ""
         },
         {
-          "card": "Lord and Lady Chai Card",
+          name: "Lord and Lady Chai Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Ibenart",
           "unlock": ""
         },
         {
-          "card": "Magitek Death Claw Card",
+          name: "Magitek Death Claw Card",
           "rarity": "★",
           "type": "Garland",
           "opponent": "",
           "unlock": "Bronze Triad Card"
         },
         {
-          "card": "Mandragora Card",
+          name: "Mandragora Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Starter Deck"
         },
         {
-          "card": "Morbol Card",
+          name: "Morbol Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Roger",
           "unlock": "Drops from Aurum Vale"
         },
         {
-          "card": "Moogle Card",
+          name: "Moogle Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Jonas of the Three Spades, Trachtoum",
           "unlock": "Purchased from Triple Triad Trader for 840 MGP."
         },
         {
-          "card": "Mossling Card",
+          name: "Mossling Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 840 MGP"
         },
         {
-          "card": "Namazu Card",
+          name: "Namazu Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Gyoei",
           "unlock": ""
         },
         {
-          "card": "Opo-opo Card",
+          name: "Opo-opo Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 600 MGP"
         },
         {
-          "card": "Porxie",
+          name: "Porxie",
           "rarity": "★",
           "type": "None",
           "opponent": "Eo Sigun",
           "unlock": ""
         },
         {
-          "card": "Pudding Card",
+          name: "Pudding Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Roger",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Sabotender Card",
+          name: "Sabotender Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Starter Deck"
         },
         {
-          "card": "Sahagin Card",
+          name: "Sahagin Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Baderon",
           "unlock": "Drops from Sastasha, Sastasha (Hard)"
         },
         {
-          "card": "Spriggan Card",
+          name: "Spriggan Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Triple Triad Master, Guhtwint of the Three Diamonds",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Stormblood Tataru Taru",
+          name: "Stormblood Tataru Taru",
           "rarity": "★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 96,000 MGP"
         },
         {
-          "card": "Sylph Card",
+          name: "Sylph Card",
           "rarity": "★",
           "type": "Beastman",
           "opponent": "Maisenta",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Tataru Taru Card",
+          name: "Tataru Taru Card",
           "rarity": "★",
           "type": "Scion",
           "opponent": "Tataru",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Tonberry Card",
+          name: "Tonberry Card",
           "rarity": "★",
           "type": "None",
           "opponent": "Memeroon",
           "unlock": "Drops from The Wanderer's Palace, The Wanderer's Palace (Hard)"
         },
         {
-          "card": "Wanyudo and Katasharin Card",
+          name: "Wanyudo and Katasharin Card",
           "rarity": "★",
           "type": "None",
           "opponent": "",
           "unlock": "Silver Sack in Heaven on High"
         },
         {
-          "card": "Adamantoise Card",
+          name: "Adamantoise Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 840 MGP"
         },
         {
-          "card": "Ananta Card",
+          name: "Ananta Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Garima",
           "unlock": ""
         },
         {
-          "card": "Ango Card",
+          name: "Ango Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Isobe",
           "unlock": ""
         },
         {
-          "card": "Archaeornis Card",
+          name: "Archaeornis Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Elaisse",
           "unlock": ""
         },
         {
-          "card": "Baderon Tenfingers Card",
+          name: "Baderon Tenfingers Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Baderon",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Bandersnatch Card",
+          name: "Bandersnatch Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Voracious Vath",
           "unlock": ""
         },
         {
-          "card": "Biggs & Wedge Card",
+          name: "Biggs & Wedge Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Mimidoa, Sezul Totoloc",
           "unlock": ""
         },
         {
-          "card": "Blue Dragon Card",
+          name: "Blue Dragon Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Ourdilic",
           "unlock": "Drops from The Stone Vigil, Stone Vigil (Hard)"
         },
         {
-          "card": "Carvallain de Gorgagne Card",
+          name: "Carvallain de Gorgagne Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Mordyn",
           "unlock": ""
         },
         {
-          "card": "Chapuli Card",
+          name: "Chapuli Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 1,200 MGP"
         },
         {
-          "card": "Chimera Card",
+          name: "Chimera Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Fufulupa",
           "unlock": "Drops from Cutter's Cry"
         },
         {
-          "card": "Crawler Card",
+          name: "Crawler Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Seika",
           "unlock": ""
         },
         {
-          "card": "Delivery Moogle Card",
+          name: "Delivery Moogle Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "",
           "unlock": "Bronze Triad Card"
         },
         {
-          "card": "Demon Wall Card",
+          name: "Demon Wall Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Buscarron",
           "unlock": "Drops from Amdapor Keep, Amdapor Keep (Hard)"
         },
         {
-          "card": "Dhalmel Card",
+          name: "Dhalmel Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Laniaitte",
           "unlock": ""
         },
         {
-          "card": "Dvergr Card",
+          name: "Dvergr Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Hetsukaze",
           "unlock": "Drops from Duty-Free FATE in Eureka Hydatos (29-23) "
         },
         {
-          "card": "Ejika Tsunjika Card",
+          name: "Ejika Tsunjika Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Hetsukaze",
           "unlock": ""
         },
         {
-          "card": "Fat Chocobo Card",
+          name: "Fat Chocobo Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Vath Deftarm",
           "unlock": "Drops from Special Tarasque Force FATE in The Dravanian Forelands (13,36)."
         },
         {
-          "card": "Feo Ul Card",
+          name: "Feo Ul Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Gyulf Uin",
           "unlock": ""
         },
         {
-          "card": "Frixio Card",
+          name: "Frixio Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Marcette, Piralnaut",
           "unlock": ""
         },
         {
-          "card": "Fuath",
+          name: "Fuath",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Gerolt Card",
+          name: "Gerolt Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Helmhart, Rowena",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Gibrillont Card",
+          name: "Gibrillont Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Elaisse",
           "unlock": ""
         },
         {
-          "card": "Gigantender Card",
+          name: "Gigantender Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Drery",
           "unlock": ""
         },
         {
-          "card": "Gnath Card",
+          name: "Gnath Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Mogmill",
           "unlock": ""
         },
         {
-          "card": "Gold Saucer Attendant Card",
+          name: "Gold Saucer Attendant Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 500 MGP"
         },
         {
-          "card": "Grenoldt Card",
+          name: "Grenoldt Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Saushs Koal",
           "unlock": ""
         },
         {
-          "card": "Guidance Node Card",
+          name: "Guidance Node Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Fractal Continuum (Hard)"
         },
         {
-          "card": "Hatamoto Card",
+          name: "Hatamoto Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Silver and Gold Sacks in Heaven on High"
         },
         {
-          "card": "Hoary Boulder & Coultenet Card",
+          name: "Hoary Boulder & Coultenet Card",
           "rarity": "★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Gold Triad Card"
         },
         {
-          "card": "Honoroit Card",
+          name: "Honoroit Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "House Fortemps Manservant",
           "unlock": ""
         },
         {
-          "card": "Iguana",
+          name: "Iguana",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Kojin Card",
+          name: "Kojin Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Tsuzura",
           "unlock": ""
         },
         {
-          "card": "Kotokaze Card",
+          name: "Kotokaze Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Kotokaze",
           "unlock": ""
         },
         {
-          "card": "Laniaitte de Haillenarte Card",
+          name: "Laniaitte de Haillenarte Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Marielle",
           "unlock": ""
         },
         {
-          "card": "Liquid Flame Card",
+          name: "Liquid Flame Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Bronze Triad Card"
         },
         {
-          "card": "Livia sas Junius Card",
+          name: "Livia sas Junius Card",
           "rarity": "★★",
           "type": "Garlean",
           "opponent": "Indolent Imperial",
           "unlock": "Drops from Castrum Meridianum"
         },
         {
-          "card": "Lolorito Nanarito Card",
+          name: "Lolorito Nanarito Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Wymond",
           "unlock": ""
         },
         {
-          "card": "Lost Lamb Card",
+          name: "Lost Lamb Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Prideful Stag",
           "unlock": ""
         },
         {
-          "card": "M'naago Card",
+          name: "M'naago Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Ercanbald",
           "unlock": ""
         },
         {
-          "card": "Magitek Colossus Card",
+          name: "Magitek Colossus Card",
           "rarity": "★★",
           "type": "Garlean",
           "opponent": "Hall Overseer",
           "unlock": ""
         },
         {
-          "card": "Magitek Gunship Card",
+          name: "Magitek Gunship Card",
           "rarity": "★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Magitek Vanguard Card",
+          name: "Magitek Vanguard Card",
           "rarity": "★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Memeroon Card",
+          name: "Memeroon Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Memeroon",
           "unlock": ""
         },
         {
-          "card": "Momodi Modi Card",
+          name: "Momodi Modi Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Momodi",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Mother Miounne Card",
+          name: "Mother Miounne Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Mother Miounne",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Mutamix Bubblypots Card",
+          name: "Mutamix Bubblypots Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "F'hobhas",
           "unlock": ""
         },
         {
-          "card": "Muud Suud Card",
+          name: "Muud Suud Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "Buy from Triple Triad Trader"
         },
         {
-          "card": "Nu Mou",
+          name: "Nu Mou",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Eo Sigun",
           "unlock": ""
         },
         {
-          "card": "Paissa Card",
+          name: "Paissa Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Laniaitte",
           "unlock": ""
         },
         {
-          "card": "Poroggo Card",
+          name: "Poroggo Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Seika",
           "unlock": ""
         },
         {
-          "card": "Qiqirn Meateater Card",
+          name: "Qiqirn Meateater Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Garima",
           "unlock": ""
         },
         {
-          "card": "Rhitahtyn sas Arvina Card",
+          name: "Rhitahtyn sas Arvina Card",
           "rarity": "★★",
           "type": "Garlean",
           "opponent": "Indolent Imperial",
           "unlock": "Drops from Cape Westwind"
         },
         {
-          "card": "Rhoswen Card",
+          name: "Rhoswen Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "O'kalkaya",
           "unlock": ""
         },
         {
-          "card": "Runar Card",
+          name: "Runar Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Hargra",
           "unlock": ""
         },
         {
-          "card": "Scarface Bugaal Ja Card",
+          name: "Scarface Bugaal Ja Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Guhtwint of the Three Diamonds, Aurifort of the Three Clubs",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Siren Card",
+          name: "Siren Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Mimidoa",
           "unlock": "Drops from Pharos Sirius"
         },
         {
-          "card": "Succubus Card",
+          name: "Succubus Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Piralnaut",
           "unlock": "Drops from Haukke Manor, Haukke Manor (Hard)"
         },
         {
-          "card": "Tansui Card",
+          name: "Tansui Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Yusui",
           "unlock": ""
         },
         {
-          "card": "Ultros & Typhon Card",
+          name: "Ultros & Typhon Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Helmhart",
           "unlock": "Drops from The Dragon's Neck"
         },
         {
-          "card": "Vanu Vanu Card",
+          name: "Vanu Vanu Card",
           "rarity": "★★",
           "type": "Beastman",
           "opponent": "Mogmill",
           "unlock": ""
         },
         {
-          "card": "Yugiri Mistwalker Card",
+          name: "Yugiri Mistwalker Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "Yellow Moon",
           "unlock": ""
         },
         {
-          "card": "Yukinko Card",
+          name: "Yukinko Card",
           "rarity": "★★",
           "type": "None",
           "opponent": "",
           "unlock": "FATE \"Eternity\", Eureka Pagos (21, 26)"
         },
         {
-          "card": "Alexander Prime Card",
+          name: "Alexander Prime Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Drops from Alexander - The Soul of the Creator (A12)"
         },
         {
-          "card": "Alpha Card",
+          name: "Alpha Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Ironwork's Hand",
           "unlock": ""
         },
         {
-          "card": "Arenvald Lentinus Card",
+          name: "Arenvald Lentinus Card",
           "rarity": "★★★",
           "type": "Scion",
           "opponent": "Umber Torrent",
           "unlock": ""
         },
         {
-          "card": "Artoirel de Fortemps Card",
+          name: "Artoirel de Fortemps Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "House Fortemps Manservant",
           "unlock": ""
         },
         {
-          "card": "Asahi sas Brutus Card",
+          name: "Asahi sas Brutus Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "Hachinan",
           "unlock": ""
         },
         {
-          "card": "Behemoth Card",
+          name: "Behemoth Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Sezul Totoloc, Ourdilic",
           "unlock": "Drops from Bronze Triad Card"
         },
         {
-          "card": "Belladonna Card",
+          name: "Belladonna Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Saint Mocianne's Arboretum"
         },
         {
-          "card": "Brachiosaur Card",
+          name: "Brachiosaur Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Linu Vali",
           "unlock": "Mythril Triad Card"
         },
         {
-          "card": "Brendt, Brennan, & Bremondt Card",
+          name: "Brendt, Brennan, & Bremondt Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Nell Half-full",
           "unlock": ""
         },
         {
-          "card": "Byakko Card",
+          name: "Byakko Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Jade Stoa and The Jade Stoa (Extreme)"
         },
         {
-          "card": "Byblos Card",
+          name: "Byblos Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from the final boss of The Great Gubal Library dungeon."
         },
         {
-          "card": "Calcabrina Card",
+          name: "Calcabrina Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Antitower"
         },
         {
-          "card": "Charibert Card",
+          name: "Charibert Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Vault"
         },
         {
-          "card": "Cirina Card",
+          name: "Cirina Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Nigen",
           "unlock": ""
         },
         {
-          "card": "Coeurlregina Card",
+          name: "Coeurlregina Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Voracious Vath, Vath Deftarm",
           "unlock": "Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Count Edmont de Fortemps Card",
+          name: "Count Edmont de Fortemps Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Marielle",
           "unlock": ""
         },
         {
-          "card": "Curator Card",
+          name: "Curator Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Fractal Continuum"
         },
         {
-          "card": "Darkscale Card",
+          name: "Darkscale Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Mogicide FATE in The Churning Mists (22,21) and Rastaban Vibration FATE in The Churning Mists (14,13)."
         },
         {
-          "card": "Echidna Card",
+          name: "Echidna Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Void Ark"
         },
         {
-          "card": "Emmanellain de Fortemps Card",
+          name: "Emmanellain de Fortemps Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "House Fortemps Manservant",
           "unlock": ""
         },
         {
-          "card": "Eros Card",
+          name: "Eros Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Qitana Ravel, Drops from Dream Triad Card"
         },
         {
-          "card": "Estinien Card",
+          name: "Estinien Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Gibrillont",
           "unlock": ""
         },
         {
-          "card": "Fenrir Card",
+          name: "Fenrir Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Snowcloak"
         },
         {
-          "card": "Ferdiad Card",
+          name: "Ferdiad Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Amdapor Keep (Hard)"
         },
         {
-          "card": "Fordola rem Lupis Card",
+          name: "Fordola rem Lupis Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Imperial Deserter",
           "unlock": ""
         },
         {
-          "card": "Formidable Card",
+          name: "Formidable Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchase from Zumutt for 200 Bicolor Gemstones"
         },
         {
-          "card": "Garuda Card",
+          name: "Garuda Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "Marcette",
           "unlock": "Drops from The Howling Eye (Hard), The Howling Eye (Extreme)"
         },
         {
-          "card": "Genbu Card",
+          name: "Genbu Card",
           "rarity": "★★★",
           "type": "",
           "opponent": "",
           "unlock": "Drops from Hell's Lid"
         },
         {
-          "card": "Gilgamesh & Enkidu Card",
+          name: "Gilgamesh & Enkidu Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Battle on the Big Bridge, Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Godbert Manderville Card",
+          name: "Godbert Manderville Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Ruhtwyda of the Three Hearts, King Elmer III, Hab",
           "unlock": "Purchased from Triple Triad Trader for 9,600 MGP."
         },
         {
-          "card": "Good King Moggle Mog XII Card",
+          name: "Good King Moggle Mog XII Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "Vorsaile Heuloix",
           "unlock": "Drops from Thornmarch (Hard), Thornmarch (Extreme)"
         },
         {
-          "card": "Griffin Card",
+          name: "Griffin Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from the final boss of The Dusk Vigil dungeon."
         },
         {
-          "card": "Grynewaht Card",
+          name: "Grynewaht Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Doma Castle"
         },
         {
-          "card": "Happy Bunny Card",
+          name: "Happy Bunny Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Happy Bunny Silver Treasure Chest (Eureka Pagos)"
         },
         {
-          "card": "Haurchefant Card",
+          name: "Haurchefant Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Triple Team III Achievement by defeating 41 unique NPCs"
         },
         {
-          "card": "Hilda Card",
+          name: "Hilda Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Idle Imperial",
           "unlock": ""
         },
         {
-          "card": "Hiruko Card",
+          name: "Hiruko Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Random from a Gold-haloed Sack"
         },
         {
-          "card": "Hrodric Poisontongue Card",
+          name: "Hrodric Poisontongue Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Drowned City of Skalla"
         },
         {
-          "card": "Ifrit Card",
+          name: "Ifrit Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "Swift",
           "unlock": "Drops from The Bowl of Embers (Hard), The Bowl of Embers (Extreme)"
         },
         {
-          "card": "Jongleurs of Eulmore Card",
+          name: "Jongleurs of Eulmore Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Grewenn",
           "unlock": ""
         },
         {
-          "card": "Julyan Manderville Card",
+          name: "Julyan Manderville Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from the Triple Triad Trader for 14,400 MGP"
         },
         {
-          "card": "Kal Myhk Card",
+          name: "Kal Myhk Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Master Mogzin",
           "unlock": ""
         },
         {
-          "card": "Kraken Card",
+          name: "Kraken Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Sastasha (Hard)"
         },
         {
-          "card": "Kuribu Card",
+          name: "Kuribu Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Lost City of Amdapor (Hard)"
         },
         {
-          "card": "Lakshmi Card",
+          name: "Lakshmi Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Emanation, Emanation (Extreme)"
         },
         {
-          "card": "Lava Scorpion Card",
+          name: "Lava Scorpion Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Sohm Al (Hard)"
         },
         {
-          "card": "Leannan Sith",
+          name: "Leannan Sith",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Louhi Card",
+          name: "Louhi Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Botan",
           "unlock": "Potential drop \"Louhi on Ice\" FATE at (35,19) in Pagos"
         },
         {
-          "card": "Lucia goe Junius Card",
+          name: "Lucia goe Junius Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Wawalago",
           "unlock": ""
         },
         {
-          "card": "Lupin Card",
+          name: "Lupin Card",
           "rarity": "★★★",
           "type": "Beastman",
           "opponent": "Masatsuchi",
           "unlock": ""
         },
         {
-          "card": "Lyna Card",
+          name: "Lyna Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Lamlyn",
           "unlock": ""
         },
         {
-          "card": "Magitek Predator Card",
+          name: "Magitek Predator Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Magitek Sky Armor Card",
+          name: "Magitek Sky Armor Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Magnai Card",
+          name: "Magnai Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Ogodei",
           "unlock": ""
         },
         {
-          "card": "Mammoth Card",
+          name: "Mammoth Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Get Gold on the FATE Wham, Bam, Thank You, Mammoth in The Azim Steppe (31,23)"
         },
         {
-          "card": "Manxome Molaa Ja Ja Card",
+          name: "Manxome Molaa Ja Ja Card",
           "rarity": "★★★",
           "type": "Beastman",
           "opponent": "",
           "unlock": "Drops from The Wanderer's Palace (Hard)"
         },
         {
-          "card": "Matoya Card",
+          name: "Matoya Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Midnight Dew",
           "unlock": ""
         },
         {
-          "card": "Mist Dragon Card",
+          name: "Mist Dragon Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Burn (Duty)"
         },
         {
-          "card": "Mistbeard Card",
+          name: "Mistbeard Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Hullbreaker Isle (Hard)"
         },
         {
-          "card": "Moglin Card",
+          name: "Moglin Card",
           "rarity": "★★★",
           "type": "Beastman",
           "opponent": "Mogmill",
           "unlock": ""
         },
         {
-          "card": "Nero tol Scaeva Card",
+          name: "Nero tol Scaeva Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "Indolent Imperial",
           "unlock": ""
         },
         {
-          "card": "Papalymo & Yda Card",
+          name: "Papalymo & Yda Card",
           "rarity": "★★★",
           "type": "Scion",
           "opponent": "Buscarron, Vorsaile Heuloix",
           "unlock": ""
         },
         {
-          "card": "Pazuzu Card",
+          name: "Pazuzu Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Botan",
           "unlock": ""
         },
         {
-          "card": "Penthesilea Card",
+          name: "Penthesilea Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Get Gold on the FATE Lost Epic in The Ring of Fire"
         },
         {
-          "card": "Philia Card",
+          name: "Philia Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Holminster Switch duty, Drops from Dream Triad Card"
         },
         {
-          "card": "Phlegethon Card",
+          name: "Phlegethon Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Klynthota",
           "unlock": "Drops from Labyrinth of the Ancients"
         },
         {
-          "card": "Phoebad Card",
+          name: "Phoebad Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Get Gold on the FATE Tall Tale in The Lochs (21,25)"
         },
         {
-          "card": "Pipin Tarupin Card",
+          name: "Pipin Tarupin Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Swift",
           "unlock": "Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Progenitrix Card",
+          name: "Progenitrix Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Pharos Sirius (Hard)"
         },
         {
-          "card": "Prometheus Card",
+          name: "Prometheus Card",
           "rarity": "★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Drops from The Ghimlyt Dark"
         },
         {
-          "card": "Provinence Watcher Card",
+          name: "Provinence Watcher Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Hetsukaze",
           "unlock": "Drops from Crystalline Provenence  FATE in Eureka Hydatos"
         },
         {
-          "card": "Qitian Dasheng Card",
+          name: "Qitian Dasheng Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Swallow's Compass (Duty)"
         },
         {
-          "card": "Rasho Card",
+          name: "Rasho Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Kaizan",
           "unlock": ""
         },
         {
-          "card": "Raya-O-Senna & A-Ruhn-Senna Card",
+          name: "Raya-O-Senna & A-Ruhn-Senna Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Buscarron, Landenel",
           "unlock": "Purchased from Triple Triad Trader for 4,800 MGP."
         },
         {
-          "card": "Rofocale Card",
+          name: "Rofocale Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Royal City of Rabanastre"
         },
         {
-          "card": "Roland Card",
+          name: "Roland Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 1000 MGP"
         },
         {
-          "card": "Roundrox Card",
+          name: "Roundrox Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Seika, Tapklix",
           "unlock": ""
         },
         {
-          "card": "Sadu Card",
+          name: "Sadu Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Munglig",
           "unlock": ""
         },
         {
-          "card": "Seeker of Solitude",
+          name: "Seeker of Solitude",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Grand Cosmos"
         },
         {
-          "card": "Seiryu",
+          name: "Seiryu",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Wreath of Snakes, The Wreath of Snakes (Extreme)"
         },
         {
-          "card": "Storge Card",
+          name: "Storge Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Malikah's Well, Drops from Dream Triad Card"
         },
         {
-          "card": "Strix Card",
+          name: "Strix Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Great Gubal Library (Hard)"
         },
         {
-          "card": "Susano Card",
+          name: "Susano Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "The Pool of Tribute, The Pool of Tribute (Extreme)"
         },
         {
-          "card": "Suzaku Card",
+          name: "Suzaku Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Hell's Kier, Hell's Kier (Extreme)"
         },
         {
-          "card": "Thancred Card",
+          name: "Thancred Card",
           "rarity": "★★★",
           "type": "Scion",
           "opponent": "Fufulupa, Hab",
           "unlock": ""
         },
         {
-          "card": "The Griffin Card",
+          name: "The Griffin Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Baelsar's Wall"
         },
         {
-          "card": "Tioman Card",
+          name: "Tioman Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from the final boss of Sohm Al dungeon."
         },
         {
-          "card": "Titan Card",
+          name: "Titan Card",
           "rarity": "★★★",
           "type": "Primal",
           "opponent": "Landenel, Trachtoum",
           "unlock": "Drops from The Navel (Hard), The Navel (Extreme)"
         },
         {
-          "card": "Titania Card",
+          name: "Titania Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Dancing Plague, The Dancing Plague (Extreme), Drops from Dream Triad Card"
         },
         {
-          "card": "Tokkapchi Card",
+          name: "Tokkapchi Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Saint Mocianne's Arboretum (Hard)"
         },
         {
-          "card": "Tozol Huatotl Card",
+          name: "Tozol Huatotl Card",
           "rarity": "★★★",
           "type": "Beastman",
           "opponent": "",
           "unlock": "Drops from Xelphatol"
         },
         {
-          "card": "Urianger Card",
+          name: "Urianger Card",
           "rarity": "★★★",
           "type": "Scion",
           "opponent": "Ruhtwyda of the Three Hearts, Tataru",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Vedrfolnir Card",
+          name: "Vedrfolnir Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Mogmill",
           "unlock": "Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Vicegerent to the Warden Card",
+          name: "Vicegerent to the Warden Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Sunken Temple of Qarn (Hard)"
         },
         {
-          "card": "Waukkeon Card",
+          name: "Waukkeon Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Neverreap"
         },
         {
-          "card": "Y'shtola Card",
+          name: "Y'shtola Card",
           "rarity": "★★★",
           "type": "Scion",
           "opponent": "Gegeruju, R'ashaht Rhiki",
           "unlock": ""
         },
         {
-          "card": "Ysayle Card",
+          name: "Ysayle Card",
           "rarity": "★★★",
           "type": "None",
           "opponent": "Marcechamp",
           "unlock": ""
         },
         {
-          "card": "Alphinaud & Alisaie Card",
+          name: "Alphinaud & Alisaie Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "Joellaut, Swift",
           "unlock": ""
         },
         {
-          "card": "Argath Thadalfus Card",
+          name: "Argath Thadalfus Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Royal City of Rabanastre"
         },
         {
-          "card": "Armored Weapon Card",
+          name: "Armored Weapon Card",
           "rarity": "★★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Aymeric Card",
+          name: "Aymeric Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Yayake",
           "unlock": ""
         },
         {
-          "card": "Bismarck Card",
+          name: "Bismarck Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "Linu Vali",
           "unlock": "Drops from The Limitless Blue (Hard) and The Limitless Blue (Extreme) Trials."
         },
         {
-          "card": "Brute Justice Card",
+          name: "Brute Justice Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Tapklix",
           "unlock": "Alexander - The Burden of the Son"
         },
         {
-          "card": "Calofisteri Card",
+          name: "Calofisteri Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Weeping City of Mhach"
         },
         {
-          "card": "Cid Garlond Card",
+          name: "Cid Garlond Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Sezul Totoloc",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Diabolos Hollow Card",
+          name: "Diabolos Hollow Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dun Scaith"
         },
         {
-          "card": "F'lhaminn Card",
+          name: "F'lhaminn Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Purchased from the Triple Triad Trader for 20,000 MGP"
         },
         {
-          "card": "Gigi Card",
+          name: "Gigi Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 18000 MGP"
         },
         {
-          "card": "Great Gold Whisker Card",
+          name: "Great Gold Whisker Card",
           "rarity": "★★★★",
           "type": "Beastman",
           "opponent": "Gyoei",
           "unlock": ""
         },
         {
-          "card": "Hancock Card",
+          name: "Hancock Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Kikimo",
           "unlock": ""
         },
         {
-          "card": "Heavensward Thancred Card",
+          name: "Heavensward Thancred Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Achievement Triple Team V - Defeat 60 unique NPCs at Triple Triad."
         },
         {
-          "card": "Heavensward Y'shtola Card",
+          name: "Heavensward Y'shtola Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Achievement Triple-Decker VI - Obtain 150 unique Triple Triad cards."
         },
         {
-          "card": "Innocence Card",
+          name: "Innocence Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Crown of the Immaculate, The Crown of the Immaculate (Extreme), Drops from Dream Triad Card"
         },
         {
-          "card": "Krile Card",
+          name: "Krile Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Triple Team VII achievement: obtain 190 unique Triple Triad cards"
         },
         {
-          "card": "Lahabrea Card",
+          name: "Lahabrea Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Silver Triad Card, Platinum Triad Card"
         },
         {
-          "card": "Leviathan Card",
+          name: "Leviathan Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "R'ashaht Rhiki",
           "unlock": "Drops from The Whorleater (Hard), The Whorleater (Extreme)"
         },
         {
-          "card": "Louisoix Leveilleur Card",
+          name: "Louisoix Leveilleur Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Rowena",
           "unlock": ""
         },
         {
-          "card": "Lyse Card",
+          name: "Lyse Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "",
           "unlock": "Triple-decker VI achievement: defeat 70 different NPCs"
         },
         {
-          "card": "Minfilia Card",
+          name: "Minfilia Card",
           "rarity": "★★★★",
           "type": "Scion",
           "opponent": "Gegeruju",
           "unlock": "Drops from Silver Triad Card"
         },
         {
-          "card": "Nael van Darnus Card",
+          name: "Nael van Darnus Card",
           "rarity": "★★★★",
           "type": "Garlean",
           "opponent": "Flichoirel the Lordling",
           "unlock": ""
         },
         {
-          "card": "Odin Card",
+          name: "Odin Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "Landenel",
           "unlock": "Drops from Urth's Fount, Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Oracle of Light",
+          name: "Oracle of Light",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Ramuh Card",
+          name: "Ramuh Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "Vorsaile Heuloix",
           "unlock": "Drops from The Striking Tree (Hard), The Striking Tree (Extreme)"
         },
         {
-          "card": "Ran'jit Card",
+          name: "Ran'jit Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Grewenn",
           "unlock": ""
         },
         {
-          "card": "Ravana Card",
+          name: "Ravana Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "Vath Deftarm",
           "unlock": "Drops from Thok ast Thok (Hard) and Thok ast Thok (Extreme) Trials."
         },
         {
-          "card": "Senor Sabotender Card",
+          name: "Senor Sabotender Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from the Triple Triad Trader for 200,000 MGP"
         },
         {
-          "card": "Sephirot Card",
+          name: "Sephirot Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Containment Bay S1T7"
         },
         {
-          "card": "Shadowbringers Urianger Card",
+          name: "Shadowbringers Urianger Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Complete Triple-decker IX achievement"
         },
         {
-          "card": "Shadowbringers Y'shtola Card",
+          name: "Shadowbringers Y'shtola Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Hargra",
           "unlock": ""
         },
         {
-          "card": "Shinryu Card",
+          name: "Shinryu Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "The Royal Menagerie"
         },
         {
-          "card": "Shiva Card",
+          name: "Shiva Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Drops from Akh Afah Amphitheatre (Hard), Akh Afah Amphitheatre (Extreme), Drops from Platinum Triad Card"
         },
         {
-          "card": "Stormblood Gilgamesh Card",
+          name: "Stormblood Gilgamesh Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Kugane Ohashi duty."
         },
         {
-          "card": "Tiamat Card",
+          name: "Tiamat Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Idle Imperial",
           "unlock": ""
         },
         {
-          "card": "Tsukuyomi Card",
+          name: "Tsukuyomi Card",
           "rarity": "★★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Drops from The Minstrel's Ballad: Tsukuyomi's Pain"
         },
         {
-          "card": "Ultima Weapon Card",
+          name: "Ultima Weapon Card",
           "rarity": "★★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Drops from The Minstrel's Ballad: Ultima's Bane, Gold Triad Card, Platinum Triad Card"
         },
         {
-          "card": "Unei & Doga Card",
+          name: "Unei & Doga Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Klynthota",
           "unlock": ""
         },
         {
-          "card": "Vidofnir Card",
+          name: "Vidofnir Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Triple Decker V Achievement by containing 120 Triple Triad cards"
         },
         {
-          "card": "Xande Card",
+          name: "Xande Card",
           "rarity": "★★★★",
           "type": "None",
           "opponent": "Klynthota",
           "unlock": "Drops from Syrcus Tower"
         },
         {
-          "card": "Yotsuyu Card",
+          name: "Yotsuyu Card",
           "rarity": "★★★★",
           "type": "Garlean",
           "opponent": "Imperial Soldier",
           "unlock": ""
         },
         {
-          "card": "9S",
+          name: "9S",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Copied Factory"
         },
         {
-          "card": "Archaeotania",
+          name: "Archaeotania",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Dream Triad Card"
         },
         {
-          "card": "Archbishop Thordan VII Card",
+          name: "Archbishop Thordan VII Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Minstrel's Ballad: Thordan's Reign"
         },
         {
-          "card": "Ardbert Card",
+          name: "Ardbert Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Complete Triple Team VIII Achievement"
         },
         {
-          "card": "Bahamut Card",
+          name: "Bahamut Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "King Elmer III",
           "unlock": ""
         },
         {
-          "card": "Bartz Klauser Card",
+          name: "Bartz Klauser Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Lewena",
           "unlock": "Drops from Battle in the Big Keep, Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Cecil Harvey Card",
+          name: "Cecil Harvey Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Spinner's Pull Triple Triad Tournament Reward, Drops from Platinum Triad Card"
         },
         {
-          "card": "Cloud of Darkness Card",
+          name: "Cloud of Darkness Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Klynthota",
           "unlock": "Drops from World of Darkness"
         },
         {
-          "card": "Cloud Strife Card",
+          name: "Cloud Strife Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Triple Triad Trader for 1,000,000 MGP."
         },
         {
-          "card": "Firion Card",
+          name: "Firion Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
         },
         {
-          "card": "Gaius van Baelsar Card",
+          name: "Gaius van Baelsar Card",
           "rarity": "★★★★★",
           "type": "Garlean",
           "opponent": "Indolent Imperial",
           "unlock": "Dropped from The Praetorium"
         },
         {
-          "card": "Gosetsu",
+          name: "Gosetsu",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Triple-Decker VIII Achievement"
         },
         {
-          "card": "Hades Card",
+          name: "Hades Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Dying Gasp, The Minstrel's Ballad: Hades's Elegy"
         },
         {
-          "card": "Hien Card",
+          name: "Hien Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Kiuka",
           "unlock": ""
         },
         {
-          "card": "Hildibrand & Nashu Mhakaracca Card",
+          name: "Hildibrand & Nashu Mhakaracca Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Hab, Helmhart",
           "unlock": ""
         },
         {
-          "card": "Hisui and Kurenai Card",
+          name: "Hisui and Kurenai Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Isobe",
           "unlock": ""
         },
         {
-          "card": "Hraesvelgr Card",
+          name: "Hraesvelgr Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Sohr Khai"
         },
         {
-          "card": "Kan-E-Senna Card",
+          name: "Kan-E-Senna Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Vorsaile Heuloix",
           "unlock": ""
         },
         {
-          "card": "Lightning Card",
+          name: "Lightning Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Tataru",
           "unlock": "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
         },
         {
-          "card": "Merlwyb Bloefhiswyn Card",
+          name: "Merlwyb Bloefhiswyn Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "R'ashaht Rhiki, Mordyn",
           "unlock": ""
         },
         {
-          "card": "Midgardsormr Card",
+          name: "Midgardsormr Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Triple-Decker IV Achievement by obtaining 90 unique Triple Triad Cards."
         },
         {
-          "card": "Nanamo Ul Namo Card",
+          name: "Nanamo Ul Namo Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Triple Triad Trader for 400,000 MGP, Drops from Platinum Triad Card"
         },
         {
-          "card": "Nidhogg Card",
+          name: "Nidhogg Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from the final boss of The Aery dungeon."
         },
         {
-          "card": "Noctis Lucis Caelum Card",
+          name: "Noctis Lucis Caelum Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Purchased from Ironworks Vendor for 10,000 MPG, during A Nocturne for Heroes"
         },
         {
-          "card": "Omega Card",
+          name: "Omega Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Alphascape V3.0 & V4.0"
         },
         {
-          "card": "Onion Knight Card",
+          name: "Onion Knight Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Lewena",
           "unlock": "Drops from World of Darkness, Drops randomly from Mythril Triad Card"
         },
         {
-          "card": "Raubahn Aldynn Card",
+          name: "Raubahn Aldynn Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Swift",
           "unlock": ""
         },
         {
-          "card": "Raubahn and Pipin Card",
+          name: "Raubahn and Pipin Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Bought from the Triple Triad Trader for 400,000 MGP"
         },
         {
-          "card": "Regula van Hydrus Card",
+          name: "Regula van Hydrus Card",
           "rarity": "★★★★★",
           "type": "Garlean",
           "opponent": "Idle Imperial",
           "unlock": "Random from Imperial Triad Card"
         },
         {
-          "card": "Shantotto Card",
+          name: "Shantotto Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Kumite Kumite Kumite Achievement by winning 30 Tournament Matches"
         },
         {
-          "card": "Sophia Card",
+          name: "Sophia Card",
           "rarity": "★★★★★",
           "type": "Primal",
           "opponent": "",
           "unlock": "Drops from Containment Bay P1T6 and Containment Bay P1T6 (Extreme)"
         },
         {
-          "card": "Squall Leonhart Card",
+          name: "Squall Leonhart Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Triple Team II Achievement by defeating 30 unique NPCs"
         },
         {
-          "card": "Stormblood Alphinaud and Alisaie Card",
+          name: "Stormblood Alphinaud and Alisaie Card",
           "rarity": "★★★★★",
           "type": "Scion",
           "opponent": "Mero Roggo",
           "unlock": ""
         },
         {
-          "card": "Terra Branford Card",
+          name: "Terra Branford Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Lewena, Hall Overseer",
           "unlock": "Drops from The Dragon's Neck"
         },
         {
-          "card": "Tidus Card",
+          name: "Tidus Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
         },
         {
-          "card": "Ultima, the High Seraph Card",
+          name: "Ultima, the High Seraph Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from The Orbonne Monastery"
         },
         {
-          "card": "Vaan Card",
+          name: "Vaan Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Obtain Wheel of Fortune V Achievement by winning 300 matches with Roulette rules."
         },
         {
-          "card": "Warrior of Light Card",
+          name: "Warrior of Light Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Yiazmat Card",
+          name: "Yiazmat Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "The Ridorana Lighthouse"
         },
         {
-          "card": "Yojimbo & Daigaro Card",
+          name: "Yojimbo & Daigaro Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "Hokushin",
           "unlock": ""
         },
         {
-          "card": "Zenos yae Galvus Card",
+          name: "Zenos yae Galvus Card",
           "rarity": "★★★★★",
           "type": "Garlean",
           "opponent": "",
           "unlock": "Ala Mhigo"
         },
         {
-          "card": "Zidane Tribal Card",
+          name: "Zidane Tribal Card",
           "rarity": "★★★★★",
           "type": "None",
           "opponent": "",
           "unlock": "Drops from Gold Triad Card"
         },
         {
-          "card": "Zurvan Card",
+          name: "Zurvan Card",
           "rarity": "★★★★★",
           "type": "Primal",
           "opponent": "",

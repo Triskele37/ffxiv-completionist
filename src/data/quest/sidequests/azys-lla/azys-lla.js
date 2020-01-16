@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const AzysLla = {
     name: "Azys Lla",
+	storageKey: "quest.side-quest.azys-lla",
 	columns: QuestColumnConfig,
     tasks: [
         {

@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const MorDhona = {
     name: "Mor Dhona",
+	storageKey: "quest.side-quest.mor-dhonan",
 	columns: QuestColumnConfig,
     tasks: [
         {

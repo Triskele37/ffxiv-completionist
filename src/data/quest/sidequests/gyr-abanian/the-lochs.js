@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheLochs = {
     name: "The Lochs",
+	storageKey: "quest.side-quest.gyr-abanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

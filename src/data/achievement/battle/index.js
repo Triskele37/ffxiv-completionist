@@ -10,6 +10,7 @@ import { TreasureHuntBattleAchievements } from "./treasurehunt";
 
 export const BattleAchievements = {
     name: 'Battle',
+	storageKey: "achievement.battle",
     columns: AchievementColumnConfig,
     subGroups: [
         DungeonBattleAchievements,

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const RivalWingsPVPAchievements = {
     name: 'Rival Wings',
+	storageKey: "achievement.pvp.rival-wings",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Participate in a Rival Wings campaign.",

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const TrialBattleAchievements = {
 	name: 'Trials',
+	storageKey: "achievement.battle.trials",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Defeat Ifrit in the Bowl of Embers (Extreme).",

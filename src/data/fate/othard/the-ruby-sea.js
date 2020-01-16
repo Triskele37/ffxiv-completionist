@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const TheRubySeaFATEs = {
     name: "The Ruby Sea",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

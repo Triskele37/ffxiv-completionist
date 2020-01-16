@@ -2,6 +2,7 @@ import { LeveQuestColumnConfig } from "../columnConfigs";
 
 export const BattlecraftLeves = {
     name: "Battlecraft",
+	storageKey: "quest.levequests.battlecraft",
     columns: LeveQuestColumnConfig.concat({ header: "Company", key: "company" }),
     tasks: [
         //------------------------------------------------------------------ 1-5

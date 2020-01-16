@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const TheFringes = {
     name: "The Fringes",
+	storageKey: "quest.side-quest.gyr-abanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

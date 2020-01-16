@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const CurrencyItemAchievements = {
     name: 'Currency',
+	storageKey: "achievement.item.currency",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Earn a cumulative total of 100 gil from levequests.",

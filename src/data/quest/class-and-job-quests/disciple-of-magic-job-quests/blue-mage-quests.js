@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const BlueMageQuests = {
     name: "Blue Mage",
+	storageKey: "quest.class-and-job.blue-mage",
 	columns: QuestColumnConfig,
     tasks: [
         {

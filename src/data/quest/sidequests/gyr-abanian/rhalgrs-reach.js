@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const RhalgrsReach = {
     name: "Rhalgr's Reach",
+	storageKey: "quest.side-quest.gyr-abanian",
 	columns: QuestColumnConfig,
     tasks: [
         {

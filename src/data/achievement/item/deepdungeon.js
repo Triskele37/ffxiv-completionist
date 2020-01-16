@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DeepDungeonItemAchievements = {
     name: 'Deep Dungeon',
+	storageKey: "achievement.item.deep-dungeon",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Obtain a Padjali blade and a Padjali shield.",

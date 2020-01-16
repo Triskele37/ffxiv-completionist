@@ -6,6 +6,7 @@ export const LoggingLog = {
     subGroups: [
 		LoggingLogSpecial,
     ],
+	storageKey: "gathering-log.logging",
     columns: GatheringColumnConfig,
     tasks: [
         //------------------------------------------------------- 1-5

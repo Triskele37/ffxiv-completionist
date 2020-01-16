@@ -8,6 +8,7 @@ import { MinerGatheringAchievements } from "./miner";
 
 export const GatheringAchievements = {
     name: 'Gathering',
+	storageKey: "achievement.gathering",
     columns: AchievementColumnConfig,
     subGroups: [
         BotanistGatheringAchievements,

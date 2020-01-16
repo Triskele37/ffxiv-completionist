@@ -23,20 +23,27 @@
             completed: 'N'
         }),
         props: {
-            task: Object
+            task: Object,
+            group: String,
         },
         mounted: function() {
-            this.completed = store.get(this.task.name) || 'N';
+            this.completed = store.get(this.storageKey) || 'N';
+        },
+        computed: {
+            storageKey: function() {
+                return `${this.group}.${this.task.name}`;
+            }
         },
         methods: {
             onTaskCompleteClick: function() {
                 const completed = this.completed === 'N' ? 'Y' : 'N';
 
-                store.set(this.task.name, completed);
+                store.set(this.storageKey, completed);
                 this.completed = completed;
+                console.log(store.store);
             },
             onExcludeTaskClick: function() {
-                store.set(this.task.name, 'X');
+                store.set(this.storageKey, 'X');
                 this.completed = 'X';
             }
         }

@@ -2,6 +2,7 @@ import { FATEColumnConfig } from "../columnConfigs";
 
 export const NorthernThanalanFATEs = {
     name: "Northern",
+	storageKey: "duty.fate",
     columns: FATEColumnConfig,
     tasks: [
         {

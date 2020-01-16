@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const DomanAdventurersGuild = {
     name: "Doman Adventurers' Guild",
+	storageKey: "quest.side-quest.side-story.doman-adventurers-guild",
 	columns: QuestColumnConfig,
     tasks: [
         {

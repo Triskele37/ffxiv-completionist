@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const SightseeingExplorationAchievements = {
     name: 'Sightseeing',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Complete entries 1-20 in your sightseeing log.",

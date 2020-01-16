@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const WolvesDenPVPAchievements = {
 	name: "The Wolves' Den",
+	storageKey: "achievement.pvp.the-wolves-den",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Participate in your first match in the Feast or the Fold.",

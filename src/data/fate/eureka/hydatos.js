@@ -2,6 +2,7 @@ import { EurekaColumnConfig } from "../columnConfigs";
 
 export const HydatosFATEs = {
     name: "Hydatos",
+	storageKey: "duty.fate",
     columns: EurekaColumnConfig,
     tasks: [
         {

@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const ThanalanExplorationAchievements = {
     name: 'Thanalan',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Visit western Thanalan and unlock the area map.",

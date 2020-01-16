@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const RankingsPVPAchievements = {
 	name: 'Rankings',
+	storageKey: "achievement.pvp.rankings",
 	columns: AchievementColumnConfig,
 	tasks: [{
 		description: "Complete a Feast season ranked #1 (solo).",

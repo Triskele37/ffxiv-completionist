@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const LaNosceaExplorationAchievements = {
     name: 'La Noscea',
+	storageKey: "achievement.exploration",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Visit middle La Noscea and unlock the area map.",

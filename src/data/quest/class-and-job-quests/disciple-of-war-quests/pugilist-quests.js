@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const PugilistQuests = {
     name: "Pugilist",
+	storageKey: "quest.class-and-job.pugilist",
 	columns: QuestColumnConfig,
     tasks: [
         {

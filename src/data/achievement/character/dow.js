@@ -4,6 +4,7 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 export const DiscipleOfWarCharacterAchievements = {
     name: 'Disciple of War',
+	storageKey: "achievement.character.dow",
     columns: AchievementColumnConfig,
     tasks: [{
         description: "Achieve gladiator level 10.",

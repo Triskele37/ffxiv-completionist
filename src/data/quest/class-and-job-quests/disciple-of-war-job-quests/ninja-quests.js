@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const NinjaQuests = {
     name: "Ninja",
+	storageKey: "quest.class-and-job.ninja",
 	columns: QuestColumnConfig,
     tasks: [
         {

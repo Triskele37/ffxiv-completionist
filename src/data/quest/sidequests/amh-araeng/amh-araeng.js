@@ -2,6 +2,7 @@ import { QuestColumnConfig } from "../../columnConfigs";
 
 export const AmhAraeng = {
     name: "Amh Araeng",
+	storageKey: "quest.side-quest.amh-araeng",
 	columns: QuestColumnConfig,
     tasks: [
         {
