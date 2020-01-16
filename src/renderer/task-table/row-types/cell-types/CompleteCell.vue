@@ -1,7 +1,8 @@
 <template>
     <td
         class="completed-cell"
-        @click="onTaskCompleteClick(task)"
+        @click="onTaskCompleteClick"
+        @contextmenu.prevent="onExcludeTaskClick"
         :class="{
             'completed-cell-y': completed === 'Y',
             'completed-cell-n': completed === 'N' || !completed,
@@ -28,18 +29,16 @@
             this.completed = store.get(this.task.name) || 'N';
         },
         methods: {
-            onTaskCompleteClick: function () {
-                let newComplete;
+            onTaskCompleteClick: function() {
+                const completed = this.completed === 'N' ? 'Y' : 'N';
 
-                switch (this.completed) {
-                    case 'Y': newComplete = 'X'; break;
-                    case 'X': newComplete = 'N'; break;
-                    default: newComplete = 'Y';
-                }
-
-                store.set(this.task.name, newComplete);
-                this.completed = newComplete;
+                store.set(this.task.name, completed);
+                this.completed = completed;
             },
+            onExcludeTaskClick: function() {
+                store.set(this.task.name, 'X');
+                this.completed = 'X';
+            }
         }
     };
 </script>
