@@ -10,31 +10,31 @@ export const QuarryingLogSpecial = {
             level: "60★",
             name: "Violet Quartz",
             zone: "Coerthas Western Highlands",
-            locations: ["The Convictory"]
+            location: "The Convictory"
         }, {
             level: "60★",
             name: "Astral Moraine",
             zone: "Coerthas Western Highlands",
-            locations: ["Hemlock"]
+            location: "Hemlock"
         },
         //------------------------------------------------------- Dravanian Folklore
         {
             level: "60★",
             name: "Blue Quartz",
             zone: "The Dravanian Hinterlands",
-            locations: ["The Answering Quarter"]
+            location: "The Answering Quarter"
         }, {
             level: "60★★★",
             name: "Zeolite Ore",
             zone: "The Dravanian Hinterlands",
-            locations: ["Quickspill Delta"]
+            location: "Quickspill Delta"
         },
         //------------------------------------------------------- Abalathian Folklore
         {
             level: "60★",
             name: "Sun Mica",
             zone: "The Sea of Clouds",
-            locations: ["The Nidifice"]
+            location: "The Nidifice"
         },
         //------------------------------------------------------- Gyr Abanian Folklore
         //------------------------------------------------------- Othardian Folklore
@@ -44,27 +44,27 @@ export const QuarryingLogSpecial = {
             level: "15",
             name: "Skybuilders' Fine Sand",
             zone: "Central Thanalan",
-            locations: ["Black Brush"]
+            location: "Black Brush"
         }, {
             level: "25",
             name: "Skybuilders' Iron Sand",
             zone: "Eastern Thanalan",
-            locations: ["Drybone"]
+            location: "Drybone"
         }, {
             level: "55",
             name: "Skybuilders' Mythrite Sand",
             zone: "Coerthas Western Highlands",
-            locations: ["Riversmeet"]
+            location: "Riversmeet"
         }, {
             level: "70",
             name: "Skybuilders' Durium Sand",
             zone: "The Azim Steppe",
-            locations: ["Nhaama's Retreat"]
+            location: "Nhaama's Retreat"
         }, {
             level: "80",
             name: "Skybuilders' Truegold Sand",
             zone: "Kholusia",
-            locations: ["The Duergar Mountains"]
+            location: "The Duergar Mountains"
         },
     ]
 };

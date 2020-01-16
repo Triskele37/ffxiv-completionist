@@ -11,56 +11,56 @@ export const LoggingLogSpecial = {
             level: "60★",
             name: "Old-growth Camphorwood Log",
             zone: "The Churning Mists",
-            locations: ["Weston Waters"]
+            location: "Weston Waters"
         }, {
             level: "60★",
             name: "Crystalized Sap",
             zone: "The Churning Mists",
-            locations: ["Eil Tohm"]
+            location: "Eil Tohm"
         }, {
             level: "60★★★",
             name: "Brown Mushroom",
             zone: "The Churning Mists",
-            locations: ["Greensward"]
+            location: "Greensward"
         }, {
             level: "60★★★",
             name: "Teak Log",
             zone: "The Dravanian Hinterlands",
-            locations: ["The Answering Quarter"]
+            location: "The Answering Quarter"
         },
         //------------------------------------------------------- Abalathian Folklore
         {
             level: "60★",
             name: "Honeydew Almonds",
             zone: "The Sea of Clouds",
-            locations: ["The Gauntlet"]
+            location: "The Gauntlet"
         }, {
             level: "60★",
             name: "Wattle Bark",
             zone: "Azys Lla",
-            locations: ["Alpha Quadrant"]
+            location: "Alpha Quadrant"
         },
         //------------------------------------------------------- Gyr Abanian Folklore
         {
             level: "70★",
             name: "Torreya Log",
             zone: "The Lochs",
-            locations: ["Stacks"]
+            location: "Stacks"
         }, {
             level: "70★★",
             name: "Black Willow Log",
             zone: "The Fringes",
-            locations: ["Pike Falls"]
+            location: "Pike Falls"
         }, {
             level: "70★★",
             name: "Hardened Veteran Tree Sap",
             zone: "The Fringer",
-            locations: ["Pike Falls"]
+            location: "Pike Falls"
         }, {
             level: "70★★★",
             name: "Urunday Log",
             zone: "The Peaks",
-            locations: ["Sleeping Stones"]
+            location: "Sleeping Stones"
         },
         //------------------------------------------------------- Othardian Folklore
         //------------------------------------------------------- Vrandtic Folklore
@@ -68,44 +68,44 @@ export const LoggingLogSpecial = {
             level: "80★",
             name: "Sandalwood Log",
             zone: "The Rak'tika Greatwood",
-            locations: ["Mjrl's Regret"]
+            location: "Mjrl's Regret"
         }, {
             level: "80★",
             name: "Sandalwood Sap",
             zone: "The Rak'tika Greatwood",
-            locations: ["Mjrl's Regret"]
+            location: "Mjrl's Regret"
         },
         //------------------------------------------------------- Ishgard Restoration
         {
             level: "5",
             name: "Skybuilders' Yew Log",
             zone: "East Shroud",
-            locations: ["The Honey Yard"]
+            location: "The Honey Yard"
         }, {
             level: "35",
             name: "Skybuilders' Ash Log",
             zone: "Central Shroud",
-            locations: ["Sorrel Haven"]
+            location: "Sorrel Haven"
         }, {
             level: "60",
             name: "Skybuilders' Camphorwood Log",
             zone: "The Churning Mists",
-            locations: ["Gron Rhei"]
+            location: "Gron Rhei"
         }, {
             level: "65",
             name: "Skybuilders' Urunday Log",
             zone: "The Peaks",
-            locations: ["Gyrmm & Enid"]
+            location: "Gyrmm & Enid"
         }, {
             level: "80",
             name: "Skybuilders' White Ash Log",
             zone: "The Rak'tika Greatwood",
-            locations: ["Bowrest"]
+            location: "Bowrest"
         }, {
             level: "80",
             name: "Skybuilders' Resin",
             zone: "The Rak'tika Greatwood",
-            locations: ["Bowrest"]
+            location: "Bowrest"
         },
     ]
 };

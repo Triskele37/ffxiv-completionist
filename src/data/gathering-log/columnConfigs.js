@@ -2,7 +2,7 @@ export const GatheringColumnConfig = [
     { header: "Level", key: "level", filterable: true, filterType: 'number' },
     { header: "Name", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
-    { header: "Locations", key: "locations" },
+    { header: "Location", key: "location" },
 ];
 
 export const FishingLogColumnConfig = [
