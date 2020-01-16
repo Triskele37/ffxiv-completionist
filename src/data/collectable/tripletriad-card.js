@@ -3,7 +3,14 @@ module.exports = {
 	storageKey: "collectable.triple-triad.cards",
     columns: [
 		{ header: 'Card', key: 'name' },
-		{ header: 'Rarity', key: 'rarity', filterable: true },
+		{
+            header: 'Rarity',
+            key: 'rarity',
+            filterable: true,
+            styles: {
+                centered: true
+            }
+        },
 		{ header: 'Type', key: 'type', filterable: true },
 		{ header: 'Opponent', key: 'opponent', filterable: true },
 		{ header: 'Method of Unlock', key: 'unlock' },

@@ -9,7 +9,13 @@
                 :task="task"
             />
 
-            <td v-for="column in selectedGroup.columns">
+            <td
+                class="data-cell"
+                v-for="column in selectedGroup.columns"
+                :class="{
+                    centered: column.styles ? column.styles.centered : false
+                }"
+            >
                 {{task[column.key]}}
             </td>
 
@@ -39,5 +45,10 @@
         max-width: 25vw;
         padding: 0 10px;
         white-space: normal;
+    }
+
+    /* Conditional Styling */
+    .data-cell.centered {
+        text-align: center;
     }
 </style>

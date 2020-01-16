@@ -2,7 +2,13 @@ export const TheMaskedCarnivale = {
     name: "The Masked Carnivale",
 	storageKey: "logs.blue-mage.carnivale",
     columns: [
-        { header: "Level", key: "level" },
+        {
+            header: "Level",
+            key: "level",
+            styles: {
+                centered: true
+            }
+        },
         { header: "Name", key: "name" },
         { header: "Standard Time", key: "standardTime" },
         { header: "Ideal Time", key: "idealTime" },

@@ -2,7 +2,14 @@ module.exports = {
     name: "Triple Triad - Opponent",
 	storageKey: "collectable.triple-triad.opponents",
     columns: [
-		{ header: 'Deck Strength', key: 'deckstrength', filterable: true },
+		{
+            header: 'Deck Strength',
+            key: 'deckstrength',
+            filterable: true,
+            styles: {
+                centered: true
+            }
+        },
 		{ header: 'Opponent', key: 'name' },
 		{ header: 'Zone', key: 'zone', filterable: true },
 		{ header: 'Location', key: 'location' },
@@ -10,7 +17,15 @@ module.exports = {
 		{ header: 'Drops', key: 'drops' },
 		{ header: 'Time Available', key: 'timeavailable', filterable: true },
 		{ header: 'Req.', key: 'prerequisite' },
-		{ header: 'Fee (MGP)', key: 'fee', filterable: true, filterType: 'number' },
+		{
+            header: 'Fee (MGP)',
+            key: 'fee',
+            filterable: true,
+            filterType: 'number',
+            styles: {
+                centered: true
+            }
+        },
 	],
     tasks:[
         {
