@@ -1,13 +1,9 @@
-module.exports = {
+import { Carpenter } from "./carpenter/index.js";
+
+export const Crafting = {
     name: 'Crafting',
-    subGroups: [
-        { name: 'CRP' },
-        { name: 'ARM' },
-        { name: 'BSM' },
-        { name: 'GSM' },
-        { name: 'LTW' },
-        { name: 'WVR' },
-        { name: 'ALC' },
-        { name: 'CUL' }
+    subGroups:[
+       Carpenter
+
     ]
 };
