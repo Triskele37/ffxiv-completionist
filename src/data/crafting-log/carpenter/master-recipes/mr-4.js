@@ -1,0 +1,11 @@
+import { CraftingLogColumnConfig } from "../../columnConfigs";
+
+
+export const Carpenter_MasterRecipe_4 = {
+  name: "Master Recipe IV",
+  storageKey: "crafting-log.carpenter.master-recipes.master-4",
+  columns: CraftingLogColumnConfig,
+  tasks: [
+
+  ]
+}
