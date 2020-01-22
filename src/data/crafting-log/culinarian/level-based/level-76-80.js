@@ -209,6 +209,5 @@ export const CulinarianLevels_76_80 = {
       "catalysts": "7 Fire Crystal, 7 Water Crystal",
       "special": "Collectable"
     }
-   ]
   ]
 }
