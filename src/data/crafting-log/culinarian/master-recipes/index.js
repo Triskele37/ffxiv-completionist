@@ -5,7 +5,6 @@ import { Culinarian_MasterRecipe_4 } from "./mr-4";
 import { Culinarian_MasterRecipe_5 } from "./mr-5";
 import { Culinarian_MasterRecipe_6 } from "./mr-6";
 import { Culinarian_MasterRecipe_7 } from "./mr-7";
-import { Culinarian_MasterRecipe_Other } from "./other";
 
 export const CulinarianMasterRecipe = {
     name: 'Master Recipes',
@@ -17,6 +16,5 @@ export const CulinarianMasterRecipe = {
       Culinarian_MasterRecipe_5,
       Culinarian_MasterRecipe_6,
       Culinarian_MasterRecipe_7,
-      Culinarian_MasterRecipe_Other,
     ]
 };
