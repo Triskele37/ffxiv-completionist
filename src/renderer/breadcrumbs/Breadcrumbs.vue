@@ -1,6 +1,12 @@
 <template>
     <div id="breadcrumbs">
-        {{output}}
+        <span
+            v-for="crumb, index in breadcrumbs"
+            @click="onClickCrumb(crumb)"
+        >
+            <span class="breadcrumb">{{crumb}}</span>
+            <span>{{index < breadcrumbs.length - 1 ? '  >  ' : ''}}</span>
+        </span>
     </div>
 </template>
 
@@ -11,9 +17,11 @@
         computed: {
             ...mapState('navigation', {
                 breadcrumbs: 'breadcrumbs'
-            }),
-            output: function() {
-                return this.breadcrumbs.join('  >  ');
+            })
+        },
+        methods: {
+            onClickCrumb: function(crumb) {
+                this.$store.commit('navigation/GOTO_CRUMB', crumb);
             }
         }
     };
@@ -24,5 +32,9 @@
         border-bottom: 1px solid;
         margin: 0 10px;
         height: 20px;
+    }
+
+    .breadcrumb {
+        cursor: pointer;
     }
 </style>

@@ -4,7 +4,7 @@
             v-for="group in groups"
             :key="group.name"
             :show="true"
-            :degree="0"
+            :degree="1"
             :group="group"
         />
     </span>

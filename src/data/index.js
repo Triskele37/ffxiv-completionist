@@ -26,7 +26,7 @@ import { Duty } from "./duty";
 import { Quests } from "./quest";
 
 export const data = {
-    name: "Total Completion",
+    name: "Overall",
     subGroups: [
         Achievements,
         Collectable,
