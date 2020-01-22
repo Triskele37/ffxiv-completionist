@@ -17,7 +17,7 @@
     export default {
         name: 'nav-drawer',
         data: () => ({
-            groups: data
+            groups: data.subGroups
         }),
         components: {
             'nav-group': NavGroup

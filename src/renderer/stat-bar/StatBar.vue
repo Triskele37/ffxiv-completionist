@@ -1,17 +1,21 @@
 <template>
     <div id="stat-bar">
-        <div v-if="selectedGroup && selectedGroup.tasks">
-            Completed: {{completed}} / {{total}}
-            <br/>
-            Total: {{selectedGroup.tasks.length}}
-        </div>
+        <summary-line :group="allData" />
     </div>
 </template>
 
 <script>
+    import { data } from '../../data';
     import { mapState } from 'vuex';
+    import SummaryLine from '../section-summary/SummaryLine';
 
     export default {
+        data: () => ({
+            allData: data
+        }),
+        components: {
+            'summary-line': SummaryLine
+        },
         computed: {
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup'

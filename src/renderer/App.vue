@@ -5,24 +5,57 @@
         <span id="right-container">
             <stat-bar />
             <breadcrumbs />
-            <task-table />
+
+            <!----------- Summary on no selected group ----------->
+            <section-summary
+                v-if="!selectedGroup && !showSummary"
+                :group="allData"
+            />
+
+            <!----------- Summary when a group is selected ----------->
+            <section-summary
+                v-if="showSummary"
+                :group="selectedGroup"
+            />
+
+            <!----------- Task Table ----------->
+            <task-table v-if="!!selectedGroup && !!selectedGroup.tasks"/>
         </span>
     </div>
 </template>
 
 <script>
+    import { mapState } from 'vuex';
+
+    import { data } from '../data';
     import NavDrawer from './nav-drawer/NavDrawer';
     import StatBar from './stat-bar/StatBar';
     import Breadcrumbs from './breadcrumbs/Breadcrumbs';
+    import SectionSummary from './section-summary/SectionSummary';
     import TaskTable from './task-table/TaskTable';
 
     export default {
+        data: () => ({
+            allData: data
+        }),
         components: {
             'nav-drawer': NavDrawer,
             'stat-bar': StatBar,
             'breadcrumbs': Breadcrumbs,
+            'section-summary': SectionSummary,
             'task-table': TaskTable,
         },
+        computed: {
+            ...mapState('navigation', {
+                selectedGroup: 'selectedGroup'
+            }),
+            showSummary: function() {
+                if(!this.selectedGroup) return false;
+                if(!!this.selectedGroup.tasks) return false;
+
+                return !!this.selectedGroup.subGroups;
+            }
+        }
     };
 </script>
 

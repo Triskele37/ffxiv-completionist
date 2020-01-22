@@ -7,7 +7,7 @@ import { Leatherworker } from "./leatherworker";
 import { Weaver } from "./weaver";
 
 
-export const Crafting = {
+export const CraftingLogs = {
     name: 'Crafting',
     subGroups:[
         Alchemist,

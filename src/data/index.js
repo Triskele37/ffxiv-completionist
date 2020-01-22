@@ -18,19 +18,23 @@
 
 import { Achievements } from "./achievement";
 import { Collectable } from "./collectable";
+import { CraftingLogs } from "./crafting-log";
 import { Logs } from "./logs";
 import { FATEs } from "./fate";
 import { GatheringLogs } from "./gathering-log";
 import { Duty } from "./duty";
 import { Quests } from "./quest";
 
-export const data = [
-    Achievements,
-    Collectable,
-    require("./crafting-log"),
-    Logs,
-    FATEs,
-    GatheringLogs,
-    Duty,
-    Quests
-];
+export const data = {
+    name: "Total Completion",
+    subGroups: [
+        Achievements,
+        Collectable,
+        CraftingLogs,
+        Logs,
+        FATEs,
+        GatheringLogs,
+        Duty,
+        Quests
+    ]
+};
