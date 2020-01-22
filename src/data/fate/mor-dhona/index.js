@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const MorDhonaFATEs = {
-    name: "Mor Dhona",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const MorDhonaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.mor-dhona`;
+
+    return {
+        name: "Mor Dhona",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "44",
         	name: "Mud About You",
         	location: "Fogfens (14,12)",
@@ -75,6 +77,6 @@ export const MorDhonaFATEs = {
         	name: "Another Notch on the Torch",
         	location: "North Silvertear (31,5)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

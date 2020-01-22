@@ -11,27 +11,27 @@ import { NorvrandtFATEs } from "./norvrandt";
 import { OthardFATEs } from "./othard";
 import { ThanalanFATEs } from "./thanalan";
 
-export const FATEs = {
-    name: "FATE",
-    subGroups: [
-        AbalathiasSpineFATEs,
-        BlackShroudFATEs,
-        CoerthasFATEs,
-        DiademFATEs,
-        DravaniaFATEs,
-        EurekaFATEs,
-        GyrAbaniaFATEs,
-        LaNosceaFATEs,
-        MorDhonaFATEs,
-        NorvrandtFATEs,
-        OthardFATEs,
-        ThanalanFATEs,
-    ]
+/* https://xivapi.com/Fate */
+
+export const FATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.fate`;
+
+    return {
+        name: "FATE",
+        storageKey,
+        subGroups: [
+            AbalathiasSpineFATEs(storageKey),
+            BlackShroudFATEs(storageKey),
+            CoerthasFATEs(storageKey),
+            DiademFATEs(storageKey),
+            DravaniaFATEs(storageKey),
+            EurekaFATEs(storageKey),
+            GyrAbaniaFATEs(storageKey),
+            LaNosceaFATEs(storageKey),
+            MorDhonaFATEs(storageKey),
+            NorvrandtFATEs(storageKey),
+            OthardFATEs(storageKey),
+            ThanalanFATEs(storageKey),
+        ]
+    };
 };
-
-/*
-\r\n(.*)\t(.*)\t(.*)\t(.*)
-{\r\n\tlevel: $1,\r\n\tname: "$2",\r\n\tlocation: "$3",\r\n\ttype: "$4"\r\n},
-
-https://xivapi.com/Fate
-*/

@@ -10,19 +10,24 @@ import { SamuraiQuests } from "./samurai-quests";
 import { GunbreakerQuests } from "./gunbreaker-quests";
 import { DancerQuests } from "./dancer-quests";
 
-export const DiscipleOfWarJobQuests = {
-    name: "Disciple of War Job",
-    subGroups: [
-        PaladinQuests,
-        MonkQuests,
-        WarriorQuests,
-        DragoonQuests,
-        BardQuests,
-        NinjaQuests,
-        DarkKnightQuests,
-        MachinistQuests,
-        SamuraiQuests,
-        GunbreakerQuests,
-        DancerQuests,
-    ]
+export const DiscipleOfWarJobQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.disciple-of-war-job`;
+
+    return {
+        name: "Disciple of War Job",
+        storageKey,
+        subGroups: [
+            PaladinQuests(storageKey),
+            MonkQuests(storageKey),
+            WarriorQuests(storageKey),
+            DragoonQuests(storageKey),
+            BardQuests(storageKey),
+            NinjaQuests(storageKey),
+            DarkKnightQuests(storageKey),
+            MachinistQuests(storageKey),
+            SamuraiQuests(storageKey),
+            GunbreakerQuests(storageKey),
+            DancerQuests(storageKey),
+        ]
+    };
 };

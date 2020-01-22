@@ -1,11 +1,13 @@
 import { HallOfNoviceColumnConfig } from "../columnConfigs";
 
-export const HallOfNoviceTank = {
-    name: "Tank",
-	storageKey: "duty.hall-of-novice.tank",
-    columns: HallOfNoviceColumnConfig,
-    tasks: [
-        {
+export const HallOfNoviceTank = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.tank`;
+
+    return {
+        name: "Tank",
+    	storageKey,
+        columns: HallOfNoviceColumnConfig,
+        tasks: [{
             level: "15",
             name: "Avoid Area of Effect Attacks",
             role: "Tank"
@@ -37,6 +39,6 @@ export const HallOfNoviceTank = {
             level: "15",
             name: "Final Exercise",
             role: "Tank"
-        }
-    ]
+        }]
+    };
 };

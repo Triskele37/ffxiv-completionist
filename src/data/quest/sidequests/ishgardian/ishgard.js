@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Ishgard = {
-    name: "Ishgard",
-	storageKey: "quest.side-quest.ishgardian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Ishgard = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ishgard`;
+
+    return {
+        name: "Ishgard",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Remembering Ishgard",
         	npc: "Fury-fearing Elezen",
@@ -120,6 +122,6 @@ export const Ishgard = {
         	name: "Do It for Gilly",
         	npc: "Notrelchamps",
         	unlock: "Accompaniment Node Minion"
-        },
-    ]
+        }]
+    };
 };

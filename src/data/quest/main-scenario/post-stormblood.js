@@ -2,15 +2,18 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
-export const PostStormbloodQuests = {
-    name: "Post-Stormblood",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig.concat({
-        header: "Patch",
-        key: "patch",
-        filterable: true
-    }),
-    tasks: [
+export const PostStormbloodQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.post-stormblood`;
+
+    return {
+        name: "Post-Stormblood",
+    	storageKey,
+        columns: QuestColumnConfig.concat({
+            header: "Patch",
+            key: "patch",
+            filterable: true
+        }),
+        tasks: [
         //------------------------------------------------------------------ The Legend Returns
         {
             level: "70",
@@ -260,6 +263,6 @@ export const PostStormbloodQuests = {
             npc: "Resistance Fighter",
             unlock: "Scion Traveller's Garb",
             patch: "A Requiem For Heroes"
-        },
-    ]
+        }]
+    };
 };

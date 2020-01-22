@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ARRDungeons = {
-    name: "ARR",
-	storageKey: "duty.dungeons",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ARRDungeons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ARR`;
+
+    return {
+        name: "ARR",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "15",
         	iLvlReq: "-",
         	name: "Sastasha",
@@ -191,6 +193,6 @@ export const ARRDungeons = {
         	name: "Amdapor Keep (Hard)",
         	roulette: "Level 50/60",
         	unlock: "For Keep's Sake"
-        },
-    ]
+        }]
+    };
 };

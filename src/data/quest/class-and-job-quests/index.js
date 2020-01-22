@@ -7,16 +7,21 @@ import { DiscipleOfWarJobQuests } from "./disciple-of-war-job-quests";
 import { DiscipleOfMagicJobQuests } from "./disciple-of-magic-job-quests";
 import { RoleQuests } from "./role-quests";
 
-export const ClassAndJob = {
-    name: "Class & Job",
-    subGroups: [
-        DiscipleOfWarQuests,
-        DiscipleOfMagicQuests,
-        DiscipleOfTheHandQuests,
-        DiscipleOfTheLandQuests,
-        CrystallineMeanQuests,
-        DiscipleOfWarJobQuests,
-        DiscipleOfMagicJobQuests,
-        RoleQuests,
-    ]
+export const ClassAndJob = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.class-and-job`;
+
+    return {
+        name: "Class & Job",
+        storageKey,
+        subGroups: [
+            DiscipleOfWarQuests(storageKey),
+            DiscipleOfMagicQuests(storageKey),
+            DiscipleOfTheHandQuests(storageKey),
+            DiscipleOfTheLandQuests(storageKey),
+            CrystallineMeanQuests(storageKey),
+            DiscipleOfWarJobQuests(storageKey),
+            DiscipleOfMagicJobQuests(storageKey),
+            RoleQuests(storageKey),
+        ]
+    };
 };

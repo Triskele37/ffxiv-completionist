@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DragoonQuests = {
-    name: "Dragoon",
-	storageKey: "quest.class-and-job.dragoon",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const DragoonQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dragoon`;
+
+    return {
+        name: "Dragoon",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Eye of the Dragon"
         }, {
@@ -65,6 +67,6 @@ export const DragoonQuests = {
         }, {
         	level: "80",
         	name: "Gone but Not Forgiven"
-        },
-    ]
+        }]
+    };
 };

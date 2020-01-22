@@ -8,17 +8,22 @@ import { EasternThanalan } from "./eastern-thanalan";
 import { SouthernThanalan } from "./southern-thanalan";
 import { NorthernThanalan } from "./northern-thanalan";
 
-export const UlDahn = {
-    name: "Ul'dahn",
-    subGroups: [
-        UlDah,
-        TheWakingSands,
-        ChocoboSquare,
-        TheGoldSaucer,
-        WesternThanalan,
-        CentralThanalan,
-        EasternThanalan,
-        SouthernThanalan,
-        NorthernThanalan,
-    ]
+export const UlDahn = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ul-dahn`;
+
+    return {
+        name: "Ul'dahn",
+        storageKey,
+        subGroups: [
+            UlDah(storageKey),
+            TheWakingSands(storageKey),
+            ChocoboSquare(storageKey),
+            TheGoldSaucer(storageKey),
+            WesternThanalan(storageKey),
+            CentralThanalan(storageKey),
+            EasternThanalan(storageKey),
+            SouthernThanalan(storageKey),
+            NorthernThanalan(storageKey),
+        ]
+    };
 };

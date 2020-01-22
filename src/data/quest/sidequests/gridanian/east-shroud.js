@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EastShroud = {
-    name: "East Shroud",
-	storageKey: "quest.side-quest.gridanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const EastShroud = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.east`;
+
+    return {
+        name: "East Shroud",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "15",
         	name: "Leves of Hawthorne",
         	npc: "Qina Lyehga",
@@ -75,6 +77,6 @@ export const EastShroud = {
         	name: "Windy Wedding",
         	npc: "Elfleda",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

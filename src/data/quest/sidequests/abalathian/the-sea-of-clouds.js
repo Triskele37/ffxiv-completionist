@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheSeaOfClouds = {
-    name: "The Sea of Clouds",
-	storageKey: "quest.side-quest.abalathian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheSeaOfClouds = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-sea-of-clouds`;
+
+    return {
+        name: "The Sea of Clouds",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "The Way of the Dodo",
         	npc: "Caribault",
@@ -185,6 +187,6 @@ export const TheSeaOfClouds = {
         	name: "Reap What You Sow",
         	npc: "Sanu Vanu",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

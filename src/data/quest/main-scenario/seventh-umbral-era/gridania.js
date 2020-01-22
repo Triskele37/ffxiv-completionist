@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GridaniaStartingQuests = {
-    name: "Gridania",
-	storageKey: "quest.main-scenario.gridania",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const GridaniaStartingQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gridania`;
+
+    return {
+        name: "Gridania",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Close to Home",
         	npc: "Mother Miounne",
@@ -150,6 +152,6 @@ export const GridaniaStartingQuests = {
         	name: "Call of the Sea",
         	npc: "Bartholomew",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

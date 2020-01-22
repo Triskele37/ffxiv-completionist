@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ShBTrials = {
-    name: "ShB",
-	storageKey: "duty.trials",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ShBTrials = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ShB`;
+
+    return {
+        name: "ShB",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "73",
         	iLvlReq: "-",
         	name: "The Dancing Plague",
@@ -47,6 +49,6 @@ export const ShBTrials = {
         	boss: "Hades",
         	roulette: "Trials",
         	unlock: "Shadowbringers"
-        },
-    ]
+        }]
+    };
 };

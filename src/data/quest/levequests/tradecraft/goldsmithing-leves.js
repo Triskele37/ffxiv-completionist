@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const GoldsmithingLeves = {
-    name: "Goldsmithing",
-	storageKey: "quest.levequests.goldsmithing",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const GoldsmithingLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.goldsmithing`;
+
+    return {
+        name: "Goldsmithing",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const GoldsmithingLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

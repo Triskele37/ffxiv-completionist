@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=32&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const IxalQuests = {
-    name: "Ixal",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const IxalQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ixal`;
+
+    return {
+        name: "Ixal",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "1",
@@ -228,6 +231,6 @@ export const IxalQuests = {
             name: "Your Gil's No Good Here",
             npc: "Jezul Ahuatan the Second",
             rep: "Honored"
-        },
-    ]
+        }]
+    };
 };

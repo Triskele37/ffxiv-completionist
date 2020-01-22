@@ -1,11 +1,13 @@
 import { HuntColumnConfig } from "../columnConfigs";
 
-export const SBHunts = {
-    name: "SB",
-	storageKey: "duty.the-hunt",
-    columns: HuntColumnConfig,
-    tasks: [
-        {
+export const SBHunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.SB`;
+
+    return {
+        name: "SB",
+    	storageKey,
+        columns: HuntColumnConfig,
+        tasks: [{
             rank: "B",
             name: "Aswang",
             condition: "N/A",
@@ -155,6 +157,6 @@ export const SBHunts = {
             name: "Udumbara",
             condition: "Kill 100 Leshy & 100 Diakka.",
             location: "The Fringes"
-        },
-    ]
+        }]
+    };
 };

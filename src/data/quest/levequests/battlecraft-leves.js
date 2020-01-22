@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../columnConfigs";
 
-export const BattlecraftLeves = {
-    name: "Battlecraft",
-	storageKey: "quest.levequests.battlecraft",
-    columns: LeveQuestColumnConfig.concat({ header: "Company", key: "company" }),
-    tasks: [
+export const BattlecraftLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.battlecraft`;
+
+    return {
+        name: "Battlecraft",
+    	storageKey,
+        columns: LeveQuestColumnConfig.concat({ header: "Company", key: "company" }),
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -1704,6 +1707,6 @@ export const BattlecraftLeves = {
             location: "Saint Coinach's Find",
             npc: "Eidhart",
             company: "Flames"
-        },
-    ]
+        }]
+    };
 };

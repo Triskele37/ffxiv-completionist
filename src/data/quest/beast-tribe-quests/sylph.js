@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=26&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const SylphQuests = {
-    name: "Sylph",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const SylphQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.sylph`;
+
+    return {
+        name: "Sylph",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "42",
@@ -220,6 +223,6 @@ export const SylphQuests = {
             npc: "Moxia",
             rep: "Friendly",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

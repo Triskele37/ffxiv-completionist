@@ -1,15 +1,18 @@
 import { QuestColumnConfig } from "../columnConfigs";
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=4&columns=ID,Name&limit=25
-export const DragonsongQuests = {
-    name: "Dragonsong",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig.concat({
-        header: "Patch",
-        key: "patch",
-        filterable: true
-    }),
-    tasks: [
+export const DragonsongQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dragonsong`;
+
+    return {
+        name: "Dragonsong",
+    	storageKey,
+        columns: QuestColumnConfig.concat({
+            header: "Patch",
+            key: "patch",
+            filterable: true
+        }),
+        tasks: [
         //------------------------------------------------------------------ As Goes Light, So Goes Darkness
         {
             level: "60",
@@ -165,6 +168,6 @@ export const DragonsongQuests = {
             npc: "Aymeric de Borel",
             unlock: "",
             patch: "Revenge of the Horde"
-        },
-    ]
+        }]
+    };
 };

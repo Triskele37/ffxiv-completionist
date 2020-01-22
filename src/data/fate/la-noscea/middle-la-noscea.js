@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const MiddleLaNosceaFATEs = {
-    name: "Middle",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const MiddleLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.middle`;
+
+    return {
+        name: "Middle",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "3",
         	name: "On the Lamb",
         	location: "Zephyr Drift (22,24)",
@@ -80,6 +82,6 @@ export const MiddleLaNosceaFATEs = {
         	name: "A Mad, Mad, Mad Sergeant",
         	location: "Three-malm Bend (17,5)",
         	type: "Defense"
-        }
-    ]
+        }]
+    };
 };

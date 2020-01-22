@@ -1,16 +1,18 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const GoldSaucerFestivities = {
-    name: "Gold Saucer Festivities",
-	storageKey: "quest.other.seasonal",
-    columns: SimpleQuestColumnConfig,
-    tasks: [
-        {
+export const GoldSaucerFestivities = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gold-saucer-festivities`;
+
+    return {
+        name: "Gold Saucer Festivities",
+    	storageKey,
+        columns: SimpleQuestColumnConfig,
+        tasks: [{
             level: "15",
             name: "Trouble in Paradise"
         }, {
             level: "15",
             name: "The Sabotender Shimmy"
-        },
-    ]
+        }]
+    };
 };

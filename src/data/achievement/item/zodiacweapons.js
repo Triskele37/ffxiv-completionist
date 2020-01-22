@@ -2,19 +2,23 @@ import { AchievementColumnConfig } from "../columnConfigs";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Zodiac%20Weapons&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const ZodiacWeaponItemAchievements = {
-    name: 'Zodiac Weapons',
-	storageKey: "achievement.item.zodiac-weapons",
-    columns: AchievementColumnConfig,
-    tasks: [{
-        description: "Obtain a Zodiac Weapon.",
-        name: "Lethal Weapon",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Obtain a Zodiac Weapon Zeta.",
-        name: "The Letter Z",
-        points: 20,
-        reward: "Title: Z"
-    }]
-}
+export const ZodiacWeaponItemAchievements = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.zodiac-weapons`;
+
+    return {
+        name: "Zodiac Weapons",
+    	storageKey,
+        columns: AchievementColumnConfig,
+        tasks: [{
+            description: "Obtain a Zodiac Weapon.",
+            name: "Lethal Weapon",
+            points: 10,
+            reward: "-"
+        }, {
+            description: "Obtain a Zodiac Weapon Zeta.",
+            name: "The Letter Z",
+            points: 20,
+            reward: "Title: Z"
+        }]
+    };
+};

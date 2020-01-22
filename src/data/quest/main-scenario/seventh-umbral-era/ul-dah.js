@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const UlDahStartingQuests = {
-    name: "Ul'Dah",
-	storageKey: "quest.main-scenario.ul-dah",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const UlDahStartingQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ul-dah`;
+
+    return {
+        name: "Ul'Dah",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Close to Home",
         	npc: "Momodi",
@@ -145,6 +147,6 @@ export const UlDahStartingQuests = {
         	name: "Call of the Sea",
         	npc: "Serpent Officer",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

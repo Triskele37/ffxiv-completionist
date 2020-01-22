@@ -1,11 +1,13 @@
 import { BlueMageLogColumnConfig } from "../../columnConfigs";
 
-export const BlueMageTrials = {
-    name: "Trials",
-	storageKey: "logs.blue-mage.log",
-    columns: BlueMageLogColumnConfig,
-    tasks: [
-        {
+export const BlueMageTrials = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.trials`;
+
+    return {
+        name: "Trials",
+    	storageKey,
+        columns: BlueMageLogColumnConfig,
+        tasks: [{
             level: "50",
             iLvlReq: "49",
             name: "The Bowl of Embers (Hard)"
@@ -65,6 +67,6 @@ export const BlueMageTrials = {
             level: "60",
             iLvlReq: "235",
             name: "Containment Bay Z1T9"
-        },
-    ]
+        }]
+    };
 };

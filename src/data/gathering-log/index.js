@@ -6,15 +6,20 @@ import { FishingGuideFishing } from "./fishing-guide/fishing";
 import { FishingGuideSpearfishing } from "./fishing-guide/spearfishing";
 import { FishingLog } from "./fishing-log";
 
-export const GatheringLogs = {
-    name: "Gathering",
-    subGroups: [
-        LoggingLog,
-        HarvestingLog,
-        MiningLog,
-        QuarryingLog,
-        FishingGuideFishing,
-        FishingGuideSpearfishing,
-        FishingLog,
-    ]
+export const GatheringLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gathering-logs`;
+
+    return {
+        name: "Gathering Logs",
+        storageKey,
+        subGroups: [
+            LoggingLog(storageKey),
+            HarvestingLog(storageKey),
+            MiningLog(storageKey),
+            QuarryingLog(storageKey),
+            FishingGuideFishing(storageKey),
+            FishingGuideSpearfishing(storageKey),
+            FishingLog(storageKey),
+        ]
+    };
 };

@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const HWTrials = {
-    name: "HW",
-	storageKey: "duty.trials",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const HWTrials = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.HW`;
+
+    return {
+        name: "HW",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "53",
         	iLvlReq: "-",
         	name: "Thok ast Thok (Hard)",
@@ -103,6 +105,6 @@ export const HWTrials = {
         	boss: "Zurvan",
         	roulette: "-",
         	unlock: "A Demonic Duplicate"
-        },
-    ]
+        }]
+    };
 };

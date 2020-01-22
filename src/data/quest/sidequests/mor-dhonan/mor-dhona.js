@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MorDhona = {
-    name: "Mor Dhona",
-	storageKey: "quest.side-quest.mor-dhonan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MorDhona = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.mor-dhona`;
+
+    return {
+        name: "Mor Dhona",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "A Legend for a Legend",
         	npc: "Wandering Minstrel",
@@ -190,6 +192,6 @@ export const MorDhona = {
         	name: "Take with a Tonze of Salt",
         	npc: "Bloezoeng",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

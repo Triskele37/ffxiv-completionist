@@ -1,20 +1,22 @@
-export const TheMaskedCarnivale = {
-    name: "The Masked Carnivale",
-	storageKey: "logs.blue-mage.carnivale",
-    columns: [
-        {
-            header: "Level",
-            key: "level",
-            styles: {
-                centered: true
-            }
-        },
-        { header: "Name", key: "name" },
-        { header: "Standard Time", key: "standardTime" },
-        { header: "Ideal Time", key: "idealTime" },
-    ],
-    tasks: [
-        {
+export const TheMaskedCarnivale = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-masked-carnivale`;
+
+    return {
+        name: "The Masked Carnivale",
+    	storageKey,
+        columns: [
+            {
+                header: "Level",
+                key: "level",
+                styles: {
+                    centered: true
+                }
+            },
+            { header: "Name", key: "name" },
+            { header: "Standard Time", key: "standardTime" },
+            { header: "Ideal Time", key: "idealTime" },
+        ],
+        tasks: [{
             level: "1",
             name: "All's Well That Starts Well",
             standardTime: "0:30",
@@ -164,6 +166,6 @@ export const TheMaskedCarnivale = {
             name: "The Catch of Siegfried",
             standardTime: "7:30",
             idealTime: "6:30"
-        },
-    ]
+        }]
+    };
 };

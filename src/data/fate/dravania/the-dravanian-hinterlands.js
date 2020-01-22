@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheDravanianHinterlandsFATEs = {
-    name: "The Dravanian Hinterlands",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheDravanianHinterlandsFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-dravanian-hinterlands`;
+
+    return {
+        name: "The Dravanian Hinterlands",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "58",
         	name: "Revenge of the Vengeful Revengeance",
         	location: "The Collectors' Quarter (22,18)",
@@ -150,6 +152,6 @@ export const TheDravanianHinterlandsFATEs = {
         	name: "Frog Days of Summer",
         	location: "The Ruling Quarter (20,37)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

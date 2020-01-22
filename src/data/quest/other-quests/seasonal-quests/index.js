@@ -8,17 +8,22 @@ import { RisingEvents } from "./rising-events";
 import { AllSaintsWakeEvents } from "./all-saints-wake-events";
 import { StarlightCelebrationEvents } from "./starlight-celebration-events";
 
-export const SeasonalQuests = {
-    name: "Seasonal",
-    subGroups: [
-        HeavensturnEvents,
-        ValentionesDayEvents,
-        LittleLadiesDayEvents,
-        EggHunts,
-        GoldSaucerFestivities,
-        MoonfireFaireEvents,
-        RisingEvents,
-        AllSaintsWakeEvents,
-        StarlightCelebrationEvents,
-    ]
+export const SeasonalQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.seasonal`;
+
+    return {
+        name: "Seasonal",
+        storageKey,
+        subGroups: [
+            HeavensturnEvents(storageKey),
+            ValentionesDayEvents(storageKey),
+            LittleLadiesDayEvents(storageKey),
+            EggHunts(storageKey),
+            GoldSaucerFestivities(storageKey),
+            MoonfireFaireEvents(storageKey),
+            RisingEvents(storageKey),
+            AllSaintsWakeEvents(storageKey),
+            StarlightCelebrationEvents(storageKey),
+        ]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheChurningMists = {
-    name: "The Churning Mists",
-	storageKey: "quest.side-quest.dravanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheChurningMists = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-churning-mists`;
+
+    return {
+        name: "The Churning Mists",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "54",
         	name: "The Bathing Bully",
         	npc: "Mogret",
@@ -320,6 +322,6 @@ export const TheChurningMists = {
         	name: "A Moogle by Any Other Name",
         	npc: "Kupli Kuki",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

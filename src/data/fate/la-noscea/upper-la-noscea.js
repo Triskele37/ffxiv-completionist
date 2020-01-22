@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const UpperLaNosceaFATEs = {
-    name: "Upper",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const UpperLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.upper`;
+
+    return {
+        name: "Upper",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "20",
         	name: "Poor Maid's Mess",
         	location: "Poor Maid's Mill (12,24)",
@@ -65,6 +67,6 @@ export const UpperLaNosceaFATEs = {
         	name: "Surprise",
         	location: "Zelma's Run (26,18)",
         	type: "Defense"
-        }
-    ]
+        }]
+    };
 };

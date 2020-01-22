@@ -1,10 +1,12 @@
 import { QuestColumnConfig } from "../../columnConfigs";
-export const HealerRoleQuests = {
-    name: "Healer Role",
-	storageKey: "quest.class-and-job.role",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const HealerRoleQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.healer`;
+
+    return {
+        name: "Healer Role",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Traditions and Travails"
         }, {
@@ -22,6 +24,6 @@ export const HealerRoleQuests = {
         }, {
         	level: "80",
         	name: "The Soul of Temperence"
-        },
-    ]
+        }]
+    };
 };

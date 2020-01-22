@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const SBRaids = {
-    name: "SB",
-	storageKey: "duty.raids",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const SBRaids = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.SB`;
+
+    return {
+        name: "SB",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "70",
         	iLvlReq: "295",
         	name: "Deltascape V1.0",
@@ -179,6 +181,6 @@ export const SBRaids = {
         	name: "The Orbonne Monastery",
         	roulette: "Alliance Raids",
         	unlock: "The City of Lost Angels"
-        },
-    ]
+        }]
+    };
 };

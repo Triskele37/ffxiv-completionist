@@ -1,11 +1,13 @@
 import { EurekaColumnConfig } from "../columnConfigs";
 
-export const PagosFATEs = {
-    name: "Pagos",
-	storageKey: "duty.fate",
-    columns: EurekaColumnConfig,
-    tasks: [
-        {
+export const PagosFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.pagos`;
+
+    return {
+        name: "Pagos",
+    	storageKey,
+        columns: EurekaColumnConfig,
+        tasks: [{
         	level: "20",
         	name: "Down the Rabbit Hole",
         	location: "Frozen Lake (18.2-26.9)",
@@ -119,6 +121,6 @@ export const PagosFATEs = {
         	location: "Icebloom Cavern (35.7-18.7)",
         	light: "50%",
         	reward: "Louhi Card"
-        },
-    ]
+        }]
+    };
 };

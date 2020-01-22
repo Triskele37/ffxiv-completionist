@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const FishingLeves = {
-    name: "Fishing",
-	storageKey: "quest.levequests.fishing",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const FishingLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.fishing`;
+
+    return {
+        name: "Fishing",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -622,6 +625,6 @@ export const FishingLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

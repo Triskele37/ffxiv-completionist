@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DancerQuests = {
-    name: "Dancer",
-	storageKey: "quest.class-and-job.dancer",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const DancerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dancer`;
+
+    return {
+        name: "Dancer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Shall We Dance"
         }, {
@@ -26,6 +28,6 @@ export const DancerQuests = {
         }, {
         	level: "80",
         	name: "Rising to the Occasion"
-        },
-    ]
+        }]
+    };
 };

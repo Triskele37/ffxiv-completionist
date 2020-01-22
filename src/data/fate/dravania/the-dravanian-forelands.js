@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheDravanianForelandsFATEs = {
-    name: "The Dravanian Forelands",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheDravanianForelandsFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-dravanian-forelands`;
+
+    return {
+        name: "The Dravanian Forelands",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "52",
         	name: "Glawackus On, Glawackus Off",
         	location: "The Dravanian Forelands (36,8)",
@@ -130,6 +132,6 @@ export const TheDravanianForelandsFATEs = {
         	name: "Coeurls Chase Boys Chase Coeurls",
         	location: "Mourn (12,10), Sohm Al Foothills (31,5)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

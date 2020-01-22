@@ -1,10 +1,13 @@
 import { GatheringColumnConfig } from "../columnConfigs";
 
-export const LoggingLogSpecial = {
-    name: "Special",
-	storageKey: "gathering-log.logging",
-    columns: GatheringColumnConfig,
-    tasks: [
+export const SpecialLoggingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.special`;
+
+    return {
+        name: "Special",
+    	storageKey,
+        columns: GatheringColumnConfig,
+        tasks: [
         //------------------------------------------------------- Coerthan Folklore
         //------------------------------------------------------- Dravanian Folklore
         {
@@ -106,6 +109,6 @@ export const LoggingLogSpecial = {
             name: "Skybuilders' Resin",
             zone: "The Rak'tika Greatwood",
             location: "Bowrest"
-        },
-    ]
+        }]
+    };
 };

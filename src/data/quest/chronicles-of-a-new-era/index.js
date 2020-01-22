@@ -10,19 +10,24 @@ import { TheFourLords } from "./the-four-lords";
 import { Eden } from "./eden";
 import { YoRHaDarkApocalypse } from "./yorha-dark-apocalypse"
 
-export const ChroniclesOfANewEra = {
-    name: "Chronicles of a New Era",
-    subGroups: [
-        Primals,
-        Bahamut,
-        TheCrystalTower,
-        Alexander,
-        TheWarringTriad,
-        TheShadowOfMhach,
-        Omega,
-        ReturnToIvalice,
-        TheFourLords,
-        Eden,
-        YoRHaDarkApocalypse,
-    ]
+export const ChroniclesOfANewEra = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.chronicles-of-a-new-era`;
+
+    return {
+        name: "Chronicles of a New Era",
+        storageKey,
+        subGroups: [
+            Primals(storageKey),
+            Bahamut(storageKey),
+            TheCrystalTower(storageKey),
+            Alexander(storageKey),
+            TheWarringTriad(storageKey),
+            TheShadowOfMhach(storageKey),
+            Omega(storageKey),
+            ReturnToIvalice(storageKey),
+            TheFourLords(storageKey),
+            Eden(storageKey),
+            YoRHaDarkApocalypse(storageKey),
+        ]
+    };
 };

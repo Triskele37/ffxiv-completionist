@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const HWRaids = {
-    name: "HW",
-	storageKey: "duty.raids",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const HWRaids = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.HW`;
+
+    return {
+        name: "HW",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "60",
         	iLvlReq: "170",
         	name: "Alexander - The Fist of the Father",
@@ -167,6 +169,6 @@ export const HWRaids = {
         	name: "Dun Scaith",
         	roulette: "Alliance Raids",
         	unlock: "Where Shadows Reign"
-        },
-    ]
+        }]
+    };
 };

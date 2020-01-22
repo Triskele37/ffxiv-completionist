@@ -1,10 +1,13 @@
 import { GatheringColumnConfig } from "../columnConfigs";
 
-export const QuarryingLogSpecial = {
-    name: "Special",
-	storageKey: "gathering-log.quarrying",
-    columns: GatheringColumnConfig,
-    tasks: [
+export const SpecialQuarryingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.special`;
+
+    return {
+        name: "Special",
+    	storageKey,
+        columns: GatheringColumnConfig,
+        tasks: [
         //------------------------------------------------------- Coerthan Folklore
         {
             level: "60★",
@@ -65,6 +68,6 @@ export const QuarryingLogSpecial = {
             name: "Skybuilders' Truegold Sand",
             zone: "Kholusia",
             location: "The Duergar Mountains"
-        },
-    ]
+        }]
+    };
 };

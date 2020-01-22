@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AzysLla = {
-    name: "Azys Lla",
-	storageKey: "quest.side-quest.azys-lla",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AzysLla = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.azys-lla`;
+
+    return {
+        name: "Azys Lla",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "59",
         	name: "Basic Training",
         	npc: "Training Node",
@@ -75,6 +77,6 @@ export const AzysLla = {
         	name: "Elevated Aggression Levels",
         	npc: "Enhancement Node",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

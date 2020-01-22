@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TankRoleQuests = {
-    name: "Tank Role",
-	storageKey: "quest.class-and-job.role",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TankRoleQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.tank`;
+
+    return {
+        name: "Tank Role",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "The Man with Too Many Scars"
         }, {
@@ -23,6 +25,6 @@ export const TankRoleQuests = {
         }, {
         	level: "80",
         	name: "To Have Loved and Lost"
-        },
-    ]
+        }]
+    };
 };

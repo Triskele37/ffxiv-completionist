@@ -1,11 +1,13 @@
 import { EurekaColumnConfig } from "../columnConfigs";
 
-export const HydatosFATEs = {
-    name: "Hydatos",
-	storageKey: "duty.fate",
-    columns: EurekaColumnConfig,
-    tasks: [
-        {
+export const HydatosFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.hydatos`;
+
+    return {
+        name: "Hydatos",
+    	storageKey,
+        columns: EurekaColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Drink Me",
         	location: "The Val River Source (13.8-21.6)",
@@ -89,6 +91,6 @@ export const HydatosFATEs = {
         	location: "The Val River Source (18.7-28.4)",
         	light: "",
         	reward: ""
-        },
-    ]
+        }]
+    };
 };

@@ -20,20 +20,25 @@ https://xivapi/search
     having trouble targeting the issuing npc
 */
 
-export const Levequests = {
-    name: "Levequests",
-    subGroups: [
-        BattlecraftLeves,
-        MiningLeves,
-        BotanyLeves,
-        FishingLeves,
-        CarpentryLeves,
-        BlacksmithingLeves,
-        ArmoringLeves,
-        GoldsmithingLeves,
-        LeatherworkingLeves,
-        ClothcraftingLeves,
-        AlchemyLeves,
-        CookingLeves,
-    ]
+export const Levequests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.levequest`;
+
+    return {
+        name: "Levequests",
+        storageKey,
+        subGroups: [
+            BattlecraftLeves(storageKey),
+            MiningLeves(storageKey),
+            BotanyLeves(storageKey),
+            FishingLeves(storageKey),
+            CarpentryLeves(storageKey),
+            BlacksmithingLeves(storageKey),
+            ArmoringLeves(storageKey),
+            GoldsmithingLeves(storageKey),
+            LeatherworkingLeves(storageKey),
+            ClothcraftingLeves(storageKey),
+            AlchemyLeves(storageKey),
+            CookingLeves(storageKey),
+        ]
+    };
 };

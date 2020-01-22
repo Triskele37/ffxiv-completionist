@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LowerLaNoscea = {
-    name: "Lower La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const LowerLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lower`;
+
+    return {
+        name: "Lower La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Cry Me a Liver",
         	npc: "Ancreta",
@@ -110,6 +112,6 @@ export const LowerLaNoscea = {
         	name: "Leves of Moraby",
         	npc: "Ourawann",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

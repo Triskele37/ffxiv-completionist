@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArmorerQuests = {
-    name: "Armorer",
-	storageKey: "quest.class-and-job.armorer",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ArmorerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.armorer`;
+
+    return {
+        name: "Armorer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Armorer"
         }, {
@@ -71,6 +73,6 @@ export const ArmorerQuests = {
         }, {
         	level: "70",
         	name: "A Confluence of Style"
-        },
-    ]
+        }]
+    };
 };

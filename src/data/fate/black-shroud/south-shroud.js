@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const SouthShroudFATEs = {
-    name: "South",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const SouthShroudFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.south`;
+
+    return {
+        name: "South",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "21",
         	name: "Stag Parting",
         	location: "Upper Paths (15,18)",
@@ -105,6 +107,6 @@ export const SouthShroudFATEs = {
         	name: "What Gored Before",
         	location: "Urth's Gift (32,25)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

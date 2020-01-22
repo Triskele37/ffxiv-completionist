@@ -1,11 +1,13 @@
 import { HallOfNoviceColumnConfig } from "../columnConfigs";
 
-export const HallOfNoviceDPS = {
-    name: "DPS",
-	storageKey: "duty.hall-of-novice.dps",
-    columns: HallOfNoviceColumnConfig,
-    tasks: [
-        {
+export const HallOfNoviceDPS = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dps`;
+
+    return {
+        name: "DPS",
+    	storageKey,
+        columns: HallOfNoviceColumnConfig,
+        tasks: [{
             level: "15",
             name: "Avoid Area of Effect Attacks",
             role: "DPS"
@@ -33,6 +35,6 @@ export const HallOfNoviceDPS = {
             level: "15",
             name: "Final Exercise",
             role: "DPS"
-        }
-    ]
+        }]
+    };
 };

@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=22&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const PixieQuests = {
-    name: "Pixie",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const PixieQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.pixie`;
+
+    return {
+        name: "Pixie",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "70",
@@ -214,6 +217,6 @@ export const PixieQuests = {
             npc: "Uin Nee",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

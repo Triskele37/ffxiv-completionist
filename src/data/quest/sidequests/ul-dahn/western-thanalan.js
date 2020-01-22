@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WesternThanalan = {
-    name: "Western Thanalan",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WesternThanalan = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.western`;
+
+    return {
+        name: "Western Thanalan",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "The Greatest Story Never Told",
         	npc: "Valiant Hart",
@@ -155,6 +157,6 @@ export const WesternThanalan = {
         	name: "Ghosts of Amdapor",
         	npc: "Nedrick Ironheart",
         	unlock: "Amdapor Keep"
-        },
-    ]
+        }]
+    };
 };

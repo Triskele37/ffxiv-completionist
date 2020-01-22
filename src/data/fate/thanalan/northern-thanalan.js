@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const NorthernThanalanFATEs = {
-    name: "Northern",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const NorthernThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.northern`;
+
+    return {
+        name: "Northern",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "49",
         	name: "The Ceruleum Road",
         	location: "Bluefog (21,29)",
@@ -85,6 +87,6 @@ export const NorthernThanalanFATEs = {
         	name: "Boom Goes the Ceruleum",
         	location: "Raubahn's Push (18,18)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Kugane = {
-    name: "Kugane",
-	storageKey: "quest.side-quest.hingan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Kugane = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.kugane`;
+
+    return {
+        name: "Kugane",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "A Lone Wolf No More",
         	npc: "News Hawker",
@@ -105,6 +107,6 @@ export const Kugane = {
         	name: "King of the Castle",
         	npc: "East Aldenard Trading Company Associate",
         	unlock: "Unlocks Kugane Castle"
-        },
-    ]
+        }]
+    };
 };

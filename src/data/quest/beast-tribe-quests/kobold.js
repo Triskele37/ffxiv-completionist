@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=28&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const KoboldQuests = {
-    name: "Kobold",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const KoboldQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.kobold`;
+
+    return {
+        name: "Kobold",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "41",
@@ -220,6 +223,6 @@ export const KoboldQuests = {
             npc: "789th Order Dustman Bo Bu",
             rep: "Friendly",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

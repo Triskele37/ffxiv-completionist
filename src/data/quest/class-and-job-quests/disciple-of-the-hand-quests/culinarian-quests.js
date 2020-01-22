@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CulinarianQuests = {
-    name: "Culinarian",
-	storageKey: "quest.class-and-job.culinarian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const CulinarianQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.culinarian`;
+
+    return {
+        name: "Culinarian",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Culinarian"
         }, {
@@ -71,6 +73,6 @@ export const CulinarianQuests = {
         }, {
         	level: "70",
         	name: "The Way to a Father's Heart"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const ThePeaksFATEs = {
-    name: "The Peaks",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const ThePeaksFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-peaks`;
+
+    return {
+        name: "The Peaks",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Salad Days (FATE)",
         	location: "The Last Forest (13.0,15.0)",
@@ -165,6 +167,6 @@ export const ThePeaksFATEs = {
         	name: "Fletching Returns",
         	location: "Mount Yorn (25.7,28.0)",
         	type: "Gather Items"
-        },
-    ]
+        }]
+    };
 };

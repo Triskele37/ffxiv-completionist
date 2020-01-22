@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const UpperLaNoscea = {
-    name: "Upper La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const UpperLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.upper`;
+
+    return {
+        name: "Upper La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "23",
         	name: "The Hottest of Box Lunches",
         	npc: "Gegeroon",
@@ -35,6 +37,6 @@ export const UpperLaNoscea = {
         	name: "The Adventure of the Fainting Goldsmith",
         	npc: "Rukusa Farusa",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

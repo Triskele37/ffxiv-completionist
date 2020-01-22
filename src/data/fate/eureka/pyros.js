@@ -1,11 +1,13 @@
 import { EurekaColumnConfig } from "../columnConfigs";
 
-export const PyrosFATEs = {
-    name: "Pyros",
-	storageKey: "duty.fate",
-    columns: EurekaColumnConfig,
-    tasks: [
-        {
+export const PyrosFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.pyros`;
+
+    return {
+        name: "Pyros",
+    	storageKey,
+        columns: EurekaColumnConfig,
+        tasks: [{
         	level: "35",
         	name: "Medias Res",
         	location: "Northeastern Ice Needles (26.6-26.3)",
@@ -119,6 +121,6 @@ export const PyrosFATEs = {
         	location: "East Flamerock - The Ring of Fire (35.5-6.1)",
         	light: "28%",
         	reward: "Penthesilea Card"
-        },
-    ]
+        }]
+    };
 };

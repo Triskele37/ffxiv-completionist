@@ -8,17 +8,22 @@ import { PostStormbloodQuests } from "./post-stormblood";
 import { ShadowbringersQuests } from "./shadowbringers";
 import { PostShadowbringers } from "./post-shadowbringers";
 
-export const MainScenarioQuests = {
-    name: "Main Scenario",
-    subGroups: [
-        SeventhUmbralEraQuests,
-        SeventhAstralEraQuests,
-        HeavenswardQuests,
-        DragonsongQuests,
-        PostDragonsongQuests,
-        StormbloodQuests,
-        PostStormbloodQuests,
-        ShadowbringersQuests,
-        PostShadowbringers,
-    ]
+export const MainScenarioQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.main-scenario`;
+
+    return {
+        name: "Main Scenario",
+        storageKey,
+        subGroups: [
+            SeventhUmbralEraQuests(storageKey),
+            SeventhAstralEraQuests(storageKey),
+            HeavenswardQuests(storageKey),
+            DragonsongQuests(storageKey),
+            PostDragonsongQuests(storageKey),
+            StormbloodQuests(storageKey),
+            PostStormbloodQuests(storageKey),
+            ShadowbringersQuests(storageKey),
+            PostShadowbringers(storageKey),
+        ]
+    };
 };

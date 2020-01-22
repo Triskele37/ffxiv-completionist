@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheRubySeaFATEs = {
-    name: "The Ruby Sea",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheRubySeaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-ruby-sea`;
+
+    return {
+        name: "The Ruby Sea",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "62",
         	name: "Agni's Philosophy",
         	location: "Rasen Kaikyo (23.7,36.0)",
@@ -155,6 +157,6 @@ export const TheRubySeaFATEs = {
         	name: "Quoth The Raven",
         	location: "Rasen Kaikyo (32.4,20.2)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

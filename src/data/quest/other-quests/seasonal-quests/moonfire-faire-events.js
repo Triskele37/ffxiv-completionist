@@ -1,11 +1,13 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const MoonfireFaireEvents = {
-    name: "Moonfire Faire",
-	storageKey: "quest.other.seasonal",
-    columns: SimpleQuestColumnConfig,
-    tasks: [
-        {
+export const MoonfireFaireEvents = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.moonfire-faire`;
+
+    return {
+        name: "Moonfire Faire",
+    	storageKey,
+        columns: SimpleQuestColumnConfig,
+        tasks: [{
             level: "30",
             name: "Jump to the Beach"
         }, {
@@ -29,6 +31,6 @@ export const MoonfireFaireEvents = {
         }, {
             level: "5",
             name: "Hook, Line, and Sinker"
-        },
-    ]
+        }]
+    };
 };

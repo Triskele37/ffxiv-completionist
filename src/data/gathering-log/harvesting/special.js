@@ -1,10 +1,13 @@
 import { GatheringColumnConfig } from "../columnConfigs";
 
-export const HarvestingLogSpecial = {
-    name: "Special",
-	storageKey: "gathering-log.harvesting",
-    columns: GatheringColumnConfig,
-    tasks: [
+export const SpecialHarvestingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.special`;
+
+    return {
+        name: "Special",
+    	storageKey,
+        columns: GatheringColumnConfig,
+        tasks: [
         //------------------------------------------------------- Coerthan Folklore
         {
             level: "60★",
@@ -138,6 +141,6 @@ export const HarvestingLogSpecial = {
             name: "Skybuilders' Dawn Lizard",
             zone: "Amh Araeng",
             location: "The Central Hills of Amber"
-        },
-    ]
+        }]
+    };
 };

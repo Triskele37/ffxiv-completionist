@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const OrderOfTheTwinAdderQuests = {
-    name: "Order of the Twin Adder",
-	storageKey: "quest.other.twin-adder",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const OrderOfTheTwinAdderQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.twin-adder`;
+
+    return {
+        name: "Order of the Twin Adder",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "A Pup No Longer (Twin Adder)",
         	npc: "Vorsaile Heuloix",
@@ -35,6 +37,6 @@ export const OrderOfTheTwinAdderQuests = {
         	name: "Let the Hunt Begin (Twin Adder)",
         	npc: "Scarlet",
         	unlock: "Unlocks The Hunt"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BlacksmithQuests = {
-    name: "Blacksmith",
-	storageKey: "quest.class-and-job.blacksmith",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const BlacksmithQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.blacksmith`;
+
+    return {
+        name: "Blacksmith",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Blacksmith"
         }, {
@@ -71,6 +73,6 @@ export const BlacksmithQuests = {
         }, {
         	level: "70",
         	name: "The Final Face-off"
-        },
-    ]
+        }]
+    };
 };

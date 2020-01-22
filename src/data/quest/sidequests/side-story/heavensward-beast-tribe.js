@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const HeavenswardBeastTribe = {
-    name: "Heavensward Beast Tribe",
-	storageKey: "quest.side-quest.side-story.beast-tribe",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const HeavenswardBeastTribe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.heavensward-beast-tribe`;
+
+    return {
+        name: "Heavensward Beast Tribe",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "When Good Dragons Go Bad",
         	npc: "Idyllshire",
@@ -25,6 +27,6 @@ export const HeavenswardBeastTribe = {
         	name: "Eternity, Loyalty, Honesty",
         	npc: "Vath Deftarm",
         	rep: "2nd Highest Rep Level With All Heavensward Tribes"
-        },
-    ]
+        }]
+    };
 };

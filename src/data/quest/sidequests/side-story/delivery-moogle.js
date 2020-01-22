@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DeliveryMoogle = {
-    name: "Delivery Moogle",
-	storageKey: "quest.side-quest.side-story.delivery-moogle",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const DeliveryMoogle = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.delivery-moogle`;
+
+    return {
+        name: "Delivery Moogle",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Of Errant Epistles",
         	npc: "Klynthota",
@@ -130,6 +132,6 @@ export const DeliveryMoogle = {
         	name: "The Little Postmoogle that Could",
         	npc: "Deputy Postmoogle",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

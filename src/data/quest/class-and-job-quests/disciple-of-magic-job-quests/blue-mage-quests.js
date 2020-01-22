@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BlueMageQuests = {
-    name: "Blue Mage",
-	storageKey: "quest.class-and-job.blue-mage",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const BlueMageQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.blue-mage`;
+
+    return {
+        name: "Blue Mage",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Out of the Blue"
         }, {
@@ -29,6 +31,6 @@ export const BlueMageQuests = {
         }, {
         	level: "50",
         	name: "Turning Over a Blue Leaf"
-        },
-    ]
+        }]
+    };
 };

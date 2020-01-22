@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=20&columns=ID,Name
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const YoRHaDarkApocalypse = {
-    name: "YoRHa: Dark Apocalypse",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const YoRHaDarkApocalypse = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.yorha-dark-apocalypse`;
+
+    return {
+        name: "YoRHa: Dark Apocalypse",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Word about Komra",
         	npc: "Gossipy Dwarf",
@@ -36,6 +38,6 @@ export const YoRHaDarkApocalypse = {
         	name: "Tails, You Lose",
         	npc: "Anogg",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

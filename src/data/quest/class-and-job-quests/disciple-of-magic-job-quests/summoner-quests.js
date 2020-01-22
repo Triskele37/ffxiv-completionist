@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const SummonerQuests = {
-    name: "Summoner",
-	storageKey: "quest.class-and-job.summoner",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const SummonerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.summoner`;
+
+    return {
+        name: "Summoner",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Austerities of Flame"
         }, {
@@ -62,6 +64,6 @@ export const SummonerQuests = {
         }, {
         	level: "80",
         	name: "To Be Second Best"
-        },
-    ]
+        }]
+    };
 };

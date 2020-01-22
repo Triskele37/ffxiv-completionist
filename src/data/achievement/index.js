@@ -8,17 +8,22 @@ import { QuestAchievements } from "./quest";
 import { ExplorationAchievements } from "./exploration";
 import { GrandCompanyAchievements } from "./grandcompany";
 
-export const Achievements = {
-	name: 'Achievement',
-	subGroups: [
-		BattleAchievements,
-		CharacterAchievements,
-		PVPAchievements,
-		ItemAchievements,
-		CraftingAchievements,
-		GatheringAchievements,
-		QuestAchievements,
-		ExplorationAchievements,
-		GrandCompanyAchievements,
-	]
+export const Achievements = function(parentStorageKey) {
+	const storageKey = `${parentStorageKey}.achievements`;
+	
+	return {
+		name: 'Achievement',
+		storageKey,
+		subGroups: [
+			BattleAchievements(storageKey),
+			CharacterAchievements(storageKey),
+			PVPAchievements(storageKey),
+			ItemAchievements(storageKey),
+			CraftingAchievements(storageKey),
+			GatheringAchievements(storageKey),
+			QuestAchievements(storageKey),
+			ExplorationAchievements(storageKey),
+			GrandCompanyAchievements(storageKey),
+		]
+	};
 };

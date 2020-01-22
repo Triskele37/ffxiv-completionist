@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=10&columns=ID,Name&limit=15
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Primals = {
-    name: "Primals",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Primals = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.primals`;
+
+    return {
+        name: "Primals",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "A Recurring Problem",
         	npc: "Minfilia",
@@ -81,6 +83,6 @@ export const Primals = {
         	name: "Fear and Odin in the Shroud",
         	npc: "Scarlet",
         	unlock: "Urth's Fount"
-        },
-    ]
+        }]
+    };
 };

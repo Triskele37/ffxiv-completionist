@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const StormbloodBeastTribe = {
-    name: "Stormblood Beast Tribe",
-	storageKey: "quest.side-quest.side-story.beast-tribe",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const StormbloodBeastTribe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.stormblood-beast-tribe`;
+
+    return {
+        name: "Stormblood Beast Tribe",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "The Ananta Maid's Tail",
         	npc: "East Aldenard Assistant",
@@ -25,6 +27,6 @@ export const StormbloodBeastTribe = {
         	name: "What a Wonder-full World",
         	npc: "Kabuto",
         	rep: "2nd Highest Rep Level With All Stormblood Tribes"
-        },
-    ]
+        }]
+    };
 };

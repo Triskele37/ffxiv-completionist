@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TalesOfTheDragonsongWar = {
-    name: "Tales of the Dragonsong War",
-	storageKey: "quest.side-quest.side-story.tales-of-the-dragonsong-war",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TalesOfTheDragonsongWar = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.tales-of-the-dragonsong-war`;
+
+    return {
+        name: "Tales of the Dragonsong War",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "The Paths We Walk",
         	npc: "House Fortemps Manservant",
@@ -30,6 +32,6 @@ export const TalesOfTheDragonsongWar = {
         	name: "The Burdens We Bear",
         	npc: "Slowfix",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

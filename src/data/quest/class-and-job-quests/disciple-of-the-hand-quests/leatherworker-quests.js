@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LeatherworkerQuests = {
-    name: "Leatherworker",
-	storageKey: "quest.class-and-job.leatherworker",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const LeatherworkerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.leatherworker`;
+
+    return {
+        name: "Leatherworker",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Leatherworker"
         }, {
@@ -71,6 +73,6 @@ export const LeatherworkerQuests = {
         }, {
         	level: "70",
         	name: "True to Life"
-        },
-    ]
+        }]
+    };
 };

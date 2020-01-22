@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArcanistQuests = {
-    name: "Arcanist",
-	storageKey: "quest.class-and-job.arcanist",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ArcanistQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.arcanist`;
+
+    return {
+        name: "Arcanist",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Arcanist"
         }, {
@@ -32,6 +34,6 @@ export const ArcanistQuests = {
         }, {
         	level: "30",
         	name: "Sinking Doesmaga"
-        },
-    ]
+        }]
+    };
 };

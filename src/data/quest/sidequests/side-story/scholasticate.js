@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Scholasticate = {
-    name: "Scholasticate",
-	storageKey: "quest.side-quest.side-story.scholasticate",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Scholasticate = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.scholasticate`;
+
+    return {
+        name: "Scholasticate",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "56",
         	name: "Keeping the Ledger",
         	npc: "Mathye",
@@ -70,6 +72,6 @@ export const Scholasticate = {
         	name: "The Life and Lies of Father Saturnois",
         	npc: "Briardien",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

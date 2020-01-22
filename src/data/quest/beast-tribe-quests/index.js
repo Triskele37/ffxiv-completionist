@@ -14,24 +14,29 @@ import { NamazuQuests } from "./namazu";
 
 import { PixieQuests } from "./pixie";
 
-export const BeastTribeQuests = {
-    name: "Beast Tribe",
-    subGroups: [
-        //--------------------------------- ARR
-        AmaljAaQuests,
-        SylphQuests,
-        KoboldQuests,
-        SahaginQuests,
-        IxalQuests,
-        //--------------------------------- HW
-        VanuVanuQuests,
-        VathQuests,
-        MoogleQuests,
-        //--------------------------------- SB
-        KojinQuests,
-        AnantaQuests,
-        NamazuQuests,
-        //--------------------------------- ShB
-        PixieQuests,
-    ]
+export const BeastTribeQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.beast-tribe`;
+
+    return {
+        name: "Beast Tribe",
+        storageKey,
+        subGroups: [
+            //--------------------------------- ARR
+            AmaljAaQuests(storageKey),
+            SylphQuests(storageKey),
+            KoboldQuests(storageKey),
+            SahaginQuests(storageKey),
+            IxalQuests(storageKey),
+            //--------------------------------- HW
+            VanuVanuQuests(storageKey),
+            VathQuests(storageKey),
+            MoogleQuests(storageKey),
+            //--------------------------------- SB
+            KojinQuests(storageKey),
+            AnantaQuests(storageKey),
+            NamazuQuests(storageKey),
+            //--------------------------------- ShB
+            PixieQuests(storageKey),
+        ]
+    };
 };

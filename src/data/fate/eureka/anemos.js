@@ -1,11 +1,13 @@
 import { EurekaColumnConfig } from "../columnConfigs";
 
-export const AnemosFATEs = {
-    name: "Anemos",
-	storageKey: "duty.fate",
-    columns: EurekaColumnConfig,
-    tasks: [
-        {
+export const AnemosFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.anemos`;
+
+    return {
+        name: "Anemos",
+    	storageKey,
+        columns: EurekaColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Unsafety Dance",
         	location: "Heartbreak Holt (14.1-21.8)",
@@ -125,6 +127,6 @@ export const AnemosFATEs = {
         	location: "Newvoid (7.3-21.7)",
         	light: "",
         	reward: "Pazuzu Card"
-        },
-    ]
+        }]
+    };
 };

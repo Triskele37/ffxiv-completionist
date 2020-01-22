@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const CookingLeves = {
-    name: "Cooking",
-	storageKey: "quest.levequests.cooking",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const CookingLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.cooking`;
+
+    return {
+        name: "Cooking",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const CookingLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

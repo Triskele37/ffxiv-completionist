@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlisaieQuests = {
-    name: "Alisaie",
-	storageKey: "quest.main-scenario",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AlisaieQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.alisaie`;
+
+    return {
+        name: "Alisaie",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "In Search of Alisaie",
         	npc: "Crystal Exarch",
@@ -50,6 +52,6 @@ export const AlisaieQuests = {
         	name: "Tears on the Sand",
         	npc: "Alisaie Leveilleur",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const ArmoringLeves = {
-    name: "Armoring",
-	storageKey: "quest.levequests.armoring",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const ArmoringLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.armoring`;
+
+    return {
+        name: "Armoring",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const ArmoringLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

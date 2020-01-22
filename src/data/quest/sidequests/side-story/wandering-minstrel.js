@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WanderingMinstrel = {
-    name: "Wandering Minstrel",
-	storageKey: "quest.side-quest.side-story.wandering-minstrel",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WanderingMinstrel = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.wandering-minstrel`;
+
+    return {
+        name: "Wandering Minstrel",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "The Ultimate Ballad",
         	npc: "Alys",
@@ -40,6 +42,6 @@ export const WanderingMinstrel = {
         	name: "Who Lives, Who Dies, Who Retells Your Story",
         	npc: "Wandering Minstrel",
         	unlock: "Unlocks Alexander: The Creator (Savage)"
-        },
-    ]
+        }]
+    };
 };

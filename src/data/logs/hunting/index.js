@@ -11,20 +11,25 @@ import { ImmortalFlamesHunting } from "./immortal-flames";
 import { MaelstromHunting } from "./maelstrom";
 import { TwinAdderHunting } from "./twin-adder";
 
-export const HuntingLogs = {
-    name: "Hunting",
-    subGroups: [
-        ArcanistHunting,
-        ArcherHunting,
-        ConjurerHunting,
-        GladiatorHunting,
-        LancerHunting,
-        MarauderHunting,
-        PugilistHunting,
-        RogueHunting,
-        ThaumaturgeHunting,
-        ImmortalFlamesHunting,
-        MaelstromHunting,
-        TwinAdderHunting
-    ]
+export const HuntingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.hunting`;
+
+    return {
+        name: "Hunting",
+        storageKey,
+        subGroups: [
+            ArcanistHunting(storageKey),
+            ArcherHunting(storageKey),
+            ConjurerHunting(storageKey),
+            GladiatorHunting(storageKey),
+            LancerHunting(storageKey),
+            MarauderHunting(storageKey),
+            PugilistHunting(storageKey),
+            RogueHunting(storageKey),
+            ThaumaturgeHunting(storageKey),
+            ImmortalFlamesHunting(storageKey),
+            MaelstromHunting(storageKey),
+            TwinAdderHunting(storageKey),
+        ]
+    };
 };

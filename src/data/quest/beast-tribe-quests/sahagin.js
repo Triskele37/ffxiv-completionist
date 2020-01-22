@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=30&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const SahaginQuests = {
-    name: "Sahagin",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const SahaginQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.sahagin`;
+
+    return {
+        name: "Sahagin",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "44",
@@ -220,6 +223,6 @@ export const SahaginQuests = {
             npc: "Seww",
             rep: "Friendly",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

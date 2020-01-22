@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EasternLaNoscea = {
-    name: "Eastern La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const EasternLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eastern`;
+
+    return {
+        name: "Eastern La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Leves of Costa del Sol",
         	npc: "Nahctahr",
@@ -90,6 +92,6 @@ export const EasternLaNoscea = {
         	name: "Treasures and Tribulations",
         	npc: "H'loonh",
         	unlock: "Decipher, Dig"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Hildibrand = {
-    name: "Hildibrand",
-	storageKey: "quest.side-quest.side-story.hildibrand",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Hildibrand = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.hildibrand-1`;
+
+    return {
+        name: "Hildibrand",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "The Rise and Fall of Gentlemen",
         	npc: "Wymond",
@@ -110,6 +112,6 @@ export const Hildibrand = {
         	name: "Her Last Vow",
         	npc: "Julyan",
         	unlock: "Wind Up Gentleman, Most Gentlemanly Emote"
-        },
-    ]
+        }]
+    };
 };

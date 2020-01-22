@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WarriorQuests = {
-    name: "Warrior",
-	storageKey: "quest.class-and-job.warrior",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WarriorQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.warrior`;
+
+    return {
+        name: "Warrior",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Pride and Duty (Will Take You from the Mountain)"
         }, {
@@ -65,6 +67,6 @@ export const WarriorQuests = {
         }, {
         	level: "80",
         	name: "Once, Twice, Three Times a Warrior"
-        },
-    ]
+        }]
+    };
 };

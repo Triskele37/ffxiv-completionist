@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheFringesFATEs = {
-    name: "The Fringes",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheFringesFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-fringes`;
+
+    return {
+        name: "The Fringes",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Bold This Way",
         	location: "The Striped Hills (27,10)",
@@ -150,6 +152,6 @@ export const TheFringesFATEs = {
         	name: "The Tele-tale Hunt",
         	location: "Virdjala (35.7,28.4)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

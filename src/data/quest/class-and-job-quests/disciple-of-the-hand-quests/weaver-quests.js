@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WeaverQuests = {
-    name: "Weaver",
-	storageKey: "quest.class-and-job.weaver",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WeaverQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.weaver`;
+
+    return {
+        name: "Weaver",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Weaver"
         }, {
@@ -71,6 +73,6 @@ export const WeaverQuests = {
         }, {
         	level: "70",
         	name: "Send Me an Angel"
-        },
-    ]
+        }]
+    };
 };

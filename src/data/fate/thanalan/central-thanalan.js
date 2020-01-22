@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const CentralThanalanFATEs = {
-    name: "Central",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const CentralThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central`;
+
+    return {
+        name: "Central",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Let them Eat Cactus",
         	location: "Black Brush (23,16)",
@@ -70,6 +72,6 @@ export const CentralThanalanFATEs = {
         	name: "Orobon Part Two The Spawning",
         	location: "The Clutch (29,20)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

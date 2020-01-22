@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ShBRaids = {
-    name: "ShB",
-	storageKey: "duty.raids",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ShBRaids = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ShB`;
+
+    return {
+        name: "ShB",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "80",
         	iLvlReq: "425",
         	name: "Eden's Gate: Resurrection",
@@ -65,6 +67,6 @@ export const ShBRaids = {
         	name: "The Copied Factory",
         	roulette: "Alliance Raids",
         	unlock: "On the Threshold"
-        },
-    ]
+        }]
+    };
 };

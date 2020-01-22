@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheTempestFATEs = {
-    name: "The Tempest",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheTempestFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-tempest`;
+
+    return {
+        name: "The Tempest",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "79",
         	name: "A Lot to Swallow",
         	location: "The Norvrandt Slope (36.7-14.0)",
@@ -80,6 +82,6 @@ export const TheTempestFATEs = {
         	name: "The Head, the Tail, the Whole Damned Thing",
         	location: "The Caliban Gorge (27.1, 26.5)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

@@ -6,15 +6,20 @@ import { OrchestrionRaid } from "./raids";
 import { OrchestrionSeasonal } from "./seasonal";
 import { OrchestrionTrial } from "./trials";
 
-export const Orchestrion = {
-    name: "Orchestrion",
-    subGroups:[
-        OrchestrionLocales,
-        OrchestrionDungeon,
-        OrchestrionMogStation,
-        OrchestrionOther,
-        OrchestrionRaid,
-        OrchestrionSeasonal,
-        OrchestrionTrial,
-    ]
-}
+export const Orchestrion = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.orchestrion`;
+
+    return {
+        name: "Orchestrion",
+        storageKey,
+        subGroups: [
+            OrchestrionLocales(storageKey),
+            OrchestrionDungeon(storageKey),
+            OrchestrionMogStation(storageKey),
+            OrchestrionOther(storageKey),
+            OrchestrionRaid(storageKey),
+            OrchestrionSeasonal(storageKey),
+            OrchestrionTrial(storageKey),
+        ]
+    };
+};

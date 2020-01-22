@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const ArcherHunting = {
-    name: "Archer",
-	storageKey: "logs.hunting.archer",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const ArcherHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.archer`;
+
+    return {
+        name: "Archer",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const ArcherHunting = {
             mob: "Shelfeye Reaver",
             zone: "Western La Noscea",
             location: "Halfstone (13,17)"
-        },
-    ]
+        }]
+    };
 };

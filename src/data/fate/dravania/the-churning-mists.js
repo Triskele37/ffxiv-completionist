@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheChurningMistsFATEs = {
-    name: "The Churning Mists",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheChurningMistsFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-churning-mists`;
+
+    return {
+        name: "The Churning Mists",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "54",
         	name: "Glycon Air",
         	location: "Landlord Colony (32,25)",
@@ -150,6 +152,6 @@ export const TheChurningMistsFATEs = {
         	name: "Vedrfolnir Devoteth",
         	location: "Greensward (11,36)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

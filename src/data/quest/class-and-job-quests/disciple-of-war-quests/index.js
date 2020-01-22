@@ -5,14 +5,19 @@ import { LancerQuests } from "./lancer-quests";
 import { ArcherQuests } from "./archer-quests";
 import { RogueQuests } from "./rogue-quests";
 
-export const DiscipleOfWarQuests = {
-    name: 'Disciple of War',
-    subGroups: [
-        GladiatorQuests,
-        PugilistQuests,
-        MarauderQuests,
-        LancerQuests,
-        ArcherQuests,
-        RogueQuests,
-    ]
+export const DiscipleOfWarQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.disciple-of-war`;
+
+    return {
+        name: 'Disciple of War',
+        storageKey,
+        subGroups: [
+            GladiatorQuests(storageKey),
+            PugilistQuests(storageKey),
+            MarauderQuests(storageKey),
+            LancerQuests(storageKey),
+            ArcherQuests(storageKey),
+            RogueQuests(storageKey),
+        ]
+    };
 };

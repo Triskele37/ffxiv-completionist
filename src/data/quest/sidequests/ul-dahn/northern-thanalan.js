@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const NorthernThanalan = {
-    name: "Northern Thanalan",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const NorthernThanalan = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.northern`;
+
+    return {
+        name: "Northern Thanalan",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "38",
         	name: "Thieves and Robbers",
         	npc: "Papawazu",
@@ -45,6 +47,6 @@ export const NorthernThanalan = {
         	name: "An Eye for Elixirs",
         	npc: "Memezofu",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

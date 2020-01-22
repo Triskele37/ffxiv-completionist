@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BardQuests = {
-    name: "Bard",
-	storageKey: "quest.class-and-job.bard",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const BardQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.bard`;
+
+    return {
+        name: "Bard",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "A Song of Bards and Bowmen"
         }, {
@@ -65,6 +67,6 @@ export const BardQuests = {
         }, {
         	level: "80",
         	name: "A Harmony from the Heavens"
-        },
-    ]
+        }]
+    };
 };

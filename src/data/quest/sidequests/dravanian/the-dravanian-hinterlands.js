@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheDravanianHinterlands = {
-    name: "The Dravanian Hinterlands",
-	storageKey: "quest.side-quest.dravanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheDravanianHinterlands = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-dravanian-hinterlands`;
+
+    return {
+        name: "The Dravanian Hinterlands",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "58",
         	name: "Louder than Words",
         	npc: "Tapklix",
@@ -70,6 +72,6 @@ export const TheDravanianHinterlands = {
         	name: "An Overgrown Ambition",
         	npc: "Tetchy Treasure Hunter",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WolvesDenPier = {
-    name: "Wolves' Den Pier",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WolvesDenPier = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.wolves-den-pier`;
+
+    return {
+        name: "Wolves' Den Pier",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "It's Time to Duel",
         	npc: "Fainthearted Fighter",
@@ -15,6 +17,6 @@ export const WolvesDenPier = {
         	name: "Earning Your Wings",
         	npc: "Softnox",
         	unlock: "Astragalos"
-        },
-    ]
+        }]
+    };
 };

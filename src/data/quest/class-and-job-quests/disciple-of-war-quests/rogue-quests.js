@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const RogueQuests = {
-    name: "Rogue",
-	storageKey: "quest.class-and-job.rogue",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const RogueQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.rogue`;
+
+    return {
+        name: "Rogue",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "My First Daggers"
         }, {
@@ -35,6 +37,6 @@ export const RogueQuests = {
         }, {
         	level: "30",
         	name: "Cloying Victory"
-        },
-    ]
+        }]
+    };
 };

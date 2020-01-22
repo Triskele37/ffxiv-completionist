@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const CentralCoerthasFATEs = {
-    name: "Central Highlands",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const CentralCoerthasFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central-highlands`;
+
+    return {
+        name: "Central Highlands",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "35",
         	name: "Twelve Ilms of Snow",
         	location: "Dragonhead (23,28)",
@@ -185,6 +187,6 @@ export const CentralCoerthasFATEs = {
         	name: "He Taketh It with His Eyes",
         	location: "Whitebrim (4,15)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

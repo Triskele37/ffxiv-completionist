@@ -1,11 +1,13 @@
 import { SightseeingLogColumnConfig } from "../columnConfigs";
 
-export const SightseeingHW = {
-    name: "HW",
-	storageKey: "logs.sightseeing",
-    columns: SightseeingLogColumnConfig,
-    tasks: [
-        {
+export const SightseeingHW = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.HW`;
+
+    return {
+        name: "HW",
+    	storageKey,
+        columns: SightseeingLogColumnConfig,
+        tasks: [{
             name: "Falcon's Nest",
             vista: "01",
             zone: "Coerthas Western Highlands",
@@ -501,6 +503,6 @@ export const SightseeingHW = {
             weather: "X",
             time: "X",
             emote: "Lookout"
-        },
-    ]
+        }]
+    };
 };

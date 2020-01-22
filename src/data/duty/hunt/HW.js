@@ -1,11 +1,13 @@
 import { HuntColumnConfig } from "../columnConfigs";
 
-export const HWHunts = {
-    name: "HW",
-	storageKey: "duty.the-hunt",
-    columns: HuntColumnConfig,
-    tasks: [
-        {
+export const HWHunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.HW`;
+
+    return {
+        name: "HW",
+    	storageKey,
+        columns: HuntColumnConfig,
+        tasks: [{
             rank: "B",
             name: "Alteci",
             condition: "N/A",
@@ -155,6 +157,6 @@ export const HWHunts = {
             name: "The Pale Rider",
             condition: "Treasure Coffer is opened from Level 60 Timeworn Wyvernskin Map.",
             location: "The Dravanian Hinterlands"
-        }
-    ]
+        }]
+    };
 };

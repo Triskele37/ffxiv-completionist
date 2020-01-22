@@ -19,15 +19,20 @@ https://xivapi.com/JournalGenre?columns=ID,Name&limit=209
 
 */
 
-export const Quests = {
-    name: "Quest",
-    subGroups: [
-        MainScenarioQuests, // JournalGenre 1-9
-        ChroniclesOfANewEra, // JournalGenre 10-20
-        Sidequests, // < 45 starts in hildi
-        BeastTribeQuests, // JournalGenre 21-44
-        ClassAndJob,
-        OtherQuests,
-        Levequests,
-    ]
+export const Quests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.quests`;
+
+    return {
+        name: "Quest",
+        storageKey,
+        subGroups: [
+            MainScenarioQuests(storageKey), // JournalGenre 1-9
+            ChroniclesOfANewEra(storageKey), // JournalGenre 10-20
+            Sidequests(storageKey), // < 45 starts in hildi
+            BeastTribeQuests(storageKey), // JournalGenre 21-44
+            ClassAndJob(storageKey),
+            OtherQuests(storageKey),
+            Levequests(storageKey),
+        ]
+    };
 };

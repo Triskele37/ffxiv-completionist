@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArtoirelQuests = {
-    name: "Artoirel",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig,
-    tasks: [
-        {
+export const HeavenswardArtoirelQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.artoirel`;
+
+    return {
+        name: "Artoirel",
+    	storageKey,
+        columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Over the Wall",
         	npc: "Artoirel de Fortemps",
@@ -40,6 +42,6 @@ export const ArtoirelQuests = {
         	name: "Knights Be Not Proud",
         	npc: "Artoirel de Fortemps",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const WesternCoerthasFATEs = {
-    name: "Western Highlands",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const WesternCoerthasFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.western-highlands`;
+
+    return {
+        name: "Western Highlands",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "One Whiskey, One Goat, One Spear",
         	location: "Riversmeet (27,26)",
@@ -135,6 +137,6 @@ export const WesternCoerthasFATEs = {
         	name: "Sphenopalatine Ganglioneuralgia",
         	location: "Red Rim (23,27)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

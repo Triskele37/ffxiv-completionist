@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=17&columns=ID,Name&limit=12
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const ReturnToIvalice = {
-    name: "Return to Ivalice",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ReturnToIvalice = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.return-to-ivalice`;
+
+    return {
+        name: "Return to Ivalice",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Dramatis Personae",
         	npc: "Keiten",
@@ -66,6 +68,6 @@ export const ReturnToIvalice = {
         	name: "Makin' Bacon (Bread)",
         	npc: "Company Belle",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

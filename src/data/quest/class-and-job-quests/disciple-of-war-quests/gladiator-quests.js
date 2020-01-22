@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GladiatorQuests = {
-    name: "Gladiator",
-	storageKey: "quest.class-and-job.gladiator",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const GladiatorQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gladiator`;
+
+    return {
+        name: "Gladiator",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Gladiator"
         }, {
@@ -29,6 +31,6 @@ export const GladiatorQuests = {
         }, {
         	level: "30",
         	name: "The Rematch"
-        },
-    ]
+        }]
+    };
 };

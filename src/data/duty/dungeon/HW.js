@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const HWDungeons = {
-    name: "HW",
-	storageKey: "duty.dungeons",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const HWDungeons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.HW`;
+
+    return {
+        name: "HW",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "51",
         	iLvlReq: "100",
         	name: "The Dusk Vigil",
@@ -113,6 +115,6 @@ export const HWDungeons = {
         	name: "Sohm Al (Hard)",
         	roulette: "Level 50/60",
         	unlock: "The Fires of Sohm Al"
-        },
-    ]
+        }]
+    };
 };

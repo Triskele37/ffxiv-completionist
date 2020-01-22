@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheGoldSaucer = {
-    name: "The Gold Saucer",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheGoldSaucer = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-gold-saucer`;
+
+    return {
+        name: "The Gold Saucer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "15",
         	name: "World of Wonders",
         	npc: "Airship Ticketer",
@@ -35,6 +37,6 @@ export const TheGoldSaucer = {
         	name: "Every Little Thing She Does Is Mahjong",
         	npc: "Lewena",
         	unlock: "Mahjong"
-        },
-    ]
+        }]
+    };
 };

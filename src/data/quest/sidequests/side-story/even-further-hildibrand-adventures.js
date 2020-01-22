@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EvenFurtherHildibrandAdventures = {
-    name: "Even Further Hildibrand Adventures",
-	storageKey: "quest.side-quest.side-story.hildibrand",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const EvenFurtherHildibrandAdventures = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.hildibrand-3`;
+
+    return {
+        name: "Even Further Hildibrand Adventures",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "A Hingan Tale: Nashu Goes East",
         	npc: "Conspicuously Inconspicuous Man",
@@ -50,6 +52,6 @@ export const EvenFurtherHildibrandAdventures = {
         	name: "Don't Do the Dewprism",
         	npc: "Hildibrand",
         	unlock: "Manderville Mambo Emote"
-        },
-    ]
+        }]
+    };
 };

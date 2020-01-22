@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const EasternLaNosceaFATEs = {
-    name: "Eastern",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const EasternLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eastern`;
+
+    return {
+        name: "Eastern",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Careless Whiskers",
         	location: "Bloodshore (29,34)",
@@ -105,6 +107,6 @@ export const EasternLaNosceaFATEs = {
         	name: "Closing Time",
         	location: "Raincatcher Gully (17,28)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

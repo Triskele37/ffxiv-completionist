@@ -3,12 +3,17 @@ import { HWHunts } from "./HW";
 import { SBHunts } from "./SB";
 import { ShBHunts } from "./ShB"
 
-export const Hunts = {
-    name: "Hunt",
-    subGroups: [
-        ARRHunts,
-        HWHunts,
-        SBHunts,
-        ShBHunts
-    ]
+export const Hunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-hunt`;
+
+    return {
+        name: "Hunt",
+        storageKey,
+        subGroups: [
+            ARRHunts(storageKey),
+            HWHunts(storageKey),
+            SBHunts(storageKey),
+            ShBHunts(storageKey),
+        ]
+    };
 };

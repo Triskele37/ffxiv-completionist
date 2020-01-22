@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ShBDungeons = {
-    name: "ShB",
-	storageKey: "duty.dungeons",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ShBDungeons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ShB`;
+
+    return {
+        name: "ShB",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "71",
         	iLvlReq: "370",
         	name: "Holminster Switch",
@@ -59,6 +61,6 @@ export const ShBDungeons = {
         	name: "The Grand Cosmos",
         	roulette: "Expert",
         	unlock: "A Grand Adventure"
-        },
-    ]
+        }]
+    };
 };

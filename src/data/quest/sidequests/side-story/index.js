@@ -16,25 +16,30 @@ import { DomanReconstruction } from "./doman-reconstruction";
 import { TalesFromTheShadows } from "./tales-from-the-shadows";
 import { IshgardianRestorationMain } from "./ishgardian-restoration-main";
 
-export const SideStory = {
-    name: "Side Story",
-    subGroups: [
-        Hildibrand,
-        FurtherHildibrandAdventures,
-        EvenFurtherHildibrandAdventures,
-        Scholasticate,
-        TalesOfTheDragonsongWar,
-        WanderingMinstrel,
-        ZodiacWeapons,
-        AnimaWeapons,
-        TheForbiddenLandEureka,
-        DeliveryMoogle,
-        AlliedBeastTribe,
-        HeavenswardBeastTribe,
-        StormbloodBeastTribe,
-        DomanAdventurersGuild,
-        DomanReconstruction,
-        TalesFromTheShadows,
-        IshgardianRestorationMain,
-    ]
+export const SideStory = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.side-story`;
+
+    return {
+        name: "Side Story",
+        storageKey,
+        subGroups: [
+            Hildibrand(storageKey),
+            FurtherHildibrandAdventures(storageKey),
+            EvenFurtherHildibrandAdventures(storageKey),
+            Scholasticate(storageKey),
+            TalesOfTheDragonsongWar(storageKey),
+            WanderingMinstrel(storageKey),
+            ZodiacWeapons(storageKey),
+            AnimaWeapons(storageKey),
+            TheForbiddenLandEureka(storageKey),
+            DeliveryMoogle(storageKey),
+            AlliedBeastTribe(storageKey),
+            HeavenswardBeastTribe(storageKey),
+            StormbloodBeastTribe(storageKey),
+            DomanAdventurersGuild(storageKey),
+            DomanReconstruction(storageKey),
+            TalesFromTheShadows(storageKey),
+            IshgardianRestorationMain(storageKey),
+        ]
+    };
 };

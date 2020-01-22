@@ -1,11 +1,13 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const EggHunts = {
-    name: "Egg Hunts",
-	storageKey: "quest.other.seasonal",
-    columns: SimpleQuestColumnConfig,
-    tasks: [
-        {
+export const EggHunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.egg-hunt`;
+
+    return {
+        name: "Egg Hunts",
+    	storageKey,
+        columns: SimpleQuestColumnConfig,
+        tasks: [{
             level: "15",
             name: "Uneggseptable Losses"
         }, {
@@ -17,6 +19,6 @@ export const EggHunts = {
         }, {
             level: "15",
             name: "Deus Eggs Machina"
-        },
-    ]
+        }]
+    };
 };

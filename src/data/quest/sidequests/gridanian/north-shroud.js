@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const NorthShroud = {
-    name: "North Shroud",
-	storageKey: "quest.side-quest.gridanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const NorthShroud = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.north`;
+
+    return {
+        name: "North Shroud",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Jumping at Shadows",
         	npc: "Bodwine",
@@ -150,6 +152,6 @@ export const NorthShroud = {
         	name: "Kettle to the Mettle",
         	npc: "Jalzahn",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

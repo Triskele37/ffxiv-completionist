@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Eulmore = {
-    name: "Eulmore",
-	storageKey: "quest.side-quest.kholusia",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Eulmore = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eulmore`;
+
+    return {
+        name: "Eulmore",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Children of the Derelicts",
         	npc: "Sristialla",
@@ -75,6 +77,6 @@ export const Eulmore = {
         	name: "Akadaemia Anyder",
         	npc: "Overwrought Ondo",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

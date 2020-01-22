@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const MarauderHunting = {
-    name: "Marauder",
-	storageKey: "logs.hunting.marauder",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const MarauderHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.marauder`;
+
+    return {
+        name: "Marauder",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const MarauderHunting = {
             mob: "2nd Cohort Laquearius x5",
             zone: "Eastern La Noscea",
             location: "Agelyss Wise"
-        },
-    ]
+        }]
+    };
 };

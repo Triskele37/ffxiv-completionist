@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=24&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const AmaljAaQuests = {
-    name: "Amalj'aa",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const AmaljAaQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.amalj-aa`;
+
+    return {
+        name: "Amalj'aa",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "43",
@@ -220,6 +223,6 @@ export const AmaljAaQuests = {
             npc: "Yadovv Gah",
             rep: "Friendly",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

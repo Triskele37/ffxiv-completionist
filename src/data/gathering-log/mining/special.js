@@ -1,10 +1,13 @@
 import { GatheringColumnConfig } from "../columnConfigs";
 
-export const MiningLogSpecial = {
-    name: "Special",
-	storageKey: "gathering-log.mining",
-    columns: GatheringColumnConfig,
-    tasks: [
+export const SpecialMiningLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.special`;
+
+    return {
+        name: "Special",
+    	storageKey,
+        columns: GatheringColumnConfig,
+        tasks: [
         //------------------------------------------------------- Coerthan Folklore
         {
             level: "60★★★",
@@ -183,6 +186,6 @@ export const MiningLogSpecial = {
             name: "Skybuildres' Sea Salt",
             zone: "The Tempest",
             location: "Walls of the Forgotten"
-        },
-    ]
+        }]
+    };
 };

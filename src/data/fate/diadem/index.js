@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const DiademFATEs = {
-    name: "Diadem",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const DiademFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.diadem`;
+
+    return {
+        name: "Diadem",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "(You're Not) Having My Mitelings",
         	location: "The Diadem- Northwestern Pavilion (19.0-9.1)",
@@ -240,6 +242,6 @@ export const DiademFATEs = {
         	name: " Wild Hunt",
         	location: "The Diadem- Northwestern Pavilion (15.7-13.6)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };
