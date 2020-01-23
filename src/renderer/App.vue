@@ -2,25 +2,33 @@
     <div id="app">
         <nav-drawer />
 
-        <span id="right-container">
+        <div id="right-container">
             <stat-bar />
             <breadcrumbs />
 
-            <!----------- Summary on no selected group ----------->
-            <section-summary
-                v-if="!selectedGroup && !showSummary"
-                :group="allData"
-            />
+            <div id="right-content">
+                <!----------- Summary on no selected group ----------->
+                <template v-if="!selectedGroup">
+                    <summary-line
+                        v-for="subGroup in allData.subGroups"
+                        :key="subGroup.name"
+                        :group="subGroup"
+                    />
+                </template>
 
-            <!----------- Summary when a group is selected ----------->
-            <section-summary
-                v-if="showSummary"
-                :group="selectedGroup"
-            />
+                <!----------- Summary when a group is selected ----------->
+                <template v-if="selectedGroup && selectedGroup.subGroups">
+                    <summary-line
+                        v-for="subGroup in selectedGroup.subGroups"
+                        :key="subGroup.name"
+                        :group="subGroup"
+                    />
+                </template>
 
-            <!----------- Task Table ----------->
-            <task-table v-if="!!selectedGroup && !!selectedGroup.tasks"/>
-        </span>
+                <!----------- Task Table ----------->
+                <task-table v-if="selectedGroup && selectedGroup.tasks"/>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -31,7 +39,7 @@
     import NavDrawer from './nav-drawer/NavDrawer';
     import StatBar from './stat-bar/StatBar';
     import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-    import SectionSummary from './section-summary/SectionSummary';
+    import SummaryLine from './summary-line/SummaryLine';
     import TaskTable from './task-table/TaskTable';
 
     export default {
@@ -42,19 +50,13 @@
             'nav-drawer': NavDrawer,
             'stat-bar': StatBar,
             'breadcrumbs': Breadcrumbs,
-            'section-summary': SectionSummary,
+            'summary-line': SummaryLine,
             'task-table': TaskTable,
         },
         computed: {
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup'
             }),
-            showSummary: function() {
-                if(!this.selectedGroup) return false;
-                if(!!this.selectedGroup.tasks) return false;
-
-                return !!this.selectedGroup.subGroups;
-            }
         },
     };
 </script>
@@ -89,6 +91,12 @@
         margin: -1px 0 0 -4px;
         width: calc(100% - 250px);
         vertical-align: top;
+    }
+
+    #right-content {
+        height: calc(100% - 160px);
+        margin: 10px;
+        overflow-y: auto;
     }
 
     /*---------------------- Scrollbar Override ----------------------*/

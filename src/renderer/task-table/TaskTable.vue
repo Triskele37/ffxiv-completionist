@@ -129,9 +129,7 @@
 <style>
     /*---------------------- Container ----------------------*/
     #item-container {
-        height: calc(100% - 150px);
-        margin: 0 10px;
-        overflow-y: auto;
+
     }
 
     .task-table {

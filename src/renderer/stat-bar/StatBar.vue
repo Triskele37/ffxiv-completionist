@@ -1,13 +1,17 @@
 <template>
     <div id="stat-bar">
         <summary-line :group="allData" />
+        <summary-line
+            v-if="selectedGroup"
+            :group="selectedGroup"
+        />
     </div>
 </template>
 
 <script>
     import { data } from '../../data';
     import { mapState } from 'vuex';
-    import SummaryLine from '../section-summary/SummaryLine';
+    import SummaryLine from '../summary-line/SummaryLine';
 
     export default {
         data: () => ({
@@ -20,18 +24,6 @@
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup'
             }),
-            completed: function() {
-                if(!this.selectedGroup || !this.selectedGroup.tasks) return 0;
-                return this.selectedGroup.tasks.reduce((acc, item) => {
-                    return acc + (item.completed === 'Y' ? 1 : 0);
-                }, 0);
-            },
-            total: function() {
-                if(!this.selectedGroup || !this.selectedGroup.tasks) return 0;
-                return this.selectedGroup.tasks.reduce((acc, item) => {
-                    return acc + (item.completed === 'Y' || item.completed === 'N' ? 1 : 0);
-                }, 0);
-            }
         }
     };
 </script>

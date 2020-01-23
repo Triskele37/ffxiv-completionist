@@ -6,6 +6,7 @@ export const getters = {
         return store.get(storageKey) || 'N';
     },
     getTotals: (state) => (storageKey) => {
-        return store.get(`${storageKey}.totals`);
+        const storedTotals = store.get(`${storageKey}.totals`);
+        return !storedTotals ? { completed: 0, excluded: 0, total: 0 } : storedTotals;
     }
 };
