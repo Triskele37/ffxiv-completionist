@@ -6,57 +6,23 @@
             <stat-bar />
             <breadcrumbs />
 
-            <div id="right-content">
-                <!----------- Summary on no selected group ----------->
-                <template v-if="!selectedGroup">
-                    <summary-line
-                        v-for="subGroup in allData.subGroups"
-                        :key="subGroup.name"
-                        :group="subGroup"
-                    />
-                </template>
-
-                <!----------- Summary when a group is selected ----------->
-                <template v-if="selectedGroup && selectedGroup.subGroups">
-                    <summary-line
-                        v-for="subGroup in selectedGroup.subGroups"
-                        :key="subGroup.name"
-                        :group="subGroup"
-                    />
-                </template>
-
-                <!----------- Task Table ----------->
-                <task-table v-if="selectedGroup && selectedGroup.tasks"/>
-            </div>
+            <main-content />
         </div>
     </div>
 </template>
 
 <script>
-    import { mapState } from 'vuex';
-
-    import { data } from '../data';
     import NavDrawer from './nav-drawer/NavDrawer';
     import StatBar from './stat-bar/StatBar';
     import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-    import SummaryLine from './summary-line/SummaryLine';
-    import TaskTable from './task-table/TaskTable';
+    import MainContent from "./main-content/MainContent";
 
     export default {
-        data: () => ({
-            allData: data
-        }),
         components: {
             'nav-drawer': NavDrawer,
             'stat-bar': StatBar,
             'breadcrumbs': Breadcrumbs,
-            'summary-line': SummaryLine,
-            'task-table': TaskTable,
-        },
-        computed: {
-            ...mapState('navigation', {
-                selectedGroup: 'selectedGroup'
-            }),
+            'main-content': MainContent,
         },
     };
 </script>
@@ -91,12 +57,6 @@
         margin: -1px 0 0 -4px;
         width: calc(100% - 250px);
         vertical-align: top;
-    }
-
-    #right-content {
-        height: calc(100% - 160px);
-        margin: 10px;
-        overflow-y: auto;
     }
 
     /*---------------------- Scrollbar Override ----------------------*/

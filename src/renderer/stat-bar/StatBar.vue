@@ -31,6 +31,6 @@
 <style>
     #stat-bar {
         height: 100px;
-        padding: 10px;
+        padding: 0 10px;
     }
 </style>

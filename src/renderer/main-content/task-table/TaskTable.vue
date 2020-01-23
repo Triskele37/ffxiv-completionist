@@ -1,8 +1,6 @@
 <template>
     <div id="item-container">
-        <helper-error
-            :selectedGroup="selectedGroup"
-        />
+        <helper-error :selectedGroup="group" />
 
         <table
             class="task-table"
@@ -10,11 +8,11 @@
         >
             <task-table-header
                 @filter-change="onFilterChange"
-                :columns="selectedGroup.columns"
+                :columns="group.columns"
                 :uniqueValues="uniqueValues"
             />
             <task-table-data-row
-                :selected-group="selectedGroup"
+                :selected-group="group"
                 :tasks="filteredTasks"
             />
         </table>
@@ -22,10 +20,6 @@
 </template>
 
 <script>
-    const Store = require('electron-store');
-    const store = new Store();
-    import { mapState } from 'vuex';
-
     // Components
     import HelperMessages from './HelperMessages';
     import TaskTableHeader from './row-types/TaskTableHeader';
@@ -39,30 +33,30 @@
             'task-table-header': TaskTableHeader,
             'task-table-data-row': TaskTableDataRow,
         },
+        props: {
+            group: Object
+        },
         data: () => ({
             filters: {}
         }),
         computed: {
-            ...mapState('navigation', {
-                selectedGroup: 'selectedGroup'
-            }),
             showTable: function() {
                 // No group
-                if(!this.selectedGroup) return false;
+                if(!this.group) return false;
 
                 // No tasks
-                if(!this.selectedGroup.tasks) return false;
-                if(this.selectedGroup.tasks.length === 0) return false;
+                if(!this.group.tasks) return false;
+                if(this.group.tasks.length === 0) return false;
 
                 // Assert column config
-                return !!this.selectedGroup.columns;
+                return !!this.group.columns;
             },
             uniqueValues: function() {
                 const uniqueValues = {};
 
                 // Grab unique values from the filtered task list
                 this.filteredTasks.forEach((task) => {
-                    this.selectedGroup.columns.forEach(({ key }) => {
+                    this.group.columns.forEach(({ key }) => {
                         if(!uniqueValues[key]) uniqueValues[key] = [];
 
                         if(uniqueValues[key].indexOf(task[key]) === -1) {
@@ -72,7 +66,7 @@
                 });
 
                 // Sort the unique values for pretty filter dropdowns
-                this.selectedGroup.columns.forEach((column) => {
+                this.group.columns.forEach((column) => {
                     if(!uniqueValues[column.key]) return;
                     if(column.filterType === 'number') {
                         uniqueValues[column.key].sort((a, b) => parseInt(a) - parseInt(b));
@@ -85,11 +79,11 @@
                 return uniqueValues;
             },
             filteredTasks: function() {
-                let filtered = this.selectedGroup.tasks.concat();
+                let filtered = this.group.tasks.concat();
 
                 if(this.filters.completed) {
                     filtered = filtered.filter((task) => {
-                        const completed = store.get(`${this.selectedGroup.storageKey}.${task.name}`);
+                        const completed = this.$store.getters.getCompletionFlag(`${this.group.storageKey}.${task.name}`);
                         const filterCompleted = this.filters.completed.value;
 
                         if(!completed && filterCompleted === 'N') return true;
@@ -97,8 +91,8 @@
                     });
                 }
 
-                for(let i = 0; i < this.selectedGroup.columns.length; i++) {
-                    const key = this.selectedGroup.columns[i].key;
+                for(let i = 0; i < this.group.columns.length; i++) {
+                    const key = this.group.columns[i].key;
                     const filter = this.filters[key];
 
                     if(filter) {

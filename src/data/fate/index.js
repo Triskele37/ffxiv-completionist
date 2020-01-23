@@ -1,3 +1,5 @@
+import { FATEColumnConfig } from "./columnConfigs";
+
 import { AbalathiasSpineFATEs } from "./abalathias-spine";
 import { BlackShroudFATEs } from "./black-shroud";
 import { CoerthasFATEs } from "./coerthas";
@@ -19,6 +21,7 @@ export const FATEs = function(parentStorageKey) {
     return {
         name: "FATE",
         storageKey,
+        columns: FATEColumnConfig,
         subGroups: [
             AbalathiasSpineFATEs(storageKey),
             BlackShroudFATEs(storageKey),

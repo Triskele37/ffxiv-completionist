@@ -18,6 +18,6 @@
 
 <style>
     .helper-error {
-        background-color: red;
+        background-color: #75190f;
     }
 </style>

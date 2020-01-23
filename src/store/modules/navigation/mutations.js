@@ -39,5 +39,9 @@ export const mutations = {
             case 'Recalculate Summaries': this.dispatch('calculateCompletionSummaries'); break;
             case 'Nuke Store': this.dispatch('nukeStore'); break;
         }
+    },
+    TOGGLE_SHOW_SUMMARY (state) {
+        if(!state.selectedGroup || !state.selectedGroup.subGroups) state.showSummary = false;
+        else state.showSummary = !state.showSummary;
     }
 };
