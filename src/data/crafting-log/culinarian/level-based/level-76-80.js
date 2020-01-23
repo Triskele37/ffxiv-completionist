@@ -210,5 +210,5 @@ export const CulinarianLevels_76_80 = {
       "special": "Collectable"
     }
    ]
-  ]
+  
 }
