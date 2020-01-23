@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const SouthShroud = {
-    name: "South Shroud",
-	storageKey: "quest.side-quest.gridanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const SouthShroud = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.south`;
+
+    return {
+        name: "South Shroud",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "17",
         	name: "What Lies Beneath",
         	npc: "Wood Wailer Expeditionary Captain",
@@ -140,6 +142,6 @@ export const SouthShroud = {
         	name: "Dead but Not Gone",
         	npc: "Wood Wailer Expeditionary",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

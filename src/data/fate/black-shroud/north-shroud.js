@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const NorthShroudFATEs = {
-    name: "North",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const NorthShroudFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.north`;
+
+    return {
+        name: "North",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "3",
         	name: "Dschubba Snacks",
         	location: "Treespeak (25,28)",
@@ -75,6 +77,6 @@ export const NorthShroudFATEs = {
         	name: "Rude Awakening",
         	location: "Proud Creek (21,19)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

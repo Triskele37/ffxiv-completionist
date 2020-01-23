@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const PugilistQuests = {
-    name: "Pugilist",
-	storageKey: "quest.class-and-job.pugilist",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const PugilistQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.pugilist`;
+
+    return {
+        name: "Pugilist",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Pugilist"
         }, {
@@ -29,6 +31,6 @@ export const PugilistQuests = {
         }, {
         	level: "30",
         	name: "Return of the Holyfist"
-        },
-    ]
+        }]
+    };
 };

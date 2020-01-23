@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CarpenterQuests = {
-    name: "Carpenter",
-	storageKey: "quest.class-and-job.carpenter",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const CarpenterQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.carpenter`;
+
+    return {
+        name: "Carpenter",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Carpenter"
         }, {
@@ -71,6 +73,6 @@ export const CarpenterQuests = {
         }, {
         	level: "70",
         	name: "Tea Party Rules"
-        },
-    ]
+        }]
+    };
 };

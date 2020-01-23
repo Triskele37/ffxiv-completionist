@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const WesternThanalanFATEs = {
-    name: "Western",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const WesternThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.western`;
+
+    return {
+        name: "Western",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Needles to Slay",
         	location: "Hammerlea (23,25)",
@@ -95,6 +97,6 @@ export const WesternThanalanFATEs = {
         	name: "Juggernaut Down",
         	location: "The Footfalls (13,7)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

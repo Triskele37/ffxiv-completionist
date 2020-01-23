@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheRakTikaGreatwoodFATEs = {
-    name: "The Rak'Tika Greatwood",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheRakTikaGreatwoodFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-rak-tika-greatwood`;
+
+    return {
+        name: "The Rak'Tika Greatwood",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "74",
         	name: "Attack of the Killer Tomatl",
         	location: "The Citia Swamps ",
@@ -100,6 +102,6 @@ export const TheRakTikaGreatwoodFATEs = {
         	name: "Tojil War",
         	location: "The Blind Forest of Yx'Maja - Bowrest (34.9-24.3)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

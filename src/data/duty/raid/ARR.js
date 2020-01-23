@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ARRRaids = {
-    name: "ARR",
-	storageKey: "duty.raids",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ARRRaids = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ARR`;
+
+    return {
+        name: "ARR",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "50",
         	iLvlReq: "70",
         	name: "The Binding Coil of Bahamut - Turn 1",
@@ -125,6 +127,6 @@ export const ARRRaids = {
         	name: "The World of Darkness",
         	roulette: "Alliance Raids",
         	unlock: "The World of Darkness"
-        },
-    ]
+        }]
+    };
 };

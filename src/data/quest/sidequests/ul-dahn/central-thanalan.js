@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CentralThanalan = {
-    name: "Central Thanalan",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const CentralThanalan = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central`;
+
+    return {
+        name: "Central Thanalan",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "6",
         	name: "The Slaying of the Shrews",
         	npc: "Hihiyaja",
@@ -70,6 +72,6 @@ export const CentralThanalan = {
         	name: "Melding Materia Muchly",
         	npc: "Mutamix Bubblypots",
         	unlock: "Advanced Materia Melding"
-        },
-    ]
+        }]
+    };
 };

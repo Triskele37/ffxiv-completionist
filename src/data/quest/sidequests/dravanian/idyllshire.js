@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Idyllshire = {
-    name: "Idyllshire",
-	storageKey: "quest.side-quest.dravanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Idyllshire = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.idyllshire`;
+
+    return {
+        name: "Idyllshire",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Fiery Wings, Fiery Hearts",
         	npc: "Walking Atlas",
@@ -165,6 +167,6 @@ export const Idyllshire = {
         	name: "He Ain't Piggy, He's My Brother",
         	npc: "Melodie",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const LowerLaNosceaFATEs = {
-    name: "Lower",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const LowerLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lower`;
+
+    return {
+        name: "Lower",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
             level: "3",
             name: "I Melt with You",
             location: "Moraby Bay (26,25)",
@@ -65,6 +67,6 @@ export const LowerLaNosceaFATEs = {
             name: "One Prince",
             location: "The Gods' Grip (19,37)",
             type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

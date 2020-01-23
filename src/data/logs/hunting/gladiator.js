@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const GladiatorHunting = {
-    name: "Gladiator",
-	storageKey: "logs.hunting.gladiator",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const GladiatorHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gladiator`;
+
+    return {
+        name: "Gladiator",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const GladiatorHunting = {
             mob: "Gigas Bhikkhu x5, 2nd Cohort Hoplomachus x5",
             zone: "Mor Dhona, Eastern La Noscea",
             location: "North Silvertear (32,14), Agelyss Wise (30,20)"
-        },
-    ]
+        }]
+    };
 };

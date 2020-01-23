@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const ThaumaturgeHunting = {
-    name: "Thaumaturge",
-	storageKey: "logs.hunting.thaumaturge",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const ThaumaturgeHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.thaumaturge`;
+
+    return {
+        name: "Thaumaturge",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const ThaumaturgeHunting = {
             mob: "2nd Cohort Signifer x6",
             zone: "Eastern La Noscea",
             location: "Agelyss Wise (25,21)"
-        },
-    ]
+        }]
+    };
 };

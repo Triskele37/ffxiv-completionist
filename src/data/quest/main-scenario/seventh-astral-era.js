@@ -5,15 +5,18 @@ https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=2&columns=I
 Missing: Hest of the Best, Pass the Smell Hest
 spelling: api > The Least among Us, app > The Least Among Us, game matches api
 */
-export const SeventhAstralEraQuests = {
-    name: "Seventh Astral Era",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig.concat({
-        header: "Patch",
-        key: "patch",
-        filterable: true
-    }),
-    tasks: [
+export const SeventhAstralEraQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.seventh-astral-era`;
+
+    return {
+        name: "Seventh Astral Era",
+    	storageKey,
+        columns: QuestColumnConfig.concat({
+            header: "Patch",
+            key: "patch",
+            filterable: true
+        }),
+        tasks: [
         //------------------------------------------------------------------ A Realm Awoken
         {
             level: "50",
@@ -623,6 +626,6 @@ export const SeventhAstralEraQuests = {
             npc: "Haurchefant Greystone",
             unlock: "",
             patch: "Before the Fall"
-        },
-    ]
+        }]
+    };
 };

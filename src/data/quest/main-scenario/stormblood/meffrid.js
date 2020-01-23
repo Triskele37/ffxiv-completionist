@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MeffridQuests = {
-    name: "Meffrid",
-	storageKey: "quest.main-scenario",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MeffridQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.meffrid`;
+
+    return {
+        name: "Meffrid",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "A Familiar Face Forgotten",
         	npc: "Meffrid",
@@ -45,6 +47,6 @@ export const MeffridQuests = {
         	name: "Homeward Bound",
         	npc: "Meffrid",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

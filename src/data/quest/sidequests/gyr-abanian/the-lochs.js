@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheLochs = {
-    name: "The Lochs",
-	storageKey: "quest.side-quest.gyr-abanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheLochs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-lochs`;
+
+    return {
+        name: "The Lochs",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "69",
         	name: "It's a Zu Out There",
         	npc: "Munifrid",
@@ -50,6 +52,6 @@ export const TheLochs = {
         	name: "Those We Hold Dear",
         	npc: "Bertliana",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

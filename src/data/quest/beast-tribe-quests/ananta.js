@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=42&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const AnantaQuests = {
-    name: "Ananta",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const AnantaQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ananta`;
+
+    return {
+        name: "Ananta",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "60",
@@ -214,6 +217,6 @@ export const AnantaQuests = {
             npc: "Eshana",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

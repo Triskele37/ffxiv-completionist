@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const CarpentryLeves = {
-    name: "Carpentry",
-	storageKey: "quest.levequests.carpentry",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const CarpentryLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.carpentry`;
+
+    return {
+        name: "Carpentry",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const CarpentryLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

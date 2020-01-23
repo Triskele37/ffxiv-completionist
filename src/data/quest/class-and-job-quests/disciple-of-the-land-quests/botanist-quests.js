@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BotanistQuests = {
-    name: "Botanist",
-	storageKey: "quest.class-and-job.botanist",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const BotanistQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.botanist`;
+
+    return {
+        name: "Botanist",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Botanist"
         }, {
@@ -71,6 +73,6 @@ export const BotanistQuests = {
         }, {
         	level: "70",
         	name: "Edgyth's Winning Streak"
-        },
-    ]
+        }]
+    };
 };

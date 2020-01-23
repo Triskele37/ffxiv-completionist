@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const WesternLaNosceaFATEs = {
-    name: "Western",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const WesternLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.western`;
+
+    return {
+        name: "Western",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "10",
         	name: "Barometz Soup",
         	location: "Quarterstone (36,28)",
@@ -125,6 +127,6 @@ export const WesternLaNosceaFATEs = {
         	name: "Making Waves",
         	location: "Sapsa Spawning Grounds (11,13)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

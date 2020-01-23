@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=15&columns=ID,Name&limit=7
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheShadowOfMhach = {
-    name: "The Shadow of Mhach",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheShadowOfMhach = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-shadow-of-mhach`;
+
+    return {
+        name: "The Shadow of Mhach",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Sky Pirates",
         	npc: "Unquiet Trader",
@@ -41,6 +43,6 @@ export const TheShadowOfMhach = {
         	name: "A Redbill Farewell",
         	npc: "Leofard",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

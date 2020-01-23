@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Yanxia = {
-    name: "Yanxia",
-	storageKey: "quest.side-quest.othardian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Yanxia = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.yanxia`;
+
+    return {
+        name: "Yanxia",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "64",
         	name: "Something Smells",
         	npc: "Fukata",
@@ -185,6 +187,6 @@ export const Yanxia = {
         	name: "A View to a Spill",
         	npc: "Sharp-eyed Samurai",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

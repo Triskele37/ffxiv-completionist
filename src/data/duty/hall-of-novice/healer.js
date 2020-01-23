@@ -1,11 +1,13 @@
 import { HallOfNoviceColumnConfig } from "../columnConfigs";
 
-export const HallOfNoviceHealer = {
-    name: "Healer",
-	storageKey: "duty.hall-of-novice.healer",
-    columns: HallOfNoviceColumnConfig,
-    tasks: [
-        {
+export const HallOfNoviceHealer = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.healer`;
+
+    return {
+        name: "Healer",
+    	storageKey,
+        columns: HallOfNoviceColumnConfig,
+        tasks: [{
             level: "15",
             name: "Avoid Area of Effect Attacks",
             role: "Healer"
@@ -25,6 +27,6 @@ export const HallOfNoviceHealer = {
             level: "15",
             name: "Final Exercise",
             role: "Healer"
-        },
-    ]
+        }]
+    };
 };

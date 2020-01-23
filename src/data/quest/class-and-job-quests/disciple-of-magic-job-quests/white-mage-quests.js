@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WhiteMageQuests = {
-    name: "White Mage",
-	storageKey: "quest.class-and-job.white-mage",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WhiteMageQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.white-mage`;
+
+    return {
+        name: "White Mage",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Seer Folly"
         }, {
@@ -65,6 +67,6 @@ export const WhiteMageQuests = {
         }, {
         	level: "80",
         	name: "Whence the Healing Springs"
-        },
-    ]
+        }]
+    };
 };

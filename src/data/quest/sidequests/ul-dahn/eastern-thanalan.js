@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EasternThanalan = {
-    name: "Eastern Thanalan",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const EasternThanalan = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eastern`;
+
+    return {
+        name: "Eastern Thanalan",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "15",
         	name: "Leves of Camp Drybone",
         	npc: "Poponagu",
@@ -140,6 +142,6 @@ export const EasternThanalan = {
         	name: "D Is for Dead",
         	npc: "Floating Stone",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

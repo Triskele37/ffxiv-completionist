@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LancerQuests = {
-    name: "Lancer",
-	storageKey: "quest.class-and-job.lancer",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const LancerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lancer`;
+
+    return {
+        name: "Lancer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Lancer"
         }, {
@@ -29,6 +31,6 @@ export const LancerQuests = {
         }, {
         	level: "30",
         	name: "Proof of Might"
-        },
-    ]
+        }]
+    };
 };

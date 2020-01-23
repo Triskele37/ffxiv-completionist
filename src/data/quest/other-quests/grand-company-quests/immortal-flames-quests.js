@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ImmortalFlamesQuests = {
-    name: "Immortal Flames",
-	storageKey: "quest.other.immortal-flames",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ImmortalFlamesQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.immortal-flames`;
+
+    return {
+        name: "Immortal Flames",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "A Pup No Longer (Immortal Flames)",
         	npc: "Swift",
@@ -35,6 +37,6 @@ export const ImmortalFlamesQuests = {
         	name: "Let the Hunt Begin (Immortal Flames)",
         	npc: "Mimio Mio",
         	unlock: "Unlocks The Hunt"
-        },
-    ]
+        }]
+    };
 };

@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=16&columns=ID,Name&limit=15
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Omega = {
-    name: "Omega",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Omega = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.omega`;
+
+    return {
+        name: "Omega",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "The Hunt for Omega",
         	npc: "Wedge",
@@ -81,6 +83,6 @@ export const Omega = {
         	name: "To Kweh Under Distant Skies",
         	npc: "Biggs",
         	unlock: "Alphascape V4.0"
-        },
-    ]
+        }]
+    };
 };

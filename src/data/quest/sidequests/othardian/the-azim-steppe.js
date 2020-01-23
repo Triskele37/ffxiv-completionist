@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheAzimSteppe = {
-    name: "The Azim Steppe",
-	storageKey: "quest.side-quest.othardian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheAzimSteppe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-azim-steppe`;
+
+    return {
+        name: "The Azim Steppe",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "65",
         	name: "Silent Banquet",
         	npc: "Oroniri Youth",
@@ -265,6 +267,6 @@ export const TheAzimSteppe = {
         	name: "Steppe of Hard Knocks",
         	npc: "Maqali",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

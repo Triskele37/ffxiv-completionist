@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const SamuraiQuests = {
-    name: "Samurai",
-	storageKey: "quest.class-and-job.samurai",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const SamuraiQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.samurai`;
+
+    return {
+        name: "Samurai",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "The Way of the Samurai"
         }, {
@@ -44,6 +46,6 @@ export const SamuraiQuests = {
         }, {
         	level: "80",
         	name: "The Legend of Musosai"
-        },
-    ]
+        }]
+    };
 };

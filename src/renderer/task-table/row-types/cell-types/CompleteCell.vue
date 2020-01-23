@@ -14,9 +14,6 @@
 </template>
 
 <script>
-    const Store = require('electron-store');
-    const store = new Store();
-
     export default {
         name: 'complete-cell',
         data: () => ({
@@ -27,7 +24,7 @@
             groupStorageKey: String,
         },
         mounted: function() {
-            this.completed = store.get(this.storageKey) || 'N';
+            this.completed = this.$store.getters.getCompletionFlag(this.storageKey);
         },
         computed: {
             storageKey: function() {
@@ -38,12 +35,19 @@
             onTaskCompleteClick: function() {
                 const completed = this.completed === 'N' ? 'Y' : 'N';
 
-                store.set(this.storageKey, completed);
+                this.$store.dispatch('setCompletionFlag', {
+                    storageKey: this.storageKey,
+                    flag: completed
+                });
+
                 this.completed = completed;
-                console.log(store.store);
             },
             onExcludeTaskClick: function() {
-                store.set(this.storageKey, 'X');
+                this.$store.dispatch('setCompletionFlag', {
+                    storageKey: this.storageKey,
+                    flag: 'X'
+                });
+
                 this.completed = 'X';
             }
         }

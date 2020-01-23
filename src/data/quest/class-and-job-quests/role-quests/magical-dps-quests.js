@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MagicalDPSQuests = {
-    name: "Magical DPS",
-	storageKey: "quest.class-and-job.role",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MagicalDPSQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.magical-dps`;
+
+    return {
+        name: "Magical DPS",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Hollow Pursuits"
         }, {
@@ -23,6 +25,6 @@ export const MagicalDPSQuests = {
         }, {
         	level: "80",
         	name: "A Tearful Reunion"
-        },
-    ]
+        }]
+    };
 };

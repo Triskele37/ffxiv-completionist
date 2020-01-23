@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GoldsmithQuests = {
-    name: "Goldsmith",
-	storageKey: "quest.class-and-job.goldsmith",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const GoldsmithQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.goldsmith`;
+
+    return {
+        name: "Goldsmith",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Goldsmith"
         }, {
@@ -71,6 +73,6 @@ export const GoldsmithQuests = {
         }, {
         	level: "70",
         	name: "Sultana Dreaming"
-        },
-    ]
+        }]
+    };
 };

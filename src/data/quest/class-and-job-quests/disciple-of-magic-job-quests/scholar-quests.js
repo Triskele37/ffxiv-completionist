@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ScholarQuests = {
-    name: "Scholar",
-	storageKey: "quest.class-and-job.scholar",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ScholarQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.scholar`;
+
+    return {
+        name: "Scholar",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Forgotten but Not Gone"
         }, {
@@ -62,6 +64,6 @@ export const ScholarQuests = {
         }, {
         	level: "80",
         	name: "Yes Beauty"
-        },
-    ]
+        }]
+    };
 };

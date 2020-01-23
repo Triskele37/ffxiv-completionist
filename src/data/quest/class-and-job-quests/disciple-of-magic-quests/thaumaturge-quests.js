@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ThaumaturgeQuests = {
-    name: "Thaumaturge",
-	storageKey: "quest.class-and-job.thaumaturge",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ThaumaturgeQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.thaumaturge`;
+
+    return {
+        name: "Thaumaturge",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Thaumaturge"
         }, {
@@ -29,6 +31,6 @@ export const ThaumaturgeQuests = {
         }, {
         	level: "30",
         	name: "Facing Your Demons"
-        },
-    ]
+        }]
+    };
 };

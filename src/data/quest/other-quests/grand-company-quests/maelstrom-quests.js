@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MaelstromQuests = {
-    name: "Maelstrom",
-	storageKey: "quest.other.maelstrom",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MaelstromQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.maelstrom`;
+
+    return {
+        name: "Maelstrom",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "A Pup No Longer (Maelstrom)",
         	npc: "R'ashaht Rhiki",
@@ -35,6 +37,6 @@ export const MaelstromQuests = {
         	name: "Let the Hunt Begin (Maelstrom)",
         	npc: "Trachraet",
         	unlock: "Unlocks the Hunt"
-        },
-    ]
+        }]
+    };
 };

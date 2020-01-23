@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CentralShroud = {
-    name: "Central Shroud",
-	storageKey: "quest.side-quest.gridanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const CentralShroud = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central`;
+
+    return {
+        name: "Central Shroud",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Idle Initiatives",
         	npc: "Tsubh Khamazom",
@@ -110,6 +112,6 @@ export const CentralShroud = {
         	name: "Bird in Hand",
         	npc: "Luquelot",
         	unlock: "Unlocks Chocobo Raising"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const ConjurerHunting = {
-    name: "Conjurer",
-	storageKey: "logs.hunting.conjurer",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const ConjurerHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.conjurer`;
+
+    return {
+        name: "Conjurer",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const ConjurerHunting = {
             mob: "2nd Cohort Vanguard x4",
             zone: "Eastern La Noscea",
             location: "Agelyss Wise (30,20)"
-        },
-    ]
+        }]
+    };
 };

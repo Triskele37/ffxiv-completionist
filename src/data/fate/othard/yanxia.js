@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const YanxiaFATEs = {
-    name: "Yanxia",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const YanxiaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.yanxia`;
+
+    return {
+        name: "Yanxia",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "64",
         	name: "A Fish to Fry",
         	location: "The Glittering Basin (18.1,31.6)",
@@ -195,6 +197,6 @@ export const YanxiaFATEs = {
         	name: "Foxy Lady",
         	location: "Doma (16,12), (11,17), The Gensui Chain (35,22), The Glittering Basin (16,32)(24,34)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

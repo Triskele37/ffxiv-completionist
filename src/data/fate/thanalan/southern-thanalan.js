@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const SouthernThanalanFATEs = {
-    name: "Southern",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const SouthernThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.southern`;
+
+    return {
+        name: "Southern",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "25",
         	name: "Downwind",
         	location: "Broken Water (15,14)",
@@ -150,6 +152,6 @@ export const SouthernThanalanFATEs = {
         	name: "Return to Cinder",
         	location: "Zanr'ak (24,26)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

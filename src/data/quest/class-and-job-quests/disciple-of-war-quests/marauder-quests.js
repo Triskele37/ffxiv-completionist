@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MarauderQuests = {
-    name: "Marauder",
-	storageKey: "quest.class-and-job.marauder",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MarauderQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.marauder`;
+
+    return {
+        name: "Marauder",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Marauder"
         }, {
@@ -29,6 +31,6 @@ export const MarauderQuests = {
         }, {
         	level: "30",
         	name: "Bringing Down the Mountain"
-        },
-    ]
+        }]
+    };
 };

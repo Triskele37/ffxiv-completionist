@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GunbreakerQuests = {
-    name: "Gunbreaker",
-	storageKey: "quest.class-and-job.gunbreaker",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const GunbreakerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gunbreaker`;
+
+    return {
+        name: "Gunbreaker",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "The Makings of a Gunbreaker"
         }, {
@@ -26,6 +28,6 @@ export const GunbreakerQuests = {
         }, {
         	level: "80",
         	name: "Gunblades of the Patriots"
-        },
-    ]
+        }]
+    };
 };

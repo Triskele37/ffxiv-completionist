@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const LeatherworkingLeves = {
-    name: "Leatherworking",
-	storageKey: "quest.levequests.leatherworking",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const LeatherworkingLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.leatherworking`;
+
+    return {
+        name: "Leatherworking",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const LeatherworkingLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AstrologianQuests = {
-    name: "Astrologian",
-	storageKey: "quest.class-and-job.astrologian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AstrologianQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.astrologian`;
+
+    return {
+        name: "Astrologian",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Stairway to the Heavens"
         }, {
@@ -65,6 +67,6 @@ export const AstrologianQuests = {
         }, {
         	level: "80",
         	name: "Love, Astrologically"
-        },
-    ]
+        }]
+    };
 };

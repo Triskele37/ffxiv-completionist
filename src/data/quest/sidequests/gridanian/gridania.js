@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Gridania = {
-    name: "Gridania",
-	storageKey: "quest.side-quest.gridanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Gridania = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.gridania`;
+
+    return {
+        name: "Gridania",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Coming to Gridania",
         	npc: "Bertennant",
@@ -155,6 +157,6 @@ export const Gridania = {
         	name: "One More Night in Amdapor",
         	npc: "E-Sumi-Yan",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const FisherQuests = {
-    name: "Fisher",
-	storageKey: "quest.class-and-job.fisher",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const FisherQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.fisher`;
+
+    return {
+        name: "Fisher",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Fisher"
         }, {
@@ -71,6 +73,6 @@ export const FisherQuests = {
         }, {
         	level: "70",
         	name: "Farewell, and Thanks for the Fish"
-        },
-    ]
+        }]
+    };
 };

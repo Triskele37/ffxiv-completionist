@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheRubySea = {
-    name: "The Ruby Sea",
-	storageKey: "quest.side-quest.othardian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheRubySea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-ruby-sea`;
+
+    return {
+        name: "The Ruby Sea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "61",
         	name: "Knocking on Heaven's Door",
         	npc: "Hamakaze",
@@ -275,6 +277,6 @@ export const TheRubySea = {
         	name: "Up in Flames",
         	npc: "Asari",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

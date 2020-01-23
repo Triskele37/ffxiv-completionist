@@ -5,14 +5,19 @@ import { OuterLaNosceaFATEs } from "./outer-la-noscea";
 import { UpperLaNosceaFATEs } from "./upper-la-noscea";
 import { WesternLaNosceaFATEs } from "./western-la-noscea";
 
-export const LaNosceaFATEs = {
-    name: "La Noscea",
-    subGroups: [
-        EasternLaNosceaFATEs,
-        LowerLaNosceaFATEs,
-        MiddleLaNosceaFATEs,
-        OuterLaNosceaFATEs,
-        UpperLaNosceaFATEs,
-        WesternLaNosceaFATEs
-    ]
+export const LaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.la-noscea`;
+
+    return {
+        name: "La Noscea",
+        storageKey,
+        subGroups: [
+            EasternLaNosceaFATEs(storageKey),
+            LowerLaNosceaFATEs(storageKey),
+            MiddleLaNosceaFATEs(storageKey),
+            OuterLaNosceaFATEs(storageKey),
+            UpperLaNosceaFATEs(storageKey),
+            WesternLaNosceaFATEs(storageKey),
+        ]
+    };
 };

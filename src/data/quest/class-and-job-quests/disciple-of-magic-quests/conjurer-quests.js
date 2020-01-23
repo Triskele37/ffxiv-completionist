@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ConjurerQuests = {
-    name: "Conjurer",
-	storageKey: "quest.class-and-job.conjurer",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ConjurerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.conjurer`;
+
+    return {
+        name: "Conjurer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Conjurer"
         }, {
@@ -29,6 +31,6 @@ export const ConjurerQuests = {
         }, {
         	level: "30",
         	name: "In Nature's Embrace"
-        },
-    ]
+        }]
+    };
 };

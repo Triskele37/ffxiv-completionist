@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=19&columns=ID,Name
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Eden = {
-    name: "Eden",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Eden = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eden`;
+
+    return {
+        name: "Eden",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "80",
         	name: "In the Middle of Nowhere",
         	npc: "Anxious Crystarium Guard",
@@ -36,6 +38,6 @@ export const Eden = {
         	name: "The Next Piece of the Puzzle",
         	npc: "Ryne",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

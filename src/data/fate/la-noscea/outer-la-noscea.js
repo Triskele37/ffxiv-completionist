@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const OuterLaNosceaFATEs = {
-    name: "Outer",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const OuterLaNosceaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.outer`;
+
+    return {
+        name: "Outer",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Peryton, Perhaps",
         	location: "The Long Climb (15,18)",
@@ -75,6 +77,6 @@ export const OuterLaNosceaFATEs = {
         	name: "Full Metal Alchemist",
         	location: "U'Ghamaro Mines (24,6)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

@@ -1,20 +1,22 @@
-export const BlueMageSpellbook = {
-    name: "Spellbook",
-	storageKey: "logs.blue-mage.spells",
-    columns: [
-        {
-            header: "#",
-            key: "number",
-            styles: {
-                centered: true
-            }
-        },
-        { header: "Spell", key: "name" },
-        { header: "Enemy", key: "enemy" },
-        { header: "Location", key: "location" },
-    ],
-    tasks: [
-        {
+export const BlueMageSpellbook = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.spellbook`;
+
+    return {
+        name: "Spellbook",
+    	storageKey,
+        columns: [
+            {
+                header: "#",
+                key: "number",
+                styles: {
+                    centered: true
+                }
+            },
+            { header: "Spell", key: "name" },
+            { header: "Enemy", key: "enemy" },
+            { header: "Location", key: "location" },
+        ],
+        tasks: [{
             number: "1",
             name: "Water Cannon",
             enemy: "",
@@ -414,6 +416,6 @@ export const BlueMageSpellbook = {
             name: "J Kick",
             enemy: "Brute Justice",
             location: "Alexander - The Burden of the Son"
-        },
-    ]
+        }]
+    };
 };

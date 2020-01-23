@@ -1,11 +1,13 @@
 import { FishingGuideColumnConfig } from "../columnConfigs";
 
-export const FishingGuideFishing = {
-    name: "Fishing",
-	storageKey: "gathering-log.fishing-guide.fishing",
-    columns: FishingGuideColumnConfig,
-    tasks: [
-        {
+export const FishingGuideFishing = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.fishing-guide`;
+
+    return {
+        name: "Fishing",
+    	storageKey,
+        columns: FishingGuideColumnConfig,
+        tasks: [{
             ilvl: "4",
             name: "Strip of Malm Kelp",
             primeLocation: "Limsa Lominsa",
@@ -7826,6 +7828,6 @@ export const FishingGuideFishing = {
             bait: "Squid Strip",
             usages: "",
             special: ""
-        },
-    ]
+        }]
+    };
 };

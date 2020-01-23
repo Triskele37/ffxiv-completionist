@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MatoyasCave = {
-    name: "Matoya's Cave",
-	storageKey: "quest.side-quest.dravanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MatoyasCave = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.matoyas-cave`;
+
+    return {
+        name: "Matoya's Cave",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "59",
         	name: "Saro Roggo's Common Life",
         	npc: "Saro Roggo",
@@ -35,6 +37,6 @@ export const MatoyasCave = {
         	name: "Have I Toad You Lately",
         	npc: "Saro Roggo",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

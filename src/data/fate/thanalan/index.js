@@ -4,13 +4,18 @@ import { NorthernThanalanFATEs } from "./northern-thanalan";
 import { SouthernThanalanFATEs } from "./southern-thanalan";
 import { WesternThanalanFATEs } from "./western-thanalan";
 
-export const ThanalanFATEs = {
-    name: "Thanalan",
-    subGroups: [
-        CentralThanalanFATEs,
-        EasternThanalanFATEs,
-        NorthernThanalanFATEs,
-        SouthernThanalanFATEs,
-        WesternThanalanFATEs
-    ]
+export const ThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.thanalan`;
+
+    return {
+        name: "Thanalan",
+        storageKey,
+        subGroups: [
+            CentralThanalanFATEs(storageKey),
+            EasternThanalanFATEs(storageKey),
+            NorthernThanalanFATEs(storageKey),
+            SouthernThanalanFATEs(storageKey),
+            WesternThanalanFATEs(storageKey),
+        ]
+    };
 };

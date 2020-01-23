@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheAzimSteppeFATEs = {
-    name: "The Azim Steppe",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheAzimSteppeFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-azim-steppe`;
+
+    return {
+        name: "The Azim Steppe",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "65",
         	name: "A Good Day To Die",
         	location: "The Sea of Blades (30.8,19.7)",
@@ -220,6 +222,6 @@ export const TheAzimSteppeFATEs = {
         	name: "Fired",
         	location: "Nhaama's Retreat (23.4,32.0)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

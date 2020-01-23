@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ZodiacWeapons = {
-    name: "Zodiac Weapons",
-	storageKey: "quest.side-quest.side-story.zodiac-weapons",
-    columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ZodiacWeapons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.zodiac-weapons`;
+
+    return {
+        name: "Zodiac Weapons",
+    	storageKey,
+        columns: QuestColumnConfig,
+        tasks: [{
             level: "50",
             name: "Up in Arms"
         }, {
@@ -44,6 +46,6 @@ export const ZodiacWeapons = {
         }, {
             level: "50",
             name: "The Vital Title"
-        },
-    ]
+        }]
+    };
 };

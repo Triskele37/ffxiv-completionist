@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Lakeland = {
-    name: "Lakeland",
-	storageKey: "quest.side-quest.lakeland",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Lakeland = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lakeland`;
+
+    return {
+        name: "Lakeland",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Classical Condition",
         	npc: "Riqi-Mao",
@@ -150,6 +152,6 @@ export const Lakeland = {
         	name: "You Had One Jobb",
         	npc: "Ungainly Guardsman",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

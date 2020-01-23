@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const LancerHunting = {
-    name: "Lancer",
-	storageKey: "logs.hunting.lancer",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const LancerHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lancer`;
+
+    return {
+        name: "Lancer",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const LancerHunting = {
             mob: "2nd Cohort Eques x5",
             zone: "Eastern La Noscea",
             location: "Agelyss Wise (28,20)"
-        },
-    ]
+        }]
+    };
 };

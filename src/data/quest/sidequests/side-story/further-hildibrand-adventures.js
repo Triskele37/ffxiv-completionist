@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const FurtherHildibrandAdventures = {
-    name: "Further Hildibrand Adventures",
-	storageKey: "quest.side-quest.side-story.hildibrand",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const FurtherHildibrandAdventures = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.hildibrand-2`;
+
+    return {
+        name: "Further Hildibrand Adventures",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "A Gentleman Falls, Rather than Flies",
         	npc: "Nashu Mhakaracca",
@@ -45,6 +47,6 @@ export const FurtherHildibrandAdventures = {
         	name: "If I Could Turn Back Time",
         	npc: "Hildibrand",
         	unlock: "Gigi Minion"
-        },
-    ]
+        }]
+    };
 };

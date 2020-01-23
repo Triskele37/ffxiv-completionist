@@ -25,16 +25,19 @@ import { GatheringLogs } from "./gathering-log";
 import { Duty } from "./duty";
 import { Quests } from "./quest";
 
+const storageKey = "completion";
+
 export const data = {
-    name: "Total Completion",
+    name: "Overall",
+    storageKey,
     subGroups: [
-        Achievements,
-        Collectable,
+        Achievements(storageKey),
+        Collectable(storageKey),
         CraftingLogs,
-        Logs,
-        FATEs,
-        GatheringLogs,
-        Duty,
-        Quests
+        Logs(storageKey),
+        FATEs(storageKey),
+        GatheringLogs(storageKey),
+        Duty(storageKey),
+        Quests(storageKey),
     ]
 };

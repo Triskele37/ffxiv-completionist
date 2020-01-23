@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AnimaWeapons = {
-    name: "Anima Weapons",
-	storageKey: "quest.side-quest.side-story.anima-weapons",
-    columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AnimaWeapons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.anima-weapons`;
+
+    return {
+        name: "Anima Weapons",
+    	storageKey,
+        columns: QuestColumnConfig,
+        tasks: [{
             level: "60",
             name: "An Unexpected Proposal"
         }, {
@@ -47,6 +49,6 @@ export const AnimaWeapons = {
         }, {
             level: "60",
             name: "Best Friends Forever"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const CollaborationQuests = {
-    name: "Collaboration",
-	storageKey: "quest.other.collaboration",
-    columns: SimpleQuestColumnConfig,
-    tasks: [
-        {
+export const CollaborationQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.collaboration`;
+
+    return {
+        name: "Collaboration",
+    	storageKey,
+        columns: SimpleQuestColumnConfig,
+        tasks: [{
             level: "70",
             name: "The New King on the Block"
         }, {
@@ -20,6 +22,6 @@ export const CollaborationQuests = {
         }, {
             level: "50",
             name: "Messenger of the Winds"
-        }
-    ]
+        }]
+    };
 };

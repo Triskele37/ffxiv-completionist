@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DarkKnightQuests = {
-    name: "Dark Knight",
-	storageKey: "quest.class-and-job.dark-knight",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const DarkKnightQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dark-knight`;
+
+    return {
+        name: "Dark Knight",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Our End"
         }, {
@@ -59,6 +61,6 @@ export const DarkKnightQuests = {
         }, {
         	level: "80",
         	name: "Our Closure"
-        },
-    ]
+        }]
+    };
 };

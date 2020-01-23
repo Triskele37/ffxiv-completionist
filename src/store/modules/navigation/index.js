@@ -4,9 +4,9 @@ import { getters } from './getters';
 import { actions } from './actions';
 
 export const navigation = {
-  namespaced: true,
-  state,
-  mutations,
-  getters,
-  actions
+    namespaced: true,
+    state,
+    mutations,
+    getters,
+    actions
 };

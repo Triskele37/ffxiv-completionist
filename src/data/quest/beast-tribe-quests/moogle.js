@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=38&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const MoogleQuests = {
-    name: "Moogle",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const MoogleQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.moogle`;
+
+    return {
+        name: "Moogle",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "50",
@@ -238,6 +241,6 @@ export const MoogleQuests = {
             npc: "Mogek The Marvelous",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

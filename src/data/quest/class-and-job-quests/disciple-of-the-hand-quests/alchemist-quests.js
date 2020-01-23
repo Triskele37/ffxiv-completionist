@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlchemistQuests = {
-    name: "Alchemist",
-	storageKey: "quest.class-and-job.alchemist",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AlchemistQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.alchemist`;
+
+    return {
+        name: "Alchemist",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Alchemist"
         }, {
@@ -71,6 +73,6 @@ export const AlchemistQuests = {
         }, {
         	level: "70",
         	name: "A Love Beyond Lifetimes"
-        },
-    ]
+        }]
+    };
 };

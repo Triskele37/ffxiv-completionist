@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MNaagoQuests = {
-    name: "M'Naago",
-	storageKey: "quest.main-scenario",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MNaagoQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.m-naago`;
+
+    return {
+        name: "M'Naago",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "A Friend of a Friend in Need",
         	npc: "M'naago Rahz",
@@ -25,6 +27,6 @@ export const MNaagoQuests = {
         	name: "Let Fill Your Hearts with Pride",
         	npc: "M'naago Rahz",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

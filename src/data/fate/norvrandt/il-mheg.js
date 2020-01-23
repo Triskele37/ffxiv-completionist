@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const IlMhegFATEs = {
-    name: "Il Mheg",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const IlMhegFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.il-mheg`;
+
+    return {
+        name: "Il Mheg",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "72",
         	name: "Bear Necessities",
         	location: "Timh Gyeus (17.2-35.3)",
@@ -85,6 +87,6 @@ export const IlMhegFATEs = {
         	name: "Great Daens",
         	location: "Voeburtenburg (27.3-10.0)",
         	type: "Defense"
-        },
-    ]
+        }]
+    };
 };

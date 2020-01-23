@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const ImmortalFlamesHunting = {
-    name: "Immortal Flames",
-	storageKey: "logs.hunting.immortal-flames",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const ImmortalFlamesHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.immortal-flames`;
+
+    return {
+        name: "Immortal Flames",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Amalj'aa Hunter x3",
@@ -185,6 +187,6 @@ export const ImmortalFlamesHunting = {
             mob: "Soldier of Nym x3",
             zone: "Upper La Noscea",
             location: "The Wanderer's Palace (Instance)"
-        },
-    ]
+        }]
+    };
 };

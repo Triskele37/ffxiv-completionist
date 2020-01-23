@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheFringes = {
-    name: "The Fringes",
-	storageKey: "quest.side-quest.gyr-abanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheFringes = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-fringes`;
+
+    return {
+        name: "The Fringes",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Magiteknical Failure",
         	npc: "Loezkirz",
@@ -145,6 +147,6 @@ export const TheFringes = {
         	name: "My Dear Brother",
         	npc: "Somber Sibling",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

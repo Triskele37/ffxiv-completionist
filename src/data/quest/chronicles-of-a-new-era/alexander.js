@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=13&columns=ID,Name&limit=15
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Alexander = {
-    name: "Alexander",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Alexander = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.alexander`;
+
+    return {
+        name: "Alexander",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Disarmed",
         	npc: "Slowfix",
@@ -81,6 +83,6 @@ export const Alexander = {
         	name: "Of Endings and Beginnings",
         	npc: "Biggs",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

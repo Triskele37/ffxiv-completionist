@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheSeaOfCloudsFATEs = {
-    name: "The Sea of Clouds",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheSeaOfCloudsFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-sea-of-clouds`;
+
+    return {
+        name: "The Sea of Clouds",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Food Fight (FATE)",
         	location: "Voor Sian Siran (28,32)",
@@ -130,6 +132,6 @@ export const TheSeaOfCloudsFATEs = {
         	name: "Rebel Yehl",
         	location: "Ok' Vundu Vana (37,14)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

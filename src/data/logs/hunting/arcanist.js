@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const ArcanistHunting = {
-    name: "Arcanist",
-	storageKey: "logs.hunting.arcanist",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const ArcanistHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.arcanist`;
+
+    return {
+        name: "Arcanist",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Little Ladybug x3",
@@ -305,6 +307,6 @@ export const ArcanistHunting = {
             mob: "4th Cohort Vanguard x4",
             zone: "Western Thanalan",
             location: "Cape Westwind (12,7)"
-        },
-    ]
+        }]
+    };
 };

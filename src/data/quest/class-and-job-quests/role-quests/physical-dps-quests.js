@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const PhysicalDPSQuests = {
-    name: "Physical DPS",
-	storageKey: "quest.class-and-job.role",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const PhysicalDPSQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.physical-dps`;
+
+    return {
+        name: "Physical DPS",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "No Greater Sport"
         }, {
@@ -23,6 +25,6 @@ export const PhysicalDPSQuests = {
         }, {
         	level: "80",
         	name: "Courage Born of Fear"
-        },
-    ]
+        }]
+    };
 };

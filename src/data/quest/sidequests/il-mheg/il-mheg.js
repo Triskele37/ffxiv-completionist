@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const IlMheg = {
-    name: "Il Mheg",
-	storageKey: "quest.side-quest.il-mheg",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const IlMheg = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.il-mheg`;
+
+    return {
+        name: "Il Mheg",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "A New Amano",
         	npc: "Sandman",
@@ -220,6 +222,6 @@ export const IlMheg = {
         	name: "What's in a Name",
         	npc: "Sigun Ul",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

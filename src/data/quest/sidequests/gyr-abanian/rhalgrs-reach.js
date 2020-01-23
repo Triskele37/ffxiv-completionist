@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const RhalgrsReach = {
-    name: "Rhalgr's Reach",
-	storageKey: "quest.side-quest.gyr-abanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const RhalgrsReach = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.rhalgrs-reach`;
+
+    return {
+        name: "Rhalgr's Reach",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "None Forgotten, None Forsaken",
         	npc: "Galiena",
@@ -70,6 +72,6 @@ export const RhalgrsReach = {
         	name: "Secret of the Ooze",
         	npc: "Sawney",
         	unlock: "Saint Mocianne's Arboretum (Hard)"
-        },
-    ]
+        }]
+    };
 };

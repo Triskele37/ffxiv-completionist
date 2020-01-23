@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const LakelandFATEs = {
-    name: "Lakeland",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const LakelandFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.lakeland`;
+
+    return {
+        name: "Lakeland",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "71",
         	name: "A Beast Among Men",
         	location: "The Forest of the Lost Shepherd (14.6-18.5)",
@@ -80,6 +82,6 @@ export const LakelandFATEs = {
         	name: "Toxic Nightshade",
         	location: "Weathering - The Stay (17.6-12.0)",
         	type: "Slay Enemies"
-        },
-    ]
+        }]
+    };
 };

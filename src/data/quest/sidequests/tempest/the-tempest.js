@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheTempest = {
-    name: "The Tempest",
-	storageKey: "quest.side-quest.tempest",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheTempest = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-tempest`;
+
+    return {
+        name: "The Tempest",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Beware the Benthos",
         	npc: "Kewshs Ooan",
@@ -100,6 +102,6 @@ export const TheTempest = {
         	name: "Pearls of the Deep",
         	npc: "Saushs Koal",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

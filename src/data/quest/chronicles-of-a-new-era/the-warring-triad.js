@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=14&columns=ID,Name&limit=10
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheWarringTriad = {
-    name: "The Warring Triad",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheWarringTriad = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-warring-triad`;
+
+    return {
+        name: "The Warring Triad",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Gods of Eld",
         	npc: "Torsefers",
@@ -56,6 +58,6 @@ export const TheWarringTriad = {
         	name: "A Demonic Duplicate",
         	npc: "Unukalhai",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

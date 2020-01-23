@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const UlDah = {
-    name: "Ul'dah",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const UlDah = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ul-dah`;
+
+    return {
+        name: "Ul'dah",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Coming to Ul'dah",
         	npc: "Wymond",
@@ -140,6 +142,6 @@ export const UlDah = {
         	name: "Corpse Groom",
         	npc: "Paiyo Reiyo",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

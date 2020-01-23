@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArcherQuests = {
-    name: "Archer",
-	storageKey: "quest.class-and-job.archer",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ArcherQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.archer`;
+
+    return {
+        name: "Archer",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Archer"
         }, {
@@ -29,6 +31,6 @@ export const ArcherQuests = {
         }, {
         	level: "30",
         	name: "The One that Got Away"
-        },
-    ]
+        }]
+    };
 };

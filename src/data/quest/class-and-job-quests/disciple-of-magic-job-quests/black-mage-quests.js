@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BlackMageQuests = {
-    name: "Black Mage",
-	storageKey: "quest.class-and-job.black-mage",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const BlackMageQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.black-mage`;
+
+    return {
+        name: "Black Mage",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Taking the Black"
         }, {
@@ -62,6 +64,6 @@ export const BlackMageQuests = {
         }, {
         	level: "80",
         	name: "A Home for a Tome"
-        },
-    ]
+        }]
+    };
 };

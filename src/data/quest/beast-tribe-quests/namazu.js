@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=44&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const NamazuQuests = {
-    name: "Namazu",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const NamazuQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.namazu`;
+
+    return {
+        name: "Namazu",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "60",
@@ -220,6 +223,6 @@ export const NamazuQuests = {
             npc: "Seigetsu the Enlightened",
             rep: "Sworn",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const MaelstromHunting = {
-    name: "Maelstrom",
-	storageKey: "logs.hunting.maelstrom",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const MaelstromHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.maelstrom`;
+
+    return {
+        name: "Maelstrom",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Amalj'aa Hunter x3",
@@ -185,6 +187,6 @@ export const MaelstromHunting = {
             mob: "Giant Bavarois x1",
             zone: "Upper La Noscea",
             location: "The Wanderer's Palace (Instance)"
-        },
-    ]
+        }]
+    };
 };

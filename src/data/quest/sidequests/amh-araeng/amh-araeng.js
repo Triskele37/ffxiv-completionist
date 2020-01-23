@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AmhAraeng = {
-    name: "Amh Araeng",
-	storageKey: "quest.side-quest.amh-araeng",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AmhAraeng = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.amh-araeng`;
+
+    return {
+        name: "Amh Araeng",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "And Justice Feral",
         	npc: "Bhol Bol",
@@ -260,6 +262,6 @@ export const AmhAraeng = {
         	name: "Mystery Miners",
         	npc: "???",
         	unlock: "???"
-        },
-    ]
+        }]
+    };
 };

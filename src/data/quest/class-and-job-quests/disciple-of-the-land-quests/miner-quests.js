@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MinerQuests = {
-    name: "Miner",
-	storageKey: "quest.class-and-job.miner",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MinerQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.miner`;
+
+    return {
+        name: "Miner",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Way of the Miner"
         }, {
@@ -71,6 +73,6 @@ export const MinerQuests = {
         }, {
         	level: "70",
         	name: "A Miner Success"
-        },
-    ]
+        }]
+    };
 };

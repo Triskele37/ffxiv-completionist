@@ -18,27 +18,32 @@ import { IlMheg } from './il-mheg';
 import { RakTika } from './rak-tika';
 import { Tempest } from './tempest';
 
-export const Sidequests = {
-    name: 'Sidequests',
-    subGroups: [
-        SideStory,
-        Lominsan,
-        Gridanian,
-        UlDahn,
-        Coerthan,
-        MorDhonan,
-        Ishgardian,
-        Abalathian,
-        Dravanian,
-        AzysLla,
-        GyrAbanian,
-        Othardian,
-        Hingan,
-        Lakeland,
-        Kholusia,
-        AmhAraeng,
-        IlMheg,
-        RakTika,
-        Tempest,
-    ]
+export const Sidequests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.sidequests`;
+
+    return {
+        name: 'Sidequests',
+        storageKey,
+        subGroups: [
+            SideStory(storageKey),
+            Lominsan(storageKey),
+            Gridanian(storageKey),
+            UlDahn(storageKey),
+            Coerthan(storageKey),
+            MorDhonan(storageKey),
+            Ishgardian(storageKey),
+            Abalathian(storageKey),
+            Dravanian(storageKey),
+            AzysLla(storageKey),
+            GyrAbanian(storageKey),
+            Othardian(storageKey),
+            Hingan(storageKey),
+            Lakeland(storageKey),
+            Kholusia(storageKey),
+            AmhAraeng(storageKey),
+            IlMheg(storageKey),
+            RakTika(storageKey),
+            Tempest(storageKey),
+        ]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheRakTikaGreatwood = {
-    name: "The Rak'Tika Greatwood",
-	storageKey: "quest.side-quest.rak-tika",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheRakTikaGreatwood = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-rak-tika-greatwood`;
+
+    return {
+        name: "The Rak'Tika Greatwood",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "An Express Delivery",
         	npc: "Hargra",
@@ -235,6 +237,6 @@ export const TheRakTikaGreatwood = {
         	name: "You're a Gem",
         	npc: "Davith",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

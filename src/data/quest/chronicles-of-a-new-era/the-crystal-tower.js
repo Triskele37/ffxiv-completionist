@@ -5,12 +5,14 @@ api contains 2 "Legacy of Allag"s?
 */
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheCrystalTower = {
-    name: "The Crystal Tower",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheCrystalTower = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-crystal-tower`;
+
+    return {
+        name: "The Crystal Tower",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Legacy of Allag",
         	npc: "Outlandish Man",
@@ -60,6 +62,6 @@ export const TheCrystalTower = {
         	name: "The Gift of the Archmagus",
         	npc: "Koh Rabntah",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

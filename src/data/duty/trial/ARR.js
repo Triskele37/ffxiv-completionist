@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const ARRTrials = {
-    name: "ARR",
-	storageKey: "duty.trials",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const ARRTrials = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ARR`;
+
+    return {
+        name: "ARR",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "20",
         	iLvlReq: "-",
         	name: "The Bowl of Embers",
@@ -194,6 +196,6 @@ export const ARRTrials = {
         	boss: "Shiva",
         	roulette: "-",
         	unlock: "Drop Dead Shiva"
-        },
-    ]
+        }]
+    };
 };

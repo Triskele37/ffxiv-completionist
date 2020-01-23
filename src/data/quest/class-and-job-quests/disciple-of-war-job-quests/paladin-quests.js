@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const PaladinQuests = {
-    name: "Paladin",
-	storageKey: "quest.class-and-job.paladin",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const PaladinQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.paladin`;
+
+    return {
+        name: "Paladin",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Paladin's Pledge"
         }, {
@@ -62,6 +64,6 @@ export const PaladinQuests = {
         }, {
         	level: "80",
         	name: "Worth Fighting For"
-        },
-    ]
+        }]
+    };
 };

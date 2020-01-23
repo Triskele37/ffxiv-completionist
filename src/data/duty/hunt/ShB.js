@@ -1,11 +1,13 @@
 import { HuntColumnConfig } from "../columnConfigs";
 
-export const ShBHunts = {
-    name: "ShB",
-	storageKey: "duty.the-hunt",
-    columns: HuntColumnConfig,
-    tasks: [
-        {
+export const ShBHunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ShB`;
+
+    return {
+        name: "ShB",
+    	storageKey,
+        columns: HuntColumnConfig,
+        tasks: [{
             rank: "B",
             name: "La Velue",
             condition: "N/A",
@@ -170,6 +172,6 @@ export const ShBHunts = {
             name: "Archaeotania",
             condition: "Complete Multiple FATEs",
             location: "Special"
-        },
-    ]
+        }]
+    };
 };

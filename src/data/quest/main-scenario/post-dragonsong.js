@@ -1,15 +1,18 @@
 import { QuestColumnConfig } from "../columnConfigs";
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=5&columns=ID,Name&limit=19
-export const PostDragonsongQuests = {
-    name: "Post-Dragonsong",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig.concat({
-        header: "Patch",
-        key: "patch",
-        filterable: true
-    }),
-    tasks: [
+export const PostDragonsongQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.post-dragonsong`;
+
+    return {
+        name: "Post-Dragonsong",
+    	storageKey,
+        columns: QuestColumnConfig.concat({
+            header: "Patch",
+            key: "patch",
+            filterable: true
+        }),
+        tasks: [
         //------------------------------------------------------------------ Soul Surrender
         {
             level: "60",
@@ -127,6 +130,6 @@ export const PostDragonsongQuests = {
             npc: "Alphinaud Leveilleur",
             unlock: "",
             patch: "The Far Edge of Fate"
-        },
-    ]
+        }]
+    };
 };

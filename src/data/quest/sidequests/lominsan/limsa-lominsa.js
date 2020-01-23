@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LimsaLominsa = {
-    name: "Limsa Lominsa",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const LimsaLominsa = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.limsa-lominsa`;
+
+    return {
+        name: "Limsa Lominsa",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Coming to Limsa Lominsa",
         	npc: "Ryssfloh",
@@ -145,6 +147,6 @@ export const LimsaLominsa = {
         	name: "Storming the Hull",
         	npc: "Denston",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

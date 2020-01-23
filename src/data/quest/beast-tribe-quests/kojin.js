@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=40&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const KojinQuests = {
-    name: "Kojin",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const KojinQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.kojin`;
+
+    return {
+        name: "Kojin",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "60",
@@ -190,6 +193,6 @@ export const KojinQuests = {
             npc: "Zukin",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

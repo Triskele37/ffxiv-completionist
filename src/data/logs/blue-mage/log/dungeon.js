@@ -1,11 +1,13 @@
 import { BlueMageLogColumnConfig } from "../../columnConfigs";
 
-export const BlueMageDungeons = {
-    name: "Dungeons",
-	storageKey: "logs.blue-mage.log",
-    columns: BlueMageLogColumnConfig,
-    tasks: [
-        {
+export const BlueMageDungeons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.dungeons`;
+
+    return {
+        name: "Dungeons",
+    	storageKey,
+        columns: BlueMageLogColumnConfig,
+        tasks: [{
             level: "50",
             iLvlReq: "45",
             name: "The Wanderer's Palace"
@@ -145,6 +147,6 @@ export const BlueMageDungeons = {
             level: "60",
             iLvlReq: "230",
             name: "Sohm Al (Hard)"
-        },
-    ]
+        }]
+    };
 };

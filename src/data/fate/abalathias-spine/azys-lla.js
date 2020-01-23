@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const AzysLlaFATEs = {
-    name: "Azys Lla",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const AzysLlaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.azys-lla`;
+
+    return {
+        name: "Azys Lla",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "59",
         	name: "Scared Sylla",
         	location: "Gamma Quadrant (34,36)",
@@ -115,6 +117,6 @@ export const AzysLlaFATEs = {
         	name: "A Bug's Death",
         	location: "Alpha Quadrant (18,19)",
         	type: "Defense"
-        },
-    ]
+        }]
+    };
 };

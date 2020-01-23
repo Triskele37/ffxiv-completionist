@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const EasternThanalanFATEs = {
-    name: "Eastern",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const EasternThanalanFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eastern`;
+
+    return {
+        name: "Eastern",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "15",
         	name: "License to Quill",
         	location: "Drybone (12,27)",
@@ -110,6 +112,6 @@ export const EasternThanalanFATEs = {
         	name: "The Big Bagoly Theory",
         	location: "The Burning Wall (30,25)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

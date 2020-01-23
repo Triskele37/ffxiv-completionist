@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const RogueHunting = {
-    name: "Rogue",
-	storageKey: "logs.hunting.rogue",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const RogueHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.rogue`;
+
+    return {
+        name: "Rogue",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Wharf Rat x3",
@@ -305,6 +307,6 @@ export const RogueHunting = {
             mob: "2nd Cohort Secutor x2, 2nd Cohort Vanguard x4",
             zone: "Eastern La Noscea",
             location: "Agelyss Wise (30,19), Agelyss Wise (30,20)"
-        },
-    ]
+        }]
+    };
 };

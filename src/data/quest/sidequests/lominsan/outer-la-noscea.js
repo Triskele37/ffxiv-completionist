@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const OuterLaNoscea = {
-    name: "Outer La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const OuterLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.outer`;
+
+    return {
+        name: "Outer La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "34",
         	name: "Never Trout that I Love",
         	npc: "Bloeidin",
@@ -60,6 +62,6 @@ export const OuterLaNoscea = {
         	name: "Claiming the Booty",
         	npc: "Bloeidin",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

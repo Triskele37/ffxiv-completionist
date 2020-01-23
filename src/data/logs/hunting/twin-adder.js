@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const TwinAdderHunting = {
-    name: "Twin Adder",
-	storageKey: "logs.hunting.twin-adder",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const TwinAdderHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.twin-adder`;
+
+    return {
+        name: "Twin Adder",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Amalj'aa Javelinier x3",
@@ -185,6 +187,6 @@ export const TwinAdderHunting = {
             mob: "Keeper of Halidom",
             zone: "Upper La Noscea",
             location: "The Wanderer's Palace (Instance)"
-        },
-    ]
+        }]
+    };
 };

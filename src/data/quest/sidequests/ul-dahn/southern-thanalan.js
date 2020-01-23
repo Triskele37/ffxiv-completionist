@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const SouthernThanalan = {
-    name: "Southern Thanalan",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const SouthernThanalan = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.southern`;
+
+    return {
+        name: "Southern Thanalan",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "25",
         	name: "Leves of Little Ala Mhigo",
         	npc: "Esmond",
@@ -110,6 +112,6 @@ export const SouthernThanalan = {
         	name: "Journey's Beginning",
         	npc: "Bertliana",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheForbiddenLandEureka = {
-    name: "The Forbidden Land, Eureka",
-	storageKey: "quest.side-quest.side-story.eureka",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheForbiddenLandEureka = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.eureka`;
+
+    return {
+        name: "The Forbidden Land, Eureka",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "And We Shall Call It Eureka",
         	npc: "Galiena",
@@ -25,6 +27,6 @@ export const TheForbiddenLandEureka = {
         	name: "And We Shall Call It Hydatos",
         	npc: "Rodney",
         	unlock: "Eureka Hydatos"
-        },
-    ]
+        }]
+    };
 };

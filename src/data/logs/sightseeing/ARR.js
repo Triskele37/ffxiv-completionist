@@ -1,11 +1,13 @@
 import { SightseeingLogColumnConfig } from "../columnConfigs";
 
-export const SightseeingARR = {
-    name: "ARR",
-	storageKey: "logs.sightseeing",
-    columns: SightseeingLogColumnConfig,
-    tasks: [
-        {
+export const SightseeingARR = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ARR`;
+
+    return {
+        name: "ARR",
+    	storageKey,
+        columns: SightseeingLogColumnConfig,
+        tasks: [{
             name: "Barracuda Piers",
             vista: "01",
             zone: "Limsa Lominsa Upper Decks",
@@ -645,6 +647,6 @@ export const SightseeingARR = {
             weather: "Clear Skies/Sunshine",
             time: "5PM-6PM",
             emote: "Sit"
-        },
-    ]
+        }]
+    };
 };

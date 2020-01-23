@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LimsaLominsaStartingQuests = {
-    name: "Limsa Lominsa",
-	storageKey: "quest.main-scenario.limsa-lominsa",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const LimsaLominsaStartingQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.limsa-lominsa`;
+
+    return {
+        name: "Limsa Lominsa",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "1",
         	name: "Close to Home",
         	npc: "Baderon",
@@ -135,6 +137,6 @@ export const LimsaLominsaStartingQuests = {
         	name: "Call of the Sea",
         	npc: "Bartholomew",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

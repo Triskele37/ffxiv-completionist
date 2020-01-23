@@ -1,11 +1,13 @@
 import { SightseeingLogColumnConfig } from "../columnConfigs";
 
-export const SightseeingSB = {
-    name: "SB",
-	storageKey: "logs.sightseeing",
-    columns: SightseeingLogColumnConfig,
-    tasks: [
-        {
+export const SightseeingSB = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.SB`;
+
+    return {
+        name: "SB",
+    	storageKey,
+        columns: SightseeingLogColumnConfig,
+        tasks: [{
             name: "Castellum Velodyna",
             vista: "01",
             zone: "The Fringes",
@@ -501,6 +503,6 @@ export const SightseeingSB = {
             weather: "X",
             time: "X",
             emote: "Lookout"
-        },
-    ]
+        }]
+    };
 };

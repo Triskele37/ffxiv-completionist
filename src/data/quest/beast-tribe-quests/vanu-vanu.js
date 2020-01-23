@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=34&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const VanuVanuQuests = {
-    name: "Vanu Vanu",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const VanuVanuQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.vanu-vanu`;
+
+    return {
+        name: "Vanu Vanu",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "50",
@@ -238,6 +241,6 @@ export const VanuVanuQuests = {
             npc: "Manu Vanu",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

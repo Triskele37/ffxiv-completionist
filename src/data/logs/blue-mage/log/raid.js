@@ -1,11 +1,13 @@
 import { BlueMageLogColumnConfig } from "../../columnConfigs";
 
-export const BlueMageRaids = {
-    name: "Raids",
-	storageKey: "logs.blue-mage.log",
-    columns: BlueMageLogColumnConfig,
-    tasks: [
-        {
+export const BlueMageRaids = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.raids`;
+
+    return {
+        name: "Raids",
+    	storageKey,
+        columns: BlueMageLogColumnConfig,
+        tasks: [{
             level: "50",
             iLvlReq: "50",
             name: "Labyrinth of the Ancients"
@@ -53,6 +55,6 @@ export const BlueMageRaids = {
             level: "60",
             iLvlReq: "235",
             name: "Dun Scaith"
-        },
-    ]
+        }]
+    };
 };

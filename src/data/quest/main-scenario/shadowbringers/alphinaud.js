@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlphinaudQuests = {
-    name: "Alphinaud",
-	storageKey: "quest.main-scenario",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const AlphinaudQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.alphinaud`;
+
+    return {
+        name: "Alphinaud",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "In Search of Alphinaud",
         	npc: "Crystal Exarch",
@@ -50,6 +52,6 @@ export const AlphinaudQuests = {
         	name: "Emergent Splendor",
         	npc: "Alphinaud Leveilleur",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

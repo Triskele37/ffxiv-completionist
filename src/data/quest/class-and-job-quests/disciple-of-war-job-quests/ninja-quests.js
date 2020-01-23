@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const NinjaQuests = {
-    name: "Ninja",
-	storageKey: "quest.class-and-job.ninja",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const NinjaQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ninja`;
+
+    return {
+        name: "Ninja",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "30",
         	name: "Peasants by Day, Ninjas by Night"
         }, {
@@ -71,6 +73,6 @@ export const NinjaQuests = {
         }, {
         	level: "80",
         	name: "Oboro's Big Idea"
-        },
-    ]
+        }]
+    };
 };

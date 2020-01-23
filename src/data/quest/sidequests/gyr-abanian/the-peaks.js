@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ThePeaks = {
-    name: "The Peaks",
-	storageKey: "quest.side-quest.gyr-abanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const ThePeaks = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-peaks`;
+
+    return {
+        name: "The Peaks",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "60",
         	name: "Dark Water",
         	npc: "Ansger",
@@ -280,6 +282,6 @@ export const ThePeaks = {
         	name: "Journey's End",
         	npc: "Bertliana",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

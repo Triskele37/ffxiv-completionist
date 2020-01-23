@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const KholusiaFATEs = {
-    name: "Kholusia",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const KholusiaFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.kholusia`;
+
+    return {
+        name: "Kholusia",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Bitter Barley",
         	location: "Shadow Fault (18.1-30.8)",
@@ -85,6 +87,6 @@ export const KholusiaFATEs = {
         	name: "A Finale Most Formidable",
         	location: "The Bright Cliff (33-26)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

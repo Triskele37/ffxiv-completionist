@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const AmhAraengFATEs = {
-    name: "Amh Araeng",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const AmhAraengFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.amh-araeng`;
+
+    return {
+        name: "Amh Araeng",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Bayawak Attack",
         	location: "The Fields of Amber (32.4-14.2)",
@@ -90,6 +92,6 @@ export const AmhAraengFATEs = {
         	name: "The Odd Couple",
         	location: "The Southern Hills of Amber (17.0-32.6)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

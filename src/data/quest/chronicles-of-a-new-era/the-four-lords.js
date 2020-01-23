@@ -1,12 +1,14 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=18&columns=ID,Name&limit=5
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheFourLords = {
-    name: "The Four Lords",
-	storageKey: "quest.chronicles",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheFourLords = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-four-lords`;
+
+    return {
+        name: "The Four Lords",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "An Auspicious Encounter",
         	npc: "Soroban",
@@ -31,6 +33,6 @@ export const TheFourLords = {
         	name: "The Fifth Lord",
         	npc: "Seiryu",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

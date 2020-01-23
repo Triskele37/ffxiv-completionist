@@ -1,11 +1,13 @@
 import { HuntColumnConfig } from "../columnConfigs";
 
-export const ARRHunts = {
-    name: "ARR",
-	storageKey: "duty.the-hunt",
-    columns: HuntColumnConfig,
-    tasks: [
-    	{
+export const ARRHunts = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.ARR`;
+
+    return {
+        name: "ARR",
+    	storageKey,
+        columns: HuntColumnConfig,
+        tasks: [{
 			rank: "B",
 			name: "Albin the Ashen",
 			condition: "N/A",
@@ -260,6 +262,6 @@ export const ARRHunts = {
 			name: "Zona Seeker",
 			condition: "Fish a Glimmerscale.",
 			location: "Western Thanalan"
-		}
-    ]
+		}]
+    };
 };

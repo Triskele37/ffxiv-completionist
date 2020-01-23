@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WesternLaNoscea = {
-    name: "Western La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const WesternLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.western`;
+
+    return {
+        name: "Western La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "10",
         	name: "Simply the Hest (Limsa Lominsa)",
         	npc: "Swygskyf",
@@ -165,6 +167,6 @@ export const WesternLaNoscea = {
         	name: "Why So Sirius",
         	npc: "Diamanda",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

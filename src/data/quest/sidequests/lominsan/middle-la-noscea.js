@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MiddleLaNoscea = {
-    name: "Middle La Noscea",
-	storageKey: "quest.side-quest.lominsan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MiddleLaNoscea = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.middle`;
+
+    return {
+        name: "Middle La Noscea",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "5",
         	name: "Rocks in a Hard Place",
         	npc: "Grynewyda",
@@ -45,6 +47,6 @@ export const MiddleLaNoscea = {
         	name: "Baiting Buzzards",
         	npc: "Kazai Buoyzai",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const TheLochsFATEs = {
-    name: "The Lochs",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const TheLochsFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-lochs`;
+
+    return {
+        name: "The Lochs",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "69",
         	name: "Enemy Territory",
         	location: "The High Bank (13.1,17.5)",
@@ -180,6 +182,6 @@ export const TheLochsFATEs = {
         	name: "A Horse Outside",
         	location: "Abalathia's Skull  (4,15), (29,9), The High Bank  (16,22)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

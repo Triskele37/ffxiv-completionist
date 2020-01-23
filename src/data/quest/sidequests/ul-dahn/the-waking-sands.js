@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheWakingSands = {
-    name: "The Waking Sands",
-	storageKey: "quest.side-quest.ul-dahn",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheWakingSands = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-waking-sands`;
+
+    return {
+        name: "The Waking Sands",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "46",
         	name: "Primal Fear",
         	npc: "Urianger",
@@ -25,6 +27,6 @@ export const TheWakingSands = {
         	name: "Into the Valley of the Skull",
         	npc: "Radolf",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

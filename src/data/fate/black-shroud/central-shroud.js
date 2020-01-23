@@ -1,11 +1,13 @@
 import { FATEColumnConfig } from "../columnConfigs";
 
-export const CentralShroudFATEs = {
-    name: "Central",
-	storageKey: "duty.fate",
-    columns: FATEColumnConfig,
-    tasks: [
-        {
+export const CentralShroudFATEs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central`;
+
+    return {
+        name: "Central",
+    	storageKey,
+        columns: FATEColumnConfig,
+        tasks: [{
         	level: "4",
         	name: "One Enchanted Eve",
         	location: "Jadeite Thick (25,18)",
@@ -120,6 +122,6 @@ export const CentralShroudFATEs = {
         	name: "In Spite of It All",
         	location: "The Standing Corses (11,18)",
         	type: "Notorious Monster"
-        },
-    ]
+        }]
+    };
 };

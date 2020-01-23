@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheDravanianForelands = {
-    name: "The Dravanian Forelands",
-	storageKey: "quest.side-quest.dravanian",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheDravanianForelands = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-dravanian-forelands`;
+
+    return {
+        name: "The Dravanian Forelands",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "52",
         	name: "Some Bad News",
         	npc: "Marcechamp",
@@ -295,6 +297,6 @@ export const TheDravanianForelands = {
         	name: "From the Jaws of Hunger",
         	npc: "Gullinkambi",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

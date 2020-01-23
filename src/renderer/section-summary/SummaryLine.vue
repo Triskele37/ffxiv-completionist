@@ -33,68 +33,16 @@
                 return ((this.totals.completed / this.totals.total) * 100).toFixed(2);
             },
             totals: function() {
-                return dive(this.group);
+                return this.$store.getters.getTotals(this.group.storageKey);
             },
             completeBarStyle: function() {
-                const style = { width: `${this.completedPercentage}%` };
-
-                if(this.completedPercentage === '0.00') {
-                    style.display = 'none';
-                }
-                else if(this.completedPercentage === '100.00') {
-                    style['border-top-right-radius'] = '19px';
-                    style['border-bottom-right-radius'] = '19px';
-                }
-
-                return style;
+                return { width: `${this.completedPercentage}%` };
             },
             incompleteBarStyle: function() {
                 // -1px is to give some breathing room for the float calculation
-                const style = { width: `calc(${100-this.completedPercentage}% - 1px)` };
-
-                if(this.completedPercentage === '0.00') {
-                    style['border-top-left-radius'] = '19px';
-                    style['border-bottom-left-radius'] = '19px';
-                }
-                else if(this.completedPercentage === '100.00') {
-                    style.display = 'none';
-                }
-
-                return style;
+                return { width: `calc(${100-this.completedPercentage}% - 1px)` };
             }
         }
-    }
-
-    function dive(group) {
-        const totals = {
-            total: 0,
-            excluded: 0,
-            completed: 0,
-        };
-
-        // Count total/completed/excluded in tasks
-        if(group.tasks) {
-            group.tasks.forEach(function(task) {
-                const taskCompleted = store.get(`${group.storageKey}.${task.name}`);
-
-                if(taskCompleted !== 'X') totals.total++;
-                else totals.excluded++;
-
-                if(taskCompleted === 'Y') totals.completed++;
-            });
-        }
-
-        // Dive into subGroups
-        if(group.subGroups) {
-            group.subGroups.forEach(function(subGroup) {
-                const subTotals = dive(subGroup);
-                totals.total += subTotals.total;
-                totals.completed += subTotals.completed;
-                totals.excluded += subTotals.excluded;
-            });
-        }
-
-        return totals;
     }
 </script>
 
@@ -104,6 +52,10 @@
         text-align: center;
         height: 38px;
         margin: 10px;
+
+        border: 1px outset;
+        border-radius: 19px;
+        overflow: hidden;
     }
 
     .summary-line-info {
@@ -117,23 +69,14 @@
         position: relative;
         height: 100%;
         z-index: 5;
-
-        border: 1px outset;
-        box-sizing: border-box;
         float: left;
     }
 
     .complete-progress {
         background-color: #0f7538;
-        border-top-left-radius: 19px;
-        border-bottom-left-radius: 19px;
-        border-right: none;
     }
 
     .incomplete-progress {
         background-color: #75190f;
-        border-top-right-radius: 19px;
-        border-bottom-right-radius: 19px;
-        border-left: none;
     }
 </style>

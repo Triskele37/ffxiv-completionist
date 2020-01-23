@@ -55,7 +55,7 @@
 
                 return !!this.selectedGroup.subGroups;
             }
-        }
+        },
     };
 </script>
 

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MachinistQuests = {
-    name: "Machinist",
-	storageKey: "quest.class-and-job.machinist",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const MachinistQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.machinist`;
+
+    return {
+        name: "Machinist",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Savior of Skysteel"
         }, {
@@ -71,6 +73,6 @@ export const MachinistQuests = {
         }, {
         	level: "80",
         	name: "Machinists for the Morrow"
-        },
-    ]
+        }]
+    };
 };

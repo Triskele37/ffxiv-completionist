@@ -1,10 +1,13 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const ClothcraftingLeves = {
-    name: "Clothcrafting",
-	storageKey: "quest.levequests.clothcrafting",
-    columns: LeveQuestColumnConfig,
-    tasks: [
+export const ClothcraftingLeves = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.clothcrafting`;
+
+    return {
+        name: "Clothcrafting",
+    	storageKey,
+        columns: LeveQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ 1-5
         {
             level: "1",
@@ -742,6 +745,6 @@ export const ClothcraftingLeves = {
             zone: "The Crystarium",
             location: "The Baldaquin",
             npc: "Eirikur"
-        },
-    ]
+        }]
+    };
 };

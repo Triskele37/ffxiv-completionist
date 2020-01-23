@@ -1,11 +1,13 @@
 import { FishingGuideColumnConfig } from "../columnConfigs";
 
-export const FishingGuideSpearfishing = {
-    name: "Spearfishing",
-	storageKey: "gathering-log.fishing-guide.spearfishing",
-    columns: FishingGuideColumnConfig,
-    tasks: [
-        {
+export const FishingGuideSpearfishing = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.spearfishing-guide`;
+
+    return {
+        name: "Spearfishing",
+    	storageKey,
+        columns: FishingGuideColumnConfig,
+        tasks: [{
             ilvl: "205",
             name: "Wentletrap",
             primeLocation: "The Ruby Sea",
@@ -1490,6 +1492,6 @@ export const FishingGuideSpearfishing = {
             bait: "Small",
             usages: "Collectable",
             special: ""
-        },
-    ]
+        }]
+    };
 };

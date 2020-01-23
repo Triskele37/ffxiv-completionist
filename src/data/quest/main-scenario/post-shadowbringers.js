@@ -1,16 +1,18 @@
 import { QuestColumnConfig } from "../columnConfigs";
 
-
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=10
-export const PostShadowbringers = {
-    name: "Post-Shadowbringers",
-	storageKey: "quest.main-scenario",
-    columns: QuestColumnConfig.concat({
-        header: "Patch",
-        key: "patch",
-        filterable: true
-    }),
-    tasks: [
+export const PostShadowbringers = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.post-shadowbringers`;
+
+    return {
+        name: "Post-Shadowbringers",
+    	storageKey,
+        columns: QuestColumnConfig.concat({
+            header: "Patch",
+            key: "patch",
+            filterable: true
+        }),
+        tasks: [
         //------------------------------------------------------------------ Vows of Virtue, Deeds of Cruelty
         {
             level: "80",
@@ -72,10 +74,6 @@ export const PostShadowbringers = {
             npc: "Alphinaud Leveilleur",
             unlock: "",
             patch: "Vows of Virtue, Deeds of Cruelty"
-        },
-        //------------------------------------------------------------------
-        //------------------------------------------------------------------
-        //------------------------------------------------------------------
-        //------------------------------------------------------------------
-    ]
+        }]
+    };
 };

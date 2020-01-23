@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DomanReconstruction = {
-    name: "Doman Reconstruction",
-	storageKey: "quest.side-quest.side-story.doman-reconstruction",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const DomanReconstruction = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.doman-reconstruction`;
+
+    return {
+        name: "Doman Reconstruction",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "Precious Reclamation",
         	npc: "Kozakura",
@@ -45,6 +47,6 @@ export const DomanReconstruction = {
         	name: "Lighting the Way",
         	npc: "Kozakura",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

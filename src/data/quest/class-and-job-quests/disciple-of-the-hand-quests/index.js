@@ -7,16 +7,21 @@ import { WeaverQuests } from "./weaver-quests";
 import { AlchemistQuests } from "./alchemist-quests";
 import { CulinarianQuests } from "./culinarian-quests";
 
-export const DiscipleOfTheHandQuests = {
-    name: "Disciple of the Hand",
-    subGroups: [
-        CarpenterQuests,
-        BlacksmithQuests,
-        ArmorerQuests,
-        GoldsmithQuests,
-        LeatherworkerQuests,
-        WeaverQuests,
-        AlchemistQuests,
-        CulinarianQuests,
-    ]
+export const DiscipleOfTheHandQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.disciple-of-the-hand`;
+
+    return {
+        name: "Disciple of the Hand",
+        storageKey,
+        subGroups: [
+            CarpenterQuests(storageKey),
+            BlacksmithQuests(storageKey),
+            ArmorerQuests(storageKey),
+            GoldsmithQuests(storageKey),
+            LeatherworkerQuests(storageKey),
+            WeaverQuests(storageKey),
+            AlchemistQuests(storageKey),
+            CulinarianQuests(storageKey),
+        ]
+    };
 };

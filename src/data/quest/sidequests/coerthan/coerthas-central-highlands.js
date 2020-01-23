@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CoerthasCentralHighlands = {
-    name: "Coerthas Central Highlands",
-	storageKey: "quest.side-quest.coerthan",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const CoerthasCentralHighlands = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.central-highlands`;
+
+    return {
+        name: "Coerthas Central Highlands",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "35",
         	name: "Leves of the Observatorium",
         	npc: "Cimeaurant",
@@ -225,6 +227,6 @@ export const CoerthasCentralHighlands = {
         	name: "Doubt Truth to Be a Liar",
         	npc: "Cailean",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Kholusia = {
-    name: "Kholusia",
-	storageKey: "quest.side-quest.kholusia",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const Kholusia = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.kholusia`;
+
+    return {
+        name: "Kholusia",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "A Clam to Die For",
         	npc: "Strong-willed Wife",
@@ -220,6 +222,6 @@ export const Kholusia = {
         	name: "With Ale Due Respect",
         	npc: "Riott",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

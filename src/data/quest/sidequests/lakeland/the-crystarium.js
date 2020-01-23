@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheCrystarium = {
-    name: "The Crystarium",
-	storageKey: "quest.side-quest.lakeland",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const TheCrystarium = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.the-crystarium`;
+
+    return {
+        name: "The Crystarium",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "70",
         	name: "A Cry for Help",
         	npc: "Billfort",
@@ -100,6 +102,6 @@ export const TheCrystarium = {
         	name: "By the Time You Hear This",
         	npc: "Bethana",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };

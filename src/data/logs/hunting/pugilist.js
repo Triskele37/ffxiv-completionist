@@ -1,11 +1,13 @@
 import { HuntingLogColumnConfig } from "../columnConfigs";
 
-export const PugilistHunting = {
-    name: "Pugilist",
-	storageKey: "logs.hunting.pugilist",
-    columns: HuntingLogColumnConfig,
-    tasks: [
-        {
+export const PugilistHunting = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.pugilist`;
+
+    return {
+        name: "Pugilist",
+    	storageKey,
+        columns: HuntingLogColumnConfig,
+        tasks: [{
             name: "01",
             rank: "1",
             mob: "Huge Hornet x4",
@@ -305,6 +307,6 @@ export const PugilistHunting = {
             mob: "Zahar'ak Battle Drake x4, Basilisk x3, Shelfclaw Reaver x4",
             zone: "Southern Thanalan, Northern Thanalan, Western La Noscea",
             location: "Zahar'ak (30,19), Bluefog (22,24), Halfstone (13,17)"
-        },
-    ]
+        }]
+    };
 };

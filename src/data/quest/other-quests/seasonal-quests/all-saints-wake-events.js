@@ -1,11 +1,13 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const AllSaintsWakeEvents = {
-    name: "All Saints' Wake",
-	storageKey: "quest.other.seasonal",
-    columns: SimpleQuestColumnConfig,
-    tasks: [
-        {
+export const AllSaintsWakeEvents = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.all-saints-wake`;
+
+    return {
+        name: "All Saints' Wake",
+    	storageKey,
+        columns: SimpleQuestColumnConfig,
+        tasks: [{
             level: "15",
             name: "The Sinister Soiree"
         }, {
@@ -26,6 +28,6 @@ export const AllSaintsWakeEvents = {
         }, {
             level: "15",
             name: "Haunting Grounds"
-        },
-    ]
+        }]
+    };
 };

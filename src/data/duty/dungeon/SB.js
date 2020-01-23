@@ -1,11 +1,13 @@
 import { DutyColumnConfig } from "../columnConfigs";
 
-export const SBDungeons = {
-    name: "SB",
-	storageKey: "duty.dungeons",
-    columns: DutyColumnConfig,
-    tasks: [
-        {
+export const SBDungeons = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.SB`;
+
+    return {
+        name: "SB",
+    	storageKey,
+        columns: DutyColumnConfig,
+        tasks: [{
         	level: "61",
         	iLvlReq: "240",
         	name: "The Sirensong Sea",
@@ -95,6 +97,6 @@ export const SBDungeons = {
         	name: "The Ghimlyt Dark",
         	roulette: "Expert",
         	unlock: "The Face of War"
-        },
-    ]
+        }]
+    };
 };

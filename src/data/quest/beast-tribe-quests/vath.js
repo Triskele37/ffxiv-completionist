@@ -2,11 +2,14 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=36&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const VathQuests = {
-    name: "Vath",
-	storageKey: "quest.beast-tribe",
-    columns: BeastTribeQuestColumnConfig,
-    tasks: [
+export const VathQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.vath`;
+
+    return {
+        name: "Vath",
+    	storageKey,
+        columns: BeastTribeQuestColumnConfig,
+        tasks: [
         //------------------------------------------------------------------ Main
         {
             level: "50",
@@ -166,6 +169,6 @@ export const VathQuests = {
             npc: "Vath Keeneye",
             rep: "Honored",
             type: "Daily"
-        },
-    ]
+        }]
+    };
 };

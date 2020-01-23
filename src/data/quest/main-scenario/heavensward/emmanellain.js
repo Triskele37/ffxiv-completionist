@@ -1,11 +1,13 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EmmanellainQuests = {
-    name: "Emmanellain",
-	storageKey: "quest.main-scenario",
-	columns: QuestColumnConfig,
-    tasks: [
-        {
+export const HeavenswardEmmanellainQuests = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.emmanellain`;
+
+    return {
+        name: "Emmanellain",
+    	storageKey,
+    	columns: QuestColumnConfig,
+        tasks: [{
         	level: "50",
         	name: "Onwards and Upwards",
         	npc: "Emmanellain",
@@ -40,6 +42,6 @@ export const EmmanellainQuests = {
         	name: "A Reward Long in Coming",
         	npc: "Emmanellain",
         	unlock: ""
-        },
-    ]
+        }]
+    };
 };
