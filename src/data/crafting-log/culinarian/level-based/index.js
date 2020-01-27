@@ -15,11 +15,11 @@ import { CulinarianLevels_66_70 } from "./level-66-70";
 import { CulinarianLevels_71_75 } from "./level-71-75";
 import { CulinarianLevels_76_80 } from "./level-76-80";
 
-export const CulinarianLevelBased = function (parentStorageKey) {
+export const CulinarianLevelBased = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.level-based`;
 
     return {
-        name: 'Level Based',
+        name: "Level Based",
         storageKey,
         subGroups: [
             CulinarianLevels_1_5(storageKey),

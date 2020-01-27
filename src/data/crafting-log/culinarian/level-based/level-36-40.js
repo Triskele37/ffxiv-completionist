@@ -1,6 +1,6 @@
 import { CraftingLogColumnConfig } from "../../columnConfigs";
 
-export const CulinarianLevels_36_40 = function (parentStorageKey) {
+export const CulinarianLevels_36_40 = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.level-36-40`;
 
     return {

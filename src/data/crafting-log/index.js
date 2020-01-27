@@ -26,7 +26,6 @@ export const CraftingLogs = function(parentStorageKey) {
             LeatherworkerCraftingLogs(storageKey),
             WeaverCraftingLogs(storageKey),
             AlchemistCraftingLogs(storageKey),
-            
             CulinarianCraftingLogs(storageKey),
         ]
     };

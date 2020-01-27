@@ -10,7 +10,7 @@ export const CulinarianMasterRecipe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.master-recipes`;
 
     return {
-        name: 'Master Recipes',
+        name: "Master Recipes",
         storageKey,
         subGroups: [
             Culinarian_MasterRecipe_1(storageKey),
