@@ -6,7 +6,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
 
     return {
         name: "Housing 2",
-        storageKey: "crafting-log.culinarian.housing-recipes.housing-2",
+        storageKey,
         columns: CraftingLogColumnConfig,
         tasks: [
             {

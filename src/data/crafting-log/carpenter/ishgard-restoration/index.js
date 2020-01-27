@@ -6,6 +6,7 @@ export const Carpenter_IshgardRestoration_Recipe = function(parentStorageKey) {
 
     return {
         name: "Ishgard Restoration Recipes",
+        storageKey,
         subGroups: [
             Carpenter_Restoration(storageKey),
             Carpenter_Other(storageKey),

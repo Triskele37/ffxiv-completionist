@@ -1,5 +1,13 @@
 <template>
     <span id="nav-drawer">
+        <!---------------------- Main Menu ---------------------->
+        <nav-group
+            :show="true"
+            :degree="1"
+            :group="mainMenu"
+        />
+
+        <!---------------------- Data Nav ---------------------->
         <nav-group
             v-for="group in groups"
             :key="group.name"
@@ -7,24 +15,27 @@
             :degree="1"
             :group="group"
         />
+
+        <!---------------------- Debug Menu ---------------------->
         <nav-group
             :show="true"
             :degree="1"
-            :group="debug"
+            :group="debugMenu"
         />
     </span>
 </template>
 
 <script>
     import { data } from '../../data';
-    import { Debug } from '../../data/debug';
+    import { MainMenu, DebugMenu } from './menu-items';
     import NavGroup from './nav-group/NavGroup.vue';
 
     export default {
         name: 'nav-drawer',
         data: () => ({
-            debug: Debug,
-            groups: data.subGroups
+            groups: data.subGroups,
+            mainMenu: MainMenu,
+            debugMenu: DebugMenu,
         }),
         components: {
             'nav-group': NavGroup

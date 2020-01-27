@@ -57,5 +57,10 @@ function dive(group) {
     // Cache the totals per storageKey
     store.set(`${group.storageKey}.totals`, totals);
 
+    // Sanity log for unset storage keys
+    if(!group.storageKey) {
+        console.log(`No storage key at ${group.name}`);
+    }
+
     return totals;
 }

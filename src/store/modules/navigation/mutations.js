@@ -27,18 +27,7 @@ export const mutations = {
         state.selectedGroup = selectedGroup;
     },
     SET_SELECTED_GROUP (state, data) {
-        // Normal code hits this if and escapes
-        if(!state.breadcrumbs.includes('Debug')) {
-            state.selectedGroup = data;
-            return;
-        }
-
-        // Debug code here
-        switch(data.name) {
-            case 'Log Store': this.dispatch('logStore'); break;
-            case 'Recalculate Summaries': this.dispatch('calculateCompletionSummaries'); break;
-            case 'Nuke Store': this.dispatch('nukeStore'); break;
-        }
+        state.selectedGroup = data;
     },
     TOGGLE_SHOW_SUMMARY (state) {
         if(!state.selectedGroup || !state.selectedGroup.subGroups) state.showSummary = false;
