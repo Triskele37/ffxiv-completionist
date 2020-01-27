@@ -12,12 +12,12 @@ export const WeaverCraftingLogs = function(parentStorageKey) {
         name: "Weaver",
         storageKey,
         subGroups: [
-            WeaverLevelBased,
-            WeaverMasterRecipe,
-            WeaverStoryRecipe,
-            WeaverHousingRecipe,
-            Weaver_IshgardRestoration_Recipe,
-            Weaver_Others
+            WeaverLevelBased(storageKey),
+            WeaverMasterRecipe(storageKey),
+            WeaverStoryRecipe(storageKey),
+            WeaverHousingRecipe(storageKey),
+            Weaver_IshgardRestoration_Recipe(storageKey),
+            Weaver_Others(storageKey),
         ],
     };
 };

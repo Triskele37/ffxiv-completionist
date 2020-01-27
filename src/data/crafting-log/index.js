@@ -7,6 +7,11 @@ import { WeaverCraftingLogs } from "./weaver";
 import { AlchemistCraftingLogs } from "./alchemist";
 import { CulinarianCraftingLogs } from "./culinarian";
 
+/* TODO:
+BSM - Housing, Master Recipes, Restoration, Story
+GSM - Housing, Master Recipes, Restoration, Story
+*/
+
 export const CraftingLogs = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.crafting-log`;
 
@@ -19,9 +24,9 @@ export const CraftingLogs = function(parentStorageKey) {
             ArmorerCraftingLogs(storageKey),
             GoldsmithCraftingLogs(storageKey),
             LeatherworkerCraftingLogs(storageKey),
-            
             WeaverCraftingLogs(storageKey),
             AlchemistCraftingLogs(storageKey),
+            
             CulinarianCraftingLogs(storageKey),
         ]
     };

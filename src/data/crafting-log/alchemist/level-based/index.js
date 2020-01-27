@@ -15,24 +15,29 @@ import { AlchemistLevels_66_70 } from "./level-66-70";
 import { AlchemistLevels_71_75 } from "./level-71-75";
 import { AlchemistLevels_76_80 } from "./level-76-80";
 
-export const AlchemistLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      AlchemistLevels_1_5,
-      AlchemistLevels_6_10,
-      AlchemistLevels_11_15,
-      AlchemistLevels_16_20,
-      AlchemistLevels_21_25,
-      AlchemistLevels_26_30,
-      AlchemistLevels_31_35,
-      AlchemistLevels_36_40,
-      AlchemistLevels_41_45,
-      AlchemistLevels_46_50,
-      AlchemistLevels_51_55,
-      AlchemistLevels_56_60,
-      AlchemistLevels_61_65,
-      AlchemistLevels_66_70,
-      AlchemistLevels_71_75,
-      AlchemistLevels_76_80,
-    ]
+export const AlchemistLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: "Level Based",
+        storageKey,
+        subGroups: [
+            AlchemistLevels_1_5(storageKey),
+            AlchemistLevels_6_10(storageKey),
+            AlchemistLevels_11_15(storageKey),
+            AlchemistLevels_16_20(storageKey),
+            AlchemistLevels_21_25(storageKey),
+            AlchemistLevels_26_30(storageKey),
+            AlchemistLevels_31_35(storageKey),
+            AlchemistLevels_36_40(storageKey),
+            AlchemistLevels_41_45(storageKey),
+            AlchemistLevels_46_50(storageKey),
+            AlchemistLevels_51_55(storageKey),
+            AlchemistLevels_56_60(storageKey),
+            AlchemistLevels_61_65(storageKey),
+            AlchemistLevels_66_70(storageKey),
+            AlchemistLevels_71_75(storageKey),
+            AlchemistLevels_76_80(storageKey),
+        ]
+    };
 };

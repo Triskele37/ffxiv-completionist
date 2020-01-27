@@ -7,16 +7,21 @@ import { Alchemist_MasterRecipe_6 } from "./mr-6";
 import { Alchemist_MasterRecipe_7 } from "./mr-7";
 import { Alchemist_MasterRecipe_Other } from "./other";
 
-export const AlchemistMasterRecipe = {
-    name: 'Master Recipes',
-    subGroups: [
-      Alchemist_MasterRecipe_1,
-      Alchemist_MasterRecipe_2,
-      Alchemist_MasterRecipe_3,
-      Alchemist_MasterRecipe_4,
-      Alchemist_MasterRecipe_5,
-      Alchemist_MasterRecipe_6,
-      Alchemist_MasterRecipe_7,
-      Alchemist_MasterRecipe_Other,
-    ]
+export const AlchemistMasterRecipe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.master-recipes`;
+
+    return {
+        name: "Master Recipes",
+        storageKey,
+        subGroups: [
+            Alchemist_MasterRecipe_1(storageKey),
+            Alchemist_MasterRecipe_2(storageKey),
+            Alchemist_MasterRecipe_3(storageKey),
+            Alchemist_MasterRecipe_4(storageKey),
+            Alchemist_MasterRecipe_5(storageKey),
+            Alchemist_MasterRecipe_6(storageKey),
+            Alchemist_MasterRecipe_7(storageKey),
+            Alchemist_MasterRecipe_Other(storageKey),
+        ]
+    };
 };
