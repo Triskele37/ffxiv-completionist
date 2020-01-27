@@ -7,16 +7,21 @@ import { Goldsmith_MasterRecipe_6 } from "./mr-6";
 import { Goldsmith_MasterRecipe_7 } from "./mr-7";
 import { Goldsmith_MasterRecipe_Other } from "./other";
 
-export const GoldsmithMasterRecipe = {
-    name: 'Master Recipes',
-    subGroups: [
-      Goldsmith_MasterRecipe_1,
-      Goldsmith_MasterRecipe_2,
-      Goldsmith_MasterRecipe_3,
-      Goldsmith_MasterRecipe_4,
-      Goldsmith_MasterRecipe_5,
-      Goldsmith_MasterRecipe_6,
-      Goldsmith_MasterRecipe_7,
-      Goldsmith_MasterRecipe_Other,
-    ]
+export const GoldsmithMasterRecipe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.master-recipes`;
+
+    return {
+        name: "Master Recipes",
+        storageKey,
+        subGroups: [
+            Goldsmith_MasterRecipe_1(storageKey),
+            Goldsmith_MasterRecipe_2(storageKey),
+            Goldsmith_MasterRecipe_3(storageKey),
+            Goldsmith_MasterRecipe_4(storageKey),
+            Goldsmith_MasterRecipe_5(storageKey),
+            Goldsmith_MasterRecipe_6(storageKey),
+            Goldsmith_MasterRecipe_7(storageKey),
+            Goldsmith_MasterRecipe_Other(storageKey),
+        ]
+    };
 };

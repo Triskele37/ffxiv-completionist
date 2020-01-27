@@ -5,16 +5,19 @@ import { LeatherworkerHousingRecipe } from "./housing";
 import { Leatherworker_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Leatherworker_Others } from "./others";
 
+export const LeatherworkerCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.leatherworker`;
 
-export const Leatherworker = {
-    name: "Leatherworker",
-    // storageKey: "crafting-log.leatherworker.index",
-    subGroups: [
-      LeatherworkerLevelBased,
-      LeatherworkerMasterRecipe,
-      LeatherworkerStoryRecipe,
-      LeatherworkerHousingRecipe,
-      Leatherworker_IshgardRestoration_Recipe,
-      Leatherworker_Others
-    ],
-}
+    return {
+        name: "Leatherworker",
+        storageKey,
+        subGroups: [
+            LeatherworkerLevelBased(storageKey),
+            LeatherworkerMasterRecipe(storageKey),
+            LeatherworkerStoryRecipe(storageKey),
+            LeatherworkerHousingRecipe(storageKey),
+            Leatherworker_IshgardRestoration_Recipe(storageKey),
+            Leatherworker_Others(storageKey),
+        ],
+    };
+};

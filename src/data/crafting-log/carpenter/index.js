@@ -5,16 +5,19 @@ import { CarpenterHousingRecipe } from "./housing";
 import { Carpenter_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Carpenter_Others } from "./others";
 
+export const CarpenterCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.carpenter`;
 
-export const Carpenter = {
-    name: "Carpenter",
-    // storageKey: "crafting-log.carpenter.index",
-    subGroups: [
-      CarpenterLevelBased,
-      CarpenterMasterRecipe,
-      CarpenterStoryRecipe,
-      CarpenterHousingRecipe,
-      Carpenter_IshgardRestoration_Recipe,
-      Carpenter_Others
-    ],
-}
+    return {
+        name: "Carpenter",
+        storageKey,
+        subGroups: [
+            CarpenterLevelBased(storageKey),
+            CarpenterMasterRecipe(storageKey),
+            CarpenterStoryRecipe(storageKey),
+            CarpenterHousingRecipe(storageKey),
+            Carpenter_IshgardRestoration_Recipe(storageKey),
+            Carpenter_Others(storageKey),
+        ],
+    };
+};

@@ -15,24 +15,29 @@ import { LeatherworkerLevels_66_70 } from "./level-66-70";
 import { LeatherworkerLevels_71_75 } from "./level-71-75";
 import { LeatherworkerLevels_76_80 } from "./level-76-80";
 
-export const LeatherworkerLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      LeatherworkerLevels_1_5,
-      LeatherworkerLevels_6_10,
-      LeatherworkerLevels_11_15,
-      LeatherworkerLevels_16_20,
-      LeatherworkerLevels_21_25,
-      LeatherworkerLevels_26_30,
-      LeatherworkerLevels_31_35,
-      LeatherworkerLevels_36_40,
-      LeatherworkerLevels_41_45,
-      LeatherworkerLevels_46_50,
-      LeatherworkerLevels_51_55,
-      LeatherworkerLevels_56_60,
-      LeatherworkerLevels_61_65,
-      LeatherworkerLevels_66_70,
-      LeatherworkerLevels_71_75,
-      LeatherworkerLevels_76_80,
-    ]
+export const LeatherworkerLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: "Level Based",
+        storageKey,
+        subGroups: [
+            LeatherworkerLevels_1_5(storageKey),
+            LeatherworkerLevels_6_10(storageKey),
+            LeatherworkerLevels_11_15(storageKey),
+            LeatherworkerLevels_16_20(storageKey),
+            LeatherworkerLevels_21_25(storageKey),
+            LeatherworkerLevels_26_30(storageKey),
+            LeatherworkerLevels_31_35(storageKey),
+            LeatherworkerLevels_36_40(storageKey),
+            LeatherworkerLevels_41_45(storageKey),
+            LeatherworkerLevels_46_50(storageKey),
+            LeatherworkerLevels_51_55(storageKey),
+            LeatherworkerLevels_56_60(storageKey),
+            LeatherworkerLevels_61_65(storageKey),
+            LeatherworkerLevels_66_70(storageKey),
+            LeatherworkerLevels_71_75(storageKey),
+            LeatherworkerLevels_76_80(storageKey),
+        ]
+    };
 };

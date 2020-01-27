@@ -1,10 +1,15 @@
 import { Armorer_Story_ClassQuests } from "./class-quests";
 import { Armorer_Story_Crystarium } from "./crystarium-deliveries";
 
-export const ArmorerStoryRecipe = {
-    name: 'Story Recipes',
-    subGroups: [
-      Armorer_Story_ClassQuests,
-      Armorer_Story_Crystarium,
-    ]
+export const ArmorerStoryRecipe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.story-recipes`;
+
+    return {
+        name: "Story Recipes",
+        storageKey,
+        subGroups: [
+            Armorer_Story_ClassQuests(storageKey),
+            Armorer_Story_Crystarium(storageKey),
+        ]
+    };
 };
