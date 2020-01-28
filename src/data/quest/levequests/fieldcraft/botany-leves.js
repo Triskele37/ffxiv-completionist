@@ -339,7 +339,7 @@ export const BotanyLeves = function(parentStorageKey) {
             npc: "Eloin"
         }, {
             level: "58",
-            name: "A Taste of Their Own Medicine ",
+            name: "A Taste of Their Own Medicine",
             zone: "The Dravanian Hinterlands",
             location: "The Paths of Creation",
             npc: "Eloin"

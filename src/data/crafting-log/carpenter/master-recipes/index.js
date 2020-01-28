@@ -7,16 +7,21 @@ import { Carpenter_MasterRecipe_6 } from "./mr-6";
 import { Carpenter_MasterRecipe_7 } from "./mr-7";
 import { Carpenter_MasterRecipe_Other } from "./other";
 
-export const CarpenterMasterRecipe = {
-    name: 'Master Recipes',
-    subGroups: [
-      Carpenter_MasterRecipe_1,
-      Carpenter_MasterRecipe_2,
-      Carpenter_MasterRecipe_3,
-      Carpenter_MasterRecipe_4,
-      Carpenter_MasterRecipe_5,
-      Carpenter_MasterRecipe_6,
-      Carpenter_MasterRecipe_7,
-      Carpenter_MasterRecipe_Other,
-    ]
+export const CarpenterMasterRecipe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.master-recipes`;
+
+    return {
+        name: "Master Recipes",
+        storageKey,
+        subGroups: [
+            Carpenter_MasterRecipe_1(storageKey),
+            Carpenter_MasterRecipe_2(storageKey),
+            Carpenter_MasterRecipe_3(storageKey),
+            Carpenter_MasterRecipe_4(storageKey),
+            Carpenter_MasterRecipe_5(storageKey),
+            Carpenter_MasterRecipe_6(storageKey),
+            Carpenter_MasterRecipe_7(storageKey),
+            Carpenter_MasterRecipe_Other(storageKey),
+        ]
+    };
 };

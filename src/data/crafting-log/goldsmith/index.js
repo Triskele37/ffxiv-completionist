@@ -5,16 +5,19 @@ import { GoldsmithHousingRecipe } from "./housing";
 import { Goldsmith_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Goldsmith_Others } from "./others";
 
+export const GoldsmithCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.goldsmith`;
 
-export const Goldsmith = {
-    name: "Goldsmith",
-    // storageKey: "crafting-log.goldsmith.index",
-    subGroups: [
-      GoldsmithLevelBased,
-      GoldsmithMasterRecipe,
-      GoldsmithStoryRecipe,
-      GoldsmithHousingRecipe,
-      Goldsmith_IshgardRestoration_Recipe,
-      Goldsmith_Others
-    ],
-}
+    return {
+        name: "Goldsmith",
+        storageKey,
+        subGroups: [
+            GoldsmithLevelBased(storageKey),
+            GoldsmithMasterRecipe(storageKey),
+            GoldsmithStoryRecipe(storageKey),
+            GoldsmithHousingRecipe(storageKey),
+            Goldsmith_IshgardRestoration_Recipe(storageKey),
+            Goldsmith_Others(storageKey),
+        ],
+    };
+};

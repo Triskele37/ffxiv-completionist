@@ -33,7 +33,7 @@ export const data = {
     subGroups: [
         Achievements(storageKey),
         Collectable(storageKey),
-        CraftingLogs,
+        CraftingLogs(storageKey),
         Logs(storageKey),
         FATEs(storageKey),
         GatheringLogs(storageKey),

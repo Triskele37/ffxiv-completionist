@@ -15,24 +15,29 @@ import { CarpenterLevels_66_70 } from "./level-66-70";
 import { CarpenterLevels_71_75 } from "./level-71-75";
 import { CarpenterLevels_76_80 } from "./level-76-80";
 
-export const CarpenterLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      CarpenterLevels_1_5,
-      CarpenterLevels_6_10,
-      CarpenterLevels_11_15,
-      CarpenterLevels_16_20,
-      CarpenterLevels_21_25,
-      CarpenterLevels_26_30,
-      CarpenterLevels_31_35,
-      CarpenterLevels_36_40,
-      CarpenterLevels_41_45,
-      CarpenterLevels_46_50,
-      CarpenterLevels_51_55,
-      CarpenterLevels_56_60,
-      CarpenterLevels_61_65,
-      CarpenterLevels_66_70,
-      CarpenterLevels_71_75,
-      CarpenterLevels_76_80,
-    ]
+export const CarpenterLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: 'Level Based',
+        storageKey,
+        subGroups: [
+            CarpenterLevels_1_5(storageKey),
+            CarpenterLevels_6_10(storageKey),
+            CarpenterLevels_11_15(storageKey),
+            CarpenterLevels_16_20(storageKey),
+            CarpenterLevels_21_25(storageKey),
+            CarpenterLevels_26_30(storageKey),
+            CarpenterLevels_31_35(storageKey),
+            CarpenterLevels_36_40(storageKey),
+            CarpenterLevels_41_45(storageKey),
+            CarpenterLevels_46_50(storageKey),
+            CarpenterLevels_51_55(storageKey),
+            CarpenterLevels_56_60(storageKey),
+            CarpenterLevels_61_65(storageKey),
+            CarpenterLevels_66_70(storageKey),
+            CarpenterLevels_71_75(storageKey),
+            CarpenterLevels_76_80(storageKey),
+        ]
+    };
 };

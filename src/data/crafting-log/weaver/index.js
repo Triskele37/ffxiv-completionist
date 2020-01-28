@@ -5,16 +5,19 @@ import { WeaverHousingRecipe } from "./housing";
 import { Weaver_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Weaver_Others } from "./others";
 
+export const WeaverCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.weaver`;
 
-export const Weaver = {
-    name: "Weaver",
-    // storageKey: "crafting-log.weaver.index",
-    subGroups: [
-      WeaverLevelBased,
-      WeaverMasterRecipe,
-      WeaverStoryRecipe,
-      WeaverHousingRecipe,
-      Weaver_IshgardRestoration_Recipe,
-      Weaver_Others
-    ],
-}
+    return {
+        name: "Weaver",
+        storageKey,
+        subGroups: [
+            WeaverLevelBased(storageKey),
+            WeaverMasterRecipe(storageKey),
+            WeaverStoryRecipe(storageKey),
+            WeaverHousingRecipe(storageKey),
+            Weaver_IshgardRestoration_Recipe(storageKey),
+            Weaver_Others(storageKey),
+        ],
+    };
+};

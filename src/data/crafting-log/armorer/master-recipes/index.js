@@ -7,16 +7,21 @@ import { Armorer_MasterRecipe_6 } from "./mr-6";
 import { Armorer_MasterRecipe_7 } from "./mr-7";
 import { Armorer_MasterRecipe_Other } from "./other";
 
-export const ArmorerMasterRecipe = {
-    name: 'Master Recipes',
-    subGroups: [
-      Armorer_MasterRecipe_1,
-      Armorer_MasterRecipe_2,
-      Armorer_MasterRecipe_3,
-      Armorer_MasterRecipe_4,
-      Armorer_MasterRecipe_5,
-      Armorer_MasterRecipe_6,
-      Armorer_MasterRecipe_7,
-      Armorer_MasterRecipe_Other,
-    ]
+export const ArmorerMasterRecipe = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.master-recipes`;
+
+    return {
+        name: "Master Recipes",
+        storageKey,
+        subGroups: [
+            Armorer_MasterRecipe_1(storageKey),
+            Armorer_MasterRecipe_2(storageKey),
+            Armorer_MasterRecipe_3(storageKey),
+            Armorer_MasterRecipe_4(storageKey),
+            Armorer_MasterRecipe_5(storageKey),
+            Armorer_MasterRecipe_6(storageKey),
+            Armorer_MasterRecipe_7(storageKey),
+            Armorer_MasterRecipe_Other(storageKey),
+        ]
+    };
 };

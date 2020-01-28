@@ -15,24 +15,29 @@ import { ArmorerLevels_66_70 } from "./level-66-70";
 import { ArmorerLevels_71_75 } from "./level-71-75";
 import { ArmorerLevels_76_80 } from "./level-76-80";
 
-export const ArmorerLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      ArmorerLevels_1_5,
-      ArmorerLevels_6_10,
-      ArmorerLevels_11_15,
-      ArmorerLevels_16_20,
-      ArmorerLevels_21_25,
-      ArmorerLevels_26_30,
-      ArmorerLevels_31_35,
-      ArmorerLevels_36_40,
-      ArmorerLevels_41_45,
-      ArmorerLevels_46_50,
-      ArmorerLevels_51_55,
-      ArmorerLevels_56_60,
-      ArmorerLevels_61_65,
-      ArmorerLevels_66_70,
-      ArmorerLevels_71_75,
-      ArmorerLevels_76_80,
-    ]
+export const ArmorerLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: "Level Based",
+        storageKey,
+        subGroups: [
+            ArmorerLevels_1_5(storageKey),
+            ArmorerLevels_6_10(storageKey),
+            ArmorerLevels_11_15(storageKey),
+            ArmorerLevels_16_20(storageKey),
+            ArmorerLevels_21_25(storageKey),
+            ArmorerLevels_26_30(storageKey),
+            ArmorerLevels_31_35(storageKey),
+            ArmorerLevels_36_40(storageKey),
+            ArmorerLevels_41_45(storageKey),
+            ArmorerLevels_46_50(storageKey),
+            ArmorerLevels_51_55(storageKey),
+            ArmorerLevels_56_60(storageKey),
+            ArmorerLevels_61_65(storageKey),
+            ArmorerLevels_66_70(storageKey),
+            ArmorerLevels_71_75(storageKey),
+            ArmorerLevels_76_80(storageKey),
+        ]
+    };
 };

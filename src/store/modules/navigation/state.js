@@ -1,7 +1,13 @@
-import { data } from "../../../data";
+// import { data } from "../../../data";
+
+// export const state = {
+//     breadcrumbs: ['Overall', 'FATE'],
+//     selectedGroup: data.subGroups[4],
+//     showSummary: true,
+// };
 
 export const state = {
-    breadcrumbs: ['Overall', 'FATE'],
-    selectedGroup: data.subGroups[4],
+    breadcrumbs: ['Overall'],
+    selectedGroup: null,
     showSummary: true,
 };

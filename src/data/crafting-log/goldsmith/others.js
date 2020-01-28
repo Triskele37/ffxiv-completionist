@@ -1,11 +1,12 @@
 import { CraftingLogColumnConfig } from "../columnConfigs";
 
+export const Goldsmith_Others = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.other-recipes`;
 
-export const Goldsmith_Others = {
-  name: "Other",
-  storageKey: "crafting-log.goldsmith.others-recipes",
-  columns: CraftingLogColumnConfig,
-  tasks: [
-
-  ]
-}
+    return {
+        name: "Other",
+        storageKey,
+        columns: CraftingLogColumnConfig,
+        tasks: []
+    };
+};

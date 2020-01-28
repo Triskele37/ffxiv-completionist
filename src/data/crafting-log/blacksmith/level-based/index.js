@@ -15,24 +15,29 @@ import { BlacksmithLevels_66_70 } from "./level-66-70";
 import { BlacksmithLevels_71_75 } from "./level-71-75";
 import { BlacksmithLevels_76_80 } from "./level-76-80";
 
-export const BlacksmithLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      BlacksmithLevels_1_5,
-      BlacksmithLevels_6_10,
-      BlacksmithLevels_11_15,
-      BlacksmithLevels_16_20,
-      BlacksmithLevels_21_25,
-      BlacksmithLevels_26_30,
-      BlacksmithLevels_31_35,
-      BlacksmithLevels_36_40,
-      BlacksmithLevels_41_45,
-      BlacksmithLevels_46_50,
-      BlacksmithLevels_51_55,
-      BlacksmithLevels_56_60,
-      BlacksmithLevels_61_65,
-      BlacksmithLevels_66_70,
-      BlacksmithLevels_71_75,
-      BlacksmithLevels_76_80,
-    ]
+export const BlacksmithLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: "Level Based",
+        storageKey,
+        subGroups: [
+            BlacksmithLevels_1_5(storageKey),
+            BlacksmithLevels_6_10(storageKey),
+            BlacksmithLevels_11_15(storageKey),
+            BlacksmithLevels_16_20(storageKey),
+            BlacksmithLevels_21_25(storageKey),
+            BlacksmithLevels_26_30(storageKey),
+            BlacksmithLevels_31_35(storageKey),
+            BlacksmithLevels_36_40(storageKey),
+            BlacksmithLevels_41_45(storageKey),
+            BlacksmithLevels_46_50(storageKey),
+            BlacksmithLevels_51_55(storageKey),
+            BlacksmithLevels_56_60(storageKey),
+            BlacksmithLevels_61_65(storageKey),
+            BlacksmithLevels_66_70(storageKey),
+            BlacksmithLevels_71_75(storageKey),
+            BlacksmithLevels_76_80(storageKey),
+        ]
+    };
 };

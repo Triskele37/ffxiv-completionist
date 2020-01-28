@@ -1,11 +1,12 @@
 import { CraftingLogColumnConfig } from "../../columnConfigs";
 
+export const Goldsmith_Story_Crystarium = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.crystarium-deliveries`;
 
-export const Goldsmith_Story_Crystarium = {
-  name: "Crystarium Deliveries",
-  storageKey: "crafting-log.goldsmith.story-recipes.crystarium-deliveries",
-  columns: CraftingLogColumnConfig,
-  tasks: [
-
-  ]
-}
+    return {
+        name: "Crystarium Deliveries",
+        storageKey,
+        columns: CraftingLogColumnConfig,
+        tasks: []
+    };
+};

@@ -5,16 +5,19 @@ import { ArmorerHousingRecipe } from "./housing";
 import { Armorer_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Armorer_Others } from "./others";
 
+export const ArmorerCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.armorer`;
 
-export const Armorer = {
-    name: "Armorer",
-    // storageKey: "crafting-log.armorer.index",
-    subGroups: [
-      ArmorerLevelBased,
-      ArmorerMasterRecipe,
-      ArmorerStoryRecipe,
-      ArmorerHousingRecipe,
-      Armorer_IshgardRestoration_Recipe,
-      Armorer_Others
-    ],
-}
+    return {
+        name: "Armorer",
+        storageKey,
+        subGroups: [
+            ArmorerLevelBased(storageKey),
+            ArmorerMasterRecipe(storageKey),
+            ArmorerStoryRecipe(storageKey),
+            ArmorerHousingRecipe(storageKey),
+            Armorer_IshgardRestoration_Recipe(storageKey),
+            Armorer_Others(storageKey),
+        ],
+    };
+};

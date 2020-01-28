@@ -12,6 +12,7 @@ export const Collectable = function(parentStorageKey) {
 
     return {
         name: "Collectable",
+        storageKey,
         subGroups:[
             Aesthetician(storageKey),
             Barding(storageKey),

@@ -9,7 +9,7 @@
         </span>
 
         <!----------- Buttons ----------->
-        <span class="action-buttons" v-if="selectedGroup.subGroups">
+        <span class="action-buttons" v-if="selectedGroup && selectedGroup.subGroups">
             <span class="action-button" @click="toggleShowAllChildren()">
                 {{`${showSummary ? 'Show All Tasks' : 'Show Summary'}`}}
             </span>

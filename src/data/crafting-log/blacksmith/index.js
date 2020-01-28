@@ -5,16 +5,19 @@ import { BlacksmithHousingRecipe } from "./housing";
 import { Blacksmith_IshgardRestoration_Recipe } from "./ishgard-restoration";
 import { Blacksmith_Others } from "./others";
 
+export const BlacksmithCraftingLogs = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.blacksmith`;
 
-export const Blacksmith = {
-    name: "Blacksmith",
-    // storageKey: "crafting-log.blacksmith.index",
-    subGroups: [
-      BlacksmithLevelBased,
-      BlacksmithMasterRecipe,
-      BlacksmithStoryRecipe,
-      BlacksmithHousingRecipe,
-      Blacksmith_IshgardRestoration_Recipe,
-      Blacksmith_Others
-    ],
-}
+    return {
+        name: "Blacksmith",
+        storageKey,
+        subGroups: [
+            BlacksmithLevelBased(storageKey),
+            BlacksmithMasterRecipe(storageKey),
+            BlacksmithStoryRecipe(storageKey),
+            BlacksmithHousingRecipe(storageKey),
+            Blacksmith_IshgardRestoration_Recipe(storageKey),
+            Blacksmith_Others(storageKey),
+        ],
+    };
+};

@@ -1,6 +1,6 @@
 <template>
     <div id="main-content">
-        <!----------- Summary on no selected group ----------->
+        <!----------- Top-Level Summary ----------->
         <template v-if="!selectedGroup">
             <summary-line
                 v-for="subGroup in allData.subGroups"
@@ -8,24 +8,27 @@
                 :group="subGroup"
             />
         </template>
-
-        <!----------- Summary when a group is selected ----------->
-        <template v-if="selectedGroup && selectedGroup.subGroups && showSummary">
-            <summary-line
-                v-for="subGroup in selectedGroup.subGroups"
-                :key="subGroup.name"
-                :group="subGroup"
-            />
+        <!----------- Selected Custom Component ----------->
+        <template v-else-if="selectedGroup.component">
+            <component v-bind:is="selectedGroup.component"></component>
         </template>
-
-        <!----------- Selected Group Task Table ----------->
-        <template v-if="selectedGroup && selectedGroup.tasks && showSummary">
-            <task-table :group="selectedGroup" />
-        </template>
-
-        <!----------- Show All Task Table ----------->
-        <template v-if="!showSummary">
+        <!----------- Show All Mode - Task Table ----------->
+        <template v-else-if="!showSummary">
             <show-all-section :group="selectedGroup" />
+        </template>
+        <!----------- Summary Mode - Summary & Task Table ----------->
+        <template v-else>
+            <template v-if="selectedGroup.subGroups">
+                <summary-line
+                    v-for="subGroup in selectedGroup.subGroups"
+                    :key="subGroup.name"
+                    :group="subGroup"
+                />
+            </template>
+
+            <template v-if="selectedGroup.tasks">
+                <task-table :group="selectedGroup" />
+            </template>
         </template>
     </div>
 </template>
@@ -35,6 +38,7 @@
 
     import { data } from '../../data';
     import SummaryLine from '../summary-line/SummaryLine';
+    import ImportSheet from './import-sheet/ImportSheet';
     import ShowAllSection from "./show-all-section/ShowAllSection";
     import TaskTable from './task-table/TaskTable';
 
@@ -45,6 +49,7 @@
         }),
         components: {
             'summary-line': SummaryLine,
+            'import-sheet': ImportSheet,
             'show-all-section': ShowAllSection,
             'task-table': TaskTable,
         },

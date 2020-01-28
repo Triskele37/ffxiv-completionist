@@ -15,24 +15,29 @@ import { WeaverLevels_66_70 } from "./level-66-70";
 import { WeaverLevels_71_75 } from "./level-71-75";
 import { WeaverLevels_76_80 } from "./level-76-80";
 
-export const WeaverLevelBased = {
-    name: 'Level Based',
-    subGroups: [
-      WeaverLevels_1_5,
-      WeaverLevels_6_10,
-      WeaverLevels_11_15,
-      WeaverLevels_16_20,
-      WeaverLevels_21_25,
-      WeaverLevels_26_30,
-      WeaverLevels_31_35,
-      WeaverLevels_36_40,
-      WeaverLevels_41_45,
-      WeaverLevels_46_50,
-      WeaverLevels_51_55,
-      WeaverLevels_56_60,
-      WeaverLevels_61_65,
-      WeaverLevels_66_70,
-      WeaverLevels_71_75,
-      WeaverLevels_76_80,
-    ]
+export const WeaverLevelBased = function(parentStorageKey) {
+    const storageKey = `${parentStorageKey}.level-based`;
+
+    return {
+        name: "Level Based",
+        storageKey,
+        subGroups: [
+            WeaverLevels_1_5(storageKey),
+            WeaverLevels_6_10(storageKey),
+            WeaverLevels_11_15(storageKey),
+            WeaverLevels_16_20(storageKey),
+            WeaverLevels_21_25(storageKey),
+            WeaverLevels_26_30(storageKey),
+            WeaverLevels_31_35(storageKey),
+            WeaverLevels_36_40(storageKey),
+            WeaverLevels_41_45(storageKey),
+            WeaverLevels_46_50(storageKey),
+            WeaverLevels_51_55(storageKey),
+            WeaverLevels_56_60(storageKey),
+            WeaverLevels_61_65(storageKey),
+            WeaverLevels_66_70(storageKey),
+            WeaverLevels_71_75(storageKey),
+            WeaverLevels_76_80(storageKey),
+        ]
+    };
 };
