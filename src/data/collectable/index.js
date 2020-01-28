@@ -13,15 +13,24 @@ export const Collectable = function(parentStorageKey) {
     return {
         name: "Collectable",
         storageKey,
-        subGroups:[
-            Aesthetician(storageKey),
-            Barding(storageKey),
-            Emotes(storageKey),
-            Minions(storageKey),
-            Mounts(storageKey),
-            Orchestrion(storageKey),
-            TripleTriadCards(storageKey),
-            TripleTriadOpponents(storageKey),
-        ]
+        groupKeys: [
+            "Aesthetician",
+            "Barding",
+            "Emotes",
+            "Minions",
+            "Mounts",
+            "Orchestrion",
+            "TripleTriadCards",
+            "TripleTriadOpponents",
+        ],
+        // Groups
+        Aesthetician: Aesthetician(storageKey),
+        Barding: Barding(storageKey),
+        Emotes: Emotes(storageKey),
+        Minions: Minions(storageKey),
+        Mounts: Mounts(storageKey),
+        Orchestrion: Orchestrion(storageKey),
+        TripleTriadCards: TripleTriadCards(storageKey),
+        TripleTriadOpponents: TripleTriadOpponents(storageKey),
     };
 };

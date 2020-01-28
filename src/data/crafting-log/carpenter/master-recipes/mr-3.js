@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "58",
-                "item": "The Unending Journey",
+                name: "The Unending Journey",
                 "mat-1": "Cassia Lumber",
                 "mat-2": "2 Birch Lumber",
                 "mat-3": "Mythrite Ingot",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Trident",
+                name: "Adamantite Trident",
                 "mat-1": "Birch Lumber",
                 "mat-2": "3 Adamantite Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Birch Composite Bow",
+                name: "Birch Composite Bow",
                 "mat-1": "2 Birch Lumber",
                 "mat-2": "Birch Branch",
                 "mat-3": "3 Aurum Regis Nugget",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Birch Rod",
+                name: "Birch Rod",
                 "mat-1": "2 Birch Lumber",
                 "mat-2": "Birch Branch",
                 "mat-3": "Aurum Regis Nugget",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Birch Fishing Rod",
+                name: "Birch Fishing Rod",
                 "mat-1": "Birch Lumber",
                 "mat-2": "2 Birch Branch",
                 "mat-3": "2 Aurum Regis Nugget",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Hive Ceiling Fan",
+                name: "Hive Ceiling Fan",
                 "mat-1": "Ravana's Forwing",
                 "mat-2": "4 Tallow Candle",
                 "mat-3": "3 Birch Lumber",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cassia Block",
+                name: "Cassia Block",
                 "mat-1": "Cassia Lumber",
                 "mat-2": "Astral Oil",
                 "mat-3": "Dawnborne Aethersand",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Dispelling Arrow",
+                name: "Dispelling Arrow",
                 "mat-1": "Blessed Fletchings",
                 "mat-2": "Hallowed Chest Lumber",
                 "mat-3": "Hardsilver Nugget",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Clockwork Barrow",
+                name: "Clockwork Barrow",
                 "mat-1": "Steel Mainspring",
                 "mat-2": "Steel Wheel Bearing",
                 "mat-3": "3 Birch Lumber",
@@ -118,7 +118,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Unfinished Interior Wall",
+                name: "Unfinished Interior Wall",
                 "mat-1": "5 Astral Birch Lumber",
                 "mat-2": "4 Cut Stone",
                 "mat-3": "3 Granite",
@@ -130,7 +130,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Unfinished Wood Flooring",
+                name: "Unfinished Wood Flooring",
                 "mat-1": "5 Astral Birch Lumber",
                 "mat-2": "4 Cut Stone",
                 "mat-3": "3 Granite",
@@ -142,7 +142,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Magnificent Mogdelier",
+                name: "Magnificent Mogdelier",
                 "mat-1": "3 Magnanimous Mogcrown",
                 "mat-2": "6 Tallow Candle",
                 "mat-3": "3 Birch Lumber",
@@ -154,7 +154,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Deep Hive Ceiling Fan",
+                name: "Deep Hive Ceiling Fan",
                 "mat-1": "Hive Forewing",
                 "mat-2": "4 Tallow Candle",
                 "mat-3": "3 Birch Lumber",
@@ -166,7 +166,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Bar Stool",
+                name: "Bar Stool",
                 "mat-1": "Astral Birch Lumber",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Darksteel Rivets",
@@ -178,7 +178,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Gordian Bureau",
+                name: "Gordian Bureau",
                 "mat-1": "2 Gordian Gear",
                 "mat-2": "5 Birch Lumber",
                 "mat-3": "2 Aurum Adamantite Nugget",
@@ -190,7 +190,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Bar Counter",
+                name: "Bar Counter",
                 "mat-1": "3 Astral Birch Lumber",
                 "mat-2": "3 Dark Chestnut Lumber",
                 "mat-3": "2 Darksteel Rivets",
@@ -202,7 +202,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Stuffed Carbuncle",
+                name: "Stuffed Carbuncle",
                 "mat-1": "3 Far Eastern Coin",
                 "mat-2": "3 Birch Lumber",
                 "mat-3": "3 Vanya Silk",
@@ -214,7 +214,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Birch Lumber",
+                name: "Astral Birch Lumber",
                 "mat-1": "2 Birch Lumber",
                 "mat-2": "5 Dryad Sap",
                 "mat-3": "1 Astral Oil",
@@ -226,7 +226,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sun Mica Grinding Wheel",
+                name: "Sun Mica Grinding Wheel",
                 "mat-1": "2 Astral Birch Lumber",
                 "mat-2": "Aurum Regis Ingot",
                 "mat-3": "2 Sun Mica",
@@ -238,7 +238,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Birch Spinning Wheel",
+                name: "Astral Birch Spinning Wheel",
                 "mat-1": "3 Astral Birch Lumber",
                 "mat-2": "3 Adamantite Rivets",
                 "mat-3": "2 Landborne Aethersand",
@@ -250,7 +250,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Birch Necklace",
+                name: "Astral Birch Necklace",
                 "mat-1": "2 Astral Birch Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "Seaborne Aethersand",
@@ -262,7 +262,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Birch Armillae",
+                name: "Astral Birch Armillae",
                 "mat-1": "2 Astral Birch Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "Leafborne Aethersand",
@@ -274,7 +274,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Birch Ring",
+                name: "Astral Birch Ring",
                 "mat-1": "Astral Birch Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "Leafborne Aethersand",
@@ -286,7 +286,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Mhachi Coffin",
+                name: "Mhachi Coffin",
                 "mat-1": "Coffin Lid",
                 "mat-2": "2 Hallowed Chestnut Lumber",
                 "mat-3": "Holy Rainbow Cloth",
@@ -298,7 +298,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Savage Gordian Bureau",
+                name: "Savage Gordian Bureau",
                 "mat-1": "2 Large Gordian Gear",
                 "mat-2": "3 Astral Birch Lumber",
                 "mat-3": "2 Birch Lumber",
@@ -310,7 +310,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Tiny Bronco Miniature",
+                name: "Tiny Bronco Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "2 Darksteel Ingot",
                 "mat-3": "Saurian Leather",
@@ -322,7 +322,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Invincible Miniature",
+                name: "Invincible Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "2 Darksteel Ingot",
                 "mat-3": "Saurian Leather",
@@ -334,7 +334,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Enterprise Miniature",
+                name: "Enterprise Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "2 Darksteel Ingot",
                 "mat-3": "Garlond Street",
@@ -346,7 +346,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Invincible II Miniature",
+                name: "Invincible II Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "2 Wolfram Ingot",
                 "mat-3": "Garlond Street",
@@ -358,7 +358,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Odyssey Miniature",
+                name: "Odyssey Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "2 Mythrite Ingot",
                 "mat-3": "Garlond Street",
@@ -370,7 +370,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Tatanora Miniature",
+                name: "Tatanora Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "Cassia Lumber",
                 "mat-3": "Garlond Street",
@@ -382,7 +382,7 @@ export const Carpenter_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Viltgance Miniature",
+                name: "Viltgance Miniature",
                 "mat-1": "4 Camphorwood Lumber",
                 "mat-2": "Cassia Block",
                 "mat-3": "Galvonizedd Garlond Street",

@@ -11,13 +11,20 @@ export const LaNosceaFATEs = function(parentStorageKey) {
     return {
         name: "La Noscea",
         storageKey,
-        subGroups: [
-            EasternLaNosceaFATEs(storageKey),
-            LowerLaNosceaFATEs(storageKey),
-            MiddleLaNosceaFATEs(storageKey),
-            OuterLaNosceaFATEs(storageKey),
-            UpperLaNosceaFATEs(storageKey),
-            WesternLaNosceaFATEs(storageKey),
-        ]
+        groupKeys: [
+            "EasternLaNoscea",
+            "LowerLaNoscea",
+            "MiddleLaNoscea",
+            "OuterLaNoscea",
+            "UpperLaNoscea",
+            "WesternLaNoscea",
+        ],
+        // Groups
+        EasternLaNoscea: EasternLaNosceaFATEs(storageKey),
+        LowerLaNoscea: LowerLaNosceaFATEs(storageKey),
+        MiddleLaNoscea: MiddleLaNosceaFATEs(storageKey),
+        OuterLaNoscea: OuterLaNosceaFATEs(storageKey),
+        UpperLaNoscea: UpperLaNosceaFATEs(storageKey),
+        WesternLaNoscea: WesternLaNosceaFATEs(storageKey),
     };
 };

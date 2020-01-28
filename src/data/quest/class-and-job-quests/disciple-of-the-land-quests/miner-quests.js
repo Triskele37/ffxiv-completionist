@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MinerQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_The_Land_Miner = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.miner`;
 
     return {

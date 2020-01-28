@@ -13,13 +13,20 @@ export const BattleAchievements = function(parentStorageKey) {
     return {
         name: "Battle",
     	storageKey,
-        subGroups: [
-            BattleBattleAchievements(storageKey),
-            DungeonBattleAchievements(storageKey),
-            HuntBattleAchievements(storageKey),
-            RaidBattleAchievements(storageKey),
-            TrialBattleAchievements(storageKey),
-            TreasureHuntBattleAchievements(storageKey),
-    	],
+        groupKeys: [
+            "Battle",
+            "Dungeon",
+            "Hunt",
+            "Raid",
+            "Trial",
+            "TreasureHunt"
+        ],
+        // Groups
+        Battle: BattleBattleAchievements(storageKey),
+        Dungeon: DungeonBattleAchievements(storageKey),
+        Hunt: HuntBattleAchievements(storageKey),
+        Raid: RaidBattleAchievements(storageKey),
+        Trial: TrialBattleAchievements(storageKey),
+        TreasureHunt: TreasureHuntBattleAchievements(storageKey),
     };
 };

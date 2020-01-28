@@ -1,7 +1,7 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=15&columns=ID,Name&limit=7
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheShadowOfMhach = function(parentStorageKey) {
+export const Quest_COANE_The_Shadow_Of_Mhach = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-shadow-of-mhach`;
 
     return {

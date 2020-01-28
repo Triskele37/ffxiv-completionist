@@ -15,15 +15,24 @@ export const CraftingAchievements = function(parentStorageKey) {
     return {
         name: "Crafting",
         storageKey,
-        subGroups: [
-            AlchemistCraftingAchievements(storageKey),
-            ArmorerCraftingAchievements(storageKey),
-            BlacksmithCraftingAchievements(storageKey),
-            CarpenterCraftingAchievements(storageKey),
-            CulinarianCraftingAchievements(storageKey),
-            GoldsmithCraftingAchievements(storageKey),
-            LeatherworkerCraftingAchievements(storageKey),
-            WeaverCraftingAchievements(storageKey),
-    	],
+        groupKeys: [
+            "Alchemist",
+            "Armorer",
+            "Blacksmith",
+            "Carpenter",
+            "Culinarian",
+            "Goldsmith",
+            "Leatherworker",
+            "Weaver"
+        ],
+        // Groups
+        Alchemist: AlchemistCraftingAchievements(storageKey),
+        Armorer: ArmorerCraftingAchievements(storageKey),
+        Blacksmith: BlacksmithCraftingAchievements(storageKey),
+        Carpenter: CarpenterCraftingAchievements(storageKey),
+        Culinarian: CulinarianCraftingAchievements(storageKey),
+        Goldsmith: GoldsmithCraftingAchievements(storageKey),
+        Leatherworker: LeatherworkerCraftingAchievements(storageKey),
+        Weaver: WeaverCraftingAchievements(storageKey),
     };
 };

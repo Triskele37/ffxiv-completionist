@@ -10,7 +10,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Gold Needle",
+                name: "Gold Needle",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "Ahriman Wing",
                 "mat-3": "Spoken Blood",
@@ -22,7 +22,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Mega-Potion of Dexterity",
+                name: "Mega-Potion of Dexterity",
                 "mat-1": "Dart Frog",
                 "mat-2": "Spoken Blood",
                 "mat-3": "Rock Salt",
@@ -34,7 +34,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Mega-Potion of Vitality",
+                name: "Mega-Potion of Vitality",
                 "mat-1": "Pudding Flesh",
                 "mat-2": "Grenade Ash",
                 "mat-3": "Rock Salt",
@@ -46,7 +46,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Potent Poisoning Potion",
+                name: "Potent Poisoning Potion",
                 "mat-1": "Pudding Flesh",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Quicksilver",
@@ -58,7 +58,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Potent Paralyzing Potion",
+                name: "Potent Paralyzing Potion",
                 "mat-1": "Black Scorpion",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Quicksilver",
@@ -70,7 +70,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Potent Silencing Potion",
+                name: "Potent Silencing Potion",
                 "mat-1": "Dart Frog",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Quicksilver",
@@ -82,7 +82,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Potent Sleeping Potion",
+                name: "Potent Sleeping Potion",
                 "mat-1": "Desert Saffron",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Quicksilver",
@@ -94,7 +94,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Embossed Book of Electrum",
+                name: "Embossed Book of Electrum",
                 "mat-1": "Book of Electrum",
                 "mat-2": "2 Electrum Ingot",
                 "mat-3": "Cobalt Ingot",
@@ -106,7 +106,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Budding Rosewood Wand",
+                name: "Budding Rosewood Wand",
                 "mat-1": "Mega-Potion of Mind",
                 "mat-2": "Spoken Blood",
                 "mat-3": "Growth Formula Gamma",
@@ -118,7 +118,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Potent Blinding Potion",
+                name: "Potent Blinding Potion",
                 "mat-1": "Formic Acid",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Quicksilver",
@@ -130,7 +130,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Tane Mahuta",
+                name: "Tane Mahuta",
                 "mat-1": "Rosewood Branch",
                 "mat-2": "Ochu Vine",
                 "mat-3": "Spoken Blood",
@@ -142,7 +142,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Mega-Ether",
+                name: "Mega-Ether",
                 "mat-1": "Distilled Water",
                 "mat-2": "Mistletoe",
                 "mat-3": "Mugwort",
@@ -154,7 +154,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Elixir",
+                name: "Elixir",
                 "mat-1": "Distilled Water",
                 "mat-2": "Mistletoe",
                 "mat-3": "Nutmeg",
@@ -166,7 +166,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Fire Ward Hi-Potion",
+                name: "Fire Ward Hi-Potion",
                 "mat-1": "Raw Garnet",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -178,7 +178,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Ice Ward Hi-Potion",
+                name: "Ice Ward Hi-Potion",
                 "mat-1": "Raw Goshenite",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -190,7 +190,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Wind Ward Hi-Potion",
+                name: "Wind Ward Hi-Potion",
                 "mat-1": "Raw Peridot",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -202,7 +202,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Earth Ward Hi-Potion",
+                name: "Earth Ward Hi-Potion",
                 "mat-1": "Raw Heliodor",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -214,7 +214,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Lightning Ward Hi-Potion",
+                name: "Lightning Ward Hi-Potion",
                 "mat-1": "Raw Amethyst",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -226,7 +226,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Water Ward Hi-Potion",
+                name: "Water Ward Hi-Potion",
                 "mat-1": "Raw Aquamarine",
                 "mat-2": "Mugwort",
                 "mat-3": "Rock Salt",
@@ -238,7 +238,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Another Round Orchestrion Roll",
+                name: "Another Round Orchestrion Roll",
                 "mat-1": "Faded Copy of Another Round",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Mythril Ink",
@@ -250,7 +250,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "The Only Path Orchestrion Roll ",
+                name: "The Only Path Orchestrion Roll ",
                 "mat-1": "Faded Copy of The Only Path",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Electrum Ink",
@@ -262,7 +262,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "A World Apart Orchestrion Roll",
+                name: "A World Apart Orchestrion Roll",
                 "mat-1": "Faded Copy of A World Apart",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Electrum Ink",
@@ -274,7 +274,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Growth Formula Delta",
+                name: "Growth Formula Delta",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Quicksilver",
                 "mat-3": "Rock Salt",
@@ -286,7 +286,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Enchanted Gold Ink",
+                name: "Enchanted Gold Ink",
                 "mat-1": "3 Gold Sand",
                 "mat-2": "Spoken Blood",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Vamper's Knives",
+                name: "Vamper's Knives",
                 "mat-1": "Potent Sleeping Potion",
                 "mat-2": "Bloody Knife Blades",
                 "mat-3": "Rosewood Lumber",
@@ -310,7 +310,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Erudite's Picatrix of Casting",
+                name: "Erudite's Picatrix of Casting",
                 "mat-1": "Enchanted Gold Ink",
                 "mat-2": "Bloody Grimoire Binding",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Madman's Whispering Rod",
+                name: "Madman's Whispering Rod",
                 "mat-1": "Vampire Plant",
                 "mat-2": "Thavnairian Mistletoe",
                 "mat-3": "Growth Formula Delta",
@@ -334,7 +334,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Erudite's Picatrix of Healing",
+                name: "Erudite's Picatrix of Healing",
                 "mat-1": "Enchanted Gold Ink",
                 "mat-2": "Bloody Grimoire Binding",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Watered Cordial",
+                name: "Watered Cordial",
                 "mat-1": "Mineral Water",
                 "mat-2": "Trillium",
                 "mat-3": "Galago Mint",
@@ -358,7 +358,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Growth Formula Delta Concentrate",
+                name: "Growth Formula Delta Concentrate",
                 "mat-1": "2 Growth Formula Delta",
                 "mat-2": "9 Lime Sulphur",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Enchanted Rose Gold Ink",
+                name: "Enchanted Rose Gold Ink",
                 "mat-1": "Enchanted Gold Ink",
                 "mat-2": "9 Minium",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Diluted Vitriol",
+                name: "Diluted Vitriol",
                 "mat-1": "6 Vitriol",
                 "mat-2": "9 Filtered Water",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crystal Glass",
+                name: "Crystal Glass",
                 "mat-1": "3 Silex",
                 "mat-2": "Natron",
                 "mat-3": "Minium",
@@ -406,7 +406,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Suspended Trillium Flower",
+                name: "Suspended Trillium Flower",
                 "mat-1": "Trillium",
                 "mat-2": "Growth Formula Delta",
                 "mat-3": "Growth Formula Delta Concentrate",
@@ -418,7 +418,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Deus Ex Verbis",
+                name: "Deus Ex Verbis",
                 "mat-1": "Enchanted Rose Gold Ink",
                 "mat-2": "3 Darksteel Nugget",
                 "mat-3": "Silk Thread",
@@ -430,7 +430,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Alkalurops",
+                name: "Alkalurops",
                 "mat-1": "Suspended Trillium Flower",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "2 Spruce Lumber",
@@ -442,7 +442,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Deus Ex Gratia",
+                name: "Deus Ex Gratia",
                 "mat-1": "Enchanted Rose Gold Ink",
                 "mat-2": "3 Darksteel Nugget",
                 "mat-3": "Silk Thread",
@@ -454,7 +454,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion",
+                name: "X-Potion",
                 "mat-1": "Vampire Plant",
                 "mat-2": "Thavnairian Mistletoe",
                 "mat-3": "Filtered Water",
@@ -466,7 +466,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Ether",
+                name: "X-Ether",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Mugwort",
                 "mat-3": "Voidsent Blood",
@@ -478,7 +478,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Hi-Elixir",
+                name: "Hi-Elixir",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Treant Sap",
                 "mat-3": "Growth Formula Delta",
@@ -490,7 +490,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion of Strength",
+                name: "X-Potion of Strength",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Shark Oil",
@@ -502,7 +502,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion of Dexterity",
+                name: "X-Potion of Dexterity",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Dart Frog",
@@ -514,7 +514,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion of Vitality",
+                name: "X-Potion of Vitality",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Grenade Ash",
@@ -526,7 +526,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion of Intelligence",
+                name: "X-Potion of Intelligence",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Black Scorpion",
@@ -538,7 +538,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "X-Potion of Mind",
+                name: "X-Potion of Mind",
                 "mat-1": "Thavnairian Mistletoe",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Pudding Flesh",
@@ -550,7 +550,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Fire Ward Mega-Potion",
+                name: "Fire Ward Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Rubellite",
@@ -562,7 +562,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Ice Ward Mega-Potion",
+                name: "Ice Ward Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Zircon",
@@ -574,7 +574,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Wind Wand Mega-Potion",
+                name: "Wind Wand Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Tourmaline",
@@ -586,7 +586,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Earth Ward Mega-Potion",
+                name: "Earth Ward Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Amber",
@@ -598,7 +598,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Lightning Ward Mega-Potion",
+                name: "Lightning Ward Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Spinel",
@@ -610,7 +610,7 @@ export const AlchemistLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Water Ward Mega-Potion",
+                name: "Water Ward Mega-Potion",
                 "mat-1": "Trillium Bulb",
                 "mat-2": "Volcanic Rock Salt",
                 "mat-3": "Raw Turquoise",

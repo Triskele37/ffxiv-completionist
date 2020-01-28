@@ -10,7 +10,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glade Bench",
+                name: "Glade Bench",
                 "mat-1": "4 Hard Leather",
                 "mat-2": "4 Ash Lumber",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Manor Sofa",
+                name: "Manor Sofa",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "2 Walnut Lumber",
                 "mat-3": "2 Fine Wax",
@@ -34,7 +34,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Manor Stool",
+                name: "Manor Stool",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "2 Steel Ingot",
                 "mat-3": "Silver Ingot",
@@ -46,7 +46,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Manor Couch",
+                name: "Manor Couch",
                 "mat-1": "4 Toad Leather",
                 "mat-2": "2 Walnut Lumber",
                 "mat-3": "2 Fine Wax",
@@ -58,7 +58,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Ahriman Chair",
+                name: "Ahriman Chair",
                 "mat-1": "Boar Leather",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Steel Ingot",
@@ -70,7 +70,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Glade Counter",
+                name: "Glade Counter",
                 "mat-1": "2 Peiste Leather",
                 "mat-2": "4 Oak Lumber",
                 "mat-3": "2 Steel Ingot",
@@ -82,7 +82,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Sheep Rug",
+                name: "Sheep Rug",
                 "mat-1": "5 Boar Leather",
                 "mat-2": "4 Fleece",
                 "mat-3": "2 Blue Fox Hide",
@@ -94,7 +94,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Riviera Oval Rug",
+                name: "Riviera Oval Rug",
                 "mat-1": "6 Peiste Leather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "4 Woolen Yarn",
@@ -106,7 +106,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Glade Blossom Rug",
+                name: "Glade Blossom Rug",
                 "mat-1": "6 Raptor Leather",
                 "mat-2": "6 Bloodgrass",
                 "mat-3": "2 Mythril Rivets",
@@ -118,7 +118,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Glade Armchair",
+                name: "Glade Armchair",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "2 Oak Lumber",
                 "mat-3": "2 Cobalt Rivets",
@@ -130,7 +130,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Riviera Fringed Rug",
+                name: "Riviera Fringed Rug",
                 "mat-1": "6 Raptor Leather",
                 "mat-2": "4 Boar Hide",
                 "mat-3": "4 Woolen Yarn",
@@ -142,7 +142,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Glade Couch",
+                name: "Glade Couch",
                 "mat-1": "4 Raptor Leather",
                 "mat-2": "3 Oak Lumber",
                 "mat-3": "3 Cobalt Rivets",
@@ -154,7 +154,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Morbol Chair",
+                name: "Morbol Chair",
                 "mat-1": "2 Hippogryph Leather",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "2 Morbol Vine",
@@ -166,7 +166,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Morbol Bookshelf",
+                name: "Morbol Bookshelf",
                 "mat-1": "4 Hippogryph Leather",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "2 Morbol Vine",
@@ -178,7 +178,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Morbol Screen",
+                name: "Morbol Screen",
                 "mat-1": "3 Hippogryph Leather",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "4 Morbol Vine",
@@ -190,7 +190,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Morbol Rug",
+                name: "Morbol Rug",
                 "mat-1": "3 Hippogryph Leather",
                 "mat-2": "Snurble Tufts",
                 "mat-3": "4 Morbol Vine",
@@ -202,7 +202,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Armchair",
+                name: "Tonberry Armchair",
                 "mat-1": "3 Hippogryph Leather",
                 "mat-2": "Blue Fox Hide",
                 "mat-3": "3 Mahogany Lumber",
@@ -214,7 +214,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Drinking Apkallu",
+                name: "Drinking Apkallu",
                 "mat-1": "2 Hippogryph Leather",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Distilled Water",
@@ -226,7 +226,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Stuffed Goblin",
+                name: "Stuffed Goblin",
                 "mat-1": "2 Floss Silk",
                 "mat-2": "2 Exquisite Buttons",
                 "mat-3": "2 Boar Leather",
@@ -238,7 +238,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Couch",
+                name: "Tonberry Couch",
                 "mat-1": "4 Hippogryph Leather",
                 "mat-2": "Blue Fox Hide",
                 "mat-3": "4 Mahogany Lumber",
@@ -250,7 +250,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Behemoth Wall Trophy",
+                name: "Behemoth Wall Trophy",
                 "mat-1": "3 Hippogryph Leather",
                 "mat-2": "3 Rosewood Lumber",
                 "mat-3": "2 Darksteel Nugget",
@@ -262,7 +262,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Carbuncle Armchair",
+                name: "Carbuncle Armchair",
                 "mat-1": "1 Ruby",
                 "mat-2": "4 Hippogryph Leather",
                 "mat-3": "4 Undyed Woolen Cloth",
@@ -274,7 +274,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Carbuncle Rug",
+                name: "Carbuncle Rug",
                 "mat-1": "2 Ruby",
                 "mat-2": "2 Jute Yarn",
                 "mat-3": "4 Hippogryph Leather",
@@ -286,7 +286,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Stuffed Dhalmel",
+                name: "Stuffed Dhalmel",
                 "mat-1": "12 Dhalmel Hide",
                 "mat-2": "4 Dark Chestnut Log",
                 "mat-3": "4 Larch Lumber",
@@ -298,7 +298,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Stuffed Gagana",
+                name: "Stuffed Gagana",
                 "mat-1": "12 Gagana Skin",
                 "mat-2": "4 Gyr Abanian Alumen",
                 "mat-3": "3 Zelkova Lumber",
@@ -310,7 +310,7 @@ export const Leatherworker_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Leather Sofa",
+                name: "Leather Sofa",
                 "mat-1": "5 Sea Swallow Leather",
                 "mat-2": "5 Sandteak Lumber",
                 "mat-3": "3 Lorikeet Down",

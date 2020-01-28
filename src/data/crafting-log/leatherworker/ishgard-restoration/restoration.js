@@ -10,7 +10,7 @@ export const Leatherworker_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Leather",
+                name: "Skybuilders' Leather",
                 "mat-1": "6 Skybuilders' Yew Log",
                 "mat-2": "Aldgoat Skin",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Leather Straps",
+                name: "Skybuilders' Leather Straps",
                 "mat-1": "4 Skybuilders' Ash Log",
                 "mat-2": "4 Skybuilders' Toad",
                 "mat-3": "2 Rosewood Branch",
@@ -34,7 +34,7 @@ export const Leatherworker_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Rug",
+                name: "Skybuilders' Rug",
                 "mat-1": "6 Skybuilders' Tea Leaves",
                 "mat-2": "6 Skybuilders' Dravanian Spring Water",
                 "mat-3": "2 Dhalmel Hide",
@@ -46,7 +46,7 @@ export const Leatherworker_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' Longboots",
+                name: "Skybuilders' Longboots",
                 "mat-1": "6 Skybuilders' Adder",
                 "mat-2": "6 Skybuilders' Urunday Log",
                 "mat-3": "6 Skybuilders' Vine",
@@ -58,7 +58,7 @@ export const Leatherworker_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Overalls",
+                name: "Skybuilders' Overalls",
                 "mat-1": "8 Skybuilders' Dawn Lizard",
                 "mat-2": "8 Skybuilders' White Ash Log",
                 "mat-3": "8 Skybuilders' Cotton Boll",

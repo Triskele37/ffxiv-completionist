@@ -7,9 +7,12 @@ export const GoldsmithHousingRecipe = function(parentStorageKey) {
     return {
         name: "Housing Recipes",
         storageKey,
-        subGroups: [
-            Goldsmith_Housing_1(storageKey),
-            Goldsmith_Housing_2(storageKey),
-        ]
+        groupKeys: [
+            "Housing_1",
+            "Housing_2",
+        ],
+        // Groups
+        Housing_1: Goldsmith_Housing_1(storageKey),
+        Housing_2: Goldsmith_Housing_2(storageKey),
     };
 };

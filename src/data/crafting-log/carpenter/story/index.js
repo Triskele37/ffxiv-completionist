@@ -7,9 +7,12 @@ export const CarpenterStoryRecipe = function(parentStorageKey) {
     return {
         name: "Story Recipes",
         storageKey,
-        subGroups: [
-            Carpenter_Story_ClassQuests(storageKey),
-            Carpenter_Story_Crystarium(storageKey),
-        ]
+        groupKeys: [
+            "ClassQuests",
+            "CrystariumDeliveries"
+        ],
+        // Groups
+        ClassQuests: Carpenter_Story_ClassQuests(storageKey),
+        CrystariumDeliveries: Carpenter_Story_Crystarium(storageKey),
     };
 };

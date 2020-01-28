@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "Sewing Thread",
+                name: "Sewing Thread",
                 "mat-1": "3 Whitefrost Cotton Boll",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Cap of Crafting",
+                name: "Carbonweave Cap of Crafting",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "2 Sewing Thread",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Hood of Healing",
+                name: "Replica Dreadwyrm Hood of Healing",
                 "mat-1": "2 Neo Aetherstone - Headgear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Platinum Ingot",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Apron of Crafting",
+                name: "Carbonweave Apron of Crafting",
                 "mat-1": "2 Carbon Fiber",
                 "mat-2": "2 Cloud Cloth",
                 "mat-3": "Pterodactyl Leather",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Tunic of Casting",
+                name: "Replica Allagan Tunic of Casting",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Arachne Velveteen",
                 "mat-3": "2 Kirimu Leather",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Tunic of Healing",
+                name: "Replica Allagan Tunic of Healing",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Arachne Velveteen",
                 "mat-3": "2 Kirimu Leather",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Coat of Aiming",
+                name: "Replica High Allagan Coat of Aiming",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Coat of Casting",
+                name: "Replica High Allagan Coat of Casting",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Coat of Healing",
+                name: "Replica High Allagan Coat of Healing",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Robe of Healing",
+                name: "Replica Dreadwyrm Robe of Healing",
                 "mat-1": "2 Neo Aetherstone - Body Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Sleeves of Crafting",
+                name: "Carbonweave Sleeves of Crafting",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "2 Sewing Thread",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Breeches of Crafting",
+                name: "Carbonweave Breeches of Crafting",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Pterodactyl Leather",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Slops of Gathering",
+                name: "Carbonweave Slops of Gathering",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Pterodactyl Leather",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Trousers of Maiming",
+                name: "Replica Allagan Trousers of Maiming",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Trousers of Striking",
+                name: "Replica Allagan Trousers of Striking",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Trousers of Aiming",
+                name: "Replica Allagan Trousers of Aiming",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Breeches of Casting",
+                name: "Replica Allagan Breeches of Casting",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Breeches of Healing",
+                name: "Replica Allagan Breeches of Healing",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -226,7 +226,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Pantaloons of Healing",
+                name: "Replica High Allagan Pantaloons of Healing",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Kirimu Leather",
@@ -238,7 +238,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Sarouel of Fending",
+                name: "Replica Dreadwyrm Sarouel of Fending",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -250,7 +250,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Slops of Striking",
+                name: "Replica Dreadwyrm Slops of Striking",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "3 Arachne Velveteen",
@@ -262,7 +262,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Slops of Scouting",
+                name: "Replica Dreadwyrm Slops of Scouting",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "3 Arachne Velveteen",
@@ -274,7 +274,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Tonban of Casting",
+                name: "Replica Dreadwyrm Tonban of Casting",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Platinum Ingot",
@@ -286,7 +286,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Tonban of Healing",
+                name: "Replica Dreadwyrm Tonban of Healing",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "3 Arachne Velveteen",
                 "mat-3": "Platinum Ingot",
@@ -298,7 +298,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Onion Prince",
+                name: "Stuffed Onion Prince",
                 "mat-1": "Onion Prince Seeds",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Apkallu Down",
@@ -310,7 +310,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Eggplant Knight",
+                name: "Stuffed Eggplant Knight",
                 "mat-1": "Eggplant Knight Seeds",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Apkallu Down",
@@ -322,7 +322,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Garlic Jester",
+                name: "Stuffed Garlic Jester",
                 "mat-1": "Garlic Jester Seeds",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Apkallu Down",
@@ -334,7 +334,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Tomato King",
+                name: "Stuffed Tomato King",
                 "mat-1": "Tomato King Seeds",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Apkallu Down",
@@ -346,7 +346,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Mandragora Queen",
+                name: "Stuffed Mandragora Queen",
                 "mat-1": "Mandragora Queen Seeds",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Apkallu Down",
@@ -358,7 +358,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Calca",
+                name: "Stuffed Calca",
                 "mat-1": "Astral Silk",
                 "mat-2": "Cashmere Cloth",
                 "mat-3": "2 Sewing Thread",
@@ -370,7 +370,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Stuffed Brina",
+                name: "Stuffed Brina",
                 "mat-1": "Astral Silk",
                 "mat-2": "Cashmere Cloth",
                 "mat-3": "2 Sewing Thread",
@@ -382,7 +382,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Pudding Throw Rug",
+                name: "Pudding Throw Rug",
                 "mat-1": "2 Tincalconite",
                 "mat-2": "6 Pudding Flesh",
                 "mat-3": "2 Chimerical Felt",
@@ -394,7 +394,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth",
+                name: "Eikon Cloth",
                 "mat-1": "2 Eikon Fiber",
                 "mat-2": "3 Frost Cotton Boll",
                 "mat-3": "2 Rainbow Cotton Boll",
@@ -406,7 +406,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Hat of Scouting",
+                name: "Eikon Cloth Hat of Scouting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "2 Wildfowl Feather",
@@ -418,7 +418,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Hat of Aiming",
+                name: "Eikon Cloth Hat of Aiming",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "2 Wildfowl Feather",
@@ -430,7 +430,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Hat of Healing",
+                name: "Eikon Cloth Hat of Healing",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "2 Wildfowl Feather",
@@ -442,7 +442,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Acton of Scouting",
+                name: "Eikon Cloth Acton of Scouting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Eikon Iron Ingot",
@@ -454,7 +454,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Acton of Aiming",
+                name: "Eikon Cloth Acton of Aiming",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Eikon Iron Ingot",
@@ -466,7 +466,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Acton of Healing",
+                name: "Eikon Cloth Acton of Healing",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Eikon Iron Ingot",
@@ -478,7 +478,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Tabard",
+                name: "Expeditioner's Tabard",
                 "mat-1": "2 Antique Rug",
                 "mat-2": "Antique Leather",
                 "mat-3": "Ramie Thread",
@@ -490,7 +490,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Sleeves of Scouting",
+                name: "Eikon Cloth Sleeves of Scouting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -502,7 +502,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Sleeves of Aiming",
+                name: "Eikon Cloth Sleeves of Aiming",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -514,7 +514,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Sleeves of Healing",
+                name: "Eikon Cloth Sleeves of Healing",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -526,7 +526,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Corset of Casting",
+                name: "Eikon Cloth Corset of Casting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Crawler Silk",
@@ -538,7 +538,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Corset of Healing",
+                name: "Eikon Cloth Corset of Healing",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Crawler Silk",
@@ -550,7 +550,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Brais of Maiming",
+                name: "Eikon Cloth Brais of Maiming",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -562,7 +562,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Brais of Striking",
+                name: "Eikon Cloth Brais of Striking",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -574,7 +574,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Culottes of Scouting",
+                name: "Eikon Cloth Culottes of Scouting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -586,7 +586,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Culottes of Aiming",
+                name: "Eikon Cloth Culottes of Aiming",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -598,7 +598,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Brais of Casting",
+                name: "Eikon Cloth Brais of Casting",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -610,7 +610,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Cloth Culottes of Healing",
+                name: "Eikon Cloth Culottes of Healing",
                 "mat-1": "2 Eikon Cloth",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -622,7 +622,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Kecks",
+                name: "Expeditioner's Kecks",
                 "mat-1": "2 Antique Rug",
                 "mat-2": "Antique Leather",
                 "mat-3": "Ramie Thread",
@@ -634,7 +634,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Pantalettes",
+                name: "Expeditioner's Pantalettes",
                 "mat-1": "Antique Rug",
                 "mat-2": "Antique Leather",
                 "mat-3": "Titanium Rivets",
@@ -646,7 +646,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Stormcloud Cotton Cloth",
+                name: "Stormcloud Cotton Cloth",
                 "mat-1": "2 Stormcloud Cotton Boll",
                 "mat-2": "Whitefrost Cotton Boll",
                 "mat-3": "X",
@@ -658,7 +658,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Cap of Crafting",
+                name: "Ironworks Cap of Crafting",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Cloth",
                 "mat-3": "Eikon Fiber",
@@ -670,7 +670,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Apron of Crafting",
+                name: "Ironworks Apron of Crafting",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "2 Eikon Cloth",
                 "mat-3": "Eikon Leather",
@@ -682,7 +682,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Sleeves of Crafting",
+                name: "Ironworks Sleeves of Crafting",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Cloth",
                 "mat-3": "Eikon Fiber",
@@ -694,7 +694,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Breeches of Crafting",
+                name: "Ironworks Breeches of Crafting",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Cloth",
                 "mat-3": "Eikon Leather",
@@ -706,7 +706,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Slops of Gathering",
+                name: "Ironworks Slops of Gathering",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Cloth",
                 "mat-3": "Eikon Leather",
@@ -718,7 +718,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet",
+                name: "Star Velvet",
                 "mat-1": "3 Star Cotton Boll",
                 "mat-2": "2 Invisible Silk",
                 "mat-3": "Arachne Web",
@@ -730,7 +730,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Hood of Casting",
+                name: "Star Velvet Hood of Casting",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -742,7 +742,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Hood of Healing",
+                name: "Star Velvet Hood of Healing",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -754,7 +754,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Tabard of Striking",
+                name: "Star Velvet Tabard of Striking",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Hemicyon Leather",
                 "mat-3": "Sewing Thread",
@@ -766,7 +766,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Tabard of Scouting",
+                name: "Star Velvet Tabard of Scouting",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Hemicyon Leather",
                 "mat-3": "Sewing Thread",
@@ -778,7 +778,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Tabard of Aiming",
+                name: "Star Velvet Tabard of Aiming",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Hemicyon Leather",
                 "mat-3": "Sewing Thread",
@@ -790,7 +790,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Himation of Casting",
+                name: "Star Velvet Himation of Casting",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Hemicyon Leather",
                 "mat-3": "Sewing Thread",
@@ -802,7 +802,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Himation of Healing",
+                name: "Star Velvet Himation of Healing",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Hemicyon Leather",
                 "mat-3": "Sewing Thread",
@@ -814,7 +814,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Long Gloves of Casting",
+                name: "Star Velvet Long Gloves of Casting",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -826,7 +826,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Long Gloves of Healing",
+                name: "Star Velvet Long Gloves of Healing",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -838,7 +838,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Sash of Casting",
+                name: "Star Velvet Sash of Casting",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Sewing Thread",
                 "mat-3": "Cashmere Cloth",
@@ -850,7 +850,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Sash of Healing",
+                name: "Star Velvet Sash of Healing",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Sewing Thread",
                 "mat-3": "Cashmere Cloth",
@@ -862,7 +862,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Fending",
+                name: "Sky Rat Breeches of Fending",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -874,7 +874,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Maiming",
+                name: "Sky Rat Breeches of Maiming",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -886,7 +886,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Striking",
+                name: "Sky Rat Breeches of Striking",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -898,7 +898,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Scouting",
+                name: "Sky Rat Breeches of Scouting",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -910,7 +910,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Aiming",
+                name: "Sky Rat Breeches of Aiming",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -922,7 +922,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Bottoms of Casting",
+                name: "Star Velvet Bottoms of Casting",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -934,7 +934,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Casting",
+                name: "Sky Rat Breeches of Casting",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -946,7 +946,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Star Velvet Bottoms of Healing",
+                name: "Star Velvet Bottoms of Healing",
                 "mat-1": "3 Star Velvet",
                 "mat-2": "Scintillant Ingot",
                 "mat-3": "Sewing Thread",
@@ -958,7 +958,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Breeches of Healing",
+                name: "Sky Rat Breeches of Healing",
                 "mat-1": "2 Stormcloud Cotton Cloth",
                 "mat-2": "Peteinosaur Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -970,7 +970,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Trouser Hanger",
+                name: "Trouser Hanger",
                 "mat-1": "2 Star Velvet",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -982,7 +982,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Taoist's Cap",
+                name: "Taoist's Cap",
                 "mat-1": "2 Taoist's Wool",
                 "mat-2": "Silk Thread",
                 "mat-3": "Worsted Yarn",
@@ -994,7 +994,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Non La",
+                name: "Non La",
                 "mat-1": "2 Ratanhia Leaves",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Crow Feather",
@@ -1006,7 +1006,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Taoist's Shirt",
+                name: "Taoist's Shirt",
                 "mat-1": "2 Taoist's Wool",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "2 Worsted Yarn",
@@ -1018,7 +1018,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Ao Dai",
+                name: "Ao Dai",
                 "mat-1": "3 Nagxian Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Palladium Nugget",
@@ -1030,7 +1030,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Taoist's Slops",
+                name: "Taoist's Slops",
                 "mat-1": "2 Taoist's Wool",
                 "mat-2": "Silk Thread",
                 "mat-3": "Worsted Yarn",
@@ -1042,7 +1042,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Quan",
+                name: "Quan",
                 "mat-1": "2 Nagxian Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "X",
@@ -1054,7 +1054,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Wind-up Susano",
+                name: "Wind-up Susano",
                 "mat-1": "Blood Pepper",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -1066,7 +1066,7 @@ export const Weaver_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Wind-up Lakshmi",
+                name: "Wind-up Lakshmi",
                 "mat-1": "Blood Pepper",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Worsted Yarn",

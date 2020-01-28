@@ -1,7 +1,7 @@
 import { QuestColumnConfig } from "../columnConfigs";
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=5&columns=ID,Name&limit=19
-export const PostDragonsongQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Post_Dragonsong = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.post-dragonsong`;
 
     return {

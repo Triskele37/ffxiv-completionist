@@ -5,11 +5,14 @@ export const Weaver_IshgardRestoration_Recipe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
 
     return {
-        name: "Ishgard Restoration Recipes",
+        name: "Ishgard Restoration",
         storageKey,
-        subGroups: [
-            Weaver_Restoration(storageKey),
-            Weaver_Other(storageKey),
-        ]
+        groupKeys: [
+            "Restoration",
+            "Other",
+        ],
+        // Groups
+        Restoration: Weaver_Restoration(storageKey),
+        Other: Weaver_Other(storageKey),
     };
 };

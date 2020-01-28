@@ -11,7 +11,7 @@ export const Culinarian_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Doman Rice Balls",
+                name: "Doman Rice Balls",
                 "mat-1": "Rice Ball Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -23,7 +23,7 @@ export const Culinarian_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Doman Udon Broth",
+                name: "Doman Udon Broth",
                 "mat-1": "Broth Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -35,7 +35,7 @@ export const Culinarian_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Nigiri-zushi",
+                name: "Nigiri-zushi",
                 "mat-1": "Sushi Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -47,7 +47,7 @@ export const Culinarian_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Doman Sukiyaki",
+                name: "Doman Sukiyaki",
                 "mat-1": "Sukiyaki Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",

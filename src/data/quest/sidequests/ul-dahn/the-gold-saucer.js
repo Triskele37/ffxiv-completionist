@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheGoldSaucer = function(parentStorageKey) {
+export const Quest_Sidequests_Ul_Dahn_The_Gold_Saucer = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-gold-saucer`;
 
     return {

@@ -10,7 +10,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Triplite",
+                name: "Triplite",
                 "mat-1": "3 Raw Triplite",
                 "mat-2": "Tuff Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Tuff Whetstone",
+                name: "Tuff Whetstone",
                 "mat-1": "3 Volcanic Tuff",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Nugget",
+                name: "Titanbronze Nugget",
                 "mat-1": "4 Titancopper Sand",
                 "mat-2": "Titanium Ore",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Rapier",
+                name: "Titanbronze Rapier",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Triplite",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Star Globe",
+                name: "Titanbronze Star Globe",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Enchanted Dimythrite Ink",
                 "mat-3": "Triplite",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Earrings of Fending",
+                name: "Triplite Earrings of Fending",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Earrings of Slaying",
+                name: "Triplite Earrings of Slaying",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Earrings of Aiming",
+                name: "Triplite Earrings of Aiming",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Earrings of Casting",
+                name: "Triplite Earrings of Casting",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Earrings of Healing",
+                name: "Triplite Earrings of Healing",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Ring of Fending",
+                name: "Triplite Ring of Fending",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Ring of Slaying",
+                name: "Triplite Ring of Slaying",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Ring of Aiming",
+                name: "Triplite Ring of Aiming",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Ring of Casting",
+                name: "Triplite Ring of Casting",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Triplite Ring of Healing",
+                name: "Triplite Ring of Healing",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Needle",
+                name: "Titanbronze Needle",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Titanbronze Ingot",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Headgear of Fending",
+                name: "Titanbronze Headgear of Fending",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Zonure Leather",
                 "mat-3": "Hardsilver Nugget",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Headgear of Maiming",
+                name: "Titanbronze Headgear of Maiming",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Zonure Leather",
                 "mat-3": "Hardsilver Nugget",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Choker of Fending",
+                name: "Triplite Choker of Fending",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Choker of Slaying",
+                name: "Triplite Choker of Slaying",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Choker of Aiming",
+                name: "Triplite Choker of Aiming",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Choker of Casting",
+                name: "Triplite Choker of Casting",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Choker of Healing",
+                name: "Triplite Choker of Healing",
                 "mat-1": "2 Titanbronze Nugget",
                 "mat-2": "Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Bracelet of Fending",
+                name: "Triplite Bracelet of Fending",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Bracelet of Slaying",
+                name: "Triplite Bracelet of Slaying",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Bracelet of Aiming",
+                name: "Triplite Bracelet of Aiming",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Bracelet of Casting",
+                name: "Triplite Bracelet of Casting",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Triplite Bracelet of Healing",
+                name: "Triplite Bracelet of Healing",
                 "mat-1": "Titanbronze Nugget",
                 "mat-2": "2 Triplite",
                 "mat-3": "Dhalmel Leather",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite",
+                name: "Petalite",
                 "mat-1": "3 Raw Petalite",
                 "mat-2": "Tuff Whetstone",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Nugget",
+                name: "Dwarven Mythril Nugget",
                 "mat-1": "4 Dimythrite Sand",
                 "mat-2": "Mythrite Sand",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Rapier",
+                name: "Dwarven Mythril Rapier",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Lignum Vitae Lumber",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Earrings of Fending",
+                name: "Petalite Earrings of Fending",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Earrings of Slaying",
+                name: "Petalite Earrings of Slaying",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Earrings of Aiming",
+                name: "Petalite Earrings of Aiming",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Earrings of Casting",
+                name: "Petalite Earrings of Casting",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Earrings of Healing",
+                name: "Petalite Earrings of Healing",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Ring of Fending",
+                name: "Petalite Ring of Fending",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Ring of Slaying",
+                name: "Petalite Ring of Slaying",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Ring of Aiming",
+                name: "Petalite Ring of Aiming",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Ring of Casting",
+                name: "Petalite Ring of Casting",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Petalite Ring of Healing",
+                name: "Petalite Ring of Healing",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Choker of Fending",
+                name: "Petalite Choker of Fending",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Choker of Slaying",
+                name: "Petalite Choker of Slaying",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Choker of Aiming",
+                name: "Petalite Choker of Aiming",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Choker of Casting",
+                name: "Petalite Choker of Casting",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Choker of Healing",
+                name: "Petalite Choker of Healing",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Bracelet of Fending",
+                name: "Petalite Bracelet of Fending",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Bracelet of Slaying",
+                name: "Petalite Bracelet of Slaying",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Bracelet of Aiming",
+                name: "Petalite Bracelet of Aiming",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Bracelet of Casting",
+                name: "Petalite Bracelet of Casting",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Petalite Bracelet of Healing",
+                name: "Petalite Bracelet of Healing",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "2 Petalite",
                 "mat-3": "Manasilver Nugget",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Onyx",
+                name: "Onyx",
                 "mat-1": "Raw Onyx",
                 "mat-2": "Tuff Whetstone",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Needle",
+                name: "Dwarven Mythril Needle",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Dwarven Mythril Ingot",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Ear Cuffs",
+                name: "Dwarven Mythril Ear Cuffs",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "X",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Choker",
+                name: "Dwarven Mythril Choker",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Iridescent Silk Thread",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Bracelets",
+                name: "Dwarven Mythril Bracelets",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Iridescent Silk Thread",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Ring",
+                name: "Dwarven Mythril Ring",
                 "mat-1": "Dwarven Mythril Nugget",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Iridescent Silk Thread",

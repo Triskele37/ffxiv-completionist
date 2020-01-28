@@ -12,14 +12,22 @@ export const Orchestrion = function(parentStorageKey) {
     return {
         name: "Orchestrion",
         storageKey,
-        subGroups: [
-            OrchestrionLocales(storageKey),
-            OrchestrionDungeon(storageKey),
-            OrchestrionMogStation(storageKey),
-            OrchestrionOther(storageKey),
-            OrchestrionRaid(storageKey),
-            OrchestrionSeasonal(storageKey),
-            OrchestrionTrial(storageKey),
-        ]
+        groupKeys: [
+            "Locales",
+            "Dungeon",
+            "MogStation",
+            "Other",
+            "Raid",
+            "Seasonal",
+            "Trial",
+        ],
+        // Groups
+        Locales: OrchestrionLocales(storageKey),
+        Dungeon: OrchestrionDungeon(storageKey),
+        MogStation: OrchestrionMogStation(storageKey),
+        Other: OrchestrionOther(storageKey),
+        Raid: OrchestrionRaid(storageKey),
+        Seasonal: OrchestrionSeasonal(storageKey),
+        Trial: OrchestrionTrial(storageKey),
     };
 };

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheSeaOfClouds = function(parentStorageKey) {
+export const Quest_Sidequests_Abalathian_The_Sea_Of_Clouds = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-sea-of-clouds`;
 
     return {

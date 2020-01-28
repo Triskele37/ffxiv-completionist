@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★",
-                "item": "Spruce Plywood",
+                name: "Spruce Plywood",
                 "mat-1": "Spruce Lumber",
                 "mat-2": "2 Horn Glue",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Beach Chair",
+                name: "Beach Chair",
                 "mat-1": "3 Treated Spruce Lumber",
                 "mat-2": "5 Mariner Cotton Cloth",
                 "mat-3": "3 Linen Yarn",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Round Stage",
+                name: "Round Stage",
                 "mat-1": "4 Treated Spruce Lumber",
                 "mat-2": "2 Darksteel Ingot",
                 "mat-3": "2 Varnish",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Reinforced Spruce Plywood",
+                name: "Reinforced Spruce Plywood",
                 "mat-1": "Spruce Plywood",
                 "mat-2": "2 Fieldcraft Demimateria III",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Petrified Orb",
+                name: "Petrified Orb",
                 "mat-1": "3 Urushi",
                 "mat-2": "Petrified Log",
                 "mat-3": "Scarlet Sap",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Ancient Lumber",
+                name: "Ancient Lumber",
                 "mat-1": "Petrified Log",
                 "mat-2": "Scarlet Sap",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Perfect Firewood",
+                name: "Perfect Firewood",
                 "mat-1": "Aged Spear Shaft",
                 "mat-2": "2 Cypress Log",
                 "mat-3": "Grenade Ash",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Artisan's Grinding Wheel",
+                name: "Artisan's Grinding Wheel",
                 "mat-1": "Ancient Lumber",
                 "mat-2": "Rose Gold Ingot",
                 "mat-3": "Astral Rock",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Artisan's Spinning Wheel",
+                name: "Artisan's Spinning Wheel",
                 "mat-1": "Ancient Lumber",
                 "mat-2": "Treated Spruce Lumber",
                 "mat-3": "Cobalt Rivets",
@@ -118,7 +118,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Oriental Deck",
+                name: "Oriental Deck",
                 "mat-1": "7 Ancient Lumber",
                 "mat-2": "15 Roof Tile",
                 "mat-3": "2 Granite",
@@ -130,7 +130,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Glade Partition Door",
+                name: "Glade Partition Door",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "4 Rosewood Lumber",
                 "mat-3": "Silver Ingot",
@@ -142,7 +142,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Oasis Partition Door",
+                name: "Oasis Partition Door",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "4 Walnut Lumber",
                 "mat-3": "Electrum Ingot",
@@ -154,7 +154,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Staggered Shelf",
+                name: "Staggered Shelf",
                 "mat-1": "5 Ancient Lumber",
                 "mat-2": "Wolfram Ingot",
                 "mat-3": "3 Varnish",
@@ -166,7 +166,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Portable Stepladder",
+                name: "Portable Stepladder",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Steel Hinge",
@@ -178,7 +178,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Glade Bachelor's Desk",
+                name: "Glade Bachelor's Desk",
                 "mat-1": "4 Ancient Lumber",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "Cobalt Rivets",
@@ -190,7 +190,7 @@ export const Carpenter_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Cassia Lumber",
+                name: "Cassia Lumber",
                 "mat-1": "3 Cassia Log",
                 "mat-2": "9 Hardened Sap",
                 "mat-3": "X",

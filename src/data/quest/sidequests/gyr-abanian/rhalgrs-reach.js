@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const RhalgrsReach = function(parentStorageKey) {
+export const Quest_Sidequests_Gyr_Abanian_Rhalgrs_Reach = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.rhalgrs-reach`;
 
     return {

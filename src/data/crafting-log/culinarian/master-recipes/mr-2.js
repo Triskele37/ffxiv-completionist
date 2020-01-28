@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★★★",
-                "item": "Flint Caviar",
+                name: "Flint Caviar",
                 "mat-1": "Borax",
                 "mat-2": "Emperor Fish",
                 "mat-3": "Filtered Water",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Bacon Bread",
+                name: "Bacon Bread",
                 "mat-1": "Smoked Bacon",
                 "mat-2": "Sunset Wheat",
                 "mat-3": "Mineral Water",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Bacon Broth",
+                name: "Bacon Broth",
                 "mat-1": "Smoked Bacon",
                 "mat-2": "Xelphatol Spring",
                 "mat-3": "La Noscean Leek",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Triple Cream Coffee",
+                name: "Triple Cream Coffee",
                 "mat-1": "Roasted Coffee Beans",
                 "mat-2": "Mineral Water",
                 "mat-3": "Sweet Cream",

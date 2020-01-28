@@ -1,7 +1,7 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=18&columns=ID,Name&limit=5
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheFourLords = function(parentStorageKey) {
+export const Quest_COANE_The_Four_Lords = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-four-lords`;
 
     return {

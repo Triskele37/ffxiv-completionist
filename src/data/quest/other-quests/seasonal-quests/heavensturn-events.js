@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const HeavensturnEvents = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Heavensturn = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.heavensturn`;
 
     return {

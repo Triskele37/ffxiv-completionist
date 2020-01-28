@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Boulevardier's Dress Shoes",
+                name: "Boulevardier's Dress Shoes",
                 "mat-1": "2 Boutique Boarded Leather",
                 "mat-2": "Ground Sloth Leather",
                 "mat-3": "Palladium Nugget",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Quaintrelle's Dress Shoes",
+                name: "Quaintrelle's Dress Shoes",
                 "mat-1": "2 Leather Cointe Quaint",
                 "mat-2": "Ground Sloth Leather",
                 "mat-3": "Palladium Nugget",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grand Chair",
+                name: "Grand Chair",
                 "mat-1": "4 Ground Sloth Leather",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "3 Manzasiri Hair",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Byakko Throne",
+                name: "Byakko Throne",
                 "mat-1": "2 Byakko's Mane",
                 "mat-2": "4 Molybdenum Ingot",
                 "mat-3": "5 Tiger Leather",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Ground Sloth Leather",
+                name: "Ground Sloth Leather",
                 "mat-1": "4 Ground Sloth Pelt",
                 "mat-2": "2 Thavnairian Alumen",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Gloves of Scouting",
+                name: "Slothskin Gloves of Scouting",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Twinsilk",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Gloves of Aiming",
+                name: "Slothskin Gloves of Aiming",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Twinsilk",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Onishi Tekko",
+                name: "Onishi Tekko",
                 "mat-1": "2 Veteran Tree Sap",
                 "mat-2": "6 Ground Sloth Leather",
                 "mat-3": "Worsted Yarn",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Yamashi Tekko",
+                name: "Yamashi Tekko",
                 "mat-1": "2 Veteran Tree Sap",
                 "mat-2": "4 Ground Sloth Leather",
                 "mat-3": "2 True Linen",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Fending",
+                name: "Slothskin Belt of Fending",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Maiming",
+                name: "Slothskin Belt of Maiming",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Striking",
+                name: "Slothskin Belt of Striking",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Scouting",
+                name: "Slothskin Belt of Scouting",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Aiming",
+                name: "Slothskin Belt of Aiming",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Casting",
+                name: "Slothskin Belt of Casting",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Belt of Healing",
+                name: "Slothskin Belt of Healing",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Boots of Striking",
+                name: "Slothskin Boots of Striking",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "True Linen",
                 "mat-3": "Silk Thread",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Thighboots of Scouting",
+                name: "Slothskin Thighboots of Scouting",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Nightsteel Ingot",
                 "mat-3": "Silk Thread",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Boots of Aiming",
+                name: "Slothskin Boots of Aiming",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Silk Thread",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Boots of Casting",
+                name: "Slothskin Boots of Casting",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Rhodonite",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Boots of Healing",
+                name: "Slothskin Boots of Healing",
                 "mat-1": "2 Ground Sloth Leather",
                 "mat-2": "Nightsteel Ingot",
                 "mat-3": "Imperial Jade",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Onishi Zori",
+                name: "Onishi Zori",
                 "mat-1": "2 Veteran Tree Sap",
                 "mat-2": "6 Ground Sloth Leather",
                 "mat-3": "Worsted Yarn",
@@ -274,7 +274,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Yamashi Zori",
+                name: "Yamashi Zori",
                 "mat-1": "2 Veteran Tree Sap",
                 "mat-2": "6 Ground Sloth Leather",
                 "mat-3": "Worsted Yarn",
@@ -286,7 +286,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Rain Boots",
+                name: "Rain Boots",
                 "mat-1": "Waterproof Cloth",
                 "mat-2": "2 Ground Sloth Leather",
                 "mat-3": "Sewing Thread",
@@ -298,7 +298,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Necklace of Gathering",
+                name: "Slothskin Necklace of Gathering",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "4 Ground Sloth Leather",
                 "mat-3": "Worsted Yarn",
@@ -310,7 +310,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Armillae of Gathering",
+                name: "Slothskin Armillae of Gathering",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "4 Ground Sloth Leather",
                 "mat-3": "Azurite",
@@ -322,7 +322,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Slothskin Ring of Gathering",
+                name: "Slothskin Ring of Gathering",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "2 Ground Sloth Leather",
                 "mat-3": "Palladium Nugget",
@@ -334,7 +334,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Procoptodon Leather",
+                name: "Procoptodon Leather",
                 "mat-1": "4 Procoptodon Skin",
                 "mat-2": "2 Gyr Abanian Wax",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Tekko of Striking",
+                name: "Rakshasa Tekko of Striking",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -358,7 +358,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Tekko of Scouting",
+                name: "Rakshasa Tekko of Scouting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -370,7 +370,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Tekko of Aiming",
+                name: "Rakshasa Tekko of Aiming",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -382,7 +382,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Tekko of Casting",
+                name: "Rakshasa Tekko of Casting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -394,7 +394,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Tekko of Healing",
+                name: "Rakshasa Tekko of Healing",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -406,7 +406,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Fending",
+                name: "Rakshasa Obi of Fending",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -418,7 +418,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Maiming",
+                name: "Rakshasa Obi of Maiming",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -430,7 +430,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Striking",
+                name: "Rakshasa Obi of Striking",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -442,7 +442,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Scouting",
+                name: "Rakshasa Obi of Scouting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -454,7 +454,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Aiming",
+                name: "Rakshasa Obi of Aiming",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -466,7 +466,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Casting",
+                name: "Rakshasa Obi of Casting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -478,7 +478,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Obi of Healing",
+                name: "Rakshasa Obi of Healing",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Palladium Nugget",
@@ -490,7 +490,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Zori of Striking",
+                name: "Rakshasa Zori of Striking",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -502,7 +502,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Zori of Scouting",
+                name: "Rakshasa Zori of Scouting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -514,7 +514,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Zori of Aiming",
+                name: "Rakshasa Zori of Aiming",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -526,7 +526,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Zori of Casting",
+                name: "Rakshasa Zori of Casting",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Bloodhempen Yarn",
@@ -538,7 +538,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Zori of Healing",
+                name: "Rakshasa Zori of Healing",
                 "mat-1": "2 Procoptodon Leather",
                 "mat-2": "Urunday Lumber",
                 "mat-3": "Ruby Cotton Cloth",
@@ -550,7 +550,7 @@ export const Leatherworker_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Steerhide Shoes",
+                name: "Steerhide Shoes",
                 "mat-1": "2 Steer Hide",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Pixie Floss",

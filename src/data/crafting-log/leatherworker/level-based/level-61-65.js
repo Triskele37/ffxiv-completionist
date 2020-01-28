@@ -10,7 +10,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Gagana Leather",
+                name: "Gagana Leather",
                 "mat-1": "3 Gagana Skin",
                 "mat-2": "Gyr Abanian Alumen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Hat of Aiming",
+                name: "Gaganaskin Hat of Aiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Gloves of Aiming",
+                name: "Gaganaskin Gloves of Aiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Fending",
+                name: "Gaganaskin Belt of Fending",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Maiming",
+                name: "Gaganaskin Belt of Maiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Striking",
+                name: "Gaganaskin Belt of Striking",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Scouting",
+                name: "Gaganaskin Belt of Scouting",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Aiming",
+                name: "Gaganaskin Belt of Aiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Casting",
+                name: "Gaganaskin Belt of Casting",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Belt of Healing",
+                name: "Gaganaskin Belt of Healing",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Bush Hat",
+                name: "Gaganaskin Bush Hat",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Rose Gold Nugget",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Jacket of Aiming",
+                name: "Gaganaskin Jacket of Aiming",
                 "mat-1": "3 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Vest",
+                name: "Gaganaskin Vest",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Halfgloves",
+                name: "Gaganaskin Halfgloves",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Gloves",
+                name: "Gaganaskin Gloves",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Hose of Fending",
+                name: "Gaganaskin Hose of Fending",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "2 High Steel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Hose of Maiming",
+                name: "Gaganaskin Hose of Maiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "2 High Steel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Chaps of Aiming",
+                name: "Gaganaskin Chaps of Aiming",
                 "mat-1": "3 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Leg Guards of Fending",
+                name: "Gaganaskin Leg Guards of Fending",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Leg Guards of Maiming",
+                name: "Gaganaskin Leg Guards of Maiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Sandals of Striking",
+                name: "Gaganaskin Sandals of Striking",
                 "mat-1": "3 Gagana Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Rubber",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Sandals of Scouting",
+                name: "Gaganaskin Sandals of Scouting",
                 "mat-1": "3 Gagana Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Rubber",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Boots of Aiming",
+                name: "Gaganaskin Boots of Aiming",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Sandals of Casting",
+                name: "Gaganaskin Sandals of Casting",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Sandals of Healing",
+                name: "Gaganaskin Sandals of Healing",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Bloodhempen Yarn",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Shoes",
+                name: "Gaganaskin Shoes",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Gaganaskin Fringe Boots",
+                name: "Gaganaskin Fringe Boots",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather",
+                name: "Gyuki Leather",
                 "mat-1": "3 Gyuki Hide",
                 "mat-2": "Gyr Abanian Alumen",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Pot Helm",
+                name: "Gyuki Leather Pot Helm",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Halfgloves of Striking",
+                name: "Gyuki Leather Halfgloves of Striking",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Halfgloves of Scouting",
+                name: "Gyuki Leather Halfgloves of Scouting",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Gloves of Aiming",
+                name: "Gyuki Leather Gloves of Aiming",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Dress Gloves",
+                name: "Gyuki Leather Dress Gloves",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Twinbelt of Striking",
+                name: "Gyuki Leather Twinbelt of Striking",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Nugget",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Twinbelt of Scouting",
+                name: "Gyuki Leather Twinbelt of Scouting",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Nugget",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Twinbelt of Aiming",
+                name: "Gyuki Leather Twinbelt of Aiming",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Nugget",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gaganaskin Belt of Gathering",
+                name: "Gaganaskin Belt of Gathering",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Trousers of Fending",
+                name: "Gyuki Leather Trousers of Fending",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "2 Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Trousers of Maiming",
+                name: "Gyuki Leather Trousers of Maiming",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "2 Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Hat",
+                name: "Gyuki Leather Hat",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -490,7 +490,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Jacket",
+                name: "Gyuki Leather Jacket",
                 "mat-1": "3 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -502,7 +502,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Gloves of Crafting",
+                name: "Gyuki Leather Gloves of Crafting",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Nugget",
@@ -514,7 +514,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Gloves of Gathering",
+                name: "Gyuki Leather Gloves of Gathering",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -526,7 +526,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Chaps",
+                name: "Gyuki Leather Chaps",
                 "mat-1": "3 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -538,7 +538,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Highboots of Striking",
+                name: "Gyuki Leather Highboots of Striking",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -550,7 +550,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Highboots of Scouting",
+                name: "Gyuki Leather Highboots of Scouting",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -562,7 +562,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Boots of Aiming",
+                name: "Gyuki Leather Boots of Aiming",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -574,7 +574,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Pattens",
+                name: "Gyuki Leather Pattens",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -586,7 +586,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Boots of Healing",
+                name: "Gyuki Leather Boots of Healing",
                 "mat-1": "3 Gyuki Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -598,7 +598,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Shoes",
+                name: "Gyuki Leather Shoes",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -610,7 +610,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Boots of Gathering",
+                name: "Gyuki Leather Boots of Gathering",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -622,7 +622,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Earrings",
+                name: "Gyuki Leather Earrings",
                 "mat-1": "Gyuki Leather",
                 "mat-2": "2 Koppranickel",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Choker",
+                name: "Gyuki Leather Choker",
                 "mat-1": "Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Koppranickel Ingot",
@@ -646,7 +646,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Wristband",
+                name: "Gyuki Leather Wristband",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Koppranickel Ingot",
@@ -658,7 +658,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Gyuki Leather Ring",
+                name: "Gyuki Leather Ring",
                 "mat-1": "Gyuki Leather",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "X",
@@ -670,7 +670,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tiger Leather",
+                name: "Tiger Leather",
                 "mat-1": "3 Tiger Skin",
                 "mat-2": "Gyr Abanian Alumen",
                 "mat-3": "X",
@@ -682,7 +682,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Wristgloves of Striking",
+                name: "Tigerskin Wristgloves of Striking",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "High Steel Ingot",
@@ -694,7 +694,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Gloves of Scouting",
+                name: "Tigerskin Gloves of Scouting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "High Steel Ingot",
@@ -706,7 +706,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Gloves of Aiming",
+                name: "Tigerskin Gloves of Aiming",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "High Steel Ingot",
@@ -718,7 +718,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Armguards of Casting",
+                name: "Tigerskin Armguards of Casting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Koppranickel Ingot",
@@ -730,7 +730,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Armguards of Healing",
+                name: "Tigerskin Armguards of Healing",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Koppranickel Ingot",
@@ -742,7 +742,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Ringbelt of Striking",
+                name: "Tigerskin Ringbelt of Striking",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -754,7 +754,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Ringbelt of Scouting",
+                name: "Tigerskin Ringbelt of Scouting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -766,7 +766,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Tigerskin Ringbelt of Aiming",
+                name: "Tigerskin Ringbelt of Aiming",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Ruby Cotton Yarn",
@@ -778,7 +778,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Tricorne of Striking",
+                name: "Star Spinel Tricorne of Striking",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Koppranickel Ingot",
@@ -790,7 +790,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Tricorne of Scouting",
+                name: "Tigerskin Tricorne of Scouting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Koppranickel Ingot",
@@ -802,7 +802,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Tricorne of Aiming",
+                name: "Tigerskin Tricorne of Aiming",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Koppranickel Ingot",
@@ -814,7 +814,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Cap of Gathering",
+                name: "Tigerskin Cap of Gathering",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Rubdy Cotton Yarn",
                 "mat-3": "2 Halgai Mane",
@@ -826,7 +826,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Fingerless Gloves of Gathering",
+                name: "Tigerskin Fingerless Gloves of Gathering",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -838,7 +838,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Thighboots of Striking",
+                name: "Tigerskin Thighboots of Striking",
                 "mat-1": "3 Tiger Leather",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Kudzu Thread",
@@ -850,7 +850,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Thighboots of Scouting",
+                name: "Tigerskin Thighboots of Scouting",
                 "mat-1": "3 Tiger Leather",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Kudzu Thread",
@@ -862,7 +862,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Thighboots of Aiming",
+                name: "Tigerskin Thighboots of Aiming",
                 "mat-1": "3 Tiger Leather",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Kudzu Thread",
@@ -874,7 +874,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Jackboots of Casting",
+                name: "Tigerskin Jackboots of Casting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Kudzu Thread",
@@ -886,7 +886,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Jackboots of Healing",
+                name: "Tigerskin Jackboots of Healing",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Kudzu Thread",
@@ -898,7 +898,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Boots of Crafting",
+                name: "Tigerskin Boots of Crafting",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -910,7 +910,7 @@ export const LeatherworkerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Boots of Gathering",
+                name: "Tigerskin Boots of Gathering",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Ruby Cotton Yarn",

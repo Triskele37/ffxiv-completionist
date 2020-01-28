@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LimsaLominsa = function(parentStorageKey) {
+export const Quest_Sidequests_Lominsan_Limsa_Lominsa = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.limsa-lominsa`;
 
     return {

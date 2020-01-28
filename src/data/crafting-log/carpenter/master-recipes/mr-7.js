@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★",
-                "item": "Magicked Bed",
+                name: "Magicked Bed",
                 "mat-1": "2 Enchanted Elm Lumber",
                 "mat-2": "4 Undyed Velveteen",
                 "mat-3": "4 Cloudsbreath",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Sandalwood Lumber",
+                name: "Sandalwood Lumber",
                 "mat-1": "4 Sandalwood Log",
                 "mat-2": "2 Multifaceted Varnish",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Skystrider",
+                name: "Skystrider",
                 "mat-1": "2 Sandalwood Lumber",
                 "mat-2": "2 Tungsten Steel Ingot",
                 "mat-3": "Onyx",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Gendawa",
+                name: "Gendawa",
                 "mat-1": "3 Sandalwood Lumber",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Onyx",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Catalyst",
+                name: "Catalyst",
                 "mat-1": "2 Sandalwood Lumber",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Prismatic Ingot",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Clearpath",
+                name: "Clearpath",
                 "mat-1": "2 Sandalwood Lumber",
                 "mat-2": "2 Prismatic Ingot",
                 "mat-3": "Onyx",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Grinding Wheel",
+                name: "Facet Grinding Wheel",
                 "mat-1": "3 Alumina Whetstone",
                 "mat-2": "3 Sandalwood Lumber",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Spinning Wheel",
+                name: "Facet Spinning Wheel",
                 "mat-1": "3 Alumina Whetstone",
                 "mat-2": "3 Sandalwood Lumber",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Fishing Rod",
+                name: "Facet Fishing Rod",
                 "mat-1": "3 Alumina Whetstone",
                 "mat-2": "3 Sandalwood Lumber",
                 "mat-3": "Dwarven Mythril Nugget",

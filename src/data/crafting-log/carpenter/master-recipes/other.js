@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glamour Prism",
+                name: "Glamour Prism",
                 "mat-1": "Cleat Prism",
                 "mat-2": "2 Walnut Lumber",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Beak of the Vortex",
+                name: "Beak of the Vortex",
                 "mat-1": "3 Demimateria of the Vortex",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Vortex Feather",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Inferno Bow",
+                name: "Inferno Bow",
                 "mat-1": "3 Demimateria of the Inferno",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Inferno Horn",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Spine of the Vortex",
+                name: "Spine of the Vortex",
                 "mat-1": "3 Demimateria of the Vortex",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Vortex Feather",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Mischievous Moggle Mogbow",
+                name: "Mischievous Moggle Mogbow",
                 "mat-1": "3 Demimog Demimateria",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Kingly Whisker",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Maleficent Moggle Mogstaff",
+                name: "Maleficent Moggle Mogstaff",
                 "mat-1": "3 Demimog Demimateria",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Kingly Whisker",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Inferno Cane",
+                name: "Inferno Cane",
                 "mat-1": "3 Demimateria of the Inferno",
                 "mat-2": "10 Battlecraft Demimatera III",
                 "mat-3": "Inferno Horn",

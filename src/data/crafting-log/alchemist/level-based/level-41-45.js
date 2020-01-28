@@ -10,7 +10,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Shark Oil",
+                name: "Shark Oil",
                 "mat-1": "Hammerhead Shark",
                 "mat-2": "Silver Shark",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Varnish",
+                name: "Varnish",
                 "mat-1": "2 Raw Amber",
                 "mat-2": "Linseed Oil",
                 "mat-3": "Terebinth",
@@ -34,7 +34,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Book of Mythril",
+                name: "Book of Mythril",
                 "mat-1": "Enchanted Mythril Ink",
                 "mat-2": "2 Mythril Ingot",
                 "mat-3": "Flax",
@@ -46,7 +46,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Enchanted Electrum Ink",
+                name: "Enchanted Electrum Ink",
                 "mat-1": "2 Electrum Sand",
                 "mat-2": "Spoken Blood",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Mega-Potion",
+                name: "Mega-Potion",
                 "mat-1": "Distilled Water",
                 "mat-2": "Mistletoe",
                 "mat-3": "Mugwort",
@@ -70,7 +70,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Mega-Potion of Mind",
+                name: "Mega-Potion of Mind",
                 "mat-1": "Blue Yarzon Leg",
                 "mat-2": "Ahriman Wing",
                 "mat-3": "Rock Salt",
@@ -82,7 +82,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Book of Electrum",
+                name: "Book of Electrum",
                 "mat-1": "Enchanted Electrum Ink",
                 "mat-2": "2 Electrum Ingot",
                 "mat-3": "Cobalt Ingot",
@@ -94,7 +94,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Wand of Gales",
+                name: "Wand of Gales",
                 "mat-1": "Eye of Wind",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Rosewood Branch",
@@ -106,7 +106,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Wand of Storms",
+                name: "Wand of Storms",
                 "mat-1": "Eye of Lightning",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Rosewood Branch",
@@ -118,7 +118,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Wand of Flames",
+                name: "Wand of Flames",
                 "mat-1": "Eye of Fire",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Rosewood Branch",
@@ -130,7 +130,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Mega-Potion of Strength",
+                name: "Mega-Potion of Strength",
                 "mat-1": "Sagolii Sage",
                 "mat-2": "Shark Oil",
                 "mat-3": "Rock Salt",
@@ -142,7 +142,7 @@ export const AlchemistLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Mega-Potion of Intelligence",
+                name: "Mega-Potion of Intelligence",
                 "mat-1": "Black Scorpion",
                 "mat-2": "Sandworm Fang",
                 "mat-3": "Rock Salt",

@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★",
-                "item": "Gryphonskin Strap",
+                name: "Gryphonskin Strap",
                 "mat-1": "2 Hippogryph Leather",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Patent Leather",
+                name: "Patent Leather",
                 "mat-1": "3 Lampblack Linseed Oil",
                 "mat-2": "Saurian Skin",
                 "mat-3": "Shroud Tea Leaves",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Water-hardened Hippogryph Strap",
+                name: "Water-hardened Hippogryph Strap",
                 "mat-1": "Gryphonskin Strap",
                 "mat-2": "2 Fieldcraft Demimateria III",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Leather",
+                name: "Saurian Leather",
                 "mat-1": "Saurian Skin",
                 "mat-2": "Shroud Tea Leaves",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Perfect Vellum",
+                name: "Perfect Vellum",
                 "mat-1": "Aged Vellum",
                 "mat-2": "2 Pumice",
                 "mat-3": "Shark Oil",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Bandana of Striking",
+                name: "Saurian Bandana of Striking",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Shirt of Striking",
+                name: "Saurian Shirt of Striking",
                 "mat-1": "2 Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Tabard of Aiming",
+                name: "Saurian Tabard of Aiming",
                 "mat-1": "2 Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Gloves of Striking",
+                name: "Saurian Gloves of Striking",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Gloves of Aiming",
+                name: "Saurian Gloves of Aiming",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Gloves of Casting",
+                name: "Saurian Gloves of Casting",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Gloves of Healing",
+                name: "Saurian Gloves of Healing",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "New World Armlets",
+                name: "New World Armlets",
                 "mat-1": "New World Macrame",
                 "mat-2": "Saurian Leather",
                 "mat-3": "Woolen Yarn",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Belt of Striking",
+                name: "Saurian Belt of Striking",
                 "mat-1": "Saurian Leather",
                 "mat-2": "Terminus Putty",
                 "mat-3": "2 Darksteel Rivets",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Belt of Aiming",
+                name: "Saurian Belt of Aiming",
                 "mat-1": "Saurian Leather",
                 "mat-2": "Terminus Putty",
                 "mat-3": "Coeurl Fur",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Belt of Casting",
+                name: "Saurian Belt of Casting",
                 "mat-1": "Saurian Leather",
                 "mat-2": "Terminus Putty",
                 "mat-3": "Rose Gold Nugget",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Belt of Healing",
+                name: "Saurian Belt of Healing",
                 "mat-1": "Saurian Leather",
                 "mat-2": "Terminus Putty",
                 "mat-3": "Darksteel Nugget",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Trousers",
+                name: "Saurian Trousers",
                 "mat-1": "2 Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "2 Hippogryph Leather",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Boots of Striking",
+                name: "Saurian Boots of Striking",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Boots of Aiming",
+                name: "Saurian Boots of Aiming",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "2 Hippogryph Leather",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Crakows of Casting",
+                name: "Saurian Crakows of Casting",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Saurian Boots of Healing",
+                name: "Saurian Boots of Healing",
                 "mat-1": "Saurian Leather",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -274,7 +274,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "New World Moccasins",
+                name: "New World Moccasins",
                 "mat-1": "New World Macrame",
                 "mat-2": "Saurian Leather",
                 "mat-3": "Woolen Yarn",
@@ -286,7 +286,7 @@ export const Leatherworker_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "High Allagan Chimera Leather",
+                name: "High Allagan Chimera Leather",
                 "mat-1": "3 Chemically Treated Chimera Hide",
                 "mat-2": "9 Animal Fat",
                 "mat-3": "3 Black Alumen",

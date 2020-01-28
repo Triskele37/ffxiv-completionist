@@ -10,7 +10,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★",
-                "item": "Wolf Jacket",
+                name: "Wolf Jacket",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Raptor Sinew",
@@ -22,7 +22,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Armguards",
+                name: "Wolf Armguards",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Cobalt Rivets",
@@ -34,7 +34,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Ringbands",
+                name: "Wolf Ringbands",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Electrum Ingot",
@@ -46,7 +46,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Whipping Belt",
+                name: "Wolf Whipping Belt",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Hippogryph Sinew",
                 "mat-3": "Cobalt Ingot",
@@ -58,7 +58,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Belt",
+                name: "Wolf Belt",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Raptor Sinew",
                 "mat-3": "Mythril Ingot",
@@ -70,7 +70,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Satchel Belt",
+                name: "Wolf Satchel Belt",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Woolen Yarn",
@@ -82,7 +82,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Breeches",
+                name: "Wolf Breeches",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Raptor Leather",
                 "mat-3": "2 Undyed Woolen Cloth",
@@ -94,7 +94,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Brais",
+                name: "Wolf Brais",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Woolen Yarn",
@@ -106,7 +106,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Leg Guards",
+                name: "Wolf Leg Guards",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Raptor Sinew",
@@ -118,7 +118,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Moccasins",
+                name: "Wolf Moccasins",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Boar Leather",
                 "mat-3": "Raptor Sinew",
@@ -130,7 +130,7 @@ export const Leatherworker_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Duckbills",
+                name: "Wolf Duckbills",
                 "mat-1": "Hippogryph Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "X",

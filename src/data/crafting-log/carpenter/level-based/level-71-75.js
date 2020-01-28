@@ -10,7 +10,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "White Oak Lumber",
+                name: "White Oak Lumber",
                 "mat-1": "4 White Oak Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Partisan",
+                name: "White Oak Partisan",
                 "mat-1": "White Oak Lumber",
                 "mat-2": "2 Deepgold Nugget",
                 "mat-3": "Smilodon Leather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Composite Bow",
+                name: "White Oak Composite Bow",
                 "mat-1": "3 White Oak Lumber",
                 "mat-2": "Deepgold Nugget",
                 "mat-3": "Twinthread",
@@ -46,7 +46,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Rod",
+                name: "White Oak Rod",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Stonegold Nugget",
@@ -58,7 +58,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Cane",
+                name: "White Oak Cane",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Stonegold Nugget",
@@ -70,7 +70,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Grinding Wheel",
+                name: "White Oak Grinding Wheel",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Deepgold Nugget",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -82,7 +82,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Spinning Wheel",
+                name: "White Oak Spinning Wheel",
                 "mat-1": "3 White Oak Lumber",
                 "mat-2": "Deepgold Nugget",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Fishing Rod",
+                name: "White Oak Fishing Rod",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Deepgold Nugget",
                 "mat-3": "Smilodon Leather",
@@ -106,7 +106,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Earrings",
+                name: "White Oak Earrings",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Necklace",
+                name: "White Oak Necklace",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Bright Linen Yarn",
                 "mat-3": "Varnish",
@@ -130,7 +130,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Bracelets",
+                name: "White Oak Bracelets",
                 "mat-1": "2 White Oak Lumber",
                 "mat-2": "Bright Linen Yarn",
                 "mat-3": "Varnish",
@@ -142,7 +142,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "White Oak Ring",
+                name: "White Oak Ring",
                 "mat-1": "White Oak Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Miracle Apple Lumber",
+                name: "Miracle Apple Lumber",
                 "mat-1": "4 Miracle Apple Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Applewood Spear",
+                name: "Applewood Spear",
                 "mat-1": "2 Miracle Apple Lumber",
                 "mat-2": "Deepgold Ingot",
                 "mat-3": "Green Glider Leather",
@@ -178,7 +178,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Applewood Longbow",
+                name: "Applewood Longbow",
                 "mat-1": "3 Miracle Apple Lumber",
                 "mat-2": "Deepgold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -190,7 +190,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Applewood Staff",
+                name: "Applewood Staff",
                 "mat-1": "2 Miracle Apple Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Stonegold Nugget",
@@ -202,7 +202,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Applewood Cane",
+                name: "Applewood Cane",
                 "mat-1": "2 Miracle Apple Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Stonegold Nugget",
@@ -214,7 +214,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "White Ash Lumber",
+                name: "White Ash Lumber",
                 "mat-1": "4 White Ash Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Spear",
+                name: "Bluespirit Spear",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -238,7 +238,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Cane",
+                name: "Bluespirit Cane",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "2 Manasilver Nugget",
@@ -250,7 +250,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "White Ash Grinding Wheel",
+                name: "White Ash Grinding Wheel",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -262,7 +262,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "White Ash Spinning Wheel",
+                name: "White Ash Spinning Wheel",
                 "mat-1": "3 White Ash Lumber",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "White Ash Fishing Rod",
+                name: "White Ash Fishing Rod",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Atrociraptor Leather",
@@ -286,7 +286,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Earring of Fending",
+                name: "White Ash Earring of Fending",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rainbow Thread",
@@ -298,7 +298,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Earring of Slaying",
+                name: "White Ash Earring of Slaying",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rainbow Thread",
@@ -310,7 +310,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Erraing of Aiming",
+                name: "White Ash Erraing of Aiming",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rainbow Thread",
@@ -322,7 +322,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Earring of Casting",
+                name: "White Ash Earring of Casting",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rainbow Thread",
@@ -334,7 +334,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Earring of Healing",
+                name: "White Ash Earring of Healing",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rainbow Thread",
@@ -346,7 +346,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Earring",
+                name: "White Ash Earring",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Necklace",
+                name: "White Ash Necklace",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Kudzu Thread",
@@ -370,7 +370,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Bracelet",
+                name: "White Ash Bracelet",
                 "mat-1": "2 White Ash Lumber",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Kudzu Thread",
@@ -382,7 +382,7 @@ export const CarpenterLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "White Ash Ring",
+                name: "White Ash Ring",
                 "mat-1": "White Ash Lumber",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "X",

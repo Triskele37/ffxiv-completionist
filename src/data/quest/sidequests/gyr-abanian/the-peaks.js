@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ThePeaks = function(parentStorageKey) {
+export const Quest_Sidequests_Gyr_Abanian_The_Peaks = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-peaks`;
 
     return {

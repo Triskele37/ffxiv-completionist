@@ -10,7 +10,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Sausage Links",
+                name: "Sausage Links",
                 "mat-1": "Ovim Meat",
                 "mat-2": "Sheep Casings",
                 "mat-3": "Garden Beet Sugar",
@@ -22,7 +22,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Roast Ovim",
+                name: "Roast Ovim",
                 "mat-1": "Ovim Meat",
                 "mat-2": "Night Vinegar",
                 "mat-3": "Night Pepper",
@@ -34,7 +34,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Baked Megapiranha",
+                name: "Baked Megapiranha",
                 "mat-1": "3 Megapiranha",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Creamtop Mushroom",
@@ -46,7 +46,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Mushroom Skewer",
+                name: "Mushroom Skewer",
                 "mat-1": "Amber Cloves",
                 "mat-2": "2 Creamtop Mushroom",
                 "mat-3": "Blood Tomato",
@@ -58,7 +58,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Peppered Popotoes",
+                name: "Peppered Popotoes",
                 "mat-1": "Sausage Links",
                 "mat-2": "2 Russet Popoto",
                 "mat-3": "Curly Parsley",
@@ -70,7 +70,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Popotoes au Gratin",
+                name: "Popotoes au Gratin",
                 "mat-1": "Russet Popoto",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "Steppe Milk",
@@ -82,7 +82,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Masala Chai",
+                name: "Masala Chai",
                 "mat-1": "Amber Cloves",
                 "mat-2": "Underground Spring Water",
                 "mat-3": "Coerthan Tea Leaves",
@@ -94,7 +94,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Mist Spinach Saute",
+                name: "Mist Spinach Saute",
                 "mat-1": "Mist Spinach",
                 "mat-2": "Night Vinegar",
                 "mat-3": "Fermented Butter",
@@ -106,7 +106,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Risotto al Nero",
+                name: "Risotto al Nero",
                 "mat-1": "Squid Ink",
                 "mat-2": "Bomba Rice",
                 "mat-3": "Curly Parsley",
@@ -118,7 +118,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Espresso con Panna",
+                name: "Espresso con Panna",
                 "mat-1": "Coffee Beans",
                 "mat-2": "Underground Spring Water",
                 "mat-3": "Sour Cream",
@@ -130,7 +130,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Blood Bouillabaisse",
+                name: "Blood Bouillabaisse",
                 "mat-1": "2 Blood Tomato",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "Rose Shrimp",
@@ -142,7 +142,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Paella",
+                name: "Paella",
                 "mat-1": "2 Bomba Rice",
                 "mat-2": "Rose Shrimp",
                 "mat-3": "Frantoio Oil",
@@ -154,7 +154,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Coffee Biscuit",
+                name: "Coffee Biscuit",
                 "mat-1": "Upland Wheat Flour",
                 "mat-2": "Coffee Beans",
                 "mat-3": "Garden Beet Sugar",
@@ -166,7 +166,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Ovim Cordon Bleu",
+                name: "Ovim Cordon Bleu",
                 "mat-1": "Ovim Meat",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "Cream Cheese",
@@ -178,7 +178,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Oysters on the Half Shell",
+                name: "Oysters on the Half Shell",
                 "mat-1": "3 Sweetflesh Oyster",
                 "mat-2": "2 Lemonette",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Jellied Harcot",
+                name: "Jellied Harcot",
                 "mat-1": "2 Harcot",
                 "mat-2": "Garden Beet Sugar",
                 "mat-3": "Gelatin",
@@ -202,7 +202,7 @@ export const CulinarianLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Lemonade",
+                name: "Lemonade",
                 "mat-1": "Lemonette",
                 "mat-2": "2 Golden Honey",
                 "mat-3": "Underground Sping Water",

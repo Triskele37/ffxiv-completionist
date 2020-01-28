@@ -2,7 +2,7 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=26&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const SylphQuests = function(parentStorageKey) {
+export const Quest_Beast_Tribe_Sylph = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.sylph`;
 
     return {

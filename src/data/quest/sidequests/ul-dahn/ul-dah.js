@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const UlDah = function(parentStorageKey) {
+export const Quest_Sidequests_Ul_Dahn_Ul_Dah = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ul-dah`;
 
     return {

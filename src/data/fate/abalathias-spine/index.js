@@ -7,9 +7,12 @@ export const AbalathiasSpineFATEs = function(parentStorageKey) {
     return {
         name: "Abalathia's Spine",
         storageKey,
-        subGroups: [
-            AzysLlaFATEs(storageKey),
-            TheSeaOfCloudsFATEs(storageKey),
-        ]
+        groupKeys: [
+            "AzysLla",
+            "TheSeaOfClouds",
+        ],
+        // Groups
+        AzysLla: AzysLlaFATEs(storageKey),
+        TheSeaOfClouds: TheSeaOfCloudsFATEs(storageKey),
     };
 };

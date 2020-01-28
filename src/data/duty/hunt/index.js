@@ -9,11 +9,16 @@ export const Hunts = function(parentStorageKey) {
     return {
         name: "Hunt",
         storageKey,
-        subGroups: [
-            ARRHunts(storageKey),
-            HWHunts(storageKey),
-            SBHunts(storageKey),
-            ShBHunts(storageKey),
-        ]
+        groupKeys: [
+            "ARR",
+            "HW",
+            "SB",
+            "ShB",
+        ],
+        // Groups
+        ARR: ARRHunts(storageKey),
+        HW: HWHunts(storageKey),
+        SB: SBHunts(storageKey),
+        ShB: ShBHunts(storageKey),
     };
 };

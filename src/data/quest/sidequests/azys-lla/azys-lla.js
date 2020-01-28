@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AzysLla = function(parentStorageKey) {
+export const Quest_Sidequests_Azys_Lla_Azys_Lla = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.azys-lla`;
 
     return {

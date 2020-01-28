@@ -10,7 +10,7 @@ export const Carpenter_Others = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★",
-                "item": "Wolf Guisarme",
+                name: "Wolf Guisarme",
                 "mat-1": "Spruce Lumber",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "Horn Glue",
@@ -22,7 +22,7 @@ export const Carpenter_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Bow",
+                name: "Wolf Bow",
                 "mat-1": "Spruce Lumber",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "Aldgoat Horn",
@@ -34,7 +34,7 @@ export const Carpenter_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Cane",
+                name: "Wolf Cane",
                 "mat-1": "Spruce Lumber",
                 "mat-2": "Growth Formula Delta",
                 "mat-3": "Brass Ingot",

@@ -11,13 +11,20 @@ export const AlchemistCraftingLogs = function(parentStorageKey) {
     return {
         name: "Alchemist",
         storageKey,
-        subGroups: [
-            AlchemistLevelBased(storageKey),
-            AlchemistMasterRecipe(storageKey),
-            AlchemistStoryRecipe(storageKey),
-            AlchemistHousingRecipe(storageKey),
-            Alchemist_IshgardRestoration_Recipe(storageKey),
-            Alchemist_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groups
+        LevelBased: AlchemistLevelBased(storageKey),
+        MasterRecipes: AlchemistMasterRecipe(storageKey),
+        Story: AlchemistStoryRecipe(storageKey),
+        Housing: AlchemistHousingRecipe(storageKey),
+        IshgardRestoration: Alchemist_IshgardRestoration_Recipe(storageKey),
+        Others: Alchemist_Others(storageKey),
     };
 };

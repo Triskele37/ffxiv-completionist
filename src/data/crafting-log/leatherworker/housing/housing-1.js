@@ -10,7 +10,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": 30,
-                "item": "Arbor Flooring",
+                name: "Arbor Flooring",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "2 Chamomile",
                 "mat-3": "4 Growth Formula Gama",
@@ -22,7 +22,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 36,
-                "item": "Oasis Banner",
+                name: "Oasis Banner",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "2 Linen Canvas",
                 "mat-3": "2 Walnut Lumber",
@@ -34,7 +34,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 39,
-                "item": "Retainer Counter",
+                name: "Retainer Counter",
                 "mat-1": "2 Peiste Leather",
                 "mat-2": "4 Oak Lumber",
                 "mat-3": "2 Steel Ingot",
@@ -46,7 +46,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Glade Banner",
+                name: "Glade Banner",
                 "mat-1": "2 Peiste Leather",
                 "mat-2": "2 Linen Canvas",
                 "mat-3": "2 Oak Lumber",
@@ -58,7 +58,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 44,
-                "item": "Riviera Banner",
+                name: "Riviera Banner",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "2 Linen Canvas",
                 "mat-3": "2 Mahogany Lumber",
@@ -70,7 +70,7 @@ export const Leatherworker_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 50,
-                "item": "Morbol Chandelier",
+                name: "Morbol Chandelier",
                 "mat-1": "4 Hippogryph Leather",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "2 Morbol Vine",

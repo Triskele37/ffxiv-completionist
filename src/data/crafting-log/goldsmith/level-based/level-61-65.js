@@ -10,7 +10,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Triphane",
+                name: "Triphane",
                 "mat-1": "3 Raw Triphane",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Nugget",
+                name: "Koppranickel Nugget",
                 "mat-1": "4 Koppranickel Sand",
                 "mat-2": "Copper Ore",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Armlets of Casting",
+                name: "Koppranickel Armlets of Casting",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhelpen Yarn",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Armlets of Healing",
+                name: "Koppranickel Armlets of Healing",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhelpen Yarn",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Bracelet of Fending",
+                name: "Triphane Bracelet of Fending",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Bracelet of Slaying",
+                name: "Triphane Bracelet of Slaying",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Bracelet of Aiming",
+                name: "Triphane Bracelet of Aiming",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Bracelet of Casting",
+                name: "Triphane Bracelet of Casting",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Bracelet of Healing",
+                name: "Triphane Bracelet of Healing",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Ring of Fending",
+                name: "Triphane Ring of Fending",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Ring of Slaying",
+                name: "Triphane Ring of Slaying",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Ring of Aiming",
+                name: "Triphane Ring of Aiming",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Ring of Casting",
+                name: "Triphane Ring of Casting",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Ring of Healing",
+                name: "Triphane Ring of Healing",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Slate Whetstone",
+                name: "Slate Whetstone",
                 "mat-1": "3 Slate",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Staff",
+                name: "Koppranickel Staff",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "2 High Steel Nugget",
                 "mat-3": "Beech Lumber",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Foil",
+                name: "Koppranickel Foil",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "2 High Steel Nugget",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Planisphere",
+                name: "Koppranickel Planisphere",
                 "mat-1": "3 Koppranickel Nugget",
                 "mat-2": "2 Mythrite Nugget",
                 "mat-3": "High Steel Nugget",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bombfish Needle",
+                name: "Bombfish Needle",
                 "mat-1": "Bombfish Spine",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Koppranickel Nugget",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Turban of Striking",
+                name: "Koppranickel Turban of Striking",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhelpen Yarn",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Turban of Scouting",
+                name: "Koppranickel Turban of Scouting",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Bloodhelpen Yarn",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Earrings of Fending",
+                name: "Triphane Earrings of Fending",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Earrings of Slaying",
+                name: "Triphane Earrings of Slaying",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Earrings of Aiming",
+                name: "Triphane Earrings of Aiming",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Earrings of Casting",
+                name: "Triphane Earrings of Casting",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Earrings of Healing",
+                name: "Triphane Earrings of Healing",
                 "mat-1": "Koppranickel Nugget",
                 "mat-2": "2 Triphane",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Choker of Fending",
+                name: "Triphane Choker of Fending",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Choker of Slaying",
+                name: "Triphane Choker of Slaying",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Choker of Aiming",
+                name: "Triphane Choker of Aiming",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Choker of Casting",
+                name: "Triphane Choker of Casting",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Triphane Choker of Healing",
+                name: "Triphane Choker of Healing",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "Triphane",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Kyanite",
+                name: "Kyanite",
                 "mat-1": "3 Raw Kyanite",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Ingot",
+                name: "Koppranickel Ingot",
                 "mat-1": "4 Koppranickel Ore",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "X",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Bracelet of Fending",
+                name: "Koppranickel Bracelet of Fending",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Gagana Leather",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Bracelet of Slaying",
+                name: "Koppranickel Bracelet of Slaying",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Gagana Leather",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Bracelet of Aiming",
+                name: "Koppranickel Bracelet of Aiming",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Gagana Leather",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Bracelet of Casting",
+                name: "Koppranickel Bracelet of Casting",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Gagana Leather",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Koppranickel Bracelet of Healing",
+                name: "Koppranickel Bracelet of Healing",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Gagana Leather",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Muudhorn Ring of Fending",
+                name: "Muudhorn Ring of Fending",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Muudhorn Ring of Slaying",
+                name: "Muudhorn Ring of Slaying",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Muudhorn Ring of Aiming",
+                name: "Muudhorn Ring of Aiming",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Muudhorn Ring of Casting",
+                name: "Muudhorn Ring of Casting",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Muudhorn Ring of Healing",
+                name: "Muudhorn Ring of Healing",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Pole",
+                name: "Koppranickel Pole",
                 "mat-1": "3 Koppranickel Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Larimar",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Rapier",
+                name: "Koppranickel Rapier",
                 "mat-1": "3 Koppranickel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "2 Titanium Nugget",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Dual-plated Koppranickel Planisphere",
+                name: "Dual-plated Koppranickel Planisphere",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Koppranickel Nugget",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Temple Chain",
+                name: "Koppranickel Temple Chain",
                 "mat-1": "3 Koppranickel Ingot",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "X",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Earrings of Fending",
+                name: "Koppranickel Earrings of Fending",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Kyanite",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Earrings of Slaying",
+                name: "Koppranickel Earrings of Slaying",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Kyanite",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Earrings of Aiming",
+                name: "Koppranickel Earrings of Aiming",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Kyanite",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Earrings of Casting",
+                name: "Koppranickel Earrings of Casting",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Kyanite",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Earrings of Healing",
+                name: "Koppranickel Earrings of Healing",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Kyanite",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Necklace of Fending",
+                name: "Koppranickel Necklace of Fending",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "2 Kyanite",
                 "mat-3": "Ruby Cotton Yarn",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Necklace of Slaying",
+                name: "Koppranickel Necklace of Slaying",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "2 Kyanite",
                 "mat-3": "Ruby Cotton Yarn",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Necklace of Aiming",
+                name: "Koppranickel Necklace of Aiming",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "2 Kyanite",
                 "mat-3": "Ruby Cotton Yarn",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Necklace of Casting",
+                name: "Koppranickel Necklace of Casting",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "2 Kyanite",
                 "mat-3": "Ruby Cotton Yarn",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Koppranickel Necklace of Healing",
+                name: "Koppranickel Necklace of Healing",
                 "mat-1": "Koppranickel Ingot",
                 "mat-2": "2 Kyanite",
                 "mat-3": "Ruby Cotton Yarn",
@@ -694,7 +694,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel",
+                name: "Star Spinel",
                 "mat-1": "3 Raw Star Spinel",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -706,7 +706,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Durium Nugget",
+                name: "Durium Nugget",
                 "mat-1": "4 Durium Sand",
                 "mat-2": "Silver Ore",
                 "mat-3": "X",
@@ -718,7 +718,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Bracelet of Fending",
+                name: "Star Spinel Bracelet of Fending",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -730,7 +730,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Bracelet of Slaying",
+                name: "Star Spinel Bracelet of Slaying",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -742,7 +742,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Bracelet of Aiming",
+                name: "Star Spinel Bracelet of Aiming",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -754,7 +754,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Bracelet of Casting",
+                name: "Star Spinel Bracelet of Casting",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -766,7 +766,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Bracelet of Healing",
+                name: "Star Spinel Bracelet of Healing",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -778,7 +778,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Ring of Fending",
+                name: "Star Spinel Ring of Fending",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -790,7 +790,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Ring of Slaying",
+                name: "Star Spinel Ring of Slaying",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -802,7 +802,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Ring of Aiming",
+                name: "Star Spinel Ring of Aiming",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -814,7 +814,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Ring of Healing",
+                name: "Star Spinel Ring of Healing",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -826,7 +826,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Star Spinel Ring of Casting",
+                name: "Star Spinel Ring of Casting",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "2 Star Spinel",
@@ -838,7 +838,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Staff",
+                name: "Durium Staff",
                 "mat-1": "3 Durium Nugget",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Star Spinel",
@@ -850,7 +850,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Smallsword",
+                name: "Durium Smallsword",
                 "mat-1": "2 Durium Nugget",
                 "mat-2": "2 Oroshigane Ingot",
                 "mat-3": "Gyuki Leather",
@@ -862,7 +862,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Astrometer",
+                name: "Durium Astrometer",
                 "mat-1": "3 Durium Nugget",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Kyanite",
@@ -874,7 +874,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Dzo Horn Needle",
+                name: "Dzo Horn Needle",
                 "mat-1": "Dzo Horn",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Durium Nugget",
@@ -886,7 +886,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Hairpin of Fending",
+                name: "Durium Hairpin of Fending",
                 "mat-1": "2 Durium Nugget",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Carnelian",
@@ -898,7 +898,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Hairpin of Maiming",
+                name: "Durium Hairpin of Maiming",
                 "mat-1": "2 Durium Nugget",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Carnelian",
@@ -910,7 +910,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Durium Chaplets",
+                name: "Durium Chaplets",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Star Ruby",
                 "mat-3": "2 Azurite",
@@ -922,7 +922,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Earrings of Fending",
+                name: "Star Spinel Earrings of Fending",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -934,7 +934,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Earrings of Slaying",
+                name: "Star Spinel Earrings of Slaying",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -946,7 +946,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Earrings of Aiming",
+                name: "Star Spinel Earrings of Aiming",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -958,7 +958,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Earrings of Casting",
+                name: "Star Spinel Earrings of Casting",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -970,7 +970,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Earrings of Healing",
+                name: "Star Spinel Earrings of Healing",
                 "mat-1": "Durium Nugget",
                 "mat-2": "Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -982,7 +982,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Choker of Fending",
+                name: "Star Spinel Choker of Fending",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -994,7 +994,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Choker of Slaying",
+                name: "Star Spinel Choker of Slaying",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -1006,7 +1006,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Choker of Aiming",
+                name: "Star Spinel Choker of Aiming",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -1018,7 +1018,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Choker of Casting",
+                name: "Star Spinel Choker of Casting",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Koppranical Nugget",
                 "mat-3": "Star Spinel",
@@ -1030,7 +1030,7 @@ export const GoldsmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Star Spinel Choker of Healing",
+                name: "Star Spinel Choker of Healing",
                 "mat-1": "Durium Nugget",
                 "mat-2": "2 Koppranical Nugget",
                 "mat-3": "Star Spinel",

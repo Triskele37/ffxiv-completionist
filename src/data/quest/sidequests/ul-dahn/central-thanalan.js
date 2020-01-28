@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CentralThanalan = function(parentStorageKey) {
+export const Quest_Sidequests_Ul_Dahn_Central_Thanalan = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.central`;
 
     return {

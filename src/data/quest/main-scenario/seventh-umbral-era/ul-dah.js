@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const UlDahStartingQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Seventh_Umbral_Era_Ul_Dah = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ul-dah`;
 
     return {

@@ -10,7 +10,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Toadskin Voyager's Belt",
+                name: "Toadskin Voyager's Belt",
                 "mat-1": "Toad Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Diremite Sinew",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Toadskin Culottes",
+                name: "Toadskin Culottes",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Toadskin Leg Guards",
+                name: "Toadskin Leg Guards",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Diremite Sinew",
                 "mat-3": "Steel Ingot",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Toadskin Workboots",
+                name: "Toadskin Workboots",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Diremite Sinew",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Toadskin Belt",
+                name: "Toadskin Belt",
                 "mat-1": "Toad Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Toadskin Breeches",
+                name: "Toadskin Breeches",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "Dew Thread",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Toadskin Ring",
+                name: "Toadskin Ring",
                 "mat-1": "Toad Leather",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Boar Leather",
+                name: "Boar Leather",
                 "mat-1": "Boar Hide",
                 "mat-2": "Alumen",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Boarskin Himantes",
+                name: "Boarskin Himantes",
                 "mat-1": "Boar Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Skull Eyepatch",
+                name: "Skull Eyepatch",
                 "mat-1": "Boar Leather",
                 "mat-2": "Hippogryph Sinew",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Fingerless Boarskin Gloves",
+                name: "Fingerless Boarskin Gloves",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Steel Rivets",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Boarskin Satchel Belt",
+                name: "Boarskin Satchel Belt",
                 "mat-1": "Boar Leather",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Linen Yarn",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Fingerless Boarskin Gloves of Gathering",
+                name: "Fingerless Boarskin Gloves of Gathering",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Steel Rivets",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Boarskin Choker",
+                name: "Boarskin Choker",
                 "mat-1": "Boar Leather",
                 "mat-2": "Hippogryph Sinew",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Boarskin Survival Hat",
+                name: "Boarskin Survival Hat",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Linen Yarn",
                 "mat-3": "2 Lapis Lazuli",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Toadskin Duckbills",
+                name: "Toadskin Duckbills",
                 "mat-1": "Toad Leather",
                 "mat-2": "Undyed Linen",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Boarskin Crakows",
+                name: "Boarskin Crakows",
                 "mat-1": "Boar Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Boarskin Crakows of Gathering",
+                name: "Boarskin Crakows of Gathering",
                 "mat-1": "Boar Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Altered Boarskin Thighboots",
+                name: "Altered Boarskin Thighboots",
                 "mat-1": "Boar Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Boarskin Survival Boots",
+                name: "Boarskin Survival Boots",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Shepherd's Belt",
+                name: "Vintage Shepherd's Belt",
                 "mat-1": "Cracked Shepherd's Belt",
                 "mat-2": "Boar Leather",
                 "mat-3": "X",

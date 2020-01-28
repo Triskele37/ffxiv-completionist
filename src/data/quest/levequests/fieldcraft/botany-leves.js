@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const BotanyLeves = function(parentStorageKey) {
+export const Quest_Levequests_Botany = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.botany`;
 
     return {

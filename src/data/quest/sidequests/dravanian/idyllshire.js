@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Idyllshire = function(parentStorageKey) {
+export const Quest_Sidequests_Dravanian_Idyllshire = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.idyllshire`;
 
     return {

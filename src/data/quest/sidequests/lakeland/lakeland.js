@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Lakeland = function(parentStorageKey) {
+export const Quest_Sidequests_Lakeland_Lakeland = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.lakeland`;
 
     return {

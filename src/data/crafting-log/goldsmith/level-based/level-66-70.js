@@ -10,7 +10,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Azurite",
+                name: "Azurite",
                 "mat-1": "3 Raw Azurite",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Durium Ingot",
+                name: "Durium Ingot",
                 "mat-1": "4 Durium Ore",
                 "mat-2": "Durium Nugget",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Gazelle Horn Needle",
+                name: "Gazelle Horn Needle",
                 "mat-1": "Gazelle Horn",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Bracelet of Fending",
+                name: "Azurite Bracelet of Fending",
                 "mat-1": "Durium Ingot",
                 "mat-2": "2 Azurite",
                 "mat-3": "Tiger Leather",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Bracelet of Slaying",
+                name: "Azurite Bracelet of Slaying",
                 "mat-1": "Durium Ingot",
                 "mat-2": "2 Azurite",
                 "mat-3": "Tiger Leather",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Bracelet of Aiming",
+                name: "Azurite Bracelet of Aiming",
                 "mat-1": "Durium Ingot",
                 "mat-2": "2 Azurite",
                 "mat-3": "Tiger Leather",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Bracelet of Casting",
+                name: "Azurite Bracelet of Casting",
                 "mat-1": "Durium Ingot",
                 "mat-2": "2 Azurite",
                 "mat-3": "Tiger Leather",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Bracelet of Healing",
+                name: "Azurite Bracelet of Healing",
                 "mat-1": "Durium Ingot",
                 "mat-2": "2 Azurite",
                 "mat-3": "Tiger Leather",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Ring of Fending",
+                name: "Azurite Ring of Fending",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Ring of Slaying",
+                name: "Azurite Ring of Slaying",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Ring of Aiming",
+                name: "Azurite Ring of Aiming",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Ring of Casting",
+                name: "Azurite Ring of Casting",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Azurite Ring of Healing",
+                name: "Azurite Ring of Healing",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Durium Rod",
+                name: "Durium Rod",
                 "mat-1": "3 Durium Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Durium Nugget",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Durium Foil",
+                name: "Durium Foil",
                 "mat-1": "2 Durium Ingot",
                 "mat-2": "2 Tama-Hagane Ingot",
                 "mat-3": "2 Star Spinel",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Dual-plated Durium Planisphere",
+                name: "Dual-plated Durium Planisphere",
                 "mat-1": "3 Durium Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Koppranickel Ingot",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Earrings of Fending",
+                name: "Azurite Earrings of Fending",
                 "mat-1": "Durium Ingot",
                 "mat-2": "3 Azurite",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Earrings of Slaying",
+                name: "Azurite Earrings of Slaying",
                 "mat-1": "Durium Ingot",
                 "mat-2": "3 Azurite",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Earrings of Aiming",
+                name: "Azurite Earrings of Aiming",
                 "mat-1": "Durium Ingot",
                 "mat-2": "3 Azurite",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Earrings of Casting",
+                name: "Azurite Earrings of Casting",
                 "mat-1": "Durium Ingot",
                 "mat-2": "3 Azurite",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Earrings of Healing",
+                name: "Azurite Earrings of Healing",
                 "mat-1": "Durium Ingot",
                 "mat-2": "3 Azurite",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Choker of Fending",
+                name: "Azurite Choker of Fending",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Tiger Leather",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Choker of Slaying",
+                name: "Azurite Choker of Slaying",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Tiger Leather",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Choker of Aiming",
+                name: "Azurite Choker of Aiming",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Tiger Leather",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Choker of Casting",
+                name: "Azurite Choker of Casting",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Tiger Leather",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Azurite Choker of Healing",
+                name: "Azurite Choker of Healing",
                 "mat-1": "Durium Ingot",
                 "mat-2": "Azurite",
                 "mat-3": "Tiger Leather",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Imperial Jade",
+                name: "Imperial Jade",
                 "mat-1": "3 Raw Imperial Jade",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Nugget",
+                name: "Palladium Nugget",
                 "mat-1": "4 Palladium Sand",
                 "mat-2": "Electrum Ore",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Earring of Fending",
+                name: "Molybdenum Earring of Fending",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Earring of Slaying",
+                name: "Molybdenum Earring of Slaying",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Earring of Aiming",
+                name: "Molybdenum Earring of Aiming",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Earring of Casting",
+                name: "Molybdenum Earring of Casting",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Earring of Healing",
+                name: "Molybdenum Earring of Healing",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Choker of Fending",
+                name: "Palladium Choker of Fending",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Marid Leather",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Choker of Slaying",
+                name: "Palladium Choker of Slaying",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Marid Leather",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Choker of Aiming",
+                name: "Palladium Choker of Aiming",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Marid Leather",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Choker of Casting",
+                name: "Palladium Choker of Casting",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Marid Leather",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Choker of Healing",
+                name: "Palladium Choker of Healing",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Marid Leather",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Bracelet of Fending",
+                name: "Palladium Bracelet of Fending",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "2 Kudzu Thread",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Bracelet of Slaying",
+                name: "Palladium Bracelet of Slaying",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "2 Kudzu Thread",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Bracelet of Aiming",
+                name: "Palladium Bracelet of Aiming",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "2 Kudzu Thread",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Bracelet of Casting",
+                name: "Palladium Bracelet of Casting",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "2 Kudzu Thread",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Bracelet of Healing",
+                name: "Palladium Bracelet of Healing",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "2 Kudzu Thread",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Ring of Fending",
+                name: "Palladium Ring of Fending",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Marid Leather",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Ring of Slaying",
+                name: "Palladium Ring of Slaying",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Marid Leather",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Ring of Aiming",
+                name: "Palladium Ring of Aiming",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Marid Leather",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Ring of Casting",
+                name: "Palladium Ring of Casting",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Marid Leather",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Palladium Ring of Healing",
+                name: "Palladium Ring of Healing",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "Marid Leather",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Palladium Rod",
+                name: "Palladium Rod",
                 "mat-1": "2 Palladium Nugget",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Durium Nugget",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Palladium Tuck",
+                name: "Palladium Tuck",
                 "mat-1": "2 Palladium Nugget",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Gazelle Leather",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Palladium Planisphere",
+                name: "Palladium Planisphere",
                 "mat-1": "3 Palladium Nugget",
                 "mat-2": "Durium Nugget",
                 "mat-3": "3 Rhodonite",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Palladium Needle",
+                name: "Palladium Needle",
                 "mat-1": "2 Palladium Nugget",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Durium Nugget",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Armillae of Fending",
+                name: "Imperial Jade Armillae of Fending",
                 "mat-1": "3 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Armillae of Slaying",
+                name: "Imperial Jade Armillae of Slaying",
                 "mat-1": "3 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Armillae of Aiming",
+                name: "Imperial Jade Armillae of Aiming",
                 "mat-1": "3 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Armillae of Casting",
+                name: "Imperial Jade Armillae of Casting",
                 "mat-1": "3 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Armillae of Healing",
+                name: "Imperial Jade Armillae of Healing",
                 "mat-1": "3 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -694,7 +694,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Ring of Fending",
+                name: "Imperial Jade Ring of Fending",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Vitality",
@@ -706,7 +706,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Ring of Slaying",
+                name: "Imperial Jade Ring of Slaying",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -718,7 +718,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Ring of Aiming",
+                name: "Imperial Jade Ring of Aiming",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -730,7 +730,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Ring of Casting",
+                name: "Imperial Jade Ring of Casting",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -742,7 +742,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Imperial Jade Ring of Healing",
+                name: "Imperial Jade Ring of Healing",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Almandine",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -754,7 +754,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Rhodonite",
+                name: "Rhodonite",
                 "mat-1": "3 Raw Rhodonite",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -766,7 +766,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Earrings of Fending",
+                name: "Imperial Jade Earrings of Fending",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "2 Imperial Jade",
                 "mat-3": "Almondine",
@@ -778,7 +778,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Earrings of Slaying",
+                name: "Imperial Jade Earrings of Slaying",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "2 Imperial Jade",
                 "mat-3": "Almondine",
@@ -790,7 +790,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Earrings of Aiming",
+                name: "Imperial Jade Earrings of Aiming",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "2 Imperial Jade",
                 "mat-3": "Almondine",
@@ -802,7 +802,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Earrings of Casting",
+                name: "Imperial Jade Earrings of Casting",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "2 Imperial Jade",
                 "mat-3": "Almondine",
@@ -814,7 +814,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Earrings of Healing",
+                name: "Imperial Jade Earrings of Healing",
                 "mat-1": "Palladium Nugget",
                 "mat-2": "2 Imperial Jade",
                 "mat-3": "Almondine",
@@ -826,7 +826,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Necklace of Fending",
+                name: "Imperial Jade Necklace of Fending",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Silk Thread",
                 "mat-3": "Almondine",
@@ -838,7 +838,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Necklace of Slaying",
+                name: "Imperial Jade Necklace of Slaying",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Silk Thread",
                 "mat-3": "Almondine",
@@ -850,7 +850,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Necklace of Aiming",
+                name: "Imperial Jade Necklace of Aiming",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Silk Thread",
                 "mat-3": "Almondine",
@@ -862,7 +862,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Necklace of Casting",
+                name: "Imperial Jade Necklace of Casting",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Silk Thread",
                 "mat-3": "Almondine",
@@ -874,7 +874,7 @@ export const GoldsmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Imperial Jade Necklace of Healing",
+                name: "Imperial Jade Necklace of Healing",
                 "mat-1": "2 Imperial Jade",
                 "mat-2": "Silk Thread",
                 "mat-3": "Almondine",

@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glamour Prism",
+                name: "Glamour Prism",
                 "mat-1": "Clear Prism",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Pearl Roselle Capeline",
+                name: "Pearl Roselle Capeline",
                 "mat-1": "3 Straw",
                 "mat-2": "Silk Thread",
                 "mat-3": "Pearl Roselle",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Straw Capeline",
+                name: "Straw Capeline",
                 "mat-1": "3 Straw",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "5 Fieldcraft Demimateria I",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crescent Moon Cone",
+                name: "Crescent Moon Cone",
                 "mat-1": "Mist Silk",
                 "mat-2": "Floss Silk",
                 "mat-3": "5 Fieldcraft Demimateria II",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crescent Moon Nightcap",
+                name: "Crescent Moon Nightcap",
                 "mat-1": "Mist Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "5 Fieldcraft Demimateria II",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crescent Moon Nightgown",
+                name: "Crescent Moon Nightgown",
                 "mat-1": "2 Mist Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "5 Fieldcraft Demimateria II",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Best Man's Jacket",
+                name: "Best Man's Jacket",
                 "mat-1": "2 Vanya Silk",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Bridesmaid's Dress",
+                name: "Bridesmaid's Dress",
                 "mat-1": "2 Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Fieldcraft Demimateria II",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crescent Moon Bottoms",
+                name: "Crescent Moon Bottoms",
                 "mat-1": "Mist Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "5 Fieldcraft Demimateria II",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Best Man's Slacks",
+                name: "Best Man's Slacks",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Bridesmaid's Tights",
+                name: "Bridesmaid's Tights",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Fieldcraft Demimateria II",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Crescent Moon Slippers",
+                name: "Crescent Moon Slippers",
                 "mat-1": "Mist Silk",
                 "mat-2": "Floss Silk",
                 "mat-3": "Rubber",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Cashmere Robe of Casting",
+                name: "Augmented Cashmere Robe of Casting",
                 "mat-1": "Cashmere Robe of Casting",
                 "mat-2": "Battlecraft Demimateria III",
                 "mat-3": "10 Battlecraft Demimateria II",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Cashmere Robe of Healing",
+                name: "Augmented Cashmere Robe of Healing",
                 "mat-1": "Cashmere Robe of Healing",
                 "mat-2": "Battlecraft Demimateria III",
                 "mat-3": "10 Battlecraft Demimateria II",

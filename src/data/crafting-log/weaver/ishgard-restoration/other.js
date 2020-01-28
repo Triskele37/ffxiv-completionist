@@ -10,7 +10,7 @@ export const Weaver_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Vest of Aiming",
+                name: "Replica Sky Pirate's Vest of Aiming",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Ingot",
                 "mat-3": "1 Gagana Leather",
@@ -22,7 +22,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Coat of Healing",
+                name: "Replica Sky Pirate's Coat of Healing",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 Bloodhempen Cloth",
@@ -34,7 +34,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Coat of Casting",
+                name: "Replica Sky Pirate's Coat of Casting",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 Bloodhempen Cloth",
@@ -46,7 +46,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gaskins of Fending",
+                name: "Replica Sky Pirate's Gaskins of Fending",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "2 Bloodhempen Yarn",
@@ -58,7 +58,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gaskins of Maiming",
+                name: "Replica Sky Pirate's Gaskins of Maiming",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "2 Bloodhempen Yarn",
@@ -70,7 +70,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Trousers of Striking",
+                name: "Replica Sky Pirate's Trousers of Striking",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 Bloodhempen Yarn",
@@ -82,7 +82,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Halfslops of Aiming",
+                name: "Replica Sky Pirate's Halfslops of Aiming",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Ingot",
                 "mat-3": "1 Gagana Leather",
@@ -94,7 +94,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Trousers of Scouting",
+                name: "Replica Sky Pirate's Trousers of Scouting",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 Bloodhempen Yarn",
@@ -106,7 +106,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Bottoms of Healing",
+                name: "Replica Sky Pirate's Bottoms of Healing",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Gagana Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -118,7 +118,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Bottoms of Casting",
+                name: "Replica Sky Pirate's Bottoms of Casting",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Gagana Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -130,7 +130,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Fending",
+                name: "Replica Sky Rat Breeches of Fending",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -142,7 +142,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Maiming",
+                name: "Replica Sky Rat Breeches of Maiming",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -154,7 +154,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Striking",
+                name: "Replica Sky Rat Breeches of Striking",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -166,7 +166,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Aiming",
+                name: "Replica Sky Rat Breeches of Aiming",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -178,7 +178,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Scouting",
+                name: "Replica Sky Rat Breeches of Scouting",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -190,7 +190,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Healing",
+                name: "Replica Sky Rat Breeches of Healing",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",
@@ -202,7 +202,7 @@ export const Weaver_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Breeches of Casting",
+                name: "Replica Sky Rat Breeches of Casting",
                 "mat-1": "2 Skysteel Cloth",
                 "mat-2": "1 Skysteel Leather",
                 "mat-3": "1 High Steel Nugget",

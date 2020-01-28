@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LimsaLominsaStartingQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.limsa-lominsa`;
 
     return {

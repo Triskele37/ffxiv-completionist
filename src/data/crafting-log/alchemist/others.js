@@ -10,7 +10,7 @@ export const Alchemist_Others = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★",
-                "item": "Wolf Grimoire of Casting",
+                name: "Wolf Grimoire of Casting",
                 "mat-1": "Enchanted Gold Ink",
                 "mat-2": "2 Electrum Ingot",
                 "mat-3": "Cobalt Ingot",
@@ -22,7 +22,7 @@ export const Alchemist_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Grimoire of Healing",
+                name: "Wolf Grimoire of Healing",
                 "mat-1": "Enchanted Gold Ink",
                 "mat-2": "2 Electrum Ingot",
                 "mat-3": "Cobalt Ingot",
@@ -34,7 +34,7 @@ export const Alchemist_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Icarus Wing",
+                name: "Icarus Wing",
                 "mat-1": "Eagle Feather",
                 "mat-2": "Gold Sand",
                 "mat-3": "Beeswax",
@@ -46,7 +46,7 @@ export const Alchemist_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Regain Feather",
+                name: "Regain Feather",
                 "mat-1": "Swan Feather",
                 "mat-2": "Growth Formula Delta",
                 "mat-3": "X",

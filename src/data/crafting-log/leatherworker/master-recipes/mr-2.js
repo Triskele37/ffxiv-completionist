@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★★★",
-                "item": "Kirimu Leather",
+                name: "Kirimu Leather",
                 "mat-1": "Allagan Leather",
                 "mat-2": "Dubbin",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Tricorne",
+                name: "Kirimu Tricorne",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Saurian Leather",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Coat",
+                name: "Kirimu Coat",
                 "mat-1": "5 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Sapphire",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Bracers",
+                name: "Kirimu Bracers",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Gloves of Casting",
+                name: "Kirimu Gloves of Casting",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Gloves of Healing",
+                name: "Kirimu Gloves of Healing",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Artisan's Mitts",
+                name: "Artisan's Mitts",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Hard Hippogryph Leather",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Forager's Wristguards",
+                name: "Forager's Wristguards",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Hard Hippogryph Leather",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Belt of Maiming",
+                name: "Kirimu Belt of Maiming",
                 "mat-1": "2 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Ingot",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Belt of Striking",
+                name: "Kirimu Belt of Striking",
                 "mat-1": "2 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Ingot",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Belt of Scouting",
+                name: "Kirimu Belt of Scouting",
                 "mat-1": "2 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Ingot",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Belt of Casting",
+                name: "Kirimu Belt of Casting",
                 "mat-1": "2 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Belt of Healing",
+                name: "Kirimu Belt of Healing",
                 "mat-1": "2 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Breeches of Fending",
+                name: "Kirimu Breeches of Fending",
                 "mat-1": "5 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -178,19 +178,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Breeches of Maiming",
-                "mat-1": "5 Kirimu Leather",
-                "mat-2": "Platinum Nugget",
-                "mat-3": "Cashmere Cloth",
-                "mat-4": "2 Silk Thread",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Earth Cluster, 2 Wind Cluster",
-                "special": "Unlocked w/ Master Leatherworker II"
-            },
-            {
-                "level": "50★★★★",
-                "item": "Kirimu Brais",
+                name: "Kirimu Breeches of Maiming",
                 "mat-1": "5 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -202,7 +190,19 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Sandals of Striking",
+                name: "Kirimu Brais",
+                "mat-1": "5 Kirimu Leather",
+                "mat-2": "Platinum Nugget",
+                "mat-3": "Cashmere Cloth",
+                "mat-4": "2 Silk Thread",
+                "mat-5": "X",
+                "mat-6": "X",
+                "catalysts": "2 Earth Cluster, 2 Wind Cluster",
+                "special": "Unlocked w/ Master Leatherworker II"
+            },
+            {
+                "level": "50★★★★",
+                name: "Kirimu Sandals of Striking",
                 "mat-1": "Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "2 Ebony Lumber",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Sandals of Scouting",
+                name: "Kirimu Sandals of Scouting",
                 "mat-1": "Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "2 Ebony Lumber",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Boots of Aiming",
+                name: "Kirimu Boots of Aiming",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Saurian Leather",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Boots of Casting",
+                name: "Kirimu Boots of Casting",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Kirimu Boots of Healing",
+                name: "Kirimu Boots of Healing",
                 "mat-1": "3 Kirimu Leather",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Forager's Shoes",
+                name: "Forager's Shoes",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Hard Hippogryph Leather",

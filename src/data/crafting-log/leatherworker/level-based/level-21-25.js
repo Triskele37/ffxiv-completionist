@@ -10,7 +10,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Padded Leather Duckbills",
+                name: "Padded Leather Duckbills",
                 "mat-1": "Leather Duckbills",
                 "mat-2": "Leather",
                 "mat-3": "Undyed Cotton Cloth",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Padded Leather Duckbills of Gathering",
+                name: "Padded Leather Duckbills of Gathering",
                 "mat-1": "Leather Duckbills",
                 "mat-2": "Leather",
                 "mat-3": "Undyed Cotton Cloth",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Initiate's Thighboots",
+                name: "Initiate's Thighboots",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Hard Leather",
                 "mat-3": "Undyed Cotton Cloth",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Initiate's Headgear",
+                name: "Initiate's Headgear",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Iron Rivets",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Goatskin Jacket",
+                name: "Goatskin Jacket",
                 "mat-1": "3 Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Goatskin Armguards",
+                name: "Goatskin Armguards",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Goatskin Brais",
+                name: "Goatskin Brais",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Cotton Yarn",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Goatskin Eyepatch",
+                name: "Goatskin Eyepatch",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Cotton Yarn",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Goatskin Lightmitts",
+                name: "Goatskin Lightmitts",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Voyager's Belt",
+                name: "Voyager's Belt",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Goatskin Leg Guards",
+                name: "Goatskin Leg Guards",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Iron Ingot",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Goatskin Satchel Belt",
+                name: "Goatskin Satchel Belt",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Goatskin Belt",
+                name: "Goatskin Belt",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Goatskin Breeches",
+                name: "Goatskin Breeches",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "2 Undyed Cotton Cloth",
                 "mat-3": "Cotton Yarn",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Goatskin Duckbills",
+                name: "Goatskin Duckbills",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Fingerless Goatskin Gloves",
+                name: "Fingerless Goatskin Gloves",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Fingerless Goatskin Gloves of Gathering",
+                name: "Fingerless Goatskin Gloves of Gathering",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Goatskin Espadrilles",
+                name: "Goatskin Espadrilles",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Elm Lumber",

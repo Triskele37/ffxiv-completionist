@@ -10,7 +10,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Vermicelli",
+                name: "Vermicelli",
                 "mat-1": "3 Highland Flour",
                 "mat-2": "Dravanian Sprin Water",
                 "mat-3": "Abalathian Rock Salt",
@@ -22,7 +22,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Sesame Cookie",
+                name: "Sesame Cookie",
                 "mat-1": "Highland Flour",
                 "mat-2": "Gastornis Egg",
                 "mat-3": "2 Sesame Seeds",
@@ -34,7 +34,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Emerald Soup",
+                name: "Emerald Soup",
                 "mat-1": "3 Emerald Beans",
                 "mat-2": "2 Buffalo Beans",
                 "mat-3": "Bouillon Cube",
@@ -46,7 +46,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Royal Eggs",
+                name: "Royal Eggs",
                 "mat-1": "2 Okeanis Egg",
                 "mat-2": "Hollandaise Sauce",
                 "mat-3": "Seema Patrician",
@@ -58,7 +58,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dhalmel Fricassee",
+                name: "Dhalmel Fricassee",
                 "mat-1": "2 Dhalmel Meat",
                 "mat-2": "2 Cyclops Onion",
                 "mat-3": "Bouillon Cube",
@@ -70,7 +70,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Cockatrice Meatballs",
+                name: "Cockatrice Meatballs",
                 "mat-1": "3 Cockatrice Thigh",
                 "mat-2": "2 Cyclops Onion",
                 "mat-3": "Flatbread",
@@ -82,7 +82,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Baked Pipira Pira",
+                name: "Baked Pipira Pira",
                 "mat-1": "Pipira Pira",
                 "mat-2": "Abalathian Rock Salt",
                 "mat-3": "2 Porcini",
@@ -94,7 +94,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Frozen Spirits",
+                name: "Frozen Spirits",
                 "mat-1": "2 Cloud Banana",
                 "mat-2": "2 Old World Fig",
                 "mat-3": "2 Yak Milk",
@@ -106,7 +106,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Birch Syrup",
+                name: "Birch Syrup",
                 "mat-1": "3 Birch Sap",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Liver-Cheese Sandwich",
+                name: "Liver-Cheese Sandwich",
                 "mat-1": "2 Cockatrice Thigh",
                 "mat-2": "Kaiser Roll",
                 "mat-3": "Cream Cheese",
@@ -130,7 +130,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Marron Glace",
+                name: "Marron Glace",
                 "mat-1": "3 Dark Chestnut",
                 "mat-2": "Birch Syrup",
                 "mat-3": "Cooking Sherry",
@@ -142,7 +142,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Deep-fried Okeanis",
+                name: "Deep-fried Okeanis",
                 "mat-1": "3 Okeanis Tail",
                 "mat-2": "Highland Flour",
                 "mat-3": "Olive Oil",
@@ -154,7 +154,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Stuffed Chysahl",
+                name: "Stuffed Chysahl",
                 "mat-1": "3 Chysahl Greens",
                 "mat-2": "2 Okeanis Tail",
                 "mat-3": "Cream Cheese",
@@ -166,7 +166,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Morel Salad",
+                name: "Morel Salad",
                 "mat-1": "2 Morel",
                 "mat-2": "2 Emerald Beans",
                 "mat-3": "La Noscean Lettuce",
@@ -178,7 +178,7 @@ export const CulinarianLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Clam Chowder",
+                name: "Clam Chowder",
                 "mat-1": "2 Unidentified Flying Biomass",
                 "mat-2": "2 Fanged Clam",
                 "mat-3": "Bouillon Cube",

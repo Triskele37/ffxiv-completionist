@@ -1,7 +1,7 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=20&columns=ID,Name
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const YoRHaDarkApocalypse = function(parentStorageKey) {
+export const Quest_COANE_YoRHa_Dark_Apocalypse = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.yorha-dark-apocalypse`;
 
     return {

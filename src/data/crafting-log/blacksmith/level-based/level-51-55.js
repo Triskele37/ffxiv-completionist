@@ -10,7 +10,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Mythrite Nugget",
+                name: "Mythrite Nugget",
                 "mat-1": "5 Myrthrite Sand",
                 "mat-2": "Mythril Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Uchigatana",
+                name: "Mythrite Uchigatana",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Undyed Cotton Cloth",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Rivets",
+                name: "Mythrite Rivets",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Katzbalger",
+                name: "Mythrite Katzbalger",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Cedar Lumber",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite War Axe",
+                name: "Mythrite War Axe",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Cedar Lumber",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Claymore",
+                name: "Mythrite Claymore",
                 "mat-1": "4 Mythrite Nugget",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Cedar Lumber",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Patas",
+                name: "Mythrite Patas",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "2 Mythrite Rivets",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Pugiones",
+                name: "Mythrite Pugiones",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Archaeornis Leather",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite-barreled Arquebus",
+                name: "Mythrite-barreled Arquebus",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "2 Cedar Lumber",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Ingot",
+                name: "Mythrite Ingot",
                 "mat-1": "4 Mythrite Ore",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Tachi",
+                name: "Mythrite Tachi",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Rainbow Cloth",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Halfheart Saw",
+                name: "Mythrite Halfheart Saw",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Mythrite Rivets",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Lump Hammer",
+                name: "Mythrite Lump Hammer",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Electrum Ingot",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Raising Hammer",
+                name: "Mythrite Raising Hammer",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Mythrite Rivets",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Lapidary Hammer",
+                name: "Mythrite Lapidary Hammer",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Turquoise",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Round Knife",
+                name: "Mythrite Round Knife",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Archaeornis Leather",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Pickaxe",
+                name: "Mythrite Pickaxe",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Void Glue",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Hatchet",
+                name: "Mythrite Hatchet",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Archaeornis Leather",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Flametongue",
+                name: "Mythrite Flametongue",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Wyvern Leather",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Labrys",
+                name: "Mythrite Labrys",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Wyvern Leather",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Zweihander",
+                name: "Mythrite Zweihander",
                 "mat-1": "4 Mythrite Ingot",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Cedar Lumber",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Jamadhars",
+                name: "Mythrite Jamadhars",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "Cedar Lumber",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Stilettos",
+                name: "Mythrite Stilettos",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Wyvern Leather",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite-barreled Musketoon",
+                name: "Mythrite-barreled Musketoon",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Cedar Lumber",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Claw Hammer",
+                name: "Mythrite Claw Hammer",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Linseed Oil",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite File",
+                name: "Mythrite File",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Pliers",
+                name: "Mythrite Pliers",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Mythrite Rivets",
                 "mat-3": "Linseed Oil",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Awl",
+                name: "Mythrite Awl",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Holy Rainbow Cloth",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Mortar",
+                name: "Mythrite Mortar",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Culinary Knife",
+                name: "Mythrite Culinary Knife",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Sledgehammer",
+                name: "Mythrite Sledgehammer",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Void Glue",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Scythe",
+                name: "Mythrite Scythe",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Cedar Branch",
                 "mat-3": "Basilisk Whetstone",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Nugget",
+                name: "Titanium Nugget",
                 "mat-1": "5 Titanium Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "Grenade Ash",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Rivets",
+                name: "Titanium Rivets",
                 "mat-1": "Titanium Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Bastard Sword",
+                name: "Titanium Bastard Sword",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Hardsilver Nugget",
                 "mat-3": "Electrum Ingot",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Axe",
+                name: "Titanium Axe",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "2 Titanium Rivets",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Claymore",
+                name: "Titanium Claymore",
                 "mat-1": "4 Titanium Nugget",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Dark Chestnut Lumber",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Jamadhars",
+                name: "Titanium Jamadhars",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Dhalmel Leather",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Uchigatana",
+                name: "Titanium Uchigatana",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Holy Rainbow Cloth",
@@ -478,7 +478,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Pugiones",
+                name: "Titanium Pugiones",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -490,7 +490,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium-barreled Arquebus",
+                name: "Titanium-barreled Arquebus",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "2 Dark Chestnut Lumber",
@@ -502,7 +502,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Saw",
+                name: "Hardsilver Saw",
                 "mat-1": "3 Hardsilver Nugget",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Titanium Rivets",
@@ -514,7 +514,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Cross-pein Hammer",
+                name: "Titanium Cross-pein Hammer",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Wing Glue",
@@ -526,7 +526,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Ball-pein Hammer",
+                name: "Titanium Ball-pein Hammer",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -538,7 +538,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Texture Hammer",
+                name: "Hardsilver Texture Hammer",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Star Ruby",
@@ -550,7 +550,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Creasing Knife",
+                name: "Titanium Creasing Knife",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Electrum Ingot",
@@ -562,7 +562,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Dolabra",
+                name: "Hardsilver Dolabra",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Hardsilver Nugget",
                 "mat-3": "Dark Chestnut Lumber",
@@ -574,7 +574,7 @@ export const BlacksmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Hatchet",
+                name: "Titanium Hatchet",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Dark Chestnut Branch",
                 "mat-3": "Dhalmel Leather",

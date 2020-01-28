@@ -7,9 +7,12 @@ export const LeatherworkerStoryRecipe = function(parentStorageKey) {
     return {
         name: "Story Recipes",
         storageKey,
-        subGroups: [
-            Leatherworker_Story_ClassQuests(storageKey),
-            Leatherworker_Story_Crystarium(storageKey),
-        ]
+        groupKeys: [
+            "ClassQuests",
+            "CrystariumDeliveries"
+        ],
+        // Groups
+        ClassQuests: Leatherworker_Story_ClassQuests(storageKey),
+        CrystariumDeliveries: Leatherworker_Story_Crystarium(storageKey),
     };
 };

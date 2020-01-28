@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "Griffin Leather Strap",
+                name: "Griffin Leather Strap",
                 "mat-1": "3 Griffin Hide",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Cap of Gathering",
+                name: "Carbonweave Cap of Gathering",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "2 Sewing Thread",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Mask of Aiming",
+                name: "Replica High Allagan Mask of Aiming",
                 "mat-1": "2 High Allagan Aetherstone - Headgear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Mask of Casting",
+                name: "Replica High Allagan Mask of Casting",
                 "mat-1": "2 High Allagan Aetherstone - Headgear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Chapeau of Aiming",
+                name: "Replica Dreadwyrm Chapeau of Aiming",
                 "mat-1": "2 Neo Aetherstone - Headgear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Petasos of Casting",
+                name: "Replica Dreadwyrm Petasos of Casting",
                 "mat-1": "2 Neo Aetherstone - Headgear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Vest of Gathering",
+                name: "Carbonweave Vest of Gathering",
                 "mat-1": "2 Carbon Fiber",
                 "mat-2": "2 Pterodactyl Leather",
                 "mat-3": "Cloud Cloth",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Cyclas of Striking",
+                name: "Replica Dreadwyrm Cyclas of Striking",
                 "mat-1": "2 Neo Aetherstone - Body Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Cyclas of Scouting",
+                name: "Replica Dreadwyrm Cyclas of Scouting",
                 "mat-1": "2 Neo Aetherstone - Body Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Tabard of Aiming",
+                name: "Replica Dreadwyrm Tabard of Aiming",
                 "mat-1": "2 Neo Aetherstone - Body Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Robe of Casting",
+                name: "Replica Dreadwyrm Robe of Casting",
                 "mat-1": "2 Neo Aetherstone - Body Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Gloves of Gathering",
+                name: "Carbonweave Gloves of Gathering",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "2 Sewing Thread",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Gloves of Casting",
+                name: "Replica Allagan Gloves of Casting",
                 "mat-1": "2 Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Gloves of Healing",
+                name: "Replica Allagan Gloves of Healing",
                 "mat-1": "2 Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gloves of Aiming",
+                name: "Replica High Allagan Gloves of Aiming",
                 "mat-1": "2 High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Platinum Ingot",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gloves of Casting",
+                name: "Replica High Allagan Gloves of Casting",
                 "mat-1": "2 High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Platinum Ingot",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gloves of Healing",
+                name: "Replica High Allagan Gloves of Healing",
                 "mat-1": "2 High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Bracers of Striking",
+                name: "Replica Dreadwyrm Bracers of Striking",
                 "mat-1": "2 Neo Aetherstone - Hand Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "2 Kirimu Leather",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Bracers of Scouting",
+                name: "Replica Dreadwyrm Bracers of Scouting",
                 "mat-1": "2 Neo Aetherstone - Hand Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "2 Kirimu Leather",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Bracers of Aiming",
+                name: "Replica Dreadwyrm Bracers of Aiming",
                 "mat-1": "2 Neo Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Platinum Ingot",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Gloves of Casting",
+                name: "Replica Dreadwyrm Gloves of Casting",
                 "mat-1": "2 Neo Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Platinum Ingot",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Gloves of Healing",
+                name: "Replica Dreadwyrm Gloves of Healing",
                 "mat-1": "2 Neo Aetherstone - Hand Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -274,7 +274,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Trousers of Fending",
+                name: "Replica High Allagan Trousers of Fending",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -286,7 +286,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Trousers of Maiming",
+                name: "Replica High Allagan Trousers of Maiming",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -298,7 +298,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Trousers of Striking",
+                name: "Replica High Allagan Trousers of Striking",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "3 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -310,7 +310,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Breeches of Aiming",
+                name: "Replica High Allagan Breeches of Aiming",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -322,7 +322,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Breeches of Casting",
+                name: "Replica High Allagan Breeches of Casting",
                 "mat-1": "2 High Allagan Aetherstone - Leg Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "2 Arachne Velveteen",
@@ -334,7 +334,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Breeches of Maiming",
+                name: "Replica Dreadwyrm Breeches of Maiming",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "3 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -346,7 +346,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Breeches of Aiming",
+                name: "Replica Dreadwyrm Breeches of Aiming",
                 "mat-1": "2 Neo Aetherstone - Leg Gear",
                 "mat-2": "3 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -358,7 +358,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Boots of Crafting",
+                name: "Carbonweave Boots of Crafting",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "2 Sewing Thread",
@@ -370,7 +370,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Carbonweave Boots of Gathering",
+                name: "Carbonweave Boots of Gathering",
                 "mat-1": "Carbon Fiber",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "2 Sewing Thread",
@@ -382,7 +382,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Boots of Casting",
+                name: "Replica Allagan Boots of Casting",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -394,7 +394,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Boots of Healing",
+                name: "Replica Allagan Boots of Healing",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -406,7 +406,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Boots of Aiming",
+                name: "Replica High Allagan Boots of Aiming",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -418,7 +418,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Boots of Casting",
+                name: "Replica High Allagan Boots of Casting",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -430,7 +430,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Thighboots of Healing",
+                name: "Replica High Allagan Thighboots of Healing",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "Kirimu Leather",
                 "mat-3": "2 Wootz Ingot",
@@ -442,7 +442,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Boots of Striking",
+                name: "Replica Dreadwyrm Boots of Striking",
                 "mat-1": "2 Neo Aetherstone - Foot Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "2 Kirimu Leather",
@@ -454,7 +454,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Boots of Scouting",
+                name: "Replica Dreadwyrm Boots of Scouting",
                 "mat-1": "2 Neo Aetherstone - Foot Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "2 Kirimu Leather",
@@ -466,7 +466,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Shoes of Casting",
+                name: "Replica Dreadwyrm Shoes of Casting",
                 "mat-1": "2 Neo Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -478,7 +478,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwyrm Shoes of Healing",
+                name: "Replica Dreadwyrm Shoes of Healing",
                 "mat-1": "2 Neo Aetherstone - Foot Gear",
                 "mat-2": "2 Kirimu Leather",
                 "mat-3": "Arachne Velveteen",
@@ -490,7 +490,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sephirotic Barding",
+                name: "Sephirotic Barding",
                 "mat-1": "Sephirot Sap",
                 "mat-2": "4 Dinosaur Leather",
                 "mat-3": "Star Sapphire",
@@ -502,7 +502,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Pudding Settee",
+                name: "Pudding Settee",
                 "mat-1": "2 Tincalconite",
                 "mat-2": "6 Pudding Flesh",
                 "mat-3": "2 Amphiptere Leather",
@@ -514,7 +514,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather",
+                name: "Eikon Leather",
                 "mat-1": "2 Eikon Hide",
                 "mat-2": "3 Camphore",
                 "mat-3": "Wattle Bark",
@@ -526,7 +526,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Headgear of Maiming",
+                name: "Eikon Leather Headgear of Maiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Crawler Silk",
@@ -538,7 +538,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Headgear of Striking",
+                name: "Eikon Leather Headgear of Striking",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Crawler Silk",
@@ -550,7 +550,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Headgear of Casting",
+                name: "Eikon Leather Headgear of Casting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Crawler Silk",
@@ -562,7 +562,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Corselet of Maiming",
+                name: "Eikon Leather Corselet of Maiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Eikon Iron Ingot",
@@ -574,7 +574,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Corselet of Striking",
+                name: "Eikon Leather Corselet of Striking",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Eikon Iron Ingot",
@@ -586,7 +586,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Corselet of Casting",
+                name: "Eikon Leather Corselet of Casting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Eikon Iron Ingot",
@@ -598,7 +598,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Coat",
+                name: "Expeditioner's Coat",
                 "mat-1": "2 Antique Leather",
                 "mat-2": "Antique Ring",
                 "mat-3": "Ramie Thread",
@@ -610,7 +610,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Armguards of Maiming",
+                name: "Eikon Leather Armguards of Maiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Titanium Ingot",
@@ -622,7 +622,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Armguards of Striking",
+                name: "Eikon Leather Armguards of Striking",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Titanium Ingot",
@@ -634,7 +634,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Armguards of Casting",
+                name: "Eikon Leather Armguards of Casting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Titanium Ingot",
@@ -646,7 +646,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Gloves",
+                name: "Expeditioner's Gloves",
                 "mat-1": "2 Antique Leather",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Titanium Rivets",
@@ -658,7 +658,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Ringbelt of Scouting",
+                name: "Eikon Leather Ringbelt of Scouting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Titanium Alloy Ingot",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -670,7 +670,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Ringbelt of Aiming",
+                name: "Eikon Leather Ringbelt of Aiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Titanium Alloy Ingot",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -682,7 +682,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Breeches of Fending",
+                name: "Eikon Leather Breeches of Fending",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Aurum Regis Nugget",
@@ -694,7 +694,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Leg Guards of Maiming",
+                name: "Eikon Leather Leg Guards of Maiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Titanium Ingot",
@@ -706,7 +706,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Leg Guards of Striking",
+                name: "Eikon Leather Leg Guards of Striking",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Crawler Silk",
@@ -718,7 +718,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Thighboots of Scouting",
+                name: "Eikon Leather Thighboots of Scouting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Crawler Silk",
@@ -730,7 +730,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Thighboots of Aiming",
+                name: "Eikon Leather Thighboots of Aiming",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Crawler Silk",
@@ -742,7 +742,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Leg Guards of Casting",
+                name: "Eikon Leather Leg Guards of Casting",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Titanium Ingot",
@@ -754,7 +754,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Leather Thighboots of Healing",
+                name: "Eikon Leather Thighboots of Healing",
                 "mat-1": "2 Eikon Leather",
                 "mat-2": "Eikon Cloth",
                 "mat-3": "Crawler Silk",
@@ -766,7 +766,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Moccasins",
+                name: "Expeditioner's Moccasins",
                 "mat-1": "Antique Leather",
                 "mat-2": "Antique Rug",
                 "mat-3": "Ramie Thread",
@@ -778,7 +778,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Expeditioner's Thighboots",
+                name: "Expeditioner's Thighboots",
                 "mat-1": "2 Antique Leather",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Rubber",
@@ -790,7 +790,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Peteinosaur Leather",
+                name: "Peteinosaur Leather",
                 "mat-1": "Peteinosaur",
                 "mat-2": "Camphor",
                 "mat-3": "X",
@@ -802,7 +802,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Cap of Gathering",
+                name: "Ironworks Cap of Gathering",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Eikon Fiber",
@@ -814,7 +814,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Vest of Gathering",
+                name: "Ironworks Vest of Gathering",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Eikon Cloth",
@@ -826,7 +826,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Gloves of Gathering",
+                name: "Ironworks Gloves of Gathering",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Eikon Fiber",
@@ -838,7 +838,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Belt of Crafting",
+                name: "Ironworks Belt of Crafting",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -850,7 +850,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Belt of Gathering",
+                name: "Ironworks Belt of Gathering",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "High Mythrite Nugget",
@@ -862,7 +862,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Boots of Crafting",
+                name: "Ironworks Boots of Crafting",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Eikon Fiber",
@@ -874,7 +874,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Boots of Gathering",
+                name: "Ironworks Boots of Gathering",
                 "mat-1": "2 Luminous Fiber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "Eikon Fiber",
@@ -886,7 +886,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Horde Barding",
+                name: "Horde Barding",
                 "mat-1": "3 Nidhogg's Scale",
                 "mat-2": "4 Eikon Leather",
                 "mat-3": "Griffin Leather Strap",
@@ -898,7 +898,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemicyon Leather",
+                name: "Hemicyon Leather",
                 "mat-1": "2 Hemicyon",
                 "mat-2": "3 Camphore",
                 "mat-3": "Wattle Bark",
@@ -910,7 +910,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Fending",
+                name: "Sky Rat Harness of Fending",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -922,7 +922,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Maiming",
+                name: "Sky Rat Harness of Maiming",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -934,7 +934,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Striking",
+                name: "Sky Rat Harness of Striking",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "High Mythrite Nugget",
@@ -946,7 +946,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Scouting",
+                name: "Sky Rat Harness of Scouting",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -958,7 +958,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Aiming",
+                name: "Sky Rat Harness of Aiming",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "High Mythrite Nugget",
@@ -970,7 +970,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Casting",
+                name: "Sky Rat Harness of Casting",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "High Mythrite Nugget",
@@ -982,7 +982,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Harness of Healing",
+                name: "Sky Rat Harness of Healing",
                 "mat-1": "2 Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -994,7 +994,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Gloves of Striking",
+                name: "Hemiskin Gloves of Striking",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1006,7 +1006,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Fingerless Gloves of Striking",
+                name: "Sky Rat Fingerless Gloves of Striking",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "High Mythrite Nugget",
@@ -1018,7 +1018,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Gloves of Scouting",
+                name: "Hemiskin Gloves of Scouting",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1030,7 +1030,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Gloves of Aiming",
+                name: "Hemiskin Gloves of Aiming",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1042,7 +1042,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Fingerless Gloves of Aiming",
+                name: "Sky Rat Fingerless Gloves of Aiming",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "Chimerical Felt",
@@ -1054,7 +1054,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Fingerless Gloves of Casting",
+                name: "Sky Rat Fingerless Gloves of Casting",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Stormcloud Cotton Cloth",
                 "mat-3": "Chimerical Felt",
@@ -1066,7 +1066,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Brais of Fending",
+                name: "Hemiskin Brais of Fending",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "2 Star Velvet",
                 "mat-3": "2 Griffin Leather Strap",
@@ -1078,7 +1078,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Brais of Maiming",
+                name: "Hemiskin Brais of Maiming",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "2 Star Velvet",
                 "mat-3": "2 Griffin Leather Strap",
@@ -1090,7 +1090,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Trousers of Striking",
+                name: "Hemiskin Trousers of Striking",
                 "mat-1": "3 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1102,7 +1102,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Trousers of Scouting",
+                name: "Hemiskin Trousers of Scouting",
                 "mat-1": "3 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1114,7 +1114,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Trousers of Aiming",
+                name: "Hemiskin Trousers of Aiming",
                 "mat-1": "3 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1126,7 +1126,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hookboots of Fending",
+                name: "Sky Rat Hookboots of Fending",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -1138,7 +1138,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hookboots of Maiming",
+                name: "Sky Rat Hookboots of Maiming",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -1150,7 +1150,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Leggings of Striking",
+                name: "Hemiskin Leggings of Striking",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Saurian Leather",
@@ -1162,7 +1162,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Leggings of Scouting",
+                name: "Hemiskin Leggings of Scouting",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Saurian Leather",
@@ -1174,7 +1174,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hookboots of Scouting",
+                name: "Sky Rat Hookboots of Scouting",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -1186,7 +1186,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Leggings of Aiming",
+                name: "Hemiskin Leggings of Aiming",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Saurian Leather",
@@ -1198,7 +1198,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Open-toe Boots of Casting",
+                name: "Hemiskin Open-toe Boots of Casting",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1210,7 +1210,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Open-toe Boots of Healing",
+                name: "Hemiskin Open-toe Boots of Healing",
                 "mat-1": "2 Hemicyon Leather",
                 "mat-2": "Star Velvet",
                 "mat-3": "Griffin Leather Strap",
@@ -1222,7 +1222,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hookboots of Healing",
+                name: "Sky Rat Hookboots of Healing",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -1234,7 +1234,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Taoist's Gloves",
+                name: "Taoist's Gloves",
                 "mat-1": "Nagxian Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "X",
@@ -1246,7 +1246,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Taoist's Shoes",
+                name: "Taoist's Shoes",
                 "mat-1": "Nagxian Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "X",
@@ -1258,7 +1258,7 @@ export const Leatherworker_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Guoc",
+                name: "Guoc",
                 "mat-1": "Nagxian Leather",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Rubber",

@@ -10,7 +10,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
         tasks: [
             {
                 "level": 70,
-                "item": "Canvas Repair Materials",
+                name: "Canvas Repair Materials",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 73,
-                "item": "Upholstery Repair Materials",
+                name: "Upholstery Repair Materials",
                 "mat-1": "Miracle Apple Lumber",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Green Glider Leather",
@@ -34,7 +34,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Amaro Barding Repair Materials",
+                name: "Amaro Barding Repair Materials",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "White Ash Lumber",
@@ -46,7 +46,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Workshop Sign",
+                name: "Workshop Sign",
                 "mat-1": "Workshop Sign Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Lute Repair Materials",
+                name: "Lute Repair Materials",
                 "mat-1": "Lignum Vitae Lumber",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Sea Swallow Leather",
@@ -70,7 +70,7 @@ export const Carpenter_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Lute Modification Component",
+                name: "Lute Modification Component",
                 "mat-1": "Lute Modification Component Materials",
                 "mat-2": "X",
                 "mat-3": "X",

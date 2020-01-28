@@ -10,7 +10,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "High Steel Nugget",
+                name: "High Steel Nugget",
                 "mat-1": "4 Koppranickel Sand",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Hoplon",
+                name: "High Steel Hoplon",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Titanium Nugget",
@@ -34,7 +34,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Helm of Fending",
+                name: "High Steel Helm of Fending",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "4 Wildfowl Feather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Helm of Maiming",
+                name: "High Steel Helm of Maiming",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "4 Wildfowl Feather",
@@ -58,7 +58,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Thermal Alembic",
+                name: "High Steel Thermal Alembic",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Bomb Frypan",
+                name: "High Steel Bomb Frypan",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Scale Mail of Fending",
+                name: "High Steel Scale Mail of Fending",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "2 Bloodhempen Cloth",
@@ -94,7 +94,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Scale Mail of Maiming",
+                name: "High Steel Scale Mail of Maiming",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "2 Bloodhempen Cloth",
@@ -106,7 +106,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Armguards of Fending",
+                name: "High Steel Armguards of Fending",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Gagana Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -118,7 +118,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Armguards of Maiming",
+                name: "High Steel Armguards of Maiming",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Gagana Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -130,7 +130,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Ingot",
+                name: "High Steel Ingot",
                 "mat-1": "4 Koppranickel Ore",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Scutum",
+                name: "High Steel Scutum",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Koppranickel Nugget",
@@ -154,7 +154,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Barbut of Fending",
+                name: "High Steel Barbut of Fending",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Gagana Leather",
@@ -166,7 +166,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Barbut of Maiming",
+                name: "High Steel Barbut of Maiming",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Gagana Leather",
@@ -178,7 +178,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Plate Belt of Fending",
+                name: "High Steel Plate Belt of Fending",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gagana Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -190,7 +190,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Plate Belt of Maiming",
+                name: "High Steel Plate Belt of Maiming",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gagana Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -202,7 +202,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Mail of Fending",
+                name: "High Steel Mail of Fending",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "Gagana Leather",
                 "mat-3": "2 Bloodhempen Cloth",
@@ -214,7 +214,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Mail of Maiming",
+                name: "High Steel Mail of Maiming",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "2 Ruby Cotton Cloth",
                 "mat-3": "Koppranickel Nugget",
@@ -226,7 +226,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Gauntlets of Fending",
+                name: "High Steel Gauntlets of Fending",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Nugget",
@@ -238,7 +238,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Gauntlets of Maiming",
+                name: "High Steel Gauntlets of Maiming",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Nugget",
@@ -250,7 +250,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Sollerets of Fending",
+                name: "High Steel Sollerets of Fending",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Nugget",
@@ -262,7 +262,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Sollerets of Maiming",
+                name: "High Steel Sollerets of Maiming",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -274,7 +274,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Oroshigane Ingot",
+                name: "Oroshigane Ingot",
                 "mat-1": "4 Doman Iron Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Gauntlets of Fending",
+                name: "Doman Iron Gauntlets of Fending",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -298,7 +298,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Gauntlets of Maiming",
+                name: "Doman Iron Gauntlets of Maiming",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -310,7 +310,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Tassets of Fending",
+                name: "Doman Iron Tassets of Fending",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -322,7 +322,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Tassets of Maiming",
+                name: "Doman Iron Tassets of Maiming",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -334,7 +334,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Greaves of Fending",
+                name: "Doman Iron Greaves of Fending",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -346,7 +346,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Greaves of Maiming",
+                name: "Doman Iron Greaves of Maiming",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Koppranickel Ingot",
@@ -358,7 +358,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Alembic",
+                name: "Doman Iron Alembic",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "High Steel Nugget",
@@ -370,7 +370,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Frypan",
+                name: "Doman Iron Frypan",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "High Steel Nugget",
@@ -382,7 +382,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Kite Shield",
+                name: "Doman Iron Kite Shield",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "High Steel Ingot",
                 "mat-3": "Koppranickel Ingot",
@@ -394,7 +394,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Coat of Fending",
+                name: "Tigerskin Coat of Fending",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Kudzu Cloth",
@@ -406,7 +406,7 @@ export const ArmorerLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Coat of Maiming",
+                name: "Tigerskin Coat of Maiming",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Kudzu Cloth",

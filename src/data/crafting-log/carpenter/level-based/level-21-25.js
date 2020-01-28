@@ -10,7 +10,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Yew Lumber",
+                name: "Yew Lumber",
                 "mat-1": "3 Yew Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Elm Velocity Bow",
+                name: "Elm Velocity Bow",
                 "mat-1": "Ash Shortbow",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Crow Feather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Yew Radical",
+                name: "Yew Radical",
                 "mat-1": "Yew Branch",
                 "mat-2": "Sunrise Tellin",
                 "mat-3": "Beastkin Blood",
@@ -46,7 +46,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Iron Guisarme",
+                name: "Iron Guisarme",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Animal Glue",
@@ -58,7 +58,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Mudstone Grinding Wheel",
+                name: "Mudstone Grinding Wheel",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Mudstone",
@@ -70,7 +70,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Elm Spinning Wheel",
+                name: "Elm Spinning Wheel",
                 "mat-1": "2 Elm Lumber",
                 "mat-2": "2 Iron Ingot",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Wrapped Elm Longbow",
+                name: "Wrapped Elm Longbow",
                 "mat-1": "Wrapped Maple Longbow",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Hard Leather",
@@ -94,7 +94,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Yew Crook",
+                name: "Yew Crook",
                 "mat-1": "Yew Lumber",
                 "mat-2": "Beastkin Blood",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Elm Pattens",
+                name: "Elm Pattens",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Hard Leather",
@@ -118,7 +118,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Walnut Lumber",
+                name: "Walnut Lumber",
                 "mat-1": "3 Walnut Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Initiate's Grinding Wheel",
+                name: "Initiate's Grinding Wheel",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Mudstone",
@@ -142,7 +142,7 @@ export const CarpenterLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Yew Fishing Rod",
+                name: "Yew Fishing Rod",
                 "mat-1": "Yew Lumber",
                 "mat-2": "Yew Branch",
                 "mat-3": "Iron Ingot",

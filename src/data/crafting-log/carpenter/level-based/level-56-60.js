@@ -10,7 +10,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Lumber",
+                name: "Hallowed Chestnut Lumber",
                 "mat-1": "Dark Chestnut Lumber",
                 "mat-2": "2 Hallowed Water",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Fork",
+                name: "Titanium Fork",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "3 Titanium Ingot",
                 "mat-3": "Dragon Leather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Composite Bow",
+                name: "Hallowed Chestnut Composite Bow",
                 "mat-1": "2 Hallowed Chestnut Lumber",
                 "mat-2": "Dark Chestnut Branch",
                 "mat-3": "2 Hardsilver Ingot",
@@ -46,7 +46,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Cloud Mica Grinding Wheel",
+                name: "Cloud Mica Grinding Wheel",
                 "mat-1": "2 Dark Chestnut Lumber",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Cloud Mica Whetstone",
@@ -58,7 +58,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dark Chestnut Spinning Wheel",
+                name: "Dark Chestnut Spinning Wheel",
                 "mat-1": "3 Dark Chestnut Lumber",
                 "mat-2": "2 Titanium Rivets",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Mask of Aiming",
+                name: "Hallowed Chestnut Mask of Aiming",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Spinel",
@@ -82,7 +82,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Mask of Casting",
+                name: "Hallowed Chestnut Mask of Casting",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Tourmaline",
@@ -94,7 +94,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Mask of Healing",
+                name: "Hallowed Chestnut Mask of Healing",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Turquoise",
@@ -106,7 +106,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Chestnut Fishing Rod",
+                name: "Hallowed Chestnut Fishing Rod",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "2 Dark Chestnut Branch",
                 "mat-3": "2 Hardsilver Ingot",
@@ -118,7 +118,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Chestnut Ring",
+                name: "Hallowed Chestnut Ring",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Birch Lumber",
+                name: "Birch Lumber",
                 "mat-1": "5 Birch Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Spear",
+                name: "Adamantite Spear",
                 "mat-1": "Birch Lumber",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "2 Aurum Regis Nugget",
@@ -154,7 +154,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Birch Longbow",
+                name: "Birch Longbow",
                 "mat-1": "Birch Lumber",
                 "mat-2": "2 Birch Branch",
                 "mat-3": "2 Adamantite Nugget",
@@ -166,7 +166,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Birch Signum",
+                name: "Birch Signum",
                 "mat-1": "Birch Lumber",
                 "mat-2": "2 Birch Branch",
                 "mat-3": "Chimerical Felt",
@@ -178,7 +178,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Hallowed Chestnut Armillae",
+                name: "Hallowed Chestnut Armillae",
                 "mat-1": "2 Hallowed Chestnut Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Dragonscale Grinding Wheel",
+                name: "Dragonscale Grinding Wheel",
                 "mat-1": "2 Birch Lumber",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "2 Dragon Scale",
@@ -202,7 +202,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Birch Spinning Wheel",
+                name: "Birch Spinning Wheel",
                 "mat-1": "3 Birch Lumber",
                 "mat-2": "2 Adamantite Rivets",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Hallowed Chestnut Necklace",
+                name: "Hallowed Chestnut Necklace",
                 "mat-1": "2 Hallowed Chestnut Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const CarpenterLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Blank Grade 3 Orchestrion Roll",
+                name: "Blank Grade 3 Orchestrion Roll",
                 "mat-1": "Red Moko Grass",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "Birch Log",

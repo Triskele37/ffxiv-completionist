@@ -1,5 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
-export const HealerRoleQuests = function(parentStorageKey) {
+
+export const Quest_Class_And_Job_Role_Healer = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.healer`;
 
     return {

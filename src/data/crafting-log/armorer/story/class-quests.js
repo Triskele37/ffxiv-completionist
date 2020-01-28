@@ -10,7 +10,7 @@ export const Armorer_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Paladin Mail",
+                name: "Paladin Mail",
                 "mat-1": "Plate Mail Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Titanium Kote",
+                name: "Titanium Kote",
                 "mat-1": "Kote Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Armorer_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Tournament Somen",
+                name: "Tournament Somen",
                 "mat-1": "Somen Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Armorer_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Lominsan Hara-ate",
+                name: "Lominsan Hara-ate",
                 "mat-1": "Hara-ate Materials",
                 "mat-2": "X",
                 "mat-3": "X",

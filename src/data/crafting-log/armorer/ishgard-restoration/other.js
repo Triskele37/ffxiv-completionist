@@ -10,7 +10,7 @@ export const Armorer_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Helm of Fending\n",
+                name: "Replica Sky Pirate's Helm of Fending\n",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "High Steel Nugget",
@@ -22,7 +22,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Helm of Maiming\n",
+                name: "Replica Sky Pirate's Helm of Maiming\n",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "High Steel Nugget",
@@ -34,7 +34,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Mask of Striking\n",
+                name: "Replica Sky Pirate's Mask of Striking\n",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Gagana Leather",
@@ -46,7 +46,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Mask of Scouting\n",
+                name: "Replica Sky Pirate's Mask of Scouting\n",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Gagana Leather",
@@ -58,7 +58,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Coat of Fending",
+                name: "Replica Sky Pirate's Coat of Fending",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Gagana Leather",
@@ -70,7 +70,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Coat of Maiming",
+                name: "Replica Sky Pirate's Coat of Maiming",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Gagana Leather",
@@ -82,7 +82,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gauntlets of Fending",
+                name: "Replica Sky Pirate's Gauntlets of Fending",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -94,7 +94,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gauntlets of Maiming",
+                name: "Replica Sky Pirate's Gauntlets of Maiming",
                 "mat-1": "2 Skysteel Ingot",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -106,7 +106,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rats Hook of Fending",
+                name: "Replica Sky Rats Hook of Fending",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -118,7 +118,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rats Hook of Maiming",
+                name: "Replica Sky Rats Hook of Maiming",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -130,7 +130,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rats Hook of Scouting",
+                name: "Replica Sky Rats Hook of Scouting",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -142,7 +142,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rats Hook of Healing",
+                name: "Replica Sky Rats Hook of Healing",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -154,7 +154,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Ironclad Boots of Striking",
+                name: "Replica Sky Rat Ironclad Boots of Striking",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Gagana Leather",
@@ -166,7 +166,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Ironclad Boots of Aiming",
+                name: "Replica Sky Rat Ironclad Boots of Aiming",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Gagana Leather",
@@ -178,7 +178,7 @@ export const Armorer_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Ironclad Boots of Casting",
+                name: "Replica Sky Rat Ironclad Boots of Casting",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Gagana Leather",

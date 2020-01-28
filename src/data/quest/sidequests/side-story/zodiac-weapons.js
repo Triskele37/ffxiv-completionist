@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ZodiacWeapons = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Zodiac_Weapons = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.zodiac-weapons`;
 
     return {

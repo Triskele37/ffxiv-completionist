@@ -11,13 +11,20 @@ export const ArmorerCraftingLogs = function(parentStorageKey) {
     return {
         name: "Armorer",
         storageKey,
-        subGroups: [
-            ArmorerLevelBased(storageKey),
-            ArmorerMasterRecipe(storageKey),
-            ArmorerStoryRecipe(storageKey),
-            ArmorerHousingRecipe(storageKey),
-            Armorer_IshgardRestoration_Recipe(storageKey),
-            Armorer_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groupsv
+        LevelBased: ArmorerLevelBased(storageKey),
+        MasterRecipes: ArmorerMasterRecipe(storageKey),
+        Story: ArmorerStoryRecipe(storageKey),
+        Housing: ArmorerHousingRecipe(storageKey),
+        IshgardRestoration: Armorer_IshgardRestoration_Recipe(storageKey),
+        Others: Armorer_Others(storageKey),
     };
 };

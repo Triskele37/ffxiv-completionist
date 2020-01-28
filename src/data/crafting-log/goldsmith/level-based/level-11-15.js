@@ -10,7 +10,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Copper Ear Cuffs",
+                name: "Copper Ear Cuffs",
                 "mat-1": "2 Copper Ingot",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Scepter",
+                name: "Bronze Scepter",
                 "mat-1": "Marbled Eye",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Amateur's Needle",
+                name: "Amateur's Needle",
                 "mat-1": "Bat Fang",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Sunstone",
+                name: "Sunstone",
                 "mat-1": "Raw Sunstone",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Danburite",
+                name: "Danburite",
                 "mat-1": "Raw Danburite",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Fluorite",
+                name: "Fluorite",
                 "mat-1": "Raw Fluorite",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Decorated Bone Staff",
+                name: "Decorated Bone Staff",
                 "mat-1": "Bone Staff",
                 "mat-2": "Soiled Femur",
                 "mat-3": "Bat Fang",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Sphene",
+                name: "Sphene",
                 "mat-1": "Raw Sphene",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Malachite",
+                name: "Malachite",
                 "mat-1": "Raw Malachite",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Lapis Lazuli",
+                name: "Lapis Lazuli",
                 "mat-1": "Raw Lapis Lazuli",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Brass Ingot",
+                name: "Brass Ingot",
                 "mat-1": "2 Copper Ingot",
                 "mat-2": "Zinc Ore",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Brass Cudgel",
+                name: "Brass Cudgel",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Marbled Eye",
                 "mat-3": "Brass Ingot",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Brass Spectacles",
+                name: "Brass Spectacles",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Clear Glass Lens",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Brass Rings",
+                name: "Brass Rings",
                 "mat-1": "Brass Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Fang Earrings",
+                name: "Fang Earrings",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Bat Fang",
                 "mat-3": "Hard Leather",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Brass Gorget",
+                name: "Brass Gorget",
                 "mat-1": "2 Brass Ingot",
                 "mat-2": "Hard Leather",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Brass Wristlets",
+                name: "Brass Wristlets",
                 "mat-1": "Brass Ingot",
                 "mat-2": "2 Brass Rings",
                 "mat-3": "X",

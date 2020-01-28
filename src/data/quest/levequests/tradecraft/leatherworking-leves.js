@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const LeatherworkingLeves = function(parentStorageKey) {
+export const Quest_Levequests_Leatherworking = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.leatherworking`;
 
     return {

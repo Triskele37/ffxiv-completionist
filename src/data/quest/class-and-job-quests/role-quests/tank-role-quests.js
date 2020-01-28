@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TankRoleQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Role_Tank = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.tank`;
 
     return {

@@ -10,7 +10,7 @@ export const Weaver_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Rope",
+                name: "Skybuilders' Rope",
                 "mat-1": "6 Skybuilders' Hemp",
                 "mat-2": "1 Straw",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Cloth",
+                name: "Skybuilders' Cloth",
                 "mat-1": "4 Skybuilders' Flax",
                 "mat-2": "4 Skybuilders' Spring Water",
                 "mat-3": "2 Fleece",
@@ -34,7 +34,7 @@ export const Weaver_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Broom",
+                name: "Skybuilders' Broom",
                 "mat-1": "6 Skybuilders' Straw",
                 "mat-2": "6 Skybuilders' Camphorwood Log",
                 "mat-3": "2 Ramie Thread",
@@ -46,7 +46,7 @@ export const Weaver_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' Gloves",
+                name: "Skybuilders' Gloves",
                 "mat-1": "6 Skybuilders' Cocoon",
                 "mat-2": "6 Skybuilders' Ruby Sea Water",
                 "mat-3": "6 Skybuilders' Vine",
@@ -58,7 +58,7 @@ export const Weaver_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Waterproof Sheet",
+                name: "Skybuilders' Waterproof Sheet",
                 "mat-1": "8 Skybuilders' Cotton Boll",
                 "mat-2": "8 Skybuilders' Highland Spring Water",
                 "mat-3": "8 Skybuilders' Resin",

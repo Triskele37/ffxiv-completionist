@@ -10,7 +10,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Cider Vinegar",
+                name: "Cider Vinegar",
                 "mat-1": "Faerie Apple",
                 "mat-2": "Mineral Water",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Lavender Oil",
+                name: "Lavender Oil",
                 "mat-1": "4 Lavender",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Meat Miq'abob",
+                name: "Meat Miq'abob",
                 "mat-1": "Dodo Tenderloin",
                 "mat-2": "Paprika",
                 "mat-3": "Ruby Tomato",
@@ -46,7 +46,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Dodo Omelette",
+                name: "Dodo Omelette",
                 "mat-1": "Dodo Egg",
                 "mat-2": "Smooth Butter",
                 "mat-3": "Aldgoat Milk",
@@ -58,7 +58,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Cottage Cheese",
+                name: "Cottage Cheese",
                 "mat-1": "Aldgoat Milk",
                 "mat-2": "Cider Vinegar",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Lentils and Chestnuts",
+                name: "Lentils and Chestnuts",
                 "mat-1": "Gridanian Chestnut",
                 "mat-2": "Lalafellin Lentil",
                 "mat-3": "Galago Mint",
@@ -82,7 +82,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Roasted Nopales",
+                name: "Roasted Nopales",
                 "mat-1": "Nopales",
                 "mat-2": "Table Salt",
                 "mat-3": "Blue Cheese",
@@ -94,7 +94,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Stone Soup",
+                name: "Stone Soup",
                 "mat-1": "Ragstone",
                 "mat-2": "Mineral Water",
                 "mat-3": "Coerthan Carrot",
@@ -106,7 +106,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Walnut Bread",
+                name: "Walnut Bread",
                 "mat-1": "Sunset Wheat Flour",
                 "mat-2": "Buffalo Milk",
                 "mat-3": "Table Salt",
@@ -118,7 +118,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Apple Tart",
+                name: "Apple Tart",
                 "mat-1": "Pie Dough",
                 "mat-2": "Faerie Apple",
                 "mat-3": "Chicken Egg",
@@ -130,7 +130,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Raw Oyster",
+                name: "Raw Oyster",
                 "mat-1": "Rothlyt Oyster",
                 "mat-2": "Sun Lemon",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Crab Ball",
+                name: "Crab Ball",
                 "mat-1": "3 Helmet Crab",
                 "mat-2": "Rye Flour",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Grilled Warmwater Trout",
+                name: "Grilled Warmwater Trout",
                 "mat-1": "Warmwater Trout",
                 "mat-2": "Table Salt",
                 "mat-3": "Garlean Garlic",
@@ -166,7 +166,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Antelope Stew",
+                name: "Antelope Stew",
                 "mat-1": "Antelope Shank",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "Wild Onion",
@@ -178,7 +178,7 @@ export const CulinarianLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Chicken and Mushrooms",
+                name: "Chicken and Mushrooms",
                 "mat-1": "Gil Bun",
                 "mat-2": "Chicken Breast",
                 "mat-3": "Smooth Butter",

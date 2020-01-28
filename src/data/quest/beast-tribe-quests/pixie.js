@@ -2,7 +2,7 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=22&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const PixieQuests = function(parentStorageKey) {
+export const Quest_Beast_Tribe_Pixie = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.pixie`;
 
     return {

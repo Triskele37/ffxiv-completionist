@@ -10,7 +10,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Growth Formula Kappa",
+                name: "Growth Formula Kappa",
                 "mat-1": "2 Hoptrap Leaf",
                 "mat-2": "2 Vampire Vine Sap",
                 "mat-3": "Underground Spring Water",
@@ -22,7 +22,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Refined Natron",
+                name: "Refined Natron",
                 "mat-1": "Extra Effervescent Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Grimoire",
+                name: "Zonureskin Grimoire",
                 "mat-1": "Enchanted Dimythrite Ink",
                 "mat-2": "2 Zonure Leather",
                 "mat-3": "Titanbronze Nugget",
@@ -46,7 +46,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Codex",
+                name: "Zonureskin Codex",
                 "mat-1": "Enchanted Dimythrite Ink",
                 "mat-2": "2 Zonure Leather",
                 "mat-3": "Titanbronze Nugget",
@@ -58,7 +58,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Cunning Craftsman's Syrup",
+                name: "Cunning Craftsman's Syrup",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Cubus Flesh",
                 "mat-3": "2 Light Gerbera",
@@ -70,7 +70,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Commanding Craftsman's Syrup",
+                name: "Commanding Craftsman's Syrup",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Hydrozoan Umbrella",
                 "mat-3": "2 Lime Basil",
@@ -82,7 +82,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Enchanted Dimuthrite Ink",
+                name: "Enchanted Dimuthrite Ink",
                 "mat-1": "3 Dimythrite Sand",
                 "mat-2": "Vampire Cup Vine",
                 "mat-3": "Underground Spring Water",
@@ -94,7 +94,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Grimoire",
+                name: "Dwarven Mythril Grimoire",
                 "mat-1": "Enchanted Dimythrite Ink",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Lignum Vitae Lumber",
@@ -106,7 +106,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Codex",
+                name: "Dwarven Mythril Codex",
                 "mat-1": "Enchanted Dimythrite Ink",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Lignum Vitae Lumber",
@@ -118,7 +118,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Tincture of Vitality",
+                name: "Tincture of Vitality",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Hydrozoan Umbrella",
                 "mat-3": "2 Lime Basil",
@@ -130,7 +130,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Tincture of Mind",
+                name: "Tincture of Mind",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Hydrozoan Umbrella",
                 "mat-3": "2 Tiger Lily",
@@ -142,7 +142,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Tincture of Strength",
+                name: "Tincture of Strength",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Cubus Flesh",
                 "mat-3": "2 Sweet Alyssum",
@@ -154,7 +154,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Tincture of Dexterity",
+                name: "Tincture of Dexterity",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Cubus Flesh",
                 "mat-3": "2 Light Gerbera",
@@ -166,7 +166,7 @@ export const AlchemistLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Tincture of Intelligence",
+                name: "Tincture of Intelligence",
                 "mat-1": "Underground Spring Water",
                 "mat-2": "2 Cubus Flesh",
                 "mat-3": "2 Fernleaf Lavender",

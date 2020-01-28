@@ -10,7 +10,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Tama-hagane Ingot",
+                name: "Tama-hagane Ingot",
                 "mat-1": "4 Doman Iron Sand",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Gauntlets of Fending",
+                name: "Doman Steel Gauntlets of Fending",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Tiger Leather",
@@ -34,7 +34,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Gauntlets of Maiming",
+                name: "Doman Steel Gauntlets of Maiming",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Tiger Leather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Gauntlets of Striking",
+                name: "Doman Steel Gauntlets of Striking",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Tiger Leather",
@@ -58,7 +58,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Gauntlets of Scouting",
+                name: "Doman Steel Gauntlets of Scouting",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Tiger Leather",
@@ -70,7 +70,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Greaves of Fending",
+                name: "Doman Steel Greaves of Fending",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Oroshigane Ingot",
@@ -82,7 +82,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Greaves of Maiming",
+                name: "Doman Steel Greaves of Maiming",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Durian Nugget",
@@ -94,7 +94,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Greaves of Striking",
+                name: "Doman Steel Greaves of Striking",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Durian Nugget",
@@ -106,7 +106,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Greaves of Scouting",
+                name: "Doman Steel Greaves of Scouting",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Oroshigane Ingot",
@@ -118,7 +118,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Alembic",
+                name: "Doman Steel Alembic",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Oroshigane Ingot",
@@ -130,7 +130,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Frypan Caliente",
+                name: "Doman Steel Frypan Caliente",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Oroshigane Ingot",
@@ -142,7 +142,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Shield",
+                name: "Doman Steel Shield",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Durian Nugget",
@@ -154,7 +154,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Armet of Fending",
+                name: "Doman Steel Armet of Fending",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Oroshigane Ingot",
@@ -166,7 +166,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Armet of Maiming",
+                name: "Doman Steel Armet of Maiming",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Durian Nugget",
@@ -178,7 +178,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Tabard of Fending",
+                name: "Doman Steel Tabard of Fending",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -190,7 +190,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Tabard of Maiming",
+                name: "Doman Steel Tabard of Maiming",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -202,7 +202,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Ingot",
+                name: "Molybdenum Ingot",
                 "mat-1": "4 Molybdenum Ore",
                 "mat-2": "Cobalt Ore",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Headgear of Fending",
+                name: "Molybdenum Headgear of Fending",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -226,7 +226,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Headgear of Maiming",
+                name: "Molybdenum Headgear of Maiming",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -238,7 +238,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Plate Belt of Fending",
+                name: "Molybdenum Plate Belt of Fending",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Durian Ingot",
@@ -250,7 +250,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Plate Belt of Maiming",
+                name: "Molybdenum Plate Belt of Maiming",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Durian Ingot",
@@ -262,7 +262,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Kite Shield",
+                name: "Molybdenum Kite Shield",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -274,7 +274,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Armguards of Maiming",
+                name: "Molybdenum Armguards of Maiming",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",
@@ -286,7 +286,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Armguards of Striking",
+                name: "Molybdenum Armguards of Striking",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",
@@ -298,7 +298,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Armguards of Scouting",
+                name: "Molybdenum Armguards of Scouting",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",
@@ -310,7 +310,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Greaves of Fending",
+                name: "Molybdenum Greaves of Fending",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Tama-hagane Ingot",
@@ -322,7 +322,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Alembic",
+                name: "Molybdenum Alembic",
                 "mat-1": "3 Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Tama-hagane Ingot",
@@ -334,7 +334,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Frypan",
+                name: "Molybdenum Frypan",
                 "mat-1": "3 Molybdenum Ingot",
                 "mat-2": "Zelkova Lunber",
                 "mat-3": "Tama-hagane Ingot",
@@ -346,7 +346,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Tassets of Fending",
+                name: "Molybdenum Tassets of Fending",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Durian Ingot",
@@ -358,7 +358,7 @@ export const ArmorerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Tassets of Maiming",
+                name: "Molybdenum Tassets of Maiming",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Durian Ingot",

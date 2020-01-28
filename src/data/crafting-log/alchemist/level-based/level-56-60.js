@@ -10,7 +10,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Hallowed Water",
+                name: "Hallowed Water",
                 "mat-1": "2 Abalathian Mistletoe",
                 "mat-2": "2 Abalathian Spring Water",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Chestnut Wand",
+                name: "Hallowed Chestnut Wand",
                 "mat-1": "Hallowed Chestnut Lumber",
                 "mat-2": "3  Growth Formula Epsilon",
                 "mat-3": "Hardsilver Ingot",
@@ -34,7 +34,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Grimoire",
+                name: "Dragonskin Grimoire",
                 "mat-1": "Enchanted Hardsilver Ink",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Hardsilver Ingot",
@@ -46,7 +46,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Codex",
+                name: "Dragonskin Codex",
                 "mat-1": "Enchanted Hardsilver Ink",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Hardsilver Ingot",
@@ -58,7 +58,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Growth Formula Zeta",
+                name: "Growth Formula Zeta",
                 "mat-1": "2 Red Quartz",
                 "mat-2": "3 Rue",
                 "mat-3": "Dhalmel Saliva",
@@ -70,7 +70,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Enchanted Aurum Regis Ink",
+                name: "Enchanted Aurum Regis Ink",
                 "mat-1": "4 Aurum Regis Sand",
                 "mat-2": "2 Dragon Blood",
                 "mat-3": "Abalathian Spring Water",
@@ -82,7 +82,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Book of Aurum Regis",
+                name: "Book of Aurum Regis",
                 "mat-1": "Enchanted Aurum Regis Ink",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Hardsilver Ingot",
@@ -94,7 +94,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Noble's Picatrix",
+                name: "Noble's Picatrix",
                 "mat-1": "Enchanted Aurum Regis Ink",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Hardsilver Ingot",
@@ -106,7 +106,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Scale Glue",
+                name: "Scale Glue",
                 "mat-1": "3 Dragon Scale",
                 "mat-2": "2 Drake Scales",
                 "mat-3": "2 Biast Scales",
@@ -118,7 +118,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Hakutaku Eye Cluster",
+                name: "Hakutaku Eye Cluster",
                 "mat-1": "Wooden Hakataku Eye",
                 "mat-2": "Burning Hakataku Eye",
                 "mat-3": "Earthen Hakataku Eye",
@@ -130,7 +130,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Potion of Harmony",
+                name: "Potion of Harmony",
                 "mat-1": "Lizard Tail",
                 "mat-2": "Reishi Mushroom",
                 "mat-3": "Pagos Spring Water",
@@ -142,7 +142,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Max-Potion",
+                name: "Max-Potion",
                 "mat-1": "Royal Mistletoe",
                 "mat-2": "Gem Marimo",
                 "mat-3": "Filtered Water",
@@ -154,7 +154,7 @@ export const AlchemistLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Max-Ether",
+                name: "Max-Ether",
                 "mat-1": "Royal Mistletoe",
                 "mat-2": "Gem Marimo",
                 "mat-3": "Filtered Water",

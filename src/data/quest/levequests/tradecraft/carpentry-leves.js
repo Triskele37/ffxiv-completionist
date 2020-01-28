@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const CarpentryLeves = function(parentStorageKey) {
+export const Quest_Levequests_Carpentry = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.carpentry`;
 
     return {

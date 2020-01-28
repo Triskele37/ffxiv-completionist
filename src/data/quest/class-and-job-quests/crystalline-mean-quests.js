@@ -1,4 +1,4 @@
-export const CrystallineMeanQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Crystalline_Mean = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.crystalline-mean`;
 
     return {

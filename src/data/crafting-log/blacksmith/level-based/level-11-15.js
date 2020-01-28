@@ -10,7 +10,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Amateur's Doming Hammer",
+                name: "Amateur's Doming Hammer",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Amateur's Head Knife",
+                name: "Amateur's Head Knife",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Ragstone Whetstone",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Bronze Awl",
+                name: "Bronze Awl",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Jellyfish Humours",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Amateur's Pickaxe",
+                name: "Amateur's Pickaxe",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Ash Lumber",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Bronze Scythe",
+                name: "Bronze Scythe",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Ragstone Whetstone",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Amateur's Saw",
+                name: "Amateur's Saw",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "Ash Lumber",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Ornamental Hammer",
+                name: "Bronze Ornamental Hammer",
                 "mat-1": "Amateur's Chaser Hammer",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Culinary Knife",
+                name: "Bronze Culinary Knife",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Ragstone Whetstone",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Sledgehammer",
+                name: "Bronze Sledgehammer",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Animal Glue",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Amateur's Hatchet",
+                name: "Amateur's Hatchet",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Bronze Spatha",
+                name: "Bronze Spatha",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Hard Leather",
                 "mat-3": "Ram Horn",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Bronze Knuckles",
+                name: "Bronze Knuckles",
                 "mat-1": "2 Bronze Ingot",
                 "mat-2": "Hard Leather",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Spiked Bronze Labrys",
+                name: "Spiked Bronze Labrys",
                 "mat-1": "3 Bronze Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Brass Daggers",
+                name: "Brass Daggers",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Maple Lumber",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Brass Head Knife",
+                name: "Brass Head Knife",
                 "mat-1": "Bronze Head Knife",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "Brass Ingot",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Iron Clapper",
+                name: "Iron Clapper",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Birdsbeak Hammer",
+                name: "Birdsbeak Hammer",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Ash Lumber",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Bronze Raising Hammer",
+                name: "Bronze Raising Hammer",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Bronze Plate",
                 "mat-3": "Ash Lumber",

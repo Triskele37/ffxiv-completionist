@@ -10,7 +10,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Opal",
+                name: "Opal",
                 "mat-1": "3 Raw Opal",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Cloud Mica Whetstone",
+                name: "Cloud Mica Whetstone",
                 "mat-1": "3 Cloud Mica",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hardsilver Ingot",
+                name: "Hardsilver Ingot",
                 "mat-1": "4 Hardsilver Ore",
                 "mat-2": "Hardsilver Nugget",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hardsilver Foil",
+                name: "Hardsilver Foil",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "2 Titanium Nugget",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragon Fang Needle",
+                name: "Dragon Fang Needle",
                 "mat-1": "Dragon Fang",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dark Chestnut Lumber",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragon Fang Earrings",
+                name: "Dragon Fang Earrings",
                 "mat-1": "2 Dragon Fang",
                 "mat-2": "Hardsilver Nugget",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Bracelet of Fending",
+                name: "Opal Bracelet of Fending",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Opal",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Bracelet of Slaying",
+                name: "Opal Bracelet of Slaying",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Opal",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Bracelet of Aiming",
+                name: "Opal Bracelet of Aiming",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Opal",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Bracelet of Casting",
+                name: "Opal Bracelet of Casting",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Opal",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Bracelet of Healing",
+                name: "Opal Bracelet of Healing",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Opal",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Ring of Fending",
+                name: "Opal Ring of Fending",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Ring of Slaying",
+                name: "Opal Ring of Slaying",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Ring of Aiming",
+                name: "Opal Ring of Aiming",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Ring of Casting",
+                name: "Opal Ring of Casting",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Opal Ring of Healing",
+                name: "Opal Ring of Healing",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Carnelian",
+                name: "Carnelian",
                 "mat-1": "3 Raw Carnelian",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hardsilver Pole",
+                name: "Hardsilver Pole",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Larimar",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hardsilver Planisphere",
+                name: "Hardsilver Planisphere",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Electrum Ingot",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Earrings of Fending",
+                name: "Opal Earrings of Fending",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "3 Opal",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Earrings of Slaying",
+                name: "Opal Earrings of Slaying",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "3 Opal",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Earrings of Aiming",
+                name: "Opal Earrings of Aiming",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "3 Opal",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Earrings of Casting",
+                name: "Opal Earrings of Casting",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "3 Opal",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Earrings of Healing",
+                name: "Opal Earrings of Healing",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "3 Opal",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hardsilver Earrings of Gathering",
+                name: "Hardsilver Earrings of Gathering",
                 "mat-1": "2 Hardsilver Ingot",
                 "mat-2": "Hallowed Water",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Choker of Fending",
+                name: "Opal Choker of Fending",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Dragon Leather",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Choker of Slaying",
+                name: "Opal Choker of Slaying",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Dragon Leather",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Choker of Aiming",
+                name: "Opal Choker of Aiming",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Dragon Leather",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Choker of Casting",
+                name: "Opal Choker of Casting",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Dragon Leather",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Opal Choker of Healing",
+                name: "Opal Choker of Healing",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Opal",
                 "mat-3": "Dragon Leather",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Nugget",
+                name: "Aurum Regis Nugget",
                 "mat-1": "5 Aurum Regis Sand",
                 "mat-2": "Gold Ore",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Rapier",
+                name: "Aurum Regis Rapier",
                 "mat-1": "2 Autum Regis Nugget",
                 "mat-2": "Hallowed Chestnut Lumber",
                 "mat-3": "2 Adamantite Nugget",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Earrings of Fending",
+                name: "Aurum Regis Earrings of Fending",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Gloaming Coral",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Earrings of Slaying",
+                name: "Aurum Regis Earrings of Slaying",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Gloaming Coral",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Earrings of Aiming",
+                name: "Aurum Regis Earrings of Aiming",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Gloaming Coral",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Earrings of Casting",
+                name: "Aurum Regis Earrings of Casting",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Gloaming Coral",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Earrings of Healing",
+                name: "Aurum Regis Earrings of Healing",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Gloaming Coral",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Bracelet of Fending",
+                name: "Aurum Regis Bracelet of Fending",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Bracelet of Slaying",
+                name: "Aurum Regis Bracelet of Slaying",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Bracelet of Aiming",
+                name: "Aurum Regis Bracelet of Aiming",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Bracelet of Casting",
+                name: "Aurum Regis Bracelet of Casting",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Aurum Regis Bracelet of Healing",
+                name: "Aurum Regis Bracelet of Healing",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Goblin Jig",
+                name: "Goblin Jig",
                 "mat-1": "Hardsilver Ingot",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Citrine",
+                name: "Citrine",
                 "mat-1": "3 Raw Citrine",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Cylinder",
+                name: "Aurum Regis Cylinder",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Longpole",
+                name: "Aurum Regis Longpole",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Birch Lumber",
                 "mat-3": "2 Wyrm Obsidian",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Orrery",
+                name: "Aurum Regis Orrery",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "2 Hardsilver Ingot",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Necklace of Fending",
+                name: "Aurum Regis Necklace of Fending",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Larimar",
                 "mat-3": "Crawler Silk",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Necklace of Slaying",
+                name: "Aurum Regis Necklace of Slaying",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Larimar",
                 "mat-3": "Crawler Silk",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Necklace of Aiming",
+                name: "Aurum Regis Necklace of Aiming",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Larimar",
                 "mat-3": "Crawler Silk",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Necklace of Casting",
+                name: "Aurum Regis Necklace of Casting",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Larimar",
                 "mat-3": "Crawler Silk",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Aurum Regis Necklace of Healing",
+                name: "Aurum Regis Necklace of Healing",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Larimar",
                 "mat-3": "Crawler Silk",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Griffin Talon Ring of Fending",
+                name: "Griffin Talon Ring of Fending",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Griffin Talon",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Griffin Talon Ring of Slaying",
+                name: "Griffin Talon Ring of Slaying",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Griffin Talon",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Griffin Talon Ring of Aiming",
+                name: "Griffin Talon Ring of Aiming",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Griffin Talon",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Griffin Talon Ring of Casting",
+                name: "Griffin Talon Ring of Casting",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Griffin Talon",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Griffin Talon Ring of Healing",
+                name: "Griffin Talon Ring of Healing",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Griffin Talon",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -694,7 +694,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chrysolite",
+                name: "Chrysolite",
                 "mat-1": "3 Raw Chrysolite",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",
@@ -706,7 +706,7 @@ export const GoldsmithLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Bladed Steel Jig",
+                name: "Bladed Steel Jig",
                 "mat-1": "Adamantite Nugget",
                 "mat-2": "Cloud Mica Whetstone",
                 "mat-3": "X",

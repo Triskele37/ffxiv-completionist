@@ -1,21 +1,28 @@
 import { QuestColumnConfig } from "../../columnConfigs";
-import { TankRoleQuests } from "./tank-role-quests";
-import { HealerRoleQuests } from "./healer-role-quests";
-import { PhysicalDPSQuests } from "./physical-dps-quests";
-import { MagicalDPSQuests } from "./magical-dps-quests";
 
-export const RoleQuests = function(parentStorageKey) {
+import { Quest_Class_And_Job_Role_Tank } from "./tank-role-quests";
+import { Quest_Class_And_Job_Role_Healer } from "./healer-role-quests";
+import { Quest_Class_And_Job_Role_Physical_DPS } from "./physical-dps-quests";
+import { Quest_Class_And_Job_Role_Magical_DPS } from "./magical-dps-quests";
+
+export const Quest_Class_And_Job_Role = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.role`;
 
     return {
         name: "Role",
         storageKey,
-        subGroups: [
-            TankRoleQuests(storageKey),
-            HealerRoleQuests(storageKey),
-            PhysicalDPSQuests(storageKey),
-            MagicalDPSQuests(storageKey),
+        groupKeys: [
+            "Tank",
+            "Healer",
+            "Physical_DPS",
+            "Magical_DPS",
         ],
+        // Groups
+        Tank: Quest_Class_And_Job_Role_Tank(storageKey),
+        Healer: Quest_Class_And_Job_Role_Healer(storageKey),
+        Physical_DPS: Quest_Class_And_Job_Role_Physical_DPS(storageKey),
+        Magical_DPS: Quest_Class_And_Job_Role_Magical_DPS(storageKey),
+        // Tasks
         columns: QuestColumnConfig,
         tasks: [
             {

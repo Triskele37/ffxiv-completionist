@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TalesFromTheShadows = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Tales_From_The_Shadows = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.tales-from-the-shadows`;
 
     return {

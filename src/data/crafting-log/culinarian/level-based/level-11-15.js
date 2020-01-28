@@ -10,7 +10,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Olive Oil",
+                name: "Olive Oil",
                 "mat-1": "4 Cinderfoot Olive",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Kukuru Powder",
+                name: "Kukuru Powder",
                 "mat-1": "2 Kukuru Bean",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Grilled Dodo",
+                name: "Grilled Dodo",
                 "mat-1": "Dodo Tenderloin",
                 "mat-2": "Table Salt",
                 "mat-3": "Garlean Garlic",
@@ -46,7 +46,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Tomato Sauce",
+                name: "Tomato Sauce",
                 "mat-1": "Ruby Tomato",
                 "mat-2": "Wild Onion",
                 "mat-3": "Garlean Garlic",
@@ -58,7 +58,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bubble Chocolate",
+                name: "Bubble Chocolate",
                 "mat-1": "Kukuru Powder",
                 "mat-2": "Kukuru Butter",
                 "mat-3": "Maple Sugar",
@@ -70,7 +70,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Pearl Chocolate",
+                name: "Pearl Chocolate",
                 "mat-1": "Kukuru Butter",
                 "mat-2": "Maple Sugar",
                 "mat-3": "Aldgoat Milk",
@@ -82,7 +82,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Mole Loaf",
+                name: "Mole Loaf",
                 "mat-1": "Mole Meat",
                 "mat-2": "Wild Onion",
                 "mat-3": "Flatbread",
@@ -94,7 +94,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Parsnip Salad",
+                name: "Parsnip Salad",
                 "mat-1": "Alpine Parsnip",
                 "mat-2": "Olive Oil",
                 "mat-3": "La Noscean Lettuce",
@@ -106,7 +106,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Gelatin",
+                name: "Gelatin",
                 "mat-1": "Bat Wing",
                 "mat-2": "Brass Loach",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Pie Dough",
+                name: "Pie Dough",
                 "mat-1": "Sunset Wheat Flour",
                 "mat-2": "Table Salt",
                 "mat-3": "Mineral Water",
@@ -130,7 +130,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Rabbit Pie",
+                name: "Rabbit Pie",
                 "mat-1": "Pie Dough",
                 "mat-2": "Coerthan Carrot",
                 "mat-3": "Marmot Meat",
@@ -142,7 +142,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Grilled Carp",
+                name: "Grilled Carp",
                 "mat-1": "Maiden Carp",
                 "mat-2": "Table Salt",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CulinarianLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Salt Cod",
+                name: "Salt Cod",
                 "mat-1": "Tiger Cod",
                 "mat-2": "Table Salt",
                 "mat-3": "X",

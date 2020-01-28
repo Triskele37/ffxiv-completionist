@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ChocoboSquare = function(parentStorageKey) {
+export const Quest_Sidequests_Ul_Dahn_Chocobo_Square = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.chocobo-square`;
 
     return {

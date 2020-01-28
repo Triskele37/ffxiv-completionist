@@ -10,7 +10,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "26",
-                "item": "Silver Scepter",
+                name: "Silver Scepter",
                 "mat-1": "Marbled Eye",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Brimston",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Silver Needle",
+                name: "Silver Needle",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Silver Earrings",
+                name: "Silver Earrings",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Horn Necklace",
+                name: "Horn Necklace",
                 "mat-1": "2 Antelope Horn",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Silver Ring",
+                name: "Silver Ring",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Silver Ring of Crafting",
+                name: "Silver Ring of Crafting",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Sunstone Earrings",
+                name: "Sunstone Earrings",
                 "mat-1": "2 Sunstone",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Danburite Earrings",
+                name: "Danburite Earrings",
                 "mat-1": "2 Danburite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Sunstone Choker",
+                name: "Sunstone Choker",
                 "mat-1": "Sunstone",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Danburite Choker",
+                name: "Danburite Choker",
                 "mat-1": "Danburite",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Sunstone Bracelet",
+                name: "Sunstone Bracelet",
                 "mat-1": "2 Sunstone",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Danburite Bracelet",
+                name: "Danburite Bracelet",
                 "mat-1": "2 Danburite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Sunstone Ring",
+                name: "Sunstone Ring",
                 "mat-1": "Sunstone",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Danburite Ring",
+                name: "Danburite Ring",
                 "mat-1": "Danburite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Chocobo Fly",
+                name: "Chocobo Fly",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Chocobo Feather",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Fluorite Earrings",
+                name: "Fluorite Earrings",
                 "mat-1": "2 Flourite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Lapis Lazuli Earrings",
+                name: "Lapis Lazuli Earrings",
                 "mat-1": "2 Lapiz Lazuli",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Fluorite Choker",
+                name: "Fluorite Choker",
                 "mat-1": "Flourite",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Lapis Lazuli Choker",
+                name: "Lapis Lazuli Choker",
                 "mat-1": "Lapiz Lazuli",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Fluorite Bracelet",
+                name: "Fluorite Bracelet",
                 "mat-1": "2 Flourite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Lapis Lazuli Bracelet",
+                name: "Lapis Lazuli Bracelet",
                 "mat-1": "2 Lapiz Lazuli",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Fluorite Ring",
+                name: "Fluorite Ring",
                 "mat-1": "Flourite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Lapis Lazuli Ring",
+                name: "Lapis Lazuli Ring",
                 "mat-1": "Lapiz Lazuli",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Sphene Earrings",
+                name: "Sphene Earrings",
                 "mat-1": "2 Sphene",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Sphene Choker",
+                name: "Sphene Choker",
                 "mat-1": "Sphene",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Sphene Bracelet",
+                name: "Sphene Bracelet",
                 "mat-1": "2 Sphene",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Sphene Ring",
+                name: "Sphene Ring",
                 "mat-1": "Sphene",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Cut Stone",
+                name: "Cut Stone",
                 "mat-1": "3 Granite",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Siltstone Whetstone",
+                name: "Siltstone Whetstone",
                 "mat-1": "2 Siltstone",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Malachite Earrings",
+                name: "Malachite Earrings",
                 "mat-1": "2 Malachite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Malachite Choker",
+                name: "Malachite Choker",
                 "mat-1": "Malachite",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Malachite Bracelet",
+                name: "Malachite Bracelet",
                 "mat-1": "2 Malachite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Malachite Ring",
+                name: "Malachite Ring",
                 "mat-1": "Malachite",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",

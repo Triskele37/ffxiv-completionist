@@ -10,7 +10,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Marid Leather",
+                name: "Marid Leather",
                 "mat-1": "3 Marid Hide",
                 "mat-2": "Persimmon Tannin",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Hood of Striking",
+                name: "Marid Leather Hood of Striking",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Hood of Scouting",
+                name: "Marid Leather Hood of Scouting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Gloves of Aiming",
+                name: "Marid Leather Gloves of Aiming",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Gloves of Casting",
+                name: "Marid Leather Gloves of Casting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Gloves of Healing",
+                name: "Marid Leather Gloves of Healing",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Belt of Fending",
+                name: "Marid Leather Belt of Fending",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Grade 1 Raisui of Vitality",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Belt of Maiming",
+                name: "Marid Leather Belt of Maiming",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "Grade 1 Raisui of Strength",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Corset of Aiming",
+                name: "Marid Leather Corset of Aiming",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Kudzu Thread",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Corset of Casting",
+                name: "Marid Leather Corset of Casting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Kudzu Thread",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Corset of Healing",
+                name: "Marid Leather Corset of Healing",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Kudzu Thread",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Tigerskin Belt of Gathering",
+                name: "Tigerskin Belt of Gathering",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Boots of Aiming",
+                name: "Marid Leather Boots of Aiming",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Tama-Hagane Ingot",
                 "mat-3": "Tiger Leather",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Boots of Casting",
+                name: "Marid Leather Boots of Casting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Tiger Leather",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Marid Leather Boots of Healing",
+                name: "Marid Leather Boots of Healing",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Tiger Leather",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Coat of Striking",
+                name: "Marid Leather Coat of Striking",
                 "mat-1": "3 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Kudzu Thread",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Coat of Scouting",
+                name: "Marid Leather Coat of Scouting",
                 "mat-1": "3 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Kudzu Thread",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Bolero of Crafting",
+                name: "Marid Leather Bolero of Crafting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Bolero of Gathering",
+                name: "Marid Leather Bolero of Gathering",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Gloves of Crafting",
+                name: "Marid Leather Gloves of Crafting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Gloves of Gathering",
+                name: "Marid Leather Gloves of Gathering",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Breeches of Fending",
+                name: "Marid Leather Breeches of Fending",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Breeches of Maiming",
+                name: "Marid Leather Breeches of Maiming",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Breeches of Striking",
+                name: "Marid Leather Breeches of Striking",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Breeches of Scouting",
+                name: "Marid Leather Breeches of Scouting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Tiger Leather",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Babouches of Crafting",
+                name: "Marid Leather Babouches of Crafting",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Babouches of Gathering",
+                name: "Marid Leather Babouches of Gathering",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Earrings",
+                name: "Marid Leather Earrings",
                 "mat-1": "Marid Leather",
                 "mat-2": "2 Durium Ingot",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Choker",
+                name: "Marid Leather Choker",
                 "mat-1": "Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Wristband",
+                name: "Marid Leather Wristband",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Ring",
+                name: "Marid Leather Ring",
                 "mat-1": "Marid Leather",
                 "mat-2": "Durium Ingot",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelle Leather",
+                name: "Gazelle Leather",
                 "mat-1": "3 Gazelle Hide",
                 "mat-2": "Persimmon Tannin",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Bracers of Fending",
+                name: "Gazelleskin Bracers of Fending",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Silk Thread",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Bracers of Healing",
+                name: "Gazelleskin Bracers of Healing",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Silk Thread",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Twinbelt of Striking",
+                name: "Gazelleskin Twinbelt of Striking",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Twinbelt of Scouting",
+                name: "Gazelleskin Twinbelt of Scouting",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Twinbelt of Aiming",
+                name: "Gazelleskin Twinbelt of Aiming",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Open-toe Boots of Maiming",
+                name: "Gazelleskin Open-toe Boots of Maiming",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Open-toe Boots of Striking",
+                name: "Gazelleskin Open-toe Boots of Striking",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Open-toe Boots of Scouting",
+                name: "Gazelleskin Open-toe Boots of Scouting",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -490,7 +490,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Boots of Aiming",
+                name: "Gazelleskin Boots of Aiming",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "Tama-Hagane Ingot",
@@ -502,7 +502,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Boots of Casting",
+                name: "Gazelleskin Boots of Casting",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "Tama-Hagane Ingot",
@@ -514,7 +514,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Boots of Healing",
+                name: "Gazelleskin Boots of Healing",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -526,7 +526,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Coat of Fending",
+                name: "Gazelleskin Coat of Fending",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -538,7 +538,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Corselet of Maiming",
+                name: "Gazelleskin Corselet of Maiming",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -550,7 +550,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Corselet of Striking",
+                name: "Gazelleskin Corselet of Striking",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -562,7 +562,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Corselet of Scouting",
+                name: "Gazelleskin Corselet of Scouting",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -574,7 +574,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Coat of Healing",
+                name: "Gazelleskin Coat of Healing",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -586,7 +586,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Armguards of Aiming",
+                name: "Gazelleskin Armguards of Aiming",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -598,7 +598,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Armguards of Casting",
+                name: "Gazelleskin Armguards of Casting",
                 "mat-1": "3 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -610,7 +610,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Brais of Maiming",
+                name: "Gazelleskin Brais of Maiming",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -622,7 +622,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Brais of Striking",
+                name: "Gazelleskin Brais of Striking",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -634,7 +634,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Gazelleskin Brais of Scouting",
+                name: "Gazelleskin Brais of Scouting",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -646,7 +646,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Gloves of Crafting",
+                name: "Gazelleskin Gloves of Crafting",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -658,7 +658,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Ringbelt of Striking",
+                name: "Gazelleskin Ringbelt of Striking",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Worsted Yarn",
@@ -670,7 +670,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Ringbelt of Scouting",
+                name: "Gazelleskin Ringbelt of Scouting",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Worsted Yarn",
@@ -682,7 +682,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Ringbelt of Aiming",
+                name: "Gazelleskin Ringbelt of Aiming",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Worsted Yarn",
@@ -694,7 +694,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Belt of Gathering",
+                name: "Gazelleskin Belt of Gathering",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "X",
@@ -706,7 +706,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Shoes",
+                name: "Gazelleskin Shoes",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Twinsilk",
                 "mat-3": "Silk Thread",
@@ -718,7 +718,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Fur-lined Gazelleskin Boots",
+                name: "Fur-lined Gazelleskin Boots",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -730,7 +730,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Earrings",
+                name: "Gazelleskin Earrings",
                 "mat-1": "Gazelle Leather",
                 "mat-2": "2 Palladium Nugget",
                 "mat-3": "X",
@@ -742,7 +742,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Choker",
+                name: "Gazelleskin Choker",
                 "mat-1": "Gazelle Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "Palladium Nugget",
@@ -754,7 +754,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Wristband",
+                name: "Gazelleskin Wristband",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "Palladium Nugget",
@@ -766,7 +766,7 @@ export const LeatherworkerLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Gazelleskin Ring",
+                name: "Gazelleskin Ring",
                 "mat-1": "Gazelle Leather",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "X",

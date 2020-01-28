@@ -7,9 +7,12 @@ export const WeaverStoryRecipe = function(parentStorageKey) {
     return {
         name: "Story Recipes",
         storageKey,
-        subGroups: [
-            Weaver_Story_ClassQuests(storageKey),
-            Weaver_Story_Crystarium(storageKey),
-        ]
+        groupKeys: [
+            "ClassQuests",
+            "CrystariumDeliveries"
+        ],
+        // Groups
+        ClassQuests: Weaver_Story_ClassQuests(storageKey),
+        CrystariumDeliveries: Weaver_Story_Crystarium(storageKey),
     };
 };

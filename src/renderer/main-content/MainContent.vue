@@ -3,9 +3,9 @@
         <!----------- Top-Level Summary ----------->
         <template v-if="!selectedGroup">
             <summary-line
-                v-for="subGroup in allData.subGroups"
-                :key="subGroup.name"
-                :group="subGroup"
+                v-for="groupKey in allData.groupKeys"
+                :key="allData[groupKey].name"
+                :group="allData[groupKey]"
             />
         </template>
         <!----------- Selected Custom Component ----------->
@@ -18,11 +18,11 @@
         </template>
         <!----------- Summary Mode - Summary & Task Table ----------->
         <template v-else>
-            <template v-if="selectedGroup.subGroups">
+            <template v-if="selectedGroup.groupKeys">
                 <summary-line
-                    v-for="subGroup in selectedGroup.subGroups"
-                    :key="subGroup.name"
-                    :group="subGroup"
+                    v-for="groupKey in selectedGroup.groupKeys"
+                    :key="selectedGroup[groupKey].name"
+                    :group="selectedGroup[groupKey]"
                 />
             </template>
 

@@ -10,7 +10,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Ovim Wool",
+                name: "Ovim Wool",
                 "mat-1": "3 Ovim Wool Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Yarn",
+                name: "Ovim Wool Yarn",
                 "mat-1": "4 Ovim Fleece",
                 "mat-2": " Refined Natron",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Ushanka of Aiming",
+                name: "Ovim Wool Ushanka of Aiming",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -46,7 +46,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Muffed Met of Casting",
+                name: "Ovim Wool Muffed Met of Casting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Ramie Thread",
@@ -58,7 +58,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Muffed Met of Healing",
+                name: "Ovim Wool Muffed Met of Healing",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Ramie Thread",
@@ -70,7 +70,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Jacket of Scouting",
+                name: "Ovim Wool Jacket of Scouting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": "2 Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -82,7 +82,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Tunic of Aiming",
+                name: "Ovim Wool Tunic of Aiming",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Zonure Leather",
@@ -94,7 +94,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Tunix of Casting",
+                name: "Ovim Wool Tunix of Casting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Zonure Leather",
@@ -106,7 +106,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Bottoms of Scouting",
+                name: "Ovim Wool Bottoms of Scouting",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": "2 Ovim Wool Yarn",
                 "mat-3": " Hardsilver Nugget",
@@ -118,7 +118,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Bottoms of Aiming",
+                name: "Ovim Wool Bottoms of Aiming",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -130,7 +130,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Bottoms of Casting",
+                name: "Ovim Wool Bottoms of Casting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Zonure Leather",
@@ -142,7 +142,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Ovim Wool Skirt of Healing",
+                name: "Ovim Wool Skirt of Healing",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": "2 Hardsilver Nugget",
@@ -154,7 +154,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Ushanka of Striking",
+                name: "Ovim Wool Ushanka of Striking",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -166,7 +166,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Turban of Crafting",
+                name: "Ovim Wool Turban of Crafting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Ovim Wool Yarn",
                 "mat-3": " Halgai Mane",
@@ -178,7 +178,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Turban of Gathering",
+                name: "Ovim Wool Turban of Gathering",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Ovim Wool Yarn",
                 "mat-3": " Halgai Mane",
@@ -190,7 +190,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Coat of Striking",
+                name: "Ovim Wool Coat of Striking",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Hardsilver Nugget",
@@ -202,7 +202,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Coat of Healing",
+                name: "Ovim Wool Coat of Healing",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Titanbronze Nugget",
                 "mat-3": " Hardsilver Nugget",
@@ -214,7 +214,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Bottoms of Fending",
+                name: "Ovim Wool Bottoms of Fending",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -226,7 +226,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Bottoms of Maiming",
+                name: "Ovim Wool Bottoms of Maiming",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -238,7 +238,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Skirt of Striking",
+                name: "Ovim Wool Skirt of Striking",
                 "mat-1": "3 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ramie Thread",
@@ -250,7 +250,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Gaskins of Crafting",
+                name: "Ovim Wool Gaskins of Crafting",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ovim Wool Yarn",
@@ -262,7 +262,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Ovim Wool Gaskins of Gathering",
+                name: "Ovim Wool Gaskins of Gathering",
                 "mat-1": "2 Ovim Wool",
                 "mat-2": " Zonure Leather",
                 "mat-3": " Ovim Wool Yarn",
@@ -274,7 +274,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton",
+                name: "Dwarven Cotton",
                 "mat-1": "3 Dwarven Cotton Thread",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Thread",
+                name: "Dwarven Cotton Thread",
                 "mat-1": "4 Dwarven Cotton Boll",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Petasos of Casting",
+                name: "Dwarven Cotton Petasos of Casting",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Halgai Mane",
@@ -310,7 +310,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Petasos of Healing",
+                name: "Dwarven Cotton Petasos of Healing",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Halgai Mane",
@@ -322,7 +322,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Gaskins of Fending",
+                name: "Dwarven Cotton Gaskins of Fending",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -334,7 +334,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Gaskins of Maiming",
+                name: "Dwarven Cotton Gaskins of Maiming",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -346,7 +346,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Gaskins of Striking",
+                name: "Dwarven Cotton Gaskins of Striking",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -358,7 +358,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Gaskins of Casting",
+                name: "Dwarven Cotton Gaskins of Casting",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -370,7 +370,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Cotton Gaskins of Healing",
+                name: "Dwarven Cotton Gaskins of Healing",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -382,7 +382,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Cotton Turban of Scouting",
+                name: "Dwarven Cotton Turban of Scouting",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Bright Linen Yarn",
                 "mat-3": " Halgai Mane",
@@ -394,7 +394,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Cotton Turban of Aiming",
+                name: "Dwarven Cotton Turban of Aiming",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Bright Linen Yarn",
                 "mat-3": " Halgai Mane",
@@ -406,7 +406,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarvem Cotton Gaskins of Scouting",
+                name: "Dwarvem Cotton Gaskins of Scouting",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -418,7 +418,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Cotton Gaskins of Aiming",
+                name: "Dwarven Cotton Gaskins of Aiming",
                 "mat-1": "3 Dwarven Cotton  ",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -430,7 +430,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Cotton Beret",
+                name: "Dwarven Cotton Beret",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Dwarven Cotton Thread",
@@ -442,7 +442,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Cotton Bandana",
+                name: "Dwarven Cotton Bandana",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Dwarven Mythril Nugget",
                 "mat-3": " Dwarven Cotton Thread",
@@ -454,7 +454,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Cotton Jacket",
+                name: "Dwarven Cotton Jacket",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Stonegold Nugget",
@@ -466,7 +466,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Cotton Trousers",
+                name: "Dwarven Cotton Trousers",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Sea Swallow Leather",
                 "mat-3": " Dwarven Cotton Thread",
@@ -478,7 +478,7 @@ export const WeaverLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Cotton Breeches",
+                name: "Dwarven Cotton Breeches",
                 "mat-1": "2 Dwarven Cotton",
                 "mat-2": " Dwarven Mythril Nugget",
                 "mat-3": " Dwarven Cotton Thread",

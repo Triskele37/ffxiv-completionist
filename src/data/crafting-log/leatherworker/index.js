@@ -11,13 +11,20 @@ export const LeatherworkerCraftingLogs = function(parentStorageKey) {
     return {
         name: "Leatherworker",
         storageKey,
-        subGroups: [
-            LeatherworkerLevelBased(storageKey),
-            LeatherworkerMasterRecipe(storageKey),
-            LeatherworkerStoryRecipe(storageKey),
-            LeatherworkerHousingRecipe(storageKey),
-            Leatherworker_IshgardRestoration_Recipe(storageKey),
-            Leatherworker_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groups
+        LevelBased: LeatherworkerLevelBased(storageKey),
+        MasterRecipes: LeatherworkerMasterRecipe(storageKey),
+        Story: LeatherworkerStoryRecipe(storageKey),
+        Housing: LeatherworkerHousingRecipe(storageKey),
+        IshgardRestoration: Leatherworker_IshgardRestoration_Recipe(storageKey),
+        Others: Leatherworker_Others(storageKey),
     };
 };

@@ -10,7 +10,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Deepgold Nugget",
+                name: "Deepgold Nugget",
                 "mat-1": "4 Truegold Sand",
                 "mat-2": "Copper Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Alembic",
+                name: "Deepgold Alembic",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Rail Frypan",
+                name: "Deepgold Rail Frypan",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Kite Shield",
+                name: "Deepgold Kite Shield",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Oroshigane Ingot",
@@ -58,7 +58,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Helm of Fending",
+                name: "Deepgold Helm of Fending",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Oroshigane Ingot",
@@ -70,7 +70,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Mask of Scouting",
+                name: "Deepgold Mask of Scouting",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -82,7 +82,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Cuirass of Fending",
+                name: "Deepgold Cuirass of Fending",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Bright Linen Cloth",
@@ -94,7 +94,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Gauntlets of Fending",
+                name: "Deepgold Gauntlets of Fending",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Marid Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Fending",
+                name: "Deepgold Plate Belt of Fending",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -118,7 +118,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Maiming",
+                name: "Deepgold Plate Belt of Maiming",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -130,7 +130,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Striking",
+                name: "Deepgold Plate Belt of Striking",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -142,7 +142,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Scouting",
+                name: "Deepgold Plate Belt of Scouting",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -154,7 +154,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Aiming",
+                name: "Deepgold Plate Belt of Aiming",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -166,7 +166,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Casting",
+                name: "Deepgold Plate Belt of Casting",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -178,7 +178,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Plate Belt of Healing",
+                name: "Deepgold Plate Belt of Healing",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Kudzu Cloth",
@@ -190,7 +190,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Sollerets of Fending",
+                name: "Deepgold Sollerets of Fending",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Marid Leather",
@@ -202,7 +202,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Ingot",
+                name: "Deepgold Ingot",
                 "mat-1": "4 Truegold Ore",
                 "mat-2": "Copper Ore",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Wings of Fending",
+                name: "Deepgold Wings of Fending",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "2 Wildfowl Feather",
@@ -226,7 +226,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Gloves of Fending",
+                name: "Deepgold Gloves of Fending",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Green Glider Leather",
                 "mat-3": "Silk Thread",
@@ -238,7 +238,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Gauntlets of Maiming",
+                name: "Deepgold Gauntlets of Maiming",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -250,7 +250,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Fending",
+                name: "Deepgold Tassets of Fending",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -262,7 +262,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Maiming",
+                name: "Deepgold Tassets of Maiming",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -274,7 +274,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Striking",
+                name: "Deepgold Tassets of Striking",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -286,7 +286,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Scouting",
+                name: "Deepgold Tassets of Scouting",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -298,7 +298,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Aiming",
+                name: "Deepgold Tassets of Aiming",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -310,7 +310,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Casting",
+                name: "Deepgold Tassets of Casting",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -322,7 +322,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Tassets of Healing",
+                name: "Deepgold Tassets of Healing",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -334,7 +334,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Sollerets of Maiming",
+                name: "Deepgold Sollerets of Maiming",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Green Glider Leather",
                 "mat-3": "Cobalt Ingot",
@@ -346,7 +346,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Shield",
+                name: "Deepgold Shield",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Cobalt Ingot",
@@ -358,7 +358,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Mail of Fending",
+                name: "Deepgold Mail of Fending",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Green Glider Leather",
@@ -370,7 +370,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deephold Surcoat of Maiming",
+                name: "Deephold Surcoat of Maiming",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Green Glider Leather",
@@ -382,7 +382,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Tile",
+                name: "Bluespirit Tile",
                 "mat-1": "4 Bluespirit Ore",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Helm of Fending",
+                name: "Bluespirit Helm of Fending",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -406,7 +406,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Helm of Maiming",
+                name: "Bluespirit Helm of Maiming",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -418,7 +418,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Headgear of Casting",
+                name: "Bluespirit Headgear of Casting",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Pixie Floss",
@@ -430,7 +430,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Gauntlets of Fending",
+                name: "Bluespirit Gauntlets of Fending",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -442,7 +442,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Gauntlets of Maiming",
+                name: "Bluespirit Gauntlets of Maiming",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -454,7 +454,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Fending",
+                name: "Bluespirit Plate Belt of Fending",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -466,7 +466,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Maiming",
+                name: "Bluespirit Plate Belt of Maiming",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -478,7 +478,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Striking",
+                name: "Bluespirit Plate Belt of Striking",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -490,7 +490,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Scouting",
+                name: "Bluespirit Plate Belt of Scouting",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -502,7 +502,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Aiming",
+                name: "Bluespirit Plate Belt of Aiming",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -514,7 +514,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Casting",
+                name: "Bluespirit Plate Belt of Casting",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -526,7 +526,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Plate Belt of Healing",
+                name: "Bluespirit Plate Belt of Healing",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -538,7 +538,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Sabatons of Fending",
+                name: "Bluespirit Sabatons of Fending",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -550,7 +550,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Sabatons of Maiming",
+                name: "Bluespirit Sabatons of Maiming",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -562,7 +562,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Sabatons of Casting",
+                name: "Bluespirit Sabatons of Casting",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -574,7 +574,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Alembic",
+                name: "Bluespirit Alembic",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "X",
@@ -586,7 +586,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Porxie Frypan",
+                name: "Bluespirit Porxie Frypan",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -598,7 +598,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Tower Shield",
+                name: "Bluespirit Tower Shield",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -610,7 +610,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Cuirass Fending",
+                name: "Bluespirit Cuirass Fending",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -622,7 +622,7 @@ export const ArmorerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Cuirass Maiming",
+                name: "Bluespirit Cuirass Maiming",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Atrociraptor Leather",
                 "mat-3": "Rose Gold Nugget",

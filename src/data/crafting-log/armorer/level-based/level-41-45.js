@@ -10,7 +10,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Mythril Barbut",
+                name: "Mythril Barbut",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mythril Plate",
                 "mat-3": "Steel Plate",
@@ -22,7 +22,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Vambraces",
+                name: "Mythril Vambraces",
                 "mat-1": "Mythril Plate",
                 "mat-2": "Peiste Leather",
                 "mat-3": "Boar Leather",
@@ -34,7 +34,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril-plated Jackboots",
+                name: "Mythril-plated Jackboots",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mythril Plate",
                 "mat-3": "Boar Leather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Vintage Scale Mail",
+                name: "Vintage Scale Mail",
                 "mat-1": "Blackened Scale Mail",
                 "mat-2": "Iron Plate",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Cobalt Ingot",
+                name: "Cobalt Ingot",
                 "mat-1": "2 Cobalt Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Electrum Alembic",
+                name: "Electrum Alembic",
                 "mat-1": "Mythril Alembic",
                 "mat-2": "2 Electrum Ingot",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Mesail",
+                name: "Mythril Mesail",
                 "mat-1": "Mythril Plate",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Aldgoat Leather",
@@ -94,7 +94,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Chain Coif",
+                name: "Mythril Chain Coif",
                 "mat-1": "Mythril Plate",
                 "mat-2": "2 Mythril Rings",
                 "mat-3": "Aldgoat Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Haubergeon",
+                name: "Mythril Haubergeon",
                 "mat-1": "Steel Plate",
                 "mat-2": "3 Mythril Rings",
                 "mat-3": "Aldgoat Leather",
@@ -118,7 +118,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril-plated Caligae",
+                name: "Mythril-plated Caligae",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Mythril Plate",
                 "mat-3": "Mythril Rivets",
@@ -130,7 +130,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Sollerets",
+                name: "Mythril Sollerets",
                 "mat-1": "Mythril Plate",
                 "mat-2": "2 Mythril Rings",
                 "mat-3": "Aldgoat Leather",
@@ -142,7 +142,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Plate",
+                name: "Cobalt Plate",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Rings",
+                name: "Cobalt Rings",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Skillet",
+                name: "Cobalt Skillet",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Mythril Mitt Gauntlets",
+                name: "Mythril Mitt Gauntlets",
                 "mat-1": "Mythril Plate",
                 "mat-2": "Steel Plate",
                 "mat-3": "Mythril Rivets",
@@ -190,7 +190,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "High Mythril Gauntlets",
+                name: "High Mythril Gauntlets",
                 "mat-1": "3 Mythril Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "High Mythril Plate Belt",
+                name: "High Mythril Plate Belt",
                 "mat-1": "3 Mythril Plate",
                 "mat-2": "Peiste Leather",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "High Mythril Flanchard",
+                name: "High Mythril Flanchard",
                 "mat-1": "3 Mythril Ingot",
                 "mat-2": "2 Cobalt Rings",
                 "mat-3": "Raptor Leather",
@@ -226,7 +226,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Vintage Buckler",
+                name: "Vintage Buckler",
                 "mat-1": "Notched Buckler",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Rivets",
+                name: "Cobalt Rivets",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Joint Plate",
+                name: "Cobalt Joint Plate",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Scutum",
+                name: "Cobalt Scutum",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "3 Cobalt Rivets",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Reinforced Mythril Elmo",
+                name: "Reinforced Mythril Elmo",
                 "mat-1": "Mythril Elmo",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Peiste Leather",
@@ -286,7 +286,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Altered Mythril Chain Coif",
+                name: "Altered Mythril Chain Coif",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Peiste Leather",
@@ -298,7 +298,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "High Mythril Armor",
+                name: "High Mythril Armor",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "4 Mythril Plate",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Altered High Mythril Armor",
+                name: "Altered High Mythril Armor",
                 "mat-1": "4 Mythril Plate",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Vambraces",
+                name: "Cobalt Vambraces",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Boar Leather",
@@ -334,7 +334,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt Elmo",
+                name: "Cobalt Elmo",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "3 Cobalt Rivets",
                 "mat-3": "Raptor Leather",
@@ -346,7 +346,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Altered Cobalt Elmo",
+                name: "Altered Cobalt Elmo",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Cobalt Rivets",
                 "mat-3": "Raptor Leather",
@@ -358,7 +358,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Tortoiseshell Scale Mail",
+                name: "Tortoiseshell Scale Mail",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Boar Leather",
@@ -370,7 +370,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Tortoiseshell Scale Fingers",
+                name: "Tortoiseshell Scale Fingers",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Adamantoise Shell",
@@ -382,7 +382,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt-plated Jackboots",
+                name: "Cobalt-plated Jackboots",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Raptor Leather",
@@ -394,7 +394,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Tortoiseshell Scale Greaves",
+                name: "Tortoiseshell Scale Greaves",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "Adamantoise Shell",
@@ -406,7 +406,7 @@ export const ArmorerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Vintage Kite Shield",
+                name: "Vintage Kite Shield",
                 "mat-1": "Scarred Kite Shield",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Mahogany Lumber",

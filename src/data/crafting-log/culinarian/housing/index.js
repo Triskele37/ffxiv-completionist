@@ -7,9 +7,12 @@ export const CulinarianHousingRecipe = function(parentStorageKey) {
     return {
         name: "Housing Recipes",
         storageKey,
-        subGroups: [
-            Culinarian_Housing_1(storageKey),
-            Culinarian_Housing_2(storageKey),
-        ]
+        groupKeys: [
+            "Housing_1",
+            "Housing_2",
+        ],
+        // Groups
+        Housing_1: Culinarian_Housing_1(storageKey),
+        Housing_2: Culinarian_Housing_2(storageKey),
     };
 };

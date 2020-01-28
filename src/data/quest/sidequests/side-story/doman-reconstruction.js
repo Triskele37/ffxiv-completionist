@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DomanReconstruction = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Doman_Reconstruction = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.doman-reconstruction`;
 
     return {

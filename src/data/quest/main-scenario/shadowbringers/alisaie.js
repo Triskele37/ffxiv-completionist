@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlisaieQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Shadowbringers_Alisaie = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.alisaie`;
 
     return {

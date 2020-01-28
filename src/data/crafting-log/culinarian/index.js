@@ -10,12 +10,18 @@ export const CulinarianCraftingLogs = function(parentStorageKey) {
     return {
         name: "Culinarian",
         storageKey,
-        subGroups: [
-            CulinarianLevelBased(storageKey),
-            CulinarianMasterRecipe(storageKey),
-            CulinarianStoryRecipe(storageKey),
-            CulinarianHousingRecipe(storageKey),
-            Culinarian_IshgardRestoration_Recipe(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
         ],
+        // Groups
+        LevelBased: CulinarianLevelBased(storageKey),
+        MasterRecipes: CulinarianMasterRecipe(storageKey),
+        Story: CulinarianStoryRecipe(storageKey),
+        Housing: CulinarianHousingRecipe(storageKey),
+        IshgardRestoration: Culinarian_IshgardRestoration_Recipe(storageKey),
     };
 };

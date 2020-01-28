@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GridaniaStartingQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Seventh_Umbral_Era_Gridania = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.gridania`;
 
     return {

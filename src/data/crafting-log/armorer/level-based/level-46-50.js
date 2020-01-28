@@ -10,7 +10,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Cobalt Barbut",
+                name: "Cobalt Barbut",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Steel Plate",
@@ -22,7 +22,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Cobalt-plated Caligae",
+                name: "Cobalt-plated Caligae",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -34,7 +34,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Vintage Haubergeon",
+                name: "Vintage Haubergeon",
                 "mat-1": "Ripped Haubergeon",
                 "mat-2": "Iron Rings",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Hells' Kitchen",
+                name: "Hells' Kitchen",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Mosshorn Scale Mail",
+                name: "Mosshorn Scale Mail",
                 "mat-1": "Iron Plate",
                 "mat-2": "2 Mossy Horn",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Cobalt Mitt Gauntlets",
+                name: "Cobalt Mitt Gauntlets",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "Steel Plate",
                 "mat-3": "Cobalt Rivets",
@@ -82,7 +82,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Bladed Lantern Shield",
+                name: "Cobalt Bladed Lantern Shield",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Tallow Candle",
@@ -94,7 +94,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Mesail",
+                name: "Cobalt Mesail",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Cobalt Rivets",
                 "mat-3": "Boar Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Sallet",
+                name: "Cobalt Sallet",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -118,7 +118,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Thermal Alembic",
+                name: "Thermal Alembic",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -130,7 +130,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Kite Shield",
+                name: "Kite Shield",
                 "mat-1": "Iron Ingot",
                 "mat-2": "3 Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -142,7 +142,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Chain Coif",
+                name: "Cobalt Chain Coif",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "2 Cobalt Rings",
                 "mat-3": "Boar Leather",
@@ -154,7 +154,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Celata",
+                name: "Cobalt Celata",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "Mythril Rings",
@@ -166,7 +166,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Mask",
+                name: "Cobalt Mask",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "Electrum Ingot",
@@ -178,7 +178,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Haubergeon",
+                name: "Cobalt Haubergeon",
                 "mat-1": "Mythril Plate",
                 "mat-2": "3 Cobalt Rings",
                 "mat-3": "Boar Leather",
@@ -190,7 +190,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Cuirass",
+                name: "Cobalt Cuirass",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "Mythril Rings",
@@ -202,7 +202,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Altered Cobalt Cuirass",
+                name: "Altered Cobalt Cuirass",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "Electrum Ingot",
@@ -214,7 +214,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Gauntlets",
+                name: "Cobalt Gauntlets",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "Cobalt Rings",
@@ -226,7 +226,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Altered Cobolt Gauntlets",
+                name: "Altered Cobolt Gauntlets",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "Boar Leather",
@@ -238,7 +238,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Plate Belt",
+                name: "Cobalt Plate Belt",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Boar Leather",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Sollerets",
+                name: "Cobalt Sollerets",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "2 Cobalt Rings",
                 "mat-3": "Boar Leather",
@@ -262,7 +262,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Cobalt Sabatons",
+                name: "Cobalt Sabatons",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "Cobalt Rings",
@@ -274,7 +274,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Altered Cobalt Sabatons",
+                name: "Altered Cobalt Sabatons",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "Boar Leather",
@@ -286,7 +286,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Wind-up Dullahan",
+                name: "Wind-up Dullahan",
                 "mat-1": "3 Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Nugget",
+                name: "Darksteel Nugget",
                 "mat-1": "3 Darksteel Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Plate",
+                name: "Darksteel Plate",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Rings",
+                name: "Darksteel Rings",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Rivets",
+                name: "Darksteel Rivets",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Armet",
+                name: "Militia Armet",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Barbut",
+                name: "Militia Barbut",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Plate",
@@ -370,7 +370,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Cuirass",
+                name: "Militia Cuirass",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Gauntlets",
+                name: "Militia Gauntlets",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "Hippogryph Leather",
@@ -394,7 +394,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Mitt Gauntlets",
+                name: "Militia Mitt Gauntlets",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -406,7 +406,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Sabatons",
+                name: "Militia Sabatons",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Rings",
                 "mat-3": "Hippogryph Leather",
@@ -418,7 +418,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Armorer's Visor",
+                name: "Armorer's Visor",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Hippogryph Leather",
@@ -430,7 +430,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Hamlet Digger's Helmet",
+                name: "Hamlet Digger's Helmet",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Blacksmith's Workboots",
+                name: "Blacksmith's Workboots",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Hippogryph Sinew",
@@ -454,7 +454,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Ingot",
+                name: "Darksteel Ingot",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "9 Coke",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Couters",
+                name: "Darksteel Couters",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Dark Steel Rivets",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Breastplate",
+                name: "Darksteel Breastplate",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Dark Steel Rivets",
                 "mat-3": "X",
@@ -490,7 +490,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Gauntlet Plates",
+                name: "Darksteel Gauntlet Plates",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Dark Steel Rivets",
                 "mat-3": "X",
@@ -502,7 +502,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Scutum",
+                name: "Darksteel Scutum",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2  Darksteel Plate",
                 "mat-3": "3 Darksteel Rivets",
@@ -514,7 +514,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Buckler",
+                name: "Darksteel Buckler",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Darksteel Plate",
@@ -526,7 +526,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Chain Coif",
+                name: "Darksteel Chain Coif",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -538,7 +538,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Haubergeon",
+                name: "Darksteel Haubergeon",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Garlean Steel Plate",
                 "mat-3": "Darksteel Rings",
@@ -550,7 +550,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Heavy Darksteel Armor",
+                name: "Heavy Darksteel Armor",
                 "mat-1": "Darksteel Breastplate",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Rose Gold Nugget",
@@ -562,7 +562,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Light Steel Galerus",
+                name: "Light Steel Galerus",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Light Steel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -574,7 +574,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Mitt Gauntlets",
+                name: "Darksteel Mitt Gauntlets",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Darksteel Plate",
@@ -586,7 +586,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Heavy Darksteel Gauntlets",
+                name: "Heavy Darksteel Gauntlets",
                 "mat-1": "Darksteel Gauntlet Plates",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Rose Gold Nugget",
@@ -598,7 +598,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Tassets",
+                name: "Darksteel Tassets",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2  Darksteel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -610,7 +610,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Heavy Darksteel Flanchard",
+                name: "Heavy Darksteel Flanchard",
                 "mat-1": "Darksteel Couters",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Rose Gold Nugget",
@@ -622,7 +622,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Light Steel Subligar",
+                name: "Light Steel Subligar",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Light Steel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -634,7 +634,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Sollerets",
+                name: "Darksteel Sollerets",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2  Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -646,7 +646,7 @@ export const ArmorerLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tidal Barding",
+                name: "Tidal Barding",
                 "mat-1": "Leviathan's Barb",
                 "mat-2": "Gold Ingot",
                 "mat-3": "Darksteel Plate",

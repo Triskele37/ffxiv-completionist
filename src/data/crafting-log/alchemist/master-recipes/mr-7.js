@@ -10,7 +10,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★★",
-                "item": "Grade 2 Strength Alkahest",
+                name: "Grade 2 Strength Alkahest",
                 "mat-1": "2 Multifaceted Alchemic",
                 "mat-2": "Sweet Alyssum",
                 "mat-3": "3 Agedeep Aethersand",
@@ -22,7 +22,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Dexterity Alkahest",
+                name: "Grade 2 Dexterity Alkahest",
                 "mat-1": "2 Multifaceted Alchemic",
                 "mat-2": "Light Gerbera",
                 "mat-3": "3 Agedeep Aethersand",
@@ -34,7 +34,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Vitality Alkahest",
+                name: "Grade 2 Vitality Alkahest",
                 "mat-1": "2 Multifaceted Alchemic",
                 "mat-2": "Lime Basil",
                 "mat-3": "3 Agedeep Aethersand",
@@ -46,7 +46,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Intelligent Alkahest",
+                name: "Grade 2 Intelligent Alkahest",
                 "mat-1": "2 Multifaceted Alchemic",
                 "mat-2": "Fernleaf Lavender",
                 "mat-3": "3 Agedeep Aethersand",
@@ -58,7 +58,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Mind Alkahest",
+                name: "Grade 2 Mind Alkahest",
                 "mat-1": "2 Multifaceted Alchemic",
                 "mat-2": "Tiger Lily",
                 "mat-3": "3 Agedeep Aethersand",
@@ -70,7 +70,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Pliable Glass Fiber",
+                name: "Pliable Glass Fiber",
                 "mat-1": "3 Sandalwood Sap",
                 "mat-2": "Sublime Solution",
                 "mat-3": "Scuroglow Aethersand",
@@ -82,7 +82,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Galdrabok",
+                name: "Galdrabok",
                 "mat-1": "2 Sandalwood Lumber",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Enchanted Dimythrite Ink",
@@ -94,7 +94,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Pragmatism",
+                name: "Pragmatism",
                 "mat-1": "Sandalwood Lumber",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "2 Chalicotherium Leather",
@@ -106,7 +106,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Tincture of Strength",
+                name: "Grade 2 Tincture of Strength",
                 "mat-1": "Multifaceted Alchemic",
                 "mat-2": "Sweet Alyssum",
                 "mat-3": "3 Scuroglow Aethersand",
@@ -118,7 +118,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Tincture of Dexterity",
+                name: "Grade 2 Tincture of Dexterity",
                 "mat-1": "Multifaceted Alchemic",
                 "mat-2": "Light Gerbera",
                 "mat-3": "3 Scuroglow Aethersand",
@@ -130,7 +130,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Tincture of Vitality",
+                name: "Grade 2 Tincture of Vitality",
                 "mat-1": "Multifaceted Alchemic",
                 "mat-2": "Lime Basil",
                 "mat-3": "3 Scuroglow Aethersand",
@@ -142,7 +142,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Tincture of Intelligence",
+                name: "Grade 2 Tincture of Intelligence",
                 "mat-1": "Multifaceted Alchemic",
                 "mat-2": "Fernleaf Lavender",
                 "mat-3": "3 Scuroglow Aethersand",
@@ -154,7 +154,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Grade 2 Tincture of Mind",
+                name: "Grade 2 Tincture of Mind",
                 "mat-1": "Multifaceted Alchemic",
                 "mat-2": "Tiger Lily",
                 "mat-3": "3 Scuroglow Aethersand",
@@ -166,7 +166,7 @@ export const Alchemist_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Invincible Orchestrion Roll",
+                name: "Invincible Orchestrion Roll",
                 "mat-1": "Blank Grade 3 Orchestrion Roll",
                 "mat-2": "Enchanged Dimythrite Ink",
                 "mat-3": "Faded Copy of Invincible",

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const OrderOfTheTwinAdderQuests = function(parentStorageKey) {
+export const Quest_Other_Grand_Company_Order_Of_The_Twin_Adder = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.twin-adder`;
 
     return {

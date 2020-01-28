@@ -10,7 +10,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "6",
-                "item": "Ragstone Whetstone",
+                name: "Ragstone Whetstone",
                 "mat-1": "2 Ragstone",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Copper Earrings",
+                name: "Copper Earrings",
                 "mat-1": "Copper Ingot",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Copper Ring",
+                name: "Copper Ring",
                 "mat-1": "Copper Ingot",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Bone Ring",
+                name: "Bone Ring",
                 "mat-1": "Bone Chip",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Copper Needle",
+                name: "Copper Needle",
                 "mat-1": "Copper Ingot",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Bone Necklace",
+                name: "Bone Necklace",
                 "mat-1": "2 Soiled Femur",
                 "mat-2": "Copper Rings",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Ramhorn Staff",
+                name: "Ramhorn Staff",
                 "mat-1": "Marbled Eye",
                 "mat-2": "2 Ram Horm",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Copper Choker",
+                name: "Copper Choker",
                 "mat-1": "2 Copper Ingot",
                 "mat-2": "Hard Leather",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Ramhorn Claws",
+                name: "Ramhorn Claws",
                 "mat-1": "2 Ram Horn",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Copper Scepter",
+                name: "Copper Scepter",
                 "mat-1": "Marbled Eye",
                 "mat-2": "Copper Ingot",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Bone Armillae",
+                name: "Bone Armillae",
                 "mat-1": "3 Soiled Femur",
                 "mat-2": "X",
                 "mat-3": "X",

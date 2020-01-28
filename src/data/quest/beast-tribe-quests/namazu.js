@@ -2,7 +2,7 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=44&columns=ID,Name
 import { BeastTribeQuestColumnConfig } from "../columnConfigs";
 
-export const NamazuQuests = function(parentStorageKey) {
+export const Quest_Beast_Tribe_Namazu = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.namazu`;
 
     return {

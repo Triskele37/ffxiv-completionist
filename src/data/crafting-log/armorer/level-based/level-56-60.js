@@ -10,7 +10,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Titanium Ingot",
+                name: "Titanium Ingot",
                 "mat-1": "Titanium Nugget",
                 "mat-2": "4 Cloud Mica",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Helm of Fending",
+                name: "Titanium Helm of Fending",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -34,7 +34,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Mask of Maiming",
+                name: "Titanium Mask of Maiming",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Headgear of Striking",
+                name: "Titanium Headgear of Striking",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -58,7 +58,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Headgear of Scouting",
+                name: "Titanium Headgear of Scouting",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -70,7 +70,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Vambraces of Fending",
+                name: "Titanium Vambraces of Fending",
                 "mat-1": "Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -82,7 +82,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Vambraces of Maiming",
+                name: "Titanium Vambraces of Maiming",
                 "mat-1": "Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -94,7 +94,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Vambraces of Striking",
+                name: "Titanium Vambraces of Striking",
                 "mat-1": "Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Vambraces of Scouting",
+                name: "Titanium Vambraces of Scouting",
                 "mat-1": "Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dhalmel Leather",
@@ -118,7 +118,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Titanium Tassets of Fending",
+                name: "Titanium Tassets of Fending",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -130,7 +130,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Alembic",
+                name: "Titanium Alembic",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "2 Titanium Rivets",
@@ -142,7 +142,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Mandragoras Frypan",
+                name: "Mandragoras Frypan",
                 "mat-1": "3 Titanium Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Hallowed Chestnut Lumber",
@@ -154,7 +154,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Hoplon",
+                name: "Titanium Hoplon",
                 "mat-1": "3 Titanium Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Hallowed Chestnut Lumber",
@@ -166,7 +166,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Cuirass of Fending",
+                name: "Titanium Cuirass of Fending",
                 "mat-1": "3 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -178,7 +178,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Mail of Maiming",
+                name: "Titanium Mail of Maiming",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -190,7 +190,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Mail of Striking",
+                name: "Titanium Mail of Striking",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -202,7 +202,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Mail of Scouting",
+                name: "Titanium Mail of Scouting",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -214,7 +214,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Sabatons of Fending",
+                name: "Titanium Sabatons of Fending",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -226,7 +226,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Sollerets of Maiming",
+                name: "Titanium Sollerets of Maiming",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -238,7 +238,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Sabatons of Striking",
+                name: "Titanium Sabatons of Striking",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -250,7 +250,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Titanium Sabatons of Scouting",
+                name: "Titanium Sabatons of Scouting",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Dragon Leather",
@@ -262,7 +262,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Nugget",
+                name: "Adamantite Nugget",
                 "mat-1": "5 Adamantite Ore",
                 "mat-2": "Darksteel Ore",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Rivets",
+                name: "Adamantite Rivets",
                 "mat-1": "Adamantite Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Helm of Fending",
+                name: "Adamantite Helm of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Dragon Leather",
                 "mat-3": "2 Chimera Mane",
@@ -298,7 +298,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Helm of Maiming",
+                name: "Adamantite Helm of Maiming",
                 "mat-1": "Titanium Ingot",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Dragon Leather",
@@ -310,7 +310,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Gauntlets of Fending",
+                name: "Adamantite Gauntlets of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Titanium Rivets",
@@ -322,7 +322,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Gauntlets of Maiming",
+                name: "Adamantite Gauntlets of Maiming",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -334,7 +334,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Tassets of Fending",
+                name: "Adamantite Tassets of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -346,7 +346,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Tassets of Maiming",
+                name: "Adamantite Tassets of Maiming",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -358,7 +358,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Sabatons of Fending",
+                name: "Adamantite Sabatons of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Titanium Rivets",
@@ -370,7 +370,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Adamantite Sabatons of Maiming",
+                name: "Adamantite Sabatons of Maiming",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -382,7 +382,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamatite Scutum",
+                name: "Adamatite Scutum",
                 "mat-1": "2 Titanium Ingot",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -394,7 +394,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Armor of Fending",
+                name: "Adamantite Armor of Fending",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Titanium Rivets",
@@ -406,7 +406,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Armor of Maiming",
+                name: "Adamantite Armor of Maiming",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -418,7 +418,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Chain Hose of Fending",
+                name: "Adamantite Chain Hose of Fending",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "2 Dragon Leather",
                 "mat-3": "2 Grade 1 Vitality Dissolvent",
@@ -430,7 +430,7 @@ export const ArmorerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Chain Hose of Maiming",
+                name: "Adamantite Chain Hose of Maiming",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "2 Dragon Leather",
                 "mat-3": "2 Grade 1 Strength Dissolvent",

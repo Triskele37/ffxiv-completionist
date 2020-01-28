@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DeliveryMoogle = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Delivery_Moogle = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.delivery-moogle`;
 
     return {

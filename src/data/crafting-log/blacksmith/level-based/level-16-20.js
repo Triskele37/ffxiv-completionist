@@ -10,7 +10,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Iron Ingot",
+                name: "Iron Ingot",
                 "mat-1": "3 Iron Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Iron Nails",
+                name: "Iron Nails",
                 "mat-1": "Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Brass Bastard Sword",
+                name: "Brass Bastard Sword",
                 "mat-1": "Bronze Bastard Sword",
                 "mat-2": "2 Brass Ingot",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Brass Knuckles",
+                name: "Brass Knuckles",
                 "mat-1": "Bronze Knuckles",
                 "mat-2": "Brass Ingot",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Brass Knives",
+                name: "Brass Knives",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Ash Lumber",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Chocobotail Saw",
+                name: "Chocobotail Saw",
                 "mat-1": "Amateur's Saw",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Plumed Bronze Pickaxe",
+                name: "Plumed Bronze Pickaxe",
                 "mat-1": "Bronze Pickaxe",
                 "mat-2": "Hard Leather",
                 "mat-3": "Crow Feather",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Iron War Axe",
+                name: "Iron War Axe",
                 "mat-1": "2 Iron Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Iron Labrys",
+                name: "Iron Labrys",
                 "mat-1": "2 Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Hard Leather",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Iron Hatchet",
+                name: "Iron Hatchet",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Iron Rivets",
+                name: "Iron Rivets",
                 "mat-1": "Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Iron Cross-pein Hammer",
+                name: "Iron Cross-pein Hammer",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Elm Lumber",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Iron Doming Hammer",
+                name: "Iron Doming Hammer",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Iron Chaser Hammer",
+                name: "Iron Chaser Hammer",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Iron Rivets",
                 "mat-3": "Elm Lumber",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Initiate's Head Knife",
+                name: "Initiate's Head Knife",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Mudstone Whetstone",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Iron Awl",
+                name: "Iron Awl",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Clove Oil",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Initiate's Sledgehammer",
+                name: "Initiate's Sledgehammer",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Fish Glue",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Initiate's Hatchet",
+                name: "Initiate's Hatchet",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Brass Viking Sword",
+                name: "Brass Viking Sword",
                 "mat-1": "Viking Sword",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Aldgoat Leather",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Carnage Sword",
+                name: "Carnage Sword",
                 "mat-1": "Brass Bastard Sword",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Daggers",
+                name: "Iron Daggers",
                 "mat-1": "2 Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Initiate's Saw",
+                name: "Initiate's Saw",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Iron Rivets",
                 "mat-3": "Ash Lumber",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Claw Hammer",
+                name: "Iron Claw Hammer",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Jellyfish Humours",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Pickaxe",
+                name: "Iron Pickaxe",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Ash Lumber",

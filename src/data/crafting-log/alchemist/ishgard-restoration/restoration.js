@@ -10,7 +10,7 @@ export const Alchemist_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Ink",
+                name: "Skybuilders' Ink",
                 "mat-1": "6 Skybuilders' Fine Sand",
                 "mat-2": "Acidic Secretions",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Alchemist_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Plant Oil",
+                name: "Skybuilders' Plant Oil",
                 "mat-1": "4 Skybuilders' Flax",
                 "mat-2": "4 Skybuilders' Toad",
                 "mat-3": "2 Mistletoe",
@@ -34,7 +34,7 @@ export const Alchemist_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Charcoal",
+                name: "Skybuilders' Charcoal",
                 "mat-1": "6 Skybuilders' Straw",
                 "mat-2": "6 Skybuilders' Camphorwood Log",
                 "mat-3": "Lanolin",
@@ -46,7 +46,7 @@ export const Alchemist_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' Soap",
+                name: "Skybuilders' Soap",
                 "mat-1": "6 Skybuilders' Cocoon",
                 "mat-2": "6 Skybuilders' Ruby Sea Water",
                 "mat-3": "6 Skybuilders' Urunday Log",
@@ -58,7 +58,7 @@ export const Alchemist_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Alchemic",
+                name: "Skybuilders' Alchemic",
                 "mat-1": "8 Skybuilders' Dawn Lizard",
                 "mat-2": "8 Skybuilders' Sea Salt",
                 "mat-3": "8 Skybuilders' Highland Spring Water",

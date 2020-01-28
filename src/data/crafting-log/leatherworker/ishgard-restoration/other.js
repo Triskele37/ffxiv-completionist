@@ -10,7 +10,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Beret of Aiming",
+                name: "Replica Sky Pirate's Beret of Aiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "High Steel Nugget",
@@ -22,7 +22,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Jacket of Striking",
+                name: "Replica Sky Pirate's Jacket of Striking",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -34,7 +34,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Jacket of Scouting",
+                name: "Replica Sky Pirate's Jacket of Scouting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -46,7 +46,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Fending",
+                name: "Replica Sky Rat Harness of Fending",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -58,7 +58,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Maiming",
+                name: "Replica Sky Rat Harness of Maiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -70,7 +70,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Striking",
+                name: "Replica Sky Rat Harness of Striking",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "High Steel Nugget",
@@ -82,7 +82,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Aiming",
+                name: "Replica Sky Rat Harness of Aiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "High Steel Nugget",
@@ -94,7 +94,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Scouting",
+                name: "Replica Sky Rat Harness of Scouting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -106,7 +106,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Healing",
+                name: "Replica Sky Rat Harness of Healing",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -118,7 +118,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Harness of Casting",
+                name: "Replica Sky Rat Harness of Casting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "High Steel Nugget",
@@ -130,7 +130,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gloves of Striking",
+                name: "Replica Sky Pirate's Gloves of Striking",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "High Steel Nugget",
@@ -142,7 +142,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gloves of Aiming",
+                name: "Replica Sky Pirate's Gloves of Aiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "High Steel Nugget",
@@ -154,7 +154,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gloves of Scouting",
+                name: "Replica Sky Pirate's Gloves of Scouting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "High Steel Nugget",
@@ -166,7 +166,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gloves of Healing",
+                name: "Replica Sky Pirate's Gloves of Healing",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "High Steel Nugget",
@@ -178,7 +178,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Gloves of Casting",
+                name: "Replica Sky Pirate's Gloves of Casting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "High Steel Nugget",
@@ -190,7 +190,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Fingerless Gloves of Striking",
+                name: "Replica Sky Rat Fingerless Gloves of Striking",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -202,7 +202,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Fingerless Gloves of Aiming",
+                name: "Replica Sky Rat Fingerless Gloves of Aiming",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -214,7 +214,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Fingerless Gloves of Casting",
+                name: "Replica Sky Rat Fingerless Gloves of Casting",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -226,7 +226,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Fending",
+                name: "Replica Sky Pirate's Boots of Fending",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -238,7 +238,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Maiming",
+                name: "Replica Sky Pirate's Boots of Maiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -250,7 +250,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Striking",
+                name: "Replica Sky Pirate's Boots of Striking",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -262,7 +262,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Aiming",
+                name: "Replica Sky Pirate's Boots of Aiming",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -274,7 +274,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Scouting",
+                name: "Replica Sky Pirate's Boots of Scouting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -286,7 +286,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Healing",
+                name: "Replica Sky Pirate's Boots of Healing",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -298,7 +298,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Pirate's Boots of Casting",
+                name: "Replica Sky Pirate's Boots of Casting",
                 "mat-1": "2 Skysteel Leather",
                 "mat-2": "Gagana Leather",
                 "mat-3": "High Steel Nugget",
@@ -310,7 +310,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Hookboots of Fending",
+                name: "Replica Sky Rat Hookboots of Fending",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -322,7 +322,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Hookboots of Maiming",
+                name: "Replica Sky Rat Hookboots of Maiming",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -334,7 +334,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Hookboots of Scouting",
+                name: "Replica Sky Rat Hookboots of Scouting",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",
@@ -346,7 +346,7 @@ export const Leatherworker_Other = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Replica Sky Rat Hookboots of Healing",
+                name: "Replica Sky Rat Hookboots of Healing",
                 "mat-1": "Skysteel Leather",
                 "mat-2": "Skysteel Ingot",
                 "mat-3": "Bloodhempen Cloth",

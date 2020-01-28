@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const AlchemyLeves = function(parentStorageKey) {
+export const Quest_Levequests_Alchemy = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.alchemy`;
 
     return {

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ThaumaturgeQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_Magic_Thaumaturge = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.thaumaturge`;
 
     return {

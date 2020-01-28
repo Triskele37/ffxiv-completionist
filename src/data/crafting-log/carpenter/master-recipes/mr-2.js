@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★★★",
-                "item": "Ebony Lumber",
+                name: "Ebony Lumber",
                 "mat-1": "2 Ebony Log",
                 "mat-2": "9 Borax",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Spear",
+                name: "Wootz Spear",
                 "mat-1": "3 Allagan Catalyst",
                 "mat-2": "3 Battlecraft Demimatera III",
                 "mat-3": "3 Ebony Lumber",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Mighty Thunderbolt",
+                name: "Mighty Thunderbolt",
                 "mat-1": "2 Wolfram Ingot",
                 "mat-2": "2 Ancient Lumber",
                 "mat-3": "Gold Ingot",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Ebony Longbow",
+                name: "Ebony Longbow",
                 "mat-1": "3 Allagan Catalyst",
                 "mat-2": "3 Battlecraft Demimatera III",
                 "mat-3": "3 Ebony Lumber",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Mighty Thunderdart",
+                name: "Mighty Thunderdart",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "3 Ancient Lumber",
                 "mat-3": "Gold Ingot",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Ebony Staff",
+                name: "Ebony Staff",
                 "mat-1": "3 Allagan Catalyst",
                 "mat-2": "3 Battlecraft Demimatera III",
                 "mat-3": "3 Ebony Lumber",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Ebony Cane",
+                name: "Ebony Cane",
                 "mat-1": "3 Allagan Catalyst",
                 "mat-2": "3 Battlecraft Demimatera III",
                 "mat-3": "3 Ebony Lumber",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "High Adjudicator's Gavel",
+                name: "High Adjudicator's Gavel",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "2 Gold Ingot",
                 "mat-3": "Large Levin Orb",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Artisan's Sandals",
+                name: "Artisan's Sandals",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Treated Spruce Lumber",

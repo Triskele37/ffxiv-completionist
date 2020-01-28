@@ -10,7 +10,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Hunting Hat",
+                name: "Hunting Hat",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",
@@ -22,7 +22,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Cotton Shepherd's Tunic",
+                name: "Cotton Shepherd's Tunic",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Brass Ingot",
@@ -34,7 +34,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Cotton Tabard",
+                name: "Cotton Tabard",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Animal Sinew",
@@ -46,7 +46,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Rope Belt",
+                name: "Rope Belt",
                 "mat-1": "3 Straw",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Padded Hempen Trousers",
+                name: "Padded Hempen Trousers",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",
@@ -70,7 +70,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Cotton Dalmatica",
+                name: "Cotton Dalmatica",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Beast Sinew",
@@ -82,7 +82,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Cotton Dalmatica of Gathering",
+                name: "Cotton Dalmatica of Gathering",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Beast Sinew",
@@ -94,7 +94,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Altered Cotton Dalmatica",
+                name: "Altered Cotton Dalmatica",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": " Cotton Yarn",
                 "mat-3": " Beast Sinew",
@@ -106,7 +106,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Cotton Trousers",
+                name: "Cotton Trousers",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Leather",
@@ -118,7 +118,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Cotton Canvas",
+                name: "Cotton Canvas",
                 "mat-1": "2 Cotton Yarn",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Beeswax",
@@ -130,7 +130,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Cotton Kurta",
+                name: "Cotton Kurta",
                 "mat-1": "3 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Cotton Coif",
+                name: "Cotton Coif",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",
@@ -154,7 +154,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Cotton Coif of Gathering",
+                name: "Cotton Coif of Gathering",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",
@@ -166,7 +166,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Cotton Acton",
+                name: "Cotton Acton",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Dodo Feather",
@@ -178,7 +178,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Cotton Breeches",
+                name: "Cotton Breeches",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Leather",
@@ -190,7 +190,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Cotton Breeches of Crafting",
+                name: "Cotton Breeches of Crafting",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Leather",
@@ -202,7 +202,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Initiate's Doublet Vest",
+                name: "Initiate's Doublet Vest",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",
@@ -214,7 +214,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Cotton Work Gloves",
+                name: "Cotton Work Gloves",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Cotton Yarn",
@@ -226,7 +226,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Initiate's Slops",
+                name: "Initiate's Slops",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Beast Sinew",
@@ -238,7 +238,7 @@ export const WeaverLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Padded Cotton Trousers",
+                name: "Padded Cotton Trousers",
                 "mat-1": "Undyed Cotton Cloth",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Hard Leather",

@@ -10,7 +10,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★",
-                "item": "The Worm's Head Orchestrion Roll",
+                name: "The Worm's Head Orchestrion Roll",
                 "mat-1": "Faded Copy of The Worm's Tail",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -22,7 +22,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "The Worm's Tail Orchestrion Roll",
+                name: "The Worm's Tail Orchestrion Roll",
                 "mat-1": "Faded Copy of The Worm's Tail",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -34,7 +34,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Shinryu's Wing",
+                name: "Shinryu's Wing",
                 "mat-1": "Shinryu's Scales",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Chromite Ingot",
@@ -46,7 +46,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Burdet",
+                name: "Ala Mhigan Burdet",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "3 Gyr Abanian Spring Water",
                 "mat-3": "3 Azim Cotton Boll",
@@ -58,7 +58,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Snailfish Oil",
+                name: "Snailfish Oil",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Snailfish",
                 "mat-3": "Everbright Aethersand",
@@ -70,7 +70,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grade 2 Reisui of Strength",
+                name: "Grade 2 Reisui of Strength",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Hallowed Basil",
                 "mat-3": "2 Yanxian Parsley",
@@ -82,7 +82,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grade 2 Reisui of Dexterity",
+                name: "Grade 2 Reisui of Dexterity",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Hallowed Basil",
                 "mat-3": "2 Alyssum",
@@ -94,7 +94,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grade 2 Reisui of Vitality",
+                name: "Grade 2 Reisui of Vitality",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Hallowed Basil",
                 "mat-3": "2 Nagxian Cudweed",
@@ -106,7 +106,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grade 2 Reisui of Intelligence",
+                name: "Grade 2 Reisui of Intelligence",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Hallowed Basil",
                 "mat-3": "2 Chickweed",
@@ -118,7 +118,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grade 2 Reisui of Mind",
+                name: "Grade 2 Reisui of Mind",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Hallowed Basil",
                 "mat-3": "2 Nipplewort",
@@ -130,7 +130,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Grimoire of the True Griffin",
+                name: "Grimoire of the True Griffin",
                 "mat-1": "2 True Griffin Leather",
                 "mat-2": "Torreya Lumber",
                 "mat-3": "Palladium Ingot",
@@ -142,7 +142,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Codex of the True Griffin",
+                name: "Codex of the True Griffin",
                 "mat-1": "2 True Griffin Leather",
                 "mat-2": "Torreya Lumber",
                 "mat-3": "Palladium Ingot",
@@ -154,7 +154,7 @@ export const Alchemist_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Flying Chair",
+                name: "Flying Chair",
                 "mat-1": "Riviera Armchair",
                 "mat-2": "8 Cloudsbreath",
                 "mat-3": "X",

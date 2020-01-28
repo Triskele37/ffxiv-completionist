@@ -10,7 +10,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Frantoio Oil",
+                name: "Frantoio Oil",
                 "mat-1": "5 Frantoio",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Grilled Rail",
+                name: "Grilled Rail",
                 "mat-1": "Rail Tenderloin",
                 "mat-2": "2 Frantoio Oil",
                 "mat-3": "Abalathian Rock Salt",
@@ -34,7 +34,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Purple Carrot Juice",
+                name: "Purple Carrot Juice",
                 "mat-1": "3 Purple Carrot",
                 "mat-2": "6 Pixie Apple",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Garden Beet Sugar",
+                name: "Garden Beet Sugar",
                 "mat-1": "5 Garden Beet",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Broad Bean Soup",
+                name: "Broad Bean Soup",
                 "mat-1": "Rail Tenderloin",
                 "mat-2": "4 Broad Beans",
                 "mat-3": "2 Buffalo Beans",
@@ -70,7 +70,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Caramels",
+                name: "Caramels",
                 "mat-1": "3 Garden Beet Sugar",
                 "mat-2": "Fermented Butter",
                 "mat-3": "3 Sour Cream",
@@ -82,7 +82,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Squid Ink",
+                name: "Squid Ink",
                 "mat-1": "5 Spearhead Squid",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grilled Platinum Bream",
+                name: "Grilled Platinum Bream",
                 "mat-1": "3 Platinum Bream",
                 "mat-2": "3 Abalathian Rock Salt",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Broad Bean Salad",
+                name: "Broad Bean Salad",
                 "mat-1": "3 Broad Beans",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "2 Purple Carrot",
@@ -118,7 +118,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Spaghetti al Nero",
+                name: "Spaghetti al Nero",
                 "mat-1": "2 Squid Ink",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "3 Vemicelli",
@@ -130,7 +130,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Upland Wheat Flour",
+                name: "Upland Wheat Flour",
                 "mat-1": "5 Upland Wheat",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Golden Honey",
+                name: "Golden Honey",
                 "mat-1": "5 Gianthive Chip",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Baguette",
+                name: "Baguette",
                 "mat-1": "2 Upland Wheat Flour",
                 "mat-2": "3 Highland Spring Water",
                 "mat-3": "Ala Mhigan Salt Crystal",
@@ -166,7 +166,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Apple Pie",
+                name: "Pixie Apple Pie",
                 "mat-1": "Upland Wheat Flour",
                 "mat-2": "2 Pixie Apple",
                 "mat-3": "Golden Honey",
@@ -178,7 +178,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Blood Tomato Juice",
+                name: "Blood Tomato Juice",
                 "mat-1": "Golden Honey",
                 "mat-2": "3 Blood Tomato",
                 "mat-3": "Heavens Lemon",
@@ -190,7 +190,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Night Vinegar",
+                name: "Night Vinegar",
                 "mat-1": "5 Royal Grapes",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Blood Tomato Salad",
+                name: "Blood Tomato Salad",
                 "mat-1": "Night Vinegar",
                 "mat-2": "Blood Tomato",
                 "mat-3": "La Noscean Lettuce",
@@ -214,7 +214,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Mushroom Saute",
+                name: "Mushroom Saute",
                 "mat-1": "Creamtop Mushroom",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "Abalathian Rock Salt",
@@ -226,7 +226,7 @@ export const CulinarianLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Nut Bake",
+                name: "Nut Bake",
                 "mat-1": "Upland Wheat Flour",
                 "mat-2": "Golden Honey",
                 "mat-3": "Lorikeet Egg",

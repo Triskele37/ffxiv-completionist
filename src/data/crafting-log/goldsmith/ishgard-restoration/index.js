@@ -5,11 +5,14 @@ export const Goldsmith_IshgardRestoration_Recipe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
 
     return {
-        name: "Ishgard Restoration Recipes",
+        name: "Ishgard Restoration",
         storageKey,
-        subGroups: [
-            Goldsmith_Restoration(storageKey),
-            Goldsmith_Other(storageKey),
-        ]
+        groupKeys: [
+            "Restoration",
+            "Other",
+        ],
+        // Groups
+        Restoration: Goldsmith_Restoration(storageKey),
+        Other: Goldsmith_Other(storageKey),
     };
 };

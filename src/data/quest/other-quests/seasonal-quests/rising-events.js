@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const RisingEvents = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Rising = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.rising`;
 
     return {

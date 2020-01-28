@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MNaagoQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Stormblood_M_Naago = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.m-naago`;
 
     return {

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const EasternLaNoscea = function(parentStorageKey) {
+export const Quest_Sidequests_Lominsan_Eastern_La_Noscea = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.eastern`;
 
     return {

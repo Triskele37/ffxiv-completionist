@@ -5,7 +5,7 @@ https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=2&columns=I
 Missing: Hest of the Best, Pass the Smell Hest
 spelling: api > The Least among Us, app > The Least Among Us, game matches api
 */
-export const SeventhAstralEraQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Seventh_Astral_Era = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.seventh-astral-era`;
 
     return {

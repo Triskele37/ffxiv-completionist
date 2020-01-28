@@ -10,7 +10,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "12",
-                "item": "Firewood",
+                name: "Firewood",
                 "mat-1": "9 Ash Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Glade Classical Window",
+                name: "Glade Classical Window",
                 "mat-1": "6 Ash Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Stump Stool",
+                name: "Stump Stool",
                 "mat-1": "Ash Log",
                 "mat-2": "5 Beeswax",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Riviera Arched Window",
+                name: "Riviera Arched Window",
                 "mat-1": "4 Ash Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "2 Iron Ingot",
@@ -58,7 +58,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Crofter's Wain",
+                name: "Crofter's Wain",
                 "mat-1": "4 Ash Lumber",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Glade Lancet Window",
+                name: "Glade Lancet Window",
                 "mat-1": "4 Elm Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "2 Ash Lumber",
@@ -82,7 +82,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Oasis Oblong Window",
+                name: "Oasis Oblong Window",
                 "mat-1": "3 Elm Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "3 Iron Ingot",
@@ -94,7 +94,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Oasis Wooden Awning",
+                name: "Oasis Wooden Awning",
                 "mat-1": "4 Ash Lumber",
                 "mat-2": "2 Iron Ingot",
                 "mat-3": "2 Iron Rivets",
@@ -106,7 +106,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Riviera Bay Window",
+                name: "Riviera Bay Window",
                 "mat-1": "6 Elm Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Glade Cottage Wall (Wood)",
+                name: "Glade Cottage Wall (Wood)",
                 "mat-1": "15 Elm Lumber",
                 "mat-2": "5 Ash Lumber",
                 "mat-3": "10 Iron Joint Plate",
@@ -130,7 +130,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Glade Pendant Lamp",
+                name: "Glade Pendant Lamp",
                 "mat-1": "4 Elm Lumber",
                 "mat-2": "8 Beeswax Candle",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Riviera Cottage Roof (Composite)",
+                name: "Riviera Cottage Roof (Composite)",
                 "mat-1": "10 Elm Lumber",
                 "mat-2": "10 Ash Lumber",
                 "mat-3": "10 Iron Joint Plate",
@@ -154,7 +154,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Laundry Pole",
+                name: "Laundry Pole",
                 "mat-1": "2 Elm Lumber",
                 "mat-2": "Rope Belt",
                 "mat-3": "Undyed Cotton Cloth",
@@ -166,7 +166,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Glade Rounded Window",
+                name: "Glade Rounded Window",
                 "mat-1": "6 Yew Lumber",
                 "mat-2": "4 Clear Glass Lens",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Riviera Cottage Wall (Wood)",
+                name: "Riviera Cottage Wall (Wood)",
                 "mat-1": "10 Yew Lumber",
                 "mat-2": "15 Limestone",
                 "mat-3": "10 Iron Joint Plate",
@@ -190,7 +190,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Oasis Cottage Roof (Wood)",
+                name: "Oasis Cottage Roof (Wood)",
                 "mat-1": "15 Elm Lumber",
                 "mat-2": "5 Brass Ingot",
                 "mat-3": "10 Iron Joint Plate",
@@ -202,7 +202,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Oasis Cottage Wall (Wood)",
+                name: "Oasis Cottage Wall (Wood)",
                 "mat-1": "10 Elm Lumber",
                 "mat-2": "30 Limestone",
                 "mat-3": "10 Iron Joint Plate",
@@ -214,7 +214,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Glade Cottage Wall (Composite)",
+                name: "Glade Cottage Wall (Composite)",
                 "mat-1": "10 Yew Lumber",
                 "mat-2": "15 Limestone",
                 "mat-3": "15 Mortar",
@@ -226,7 +226,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Riviera Cottage Roof (Stone)",
+                name: "Riviera Cottage Roof (Stone)",
                 "mat-1": "15 Elm Lumber",
                 "mat-2": "5 Roof Tile",
                 "mat-3": "10 Iron Joint Plate",
@@ -238,7 +238,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Walnut Interior Wall",
+                name: "Walnut Interior Wall",
                 "mat-1": "6 Walnut Lumber",
                 "mat-2": "6 Beeswax",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Glade Lancet Door",
+                name: "Glade Lancet Door",
                 "mat-1": "6 Walnut Lumber",
                 "mat-2": "4 Steel Hinge",
                 "mat-3": "2 Steel Ingot",
@@ -262,7 +262,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Glade Thatch Chimney",
+                name: "Glade Thatch Chimney",
                 "mat-1": "2 Walnut Lumber",
                 "mat-2": "2 Bloodgrass",
                 "mat-3": "2 Roof Tile",
@@ -274,7 +274,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Riviera Flooring",
+                name: "Riviera Flooring",
                 "mat-1": "6 Walnut Lumber",
                 "mat-2": "6 Beeswax",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Glade Flooring",
+                name: "Glade Flooring",
                 "mat-1": "6 Walnut Lumber",
                 "mat-2": "6 Beeswax",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Oasis Flooring",
+                name: "Oasis Flooring",
                 "mat-1": "6 Walnut Lumber",
                 "mat-2": "6 Beeswax",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Oasis Crowned Door",
+                name: "Oasis Crowned Door",
                 "mat-1": "4 Walnut Lumber",
                 "mat-2": "4 Steel Hinge",
                 "mat-3": "4 Steel Ingot",
@@ -322,7 +322,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Riviera Wooden Awning",
+                name: "Riviera Wooden Awning",
                 "mat-1": "4 Walnut Lumber",
                 "mat-2": "2 Steel Ingot",
                 "mat-3": "2 Steel Rivets",
@@ -334,7 +334,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Walnut Table",
+                name: "Walnut Table",
                 "mat-1": "2 Walnut Lumber",
                 "mat-2": "2 Steel Ingot",
                 "mat-3": "2 Steel Rivets",
@@ -346,7 +346,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Arbor Interior Wall",
+                name: "Arbor Interior Wall",
                 "mat-1": "2 Walnut Lumber",
                 "mat-2": "4 Mortar",
                 "mat-3": "Matron's Mistletoe",
@@ -358,7 +358,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Stepladder",
+                name: "Stepladder",
                 "mat-1": "5 Walnut Lumber",
                 "mat-2": "Steel Ingot",
                 "mat-3": "2 Steel Rivets",
@@ -370,7 +370,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Standing Signboard",
+                name: "Standing Signboard",
                 "mat-1": "2 Walnut Lumber",
                 "mat-2": "Steel Hinge",
                 "mat-3": "Adventurer's Guild Aduyses",
@@ -382,7 +382,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Riviera Interior Wall",
+                name: "Riviera Interior Wall",
                 "mat-1": "8 Walnut Lumber",
                 "mat-2": "4 Beeswax",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Glade Interior Wall",
+                name: "Glade Interior Wall",
                 "mat-1": "8 Walnut Lumber",
                 "mat-2": "4 Beeswax",
                 "mat-3": "X",
@@ -406,7 +406,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Retainer Cartonnier",
+                name: "Retainer Cartonnier",
                 "mat-1": "3 Walnut Lumber",
                 "mat-2": "3 Steel Ingot",
                 "mat-3": "2 Beeswax",
@@ -418,7 +418,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Riviera Wooden Door",
+                name: "Riviera Wooden Door",
                 "mat-1": "4 Oak Lumber",
                 "mat-2": "4 Steel Hinge",
                 "mat-3": "4 Steel Ingot",
@@ -430,7 +430,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Glade Arched Door",
+                name: "Glade Arched Door",
                 "mat-1": "4 Oak Lumber",
                 "mat-2": "4 Steel Hinge",
                 "mat-3": "4 Silver Ingot",
@@ -442,7 +442,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Deluxe Glade Pendant Lamp",
+                name: "Deluxe Glade Pendant Lamp",
                 "mat-1": "8 Walnut Lumber",
                 "mat-2": "4 Tallow Candle",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Oasis Wooden Wall",
+                name: "Oasis Wooden Wall",
                 "mat-1": "10 Oak Lumber",
                 "mat-2": "5 Cut Stone",
                 "mat-3": "5 Steel Ingot",
@@ -466,7 +466,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Glade Lamppost",
+                name: "Glade Lamppost",
                 "mat-1": "2 Oak Lumber",
                 "mat-2": "2 Tallow Candle",
                 "mat-3": "2 Clear Glass Lens",
@@ -478,7 +478,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Dried Well",
+                name: "Dried Well",
                 "mat-1": "2 Oak Lumber",
                 "mat-2": "3 Granite",
                 "mat-3": "2 Growth Formula Gamma",
@@ -490,7 +490,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Riviera House Roof (Composite)",
+                name: "Riviera House Roof (Composite)",
                 "mat-1": "8 Walnut Lumber",
                 "mat-2": "10 Yew Lumber",
                 "mat-3": "10 Steel Joint Plate",
@@ -502,7 +502,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Glade House Wall (Wood)",
+                name: "Glade House Wall (Wood)",
                 "mat-1": "8 Walnut Lumber",
                 "mat-2": "5 Oak Lumber",
                 "mat-3": "10 Steel Joint Plate",
@@ -514,7 +514,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Riviera House Wall (Wood)",
+                name: "Riviera House Wall (Wood)",
                 "mat-1": "10 Oak Lumber",
                 "mat-2": "15 Granite",
                 "mat-3": "10 Steel Joint Plate",
@@ -526,7 +526,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Oasis House Roof (Wood)",
+                name: "Oasis House Roof (Wood)",
                 "mat-1": "15 Oak Lumber",
                 "mat-2": "5 Silver Ingot",
                 "mat-3": "10 Steel Joint Plate",
@@ -538,7 +538,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Oasis House Wall (Wood)",
+                name: "Oasis House Wall (Wood)",
                 "mat-1": "10 Oak Lumber",
                 "mat-2": "10 Cut Stone",
                 "mat-3": "10 Iron Joint Plate",
@@ -550,7 +550,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Glade House Wall (Composite)",
+                name: "Glade House Wall (Composite)",
                 "mat-1": "10 Walnut Lumber",
                 "mat-2": "5 Cut Stone",
                 "mat-3": "30 Mortar",
@@ -562,7 +562,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Riviera House Roof (Stone)",
+                name: "Riviera House Roof (Stone)",
                 "mat-1": "15 Walnut Lumber",
                 "mat-2": "10 Roof Tile",
                 "mat-3": "10 Steel Joint Plate",
@@ -574,7 +574,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Black-and-white Interior Wall",
+                name: "Black-and-white Interior Wall",
                 "mat-1": "2 Rosewood Lumber",
                 "mat-2": "2 Mahogany Lumber",
                 "mat-3": "2 Oak Log",
@@ -586,7 +586,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Lattice Planter",
+                name: "Lattice Planter",
                 "mat-1": "5 Rosewood Lumber",
                 "mat-2": "3 Cobalt Ingot",
                 "mat-3": "3 Humus",
@@ -598,7 +598,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Riviera Garden Table Set",
+                name: "Riviera Garden Table Set",
                 "mat-1": "4 Rosewood Lumber",
                 "mat-2": "2 Yew Lumber",
                 "mat-3": "2 Iron Ingot",
@@ -610,7 +610,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Glade Chandelier",
+                name: "Glade Chandelier",
                 "mat-1": "4 Mahogany Lumber",
                 "mat-2": "4 Oak Lumber",
                 "mat-3": "8 Tallow Candle",
@@ -622,7 +622,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Glade Roundpole Fence",
+                name: "Glade Roundpole Fence",
                 "mat-1": "20 Rosewood Lumber",
                 "mat-2": "30 Granite",
                 "mat-3": "10 Cobalt Ingot",
@@ -634,7 +634,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Riviera Mansion Roof (Composite)",
+                name: "Riviera Mansion Roof (Composite)",
                 "mat-1": "10 Rosewood Lumber",
                 "mat-2": "10 Oak Lumber",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -646,7 +646,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Riviera Mansion Roof (Stone)",
+                name: "Riviera Mansion Roof (Stone)",
                 "mat-1": "15 Mahogany Lumber",
                 "mat-2": "15 Roof Tile",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -658,7 +658,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Oasis Mansion Roof (Wood)",
+                name: "Oasis Mansion Roof (Wood)",
                 "mat-1": "15 Rosewood Lumber",
                 "mat-2": "5 Electrum Ingot",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -670,7 +670,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Riviera Mansion Wall (Wood)",
+                name: "Riviera Mansion Wall (Wood)",
                 "mat-1": "10 Spruce Lumber",
                 "mat-2": "5 Cut Stone",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -682,7 +682,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Glade Mansion Wall (Wood)",
+                name: "Glade Mansion Wall (Wood)",
                 "mat-1": "15 Mahogany Lumber",
                 "mat-2": "5 Spruce Lumber",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -694,7 +694,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Glade Mansion Wall (Composite)",
+                name: "Glade Mansion Wall (Composite)",
                 "mat-1": "10 Rosewood Lumber",
                 "mat-2": "10 Cut Stone",
                 "mat-3": "15 Granite",
@@ -706,7 +706,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Oasis Mansion Wall (Wood)",
+                name: "Oasis Mansion Wall (Wood)",
                 "mat-1": "10 Rosewood Lumber",
                 "mat-2": "10 Cut Stone",
                 "mat-3": "10 Cobalt Joint Plate",
@@ -718,7 +718,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Straight Stepping Stumps",
+                name: "Straight Stepping Stumps",
                 "mat-1": "2 Petrified Log",
                 "mat-2": "10 Varnish",
                 "mat-3": "X",
@@ -730,7 +730,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Cob Inner Wall",
+                name: "Cob Inner Wall",
                 "mat-1": "3 Bamboo Stick",
                 "mat-2": "3 Straw",
                 "mat-3": "5 Potter's Clay",
@@ -742,7 +742,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Manor Flooring",
+                name: "Manor Flooring",
                 "mat-1": "2 Manor Varnish",
                 "mat-2": "4 Spruce Lumber",
                 "mat-3": "4 Undyed Woolen Cloth",
@@ -754,7 +754,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Curved Stepping Stumps",
+                name: "Curved Stepping Stumps",
                 "mat-1": "3 Petrified",
                 "mat-2": "10 Varnish",
                 "mat-3": "X",
@@ -766,7 +766,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Glade Path Light",
+                name: "Glade Path Light",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "4 Tallow Candle",
                 "mat-3": "3 Darksteel Ingot",
@@ -778,7 +778,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Carbuncle Garden Table",
+                name: "Carbuncle Garden Table",
                 "mat-1": "Ruby",
                 "mat-2": "5 Spruce Lumber",
                 "mat-3": "5 Mahogany Lumber",
@@ -790,7 +790,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Alps Striking Dummy",
+                name: "Alps Striking Dummy",
                 "mat-1": "3 Ancient Lumber",
                 "mat-2": "2 Wolfram Ingot",
                 "mat-3": "2 Glazenut",
@@ -802,7 +802,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Oriental Striking Dummy",
+                name: "Oriental Striking Dummy",
                 "mat-1": "2 Ancient Lumber",
                 "mat-2": "2 Wolfram Ingot",
                 "mat-3": "Petrified Log",
@@ -814,7 +814,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Hingan Oblong Window",
+                name: "Hingan Oblong Window",
                 "mat-1": "6 Beech Lumber",
                 "mat-2": "5 Clear Glass Lens",
                 "mat-3": "X",
@@ -826,7 +826,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Hingan Mozuko Door",
+                name: "Hingan Mozuko Door",
                 "mat-1": "4 Beech Lumber",
                 "mat-2": "4 Mythrite Nugget",
                 "mat-3": "3 Cut Stone",
@@ -838,7 +838,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Hingan Watchtower (Mokuzo)",
+                name: "Hingan Watchtower (Mokuzo)",
                 "mat-1": "4 Beech Lumber",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "2 Mythrite Ingot",
@@ -850,7 +850,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Hingan Cottage Wall (Mokuzo)",
+                name: "Hingan Cottage Wall (Mokuzo)",
                 "mat-1": "10 Beech Lumber",
                 "mat-2": "5 Cedar Lumber",
                 "mat-3": "5 Cut Stone",
@@ -862,7 +862,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Hingan Cottage Wall (Nanpu)",
+                name: "Hingan Cottage Wall (Nanpu)",
                 "mat-1": "10 Beech Lumber",
                 "mat-2": "5 Mythrite Nugget",
                 "mat-3": "5 Felt Lining",
@@ -874,7 +874,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Dodo Message Book Stand",
+                name: "Dodo Message Book Stand",
                 "mat-1": "2 Larch Lumber",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Potash",
@@ -886,7 +886,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Hingan Nanpu Door",
+                name: "Hingan Nanpu Door",
                 "mat-1": "4 Pine Lumber",
                 "mat-2": "4 Aurum Regis Nugget",
                 "mat-3": "3 Cut Stone",
@@ -898,7 +898,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Hingan Placard (Mokuzo)",
+                name: "Hingan Placard (Mokuzo)",
                 "mat-1": "4 Pine Lumber",
                 "mat-2": "3 Mythrite Ingot",
                 "mat-3": "4 Clear Glass Lens",
@@ -910,7 +910,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Hingan Hanging Andon Lamp",
+                name: "Hingan Hanging Andon Lamp",
                 "mat-1": "5 Pine Lumber",
                 "mat-2": "8 Tallow Candle",
                 "mat-3": "X",
@@ -922,7 +922,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Lancet Window",
+                name: "Hingan Lancet Window",
                 "mat-1": "3 Persimmon Lumber",
                 "mat-2": "3 Cut Stone",
                 "mat-3": "3 Clear Glass Lens",
@@ -934,7 +934,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Kura-Zukuri Door",
+                name: "Hingan Kura-Zukuri Door",
                 "mat-1": "4 Persimmon Lumber",
                 "mat-2": "4 Hardsilver Nugget",
                 "mat-3": "5 Clear Glass Lens",
@@ -946,7 +946,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan House Wall (Mokuzo)",
+                name: "Hingan House Wall (Mokuzo)",
                 "mat-1": "10 Persimmon Lumber",
                 "mat-2": "10 Dark Chestnut Lumber",
                 "mat-3": "10 Cut Stone",
@@ -958,7 +958,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan House Wall (Nanpu)",
+                name: "Hingan House Wall (Nanpu)",
                 "mat-1": "10 Persimmon Lumber",
                 "mat-2": "10 Hardsilver Nugger",
                 "mat-3": "10 Felt Lining",
@@ -970,7 +970,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Napu Fence",
+                name: "Hingan Napu Fence",
                 "mat-1": "20 Persimmon Lumber",
                 "mat-2": "10 Hardsilver Nugger",
                 "mat-3": "5 Varnish",
@@ -982,7 +982,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Hingan Placard (Nanpu)",
+                name: "Hingan Placard (Nanpu)",
                 "mat-1": "4 Zelkova Lumber",
                 "mat-2": "4 Rose Gold Nugget",
                 "mat-3": "2 Varnish",
@@ -994,7 +994,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Hingan Flooring",
+                name: "Hingan Flooring",
                 "mat-1": "5 Zelkova Lumber",
                 "mat-2": "4 Cut Stone",
                 "mat-3": "3 Granite",
@@ -1006,7 +1006,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Hingan Hangin Toro Lamp",
+                name: "Hingan Hangin Toro Lamp",
                 "mat-1": "6 Zelkova Lumber",
                 "mat-2": "4 Persimmon Lumber",
                 "mat-3": "12 Tallow Candle",
@@ -1018,7 +1018,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Hingan Mansion Wall (Mokuzo)",
+                name: "Hingan Mansion Wall (Mokuzo)",
                 "mat-1": "10 Zelkova Lumber",
                 "mat-2": "15 Birch Lumber",
                 "mat-3": "15 Cut Stone",
@@ -1030,7 +1030,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Hingan Mansion Wall (Nanpu)",
+                name: "Hingan Mansion Wall (Nanpu)",
                 "mat-1": "10 Zelkova Lumber",
                 "mat-2": "15 Aurum Regis Nugget",
                 "mat-3": "15 Felt Lining",
@@ -1042,7 +1042,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Eastern Teahouse Bench",
+                name: "Eastern Teahouse Bench",
                 "mat-1": "3 Zelkova Lumber",
                 "mat-2": "2 Palladium Nugget",
                 "mat-3": "4 Chimerical Felt",
@@ -1054,7 +1054,7 @@ export const Carpenter_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Wooden Deck",
+                name: "Wooden Deck",
                 "mat-1": "10 Lignum Vitae Lumber",
                 "mat-2": "4 White Oak Lumber",
                 "mat-3": "2 Titanbronze Ingot",

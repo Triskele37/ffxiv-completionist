@@ -10,7 +10,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Smilodon Leather",
+                name: "Smilodon Leather",
                 "mat-1": "4 Smilodon Skin",
                 "mat-2": "Yellow Alumen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Gloves of Maiming",
+                name: "Smilodonskin Gloves of Maiming",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Durium Nugget",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Gloves of Scouting",
+                name: "Smilodonskin Gloves of Scouting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Durium Nugget",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Armguards of Casting",
+                name: "Smilodonskin Armguards of Casting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Armguards of Healing",
+                name: "Smilodonskin Armguards of Healing",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Gloves of Crafting",
+                name: "Smilodonskin Gloves of Crafting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bright Linen Yarn",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Gloves of Gathering",
+                name: "Smilodonskin Gloves of Gathering",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bright Linen Yarn",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Tool Belt",
+                name: "Smilodonskin Tool Belt",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Survival Belt",
+                name: "Smilodonskin Survival Belt",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Trousers of Fending",
+                name: "Smilodonskin Trousers of Fending",
                 "mat-1": "3 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Trousers of Maiming",
+                name: "Smilodonskin Trousers of Maiming",
                 "mat-1": "3 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bright Linen Yarn",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Leggings of Maiming",
+                name: "Smilodonskin Leggings of Maiming",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Durium Nugget",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Open-toed Boots of Striking",
+                name: "Smilodonskin Open-toed Boots of Striking",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Boots of Scouting",
+                name: "Smilodonskin Boots of Scouting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Durium Nugget",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Open-toed Boots of Aiming",
+                name: "Smilodonskin Open-toed Boots of Aiming",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Boots of Casting",
+                name: "Smilodonskin Boots of Casting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Boots of Healing",
+                name: "Smilodonskin Boots of Healing",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Shoes of Crafting",
+                name: "Smilodonskin Shoes of Crafting",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bright Linen Yarn",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Shoes of Gathering",
+                name: "Smilodonskin Shoes of Gathering",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Bright Linen Yarn",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Earrings",
+                name: "Smilodonskin Earrings",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Choker",
+                name: "Smilodonskin Choker",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Bright Linen Yarn",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Wristband",
+                name: "Smilodonskin Wristband",
                 "mat-1": "2 Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Bright Linen Yarn",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Ring",
+                name: "Smilodonskin Ring",
                 "mat-1": "Smilodon Leather",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Green Glider Leather",
+                name: "Green Glider Leather",
                 "mat-1": "4 Green Glider Skin",
                 "mat-2": "Yellow Alumen",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Gloves of Striking",
+                name: "Gliderskin Gloves of Striking",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Gloves of Scouting",
+                name: "Gliderskin Gloves of Scouting",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Gloves of Aiming",
+                name: "Gliderskin Gloves of Aiming",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "3 Iridescent Silk Thread",
                 "mat-3": "Electrum Ingot",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Thighboots of Striking",
+                name: "Gliderskin Thighboots of Striking",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Silk Thread",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Thighboots of Scouting",
+                name: "Gliderskin Thighboots of Scouting",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Silk Thread",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Boots of Aiming",
+                name: "Gliderskin Boots of Aiming",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Electrum Ingot",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Gloves of Casting",
+                name: "Gliderskin Gloves of Casting",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Gloves of Healing",
+                name: "Gliderskin Gloves of Healing",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Breeches of Fending",
+                name: "Gliderskin Breeches of Fending",
                 "mat-1": "3 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Breeches of Maiming",
+                name: "Gliderskin Breeches of Maiming",
                 "mat-1": "3 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Thighboots of Fending",
+                name: "Gliderskin Thighboots of Fending",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Silk Thread",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Boots of Casting",
+                name: "Gliderskin Boots of Casting",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "3 Iridescent Silk Thread",
                 "mat-3": "Rubber",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Gliderskin Boots of Healing",
+                name: "Gliderskin Boots of Healing",
                 "mat-1": "2 Green Glider Leather",
                 "mat-2": "3 Iridescent Silk Thread",
                 "mat-3": "Rubber",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptor Leather",
+                name: "Atrociraptor Leather",
                 "mat-1": "4 Atrociraptor Skin",
                 "mat-2": "Yellow Alumen",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Headgear of Scouting",
+                name: "Atrociraptorskin Headgear of Scouting",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Rainbow Thread",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Headgear of Aiming",
+                name: "Atrociraptorskin Headgear of Aiming",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Rainbow Thread",
@@ -490,7 +490,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Cap of Gathering",
+                name: "Atrociraptorskin Cap of Gathering",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Pixie Floss",
@@ -502,7 +502,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Vest of Gathering",
+                name: "Atrociraptorskin Vest of Gathering",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Triphane",
@@ -514,7 +514,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Armguard of Scouting",
+                name: "Atrociraptorskin Armguard of Scouting",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Darksteel Nugget",
@@ -526,7 +526,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Armguard of Aiming",
+                name: "Atrociraptorskin Armguard of Aiming",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Darksteel Nugget",
@@ -538,7 +538,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Bracers of Casting",
+                name: "Atrociraptorskin Bracers of Casting",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Pixie Floss",
@@ -550,7 +550,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Armguards of Healing",
+                name: "Atrociraptorskin Armguards of Healing",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Iridescent Silk",
                 "mat-3": "Pixie Floss",
@@ -562,7 +562,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Gloves of Gathering",
+                name: "Atrociraptorskin Gloves of Gathering",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Pixie Floss",
@@ -574,7 +574,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Thighboots of Striking",
+                name: "Atrociraptorskin Thighboots of Striking",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Rainbow Thread",
@@ -586,7 +586,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Leg Guards of Scouting",
+                name: "Atrociraptorskin Leg Guards of Scouting",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Darksteel Nugget",
@@ -598,7 +598,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Leg Guards of Aiming",
+                name: "Atrociraptorskin Leg Guards of Aiming",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Darksteel Nugget",
@@ -610,7 +610,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Boots of Healing",
+                name: "Atrociraptorskin Boots of Healing",
                 "mat-1": "3 Atrociraptor Leather",
                 "mat-2": "Pixie Floss",
                 "mat-3": "Darkstel",
@@ -622,7 +622,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Boots of Crafting",
+                name: "Atrociraptorskin Boots of Crafting",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Manasilver Nugget",
@@ -634,7 +634,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Boots of Gathering",
+                name: "Atrociraptorskin Boots of Gathering",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Pixie Floss",
@@ -646,7 +646,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Amulet of Fending",
+                name: "Atrociraptorskin Amulet of Fending",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Rainbow Thread",
@@ -658,7 +658,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Amulet of Slaying",
+                name: "Atrociraptorskin Amulet of Slaying",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Rainbow Thread",
@@ -670,7 +670,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Amulet of Aiming",
+                name: "Atrociraptorskin Amulet of Aiming",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Rainbow Thread",
@@ -682,7 +682,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Amulet of Casting",
+                name: "Atrociraptorskin Amulet of Casting",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Rainbow Thread",
@@ -694,7 +694,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Atrociraptorskin Amulet of Healing",
+                name: "Atrociraptorskin Amulet of Healing",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Rainbow Thread",
@@ -706,7 +706,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Corselet of Scouting",
+                name: "Atrociraptorskin Corselet of Scouting",
                 "mat-1": "3 Atrociraptor Leather",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Manasilver Nugget",
@@ -718,7 +718,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Corselet of Aiming",
+                name: "Atrociraptorskin Corselet of Aiming",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Manasilver Nugget",
@@ -730,7 +730,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Coat of Casting",
+                name: "Atrociraptorskin Coat of Casting",
                 "mat-1": "3 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Pixie Floss",
@@ -742,7 +742,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Survival Belt",
+                name: "Atrociraptorskin Survival Belt",
                 "mat-1": "2 Atrociraptor Leather",
                 "mat-2": "Pixie Floss",
                 "mat-3": "X",
@@ -754,7 +754,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Breeches of Fending",
+                name: "Atrociraptorskin Breeches of Fending",
                 "mat-1": "3 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Rose Gold Nugget",
@@ -766,7 +766,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Breeches of Maiming",
+                name: "Atrociraptorskin Breeches of Maiming",
                 "mat-1": "3 Atrociraptor Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Rose Gold Nugget",
@@ -778,7 +778,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Necklace of Fending",
+                name: "Atrociraptorskin Necklace of Fending",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Lazurite",
                 "mat-3": "Rose Gold Nugget",
@@ -790,7 +790,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Necklace of Slaying",
+                name: "Atrociraptorskin Necklace of Slaying",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Lazurite",
                 "mat-3": "Rose Gold Nugget",
@@ -802,7 +802,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Necklace of Aiming",
+                name: "Atrociraptorskin Necklace of Aiming",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Lazurite",
                 "mat-3": "Rose Gold Nugget",
@@ -814,7 +814,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Necklace of Casting",
+                name: "Atrociraptorskin Necklace of Casting",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Lazurite",
                 "mat-3": "Rose Gold Nugget",
@@ -826,7 +826,7 @@ export const LeatherworkerLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Atrociraptorskin Necklace of Healing",
+                name: "Atrociraptorskin Necklace of Healing",
                 "mat-1": "Atrociraptor Leather",
                 "mat-2": "Lazurite",
                 "mat-3": "Rose Gold Nugget",

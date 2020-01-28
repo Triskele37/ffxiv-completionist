@@ -10,7 +10,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Steppe Serge",
+                name: "Steppe Serge",
                 "mat-1": "3 Worsted Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Worsted Yarn",
+                name: "Worsted Yarn",
                 "mat-1": "2 Halgai Mane",
                 "mat-2": "2 Manzasiri Hair",
                 "mat-3": "Natron",
@@ -34,7 +34,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Hat of Aiming",
+                name: "Serge Hat of Aiming",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -46,7 +46,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Hat of Casting",
+                name: "Serge Hat of Casting",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -58,7 +58,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Hat of Healing",
+                name: "Serge Hat of Healing",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -70,7 +70,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Winter Sweater",
+                name: "Winter Sweater",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "3 Worsted Yarn",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Longsash of Striking",
+                name: "Serge Longsash of Striking",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Grade 1 Reisui of Strength",
@@ -94,7 +94,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Longsash of Scouting",
+                name: "Serge Longsash of Scouting",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Grade 1 Reisui of Dexterity",
@@ -106,7 +106,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Serge Apron",
+                name: "Serge Apron",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -118,7 +118,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Turban of Crafting",
+                name: "Serge Turban of Crafting",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -130,7 +130,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Turban of Gathering",
+                name: "Serge Turban of Gathering",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -142,7 +142,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Gambison of Aiming",
+                name: "Serge Gambison of Aiming",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -154,7 +154,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Gambison of Casting",
+                name: "Serge Gambison of Casting",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -166,7 +166,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Gambison of Healing",
+                name: "Serge Gambison of Healing",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -178,7 +178,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Hose of Aiming",
+                name: "Serge Hose of Aiming",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -190,7 +190,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Hose of Casting",
+                name: "Serge Hose of Casting",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -202,7 +202,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Hose of Healing",
+                name: "Serge Hose of Healing",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Marid Leather",
                 "mat-3": "Worsted Yarn",
@@ -214,7 +214,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Sarouels of Crafting",
+                name: "Serge Sarouels of Crafting",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -226,7 +226,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Serge Sarouels of Gathering",
+                name: "Serge Sarouels of Gathering",
                 "mat-1": "3 Steppe Serge",
                 "mat-2": "Worsted Yarn",
                 "mat-3": "Durium Ingot",
@@ -238,7 +238,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk",
+                name: "Twinsilk",
                 "mat-1": "3 Twinthread",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinthread",
+                name: "Twinthread",
                 "mat-1": "4 Twincoon",
                 "mat-2": "Effervescent Water",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Hood of Striking",
+                name: "Twinsilk Hood of Striking",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -274,7 +274,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Turban of Scouting",
+                name: "Twinsilk Turban of Scouting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -286,7 +286,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Turban of Aiming",
+                name: "Twinsilk Turban of Aiming",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -298,7 +298,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Hood of Casting",
+                name: "Twinsilk Hood of Casting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -310,7 +310,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Hood of Healing",
+                name: "Twinsilk Hood of Healing",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -322,7 +322,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Sash of Casting",
+                name: "Twinsilk Sash of Casting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Grade 1 Reisui of Intelligence",
@@ -334,7 +334,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Twinsilk Sash of Healing",
+                name: "Twinsilk Sash of Healing",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Grade 1 Reisui of Mind",
@@ -346,7 +346,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Robe of Aiming",
+                name: "Twinsilk Robe of Aiming",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",
@@ -358,7 +358,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Coat of Casting",
+                name: "Twinsilk Coat of Casting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",
@@ -370,7 +370,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Corset of Casting",
+                name: "Twinsilk Corset of Casting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -382,7 +382,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Corset of Healing",
+                name: "Twinsilk Corset of Healing",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -394,7 +394,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Apron",
+                name: "Twinsilk Apron",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Palladium Nugget",
@@ -406,7 +406,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Slops of Fending",
+                name: "Twinsilk Slops of Fending",
                 "mat-1": "3 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -418,7 +418,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Slops of Aiming",
+                name: "Twinsilk Slops of Aiming",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -430,7 +430,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Slops of Casting",
+                name: "Twinsilk Slops of Casting",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -442,7 +442,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Twinsilk Slops of Healing",
+                name: "Twinsilk Slops of Healing",
                 "mat-1": "3 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Silk Thread",
@@ -454,7 +454,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Serge Knit Cap",
+                name: "Serge Knit Cap",
                 "mat-1": "Twinsilk",
                 "mat-2": "4 Worsted Yarn",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Serge Hood",
+                name: "Serge Hood",
                 "mat-1": "Twinsilk",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -478,7 +478,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Twinsilk Suspenders",
+                name: "Twinsilk Suspenders",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "3 Steppe Serge",
                 "mat-3": "Gazelle Leather",
@@ -490,7 +490,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Serge Poncho",
+                name: "Serge Poncho",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -502,7 +502,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Serge Work Gloves",
+                name: "Serge Work Gloves",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -514,7 +514,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Cropped Twinsilk Slops",
+                name: "Cropped Twinsilk Slops",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "Silk Thread",
@@ -526,7 +526,7 @@ export const WeaverLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Twinsilk Slops of Gathering",
+                name: "Twinsilk Slops of Gathering",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Steppe Serge",

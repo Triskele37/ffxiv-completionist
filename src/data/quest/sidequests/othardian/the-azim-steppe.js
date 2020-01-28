@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheAzimSteppe = function(parentStorageKey) {
+export const Quest_Sidequests_Othardian_The_Azim_Steppe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-azim-steppe`;
 
     return {

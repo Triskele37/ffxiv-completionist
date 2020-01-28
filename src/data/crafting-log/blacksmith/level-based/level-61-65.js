@@ -10,7 +10,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "High Steel Nugget",
+                name: "High Steel Nugget",
                 "mat-1": "4 Koppranickel Sand",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Katzbalger",
+                name: "High Steel Katzbalger",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Headsman's Axe",
+                name: "High Steel Headsman's Axe",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Guillotine",
+                name: "High Steel Guillotine",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "2 Titanium Nugget",
                 "mat-3": "Beech Lumber",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Gunblade",
+                name: "High Steel Gunblade",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Knuckles",
+                name: "High Steel Knuckles",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Tachi",
+                name: "High Steel Tachi",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Crawler Silk",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Main Gauches",
+                name: "High Steel Main Gauches",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Culverin",
+                name: "High Steel Culverin",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Chakrams",
+                name: "High Steel Chakrams",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Saw",
+                name: "High Steel Saw",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Cross-pein Hammer",
+                name: "High Steel Cross-pein Hammer",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Gagana Leather",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Doming Hammer",
+                name: "High Steel Doming Hammer",
                 "mat-1": "3 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Ornamental Hammer",
+                name: "Koppranickel Ornamental Hammer",
                 "mat-1": "High Steel Nugget",
                 "mat-2": "2 Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Head Knife",
+                name: "High Steel Head Knife",
                 "mat-1": "High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Beech Lumber",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Dolabra",
+                name: "High Steel Dolabra",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Gagana Leather",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Hatchet",
+                name: "High Steel Hatchet",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Koppranickel Nugget",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Ingot",
+                name: "High Steel Ingot",
                 "mat-1": "4 Koppranickel Ore",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Claw Hammer",
+                name: "High Steel Claw Hammer",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel File",
+                name: "High Steel File",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Pliers",
+                name: "High Steel Pliers",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Awl",
+                name: "High Steel Awl",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "Bloodhempen Cloth",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Mortar",
+                name: "High Steel Mortar",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Culinary Knife",
+                name: "High Steel Culinary Knife",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "Slate Whetstone",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Sledgehammer",
+                name: "High Steel Sledgehammer",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Scythe",
+                name: "High Steel Scythe",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "Slate Whetstone",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Longsword",
+                name: "High Steel Longsword",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Battleaxe",
+                name: "High Steel Battleaxe",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "High Steel Nugget",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Folded High Steel Greatsword",
+                name: "Folded High Steel Greatsword",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "High Steel Nugget",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Bayonet",
+                name: "High Steel Bayonet",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Larch Lumber",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Folded High Steel Knuckles",
+                name: "Folded High Steel Knuckles",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Uchigatana",
+                name: "High Steel Uchigatana",
                 "mat-1": "3 High Steel Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "Bloodhempen Cloth",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel Kris",
+                name: "High Steel Kris",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "High Steel-barreled Snaphance",
+                name: "High Steel-barreled Snaphance",
                 "mat-1": "2 High Steel Ingot",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Hight Steel War Quoits",
+                name: "Hight Steel War Quoits",
                 "mat-1": "2 High Steel Nugget",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Gyuki Leather",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Oroshigane Ingot",
+                name: "Oroshigane Ingot",
                 "mat-1": "4 Doman Iron Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Longsword",
+                name: "Doman Iron Longsword",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Gagana Leather",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron War Axe",
+                name: "Doman Iron War Axe",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Gyuki Leather",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Gunblade",
+                name: "Doman Iron Gunblade",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Persimmon Lumber",
@@ -478,7 +478,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Claws",
+                name: "Doman Iron Claws",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Pine Lumber",
@@ -490,7 +490,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Glaives",
+                name: "Doman Iron Glaives",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Koppranickel Nugget",
@@ -502,7 +502,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Halfheart Saw",
+                name: "Doman Iron Halfheart Saw",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "Durium Nugget",
@@ -514,7 +514,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Lump Hammer",
+                name: "Doman Iron Lump Hammer",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Durium Nugget",
@@ -526,7 +526,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Raising Hammer",
+                name: "Doman Iron Raising Hammer",
                 "mat-1": "Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Beetle Glue",
@@ -538,7 +538,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Durium Texture Hammer",
+                name: "Durium Texture Hammer",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "2 Durium Nugget",
                 "mat-3": "Pine Lumber",
@@ -550,7 +550,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Head Knife",
+                name: "Doman Iron Head Knife",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Slate Whetstone",
@@ -562,7 +562,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Pickaxe",
+                name: "Doman Iron Pickaxe",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "High Steel Nugget",
@@ -574,7 +574,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Hatchet",
+                name: "Doman Iron Hatchet",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Gyuki Leather",
@@ -586,7 +586,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Greatsword",
+                name: "Doman Iron Greatsword",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Larch Lumber",
@@ -598,7 +598,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Uchigatana",
+                name: "Doman Iron Uchigatana",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Larch Lumber",
                 "mat-3": "Kudzu Cloth",
@@ -610,7 +610,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Daggers",
+                name: "Doman Iron Daggers",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Cloth",
@@ -622,7 +622,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Culverin",
+                name: "Doman Iron Culverin",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Larch Lumber",
@@ -634,7 +634,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Claw Hammer",
+                name: "Doman Iron Claw Hammer",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Beetle Glue",
@@ -646,7 +646,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron File",
+                name: "Doman Iron File",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Tiger Leather",
                 "mat-3": "X",
@@ -658,7 +658,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Pliers",
+                name: "Doman Iron Pliers",
                 "mat-1": "3 Oroshigane Ingot",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -670,7 +670,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Awl",
+                name: "Doman Iron Awl",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Ruby Cotton Cloth",
@@ -682,7 +682,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Mortar",
+                name: "Doman Iron Mortar",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "X",
@@ -694,7 +694,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Culinary Knife",
+                name: "Doman Iron Culinary Knife",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Slate Whetstone",
@@ -706,7 +706,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Sledgehammer",
+                name: "Doman Iron Sledgehammer",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Beetle Glue",
@@ -718,7 +718,7 @@ export const BlacksmithLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Doman Iron Scythe",
+                name: "Doman Iron Scythe",
                 "mat-1": "2 Oroshigane Ingot",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Slate Whetstone",

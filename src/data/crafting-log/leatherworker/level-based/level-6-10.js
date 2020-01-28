@@ -10,7 +10,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "6",
-                "item": "Leather Lightmitts",
+                name: "Leather Lightmitts",
                 "mat-1": "2 Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Leather Ringbands",
+                name: "Leather Ringbands",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Hempen Yarn",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Leather Mitts",
+                name: "Leather Mitts",
                 "mat-1": "2 Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Leather Boots",
+                name: "Leather Boots",
                 "mat-1": "Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Animal Sinew",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Leather Himantes",
+                name: "Leather Himantes",
                 "mat-1": "2 Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Undyed Hempen Cloth",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Leather Wristbands",
+                name: "Leather Wristbands",
                 "mat-1": "Leather",
                 "mat-2": "Animal Glue",
                 "mat-3": "2 Bone Chip",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Hard Leather",
+                name: "Hard Leather",
                 "mat-1": "Animal Hide",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Hard Leather Pot Helm",
+                name: "Hard Leather Pot Helm",
                 "mat-1": "Leather",
                 "mat-2": "Hard Leather",
                 "mat-3": "Bronze Rivets",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Leather Sandals",
+                name: "Leather Sandals",
                 "mat-1": "Leather",
                 "mat-2": "Maple Lumber",
                 "mat-3": "Animal Sinew",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Leather Leggings",
+                name: "Leather Leggings",
                 "mat-1": "2 Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Altered Leather Thighboots",
+                name: "Altered Leather Thighboots",
                 "mat-1": "Leather",
                 "mat-2": "Maple Lumber",
                 "mat-3": "Animal Sinew",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Smithing Gloves",
+                name: "Amateur's Smithing Gloves",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Thighboots",
+                name: "Amateur's Thighboots",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Rubber",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Duckbills",
+                name: "Amateur's Duckbills",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Leather Jacket",
+                name: "Leather Jacket",
                 "mat-1": "3 Hard Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Hard Leather Wristguards",
+                name: "Hard Leather Wristguards",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Hard Leather Merchant's Pouch",
+                name: "Hard Leather Merchant's Pouch",
                 "mat-1": "Hard Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "X",

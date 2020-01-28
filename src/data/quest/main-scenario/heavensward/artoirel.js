@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const HeavenswardArtoirelQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Heavensward_Artoirel = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.artoirel`;
 
     return {

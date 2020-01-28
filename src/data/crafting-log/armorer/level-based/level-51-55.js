@@ -10,7 +10,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Mythrite Nugget",
+                name: "Mythrite Nugget",
                 "mat-1": "Mythril Ore",
                 "mat-2": "5 Mythrite Sand",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Sallet of Fending",
+                name: "Mythrite Sallet of Fending",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -34,7 +34,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Sallet of Maiming",
+                name: "Mythrite Sallet of Maiming",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Tassets of Fending",
+                name: "Mythrite Tassets of Fending",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Tassets of Maiming",
+                name: "Mythrite Tassets of Maiming",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Rivets",
+                name: "Mythrite Rivets",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Scutum",
+                name: "Mythrite Scutum",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Mythrite Rivets",
                 "mat-3": "Archaeornis Leather",
@@ -94,7 +94,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Hauberk of Fending",
+                name: "Mythrite Hauberk of Fending",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "4 Mythrite Nugget",
                 "mat-3": "Darksteel Rings",
@@ -106,7 +106,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Hauberk of Maiming",
+                name: "Mythrite Hauberk of Maiming",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "4 Mythrite Nugget",
                 "mat-3": "Darksteel Rings",
@@ -118,7 +118,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Gauntlets of Fending",
+                name: "Mythrite Gauntlets of Fending",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -130,7 +130,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Gauntlets of Maiming",
+                name: "Mythrite Gauntlets of Maiming",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -142,7 +142,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Sabatons of Fending",
+                name: "Mythrite Sabatons of Fending",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -154,7 +154,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Sabatons of Maiming",
+                name: "Mythrite Sabatons of Maiming",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "3 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -166,7 +166,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Ingot",
+                name: "Mythrite Ingot",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "4 Mythrite Ore",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Alembic",
+                name: "Mythrite Alembic",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Mythrite Rivets",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Frypan Caliente",
+                name: "Frypan Caliente",
                 "mat-1": "3 Mythrite Nugget",
                 "mat-2": "Mythrite Rivets",
                 "mat-3": "Cedar Lumber",
@@ -202,7 +202,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Bladed Lantern Shield",
+                name: "Mythrite Bladed Lantern Shield",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "2 Mythrite Rivets",
@@ -214,7 +214,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Titanium Plate Belt of Fending",
+                name: "Titanium Plate Belt of Fending",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Titanium Plate Belt of Maiming",
+                name: "Titanium Plate Belt of Maiming",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Nugget",
+                name: "Titanium Nugget",
                 "mat-1": "5 Titanium Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "Grenade Ash",
@@ -250,7 +250,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Rivets",
+                name: "Titanium Rivets",
                 "mat-1": "Titanium Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Alembic",
+                name: "Hardsilver Alembic",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Titanium Rivets",
                 "mat-3": "Larimar",
@@ -274,7 +274,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Frypan",
+                name: "Titanium Frypan",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Dark Chestnut Lumber",
@@ -286,7 +286,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Mask of Fending",
+                name: "Titanium Mask of Fending",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -298,7 +298,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Sallet of Maiming",
+                name: "Titanium Sallet of Maiming",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -310,7 +310,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Mask of Striking",
+                name: "Titanium Mask of Striking",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -322,7 +322,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Mask of Scouting",
+                name: "Titanium Mask of Scouting",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -334,7 +334,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Mask of Aiming",
+                name: "Titanium Mask of Aiming",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -346,7 +346,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Kite Shield",
+                name: "Titanium Kite Shield",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "3 Titanium Nugget",
                 "mat-3": "2 Titanium Rivets",
@@ -358,7 +358,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Mail of Fending",
+                name: "Titanium Mail of Fending",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -370,7 +370,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Cuirass of Maiming",
+                name: "Titanium Cuirass of Maiming",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -382,7 +382,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Gauntlets of Fending",
+                name: "Titanium Gauntlets of Fending",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "2 Dhalmel Leather",
@@ -394,7 +394,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Mitt Gauntlets of Maiming",
+                name: "Titanium Mitt Gauntlets of Maiming",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "2 Dhalmel Leather",
@@ -406,7 +406,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Sollerets of Fending",
+                name: "Titanium Sollerets of Fending",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "2 Dhalmel Leather",
@@ -418,7 +418,7 @@ export const ArmorerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Titanium Sabatons of Maiming",
+                name: "Titanium Sabatons of Maiming",
                 "mat-1": "2 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",

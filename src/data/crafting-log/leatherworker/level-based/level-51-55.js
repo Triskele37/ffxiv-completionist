@@ -10,7 +10,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Archaeornis Leather",
+                name: "Archaeornis Leather",
                 "mat-1": "3 Archaeornis Skin",
                 "mat-2": "Coerthan Tea Leaves",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Striking",
+                name: "Archaeoskin Gloves of Striking",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "2 Jadeite",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Aiming",
+                name: "Archaeoskin Gloves of Aiming",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "2 Agate",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Casting",
+                name: "Archaeoskin Gloves of Casting",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "2 Agate",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Healing",
+                name: "Archaeoskin Gloves of Healing",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "2 Agate",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Belt of Striking",
+                name: "Archaeoskin Belt of Striking",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Cloche",
+                name: "Archaeoskin Cloche",
                 "mat-1": "Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Chocobo Feather",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Crafting",
+                name: "Archaeoskin Gloves of Crafting",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugget",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Gloves of Gathering",
+                name: "Archaeoskin Gloves of Gathering",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugget",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Breeches of Fending",
+                name: "Archaeoskin Breeches of Fending",
                 "mat-1": "3 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Breeches of Maiming",
+                name: "Archaeoskin Breeches of Maiming",
                 "mat-1": "3 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Boots of Striking",
+                name: "Archaeoskin Boots of Striking",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "2 Cloud Coral",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Boots of Scouting",
+                name: "Archaeoskin Boots of Scouting",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Shoes of Aiming",
+                name: "Archaeoskin Shoes of Aiming",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Electrum Ingot",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Shoes of Casting",
+                name: "Archaeoskin Shoes of Casting",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Electrum Ingot",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Shoes of Healing",
+                name: "Archaeoskin Shoes of Healing",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Electrum Ingot",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Boots",
+                name: "Archaeoskin Boots",
                 "mat-1": "Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Rubber",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Archaeoskin Halfboots",
+                name: "Archaeoskin Halfboots",
                 "mat-1": "Archaeornis Leather",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Rubber",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvern Leather",
+                name: "Wyvern Leather",
                 "mat-1": "3 Wyvern Skin",
                 "mat-2": "Coerthan Tea Leaves",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Jackcoat of Crafting",
+                name: "Archaeoskin Jackcoat of Crafting",
                 "mat-1": "3 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Jackcoat of Gathering",
+                name: "Archaeoskin Jackcoat of Gathering",
                 "mat-1": "3 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Gloves of Fending",
+                name: "Wyvernskin Gloves of Fending",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Cloth",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Gloves of Maiming",
+                name: "Wyvernskin Gloves of Maiming",
                 "mat-1": "Wyvern Leather",
                 "mat-2": "2 Mythrite Ingot",
                 "mat-3": "2 Rose Gold Nugget",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Gloves of Striking",
+                name: "Wyvernskin Gloves of Striking",
                 "mat-1": "Wyvern Leather",
                 "mat-2": "2 Mythrite Ingot",
                 "mat-3": "2 Rose Gold Nugget",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Cuffs of Scouting",
+                name: "Wyvernskin Cuffs of Scouting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rose Gold Nugget",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Cuffs of Aiming",
+                name: "Wyvernskin Cuffs of Aiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rose Gold Nugget",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Gloves of Casting",
+                name: "Wyvernskin Gloves of Casting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Rainbow Thread",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Gloves of Healing",
+                name: "Wyvernskin Gloves of Healing",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Rainbow Thread",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Fending",
+                name: "Wyvernskin Belt of Fending",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Maiming",
+                name: "Wyvernskin Belt of Maiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Striking",
+                name: "Wyvernskin Belt of Striking",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Scouting",
+                name: "Wyvernskin Belt of Scouting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Aiming",
+                name: "Wyvernskin Belt of Aiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Casting",
+                name: "Wyvernskin Belt of Casting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Wyvernskin Belt of Healing",
+                name: "Wyvernskin Belt of Healing",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Breeches of Crafting",
+                name: "Archaeoskin Breeches of Crafting",
                 "mat-1": "3 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugget",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Breeches of Gathering",
+                name: "Archaeoskin Breeches of Gathering",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugget",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Jackboots of Crafting",
+                name: "Archaeoskin Jackboots of Crafting",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Archaeoskin Jackboots of Gathering",
+                name: "Archaeoskin Jackboots of Gathering",
                 "mat-1": "2 Archaeornis Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Mane of Fending",
+                name: "Wyvernskin Mane of Fending",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "4 Snurble Tufts",
                 "mat-3": "2 Tiger's Eye",
@@ -490,7 +490,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Pot Helm of Maiming",
+                name: "Wyvernskin Pot Helm of Maiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -502,7 +502,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Eyepatch of Striking",
+                name: "Wyvernskin Eyepatch of Striking",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -514,7 +514,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Mask of Casting",
+                name: "Wyvernskin Mask of Casting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "2 Yeti Fang",
@@ -526,7 +526,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Fending",
+                name: "Wyvernskin Boots of Fending",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "2 Archaeornis Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -538,7 +538,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Maiming",
+                name: "Wyvernskin Boots of Maiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Mythrite Nugget",
@@ -550,7 +550,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Striking",
+                name: "Wyvernskin Boots of Striking",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Mythrite Rivets",
@@ -562,7 +562,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Scouting",
+                name: "Wyvernskin Boots of Scouting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Mythrite Rivets",
@@ -574,7 +574,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Aiming",
+                name: "Wyvernskin Boots of Aiming",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Mythrite Rivets",
@@ -586,7 +586,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Casting",
+                name: "Wyvernskin Boots of Casting",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -598,7 +598,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Boots of Healing",
+                name: "Wyvernskin Boots of Healing",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -610,7 +610,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Workboots",
+                name: "Wyvernskin Workboots",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Holy Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -622,7 +622,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Wristbands",
+                name: "Wyvernskin Wristbands",
                 "mat-1": "2 Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "2 Jadeite",
@@ -634,7 +634,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Wyvernskin Ring",
+                name: "Wyvernskin Ring",
                 "mat-1": "Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "X",
@@ -646,7 +646,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmel Leather",
+                name: "Dhalmel Leather",
                 "mat-1": "3 Dhalmel Hide",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "X",
@@ -658,7 +658,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Wyvernskin Jerkin",
+                name: "Wyvernskin Jerkin",
                 "mat-1": "3 Wyvern Leather",
                 "mat-2": "Holy Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -670,7 +670,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Armguards of Striking",
+                name: "Dhalmelskin Armguards of Striking",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "X",
@@ -682,7 +682,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Armguards of Scouting",
+                name: "Dhalmelskin Armguards of Scouting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "X",
@@ -694,7 +694,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Armguards of Aiming",
+                name: "Dhalmelskin Armguards of Aiming",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "X",
@@ -706,7 +706,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Belt of Striking",
+                name: "Dhalmelskin Belt of Striking",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -718,7 +718,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Belt of Scouting",
+                name: "Dhalmelskin Belt of Scouting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -730,7 +730,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Belt of Aiming",
+                name: "Dhalmelskin Belt of Aiming",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -742,7 +742,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Belt of Casting",
+                name: "Dhalmelskin Belt of Casting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -754,7 +754,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dhalmelskin Belt of Healing",
+                name: "Dhalmelskin Belt of Healing",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "X",
@@ -766,7 +766,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Wyvernskin Field Belt",
+                name: "Wyvernskin Field Belt",
                 "mat-1": "3 Wyvern Leather",
                 "mat-2": "Holy Rainbow Cloth",
                 "mat-3": "Rainbow Thread",
@@ -778,7 +778,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Wyvernskin Culottes",
+                name: "Wyvernskin Culottes",
                 "mat-1": "Wyvern Leather",
                 "mat-2": "Mythrite Ingot",
                 "mat-3": "Rainbow Thread",
@@ -790,7 +790,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Wyvernskin Choker",
+                name: "Wyvernskin Choker",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Hardsilver Nugget",
@@ -802,7 +802,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Bush Hat",
+                name: "Dhalmelskin Bush Hat",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -814,7 +814,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Jacket of Striking",
+                name: "Dhalmelskin Jacket of Striking",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -826,7 +826,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Jacket of Scouting",
+                name: "Dhalmelskin Jacket of Scouting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -838,7 +838,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Jacket of Aiming",
+                name: "Dhalmelskin Jacket of Aiming",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -850,7 +850,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Coat",
+                name: "Dhalmelskin Coat",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -862,7 +862,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Halfgloves of Crafting",
+                name: "Dhalmelskin Halfgloves of Crafting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Thread",
                 "mat-3": "X",
@@ -874,7 +874,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Gloves",
+                name: "Dhalmelskin Gloves",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Ramie Thread",
@@ -886,7 +886,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dark Dhalmelskin Gloves",
+                name: "Dark Dhalmelskin Gloves",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Iron Rivets",
@@ -898,7 +898,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Breeches of Fending",
+                name: "Dhalmelskin Breeches of Fending",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Ramie Cloth",
@@ -910,7 +910,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Breeches of Maiming",
+                name: "Dhalmelskin Breeches of Maiming",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Ramie Cloth",
@@ -922,7 +922,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Leggings of Striking",
+                name: "Dhalmelskin Leggings of Striking",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -934,7 +934,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Leggings of Scouting",
+                name: "Dhalmelskin Leggings of Scouting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -946,7 +946,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Leggings of Aiming",
+                name: "Dhalmelskin Leggings of Aiming",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Titanium Nugget",
@@ -958,7 +958,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Crakows of Casting",
+                name: "Dhalmelskin Crakows of Casting",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Hardsilver Nugget",
@@ -970,7 +970,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Crakows of Healing",
+                name: "Dhalmelskin Crakows of Healing",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Hardsilver Nugget",
@@ -982,7 +982,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Moccasins",
+                name: "Dhalmelskin Moccasins",
                 "mat-1": "Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -994,7 +994,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dhalmelskin Thighboots",
+                name: "Dhalmelskin Thighboots",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramier Thread",
                 "mat-3": "Rubber",
@@ -1006,7 +1006,7 @@ export const LeatherworkerLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Fur-lined Dhalmelskin Boots",
+                name: "Fur-lined Dhalmelskin Boots",
                 "mat-1": "Dhalmel Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Blue Fox Hide",

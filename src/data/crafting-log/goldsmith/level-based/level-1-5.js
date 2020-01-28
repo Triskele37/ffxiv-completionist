@@ -10,7 +10,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Copper Ingot",
+                name: "Copper Ingot",
                 "mat-1": "3 Copper Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Bone Hora",
+                name: "Bone Hora",
                 "mat-1": "2 Bone Chip",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Bone Brand",
+                name: "Bone Brand",
                 "mat-1": "Marbled Eye",
                 "mat-2": "Bone Chip",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Copper Rings",
+                name: "Copper Rings",
                 "mat-1": "Copper Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Bone Staff",
+                name: "Bone Staff",
                 "mat-1": "Marbled Eye",
                 "mat-2": "Soiled Femur",
                 "mat-3": "Bone Chip",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Copper Gorget",
+                name: "Copper Gorget",
                 "mat-1": "2 Copper Ingot",
                 "mat-2": "Leather",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Copper Wristlets",
+                name: "Copper Wristlets",
                 "mat-1": "Copper Ingot",
                 "mat-2": "2 Copper Rings",
                 "mat-3": "X",

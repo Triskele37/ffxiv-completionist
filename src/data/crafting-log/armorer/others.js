@@ -10,7 +10,7 @@ export const Armorer_Others = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★",
-                "item": "Wolf Kite Shield",
+                name: "Wolf Kite Shield",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "2 Cobalt Plate",
@@ -22,7 +22,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Celata",
+                name: "Wolf Celata",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Plate",
@@ -34,7 +34,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Elmo",
+                name: "Wolf Elmo",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Cobalt Rivets",
@@ -46,7 +46,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Sallet",
+                name: "Wolf Sallet",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Rivets",
@@ -58,7 +58,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Cuirass",
+                name: "Wolf Cuirass",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Plate",
@@ -70,7 +70,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Scale Mail",
+                name: "Wolf Scale Mail",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Boar Leather",
@@ -82,7 +82,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Gauntlets",
+                name: "Wolf Gauntlets",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Plate",
@@ -94,7 +94,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Scale Fingers",
+                name: "Wolf Scale Fingers",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Adamantoise Shell",
@@ -106,7 +106,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Plate Belt",
+                name: "Wolf Plate Belt",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Boar Leather",
@@ -118,7 +118,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Tassets",
+                name: "Wolf Tassets",
                 "mat-1": "Darksteel Plate",
                 "mat-2": "Mythril Plate",
                 "mat-3": "Raptor Leather",
@@ -130,7 +130,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Sabatons",
+                name: "Wolf Sabatons",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Cobalt Plate",
@@ -142,7 +142,7 @@ export const Armorer_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Scale Greaves",
+                name: "Wolf Scale Greaves",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Adamantoise Shell",

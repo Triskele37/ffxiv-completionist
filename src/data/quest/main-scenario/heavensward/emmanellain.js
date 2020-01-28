@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const HeavenswardEmmanellainQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Heavensward_Emmanellain = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.emmanellain`;
 
     return {

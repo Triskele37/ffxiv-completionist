@@ -9,7 +9,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
         columns: CraftingLogColumnConfig,
         tasks: [{
             "level": "16",
-            "item": "Elm Lumber",
+            name: "Elm Lumber",
             "mat-1": "3 Elm Log",
             "mat-2": "X",
             "mat-3": "X",
@@ -21,7 +21,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
         },
             {
                 "level": "16",
-                "item": "Elm Fishing Rod",
+                name: "Elm Fishing Rod",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Ash Branch",
                 "mat-3": "Iron Ingot",
@@ -33,7 +33,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Iron Spear",
+                name: "Iron Spear",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Clove Oil",
@@ -45,7 +45,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Elm Cane",
+                name: "Elm Cane",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Growth Formula Beta",
                 "mat-3": "X",
@@ -57,7 +57,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Elm Longbow",
+                name: "Elm Longbow",
                 "mat-1": "Elm Lumber",
                 "mat-2": "2 Ash Branch",
                 "mat-3": "Cotton Yarn",
@@ -69,7 +69,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Elm Crook",
+                name: "Elm Crook",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Beastkin Blood",
                 "mat-3": "X",
@@ -81,7 +81,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Initiate's Spinning Wheel",
+                name: "Initiate's Spinning Wheel",
                 "mat-1": "Elm Lumber",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",
@@ -93,7 +93,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Blank Grade 1 Orchestrion Roll",
+                name: "Blank Grade 1 Orchestrion Roll",
                 "mat-1": "Moko Grass",
                 "mat-2": "Elm Log",
                 "mat-3": "X",
@@ -105,7 +105,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Lance",
+                name: "Iron Lance",
                 "mat-1": "Elm Lumber",
                 "mat-2": "2 Iron Ingot",
                 "mat-3": "Hard Leather",
@@ -117,7 +117,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Initiate's Fishing Rod",
+                name: "Initiate's Fishing Rod",
                 "mat-1": "Elm Lumber",
                 "mat-2": "Yew Branch",
                 "mat-3": "Iron Ingot",
@@ -129,7 +129,7 @@ export const CarpenterLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Ash Mask (Lapis Lazuli)",
+                name: "Ash Mask (Lapis Lazuli)",
                 "mat-1": "Ash Lumber",
                 "mat-2": "Lapis Lazulis",
                 "mat-3": "Clove Oil",

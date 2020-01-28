@@ -1,15 +1,18 @@
-import { LevelBasedMiningLogs } from "./level-based";
-import { SpecialMiningLogs } from "./special";
+import { Mining_Log_Level } from "./level-based";
+import { Mining_Log_Special } from "./special";
 
-export const MiningLog = function(parentStorageKey) {
+export const Mining_Log = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.mining`;
 
     return {
         name: "Mining",
         storageKey,
-        subGroups: [
-            LevelBasedMiningLogs(storageKey),
-            SpecialMiningLogs(storageKey),
+        groupKeys: [
+            "Level",
+            "Special",
         ],
+        // Groups
+        Level: Mining_Log_Level(storageKey),
+        Special: Mining_Log_Special(storageKey),
     };
 };

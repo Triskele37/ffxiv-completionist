@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MorDhona = function(parentStorageKey) {
+export const Quest_Sidequests_Mor_Dhonan_Mor_Dhona = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.mor-dhona`;
 
     return {

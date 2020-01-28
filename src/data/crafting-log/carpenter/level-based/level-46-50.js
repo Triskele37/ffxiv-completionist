@@ -10,7 +10,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Yew Longbow",
+                name: "Yew Longbow",
                 "mat-1": "Rosewood Lumber",
                 "mat-2": "2 Yew Branch",
                 "mat-3": "Raptor Sinew",
@@ -22,7 +22,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Cobalt Trident",
+                name: "Cobalt Trident",
                 "mat-1": "3 Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Shark Oil",
@@ -34,7 +34,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Basilisk Grinding Wheel",
+                name: "Basilisk Grinding Wheel",
                 "mat-1": "Rosewood Lumber",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Basilisk Egg",
@@ -46,7 +46,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Vintage Bow",
+                name: "Vintage Bow",
                 "mat-1": "Warped Bow",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Pastoral Mahogany Cane",
+                name: "Pastoral Mahogany Cane",
                 "mat-1": "Mahogany Lumber",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Mythril Ingot",
@@ -70,7 +70,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Gilded Rosewood Fishing Rod",
+                name: "Gilded Rosewood Fishing Rod",
                 "mat-1": "Rosewood Fishing Rod",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Shark Oil",
@@ -82,7 +82,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Mahogany Pattens",
+                name: "Mahogany Pattens",
                 "mat-1": "Mahogany Lumber",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Boar Leather",
@@ -94,7 +94,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Hart Guisarme",
+                name: "Hart Guisarme",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Horn Glue",
@@ -106,7 +106,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Crab Bow",
+                name: "Crab Bow",
                 "mat-1": "Oak Composite Bow",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Green Megalocrab Shell",
@@ -118,7 +118,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Spruce Lumber",
+                name: "Spruce Lumber",
                 "mat-1": "3 Spruce Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Champion's Lance",
+                name: "Champion's Lance",
                 "mat-1": "Bloody Lance Head",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Longarm's Composite Bow",
+                name: "Longarm's Composite Bow",
                 "mat-1": "Bloody Bow Rim",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Grinding Wheel",
+                name: "Militia Grinding Wheel",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Astral Rock",
                 "mat-3": "Spruce Lumber",
@@ -166,7 +166,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Spinning Wheel",
+                name: "Militia Spinning Wheel",
                 "mat-1": "2 Spruce Lumber",
                 "mat-2": "2 Cobalt Rivets",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Treated Spruce Lumber",
+                name: "Treated Spruce Lumber",
                 "mat-1": "2 Spruce Lumber",
                 "mat-2": "9 Hardened Sap",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Sarnga Limb",
+                name: "Sarnga Limb",
                 "mat-1": "Treated Spruce Lumber",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Sarnga",
+                name: "Sarnga",
                 "mat-1": "Sarnga Limb",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "3 Spruce Lumber",
@@ -214,7 +214,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Spruce Round Shield",
+                name: "Spruce Round Shield",
                 "mat-1": "Treated Spruce Lumber",
                 "mat-2": "Darksteel Rivets",
                 "mat-3": "Darksteel Nugget",
@@ -226,7 +226,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Spruce Pattens",
+                name: "Spruce Pattens",
                 "mat-1": "Garlean Rubber",
                 "mat-2": "Treated Spruce Lumber",
                 "mat-3": "Undyed Felt",
@@ -238,7 +238,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Magicked Stable Broom",
+                name: "Magicked Stable Broom",
                 "mat-1": "Broombush",
                 "mat-2": "Bamboo Stick",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Blank Grade 2 Orchestrion Roll",
+                name: "Blank Grade 2 Orchestrion Roll",
                 "mat-1": "Spruce Log",
                 "mat-2": "Cypress Log",
                 "mat-3": "Potash",
@@ -262,7 +262,7 @@ export const CarpenterLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Magic Broom",
+                name: "Magic Broom",
                 "mat-1": "Glazenut",
                 "mat-2": "Broombush",
                 "mat-3": "Rosewood Branch",

@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★",
-                "item": "Wind-up Chimera",
+                name: "Wind-up Chimera",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "2 Chimerical Felt",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Wind-up Shinryu",
+                name: "Wind-up Shinryu",
                 "mat-1": "Royal Fern",
                 "mat-2": "Twinsilk",
                 "mat-3": "Worsted Yarn",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Rhea Cloth",
+                name: "Rhea Cloth",
                 "mat-1": "4 Rhea",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "2 Doman Weave",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Bottoms of Crafting",
+                name: "Ala Mhigan Bottoms of Crafting",
                 "mat-1": "2 Ala Mhigan Fiber",
                 "mat-2": "Rhea Cloth",
                 "mat-3": "2 Gazelle Leather",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Bottoms of Gathering",
+                name: "Ala Mhigan Bottoms of Gathering",
                 "mat-1": "2 Ala Mhigan Fiber",
                 "mat-2": "Rhea Cloth",
                 "mat-3": "2 Gazelle Leather",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Tabard of Aiming",
+                name: "Indigo Ramie Tabard of Aiming",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Molybdenum Ingot",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Robe of Casting",
+                name: "Indigo Ramie Robe of Casting",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Silk Thread",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Robe of Healing",
+                name: "Indigo Ramie Robe of Healing",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Silk Thread",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Doublet of Crafting",
+                name: "Ala Mhigan Doublet of Crafting",
                 "mat-1": "3 Ala Mhigan Fiber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "2 Twinsilk",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Coat of Gathering",
+                name: "Ala Mhigan Coat of Gathering",
                 "mat-1": "3 Ala Mhigan Fiber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "2 Twinsilk",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Thavnairian Wool Autumn Shirt",
+                name: "Thavnairian Wool Autumn Shirt",
                 "mat-1": "3 Thavnairian Wool",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Palladium Nugget",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Thavnairian Wool Autumn Dress",
+                name: "Thavnairian Wool Autumn Dress",
                 "mat-1": "3 Thavnairian Wool",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Palladium Nugget",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Hannish Wool Autumn Shirt",
+                name: "Hannish Wool Autumn Shirt",
                 "mat-1": "3 Hannish Wool",
                 "mat-2": "2 Gyuki Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Fending",
+                name: "Indigo Ramie Sash of Fending",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Maiming",
+                name: "Indigo Ramie Sash of Maiming",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Striking",
+                name: "Indigo Ramie Sash of Striking",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Scouting",
+                name: "Indigo Ramie Sash of Scouting",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Aiming",
+                name: "Indigo Ramie Sash of Aiming",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -226,7 +226,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Casting",
+                name: "Indigo Ramie Sash of Casting",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -238,7 +238,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sash of Healing",
+                name: "Indigo Ramie Sash of Healing",
                 "mat-1": "2 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -250,7 +250,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sarouel of Striking",
+                name: "Indigo Ramie Sarouel of Striking",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -262,7 +262,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Sarouel of Scouting",
+                name: "Indigo Ramie Sarouel of Scouting",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -274,7 +274,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Skirt of Casting",
+                name: "Indigo Ramie Skirt of Casting",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -286,7 +286,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Indigo Ramie Skirt of Healing",
+                name: "Indigo Ramie Skirt of Healing",
                 "mat-1": "3 Rhea Cloth",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Silk Thread",
@@ -298,7 +298,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Bottoms of Crafting",
+                name: "Ala Mhigan Bottoms of Crafting",
                 "mat-1": "2 Ala Mhigan Fiber",
                 "mat-2": "Rhea Cloth",
                 "mat-3": "2 Gazelle Leather",
@@ -310,7 +310,7 @@ export const Weaver_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Bottoms of Gathering",
+                name: "Ala Mhigan Bottoms of Gathering",
                 "mat-1": "2 Ala Mhigan Fiber",
                 "mat-2": "Rhea Cloth",
                 "mat-3": "2 Gazelle Leather",

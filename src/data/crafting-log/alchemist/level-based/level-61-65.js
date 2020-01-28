@@ -10,7 +10,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Growth Formula Eta",
+                name: "Growth Formula Eta",
                 "mat-1": "Nigari",
                 "mat-2": "3 Moth Scales",
                 "mat-3": "Birch Sap",
@@ -22,7 +22,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Enchanted Koppranickel Ink",
+                name: "Enchanted Koppranickel Ink",
                 "mat-1": "3 Koppranickel Sand",
                 "mat-2": "Moth Scales   ",
                 "mat-3": "Deepeye Tears",
@@ -34,7 +34,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Index",
+                name: "Koppranickel Index",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "2 Mythrite Nugget",
                 "mat-3": "Beech Lumber",
@@ -46,7 +46,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Koppranickel Codex",
+                name: "Koppranickel Codex",
                 "mat-1": "2 Koppranickel Nugget",
                 "mat-2": "2 Mythrite Nugget",
                 "mat-3": "Beech Lumber",
@@ -58,7 +58,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Grimoire",
+                name: "Gyuki Leather Grimoire",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -70,7 +70,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Gyuki Leather Codex",
+                name: "Gyuki Leather Codex",
                 "mat-1": "2 Gyuki Leather",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "Larch Lumber",
@@ -82,7 +82,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Potent Spiritbond Potion",
+                name: "Potent Spiritbond Potion",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Muud Suud Horn",
                 "mat-3": "Loquat",
@@ -94,7 +94,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grade 1 Reisui of Strength",
+                name: "Grade 1 Reisui of Strength",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Holy Basil",
                 "mat-3": "2 Rue",
@@ -106,7 +106,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grade 1 Reisui of Dexterity",
+                name: "Grade 1 Reisui of Dexterity",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Holy Basil",
                 "mat-3": "2 Coneflower",
@@ -118,7 +118,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grade 1 Reisui of Vitality",
+                name: "Grade 1 Reisui of Vitality",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Holy Basil",
                 "mat-3": "2 Cow Bitter",
@@ -130,7 +130,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grade 1 Reisui of Intelligence",
+                name: "Grade 1 Reisui of Intelligence",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Holy Basil",
                 "mat-3": "2 Coriander",
@@ -142,7 +142,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grade 1 Reisui of Mind",
+                name: "Grade 1 Reisui of Mind",
                 "mat-1": "Gyr Abanian Mineral Water",
                 "mat-2": "2 Holy Basil",
                 "mat-3": "2 Dandelion",
@@ -154,7 +154,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Enchanted Duriam Ink",
+                name: "Enchanted Duriam Ink",
                 "mat-1": "3 Durian Sand",
                 "mat-2": "Cottonseed Oil",
                 "mat-3": "Gyr Abanian Mineral Water",
@@ -166,7 +166,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Beetle Glue",
+                name: "Beetle Glue",
                 "mat-1": "2 Rhino Beetle Carapace",
                 "mat-2": "Pine Resin",
                 "mat-3": "Moth Scales",
@@ -178,7 +178,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Competent Craftsman's Tea",
+                name: "Competent Craftsman's Tea",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Dzo Horn",
                 "mat-3": "2 Kudzu Root",
@@ -190,7 +190,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Grimoire",
+                name: "Tigerskin Grimoire",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Pine Lumber",
@@ -202,7 +202,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Tigerskin Codex",
+                name: "Tigerskin Codex",
                 "mat-1": "2 Tiger Leather",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Pine Lumber",
@@ -214,7 +214,7 @@ export const AlchemistLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Commanding Craftsman's Tea",
+                name: "Commanding Craftsman's Tea",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Dzo Horn",
                 "mat-3": "2 Persimmon Lead",

@@ -10,7 +10,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Growth Formula Theta",
+                name: "Growth Formula Theta",
                 "mat-1": "3 Windtea Leaves",
                 "mat-2": "Persimmon Tannin",
                 "mat-3": "Perlite",
@@ -22,7 +22,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Persimmon Tannin",
+                name: "Persimmon Tannin",
                 "mat-1": "5 Persimmon",
                 "mat-2": "Crescent Spring Water",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Dahlia Corsage",
+                name: "Red Dahlia Corsage",
                 "mat-1": "Red Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -46,7 +46,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Dahlia Corsage",
+                name: "Blue Dahlia Corsage",
                 "mat-1": "Blue Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -58,7 +58,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Dahlia Corsage",
+                name: "Yellow Dahlia Corsage",
                 "mat-1": "Yellow Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -70,7 +70,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Dahlia Corsage",
+                name: "Green Dahlia Corsage",
                 "mat-1": "Green Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -82,7 +82,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Dahlia Corsage",
+                name: "Orange Dahlia Corsage",
                 "mat-1": "Orange Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -94,7 +94,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Dahlia Corsage",
+                name: "Purple Dahlia Corsage",
                 "mat-1": "Purple Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -106,7 +106,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Dahlia Corsage",
+                name: "White Dahlia Corsage",
                 "mat-1": "White Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -118,7 +118,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Dahlia Corsage",
+                name: "Black Dahlia Corsage",
                 "mat-1": "Black Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -130,7 +130,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Dahlia Corsage",
+                name: "Rainbow Dahlia Corsage",
                 "mat-1": "Rainbow Dahlias",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -142,7 +142,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Arum Corsage",
+                name: "Red Arum Corsage",
                 "mat-1": "Red Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -154,7 +154,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Arum Corsage",
+                name: "Blue Arum Corsage",
                 "mat-1": "Blue Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -166,7 +166,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Arum Corsage",
+                name: "Yellow Arum Corsage",
                 "mat-1": "Yellow Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -178,7 +178,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Arum Corsage",
+                name: "Green Arum Corsage",
                 "mat-1": "Green Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -190,7 +190,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Arum Corsage",
+                name: "Orange Arum Corsage",
                 "mat-1": "Orange Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -202,7 +202,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Arum Corsage",
+                name: "Purple Arum Corsage",
                 "mat-1": "Purple Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -214,7 +214,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Arum Corsage",
+                name: "White Arum Corsage",
                 "mat-1": "White Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -226,7 +226,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Arum Corsage",
+                name: "Black Arum Corsage",
                 "mat-1": "Black Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -238,7 +238,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Arum Corsage",
+                name: "Rainbow Arum Corsage",
                 "mat-1": "Rainbow Arums",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -250,7 +250,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Lily of the Valley Corsage",
+                name: "Red Lily of the Valley Corsage",
                 "mat-1": "Red Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -262,7 +262,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Lily of the Valley Corsage",
+                name: "Blue Lily of the Valley Corsage",
                 "mat-1": "Blue Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -274,7 +274,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Lily of the Valley Corsage",
+                name: "Yellow Lily of the Valley Corsage",
                 "mat-1": "Yelleow Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -286,7 +286,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Lily of the Valley Corsage",
+                name: "Green Lily of the Valley Corsage",
                 "mat-1": "Green Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -298,7 +298,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Lily of the Valley Corsage",
+                name: "Orange Lily of the Valley Corsage",
                 "mat-1": "Orange Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -310,7 +310,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Lily of the Valley Corsage",
+                name: "Purple Lily of the Valley Corsage",
                 "mat-1": "Purple Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -322,7 +322,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Lily of the Valley Corsage",
+                name: "White Lily of the Valley Corsage",
                 "mat-1": "White Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -334,7 +334,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Lily of the Valley Corsage",
+                name: "Black Lily of the Valley Corsage",
                 "mat-1": "Black Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -346,7 +346,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Lily of the Valley Corsage",
+                name: "Rainbow Lily of the Valley Corsage",
                 "mat-1": "Rainbow Lilies of the Valley",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -358,7 +358,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Hydrangea Corsage",
+                name: "Red Hydrangea Corsage",
                 "mat-1": "Red Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -370,7 +370,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Hydrangea Corsage",
+                name: "Blue Hydrangea Corsage",
                 "mat-1": "Blue Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -382,7 +382,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Hydrangea Corsage",
+                name: "Yellow Hydrangea Corsage",
                 "mat-1": "Yelleow Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -394,7 +394,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Hydrangea Corsage",
+                name: "Green Hydrangea Corsage",
                 "mat-1": "Green Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -406,7 +406,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Hydrangea Corsage",
+                name: "Orange Hydrangea Corsage",
                 "mat-1": "Orange Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -418,7 +418,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Hydrangea Corsage",
+                name: "Purple Hydrangea Corsage",
                 "mat-1": "Purple Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -430,7 +430,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Hydrangea Corsage",
+                name: "White Hydrangea Corsage",
                 "mat-1": "White Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -442,7 +442,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Hydrangea Corsage",
+                name: "Black Hydrangea Corsage",
                 "mat-1": "Black Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -454,7 +454,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Hydrangea Corsage",
+                name: "Rainbow Hydrangea Corsage",
                 "mat-1": "Rainbow Hydrangeas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -466,7 +466,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Campanula Corsage",
+                name: "Red Campanula Corsage",
                 "mat-1": "Red Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -478,7 +478,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Campanula Corsage",
+                name: "Blue Campanula Corsage",
                 "mat-1": "Blue Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -490,7 +490,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Campanula Corsage",
+                name: "Yellow Campanula Corsage",
                 "mat-1": "Yellow Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -502,7 +502,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Campanula Corsage",
+                name: "Green Campanula Corsage",
                 "mat-1": "Green Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -514,7 +514,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Campanula Corsage",
+                name: "Orange Campanula Corsage",
                 "mat-1": "Orange Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -526,7 +526,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Campanula Corsage",
+                name: "Purple Campanula Corsage",
                 "mat-1": "Purple Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -538,7 +538,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Campanula Corsage",
+                name: "White Campanula Corsage",
                 "mat-1": "White Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -550,7 +550,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Campanula Corsage",
+                name: "Black Campanula Corsage",
                 "mat-1": "Black Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -562,7 +562,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Campanula Corsage",
+                name: "Rainbow Campanula Corsage",
                 "mat-1": "Rainbow Campanulas",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -574,7 +574,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Red Tulip Corsage",
+                name: "Red Tulip Corsage",
                 "mat-1": "Red Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -586,7 +586,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Blue Tulip Corsage",
+                name: "Blue Tulip Corsage",
                 "mat-1": "Blue Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -598,7 +598,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Yellow Tulip Corsage",
+                name: "Yellow Tulip Corsage",
                 "mat-1": "Yelleow Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -610,7 +610,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Green Tulip Corsage",
+                name: "Green Tulip Corsage",
                 "mat-1": "Green Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -622,7 +622,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Orange Tulip Corsage",
+                name: "Orange Tulip Corsage",
                 "mat-1": "Orange Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -634,7 +634,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Purple Tulip Corsage",
+                name: "Purple Tulip Corsage",
                 "mat-1": "Purple Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -646,7 +646,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "White Tulip Corsage",
+                name: "White Tulip Corsage",
                 "mat-1": "White Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -658,7 +658,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Black Tulip Corsage",
+                name: "Black Tulip Corsage",
                 "mat-1": "Black Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -670,7 +670,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Rainbow Tulip Corsage",
+                name: "Rainbow Tulip Corsage",
                 "mat-1": "Rainbow Tulips",
                 "mat-2": "Bear Fat",
                 "mat-3": "Dravanian Spring Water",
@@ -682,7 +682,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Grimoire",
+                name: "Marid Leather Grimoire",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Durium Nugget",
@@ -694,7 +694,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Marid Leather Codex",
+                name: "Marid Leather Codex",
                 "mat-1": "2 Marid Leather",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Durium Nugget",
@@ -706,7 +706,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Cunning Craftsman's Tea",
+                name: "Cunning Craftsman's Tea",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Gazelle Horn",
                 "mat-3": "2 Windtea Leaves",
@@ -718,7 +718,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Enchanted Palladium Ink",
+                name: "Enchanted Palladium Ink",
                 "mat-1": "3 Palladium Sand",
                 "mat-2": "Pine Resin",
                 "mat-3": "Crescent Spring Water",
@@ -730,7 +730,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Grimoire",
+                name: "Gazelleskin Grimoire",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Durium Nugget",
@@ -742,7 +742,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Gazelleskin Codex",
+                name: "Gazelleskin Codex",
                 "mat-1": "2 Gazelle Leather",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Durium Nugget",
@@ -754,7 +754,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Infusion of Vitality",
+                name: "Infusion of Vitality",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Nagxian Cudweed",
                 "mat-3": "Dusklight Aethersand",
@@ -766,7 +766,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Infusion of Mind",
+                name: "Infusion of Mind",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Nipplewort",
                 "mat-3": "Dusklight Aethersand",
@@ -778,7 +778,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Super-Potion",
+                name: "Super-Potion",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Alyssum",
                 "mat-3": "Nagxian Cudweed",
@@ -790,7 +790,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Super-Ether",
+                name: "Super-Ether",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Chickweed",
                 "mat-3": "Nipplewort",
@@ -802,7 +802,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Infusion of Strength",
+                name: "Infusion of Strength",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Yanxian Parsley",
                 "mat-3": "Dusklight Aethersand",
@@ -814,7 +814,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Infusion of Dexterity",
+                name: "Infusion of Dexterity",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Alyssum",
                 "mat-3": "Dusklight Aethersand",
@@ -826,7 +826,7 @@ export const AlchemistLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Infusion of Intelligence",
+                name: "Infusion of Intelligence",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "2 Chickweed",
                 "mat-3": "Dusklight Aethersand",

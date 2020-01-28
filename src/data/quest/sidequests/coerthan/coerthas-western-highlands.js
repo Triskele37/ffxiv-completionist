@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CoerthasWesternHighlands = function(parentStorageKey) {
+export const Quest_Sidequests_Coerthan_Coerthas_Western_Highlands = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.western-highlands`;
 
     return {

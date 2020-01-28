@@ -10,7 +10,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Titanbronze Ingot",
+                name: "Titanbronze Ingot",
                 "mat-1": "4 Titancopper Ore",
                 "mat-2": "Titanium Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Headband of Scouting",
+                name: "Titanbronze Headband of Scouting",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Zonure Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -34,7 +34,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Fending",
+                name: "Titanbronze Tassets of Fending",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -46,7 +46,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Maiming",
+                name: "Titanbronze Tassets of Maiming",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -58,7 +58,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Striking",
+                name: "Titanbronze Tassets of Striking",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -70,7 +70,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Scouting",
+                name: "Titanbronze Tassets of Scouting",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -82,7 +82,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Aiming",
+                name: "Titanbronze Tassets of Aiming",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -94,7 +94,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Casting",
+                name: "Titanbronze Tassets of Casting",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -106,7 +106,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Tassets of Healing",
+                name: "Titanbronze Tassets of Healing",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -118,7 +118,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Alembic",
+                name: "Titanbronze Alembic",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Moogle Frypan",
+                name: "Titanbronze Moogle Frypan",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Tower Shield",
+                name: "Titanbronze Tower Shield",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Hardsilver Nugget",
@@ -154,7 +154,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Ingot",
+                name: "Dwarven Mythril Ingot",
                 "mat-1": "4 Dimythrite",
                 "mat-2": "Mythrite Ore",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Helm of Fending",
+                name: "Dwarven Mythril Helm of Fending",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "2 Wildfowl Feather",
@@ -178,7 +178,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Helm of Maiming",
+                name: "Dwarven Mythril Helm of Maiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "2 Wildfowl Feather",
@@ -190,7 +190,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Helm of Striking",
+                name: "Dwarven Mythril Helm of Striking",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "2 Wildfowl Feather",
@@ -202,7 +202,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Chainmail of Fending",
+                name: "Dwarven Mythril Chainmail of Fending",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Dwarven Cotton",
@@ -214,7 +214,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Chainmail of Maiming",
+                name: "Dwarven Mythril Chainmail of Maiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Dwarven Cotton",
@@ -226,7 +226,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Chainmail of Striking",
+                name: "Dwarven Mythril Chainmail of Striking",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Dwarven Cotton",
@@ -238,7 +238,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Plate Belt of Fending",
+                name: "Dwarven Mythril Plate Belt of Fending",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -250,7 +250,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Plate Belt of Maiming",
+                name: "Dwarven Mythril Plate Belt of Maiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -262,7 +262,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Shoes of Fending",
+                name: "Dwarven Mythril Shoes of Fending",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Bright Linen Yarn",
@@ -274,7 +274,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Shoes of Maiming",
+                name: "Dwarven Mythril Shoes of Maiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Bright Linen Yarn",
@@ -286,7 +286,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Shoes of Scouting",
+                name: "Dwarven Mythril Shoes of Scouting",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Bright Linen Yarn",
@@ -298,7 +298,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Shoes of Aiming",
+                name: "Dwarven Mythril Shoes of Aiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Sea Swallow Leather",
                 "mat-3": "Bright Linen Yarn",
@@ -310,7 +310,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Shield",
+                name: "Dwarven Mythril Shield",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Ingot",
@@ -322,7 +322,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Plate Belt of Striking",
+                name: "Dwarven Mythril Plate Belt of Striking",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -334,7 +334,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Plate Belt of Scouting",
+                name: "Dwarven Mythril Plate Belt of Scouting",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -346,7 +346,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Plate Belt of Aiming",
+                name: "Dwarven Mythril Plate Belt of Aiming",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -358,7 +358,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Plate Belt of Casting",
+                name: "Dwarven Mythril Plate Belt of Casting",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -370,7 +370,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Plate Belt of Healing",
+                name: "Dwarven Mythril Plate Belt of Healing",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -382,7 +382,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Alembic",
+                name: "Dwarven Mythril Alembic",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "X",
@@ -394,7 +394,7 @@ export const ArmorerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Frypan",
+                name: "Dwarven Mythril Frypan",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",

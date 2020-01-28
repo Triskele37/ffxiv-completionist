@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "55",
-                "item": "Company Tabard",
+                name: "Company Tabard",
                 "mat-1": "3 Dusk Leather",
                 "mat-2": "2 Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Sash of Aiming",
+                name: "Chimerical Felt Sash of Aiming",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Sash of Casting",
+                name: "Chimerical Felt Sash of Casting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Coif of Striking",
+                name: "Chimerical Felt Coif of Striking",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Coif of Scouting",
+                name: "Chimerical Felt Coif of Scouting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Coif of Aiming",
+                name: "Chimerical Felt Coif of Aiming",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Hat of Casting",
+                name: "Chimerical Felt Hat of Casting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Crawler Silk",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Turban of Crafting",
+                name: "Chimerical Felt Turban of Crafting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Tabard of Striking",
+                name: "Chimerical Felt Tabard of Striking",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Tabard of Scouting",
+                name: "Chimerical Felt Tabard of Scouting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Tabard of Aiming",
+                name: "Chimerical Felt Tabard of Aiming",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Coat of Casting",
+                name: "Chimerical Felt Coat of Casting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Crawler Silk",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Robe of Healing",
+                name: "Chimerical Felt Robe of Healing",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Crawler Silk",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Doublet of Crafting",
+                name: "Chimerical Felt Doublet of Crafting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "2 Amphiptere Leather",
                 "mat-3": "Crawler Silk",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Survival Shirt",
+                name: "Survival Shirt",
                 "mat-1": "3 Pellitory",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Breeches of Fending",
+                name: "Chimerical Felt Breeches of Fending",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Breeches of Healing",
+                name: "Chimerical Felt Breeches of Healing",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Crawler Silk",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Skirt",
+                name: "Chimerical Felt Skirt",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Hallowed Ramie Cloth",
                 "mat-3": "Crawler Silk",
@@ -226,7 +226,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Chimerical Felt Trousers",
+                name: "Chimerical Felt Trousers",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Crawler Silk",
@@ -238,7 +238,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Survival Halfslops",
+                name: "Survival Halfslops",
                 "mat-1": "3 Pellitory",
                 "mat-2": "2 Ramie Cloth",
                 "mat-3": "Dhalmel Leather",
@@ -250,7 +250,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cloud Cloth",
+                name: "Cloud Cloth",
                 "mat-1": "2 Cloud Cotton Boll",
                 "mat-2": "Ramie Thread",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Turban",
+                name: "Thavnairian Turban",
                 "mat-1": "2 Thavnairian Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -274,7 +274,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Headdress",
+                name: "Thavnairian Headdress",
                 "mat-1": "2 Thavnairian Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -286,7 +286,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind Silk Wedge Cap",
+                name: "Wind Silk Wedge Cap",
                 "mat-1": "Wind Silk",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Crawler Silk",
@@ -298,7 +298,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cashmere Hood",
+                name: "Cashmere Hood",
                 "mat-1": "Cashmere Cloth",
                 "mat-2": "Wool Top",
                 "mat-3": "Bearskin",
@@ -310,7 +310,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Flannel Knit Cap",
+                name: "Flannel Knit Cap",
                 "mat-1": "Flannel",
                 "mat-2": "5 Woolen Yarn",
                 "mat-3": "2 Fieldcraft Demimateria II",
@@ -322,7 +322,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Doublet of Casting",
+                name: "Chivalric Doublet of Casting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Hallowed Ramie Cloth",
@@ -334,7 +334,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Doublet of Healing",
+                name: "Chivalric Doublet of Healing",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Hallowed Ramie Cloth",
@@ -346,7 +346,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Bustier",
+                name: "Thavnairian Bustier",
                 "mat-1": "3 Thavnairian Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -358,7 +358,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Justaucorps",
+                name: "High House Justaucorps",
                 "mat-1": "2 Wind Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -370,7 +370,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Bustle",
+                name: "High House Bustle",
                 "mat-1": "2 Wind Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -382,7 +382,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Falconer's Shirt",
+                name: "Falconer's Shirt",
                 "mat-1": "2 Falconer's Help",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Dragon Leather",
@@ -394,7 +394,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind Silk Coatee",
+                name: "Wind Silk Coatee",
                 "mat-1": "2 Wind Silk",
                 "mat-2": "Dusk Leather",
                 "mat-3": "2 Crawler Silk",
@@ -406,7 +406,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cashmere Poncho",
+                name: "Cashmere Poncho",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Wool Top",
                 "mat-3": "2 Bearskin",
@@ -418,7 +418,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Flannel Suspenders",
+                name: "Flannel Suspenders",
                 "mat-1": "2 Flannel",
                 "mat-2": "2 Cloud Cloth",
                 "mat-3": "Pterodactyl Leather",
@@ -430,7 +430,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Armlets",
+                name: "Thavnairian Armlets",
                 "mat-1": "2 Thavnairian Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -442,7 +442,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Sarouel",
+                name: "Thavnairian Sarouel",
                 "mat-1": "2 Thavnairian Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -454,7 +454,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Breeches",
+                name: "High House Breeches",
                 "mat-1": "Wind Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -466,7 +466,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind Silk Bottoms",
+                name: "Wind Silk Bottoms",
                 "mat-1": "2 Wind Silk",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "2 Crawler Silk",
@@ -478,7 +478,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cashmere Slops",
+                name: "Cashmere Slops",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Wool Top",
                 "mat-3": "Bearskin",
@@ -490,7 +490,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cropped Flannel Slops",
+                name: "Cropped Flannel Slops",
                 "mat-1": "Flannel",
                 "mat-2": "2 Cloud Cloth",
                 "mat-3": "2 Sewing Thread",
@@ -502,7 +502,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Blessed Fletchings",
+                name: "Blessed Fletchings",
                 "mat-1": "2 Royal Mistletoe",
                 "mat-2": "Eagle Feather",
                 "mat-3": "Dawnborne Aethersand",
@@ -514,7 +514,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Illuminatus",
+                name: "Wind-up Illuminatus",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -526,7 +526,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Ifrit",
+                name: "Wind-up Ifrit",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -538,7 +538,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Garuda",
+                name: "Wind-up Garuda",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -550,7 +550,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Titan",
+                name: "Wind-up Titan",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -562,7 +562,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Leviathan",
+                name: "Wind-up Leviathan",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -574,7 +574,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Ramuh",
+                name: "Wind-up Ramuh",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -586,7 +586,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Shiva",
+                name: "Wind-up Shiva",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -598,7 +598,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Bismark",
+                name: "Wind-up Bismark",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -610,7 +610,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Wind-up Ravana",
+                name: "Wind-up Ravana",
                 "mat-1": "Blood Pepper",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -622,7 +622,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Stuffed Bear",
+                name: "Stuffed Bear",
                 "mat-1": "2 Floss Silk",
                 "mat-2": "3 Chimerical Felt",
                 "mat-3": "Cloud Cloth",
@@ -634,7 +634,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk",
+                name: "Astral Silk",
                 "mat-1": "2 Crawler Silk",
                 "mat-2": "5 Moonbeam Silk",
                 "mat-3": "Astral Oil",
@@ -646,7 +646,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Millmaster's Cap",
+                name: "Millmaster's Cap",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "Crawler Silk",
@@ -658,7 +658,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Boltmaster's Gibus",
+                name: "Boltmaster's Gibus",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -670,7 +670,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Toque",
+                name: "Galleymaster's Toque",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -682,7 +682,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Millmaster's Apron",
+                name: "Millmaster's Apron",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -694,7 +694,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Forgemaster's Redingote",
+                name: "Forgemaster's Redingote",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -706,7 +706,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Gemmaster's Gown",
+                name: "Gemmaster's Gown",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "Aurum Regis Nugget",
@@ -718,7 +718,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Boltmaster's Dreadnought",
+                name: "Boltmaster's Dreadnought",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -730,7 +730,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Cauldronmaster's Overcoat",
+                name: "Cauldronmaster's Overcoat",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Crawler Silk",
@@ -742,7 +742,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Whites",
+                name: "Galleymaster's Whites",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -754,7 +754,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Vest of Aiming",
+                name: "Sky Pirate's Vest of Aiming",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Titanium Alloy Ingot",
                 "mat-3": "Amphiptere Leather",
@@ -766,7 +766,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Doublet of Casting",
+                name: "Astral Silk Doublet of Casting",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Chimerical Felt",
@@ -778,7 +778,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Coat of Casting",
+                name: "Sky Pirate's Coat of Casting",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Chimerical Felt",
@@ -790,7 +790,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Doublet of Healing",
+                name: "Astral Silk Doublet of Healing",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Chimerical Felt",
@@ -802,7 +802,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Coat of Healing",
+                name: "Sky Pirate's Coat of Healing",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Chimerical Felt",
@@ -814,7 +814,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Robe",
+                name: "Astral Silk Robe",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "3 Sewing Thread",
                 "mat-3": "Aurum Regis Nugget",
@@ -826,7 +826,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Cauldronmaster's Gloves",
+                name: "Cauldronmaster's Gloves",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -838,7 +838,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Dress Gloves of Casting",
+                name: "Astral Silk Dress Gloves of Casting",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -850,7 +850,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Gloves of Healing",
+                name: "Astral Silk Gloves of Healing",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -862,7 +862,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Sash of Striking",
+                name: "Astral Silk Sash of Striking",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 2 Strength Dissolvent",
@@ -874,7 +874,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Sash of Scouting",
+                name: "Astral Silk Sash of Scouting",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -886,7 +886,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Sash of Aiming",
+                name: "Astral Silk Sash of Aiming",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -898,7 +898,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Millmaster's Slops",
+                name: "Millmaster's Slops",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -910,7 +910,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Forgemaster's Slops",
+                name: "Forgemaster's Slops",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -922,7 +922,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hammermaster's Slops",
+                name: "Hammermaster's Slops",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -934,7 +934,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Gemmaster's Trousers",
+                name: "Gemmaster's Trousers",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -946,7 +946,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hidemaster's Trousers",
+                name: "Hidemaster's Trousers",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "2 Crawler Silk",
@@ -958,7 +958,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Boltmaster's Slacks",
+                name: "Boltmaster's Slacks",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "2 Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -970,7 +970,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Cauldronmaster's Longkilt",
+                name: "Cauldronmaster's Longkilt",
                 "mat-1": "4 Astral Silk",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -982,7 +982,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Trousers",
+                name: "Galleymaster's Trousers",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "2 Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -994,7 +994,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gaskins of Fending",
+                name: "Sky Pirate's Gaskins of Fending",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Crawler Silk",
@@ -1006,7 +1006,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gaskins of Maiming",
+                name: "Sky Pirate's Gaskins of Maiming",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Crawler Silk",
@@ -1018,7 +1018,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Trousers of Striking",
+                name: "Sky Pirate's Trousers of Striking",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Crawler Silk",
@@ -1030,7 +1030,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Trousers of Scouting",
+                name: "Sky Pirate's Trousers of Scouting",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Crawler Silk",
@@ -1042,7 +1042,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Slops of Aiming",
+                name: "Astral Silk Slops of Aiming",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Griffin Leather",
                 "mat-3": "2 Crawler Silk",
@@ -1054,7 +1054,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Halfslops of Aiming",
+                name: "Sky Pirate's Halfslops of Aiming",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Titanium Alloy Ingot",
                 "mat-3": "Amphiptere Leather",
@@ -1066,7 +1066,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Bottoms of Casting",
+                name: "Astral Silk Bottoms of Casting",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Chimerical Felt",
@@ -1078,7 +1078,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Bottoms of Casting",
+                name: "Sky Pirate's Bottoms of Casting",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -1090,7 +1090,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Astral Silk Bottoms of Healing",
+                name: "Astral Silk Bottoms of Healing",
                 "mat-1": "3 Astral Silk",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Chimerical Felt",
@@ -1102,7 +1102,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Bottoms of Healing",
+                name: "Sky Pirate's Bottoms of Healing",
                 "mat-1": "2 Cloud Cloth",
                 "mat-2": "Amphiptere Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -1114,7 +1114,7 @@ export const Weaver_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Fortemps Manor Interior Wall",
+                name: "Fortemps Manor Interior Wall",
                 "mat-1": "2 Astral Silk",
                 "mat-2": "6 Hallowed Ramie Cloth",
                 "mat-3": "4 Sewing Thread",

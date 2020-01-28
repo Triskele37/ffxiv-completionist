@@ -10,7 +10,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glamour Prism",
+                name: "Glamour Prism",
                 "mat-1": "Grade 1 Clear Prism",
                 "mat-2": "2 Growth Formula Gamma",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Spiritbond Potion",
+                name: "Spiritbond Potion",
                 "mat-1": "2 Vampire Plant",
                 "mat-2": "2 Thavnairian Mistletoe",
                 "mat-3": "Battlecraft Demimateria II",
@@ -34,7 +34,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Axe",
+                name: "Tremor Axe",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -46,7 +46,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Guillotine",
+                name: "Tremor Guillotine",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -58,7 +58,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Spear",
+                name: "Tremor Spear",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -70,7 +70,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Knuckles",
+                name: "Tremor Knuckles",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -82,7 +82,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Katana",
+                name: "Tremor Katana",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -94,7 +94,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Cleavers",
+                name: "Tremor Cleavers",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -106,7 +106,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Bow",
+                name: "Tremor Bow",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -118,7 +118,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Culverin",
+                name: "Tremor Culverin",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -130,7 +130,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Cudgel",
+                name: "Tremor Cudgel",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -142,7 +142,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Staff",
+                name: "Tremor Staff",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -154,7 +154,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Inferno Grimoire",
+                name: "Inferno Grimoire",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of the Inferno",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -166,7 +166,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Will of the Vortex",
+                name: "Will of the Vortex",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of the Vortex",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -178,7 +178,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "The Greater Key of Tremors",
+                name: "The Greater Key of Tremors",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -190,7 +190,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Majestic Moggle Mogtome",
+                name: "Majestic Moggle Mogtome",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimog Demimateria",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -202,7 +202,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Foil",
+                name: "Tremor Foil",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -214,7 +214,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Malevolent Moggle Mogwand",
+                name: "Malevolent Moggle Mogwand",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimog Demimateria",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -226,7 +226,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Cane",
+                name: "Tremor Cane",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -238,7 +238,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Mighty Moggle Mogrod",
+                name: "Mighty Moggle Mogrod",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimog Demimateria",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -250,7 +250,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Inferno Codex",
+                name: "Inferno Codex",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of the Inferno",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -262,7 +262,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Embrace of the Vortex",
+                name: "Embrace of the Vortex",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of the Vortex",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -274,7 +274,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "The Holy Key of Tremors",
+                name: "The Holy Key of Tremors",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -286,7 +286,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Munificent Moggle Mogtome",
+                name: "Munificent Moggle Mogtome",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimog Demimateria",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -298,7 +298,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Star Globe",
+                name: "Tremor Star Globe",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",
@@ -310,7 +310,7 @@ export const Alchemist_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tremor Shield",
+                name: "Tremor Shield",
                 "mat-1": "10 Terminus Putty",
                 "mat-2": "3 Demimateria of Crags",
                 "mat-3": "10 Battlecraft Demimateria III",

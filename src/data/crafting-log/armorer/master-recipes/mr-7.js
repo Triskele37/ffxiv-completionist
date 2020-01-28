@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★★",
-                "item": "Tungsten Steel Ingot",
+                name: "Tungsten Steel Ingot",
                 "mat-1": "4 Tungsten Ore",
                 "mat-2": "2 Multifaceted Abrasive",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Alembic",
+                name: "Facet Alembic",
                 "mat-1": "3 Alumina Whetstone",
                 "mat-2": "3 Tungsten Steel Ingot",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Frypan",
+                name: "Facet Frypan",
                 "mat-1": "3 Alumina Whetstone",
                 "mat-2": "3 Tungsten Steel Ingot",
                 "mat-3": "Lignum Vitae Lumber",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Dominus Shield",
+                name: "Dominus Shield",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Stonegold",
                 "mat-3": "Grade 2 Vitality Alkahest",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Circlet of Maiming",
+                name: "Facet Circlet of Maiming",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Deepgold Nugget",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Mail of Fending",
+                name: "Facet Mail of Fending",
                 "mat-1": "3 Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Ethereal Silk",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Mail of Maiming",
+                name: "Facet Mail of Maiming",
                 "mat-1": "3 Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gauntlets of Fending",
+                name: "Facet Gauntlets of Fending",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gauntlets of Maiming",
+                name: "Facet Gauntlets of Maiming",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Fending",
+                name: "Facet Plate Belt of Fending",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Maiming",
+                name: "Facet Plate Belt of Maiming",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Striking",
+                name: "Facet Plate Belt of Striking",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -154,7 +154,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Scouting",
+                name: "Facet Plate Belt of Scouting",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -166,7 +166,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Aiming",
+                name: "Facet Plate Belt of Aiming",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -178,7 +178,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Casting",
+                name: "Facet Plate Belt of Casting",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -190,7 +190,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Plate Belt of Healing",
+                name: "Facet Plate Belt of Healing",
                 "mat-1": "Tungsten Steel Ingot",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -202,7 +202,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Sabatons of Fending",
+                name: "Facet Sabatons of Fending",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Ethereal Silk",
                 "mat-3": "2 Grade 2 Vitality Alkahest",
@@ -214,7 +214,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Sabatons of Maiming",
+                name: "Facet Sabatons of Maiming",
                 "mat-1": "2 Tungsten Steel Ingot",
                 "mat-2": "Ethereal Silk",
                 "mat-3": "2 Grade 2 Strength Alkahest",
@@ -226,7 +226,7 @@ export const Armorer_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Hades Barding",
+                name: "Hades Barding",
                 "mat-1": "Hades's Auracite",
                 "mat-2": "2 Tungsten Steel Ingot",
                 "mat-3": "Dwarven Mythril Nugget",

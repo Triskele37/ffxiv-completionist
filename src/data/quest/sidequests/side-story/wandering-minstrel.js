@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WanderingMinstrel = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Wandering_Minstrel = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.wandering-minstrel`;
 
     return {

@@ -10,7 +10,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Mythril Ingot",
+                name: "Mythril Ingot",
                 "mat-1": "3 Mythril Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Steel Frypan",
+                name: "Steel Frypan",
                 "mat-1": "Steel Plate",
                 "mat-2": "Oak Lumber",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Mythril Rings",
+                name: "Mythril Rings",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Mythril Rivets",
+                name: "Mythril Rivets",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Bladed Lantern Shield",
+                name: "Bladed Lantern Shield",
                 "mat-1": "2 Iron Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Steel Rivets",
@@ -70,7 +70,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Horn Scale Greaves",
+                name: "Horn Scale Greaves",
                 "mat-1": "Steel Ingot",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "Antelope Horn",
@@ -82,7 +82,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Plate",
+                name: "Mythril Plate",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Celata",
+                name: "Mythril Celata",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Horn Scale Fingers",
+                name: "Horn Scale Fingers",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "Boar Leather",
                 "mat-3": "2 Antelope Horn",
@@ -118,7 +118,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Plate Belt",
+                name: "Mythril Plate Belt",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Peiste Leather",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Vintage Celata",
+                name: "Vintage Celata",
                 "mat-1": "Dented Celata",
                 "mat-2": "Bronze Plate",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Cuirass",
+                name: "Mythril Cuirass",
                 "mat-1": "Electrum Ingot",
                 "mat-2": "2 Mythril Plate",
                 "mat-3": "Mythril Rings",
@@ -154,7 +154,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Gauntlets",
+                name: "Mythril Gauntlets",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Sabatons",
+                name: "Mythril Sabatons",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Mythril Rings",
                 "mat-3": "Boar Leather",
@@ -178,7 +178,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Alembic",
+                name: "Mythril Alembic",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Mythril Plate",
                 "mat-3": "Mythril Rivets",
@@ -190,7 +190,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Elmo",
+                name: "Mythril Elmo",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Boar Leather",
@@ -202,7 +202,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Altered Mythril Elmo",
+                name: "Altered Mythril Elmo",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Boar Leather",
@@ -214,7 +214,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Horn Scale Mail",
+                name: "Horn Scale Mail",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Boar Leather",
                 "mat-3": "Aldgoat Horn",
@@ -226,7 +226,7 @@ export const ArmorerLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Vintage Scutum",
+                name: "Vintage Scutum",
                 "mat-1": "Rusting Scutum",
                 "mat-2": "Iron Plate",
                 "mat-3": "X",

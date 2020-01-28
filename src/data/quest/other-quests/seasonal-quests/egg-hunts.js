@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const EggHunts = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Egg_Hunts = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.egg-hunt`;
 
     return {

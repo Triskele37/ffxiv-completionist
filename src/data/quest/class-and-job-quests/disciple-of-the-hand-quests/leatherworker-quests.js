@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const LeatherworkerQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_The_Hand_Leatherworker = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.leatherworker`;
 
     return {

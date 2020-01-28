@@ -1,6 +1,7 @@
 import { FishingGuideColumnConfig } from "../columnConfigs";
 
-export const FishingGuideFishing = function(parentStorageKey) {
+//TODO: Break up by page
+export const Fishing_Guide_Fishing = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.fishing-guide`;
 
     return {

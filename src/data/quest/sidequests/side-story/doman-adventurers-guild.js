@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const DomanAdventurersGuild = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Doman_Adventurers_Guild = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.doman-adventurers-guild`;
 
     return {

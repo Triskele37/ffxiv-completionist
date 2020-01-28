@@ -11,11 +11,16 @@ export const GrandCompanyAchievements = function(parentStorageKey) {
     return {
         name: 'Grand Company',
     	storageKey,
-        subGroups: [
-            GrandCompanyGrandCompanyAchievements(storageKey),
-            ImmortalFlamesGrandCompanyAchievements(storageKey),
-            MaelstromGrandCompanyAchievements(storageKey),
-            TwinAdderGrandCompanyAchievements(storageKey),
-    	],
+        groupKeys: [
+            "GrandCompany",
+            "ImmortalFlames",
+            "Maelstrom",
+            "TwinAdder"
+        ],
+        // Groups
+        GrandCompany: GrandCompanyGrandCompanyAchievements(storageKey),
+        ImmortalFlames: ImmortalFlamesGrandCompanyAchievements(storageKey),
+        Maelstrom: MaelstromGrandCompanyAchievements(storageKey),
+        TwinAdder: TwinAdderGrandCompanyAchievements(storageKey),
     };
 };

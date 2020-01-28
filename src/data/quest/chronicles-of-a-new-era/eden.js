@@ -1,7 +1,7 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=19&columns=ID,Name
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Eden = function(parentStorageKey) {
+export const Quest_COANE_Eden = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.eden`;
 
     return {

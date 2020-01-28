@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const FishingLeves = function(parentStorageKey) {
+export const Quest_Levequests_Fishing = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.fishing`;
 
     return {

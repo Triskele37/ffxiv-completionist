@@ -10,7 +10,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Plumed Oak Macuahuitl",
+                name: "Plumed Oak Macuahuitl",
                 "mat-1": "Oak Lumber",
                 "mat-2": "3 Wyvern Obsidian",
                 "mat-3": "Wildfowl Feather",
@@ -22,7 +22,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Sprouting Rosewood Radical",
+                name: "Sprouting Rosewood Radical",
                 "mat-1": "Rosewood Branch",
                 "mat-2": "Wyvern Obsidian",
                 "mat-3": "Spoken Blood",
@@ -34,7 +34,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Garnet Grinding Wheel",
+                name: "Garnet Grinding Wheel",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Raw Garnet",
                 "mat-3": "Mahogany Lumber",
@@ -46,7 +46,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Vintage Round Shield",
+                name: "Vintage Round Shield",
                 "mat-1": "Rotting Round Shield",
                 "mat-2": "2 Mahogany Lumber",
                 "mat-3": "Ragstone",
@@ -58,7 +58,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Halberd",
+                name: "Cobalt Halberd",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Oak Lumber",
@@ -70,7 +70,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Jade Crook",
+                name: "Jade Crook",
                 "mat-1": "Mahogany Lumber",
                 "mat-2": "Jadeite",
                 "mat-3": "Spoken Blood",
@@ -82,7 +82,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Rosewood Lumber",
+                name: "Rosewood Lumber",
                 "mat-1": "3 Rosewood Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt Cavalry Bow",
+                name: "Cobalt Cavalry Bow",
                 "mat-1": "Mythril Cavalry Bow",
                 "mat-2": "Raptor Sinew",
                 "mat-3": "Cobalt Rivets",
@@ -106,7 +106,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Rosewood Spinning Wheel",
+                name: "Rosewood Spinning Wheel",
                 "mat-1": "2 Rosewood Lumber",
                 "mat-2": "2 Cobalt Rivets",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Rosewood Fishing Rod",
+                name: "Rosewood Fishing Rod",
                 "mat-1": "Rosewood Lumber",
                 "mat-2": "Rosewood Branch",
                 "mat-3": "Mythril Ingot",
@@ -130,7 +130,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Eagle-crested Round Shield",
+                name: "Eagle-crested Round Shield",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Cobalt Rivets",
@@ -142,7 +142,7 @@ export const CarpenterLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Vintage Guisarme",
+                name: "Vintage Guisarme",
                 "mat-1": "Crooked Guisarme",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Siltstone Whetstone",

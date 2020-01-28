@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const GladiatorQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_War_Gladiator = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.gladiator`;
 
     return {

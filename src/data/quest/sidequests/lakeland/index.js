@@ -1,15 +1,18 @@
-import { Lakeland as LakelandQuests } from "./lakeland";
-import { TheCrystarium } from "./the-crystarium";
+import { Quest_Sidequests_Lakeland_Lakeland } from "./lakeland";
+import { Quest_Sidequests_Lakeland_The_Crystarium } from "./the-crystarium";
 
-export const Lakeland = function(parentStorageKey) {
+export const Quest_Sidequests_Lakeland = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.lakeland`;
 
     return {
         name: "Lakeland",
         storageKey,
-        subGroups: [
-            LakelandQuests(storageKey),
-            TheCrystarium(storageKey),
-        ]
+        groupKeys: [
+            "Lakeland",
+            "The_Crystarium",
+        ],
+        // Groups
+        Lakeland: Quest_Sidequests_Lakeland_Lakeland(storageKey),
+        The_Crystarium: Quest_Sidequests_Lakeland_The_Crystarium(storageKey),
     };
 };

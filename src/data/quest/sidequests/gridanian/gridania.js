@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Gridania = function(parentStorageKey) {
+export const Quest_Sidequests_Gridanian_Gridania = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.gridania`;
 
     return {

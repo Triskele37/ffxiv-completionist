@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Oriental Breakfast",
+                name: "Oriental Breakfast",
                 "mat-1": "3 Bluebell Salmon",
                 "mat-2": "2 Abalathian Rock Salt",
                 "mat-3": "3 Sticky Rice",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Oriental Supper",
+                name: "Oriental Supper",
                 "mat-1": "3 Loaghtan Chump",
                 "mat-2": "2 Chives",
                 "mat-3": "2 Porcini",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Urchin Loaf",
+                name: "Urchin Loaf",
                 "mat-1": "2 Spring Urchin",
                 "mat-2": "Lake Urchin",
                 "mat-3": "Morel",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Steamed Staff",
+                name: "Steamed Staff",
                 "mat-1": "Retribution Staff",
                 "mat-2": "Star Anise",
                 "mat-3": "Abalathian Spring Water",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Seafood Stew",
+                name: "Seafood Stew",
                 "mat-1": "2 Dravanian Paprika",
                 "mat-2": "Blueclaw Shrimp",
                 "mat-3": "Coerthan Crab",
@@ -70,7 +70,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Almond Cream Croissant",
+                name: "Almond Cream Croissant",
                 "mat-1": "2 Honeydew Almonds",
                 "mat-2": "Highland Flour",
                 "mat-3": "Fermented Butter",
@@ -82,7 +82,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Snurbleberry Tart",
+                name: "Snurbleberry Tart",
                 "mat-1": "2 Snurbleberry",
                 "mat-2": "Pie Dough",
                 "mat-3": "Birch Syrup",
@@ -94,7 +94,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Kingcake",
+                name: "Kingcake",
                 "mat-1": "Moogle Miniature",
                 "mat-2": "Highland Flour",
                 "mat-3": "Yak Milk",
@@ -106,7 +106,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Creme Brulee",
+                name: "Creme Brulee",
                 "mat-1": "2 Vanilla Beans",
                 "mat-2": "Okeanis Egg",
                 "mat-3": "Yak Milk",
@@ -118,7 +118,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Hot Chocolate",
+                name: "Hot Chocolate",
                 "mat-1": "Heavenly Kukuru Powder",
                 "mat-2": "Yak Milk",
                 "mat-3": "Birch Syrup",
@@ -130,7 +130,7 @@ export const Culinarian_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Nameday Cake",
+                name: "Nameday Cake",
                 "mat-1": "5 Snurbleberry",
                 "mat-2": "4 Highland Flour",
                 "mat-3": "2 Sweet Cream",

@@ -1,15 +1,19 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
-import { CollaborationQuests } from "./collaboration-quests";
 
-export const SpecialQuests = function(parentStorageKey) {
+import { Quest_Other_Special_Collaboration } from "./collaboration-quests";
+
+export const Quest_Other_Special = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.special`;
 
     return {
         name: "Special",
         storageKey,
-        subGroups: [
-            CollaborationQuests(storageKey),
+        groupKeys: [
+            "Collaboration",
         ],
+        // Groups
+        Collaboration: Quest_Other_Special_Collaboration(storageKey),
+        // Tasks
         columns: SimpleQuestColumnConfig,
         tasks: [{
             level: "1",

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const CulinarianQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_The_Hand_Culinarian = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.culinarian`;
 
     return {

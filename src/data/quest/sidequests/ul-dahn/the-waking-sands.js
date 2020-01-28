@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheWakingSands = function(parentStorageKey) {
+export const Quest_Sidequests_Ul_Dahn_The_Waking_Sands = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-waking-sands`;
 
     return {

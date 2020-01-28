@@ -10,7 +10,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Deviled Eggs",
+                name: "Deviled Eggs",
                 "mat-1": "Apkallu Egg",
                 "mat-2": "Fullmoon Sardine",
                 "mat-3": "Highland Parsley",
@@ -22,7 +22,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Mulled Tea",
+                name: "Mulled Tea",
                 "mat-1": "Thanalan Tea Leaves",
                 "mat-2": "Pearl Ginger",
                 "mat-3": "Cloves",
@@ -34,7 +34,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Crowned Pie",
+                name: "Crowned Pie",
                 "mat-1": "Pie Dough",
                 "mat-2": "Mirror Apple",
                 "mat-3": "Maple Sugar",
@@ -46,7 +46,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Buttons in a Blanket",
+                name: "Buttons in a Blanket",
                 "mat-1": "3 Button Mushroom",
                 "mat-2": "Midland Cabbage",
                 "mat-3": "Ruby Tomato",
@@ -58,7 +58,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Eft Steak",
+                name: "Eft Steak",
                 "mat-1": "Eft Tail",
                 "mat-2": "Black Pepper",
                 "mat-3": "Garlean Garlic",
@@ -70,7 +70,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Beef Stew",
+                name: "Beef Stew",
                 "mat-1": "Sunset Wheat Flour",
                 "mat-2": "Buffalo Sirloin",
                 "mat-3": "Black Pepper",
@@ -82,7 +82,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Trapper's Quiche",
+                name: "Trapper's Quiche",
                 "mat-1": "Eft Tail",
                 "mat-2": "Apkallu Egg",
                 "mat-3": "Pie Dough",
@@ -94,7 +94,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Dagger Soup",
+                name: "Dagger Soup",
                 "mat-1": "Navigator's Dagger",
                 "mat-2": "Cloud Cutter",
                 "mat-3": "Table Salt",
@@ -106,7 +106,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Pan-fried Mahi-Mahi",
+                name: "Pan-fried Mahi-Mahi",
                 "mat-1": "Mahi-Mahi",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "3 Olive Oil",
@@ -118,7 +118,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Landtrap Salad",
+                name: "Landtrap Salad",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "La Noscean Lettuce",
                 "mat-3": "Wild Onion",
@@ -130,7 +130,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tomato Pie",
+                name: "Tomato Pie",
                 "mat-1": "Pie Dough",
                 "mat-2": "Wild Onion",
                 "mat-3": "Dzemael Tomato",
@@ -142,7 +142,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Bouillabaisse",
+                name: "Bouillabaisse",
                 "mat-1": "Rothlyt Oyster",
                 "mat-2": "Finger Shrimp",
                 "mat-3": "Razor Clam",
@@ -154,7 +154,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Rolanberry Cheesecake",
+                name: "Rolanberry Cheesecake",
                 "mat-1": "2 Rolanberry Cheese",
                 "mat-2": "Sweet Cream",
                 "mat-3": "Honey Lemon",
@@ -166,7 +166,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Sauteed Coeurl",
+                name: "Sauteed Coeurl",
                 "mat-1": "Coeurl Meat",
                 "mat-2": "Cooking Sherry",
                 "mat-3": "Volcanic Rock Salt",
@@ -178,7 +178,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Apkallu Omelette",
+                name: "Apkallu Omelette",
                 "mat-1": "Black Truffle",
                 "mat-2": "Apkallu Egg",
                 "mat-3": "Sweet Cream",
@@ -190,7 +190,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Lava Toad Legs",
+                name: "Lava Toad Legs",
                 "mat-1": "Lava Toad",
                 "mat-2": "Allagan Snail",
                 "mat-3": "Wild Onion",
@@ -202,7 +202,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Black Truffle Risotto",
+                name: "Black Truffle Risotto",
                 "mat-1": "Black Truffle",
                 "mat-2": "Sticky Rice",
                 "mat-3": "Cottage Cheese",
@@ -214,7 +214,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Finger Sandwich",
+                name: "Finger Sandwich",
                 "mat-1": "Apkallu Egg",
                 "mat-2": "La Noscean Lettuce",
                 "mat-3": "Smooth Butter",
@@ -226,7 +226,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Spinach Quiche",
+                name: "Spinach Quiche",
                 "mat-1": "Young Cieldalaes Spinach",
                 "mat-2": "Apkallu Egg",
                 "mat-3": "Pie Dough",
@@ -238,7 +238,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Chilled Popoto Soup",
+                name: "Chilled Popoto Soup",
                 "mat-1": "La Noscean Leek",
                 "mat-2": "Popoto",
                 "mat-3": "Sweet Cream",
@@ -250,7 +250,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Pineapple Ponzecake",
+                name: "Pineapple Ponzecake",
                 "mat-1": "Prickly Pineapple",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "Night Milk",
@@ -262,7 +262,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Pineapple Juice",
+                name: "Pineapple Juice",
                 "mat-1": "4 Prickly Pineapple",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Grade 2 Feed - Speed Blend",
+                name: "Grade 2 Feed - Speed Blend",
                 "mat-1": "2 Gregarious Worm",
                 "mat-2": "2 Mazlaya Greens",
                 "mat-3": "Sylkis Bud",
@@ -286,7 +286,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Grade 2 Feed - Acceleration Blend",
+                name: "Grade 2 Feed - Acceleration Blend",
                 "mat-1": "2 Gregarious Worm",
                 "mat-2": "2 Mazlaya Greens",
                 "mat-3": "Pahsana Fruit",
@@ -298,7 +298,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Grade 2 Feed - Endurance Blend",
+                name: "Grade 2 Feed - Endurance Blend",
                 "mat-1": "2 Gregarious Worm",
                 "mat-2": "2 Mazlaya Greens",
                 "mat-3": "Tantalplant",
@@ -310,7 +310,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Grade 2 Feed - Stamina Blend",
+                name: "Grade 2 Feed - Stamina Blend",
                 "mat-1": "2 Gregarious Worm",
                 "mat-2": "2 Mazlaya Greens",
                 "mat-3": "Mimett Gourd",
@@ -322,7 +322,7 @@ export const CulinarianLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Grade 2 Feed - Balance Blend",
+                name: "Grade 2 Feed - Balance Blend",
                 "mat-1": "2 Gregarious Worm",
                 "mat-2": "2 Mazlaya Greens",
                 "mat-3": "Curial Root",

@@ -8,10 +8,14 @@ export const DravaniaFATEs = function(parentStorageKey) {
     return {
         name: "Dravania",
         storageKey,
-        subGroups: [
-            TheChurningMistsFATEs(storageKey),
-            TheDravanianForelandsFATEs(storageKey),
-            TheDravanianHinterlandsFATEs(storageKey),
-        ]
+        groupKeys: [
+            "TheChurningMists",
+            "TheDravanianForelands",
+            "TheDravanianHinterlands",
+        ],
+        // Groups
+        TheChurningMists: TheChurningMistsFATEs(storageKey),
+        TheDravanianForelands: TheDravanianForelandsFATEs(storageKey),
+        TheDravanianHinterlands: TheDravanianHinterlandsFATEs(storageKey),
     };
 };

@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★★★",
-                "item": "Wootz Shield",
+                name: "Wootz Shield",
                 "mat-1": "2 Wootz Ingot",
                 "mat-2": "Wolfram Square",
                 "mat-3": "Hippogryph Leather",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Mighty Thunderhead",
+                name: "Mighty Thunderhead",
                 "mat-1": "2 Wolfram Ingot",
                 "mat-2": "Saurian Leather",
                 "mat-3": "Gold Ingot",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Sallet",
+                name: "Wootz Sallet",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Square",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Mask",
+                name: "Wootz Mask",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Darksteel Nugget",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Cuirass",
+                name: "Wootz Cuirass",
                 "mat-1": "5 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Square",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Mail",
+                name: "Wootz Mail",
                 "mat-1": "5 Wootz Ingot",
                 "mat-2": "Wolfram Ingot",
                 "mat-3": "Platinum Nugget",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Mitten Gauntlets",
+                name: "Wootz Mitten Gauntlets",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Square",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Gauntlets",
+                name: "Wootz Gauntlets",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Wolfram Ingot",
                 "mat-3": "Platinum Nugget",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Plate Belt",
+                name: "Wootz Plate Belt",
                 "mat-1": "2 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Square",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Sabatons",
+                name: "Wootz Sabatons",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Wolfram Square",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Wootz Sollerets",
+                name: "Wootz Sollerets",
                 "mat-1": "3 Wootz Ingot",
                 "mat-2": "Wolfram Ingot",
                 "mat-3": "Platinum Nugget",

@@ -8,10 +8,14 @@ export const Logs = function(parentStorageKey) {
     return {
         name: 'Logs',
         storageKey,
-        subGroups: [
-            HuntingLogs(storageKey),
-            SightseeingLogs(storageKey),
-            BlueMage(storageKey),
-        ]
+        groupKeys: [
+            "Hunting",
+            "Sightseeing",
+            "BlueMage",
+        ],
+        // Groups
+        Hunting: HuntingLogs(storageKey),
+        Sightseeing: SightseeingLogs(storageKey),
+        BlueMage: BlueMage(storageKey),
     };
 };

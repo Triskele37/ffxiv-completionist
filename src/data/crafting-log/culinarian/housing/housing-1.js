@@ -10,7 +10,7 @@ export const Culinarian_Housing_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": 78,
-                "item": "Baker's Stall",
+                name: "Baker's Stall",
                 "mat-1": "Walnut Dining Table",
                 "mat-2": "Glade Pendant Lamp",
                 "mat-3": "Dwarven Cotton",
@@ -22,7 +22,7 @@ export const Culinarian_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Fruiterer's Stall",
+                name: "Fruiterer's Stall",
                 "mat-1": "Walnut Dining Table",
                 "mat-2": "Glade Pendant Lamp",
                 "mat-3": "Dwarven Cotton",
@@ -34,7 +34,7 @@ export const Culinarian_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Greengrocer's Stall",
+                name: "Greengrocer's Stall",
                 "mat-1": "Walnut Dining Table",
                 "mat-2": "Glade Pendant Lamp",
                 "mat-3": "Dwarven Cotton",
@@ -46,7 +46,7 @@ export const Culinarian_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Butcher's Stall",
+                name: "Butcher's Stall",
                 "mat-1": "Walnut Dining Table",
                 "mat-2": "Glade Pendant Lamp",
                 "mat-3": "Dwarven Cotton",

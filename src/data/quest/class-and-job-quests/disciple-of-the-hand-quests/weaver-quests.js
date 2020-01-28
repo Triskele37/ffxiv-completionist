@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WeaverQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_The_Hand_Weaver = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.weaver`;
 
     return {

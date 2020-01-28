@@ -10,7 +10,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "12",
-                "item": "Honey Pot",
+                name: "Honey Pot",
                 "mat-1": "3 Potter's Clay",
                 "mat-2": "6 Beehive Chip",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Terracotta Pot",
+                name: "Terracotta Pot",
                 "mat-1": "9 Potter's Clay",
                 "mat-2": "3 Straw",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Ink & Quill",
+                name: "Ink & Quill",
                 "mat-1": "3 Enchanted Iron Ink",
                 "mat-2": "Cock Feather",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Potted Maguey",
+                name: "Potted Maguey",
                 "mat-1": "6 Potter's Clay",
                 "mat-2": "2 Desert Seedling",
                 "mat-3": "3 Growth Formula Beta",
@@ -58,7 +58,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Riviera Flower Vase",
+                name: "Riviera Flower Vase",
                 "mat-1": "3 Iron Ingot",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "2 Growth Formula Beta",
@@ -70,7 +70,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Glade Flower Vase",
+                name: "Glade Flower Vase",
                 "mat-1": "3 Elm Lumber",
                 "mat-2": "3 Shroud Seedling",
                 "mat-3": "2 Growth Formula Beta",
@@ -82,7 +82,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Oasis Flower Vase",
+                name: "Oasis Flower Vase",
                 "mat-1": "3 Brass Ingot",
                 "mat-2": "3 Desert Seedling",
                 "mat-3": "2 Growth Formula Beta",
@@ -94,7 +94,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Wall Planter",
+                name: "Wall Planter",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "2 Walnut Lumber",
@@ -106,7 +106,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Potted Axilflower",
+                name: "Potted Axilflower",
                 "mat-1": "Humus",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "2 Growth Formula Gamma",
@@ -118,7 +118,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Potted Azalea",
+                name: "Potted Azalea",
                 "mat-1": "Humus",
                 "mat-2": "3 Shroud Seedling",
                 "mat-3": "2 Growth Formula Gamma",
@@ -130,7 +130,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Potted Spider Plant",
+                name: "Potted Spider Plant",
                 "mat-1": "Humus",
                 "mat-2": "3 Desert Seedling",
                 "mat-3": "2 Growth Formula Gamma",
@@ -142,7 +142,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Oak Low Barrel Planter",
+                name: "Oak Low Barrel Planter",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "2 Growth Formula Gamma",
@@ -154,7 +154,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Planter Partition",
+                name: "Planter Partition",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "4 Elm Lumber",
@@ -166,7 +166,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Sylphic Flower Vase",
+                name: "Sylphic Flower Vase",
                 "mat-1": "3 Electrum Ingot",
                 "mat-2": "3 Shroud Seedling",
                 "mat-3": "2 Growth Formula Gamma",
@@ -178,7 +178,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Bathroom Wall Tiles",
+                name: "Bathroom Wall Tiles",
                 "mat-1": "3 Potter's Clay",
                 "mat-2": "2 Cut Stone",
                 "mat-3": "Varnish",
@@ -190,7 +190,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Bathroom Floor Tiles",
+                name: "Bathroom Floor Tiles",
                 "mat-1": "10 Potter's Clay",
                 "mat-2": "5 Cut Stone",
                 "mat-3": "3 Varnish",
@@ -202,7 +202,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Potted Dragon Tree",
+                name: "Potted Dragon Tree",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Desert Seedling",
                 "mat-3": "4 Spruce Lumber",
@@ -214,7 +214,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Potted Oliphant's Ear",
+                name: "Potted Oliphant's Ear",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Island Seedling",
                 "mat-3": "3 Spruce Lumber",
@@ -226,7 +226,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Stuffed Mazlaya Marlin",
+                name: "Stuffed Mazlaya Marlin",
                 "mat-1": "Mazlaya Marlin",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "3 Black Alumen",
@@ -238,7 +238,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Potted Umbrella Fig",
+                name: "Potted Umbrella Fig",
                 "mat-1": "3 Humus",
                 "mat-2": "3 Umbrella Fig Seeds",
                 "mat-3": "4 Growth Formula Delta Concentrate",
@@ -250,7 +250,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Stuffed Takitaro",
+                name: "Stuffed Takitaro",
                 "mat-1": "Takitaro",
                 "mat-2": "Treated Spruce Lumber",
                 "mat-3": "2 Darksteel Rivets",
@@ -262,7 +262,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Botanist's Dried Herbs",
+                name: "Botanist's Dried Herbs",
                 "mat-1": "Gaelicatnip",
                 "mat-2": "Dandelion",
                 "mat-3": "Rue",
@@ -274,7 +274,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Bag of Booty",
+                name: "Bag of Booty",
                 "mat-1": "Salvaged Coinage",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Kudzu Thread",
@@ -286,7 +286,7 @@ export const Alchemist_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Indoor Oriental Garden",
+                name: "Indoor Oriental Garden",
                 "mat-1": "6 Granite",
                 "mat-2": "3 Crescent Spring Water",
                 "mat-3": "5 Fine Sand",

@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../../columnConfigs";
 
-export const ArmoringLeves = function(parentStorageKey) {
+export const Quest_Levequests_Armoring = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.armoring`;
 
     return {

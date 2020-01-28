@@ -10,7 +10,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Goathorn Staff",
+                name: "Goathorn Staff",
                 "mat-1": "Marbled Eye",
                 "mat-2": "2 Aldgoat Horn",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Silver Ear Cuffs",
+                name: "Silver Ear Cuffs",
                 "mat-1": "2 Silver Ingot",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Silver Choker",
+                name: "Silver Choker",
                 "mat-1": "2 Silver Ingot",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Horn Armillae",
+                name: "Horn Armillae",
                 "mat-1": "3 Aldgoat Horn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Horn Ring",
+                name: "Horn Ring",
                 "mat-1": "Aldgoat Horn",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Aquamarine",
+                name: "Aquamarine",
                 "mat-1": "Raw Aquamarine",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Amethyst",
+                name: "Amethyst",
                 "mat-1": "Raw Amethyst",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Garnet",
+                name: "Garnet",
                 "mat-1": "Raw Garnet",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Goshenite",
+                name: "Goshenite",
                 "mat-1": "Raw Goshenite",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Heliodor",
+                name: "Heliodor",
                 "mat-1": "Raw Heliodor",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Peridot",
+                name: "Peridot",
                 "mat-1": "Raw Peridot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Worm Fang Needle",
+                name: "Worm Fang Needle",
                 "mat-1": "Sandworm Fang",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Silver Monocle",
+                name: "Silver Monocle",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Clear Glass Lens",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Jig",
+                name: "Steel Jig",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Silver Spoon Lure",
+                name: "Silver Spoon Lure",
                 "mat-1": "2 Silver Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Aquamarine)",
+                name: "Silver Circlet (Aquamarine)",
                 "mat-1": "Aquamarine",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Amethyst)",
+                name: "Silver Circlet (Amethyst)",
                 "mat-1": "Amethyst",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Garnet)",
+                name: "Silver Circlet (Garnet)",
                 "mat-1": "Garnet",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Goshenite)",
+                name: "Silver Circlet (Goshenite)",
                 "mat-1": "Goshenite",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Heliodor)",
+                name: "Silver Circlet (Heliodor)",
                 "mat-1": "Heliodor",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Silver Circlet (Peridot)",
+                name: "Silver Circlet (Peridot)",
                 "mat-1": "Peridot",
                 "mat-2": "3 Silver Ingot",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Mythril Ingot",
+                name: "Mythril Ingot",
                 "mat-1": "3 Mythril Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Crabshell Hora",
+                name: "Crabshell Hora",
                 "mat-1": "2 Green Megalocrab Shell",
                 "mat-2": "Hippogryph Sinew",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Earth Brand",
+                name: "Earth Brand",
                 "mat-1": "Eye of Earth",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Toad Leather",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Decorated Silver Scepter",
+                name: "Decorated Silver Scepter",
                 "mat-1": "Silver Scepter",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "Scaleskin Blood",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Silver Star Globe",
+                name: "Silver Star Globe",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Brass Ingot",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel Goggles",
+                name: "Steel Goggles",
                 "mat-1": "Steel Plate",
                 "mat-2": "Clear Glass Lens",
                 "mat-3": "Aldgoat Leather",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Mythril Magnifiers",
+                name: "Mythril Magnifiers",
                 "mat-1": "Mythril Spectacles",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Clear Glass Lens",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Mythril Spectacles",
+                name: "Mythril Spectacles",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Clear Glass Lens",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Sinking Minnow",
+                name: "Sinking Minnow",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Oalk Lumber",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Mythril Rings",
+                name: "Mythril Rings",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Fire Brand",
+                name: "Fire Brand",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Eye of Fire",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Toothed Goathorn Staff",
+                name: "Toothed Goathorn Staff",
                 "mat-1": "Goathorn Staff",
                 "mat-2": "2 Aldgoat Horn",
                 "mat-3": "Scaleskin Blood",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Wolf Earrings",
+                name: "Wolf Earrings",
                 "mat-1": "Wolf Fang",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Scaleskin Blood",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Mythril Earrings",
+                name: "Mythril Earrings",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Mythril Gorget",
+                name: "Mythril Gorget",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Toad Leather",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Mythril Wristlets",
+                name: "Mythril Wristlets",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "2 Mythril Rings",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Mythril Wristlets of Crafting",
+                name: "Mythril Wristlets of Crafting",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "2 Mythril Rings",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Cudgel",
+                name: "Vintage Cudgel",
                 "mat-1": "Damaged Cudgel",
                 "mat-2": "Iron Rivets",
                 "mat-3": "Siltstone Whetstone",

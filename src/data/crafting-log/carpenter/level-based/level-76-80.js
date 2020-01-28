@@ -10,7 +10,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Sandteak Lumber",
+                name: "Sandteak Lumber",
                 "mat-1": "4 Sandteak Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Sandteak Fauchard",
+                name: "Sandteak Fauchard",
                 "mat-1": "2 Sandteak Lumber",
                 "mat-2": "2 Titanbronze Lumber",
                 "mat-3": "Titanium Nugget",
@@ -34,7 +34,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Sandteak Longbow",
+                name: "Sandteak Longbow",
                 "mat-1": "3 Sandteak Lumber",
                 "mat-2": "Zonure Leather",
                 "mat-3": "Titanium Nugget",
@@ -46,7 +46,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Sandteak Rod",
+                name: "Sandteak Rod",
                 "mat-1": "2 Sandteak Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Titanbronze Nugget",
@@ -58,7 +58,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Sandteak Cane",
+                name: "Sandteak Cane",
                 "mat-1": "2 Sandteak Lumber",
                 "mat-2": "Growth Formula Iota",
                 "mat-3": "Titanbronze Nugget",
@@ -70,7 +70,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Sandteak Grinding Wheel",
+                name: "Sandteak Grinding Wheel",
                 "mat-1": "2 Sandteak Lumber",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Tuff Whetstone",
@@ -82,7 +82,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Sandteak Spinning Wheel",
+                name: "Sandteak Spinning Wheel",
                 "mat-1": "3 Sandteak Lumber",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Sandteak Fishing Rod",
+                name: "Sandteak Fishing Rod",
                 "mat-1": "2 Sandteak Lumber",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Zonure Leather",
@@ -106,7 +106,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Lignum Vitae Lumber",
+                name: "Lignum Vitae Lumber",
                 "mat-1": "4 Lignum Vitae Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Lignum Lance",
+                name: "Dwarven Lignum Lance",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Ingot",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -130,7 +130,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Lignum Bow",
+                name: "Dwarven Lignum Bow",
                 "mat-1": "Lignum Vitae Lumber",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -142,7 +142,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Lignum Pole",
+                name: "Dwarven Lignum Pole",
                 "mat-1": "Lignum Vitae Lumber",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -154,7 +154,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Lignum Cane",
+                name: "Dwarven Lignum Cane",
                 "mat-1": "Lignum Vitae Lumber",
                 "mat-2": "2 Dwarven Mythril Ingot",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -166,7 +166,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Lignum Vitae Earrings",
+                name: "Lignum Vitae Earrings",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Lignum Vitae Necklace",
+                name: "Lignum Vitae Necklace",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Iridescent Silk Thread",
@@ -190,7 +190,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Lignum Vitae Bracelet",
+                name: "Lignum Vitae Bracelet",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Iridescent Silk Thread",
@@ -202,7 +202,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Lignum Vitae Ring",
+                name: "Lignum Vitae Ring",
                 "mat-1": "Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Lignum Vitae Grinding Wheel",
+                name: "Lignum Vitae Grinding Wheel",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Ingot",
                 "mat-3": "Tuff Whetstone",
@@ -226,7 +226,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Lignum Vitae Spinning Wheel",
+                name: "Lignum Vitae Spinning Wheel",
                 "mat-1": "3 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const CarpenterLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Lignum Vitae Fishing Rod",
+                name: "Lignum Vitae Fishing Rod",
                 "mat-1": "2 Lignum Vitae Lumber",
                 "mat-2": "Dwarven Mythril Ingot",
                 "mat-3": "Sea Swallow Leather",

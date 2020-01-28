@@ -11,7 +11,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Wax Vegetables",
+                name: "Wax Vegetables",
                 "mat-1": "Ash Lumber",
                 "mat-2": "La Noscean Lettuce",
                 "mat-3": "Ruby Tomato",
@@ -23,7 +23,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Sandwich Basket",
+                name: "Sandwich Basket",
                 "mat-1": "Walnut Bread",
                 "mat-2": "3 Dodo Egg",
                 "mat-3": "2 La Noscean Lettuce",
@@ -35,7 +35,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Starlight Dodo",
+                name: "Starlight Dodo",
                 "mat-1": "Young Dodo Roaster",
                 "mat-2": "Dodo Stuf",
                 "mat-3": "X",
@@ -47,7 +47,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Riviera Supper",
+                name: "Riviera Supper",
                 "mat-1": "Mutton Loin",
                 "mat-2": "Aldgoat Chuck",
                 "mat-3": "Highland Parsley",
@@ -59,7 +59,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Bowl of Oden",
+                name: "Bowl of Oden",
                 "mat-1": "3 Fish Stock",
                 "mat-2": "6 Popoto",
                 "mat-3": "2 Bianaq Bream",
@@ -71,7 +71,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Chilled Red",
+                name: "Chilled Red",
                 "mat-1": "Grape Juice",
                 "mat-2": "Orange Juice",
                 "mat-3": "Silver Ingot",
@@ -83,7 +83,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Pot of Cream Stew",
+                name: "Pot of Cream Stew",
                 "mat-1": "3 Night Milk",
                 "mat-2": "2 Smooth Butter",
                 "mat-3": "2 Raptor Shank",
@@ -95,7 +95,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Glade Tea Set",
+                name: "Glade Tea Set",
                 "mat-1": "Acorn Cookie",
                 "mat-2": "Ginger Cookie",
                 "mat-3": "Kukuru Powder",
@@ -107,7 +107,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Gourmet Lunch",
+                name: "Gourmet Lunch",
                 "mat-1": "Walnut Bread",
                 "mat-2": "Grilled Dodo",
                 "mat-3": "Scrambled Eggs",
@@ -119,7 +119,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Redoubtable Rolanberry Tart",
+                name: "Redoubtable Rolanberry Tart",
                 "mat-1": "3 Pie Dough",
                 "mat-2": "3 Rolanberry",
                 "mat-3": "3 Smooth Butter",
@@ -131,7 +131,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Alpine Breakfast",
+                name: "Alpine Breakfast",
                 "mat-1": "Walnut Bread",
                 "mat-2": "Fried Egg",
                 "mat-3": "Smoked Raptor",
@@ -143,7 +143,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Starlight Cake",
+                name: "Starlight Cake",
                 "mat-1": "Sweet Cream",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "Smooth Butter",
@@ -155,7 +155,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Assorted Fruit",
+                name: "Assorted Fruit",
                 "mat-1": "Prickly Pineapple",
                 "mat-2": "La Noscean Orange",
                 "mat-3": "Lowland Grapes",
@@ -167,7 +167,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Oasis Breakfast",
+                name: "Oasis Breakfast",
                 "mat-1": "Aldgoat Steak",
                 "mat-2": "Popoto",
                 "mat-3": "Olive Oil",
@@ -179,7 +179,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Green Tea Set",
+                name: "Green Tea Set",
                 "mat-1": "2 Thanalan Tea Leaves",
                 "mat-2": "Sticky Rice",
                 "mat-3": "Buffalo Beans",
@@ -191,7 +191,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Gourmet Supper",
+                name: "Gourmet Supper",
                 "mat-1": "Knight's Bread",
                 "mat-2": "Sauteed Coeurl",
                 "mat-3": "Dzemael Gratin",
@@ -203,7 +203,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Afternoon Tea Set",
+                name: "Afternoon Tea Set",
                 "mat-1": "Chamomile Tea",
                 "mat-2": "Pineapple Ponzecake",
                 "mat-3": "Honey Muffin",
@@ -215,7 +215,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Valentione's Cake",
+                name: "Valentione's Cake",
                 "mat-1": "2 Royal Kukuru Bean",
                 "mat-2": "2 Bubble Chocolate",
                 "mat-3": "2 Sunset Wheat Flour",
@@ -227,7 +227,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Cake Tray",
+                name: "Cake Tray",
                 "mat-1": "4 Highland Flour",
                 "mat-2": "2 Old World Fig",
                 "mat-3": "2 Sour Cream",
@@ -239,7 +239,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Royal Dowager Tea Set",
+                name: "Royal Dowager Tea Set",
                 "mat-1": "3 Coerthan Tea Leaves",
                 "mat-2": "Thyme",
                 "mat-3": "2 Maple Sugar",
@@ -251,7 +251,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "House Borel Tea Set",
+                name: "House Borel Tea Set",
                 "mat-1": "Sohm Al Tart",
                 "mat-2": "Fig Bavarois",
                 "mat-3": "Ishgardian Tea",
@@ -263,7 +263,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Riviera Lunch",
+                name: "Riviera Lunch",
                 "mat-1": "2 Vermicelli",
                 "mat-2": "2 Tomato Sauce",
                 "mat-3": "2 Finger Sandwich",
@@ -275,7 +275,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Oriental Tea Set",
+                name: "Oriental Tea Set",
                 "mat-1": "Thanalan Tea Leaves",
                 "mat-2": "Sticky Rice",
                 "mat-3": "Malm Kelp",
@@ -287,7 +287,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "High House Supper Set",
+                name: "High House Supper Set",
                 "mat-1": "Royal Eggs",
                 "mat-2": "Sauteed Porcini",
                 "mat-3": "Fig Bavarois",
@@ -299,7 +299,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Riviera Breakfast",
+                name: "Riviera Breakfast",
                 "mat-1": "2 Gastornis Egg",
                 "mat-2": "Fermented Butter",
                 "mat-3": "Abalathian Rock Salt",
@@ -311,7 +311,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Alpine Tea Set",
+                name: "Alpine Tea Set",
                 "mat-1": "2 Ishgardian Tea",
                 "mat-2": "2 Pineapple Ponzecake",
                 "mat-3": "2 Cloud Banana",
@@ -323,7 +323,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Alpine Supper Set",
+                name: "Alpine Supper Set",
                 "mat-1": "Deep-fried Okeanis",
                 "mat-2": "Beet Soup",
                 "mat-3": "Kaiser Roll",
@@ -335,7 +335,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Oriental Udon Lunch",
+                name: "Oriental Udon Lunch",
                 "mat-1": "Gyr Abanian Flour ",
                 "mat-2": "Fish Stock",
                 "mat-3": "Oriental Soy Sauce",
@@ -347,7 +347,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Oriental Sushi Lunch",
+                name: "Oriental Sushi Lunch",
                 "mat-1": "Koshu Sticky Rice",
                 "mat-2": "Rice Vinegar",
                 "mat-3": "Yugr'am Salmon",
@@ -359,7 +359,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Oriental Rice Ball Lunch",
+                name: "Oriental Rice Ball Lunch",
                 "mat-1": "Koshu Sticky Rice",
                 "mat-2": "Algae Salt",
                 "mat-3": "Ama Nori",
@@ -371,7 +371,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Oriental Soba Lunch",
+                name: "Oriental Soba Lunch",
                 "mat-1": "Buckwheat Kernels",
                 "mat-2": "Fish Stock",
                 "mat-3": "Oriental Soy Sauce",
@@ -383,7 +383,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Bread Basket",
+                name: "Bread Basket",
                 "mat-1": "5 Gyr Abanian Flour",
                 "mat-2": "3 Crescent Spring Water",
                 "mat-3": "Ala Mhigan Salt Crystal",
@@ -395,7 +395,7 @@ export const Culinarian_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Oriental Chawanmushi Lunch",
+                name: "Oriental Chawanmushi Lunch",
                 "mat-1": "Lorikeet Egg",
                 "mat-2": "Secret Recipe Broth",
                 "mat-3": "Ala Mhigan Salt Crystal",

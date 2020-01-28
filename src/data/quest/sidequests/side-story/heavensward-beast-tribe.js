@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const HeavenswardBeastTribe = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Heavensward_Beast_Tribe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.heavensward-beast-tribe`;
 
     return {

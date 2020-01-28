@@ -10,7 +10,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "26",
-                "item": "Ash Composite Bow",
+                name: "Ash Composite Bow",
                 "mat-1": "3 Ash Lumber",
                 "mat-2": "Antelope Horn",
                 "mat-3": "Animal Sinew",
@@ -22,7 +22,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Pastoral Yew Cane",
+                name: "Pastoral Yew Cane",
                 "mat-1": "Yew Lumber",
                 "mat-2": "Growth Formula Beta",
                 "mat-3": "Brass Ingot",
@@ -34,7 +34,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Viper-crested Round Shield",
+                name: "Viper-crested Round Shield",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Iron Ingot",
@@ -46,7 +46,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Silver Battle Fork",
+                name: "Silver Battle Fork",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Crab Oil",
@@ -58,7 +58,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Elm Macuahuitl",
+                name: "Elm Macuahuitl",
                 "mat-1": "2 Elm Lumber",
                 "mat-2": "4 Obsidian",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Steel Halberd",
+                name: "Steel Halberd",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Steel Ingot",
@@ -82,7 +82,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Walnut Cane",
+                name: "Walnut Cane",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Growth Formula Beta",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Staghorn Fishing Rod",
+                name: "Staghorn Fishing Rod",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Yew Branch",
                 "mat-3": "Steel Ingot",
@@ -106,7 +106,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Steel Spear",
+                name: "Steel Spear",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Crab Oil",
@@ -118,7 +118,7 @@ export const CarpenterLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Plumed Yew Crook",
+                name: "Plumed Yew Crook",
                 "mat-1": "Yew Crook",
                 "mat-2": "Scalekin Blood",
                 "mat-3": "Crow Feather",

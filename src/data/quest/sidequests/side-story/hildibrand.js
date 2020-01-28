@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Hildibrand = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Hildibrand = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.hildibrand-1`;
 
     return {

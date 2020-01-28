@@ -11,13 +11,20 @@ export const CarpenterCraftingLogs = function(parentStorageKey) {
     return {
         name: "Carpenter",
         storageKey,
-        subGroups: [
-            CarpenterLevelBased(storageKey),
-            CarpenterMasterRecipe(storageKey),
-            CarpenterStoryRecipe(storageKey),
-            CarpenterHousingRecipe(storageKey),
-            Carpenter_IshgardRestoration_Recipe(storageKey),
-            Carpenter_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groups
+        LevelBased: CarpenterLevelBased(storageKey),
+        MasterRecipes: CarpenterMasterRecipe(storageKey),
+        Story: CarpenterStoryRecipe(storageKey),
+        Housing: CarpenterHousingRecipe(storageKey),
+        IshgardRestoration: Carpenter_IshgardRestoration_Recipe(storageKey),
+        Others: Carpenter_Others(storageKey),
     };
 };

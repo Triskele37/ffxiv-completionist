@@ -8,10 +8,14 @@ export const HallOfNovice = function(parentStorageKey) {
     return {
         name: "Hall of Novice",
         storageKey,
-    	subGroups: [
-            HallOfNoviceTank(storageKey),
-            HallOfNoviceDPS(storageKey),
-            HallOfNoviceHealer(storageKey),
-        ]
+        groupKeys: [
+            "Tank",
+            "DPS",
+            "Healer",
+        ],
+        // Groups
+        Tank: HallOfNoviceTank(storageKey),
+        DPS: HallOfNoviceDPS(storageKey),
+        Healer: HallOfNoviceHealer(storageKey),
     };
 };

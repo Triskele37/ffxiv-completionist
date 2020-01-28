@@ -9,11 +9,16 @@ export const Dungeons = function(parentStorageKey) {
     return {
         name: "Dungeon",
         storageKey,
-        subGroups: [
-            ARRDungeons(storageKey),
-            HWDungeons(storageKey),
-            SBDungeons(storageKey),
-            ShBDungeons(storageKey),
-        ]
+        groupKeys: [
+            "ARR",
+            "HW",
+            "SB",
+            "ShB",
+        ],
+        // Groups
+        ARR: ARRDungeons(storageKey),
+        HW: HWDungeons(storageKey),
+        SB: SBDungeons(storageKey),
+        ShB: ShBDungeons(storageKey),
     };
 };

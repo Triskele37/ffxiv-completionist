@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★★",
-                "item": "Dzo Steak",
+                name: "Dzo Steak",
                 "mat-1": "Dzo Sirloin",
                 "mat-2": "Algae Salt",
                 "mat-3": "Cottonseed Oil",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Oden",
+                name: "Oden",
                 "mat-1": "Secret Recipe Broth",
                 "mat-2": "Mountain Popoto",
                 "mat-3": "Ruby Tide Kelp",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Ema Datshi",
+                name: "Ema Datshi",
                 "mat-1": "Crimson Pepper",
                 "mat-2": "4 Dragon Pepper",
                 "mat-3": "2 Crescent Spring Water",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Sauteed Green Leeks",
+                name: "Sauteed Green Leeks",
                 "mat-1": "Crimson Pepper",
                 "mat-2": "2 Green Leek",
                 "mat-3": "Solstice Garlic",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Tako-yaki",
+                name: "Tako-yaki",
                 "mat-1": "2 Gyr Abanian Flour",
                 "mat-2": "Usuginu Octopus",
                 "mat-3": "Secret Recipe Broth",
@@ -70,7 +70,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Futo-maki Roll",
+                name: "Futo-maki Roll",
                 "mat-1": "Doman Rice",
                 "mat-2": "Spiny Lobster",
                 "mat-3": "Doman Eel",
@@ -82,7 +82,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Tofu Pancakes",
+                name: "Tofu Pancakes",
                 "mat-1": "Honeydew Honey",
                 "mat-2": "Firm Tofu",
                 "mat-3": "Gagana Egg",
@@ -94,7 +94,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Banh Xeo",
+                name: "Banh Xeo",
                 "mat-1": "Koshu Sticky Rice",
                 "mat-2": "Koshu Pork",
                 "mat-3": "Yanxian Tiger Prawn",
@@ -106,7 +106,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Konpeito",
+                name: "Konpeito",
                 "mat-1": "2 Beet Sugar",
                 "mat-2": "Honeydew Honey",
                 "mat-3": "Dusklight Aethersand",
@@ -118,7 +118,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Crimson Cider",
+                name: "Crimson Cider",
                 "mat-1": "Crimson Pepper",
                 "mat-2": "Jhammel Ginger",
                 "mat-3": "Cumin Seeds",
@@ -130,7 +130,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Matcha",
+                name: "Matcha",
                 "mat-1": "Tea Brick",
                 "mat-2": "Crescent Spring Water",
                 "mat-3": "Dusklight Aethersand",
@@ -142,7 +142,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Laghman",
+                name: "Laghman",
                 "mat-1": "Secret Recipe Broth",
                 "mat-2": "2 Gyr Abanian Flour",
                 "mat-3": "Dzo Chuck",
@@ -154,7 +154,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Shakshouka",
+                name: "Shakshouka",
                 "mat-1": "Koshu Pork",
                 "mat-2": "2 Dravanian Paprika",
                 "mat-3": "2 Dzemael Tomato",
@@ -166,7 +166,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Ginger Salad",
+                name: "Ginger Salad",
                 "mat-1": "Jhammel Ginger",
                 "mat-2": "Crimson Pepper",
                 "mat-3": "3 La Noscean Lettuce",
@@ -178,7 +178,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Imam Bayildi",
+                name: "Imam Bayildi",
                 "mat-1": "3 Doman Eggplant",
                 "mat-2": "2 Gyr Abanian Carrot",
                 "mat-3": "2 Dzemael Tomato",
@@ -190,7 +190,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Salmon Muffin",
+                name: "Salmon Muffin",
                 "mat-1": "Ishgardian Muffin",
                 "mat-2": "Lordly Salmon",
                 "mat-3": "Cieldalaes Spinach",
@@ -202,7 +202,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Papanasi",
+                name: "Papanasi",
                 "mat-1": "2 Gyr Abanian Flour",
                 "mat-2": "Gagana Egg",
                 "mat-3": "Cottonseed Oil",
@@ -214,7 +214,7 @@ export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rooibos Tea",
+                name: "Rooibos Tea",
                 "mat-1": "Rooibos Leaves",
                 "mat-2": "Crescent Spring Water",
                 "mat-3": "Dawnlight Aethersand",

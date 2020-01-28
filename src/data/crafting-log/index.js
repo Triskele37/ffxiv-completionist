@@ -10,6 +10,7 @@ import { CulinarianCraftingLogs } from "./culinarian";
 /* TODO:
 BSM - Housing, Master Recipes, Restoration, Story
 GSM - Housing, Master Recipes, Restoration, Story
+Shared Log
 */
 
 export const CraftingLogs = function(parentStorageKey) {
@@ -18,15 +19,24 @@ export const CraftingLogs = function(parentStorageKey) {
     return {
         name: "Crafting",
         storageKey,
-        subGroups: [
-            CarpenterCraftingLogs(storageKey),
-            BlacksmithCraftingLogs(storageKey),
-            ArmorerCraftingLogs(storageKey),
-            GoldsmithCraftingLogs(storageKey),
-            LeatherworkerCraftingLogs(storageKey),
-            WeaverCraftingLogs(storageKey),
-            AlchemistCraftingLogs(storageKey),
-            CulinarianCraftingLogs(storageKey),
-        ]
+        groupKeys: [
+            "Carpenter",
+            "Blacksmith",
+            "Armorer",
+            "Goldsmith",
+            "Leatherworker",
+            "Weaver",
+            "Alchemist",
+            "Culinarian",
+        ],
+        // Groups
+        Carpenter: CarpenterCraftingLogs(storageKey),
+        Blacksmith: BlacksmithCraftingLogs(storageKey),
+        Armorer: ArmorerCraftingLogs(storageKey),
+        Goldsmith: GoldsmithCraftingLogs(storageKey),
+        Leatherworker: LeatherworkerCraftingLogs(storageKey),
+        Weaver: WeaverCraftingLogs(storageKey),
+        Alchemist: AlchemistCraftingLogs(storageKey),
+        Culinarian: CulinarianCraftingLogs(storageKey),
     };
 };

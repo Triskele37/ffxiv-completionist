@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MatoyasCave = function(parentStorageKey) {
+export const Quest_Sidequests_Dravanian_Matoyas_Cave = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.matoyas-cave`;
 
     return {

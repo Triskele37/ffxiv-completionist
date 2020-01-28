@@ -18,7 +18,6 @@
         computed: {
             allChildren: function() {
                 return Object.assign({}, this.group, {
-                    // subGroups: null,
                     columns: this.group.columns,
                     tasks: diveForTasks(this.group)
                 });
@@ -31,9 +30,9 @@
 
         if(group.tasks) tasks = tasks.concat(group.tasks);
 
-        if(group.subGroups) {
-            for(let i = 0; i < group.subGroups.length; i++) {
-                tasks = tasks.concat(diveForTasks(group.subGroups[i]));
+        if(group.groupKeys) {
+            for(let groupKey in group.groupKeys) {
+                tasks = tasks.concat(diveForTasks(group[groupKey]));
             }
         }
 

@@ -10,7 +10,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Persimmon Lumber",
+                name: "Persimmon Lumber",
                 "mat-1": "4 Persimmon Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Halberd",
+                name: "Doman Steel Halberd",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "2 Tama-hagane Ingot",
                 "mat-3": "Tiger Leather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Persimmon Bow",
+                name: "Persimmon Bow",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "Durium Nugget",
@@ -46,7 +46,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Persimmon Cane",
+                name: "Persimmon Cane",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "2 Durium Ingot",
                 "mat-3": "Durium Nugget",
@@ -58,7 +58,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Gazelle Horn Fishing Rod",
+                name: "Gazelle Horn Fishing Rod",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "Gazelle Horn",
@@ -70,7 +70,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Polished Slate Grinding Wheel",
+                name: "Polished Slate Grinding Wheel",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "2 Durium Ingot",
                 "mat-3": "2 Slate",
@@ -82,7 +82,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Spinning Wheel",
+                name: "Persimmon Spinning Wheel",
                 "mat-1": "3 Persimmon Lumber",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Earrings",
+                name: "Persimmon Earrings",
                 "mat-1": "Persimmon Lumber",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Varnish",
@@ -106,7 +106,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Necklace",
+                name: "Persimmon Necklace",
                 "mat-1": "Persimmon Lumber",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Worsted Yarn",
@@ -118,7 +118,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Bracelets",
+                name: "Persimmon Bracelets",
                 "mat-1": "2 Persimmon Lumber",
                 "mat-2": "Pine Lumber",
                 "mat-3": "Worsted Yarn",
@@ -130,7 +130,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Ring",
+                name: "Persimmon Ring",
                 "mat-1": "Persimmon Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Zelkova Lumber",
+                name: "Zelkova Lumber",
                 "mat-1": "4 Zelkova Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Trident",
+                name: "Molybdenum Trident",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Marid Leather",
@@ -166,7 +166,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Zelkova Longbow",
+                name: "Zelkova Longbow",
                 "mat-1": "3 Zelkova Lumber",
                 "mat-2": "Steppe Serge",
                 "mat-3": "Worsted Yarn",
@@ -178,7 +178,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Zelkova Cane",
+                name: "Zelkova Cane",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Durium Nugget",
@@ -190,7 +190,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Zelkova Earrings",
+                name: "Zelkova Earrings",
                 "mat-1": "Zelkova Lumber",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Varnish",
@@ -202,7 +202,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Zelkova Necklace",
+                name: "Zelkova Necklace",
                 "mat-1": "Zelkova Lumber",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Silk Thread",
@@ -214,7 +214,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Zelkova Bracelets",
+                name: "Zelkova Bracelets",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Silk Thread",
@@ -226,7 +226,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Zelkova Ring",
+                name: "Zelkova Ring",
                 "mat-1": "Zelkova Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Almandine Grinding Wheel",
+                name: "Almandine Grinding Wheel",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "2 Almandine",
@@ -250,7 +250,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Zelkova Spinning Wheel",
+                name: "Zelkova Spinning Wheel",
                 "mat-1": "3 Zelkova Lumber",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const CarpenterLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Zelkova Fishing Rod",
+                name: "Zelkova Fishing Rod",
                 "mat-1": "2 Zelkova Lumber",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "Palladium Nugget",

@@ -10,7 +10,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Riviera Bed",
+                name: "Riviera Bed",
                 "mat-1": "2 Undyed Cotton Cloth",
                 "mat-2": "2 Maple Lumber",
                 "mat-3": "2 Bronze Ingot",
@@ -22,7 +22,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Glade Bed",
+                name: "Glade Bed",
                 "mat-1": "4 Undyed Velveteen",
                 "mat-2": "4 Elm Lumber",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Oasis Leaf Rug",
+                name: "Oasis Leaf Rug",
                 "mat-1": "4 Undyed Velveteen",
                 "mat-2": "2 Undyed Cotton Cloth",
                 "mat-3": "4 Cotton Yarn",
@@ -46,7 +46,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Simple Curtain",
+                name: "Simple Curtain",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": " Linen Yarn",
                 "mat-3": " Silver Ingot",
@@ -58,7 +58,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Oasis Bed",
+                name: "Oasis Bed",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": "2 Oak Lumber",
                 "mat-3": "2 Iron Ingot",
@@ -70,7 +70,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Chirurgeon's Curtain",
+                name: "Chirurgeon's Curtain",
                 "mat-1": "10 Undyed Linen",
                 "mat-2": "5 Mythril Ingot",
                 "mat-3": "3 Brass Ingot",
@@ -82,7 +82,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Prism Pouch",
+                name: "Prism Pouch",
                 "mat-1": "2 Linen Canvas",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Riviera Rug",
+                name: "Riviera Rug",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "4 Linen Yarn",
@@ -106,7 +106,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Glade Fringed Rug",
+                name: "Glade Fringed Rug",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "4 Linen Yarn",
@@ -118,7 +118,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Oasis Rug",
+                name: "Oasis Rug",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "4 Linen Yarn",
@@ -130,7 +130,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Red Carpet",
+                name: "Red Carpet",
                 "mat-1": "3 Undyed Woolen Cloth",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Stuffed Ahriman",
+                name: "Stuffed Ahriman",
                 "mat-1": "Ahriman Tears",
                 "mat-2": "Exquisite Buttons",
                 "mat-3": "Undyed Velveteen",
@@ -154,7 +154,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Glade Rug",
+                name: "Glade Rug",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "2 Undyed Linen",
                 "mat-3": "2 Boar Leather",
@@ -166,7 +166,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Riviera Doormat",
+                name: "Riviera Doormat",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "3 Undyed Linen",
                 "mat-3": "2 Woolen Yarn",
@@ -178,7 +178,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Riviera Armchair",
+                name: "Riviera Armchair",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "2 Apkallu Down",
@@ -190,7 +190,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Oasis Bench",
+                name: "Oasis Bench",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "4 Mahogany Lumber",
                 "mat-3": "2 Electrum Ingot",
@@ -202,7 +202,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Glade Doormat",
+                name: "Glade Doormat",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "2 Undyed Velveteen",
                 "mat-3": "3 Woolen Yarn",
@@ -214,7 +214,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Riviera Couch",
+                name: "Riviera Couch",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "3 Apkallu Down",
@@ -226,7 +226,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Oasis Armchair",
+                name: "Oasis Armchair",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "2 Mahogany Lumber",
@@ -238,7 +238,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Oasis Doormat",
+                name: "Oasis Doormat",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "4 Undyed Woolen Cloth",
                 "mat-3": "2 Woolen Yarn",
@@ -250,7 +250,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Goobbue Rug",
+                name: "Goobbue Rug",
                 "mat-1": "4 Undyed Felt",
                 "mat-2": "Undyed Linen",
                 "mat-3": "2 Linen Yarn",
@@ -262,7 +262,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Oasis Argyle Rug",
+                name: "Oasis Argyle Rug",
                 "mat-1": "6 Undyed Felt",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "4 Woolen Yarn",
@@ -274,7 +274,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Oasis Couch",
+                name: "Oasis Couch",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "3 Undyed Woolen Cloth",
                 "mat-3": "3 Mahogany Lumber",
@@ -286,7 +286,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Stuffed Chocobo",
+                name: "Stuffed Chocobo",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Apkallu Down",
                 "mat-3": "2 Woolen Yarn",
@@ -298,7 +298,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Floor Lamp",
+                name: "Tonberry Floor Lamp",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "3 Darksteel Nugget",
@@ -310,7 +310,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Round Table",
+                name: "Tonberry Round Table",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Blue Fox Hide",
                 "mat-3": "2 Silk Thread",
@@ -322,7 +322,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Bed",
+                name: "Tonberry Bed",
                 "mat-1": "6 Undyed Woolen Cloth",
                 "mat-2": "Blue Fox Hide",
                 "mat-3": "2 Mahogany Lumber",
@@ -334,7 +334,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Dining Table",
+                name: "Tonberry Dining Table",
                 "mat-1": "3 Undyed Woolen Cloth",
                 "mat-2": "Blue Fox Hide",
                 "mat-3": "2 Silk Thread",
@@ -346,7 +346,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Combed Wool Rug",
+                name: "Combed Wool Rug",
                 "mat-1": "2 Jute Yarn",
                 "mat-2": "2 Wool Top",
                 "mat-3": "8 Woolen Yarn",
@@ -358,7 +358,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tatami Mat",
+                name: "Tatami Mat",
                 "mat-1": "3 Rush Grass",
                 "mat-2": "3 Straw",
                 "mat-3": "3 Cotton Yarn",
@@ -370,7 +370,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Oval Rug",
+                name: "Tonberry Oval Rug",
                 "mat-1": "2 Jute Yarn",
                 "mat-2": "6 Undyed Woolen Cloth",
                 "mat-3": "4 Woolen Yarn",
@@ -382,7 +382,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Tonberry Square Rug",
+                name: "Tonberry Square Rug",
                 "mat-1": "2 Jute Yarn",
                 "mat-2": "5 Undyed Woolen Cloth",
                 "mat-3": "5 Woolen Yarn",
@@ -394,7 +394,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Riviera Cushion",
+                name: "Riviera Cushion",
                 "mat-1": "3 Waterfowl Feather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "3 Silk Thread",
@@ -406,7 +406,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Glade Cushion",
+                name: "Glade Cushion",
                 "mat-1": "3 Waterfowl Feather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "3 Silk Thread",
@@ -418,7 +418,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Oasis Cushion",
+                name: "Oasis Cushion",
                 "mat-1": "3 Waterfowl Feather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "3 Silk Thread",
@@ -430,7 +430,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "South Seas Armchair",
+                name: "South Seas Armchair",
                 "mat-1": "3 Vanya Silk",
                 "mat-2": "3 Apkallu Down",
                 "mat-3": "4 Silk Thread",
@@ -442,7 +442,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Stuffed Moogle",
+                name: "Stuffed Moogle",
                 "mat-1": "Vanya Silk",
                 "mat-2": "4 Undyed Woolen Cloth",
                 "mat-3": "Apkallu Down",
@@ -454,7 +454,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "South Seas Couch",
+                name: "South Seas Couch",
                 "mat-1": "3 Vanya Silk",
                 "mat-2": "6 Apkallu Down",
                 "mat-3": "6 Silk Thread",
@@ -466,7 +466,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Double Feather Bed",
+                name: "Double Feather Bed",
                 "mat-1": "6 Waterfowl Feather",
                 "mat-2": "3 Vanya Silk",
                 "mat-3": "2 Mahogany Lumber",
@@ -478,7 +478,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Moogle Rug",
+                name: "Moogle Rug",
                 "mat-1": "Vanya Silk",
                 "mat-2": "4 Undyed Woolen Cloth",
                 "mat-3": "3 Undyed Linen",
@@ -490,7 +490,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Carbuncle Round Table",
+                name: "Carbuncle Round Table",
                 "mat-1": "Ruby",
                 "mat-2": "4 Undyed Woolen Cloth",
                 "mat-3": "3 Spruce Lumber",
@@ -502,7 +502,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Large Woven Rug",
+                name: "Large Woven Rug",
                 "mat-1": "4 Jute Yarn",
                 "mat-2": "4 Cashmere Fleece",
                 "mat-3": "6 Undyed Felt",
@@ -514,7 +514,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Carbuncle Bed",
+                name: "Carbuncle Bed",
                 "mat-1": "2 Hallowed Ramie Cloth",
                 "mat-2": "2 Hallowed Chestnut Lumber",
                 "mat-3": "4 Rainbow Cotton Boll",
@@ -526,7 +526,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Sofa Cushions",
+                name: "Sofa Cushions",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "3 Rainbow Cloth",
                 "mat-3": "3 Sylphic Silk",
@@ -538,7 +538,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Hingan Chair",
+                name: "Hingan Chair",
                 "mat-1": "2 Bloodhempen Cloth",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "2 Chimera Mane",
@@ -550,7 +550,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Unfinished Shawl",
+                name: "Unfinished Shawl",
                 "mat-1": "5 Worsted Yarn",
                 "mat-2": "5 Ramie Thread",
                 "mat-3": "5 Woolen Yarn",
@@ -562,7 +562,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Sofa",
+                name: "Hingan Sofa",
                 "mat-1": "5 Bloodhempen Cloth",
                 "mat-2": "2 Ramie Cloth",
                 "mat-3": "4 Crawler Silk",
@@ -574,7 +574,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Fat Cat Sofa",
+                name: "Fat Cat Sofa",
                 "mat-1": "2 Steppe Serge",
                 "mat-2": "3 Chimerical Felt",
                 "mat-3": "3 Undyed Woolen Cloth",
@@ -586,7 +586,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Kimono Hanger",
+                name: "Kimono Hanger",
                 "mat-1": "2 Twinsilk",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Bloodhempen Cloth",
@@ -598,7 +598,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Misplaced Mog Slippers",
+                name: "Misplaced Mog Slippers",
                 "mat-1": "1 Dwarven Cotton",
                 "mat-2": "2 Dwarven Cotton Thread",
                 "mat-3": "2 Lorikeet Down",
@@ -610,7 +610,7 @@ export const Weaver_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Tabletop Hat Stand",
+                name: "Tabletop Hat Stand",
                 "mat-1": "1 Dwarven Cotton",
                 "mat-2": "1 Zonure Leather",
                 "mat-3": "2 Titanbronze Nugget",

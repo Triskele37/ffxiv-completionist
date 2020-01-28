@@ -10,7 +10,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Bull Hoplon",
+                name: "Bull Hoplon",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Walnut Lumber",
@@ -22,7 +22,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Steel Elmo",
+                name: "Steel Elmo",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Toad Leather",
@@ -34,7 +34,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Steel Vambraces",
+                name: "Steel Vambraces",
                 "mat-1": "Steel Plate",
                 "mat-2": "2 Aldgoat Leather",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Steel Plate Belt",
+                name: "Steel Plate Belt",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "Boar Leather",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Headgear",
+                name: "Steel Headgear",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Toad Leather",
@@ -70,7 +70,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Scale Mail",
+                name: "Steel Scale Mail",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "2 Aldgoat Leather",
@@ -82,7 +82,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Scale Fingers",
+                name: "Steel Scale Fingers",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Toad Leather",
@@ -94,7 +94,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Scale Greaves",
+                name: "Steel Scale Greaves",
                 "mat-1": "Steel Ingot",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "Aldgoat Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "White Skillet",
+                name: "White Skillet",
                 "mat-1": "Steel Plate",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Decorated Buckler",
+                name: "Decorated Buckler",
                 "mat-1": "Ironclad Bronze Buckler",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Iron Rivets",
@@ -130,7 +130,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Silver Alembic",
+                name: "Silver Alembic",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Steel Rivets",
@@ -142,7 +142,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Decorated Iron Scutum",
+                name: "Decorated Iron Scutum",
                 "mat-1": "Iron Scutum",
                 "mat-2": "2 Iron Rivets",
                 "mat-3": "Toad Leather",
@@ -154,7 +154,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Heavy Steel Armor",
+                name: "Heavy Steel Armor",
                 "mat-1": "Brass Ingot",
                 "mat-2": "4 Steel Plate",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Heavy Steel Gauntlets",
+                name: "Heavy Steel Gauntlets",
                 "mat-1": "3 Steel Plate",
                 "mat-2": "Steel Rings",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Reinforced Steel Plate Belt",
+                name: "Reinforced Steel Plate Belt",
                 "mat-1": "3 Steel Plate",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Steel Barbut",
+                name: "Steel Barbut",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Iron Plate",
@@ -202,7 +202,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Altered Heavy Steel Armor",
+                name: "Altered Heavy Steel Armor",
                 "mat-1": "4 Steel Plate",
                 "mat-2": "Brass Ingot",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Steel Mitt Gauntlets",
+                name: "Steel Mitt Gauntlets",
                 "mat-1": "Steel Plate",
                 "mat-2": "Iron Plate",
                 "mat-3": "Steel Rivets",
@@ -226,7 +226,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Heavy Steel Flanchard",
+                name: "Heavy Steel Flanchard",
                 "mat-1": "3 Steel Ingot",
                 "mat-2": "2 Steel Rings",
                 "mat-3": "Boar Leather",
@@ -238,7 +238,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Steel-plated Caligae",
+                name: "Steel-plated Caligae",
                 "mat-1": "Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Boar Leather",
@@ -250,7 +250,7 @@ export const ArmorerLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Hoplon",
+                name: "Vintage Hoplon",
                 "mat-1": "Tarnished Hoplon",
                 "mat-2": "Bronze Plate",
                 "mat-3": "X",

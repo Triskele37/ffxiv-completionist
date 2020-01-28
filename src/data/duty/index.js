@@ -10,12 +10,18 @@ export const Duty = function(parentStorageKey) {
     return {
         name: "Duty",
         storageKey,
-        subGroups: [
-            Dungeons(storageKey),
-            Raids(storageKey),
-            Trials(storageKey),
-            Hunts(storageKey),
-            HallOfNovice(storageKey),
-        ]
+        groupKeys: [
+            "Dungeons",
+            "Raids",
+            "Trials",
+            "Hunts",
+            "HallOfNovice",
+        ],
+        // Groups
+        Dungeons: Dungeons(storageKey),
+        Raids: Raids(storageKey),
+        Trials: Trials(storageKey),
+        Hunts: Hunts(storageKey),
+        HallOfNovice: HallOfNovice(storageKey),
     };
 };

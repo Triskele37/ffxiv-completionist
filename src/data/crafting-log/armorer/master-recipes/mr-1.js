@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★",
-                "item": "Darksteel Wire",
+                name: "Darksteel Wire",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Reinforced Darksteel Wire",
+                name: "Reinforced Darksteel Wire",
                 "mat-1": "Darksteel Wire",
                 "mat-2": "2 Fieldcraft Demimateria III",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Lapdog Collar Bell",
+                name: "Lapdog Collar Bell",
                 "mat-1": "3 Heat-resistant Plaster",
                 "mat-2": "Scheelite",
                 "mat-3": "Ferberite",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Square",
+                name: "Wolfram Square",
                 "mat-1": "Cobalt Ore",
                 "mat-2": "Ferberite",
                 "mat-3": "Scheelite",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Perfect Mortar",
+                name: "Perfect Mortar",
                 "mat-1": "Aged Mortar Pieces",
                 "mat-2": "Belah'dian Silver",
                 "mat-3": "Mahogany Lumber",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Helm",
+                name: "Heavy Wolfram Helm",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Mask",
+                name: "Wolfram Mask",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Raptor Sinew",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Cuirass",
+                name: "Heavy Wolfram Cuirass",
                 "mat-1": "2 Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Cuirass",
+                name: "Wolfram Cuirass",
                 "mat-1": "2 Wolfram Ingot",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Darksteel Plate",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Gauntlets",
+                name: "Heavy Wolfram Gauntlets",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Gauntlets",
+                name: "Wolfram Gauntlets",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Plate Belt",
+                name: "Heavy Wolfram Plate Belt",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -154,7 +154,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Tassets",
+                name: "Wolfram Tassets",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -166,7 +166,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Cuisses",
+                name: "Heavy Wolfram Cuisses",
                 "mat-1": "2 Wolfram Ingot",
                 "mat-2": "2 Darksteel Rings",
                 "mat-3": "Hippogryph Leather",
@@ -178,7 +178,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Heavy Wolfram Sabatons",
+                name: "Heavy Wolfram Sabatons",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Darksteel Rings",
@@ -190,7 +190,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Wolfram Sabatons",
+                name: "Wolfram Sabatons",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "Darksteel Plate",
                 "mat-3": "Hippogryph Leather",
@@ -202,7 +202,7 @@ export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Garlond Steel",
+                name: "Garlond Steel",
                 "mat-1": "3 Cobalt Ore",
                 "mat-2": "3 Vivianite",
                 "mat-3": "9 Coke",

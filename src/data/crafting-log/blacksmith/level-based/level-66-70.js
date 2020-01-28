@@ -10,7 +10,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Tama-hagane Ingot",
+                name: "Tama-hagane Ingot",
                 "mat-1": "4 Doman Iron Sand",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Longsword",
+                name: "Doman Steel Longsword",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Oroshigane Ingot",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Battleaxe",
+                name: "Doman Steel Battleaxe",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Marid Leather",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Gunblade",
+                name: "Doman Steel Gunblade",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Beetle Glue",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Patas",
+                name: "Doman Steel Patas",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Oroshigane Ingot",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel War Quoits",
+                name: "Doman Steel War Quoits",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Marid Leather",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Saw",
+                name: "Doman Steel Saw",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Oroshigane Ingot",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Cross-pein Hammer",
+                name: "Doman Steel Cross-pein Hammer",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Beetle Glue",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Raising Hammer",
+                name: "Doman Steel Raising Hammer",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Marid Leather",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Durium Lapidary Hammer",
+                name: "Durium Lapidary Hammer",
                 "mat-1": "Tama-hagane Ingot",
                 "mat-2": "2 Durium Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Round Knife",
+                name: "Doman Steel Round Knife",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Marid Leather",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Plumed Doman Steel Pickaxe",
+                name: "Plumed Doman Steel Pickaxe",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Kudzu Cloth",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Doman Steel Hatchet",
+                name: "Doman Steel Hatchet",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Eagle Feather",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Greatsword",
+                name: "Doman Steel Greatsword",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Tiger Leather",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Tachi",
+                name: "Doman Steel Tachi",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Durium Nugget",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Main Gauches",
+                name: "Doman Steel Main Gauches",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "2 Durium Ingot",
                 "mat-3": "Tiger Leather",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel-barreled Musketoon",
+                name: "Doman Steel-barreled Musketoon",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Durium Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Claw Hammer",
+                name: "Doman Steel Claw Hammer",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Beetle Glue",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel File",
+                name: "Doman Steel File",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Pliers",
+                name: "Doman Steel Pliers",
                 "mat-1": "3 Tama-hagane Ingot",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Awl",
+                name: "Doman Steel Awl",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Mortar",
+                name: "Doman Steel Mortar",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Culinary Knife",
+                name: "Doman Steel Culinary Knife",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Slate Whetstone",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Sledgehammer",
+                name: "Doman Steel Sledgehammer",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Beetle Glue",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Doman Steel Scythe",
+                name: "Doman Steel Scythe",
                 "mat-1": "2 Tama-hagane Ingot",
                 "mat-2": "Persimmon Lumber",
                 "mat-3": "Slate Whetstone",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Ingot",
+                name: "Molybdenum Ingot",
                 "mat-1": "4 Molybdenum Ore",
                 "mat-2": "Cobalt",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Longsword",
+                name: "Molybdenum Longsword",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "Durium Nugget",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum War Axe",
+                name: "Molybdenum War Axe",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Marid Leather",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Longblade",
+                name: "Molybdenum Longblade",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "Durium Nugget",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Gunblade",
+                name: "Molybdenum Gunblade",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Zelkova Lumber",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Knuckles",
+                name: "Molybdenum Knuckles",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "2 Durium Nugget",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Uchigatana",
+                name: "Molybdenum Uchigatana",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Tiger Leather",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Daggers",
+                name: "Molybdenum Daggers",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Durium Nugget",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Rimfire",
+                name: "Molybdenum Rimfire",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Marid Leather",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Molybdenum Chakrams",
+                name: "Molybdenum Chakrams",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Hardsilver Nugget",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Halfheart Saw",
+                name: "Molybdenum Halfheart Saw",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Durium Nugget",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Lump Hammer",
+                name: "Molybdenum Lump Hammer",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Palladium Nugget",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Ball-pein Hammer",
+                name: "Molybdenum Ball-pein Hammer",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "2 Tama-hagane Ingot",
                 "mat-3": "Gazelle Leather",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Palladium Texture Hammer",
+                name: "Palladium Texture Hammer",
                 "mat-1": "Molybdenum Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Zelkova Lumber",
@@ -478,7 +478,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Creasing Knife",
+                name: "Molybdenum Creasing Knife",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Slate Whetstone",
@@ -490,7 +490,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Pickaxe",
+                name: "Molybdenum Pickaxe",
                 "mat-1": "3 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Tama-hagane Ingot",
@@ -502,7 +502,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Molybdenum Hatchet",
+                name: "Molybdenum Hatchet",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Gazelle Leather",
@@ -514,7 +514,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Claw Hammer",
+                name: "Molybdenum Claw Hammer",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Beetle Glue",
@@ -526,7 +526,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum File",
+                name: "Molybdenum File",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "X",
@@ -538,7 +538,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Pliers",
+                name: "Molybdenum Pliers",
                 "mat-1": "3 Molybdenum Ingot",
                 "mat-2": "Tama-hagane Ingot",
                 "mat-3": "X",
@@ -550,7 +550,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Awl",
+                name: "Molybdenum Awl",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Steppe Serge",
@@ -562,7 +562,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Mortar",
+                name: "Molybdenum Mortar",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "X",
@@ -574,7 +574,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Culinary Knife",
+                name: "Molybdenum Culinary Knife",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Slate Whetstone",
@@ -586,7 +586,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Sledgehammer",
+                name: "Molybdenum Sledgehammer",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Beetle Glue",
@@ -598,7 +598,7 @@ export const BlacksmithLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Molybdenum Scythe",
+                name: "Molybdenum Scythe",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "Zelkova Lumber",
                 "mat-3": "Slate Whetstone",

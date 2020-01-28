@@ -10,7 +10,7 @@ export const Weaver_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Elegant Bustle",
+                name: "Elegant Bustle",
                 "mat-1": "Bustle Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Winsome Spring Dress",
+                name: "Winsome Spring Dress",
                 "mat-1": "Spring Dress Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Weaver_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Seductive Bustier",
+                name: "Seductive Bustier",
                 "mat-1": "Bustier Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Weaver_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Tennyo Hagoromo",
+                name: "Tennyo Hagoromo",
                 "mat-1": "Hagoromo Materials",
                 "mat-2": "X",
                 "mat-3": "X",

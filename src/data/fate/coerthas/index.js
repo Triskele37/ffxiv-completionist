@@ -7,9 +7,12 @@ export const CoerthasFATEs = function(parentStorageKey) {
     return {
         name: "Coerthas",
         storageKey,
-        subGroups: [
-            CentralCoerthasFATEs(storageKey),
-            WesternCoerthasFATEs(storageKey),
-        ]
+        groupKeys: [
+            "CentralCoerthas",
+            "WesternCoerthas",
+        ],
+        // Groups
+        CentralCoerthas: CentralCoerthasFATEs(storageKey),
+        WesternCoerthas: WesternCoerthasFATEs(storageKey),
     };
 };

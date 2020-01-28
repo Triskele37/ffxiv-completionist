@@ -10,7 +10,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "6",
-                "item": "Sweet Cream",
+                name: "Sweet Cream",
                 "mat-1": "Buffalo Milk",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Orange Juice",
+                name: "Orange Juice",
                 "mat-1": "3 La Noscean Orange",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Sunset Wheat Flour",
+                name: "Sunset Wheat Flour",
                 "mat-1": "4 Sunset Wheat",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Smooth Butter",
+                name: "Smooth Butter",
                 "mat-1": "2 Buffalo Milk",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Tree Toad Legs",
+                name: "Tree Toad Legs",
                 "mat-1": "Tree Toad",
                 "mat-2": "Allagan Snail",
                 "mat-3": "Smooth Butter",
@@ -70,7 +70,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Braised Pipira",
+                name: "Braised Pipira",
                 "mat-1": "Pipira",
                 "mat-2": "Chanterelle",
                 "mat-3": "Smooth Butter",
@@ -82,7 +82,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Chanterelle Saute",
+                name: "Chanterelle Saute",
                 "mat-1": "Chanterelle",
                 "mat-2": "Smooth Butter",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Boiled Crayfish",
+                name: "Boiled Crayfish",
                 "mat-1": "Crimson Crayfish",
                 "mat-2": "Table Salt",
                 "mat-3": "Mineral Water",
@@ -106,7 +106,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Mutton Stew",
+                name: "Mutton Stew",
                 "mat-1": "Mutton Loin",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "Wild Onion",
@@ -118,7 +118,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Kukuru Butter",
+                name: "Kukuru Butter",
                 "mat-1": "2 Kukuru Bean",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Goby Ball",
+                name: "Goby Ball",
                 "mat-1": "3 Dusk Goby",
                 "mat-2": "Rye Flour",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Jack-o'-lantern",
+                name: "Jack-o'-lantern",
                 "mat-1": "Ogre Pumpkin",
                 "mat-2": "Beeswax",
                 "mat-3": "Maple Syrup",
@@ -154,7 +154,7 @@ export const CulinarianLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Mint Lassi",
+                name: "Mint Lassi",
                 "mat-1": "Galago Mint",
                 "mat-2": "Aldgoat Milk",
                 "mat-3": "X",

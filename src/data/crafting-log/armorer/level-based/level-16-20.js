@@ -10,7 +10,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Decorated Bronze Barbut",
+                name: "Decorated Bronze Barbut",
                 "mat-1": "Bronze Barbut",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Copper Ingot",
@@ -22,7 +22,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Decorated Bronze Mitt Gauntlets",
+                name: "Decorated Bronze Mitt Gauntlets",
                 "mat-1": "Bronze Mitt Gauntlets",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Bronze Rivets",
@@ -34,7 +34,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Iron Hoplon",
+                name: "Iron Hoplon",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Elm Lumber",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Initiate's Alembic",
+                name: "Initiate's Alembic",
                 "mat-1": "Iron Plate",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Initiate's Skillet",
+                name: "Initiate's Skillet",
                 "mat-1": "Iron Plate",
                 "mat-2": "Elm Lumber",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Iron Sallet",
+                name: "Iron Sallet",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Iron Plate",
                 "mat-3": "Iron Rivets",
@@ -82,7 +82,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Iron Plate Belt",
+                name: "Iron Plate Belt",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Iron Sabatons",
+                name: "Iron Sabatons",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Bronze Rings",
                 "mat-3": "Hard Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Ironclad Bronze Buckler",
+                name: "Ironclad Bronze Buckler",
                 "mat-1": "Bronze Buckler",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Iron Rivets",
@@ -118,7 +118,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Celata",
+                name: "Iron Celata",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rings",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Cuirass",
+                name: "Iron Cuirass",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rings",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Iron Gauntlets",
+                name: "Iron Gauntlets",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rings",
                 "mat-3": "X",

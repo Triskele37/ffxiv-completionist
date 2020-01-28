@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "55",
-                "item": "Company Escutcheon",
+                name: "Company Escutcheon",
                 "mat-1": "3 Titanium Nugget",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Titanium Rivets",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Circlet of Fending",
+                name: "Adamantite Circlet of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Adamantite Plate Belt of Fending",
+                name: "Adamantite Plate Belt of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Alembic",
+                name: "Adamantite Alembic",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "3 Adamantite Nugget",
                 "mat-3": "2 Adamantite Rivets",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Frypan",
+                name: "Adamantite Frypan",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Birch Lumber",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Hoplon",
+                name: "Adamantite Hoplon",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "3 Adamantite Nugget",
                 "mat-3": "Adamantite Rivets",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Lorica of Fending",
+                name: "Adamantite Lorica of Fending",
                 "mat-1": "3 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Mail of Maiming",
+                name: "Adamantite Mail of Maiming",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "2 Chimerical Felt",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Heavy Adamantite Gauntlets of Fending",
+                name: "Heavy Adamantite Gauntlets of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Greaves of Fending",
+                name: "Adamantite Greaves of Fending",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Chimerical Felt",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Adamantite Leg Guards of Maiming",
+                name: "Adamantite Leg Guards of Maiming",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Aurum Regis Sollerets of Healing",
+                name: "Aurum Regis Sollerets of Healing",
                 "mat-1": "Aurum Regis Nugget",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -154,7 +154,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Coat of Fending",
+                name: "Chivalric Coat of Fending",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "3 Adamantite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -166,7 +166,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Coat of Maiming",
+                name: "Chivalric Coat of Maiming",
                 "mat-1": "2 Aurum Regis Nugget",
                 "mat-2": "3 Adamantite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -178,7 +178,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Titanium Alloy Square",
+                name: "Titanium Alloy Square",
                 "mat-1": "Titanium Nugget",
                 "mat-2": "5 Sphalerite",
                 "mat-3": "Dawnborne Aethersand",
@@ -190,7 +190,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Iron Dwarf",
+                name: "Iron Dwarf",
                 "mat-1": "2 Garlean Steel Joint",
                 "mat-2": "3 Iron Giant Core",
                 "mat-3": "5 Iron Giant Scrap",
@@ -202,7 +202,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Steam-powered Gobwalker G-VII",
+                name: "Steam-powered Gobwalker G-VII",
                 "mat-1": "Stuffed Goblin",
                 "mat-2": "2 Garlean Steel Plate",
                 "mat-3": "3 Gobwalker Shielding",
@@ -214,7 +214,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Expanse Barding",
+                name: "Expanse Barding",
                 "mat-1": "Bismarck's Baleen",
                 "mat-2": "4 Titanium Ingot",
                 "mat-3": "Aurum Regis Nugget",
@@ -226,7 +226,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Hive Barding",
+                name: "Hive Barding",
                 "mat-1": "Ravana's Forewing",
                 "mat-2": "4 Adamantite Nugget",
                 "mat-3": "Aurum Regis Nugget",
@@ -238,7 +238,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Gordian Chair",
+                name: "Gordian Chair",
                 "mat-1": "Gordian Gear",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "4 Adamantite Nugget",
@@ -250,7 +250,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Ingot",
+                name: "Adamantite Ingot",
                 "mat-1": "2 Adamantite Nugget",
                 "mat-2": "Sun Mica",
                 "mat-3": "Blue Quartz",
@@ -262,7 +262,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Kamacite",
+                name: "Kamacite",
                 "mat-1": "3 Kamacite Ore",
                 "mat-2": "9 Coke",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Cauldronmaster's Alembic",
+                name: "Cauldronmaster's Alembic",
                 "mat-1": "2 Adamantite Ingot",
                 "mat-2": "2 Aurum Regis Ingot",
                 "mat-3": "Hardsilver Ingot",
@@ -286,7 +286,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Frypan",
+                name: "Galleymaster's Frypan",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Astral Birch Lumber",
@@ -298,7 +298,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hammermaster's Visor",
+                name: "Hammermaster's Visor",
                 "mat-1": "2 Adamantite Ingot",
                 "mat-2": "Adamantite Rivets",
                 "mat-3": "Griffin Leather",
@@ -310,7 +310,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Barbut of Fending",
+                name: "Adamantite Barbut of Fending",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -322,7 +322,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Helm of Fending",
+                name: "Sky Pirate's Helm of Fending",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Chimerical Felt",
@@ -334,7 +334,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Barbut of Maiming",
+                name: "Adamantite Barbut of Maiming",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -346,7 +346,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Helm of Maiming",
+                name: "Sky Pirate's Helm of Maiming",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Chimerical Felt",
@@ -358,7 +358,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Pauldroncoat of Fending",
+                name: "Adamantite Pauldroncoat of Fending",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Griffin Leather",
@@ -370,7 +370,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Coat of Fending",
+                name: "Sky Pirate's Coat of Fending",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -382,7 +382,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Pauldroncoat of Maiming",
+                name: "Adamantite Pauldroncoat of Maiming",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Griffin Leather",
@@ -394,7 +394,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Coat of Maiming",
+                name: "Sky Pirate's Coat of Maiming",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -406,7 +406,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Vambraces of Fending",
+                name: "Adamantite Vambraces of Fending",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -418,7 +418,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gauntlets of Fending",
+                name: "Sky Pirate's Gauntlets of Fending",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -430,7 +430,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Vambraces of Maiming",
+                name: "Adamantite Vambraces of Maiming",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -442,7 +442,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gauntlets of Maiming",
+                name: "Sky Pirate's Gauntlets of Maiming",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Amphiptere Leather",
@@ -454,7 +454,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Sollerets of Fending",
+                name: "Adamantite Sollerets of Fending",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -466,7 +466,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Adamantite Sollerets of Maiming",
+                name: "Adamantite Sollerets of Maiming",
                 "mat-1": "3 Adamantite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -478,7 +478,7 @@ export const Armorer_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Savage Gordian Chair",
+                name: "Savage Gordian Chair",
                 "mat-1": "Large Gordian Gear",
                 "mat-2": "2 Adamantite Ingot",
                 "mat-3": "2 Adamantite Nugget",

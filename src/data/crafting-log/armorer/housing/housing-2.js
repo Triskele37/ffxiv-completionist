@@ -10,7 +10,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "14",
-                "item": "Riviera Lantern",
+                name: "Riviera Lantern",
                 "mat-1": "Bronze Plate",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Beeswax Candle",
@@ -22,7 +22,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Oasis Dining Table",
+                name: "Oasis Dining Table",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "2 Elm Lumber",
@@ -34,7 +34,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Glade Dining Table",
+                name: "Glade Dining Table",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "2 Yew Lumber",
@@ -46,7 +46,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Manor Desk",
+                name: "Manor Desk",
                 "mat-1": "Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "3 Walnut Lumber",
@@ -58,7 +58,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Riviera Round Table",
+                name: "Riviera Round Table",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "2 Walnut Lumber",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Riviera Wardrobe",
+                name: "Riviera Wardrobe",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "2 Steel Hinge",
                 "mat-3": "4 Walnut Lumber",
@@ -82,7 +82,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Ahriman Round Table",
+                name: "Ahriman Round Table",
                 "mat-1": "Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Walnut Lumber",
@@ -94,7 +94,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Riviera Dining Table",
+                name: "Riviera Dining Table",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "Steel Rivets",
                 "mat-3": "2 Walnut Lumber",
@@ -106,7 +106,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Belah'dian Crystal Lantern",
+                name: "Belah'dian Crystal Lantern",
                 "mat-1": "Mythril Plate",
                 "mat-2": "2 Mythril Rings",
                 "mat-3": "3 Belah'dian Glass",
@@ -118,7 +118,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Riviera Desk",
+                name: "Riviera Desk",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "2 Cobalt Rivets",
                 "mat-3": "2 Rosewood Lumber",
@@ -130,7 +130,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Riviera Bookshelf",
+                name: "Riviera Bookshelf",
                 "mat-1": "3 Cobalt Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "3 Mahogany Lumber",
@@ -142,7 +142,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Company Chest",
+                name: "Company Chest",
                 "mat-1": "2 Electrum Ingot",
                 "mat-2": "5 Cobalt Plate",
                 "mat-3": "2 Steel Hinge",
@@ -154,7 +154,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Manor Fireplace",
+                name: "Manor Fireplace",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "2 Rosewood Lumber",
                 "mat-3": "2 Clinker Bricks",
@@ -166,7 +166,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Diagnostics Module",
+                name: "Diagnostics Module",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "6 Rose Gold Nugget",
                 "mat-3": "ADS Plating",
@@ -178,7 +178,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Magitek Reaper Miniature",
+                name: "Magitek Reaper Miniature",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "3 Mythril Plate",
@@ -190,7 +190,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Incensory",
+                name: "Incensory",
                 "mat-1": "2 Gold Ingot",
                 "mat-2": "2 Mythril Plate",
                 "mat-3": "8 Clove Oil",
@@ -202,7 +202,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Dead Man's Chest",
+                name: "Dead Man's Chest",
                 "mat-1": "3 Splintered Chest",
                 "mat-2": "2 Gold Ingot",
                 "mat-3": "Wolfram Square",
@@ -214,7 +214,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Manor Marching Horn",
+                name: "Manor Marching Horn",
                 "mat-1": "4 Darksteel Plate",
                 "mat-2": "4 Mahogany Lumber",
                 "mat-3": "2 Manor Varnish",
@@ -226,7 +226,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Alchemy Furnace",
+                name: "Alchemy Furnace",
                 "mat-1": "Wolfram Ingot",
                 "mat-2": "2  Darksteel Plate",
                 "mat-3": "4 Darksteel Rivets",
@@ -238,7 +238,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Projection Module",
+                name: "Projection Module",
                 "mat-1": "White Raven Armor Fragment",
                 "mat-2": "2 Gold Ingot",
                 "mat-3": "4 Rose Gold Nugget",
@@ -250,7 +250,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Purification Module",
+                name: "Purification Module",
                 "mat-1": "White Raven Armor Fragment",
                 "mat-2": "4 Darksteel Plate",
                 "mat-3": "3 Cobalt Plate",
@@ -262,7 +262,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hunting Supplies",
+                name: "Hunting Supplies",
                 "mat-1": "4 Titanium Nugget",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "2 Cedar Lumber",
@@ -274,7 +274,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Oven",
+                name: "Hingan Oven",
                 "mat-1": "5 Tama-hagane Ingot",
                 "mat-2": "5 Titanium Ingot",
                 "mat-3": "5 Electrum Ingot",
@@ -286,7 +286,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Hingan Armor Display",
+                name: "Hingan Armor Display",
                 "mat-1": "5 Tama-hagane Ingot",
                 "mat-2": "3 Durium Nugget",
                 "mat-3": "3 Kudzu Cloth",
@@ -298,7 +298,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Crystarium Teapot",
+                name: "Crystarium Teapot",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Crystarium Bench",
+                name: "Crystarium Bench",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "2 Steppe Serge",
                 "mat-3": "3 Darksteel Plate",
@@ -322,7 +322,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Crystarium Kitchen Hanger",
+                name: "Crystarium Kitchen Hanger",
                 "mat-1": "4 Titanbronze Ingot",
                 "mat-2": "2 Titanbronze Nugget",
                 "mat-3": "2 Cobalt Rivets",
@@ -334,7 +334,7 @@ export const Armorer_Housing_2 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Oasis Wall Mounted Fountain",
+                name: "Oasis Wall Mounted Fountain",
                 "mat-1": "3 Marble",
                 "mat-2": "2 Hard Mustone Whetstone",
                 "mat-3": "2 Mortar",

@@ -45,10 +45,10 @@ function dive(group) {
         });
     }
 
-    // Dive into subGroups
-    if(group.subGroups) {
-        group.subGroups.forEach(function(subGroup) {
-            const subTotals = dive(subGroup);
+    // Dive into sub groups
+    if(group.groupKeys) {
+        group.groupKeys.forEach(function(groupKey) {
+            const subTotals = dive(group[groupKey]);
             totals.total += subTotals.total;
             totals.completed += subTotals.completed;
             totals.excluded += subTotals.excluded;

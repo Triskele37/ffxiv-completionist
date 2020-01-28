@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ConjurerQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_Magic_Conjurer = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.conjurer`;
 
     return {

@@ -7,9 +7,12 @@ export const CulinarianStoryRecipe = function(parentStorageKey) {
     return {
         name: "Story Recipes",
         storageKey,
-        subGroups: [
-            Culinarian_Story_ClassQuests(storageKey),
-            Culinarian_Story_Crystarium(storageKey),
-        ]
+        groupKeys: [
+            "ClassQuests",
+            "CrystariumDeliveries"
+        ],
+        // Groups
+        ClassQuests: Culinarian_Story_ClassQuests(storageKey),
+        CrystariumDeliveries: Culinarian_Story_Crystarium(storageKey),
     };
 };

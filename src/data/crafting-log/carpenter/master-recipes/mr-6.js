@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Hingan Hot Spring",
+                name: "Hingan Hot Spring",
                 "mat-1": "5 Torreya Lumber",
                 "mat-2": "3 Oroshigane Ingot",
                 "mat-3": "10 Black Limestone",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Odder Otter Bench",
+                name: "Odder Otter Bench",
                 "mat-1": "Empyrean Pine Log",
                 "mat-2": "3 Black Willow Lumber",
                 "mat-3": "3 Oroshigane Ingot",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Odder Otter Screen",
+                name: "Odder Otter Screen",
                 "mat-1": "Empyrean Pine Log",
                 "mat-2": "3 Black Willow Lumber",
                 "mat-3": "2 Oroshigane Ingot",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Odder Otter Chair",
+                name: "Odder Otter Chair",
                 "mat-1": "Empyrean Pine Log",
                 "mat-2": "3 Black Willow Lumber",
                 "mat-3": "2 Koppranickel Ingot",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Merry Mog Bed",
+                name: "Merry Mog Bed",
                 "mat-1": "Magnanimous Mogcrown",
                 "mat-2": "4 Black Willow Lumber",
                 "mat-3": "3 Twinsilk",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Odder Otter Dining Table",
+                name: "Odder Otter Dining Table",
                 "mat-1": "Empyrean Pine Log",
                 "mat-2": "3 Black Willow Lumber",
                 "mat-3": "4 Oroshigane Ingot",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Counter Cart",
+                name: "Counter Cart",
                 "mat-1": "4 Torreya Lumber",
                 "mat-2": "2 Oroshigane Ingot",
                 "mat-3": "2 Bloodhempen Cloth",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Mirific Mogshelf",
+                name: "Mirific Mogshelf",
                 "mat-1": "4 Torreya Lumber",
                 "mat-2": "5 Darksteel Plate",
                 "mat-3": "3 Hardsilver Nugget",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Southern Kitchen",
+                name: "Southern Kitchen",
                 "mat-1": "4 Black Willow Lumber",
                 "mat-2": "3 Tama-hagane Ingot",
                 "mat-3": "2 Koppranickel Nugget",
@@ -118,7 +118,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Kitchen Hanger",
+                name: "Kitchen Hanger",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "Chromite Ingot",
                 "mat-3": "2 Oroshigane Ingot",
@@ -130,7 +130,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Mounted Cupboard",
+                name: "Mounted Cupboard",
                 "mat-1": "4 Torreya Lumber",
                 "mat-2": "2 Hardsilver Nugget",
                 "mat-3": "2 Cobalt Joint Plate",
@@ -142,7 +142,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Byakko Sideboard",
+                name: "Byakko Sideboard",
                 "mat-1": "Byakko's Mane",
                 "mat-2": "3 Oroshigane Ingot",
                 "mat-3": "2 Pine Lumber",
@@ -154,7 +154,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Lumber",
+                name: "Black Willow Lumber",
                 "mat-1": "4 Black Willow Log",
                 "mat-2": "2 Thavnairian Adhesive",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Spear",
+                name: "Black Willow Spear",
                 "mat-1": "3 Black Willow Lumber",
                 "mat-2": "Nightsteel Ingot",
                 "mat-3": "2 Azurite",
@@ -178,7 +178,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Greatbow",
+                name: "Black Willow Greatbow",
                 "mat-1": "3 Black Willow Lumber",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "2 Marid Leather",
@@ -190,7 +190,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Cane",
+                name: "Black Willow Cane",
                 "mat-1": "3 Black Willow Lumber",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Durium Ingot",
@@ -202,7 +202,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Silvergrace Grinding Wheel",
+                name: "Silvergrace Grinding Wheel",
                 "mat-1": "3 Hawk's Eye Sand",
                 "mat-2": "4 Black Willow Lumber",
                 "mat-3": "2 Silvergrace Ingot",
@@ -214,7 +214,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Spinning Wheel",
+                name: "Black Willow Spinning Wheel",
                 "mat-1": "3 Hawk's Eye Sand",
                 "mat-2": "6 Black Willow Lumber",
                 "mat-3": "Palladium Nugget",
@@ -226,7 +226,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Fishing Rod",
+                name: "Black Willow Fishing Rod",
                 "mat-1": "3 Hawk's Eye Sand",
                 "mat-2": "6 Black Willow Lumber",
                 "mat-3": "2 Nightsteel Ingot",
@@ -238,7 +238,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Yamashi Kasa",
+                name: "Yamashi Kasa",
                 "mat-1": "2 Veteran Tree Sap",
                 "mat-2": "4 Black Willow Lumber",
                 "mat-3": "2 True Linen",
@@ -250,7 +250,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Fending",
+                name: "Black Willow Necklace of Fending",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everbright Aethersand",
@@ -262,7 +262,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Slaying",
+                name: "Black Willow Necklace of Slaying",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everbright Aethersand",
@@ -274,7 +274,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Aiming",
+                name: "Black Willow Necklace of Aiming",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everbright Aethersand",
@@ -286,7 +286,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Casting",
+                name: "Black Willow Necklace of Casting",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everbright Aethersand",
@@ -298,7 +298,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Healing",
+                name: "Black Willow Necklace of Healing",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everbright Aethersand",
@@ -310,7 +310,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Necklace of Crafting",
+                name: "Black Willow Necklace of Crafting",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "4 Black Willow Lumber",
                 "mat-3": "Varnish",
@@ -322,7 +322,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Fending",
+                name: "Black Willow Armillae of Fending",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everborn Aethersand",
@@ -334,7 +334,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Slaying",
+                name: "Black Willow Armillae of Slaying",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everborn Aethersand",
@@ -346,7 +346,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Aiming",
+                name: "Black Willow Armillae of Aiming",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everborn Aethersand",
@@ -358,7 +358,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Casting",
+                name: "Black Willow Armillae of Casting",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everborn Aethersand",
@@ -370,7 +370,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Healing",
+                name: "Black Willow Armillae of Healing",
                 "mat-1": "2 Black Willow Lumber",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Everborn Aethersand",
@@ -382,7 +382,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Armillae of Crafting",
+                name: "Black Willow Armillae of Crafting",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "4 Black Willow Lumber",
                 "mat-3": "Varnish",
@@ -394,7 +394,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Black Willow Ring of Crafting",
+                name: "Black Willow Ring of Crafting",
                 "mat-1": "Hawk's Eye Sand",
                 "mat-2": "2 Black Willow Lumber",
                 "mat-3": "Varnish",
@@ -406,7 +406,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Suzaku Wall Hanging",
+                name: "Suzaku Wall Hanging",
                 "mat-1": "Scarlet Tailfeather",
                 "mat-2": "2 Black Willow Lumber",
                 "mat-3": "Torreya Lumber",
@@ -418,7 +418,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Urunday Lumber",
+                name: "Urunday Lumber",
                 "mat-1": "4 Urunday Logs",
                 "mat-2": "2 High-gloss Urushi",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Greatbow",
+                name: "Rakshasa Greatbow",
                 "mat-1": "3 Urunday Lumber",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -442,7 +442,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Cane",
+                name: "Rakshasa Cane",
                 "mat-1": "3 Urunday Lumber",
                 "mat-2": "Evergleam Ingot",
                 "mat-3": "Persimmon Lumber",
@@ -454,7 +454,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Necklace of Fending",
+                name: "Rakshasa Necklace of Fending",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -466,7 +466,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Necklace of Slaying",
+                name: "Rakshasa Necklace of Slaying",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -478,7 +478,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Necklace of Aiming",
+                name: "Rakshasa Necklace of Aiming",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -490,7 +490,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Necklace of Casting",
+                name: "Rakshasa Necklace of Casting",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -502,7 +502,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Necklace of Healing",
+                name: "Rakshasa Necklace of Healing",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -514,7 +514,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Bracelet of Fending",
+                name: "Rakshasa Bracelet of Fending",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -526,7 +526,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Bracelet of Slaying",
+                name: "Rakshasa Bracelet of Slaying",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -538,7 +538,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Bracelet of Aiming",
+                name: "Rakshasa Bracelet of Aiming",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -550,7 +550,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Bracelet of Casting",
+                name: "Rakshasa Bracelet of Casting",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",
@@ -562,7 +562,7 @@ export const Carpenter_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Bracelet of Healing",
+                name: "Rakshasa Bracelet of Healing",
                 "mat-1": "Urunday Lumber",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Durium Nugget",

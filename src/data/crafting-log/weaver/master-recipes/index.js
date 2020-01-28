@@ -13,15 +13,24 @@ export const WeaverMasterRecipe = function(parentStorageKey) {
     return {
         name: "Master Recipes",
         storageKey,
-        subGroups: [
-            Weaver_MasterRecipe_1(storageKey),
-            Weaver_MasterRecipe_2(storageKey),
-            Weaver_MasterRecipe_3(storageKey),
-            Weaver_MasterRecipe_4(storageKey),
-            Weaver_MasterRecipe_5(storageKey),
-            Weaver_MasterRecipe_6(storageKey),
-            Weaver_MasterRecipe_7(storageKey),
-            Weaver_MasterRecipe_Other(storageKey),
-        ]
+        groupKeys: [
+            "MasterRecipe_1",
+            "MasterRecipe_2",
+            "MasterRecipe_3",
+            "MasterRecipe_4",
+            "MasterRecipe_5",
+            "MasterRecipe_6",
+            "MasterRecipe_7",
+            "MasterRecipe_Other",
+        ],
+        // Groups
+        MasterRecipe_1: Weaver_MasterRecipe_1(storageKey),
+        MasterRecipe_2: Weaver_MasterRecipe_2(storageKey),
+        MasterRecipe_3: Weaver_MasterRecipe_3(storageKey),
+        MasterRecipe_4: Weaver_MasterRecipe_4(storageKey),
+        MasterRecipe_5: Weaver_MasterRecipe_5(storageKey),
+        MasterRecipe_6: Weaver_MasterRecipe_6(storageKey),
+        MasterRecipe_7: Weaver_MasterRecipe_7(storageKey),
+        MasterRecipe_Other: Weaver_MasterRecipe_Other(storageKey),
     };
 };

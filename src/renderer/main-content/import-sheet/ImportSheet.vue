@@ -57,15 +57,30 @@
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    const rowData = $event.target.value
+                    let rowData = $event.target.value
                         .split('\n')                               // Turn into an array of each row
+                        .map((row) => row.replace(/\t\t{2}/g, ''))  // Replace any instance of many empty cells
                         .map((row) => row.split('\t'))             // turn each row into columns
                         .filter((row) => !!row[0].match(/[YNX]/)); // Remove rows that don't contain Y, N, or X
 
+                    // Remove the merged header rows
+                    rowData = rowData.filter((row) => row.length > 2);
+
+                    const start = new Date().getTime();
+                    const analyzed = rowData.length;
                     const remainingRows = tab.importCallback(this.$store, rowData);
+                    const end = new Date().getTime();
+                    console.log((end - start) / 1000, 's');
 
                     tab.status = remainingRows.length ? 'failure' : 'success';
-                    tab.tooltip = remainingRows.length ? remainingRows : 'Successful';
+                    if(!remainingRows.length) tab.tooltip = `Successful: ${analyzed} tasks updated`;
+                    else {
+                        tab.tooltip = `Could not resolve ${remainingRows.length}/${analyzed}:\n`;
+                        remainingRows.forEach((remainingRow) => {
+                            tab.tooltip += remainingRow.join('\t') + '\n';
+                        });
+                    }
+
                     this.$forceUpdate();
                 }, 250);
             }

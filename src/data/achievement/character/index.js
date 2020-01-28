@@ -13,13 +13,20 @@ export const CharacterAchievements = function(parentStorageKey) {
     return {
         name: "Character",
         storageKey,
-        subGroups: [
-            CommendationCharacterAchievements(storageKey),
-            DiscipleOfHandCharacterAchievements(storageKey),
-            DiscipleOfLandCharacterAchievements(storageKey),
-            DiscipleOfMagicCharacterAchievements(storageKey),
-            DiscipleOfWarCharacterAchievements(storageKey),
-            GoldSaucerCharacterAchievements(storageKey),
-    	],
+        groupKeys: [
+            "Commendation",
+            "DiscipleOfHand",
+            "DiscipleOfLand",
+            "DiscipleOfMagic",
+            "DiscipleOfWar",
+            "GoldSaucer"
+        ],
+        // Groups
+        Commendation: CommendationCharacterAchievements(storageKey),
+        DiscipleOfHand: DiscipleOfHandCharacterAchievements(storageKey),
+        DiscipleOfLand: DiscipleOfLandCharacterAchievements(storageKey),
+        DiscipleOfMagic: DiscipleOfMagicCharacterAchievements(storageKey),
+        DiscipleOfWar: DiscipleOfWarCharacterAchievements(storageKey),
+        GoldSaucer: GoldSaucerCharacterAchievements(storageKey),
     };
 };

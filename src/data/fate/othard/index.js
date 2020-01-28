@@ -8,10 +8,14 @@ export const OthardFATEs = function(parentStorageKey) {
     return {
         name: "Othard",
         storageKey,
-        subGroups: [
-            TheAzimSteppeFATEs(storageKey),
-            TheRubySeaFATEs(storageKey),
-            YanxiaFATEs(storageKey),
-        ]
+        groupKeys: [
+            "TheAzimSteppe",
+            "TheRubySea",
+            "Yanxia",
+        ],
+        // Groups
+        TheAzimSteppe: TheAzimSteppeFATEs(storageKey),
+        TheRubySea: TheRubySeaFATEs(storageKey),
+        Yanxia: YanxiaFATEs(storageKey),
     };
 };

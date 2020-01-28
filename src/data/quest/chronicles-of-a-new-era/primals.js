@@ -1,7 +1,7 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=10&columns=ID,Name&limit=15
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const Primals = function(parentStorageKey) {
+export const Quest_COANE_Primals = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.primals`;
 
     return {

@@ -10,7 +10,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "17",
-                "item": "Glade Cottage Roof (Wood)",
+                name: "Glade Cottage Roof (Wood)",
                 "mat-1": "30 Straw",
                 "mat-2": "10 Elm Lumber",
                 "mat-3": "10 Iron Joint Plate",
@@ -22,7 +22,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Glade Cottage Roof (Stone)",
+                name: "Glade Cottage Roof (Stone)",
                 "mat-1": "45 Straw",
                 "mat-2": "5 Yew Lumber",
                 "mat-3": "10 Iron Joint Plate",
@@ -34,7 +34,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Riviera Awning",
+                name: "Riviera Awning",
                 "mat-1": "4 Cotton Canvas",
                 "mat-2": "2 Cotton Yarn",
                 "mat-3": "2 Yew Lumber",
@@ -46,7 +46,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Glade House Roof (Wood)",
+                name: "Glade House Roof (Wood)",
                 "mat-1": "30 Bloodgrass",
                 "mat-2": "10 Walnut Lumber",
                 "mat-3": "10 Steel Joint Plate",
@@ -58,7 +58,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Spotted Interior Wall",
+                name: "Spotted Interior Wall",
                 "mat-1": "3 Undyed Linen",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "3 Mortar",
@@ -70,7 +70,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Glade House Roof (Stone)",
+                name: "Glade House Roof (Stone)",
                 "mat-1": "45 Bloodgrass",
                 "mat-2": "5 Oak Lumber",
                 "mat-3": "10 Steel Joint Plate",
@@ -82,7 +82,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Linen Parasol",
+                name: "Linen Parasol",
                 "mat-1": "4 Linen Canvas",
                 "mat-2": "2 Mythril Ingot",
                 "mat-3": "2 Silver Ingot",
@@ -94,7 +94,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Glade Awning",
+                name: "Glade Awning",
                 "mat-1": "4 Linen Canvas",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "2 Oak Lumber",
@@ -106,7 +106,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Riviera Flora Interior Wall",
+                name: "Riviera Flora Interior Wall",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "3 Woolen Yarn",
                 "mat-3": "3 Mortar",
@@ -118,7 +118,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Glade Flora Interior Wall",
+                name: "Glade Flora Interior Wall",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "3 Woolen Yarn",
                 "mat-3": "3 Mortar",
@@ -130,7 +130,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Oasis Flora Interior Wall",
+                name: "Oasis Flora Interior Wall",
                 "mat-1": "4 Undyed Woolen Cloth",
                 "mat-2": "3 Woolen Yarn",
                 "mat-3": "3 Mortar",
@@ -142,7 +142,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Oasis Awning",
+                name: "Oasis Awning",
                 "mat-1": "4 Linen Canvas",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "2 Cut Stone",
@@ -154,7 +154,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Glade Thatch Wall",
+                name: "Glade Thatch Wall",
                 "mat-1": "45 Bloodgrass",
                 "mat-2": "10 Mahogany Lumber",
                 "mat-3": "10 Steel Ingot",
@@ -166,7 +166,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Striped Interior Wall",
+                name: "Striped Interior Wall",
                 "mat-1": "4 Undyed Felt",
                 "mat-2": "3 Woolen Yarn",
                 "mat-3": "3 Mortar",
@@ -178,7 +178,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Teal Blue Carpeting",
+                name: "Teal Blue Carpeting",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "3 Felt Lining",
                 "mat-3": "2 Linen Yarn",
@@ -190,7 +190,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Wavy Interior Wall",
+                name: "Wavy Interior Wall",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "4 Woolen Yarn",
                 "mat-3": "3 Mortar",
@@ -202,7 +202,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Chocobo Interior Wall",
+                name: "Chocobo Interior Wall",
                 "mat-1": "4 Chocobo Feather",
                 "mat-2": "4 Mortar",
                 "mat-3": "Undyed Felt",
@@ -214,7 +214,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Chocobo Flooring",
+                name: "Chocobo Flooring",
                 "mat-1": "4 Chocobo Feather",
                 "mat-2": "3 Undyed Cloth",
                 "mat-3": "3 Woolen Yarn",
@@ -226,7 +226,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Classic Interior Wall",
+                name: "Classic Interior Wall",
                 "mat-1": "4 Undyed Felt",
                 "mat-2": "7 Silk Thread",
                 "mat-3": "3 Mortar",
@@ -238,7 +238,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Glade Mansion Roof (Wood)",
+                name: "Glade Mansion Roof (Wood)",
                 "mat-1": "30 Maiden Grass",
                 "mat-2": "10 Mahogany Lumber",
                 "mat-3": "10 Cobalt Joint Pla",
@@ -250,7 +250,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Glade Mansion Roof (Stone)",
+                name: "Glade Mansion Roof (Stone)",
                 "mat-1": "45 Maiden Grass",
                 "mat-2": "5 Spruce",
                 "mat-3": "10 Cobalt Joint Pla",
@@ -262,7 +262,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Moogle Interior Wall",
+                name: "Moogle Interior Wall",
                 "mat-1": "Moggle Mog XII's Whisker",
                 "mat-2": "6 Mortar",
                 "mat-3": "2 Undyed Felt",
@@ -274,7 +274,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Moogle Flooring",
+                name: "Moogle Flooring",
                 "mat-1": "Moggle Mog XII's Whisker",
                 "mat-2": "5 Undyed Felt",
                 "mat-3": "5 Woolen Yarn",
@@ -286,7 +286,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Tatami Flooring",
+                name: "Tatami Flooring",
                 "mat-1": "6 Rush Grass",
                 "mat-2": "6 Straw",
                 "mat-3": "6 Cotton Yarn",
@@ -298,7 +298,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Bluesky Interior Wall",
+                name: "Bluesky Interior Wall",
                 "mat-1": "4 Ramie Cloth",
                 "mat-2": "4 Undyed Felt",
                 "mat-3": "3 Ramie Thread",
@@ -310,7 +310,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Hingan Interior Wall",
+                name: "Hingan Interior Wall",
                 "mat-1": "4 Kudzu Cloth",
                 "mat-2": "3 Ruby Cotton Yarn",
                 "mat-3": "3 Mortar",
@@ -322,7 +322,7 @@ export const Weaver_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Eulmoran Inner Wall",
+                name: "Eulmoran Inner Wall",
                 "mat-1": "4 Dwarven Cotton  ",
                 "mat-2": "4 Pixie Cotton",
                 "mat-3": "4 Pixie Floss",

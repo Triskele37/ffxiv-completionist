@@ -10,7 +10,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Ash Cavalry Bow",
+                name: "Ash Cavalry Bow",
                 "mat-1": "2 Ash Lumber",
                 "mat-2": "Oak Branch",
                 "mat-3": "Steel Ingot",
@@ -22,7 +22,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Oak Lumber",
+                name: "Oak Lumber",
                 "mat-1": "3 Oak Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Walnut Fishing Rod",
+                name: "Walnut Fishing Rod",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Oak Branch",
                 "mat-3": "Steel Ingot",
@@ -46,7 +46,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Walnut Spinning Wheel",
+                name: "Walnut Spinning Wheel",
                 "mat-1": "2 Walnut Lumber",
                 "mat-2": "2 Steel Ingot",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Walnut Pattens",
+                name: "Walnut Pattens",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Undyed Velbvetee",
                 "mat-3": "Aldgoat Leather",
@@ -70,7 +70,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Walnut Macuahuitl",
+                name: "Walnut Macuahuitl",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "2 Wyvern Obsidian",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Siltstone Grinding Wheel",
+                name: "Siltstone Grinding Wheel",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Steel Ingot",
                 "mat-3": "3 Siltstone",
@@ -94,7 +94,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Heavy Steel Lance",
+                name: "Heavy Steel Lance",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Toad Leather",
                 "mat-3": "2 Steek Ingots",
@@ -106,7 +106,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Oak Longbow",
+                name: "Oak Longbow",
                 "mat-1": "Oak Lumber",
                 "mat-2": "2 Ash Branch",
                 "mat-3": "Linen Yarn",
@@ -118,7 +118,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Oak Radical",
+                name: "Oak Radical",
                 "mat-1": "Oak Branch",
                 "mat-2": "Sunrise Tellin",
                 "mat-3": "Scalekin Blood",
@@ -130,7 +130,7 @@ export const CarpenterLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Square Shield",
+                name: "Vintage Square Shield",
                 "mat-1": "Worm-eaten Square Shield",
                 "mat-2": "Elm Lumber",
                 "mat-3": "Leather",

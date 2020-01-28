@@ -10,7 +10,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Amateur's Skillet",
+                name: "Amateur's Skillet",
                 "mat-1": "Bronze Plate",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Bronze Plate Belt",
+                name: "Bronze Plate Belt",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Hard Leather",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Celata",
+                name: "Bronze Celata",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Bronze Rings",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Bronze Cuirass",
+                name: "Bronze Cuirass",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Bronze Rings",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Iron Ingot",
+                name: "Iron Ingot",
                 "mat-1": "3 Iron Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Bronze Sabatons",
+                name: "Bronze Sabatons",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Bronze Rings",
                 "mat-3": "Hard Leather",
@@ -82,7 +82,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Iron Plate",
+                name: "Iron Plate",
                 "mat-1": "2 Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Iron Rivets",
+                name: "Iron Rivets",
                 "mat-1": "Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Bronze Gauntlets",
+                name: "Bronze Gauntlets",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Iron Rings",
+                name: "Iron Rings",
                 "mat-1": "Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Iron Joint Plate",
+                name: "Iron Joint Plate",
                 "mat-1": "Iron Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Brass Alembic",
+                name: "Brass Alembic",
                 "mat-1": "Amateur's Alembic",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Bronze Rivets",
@@ -154,7 +154,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Iron Skillet",
+                name: "Iron Skillet",
                 "mat-1": "Iron Plate",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Bronze Buckler",
+                name: "Bronze Buckler",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "Bronze Plate",
                 "mat-3": "Iron Rivets",

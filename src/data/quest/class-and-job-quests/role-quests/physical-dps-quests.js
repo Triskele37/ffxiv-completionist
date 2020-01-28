@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const PhysicalDPSQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Role_Physical_DPS = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.physical-dps`;
 
     return {

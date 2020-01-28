@@ -10,7 +10,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": 16,
-                "item": "Brass Bench",
+                name: "Brass Bench",
                 "mat-1": "4 Brass Ingot",
                 "mat-2": "2 Bronze Plate",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 19,
-                "item": "Riviera Placard",
+                name: "Riviera Placard",
                 "mat-1": "2 Brass Ingot",
                 "mat-2": "3 Iron Plate",
                 "mat-3": "2 Iron Rivets",
@@ -34,7 +34,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 22,
-                "item": "Oasis Pendant Lamp",
+                name: "Oasis Pendant Lamp",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "8 Beeswax Candle",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 25,
-                "item": "Glade Placard",
+                name: "Glade Placard",
                 "mat-1": "4 Iron Plate",
                 "mat-2": "2 Iron Rivets",
                 "mat-3": "4 Walnut Lumber",
@@ -58,7 +58,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 27,
-                "item": "Deluxe Oasis Pendant Lamp",
+                name: "Deluxe Oasis Pendant Lamp",
                 "mat-1": "4 Silver Ingot",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "4 Tallow Candle",
@@ -70,7 +70,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 29,
-                "item": "Oasis Arched Door",
+                name: "Oasis Arched Door",
                 "mat-1": "4 Steel Ingot",
                 "mat-2": "4 Steel Hinge",
                 "mat-3": "2 Walnut Lumber",
@@ -82,7 +82,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 29,
-                "item": "Iron Plate Flooring",
+                name: "Iron Plate Flooring",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "2 Iron Plate",
                 "mat-3": "2 Steel Rivets",
@@ -94,7 +94,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 30,
-                "item": "Cast-iron Cookpot",
+                name: "Cast-iron Cookpot",
                 "mat-1": "Steel Ingot",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "5 Ash Lumber",
@@ -106,7 +106,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 34,
-                "item": "Riviera Rounded Chimney",
+                name: "Riviera Rounded Chimney",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "3 Steel Plate",
                 "mat-3": "2 Steel Rivets",
@@ -118,7 +118,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 35,
-                "item": "Explorer's Campfire",
+                name: "Explorer's Campfire",
                 "mat-1": "Cast-iron Cookpot",
                 "mat-2": "3 Stump Stool",
                 "mat-3": "Campfire",
@@ -130,7 +130,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 36,
-                "item": "Glade Wall Chimney",
+                name: "Glade Wall Chimney",
                 "mat-1": "3 Steel Plate",
                 "mat-2": "2 Steel Rivets",
                 "mat-3": "Oak Lumber",
@@ -142,7 +142,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 39,
-                "item": "Mythril Table",
+                name: "Mythril Table",
                 "mat-1": "2 Mythril Plate",
                 "mat-2": "2 Mythril Rivets",
                 "mat-3": "2 Oak Lumber",
@@ -154,7 +154,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 41,
-                "item": "Glade Hanging Placard",
+                name: "Glade Hanging Placard",
                 "mat-1": "2 Steel Plate",
                 "mat-2": "2 Steel Rivets",
                 "mat-3": "2 Oak Lumber",
@@ -166,7 +166,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 43,
-                "item": "Riviera Hanging Placard",
+                name: "Riviera Hanging Placard",
                 "mat-1": "2 Brass Ingot",
                 "mat-2": "3 Steel Plate",
                 "mat-3": "2 Steel Rivets",
@@ -178,7 +178,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 45,
-                "item": "Glade Rounded Chimney",
+                name: "Glade Rounded Chimney",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "3 Cobalt Plate",
                 "mat-3": "2 Cobalt Rivets",
@@ -190,7 +190,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 45,
-                "item": "Moogle Letter Box",
+                name: "Moogle Letter Box",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "2 Mahogany Lumber",
                 "mat-3": "2 Undyed Woolen Cloth",
@@ -202,7 +202,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 46,
-                "item": "Metal Interior Wall",
+                name: "Metal Interior Wall",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "2 Steel Rivets",
@@ -214,7 +214,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 46,
-                "item": "Metal Flooring",
+                name: "Metal Flooring",
                 "mat-1": "2 Cobalt Plate",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "2 Steel Rivets",
@@ -226,7 +226,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 49,
-                "item": "Oasis Chandelier",
+                name: "Oasis Chandelier",
                 "mat-1": "4 Mythril Ingot",
                 "mat-2": "2 Cobalt Plate",
                 "mat-3": "8 Tallow Candle",
@@ -238,7 +238,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Hingan Cottage Roof (Kura-zukuri)",
+                name: "Hingan Cottage Roof (Kura-zukuri)",
                 "mat-1": "10 High Steel Nugget",
                 "mat-2": "5 Mythril Plate",
                 "mat-3": "5 Mythrite Ingot",
@@ -250,7 +250,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 61,
-                "item": "Hingan Cottage Wall (Kura-zukuri)",
+                name: "Hingan Cottage Wall (Kura-zukuri)",
                 "mat-1": "10 Beech Lumber",
                 "mat-2": "5 Mythrite Ingot",
                 "mat-3": "5 Felt Lining",
@@ -262,7 +262,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 63,
-                "item": "Hingan Squinch Window",
+                name: "Hingan Squinch Window",
                 "mat-1": "6 High Steel Ingot",
                 "mat-2": "3 Clear Glass Lens",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 63,
-                "item": "Hingan Kura-zukuri Fence",
+                name: "Hingan Kura-zukuri Fence",
                 "mat-1": "20 Oroshigane Ingot",
                 "mat-2": "20 Cut Stone",
                 "mat-3": "15 Granite",
@@ -286,7 +286,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 64,
-                "item": "Hingan House Roof (Kura-zukuri)",
+                name: "Hingan House Roof (Kura-zukuri)",
                 "mat-1": "10 Oroshigane Ingot",
                 "mat-2": "10 Cobalt Plate",
                 "mat-3": "10 Hardsilver Ingot",
@@ -298,7 +298,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 66,
-                "item": "Hingan Awning (Kura-zukuri)",
+                name: "Hingan Awning (Kura-zukuri)",
                 "mat-1": "4 Tama-hagane Ingot",
                 "mat-2": "3 High Steel Ingot",
                 "mat-3": "3 Cut Stone",
@@ -310,7 +310,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 66,
-                "item": "Hingan House Wall (Kura-zukuri)",
+                name: "Hingan House Wall (Kura-zukuri)",
                 "mat-1": "10 Persimmon Lumber",
                 "mat-2": "10 Titanium Ingot",
                 "mat-3": "10 Felt Lining",
@@ -322,7 +322,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Hingan Placard (Kura-zukuri)",
+                name: "Hingan Placard (Kura-zukuri)",
                 "mat-1": "4 Molybdenum Ingot",
                 "mat-2": "3 Hardsilver Ingot",
                 "mat-3": "2 Steel Plate",
@@ -334,7 +334,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Hingan Mansion Roof (Kura-zukuri)",
+                name: "Hingan Mansion Roof (Kura-zukuri)",
                 "mat-1": "10 Molybdenum Ingot",
                 "mat-2": "15 Darksteel Plate",
                 "mat-3": "15 Titanium Ingot",
@@ -346,7 +346,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Hingan Mansion Wall (Kura-zukuri)",
+                name: "Hingan Mansion Wall (Kura-zukuri)",
                 "mat-1": "10 Zelkova Lumber",
                 "mat-2": "15 Hardsilver Ingot",
                 "mat-3": "15 Felt Lining",
@@ -358,7 +358,7 @@ export const Armorer_Housing_1 = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Armorer's Stall",
+                name: "Armorer's Stall",
                 "mat-1": "Walnut Dining Table",
                 "mat-2": "Glade Pendant Lamp",
                 "mat-3": "3 Dwarven Cotton",

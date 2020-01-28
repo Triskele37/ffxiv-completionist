@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArmorerQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_The_Hand_Armorer = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.armorer`;
 
     return {

@@ -11,13 +11,20 @@ export const WeaverCraftingLogs = function(parentStorageKey) {
     return {
         name: "Weaver",
         storageKey,
-        subGroups: [
-            WeaverLevelBased(storageKey),
-            WeaverMasterRecipe(storageKey),
-            WeaverStoryRecipe(storageKey),
-            WeaverHousingRecipe(storageKey),
-            Weaver_IshgardRestoration_Recipe(storageKey),
-            Weaver_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groups
+        LevelBased: WeaverLevelBased(storageKey),
+        MasterRecipes: WeaverMasterRecipe(storageKey),
+        Story: WeaverStoryRecipe(storageKey),
+        Housing: WeaverHousingRecipe(storageKey),
+        IshgardRestoration: Weaver_IshgardRestoration_Recipe(storageKey),
+        Others: Weaver_Others(storageKey),
     };
 };

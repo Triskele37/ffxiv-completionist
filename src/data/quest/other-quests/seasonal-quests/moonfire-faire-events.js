@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const MoonfireFaireEvents = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Moonfire_Faire = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.moonfire-faire`;
 
     return {

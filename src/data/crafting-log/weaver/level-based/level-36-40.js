@@ -10,7 +10,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Linen Canvas",
+                name: "Linen Canvas",
                 "mat-1": "2 Linen Yarn",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "Beeswax",
@@ -22,7 +22,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Angler's Hat",
+                name: "Angler's Hat",
                 "mat-1": "3 Straw",
                 "mat-2": "Peiste Leather",
                 "mat-3": "Undyed Linen",
@@ -34,7 +34,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Linen Cowl",
+                name: "Linen Cowl",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Altered Linen Cowl",
+                name: "Altered Linen Cowl",
                 "mat-1": "4 Undyed Linen",
                 "mat-2": " Linen Yarn",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Linen Longsash",
+                name: "Linen Longsash",
                 "mat-1": "3 Undyed Linen",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Linen Trousers",
+                name: "Linen Trousers",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Toad Leather",
@@ -82,7 +82,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Linen Wedge Cap of Crafting",
+                name: "Linen Wedge Cap of Crafting",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Electrum Ingot",
@@ -94,7 +94,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Linen Half Apron",
+                name: "Linen Half Apron",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Electrum Ingot",
@@ -106,7 +106,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Linen Bottom",
+                name: "Linen Bottom",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Undyed Velveteen",
@@ -118,7 +118,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Linen Gaiters",
+                name: "Linen Gaiters",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Electrum Ingot",
@@ -130,7 +130,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Vintage Coatee",
+                name: "Vintage Coatee",
                 "mat-1": "Moth-Eaten Coatee",
                 "mat-2": "2 Undyed Cotton Cloth",
                 "mat-3": "Iron Ingot",
@@ -142,7 +142,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Woolen Yarn",
+                name: "Woolen Yarn",
                 "mat-1": "2 Fleece",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Linen Wedge Cap of Gathering",
+                name: "Linen Wedge Cap of Gathering",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Electrum Ingot",
@@ -166,7 +166,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Linen Coatee of Crafting",
+                name: "Linen Coatee of Crafting",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "Electrum Ingot",
@@ -178,7 +178,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Linen Coatee of Gathering",
+                name: "Linen Coatee of Gathering",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "2 Linen Yarn",
                 "mat-3": "Electrum Ingot",
@@ -190,7 +190,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Linen Shortgloves",
+                name: "Linen Shortgloves",
                 "mat-1": "2 Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Vintage Doublet Vest",
+                name: "Vintage Doublet Vest",
                 "mat-1": "Frayed Cotton Doublet",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "2 Hard Leather",
@@ -214,7 +214,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Undyed Woolen Cloth",
+                name: "Undyed Woolen Cloth",
                 "mat-1": "2 Woolen Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Woolen Coif",
+                name: "Woolen Coif",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Aldgoat Leather",
@@ -238,7 +238,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Woolen Turban",
+                name: "Woolen Turban",
                 "mat-1": "3 Undyed Woolen Cloth",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Woolen Shirt",
+                name: "Woolen Shirt",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "2 Aldgoat Leather",
@@ -262,7 +262,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Linen Bliaud",
+                name: "Linen Bliaud",
                 "mat-1": "3 Undyed Linen",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Aldgoat Leather",
@@ -274,7 +274,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Altered Woolen Shirt",
+                name: "Altered Woolen Shirt",
                 "mat-1": " Undyed Woolen Cloth",
                 "mat-2": " Woolen Yarn",
                 "mat-3": "2 Aldgoat Leather",
@@ -286,7 +286,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Woolen Sash",
+                name: "Woolen Sash",
                 "mat-1": "3 Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Linen Gaskins",
+                name: "Linen Gaskins",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "2 Boar Leather",
@@ -310,7 +310,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Padded Linen Trousers",
+                name: "Padded Linen Trousers",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Boar Leather",
@@ -322,7 +322,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Woolen Coif of Gathering",
+                name: "Woolen Coif of Gathering",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Aldgoat Leather",
@@ -334,7 +334,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Woolen Hat",
+                name: "Woolen Hat",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Dodo Feather",
@@ -346,7 +346,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Linen Deerstalker",
+                name: "Linen Deerstalker",
                 "mat-1": "Undyed Linen",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "2 Linen Yarn",
@@ -358,7 +358,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Red Beret",
+                name: "Red Beret",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Woolen Yarn",
@@ -370,7 +370,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Woolen Sarouel",
+                name: "Woolen Sarouel",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Aldgoat Leather",
@@ -382,7 +382,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Woolen Sarouel of Gathering",
+                name: "Woolen Sarouel of Gathering",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Aldgoat Leather",
@@ -394,7 +394,7 @@ export const WeaverLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Vintage Chef's Apron",
+                name: "Vintage Chef's Apron",
                 "mat-1": "Stained Chef's Apron",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Undyed Linen",

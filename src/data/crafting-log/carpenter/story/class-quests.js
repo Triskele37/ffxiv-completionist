@@ -10,7 +10,7 @@ export const Carpenter_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Lavish Dressing Case",
+                name: "Lavish Dressing Case",
                 "mat-1": "Dressing Case Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Stylish Pipe Box",
+                name: "Stylish Pipe Box",
                 "mat-1": "Pipe Box Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Carpenter_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Ornate Partition",
+                name: "Ornate Partition",
                 "mat-1": "Partition Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Carpenter_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Teahouse Bench",
+                name: "Teahouse Bench",
                 "mat-1": "Teahouse Bench Materials",
                 "mat-2": "X",
                 "mat-3": "X",

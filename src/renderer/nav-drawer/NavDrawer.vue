@@ -9,11 +9,11 @@
 
         <!---------------------- Data Nav ---------------------->
         <nav-group
-            v-for="group in groups"
-            :key="group.name"
+            v-for="groupKey in allData.groupKeys"
+            :key="allData[groupKey].name"
             :show="true"
             :degree="1"
-            :group="group"
+            :group="allData[groupKey]"
         />
 
         <!---------------------- Debug Menu ---------------------->
@@ -33,7 +33,7 @@
     export default {
         name: 'nav-drawer',
         data: () => ({
-            groups: data.subGroups,
+            allData: data,
             mainMenu: MainMenu,
             debugMenu: DebugMenu,
         }),

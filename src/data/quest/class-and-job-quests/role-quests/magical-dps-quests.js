@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MagicalDPSQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Role_Magical_DPS = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.magical-dps`;
 
     return {

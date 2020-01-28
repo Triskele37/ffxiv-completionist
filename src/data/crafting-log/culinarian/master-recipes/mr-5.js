@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Pork Kakuni",
+                name: "Pork Kakuni",
                 "mat-1": "Koshu Pork",
                 "mat-2": "Oriental Soy Sauce",
                 "mat-3": "Cooking Sake",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chawan-mushi",
+                name: "Chawan-mushi",
                 "mat-1": "Gagana Egg",
                 "mat-2": "Secret Recipe Broth",
                 "mat-3": "Ala Mhigan Salt Crystal",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Sermon-worthy Meuniere",
+                name: "Sermon-worthy Meuniere",
                 "mat-1": "Lordly Salmon",
                 "mat-2": "Gyr Abanian Flour",
                 "mat-3": "Fermented Butter",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Pork Stew",
+                name: "Pork Stew",
                 "mat-1": "Koshu Pork",
                 "mat-2": "Fish Stock",
                 "mat-3": "Oriental Miso Paste",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Steppe Tea",
+                name: "Steppe Tea",
                 "mat-1": "Tea Brick",
                 "mat-2": "Steppe Milk",
                 "mat-3": "Ala Mhigan Salt Crystal",

@@ -9,11 +9,16 @@ export const SightseeingLogs = function(parentStorageKey) {
     return {
         name: "Sightseeing",
         storageKey,
-        subGroups: [
-            SightseeingARR(storageKey),
-            SightseeingHW(storageKey),
-            SightseeingSB(storageKey),
-            SightseeingShB(storageKey),
-        ]
+        groupKeys: [
+            "ARR",
+            "HW",
+            "SB",
+            "ShB",
+        ],
+        // Groups
+        ARR: SightseeingARR(storageKey),
+        HW: SightseeingHW(storageKey),
+        SB: SightseeingSB(storageKey),
+        ShB: SightseeingShB(storageKey),
     };
 };

@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "Camphorwood Lumber",
+                name: "Camphorwood Lumber",
                 "mat-1": "3 Camphorwood Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Partisan",
+                name: "Endless Expanse Partisan",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Spear",
+                name: "Dead Hive Spear",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Longbow",
+                name: "Endless Expanse Longbow",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Bow",
+                name: "Dead Hive Bow",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Cane",
+                name: "Endless Expanse Cane",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Cane",
+                name: "Dead Hive Cane",
                 "mat-1": "High Mythrite Ingot",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Shishi-odoshi",
+                name: "Shishi-odoshi",
                 "mat-1": "3 Bamboo Stick",
                 "mat-2": "10 Siltstone",
                 "mat-3": "3 Cut Stone",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Orchestrion",
+                name: "Orchestrion",
                 "mat-1": "Cassia Block",
                 "mat-2": "3 Birch Lumber",
                 "mat-3": "3 Rosewood Lumber",
@@ -118,7 +118,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Pudding Desk",
+                name: "Pudding Desk",
                 "mat-1": "2 Tincalconite",
                 "mat-2": "6 Pudding Flesh",
                 "mat-3": "2 Birch Lumber",
@@ -130,7 +130,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Troupe Stage",
+                name: "Troupe Stage",
                 "mat-1": "2 Astral Birch Lumber",
                 "mat-2": "4 Birch Lumber",
                 "mat-3": "4 Wolfram Ingot",
@@ -142,7 +142,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Tier 3 Aquarium",
+                name: "Tier 3 Aquarium",
                 "mat-1": "5 Astral Birch Lumber",
                 "mat-2": "4 Hardsilver Ingot",
                 "mat-3": "Tempered Glass",
@@ -154,7 +154,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Treated Camphorwood Lumber",
+                name: "Treated Camphorwood Lumber",
                 "mat-1": "3 Old Growth Camphorwood Log",
                 "mat-2": "2 Borax",
                 "mat-3": "2 Gobcraft Resin",
@@ -166,7 +166,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Halberd of the Round",
+                name: "Halberd of the Round",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "3 Platinum Ingot",
@@ -178,7 +178,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Pike of the Fiend",
+                name: "Pike of the Fiend",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -190,7 +190,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Seeing Horde Spear",
+                name: "Seeing Horde Spear",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -202,7 +202,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Pike of the Goddess",
+                name: "Pike of the Goddess",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "2 High Mythrite Ingot",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -214,7 +214,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Bow of the Round",
+                name: "Bow of the Round",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "3 Platinum Ingot",
@@ -226,7 +226,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Bow of the Fiend",
+                name: "Bow of the Fiend",
                 "mat-1": "High Mythrite Ingot",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -238,7 +238,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Seeing Horde Bow",
+                name: "Seeing Horde Bow",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -250,7 +250,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Bow of the Goddess",
+                name: "Bow of the Goddess",
                 "mat-1": "3 Treater Camphorwood Lumber",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "Eikon Iron Ingot",
@@ -262,7 +262,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Cane of the Round",
+                name: "Cane of the Round",
                 "mat-1": "Eikon Iron Ingot",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "3 Platinum Ingot",
@@ -274,7 +274,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Cane of the Fiend",
+                name: "Cane of the Fiend",
                 "mat-1": "High Mythrite Ingot",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -286,7 +286,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Necklace of Fending",
+                name: "Camphorwood Necklace of Fending",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "2 Opal",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -298,7 +298,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Necklace of Slaying",
+                name: "Camphorwood Necklace of Slaying",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "2 Opal",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -310,7 +310,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Necklace of Aiming",
+                name: "Camphorwood Necklace of Aiming",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "2 Opal",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -322,7 +322,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Necklace of Casting",
+                name: "Camphorwood Necklace of Casting",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "2 Opal",
                 "mat-3": "Grade 1 Intelligent Dissolvent",
@@ -334,7 +334,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Necklace of Healing",
+                name: "Camphorwood Necklace of Healing",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "2 Opal",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -346,7 +346,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Armillae of Fending",
+                name: "Camphorwood Armillae of Fending",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "2 Opal",
@@ -358,7 +358,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Armillae of Slaying",
+                name: "Camphorwood Armillae of Slaying",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "2 Opal",
@@ -370,7 +370,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Armillae of Aiming",
+                name: "Camphorwood Armillae of Aiming",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "2 Opal",
@@ -382,7 +382,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Armillae of Casting",
+                name: "Camphorwood Armillae of Casting",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "2 Opal",
@@ -394,7 +394,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Armillae of Healing",
+                name: "Camphorwood Armillae of Healing",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "2 Opal",
@@ -406,7 +406,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Oriental Wood Bridge",
+                name: "Oriental Wood Bridge",
                 "mat-1": "6 Treated Camphorwood Lumber",
                 "mat-2": "8 Ancient Lumber",
                 "mat-3": "8 Cobalt Nails",
@@ -418,7 +418,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Bread Rack",
+                name: "Bread Rack",
                 "mat-1": "5 Camphorwood Lumber",
                 "mat-2": "2 Darksteel Rivets",
                 "mat-3": "3 Ishgardian Muffin",
@@ -430,7 +430,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Knightly Round Table",
+                name: "Knightly Round Table",
                 "mat-1": "6 Treated Camphorwood Lumber",
                 "mat-2": "9 Marble",
                 "mat-3": "3 Aurum Regis Ingot",
@@ -442,7 +442,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Grade 3 Picture Frame",
+                name: "Grade 3 Picture Frame",
                 "mat-1": "4 Treated Camphorwood Lumber",
                 "mat-2": "4 Ancient Lumber",
                 "mat-3": "4 Astral Oil",
@@ -454,7 +454,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Eikon Iron Grinding Wheel",
+                name: "Eikon Iron Grinding Wheel",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "2 Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -466,7 +466,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Camphorwood Spinning Wheel",
+                name: "Camphorwood Spinning Wheel",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "Wolfram Ingot",
@@ -478,7 +478,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Luminous Fiber Fishing Rod",
+                name: "Luminous Fiber Fishing Rod",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "3 Treated Camphorwood Lumber",
                 "mat-3": "High Mythrite Ingot",
@@ -490,7 +490,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Necklace of Crafting",
+                name: "Ironworks Necklace of Crafting",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Leather",
@@ -502,7 +502,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Necklace of Gathering",
+                name: "Ironworks Necklace of Gathering",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Leather",
@@ -514,7 +514,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Armillae of Crafting",
+                name: "Ironworks Armillae of Crafting",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Leather",
@@ -526,7 +526,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Ironworks Armillae of Gathering",
+                name: "Ironworks Armillae of Gathering",
                 "mat-1": "Luminous Fiber",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Leather",
@@ -538,7 +538,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Lumber",
+                name: "Teak Lumber",
                 "mat-1": "3 Teak Log",
                 "mat-2": "2 Goblacquer",
                 "mat-3": "9 Borax",
@@ -550,7 +550,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Lance",
+                name: "Heavy Metal Lance",
                 "mat-1": "2 Heavy Metal Ingot",
                 "mat-2": "2 Teak Lumber",
                 "mat-3": "Scintillant Ingot",
@@ -562,7 +562,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Composite Bow",
+                name: "Teak Composite Bow",
                 "mat-1": "3 Teak Lumber",
                 "mat-2": "2 Scintillant Ingot",
                 "mat-3": "2 Cashmere Cloth",
@@ -574,7 +574,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Cane",
+                name: "Teak Cane",
                 "mat-1": "3 Teak Lumber",
                 "mat-2": "2 Scintillant Ingot",
                 "mat-3": "Carnelian",
@@ -586,7 +586,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Choker of Fending",
+                name: "Teak Choker of Fending",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -598,7 +598,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Choker of Slaying",
+                name: "Teak Choker of Slaying",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -610,7 +610,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Choker of Aiming",
+                name: "Teak Choker of Aiming",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -622,7 +622,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Choker of Casting",
+                name: "Teak Choker of Casting",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -634,7 +634,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Choker of Healing",
+                name: "Teak Choker of Healing",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -646,7 +646,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Bracelet of Fending",
+                name: "Teak Bracelet of Fending",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -658,7 +658,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Bracelet of Slaying",
+                name: "Teak Bracelet of Slaying",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -670,7 +670,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Bracelet of Aiming",
+                name: "Teak Bracelet of Aiming",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -682,7 +682,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Bracelet of Casting",
+                name: "Teak Bracelet of Casting",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -694,7 +694,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Teak Bracelet of Healing",
+                name: "Teak Bracelet of Healing",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Star Velvet",
                 "mat-3": "Gold Ingot",
@@ -706,7 +706,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hingan Cleaning Supplies",
+                name: "Hingan Cleaning Supplies",
                 "mat-1": "Teak Lumber",
                 "mat-2": "Broombrush",
                 "mat-3": "Bamboo Stick",
@@ -718,7 +718,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Tier 4 Aquarium",
+                name: "Tier 4 Aquarium",
                 "mat-1": "6 Teak Lumber",
                 "mat-2": "2 High Mythrite Ingot",
                 "mat-3": "2 Tempered Glass",
@@ -730,7 +730,7 @@ export const Carpenter_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Cryptomeria Lumber",
+                name: "Cryptomeria Lumber",
                 "mat-1": "3 Cryptomeria Log",
                 "mat-2": "9 Hardened Sap",
                 "mat-3": "X",

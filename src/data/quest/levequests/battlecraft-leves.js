@@ -1,6 +1,6 @@
 import { LeveQuestColumnConfig } from "../columnConfigs";
 
-export const BattlecraftLeves = function(parentStorageKey) {
+export const Quest_Levequests_Battlecraft = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.battlecraft`;
 
     return {

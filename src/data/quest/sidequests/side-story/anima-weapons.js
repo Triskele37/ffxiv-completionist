@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AnimaWeapons = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Anima_Weapons = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.anima-weapons`;
 
     return {

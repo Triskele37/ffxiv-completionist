@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlphinaudQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Shadowbringers_Alphinaud = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.alphinaud`;
 
     return {

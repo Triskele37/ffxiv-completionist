@@ -1,7 +1,7 @@
 import { FishingLogColumnConfig } from "../columnConfigs";
 
 //TODO: make a spearfishing log
-export const FishingLog = function(parentStorageKey) {
+export const Fishing_Log = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.fishing-log`;
 
     return {

@@ -9,11 +9,16 @@ export const EurekaFATEs = function(parentStorageKey) {
     return {
         name: "Eureka",
         storageKey,
-        subGroups: [
-            AnemosFATEs(storageKey),
-            PagosFATEs(storageKey),
-            PyrosFATEs(storageKey),
-            HydatosFATEs(storageKey),
-        ]
+        groupKeys: [
+            "Anemos",
+            "Pagos",
+            "Pyros",
+            "Hydatos",
+        ],
+        // Groups
+        Anemos: AnemosFATEs(storageKey),
+        Pagos: PagosFATEs(storageKey),
+        Pyros: PyrosFATEs(storageKey),
+        Hydatos: HydatosFATEs(storageKey),
     };
 };

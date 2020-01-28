@@ -9,11 +9,16 @@ export const Raids = function(parentStorageKey) {
     return {
         name: "Raid",
         storageKey,
-        subGroups: [
-            ARRRaids(storageKey),
-            HWRaids(storageKey),
-            SBRaids(storageKey),
-            ShBRaids(storageKey),
-        ]
+        groupKeys: [
+            "ARR",
+            "HW",
+            "SB",
+            "ShB",
+        ],
+        // Groups
+        ARR: ARRRaids(storageKey),
+        HW: HWRaids(storageKey),
+        SB: SBRaids(storageKey),
+        ShB: ShBRaids(storageKey),
     };
 };

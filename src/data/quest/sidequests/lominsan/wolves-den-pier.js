@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WolvesDenPier = function(parentStorageKey) {
+export const Quest_Sidequests_Lominsan_Wolves_Den_Pier = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.wolves-den-pier`;
 
     return {

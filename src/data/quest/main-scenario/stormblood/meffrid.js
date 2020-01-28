@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MeffridQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Stormblood_Meffrid = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.meffrid`;
 
     return {

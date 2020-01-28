@@ -9,11 +9,16 @@ export const Trials = function(parentStorageKey) {
     return {
         name: "Trial",
         storageKey,
-        subGroups: [
-            ARRTrials(storageKey),
-            HWTrials(storageKey),
-            SBTrials(storageKey),
-            ShBTrials(storageKey),
-        ]
+        groupKeys: [
+            "ARR",
+            "HW",
+            "SB",
+            "ShB",
+        ],
+        // Groups
+        ARR: ARRTrials(storageKey),
+        HW: HWTrials(storageKey),
+        SB: SBTrials(storageKey),
+        ShB: ShBTrials(storageKey),
     };
 };

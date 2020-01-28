@@ -10,7 +10,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "26",
-                "item": "Toad Leather",
+                name: "Toad Leather",
                 "mat-1": "Gigantoad Skin",
                 "mat-2": "Alumen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Goatskin Crakows",
+                name: "Goatskin Crakows",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Diremite Sinew",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Goatskin Choker",
+                name: "Goatskin Choker",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Diremite Sinew",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Goatskin Ringbands",
+                name: "Goatskin Ringbands",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Toadskin Survival Belt",
+                name: "Toadskin Survival Belt",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Iron Ingot",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Goatskin Crakows of Gathering",
+                name: "Goatskin Crakows of Gathering",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Diremite Sinew",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Goatskin Boots",
+                name: "Goatskin Boots",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Diremite Sinew",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Altered Goatskin Moccasins",
+                name: "Altered Goatskin Moccasins",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Diremite Sinew",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Goatskin Wristbands of Gathering",
+                name: "Goatskin Wristbands of Gathering",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Fish Glue",
                 "mat-3": "2 White Coral",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Toadskin Cesti",
+                name: "Toadskin Cesti",
                 "mat-1": "Toad Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Diremite Sinew",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Toadskin Hunting Belt",
+                name: "Toadskin Hunting Belt",
                 "mat-1": "Toad Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Aldgoat Leather",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Goatskin Targe",
+                name: "Goatskin Targe",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Steel Rivets",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Toadskin Brais",
+                name: "Toadskin Brais",
                 "mat-1": "Toad Leather",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Cotton Yarn",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Goatskin Wristbands",
+                name: "Goatskin Wristbands",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Fish Glue",
                 "mat-3": "2 White Coral",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Toadskin Jerkin",
+                name: "Toadskin Jerkin",
                 "mat-1": "3 Toad Leather",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Iron Ingot",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Toadskin Jacket",
+                name: "Toadskin Jacket",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Diremite Sinew",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Toadskin Armguards",
+                name: "Toadskin Armguards",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Steel Rivets",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Toadskin Boots",
+                name: "Toadskin Boots",
                 "mat-1": "2 Toad Leather",
                 "mat-2": "Dew Thread",
                 "mat-3": "Rubber",

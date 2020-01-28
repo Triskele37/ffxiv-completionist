@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glamour Prism",
+                name: "Glamour Prism",
                 "mat-1": "Clear Prism",
                 "mat-2": "2 Toad Leather",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Talisman",
+                name: "Coeurl Talisman",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "Coeurl Fur",
                 "mat-3": "Silver Ingot",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Beach Halter",
+                name: "Coeurl Beach Halter",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "2 Coeurl Fur",
                 "mat-3": "Silk Thread",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Dodore Belt",
+                name: "Dodore Belt",
                 "mat-1": "2 Dodore Leather",
                 "mat-2": "Darksteel Rivets",
                 "mat-3": "10 Fieldcraft Demimateria I",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Dodore Survival Belt",
+                name: "Dodore Survival Belt",
                 "mat-1": "2 Dodore Leather",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Darksteel Nugget",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Beach Maro",
+                name: "Coeurl Beach Maro",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "2 Coeurl Fur",
                 "mat-3": "Silk Thread",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Beach Briefs",
+                name: "Coeurl Beach Briefs",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "2 Coeurl Fur",
                 "mat-3": "Silk Thread",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Beach Pareo",
+                name: "Coeurl Beach Pareo",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "2 Coeurl Fur",
                 "mat-3": "Silk Thread",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coeurl Beach Tanga",
+                name: "Coeurl Beach Tanga",
                 "mat-1": "Waterproof Cotton Cloth",
                 "mat-2": "Coeurl Fur",
                 "mat-3": "Silk Thread",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Dodore Choker",
+                name: "Dodore Choker",
                 "mat-1": "Dodore Leather",
                 "mat-2": "Raptor Sinew",
                 "mat-3": "10 Fieldcraft Demimateria I",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Dodore Ring",
+                name: "Dodore Ring",
                 "mat-1": "Dodore Leather",
                 "mat-2": "Silk Thread",
                 "mat-3": "10 Fieldcraft Demimateria I",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Gryphonskin Eyepatch",
+                name: "Gryphonskin Eyepatch",
                 "mat-1": "Hard Hippogryph Leather",
                 "mat-2": "Rapton Sinew",
                 "mat-3": "Silk Thread",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Best Man's Gaiters",
+                name: "Best Man's Gaiters",
                 "mat-1": "Hard Hippogryph Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Fieldcraft Demimateria II",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Bridesmaid's Sandals",
+                name: "Bridesmaid's Sandals",
                 "mat-1": "Hard Hippogryph Leather",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Fieldcraft Demimateria II",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Murderous Moggle Mogfists",
+                name: "Murderous Moggle Mogfists",
                 "mat-1": "3 Demimog Demimateria",
                 "mat-2": "10 Battlecraft Demimateria III",
                 "mat-3": "Kingly Whisker",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Saurian Shirt of Striking",
+                name: "Augmented Saurian Shirt of Striking",
                 "mat-1": "Saurian Shirt of Striking",
                 "mat-2": "Battlecraft Demimateria III",
                 "mat-3": "10 Battlecraft Demimateria II",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Saurian Tabard of Aiming",
+                name: "Augmented Saurian Tabard of Aiming",
                 "mat-1": "Saurian Tabard of Aiming",
                 "mat-2": "Battlecraft Demimateria III",
                 "mat-3": "10 Battlecraft Demimateria II",

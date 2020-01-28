@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★",
-                "item": "Spicy Tomato Relish",
+                name: "Spicy Tomato Relish",
                 "mat-1": "Dzemael Tomato",
                 "mat-2": "Cinnamon",
                 "mat-3": "Table Salt",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Rich Tomato Relish",
+                name: "Rich Tomato Relish",
                 "mat-1": "Spicy Tomato Relish",
                 "mat-2": "2 Fieldcraft Demimateria III",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Duck Broth",
+                name: "Duck Broth",
                 "mat-1": "3 Duck Bones",
                 "mat-2": "Canard Bread",
                 "mat-3": "Thyme",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Tailor-made Eel Pie",
+                name: "Tailor-made Eel Pie",
                 "mat-1": "Vintage Cooking Sherry",
                 "mat-2": "Worm of Nym",
                 "mat-3": "Pie Dough",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Roast Canard",
+                name: "Roast Canard",
                 "mat-1": "Canard Breast",
                 "mat-2": "Blood Orange",
                 "mat-3": "La Noscean Orange",
@@ -70,7 +70,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Steamed Catfish",
+                name: "Steamed Catfish",
                 "mat-1": "Star Anise",
                 "mat-2": "Giant Catfish",
                 "mat-3": "Sour Red",
@@ -82,7 +82,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Haddock Dip",
+                name: "Haddock Dip",
                 "mat-1": "Dalamud Popoto",
                 "mat-2": "Haraldr Haddock",
                 "mat-3": "2 Honey Lemon",
@@ -94,7 +94,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Popoto Pancakes",
+                name: "Popoto Pancakes",
                 "mat-1": "Dalamud Popoto",
                 "mat-2": "Mirror Apple",
                 "mat-3": "Sunset Wheat Flour",
@@ -106,7 +106,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Shark Fin Soup",
+                name: "Shark Fin Soup",
                 "mat-1": "Star Anise",
                 "mat-2": "Megalodon",
                 "mat-3": "La Noscean Leek",
@@ -118,7 +118,7 @@ export const Culinarian_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Sachertorte",
+                name: "Sachertorte",
                 "mat-1": "Royal Kukuru Bean",
                 "mat-2": "Apricot",
                 "mat-3": "Bubble Chocolate",

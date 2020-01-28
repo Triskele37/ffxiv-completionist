@@ -10,12 +10,18 @@ export const ThanalanFATEs = function(parentStorageKey) {
     return {
         name: "Thanalan",
         storageKey,
-        subGroups: [
-            CentralThanalanFATEs(storageKey),
-            EasternThanalanFATEs(storageKey),
-            NorthernThanalanFATEs(storageKey),
-            SouthernThanalanFATEs(storageKey),
-            WesternThanalanFATEs(storageKey),
-        ]
+        groupKeys: [
+            "CentralThanalan",
+            "EasternThanalan",
+            "NorthernThanalan",
+            "SouthernThanalan",
+            "WesternThanalan",
+        ],
+        // Groups
+        CentralThanalan: CentralThanalanFATEs(storageKey),
+        EasternThanalan: EasternThanalanFATEs(storageKey),
+        NorthernThanalan: NorthernThanalanFATEs(storageKey),
+        SouthernThanalan: SouthernThanalanFATEs(storageKey),
+        WesternThanalan: WesternThanalanFATEs(storageKey),
     };
 };

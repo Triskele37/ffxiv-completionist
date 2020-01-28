@@ -11,13 +11,20 @@ export const GoldsmithCraftingLogs = function(parentStorageKey) {
     return {
         name: "Goldsmith",
         storageKey,
-        subGroups: [
-            GoldsmithLevelBased(storageKey),
-            GoldsmithMasterRecipe(storageKey),
-            GoldsmithStoryRecipe(storageKey),
-            GoldsmithHousingRecipe(storageKey),
-            Goldsmith_IshgardRestoration_Recipe(storageKey),
-            Goldsmith_Others(storageKey),
+        groupKeys: [
+            "LevelBased",
+            "MasterRecipes",
+            "Story",
+            "Housing",
+            "IshgardRestoration",
+            "Others",
         ],
+        // Groups
+        LevelBased: GoldsmithLevelBased(storageKey),
+        MasterRecipes: GoldsmithMasterRecipe(storageKey),
+        Story: GoldsmithStoryRecipe(storageKey),
+        Housing: GoldsmithHousingRecipe(storageKey),
+        IshgardRestoration: Goldsmith_IshgardRestoration_Recipe(storageKey),
+        Others: Goldsmith_Others(storageKey),
     };
 };

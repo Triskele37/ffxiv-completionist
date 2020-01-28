@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AmhAraeng = function(parentStorageKey) {
+export const Quest_Sidequests_Amh_Araeng_Amh_Araeng = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.amh-araeng`;
 
     return {

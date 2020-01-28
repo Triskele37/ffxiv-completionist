@@ -17,16 +17,26 @@ export const ItemAchievements = function(parentStorageKey) {
     return {
         name: "Item",
     	storageKey,
-        subGroups: [
-            AnimaWeaponItemAchievements(storageKey),
-            CollectableItemAchievements(storageKey),
-            CurrencyItemAchievements(storageKey),
-            DeepDungeonItemAchievements(storageKey),
-            DesynthesisItemAchievements(storageKey),
-            EurekaWeaponItemAchievements(storageKey),
-            MateriaItemAchievements(storageKey),
-            RelicWeaponItemAchievements(storageKey),
-            ZodiacWeaponItemAchievements(storageKey),
-    	],
+        groupKeys: [
+            "AnimaWeapon",
+            "Collectable",
+            "Currency",
+            "DeepDungeon",
+            "Desynthesis",
+            "EurekaWeapon",
+            "Materia",
+            "RelicWeapon",
+            "ZodiacWeapon"
+        ],
+        // Groups
+        AnimaWeapon: AnimaWeaponItemAchievements(storageKey),
+        Collectable: CollectableItemAchievements(storageKey),
+        Currency: CurrencyItemAchievements(storageKey),
+        DeepDungeon: DeepDungeonItemAchievements(storageKey),
+        Desynthesis: DesynthesisItemAchievements(storageKey),
+        EurekaWeapon: EurekaWeaponItemAchievements(storageKey),
+        Materia: MateriaItemAchievements(storageKey),
+        RelicWeapon: RelicWeaponItemAchievements(storageKey),
+        ZodiacWeapon: ZodiacWeaponItemAchievements(storageKey),
     };
 };

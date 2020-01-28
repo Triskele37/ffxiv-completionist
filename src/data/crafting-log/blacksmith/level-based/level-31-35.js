@@ -10,7 +10,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Steel Falchion",
+                name: "Steel Falchion",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Steel Claw Hammer",
+                name: "Steel Claw Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Crab Oil",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Steel Awl",
+                name: "Steel Awl",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Crab Oil",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Bardiche",
+                name: "Steel Bardiche",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Yew Lumber",
                 "mat-3": "Wolf Fang",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Cross-pein Hammer",
+                name: "Steel Cross-pein Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Walnut Lumber",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Ornamental Hammer",
+                name: "Steel Ornamental Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Walnut Lumber",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Mortar",
+                name: "Steel Mortar",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Steel Culinary Knife",
+                name: "Steel Culinary Knife",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Steel Dolabra",
+                name: "Steel Dolabra",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Oak Lumber",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Wrapped Steel Sledgehammer",
+                name: "Wrapped Steel Sledgehammer",
                 "mat-1": "Steel Sledgehammer",
                 "mat-2": "Fish Glue",
                 "mat-3": "Boar Leather",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Steel Hatchet",
+                name: "Steel Hatchet",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Steel Scythe",
+                name: "Steel Scythe",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel Zweihander",
+                name: "Steel Zweihander",
                 "mat-1": "3 Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Boar Leather",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel Baselards",
+                name: "Steel Baselards",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel-barreled Musketoon",
+                name: "Steel-barreled Musketoon",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Toad Leather",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel Crowsbeak Hammer",
+                name: "Steel Crowsbeak Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Undyed Velveteen",
                 "mat-3": "Oak Lumber",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel File",
+                name: "Steel File",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Toad Leather",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Steel Doming Hammer",
+                name: "Steel Doming Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Steel Bhuj",
+                name: "Steel Bhuj",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Iron Ingot",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Crosscut Saw",
+                name: "Crosscut Saw",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Oak Lumber",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Steel Pliers",
+                name: "Steel Pliers",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Rivets",
                 "mat-3": "Linseed Oil",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Heavy Steel Mortar",
+                name: "Heavy Steel Mortar",
                 "mat-1": "Steel Mortar",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Wrapped Steel Culinary Knife",
+                name: "Wrapped Steel Culinary Knife",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Plumed Steel Hatchet",
+                name: "Plumed Steel Hatchet",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Yew Lumber",
                 "mat-3": "Chocobo Feather",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Wrapped Steel Scythe",
+                name: "Wrapped Steel Scythe",
                 "mat-1": "Steel Scythe",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "Boar Leather",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Bastard Sword",
+                name: "Vintage Bastard Sword",
                 "mat-1": "Blunt Bastard Sword",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",

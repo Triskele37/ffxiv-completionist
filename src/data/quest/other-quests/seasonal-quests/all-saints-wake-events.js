@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const AllSaintsWakeEvents = function(parentStorageKey) {
+export const Quest_Other_Seasonal_All_Saints_Wake = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.all-saints-wake`;
 
     return {

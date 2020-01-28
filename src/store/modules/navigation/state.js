@@ -2,7 +2,7 @@
 
 // export const state = {
 //     breadcrumbs: ['Overall', 'FATE'],
-//     selectedGroup: data.subGroups[4],
+//     selectedGroup: data.FATEs,
 //     showSummary: true,
 // };
 

@@ -10,7 +10,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Cream Cheese",
+                name: "Cream Cheese",
                 "mat-1": "2 Night Milk",
                 "mat-2": "Sweet Cream",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Sauerkraut",
+                name: "Sauerkraut",
                 "mat-1": "Midland Cabbage",
                 "mat-2": "Laurel",
                 "mat-3": "Table Salt",
@@ -34,7 +34,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Ratatouille",
+                name: "Ratatouille",
                 "mat-1": "Wizard Eggplant",
                 "mat-2": "Ramhorn Zucchini",
                 "mat-3": "Ruby Tomato",
@@ -46,7 +46,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Cheese Souffle",
+                name: "Cheese Souffle",
                 "mat-1": "Cream Cheese",
                 "mat-2": "Night Milk",
                 "mat-3": "Dodo Egg",
@@ -58,7 +58,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mugwort Carp",
+                name: "Mugwort Carp",
                 "mat-1": "Velodyna Carp",
                 "mat-2": "Table Salt",
                 "mat-3": "Mugwart",
@@ -70,7 +70,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Knight's Bread",
+                name: "Knight's Bread",
                 "mat-1": "Rye Flour",
                 "mat-2": "Mineral Water",
                 "mat-3": "Honey",
@@ -82,7 +82,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Raptor Stew",
+                name: "Raptor Stew",
                 "mat-1": "Gil Bun",
                 "mat-2": "Chanterelle",
                 "mat-3": "Raptor Shank",
@@ -94,7 +94,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Stuffed Artichoke",
+                name: "Stuffed Artichoke",
                 "mat-1": "Maiden Artichoke",
                 "mat-2": "Megalocrab Leg",
                 "mat-3": "Sweet Cream",
@@ -106,7 +106,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Grilled Raincaller",
+                name: "Grilled Raincaller",
                 "mat-1": "Raincaller",
                 "mat-2": "Table Salt",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Pastry Fish",
+                name: "Pastry Fish",
                 "mat-1": "Pie Dough",
                 "mat-2": "Raisins",
                 "mat-3": "Desert Saffron",
@@ -130,7 +130,7 @@ export const CulinarianLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Apple Juice",
+                name: "Apple Juice",
                 "mat-1": "6 Mirror Apple",
                 "mat-2": "X",
                 "mat-3": "X",

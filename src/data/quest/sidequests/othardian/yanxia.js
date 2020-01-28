@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Yanxia = function(parentStorageKey) {
+export const Quest_Sidequests_Othardian_Yanxia = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.yanxia`;
 
     return {

@@ -10,7 +10,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Raptor Leather",
+                name: "Raptor Leather",
                 "mat-1": "Raptor Skin",
                 "mat-2": "Black Alumen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Boarskin Belt",
+                name: "Boarskin Belt",
                 "mat-1": "Boar Leather",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Peisteskin Subligar",
+                name: "Peisteskin Subligar",
                 "mat-1": "2 Peiste Leather",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Undyed Woolen Cloth",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Boarskin Culottes",
+                name: "Boarskin Culottes",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Boarskin Skirt",
+                name: "Boarskin Skirt",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Undyed Linen",
                 "mat-3": "Silver Ingot",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Boarskin Moccasins",
+                name: "Boarskin Moccasins",
                 "mat-1": "Boar Leather",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Hippogryph Sinew",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Vintage Thighboots",
+                name: "Vintage Thighboots",
                 "mat-1": "Mildewed Thighboots",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Rubber",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Raptorskin Targe",
+                name: "Raptorskin Targe",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Mythril Rivets",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Boarskin Workboots",
+                name: "Boarskin Workboots",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Undyed Linen",
                 "mat-3": "Hippogryph Sinew",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Uraeus Leather",
+                name: "Uraeus Leather",
                 "mat-1": "Uraeus Skin",
                 "mat-2": "Black Alumen",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Jerkin",
+                name: "Boarskin Jerkin",
                 "mat-1": "3 Boar Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Silver Ingot",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Tremors",
+                name: "Boarskin Ringbands of Tremors",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Earth",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Frost",
+                name: "Boarskin Ringbands of Frost",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Ice",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Gales",
+                name: "Boarskin Ringbands of Gales",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Wind",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Tides",
+                name: "Boarskin Ringbands of Tides",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Water",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Flames",
+                name: "Boarskin Ringbands of Flames",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Fire",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Boarskin Ringbands of Storms",
+                name: "Boarskin Ringbands of Storms",
                 "mat-1": "Boarskin Ringbands",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Eye of Lightning",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Fingerless Raptorskin Gloves",
+                name: "Fingerless Raptorskin Gloves",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Boar Leather",
                 "mat-3": "Cobalt Rivets",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Raptorskin Satchel Belt",
+                name: "Raptorskin Satchel Belt",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Woolen Yarn",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Raptorskin Choker",
+                name: "Raptorskin Choker",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Raptor Sinew",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Silver Tricorne",
+                name: "Silver Tricorne",
                 "mat-1": "Uraeus Leather",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Diremite Sinew",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Peisteskin Cesti",
+                name: "Peisteskin Cesti",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Peiste Leather",
                 "mat-3": "Raptor Sinew",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Raptorskin Harness",
+                name: "Raptorskin Harness",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Boar Leather",
                 "mat-3": "Raptor Leather",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Fingerless Raptorskin Gloves of Gathering",
+                name: "Fingerless Raptorskin Gloves of Gathering",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "Boar Leather",
                 "mat-3": "Cobalt Rivets",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Raptorskin Smithy's Gloves",
+                name: "Raptorskin Smithy's Gloves",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Raptor Sinew",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Raptorskin Artisan's Belt",
+                name: "Raptorskin Artisan's Belt",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Walnut Lumber",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Peisteskin Belt",
+                name: "Peisteskin Belt",
                 "mat-1": "Peiste Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Hippogryph Sinew",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Raptorskin Subligar",
+                name: "Raptorskin Subligar",
                 "mat-1": "Undyed Felt",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Cobalt Ingot",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Raptorskin Breeches",
+                name: "Raptorskin Breeches",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Woolen Yarn",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Pot Helm",
+                name: "Raptorskin Pot Helm",
                 "mat-1": "Cobalt Rivets",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Mythril Ingot",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Armguards",
+                name: "Raptorskin Armguards",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Cobalt Rivets",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Gloves",
+                name: "Raptorskin Gloves",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Cobalt Rivets",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Survival Belt",
+                name: "Raptorskin Survival Belt",
                 "mat-1": "Boar Leather",
                 "mat-2": "Raptor Leather",
                 "mat-3": "Undyed Felt",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Merchant's Purse",
+                name: "Raptorskin Merchant's Purse",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "X",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Culottes",
+                name: "Raptorskin Culottes",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Workboots",
+                name: "Raptorskin Workboots",
                 "mat-1": "Rubber",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Undyed Linen",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Moccasins",
+                name: "Raptorskin Moccasins",
                 "mat-1": "2 Raptor Leather",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Raptor Sinew",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Shoes",
+                name: "Raptorskin Shoes",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "2 Raptor Leather",
                 "mat-3": "Rubber",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Wristbands",
+                name: "Raptorskin Wristbands",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Horn Glue",
                 "mat-3": "2 Red Coral",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Raptorskin Wristbands of Gathering",
+                name: "Raptorskin Wristbands of Gathering",
                 "mat-1": "Raptor Leather",
                 "mat-2": "Horn Glue",
                 "mat-3": "2 Red Coral",

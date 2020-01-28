@@ -10,7 +10,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Beech Lumber",
+                name: "Beech Lumber",
                 "mat-1": "4 Beech Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Beech Rod",
+                name: "Beech Rod",
                 "mat-1": "2 Beech Lumber",
                 "mat-2": "Koppranickel Nugget",
                 "mat-3": "Amphiptere Leather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Beech Mask of Healing",
+                name: "Beech Mask of Healing",
                 "mat-1": "2 Beech Lumber",
                 "mat-2": "2 Muud Suud Horn",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "High Steel Trident",
+                name: "High Steel Trident",
                 "mat-1": "Beech Lumber",
                 "mat-2": "3 High Steel Nugget",
                 "mat-3": "Gagana Leather",
@@ -58,7 +58,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Beech Composite Bow",
+                name: "Beech Composite Bow",
                 "mat-1": "3 Beech Lumber",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Koppranickel Nugget",
@@ -70,7 +70,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Muudhorn Fishing Rod",
+                name: "Muudhorn Fishing Rod",
                 "mat-1": "2 Beech Lumber",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "Muud Suud Horn",
@@ -82,7 +82,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Beech Mask of Casting",
+                name: "Beech Mask of Casting",
                 "mat-1": "2 Beech Lumber",
                 "mat-2": "2 Muud Suud Horn",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Larch Lumber",
+                name: "Larch Lumber",
                 "mat-1": "4 Larch Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "High Steel Fork",
+                name: "High Steel Fork",
                 "mat-1": "Larch Lumber",
                 "mat-2": "3 High Steel Ingot",
                 "mat-3": "Gagana Leather",
@@ -118,7 +118,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Larch Composite Bow",
+                name: "Larch Composite Bow",
                 "mat-1": "2 Larch Lumber",
                 "mat-2": "2 High Steel Ingot",
                 "mat-3": "Koppranickel Nugget",
@@ -130,7 +130,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Larch Wand",
+                name: "Larch Wand",
                 "mat-1": "2 Larch Lumber",
                 "mat-2": "Koppranickel Ingot",
                 "mat-3": "2 Growth Formula Eta",
@@ -142,7 +142,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Stiperstone Grinding Wheel",
+                name: "Stiperstone Grinding Wheel",
                 "mat-1": "2 Larch Lumber",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "2 Stiperstone",
@@ -154,7 +154,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Larch Spinning Wheel",
+                name: "Larch Spinning Wheel",
                 "mat-1": "3 Larch Lumber",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Larch Earrings",
+                name: "Larch Earrings",
                 "mat-1": "Larch Lumber",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Varnish",
@@ -178,7 +178,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Larch Necklace",
+                name: "Larch Necklace",
                 "mat-1": "Larch Lumber",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Ruby Cotton Yarn",
@@ -190,7 +190,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Larch Bracelets",
+                name: "Larch Bracelets",
                 "mat-1": "2 Larch Lumber",
                 "mat-2": "Beech Lumber",
                 "mat-3": "Ruby Cotton Yarn",
@@ -202,7 +202,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Larch Ring",
+                name: "Larch Ring",
                 "mat-1": "Larch Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Pine Lumber",
+                name: "Pine Lumber",
                 "mat-1": "4 Pine Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Doman Iron Lance",
+                name: "Doman Iron Lance",
                 "mat-1": "Oroshigane Ingot",
                 "mat-2": "2 Pine Lumber",
                 "mat-3": "Durium Nugget",
@@ -238,7 +238,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Pine Composite Bow",
+                name: "Pine Composite Bow",
                 "mat-1": "3 Pine Lumber",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Cloth",
@@ -250,7 +250,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Pine Cane",
+                name: "Pine Cane",
                 "mat-1": "2 Pine Lumber",
                 "mat-2": "Kudzu Cloth",
                 "mat-3": "Abalathian Mistletoe",
@@ -262,7 +262,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Slate Grinding Wheel",
+                name: "Slate Grinding Wheel",
                 "mat-1": "2 Pine Lumber",
                 "mat-2": "Oroshigane Ingot",
                 "mat-3": "2 Slate",
@@ -274,7 +274,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Pine Spinning Wheel",
+                name: "Pine Spinning Wheel",
                 "mat-1": "3 Pine Lumber",
                 "mat-2": "High Steel Nugget",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const CarpenterLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Pine Fishing Rod",
+                name: "Pine Fishing Rod",
                 "mat-1": "2 Pine Lumber",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Cloth",

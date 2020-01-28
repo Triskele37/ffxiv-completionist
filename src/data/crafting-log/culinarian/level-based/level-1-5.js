@@ -10,7 +10,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Table Salt",
+                name: "Table Salt",
                 "mat-1": "Rock Salt",
                 "mat-2": "Distilled Water",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "1",
-                "item": "Maple Syrup",
+                name: "Maple Syrup",
                 "mat-1": "Maple Sap",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Maple Sugar",
+                name: "Maple Sugar",
                 "mat-1": "Maple Syrup",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Raisins",
+                name: "Raisins",
                 "mat-1": "Lowland Grapes",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Boiled Egg",
+                name: "Boiled Egg",
                 "mat-1": "Chicken Egg",
                 "mat-2": "Mineral Water",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Rye Flour",
+                name: "Rye Flour",
                 "mat-1": "3 Rye",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Honey",
+                name: "Honey",
                 "mat-1": "3 Beehive Chip",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Frumenty",
+                name: "Frumenty",
                 "mat-1": "Sunset Wheat",
                 "mat-2": "Raisins",
                 "mat-3": "Honey",
@@ -106,7 +106,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Fishmeal",
+                name: "Fishmeal",
                 "mat-1": "3 Lominsan Anchovy",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Crayfish Ball",
+                name: "Crayfish Ball",
                 "mat-1": "3 Crayfish",
                 "mat-2": "Rye Flour",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Battered Fish",
+                name: "Battered Fish",
                 "mat-1": "Haddock",
                 "mat-2": "Popoto",
                 "mat-3": "Olive Oil",
@@ -142,7 +142,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Rolanberry Shaved Ice",
+                name: "Rolanberry Shaved Ice",
                 "mat-1": "Mineral Water",
                 "mat-2": "Rolanberry",
                 "mat-3": "Maple Syrup",
@@ -154,7 +154,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Marmot Steak",
+                name: "Marmot Steak",
                 "mat-1": "Marmot Meat",
                 "mat-2": "Wild Onion",
                 "mat-3": "Garlean Garlic",
@@ -166,7 +166,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Grilled Trout",
+                name: "Grilled Trout",
                 "mat-1": "Princess Trout",
                 "mat-2": "Table Salt",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const CulinarianLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Flatbread",
+                name: "Flatbread",
                 "mat-1": "Rye Flour",
                 "mat-2": "Table Salt",
                 "mat-3": "Mineral Water",

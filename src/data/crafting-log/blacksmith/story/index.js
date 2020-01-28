@@ -7,9 +7,12 @@ export const BlacksmithStoryRecipe = function(parentStorageKey) {
     return {
         name: "Story Recipes",
         storageKey,
-        subGroups: [
-            Blacksmith_Story_ClassQuests(storageKey),
-            Blacksmith_Story_Crystarium(storageKey),
-        ]
+        groupKeys: [
+            "ClassQuests",
+            "CrystariumDeliveries"
+        ],
+        // Groups
+        ClassQuests: Blacksmith_Story_ClassQuests(storageKey),
+        CrystariumDeliveries: Blacksmith_Story_Crystarium(storageKey),
     };
 };

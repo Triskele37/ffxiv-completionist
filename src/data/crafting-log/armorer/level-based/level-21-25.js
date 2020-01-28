@@ -10,7 +10,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Iron Lantern Shield",
+                name: "Iron Lantern Shield",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Tallow Candle",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Iron Vambraces",
+                name: "Iron Vambraces",
                 "mat-1": "Iron Plate",
                 "mat-2": "2 Aldgoat Leather",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Iron Elmo",
+                name: "Iron Elmo",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "Aldgoat Leather",
@@ -46,7 +46,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Iron Headgear",
+                name: "Iron Headgear",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "Aldgoat Leather",
@@ -58,7 +58,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Iron-plated Jackboots",
+                name: "Iron-plated Jackboots",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Beast Sinew",
@@ -70,7 +70,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Iron Alembic",
+                name: "Iron Alembic",
                 "mat-1": "Iron Plate",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Iron Frypan",
+                name: "Iron Frypan",
                 "mat-1": "Iron Plate",
                 "mat-2": "Yew Lumber",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Iron Scale Mail",
+                name: "Iron Scale Mail",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Iron Plate",
                 "mat-3": "2 Aldgoat Leather",
@@ -106,7 +106,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Iron Scale Fingers",
+                name: "Iron Scale Fingers",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Iron Plate",
                 "mat-3": "Aldgoat Leather",
@@ -118,7 +118,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Iron Scale Greaves",
+                name: "Iron Scale Greaves",
                 "mat-1": "Iron Ingot",
                 "mat-2": "2 Iron Plate",
                 "mat-3": "Aldgoat Leather",
@@ -130,7 +130,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Iron Scutum",
+                name: "Iron Scutum",
                 "mat-1": "2 Iron Plate",
                 "mat-2": "3 Iron Rivets",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Reinforced Iron Sallet",
+                name: "Reinforced Iron Sallet",
                 "mat-1": "Iron Sallet",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Iron Rivets",
@@ -154,7 +154,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Reinforced Iron Plate Belt",
+                name: "Reinforced Iron Plate Belt",
                 "mat-1": "3 Iron Plate",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Heavy Iron Armor",
+                name: "Heavy Iron Armor",
                 "mat-1": "Brass Ingot",
                 "mat-2": "4 Iron Plate",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Heavy Iron Gauntlets",
+                name: "Heavy Iron Gauntlets",
                 "mat-1": "3 Iron Plate",
                 "mat-2": "Iron Rings",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const ArmorerLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Heavy Iron Flanchard",
+                name: "Heavy Iron Flanchard",
                 "mat-1": "3 Iron Ingot",
                 "mat-2": "2 Iron Rings",
                 "mat-3": "Aldgoat Leather",

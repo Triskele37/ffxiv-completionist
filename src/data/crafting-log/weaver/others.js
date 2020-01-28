@@ -10,7 +10,7 @@ export const Weaver_Others = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★",
-                "item": "Wolf Ranger's Hat",
+                name: "Wolf Ranger's Hat",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Boar Leather",
@@ -22,7 +22,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Cavalier's Hat",
+                name: "Wolf Cavalier's Hat",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Chocobo Feather",
@@ -34,7 +34,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Hat",
+                name: "Wolf Hat",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Wildfowl Feather",
@@ -46,7 +46,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Tunic",
+                name: "Wolf Tunic",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Boar Leather",
@@ -58,7 +58,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Bliaud",
+                name: "Wolf Bliaud",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Boar Leather",
@@ -70,7 +70,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Robe",
+                name: "Wolf Robe",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Woolen Yarn",
@@ -82,7 +82,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Bracers",
+                name: "Wolf Bracers",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Boar Leather",
@@ -94,7 +94,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Dress Gloves",
+                name: "Wolf Dress Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Sash",
+                name: "Wolf Sash",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Trousers",
+                name: "Wolf Trousers",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Raptor Leather",
@@ -130,7 +130,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Kecks",
+                name: "Wolf Kecks",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Undyed Woolen Cloth",
@@ -142,7 +142,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Gaskins",
+                name: "Wolf Gaskins",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "2 Boar Leather",
@@ -154,7 +154,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Tights",
+                name: "Wolf Tights",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const Weaver_Others = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Wolf Dress Shoes",
+                name: "Wolf Dress Shoes",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rubber",

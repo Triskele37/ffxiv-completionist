@@ -10,7 +10,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Gyr Abanian Flour",
+                name: "Gyr Abanian Flour",
                 "mat-1": "5 Gyr Abanian Wheat",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Baklava",
+                name: "Baklava",
                 "mat-1": "Gyr Abanian Flour ",
                 "mat-2": "Gagana Egg",
                 "mat-3": "Buffalo Milk",
@@ -34,7 +34,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Loquat Juice",
+                name: "Loquat Juice",
                 "mat-1": "3 Loquat",
                 "mat-2": "Heavens Lemon",
                 "mat-3": "Honey",
@@ -46,7 +46,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Algae Salt",
+                name: "Algae Salt",
                 "mat-1": "5 Gem Algae",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Charred Charr",
+                name: "Charred Charr",
                 "mat-1": "Heather Charr",
                 "mat-2": "Algae Salt",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Kasha",
+                name: "Kasha",
                 "mat-1": "Buckwheat Kernels",
                 "mat-2": "Bouillon Cube",
                 "mat-3": "Cyclops Onion",
@@ -82,7 +82,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Buckwheat Tea",
+                name: "Buckwheat Tea",
                 "mat-1": "3 Buckwheat Kernels",
                 "mat-2": "Gyr Abanian Mineral Water",
                 "mat-3": "Thanalan Tea Leaves",
@@ -94,7 +94,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Cottonseed Oil",
+                name: "Cottonseed Oil",
                 "mat-1": "5 Ruby Cotton Boll",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Popoto Soba",
+                name: "Popoto Soba",
                 "mat-1": "Buckwheat Kernels",
                 "mat-2": "Fish Stock",
                 "mat-3": "Oriental Soy Sauce",
@@ -118,7 +118,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Grilled Turban",
+                name: "Grilled Turban",
                 "mat-1": "Horned Turban",
                 "mat-2": "Oriental Soy Sauce",
                 "mat-3": "Cooking Sake",
@@ -130,7 +130,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Firm Tofu",
+                name: "Firm Tofu",
                 "mat-1": "3 Sybeans",
                 "mat-2": "Nigari",
                 "mat-3": "Crescent Spring Water",
@@ -142,7 +142,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Beet Sugar",
+                name: "Beet Sugar",
                 "mat-1": "5 Sugar Beet",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Crab Croquette",
+                name: "Crab Croquette",
                 "mat-1": "Gyr Abanian Flour ",
                 "mat-2": "Firm Tofu",
                 "mat-3": "Guantlet Crab",
@@ -166,7 +166,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Miso Soup with Tofu",
+                name: "Miso Soup with Tofu",
                 "mat-1": "Oriental Miso Paste",
                 "mat-2": "Fish Stock",
                 "mat-3": "Firm Tofu",
@@ -178,7 +178,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Rice Vinegar",
+                name: "Rice Vinegar",
                 "mat-1": "2 Koshu Sticky Rice",
                 "mat-2": "2 Sticky Rice",
                 "mat-3": "Crescent Spring Water",
@@ -190,7 +190,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Shorlog",
+                name: "Shorlog",
                 "mat-1": "Dzo Chuck",
                 "mat-2": "Paprika",
                 "mat-3": "Cumin Seeds",
@@ -202,7 +202,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Sweet and Sour Frogs' Legs",
+                name: "Sweet and Sour Frogs' Legs",
                 "mat-1": "Steppe Bullfrog",
                 "mat-2": "Gyr Abanian Flour",
                 "mat-3": "Cottonseed Oil",
@@ -214,7 +214,7 @@ export const CulinarianLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Gameni",
+                name: "Gameni",
                 "mat-1": "Hornbill Tenderloin",
                 "mat-2": "Bamboo Shoot",
                 "mat-3": "Lotus Root",

@@ -11,13 +11,20 @@ export const NorvrandtFATEs = function(parentStorageKey) {
     return {
         name: "Norvrandt",
         storageKey,
-        subGroups: [
-            AmhAraengFATEs(storageKey),
-            IlMhegFATEs(storageKey),
-            KholusiaFATEs(storageKey),
-            LakelandFATEs(storageKey),
-            TheRakTikaGreatwoodFATEs(storageKey),
-            TheTempestFATEs(storageKey),
-        ]
+        groupKeys: [
+            "AmhAraeng",
+            "IlMheg",
+            "Kholusia",
+            "Lakeland",
+            "TheRakTikaGreatwood",
+            "TheTempest",
+        ],
+        // Groups
+        AmhAraeng: AmhAraengFATEs(storageKey),
+        IlMheg: IlMhegFATEs(storageKey),
+        Kholusia: KholusiaFATEs(storageKey),
+        Lakeland: LakelandFATEs(storageKey),
+        TheRakTikaGreatwood: TheRakTikaGreatwoodFATEs(storageKey),
+        TheTempest: TheTempestFATEs(storageKey),
     };
 };

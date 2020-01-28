@@ -5,11 +5,14 @@ export const Leatherworker_IshgardRestoration_Recipe = function(parentStorageKey
     const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
 
     return {
-        name: "Ishgard Restoration Recipes",
+        name: "Ishgard Restoration",
         storageKey,
-        subGroups: [
-            Leatherworker_Restoration(storageKey),
-            Leatherworker_Other(storageKey),
-        ]
+        groupKeys: [
+            "Restoration",
+            "Other",
+        ],
+        // Groups
+        Restoration: Leatherworker_Restoration(storageKey),
+        Other: Leatherworker_Other(storageKey),
     };
 };

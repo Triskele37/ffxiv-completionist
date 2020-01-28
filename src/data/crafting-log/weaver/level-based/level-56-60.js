@@ -10,7 +10,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Hallowed Ramie Cloth",
+                name: "Hallowed Ramie Cloth",
                 "mat-1": "Ramie Cloth",
                 "mat-2": "2 Hallowed Water",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Ramie Doublet of Crafting",
+                name: "Ramie Doublet of Crafting",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -34,7 +34,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Ramie Shirt",
+                name: "Ramie Shirt",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Dragon Leather",
@@ -46,7 +46,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Ramie Sash of Aiming",
+                name: "Hallowed Ramie Sash of Aiming",
                 "mat-1": "2 Hallowed Ramie Cloth",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -58,7 +58,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Ramie Sash of Casting",
+                name: "Hallowed Ramie Sash of Casting",
                 "mat-1": "2 Hallowed Ramie Cloth",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -70,7 +70,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Hallowed Ramie Sash of Healing",
+                name: "Hallowed Ramie Sash of Healing",
                 "mat-1": "2 Hallowed Ramie Cloth",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -82,7 +82,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Ramie Skirt",
+                name: "Ramie Skirt",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Holy Rainbow Cloth",
                 "mat-3": "Ramie Thread",
@@ -94,7 +94,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Ramie Trousers of Gathering",
+                name: "Ramie Trousers of Gathering",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -106,7 +106,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Orthodox Barding",
+                name: "Orthodox Barding",
                 "mat-1": "4 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Electrum Ingot",
@@ -118,7 +118,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Crawler Silk",
+                name: "Crawler Silk",
                 "mat-1": "3 Crawler Coccon",
                 "mat-2": "2 Silkworm Cocoon",
                 "mat-3": "Effervescent Water",
@@ -130,7 +130,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Doublet of Aiming",
+                name: "Hallowed Ramie Doublet of Aiming",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Opal",
@@ -142,7 +142,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Doublet of Casting",
+                name: "Hallowed Ramie Doublet of Casting",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Opal",
@@ -154,7 +154,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Doublet of Healing",
+                name: "Hallowed Ramie Doublet of Healing",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Opal",
@@ -166,7 +166,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Gaskins of Aiming",
+                name: "Hallowed Ramie Gaskins of Aiming",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -178,7 +178,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Gaskins of Casting",
+                name: "Hallowed Ramie Gaskins of Casting",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -190,7 +190,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Hallowed Ramie Gaskins of Healing",
+                name: "Hallowed Ramie Gaskins of Healing",
                 "mat-1": "3 Hallowed Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -202,7 +202,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt",
+                name: "Chimerical Felt",
                 "mat-1": "5 Chimera Mane",
                 "mat-2": "Fleece",
                 "mat-3": "Natron",
@@ -214,7 +214,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Cap of Striking",
+                name: "Chimerical Felt Cap of Striking",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Titanium Ingot",
@@ -226,7 +226,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Cap of Scouting",
+                name: "Chimerical Felt Cap of Scouting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Titanium Ingot",
@@ -238,7 +238,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Cap of Aiming",
+                name: "Chimerical Felt Cap of Aiming",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Titanium Ingot",
@@ -250,7 +250,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Klobuk of Healing",
+                name: "Chimerical Felt Klobuk of Healing",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Hallowed Chestnut Lumber",
                 "mat-3": "Crawler Silk",
@@ -262,7 +262,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Gloves of Healing",
+                name: "Chimerical Felt Gloves of Healing",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -274,7 +274,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Corset of Casting",
+                name: "Chimerical Felt Corset of Casting",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -286,7 +286,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Chimerical Felt Corset of Healing",
+                name: "Chimerical Felt Corset of Healing",
                 "mat-1": "2 Chimerical Felt",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -298,7 +298,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Cyclas of Striking",
+                name: "Chimerical Felt Cyclas of Striking",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Crawler Silk",
@@ -310,7 +310,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Cyclas of Scouting",
+                name: "Chimerical Felt Cyclas of Scouting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Crawler Silk",
@@ -322,7 +322,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Cyclas of Aiming",
+                name: "Chimerical Felt Cyclas of Aiming",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Crawler Silk",
@@ -334,7 +334,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Robe of Casting",
+                name: "Chimerical Felt Robe of Casting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Hallowed Ramie Cloth",
                 "mat-3": "Crawler Silk",
@@ -346,7 +346,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Alb of Healing",
+                name: "Chimerical Felt Alb of Healing",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "Carnelian",
@@ -358,7 +358,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Hose of Striking",
+                name: "Chimerical Felt Hose of Striking",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -370,7 +370,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Hose of Scouting",
+                name: "Chimerical Felt Hose of Scouting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -382,7 +382,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Hose of Aiming",
+                name: "Chimerical Felt Hose of Aiming",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -394,7 +394,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Breeches of Casting",
+                name: "Chimerical Felt Breeches of Casting",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -406,7 +406,7 @@ export const WeaverLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Chimerical Felt Chausses of Healing",
+                name: "Chimerical Felt Chausses of Healing",
                 "mat-1": "3 Chimerical Felt",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",

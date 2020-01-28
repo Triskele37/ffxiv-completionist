@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TalesOfTheDragonsongWar = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Tales_Of_The_Dragonsong_War = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.tales-of-the-dragonsong-war`;
 
     return {

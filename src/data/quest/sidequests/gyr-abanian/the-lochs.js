@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheLochs = function(parentStorageKey) {
+export const Quest_Sidequests_Gyr_Abanian_The_Lochs = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-lochs`;
 
     return {

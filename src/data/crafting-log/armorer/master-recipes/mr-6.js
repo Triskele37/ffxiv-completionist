@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Tier 1 Metal Aquarium",
+                name: "Tier 1 Metal Aquarium",
                 "mat-1": "3 Chromite Ingot",
                 "mat-2": "2 Steel Plate",
                 "mat-3": "Clear Glass Lens",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Tier 2 Metal Aquarium",
+                name: "Tier 2 Metal Aquarium",
                 "mat-1": "4 Chromite Ingot",
                 "mat-2": "3 Wolfram Ingot",
                 "mat-3": "Crystal Glass",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Tier 3 Metal Aquarium",
+                name: "Tier 3 Metal Aquarium",
                 "mat-1": "5 Chromite Ingot",
                 "mat-2": "3 Steel Plate",
                 "mat-3": "Clear Glass Lens",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Tier 4 Metal Aquarium",
+                name: "Tier 4 Metal Aquarium",
                 "mat-1": "6 Chromite Ingot",
                 "mat-2": "4 Wolfram Ingot",
                 "mat-3": "Crystal Glass",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Ingot",
+                name: "Nightsteel Ingot",
                 "mat-1": "4 Nightsteel Ore",
                 "mat-2": "2 Thavnairian Abrasive",
                 "mat-3": "High Steel Ingot",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Alembic",
+                name: "Nightsteel Alembic",
                 "mat-1": "3 Hawk's Eye Sand",
                 "mat-2": "4 Nightsteel Ingot",
                 "mat-3": "4 Silvergrace Ingot",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Frypan",
+                name: "Nightsteel Frypan",
                 "mat-1": "3 Hawk's Eye Sand",
                 "mat-2": "6 Nightsteel Ingot",
                 "mat-3": "2 Black Willow Lumber",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Shield",
+                name: "Nightsteel Shield",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "Rhodonite",
                 "mat-3": "Everborn Aethersand",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Helm of Fending",
+                name: "Nightsteel Helm of Fending",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Molybdenum Ingot",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Helm of Maiming",
+                name: "Nightsteel Helm of Maiming",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Molybdenum Ingot",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Armor of Fending",
+                name: "Nightsteel Armor of Fending",
                 "mat-1": "3 Nightsteel Ingot",
                 "mat-2": "True Linen",
                 "mat-3": "Twinsilk",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Mail of Maiming",
+                name: "Nightsteel Mail of Maiming",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "2 True Linen",
                 "mat-3": "Marid Leather",
@@ -154,7 +154,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Gauntlets of Fending",
+                name: "Nightsteel Gauntlets of Fending",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -166,7 +166,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Gauntlets of Maiming",
+                name: "Nightsteel Gauntlets of Maiming",
                 "mat-1": "2 Nightsteel Ingot",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Marid Leather",
@@ -178,7 +178,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Sabatons of Fending",
+                name: "Nightsteel Sabatons of Fending",
                 "mat-1": "3 Nightsteel Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Rhodonite",
@@ -190,7 +190,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightsteel Greaves of Maiming",
+                name: "Nightsteel Greaves of Maiming",
                 "mat-1": "3 Nightsteel Ingot",
                 "mat-2": "Marid Leather",
                 "mat-3": "Azurite",
@@ -202,7 +202,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Chigusa Ingot",
+                name: "Chigusa Ingot",
                 "mat-1": "4 Gyr Abanion Ore",
                 "mat-2": "2 Tatara Iron Sand",
                 "mat-3": "Tama-hagane Ingot",
@@ -214,7 +214,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Greatshield",
+                name: "Rakshasa Greatshield",
                 "mat-1": "Chigusa Ingot",
                 "mat-2": "Palladium Nugget",
                 "mat-3": "Grade 4 Reisui of Vitality",
@@ -226,7 +226,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Mask of Fending",
+                name: "Rakshasa Mask of Fending",
                 "mat-1": "2 Chigusa Ingot",
                 "mat-2": "Stardust Cotton Cloth",
                 "mat-3": "Palladium Nugget",
@@ -238,7 +238,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Mask of Maiming",
+                name: "Rakshasa Mask of Maiming",
                 "mat-1": "2 Chigusa Ingot",
                 "mat-2": "Stardust Cotton Cloth",
                 "mat-3": "Palladium Nugget",
@@ -250,7 +250,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Kote of Fending",
+                name: "Rakshasa Kote of Fending",
                 "mat-1": "2 Chigusa Ingot",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Ruby Cotton Cloth",
@@ -262,7 +262,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Kote of Maiming",
+                name: "Rakshasa Kote of Maiming",
                 "mat-1": "2 Chigusa Ingot",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Ruby Cotton Cloth",
@@ -274,7 +274,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Sune-ate of Fending",
+                name: "Rakshasa Sune-ate of Fending",
                 "mat-1": "3 Chigusa Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Ruby Cotton Cloth",
@@ -286,7 +286,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Sune-ate of Maiming",
+                name: "Rakshasa Sune-ate of Maiming",
                 "mat-1": "3 Chigusa Ingot",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Ruby Cotton Cloth",
@@ -298,7 +298,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Suzaka Barding",
+                name: "Suzaka Barding",
                 "mat-1": "Scarlet Tailfeather",
                 "mat-2": "2 Silvergrace Ingot",
                 "mat-3": "2 Nightsteel Ingot",
@@ -310,7 +310,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Seiryu Barding",
+                name: "Seiryu Barding",
                 "mat-1": "Seiryu's Scale",
                 "mat-2": "2 Chigusa Ingot",
                 "mat-3": "2 Evergleam Ingot",
@@ -322,7 +322,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Titania Barding",
+                name: "Titania Barding",
                 "mat-1": "Dancing Wing",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "3 Bluespirit Tile",
@@ -334,7 +334,7 @@ export const Armorer_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Innocence Barding",
+                name: "Innocence Barding",
                 "mat-1": "Immaculate Wingblade",
                 "mat-2": "2 Mythrite Ingot",
                 "mat-3": "Stonegold Ingot",

@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const GoldSaucerFestivities = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Gold_Saucer_Festivities = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.gold-saucer-festivities`;
 
     return {

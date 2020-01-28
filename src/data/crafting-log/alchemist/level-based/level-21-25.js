@@ -10,7 +10,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Budding Ash Wand",
+                name: "Budding Ash Wand",
                 "mat-1": "Ash Wand",
                 "mat-2": "2 Growth Formula Beta",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Weak Poisoning Potion",
+                name: "Weak Poisoning Potion",
                 "mat-1": "Grass Viper",
                 "mat-2": "Jellyfish Cnida",
                 "mat-3": "Quicksilver",
@@ -34,7 +34,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Weak Blinding Potion",
+                name: "Weak Blinding Potion",
                 "mat-1": "Bat Fang",
                 "mat-2": "Bat Wing",
                 "mat-3": "Quicksilver",
@@ -46,7 +46,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Weak Sleeping Potion",
+                name: "Weak Sleeping Potion",
                 "mat-1": "Red Landtrap Leaf",
                 "mat-2": "Jellyfish Humours",
                 "mat-3": "Quicksilver",
@@ -58,7 +58,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Weak Paralyzing Potion",
+                name: "Weak Paralyzing Potion",
                 "mat-1": "Jellyfish Humours",
                 "mat-2": "Jellyfish Cnida",
                 "mat-3": "Quicksilver",
@@ -70,7 +70,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Yew Picatrix",
+                name: "Yew Picatrix",
                 "mat-1": "Enchanted Iron Ink",
                 "mat-2": "Yew Lumber",
                 "mat-3": "Yew Log",
@@ -82,7 +82,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Echo Drops",
+                name: "Echo Drops",
                 "mat-1": "Marjoram",
                 "mat-2": "Lavender",
                 "mat-3": "Rock Salt",
@@ -94,7 +94,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Weak Silencing Potion",
+                name: "Weak Silencing Potion",
                 "mat-1": "Blowfish",
                 "mat-2": "Bat Wing",
                 "mat-3": "Quicksilver",
@@ -106,7 +106,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Enchanted Silver Ink",
+                name: "Enchanted Silver Ink",
                 "mat-1": "2 Silver Sand",
                 "mat-2": "Acidic Secretions",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Goatskin Grimoire",
+                name: "Goatskin Grimoire",
                 "mat-1": "Enchanted Silver Ink",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Yew Log",
@@ -130,7 +130,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Natron",
+                name: "Natron",
                 "mat-1": "Effervescent Water",
                 "mat-2": "Rock Salt",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const AlchemistLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Hi-Potion",
+                name: "Hi-Potion",
                 "mat-1": "Distilled Water",
                 "mat-2": "Gil Bun",
                 "mat-3": "Matron's Mistletoe",

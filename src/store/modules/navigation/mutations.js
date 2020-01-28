@@ -17,9 +17,9 @@ export const mutations = {
 
         let selectedGroup = data;
         for(let i = 0; i < state.breadcrumbs.length; i++) {
-            for(let j = 0; j < selectedGroup.subGroups.length; j++) {
-                if(state.breadcrumbs[i] === selectedGroup.subGroups[j].name) {
-                    selectedGroup = selectedGroup.subGroups[j]
+            for(let groupKey in selectedGroup.groupKeys) {
+                if(state.breadcrumbs[i] === selectedGroup[groupKey].name) {
+                    selectedGroup = selectedGroup[groupKey];
                 }
             }
         }
@@ -30,7 +30,7 @@ export const mutations = {
         state.selectedGroup = data;
     },
     TOGGLE_SHOW_SUMMARY (state) {
-        if(!state.selectedGroup || !state.selectedGroup.subGroups) state.showSummary = false;
+        if(!state.selectedGroup || !state.selectedGroup.groupKeys) state.showSummary = false;
         else state.showSummary = !state.showSummary;
     }
 };

@@ -10,7 +10,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Antelope Steak",
+                name: "Antelope Steak",
                 "mat-1": "Antelope Shank",
                 "mat-2": "Table Salt",
                 "mat-3": "Garlean Garlic",
@@ -22,7 +22,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Honey Muffin",
+                name: "Honey Muffin",
                 "mat-1": "Sunset Wheat Flour",
                 "mat-2": "Chicken Egg",
                 "mat-3": "Honey",
@@ -34,7 +34,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Mashed Popotoes",
+                name: "Mashed Popotoes",
                 "mat-1": "Cottage Cheese",
                 "mat-2": "Popoto",
                 "mat-3": "Smooth Butter",
@@ -46,7 +46,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Grape Juice",
+                name: "Grape Juice",
                 "mat-1": "3 Noble Grapes",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Mustard Eggs",
+                name: "Mustard Eggs",
                 "mat-1": "Dodo Egg",
                 "mat-2": "Ala Mhigan Mustard",
                 "mat-3": "Mineral Water",
@@ -70,7 +70,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Spinach Saute",
+                name: "Spinach Saute",
                 "mat-1": "3 Cieldalaes Spinach",
                 "mat-2": "Button Mushroom",
                 "mat-3": "Table Salt",
@@ -82,7 +82,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Dried Plums",
+                name: "Dried Plums",
                 "mat-1": "Pixie Plum",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Salmon Meuniere",
+                name: "Salmon Meuniere",
                 "mat-1": "Bluebell Salmon",
                 "mat-2": "Smooth Butter",
                 "mat-3": "Sun Lemon",
@@ -106,7 +106,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Dark Pretzel",
+                name: "Dark Pretzel",
                 "mat-1": "Sunset Wheat Flour",
                 "mat-2": "Maple Sugar",
                 "mat-3": "Chicken Egg",
@@ -118,7 +118,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Shepherd's Pie",
+                name: "Shepherd's Pie",
                 "mat-1": "Popoto",
                 "mat-2": "Antelope Shank",
                 "mat-3": "Wild Onion",
@@ -130,7 +130,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Chamomile Tea",
+                name: "Chamomile Tea",
                 "mat-1": "Chamomile",
                 "mat-2": "Honey",
                 "mat-3": "Mineral Water",
@@ -142,7 +142,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Bass Ball",
+                name: "Bass Ball",
                 "mat-1": "3 Dark Bass",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CulinarianLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Eel Pie",
+                name: "Eel Pie",
                 "mat-1": "Pie Dough",
                 "mat-2": "Black Eel",
                 "mat-3": "Smooth Butter",

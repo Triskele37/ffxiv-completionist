@@ -10,7 +10,7 @@ export const Culinarian_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Hemp Milk",
+                name: "Skybuilders' Hemp Milk",
                 "mat-1": "6 Skybuilders' Hemp",
                 "mat-2": "Maple Syrup",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Culinarian_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Uncooked Pasta",
+                name: "Skybuilders' Uncooked Pasta",
                 "mat-1": "4 Skybuilders' Rock Salt",
                 "mat-2": "4 Skybuilders' Spring Water",
                 "mat-3": "3 Sunset Wheat Flour",
@@ -34,7 +34,7 @@ export const Culinarian_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Tea",
+                name: "Skybuilders' Tea",
                 "mat-1": "6 Skybuilders' Tea Leaves",
                 "mat-2": "6 Skybuilders' Dravanian Spring Water",
                 "mat-3": "2 Yak Milk",
@@ -46,7 +46,7 @@ export const Culinarian_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' All-purpose Infusion",
+                name: "Skybuilders' All-purpose Infusion",
                 "mat-1": "6 Skybuilders' Adder",
                 "mat-2": "6 Skybuilders' Ruby Sea Water",
                 "mat-3": "6 Skybuilders' vine",
@@ -58,7 +58,7 @@ export const Culinarian_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Stew",
+                name: "Skybuilders' Stew",
                 "mat-1": "8 Skybuilders' Wheat",
                 "mat-2": "8 Skybuilders' Highland Spring Water",
                 "mat-3": "8 Skybuilders' Sea Salt",

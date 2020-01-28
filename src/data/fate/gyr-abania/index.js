@@ -8,10 +8,14 @@ export const GyrAbaniaFATEs = function(parentStorageKey) {
     return {
         name: "Gyr Abania",
         storageKey,
-        subGroups: [
-            TheFringesFATEs(storageKey),
-            TheLochsFATEs(storageKey),
-            ThePeaksFATEs(storageKey),
-        ]
+        groupKeys: [
+            "TheFringes",
+            "TheLochs",
+            "ThePeaks",
+        ],
+        // Groups
+        TheFringes: TheFringesFATEs(storageKey),
+        TheLochs: TheLochsFATEs(storageKey),
+        ThePeaks: ThePeaksFATEs(storageKey),
     };
 };

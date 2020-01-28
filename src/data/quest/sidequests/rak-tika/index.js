@@ -1,13 +1,15 @@
-import { TheRakTikaGreatwood } from "./the-rak-tika-greatwood";
+import { Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood } from "./the-rak-tika-greatwood";
 
-export const RakTika = function(parentStorageKey) {
+export const Quest_Sidequests_Rak_Tika = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.rak-tika`;
 
     return {
         name: "Rak'Tika",
         storageKey,
-        subGroups: [
-            TheRakTikaGreatwood(storageKey),
-        ]
+        groupKeys: [
+            "The_Rak_Tika_Greatwood",
+        ],
+        // Groups
+        The_Rak_Tika_Greatwood: Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood(storageKey),
     };
 };

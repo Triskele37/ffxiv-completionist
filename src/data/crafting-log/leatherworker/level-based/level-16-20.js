@@ -10,7 +10,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "16",
-                "item": "Hard Leather Ringbands",
+                name: "Hard Leather Ringbands",
                 "mat-1": "Hard Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Hard Leather Shepherd's Belt",
+                name: "Hard Leather Shepherd's Belt",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Brass Ingot",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "16",
-                "item": "Hard Leather Belt",
+                name: "Hard Leather Belt",
                 "mat-1": "Hard Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Beast Sinew",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Aldgoat Leather",
+                name: "Aldgoat Leather",
                 "mat-1": "Aldgoat Skin",
                 "mat-2": "Alumen",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Hard Leather Skullcap",
+                name: "Hard Leather Skullcap",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Hard Leather Espadrilles",
+                name: "Hard Leather Espadrilles",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Elm Lumber",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Hard Leather Wristbands",
+                name: "Hard Leather Wristbands",
                 "mat-1": "Hard Leather",
                 "mat-2": "Fish Glue",
                 "mat-3": "White Corral",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "17",
-                "item": "Hard Leather Wristbands of Gathering",
+                name: "Hard Leather Wristbands of Gathering",
                 "mat-1": "Hard Leather",
                 "mat-2": "Fish Glue",
                 "mat-3": "White Corral",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Hard Leather Cesti",
+                name: "Hard Leather Cesti",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Bronze Ingot",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Goatskin Wristguards",
+                name: "Goatskin Wristguards",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "18",
-                "item": "Goatskin Mitts",
+                name: "Goatskin Mitts",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Goatskin Pot Helm",
+                name: "Goatskin Pot Helm",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Hard Leather",
                 "mat-3": "Iron Rivets",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Goatskin Tool Belt",
+                name: "Goatskin Tool Belt",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "19",
-                "item": "Goatskin Leggings",
+                name: "Goatskin Leggings",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Initiate's Gloves",
+                name: "Initiate's Gloves",
                 "mat-1": "2 Aldgoat Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_16_20 = function(parentStorageKey) {
             },
             {
                 "level": "20",
-                "item": "Goatskin Ring",
+                name: "Goatskin Ring",
                 "mat-1": "Aldgoat Leather",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "X",

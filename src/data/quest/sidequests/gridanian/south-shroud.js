@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const SouthShroud = function(parentStorageKey) {
+export const Quest_Sidequests_Gridanian_South_Shroud = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.south`;
 
     return {

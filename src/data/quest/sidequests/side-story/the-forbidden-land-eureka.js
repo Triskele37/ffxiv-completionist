@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheForbiddenLandEureka = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_The_Forbidden_Land_Eureka = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.eureka`;
 
     return {

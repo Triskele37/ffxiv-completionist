@@ -10,7 +10,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Assorted Candles",
+                name: "Assorted Candles",
                 "mat-1": "2 Marine Wax Ester",
                 "mat-2": "5 Tallow Candle",
                 "mat-3": "5 Beeswax Candle",
@@ -22,7 +22,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Jellyfish Lamp",
+                name: "Jellyfish Lamp",
                 "mat-1": "Aurelia Polyp",
                 "mat-2": "Silvergrace Ingot",
                 "mat-3": "Tallow Candle",
@@ -34,7 +34,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chirurgeon's Essentials",
+                name: "Chirurgeon's Essentials",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "2 X-Potion",
                 "mat-3": "2 X-Ether",
@@ -46,7 +46,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ambient Abyss Orchestrion Roll",
+                name: "Ambient Abyss Orchestrion Roll",
                 "mat-1": "Faded Copy of Ambient Abyss",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -58,7 +58,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Veteran Tree Sap",
+                name: "Veteran Tree Sap",
                 "mat-1": "3 Hardened Veteran Tree Sap",
                 "mat-2": "Stormsap",
                 "mat-3": "Duskglow Aethersand",
@@ -70,7 +70,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 3 Reisui of Strength",
+                name: "Grade 3 Reisui of Strength",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Gyr Abanian Spring Water",
                 "mat-3": "2 Yanxian Parsley",
@@ -82,7 +82,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 3 Reisui of Dexterity",
+                name: "Grade 3 Reisui of Dexterity",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Gyr Abanian Spring Water",
                 "mat-3": "2 Alyssum",
@@ -94,7 +94,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 3 Reisui of Vitality",
+                name: "Grade 3 Reisui of Vitality",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Gyr Abanian Spring Water",
                 "mat-3": "2 Nagxian Cudweed",
@@ -106,7 +106,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 3 Reisui of Intelligence",
+                name: "Grade 3 Reisui of Intelligence",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Gyr Abanian Spring Water",
                 "mat-3": "2 Chickweed",
@@ -118,7 +118,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 3 Reisui of Mind",
+                name: "Grade 3 Reisui of Mind",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Gyr Abanian Spring Water",
                 "mat-3": "2 Nipplewort",
@@ -130,7 +130,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Hawk's Eye Sand",
+                name: "Hawk's Eye Sand",
                 "mat-1": "3 Hawk's Eyes",
                 "mat-2": "Stormsap",
                 "mat-3": "Duskglow Aethersand",
@@ -142,7 +142,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Silvergrace Grimoire",
+                name: "Silvergrace Grimoire",
                 "mat-1": "3 Silvergrace Ingot",
                 "mat-2": "Nightsteel Ingot",
                 "mat-3": "2 Rhodonite",
@@ -154,7 +154,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Silvergrace Codex",
+                name: "Silvergrace Codex",
                 "mat-1": "3 Silvergrace Ingot",
                 "mat-2": "Nightsteel Ingot",
                 "mat-3": "2 Imperial Jade",
@@ -166,7 +166,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 2 Infusion of Strength",
+                name: "Grade 2 Infusion of Strength",
                 "mat-1": "Gyr Abanian Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Yanxian Parsley",
@@ -178,7 +178,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 2 Infusion of Dexterity",
+                name: "Grade 2 Infusion of Dexterity",
                 "mat-1": "Gyr Abanian Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Alyssum",
@@ -190,7 +190,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 2 Infusion of Vitality",
+                name: "Grade 2 Infusion of Vitality",
                 "mat-1": "Gyr Abanian Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Nagxian Cudweed",
@@ -202,7 +202,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 2 Infusion of Intelligence",
+                name: "Grade 2 Infusion of Intelligence",
                 "mat-1": "Gyr Abanian Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Chickweed",
@@ -214,7 +214,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Grade 2 Infusion of Mind",
+                name: "Grade 2 Infusion of Mind",
                 "mat-1": "Gyr Abanian Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Nipplewort",
@@ -226,7 +226,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Answer On High Orchestrion Roll",
+                name: "Answer On High Orchestrion Roll",
                 "mat-1": "Faded Copy of the Jade Stoa",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -238,7 +238,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Amatsu Kaze Orchestrion Roll",
+                name: "Amatsu Kaze Orchestrion Roll",
                 "mat-1": "Faded Copy of the Jade Stoa",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -250,7 +250,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Nightbloom Orchestrion Roll",
+                name: "Nightbloom Orchestrion Roll",
                 "mat-1": "Faded Copy of Under the Moonlight",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -262,7 +262,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★",
-                "item": "Wayward Daughter Orchestrion Roll",
+                name: "Wayward Daughter Orchestrion Roll",
                 "mat-1": "Faded Copy of Under the Moonlight",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -274,7 +274,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 4 Reisui of Strength",
+                name: "Grade 4 Reisui of Strength",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Azim Spring Water",
                 "mat-3": "2 Yanxian Parsley",
@@ -286,7 +286,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 4 Reisui of Dexterity",
+                name: "Grade 4 Reisui of Dexterity",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Azim Spring Water",
                 "mat-3": "2 Alyssum",
@@ -298,7 +298,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 4 Reisui of Vitality",
+                name: "Grade 4 Reisui of Vitality",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Azim Spring Water",
                 "mat-3": "2 Nagxian Cudweed",
@@ -310,7 +310,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 4 Reisui of Intelligence",
+                name: "Grade 4 Reisui of Intelligence",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Azim Spring Water",
                 "mat-3": "2 Chickweed",
@@ -322,7 +322,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 4 Reisui of Mind",
+                name: "Grade 4 Reisui of Mind",
                 "mat-1": "Gyr Abanian Alchemic",
                 "mat-2": "Azim Spring Water",
                 "mat-3": "2 Nipplewort",
@@ -334,7 +334,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Grimoire",
+                name: "Rakshasa Grimoire",
                 "mat-1": "2 Evergleam Ingot",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Chigusa Ingot",
@@ -346,7 +346,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Rakshasa Codex",
+                name: "Rakshasa Codex",
                 "mat-1": "2 Evergleam Ingot",
                 "mat-2": "Procoptodon Leather",
                 "mat-3": "Chigusa Ingot",
@@ -358,7 +358,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 3 Infusion of Strength",
+                name: "Grade 3 Infusion of Strength",
                 "mat-1": "Azim Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Yanxian Parsley",
@@ -370,7 +370,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 3 Infusion of Dexterity",
+                name: "Grade 3 Infusion of Dexterity",
                 "mat-1": "Azim Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Alyssum",
@@ -382,7 +382,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 3 Infusion of Vitality",
+                name: "Grade 3 Infusion of Vitality",
                 "mat-1": "Azim Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Nagxian Cudweed",
@@ -394,7 +394,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 3 Infusion of Intelligence",
+                name: "Grade 3 Infusion of Intelligence",
                 "mat-1": "Azim Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Chickweed",
@@ -406,7 +406,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Grade 3 Infusion of Mind",
+                name: "Grade 3 Infusion of Mind",
                 "mat-1": "Azim Spring Water",
                 "mat-2": "Ala Mhigan Salt Crystal",
                 "mat-3": "2 Nipplewort",
@@ -418,7 +418,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "Sunrise Orchestrion Roll",
+                name: "Sunrise Orchestrion Roll",
                 "mat-1": "Blank Grade 3 Orchestrion Roll",
                 "mat-2": "Enchanted Palladium Ink",
                 "mat-3": "Faded Copy of Sunrise",
@@ -430,7 +430,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "70★★★★",
-                "item": "From the Dragon's Wake Orchestrion Roll",
+                name: "From the Dragon's Wake Orchestrion Roll",
                 "mat-1": "Blank Grade 3 Orchestrion Roll",
                 "mat-2": "Enchanted Palladium Ink",
                 "mat-3": "Faded Copy of From The Dragon's Wake",
@@ -442,7 +442,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Crystarium Umbrella Stand",
+                name: "Crystarium Umbrella Stand",
                 "mat-1": "2 Fine Glass Fiber",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "Dwarven Cotton",
@@ -454,7 +454,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "What Angel Wakes Me Orchestrion Roll",
+                name: "What Angel Wakes Me Orchestrion Roll",
                 "mat-1": "Blank Grade 3 Orchestrion Roll",
                 "mat-2": "Enchanted Dimythrite Ink",
                 "mat-3": "Faded Copy of What Angel Wakes Me",
@@ -466,7 +466,7 @@ export const Alchemist_MasterRecipe_6 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Insanity Orchestrion Roll",
+                name: "Insanity Orchestrion Roll",
                 "mat-1": "Blank Grade 3 Orchestrion Roll",
                 "mat-2": "Enchanted Dimythrite Ink",
                 "mat-3": "Faded Copy of Insanity",

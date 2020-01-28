@@ -10,7 +10,7 @@ export const Carpenter_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Plywood",
+                name: "Skybuilders' Plywood",
                 "mat-1": "6 Skybuilders' Yew Log",
                 "mat-2": "Yew Log",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Wain",
+                name: "Skybuilders' Wain",
                 "mat-1": "4 Skybuilders' Ash Log",
                 "mat-2": "4 Skybuilders' Rock Salt",
                 "mat-3": "Mythril Ingot",
@@ -34,7 +34,7 @@ export const Carpenter_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Barrel",
+                name: "Skybuilders' Barrel",
                 "mat-1": "6 Skybuilders' Camphorwood Log",
                 "mat-2": "6 Skybuilders' Straw",
                 "mat-3": "Titanium Nugget",
@@ -46,7 +46,7 @@ export const Carpenter_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' Pedestal",
+                name: "Skybuilders' Pedestal",
                 "mat-1": "6 Skybuilders' Urunday Log",
                 "mat-2": "6 Skybuilders' Molybdenum Ore",
                 "mat-3": "6 Skybuilders' Horsetail",
@@ -58,7 +58,7 @@ export const Carpenter_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Bed",
+                name: "Skybuilders' Bed",
                 "mat-1": "8 Skybuilders' White Ash Log",
                 "mat-2": "8 Skybuilders' Wheat",
                 "mat-3": "8 Skybuilders' Cotton Boll",

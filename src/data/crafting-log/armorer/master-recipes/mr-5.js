@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★★",
-                "item": "Chromite Ingot",
+                name: "Chromite Ingot",
                 "mat-1": "4 Chromite Ore",
                 "mat-2": "Molybdenum Ingot",
                 "mat-3": "2 Bone Charcoal",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Alembic",
+                name: "Ala Mhigan Alembic",
                 "mat-1": "3 Snailfish Oil",
                 "mat-2": "Chromite Ingot",
                 "mat-3": "Palladium Nugget",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Frypan",
+                name: "Ala Mhigan Frypan",
                 "mat-1": "3 Snailfish Oil",
                 "mat-2": "Chromite Ingot",
                 "mat-3": "Palladium Nugget",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Shield",
+                name: "Chromite Shield",
                 "mat-1": "Chromite Ingot",
                 "mat-2": "Torreya Lumber",
                 "mat-3": "Gazelle Leather",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Helm of Fending",
+                name: "Chromite Helm of Fending",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "2 Gazelle Horn",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Armor of Fending",
+                name: "Chromite Armor of Fending",
                 "mat-1": "3 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "2 Steppe Serge",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Mail of Maiming",
+                name: "Chromite Mail of Maiming",
                 "mat-1": "3 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "2 Gazelle Leather",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Gauntlets of Fending",
+                name: "Chromite Gauntlets of Fending",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Steppe Serge",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Gauntlets of Maiming",
+                name: "Chromite Gauntlets of Maiming",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Gazelle Leather",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Sabatons of Fending",
+                name: "Chromite Sabatons of Fending",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Steppe Serge",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Greaves of Maiming",
+                name: "Chromite Greaves of Maiming",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Gazelle Leather",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Shinryu Barding",
+                name: "Shinryu Barding",
                 "mat-1": "Shinryu's Scales",
                 "mat-2": "2 Chromite Ingot",
                 "mat-3": "2 Molybdenum Ingot",

@@ -10,7 +10,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Dark Vinegar",
+                name: "Dark Vinegar",
                 "mat-1": "4 Noble Grapes",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Alligator Salad",
+                name: "Alligator Salad",
                 "mat-1": "Alligator Pear",
                 "mat-2": "Paprika",
                 "mat-3": "Table Salt",
@@ -34,7 +34,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Cornbread",
+                name: "Cornbread",
                 "mat-1": "Cornmeal",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "Olive Oil",
@@ -46,7 +46,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Smoked Raptor",
+                name: "Smoked Raptor",
                 "mat-1": "Raptor Shank",
                 "mat-2": "Olive Oil",
                 "mat-3": "Sun Lemon",
@@ -58,7 +58,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Forest Miq'abob",
+                name: "Forest Miq'abob",
                 "mat-1": "Button Mushroom",
                 "mat-2": "Ruby Tomato",
                 "mat-3": "Aloe",
@@ -70,7 +70,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Tuna Miq'abob",
+                name: "Tuna Miq'abob",
                 "mat-1": "Ash Tuna",
                 "mat-2": "Midland Basil",
                 "mat-3": "Olive Oil",
@@ -82,7 +82,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Blood Currant Tart",
+                name: "Blood Currant Tart",
                 "mat-1": "Pie Dough",
                 "mat-2": "Blood Currants",
                 "mat-3": "Smooth Butter",
@@ -94,7 +94,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Scrambled Eggs",
+                name: "Scrambled Eggs",
                 "mat-1": "White Truffle",
                 "mat-2": "Puk Egg",
                 "mat-3": "Cottage Cheese",
@@ -106,7 +106,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Acorn Cookie",
+                name: "Acorn Cookie",
                 "mat-1": "Rye Flour",
                 "mat-2": "Table Salt",
                 "mat-3": "Iron Acorn",
@@ -118,7 +118,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Herring Ball",
+                name: "Herring Ball",
                 "mat-1": "3 Indigo Herring",
                 "mat-2": "Sunset Wheat Flour",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CulinarianLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Cawl Cennin",
+                name: "Cawl Cennin",
                 "mat-1": "Salt Leek",
                 "mat-2": "Chicken Stock",
                 "mat-3": "Smooth Butter",

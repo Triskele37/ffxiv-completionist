@@ -10,7 +10,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Cedar Lumber",
+                name: "Cedar Lumber",
                 "mat-1": "5 Cedar Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Trident",
+                name: "Mythrite Trident",
                 "mat-1": "Cedar Lumber",
                 "mat-2": "2 Mythrite Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -34,7 +34,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Cedar Longbow",
+                name: "Cedar Longbow",
                 "mat-1": "2 Cedar Branch",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "2 Mythrite Nugget",
@@ -46,7 +46,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Cedar Crook",
+                name: "Cedar Crook",
                 "mat-1": "Cedar Branch",
                 "mat-2": "Yeti Fang",
                 "mat-3": "Electrum Ingot",
@@ -58,7 +58,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Cedar Lumber",
+                name: "Holy Cedar Lumber",
                 "mat-1": "Cedar Lumber",
                 "mat-2": "2 Holy Water",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Pugil Stick",
+                name: "Mythrite Pugil Stick",
                 "mat-1": "Holy Cedar Lumber",
                 "mat-2": "2 Mythrite Ingot",
                 "mat-3": "Rose Gold Nugget",
@@ -82,7 +82,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Cedar Composite Bow",
+                name: "Holy Cedar Composite Bow",
                 "mat-1": "Holy Cedar Lumber",
                 "mat-2": "Cedar Branch",
                 "mat-3": "2 Mythrite Ingot",
@@ -94,7 +94,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Cedar Fishing Rod",
+                name: "Cedar Fishing Rod",
                 "mat-1": "Cedar Branch",
                 "mat-2": "2 Cedar Lumber",
                 "mat-3": "2 Mythrite Nugget",
@@ -106,7 +106,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Astral Grinding Wheel",
+                name: "Astral Grinding Wheel",
                 "mat-1": "2 Holy Cedar Lumber",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "2 Astral Rock",
@@ -118,7 +118,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Cedar Spinning Wheel",
+                name: "Holy Cedar Spinning Wheel",
                 "mat-1": "3 Holy Cedar Lumber",
                 "mat-2": "2 Mythrite Rivets",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Cedar Armillae",
+                name: "Holy Cedar Armillae",
                 "mat-1": "3 Holy Cedar Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Cedar Ring",
+                name: "Holy Cedar Ring",
                 "mat-1": "Holy Cedar Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dark Chestnut Lumber",
+                name: "Dark Chestnut Lumber",
                 "mat-1": "5 Dark Chestnut Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Titanium Lance",
+                name: "Titanium Lance",
                 "mat-1": "Dark Chestnut Lumber",
                 "mat-2": "2 Titanium Nugget",
                 "mat-3": "Dhalmel Leather",
@@ -178,7 +178,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dark Chestnut Longbow",
+                name: "Dark Chestnut Longbow",
                 "mat-1": "2 Dark Chestnut Branch",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "Titanium Nugget",
@@ -190,7 +190,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Dark Chestnut Rod",
+                name: "Dark Chestnut Rod",
                 "mat-1": "Dark Chestnut Branch",
                 "mat-2": "Dark Chestnut Lumber",
                 "mat-3": "3 Growth Formula Epsilon",
@@ -202,7 +202,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Cedar Necklace",
+                name: "Holy Cedar Necklace",
                 "mat-1": "2 Holy Cedar Lumber",
                 "mat-2": "Varnish",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const CarpenterLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Dark Chestnut Fishing Rod",
+                name: "Dark Chestnut Fishing Rod",
                 "mat-1": "Dark Chestnut Lumber",
                 "mat-2": "2 Dark Chestnut Branch",
                 "mat-3": "2 Hardsilver Nugget",

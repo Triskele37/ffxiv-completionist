@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheTempest = function(parentStorageKey) {
+export const Quest_Sidequests_Tempest_The_Tempest = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-tempest`;
 
     return {

@@ -10,7 +10,7 @@ export const Armorer_Restoration = function(parentStorageKey) {
         tasks: [
             {
                 "level": 20,
-                "item": "Skybuilders' Steel Plate",
+                name: "Skybuilders' Steel Plate",
                 "mat-1": "6 Skybuilders' Iron Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 40,
-                "item": "Skybuilders' Rivets",
+                name: "Skybuilders' Rivets",
                 "mat-1": "4 Skybuilders' Electrum Ore",
                 "mat-2": "4 Skybuilders' Iron Sand",
                 "mat-3": "2 Cobalt Ore",
@@ -34,7 +34,7 @@ export const Armorer_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 60,
-                "item": "Skybuilders' Cooking Pot",
+                name: "Skybuilders' Cooking Pot",
                 "mat-1": "6 Skybuilders' Hardsilver Ore",
                 "mat-2": "6 Skybuilders' Mythrite Sand",
                 "mat-3": "Dark Chestnut Lumber",
@@ -46,7 +46,7 @@ export const Armorer_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Skybuilders' Counter",
+                name: "Skybuilders' Counter",
                 "mat-1": "6 Skybuilders' Nightsteel Ore",
                 "mat-2": "6 Skybuilders' Molybdenum Ore",
                 "mat-3": "6 Skybuilders' Durium Sand",
@@ -58,7 +58,7 @@ export const Armorer_Restoration = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Skybuilders' Lamppost",
+                name: "Skybuilders' Lamppost",
                 "mat-1": "8 Skybuilders' Reef Rock",
                 "mat-2": "8 Skybuilders' Truegold Ore",
                 "mat-3": "8 Skybuilders' Truegold Sand",

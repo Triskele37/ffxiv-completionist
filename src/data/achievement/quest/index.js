@@ -10,10 +10,14 @@ export const QuestAchievements = function(parentStorageKey) {
     return {
         name: "Quest",
     	storageKey,
-        subGroups: [
-            QuestQuestAchievements(storageKey),
-            BeastQuestAchievements(storageKey),
-            LeveQuestAchievements(storageKey),
-    	],
+        groupKeys: [
+            "Quest",
+            "Beast",
+            "Leve"
+        ],
+        // Groups
+        Quest: QuestQuestAchievements(storageKey),
+        Beast: BeastQuestAchievements(storageKey),
+        Leve: LeveQuestAchievements(storageKey),
     };
 };

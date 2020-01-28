@@ -10,7 +10,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "26",
-                "item": "Crab Oil",
+                name: "Crab Oil",
                 "mat-1": "2 Megalocrab Leg",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Whispering Ash Wand",
+                name: "Whispering Ash Wand",
                 "mat-1": "Budding Ash Wand",
                 "mat-2": "Growth Formula Beta",
                 "mat-3": "Scalekin Blood",
@@ -34,7 +34,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Clear Glass Lens",
+                name: "Clear Glass Lens",
                 "mat-1": "Silex",
                 "mat-2": "Natron",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Yew Wand",
+                name: "Yew Wand",
                 "mat-1": "Yew Branch",
                 "mat-2": "Growth Formula Beta",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Linseed Oil",
+                name: "Linseed Oil",
                 "mat-1": "2 Flax",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Engraved Goatskin Grimoire",
+                name: "Engraved Goatskin Grimoire",
                 "mat-1": "Goatskin Grimoire",
                 "mat-2": "2 Aldgoat Leather",
                 "mat-3": "Walnut Log",
@@ -82,7 +82,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Growth Formula Gamma",
+                name: "Growth Formula Gamma",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Quicksilver",
                 "mat-3": "Rock Salt",
@@ -94,7 +94,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Horn Glue",
+                name: "Horn Glue",
                 "mat-1": "2 Aldgoat Horn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Spine Drops",
+                name: "Spine Drops",
                 "mat-1": "Wolf Fang",
                 "mat-2": "Pearl Ginger",
                 "mat-3": "Rock Salt",
@@ -118,7 +118,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Riptide Orchestrion Roll",
+                name: "Riptide Orchestrion Roll",
                 "mat-1": "Faded Copy of Riptide",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Silver Ink",
@@ -130,7 +130,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Dark Vows Orchestrion Roll",
+                name: "Dark Vows Orchestrion Roll",
                 "mat-1": "Faded Copy of Dark Vows",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Silver Ink",
@@ -142,7 +142,7 @@ export const AlchemistLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "The Dark's Embrace Orchestrion Roll ",
+                name: "The Dark's Embrace Orchestrion Roll ",
                 "mat-1": "Faded Copy of The Dark's Embrace",
                 "mat-2": "Blank Grade 1 Orchestrion Roll",
                 "mat-3": "Enchanted Silver Ink",

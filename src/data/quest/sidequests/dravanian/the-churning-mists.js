@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheChurningMists = function(parentStorageKey) {
+export const Quest_Sidequests_Dravanian_The_Churning_Mists = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-churning-mists`;
 
     return {

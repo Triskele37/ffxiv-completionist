@@ -10,7 +10,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Deepgold Nugget",
+                name: "Deepgold Nugget",
                 "mat-1": "4 Truegold Sand",
                 "mat-2": "Copper Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Anelace",
+                name: "Deepgold Anelace",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Oroshigane Ingot",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Battleaxe",
+                name: "Deepgold Battleaxe",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Whitegold Lumber",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Claymore",
+                name: "Deepgold Claymore",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Whitegold Lumber",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Gunblade",
+                name: "Deepgold Gunblade",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "2 Oroshigane Ingot",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Katars",
+                name: "Deepgold Katars",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "2 Stonegold Nugget",
                 "mat-3": "Oroshigane Ingot",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Blade",
+                name: "Deepgold Blade",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Twinthread",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Cinquedeas",
+                name: "Deepgold Cinquedeas",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "2 Stonegold Nugget",
                 "mat-3": "Oroshigane Ingot",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Revolver",
+                name: "Deepgold Revolver",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Oroshigane Ingot",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold War Quoits",
+                name: "Deepgold War Quoits",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "Smilodon Leather",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Saw",
+                name: "Deepgold Saw",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Claw Hammer",
+                name: "Deepgold Claw Hammer",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Cross-pein Hammer",
+                name: "Deepgold Cross-pein Hammer",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Smilodon Leather",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold File",
+                name: "Deepgold File",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Raising Hammer",
+                name: "Deepgold Raising Hammer",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Pliers",
+                name: "Deepgold Pliers",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Lapidary Hammer",
+                name: "Deepgold Lapidary Hammer",
                 "mat-1": "Deepgold Nugget",
                 "mat-2": "2 Stonegold Nugget",
                 "mat-3": "White Oak Lumber",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Head Knife",
+                name: "Deepgold Head Knife",
                 "mat-1": "Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "White Oak Lumber",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Awl",
+                name: "Deepgold Awl",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Bright Linen Yarn",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Mortar",
+                name: "Deepgold Mortar",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Culinary Knife",
+                name: "Deepgold Culinary Knife",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Pickaxe",
+                name: "Deepgold Pickaxe",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Smilodon Leather",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Sledgehammer",
+                name: "Deepgold Sledgehammer",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Hatchet",
+                name: "Deepgold Hatchet",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "White Oak Lumber",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Deepgold Scythe",
+                name: "Deepgold Scythe",
                 "mat-1": "2 Deepgold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Ingot",
+                name: "Deepgold Ingot",
                 "mat-1": "4 Truegold Ore",
                 "mat-2": "Copper Ore",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Sword",
+                name: "Deepgold Sword",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Colbalt Ingot",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Axe",
+                name: "Deepgold Axe",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Dark Chestnut Lumber",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Greatsword",
+                name: "Deepgold Greatsword",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Dark Chestnut Lumber",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Stonegold Uchigatana",
+                name: "Stonegold Uchigatana",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Colbalt Ingot",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Deepgold Daggers",
+                name: "Deepgold Daggers",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Bayonet",
+                name: "Deepgold Bayonet",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Nugget",
                 "mat-3": "2 Cobalt Ingot",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Knuckles",
+                name: "Deepgold Knuckles",
                 "mat-1": "3 Deepgold Nugget",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Arquebus",
+                name: "Deepgold Arquebus",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Colbalt Ingot",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Deepgold Chakrams",
+                name: "Deepgold Chakrams",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "Stonegold Ingot",
                 "mat-3": "Green Glider Leather",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Tile",
+                name: "Bluespirit Tile",
                 "mat-1": "4 Bluespirit Ore",
                 "mat-2": "Stiperstone",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Sword",
+                name: "Bluespirit Sword",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Axe",
+                name: "Bluespirit Axe",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Guillotine",
+                name: "Bluespirit Guillotine",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -478,7 +478,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Gunblade",
+                name: "Bluespirit Gunblade",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -490,7 +490,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Handgonne",
+                name: "Bluespirit Handgonne",
                 "mat-1": "Bluespirit Tile",
                 "mat-2": "2 Manasilver Nugget",
                 "mat-3": "Star Ruby",
@@ -502,7 +502,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Claw Hammer",
+                name: "Bluespirit Claw Hammer",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -514,7 +514,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit File",
+                name: "Bluespirit File",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "X",
@@ -526,7 +526,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Pliers",
+                name: "Bluespirit Pliers",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "X",
@@ -538,7 +538,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Awl",
+                name: "Bluespirit Awl",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Pixie Floss",
@@ -550,7 +550,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Mortar",
+                name: "Bluespirit Mortar",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -562,7 +562,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Culinary Knife",
+                name: "Bluespirit Culinary Knife",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -574,7 +574,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Sledgehammer",
+                name: "Bluespirit Sledgehammer",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -586,7 +586,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Scythe",
+                name: "Bluespirit Scythe",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Hard Mudstone Whetstone",
@@ -598,7 +598,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Halfheart Saw",
+                name: "Bluespirit Halfheart Saw",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -610,7 +610,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Cross-pein Hammer",
+                name: "Bluespirit Cross-pein Hammer",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Atrociraptor Leather",
@@ -622,7 +622,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Raising Hammer",
+                name: "Bluespirit Raising Hammer",
                 "mat-1": "3 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Lapidary Hammer",
+                name: "Bluespirit Lapidary Hammer",
                 "mat-1": "Bluespirit Tile",
                 "mat-2": "2 Manasilver Nugget",
                 "mat-3": "White Ash Lumber",
@@ -646,7 +646,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Round Knife",
+                name: "Bluespirit Round Knife",
                 "mat-1": "Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "White Ash Lumber",
@@ -658,7 +658,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Pickaxe",
+                name: "Bluespirit Pickaxe",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Atrociraptor Leather",
@@ -670,7 +670,7 @@ export const BlacksmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Bluespirit Hatchet",
+                name: "Bluespirit Hatchet",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "Manasilver Nugget",
                 "mat-3": "White Ash Lumber",

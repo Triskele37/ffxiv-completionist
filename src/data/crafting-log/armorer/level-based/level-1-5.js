@@ -10,7 +10,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Bronze Ingot",
+                name: "Bronze Ingot",
                 "mat-1": "2 Copper Ore",
                 "mat-2": "Tin Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Bronze Rings",
+                name: "Bronze Rings",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Bronze Rivets",
+                name: "Bronze Rivets",
                 "mat-1": "Bronze Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Bronze Plate",
+                name: "Bronze Plate",
                 "mat-1": "2 Bronze Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Bronze Alembic",
+                name: "Bronze Alembic",
                 "mat-1": "Bronze Plate",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Bronze Skillet",
+                name: "Bronze Skillet",
                 "mat-1": "Bronze Plate",
                 "mat-2": "Maple Lumber",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const ArmorerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Bronze Hoplon",
+                name: "Bronze Hoplon",
                 "mat-1": "2 Bronze Plate",
                 "mat-2": "Maple Lumber",
                 "mat-3": "X",

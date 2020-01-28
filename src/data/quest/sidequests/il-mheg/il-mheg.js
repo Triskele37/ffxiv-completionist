@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const IlMheg = function(parentStorageKey) {
+export const Quest_Sidequests_Il_Mheg_Il_Mheg = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.il-mheg`;
 
     return {

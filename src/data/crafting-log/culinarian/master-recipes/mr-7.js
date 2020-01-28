@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★★",
-                "item": "Rare Roast Beef",
+                name: "Rare Roast Beef",
                 "mat-1": "2 Dzo Tenderloin",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "2 Peppermint",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Creamy Salmon Pasta",
+                name: "Creamy Salmon Pasta",
                 "mat-1": "2 King Salmon",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "2 Mist Spinach",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "King Salmon Meuniere",
+                name: "King Salmon Meuniere",
                 "mat-1": "2 King Salmon",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "2 Lemonette",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Exquisite Beef Stew",
+                name: "Exquisite Beef Stew",
                 "mat-1": "2 Dzo Tenderloin",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "2 Russet Popoto",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Mejillones al Ajillo",
+                name: "Mejillones al Ajillo",
                 "mat-1": "Sweetmeat Mussel",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "Curly Parsley",
@@ -70,7 +70,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Popoto Salad",
+                name: "Popoto Salad",
                 "mat-1": "2 Robe Lettuce",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "2 Russet Popoto",
@@ -82,7 +82,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Robe Lettuce Salad",
+                name: "Robe Lettuce Salad",
                 "mat-1": "2 Robe Lettuce",
                 "mat-2": "Frantoio Oil",
                 "mat-3": "2 Mist Spinach",
@@ -94,7 +94,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Arros Negre",
+                name: "Arros Negre",
                 "mat-1": " Sweetmeat Mussel",
                 "mat-2": "Squid Ink",
                 "mat-3": "Bomba Rice",
@@ -106,7 +106,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Pixieberry Cheesecake",
+                name: "Pixieberry Cheesecake",
                 "mat-1": "2 Pixieberry",
                 "mat-2": "Garden Beet Sugar",
                 "mat-3": "2 Lemonette",
@@ -118,7 +118,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Kukuru Rusk",
+                name: "Kukuru Rusk",
                 "mat-1": "2 Kriollo Kukuru Bean",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "2 Ala Mhigan Sal Crystal",
@@ -130,7 +130,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Lemon Curd Sachertorte",
+                name: "Lemon Curd Sachertorte",
                 "mat-1": "2 Kriollo Kukuru Bean",
                 "mat-2": "Upland Wheat Flour",
                 "mat-3": "2 Lemonette",
@@ -142,7 +142,7 @@ export const Culinarian_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Pixieberry Tea",
+                name: "Pixieberry Tea",
                 "mat-1": "2 Pixieberry",
                 "mat-2": "Garden Beet Sugar",
                 "mat-3": "2 Peppermint",

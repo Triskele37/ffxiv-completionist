@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_Other = function(parentStorageKey) {
         tasks: [
             {
                 "level": "15",
-                "item": "Glamour Prism",
+                name: "Glamour Prism",
                 "mat-1": " Clear Prism",
                 "mat-2": "2 Steel Rivets",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Heavy Wolfram Cuirass",
+                name: "Augmented Heavy Wolfram Cuirass",
                 "mat-1": "Heavy Wolfram Cuirass",
                 "mat-2": "2 Wolfram Square",
                 "mat-3": "Battlecraft Demimateria III",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_Other = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Augmented Wolfram Cuirass",
+                name: "Augmented Wolfram Cuirass",
                 "mat-1": "Wolfram Cuirass",
                 "mat-2": "2 Wolfram Square",
                 "mat-3": "Battlecraft Demimateria III",

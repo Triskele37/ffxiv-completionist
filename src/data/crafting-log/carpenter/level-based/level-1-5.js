@@ -10,7 +10,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Maple Lumber",
+                name: "Maple Lumber",
                 "mat-1": "3 Maple Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "1",
-                "item": "Maple Clogs",
+                name: "Maple Clogs",
                 "mat-1": "Maple Lumber",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Maple Shortbow",
+                name: "Maple Shortbow",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Bone Harpoon",
+                name: "Bone Harpoon",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Bone Chip",
                 "mat-3": "Animal Glue",
@@ -58,7 +58,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Amateur's Grinding Wheel",
+                name: "Amateur's Grinding Wheel",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Ragstone",
@@ -70,7 +70,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Maple Pattens",
+                name: "Maple Pattens",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Leather",
@@ -82,7 +82,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Amateur's Spinning Wheel",
+                name: "Amateur's Spinning Wheel",
                 "mat-1": "2 Maple Lumber",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Square Maple Shield",
+                name: "Square Maple Shield",
                 "mat-1": "Maple Lumber",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "X",

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ImmortalFlamesQuests = function(parentStorageKey) {
+export const Quest_Other_Grand_Company_Immortal_Flames = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.immortal-flames`;
 
     return {

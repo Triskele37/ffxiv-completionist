@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★★★",
-                "item": "Arachne Velveteen",
+                name: "Arachne Velveteen",
                 "mat-1": "Allagan Silk",
                 "mat-2": "Arachne Web",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Bandana of Striking",
+                name: "Arachne Bandana of Striking",
                 "mat-1": "3 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Emerald",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Bandana of Scouting",
+                name: "Arachne Bandana of Scouting",
                 "mat-1": "3 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Ruby",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Shirt of Striking",
+                name: "Arachne Shirt of Striking",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Topaz",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Shirt of Scouting",
+                name: "Arachne Shirt of Scouting",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Topaz",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Bolero",
+                name: "Arachne Bolero",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Iolite",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Robe",
+                name: "Arachne Robe",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Iolite",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Forager's Vest",
+                name: "Forager's Vest",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Vanya Silk",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Artisan's Apron",
+                name: "Artisan's Apron",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Vanya Silk",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Field Dressing of Striking",
+                name: "Arachne Field Dressing of Striking",
                 "mat-1": "3 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Field Dressing of Scouting",
+                name: "Arachne Field Dressing of Scouting",
                 "mat-1": "3 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Sash",
+                name: "Arachne Sash",
                 "mat-1": "2 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Gaskins of Striking",
+                name: "Arachne Gaskins of Striking",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Gaskins of Scouting",
+                name: "Arachne Gaskins of Scouting",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Cashmere Cloth",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Culottes of Casting",
+                name: "Arachne Culottes of Casting",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Saurian Leather",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Arachne Culottes of Healing",
+                name: "Arachne Culottes of Healing",
                 "mat-1": "5 Arachne Velveteen",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Saurian Leather",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Artisan's Culottes",
+                name: "Artisan's Culottes",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Vanya Silk",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_2 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Forager's Slops",
+                name: "Forager's Slops",
                 "mat-1": "Mastercraft Demimateria",
                 "mat-2": "Platinum Nugget",
                 "mat-3": "Vanya Silk",

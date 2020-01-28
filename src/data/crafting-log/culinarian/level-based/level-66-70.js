@@ -10,7 +10,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "66",
-                "item": "Tempura Platter",
+                name: "Tempura Platter",
                 "mat-1": "Gyr Abanian Flour ",
                 "mat-2": "Gagana Egg",
                 "mat-3": "Cottonseed Oil",
@@ -22,7 +22,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Steppe Salad",
+                name: "Steppe Salad",
                 "mat-1": "Gyr Abanian Carrot",
                 "mat-2": "Daikon Radish",
                 "mat-3": "Lotus Root",
@@ -34,7 +34,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Nomad Meat Pie",
+                name: "Nomad Meat Pie",
                 "mat-1": "Dzo Chuck",
                 "mat-2": "Gyr Abanian Flour",
                 "mat-3": "Sun Cabbage",
@@ -46,7 +46,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "66",
-                "item": "Warrior's Stew",
+                name: "Warrior's Stew",
                 "mat-1": "Dzo Chuck",
                 "mat-2": "Mountain Popoto",
                 "mat-3": "Gyr Abanian Carrot",
@@ -58,7 +58,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Egg Foo Young",
+                name: "Egg Foo Young",
                 "mat-1": "Gagana Egg",
                 "mat-2": "Carpenter Crab",
                 "mat-3": "Kudzu Root ",
@@ -70,7 +70,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Fish Stew",
+                name: "Fish Stew",
                 "mat-1": "River Clam",
                 "mat-2": "Corpse-Eater",
                 "mat-3": "Mountain Popoto",
@@ -82,7 +82,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "67",
-                "item": "Persimmon Pudding",
+                name: "Persimmon Pudding",
                 "mat-1": "Persimmon",
                 "mat-2": "Gyr Abanian Flour",
                 "mat-3": "Gagana Egg",
@@ -94,7 +94,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Onigara-yaki",
+                name: "Onigara-yaki",
                 "mat-1": "Spiny Lobster",
                 "mat-2": "Oriental Soy Sauce",
                 "mat-3": "Cooking Sake",
@@ -106,7 +106,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Boiled Amberjack Head",
+                name: "Boiled Amberjack Head",
                 "mat-1": "Amberjack",
                 "mat-2": "Daikon Radish",
                 "mat-3": "Oriental Soy Sauce",
@@ -118,7 +118,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "68",
-                "item": "Doman Tea",
+                name: "Doman Tea",
                 "mat-1": "Persimmon",
                 "mat-2": "Cinnamon",
                 "mat-3": "Jhammel Ginger",
@@ -130,7 +130,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Jerked Jhammel",
+                name: "Jerked Jhammel",
                 "mat-1": "Jhammel Haunch",
                 "mat-2": "Cumin Seeds",
                 "mat-3": "Black Pepper",
@@ -142,7 +142,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Miso Dengaku",
+                name: "Miso Dengaku",
                 "mat-1": "Firm Tofu",
                 "mat-2": "Doman Eggplant",
                 "mat-3": "Daikon Radish",
@@ -154,7 +154,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "69",
-                "item": "Chirashi-zushi",
+                name: "Chirashi-zushi",
                 "mat-1": "Koshu Sticky Rice",
                 "mat-2": "Rice Vinegar",
                 "mat-3": "Shiitake Mushroom",
@@ -166,7 +166,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Stewed River Bream",
+                name: "Stewed River Bream",
                 "mat-1": "River Bream",
                 "mat-2": "Cottonseed Oil",
                 "mat-3": "Kudzu Root ",
@@ -178,7 +178,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Steamed Grouper",
+                name: "Steamed Grouper",
                 "mat-1": "Zekki Grouper",
                 "mat-2": "Oriental Soy Sauce",
                 "mat-3": "Cottonseed Oil",
@@ -190,7 +190,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70",
-                "item": "Jhammel Moussaka",
+                name: "Jhammel Moussaka",
                 "mat-1": "Doman Eggplant",
                 "mat-2": "Ramhorn Zucchini",
                 "mat-3": "Mountain Popoto",
@@ -202,7 +202,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Persimmon Leaf Sushi",
+                name: "Persimmon Leaf Sushi",
                 "mat-1": "Koshu Sticky Rice",
                 "mat-2": "Rice Vinegar",
                 "mat-3": "Persimmon Leaf",
@@ -214,7 +214,7 @@ export const CulinarianLevels_66_70 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Jellied Compote",
+                name: "Jellied Compote",
                 "mat-1": "Loquat",
                 "mat-2": "Persimmon Leaf ",
                 "mat-3": "Othardian Plum",

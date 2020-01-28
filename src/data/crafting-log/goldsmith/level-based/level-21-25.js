@@ -10,7 +10,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "21",
-                "item": "Brass Ear Cuffs",
+                name: "Brass Ear Cuffs",
                 "mat-1": "2 Brass Ingot",
                 "mat-2": "Ragstone Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Brass Choker",
+                name: "Brass Choker",
                 "mat-1": "2 Brass Ingot",
                 "mat-2": "Hard Leather",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "21",
-                "item": "Coral Ring",
+                name: "Coral Ring",
                 "mat-1": "White Coral",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Eye of Ice",
+                name: "Eye of Ice",
                 "mat-1": "Ice Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Eye of Water",
+                name: "Eye of Water",
                 "mat-1": "Water Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Eye of Lightning",
+                name: "Eye of Lightning",
                 "mat-1": "Lightning Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Brass Needle",
+                name: "Brass Needle",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "22",
-                "item": "Floating Minnow",
+                name: "Floating Minnow",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Ash Lumber",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Eye of Earth",
+                name: "Eye of Earth",
                 "mat-1": "Earth Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Eye of Wind",
+                name: "Eye of Wind",
                 "mat-1": "Wind Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Eye of Fire",
+                name: "Eye of Fire",
                 "mat-1": "Fire Rock",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Silver Ingot",
+                name: "Silver Ingot",
                 "mat-1": "3 Silver Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Wind Brand",
+                name: "Wind Brand",
                 "mat-1": "Eye of Wind",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Antelope Horn",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Sanguine Horn Staff",
+                name: "Sanguine Horn Staff",
                 "mat-1": "Eye of Fire",
                 "mat-2": "Antelope Horn",
                 "mat-3": "Beastkin Blood",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Oval Spectacles",
+                name: "Oval Spectacles",
                 "mat-1": "2 Clear Glass Lens",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Contemporary Pince-nez",
+                name: "Contemporary Pince-nez",
                 "mat-1": "2 Clear Glass Lens",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "23",
-                "item": "Brass Spoon Lure",
+                name: "Brass Spoon Lure",
                 "mat-1": "Brass Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Silver Rings",
+                name: "Silver Rings",
                 "mat-1": "Silver Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Initiate's Needle",
+                name: "Initiate's Needle",
                 "mat-1": "Iron Ingot",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Silver Spectacles",
+                name: "Silver Spectacles",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Clear Glass Lens",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "24",
-                "item": "Horn Earrings",
+                name: "Horn Earrings",
                 "mat-1": "Silver Ingot",
                 "mat-2": "Antelope Horn",
                 "mat-3": "Aldgoat Leather",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Ice Brand",
+                name: "Ice Brand",
                 "mat-1": "Eye of Ice",
                 "mat-2": "Antelope Horn",
                 "mat-3": "Brass Ingot",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Toothed Staghorn Staff",
+                name: "Toothed Staghorn Staff",
                 "mat-1": "Stagstaff Horn",
                 "mat-2": "2 Antelope Horn",
                 "mat-3": "Scaleskin Blood",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Silver Magnifiers",
+                name: "Silver Magnifiers",
                 "mat-1": "Silver Spectacles",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Clear Glass Lens",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Silver Gorget",
+                name: "Silver Gorget",
                 "mat-1": "2 Silver Ingot",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Silver Wristlets",
+                name: "Silver Wristlets",
                 "mat-1": "Silver Ingot",
                 "mat-2": "2 Silver Rings",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Silver Wristlets of Crafting",
+                name: "Silver Wristlets of Crafting",
                 "mat-1": "Silver Ingot",
                 "mat-2": "2 Silver Rings",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_21_25 = function(parentStorageKey) {
             },
             {
                 "level": "25",
-                "item": "Flawless Band",
+                name: "Flawless Band",
                 "mat-1": "Silver Ingot",
                 "mat-2": "X",
                 "mat-3": "X",

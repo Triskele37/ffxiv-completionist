@@ -10,7 +10,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Agate",
+                name: "Agate",
                 "mat-1": "3 Raw Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Nugget",
+                name: "Mythrite Nugget",
                 "mat-1": "5 Mythrite Sand",
                 "mat-2": "Mythril Ore",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Rapier",
+                name: "Mythrite Rapier",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "2 Cobalt Ingot",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Agate Ring of Fending",
+                name: "Agate Ring of Fending",
                 "mat-1": "Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Agate Ring of Slaying",
+                name: "Agate Ring of Slaying",
                 "mat-1": "Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Agate Ring of Aiming",
+                name: "Agate Ring of Aiming",
                 "mat-1": "Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Agate Ring of Casting",
+                name: "Agate Ring of Casting",
                 "mat-1": "Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Agate Ring of Healing",
+                name: "Agate Ring of Healing",
                 "mat-1": "Agate",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Tiger's Eye",
+                name: "Tiger's Eye",
                 "mat-1": "3 Raw Tiger's Eye",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Yeti Staff",
+                name: "Yeti Staff",
                 "mat-1": "Cedar Lumber",
                 "mat-2": "2 Yeti Fang",
                 "mat-3": "2 Agate",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Star Globe",
+                name: "Mythrite Star Globe",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Enchanted Mythrite Ink",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Circlet of Striking",
+                name: "Mythrite Circlet of Striking",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Wildfowl Feather",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Goggles of Crafting",
+                name: "Mythrite Goggles of Crafting",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Goggles of Gathering",
+                name: "Mythrite Goggles of Gathering",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Earrings of Fending",
+                name: "Mythrite Earrings of Fending",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Jadeite",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Earrings of Slaying",
+                name: "Mythrite Earrings of Slaying",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Jadeite",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Earrings of Aiming",
+                name: "Mythrite Earrings of Aiming",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Jadeite",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Earrings of Casting",
+                name: "Mythrite Earrings of Casting",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Jadeite",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Earrings of Healing",
+                name: "Mythrite Earrings of Healing",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "2 Jadeite",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Bangle of Fending",
+                name: "Mythrite Bangle of Fending",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "2 Tiger's Eye",
                 "mat-3": "2 Jadeite",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Bangle of Slaying",
+                name: "Mythrite Bangle of Slaying",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "2 Tiger's Eye",
                 "mat-3": "2 Jadeite",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Bangle of Aiming",
+                name: "Mythrite Bangle of Aiming",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "2 Tiger's Eye",
                 "mat-3": "2 Jadeite",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Bangle of Casting",
+                name: "Mythrite Bangle of Casting",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "2 Tiger's Eye",
                 "mat-3": "2 Jadeite",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Mythrite Bangle of Healing",
+                name: "Mythrite Bangle of Healing",
                 "mat-1": "Mythrite Nugget",
                 "mat-2": "2 Tiger's Eye",
                 "mat-3": "2 Jadeite",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Ingot",
+                name: "Mythrite Ingot",
                 "mat-1": "4 Mythrite Ore",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Foil",
+                name: "Mythrite Foil",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "2 Mythrite Nugget",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Needle",
+                name: "Mythrite Needle",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Cedar Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earblades of Fending",
+                name: "Mythrite Earblades of Fending",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "2 Cloud Coral",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earblades of Slaying",
+                name: "Mythrite Earblades of Slaying",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "2 Cloud Coral",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earblades of Aiming",
+                name: "Mythrite Earblades of Aiming",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "2 Cloud Coral",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earblades of Casting",
+                name: "Mythrite Earblades of Casting",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "2 Cloud Coral",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earblades of Healing",
+                name: "Mythrite Earblades of Healing",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Silver Ingot",
                 "mat-3": "2 Cloud Coral",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Yeti Fang Earrings",
+                name: "Yeti Fang Earrings",
                 "mat-1": "2 Yeti Fang",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "X",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Earrings of Gathering",
+                name: "Mythrite Earrings of Gathering",
                 "mat-1": "2 Mythrite Nugget",
                 "mat-2": "Holy Water",
                 "mat-3": "X",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Bracelet of Fending",
+                name: "Mythrite Bracelet of Fending",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Bracelet of Slaying",
+                name: "Mythrite Bracelet of Slaying",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Bracelet of Aiming",
+                name: "Mythrite Bracelet of Aiming",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Bracelet of Casting",
+                name: "Mythrite Bracelet of Casting",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Mythrite Bracelet of Healing",
+                name: "Mythrite Bracelet of Healing",
                 "mat-1": "2 Mythrite Ingot",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Larimar",
+                name: "Larimar",
                 "mat-1": "3 Raw Larimar",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Obsidian Longpole",
+                name: "Obsidian Longpole",
                 "mat-1": "4 Dragon Obsidian",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Jadeite",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Planisphere",
+                name: "Mythrite Planisphere",
                 "mat-1": "3 Mythrite Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "3 Spinel",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Necklace of Fending",
+                name: "Mythrite Necklace of Fending",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "2 Agate",
                 "mat-3": "Rainbow Thread",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Necklace of Slaying",
+                name: "Mythrite Necklace of Slaying",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "2 Agate",
                 "mat-3": "Rainbow Thread",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Necklace of Aiming",
+                name: "Mythrite Necklace of Aiming",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "2 Agate",
                 "mat-3": "Rainbow Thread",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Necklace of Casting",
+                name: "Mythrite Necklace of Casting",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "2 Agate",
                 "mat-3": "Rainbow Thread",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Mythrite Necklace of Healing",
+                name: "Mythrite Necklace of Healing",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "2 Agate",
                 "mat-3": "Rainbow Thread",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Yeti Fang Ring of Fending",
+                name: "Yeti Fang Ring of Fending",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Yeti Fang",
                 "mat-3": "X",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Yeti Fang Ring of Slaying",
+                name: "Yeti Fang Ring of Slaying",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Yeti Fang",
                 "mat-3": "X",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Yeti Fang Ring of Aiming",
+                name: "Yeti Fang Ring of Aiming",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Yeti Fang",
                 "mat-3": "X",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Yeti Fang Ring of Casting",
+                name: "Yeti Fang Ring of Casting",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Yeti Fang",
                 "mat-3": "X",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Yeti Fang Ring of Healing",
+                name: "Yeti Fang Ring of Healing",
                 "mat-1": "Mythrite Ingot",
                 "mat-2": "Yeti Fang",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion",
+                name: "Mormorion",
                 "mat-1": "3 Raw Mormorion",
                 "mat-2": "Aqueous Whetstone",
                 "mat-3": "X",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Nugget",
+                name: "Hardsilver Nugget",
                 "mat-1": "5 Hardsilver Sand",
                 "mat-2": "Silver Ore",
                 "mat-3": "X",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Staff",
+                name: "Hardsilver Staff",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "Holy Rainbow Cloth",
                 "mat-3": "Larimar",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Rapier",
+                name: "Hardsilver Rapier",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "2 Titanium Nugget",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Needle",
+                name: "Hardsilver Needle",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "Holy Cedar Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -694,7 +694,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Magnifiers of Casting",
+                name: "Hardsilver Magnifiers of Casting",
                 "mat-1": "Hardsilver Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -706,7 +706,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Hardsilver Monocle of Healing",
+                name: "Hardsilver Monocle of Healing",
                 "mat-1": "Hardsilver Nugget",
                 "mat-2": "Larimar",
                 "mat-3": "X",
@@ -718,7 +718,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion Ring of Fending",
+                name: "Mormorion Ring of Fending",
                 "mat-1": "Mormorion",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -730,7 +730,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion Ring of Slaying",
+                name: "Mormorion Ring of Slaying",
                 "mat-1": "Mormorion",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -742,7 +742,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion Ring of Aiming",
+                name: "Mormorion Ring of Aiming",
                 "mat-1": "Mormorion",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -754,7 +754,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion Ring of Casting",
+                name: "Mormorion Ring of Casting",
                 "mat-1": "Mormorion",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -766,7 +766,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Mormorion Ring of Healing",
+                name: "Mormorion Ring of Healing",
                 "mat-1": "Mormorion",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -778,7 +778,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Star Ruby",
+                name: "Star Ruby",
                 "mat-1": "3 Raw Star Ruby",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -790,7 +790,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Star Sapphire",
+                name: "Star Sapphire",
                 "mat-1": "3 Raw Star Sapphire",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -802,7 +802,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Star Globe",
+                name: "Hardsilver Star Globe",
                 "mat-1": "3 Hardsilver Nugget",
                 "mat-2": "Titanium Nugget",
                 "mat-3": "Electrum Ingot",
@@ -814,7 +814,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Earrings of Fending",
+                name: "Hardsilver Earrings of Fending",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "Grade 1 Vitality Dissolvent",
@@ -826,7 +826,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Earrings of Slaying",
+                name: "Hardsilver Earrings of Slaying",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "Grade 1 Strenth Dissolvent",
@@ -838,7 +838,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Earrings of Aiming",
+                name: "Hardsilver Earrings of Aiming",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -850,7 +850,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Earrings of Casting",
+                name: "Hardsilver Earrings of Casting",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "Grade 1 Intelligence Dissolvent",
@@ -862,7 +862,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Earrings of Healing",
+                name: "Hardsilver Earrings of Healing",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -874,7 +874,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Bangle of Fending",
+                name: "Hardsilver Bangle of Fending",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "2 Star Ruby",
@@ -886,7 +886,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Bangle of Slaying",
+                name: "Hardsilver Bangle of Slaying",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "2 Star Ruby",
@@ -898,7 +898,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Bangle of Aiming",
+                name: "Hardsilver Bangle of Aiming",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "2 Star Ruby",
@@ -910,7 +910,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Bangle of Casting",
+                name: "Hardsilver Bangle of Casting",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "2 Star Ruby",
@@ -922,7 +922,7 @@ export const GoldsmithLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Hardsilver Bangle of Healing",
+                name: "Hardsilver Bangle of Healing",
                 "mat-1": "2 Hardsilver Nugget",
                 "mat-2": "2 Star Sapphire",
                 "mat-3": "2 Star Ruby",

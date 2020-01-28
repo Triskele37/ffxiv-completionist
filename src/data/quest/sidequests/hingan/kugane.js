@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Kugane = function(parentStorageKey) {
+export const Quest_Sidequests_Hingan_Kugane = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.kugane`;
 
     return {

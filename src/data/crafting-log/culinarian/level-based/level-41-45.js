@@ -10,7 +10,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Jerked Beef",
+                name: "Jerked Beef",
                 "mat-1": "Buffalo Sirloin",
                 "mat-2": "Table Salt",
                 "mat-3": "Black Pepper",
@@ -22,7 +22,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Salt Cod Puffs",
+                name: "Salt Cod Puffs",
                 "mat-1": "Salt Cod",
                 "mat-2": "Thyme",
                 "mat-3": "Apkallu Egg",
@@ -34,7 +34,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Rolanberry Cheese",
+                name: "Rolanberry Cheese",
                 "mat-1": "2 Night Milk",
                 "mat-2": "Rolanberry",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Fish Soup",
+                name: "Fish Soup",
                 "mat-1": "Bianaq Bream",
                 "mat-2": "Ruby Tomato",
                 "mat-3": "Highland Parsley",
@@ -58,7 +58,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Dzemael Gratin",
+                name: "Dzemael Gratin",
                 "mat-1": "Popoto",
                 "mat-2": "Garlean Garlic",
                 "mat-3": "Black Pepper",
@@ -70,7 +70,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Button Mushroom Saute",
+                name: "Button Mushroom Saute",
                 "mat-1": "Olive Oil",
                 "mat-2": "Garlean Garlic",
                 "mat-3": "3 Button Mushroom",
@@ -82,7 +82,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Stuffed Cabbage",
+                name: "Stuffed Cabbage",
                 "mat-1": "Midland Cabbage",
                 "mat-2": "Northern Pike",
                 "mat-3": "Gelatin",
@@ -94,7 +94,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "La Noscean Toast",
+                name: "La Noscean Toast",
                 "mat-1": "Walnut Bread",
                 "mat-2": "Buffalo Milk",
                 "mat-3": "Apkallu Egg",
@@ -106,7 +106,7 @@ export const CulinarianLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Rolanberry Lassi",
+                name: "Rolanberry Lassi",
                 "mat-1": "2 Night Milk",
                 "mat-2": "2 Rolanberry",
                 "mat-3": "X",

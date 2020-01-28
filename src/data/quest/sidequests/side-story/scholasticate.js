@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Scholasticate = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Scholasticate = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.scholasticate`;
 
     return {

@@ -10,7 +10,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
         tasks: [
             {
                 "level": 70,
-                "item": "Edible Antidote",
+                name: "Edible Antidote",
                 "mat-1": "Crescent Spring Water",
                 "mat-2": "Holy Basil",
                 "mat-3": "Persimmon Leaf",
@@ -22,7 +22,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 73,
-                "item": "Nutrient-Rich Porridge",
+                name: "Nutrient-Rich Porridge",
                 "mat-1": "Garden Beet Sugar",
                 "mat-2": "Gyr Abanian Flour",
                 "mat-3": "Steppe Milk",
@@ -34,7 +34,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Fortifying Soup",
+                name: "Fortifying Soup",
                 "mat-1": "Creamtop Mushroom",
                 "mat-2": "Highland Spring Water",
                 "mat-3": "Purple Carrot",
@@ -46,7 +46,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Offering of Sweets",
+                name: "Offering of Sweets",
                 "mat-1": "Sweets Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Berube Feed",
+                name: "Berube Feed",
                 "mat-1": "Ovim Meat",
                 "mat-2": "Chysahl Greens",
                 "mat-3": "Curly Parsley",
@@ -70,7 +70,7 @@ export const Alchemist_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Zun-Style Amaro Feed",
+                name: "Zun-Style Amaro Feed",
                 "mat-1": "Zun Culinary Components",
                 "mat-2": "X",
                 "mat-3": "X",

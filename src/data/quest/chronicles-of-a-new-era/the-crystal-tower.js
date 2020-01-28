@@ -5,7 +5,7 @@ api contains 2 "Legacy of Allag"s?
 */
 import { QuestColumnConfig } from "../columnConfigs";
 
-export const TheCrystalTower = function(parentStorageKey) {
+export const Quest_COANE_The_Crystal_Tower = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-crystal-tower`;
 
     return {

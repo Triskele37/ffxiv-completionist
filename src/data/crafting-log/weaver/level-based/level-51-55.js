@@ -10,7 +10,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "51",
-                "item": "Rainbow Cloth",
+                name: "Rainbow Cloth",
                 "mat-1": "2 Rainbow Thread",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Thread",
+                name: "Rainbow Thread",
                 "mat-1": "3 Rainbow Cotton Boll",
                 "mat-2": "Cotton Boll",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Coif of Scouting",
+                name: "Rainbow Coif of Scouting",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Mythrite Nugget",
                 "mat-3": "Rainbow Thread",
@@ -46,7 +46,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Cap of Aiming",
+                name: "Rainbow Cap of Aiming",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Cap of Casting",
+                name: "Rainbow Cap of Casting",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Cap of Healing",
+                name: "Rainbow Cap of Healing",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Halfgloves of Scouting",
+                name: "Rainbow Halfgloves of Scouting",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Sash of Scouting",
+                name: "Rainbow Sash of Scouting",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Sash of Aiming",
+                name: "Rainbow Sash of Aiming",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Sash of Casting",
+                name: "Rainbow Sash of Casting",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Sash of Healing",
+                name: "Rainbow Sash of Healing",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Bolero of Striking",
+                name: "Rainbow Bolero of Striking",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -154,7 +154,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Shirt of Scouting",
+                name: "Rainbow Shirt of Scouting",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -166,7 +166,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Robe of Aiming",
+                name: "Rainbow Robe of Aiming",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -178,7 +178,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Robe of Casting",
+                name: "Rainbow Robe of Casting",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -190,7 +190,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Robe of Healing",
+                name: "Rainbow Robe of Healing",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -202,7 +202,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Justaucorps",
+                name: "Rainbow Justaucorps",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Sylphic Silk",
                 "mat-3": "Rainbow Thread",
@@ -214,7 +214,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Bustle",
+                name: "Rainbow Bustle",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Sylphic Silk",
                 "mat-3": "Rainbow Thread",
@@ -226,7 +226,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Culottes of Striking",
+                name: "Rainbow Culottes of Striking",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -238,7 +238,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Sarouel of Scouting",
+                name: "Rainbow Sarouel of Scouting",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -250,7 +250,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Slops of Aiming",
+                name: "Rainbow Slops of Aiming",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -262,7 +262,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Slops of Casting",
+                name: "Rainbow Slops of Casting",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -274,7 +274,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Slops of Healing",
+                name: "Rainbow Slops of Healing",
                 "mat-1": "3 Rainbow Cloth",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Rainbow Thread",
@@ -286,7 +286,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Breeches",
+                name: "Rainbow Breeches",
                 "mat-1": "Rainbow Cloth",
                 "mat-2": "Sylphic Silk",
                 "mat-3": "Rainbow Thread",
@@ -298,7 +298,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Ribbon of Fending",
+                name: "Rainbow Ribbon of Fending",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Agate",
                 "mat-3": "Rainbow Thread",
@@ -310,7 +310,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Ribbon of Slaying",
+                name: "Rainbow Ribbon of Slaying",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Agate",
                 "mat-3": "Rainbow Thread",
@@ -322,7 +322,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Ribbon of Aiming",
+                name: "Rainbow Ribbon of Aiming",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Agate",
                 "mat-3": "Rainbow Thread",
@@ -334,7 +334,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Ribbon of Casting",
+                name: "Rainbow Ribbon of Casting",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Agate",
                 "mat-3": "Rainbow Thread",
@@ -346,7 +346,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "51",
-                "item": "Rainbow Ribbon of Healing",
+                name: "Rainbow Ribbon of Healing",
                 "mat-1": "2 Rainbow Cloth",
                 "mat-2": "Agate",
                 "mat-3": "Rainbow Thread",
@@ -358,7 +358,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Cloth",
+                name: "Holy Rainbow Cloth",
                 "mat-1": "Rainbow Cloth",
                 "mat-2": "2 Holy Water",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Scarf of Scouting",
+                name: "Holy Rainbow Scarf of Scouting",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Hat of Aiming",
+                name: "Holy Rainbow Hat of Aiming",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -394,7 +394,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Fending",
+                name: "Holy Rainbow Sarouel of Fending",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -406,7 +406,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Maiming",
+                name: "Holy Rainbow Sarouel of Maiming",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -418,7 +418,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Striking",
+                name: "Holy Rainbow Sarouel of Striking",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -430,7 +430,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Scouting",
+                name: "Holy Rainbow Sarouel of Scouting",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -442,7 +442,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Aiming",
+                name: "Holy Rainbow Sarouel of Aiming",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -454,7 +454,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Casting",
+                name: "Holy Rainbow Sarouel of Casting",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -466,7 +466,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "52",
-                "item": "Holy Rainbow Sarouel of Healing",
+                name: "Holy Rainbow Sarouel of Healing",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -478,7 +478,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Wedge Cap",
+                name: "Holy Rainbow Wedge Cap",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -490,7 +490,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Hat",
+                name: "Holy Rainbow Hat",
                 "mat-1": "Holy Rainbow Cloth",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Rainbow Thread",
@@ -502,7 +502,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Fending",
+                name: "Holy Rainbow Shirt of Fending",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -514,7 +514,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Maiming",
+                name: "Holy Rainbow Shirt of Maiming",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -526,7 +526,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Striking",
+                name: "Holy Rainbow Shirt of Striking",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -538,7 +538,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Scouting",
+                name: "Holy Rainbow Shirt of Scouting",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -550,7 +550,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Aiming",
+                name: "Holy Rainbow Shirt of Aiming",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -562,7 +562,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Casting",
+                name: "Holy Rainbow Shirt of Casting",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -574,7 +574,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Shirt of Healing",
+                name: "Holy Rainbow Shirt of Healing",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Wyvern Leather",
@@ -586,7 +586,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Gloves",
+                name: "Holy Rainbow Gloves",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "X",
@@ -598,7 +598,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Holy Rainbow Work Gloves",
+                name: "Holy Rainbow Work Gloves",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Rainbow Thread",
@@ -610,7 +610,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Cloth",
+                name: "Ramie Cloth",
                 "mat-1": "2 Ramie Thread",
                 "mat-2": "Linen Yarn",
                 "mat-3": "X",
@@ -622,7 +622,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Thread",
+                name: "Ramie Thread",
                 "mat-1": "3 Stalk of Ramie",
                 "mat-2": "2 Flax",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Rainbow Hat of Healing",
+                name: "Holy Rainbow Hat of Healing",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -646,7 +646,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Rainbow Coatee",
+                name: "Holy Rainbow Coatee",
                 "mat-1": "3 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -658,7 +658,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Halfgloves of Casting",
+                name: "Ramie Halfgloves of Casting",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -670,7 +670,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Halfgloves of Healing",
+                name: "Ramie Halfgloves of Healing",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -682,7 +682,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Rainbow Apron",
+                name: "Holy Rainbow Apron",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -694,7 +694,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Rainbow Bottoms",
+                name: "Holy Rainbow Bottoms",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Rainbow Thread",
@@ -706,7 +706,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Holy Rainbow Shoes",
+                name: "Holy Rainbow Shoes",
                 "mat-1": "2 Holy Rainbow Cloth",
                 "mat-2": "Rainbow Thread",
                 "mat-3": "Mythrite Nugger",
@@ -718,7 +718,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Ribbon of Fending",
+                name: "Ramie Ribbon of Fending",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Larimar",
                 "mat-3": "Ramie Thread",
@@ -730,7 +730,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Ribbon of Slaying",
+                name: "Ramie Ribbon of Slaying",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Larimar",
                 "mat-3": "Ramie Thread",
@@ -742,7 +742,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Ribbon of Aiming",
+                name: "Ramie Ribbon of Aiming",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Larimar",
                 "mat-3": "Ramie Thread",
@@ -754,7 +754,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Ribbon of Casting",
+                name: "Ramie Ribbon of Casting",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Larimar",
                 "mat-3": "Ramie Thread",
@@ -766,7 +766,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "54",
-                "item": "Ramie Ribbon of Healing",
+                name: "Ramie Ribbon of Healing",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Larimar",
                 "mat-3": "Ramie Thread",
@@ -778,7 +778,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Turban of Crafting",
+                name: "Ramie Turban of Crafting",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -790,7 +790,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Hood",
+                name: "Ramie Hood",
                 "mat-1": "Ramie Cloth",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Blue Fox Hide",
@@ -802,7 +802,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Robe of Casting",
+                name: "Ramie Robe of Casting",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -814,7 +814,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Robe of Healing",
+                name: "Ramie Robe of Healing",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -826,7 +826,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Tabard",
+                name: "Ramie Tabard",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -838,7 +838,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Poncho",
+                name: "Ramie Poncho",
                 "mat-1": "Ramie Cloth",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "2 Blue Fox Hide",
@@ -850,7 +850,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Trousers of Striking",
+                name: "Ramie Trousers of Striking",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -862,7 +862,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Trousers of Scouting",
+                name: "Ramie Trousers of Scouting",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -874,7 +874,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Trousers of Aiming",
+                name: "Ramie Trousers of Aiming",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -886,7 +886,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Tonban of Casting",
+                name: "Ramie Tonban of Casting",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -898,7 +898,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Tonban of Healing",
+                name: "Ramie Tonban of Healing",
                 "mat-1": "3 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -910,7 +910,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Kecks",
+                name: "Ramie Kecks",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -922,7 +922,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Pantalettes",
+                name: "Ramie Pantalettes",
                 "mat-1": "Ramie Cloth",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Iron Rivets",
@@ -934,7 +934,7 @@ export const WeaverLevels_51_55 = function(parentStorageKey) {
             },
             {
                 "level": "55",
-                "item": "Ramie Slops",
+                name: "Ramie Slops",
                 "mat-1": "2 Ramie Cloth",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "Blue Fox Hide",

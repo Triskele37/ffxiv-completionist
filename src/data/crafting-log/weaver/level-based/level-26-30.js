@@ -10,7 +10,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "26",
-                "item": "Velveteen Turban",
+                name: "Velveteen Turban",
                 "mat-1": "3 Undyed Velveteen",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Altered Velveteen Bandana",
+                name: "Altered Velveteen Bandana",
                 "mat-1": "3 Undyed Velveteen",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Velveteen Shirt",
+                name: "Velveteen Shirt",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Aldgoat Leather",
@@ -46,7 +46,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "26",
-                "item": "Tarred Velveteen Longsash",
+                name: "Tarred Velveteen Longsash",
                 "mat-1": "3 Undyed Velveteen",
                 "mat-2": "Cotton Yarn",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Velveteen Wedge Cap of Crafting",
+                name: "Velveteen Wedge Cap of Crafting",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Dew Thread",
@@ -70,7 +70,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Velveteen Cowl",
+                name: "Velveteen Cowl",
                 "mat-1": "4 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Velveteen Rope Belt",
+                name: "Velveteen Rope Belt",
                 "mat-1": "3 Undyed Velveteen",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "27",
-                "item": "Velveteen Tights",
+                name: "Velveteen Tights",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Velveteen Wedge Cap of Gathering",
+                name: "Velveteen Wedge Cap of Gathering",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Dew Thread",
@@ -118,7 +118,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Velveteen Coatee of Gathering",
+                name: "Velveteen Coatee of Gathering",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Silver Ingot",
@@ -130,7 +130,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Velveteen Half Apron",
+                name: "Velveteen Half Apron",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Silver Ingot",
@@ -142,7 +142,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Velveteen Trousers",
+                name: "Velveteen Trousers",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Silver Ingot",
@@ -154,7 +154,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "28",
-                "item": "Velveteen Gaiters",
+                name: "Velveteen Gaiters",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Undyed Cotton Cloth",
                 "mat-3": "Silver Ingot",
@@ -166,7 +166,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Velveteen Beret",
+                name: "Velveteen Beret",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Dodo Feather",
@@ -178,7 +178,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Velveteen Coatee of Crafting",
+                name: "Velveteen Coatee of Crafting",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "2 Dew Thread",
                 "mat-3": "Silver Ingot",
@@ -190,7 +190,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "29",
-                "item": "Velveteen Shortgloves",
+                name: "Velveteen Shortgloves",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Velveteen Gown",
+                name: "Velveteen Gown",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Cotton Boll",
@@ -214,7 +214,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Velveteen Work Gloves",
+                name: "Velveteen Work Gloves",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Cotton Boll",
@@ -226,7 +226,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Velveteen Bottom",
+                name: "Velveteen Bottom",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Iron Ingot",
@@ -238,7 +238,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Padded Velveteen Trousers",
+                name: "Padded Velveteen Trousers",
                 "mat-1": "Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Toad Leather",
@@ -250,7 +250,7 @@ export const WeaverLevels_26_30 = function(parentStorageKey) {
             },
             {
                 "level": "30",
-                "item": "Velveteen Dress Shoes",
+                name: "Velveteen Dress Shoes",
                 "mat-1": "2 Undyed Velveteen",
                 "mat-2": "Dew Thread",
                 "mat-3": "Rubber",

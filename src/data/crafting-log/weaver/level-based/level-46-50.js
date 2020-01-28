@@ -10,7 +10,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Felt Beret",
+                name: "Felt Beret",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Apkallu Down",
@@ -22,7 +22,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Felt Bracers",
+                name: "Felt Bracers",
                 "mat-1": "2 Boar Leather",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Raptor Leather",
@@ -34,7 +34,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Felt Work Gloves",
+                name: "Felt Work Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Boar Leather",
@@ -46,7 +46,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Felt Dress Shoes",
+                name: "Felt Dress Shoes",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Rubber",
@@ -58,7 +58,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Vintage Coif",
+                name: "Vintage Coif",
                 "mat-1": "Torn Coif",
                 "mat-2": "Aldgoat Leather",
                 "mat-3": "Undyed Woolen Cloth",
@@ -70,7 +70,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Felt Cavalier's Hat",
+                name: "Felt Cavalier's Hat",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Chocobo Feather",
@@ -82,7 +82,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Altered Felt Hat",
+                name: "Altered Felt Hat",
                 "mat-1": " Undyed Felt",
                 "mat-2": " Woolen Yarn",
                 "mat-3": " Chocobo Feather",
@@ -94,7 +94,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Felt Gaskins",
+                name: "Felt Gaskins",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Boar Leather",
@@ -106,7 +106,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Padded Woolen Trousers",
+                name: "Padded Woolen Trousers",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Raptor Leather",
@@ -118,7 +118,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Woolen Trousers Of Fending",
+                name: "Woolen Trousers Of Fending",
                 "mat-1": " Undyed Woolen Cloth",
                 "mat-2": " Woolen Yarn",
                 "mat-3": " Raptor Leather",
@@ -130,7 +130,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Felt Breeches",
+                name: "Felt Breeches",
                 "mat-1": " Undyed Felt",
                 "mat-2": " Woolen Yarn",
                 "mat-3": "2 Boar Leather",
@@ -142,7 +142,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Vintage Robe",
+                name: "Vintage Robe",
                 "mat-1": "Tattered Robe",
                 "mat-2": "Linen Yarn",
                 "mat-3": "Jadeite",
@@ -154,7 +154,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Felt Bliaud",
+                name: "Felt Bliaud",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Boar Leather",
@@ -166,7 +166,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Altered Felt Robe",
+                name: "Altered Felt Robe",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": " Woolen Yarn",
                 "mat-3": " Boar Leather",
@@ -178,7 +178,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Felt Dress Gloves",
+                name: "Felt Dress Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Felt Gloves",
+                name: "Felt Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Felt Trousers",
+                name: "Felt Trousers",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Raptor Leather",
@@ -214,7 +214,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Woolen Bandana",
+                name: "Woolen Bandana",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "2 Cobalt Ingot",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Patrician's Wedge Cap",
+                name: "Patrician's Wedge Cap",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Linen Yarn",
@@ -238,7 +238,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Patrician's Coatee",
+                name: "Patrician's Coatee",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Woolen Yarn",
                 "mat-3": "Linen Yarn",
@@ -250,7 +250,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Patrician's Gloves",
+                name: "Patrician's Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Linen Yarn",
@@ -262,7 +262,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Patrician's Bottoms",
+                name: "Patrician's Bottoms",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Woolen Yarn",
@@ -274,7 +274,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Patrician's Gaiters",
+                name: "Patrician's Gaiters",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Woolen Yarn",
                 "mat-3": "Linen Yarn",
@@ -286,7 +286,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Wind-up Qiqirn",
+                name: "Wind-up Qiqirn",
                 "mat-1": "Vanya Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Chocobo Feather",
@@ -298,7 +298,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50",
-                "item": "Wind-up Aldgoat",
+                name: "Wind-up Aldgoat",
                 "mat-1": "Vanya Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Chocobo Feather",
@@ -310,7 +310,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Silk Thread",
+                name: "Silk Thread",
                 "mat-1": "2 Silkworm Cocoon",
                 "mat-2": "Effervescent Water",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Jute Yarn",
+                name: "Jute Yarn",
                 "mat-1": "3 Jute",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Imperial Operative Hat",
+                name: "Imperial Operative Hat",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -346,7 +346,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Hat",
+                name: "Militia Hat",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Chocobo Feather",
@@ -358,7 +358,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Coronal Straw Hat",
+                name: "Coronal Straw Hat",
                 "mat-1": "Straw",
                 "mat-2": "Trillium",
                 "mat-3": "Chamomile",
@@ -370,7 +370,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Moonfire Hat",
+                name: "Moonfire Hat",
                 "mat-1": "2 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Imperial Operative Dalmatica",
+                name: "Imperial Operative Dalmatica",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Raptor Sinew",
@@ -394,7 +394,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Robe",
+                name: "Militia Robe",
                 "mat-1": "3 Undyed Woolen Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Electrum Ingot",
@@ -406,7 +406,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Sailor Shirt",
+                name: "Sailor Shirt",
                 "mat-1": "2 Mariner Cotton Cloth",
                 "mat-2": "Boar Leather",
                 "mat-3": "Undyed Velveteen",
@@ -418,7 +418,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Moonfire Vest",
+                name: "Moonfire Vest",
                 "mat-1": "3 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Moonfire Halter",
+                name: "Moonfire Halter",
                 "mat-1": "3 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Tights",
+                name: "Militia Tights",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Trousers",
+                name: "Militia Trousers",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Dodore Leather",
@@ -466,7 +466,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Sailor Brais",
+                name: "Sailor Brais",
                 "mat-1": "2 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Moonfire Trunks",
+                name: "Moonfire Trunks",
                 "mat-1": "2 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -490,7 +490,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Moonfire Tanga",
+                name: "Moonfire Tanga",
                 "mat-1": "2 Mariner Cotton Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -502,7 +502,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Weaver's Gibus",
+                name: "Weaver's Gibus",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Chocobo Feather",
@@ -514,7 +514,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Carpenter's Hood",
+                name: "Carpenter's Hood",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rosewood Branch",
@@ -526,7 +526,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Hamlet Cutter's Hat",
+                name: "Hamlet Cutter's Hat",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Hippogryph Leather",
@@ -538,7 +538,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Culinarian's Hat",
+                name: "Culinarian's Hat",
                 "mat-1": "Rose Gold Nugget",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Silk Thread",
@@ -550,7 +550,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Carpenter's Gown",
+                name: "Carpenter's Gown",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "2 Silk Thread",
@@ -562,7 +562,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Armorer's Gown",
+                name: "Armorer's Gown",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "3 Boar Leather",
                 "mat-3": "2 Silk Thread",
@@ -574,7 +574,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Goldsmith's Doublet",
+                name: "Goldsmith's Doublet",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "2 Electrum Ingot",
@@ -586,7 +586,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Weaver's Swallowtail",
+                name: "Weaver's Swallowtail",
                 "mat-1": "2 Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -598,7 +598,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Alchemist's Coat",
+                name: "Alchemist's Coat",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -610,7 +610,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Culinarian's Apron",
+                name: "Culinarian's Apron",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Undyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -622,7 +622,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Alchemist's Gloves",
+                name: "Alchemist's Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Culinarian's Mitts",
+                name: "Culinarian's Mitts",
                 "mat-1": "Undyed Felt",
                 "mat-2": "Udyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -646,7 +646,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Botanist's Gloves",
+                name: "Botanist's Gloves",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Hippogryph Sinew",
@@ -658,7 +658,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Blacksmith's Slops",
+                name: "Blacksmith's Slops",
                 "mat-1": "4 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Darksteel Nugget",
@@ -670,7 +670,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Armorer's Slops",
+                name: "Armorer's Slops",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -682,7 +682,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Goldsmith's Trousers",
+                name: "Goldsmith's Trousers",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -694,7 +694,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Leatherworker's Trousers",
+                name: "Leatherworker's Trousers",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "Silk Thread",
@@ -706,7 +706,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Weaver's Trousers",
+                name: "Weaver's Trousers",
                 "mat-1": "Undyed Woolen Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -718,7 +718,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Alchemist's Trousers",
+                name: "Alchemist's Trousers",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Rose Gold Nugget",
@@ -730,7 +730,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Culinarian's Trousers",
+                name: "Culinarian's Trousers",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Silk Thread",
@@ -742,7 +742,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Botanist's Slops",
+                name: "Botanist's Slops",
                 "mat-1": "3 Undyed Felt",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -754,7 +754,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Fisher's Gaskins",
+                name: "Fisher's Gaskins",
                 "mat-1": "2 Undyed Felt",
                 "mat-2": "Silk Thread",
                 "mat-3": "Hippogryph Leather",
@@ -766,7 +766,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Silk",
+                name: "Vanya Silk",
                 "mat-1": "Silk Thread",
                 "mat-2": "9 Potash",
                 "mat-3": "X",
@@ -778,7 +778,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Silk Robe Lining",
+                name: "Vanya Silk Robe Lining",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -790,7 +790,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Silk Crakow Lining",
+                name: "Vanya Silk Crakow Lining",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -802,7 +802,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Silk Glove Lining",
+                name: "Vanya Silk Glove Lining",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -814,7 +814,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Silk Hat Lining",
+                name: "Vanya Silk Hat Lining",
                 "mat-1": "Vanya Silk",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "X",
@@ -826,7 +826,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Hat of Casting",
+                name: "Vanya Hat of Casting",
                 "mat-1": "Vanya Silk Hat Lining",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -838,7 +838,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Hat of Healing",
+                name: "Vanya Hat of Healing",
                 "mat-1": "Vanya Silk Hat Lining",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -850,7 +850,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Robe of Casting",
+                name: "Vanya Robe of Casting",
                 "mat-1": "Vanya Silk Robe Lining",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -862,7 +862,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Robe of Healing",
+                name: "Vanya Robe of Healing",
                 "mat-1": "Vanya Silk Robe Lining",
                 "mat-2": "2 Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -874,7 +874,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Taffeta Shawl",
+                name: "Taffeta Shawl",
                 "mat-1": "Taffeta Cloth",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -886,7 +886,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Gloves of Casting",
+                name: "Vanya Gloves of Casting",
                 "mat-1": "Vanya Silk Glove Lining",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -898,7 +898,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Gloves of Healing",
+                name: "Vanya Gloves of Healing",
                 "mat-1": "Vanya Silk Glove Lining",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -910,7 +910,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Sash of Healing",
+                name: "Vanya Sash of Healing",
                 "mat-1": "Garlean Fiber",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -922,7 +922,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Sash of Casting",
+                name: "Vanya Sash of Casting",
                 "mat-1": "Garlean Fiber",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -934,7 +934,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Trousers",
+                name: "Vanya Trousers",
                 "mat-1": "Vanya Silk",
                 "mat-2": "Silk Thread",
                 "mat-3": "Hippogryph Leather",
@@ -946,7 +946,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Breeches of Casting",
+                name: "Vanya Breeches of Casting",
                 "mat-1": "Vanya Silk",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Silk Thread",
@@ -958,7 +958,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Breeches of Healing",
+                name: "Vanya Breeches of Healing",
                 "mat-1": "Vanya Silk",
                 "mat-2": "Undyed Felt",
                 "mat-3": "Silk Thread",
@@ -970,7 +970,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Taffeta Loincloth",
+                name: "Taffeta Loincloth",
                 "mat-1": "Taffeta Cloth",
                 "mat-2": "Hard Hippogryph Leather",
                 "mat-3": "Silk Thread",
@@ -982,7 +982,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Vanya Crakows",
+                name: "Vanya Crakows",
                 "mat-1": "Vanya Silk Crakow Lining",
                 "mat-2": "Silk Thread",
                 "mat-3": "Rose Gold Nugget",
@@ -994,7 +994,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Spring Straw Hat",
+                name: "Spring Straw Hat",
                 "mat-1": "Halone Gerbana",
                 "mat-2": "Straw",
                 "mat-3": "Vanya Silk",
@@ -1006,7 +1006,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cloche",
+                name: "Cloche",
                 "mat-1": "Nymeia Lily",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -1018,7 +1018,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Spring Dress",
+                name: "Spring Dress",
                 "mat-1": "2 Dress Material",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -1030,7 +1030,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Coronal Wristband",
+                name: "Coronal Wristband",
                 "mat-1": "Azeyma Rose",
                 "mat-2": "Vanya Silk",
                 "mat-3": "X",
@@ -1042,7 +1042,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Spring Skirt",
+                name: "Spring Skirt",
                 "mat-1": "2 Dress Material",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -1054,7 +1054,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Plain Long Skirt",
+                name: "Plain Long Skirt",
                 "mat-1": "Dress Material",
                 "mat-2": "Vanya Silk",
                 "mat-3": "Silk Thread",
@@ -1066,7 +1066,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Spring Dress Shoes",
+                name: "Spring Dress Shoes",
                 "mat-1": "Dress Material",
                 "mat-2": "Hard Hippogryph Leather",
                 "mat-3": "Silk Thread",
@@ -1078,7 +1078,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Plush Cushion",
+                name: "Plush Cushion",
                 "mat-1": "Glazenut",
                 "mat-2": "Jute Yarn",
                 "mat-3": "Undyed Cotton Cloth",
@@ -1090,7 +1090,7 @@ export const WeaverLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Nana Bear",
+                name: "Nana Bear",
                 "mat-1": "Arachne Web",
                 "mat-2": "Cashmere Cloth",
                 "mat-3": "3 Apkallu Down",

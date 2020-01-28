@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const BlueMageQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_Magic_Job_Blue_Mage = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.blue-mage`;
 
     return {

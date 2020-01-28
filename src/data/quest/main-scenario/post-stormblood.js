@@ -2,7 +2,7 @@ import { QuestColumnConfig } from "../columnConfigs";
 
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
-export const PostStormbloodQuests = function(parentStorageKey) {
+export const Quest_Main_Scenario_Post_Stormblood = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.post-stormblood`;
 
     return {

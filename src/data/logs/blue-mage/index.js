@@ -8,10 +8,14 @@ export const BlueMage = function(parentStorageKey) {
     return {
         name: "Blue Mage",
         storageKey,
-        subGroups: [
-            BlueMageSpellbook(storageKey),
-            TheMaskedCarnivale(storageKey),
-            BlueMageLog(storageKey),
-        ]
+        groupKeys: [
+            "Spellbook",
+            "TheMaskedCarnivale",
+            "Log",
+        ],
+        // Groups
+        Spellbook: BlueMageSpellbook(storageKey),
+        TheMaskedCarnivale: TheMaskedCarnivale(storageKey),
+        Log: BlueMageLog(storageKey),
     };
 };

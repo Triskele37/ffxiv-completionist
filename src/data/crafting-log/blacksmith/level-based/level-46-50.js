@@ -10,7 +10,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "46",
-                "item": "Bas-relief Cobalt Saw",
+                name: "Bas-relief Cobalt Saw",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Rivets",
                 "mat-3": "Rosewood Lumber",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "46",
-                "item": "Electrum Head Knife",
+                name: "Electrum Head Knife",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Rosewood Lumber",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Cobalt Raising Hammer",
+                name: "Cobalt Raising Hammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Rosewood Lumber",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Electrum Lapidary Hammer",
+                name: "Electrum Lapidary Hammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Rivets",
                 "mat-3": "Rosewood Lumber",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "47",
-                "item": "Vintage Bill",
+                name: "Vintage Bill",
                 "mat-1": "Notched Bill",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Cobalt Zweihander",
+                name: "Cobalt Zweihander",
                 "mat-1": "3 Cobalt Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Rosewood Lumber",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Cobalt-barreled Musketoon",
+                name: "Cobalt-barreled Musketoon",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Rosewood Lumber",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "48",
-                "item": "Egret Dolabra",
+                name: "Egret Dolabra",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Plate",
                 "mat-3": "Rosewood Lumber",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Winglet",
+                name: "Cobalt Winglet",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Horn Glue",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Spiked Cobalt Labrys",
+                name: "Spiked Cobalt Labrys",
                 "mat-1": "3 Cobalt Ingot",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "Rosewood Lumber",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Claws",
+                name: "Cobalt Claws",
                 "mat-1": "Cobalt Plate",
                 "mat-2": "Cobalt Ingot",
                 "mat-3": "Mahogany Lumber",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Cobalt Baselards",
+                name: "Cobalt Baselards",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "49",
-                "item": "Horned Hatchet",
+                name: "Horned Hatchet",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Boar Leather",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Nugget",
+                name: "Darksteel Nugget",
                 "mat-1": "3 Darksteel Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Darksteel Rivets",
+                name: "Darksteel Rivets",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Aeolian Scimitar",
+                name: "Aeolian Scimitar",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Blunt Aeolian Scimitar",
                 "mat-3": "Basilisk Whetstone",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Barbarian's Bardiche",
+                name: "Barbarian's Bardiche",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Bloody Bardiche Head",
                 "mat-3": "Basilisk Whetstone",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Claw Hammer",
+                name: "Militia Claw Hammer",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Shark Oil",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia File",
+                name: "Militia File",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Pliers",
+                name: "Militia Pliers",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Darksteel Rivets",
                 "mat-3": "Shark Oil",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Awl",
+                name: "Militia Awl",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Shark Oil",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Mortar",
+                name: "Militia Mortar",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Culinary Knife",
+                name: "Militia Culinary Knife",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Sledgehammer",
+                name: "Militia Sledgehammer",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Horn Glue",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★",
-                "item": "Militia Scythe",
+                name: "Militia Scythe",
                 "mat-1": "Darksteel Nugget",
                 "mat-2": "Spruce Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel Ingot",
+                name: "Darksteel Ingot",
                 "mat-1": "2 Darksteel Nugget",
                 "mat-2": "9 Coke",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Avenger Grips",
+                name: "Avenger Grips",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Rose Gold Nugget",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Obelisk Head",
+                name: "Obelisk Head",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Rose Gold Nugget",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Mailbreaker Blade",
+                name: "Mailbreaker Blade",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Rose Gold Nugget",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Rampager Head",
+                name: "Rampager Head",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Rose Gold Nugget",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Misericorde Blades",
+                name: "Misericorde Blades",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "Rose Gold Nugget",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Mailbreaker",
+                name: "Mailbreaker",
                 "mat-1": "Mailbreaker Blade",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Rampager",
+                name: "Rampager",
                 "mat-1": "Rampager Head",
                 "mat-2": "2 Darksteel Plate",
                 "mat-3": "Spruce Lumber",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Subduer",
+                name: "Subduer",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "3 Darksteel Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Obelisk",
+                name: "Obelisk",
                 "mat-1": "Obelisk Head",
                 "mat-2": "3 Darksteel Nugget",
                 "mat-3": "Spruce Lumber",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Avengers",
+                name: "Avengers",
                 "mat-1": "Avenger Grips",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Misericordes",
+                name: "Misericordes",
                 "mat-1": "Misericorde Blades",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Darksteel-barreled Blunderbuss",
+                name: "Darksteel-barreled Blunderbuss",
                 "mat-1": "Darksteel Ingot",
                 "mat-2": "2 Darksteel Nugget",
                 "mat-3": "Rose Gold Nugget",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_46_50 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★★",
-                "item": "Model Magitek Bit",
+                name: "Model Magitek Bit",
                 "mat-1": "Wootz Ingot",
                 "mat-2": "Garlean Steel Joint",
                 "mat-3": "Garlean Steel Plate",

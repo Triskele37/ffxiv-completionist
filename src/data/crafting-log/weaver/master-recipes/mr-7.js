@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★★",
-                "item": "Ethereal Silk",
+                name: "Ethereal Silk",
                 "mat-1": "4 Ethereal Cocoon",
                 "mat-2": "2 Multifaceted Cotton Cloth",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Turban of Scouting",
+                name: "Facet Turban of Scouting",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Turban of Aiming",
+                name: "Facet Turban of Aiming",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Hat of Casting",
+                name: "Facet Hat of Casting",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Hat of Healing",
+                name: "Facet Hat of Healing",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Hat of Crafting",
+                name: "Facet Hat of Crafting",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Dolman of Scouting",
+                name: "Facet Dolman of Scouting",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Prismatic Ingot",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Tabard of Aiming",
+                name: "Facet Tabard of Aiming",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Prismatic Ingot",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Coat of Casting",
+                name: "Facet Coat of Casting",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Prismatic Ingot",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Coat of Healing",
+                name: "Facet Coat of Healing",
                 "mat-1": "3 Ethereal Silk",
                 "mat-2": "Chalicotherium Leather",
                 "mat-3": "Zonure Leather",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Coat of Crafting",
+                name: "Facet Coat of Crafting",
                 "mat-1": "4 Pliable Glass Fiber",
                 "mat-2": "3 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Coat of Gathering",
+                name: "Facet Coat of Gathering",
                 "mat-1": "4 Pliable Glass Fiber",
                 "mat-2": "3 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Urban Coat",
+                name: "Urban Coat",
                 "mat-1": "3 Shell Leather",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "3 Halgai Mane",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Rebel Coat",
+                name: "Rebel Coat",
                 "mat-1": "3 Shell Leather",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "2 Manzasiri Hair",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Halfgloves of Aiming",
+                name: "Facet Halfgloves of Aiming",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Deepgold Nugget",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Dress Gloves of Healing",
+                name: "Facet Dress Gloves of Healing",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "Prismatic Ingot",
                 "mat-3": "Triplite",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Fingerless Gloves of Gathering",
+                name: "Facet Fingerless Gloves of Gathering",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gaskins of Striking",
+                name: "Facet Gaskins of Striking",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -226,7 +226,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Brais of Aiming",
+                name: "Facet Brais of Aiming",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -238,7 +238,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Bottoms of Casting",
+                name: "Facet Bottoms of Casting",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Atrociraptor Leather",
@@ -250,7 +250,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Trousers of Healing",
+                name: "Facet Trousers of Healing",
                 "mat-1": "2 Ethereal Silk",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Zonure Leather",
@@ -262,7 +262,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Trousers of Crafting",
+                name: "Facet Trousers of Crafting",
                 "mat-1": "4 Pliable Glass Fiber",
                 "mat-2": "3 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",
@@ -274,7 +274,7 @@ export const Weaver_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Bottoms of Gathering",
+                name: "Facet Bottoms of Gathering",
                 "mat-1": "4 Pliable Glass Fiber",
                 "mat-2": "3 Ethereal Silk",
                 "mat-3": "1 Sea Swallow Leather",

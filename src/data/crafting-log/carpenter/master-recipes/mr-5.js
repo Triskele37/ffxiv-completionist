@@ -10,7 +10,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "70★",
-                "item": "Fool's Portal",
+                name: "Fool's Portal",
                 "mat-1": "3 Torreya Lumber",
                 "mat-2": "3 Crystal Glass",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Imitation Square Window",
+                name: "Imitation Square Window",
                 "mat-1": "3 Torreya Lumber",
                 "mat-2": "3 Steel Joint Plate",
                 "mat-3": "3 Clear Glass Lens",
@@ -34,7 +34,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Lumber",
+                name: "Torreya Lumber",
                 "mat-1": "4 Torreya Log",
                 "mat-2": "2 Scarlet Urushi",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Chromite Spear",
+                name: "Chromite Spear",
                 "mat-1": "2 Chromite Ingot",
                 "mat-2": "2 Torreya Lumber",
                 "mat-3": "Molybdenum Ingot",
@@ -58,7 +58,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Longbow",
+                name: "Torreya Longbow",
                 "mat-1": "2 Torreya Lumber",
                 "mat-2": "2 Chromite Ingot",
                 "mat-3": "Gazelle Leather",
@@ -70,7 +70,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Cane",
+                name: "Torreya Cane",
                 "mat-1": "3 Torreya Lumber",
                 "mat-2": "Palladium Ingot",
                 "mat-3": "Durium Ingot",
@@ -82,7 +82,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Ala Mhigan Fishing Rod",
+                name: "Ala Mhigan Fishing Rod",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "3 Snailfish Oil",
                 "mat-3": "Gazelle Leather",
@@ -94,7 +94,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Choker of Fending",
+                name: "Torreya Choker of Fending",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -106,7 +106,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Choker of Slaying",
+                name: "Torreya Choker of Slaying",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -118,7 +118,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Choker of Aiming",
+                name: "Torreya Choker of Aiming",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -130,7 +130,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Choker of Casting",
+                name: "Torreya Choker of Casting",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -142,7 +142,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Choker of Healing",
+                name: "Torreya Choker of Healing",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -154,7 +154,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Bracelet of Fending",
+                name: "Torreya Bracelet of Fending",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -166,7 +166,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Bracelet of Slaying",
+                name: "Torreya Bracelet of Slaying",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -178,7 +178,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Bracelet of Aiming",
+                name: "Torreya Bracelet of Aiming",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -190,7 +190,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Bracelet of Casting",
+                name: "Torreya Bracelet of Casting",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",
@@ -202,7 +202,7 @@ export const Carpenter_MasterRecipe_5 = function(parentStorageKey) {
             },
             {
                 "level": "70★★",
-                "item": "Torreya Bracelet of Healing",
+                name: "Torreya Bracelet of Healing",
                 "mat-1": "Torreya Lumber",
                 "mat-2": "True Griffin Leather",
                 "mat-3": "Palladium Nugget",

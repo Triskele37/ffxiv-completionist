@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheRakTikaGreatwood = function(parentStorageKey) {
+export const Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-rak-tika-greatwood`;
 
     return {

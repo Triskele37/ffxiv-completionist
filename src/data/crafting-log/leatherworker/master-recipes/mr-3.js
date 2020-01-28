@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "55",
-                "item": "Company Hat",
+                name: "Company Hat",
                 "mat-1": "2 Dusk Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Armguards of Maiming",
+                name: "Serpentskin Armguards of Maiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Aurum Regis Nugget",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Bracers of Striking",
+                name: "Serpentskin Bracers of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Bracers of Scouting",
+                name: "Serpentskin Bracers of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Bracers of Aiming",
+                name: "Serpentskin Bracers of Aiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Gloves of Casting",
+                name: "Serpentskin Gloves of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Gloves of Healing",
+                name: "Serpentskin Gloves of Healing",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Halfgloves of Crafting",
+                name: "Serpentskin Halfgloves of Crafting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Gloves",
+                name: "Serpentskin Gloves",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Voyager's Belt of Maiming",
+                name: "Serpentskin Voyager's Belt of Maiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Hunting Belt of Striking",
+                name: "Serpentskin Hunting Belt of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Hunting Belt of Scouting",
+                name: "Serpentskin Hunting Belt of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Satchel Belt of Healing",
+                name: "Serpentskin Satchel Belt of Healing",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Grade 1 Mind Dissolvent",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Helm of Maiming",
+                name: "Serpentskin Helm of Maiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Bush Hat",
+                name: "Serpentskin Bush Hat",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Hardsilver Ingot",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Survival Hat",
+                name: "Survival Hat",
                 "mat-1": "2 Pellitory",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Vest",
+                name: "Serpentskin Vest",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Hose of Maiming",
+                name: "Serpentskin Hose of Maiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Brais of Striking",
+                name: "Serpentskin Brais of Striking",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Brais of Scouting",
+                name: "Serpentskin Brais of Scouting",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Brais of Aiming",
+                name: "Serpentskin Brais of Aiming",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Tights of Casting",
+                name: "Serpentskin Tights of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -274,7 +274,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Thighboots of Striking",
+                name: "Serpentskin Thighboots of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Rubber",
@@ -286,7 +286,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Thighboots of Scouting",
+                name: "Serpentskin Thighboots of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Rubber",
@@ -298,7 +298,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Thighboots of Aiming",
+                name: "Serpentskin Thighboots of Aiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Rubber",
@@ -310,7 +310,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Bootlets of Casting",
+                name: "Serpentskin Bootlets of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -322,7 +322,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Shoes",
+                name: "Serpentskin Shoes",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -334,7 +334,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Serpentskin Fringe Boots",
+                name: "Serpentskin Fringe Boots",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Dragon Leather",
                 "mat-3": "Crawler Silk",
@@ -346,7 +346,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60",
-                "item": "Survival Boots",
+                name: "Survival Boots",
                 "mat-1": "Pellitory",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "2 Ramie Thread",
@@ -358,7 +358,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Pterodactyl Leather",
+                name: "Pterodactyl Leather",
                 "mat-1": "Pterodactyl",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Cloche",
+                name: "High House Cloche",
                 "mat-1": "Dinosaur Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Chocobo Feather",
@@ -382,7 +382,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Coat of Striking",
+                name: "Chivalric Coat of Striking",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Aurum Regis Nugget",
@@ -394,7 +394,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Coat of Scouting",
+                name: "Chivalric Coat of Scouting",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Aurum Regis Nugget",
@@ -406,7 +406,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Chivalric Battledress of Aiming",
+                name: "Chivalric Battledress of Aiming",
                 "mat-1": "3 Amphipter Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Aurum Regis Nugget",
@@ -418,7 +418,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Bolero",
+                name: "Thavnairian Bolero",
                 "mat-1": "2 Thavnairian Leather",
                 "mat-2": "Thavnairian Silk",
                 "mat-3": "Crawler Silk",
@@ -430,7 +430,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Gloves",
+                name: "Thavnairian Gloves",
                 "mat-1": "2 Thavnairian Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -442,7 +442,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Dinosaur Leather Gloves",
+                name: "Dinosaur Leather Gloves",
                 "mat-1": "Dinosaur Leather",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Crawler Silk",
@@ -454,7 +454,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Tights",
+                name: "Thavnairian Tights",
                 "mat-1": "Thavnairian Leather",
                 "mat-2": "Thavnairian Silk",
                 "mat-3": "Crawler Silk",
@@ -466,7 +466,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Falconer's Bottoms",
+                name: "Falconer's Bottoms",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Falconer's Hemp",
                 "mat-3": "Crawler Silk",
@@ -478,7 +478,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Babouches",
+                name: "Thavnairian Babouches",
                 "mat-1": "2 Thavnairian Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -490,7 +490,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Thavnairian Sandals",
+                name: "Thavnairian Sandals",
                 "mat-1": "2 Thavnairian Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -502,7 +502,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Boots",
+                name: "High House Boots",
                 "mat-1": "Dinosaur Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Rubber",
@@ -514,7 +514,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "High House Halfboots",
+                name: "High House Halfboots",
                 "mat-1": "Dinosaur Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Rubber",
@@ -526,7 +526,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Falconer's Boots",
+                name: "Falconer's Boots",
                 "mat-1": "Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Rubber",
@@ -538,7 +538,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Dinosaur Leather Shoes",
+                name: "Dinosaur Leather Shoes",
                 "mat-1": "Dinosaur Leather",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "2 Ramie Thread",
@@ -550,7 +550,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Fur-lined Saurian Boots",
+                name: "Fur-lined Saurian Boots",
                 "mat-1": "Saurian Leather",
                 "mat-2": "Wool Top",
                 "mat-3": "Bearskin",
@@ -562,7 +562,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Pteroskin Shoes",
+                name: "Pteroskin Shoes",
                 "mat-1": "Flannel",
                 "mat-2": "2 Pterodactyl Leather",
                 "mat-3": "Garlean Rubber",
@@ -574,7 +574,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Pterodactyl Strap",
+                name: "Pterodactyl Strap",
                 "mat-1": "Pterodactyl Leather",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "Dawnborne Aethersand",
@@ -586,7 +586,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Leather Bags",
+                name: "Leather Bags",
                 "mat-1": "3 Pterodactyl Leather",
                 "mat-2": "Darksteel Nugget",
                 "mat-3": "Silk Thread",
@@ -598,7 +598,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Cozy Leather Shoes",
+                name: "Cozy Leather Shoes",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Hippogryph Leather",
                 "mat-3": "Silk Thread",
@@ -610,7 +610,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★",
-                "item": "Bearskin Rug",
+                name: "Bearskin Rug",
                 "mat-1": "3 Bearskin",
                 "mat-2": "2 Fine Alumen",
                 "mat-3": "Animal Fat",
@@ -622,7 +622,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather",
+                name: "Griffin Leather",
                 "mat-1": "2 Griffin Hide",
                 "mat-2": "Red Alumen",
                 "mat-3": "Wattle Bark",
@@ -634,7 +634,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hidemaster's Cap",
+                name: "Hidemaster's Cap",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Larimar",
@@ -646,7 +646,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Tricorne of Striking",
+                name: "Griffin Leather Tricorne of Striking",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "Grade 2 Strength Dissolvent",
@@ -658,7 +658,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Tricorne of Scouting",
+                name: "Griffin Leather Tricorne of Scouting",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Crawler Silk",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -670,7 +670,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Blinder of Aiming",
+                name: "Griffin Leather Blinder of Aiming",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Aurum Regis Nugget",
@@ -682,7 +682,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Beret of Aiming",
+                name: "Sky Pirate's Beret of Aiming",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Hardsilver Ingot",
@@ -694,7 +694,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hammermaster's Waist Apron",
+                name: "Hammermaster's Waist Apron",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Crawler Silk",
@@ -706,7 +706,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hidemaster's Apron",
+                name: "Hidemaster's Apron",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Crawler Silk",
@@ -718,7 +718,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Coat of Striking",
+                name: "Griffin Leather Coat of Striking",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -730,7 +730,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Jacket of Striking",
+                name: "Sky Pirate's Jacket of Striking",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Rainbow Cloth",
@@ -742,7 +742,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Coat of Scouting",
+                name: "Griffin Leather Coat of Scouting",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -754,7 +754,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Jacket of Scouting",
+                name: "Sky Pirate's Jacket of Scouting",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Cloud Cloth",
                 "mat-3": "Rainbow Cloth",
@@ -766,7 +766,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Longcoat of Aiming",
+                name: "Griffin Leather Longcoat of Aiming",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -778,7 +778,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Millmaster's Gloves",
+                name: "Millmaster's Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "Crawler Silk",
@@ -790,7 +790,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Forgemaster's Gloves",
+                name: "Forgemaster's Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -802,7 +802,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hammermaster's Work Gloves",
+                name: "Hammermaster's Work Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Archaeornis Leather",
                 "mat-3": "Crawler Silk",
@@ -814,7 +814,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hidemaster's Gloves",
+                name: "Hidemaster's Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "2 Larimar",
@@ -826,7 +826,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Boltmaster's Gloves",
+                name: "Boltmaster's Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -838,7 +838,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Gloves",
+                name: "Galleymaster's Gloves",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -850,7 +850,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Bracers of Striking",
+                name: "Griffin Leather Bracers of Striking",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Grade 2 Strength Dissolvent",
@@ -862,7 +862,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gloves of Striking",
+                name: "Sky Pirate's Gloves of Striking",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Titanium Nugget",
@@ -874,7 +874,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Bracers of Scouting",
+                name: "Griffin Leather Bracers of Scouting",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -886,7 +886,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gloves of Scouting",
+                name: "Sky Pirate's Gloves of Scouting",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Titanium Nugget",
@@ -898,7 +898,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Gloves of Aiming",
+                name: "Griffin Leather Gloves of Aiming",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Archaeornis Leather",
@@ -910,7 +910,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gloves of Aiming",
+                name: "Sky Pirate's Gloves of Aiming",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -922,7 +922,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gloves of Casting",
+                name: "Sky Pirate's Gloves of Casting",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -934,7 +934,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Gloves of Healing",
+                name: "Sky Pirate's Gloves of Healing",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -946,7 +946,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Cuffs",
+                name: "Griffin Leather Cuffs",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Aurum Regis Nugget",
@@ -958,7 +958,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Twinbelt of Fending",
+                name: "Griffin Leather Twinbelt of Fending",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Grade 2 Vitality Dissolvent",
@@ -970,7 +970,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Twinbelt of Maiming",
+                name: "Griffin Leather Twinbelt of Maiming",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Grade 2 Strength Dissolvent",
@@ -982,7 +982,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Corset of Casting",
+                name: "Griffin Leather Corset of Casting",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 2 Intelligence Dissolvent",
@@ -994,7 +994,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Corset of Healing",
+                name: "Griffin Leather Corset of Healing",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Grade 2 Mind Dissolvent",
@@ -1006,7 +1006,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Tool Belt",
+                name: "Griffin Leather Tool Belt",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Crawler Silk",
@@ -1018,7 +1018,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Survival Belt",
+                name: "Griffin Leather Survival Belt",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Chimerical Felt",
                 "mat-3": "Crawler Silk",
@@ -1030,7 +1030,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Skirt of Fending",
+                name: "Griffin Leather Skirt of Fending",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Crawler Silk",
@@ -1042,7 +1042,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Skirt of Maiming",
+                name: "Griffin Leather Skirt of Maiming",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Crawler Silk",
@@ -1054,7 +1054,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Brais of Striking",
+                name: "Griffin Leather Brais of Striking",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Aurum Regis Nugget",
@@ -1066,7 +1066,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Brais of Scouting",
+                name: "Griffin Leather Brais of Scouting",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "2 Aurum Regis Nugget",
@@ -1078,7 +1078,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Millmaster's Workboots",
+                name: "Millmaster's Workboots",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Astral Silk",
                 "mat-3": "Crawler Silk",
@@ -1090,7 +1090,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Forgemaster's Sandals",
+                name: "Forgemaster's Sandals",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Hardsilver Ingot",
@@ -1102,7 +1102,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hammermaster's Workboots",
+                name: "Hammermaster's Workboots",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Adamantite Nugget",
                 "mat-3": "Adamantite Rivets",
@@ -1114,7 +1114,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Gemmaster's Sandals",
+                name: "Gemmaster's Sandals",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Larimar",
                 "mat-3": "Hardsilver Ingot",
@@ -1126,7 +1126,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Hidemaster's Workboots",
+                name: "Hidemaster's Workboots",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "2 Larimar",
@@ -1138,7 +1138,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Boltmaster's Top Boots",
+                name: "Boltmaster's Top Boots",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Garlean Rubber",
@@ -1150,7 +1150,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Cauldronmaster's Jackboots",
+                name: "Cauldronmaster's Jackboots",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -1162,7 +1162,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galleymaster's Top Boots",
+                name: "Galleymaster's Top Boots",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Aurum Regis Nugget",
@@ -1174,7 +1174,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Boots of Fending",
+                name: "Sky Pirate's Boots of Fending",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Titanium Nugget",
@@ -1186,7 +1186,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Boots of Maiming",
+                name: "Sky Pirate's Boots of Maiming",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Titanium Nugget",
@@ -1198,7 +1198,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Boots of Striking",
+                name: "Griffin Leather Boots of Striking",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Grade 2 Strength Dissolvent",
@@ -1210,7 +1210,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Boots of Striking",
+                name: "Sky Pirate's Boots of Striking",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Titanium Nugget",
@@ -1222,7 +1222,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Boots of Scouting",
+                name: "Griffin Leather Boots of Scouting",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Adamantite Nugget",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -1234,7 +1234,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Boots of Scouting",
+                name: "Sky Pirate's Boots of Scouting",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Titanium Nugget",
@@ -1246,7 +1246,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Thighboots of Aiming",
+                name: "Griffin Leather Thighboots of Aiming",
                 "mat-1": "3 Griffin Leather",
                 "mat-2": "2 Chimerical Felt",
                 "mat-3": "Grade 2 Dexterity Dissolvent",
@@ -1258,7 +1258,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Boots of Aiming",
+                name: "Sky Pirate's Boots of Aiming",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -1270,7 +1270,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Boots of Casting",
+                name: "Griffin Leather Boots of Casting",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Astral Birch Lumber",
                 "mat-3": "Chimerical Felt",
@@ -1282,7 +1282,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Shoes of Casting",
+                name: "Sky Pirate's Shoes of Casting",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -1294,7 +1294,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Boots of Healing",
+                name: "Griffin Leather Boots of Healing",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Astral Birch Lumber",
                 "mat-3": "Chimerical Felt",
@@ -1306,7 +1306,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sky Pirate's Shoes of Healing",
+                name: "Sky Pirate's Shoes of Healing",
                 "mat-1": "2 Pterodactyl Leather",
                 "mat-2": "Amphipter Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -1318,7 +1318,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Choker",
+                name: "Griffin Leather Choker",
                 "mat-1": "Griffin Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Crawler Silk",
@@ -1330,7 +1330,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Wristbands",
+                name: "Griffin Leather Wristbands",
                 "mat-1": "2 Griffin Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Star Sapphire",
@@ -1342,7 +1342,7 @@ export const Leatherworker_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Griffin Leather Ring",
+                name: "Griffin Leather Ring",
                 "mat-1": "Griffin Leather",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Leafborne Aethersand",

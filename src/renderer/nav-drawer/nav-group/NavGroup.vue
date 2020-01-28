@@ -14,13 +14,13 @@
             {{group.name}}
         </div>
 
-        <template v-if="group.subGroups">
+        <template v-if="group.groupKeys">
             <nav-group
-                v-for="subGroup in group.subGroups"
-                :key="subGroup.name"
+                v-for="groupKey in group.groupKeys"
+                :key="group[groupKey].name"
                 :show="showChildren"
                 :degree="degree + 1"
-                :group="subGroup"
+                :group="group[groupKey]"
             />
         </template>
     </div>

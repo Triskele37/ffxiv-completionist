@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheFringes = function(parentStorageKey) {
+export const Quest_Sidequests_Gyr_Abanian_The_Fringes = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-fringes`;
 
     return {

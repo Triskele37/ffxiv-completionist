@@ -7,9 +7,12 @@ export const ArmorerHousingRecipe = function(parentStorageKey) {
     return {
         name: "Housing Recipes",
         storageKey,
-        subGroups: [
-            Armorer_Housing_1(storageKey),
-            Armorer_Housing_2(storageKey),
-        ]
+        groupKeys: [
+            "Housing_1",
+            "Housing_2",
+        ],
+        // Groups
+        Housing_1: Armorer_Housing_1(storageKey),
+        Housing_2: Armorer_Housing_2(storageKey),
     };
 };

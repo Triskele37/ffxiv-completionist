@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const AlliedBeastTribe = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Allied_Beast_Tribe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.allied-beast-tribe`;
 
     return {

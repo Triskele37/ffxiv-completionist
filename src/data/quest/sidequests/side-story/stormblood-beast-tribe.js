@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const StormbloodBeastTribe = function(parentStorageKey) {
+export const Quest_Sidequests_Side_Story_Stormblood_Beast_Tribe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.stormblood-beast-tribe`;
 
     return {

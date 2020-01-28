@@ -10,7 +10,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Leather",
+                name: "Leather",
                 "mat-1": "Animal Skin",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "1",
-                "item": "Leather Calot",
+                name: "Leather Calot",
                 "mat-1": "Leather",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Leather Wristguards",
+                name: "Leather Wristguards",
                 "mat-1": "Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Leather Duckbills",
+                name: "Leather Duckbills",
                 "mat-1": "Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Leather Shepherd's Belt",
+                name: "Leather Shepherd's Belt",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Merchant's Purse",
+                name: "Merchant's Purse",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Leather Duckbills of Gathering",
+                name: "Leather Duckbills of Gathering",
                 "mat-1": "Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Leather Eyepatch",
+                name: "Leather Eyepatch",
                 "mat-1": "Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "Hempen Yarn",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Fingerless Leather Gloves",
+                name: "Fingerless Leather Gloves",
                 "mat-1": "2 Leather",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Leather Belt",
+                name: "Leather Belt",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Animal Sinew",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Leather Shoes",
+                name: "Leather Shoes",
                 "mat-1": "Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "Rubber",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Leather Culottes",
+                name: "Leather Culottes",
                 "mat-1": "2 Leather",
                 "mat-2": "2 Undyed Hempen Cloth",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Leather Crakows",
+                name: "Leather Crakows",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Animal Sinew",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Altered Thighboots",
+                name: "Altered Thighboots",
                 "mat-1": "Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Animal Sinew",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Leather Choker",
+                name: "Leather Choker",
                 "mat-1": "Leather",
                 "mat-2": "Animal Sinew",
                 "mat-3": "X",

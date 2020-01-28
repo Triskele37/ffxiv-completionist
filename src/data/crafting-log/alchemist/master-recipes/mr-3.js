@@ -10,7 +10,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "Luminous Fiber",
+                name: "Luminous Fiber",
                 "mat-1": "3 Glass Fiber",
                 "mat-2": "Meteorite",
                 "mat-3": "Light-kissed Aethersand",
@@ -22,7 +22,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Tempered Glass",
+                name: "Tempered Glass",
                 "mat-1": "Glass Fiber",
                 "mat-2": "Carbon Fiber",
                 "mat-3": "3 Silex",
@@ -34,7 +34,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Camphor",
+                name: "Camphor",
                 "mat-1": "5 Camphorwood Branch",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Powdered Horn",
+                name: "Powdered Horn",
                 "mat-1": "3 Beastkin Horn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Grimoire",
+                name: "Endless Expanse Grimoire",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -70,7 +70,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Grimoire",
+                name: "Dead Hive Grimoire",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -82,7 +82,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Codex",
+                name: "Endless Expanse Codex",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -94,7 +94,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Codex",
+                name: "Dead Hive Codex",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -106,7 +106,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Solid-brick Interior Wall",
+                name: "Solid-brick Interior Wall",
                 "mat-1": "5 Clinker Bricks",
                 "mat-2": "3 Camphor",
                 "mat-3": "5 Firebricks",
@@ -118,7 +118,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Sephirot Root",
+                name: "Sephirot Root",
                 "mat-1": "Sephirot Sap",
                 "mat-2": "8 Larimar",
                 "mat-3": "3 Growth Formula Zeta",
@@ -130,7 +130,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Wine Glass",
+                name: "Wine Glass",
                 "mat-1": "Tempered Glass",
                 "mat-2": "2 Bomb Ash",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Answers Orchestrion Roll",
+                name: "Answers Orchestrion Roll",
                 "mat-1": "Faded Copy of Answers",
                 "mat-2": "Faded Copy of Rise of the White Raven",
                 "mat-3": "Faded Copy of Thunderer",
@@ -154,7 +154,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Revenge of the Horde Orchestrion Roll",
+                name: "Revenge of the Horde Orchestrion Roll",
                 "mat-1": "Faded Copy of Revenge of the Horde",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -166,7 +166,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Equilibrium Orchestrion Roll",
+                name: "Equilibrium Orchestrion Roll",
                 "mat-1": "Faded Copy of Equilibrium",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -178,7 +178,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Grimoire of the Round",
+                name: "Grimoire of the Round",
                 "mat-1": "3 Eikon Iron Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "3 Platinum Ingot",
@@ -190,7 +190,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Word of the Fiend",
+                name: "Word of the Fiend",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -202,7 +202,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Seeing Horde Grimoire",
+                name: "Seeing Horde Grimoire",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -214,7 +214,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Word of the Goddess",
+                name: "Word of the Goddess",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -226,7 +226,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica Allagan Grimoire of Casting",
+                name: "Replica Allagan Grimoire of Casting",
                 "mat-1": "2 Allagan Catalyst",
                 "mat-2": "2 Allagan Aetherstone - Weaponry",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -238,7 +238,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica High Allagan Grimoire of Casting",
+                name: "Replica High Allagan Grimoire of Casting",
                 "mat-1": "2 Allagan Catalyst",
                 "mat-2": "2 High Allagan Aetherstone - Weaponry",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -250,7 +250,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Codex of the Round",
+                name: "Codex of the Round",
                 "mat-1": "3 Eikon Iron Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "3 Platinum Ingot",
@@ -262,7 +262,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Song of the Fiend",
+                name: "Song of the Fiend",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "Eikon Leather",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -274,7 +274,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Seeing Horde Codex",
+                name: "Seeing Horde Codex",
                 "mat-1": "Treated Camphorwood Lumber",
                 "mat-2": "2 Eikon Leather",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -286,7 +286,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Song of the Goddess",
+                name: "Song of the Goddess",
                 "mat-1": "2 Treated Camphorwood Lumber",
                 "mat-2": "High Mythrite Ingot",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -298,7 +298,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica Allagan Grimoire of Healing",
+                name: "Replica Allagan Grimoire of Healing",
                 "mat-1": "2 Allagan Catalyst",
                 "mat-2": "2 Allagan Aetherstone - Weaponry",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -310,7 +310,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica High Allagan Grimoire of Healing",
+                name: "Replica High Allagan Grimoire of Healing",
                 "mat-1": "2 Allagan Catalyst",
                 "mat-2": "2 High Allagan Aetherstone - Weaponry",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -322,7 +322,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Max-Potion of Strength",
+                name: "Max-Potion of Strength",
                 "mat-1": "2 Duskborne Aethersand",
                 "mat-2": "2 Powdered Merman Horn",
                 "mat-3": "2 Royal Mistletoe",
@@ -334,7 +334,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Max-Potion of Dexterity",
+                name: "Max-Potion of Dexterity",
                 "mat-1": "2 Duskborne Aethersand",
                 "mat-2": "2 Powdered Merman Horn",
                 "mat-3": "2 Royal Mistletoe",
@@ -346,7 +346,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Max-Potion of Vitality",
+                name: "Max-Potion of Vitality",
                 "mat-1": "2 Duskborne Aethersand",
                 "mat-2": "2 Powdered Merman Horn",
                 "mat-3": "2 Royal Mistletoe",
@@ -358,7 +358,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Max-Potion of Intelligence",
+                name: "Max-Potion of Intelligence",
                 "mat-1": "2 Duskborne Aethersand",
                 "mat-2": "2 Powdered Merman Horn",
                 "mat-3": "2 Royal Mistletoe",
@@ -370,7 +370,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Max-Potion of Mind",
+                name: "Max-Potion of Mind",
                 "mat-1": "2 Duskborne Aethersand",
                 "mat-2": "2 Powdered Merman Horn",
                 "mat-3": "2 Royal Mistletoe",
@@ -382,7 +382,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Sephirot Tree",
+                name: "Sephirot Tree",
                 "mat-1": "2 Fiend Sap",
                 "mat-2": "3 Deep-blue Cluster",
                 "mat-3": "5 Growth Formula Zeta",
@@ -394,7 +394,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Infinity Orchestrion Roll",
+                name: "Infinity Orchestrion Roll",
                 "mat-1": "Faded Copy of Infinity",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Aurum Regis Ink",
@@ -406,7 +406,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Grade 3 Strength Dissolvent",
+                name: "Grade 3 Strength Dissolvent",
                 "mat-1": "2 Goblinol",
                 "mat-2": "3 Zeolite Ore",
                 "mat-3": "Morel",
@@ -418,7 +418,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Grade 3 Dexterity Dissolvent",
+                name: "Grade 3 Dexterity Dissolvent",
                 "mat-1": "2 Goblinol",
                 "mat-2": "3 Zeolite Ore",
                 "mat-3": "Gaelicatnip",
@@ -430,7 +430,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Grade 3 Vitality Dissolvent",
+                name: "Grade 3 Vitality Dissolvent",
                 "mat-1": "2 Goblinol",
                 "mat-2": "3 Zeolite Ore",
                 "mat-3": "Griffin Talon",
@@ -442,7 +442,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Grade 3 Intelligence Dissolvent",
+                name: "Grade 3 Intelligence Dissolvent",
                 "mat-1": "2 Goblinol",
                 "mat-2": "3 Zeolite Ore",
                 "mat-3": "Chysahl Green",
@@ -454,7 +454,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Grade 3 Mind Dissolvent",
+                name: "Grade 3 Mind Dissolvent",
                 "mat-1": "2 Goblinol",
                 "mat-2": "3 Zeolite Ore",
                 "mat-3": "Gloaming Coral",
@@ -466,7 +466,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Grimoire",
+                name: "Hemiskin Grimoire",
                 "mat-1": "3 Hemicyon Leather",
                 "mat-2": "2 Scintillant Ingot",
                 "mat-3": "Iolite",
@@ -478,7 +478,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Hemiskin Codex",
+                name: "Hemiskin Codex",
                 "mat-1": "3 Hemicyon Leather",
                 "mat-2": "2 Scintillant Ingot",
                 "mat-3": "Sapphire",
@@ -490,7 +490,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Supramax-Potion of Strength",
+                name: "Supramax-Potion of Strength",
                 "mat-1": "2 Powdered Merman Horn",
                 "mat-2": "3 Noble Sage",
                 "mat-3": "3 Rue",
@@ -502,7 +502,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Supramax-Potion of Dexterity",
+                name: "Supramax-Potion of Dexterity",
                 "mat-1": "2 Powdered Merman Horn",
                 "mat-2": "3 Noble Sage",
                 "mat-3": "3 Coneflower",
@@ -514,7 +514,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Supramax-Potion of Vitality",
+                name: "Supramax-Potion of Vitality",
                 "mat-1": "2 Powdered Merman Horn",
                 "mat-2": "3 Noble Sage",
                 "mat-3": "3 Cow Bitter",
@@ -526,7 +526,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Supramax-Potion of Intelligence",
+                name: "Supramax-Potion of Intelligence",
                 "mat-1": "2 Powdered Merman Horn",
                 "mat-2": "3 Noble Sage",
                 "mat-3": "3 Coriander",
@@ -538,7 +538,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Supramax-Potion of Mind",
+                name: "Supramax-Potion of Mind",
                 "mat-1": "2 Powdered Merman Horn",
                 "mat-2": "3 Noble Sage",
                 "mat-3": "3 Dandelion",
@@ -550,7 +550,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Revelation Orchestrion Roll",
+                name: "Revelation Orchestrion Roll",
                 "mat-1": "Faded Copy of Revelation",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",
@@ -562,7 +562,7 @@ export const Alchemist_MasterRecipe_3 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Beauty's Wicked Wiles Orchestrion Roll",
+                name: "Beauty's Wicked Wiles Orchestrion Roll",
                 "mat-1": "Faded Copy of Beauty's Wicked Wiles",
                 "mat-2": "Blank Grade 3 Orchestrion Roll",
                 "mat-3": "Enchanted Palladium Ink",

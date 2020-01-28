@@ -10,7 +10,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Yarzonshell Harpoon",
+                name: "Yarzonshell Harpoon",
                 "mat-1": "Walnut Lumber",
                 "mat-2": "Wildfowl Feather",
                 "mat-3": "Yellow Yarzon Leg",
@@ -22,7 +22,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Mythril Cavalry Bow",
+                name: "Mythril Cavalry Bow",
                 "mat-1": "2 Oak Lumber",
                 "mat-2": "Oak Branch",
                 "mat-3": "Mythril Ingot",
@@ -34,7 +34,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Pastoral Oak Cane",
+                name: "Pastoral Oak Cane",
                 "mat-1": "Oak Lumber",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Brass Ingot",
@@ -46,7 +46,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Horn Fishing Rod",
+                name: "Horn Fishing Rod",
                 "mat-1": "Walnut Fishing Rod",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Fish Oil",
@@ -58,7 +58,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Lance",
+                name: "Mythril Lance",
                 "mat-1": "Oak Lumber",
                 "mat-2": "Boar Leather",
                 "mat-3": "Mythril Ingot",
@@ -70,7 +70,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Vintage Cane",
+                name: "Vintage Cane",
                 "mat-1": "Splintered Cane",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mahogany Lumber",
+                name: "Mahogany Lumber",
                 "mat-1": "3 Mahogany Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Oak Pattens",
+                name: "Oak Pattens",
                 "mat-1": "Oak Lumber",
                 "mat-2": "Undyed Woolen Cloth",
                 "mat-3": "Boar Leather",
@@ -106,7 +106,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Oak Composite Bow",
+                name: "Oak Composite Bow",
                 "mat-1": "3 Oak Lumber",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Aldgoat Horn",
@@ -118,7 +118,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mahogany Spinning Wheel",
+                name: "Mahogany Spinning Wheel",
                 "mat-1": "2 Mahogany Lumber",
                 "mat-2": "2 Mythril Rivets",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const CarpenterLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mahogany Fishing Rod",
+                name: "Mahogany Fishing Rod",
                 "mat-1": "Mahogany Lumber",
                 "mat-2": "Oak Branch",
                 "mat-3": "Mythril Ingot",

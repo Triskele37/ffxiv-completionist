@@ -11,11 +11,16 @@ export const GatheringAchievements = function(parentStorageKey) {
     return {
         name: 'Gathering',
     	storageKey,
-        subGroups: [
-            GatheringGatheringAchievements(storageKey),
-            BotanistGatheringAchievements(storageKey),
-            FisherGatheringAchievements(storageKey),
-            MinerGatheringAchievements(storageKey),
-    	],
+        groupKeys: [
+            "Gathering",
+            "Botanist",
+            "Fisher",
+            "Miner"
+        ],
+        // Groups
+        Gathering: GatheringGatheringAchievements(storageKey),
+        Botanist: BotanistGatheringAchievements(storageKey),
+        Fisher: FisherGatheringAchievements(storageKey),
+        Miner: MinerGatheringAchievements(storageKey),
     };
 };

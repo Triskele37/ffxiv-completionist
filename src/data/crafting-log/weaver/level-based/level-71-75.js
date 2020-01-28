@@ -10,7 +10,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Bright Linen Cloth",
+                name: "Bright Linen Cloth",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Bright Linen Yarn",
+                name: "Bright Linen Yarn",
                 "mat-1": "4 Bright Flax",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Hood of Striking",
+                name: "Brightlinen Hood of Striking",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -46,7 +46,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Hood of Aiming",
+                name: "Brightlinen Hood of Aiming",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -58,7 +58,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Cap of Casting",
+                name: "Brightlinen Cap of Casting",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -70,7 +70,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Cap of Healing",
+                name: "Brightlinen Cap of Healing",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -82,7 +82,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Turban of Crafting",
+                name: "Brightlinen Turban of Crafting",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Turban of Gathering",
+                name: "Brightlinen Turban of Gathering",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Stonegold Nugget",
                 "mat-3": " Bright Linen Yarn",
@@ -106,7 +106,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Tabard of Maiming",
+                name: "Brightlinen Tabard of Maiming",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -118,7 +118,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Himation of Striking",
+                name: "Brightlinen Himation of Striking",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -130,7 +130,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Gambison of Scouting",
+                name: "Brightlinen Gambison of Scouting",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -142,7 +142,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Himation of Aiming",
+                name: "Brightlinen Himation of Aiming",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -154,7 +154,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Cyclas of Casting",
+                name: "Brightlinen Cyclas of Casting",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -166,7 +166,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Cyclas of Healing",
+                name: "Brightlinen Cyclas of Healing",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -178,7 +178,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Doublet Vest of Crafting",
+                name: "Brightlinen Doublet Vest of Crafting",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Twinsilk",
@@ -190,7 +190,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Coat of Gathering",
+                name: "Brightlinen Coat of Gathering",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Twinsilk",
@@ -202,7 +202,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Long Gloves of Striking",
+                name: "Brightlinen Long Gloves of Striking",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Rhodonite",
                 "mat-3": " Bloodhempen Yarn",
@@ -214,7 +214,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Long Gloves of Aiming",
+                name: "Brightlinen Long Gloves of Aiming",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Rhodonite",
                 "mat-3": " Bloodhempen Yarn",
@@ -226,7 +226,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Bottoms of Striking",
+                name: "Brightlinen Bottoms of Striking",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Rhodonite",
                 "mat-3": " Bloodhempen Yarn",
@@ -238,7 +238,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Hose of Scouting",
+                name: "Brightlinen Hose of Scouting",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -250,7 +250,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Bottoms of Aiming",
+                name: "Brightlinen Bottoms of Aiming",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Rhodonite",
                 "mat-3": " Bloodhempen Yarn",
@@ -262,7 +262,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Hose of Casting",
+                name: "Brightlinen Hose of Casting",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -274,7 +274,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Hose of Healing",
+                name: "Brightlinen Hose of Healing",
                 "mat-1": "3 Bright Linen Yarn",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bloodhempen Yarn",
@@ -286,7 +286,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Bottoms of Crafting",
+                name: "Brightlinen Bottoms of Crafting",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -298,7 +298,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Brightlinen Bottoms of Gathering",
+                name: "Brightlinen Bottoms of Gathering",
                 "mat-1": "2 Bright Linen Cloth",
                 "mat-2": " Smilodon Leather",
                 "mat-3": " Bright Linen Yarn",
@@ -310,7 +310,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Silk",
+                name: "Iridescent Silk",
                 "mat-1": "3 Iridescent Silk Thread",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Silk Thread",
+                name: "Iridescent Silk Thread",
                 "mat-1": "4 Iridescent Cocoon",
                 "mat-2": " Effervescent Water",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hood of Maiming",
+                name: "Iridescent Hood of Maiming",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": " Iridescent Silk Thread",
                 "mat-3": " Deepgold Ingot",
@@ -346,7 +346,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hat of Striking",
+                name: "Iridescent Hat of Striking",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": "3 Iridescent Silk Thread",
                 "mat-3": " Wildfowl Feather",
@@ -358,7 +358,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hat of Scouting",
+                name: "Iridescent Hat of Scouting",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": "3 Iridescent Silk Thread",
                 "mat-3": " Wildfowl Feather",
@@ -370,7 +370,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hat of Aiming",
+                name: "Iridescent Hat of Aiming",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Wildfowl Feather",
@@ -382,7 +382,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hat of Casting",
+                name: "Iridescent Hat of Casting",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -394,7 +394,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Iridescent Hat of Healing",
+                name: "Iridescent Hat of Healing",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -406,7 +406,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Acton of Striking",
+                name: "Iridescent Acton of Striking",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": "2 Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -418,7 +418,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Acton of Scouting",
+                name: "Iridescent Acton of Scouting",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": "2 Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -430,7 +430,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Acton of Aiming",
+                name: "Iridescent Acton of Aiming",
                 "mat-1": "2 Iridescent Silk",
                 "mat-2": "2 Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -442,7 +442,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Top of Casting",
+                name: "Iridescent Top of Casting",
                 "mat-1": "3 Iridescent Silk  ",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Star Ruby",
@@ -454,7 +454,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Top of Healing",
+                name: "Iridescent Top of Healing",
                 "mat-1": "3 Iridescent Silk  ",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Star Sapphire",
@@ -466,7 +466,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Bottoms of Striking",
+                name: "Iridescent Bottoms of Striking",
                 "mat-1": "3 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -478,7 +478,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Bottoms of Scouting",
+                name: "Iridescent Bottoms of Scouting",
                 "mat-1": "3 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -490,7 +490,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Bottoms of Aiming",
+                name: "Iridescent Bottoms of Aiming",
                 "mat-1": "3 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -502,7 +502,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Bottoms of Casting",
+                name: "Iridescent Bottoms of Casting",
                 "mat-1": "3 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -514,7 +514,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Iridescent Bottoms of Healing",
+                name: "Iridescent Bottoms of Healing",
                 "mat-1": "3 Iridescent Silk",
                 "mat-2": " Green Glider Leather",
                 "mat-3": " Silk Thread",
@@ -526,7 +526,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton",
+                name: "Pixie Cotton",
                 "mat-1": "3 Pixie Floss",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -538,7 +538,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Floss",
+                name: "Pixie Floss",
                 "mat-1": "4 Pixie Floss Boll",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -550,7 +550,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Hat of Striking",
+                name: "Pixie Cotton Hat of Striking",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": "2 Wildfowl Feather",
@@ -562,7 +562,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Hood of Healing",
+                name: "Pixie Cotton Hood of Healing",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Pixie Floss",
@@ -574,7 +574,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Hat of Crafting",
+                name: "Pixie Cotton Hat of Crafting",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Pixie Floss",
@@ -586,7 +586,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Apron of Crafting",
+                name: "Pixie Cotton Apron of Crafting",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Stonegold Nugget",
@@ -598,7 +598,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Sleeves of Striking",
+                name: "Pixie Cotton Sleeves of Striking",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Rose Gold Nugget",
@@ -610,7 +610,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Sleeves of Crafting",
+                name: "Pixie Cotton Sleeves of Crafting",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Manasilver Nugget",
                 "mat-3": " Pixie Floss",
@@ -622,7 +622,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Breeches of Crafting",
+                name: "Pixie Cotton Breeches of Crafting",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Manasilver Nugget",
@@ -634,7 +634,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Pixie Cotton Slops of Gathering",
+                name: "Pixie Cotton Slops of Gathering",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Manasilver Nugget",
@@ -646,7 +646,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Acton of Striking",
+                name: "Pixie Cotton Acton of Striking",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Manasilver Nugget",
@@ -658,7 +658,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Robe of Healing",
+                name: "Pixie Cotton Robe of Healing",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Iridescent Silk",
@@ -670,7 +670,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Sash",
+                name: "Pixie Cotton Sash",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": " Pixie Floss",
                 "mat-3": "X",
@@ -682,7 +682,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Culottes of Striking",
+                name: "Pixie Cotton Culottes of Striking",
                 "mat-1": "3 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Rose Gold Nugget",
@@ -694,7 +694,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Brais of Scouting",
+                name: "Pixie Cotton Brais of Scouting",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": "2 Atrociraptor Leather",
                 "mat-3": " Rose Gold Nugget",
@@ -706,7 +706,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Brais of Aiming",
+                name: "Pixie Cotton Brais of Aiming",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": "2 Atrociraptor Leather",
                 "mat-3": " Rose Gold Nugget",
@@ -718,7 +718,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Slops of Casting",
+                name: "Pixie Cotton Slops of Casting",
                 "mat-1": "3 Pixie Cotton",
                 "mat-2": " Atrociraptor Leather",
                 "mat-3": " Pixie Floss",
@@ -730,7 +730,7 @@ export const WeaverLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Pixie Cotton Slops of Healing",
+                name: "Pixie Cotton Slops of Healing",
                 "mat-1": "2 Pixie Cotton",
                 "mat-2": "2 Atrociraptor Leather",
                 "mat-3": " Pixie Floss",

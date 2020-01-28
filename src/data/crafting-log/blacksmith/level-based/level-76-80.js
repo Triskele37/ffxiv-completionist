@@ -10,7 +10,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Titanbronze Ingot",
+                name: "Titanbronze Ingot",
                 "mat-1": "4 Titancopper Ore",
                 "mat-2": "Titanium Ore",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Kilij",
+                name: "Titanbronze Kilij",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Triplite",
                 "mat-3": "Titanium Nugget",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Battleaxe",
+                name: "Titanbronze Battleaxe",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Triplite",
                 "mat-3": "Amphiptere Leather",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Guillotine",
+                name: "Titanbronze Guillotine",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Triplite",
                 "mat-3": "Amphiptere Leather",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Bayonet",
+                name: "Titanbronze Bayonet",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Lazurite",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Fist",
+                name: "Titanbronze Fist",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Lazurite",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Uchigatana",
+                name: "Titanbronze Uchigatana",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Triplite",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Daggers",
+                name: "Titanbronze Daggers",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Triplite",
                 "mat-3": "Amphiptere Leather",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Musketoon",
+                name: "Titanbronze Musketoon",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Sandteak Lumber",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Titanbronze Chakrams",
+                name: "Titanbronze Chakrams",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "2 Titanbronze Nugget",
                 "mat-3": "Titanium Nugget",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Saw",
+                name: "Titanbronze Saw",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Claw Hammer",
+                name: "Titanbronze Claw Hammer",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Lump Hammer",
+                name: "Titanbronze Lump Hammer",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Zonure Leather",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze File",
+                name: "Titanbronze File",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Ovim Wool",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Ball-pein Hammer",
+                name: "Titanbronze Ball-pein Hammer",
                 "mat-1": "3 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": " Titanbronze Pliers",
+                name: " Titanbronze Pliers",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Texture Hammer",
+                name: "Titanbronze Texture Hammer",
                 "mat-1": "Titanbronze Ingot",
                 "mat-2": "2 Titanbronze Nugget",
                 "mat-3": "Sandteak Lumber",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Creasing Knife",
+                name: "Titanbronze Creasing Knife",
                 "mat-1": "Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Sandteak Lumber",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Awl",
+                name: "Titanbronze Awl",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Ovim Wool Yarn",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Mortar",
+                name: "Titanbronze Mortar",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Culinary Knife",
+                name: "Titanbronze Culinary Knife",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Tuff Whetstone",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Pickaxe",
+                name: "Titanbronze Pickaxe",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Zonure Leather",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Sledgehammer",
+                name: "Titanbronze Sledgehammer",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Hatchet",
+                name: "Titanbronze Hatchet",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Titanbronze Nugget",
                 "mat-3": "Sandteak Lumber",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Titanbronze Scythe",
+                name: "Titanbronze Scythe",
                 "mat-1": "2 Titanbronze Ingot",
                 "mat-2": "Sandteak Lumber",
                 "mat-3": "Tuff Whetstone",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Ingot",
+                name: "Dwarven Mythril Ingot",
                 "mat-1": "4 Dimythrite Ore",
                 "mat-2": "Mythrite Ore",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Pikenstock",
+                name: "Dwarven Mythril Pikenstock",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Deepgold Ingot",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Hammer",
+                name: "Dwarven Mythril Hammer",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Deepgold Ingot",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Guillotine",
+                name: "Dwarven Mythril Guillotine",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Deepgold Ingot",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Manatrigger",
+                name: "Dwarven Mythril Manatrigger",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Lignum Vitae Lumber",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Knuckles",
+                name: "Dwarven Mythril Knuckles",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "2 Dwarven Mythril Nugget",
                 "mat-3": "Deepgold Ingot",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Uchigatana",
+                name: "Dwarven Mythril Uchigatana",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Rotaries",
+                name: "Dwarven Mythril Rotaries",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Deepgold Ingot",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Pistol",
+                name: "Dwarven Mythril Pistol",
                 "mat-1": "Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Lignum Vitae Lumber",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Glaives",
+                name: "Dwarven Mythril Glaives",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Dwarven Mythril Planisphere",
+                name: "Dwarven Mythril Planisphere",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Triplite",
                 "mat-3": "Enchanted Dimythrite Ink",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Claw Hammer",
+                name: "Dwarven Mythril Claw Hammer",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril File",
+                name: "Dwarven Mythril File",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Pliers",
+                name: "Dwarven Mythril Pliers",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Awl",
+                name: "Dwarven Mythril Awl",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Sea Swallow Leather",
@@ -490,7 +490,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Mortar",
+                name: "Dwarven Mythril Mortar",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",
@@ -502,7 +502,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Culinary Knife",
+                name: "Dwarven Mythril Culinary Knife",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Tuff Whetstone",
@@ -514,7 +514,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Sledgehammer",
+                name: "Dwarven Mythril Sledgehammer",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",
@@ -526,7 +526,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Dwarven Mythril Scythe",
+                name: "Dwarven Mythril Scythe",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Tuff Whetstone",
@@ -538,7 +538,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Saw",
+                name: "Dwarven Mythril Saw",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",
@@ -550,7 +550,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Cross-pein Hammer",
+                name: "Dwarven Mythril Cross-pein Hammer",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Starch Glue",
@@ -562,7 +562,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Raising Hammer",
+                name: "Dwarven Mythril Raising Hammer",
                 "mat-1": "3 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "X",
@@ -574,7 +574,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Lapidary Hammer",
+                name: "Dwarven Mythril Lapidary Hammer",
                 "mat-1": "Dwarven Mythril Ingot",
                 "mat-2": "2 Dwarven Mythril Nugget",
                 "mat-3": "Lignum Vitae Lumber",
@@ -586,7 +586,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Round Knife",
+                name: "Dwarven Mythril Round Knife",
                 "mat-1": "Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Lignum Vitae Lumber",
@@ -598,7 +598,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Pickaxe",
+                name: "Dwarven Mythril Pickaxe",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Sea Swallow Leather",
@@ -610,7 +610,7 @@ export const BlacksmithLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Dwarven Mythril Hatchet",
+                name: "Dwarven Mythril Hatchet",
                 "mat-1": "2 Dwarven Mythril Ingot",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Lignum Vitae Lumber",

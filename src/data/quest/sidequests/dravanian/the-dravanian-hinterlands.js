@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheDravanianHinterlands = function(parentStorageKey) {
+export const Quest_Sidequests_Dravanian_The_Dravanian_Hinterlands = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-dravanian-hinterlands`;
 
     return {

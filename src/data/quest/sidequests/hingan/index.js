@@ -1,13 +1,15 @@
-import { Kugane } from "./kugane";
+import { Quest_Sidequests_Hingan_Kugane } from "./kugane";
 
-export const Hingan = function(parentStorageKey) {
+export const Quest_Sidequests_Hingan = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.hingan`;
 
     return {
         name: "Hingan",
         storageKey,
-        subGroups: [
-            Kugane(storageKey),
-        ]
+        groupKeys: [
+            "Kugane",
+        ],
+        // Groups
+        Kugane: Quest_Sidequests_Hingan_Kugane(storageKey),
     };
 };

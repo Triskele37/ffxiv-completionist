@@ -10,7 +10,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "31",
-                "item": "Hi-Potion of Dexterity",
+                name: "Hi-Potion of Dexterity",
                 "mat-1": "Belladonna",
                 "mat-2": "Scalekin Blood",
                 "mat-3": "Rock Salt",
@@ -22,7 +22,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "31",
-                "item": "Hi-Potion of Mind",
+                name: "Hi-Potion of Mind",
                 "mat-1": "Moor Leech",
                 "mat-2": "Treant Sap",
                 "mat-3": "Rock Salt",
@@ -34,7 +34,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Black Firesand",
+                name: "Black Firesand",
                 "mat-1": "3 Brimstone",
                 "mat-2": "3 Saltpeter",
                 "mat-3": "Oak Log",
@@ -46,7 +46,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Hi-Potion of Vitality",
+                name: "Hi-Potion of Vitality",
                 "mat-1": "Puk Wing",
                 "mat-2": "Treant Sap",
                 "mat-3": "Rock Salt",
@@ -58,7 +58,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "32",
-                "item": "Hi-Potion of Intelligence",
+                name: "Hi-Potion of Intelligence",
                 "mat-1": "Pearl Ginger",
                 "mat-2": "Treant Sap",
                 "mat-3": "Rock Salt",
@@ -70,7 +70,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Enchanted Mythril Ink",
+                name: "Enchanted Mythril Ink",
                 "mat-1": "2 Mythril Sand",
                 "mat-2": "Scalekin Blood",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "33",
-                "item": "Hi-Potion of Strength",
+                name: "Hi-Potion of Strength",
                 "mat-1": "Blue Yarzon Leg",
                 "mat-2": "Gil Bun",
                 "mat-3": "Rock Salt",
@@ -94,7 +94,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Book of Silver",
+                name: "Book of Silver",
                 "mat-1": "Enchanted Silver Ink",
                 "mat-2": "Silver Ingot",
                 "mat-3": "Oak Log",
@@ -106,7 +106,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Budding Yew Wand",
+                name: "Budding Yew Wand",
                 "mat-1": "Yew Wand",
                 "mat-2": "2 Growth Formula Beta",
                 "mat-3": "Scalekin Blood",
@@ -118,7 +118,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Fire Ward Potion",
+                name: "Fire Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Sunstone",
                 "mat-3": "Rock Salt",
@@ -130,7 +130,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Ice Ward Potion",
+                name: "Ice Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Danburite",
                 "mat-3": "Rock Salt",
@@ -142,7 +142,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Wind Ward Potion",
+                name: "Wind Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Malachite",
                 "mat-3": "Rock Salt",
@@ -154,7 +154,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Earth Ward Potion",
+                name: "Earth Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Sphene",
                 "mat-3": "Rock Salt",
@@ -166,7 +166,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Lightning Ward Potion",
+                name: "Lightning Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Fluorite",
                 "mat-3": "Rock Salt",
@@ -178,7 +178,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "34",
-                "item": "Water Ward Potion",
+                name: "Water Ward Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Lapis Lazuli",
                 "mat-3": "Rock Salt",
@@ -190,7 +190,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Maddening Daggers",
+                name: "Maddening Daggers",
                 "mat-1": "Cracked Daggers",
                 "mat-2": "Paralyzing Potion",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Vintage Picatrix",
+                name: "Vintage Picatrix",
                 "mat-1": "Brittle Picatrix",
                 "mat-2": "Oak Log",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Hi-Ether",
+                name: "Hi-Ether",
                 "mat-1": "Distilled Water",
                 "mat-2": "Mandrake",
                 "mat-3": "Matron's Mistletoe",
@@ -226,7 +226,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Poisoning Potion",
+                name: "Poisoning Potion",
                 "mat-1": "Formic Acid",
                 "mat-2": "Morbol Vine",
                 "mat-3": "Quicksilver",
@@ -238,7 +238,7 @@ export const AlchemistLevels_31_35 = function(parentStorageKey) {
             },
             {
                 "level": "35",
-                "item": "Paralyzing Potion",
+                name: "Paralyzing Potion",
                 "mat-1": "Mandrake",
                 "mat-2": "Morbol Vine",
                 "mat-3": "Quicksilver",

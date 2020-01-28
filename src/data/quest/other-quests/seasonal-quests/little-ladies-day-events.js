@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const LittleLadiesDayEvents = function(parentStorageKey) {
+export const Quest_Other_Seasonal_Little_Ladies_Day = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.little-ladies-day`;
 
     return {

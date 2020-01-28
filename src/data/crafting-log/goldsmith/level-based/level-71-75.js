@@ -10,7 +10,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Hematite",
+                name: "Hematite",
                 "mat-1": "3 Raw Hematite",
                 "mat-2": "Hard Mudstone Whetstone",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hard Mudstone Whetstone",
+                name: "Hard Mudstone Whetstone",
                 "mat-1": "3 Hard Mudstone",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Stonegold Nugget",
+                name: "Stonegold Nugget",
                 "mat-1": "4 Truegold Sand",
                 "mat-2": "Gold Ore",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Stonegold Degen",
+                name: "Stonegold Degen",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "2 Deepgold Nugget",
                 "mat-3": "Rhodonite",
@@ -58,7 +58,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Stonegold Astrometer",
+                name: "Stonegold Astrometer",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Deepgold Nugget",
                 "mat-3": "Enchanted Truegold Ink",
@@ -70,7 +70,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Stonegold Needle",
+                name: "Stonegold Needle",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "White Oak Lumber",
                 "mat-3": "Palladium Nugget",
@@ -82,7 +82,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Stonegold Circlet of Maiming",
+                name: "Stonegold Circlet of Maiming",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Bright Linen Cloth",
                 "mat-3": "Kyanite",
@@ -94,7 +94,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Earrings of Fending",
+                name: "Hematite Earrings of Fending",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Durium Nugget",
@@ -106,7 +106,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Earrings of Slaying",
+                name: "Hematite Earrings of Slaying",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Durium Nugget",
@@ -118,7 +118,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Earrings of Aiming",
+                name: "Hematite Earrings of Aiming",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Durium Nugget",
@@ -130,7 +130,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Earrings of Casting",
+                name: "Hematite Earrings of Casting",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Durium Nugget",
@@ -142,7 +142,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Earrings of Healing",
+                name: "Hematite Earrings of Healing",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Durium Nugget",
@@ -154,7 +154,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Choker of Fending",
+                name: "Hematite Choker of Fending",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Bloodhempen Yarn",
@@ -166,7 +166,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Choker of Slaying",
+                name: "Hematite Choker of Slaying",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Bloodhempen Yarn",
@@ -178,7 +178,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Choker of Aiming",
+                name: "Hematite Choker of Aiming",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Bloodhempen Yarn",
@@ -190,7 +190,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Choker of Casting",
+                name: "Hematite Choker of Casting",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Bloodhempen Yarn",
@@ -202,7 +202,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Hematite Choker of Healing",
+                name: "Hematite Choker of Healing",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Hematite",
                 "mat-3": "Bloodhempen Yarn",
@@ -214,7 +214,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Bracelet of Fending",
+                name: "Islewolf Bracelet of Fending",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Island Wolf Fang",
@@ -226,7 +226,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Bracelet of Slaying",
+                name: "Islewolf Bracelet of Slaying",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Island Wolf Fang",
@@ -238,7 +238,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Bracelet of Aiming",
+                name: "Islewolf Bracelet of Aiming",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Island Wolf Fang",
@@ -250,7 +250,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Bracelet of Casting",
+                name: "Islewolf Bracelet of Casting",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Island Wolf Fang",
@@ -262,7 +262,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Bracelet of Healing",
+                name: "Islewolf Bracelet of Healing",
                 "mat-1": "2 Stonegold Nugget",
                 "mat-2": "Gazelle Leather",
                 "mat-3": "Island Wolf Fang",
@@ -274,7 +274,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Ring of Fending",
+                name: "Islewolf Ring of Fending",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Island Wolf Fang",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Ring of Slaying",
+                name: "Islewolf Ring of Slaying",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Island Wolf Fang",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Ring of Aiming",
+                name: "Islewolf Ring of Aiming",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Island Wolf Fang",
                 "mat-3": "X",
@@ -310,7 +310,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Ring of Casting",
+                name: "Islewolf Ring of Casting",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Island Wolf Fang",
                 "mat-3": "X",
@@ -322,7 +322,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Islewolf Ring of Healing",
+                name: "Islewolf Ring of Healing",
                 "mat-1": "Stonegold Nugget",
                 "mat-2": "Island Wolf Fang",
                 "mat-3": "X",
@@ -334,7 +334,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore",
+                name: "Diaspore",
                 "mat-1": "3 Raw Diaspore",
                 "mat-2": "Hard Mudstone Whetstone",
                 "mat-3": "X",
@@ -346,7 +346,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Stonegold Ingot",
+                name: "Stonegold Ingot",
                 "mat-1": "4 Truegold Ore",
                 "mat-2": "Gold Ore",
                 "mat-3": "X",
@@ -358,7 +358,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Earrings of Fending",
+                name: "Diaspore Earrings of Fending",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -370,7 +370,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Earrings of Slaying",
+                name: "Diaspore Earrings of Slaying",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -382,7 +382,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Earrings of Aiming",
+                name: "Diaspore Earrings of Aiming",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -394,7 +394,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Earrings of Casting",
+                name: "Diaspore Earrings of Casting",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -406,7 +406,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Earrings of Healing",
+                name: "Diaspore Earrings of Healing",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -418,7 +418,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Ring of Fending",
+                name: "Diaspore Ring of Fending",
                 "mat-1": "Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Ring of Slaying",
+                name: "Diaspore Ring of Slaying",
                 "mat-1": "Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "X",
@@ -442,7 +442,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Ring of Aiming",
+                name: "Diaspore Ring of Aiming",
                 "mat-1": "Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Ring of Casting",
+                name: "Diaspore Ring of Casting",
                 "mat-1": "Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Diaspore Ring of Healing",
+                name: "Diaspore Ring of Healing",
                 "mat-1": "Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Stonegold Rapier",
+                name: "Stonegold Rapier",
                 "mat-1": "3 Stonegold Ingot",
                 "mat-2": "Deepgold Ingot",
                 "mat-3": "Electrum Ingot",
@@ -490,7 +490,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Stonegold Orrery",
+                name: "Stonegold Orrery",
                 "mat-1": "3 Stonegold Ingot",
                 "mat-2": "Enchanted Truegold Ink",
                 "mat-3": "Electrum Ingot",
@@ -502,7 +502,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Choker of Fending",
+                name: "Diaspore Choker of Fending",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -514,7 +514,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Choker of Slaying",
+                name: "Diaspore Choker of Slaying",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -526,7 +526,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Choker of Aiming",
+                name: "Diaspore Choker of Aiming",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -538,7 +538,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Choker of Casting",
+                name: "Diaspore Choker of Casting",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -550,7 +550,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Choker of Healing",
+                name: "Diaspore Choker of Healing",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -562,7 +562,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Bracelet of Fending",
+                name: "Diaspore Bracelet of Fending",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -574,7 +574,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Bracelet of Slaying",
+                name: "Diaspore Bracelet of Slaying",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -586,7 +586,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Bracelet of Aiming",
+                name: "Diaspore Bracelet of Aiming",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -598,7 +598,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Bracelet of Casting",
+                name: "Diaspore Bracelet of Casting",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -610,7 +610,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Diaspore Bracelet of Healing",
+                name: "Diaspore Bracelet of Healing",
                 "mat-1": "2 Stonegold Ingot",
                 "mat-2": "Diaspore",
                 "mat-3": "Electrum Ingot",
@@ -622,7 +622,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Lazurite",
+                name: "Lazurite",
                 "mat-1": "3 Raw Lazurite",
                 "mat-2": "Hard Mudstone Whetstone",
                 "mat-3": "X",
@@ -634,7 +634,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Manasilver Nugget",
+                name: "Manasilver Nugget",
                 "mat-1": "4 Manasilver Sand",
                 "mat-2": "Silver Ore",
                 "mat-3": "X",
@@ -646,7 +646,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Baghnakhs",
+                name: "Bluespirit Baghnakhs",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -658,7 +658,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Uchigatana",
+                name: "Bluespirit Uchigatana",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -670,7 +670,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Daggers",
+                name: "Bluespirit Daggers",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -682,7 +682,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Longbow",
+                name: "Bluespirit Longbow",
                 "mat-1": "3 Manasilver Nugget",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -694,7 +694,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Glaives",
+                name: "Bluespirit Glaives",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -706,7 +706,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Rod",
+                name: "Bluespirit Rod",
                 "mat-1": "3 Manasilver Nugget",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -718,7 +718,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Rapier",
+                name: "Bluespirit Rapier",
                 "mat-1": "3 Manasilver Nugget",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Star Ruby",
@@ -730,7 +730,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Star Globe",
+                name: "Bluespirit Star Globe",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "Bluespirit Tile",
                 "mat-3": "Enchanted Manasilver Ink",
@@ -742,7 +742,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Manasilver Needle",
+                name: "Manasilver Needle",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "White Ash Lumber",
                 "mat-3": "Stonegold Ingot",
@@ -754,7 +754,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Manasilver Ear Cuffs",
+                name: "Manasilver Ear Cuffs",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Twinthread",
@@ -766,7 +766,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Manasilver Choker",
+                name: "Manasilver Choker",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Twinthread",
@@ -778,7 +778,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Manasilver Bracelets",
+                name: "Manasilver Bracelets",
                 "mat-1": "2 Manasilver Nugget",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Twinthread",
@@ -790,7 +790,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Lazurite Ring of Fending",
+                name: "Lazurite Ring of Fending",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Lazurite",
                 "mat-3": "Grade 1 Vitality Alkahest",
@@ -802,7 +802,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Lazurite Ring of Slaying",
+                name: "Lazurite Ring of Slaying",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Lazurite",
                 "mat-3": "Grade 1 Strength Alkahest",
@@ -814,7 +814,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Lazurite Ring of Aiming",
+                name: "Lazurite Ring of Aiming",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Lazurite",
                 "mat-3": "Grade 1 Dexterity Alkahest",
@@ -826,7 +826,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Lazurite Ring of Casting",
+                name: "Lazurite Ring of Casting",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Lazurite",
                 "mat-3": "Grade 1 Intelligence Alkahest",
@@ -838,7 +838,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Lazurite Ring of Healing",
+                name: "Lazurite Ring of Healing",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Lazurite",
                 "mat-3": "Grade 1 Mind Alkahest",
@@ -850,7 +850,7 @@ export const GoldsmithLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Manasilver Ring",
+                name: "Manasilver Ring",
                 "mat-1": "Manasilver Nugget",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "X",

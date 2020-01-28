@@ -14,16 +14,26 @@ export const Achievements = function(parentStorageKey) {
 	return {
 		name: 'Achievement',
 		storageKey,
-		subGroups: [
-			BattleAchievements(storageKey),
-			CharacterAchievements(storageKey),
-			PVPAchievements(storageKey),
-			ItemAchievements(storageKey),
-			CraftingAchievements(storageKey),
-			GatheringAchievements(storageKey),
-			QuestAchievements(storageKey),
-			ExplorationAchievements(storageKey),
-			GrandCompanyAchievements(storageKey),
-		]
+		groupKeys: [
+			"Battle",
+			"Character",
+			"PVP",
+			"Item",
+			"Crafting",
+			"Gathering",
+			"Quest",
+			"Exploration",
+			"GrandCompany"
+		],
+		// Groups
+		Battle: BattleAchievements(storageKey),
+		Character: CharacterAchievements(storageKey),
+		PVP: PVPAchievements(storageKey),
+		Item: ItemAchievements(storageKey),
+		Crafting: CraftingAchievements(storageKey),
+		Gathering: GatheringAchievements(storageKey),
+		Quest: QuestAchievements(storageKey),
+		Exploration: ExplorationAchievements(storageKey),
+		GrandCompany: GrandCompanyAchievements(storageKey),
 	};
 };

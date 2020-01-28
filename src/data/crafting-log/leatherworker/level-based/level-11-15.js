@@ -10,7 +10,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Amateur's Headgear",
+                name: "Amateur's Headgear",
                 "mat-1": "Hard Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Bronze Rivets",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Leather Survival Belt",
+                name: "Leather Survival Belt",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Bronze Ingot",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Hard Leather Shoes",
+                name: "Hard Leather Shoes",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Rubber",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Hard Leather Harness",
+                name: "Hard Leather Harness",
                 "mat-1": "Hard Leather",
                 "mat-2": "Leather",
                 "mat-3": "Bronze Ingot",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Hard Leather Satchel Belt",
+                name: "Hard Leather Satchel Belt",
                 "mat-1": "Hard Leather",
                 "mat-2": "Copper Ingot",
                 "mat-3": "Hempen Yarn",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Leather Jackboots",
+                name: "Leather Jackboots",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Undyed Hempen Cloth",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Hard Leather Sandals",
+                name: "Hard Leather Sandals",
                 "mat-1": "Hard Leather",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Beast Sinew",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Leather Targe",
+                name: "Leather Targe",
                 "mat-1": "2 Leather",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Bronze Rivets",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Hard Leather Armguards",
+                name: "Hard Leather Armguards",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Bronze Rivets",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Hard Leather Hunting Belt",
+                name: "Hard Leather Hunting Belt",
                 "mat-1": "Hard Leather",
                 "mat-2": "Leather",
                 "mat-3": "Copper Ingot",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Himantes",
+                name: "Hard Leather Himantes",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "Undyed Hempen Cloth",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Eyepatch",
+                name: "Hard Leather Eyepatch",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "Hempen Yarn",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Lightmitts",
+                name: "Hard Leather Lightmitts",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Lightpouch",
+                name: "Hard Leather Lightpouch",
                 "mat-1": "Hard Leather",
                 "mat-2": "Iron Ingot",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Subligar",
+                name: "Hard Leather Subligar",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Hempen Yarn",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Kecks",
+                name: "Hard Leather Kecks",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Hempen Yarn",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Caligae",
+                name: "Hard Leather Caligae",
                 "mat-1": "Hard Leather",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "Beast Sinew",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Hard Leather Thighboots",
+                name: "Hard Leather Thighboots",
                 "mat-1": "Hard Leather",
                 "mat-2": "Bronze Rivets",
                 "mat-3": "Beast Sinew",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Fingerless Hard Leather Gloves",
+                name: "Fingerless Hard Leather Gloves",
                 "mat-1": "2 Hard Leather",
                 "mat-2": "Iron Rivets",
                 "mat-3": "X",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Hard Leather Boots",
+                name: "Hard Leather Boots",
                 "mat-1": "Hard Leather",
                 "mat-2": "Undyed Hempen Cloth",
                 "mat-3": "Beast Sinew",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Hard Leather Crakows",
+                name: "Hard Leather Crakows",
                 "mat-1": "Hard Leather",
                 "mat-2": "Bronze Ingot",
                 "mat-3": "Beast Sinew",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Hard Leather Choker",
+                name: "Hard Leather Choker",
                 "mat-1": "Hard Leather",
                 "mat-2": "Beast Sinew",
                 "mat-3": "X",

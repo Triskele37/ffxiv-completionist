@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheCrystarium = function(parentStorageKey) {
+export const Quest_Sidequests_Lakeland_The_Crystarium = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-crystarium`;
 
     return {

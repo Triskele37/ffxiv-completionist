@@ -5,11 +5,14 @@ export const Carpenter_IshgardRestoration_Recipe = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
 
     return {
-        name: "Ishgard Restoration Recipes",
+        name: "Ishgard Restoration",
         storageKey,
-        subGroups: [
-            Carpenter_Restoration(storageKey),
-            Carpenter_Other(storageKey),
-        ]
+        groupKeys: [
+            "Restoration",
+            "Other",
+        ],
+        // Groups
+        Restoration: Carpenter_Restoration(storageKey),
+        Other: Carpenter_Other(storageKey),
     };
 };

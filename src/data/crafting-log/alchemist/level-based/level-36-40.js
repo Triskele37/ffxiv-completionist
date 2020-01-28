@@ -10,7 +10,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Blinding Potion",
+                name: "Blinding Potion",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Morbol Vine",
                 "mat-3": "Quicksilver",
@@ -22,7 +22,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Sleeping Potion",
+                name: "Sleeping Potion",
                 "mat-1": "Belladonna",
                 "mat-2": "Morbol Vine",
                 "mat-3": "Quicksilver",
@@ -34,7 +34,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Silencing Potion",
+                name: "Silencing Potion",
                 "mat-1": "Tarantula",
                 "mat-2": "Morbol Vine",
                 "mat-3": "Quicksilver",
@@ -46,7 +46,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Embossed Book of Silver",
+                name: "Embossed Book of Silver",
                 "mat-1": "Book of Silver",
                 "mat-2": "2 Silver Ingot",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Budding Oak Wand",
+                name: "Budding Oak Wand",
                 "mat-1": "Hi-Potion of Mind",
                 "mat-2": "Growth Formula Alpha",
                 "mat-3": "Oak Branch",
@@ -70,7 +70,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Clinker Bricks",
+                name: "Clinker Bricks",
                 "mat-1": "Potter's Clay",
                 "mat-2": "Grenade Ash",
                 "mat-3": "2 Siltstone",
@@ -82,7 +82,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Wand of Tremors",
+                name: "Wand of Tremors",
                 "mat-1": "Eye of Earth",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Oak Branch",
@@ -94,7 +94,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Wand of Frost",
+                name: "Wand of Frost",
                 "mat-1": "Eye of Ice",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Oak Branch",
@@ -106,7 +106,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Wand of Tides",
+                name: "Wand of Tides",
                 "mat-1": "Eye of Water",
                 "mat-2": "Growth Formula Gamma",
                 "mat-3": "Oak Branch",
@@ -118,7 +118,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Lanolin",
+                name: "Lanolin",
                 "mat-1": "Karakul Skin",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const AlchemistLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Smelling Salts",
+                name: "Smelling Salts",
                 "mat-1": "Blue Landtrap Leaf",
                 "mat-2": "Desert Saffron",
                 "mat-3": "Rock Salt",

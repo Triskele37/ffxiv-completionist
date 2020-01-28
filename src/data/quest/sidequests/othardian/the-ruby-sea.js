@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const TheRubySea = function(parentStorageKey) {
+export const Quest_Sidequests_Othardian_The_Ruby_Sea = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.the-ruby-sea`;
 
     return {

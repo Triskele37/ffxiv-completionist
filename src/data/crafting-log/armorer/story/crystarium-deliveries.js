@@ -10,7 +10,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
         tasks: [
             {
                 "level": 70,
-                "item": "Metal Gauntlets",
+                name: "Metal Gauntlets",
                 "mat-1": "2 Molybdenum Ingot",
                 "mat-2": "2 Gazelle Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -22,7 +22,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 73,
-                "item": "Metal Worm Jar",
+                name: "Metal Worm Jar",
                 "mat-1": "2 Deepgold Ingot",
                 "mat-2": "2 Stonegold Ingot",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Metal Trident",
+                name: "Metal Trident",
                 "mat-1": "2 Bluespirit Tile",
                 "mat-2": "2 White Ash Lumber",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 75,
-                "item": "Intricate Censer",
+                name: "Intricate Censer",
                 "mat-1": "Intricate Censer Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 78,
-                "item": "Nullifying Neckpiece",
+                name: "Nullifying Neckpiece",
                 "mat-1": "2 Dwarven Mythril Nugget",
                 "mat-2": "Petalite",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const Armorer_Story_Crystarium = function(parentStorageKey) {
             },
             {
                 "level": 80,
-                "item": "Enchanting Ring",
+                name: "Enchanting Ring",
                 "mat-1": "Enchanting Ring Materials",
                 "mat-2": "X",
                 "mat-3": "X",

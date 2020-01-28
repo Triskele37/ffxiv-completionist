@@ -10,7 +10,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "41",
-                "item": "Mythril Zweihander",
+                name: "Mythril Zweihander",
                 "mat-1": "3 Mythril Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Peiste Leatner",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Baselards",
+                name: "Mythril Baselards",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril-barreled Musketoon",
+                name: "Mythril-barreled Musketoon",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Mahogany Lumber",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Mortar",
+                name: "Mythril Mortar",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Culinary Knife",
+                name: "Mythril Culinary Knife",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Sledgehammer",
+                name: "Mythril Sledgehammer",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Horn Glue",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "41",
-                "item": "Mythril Scythe",
+                name: "Mythril Scythe",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Cobalt Ingot",
+                name: "Cobalt Ingot",
                 "mat-1": "2 Cobalt Ore",
                 "mat-2": "Iron Ore",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Cobalt Katzbalger",
+                name: "Cobalt Katzbalger",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Boar Leather",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Cobalt Knuckles",
+                name: "Cobalt Knuckles",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Boar Leather",
                 "mat-3": "X",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Chocobotail Saw",
+                name: "Mythril Chocobotail Saw",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Mahogany Lumber",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Cobalt Cross-pein Hammer",
+                name: "Cobalt Cross-pein Hammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Boar Leather",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Pliers",
+                name: "Mythril Pliers",
                 "mat-1": "Mythil Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Linseed Oil",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Lapidary Hammer",
+                name: "Mythril Lapidary Hammer",
                 "mat-1": "Mythil Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Mahogany Lumber",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Mythril Round Knife",
+                name: "Mythril Round Knife",
                 "mat-1": "Mythil Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Peiste Leatner",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "42",
-                "item": "Goblin Scimitar",
+                name: "Goblin Scimitar",
                 "mat-1": "Blunt Goblin Scimitar",
                 "mat-2": "Siltstone Whetstone",
                 "mat-3": "X",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Rivets",
+                name: "Cobalt Rivets",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Shamshir",
+                name: "Cobalt Shamshir",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Aldgoat Horn",
                 "mat-3": "Basilisk Whetstone",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Buccaneer's Bardiche",
+                name: "Buccaneer's Bardiche",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Rosewood Branch",
                 "mat-3": "Horn Glue",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Doming Hammer",
+                name: "Cobalt Doming Hammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Cobalt Rivets",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Dolabra",
+                name: "Cobalt Dolabra",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Aldgoat Leather",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "43",
-                "item": "Cobalt Hatchet",
+                name: "Cobalt Hatchet",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Brass Ingot",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Nails",
+                name: "Cobalt Nails",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Claw Hammer",
+                name: "Cobalt Claw Hammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Shark Oil",
@@ -298,7 +298,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Pliers",
+                name: "Cobalt Pliers",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Cobalt Rivets",
                 "mat-3": "Shark Oil",
@@ -310,7 +310,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Awl",
+                name: "Cobalt Awl",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Shark Oil",
@@ -322,7 +322,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Culinary Knife",
+                name: "Cobalt Culinary Knife",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -334,7 +334,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "44",
-                "item": "Cobalt Sledgehammer",
+                name: "Cobalt Sledgehammer",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Horn Glue",
@@ -346,7 +346,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Demilune Bhuj",
+                name: "Demilune Bhuj",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "Jadeite",
@@ -358,7 +358,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt Claymore",
+                name: "Cobalt Claymore",
                 "mat-1": "3 Cobalt Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Mahogany Lumber",
@@ -370,7 +370,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Mythril Pugiones",
+                name: "Mythril Pugiones",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Mahogany Lumber",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt-barreled Carbine",
+                name: "Cobalt-barreled Carbine",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Electrum Ingot",
                 "mat-3": "Mahogany Lumber",
@@ -394,7 +394,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Wrapped Hawksbeak Hammer",
+                name: "Wrapped Hawksbeak Hammer",
                 "mat-1": "Cobalt Cross-pein Hammer",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Boar Leather",
@@ -406,7 +406,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt File",
+                name: "Cobalt File",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Raptor Leather",
                 "mat-3": "X",
@@ -418,7 +418,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt Mortar",
+                name: "Cobalt Mortar",
                 "mat-1": "2 Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "X",
@@ -430,7 +430,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Cobalt Scythe",
+                name: "Cobalt Scythe",
                 "mat-1": "Cobalt Ingot",
                 "mat-2": "Rosewood Lumber",
                 "mat-3": "Basilisk Whetstone",
@@ -442,7 +442,7 @@ export const BlacksmithLevels_41_45 = function(parentStorageKey) {
             },
             {
                 "level": "45",
-                "item": "Goblin Longsword",
+                name: "Goblin Longsword",
                 "mat-1": "Blunt Goblin Longsword",
                 "mat-2": "Basilisk Whetstone",
                 "mat-3": "X",

@@ -1,13 +1,15 @@
-import { IlMheg as IlMhegQuests } from "./il-mheg";
+import { Quest_Sidequests_Il_Mheg_Il_Mheg } from "./il-mheg";
 
-export const IlMheg = function(parentStorageKey) {
+export const Quest_Sidequests_Il_Mheg = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.il-mheg`;
 
     return {
         name: "Il Mheg",
         storageKey,
-        subGroups: [
-            IlMhegQuests(storageKey),
-        ]
+        groupKeys: [
+            "Il_Mheg",
+        ],
+        // Groups
+        Il_Mheg: Quest_Sidequests_Il_Mheg_Il_Mheg(storageKey),
     };
 };

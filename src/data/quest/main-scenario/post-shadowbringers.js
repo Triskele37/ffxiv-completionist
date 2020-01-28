@@ -1,7 +1,7 @@
 import { QuestColumnConfig } from "../columnConfigs";
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=10
-export const PostShadowbringers = function(parentStorageKey) {
+export const Quest_Main_Scenario_Post_Shadowbringers = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.post-shadowbringers`;
 
     return {

@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const WhiteMageQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_Magic_Job_White_Mage = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.white-mage`;
 
     return {

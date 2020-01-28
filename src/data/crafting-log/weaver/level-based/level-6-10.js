@@ -10,7 +10,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "6",
-                "item": "Hempen Hat",
+                name: "Hempen Hat",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Cock Feather",
@@ -22,7 +22,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Hempen Tabard",
+                name: "Hempen Tabard",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Leather",
@@ -34,7 +34,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Hempen Shepherd's Tunic",
+                name: "Hempen Shepherd's Tunic",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Copper Ingot",
@@ -46,7 +46,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Hempen Shortgloves",
+                name: "Hempen Shortgloves",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Hempen Halfrobe",
+                name: "Hempen Halfrobe",
                 "mat-1": "3 Undyed Hempen Cloth",
                 "mat-2": "2 Hempen Yarn",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Hempen Work Gloves",
+                name: "Hempen Work Gloves",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Moko Grass",
@@ -82,7 +82,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Hempen Sash",
+                name: "Hempen Sash",
                 "mat-1": "3 Undyed Hempen Cloth",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -94,7 +94,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Hempen Acton",
+                name: "Hempen Acton",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Moko Grass",
@@ -106,7 +106,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Hempen Kecks",
+                name: "Hempen Kecks",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Leather",
@@ -118,7 +118,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Hempen Gaskins",
+                name: "Hempen Gaskins",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "2 Leather",
@@ -130,7 +130,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Kurta",
+                name: "Amateur's Kurta",
                 "mat-1": "3 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "X",
@@ -142,7 +142,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Doublet Vest",
+                name: "Amateur's Doublet Vest",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Leather",
@@ -154,7 +154,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Hempen Bottoms",
+                name: "Hempen Bottoms",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Copper Ingot",
@@ -166,7 +166,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Amateur's Slops",
+                name: "Amateur's Slops",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Leather",
                 "mat-3": "Animal Sinew",
@@ -178,7 +178,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Amateur's Hempen Coif",
+                name: "Amateur's Hempen Coif",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Hard Leather",
@@ -190,7 +190,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Amateur's Dalmatica",
+                name: "Amateur's Dalmatica",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Cock Feather",
@@ -202,7 +202,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Hempen Trousers",
+                name: "Hempen Trousers",
                 "mat-1": "Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Leather",
@@ -214,7 +214,7 @@ export const WeaverLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Amateur's Breeches",
+                name: "Amateur's Breeches",
                 "mat-1": "2 Undyed Hempen Cloth",
                 "mat-2": "Hempen Yarn",
                 "mat-3": "Leather",

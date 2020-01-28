@@ -10,7 +10,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "76",
-                "item": "Zonure Leather",
+                name: "Zonure Leather",
                 "mat-1": "4 Zonure Skin",
                 "mat-2": "Yellow Alumen",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Fingerless Gloves of Striking",
+                name: "Zonureskin Fingerless Gloves of Striking",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Fingerless Gloves of Scouting",
+                name: "Zonureskin Fingerless Gloves of Scouting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Fingerless Gloves of Aiming",
+                name: "Zonureskin Fingerless Gloves of Aiming",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Fingerless Gloves of Casting",
+                name: "Zonureskin Fingerless Gloves of Casting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Fingerless Gloves of Healing",
+                name: "Zonureskin Fingerless Gloves of Healing",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Caligae of Striking",
+                name: "Zonureskin Caligae of Striking",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Caligae of Scouting",
+                name: "Zonureskin Caligae of Scouting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Sandals of Aiming",
+                name: "Zonureskin Sandals of Aiming",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Rubber",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Sandals of Casting",
+                name: "Zonureskin Sandals of Casting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Rubber",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "76",
-                "item": "Zonureskin Caligae of Healing",
+                name: "Zonureskin Caligae of Healing",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Rubber",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Coat of Fending",
+                name: "Zonureskin Coat of Fending",
                 "mat-1": "3 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Coat of Maiming",
+                name: "Zonureskin Coat of Maiming",
                 "mat-1": "3 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Jacket of Crafting",
+                name: "Zonureskin Jacket of Crafting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanbronze Nugget",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Robe of Gathering",
+                name: "Zonureskin Robe of Gathering",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanbronze Nugget",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Fingerless Gloves of Fending",
+                name: "Zonureskin Fingerless Gloves of Fending",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Fingerless Gloves of Maiming",
+                name: "Zonureskin Fingerless Gloves of Maiming",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Ramie Thread",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Gloves of Crafting",
+                name: "Zonureskin Gloves of Crafting",
                 "mat-1": "Zonure Leather",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Diaspore",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Gloves of Gathering",
+                name: "Zonureskin Gloves of Gathering",
                 "mat-1": "Zonure Leather",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Diaspore",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Caligae of Fending",
+                name: "Zonureskin Caligae of Fending",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Caligae of Maiming",
+                name: "Zonureskin Caligae of Maiming",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Ovim Wool",
                 "mat-3": "Titanium Nugget",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Shoes of Crafting",
+                name: "Zonureskin Shoes of Crafting",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Ovim Wool Yarn",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "77",
-                "item": "Zonureskin Shoes of Gathering",
+                name: "Zonureskin Shoes of Gathering",
                 "mat-1": "2 Zonure Leather",
                 "mat-2": "Titanbronze Ingot",
                 "mat-3": "Ovim Wool Yarn",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Sea Swallow Leather",
+                name: "Sea Swallow Leather",
                 "mat-1": "4 Sea Swallow Skin",
                 "mat-2": "Yellow Alumen",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Jacket of Scouting",
+                name: "Swallowskin Jacket of Scouting",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Petalite",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Robe of Aiming",
+                name: "Swallowskin Robe of Aiming",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Petalite",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Gloves of Fending",
+                name: "Swallowskin Gloves of Fending",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Bright Linen Yarn",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Gloves of Maiming",
+                name: "Swallowskin Gloves of Maiming",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Bright Linen Yarn",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Gloves of Striking",
+                name: "Swallowskin Gloves of Striking",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Bright Linen Yarn",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Gloves of Scouting",
+                name: "Swallowskin Gloves of Scouting",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Gloves of Aiming",
+                name: "Swallowskin Gloves of Aiming",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "78",
-                "item": "Swallowskin Shoes of Striking",
+                name: "Swallowskin Shoes of Striking",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Bright Linen Yarn",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Robe of Casting",
+                name: "Swallowskin Robe of Casting",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Petalite",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Robe of Healing",
+                name: "Swallowskin Robe of Healing",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Petalite",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Gloves of Casting",
+                name: "Swallowskin Gloves of Casting",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Gloves of Healing",
+                name: "Swallowskin Gloves of Healing",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Stonegold Nugget",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Tool Belt",
+                name: "Swallowskin Tool Belt",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton Thread",
                 "mat-3": "X",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Survival Belt",
+                name: "Swallowskin Survival Belt",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton Thread",
                 "mat-3": "X",
@@ -466,7 +466,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Shoes of Casting",
+                name: "Swallowskin Shoes of Casting",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Bright Linen Yarn",
@@ -478,7 +478,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "79",
-                "item": "Swallowskin Shoes of Healing",
+                name: "Swallowskin Shoes of Healing",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Bright Linen Yarn",
@@ -490,7 +490,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Swallowskin Coat",
+                name: "Swallowskin Coat",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Dwarven Mythril Nugget",
@@ -502,7 +502,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Swallowskin Fingerless Gloves",
+                name: "Swallowskin Fingerless Gloves",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Cotton",
                 "mat-3": "Dwarven Cotton Thread",
@@ -514,7 +514,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Swallowskin Gloves",
+                name: "Swallowskin Gloves",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Dwarven Mythril Nugget",
                 "mat-3": "Dwarven Cotton Thread",
@@ -526,7 +526,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Swallowskin Shoes",
+                name: "Swallowskin Shoes",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Dwarven Cotton Thread",
@@ -538,7 +538,7 @@ export const LeatherworkerLevels_76_80 = function(parentStorageKey) {
             },
             {
                 "level": "80",
-                "item": "Swallowskin Boots",
+                name: "Swallowskin Boots",
                 "mat-1": "2 Sea Swallow Leather",
                 "mat-2": "Lignum Vitae Lumber",
                 "mat-3": "Dwarven Cotton Thread",

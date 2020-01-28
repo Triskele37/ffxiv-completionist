@@ -21,7 +21,7 @@ import { Collectable } from "./collectable";
 import { CraftingLogs } from "./crafting-log";
 import { Logs } from "./logs";
 import { FATEs } from "./fate";
-import { GatheringLogs } from "./gathering-log";
+import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
 import { Quests } from "./quest";
 
@@ -30,14 +30,23 @@ const storageKey = "completion";
 export const data = {
     name: "Overall",
     storageKey,
-    subGroups: [
-        Achievements(storageKey),
-        Collectable(storageKey),
-        CraftingLogs(storageKey),
-        Logs(storageKey),
-        FATEs(storageKey),
-        GatheringLogs(storageKey),
-        Duty(storageKey),
-        Quests(storageKey),
-    ]
+    groupKeys: [
+        "Achievements",
+        "Collectable",
+        "CraftingLogs",
+        "Logs",
+        "FATEs",
+        "Gathering_Logs",
+        "Duty",
+        "Quests"
+    ],
+    // Groups
+    Achievements: Achievements(storageKey),
+    Collectable: Collectable(storageKey),
+    CraftingLogs: CraftingLogs(storageKey),
+    Logs: Logs(storageKey),
+    FATEs: FATEs(storageKey),
+    Gathering_Logs: Gathering_Logs(storageKey),
+    Duty: Duty(storageKey),
+    Quests: Quests(storageKey),
 };

@@ -10,7 +10,7 @@ export const Leatherworker_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Large Dhalmel Cape",
+                name: "Large Dhalmel Cape",
                 "mat-1": "Hengr Dhalmel Hide",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Leatherworker_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Grizzly Bear Gloves",
+                name: "Grizzly Bear Gloves",
                 "mat-1": "Velodyna Grizzly Bear Hide",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Leatherworker_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Dashing Dhalmelskin Jacket",
+                name: "Dashing Dhalmelskin Jacket",
                 "mat-1": "Jacket Materials",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Leatherworker_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Large Gagana Cape",
+                name: "Large Gagana Cape",
                 "mat-1": "Large Gagana Skin",
                 "mat-2": "X",
                 "mat-3": "X",

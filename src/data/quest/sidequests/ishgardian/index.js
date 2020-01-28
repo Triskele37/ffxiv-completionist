@@ -1,13 +1,15 @@
-import { Ishgard } from "./ishgard";
+import { Quest_Sidequests_Ishgardian_Ishgard } from "./ishgard";
 
-export const Ishgardian = function(parentStorageKey) {
+export const Quest_Sidequests_Ishgardian = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ishgardian`;
 
     return {
         name: "Ishgardian",
         storageKey,
-        subGroups: [
-            Ishgard(storageKey)
-        ]
+        groupKeys: [
+            "Ishgard"
+        ],
+        // Groups
+        Ishgard: Quest_Sidequests_Ishgardian_Ishgard(storageKey)
     };
 };

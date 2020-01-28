@@ -10,7 +10,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "56",
-                "item": "Dragon Leather",
+                name: "Dragon Leather",
                 "mat-1": "3 Dragon Skin",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dhalmelskin Vest",
+                name: "Dhalmelskin Vest",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -34,7 +34,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Gloves of Aiming",
+                name: "Dragonskin Gloves of Aiming",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -46,7 +46,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Gloves of Casting",
+                name: "Dragonskin Gloves of Casting",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -58,7 +58,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Gloves of Healing",
+                name: "Dragonskin Gloves of Healing",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Ramie Thread",
@@ -70,7 +70,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Belt of Maiming",
+                name: "Dragonskin Belt of Maiming",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -82,7 +82,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Belt of Striking",
+                name: "Dragonskin Belt of Striking",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -94,7 +94,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Belt of Scouting",
+                name: "Dragonskin Belt of Scouting",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -106,7 +106,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Bottoms",
+                name: "Dragonskin Bottoms",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Ramie Cloth",
                 "mat-3": "Ramie Thread",
@@ -118,7 +118,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dhalmelskin Shoes",
+                name: "Dhalmelskin Shoes",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Ramie Thread",
@@ -130,7 +130,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dhalmelskin Fringe Boots",
+                name: "Dhalmelskin Fringe Boots",
                 "mat-1": "2 Dhalmel Leather",
                 "mat-2": "Wyvern Leather",
                 "mat-3": "Ramie Thread",
@@ -142,7 +142,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "56",
-                "item": "Dragonskin Boots",
+                name: "Dragonskin Boots",
                 "mat-1": "Dragon Leather",
                 "mat-2": "Ramie Thread",
                 "mat-3": "Rubber",
@@ -154,7 +154,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Breeches of Fending",
+                name: "Dragonskin Breeches of Fending",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -166,7 +166,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Breeches of Maiming",
+                name: "Dragonskin Breeches of Maiming",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -178,7 +178,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Breeches of Striking",
+                name: "Dragonskin Breeches of Striking",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -190,7 +190,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Breeches of Scouting",
+                name: "Dragonskin Breeches of Scouting",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "2 Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -202,7 +202,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Boots of Aiming",
+                name: "Dragonskin Boots of Aiming",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -214,7 +214,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Boots of Casting",
+                name: "Dragonskin Boots of Casting",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -226,7 +226,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Boots of Healing",
+                name: "Dragonskin Boots of Healing",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Dhalmel Leather",
                 "mat-3": "Hardsilver Ingot",
@@ -238,7 +238,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "57",
-                "item": "Dragonskin Ring",
+                name: "Dragonskin Ring",
                 "mat-1": "Dragon Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "X",
@@ -250,7 +250,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Amphiptere Leather",
+                name: "Amphiptere Leather",
                 "mat-1": "3 Amphiptere Skin",
                 "mat-2": "Dark Chestnut Log",
                 "mat-3": "X",
@@ -262,7 +262,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Hat of Casting",
+                name: "Serpentskin Hat of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hallowed Ramie Cloth",
                 "mat-3": "Rose Gold Nugget",
@@ -274,7 +274,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Armguards of Striking",
+                name: "Serpentskin Armguards of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Titanium Rivets",
@@ -286,7 +286,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Armguards of Scouting",
+                name: "Serpentskin Armguards of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Titanium Rivets",
@@ -298,7 +298,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Armguards of Aiming",
+                name: "Serpentskin Armguards of Aiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Titanium Rivets",
@@ -310,7 +310,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Dress Gloves of Casting",
+                name: "Serpentskin Dress Gloves of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Crawler Silk",
                 "mat-3": "Jadeite",
@@ -322,7 +322,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Ringbelt of Striking",
+                name: "Serpentskin Ringbelt of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -334,7 +334,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Ringbelt of Scouting",
+                name: "Serpentskin Ringbelt of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -346,7 +346,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Serpentskin Ringbelt of Aiming",
+                name: "Serpentskin Ringbelt of Aiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Titanium Ingot",
                 "mat-3": "Grade 1 Dexterity Dissolvent",
@@ -358,7 +358,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Dragonskin Belt of Crafting",
+                name: "Dragonskin Belt of Crafting",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "X",
@@ -370,7 +370,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Dragonskin Belt of Gathering",
+                name: "Dragonskin Belt of Gathering",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "X",
@@ -382,7 +382,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Dragonskin Choker",
+                name: "Dragonskin Choker",
                 "mat-1": "Dragon Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Ramie Thread",
@@ -394,7 +394,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "58",
-                "item": "Dragonskin Wristbands",
+                name: "Dragonskin Wristbands",
                 "mat-1": "2 Dragon Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "2 Larimar",
@@ -406,7 +406,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Boots of Striking",
+                name: "Serpentskin Boots of Striking",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Crawler Silk",
@@ -418,7 +418,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Boots of Scouting",
+                name: "Serpentskin Boots of Scouting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Crawler Silk",
@@ -430,7 +430,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Boots of Aiming",
+                name: "Serpentskin Boots of Aiming",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hardsilver Ingot",
                 "mat-3": "Crawler Silk",
@@ -442,7 +442,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Thighboots of Casting",
+                name: "Serpentskin Thighboots of Casting",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hallowed Ramie Cloth",
                 "mat-3": "Titanium Ingot",
@@ -454,7 +454,7 @@ export const LeatherworkerLevels_56_60 = function(parentStorageKey) {
             },
             {
                 "level": "59",
-                "item": "Serpentskin Thighboots of Healing",
+                name: "Serpentskin Thighboots of Healing",
                 "mat-1": "2 Amphipter Leather",
                 "mat-2": "Hallowed Ramie Cloth",
                 "mat-3": "Titanium Ingot",

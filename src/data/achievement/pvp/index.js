@@ -11,11 +11,16 @@ export const PVPAchievements = function(parentStorageKey) {
     return {
         name: "PVP",
         storageKey,
-        subGroups: [
-            FrontlinePVPAchievements(storageKey),
-            RankingsPVPAchievements(storageKey),
-            RivalWingsPVPAchievements(storageKey),
-            WolvesDenPVPAchievements(storageKey),
-    	]
+        groupKeys: [
+            "Frontline",
+            "Rankings",
+            "RivalWings",
+            "WolvesDen"
+        ],
+        // Groups
+        Frontline: FrontlinePVPAchievements(storageKey),
+        Rankings: RankingsPVPAchievements(storageKey),
+        RivalWings: RivalWingsPVPAchievements(storageKey),
+        WolvesDen: WolvesDenPVPAchievements(storageKey),
     };
 };

@@ -12,14 +12,22 @@ export const CulinarianMasterRecipe = function(parentStorageKey) {
     return {
         name: "Master Recipes",
         storageKey,
-        subGroups: [
-            Culinarian_MasterRecipe_1(storageKey),
-            Culinarian_MasterRecipe_2(storageKey),
-            Culinarian_MasterRecipe_3(storageKey),
-            Culinarian_MasterRecipe_4(storageKey),
-            Culinarian_MasterRecipe_5(storageKey),
-            Culinarian_MasterRecipe_6(storageKey),
-            Culinarian_MasterRecipe_7(storageKey),
-        ]
+        groupKeys: [
+            "MasterRecipe_1",
+            "MasterRecipe_2",
+            "MasterRecipe_3",
+            "MasterRecipe_4",
+            "MasterRecipe_5",
+            "MasterRecipe_6",
+            "MasterRecipe_7",
+        ],
+        // Groups
+        MasterRecipe_1: Culinarian_MasterRecipe_1(storageKey),
+        MasterRecipe_2: Culinarian_MasterRecipe_2(storageKey),
+        MasterRecipe_3: Culinarian_MasterRecipe_3(storageKey),
+        MasterRecipe_4: Culinarian_MasterRecipe_4(storageKey),
+        MasterRecipe_5: Culinarian_MasterRecipe_5(storageKey),
+        MasterRecipe_6: Culinarian_MasterRecipe_6(storageKey),
+        MasterRecipe_7: Culinarian_MasterRecipe_7(storageKey),
     };
 };

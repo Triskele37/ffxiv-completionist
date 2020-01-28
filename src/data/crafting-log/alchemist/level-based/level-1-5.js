@@ -10,7 +10,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "1",
-                "item": "Distilled Water",
+                name: "Distilled Water",
                 "mat-1": "Muddy Water",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "1",
-                "item": "Quicksilver",
+                name: "Quicksilver",
                 "mat-1": "2 Cinnabar",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "2",
-                "item": "Animal Glue",
+                name: "Animal Glue",
                 "mat-1": "Animal Skin",
                 "mat-2": "2 Bone Chip",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "3",
-                "item": "Growth Formula Alpha",
+                name: "Growth Formula Alpha",
                 "mat-1": "Shriekshroom",
                 "mat-2": "Quicksilver",
                 "mat-3": "Rock Salt",
@@ -58,7 +58,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Enchanted Copper Ink",
+                name: "Enchanted Copper Ink",
                 "mat-1": "2 Copper Sand",
                 "mat-2": "Beastkin Blood",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "4",
-                "item": "Maple Wand",
+                name: "Maple Wand",
                 "mat-1": "Maple Branch",
                 "mat-2": "Growth Formula Alpha",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Leather Grimoire",
+                name: "Leather Grimoire",
                 "mat-1": "Enchanted Copper Ink",
                 "mat-2": "Leather",
                 "mat-3": "Maple Log",
@@ -94,7 +94,7 @@ export const AlchemistLevels_1_5 = function(parentStorageKey) {
             },
             {
                 "level": "5",
-                "item": "Antidote",
+                name: "Antidote",
                 "mat-1": "Grass Viper",
                 "mat-2": "Rock Salt",
                 "mat-3": "X",

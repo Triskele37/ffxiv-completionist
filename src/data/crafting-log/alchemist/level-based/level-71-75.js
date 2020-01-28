@@ -10,7 +10,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "71",
-                "item": "Growth Formula Iota",
+                name: "Growth Formula Iota",
                 "mat-1": "2 Hoptrap Leaf",
                 "mat-2": "2 Silkmoth Scales",
                 "mat-3": "Birch Sap",
@@ -22,7 +22,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Enchanted Truegold Ink",
+                name: "Enchanted Truegold Ink",
                 "mat-1": "3 Truegold Sand",
                 "mat-2": "Silkmoth Scales",
                 "mat-3": "Crescent Spring Water",
@@ -34,7 +34,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Crimson Firesand",
+                name: "Crimson Firesand",
                 "mat-1": "3 Coarse Saltpeter",
                 "mat-2": "3 Brimstone",
                 "mat-3": "Larch Log",
@@ -46,7 +46,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Grimoire",
+                name: "Smilodonskin Grimoire",
                 "mat-1": "Enchanted Truegold Ink",
                 "mat-2": "2 Palladium Nugget",
                 "mat-3": "White Oak Lumber",
@@ -58,7 +58,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "71",
-                "item": "Smilodonskin Codex",
+                name: "Smilodonskin Codex",
                 "mat-1": "Enchanted Truegold Ink",
                 "mat-2": "2 Palladium Nugget",
                 "mat-3": "White Oak Lumber",
@@ -70,7 +70,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Grimoire",
+                name: "Gliderskin Grimoire",
                 "mat-1": "Enchanted Truegold Ink",
                 "mat-2": "Green Glider Leather",
                 "mat-3": "2 Deepgold Ingot",
@@ -82,7 +82,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Gliderskin Codex",
+                name: "Gliderskin Codex",
                 "mat-1": "Enchanted Truegold Ink",
                 "mat-2": "Green Glider Leather",
                 "mat-3": "2 Deepgold Ingot",
@@ -94,7 +94,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "72",
-                "item": "Superior Spiritbond Potion",
+                name: "Superior Spiritbond Potion",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Purple Carrot",
                 "mat-3": "2 Wolf Fang",
@@ -106,7 +106,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grade 1 Strength Alkahest",
+                name: "Grade 1 Strength Alkahest",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Hoptrap Leaf",
                 "mat-3": "2 Yanxian Parsley",
@@ -118,7 +118,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grade 1 Dexterity Alkahest",
+                name: "Grade 1 Dexterity Alkahest",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Hoptrap Leaf",
                 "mat-3": "2 Alyssum",
@@ -130,7 +130,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grade 1 Vitality Alkahest",
+                name: "Grade 1 Vitality Alkahest",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Hoptrap Leaf",
                 "mat-3": "2 Nagxian Cudweed",
@@ -142,7 +142,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grade 1 Intelligence Alkahest",
+                name: "Grade 1 Intelligence Alkahest",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Hoptrap Leaf",
                 "mat-3": "2 Chickweed",
@@ -154,7 +154,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "73",
-                "item": "Grade 1 Mind Alkahest",
+                name: "Grade 1 Mind Alkahest",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "Hoptrap Leaf",
                 "mat-3": "2 Nipplewort",
@@ -166,7 +166,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Enchanted Manasilver Ink",
+                name: "Enchanted Manasilver Ink",
                 "mat-1": "3 Manasilver Sand",
                 "mat-2": "Silkmoth Scales",
                 "mat-3": "Highland Spring Water",
@@ -178,7 +178,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Grimoire",
+                name: "Bluespirit Grimoire",
                 "mat-1": "Enchanted Manasilver Ink",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Manasilver Nugget",
@@ -190,7 +190,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "74",
-                "item": "Bluespirit Codex",
+                name: "Bluespirit Codex",
                 "mat-1": "Enchanted Manasilver Ink",
                 "mat-2": "2 Bluespirit Tile",
                 "mat-3": "Manasilver Nugget",
@@ -202,7 +202,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Starch Glue",
+                name: "Starch Glue",
                 "mat-1": "2 Vampire Cup Vine",
                 "mat-2": "2 Vampire Vine Sap",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const AlchemistLevels_71_75 = function(parentStorageKey) {
             },
             {
                 "level": "75",
-                "item": "Competent Craftsman's Syrup",
+                name: "Competent Craftsman's Syrup",
                 "mat-1": "Highland Spring Water",
                 "mat-2": "2 Vampire Cup Vine",
                 "mat-3": "2 Sweet Alyssum",

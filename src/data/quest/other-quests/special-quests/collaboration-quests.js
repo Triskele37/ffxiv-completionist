@@ -1,6 +1,6 @@
 import { SimpleQuestColumnConfig } from "../../columnConfigs";
 
-export const CollaborationQuests = function(parentStorageKey) {
+export const Quest_Other_Special_Collaboration = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.collaboration`;
 
     return {

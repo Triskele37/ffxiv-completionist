@@ -10,7 +10,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "36",
-                "item": "Wrapped Steel Claw Hammer",
+                name: "Wrapped Steel Claw Hammer",
                 "mat-1": "Steel Claw Hammer",
                 "mat-2": "Boar Leather",
                 "mat-3": "Linseed Oil",
@@ -22,7 +22,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Steel Round Knife",
+                name: "Steel Round Knife",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -34,7 +34,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "36",
-                "item": "Wrapped Steel Awl",
+                name: "Wrapped Steel Awl",
                 "mat-1": "Steel Awl",
                 "mat-2": "Toad Leather",
                 "mat-3": "Linseed Oil",
@@ -46,7 +46,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "37",
-                "item": "Steel Longsword",
+                name: "Steel Longsword",
                 "mat-1": "2 Steel Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Fish Glue",
@@ -58,7 +58,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Ingot",
+                name: "Mythril Ingot",
                 "mat-1": "3 Mythril Ore",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Broadsword",
+                name: "Mythril Broadsword",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Wolf Fang",
@@ -82,7 +82,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Claymore",
+                name: "Mythril Claymore",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Bronze Ingot",
@@ -94,7 +94,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Knives",
+                name: "Mythril Knives",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril-barreled Carbine",
+                name: "Mythril-barreled Carbine",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Brass Ingot",
                 "mat-3": "Oak Lumber",
@@ -118,7 +118,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Wrapped Crowsbeak Hammer",
+                name: "Wrapped Crowsbeak Hammer",
                 "mat-1": "Steel Crowsbeak Hammer",
                 "mat-2": "Steel Ingot",
                 "mat-3": "Boar Leather",
@@ -130,7 +130,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Steel Raising Hammer",
+                name: "Steel Raising Hammer",
                 "mat-1": "Steel Ingot",
                 "mat-2": "Steel Plate",
                 "mat-3": "Oak Lumber",
@@ -142,7 +142,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Plumed Mythril Pickaxe",
+                name: "Plumed Mythril Pickaxe",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Undyed Linen",
                 "mat-3": "Oak Lumber",
@@ -154,7 +154,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Mythril Hatchet",
+                name: "Mythril Hatchet",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Brass Ingot",
@@ -166,7 +166,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "38",
-                "item": "Vintage Viking Sword",
+                name: "Vintage Viking Sword",
                 "mat-1": "Nicked Viking Sword",
                 "mat-2": "Mudstone Whetstone",
                 "mat-3": "X",
@@ -178,7 +178,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Rivets",
+                name: "Mythril Rivets",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -190,7 +190,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Spiked Mythril Labrys",
+                name: "Spiked Mythril Labrys",
                 "mat-1": "3 Steel Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Boar Leather",
@@ -202,7 +202,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Claws",
+                name: "Mythril Claws",
                 "mat-1": "Mythril Plate",
                 "mat-2": "Mythril Ingot",
                 "mat-3": "Oak Lumber",
@@ -214,7 +214,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Saw",
+                name: "Mythril Saw",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Oak Lumber",
@@ -226,7 +226,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "39",
-                "item": "Mythril Head Knife",
+                name: "Mythril Head Knife",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Siltstone Whetstone",
@@ -238,7 +238,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Bhuj",
+                name: "Mythril Bhuj",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Walnut Lumber",
                 "mat-3": "Electrum Ingot",
@@ -250,7 +250,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Claw Hammer",
+                name: "Mythril Claw Hammer",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Linseed Oil",
@@ -262,7 +262,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril File",
+                name: "Mythril File",
                 "mat-1": "2 Mythril Ingot",
                 "mat-2": "Boar Leather",
                 "mat-3": "X",
@@ -274,7 +274,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Ornamental Hammer",
+                name: "Mythril Ornamental Hammer",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Mythril Rivets",
                 "mat-3": "Oak Lumber",
@@ -286,7 +286,7 @@ export const BlacksmithLevels_36_40 = function(parentStorageKey) {
             },
             {
                 "level": "40",
-                "item": "Mythril Awl",
+                name: "Mythril Awl",
                 "mat-1": "Mythril Ingot",
                 "mat-2": "Oak Lumber",
                 "mat-3": "Linseed Oil",

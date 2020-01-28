@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const ArcanistQuests = function(parentStorageKey) {
+export const Quest_Class_And_Job_Disciple_Of_Magic_Arcanist = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.arcanist`;
 
     return {

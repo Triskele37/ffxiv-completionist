@@ -10,7 +10,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "61",
-                "item": "Bloodhempen Cloth",
+                name: "Bloodhempen Cloth",
                 "mat-1": "3 Bloodhempen Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Yarn",
+                name: "Bloodhempen Yarn",
                 "mat-1": "4 Bloodhemp",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Armguards of Striking",
+                name: "Bloodhempen Armguards of Striking",
                 "mat-1": "2 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -46,7 +46,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Armguards of Scouting",
+                name: "Bloodhempen Armguards of Scouting",
                 "mat-1": "2 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -58,7 +58,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Brais of Striking",
+                name: "Bloodhempen Brais of Striking",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -70,7 +70,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Brais of Scouting",
+                name: "Bloodhempen Brais of Scouting",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -82,7 +82,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Culottes of Casting",
+                name: "Bloodhempen Culottes of Casting",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -94,7 +94,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Culottes of Healing",
+                name: "Bloodhempen Culottes of Healing",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -106,7 +106,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Turban of Crafting",
+                name: "Bloodhempen Turban of Crafting",
                 "mat-1": "2 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -118,7 +118,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Vest of Striking",
+                name: "Bloodhempen Vest of Striking",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "2 Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -130,7 +130,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Vest of Scouting",
+                name: "Bloodhempen Vest of Scouting",
                 "mat-1": "2 Gagana Leather",
                 "mat-2": "2 Bloodhempen Cloth",
                 "mat-3": "Bloodhempen Yarn",
@@ -142,7 +142,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Chestwrap of Casting",
+                name: "Bloodhempen Chestwrap of Casting",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -154,7 +154,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Chestwrap of Healing",
+                name: "Bloodhempen Chestwrap of Healing",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "Bloodhempen Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -166,7 +166,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Doublet of Crafting",
+                name: "Bloodhempen Doublet of Crafting",
                 "mat-1": "2 Bloodhempen Cloth",
                 "mat-2": "2 Gagana Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -178,7 +178,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Skirt",
+                name: "Bloodhempen Skirt",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "1 Gagana Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -190,7 +190,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "61",
-                "item": "Bloodhempen Trousers of Gathering",
+                name: "Bloodhempen Trousers of Gathering",
                 "mat-1": "3 Bloodhempen Cloth",
                 "mat-2": "1 Gagana Leather",
                 "mat-3": "Bloodhempen Yarn",
@@ -202,7 +202,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Cloth",
+                name: "Ruby Cotton Cloth",
                 "mat-1": "3 Ruby Cotton Yarn",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -214,7 +214,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Yarn",
+                name: "Ruby Cotton Yarn",
                 "mat-1": "4 Ruby Cotton Boll",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -226,7 +226,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Bandana of Striking",
+                name: "Ruby Cotton Bandana of Striking",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Ingot",
@@ -238,7 +238,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Bandana of Scouting",
+                name: "Ruby Cotton Bandana of Scouting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "High Steel Ingot",
@@ -250,7 +250,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Hat of Casting",
+                name: "Ruby Cotton Hat of Casting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -262,7 +262,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Fingerless Gloves of Casting",
+                name: "Ruby Cotton Fingerless Gloves of Casting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -274,7 +274,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Sash of Casting",
+                name: "Ruby Cotton Sash of Casting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "X",
@@ -286,7 +286,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Sash of Healing",
+                name: "Ruby Cotton Sash of Healing",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "X",
@@ -298,7 +298,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "62",
-                "item": "Ruby Cotton Apron",
+                name: "Ruby Cotton Apron",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -310,7 +310,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Cap",
+                name: "Ruby Cotton Cap",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Koppranickel Nugget",
@@ -322,7 +322,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Gilet of Striking",
+                name: "Ruby Cotton Gilet of Striking",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Ingot",
@@ -334,7 +334,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Gilet of Scouting",
+                name: "Ruby Cotton Gilet of Scouting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Ingot",
@@ -346,7 +346,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Gambison",
+                name: "Ruby Cotton Gambison",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -358,7 +358,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Robe of Casting",
+                name: "Ruby Cotton Robe of Casting",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -370,7 +370,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Chasuble",
+                name: "Ruby Cotton Chasuble",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Bloodhempen Cloth",
                 "mat-3": "Gyuki Leather",
@@ -382,7 +382,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Coatee",
+                name: "Ruby Cotton Coatee",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -394,7 +394,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Gaskins of Striking",
+                name: "Ruby Cotton Gaskins of Striking",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Ingot",
@@ -406,7 +406,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Gaskins of Scouting",
+                name: "Ruby Cotton Gaskins of Scouting",
                 "mat-1": "2 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "High Steel Ingot",
@@ -418,7 +418,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Sarouel",
+                name: "Ruby Cotton Sarouel",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -430,7 +430,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Longkilt",
+                name: "Ruby Cotton Longkilt",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -442,7 +442,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Smalls",
+                name: "Ruby Cotton Smalls",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -454,7 +454,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "63",
-                "item": "Ruby Cotton Bottoms",
+                name: "Ruby Cotton Bottoms",
                 "mat-1": "3 Ruby Cotton Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -466,7 +466,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Cloth",
+                name: "Kudzu Cloth",
                 "mat-1": "2 Kudzu Thread",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "X",
@@ -478,7 +478,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Thread",
+                name: "Kudzu Thread",
                 "mat-1": "4 Kudzu Vine",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -490,7 +490,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Hat of Casting",
+                name: "Kudzu Hat of Casting",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -502,7 +502,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Hat of Healing",
+                name: "Kudzu Hat of Healing",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -514,7 +514,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Corset of Casting",
+                name: "Kudzu Corset of Casting",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -526,7 +526,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Corset of Healing",
+                name: "Kudzu Corset of Healing",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Ruby Cotton Yarn",
@@ -538,7 +538,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Longkilt of Fending",
+                name: "Kudzu Longkilt of Fending",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -550,7 +550,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Longkilt of Maiming",
+                name: "Kudzu Longkilt of Maiming",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -562,7 +562,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Trousers of Scouting",
+                name: "Kudzu Trousers of Scouting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Tiger Leather",
                 "mat-3": "High Steel Ingot",
@@ -574,7 +574,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Trousers of Aiming",
+                name: "Kudzu Trousers of Aiming",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Tiger Leather",
                 "mat-3": "High Steel Ingot",
@@ -586,7 +586,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Longkilt of Casting",
+                name: "Kudzu Longkilt of Casting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Kudzu Thread",
@@ -598,7 +598,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "64",
-                "item": "Kudzu Longkilt of Healing",
+                name: "Kudzu Longkilt of Healing",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Kudzu Thread",
@@ -610,7 +610,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Cap of Crafting",
+                name: "Kudzu Cap of Crafting",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Yarn",
@@ -622,7 +622,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Tunic of Striking",
+                name: "Kudzu Tunic of Striking",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -634,7 +634,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Tunic of Scouting",
+                name: "Kudzu Tunic of Scouting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -646,7 +646,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Tunic of Aiming",
+                name: "Kudzu Tunic of Aiming",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Gyuki Leather",
                 "mat-3": "Koppranickel Nugget",
@@ -658,7 +658,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Robe of Casting",
+                name: "Kudzu Robe of Casting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Cloth",
@@ -670,7 +670,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Robe of Healing",
+                name: "Kudzu Robe of Healing",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Durium Nugget",
                 "mat-3": "Ruby Cotton Cloth",
@@ -682,7 +682,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Robe of Crafting",
+                name: "Kudzu Robe of Crafting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Durium Nugget",
@@ -694,7 +694,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Coat of Gathering",
+                name: "Kudzu Coat of Gathering",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Ruby Cotton Yarn",
                 "mat-3": "Durium Nugget",
@@ -706,7 +706,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Trousers of Striking",
+                name: "Kudzu Trousers of Striking",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Tiger Leather",
                 "mat-3": "High Steel Ingot",
@@ -718,7 +718,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Culottes of Crafting",
+                name: "Kudzu Culottes of Crafting",
                 "mat-1": "3 Kudzu Cloth",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",
@@ -730,7 +730,7 @@ export const WeaverLevels_61_65 = function(parentStorageKey) {
             },
             {
                 "level": "65",
-                "item": "Kudzu Culottes of Gathering",
+                name: "Kudzu Culottes of Gathering",
                 "mat-1": "2 Kudzu Cloth",
                 "mat-2": "Ruby Cotton Cloth",
                 "mat-3": "Ruby Cotton Yarn",

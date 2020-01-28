@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Ishgard = function(parentStorageKey) {
+export const Quest_Sidequests_Ishgardian_Ishgard = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.ishgard`;
 
     return {

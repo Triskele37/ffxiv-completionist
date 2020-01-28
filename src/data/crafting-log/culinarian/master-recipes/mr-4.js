@@ -10,7 +10,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "Sweet Gnomefish",
+                name: "Sweet Gnomefish",
                 "mat-1": "Gnomefish",
                 "mat-2": "Birch Syrup",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Oyster Confit",
+                name: "Oyster Confit",
                 "mat-1": "Coerthan Oyster",
                 "mat-2": "Mature Olive Oil",
                 "mat-3": "Laurel",
@@ -34,7 +34,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Angler Stew",
+                name: "Angler Stew",
                 "mat-1": "Priestfish",
                 "mat-2": "Solstice Garlic",
                 "mat-3": "Cyclops Onion",
@@ -46,7 +46,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Peperoncino",
+                name: "Peperoncino",
                 "mat-1": "Vermicelli",
                 "mat-2": "Solstice Garlic",
                 "mat-3": "2 Mature Olive Oil",
@@ -58,7 +58,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Boscaiola",
+                name: "Boscaiola",
                 "mat-1": "Vermicelli",
                 "mat-2": "Tomato Sauce",
                 "mat-3": "2 Mature Olive Oil",
@@ -70,7 +70,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Loaghtan Steak",
+                name: "Loaghtan Steak",
                 "mat-1": "2 Loaghtan Fillet",
                 "mat-2": "Dravanian Paprika",
                 "mat-3": "Fermented Butter",
@@ -82,7 +82,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Apple Strudel",
+                name: "Apple Strudel",
                 "mat-1": "2 Golden Apple",
                 "mat-2": "Highland Flour",
                 "mat-3": "Fermented Butter",
@@ -94,7 +94,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Spiced Cider",
+                name: "Spiced Cider",
                 "mat-1": "2 Golden Apple",
                 "mat-2": "Cinnamon",
                 "mat-3": "Vanilla Beans",
@@ -106,7 +106,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Pasta Ortolano",
+                name: "Pasta Ortolano",
                 "mat-1": "Vermicelli",
                 "mat-2": "Tomato Sauce",
                 "mat-3": "Solstice Garlic",
@@ -118,7 +118,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Heavensegg Soup",
+                name: "Heavensegg Soup",
                 "mat-1": "Heavensegg",
                 "mat-2": "Bouillon Cube",
                 "mat-3": "Smoked Bacon",
@@ -130,7 +130,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Spaghetti Carbonara",
+                name: "Spaghetti Carbonara",
                 "mat-1": "Vermicelli",
                 "mat-2": "Smoked Bacon",
                 "mat-3": "Heavensegg",
@@ -142,7 +142,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Spaghetti Pescatore",
+                name: "Spaghetti Pescatore",
                 "mat-1": "Vermicelli",
                 "mat-2": "Mountain Kraken",
                 "mat-3": "Rock Lobster",
@@ -154,7 +154,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Loaghtan Cordon Bleu",
+                name: "Loaghtan Cordon Bleu",
                 "mat-1": "Loaghtan Fillet",
                 "mat-2": "Smoked Bacon",
                 "mat-3": "Stone Cheese",
@@ -166,7 +166,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Wildwood Scrambled Eggs",
+                name: "Wildwood Scrambled Eggs",
                 "mat-1": "Heavensegg",
                 "mat-2": "Brown Mushroom",
                 "mat-3": "Cyclops Onion",
@@ -178,7 +178,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Priestly Omelette",
+                name: "Priestly Omelette",
                 "mat-1": "Heavensegg",
                 "mat-2": "Stone Cheese",
                 "mat-3": "Brown Mushroom",
@@ -190,7 +190,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavenly Eggnog",
+                name: "Heavenly Eggnog",
                 "mat-1": "Heavensegg",
                 "mat-2": "Sweet Cream Milk",
                 "mat-3": "Sweet Cream",
@@ -202,7 +202,7 @@ export const Culinarian_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Flaugnarde",
+                name: "Flaugnarde",
                 "mat-1": "Gold Apple",
                 "mat-2": "Heavensegg",
                 "mat-3": "Highland Flower",

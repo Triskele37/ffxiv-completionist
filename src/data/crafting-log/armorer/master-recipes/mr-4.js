@@ -10,7 +10,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "60★★",
-                "item": "High Mythrite Nugget",
+                name: "High Mythrite Nugget",
                 "mat-1": "3 Lumythrite Sand",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Galvanized Garlond Steel",
+                name: "Galvanized Garlond Steel",
                 "mat-1": "2 Cobalt Ore",
                 "mat-2": "3 Vivianite",
                 "mat-3": "2 Sphalerite",
@@ -34,7 +34,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Endless Expanse Shield",
+                name: "Endless Expanse Shield",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -46,7 +46,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Dead Hive Scutum",
+                name: "Dead Hive Scutum",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Treated Camphorwood Lumber",
                 "mat-3": "Eikon Iron Ingot",
@@ -58,7 +58,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Helm",
+                name: "Replica Allagan Helm",
                 "mat-1": "2 Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -70,7 +70,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Visor of Maiming",
+                name: "Replica Allagan Visor of Maiming",
                 "mat-1": "2 Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -82,7 +82,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Visor of Striking",
+                name: "Replica Allagan Visor of Striking",
                 "mat-1": "2 Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -94,7 +94,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Visor of Aiming",
+                name: "Replica Allagan Visor of Aiming",
                 "mat-1": "2 Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -106,7 +106,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Headgear of Maiming",
+                name: "Replica High Allagan Headgear of Maiming",
                 "mat-1": "2 High Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -118,7 +118,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Headgear of Striking",
+                name: "Replica High Allagan Headgear of Striking",
                 "mat-1": "2 High Allagan Aetherstone - Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -130,7 +130,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Barbut of Maiming",
+                name: "Replica Dreadwym Barbut of Maiming",
                 "mat-1": "2 Neo Aetherstone Headgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -142,7 +142,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Heavy Allagan \nArmor",
+                name: "Replica Heavy Allagan \nArmor",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "3 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -154,7 +154,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Cuirass of Maiming",
+                name: "Replica Allagan Cuirass of Maiming",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -166,7 +166,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Cuirass of Striking",
+                name: "Replica Allagan Cuirass of Striking",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -178,7 +178,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Cuirass of Aiming",
+                name: "Replica Allagan Cuirass of Aiming",
                 "mat-1": "2 Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -190,7 +190,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Heavy High Allagan Coat\n",
+                name: "Replica Heavy High Allagan Coat\n",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "3 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -202,7 +202,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Cuirass of Maiming",
+                name: "Replica High Allagan Cuirass of Maiming",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -214,7 +214,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Cuirass of Striking",
+                name: "Replica High Allagan Cuirass of Striking",
                 "mat-1": "2 High Allagan Aetherstone - Body Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -226,7 +226,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Armor of Fending",
+                name: "Replica Dreadwym Armor of Fending",
                 "mat-1": "2 Neo Aetherstone Bodygear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -238,7 +238,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Mail of Maiming",
+                name: "Replica Dreadwym Mail of Maiming",
                 "mat-1": "2 Neo Aetherstone Bodygear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -250,7 +250,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Heavy Allagan Gauntlets\n",
+                name: "Replica Heavy Allagan Gauntlets\n",
                 "mat-1": "2 Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -262,19 +262,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Gauntlets of Maiming",
-                "mat-1": "2 Allagan Aetherstone - Hand Gear",
-                "mat-2": "Wootz Ingot",
-                "mat-3": "Platinum Ingot",
-                "mat-4": "2 Kirimu Leather",
-                "mat-5": "3 Battlecraft Demimateria III",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Crystal",
-                "special": "Unlocked w/ Master Armorer IV"
-            },
-            {
-                "level": "60★★",
-                "item": "Replica Allagan Gauntlets of Striking\n",
+                name: "Replica Allagan Gauntlets of Maiming",
                 "mat-1": "2 Allagan Aetherstone - Hand Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -286,7 +274,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Gauntlets of Aiming",
+                name: "Replica Allagan Gauntlets of Striking\n",
                 "mat-1": "2 Allagan Aetherstone - Hand Gear",
                 "mat-2": "Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -298,7 +286,19 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gauntlets of Fending\n",
+                name: "Replica Allagan Gauntlets of Aiming",
+                "mat-1": "2 Allagan Aetherstone - Hand Gear",
+                "mat-2": "Wootz Ingot",
+                "mat-3": "Platinum Ingot",
+                "mat-4": "2 Kirimu Leather",
+                "mat-5": "3 Battlecraft Demimateria III",
+                "mat-6": "X",
+                "catalysts": "2 Ice Cluster, 2 Earth Crystal",
+                "special": "Unlocked w/ Master Armorer IV"
+            },
+            {
+                "level": "60★★",
+                name: "Replica High Allagan Gauntlets of Fending\n",
                 "mat-1": "High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -310,7 +310,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gauntlets of Maiming\n",
+                name: "Replica High Allagan Gauntlets of Maiming\n",
                 "mat-1": "High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -322,7 +322,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Gauntlets of Striking",
+                name: "Replica High Allagan Gauntlets of Striking",
                 "mat-1": "High Allagan Aetherstone - Hand Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -334,7 +334,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Gauntlets of Fending",
+                name: "Replica Dreadwym Gauntlets of Fending",
                 "mat-1": "2 Neo Aetherstone Handgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -346,7 +346,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Vambraces of Maiming",
+                name: "Replica Dreadwym Vambraces of Maiming",
                 "mat-1": "2 Neo Aetherstone Handgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -358,7 +358,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Heavy Allagan Cuisses\n",
+                name: "Replica Heavy Allagan Cuisses\n",
                 "mat-1": "2 Allagan Aetherstone - Leg Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -370,7 +370,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Heavy Allagan Flanchard\n",
+                name: "Replica Heavy Allagan Flanchard\n",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -382,7 +382,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Sollerets of Maiming",
+                name: "Replica Allagan Sollerets of Maiming",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -394,7 +394,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Sollerets of Striking\n",
+                name: "Replica Allagan Sollerets of Striking\n",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -406,7 +406,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Allagan Sollerets of Aiming\n",
+                name: "Replica Allagan Sollerets of Aiming\n",
                 "mat-1": "2 Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -418,7 +418,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Sabatons of Fending\n",
+                name: "Replica High Allagan Sabatons of Fending\n",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -430,7 +430,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Sabatons of Maiming",
+                name: "Replica High Allagan Sabatons of Maiming",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -442,7 +442,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica High Allagan Sabatons of Striking\n",
+                name: "Replica High Allagan Sabatons of Striking\n",
                 "mat-1": "2 High Allagan Aetherstone - Foot Gear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -454,7 +454,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Sabatons of Fending",
+                name: "Replica Dreadwym Sabatons of Fending",
                 "mat-1": "2 Neo Aetherstone Footgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -466,7 +466,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Greaves of Maiming",
+                name: "Replica Dreadwym Greaves of Maiming",
                 "mat-1": "2 Neo Aetherstone Footgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -478,7 +478,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★",
-                "item": "Replica Dreadwym Greaves of Aiming",
+                name: "Replica Dreadwym Greaves of Aiming",
                 "mat-1": "2 Neo Aetherstone Footgear",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -490,7 +490,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Ingot",
+                name: "High Mythrite Ingot",
                 "mat-1": "2 Eikon Mythrite",
                 "mat-2": "2 Mythrite Ore",
                 "mat-3": "3 Lumythrite Ore",
@@ -502,7 +502,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Shield of the Round",
+                name: "Shield of the Round",
                 "mat-1": "Allagan Aetherstone Weaponry",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -514,7 +514,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Shield of the Fiend",
+                name: "Shield of the Fiend",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Eikon Leather",
                 "mat-3": "Eikon Iron Ingot",
@@ -526,7 +526,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Seeing Horde Shield",
+                name: "Seeing Horde Shield",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "Nidhogg's Scale",
@@ -538,7 +538,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Shield of the Goddess",
+                name: "Shield of the Goddess",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Eikon Iron Ingot",
                 "mat-3": "Sophic Bead Fragment",
@@ -550,7 +550,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica Allagan Round Shield",
+                name: "Replica Allagan Round Shield",
                 "mat-1": "Allagan Aetherstone - Weaponry",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -562,7 +562,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Replica High Allagan Kite Shield\n",
+                name: "Replica High Allagan Kite Shield\n",
                 "mat-1": "High Allagan Aetherstone - Weaponry",
                 "mat-2": "2 Wootz Ingot",
                 "mat-3": "Platinum Ingot",
@@ -574,7 +574,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Helm of Fending\n",
+                name: "High Mythrite Helm of Fending\n",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Eikon Leather",
@@ -586,7 +586,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Cuirass of Fending\n",
+                name: "High Mythrite Cuirass of Fending\n",
                 "mat-1": "3 High Mythrite Ingot",
                 "mat-2": "2 Aurum Regis Nugget",
                 "mat-3": "Eikon Leather",
@@ -598,7 +598,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Gauntlets of Fending",
+                name: "High Mythrite Gauntlets of Fending",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Eikon Leather",
@@ -610,7 +610,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Plate Belt of Fending\n",
+                name: "High Mythrite Plate Belt of Fending\n",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Titanium Rivets",
                 "mat-3": "Pterodactyl Leather",
@@ -622,7 +622,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Tassets of Maiming",
+                name: "High Mythrite Tassets of Maiming",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -634,7 +634,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Tassets of Striking\n",
+                name: "High Mythrite Tassets of Striking\n",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Pterodactyl Leather",
                 "mat-3": "Grade 1 Strength Dissolvent",
@@ -646,7 +646,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Sabatons of Fending\n",
+                name: "High Mythrite Sabatons of Fending\n",
                 "mat-1": "2 High Mythrite Ingot",
                 "mat-2": "Aurum Regis Nugget",
                 "mat-3": "Eikon Leather",
@@ -658,7 +658,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Faust Striking Dummy",
+                name: "Faust Striking Dummy",
                 "mat-1": "3 Faust Armor Plating",
                 "mat-2": "2 Gordian Gear",
                 "mat-3": "2 High Mythrite Ingot",
@@ -670,7 +670,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Indirect Stand Lighting",
+                name: "Indirect Stand Lighting",
                 "mat-1": "3 Titanium Alloy Ingot",
                 "mat-2": "3 Wolfram Ingot",
                 "mat-3": "3 Titanium Rivets",
@@ -682,7 +682,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Indirect Lighting",
+                name: "Indirect Lighting",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "2 Wolfram Ingot",
                 "mat-3": "2 Titanium Rivets",
@@ -694,7 +694,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Indirect Wall Lighting",
+                name: "Indirect Wall Lighting",
                 "mat-1": "2 Titanium Alloy Ingot",
                 "mat-2": "2 Wolfram Ingot",
                 "mat-3": "2 Titanium Rivets",
@@ -706,7 +706,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "Cloud Mythril Ingot",
+                name: "Cloud Mythril Ingot",
                 "mat-1": "2 Cloud Mythril Ore",
                 "mat-2": "Lumythrite Sand",
                 "mat-3": "X",
@@ -718,7 +718,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Alembic",
+                name: "High Mythrite Alembic",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "2 High Mythrite Ingot",
                 "mat-3": "2 Eikon Iron Ingot",
@@ -730,7 +730,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★",
-                "item": "High Mythrite Frypan",
+                name: "High Mythrite Frypan",
                 "mat-1": "3 Luminous Fiber",
                 "mat-2": "3 High Mythrite Ingot",
                 "mat-3": "Treated Camphorwood Lumber",
@@ -742,7 +742,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Ingot",
+                name: "Heavy Metal Ingot",
                 "mat-1": "3 Tungstite",
                 "mat-2": "2 Titanium Carbide",
                 "mat-3": "2 Wolfram Ingot",
@@ -754,7 +754,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Kite Shield",
+                name: "Heavy Metal Kite Shield",
                 "mat-1": "2 Wolfram Square",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Gold Ingot",
@@ -766,7 +766,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Coif of Fending",
+                name: "Heavy Metal Coif of Fending",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -778,7 +778,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Coif of Maiming",
+                name: "Heavy Metal Coif of Maiming",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -790,7 +790,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Mask of Striking",
+                name: "Sky Rat Mask of Striking",
                 "mat-1": "Cloud 2 Mythril Ingot",
                 "mat-2": "High Mythrite Nugget",
                 "mat-3": "Griffin Leather Strap",
@@ -802,7 +802,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Mask of Scouting",
+                name: "Sky Rat Mask of Scouting",
                 "mat-1": "Cloud 2 Mythril Ingot",
                 "mat-2": "High Mythrite Nugget",
                 "mat-3": "Griffin Leather Strap",
@@ -814,7 +814,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Cuirass of Fending",
+                name: "Heavy Metal Cuirass of Fending",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Star Velvet",
@@ -826,7 +826,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Cuirass of Maiming",
+                name: "Heavy Metal Cuirass of Maiming",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Star Velvet",
@@ -838,7 +838,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Gauntlets of Fending",
+                name: "Heavy Metal Gauntlets of Fending",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -850,7 +850,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hook of Fending",
+                name: "Sky Rat Hook of Fending",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -862,7 +862,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Gauntlets of Maiming",
+                name: "Heavy Metal Gauntlets of Maiming",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -874,7 +874,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hook of Maiming",
+                name: "Sky Rat Hook of Maiming",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -886,7 +886,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hook of Scouting",
+                name: "Sky Rat Hook of Scouting",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -898,7 +898,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Hook of Healing",
+                name: "Sky Rat Hook of Healing",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Chimerical Felt",
@@ -910,7 +910,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Plate Belt of Fending",
+                name: "Heavy Metal Plate Belt of Fending",
                 "mat-1": "Hemicyon Leather",
                 "mat-2": "Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -922,7 +922,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Plate Belt of Maiming",
+                name: "Heavy Metal Plate Belt of Maiming",
                 "mat-1": "Hemicyon Leather",
                 "mat-2": "Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -934,7 +934,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Tassets of Striking",
+                name: "Heavy Metal Tassets of Striking",
                 "mat-1": "Grade 3 Strength Dissolvent",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -946,7 +946,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Tassets of Scouting",
+                name: "Heavy Metal Tassets of Scouting",
                 "mat-1": "Grade 3 Dexterity Dissolvent",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -958,7 +958,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Tassets of Aiming",
+                name: "Heavy Metal Tassets of Aiming",
                 "mat-1": "Grade 3 Dexterity Dissolvent",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -970,7 +970,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Sabatons of Fending",
+                name: "Heavy Metal Sabatons of Fending",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -982,7 +982,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Heavy Metal Sabatons of Maiming",
+                name: "Heavy Metal Sabatons of Maiming",
                 "mat-1": "Scintillant Ingot",
                 "mat-2": "2 Heavy Metal Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -994,7 +994,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Ironclad Boots of Striking",
+                name: "Sky Rat Ironclad Boots of Striking",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -1006,7 +1006,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Ironclad Boots of Aiming",
+                name: "Sky Rat Ironclad Boots of Aiming",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -1018,7 +1018,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Sky Rat Ironclad Boots of Casting",
+                name: "Sky Rat Ironclad Boots of Casting",
                 "mat-1": "Peteinosaur Leather",
                 "mat-2": "Cloud Mythril Ingot",
                 "mat-3": "Griffin Leather Strap",
@@ -1030,7 +1030,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Zurvanite Barding",
+                name: "Zurvanite Barding",
                 "mat-1": "Zurvanite Carapace Fragment",
                 "mat-2": "3 Heavy Metal Ingot",
                 "mat-3": "Hemicyon Leather",
@@ -1042,7 +1042,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Alexander Miniature",
+                name: "Alexander Miniature",
                 "mat-1": "Alexander Exoplating",
                 "mat-2": "3 Heavy Metal Ingot",
                 "mat-3": "2 Gordian Gear",
@@ -1054,7 +1054,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "60★★★★",
-                "item": "Zurvan Miniature",
+                name: "Zurvan Miniature",
                 "mat-1": "Zurvanite Carapace Fragment",
                 "mat-2": "3 Heavy Metal Ingot",
                 "mat-3": "2 Adamantite Ingot",
@@ -1066,7 +1066,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Pure Titanium Plate",
+                name: "Pure Titanium Plate",
                 "mat-1": "3 Pure Titanium Ore",
                 "mat-2": "9 Coke",
                 "mat-3": "X",
@@ -1078,7 +1078,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Reveler's Barding",
+                name: "Reveler's Barding",
                 "mat-1": "Blade of Revelry",
                 "mat-2": "3 Molybdenum Ingot",
                 "mat-3": "Gazelle Leather",
@@ -1090,7 +1090,7 @@ export const Armorer_MasterRecipe_4 = function(parentStorageKey) {
             },
             {
                 "level": "70★",
-                "item": "Susano Miniature",
+                name: "Susano Miniature",
                 "mat-1": "Blade of Revelry",
                 "mat-2": "3 Molybdenum Ingot",
                 "mat-3": "Palladium Nugget",

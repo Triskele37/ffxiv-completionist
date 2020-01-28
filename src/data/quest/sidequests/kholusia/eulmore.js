@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const Eulmore = function(parentStorageKey) {
+export const Quest_Sidequests_Kholusia_Eulmore = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.eulmore`;
 
     return {

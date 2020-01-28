@@ -10,7 +10,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "6",
-                "item": "Bronze Spear",
+                name: "Bronze Spear",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Fish Oil",
                 "mat-3": "Bronze Ingot",
@@ -22,7 +22,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "6",
-                "item": "Maple Cane",
+                name: "Maple Cane",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Growth Formula Alpha",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "7",
-                "item": "Maple Longbow",
+                name: "Maple Longbow",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Maple Branch",
                 "mat-3": "Hempen Yarn",
@@ -46,7 +46,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Maple Crook",
+                name: "Maple Crook",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Beastkin Blood",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "8",
-                "item": "Maple Fishing Rod",
+                name: "Maple Fishing Rod",
                 "mat-1": "Maple Lumber",
                 "mat-2": "Maple Branch",
                 "mat-3": "Bronze Ingot",
@@ -70,7 +70,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Plumed Maple Shortbow",
+                name: "Plumed Maple Shortbow",
                 "mat-1": "Maple Shortbow",
                 "mat-2": "Maple Branch",
                 "mat-3": "Cock Feather",
@@ -82,7 +82,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "9",
-                "item": "Round Shield",
+                name: "Round Shield",
                 "mat-1": "Maple Lumber",
                 "mat-2": "2 Bronze Rivets",
                 "mat-3": "Bronze Ingot",
@@ -94,7 +94,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Ash Lumber",
+                name: "Ash Lumber",
                 "mat-1": "3 Ash Log",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -106,7 +106,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Ash Macuahuitl",
+                name: "Ash Macuahuitl",
                 "mat-1": "Ash Lumber",
                 "mat-2": "Obsidian",
                 "mat-3": "X",
@@ -118,7 +118,7 @@ export const CarpenterLevels_6_10 = function(parentStorageKey) {
             },
             {
                 "level": "10",
-                "item": "Ramhorn Harpoon",
+                name: "Ramhorn Harpoon",
                 "mat-1": "Ash Lumber",
                 "mat-2": "Ram Horn",
                 "mat-3": "X",

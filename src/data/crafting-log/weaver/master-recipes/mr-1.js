@@ -10,7 +10,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "50★★",
-                "item": "Silver Brocade",
+                name: "Silver Brocade",
                 "mat-1": "2 Silk Thread",
                 "mat-2": "Silver Ingot",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★",
-                "item": "Carpeting",
+                name: "Carpeting",
                 "mat-1": "3 Vanya Silk",
                 "mat-2": "2 Undyed Felt",
                 "mat-3": "5 Linen Yarn",
@@ -34,7 +34,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Intricate Silver Brocade",
+                name: "Intricate Silver Brocade",
                 "mat-1": "Silver Brocade",
                 "mat-2": "2 Fieldcraft Demimateria III",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Camlet",
+                name: "Camlet",
                 "mat-1": "3 Camel Hair",
                 "mat-2": "Cashmere Fleece",
                 "mat-3": "Diluted Vitriol",
@@ -58,7 +58,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Cloth",
+                name: "Cashmere Cloth",
                 "mat-1": "Cashmere Fleece",
                 "mat-2": "Diluted Vitriol",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Perfect Cloth",
+                name: "Perfect Cloth",
                 "mat-1": "Stained Cloth",
                 "mat-2": "2 Pumice",
                 "mat-3": "Linen Yarn",
@@ -82,7 +82,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Hat of Aiming",
+                name: "Cashmere Hat of Aiming",
                 "mat-1": "Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Silk Thread",
@@ -94,7 +94,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Hat of Casting",
+                name: "Cashmere Hat of Casting",
                 "mat-1": "Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -106,7 +106,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "New World Headdress",
+                name: "New World Headdress",
                 "mat-1": "2 New World Macrame",
                 "mat-2": "2 Cashmere Cloth",
                 "mat-3": "2 Woolen Yarn",
@@ -118,7 +118,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Robe of Casting",
+                name: "Cashmere Robe of Casting",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -130,7 +130,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Robe of Healing",
+                name: "Cashmere Robe of Healing",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -142,7 +142,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "New World Jacket",
+                name: "New World Jacket",
                 "mat-1": "2 New World Macrame",
                 "mat-2": "2 Cashmere Cloth",
                 "mat-3": "Saurian Leather",
@@ -154,7 +154,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Skirt of Striking",
+                name: "Cashmere Skirt of Striking",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -166,7 +166,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Skirt of Aiming",
+                name: "Cashmere Skirt of Aiming",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Hippogryph Leather",
@@ -178,7 +178,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Breeches of Casting",
+                name: "Cashmere Breeches of Casting",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -190,7 +190,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "Cashmere Skirt of Healing",
+                name: "Cashmere Skirt of Healing",
                 "mat-1": "2 Cashmere Cloth",
                 "mat-2": "2 Terminus Putty",
                 "mat-3": "Undyed Felt",
@@ -202,7 +202,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "50★★★",
-                "item": "New World Hose",
+                name: "New World Hose",
                 "mat-1": "New World Macrame",
                 "mat-2": "2 Cashmere Cloth",
                 "mat-3": "Saurian Leather",
@@ -214,7 +214,7 @@ export const Weaver_MasterRecipe_1 = function(parentStorageKey) {
             },
             {
                 "level": "53",
-                "item": "Farreach Canvas",
+                name: "Farreach Canvas",
                 "mat-1": "3 Red Moko Grass",
                 "mat-2": "9 Potash",
                 "mat-3": "X",

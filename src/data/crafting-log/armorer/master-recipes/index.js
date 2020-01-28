@@ -13,15 +13,24 @@ export const ArmorerMasterRecipe = function(parentStorageKey) {
     return {
         name: "Master Recipes",
         storageKey,
-        subGroups: [
-            Armorer_MasterRecipe_1(storageKey),
-            Armorer_MasterRecipe_2(storageKey),
-            Armorer_MasterRecipe_3(storageKey),
-            Armorer_MasterRecipe_4(storageKey),
-            Armorer_MasterRecipe_5(storageKey),
-            Armorer_MasterRecipe_6(storageKey),
-            Armorer_MasterRecipe_7(storageKey),
-            Armorer_MasterRecipe_Other(storageKey),
-        ]
+        groupKeys: [
+            "MasterRecipe_1",
+            "MasterRecipe_2",
+            "MasterRecipe_3",
+            "MasterRecipe_4",
+            "MasterRecipe_5",
+            "MasterRecipe_6",
+            "MasterRecipe_7",
+            "MasterRecipe_Other",
+        ],
+        // Groups
+        MasterRecipe_1: Armorer_MasterRecipe_1(storageKey),
+        MasterRecipe_2: Armorer_MasterRecipe_2(storageKey),
+        MasterRecipe_3: Armorer_MasterRecipe_3(storageKey),
+        MasterRecipe_4: Armorer_MasterRecipe_4(storageKey),
+        MasterRecipe_5: Armorer_MasterRecipe_5(storageKey),
+        MasterRecipe_6: Armorer_MasterRecipe_6(storageKey),
+        MasterRecipe_7: Armorer_MasterRecipe_7(storageKey),
+        MasterRecipe_Other: Armorer_MasterRecipe_Other(storageKey),
     };
 };

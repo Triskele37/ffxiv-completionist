@@ -10,7 +10,7 @@ export const Alchemist_Story_ClassQuests = function(parentStorageKey) {
         tasks: [
             {
                 "level": 63,
-                "item": "Intellectuary",
+                name: "Intellectuary",
                 "mat-1": "Electuary Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const Alchemist_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 65,
-                "item": "Twice-fermented Mun-Tuy Juice",
+                name: "Twice-fermented Mun-Tuy Juice",
                 "mat-1": "Juice Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -34,7 +34,7 @@ export const Alchemist_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 68,
-                "item": "Luminol",
+                name: "Luminol",
                 "mat-1": "Luminol Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -46,7 +46,7 @@ export const Alchemist_Story_ClassQuests = function(parentStorageKey) {
             },
             {
                 "level": 70,
-                "item": "Potent Dissolvent",
+                name: "Potent Dissolvent",
                 "mat-1": "Dissolvent Ingredients",
                 "mat-2": "X",
                 "mat-3": "X",

@@ -10,7 +10,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "80★",
-                "item": "Hooded Fireglass Leather Vest",
+                name: "Hooded Fireglass Leather Vest",
                 "mat-1": "3 Fireglass Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "2 Pixie Floss",
@@ -22,7 +22,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Adventurer's Hooded Vest",
+                name: "Adventurer's Hooded Vest",
                 "mat-1": "3 Fireglass Leather",
                 "mat-2": "2 Pixie Cotton",
                 "mat-3": "2 Pixie Floss",
@@ -34,7 +34,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★",
-                "item": "Cropped Fireglass Leather Slops",
+                name: "Cropped Fireglass Leather Slops",
                 "mat-1": "2 Fireglass Leather",
                 "mat-2": "Pixie Cotton",
                 "mat-3": "Pixie Floss",
@@ -46,7 +46,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Chalicotherium Leather",
+                name: "Chalicotherium Leather",
                 "mat-1": "4 Chalicotherium Skin",
                 "mat-2": "2 Multifaceted Alumen",
                 "mat-3": "X",
@@ -58,7 +58,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Cap of Gathering",
+                name: "Facet Cap of Gathering",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -70,7 +70,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Cyclas of Striking",
+                name: "Facet Cyclas of Striking",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "Dwarven Cotton",
@@ -82,7 +82,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gloves of Striking",
+                name: "Facet Gloves of Striking",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -94,7 +94,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gloves of Scouting",
+                name: "Facet Gloves of Scouting",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -106,7 +106,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Halfgloves of Casting",
+                name: "Facet Halfgloves of Casting",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Dwarven Cotton",
@@ -118,7 +118,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Gloves of Crafting",
+                name: "Facet Gloves of Crafting",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -130,7 +130,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Chain Hose of Fending",
+                name: "Facet Chain Hose of Fending",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Tungsten Steel Ingot",
                 "mat-3": "Ethereal Silk",
@@ -142,7 +142,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Bottoms of Maiming",
+                name: "Facet Bottoms of Maiming",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "2 Grade 2 Strength Alkahest",
@@ -154,7 +154,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Bottoms of Scouting",
+                name: "Facet Bottoms of Scouting",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "2 Ethereal Silk",
                 "mat-3": "Dwarven Cotton",
@@ -166,7 +166,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Sandals of Striking",
+                name: "Facet Sandals of Striking",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Sandalwood Lumber",
                 "mat-3": "Dwarven Cotton",
@@ -178,7 +178,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Thighboots of Scouting",
+                name: "Facet Thighboots of Scouting",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Sandalwood Lumber",
                 "mat-3": "Deepgold Nugget",
@@ -190,7 +190,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Boots of Aiming",
+                name: "Facet Boots of Aiming",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Sandalwood Lumber",
                 "mat-3": "Deepgold Nugget",
@@ -202,7 +202,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Boots of Casting",
+                name: "Facet Boots of Casting",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Sandalwood Lumber",
                 "mat-3": "Stonegold Nugget",
@@ -214,7 +214,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Boots of Healing",
+                name: "Facet Boots of Healing",
                 "mat-1": "2 Chalicotherium Leather",
                 "mat-2": "Sandalwood Lumber",
                 "mat-3": "Stonegold Nugget",
@@ -226,7 +226,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Boots of Crafting",
+                name: "Facet Boots of Crafting",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -238,7 +238,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Facet Boots of Gathering",
+                name: "Facet Boots of Gathering",
                 "mat-1": "3 Pliable Glass Fiber",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Dwarven Cotton",
@@ -250,7 +250,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Urban Boots",
+                name: "Urban Boots",
                 "mat-1": "2 Shell Leather",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Griffin Leather Strap",
@@ -262,7 +262,7 @@ export const Leatherworker_MasterRecipe_7 = function(parentStorageKey) {
             },
             {
                 "level": "80★★",
-                "item": "Rebel Boots",
+                name: "Rebel Boots",
                 "mat-1": "2 Shell Leather",
                 "mat-2": "2 Chalicotherium Leather",
                 "mat-3": "Griffin Leather Strap",

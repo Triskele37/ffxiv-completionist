@@ -10,7 +10,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
         tasks: [
             {
                 "level": "11",
-                "item": "Roof Tile",
+                name: "Roof Tile",
                 "mat-1": "2 Potter's Clay",
                 "mat-2": "Straw",
                 "mat-3": "X",
@@ -22,7 +22,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "11",
-                "item": "Budding Maple Wand",
+                name: "Budding Maple Wand",
                 "mat-1": "Whispering Maple Wand",
                 "mat-2": "Growth Formula Alpha",
                 "mat-3": "Beastkin Blood",
@@ -34,7 +34,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "12",
-                "item": "Potion",
+                name: "Potion",
                 "mat-1": "Distilled Water",
                 "mat-2": "Tinolqa Mistletoe",
                 "mat-3": "Chanterelle",
@@ -46,7 +46,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "13",
-                "item": "Ash Picatrix",
+                name: "Ash Picatrix",
                 "mat-1": "Enchanted Copper Ink",
                 "mat-2": "Ash Lumber",
                 "mat-3": "Ash Log",
@@ -58,7 +58,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Clove Oil",
+                name: "Clove Oil",
                 "mat-1": "2 Cloves",
                 "mat-2": "X",
                 "mat-3": "X",
@@ -70,7 +70,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "14",
-                "item": "Enchanted Iron Ink",
+                name: "Enchanted Iron Ink",
                 "mat-1": "2 Iron Sand",
                 "mat-2": "Viscous Secretions",
                 "mat-3": "X",
@@ -82,7 +82,7 @@ export const AlchemistLevels_11_15 = function(parentStorageKey) {
             },
             {
                 "level": "15",
-                "item": "Growth Formula Beta",
+                name: "Growth Formula Beta",
                 "mat-1": "Jellyfish Umbrella",
                 "mat-2": "Quicksilver",
                 "mat-3": "Rock Salt",

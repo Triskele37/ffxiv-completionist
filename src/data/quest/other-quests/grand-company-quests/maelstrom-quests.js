@@ -1,6 +1,6 @@
 import { QuestColumnConfig } from "../../columnConfigs";
 
-export const MaelstromQuests = function(parentStorageKey) {
+export const Quest_Other_Grand_Company_Maelstrom = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.maelstrom`;
 
     return {
