@@ -1,8 +1,10 @@
 export const MainMenu = {
     name: "FFXIV Completionist",
-    subGroups: [
-        { name: "Import" },
-    ]
+    disableSelection: true,
+    subGroups: [{
+        name: "Import",
+        component: "import-sheet",
+    }]
 };
 
 export const DebugMenu = {
@@ -12,8 +14,8 @@ export const DebugMenu = {
         name: "Log Store",
         onNavigation: (store) => store.dispatch('logStore')
     }, {
-        name: "Recalculate Summaries",
-        onNavigation: (store) => store.dispatch('calculateCompletionSummaries')
+        name: "Reset Totals",
+        onNavigation: (store) => store.dispatch('resetTotals')
     }, {
         name: "Nuke Store",
         onNavigation: (store) => store.dispatch('nukeStore')

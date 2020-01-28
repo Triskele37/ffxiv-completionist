@@ -1,12 +1,12 @@
 <template>
     <div
         class="summary-line"
-        :title="`${totals.completed}/${totals.total}\n${totals.excluded} Excluded`"
+        :title="isNaN(completedPercentage) ? '' : tooltip"
     >
         <span class="summary-line-info">
             {{group.name}}
             <br/>
-            {{completedPercentage}}%
+            {{isNaN(completedPercentage) ? 'N/A' : completedPercentage + '%'}}
         </span>
         <span
             class="progress-line complete-progress"
@@ -29,6 +29,11 @@
             group: Object
         },
         computed: {
+            tooltip: function() {
+                const { completed, excluded, total } = this.totals;
+
+                return `${completed}/${total}\n${excluded} Excluded`;
+            },
             completedPercentage: function() {
                 return ((this.totals.completed / this.totals.total) * 100).toFixed(2);
             },

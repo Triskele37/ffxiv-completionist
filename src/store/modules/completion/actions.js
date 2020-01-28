@@ -11,16 +11,17 @@ export const actions = {
         store.clear();
     },
     //------------------------------------------------------- Flag Setters
-    setCompletionFlag (context, data) {
-        store.set(data.storageKey, data.flag);
+    setCompletionFlag (context, { storageKey, flag }) {
+        bubbleFlagTotals(storageKey, flag);
     },
     setCompletionFlags (context, datas) {
         for(let i = 0; i < datas.length; i++) {
-            store.set(datas[i].storageKey, datas[i].flag);
+            bubbleFlagTotals(datas[i].storageKey, datas[i].flag);
         }
     },
     //------------------------------------------------------- Summary Setter
-    calculateCompletionSummaries (context) {
+    resetTotals (context) {
+        store.clear();
         dive(data);
     }
 }
@@ -63,4 +64,39 @@ function dive(group) {
     }
 
     return totals;
+}
+
+// Ensure that the flag being set bubbles exclusion, completion, and total
+// changes all the way up
+function bubbleFlagTotals(storageKey, flag) {
+    // Cache the original flag
+    const originalFlag = store.get(storageKey) || 'N';
+
+    // Set the new flag
+    store.set(storageKey, flag);
+
+    // Split up the storageKey
+    const storageKeyPieces = storageKey.split('.');
+
+    // Set totals on each child until the original storageKey
+    let curStorageKey = storageKeyPieces[0];
+    for(let i = 1; i < storageKeyPieces.length; i++) {
+        const newTotals = Object.assign({}, store.get(`${curStorageKey}.totals`));
+
+        // Get flag conversions (N changes are implied from Y changes)
+        const wasX = originalFlag === 'X' && flag !== 'X'; // X to ?
+        const wasY = originalFlag === 'Y' && flag !== 'Y'; // Y to ?
+        const nowX = flag === 'X' && originalFlag !== 'X'; // ? to X
+        const nowY = flag === 'Y' && originalFlag !== 'Y'; // ? to Y
+
+        // Adjust totals
+        newTotals.excluded += wasX ? -1 : nowX ? 1 : 0;
+        newTotals.completed += wasY ? -1 : nowY ? 1 : 0;
+        newTotals.total += wasX ? 1 : nowX ? -1 : 0;
+
+        store.set(`${curStorageKey}.totals`, newTotals);
+
+        // Next storage level
+        curStorageKey += `.${storageKeyPieces[i]}`
+    }
 }
