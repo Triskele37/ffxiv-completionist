@@ -1,10 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
 export const Achievements_Items_Items = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.initializeTasks(tasks);
-
-    return data;
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
@@ -79,11 +76,28 @@ const tasks = [
         name: "The Leader of the Band V",
         points: 10,
     }, {
+        description: "Add 200 unique music rolls to your orchestrion.",
+        reward: "Item: Prelude - Long March Home Orchestrion Roll",
+        name: "The Leader of the Band VI",
+        points: 10,
+    }, {
+        description: "Speak with the cast-off Confederate while in possession of all four of the empyrean accessories.",
+        name: "Dressed for Heaven",
+        points: 10,
+        reward: "Title: True Hero"
+    }, {
         description: "Obtain a Firebird whistle.",
         name: "Just Like Fire",
         points: 20,
         reward: "Title: Tamer of the Undying Flame"
     }, {
+        description: "Obtain the Fife of Nine Tails.",
+        name: "Flute of the Plume",
+        points: 20,
+        reward: "Title: Kyubi Tamer"
+    },
+    //--------------------------------- Legacy
+    {
         description: "Show all available sets of Garo gear to the disreputable priest.",
         name: "Protector",
         points: 20,
@@ -153,20 +167,5 @@ const tasks = [
         name: "Echoes of the Makai Star",
         points: 10,
         reward: "Title: Makai Astrologian"
-    }, {
-        description: "Add 200 unique music rolls to your orchestrion.",
-        reward: "Item: Prelude - Long March Home Orchestrion Roll",
-        name: "The Leader of the Band VI",
-        points: 10,
-    }, {
-        description: "Speak with the cast-off Confederate while in possession of all four of the empyrean accessories.",
-        name: "Dressed for Heaven",
-        points: 10,
-        reward: "Title: True Hero"
-    }, {
-        description: "Obtain the Fife of Nine Tails.",
-        name: "Flute of the Plume",
-        points: 20,
-        reward: "Title: Kyubi Tamer"
-    }
+    },
 ];

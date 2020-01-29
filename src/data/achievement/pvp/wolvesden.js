@@ -3,14 +3,11 @@ import { DataGroup } from "../../DataGroup";
 // https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=The%20Wolves%27%20Den&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_PVP_The_Wolves_Den = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.name = "The Wolves' Den"; // Only necessary because of the apostrophe
-    data.initializeTasks(tasks);
-
-    return data;
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- ForF - Participate
     {
         description: "Participate in your first match in the Feast or the Fold.",
         name: "Hungry Like a Wolf I",
@@ -41,7 +38,9 @@ const tasks = [
         name: "Wolfing It Down",
         points: 20,
         reward: "Title: The Ravenous Wolf"
-    }, {
+    },
+    //----------------------------------------------------------------------------- ForF - Win
+    {
         description: "Triumph for the first time in the Feast or the Fold.",
         name: "Pack Mentality I",
         points: 5,
@@ -71,7 +70,9 @@ const tasks = [
         name: "Leader of the Pack",
         points: 20,
         reward: "Title: The Alpha Wolf"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Feast - Participate
+    {
         description: "Participate in your first match in the Feast.",
         name: "Look Who's Coming to Dinner I",
         points: 5,
@@ -101,7 +102,9 @@ const tasks = [
         name: "A Clean Plate",
         points: 20,
         reward: "Title: Hungry Wolf"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Feast - Win
+    {
         description: "Triumph for the first time at the Feast.",
         name: "You Are What You Eat I",
         points: 5,
@@ -131,7 +134,9 @@ const tasks = [
         name: "Breaking Fast with Champions",
         points: 20,
         reward: "Title: The Devourer"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Tank
+    {
         description: "Triumph in 10 matches at the Feast while taking on the role of tank.",
         name: "A Wolf in Plate Armor I",
         points: 5,
@@ -156,7 +161,9 @@ const tasks = [
         name: "A Stalwart to Remember",
         points: 10,
         reward: "Title: The Unmoving"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Melee DPS
+    {
         description: "Triumph in 10 matches at the Feast while taking on the role of melee DPS.",
         name: "A Wolf in Spiked Subligar I",
         points: 5,
@@ -181,7 +188,9 @@ const tasks = [
         name: "A Slayer to Remember",
         points: 10,
         reward: "Title: The Unrelenting"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Ranged Physical DPS
+    {
         description: "Triumph in 10 matches at the Feast while taking on the role of ranged physical DPS.",
         name: "A Wolf in Green Tights I",
         points: 5,
@@ -206,7 +215,9 @@ const tasks = [
         name: "A Sniper to Remember",
         points: 10,
         reward: "Title: The Unseen"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Ranged Magical DPS
+    {
         description: "Triumph in 10 matches at the Feast while taking on the role of ranged magical DPS.",
         name: "A Wolf in Dark Robes I",
         points: 5,
@@ -231,7 +242,9 @@ const tasks = [
         name: "A Spellcaster to Remember",
         points: 10,
         reward: "Title: The Unleashed"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Healer
+    {
         description: "Triumph in 10 matches at the Feast while taking on the role of healer.",
         name: "A Wolf in White Robes I",
         points: 5,
@@ -256,7 +269,9 @@ const tasks = [
         name: "A Sawbones to Remember",
         points: 10,
         reward: "Title: The Undamaged"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Kills
+    {
         description: "Record your first KO in the Feast.",
         name: "Mama Said Knock You Out I",
         points: 5,
@@ -281,7 +296,9 @@ const tasks = [
         name: "Mama Said Knock You Out V",
         points: 20,
         reward: "Title: Rhalgr's Right Fist"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Assists
+    {
         description: "Record your first assist in the Feast.",
         name: "How Can I Help I",
         points: 5,
@@ -306,7 +323,9 @@ const tasks = [
         name: "How Can I Help V",
         points: 20,
         reward: "Title: Halone's Cup Bearer"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Team
+    {
         description: "Emerge victorious with your PvP team in a match at the Feast.",
         name: "Pack Man I",
         points: 5,
@@ -336,7 +355,9 @@ const tasks = [
         name: "Stay Sharp",
         points: 20,
         reward: "Title: Eversharp"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Legacy?
+    {
         description: "Emerge victorious in the 2018 Feast Regional Championship (Japan).",
         name: "Rhyme & Region 2018 (JP)",
         points: 0,

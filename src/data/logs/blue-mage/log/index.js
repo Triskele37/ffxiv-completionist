@@ -1,21 +1,19 @@
-import { BlueMageDungeons } from "./dungeon";
-import { BlueMageTrials } from "./trial";
-import { BlueMageRaids } from "./raid";
+import { DataGroup } from "../../../DataGroup";
+import { BlueMageLogColumnConfig } from "../../columnConfigs";
 
-export const BlueMageLog = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.log`;
+import { General_Logs_Blue_Mage_Log_Dungeons } from "./dungeon";
+import { General_Logs_Blue_Mage_Log_Trials } from "./trial";
+import { General_Logs_Blue_Mage_Log_Raids } from "./raid";
 
-    return {
-        name: "Log",
-        storageKey,
-        groupKeys: [
-            "Dungeons",
-            "Trials",
-            "Raids",
-        ],
-        // Groups
-        Dungeons: BlueMageDungeons(storageKey),
-        Trials: BlueMageTrials(storageKey),
-        Raids: BlueMageRaids(storageKey),
-    };
+export const General_Logs_Blue_Mage_Log = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = BlueMageLogColumnConfig;
+
+    data.initializeSubGroups([
+        General_Logs_Blue_Mage_Log_Dungeons,
+        General_Logs_Blue_Mage_Log_Trials,
+        General_Logs_Blue_Mage_Log_Raids,
+    ]);
+
+    return data;
 };

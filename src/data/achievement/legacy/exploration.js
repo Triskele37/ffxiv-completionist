@@ -1,6 +1,6 @@
 import { AchievementColumnConfig } from "../columnConfigs";
 
-export const ExplorationExplorationAchievements = function(parentStorageKey) {
+export const Achievements_Legacy_Exploration = function(parentStorageKey) {
     const storageKey = `${parentStorageKey}.exploration`;
 
     return {

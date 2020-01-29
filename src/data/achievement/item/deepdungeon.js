@@ -3,10 +3,7 @@ import { DataGroup } from "../../DataGroup";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Deep%20Dungeon&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Items_Deep_Dungeon_Weapons = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.initializeTasks(tasks);
-
-    return data;
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

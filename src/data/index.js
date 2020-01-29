@@ -1,43 +1,87 @@
-/** in-game order
- 1. character: [character (titles, class levels, rep), companion (barding), mounts, minions, blu, gold saucer (triad), achievements]
- 2. duty: collection, journal, finder (dun, tri, raid), trust, hall of novice
- 3. logs: hunting, sightseeing, crafting, gathering, fishing log, fishing guide, orchestrion
- 4. travel: aether current, mount speed, shared fate
- 5. social: emotes
+/*
+    Duplicate name keys in groups:
+        The Isle of Ken (break out spearfishing)
+        Unspoiled Teeming Waters (?)
+*/
 
- not in-game
- hunts, masked carnivale, aesthetician
- FATE? under shared fate?
- * */
-
- /* Duplicate name keys in groups:
- The Isle of Ken (break out spearfishing)
- Unspoiled Teeming Waters (?)
+/* Data Fixes
+Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
+Collectable - TODO
+General_Logs - no issues
+Crafting - TODO
+Gathering - TODO
+Duty - TODO
+FATEs - TODO
+Quests - TODO
 */
 
 import { DataGroup } from "./DataGroup";
 
 import { Achievements } from "./achievement";
-import { Collectable } from "./collectable";
-import { CraftingLogs } from "./crafting-log";
-import { Logs } from "./logs";
-import { FATEs } from "./fate";
-import { Gathering_Logs } from "./gathering-log";
-import { Duty } from "./duty";
-import { Quests } from "./quest";
+// import { Collectable } from "./collectable";
+import { General_Logs } from "./logs";
+// import { CraftingLogs } from "./crafting-log";
+// import { Gathering_Logs } from "./gathering-log";
+// import { Duty } from "./duty";
+// import { FATEs } from "./fate";
+// import { Quests } from "./quest";
 
 const data = new DataGroup("Overall", null);
 data.initializeSubGroups([
     Achievements,
     // Collectable,
+    General_Logs,
     // CraftingLogs,
-    // Logs,
-    // FATEs,
     // Gathering_Logs,
     // Duty,
+    // FATEs,
     // Quests,
 ]);
 
 export { data };
 
 console.log(data);
+
+/* Proposed Order
+Character
+    Barding
+    Mount
+    Minion
+    Blue Magic Spellbook
+    Gold Saucer
+        Triple Triad Cards
+        Triple Triad Opponents
+    Achievements ...
+Duty
+    Collection
+    Journal ... (quests)
+    Duty Finder
+        Dungeons
+        Guildhests
+        Trials
+        Raids
+    Trust
+    Hall of the Novice
+    Hunt
+Logs
+    Hunting Log ...
+    Sightseeing Log ...
+    Crafting Log ...
+    Gathering Log ...
+    Fishing Log
+        Fishing
+        Spearfishing
+    Fishing Guide
+        Fishing
+        Spearfishing
+    Orchestrion List ...
+Travel
+    Aether Currents
+    Mount Speed
+    Shared FATE
+    FATE
+    Porter
+Social
+    Emotes
+    Aesthetician
+*/

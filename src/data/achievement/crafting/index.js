@@ -12,8 +12,7 @@ import { Achievements_Crafting_Culinarian } from "./culinarian";
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Crafting = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.initializeSubGroups([
+    return new DataGroup(name, parent).initializeSubGroups([
         Achievements_Crafting_Carpenter,
         Achievements_Crafting_Blacksmith,
         Achievements_Crafting_Armorer,
@@ -23,6 +22,4 @@ export const Achievements_Crafting = function(name, parent) {
         Achievements_Crafting_Alchemist,
         Achievements_Crafting_Culinarian,
     ]);
-
-    return data;
 };

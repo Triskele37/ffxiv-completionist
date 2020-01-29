@@ -1,10 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
 export const Achievements_Battle_Battle = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.initializeTasks(tasks);
-
-    return data;
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

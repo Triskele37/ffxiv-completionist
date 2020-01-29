@@ -32,6 +32,8 @@ export class DataGroup {
         if(this._parent) {
             if(this._parent.columnConfig) this.columnConfig = this._parent.columnConfig;
         }
+
+        return this;
     }
 
     initializeSubGroups(subGroups) {
@@ -43,6 +45,8 @@ export class DataGroup {
             this[subGroup._name] = subGroup;
             this.groupKeys.push(subGroup._name);
         }
+
+        return this;
     }
 
     initializeTasks(tasks, columnConfig) {
@@ -52,6 +56,8 @@ export class DataGroup {
         // Update totals
         this.total += this.tasks.length;
         if(this._parent) this._parent.initializeTasksFromSubGroup(this.total);
+
+        return this;
     }
 
     initializeTasksFromSubGroup(subGroupTotal) {

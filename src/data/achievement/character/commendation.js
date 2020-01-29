@@ -4,10 +4,7 @@ import { DataGroup } from "../../DataGroup";
 // There are two AchievementCategories named Dungeons, will need to use IDs for these
 
 export const Achievements_Character_Commendation = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.initializeTasks(tasks);
-
-    return data;
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
