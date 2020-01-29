@@ -1,39 +1,33 @@
-import { BattleAchievements } from "./battle";
-import { CharacterAchievements } from "./character";
-import { PVPAchievements } from "./pvp";
-import { ItemAchievements } from "./item";
-import { CraftingAchievements } from "./crafting";
-import { GatheringAchievements } from "./gathering";
-import { QuestAchievements } from "./quest";
-import { ExplorationAchievements } from "./exploration";
-import { GrandCompanyAchievements } from "./grandcompany";
+import { DataGroup } from "../DataGroup";
+import { AchievementColumnConfig } from "./columnConfigs";
 
-export const Achievements = function(parentStorageKey) {
-	const storageKey = `${parentStorageKey}.achievements`;
-	
-	return {
-		name: 'Achievement',
-		storageKey,
-		groupKeys: [
-			"Battle",
-			"Character",
-			"PVP",
-			"Item",
-			"Crafting",
-			"Gathering",
-			"Quest",
-			"Exploration",
-			"GrandCompany"
-		],
-		// Groups
-		Battle: BattleAchievements(storageKey),
-		Character: CharacterAchievements(storageKey),
-		PVP: PVPAchievements(storageKey),
-		Item: ItemAchievements(storageKey),
-		Crafting: CraftingAchievements(storageKey),
-		Gathering: GatheringAchievements(storageKey),
-		Quest: QuestAchievements(storageKey),
-		Exploration: ExplorationAchievements(storageKey),
-		GrandCompany: GrandCompanyAchievements(storageKey),
-	};
+import { Achievements_Battle } from "./battle";
+import { Achievements_PVP } from "./pvp";
+import { Achievements_Character } from "./character";
+import { Achievements_Items } from "./item";
+import { Achievements_Crafting } from "./crafting";
+
+import { Achievements_Gathering } from "./gathering";
+import { Achievements_Quest } from "./quest";
+import { Achievements_Exploration } from "./exploration";
+import { Achievements_Grand_Company } from "./grandcompany";
+
+export const Achievements = function(name, parent) {
+	const data = new DataGroup(name, parent);
+	data.columnConfig = AchievementColumnConfig;
+
+	data.initializeSubGroups([
+		Achievements_Battle,
+		Achievements_PVP,
+		Achievements_Character,
+		Achievements_Items,
+		Achievements_Crafting,
+
+		Achievements_Gathering,
+		Achievements_Quest,
+		Achievements_Exploration,
+		Achievements_Grand_Company,
+	]);
+
+	return data;
 };

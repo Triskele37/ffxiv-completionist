@@ -1,42 +1,32 @@
-import { ItemItemAchievements } from "./item";
-import { AnimaWeaponItemAchievements } from "./animaweapons";
-import { CollectableItemAchievements } from "./collectable";
-import { CurrencyItemAchievements } from "./currency";
-import { DeepDungeonItemAchievements } from "./deepdungeon";
-import { DesynthesisItemAchievements } from "./desynthesis";
-import { EurekaWeaponItemAchievements } from "./eurekaweapons";
-import { MateriaItemAchievements } from "./materia";
-import { RelicWeaponItemAchievements } from "./relicweapons";
-import { ZodiacWeaponItemAchievements } from "./zodiacweapons";
+import { DataGroup } from "../../DataGroup";
+
+import { Achievements_Items_Items } from "./item";
+import { Achievements_Items_Currency } from "./currency";
+import { Achievements_Items_Desynthesis } from "./desynthesis";
+import { Achievements_Items_Collectables } from "./collectable";
+import { Achievements_Items_Materia } from "./materia";
+import { Achievements_Items_Relic_Weapons } from "./relicweapons";
+import { Achievements_Items_Zodiac_Weapons } from "./zodiacweapons";
+import { Achievements_Items_Anima_Weapons } from "./animaweapons";
+import { Achievements_Items_Deep_Dungeon_Weapons } from "./deepdungeon";
+import { Achievements_Items_Eureka_Weapons } from "./eurekaweapons";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const ItemAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.item`;
+export const Achievements_Items = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.initializeSubGroups([
+        Achievements_Items_Items,
+        Achievements_Items_Currency,
+        Achievements_Items_Desynthesis,
+        Achievements_Items_Collectables,
+        Achievements_Items_Materia,
+        Achievements_Items_Relic_Weapons,
+        Achievements_Items_Zodiac_Weapons,
+        Achievements_Items_Anima_Weapons,
+        Achievements_Items_Deep_Dungeon_Weapons,
+        Achievements_Items_Eureka_Weapons,
+    ]);
 
-    return {
-        name: "Item",
-    	storageKey,
-        groupKeys: [
-            "AnimaWeapon",
-            "Collectable",
-            "Currency",
-            "DeepDungeon",
-            "Desynthesis",
-            "EurekaWeapon",
-            "Materia",
-            "RelicWeapon",
-            "ZodiacWeapon"
-        ],
-        // Groups
-        AnimaWeapon: AnimaWeaponItemAchievements(storageKey),
-        Collectable: CollectableItemAchievements(storageKey),
-        Currency: CurrencyItemAchievements(storageKey),
-        DeepDungeon: DeepDungeonItemAchievements(storageKey),
-        Desynthesis: DesynthesisItemAchievements(storageKey),
-        EurekaWeapon: EurekaWeaponItemAchievements(storageKey),
-        Materia: MateriaItemAchievements(storageKey),
-        RelicWeapon: RelicWeaponItemAchievements(storageKey),
-        ZodiacWeapon: ZodiacWeaponItemAchievements(storageKey),
-    };
+    return data;
 };

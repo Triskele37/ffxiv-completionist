@@ -1,32 +1,25 @@
-import { CommendationCharacterAchievements } from "./commendation";
-import { DiscipleOfHandCharacterAchievements } from "./doh";
-import { DiscipleOfLandCharacterAchievements } from "./dol";
-import { DiscipleOfMagicCharacterAchievements } from "./dom";
-import { DiscipleOfWarCharacterAchievements } from "./dow";
-import { GoldSaucerCharacterAchievements } from "./goldsaucer";
+import { DataGroup } from "../../DataGroup";
+
+//TODO: General???
+import { Achievements_Character_Disciple_Of_War } from "./dow";
+import { Achievements_Character_Disciple_Of_Magic } from "./dom";
+import { Achievements_Character_Disciple_Of_Hand } from "./doh";
+import { Achievements_Character_Disciple_Of_Land } from "./dol";
+import { Achievements_Character_Commendation } from "./commendation";
+import { Achievements_Character_Gold_Saucer } from "./goldsaucer";
 
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const CharacterAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.character`;
+export const Achievements_Character = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.initializeSubGroups([
+        Achievements_Character_Disciple_Of_War,
+        Achievements_Character_Disciple_Of_Magic,
+        Achievements_Character_Disciple_Of_Hand,
+        Achievements_Character_Disciple_Of_Land,
+        Achievements_Character_Commendation,
+        Achievements_Character_Gold_Saucer,
+    ]);
 
-    return {
-        name: "Character",
-        storageKey,
-        groupKeys: [
-            "Commendation",
-            "DiscipleOfHand",
-            "DiscipleOfLand",
-            "DiscipleOfMagic",
-            "DiscipleOfWar",
-            "GoldSaucer"
-        ],
-        // Groups
-        Commendation: CommendationCharacterAchievements(storageKey),
-        DiscipleOfHand: DiscipleOfHandCharacterAchievements(storageKey),
-        DiscipleOfLand: DiscipleOfLandCharacterAchievements(storageKey),
-        DiscipleOfMagic: DiscipleOfMagicCharacterAchievements(storageKey),
-        DiscipleOfWar: DiscipleOfWarCharacterAchievements(storageKey),
-        GoldSaucer: GoldSaucerCharacterAchievements(storageKey),
-    };
+    return data;
 };

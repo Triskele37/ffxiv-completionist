@@ -11,10 +11,11 @@
  * */
 
  /* Duplicate name keys in groups:
- Rhyme & Region 2018 (label with JP/NA/EU)
  The Isle of Ken (break out spearfishing)
  Unspoiled Teeming Waters (?)
- */
+*/
+
+import { DataGroup } from "./DataGroup";
 
 import { Achievements } from "./achievement";
 import { Collectable } from "./collectable";
@@ -25,28 +26,18 @@ import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
 import { Quests } from "./quest";
 
-const storageKey = "completion";
+const data = new DataGroup("Overall", null);
+data.initializeSubGroups([
+    Achievements,
+    // Collectable,
+    // CraftingLogs,
+    // Logs,
+    // FATEs,
+    // Gathering_Logs,
+    // Duty,
+    // Quests,
+]);
 
-export const data = {
-    name: "Overall",
-    storageKey,
-    groupKeys: [
-        "Achievements",
-        "Collectable",
-        "CraftingLogs",
-        "Logs",
-        "FATEs",
-        "Gathering_Logs",
-        "Duty",
-        "Quests"
-    ],
-    // Groups
-    Achievements: Achievements(storageKey),
-    Collectable: Collectable(storageKey),
-    CraftingLogs: CraftingLogs(storageKey),
-    Logs: Logs(storageKey),
-    FATEs: FATEs(storageKey),
-    Gathering_Logs: Gathering_Logs(storageKey),
-    Duty: Duty(storageKey),
-    Quests: Quests(storageKey),
-};
+export { data };
+
+console.log(data);

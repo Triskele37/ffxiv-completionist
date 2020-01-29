@@ -27,7 +27,10 @@
             </template>
 
             <template v-if="selectedGroup.tasks">
-                <task-table :group="selectedGroup" />
+                <task-table
+                    :column-config="selectedGroup.columnConfig"
+                    :tasks="selectedGroup.tasks"
+                />
             </template>
         </template>
     </div>

@@ -1,6 +1,8 @@
 import { data } from '../../../data';
 import Store from 'electron-store';
-const store = new Store();
+const store = new Store({
+    accessPropertiesByDotNotation: false
+});
 
 export const actions = {
     //------------------------------------------------------- Debug
@@ -19,7 +21,7 @@ export const actions = {
     },
 }
 
-function dive(group, curStore, curKey) {
+function dive(group) {
     const totals = {
         total: 0,
         excluded: 0,
@@ -29,7 +31,7 @@ function dive(group, curStore, curKey) {
     // Count total/completed/excluded in tasks
     if(group.tasks) {
         group.tasks.forEach(function(task) {
-            const taskFlag = curStore[group.storageKey][task.name];
+            const taskFlag = store.store[group.storageKey][task.name];
 
             if(taskFlag !== 'X') totals.total++;
             else totals.excluded++;

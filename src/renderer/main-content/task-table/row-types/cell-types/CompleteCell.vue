@@ -1,61 +1,34 @@
 <template>
     <td
-        class="completed-cell"
+        class="completion-flag-cell"
         @click="onTaskCompleteClick"
         @contextmenu.prevent="onExcludeTaskClick"
-        :class="{
-            'completed-cell-y': completed === 'Y',
-            'completed-cell-n': completed === 'N' || !completed,
-            'completed-cell-x': completed === 'X'
-        }"
+        :class="`completion-flag-cell-${flag}`"
     >
-        {{completed}}
+        {{flag}}
     </td>
 </template>
 
 <script>
     export default {
-        name: 'complete-cell',
-        data: () => ({
-            completed: 'N'
-        }),
+        name: 'completion-flag-cell',
         props: {
             task: Object,
-            groupStorageKey: String,
-        },
-        mounted: function() {
-            this.completed = this.$store.getters.getCompletionFlag(this.storageKey);
-        },
-        computed: {
-            storageKey: function() {
-                return `${this.groupStorageKey}.${this.task.name}`;
-            }
+            flag: String,
         },
         methods: {
             onTaskCompleteClick: function() {
-                const completed = this.completed === 'N' ? 'Y' : 'N';
-
-                this.$store.dispatch('setCompletionFlag', {
-                    storageKey: this.storageKey,
-                    flag: completed
-                });
-
-                this.completed = completed;
+                this.task.changeCompletionFlag(this.task.completionFlag === 'N' ? 'Y' : 'N');
             },
             onExcludeTaskClick: function() {
-                this.$store.dispatch('setCompletionFlag', {
-                    storageKey: this.storageKey,
-                    flag: 'X'
-                });
-
-                this.completed = 'X';
+                this.task.changeCompletionFlag('X');
             }
         }
     };
 </script>
 
 <style>
-    .completed-cell {
+    .completion-flag-cell {
         color: black;
         cursor: pointer;
         text-align: center;
@@ -63,15 +36,15 @@
         width: 30px;
     }
 
-    .completed-cell-y {
+    .completion-flag-cell-Y {
         background-color: #0f7538;
     }
 
-    .completed-cell-n {
+    .completion-flag-cell-N {
         background-color: #75190f;
     }
 
-    .completed-cell-x {
+    .completion-flag-cell-X {
         background-color: #aaa;
     }
 </style>

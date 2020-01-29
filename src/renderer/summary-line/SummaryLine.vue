@@ -1,12 +1,12 @@
 <template>
     <div
         class="summary-line"
-        :title="isNaN(completedPercentage) ? '' : tooltip"
+        :title="tooltip"
     >
         <span class="summary-line-info">
             {{group.name}}
             <br/>
-            {{isNaN(completedPercentage) ? 'N/A' : completedPercentage + '%'}}
+            {{`${group.percentComplete}%`}}
         </span>
         <span
             class="progress-line complete-progress"
@@ -20,9 +20,6 @@
 </template>
 
 <script>
-    const Store = require('electron-store');
-    const store = new Store();
-
     export default {
         name: 'summary-line',
         props: {
@@ -30,22 +27,17 @@
         },
         computed: {
             tooltip: function() {
-                const { completed, excluded, total } = this.totals;
+                let tooltip = `${this.group.totalCompleted}/${this.group.displayTotal}\n`;
+                tooltip += `${this.group.totalExcluded} Excluded`;
 
-                return `${completed}/${total}\n${excluded} Excluded`;
-            },
-            completedPercentage: function() {
-                return ((this.totals.completed / this.totals.total) * 100).toFixed(2);
-            },
-            totals: function() {
-                return this.$store.getters.getTotals(this.group.storageKey);
+                return tooltip;
             },
             completeBarStyle: function() {
-                return { width: `${this.completedPercentage}%` };
+                return { width: `${this.group.percentComplete}%` };
             },
             incompleteBarStyle: function() {
                 // -1px is to give some breathing room for the float calculation
-                return { width: `calc(${100-this.completedPercentage}% - 1px)` };
+                return { width: `calc(${100-this.group.percentComplete}% - 1px)` };
             }
         }
     }
