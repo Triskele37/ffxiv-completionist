@@ -6,7 +6,7 @@
 
 /* Data Fixes
 Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
-Collectable - TODO
+Collectable - Reverify verbiage against IG UI (no item count issues)
 General_Logs - no issues
 Crafting - TODO
 Gathering - TODO
@@ -18,7 +18,7 @@ Quests - TODO
 import { DataGroup } from "./DataGroup";
 
 import { Achievements } from "./achievement";
-// import { Collectable } from "./collectable";
+import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
 // import { CraftingLogs } from "./crafting-log";
 // import { Gathering_Logs } from "./gathering-log";
@@ -29,7 +29,7 @@ import { General_Logs } from "./logs";
 const data = new DataGroup("Overall", null);
 data.initializeSubGroups([
     Achievements,
-    // Collectable,
+    Collectables,
     General_Logs,
     // CraftingLogs,
     // Gathering_Logs,

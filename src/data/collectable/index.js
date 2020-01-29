@@ -1,36 +1,23 @@
-import { Aesthetician } from "./aesthetician";
-import { Barding } from "./barding";
-import { Emotes } from "./emote";
-import { Minions } from "./minion";
-import { Mounts } from "./mount";
-import { Orchestrion } from "./orchestrion";
-import { TripleTriadCards } from "./tripletriad-card";
-import { TripleTriadOpponents } from "./tripletriad-opponent";
+import { DataGroup } from "../DataGroup";
 
-export const Collectable = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.collectable`;
+import { Collectables_Aesthetician } from "./aesthetician";
+import { Collectables_Barding } from "./barding";
+import { Collectables_Emotes } from "./emote";
+import { Collectables_Minions } from "./minion";
+import { Collectables_Mounts } from "./mount";
+import { Collectables_Orchestrion } from "./orchestrion";
+import { Collectables_Triple_Triad_Cards } from "./tripletriad-card";
+import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
 
-    return {
-        name: "Collectable",
-        storageKey,
-        groupKeys: [
-            "Aesthetician",
-            "Barding",
-            "Emotes",
-            "Minions",
-            "Mounts",
-            "Orchestrion",
-            "TripleTriadCards",
-            "TripleTriadOpponents",
-        ],
-        // Groups
-        Aesthetician: Aesthetician(storageKey),
-        Barding: Barding(storageKey),
-        Emotes: Emotes(storageKey),
-        Minions: Minions(storageKey),
-        Mounts: Mounts(storageKey),
-        Orchestrion: Orchestrion(storageKey),
-        TripleTriadCards: TripleTriadCards(storageKey),
-        TripleTriadOpponents: TripleTriadOpponents(storageKey),
-    };
+export const Collectables = function(name, parent) {
+	return new DataGroup(name, parent).initializeSubGroups([
+        Collectables_Aesthetician,
+        Collectables_Barding,
+        Collectables_Emotes,
+        Collectables_Minions,
+        Collectables_Mounts,
+        Collectables_Orchestrion,
+        Collectables_Triple_Triad_Cards,
+        Collectables_Triple_Triad_Opponents,
+	]);
 };
