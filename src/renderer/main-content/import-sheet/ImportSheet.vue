@@ -57,23 +57,33 @@
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    const result = tab.importCallback(this.$store, $event.target.value);
-                    const unresolved = Object.keys(result.dict).length;
+                    const importObj = tab.importCallback($event.target.value);
 
-                    tab.status = unresolved > 0 ? 'failure' : 'success';
+                    // Do the actual saving
+                    if(importObj.matched.length) {
+                        this.$store.dispatch('setCompletionFlags', importObj.matched);
+                    }
 
-                    if(unresolved === 0) {
-                        tab.tooltip = `Successful: ${result.total} tasks updated`;
+                    // Generate status and tooltip
+                    const unresolvedTotal = Object.keys(importObj.dictionary).length;
+
+                    tab.status = unresolvedTotal > 0 ? 'failure' : 'success';
+
+                    if(unresolvedTotal === 0) {
+                        tab.tooltip = `Successful: ${importObj.total} tasks updated`;
                     }
                     else {
-                        tab.tooltip = `Could not resolve ${unresolved}/${result.total}:\n`;
-                        Object.keys(result.dict).forEach((name) => tab.tooltip += `${name}\n`);
+                        tab.tooltip = `Could not resolve ${unresolvedTotal}/${importObj.total}:\n`;
+                        Object.keys(importObj.dictionary).forEach((name) => tab.tooltip += `${name}\n`);
                     }
 
-                    // Output Time
-                    const runTime = (new Date().getTime() - result.startTime) / 1000;
+                    // Add runTime to tooltip
+                    const runTime = (new Date().getTime() - importObj.startTime) / 1000;
                     tab.tooltip += `\nin ${runTime}s`
+                    console.log(`Saved in ${runTime}s`);
 
+                    // Clear textarea and update
+                    $event.target.value = '';
                     this.$forceUpdate();
                 }, 250);
             }

@@ -1,47 +1,33 @@
 import { data } from '../../../../data';
-import { generateImportObj, findAndSetFlags } from './utils';
+import { importCallback } from './utils';
 
 export const LeveSection = {
     name: "Leves",
     tabs: [
         {
             title: "Battlecraft & Grand Company Leves",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 1);
-
-                findAndSetFlags(store, data.Quests.Levequests.Battlecraft, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(1, [data.Quests.Levequests.Battlecraft]),
         },
         {
             title: "Fieldcraft Leves",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 2);
-
-                findAndSetFlags(store, data.Quests.Levequests.Botany, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Fishing, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Mining, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(2, [
+                data.Quests.Levequests.Botany,
+                data.Quests.Levequests.Fishing,
+                data.Quests.Levequests.Mining,
+            ]),
         },
         {
             title: "Tradecraft Leves",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 1);
-
-                findAndSetFlags(store, data.Quests.Levequests.Alchemy, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Armoring, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Blacksmithing, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Carpentry, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Cooking, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Goldsmithing, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Leatherworking, result.dict);
-                findAndSetFlags(store, data.Quests.Levequests.Clothcrafting, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(1, [
+                data.Quests.Levequests.Alchemy,
+                data.Quests.Levequests.Armoring,
+                data.Quests.Levequests.Blacksmithing,
+                data.Quests.Levequests.Carpentry,
+                data.Quests.Levequests.Cooking,
+                data.Quests.Levequests.Goldsmithing,
+                data.Quests.Levequests.Leatherworking,
+                data.Quests.Levequests.Clothcrafting,
+            ]),
         },
     ]
 };

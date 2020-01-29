@@ -1,58 +1,28 @@
 import { data } from '../../../../data';
-import { generateImportObj, findAndSetFlags, findRecursive } from './utils';
+import { importCallback } from './utils';
 
 export const GeneralLogSection = {
     name: "General Logs",
     tabs: [
         {
             title: "Blue Mage Spellbook",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 2);
-
-                findAndSetFlags(store, data.Logs.BlueMage.Spellbook, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(2, [data.Logs.BlueMage.Spellbook]),
         },
         {
             title: "Blue Mage Log",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 3);
-
-                findRecursive(store, data.Logs.BlueMage.Log, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(3, [data.Logs.BlueMage.Log]),
         },
         {
             title: "The Masked Carnivale",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 2);
-
-                findAndSetFlags(store, data.Logs.BlueMage.TheMaskedCarnivale, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(2, [data.Logs.BlueMage.TheMaskedCarnivale]),
         },
         {
             title: "Hunting Logs",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 1);
-
-                findRecursive(store, data.Logs.Hunting, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(1, [data.Logs.Hunting]),
         },
         {
             title: "Sightseeing Logs",
-            importCallback: (store, rawText) => {
-                const result = generateImportObj(rawText, 2);
-
-                findRecursive(store, data.Logs.Sightseeing, result.dict);
-
-                return result;
-            },
+            importCallback: importCallback(2, [data.Logs.Sightseeing]),
         },
     ]
 };

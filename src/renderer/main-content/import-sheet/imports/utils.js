@@ -1,5 +1,17 @@
-// Parse Sheet
-export const generateImportObj = function(sheet, nameColumnIndex) {
+// Base import callback
+export const importCallback = function(nameColumnIndex, groups) {
+    return (rawText) => {
+        const importObj = generateImportObj(rawText, nameColumnIndex);
+
+        groups.forEach((group) => searchGroupForImportedNames(group, importObj));
+        const analyzeTime = (new Date().getTime() - importObj.startTime) / 1000;
+        console.log(`Analyzed in ${analyzeTime}s`, importObj.matched.length);
+        return importObj;
+    };
+}
+
+// Parses the pasted sheet and generates an object to work with
+function generateImportObj(sheet, nameColumnIndex) {
     let parsed = sheet.split('\n');                // Split each row
     parsed = parsed.map((row) => row.split('\t')); // Split each column within a row
 
@@ -7,56 +19,70 @@ export const generateImportObj = function(sheet, nameColumnIndex) {
     parsed = parsed.filter((row) => row[0].match(/^[YNX]$/));
 
     // Generate the dictionary: { [name]: completed }
-    const dict = {};
+    const dictionary = {};
     parsed.forEach((row) => {
         const name = row[nameColumnIndex].trim();
-        dict[name] = row[0];
+        dictionary[name] = row[0];
     });
 
     return {
         startTime: new Date().getTime(),
-        total: Object.keys(dict).length,
-        dict
+        total: Object.keys(dictionary).length,
+        storeSetterObj: {}, //TODO: Implement
+        matched: [],
+        dictionary,
     };
 }
 
-// store: Passed to simplify store callbacks
-// group: The deep level group expected to contain the sheet rows
-// rows: The modified input from the sheet
-export const findAndSetFlags = function(store, group, dict) {
-    for(let i = 0; i < group.tasks.length; i++) {
-        const task = group.tasks[i];
-        const matchedName = getMatchedName(task.name);
+// Recursive function that dive's the current group
+function searchGroupForImportedNames(group, importObj) {
+    if(group.tasks) searchTasksForImportedNames(group, importObj);
 
-        if(matchedName) {
-            store.dispatch('setCompletionFlag', {
-                storageKey: `${group.storageKey}.${task.name}`,
-                flag: dict[matchedName]
-            });
-
-            // Remove the matched task
-            delete dict[matchedName];
-        }
-    }
-
-    function getMatchedName(taskName) {
-        // 1-1 Matched Name
-        if(dict[taskName]) return taskName;
-
-        // Matched minus the (L) for large scale leves
-        const lsName = taskName.replace(' (L)', '');
-        if(dict[lsName]) return lsName;
-
-        // No Match
-        return null;
+    if(group.groupKeys) {
+        group.groupKeys.forEach(
+            (groupKey) => searchGroupForImportedNames(group[groupKey], importObj)
+        );
     }
 }
 
-// Recursive Find
-export const findRecursive = function(store, group, dict) {
-    if(group.tasks) findAndSetFlags(store, group, dict);
+// Searches `group` tasks for the imported names
+function searchTasksForImportedNames(group, importObj) {
+    for(let i = 0; i < group.tasks.length; i++) {
+        const task = group.tasks[i];
+        const matchedName = getMatchedName(task.name, importObj.dictionary);
 
-    if(group.groupKeys) {
-        group.groupKeys.forEach((groupKey) => findRecursive(store, group[groupKey], dict));
+        if(matchedName) {
+            const storageKey = `${group.storageKey}.${task.name}`;
+            const flag = importObj.dictionary[matchedName]
+
+            importObj.matched.push({ storageKey, flag });
+            //addMatchToStoreSetter(importObj, storageKey, flag); //TODO: Implement
+
+            // Remove the matched task (may not be necessary now)
+            delete importObj.dictionary[matchedName];
+        }
     }
+}
+
+// Determines if the task name matches the imported name
+function getMatchedName(taskName, dictionary) {
+    // 1-1 Matched Name
+    if(dictionary[taskName]) return taskName;
+
+    // Special case for large-scale levequests
+    const lsName = taskName.replace(' (L)', '');
+    if(dictionary[lsName]) return lsName;
+
+    // No Match
+    return null;
+}
+
+function addMatchToStoreSetter(importObj, storageKey, flag) {
+    const splitKey = storageKey.split('.');
+
+    splitKey.reduce((obj, key, i) => {
+        if(i === splitKey.length - 1) obj[key] = flag;
+        else if(!obj[key]) obj[key] = {};
+        return obj[key];
+    }, importObj.storeSetterObj);
 }
