@@ -122,7 +122,7 @@ export const SBTrials = function(parentStorageKey) {
         }, {
         	level: "70",
         	iLvlReq: "380",
-        	name: " The Wreath of Snakes (Extreme)",
+        	name: "The Wreath of Snakes (Extreme)",
         	boss: "Seiryu",
         	roulette: "-",
         	unlock: "-"

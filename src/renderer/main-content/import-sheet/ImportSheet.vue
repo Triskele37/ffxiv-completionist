@@ -39,7 +39,7 @@
 </template>
 
 <script>
-    import { Sections } from './sheet';
+    import { Sections } from './imports';
 
     export default {
         name: 'import-sheet',
@@ -57,29 +57,22 @@
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    let rowData = $event.target.value
-                        .split('\n')                               // Turn into an array of each row
-                        .map((row) => row.replace(/\t\t{2}/g, ''))  // Replace any instance of many empty cells
-                        .map((row) => row.split('\t'))             // turn each row into columns
-                        .filter((row) => !!row[0].match(/[YNX]/)); // Remove rows that don't contain Y, N, or X
+                    const result = tab.importCallback(this.$store, $event.target.value);
+                    const unresolved = Object.keys(result.dict).length;
 
-                    // Remove the merged header rows
-                    rowData = rowData.filter((row) => row.length > 2);
+                    tab.status = unresolved > 0 ? 'failure' : 'success';
 
-                    const start = new Date().getTime();
-                    const analyzed = rowData.length;
-                    const remainingRows = tab.importCallback(this.$store, rowData);
-                    const end = new Date().getTime();
-                    console.log((end - start) / 1000, 's');
-
-                    tab.status = remainingRows.length ? 'failure' : 'success';
-                    if(!remainingRows.length) tab.tooltip = `Successful: ${analyzed} tasks updated`;
-                    else {
-                        tab.tooltip = `Could not resolve ${remainingRows.length}/${analyzed}:\n`;
-                        remainingRows.forEach((remainingRow) => {
-                            tab.tooltip += remainingRow.join('\t') + '\n';
-                        });
+                    if(unresolved === 0) {
+                        tab.tooltip = `Successful: ${result.total} tasks updated`;
                     }
+                    else {
+                        tab.tooltip = `Could not resolve ${unresolved}/${result.total}:\n`;
+                        Object.keys(result.dict).forEach((name) => tab.tooltip += `${name}\n`);
+                    }
+
+                    // Output Time
+                    const runTime = (new Date().getTime() - result.startTime) / 1000;
+                    tab.tooltip += `\nin ${runTime}s`
 
                     this.$forceUpdate();
                 }, 250);

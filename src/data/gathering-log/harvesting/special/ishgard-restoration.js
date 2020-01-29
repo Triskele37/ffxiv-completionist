@@ -50,7 +50,7 @@ export const Harvesting_Log_Special_Ishgard_Restoration_Folklore = function(pare
                 location: "The Glittering Basin"
             }, {
                 level: "70",
-                name: "Skybuilders's Adder",
+                name: "Skybuilders' Adder",
                 zone: "The Azim Steppe",
                 location: "Ceol Aen"
             }, {

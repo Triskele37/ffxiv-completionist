@@ -230,7 +230,7 @@ export const Emotes = function(parentStorageKey) {
             command: "/prettyplease, /pplease",
             unlock: "MogStation: 7 USD / 4.9 EUR"
         }, {
-            name: "Push-ups ",
+            name: "Push-ups",
             command: "/pushups",
             unlock: "Achievement \"Dear Leader I\""
         }, {

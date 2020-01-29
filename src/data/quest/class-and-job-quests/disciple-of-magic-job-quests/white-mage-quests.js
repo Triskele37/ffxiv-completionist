@@ -45,7 +45,7 @@ export const Quest_Class_And_Job_Disciple_Of_Magic_Job_White_Mage = function(par
         	name: "In the Wake of Death"
         }, {
         	level: "58",
-        	name: "Trials of the Padjals "
+        	name: "Trials of the Padjals"
         }, {
         	level: "60",
         	name: "Hands of Healing"

@@ -21,7 +21,7 @@ export const Aesthetician = function(parentStorageKey) {
             unlock: "Purchase from Gold Saucer Attendant for 9,600 MPG",
             gender: "Unisex"
         }, {
-            name: "Eternal Bonding ",
+            name: "Eternal Bonding",
             location: "MogStation",
             unlock: "Progression through \"The Ties that Bind\" quest for $0-$20 USD (Available on all plans)",
             gender: "Unisex (Differing Styles)"

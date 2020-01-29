@@ -33,7 +33,7 @@ export const Quest_Class_And_Job_Disciple_Of_The_Land_Miner = function(parentSto
         	name: "Obsidian Race"
         }, {
         	level: "35",
-        	name: "Amethysts Are Forever "
+        	name: "Amethysts Are Forever"
         }, {
         	level: "40",
         	name: "To Die For"

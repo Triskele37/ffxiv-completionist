@@ -115,7 +115,7 @@ export const TripleTriadCards = function(parentStorageKey) {
             opponent: "Jonas of the Three Spades, Joellaut",
             unlock: "Drops from Silver Triad Card"
         }, {
-            name: "Karakuri Hanya Card�",
+            name: "Karakuri Hanya Card",
             rarity: "★",
             type: "None",
             opponent: "Hokushin",

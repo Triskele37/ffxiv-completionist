@@ -338,7 +338,7 @@ export const Minions = function(parentStorageKey) {
             method: "Duty",
             unlock: "Drops from Mt. Gulg"
         }, {
-            name: "Fox Kit ",
+            name: "Fox Kit",
             method: "Purchased",
             unlock: "Purchased for 3x Sassho-seki Fragments from Eschina"
         }, {

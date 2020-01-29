@@ -2071,7 +2071,7 @@ export const Fishing_Guide_Fishing = function(parentStorageKey) {
             special: ""
         }, {
             ilvl: "80",
-            name: "Vip Viper ",
+            name: "Vip Viper",
             primeLocation: "South Shroud",
             fishingHoles: "Upper Hathoeva River",
             type: "Rivers",

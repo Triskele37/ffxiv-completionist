@@ -87,7 +87,7 @@ export const HydatosFATEs = function(parentStorageKey) {
         	reward: ""
         }, {
         	level: "60",
-        	name: "The Baldesion Arsenal: Expedition Support ",
+        	name: "The Baldesion Arsenal: Expedition Support",
         	location: "The Val River Source (18.7-28.4)",
         	light: "",
         	reward: ""
