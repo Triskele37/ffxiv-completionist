@@ -1,24 +1,21 @@
-import { ARRTrials } from "./ARR";
-import { HWTrials } from "./HW";
-import { SBTrials } from "./SB";
-import { ShBTrials } from "./ShB";
+import { DataGroup } from "../../DataGroup";
+import { DutyColumnConfig } from "../columnConfigs";
 
-export const Trials = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.trials`;
+import { Duty_Trials_ARR } from "./ARR";
+import { Duty_Trials_HW } from "./HW";
+import { Duty_Trials_SB } from "./SB";
+import { Duty_Trials_ShB } from "./ShB";
 
-    return {
-        name: "Trial",
-        storageKey,
-        groupKeys: [
-            "ARR",
-            "HW",
-            "SB",
-            "ShB",
-        ],
-        // Groups
-        ARR: ARRTrials(storageKey),
-        HW: HWTrials(storageKey),
-        SB: SBTrials(storageKey),
-        ShB: ShBTrials(storageKey),
-    };
+export const Duty_Trials = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = DutyColumnConfig;
+
+    data.initializeSubGroups([
+        Duty_Trials_ARR,
+        Duty_Trials_HW,
+        Duty_Trials_SB,
+        Duty_Trials_ShB,
+    ]);
+
+    return data;
 };

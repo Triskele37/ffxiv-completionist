@@ -1,24 +1,21 @@
-import { ARRHunts } from "./ARR";
-import { HWHunts } from "./HW";
-import { SBHunts } from "./SB";
-import { ShBHunts } from "./ShB"
+import { DataGroup } from "../../DataGroup";
+import { HuntColumnConfig } from "../columnConfigs";
 
-export const Hunts = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-hunt`;
+import { Duty_The_Hunt_ARR } from "./ARR";
+import { Duty_The_Hunt_HW } from "./HW";
+import { Duty_The_Hunt_SB } from "./SB";
+import { Duty_The_Hunt_ShB } from "./ShB";
 
-    return {
-        name: "Hunt",
-        storageKey,
-        groupKeys: [
-            "ARR",
-            "HW",
-            "SB",
-            "ShB",
-        ],
-        // Groups
-        ARR: ARRHunts(storageKey),
-        HW: HWHunts(storageKey),
-        SB: SBHunts(storageKey),
-        ShB: ShBHunts(storageKey),
-    };
+export const Duty_The_Hunt = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = HuntColumnConfig;
+
+    data.initializeSubGroups([
+        Duty_The_Hunt_ARR,
+        Duty_The_Hunt_HW,
+        Duty_The_Hunt_SB,
+        Duty_The_Hunt_ShB,
+    ]);
+
+    return data;
 };

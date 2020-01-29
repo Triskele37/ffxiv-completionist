@@ -22,7 +22,7 @@ import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
 // import { CraftingLogs } from "./crafting-log";
 // import { Gathering_Logs } from "./gathering-log";
-// import { Duty } from "./duty";
+import { Duty } from "./duty";
 // import { FATEs } from "./fate";
 // import { Quests } from "./quest";
 
@@ -33,7 +33,7 @@ data.initializeSubGroups([
     General_Logs,
     // CraftingLogs,
     // Gathering_Logs,
-    // Duty,
+    Duty,
     // FATEs,
     // Quests,
 ]);

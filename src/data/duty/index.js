@@ -1,27 +1,17 @@
-import { Dungeons } from "./dungeon";
-import { Raids } from "./raid";
-import { Trials } from "./trial";
-import { Hunts } from "./hunt";
-import { HallOfNovice } from "./hall-of-novice";
+import { DataGroup } from "../DataGroup";
 
-export const Duty = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.duty`;
+import { Duty_Dungeons } from "./dungeon";
+import { Duty_Trials } from "./trial";
+import { Duty_Raids } from "./raid";
+import { Duty_The_Hunt } from "./hunt";
+import { Duty_Hall_of_the_Novice } from "./hall-of-novice";
 
-    return {
-        name: "Duty",
-        storageKey,
-        groupKeys: [
-            "Dungeons",
-            "Raids",
-            "Trials",
-            "Hunts",
-            "HallOfNovice",
-        ],
-        // Groups
-        Dungeons: Dungeons(storageKey),
-        Raids: Raids(storageKey),
-        Trials: Trials(storageKey),
-        Hunts: Hunts(storageKey),
-        HallOfNovice: HallOfNovice(storageKey),
-    };
+export const Duty = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Duty_Dungeons,
+        Duty_Trials,
+        Duty_Raids,
+        Duty_The_Hunt,
+        Duty_Hall_of_the_Novice,
+    ]);
 };

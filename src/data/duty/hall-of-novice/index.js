@@ -1,21 +1,19 @@
-import { HallOfNoviceTank } from './tank';
-import { HallOfNoviceDPS } from './dps';
-import { HallOfNoviceHealer } from './healer';
+import { DataGroup } from "../../DataGroup";
+import { HallOfNoviceColumnConfig } from "../columnConfigs";
 
-export const HallOfNovice = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.hall-of-novice`;
+import { Duty_Hall_of_the_Novice_Tank } from './tank';
+import { Duty_Hall_of_the_Novice_DPS } from './dps';
+import { Duty_Hall_of_the_Novice_Healer } from './healer';
 
-    return {
-        name: "Hall of Novice",
-        storageKey,
-        groupKeys: [
-            "Tank",
-            "DPS",
-            "Healer",
-        ],
-        // Groups
-        Tank: HallOfNoviceTank(storageKey),
-        DPS: HallOfNoviceDPS(storageKey),
-        Healer: HallOfNoviceHealer(storageKey),
-    };
+export const Duty_Hall_of_the_Novice = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = HallOfNoviceColumnConfig;
+
+    data.initializeSubGroups([
+        Duty_Hall_of_the_Novice_Tank,
+        Duty_Hall_of_the_Novice_DPS,
+        Duty_Hall_of_the_Novice_Healer,
+    ]);
+
+    return data;
 };

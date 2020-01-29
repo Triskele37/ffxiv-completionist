@@ -1,14 +1,7 @@
-import { DutyColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const ARRDungeons = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ARR`;
-
-    return {
-        name: "ARR",
-        storageKey,
-        columns: DutyColumnConfig,
-        tasks
-    };
+export const Duty_Dungeons_ARR = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
