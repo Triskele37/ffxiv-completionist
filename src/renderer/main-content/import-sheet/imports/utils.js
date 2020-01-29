@@ -1,11 +1,17 @@
 // Base import callback
 export const importCallback = function(nameColumnIndex, groups) {
-    return (rawText) => {
+    return (rawText, store) => {
         const importObj = generateImportObj(rawText, nameColumnIndex);
 
+        // Analyze Matches
         groups.forEach((group) => searchGroupForImportedNames(group, importObj));
-        const analyzeTime = (new Date().getTime() - importObj.startTime) / 1000;
-        console.log(`Analyzed in ${analyzeTime}s`, importObj.matched.length);
+
+        // Save
+        if(importObj.storeSetterObj) {
+            //TODO: This nukes the whole store
+            store.dispatch('setCompletionFlags', importObj.storeSetterObj);
+        }
+
         return importObj;
     };
 }
@@ -28,7 +34,7 @@ function generateImportObj(sheet, nameColumnIndex) {
     return {
         startTime: new Date().getTime(),
         total: Object.keys(dictionary).length,
-        storeSetterObj: {}, //TODO: Implement
+        storeSetterObj: {},
         matched: [],
         dictionary,
     };
@@ -55,8 +61,8 @@ function searchTasksForImportedNames(group, importObj) {
             const storageKey = `${group.storageKey}.${task.name}`;
             const flag = importObj.dictionary[matchedName]
 
-            importObj.matched.push({ storageKey, flag });
-            //addMatchToStoreSetter(importObj, storageKey, flag); //TODO: Implement
+            // importObj.matched.push({ storageKey, flag });
+            addMatchToStoreSetter(importObj, storageKey, flag); //TODO: Implement
 
             // Remove the matched task (may not be necessary now)
             delete importObj.dictionary[matchedName];

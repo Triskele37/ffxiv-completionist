@@ -10,23 +10,16 @@ export const actions = {
     nukeStore (context) {
         store.clear();
     },
+    resetTotals (context) {
+        dive(data, store.store, data.storageKey);
+    },
     //------------------------------------------------------- Flag Setters
     setCompletionFlag (context, { storageKey, flag }) {
         bubbleFlagTotals(storageKey, flag);
     },
-    setCompletionFlags (context, datas) {
-        for(let i = 0; i < datas.length; i++) {
-            bubbleFlagTotals(datas[i].storageKey, datas[i].flag);
-        }
-    },
-    //------------------------------------------------------- Summary Setter
-    resetTotals (context) {
-        store.clear();
-        dive(data);
-    }
 }
 
-function dive(group) {
+function dive(group, curStore, curKey) {
     const totals = {
         total: 0,
         excluded: 0,
@@ -36,12 +29,12 @@ function dive(group) {
     // Count total/completed/excluded in tasks
     if(group.tasks) {
         group.tasks.forEach(function(task) {
-            const taskCompleted = store.get(`${group.storageKey}.${task.name}`);
+            const taskFlag = curStore[group.storageKey][task.name];
 
-            if(taskCompleted !== 'X') totals.total++;
+            if(taskFlag !== 'X') totals.total++;
             else totals.excluded++;
 
-            if(taskCompleted === 'Y') totals.completed++;
+            if(taskFlag === 'Y') totals.completed++;
         });
     }
 

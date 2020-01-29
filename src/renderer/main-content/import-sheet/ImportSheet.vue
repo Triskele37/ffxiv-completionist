@@ -57,30 +57,20 @@
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    const importObj = tab.importCallback($event.target.value);
-
-                    // Do the actual saving
-                    if(importObj.matched.length) {
-                        this.$store.dispatch('setCompletionFlags', importObj.matched);
-                    }
+                    const importObj = tab.importCallback($event.target.value, this.$store);
 
                     // Generate status and tooltip
                     const unresolvedTotal = Object.keys(importObj.dictionary).length;
 
-                    tab.status = unresolvedTotal > 0 ? 'failure' : 'success';
-
                     if(unresolvedTotal === 0) {
+                        tab.status = 'success';
                         tab.tooltip = `Successful: ${importObj.total} tasks updated`;
                     }
                     else {
+                        tab.status = 'failure';
                         tab.tooltip = `Could not resolve ${unresolvedTotal}/${importObj.total}:\n`;
                         Object.keys(importObj.dictionary).forEach((name) => tab.tooltip += `${name}\n`);
                     }
-
-                    // Add runTime to tooltip
-                    const runTime = (new Date().getTime() - importObj.startTime) / 1000;
-                    tab.tooltip += `\nin ${runTime}s`
-                    console.log(`Saved in ${runTime}s`);
 
                     // Clear textarea and update
                     $event.target.value = '';
