@@ -7,18 +7,20 @@ export const Logging_Log_Level_11_15 = function(parentStorageKey) {
         name: "Levels 11-15",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "12",
-                name: "Elm Log",
-                zone: "Central Shroud",
-                location: "Bentbranch"
-            }, {
-                level: "14",
-                name: "Gridanian Chestnut",
-                zone: "Central Shroud",
-                location: "Bentbranch"
-            },
-        ],
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "12",
+        name: "Elm Log",
+        zone: "Central Shroud",
+        location: "Bentbranch"
+    }, {
+        level: "14",
+        name: "Gridanian Chestnut",
+        zone: "Central Shroud",
+        location: "Bentbranch"
+    },
+];

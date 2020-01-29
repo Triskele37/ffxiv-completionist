@@ -10,7 +10,7 @@ Collectable - Reverify verbiage against IG UI (no item count issues)
 General_Logs - no issues
 Crafting - TODO
 Gathering - TODO
-Duty - TODO
+Duty - Reverify verbiage against IG UI (no item count issues)
 FATEs - TODO
 Quests - TODO
 */

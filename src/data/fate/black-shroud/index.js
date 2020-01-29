@@ -12,14 +12,7 @@ export const BlackShroudFATEs = function(parentStorageKey) {
         name: "Black Shroud",
         storageKey,
         columns: FATEColumnConfig,
-        tasks: [
-            {
-                level: 50,
-                name: "Steel Reign",
-                location: "Sorrel Haven (14,18), Sorrel Haven (14,21), Hopeseed Pond (25,24), Proud Creek (16,27), Gelmorra Ruins (22,22), Alder Springs (26,21), Proud Creek (23,30), Larkscall (16,33), Nine Ivies (20,23), Lower Paths (33,23)",
-                type: "Notorious Monster"
-            }
-        ],
+        tasks,
         groupKeys: [
             "CentralShroud",
             "EastShroud",
@@ -33,3 +26,12 @@ export const BlackShroudFATEs = function(parentStorageKey) {
         SouthShroud: SouthShroudFATEs(storageKey),
     };
 };
+
+const tasks = [
+    {
+        level: 50,
+        name: "Steel Reign",
+        location: "Sorrel Haven (14,18), Sorrel Haven (14,21), Hopeseed Pond (25,24), Proud Creek (16,27), Gelmorra Ruins (22,22), Alder Springs (26,21), Proud Creek (23,30), Larkscall (16,33), Nine Ivies (20,23), Lower Paths (33,23)",
+        type: "Notorious Monster"
+    }
+];

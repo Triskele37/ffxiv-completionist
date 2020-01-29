@@ -7,15 +7,19 @@ export const Quest_Other_Seasonal_Starlight_Celebration = function(parentStorage
         name: "Starlight Celebration",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "All I Want for Starlight"
-        }, {
-            level: "15",
-            name: "A Chocobo Carol"
-        }, {
-            level: "15",
-            name: "A Star Shines On"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "All I Want for Starlight"
+    }, {
+        level: "15",
+        name: "A Chocobo Carol"
+    }, {
+        level: "15",
+        name: "A Star Shines On"
+    }
+];

@@ -7,13 +7,15 @@ export const Quarrying_Log_Special_Abalathian_Folklore = function(parentStorageK
         name: "Abalathian Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "60★",
-                name: "Sun Mica",
-                zone: "The Sea of Clouds",
-                location: "The Nidifice"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "60★",
+        name: "Sun Mica",
+        zone: "The Sea of Clouds",
+        location: "The Nidifice"
+    },
+];

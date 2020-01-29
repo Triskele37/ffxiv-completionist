@@ -7,131 +7,135 @@ export const TheDravanianForelandsFATEs = function(parentStorageKey) {
         name: "The Dravanian Forelands",
     	storageKey,
         columns: FATEColumnConfig,
-        tasks: [{
-        	level: "52",
-        	name: "Glawackus On, Glawackus Off",
-        	location: "The Dravanian Forelands (36,8)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "The Migas Touch",
-        	location: "Chocobo Forest (22,30)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "Bear Apparent",
-        	location: "Chocobo Forest (30,16)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "52",
-        	name: "Ladies First",
-        	location: "Chocobo Forest (35,26)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "52",
-        	name: "Nothing but the Truth",
-        	location: "The Smoldering Wastes (25,22)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "Long Live the Coeurl",
-        	location: "Chocobo Forest (35,25)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "Run, Run Away (FATE)",
-        	location: "Chocobo Forest (38,20)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "Drone Under",
-        	location: "The Smoldering Wastes (26,33)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "52",
-        	name: "Who's the Moss",
-        	location: "Chocobo Forest (35,17)",
-        	type: "Defense"
-        }, {
-        	level: "52",
-        	name: "By the Horns",
-        	location: "Chocobo Forest (34,31)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "52",
-        	name: "Birds of a Feather (FATE)",
-        	location: "Chocobo Forest (32,19)",
-        	type: "Gather Items"
-        }, {
-        	level: "52",
-        	name: "Dead Meat",
-        	location: "The Smoldering Wastes (24,20)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "52",
-        	name: "The Whole Truth",
-        	location: "The Smoldering Wastes (24,21)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "52",
-        	name: "The Rite Stuff",
-        	location: "Chocobo Forest (26,13)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "53",
-        	name: "The Mourning After",
-        	location: "Mourn (18,6)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "53",
-        	name: "Stamp the Yard",
-        	location: "The Dravanian Forelands (15,20)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "53",
-        	name: "Special Tarasque Force",
-        	location: "Avalonia Fallen (13,36)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "53",
-        	name: "Hearing Voices",
-        	location: "Mourn (13,18)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "53",
-        	name: "Cerf's Up",
-        	location: "Avalonia Fallen (19,27)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "53",
-        	name: "El Miacid",
-        	location: "Chocobo Forest (22,33)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "53",
-        	name: "Elephant in the Brume",
-        	location: "Avalonia Fallen (16,35)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "57",
-        	name: "Ware the Maiden Fair",
-        	location: "Avalonia Fallen (12,38)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "57",
-        	name: "Come to My Arms",
-        	location: "Chocobo Forest (27,8)",
-        	type: "Slay Enemies"
-        }, {
-        	level: "57",
-        	name: "Coeurls Chase Boys",
-        	location: "Chocobo Forest (27,21), (37,27)",
-        	type: "Notorious Monster"
-        }, {
-        	level: "60",
-        	name: "Coeurls Chase Boys Chase Coeurls",
-        	location: "Mourn (12,10), Sohm Al Foothills (31,5)",
-        	type: "Notorious Monster"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "52",
+        name: "Glawackus On, Glawackus Off",
+        location: "The Dravanian Forelands (36,8)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "The Migas Touch",
+        location: "Chocobo Forest (22,30)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "Bear Apparent",
+        location: "Chocobo Forest (30,16)",
+        type: "Slay Enemies"
+    }, {
+        level: "52",
+        name: "Ladies First",
+        location: "Chocobo Forest (35,26)",
+        type: "Slay Enemies"
+    }, {
+        level: "52",
+        name: "Nothing but the Truth",
+        location: "The Smoldering Wastes (25,22)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "Long Live the Coeurl",
+        location: "Chocobo Forest (35,25)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "Run, Run Away (FATE)",
+        location: "Chocobo Forest (38,20)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "Drone Under",
+        location: "The Smoldering Wastes (26,33)",
+        type: "Slay Enemies"
+    }, {
+        level: "52",
+        name: "Who's the Moss",
+        location: "Chocobo Forest (35,17)",
+        type: "Defense"
+    }, {
+        level: "52",
+        name: "By the Horns",
+        location: "Chocobo Forest (34,31)",
+        type: "Notorious Monster"
+    }, {
+        level: "52",
+        name: "Birds of a Feather (FATE)",
+        location: "Chocobo Forest (32,19)",
+        type: "Gather Items"
+    }, {
+        level: "52",
+        name: "Dead Meat",
+        location: "The Smoldering Wastes (24,20)",
+        type: "Slay Enemies"
+    }, {
+        level: "52",
+        name: "The Whole Truth",
+        location: "The Smoldering Wastes (24,21)",
+        type: "Slay Enemies"
+    }, {
+        level: "52",
+        name: "The Rite Stuff",
+        location: "Chocobo Forest (26,13)",
+        type: "Slay Enemies"
+    }, {
+        level: "53",
+        name: "The Mourning After",
+        location: "Mourn (18,6)",
+        type: "Notorious Monster"
+    }, {
+        level: "53",
+        name: "Stamp the Yard",
+        location: "The Dravanian Forelands (15,20)",
+        type: "Slay Enemies"
+    }, {
+        level: "53",
+        name: "Special Tarasque Force",
+        location: "Avalonia Fallen (13,36)",
+        type: "Notorious Monster"
+    }, {
+        level: "53",
+        name: "Hearing Voices",
+        location: "Mourn (13,18)",
+        type: "Slay Enemies"
+    }, {
+        level: "53",
+        name: "Cerf's Up",
+        location: "Avalonia Fallen (19,27)",
+        type: "Slay Enemies"
+    }, {
+        level: "53",
+        name: "El Miacid",
+        location: "Chocobo Forest (22,33)",
+        type: "Slay Enemies"
+    }, {
+        level: "53",
+        name: "Elephant in the Brume",
+        location: "Avalonia Fallen (16,35)",
+        type: "Notorious Monster"
+    }, {
+        level: "57",
+        name: "Ware the Maiden Fair",
+        location: "Avalonia Fallen (12,38)",
+        type: "Notorious Monster"
+    }, {
+        level: "57",
+        name: "Come to My Arms",
+        location: "Chocobo Forest (27,8)",
+        type: "Slay Enemies"
+    }, {
+        level: "57",
+        name: "Coeurls Chase Boys",
+        location: "Chocobo Forest (27,21), (37,27)",
+        type: "Notorious Monster"
+    }, {
+        level: "60",
+        name: "Coeurls Chase Boys Chase Coeurls",
+        location: "Mourn (12,10), Sohm Al Foothills (31,5)",
+        type: "Notorious Monster"
+    }
+];

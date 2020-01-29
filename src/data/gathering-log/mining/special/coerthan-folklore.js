@@ -7,13 +7,15 @@ export const Mining_Log_Special_Coerthan_Folklore = function(parentStorageKey) {
         name: "Coerthan Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "60★★★",
-                name: "Tungstite",
-                zone: "Coerthas Western Highlands",
-                location: "Dragonspit"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "60★★★",
+        name: "Tungstite",
+        zone: "Coerthas Western Highlands",
+        location: "Dragonspit"
+    },
+];

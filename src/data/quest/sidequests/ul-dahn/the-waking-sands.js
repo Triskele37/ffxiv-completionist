@@ -7,26 +7,30 @@ export const Quest_Sidequests_Ul_Dahn_The_Waking_Sands = function(parentStorageK
         name: "The Waking Sands",
     	storageKey,
     	columns: QuestColumnConfig,
-        tasks: [{
-        	level: "46",
-        	name: "Primal Fear",
-        	npc: "Urianger",
-        	unlock: ""
-        }, {
-        	level: "47",
-        	name: "A Kobold Initiative",
-        	npc: "Slafswys",
-        	unlock: ""
-        }, {
-        	level: "47",
-        	name: "Can't Do It without U",
-        	npc: "Arenvald",
-        	unlock: ""
-        }, {
-        	level: "48",
-        	name: "Into the Valley of the Skull",
-        	npc: "Radolf",
-        	unlock: ""
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "46",
+        name: "Primal Fear",
+        npc: "Urianger",
+        unlock: ""
+    }, {
+        level: "47",
+        name: "A Kobold Initiative",
+        npc: "Slafswys",
+        unlock: ""
+    }, {
+        level: "47",
+        name: "Can't Do It without U",
+        npc: "Arenvald",
+        unlock: ""
+    }, {
+        level: "48",
+        name: "Into the Valley of the Skull",
+        npc: "Radolf",
+        unlock: ""
+    }
+];

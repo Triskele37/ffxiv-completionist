@@ -7,8 +7,6 @@ export const Quarrying_Log_Level_6_10 = function(parentStorageKey) {
         name: "Levels 6-10",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-
-        ],
+        tasks: [],
     };
 };

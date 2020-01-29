@@ -7,23 +7,25 @@ export const Harvesting_Log_Special_Othardian_Folklore = function(parentStorageK
         name: "Othardian Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "70★",
-                name: "Rhea",
-                zone: "The Azim Steppe",
-                location: "Ceol Aen"
-            }, {
-                level: "70★",
-                name: "Azim Cotton Ball",
-                zone: "The Azim Steppe",
-                location: "Ceol Aen"
-            }, {
-                level: "70★★★",
-                name: "Yanxian Cotton Boll",
-                zone: "Yanxia",
-                location: "Castrum Flumins"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "70★",
+        name: "Rhea",
+        zone: "The Azim Steppe",
+        location: "Ceol Aen"
+    }, {
+        level: "70★",
+        name: "Azim Cotton Ball",
+        zone: "The Azim Steppe",
+        location: "Ceol Aen"
+    }, {
+        level: "70★★★",
+        name: "Yanxian Cotton Boll",
+        zone: "Yanxia",
+        location: "Castrum Flumins"
+    },
+];

@@ -7,15 +7,19 @@ export const Quest_Other_Seasonal_Rising = function(parentStorageKey) {
         name: "Rising",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "In Adventurers We Trust"
-        }, {
-            level: "30",
-            name: "Message in a Bottle"
-        }, {
-            level: "30",
-            name: "Messages from Distant Shores"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "In Adventurers We Trust"
+    }, {
+        level: "30",
+        name: "Message in a Bottle"
+    }, {
+        level: "30",
+        name: "Messages from Distant Shores"
+    }
+];

@@ -15,9 +15,13 @@ export const Quest_Other_Special = function(parentStorageKey) {
         Collaboration: Quest_Other_Special_Collaboration(storageKey),
         // Tasks
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "1",
-            name: "The Ties That Bind"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "1",
+        name: "The Ties That Bind"
+    }
+];

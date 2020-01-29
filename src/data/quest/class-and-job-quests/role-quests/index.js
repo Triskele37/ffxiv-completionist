@@ -24,11 +24,13 @@ export const Quest_Class_And_Job_Role = function(parentStorageKey) {
         Magical_DPS: Quest_Class_And_Job_Role_Magical_DPS(storageKey),
         // Tasks
         columns: QuestColumnConfig,
-        tasks: [
-            {
-            	level: "80",
-            	name: "Shadow Walk with Me"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "80",
+        name: "Shadow Walk with Me"
+    },
+];

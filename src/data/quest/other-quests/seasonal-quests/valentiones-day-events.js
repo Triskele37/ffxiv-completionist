@@ -7,12 +7,16 @@ export const Quest_Other_Seasonal_Valentiones_Day = function(parentStorageKey) {
         name: "Valentione's Day",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "Lessons in Love"
-        }, {
-            level: "15",
-            name: "In Fortune with the Times"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "Lessons in Love"
+    }, {
+        level: "15",
+        name: "In Fortune with the Times"
+    }
+];

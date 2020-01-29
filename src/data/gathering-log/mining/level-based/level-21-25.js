@@ -7,18 +7,20 @@ export const Mining_Log_Level_21_25 = function(parentStorageKey) {
         name: "Levels 21-25",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "24",
-                name: "Effervescent Water",
-                zone: "South Shroud",
-                location: "Upper Paths"
-            }, {
-                level: "25",
-                name: "Silver Ore",
-                zone: "South Shroud",
-                location: "Upper Paths"
-            },
-        ],
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "24",
+        name: "Effervescent Water",
+        zone: "South Shroud",
+        location: "Upper Paths"
+    }, {
+        level: "25",
+        name: "Silver Ore",
+        zone: "South Shroud",
+        location: "Upper Paths"
+    },
+];

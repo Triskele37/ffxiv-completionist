@@ -7,11 +7,15 @@ export const Quest_Sidequests_Side_Story_Ishgardian_Restoration_Main = function(
         name: "Ishgardian Restoration Main",
     	storageKey,
         columns: QuestColumnConfig,
-        tasks: [{
-        	level: "60",
-        	name: "Towards the Firmament",
-        	npc: "Recruitment Notice",
-        	unlock: "The Firmament"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "60",
+        name: "Towards the Firmament",
+        npc: "Recruitment Notice",
+        unlock: "The Firmament"
+    }
+];

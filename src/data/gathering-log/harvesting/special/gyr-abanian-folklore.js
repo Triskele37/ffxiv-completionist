@@ -7,13 +7,15 @@ export const Harvesting_Log_Special_Gyr_Abanian_Folklore = function(parentStorag
         name: "Gyr Abanian Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "70★★",
-                name: "Hingan Flax",
-                zone: "The Peaks",
-                location: "Mount Yorn"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "70★★",
+        name: "Hingan Flax",
+        zone: "The Peaks",
+        location: "Mount Yorn"
+    },
+];

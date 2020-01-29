@@ -7,18 +7,20 @@ export const Logging_Log_Special_Abalathian_Folklore = function(parentStorageKey
         name: "Abalathian Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "60★",
-                name: "Honeydew Almonds",
-                zone: "The Sea of Clouds",
-                location: "The Gauntlet"
-            }, {
-                level: "60★",
-                name: "Wattle Bark",
-                zone: "Azys Lla",
-                location: "Alpha Quadrant"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "60★",
+        name: "Honeydew Almonds",
+        zone: "The Sea of Clouds",
+        location: "The Gauntlet"
+    }, {
+        level: "60★",
+        name: "Wattle Bark",
+        zone: "Azys Lla",
+        location: "Alpha Quadrant"
+    },
+];

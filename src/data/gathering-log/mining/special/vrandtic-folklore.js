@@ -7,23 +7,25 @@ export const Mining_Log_Special_Vrandtic_Folklore = function(parentStorageKey) {
         name: "Vrandtic Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "80★",
-                name: "Tungsten Ore",
-                zone: "The Tempest",
-                location: "Where the Dry Return"
-            }, {
-                level: "80★",
-                name: "Prismstone",
-                zone: "Il Mheg",
-                location: "Saint Fathric's Temple"
-            }, {
-                level: "80★",
-                name: "Beryllium Ore",
-                zone: "Il Mheg",
-                location: "Saint Fathric's Temple"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "80★",
+        name: "Tungsten Ore",
+        zone: "The Tempest",
+        location: "Where the Dry Return"
+    }, {
+        level: "80★",
+        name: "Prismstone",
+        zone: "Il Mheg",
+        location: "Saint Fathric's Temple"
+    }, {
+        level: "80★",
+        name: "Beryllium Ore",
+        zone: "Il Mheg",
+        location: "Saint Fathric's Temple"
+    },
+];

@@ -7,11 +7,15 @@ export const Quest_Sidequests_Side_Story_Tales_From_The_Shadows = function(paren
         name: "Tales from the Shadows",
     	storageKey,
         columns: QuestColumnConfig,
-        tasks: [{
-        	level: "80",
-        	name: "One Final Journey",
-        	npc: "F'lhaminn",
-        	unlock: ""
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "80",
+        name: "One Final Journey",
+        npc: "F'lhaminn",
+        unlock: ""
+    }
+];

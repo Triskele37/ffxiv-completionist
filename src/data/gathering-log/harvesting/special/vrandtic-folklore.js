@@ -7,13 +7,15 @@ export const Harvesting_Log_Special_Vrandtic_Folklore = function(parentStorageKe
         name: "Vrandtic Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "80★",
-                name: "Ethereal Cocoon",
-                zone: "Lakeland",
-                location: "Inviolate Witness"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "80★",
+        name: "Ethereal Cocoon",
+        zone: "Lakeland",
+        location: "Inviolate Witness"
+    },
+];

@@ -7,68 +7,70 @@ export const Harvesting_Log_Level_1_5 = function(parentStorageKey) {
         name: "Levels 1-5",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "1",
-                name: "Earth Shard",
-                zone: "Lower La Noscea",
-                location: "Moraby Bay"
-            }, {
-                level: "1",
-                name: "Fire Shard",
-                zone: "Middle La Noscea",
-                location: "Summerford"
-            }, {
-                level: "1",
-                name: "Ice Shard",
-                zone: "Western La Noscea",
-                location: "Quarterstone"
-            }, {
-                level: "1",
-                name: "Lightning Shard",
-                zone: "Central Thanalan",
-                location: "The Clutch"
-            }, {
-                level: "1",
-                name: "Water Shard",
-                zone: "Western Thanalan",
-                location: "Horizon's Edge"
-            }, {
-                level: "1",
-                name: "Wind Shard",
-                zone: "Central Shroud",
-                location: "Bentbranch"
-            }, {
-                level: "1",
-                name: "Firelight Seeds",
-                zone: "Middle La Noscea",
-                location: "Summerford"
-            }, {
-                level: "1",
-                name: "Icelight Seeds",
-                zone: "Western La Noscea",
-                location: "Quarterstone"
-            }, {
-                level: "1",
-                name: "Windlight Seeds",
-                zone: "Central Shroud",
-                location: "Bentbranch"
-            }, {
-                level: "1",
-                name: "Earthlight Seeds",
-                zone: "Lower La Noscea",
-                location: "Moraby Bay"
-            }, {
-                level: "1",
-                name: "Levinlight Seeds",
-                zone: "Central Thanalan",
-                location: "The Clutch"
-            }, {
-                level: "1",
-                name: "Waterlight Seeds",
-                zone: "Western Thanalan",
-                location: "Horizon's Edge"
-            },
-        ],
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "1",
+        name: "Earth Shard",
+        zone: "Lower La Noscea",
+        location: "Moraby Bay"
+    }, {
+        level: "1",
+        name: "Fire Shard",
+        zone: "Middle La Noscea",
+        location: "Summerford"
+    }, {
+        level: "1",
+        name: "Ice Shard",
+        zone: "Western La Noscea",
+        location: "Quarterstone"
+    }, {
+        level: "1",
+        name: "Lightning Shard",
+        zone: "Central Thanalan",
+        location: "The Clutch"
+    }, {
+        level: "1",
+        name: "Water Shard",
+        zone: "Western Thanalan",
+        location: "Horizon's Edge"
+    }, {
+        level: "1",
+        name: "Wind Shard",
+        zone: "Central Shroud",
+        location: "Bentbranch"
+    }, {
+        level: "1",
+        name: "Firelight Seeds",
+        zone: "Middle La Noscea",
+        location: "Summerford"
+    }, {
+        level: "1",
+        name: "Icelight Seeds",
+        zone: "Western La Noscea",
+        location: "Quarterstone"
+    }, {
+        level: "1",
+        name: "Windlight Seeds",
+        zone: "Central Shroud",
+        location: "Bentbranch"
+    }, {
+        level: "1",
+        name: "Earthlight Seeds",
+        zone: "Lower La Noscea",
+        location: "Moraby Bay"
+    }, {
+        level: "1",
+        name: "Levinlight Seeds",
+        zone: "Central Thanalan",
+        location: "The Clutch"
+    }, {
+        level: "1",
+        name: "Waterlight Seeds",
+        zone: "Western Thanalan",
+        location: "Horizon's Edge"
+    },
+];

@@ -7,13 +7,15 @@ export const Mining_Log_Level_11_15 = function(parentStorageKey) {
         name: "Levels 11-15",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "14",
-                name: "Iron Ore",
-                zone: "Western Thanalan",
-                location: "Horizon's Edge"
-            },
-        ],
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "14",
+        name: "Iron Ore",
+        zone: "Western Thanalan",
+        location: "Horizon's Edge"
+    },
+];

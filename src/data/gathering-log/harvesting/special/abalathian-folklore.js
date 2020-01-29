@@ -7,13 +7,15 @@ export const Harvesting_Log_Special_Abalathian_Folklore = function(parentStorage
         name: "Abalathian Folklore",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "60★★★",
-                name: "Star Cotton Boll",
-                zone: "Azys Lla",
-                location: "Antithesis"
-            },
-        ]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "60★★★",
+        name: "Star Cotton Boll",
+        zone: "Azys Lla",
+        location: "Antithesis"
+    },
+];

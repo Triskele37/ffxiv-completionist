@@ -7,27 +7,31 @@ export const Quest_Other_Seasonal_All_Saints_Wake = function(parentStorageKey) {
         name: "All Saints' Wake",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "The Sinister Soiree"
-        }, {
-            level: "15",
-            name: "The Parlous Ploy"
-        }, {
-            level: "15",
-            name: "The Sordid Cipher"
-        }, {
-            level: "15",
-            name: "The Macabre Manor"
-        }, {
-            level: "15",
-            name: "Fear and Delight"
-        }, {
-            level: "15",
-            name: "A Glamourous Guise"
-        }, {
-            level: "15",
-            name: "Haunting Grounds"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "The Sinister Soiree"
+    }, {
+        level: "15",
+        name: "The Parlous Ploy"
+    }, {
+        level: "15",
+        name: "The Sordid Cipher"
+    }, {
+        level: "15",
+        name: "The Macabre Manor"
+    }, {
+        level: "15",
+        name: "Fear and Delight"
+    }, {
+        level: "15",
+        name: "A Glamourous Guise"
+    }, {
+        level: "15",
+        name: "Haunting Grounds"
+    }
+];

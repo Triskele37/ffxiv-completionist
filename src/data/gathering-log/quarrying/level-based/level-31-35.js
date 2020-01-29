@@ -7,13 +7,15 @@ export const Quarrying_Log_Level_31_35 = function(parentStorageKey) {
         name: "Levels 31-35",
         storageKey,
         columns: GatheringColumnConfig,
-        tasks: [
-            {
-                level: "33",
-                name: "Mythril Sand",
-                zone: "Southern Thanalan",
-                location: "The Red Labyrinth"
-            },
-        ],
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "33",
+        name: "Mythril Sand",
+        zone: "Southern Thanalan",
+        location: "The Red Labyrinth"
+    },
+];

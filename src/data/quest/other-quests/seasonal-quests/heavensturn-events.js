@@ -7,12 +7,16 @@ export const Quest_Other_Seasonal_Heavensturn = function(parentStorageKey) {
         name: "Heavensturn",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "More Bark and Mochi Bite"
-        }, {
-            level: "15",
-            name: "Mochi to Be Desired"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "More Bark and Mochi Bite"
+    }, {
+        level: "15",
+        name: "Mochi to Be Desired"
+    }
+];

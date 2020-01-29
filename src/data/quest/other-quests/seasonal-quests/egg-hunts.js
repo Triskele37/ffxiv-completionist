@@ -7,18 +7,22 @@ export const Quest_Other_Seasonal_Egg_Hunts = function(parentStorageKey) {
         name: "Egg Hunts",
     	storageKey,
         columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "Uneggseptable Losses"
-        }, {
-            level: "15",
-            name: "Eggstreme Eggstrapolation"
-        }, {
-            level: "15",
-            name: "A Shelltered Eggsistence"
-        }, {
-            level: "15",
-            name: "Deus Eggs Machina"
-        }]
+        tasks
     };
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "Uneggseptable Losses"
+    }, {
+        level: "15",
+        name: "Eggstreme Eggstrapolation"
+    }, {
+        level: "15",
+        name: "A Shelltered Eggsistence"
+    }, {
+        level: "15",
+        name: "Deus Eggs Machina"
+    }
+];
