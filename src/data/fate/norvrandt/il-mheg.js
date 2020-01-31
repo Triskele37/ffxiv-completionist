@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const IlMhegFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.il-mheg`;
-
-    return {
-        name: "Il Mheg",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Norvrandt_Il_Mheg = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -23,7 +23,7 @@ import { General_Logs } from "./logs";
 // import { CraftingLogs } from "./crafting-log";
 // import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
-// import { FATEs } from "./fate";
+import { FATEs } from "./fate";
 // import { Quests } from "./quest";
 
 const data = new DataGroup("Overall", null);
@@ -34,7 +34,7 @@ data.initializeSubGroups([
     // CraftingLogs,
     // Gathering_Logs,
     Duty,
-    // FATEs,
+    FATEs,
     // Quests,
 ]);
 

@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheSeaOfCloudsFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-sea-of-clouds`;
-
-    return {
-        name: "The Sea of Clouds",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Abalathias_Spine_The_Sea_of_Clouds = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

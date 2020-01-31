@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheChurningMistsFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-churning-mists`;
-
-    return {
-        name: "The Churning Mists",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Dravania_The_Churning_Mists = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

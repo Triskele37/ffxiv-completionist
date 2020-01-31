@@ -1,30 +1,19 @@
-import { EasternLaNosceaFATEs } from "./eastern-la-noscea";
-import { LowerLaNosceaFATEs } from "./lower-la-noscea";
-import { MiddleLaNosceaFATEs } from "./middle-la-noscea";
-import { OuterLaNosceaFATEs } from "./outer-la-noscea";
-import { UpperLaNosceaFATEs } from "./upper-la-noscea";
-import { WesternLaNosceaFATEs } from "./western-la-noscea";
+import { DataGroup } from "../../DataGroup";
 
-export const LaNosceaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.la-noscea`;
+import { FATEs_La_Noscea_Eastern } from "./eastern-la-noscea";
+import { FATEs_La_Noscea_Lower } from "./lower-la-noscea";
+import { FATEs_La_Noscea_Middle } from "./middle-la-noscea";
+import { FATEs_La_Noscea_Outer } from "./outer-la-noscea";
+import { FATEs_La_Noscea_Upper } from "./upper-la-noscea";
+import { FATEs_La_Noscea_Western } from "./western-la-noscea";
 
-    return {
-        name: "La Noscea",
-        storageKey,
-        groupKeys: [
-            "EasternLaNoscea",
-            "LowerLaNoscea",
-            "MiddleLaNoscea",
-            "OuterLaNoscea",
-            "UpperLaNoscea",
-            "WesternLaNoscea",
-        ],
-        // Groups
-        EasternLaNoscea: EasternLaNosceaFATEs(storageKey),
-        LowerLaNoscea: LowerLaNosceaFATEs(storageKey),
-        MiddleLaNoscea: MiddleLaNosceaFATEs(storageKey),
-        OuterLaNoscea: OuterLaNosceaFATEs(storageKey),
-        UpperLaNoscea: UpperLaNosceaFATEs(storageKey),
-        WesternLaNoscea: WesternLaNosceaFATEs(storageKey),
-    };
+export const FATEs_La_Noscea = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        FATEs_La_Noscea_Eastern,
+        FATEs_La_Noscea_Lower,
+        FATEs_La_Noscea_Middle,
+        FATEs_La_Noscea_Outer,
+        FATEs_La_Noscea_Upper,
+        FATEs_La_Noscea_Western,
+	]);
 };

@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const WesternCoerthasFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.western-highlands`;
-
-    return {
-        name: "Western Highlands",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Coerthas_Western_Highlands = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -55,7 +55,7 @@ export class DataGroup {
 
         // Update totals
         this.total += this.tasks.length;
-        if(this._parent) this._parent.initializeTasksFromSubGroup(this.total);
+        if(this._parent) this._parent.initializeTasksFromSubGroup(this.tasks.length);
 
         return this;
     }

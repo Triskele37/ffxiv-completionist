@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const MiddleLaNosceaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.middle`;
-
-    return {
-        name: "Middle",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_La_Noscea_Middle = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

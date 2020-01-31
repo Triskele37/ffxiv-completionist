@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheRubySeaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-ruby-sea`;
-
-    return {
-        name: "The Ruby Sea",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Othard_The_Ruby_Sea = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

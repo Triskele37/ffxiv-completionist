@@ -50,7 +50,7 @@
                     this.columnConfig.forEach(({ key }) => {
                         if(!uniqueValues[key]) uniqueValues[key] = [];
 
-                        if(uniqueValues[key].indexOf(task[key]) === -1) {
+                        if(task[key] && uniqueValues[key].indexOf(task[key]) === -1) {
                             uniqueValues[key].push(task[key]);
                         }
                     });
@@ -89,7 +89,7 @@
                     if(filter) {
                         if(filter.filterType === 'search') {
                             filtered = filtered.filter((task) =>
-                                task[key].toLowerCase().includes(filter.value.toLowerCase())
+                                task[key].toString().toLowerCase().includes(filter.value.toLowerCase())
                             );
                         }
                         else {

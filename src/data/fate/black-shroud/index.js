@@ -1,30 +1,17 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-import { CentralShroudFATEs } from "./central-shroud";
-import { EastShroudFATEs } from "./east-shroud";
-import { NorthShroudFATEs } from "./north-shroud";
-import { SouthShroudFATEs } from "./south-shroud";
+import { FATEs_The_Black_Shroud_Central_Shroud } from "./central-shroud";
+import { FATEs_The_Black_Shroud_East_Shroud } from "./east-shroud";
+import { FATEs_The_Black_Shroud_North_Shroud } from "./north-shroud";
+import { FATEs_The_Black_Shroud_South_Shroud } from "./south-shroud";
 
-export const BlackShroudFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.black-shroud`;
-
-    return {
-        name: "Black Shroud",
-        storageKey,
-        columns: FATEColumnConfig,
-        tasks,
-        groupKeys: [
-            "CentralShroud",
-            "EastShroud",
-            "NorthShroud",
-            "SouthShroud",
-        ],
-        // Groups
-        CentralShroud: CentralShroudFATEs(storageKey),
-        EastShroud: EastShroudFATEs(storageKey),
-        NorthShroud: NorthShroudFATEs(storageKey),
-        SouthShroud: SouthShroudFATEs(storageKey),
-    };
+export const FATEs_The_Black_Shroud = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        FATEs_The_Black_Shroud_Central_Shroud,
+        FATEs_The_Black_Shroud_East_Shroud,
+        FATEs_The_Black_Shroud_North_Shroud,
+        FATEs_The_Black_Shroud_South_Shroud,
+	]).initializeTasks(tasks);
 };
 
 const tasks = [

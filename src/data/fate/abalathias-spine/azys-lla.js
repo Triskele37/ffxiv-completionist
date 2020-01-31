@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const AzysLlaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.azys-lla`;
-
-    return {
-        name: "Azys Lla",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Abalathias_Spine_Azys_Lla = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

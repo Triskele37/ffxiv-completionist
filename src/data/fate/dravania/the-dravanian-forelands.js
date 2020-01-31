@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheDravanianForelandsFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-dravanian-forelands`;
-
-    return {
-        name: "The Dravanian Forelands",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Dravania_The_Dravanian_Forelands = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

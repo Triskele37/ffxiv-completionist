@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const CentralCoerthasFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.central-highlands`;
-
-    return {
-        name: "Central Highlands",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Coerthas_Central_Highlands = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

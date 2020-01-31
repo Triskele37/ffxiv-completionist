@@ -1,14 +1,9 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheRakTikaGreatwoodFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-rak-tika-greatwood`;
-
-    return {
-        name: "The Rak'Tika Greatwood",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Norvrandt_The_Rak_Tika_Greatwood = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "The Rak'Tika Greatwood";
+    return data;
 };
 
 const tasks = [

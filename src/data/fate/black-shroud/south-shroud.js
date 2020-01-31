@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const SouthShroudFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.south`;
-
-    return {
-        name: "South",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_The_Black_Shroud_South_Shroud = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const ThePeaksFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-peaks`;
-
-    return {
-        name: "The Peaks",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Gyr_Abania_The_Peaks = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

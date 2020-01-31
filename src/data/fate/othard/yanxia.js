@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const YanxiaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.yanxia`;
-
-    return {
-        name: "Yanxia",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Othard_Yanxia = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

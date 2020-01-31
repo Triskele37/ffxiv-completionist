@@ -1,14 +1,7 @@
-import { FATEColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const TheAzimSteppeFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-azim-steppe`;
-
-    return {
-        name: "The Azim Steppe",
-    	storageKey,
-        columns: FATEColumnConfig,
-        tasks
-    };
+export const FATEs_Othard_The_Azim_Steppe = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
