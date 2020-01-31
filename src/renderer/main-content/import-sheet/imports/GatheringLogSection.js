@@ -7,26 +7,29 @@ export const GatheringLogSection = {
         {
             title: "Miner Logs",
             importCallback: importCallback(3, [
-                data.Gathering_Logs.Mining_Log,
-                data.Gathering_Logs.Quarrying_Log
+                data.Gathering_Logs.Mining,
+                data.Gathering_Logs.Quarrying
             ]),
         },
         {
             title: "Botanist Logs",
             importCallback: importCallback(3, [
-                data.Gathering_Logs.Harvesting_Log,
-                data.Gathering_Logs.Logging_Log
+                data.Gathering_Logs.Harvesting,
+                data.Gathering_Logs.Logging
             ]),
         },
         {
             title: "Fishing Logs",
-            importCallback: importCallback(1, [data.Gathering_Logs.Fishing_Log]),
+            importCallback: importCallback(1, [
+                data.Gathering_Logs.Fishing_Log,
+                data.Gathering_Logs.Spearfishing_Log
+            ]),
         },
         {
             title: "Fishing Guide",
             importCallback: importCallback(1, [
-                data.Gathering_Logs.Fishing_Guide_Fishing,
-                data.Gathering_Logs.Fishing_Guide_Spearfishing
+                data.Gathering_Logs.Fishing_Guide,
+                data.Gathering_Logs.Spearfishing_Guide
             ]),
         },
     ]

@@ -7,10 +7,9 @@ export const importCallback = function(nameColumnIndex, groups) {
         groups.forEach((group) => searchGroupForImportedNames(group, importObj));
 
         // Save
-        if(importObj.storeSetterObj) {
-            //TODO: This nukes the whole store
+        /*if(importObj.storeSetterObj) {
             store.dispatch('setCompletionFlags', importObj.storeSetterObj);
-        }
+        }*/
 
         return importObj;
     };
@@ -34,8 +33,6 @@ function generateImportObj(sheet, nameColumnIndex) {
     return {
         startTime: new Date().getTime(),
         total: Object.keys(dictionary).length,
-        storeSetterObj: {},
-        matched: [],
         dictionary,
     };
 }
@@ -61,8 +58,7 @@ function searchTasksForImportedNames(group, importObj) {
             const storageKey = `${group.storageKey}.${task.name}`;
             const flag = importObj.dictionary[matchedName]
 
-            // importObj.matched.push({ storageKey, flag });
-            addMatchToStoreSetter(importObj, storageKey, flag); //TODO: Implement
+            task.changeCompletionFlag(flag);
 
             // Remove the matched task (may not be necessary now)
             delete importObj.dictionary[matchedName];
@@ -81,14 +77,4 @@ function getMatchedName(taskName, dictionary) {
 
     // No Match
     return null;
-}
-
-function addMatchToStoreSetter(importObj, storageKey, flag) {
-    const splitKey = storageKey.split('.');
-
-    splitKey.reduce((obj, key, i) => {
-        if(i === splitKey.length - 1) obj[key] = flag;
-        else if(!obj[key]) obj[key] = {};
-        return obj[key];
-    }, importObj.storeSetterObj);
 }

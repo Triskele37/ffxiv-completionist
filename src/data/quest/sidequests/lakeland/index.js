@@ -5,7 +5,7 @@ import { Quests_Sidequests_Lakeland_The_Crystarium } from "./the-crystarium";
 export const Quests_Sidequests_Lakeland = function(name, parent) {
     return new DataGroup(name, parent).initializeSubGroups([
         Quests_Sidequests_Lakeland_The_Crystarium,
-    ]);
+    ]).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -18,7 +18,7 @@ export const AchievementsSection = {
         },
         {
             title: "Items Achievements",
-            importCallback: importCallback(1, [data.Achievements.Item]),
+            importCallback: importCallback(1, [data.Achievements.Items]),
         },
         {
             title: "Crafting Achievements",
@@ -30,7 +30,7 @@ export const AchievementsSection = {
         },
         {
             title: "Quests Achievements",
-            importCallback: importCallback(1, [data.Achievements.Quest]),
+            importCallback: importCallback(1, [data.Achievements.Quests]),
         },
         {
             title: "Exploration Achievements",
@@ -38,7 +38,7 @@ export const AchievementsSection = {
         },
         {
             title: "Grand Company Achievements",
-            importCallback: importCallback(1, [data.Achievements.GrandCompany]),
+            importCallback: importCallback(1, [data.Achievements.Grand_Company]),
         },
     ]
 };

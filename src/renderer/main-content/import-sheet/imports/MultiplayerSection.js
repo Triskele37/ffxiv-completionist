@@ -18,7 +18,7 @@ export const MultiplayerSection = {
         },
         {
             title: "The Hunt",
-            importCallback: importCallback(2, [data.Duty.Hunts]),
+            importCallback: importCallback(2, [data.Duty.The_Hunt]),
         },
     ]
 };

@@ -6,35 +6,35 @@ export const CraftingLogSection = {
     tabs: [
         {
             title: "Carpentry Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Carpenter]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Carpenter]),
         },
         {
             title: "Blacksmithing Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Blacksmith]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Blacksmith]),
         },
         {
             title: "Armorcrafting Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Armorer]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Armorer]),
         },
         {
             title: "Goldsmithing Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Goldsmith]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Goldsmith]),
         },
         {
             title: "Leatherworking Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Leatherworker]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Leatherworker]),
         },
         {
             title: "Weaving Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Weaver]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Weaver]),
         },
         {
             title: "Alchemy Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Alchemist]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Alchemist]),
         },
         {
             title: "Culinary Log",
-            importCallback: importCallback(2, [data.CraftingLogs.Culinarian]),
+            importCallback: importCallback(2, [data.Crafting_Logs.Culinarian]),
         },
         {
             title: "Shared Craft Log",

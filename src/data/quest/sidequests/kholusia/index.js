@@ -5,7 +5,7 @@ import { Quests_Sidequests_Kholusia_Eulmore } from "./eulmore";
 export const Quests_Sidequests_Kholusia = function(name, parent) {
     return new DataGroup(name, parent).initializeSubGroups([
         Quests_Sidequests_Kholusia_Eulmore,
-    ]);
+    ]).initializeTasks(tasks);
 };
 
 export const Quest_Sidequests_Kholusia = function(parentStorageKey) {
