@@ -1,229 +1,224 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Culinarian_MasterRecipe_6 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.master-6`;
-
-    return {
-        name: "Master Recipe VI",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "70★★★",
-                name: "Dzo Steak",
-                "mat-1": "Dzo Sirloin",
-                "mat-2": "Algae Salt",
-                "mat-3": "Cottonseed Oil",
-                "mat-4": "Cooking Sherry",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Oden",
-                "mat-1": "Secret Recipe Broth",
-                "mat-2": "Mountain Popoto",
-                "mat-3": "Ruby Tide Kelp",
-                "mat-4": "Daikon Radish",
-                "mat-5": "Gagana Egg",
-                "mat-6": "Cooking Sake",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Ema Datshi",
-                "mat-1": "Crimson Pepper",
-                "mat-2": "4 Dragon Pepper",
-                "mat-3": "2 Crescent Spring Water",
-                "mat-4": "Cream Cheese",
-                "mat-5": "Cyclops Onion",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Sauteed Green Leeks",
-                "mat-1": "Crimson Pepper",
-                "mat-2": "2 Green Leek",
-                "mat-3": "Solstice Garlic",
-                "mat-4": "Cottonseed Oil",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Tako-yaki",
-                "mat-1": "2 Gyr Abanian Flour",
-                "mat-2": "Usuginu Octopus",
-                "mat-3": "Secret Recipe Broth",
-                "mat-4": "Green Leek",
-                "mat-5": "2 Gagana Egg",
-                "mat-6": "Cottonseed Oil",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Futo-maki Roll",
-                "mat-1": "Doman Rice",
-                "mat-2": "Spiny Lobster",
-                "mat-3": "Doman Eel",
-                "mat-4": "Shiitake Mushroom",
-                "mat-5": "Gagana Egg",
-                "mat-6": "Rice Vinegar",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Tofu Pancakes",
-                "mat-1": "Honeydew Honey",
-                "mat-2": "Firm Tofu",
-                "mat-3": "Gagana Egg",
-                "mat-4": "Steppe Milk",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Banh Xeo",
-                "mat-1": "Koshu Sticky Rice",
-                "mat-2": "Koshu Pork",
-                "mat-3": "Yanxian Tiger Prawn",
-                "mat-4": "2 Green Leek",
-                "mat-5": "Fennel",
-                "mat-6": "2 Cumin Seeds",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Konpeito",
-                "mat-1": "2 Beet Sugar",
-                "mat-2": "Honeydew Honey",
-                "mat-3": "Dusklight Aethersand",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Crimson Cider",
-                "mat-1": "Crimson Pepper",
-                "mat-2": "Jhammel Ginger",
-                "mat-3": "Cumin Seeds",
-                "mat-4": "Kudze Root",
-                "mat-5": "3 Loquat",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★",
-                name: "Matcha",
-                "mat-1": "Tea Brick",
-                "mat-2": "Crescent Spring Water",
-                "mat-3": "Dusklight Aethersand",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Laghman",
-                "mat-1": "Secret Recipe Broth",
-                "mat-2": "2 Gyr Abanian Flour",
-                "mat-3": "Dzo Chuck",
-                "mat-4": "Gyr Abanian Carrot",
-                "mat-5": "Laurel",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Shakshouka",
-                "mat-1": "Koshu Pork",
-                "mat-2": "2 Dravanian Paprika",
-                "mat-3": "2 Dzemael Tomato",
-                "mat-4": "Gagana Egg",
-                "mat-5": "Dragon Pepper",
-                "mat-6": "Thyme",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Ginger Salad",
-                "mat-1": "Jhammel Ginger",
-                "mat-2": "Crimson Pepper",
-                "mat-3": "3 La Noscean Lettuce",
-                "mat-4": "2 Daikon Radish",
-                "mat-5": "Olive Oil",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Imam Bayildi",
-                "mat-1": "3 Doman Eggplant",
-                "mat-2": "2 Gyr Abanian Carrot",
-                "mat-3": "2 Dzemael Tomato",
-                "mat-4": "Cyclops Onion",
-                "mat-5": "Highland Parsley",
-                "mat-6": "Crimson Pepper",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Salmon Muffin",
-                "mat-1": "Ishgardian Muffin",
-                "mat-2": "Lordly Salmon",
-                "mat-3": "Cieldalaes Spinach",
-                "mat-4": "Alligator Pear",
-                "mat-5": "Reunion Cheese",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Papanasi",
-                "mat-1": "2 Gyr Abanian Flour",
-                "mat-2": "Gagana Egg",
-                "mat-3": "Cottonseed Oil",
-                "mat-4": "Sour Cream",
-                "mat-5": "Reunion Cheese",
-                "mat-6": "3 Rolanberry",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            },
-            {
-                "level": "70★★★★",
-                name: "Rooibos Tea",
-                "mat-1": "Rooibos Leaves",
-                "mat-2": "Crescent Spring Water",
-                "mat-3": "Dawnlight Aethersand",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Cluster, 2 Water Cluster",
-                "special": "Unlocked w/ Master Culinarian VI"
-            }
-        ]
-    };
+export const Crafting_Logs_Culinarian_Master_Recipes_Master_Recipe_VI = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        "level": "70★★★",
+        name: "Dzo Steak",
+        "mat-1": "Dzo Sirloin",
+        "mat-2": "Algae Salt",
+        "mat-3": "Cottonseed Oil",
+        "mat-4": "Cooking Sherry",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Oden",
+        "mat-1": "Secret Recipe Broth",
+        "mat-2": "Mountain Popoto",
+        "mat-3": "Ruby Tide Kelp",
+        "mat-4": "Daikon Radish",
+        "mat-5": "Gagana Egg",
+        "mat-6": "Cooking Sake",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Ema Datshi",
+        "mat-1": "Crimson Pepper",
+        "mat-2": "4 Dragon Pepper",
+        "mat-3": "2 Crescent Spring Water",
+        "mat-4": "Cream Cheese",
+        "mat-5": "Cyclops Onion",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Sauteed Green Leeks",
+        "mat-1": "Crimson Pepper",
+        "mat-2": "2 Green Leek",
+        "mat-3": "Solstice Garlic",
+        "mat-4": "Cottonseed Oil",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Tako-yaki",
+        "mat-1": "2 Gyr Abanian Flour",
+        "mat-2": "Usuginu Octopus",
+        "mat-3": "Secret Recipe Broth",
+        "mat-4": "Green Leek",
+        "mat-5": "2 Gagana Egg",
+        "mat-6": "Cottonseed Oil",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Futo-maki Roll",
+        "mat-1": "Doman Rice",
+        "mat-2": "Spiny Lobster",
+        "mat-3": "Doman Eel",
+        "mat-4": "Shiitake Mushroom",
+        "mat-5": "Gagana Egg",
+        "mat-6": "Rice Vinegar",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Tofu Pancakes",
+        "mat-1": "Honeydew Honey",
+        "mat-2": "Firm Tofu",
+        "mat-3": "Gagana Egg",
+        "mat-4": "Steppe Milk",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Banh Xeo",
+        "mat-1": "Koshu Sticky Rice",
+        "mat-2": "Koshu Pork",
+        "mat-3": "Yanxian Tiger Prawn",
+        "mat-4": "2 Green Leek",
+        "mat-5": "Fennel",
+        "mat-6": "2 Cumin Seeds",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Konpeito",
+        "mat-1": "2 Beet Sugar",
+        "mat-2": "Honeydew Honey",
+        "mat-3": "Dusklight Aethersand",
+        "mat-4": "X",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Crimson Cider",
+        "mat-1": "Crimson Pepper",
+        "mat-2": "Jhammel Ginger",
+        "mat-3": "Cumin Seeds",
+        "mat-4": "Kudze Root",
+        "mat-5": "3 Loquat",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★",
+        name: "Matcha",
+        "mat-1": "Tea Brick",
+        "mat-2": "Crescent Spring Water",
+        "mat-3": "Dusklight Aethersand",
+        "mat-4": "X",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Laghman",
+        "mat-1": "Secret Recipe Broth",
+        "mat-2": "2 Gyr Abanian Flour",
+        "mat-3": "Dzo Chuck",
+        "mat-4": "Gyr Abanian Carrot",
+        "mat-5": "Laurel",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Shakshouka",
+        "mat-1": "Koshu Pork",
+        "mat-2": "2 Dravanian Paprika",
+        "mat-3": "2 Dzemael Tomato",
+        "mat-4": "Gagana Egg",
+        "mat-5": "Dragon Pepper",
+        "mat-6": "Thyme",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Ginger Salad",
+        "mat-1": "Jhammel Ginger",
+        "mat-2": "Crimson Pepper",
+        "mat-3": "3 La Noscean Lettuce",
+        "mat-4": "2 Daikon Radish",
+        "mat-5": "Olive Oil",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Imam Bayildi",
+        "mat-1": "3 Doman Eggplant",
+        "mat-2": "2 Gyr Abanian Carrot",
+        "mat-3": "2 Dzemael Tomato",
+        "mat-4": "Cyclops Onion",
+        "mat-5": "Highland Parsley",
+        "mat-6": "Crimson Pepper",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Salmon Muffin",
+        "mat-1": "Ishgardian Muffin",
+        "mat-2": "Lordly Salmon",
+        "mat-3": "Cieldalaes Spinach",
+        "mat-4": "Alligator Pear",
+        "mat-5": "Reunion Cheese",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Papanasi",
+        "mat-1": "2 Gyr Abanian Flour",
+        "mat-2": "Gagana Egg",
+        "mat-3": "Cottonseed Oil",
+        "mat-4": "Sour Cream",
+        "mat-5": "Reunion Cheese",
+        "mat-6": "3 Rolanberry",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+    {
+        "level": "70★★★★",
+        name: "Rooibos Tea",
+        "mat-1": "Rooibos Leaves",
+        "mat-2": "Crescent Spring Water",
+        "mat-3": "Dawnlight Aethersand",
+        "mat-4": "X",
+        "mat-5": "X",
+        "mat-6": "X",
+        "catalysts": "2 Fire Cluster, 2 Water Cluster",
+        "special": "Unlocked w/ Master Culinarian VI"
+    },
+];

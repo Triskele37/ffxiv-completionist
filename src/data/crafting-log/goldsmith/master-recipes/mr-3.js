@@ -1,12 +1,9 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Goldsmith_MasterRecipe_3 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.master-3`;
-
-    return {
-        name: "Master Recipe III",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: []
-    };
+export const Crafting_Logs_Goldsmith_Master_Recipes_Master_Recipe_III = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+
+];

@@ -1,14 +1,16 @@
 /*
-    Duplicate name keys in groups:
-        The Isle of Ken (break out spearfishing)
-        Unspoiled Teeming Waters (?)
+    Duplicate name keys in groups if all displayed: The Isle of Ken, shard/crystals
 */
 
 /* Data Fixes
 Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
 Collectable - Reverify verbiage against IG UI (no item count issues)
 General_Logs - no issues
-Crafting - TODO
+Crafting -
+    BSM - missing Housing, Master, Ishgard, Story
+    GSM - missing Housing, Master, Ishgard, Story
+    ALC - 10 extra
+    Shared - missing
 Gathering - (9 extra FSH guide, 8 extra FSH log) Reverify verbiage
 Duty - Reverify verbiage against IG UI (no item count issues)
 FATEs - Reverify verbiage against IG UI (no item count issues)
@@ -20,7 +22,7 @@ import { DataGroup } from "./DataGroup";
 import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
-// import { CraftingLogs } from "./crafting-log";
+import { Crafting_Logs } from "./crafting-log";
 import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
 import { FATEs } from "./fate";
@@ -31,7 +33,7 @@ data.initializeSubGroups([
     Achievements,
     Collectables,
     General_Logs,
-    // CraftingLogs,
+    Crafting_Logs,
     Gathering_Logs,
     Duty,
     FATEs,

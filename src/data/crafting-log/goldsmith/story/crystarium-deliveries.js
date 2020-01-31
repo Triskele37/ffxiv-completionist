@@ -1,12 +1,9 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Goldsmith_Story_Crystarium = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.crystarium-deliveries`;
-
-    return {
-        name: "Crystarium Deliveries",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: []
-    };
+export const Crafting_Logs_Goldsmith_Story_Crystarium_Deliveries = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+
+];

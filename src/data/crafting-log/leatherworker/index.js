@@ -1,30 +1,19 @@
-import { LeatherworkerLevelBased } from "./level-based";
-import { LeatherworkerMasterRecipe } from "./master-recipes";
-import { LeatherworkerStoryRecipe } from "./story";
-import { LeatherworkerHousingRecipe } from "./housing";
-import { Leatherworker_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Leatherworker_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const LeatherworkerCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.leatherworker`;
+import { Crafting_Logs_Leatherworker_Level_Based } from "./level-based";
+import { Crafting_Logs_Leatherworker_Master_Recipes } from "./master-recipes";
+import { Crafting_Logs_Leatherworker_Story } from "./story";
+import { Crafting_Logs_Leatherworker_Housing } from "./housing";
+import { Crafting_Logs_Leatherworker_Ishgard_Restoration } from "./ishgard-restoration";
+import { Crafting_Logs_Leatherworker_Others } from "./others";
 
-    return {
-        name: "Leatherworker",
-        storageKey,
-        groupKeys: [
-            "LevelBased",
-            "MasterRecipes",
-            "Story",
-            "Housing",
-            "IshgardRestoration",
-            "Others",
-        ],
-        // Groups
-        LevelBased: LeatherworkerLevelBased(storageKey),
-        MasterRecipes: LeatherworkerMasterRecipe(storageKey),
-        Story: LeatherworkerStoryRecipe(storageKey),
-        Housing: LeatherworkerHousingRecipe(storageKey),
-        IshgardRestoration: Leatherworker_IshgardRestoration_Recipe(storageKey),
-        Others: Leatherworker_Others(storageKey),
-    };
+export const Crafting_Logs_Leatherworker = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Logs_Leatherworker_Level_Based,
+        Crafting_Logs_Leatherworker_Master_Recipes,
+        Crafting_Logs_Leatherworker_Story,
+        Crafting_Logs_Leatherworker_Housing,
+        Crafting_Logs_Leatherworker_Ishgard_Restoration,
+        Crafting_Logs_Leatherworker_Others,
+    ]);
 };

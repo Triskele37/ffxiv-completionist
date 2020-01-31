@@ -1,18 +1,11 @@
-import { Alchemist_Story_ClassQuests } from "./class-quests";
-import { Alchemist_Story_Crystarium } from "./crystarium-deliveries";
+import { DataGroup } from "../../../DataGroup";
 
-export const AlchemistStoryRecipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.story-recipes`;
+import { Crafting_Logs_Alchemist_Story_Class_Quests } from "./class-quests";
+import { Crafting_Logs_Alchemist_Story_Crystarium_Deliveries } from "./crystarium-deliveries";
 
-    return {
-        name: "Story Recipes",
-        storageKey,
-        groupKeys: [
-            "ClassQuests",
-            "CrystariumDeliveries"
-        ],
-        // Groups
-        ClassQuests: Alchemist_Story_ClassQuests(storageKey),
-        CrystariumDeliveries: Alchemist_Story_Crystarium(storageKey),
-    };
+export const Crafting_Logs_Alchemist_Story = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Logs_Alchemist_Story_Class_Quests,
+        Crafting_Logs_Alchemist_Story_Crystarium_Deliveries,
+    ]);
 };

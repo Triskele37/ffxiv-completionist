@@ -1,18 +1,11 @@
-import { Blacksmith_Housing_1 } from "./housing-1";
-import { Blacksmith_Housing_2 } from "./housing-2";
+import { DataGroup } from "../../../DataGroup";
 
-export const BlacksmithHousingRecipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.housing-recipes`;
+import { Crafting_Logs_Blacksmith_Housing_Housing_1 } from "./housing-1";
+import { Crafting_Logs_Blacksmith_Housing_Housing_2 } from "./housing-2";
 
-    return {
-        name: "Housing Recipes",
-        storageKey,
-        groupKeys: [
-            "Housing_1",
-            "Housing_2",
-        ],
-        // Groups
-        Housing_1: Blacksmith_Housing_1(storageKey),
-        Housing_2: Blacksmith_Housing_2(storageKey),
-    };
+export const Crafting_Logs_Blacksmith_Housing = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Logs_Blacksmith_Housing_Housing_1,
+        Crafting_Logs_Blacksmith_Housing_Housing_2,
+    ]);
 };

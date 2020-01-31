@@ -1,18 +1,11 @@
-import { Blacksmith_Restoration } from "./restoration";
-import { Blacksmith_Other } from "./other";
+import { DataGroup } from "../../../DataGroup";
 
-export const Blacksmith_IshgardRestoration_Recipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
+import { Crafting_Logs_Blacksmith_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Logs_Blacksmith_Ishgard_Restoration_Other } from "./other";
 
-    return {
-        name: "Ishgard Restoration",
-        storageKey,
-        groupKeys: [
-            "Restoration",
-            "Other",
-        ],
-        // Groups
-        Restoration: Blacksmith_Restoration(storageKey),
-        Other: Blacksmith_Other(storageKey),
-    };
+export const Crafting_Logs_Blacksmith_Ishgard_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Logs_Blacksmith_Ishgard_Restoration_Restoration,
+        Crafting_Logs_Blacksmith_Ishgard_Restoration_Other,
+    ]);
 };

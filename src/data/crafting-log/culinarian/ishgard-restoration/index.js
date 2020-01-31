@@ -1,15 +1,11 @@
-import { Culinarian_Restoration } from "./restoration";
+import { DataGroup } from "../../../DataGroup";
 
-export const Culinarian_IshgardRestoration_Recipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
+import { Crafting_Logs_Culinarian_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Logs_Culinarian_Ishgard_Restoration_Other } from "./other";
 
-    return {
-        name: "Ishgard Restoration",
-        storageKey,
-        groupKeys: [
-            "Restoration",
-        ],
-        // Groups
-        Restoration: Culinarian_Restoration(storageKey),
-    };
+export const Crafting_Logs_Culinarian_Ishgard_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Logs_Culinarian_Ishgard_Restoration_Restoration,
+        Crafting_Logs_Culinarian_Ishgard_Restoration_Other,
+    ]);
 };
