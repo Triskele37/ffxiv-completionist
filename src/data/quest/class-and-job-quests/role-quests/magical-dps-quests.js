@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Role_Magical_DPS = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.magical-dps`;
-
-    return {
-        name: "Magical DPS",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Class_and_Job_Role_Magical_DPS = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

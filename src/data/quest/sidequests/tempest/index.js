@@ -1,15 +1,9 @@
-import { Quest_Sidequests_Tempest_The_Tempest } from "./the-tempest";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Tempest = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.tempest`;
+import { Quests_Sidequests_Tempest_The_Tempest } from "./the-tempest";
 
-    return {
-        name: "Tempest",
-        storageKey,
-        groupKeys: [
-            "The_Tempest",
-        ],
-        // Groups
-        The_Tempest: Quest_Sidequests_Tempest_The_Tempest(storageKey),
-    };
+export const Quests_Sidequests_Tempest = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Tempest_The_Tempest,
+    ]);
 };

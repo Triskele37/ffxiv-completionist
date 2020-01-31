@@ -3,17 +3,10 @@ https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=12&columns=
 
 api contains 2 "Legacy of Allag"s?
 */
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_COANE_The_Crystal_Tower = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-crystal-tower`;
-
-    return {
-        name: "The Crystal Tower",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Chronicles_of_a_New_Era_The_Crystal_Tower = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

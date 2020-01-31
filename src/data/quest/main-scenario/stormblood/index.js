@@ -1,27 +1,16 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Main_Scenario_Stormblood_M_Naago } from "./m-naago";
-import { Quest_Main_Scenario_Stormblood_Meffrid } from "./meffrid";
+import { Quests_Main_Scenario_Stormblood_M_Naago } from "./m-naago";
+import { Quests_Main_Scenario_Stormblood_Meffrid } from "./meffrid";
+
+export const Quests_Main_Scenario_Stormblood = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Main_Scenario_Stormblood_M_Naago,
+        Quests_Main_Scenario_Stormblood_Meffrid,
+    ]).initializeTasks(tasks);
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=6&columns=ID,Name&limit=122
-export const Quest_Main_Scenario_Stormblood = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.stormblood`;
-
-    return {
-        name: "Stormblood",
-        storageKey,
-        groupKeys: [
-            "M_Naago",
-            "Meffrid",
-        ],
-        // Groups
-        M_Naago: Quest_Main_Scenario_Stormblood_M_Naago(storageKey),
-        Meffrid: Quest_Main_Scenario_Stormblood_Meffrid(storageKey),
-        // Tasks
-        columns: QuestColumnConfig,
-        tasks
-    };
-};
 
 const tasks = [
     {

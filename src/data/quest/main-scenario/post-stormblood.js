@@ -1,21 +1,14 @@
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
+export const Quests_Main_Scenario_Post_Stormblood = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = parent.columnConfig.concat(
+        { header: "Patch", key: "patch", filterable: true }
+    );
+    return data;
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=7&columns=ID,Name&limit=106
-export const Quest_Main_Scenario_Post_Stormblood = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.post-stormblood`;
-
-    return {
-        name: "Post-Stormblood",
-    	storageKey,
-        columns: QuestColumnConfig.concat({
-            header: "Patch",
-            key: "patch",
-            filterable: true
-        }),
-        tasks
-    };
-};
 
 const tasks = [
     //------------------------------------------------------------------ The Legend Returns

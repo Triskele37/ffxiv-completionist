@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Main_Scenario_Seventh_Umbral_Era_Ul_Dah = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ul-dah`;
-
-    return {
-        name: "Ul'Dah",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

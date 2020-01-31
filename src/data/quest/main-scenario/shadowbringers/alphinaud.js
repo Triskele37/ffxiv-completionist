@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Main_Scenario_Shadowbringers_Alphinaud = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.alphinaud`;
-
-    return {
-        name: "Alphinaud",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Main_Scenario_Shadowbringers_Alphinaud = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

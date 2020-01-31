@@ -1,14 +1,7 @@
-import { LeveQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Levequests_Clothcrafting = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.clothcrafting`;
-
-    return {
-        name: "Clothcrafting",
-    	storageKey,
-        columns: LeveQuestColumnConfig,
-        tasks
-    };
+export const Quests_Levequests_Clothcrafting = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

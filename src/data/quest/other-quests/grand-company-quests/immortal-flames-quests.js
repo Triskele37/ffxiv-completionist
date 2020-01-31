@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Grand_Company_Immortal_Flames = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.immortal-flames`;
-
-    return {
-        name: "Immortal Flames",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Grand_Company_Immortal_Flames = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

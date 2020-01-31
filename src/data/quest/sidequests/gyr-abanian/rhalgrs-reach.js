@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Gyr_Abanian_Rhalgrs_Reach = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.rhalgrs-reach`;
-
-    return {
-        name: "Rhalgr's Reach",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Gyr_Abanian_Rhalgrs_Reach = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Rhalgr's Reach";
+    return data;
 };
 
 const tasks = [

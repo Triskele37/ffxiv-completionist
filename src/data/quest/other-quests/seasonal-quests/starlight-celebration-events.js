@@ -1,14 +1,7 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Seasonal_Starlight_Celebration = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.starlight-celebration`;
-
-    return {
-        name: "Starlight Celebration",
-    	storageKey,
-        columns: SimpleQuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Seasonal_Starlight_Celebration = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

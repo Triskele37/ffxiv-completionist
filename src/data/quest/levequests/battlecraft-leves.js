@@ -1,14 +1,11 @@
-import { LeveQuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_Levequests_Battlecraft = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.battlecraft`;
-
-    return {
-        name: "Battlecraft",
-    	storageKey,
-        columns: LeveQuestColumnConfig.concat({ header: "Company", key: "company" }),
-        tasks
-    };
+export const Quests_Levequests_Battlecraft = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = parent.columnConfig.concat(
+        { header: "Company", key: "company" }
+    );
+    return data;
 };
 
 const tasks = [

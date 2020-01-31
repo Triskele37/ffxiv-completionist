@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Grand_Company_Order_Of_The_Twin_Adder = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.twin-adder`;
-
-    return {
-        name: "Order of the Twin Adder",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Grand_Company_Order_of_the_Twin_Adder = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

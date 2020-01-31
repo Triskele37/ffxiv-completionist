@@ -1,21 +1,13 @@
-import { Quest_Class_And_Job_Disciple_Of_The_Land_Miner } from "./miner-quests";
-import { Quest_Class_And_Job_Disciple_Of_The_Land_Botanist } from "./botanist-quests";
-import { Quest_Class_And_Job_Disciple_Of_The_Land_Fisher } from "./fisher-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Disciple_Of_The_Land = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.disciple-of-the-land`;
+import { Quests_Class_and_Job_Disciple_of_the_Land_Miner } from "./miner-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Land_Botanist } from "./botanist-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Land_Fisher } from "./fisher-quests";
 
-    return {
-        name: "Disciple of the Land",
-        storageKey,
-        groupKeys: [
-            "Miner",
-            "Botanist",
-            "Fisher",
-        ],
-        // Groups
-        Miner: Quest_Class_And_Job_Disciple_Of_The_Land_Miner(storageKey),
-        Botanist: Quest_Class_And_Job_Disciple_Of_The_Land_Botanist(storageKey),
-        Fisher: Quest_Class_And_Job_Disciple_Of_The_Land_Fisher(storageKey),
-    };
+export const Quests_Class_and_Job_Disciple_of_the_Land = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_the_Land_Miner,
+        Quests_Class_and_Job_Disciple_of_the_Land_Botanist,
+        Quests_Class_and_Job_Disciple_of_the_Land_Fisher,
+    ]);
 };

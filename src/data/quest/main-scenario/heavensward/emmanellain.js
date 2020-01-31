@@ -1,17 +1,10 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Main_Scenario_Heavensward_Emmanellain = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.emmanellain`;
-
-    return {
-        name: "Emmanellain",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Main_Scenario_Heavensward_Emmanellain = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
-const tasksk = [
+const tasks = [
     {
         level: "50",
         name: "Onwards and Upwards",

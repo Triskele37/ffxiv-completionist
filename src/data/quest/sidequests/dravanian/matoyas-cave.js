@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Dravanian_Matoyas_Cave = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.matoyas-cave`;
-
-    return {
-        name: "Matoya's Cave",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Dravanian_Matoyas_Cave = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Matoya's Cave";
+    return data;
 };
 
 const tasks = [

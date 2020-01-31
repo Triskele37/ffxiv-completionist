@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Lominsan_Wolves_Den_Pier = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.wolves-den-pier`;
-
-    return {
-        name: "Wolves' Den Pier",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Lominsan_Wolves_Den_Pier = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Wolves' Den Pier";
+    return data;
 };
 
 const tasks = [

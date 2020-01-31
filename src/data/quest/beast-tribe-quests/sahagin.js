@@ -1,16 +1,9 @@
 // Main: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=29&columns=ID,Name
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=30&columns=ID,Name
-import { BeastTribeQuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_Beast_Tribe_Sahagin = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.sahagin`;
-
-    return {
-        name: "Sahagin",
-    	storageKey,
-        columns: BeastTribeQuestColumnConfig,
-        tasks
-    };
+export const Quests_Beast_Tribe_Sahagin = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

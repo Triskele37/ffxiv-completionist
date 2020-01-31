@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Othardian_Yanxia = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.yanxia`;
-
-    return {
-        name: "Yanxia",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Othardian_Yanxia = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

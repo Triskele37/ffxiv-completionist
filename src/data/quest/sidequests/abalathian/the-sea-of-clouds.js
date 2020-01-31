@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Abalathian_The_Sea_Of_Clouds = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-sea-of-clouds`;
-
-    return {
-        name: "The Sea of Clouds",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Abalathian_The_Sea_of_Clouds = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

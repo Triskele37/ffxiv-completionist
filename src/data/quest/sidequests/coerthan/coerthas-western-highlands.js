@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Coerthan_Coerthas_Western_Highlands = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.western-highlands`;
-
-    return {
-        name: "Coerthas Western Highlands",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Coerthan_Coerthas_Western_Highlands = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Role_Healer = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.healer`;
-
-    return {
-        name: "Healer Role",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Class_and_Job_Role_Healer = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

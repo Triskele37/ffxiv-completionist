@@ -1,21 +1,13 @@
-import { Quest_Other_Grand_Company } from "./grand-company-quests";
-import { Quest_Other_Seasonal } from "./seasonal-quests";
-import { Quest_Other_Special } from "./special-quests";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_Other = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.other`;
+import { Quests_Other_Grand_Company } from "./grand-company-quests";
+import { Quests_Other_Seasonal } from "./seasonal-quests";
+import { Quests_Other_Special } from "./special-quests";
 
-    return {
-        name: "Other",
-        storageKey,
-        groupKeys: [
-            "Grand_Company",
-            "Seasonal",
-            "Special",
-        ],
-        // Groups
-        Grand_Company: Quest_Other_Grand_Company(storageKey),
-        Seasonal: Quest_Other_Seasonal(storageKey),
-        Special: Quest_Other_Special(storageKey),
-    };
+export const Quests_Other = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Other_Grand_Company,
+        Quests_Other_Seasonal,
+        Quests_Other_Special,
+    ]);
 };

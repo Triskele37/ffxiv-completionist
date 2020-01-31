@@ -1,8 +1,16 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Main_Scenario_Seventh_Umbral_Era_Gridania } from "./gridania";
-import { Quest_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa } from "./limsa-lominsa";
-import { Quest_Main_Scenario_Seventh_Umbral_Era_Ul_Dah } from "./ul-dah";
+import { Quests_Main_Scenario_Seventh_Umbral_Era_Gridania } from "./gridania";
+import { Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa } from "./limsa-lominsa";
+import { Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah } from "./ul-dah";
+
+export const Quests_Main_Scenario_Seventh_Umbral_Era = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Main_Scenario_Seventh_Umbral_Era_Gridania,
+        Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa,
+        Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah,
+    ]).initializeTasks(tasks);
+};
 
 /*
 https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=1&columns=ID,Name&limit=247
@@ -13,27 +21,6 @@ spelling:
 	api > All upon the Watchtowers, app > All Upon the Watchtowers, api matches game
 	api > All by Ourselves, app > All By Ourselves, api matches game
 */
-
-export const Quest_Main_Scenario_Seventh_Umbral_Era = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.seventh-umbral-era`;
-
-    return {
-        name: "Seventh Umbral Era",
-    	storageKey,
-        groupKeys: [
-            "Gridania",
-            "Limsa_Lominsa",
-            "Ul_Dah",
-        ],
-        // Groups
-        Gridania: Quest_Main_Scenario_Seventh_Umbral_Era_Gridania(storageKey),
-        Limsa_Lominsa: Quest_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa(storageKey),
-        Ul_Dah: Quest_Main_Scenario_Seventh_Umbral_Era_Ul_Dah(storageKey),
-        // Tasks
-        columns: QuestColumnConfig,
-        tasks
-    };
-};
 
 const tasks = [
     {

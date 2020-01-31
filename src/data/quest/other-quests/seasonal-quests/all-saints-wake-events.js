@@ -1,14 +1,9 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Seasonal_All_Saints_Wake = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.all-saints-wake`;
-
-    return {
-        name: "All Saints' Wake",
-    	storageKey,
-        columns: SimpleQuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Seasonal_All_Saints_Wake = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "All Saints' Wake";
+    return data;
 };
 
 const tasks = [

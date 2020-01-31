@@ -1,24 +1,18 @@
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
+
+export const Quests_Main_Scenario_Seventh_Astral_Era = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = parent.columnConfig.concat(
+        { header: "Patch", key: "patch", filterable: true }
+    );
+    return data;
+};
 
 /*
 https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=2&columns=ID,Name&limit=102
 Missing: Hest of the Best, Pass the Smell Hest
 spelling: api > The Least among Us, app > The Least Among Us, game matches api
 */
-export const Quest_Main_Scenario_Seventh_Astral_Era = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.seventh-astral-era`;
-
-    return {
-        name: "Seventh Astral Era",
-    	storageKey,
-        columns: QuestColumnConfig.concat({
-            header: "Patch",
-            key: "patch",
-            filterable: true
-        }),
-        tasks
-    };
-};
 
 const tasks = [
     //------------------------------------------------------------------ A Realm Awoken

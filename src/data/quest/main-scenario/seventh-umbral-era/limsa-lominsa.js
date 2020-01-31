@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.limsa-lominsa`;
-
-    return {
-        name: "Limsa Lominsa",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

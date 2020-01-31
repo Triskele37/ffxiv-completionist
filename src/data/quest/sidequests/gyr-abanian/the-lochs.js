@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Gyr_Abanian_The_Lochs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-lochs`;
-
-    return {
-        name: "The Lochs",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Gyr_Abanian_The_Lochs = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

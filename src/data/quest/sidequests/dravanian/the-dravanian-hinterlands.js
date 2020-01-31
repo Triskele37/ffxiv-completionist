@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Dravanian_The_Dravanian_Hinterlands = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-dravanian-hinterlands`;
-
-    return {
-        name: "The Dravanian Hinterlands",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Dravanian_The_Dravanian_Hinterlands = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

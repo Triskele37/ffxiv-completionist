@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Mor_Dhonan_Mor_Dhona = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.mor-dhona`;
-
-    return {
-        name: "Mor Dhona",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Mor_Dhonan_Mor_Dhona = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

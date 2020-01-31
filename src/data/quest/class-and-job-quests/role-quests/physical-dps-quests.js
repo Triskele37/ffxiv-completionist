@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Role_Physical_DPS = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.physical-dps`;
-
-    return {
-        name: "Physical DPS",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Class_and_Job_Role_Physical_DPS = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

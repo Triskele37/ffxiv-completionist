@@ -1,24 +1,15 @@
-import { Quest_Sidequests_Gyr_Abanian_Rhalgrs_Reach } from "./rhalgrs-reach";
-import { Quest_Sidequests_Gyr_Abanian_The_Fringes } from "./the-fringes";
-import { Quest_Sidequests_Gyr_Abanian_The_Peaks } from "./the-peaks";
-import { Quest_Sidequests_Gyr_Abanian_The_Lochs } from "./the-lochs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Gyr_Abanian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.gyr-abanian`;
+import { Quests_Sidequests_Gyr_Abanian_Rhalgrs_Reach } from "./rhalgrs-reach";
+import { Quests_Sidequests_Gyr_Abanian_The_Fringes } from "./the-fringes";
+import { Quests_Sidequests_Gyr_Abanian_The_Peaks } from "./the-peaks";
+import { Quests_Sidequests_Gyr_Abanian_The_Lochs } from "./the-lochs";
 
-    return {
-        name: "Gyr Abanian",
-        storageKey,
-        groupKeys: [
-            "Rhalgrs_Reach",
-            "The_Fringes",
-            "The_Peaks",
-            "The_Lochs",
-        ],
-        // Groups
-        Rhalgrs_Reach: Quest_Sidequests_Gyr_Abanian_Rhalgrs_Reach(storageKey),
-        The_Fringes: Quest_Sidequests_Gyr_Abanian_The_Fringes(storageKey),
-        The_Peaks: Quest_Sidequests_Gyr_Abanian_The_Peaks(storageKey),
-        The_Lochs: Quest_Sidequests_Gyr_Abanian_The_Lochs(storageKey),
-    };
+export const Quests_Sidequests_Gyr_Abanian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Gyr_Abanian_Rhalgrs_Reach,
+        Quests_Sidequests_Gyr_Abanian_The_Fringes,
+        Quests_Sidequests_Gyr_Abanian_The_Peaks,
+        Quests_Sidequests_Gyr_Abanian_The_Lochs,
+    ]);
 };

@@ -1,36 +1,23 @@
-import { Quest_Class_And_Job_Disciple_Of_War } from "./disciple-of-war-quests";
-import { Quest_Class_And_Job_Disciple_Of_Magic } from "./disciple-of-magic-quests";
-import { Quest_Class_And_Job_Disciple_Of_The_Hand } from "./disciple-of-the-hand-quests";
-import { Quest_Class_And_Job_Disciple_Of_The_Land } from "./disciple-of-the-land-quests";
-import { Quest_Class_And_Job_Crystalline_Mean } from "./crystalline-mean-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job } from "./disciple-of-war-job-quests";
-import { Quest_Class_And_Job_Disciple_Of_Magic_Job } from "./disciple-of-magic-job-quests";
-import { Quest_Class_And_Job_Role } from "./role-quests";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_Class_And_Job = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.class-and-job`;
+import { Quests_Class_and_Job_Disciple_of_War } from "./disciple-of-war-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic } from "./disciple-of-magic-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand } from "./disciple-of-the-hand-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Land } from "./disciple-of-the-land-quests";
+import { Quests_Class_and_Job_Crystalline_Mean } from "./crystalline-mean-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job } from "./disciple-of-war-job-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic_Job } from "./disciple-of-magic-job-quests";
+import { Quests_Class_and_Job_Role } from "./role-quests";
 
-    return {
-        name: "Class & Job",
-        storageKey,
-        groupKeys: [
-            "Disciple_Of_War",
-            "Disciple_Of_Magic",
-            "Disciple_Of_The_Hand",
-            "Disciple_Of_The_Land",
-            "Crystalline_Mean",
-            "Disciple_Of_War_Job",
-            "Disciple_Of_Magic_Job",
-            "Role",
-        ],
-        // Groups
-        Disciple_Of_War: Quest_Class_And_Job_Disciple_Of_War(storageKey),
-        Disciple_Of_Magic: Quest_Class_And_Job_Disciple_Of_Magic(storageKey),
-        Disciple_Of_The_Hand: Quest_Class_And_Job_Disciple_Of_The_Hand(storageKey),
-        Disciple_Of_The_Land: Quest_Class_And_Job_Disciple_Of_The_Land(storageKey),
-        Crystalline_Mean: Quest_Class_And_Job_Crystalline_Mean(storageKey),
-        Disciple_Of_War_Job: Quest_Class_And_Job_Disciple_Of_War_Job(storageKey),
-        Disciple_Of_Magic_Job: Quest_Class_And_Job_Disciple_Of_Magic_Job(storageKey),
-        Role: Quest_Class_And_Job_Role(storageKey),
-    };
+export const Quests_Class_and_Job = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_War,
+        Quests_Class_and_Job_Disciple_of_Magic,
+        Quests_Class_and_Job_Disciple_of_the_Hand,
+        Quests_Class_and_Job_Disciple_of_the_Land,
+        Quests_Class_and_Job_Crystalline_Mean,
+        Quests_Class_and_Job_Disciple_of_War_Job,
+        Quests_Class_and_Job_Disciple_of_Magic_Job,
+        Quests_Class_and_Job_Role,
+    ]);
 };

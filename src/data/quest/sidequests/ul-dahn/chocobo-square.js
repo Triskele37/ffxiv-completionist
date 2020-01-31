@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Ul_Dahn_Chocobo_Square = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.chocobo-square`;
-
-    return {
-        name: "Chocobo Square",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Ul_Dahn_Chocobo_Square = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

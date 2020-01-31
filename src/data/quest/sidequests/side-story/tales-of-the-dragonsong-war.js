@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_Tales_Of_The_Dragonsong_War = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.tales-of-the-dragonsong-war`;
-
-    return {
-        name: "Tales of the Dragonsong War",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_Tales_of_the_Dragonsong_War = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

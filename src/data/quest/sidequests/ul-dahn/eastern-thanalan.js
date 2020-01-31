@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Ul_Dahn_Eastern_Thanalan = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.eastern`;
-
-    return {
-        name: "Eastern Thanalan",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Ul_Dahn_Eastern_Thanalan = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

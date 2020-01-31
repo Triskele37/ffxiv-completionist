@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_Ishgardian_Restoration_Main = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgardian-restoration-main`;
-
-    return {
-        name: "Ishgardian Restoration Main",
-    	storageKey,
-        columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Main_Scenario_Seventh_Umbral_Era_Gridania = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.gridania`;
-
-    return {
-        name: "Gridania",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Main_Scenario_Seventh_Umbral_Era_Gridania = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

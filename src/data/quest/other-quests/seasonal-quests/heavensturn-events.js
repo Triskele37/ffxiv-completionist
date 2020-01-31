@@ -1,14 +1,7 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Seasonal_Heavensturn = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.heavensturn`;
-
-    return {
-        name: "Heavensturn",
-    	storageKey,
-        columns: SimpleQuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Seasonal_Heavensturn = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

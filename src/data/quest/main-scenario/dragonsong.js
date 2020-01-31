@@ -1,20 +1,14 @@
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
+
+export const Quests_Main_Scenario_Dragonsong = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = parent.columnConfig.concat(
+        { header: "Patch", key: "patch", filterable: true }
+    );
+    return data;
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=4&columns=ID,Name&limit=25
-export const Quest_Main_Scenario_Dragonsong = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.dragonsong`;
-
-    return {
-        name: "Dragonsong",
-    	storageKey,
-        columns: QuestColumnConfig.concat({
-            header: "Patch",
-            key: "patch",
-            filterable: true
-        }),
-        tasks
-    };
-};
 
 const tasks = [
     //------------------------------------------------------------------ As Goes Light, So Goes Darkness

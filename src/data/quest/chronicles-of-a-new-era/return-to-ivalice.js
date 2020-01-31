@@ -1,15 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=17&columns=ID,Name&limit=12
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_COANE_Return_To_Ivalice = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.return-to-ivalice`;
-
-    return {
-        name: "Return to Ivalice",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Chronicles_of_a_New_Era_Return_to_Ivalice = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

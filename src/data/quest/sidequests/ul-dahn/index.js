@@ -1,39 +1,25 @@
-import { Quest_Sidequests_Ul_Dahn_Ul_Dah } from "./ul-dah";
-import { Quest_Sidequests_Ul_Dahn_The_Waking_Sands } from "./the-waking-sands";
-import { Quest_Sidequests_Ul_Dahn_Chocobo_Square } from "./chocobo-square";
-import { Quest_Sidequests_Ul_Dahn_The_Gold_Saucer } from "./the-gold-saucer";
-import { Quest_Sidequests_Ul_Dahn_Western_Thanalan } from "./western-thanalan";
-import { Quest_Sidequests_Ul_Dahn_Central_Thanalan } from "./central-thanalan";
-import { Quest_Sidequests_Ul_Dahn_Eastern_Thanalan } from "./eastern-thanalan";
-import { Quest_Sidequests_Ul_Dahn_Southern_Thanalan } from "./southern-thanalan";
-import { Quest_Sidequests_Ul_Dahn_Northern_Thanalan } from "./northern-thanalan";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Ul_Dahn = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ul-dahn`;
+import { Quests_Sidequests_Ul_Dahn_Ul_Dah } from "./ul-dah";
+import { Quests_Sidequests_Ul_Dahn_The_Waking_Sands } from "./the-waking-sands";
+import { Quests_Sidequests_Ul_Dahn_Chocobo_Square } from "./chocobo-square";
+import { Quests_Sidequests_Ul_Dahn_The_Gold_Saucer } from "./the-gold-saucer";
+import { Quests_Sidequests_Ul_Dahn_Western_Thanalan } from "./western-thanalan";
+import { Quests_Sidequests_Ul_Dahn_Central_Thanalan } from "./central-thanalan";
+import { Quests_Sidequests_Ul_Dahn_Eastern_Thanalan } from "./eastern-thanalan";
+import { Quests_Sidequests_Ul_Dahn_Southern_Thanalan } from "./southern-thanalan";
+import { Quests_Sidequests_Ul_Dahn_Northern_Thanalan } from "./northern-thanalan";
 
-    return {
-        name: "Ul'dahn",
-        storageKey,
-        groupKeys: [
-            "Ul_Dah",
-            "The_Waking_Sands",
-            "Chocobo_Square",
-            "The_Gold_Saucer",
-            "Western_Thanalan",
-            "Central_Thanalan",
-            "Eastern_Thanalan",
-            "Southern_Thanalan",
-            "Northern_Thanalan",
-        ],
-        // Groups
-        Ul_Dah: Quest_Sidequests_Ul_Dahn_Ul_Dah(storageKey),
-        The_Waking_Sands: Quest_Sidequests_Ul_Dahn_The_Waking_Sands(storageKey),
-        Chocobo_Square: Quest_Sidequests_Ul_Dahn_Chocobo_Square(storageKey),
-        The_Gold_Saucer: Quest_Sidequests_Ul_Dahn_The_Gold_Saucer(storageKey),
-        Western_Thanalan: Quest_Sidequests_Ul_Dahn_Western_Thanalan(storageKey),
-        Central_Thanalan: Quest_Sidequests_Ul_Dahn_Central_Thanalan(storageKey),
-        Eastern_Thanalan: Quest_Sidequests_Ul_Dahn_Eastern_Thanalan(storageKey),
-        Southern_Thanalan: Quest_Sidequests_Ul_Dahn_Southern_Thanalan(storageKey),
-        Northern_Thanalan: Quest_Sidequests_Ul_Dahn_Northern_Thanalan(storageKey),
-    };
+export const Quests_Sidequests_Ul_Dahn = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Ul_Dahn_Ul_Dah,
+        Quests_Sidequests_Ul_Dahn_The_Waking_Sands,
+        Quests_Sidequests_Ul_Dahn_Chocobo_Square,
+        Quests_Sidequests_Ul_Dahn_The_Gold_Saucer,
+        Quests_Sidequests_Ul_Dahn_Western_Thanalan,
+        Quests_Sidequests_Ul_Dahn_Central_Thanalan,
+        Quests_Sidequests_Ul_Dahn_Eastern_Thanalan,
+        Quests_Sidequests_Ul_Dahn_Southern_Thanalan,
+        Quests_Sidequests_Ul_Dahn_Northern_Thanalan,
+    ]);
 };

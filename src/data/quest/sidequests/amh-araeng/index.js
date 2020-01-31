@@ -1,15 +1,9 @@
-import { Quest_Sidequests_Amh_Araeng_Amh_Araeng } from "./amh-araeng";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Amh_Araeng = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.amh-araeng`;
+import { Quests_Sidequests_Amh_Araeng_Amh_Araeng } from "./amh-araeng";
 
-    return {
-        name: "Amh Araeng",
-        storageKey,
-        groupKeys: [
-            "Amh_Araeng",
-        ],
-        // Groups
-        Amh_Araeng: Quest_Sidequests_Amh_Araeng_Amh_Araeng(storageKey),
-    };
+export const Quests_Sidequests_Amh_Araeng = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Amh_Araeng_Amh_Araeng
+    ]);
 };

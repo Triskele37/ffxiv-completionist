@@ -1,31 +1,17 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Class_And_Job_Role_Tank } from "./tank-role-quests";
-import { Quest_Class_And_Job_Role_Healer } from "./healer-role-quests";
-import { Quest_Class_And_Job_Role_Physical_DPS } from "./physical-dps-quests";
-import { Quest_Class_And_Job_Role_Magical_DPS } from "./magical-dps-quests";
+import { Quests_Class_and_Job_Role_Tank } from "./tank-role-quests";
+import { Quests_Class_and_Job_Role_Healer } from "./healer-role-quests";
+import { Quests_Class_and_Job_Role_Physical_DPS } from "./physical-dps-quests";
+import { Quests_Class_and_Job_Role_Magical_DPS } from "./magical-dps-quests";
 
-export const Quest_Class_And_Job_Role = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.role`;
-
-    return {
-        name: "Role",
-        storageKey,
-        groupKeys: [
-            "Tank",
-            "Healer",
-            "Physical_DPS",
-            "Magical_DPS",
-        ],
-        // Groups
-        Tank: Quest_Class_And_Job_Role_Tank(storageKey),
-        Healer: Quest_Class_And_Job_Role_Healer(storageKey),
-        Physical_DPS: Quest_Class_And_Job_Role_Physical_DPS(storageKey),
-        Magical_DPS: Quest_Class_And_Job_Role_Magical_DPS(storageKey),
-        // Tasks
-        columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Class_and_Job_Role = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Role_Tank,
+        Quests_Class_and_Job_Role_Healer,
+        Quests_Class_and_Job_Role_Physical_DPS,
+        Quests_Class_and_Job_Role_Magical_DPS,
+    ]).initializeTasks(tasks);
 };
 
 const tasks = [

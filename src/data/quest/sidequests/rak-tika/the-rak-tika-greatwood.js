@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-rak-tika-greatwood`;
-
-    return {
-        name: "The Rak'Tika Greatwood",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "The Rak'Tika Greatwood";
+    return data;
 };
 
 const tasks = [

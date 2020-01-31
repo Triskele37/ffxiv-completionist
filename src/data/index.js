@@ -11,8 +11,8 @@ General_Logs - no issues
 Crafting - TODO
 Gathering - TODO
 Duty - Reverify verbiage against IG UI (no item count issues)
-FATEs - TODO
-Quests - TODO
+FATEs - Reverify verbiage against IG UI (no item count issues)
+Quests - Reverify counts and verbiage against IG UI
 */
 
 import { DataGroup } from "./DataGroup";
@@ -24,7 +24,7 @@ import { General_Logs } from "./logs";
 // import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
 import { FATEs } from "./fate";
-// import { Quests } from "./quest";
+import { Quests } from "./quest";
 
 const data = new DataGroup("Overall", null);
 data.initializeSubGroups([
@@ -35,7 +35,7 @@ data.initializeSubGroups([
     // Gathering_Logs,
     Duty,
     FATEs,
-    // Quests,
+    Quests,
 ]);
 
 export { data };

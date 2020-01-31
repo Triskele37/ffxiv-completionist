@@ -1,20 +1,14 @@
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
+
+export const Quests_Main_Scenario_Post_Shadowbringers = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = parent.columnConfig.concat(
+        { header: "Patch", key: "patch", filterable: true }
+    );
+    return data;
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=10
-export const Quest_Main_Scenario_Post_Shadowbringers = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.post-shadowbringers`;
-
-    return {
-        name: "Post-Shadowbringers",
-    	storageKey,
-        columns: QuestColumnConfig.concat({
-            header: "Patch",
-            key: "patch",
-            filterable: true
-        }),
-        tasks
-    };
-};
 
 const tasks = [
     //------------------------------------------------------------------ Vows of Virtue, Deeds of Cruelty

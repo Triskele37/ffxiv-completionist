@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Othardian_The_Ruby_Sea = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-ruby-sea`;
-
-    return {
-        name: "The Ruby Sea",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Othardian_The_Ruby_Sea = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

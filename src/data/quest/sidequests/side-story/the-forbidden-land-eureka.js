@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_The_Forbidden_Land_Eureka = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.eureka`;
-
-    return {
-        name: "The Forbidden Land, Eureka",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_The_Forbidden_Land_Eureka = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "The Forbidden Land, Eureka";
+    return data;
 };
 
 const tasks = [

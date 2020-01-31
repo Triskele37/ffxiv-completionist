@@ -1,27 +1,17 @@
-import { Quest_Sidequests_Gridanian_Gridania } from "./gridania";
-import { Quest_Sidequests_Gridanian_Central_Shroud } from "./central-shroud";
-import { Quest_Sidequests_Gridanian_East_Shroud } from "./east-shroud";
-import { Quest_Sidequests_Gridanian_South_Shroud } from "./south-shroud";
-import { Quest_Sidequests_Gridanian_North_Shroud } from "./north-shroud";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Gridanian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.gridanian`;
+import { Quests_Sidequests_Gridanian_Gridania } from "./gridania";
+import { Quests_Sidequests_Gridanian_Central_Shroud } from "./central-shroud";
+import { Quests_Sidequests_Gridanian_East_Shroud } from "./east-shroud";
+import { Quests_Sidequests_Gridanian_South_Shroud } from "./south-shroud";
+import { Quests_Sidequests_Gridanian_North_Shroud } from "./north-shroud";
 
-    return {
-        name: "Gridanian",
-        storageKey,
-        groupKeys: [
-            "Gridania",
-            "Central_Shroud",
-            "East_Shroud",
-            "South_Shroud",
-            "North_Shroud",
-        ],
-        // Groups
-        Gridania: Quest_Sidequests_Gridanian_Gridania(storageKey),
-        Central_Shroud: Quest_Sidequests_Gridanian_Central_Shroud(storageKey),
-        East_Shroud: Quest_Sidequests_Gridanian_East_Shroud(storageKey),
-        South_Shroud: Quest_Sidequests_Gridanian_South_Shroud(storageKey),
-        North_Shroud: Quest_Sidequests_Gridanian_North_Shroud(storageKey),
-    };
+export const Quests_Sidequests_Gridanian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Gridanian_Gridania,
+        Quests_Sidequests_Gridanian_Central_Shroud,
+        Quests_Sidequests_Gridanian_East_Shroud,
+        Quests_Sidequests_Gridanian_South_Shroud,
+        Quests_Sidequests_Gridanian_North_Shroud,
+    ]);
 };

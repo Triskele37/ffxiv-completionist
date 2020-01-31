@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Lakeland_The_Crystarium = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.the-crystarium`;
-
-    return {
-        name: "The Crystarium",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Lakeland_The_Crystarium = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

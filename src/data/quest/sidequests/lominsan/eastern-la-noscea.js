@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Lominsan_Eastern_La_Noscea = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.eastern`;
-
-    return {
-        name: "Eastern La Noscea",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Lominsan_Eastern_La_Noscea = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,28 +1,16 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Main_Scenario_Heavensward_Artoirel } from "./artoirel";
-import { Quest_Main_Scenario_Heavensward_Emmanellain } from "./emmanellain";
+import { Quests_Main_Scenario_Heavensward_Artoirel } from "./artoirel";
+import { Quests_Main_Scenario_Heavensward_Emmanellain } from "./emmanellain";
+
+export const Quests_Main_Scenario_Heavensward = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Main_Scenario_Heavensward_Artoirel,
+        Quests_Main_Scenario_Heavensward_Emmanellain,
+    ]).initializeTasks(tasks);
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=3&columns=ID,Name&limit=94
-
-export const Quest_Main_Scenario_Heavensward = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.heavensward`;
-
-    return {
-        name: "Heavensward",
-    	storageKey,
-        groupKeys: [
-            "Artoirel",
-            "Emmanellain",
-        ],
-        // Groups
-        Artoirel: Quest_Main_Scenario_Heavensward_Artoirel(storageKey),
-        Emmanellain: Quest_Main_Scenario_Heavensward_Emmanellain(storageKey),
-        // Tasks
-        columns: QuestColumnConfig,
-        tasks
-    };
-};
 
 const tasks = [
     {

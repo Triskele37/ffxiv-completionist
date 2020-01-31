@@ -1,14 +1,7 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Other_Seasonal_Egg_Hunts = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.egg-hunt`;
-
-    return {
-        name: "Egg Hunts",
-    	storageKey,
-        columns: SimpleQuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Seasonal_Egg_Hunts = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

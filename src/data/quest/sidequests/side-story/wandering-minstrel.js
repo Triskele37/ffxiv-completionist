@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_Wandering_Minstrel = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.wandering-minstrel`;
-
-    return {
-        name: "Wandering Minstrel",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_Wandering_Minstrel = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

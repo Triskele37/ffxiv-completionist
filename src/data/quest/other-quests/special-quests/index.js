@@ -1,22 +1,11 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Other_Special_Collaboration } from "./collaboration-quests";
+import { Quests_Other_Special_Collaboration } from "./collaboration-quests";
 
-export const Quest_Other_Special = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.special`;
-
-    return {
-        name: "Special",
-        storageKey,
-        groupKeys: [
-            "Collaboration",
-        ],
-        // Groups
-        Collaboration: Quest_Other_Special_Collaboration(storageKey),
-        // Tasks
-        columns: SimpleQuestColumnConfig,
-        tasks
-    };
+export const Quests_Other_Special = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Other_Special_Collaboration,
+    ]).initializeTasks(tasks);
 };
 
 const tasks = [

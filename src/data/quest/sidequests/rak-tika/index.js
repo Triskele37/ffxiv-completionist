@@ -1,15 +1,9 @@
-import { Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood } from "./the-rak-tika-greatwood";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Rak_Tika = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.rak-tika`;
+import { Quests_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood } from "./the-rak-tika-greatwood";
 
-    return {
-        name: "Rak'Tika",
-        storageKey,
-        groupKeys: [
-            "The_Rak_Tika_Greatwood",
-        ],
-        // Groups
-        The_Rak_Tika_Greatwood: Quest_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood(storageKey),
-    };
+export const Quests_Sidequests_Rak_Tika = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood,
+    ]);
 };

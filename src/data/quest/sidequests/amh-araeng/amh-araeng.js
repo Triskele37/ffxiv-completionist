@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Amh_Araeng_Amh_Araeng = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.amh-araeng`;
-
-    return {
-        name: "Amh Araeng",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Amh_Araeng_Amh_Araeng = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

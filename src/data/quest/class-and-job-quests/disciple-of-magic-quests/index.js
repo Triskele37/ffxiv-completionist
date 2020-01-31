@@ -1,21 +1,13 @@
-import { Quest_Class_And_Job_Disciple_Of_Magic_Conjurer } from "./conjurer-quests";
-import { Quest_Class_And_Job_Disciple_Of_Magic_Thaumaturge } from "./thaumaturge-quests";
-import { Quest_Class_And_Job_Disciple_Of_Magic_Arcanist } from "./arcanist-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Disciple_Of_Magic = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.disciple-of-magic`;
+import { Quests_Class_and_Job_Disciple_of_Magic_Conjurer } from "./conjurer-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic_Thaumaturge } from "./thaumaturge-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic_Arcanist } from "./arcanist-quests";
 
-    return {
-        name: "Disciple of Magic",
-        storageKey,
-        groupKeys: [
-            "Conjurer",
-            "Thaumaturge",
-            "Arcanist",
-        ],
-        // Groups
-        Conjurer: Quest_Class_And_Job_Disciple_Of_Magic_Conjurer(storageKey),
-        Thaumaturge: Quest_Class_And_Job_Disciple_Of_Magic_Thaumaturge(storageKey),
-        Arcanist: Quest_Class_And_Job_Disciple_Of_Magic_Arcanist(storageKey),
-    };
+export const Quests_Class_and_Job_Disciple_of_Magic = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_Magic_Conjurer,
+        Quests_Class_and_Job_Disciple_of_Magic_Thaumaturge,
+        Quests_Class_and_Job_Disciple_of_Magic_Arcanist,
+    ]);
 };

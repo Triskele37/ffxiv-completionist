@@ -1,27 +1,16 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-import { Quest_Main_Scenario_Shadowbringers_Alphinaud } from "./alphinaud";
-import { Quest_Main_Scenario_Shadowbringers_Alisaie } from "./alisaie";
+import { Quests_Main_Scenario_Shadowbringers_Alphinaud } from "./alphinaud";
+import { Quests_Main_Scenario_Shadowbringers_Alisaie } from "./alisaie";
+
+export const Quests_Main_Scenario_Shadowbringers = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Main_Scenario_Shadowbringers_Alphinaud,
+        Quests_Main_Scenario_Shadowbringers_Alisaie,
+    ]).initializeTasks(tasks);
+};
 
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=8&columns=ID,Name&limit=106
-export const Quest_Main_Scenario_Shadowbringers = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.shadowbringers`;
-
-    return {
-        name: "Shadowbringers",
-        storageKey,
-        groupKeys: [
-            "Alphinaud",
-            "Alisaie",
-        ],
-        // Groups
-        Alphinaud: Quest_Main_Scenario_Shadowbringers_Alphinaud(storageKey),
-        Alisaie: Quest_Main_Scenario_Shadowbringers_Alisaie(storageKey),
-        // Tasks
-        columns: QuestColumnConfig,
-        tasks
-    };
-};
 
 const tasks = [
     {

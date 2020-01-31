@@ -1,15 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=16&columns=ID,Name&limit=15
-import { QuestColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Quest_COANE_Omega = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.omega`;
-
-    return {
-        name: "Omega",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Chronicles_of_a_New_Era_Omega = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

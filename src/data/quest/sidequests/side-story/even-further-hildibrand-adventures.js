@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.hildibrand-3`;
-
-    return {
-        name: "Even Further Hildibrand Adventures",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,17 +1,15 @@
-export const Quest_Class_And_Job_Crystalline_Mean = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.crystalline-mean`;
+import { DataGroup } from "../../DataGroup";
 
-    return {
-        name: "Crystalline Mean",
-    	storageKey,
-        columns: [
-            { header: "Facet", key: "facet" },
-            { header: "Level", key: "level" },
-            { header: "Name", key: "name" },
-            { header: "NPC", key: "npc" },
-        ],
-        tasks
-    };
+export const Quests_Class_and_Job_Crystalline_Mean = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.columnConfig = [
+        { header: "Facet", key: "facet" },
+        { header: "Level", key: "level" },
+        { header: "Name", key: "name" },
+        { header: "NPC", key: "npc" },
+    ];
+
+    return data;
 };
 
 const tasks = [

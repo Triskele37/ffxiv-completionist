@@ -1,14 +1,9 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Side_Story_Doman_Adventurers_Guild = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.doman-adventurers-guild`;
-
-    return {
-        name: "Doman Adventurers' Guild",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Sidequests_Side_Story_Doman_Adventurers_Guild = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Doman Adventurers' Guild";
+    return data;
 };
 
 const tasks = [

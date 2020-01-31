@@ -1,15 +1,9 @@
-import { Quest_Sidequests_Mor_Dhonan_Mor_Dhona } from "./mor-dhona";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Mor_Dhonan = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.mor-dhonan`;
+import { Quests_Sidequests_Mor_Dhonan_Mor_Dhona } from "./mor-dhona";
 
-    return {
-        name: "Mor Dhonan",
-        storageKey,
-        groupKeys: [
-            "Mor_Dhona",
-        ],
-        // Groups
-        Mor_Dhona: Quest_Sidequests_Mor_Dhonan_Mor_Dhona(storageKey)
-    };
+export const Quests_Sidequests_Mor_Dhonan = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Mor_Dhonan_Mor_Dhona,
+    ]);
 };

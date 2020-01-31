@@ -1,14 +1,7 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Disciple_Of_War_Archer = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.archer`;
-
-    return {
-        name: "Archer",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks
-    };
+export const Quests_Class_and_Job_Disciple_of_War_Archer = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

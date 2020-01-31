@@ -1,15 +1,9 @@
-import { Quest_Sidequests_Azys_Lla_Azys_Lla } from "./azys-lla";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Sidequests_Azys_Lla = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.azys-lla`;
+import { Quests_Sidequests_Azys_Lla_Azys_Lla } from "./azys-lla";
 
-    return {
-        name: "Azys Lla",
-        storageKey,
-        groupKeys: [
-            "Azys_Lla",
-        ],
-        // Groups
-        Azys_Lla: Quest_Sidequests_Azys_Lla_Azys_Lla(storageKey)
-    };
+export const Quests_Sidequests_Azys_Lla = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Azys_Lla_Azys_Lla,
+    ]);
 };

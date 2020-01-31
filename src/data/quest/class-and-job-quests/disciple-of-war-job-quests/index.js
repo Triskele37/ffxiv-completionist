@@ -1,45 +1,29 @@
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Paladin } from "./paladin-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Monk } from "./monk-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Warrior } from "./warrior-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Dragoon } from "./dragoon-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Bard } from "./bard-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Ninja } from "./ninja-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Dark_Knight } from "./dark-knight-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Machinist } from "./machinist-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Samurai } from "./samurai-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Gunbreaker } from "./gunbreaker-quests";
-import { Quest_Class_And_Job_Disciple_Of_War_Job_Dancer } from "./dancer-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const Quest_Class_And_Job_Disciple_Of_War_Job = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.disciple-of-war-job`;
+import { Quests_Class_and_Job_Disciple_of_War_Job_Paladin } from "./paladin-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Monk } from "./monk-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Warrior } from "./warrior-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Dragoon } from "./dragoon-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Bard } from "./bard-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Ninja } from "./ninja-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Dark_Knight } from "./dark-knight-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Machinist } from "./machinist-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Samurai } from "./samurai-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Gunbreaker } from "./gunbreaker-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job_Dancer } from "./dancer-quests";
 
-    return {
-        name: "Disciple of War Job",
-        storageKey,
-        groupKeys: [
-            "Paladin",
-            "Monk",
-            "Warrior",
-            "Dragoon",
-            "Bard",
-            "Ninja",
-            "Dark_Knight",
-            "Machinist",
-            "Samurai",
-            "Gunbreaker",
-            "Dancer",
-        ],
-        // Groups
-        Paladin: Quest_Class_And_Job_Disciple_Of_War_Job_Paladin(storageKey),
-        Monk: Quest_Class_And_Job_Disciple_Of_War_Job_Monk(storageKey),
-        Warrior: Quest_Class_And_Job_Disciple_Of_War_Job_Warrior(storageKey),
-        Dragoon: Quest_Class_And_Job_Disciple_Of_War_Job_Dragoon(storageKey),
-        Bard: Quest_Class_And_Job_Disciple_Of_War_Job_Bard(storageKey),
-        Ninja: Quest_Class_And_Job_Disciple_Of_War_Job_Ninja(storageKey),
-        Dark_Knight: Quest_Class_And_Job_Disciple_Of_War_Job_Dark_Knight(storageKey),
-        Machinist: Quest_Class_And_Job_Disciple_Of_War_Job_Machinist(storageKey),
-        Samurai: Quest_Class_And_Job_Disciple_Of_War_Job_Samurai(storageKey),
-        Gunbreaker: Quest_Class_And_Job_Disciple_Of_War_Job_Gunbreaker(storageKey),
-        Dancer: Quest_Class_And_Job_Disciple_Of_War_Job_Dancer(storageKey),
-    };
+export const Quests_Class_and_Job_Disciple_of_War_Job = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_War_Job_Paladin,
+        Quests_Class_and_Job_Disciple_of_War_Job_Monk,
+        Quests_Class_and_Job_Disciple_of_War_Job_Warrior,
+        Quests_Class_and_Job_Disciple_of_War_Job_Dragoon,
+        Quests_Class_and_Job_Disciple_of_War_Job_Bard,
+        Quests_Class_and_Job_Disciple_of_War_Job_Ninja,
+        Quests_Class_and_Job_Disciple_of_War_Job_Dark_Knight,
+        Quests_Class_and_Job_Disciple_of_War_Job_Machinist,
+        Quests_Class_and_Job_Disciple_of_War_Job_Samurai,
+        Quests_Class_and_Job_Disciple_of_War_Job_Gunbreaker,
+        Quests_Class_and_Job_Disciple_of_War_Job_Dancer,
+    ]);
 };
