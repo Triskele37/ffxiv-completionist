@@ -1,15 +1,8 @@
+import { DataGroup } from "../../DataGroup";
 import { FishingGuideColumnConfig } from "../columnConfigs";
 
-//TODO: Break up by page
-export const Fishing_Guide_Fishing = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.fishing-guide`;
-
-    return {
-        name: "Fishing",
-    	storageKey,
-        columns: FishingGuideColumnConfig,
-        tasks
-    };
+export const Gathering_Logs_Fishing_Guide = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks, FishingGuideColumnConfig);
 };
 
 const tasks = [

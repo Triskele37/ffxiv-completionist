@@ -1,34 +1,24 @@
-import { Logging_Log } from "./logging";
-import { Harvesting_Log } from "./harvesting";
-import { Mining_Log } from "./mining";
-import { Quarrying_Log } from "./quarrying";
+import { DataGroup } from "../DataGroup";
 
-import { Fishing_Guide_Fishing } from "./fishing-guide/fishing";
-import { Fishing_Guide_Spearfishing } from "./fishing-guide/spearfishing";
-import { Fishing_Log } from "./fishing-log";
+import { Gathering_Logs_Logging } from "./logging";
+import { Gathering_Logs_Harvesting } from "./harvesting";
+import { Gathering_Logs_Mining } from "./mining";
+import { Gathering_Logs_Quarrying } from "./quarrying";
 
-export const Gathering_Logs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.gathering-logs`;
+import { Gathering_Logs_Fishing_Guide } from "./fishing-guide/fishing";
+import { Gathering_Logs_Spearfishing_Guide } from "./fishing-guide/spearfishing";
+import { Gathering_Logs_Fishing_Log } from "./fishing-log/fishing";
+import { Gathering_Logs_Spearfishing_Log } from "./fishing-log/spearfishing";
 
-    return {
-        name: "Gathering Logs",
-        storageKey,
-        groupKeys: [
-            "Logging_Log",
-            "Harvesting_Log",
-            "Mining_Log",
-            "Quarrying_Log",
-            "Fishing_Guide_Fishing",
-            "Fishing_Guide_Spearfishing",
-            "Fishing_Log",
-        ],
-        // Groups
-        Logging_Log: Logging_Log(storageKey),
-        Harvesting_Log: Harvesting_Log(storageKey),
-        Mining_Log: Mining_Log(storageKey),
-        Quarrying_Log: Quarrying_Log(storageKey),
-        Fishing_Guide_Fishing: Fishing_Guide_Fishing(storageKey),
-        Fishing_Guide_Spearfishing: Fishing_Guide_Spearfishing(storageKey),
-        Fishing_Log: Fishing_Log(storageKey),
-    };
+export const Gathering_Logs = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Gathering_Logs_Logging,
+        Gathering_Logs_Harvesting,
+        Gathering_Logs_Mining,
+        Gathering_Logs_Quarrying,
+        Gathering_Logs_Fishing_Guide,
+        Gathering_Logs_Spearfishing_Guide,
+        Gathering_Logs_Fishing_Log,
+        Gathering_Logs_Spearfishing_Log,
+	]);
 };

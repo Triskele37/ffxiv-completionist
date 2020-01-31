@@ -1,14 +1,7 @@
-import { GatheringColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Harvesting_Log_Special_Ishgard_Restoration_Folklore = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgard-restoration`;
-
-    return {
-        name: "Ishgard Restoration",
-        storageKey,
-        columns: GatheringColumnConfig,
-        tasks
-    };
+export const Gathering_Logs_Harvesting_Special_Ishgard_Restoration_Folklore = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

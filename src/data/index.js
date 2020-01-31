@@ -9,7 +9,7 @@ Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
 Collectable - Reverify verbiage against IG UI (no item count issues)
 General_Logs - no issues
 Crafting - TODO
-Gathering - TODO
+Gathering - (9 extra FSH guide, 8 extra FSH log) Reverify verbiage
 Duty - Reverify verbiage against IG UI (no item count issues)
 FATEs - Reverify verbiage against IG UI (no item count issues)
 Quests - Reverify counts and verbiage against IG UI
@@ -21,7 +21,7 @@ import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
 // import { CraftingLogs } from "./crafting-log";
-// import { Gathering_Logs } from "./gathering-log";
+import { Gathering_Logs } from "./gathering-log";
 import { Duty } from "./duty";
 import { FATEs } from "./fate";
 import { Quests } from "./quest";
@@ -32,7 +32,7 @@ data.initializeSubGroups([
     Collectables,
     General_Logs,
     // CraftingLogs,
-    // Gathering_Logs,
+    Gathering_Logs,
     Duty,
     FATEs,
     Quests,

@@ -1,14 +1,7 @@
-import { GatheringColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Harvesting_Log_Special_Othardian_Folklore = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.othardian-folklore`;
-
-    return {
-        name: "Othardian Folklore",
-        storageKey,
-        columns: GatheringColumnConfig,
-        tasks
-    };
+export const Gathering_Logs_Harvesting_Special_Othardian_Folklore = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

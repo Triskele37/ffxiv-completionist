@@ -1,27 +1,17 @@
-import { Logging_Log_Special_Dravanian_Folklore } from "./dravanian-folklore";
-import { Logging_Log_Special_Abalathian_Folklore } from "./abalathian-folklore";
-import { Logging_Log_Special_Gyr_Abanian_Folklore } from "./gyr-abanian-folklore";
-import { Logging_Log_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
-import { Logging_Log_Special_Ishgard_Restoration_Folklore } from "./ishgard-restoration";
+import { DataGroup } from "../../../DataGroup";
 
-export const Logging_Log_Special = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.special`;
+import { Gathering_Logs_Logging_Special_Dravanian_Folklore } from "./dravanian-folklore";
+import { Gathering_Logs_Logging_Special_Abalathian_Folklore } from "./abalathian-folklore";
+import { Gathering_Logs_Logging_Special_Gyr_Abanian_Folklore } from "./gyr-abanian-folklore";
+import { Gathering_Logs_Logging_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
+import { Gathering_Logs_Logging_Special_Ishgard_Restoration_Folklore } from "./ishgard-restoration";
 
-    return {
-        name: "Special",
-    	storageKey,
-        groupKeys: [
-            "DravanianFolklore",
-            "AbalathianFolklore",
-            "GyrAbanianFolklore",
-            "VrandticFolklore",
-            "IshgardRestoration"
-        ],
-        // Groups
-        DravanianFolklore: Logging_Log_Special_Dravanian_Folklore(storageKey),
-        AbalathianFolklore: Logging_Log_Special_Abalathian_Folklore(storageKey),
-        GyrAbanianFolklore: Logging_Log_Special_Gyr_Abanian_Folklore(storageKey),
-        VrandticFolklore: Logging_Log_Special_Vrandtic_Folklore(storageKey),
-        IshgardRestoration: Logging_Log_Special_Ishgard_Restoration_Folklore(storageKey),
-    };
+export const Gathering_Logs_Logging_Special = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Gathering_Logs_Logging_Special_Dravanian_Folklore,
+        Gathering_Logs_Logging_Special_Abalathian_Folklore,
+        Gathering_Logs_Logging_Special_Gyr_Abanian_Folklore,
+        Gathering_Logs_Logging_Special_Vrandtic_Folklore,
+        Gathering_Logs_Logging_Special_Ishgard_Restoration_Folklore,
+	]);
 };

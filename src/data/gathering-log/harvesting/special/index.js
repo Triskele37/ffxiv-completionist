@@ -1,33 +1,21 @@
-import { Harvesting_Log_Special_Coerthan_Folklore } from "./coerthan-folklore";
-import { Harvesting_Log_Special_Dravanian_Folklore } from "./dravanian-folklore";
-import { Harvesting_Log_Special_Abalathian_Folklore } from "./abalathian-folklore";
-import { Harvesting_Log_Special_Gyr_Abanian_Folklore } from "./gyr-abanian-folklore";
-import { Harvesting_Log_Special_Othardian_Folklore } from "./othardian-folklore";
-import { Harvesting_Log_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
-import { Harvesting_Log_Special_Ishgard_Restoration_Folklore } from "./ishgard-restoration";
+import { DataGroup } from "../../../DataGroup";
 
-export const Harvesting_Log_Special = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.special`;
+import { Gathering_Logs_Harvesting_Special_Coerthan_Folklore } from "./coerthan-folklore";
+import { Gathering_Logs_Harvesting_Special_Dravanian_Folklore } from "./dravanian-folklore";
+import { Gathering_Logs_Harvesting_Special_Abalathian_Folklore } from "./abalathian-folklore";
+import { Gathering_Logs_Harvesting_Special_Gyr_Abanian_Folklore } from "./gyr-abanian-folklore";
+import { Gathering_Logs_Harvesting_Special_Othardian_Folklore } from "./othardian-folklore";
+import { Gathering_Logs_Harvesting_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
+import { Gathering_Logs_Harvesting_Special_Ishgard_Restoration_Folklore } from "./ishgard-restoration";
 
-    return {
-        name: "Special",
-    	storageKey,
-        groupKeys: [
-            "CoerthanFolklore",
-            "DravanianFolklore",
-            "AbalathianFolklore",
-            "GyrAbanianFolklore",
-            "OthardianFolklore",
-            "VrandticFolklore",
-            "IshgardRestoration"
-        ],
-        // Groups
-        CoerthanFolklore: Harvesting_Log_Special_Coerthan_Folklore(storageKey),
-        DravanianFolklore: Harvesting_Log_Special_Dravanian_Folklore(storageKey),
-        AbalathianFolklore: Harvesting_Log_Special_Abalathian_Folklore(storageKey),
-        GyrAbanianFolklore: Harvesting_Log_Special_Gyr_Abanian_Folklore(storageKey),
-        OthardianFolklore: Harvesting_Log_Special_Othardian_Folklore(storageKey),
-        VrandticFolklore: Harvesting_Log_Special_Vrandtic_Folklore(storageKey),
-        IshgardRestoration: Harvesting_Log_Special_Ishgard_Restoration_Folklore(storageKey),
-    };
+export const Gathering_Logs_Harvesting_Special = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Gathering_Logs_Harvesting_Special_Coerthan_Folklore,
+        Gathering_Logs_Harvesting_Special_Dravanian_Folklore,
+        Gathering_Logs_Harvesting_Special_Abalathian_Folklore,
+        Gathering_Logs_Harvesting_Special_Gyr_Abanian_Folklore,
+        Gathering_Logs_Harvesting_Special_Othardian_Folklore,
+        Gathering_Logs_Harvesting_Special_Vrandtic_Folklore,
+        Gathering_Logs_Harvesting_Special_Ishgard_Restoration_Folklore,
+	]);
 };

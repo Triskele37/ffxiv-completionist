@@ -1,14 +1,7 @@
-import { GatheringColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Logging_Log_Special_Dravanian_Folklore = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.dravanian-folklore`;
-
-    return {
-        name: "Dravanian Folklore",
-        storageKey,
-        columns: GatheringColumnConfig,
-        tasks
-    };
+export const Gathering_Logs_Logging_Special_Dravanian_Folklore = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

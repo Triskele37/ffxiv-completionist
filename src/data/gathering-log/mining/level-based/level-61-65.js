@@ -1,14 +1,7 @@
-import { GatheringColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Mining_Log_Level_61_65 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-61-65`;
-
-    return {
-        name: "Levels 61-65",
-        storageKey,
-        columns: GatheringColumnConfig,
-        tasks
-    };
+export const Gathering_Logs_Mining_Level_61_65 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [

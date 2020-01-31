@@ -1,18 +1,17 @@
-import { Quarrying_Log_Level } from "./level-based";
-import { Quarrying_Log_Special } from "./special";
+import { DataGroup } from "../../DataGroup";
+import { GatheringColumnConfig } from "../columnConfigs";
 
-export const Quarrying_Log = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.quarrying`;
+import { Gathering_Logs_Quarrying_Level } from "./level-based";
+import { Gathering_Logs_Quarrying_Special } from "./special";
 
-    return {
-        name: "Quarrying",
-        storageKey,
-        groupKeys: [
-            "Level",
-            "Special",
-        ],
-        // Groups
-        Level: Quarrying_Log_Level(storageKey),
-        Special: Quarrying_Log_Special(storageKey),
-    };
+export const Gathering_Logs_Quarrying = function(name, parent) {
+    const data = new DataGroup(name, parent)
+    data.columnConfig = GatheringColumnConfig;
+
+    data.initializeSubGroups([
+        Gathering_Logs_Quarrying_Level,
+        Gathering_Logs_Quarrying_Special,
+	]);
+
+    return data;
 };
