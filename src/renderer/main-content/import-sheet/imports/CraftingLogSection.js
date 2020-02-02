@@ -38,9 +38,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Shared Craft Log",
-            importCallback: (rawText) => {
-                return 'Not Yet Implemented';
-            },
+            importCallback: importCallback(2, [data.Crafting_Log.Shared]),
         },
     ]
 };

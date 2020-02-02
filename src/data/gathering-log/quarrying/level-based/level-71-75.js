@@ -9,16 +9,22 @@ const tasks = [
         level: "71",
         name: "Hard Mudstone",
         zone: "Kholusia",
-        location: "Slowroad"
+        location: "Slowroad",
+        usage: "GSM, Provisioning",
+        special: "",
     }, {
         level: "71",
         name: "Truegold Sand",
         zone: "Kholusia",
-        location: "Slowroad"
+        location: "Slowroad",
+        usage: "ALC, ARM, BSM, GSM, Provisioning",
+        special: "",
     }, {
         level: "75",
         name: "Manasilver Sand",
         zone: "The Rak'tika Greatwood",
-        location: "Lozatl's Conquest"
+        location: "Lozatl's Conquest",
+        usage: "ALC, GSM, Provisioning",
+        special: "",
     },
 ];

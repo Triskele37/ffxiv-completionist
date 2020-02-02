@@ -9,6 +9,8 @@ const tasks = [
         level: "60★★★",
         name: "Star Cotton Boll",
         zone: "Azys Lla",
-        location: "Antithesis"
+        location: "Antithesis",
+        usage: "WVR",
+        special: "Legendary(4AM/PM), Unlocked w/ Botanical Folklore- Abalathian",
     },
 ];

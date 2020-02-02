@@ -5,7 +5,7 @@ export const LeveSection = {
     name: "Leves",
     tabs: [
         {
-            title: "Battlecraft & Grand Company Leves",
+            title: "BattlecraftGC Leves",
             importCallback: importCallback(1, [data.Quests.Levequests.Battlecraft]),
         },
         {
@@ -27,7 +27,9 @@ export const LeveSection = {
                 data.Quests.Levequests.Goldsmithing,
                 data.Quests.Levequests.Leatherworking,
                 data.Quests.Levequests.Clothcrafting,
-            ]),
+            ], (task, columns) => {
+                return task.level === columns[2];
+            }),
         },
     ]
 };

@@ -9,11 +9,15 @@ const tasks = [
         level: "80★",
         name: "Sandalwood Log",
         zone: "The Rak'tika Greatwood",
-        location: "Mjrl's Regret"
+        location: "Mjrl's Regret",
+        usage: "CRP, Collectable",
+        special: "Legendary 2 AM/PM, Unlocked w/ Botanical Folklore - Vrandtic",
     }, {
         level: "80★",
         name: "Sandalwood Sap",
         zone: "The Rak'tika Greatwood",
-        location: "Mjrl's Regret"
+        location: "Mjrl's Regret",
+        usage: "ALC",
+        special: "Legendary 2 AM/PM, Unlocked w/ Botanical Folklore - Vrandtic",
     },
 ];

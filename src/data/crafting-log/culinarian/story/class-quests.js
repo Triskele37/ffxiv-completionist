@@ -6,51 +6,51 @@ export const Crafting_Log_Culinarian_Story_Class_Quests = function(name, parent)
 
 const tasks = [
     {
-        "level": 63,
+        level: 63,
         name: "Doman Rice Balls",
-        "mat-1": "Rice Ball Ingredients",
-        "mat-2": "X",
-        "mat-3": "X",
-        "mat-4": "X",
-        "mat-5": "X",
-        "mat-6": "X",
-        "catalysts": "2 Fire Crystal, Water Crystal",
-        "special": "X"
+        mat1: "Rice Ball Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
     },
     {
-        "level": 65,
+        level: 65,
         name: "Doman Udon Broth",
-        "mat-1": "Broth Ingredients",
-        "mat-2": "X",
-        "mat-3": "X",
-        "mat-4": "X",
-        "mat-5": "X",
-        "mat-6": "X",
-        "catalysts": "2 Fire Crystal, Water Crystal",
-        "special": "X"
+        mat1: "Broth Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
     },
     {
-        "level": 68,
+        level: 68,
         name: "Nigiri-zushi",
-        "mat-1": "Sushi Ingredients",
-        "mat-2": "X",
-        "mat-3": "X",
-        "mat-4": "X",
-        "mat-5": "X",
-        "mat-6": "X",
-        "catalysts": "2 Fire Crystal, Water Crystal",
-        "special": "X"
+        mat1: "Sushi Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
     },
     {
-        "level": 70,
+        level: 70,
         name: "Doman Sukiyaki",
-        "mat-1": "Sukiyaki Ingredients",
-        "mat-2": "X",
-        "mat-3": "X",
-        "mat-4": "X",
-        "mat-5": "X",
-        "mat-6": "X",
-        "catalysts": "2 Fire Crystal, Water Crystal",
-        "special": "X"
+        mat1: "Sukiyaki Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
     }
 ];

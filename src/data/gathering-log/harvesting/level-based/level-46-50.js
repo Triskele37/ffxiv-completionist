@@ -9,131 +9,176 @@ const tasks = [
         level: "48",
         name: "Thanalan Tea Leaves",
         zone: "Southern Thanalan",
-        location: "Sagolii Desert"
+        location: "Sagolii Desert",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "49",
         name: "Lava Toad",
         zone: "Southern Thanalan",
-        location: "Sagolii Desert"
+        location: "Sagolii Desert",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "50",
         name: "Maiden Grass",
         zone: "Southern Thanalan",
-        location: "Sagolii Desert"
-    }, {
-        level: "50",
-        name: "Fire Cluster",
-        zone: "The Dravanian Forelands",
-        location: "Avalonia Fallen"
+        location: "Sagolii Desert",
+        usage: "WVR",
+        special: "",
     }, {
         level: "50",
         name: "Ice Cluster",
         zone: "Coerthas Western Highlands",
-        location: "Twinpools"
+        location: "Twinpools",
+        usage: "Catalyst, Trade",
+        special: "Concealed",
     }, {
         level: "50",
         name: "Wind Cluster",
         zone: "The Dravanian Hinterlands",
-        location: "The Answering Quarter"
+        location: "The Answering Quarter",
+        usage: "Catalyst, Trade",
+        special: "Concealed",
     }, {
         level: "50",
         name: "Earth Cluster",
         zone: "The Dravanian Forelands",
-        location: "Avalonia Fallen"
-    }, {
-        level: "50★",
-        name: "Black Truffle",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Avalonia Fallen",
+        usage: "Catalyst, Trade",
+        special: "Ephemeral (8 AM)",
     }, {
         level: "50★",
         name: "Dzemael Tomato",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully"
+        location: "Raincatcher Gully",
+        usage: "CUL",
+        special: "Unspoiled (1 PM)",
     }, {
         level: "50★",
-        name: "Dzemael Tomato Seeds",
-        zone: "Eastern La Noscea",
-        location: "Raincatcher Gully"
+        name: "Black Truffle",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "CUL",
+        special: "Unspoiled (1 PM)",
     }, {
         level: "50★",
         name: "Honey Lemon",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
-    }, {
-        level: "50★",
-        name: "Honey Lemon Seeds",
-        zone: "Eastern La Noscea",
-        location: "Bloodshore"
-    }, {
-        level: "50★",
-        name: "Kidragora",
-        zone: "East Shroud",
-        location: "The Honey Yard"
-    }, {
-        level: "50★",
-        name: "Mazlaya Greens",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Bloodshore",
+        usage: "CUL",
+        special: "Unspoiled (5 AM)",
     }, {
         level: "50★",
         name: "Silkworm Cocoon",
         zone: "East Shroud",
-        location: "Nine Ivies"
-    }, {
-        level: "50★",
-        name: "Trilium Bulb",
-        zone: "East Shroud",
-        location: "The Honey Yard"
+        location: "Nine Ivies",
+        usage: "WVR",
+        special: "Unspoiled (1 AM)",
     }, {
         level: "50★",
         name: "Trillium",
         zone: "East Shroud",
-        location: "The Bramble Patch"
+        location: "The Bramble Patch",
+        usage: "ALC, WVR",
+        special: "Unspoiled (5 AM)",
+    }, {
+        level: "50★",
+        name: "Trilium Bulb",
+        zone: "East Shroud",
+        location: "The Honey Yard",
+        usage: "ALC",
+        special: "Unspoiled (9 PM)",
+    }, {
+        level: "50★",
+        name: "Kidragora",
+        zone: "East Shroud",
+        location: "The Honey Yard",
+        usage: "Minion",
+        special: "Unspoiled (9 PM)",
+    }, {
+        level: "50★",
+        name: "Dzemael Tomato Seeds",
+        zone: "Eastern La Noscea",
+        location: "Raincatcher Gully",
+        usage: "Gardening",
+        special: "Unspoiled (1 PM)",
+    }, {
+        level: "50★",
+        name: "Honey Lemon Seeds",
+        zone: "Eastern La Noscea",
+        location: "Bloodshore",
+        usage: "Gardening",
+        special: "Unspoiled (5 AM)",
     }, {
         level: "50★",
         name: "Unaspected Crystal",
         zone: "East Shroud",
-        location: "Little Solace"
+        location: "Little Solace",
+        usage: "ALC",
+        special: "Unspoiled (1 AM)",
     }, {
-        level: "50★★",
-        name: "Dark Matter Cluster",
-        zone: "The Dravanian Forelands",
-        location: "Chocobo Forest"
+        level: "50★",
+        name: "Mazlaya Greens",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "CUL",
+        special: "Unspoiled (1 PM)",
     }, {
         level: "50★★",
         name: "La Noscean Leek",
         zone: "Western La Noscea",
-        location: "Quarterstone"
-    }, {
-        level: "50★★",
-        name: "Shroud Tea Leaves",
-        zone: "Central Shroud",
-        location: "Sorrel Haven"
-    }, {
-        level: "50★★",
-        name: "Waterfowl Feather",
-        zone: "Western La Noscea",
-        location: "Quarterstone"
+        location: "Quarterstone",
+        usage: "CUL",
+        special: "Unspoiled (8 AM)",
     }, {
         level: "50★★",
         name: "Young Cieldalaes Spinach",
         zone: "Lower La Noscea",
-        location: "Cedarwood"
+        location: "Cedarwood",
+        usage: "CUL",
+        special: "Unspoiled (6 AM)",
+    }, {
+        level: "50★★",
+        name: "Waterfowl Feather",
+        zone: "Western La Noscea",
+        location: "Quarterstone",
+        usage: "WVR",
+        special: "Unspoiled (8 AM)",
+    }, {
+        level: "50★★",
+        name: "Shroud Tea Leaves",
+        zone: "Central Shroud",
+        location: "Sorrel Haven",
+        usage: "LTW",
+        special: "Unspoiled (2 AM)",
+    }, {
+        level: "50★★",
+        name: "Dark Matter Cluster",
+        zone: "The Dravanian Forelands",
+        location: "Chocobo Forest",
+        usage: "FC Crafting",
+        special: "Unspoiled (2 AM/PM)",
     }, {
         level: "50★★★",
         name: "Old World Fig",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest"
+        location: "Chocobo Forest",
+        usage: "CUL, Collectable",
+        special: "Unspoiled (2 AM/PM)",
     }, {
         level: "50★★★",
         name: "Old World Fig Seeds",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest"
+        location: "Chocobo Forest",
+        usage: "Gardening",
+        special: "Unspoiled (2 AM/PM)",
     }, {
         level: "50★★★",
         name: "Rosemary",
         zone: "East Shroud",
-        location: "Nine Ivies"
+        location: "Nine Ivies",
+        usage: "ALC, CUL",
+        special: "Unspoiled (5 PM)",
     },
 ];

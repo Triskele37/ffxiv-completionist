@@ -286,7 +286,7 @@ const tasks = [
         task: "Attune with all the aether currents on The Rak'tika Greatwood.",
         reward: ""
     }, {
-        name: "Freebird: Tempest",
+        name: "Freebird: The Tempest",
         points: "5",
         task: "Attune with all the aether currents on the Tempest",
         reward: ""

@@ -5,7 +5,7 @@ export const GeneralLogSection = {
     name: "General Logs",
     tabs: [
         {
-            title: "Blue Mage Spellbook",
+            title: "Blue Magic Spellbook",
             importCallback: importCallback(2, [data.General_Logs.Blue_Mage.Spellbook]),
         },
         {

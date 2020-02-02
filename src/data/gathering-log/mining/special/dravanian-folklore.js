@@ -9,11 +9,15 @@ const tasks = [
         level: "60★",
         name: "Aurum Regis Ore",
         zone: "The Churning Mists",
-        location: "Mother of the Sheave"
+        location: "Mother of the Sheave",
+        usage: "GSM, Collectable",
+        special: "Legendary (5 AM), Unlocked w/ Geological Folklore - Dravania",
     }, {
         level: "60★",
         name: "Lumythrite Ore",
         zone: "The Churning Mists",
-        location: "Sothton Walls"
+        location: "Sothton Walls",
+        usage: "ARM, BSM, Collectable",
+        special: "Legendary (3 AM), Unlocked w/ Geological Folklore - Dravania",
     },
 ];

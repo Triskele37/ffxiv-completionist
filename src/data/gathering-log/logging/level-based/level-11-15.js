@@ -9,11 +9,15 @@ const tasks = [
         level: "12",
         name: "Elm Log",
         zone: "Central Shroud",
-        location: "Bentbranch"
+        location: "Bentbranch",
+        usage: "ALC, CRP",
+        special: "",
     }, {
         level: "14",
         name: "Gridanian Chestnut",
         zone: "Central Shroud",
-        location: "Bentbranch"
+        location: "Bentbranch",
+        usage: "CUL, Provisioning",
+        special: "",
     },
 ];

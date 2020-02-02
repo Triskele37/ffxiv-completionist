@@ -9,31 +9,43 @@ const tasks = [
         level: "71",
         name: "Pixie Apple",
         zone: "Il Mheg",
-        location: "The Church at Dammroen Field"
+        location: "The Church at Dammroen Field",
+        usage: "CUL",
+        special: "",
     }, {
         level: "71",
         name: "Frantoio",
         zone: "Lakeland",
-        location: "The Chiliad"
+        location: "The Chiliad",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "71",
         name: "White Oak Log",
         zone: "Kholusia",
-        location: "The Bright Cliff"
+        location: "The Bright Cliff",
+        usage: "CRP, Provisioning",
+        special: "",
     }, {
         level: "72",
         name: "Miracle Apple Log",
         zone: "Il Mheg",
-        location: "The Church at Dammroen Field"
+        location: "The Church at Dammroen Field",
+        usage: "CRP, Provisioning",
+        special: "",
     }, {
         level: "74",
         name: "White Ash Log",
         zone: "The Rak'tika Greatwood",
-        location: "Woven Oath"
+        location: "Woven Oath",
+        usage: "CRP, Provisioning",
+        special: "",
     }, {
         level: "75",
         name: "Gianthive Chip",
         zone: "The Rak'tika Greatwood",
-        location: "Woven Oath"
+        location: "Woven Oath",
+        usage: "CUL, Provisioning",
+        special: "",
     },
 ];

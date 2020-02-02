@@ -9,16 +9,22 @@ const tasks = [
         level: "51",
         name: "Mythrite Sand",
         zone: "Coerthas Western Highlands",
-        location: "Twinpools"
+        location: "Twinpools",
+        usage: "ALC, ARM, BSM, GSM, FC Crafting, Provisioning",
+        special: "",
     }, {
         level: "52",
         name: "Yellow Quartz",
         zone: "The Churning Mists",
-        location: "The House of Letters"
+        location: "The House of Letters",
+        usage: "Collectable",
+        special: "Unspoiled (2 AM/PM)",
     }, {
         level: "55",
         name: "Green Quartz",
         zone: "The Churning Mists",
-        location: "The House of Letters"
+        location: "The House of Letters",
+        usage: "Collectable",
+        special: "Unspoiled (2 AM/PM)",
     },
 ];

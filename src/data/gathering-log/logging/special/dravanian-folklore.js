@@ -9,21 +9,29 @@ const tasks = [
         level: "60★",
         name: "Old-growth Camphorwood Log",
         zone: "The Churning Mists",
-        location: "Weston Waters"
+        location: "Weston Waters",
+        usage: "CRP, Collectable",
+        special: "Legendary (3 PM), Unlocked w/ Botanical Folklore - Dravania",
     }, {
         level: "60★",
         name: "Crystalized Sap",
         zone: "The Churning Mists",
-        location: "Eil Tohm"
+        location: "Eil Tohm",
+        usage: "Collectable",
+        special: "Unlocked w/ Botanical Folklore - Dravania",
     }, {
         level: "60★★★",
         name: "Brown Mushroom",
         zone: "The Churning Mists",
-        location: "Greensward"
+        location: "Greensward",
+        usage: "CUL",
+        special: "Legendary (10AM/PM), Unlocked w/ Botanical Folklore - Dravania",
     }, {
         level: "60★★★",
         name: "Teak Log",
         zone: "The Dravanian Hinterlands",
-        location: "The Answering Quarter"
+        location: "The Answering Quarter",
+        usage: "CRP",
+        special: "Legendary (12AM/PM) Unlocked w/ Botanical Folklore - Dravania",
     },
 ];

@@ -9,6 +9,7 @@ import { Crafting_Log_Leatherworker } from "./leatherworker";
 import { Crafting_Log_Weaver } from "./weaver";
 import { Crafting_Log_Alchemist } from "./alchemist";
 import { Crafting_Log_Culinarian } from "./culinarian";
+import { Crafting_Log_Shared } from "./shared";
 
 export const Crafting_Log = function(name, parent) {
     const data = new DataGroup(name, parent)
@@ -23,6 +24,7 @@ export const Crafting_Log = function(name, parent) {
         Crafting_Log_Weaver,
         Crafting_Log_Alchemist,
         Crafting_Log_Culinarian,
+        Crafting_Log_Shared,
     ]);
 
     return data;

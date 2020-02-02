@@ -14,22 +14,22 @@ export const CollectablesSection = {
         },
         {
             title: "Minions",
-            importCallback: importCallback(1, [data.Collectables.Minions]),
+            importCallback: importCallback(1, [data.Collectables.Minion_Guide]),
         },
         {
             title: "Mounts & Barding",
             importCallback: importCallback(1, [
-                data.Collectables.Mounts,
+                data.Collectables.Mount_Guide,
                 data.Collectables.Barding
             ]),
         },
         {
             title: "Orchestrion",
-            importCallback: importCallback(2, [data.Collectables.Orchestrion]),
+            importCallback: importCallback(2, [data.Collectables.Orchestrion_List]),
         },
         {
             title: "Triple Triad Cards",
-            importCallback: importCallback(1, [data.Collectables.Triple_Triad_Cards]),
+            importCallback: importCallback(1, [data.Collectables.Triple_Triad_Card_List]),
         },
         {
             title: "Triple Triad Opponents",

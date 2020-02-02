@@ -9,76 +9,106 @@ const tasks = [
         level: "31",
         name: "Flax",
         zone: "South Shroud",
-        location: "Lower Paths"
-    }, {
-        level: "31",
-        name: "Linseed",
-        zone: "South Shroud",
-        location: "Lower Paths"
+        location: "Lower Paths",
+        usage: "ALC, WVR, Provisioning",
+        special: "",
     }, {
         level: "31",
         name: "Yafaem Wildgrass",
         zone: "Southern Thanalan",
-        location: "Broken Water"
+        location: "Broken Water",
+        usage: "CUL",
+        special: "Hidden",
+    }, {
+        level: "31",
+        name: "Linseed",
+        zone: "South Shroud",
+        location: "Lower Paths",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "32",
         name: "Aloe",
         zone: "Southern Thanalan",
-        location: "Broken Water"
+        location: "Broken Water",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "32",
         name: "Midland Basil",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
+        location: "Bloodshore",
+        usage: "CUL, Provisioning",
+        special: "Buyable",
     }, {
         level: "32",
         name: "Midland Basil Seeds",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
-    }, {
-        level: "33",
-        name: "Bloodgrass",
-        zone: "Southern Thanalan",
-        location: "Broken Water"
-    }, {
-        level: "33",
-        name: "Mandrake",
-        zone: "Eastern La Noscea",
-        location: "Bloodshore"
-    }, {
-        level: "33",
-        name: "Mandrake Seeds",
-        zone: "Eastern La Noscea",
-        location: "Bloodshore"
+        location: "Bloodshore",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "33",
         name: "White Truffle",
         zone: "South Shroud",
-        location: "Lower Paths"
+        location: "Lower Paths",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
-        level: "34",
-        name: "Laurel",
+        level: "33",
+        name: "Bloodgrass",
         zone: "Southern Thanalan",
-        location: "Broken Water"
+        location: "Broken Water",
+        usage: "CRP, LTW, WVR",
+        special: "",
+    }, {
+        level: "33",
+        name: "Mandrake",
+        zone: "Eastern La Noscea",
+        location: "Bloodshore",
+        usage: "ALC, Provisioning",
+        special: "",
+    }, {
+        level: "33",
+        name: "Mandrake Seeds",
+        zone: "Eastern La Noscea",
+        location: "Bloodshore",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "34",
         name: "Salt Leek",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
+        location: "Bloodshore",
+        usage: "CUL, Provisioning",
+        special: "",
+    }, {
+        level: "34",
+        name: "Laurel",
+        zone: "Southern Thanalan",
+        location: "Broken Water",
+        usage: "CUL",
+        special: "",
     }, {
         level: "34",
         name: "Wildfowl Feather",
         zone: "South Shroud",
-        location: "Lower Paths"
-    }, {
-        level: "35",
-        name: "Desert Saffron",
-        zone: "Southern Thanalan",
-        location: "Broken Water"
+        location: "Lower Paths",
+        usage: "BSM, CRP, GSM, LTW, WVR, Provisioning",
+        special: "",
     }, {
         level: "35",
         name: "Dragon Pepper",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
+        location: "Bloodshore",
+        usage: "CUL, Provisioning",
+        special: "",
+    }, {
+        level: "35",
+        name: "Desert Saffron",
+        zone: "Southern Thanalan",
+        location: "Broken Water",
+        usage: "ALC, CUL, WVR, Provisioning",
+        special: "",
     },
 ];

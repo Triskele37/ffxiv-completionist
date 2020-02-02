@@ -9,6 +9,8 @@ const tasks = [
         level: "33",
         name: "Mythril Sand",
         zone: "Southern Thanalan",
-        location: "The Red Labyrinth"
+        location: "The Red Labyrinth",
+        usage: "ALC, Provisioning",
+        special: "",
     },
 ];

@@ -28,14 +28,6 @@ const tasks = [
         type: "Spearfishing",
         req: ""
     },
-    {
-        level: "75",
-        name: "Southeast Source - Unspoiled Teeming Waters",
-        zone: "Norvrandt",
-        location: "Lakeland",
-        type: "Spearfishing",
-        req: "Swimming Shadows"
-    },
     //-------------------------------------------- Il Mheg
     {
         level: "75",
@@ -60,13 +52,6 @@ const tasks = [
         req: ""
     }, {
         level: "80",
-        name: "Central Longmirror Lake - Unspoiled Teeming Waters",
-        zone: "Norvrandt",
-        location: "Il Mheg",
-        type: "Spearfishing",
-        req: "Swimming Shadows"
-    }, {
-        level: "80",
         name: "Thysm Lran",
         zone: "Norvrandt",
         location: "Il Mheg",
@@ -88,13 +73,6 @@ const tasks = [
         location: "The Rak'tika Greatwood",
         type: "Spearfishing",
         req: ""
-    }, {
-        level: "80",
-        name: "North Lake Tusi Mek'ta - Unspoiled Teeming Waters",
-        zone: "Norvrandt",
-        location: "The Rak'tika Greatwood",
-        type: "Spearfishing",
-        req: "Swimming Shadows"
     }, {
         level: "80",
         name: "The Covered Halls of Dwatl",

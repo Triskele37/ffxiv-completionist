@@ -5,10 +5,5 @@ export const Achievements_Quests_Seasonal_Events = function(name, parent) {
 };
 
 const tasks = [
-    {
-        name: "Sitting with the Dog",
-        points: "10",
-        description: "Complete the quest \"More Bark and Mochi Bite\"",
-        reward: "",
-    }
+
 ];

@@ -7,7 +7,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Item",
-    key: "item",
+    key: "name",
     filterable: true,
     styles: {
       centered: true
@@ -15,7 +15,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 1",
-    key: "mat-1",
+    key: "mat1",
     filterable: true,
     styles: {
       centered: true
@@ -23,7 +23,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 2",
-    key: "mat-2",
+    key: "mat2",
     filterable: true,
     styles: {
       centered: true
@@ -31,7 +31,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 3",
-    key: "mat-3",
+    key: "mat3",
     filterable: true,
     styles: {
       centered: true
@@ -39,7 +39,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 4",
-    key: "mat-4",
+    key: "mat4",
     filterable: true,
     styles: {
       centered: true
@@ -47,7 +47,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 5",
-    key: "mat-5",
+    key: "mat5",
     filterable: true,
     styles: {
       centered: true
@@ -55,7 +55,7 @@ export const CraftingLogColumnConfig = [{
   },
   {
     header: "Mat 6",
-    key: "mat-6",
+    key: "mat6",
     filterable: true,
     styles: {
       centered: true

@@ -86,15 +86,6 @@ const tasks = [
         type: "Spearfishing",
         req: ""
     },
-    //TODO: which node is this???
-    {
-        level: "70",
-        name: "??? - Unspoiled Teeming Waters",
-        zone: "The Ruby Sea",
-        location: "The Ruby Sea (40,2)(42,10)",
-        type: "Spearfishing",
-        req: "Swimming Shadows"
-    },
     //-------------------------------------------- The Azim Steppe
     {
         level: "70",

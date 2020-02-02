@@ -9,11 +9,15 @@ const tasks = [
         level: "24",
         name: "Effervescent Water",
         zone: "South Shroud",
-        location: "Upper Paths"
+        location: "Upper Paths",
+        usage: "ALC, WVR",
+        special: "",
     }, {
         level: "25",
         name: "Silver Ore",
         zone: "South Shroud",
-        location: "Upper Paths"
+        location: "Upper Paths",
+        usage: "GSM",
+        special: "",
     },
 ];

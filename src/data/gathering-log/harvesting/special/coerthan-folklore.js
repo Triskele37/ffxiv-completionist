@@ -9,16 +9,22 @@ const tasks = [
         level: "60★",
         name: "Dravanian Paprika",
         zone: "Coerthas Western Highlands",
-        location: "The Bed of Bones"
+        location: "The Bed of Bones",
+        usage: "CUL, Collectable",
+        special: "Legendary (7 PM), Unlocked w/ Botanical Folklore- Coerthas",
     }, {
         level: "60★",
         name: "Vanilla Beans",
         zone: "Coerthas Western Highlands",
-        location: "The Watcher"
+        location: "The Watcher",
+        usage: "CUL, Collectable",
+        special: "Legendary (5 PM), Unlocked w/ Botanical Folklore- Coerthas",
     }, {
         level: "60★",
         name: "Frost Cotton Boll",
         zone: "Coerthas Western Highlands",
-        location: "Gorgagne Holding"
+        location: "Gorgagne Holding",
+        usage: "WVR, Collectable",
+        special: "Legendary (1 PM), Unlocked w/ Botanical Folklore - Coerthas",
     },
 ];

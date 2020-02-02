@@ -7,68 +7,94 @@ export const Gathering_Log_Harvesting_Level_21_25 = function(name, parent) {
 const tasks = [
     {
         level: "21",
-        name: "Pixie Plum Seeds",
-        zone: "Upper La Noscea",
-        location: "Oakwood"
-    }, {
-        level: "21",
         name: "Pixie Plums",
         zone: "Upper La Noscea",
-        location: "Oakwood"
+        location: "Oakwood",
+        usage: "CUL, Provisioning",
+        special: "",
+    }, {
+        level: "21",
+        name: "Pixie Plum Seeds",
+        zone: "Upper La Noscea",
+        location: "Oakwood",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "22",
         name: "Button Mushroom",
         zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Drybone",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "22",
         name: "Noble Grapes",
         zone: "Upper La Noscea",
-        location: "Oakwood"
+        location: "Oakwood",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "23",
         name: "Ala Mhigan Mustard",
         zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Drybone",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "23",
         name: "Ala Mhigan Mustard Seeds",
         zone: "Eastern Thanalan",
-        location: "Drybone"
-    }, {
-        level: "24",
-        name: "Chamomile",
-        zone: "Upper La Noscea",
-        location: "Oakwood"
-    }, {
-        level: "24",
-        name: "Chamomile Seeds",
-        zone: "Upper La Noscea",
-        location: "Oakwood"
+        location: "Drybone",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "24",
         name: "Pearl Ginger",
         zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Drybone",
+        usage: "ALC, CUL, Provisioning",
+        special: "",
+    }, {
+        level: "24",
+        name: "Chamomile",
+        zone: "Upper La Noscea",
+        location: "Oakwood",
+        usage: "CUL, LTW, WVR",
+        special: "",
     }, {
         level: "24",
         name: "Pearl Ginger Root",
         zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Drybone",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
-        level: "25",
-        name: "Millioncorn",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
-    }, {
-        level: "25",
-        name: "Millioncorn Seeds",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
+        level: "24",
+        name: "Chamomile Seeds",
+        zone: "Upper La Noscea",
+        location: "Oakwood",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "25",
         name: "Sticky Rice",
         zone: "Upper La Noscea",
-        location: "Oakwood"
+        location: "Oakwood",
+        usage: "CUL, Provisioning",
+        special: "",
+    }, {
+        level: "25",
+        name: "Millioncorn",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "CUL, Provisioning",
+        special: "",
+    }, {
+        level: "25",
+        name: "Millioncorn Seeds",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "Gardening",
+        special: "Hidden",
     },
 ];

@@ -9,21 +9,29 @@ const tasks = [
         level: "76",
         name: "Volcanic Tuff",
         zone: "Kholusia",
-        location: "Amity"
+        location: "Amity",
+        usage: "GSM",
+        special: "",
     }, {
         level: "76",
         name: "Titancopper Sand",
         zone: "Amh Araeng",
-        location: "Mount Biran Mines"
+        location: "Mount Biran Mines",
+        usage: "GSM, Provisioning",
+        special: "",
     }, {
         level: "79",
         name: "Dimythrite Sand",
         zone: "Amh Araeng",
-        location: "Mount Biran Mines"
+        location: "Mount Biran Mines",
+        usage: "ALC, GSM, Provisioning",
+        special: "",
     }, {
         level: "80",
         name: "Shade Quartz",
         zone: "Kholusia",
-        location: "Amity"
+        location: "Amity",
+        usage: "Reducible",
+        special: "Ephemeral (4 PM)",
     },
 ];

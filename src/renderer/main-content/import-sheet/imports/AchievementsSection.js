@@ -14,7 +14,7 @@ export const AchievementsSection = {
         },
         {
             title: "PvP Achievements",
-            importCallback: importCallback(1, [data.Achievements.PVP]),
+            importCallback: importCallback(1, [data.Achievements.PvP]),
         },
         {
             title: "Items Achievements",

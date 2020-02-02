@@ -9,31 +9,43 @@ const tasks = [
         level: "16",
         name: "Raw Malachite",
         zone: "Eastern Thanalan",
-        location: "Drybone"
-    }, {
-        level: "17",
-        name: "Raw Fluorite",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Drybone",
+        usage: "GSM, Provisioning",
+        special: "Buyable",
     }, {
         level: "17",
         name: "Raw Sphene",
         zone: "North Shroud",
-        location: "Peacegarden"
+        location: "Peacegarden",
+        usage: "GSM",
+        special: "Buyable",
+    }, {
+        level: "17",
+        name: "Raw Fluorite",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "GSM, Provisioning",
+        special: "Buyable",
     }, {
         level: "18",
         name: "Raw Danburite",
         zone: "Western La Noscea",
-        location: "Skull Valley"
-    }, {
-        level: "19",
-        name: "Alumen",
-        zone: "Eastern Thanalan",
-        location: "Drybone"
+        location: "Skull Valley",
+        usage: "GSM, Provisioning",
+        special: "Buyable",
     }, {
         level: "19",
         name: "Sunrise Tellin",
         zone: "Western La Noscea",
-        location: "Skull Valley"
+        location: "Skull Valley",
+        usage: "BSM, CRP, WVR, Provisioning",
+        special: "",
+    }, {
+        level: "19",
+        name: "Alumen",
+        zone: "Eastern Thanalan",
+        location: "Drybone",
+        usage: "LTW, Provisioning",
+        special: "",
     },
 ];

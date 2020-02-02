@@ -15,15 +15,20 @@ export const OtherQuestSection = {
             ]),
         },
         {
-            title: "Job & Role Quests",
+            title: "Job Quests",
             importCallback: importCallback(3, [
                 data.Quests.Class_and_Job.Disciple_of_War_Job,
                 data.Quests.Class_and_Job.Disciple_of_Magic_Job,
+            ]),
+        },
+        {
+            title: "Role Quests",
+            importCallback: importCallback(3, [
                 data.Quests.Class_and_Job.Role,
             ]),
         },
         {
-            title: "Crystalline Mean & Role Quests",
+            title: "Crystalline Mean Quests",
             importCallback: importCallback(2, [data.Quests.Class_and_Job.Crystalline_Mean]),
         },
         {
@@ -32,17 +37,26 @@ export const OtherQuestSection = {
         },
         {
             title: "Side Story Quests",
-            importCallback: importCallback(2, [data.Quests.Sidequests.Side_Story]),
+            importCallback: importCallback(2, [
+                data.Quests.Sidequests.Side_Story.Hildibrand,
+                data.Quests.Sidequests.Side_Story.Further_Hildibrand_Adventures,
+                data.Quests.Sidequests.Side_Story.Even_Further_Hildibrand_Adventures,
+                data.Quests.Sidequests.Side_Story.Scholasticate,
+                data.Quests.Sidequests.Side_Story.Tales_of_the_Dragonsong_War,
+                data.Quests.Sidequests.Side_Story.Wandering_Minstrel,
+                data.Quests.Sidequests.Side_Story.The_Forbidden_Land_Eureka,
+                data.Quests.Sidequests.Side_Story.Delivery_Moogle,
+                data.Quests.Sidequests.Side_Story.Doman_Adventurers_Guild,
+                data.Quests.Sidequests.Side_Story.Doman_Reconstruction,
+                data.Quests.Sidequests.Side_Story.Tales_from_the_Shadows,
+                data.Quests.Sidequests.Side_Story.Ishgardian_Restoration_Main,
+            ]),
         },
         {
             title: "Weapons Quests",
             importCallback: (rawText) => {
                 return 'Not Implemented'
             },
-        },
-        {
-            title: "Grand Company Quests",
-            importCallback: importCallback(2, [data.Quests.Other.Grand_Company]),
         },
         {
             title: "Beast Tribe Quests",
@@ -52,6 +66,10 @@ export const OtherQuestSection = {
                 data.Quests.Sidequests.Side_Story.Heavensward_Beast_Tribe,
                 data.Quests.Sidequests.Side_Story.Stormblood_Beast_Tribe,
             ]),
+        },
+        {
+            title: "Grand Company Quests",
+            importCallback: importCallback(2, [data.Quests.Other.Grand_Company]),
         },
     ]
 };

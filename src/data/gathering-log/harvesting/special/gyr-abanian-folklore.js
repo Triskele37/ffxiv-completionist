@@ -9,6 +9,8 @@ const tasks = [
         level: "70★★",
         name: "Hingan Flax",
         zone: "The Peaks",
-        location: "Mount Yorn"
+        location: "Mount Yorn",
+        usage: "WVR",
+        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Gyr Abanian",
     },
 ];

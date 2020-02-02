@@ -29,5 +29,23 @@ const tasks = [
     }, {
         level: "50",
         name: "Turning Over a Blue Leaf"
+    }, {
+        level: "50",
+        name: "Into the Blue Again"
+    }, {
+        level: "53",
+        name: "Something Borrowed, Something Blue"
+    }, {
+        level: "55",
+        name: "Bolt from the Blue"
+    }, {
+        level: "58",
+        name: "Blue in the Face"
+    }, {
+        level: "60",
+        name: "Blue Scream of Death"
+    }, {
+        level: "60",
+        name: "Blue Cheese"
     }
 ];

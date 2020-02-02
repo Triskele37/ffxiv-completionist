@@ -9,11 +9,15 @@ const tasks = [
         level: "60★",
         name: "Honeydew Almonds",
         zone: "The Sea of Clouds",
-        location: "The Gauntlet"
+        location: "The Gauntlet",
+        usage: "CUL, Collectable",
+        special: "Legendary (5 PM), Unlocked w/ Botanical Folklore- Abalathia's Spine",
     }, {
         level: "60★",
         name: "Wattle Bark",
         zone: "Azys Lla",
-        location: "Alpha Quadrant"
+        location: "Alpha Quadrant",
+        usage: "LTW, Collectable",
+        special: "Legendary (7 PM), Unlocked w/ Botanical Folklore- Abalathia's Spine",
     },
 ];

@@ -9,6 +9,8 @@ const tasks = [
         level: "60★",
         name: "Sun Mica",
         zone: "The Sea of Clouds",
-        location: "The Nidifice"
+        location: "The Nidifice",
+        usage: "ARM, BSM, CRP, GSM, Collectable",
+        special: "Legendary (5 AM), Unlocked w/ Geological Folklore - Abalanthia's Spine",
     },
 ];

@@ -8,1254 +8,864 @@ export const Achievements_Quests_Quests = function(name, parent) {
 
 const tasks = [
     {
-        description: "Complete the main scenario quest \u201cThe Lominsan Envoy.\u201d",
-        name: "Leaving Limsa Lominsa",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the main scenario quest \u201cThe Gridanian Envoy.\u201d",
-        name: "Gone from Gridania",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the main scenario quest \u201cThe Ul'dahn Envoy.\u201d",
-        name: "Out of Ul'dah",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete any one of the Disciple of War or Magic class quests available at level 30.",
-        name: "This One Time, at Level Thirty...",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete all the Disciple of War quests available at level 30.",
-        name: "Tales of War",
-        points: 10,
-        reward: "Title: Seeker of Blood"
-    }, {
-        description: "Complete all the Disciple of Magic quests available at level 30.",
-        name: "Tales of Magic",
-        points: 10,
-        reward: "Title: Seeker of Truth"
-    }, {
-        description: "Complete all the Disciple of the Hand quests available at level 30.",
-        name: "Tales of the Hand",
-        points: 10,
-        reward: "Title: Seeker of Skill"
-    }, {
-        description: "Complete all the Disciple of the Land quests available at level 30.",
-        name: "Tales of the Land",
-        points: 10,
-        reward: "Title: Seeker of Bounty"
-    }, {
-        description: "Complete all the class quests available at level 30.",
-        reward: "Item: Chronicler's Crown",
-        name: "The Greatest Tales Ever Told",
-        points: 20,
-    }, {
-        description: "Complete 15 sidequests originating in La Noscea.",
-        name: "A Little Something on the Side: La Noscea",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 15 sidequests originating in the Black Shroud.",
-        name: "A Little Something on the Side: Black Shroud",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 15 sidequests originating in Thanalan.",
-        name: "A Little Something on the Side: Thanalan",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Obtain all three \u201cA Little Something on the Side\u201d achievements.",
-        name: "Sideways",
-        points: 10,
-        reward: "Title: Sidestepper"
-    }, {
-        description: "Complete 10 regional battlecraft levequests.",
-        name: "All the More Region to Leve I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests.",
-        name: "All the More Region to Leve II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 regional battlecraft levequests.",
-        name: "All the More Region to Leve III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 100 regional battlecraft levequests.",
-        name: "All the More Region to Leve IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 200 regional battlecraft levequests.",
-        name: "All the More Region to Leve V",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 500 regional battlecraft levequests.",
-        name: "All the More Region to Leve VI",
-        points: 10,
-        reward: "Title: Lord Protector"
-    }, {
-        description: "Complete 1,000 regional battlecraft levequests.",
-        name: "Region d'Etre",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 10 local tradecraft levequests.",
-        name: "Think Global, Quest Local I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 local tradecraft levequests.",
-        name: "Think Global, Quest Local II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 local tradecraft levequests.",
-        name: "Think Global, Quest Local III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 100 local tradecraft levequests.",
-        name: "Think Global, Quest Local IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 200 local tradecraft levequests.",
-        name: "Think Global, Quest Local V",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 500 local tradecraft levequests.",
-        name: "Think Global, Quest Local VI",
-        points: 10,
-        reward: "Title: Lord Creator"
-    }, {
-        description: "Complete 1,000 local tradecraft levequests.",
-        name: "Lost in Localization",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 10 faction levequests.",
-        name: "A Slave to Faction I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 faction levequests.",
-        name: "A Slave to Faction II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 100 faction levequests.",
-        name: "A Slave to Faction III",
-        points: 10,
-        reward: "Title: Peacemaker"
-    }, {
-        description: "Complete 500 faction levequests.",
-        name: "Just the Factions, Ma'am",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 5 guildhests.",
         name: "Serving a Greater Cause I",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 5 guildhests.",
+        reward: "",
     }, {
-        description: "Complete 10 guildhests.",
         name: "Serving a Greater Cause II",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 10 guildhests.",
+        reward: "",
     }, {
-        description: "Complete 20 guildhests.",
         name: "Serving a Greater Cause III",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 20 guildhests.",
+        reward: "",
     }, {
-        description: "Complete 30 guildhests.",
         name: "Serving a Greater Cause IV",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 30 guildhests.",
+        reward: "",
     }, {
-        description: "Complete 50 guildhests.",
         name: "Serving a Greater Cause V",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 50 guildhests.",
+        reward: "",
     }, {
-        description: "Complete 100 guildhests.",
         name: "Serving a Greater Cause VI",
-        points: 10,
-        reward: "Title: The Last Resort"
+        points: "10",
+        task: "Complete 100 guildhests.",
+        reward: "Title: The Last Resort",
     }, {
-        description: "Complete 200 guildhests.",
         name: "Enraptured Servitude",
-        points: 20,
-        reward: "-"
+        points: "20",
+        task: "Complete 200 guildhests.",
+        reward: "",
     }, {
-        description: "Complete one regional battlecraft levequest at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
-        name: "Around the Realm and Back Again",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Bearded Rock.",
-        name: "I Survived Camp Bearded Rock",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Cedarwood.",
-        name: "I Survived Cedarwood",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Skull Valley.",
-        name: "I Survived Camp Skull Valley",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Bald Knoll.",
-        name: "I Survived Camp Bald Knoll",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Bloodshore.",
-        name: "I Survived Camp Bloodshore",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Cassiopeia Hollow.",
-        name: "I Survived Cassiopeia Hollow",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Iron Lake.",
-        name: "I Survived Camp Iron Lake",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in La Noscea.",
-        name: "And All I Got Was This Lousy Achievement: La Noscea",
-        points: 10,
-        reward: "Title: The Sword of La Noscea"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Bentbranch.",
-        name: "I Survived Camp Bentbranch",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Humblehearth.",
-        name: "I Survived Humblehearth",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Nine Ivies.",
-        name: "I Survived Camp Nine Ivies",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Emerald Moss.",
-        name: "I Survived Camp Emerald Moss",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Treespeak.",
-        name: "I Survived Treespeak",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in the Mun\u2013Tuy Cellars.",
-        name: "I Survived the Mun-Tuy Cellars",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Tranquil.",
-        name: "I Survived Camp Tranquil",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in the Black Shroud.",
-        name: "And All I Got Was This Lousy Achievement: Black Shroud",
-        points: 10,
-        reward: "Title: The Sword of the Shroud"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Black Brush.",
-        name: "I Survived Camp Black Brush",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in the Nanawa Mines.",
-        name: "I Survived the Nanawa Mines",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Drybone.",
-        name: "I Survived Camp Drybone",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Halatali.",
-        name: "I Survived Halatali",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Horizon.",
-        name: "I Survived Camp Horizon",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating in Nophica's Wells.",
-        name: "I Survived Nophica's Wells",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests originating at Camp Broken Water.",
-        name: "I Survived Camp Broken Water",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in Thanalan.",
-        name: "And All I Got Was This Lousy Achievement: Thanalan",
-        points: 10,
-        reward: "Title: The Sword of Thanalan"
-    }, {
-        description: "Complete 20 regional battlecraft levequests at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
-        name: "Globetrotter",
-        points: 20,
-        reward: "Title: The Sword of Eorzea"
-    }, {
-        description: "Complete one behest at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
-        name: "At the Realm's Behest",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Bearded Rock.",
-        name: "To Serve and Protect: Camp Bearded Rock",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Cedarwood.",
-        name: "To Serve and Protect: Cedarwood",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Skull Valley.",
-        name: "To Serve and Protect: Camp Skull Valley",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Bald Knoll.",
-        name: "To Serve and Protect: Camp Bald Knoll",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Bloodshore.",
-        name: "To Serve and Protect: Camp Bloodshore",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Cassiopeia Hollow.",
-        name: "To Serve and Protect: Cassiopeia Hollow",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Iron Lake.",
-        name: "To Serve and Protect: Camp Iron Lake",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at each aetheryte camp and aetherial gate in La Noscea.",
-        name: "La Noscea Got Served...and Protected",
-        points: 10,
-        reward: "Title: The Shield of La Noscea"
-    }, {
-        description: "Complete 10 behests at Camp Bentbranch.",
-        name: "To Serve and Protect: Camp Bentbranch",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Humblehearth.",
-        name: "To Serve and Protect: Humblehearth",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Nine Ivies.",
-        name: "To Serve and Protect: Camp Nine Ivies",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Emerald Moss.",
-        name: "To Serve and Protect: Camp Emerald Moss",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Treespeak.",
-        name: "To Serve and Protect: Treespeak",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in the Mun\u2013Tuy Cellars.",
-        name: "To Serve and Protect: Mun-Tuy Cellars",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Tranquil.",
-        name: "To Serve and Protect: Camp Tranquil",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at each aetheryte camp and aetherial gate in the Black Shroud.",
-        name: "The Black Shroud Got Served...and Protected",
-        points: 10,
-        reward: "Title: The Shield of the Shroud"
-    }, {
-        description: "Complete 10 behests at Camp Black Brush.",
-        name: "To Serve and Protect: Camp Black Brush",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in the Nanawa Mines.",
-        name: "To Serve and Protect: Nanawa Silvermines",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Drybone.",
-        name: "To Serve and Protect: Camp Drybone",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Halatali.",
-        name: "To Serve and Protect: Halatali",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Horizon.",
-        name: "To Serve and Protect: Camp Horizon",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests in Nophica's Wells.",
-        name: "To Serve and Protect: Nophica's Wells",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at Camp Broken Water.",
-        name: "To Serve and Protect: Camp Broken Water",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 behests at each aetheryte camp and aetherial gate in Thanalan.",
-        name: "Thanalan Got Served...and Protected",
-        points: 10,
-        reward: "Title: The Shield of Thanalan"
-    }, {
-        description: "Complete 10 behests at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
-        name: "Eorzea Got Served...and Protected",
-        points: 20,
-        reward: "Title: The Shield of Eorzea"
-    }, {
-        description: "Complete 10 faction levequests for the Brotherhood of the Broken Blade.",
-        name: "Leaning Towards the Brotherhood",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 faction levequests for the Brotherhood of the Broken Blade.",
-        name: "Love Thy Brother",
-        points: 10,
-        reward: "Title: Brother of the Broken Blade"
-    }, {
-        description: "Complete 10 faction levequests for Azeyma's Shields.",
-        name: "Leaning Towards the Shield",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 faction levequests for Azeyma's Shields.",
-        name: "Another Brick in the Shield Wall",
-        points: 10,
-        reward: "Title: The Warden's Wall"
-    }, {
-        description: "Complete 10 faction levequests for the Horn and Hand.",
-        name: "Leaning Towards the Horn",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 faction levequests for the Horn and Hand.",
-        name: "A Helping Horn",
-        points: 10,
-        reward: "Title: Bearer of the Horn"
-    }, {
-        description: "Complete 50 faction levequests each for the Brotherhood of the Broken Blade, Azeyma's Shields, and the Horn and Hand.",
-        name: "Commitment Issues",
-        points: 20,
-        reward: "Title: The Uncommitted"
-    }, {
-        description: "Complete the paladin job quest \u201cKeeping the Oath.\u201d",
-        name: "Like a Knight in Shining Armor I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the monk job quest \u201cFive Easy Pieces.\u201d",
-        name: "Bulletproof I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the warrior job quest \u201cHow to Quit You.\u201d",
-        name: "I Am the Warrior I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the dragoon job quest \u201cInto the Dragon's Maw.\u201d",
-        name: "Dragoon Age I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the bard job quest \u201cRequiem for the Fallen.\u201d",
-        name: "A Bard's Tale I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the white mage job quest \u201cHeart of the Forest.\u201d",
-        name: "Seeing White I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the black mage job quest \u201cAlways Bet on Black.\u201d",
-        name: "Back in Black I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Obtain the following seven achievements: \u201cLike a Knight in Shining Armor,\u201d \u201cBulletproof,\u201d \u201cI Am the Warrior,\u201d Dragoon Age,\u201c \u201dA Bard's Tale,\u201c \u201dSeeing White,\u201c and \u201dBack in Black.\u201c",
-        name: "Career Opportunities",
-        points: 20,
-        reward: "Title: The Professional"
-    }, {
-        description: "Complete the entire scenario centered around Dalamud and the Empire's Meteor project.",
-        name: "Once in a Lifetime",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Defeat 11th Order Patriarch Gu Bu during the Battle for Aleport.",
-        name: "Patricide",
-        points: 5,
-        reward: "Title: Inquisitor"
-    }, {
-        description: "Defeat Sazel Ciloc the Divine during the Battle for Hyrstmill.",
-        name: "To Kill a Mocking Bird",
-        points: 5,
-        reward: "Title: Divine Crusher"
-    }, {
-        description: "Defeat Stonespike Tanadd Gah during the battle for the Golden Bazaar.",
-        name: "Pounding the Spike",
-        points: 5,
-        reward: "Title: Stonesplitter"
-    }, {
-        description: "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
-        name: "An Eye on the Ale I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
-        name: "An Eye on the Ale II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
-        name: "An Eye on the Ale III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
-        name: "An Eye on the Ale IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
-        name: "First Blood: Aleport",
-        points: 10,
-        reward: "Title: A Kobold's Worst Nightmare"
-    }, {
-        description: "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
-        name: "An Eye on the Trees I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
-        name: "An Eye on the Trees II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
-        name: "An Eye on the Trees III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
-        name: "An Eye on the Trees IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
-        name: "First Blood: Hyrstmill",
-        points: 10,
-        reward: "Title: An Ixal's Worst Nightmare"
-    }, {
-        description: "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
-        name: "An Eye on the Gold I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
-        name: "An Eye on the Gold II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
-        name: "An Eye on the Gold III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
-        name: "An Eye on the Gold IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
-        name: "First Blood: Golden Bazaar",
-        points: 10,
-        reward: "Title: An Amalj'aa's Worst Nightmare"
-    }, {
-        description: "Defend Aleport from invading kobold forces 5 times.",
-        name: "Holding the Hamlet: Aleport I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Aleport from invading kobold forces 10 times.",
-        name: "Holding the Hamlet: Aleport II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Aleport from invading kobold forces 50 times.",
-        name: "Holding the Hamlet: Aleport III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Aleport from invading kobold forces 100 times.",
-        name: "Holding the Hamlet: Aleport IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Aleport from invading kobold forces 1,000 times.",
-        name: "To Be or Not to Be the Guardian of Aleport",
-        points: 10,
-        reward: "Title: The Guardian of Aleport"
-    }, {
-        description: "Defend Hyrstmill from invading Ixali forces 5 times.",
-        name: "Holding the Hamlet: Hyrstmill I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Hyrstmill from invading Ixali forces 10 times.",
-        name: "Holding the Hamlet: Hyrstmill II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Hyrstmill from invading Ixali forces 50 times.",
-        name: "Holding the Hamlet: Hyrstmill III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Hyrstmill from invading Ixali forces 100 times.",
-        name: "Holding the Hamlet: Hyrstmill IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend Hyrstmill from invading Ixali forces 1,000 times.",
-        name: "To Be or Not to Be the Guardian of Hyrstmill",
-        points: 10,
-        reward: "Title: The Guardian of Hyrstmill"
-    }, {
-        description: "Defend the Golden Bazaar from invading Amalj'aa forces 5 times.",
-        name: "Holding the Hamlet: Golden Bazaar I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend the Golden Bazaar from invading Amalj'aa forces 10 times.",
-        name: "Holding the Hamlet: Golden Bazaar II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend the Golden Bazaar from invading Amalj'aa forces 50 times.",
-        name: "Holding the Hamlet: Golden Bazaar III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend the Golden Bazaar from invading Amalj'aa forces 100 times.",
-        name: "Holding the Hamlet: Golden Bazaar IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Defend the Golden Bazaar from invading Amalj'aa forces 1,000 times.",
-        name: "To Be or Not to Be the Guardian of the Golden Bazaar",
-        points: 10,
-        reward: "Title: The Guardian of the Golden Bazaar"
-    }, {
-        description: "Procure and submit supplies 10 times during the Battle for Aleport.",
-        name: "Helping the Hamlet: Aleport I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 100 times during the Battle for Aleport.",
-        name: "Helping the Hamlet: Aleport II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 500 times during the Battle for Aleport.",
-        name: "Helping the Hamlet: Aleport III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 1,000 times during the Battle for Aleport.",
-        name: "Helping the Hamlet: Aleport IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 10,000 times during the Battle for Aleport.",
-        name: "To Be or Not to Be the Wind of Aleport",
-        points: 10,
-        reward: "Title: The Wind of Aleport"
-    }, {
-        description: "Procure and submit supplies 10 times during the Battle for Hyrstmill.",
-        name: "Helping the Hamlet: Hyrstmill I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 100 times during the Battle for Hyrstmill.",
-        name: "Helping the Hamlet: Hyrstmill II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 500 times during the Battle for Hyrstmill.",
-        name: "Helping the Hamlet: Hyrstmill III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 1,000 times during the Battle for Hyrstmill.",
-        name: "Helping the Hamlet: Hyrstmill IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 10,000 times during the Battle for Hyrstmill.",
-        name: "To Be or Not to Be the Wind of Hyrstmill",
-        points: 10,
-        reward: "Title: The Wind of Hyrstmill"
-    }, {
-        description: "Procure and submit supplies 10 times during the Battle for the Golden Bazaar.",
-        name: "Helping the Hamlet: Golden Bazaar I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 100 times during the Battle for the Golden Bazaar.",
-        name: "Helping the Hamlet: Golden Bazaar II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 500 times during the Battle for the Golden Bazaar.",
-        name: "Helping the Hamlet: Golden Bazaar III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 1,000 times during the Battle for the Golden Bazaar.",
-        name: "Helping the Hamlet: Golden Bazaar IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Procure and submit supplies 10,000 times during the Battle for the Golden Bazaar.",
-        name: "To Be or Not to Be the Wind of the Golden Bazaar",
-        points: 10,
-        reward: "Title: The Wind of the Golden Bazaar"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10 times during the Battle for Aleport.",
-        name: "Habiting the Hamlet: Aleport I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 100 times during the Battle for Aleport.",
-        name: "Habiting the Hamlet: Aleport II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 500 times during the Battle for Aleport.",
-        name: "Habiting the Hamlet: Aleport III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 1,000 times during the Battle for Aleport.",
-        name: "Habiting the Hamlet: Aleport IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10,000 times during the Battle for Aleport.",
-        name: "To Be or Not to Be the Hand of Aleport",
-        points: 10,
-        reward: "Title: The Hand of Aleport"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10 times during the Battle for Hyrstmill.",
-        name: "Habiting the Hamlet: Hyrstmill I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 100 times during the Battle for Hyrstmill.",
-        name: "Habiting the Hamlet: Hyrstmill II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 500 times during the Battle for Hyrstmill.",
-        name: "Habiting the Hamlet: Hyrstmill III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 1,000 times during the Battle for Hyrstmill.",
-        name: "Habiting the Hamlet: Hyrstmill IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10,000 times during the Battle for Hyrstmill.",
-        name: "To Be or Not to Be the Hand of Hyrstmill",
-        points: 10,
-        reward: "Title: The Hand of Hyrstmill"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10 times during the Battle for the Golden Bazaar.",
-        name: "Habiting the Hamlet: Golden Bazaar I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 100 times during the Battle for the Golden Bazaar.",
-        name: "Habiting the Hamlet: Golden Bazaar II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 500 times during the Battle for the Golden Bazaar.",
-        name: "Habiting the Hamlet: Golden Bazaar III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 1,000 times during the Battle for the Golden Bazaar.",
-        name: "Habiting the Hamlet: Golden Bazaar IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Craft and submit materia-augmented equipment 10,000 times during the Battle for the Golden Bazaar.",
-        name: "To Be or Not to Be the Hand of the Golden Bazaar",
-        points: 10,
-        reward: "Title: The Hand of the Golden Bazaar"
-    }, {
-        description: "Emerge victorious in the Battle for Aleport without the assistance of any Disciples of the Land or Hand.",
-        name: "Leave Your Hammer at Home: Aleport",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for Hyrstmill without the assistance of any Disciples of the Land or Hand.",
-        name: "Leave Your Hammer at Home: Hyrstmill",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for the Golden Bazaar without the assistance of any Disciples of the Land or Hand.",
-        name: "Leave Your Hammer at Home: Golden Bazaar",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for Aleport without the assistance of any Disciples of War or Magic.",
-        name: "Make Stuff, Not War: Aleport",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for Hyrstmill without the assistance of any Disciples of War or Magic.",
-        name: "Make Stuff, Not War: Hyrstmill",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for the Golden Bazaar without the assistance of any Disciples of War or Magic.",
-        name: "Make Stuff, Not War: Golden Bazaar",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Emerge victorious in the Battle for Aleport, the Battle for Hyrstmill, and the Battle for the Golden Bazaar.",
-        name: "Looking Out for the Little People",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the summoner job quest \u201cPrimal Burdens.\u201d",
-        name: "Soul Summoner I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete the scholar job quest \u201cThe Beast Within.\u201d",
-        name: "Flying Colors I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 10 fieldcraft levequests.",
-        name: "In the Outfield I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 fieldcraft levequests.",
-        name: "In the Outfield II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 fieldcraft levequests.",
-        name: "In the Outfield III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 100 fieldcraft levequests.",
-        name: "In the Outfield IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 200 fieldcraft levequests.",
-        name: "In the Outfield V",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 500 fieldcraft levequests.",
-        name: "In the Outfield VI",
-        points: 10,
-        reward: "Title: The Reaper"
-    }, {
-        description: "Complete 1,000 fieldcraft levequests.",
-        name: "Field of Dreams",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 10 unique battlecraft levequests.",
-        name: "Uphill Battle I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 50 unique battlecraft levequests.",
-        name: "Uphill Battle II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique battlecraft levequests.",
-        name: "Uphill Battle III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique carpenter levequests.",
-        name: "With Saw in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique carpenter levequests.",
-        name: "With Saw in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique carpenter levequests.",
-        name: "With Saw in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique blacksmith levequests.",
-        name: "With Hammer in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique blacksmith levequests.",
-        name: "With Hammer in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique blacksmith levequests.",
-        name: "With Hammer in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique armorer levequests.",
-        name: "With Steel in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique armorer levequests.",
-        name: "With Steel in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique armorer levequests.",
-        name: "With Steel in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique goldsmith levequests.",
-        name: "With Gem in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique goldsmith levequests.",
-        name: "With Gem in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique goldsmith levequests.",
-        name: "With Gem in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique leatherworker levequests.",
-        name: "With Skin in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique leatherworker levequests.",
-        name: "With Skin in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique leatherworker levequests.",
-        name: "With Skin in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique weaver levequests.",
-        name: "With Needle in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique weaver levequests.",
-        name: "With Needle in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique weaver levequests.",
-        name: "With Needle in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique alchemist levequests.",
-        name: "With Pestle in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique alchemist levequests.",
-        name: "With Pestle in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique alchemist levequests.",
-        name: "With Pestle in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique culinarian levequests.",
-        name: "With Pan in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique culinarian levequests.",
-        name: "With Pan in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique culinarian levequests.",
-        name: "With Pan in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique miner levequests.",
-        name: "With Pick in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique miner levequests.",
-        name: "With Pick in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique miner levequests.",
-        name: "With Pick in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique botanist levequests.",
-        name: "With Axe in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique botanist levequests.",
-        name: "With Axe in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique botanist levequests.",
-        name: "With Axe in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 5 unique fisher levequests.",
-        name: "With Bait in Hand I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 20 unique fisher levequests.",
-        name: "With Bait in Hand II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 40 unique fisher levequests.",
-        name: "With Bait in Hand III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 3 unique guildhests.",
         name: "Father Knows Hest I",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 3 unique guildhests.",
+        reward: "",
     }, {
-        description: "Complete 7 unique guildhests.",
         name: "Father Knows Hest II",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 7 unique guildhests.",
+        reward: "",
     }, {
-        description: "Complete 14 unique guildhests.",
         name: "Father Knows Hest III",
-        points: 10,
-        reward: "-"
+        points: "10",
+        task: "Complete 14 unique guildhests.",
+        reward: "",
     }, {
-        description: "Complete the main scenario quest \u201cBack from the Wood.\u201d",
+        name: "The Greatest Tales Ever Told",
+        points: "20",
+        task: "Complete all the class quests available at level 30.",
+        reward: "Chronicler's Crown",
+    }, {
+        name: "Tales of Magic",
+        points: "10",
+        task: "Complete all the Disciple of Magic quests available at level 30.",
+        reward: "Title: Seeker of Truth",
+    }, {
+        name: "Tales of the Land",
+        points: "10",
+        task: "Complete all the Disciple of the Land quests available at level 30.",
+        reward: "Title: Seeker of Bounty",
+    }, {
+        name: "Tales of the Hand",
+        points: "10",
+        task: "Complete all the Disciple of the Hand quests available at level 30.",
+        reward: "Title: Seeker of Skill",
+    }, {
+        name: "Tales of War",
+        points: "10",
+        task: "Complete all the Disciple of War quests available at level 30.",
+        reward: "Title: Seeker of Blood",
+    }, {
+        name: "Career Opportunities",
+        points: "20",
+        task: "Obtain the following seven achievements: \"Like a Knight in Shining Armor I,\" \"Bulletproof I,\" \"I Am the Warrior I,\" Dragoon Age I,\" \"A Bard's Tale I,\" \"Seeing White I,\" and \"Back in Black I.\"",
+        reward: "Title: The Professional",
+    }, {
+        name: "Anima Crossing",
+        points: "20",
+        task: "Complete the quest \"Coming into Its Own.\"",
+        reward: "Title: The Noumenon",
+    }, {
+        name: "What's Nexus",
+        points: "10",
+        task: "Complete the quest \"His Dark Materia.\"",
+        reward: "",
+    }, {
+        name: "Walking on Sunshine",
+        points: "10",
+        task: "Complete the quest \"I Believe I Can Fly.\"",
+        reward: "Title: Lighter than Air",
+    }, {
+        name: "This One Time, at Level Thirty...",
+        points: "5",
+        task: "Complete any one of the Disciple of War or Magic class quests available at level 30.",
+        reward: "",
+    }, {
         name: "Back from the Wood",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete the main scenario quest \"Back from the Wood.\"",
+        reward: "",
     }, {
-        description: "Complete the main scenario quest \u201cSkeletons in Her Closet.\u201d",
         name: "Skeletons",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete the main scenario quest \"Skeletons in Her Closet.\"",
+        reward: "",
     }, {
-        description: "Complete the main scenario quest \u201cAll Good Things.\u201d",
         name: "Those Who Wait",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete the main scenario quest \"All Good Things.\"",
+        reward: "",
     }, {
-        description: "Complete the main scenario quest \u201cIn Pursuit of the Past.\u201d",
         name: "History Repeating",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete the main scenario quest \"In Pursuit of the Past.\"",
+        reward: "",
     }, {
-        description: "Complete the main scenario quest \u201cLady of the Vortex.\u201d",
-        name: "Free Wing Night",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete all the main scenario quests.",
-        name: "Warrior of Light",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 10 unique quests.",
         name: "Storyteller I",
-        points: 5,
-        reward: "-"
+        points: "5",
+        task: "Complete 10 unique quests.",
+        reward: "",
     }, {
-        description: "Complete 30 unique quests.",
+        name: "Free Wing Night",
+        points: "10",
+        task: "Complete the main scenario quest \"Lady of the Vortex.\"",
+        reward: "",
+    }, {
         name: "Storyteller II",
-        points: 10,
-        reward: "-"
+        points: "10",
+        task: "Complete 30 unique quests.",
+        reward: "",
     }, {
-        description: "Complete 100 unique quests.",
-        name: "Storyteller III",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Attain rank 2 reputation (recognized) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the Brotherhood of Ash.",
-        name: "You Bet Your Ash III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Attain rank 4 reputation (trusted) with the Brotherhood of Ash.",
-        name: "A Real Bad Ash",
-        points: 20,
-        reward: "Title: Brother of Ash"
-    }, {
-        description: "Attain rank 1 reputation (neutral) with the sylphs of Little Solace.",
-        name: "Sylph-conscious I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Attain rank 2 reputation (recognized) with the sylphs of Little Solace.",
-        name: "Sylph-conscious II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Attain rank 3 reputation (friendly) with the sylphs of Little Solace.",
-        name: "Sylph-conscious III",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Attain rank 4 reputation (trusted) with the sylphs of Little Solace.",
-        name: "Sylph-assured",
-        points: 20,
-        reward: "Title: Sylph-Friend"
-    }, {
-        description: "Complete the main scenario quest \u201cBuild on the Stone.\u201d",
-        name: "A Realm Awoken",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete the main scenario quest \u201cThrough the Maelstrom.\u201d",
-        name: "Through the Maelstrom",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete the quest \u201cAlisaie's Pledge.\u201d",
         name: "The Truth Is Down There",
-        points: 10,
-        reward: "-"
+        points: "10",
+        task: "Complete the quest \"Alisaie's Pledge.\"",
+        reward: "",
     }, {
-        description: "Complete the quest \u201cAlisaie's Resolve.\u201d",
-        name: "You Can Handle the Truth",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete the quest \u201cThe Beast of Brewer's Beacon.\u201d",
         name: "I Like Big Fish and I Cannot Lie",
-        points: 10,
-        reward: "Title: The Ambitious Angler"
+        points: "10",
+        task: "Complete the quest \"The Beast of Brewer's Beacon.\"",
+        reward: "Title: The Ambitious Angler",
     }, {
-        description: "Attain rank 1 reputation (neutral) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold I",
-        points: 5,
-        reward: "-"
+        name: "The Postmoogle Always Rings Twice",
+        points: "10",
+        task: "Complete the quest \"Of Errant Epistles.\"",
+        reward: "Title: The Postman/Postwoman",
     }, {
-        description: "Attain rank 2 reputation (recognized) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold II",
-        points: 5,
-        reward: "-"
+        name: "The Rest of the Story",
+        points: "10",
+        task: "Complete the quest \"The Greatest Story Never Told.\"",
+        reward: "",
     }, {
-        description: "Attain rank 3 reputation (friendly) with the 789th Order kobolds.",
-        name: "Fortune Favors the Kobold III",
-        points: 10,
-        reward: "-"
+        name: "Postal",
+        points: "10",
+        task: "Complete the quest \"The Little Postmoogle that Could.\"",
+        reward: "Title: Postmaster",
     }, {
-        description: "Attain rank 4 reputation (trusted) with the 789th Order kobolds.",
-        name: "Kobold as Brass",
-        points: 20,
-        reward: "Title: 789th Order Champion"
-    }
+        name: "Awake the Metal",
+        points: "10",
+        task: "Complete the quest \"Enigma.\"",
+        reward: "Title: Illuminati Quencher",
+    }, {
+        name: "The War Still Wageth On",
+        points: "20",
+        task: "Complete the quests \"Thok Around the Clock\" and \"The Diabolical Bismarck.\"",
+        reward: "Title: Finder of False Gods",
+    }, {
+        name: "So it Goes",
+        points: "10",
+        task: "Complete the quest \"As Goes Light, So Goes Darkness.\"",
+        reward: "Title: House Fortemps Knight",
+    }, {
+        name: "Paying the Bills",
+        points: "10",
+        task: "Complete the quest \"To Rule the Skies.\"",
+        reward: "Title: Sky Pirate",
+    }, {
+        name: "Back to School I",
+        points: "10",
+        task: "Complete the quest \"More than Meets Her Eye.\"",
+        reward: "Title: Special Advisor",
+    }, {
+        name: "First Gear",
+        points: "10",
+        task: "Complete the quest \"Causes and Costs.\"",
+        reward: "Title: The Gear of Change",
+    }, {
+        name: "The Midas Touch",
+        points: "10",
+        task: "Complete the quest \"A Gob in the Machine.\"",
+        reward: "Title: Allthoughts",
+    }, {
+        name: "I'll Sleep When I'm Dead",
+        points: "10",
+        task: "Complete the quest \"The Nightmare's End.\"",
+        reward: "Title: The Chief Mourner",
+    }, {
+        name: "Floor the Horde",
+        points: "10",
+        task: "Complete the quest \"Litany of Peace.\"",
+        reward: "Title: The Dragonsong",
+    }, {
+        name: "On the Road Again",
+        points: "10",
+        task: "Complete the quest \"The Burdens We Bear.\"",
+        reward: "",
+    }, {
+        name: "Back to School II",
+        points: "10",
+        task: "Complete the quest \"Finding Ulaa.\"",
+        reward: "",
+    }, {
+        name: "Back in Time",
+        points: "10",
+        task: "Complete the quest \"Of Endings and Beginnings.\"",
+        reward: "Title: The Wings of Time",
+    }, {
+        name: "No Retreat, No Surrender",
+        points: "10",
+        task: "Complete the quest \"An Ending to Mark a New Beginning.\"",
+        reward: "Title: Surrender of Souls",
+    }, {
+        name: "Dead Tired",
+        points: "10",
+        task: "Complete the quest \"Dead but Not Gone.\"",
+        reward: "Title: Corpse Dancer",
+    }, {
+        name: "School's Out Forever",
+        points: "10",
+        task: "Complete the quest \"Louisoix's Finest Student.\"",
+        reward: "Title: The Finest Pupil's Ally",
+    }, {
+        name: "Five Minutes of Fate",
+        points: "10",
+        task: "Complete the quest \"The Far Edge of Fate.\"",
+        reward: "Title: Fatewalker",
+    }, {
+        name: "Back to School III",
+        points: "10",
+        task: "Complete the quest \"The Life and Lies of Father Saturnois.\"",
+        reward: "Title: Of the Holy Body",
+    }, {
+        name: "That is What You Are",
+        points: "10",
+        task: "Complete the quest \"If I Could Turn Back Time.\"",
+        reward: "Title: Gigi's Best Friend",
+    }, {
+        name: "Good Night, Sweet Hildy",
+        points: "10",
+        task: "Complete the quest \"Don't Do the Dewprism.\"",
+        reward: "Title: Soboro",
+    }, {
+        name: "Delta Force",
+        points: "10",
+        task: "Complete the quest \"The Anonaly.\"",
+        reward: "Title: Deltascape Deleter",
+    }, {
+        name: "Warrior of Light",
+        points: "20",
+        task: "Complete all the main scenario quests.",
+        reward: "",
+    }, {
+        name: "Storyteller III",
+        points: "20",
+        task: "Complete 100 unique quests.",
+        reward: "",
+    }, {
+        name: "A Realm Awoken",
+        points: "20",
+        task: "Complete the main scenario quest \"Build on the Stone.\"",
+        reward: "",
+    }, {
+        name: "Through the Maelstrom",
+        points: "20",
+        task: "Complete the main scenario quest \"Through the Maelstrom.\"",
+        reward: "",
+    }, {
+        name: "You Can Handle the Truth",
+        points: "20",
+        task: "Complete the quest \"Alisaie's Resolve.\"",
+        reward: "",
+    }, {
+        name: "Eorzea Defended",
+        points: "20",
+        task: "Complete the quest \"Brave New Companions.\"",
+        reward: "Title: Defender of Eorzea",
+    }, {
+        name: "Dreams of Ice",
+        points: "20",
+        task: "Complete the quest \"Let Us Cling Together.\"",
+        reward: "Title: Icebreaker",
+    }, {
+        name: "Uncoiled",
+        points: "20",
+        task: "Complete the quest \"Alisaie's Path.\"",
+        reward: "Title: The Final Witness",
+    }, {
+        name: "Out of the Dark",
+        points: "20",
+        task: "Complete the quest \"The Light of Hope.\"",
+        reward: "Title: Of the Silver Lining",
+    }, {
+        name: "I'll Be There for You",
+        points: "20",
+        task: "Complete the quest \"Her Last Vow.\"",
+        reward: "Title: Gentleman/Gentlewoman",
+    }, {
+        name: "Home of the Brave",
+        points: "20",
+        task: "Complete the quest \"The Vital Title.\"",
+        reward: "",
+    }, {
+        name: "My Left Arm",
+        points: "20",
+        task: "Complete the quest \"Before the Dawn.\"",
+        reward: "Title: Bearer of the Torch",
+    }, {
+        name: "Lucky Number 7",
+        points: "20",
+        task: "Complete the quest \"Disclosure.\"",
+        reward: "Title: Unbeliever",
+    }, {
+        name: "Gaol Break",
+        points: "20",
+        task: "Complete the quest \"Keeping the Flame Alive.\"",
+        reward: "Title: The Redeemed",
+    }, {
+        name: "Orthodox Mayhem",
+        points: "20",
+        task: "Complete the quest \"Unrest in Ishgard.\"",
+        reward: "Title: Nidhogg Slayer",
+    }, {
+        name: "You Say You Want a Revolution",
+        points: "20",
+        task: "Complete the quest \"The Sins of Antiquity.\"",
+        reward: "Title: Of the Silver Fuller",
+    }, {
+        name: "The Faith that Drives Us",
+        points: "20",
+        task: "Complete the quest \"One Good Turn.\"",
+        reward: "Title: Imperial Nuisance",
+    }, {
+        name: "Hope Enkindled",
+        points: "20",
+        task: "Complete the quest \"Hour of Departure.\"",
+        reward: "Title: Under-archon",
+    }, {
+        name: "Looking Up",
+        points: "20",
+        task: "Complete the quest \"Heavensward.\"",
+        reward: "Title: The End of Ascalon",
+    }, {
+        name: "Incidentally Speaking",
+        points: "20",
+        task: "Complete the quest \"Not Without Incident.\"",
+        reward: "Title: Survivor of the Song",
+    }, {
+        name: "Destination Unknown",
+        points: "20",
+        task: "Complete the quest \"Once More, To the Ruby See.\"",
+        reward: "Title: Ijin Traveller",
+    }, {
+        name: "Unexplained",
+        points: "20",
+        task: "Complete the quest \"Tide Goes In, Imperials Go Out.\"",
+        reward: "Title: Confederate",
+    }, {
+        name: "Put Your Wings Up",
+        points: "20",
+        task: "Complete the quest \"All the Little Angels.\"",
+        reward: "Title: Adversary",
+    }, {
+        name: "Crimson Footprints",
+        points: "20",
+        task: "Complete the quest \"In Crimson They Walked.\"",
+        reward: "Title: Steppe Warrior",
+    }, {
+        name: "Catch Me if You Can",
+        points: "20",
+        task: "Complete the quest \"A Swift and Secret Departure.\"",
+        reward: "Title: The Returned",
+    }, {
+        name: "Cheek to Cheek",
+        points: "20",
+        task: "Complete the quest \"The Lady in Red.\"",
+        reward: "Title: Lyse's Right Fist",
+    }, {
+        name: "The Measure of His Reach",
+        points: "20",
+        task: "Complete the quest \"Stormblood.\"",
+        reward: "Title: The Liberator",
+    }, {
+        name: "More Heroes",
+        points: "20",
+        task: "Complete the quest \"Return of the Bull.\"",
+        reward: "Title: Raubahn's Left Arm",
+    }, {
+        name: "Solar Cycle",
+        points: "20",
+        task: "Complete the quest \"Rise of a New Sun.\"",
+        reward: "Title: The New Sun",
+    }, {
+        name: "Lunar Cycle",
+        points: "20",
+        task: "Complete the quest \"Under the Moonlight.\"",
+        reward: "Title: Under the Moonlight",
+    }, {
+        name: "Imagine Dragon",
+        points: "30",
+        task: "Complete the quest \"Feast of Famine.\"",
+        reward: "Title: Of Dragons Deep",
+    }, {
+        name: "A History of Violet",
+        points: "20",
+        task: "Complete the main quest \"Prelude in Violet\"",
+        reward: "Title: Preluse in Violet",
+    }, {
+        name: "Swan Song",
+        points: "20",
+        task: "Complete the quest \"A Requiem for Heroes.\"",
+        reward: "Title: A Requiem For Heroes",
+    }, {
+        name: "Between Two Worlds",
+        points: "20",
+        task: "Complete the quest \"Warrior of Darkness.\"",
+        reward: "Title: Outlander",
+    }, {
+        name: "Realpolitik",
+        points: "20",
+        task: "Complete the quest \"The Wheel Turns.\"",
+        reward: "Title: The Fae-touched",
+    }, {
+        name: "Journey to the Past",
+        points: "20",
+        task: "Complete the quest \"Out of the Wood.\"",
+        reward: "Title: Seeker of Hidden Truths",
+    }, {
+        name: "Shrouded in Darkness",
+        points: "20",
+        task: "Complete the quest \"More than a Hunch.\"",
+        reward: "Title: Of the Sunless Sea",
+    }, {
+        name: "Warden of Light",
+        points: "20",
+        task: "Complete the quest \"Extinguishing the Last Light.\"",
+        reward: "Title: Enemy of Innocence",
+    }, {
+        name: "Shadowbringers",
+        points: "20",
+        task: "Complete the quest \"Shadowbringers.\"",
+        reward: "Title: Shadowbringer",
+    }, {
+        name: "Black and White",
+        points: "20",
+        task: "Complete the quest \"Vows of Virtue, Deeds of Cruelty.\"",
+        reward: "Title: Of Virtuous Deeds",
+    }, {
+        name: "Like a Knight in Shining Armor I",
+        points: "5",
+        task: "Complete the paladin job quest \"Keeping the Oath.\"",
+        reward: "",
+    }, {
+        name: "Like a Knight in Shining Armor II",
+        points: "5",
+        task: "Complete the paladin job quest \"This Little Sword of Mine.\"",
+        reward: "Title: The Oathkeeper",
+    }, {
+        name: "Like a Knight in Shining Armor III",
+        points: "5",
+        task: "Complete the paladin job quest \"Raising the Sword.\"",
+        reward: "Title: UI Cup Champion",
+    }, {
+        name: "Like a Knight in Shining Armor IV",
+        points: "5",
+        task: "Complete the paladin job quest \"Worth Fighting For.\"",
+        reward: "Title: Bulwark Between Worlds",
+    }, {
+        name: "Bulletproof I",
+        points: "5",
+        task: "Complete the monk job quest \"Five Easy Pieces.\"",
+        reward: "",
+    }, {
+        name: "Bulletproof II",
+        points: "5",
+        task: "Complete the monk job quest \"Appetite for Destruction.\"",
+        reward: "Title: Of the 14th Chakra",
+    }, {
+        name: "Bulletproof III",
+        points: "5",
+        task: "Complete the monk job quest \"The Power to Protect.\"",
+        reward: "Title: The Fistful",
+    }, {
+        name: "Bulletproof IV",
+        points: "5",
+        task: "Complete the monk job quest \"A Monk's Legacy.\"",
+        reward: "Title: The Transcendent",
+    }, {
+        name: "I Am the Warrior I",
+        points: "5",
+        task: "Complete the warrior job quest \"How to Quit You.\"",
+        reward: "",
+    }, {
+        name: "I Am the Warrior II",
+        points: "5",
+        task: "Complete the warrior job quest \"And My Axe.\"",
+        reward: "Title: The Mythril Heart",
+    }, {
+        name: "I Am the Warrior III",
+        points: "5",
+        task: "Complete the warrior job quest \"The Heart of the Problem.\"",
+        reward: "Title: Loved by the Axe",
+    }, {
+        name: "I Am the Warrior IV",
+        points: "5",
+        task: "Complete the warrior job quest \"Once, Twice, Three Times a Warrior.\"",
+        reward: "Title: Worldcleaver",
+    }, {
+        name: "Dragoon Age I",
+        points: "5",
+        task: "Complete the dragoon job quest \"Into the Dragon's Maw.\"",
+        reward: "",
+    }, {
+        name: "Dragoon Age II",
+        points: "5",
+        task: "Complete the dragoon job quest \"Dragoon's Fate.\"",
+        reward: "Title: The Azure Dragoon",
+    }, {
+        name: "Dragoon Age III",
+        points: "5",
+        task: "Complete the dragoon job quest \"Dragon Sound.\"",
+        reward: "Title: The Blood Dragoon",
+    }, {
+        name: "Dragoon Age IV",
+        points: "5",
+        task: "Complete the dragoon job quest \"Gone but Not Forgiven.\"",
+        reward: "Title: Bolt from the Black",
+    }, {
+        name: "A Bard's Tale I",
+        points: "5",
+        task: "Complete the bard job quest \"Requiem for the Fallen.\"",
+        reward: "",
+    }, {
+        name: "A Bard's Tale II",
+        points: "5",
+        task: "Complete the bard job quest \"The Ballad of Oblivion.\"",
+        reward: "Title: Skysinger",
+    }, {
+        name: "A Bard's Tale III",
+        points: "5",
+        task: "Complete the bard job quest \"Sweet Dreams Are Made of Peace.\"",
+        reward: "Title: Of the True Autumn",
+    }, {
+        name: "A Bard's Tale IV",
+        points: "5",
+        task: "Complete the bard job quest \"A Harmony from the Heavens.\"",
+        reward: "Title: The Song upon the Wind",
+    }, {
+        name: "Seeing White I",
+        points: "5",
+        task: "Complete the white mage job quest \"Heart of the Forest.\"",
+        reward: "",
+    }, {
+        name: "Seeing White II",
+        points: "5",
+        task: "Complete the white mage job quest \"Hands of Healing.\"",
+        reward: "Title: Pure White",
+    }, {
+        name: "Seeing White III",
+        points: "5",
+        task: "Complete the white mage job quest \"What She Always Wanted.\"",
+        reward: "Title: Padjal Protector",
+    }, {
+        name: "Seeing White IV",
+        points: "5",
+        task: "Complete the white mage job quest \"Whence the Healing Springs.\"",
+        reward: "Title: Firstblessed",
+    }, {
+        name: "Back in Black I",
+        points: "5",
+        task: "Complete the black mage job quest \"Always Bet on Black.\"",
+        reward: "",
+    }, {
+        name: "Back in Black II",
+        points: "5",
+        task: "Complete the black mage job quest \"The Defiant Ones.\"",
+        reward: "Title: Annihilator",
+    }, {
+        name: "Back in Black III",
+        points: "5",
+        task: "Complete the black mage job quest \"One Golem to Rule Them All.\"",
+        reward: "Title: Gembreaker",
+    }, {
+        name: "Back in Black IV",
+        points: "5",
+        task: "Complete the black mage job quest \"A Home for a Tome.\"",
+        reward: "Title: Of Stranger Shadow",
+    }, {
+        name: "Soul Summoner I",
+        points: "5",
+        task: "Complete the summoner job quest \"Primal Burdens.\"",
+        reward: "",
+    }, {
+        name: "Soul Summoner II",
+        points: "5",
+        task: "Complete the summoner job quest \"A Flare for the Dramatic.\"",
+        reward: "Title: Dreadspawn",
+    }, {
+        name: "Soul Summoner III",
+        points: "5",
+        task: "Complete the summoner job quest \"An Art for the Living.\"",
+        reward: "Title: The First Caller",
+    }, {
+        name: "Soul Summoner IV",
+        points: "5",
+        task: "Complete the summoner job quest \"To Be Second Best.\"",
+        reward: "Title: Farcaller",
+    }, {
+        name: "Flying Colors I",
+        points: "5",
+        task: "Complete the scholar job quest \"The Beast Within.\"",
+        reward: "",
+    }, {
+        name: "Flying Colors II",
+        points: "5",
+        task: "Complete the scholar job quest \"Forward, the Royal Marines.\"",
+        reward: "Title: Nymian Marine",
+    }, {
+        name: "Flying Colors III",
+        points: "5",
+        task: "Complete the scholar job quest \"Our Unsung Heroes.\"",
+        reward: "Title: Keeper of the Lilacs",
+    }, {
+        name: "Flying Colors IV",
+        points: "5",
+        task: "Complete the scholar job quest \"True Beauty.\"",
+        reward: "Title: Knower of Twin Worlds",
+    }, {
+        name: "Against the Ninja I",
+        points: "5",
+        task: "Complete the ninja job quest \"Master and Student.\"",
+        reward: "",
+    }, {
+        name: "Against the Ninja II",
+        points: "5",
+        task: "Complete the ninja job quest \"In Her Defense.\"",
+        reward: "Title: The Darkest Shadow",
+    }, {
+        name: "Against the Ninja III",
+        points: "5",
+        task: "Complete the ninja job quest \"When Clans Collide.\"",
+        reward: "Title: Eorzean Ninja",
+    }, {
+        name: "Against the Ninja IV",
+        points: "5",
+        task: "Complete the ninja job quest \"Oboro's Big Idea.\"",
+        reward: "Title: Shadow of the Other",
+    }, {
+        name: "A Dark Day's Knight I",
+        points: "5",
+        task: "Complete the dark knight job quest \"Our Answer.\"",
+        reward: "",
+    }, {
+        name: "A Dark Day's Knight II",
+        points: "5",
+        task: "Complete the dark knight job quest \"Absolution.\"",
+        reward: "Title: Blackblood",
+    }, {
+        name: "A Dark Day's Knight III",
+        points: "5",
+        task: "Complete the dark knight job quest \"Our Compromise.\"",
+        reward: "Title: Of the Swirling Abyss",
+    }, {
+        name: "A Dark Day's Knight IV",
+        points: "5",
+        task: "Complete the dark knight job quest \"Our Closure.\"",
+        reward: "Title: The Boundless Dark",
+    }, {
+        name: "I'm a Machinist, Not a Man I",
+        points: "5",
+        task: "Complete the machinist job quest \"The Power of a Tourney.\"",
+        reward: "",
+    }, {
+        name: "I'm a Machinist, Not a Man II",
+        points: "5",
+        task: "Complete the machinist job quest \"Rise of the Machinists.\"",
+        reward: "Title: Liberator",
+    }, {
+        name: "I'm a Machinist, Not a Man III",
+        points: "5",
+        task: "Complete the machinist job quest \"The Mongrel and the Knight.\"",
+        reward: "Title: The Howling",
+    }, {
+        name: "I'm a Machinist, Not a Man IV",
+        points: "5",
+        task: "Complete the machinist job quest \"Machinists for the Morrow.\"",
+        reward: "Title: The Shot Heard Across Worlds",
+    }, {
+        name: "The Stars in Our Faults I",
+        points: "5",
+        task: "Complete the astrologian job quest \"Spearheading Initiatives.\"",
+        reward: "",
+    }, {
+        name: "The Stars in Our Faults II",
+        points: "5",
+        task: "Complete the astrologian job quest \"The Hands of Fate.\"",
+        reward: "Title: Stargazer",
+    }, {
+        name: "The Stars in Our Faults III",
+        points: "5",
+        task: "Complete the astrologian job quest \"Foxfire.\"",
+        reward: "Title: Of the Eastern Skies",
+    }, {
+        name: "The Stars in Our Faults IV",
+        points: "5",
+        task: "Complete the astrologian job quest \"Love, Astrologically.\"",
+        reward: "Title: Distant Stargazer",
+    }, {
+        name: "SAM I Am I",
+        points: "5",
+        task: "Complete the samurai job quest \"The Face of True Evil.\"",
+        reward: "",
+    }, {
+        name: "SAM I Am II",
+        points: "5",
+        task: "Complete the samurai job quest \"The Battle on Bekko.\"",
+        reward: "Title: Muso",
+    }, {
+        name: "SAM I Am III",
+        points: "5",
+        task: "Complete the samurai job quest \"The Legend of Musosai.\"",
+        reward: "Title: Samurai in a Strange Land",
+    }, {
+        name: "Red On Arrival I",
+        points: "5",
+        task: "Complete the red mage job quest \"Stained in Scarlet.\"",
+        reward: "",
+    }, {
+        name: "Red On Arrival II",
+        points: "5",
+        task: "Complete the red mage job quest \"With Heart and Steel.\"",
+        reward: "Title: The Red",
+    }, {
+        name: "Red On Arrival III",
+        points: "5",
+        task: "Complete the red mage job quest \"The Succession of Steel.\"",
+        reward: "Title: Dualistic Duelist",
+    }, {
+        name: "Gunnhildr's Blade I",
+        points: "5",
+        task: "Complete the gunbreaker job quest \"Steel against Steel.\"",
+        reward: "Title: Sworn Protector",
+    }, {
+        name: "Gunnhildr's Blade II",
+        points: "5",
+        task: "Complete the gunbreaker job quest \"Gunblades of the Patriots.\"",
+        reward: "Title: Wandering Vanguard",
+    }, {
+        name: "No Friends of Mine I",
+        points: "5",
+        task: "Complete the dancer job quest \"Save the Lance Dance for Me.\"",
+        reward: "Title: The Heart's Beat",
+    }, {
+        name: "No Friends of Mine II",
+        points: "5",
+        task: "Complete the dancer job quest \"Rising to the Occasion.\"",
+        reward: "Title: Riftdancer",
+    }, {
+        name: "Speaker for the Righteous",
+        points: "5",
+        task: "Complete the role quest \"To Have Loved and Lost.\"",
+        reward: "",
+    }, {
+        name: "Speaker for the Honorable",
+        points: "5",
+        task: "Complete the role quest \"The Soul of Temperance.\"",
+        reward: "",
+    }, {
+        name: "Speaker for the Brave",
+        points: "5",
+        task: "Complete the role quest \"Courage Born of Fear.",
+        reward: "",
+    }, {
+        name: "Speaker for the Wise",
+        points: "5",
+        task: "Complete the role quest \"A Tearful Reunion.\"",
+        reward: "",
+    }, {
+        name: "A Watched Pot",
+        points: "10",
+        task: "Complete the quest \"Kettle to the Mettle.\"",
+        reward: "Title: Carrier of the Kettle",
+    }, {
+        name: "Leaving Limsa Lominsa",
+        points: "5",
+        task: "Complete the main scenario quest \"The Lominsan Envoy.\"",
+        reward: "",
+    }, {
+        name: "Gone from Gridania",
+        points: "5",
+        task: "Complete the main scenario quest \"The Gridanian Envoy.\"",
+        reward: "",
+    }, {
+        name: "Out of Ul'dah",
+        points: "5",
+        task: "Complete the main scenario quest \"The Ul'dahn Envoy.\"",
+        reward: "",
+    }, {
+        name: "The New King on the Block",
+        points: "10",
+        task: "Complete the quest \"The New King on the Block.\"",
+        reward: "Title: Monster Hunter",
+    }, {
+        name: "Live to Serve",
+        points: "10",
+        task: "Complete the quest \"In Bad Taste.\"",
+        reward: "Title: Lord/Lady of the Fetch",
+    }, {
+        name: "What is it Good For",
+        points: "20",
+        task: "Complete the quest \"The Face of War.\"",
+        reward: "",
+    }, {
+        name: "Tales to Be Told",
+        points: "10",
+        task: "Complete the quest \"Shadow Walk with Me.\"",
+        reward: "Title: Living Memory",
+    }, {
+        name: "Precious Metals",
+        points: "5",
+        task: "Complete the quest \"The Iron Bellows.\"",
+        reward: "Title: Otherworld Smith",
+    }, {
+        name: "Thank You for the Music",
+        points: "5",
+        task: "Complete the quest \"The Notes of Bond Restoring.\"",
+        reward: "Title: Otherworld Artisan",
+    }, {
+        name: "Amaro Whisperer",
+        points: "5",
+        task: "Complete the quest \"Healing Old Wounds.\"",
+        reward: "Title: Otherworld Apothecary",
+    }, {
+        name: "The Lost World",
+        points: "5",
+        task: "Complete the quest \"The Myth Takes Form.\"",
+        reward: "Title: Otherworld Seeker",
+    }, {
+        name: "Live Long and Prospero",
+        points: "5",
+        task: "Complete the quest \"Morsel of the Deep.\"",
+        reward: "Title: Otherworld Angler",
+    }, {
+        name: "The Golden Mean",
+        points: "10",
+        task: "Complete the quest \"For Every Child a Star.\"",
+        reward: "Title: The Multifaceted",
+    },
 ];

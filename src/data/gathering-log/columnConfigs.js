@@ -11,6 +11,8 @@ export const GatheringColumnConfig = [
     { header: "Name", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
     { header: "Location", key: "location" },
+    { header: "Usages", key: "usage" },
+    { header: "Special", key: "special" },
 ];
 
 export const FishingLogColumnConfig = [

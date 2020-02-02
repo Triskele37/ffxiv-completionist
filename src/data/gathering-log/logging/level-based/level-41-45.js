@@ -9,16 +9,22 @@ const tasks = [
         level: "42",
         name: "Mirror Apple",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim"
+        location: "Whitebrim",
+        usage: "CUL, Provisioning",
+        special: "",
     }, {
         level: "42",
         name: "Mirror Apple Seeds",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim"
+        location: "Whitebrim",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "44",
         name: "Mistletoe",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim"
+        location: "Whitebrim",
+        usage: "ALC, Provisioning",
+        special: "",
     },
 ];

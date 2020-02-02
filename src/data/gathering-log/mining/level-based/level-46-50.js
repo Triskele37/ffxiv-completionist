@@ -9,156 +9,169 @@ const tasks = [
         level: "46",
         name: "Basilisk Egg",
         zone: "Northern Thanalan",
-        location: "Bluefog"
+        location: "Bluefog",
+        usage: "CRP, GSM, Provisioning",
+        special: "",
     }, {
         level: "47",
         name: "Cobalt Ore",
         zone: "Northern Thanalan",
-        location: "Bluefog"
+        location: "Bluefog",
+        usage: "ARM, BSM, Provisioning",
+        special: "",
     }, {
         level: "49",
         name: "Adamantoise Shell",
         zone: "Northern Thanalan",
-        location: "Bluefog"
+        location: "Bluefog",
+        usage: "ARM, GSM, Provisioning",
+        special: "",
     }, {
         level: "50",
         name: "Ogre Horn",
         zone: "Northern Thanalan",
-        location: "Bluefog"
-    }, {
-        level: "50",
-        name: "Timeworn Boarskin Map",
-        zone: "Northern Thanalan",
-        location: "Bluefog"
-    }, {
-        level: "50",
-        name: "Timeworn Peisteskin Map",
-        zone: "Northern Thanalan",
-        location: "Bluefog"
-    }, {
-        level: "50",
-        name: "Timeworn Toadskin Map",
-        zone: "Northern Thanalan",
-        location: "Bluefog"
-    }, {
-        level: "50",
-        name: "Fire Cluster",
-        zone: "The Dravanian Forelands",
-        location: "Avalonia Fallen"
-    }, {
-        level: "50",
-        name: "Ice Cluster",
-        zone: "Coerthas Western Highlands",
-        location: "Red Rim"
-    }, {
-        level: "50",
-        name: "Wind Cluster",
-        zone: "The Dravanian Hinterlands",
-        location: "The Makers' Quarter"
-    }, {
-        level: "50",
-        name: "Earth Cluster",
-        zone: "The Churning Mists",
-        location: "Landlord Colony"
-    }, {
-        level: "50",
-        name: "Water Cluster",
-        zone: "The Sea of Clouds",
-        location: "Voor Sian Siran"
+        location: "Bluefog",
+        usage: "GSM, Provisioning",
+        special: "",
     }, {
         level: "50",
         name: "Lightning Cluster",
         zone: "Lakeland",
-        location: "The Church of the First Light"
+        location: "The Church of the First Light",
+        usage: "Catalyst, Trade",
+        special: "",
     }, {
-        level: "50★",
-        name: "Coblyn Larva",
-        zone: "Eastern Thanalan",
-        location: "The Burning Wall"
-    }, {
-        level: "50★",
-        name: "Darksteel Ore",
-        zone: "Coerthas Central Highlands",
-        location: "Dragonhead"
+        level: "50",
+        name: "Water Cluster",
+        zone: "The Sea of Clouds",
+        location: "Voor Sian Siran",
+        usage: "Catalyst, Trade",
+        special: "",
     }, {
         level: "50★",
         name: "Gold Ore",
         zone: "Eastern Thanalan",
-        location: "The Burning Wall"
+        location: "The Burning Wall",
+        usage: "GSM",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★",
-        name: "Gregarious Worm",
+        name: "Darksteel Ore",
+        zone: "Coerthas Central Highlands",
+        location: "Dragonhead",
+        usage: "ARM, BSM",
+        special: "Unspoiled (1 AM)",
+    }, {
+        level: "50★",
+        name: "Coblyn Larva",
         zone: "Eastern Thanalan",
-        location: "The Burning Wall"
+        location: "The Burning Wall",
+        usage: "Minion",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★",
         name: "Unaspected Crystal",
         zone: "Eastern Thanalan",
-        location: "The Burning Wall"
+        location: "The Burning Wall",
+        usage: "ALC, FC Crafting",
+        special: "Unspoiled (9 AM)",
     }, {
-        level: "50★★",
-        name: "Dark Matter Cluster",
+        level: "50★",
+        name: "Gregarious Worm",
         zone: "Eastern Thanalan",
-        location: "Burgundy Falls"
+        location: "The Burning Wall",
+        usage: "CUL",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★★",
         name: "Ferberite",
         zone: "Northern Thanalan",
-        location: "Raubahn's Push"
-    }, {
-        level: "50★★",
-        name: "Native Gold",
-        zone: "Central Thanalan",
-        location: "Lost Hope"
-    }, {
-        level: "50★★",
-        name: "Raw Diamond",
-        zone: "Central Thanalan",
-        location: "Lost Hope"
-    }, {
-        level: "50★★",
-        name: "Raw Emerald",
-        zone: "Central Thanalan",
-        location: "Lost Hope"
-    }, {
-        level: "50★★",
-        name: "Raw Iolite",
-        zone: "Northern Thanalan",
-        location: "Raubahn's Push"
+        location: "Raubahn's Push",
+        usage: "ARM, BSM",
+        special: "Unspoiled (3 AM)",
     }, {
         level: "50★★",
         name: "Raw Ruby",
         zone: "Lower La Noscea",
-        location: "Moraby Bay"
+        location: "Moraby Bay",
+        usage: "GSM",
+        special: "Unspoiled (6 PM)",
     }, {
         level: "50★★",
-        name: "Raw Sapphire",
-        zone: "Lower La Noscea",
-        location: "Moraby Bay"
+        name: "Raw Diamond",
+        zone: "Central Thanalan",
+        location: "Lost Hope",
+        usage: "GSM",
+        special: "Unspoiled (4 AM)",
+    }, {
+        level: "50★★",
+        name: "Raw Emerald",
+        zone: "Central Thanalan",
+        location: "Lost Hope",
+        usage: "GSM",
+        special: "Unspoiled (4 AM)",
     }, {
         level: "50★★",
         name: "Raw Topaz",
         zone: "Northern Thanalan",
-        location: "Raubahn's Push"
+        location: "Raubahn's Push",
+        usage: "GSM",
+        special: "Unspoiled (3 AM)",
     }, {
-        level: "50★★★",
-        name: "Dragon Obsidian",
-        zone: "Coerthas Western Highlands",
-        location: "Riversmeet"
-    }, {
-        level: "50★★★",
-        name: "Platinum Ore",
-        zone: "Southern Thanalan",
-        location: "Broken Water"
-    }, {
-        level: "50★★★",
-        name: "Virgin Basilisk Egg",
+        level: "50★★",
+        name: "Raw Iolite",
         zone: "Northern Thanalan",
-        location: "Bluefog"
+        location: "Raubahn's Push",
+        usage: "GSM",
+        special: "Unspoiled (3 AM)",
+    }, {
+        level: "50★★",
+        name: "Raw Sapphire",
+        zone: "Lower La Noscea",
+        location: "Moraby Bay",
+        usage: "GSM",
+        special: "Unspoiled (6 PM)",
+    }, {
+        level: "50★★",
+        name: "Native Gold",
+        zone: "Central Thanalan",
+        location: "Lost Hope",
+        usage: "GSM",
+        special: "Unspoiled (4 AM)",
+    }, {
+        level: "50★★",
+        name: "Dark Matter Cluster",
+        zone: "Eastern Thanalan",
+        location: "Burgundy Falls",
+        usage: "FC Crafting",
+        special: "",
     }, {
         level: "50★★★",
         name: "Yellow Copper Ore",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet"
+        location: "Riversmeet",
+        usage: "Collectable",
+        special: "Unspoiled (12 AM/PM)",
+    }, {
+        level: "50★★★",
+        name: "Platinum Ore",
+        zone: "Southern Thanalan",
+        location: "Broken Water",
+        usage: "ALC, GSM",
+        special: "Unspoiled (4 AM)",
+    }, {
+        level: "50★★★",
+        name: "Dragon Obsidian",
+        zone: "Coerthas Western Highlands",
+        location: "Riversmeet",
+        usage: "BSM, GSM, Provisioning",
+        special: "",
+    }, {
+        level: "50★★★",
+        name: "Virgin Basilisk Egg",
+        zone: "Northern Thanalan",
+        location: "Bluefog",
+        usage: "ALC",
+        special: "Unspoiled (5 AM)",
     },
 ];

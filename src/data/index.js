@@ -5,11 +5,14 @@
 /* Data Fixes
 Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
 Crafting -
-    BSM - missing Housing, Master, Ishgard, Story
-    GSM - missing Housing, Master, Ishgard, Story
-    ALC - 10 extra
-    Shared - missing
-Gathering - (9 extra FSH guide, 8 extra FSH log)
+    BSM - 551/876
+    GSM - 742/1243
+    ALC - 707/697, 10 extra
+Gathering -
+    Mining - 201/183
+    Harvesting - 275/268
+    Logging - 160/153
+    (9 extra FSH guide, 8 extra FSH log)
 Quests - Reverify counts and verbiage against IG UI
 */
 

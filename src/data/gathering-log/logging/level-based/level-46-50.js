@@ -9,136 +9,176 @@ const tasks = [
         level: "46",
         name: "Rosewood Log",
         zone: "East Shroud",
-        location: "The Bramble Patch"
+        location: "The Bramble Patch",
+        usage: "ALC, CRP, FC Crafting, Provisioning",
+        special: "",
     }, {
         level: "47",
         name: "Rosewood Branch",
         zone: "East Shroud",
-        location: "The Bramble Patch"
-    }, {
-        level: "50",
-        name: "Earth Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "The Bramble Patch",
+        usage: "ALC, BSM, CRP, GSM, WVR, Provisioning",
+        special: "",
     }, {
         level: "50",
         name: "Fire Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
     }, {
         level: "50",
         name: "Ice Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
-    }, {
-        level: "50",
-        name: "Lightning Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
-    }, {
-        level: "50",
-        name: "Timeworn Boarskin Map",
-        zone: "Middle La Noscea",
-        location: "Summerford"
-    }, {
-        level: "50",
-        name: "Timeworn Peisteskin Map",
-        zone: "Middle La Noscea",
-        location: "Summerford"
-    }, {
-        level: "50",
-        name: "Water Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
     }, {
         level: "50",
         name: "Wind Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
     }, {
-        level: "50★",
-        name: "Fragrant Log",
-        zone: "South Shroud",
-        location: "Camp Tranquil"
+        level: "50",
+        name: "Earth Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+    }, {
+        level: "50",
+        name: "Lightning Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+    }, {
+        level: "50",
+        name: "Water Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
     }, {
         level: "50★",
         name: "Prickly Pineapple",
         zone: "Eastern La Noscea",
-        location: "Bloodshore"
-    }, {
-        level: "50★",
-        name: "Prickly Pineapple Seeds",
-        zone: "Eastern La Noscea",
-        location: "Bloodshore"
+        location: "Bloodshore",
+        usage: "CUL",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★",
         name: "Spruce Log",
         zone: "Coerthas Central Highlands",
-        location: "Providence Point"
+        location: "Providence Point",
+        usage: "CRP, FC Crafting",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★",
         name: "Thavnairian Mistletoe",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim"
-    }, {
-        level: "50★",
-        name: "Unaspected Crystal",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "Whitebrim",
+        usage: "ALC",
+        special: "Unspoiled (5 PM)",
     }, {
         level: "50★",
         name: "Vampire Plant",
         zone: "Coerthas Central Highlands",
-        location: "Dragonhead"
+        location: "Dragonhead",
+        usage: "ALC",
+        special: "Unspoiled (1 PM)",
+    }, {
+        level: "50★",
+        name: "Prickly Pineapple Seeds",
+        zone: "Eastern La Noscea",
+        location: "Bloodshore",
+        usage: "Gardening",
+        special: "Unspoiled (9 AM)",
+    }, {
+        level: "50★",
+        name: "Unaspected Crystal",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "ALC, FC Crafting",
+        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+    }, {
+        level: "50★",
+        name: "Fragrant Log",
+        zone: "South Shroud",
+        location: "Camp Tranquil",
+        usage: "Trade",
+        special: "Unspoiled (2 AM)",
     }, {
         level: "50★★",
         name: "Apricot",
         zone: "Middle La Noscea",
-        location: "Summerford"
-    }, {
-        level: "50★★",
-        name: "Bamboo Stick",
-        zone: "Upper La Noscea",
-        location: "Bronze Lake"
+        location: "Summerford",
+        usage: "CUL",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★★",
         name: "Blood Orange",
         zone: "Upper La Noscea",
-        location: "Bronze Lake"
+        location: "Bronze Lake",
+        usage: "CUL",
+        special: "Unspoiled (7 AM)",
     }, {
         level: "50★★",
-        name: "Dark Matter Cluster",
-        zone: "Middle La Noscea",
-        location: "Summerford"
+        name: "Bamboo Stick",
+        zone: "Upper La Noscea",
+        location: "Bronze Lake",
+        usage: "CRP, CUL",
+        special: "Unspoiled (7 AM)",
     }, {
         level: "50★★",
         name: "Redolent Log",
         zone: "Central Shroud",
-        location: "Greentear"
+        location: "Greentear",
+        usage: "Trade",
+        special: "Unspoiled (6 AM)",
     }, {
         level: "50★★",
         name: "Scarlet Sap",
         zone: "North Shroud",
-        location: "Alder Springs"
+        location: "Alder Springs",
+        usage: "CRP",
+        special: "Unspoiled (3 AM)",
     }, {
-        level: "50★★★",
-        name: "Cedar Branch",
-        zone: "Coerthas Western Highlands",
-        location: "Riversmeet"
+        level: "50★★",
+        name: "Dark Matter Cluster",
+        zone: "Middle La Noscea",
+        location: "Summerford",
+        usage: "Catalyst",
+        special: "Unspoiled (9 AM)",
     }, {
         level: "50★★★",
         name: "Cedar Log",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet"
-    }, {
-        level: "50★★★",
-        name: "Cypress Log",
-        zone: "Central Shroud",
-        location: "Bentbranch"
+        location: "Riversmeet",
+        usage: "CRP, Collectable, Provisioning",
+        special: "",
     }, {
         level: "50★★★",
         name: "Ebony Log",
         zone: "Middle La Noscea",
-        location: "Zephyr Drift"
+        location: "Zephyr Drift",
+        usage: "CRP, FC Crafting",
+        special: "Unspoiled (4 AM)",
+    }, {
+        level: "50★★★",
+        name: "Cypress Log",
+        zone: "Central Shroud",
+        location: "Bentbranch",
+        usage: "BSM, CRP, FC Crafting",
+        special: "Unspoiled (10 AM)",
+    }, {
+        level: "50★★★",
+        name: "Cedar Branch",
+        zone: "Coerthas Western Highlands",
+        location: "Riversmeet",
+        usage: "BSM, CRP, Provisioning",
+        special: "",
     },
 ];

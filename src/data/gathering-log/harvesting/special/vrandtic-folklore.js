@@ -9,6 +9,8 @@ const tasks = [
         level: "80★",
         name: "Ethereal Cocoon",
         zone: "Lakeland",
-        location: "Inviolate Witness"
+        location: "Inviolate Witness",
+        usage: "WVR, Collectable",
+        special: "Legendary (8 AM/PM), Unlocked w/ Botanical Folklore - Vrandtic",
     },
 ];

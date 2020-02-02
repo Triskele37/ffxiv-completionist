@@ -414,7 +414,7 @@ const tasks = [
         reward: "-"
     }, {
         description: "Discover every location within the Great Gubal Library (Hard).",
-        name: "Remapping the Realm: The Great Gubal Library",
+        name: "Remapping the Realm: Great Gubal Library",
         points: 10,
         reward: "-"
     }, {

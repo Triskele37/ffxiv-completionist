@@ -9,21 +9,29 @@ const tasks = [
         level: "60★",
         name: "Red Alumen",
         zone: "Azys Lla",
-        location: "Habisphere Control"
+        location: "Habisphere Control",
+        usage: "LTW, Collectable",
+        special: "Legendary (7 AM), Unlocked w/ Geological Folklore - Abalathia's Spine",
     }, {
         level: "60★",
         name: "Smithsonite Ore",
         zone: "The Sea of Clouds",
-        location: "Hengr's Crucible"
+        location: "Hengr's Crucible",
+        usage: "GSM, Collectable",
+        special: "Legendary (1 AM), Unlocked w/ Geological Folklore - Abalathia's Spine",
     }, {
         level: "60★",
         name: "Meteorite",
         zone: "The Sea of Clouds",
-        location: "Hengr's Crucible"
+        location: "Hengr's Crucible",
+        usage: "ALC, Collectable",
+        special: "Unlocked w/ Geological Folklore - Abalathia's Spine",
     }, {
         level: "60★★★",
         name: "Luminium Ore",
         zone: "Azys Lla",
-        location: "Hyperstellar Downconverter"
+        location: "Hyperstellar Downconverter",
+        usage: "GSM",
+        special: "Unlocked w/ Geological Folklore - Abalathia's Spine",
     },
 ];

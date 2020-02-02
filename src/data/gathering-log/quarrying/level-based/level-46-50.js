@@ -9,106 +9,148 @@ const tasks = [
         level: "46",
         name: "Grade 2 La Noscean Topsoil",
         zone: "Lower La Noscea",
-        location: "The Gods' Grip"
+        location: "The Gods' Grip",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "46",
         name: "Grade 2 Shroud Topsoil",
         zone: "East Shroud",
-        location: "The Bramble Patch"
+        location: "The Bramble Patch",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "46",
         name: "Grade 2 Thanalan Topsoil",
         zone: "Western Thanalan",
-        location: "Nophica's Wells"
+        location: "Nophica's Wells",
+        usage: "Gardening",
+        special: "Hidden",
     }, {
         level: "50",
         name: "Black Limestone",
         zone: "Western La Noscea",
-        location: "Quarterstone"
-    }, {
-        level: "50",
-        name: "Earth Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "Quarterstone",
+        usage: "GSM",
+        special: "",
     }, {
         level: "50",
         name: "Fire Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
     }, {
         level: "50",
         name: "Ice Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
-    }, {
-        level: "50",
-        name: "Lightning Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
-    }, {
-        level: "50",
-        name: "Water Cluster",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
     }, {
         level: "50",
         name: "Wind Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
+    }, {
+        level: "50",
+        name: "Earth Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
+    }, {
+        level: "50",
+        name: "Lightning Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
+    }, {
+        level: "50",
+        name: "Water Cluster",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "Catalyst",
+        special: "Unspoiled (1/5/9 PM)",
     }, {
         level: "50★",
         name: "Astral Rock",
         zone: "Coerthas Central Highlands",
-        location: "Dragonhead"
+        location: "Dragonhead",
+        usage: "CRP, GSM, FC Crafting",
+        special: "Unspoiled (9 PM)",
     }, {
         level: "50★",
         name: "Gold Sand",
         zone: "Eastern Thanalan",
-        location: "Wellwick Wood"
-    }, {
-        level: "50★",
-        name: "Grade 3 La Noscean Topsoil",
-        zone: "Middle La Noscea",
-        location: "Zephyr Drift"
-    }, {
-        level: "50★",
-        name: "Grade 3 Shroud Topsoil",
-        zone: "South Shroud",
-        location: "Rootslake"
-    }, {
-        level: "50★",
-        name: "Grade 3 Thanalan Topsoil",
-        zone: "Western Thanalan",
-        location: "Hammerlea"
-    }, {
-        level: "50★",
-        name: "Umbral Rock",
-        zone: "South Shroud",
-        location: "Rootslake"
-    }, {
-        level: "50★",
-        name: "Unaspected Crystal",
-        zone: "Mor Dhona",
-        location: "North Silvertear"
+        location: "Wellwick Wood",
+        usage: "ALC",
+        special: "Unspoiled (5 AM)",
     }, {
         level: "50★",
         name: "Volcanic Rock Salt",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully"
+        location: "Raincatcher Gully",
+        usage: "ALC, CUL",
+        special: "Unspoiled (5 PM)",
+    }, {
+        level: "50★",
+        name: "Umbral Rock",
+        zone: "South Shroud",
+        location: "Rootslake",
+        usage: "Trade",
+        special: "Unspoiled (6 AM)",
+    }, {
+        level: "50★",
+        name: "Unaspected Crystal",
+        zone: "Mor Dhona",
+        location: "North Silvertear",
+        usage: "ALC",
+        special: "Unspoiled (1/4/9 PM)",
+    }, {
+        level: "50★",
+        name: "Grade 3 La Noscean Topsoil",
+        zone: "Middle La Noscea",
+        location: "Zephyr Drift",
+        usage: "Gardening",
+        special: "Unspoiled (7 PM)",
+    }, {
+        level: "50★",
+        name: "Grade 3 Shroud Topsoil",
+        zone: "South Shroud",
+        location: "Rootslake",
+        usage: "Gardening",
+        special: "Unspoiled (6 AM)",
+    }, {
+        level: "50★",
+        name: "Grade 3 Thanalan Topsoil",
+        zone: "Western Thanalan",
+        location: "Hammerlea",
+        usage: "Gardening",
+        special: "Unspoiled (5 AM)",
     }, {
         level: "50★★",
         name: "Antumbral Rock",
         zone: "Eastern Thanalan",
-        location: "Wellwick Wood"
+        location: "Wellwick Wood",
+        usage: "Trade",
+        special: "Unspoiled (2 AM)",
     }, {
         level: "50★★",
         name: "Dark Matter Cluster",
         zone: "Eastern Thanalan",
-        location: "Wellwick Wood"
+        location: "Wellwick Wood",
+        usage: "FC Crafting",
+        special: "Unspoiled (5 AM)",
     }, {
         level: "50★★★",
         name: "Pumice",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully"
+        location: "Raincatcher Gully",
+        usage: "LTW, WVR",
+        special: "Unspoiled (1 AM)",
     },
 ];

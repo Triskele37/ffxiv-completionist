@@ -137,48 +137,4 @@ const tasks = [
         type: "Floating Islands",
         req: "Cloudfishing"
     },
-    //------------------------------------------------------------------ The Diadem
-    {
-        level: "60",
-        name: "Calm Cloudtop",
-        zone: "The Diadem",
-        location: "Calm Cloudtop (31,11)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    }, {
-        level: "60",
-        name: "Diadem Grotto",
-        zone: "The Diadem",
-        location: "Diadem Grotto (14,34)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    }, {
-        level: "60",
-        name: "Northern Diadem Lake",
-        zone: "The Diadem",
-        location: "Northern Diadem Lake (11,9)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    }, {
-        level: "60",
-        name: "Secluded Diadem Pond",
-        zone: "The Diadem",
-        location: "Secluded Diadem Pond (8,31)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    }, {
-        level: "60",
-        name: "Southern Diadem Lake",
-        zone: "The Diadem",
-        location: "Southern Diadem Lake (14,31)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    }, {
-        level: "60",
-        name: "Swirling Cloudtop",
-        zone: "The Diadem",
-        location: "Swirling Cloudtop (28,33)",
-        type: "Floating Islands",
-        req: "Cloudfishing"
-    },
 ];
