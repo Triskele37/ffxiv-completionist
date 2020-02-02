@@ -1,19 +1,15 @@
 /*
-    Duplicate name keys in groups if all displayed: The Isle of Ken, shard/crystals
+    Duplicate name keys in groups if all displayed: shard/crystals
 */
 
 /* Data Fixes
 Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
-Collectable - Reverify verbiage against IG UI (no item count issues)
-General_Logs - no issues
 Crafting -
     BSM - missing Housing, Master, Ishgard, Story
     GSM - missing Housing, Master, Ishgard, Story
     ALC - 10 extra
     Shared - missing
-Gathering - (9 extra FSH guide, 8 extra FSH log) Reverify verbiage
-Duty - Reverify verbiage against IG UI (no item count issues)
-FATEs - Reverify verbiage against IG UI (no item count issues)
+Gathering - (9 extra FSH guide, 8 extra FSH log)
 Quests - Reverify counts and verbiage against IG UI
 */
 
@@ -22,8 +18,8 @@ import { DataGroup } from "./DataGroup";
 import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
-import { Crafting_Logs } from "./crafting-log";
-import { Gathering_Logs } from "./gathering-log";
+import { Crafting_Log } from "./crafting-log";
+import { Gathering_Log } from "./gathering-log";
 import { Duty } from "./duty";
 import { FATEs } from "./fate";
 import { Quests } from "./quest";
@@ -33,8 +29,8 @@ data.initializeSubGroups([
     Achievements,
     Collectables,
     General_Logs,
-    Crafting_Logs,
-    Gathering_Logs,
+    Crafting_Log,
+    Gathering_Log,
     Duty,
     FATEs,
     Quests,

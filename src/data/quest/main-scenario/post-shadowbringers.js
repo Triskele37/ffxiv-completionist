@@ -2,6 +2,8 @@ import { DataGroup } from "../../DataGroup";
 
 export const Quests_Main_Scenario_Post_Shadowbringers = function(name, parent) {
     const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Post-Shadowbringers";
+
     data.columnConfig = parent.columnConfig.concat(
         { header: "Patch", key: "patch", filterable: true }
     );

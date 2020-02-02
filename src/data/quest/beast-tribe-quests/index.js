@@ -14,7 +14,7 @@ import { Quests_Beast_Tribe_Namazu } from "./namazu";
 import { Quests_Beast_Tribe_Pixie } from "./pixie";
 
 export const Quests_Beast_Tribe = function(name, parent) {
-    const data = new DataGroup(name, parent)
+    const data = new DataGroup(name, parent);
     data.columnConfig = [
         {
             header: "Level",

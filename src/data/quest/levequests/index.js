@@ -14,7 +14,17 @@ import { Quests_Levequests_Alchemy } from "./tradecraft/alchemy-leves";
 import { Quests_Levequests_Cooking } from "./tradecraft/cooking-leves";
 
 export const Quests_Levequests = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent);
+
+    data.columnConfig = [
+        { header: "Level", key: "level", styles: { centered: true } },
+        { header: "Name", key: "name" },
+        { header: "Zone", key: "zone" },
+        { header: "Location", key: "location" },
+        { header: "NPC", key: "npc" },
+    ];
+
+    data.initializeSubGroups([
         Quests_Levequests_Battlecraft,
         Quests_Levequests_Mining,
         Quests_Levequests_Botany,
@@ -28,14 +38,6 @@ export const Quests_Levequests = function(name, parent) {
         Quests_Levequests_Alchemy,
         Quests_Levequests_Cooking,
     ]);
-
-    data.columnConfig = [
-        { header: "Level", key: "level", styles: { centered: true } },
-        { header: "Name", key: "name" },
-        { header: "Zone", key: "zone" },
-        { header: "Location", key: "location" },
-        { header: "NPC", key: "npc" },
-    ];
 
     return data;
 };

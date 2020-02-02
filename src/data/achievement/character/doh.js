@@ -3,7 +3,7 @@ import { DataGroup } from "../../DataGroup";
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=2&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 // There are two AchievementCategories named Dungeons, will need to use IDs for these
 
-export const Achievements_Character_Disciple_Of_Hand = function(name, parent) {
+export const Achievements_Character_Disciple_of_the_Hand = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

@@ -3,7 +3,9 @@
 import { DataGroup } from "../../DataGroup";
 
 export const Quests_Beast_Tribe_Amalj_Aa = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Amalj'aa";
+    return data;
 };
 
 const tasks = [

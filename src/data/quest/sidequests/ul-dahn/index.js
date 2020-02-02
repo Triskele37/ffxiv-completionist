@@ -11,7 +11,10 @@ import { Quests_Sidequests_Ul_Dahn_Southern_Thanalan } from "./southern-thanalan
 import { Quests_Sidequests_Ul_Dahn_Northern_Thanalan } from "./northern-thanalan";
 
 export const Quests_Sidequests_Ul_Dahn = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent);
+    data.name = "Ul'Dahn";
+
+    data.initializeSubGroups([
         Quests_Sidequests_Ul_Dahn_Ul_Dah,
         Quests_Sidequests_Ul_Dahn_The_Waking_Sands,
         Quests_Sidequests_Ul_Dahn_Chocobo_Square,
@@ -22,4 +25,6 @@ export const Quests_Sidequests_Ul_Dahn = function(name, parent) {
         Quests_Sidequests_Ul_Dahn_Southern_Thanalan,
         Quests_Sidequests_Ul_Dahn_Northern_Thanalan,
     ]);
+
+    return data;
 };

@@ -1,11 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
 
-import { Crafting_Logs_Leatherworker_Ishgard_Restoration_Restoration } from "./restoration";
-import { Crafting_Logs_Leatherworker_Ishgard_Restoration_Other } from "./other";
+import { Crafting_Log_Leatherworker_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Log_Leatherworker_Ishgard_Restoration_Other } from "./other";
 
-export const Crafting_Logs_Leatherworker_Ishgard_Restoration = function(name, parent) {
+export const Crafting_Log_Leatherworker_Ishgard_Restoration = function(name, parent) {
     return new DataGroup(name, parent).initializeSubGroups([
-        Crafting_Logs_Leatherworker_Ishgard_Restoration_Restoration,
-        Crafting_Logs_Leatherworker_Ishgard_Restoration_Other,
+        Crafting_Log_Leatherworker_Ishgard_Restoration_Restoration,
+        Crafting_Log_Leatherworker_Ishgard_Restoration_Other,
     ]);
 };

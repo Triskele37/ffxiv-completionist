@@ -2,7 +2,7 @@ import { DataGroup } from "../../DataGroup";
 
 // https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Rival%20Wings&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_PVP_Rival_Wings = function(name, parent) {
+export const Achievements_PvP_Rival_Wings = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

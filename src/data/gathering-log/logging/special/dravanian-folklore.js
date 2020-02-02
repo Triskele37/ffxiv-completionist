@@ -1,6 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Gathering_Logs_Logging_Special_Dravanian_Folklore = function(name, parent) {
+export const Gathering_Log_Logging_Special_Dravanian_Folklore = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

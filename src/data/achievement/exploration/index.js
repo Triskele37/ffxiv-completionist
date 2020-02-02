@@ -1,6 +1,6 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Achievements_Exploration_Sightseeing } from "./sightseeing";
+import { Achievements_Exploration_Sightseeing_Log } from "./sightseeing";
 import { Achievements_Exploration_La_Noscea } from "./lanoscea";
 import { Achievements_Exploration_The_Black_Shroud } from "./blackshroud";
 import { Achievements_Exploration_Thanalan } from "./thanalan";
@@ -17,7 +17,7 @@ import { Achievements_Exploration_Duty } from "./duty";
 
 export const Achievements_Exploration = function(name, parent) {
     return new DataGroup(name, parent).initializeSubGroups([
-        Achievements_Exploration_Sightseeing,
+        Achievements_Exploration_Sightseeing_Log,
         Achievements_Exploration_La_Noscea,
         Achievements_Exploration_The_Black_Shroud,
         Achievements_Exploration_Thanalan,

@@ -1,6 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Logs_Weaver_Ishgard_Restoration_Restoration = function(name, parent) {
+export const Crafting_Log_Weaver_Ishgard_Restoration_Restoration = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

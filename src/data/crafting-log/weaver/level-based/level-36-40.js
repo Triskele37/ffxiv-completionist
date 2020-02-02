@@ -1,6 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Logs_Weaver_Level_Based_36_40 = function(name, parent) {
+export const Crafting_Log_Weaver_Level_Based_36_40 = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

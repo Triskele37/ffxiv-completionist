@@ -3,7 +3,7 @@ import { DataGroup } from "../../DataGroup";
 export const Quests_Class_and_Job_Crystalline_Mean = function(name, parent) {
     const data = new DataGroup(name, parent).initializeTasks(tasks);
     data.columnConfig = [
-        { header: "Facet", key: "facet" },
+        { header: "Facet", key: "facet", filterable: true },
         { header: "Level", key: "level" },
         { header: "Name", key: "name" },
         { header: "NPC", key: "npc" },

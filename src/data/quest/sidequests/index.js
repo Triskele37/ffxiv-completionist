@@ -1,4 +1,5 @@
 import { DataGroup } from "../../DataGroup";
+import { QuestColumnConfig } from "../columnConfigs";
 
 import { Quests_Sidequests_Side_Story } from './side-story';
 import { Quests_Sidequests_Lominsan } from './lominsan';
@@ -21,7 +22,10 @@ import { Quests_Sidequests_Rak_Tika } from './rak-tika';
 import { Quests_Sidequests_Tempest } from './tempest';
 
 export const Quests_Sidequests = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent);
+    data.columnConfig = QuestColumnConfig;
+
+    data.initializeSubGroups([
         Quests_Sidequests_Side_Story,
         Quests_Sidequests_Lominsan,
         Quests_Sidequests_Gridanian,
@@ -42,4 +46,6 @@ export const Quests_Sidequests = function(name, parent) {
         Quests_Sidequests_Rak_Tika,
         Quests_Sidequests_Tempest,
     ]);
+
+    return data;
 };

@@ -1,6 +1,6 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Achievements_PVP_General = function(name, parent) {
+export const Achievements_PvP_General = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

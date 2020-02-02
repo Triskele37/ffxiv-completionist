@@ -3,7 +3,9 @@ import { DataGroup } from "../../DataGroup";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Abalathia%27s%20Spine&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Exploration_Abalathias_Spine = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Abalathia's Spine";
+    return data;
 };
 
 const tasks = [

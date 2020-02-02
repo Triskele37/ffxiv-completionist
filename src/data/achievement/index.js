@@ -2,7 +2,7 @@ import { DataGroup } from "../DataGroup";
 import { AchievementColumnConfig } from "./columnConfigs";
 
 import { Achievements_Battle } from "./battle";
-import { Achievements_PVP } from "./pvp";
+import { Achievements_PvP } from "./pvp";
 import { Achievements_Character } from "./character";
 import { Achievements_Items } from "./item";
 import { Achievements_Crafting } from "./crafting";
@@ -17,7 +17,7 @@ export const Achievements = function(name, parent) {
 
 	data.initializeSubGroups([
 		Achievements_Battle,
-		Achievements_PVP,
+		Achievements_PvP,
 		Achievements_Character,
 		Achievements_Items,
 		Achievements_Crafting,

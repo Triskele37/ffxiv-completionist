@@ -1,4 +1,5 @@
 import { DataGroup } from "../../DataGroup";
+import { QuestColumnConfig } from "../columnConfigs";
 
 import { Quests_Class_and_Job_Disciple_of_War } from "./disciple-of-war-quests";
 import { Quests_Class_and_Job_Disciple_of_Magic } from "./disciple-of-magic-quests";
@@ -10,7 +11,11 @@ import { Quests_Class_and_Job_Disciple_of_Magic_Job } from "./disciple-of-magic-
 import { Quests_Class_and_Job_Role } from "./role-quests";
 
 export const Quests_Class_and_Job = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent);
+    data.columnConfig = QuestColumnConfig;
+    data.name = "Class & Job";
+
+    data.initializeSubGroups([
         Quests_Class_and_Job_Disciple_of_War,
         Quests_Class_and_Job_Disciple_of_Magic,
         Quests_Class_and_Job_Disciple_of_the_Hand,
@@ -20,4 +25,6 @@ export const Quests_Class_and_Job = function(name, parent) {
         Quests_Class_and_Job_Disciple_of_Magic_Job,
         Quests_Class_and_Job_Role,
     ]);
+
+    return data;
 };

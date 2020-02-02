@@ -1,4 +1,5 @@
 import { DataGroup } from "../../DataGroup";
+import { QuestColumnConfig } from "../columnConfigs";
 
 import { Quests_Main_Scenario_Seventh_Umbral_Era } from "./seventh-umbral-era";
 import { Quests_Main_Scenario_Seventh_Astral_Era } from "./seventh-astral-era";
@@ -11,7 +12,10 @@ import { Quests_Main_Scenario_Shadowbringers } from "./shadowbringers";
 import { Quests_Main_Scenario_Post_Shadowbringers } from "./post-shadowbringers";
 
 export const Quests_Main_Scenario = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent);
+    data.columnConfig = QuestColumnConfig;
+
+    data.initializeSubGroups([
         Quests_Main_Scenario_Seventh_Umbral_Era,
         Quests_Main_Scenario_Seventh_Astral_Era,
         Quests_Main_Scenario_Heavensward,
@@ -22,4 +26,6 @@ export const Quests_Main_Scenario = function(name, parent) {
         Quests_Main_Scenario_Shadowbringers,
         Quests_Main_Scenario_Post_Shadowbringers,
     ]);
+
+    return data;
 };

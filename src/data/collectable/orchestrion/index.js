@@ -1,14 +1,14 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Collectables_Orchestrion_Locales } from "./locales";
-import { Collectables_Orchestrion_Dungeon } from "./dungeons";
-import { Collectables_Orchestrion_Mog_Station } from "./mogstation";
-import { Collectables_Orchestrion_Other } from "./other";
-import { Collectables_Orchestrion_Raid } from "./raids";
-import { Collectables_Orchestrion_Seasonal } from "./seasonal";
-import { Collectables_Orchestrion_Trial } from "./trials";
+import { Collectables_Orchestrion_List_Locales } from "./locales";
+import { Collectables_Orchestrion_List_Dungeons } from "./dungeons";
+import { Collectables_Orchestrion_List_Trials } from "./trials";
+import { Collectables_Orchestrion_List_Raids } from "./raids";
+import { Collectables_Orchestrion_List_Others } from "./other";
+import { Collectables_Orchestrion_List_Seasonal } from "./seasonal";
+import { Collectables_Orchestrion_List_Mog_Station } from "./mogstation";
 
-export const Collectables_Orchestrion = function(name, parent) {
+export const Collectables_Orchestrion_List = function(name, parent) {
     const data = new DataGroup(name, parent);
     data.columnConfig = [
         {
@@ -24,13 +24,13 @@ export const Collectables_Orchestrion = function(name, parent) {
     ];
 
     data.initializeSubGroups([
-        Collectables_Orchestrion_Locales,
-        Collectables_Orchestrion_Dungeon,
-        Collectables_Orchestrion_Mog_Station,
-        Collectables_Orchestrion_Other,
-        Collectables_Orchestrion_Raid,
-        Collectables_Orchestrion_Seasonal,
-        Collectables_Orchestrion_Trial,
+        Collectables_Orchestrion_List_Locales,
+        Collectables_Orchestrion_List_Dungeons,
+        Collectables_Orchestrion_List_Trials,
+        Collectables_Orchestrion_List_Raids,
+        Collectables_Orchestrion_List_Others,
+        Collectables_Orchestrion_List_Seasonal,
+        Collectables_Orchestrion_List_Mog_Station,
     ]);
 
     return data;
