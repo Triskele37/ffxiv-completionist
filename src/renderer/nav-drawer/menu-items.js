@@ -1,3 +1,6 @@
+import Store from 'electron-store';
+const store = new Store();
+
 export const MainMenu = {
     name: "FFXIV Completionist",
     disableSelection: true,
@@ -9,9 +12,8 @@ export const MainMenu = {
 export const DebugMenu = {
     name: "Debug",
     disableSelection: true,
-    groupKeys: ["Log", "Reset", "Nuke"],
+    groupKeys: ["Log", "Nuke"],
 
-    Log: { name: "Log Store", onNavigation: (store) => store.dispatch('logStore') },
-    Reset: { name: "Reset Totals", onNavigation: (store) => store.dispatch('resetTotals') },
-    Nuke: { name: "Nuke Store", onNavigation: (store) => store.dispatch('nukeStore') }
+    Log: { name: "Log Store", onNavigation: () => console.log(store) },
+    Nuke: { name: "Nuke Store", onNavigation: () => store.clear() }
 };

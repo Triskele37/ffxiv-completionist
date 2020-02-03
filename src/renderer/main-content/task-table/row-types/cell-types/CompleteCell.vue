@@ -10,6 +10,9 @@
 </template>
 
 <script>
+    import Store from 'electron-store';
+    const store = new Store();
+
     export default {
         name: 'completion-flag-cell',
         props: {
@@ -18,10 +21,14 @@
         },
         methods: {
             onTaskCompleteClick: function() {
-                this.task.changeCompletionFlag(this.task.completionFlag === 'N' ? 'Y' : 'N');
+                const newFlag = this.task.completionFlag === 'N' ? 'Y' : 'N';
+
+                this.task.changeCompletionFlag(newFlag);
+                store.set(this.task._storageKey, newFlag);
             },
             onExcludeTaskClick: function() {
                 this.task.changeCompletionFlag('X');
+                store.set(this.task._storageKey, 'X');
             }
         }
     };

@@ -1,22 +1,5 @@
-/*
-    Duplicate name keys in groups if all displayed: shard/crystals
-*/
-
-/* Data Fixes
-Achievements - 99 extra items (250 in quests.quests, 172 in sheet)
-Crafting -
-    BSM - 551/876
-    GSM - 742/1243
-    ALC - 707/697, 10 extra
-Gathering -
-    Mining - 201/183
-    Harvesting - 275/268
-    Logging - 160/153
-    (9 extra FSH guide, 8 extra FSH log)
-Quests - Reverify counts and verbiage against IG UI
-*/
-
 import { DataGroup } from "./DataGroup";
+import { applyStoreToData } from "./storageUtils";
 
 import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";
@@ -39,9 +22,10 @@ data.initializeSubGroups([
     Quests,
 ]);
 
-export { data };
+// This line is what loads the user's data
+applyStoreToData(data);
 
-console.log(data);
+export { data };
 
 /* Proposed Order
 Character

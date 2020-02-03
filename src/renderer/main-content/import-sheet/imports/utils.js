@@ -1,3 +1,6 @@
+import { data } from '../../../../data';
+import { applyDataToStore } from '../../../../data/storageUtils';
+
 //----------------------------------------------------------------------------- Common Callback
 export const importCallback = function(nameColumnIndex, groups, secondaryCompare) {
     return (rawText, store) => {
@@ -7,9 +10,7 @@ export const importCallback = function(nameColumnIndex, groups, secondaryCompare
         groups.forEach((group) => searchGroupForImportedNames(group, importObj));
 
         // Save
-        /*if(importObj.storeSetterObj) {
-            store.dispatch('setCompletionFlags', importObj.storeSetterObj);
-        }*/
+        applyDataToStore(data);
 
         return importObj;
     };

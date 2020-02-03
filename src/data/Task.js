@@ -30,4 +30,8 @@ export class Task {
             this._parent.updateCompleted(wasY ? -1 : nowY ? 1 : 0);
         }
     }
+
+    get _storageKey() {
+        return `${this._parent._storageKey}.${this.name}`;
+    }
 }
