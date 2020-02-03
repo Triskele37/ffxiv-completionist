@@ -6,9 +6,7 @@ export const Collectables_Triple_Triad_Opponents = function(name, parent) {
             header: "Deck Strength",
             key: "deckStrength",
             filterable: true,
-            styles: {
-                centered: true
-            }
+            centered: true,
         },
         { header: "Opponent", key: "name" },
         { header: "Zone", key: "zone", filterable: true },
@@ -22,9 +20,7 @@ export const Collectables_Triple_Triad_Opponents = function(name, parent) {
             key: "fee",
             filterable: true,
             filterType: "number",
-            styles: {
-                centered: true
-            }
+            centered: true,
         },
     ]);
 };

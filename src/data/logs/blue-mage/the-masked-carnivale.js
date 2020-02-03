@@ -2,7 +2,7 @@ import { DataGroup } from "../../DataGroup";
 
 export const General_Logs_Blue_Mage_The_Masked_Carnivale = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks, [
-        { header: "Level", key: "level", styles: { centered: true } },
+        { header: "Level", key: "level", centered: true },
         { header: "Name", key: "name" },
         { header: "Standard Time", key: "standardTime" },
         { header: "Ideal Time", key: "idealTime" },

@@ -2,7 +2,7 @@
     <div id="stat-bar">
         <summary-line :group="allData" />
         <summary-line
-            v-if="selectedGroup"
+            v-if="selectedGroup && selectedGroup.percentComplete"
             :group="selectedGroup"
         />
     </div>

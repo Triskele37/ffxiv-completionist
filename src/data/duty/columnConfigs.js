@@ -3,17 +3,13 @@ export const DutyColumnConfig = [
         header: 'Level',
         key: 'level',
         filterable: true,
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     {
         header: 'iLvl',
         key: 'iLvlReq',
         filterable: true,
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     { header: 'Name', key: 'name' },
     { header: 'Roulette', key: 'roulette', filterable: true },
@@ -25,9 +21,7 @@ export const HuntColumnConfig = [
         header: 'Rank',
         key: 'rank',
         filterable: true,
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     { header: 'Name', key: 'name' },
     { header: 'Condition', key: 'condition' },
@@ -35,13 +29,7 @@ export const HuntColumnConfig = [
 ];
 
 export const HallOfNoviceColumnConfig = [
-    {
-        header: 'Level',
-        key: 'level',
-        styles: {
-            centered: true
-        }
-    },
+    { header: 'Level', key: 'level', centered: true },
     { header: 'Name', key: 'name' },
     { header: 'Role', key: 'role', filterable: true },
 ];

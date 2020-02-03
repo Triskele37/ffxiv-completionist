@@ -10,7 +10,7 @@
                 class="data-cell"
                 v-for="column in columnConfig"
                 :class="{
-                    centered: column.styles ? column.styles.centered : false
+                    centered: !!column.centered
                 }"
             >
                 {{task[column.key]}}

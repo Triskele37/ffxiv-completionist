@@ -6,9 +6,7 @@ export const AchievementColumnConfig = [
         key: "points",
         filterable: true,
         filterType: "number",
-        styles: {
-            centered: true
-        }
+        centered: true
     },
     { header: "Reward", key: "reward" }
 ];

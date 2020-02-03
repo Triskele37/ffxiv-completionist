@@ -15,14 +15,22 @@ export const OtherQuestSection = {
             ]),
         },
         {
-            title: "Job Quests",
+            title: "Job & Role Quests (old)",
+            importCallback: importCallback(3, [
+                data.Quests.Class_and_Job.Disciple_of_War_Job,
+                data.Quests.Class_and_Job.Disciple_of_Magic_Job,
+                data.Quests.Class_and_Job.Role,
+            ]),
+        },
+        {
+            title: "Job Quests (new)",
             importCallback: importCallback(3, [
                 data.Quests.Class_and_Job.Disciple_of_War_Job,
                 data.Quests.Class_and_Job.Disciple_of_Magic_Job,
             ]),
         },
         {
-            title: "Role Quests",
+            title: "Role Quests (new)",
             importCallback: importCallback(3, [
                 data.Quests.Class_and_Job.Role,
             ]),

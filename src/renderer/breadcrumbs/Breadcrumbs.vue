@@ -9,7 +9,7 @@
         </span>
 
         <!----------- Buttons ----------->
-        <span class="action-buttons" v-if="selectedGroup && selectedGroup.groupKeys">
+        <span class="action-buttons" v-if="showSummaryButton">
             <span class="action-button" @click="toggleShowAllChildren()">
                 {{`${showSummary ? 'Show All Tasks' : 'Show Summary'}`}}
             </span>
@@ -26,7 +26,13 @@
                 breadcrumbs: 'breadcrumbs',
                 selectedGroup: 'selectedGroup',
                 showSummary: 'showSummary'
-            })
+            }),
+            showSummaryButton: function() {
+                if(!this.selectedGroup) return false;
+                if(!this.selectedGroup.groupKeys) return false;
+                if(!this.selectedGroup.columnConfig) return false;
+                return true;
+            }
         },
         methods: {
             onClickCrumb: function(crumb) {

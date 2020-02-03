@@ -7,9 +7,7 @@ export const Collectables_Triple_Triad_Card_List = function(name, parent) {
             header: "Rarity",
             key: "rarity",
             filterable: true,
-            styles: {
-                centered: true
-            }
+            centered: true,
         },
         { header: "Type", key: "type", filterable: true },
         { header: "Opponent", key: "opponent", filterable: true },

@@ -43,6 +43,11 @@
         width: 30px;
     }
 
+    .completion-flag-cell:hover {
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+
     .completion-flag-cell-Y {
         background-color: #0f7538;
     }

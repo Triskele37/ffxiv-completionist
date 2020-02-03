@@ -17,7 +17,7 @@ export const Quests_Levequests = function(name, parent) {
     const data = new DataGroup(name, parent);
 
     data.columnConfig = [
-        { header: "Level", key: "level", styles: { centered: true } },
+        { header: "Level", key: "level", centered: true },
         { header: "Name", key: "name" },
         { header: "Zone", key: "zone" },
         { header: "Location", key: "location" },

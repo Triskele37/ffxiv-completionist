@@ -2,7 +2,7 @@ import { DataGroup } from "../../DataGroup";
 
 export const General_Logs_Blue_Mage_Spellbook = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks, [
-        { header: "#", key: "number", styles: { centered: true } },
+        { header: "#", key: "number", centered: true },
         { header: "Spell", key: "name" },
         { header: "Enemy", key: "enemy" },
         { header: "Location", key: "location" },

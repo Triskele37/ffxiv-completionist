@@ -14,9 +14,7 @@ export const Collectables_Orchestrion_List = function(name, parent) {
         {
             header: 'Number',
             key: 'number',
-            styles: {
-                centered: true
-            }
+            centered: true,
         },
         { header: 'Orchestrion Roll', key: 'name' },
         { header: 'Method Type', key: 'method' },

@@ -23,7 +23,6 @@ export class Task {
 
         if(wasX || nowX) {
             this._parent.updateExcluded(wasX ? -1 : nowX ? 1 : 0);
-            this._parent.updateTotal(wasX ? 1 : nowX ? -1 : 0);
         }
 
         if(wasY || nowY) {

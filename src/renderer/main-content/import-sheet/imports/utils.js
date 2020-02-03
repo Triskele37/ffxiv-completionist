@@ -23,6 +23,7 @@ export class SheetImport {
     secondaryCompare = () => true;
     nameColumnIndex;
     sheetRows;
+    debugMode = false;
 
     constructor(sheet, nameColumnIndex, secondaryCompare) {
         let sheetRows = sheet.split('\n'); // Split each row
@@ -42,7 +43,7 @@ export class SheetImport {
         }
 
         // Remove rows that don't have a completed column
-        sheetRows = sheetRows.filter((row) => row[0].match(/^[YNX]$/));
+        sheetRows = sheetRows.filter((row) => row[0].toUpperCase().match(/^[YNX]$/));
 
         // Set to instance
         this.sheetRows = sheetRows;
@@ -53,26 +54,26 @@ export class SheetImport {
     }
 
     get status() {
-        return (this.sheetRows.length || this.notInSheet.length) ? 'failure' : 'success';
+        return (this.sheetRows.length || (this.debugMode && this.notInSheet.length)) ? 'failure' : 'success';
     }
 
-
     get tooltip() {
-        const totalUnresolved = this.sheetRows.length + this.notInSheet.length;
+        let totalUnresolved = this.sheetRows.length;
+        if(this.debugMode) totalUnresolved += this.notInSheet.length;
 
         if(totalUnresolved === 0) {
-            return `Successful: ${this.total} tasks updated`;
+            return `${this.total} tasks imported`;
         }
         else {
-            let tooltip = `Unsuccessful: ${this.total - totalUnresolved} tasks updated:\n`;
+            let tooltip = `${this.total - this.sheetRows.length} tasks imported:\n`;
 
             if(this.sheetRows.length) {
-                tooltip += `Not found in app (${this.sheetRows.length}):\n`;
+                tooltip += `Not imported (${this.sheetRows.length}):\n`;
                 this.sheetRows.forEach((columns) => tooltip += `${columns[this.nameColumnIndex]}, `);
             }
 
-            if(this.notInSheet.length) {
-                tooltip += `\n\nNot found in sheet (${this.notInSheet.length}):\n`;
+            if(this.debugMode && this.notInSheet.length) {
+                tooltip += `\nNot found in sheet (${this.notInSheet.length}):\n`;
                 tooltip += this.notInSheet.join(', ');
             }
 
@@ -108,7 +109,7 @@ function searchTasksForImportedNames(group, importObj) {
             if(match && secondary) {
                 found = true;
 
-                const flag = row[0];
+                const flag = row[0].toUpperCase();
                 task.changeCompletionFlag(flag);
 
                 // Remove the matched task
@@ -119,7 +120,6 @@ function searchTasksForImportedNames(group, importObj) {
 
         if(!found) {
             importObj.notInSheet.push(task.name);
-            // importObj.notInSheet.push(`${task.name} - ${task._parent._storageKey}`);
         }
     }
 }

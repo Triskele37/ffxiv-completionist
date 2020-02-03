@@ -20,9 +20,7 @@ export const Quests_Beast_Tribe = function(name, parent) {
             header: "Level",
             key: "level",
             filterable: true,
-            styles: {
-                centered: true
-            }
+            centered: true,
         },
         { header: "Name", key: "name" },
         { header: "NPC", key: "npc" },

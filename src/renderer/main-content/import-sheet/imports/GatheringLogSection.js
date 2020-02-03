@@ -26,10 +26,20 @@ export const GatheringLogSection = {
         },
         {
             title: "Fishing Logs",
-            importCallback: importCallback(2, [
-                data.Gathering_Log.Fishing.Log,
-                data.Gathering_Log.Spearfishing.Log
-            ]),
+            importCallback: (rawText, store) => {
+                // After major log tab update
+                let importObj = new SheetImport(rawText, 2);
+
+                // Before major log tab update
+                if(importObj.sheetRows[0][1] !== '1') {
+                    importObj = new SheetImport(rawText, 1);
+                }
+
+                searchGroupForImportedNames(data.Gathering_Log.Fishing.Log, importObj);
+                searchGroupForImportedNames(data.Gathering_Log.Spearfishing.Log, importObj);
+
+                return importObj;
+            },
         },
         {
             title: "Fishing Guide",
