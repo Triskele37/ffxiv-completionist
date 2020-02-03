@@ -6,7 +6,9 @@ export const LeveSection = {
     tabs: [
         {
             title: "BattlecraftGC Leves",
-            importCallback: importCallback(1, [data.Quests.Levequests.Battlecraft]),
+            importCallback: importCallback(1, [data.Quests.Levequests.Battlecraft], (isMatch, task, columns) => {
+                return isMatch || (task.name === columns[1] + ' (L)');
+            }),
         },
         {
             title: "Fieldcraft Leves",
@@ -14,7 +16,9 @@ export const LeveSection = {
                 data.Quests.Levequests.Botany,
                 data.Quests.Levequests.Fishing,
                 data.Quests.Levequests.Mining,
-            ]),
+            ], (isMatch, task, columns) => {
+                return isMatch || (task.name === columns[2] + ' (L)');
+            }),
         },
         {
             title: "Tradecraft Leves",
@@ -27,8 +31,8 @@ export const LeveSection = {
                 data.Quests.Levequests.Goldsmithing,
                 data.Quests.Levequests.Leatherworking,
                 data.Quests.Levequests.Clothcrafting,
-            ], (task, columns) => {
-                return task.level === columns[2];
+            ], (isMatch, task, columns) => {
+                return (task.level === columns[2]) && (isMatch || (task.name === columns[1] + ' (L)'));
             }),
         },
     ]

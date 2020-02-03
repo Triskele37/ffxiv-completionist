@@ -741,7 +741,7 @@ const tasks = [
     },
     {
         level: "60★★★",
-        name: "Eikon Leather Leg Guards of Casting",
+        name: "Eikon Leather Boots of Casting",
         mat1: "2 Eikon Leather",
         mat2: "Eikon Cloth",
         mat3: "Titanium Ingot",
@@ -753,7 +753,7 @@ const tasks = [
     },
     {
         level: "60★★★",
-        name: "Eikon Leather Thighboots of Healing",
+        name: "Eikon Leather Boots of Healing",
         mat1: "2 Eikon Leather",
         mat2: "Eikon Cloth",
         mat3: "Crawler Silk",

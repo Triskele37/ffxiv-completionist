@@ -223,7 +223,7 @@ const tasks = [
     },
     {
         level: "50",
-        name: "Altered Cobolt Gauntlets",
+        name: "Altered Cobalt Gauntlets",
         mat1: "2 Cobalt Plate",
         mat2: "Cobalt Rings",
         mat3: "Boar Leather",

@@ -355,7 +355,7 @@ const tasks = [
     },
     {
         level: "72",
-        name: "Stonegold Uchigatana",
+        name: "Deepgold Uchigatana",
         mat1: "3 Deepgold Nugget",
         mat2: "Stonegold Ingot",
         mat3: "Colbalt Ingot",

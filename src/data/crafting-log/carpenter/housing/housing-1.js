@@ -1005,7 +1005,7 @@ const tasks = [
     },
     {
         level: "68",
-        name: "Hingan Hangin Toro Lamp",
+        name: "Hingan Hanging Toro Lamp",
         mat1: "6 Zelkova Lumber",
         mat2: "4 Persimmon Lumber",
         mat3: "12 Tallow Candle",

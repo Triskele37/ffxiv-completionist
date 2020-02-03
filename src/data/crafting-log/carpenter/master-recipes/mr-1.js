@@ -177,7 +177,7 @@ const tasks = [
     },
     {
         level: "50★★★",
-        name: "Glade Bachelor's Desk",
+        name: "Glade Bachelor's Chest",
         mat1: "4 Ancient Lumber",
         mat2: "2 Cobalt Ingot",
         mat3: "Cobalt Rivets",

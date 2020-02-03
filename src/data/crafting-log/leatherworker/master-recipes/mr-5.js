@@ -201,7 +201,7 @@ const tasks = [
     },
     {
         level: "70★★",
-        name: "True Griffin Bracers of Striking",
+        name: "True Griffin Caligae of Striking",
         mat1: "2 True Griffin Leather",
         mat2: "Palladium Ingot",
         mat3: "Silk Thread",
@@ -213,7 +213,7 @@ const tasks = [
     },
     {
         level: "70★★",
-        name: "True Griffin Bracers of Scouting",
+        name: "True Griffin Caligae of Scouting",
         mat1: "2 True Griffin Leather",
         mat2: "Palladium Ingot",
         mat3: "Silk Thread",

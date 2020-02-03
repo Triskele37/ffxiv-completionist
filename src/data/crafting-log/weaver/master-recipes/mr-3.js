@@ -597,7 +597,7 @@ const tasks = [
     },
     {
         level: "60★",
-        name: "Wind-up Bismark",
+        name: "Wind-up Bismarck",
         mat1: "Blood Pepper",
         mat2: "Chimerical Felt",
         mat3: "Crawler Silk",

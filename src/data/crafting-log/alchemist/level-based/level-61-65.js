@@ -151,7 +151,7 @@ const tasks = [
     },
     {
         level: "64",
-        name: "Enchanted Duriam Ink",
+        name: "Enchanted Durium Ink",
         mat1: "3 Durian Sand",
         mat2: "Cottonseed Oil",
         mat3: "Gyr Abanian Mineral Water",

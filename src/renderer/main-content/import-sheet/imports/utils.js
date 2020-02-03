@@ -2,9 +2,9 @@ import { data } from '../../../../data';
 import { applyDataToStore } from '../../../../data/storageUtils';
 
 //----------------------------------------------------------------------------- Common Callback
-export const importCallback = function(nameColumnIndex, groups, secondaryCompare) {
+export const importCallback = function(nameColumnIndex, groups, finalCompare) {
     return (rawText, store) => {
-        const importObj = new SheetImport(rawText, nameColumnIndex, secondaryCompare);
+        const importObj = new SheetImport(rawText, nameColumnIndex, finalCompare);
 
         // Analyze Matches
         groups.forEach((group) => searchGroupForImportedNames(group, importObj));
@@ -20,12 +20,12 @@ export const importCallback = function(nameColumnIndex, groups, secondaryCompare
 export class SheetImport {
     total;
     notInSheet = [];
-    secondaryCompare = () => true;
+    finalCompare = (isMatch, task, columns) => isMatch;
     nameColumnIndex;
     sheetRows;
     debugMode = false;
 
-    constructor(sheet, nameColumnIndex, secondaryCompare) {
+    constructor(sheet, nameColumnIndex, finalCompare) {
         let sheetRows = sheet.split('\n'); // Split each row
         sheetRows = sheetRows.map((row) => row.split('\t')); // Split each column within a row
 
@@ -45,12 +45,15 @@ export class SheetImport {
         // Remove rows that don't have a completed column
         sheetRows = sheetRows.filter((row) => row[0].toUpperCase().match(/^[YNX]$/));
 
+        // Trim name columns
+        sheetRows.forEach((row) => row[nameColumnIndex] = row[nameColumnIndex].trim());
+
         // Set to instance
         this.sheetRows = sheetRows;
         this.total = this.sheetRows.length;
         this.nameColumnIndex = nameColumnIndex;
 
-        if(secondaryCompare) this.secondaryCompare = secondaryCompare;
+        if(finalCompare) this.finalCompare = finalCompare;
     }
 
     get status() {
@@ -103,10 +106,10 @@ function searchTasksForImportedNames(group, importObj) {
         for(let j = 0; j < importObj.sheetRows.length; j++) {
             const row = importObj.sheetRows[j];
 
-            const match = doTaskNamesMatch(task.name, row[importObj.nameColumnIndex]);
-            const secondary = match && importObj.secondaryCompare(task, row);
+            const isMatch = namesFuzzyMatch(task.name, row[importObj.nameColumnIndex]);
+            const isFinalMatch = importObj.finalCompare(isMatch, task, row);
 
-            if(match && secondary) {
+            if(isFinalMatch) {
                 found = true;
 
                 const flag = row[0].toUpperCase();
@@ -118,41 +121,14 @@ function searchTasksForImportedNames(group, importObj) {
             }
         }
 
-        if(!found) {
-            importObj.notInSheet.push(task.name);
-        }
+        // Keep track of things not found in the sheet for debugging
+        if(!found) importObj.notInSheet.push(task.name);
     }
-}
 
-// Determines if the task name matches the imported name
-function doTaskNamesMatch(taskName, rowName) {
-    // Nuke spacing, punctuation, capitalization, and "The"
-    const cleanRowName = rowName.replace(/[^A-Za-z0-9]/g, '').toLowerCase().replace(/the/g, '');
-    const cleanTaskName = taskName.replace(/[^A-Za-z0-9]/g, '').toLowerCase().replace(/the/g, '');
+    function namesFuzzyMatch(taskName, rowName) {
+        const fuzzyTaskName = taskName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+        const fuzzyRowName = rowName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-    // Simple Match
-    if(cleanTaskName === cleanRowName) return true;
-
-    // Special case for large-scale levequests
-    if(cleanTaskName === cleanRowName + 'l') return true;
-
-    // One offs
-    if(softCompare('yanxian', 'yanzian')) return true;
-    if(softCompare('skybuilders', 'skybuilderss')) return true;
-    if(softCompare('eleven', 'elever')) return true;
-    if(softCompare('eleven', 'elevern')) return true;
-    if(softCompare('far', 'farm')) return true;
-    if(softCompare('mightier', 'mighter')) return true;
-    if(softCompare('traveler', 'traveller')) return true;
-    if(softCompare('raider', 'raiders')) return true;
-
-    if(cleanTaskName === 'lifeonline' && cleanRowName === 'walklinevi') return true;
-    if(cleanTaskName === 'mylittlechocobo' && cleanRowName === 'mylittlechocoboachievement') return true;
-
-    // No Match
-    return false;
-
-    function softCompare(taskNameSubstr, rowNameSubstr) {
-        return cleanTaskName === cleanRowName.replace(rowNameSubstr, taskNameSubstr);
+        return fuzzyTaskName === fuzzyRowName;
     }
 }

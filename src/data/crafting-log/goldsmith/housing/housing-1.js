@@ -801,7 +801,7 @@ const tasks = [
         special: "Housing (Roof)"
     }, {
         level: "66",
-        name: "Hingan Chimbey (Kura-zukuri)",
+        name: "Hingan Chimney (Kura-zukuri)",
         mat1: "4 Durium Nugget",
         mat2: "3 Hardsilver Ingot",
         mat3: "3 Cut Stone",
