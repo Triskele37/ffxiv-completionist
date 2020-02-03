@@ -1,13 +1,16 @@
-// import { data } from "../../../data";
+import { ipcRenderer } from 'electron';
+import { data } from '../../../data';
+import Store from 'electron-store';
+const store = new Store();
 
-// export const state = {
-//     breadcrumbs: ['Overall', 'FATE'],
-//     selectedGroup: data.FATEs,
-//     showSummary: true,
-// };
+const breadcrumbs = store.get('last-breadcrumbs') || ['Overall', 'FFXIV Completionist'];
 
 export const state = {
-    breadcrumbs: ['Overall'],
+    breadcrumbs,
     selectedGroup: null,
     showSummary: true,
 };
+
+ipcRenderer.on('beforeunload', (event, args) => {
+    store.set('last-breadcrumbs', state.breadcrumbs);
+});
