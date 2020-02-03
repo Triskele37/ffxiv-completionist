@@ -1,8 +1,8 @@
 <template>
     <tbody>
         <tr
-            v-for="task in tasks"
-            :key="task.name"
+            v-for="task, index in tasks"
+            :key="`${task.name}-${index}`"
         >
             <completion-flag-cell :task="task" :flag="task.completionFlag" />
 

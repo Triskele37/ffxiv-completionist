@@ -8,6 +8,7 @@ import { Crafting_Log } from "./crafting-log";
 import { Gathering_Log } from "./gathering-log";
 import { Duty } from "./duty";
 import { FATEs } from "./fate";
+import { Travel } from "./travel";
 import { Quests } from "./quest";
 
 const data = new DataGroup("Overall", null);
@@ -19,6 +20,7 @@ data.initializeSubGroups([
     Gathering_Log,
     Duty,
     FATEs,
+    Travel,
     Quests,
 ]);
 

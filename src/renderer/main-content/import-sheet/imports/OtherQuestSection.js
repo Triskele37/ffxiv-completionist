@@ -61,10 +61,12 @@ export const OtherQuestSection = {
             ]),
         },
         {
-            title: "Weapons Quests",
-            importCallback: (rawText) => {
-                return 'Not Implemented'
-            },
+            title: "Weapon Quests",
+            importCallback: importCallback(2, [
+                data.Quests.Beast_Tribe,
+                data.Quests.Sidequests.Side_Story.Zodiac_Weapons,
+                data.Quests.Sidequests.Side_Story.Anima_Weapons,
+            ]),
         },
         {
             title: "Beast Tribe Quests",
