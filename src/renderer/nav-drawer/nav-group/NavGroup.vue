@@ -54,6 +54,9 @@
                     if(!this.group.disableSelection) {
                         this.$store.commit('navigation/SET_SELECTED_GROUP', this.group);
                     }
+                    else {
+                        this.$store.commit('navigation/SET_SELECTED_GROUP', null);
+                    }
                 }
             }
         },
