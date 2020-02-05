@@ -36,7 +36,7 @@
         },
         methods: {
             onClickCrumb: function(crumb) {
-                this.$store.commit('navigation/GOTO_CRUMB', crumb);
+                this.$store.commit('navigation/POP_CRUMBS_UNTIL', crumb);
             },
             toggleShowAllChildren: function() {
                 this.$store.commit('navigation/TOGGLE_SHOW_SUMMARY');

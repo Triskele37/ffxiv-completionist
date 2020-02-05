@@ -1,13 +1,9 @@
 <template>
     <div id="main-content">
         <!----------- Top-Level Summary ----------->
-        <template v-if="!selectedGroup">
-            <summary-line
-                v-for="groupKey in allData.groupKeys"
-                :key="allData[groupKey].name"
-                :group="allData[groupKey]"
-            />
-        </template>
+        <div v-if="!selectedGroup">
+            Hello World
+        </div>
         <!----------- Selected Custom Component ----------->
         <template v-else-if="selectedGroup.component">
             <component v-bind:is="selectedGroup.component"></component>
@@ -18,13 +14,13 @@
         </template>
         <!----------- Summary Mode - Summary & Task Table ----------->
         <template v-else>
-            <template v-if="selectedGroup.groupKeys">
+            <div v-if="selectedGroup.groupKeys" class="group-summary-section">
                 <summary-line
                     v-for="groupKey in selectedGroup.groupKeys"
                     :key="selectedGroup[groupKey].name"
                     :group="selectedGroup[groupKey]"
                 />
-            </template>
+            </div>
 
             <template v-if="selectedGroup.tasks">
                 <task-table
@@ -70,5 +66,10 @@
         height: calc(100% - 160px);
         margin: 10px;
         overflow-y: auto;
+    }
+
+    .group-summary-section {
+        display: flex;
+        flex-wrap: wrap;
     }
 </style>

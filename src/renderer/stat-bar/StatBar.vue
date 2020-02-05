@@ -1,9 +1,10 @@
 <template>
     <div id="stat-bar">
-        <summary-line :group="allData" />
+        <summary-line :group="allData" :big="true" />
         <summary-line
-            v-if="selectedGroup && selectedGroup.percentComplete"
+            v-if="selectedGroup && selectedGroup.percentComplete && selectedGroup !== allData"
             :group="selectedGroup"
+            :big="true"
         />
     </div>
 </template>

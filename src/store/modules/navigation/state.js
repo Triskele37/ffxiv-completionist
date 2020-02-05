@@ -1,16 +1,30 @@
 import { ipcRenderer } from 'electron';
-import { data } from '../../../data';
 import Store from 'electron-store';
 const store = new Store();
 
-const breadcrumbs = store.get('last-breadcrumbs') || ['Overall', 'FFXIV Completionist'];
+import { getGroupFromBreadcrumbs } from './getters';
 
+// Load previous state
+const initialBreadcrumbs = store.get('last-breadcrumbs');
+const initialSelectedGroup = getGroupFromBreadcrumbs(initialBreadcrumbs);
+let loadDefaults = !initialBreadcrumbs;
+
+function diveForGroup(group, targetName) {
+    let ret;
+    group.groupKeys.forEach((groupKey) => {
+        if(group[groupKey].name === targetName) ret = group[groupKey]
+    });
+    return ret;
+}
+
+// Current state
 export const state = {
-    breadcrumbs,
-    selectedGroup: null,
+    breadcrumbs: loadDefaults ? ['Overall'] : initialBreadcrumbs,
+    selectedGroup: loadDefaults ? null : initialSelectedGroup,
     showSummary: true,
 };
 
+// Save the current navigation state before closing the app
 ipcRenderer.on('beforeunload', (event, args) => {
     store.set('last-breadcrumbs', state.breadcrumbs);
 });

@@ -46,7 +46,7 @@
                     this.group.onNavigation(this.$store);
                 }
                 else {
-                    this.$store.commit('navigation/SET_BREADCRUMBS', {
+                    this.$store.commit('navigation/SET_CRUMB_AT', {
                         groupName: this.group.name,
                         degree
                     });

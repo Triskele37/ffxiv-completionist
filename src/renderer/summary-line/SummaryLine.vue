@@ -1,21 +1,27 @@
 <template>
     <div
         class="summary-line"
+        :class="{big: big}"
         :title="tooltip"
+        @click="onClick"
     >
-        <span class="summary-line-info">
-            {{group.name}}
-            <br/>
-            {{`${group.percentComplete}%`}}
-        </span>
-        <span
-            class="progress-line complete-progress"
-            :style="completeBarStyle"
-        />
-        <span
-            class="progress-line incomplete-progress"
-            :style="incompleteBarStyle"
-        />
+        <template v-if="big">
+            <span class="summary-info big">
+                {{group.name}}
+                <br />
+                {{`${group.percentComplete}%`}}
+            </span>
+        </template>
+        <template v-else>
+            <span class="summary-info">
+                <span>{{group.name}}</span>
+                <span style="float: right;">
+                    {{`${group.percentComplete}%`}}
+                </span>
+            </span>
+        </template>
+
+        <span class="progress-line" :style="completeBarStyle" />
     </div>
 </template>
 
@@ -23,7 +29,8 @@
     export default {
         name: 'summary-line',
         props: {
-            group: Object
+            group: Object,
+            big: Boolean,
         },
         computed: {
             tooltip: function() {
@@ -35,45 +42,67 @@
             completeBarStyle: function() {
                 return { width: `${this.group.percentComplete}%` };
             },
-            incompleteBarStyle: function() {
-                // -1px is to give some breathing room for the float calculation
-                return { width: `calc(${100-this.group.percentComplete}% - 1px)` };
+        },
+        methods: {
+            onClick: function() {
+                // Don't allow the stat bar summaries to modify breadcrumbs
+                if(!this.big) this.$store.commit('navigation/PUSH_CRUMB', this.group.name);
             }
         }
     }
 </script>
 
 <style>
+    /*--------------------------------- Container */
     .summary-line {
+        background-color: #75190f;
         position: relative;
-        text-align: center;
-        height: 38px;
-        margin: 10px;
+        margin: 5px 10px;
 
         border: 1px outset;
-        border-radius: 19px;
         overflow: hidden;
     }
 
-    .summary-line-info {
+    .summary-line.big {
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        height: 40px;
+        width: calc(100% - 20px);
+    }
+
+    .summary-line:not(.big) {
+        border-radius: 7.5px;
+        cursor: pointer;
+        display: inline-block;
+        height: 20px;
+        width: calc(33% - 20px);
+    }
+
+    /*--------------------------------- Summary Text */
+    .summary-info {
         position: absolute;
+        top: 1px;
+        width: calc(100% - 10px);
         z-index: 10;
+    }
+
+    .summary-info.big {
+        left: unset;
         transform: translate(-50%, 0);
     }
 
+    .summary-info:not(.big) {
+        left: 5px;
+    }
+
+    /*--------------------------------- Progress Line */
     .progress-line {
+        background-color: #0f7538;
         display: inline-block;
         position: relative;
         height: 100%;
         z-index: 5;
         float: left;
-    }
-
-    .complete-progress {
-        background-color: #0f7538;
-    }
-
-    .incomplete-progress {
-        background-color: #75190f;
     }
 </style>

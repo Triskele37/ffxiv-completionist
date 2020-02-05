@@ -15,19 +15,12 @@
             :degree="1"
             :group="allData[groupKey]"
         />
-
-        <!---------------------- Debug Menu ---------------------->
-        <nav-group
-            :show="true"
-            :degree="1"
-            :group="debugMenu"
-        />
     </span>
 </template>
 
 <script>
     import { data } from '../../data';
-    import { MainMenu, DebugMenu } from './menu-items';
+    import { MainMenu } from './menu-items';
     import NavGroup from './nav-group/NavGroup.vue';
 
     export default {
@@ -35,7 +28,6 @@
         data: () => ({
             allData: data,
             mainMenu: MainMenu,
-            debugMenu: DebugMenu,
         }),
         components: {
             'nav-group': NavGroup

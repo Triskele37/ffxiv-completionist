@@ -1,36 +1,55 @@
-import { data } from "../../../data";
+import { getGroupFromBreadcrumbs } from './getters';
 
 export const mutations = {
-    SET_BREADCRUMBS (state, data) {
-        let breadcrumbs = [];
-        for(let i = 0; i < data.degree; i++) {
-            breadcrumbs.push(state.breadcrumbs[i]);
-        }
+    PUSH_CRUMB: pushCrumb,
+    POP_CRUMBS_UNTIL: popCrumbsUntil,
+    SET_CRUMB_AT: setCrumbAt,
 
-        state.breadcrumbs = breadcrumbs.concat(data.groupName);
-    },
-    GOTO_CRUMB (state, crumb) {
-        for(let i = state.breadcrumbs.length; i > -1; i--) {
-            if(state.breadcrumbs[i - 1] === crumb) break;
-            state.breadcrumbs.pop();
-        }
-
-        let selectedGroup = data;
-        for(let i = 0; i < state.breadcrumbs.length; i++) {
-            for(let groupKey in selectedGroup.groupKeys) {
-                if(state.breadcrumbs[i] === selectedGroup[groupKey].name) {
-                    selectedGroup = selectedGroup[groupKey];
-                }
-            }
-        }
-
-        state.selectedGroup = selectedGroup;
-    },
-    SET_SELECTED_GROUP (state, data) {
-        state.selectedGroup = data;
-    },
+    SET_SELECTED_GROUP: setSelectedGroupTo,
     TOGGLE_SHOW_SUMMARY (state) {
         if(!state.selectedGroup || !state.selectedGroup.groupKeys) state.showSummary = false;
         else state.showSummary = !state.showSummary;
     }
 };
+
+//------------------------------------------------------- Crumb Mutation
+function pushCrumb(state, crumb) {
+    // concat so state mutates
+    state.breadcrumbs = state.breadcrumbs.concat(crumb);
+
+    // also set the selected group to match
+    for(let i = 0; i < state.selectedGroup.groupKeys.length; i++) {
+        const groupKey = state.selectedGroup.groupKeys[i];
+
+        if(state.selectedGroup[groupKey].name === crumb) {
+            state.selectedGroup = state.selectedGroup[groupKey];
+            break;
+        }
+    }
+}
+
+function popCrumbsUntil(state, crumb) {
+    // Step backward through breadcrumbs, pop until crumb is found
+    for(let i = state.breadcrumbs.length; i > -1; i--) {
+        if(state.breadcrumbs[i - 1] === crumb) break;
+        state.breadcrumbs.pop();
+    }
+
+    state.selectedGroup = getGroupFromBreadcrumbs(state.breadcrumbs);
+}
+
+function setCrumbAt(state, data) {
+    let breadcrumbs = [];
+    for(let i = 0; i < data.degree; i++) {
+        breadcrumbs.push(state.breadcrumbs[i]);
+    }
+
+    state.breadcrumbs = breadcrumbs.concat(data.groupName);
+}
+
+//------------------------------------------------------- Group Mutation
+function setSelectedGroupTo(state, group) {
+    state.selectedGroup = group;
+}
+
+//------------------------------------------------------- Show All
