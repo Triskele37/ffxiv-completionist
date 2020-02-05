@@ -8,6 +8,7 @@ import { Collectables_Mount_Guide } from "./mount";
 import { Collectables_Orchestrion_List } from "./orchestrion";
 import { Collectables_Triple_Triad_Card_List } from "./tripletriad-card";
 import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
+import { Collectables_Relic_Gear } from "./relic-gear";
 
 export const Collectables = function(name, parent) {
 	return new DataGroup(name, parent).initializeSubGroups([
@@ -19,5 +20,6 @@ export const Collectables = function(name, parent) {
         Collectables_Orchestrion_List,
         Collectables_Triple_Triad_Card_List,
         Collectables_Triple_Triad_Opponents,
+        Collectables_Relic_Gear,
 	]);
 };

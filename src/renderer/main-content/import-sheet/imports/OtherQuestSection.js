@@ -63,10 +63,37 @@ export const OtherQuestSection = {
         {
             title: "Weapon Quests",
             importCallback: importCallback(2, [
-                data.Quests.Beast_Tribe,
                 data.Quests.Sidequests.Side_Story.Zodiac_Weapons,
                 data.Quests.Sidequests.Side_Story.Anima_Weapons,
-            ]),
+                data.Quests.Sidequests.Gridanian.North_Shroud,
+                data.Quests.Sidequests.Ul_Dahn.Western_Thanalan,
+                data.Quests.Sidequests.Mor_Dhonan.Mor_Dhona,
+                data.Collectables.Relic_Gear,
+            ], (isMatch, task, columns) => {
+                if(isMatch) return true;
+
+                if(task.name === columns[2].replace('Madness', 'Malice')) return true;
+
+                // Match iLVL for relics pre-eureka
+                if(task.iLvl && task.iLvl === columns[1] && parseInt(task.iLvl) < 290) {
+                    const jobName = getWeaponTabRelicJob(columns[2]);
+
+                    if(task.job === jobName) {
+                        if(task.name.includes('Atma') && !columns[2].includes('Up In Arms')) return false;
+                        if(task.name.includes('Animus') && !columns[2].includes('Trials of the Brave')) return false;
+                        if(task.name.includes('Sphere Scroll') && !columns[2].includes('Celestial Radiance')) return false;
+                        if(task.name.includes('Novus') && !columns[2].includes('Star Light, Star Bright')) return false;
+
+                        // For all others, no other relic has the same iLvl
+                        return true;
+                    }
+                }
+
+                // Ignores equipment slot part of name for eureka gear
+                if(task.name === columns[2].replace(/ \(.*\)/, '')) return true;
+
+                return false;
+            }),
         },
         {
             title: "Beast Tribe Quests",
@@ -83,3 +110,25 @@ export const OtherQuestSection = {
         },
     ]
 };
+
+function getWeaponTabRelicJob(rowName) {
+    const jobAbbreviation = rowName.match(/\(.*\)/);
+    if(!jobAbbreviation) return null;
+
+    switch(jobAbbreviation[0]) {
+        case '(AST)': return 'Astrologian';
+        case '(BLM)': return 'Black Mage';
+        case '(BRD)': return 'Bard';
+        case '(DRK)': return 'Dark Knight';
+        case '(DRG)': return 'Dragoon';
+        case '(MCH)': return 'Machinist';
+        case '(MNK)': return 'Monk';
+        case '(NIN)': return 'Ninja';
+        case '(PLD)': return 'Paladin';
+        case '(SCH)': return 'Scholar';
+        case '(SMN)': return 'Summoner';
+        case '(WAR)': return 'Warrior';
+        case '(WHM)': return 'White Mage';
+        default: return null;
+    }
+}

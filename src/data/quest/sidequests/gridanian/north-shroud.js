@@ -142,7 +142,7 @@ const tasks = [
         unlock: ""
     }, {
         level: "50",
-        name: "One Man's Trash (Quest)",
+        name: "One Man's Trash",
         npc: "Eustace",
         unlock: ""
     }, {

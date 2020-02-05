@@ -28,16 +28,15 @@
                 </button>
             </div>
 
-            <template v-if="selectedGroup.tasks && !showAll">
+            <!----------- Task Tables (base & show all) ----------->
+            <template v-if="showShowAllButton && showAll">
+                <show-all-section :group="selectedGroup" />
+            </template>
+            <template v-else-if="selectedGroup.tasks">
                 <task-table
                     :column-config="selectedGroup.columnConfig"
                     :tasks="selectedGroup.tasks"
                 />
-            </template>
-
-            <!----------- Show All Mode - Task Table ----------->
-            <template v-if="showAll">
-                <show-all-section :group="selectedGroup" />
             </template>
         </template>
     </div>

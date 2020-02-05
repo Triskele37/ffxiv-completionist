@@ -29,11 +29,6 @@ applyStoreToData(data);
 
 export { data };
 
-/* Remaining Import Tasks
-- Verify Guildhests name for Hero on the Halfshell
-- Weapons in Other Quests, how do
-*/
-
 /* Proposed Order
 Character
     Barding
