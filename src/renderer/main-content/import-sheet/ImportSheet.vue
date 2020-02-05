@@ -72,7 +72,7 @@
         flex-direction: column;
         flex-wrap: wrap;
 
-        height: 910px;
+        height: 920px;
         width: 100%;
     }
 
