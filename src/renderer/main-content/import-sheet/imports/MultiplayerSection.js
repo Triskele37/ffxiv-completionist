@@ -6,7 +6,10 @@ export const MultiplayerSection = {
     tabs: [
         {
             title: "Dungeons",
-            importCallback: importCallback(3, [data.Duty.Dungeons]),
+            importCallback: importCallback(3, [
+                data.Duty.Dungeons,
+                data.Duty.Guildhests
+            ]),
         },
         {
             title: "Raids",

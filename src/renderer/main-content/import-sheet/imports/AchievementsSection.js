@@ -10,8 +10,8 @@ export const AchievementsSection = {
                 if(isMatch) return true;
 
                 if(task.name === columns[1].replace('Raiders', 'Raider')) return true;
-
-                if(task.name === 'Octopath Traveler' && columns[1] === 'Octopath Traveller') return true;
+                if(task.name === columns[1].replace('Mighter', 'Mightier')) return true;
+                if(task.name === columns[1].replace('Traveller', 'Traveler')) return true;
                 if(task.name === 'Mightier than Levin' && columns[1] === 'Mightier than the Levin') return true;
                 return false;
             }),
@@ -37,12 +37,34 @@ export const AchievementsSection = {
                 if(task.name === columns[1].replace('Elever', 'Eleven')) return true;
 
                 if(task.name === 'Life on the Line' && columns[1] === 'Walk the Line VI') return true;
+
+                if(isMislabeledDarkRobesI('II')) return true;
+                if(isMislabeledDarkRobesI('III')) return true;
+                if(isMislabeledDarkRobesI('IV')) return true;
                 return false;
+
+                function isMislabeledDarkRobesI(taskTier) {
+                    if(task.name === `A Wolf in Dark Robes ${taskTier}`) {
+                        if(columns[1] === 'A Wolf in Dark Robes I') {
+                            switch(taskTier) {
+                                case 'II': return columns[3].indexOf('50') !== -1;
+                                case 'III': return columns[3].indexOf('100') !== -1;
+                                case 'IV': return columns[3].indexOf('500') !== -1;
+                            }
+                        }
+                    }
+
+                    return false;
+                }
             }),
         },
         {
             title: "Items Achievements",
-            importCallback: importCallback(1, [data.Achievements.Items]),
+            importCallback: importCallback(1, [data.Achievements.Items], (isMatch, task, columns) => {
+                if(isMatch) return true;
+                if(task.name === columns[1].replace('the ', '')) return true;
+                return false;
+            }),
         },
         {
             title: "Crafting Achievements",
@@ -65,7 +87,7 @@ export const AchievementsSection = {
             title: "Exploration Achievements",
             importCallback: importCallback(1, [data.Achievements.Exploration], (isMatch, task, columns) => {
                 if(isMatch) return true;
-                if(task.name === columns[1].replace('The', '')) return true;
+                if(task.name === columns[1].replace('The ', '')) return true;
                 return false;
             }),
         },

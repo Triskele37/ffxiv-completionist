@@ -48,6 +48,21 @@ export class SheetImport {
         // Trim name columns
         sheetRows.forEach((row) => row[nameColumnIndex] = row[nameColumnIndex].trim());
 
+        // Search for duplicates and add a prop for their position if found
+        const taskObjs = {};
+        sheetRows.forEach((row, index) => {
+            const rowName = row[nameColumnIndex]
+
+            if(!taskObjs[rowName]) taskObjs[rowName] = { rowName, indexes: [index] };
+            else taskObjs[rowName].indexes.push(index);
+        });
+
+        Object.keys(taskObjs).forEach((taskName) => {
+            if(taskObjs[taskName].indexes.length > 1) {
+                taskObjs[taskName].indexes.forEach((rowIndex, dupeIndex) => sheetRows[rowIndex].duplicateIndex = dupeIndex);
+            }
+        });
+
         // Set to instance
         this.sheetRows = sheetRows;
         this.total = this.sheetRows.length;

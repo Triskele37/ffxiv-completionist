@@ -141,8 +141,8 @@ const tasks = [
     },
     {
         level: "50★★★★",
-        name: "Thunder Rolls Orchestrion Roll",
-        mat1: "Faded Copy of Thunder Rolls",
+        name: "Thunderer Orchestrion Roll",
+        mat1: "Faded Copy of Thunderer",
         mat2: "Blank Grade 2 Orchestrion Roll",
         mat3: "Enchanted Platinum Ink",
         mat4: "X",

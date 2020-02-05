@@ -1,8 +1,7 @@
-import { DataGroup } from "../DataGroup";
-import { DutyColumnConfig } from "./columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Duty_Guildhests = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks, DutyColumnConfig);
+export const Duty_Guildhests_Machinist = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
@@ -10,85 +9,85 @@ const tasks = [
         level: "10",
         iLvlReq: "",
         name: "Basic Training: Enemy Parties",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Simply the Hest"
     }, {
         level: "10",
         iLvlReq: "",
         name: "Under the Armor",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Basic Training: Enemy Parties"
     }, {
         level: "15",
         iLvlReq: "",
         name: "Basic Training: Enemy Strongholds",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Under the Armor"
     }, {
         level: "15",
         iLvlReq: "",
         name: "Hero on the Half Shell",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Basic Training: Enemy Strongholds"
     }, {
         level: "20",
         iLvlReq: "",
         name: "Pulling Poison Posies",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Hero on the Half Shell"
     }, {
         level: "20",
         iLvlReq: "",
         name: "Stinging Back",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Pulling Poison Posies"
     }, {
         level: "25",
         iLvlReq: "",
         name: "All's Well that Ends in the Well",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Stinging Back"
     }, {
         level: "25",
         iLvlReq: "",
         name: "Flicking Sticks and Taking Names",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "All's Well that Ends in the Well"
     }, {
         level: "30",
         iLvlReq: "",
         name: "More than a Feeler",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Flicking Sticks and Taking Names"
     }, {
         level: "30",
         iLvlReq: "",
         name: "Annoy the Void",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "More than a Feeler"
     }, {
         level: "35",
         iLvlReq: "",
         name: "Shadow and Claw",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Annoy the Void"
     }, {
         level: "35",
         iLvlReq: "",
         name: "Long Live the Queen",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Shadow and Claw"
     }, {
         level: "40",
         iLvlReq: "",
         name: "Ward Up",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Long Live the Queen"
     }, {
         level: "40",
         iLvlReq: "",
         name: "Solemn Trinity",
-        roulette: "",
-        unlock: ""
+        roulette: "Guildhests",
+        unlock: "Ward Up"
     },
 ];

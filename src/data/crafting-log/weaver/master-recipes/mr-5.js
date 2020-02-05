@@ -45,7 +45,7 @@ const tasks = [
     },
     {
         level: "70★★",
-        name: "Ala Mhigan Bottoms of Crafting",
+        name: "Ala Mhigan Turban of Crafting",
         mat1: "2 Ala Mhigan Fiber",
         mat2: "Rhea Cloth",
         mat3: "2 Gazelle Leather",
@@ -57,7 +57,7 @@ const tasks = [
     },
     {
         level: "70★★",
-        name: "Ala Mhigan Bottoms of Gathering",
+        name: "Ala Mhigan Turban of Gathering",
         mat1: "2 Ala Mhigan Fiber",
         mat2: "Rhea Cloth",
         mat3: "2 Gazelle Leather",

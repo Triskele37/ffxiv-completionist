@@ -20,6 +20,18 @@ const tasks = [
         special: "Tradable, Ingredient (ARM), Unlocked w/ Master Armorer I"
     },
     {
+        level: "50★★",
+        name: "Magitek Repair Materials",
+        mat1: "Dark Matter Cluster",
+        mat2: "Grade 6 Dark Matter",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "",
+        special: "Unlocked w/ Master Alchemist I"
+    },
+    {
         level: "50★★★",
         name: "Reinforced Darksteel Wire",
         mat1: "Darksteel Wire",

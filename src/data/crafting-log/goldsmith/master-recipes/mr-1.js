@@ -19,6 +19,17 @@ const tasks = [
         catalysts: "1Wind Shard, 10 Fire Shard",
         special: "Trade, Ingredient (GSM), Unlocked w/ Master Goldsmith I"
     }, {
+        level: "50★★",
+        name: "Magitek Repair Materials",
+        mat1: "Dark Matter Cluster",
+        mat2: "Grade 6 Dark Matter",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "",
+        special: "Unlocked w/ Master Alchemist I"
+    }, {
         level: "50★★★",
         name: "Fluorite Lens",
         mat1: "3 Clear Glass Flourite",

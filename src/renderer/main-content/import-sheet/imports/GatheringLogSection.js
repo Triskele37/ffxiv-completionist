@@ -37,6 +37,7 @@ export const GatheringLogSection = {
                 importObj.finalCompare = (isMatch, task, columns) => {
                     if(!columns[1] === 'Harvesting' || isMatch) return isMatch && columns[1] === 'Harvesting';
 
+                    if(task.name === 'Skybuilders\' Adder' && columns[3] === 'Skybuilders\'s Adder') return true;
                     if(task.name === 'Amh Araeng Seasonings' && columns[3] === 'Kholusian Seasonings') return true;
                     if(task.name === 'Yanxian Cotton Boll' && columns[3] === 'Yanzian Cotton Boll') return true;
                     return false;
@@ -49,24 +50,20 @@ export const GatheringLogSection = {
         {
             title: "Fishing Logs",
             importCallback: (rawText, store) => {
-                // After major log tab update
-                let nameColumnIndex = 2;
-                let importObj = new SheetImport(rawText, nameColumnIndex, finalCompare);
+                const nameColumnIndex = rawText.split('\n')[0].split('\t').indexOf('Log');
+                const importObj = new SheetImport(rawText, nameColumnIndex, (isMatch, task, columns) => {
+                    if(isMatch) return true;
+                    
+                    if(task.name === 'The Lozatl' && columns[nameColumnIndex] === 'The Rotzatl') return true;
+                    if(task.name === 'The Lozatl' && columns[nameColumnIndex] === 'The Lotzatl') return true;
 
-                // Before major log tab update
-                if(importObj.sheetRows[0][1] !== '1') {
-                    nameColumnIndex = 1;
-                    importObj = new SheetImport(rawText, nameColumnIndex, finalCompare);
-                }
+                    return false;
+                });
 
                 searchGroupForImportedNames(data.Gathering_Log.Fishing.Log, importObj);
                 searchGroupForImportedNames(data.Gathering_Log.Spearfishing.Log, importObj);
 
                 return importObj;
-
-                function finalCompare(isMatch, task, columns) {
-                    return isMatch || (task.name === 'The Lozatl' && columns[nameColumnIndex] === 'The Rotzatl');
-                }
             },
         },
         {

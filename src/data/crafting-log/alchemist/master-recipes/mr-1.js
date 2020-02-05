@@ -21,6 +21,18 @@ const tasks = [
     },
     {
         level: "50★★",
+        name: "Magitek Repair Materials",
+        mat1: "Dark Matter Cluster",
+        mat2: "Grade 6 Dark Matter",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "",
+        special: "Unlocked w/ Master Alchemist I"
+    },
+    {
+        level: "50★★",
         name: "Giantsgall Longsword",
         mat1: "Mossy Stone Sword",
         mat2: "9 Diluted Vitriol",

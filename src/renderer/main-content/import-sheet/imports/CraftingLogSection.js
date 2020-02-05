@@ -41,7 +41,9 @@ export const CraftingLogSection = {
             importCallback: importCallback(2, [data.Crafting_Log.Goldsmith], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
-                // Odder Otter Andon Lamp duplicated over Odder Otter Hanging Andon Lamp
+                if(task.name === 'Odder Otter Hanging Andon Lamp' && columns[2] === 'Odder Otter Andon Lamp') {
+                    if(columns.duplicateIndex === 0) return true;
+                }
 
                 if(task.name === 'Hingan Chimney (Kura-zukuri)' && columns[2] === 'Hingan Chimbey (Kura-zukuri)') return true;
                 return false;
@@ -52,8 +54,13 @@ export const CraftingLogSection = {
             importCallback: importCallback(2, [data.Crafting_Log.Leatherworker], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
-                // True Griffin Bracers of Striking duplicated over True Griffin Caligae of Striking
-                // True Griffin Bracers of Scouting duplicated over True Griffin Caligae of Scouting
+                if(task.name === 'True Griffin Caligae of Striking' && columns[2] === 'True Griffin Bracers of Striking') {
+                    if(columns.duplicateIndex === 1) return true;
+                }
+
+                if(task.name === 'True Griffin Caligae of Scouting' && columns[2] === 'True Griffin Bracers of Scouting') {
+                    if(columns.duplicateIndex === 1) return true;
+                }
 
                 if(task.name === 'Eikon Leather Boots of Casting' && columns[2] === 'Eikon Leather Leg Guards of Casting') return true;
                 if(task.name === 'Eikon Leather Boots of Healing' && columns[2] === 'Eikon Leather Thighboots of Healing') return true;
@@ -65,9 +72,14 @@ export const CraftingLogSection = {
             importCallback: importCallback(2, [data.Crafting_Log.Weaver], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
+                if(task.name === 'Ala Mhigan Turban of Crafting' && columns[2] === 'Ala Mhigan Bottoms of Crafting') {
+                    if(columns.duplicateIndex === 0) return true;
+                }
+
+                if(task.name === 'Ala Mhigan Turban of Gathering' && columns[2] === 'Ala Mhigan Bottoms of Gathering') {
+                    if(columns.duplicateIndex === 0) return true;
+                }
                 // Dwarven Cotton Gaskins of Maiming duplicated over Dwarven Cotton Gaskins of Striking
-                // Ala Mhigan Bottoms of Crafting duplicated over Ala Mhigan Turban of Crafting
-                // Ala Mhigan Bottoms of Gathering duplicated over Ala Mhigan Turban of Gathering
 
                 if(task.name === 'Twinthread' && columns[2] === 'Silk Thread' && columns[1] === '68') return true;
                 if(task.name === 'Wind-up Bismarck' && columns[2] === 'Wind-up Bismark') return true;
@@ -79,7 +91,9 @@ export const CraftingLogSection = {
             importCallback: importCallback(2, [data.Crafting_Log.Alchemist], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
-                // Thunder Rolls Orchestrion Roll duplicated over Thunderer Orchestrion Roll
+                if(task.name === 'Thunderer Orchestrion Roll' && columns[2] === 'Thunder Rolls Orchestrion Roll') {
+                    if(columns.duplicateIndex === 0) return true;
+                }
 
                 if(task.name === 'Enchanted Durium Ink' && columns[2] === 'Enchanted Duriam Ink') return true;
                 if(task.name === 'Shinryu\'s Wing' && columns[2] === 'Shinryu\'s Wings') return true;

@@ -20,6 +20,18 @@ const tasks = [
         special: "Trade, Ingredient (LTW), Unlocked w/ Master Leatherworker I"
     },
     {
+        level: "50★★",
+        name: "Magitek Repair Materials",
+        mat1: "Dark Matter Cluster",
+        mat2: "Grade 6 Dark Matter",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "",
+        special: "Unlocked w/ Master Alchemist I"
+    },
+    {
         level: "50★★★",
         name: "Patent Leather",
         mat1: "3 Lampblack Linseed Oil",

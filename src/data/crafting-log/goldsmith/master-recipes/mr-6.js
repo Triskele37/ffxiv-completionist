@@ -20,7 +20,7 @@ const tasks = [
         special: "Housing (Ceiling Light), Unlocked w/ Master Goldsmith VI"
     }, {
         level: "70★★",
-        name: "Odder Otter Andon Lamp",
+        name: "Odder Otter Hanging Andon Lamp",
         mat1: "Empyrean Clay",
         mat2: "2 Silvergrace Ingot",
         mat3: "Hingan Chochin Lantern",
