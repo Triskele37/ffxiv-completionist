@@ -9,7 +9,13 @@ export const MultiplayerSection = {
             importCallback: importCallback(3, [
                 data.Duty.Dungeons,
                 data.Duty.Guildhests
-            ]),
+            ], (isMatch, task, columns) => {
+                if(isMatch) return true;
+
+                if(task.name === 'Hero on the Half Shell' && columns[3] === 'Hero on the Halfshell') return true;
+
+                return false;
+            }),
         },
         {
             title: "Raids",
