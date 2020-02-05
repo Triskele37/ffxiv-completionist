@@ -6,10 +6,6 @@ export const mutations = {
     SET_CRUMB_AT: setCrumbAt,
 
     SET_SELECTED_GROUP: setSelectedGroupTo,
-    TOGGLE_SHOW_SUMMARY (state) {
-        if(!state.selectedGroup || !state.selectedGroup.groupKeys) state.showSummary = false;
-        else state.showSummary = !state.showSummary;
-    }
 };
 
 //------------------------------------------------------- Crumb Mutation
@@ -51,5 +47,3 @@ function setCrumbAt(state, data) {
 function setSelectedGroupTo(state, group) {
     state.selectedGroup = group;
 }
-
-//------------------------------------------------------- Show All

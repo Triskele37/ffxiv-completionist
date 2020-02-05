@@ -21,7 +21,7 @@
         computed: {
             allChildTasks: function() {
                 return diveForTasks(this.group);
-            }
+            },
         },
     };
 
@@ -42,6 +42,6 @@
 
 <style>
     .show-all-section {
-
+        width: calc(100% - 20px);
     }
 </style>

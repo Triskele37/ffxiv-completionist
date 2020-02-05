@@ -21,7 +21,6 @@ function diveForGroup(group, targetName) {
 export const state = {
     breadcrumbs: loadDefaults ? ['Overall'] : initialBreadcrumbs,
     selectedGroup: loadDefaults ? null : initialSelectedGroup,
-    showSummary: true,
 };
 
 // Save the current navigation state before closing the app

@@ -8,11 +8,7 @@
         <template v-else-if="selectedGroup.component">
             <component v-bind:is="selectedGroup.component"></component>
         </template>
-        <!----------- Show All Mode - Task Table ----------->
-        <template v-else-if="!showSummary">
-            <show-all-section :group="selectedGroup" />
-        </template>
-        <!----------- Summary Mode - Summary & Task Table ----------->
+        <!----------- Summary & Task Table ----------->
         <template v-else>
             <div v-if="selectedGroup.groupKeys" class="group-summary-section">
                 <summary-line
@@ -22,11 +18,26 @@
                 />
             </div>
 
-            <template v-if="selectedGroup.tasks">
+            <div class="section-actions">
+                <button
+                    class="action-button"
+                    v-if="showShowAllButton"
+                    @click="toggleShowAll"
+                >
+                    {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
+                </button>
+            </div>
+
+            <template v-if="selectedGroup.tasks && !showAll">
                 <task-table
                     :column-config="selectedGroup.columnConfig"
                     :tasks="selectedGroup.tasks"
                 />
+            </template>
+
+            <!----------- Show All Mode - Task Table ----------->
+            <template v-if="showAll">
+                <show-all-section :group="selectedGroup" />
             </template>
         </template>
     </div>
@@ -45,6 +56,7 @@
         name: 'main-content',
         data: () => ({
             allData: data,
+            showAll: false,
         }),
         components: {
             'summary-line': SummaryLine,
@@ -55,9 +67,16 @@
         computed: {
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup',
-                showSummary: 'showSummary',
             }),
+            showShowAllButton: function() {
+                return (this.selectedGroup && this.selectedGroup.groupKeys && this.selectedGroup.columnConfig);
+            },
         },
+        methods: {
+            toggleShowAll: function() {
+                this.showAll = !this.showAll;
+            }
+        }
     };
 </script>
 
@@ -71,5 +90,30 @@
     .group-summary-section {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .section-actions {
+        text-align: center;
+    }
+
+    .action-button {
+        background-color: #0F4C75;
+        border-radius: 10px;
+        border: 1px solid;
+        color: #BBE1FA;
+        text-align: center;
+        user-select: none;
+
+        margin: 5px;
+        padding: 0 10px;
+    }
+
+    .action-button:hover {
+        filter: brightness(125%);
+        cursor: pointer;
+    }
+
+    .action-button:active {
+        filter: brightness(75%);
     }
 </style>
