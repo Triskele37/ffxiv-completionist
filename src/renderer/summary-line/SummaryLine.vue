@@ -9,14 +9,14 @@
             <span class="summary-info big">
                 {{group.name}}
                 <br />
-                {{`${group.percentComplete}%`}}
+                {{displayedPercentComplete}}
             </span>
         </template>
         <template v-else>
             <span class="summary-info">
                 <span>{{group.name}}</span>
                 <span style="float: right;">
-                    {{`${group.percentComplete}%`}}
+                    {{displayedPercentComplete}}
                 </span>
             </span>
         </template>
@@ -38,6 +38,10 @@
                 tooltip += `${this.group.totalExcluded} Excluded`;
 
                 return tooltip;
+            },
+            displayedPercentComplete: function() {
+                if(this.group.percentComplete) return `${this.group.percentComplete}%`;
+                return 'N/A';
             },
             completeBarStyle: function() {
                 return { width: `${this.group.percentComplete}%` };

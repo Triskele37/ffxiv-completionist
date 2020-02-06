@@ -28,6 +28,11 @@ export class DataGroup {
         this._name = this.name.replace(/ /g, '_');
         this._storageKey = generateStorageKey(this._name, parent);
 
+        // Special case rename for level based groups
+        if(this.name.match(/[0-9]{1,2} [0-9]{1,2}/)) {
+            this.name = this.name.replace(' ', '-');
+        }
+
         // Inherit things
         if(this._parent) {
             if(this._parent.columnConfig) this.columnConfig = this._parent.columnConfig;
@@ -83,6 +88,7 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Getters
     get percentComplete() {
+        if(!this.total) return null;
         return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
     }
 
