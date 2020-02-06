@@ -104,5 +104,6 @@
         height: 100%;
         z-index: 5;
         float: left;
+        transition: width 0.5s;
     }
 </style>
