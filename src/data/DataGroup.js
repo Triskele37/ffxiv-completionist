@@ -14,6 +14,7 @@ export class DataGroup {
     groupKeys;  // Keys to sub groups of this group
 
     columnConfig;
+    defaultCompletion = 'N';
     tasks;
 
     total = 0;     // The total of all tasks of this and children
@@ -36,6 +37,7 @@ export class DataGroup {
         // Inherit things
         if(this._parent) {
             if(this._parent.columnConfig) this.columnConfig = this._parent.columnConfig;
+            this.defaultCompletion = this._parent.defaultCompletion;
         }
 
         return this;
@@ -55,7 +57,12 @@ export class DataGroup {
     }
 
     initializeTasks(tasks, columnConfig) {
-        this.tasks = tasks.map((task) => new Task(task, this));
+        this.tasks = tasks.map((task) => {
+            const taskObj = new Task(task, this);
+            taskObj.changeCompletionFlag(this.defaultCompletion);
+            return taskObj;
+        });
+
         if(columnConfig) this.columnConfig = columnConfig;
 
         // Update totals
