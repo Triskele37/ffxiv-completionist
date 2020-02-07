@@ -1,7 +1,10 @@
 <template>
     <div
         class="summary-line"
-        :class="{big: big}"
+        :class="{
+            big: big,
+            excluded: displayedPercentComplete === 'N/A'
+        }"
         :title="tooltip"
         @click="onClick"
     >
@@ -65,6 +68,10 @@
 
         border: 1px outset;
         overflow: hidden;
+    }
+
+    .summary-line.excluded {
+        background-color: #333;
     }
 
     .summary-line.big {

@@ -11,7 +11,10 @@ import { Quests_Other_Seasonal_All_Saints_Wake } from "./all-saints-wake-events"
 import { Quests_Other_Seasonal_Starlight_Celebration } from "./starlight-celebration-events";
 
 export const Quests_Other_Seasonal = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+    const data = new DataGroup(name, parent)
+    data.defaultCompletion = "X";
+
+    data.initializeSubGroups([
         Quests_Other_Seasonal_Heavensturn,
         Quests_Other_Seasonal_Valentiones_Day,
         Quests_Other_Seasonal_Little_Ladies_Day,
@@ -22,4 +25,6 @@ export const Quests_Other_Seasonal = function(name, parent) {
         Quests_Other_Seasonal_All_Saints_Wake,
         Quests_Other_Seasonal_Starlight_Celebration,
     ]);
+
+    return data;
 };

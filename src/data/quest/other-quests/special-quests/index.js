@@ -3,9 +3,13 @@ import { DataGroup } from "../../../DataGroup";
 import { Quests_Other_Special_Collaboration } from "./collaboration-quests";
 
 export const Quests_Other_Special = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
-        Quests_Other_Special_Collaboration,
-    ]).initializeTasks(tasks);
+    const data = new DataGroup(name, parent);
+    data.defaultCompletion = "X";
+
+    data.initializeSubGroups([Quests_Other_Special_Collaboration]);
+    data.initializeTasks(tasks);
+
+    return data;
 };
 
 const tasks = [

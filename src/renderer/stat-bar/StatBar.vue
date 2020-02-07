@@ -2,7 +2,7 @@
     <div id="stat-bar">
         <summary-line :group="allData" :big="true" />
         <summary-line
-            v-if="selectedGroup && selectedGroup.percentComplete && selectedGroup !== allData"
+            v-if="showSelectedGroupLine"
             :group="selectedGroup"
             :big="true"
         />
@@ -25,6 +25,14 @@
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup'
             }),
+            showSelectedGroupLine: function() {
+                if(!this.selectedGroup) return false;
+                if(this.selectedGroup === this.allData) return false;
+                if(this.selectedGroup.percentComplete === undefined) return false;
+                if(this.selectedGroup.percentComplete === null) return false;
+
+                return true;
+            }
         }
     };
 </script>

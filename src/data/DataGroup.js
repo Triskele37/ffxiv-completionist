@@ -95,7 +95,7 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Getters
     get percentComplete() {
-        if(!this.total) return null;
+        if(!this.total || this.total - this.totalExcluded === 0) return 0;
         return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
     }
 
