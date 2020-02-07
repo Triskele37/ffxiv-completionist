@@ -11,15 +11,15 @@ import { FATEs } from "./fate";
 import { Travel } from "./travel";
 import { Quests } from "./quest";
 
-/* Groups that are entered but excluded:
-    Achievements > Legacy
-    Quests > Other > Special/Seasonal
-*/
-
-/* Missing Sections
+/*
+Missing Sections:
     Duty > Collection
     Duty > Trust
     Duty > GC
+
+Missing Data:
+    a few Legacy Achievement categories
+    full list of special/seasonal quests
 */
 
 const data = new DataGroup("Overall", null);

@@ -4,26 +4,25 @@
 ### Additions
 - Changelog
 - **Completion Summaries**
-- Ability to toggle between **Summary** and **All Task** modes
+- Ability to toggle **Show All Tasks** mode
 - Navigation
     - Navigation via clicking **Breadcrumbs**
+    - Navigation via clicking small **Summary Line** items
     - **FFXIV Checklist** menu item
     - Previously open navigation is saved when app closes
-    - **Debug** menu item
 - **Task Table**
     - Column search
     - Conditional styling mechanism
     - Completion filtering
 - Data
     - **Sheet Import** Functionality
-    - Summary totals added to saved data for performance
     - Complete 5.18 sheet data entry
 
 ### Changes
 - Right-click to exclude tasks
 
 ### Fixes
-- Storage persistence issue
+- Storage persistence issues
 - **BLU Spellbook** names missing
 - **Task Table**
     - **Filter** & **Search** not sticky on scroll
