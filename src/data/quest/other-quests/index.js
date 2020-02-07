@@ -11,8 +11,8 @@ export const Quests_Other = function(name, parent) {
 
     data.initializeSubGroups([
         Quests_Other_Grand_Company,
-        Quests_Other_Seasonal,
-        Quests_Other_Special,
+        //Quests_Other_Seasonal,
+        //Quests_Other_Special,
     ]);
 
     return data;

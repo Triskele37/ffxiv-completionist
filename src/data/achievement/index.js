@@ -10,6 +10,7 @@ import { Achievements_Gathering } from "./gathering";
 import { Achievements_Quests } from "./quest";
 import { Achievements_Exploration } from "./exploration";
 import { Achievements_Grand_Company } from "./grandcompany";
+import { Achievements_Legacy } from "./legacy";
 
 export const Achievements = function(name, parent) {
 	const data = new DataGroup(name, parent);
@@ -25,6 +26,7 @@ export const Achievements = function(name, parent) {
 		Achievements_Quests,
 		Achievements_Exploration,
 		Achievements_Grand_Company,
+		Achievements_Legacy,
 	]);
 
 	return data;

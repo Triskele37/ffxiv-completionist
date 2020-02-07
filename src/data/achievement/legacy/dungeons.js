@@ -1,9 +1,9 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Achievements_Quests_Seasonal_Events = function(name, parent) {
+export const Achievements_Legacy_Dungeons = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 
 const tasks = [
-
+    //TODO: 10 tasks
 ];

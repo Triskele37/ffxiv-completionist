@@ -11,6 +11,17 @@ import { FATEs } from "./fate";
 import { Travel } from "./travel";
 import { Quests } from "./quest";
 
+/* Groups that are entered but excluded:
+    Achievements > Legacy
+    Quests > Other > Special/Seasonal
+*/
+
+/* Missing Sections
+    Duty > Collection
+    Duty > Trust
+    Duty > GC
+*/
+
 const data = new DataGroup("Overall", null);
 data.initializeSubGroups([
     Achievements,
@@ -28,47 +39,3 @@ data.initializeSubGroups([
 applyStoreToData(data);
 
 export { data };
-
-/* Proposed Order
-Character
-    Barding
-    Mount
-    Minion
-    Blue Magic Spellbook
-    Gold Saucer
-        Triple Triad Cards
-        Triple Triad Opponents
-    Achievements ...
-Duty
-    Collection
-    Journal ... (quests)
-    Duty Finder
-        Dungeons
-        Guildhests
-        Trials
-        Raids
-    Trust
-    Hall of the Novice
-    Hunt
-Logs
-    Hunting Log ...
-    Sightseeing Log ...
-    Crafting Log ...
-    Gathering Log ...
-    Fishing Log
-        Fishing
-        Spearfishing
-    Fishing Guide
-        Fishing
-        Spearfishing
-    Orchestrion List ...
-Travel
-    Aether Currents
-    Mount Speed
-    Shared FATE
-    FATE
-    Porter
-Social
-    Emotes
-    Aesthetician
-*/
