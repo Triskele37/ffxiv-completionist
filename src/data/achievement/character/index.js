@@ -1,25 +1,23 @@
-import { CommendationCharacterAchievements } from "./commendation";
-import { DiscipleOfHandCharacterAchievements } from "./doh";
-import { DiscipleOfLandCharacterAchievements } from "./dol";
-import { DiscipleOfMagicCharacterAchievements } from "./dom";
-import { DiscipleOfWarCharacterAchievements } from "./dow";
-import { GoldSaucerCharacterAchievements } from "./goldsaucer";
+import { DataGroup } from "../../DataGroup";
+
+import { Achievements_Character_General } from "./general";
+import { Achievements_Character_Disciple_of_War } from "./dow";
+import { Achievements_Character_Disciple_of_Magic } from "./dom";
+import { Achievements_Character_Disciple_of_the_Hand } from "./doh";
+import { Achievements_Character_Disciple_of_the_Land } from "./dol";
+import { Achievements_Character_Commendation } from "./commendation";
+import { Achievements_Character_Gold_Saucer } from "./goldsaucer";
 
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const CharacterAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.character`;
-
-    return {
-        name: "Character",
-        storageKey,
-        subGroups: [
-            CommendationCharacterAchievements(storageKey),
-            DiscipleOfHandCharacterAchievements(storageKey),
-            DiscipleOfLandCharacterAchievements(storageKey),
-            DiscipleOfMagicCharacterAchievements(storageKey),
-            DiscipleOfWarCharacterAchievements(storageKey),
-            GoldSaucerCharacterAchievements(storageKey),
-    	],
-    };
+export const Achievements_Character = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Achievements_Character_General,
+        Achievements_Character_Disciple_of_War,
+        Achievements_Character_Disciple_of_Magic,
+        Achievements_Character_Disciple_of_the_Hand,
+        Achievements_Character_Disciple_of_the_Land,
+        Achievements_Character_Commendation,
+        Achievements_Character_Gold_Saucer,
+    ]);
 };

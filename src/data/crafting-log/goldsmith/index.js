@@ -1,23 +1,19 @@
-import { GoldsmithLevelBased } from "./level-based";
-import { GoldsmithMasterRecipe } from "./master-recipes";
-import { GoldsmithStoryRecipe } from "./story";
-import { GoldsmithHousingRecipe } from "./housing";
-import { Goldsmith_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Goldsmith_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const GoldsmithCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.goldsmith`;
+import { Crafting_Log_Goldsmith_Level_Based } from "./level-based";
+import { Crafting_Log_Goldsmith_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Goldsmith_Housing } from "./housing";
+import { Crafting_Log_Goldsmith_Others } from "./others";
+import { Crafting_Log_Goldsmith_Story } from "./story";
+import { Crafting_Log_Goldsmith_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Goldsmith",
-        storageKey,
-        subGroups: [
-            GoldsmithLevelBased(storageKey),
-            GoldsmithMasterRecipe(storageKey),
-            GoldsmithStoryRecipe(storageKey),
-            GoldsmithHousingRecipe(storageKey),
-            Goldsmith_IshgardRestoration_Recipe(storageKey),
-            Goldsmith_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Goldsmith = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Goldsmith_Level_Based,
+        Crafting_Log_Goldsmith_Master_Recipes,
+        Crafting_Log_Goldsmith_Housing,
+        Crafting_Log_Goldsmith_Others,
+        Crafting_Log_Goldsmith_Story,
+        Crafting_Log_Goldsmith_Ishgard_Restoration,
+    ]);
 };

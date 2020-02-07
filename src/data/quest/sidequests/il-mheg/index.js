@@ -1,13 +1,9 @@
-import { IlMheg as IlMhegQuests } from "./il-mheg";
+import { DataGroup } from "../../../DataGroup";
 
-export const IlMheg = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.il-mheg`;
+import { Quests_Sidequests_Il_Mheg_Il_Mheg } from "./il-mheg";
 
-    return {
-        name: "Il Mheg",
-        storageKey,
-        subGroups: [
-            IlMhegQuests(storageKey),
-        ]
-    };
+export const Quests_Sidequests_Il_Mheg = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Il_Mheg_Il_Mheg,
+    ]);
 };

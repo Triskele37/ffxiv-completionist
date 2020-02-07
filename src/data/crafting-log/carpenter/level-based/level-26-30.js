@@ -1,133 +1,128 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const CarpenterLevels_26_30 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-26-30`;
-
-    return {
-        name: "Levels 26-30",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "26",
-                "item": "Ash Composite Bow",
-                "mat-1": "3 Ash Lumber",
-                "mat-2": "Antelope Horn",
-                "mat-3": "Animal Sinew",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "26",
-                "item": "Pastoral Yew Cane",
-                "mat-1": "Yew Lumber",
-                "mat-2": "Growth Formula Beta",
-                "mat-3": "Brass Ingot",
-                "mat-4": "Beastkin Blood",
-                "mat-5": "Hempen Yarn",
-                "mat-6": "X",
-                "catalysts": "2 Wind Shard, 2 Ice Shard",
-                "special": "Buyable"
-            },
-            {
-                "level": "26",
-                "item": "Viper-crested Round Shield",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Aldgoat Leather",
-                "mat-3": "Iron Ingot",
-                "mat-4": "Iron Rivets",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "27",
-                "item": "Silver Battle Fork",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Silver Ingot",
-                "mat-3": "Crab Oil",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "28",
-                "item": "Elm Macuahuitl",
-                "mat-1": "2 Elm Lumber",
-                "mat-2": "4 Obsidian",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "29",
-                "item": "Steel Halberd",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Aldgoat Leather",
-                "mat-3": "Steel Ingot",
-                "mat-4": "Iron Ingot",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "29",
-                "item": "Walnut Cane",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Growth Formula Beta",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "29",
-                "item": "Staghorn Fishing Rod",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Yew Branch",
-                "mat-3": "Steel Ingot",
-                "mat-4": "Antelope Horn",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 2 Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "30",
-                "item": "Steel Spear",
-                "mat-1": "Walnut Lumber",
-                "mat-2": "Steel Ingot",
-                "mat-3": "Crab Oil",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 3 Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "30",
-                "item": "Plumed Yew Crook",
-                "mat-1": "Yew Crook",
-                "mat-2": "Scalekin Blood",
-                "mat-3": "Crow Feather",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Wind Shard, 3 Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-        ]
-    };
+export const Crafting_Log_Carpenter_Level_Based_26_30 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "26",
+        name: "Ash Composite Bow",
+        mat1: "3 Ash Lumber",
+        mat2: "Antelope Horn",
+        mat3: "Animal Sinew",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "26",
+        name: "Pastoral Yew Cane",
+        mat1: "Yew Lumber",
+        mat2: "Growth Formula Beta",
+        mat3: "Brass Ingot",
+        mat4: "Beastkin Blood",
+        mat5: "Hempen Yarn",
+        mat6: "X",
+        catalysts: "2 Wind Shard, 2 Ice Shard",
+        special: "Buyable"
+    },
+    {
+        level: "26",
+        name: "Viper-crested Round Shield",
+        mat1: "Walnut Lumber",
+        mat2: "Aldgoat Leather",
+        mat3: "Iron Ingot",
+        mat4: "Iron Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "27",
+        name: "Silver Battle Fork",
+        mat1: "Walnut Lumber",
+        mat2: "Silver Ingot",
+        mat3: "Crab Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "28",
+        name: "Elm Macuahuitl",
+        mat1: "2 Elm Lumber",
+        mat2: "4 Obsidian",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "29",
+        name: "Steel Halberd",
+        mat1: "Walnut Lumber",
+        mat2: "Aldgoat Leather",
+        mat3: "Steel Ingot",
+        mat4: "Iron Ingot",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "29",
+        name: "Walnut Cane",
+        mat1: "Walnut Lumber",
+        mat2: "Growth Formula Beta",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "29",
+        name: "Staghorn Fishing Rod",
+        mat1: "Walnut Lumber",
+        mat2: "Yew Branch",
+        mat3: "Steel Ingot",
+        mat4: "Antelope Horn",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 2 Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "30",
+        name: "Steel Spear",
+        mat1: "Walnut Lumber",
+        mat2: "Steel Ingot",
+        mat3: "Crab Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "30",
+        name: "Plumed Yew Crook",
+        mat1: "Yew Crook",
+        mat2: "Scalekin Blood",
+        mat3: "Crow Feather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+];

@@ -1,49 +1,51 @@
-import { SideStory } from './side-story';
-import { Lominsan } from './lominsan';
-import { Gridanian } from './gridanian';
-import { UlDahn } from './ul-dahn';
-import { Coerthan } from './coerthan';
-import { MorDhonan } from './mor-dhonan';
-import { Ishgardian } from './ishgardian';
-import { Abalathian } from './abalathian';
-import { Dravanian } from './dravanian';
-import { AzysLla } from './azys-lla';
-import { GyrAbanian } from './gyr-abanian';
-import { Othardian } from './othardian';
-import { Hingan } from './hingan';
-import { Lakeland } from './lakeland';
-import { Kholusia } from './kholusia';
-import { AmhAraeng } from './amh-araeng';
-import { IlMheg } from './il-mheg';
-import { RakTika } from './rak-tika';
-import { Tempest } from './tempest';
+import { DataGroup } from "../../DataGroup";
+import { QuestColumnConfig } from "../columnConfigs";
 
-export const Sidequests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.sidequests`;
+import { Quests_Sidequests_Side_Story } from './side-story';
+import { Quests_Sidequests_Lominsan } from './lominsan';
+import { Quests_Sidequests_Gridanian } from './gridanian';
+import { Quests_Sidequests_Ul_Dahn } from './ul-dahn';
+import { Quests_Sidequests_Coerthan } from './coerthan';
+import { Quests_Sidequests_Mor_Dhonan } from './mor-dhonan';
+import { Quests_Sidequests_Ishgardian } from './ishgardian';
+import { Quests_Sidequests_Abalathian } from './abalathian';
+import { Quests_Sidequests_Dravanian } from './dravanian';
+import { Quests_Sidequests_Azys_Lla } from './azys-lla';
+import { Quests_Sidequests_Gyr_Abanian } from './gyr-abanian';
+import { Quests_Sidequests_Othardian } from './othardian';
+import { Quests_Sidequests_Hingan } from './hingan';
+import { Quests_Sidequests_Lakeland } from './lakeland';
+import { Quests_Sidequests_Kholusia } from './kholusia';
+import { Quests_Sidequests_Amh_Araeng } from './amh-araeng';
+import { Quests_Sidequests_Il_Mheg } from './il-mheg';
+import { Quests_Sidequests_Rak_Tika } from './rak-tika';
+import { Quests_Sidequests_Tempest } from './tempest';
 
-    return {
-        name: 'Sidequests',
-        storageKey,
-        subGroups: [
-            SideStory(storageKey),
-            Lominsan(storageKey),
-            Gridanian(storageKey),
-            UlDahn(storageKey),
-            Coerthan(storageKey),
-            MorDhonan(storageKey),
-            Ishgardian(storageKey),
-            Abalathian(storageKey),
-            Dravanian(storageKey),
-            AzysLla(storageKey),
-            GyrAbanian(storageKey),
-            Othardian(storageKey),
-            Hingan(storageKey),
-            Lakeland(storageKey),
-            Kholusia(storageKey),
-            AmhAraeng(storageKey),
-            IlMheg(storageKey),
-            RakTika(storageKey),
-            Tempest(storageKey),
-        ]
-    };
+export const Quests_Sidequests = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = QuestColumnConfig;
+
+    data.initializeSubGroups([
+        Quests_Sidequests_Side_Story,
+        Quests_Sidequests_Lominsan,
+        Quests_Sidequests_Gridanian,
+        Quests_Sidequests_Ul_Dahn,
+        Quests_Sidequests_Coerthan,
+        Quests_Sidequests_Mor_Dhonan,
+        Quests_Sidequests_Ishgardian,
+        Quests_Sidequests_Abalathian,
+        Quests_Sidequests_Dravanian,
+        Quests_Sidequests_Azys_Lla,
+        Quests_Sidequests_Gyr_Abanian,
+        Quests_Sidequests_Othardian,
+        Quests_Sidequests_Hingan,
+        Quests_Sidequests_Lakeland,
+        Quests_Sidequests_Kholusia,
+        Quests_Sidequests_Amh_Araeng,
+        Quests_Sidequests_Il_Mheg,
+        Quests_Sidequests_Rak_Tika,
+        Quests_Sidequests_Tempest,
+    ]);
+
+    return data;
 };

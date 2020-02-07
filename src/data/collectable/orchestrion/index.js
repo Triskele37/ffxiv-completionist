@@ -1,25 +1,35 @@
-import { OrchestrionLocales } from "./locales";
-import { OrchestrionDungeon } from "./dungeons";
-import { OrchestrionMogStation } from "./mogstation";
-import { OrchestrionOther } from "./other";
-import { OrchestrionRaid } from "./raids";
-import { OrchestrionSeasonal } from "./seasonal";
-import { OrchestrionTrial } from "./trials";
+import { DataGroup } from "../../DataGroup";
 
-export const Orchestrion = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.orchestrion`;
+import { Collectables_Orchestrion_List_Locales } from "./locales";
+import { Collectables_Orchestrion_List_Dungeons } from "./dungeons";
+import { Collectables_Orchestrion_List_Trials } from "./trials";
+import { Collectables_Orchestrion_List_Raids } from "./raids";
+import { Collectables_Orchestrion_List_Others } from "./other";
+import { Collectables_Orchestrion_List_Seasonal } from "./seasonal";
+import { Collectables_Orchestrion_List_Mog_Station } from "./mogstation";
 
-    return {
-        name: "Orchestrion",
-        storageKey,
-        subGroups: [
-            OrchestrionLocales(storageKey),
-            OrchestrionDungeon(storageKey),
-            OrchestrionMogStation(storageKey),
-            OrchestrionOther(storageKey),
-            OrchestrionRaid(storageKey),
-            OrchestrionSeasonal(storageKey),
-            OrchestrionTrial(storageKey),
-        ]
-    };
+export const Collectables_Orchestrion_List = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = [
+        {
+            header: 'Number',
+            key: 'number',
+            centered: true,
+        },
+        { header: 'Orchestrion Roll', key: 'name' },
+        { header: 'Method Type', key: 'method' },
+        { header: 'Unlock', key: 'unlock' }
+    ];
+
+    data.initializeSubGroups([
+        Collectables_Orchestrion_List_Locales,
+        Collectables_Orchestrion_List_Dungeons,
+        Collectables_Orchestrion_List_Trials,
+        Collectables_Orchestrion_List_Raids,
+        Collectables_Orchestrion_List_Others,
+        Collectables_Orchestrion_List_Seasonal,
+        Collectables_Orchestrion_List_Mog_Station,
+    ]);
+
+    return data;
 };

@@ -1,27 +1,25 @@
-import { Aesthetician } from "./aesthetician";
-import { Barding } from "./barding";
-import { Emotes } from "./emote";
-import { Minions } from "./minion";
-import { Mounts } from "./mount";
-import { Orchestrion } from "./orchestrion";
-import { TripleTriadCards } from "./tripletriad-card";
-import { TripleTriadOpponents } from "./tripletriad-opponent";
+import { DataGroup } from "../DataGroup";
 
-export const Collectable = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.collectable`;
+import { Collectables_Aesthetician } from "./aesthetician";
+import { Collectables_Barding } from "./barding";
+import { Collectables_Emotes } from "./emote";
+import { Collectables_Minion_Guide } from "./minion";
+import { Collectables_Mount_Guide } from "./mount";
+import { Collectables_Orchestrion_List } from "./orchestrion";
+import { Collectables_Triple_Triad_Card_List } from "./tripletriad-card";
+import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
+import { Collectables_Relic_Gear } from "./relic-gear";
 
-    return {
-        name: "Collectable",
-        storageKey,
-        subGroups:[
-            Aesthetician(storageKey),
-            Barding(storageKey),
-            Emotes(storageKey),
-            Minions(storageKey),
-            Mounts(storageKey),
-            Orchestrion(storageKey),
-            TripleTriadCards(storageKey),
-            TripleTriadOpponents(storageKey),
-        ]
-    };
+export const Collectables = function(name, parent) {
+	return new DataGroup(name, parent).initializeSubGroups([
+        Collectables_Aesthetician,
+        Collectables_Barding,
+        Collectables_Emotes,
+        Collectables_Minion_Guide,
+        Collectables_Mount_Guide,
+        Collectables_Orchestrion_List,
+        Collectables_Triple_Triad_Card_List,
+        Collectables_Triple_Triad_Opponents,
+        Collectables_Relic_Gear,
+	]);
 };

@@ -1,32 +1,31 @@
-import { CarpenterCraftingLogs } from "./carpenter";
-import { BlacksmithCraftingLogs } from "./blacksmith";
-import { ArmorerCraftingLogs } from "./armorer";
-import { GoldsmithCraftingLogs } from "./goldsmith";
-import { LeatherworkerCraftingLogs } from "./leatherworker";
-import { WeaverCraftingLogs } from "./weaver";
-import { AlchemistCraftingLogs } from "./alchemist";
-import { CulinarianCraftingLogs } from "./culinarian";
+import { DataGroup } from "../DataGroup";
+import { CraftingLogColumnConfig } from "./columnConfigs";
 
-/* TODO:
-BSM - Housing, Master Recipes, Restoration, Story
-GSM - Housing, Master Recipes, Restoration, Story
-*/
+import { Crafting_Log_Carpenter } from "./carpenter";
+import { Crafting_Log_Blacksmith } from "./blacksmith";
+import { Crafting_Log_Armorer } from "./armorer";
+import { Crafting_Log_Goldsmith } from "./goldsmith";
+import { Crafting_Log_Leatherworker } from "./leatherworker";
+import { Crafting_Log_Weaver } from "./weaver";
+import { Crafting_Log_Alchemist } from "./alchemist";
+import { Crafting_Log_Culinarian } from "./culinarian";
+import { Crafting_Log_Shared } from "./shared";
 
-export const CraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.crafting-log`;
+export const Crafting_Log = function(name, parent) {
+    const data = new DataGroup(name, parent)
+    data.columnConfig = CraftingLogColumnConfig;
 
-    return {
-        name: "Crafting",
-        storageKey,
-        subGroups: [
-            CarpenterCraftingLogs(storageKey),
-            BlacksmithCraftingLogs(storageKey),
-            ArmorerCraftingLogs(storageKey),
-            GoldsmithCraftingLogs(storageKey),
-            LeatherworkerCraftingLogs(storageKey),
-            WeaverCraftingLogs(storageKey),
-            AlchemistCraftingLogs(storageKey),
-            CulinarianCraftingLogs(storageKey),
-        ]
-    };
+    data.initializeSubGroups([
+        Crafting_Log_Carpenter,
+        Crafting_Log_Blacksmith,
+        Crafting_Log_Armorer,
+        Crafting_Log_Goldsmith,
+        Crafting_Log_Leatherworker,
+        Crafting_Log_Weaver,
+        Crafting_Log_Alchemist,
+        Crafting_Log_Culinarian,
+        Crafting_Log_Shared,
+    ]);
+
+    return data;
 };

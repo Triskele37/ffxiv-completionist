@@ -1,17 +1,13 @@
-import { TheRubySea } from "./the-ruby-sea";
-import { Yanxia } from "./yanxia";
-import { TheAzimSteppe } from "./the-azim-steppe";
+import { DataGroup } from "../../../DataGroup";
 
-export const Othardian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.othardian`;
+import { Quests_Sidequests_Othardian_The_Ruby_Sea } from "./the-ruby-sea";
+import { Quests_Sidequests_Othardian_Yanxia } from "./yanxia";
+import { Quests_Sidequests_Othardian_The_Azim_Steppe } from "./the-azim-steppe";
 
-    return {
-        name: "Othardian",
-        storageKey,
-        subGroups: [
-            TheRubySea(storageKey),
-            Yanxia(storageKey),
-            TheAzimSteppe(storageKey),
-        ]
-    };
+export const Quests_Sidequests_Othardian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Othardian_The_Ruby_Sea,
+        Quests_Sidequests_Othardian_Yanxia,
+        Quests_Sidequests_Othardian_The_Azim_Steppe,
+    ]);
 };

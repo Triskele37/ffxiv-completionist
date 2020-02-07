@@ -1,109 +1,104 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const AlchemistLevels_6_10 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-6-10`;
-
-    return {
-        name: "Levels 6-10",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "6",
-                "item": "Eye Drops",
-                "mat-1": "Yellow Ginseng",
-                "mat-2": "Rock Salt",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "7",
-                "item": "Rubber",
-                "mat-1": "Latex",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Buyable, Ingredient (LTW, WVR), Levequest"
-            },
-            {
-                "level": "8",
-                "item": "Maple Picatrix",
-                "mat-1": "Enchanted Copper Ink",
-                "mat-2": "Maple Lumber",
-                "mat-3": "Maple Log",
-                "mat-4": "Hempen Yarn",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "8",
-                "item": "Whispering Maple Wand",
-                "mat-1": "Maple Wand",
-                "mat-2": "2 Growth Formula Alpha",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Ingredient (ALC), Levequest"
-            },
-            {
-                "level": "10",
-                "item": "Fish Oil",
-                "mat-1": "2 Princess Trout",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Buyable, Ingredient (BSM, CRP)"
-            },
-            {
-                "level": "10",
-                "item": "Fish Glue",
-                "mat-1": "2 Coral Butterfly",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Ingredient (BSM, CRP, LTW)"
-            },
-            {
-                "level": "10",
-                "item": "Beeswax",
-                "mat-1": "3 Beehive Chip",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Buyable, Ingredient (ALC, ARM, BSM, CRP, CUL, WVR), Levequest"
-            },
-            {
-                "level": "10",
-                "item": "Engraved Leather Grimoire",
-                "mat-1": "Leather Grimoire",
-                "mat-2": "2 Leather",
-                "mat-3": "Ash Log",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Provisioning"
-            },
-        ]
-    };
+export const Crafting_Log_Alchemist_Level_Based_6_10 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "6",
+        name: "Eye Drops",
+        mat1: "Yellow Ginseng",
+        mat2: "Rock Salt",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "7",
+        name: "Rubber",
+        mat1: "Latex",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Buyable, Ingredient (LTW, WVR), Levequest"
+    },
+    {
+        level: "8",
+        name: "Maple Picatrix",
+        mat1: "Enchanted Copper Ink",
+        mat2: "Maple Lumber",
+        mat3: "Maple Log",
+        mat4: "Hempen Yarn",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "8",
+        name: "Whispering Maple Wand",
+        mat1: "Maple Wand",
+        mat2: "2 Growth Formula Alpha",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Ingredient (ALC), Levequest"
+    },
+    {
+        level: "10",
+        name: "Fish Oil",
+        mat1: "2 Princess Trout",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Buyable, Ingredient (BSM, CRP)"
+    },
+    {
+        level: "10",
+        name: "Fish Glue",
+        mat1: "2 Coral Butterfly",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Ingredient (BSM, CRP, LTW)"
+    },
+    {
+        level: "10",
+        name: "Beeswax",
+        mat1: "3 Beehive Chip",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Buyable, Ingredient (ALC, ARM, BSM, CRP, CUL, WVR), Levequest"
+    },
+    {
+        level: "10",
+        name: "Engraved Leather Grimoire",
+        mat1: "Leather Grimoire",
+        mat2: "2 Leather",
+        mat3: "Ash Log",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Provisioning"
+    },
+];

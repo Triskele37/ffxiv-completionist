@@ -1,42 +1,47 @@
-import { AmaljAaQuests } from "./amalj-aa";
-import { SylphQuests } from "./sylph";
-import { KoboldQuests } from "./kobold";
-import { SahaginQuests } from "./sahagin";
-import { IxalQuests } from "./ixal";
+import { DataGroup } from "../../DataGroup";
 
-import { VanuVanuQuests } from "./vanu-vanu";
-import { VathQuests } from "./vath";
-import { MoogleQuests } from "./moogle";
+import { Quests_Beast_Tribe_Amalj_Aa } from "./amalj-aa";
+import { Quests_Beast_Tribe_Sylph } from "./sylph";
+import { Quests_Beast_Tribe_Kobold } from "./kobold";
+import { Quests_Beast_Tribe_Sahagin } from "./sahagin";
+import { Quests_Beast_Tribe_Ixal } from "./ixal";
+import { Quests_Beast_Tribe_Vanu_Vanu } from "./vanu-vanu";
+import { Quests_Beast_Tribe_Vath } from "./vath";
+import { Quests_Beast_Tribe_Moogle } from "./moogle";
+import { Quests_Beast_Tribe_Kojin } from "./kojin";
+import { Quests_Beast_Tribe_Ananta } from "./ananta";
+import { Quests_Beast_Tribe_Namazu } from "./namazu";
+import { Quests_Beast_Tribe_Pixie } from "./pixie";
 
-import { KojinQuests } from "./kojin";
-import { AnantaQuests } from "./ananta";
-import { NamazuQuests } from "./namazu";
+export const Quests_Beast_Tribe = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = [
+        {
+            header: "Level",
+            key: "level",
+            filterable: true,
+            centered: true,
+        },
+        { header: "Name", key: "name" },
+        { header: "NPC", key: "npc" },
+        { header: "Reputation", key: "reputation", filterable: true },
+        { header: "Type", key: "type", filterable: true },
+    ];
 
-import { PixieQuests } from "./pixie";
+    data.initializeSubGroups([
+        Quests_Beast_Tribe_Amalj_Aa,
+        Quests_Beast_Tribe_Sylph,
+        Quests_Beast_Tribe_Kobold,
+        Quests_Beast_Tribe_Sahagin,
+        Quests_Beast_Tribe_Ixal,
+        Quests_Beast_Tribe_Vanu_Vanu,
+        Quests_Beast_Tribe_Vath,
+        Quests_Beast_Tribe_Moogle,
+        Quests_Beast_Tribe_Kojin,
+        Quests_Beast_Tribe_Ananta,
+        Quests_Beast_Tribe_Namazu,
+        Quests_Beast_Tribe_Pixie,
+    ]);
 
-export const BeastTribeQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.beast-tribe`;
-
-    return {
-        name: "Beast Tribe",
-        storageKey,
-        subGroups: [
-            //--------------------------------- ARR
-            AmaljAaQuests(storageKey),
-            SylphQuests(storageKey),
-            KoboldQuests(storageKey),
-            SahaginQuests(storageKey),
-            IxalQuests(storageKey),
-            //--------------------------------- HW
-            VanuVanuQuests(storageKey),
-            VathQuests(storageKey),
-            MoogleQuests(storageKey),
-            //--------------------------------- SB
-            KojinQuests(storageKey),
-            AnantaQuests(storageKey),
-            NamazuQuests(storageKey),
-            //--------------------------------- ShB
-            PixieQuests(storageKey),
-        ]
-    };
+    return data;
 };

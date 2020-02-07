@@ -35,6 +35,7 @@
         color: #BBE1FA;
         height: 100vh;
         width: 100vw;
+        min-width: 900px;
         margin: 0;
         overflow: hidden;
     }

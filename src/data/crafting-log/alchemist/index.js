@@ -1,23 +1,19 @@
-import { AlchemistLevelBased } from "./level-based";
-import { AlchemistMasterRecipe } from "./master-recipes";
-import { AlchemistStoryRecipe } from "./story";
-import { AlchemistHousingRecipe } from "./housing";
-import { Alchemist_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Alchemist_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const AlchemistCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.alchemist`;
+import { Crafting_Log_Alchemist_Level_Based } from "./level-based";
+import { Crafting_Log_Alchemist_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Alchemist_Housing } from "./housing";
+import { Crafting_Log_Alchemist_Others } from "./others";
+import { Crafting_Log_Alchemist_Story } from "./story";
+import { Crafting_Log_Alchemist_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Alchemist",
-        storageKey,
-        subGroups: [
-            AlchemistLevelBased(storageKey),
-            AlchemistMasterRecipe(storageKey),
-            AlchemistStoryRecipe(storageKey),
-            AlchemistHousingRecipe(storageKey),
-            Alchemist_IshgardRestoration_Recipe(storageKey),
-            Alchemist_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Alchemist = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Alchemist_Level_Based,
+        Crafting_Log_Alchemist_Master_Recipes,
+        Crafting_Log_Alchemist_Housing,
+        Crafting_Log_Alchemist_Others,
+        Crafting_Log_Alchemist_Story,
+        Crafting_Log_Alchemist_Ishgard_Restoration,
+    ]);
 };

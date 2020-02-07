@@ -1,23 +1,19 @@
-import { GladiatorQuests } from "./gladiator-quests";
-import { PugilistQuests } from "./pugilist-quests";
-import { MarauderQuests } from "./marauder-quests";
-import { LancerQuests } from "./lancer-quests";
-import { ArcherQuests } from "./archer-quests";
-import { RogueQuests } from "./rogue-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const DiscipleOfWarQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.disciple-of-war`;
+import { Quests_Class_and_Job_Disciple_of_War_Gladiator } from "./gladiator-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Pugilist } from "./pugilist-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Marauder } from "./marauder-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Lancer } from "./lancer-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Archer } from "./archer-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Rogue } from "./rogue-quests";
 
-    return {
-        name: 'Disciple of War',
-        storageKey,
-        subGroups: [
-            GladiatorQuests(storageKey),
-            PugilistQuests(storageKey),
-            MarauderQuests(storageKey),
-            LancerQuests(storageKey),
-            ArcherQuests(storageKey),
-            RogueQuests(storageKey),
-        ]
-    };
+export const Quests_Class_and_Job_Disciple_of_War = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_War_Gladiator,
+        Quests_Class_and_Job_Disciple_of_War_Pugilist,
+        Quests_Class_and_Job_Disciple_of_War_Marauder,
+        Quests_Class_and_Job_Disciple_of_War_Lancer,
+        Quests_Class_and_Job_Disciple_of_War_Archer,
+        Quests_Class_and_Job_Disciple_of_War_Rogue,
+    ]);
 };

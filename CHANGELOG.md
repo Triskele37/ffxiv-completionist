@@ -8,6 +8,7 @@
 - Navigation
     - Navigation via clicking **Breadcrumbs**
     - **FFXIV Checklist** menu item
+    - Previously open navigation is saved when app closes
     - **Debug** menu item
 - **Task Table**
     - Column search
@@ -16,7 +17,7 @@
 - Data
     - **Sheet Import** Functionality
     - Summary totals added to saved data for performance
-    - Complete 5.11 sheet data entry
+    - Complete 5.18 sheet data entry
 
 ### Changes
 - Right-click to exclude tasks

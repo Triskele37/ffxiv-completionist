@@ -1,19 +1,21 @@
-import { ARRDungeons } from "./ARR";
-import { HWDungeons } from "./HW";
-import { SBDungeons } from "./SB";
-import { ShBDungeons } from "./ShB";
+import { DataGroup } from "../../DataGroup";
+import { DutyColumnConfig } from "../columnConfigs";
 
-export const Dungeons = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.dungeon`;
+import { Duty_Dungeons_ARR } from "./ARR";
+import { Duty_Dungeons_HW } from "./HW";
+import { Duty_Dungeons_SB } from "./SB";
+import { Duty_Dungeons_ShB } from "./ShB";
 
-    return {
-        name: "Dungeon",
-        storageKey,
-        subGroups: [
-            ARRDungeons(storageKey),
-            HWDungeons(storageKey),
-            SBDungeons(storageKey),
-            ShBDungeons(storageKey),
-        ]
-    };
+export const Duty_Dungeons = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = DutyColumnConfig;
+
+    data.initializeSubGroups([
+        Duty_Dungeons_ARR,
+        Duty_Dungeons_HW,
+        Duty_Dungeons_SB,
+        Duty_Dungeons_ShB,
+    ]);
+
+    return data;
 };

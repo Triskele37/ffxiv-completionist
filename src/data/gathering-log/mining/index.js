@@ -1,15 +1,17 @@
-import { LevelBasedMiningLogs } from "./level-based";
-import { SpecialMiningLogs } from "./special";
+import { DataGroup } from "../../DataGroup";
+import { GatheringColumnConfig } from "../columnConfigs";
 
-export const MiningLog = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.mining`;
+import { Gathering_Log_Mining_Level } from "./level-based";
+import { Gathering_Log_Mining_Special } from "./special";
 
-    return {
-        name: "Mining",
-        storageKey,
-        subGroups: [
-            LevelBasedMiningLogs(storageKey),
-            SpecialMiningLogs(storageKey),
-        ],
-    };
+export const Gathering_Log_Mining = function(name, parent) {
+    const data = new DataGroup(name, parent)
+    data.columnConfig = GatheringColumnConfig;
+
+    data.initializeSubGroups([
+        Gathering_Log_Mining_Level,
+        Gathering_Log_Mining_Special,
+	]);
+
+    return data;
 };

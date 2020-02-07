@@ -1,6 +1,9 @@
 <template>
     <div class="show-all-section">
-        <task-table :group="allChildren" />
+        <task-table
+            :column-config="group.columnConfig"
+            :tasks="allChildTasks"
+        />
     </div>
 </template>
 
@@ -16,13 +19,9 @@
             group: Object
         },
         computed: {
-            allChildren: function() {
-                return Object.assign({}, this.group, {
-                    // subGroups: null,
-                    columns: this.group.columns,
-                    tasks: diveForTasks(this.group)
-                });
-            }
+            allChildTasks: function() {
+                return diveForTasks(this.group);
+            },
         },
     };
 
@@ -31,10 +30,10 @@
 
         if(group.tasks) tasks = tasks.concat(group.tasks);
 
-        if(group.subGroups) {
-            for(let i = 0; i < group.subGroups.length; i++) {
-                tasks = tasks.concat(diveForTasks(group.subGroups[i]));
-            }
+        if(group.groupKeys) {
+            group.groupKeys.forEach((groupKey) => {
+                tasks = tasks.concat(diveForTasks(group[groupKey]));
+            });
         }
 
         return tasks;
@@ -43,6 +42,6 @@
 
 <style>
     .show-all-section {
-
+        width: calc(100% - 20px);
     }
 </style>

@@ -1,72 +1,69 @@
-import { DutyColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const ShBRaids = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ShB`;
-
-    return {
-        name: "ShB",
-    	storageKey,
-        columns: DutyColumnConfig,
-        tasks: [{
-        	level: "80",
-        	iLvlReq: "425",
-        	name: "Eden's Gate: Resurrection",
-        	roulette: "Normal Raids",
-        	unlock: "Deploy the Core"
-        }, {
-        	level: "80",
-        	iLvlReq: "425",
-        	name: "Eden's Gate: Descent",
-        	roulette: "Normal Raids",
-        	unlock: "One Fell Swoop"
-        }, {
-        	level: "80",
-        	iLvlReq: "425",
-        	name: "Eden's Gate: Inundation",
-        	roulette: "Normal Raids",
-        	unlock: "Nor Any Drop to Drink"
-        }, {
-        	level: "80",
-        	iLvlReq: "425",
-        	name: "Eden's Gate: Sepulture",
-        	roulette: "Normal Raids",
-        	unlock: "Super Seismic"
-        }, {
-        	level: "80",
-        	iLvlReq: "440",
-        	name: "Eden's Gate: Resurrection (Savage)",
-        	roulette: "-",
-        	unlock: "Super Seismic"
-        }, {
-        	level: "80",
-        	iLvlReq: "445",
-        	name: "Eden's Gate: Descent (Savage)",
-        	roulette: "-",
-        	unlock: "Super Seismic"
-        }, {
-        	level: "80",
-        	iLvlReq: "450",
-        	name: "Eden's Gate: Inundation (Savage)",
-        	roulette: "-",
-        	unlock: "Super Seismic"
-        }, {
-        	level: "80",
-        	iLvlReq: "450",
-        	name: "Eden's Gate: Sepulture (Savage)",
-        	roulette: "-",
-        	unlock: "Super Seismic"
-        }, {
-        	level: "80",
-        	iLvlReq: "470",
-        	name: "The Epic of Alexander (Ultimate)",
-        	roulette: "-",
-        	unlock: "Eden's Gate: Sepulture (Savage)"
-        }, {
-        	level: "80",
-        	iLvlReq: "435",
-        	name: "The Copied Factory",
-        	roulette: "Alliance Raids",
-        	unlock: "On the Threshold"
-        }]
-    };
+export const Duty_Raids_ShB = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+    	level: "80",
+    	iLvlReq: "425",
+    	name: "Eden's Gate: Resurrection",
+    	roulette: "Normal Raids",
+    	unlock: "Deploy the Core"
+    }, {
+    	level: "80",
+    	iLvlReq: "425",
+    	name: "Eden's Gate: Descent",
+    	roulette: "Normal Raids",
+    	unlock: "One Fell Swoop"
+    }, {
+    	level: "80",
+    	iLvlReq: "425",
+    	name: "Eden's Gate: Inundation",
+    	roulette: "Normal Raids",
+    	unlock: "Nor Any Drop to Drink"
+    }, {
+    	level: "80",
+    	iLvlReq: "425",
+    	name: "Eden's Gate: Sepulture",
+    	roulette: "Normal Raids",
+    	unlock: "Super Seismic"
+    }, {
+    	level: "80",
+    	iLvlReq: "440",
+    	name: "Eden's Gate: Resurrection (Savage)",
+    	roulette: "-",
+    	unlock: "Super Seismic"
+    }, {
+    	level: "80",
+    	iLvlReq: "445",
+    	name: "Eden's Gate: Descent (Savage)",
+    	roulette: "-",
+    	unlock: "Super Seismic"
+    }, {
+    	level: "80",
+    	iLvlReq: "450",
+    	name: "Eden's Gate: Inundation (Savage)",
+    	roulette: "-",
+    	unlock: "Super Seismic"
+    }, {
+    	level: "80",
+    	iLvlReq: "450",
+    	name: "Eden's Gate: Sepulture (Savage)",
+    	roulette: "-",
+    	unlock: "Super Seismic"
+    }, {
+    	level: "80",
+    	iLvlReq: "470",
+    	name: "The Epic of Alexander (Ultimate)",
+    	roulette: "-",
+    	unlock: "Eden's Gate: Sepulture (Savage)"
+    }, {
+    	level: "80",
+    	iLvlReq: "435",
+    	name: "The Copied Factory",
+    	roulette: "Alliance Raids",
+    	unlock: "On the Threshold"
+    }
+];

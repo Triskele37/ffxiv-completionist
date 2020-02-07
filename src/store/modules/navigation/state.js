@@ -1,13 +1,29 @@
-// import { data } from "../../../data";
+import { ipcRenderer } from 'electron';
+import Store from 'electron-store';
+const store = new Store();
 
-// export const state = {
-//     breadcrumbs: ['Overall', 'FATE'],
-//     selectedGroup: data.subGroups[4],
-//     showSummary: true,
-// };
+import { getGroupFromBreadcrumbs } from './getters';
 
+// Load previous state
+const initialBreadcrumbs = store.get('last-breadcrumbs');
+const initialSelectedGroup = getGroupFromBreadcrumbs(initialBreadcrumbs);
+let loadDefaults = !initialBreadcrumbs;
+
+function diveForGroup(group, targetName) {
+    let ret;
+    group.groupKeys.forEach((groupKey) => {
+        if(group[groupKey].name === targetName) ret = group[groupKey]
+    });
+    return ret;
+}
+
+// Current state
 export const state = {
-    breadcrumbs: ['Overall'],
-    selectedGroup: null,
-    showSummary: true,
+    breadcrumbs: loadDefaults ? ['Overall'] : initialBreadcrumbs,
+    selectedGroup: loadDefaults ? null : initialSelectedGroup,
 };
+
+// Save the current navigation state before closing the app
+ipcRenderer.on('beforeunload', (event, args) => {
+    store.set('last-breadcrumbs', state.breadcrumbs);
+});

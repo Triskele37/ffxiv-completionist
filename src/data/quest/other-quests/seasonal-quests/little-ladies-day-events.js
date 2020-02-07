@@ -1,18 +1,17 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const LittleLadiesDayEvents = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.little-ladies-day`;
-
-    return {
-        name: "Little Ladies' Day",
-    	storageKey,
-        columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "15",
-            name: "A Colorful Affair"
-        }, {
-            level: "15",
-            name: "Untended Dreams"
-        }]
-    };
+export const Quests_Other_Seasonal_Little_Ladies_Day = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Little Ladies' Day";
+    return data;
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "A Colorful Affair"
+    }, {
+        level: "15",
+        name: "Untended Dreams"
+    }
+];

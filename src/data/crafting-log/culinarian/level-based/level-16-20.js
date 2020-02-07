@@ -1,193 +1,188 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const CulinarianLevels_16_20 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-16-20`;
-
-    return {
-        name: "Levels 16-20",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "16",
-                "item": "Cider Vinegar",
-                "mat-1": "Faerie Apple",
-                "mat-2": "Mineral Water",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard",
-                "special": "Ingredient (CUL, CRP)"
-            },
-            {
-                "level": "16",
-                "item": "Lavender Oil",
-                "mat-1": "4 Lavender",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard",
-                "special": "Ingredient (CUL, ARM, GSM, CRP), Levequest"
-            },
-            {
-                "level": "16",
-                "item": "Meat Miq'abob",
-                "mat-1": "Dodo Tenderloin",
-                "mat-2": "Paprika",
-                "mat-3": "Ruby Tomato",
-                "mat-4": "Table Salt",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "16",
-                "item": "Dodo Omelette",
-                "mat-1": "Dodo Egg",
-                "mat-2": "Smooth Butter",
-                "mat-3": "Aldgoat Milk",
-                "mat-4": "Table Salt",
-                "mat-5": "Tomato Sauce",
-                "mat-6": "Highland Parsley",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "17",
-                "item": "Cottage Cheese",
-                "mat-1": "Aldgoat Milk",
-                "mat-2": "Cider Vinegar",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard",
-                "special": "Buyable, Ingredient (CUL)"
-            },
-            {
-                "level": "17",
-                "item": "Lentils and Chestnuts",
-                "mat-1": "Gridanian Chestnut",
-                "mat-2": "Lalafellin Lentil",
-                "mat-3": "Galago Mint",
-                "mat-4": "Olive Oil",
-                "mat-5": "Sour Red",
-                "mat-6": "Black Pepper",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "17",
-                "item": "Roasted Nopales",
-                "mat-1": "Nopales",
-                "mat-2": "Table Salt",
-                "mat-3": "Blue Cheese",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "17",
-                "item": "Stone Soup",
-                "mat-1": "Ragstone",
-                "mat-2": "Mineral Water",
-                "mat-3": "Coerthan Carrot",
-                "mat-4": "Table Salt",
-                "mat-5": "Popoto",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "18",
-                "item": "Walnut Bread",
-                "mat-1": "Sunset Wheat Flour",
-                "mat-2": "Buffalo Milk",
-                "mat-3": "Table Salt",
-                "mat-4": "Smooth Butter",
-                "mat-5": "Maple Sugar",
-                "mat-6": "Gridanian Walnut",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Ingredient (CUL), Levequest, Provisioning"
-            },
-            {
-                "level": "18",
-                "item": "Apple Tart",
-                "mat-1": "Pie Dough",
-                "mat-2": "Faerie Apple",
-                "mat-3": "Chicken Egg",
-                "mat-4": "Cinnamon",
-                "mat-5": "Maple Sugar",
-                "mat-6": "Smooth Butter",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "19",
-                "item": "Raw Oyster",
-                "mat-1": "Rothlyt Oyster",
-                "mat-2": "Sun Lemon",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Crab Ball",
-                "mat-1": "3 Helmet Crab",
-                "mat-2": "Rye Flour",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Bait"
-            },
-            {
-                "level": "20",
-                "item": "Grilled Warmwater Trout",
-                "mat-1": "Warmwater Trout",
-                "mat-2": "Table Salt",
-                "mat-3": "Garlean Garlic",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "X"
-            },
-            {
-                "level": "20",
-                "item": "Antelope Stew",
-                "mat-1": "Antelope Shank",
-                "mat-2": "Sunset Wheat Flour",
-                "mat-3": "Wild Onion",
-                "mat-4": "Coerthan Carrot",
-                "mat-5": "Popoto",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Chicken and Mushrooms",
-                "mat-1": "Gil Bun",
-                "mat-2": "Chicken Breast",
-                "mat-3": "Smooth Butter",
-                "mat-4": "Table Salt",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Fire Shard, Water Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-        ]
-    };
+export const Crafting_Log_Culinarian_Level_Based_16_20 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "16",
+        name: "Cider Vinegar",
+        mat1: "Faerie Apple",
+        mat2: "Mineral Water",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard",
+        special: "Ingredient (CUL, CRP)"
+    },
+    {
+        level: "16",
+        name: "Lavender Oil",
+        mat1: "4 Lavender",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard",
+        special: "Ingredient (CUL, ARM, GSM, CRP), Levequest"
+    },
+    {
+        level: "16",
+        name: "Meat Miq'abob",
+        mat1: "Dodo Tenderloin",
+        mat2: "Paprika",
+        mat3: "Ruby Tomato",
+        mat4: "Table Salt",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "16",
+        name: "Dodo Omelette",
+        mat1: "Dodo Egg",
+        mat2: "Smooth Butter",
+        mat3: "Aldgoat Milk",
+        mat4: "Table Salt",
+        mat5: "Tomato Sauce",
+        mat6: "Highland Parsley",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "17",
+        name: "Cottage Cheese",
+        mat1: "Aldgoat Milk",
+        mat2: "Cider Vinegar",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard",
+        special: "Buyable, Ingredient (CUL)"
+    },
+    {
+        level: "17",
+        name: "Lentils and Chestnuts",
+        mat1: "Gridanian Chestnut",
+        mat2: "Lalafellin Lentil",
+        mat3: "Galago Mint",
+        mat4: "Olive Oil",
+        mat5: "Sour Red",
+        mat6: "Black Pepper",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "17",
+        name: "Roasted Nopales",
+        mat1: "Nopales",
+        mat2: "Table Salt",
+        mat3: "Blue Cheese",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "17",
+        name: "Stone Soup",
+        mat1: "Ragstone",
+        mat2: "Mineral Water",
+        mat3: "Coerthan Carrot",
+        mat4: "Table Salt",
+        mat5: "Popoto",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "18",
+        name: "Walnut Bread",
+        mat1: "Sunset Wheat Flour",
+        mat2: "Buffalo Milk",
+        mat3: "Table Salt",
+        mat4: "Smooth Butter",
+        mat5: "Maple Sugar",
+        mat6: "Gridanian Walnut",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Ingredient (CUL), Levequest, Provisioning"
+    },
+    {
+        level: "18",
+        name: "Apple Tart",
+        mat1: "Pie Dough",
+        mat2: "Faerie Apple",
+        mat3: "Chicken Egg",
+        mat4: "Cinnamon",
+        mat5: "Maple Sugar",
+        mat6: "Smooth Butter",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "19",
+        name: "Raw Oyster",
+        mat1: "Rothlyt Oyster",
+        mat2: "Sun Lemon",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Crab Ball",
+        mat1: "3 Helmet Crab",
+        mat2: "Rye Flour",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Bait"
+    },
+    {
+        level: "20",
+        name: "Grilled Warmwater Trout",
+        mat1: "Warmwater Trout",
+        mat2: "Table Salt",
+        mat3: "Garlean Garlic",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "X"
+    },
+    {
+        level: "20",
+        name: "Antelope Stew",
+        mat1: "Antelope Shank",
+        mat2: "Sunset Wheat Flour",
+        mat3: "Wild Onion",
+        mat4: "Coerthan Carrot",
+        mat5: "Popoto",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Chicken and Mushrooms",
+        mat1: "Gil Bun",
+        mat2: "Chicken Breast",
+        mat3: "Smooth Butter",
+        mat4: "Table Salt",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Shard, Water Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+];

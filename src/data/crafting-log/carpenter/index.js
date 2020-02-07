@@ -1,23 +1,19 @@
-import { CarpenterLevelBased } from "./level-based";
-import { CarpenterMasterRecipe } from "./master-recipes";
-import { CarpenterStoryRecipe } from "./story";
-import { CarpenterHousingRecipe } from "./housing";
-import { Carpenter_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Carpenter_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const CarpenterCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.carpenter`;
+import { Crafting_Log_Carpenter_Level_Based } from "./level-based";
+import { Crafting_Log_Carpenter_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Carpenter_Housing } from "./housing";
+import { Crafting_Log_Carpenter_Others } from "./others";
+import { Crafting_Log_Carpenter_Story } from "./story";
+import { Crafting_Log_Carpenter_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Carpenter",
-        storageKey,
-        subGroups: [
-            CarpenterLevelBased(storageKey),
-            CarpenterMasterRecipe(storageKey),
-            CarpenterStoryRecipe(storageKey),
-            CarpenterHousingRecipe(storageKey),
-            Carpenter_IshgardRestoration_Recipe(storageKey),
-            Carpenter_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Carpenter = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Carpenter_Level_Based,
+        Crafting_Log_Carpenter_Master_Recipes,
+        Crafting_Log_Carpenter_Housing,
+        Crafting_Log_Carpenter_Others,
+        Crafting_Log_Carpenter_Story,
+        Crafting_Log_Carpenter_Ishgard_Restoration,
+    ]);
 };

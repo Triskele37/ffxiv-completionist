@@ -7,13 +7,6 @@
             <span class="breadcrumb">{{crumb}}</span>
             <span>{{index < breadcrumbs.length - 1 ? '  >  ' : ''}}</span>
         </span>
-
-        <!----------- Buttons ----------->
-        <span class="action-buttons" v-if="selectedGroup && selectedGroup.subGroups">
-            <span class="action-button" @click="toggleShowAllChildren()">
-                {{`${showSummary ? 'Show All Tasks' : 'Show Summary'}`}}
-            </span>
-        </span>
     </div>
 </template>
 
@@ -24,17 +17,12 @@
         computed: {
             ...mapState('navigation', {
                 breadcrumbs: 'breadcrumbs',
-                selectedGroup: 'selectedGroup',
-                showSummary: 'showSummary'
-            })
+            }),
         },
         methods: {
             onClickCrumb: function(crumb) {
-                this.$store.commit('navigation/GOTO_CRUMB', crumb);
+                this.$store.commit('navigation/POP_CRUMBS_UNTIL', crumb);
             },
-            toggleShowAllChildren: function() {
-                this.$store.commit('navigation/TOGGLE_SHOW_SUMMARY');
-            }
         }
     };
 </script>
@@ -48,30 +36,5 @@
 
     .breadcrumb {
         cursor: pointer;
-    }
-
-    .action-buttons {
-        float: right;
-    }
-
-    .action-button {
-        background-color: #0F4C75;
-        border-radius: 10px;
-        border: 1px solid;
-        color: #BBE1FA;
-        text-align: center;
-        user-select: none;
-
-        margin: 5px;
-        padding: 0 10px;
-    }
-
-    .action-button:hover {
-        filter: brightness(125%);
-        cursor: pointer;
-    }
-
-    .action-button:active {
-        filter: brightness(75%);
     }
 </style>

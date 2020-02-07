@@ -1,61 +1,56 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Weaver_Story_ClassQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.class-quests`;
-
-    return {
-        name: "Class Quests",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": 63,
-                "item": "Elegant Bustle",
-                "mat-1": "Bustle Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Lightning Crystal, Wind Crystal",
-                "special": "X"
-            },
-            {
-                "level": 65,
-                "item": "Winsome Spring Dress",
-                "mat-1": "Spring Dress Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Lightning Crystal, Wind Crystal",
-                "special": "X"
-            },
-            {
-                "level": 68,
-                "item": "Seductive Bustier",
-                "mat-1": "Bustier Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Lightning Crystal, Wind Crystal",
-                "special": "X"
-            },
-            {
-                "level": 70,
-                "item": "Tennyo Hagoromo",
-                "mat-1": "Hagoromo Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Lightning Crystal, Wind Crystal",
-                "special": "X"
-            }
-        ]
-    };
+export const Crafting_Log_Weaver_Story_Class_Quests = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: 63,
+        name: "Elegant Bustle",
+        mat1: "Bustle Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Lightning Crystal, Wind Crystal",
+        special: "X"
+    },
+    {
+        level: 65,
+        name: "Winsome Spring Dress",
+        mat1: "Spring Dress Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Lightning Crystal, Wind Crystal",
+        special: "X"
+    },
+    {
+        level: 68,
+        name: "Seductive Bustier",
+        mat1: "Bustier Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Lightning Crystal, Wind Crystal",
+        special: "X"
+    },
+    {
+        level: 70,
+        name: "Tennyo Hagoromo",
+        mat1: "Hagoromo Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Lightning Crystal, Wind Crystal",
+        special: "X"
+    },
+];

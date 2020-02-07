@@ -1,15 +1,11 @@
-import { Armorer_Restoration } from "./restoration";
-import { Armorer_Other } from "./other";
+import { DataGroup } from "../../../DataGroup";
 
-export const Armorer_IshgardRestoration_Recipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
+import { Crafting_Log_Armorer_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Log_Armorer_Ishgard_Restoration_Other } from "./other";
 
-    return {
-        name: "Ishgard Restoration Recipes",
-        storageKey,
-        subGroups: [
-            Armorer_Restoration(storageKey),
-            Armorer_Other(storageKey),
-        ]
-    };
+export const Crafting_Log_Armorer_Ishgard_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Armorer_Ishgard_Restoration_Restoration,
+        Crafting_Log_Armorer_Ishgard_Restoration_Other,
+    ]);
 };

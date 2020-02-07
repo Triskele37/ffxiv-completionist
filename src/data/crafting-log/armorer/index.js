@@ -1,23 +1,19 @@
-import { ArmorerLevelBased } from "./level-based";
-import { ArmorerMasterRecipe } from "./master-recipes";
-import { ArmorerStoryRecipe } from "./story";
-import { ArmorerHousingRecipe } from "./housing";
-import { Armorer_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Armorer_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const ArmorerCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.armorer`;
+import { Crafting_Log_Armorer_Level_Based } from "./level-based";
+import { Crafting_Log_Armorer_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Armorer_Housing } from "./housing";
+import { Crafting_Log_Armorer_Others } from "./others";
+import { Crafting_Log_Armorer_Story } from "./story";
+import { Crafting_Log_Armorer_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Armorer",
-        storageKey,
-        subGroups: [
-            ArmorerLevelBased(storageKey),
-            ArmorerMasterRecipe(storageKey),
-            ArmorerStoryRecipe(storageKey),
-            ArmorerHousingRecipe(storageKey),
-            Armorer_IshgardRestoration_Recipe(storageKey),
-            Armorer_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Armorer = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Armorer_Level_Based,
+        Crafting_Log_Armorer_Master_Recipes,
+        Crafting_Log_Armorer_Housing,
+        Crafting_Log_Armorer_Others,
+        Crafting_Log_Armorer_Story,
+        Crafting_Log_Armorer_Ishgard_Restoration,
+    ]);
 };

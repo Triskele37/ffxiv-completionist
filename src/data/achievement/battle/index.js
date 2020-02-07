@@ -1,25 +1,21 @@
-import { BattleBattleAchievements } from "./battle";
-import { DungeonBattleAchievements } from "./dungeons";
-import { HuntBattleAchievements } from "./hunt";
-import { RaidBattleAchievements } from "./raids";
-import { TrialBattleAchievements } from "./trials";
-import { TreasureHuntBattleAchievements } from "./treasurehunt";
+import { DataGroup } from "../../DataGroup";
+
+import { Achievements_Battle_Battle } from "./battle";
+import { Achievements_Battle_Dungeons } from "./dungeons";
+import { Achievements_Battle_Trials } from "./trials";
+import { Achievements_Battle_Raids } from "./raids";
+import { Achievements_Battle_The_Hunt } from "./hunt";
+import { Achievements_Battle_Treasure_Hunt } from "./treasurehunt";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 
-export const BattleAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.battle`;
-
-    return {
-        name: "Battle",
-    	storageKey,
-        subGroups: [
-            BattleBattleAchievements(storageKey),
-            DungeonBattleAchievements(storageKey),
-            HuntBattleAchievements(storageKey),
-            RaidBattleAchievements(storageKey),
-            TrialBattleAchievements(storageKey),
-            TreasureHuntBattleAchievements(storageKey),
-    	],
-    };
+export const Achievements_Battle = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Achievements_Battle_Battle,
+        Achievements_Battle_Dungeons,
+        Achievements_Battle_Trials,
+        Achievements_Battle_Raids,
+        Achievements_Battle_The_Hunt,
+        Achievements_Battle_Treasure_Hunt,
+    ]);
 };

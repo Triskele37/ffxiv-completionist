@@ -1,27 +1,30 @@
-import { DiscipleOfWarQuests } from "./disciple-of-war-quests";
-import { DiscipleOfMagicQuests } from "./disciple-of-magic-quests";
-import { DiscipleOfTheHandQuests } from "./disciple-of-the-hand-quests";
-import { DiscipleOfTheLandQuests } from "./disciple-of-the-land-quests";
-import { CrystallineMeanQuests } from "./crystalline-mean-quests";
-import { DiscipleOfWarJobQuests } from "./disciple-of-war-job-quests";
-import { DiscipleOfMagicJobQuests } from "./disciple-of-magic-job-quests";
-import { RoleQuests } from "./role-quests";
+import { DataGroup } from "../../DataGroup";
+import { QuestColumnConfig } from "../columnConfigs";
 
-export const ClassAndJob = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.class-and-job`;
+import { Quests_Class_and_Job_Disciple_of_War } from "./disciple-of-war-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic } from "./disciple-of-magic-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand } from "./disciple-of-the-hand-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Land } from "./disciple-of-the-land-quests";
+import { Quests_Class_and_Job_Crystalline_Mean } from "./crystalline-mean-quests";
+import { Quests_Class_and_Job_Disciple_of_War_Job } from "./disciple-of-war-job-quests";
+import { Quests_Class_and_Job_Disciple_of_Magic_Job } from "./disciple-of-magic-job-quests";
+import { Quests_Class_and_Job_Role } from "./role-quests";
 
-    return {
-        name: "Class & Job",
-        storageKey,
-        subGroups: [
-            DiscipleOfWarQuests(storageKey),
-            DiscipleOfMagicQuests(storageKey),
-            DiscipleOfTheHandQuests(storageKey),
-            DiscipleOfTheLandQuests(storageKey),
-            CrystallineMeanQuests(storageKey),
-            DiscipleOfWarJobQuests(storageKey),
-            DiscipleOfMagicJobQuests(storageKey),
-            RoleQuests(storageKey),
-        ]
-    };
+export const Quests_Class_and_Job = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = QuestColumnConfig;
+    data.name = "Class & Job";
+
+    data.initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_War,
+        Quests_Class_and_Job_Disciple_of_Magic,
+        Quests_Class_and_Job_Disciple_of_the_Hand,
+        Quests_Class_and_Job_Disciple_of_the_Land,
+        Quests_Class_and_Job_Crystalline_Mean,
+        Quests_Class_and_Job_Disciple_of_War_Job,
+        Quests_Class_and_Job_Disciple_of_Magic_Job,
+        Quests_Class_and_Job_Role,
+    ]);
+
+    return data;
 };

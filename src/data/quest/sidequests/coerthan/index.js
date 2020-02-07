@@ -1,15 +1,11 @@
-import { CoerthasCentralHighlands } from "./coerthas-central-highlands";
-import { CoerthasWesternHighlands } from "./coerthas-western-highlands";
+import { DataGroup } from "../../../DataGroup";
 
-export const Coerthan = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.coerthan`;
+import { Quests_Sidequests_Coerthan_Coerthas_Central_Highlands } from "./coerthas-central-highlands";
+import { Quests_Sidequests_Coerthan_Coerthas_Western_Highlands } from "./coerthas-western-highlands";
 
-    return {
-        name: "Coerthan",
-        storageKey,
-        subGroups: [
-            CoerthasCentralHighlands(storageKey),
-            CoerthasWesternHighlands(storageKey),
-        ]
-    };
+export const Quests_Sidequests_Coerthan = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Coerthan_Coerthas_Central_Highlands,
+        Quests_Sidequests_Coerthan_Coerthas_Western_Highlands,
+    ]);
 };

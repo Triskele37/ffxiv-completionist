@@ -1,21 +1,17 @@
-import { MatoyasCave } from "./matoyas-cave";
-import { Idyllshire } from "./idyllshire";
-import { TheDravanianForelands } from "./the-dravanian-forelands";
-import { TheDravanianHinterlands } from "./the-dravanian-hinterlands";
-import { TheChurningMists } from "./the-churning-mists";
+import { DataGroup } from "../../../DataGroup";
 
-export const Dravanian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.dravanian`;
+import { Quests_Sidequests_Dravanian_Matoyas_Cave } from "./matoyas-cave";
+import { Quests_Sidequests_Dravanian_Idyllshire } from "./idyllshire";
+import { Quests_Sidequests_Dravanian_The_Dravanian_Forelands } from "./the-dravanian-forelands";
+import { Quests_Sidequests_Dravanian_The_Dravanian_Hinterlands } from "./the-dravanian-hinterlands";
+import { Quests_Sidequests_Dravanian_The_Churning_Mists } from "./the-churning-mists";
 
-    return {
-        name: "Dravanian",
-        storageKey,
-        subGroups: [
-            MatoyasCave(storageKey),
-            Idyllshire(storageKey),
-            TheDravanianForelands(storageKey),
-            TheDravanianHinterlands(storageKey),
-            TheChurningMists(storageKey),
-        ]
-    };
+export const Quests_Sidequests_Dravanian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Dravanian_Matoyas_Cave,
+        Quests_Sidequests_Dravanian_Idyllshire,
+        Quests_Sidequests_Dravanian_The_Dravanian_Forelands,
+        Quests_Sidequests_Dravanian_The_Dravanian_Hinterlands,
+        Quests_Sidequests_Dravanian_The_Churning_Mists,
+    ]);
 };

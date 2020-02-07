@@ -1,87 +1,113 @@
 <template>
     <div
         class="summary-line"
-        :title="isNaN(completedPercentage) ? '' : tooltip"
+        :class="{big: big}"
+        :title="tooltip"
+        @click="onClick"
     >
-        <span class="summary-line-info">
-            {{group.name}}
-            <br/>
-            {{isNaN(completedPercentage) ? 'N/A' : completedPercentage + '%'}}
-        </span>
-        <span
-            class="progress-line complete-progress"
-            :style="completeBarStyle"
-        />
-        <span
-            class="progress-line incomplete-progress"
-            :style="incompleteBarStyle"
-        />
+        <template v-if="big">
+            <span class="summary-info big">
+                {{group.name}}
+                <br />
+                {{displayedPercentComplete}}
+            </span>
+        </template>
+        <template v-else>
+            <span class="summary-info">
+                <span>{{group.name}}</span>
+                <span style="float: right;">
+                    {{displayedPercentComplete}}
+                </span>
+            </span>
+        </template>
+
+        <span class="progress-line" :style="completeBarStyle" />
     </div>
 </template>
 
 <script>
-    const Store = require('electron-store');
-    const store = new Store();
-
     export default {
         name: 'summary-line',
         props: {
-            group: Object
+            group: Object,
+            big: Boolean,
         },
         computed: {
             tooltip: function() {
-                const { completed, excluded, total } = this.totals;
+                let tooltip = `${this.group.totalCompleted}/${this.group.displayTotal}\n`;
+                tooltip += `${this.group.totalExcluded} Excluded`;
 
-                return `${completed}/${total}\n${excluded} Excluded`;
+                return tooltip;
             },
-            completedPercentage: function() {
-                return ((this.totals.completed / this.totals.total) * 100).toFixed(2);
-            },
-            totals: function() {
-                return this.$store.getters.getTotals(this.group.storageKey);
+            displayedPercentComplete: function() {
+                if(this.group.percentComplete) return `${this.group.percentComplete}%`;
+                return 'N/A';
             },
             completeBarStyle: function() {
-                return { width: `${this.completedPercentage}%` };
+                return { width: `${this.group.percentComplete}%` };
             },
-            incompleteBarStyle: function() {
-                // -1px is to give some breathing room for the float calculation
-                return { width: `calc(${100-this.completedPercentage}% - 1px)` };
+        },
+        methods: {
+            onClick: function() {
+                // Don't allow the stat bar summaries to modify breadcrumbs
+                if(!this.big) this.$store.commit('navigation/PUSH_CRUMB', this.group.name);
             }
         }
     }
 </script>
 
 <style>
+    /*--------------------------------- Container */
     .summary-line {
+        background-color: #75190f;
         position: relative;
-        text-align: center;
-        height: 38px;
-        margin: 10px;
+        margin: 5px 10px;
 
         border: 1px outset;
-        border-radius: 19px;
         overflow: hidden;
     }
 
-    .summary-line-info {
+    .summary-line.big {
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        height: 40px;
+        width: calc(100% - 20px);
+    }
+
+    .summary-line:not(.big) {
+        border-radius: 7.5px;
+        cursor: pointer;
+        display: inline-block;
+        height: 20px;
+        width: calc(33% - 20px);
+    }
+
+    /*--------------------------------- Summary Text */
+    .summary-info {
         position: absolute;
+        top: 1px;
+        width: calc(100% - 10px);
         z-index: 10;
+    }
+
+    .summary-info.big {
+        left: unset;
         transform: translate(-50%, 0);
     }
 
+    .summary-info:not(.big) {
+        left: 5px;
+    }
+
+    /*--------------------------------- Progress Line */
     .progress-line {
+        background-color: #0f7538;
         display: inline-block;
         position: relative;
         height: 100%;
         z-index: 5;
         float: left;
-    }
-
-    .complete-progress {
-        background-color: #0f7538;
-    }
-
-    .incomplete-progress {
-        background-color: #75190f;
+        transition: width 0.5s;
     }
 </style>

@@ -1,0 +1,99 @@
+import { DataGroup } from "../../../DataGroup";
+
+export const Travel_Aether_Currents_ShB_Kholusia = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+    	name: "1",
+    	location: "Komra",
+    	coordinates: "X: 34.1   Y: 17.2   Z: 3.1",
+    	quest: "-",
+    	notes: "Up on a ledge in Wet Whistle "
+    }, {
+    	name: "2",
+    	location: "Scree",
+    	coordinates: "X: 20.2   Y: 21.1   Z: 3.4",
+    	quest: "-",
+    	notes: "On top of a rock mound. "
+    }, {
+    	name: "3",
+    	location: "The Duergar's Tewel",
+    	coordinates: "X: 34.7   Y:   9.7   Z: 2.7",
+    	quest: "-",
+    	notes: "The Duergar's Tewel, between the geysers "
+    }, {
+    	name: "4",
+    	location: "Scree",
+    	coordinates: "X: 18.9   Y: 13.4   Z: 3.9",
+    	quest: "-",
+    	notes: "Top of a rock outcropping, Southwest of Pit 8 "
+    }, {
+    	name: "5",
+    	location: "Top Rung",
+    	coordinates: "X: 11.0   Y: 21.2   Z: 3.2",
+    	quest: "-",
+    	notes: "On the cliff just west of the Top Rung "
+    }, {
+    	name: "6",
+    	location: "Whisperwind Cove",
+    	coordinates: "X:   7.6   Y: 34.0   Z:-0.1",
+    	quest: "-",
+    	notes: "East side of the isthmus connecting Barrow Island to Whisperwind Cove"
+    }, {
+    	name: "7",
+    	location: "Seagazer",
+    	coordinates: "X: 17.6   Y: 37.0   Z: 0.1",
+    	quest: "-",
+    	notes: "At the base of the lighthouse"
+    }, {
+    	name: "8",
+    	location: "Gatetown",
+    	coordinates: "X: 23.8   Y: 36.9   Z: 0.5",
+    	quest: "-",
+    	notes: "Atop a small hill just behind the houses of Gatetown"
+    }, {
+    	name: "9",
+    	location: "The Bright Cliff",
+    	coordinates: "X: 34.9   Y: 24.0   Z: 0.4",
+    	quest: "-",
+    	notes: "Directly North of Stilltide"
+    }, {
+    	name: "10",
+    	location: "Cracked Shell Beach",
+    	coordinates: "X: 34.4   Y: 32.5   Z: 0.0",
+    	quest: "-",
+    	notes: "At the end of a pier"
+    }, {
+    	name: "11",
+    	location: "Thenoise - Wright",
+    	coordinates: "X: 15.3   Y: 29.5   Z: 0.1",
+    	quest: "A Plankless Task",
+    	notes: "Unlocks after completing MSQ \"A Fickle Existence\""
+    }, {
+    	name: "12",
+    	location: "Zumie-Shai - Amity",
+    	coordinates: "X: 18.8   Y: 17.9   Z: 3.5",
+    	quest: "Fugitive of Fear",
+    	notes: "Unlocks after completing MSQ \"Rich Veins of Hope\""
+    }, {
+    	name: "13",
+    	location: "Eueliss - Wright",
+    	coordinates: "X: 15.3   Y: 28.6   Z: 0.2",
+    	quest: "Village of Woe",
+    	notes: "Unlocks after completing MSQ \"A Fickle Existence\""
+    }, {
+    	name: "14",
+    	location: "Beott - Tomra",
+    	coordinates: "X: 12.4   Y:   9.2   Z: 4.1",
+    	quest: "A Disagreeable Dwarf",
+    	notes: "Unlocks after completing MSQ \"Meet the Tholls\""
+    }, {
+    	name: "15",
+    	location: "Chai-Nuzz - Amity",
+    	coordinates: "X: 18.7   Y: 17.6   Z: 3.5",
+    	quest: "Extinguishing the Last Light (MSQ)",
+    	notes: "Unlocks after completing MSQ \"A Breath of Respite\""
+    },
+];

@@ -1,73 +1,68 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Leatherworker_Restoration = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.restoration`;
-
-    return {
-        name: "Restoration",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": 20,
-                "item": "Skybuilders' Leather",
-                "mat-1": "6 Skybuilders' Yew Log",
-                "mat-2": "Aldgoat Skin",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Earth Shard, 2 Wind Shard",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 40,
-                "item": "Skybuilders' Leather Straps",
-                "mat-1": "4 Skybuilders' Ash Log",
-                "mat-2": "4 Skybuilders' Toad",
-                "mat-3": "2 Rosewood Branch",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Earth Shard, 2 Wind Shard",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 60,
-                "item": "Skybuilders' Rug",
-                "mat-1": "6 Skybuilders' Tea Leaves",
-                "mat-2": "6 Skybuilders' Dravanian Spring Water",
-                "mat-3": "2 Dhalmel Hide",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Earth Shard, 2 Wind Shard",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 70,
-                "item": "Skybuilders' Longboots",
-                "mat-1": "6 Skybuilders' Adder",
-                "mat-2": "6 Skybuilders' Urunday Log",
-                "mat-3": "6 Skybuilders' Vine",
-                "mat-4": "Kudzu Cloth",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Earth Crystal, 2 Wind Crystal",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 80,
-                "item": "Skybuilders' Overalls",
-                "mat-1": "8 Skybuilders' Dawn Lizard",
-                "mat-2": "8 Skybuilders' White Ash Log",
-                "mat-3": "8 Skybuilders' Cotton Boll",
-                "mat-4": "Pixie Cotton",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Earth Crystal, 2 Wind Crystal",
-                "special": "Ishgard, Collectable"
-            }
-        ]
-    };
+export const Crafting_Log_Leatherworker_Ishgard_Restoration_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: 20,
+        name: "Skybuilders' Leather",
+        mat1: "6 Skybuilders' Yew Log",
+        mat2: "Aldgoat Skin",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Earth Shard, 2 Wind Shard",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 40,
+        name: "Skybuilders' Leather Straps",
+        mat1: "4 Skybuilders' Ash Log",
+        mat2: "4 Skybuilders' Toad",
+        mat3: "2 Rosewood Branch",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Earth Shard, 2 Wind Shard",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 60,
+        name: "Skybuilders' Rug",
+        mat1: "6 Skybuilders' Tea Leaves",
+        mat2: "6 Skybuilders' Dravanian Spring Water",
+        mat3: "2 Dhalmel Hide",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Earth Shard, 2 Wind Shard",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 70,
+        name: "Skybuilders' Longboots",
+        mat1: "6 Skybuilders' Adder",
+        mat2: "6 Skybuilders' Urunday Log",
+        mat3: "6 Skybuilders' Vine",
+        mat4: "Kudzu Cloth",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Earth Crystal, 2 Wind Crystal",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 80,
+        name: "Skybuilders' Overalls",
+        mat1: "8 Skybuilders' Dawn Lizard",
+        mat2: "8 Skybuilders' White Ash Log",
+        mat3: "8 Skybuilders' Cotton Boll",
+        mat4: "Pixie Cotton",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Earth Crystal, 2 Wind Crystal",
+        special: "Ishgard, Collectable"
+    },
+];

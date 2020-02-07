@@ -1,62 +1,56 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-
-export const Culinarian_Story_ClassQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.class-quests`;
-
-    return {
-        name: "Class Quests",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": 63,
-                "item": "Doman Rice Balls",
-                "mat-1": "Rice Ball Ingredients",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Crystal, Water Crystal",
-                "special": "X"
-            },
-            {
-                "level": 65,
-                "item": "Doman Udon Broth",
-                "mat-1": "Broth Ingredients",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Crystal, Water Crystal",
-                "special": "X"
-            },
-            {
-                "level": 68,
-                "item": "Nigiri-zushi",
-                "mat-1": "Sushi Ingredients",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Crystal, Water Crystal",
-                "special": "X"
-            },
-            {
-                "level": 70,
-                "item": "Doman Sukiyaki",
-                "mat-1": "Sukiyaki Ingredients",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Crystal, Water Crystal",
-                "special": "X"
-            }
-        ]
-    };
+export const Crafting_Log_Culinarian_Story_Class_Quests = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: 63,
+        name: "Doman Rice Balls",
+        mat1: "Rice Ball Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
+    },
+    {
+        level: 65,
+        name: "Doman Udon Broth",
+        mat1: "Broth Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
+    },
+    {
+        level: 68,
+        name: "Nigiri-zushi",
+        mat1: "Sushi Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
+    },
+    {
+        level: 70,
+        name: "Doman Sukiyaki",
+        mat1: "Sukiyaki Ingredients",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Crystal, Water Crystal",
+        special: "X"
+    }
+];

@@ -1,27 +1,23 @@
-import { CarpenterQuests } from "./carpenter-quests";
-import { BlacksmithQuests } from "./blacksmith-quests";
-import { ArmorerQuests } from "./armorer-quests";
-import { GoldsmithQuests } from "./goldsmith-quests";
-import { LeatherworkerQuests } from "./leatherworker-quests";
-import { WeaverQuests } from "./weaver-quests";
-import { AlchemistQuests } from "./alchemist-quests";
-import { CulinarianQuests } from "./culinarian-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const DiscipleOfTheHandQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.disciple-of-the-hand`;
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Carpenter } from "./carpenter-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Blacksmith } from "./blacksmith-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Armorer } from "./armorer-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Goldsmith } from "./goldsmith-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Leatherworker } from "./leatherworker-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Weaver } from "./weaver-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Alchemist } from "./alchemist-quests";
+import { Quests_Class_and_Job_Disciple_of_the_Hand_Culinarian } from "./culinarian-quests";
 
-    return {
-        name: "Disciple of the Hand",
-        storageKey,
-        subGroups: [
-            CarpenterQuests(storageKey),
-            BlacksmithQuests(storageKey),
-            ArmorerQuests(storageKey),
-            GoldsmithQuests(storageKey),
-            LeatherworkerQuests(storageKey),
-            WeaverQuests(storageKey),
-            AlchemistQuests(storageKey),
-            CulinarianQuests(storageKey),
-        ]
-    };
+export const Quests_Class_and_Job_Disciple_of_the_Hand = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Class_and_Job_Disciple_of_the_Hand_Carpenter,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Blacksmith,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Armorer,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Goldsmith,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Leatherworker,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Weaver,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Alchemist,
+        Quests_Class_and_Job_Disciple_of_the_Hand_Culinarian,
+    ]);
 };

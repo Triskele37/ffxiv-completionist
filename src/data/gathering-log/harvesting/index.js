@@ -1,15 +1,17 @@
-import { LevelBasedHarvestingLogs } from "./level-based";
-import { SpecialHarvestingLogs } from "./special";
+import { DataGroup } from "../../DataGroup";
+import { GatheringColumnConfig } from "../columnConfigs";
 
-export const HarvestingLog = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.harvesting`;
+import { Gathering_Log_Harvesting_Level } from "./level-based";
+import { Gathering_Log_Harvesting_Special } from "./special";
 
-    return {
-        name: "Harvesting",
-        storageKey,
-        subGroups: [
-            LevelBasedHarvestingLogs(storageKey),
-    		SpecialHarvestingLogs(storageKey),
-        ],
-    };
+export const Gathering_Log_Harvesting = function(name, parent) {
+    const data = new DataGroup(name, parent)
+    data.columnConfig = GatheringColumnConfig;
+
+    data.initializeSubGroups([
+        Gathering_Log_Harvesting_Level,
+        Gathering_Log_Harvesting_Special,
+	]);
+
+    return data;
 };

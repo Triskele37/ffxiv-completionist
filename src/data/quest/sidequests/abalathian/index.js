@@ -1,13 +1,9 @@
-import { TheSeaOfClouds } from "./the-sea-of-clouds";
+import { DataGroup } from "../../../DataGroup";
 
-export const Abalathian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.abalathian`;
+import { Quests_Sidequests_Abalathian_The_Sea_of_Clouds } from "./the-sea-of-clouds";
 
-    return {
-        name: "Abalathian",
-        storageKey,
-        subGroups: [
-            TheSeaOfClouds(storageKey)
-        ]
-    };
+export const Quests_Sidequests_Abalathian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Abalathian_The_Sea_of_Clouds
+    ]);
 };

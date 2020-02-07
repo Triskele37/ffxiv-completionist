@@ -1,43 +1,74 @@
-/** in-game order
- 1. character: [character (titles, class levels, rep), companion (barding), mounts, minions, blu, gold saucer (triad), achievements]
- 2. duty: collection, journal, finder (dun, tri, raid), trust, hall of novice
- 3. logs: hunting, sightseeing, crafting, gathering, fishing log, fishing guide, orchestrion
- 4. travel: aether current, mount speed, shared fate
- 5. social: emotes
-
- not in-game
- hunts, masked carnivale, aesthetician
- FATE? under shared fate?
- * */
-
- /* Duplicate name keys in groups:
- Rhyme & Region 2018 (label with JP/NA/EU)
- The Isle of Ken (break out spearfishing)
- Unspoiled Teeming Waters (?)
- */
+import { DataGroup } from "./DataGroup";
+import { applyStoreToData } from "./storageUtils";
 
 import { Achievements } from "./achievement";
-import { Collectable } from "./collectable";
-import { CraftingLogs } from "./crafting-log";
-import { Logs } from "./logs";
-import { FATEs } from "./fate";
-import { GatheringLogs } from "./gathering-log";
+import { Collectables } from "./collectable";
+import { General_Logs } from "./logs";
+import { Crafting_Log } from "./crafting-log";
+import { Gathering_Log } from "./gathering-log";
 import { Duty } from "./duty";
+import { FATEs } from "./fate";
+import { Travel } from "./travel";
 import { Quests } from "./quest";
 
-const storageKey = "completion";
+const data = new DataGroup("Overall", null);
+data.initializeSubGroups([
+    Achievements,
+    Collectables,
+    General_Logs,
+    Crafting_Log,
+    Gathering_Log,
+    Duty,
+    FATEs,
+    Travel,
+    Quests,
+]);
 
-export const data = {
-    name: "Overall",
-    storageKey,
-    subGroups: [
-        Achievements(storageKey),
-        Collectable(storageKey),
-        CraftingLogs(storageKey),
-        Logs(storageKey),
-        FATEs(storageKey),
-        GatheringLogs(storageKey),
-        Duty(storageKey),
-        Quests(storageKey),
-    ]
-};
+// This line is what loads the user's data
+applyStoreToData(data);
+
+export { data };
+
+/* Proposed Order
+Character
+    Barding
+    Mount
+    Minion
+    Blue Magic Spellbook
+    Gold Saucer
+        Triple Triad Cards
+        Triple Triad Opponents
+    Achievements ...
+Duty
+    Collection
+    Journal ... (quests)
+    Duty Finder
+        Dungeons
+        Guildhests
+        Trials
+        Raids
+    Trust
+    Hall of the Novice
+    Hunt
+Logs
+    Hunting Log ...
+    Sightseeing Log ...
+    Crafting Log ...
+    Gathering Log ...
+    Fishing Log
+        Fishing
+        Spearfishing
+    Fishing Guide
+        Fishing
+        Spearfishing
+    Orchestrion List ...
+Travel
+    Aether Currents
+    Mount Speed
+    Shared FATE
+    FATE
+    Porter
+Social
+    Emotes
+    Aesthetician
+*/

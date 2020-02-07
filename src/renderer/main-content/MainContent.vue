@@ -1,33 +1,42 @@
 <template>
     <div id="main-content">
         <!----------- Top-Level Summary ----------->
-        <template v-if="!selectedGroup">
-            <summary-line
-                v-for="subGroup in allData.subGroups"
-                :key="subGroup.name"
-                :group="subGroup"
-            />
-        </template>
+        <div v-if="!selectedGroup">
+            Hello World
+        </div>
         <!----------- Selected Custom Component ----------->
         <template v-else-if="selectedGroup.component">
             <component v-bind:is="selectedGroup.component"></component>
         </template>
-        <!----------- Show All Mode - Task Table ----------->
-        <template v-else-if="!showSummary">
-            <show-all-section :group="selectedGroup" />
-        </template>
-        <!----------- Summary Mode - Summary & Task Table ----------->
+        <!----------- Summary & Task Table ----------->
         <template v-else>
-            <template v-if="selectedGroup.subGroups">
+            <div v-if="selectedGroup.groupKeys" class="group-summary-section">
                 <summary-line
-                    v-for="subGroup in selectedGroup.subGroups"
-                    :key="subGroup.name"
-                    :group="subGroup"
+                    v-for="groupKey in selectedGroup.groupKeys"
+                    :key="selectedGroup[groupKey].name"
+                    :group="selectedGroup[groupKey]"
                 />
-            </template>
+            </div>
 
-            <template v-if="selectedGroup.tasks">
-                <task-table :group="selectedGroup" />
+            <div class="section-actions">
+                <button
+                    class="action-button"
+                    v-if="showShowAllButton"
+                    @click="toggleShowAll"
+                >
+                    {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
+                </button>
+            </div>
+
+            <!----------- Task Tables (base & show all) ----------->
+            <template v-if="showShowAllButton && showAll">
+                <show-all-section :group="selectedGroup" />
+            </template>
+            <template v-else-if="selectedGroup.tasks">
+                <task-table
+                    :column-config="selectedGroup.columnConfig"
+                    :tasks="selectedGroup.tasks"
+                />
             </template>
         </template>
     </div>
@@ -46,6 +55,7 @@
         name: 'main-content',
         data: () => ({
             allData: data,
+            showAll: false,
         }),
         components: {
             'summary-line': SummaryLine,
@@ -56,9 +66,16 @@
         computed: {
             ...mapState('navigation', {
                 selectedGroup: 'selectedGroup',
-                showSummary: 'showSummary',
             }),
+            showShowAllButton: function() {
+                return (this.selectedGroup && this.selectedGroup.groupKeys && this.selectedGroup.columnConfig);
+            },
         },
+        methods: {
+            toggleShowAll: function() {
+                this.showAll = !this.showAll;
+            }
+        }
     };
 </script>
 
@@ -67,5 +84,35 @@
         height: calc(100% - 160px);
         margin: 10px;
         overflow-y: auto;
+    }
+
+    .group-summary-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-actions {
+        text-align: center;
+    }
+
+    .action-button {
+        background-color: #0F4C75;
+        border-radius: 10px;
+        border: 1px solid;
+        color: #BBE1FA;
+        text-align: center;
+        user-select: none;
+
+        margin: 5px;
+        padding: 0 10px;
+    }
+
+    .action-button:hover {
+        filter: brightness(125%);
+        cursor: pointer;
+    }
+
+    .action-button:active {
+        filter: brightness(75%);
     }
 </style>

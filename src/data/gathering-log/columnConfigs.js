@@ -4,13 +4,13 @@ export const GatheringColumnConfig = [
         key: "level",
         filterable: true,
         filterType: 'number',
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     { header: "Name", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
     { header: "Location", key: "location" },
+    { header: "Usages", key: "usage" },
+    { header: "Special", key: "special" },
 ];
 
 export const FishingLogColumnConfig = [
@@ -19,9 +19,7 @@ export const FishingLogColumnConfig = [
         key: "level",
         filterable: true,
         filterType: 'number',
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     { header: "Log", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
@@ -36,9 +34,7 @@ export const FishingGuideColumnConfig = [
         key: "ilvl",
         filterable: true,
         filterType: 'number',
-        styles: {
-            centered: true
-        }
+        centered: true,
     },
     { header: "Name", key: "name" },
     { header: "Prime Location", key: "primeLocation", filterable: true },

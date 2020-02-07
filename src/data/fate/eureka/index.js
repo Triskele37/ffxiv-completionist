@@ -1,19 +1,21 @@
-import { AnemosFATEs } from "./anemos";
-import { PagosFATEs } from "./pagos";
-import { PyrosFATEs } from "./pyros";
-import { HydatosFATEs } from "./hydatos";
+import { DataGroup } from "../../DataGroup";
+import { EurekaColumnConfig } from "../columnConfigs";
 
-export const EurekaFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.eureka`;
+import { FATEs_Eureka_Anemos } from "./anemos";
+import { FATEs_Eureka_Pagos } from "./pagos";
+import { FATEs_Eureka_Pyros } from "./pyros";
+import { FATEs_Eureka_Hydatos } from "./hydatos";
 
-    return {
-        name: "Eureka",
-        storageKey,
-        subGroups: [
-            AnemosFATEs(storageKey),
-            PagosFATEs(storageKey),
-            PyrosFATEs(storageKey),
-            HydatosFATEs(storageKey),
-        ]
-    };
+export const FATEs_Eureka = function(name, parent) {
+    const data = new DataGroup(name, parent)
+    data.columnConfig = EurekaColumnConfig;
+
+    data.initializeSubGroups([
+        FATEs_Eureka_Anemos,
+        FATEs_Eureka_Pagos,
+        FATEs_Eureka_Pyros,
+        FATEs_Eureka_Hydatos,
+	]);
+
+    return data;
 };

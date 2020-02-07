@@ -1,23 +1,19 @@
-import { LeatherworkerLevelBased } from "./level-based";
-import { LeatherworkerMasterRecipe } from "./master-recipes";
-import { LeatherworkerStoryRecipe } from "./story";
-import { LeatherworkerHousingRecipe } from "./housing";
-import { Leatherworker_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Leatherworker_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const LeatherworkerCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.leatherworker`;
+import { Crafting_Log_Leatherworker_Level_Based } from "./level-based";
+import { Crafting_Log_Leatherworker_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Leatherworker_Housing } from "./housing";
+import { Crafting_Log_Leatherworker_Others } from "./others";
+import { Crafting_Log_Leatherworker_Story } from "./story";
+import { Crafting_Log_Leatherworker_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Leatherworker",
-        storageKey,
-        subGroups: [
-            LeatherworkerLevelBased(storageKey),
-            LeatherworkerMasterRecipe(storageKey),
-            LeatherworkerStoryRecipe(storageKey),
-            LeatherworkerHousingRecipe(storageKey),
-            Leatherworker_IshgardRestoration_Recipe(storageKey),
-            Leatherworker_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Leatherworker = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Leatherworker_Level_Based,
+        Crafting_Log_Leatherworker_Master_Recipes,
+        Crafting_Log_Leatherworker_Housing,
+        Crafting_Log_Leatherworker_Others,
+        Crafting_Log_Leatherworker_Story,
+        Crafting_Log_Leatherworker_Ishgard_Restoration,
+    ]);
 };

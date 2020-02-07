@@ -1,40 +1,39 @@
+import { DataGroup } from "../DataGroup";
 import { FATEColumnConfig } from "./columnConfigs";
 
-import { AbalathiasSpineFATEs } from "./abalathias-spine";
-import { BlackShroudFATEs } from "./black-shroud";
-import { CoerthasFATEs } from "./coerthas";
-import { DiademFATEs } from "./diadem";
-import { DravaniaFATEs } from "./dravania";
-import { EurekaFATEs } from "./eureka";
-import { GyrAbaniaFATEs } from "./gyr-abania";
-import { LaNosceaFATEs } from "./la-noscea";
-import { MorDhonaFATEs } from "./mor-dhona";
-import { NorvrandtFATEs } from "./norvrandt";
-import { OthardFATEs } from "./othard";
-import { ThanalanFATEs } from "./thanalan";
+import { FATEs_La_Noscea } from "./la-noscea";
+import { FATEs_The_Black_Shroud } from "./black-shroud";
+import { FATEs_Thanalan } from "./thanalan";
+import { FATEs_Coerthas } from "./coerthas";
+import { FATEs_Mor_Dhona } from "./mor-dhona";
+import { FATEs_Abalathias_Spine } from "./abalathias-spine";
+import { FATEs_Dravania } from "./dravania";
+import { FATEs_The_Diadem } from "./diadem";
+import { FATEs_Gyr_Abania } from "./gyr-abania";
+import { FATEs_Othard } from "./othard";
+import { FATEs_Eureka } from "./eureka";
+import { FATEs_Norvrandt } from "./norvrandt";
 
 /* https://xivapi.com/Fate */
 
-export const FATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.fate`;
+export const FATEs = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = FATEColumnConfig;
 
-    return {
-        name: "FATE",
-        storageKey,
-        columns: FATEColumnConfig,
-        subGroups: [
-            AbalathiasSpineFATEs(storageKey),
-            BlackShroudFATEs(storageKey),
-            CoerthasFATEs(storageKey),
-            DiademFATEs(storageKey),
-            DravaniaFATEs(storageKey),
-            EurekaFATEs(storageKey),
-            GyrAbaniaFATEs(storageKey),
-            LaNosceaFATEs(storageKey),
-            MorDhonaFATEs(storageKey),
-            NorvrandtFATEs(storageKey),
-            OthardFATEs(storageKey),
-            ThanalanFATEs(storageKey),
-        ]
-    };
+	data.initializeSubGroups([
+        FATEs_La_Noscea,
+        FATEs_The_Black_Shroud,
+        FATEs_Thanalan,
+        FATEs_Coerthas,
+        FATEs_Mor_Dhona,
+        FATEs_Abalathias_Spine,
+        FATEs_Dravania,
+        FATEs_The_Diadem,
+        FATEs_Gyr_Abania,
+        FATEs_Othard,
+        FATEs_Eureka,
+        FATEs_Norvrandt,
+	]);
+
+    return data;
 };

@@ -1,0 +1,99 @@
+import { DataGroup } from "../../../DataGroup";
+
+export const Travel_Aether_Currents_HW_The_Churning_Mists = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+    	name: "1",
+    	location: "Landlord Colony",
+    	coordinates: "X: 29.3   Y: 19.9   Z: 0.5",
+    	quest: "-",
+    	notes: "On path leading to Monsterie"
+    }, {
+    	name: "2",
+    	location: "Eil Tohm",
+    	coordinates: "X: 35.9   Y: 33.8   Z: 0.4",
+    	quest: "-",
+    	notes: "Edge of the map by Eli Tohm"
+    }, {
+    	name: "3",
+    	location: "Landlord Colony",
+    	coordinates: "X: 27.4   Y: 26.1   Z: 0.6",
+    	quest: "-",
+    	notes: "On ledge over looking main path"
+    }, {
+    	name: "4",
+    	location: "Four Arms",
+    	coordinates: "X: 21.0   Y: 30.1   Z: 0.8",
+    	quest: "-",
+    	notes: "On an outcrop just south of Asah "
+    }, {
+    	name: "5",
+    	location: "Four Arms",
+    	coordinates: "X: 16.9   Y: 33.6   Z: 1.1",
+    	quest: "-",
+    	notes: "On top of a toppled stone pillar"
+    }, {
+    	name: "6",
+    	location: "Eil Tohm",
+    	coordinates: "X: 28.4   Y: 28.3   Z: 0.4",
+    	quest: "-",
+    	notes: "North of Moghome "
+    }, {
+    	name: "7",
+    	location: "Moghome",
+    	coordinates: "X: 30.9   Y: 35.7   Z: 0.3",
+    	quest: "-",
+    	notes: "Moghome's East tunnel - climb the rocky ramp on the side of the cavern"
+    }, {
+    	name: "8",
+    	location: "Asah",
+    	coordinates: "X: 20.8   Y: 27.4   Z: 0.7",
+    	quest: "-",
+    	notes: "In Asah "
+    }, {
+    	name: "9",
+    	location: "Monsterie",
+    	coordinates: "X: 34.5   Y: 15.8   Z: 0.7",
+    	quest: "-",
+    	notes: "In a bowl, to the back of the Monsterie"
+    }, {
+    	name: "10",
+    	location: "Zenith",
+    	coordinates: "X:   7.0   Y: 27.4   Z: 2.0",
+    	quest: "-",
+    	notes: "At the top of the palace in Zenith"
+    }, {
+    	name: "11",
+    	location: "Mogret - Moghome",
+    	coordinates: "X: 29.8   Y: 36.1   Z: 0.0",
+    	quest: "The Bathing Bully",
+    	notes: "Unlocks after completing MSQ \"Moghan's Trial\""
+    }, {
+    	name: "12",
+    	location: "Moon-Eyed Moogle - Monsterie",
+    	coordinates: "X: 32.9   Y: 15.4   Z: 0.7",
+    	quest: "Waiting to Inhale",
+    	notes: "Unlocks after completing MSQ \"Heart of Ice\""
+    }, {
+    	name: "13",
+    	location: "Mogsy - Moghome",
+    	coordinates: "X: 27.5   Y: 33.8   Z: 0.4",
+    	quest: "Road Kill",
+    	notes: "Unlocks after completing MSQ \"Leaving Moghome\""
+    }, {
+    	name: "14",
+    	location: "Maundering Moogle - Zenith",
+    	coordinates: "X: 12.3   Y: 29.5   Z: 1.3",
+    	quest: "Hide Your Moogles",
+    	notes: "Unlocks after completing MSQ \"The Wyrm's Layer\" and Sidequest \"The Bathing Bully\""
+    }, {
+    	name: "15",
+    	location: "Estinien - Congregation of Our Knights Most Heavenly (Ishgard - Foundation)",
+    	coordinates: "X: 13.3   Y: 11.0",
+    	quest: "Into the Aery (MSQ)",
+    	notes: "Unlocks after completing MSQ \"Ready to Fly\""
+    },
+];

@@ -1,19 +1,16 @@
 <template>
     <tbody>
         <tr
-            v-for="task in tasks"
-            :key="task.name"
+            v-for="task, index in tasks"
+            :key="`${task.name}-${index}`"
         >
-            <complete-cell
-                :group-storage-key="selectedGroup.storageKey"
-                :task="task"
-            />
+            <completion-flag-cell :task="task" :flag="task.completionFlag" />
 
             <td
                 class="data-cell"
-                v-for="column in selectedGroup.columns"
+                v-for="column in columnConfig"
                 :class="{
-                    centered: column.styles ? column.styles.centered : false
+                    centered: !!column.centered
                 }"
             >
                 {{task[column.key]}}
@@ -25,17 +22,18 @@
 </template>
 
 <script>
-    import * as CellType from './cell-types';
+    import CompleteCell from './cell-types/CompleteCell';
+    import ExternalCell from './cell-types/ExternalCell';
 
     export default {
         name: 'task-table-data-row',
         props: {
-            selectedGroup: Object,
+            columnConfig: Array,
             tasks: Array,
         },
         components: {
-            'complete-cell': CellType.CompleteCell,
-            'external-cell': CellType.ExternalCell,
+            'completion-flag-cell': CompleteCell,
+            'external-cell': ExternalCell,
         }
     };
 </script>

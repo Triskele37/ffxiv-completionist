@@ -1,17 +1,14 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const TalesFromTheShadows = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.tales-from-the-shadows`;
-
-    return {
-        name: "Tales from the Shadows",
-    	storageKey,
-        columns: QuestColumnConfig,
-        tasks: [{
-        	level: "80",
-        	name: "One Final Journey",
-        	npc: "F'lhaminn",
-        	unlock: ""
-        }]
-    };
+export const Quests_Sidequests_Side_Story_Tales_from_the_Shadows = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "80",
+        name: "One Final Journey",
+        npc: "F'lhaminn",
+        unlock: ""
+    }
+];

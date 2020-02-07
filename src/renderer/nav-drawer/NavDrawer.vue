@@ -9,33 +9,25 @@
 
         <!---------------------- Data Nav ---------------------->
         <nav-group
-            v-for="group in groups"
-            :key="group.name"
+            v-for="groupKey in allData.groupKeys"
+            :key="allData[groupKey].name"
             :show="true"
             :degree="1"
-            :group="group"
-        />
-
-        <!---------------------- Debug Menu ---------------------->
-        <nav-group
-            :show="true"
-            :degree="1"
-            :group="debugMenu"
+            :group="allData[groupKey]"
         />
     </span>
 </template>
 
 <script>
     import { data } from '../../data';
-    import { MainMenu, DebugMenu } from './menu-items';
+    import { MainMenu } from './menu-items';
     import NavGroup from './nav-group/NavGroup.vue';
 
     export default {
         name: 'nav-drawer',
         data: () => ({
-            groups: data.subGroups,
+            allData: data,
             mainMenu: MainMenu,
-            debugMenu: DebugMenu,
         }),
         components: {
             'nav-group': NavGroup

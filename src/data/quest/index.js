@@ -1,10 +1,28 @@
-import { MainScenarioQuests } from "./main-scenario";
-import { ChroniclesOfANewEra } from "./chronicles-of-a-new-era";
-import { Sidequests } from "./sidequests";
-import { BeastTribeQuests } from "./beast-tribe-quests";
-import { ClassAndJob } from "./class-and-job-quests";
-import { OtherQuests } from "./other-quests";
-import { Levequests } from "./levequests";
+import { DataGroup } from "../DataGroup";
+
+import { Quests_Main_Scenario } from "./main-scenario";
+import { Quests_Chronicles_of_a_New_Era } from "./chronicles-of-a-new-era";
+import { Quests_Sidequests } from "./sidequests";
+import { Quests_Beast_Tribe } from "./beast-tribe-quests";
+import { Quests_Class_and_Job } from "./class-and-job-quests";
+import { Quests_Other } from "./other-quests";
+import { Quests_Levequests } from "./levequests";
+
+export const Quests = function(name, parent) {
+    const data = new DataGroup(name, parent);
+
+    data.initializeSubGroups([
+        Quests_Main_Scenario,
+        Quests_Chronicles_of_a_New_Era,
+        Quests_Sidequests,
+        Quests_Beast_Tribe,
+        Quests_Class_and_Job,
+        Quests_Other,
+        Quests_Levequests,
+    ]);
+
+    return data;
+};
 
 /*
 
@@ -18,21 +36,3 @@ https://xivapi.com/JournalCategory?columns=ID,Name
 https://xivapi.com/JournalGenre?columns=ID,Name&limit=209
 
 */
-
-export const Quests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.quests`;
-
-    return {
-        name: "Quest",
-        storageKey,
-        subGroups: [
-            MainScenarioQuests(storageKey), // JournalGenre 1-9
-            ChroniclesOfANewEra(storageKey), // JournalGenre 10-20
-            Sidequests(storageKey), // < 45 starts in hildi
-            BeastTribeQuests(storageKey), // JournalGenre 21-44
-            ClassAndJob(storageKey),
-            OtherQuests(storageKey),
-            Levequests(storageKey),
-        ]
-    };
-};

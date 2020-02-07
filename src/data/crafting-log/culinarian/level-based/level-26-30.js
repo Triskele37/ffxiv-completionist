@@ -1,205 +1,200 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const CulinarianLevels_26_30 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-26-30`;
-
-    return {
-        name: "Levels 26-30",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "26",
-                "item": "Aldgoat Steak",
-                "mat-1": "Aldgoat Chuck",
-                "mat-2": "Table Salt",
-                "mat-3": "Garlean Garlic",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Fire Shard, 2 Water Shard",
-                "special": "Ingredient (CUL), Provisioning"
-            },
-            {
-                "level": "26",
-                "item": "Ginger Cookie",
-                "mat-1": "Sunset Wheat Flout",
-                "mat-2": "Maple Sugar",
-                "mat-3": "Chicken Egg",
-                "mat-4": "Natron",
-                "mat-5": "Pearl Ginger",
-                "mat-6": "Smooth Butter",
-                "catalysts": "2 Fire Shard, 2 Water Shard",
-                "special": "Ingredient (CUL), Levequest, Provisioning"
-            },
-            {
-                "level": "26",
-                "item": "Pea Soup",
-                "mat-1": "Jade Peas",
-                "mat-2": "Mineral Water",
-                "mat-3": "Wild Onion",
-                "mat-4": "Table Salt",
-                "mat-5": "Smooth Butter",
-                "mat-6": "X",
-                "catalysts": "2 Fire Shard, 2 Water Shard",
-                "special": "Levequest, Provisioning"
-            },
-            {
-                "level": "27",
-                "item": "Fried Egg",
-                "mat-1": "Puk Egg",
-                "mat-2": "Smooth Butter",
-                "mat-3": "Table Salt",
-                "mat-4": "Mineral Water",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 2 Water Shard",
-                "special": "Ingredient (CUL), Provisioning"
-            },
-            {
-                "level": "27",
-                "item": "Boiled Bream",
-                "mat-1": "Bianaq Bream",
-                "mat-2": "Olive Oil",
-                "mat-3": "Garlean Garlic",
-                "mat-4": "Wizard Eggplant",
-                "mat-5": "Wild Onion",
-                "mat-6": "Midland Cabbage",
-                "catalysts": "3 Fire Shard, 2 Water Shard",
-                "special": "Provisioning"
-            },
-            {
-                "level": "27",
-                "item": "Cheese Risotto",
-                "mat-1": "Sticky Rice",
-                "mat-2": "Cottage Cheese",
-                "mat-3": "Alpine Parsnip",
-                "mat-4": "Wild Onion",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 2 Water Shard",
-                "special": "Provisioning"
-            },
-            {
-                "level": "28",
-                "item": "Chicken Stock",
-                "mat-1": "Chicken Breast",
-                "mat-2": "Wild Onion",
-                "mat-3": "Coerthan Carrot",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard",
-                "special": "Ingredient (CUL), Levequest"
-            },
-            {
-                "level": "28",
-                "item": "Orobon Stew",
-                "mat-1": "Oboron Liver",
-                "mat-2": "Coerthan Carrot",
-                "mat-3": "Sunset Wheat Flour",
-                "mat-4": "Black Pepper",
-                "mat-5": "Chicken Stock",
-                "mat-6": "Sweet Cream",
-                "catalysts": "3 Fire Shard, 2 Water Shard",
-                "special": "Provisioning"
-            },
-            {
-                "level": "28",
-                "item": "Crumpet",
-                "mat-1": "Sunset Wheat Flour",
-                "mat-2": "Buffalo Milk",
-                "mat-3": "Table Salt",
-                "mat-4": "Natron",
-                "mat-5": "Maple Syrup",
-                "mat-6": "Smooth Butter",
-                "catalysts": "3 Fire Shard, 2 Water Shard",
-                "special": "Levequest, Provisioning"
-            },
-            {
-                "level": "29",
-                "item": "Cornmeal",
-                "mat-1": "3 Millioncorn",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard",
-                "special": "Buyable, Ingredient (CUL), Levequest, Provisioning"
-            },
-            {
-                "level": "30",
-                "item": "Baked Sole",
-                "mat-1": "Black Sole",
-                "mat-2": "Gil Bun",
-                "mat-3": "Cieldalaes Spinach",
-                "mat-4": "Table Salt",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Levequest, Provisioning"
-            },
-            {
-                "level": "30",
-                "item": "Grade 1 Feed - Speed Blend",
-                "mat-1": "2 Little Worm",
-                "mat-2": "2 Yafaem Wildgrass",
-                "mat-3": "Sylkis Bud",
-                "mat-4": "Gysahl Greens",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Buyable"
-            },
-            {
-                "level": "30",
-                "item": "Grade 1 Feed - Acceleration Blend",
-                "mat-1": "2 Little Worm",
-                "mat-2": "2 Yafaem Wildgrass",
-                "mat-3": "Pahsana Fruit",
-                "mat-4": "Gysahl Greens",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Buyable"
-            },
-            {
-                "level": "30",
-                "item": "Grade 1 Feed - Endurance Blend",
-                "mat-1": "2 Little Worm",
-                "mat-2": "2 Yafaem Wildgrass",
-                "mat-3": "Tantalplant",
-                "mat-4": "Gysahl Greens",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Buyable"
-            },
-            {
-                "level": "30",
-                "item": "Grade 1 Feed - Stamina Blend",
-                "mat-1": "2 Little Worm",
-                "mat-2": "2 Yafaem Wildgrass",
-                "mat-3": "Mimett Gourd",
-                "mat-4": "Gysahl Greens",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Buyable"
-            },
-            {
-                "level": "30",
-                "item": "Grade 1 Feed - Balance Blend",
-                "mat-1": "2 Little Worm",
-                "mat-2": "2 Yafaem Wildgrass",
-                "mat-3": "Curial Root",
-                "mat-4": "Gysahl Greens",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Fire Shard, 3 Water Shard",
-                "special": "Buyable"
-            },
-        ]
-    };
+export const Crafting_Log_Culinarian_Level_Based_26_30 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "26",
+        name: "Aldgoat Steak",
+        mat1: "Aldgoat Chuck",
+        mat2: "Table Salt",
+        mat3: "Garlean Garlic",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Water Shard",
+        special: "Ingredient (CUL), Provisioning"
+    },
+    {
+        level: "26",
+        name: "Ginger Cookie",
+        mat1: "Sunset Wheat Flout",
+        mat2: "Maple Sugar",
+        mat3: "Chicken Egg",
+        mat4: "Natron",
+        mat5: "Pearl Ginger",
+        mat6: "Smooth Butter",
+        catalysts: "2 Fire Shard, 2 Water Shard",
+        special: "Ingredient (CUL), Levequest, Provisioning"
+    },
+    {
+        level: "26",
+        name: "Pea Soup",
+        mat1: "Jade Peas",
+        mat2: "Mineral Water",
+        mat3: "Wild Onion",
+        mat4: "Table Salt",
+        mat5: "Smooth Butter",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Water Shard",
+        special: "Levequest, Provisioning"
+    },
+    {
+        level: "27",
+        name: "Fried Egg",
+        mat1: "Puk Egg",
+        mat2: "Smooth Butter",
+        mat3: "Table Salt",
+        mat4: "Mineral Water",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Water Shard",
+        special: "Ingredient (CUL), Provisioning"
+    },
+    {
+        level: "27",
+        name: "Boiled Bream",
+        mat1: "Bianaq Bream",
+        mat2: "Olive Oil",
+        mat3: "Garlean Garlic",
+        mat4: "Wizard Eggplant",
+        mat5: "Wild Onion",
+        mat6: "Midland Cabbage",
+        catalysts: "3 Fire Shard, 2 Water Shard",
+        special: "Provisioning"
+    },
+    {
+        level: "27",
+        name: "Cheese Risotto",
+        mat1: "Sticky Rice",
+        mat2: "Cottage Cheese",
+        mat3: "Alpine Parsnip",
+        mat4: "Wild Onion",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Water Shard",
+        special: "Provisioning"
+    },
+    {
+        level: "28",
+        name: "Chicken Stock",
+        mat1: "Chicken Breast",
+        mat2: "Wild Onion",
+        mat3: "Coerthan Carrot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard",
+        special: "Ingredient (CUL), Levequest"
+    },
+    {
+        level: "28",
+        name: "Orobon Stew",
+        mat1: "Oboron Liver",
+        mat2: "Coerthan Carrot",
+        mat3: "Sunset Wheat Flour",
+        mat4: "Black Pepper",
+        mat5: "Chicken Stock",
+        mat6: "Sweet Cream",
+        catalysts: "3 Fire Shard, 2 Water Shard",
+        special: "Provisioning"
+    },
+    {
+        level: "28",
+        name: "Crumpet",
+        mat1: "Sunset Wheat Flour",
+        mat2: "Buffalo Milk",
+        mat3: "Table Salt",
+        mat4: "Natron",
+        mat5: "Maple Syrup",
+        mat6: "Smooth Butter",
+        catalysts: "3 Fire Shard, 2 Water Shard",
+        special: "Levequest, Provisioning"
+    },
+    {
+        level: "29",
+        name: "Cornmeal",
+        mat1: "3 Millioncorn",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard",
+        special: "Buyable, Ingredient (CUL), Levequest, Provisioning"
+    },
+    {
+        level: "30",
+        name: "Baked Sole",
+        mat1: "Black Sole",
+        mat2: "Gil Bun",
+        mat3: "Cieldalaes Spinach",
+        mat4: "Table Salt",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Levequest, Provisioning"
+    },
+    {
+        level: "30",
+        name: "Grade 1 Feed - Speed Blend",
+        mat1: "2 Little Worm",
+        mat2: "2 Yafaem Wildgrass",
+        mat3: "Sylkis Bud",
+        mat4: "Gysahl Greens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Buyable"
+    },
+    {
+        level: "30",
+        name: "Grade 1 Feed - Acceleration Blend",
+        mat1: "2 Little Worm",
+        mat2: "2 Yafaem Wildgrass",
+        mat3: "Pahsana Fruit",
+        mat4: "Gysahl Greens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Buyable"
+    },
+    {
+        level: "30",
+        name: "Grade 1 Feed - Endurance Blend",
+        mat1: "2 Little Worm",
+        mat2: "2 Yafaem Wildgrass",
+        mat3: "Tantalplant",
+        mat4: "Gysahl Greens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Buyable"
+    },
+    {
+        level: "30",
+        name: "Grade 1 Feed - Stamina Blend",
+        mat1: "2 Little Worm",
+        mat2: "2 Yafaem Wildgrass",
+        mat3: "Mimett Gourd",
+        mat4: "Gysahl Greens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Buyable"
+    },
+    {
+        level: "30",
+        name: "Grade 1 Feed - Balance Blend",
+        mat1: "2 Little Worm",
+        mat2: "2 Yafaem Wildgrass",
+        mat3: "Curial Root",
+        mat4: "Gysahl Greens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Water Shard",
+        special: "Buyable"
+    },
+];

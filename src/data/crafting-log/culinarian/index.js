@@ -1,21 +1,19 @@
-import { CulinarianLevelBased } from "./level-based";
-import { CulinarianMasterRecipe } from "./master-recipes";
-import { CulinarianStoryRecipe } from "./story";
-import { CulinarianHousingRecipe } from "./housing";
-import { Culinarian_IshgardRestoration_Recipe } from "./ishgard-restoration";
+import { DataGroup } from "../../DataGroup";
 
-export const CulinarianCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.culinarian`;
+import { Crafting_Log_Culinarian_Level_Based } from "./level-based";
+import { Crafting_Log_Culinarian_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Culinarian_Housing } from "./housing";
+import { Crafting_Log_Culinarian_Others } from "./others";
+import { Crafting_Log_Culinarian_Story } from "./story";
+import { Crafting_Log_Culinarian_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Culinarian",
-        storageKey,
-        subGroups: [
-            CulinarianLevelBased(storageKey),
-            CulinarianMasterRecipe(storageKey),
-            CulinarianStoryRecipe(storageKey),
-            CulinarianHousingRecipe(storageKey),
-            Culinarian_IshgardRestoration_Recipe(storageKey),
-        ],
-    };
+export const Crafting_Log_Culinarian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Culinarian_Level_Based,
+        Crafting_Log_Culinarian_Master_Recipes,
+        Crafting_Log_Culinarian_Housing,
+        Crafting_Log_Culinarian_Others,
+        Crafting_Log_Culinarian_Story,
+        Crafting_Log_Culinarian_Ishgard_Restoration,
+    ]);
 };

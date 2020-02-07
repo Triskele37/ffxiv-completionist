@@ -1,15 +1,11 @@
-import { CentralCoerthasFATEs } from "./central-coerthas";
-import { WesternCoerthasFATEs } from "./western-coerthas";
+import { DataGroup } from "../../DataGroup";
 
-export const CoerthasFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.coerthas`;
+import { FATEs_Coerthas_Central_Highlands } from "./central-coerthas";
+import { FATEs_Coerthas_Western_Highlands } from "./western-coerthas";
 
-    return {
-        name: "Coerthas",
-        storageKey,
-        subGroups: [
-            CentralCoerthasFATEs(storageKey),
-            WesternCoerthasFATEs(storageKey),
-        ]
-    };
+export const FATEs_Coerthas = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        FATEs_Coerthas_Central_Highlands,
+        FATEs_Coerthas_Western_Highlands,
+	]);
 };

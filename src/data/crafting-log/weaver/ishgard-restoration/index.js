@@ -1,15 +1,11 @@
-import { Weaver_Restoration } from "./restoration";
-import { Weaver_Other } from "./other";
+import { DataGroup } from "../../../DataGroup";
 
-export const Weaver_IshgardRestoration_Recipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgard-restoration-recipes`;
+import { Crafting_Log_Weaver_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Log_Weaver_Ishgard_Restoration_Other } from "./other";
 
-    return {
-        name: "Ishgard Restoration Recipes",
-        storageKey,
-        subGroups: [
-            Weaver_Restoration(storageKey),
-            Weaver_Other(storageKey),
-        ]
-    };
+export const Crafting_Log_Weaver_Ishgard_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Weaver_Ishgard_Restoration_Restoration,
+        Crafting_Log_Weaver_Ishgard_Restoration_Other,
+    ]);
 };

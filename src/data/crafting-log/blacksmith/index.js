@@ -1,23 +1,19 @@
-import { BlacksmithLevelBased } from "./level-based";
-import { BlacksmithMasterRecipe } from "./master-recipes";
-import { BlacksmithStoryRecipe } from "./story";
-import { BlacksmithHousingRecipe } from "./housing";
-import { Blacksmith_IshgardRestoration_Recipe } from "./ishgard-restoration";
-import { Blacksmith_Others } from "./others";
+import { DataGroup } from "../../DataGroup";
 
-export const BlacksmithCraftingLogs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.blacksmith`;
+import { Crafting_Log_Blacksmith_Level_Based } from "./level-based";
+import { Crafting_Log_Blacksmith_Master_Recipes } from "./master-recipes";
+import { Crafting_Log_Blacksmith_Housing } from "./housing";
+import { Crafting_Log_Blacksmith_Others } from "./others";
+import { Crafting_Log_Blacksmith_Story } from "./story";
+import { Crafting_Log_Blacksmith_Ishgard_Restoration } from "./ishgard-restoration";
 
-    return {
-        name: "Blacksmith",
-        storageKey,
-        subGroups: [
-            BlacksmithLevelBased(storageKey),
-            BlacksmithMasterRecipe(storageKey),
-            BlacksmithStoryRecipe(storageKey),
-            BlacksmithHousingRecipe(storageKey),
-            Blacksmith_IshgardRestoration_Recipe(storageKey),
-            Blacksmith_Others(storageKey),
-        ],
-    };
+export const Crafting_Log_Blacksmith = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Blacksmith_Level_Based,
+        Crafting_Log_Blacksmith_Master_Recipes,
+        Crafting_Log_Blacksmith_Housing,
+        Crafting_Log_Blacksmith_Others,
+        Crafting_Log_Blacksmith_Story,
+        Crafting_Log_Blacksmith_Ishgard_Restoration,
+    ]);
 };

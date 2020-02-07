@@ -1,45 +1,40 @@
 <template>
     <div id="import-sheet-container">
-        Copy entire sheets from FFXIV Checklist and paste them
-        in the area next to the tab's title
+        <div>Copy entire sheets from FFXIV Checklist and paste them in the area next to the tab's title</div>
 
-        <div v-for="section in sheetSections">
-            <h3
-                class="section-header"
-                @click="toggleSection($event, section)"
-            >
-                {{section.name}}
-            </h3>
+        <div class="section-container">
+            <span v-for="section in sheetSections">
+                <p class="section-header">
+                    {{section.name}}
+                </p>
 
-            <table
-                class="import-table"
-                v-if="section.visible"
-            >
-                <tr v-for="tab in section.tabs">
-                    <td>
-                        <textarea
-                            class="paste-textarea"
-                            rows=1
-                            cols=1
-                            @change="onPasteInput($event, tab)"
-                        />
-                    </td>
-                    <td>
-                        <div
-                            class="status-indicator"
-                            :class="tab.status"
-                            :title="tab.tooltip"
-                        />
-                    </td>
-                    <td>{{tab.title}}</td>
-                </tr>
-            </table>
+                <table class="import-table">
+                    <tr v-for="tab in section.tabs">
+                        <td>
+                            <textarea
+                                class="paste-textarea"
+                                rows=1
+                                cols=1
+                                @change="onPasteInput($event, tab)"
+                            />
+                        </td>
+                        <td>
+                            <div
+                                class="status-indicator"
+                                :class="tab.status"
+                                :title="tab.tooltip"
+                            />
+                        </td>
+                        <td>{{tab.title}}</td>
+                    </tr>
+                </table>
+            </span>
         </div>
     </div>
 </template>
 
 <script>
-    import { Sections } from './sheet';
+    import { Sections } from './imports';
 
     export default {
         name: 'import-sheet',
@@ -47,25 +42,18 @@
             sheetSections: Sections
         }),
         methods: {
-            toggleSection: function($event, section) {
-                section.visible = !section.visible;
-                this.$forceUpdate();
-            },
             onPasteInput: function($event, tab) {
                 tab.status = 'active';
                 tab.tooltip = 'Processing...';
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    const rowData = $event.target.value
-                        .split('\n')                               // Turn into an array of each row
-                        .map((row) => row.split('\t'))             // turn each row into columns
-                        .filter((row) => !!row[0].match(/[YNX]/)); // Remove rows that don't contain Y, N, or X
+                    const importObj = tab.importCallback($event.target.value, this.$store);
+                    tab.status = importObj.status;
+                    tab.tooltip = importObj.tooltip;
 
-                    const remainingRows = tab.importCallback(this.$store, rowData);
-
-                    tab.status = remainingRows.length ? 'failure' : 'success';
-                    tab.tooltip = remainingRows.length ? remainingRows : 'Successful';
+                    // Clear textarea and update
+                    $event.target.value = '';
                     this.$forceUpdate();
                 }, 250);
             }
@@ -75,13 +63,22 @@
 
 <style>
     #import-sheet-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        height: 920px;
         width: 100%;
     }
 
     .section-header {
-        cursor: pointer;
+        margin: 5px 0 0 0;
         text-decoration: underline;
-        width: fit-content;
     }
 
     .import-table td {

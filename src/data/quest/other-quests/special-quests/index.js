@@ -1,19 +1,16 @@
-import { SimpleQuestColumnConfig } from "../../columnConfigs";
-import { CollaborationQuests } from "./collaboration-quests";
+import { DataGroup } from "../../../DataGroup";
 
-export const SpecialQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.special`;
+import { Quests_Other_Special_Collaboration } from "./collaboration-quests";
 
-    return {
-        name: "Special",
-        storageKey,
-        subGroups: [
-            CollaborationQuests(storageKey),
-        ],
-        columns: SimpleQuestColumnConfig,
-        tasks: [{
-            level: "1",
-            name: "The Ties That Bind"
-        }]
-    };
+export const Quests_Other_Special = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Other_Special_Collaboration,
+    ]).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "1",
+        name: "The Ties That Bind"
+    }
+];

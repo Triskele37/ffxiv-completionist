@@ -1,29 +1,31 @@
-import { BattleAchievements } from "./battle";
-import { CharacterAchievements } from "./character";
-import { PVPAchievements } from "./pvp";
-import { ItemAchievements } from "./item";
-import { CraftingAchievements } from "./crafting";
-import { GatheringAchievements } from "./gathering";
-import { QuestAchievements } from "./quest";
-import { ExplorationAchievements } from "./exploration";
-import { GrandCompanyAchievements } from "./grandcompany";
+import { DataGroup } from "../DataGroup";
+import { AchievementColumnConfig } from "./columnConfigs";
 
-export const Achievements = function(parentStorageKey) {
-	const storageKey = `${parentStorageKey}.achievements`;
-	
-	return {
-		name: 'Achievement',
-		storageKey,
-		subGroups: [
-			BattleAchievements(storageKey),
-			CharacterAchievements(storageKey),
-			PVPAchievements(storageKey),
-			ItemAchievements(storageKey),
-			CraftingAchievements(storageKey),
-			GatheringAchievements(storageKey),
-			QuestAchievements(storageKey),
-			ExplorationAchievements(storageKey),
-			GrandCompanyAchievements(storageKey),
-		]
-	};
+import { Achievements_Battle } from "./battle";
+import { Achievements_PvP } from "./pvp";
+import { Achievements_Character } from "./character";
+import { Achievements_Items } from "./item";
+import { Achievements_Crafting } from "./crafting";
+import { Achievements_Gathering } from "./gathering";
+import { Achievements_Quests } from "./quest";
+import { Achievements_Exploration } from "./exploration";
+import { Achievements_Grand_Company } from "./grandcompany";
+
+export const Achievements = function(name, parent) {
+	const data = new DataGroup(name, parent);
+	data.columnConfig = AchievementColumnConfig;
+
+	data.initializeSubGroups([
+		Achievements_Battle,
+		Achievements_PvP,
+		Achievements_Character,
+		Achievements_Items,
+		Achievements_Crafting,
+		Achievements_Gathering,
+		Achievements_Quests,
+		Achievements_Exploration,
+		Achievements_Grand_Company,
+	]);
+
+	return data;
 };

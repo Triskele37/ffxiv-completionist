@@ -1,157 +1,152 @@
-import { CraftingLogColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
-export const Armorer_Others = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.other-recipes`;
-
-    return {
-        name: "Other",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "50★",
-                "item": "Wolf Kite Shield",
-                "mat-1": "Iron Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "2 Cobalt Plate",
-                "mat-4": "Cobalt Rivets",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Celata",
-                "mat-1": "Electrum Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Cobalt Plate",
-                "mat-4": "Mythril Plate",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Elmo",
-                "mat-1": "Darksteel Plate",
-                "mat-2": "Cobalt Plate",
-                "mat-3": "Cobalt Rivets",
-                "mat-4": "Raptor Leather",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Sallet",
-                "mat-1": "Cobalt Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Cobalt Rivets",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Cuirass",
-                "mat-1": "Electrum Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Cobalt Plate",
-                "mat-4": "Mythril Rings",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Scale Mail",
-                "mat-1": "Darksteel Nugget",
-                "mat-2": "Raptor Leather",
-                "mat-3": "Boar Leather",
-                "mat-4": "Adamantoise Shell",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Gauntlets",
-                "mat-1": "Electrum Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Cobalt Plate",
-                "mat-4": "Cobalt Rings",
-                "mat-5": "Boar Leather",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Scale Fingers",
-                "mat-1": "Darksteel Nugget",
-                "mat-2": "Cobalt Plate",
-                "mat-3": "Adamantoise Shell",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Plate Belt",
-                "mat-1": "Darksteel Plate",
-                "mat-2": "Cobalt Plate",
-                "mat-3": "Boar Leather",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Tassets",
-                "mat-1": "Darksteel Plate",
-                "mat-2": "Mythril Plate",
-                "mat-3": "Raptor Leather",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Sabatons",
-                "mat-1": "Electrum Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Cobalt Plate",
-                "mat-4": "Cobalt Rings",
-                "mat-5": "Boar Leather",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            },
-            {
-                "level": "50★",
-                "item": "Wolf Scale Greaves",
-                "mat-1": "Darksteel Nugget",
-                "mat-2": "Cobalt Plate",
-                "mat-3": "Adamantoise Shell",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Crystal",
-                "special": "X"
-            }
-        ]
-    };
+export const Crafting_Log_Armorer_Others = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "50★",
+        name: "Wolf Kite Shield",
+        mat1: "Iron Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "2 Cobalt Plate",
+        mat4: "Cobalt Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Celata",
+        mat1: "Electrum Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Cobalt Plate",
+        mat4: "Mythril Plate",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Elmo",
+        mat1: "Darksteel Plate",
+        mat2: "Cobalt Plate",
+        mat3: "Cobalt Rivets",
+        mat4: "Raptor Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Sallet",
+        mat1: "Cobalt Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Cobalt Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Cuirass",
+        mat1: "Electrum Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Cobalt Plate",
+        mat4: "Mythril Rings",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Scale Mail",
+        mat1: "Darksteel Nugget",
+        mat2: "Raptor Leather",
+        mat3: "Boar Leather",
+        mat4: "Adamantoise Shell",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Gauntlets",
+        mat1: "Electrum Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Cobalt Plate",
+        mat4: "Cobalt Rings",
+        mat5: "Boar Leather",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Scale Fingers",
+        mat1: "Darksteel Nugget",
+        mat2: "Cobalt Plate",
+        mat3: "Adamantoise Shell",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Plate Belt",
+        mat1: "Darksteel Plate",
+        mat2: "Cobalt Plate",
+        mat3: "Boar Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Tassets",
+        mat1: "Darksteel Plate",
+        mat2: "Mythril Plate",
+        mat3: "Raptor Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Sabatons",
+        mat1: "Electrum Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Cobalt Plate",
+        mat4: "Cobalt Rings",
+        mat5: "Boar Leather",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+    {
+        level: "50★",
+        name: "Wolf Scale Greaves",
+        mat1: "Darksteel Nugget",
+        mat2: "Cobalt Plate",
+        mat3: "Adamantoise Shell",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "X"
+    },
+];

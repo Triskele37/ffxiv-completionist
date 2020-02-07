@@ -1,0 +1,99 @@
+import { DataGroup } from "../../../DataGroup";
+
+export const Travel_Aether_Currents_SB_The_Ruby_Sea = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+    	name: "1",
+    	location: "The Isle of Zekki",
+    	coordinates: "X:   7.9   Y: 28.9   Z: 0.2",
+    	quest: "-",
+    	notes: "In isle of Zekki (swim to an underwater cave at (x12.2, y25.3, z-1.1))"
+    }, {
+    	name: "2",
+    	location: "Rasen Kaikyo",
+    	coordinates: "X: 31.4   Y: 25.0   Z: 0.0",
+    	quest: "-",
+    	notes: "On a rock"
+    }, {
+    	name: "3",
+    	location: "The Isle of Bekko",
+    	coordinates: "X: 35.5   Y: 20.5   Z: 0.4",
+    	quest: "-",
+    	notes: "On the edge of a cliff"
+    }, {
+    	name: "4",
+    	location: "Quickscape Pier",
+    	coordinates: "X: 22.7   Y:   3.9   Z: 0.0",
+    	quest: "-",
+    	notes: "On the back of a boat"
+    }, {
+    	name: "5",
+    	location: "The Coral Banquet",
+    	coordinates: "X: 31.5   Y:   6.4   Z: 0.2",
+    	quest: "-",
+    	notes: "On a ledge of coral"
+    }, {
+    	name: "6",
+    	location: "Crick",
+    	coordinates: "X: 21.9   Y:   9.0   Z: 0.2",
+    	quest: "-",
+    	notes: "On the roof of a hut"
+    }, {
+    	name: "7",
+    	location: "Onokoro",
+    	coordinates: "X: 17.7   Y:   7.5   Z: 0.0",
+    	quest: "-",
+    	notes: "On a rock"
+    }, {
+    	name: "8",
+    	location: "East Othard Coastline",
+    	coordinates: "X:   8.4   Y:   9.2   Z: 0.2",
+    	quest: "-",
+    	notes: "On the edge of a cliff overlooking Isari"
+    }, {
+    	name: "9",
+    	location: "Hells' Lid",
+    	coordinates: "X: 15.2   Y: 38.3   Z: 0.0",
+    	quest: "-",
+    	notes: "On a rock"
+    }, {
+    	name: "10",
+    	location: "Sakazuki",
+    	coordinates: "X: 29.9   Y: 38.8   Z: 0.1",
+    	quest: "-",
+    	notes: "Behind rocks on a cliff"
+    }, {
+    	name: "11",
+    	location: "Kurenai - Sui-no-Sato",
+    	coordinates: "X: 20.2   Y: 20.1   Z:-2.0",
+    	quest: "The Palace of Lost Souls",
+    	notes: "Unlocks after completing MSQ \"In Darkness the Magatama Dreams\""
+    }, {
+    	name: "12",
+    	location: "Slender Kojin - The Isle of Bekko",
+    	coordinates: "X: 32.7   Y: 18.5   Z:-0.7",
+    	quest: "The Sword in the Stone",
+    	notes: "Unlocks after completing MSQ \"Of Kojin and Kami\""
+    }, {
+    	name: "13",
+    	location: "Hansaku - Crick",
+    	coordinates: "X: 23.4   Y:   9.1   Z: 0.0",
+    	quest: "Pulling Double Booty",
+    	notes: "Unlocks after completing MSQ \"Alisaie's Stones\""
+    }, {
+    	name: "14",
+    	location: "Yusui - Sakazuki",
+    	coordinates: "X: 31.4   Y: 37.1   Z: 0.3",
+    	quest: "The Price of Betrayal",
+    	notes: "Unlocks after completing MSQ \"Boys with Boats\""
+    }, {
+    	name: "15",
+    	location: "Lyse - Isari",
+    	coordinates: "X:   6.2   Y: 12.3   Z: 0.0",
+    	quest: "Tide Goes In, Imperials Go Out (MSQ)",
+    	notes: "Unlocks after completing MSQ \"The Lord of the Revel\""
+    },
+];

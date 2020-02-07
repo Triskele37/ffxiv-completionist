@@ -1,157 +1,154 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Armorer_MasterRecipe_5 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.master-5`;
-
-    return {
-        name: "Master Recipe V",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "70★★",
-                "item": "Chromite Ingot",
-                "mat-1": "4 Chromite Ore",
-                "mat-2": "Molybdenum Ingot",
-                "mat-3": "2 Bone Charcoal",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Ingredient (ARM, BSM, GSM, CRP, ALC, LTW), Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Ala Mhigan Alembic",
-                "mat-1": "3 Snailfish Oil",
-                "mat-2": "Chromite Ingot",
-                "mat-3": "Palladium Nugget",
-                "mat-4": "Everdeep Aethersand",
-                "mat-5": "3 Mastercraft Demimateria",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Ala Mhigan Frypan",
-                "mat-1": "3 Snailfish Oil",
-                "mat-2": "Chromite Ingot",
-                "mat-3": "Palladium Nugget",
-                "mat-4": "Everdeep Aethersand",
-                "mat-5": "3 Mastercraft Demimateria",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Shield",
-                "mat-1": "Chromite Ingot",
-                "mat-2": "Torreya Lumber",
-                "mat-3": "Gazelle Leather",
-                "mat-4": "Everborn Aethersand",
-                "mat-5": "Grade 2 Reisui of Vitality",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Helm of Fending",
-                "mat-1": "2 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "2 Gazelle Horn",
-                "mat-4": "Rhodonite",
-                "mat-5": "2 Everbright Aethersand",
-                "mat-6": "Grade 2 Reisui of Vitality",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Armor of Fending",
-                "mat-1": "3 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "2 Steppe Serge",
-                "mat-4": "Rhodonite",
-                "mat-5": "3 Everbright Aethersand",
-                "mat-6": "2 Grade 2 Reisui of Vitality",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Mail of Maiming",
-                "mat-1": "3 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "2 Gazelle Leather",
-                "mat-4": "2 Rhodonite",
-                "mat-5": "3 Everbright Aethersand",
-                "mat-6": "2 Grade 2 Reisui of Strength",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Gauntlets of Fending",
-                "mat-1": "2 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "Steppe Serge",
-                "mat-4": "2 Everborn Aethersand",
-                "mat-5": "Grade 2 Reisui of Vitality",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Gauntlets of Maiming",
-                "mat-1": "2 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "Gazelle Leather",
-                "mat-4": "2 Everborn Aethersand",
-                "mat-5": "Grade 2 Reisui of Strength",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Sabatons of Fending",
-                "mat-1": "2 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "Steppe Serge",
-                "mat-4": "2 Everdeep Aethersand",
-                "mat-5": "Grade 2 Reisui of Vitality",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Chromite Greaves of Maiming",
-                "mat-1": "2 Chromite Ingot",
-                "mat-2": "Palladium Ingot",
-                "mat-3": "Gazelle Leather",
-                "mat-4": "2 Everdeep Aethersand",
-                "mat-5": "Grade 2 Reisui of Strength",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Unlocked w/ Master Armorer V"
-            },
-            {
-                "level": "70★★",
-                "item": "Shinryu Barding",
-                "mat-1": "Shinryu's Scales",
-                "mat-2": "2 Chromite Ingot",
-                "mat-3": "2 Molybdenum Ingot",
-                "mat-4": "Palladium Nugget",
-                "mat-5": "Gazelle Leather",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, 2 Earth Cluster",
-                "special": "Barding, Unlocked w/ Master Armorer V"
-            }
-        ]
-    };
+export const Crafting_Log_Armorer_Master_Recipes_Master_Recipes_5 = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Master Recipes (5)";
+    return data;
 };
+
+const tasks = [
+    {
+        level: "70★★",
+        name: "Chromite Ingot",
+        mat1: "4 Chromite Ore",
+        mat2: "Molybdenum Ingot",
+        mat3: "2 Bone Charcoal",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Ingredient (ARM, BSM, GSM, CRP, ALC, LTW), Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Alembic",
+        mat1: "3 Snailfish Oil",
+        mat2: "Chromite Ingot",
+        mat3: "Palladium Nugget",
+        mat4: "Everdeep Aethersand",
+        mat5: "3 Mastercraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Frypan",
+        mat1: "3 Snailfish Oil",
+        mat2: "Chromite Ingot",
+        mat3: "Palladium Nugget",
+        mat4: "Everdeep Aethersand",
+        mat5: "3 Mastercraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Shield",
+        mat1: "Chromite Ingot",
+        mat2: "Torreya Lumber",
+        mat3: "Gazelle Leather",
+        mat4: "Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Helm of Fending",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "2 Gazelle Horn",
+        mat4: "Rhodonite",
+        mat5: "2 Everbright Aethersand",
+        mat6: "Grade 2 Reisui of Vitality",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Armor of Fending",
+        mat1: "3 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "2 Steppe Serge",
+        mat4: "Rhodonite",
+        mat5: "3 Everbright Aethersand",
+        mat6: "2 Grade 2 Reisui of Vitality",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Mail of Maiming",
+        mat1: "3 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "2 Gazelle Leather",
+        mat4: "2 Rhodonite",
+        mat5: "3 Everbright Aethersand",
+        mat6: "2 Grade 2 Reisui of Strength",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Gauntlets of Fending",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Steppe Serge",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Gauntlets of Maiming",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Gazelle Leather",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Sabatons of Fending",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Steppe Serge",
+        mat4: "2 Everdeep Aethersand",
+        mat5: "Grade 2 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Chromite Greaves of Maiming",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Gazelle Leather",
+        mat4: "2 Everdeep Aethersand",
+        mat5: "Grade 2 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Unlocked w/ Master Armorer V"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu Barding",
+        mat1: "Shinryu's Scales",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Palladium Nugget",
+        mat5: "Gazelle Leather",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Barding, Unlocked w/ Master Armorer V"
+    },
+];

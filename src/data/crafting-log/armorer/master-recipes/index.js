@@ -1,27 +1,23 @@
-import { Armorer_MasterRecipe_1 } from "./mr-1";
-import { Armorer_MasterRecipe_2 } from "./mr-2";
-import { Armorer_MasterRecipe_3 } from "./mr-3";
-import { Armorer_MasterRecipe_4 } from "./mr-4";
-import { Armorer_MasterRecipe_5 } from "./mr-5";
-import { Armorer_MasterRecipe_6 } from "./mr-6";
-import { Armorer_MasterRecipe_7 } from "./mr-7";
-import { Armorer_MasterRecipe_Other } from "./other";
+import { DataGroup } from "../../../DataGroup";
 
-export const ArmorerMasterRecipe = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.master-recipes`;
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_1 } from "./mr-1";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_2 } from "./mr-2";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_3 } from "./mr-3";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_4 } from "./mr-4";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_5 } from "./mr-5";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_6 } from "./mr-6";
+import { Crafting_Log_Armorer_Master_Recipes_Master_Recipes_7 } from "./mr-7";
+import { Crafting_Log_Armorer_Master_Recipes_Other_Master_Recipes } from "./other";
 
-    return {
-        name: "Master Recipes",
-        storageKey,
-        subGroups: [
-            Armorer_MasterRecipe_1(storageKey),
-            Armorer_MasterRecipe_2(storageKey),
-            Armorer_MasterRecipe_3(storageKey),
-            Armorer_MasterRecipe_4(storageKey),
-            Armorer_MasterRecipe_5(storageKey),
-            Armorer_MasterRecipe_6(storageKey),
-            Armorer_MasterRecipe_7(storageKey),
-            Armorer_MasterRecipe_Other(storageKey),
-        ]
-    };
+export const Crafting_Log_Armorer_Master_Recipes = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_1,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_2,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_3,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_4,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_5,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_6,
+        Crafting_Log_Armorer_Master_Recipes_Master_Recipes_7,
+        Crafting_Log_Armorer_Master_Recipes_Other_Master_Recipes,
+    ]);
 };

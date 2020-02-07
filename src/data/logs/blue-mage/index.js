@@ -1,17 +1,13 @@
-import { BlueMageSpellbook } from "./spellbook";
-import { TheMaskedCarnivale } from "./the-masked-carnivale";
-import { BlueMageLog } from "./log";
+import { DataGroup } from "../../DataGroup";
 
-export const BlueMage = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.blue-mage`;
+import { General_Logs_Blue_Mage_Spellbook } from "./spellbook";
+import { General_Logs_Blue_Mage_The_Masked_Carnivale } from "./the-masked-carnivale";
+import { General_Logs_Blue_Mage_Log } from "./log";
 
-    return {
-        name: "Blue Mage",
-        storageKey,
-        subGroups: [
-            BlueMageSpellbook(storageKey),
-            TheMaskedCarnivale(storageKey),
-            BlueMageLog(storageKey),
-        ]
-    };
+export const General_Logs_Blue_Mage = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        General_Logs_Blue_Mage_Spellbook,
+        General_Logs_Blue_Mage_The_Masked_Carnivale,
+        General_Logs_Blue_Mage_Log,
+    ]);
 };

@@ -1,157 +1,152 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const AlchemistLevels_16_20 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-16-20`;
-
-    return {
-        name: "Levels 16-20",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "15",
-                "item": "Ether",
-                "mat-1": "Distilled Water",
-                "mat-2": "Tinolqa Mistletoe",
-                "mat-3": "Imp Wing",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "16",
-                "item": "Hard Leather Grimoire",
-                "mat-1": "Enchanted Iron Ink",
-                "mat-2": "Hard Leather",
-                "mat-3": "Elm Log",
-                "mat-4": "Cotton Yarn",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Ingredient (ALC), Levequest, Provisioning"
-            },
-            {
-                "level": "16",
-                "item": "Ash Wand",
-                "mat-1": "Ash Branch",
-                "mat-2": "Growth Formula Beta",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Ingredient (ALC), Levequest, Provisioning"
-            },
-            {
-                "level": "16",
-                "item": "Potion of Intelligence",
-                "mat-1": "Red Landtrap Leaf",
-                "mat-2": "Beastkin Blood",
-                "mat-3": "Rock Salt",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "17",
-                "item": "Potion of Dexterity",
-                "mat-1": "Bat Fang",
-                "mat-2": "Rock Salt",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "18",
-                "item": "Firebricks",
-                "mat-1": "Potter's Clay",
-                "mat-2": "2 Mudstone",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Ingredient (GSM, FCC)"
-            },
-            {
-                "level": "18",
-                "item": "Potion of Vitality",
-                "mat-1": "Goobbue Fang",
-                "mat-2": "Lavender",
-                "mat-3": "Rock Salt",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "19",
-                "item": "Jellyfish Humours",
-                "mat-1": "2 Jellyfish Umbrella",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Buyable (ALC, BSM, CRP)"
-            },
-            {
-                "level": "19",
-                "item": "Potion of Strength",
-                "mat-1": "White Scorpion",
-                "mat-2": "Yellow Yarzon Leg",
-                "mat-3": "Rock Salt",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Mortar",
-                "mat-1": "Distilled Water",
-                "mat-2": "Fine Sand",
-                "mat-3": "2 Limestone",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard",
-                "special": "Ingredient (ALC, BSM, CRP, GSM, WVR, FCC)"
-            },
-            {
-                "level": "20",
-                "item": "Engraved Hard Leather Grimoire",
-                "mat-1": "Hard Leather Grimoire",
-                "mat-2": "Hard Leather",
-                "mat-3": "Yew Log",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Potion of Mind",
-                "mat-1": "Jellyfish Umbrella",
-                "mat-2": "Viscous Secretions",
-                "mat-3": "Rock Salt",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Water Shard, Lightning Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-        ]
-    };
+export const Crafting_Log_Alchemist_Level_Based_16_20 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "15",
+        name: "Ether",
+        mat1: "Distilled Water",
+        mat2: "Tinolqa Mistletoe",
+        mat3: "Imp Wing",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "16",
+        name: "Hard Leather Grimoire",
+        mat1: "Enchanted Iron Ink",
+        mat2: "Hard Leather",
+        mat3: "Elm Log",
+        mat4: "Cotton Yarn",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Ingredient (ALC), Levequest, Provisioning"
+    },
+    {
+        level: "16",
+        name: "Ash Wand",
+        mat1: "Ash Branch",
+        mat2: "Growth Formula Beta",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Ingredient (ALC), Levequest, Provisioning"
+    },
+    {
+        level: "16",
+        name: "Potion of Intelligence",
+        mat1: "Red Landtrap Leaf",
+        mat2: "Beastkin Blood",
+        mat3: "Rock Salt",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "17",
+        name: "Potion of Dexterity",
+        mat1: "Bat Fang",
+        mat2: "Rock Salt",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "18",
+        name: "Firebricks",
+        mat1: "Potter's Clay",
+        mat2: "2 Mudstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Ingredient (GSM, FCC)"
+    },
+    {
+        level: "18",
+        name: "Potion of Vitality",
+        mat1: "Goobbue Fang",
+        mat2: "Lavender",
+        mat3: "Rock Salt",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "19",
+        name: "Jellyfish Humours",
+        mat1: "2 Jellyfish Umbrella",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Buyable (ALC, BSM, CRP)"
+    },
+    {
+        level: "19",
+        name: "Potion of Strength",
+        mat1: "White Scorpion",
+        mat2: "Yellow Yarzon Leg",
+        mat3: "Rock Salt",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Mortar",
+        mat1: "Distilled Water",
+        mat2: "Fine Sand",
+        mat3: "2 Limestone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard",
+        special: "Ingredient (ALC, BSM, CRP, GSM, WVR, FCC)"
+    },
+    {
+        level: "20",
+        name: "Engraved Hard Leather Grimoire",
+        mat1: "Hard Leather Grimoire",
+        mat2: "Hard Leather",
+        mat3: "Yew Log",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Potion of Mind",
+        mat1: "Jellyfish Umbrella",
+        mat2: "Viscous Secretions",
+        mat3: "Rock Salt",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+];

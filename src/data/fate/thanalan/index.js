@@ -1,21 +1,17 @@
-import { CentralThanalanFATEs } from "./central-thanalan";
-import { EasternThanalanFATEs } from "./eastern-thanalan";
-import { NorthernThanalanFATEs } from "./northern-thanalan";
-import { SouthernThanalanFATEs } from "./southern-thanalan";
-import { WesternThanalanFATEs } from "./western-thanalan";
+import { DataGroup } from "../../DataGroup";
 
-export const ThanalanFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.thanalan`;
+import { FATEs_Thanalan_Central } from "./central-thanalan";
+import { FATEs_Thanalan_Eastern } from "./eastern-thanalan";
+import { FATEs_Thanalan_Northern } from "./northern-thanalan";
+import { FATEs_Thanalan_Southern } from "./southern-thanalan";
+import { FATEs_Thanalan_Western } from "./western-thanalan";
 
-    return {
-        name: "Thanalan",
-        storageKey,
-        subGroups: [
-            CentralThanalanFATEs(storageKey),
-            EasternThanalanFATEs(storageKey),
-            NorthernThanalanFATEs(storageKey),
-            SouthernThanalanFATEs(storageKey),
-            WesternThanalanFATEs(storageKey),
-        ]
-    };
+export const FATEs_Thanalan = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        FATEs_Thanalan_Central,
+        FATEs_Thanalan_Eastern,
+        FATEs_Thanalan_Northern,
+        FATEs_Thanalan_Southern,
+        FATEs_Thanalan_Western,
+	]);
 };

@@ -1,19 +1,21 @@
-import { ARRRaids } from "./ARR";
-import { HWRaids } from "./HW";
-import { SBRaids } from "./SB";
-import { ShBRaids } from "./ShB";
+import { DataGroup } from "../../DataGroup";
+import { DutyColumnConfig } from "../columnConfigs";
 
-export const Raids = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.raids`;
+import { Duty_Raids_ARR } from "./ARR";
+import { Duty_Raids_HW } from "./HW";
+import { Duty_Raids_SB } from "./SB";
+import { Duty_Raids_ShB } from "./ShB";
 
-    return {
-        name: "Raid",
-        storageKey,
-        subGroups: [
-            ARRRaids(storageKey),
-            HWRaids(storageKey),
-            SBRaids(storageKey),
-            ShBRaids(storageKey),
-        ]
-    };
+export const Duty_Raids = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.columnConfig = DutyColumnConfig;
+
+    data.initializeSubGroups([
+        Duty_Raids_ARR,
+        Duty_Raids_HW,
+        Duty_Raids_SB,
+        Duty_Raids_ShB,
+    ]);
+
+    return data;
 };

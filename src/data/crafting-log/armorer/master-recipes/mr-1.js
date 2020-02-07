@@ -1,217 +1,226 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Armorer_MasterRecipe_1 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.master-1`;
-
-    return {
-        name: "Master Recipe I",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": "50★★",
-                "item": "Darksteel Wire",
-                "mat-1": "2 Darksteel Nugget",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "1Ice Shard, 10 Earth Shard",
-                "special": "Tradable, Ingredient (ARM), Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Reinforced Darksteel Wire",
-                "mat-1": "Darksteel Wire",
-                "mat-2": "2 Fieldcraft Demimateria III",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "12 Ice Shard, 1Earth Shard",
-                "special": "Tradable, Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Lapdog Collar Bell",
-                "mat-1": "3 Heat-resistant Plaster",
-                "mat-2": "Scheelite",
-                "mat-3": "Ferberite",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "3 Ice Crystal, 2 Earth Cluster",
-                "special": "Tradable, Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Square",
-                "mat-1": "Cobalt Ore",
-                "mat-2": "Ferberite",
-                "mat-3": "Scheelite",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Ingredient (ALC, ARM), Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Perfect Mortar",
-                "mat-1": "Aged Mortar Pieces",
-                "mat-2": "Belah'dian Silver",
-                "mat-3": "Mahogany Lumber",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Helm",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Darksteel Rings",
-                "mat-4": "2 Terminus Putty",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Mask",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Hippogryph Leather",
-                "mat-3": "Raptor Sinew",
-                "mat-4": "2 Terminus Putty",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Cuirass",
-                "mat-1": "2 Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Darksteel Rings",
-                "mat-4": "Hippogryph Leather",
-                "mat-5": "2 Terminus Putty",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Ingredient (ARM), Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Cuirass",
-                "mat-1": "2 Wolfram Ingot",
-                "mat-2": "Rose Gold Nugget",
-                "mat-3": "Darksteel Plate",
-                "mat-4": "Hippogryph Leather",
-                "mat-5": "2 Terminus Putty",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Ingredient (ARM), Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Gauntlets",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Darksteel Rings",
-                "mat-4": "Hippogryph Leather",
-                "mat-5": "2 Terminus Putty",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Gauntlets",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Hippogryph Leather",
-                "mat-4": "Undyed Felt",
-                "mat-5": "Silk Thread",
-                "mat-6": "2 Terminus Putty",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Plate Belt",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Hippogryph Leather",
-                "mat-4": "Terminus Putty",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Tassets",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Hippogryph Leather",
-                "mat-4": "Terminus Putty",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Cuisses",
-                "mat-1": "2 Wolfram Ingot",
-                "mat-2": "2 Darksteel Rings",
-                "mat-3": "Hippogryph Leather",
-                "mat-4": "2 Terminus Putty",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Heavy Wolfram Sabatons",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Darksteel Rings",
-                "mat-4": "Hippogryph Leather",
-                "mat-5": "2 Terminus Putty",
-                "mat-6": "X",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "50★★★",
-                "item": "Wolfram Sabatons",
-                "mat-1": "Wolfram Ingot",
-                "mat-2": "Darksteel Plate",
-                "mat-3": "Hippogryph Leather",
-                "mat-4": "Undyed Felt",
-                "mat-5": "Silk Thread",
-                "mat-6": "2 Terminus Putty",
-                "catalysts": "2 Ice Cluster, Earth Cluster",
-                "special": "Unlocked w/ Master Armorer I"
-            },
-            {
-                "level": "52",
-                "item": "Garlond Steel",
-                "mat-1": "3 Cobalt Ore",
-                "mat-2": "3 Vivianite",
-                "mat-3": "9 Coke",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Ice Cluster, Earth Cluster",
-                "special": "Ingredient (FCC), Unlocked w/ Master Armorer I"
-            }
-        ]
-    };
+export const Crafting_Log_Armorer_Master_Recipes_Master_Recipes_1 = function(name, parent) {
+    const data = new DataGroup(name, parent).initializeTasks(tasks);
+    data.name = "Master Recipes (1)";
+    return data;
 };
+
+const tasks = [
+    {
+        level: "50★★",
+        name: "Darksteel Wire",
+        mat1: "2 Darksteel Nugget",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "1Ice Shard, 10 Earth Shard",
+        special: "Tradable, Ingredient (ARM), Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★",
+        name: "Magitek Repair Materials",
+        mat1: "Dark Matter Cluster",
+        mat2: "Grade 6 Dark Matter",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "",
+        special: "Unlocked w/ Master Alchemist I"
+    },
+    {
+        level: "50★★★",
+        name: "Reinforced Darksteel Wire",
+        mat1: "Darksteel Wire",
+        mat2: "2 Fieldcraft Demimateria III",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "12 Ice Shard, 1Earth Shard",
+        special: "Tradable, Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Lapdog Collar Bell",
+        mat1: "3 Heat-resistant Plaster",
+        mat2: "Scheelite",
+        mat3: "Ferberite",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Cluster",
+        special: "Tradable, Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Square",
+        mat1: "Cobalt Ore",
+        mat2: "Ferberite",
+        mat3: "Scheelite",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Ingredient (ALC, ARM), Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Perfect Mortar",
+        mat1: "Aged Mortar Pieces",
+        mat2: "Belah'dian Silver",
+        mat3: "Mahogany Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Helm",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Darksteel Rings",
+        mat4: "2 Terminus Putty",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Mask",
+        mat1: "Wolfram Ingot",
+        mat2: "Hippogryph Leather",
+        mat3: "Raptor Sinew",
+        mat4: "2 Terminus Putty",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Cuirass",
+        mat1: "2 Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Darksteel Rings",
+        mat4: "Hippogryph Leather",
+        mat5: "2 Terminus Putty",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Ingredient (ARM), Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Cuirass",
+        mat1: "2 Wolfram Ingot",
+        mat2: "Rose Gold Nugget",
+        mat3: "Darksteel Plate",
+        mat4: "Hippogryph Leather",
+        mat5: "2 Terminus Putty",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Ingredient (ARM), Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Gauntlets",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Darksteel Rings",
+        mat4: "Hippogryph Leather",
+        mat5: "2 Terminus Putty",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Gauntlets",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Hippogryph Leather",
+        mat4: "Undyed Felt",
+        mat5: "Silk Thread",
+        mat6: "2 Terminus Putty",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Plate Belt",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Hippogryph Leather",
+        mat4: "Terminus Putty",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Tassets",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Hippogryph Leather",
+        mat4: "Terminus Putty",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Cuisses",
+        mat1: "2 Wolfram Ingot",
+        mat2: "2 Darksteel Rings",
+        mat3: "Hippogryph Leather",
+        mat4: "2 Terminus Putty",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Heavy Wolfram Sabatons",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Darksteel Rings",
+        mat4: "Hippogryph Leather",
+        mat5: "2 Terminus Putty",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "50★★★",
+        name: "Wolfram Sabatons",
+        mat1: "Wolfram Ingot",
+        mat2: "Darksteel Plate",
+        mat3: "Hippogryph Leather",
+        mat4: "Undyed Felt",
+        mat5: "Silk Thread",
+        mat6: "2 Terminus Putty",
+        catalysts: "2 Ice Cluster, Earth Cluster",
+        special: "Unlocked w/ Master Armorer I"
+    },
+    {
+        level: "52",
+        name: "Garlond Steel",
+        mat1: "3 Cobalt Ore",
+        mat2: "3 Vivianite",
+        mat3: "9 Coke",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Cluster, Earth Cluster",
+        special: "Ingredient (FCC), Unlocked w/ Master Armorer I"
+    },
+];

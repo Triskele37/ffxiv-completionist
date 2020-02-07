@@ -1,73 +1,68 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Alchemist_Restoration = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.restoration`;
-
-    return {
-        name: "Restoration",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": 20,
-                "item": "Skybuilders' Ink",
-                "mat-1": "6 Skybuilders' Fine Sand",
-                "mat-2": "Acidic Secretions",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Water Shard, 2 Lightning Shard",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 40,
-                "item": "Skybuilders' Plant Oil",
-                "mat-1": "4 Skybuilders' Flax",
-                "mat-2": "4 Skybuilders' Toad",
-                "mat-3": "2 Mistletoe",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Water Shard, 2 Lightning Shard",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 60,
-                "item": "Skybuilders' Charcoal",
-                "mat-1": "6 Skybuilders' Straw",
-                "mat-2": "6 Skybuilders' Camphorwood Log",
-                "mat-3": "Lanolin",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Water Crystal, 2 Lightning Crystal",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 70,
-                "item": "Skybuilders' Soap",
-                "mat-1": "6 Skybuilders' Cocoon",
-                "mat-2": "6 Skybuilders' Ruby Sea Water",
-                "mat-3": "6 Skybuilders' Urunday Log",
-                "mat-4": "2 Bear Fat",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Water Crystal, 2 Lightning Crystal",
-                "special": "Ishgard, Collectable"
-            },
-            {
-                "level": 80,
-                "item": "Skybuilders' Alchemic",
-                "mat-1": "8 Skybuilders' Dawn Lizard",
-                "mat-2": "8 Skybuilders' Sea Salt",
-                "mat-3": "8 Skybuilders' Highland Spring Water",
-                "mat-4": "Golden Honey",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "4 Water Crystal, 2 Lightning Crystal",
-                "special": "Ishgard, Collectable"
-            }
-        ]
-    };
+export const Crafting_Log_Alchemist_Ishgard_Restoration_Restoration = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: 20,
+        name: "Skybuilders' Ink",
+        mat1: "6 Skybuilders' Fine Sand",
+        mat2: "Acidic Secretions",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Water Shard, 2 Lightning Shard",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 40,
+        name: "Skybuilders' Plant Oil",
+        mat1: "4 Skybuilders' Flax",
+        mat2: "4 Skybuilders' Toad",
+        mat3: "2 Mistletoe",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Water Shard, 2 Lightning Shard",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 60,
+        name: "Skybuilders' Charcoal",
+        mat1: "6 Skybuilders' Straw",
+        mat2: "6 Skybuilders' Camphorwood Log",
+        mat3: "Lanolin",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Water Crystal, 2 Lightning Crystal",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 70,
+        name: "Skybuilders' Soap",
+        mat1: "6 Skybuilders' Cocoon",
+        mat2: "6 Skybuilders' Ruby Sea Water",
+        mat3: "6 Skybuilders' Urunday Log",
+        mat4: "2 Bear Fat",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Water Crystal, 2 Lightning Crystal",
+        special: "Ishgard, Collectable"
+    },
+    {
+        level: 80,
+        name: "Skybuilders' Alchemic",
+        mat1: "8 Skybuilders' Dawn Lizard",
+        mat2: "8 Skybuilders' Sea Salt",
+        mat3: "8 Skybuilders' Highland Spring Water",
+        mat4: "Golden Honey",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Water Crystal, 2 Lightning Crystal",
+        special: "Ishgard, Collectable"
+    }
+];

@@ -14,13 +14,13 @@
             {{group.name}}
         </div>
 
-        <template v-if="group.subGroups">
+        <template v-if="group.groupKeys">
             <nav-group
-                v-for="subGroup in group.subGroups"
-                :key="subGroup.name"
+                v-for="groupKey in group.groupKeys"
+                :key="group[groupKey].name"
                 :show="showChildren"
                 :degree="degree + 1"
-                :group="subGroup"
+                :group="group[groupKey]"
             />
         </template>
     </div>
@@ -46,13 +46,16 @@
                     this.group.onNavigation(this.$store);
                 }
                 else {
-                    this.$store.commit('navigation/SET_BREADCRUMBS', {
+                    this.$store.commit('navigation/SET_CRUMB_AT', {
                         groupName: this.group.name,
                         degree
                     });
 
                     if(!this.group.disableSelection) {
                         this.$store.commit('navigation/SET_SELECTED_GROUP', this.group);
+                    }
+                    else {
+                        this.$store.commit('navigation/SET_SELECTED_GROUP', null);
                     }
                 }
             }

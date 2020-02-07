@@ -7,11 +7,9 @@
             <span class="exclude" @click="onFilterCompletion('X')">&#10006;</span>
         </th>
 
-        <th v-for="column in columns">
+        <th v-for="column in columnConfig">
             <div>
-                <span
-                    v-if="column.filterable"
-                >
+                <span v-if="column.filterable">
                     <select
                         class="filter-select"
                         v-if="!filters[column.key]"
@@ -58,7 +56,7 @@
             filters: [],
         }),
         props: {
-            columns: Array,
+            columnConfig: Array,
             uniqueValues: Object,
         },
         mounted: function() {
@@ -67,9 +65,11 @@
         methods: {
             onFilterCompletion: function(value) {
                 if(!value || this.filters.completed && this.filters.completed.value === value) {
+                    // Remove filter
                     this.filters.completed = null;
                 }
                 else {
+                    // Add/Change filter
                     this.filters.completed = {
                         filterType: 'completed',
                         value

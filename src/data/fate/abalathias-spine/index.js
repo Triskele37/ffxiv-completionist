@@ -1,15 +1,16 @@
-import { TheSeaOfCloudsFATEs } from "./the-sea-of-clouds";
-import { AzysLlaFATEs } from "./azys-lla";
+import { DataGroup } from "../../DataGroup";
 
-export const AbalathiasSpineFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.abalathias-spine`;
+import { FATEs_Abalathias_Spine_The_Sea_of_Clouds } from "./the-sea-of-clouds";
+import { FATEs_Abalathias_Spine_Azys_Lla } from "./azys-lla";
 
-    return {
-        name: "Abalathia's Spine",
-        storageKey,
-        subGroups: [
-            AzysLlaFATEs(storageKey),
-            TheSeaOfCloudsFATEs(storageKey),
-        ]
-    };
+export const FATEs_Abalathias_Spine = function(name, parent) {
+    const data = new DataGroup(name, parent);
+    data.name = "Abalathia's Spine";
+
+    data.initializeSubGroups([
+        FATEs_Abalathias_Spine_The_Sea_of_Clouds,
+        FATEs_Abalathias_Spine_Azys_Lla,
+	]);
+
+    return data;
 };

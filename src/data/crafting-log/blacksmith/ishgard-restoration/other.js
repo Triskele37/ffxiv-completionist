@@ -1,12 +1,9 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Blacksmith_Other = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.other`;
-
-    return {
-        name: "Other",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: []
-    };
+export const Crafting_Log_Blacksmith_Ishgard_Restoration_Other = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+
+];

@@ -1,19 +1,16 @@
-import { AchievementColumnConfig } from "../columnConfigs";
+import { DataGroup } from "../../DataGroup";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Mor%20Dhona&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const MorDhonaExplorationAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.mor-dhona`;
-
-    return {
-        name: "Mor Dhona",
-    	storageKey,
-        columns: AchievementColumnConfig,
-        tasks: [{
-            description: "Visit Mor Dhona and unlock the area map.",
-            name: "Mapping the Realm: Mor Dhona",
-            points: 10,
-            reward: "-"
-        }]
-    };
+export const Achievements_Exploration_Mor_Dhona = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        description: "Visit Mor Dhona and unlock the area map.",
+        name: "Mapping the Realm: Mor Dhona",
+        points: 10,
+        reward: "-"
+    }
+];

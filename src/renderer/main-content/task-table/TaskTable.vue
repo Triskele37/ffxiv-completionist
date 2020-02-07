@@ -1,18 +1,16 @@
 <template>
     <div id="item-container">
-        <helper-error :selectedGroup="group" />
-
         <table
             class="task-table"
             v-if="showTable"
         >
             <task-table-header
                 @filter-change="onFilterChange"
-                :columns="group.columns"
+                :column-config="columnConfig"
                 :uniqueValues="uniqueValues"
             />
             <task-table-data-row
-                :selected-group="group"
+                :column-config="columnConfig"
                 :tasks="filteredTasks"
             />
         </table>
@@ -21,7 +19,6 @@
 
 <script>
     // Components
-    import HelperMessages from './HelperMessages';
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
 
@@ -29,44 +26,38 @@
     export default {
         name: 'task-table',
         components: {
-            'helper-error': HelperMessages,
             'task-table-header': TaskTableHeader,
             'task-table-data-row': TaskTableDataRow,
         },
         props: {
-            group: Object
+            columnConfig: Array,
+            tasks: Array,
         },
         data: () => ({
             filters: {}
         }),
         computed: {
             showTable: function() {
-                // No group
-                if(!this.group) return false;
-
-                // No tasks
-                if(!this.group.tasks) return false;
-                if(this.group.tasks.length === 0) return false;
-
-                // Assert column config
-                return !!this.group.columns;
+                if(!this.columnConfig) return false;
+                if(!this.tasks) return false;
+                return this.tasks.length > 0;
             },
             uniqueValues: function() {
                 const uniqueValues = {};
 
                 // Grab unique values from the filtered task list
                 this.filteredTasks.forEach((task) => {
-                    this.group.columns.forEach(({ key }) => {
+                    this.columnConfig.forEach(({ key }) => {
                         if(!uniqueValues[key]) uniqueValues[key] = [];
 
-                        if(uniqueValues[key].indexOf(task[key]) === -1) {
+                        if(task[key] && uniqueValues[key].indexOf(task[key]) === -1) {
                             uniqueValues[key].push(task[key]);
                         }
                     });
                 });
 
                 // Sort the unique values for pretty filter dropdowns
-                this.group.columns.forEach((column) => {
+                this.columnConfig.forEach((column) => {
                     if(!uniqueValues[column.key]) return;
                     if(column.filterType === 'number') {
                         uniqueValues[column.key].sort((a, b) => parseInt(a) - parseInt(b));
@@ -79,11 +70,11 @@
                 return uniqueValues;
             },
             filteredTasks: function() {
-                let filtered = this.group.tasks.concat();
+                let filtered = this.tasks.concat();
 
                 if(this.filters.completed) {
                     filtered = filtered.filter((task) => {
-                        const completed = this.$store.getters.getCompletionFlag(`${this.group.storageKey}.${task.name}`);
+                        const completed = task.completionFlag;
                         const filterCompleted = this.filters.completed.value;
 
                         if(!completed && filterCompleted === 'N') return true;
@@ -91,14 +82,14 @@
                     });
                 }
 
-                for(let i = 0; i < this.group.columns.length; i++) {
-                    const key = this.group.columns[i].key;
+                for(let i = 0; i < this.columnConfig.length; i++) {
+                    const key = this.columnConfig[i].key;
                     const filter = this.filters[key];
 
                     if(filter) {
                         if(filter.filterType === 'search') {
                             filtered = filtered.filter((task) =>
-                                task[key].toLowerCase().includes(filter.value.toLowerCase())
+                                task[key].toString().toLowerCase().includes(filter.value.toLowerCase())
                             );
                         }
                         else {

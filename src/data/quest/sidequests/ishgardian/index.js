@@ -1,13 +1,9 @@
-import { Ishgard } from "./ishgard";
+import { DataGroup } from "../../../DataGroup";
 
-export const Ishgardian = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.ishgardian`;
+import { Quests_Sidequests_Ishgardian_Ishgard } from "./ishgard";
 
-    return {
-        name: "Ishgardian",
-        storageKey,
-        subGroups: [
-            Ishgard(storageKey)
-        ]
-    };
+export const Quests_Sidequests_Ishgardian = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Ishgardian_Ishgard,
+    ]);
 };

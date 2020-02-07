@@ -1,45 +1,41 @@
-import { Hildibrand } from "./hildibrand";
-import { FurtherHildibrandAdventures } from "./further-hildibrand-adventures";
-import { EvenFurtherHildibrandAdventures } from "./even-further-hildibrand-adventures";
-import { Scholasticate } from "./scholasticate";
-import { TalesOfTheDragonsongWar } from "./tales-of-the-dragonsong-war";
-import { WanderingMinstrel } from "./wandering-minstrel";
-import { ZodiacWeapons } from "./zodiac-weapons";
-import { AnimaWeapons } from "./anima-weapons";
-import { TheForbiddenLandEureka } from "./the-forbidden-land-eureka";
-import { DeliveryMoogle } from "./delivery-moogle";
-import { AlliedBeastTribe } from "./allied-beast-tribe";
-import { HeavenswardBeastTribe } from "./heavensward-beast-tribe";
-import { StormbloodBeastTribe } from "./stormblood-beast-tribe";
-import { DomanAdventurersGuild } from "./doman-adventurers-guild";
-import { DomanReconstruction } from "./doman-reconstruction";
-import { TalesFromTheShadows } from "./tales-from-the-shadows";
-import { IshgardianRestorationMain } from "./ishgardian-restoration-main";
+import { DataGroup } from "../../../DataGroup";
 
-export const SideStory = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.side-story`;
+import { Quests_Sidequests_Side_Story_Hildibrand } from "./hildibrand";
+import { Quests_Sidequests_Side_Story_Further_Hildibrand_Adventures } from "./further-hildibrand-adventures";
+import { Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures } from "./even-further-hildibrand-adventures";
+import { Quests_Sidequests_Side_Story_Scholasticate } from "./scholasticate";
+import { Quests_Sidequests_Side_Story_Tales_of_the_Dragonsong_War } from "./tales-of-the-dragonsong-war";
+import { Quests_Sidequests_Side_Story_Wandering_Minstrel } from "./wandering-minstrel";
+import { Quests_Sidequests_Side_Story_Zodiac_Weapons } from "./zodiac-weapons";
+import { Quests_Sidequests_Side_Story_Anima_Weapons } from "./anima-weapons";
+import { Quests_Sidequests_Side_Story_The_Forbidden_Land_Eureka } from "./the-forbidden-land-eureka";
+import { Quests_Sidequests_Side_Story_Delivery_Moogle } from "./delivery-moogle";
+import { Quests_Sidequests_Side_Story_Allied_Beast_Tribe } from "./allied-beast-tribe";
+import { Quests_Sidequests_Side_Story_Heavensward_Beast_Tribe } from "./heavensward-beast-tribe";
+import { Quests_Sidequests_Side_Story_Stormblood_Beast_Tribe } from "./stormblood-beast-tribe";
+import { Quests_Sidequests_Side_Story_Doman_Adventurers_Guild } from "./doman-adventurers-guild";
+import { Quests_Sidequests_Side_Story_Doman_Reconstruction } from "./doman-reconstruction";
+import { Quests_Sidequests_Side_Story_Tales_from_the_Shadows } from "./tales-from-the-shadows";
+import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main } from "./ishgardian-restoration-main";
 
-    return {
-        name: "Side Story",
-        storageKey,
-        subGroups: [
-            Hildibrand(storageKey),
-            FurtherHildibrandAdventures(storageKey),
-            EvenFurtherHildibrandAdventures(storageKey),
-            Scholasticate(storageKey),
-            TalesOfTheDragonsongWar(storageKey),
-            WanderingMinstrel(storageKey),
-            ZodiacWeapons(storageKey),
-            AnimaWeapons(storageKey),
-            TheForbiddenLandEureka(storageKey),
-            DeliveryMoogle(storageKey),
-            AlliedBeastTribe(storageKey),
-            HeavenswardBeastTribe(storageKey),
-            StormbloodBeastTribe(storageKey),
-            DomanAdventurersGuild(storageKey),
-            DomanReconstruction(storageKey),
-            TalesFromTheShadows(storageKey),
-            IshgardianRestorationMain(storageKey),
-        ]
-    };
+export const Quests_Sidequests_Side_Story = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Quests_Sidequests_Side_Story_Hildibrand,
+        Quests_Sidequests_Side_Story_Further_Hildibrand_Adventures,
+        Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures,
+        Quests_Sidequests_Side_Story_Scholasticate,
+        Quests_Sidequests_Side_Story_Tales_of_the_Dragonsong_War,
+        Quests_Sidequests_Side_Story_Wandering_Minstrel,
+        Quests_Sidequests_Side_Story_Zodiac_Weapons,
+        Quests_Sidequests_Side_Story_Anima_Weapons,
+        Quests_Sidequests_Side_Story_The_Forbidden_Land_Eureka,
+        Quests_Sidequests_Side_Story_Delivery_Moogle,
+        Quests_Sidequests_Side_Story_Allied_Beast_Tribe,
+        Quests_Sidequests_Side_Story_Heavensward_Beast_Tribe,
+        Quests_Sidequests_Side_Story_Stormblood_Beast_Tribe,
+        Quests_Sidequests_Side_Story_Doman_Adventurers_Guild,
+        Quests_Sidequests_Side_Story_Doman_Reconstruction,
+        Quests_Sidequests_Side_Story_Tales_from_the_Shadows,
+        Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main,
+    ]);
 };

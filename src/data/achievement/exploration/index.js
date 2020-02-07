@@ -1,37 +1,33 @@
-import { ExplorationExplorationAchievements } from "./exploration";
-import { AbalathiasSpineExplorationAchievements } from "./abalathiaspine";
-import { BlackShroudExplorationAchievements } from "./blackshroud";
-import { CoerthasExplorationAchievements } from "./coerthas";
-import { DravaniaExplorationAchievements } from "./dravania";
-import { DutyExplorationAchievements } from "./duty";
-import { LaNosceaExplorationAchievements } from "./lanoscea";
-import { MorDhonaExplorationAchievements } from "./mordhona";
-import { NorvrandtExplorationAchievements } from "./norvrandt";
-import { OthardExplorationAchievements } from "./othard";
-import { SightseeingExplorationAchievements } from "./sightseeing";
-import { ThanalanExplorationAchievements } from "./thanalan";
+import { DataGroup } from "../../DataGroup";
+
+import { Achievements_Exploration_Sightseeing_Log } from "./sightseeing";
+import { Achievements_Exploration_La_Noscea } from "./lanoscea";
+import { Achievements_Exploration_The_Black_Shroud } from "./blackshroud";
+import { Achievements_Exploration_Thanalan } from "./thanalan";
+import { Achievements_Exploration_Coerthas } from "./coerthas";
+import { Achievements_Exploration_Mor_Dhona } from "./mordhona";
+import { Achievements_Exploration_Abalathias_Spine } from "./abalathiaspine";
+import { Achievements_Exploration_Dravania } from "./dravania";
+import { Achievements_Exploration_Gyr_Abania } from "./gyrabania";
+import { Achievements_Exploration_Othard } from "./othard";
+import { Achievements_Exploration_Norvrandt } from "./norvrandt";
+import { Achievements_Exploration_Duty } from "./duty";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Exploration&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const ExplorationAchievements = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.exploration`;
-
-    return {
-        name: "Exploration",
-    	storageKey,
-        subGroups: [
-            ExplorationExplorationAchievements(storageKey),
-            AbalathiasSpineExplorationAchievements(storageKey),
-            BlackShroudExplorationAchievements(storageKey),
-            CoerthasExplorationAchievements(storageKey),
-            DravaniaExplorationAchievements(storageKey),
-            DutyExplorationAchievements(storageKey),
-            LaNosceaExplorationAchievements(storageKey),
-            MorDhonaExplorationAchievements(storageKey),
-            NorvrandtExplorationAchievements(storageKey),
-            OthardExplorationAchievements(storageKey),
-            SightseeingExplorationAchievements(storageKey),
-            ThanalanExplorationAchievements(storageKey),
-    	],
-    };
+export const Achievements_Exploration = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        Achievements_Exploration_Sightseeing_Log,
+        Achievements_Exploration_La_Noscea,
+        Achievements_Exploration_The_Black_Shroud,
+        Achievements_Exploration_Thanalan,
+        Achievements_Exploration_Coerthas,
+        Achievements_Exploration_Mor_Dhona,
+        Achievements_Exploration_Abalathias_Spine,
+        Achievements_Exploration_Dravania,
+        Achievements_Exploration_Gyr_Abania,
+        Achievements_Exploration_Othard,
+        Achievements_Exploration_Norvrandt,
+        Achievements_Exploration_Duty,
+    ]);
 };

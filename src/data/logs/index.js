@@ -1,17 +1,13 @@
-import { HuntingLogs } from "./hunting";
-import { SightseeingLogs } from "./sightseeing";
-import { BlueMage } from "./blue-mage";
+import { DataGroup } from "../DataGroup";
 
-export const Logs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.general-logs`;
+import { General_Logs_Hunting_Log } from "./hunting";
+import { General_Logs_Sightseeing_Log } from "./sightseeing";
+import { General_Logs_Blue_Mage } from "./blue-mage";
 
-    return {
-        name: 'Logs',
-        storageKey,
-        subGroups: [
-            HuntingLogs(storageKey),
-            SightseeingLogs(storageKey),
-            BlueMage(storageKey),
-        ]
-    };
+export const General_Logs = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        General_Logs_Hunting_Log,
+        General_Logs_Sightseeing_Log,
+        General_Logs_Blue_Mage,
+    ]);
 };

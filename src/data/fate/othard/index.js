@@ -1,17 +1,13 @@
-import { TheAzimSteppeFATEs } from "./the-azim-steppe";
-import { TheRubySeaFATEs } from "./the-ruby-sea";
-import { YanxiaFATEs } from "./yanxia";
+import { DataGroup } from "../../DataGroup";
 
-export const OthardFATEs = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.othard`;
+import { FATEs_Othard_The_Azim_Steppe } from "./the-azim-steppe";
+import { FATEs_Othard_The_Ruby_Sea } from "./the-ruby-sea";
+import { FATEs_Othard_Yanxia } from "./yanxia";
 
-    return {
-        name: "Othard",
-        storageKey,
-        subGroups: [
-            TheAzimSteppeFATEs(storageKey),
-            TheRubySeaFATEs(storageKey),
-            YanxiaFATEs(storageKey),
-        ]
-    };
+export const FATEs_Othard = function(name, parent) {
+    return new DataGroup(name, parent).initializeSubGroups([
+        FATEs_Othard_The_Azim_Steppe,
+        FATEs_Othard_The_Ruby_Sea,
+        FATEs_Othard_Yanxia,
+	]);
 };

@@ -1,144 +1,140 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const CarpenterLevels_16_20 = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.level-16-20`;
-
-    return {
-        name: "Levels 16-20",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [{
-            "level": "16",
-            "item": "Elm Lumber",
-            "mat-1": "3 Elm Log",
-            "mat-2": "X",
-            "mat-3": "X",
-            "mat-4": "X",
-            "mat-5": "X",
-            "mat-6": "X",
-            "catalysts": "Wind Shard",
-            "special": "Buyable, Ingredient (CRP, BSM, ALC, WVR, LTW ARM, GSM, FCC), Levequest"
-        },
-            {
-                "level": "16",
-                "item": "Elm Fishing Rod",
-                "mat-1": "Elm Lumber",
-                "mat-2": "Ash Branch",
-                "mat-3": "Iron Ingot",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "17",
-                "item": "Iron Spear",
-                "mat-1": "Elm Lumber",
-                "mat-2": "Iron Ingot",
-                "mat-3": "Clove Oil",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "18",
-                "item": "Elm Cane",
-                "mat-1": "Elm Lumber",
-                "mat-2": "Growth Formula Beta",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "19",
-                "item": "Elm Longbow",
-                "mat-1": "Elm Lumber",
-                "mat-2": "2 Ash Branch",
-                "mat-3": "Cotton Yarn",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "19",
-                "item": "Elm Crook",
-                "mat-1": "Elm Lumber",
-                "mat-2": "Beastkin Blood",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "19",
-                "item": "Initiate's Spinning Wheel",
-                "mat-1": "Elm Lumber",
-                "mat-2": "2 Bronze Rivets",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Blank Grade 1 Orchestrion Roll",
-                "mat-1": "Moko Grass",
-                "mat-2": "Elm Log",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard",
-                "special": "Ingredient (ALC)"
-            },
-            {
-                "level": "20",
-                "item": "Iron Lance",
-                "mat-1": "Elm Lumber",
-                "mat-2": "2 Iron Ingot",
-                "mat-3": "Hard Leather",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Initiate's Fishing Rod",
-                "mat-1": "Elm Lumber",
-                "mat-2": "Yew Branch",
-                "mat-3": "Iron Ingot",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Provisioning"
-            },
-            {
-                "level": "20",
-                "item": "Ash Mask (Lapis Lazuli)",
-                "mat-1": "Ash Lumber",
-                "mat-2": "Lapis Lazulis",
-                "mat-3": "Clove Oil",
-                "mat-4": "Leather",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "Wind Shard, Ice Shard",
-                "special": "Buyable, Levequest, Provisioning"
-            },
-        ]
-    };
+export const Crafting_Log_Carpenter_Level_Based_16_20 = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "16",
+        name: "Elm Lumber",
+        mat1: "3 Elm Log",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard",
+        special: "Buyable, Ingredient (CRP, BSM, ALC, WVR, LTW ARM, GSM, FCC), Levequest"
+    },
+    {
+        level: "16",
+        name: "Elm Fishing Rod",
+        mat1: "Elm Lumber",
+        mat2: "Ash Branch",
+        mat3: "Iron Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "17",
+        name: "Iron Spear",
+        mat1: "Elm Lumber",
+        mat2: "Iron Ingot",
+        mat3: "Clove Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "18",
+        name: "Elm Cane",
+        mat1: "Elm Lumber",
+        mat2: "Growth Formula Beta",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "19",
+        name: "Elm Longbow",
+        mat1: "Elm Lumber",
+        mat2: "2 Ash Branch",
+        mat3: "Cotton Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "19",
+        name: "Elm Crook",
+        mat1: "Elm Lumber",
+        mat2: "Beastkin Blood",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "19",
+        name: "Initiate's Spinning Wheel",
+        mat1: "Elm Lumber",
+        mat2: "2 Bronze Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Blank Grade 1 Orchestrion Roll",
+        mat1: "Moko Grass",
+        mat2: "Elm Log",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard",
+        special: "Ingredient (ALC)"
+    },
+    {
+        level: "20",
+        name: "Iron Lance",
+        mat1: "Elm Lumber",
+        mat2: "2 Iron Ingot",
+        mat3: "Hard Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Initiate's Fishing Rod",
+        mat1: "Elm Lumber",
+        mat2: "Yew Branch",
+        mat3: "Iron Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "20",
+        name: "Ash Mask (Lapis Lazuli)",
+        mat1: "Ash Lumber",
+        mat2: "Lapis Lazulis",
+        mat3: "Clove Oil",
+        mat4: "Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Shard, Ice Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
+];

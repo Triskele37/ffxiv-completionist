@@ -1,57 +1,54 @@
-import { QuestColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const AlisaieQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.alisaie`;
-
-    return {
-        name: "Alisaie",
-    	storageKey,
-    	columns: QuestColumnConfig,
-        tasks: [{
-        	level: "70",
-        	name: "In Search of Alisaie",
-        	npc: "Crystal Exarch",
-        	unlock: "Amh Areng"
-        }, {
-        	level: "70",
-        	name: "City of the Mord",
-        	npc: "Cassard",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "Working Off the Meal",
-        	npc: "Cassard",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "A Desert Crossing",
-        	npc: "Tesleen",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "Following in Her Footprints",
-        	npc: "Tesleen",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "Culling Their Ranks",
-        	npc: "Alisaie Leveilleur",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "A Purchase of Fruit",
-        	npc: "Tesleen",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "The Time Left to Us",
-        	npc: "Tesleen",
-        	unlock: ""
-        }, {
-        	level: "70",
-        	name: "Tears on the Sand",
-        	npc: "Alisaie Leveilleur",
-        	unlock: ""
-        }]
-    };
+export const Quests_Main_Scenario_Shadowbringers_Alisaie = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: "70",
+        name: "In Search of Alisaie",
+        npc: "Crystal Exarch",
+        unlock: "Amh Areng"
+    }, {
+        level: "70",
+        name: "City of the Mord",
+        npc: "Cassard",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "Working Off the Meal",
+        npc: "Cassard",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "A Desert Crossing",
+        npc: "Tesleen",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "Following in Her Footprints",
+        npc: "Tesleen",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "Culling Their Ranks",
+        npc: "Alisaie Leveilleur",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "A Purchase of Fruit",
+        npc: "Tesleen",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "The Time Left to Us",
+        npc: "Tesleen",
+        unlock: ""
+    }, {
+        level: "70",
+        name: "Tears on the Sand",
+        npc: "Alisaie Leveilleur",
+        unlock: ""
+    }
+];

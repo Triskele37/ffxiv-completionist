@@ -1,4 +1,4 @@
-import {app, BrowserWindow} from 'electron';
+import { app, BrowserWindow, ipcMain } from 'electron';
 
 // Set `__static` path to static files in production
 if (process.env.NODE_ENV !== 'development') {
@@ -28,6 +28,10 @@ function createWindow () {
 
     // Show the window once initial rendering is complete
     mainWindow.on('ready-to-show', () => mainWindow.show());
+
+    mainWindow.on('close', (event) => {
+        event.sender.send('beforeunload');
+    });
 
     // Cleanup
     mainWindow.on('closed', () => {

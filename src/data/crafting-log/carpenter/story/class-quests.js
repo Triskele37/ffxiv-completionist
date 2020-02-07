@@ -1,61 +1,56 @@
-import { CraftingLogColumnConfig } from "../../columnConfigs";
+import { DataGroup } from "../../../DataGroup";
 
-export const Carpenter_Story_ClassQuests = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.class-quests`;
-
-    return {
-        name: "Class Quests",
-        storageKey,
-        columns: CraftingLogColumnConfig,
-        tasks: [
-            {
-                "level": 63,
-                "item": "Lavish Dressing Case",
-                "mat-1": "Dressing Case Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Crystal, Ice Crystal",
-                "special": "Housing (Other)"
-            },
-            {
-                "level": 65,
-                "item": "Stylish Pipe Box",
-                "mat-1": "Pipe Box Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Crystal, Ice Crystal",
-                "special": "X"
-            },
-            {
-                "level": 68,
-                "item": "Ornate Partition",
-                "mat-1": "Partition Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Crystal, Ice Crystal",
-                "special": "X"
-            },
-            {
-                "level": 70,
-                "item": "Teahouse Bench",
-                "mat-1": "Teahouse Bench Materials",
-                "mat-2": "X",
-                "mat-3": "X",
-                "mat-4": "X",
-                "mat-5": "X",
-                "mat-6": "X",
-                "catalysts": "2 Wind Crystal, Ice Crystal",
-                "special": "X"
-            }
-        ]
-    };
+export const Crafting_Log_Carpenter_Story_Class_Quests = function(name, parent) {
+    return new DataGroup(name, parent).initializeTasks(tasks);
 };
+
+const tasks = [
+    {
+        level: 63,
+        name: "Lavish Dressing Case",
+        mat1: "Dressing Case Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Crystal, Ice Crystal",
+        special: "Housing (Other)"
+    },
+    {
+        level: 65,
+        name: "Stylish Pipe Box",
+        mat1: "Pipe Box Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Crystal, Ice Crystal",
+        special: "X"
+    },
+    {
+        level: 68,
+        name: "Ornate Partition",
+        mat1: "Partition Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Crystal, Ice Crystal",
+        special: "X"
+    },
+    {
+        level: 70,
+        name: "Teahouse Bench",
+        mat1: "Teahouse Bench Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Crystal, Ice Crystal",
+        special: "X"
+    },
+];
