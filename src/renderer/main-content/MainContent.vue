@@ -8,6 +8,9 @@
         <template v-else-if="selectedGroup.component">
             <component v-bind:is="selectedGroup.component"></component>
         </template>
+        <template v-else-if="selectedGroup.text">
+            {{selectedGroup.text}}
+        </template>
         <!----------- Summary & Task Table ----------->
         <template v-else>
             <div v-if="selectedGroup.groupKeys" class="group-summary-section">

@@ -38,7 +38,7 @@
                 shell.openExternal('https://ffxiv.gamerescape.com/wiki/' + this.taskName.replace(/ /g, '_'));
             },
             gotoGarlandTools: function () {
-                shell.openExternal('https://www.garlandtools.org/db/#search/' + this.taskName.replace(/ /g, '_'));
+                shell.openExternal('https://www.garlandtools.org/db/#search/' + this.taskName.replace(/ /g, '%20'));
             }
         }
     };

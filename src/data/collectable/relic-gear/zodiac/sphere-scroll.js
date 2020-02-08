@@ -1,6 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Collectables_Relic_Gear_Sphere_Scroll = function(name, parent) {
+export const Collectables_Relic_Gear_Zodiac_Sphere_Scroll = function(name, parent) {
     return new DataGroup(name, parent).initializeTasks(tasks);
 };
 

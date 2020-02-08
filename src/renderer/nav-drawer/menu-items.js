@@ -2,26 +2,35 @@ import { remote } from 'electron';
 import Store from 'electron-store';
 const store = new Store();
 
+import { versionHistory } from '../../version-history';
+
 export const MainMenu = {
     name: "FFXIV Completionist",
     disableSelection: true,
-    groupKeys: ["Import", "Log", "Nuke"],
+    groupKeys: ["Import", "VersionHistory", "Debug"],
 
     Import: { name: "Import", component: "import-sheet", },
-    Log: { name: "Log Store", onNavigation: () => console.log(store) },
-    Nuke: {
-        name: "Nuke Store",
-        onNavigation: () => {
-            const buttons = ['Yes', 'No'];
+    VersionHistory: versionHistory,
+    Debug: {
+        name: "Debug",
+        disableSelection: true,
+        groupKeys: ["Log", "Nuke"],
 
-            const answer = remote.dialog.showMessageBox({
-                type: 'question',
-                buttons,
-                message: 'Are you sure you want to delete all of your saved data???' +
-                    '\n(This cannot be undone)',
-            });
+        Log: { name: "Log Store", onNavigation: () => console.log(store) },
+        Nuke: {
+            name: "Nuke Store",
+            onNavigation: () => {
+                const buttons = ['Yes', 'No'];
 
-            if(buttons[answer] === 'Yes') store.clear();
+                const answer = remote.dialog.showMessageBox({
+                    type: 'question',
+                    buttons,
+                    message: 'Are you sure you want to delete all of your saved data???' +
+                        '\n(This cannot be undone)',
+                });
+
+                if(buttons[answer] === 'Yes') store.clear();
+            }
         }
-    }
+    },
 };
