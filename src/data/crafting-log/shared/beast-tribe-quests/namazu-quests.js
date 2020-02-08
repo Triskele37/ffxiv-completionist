@@ -138,5 +138,61 @@ const tasks = [
         mat2: "",
         catalysts: "",
         special: ""
+    }, {
+        level: "60",
+        name: "Stable Supplies",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Culinary Knife Component",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Generous Gift",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Elixir Mixing Paraphernalia",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Effigy Components",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Pristine Fruit Figurine",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Land Diving Gear",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
+    }, {
+        level: "60",
+        name: "Korrigan Doll",
+        mat1: "",
+        mat2: "",
+        catalysts: "",
+        special: ""
     },
 ];

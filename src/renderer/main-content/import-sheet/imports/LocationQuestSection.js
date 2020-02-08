@@ -12,7 +12,11 @@ export const LocationQuestSection = {
         },
         {
             title: "Black Shroud Sidequests",
-            importCallback: importCallback(2, [sidequests.sg('Gridanian')]),
+            importCallback: importCallback(2, [sidequests.sg('Gridanian')], (isMatch, task, columns) => {
+                if(isMatch) return true;
+                if(task.name === columns[2].replace(' (Quest)', '')) return true;
+                return false;
+            }),
         },
         {
             title: "Thanalan Sidequests",
