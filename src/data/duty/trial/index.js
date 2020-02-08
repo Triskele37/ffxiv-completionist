@@ -6,8 +6,8 @@ import { Duty_Trials_HW } from "./HW";
 import { Duty_Trials_SB } from "./SB";
 import { Duty_Trials_ShB } from "./ShB";
 
-export const Duty_Trials = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_Trials = function(parent) {
+    const data = new DataGroup("Trials", parent);
     data.columnConfig = DutyColumnConfig;
 
     data.initializeSubGroups([

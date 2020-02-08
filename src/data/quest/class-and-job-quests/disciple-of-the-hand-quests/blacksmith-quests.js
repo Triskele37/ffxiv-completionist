@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Class_and_Job_Disciple_of_the_Hand_Blacksmith = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Class_and_Job_Disciple_of_the_Hand_Blacksmith = function(parent) {
+    return new DataGroup("Blacksmith", parent).initializeTasks(tasks);
 };
 
 const tasks = [

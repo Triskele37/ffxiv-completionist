@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Travel_Aether_Currents_HW_The_Churning_Mists = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Travel_Aether_Currents_HW_The_Churning_Mists = function(parent) {
+    return new DataGroup("The Churning Mists", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -9,8 +9,8 @@ import { Achievements_Legacy_Dungeons } from "./dungeons";
 import { Achievements_Legacy_Exploration } from "./exploration";
 import { Achievements_Legacy_Grand_Company } from "./grand-company";
 
-export const Achievements_Legacy = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Achievements_Legacy = function(parent) {
+    const data = new DataGroup("Legacy", parent);
     data.defaultCompletion = "X";
 
     data.initializeSubGroups([

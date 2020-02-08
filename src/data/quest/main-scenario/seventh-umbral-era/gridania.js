@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Main_Scenario_Seventh_Umbral_Era_Gridania = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Main_Scenario_Seventh_Umbral_Era_Gridania = function(parent) {
+    return new DataGroup("Gridania", parent).initializeTasks(tasks);
 };
 
 const tasks = [

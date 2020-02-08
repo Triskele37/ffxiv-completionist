@@ -2,8 +2,8 @@
 // Daily: https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=28&columns=ID,Name
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Beast_Tribe_Kobold = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Beast_Tribe_Kobold = function(parent) {
+    return new DataGroup("Kobold", parent).initializeTasks(tasks);
 };
 
 const tasks = [

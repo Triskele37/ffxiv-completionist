@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Ul_Dahn_Western_Thanalan = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Ul_Dahn_Western_Thanalan = function(parent) {
+    return new DataGroup("Western Thanalan", parent).initializeTasks(tasks);
 };
 
 const tasks = [

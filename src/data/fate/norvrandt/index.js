@@ -7,8 +7,8 @@ import { FATEs_Norvrandt_Lakeland } from "./lakeland";
 import { FATEs_Norvrandt_The_Rak_Tika_Greatwood } from "./the-rak-tika-greatwood";
 import { FATEs_Norvrandt_The_Tempest } from "./the-tempest";
 
-export const FATEs_Norvrandt = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const FATEs_Norvrandt = function(parent) {
+    return new DataGroup("Norvrandt", parent).initializeSubGroups([
         FATEs_Norvrandt_Amh_Araeng,
         FATEs_Norvrandt_Il_Mheg,
         FATEs_Norvrandt_Kholusia,

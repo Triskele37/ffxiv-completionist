@@ -11,8 +11,8 @@ import { Quests_Main_Scenario_Post_Stormblood } from "./post-stormblood";
 import { Quests_Main_Scenario_Shadowbringers } from "./shadowbringers";
 import { Quests_Main_Scenario_Post_Shadowbringers } from "./post-shadowbringers";
 
-export const Quests_Main_Scenario = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Main_Scenario = function(parent) {
+    const data = new DataGroup("Main Scenario", parent);
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

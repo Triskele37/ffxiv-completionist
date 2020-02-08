@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "The Rak'Tika Greatwood";
-    return data;
+export const Quests_Sidequests_Rak_Tika_The_Rak_Tika_Greatwood = function(parent) {
+    return new DataGroup("The Rak'Tika Greatwood", parent).initializeTasks(tasks);
 };
 
 const tasks = [

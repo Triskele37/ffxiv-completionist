@@ -7,8 +7,8 @@ import { Travel_Aether_Currents_HW_The_Churning_Mists } from "./the-churning-mis
 import { Travel_Aether_Currents_HW_The_Sea_of_Clouds } from "./the-sea-of-clouds";
 import { Travel_Aether_Currents_HW_Azys_Lla } from "./azys-lla";
 
-export const Travel_Aether_Currents_HW = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Travel_Aether_Currents_HW = function(parent) {
+    return new DataGroup("HW", parent).initializeSubGroups([
         Travel_Aether_Currents_HW_Coerthas_Western_Highlands,
         Travel_Aether_Currents_HW_The_Dravanian_Forelands,
         Travel_Aether_Currents_HW_The_Dravanian_Hinterlands,

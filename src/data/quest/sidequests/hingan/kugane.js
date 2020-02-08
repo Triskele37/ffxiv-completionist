@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Hingan_Kugane = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Hingan_Kugane = function(parent) {
+    return new DataGroup("Kugane", parent).initializeTasks(tasks);
 };
 
 const tasks = [

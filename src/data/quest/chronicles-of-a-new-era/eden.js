@@ -1,8 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=19&columns=ID,Name
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Chronicles_of_a_New_Era_Eden = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Chronicles_of_a_New_Era_Eden = function(parent) {
+    return new DataGroup("Eden", parent).initializeTasks(tasks);
 };
 
 const tasks = [

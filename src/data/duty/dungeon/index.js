@@ -6,8 +6,8 @@ import { Duty_Dungeons_HW } from "./HW";
 import { Duty_Dungeons_SB } from "./SB";
 import { Duty_Dungeons_ShB } from "./ShB";
 
-export const Duty_Dungeons = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_Dungeons = function(parent) {
+    const data = new DataGroup("Dungeons", parent);
     data.columnConfig = DutyColumnConfig;
 
     data.initializeSubGroups([

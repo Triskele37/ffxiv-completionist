@@ -8,8 +8,8 @@ import { Collectables_Orchestrion_List_Others } from "./other";
 import { Collectables_Orchestrion_List_Seasonal } from "./seasonal";
 import { Collectables_Orchestrion_List_Mog_Station } from "./mogstation";
 
-export const Collectables_Orchestrion_List = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Collectables_Orchestrion_List = function(parent) {
+    const data = new DataGroup("Orchestrion List", parent);
     data.columnConfig = [
         {
             header: 'Number',

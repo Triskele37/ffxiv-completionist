@@ -1,10 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=20&columns=ID,Name
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "YoRHa: Dark Apocalypse";
-    return data;
+export const Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse = function(parent) {
+    return new DataGroup("YoRHa: Dark Apocalypse", parent).initializeTasks(tasks);
 };
 
 const tasks = [

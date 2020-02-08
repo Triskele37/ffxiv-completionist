@@ -4,8 +4,8 @@ import { Collectables_Relic_Gear_Zodiac } from "./zodiac";
 import { Collectables_Relic_Gear_Anima } from "./anima";
 import { Collectables_Relic_Gear_Eureka } from "./eureka";
 
-export const Collectables_Relic_Gear = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Collectables_Relic_Gear = function(parent) {
+    const data = new DataGroup("Relic Gear", parent);
 
     data.columnConfig = [
         { header: "iLvl", key: "iLvl", filterable: true, filterType: "number", centered: true },

@@ -9,8 +9,8 @@ import { Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_6 } from "./mr-6"
 import { Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_7 } from "./mr-7";
 import { Crafting_Log_Blacksmith_Master_Recipes_Other_Master_Recipes } from "./other";
 
-export const Crafting_Log_Blacksmith_Master_Recipes = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Crafting_Log_Blacksmith_Master_Recipes = function(parent) {
+    return new DataGroup("Master Recipes", parent).initializeSubGroups([
         Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_1,
         Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_2,
         Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_3,

@@ -1,15 +1,8 @@
-/**
- * - ALL exports need to follow the naming convention of PARENT_PARENT_CHILD
-*/
 import { Task } from "./Task";
 
 export class DataGroup {
-    name = '';  // The UI friendly name
-
+    name = '';  // A UI friendly name
     _parent; // A reference to the parent group
-    _fullName; // The full module name for the group
-    _name; // The dot accessible name
-    _storageKey; // The full storage key of the group
 
     subGroups;  // Child groups of this group
 
@@ -23,16 +16,8 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Construction
     constructor(name, parent) {
+        this.name = name;
         this._parent = parent;
-        this._fullName = name;
-        this.name = generatePrettyName(name, parent);
-        this._name = this.name.replace(/ /g, '_');
-        this._storageKey = generateStorageKey(this._name, parent);
-
-        // Special case rename for level based groups
-        if(this.name.match(/[0-9]{1,2} [0-9]{1,2}/)) {
-            this.name = this.name.replace(' ', '-');
-        }
 
         // Inherit things
         if(this._parent) {
@@ -47,9 +32,7 @@ export class DataGroup {
         if(!this.subGroups) this.subGroups = [];
 
         for(let i = 0; i < subGroups.length; i++) {
-            const subGroup = subGroups[i](subGroups[i].name, this);
-
-            this.subGroups.push(subGroup);
+            this.subGroups.push(subGroups[i](this));
         }
 
         return this;
@@ -58,10 +41,14 @@ export class DataGroup {
     initializeTasks(tasks, columnConfig) {
         this.tasks = tasks.map((task) => {
             const taskObj = new Task(task, this);
+
+            // Allow groups to have default flags for all child tasks
             taskObj.changeCompletionFlag(this.defaultCompletion);
+
             return taskObj;
         });
 
+        // Allow a manually passed config to override an inherited config
         if(columnConfig) this.columnConfig = columnConfig;
 
         // Update totals
@@ -92,7 +79,7 @@ export class DataGroup {
         if(this._parent) this._parent.updateTotal(mod);
     }
 
-    //------------------------------------------------------------------ SubGroup Getter
+    //------------------------------------------------------------------ Functions that are gets
     sg(subGroupName) {
         if(!this.subGroups) return null;
         for(let i = 0; i < this.subGroups.length; i++) {
@@ -102,6 +89,17 @@ export class DataGroup {
     }
 
     //------------------------------------------------------------------ Getters
+    get _storageKey() {
+        return this.name
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+    }
+
+    get _fullStorageKey() {
+        return (this._parent ? this._parent._fullStorageKey + '.' : '') + this._storageKey;
+    }
+
     get percentComplete() {
         if(!this.total || this.total - this.totalExcluded === 0) return 0;
         return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
@@ -110,22 +108,4 @@ export class DataGroup {
     get displayTotal() {
         return this.total - this.totalExcluded;
     }
-}
-
-function generatePrettyName(name, parent) {
-    let output = name;
-
-    // Remove the parent prefix
-    if(parent) output = output.replace(`${parent._fullName}_`, '');
-
-    // Replace _ with space
-    output = output.replace(/_/g, ' ');
-
-    return output;
-}
-
-function generateStorageKey(name, parent) {
-    let storageKey = name.toLowerCase().replace(/_/g, '-');
-    if(parent) storageKey = `${parent._storageKey}.${storageKey}`;
-    return storageKey;
 }

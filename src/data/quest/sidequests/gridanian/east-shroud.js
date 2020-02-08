@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Gridanian_East_Shroud = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Gridanian_East_Shroud = function(parent) {
+    return new DataGroup("East Shroud", parent).initializeTasks(tasks);
 };
 
 const tasks = [

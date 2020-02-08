@@ -5,8 +5,8 @@ import { Duty_Hall_of_the_Novice_Tank } from './tank';
 import { Duty_Hall_of_the_Novice_DPS } from './dps';
 import { Duty_Hall_of_the_Novice_Healer } from './healer';
 
-export const Duty_Hall_of_the_Novice = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_Hall_of_the_Novice = function(parent) {
+    const data = new DataGroup("Hall of the Novice", parent);
     data.columnConfig = HallOfNoviceColumnConfig;
 
     data.initializeSubGroups([

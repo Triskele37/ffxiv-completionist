@@ -10,8 +10,8 @@ import { Achievements_Character_Gold_Saucer } from "./goldsaucer";
 
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Character = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Achievements_Character = function(parent) {
+    return new DataGroup("Character", parent).initializeSubGroups([
         Achievements_Character_General,
         Achievements_Character_Disciple_of_War,
         Achievements_Character_Disciple_of_Magic,

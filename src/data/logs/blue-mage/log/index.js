@@ -5,8 +5,8 @@ import { General_Logs_Blue_Mage_Log_Dungeons } from "./dungeon";
 import { General_Logs_Blue_Mage_Log_Trials } from "./trial";
 import { General_Logs_Blue_Mage_Log_Raids } from "./raid";
 
-export const General_Logs_Blue_Mage_Log = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const General_Logs_Blue_Mage_Log = function(parent) {
+    const data = new DataGroup("Log", parent);
     data.columnConfig = BlueMageLogColumnConfig;
 
     data.initializeSubGroups([

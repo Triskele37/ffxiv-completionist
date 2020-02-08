@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main = function(parent) {
+    return new DataGroup("Ishgardian Restoration Main", parent).initializeTasks(tasks);
 };
 
 const tasks = [

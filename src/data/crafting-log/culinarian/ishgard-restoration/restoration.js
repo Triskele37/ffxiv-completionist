@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Log_Culinarian_Ishgard_Restoration_Restoration = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Crafting_Log_Culinarian_Ishgard_Restoration_Restoration = function(parent) {
+    return new DataGroup("Restoration", parent).initializeTasks(tasks);
 };
 
 const tasks = [

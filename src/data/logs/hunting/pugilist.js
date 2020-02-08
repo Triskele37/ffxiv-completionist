@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const General_Logs_Hunting_Log_Pugilist = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const General_Logs_Hunting_Log_Pugilist = function(parent) {
+    return new DataGroup("Pugilist", parent).initializeTasks(tasks);
 };
 
 const tasks = [

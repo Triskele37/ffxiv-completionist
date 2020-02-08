@@ -4,8 +4,8 @@ import { Travel_Aether_Currents_HW } from "./hw";
 import { Travel_Aether_Currents_SB } from "./sb";
 import { Travel_Aether_Currents_ShB } from "./shb";
 
-export const Travel_Aether_Currents = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Travel_Aether_Currents = function(parent) {
+    const data = new DataGroup("Aether Currents", parent);
 
     data.columnConfig = [
         { header: "#", key: "name" },

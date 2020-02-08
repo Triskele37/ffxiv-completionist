@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Travel_Mount_Speed_The_Far_East = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Travel_Mount_Speed_The_Far_East = function(parent) {
+    return new DataGroup("The Far East", parent).initializeTasks(tasks);
 };
 
 const tasks = [

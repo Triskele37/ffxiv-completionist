@@ -13,8 +13,8 @@ import { Gathering_Log_Fishing_Log_Othard } from "./othard";
 import { Gathering_Log_Fishing_Log_Hingashi } from "./hingashi";
 import { Gathering_Log_Fishing_Log_Norvrandt } from "./norvrandt";
 
-export const Gathering_Log_Fishing_Log = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Gathering_Log_Fishing_Log = function(parent) {
+    const data = new DataGroup("Log", parent);
     data.columnConfig = FishingLogColumnConfig;
 
     data.initializeSubGroups([

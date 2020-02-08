@@ -1,7 +1,7 @@
 import { DataGroup } from "../DataGroup";
 
-export const Collectables_Mount_Guide = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks, [
+export const Collectables_Mount_Guide = function(parent) {
+    return new DataGroup("Mount Guide", parent).initializeTasks(tasks, [
         { header: "Mount", key: "name", },
         { header: "Unlock", key: "unlock" },
     ]);

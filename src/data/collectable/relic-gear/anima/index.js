@@ -9,8 +9,8 @@ import { Collectables_Relic_Gear_Anima_Sharpened } from "./sharpened";
 import { Collectables_Relic_Gear_Anima_Complete } from "./complete";
 import { Collectables_Relic_Gear_Anima_Lux } from "./lux";
 
-export const Collectables_Relic_Gear_Anima = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Collectables_Relic_Gear_Anima = function(parent) {
+    return new DataGroup("Anima", parent).initializeSubGroups([
         Collectables_Relic_Gear_Anima_Animated,
         Collectables_Relic_Gear_Anima_Awoken,
         Collectables_Relic_Gear_Anima_Anima,

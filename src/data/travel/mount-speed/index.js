@@ -9,8 +9,8 @@ import { Travel_Mount_Speed_The_Far_East } from "./the-far-east";
 import { Travel_Mount_Speed_Norvrandt } from "./norvrandt";
 import { Travel_Mount_Speed_Others } from "./others";
 
-export const Travel_Mount_Speed = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Travel_Mount_Speed = function(parent) {
+    const data = new DataGroup("Mount Speed", parent);
 
     data.columnConfig = [
         { header: "Area Name", key: "name" },

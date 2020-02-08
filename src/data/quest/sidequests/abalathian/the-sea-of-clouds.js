@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Abalathian_The_Sea_of_Clouds = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Abalathian_The_Sea_of_Clouds = function(parent) {
+    return new DataGroup("The Sea of Clouds", parent).initializeTasks(tasks);
 };
 
 const tasks = [

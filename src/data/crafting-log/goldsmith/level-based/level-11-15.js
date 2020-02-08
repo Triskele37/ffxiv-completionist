@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Log_Goldsmith_Level_Based_11_15 = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Crafting_Log_Goldsmith_Level_Based_11_15 = function(parent) {
+    return new DataGroup("11-15", parent).initializeTasks(tasks);
 };
 
 const tasks = [

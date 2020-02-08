@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Other_Seasonal_Moonfire_Faire = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Other_Seasonal_Moonfire_Faire = function(parent) {
+    return new DataGroup("Moonfire Faire", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -3,8 +3,8 @@ import { DataGroup } from "../../../DataGroup";
 import { Quests_Main_Scenario_Shadowbringers_Alphinaud } from "./alphinaud";
 import { Quests_Main_Scenario_Shadowbringers_Alisaie } from "./alisaie";
 
-export const Quests_Main_Scenario_Shadowbringers = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Main_Scenario_Shadowbringers = function(parent) {
+    return new DataGroup("Shadowbringers", parent).initializeSubGroups([
         Quests_Main_Scenario_Shadowbringers_Alphinaud,
         Quests_Main_Scenario_Shadowbringers_Alisaie,
     ]).initializeTasks(tasks);

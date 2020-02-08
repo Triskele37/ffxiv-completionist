@@ -18,8 +18,8 @@ import { Quests_Sidequests_Side_Story_Doman_Reconstruction } from "./doman-recon
 import { Quests_Sidequests_Side_Story_Tales_from_the_Shadows } from "./tales-from-the-shadows";
 import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main } from "./ishgardian-restoration-main";
 
-export const Quests_Sidequests_Side_Story = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Sidequests_Side_Story = function(parent) {
+    return new DataGroup("Side Story", parent).initializeSubGroups([
         Quests_Sidequests_Side_Story_Hildibrand,
         Quests_Sidequests_Side_Story_Further_Hildibrand_Adventures,
         Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures,

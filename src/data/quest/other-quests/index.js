@@ -5,8 +5,8 @@ import { Quests_Other_Grand_Company } from "./grand-company-quests";
 import { Quests_Other_Seasonal } from "./seasonal-quests";
 import { Quests_Other_Special } from "./special-quests";
 
-export const Quests_Other = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Other = function(parent) {
+    const data = new DataGroup("Other", parent);
     data.columnConfig = SimpleQuestColumnConfig;
 
     data.initializeSubGroups([

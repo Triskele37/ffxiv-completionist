@@ -4,8 +4,8 @@ import { Quests_Main_Scenario_Seventh_Umbral_Era_Gridania } from "./gridania";
 import { Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa } from "./limsa-lominsa";
 import { Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah } from "./ul-dah";
 
-export const Quests_Main_Scenario_Seventh_Umbral_Era = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Main_Scenario_Seventh_Umbral_Era = function(parent) {
+    return new DataGroup("Seventh Umbral Era", parent).initializeSubGroups([
         Quests_Main_Scenario_Seventh_Umbral_Era_Gridania,
         Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa,
         Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah,

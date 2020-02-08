@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Kholusia_Eulmore = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Kholusia_Eulmore = function(parent) {
+    return new DataGroup("Eulmore", parent).initializeTasks(tasks);
 };
 
 const tasks = [

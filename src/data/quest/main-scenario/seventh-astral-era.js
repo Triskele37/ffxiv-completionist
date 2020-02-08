@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Main_Scenario_Seventh_Astral_Era = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Main_Scenario_Seventh_Astral_Era = function(parent) {
+    const data = new DataGroup("Seventh Astral Era", parent).initializeTasks(tasks);
     data.columnConfig = parent.columnConfig.concat(
         { header: "Patch", key: "patch", filterable: true }
     );

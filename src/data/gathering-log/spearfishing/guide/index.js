@@ -9,8 +9,8 @@ import { Gathering_Log_Spearfishing_Guide_Page_5 } from "./page-5";
 import { Gathering_Log_Spearfishing_Guide_Page_6 } from "./page-6";
 import { Gathering_Log_Spearfishing_Guide_Page_7 } from "./page-7";
 
-export const Gathering_Log_Spearfishing_Guide = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Gathering_Log_Spearfishing_Guide = function(parent) {
+    const data = new DataGroup("Guide", parent);
     data.columnConfig = FishingGuideColumnConfig;
 
     data.initializeSubGroups([

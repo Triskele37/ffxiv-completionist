@@ -6,8 +6,8 @@ import { General_Logs_Sightseeing_Log_HW } from "./HW";
 import { General_Logs_Sightseeing_Log_SB } from "./SB";
 import { General_Logs_Sightseeing_Log_ShB } from "./ShB";
 
-export const General_Logs_Sightseeing_Log = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const General_Logs_Sightseeing_Log = function(parent) {
+    const data = new DataGroup("Sightseeing Log", parent);
     data.columnConfig = SightseeingLogColumnConfig;
 
     data.initializeSubGroups([

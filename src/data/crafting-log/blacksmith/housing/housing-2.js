@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Log_Blacksmith_Housing_Housing_2 = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Housing (2)";
-    return data;
+export const Crafting_Log_Blacksmith_Housing_Housing_2 = function(parent) {
+    return new DataGroup("Housing (2)", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Other_Seasonal_All_Saints_Wake = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "All Saints' Wake";
-    return data;
+export const Quests_Other_Seasonal_All_Saints_Wake = function(parent) {
+    return new DataGroup("All Saints' Wake", parent).initializeTasks(tasks);
 };
 
 const tasks = [

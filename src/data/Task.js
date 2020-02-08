@@ -1,4 +1,5 @@
 export class Task {
+    name;
     _parent;
 
     completionFlag = 'N';
@@ -31,6 +32,13 @@ export class Task {
     }
 
     get _storageKey() {
-        return `${this._parent._storageKey}.${this.name}`;
+        return this.name
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+    }
+
+    get _fullStorageKey() {
+        return `${this._parent._fullStorageKey}.${this._storageKey}`;
     }
 }

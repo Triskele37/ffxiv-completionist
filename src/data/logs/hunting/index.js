@@ -14,8 +14,8 @@ import { General_Logs_Hunting_Log_Maelstrom } from "./maelstrom";
 import { General_Logs_Hunting_Log_Order_of_the_Twin_Adder } from "./twin-adder";
 import { General_Logs_Hunting_Log_Immortal_Flames } from "./immortal-flames";
 
-export const General_Logs_Hunting_Log = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const General_Logs_Hunting_Log = function(parent) {
+    const data = new DataGroup("Hunting Log", parent);
     data.columnConfig = HuntingLogColumnConfig;
 
     data.initializeSubGroups([

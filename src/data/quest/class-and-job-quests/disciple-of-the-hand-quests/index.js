@@ -9,8 +9,8 @@ import { Quests_Class_and_Job_Disciple_of_the_Hand_Weaver } from "./weaver-quest
 import { Quests_Class_and_Job_Disciple_of_the_Hand_Alchemist } from "./alchemist-quests";
 import { Quests_Class_and_Job_Disciple_of_the_Hand_Culinarian } from "./culinarian-quests";
 
-export const Quests_Class_and_Job_Disciple_of_the_Hand = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Class_and_Job_Disciple_of_the_Hand = function(parent) {
+    return new DataGroup("Disciple of the Hand", parent).initializeSubGroups([
         Quests_Class_and_Job_Disciple_of_the_Hand_Carpenter,
         Quests_Class_and_Job_Disciple_of_the_Hand_Blacksmith,
         Quests_Class_and_Job_Disciple_of_the_Hand_Armorer,

@@ -24,11 +24,11 @@
                 const newFlag = this.task.completionFlag === 'N' ? 'Y' : 'N';
 
                 this.task.changeCompletionFlag(newFlag);
-                store.set(this.task._storageKey, newFlag);
+                store.set(this.task._fullStorageKey, newFlag);
             },
             onExcludeTaskClick: function() {
                 this.task.changeCompletionFlag('X');
-                store.set(this.task._storageKey, 'X');
+                store.set(this.task._fullStorageKey, 'X');
             }
         }
     };

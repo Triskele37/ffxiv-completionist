@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const General_Logs_Hunting_Log_Order_of_the_Twin_Adder = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const General_Logs_Hunting_Log_Order_of_the_Twin_Adder = function(parent) {
+    return new DataGroup("Order of the Twin Adder", parent).initializeTasks(tasks);
 };
 
 const tasks = [

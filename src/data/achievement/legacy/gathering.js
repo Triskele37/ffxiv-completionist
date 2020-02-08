@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Achievements_Legacy_Gathering = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Achievements_Legacy_Gathering = function(parent) {
+    return new DataGroup("Gathering", parent).initializeTasks(tasks);
 };
 
 const tasks = [

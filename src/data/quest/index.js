@@ -8,8 +8,8 @@ import { Quests_Class_and_Job } from "./class-and-job-quests";
 import { Quests_Other } from "./other-quests";
 import { Quests_Levequests } from "./levequests";
 
-export const Quests = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests = function(parent) {
+    const data = new DataGroup("Quests", parent);
 
     data.initializeSubGroups([
         Quests_Main_Scenario,

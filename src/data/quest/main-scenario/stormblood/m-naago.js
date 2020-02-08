@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Main_Scenario_Stormblood_M_Naago = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Main_Scenario_Stormblood_M_Naago = function(parent) {
+    return new DataGroup("M'Naago", parent).initializeTasks(tasks);
 };
 
 const tasks = [

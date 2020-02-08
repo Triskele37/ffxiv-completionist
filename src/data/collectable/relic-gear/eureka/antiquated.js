@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Collectables_Relic_Gear_Eureka_Antiquated = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Collectables_Relic_Gear_Eureka_Antiquated = function(parent) {
+    return new DataGroup("Antiquated", parent).initializeTasks(tasks);
 };
 
 const tasks = [

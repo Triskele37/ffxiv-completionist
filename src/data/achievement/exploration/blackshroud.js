@@ -2,8 +2,8 @@ import { DataGroup } from "../../DataGroup";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Black%20Shroud&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Exploration_The_Black_Shroud = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Achievements_Exploration_The_Black_Shroud = function(parent) {
+    return new DataGroup("The Black Shroud", parent).initializeTasks(tasks);
 };
 
 const tasks = [

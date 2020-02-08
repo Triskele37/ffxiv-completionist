@@ -6,8 +6,8 @@ import { Duty_The_Hunt_HW } from "./HW";
 import { Duty_The_Hunt_SB } from "./SB";
 import { Duty_The_Hunt_ShB } from "./ShB";
 
-export const Duty_The_Hunt = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_The_Hunt = function(parent) {
+    const data = new DataGroup("The Hunt", parent);
     data.columnConfig = HuntColumnConfig;
 
     data.initializeSubGroups([

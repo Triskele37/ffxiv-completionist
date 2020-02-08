@@ -8,8 +8,8 @@ import { Travel_Porter_Gyr_Abania } from "./gyr-abania";
 import { Travel_Porter_The_Far_East } from "./the-far-east";
 import { Travel_Porter_Norvrandt } from "./norvrandt";
 
-export const Travel_Porter = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Travel_Porter = function(parent) {
+    const data = new DataGroup("Porter", parent);
 
     data.columnConfig = [
         { header: "Type", key: "type", filterable: true },

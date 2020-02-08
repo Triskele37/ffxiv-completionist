@@ -17,8 +17,8 @@ import { Crafting_Log_Carpenter_Level_Based_66_70 } from "./level-66-70";
 import { Crafting_Log_Carpenter_Level_Based_71_75 } from "./level-71-75";
 import { Crafting_Log_Carpenter_Level_Based_76_80 } from "./level-76-80";
 
-export const Crafting_Log_Carpenter_Level_Based = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Crafting_Log_Carpenter_Level_Based = function(parent) {
+    return new DataGroup("Level Based", parent).initializeSubGroups([
         Crafting_Log_Carpenter_Level_Based_1_5,
         Crafting_Log_Carpenter_Level_Based_6_10,
         Crafting_Log_Carpenter_Level_Based_11_15,

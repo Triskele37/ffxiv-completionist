@@ -10,8 +10,8 @@ import { Quests_Other_Seasonal_Rising } from "./rising-events";
 import { Quests_Other_Seasonal_All_Saints_Wake } from "./all-saints-wake-events";
 import { Quests_Other_Seasonal_Starlight_Celebration } from "./starlight-celebration-events";
 
-export const Quests_Other_Seasonal = function(name, parent) {
-    const data = new DataGroup(name, parent)
+export const Quests_Other_Seasonal = function(parent) {
+    const data = new DataGroup("Seasonal", parent);
     data.defaultCompletion = "X";
 
     data.initializeSubGroups([

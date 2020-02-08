@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Ul_Dahn_The_Waking_Sands = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Ul_Dahn_The_Waking_Sands = function(parent) {
+    return new DataGroup("The Waking Sands", parent).initializeTasks(tasks);
 };
 
 const tasks = [

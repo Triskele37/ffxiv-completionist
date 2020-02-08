@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Class_and_Job_Crystalline_Mean = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Class_and_Job_Crystalline_Mean = function(parent) {
+    const data = new DataGroup("Crystalline Mean", parent).initializeTasks(tasks);
     data.columnConfig = [
         { header: "Facet", key: "facet", filterable: true },
         { header: "Level", key: "level" },

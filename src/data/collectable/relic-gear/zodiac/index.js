@@ -10,8 +10,8 @@ import { Collectables_Relic_Gear_Zodiac_Nexus } from "./nexus";
 import { Collectables_Relic_Gear_Zodiac_Zodiac_Braves } from "./zodiac-braves";
 import { Collectables_Relic_Gear_Zodiac_Zodiac_Zeta } from "./zodiac-zeta";
 
-export const Collectables_Relic_Gear_Zodiac = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Collectables_Relic_Gear_Zodiac = function(parent) {
+    return new DataGroup("Zodiac", parent).initializeSubGroups([
         Collectables_Relic_Gear_Zodiac_Relic,
         Collectables_Relic_Gear_Zodiac_Zenith,
         Collectables_Relic_Gear_Zodiac_Atma,

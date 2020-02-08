@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const FATEs_Dravania_The_Dravanian_Hinterlands = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const FATEs_Dravania_The_Dravanian_Hinterlands = function(parent) {
+    return new DataGroup("The Dravanian Hinterlands", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -13,8 +13,8 @@ import { Quests_Chronicles_of_a_New_Era_The_Four_Lords } from "./the-four-lords"
 import { Quests_Chronicles_of_a_New_Era_Eden } from "./eden";
 import { Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse } from "./yorha-dark-apocalypse"
 
-export const Quests_Chronicles_of_a_New_Era = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Chronicles_of_a_New_Era = function(parent) {
+    const data = new DataGroup("Chronicles of a New Era", parent);
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

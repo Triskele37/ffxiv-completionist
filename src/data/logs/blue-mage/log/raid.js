@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const General_Logs_Blue_Mage_Log_Raids = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const General_Logs_Blue_Mage_Log_Raids = function(parent) {
+    return new DataGroup("Raids", parent).initializeTasks(tasks);
 };
 
 const tasks = [

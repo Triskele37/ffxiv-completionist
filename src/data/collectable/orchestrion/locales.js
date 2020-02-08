@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Collectables_Orchestrion_List_Locales = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Collectables_Orchestrion_List_Locales = function(parent) {
+    return new DataGroup("Locales", parent).initializeTasks(tasks);
 };
 
 const tasks = [

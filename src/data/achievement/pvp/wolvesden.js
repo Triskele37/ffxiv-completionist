@@ -2,10 +2,8 @@ import { DataGroup } from "../../DataGroup";
 
 // https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=The%20Wolves%27%20Den&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_PvP_The_Wolves_Den = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "The Wolves' Den";
-    return data;
+export const Achievements_PvP_The_Wolves_Den = function(parent) {
+    return new DataGroup("The Wolves' Den", parent).initializeTasks(tasks);
 };
 
 const tasks = [

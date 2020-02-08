@@ -16,8 +16,8 @@ import { FATEs_Norvrandt } from "./norvrandt";
 
 /* https://xivapi.com/Fate */
 
-export const FATEs = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const FATEs = function(parent) {
+    const data = new DataGroup("FATEs", parent);
     data.columnConfig = FATEColumnConfig;
 
 	data.initializeSubGroups([

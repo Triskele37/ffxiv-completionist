@@ -1,8 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=15&columns=ID,Name&limit=7
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Chronicles_of_a_New_Era_The_Shadow_of_Mhach = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Chronicles_of_a_New_Era_The_Shadow_of_Mhach = function(parent) {
+    return new DataGroup("The Shadow of Mhach", parent).initializeTasks(tasks);
 };
 
 const tasks = [

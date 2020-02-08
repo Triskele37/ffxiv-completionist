@@ -17,8 +17,8 @@ import { Gathering_Log_Quarrying_Level_66_70 } from "./level-66-70";
 import { Gathering_Log_Quarrying_Level_71_75 } from "./level-71-75";
 import { Gathering_Log_Quarrying_Level_76_80 } from "./level-76-80";
 
-export const Gathering_Log_Quarrying_Level = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Gathering_Log_Quarrying_Level = function(parent) {
+    return new DataGroup("Level", parent).initializeSubGroups([
         Gathering_Log_Quarrying_Level_1_5,
         Gathering_Log_Quarrying_Level_6_10,
         Gathering_Log_Quarrying_Level_11_15,

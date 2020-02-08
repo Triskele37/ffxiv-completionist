@@ -13,8 +13,8 @@ import { Quests_Levequests_Clothcrafting } from "./tradecraft/clothcrafting-leve
 import { Quests_Levequests_Alchemy } from "./tradecraft/alchemy-leves";
 import { Quests_Levequests_Cooking } from "./tradecraft/cooking-leves";
 
-export const Quests_Levequests = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Levequests = function(parent) {
+    const data = new DataGroup("Levequests", parent);
 
     data.columnConfig = [
         { header: "Level", key: "level", centered: true },

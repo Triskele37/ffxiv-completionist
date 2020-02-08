@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Travel_Aether_Currents_HW_Coerthas_Western_Highlands = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Travel_Aether_Currents_HW_Coerthas_Western_Highlands = function(parent) {
+    return new DataGroup("Coerthas Western Highlands", parent).initializeTasks(tasks);
 };
 
 const tasks = [

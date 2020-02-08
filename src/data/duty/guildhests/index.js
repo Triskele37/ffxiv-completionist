@@ -16,8 +16,8 @@ import { Duty_Guildhests_Rogue } from './rogue';
 import { Duty_Guildhests_Samurai } from './samurai';
 import { Duty_Guildhests_Thaumaturge } from './thaumaturge';
 
-export const Duty_Guildhests = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_Guildhests = function(parent) {
+    const data = new DataGroup("Guildhests", parent);
     data.columnConfig = DutyColumnConfig;
 
     data.initializeSubGroups([

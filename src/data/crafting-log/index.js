@@ -11,8 +11,8 @@ import { Crafting_Log_Alchemist } from "./alchemist";
 import { Crafting_Log_Culinarian } from "./culinarian";
 import { Crafting_Log_Shared } from "./shared";
 
-export const Crafting_Log = function(name, parent) {
-    const data = new DataGroup(name, parent)
+export const Crafting_Log = function(parent) {
+    const data = new DataGroup("Crafting Log", parent);
     data.columnConfig = CraftingLogColumnConfig;
 
     data.initializeSubGroups([

@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Side_Story_Stormblood_Beast_Tribe = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Side_Story_Stormblood_Beast_Tribe = function(parent) {
+    return new DataGroup("Stormblood Beast Tribe", parent).initializeTasks(tasks);
 };
 
 const tasks = [

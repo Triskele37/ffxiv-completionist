@@ -37,8 +37,8 @@ import { Gathering_Log_Fishing_Guide_Page_33 } from "./page-33";
 import { Gathering_Log_Fishing_Guide_Page_34 } from "./page-34";
 import { Gathering_Log_Fishing_Guide_Page_35 } from "./page-35";
 
-export const Gathering_Log_Fishing_Guide = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Gathering_Log_Fishing_Guide = function(parent) {
+    const data = new DataGroup("Guide", parent);
     data.columnConfig = FishingGuideColumnConfig;
 
     data.initializeSubGroups([

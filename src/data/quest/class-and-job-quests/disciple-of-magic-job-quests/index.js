@@ -8,8 +8,8 @@ import { Quests_Class_and_Job_Disciple_of_Magic_Job_Astrologian } from "./astrol
 import { Quests_Class_and_Job_Disciple_of_Magic_Job_Red_Mage } from "./red-mage-quests";
 import { Quests_Class_and_Job_Disciple_of_Magic_Job_Blue_Mage } from "./blue-mage-quests";
 
-export const Quests_Class_and_Job_Disciple_of_Magic_Job = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Class_and_Job_Disciple_of_Magic_Job = function(parent) {
+    return new DataGroup("Disciple of Magic Job", parent).initializeSubGroups([
         Quests_Class_and_Job_Disciple_of_Magic_Job_White_Mage,
         Quests_Class_and_Job_Disciple_of_Magic_Job_Black_Mage,
         Quests_Class_and_Job_Disciple_of_Magic_Job_Summoner,

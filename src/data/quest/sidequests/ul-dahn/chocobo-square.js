@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Ul_Dahn_Chocobo_Square = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Ul_Dahn_Chocobo_Square = function(parent) {
+    return new DataGroup("Chocobo Square", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const FATEs_Coerthas_Central_Highlands = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const FATEs_Coerthas_Central_Highlands = function(parent) {
+    return new DataGroup("Central Highlands", parent).initializeTasks(tasks);
 };
 
 const tasks = [

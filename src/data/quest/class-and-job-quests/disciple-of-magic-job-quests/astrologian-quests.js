@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Class_and_Job_Disciple_of_Magic_Job_Astrologian = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Class_and_Job_Disciple_of_Magic_Job_Astrologian = function(parent) {
+    return new DataGroup("Astrologian", parent).initializeTasks(tasks);
 };
 
 const tasks = [

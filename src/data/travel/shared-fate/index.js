@@ -7,8 +7,8 @@ import { Travel_Shared_FATE_Kholusia } from "./kholusia";
 import { Travel_Shared_FATE_The_Rak_Tika_Greatwood } from "./the-rak-tika-greatwood";
 import { Travel_Shared_FATE_The_Tempest } from "./the-tempest";
 
-export const Travel_Shared_FATE = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Travel_Shared_FATE = function(parent) {
+    const data = new DataGroup("Shared FATE", parent);
 
     data.columnConfig = [
         { header: "Rank", key: "name" },

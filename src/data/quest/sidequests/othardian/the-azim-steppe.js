@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Othardian_The_Azim_Steppe = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Othardian_The_Azim_Steppe = function(parent) {
+    return new DataGroup("The Azim Steppe", parent).initializeTasks(tasks);
 };
 
 const tasks = [

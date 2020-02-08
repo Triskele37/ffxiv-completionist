@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const FATEs_Othard_The_Ruby_Sea = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const FATEs_Othard_The_Ruby_Sea = function(parent) {
+    return new DataGroup("The Ruby Sea", parent).initializeTasks(tasks);
 };
 
 const tasks = [

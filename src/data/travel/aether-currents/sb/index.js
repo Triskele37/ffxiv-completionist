@@ -7,8 +7,8 @@ import { Travel_Aether_Currents_SB_The_Ruby_Sea } from "./the-ruby-sea";
 import { Travel_Aether_Currents_SB_Yanxia } from "./yanxia";
 import { Travel_Aether_Currents_SB_The_Azim_Steppe } from "./the-azim-steppe";
 
-export const Travel_Aether_Currents_SB = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Travel_Aether_Currents_SB = function(parent) {
+    return new DataGroup("SB", parent).initializeSubGroups([
         Travel_Aether_Currents_SB_The_Fringes,
         Travel_Aether_Currents_SB_The_Peaks,
         Travel_Aether_Currents_SB_The_Lochs,

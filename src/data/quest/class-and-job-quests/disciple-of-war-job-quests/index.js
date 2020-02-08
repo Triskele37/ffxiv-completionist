@@ -12,8 +12,8 @@ import { Quests_Class_and_Job_Disciple_of_War_Job_Samurai } from "./samurai-ques
 import { Quests_Class_and_Job_Disciple_of_War_Job_Gunbreaker } from "./gunbreaker-quests";
 import { Quests_Class_and_Job_Disciple_of_War_Job_Dancer } from "./dancer-quests";
 
-export const Quests_Class_and_Job_Disciple_of_War_Job = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Quests_Class_and_Job_Disciple_of_War_Job = function(parent) {
+    return new DataGroup("Disciple of War Job", parent).initializeSubGroups([
         Quests_Class_and_Job_Disciple_of_War_Job_Paladin,
         Quests_Class_and_Job_Disciple_of_War_Job_Monk,
         Quests_Class_and_Job_Disciple_of_War_Job_Warrior,

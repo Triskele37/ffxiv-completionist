@@ -7,8 +7,8 @@ import { Crafting_Log_Leatherworker_Others } from "./others";
 import { Crafting_Log_Leatherworker_Story } from "./story";
 import { Crafting_Log_Leatherworker_Ishgard_Restoration } from "./ishgard-restoration";
 
-export const Crafting_Log_Leatherworker = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Crafting_Log_Leatherworker = function(parent) {
+    return new DataGroup("Leatherworker", parent).initializeSubGroups([
         Crafting_Log_Leatherworker_Level_Based,
         Crafting_Log_Leatherworker_Master_Recipes,
         Crafting_Log_Leatherworker_Housing,

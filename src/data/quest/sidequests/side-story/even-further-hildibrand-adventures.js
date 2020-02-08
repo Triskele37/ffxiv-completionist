@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures = function(parent) {
+    return new DataGroup("Even Further Hildibrand Adventures", parent).initializeTasks(tasks);
 };
 
 const tasks = [

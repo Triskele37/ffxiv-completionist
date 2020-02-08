@@ -5,8 +5,8 @@ import { Gathering_Log_Quarrying_Special_Dravanian_Folklore } from "./dravanian-
 import { Gathering_Log_Quarrying_Special_Abalathian_Folklore } from "./abalathian-folklore";
 import { Gathering_Log_Quarrying_Special_Ishgard_Restoration } from "./ishgard-restoration";
 
-export const Gathering_Log_Quarrying_Special = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Gathering_Log_Quarrying_Special = function(parent) {
+    return new DataGroup("Special", parent).initializeSubGroups([
         Gathering_Log_Quarrying_Special_Coerthan_Folklore,
         Gathering_Log_Quarrying_Special_Dravanian_Folklore,
         Gathering_Log_Quarrying_Special_Abalathian_Folklore,

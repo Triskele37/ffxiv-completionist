@@ -10,10 +10,9 @@ import { Quests_Class_and_Job_Disciple_of_War_Job } from "./disciple-of-war-job-
 import { Quests_Class_and_Job_Disciple_of_Magic_Job } from "./disciple-of-magic-job-quests";
 import { Quests_Class_and_Job_Role } from "./role-quests";
 
-export const Quests_Class_and_Job = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Class_and_Job = function(parent) {
+    const data = new DataGroup("Class & Job", parent);
     data.columnConfig = QuestColumnConfig;
-    data.name = "Class & Job";
 
     data.initializeSubGroups([
         Quests_Class_and_Job_Disciple_of_War,

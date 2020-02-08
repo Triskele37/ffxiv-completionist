@@ -8,8 +8,8 @@ import { Gathering_Log_Mining_Special_Othardian_Folklore } from "./othardian-fol
 import { Gathering_Log_Mining_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
 import { Gathering_Log_Mining_Special_Ishgard_Restoration } from "./ishgard-restoration";
 
-export const Gathering_Log_Mining_Special = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Gathering_Log_Mining_Special = function(parent) {
+    return new DataGroup("Special", parent).initializeSubGroups([
         Gathering_Log_Mining_Special_Coerthan_Folklore,
         Gathering_Log_Mining_Special_Dravanian_Folklore,
         Gathering_Log_Mining_Special_Abalathian_Folklore,

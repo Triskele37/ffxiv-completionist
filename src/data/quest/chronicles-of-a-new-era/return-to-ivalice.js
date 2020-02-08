@@ -1,8 +1,8 @@
 // https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=17&columns=ID,Name&limit=12
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Chronicles_of_a_New_Era_Return_to_Ivalice = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Chronicles_of_a_New_Era_Return_to_Ivalice = function(parent) {
+    return new DataGroup("Return to Ivalice", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -10,9 +10,8 @@ import { Quests_Sidequests_Ul_Dahn_Eastern_Thanalan } from "./eastern-thanalan";
 import { Quests_Sidequests_Ul_Dahn_Southern_Thanalan } from "./southern-thanalan";
 import { Quests_Sidequests_Ul_Dahn_Northern_Thanalan } from "./northern-thanalan";
 
-export const Quests_Sidequests_Ul_Dahn = function(name, parent) {
-    const data = new DataGroup(name, parent);
-    data.name = "Ul'Dahn";
+export const Quests_Sidequests_Ul_Dahn = function(parent) {
+    const data = new DataGroup("Ul'Dahn", parent);
 
     data.initializeSubGroups([
         Quests_Sidequests_Ul_Dahn_Ul_Dah,

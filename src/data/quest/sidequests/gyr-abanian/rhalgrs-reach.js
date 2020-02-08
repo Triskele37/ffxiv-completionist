@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Gyr_Abanian_Rhalgrs_Reach = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Rhalgr's Reach";
-    return data;
+export const Quests_Sidequests_Gyr_Abanian_Rhalgrs_Reach = function(parent) {
+    return new DataGroup("Rhalgr's Reach", parent).initializeTasks(tasks);
 };
 
 const tasks = [

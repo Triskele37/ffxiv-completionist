@@ -5,8 +5,8 @@ import { FATEs_The_Black_Shroud_East_Shroud } from "./east-shroud";
 import { FATEs_The_Black_Shroud_North_Shroud } from "./north-shroud";
 import { FATEs_The_Black_Shroud_South_Shroud } from "./south-shroud";
 
-export const FATEs_The_Black_Shroud = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const FATEs_The_Black_Shroud = function(parent) {
+    return new DataGroup("The Black Shroud", parent).initializeSubGroups([
         FATEs_The_Black_Shroud_Central_Shroud,
         FATEs_The_Black_Shroud_East_Shroud,
         FATEs_The_Black_Shroud_North_Shroud,

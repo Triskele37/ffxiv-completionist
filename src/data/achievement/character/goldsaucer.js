@@ -2,8 +2,8 @@ import { DataGroup } from "../../DataGroup";
 
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=2&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Character_Gold_Saucer = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Achievements_Character_Gold_Saucer = function(parent) {
+    return new DataGroup("Gold Saucer", parent).initializeTasks(tasks);
 };
 
 const tasks = [

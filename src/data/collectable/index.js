@@ -10,8 +10,8 @@ import { Collectables_Triple_Triad_Card_List } from "./tripletriad-card";
 import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
 import { Collectables_Relic_Gear } from "./relic-gear";
 
-export const Collectables = function(name, parent) {
-	return new DataGroup(name, parent).initializeSubGroups([
+export const Collectables = function(parent) {
+	return new DataGroup("Collectables", parent).initializeSubGroups([
         Collectables_Aesthetician,
         Collectables_Barding,
         Collectables_Emotes,

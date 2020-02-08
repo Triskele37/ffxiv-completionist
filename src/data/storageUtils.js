@@ -10,19 +10,16 @@ export function applyStoreToData(data) {
 function diveForLoad(currentGroup, currentStoreLayer) {
     if(currentGroup.subGroups) {
         currentGroup.subGroups.forEach((subGroup) => {
-            const last = subGroup._storageKey.split('.').pop();
-            if(currentStoreLayer[last]) {
-                diveForLoad(subGroup, currentStoreLayer[last]);
+            if(currentStoreLayer[subGroup._storageKey]) {
+                diveForLoad(subGroup, currentStoreLayer[subGroup._storageKey]);
             }
         });
     }
 
     if(currentGroup.tasks) {
-        const last = currentGroup._storageKey.split('.').pop();
-
         currentGroup.tasks.forEach((task) => {
-            if(currentStoreLayer[task.name]) {
-                task.changeCompletionFlag(currentStoreLayer[task.name]);
+            if(currentStoreLayer[task._storageKey]) {
+                task.changeCompletionFlag(currentStoreLayer[task._storageKey]);
             }
         });
     }
@@ -39,16 +36,13 @@ function diveForSave(currentGroup) {
 
     if(currentGroup.subGroups) {
         currentGroup.subGroups.forEach((subGroup) => {
-            const last = subGroup._storageKey.split('.').pop();
-            currentLevel[last] = diveForSave(subGroup);
+            currentLevel[subGroup._storageKey] = diveForSave(subGroup);
         });
     }
 
     if(currentGroup.tasks) {
-        const last = currentGroup._storageKey.split('.').pop();
-
         currentGroup.tasks.forEach((task) => {
-            currentLevel[task.name] = task.completionFlag;
+            currentLevel[task._storageKey] = task.completionFlag;
         });
     }
 

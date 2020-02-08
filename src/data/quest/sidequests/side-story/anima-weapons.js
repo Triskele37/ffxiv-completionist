@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Side_Story_Anima_Weapons = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Side_Story_Anima_Weapons = function(parent) {
+    return new DataGroup("Anima Weapons", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Main_Scenario_Shadowbringers_Alisaie = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Main_Scenario_Shadowbringers_Alisaie = function(parent) {
+    return new DataGroup("Alisaie", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Collectables_Relic_Gear_Anima_Sharpened = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Collectables_Relic_Gear_Anima_Sharpened = function(parent) {
+    return new DataGroup("Sharpened", parent).initializeTasks(tasks);
 };
 
 const tasks = [

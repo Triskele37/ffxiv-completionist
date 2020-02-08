@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Crafting_Log_Shared_Beast_Tribe_Quests_Namazu = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Crafting_Log_Shared_Beast_Tribe_Quests_Namazu = function(parent) {
+    return new DataGroup("Namazu", parent).initializeTasks(tasks);
 };
 
 const tasks = [

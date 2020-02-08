@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Dravanian_Matoyas_Cave = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Matoya's Cave";
-    return data;
+export const Quests_Sidequests_Dravanian_Matoyas_Cave = function(parent) {
+    return new DataGroup("Matoya's Cave", parent).initializeTasks(tasks);
 };
 
 const tasks = [

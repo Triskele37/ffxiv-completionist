@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Gyr_Abanian_The_Fringes = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Gyr_Abanian_The_Fringes = function(parent) {
+    return new DataGroup("The Fringes", parent).initializeTasks(tasks);
 };
 
 const tasks = [

@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Lominsan_Lower_La_Noscea = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Sidequests_Lominsan_Lower_La_Noscea = function(parent) {
+    return new DataGroup("Lower La Noscea", parent).initializeTasks(tasks);
 };
 
 const tasks = [

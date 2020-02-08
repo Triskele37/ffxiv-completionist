@@ -21,8 +21,8 @@ import { Quests_Sidequests_Il_Mheg } from './il-mheg';
 import { Quests_Sidequests_Rak_Tika } from './rak-tika';
 import { Quests_Sidequests_Tempest } from './tempest';
 
-export const Quests_Sidequests = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Quests_Sidequests = function(parent) {
+    const data = new DataGroup("Sidequests", parent);
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

@@ -6,8 +6,8 @@ import { FATEs_Thanalan_Northern } from "./northern-thanalan";
 import { FATEs_Thanalan_Southern } from "./southern-thanalan";
 import { FATEs_Thanalan_Western } from "./western-thanalan";
 
-export const FATEs_Thanalan = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const FATEs_Thanalan = function(parent) {
+    return new DataGroup("Thanalan", parent).initializeSubGroups([
         FATEs_Thanalan_Central,
         FATEs_Thanalan_Eastern,
         FATEs_Thanalan_Northern,

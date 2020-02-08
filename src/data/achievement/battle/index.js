@@ -9,8 +9,8 @@ import { Achievements_Battle_Treasure_Hunt } from "./treasurehunt";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 
-export const Achievements_Battle = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Achievements_Battle = function(parent) {
+    return new DataGroup("Battle", parent).initializeSubGroups([
         Achievements_Battle_Battle,
         Achievements_Battle_Dungeons,
         Achievements_Battle_Trials,

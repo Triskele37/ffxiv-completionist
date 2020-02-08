@@ -1,7 +1,7 @@
 import { DataGroup } from "../DataGroup";
 
-export const Collectables_Triple_Triad_Opponents = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks, [
+export const Collectables_Triple_Triad_Opponents = function(parent) {
+    return new DataGroup("Triple Triad Opponents", parent).initializeTasks(tasks, [
         {
             header: "Deck Strength",
             key: "deckStrength",

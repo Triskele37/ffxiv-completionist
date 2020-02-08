@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Other_Seasonal_Valentiones_Day = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Valentione's Day";
-    return data;
+export const Quests_Other_Seasonal_Valentiones_Day = function(parent) {
+    return new DataGroup("Valentione's Day", parent).initializeTasks(tasks);
 };
 
 const tasks = [

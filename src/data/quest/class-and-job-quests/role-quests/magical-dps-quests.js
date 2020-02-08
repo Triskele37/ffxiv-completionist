@@ -1,7 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Class_and_Job_Role_Magical_DPS = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Class_and_Job_Role_Magical_DPS = function(parent) {
+    return new DataGroup("Magical DPS", parent).initializeTasks(tasks);
 };
 
 const tasks = [

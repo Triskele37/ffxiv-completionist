@@ -1,9 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
 
-export const Quests_Sidequests_Lominsan_Wolves_Den_Pier = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Wolves' Den Pier";
-    return data;
+export const Quests_Sidequests_Lominsan_Wolves_Den_Pier = function(parent) {
+    return new DataGroup("Wolves' Den Pier", parent).initializeTasks(tasks);
 };
 
 const tasks = [

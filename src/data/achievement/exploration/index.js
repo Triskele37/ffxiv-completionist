@@ -15,8 +15,8 @@ import { Achievements_Exploration_Duty } from "./duty";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Exploration&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Exploration = function(name, parent) {
-    return new DataGroup(name, parent).initializeSubGroups([
+export const Achievements_Exploration = function(parent) {
+    return new DataGroup("Exploration", parent).initializeSubGroups([
         Achievements_Exploration_Sightseeing_Log,
         Achievements_Exploration_La_Noscea,
         Achievements_Exploration_The_Black_Shroud,

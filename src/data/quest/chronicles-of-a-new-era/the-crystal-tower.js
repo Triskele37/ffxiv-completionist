@@ -5,8 +5,8 @@ api contains 2 "Legacy of Allag"s?
 */
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Chronicles_of_a_New_Era_The_Crystal_Tower = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Chronicles_of_a_New_Era_The_Crystal_Tower = function(parent) {
+    return new DataGroup("The Crystal Tower", parent).initializeTasks(tasks);
 };
 
 const tasks = [

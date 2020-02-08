@@ -6,8 +6,8 @@ import { Duty_Raids_HW } from "./HW";
 import { Duty_Raids_SB } from "./SB";
 import { Duty_Raids_ShB } from "./ShB";
 
-export const Duty_Raids = function(name, parent) {
-    const data = new DataGroup(name, parent);
+export const Duty_Raids = function(parent) {
+    const data = new DataGroup("Raids", parent);
     data.columnConfig = DutyColumnConfig;
 
     data.initializeSubGroups([

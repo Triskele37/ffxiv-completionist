@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Duty_Guildhests_Pugilist = function(name, parent) {
-    return new DataGroup(name, parent).initializeTasks(tasks);
+export const Duty_Guildhests_Pugilist = function(parent) {
+    return new DataGroup("Pugilist", parent).initializeTasks(tasks);
 };
 
 const tasks = [

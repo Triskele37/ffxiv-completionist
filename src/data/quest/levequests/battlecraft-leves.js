@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Levequests_Battlecraft = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
+export const Quests_Levequests_Battlecraft = function(parent) {
+    const data = new DataGroup("Battlecraft", parent).initializeTasks(tasks);
     data.columnConfig = parent.columnConfig.concat(
         { header: "Company", key: "company" }
     );

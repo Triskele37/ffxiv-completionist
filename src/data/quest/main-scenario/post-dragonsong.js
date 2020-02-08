@@ -1,9 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
-export const Quests_Main_Scenario_Post_Dragonsong = function(name, parent) {
-    const data = new DataGroup(name, parent).initializeTasks(tasks);
-    data.name = "Post-Dragonsong";
-
+export const Quests_Main_Scenario_Post_Dragonsong = function(parent) {
+    const data = new DataGroup("Post-Dragonsong", parent).initializeTasks(tasks);
     data.columnConfig = parent.columnConfig.concat(
         { header: "Patch", key: "patch", filterable: true }
     );

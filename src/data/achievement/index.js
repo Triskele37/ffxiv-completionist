@@ -12,8 +12,8 @@ import { Achievements_Exploration } from "./exploration";
 import { Achievements_Grand_Company } from "./grandcompany";
 import { Achievements_Legacy } from "./legacy";
 
-export const Achievements = function(name, parent) {
-	const data = new DataGroup(name, parent);
+export const Achievements = function(parent) {
+	const data = new DataGroup("Achievements", parent);
 	data.columnConfig = AchievementColumnConfig;
 
 	data.initializeSubGroups([
