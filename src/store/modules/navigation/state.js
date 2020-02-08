@@ -11,8 +11,8 @@ let loadDefaults = !initialBreadcrumbs;
 
 function diveForGroup(group, targetName) {
     let ret;
-    group.groupKeys.forEach((groupKey) => {
-        if(group[groupKey].name === targetName) ret = group[groupKey]
+    group.subGroups.forEach((subGroups) => {
+        if(subGroups.name === targetName) ret = subGroups;
     });
     return ret;
 }

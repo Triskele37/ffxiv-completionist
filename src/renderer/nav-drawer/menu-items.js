@@ -7,30 +7,30 @@ import { versionHistory } from '../../version-history';
 export const MainMenu = {
     name: "FFXIV Completionist",
     disableSelection: true,
-    groupKeys: ["Import", "VersionHistory", "Debug"],
+    subGroups: [
+        { name: "Import", component: "import-sheet" },
+        versionHistory,
+        {
+            name: "Debug",
+            disableSelection: true,
+            subGroups: [
+                { name: "Log Store", onNavigation: () => console.log(store) },
+                {
+                    name: "Nuke Store",
+                    onNavigation: () => {
+                        const buttons = ['Yes', 'No'];
 
-    Import: { name: "Import", component: "import-sheet", },
-    VersionHistory: versionHistory,
-    Debug: {
-        name: "Debug",
-        disableSelection: true,
-        groupKeys: ["Log", "Nuke"],
+                        const answer = remote.dialog.showMessageBox({
+                            type: 'question',
+                            buttons,
+                            message: 'Are you sure you want to delete all of your saved data???' +
+                                '\n(This cannot be undone)',
+                        });
 
-        Log: { name: "Log Store", onNavigation: () => console.log(store) },
-        Nuke: {
-            name: "Nuke Store",
-            onNavigation: () => {
-                const buttons = ['Yes', 'No'];
-
-                const answer = remote.dialog.showMessageBox({
-                    type: 'question',
-                    buttons,
-                    message: 'Are you sure you want to delete all of your saved data???' +
-                        '\n(This cannot be undone)',
-                });
-
-                if(buttons[answer] === 'Yes') store.clear();
-            }
-        }
-    },
+                        if(buttons[answer] === 'Yes') store.clear();
+                    }
+                },
+            ],
+        },
+    ],
 };

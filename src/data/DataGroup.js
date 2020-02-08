@@ -11,7 +11,7 @@ export class DataGroup {
     _name; // The dot accessible name
     _storageKey; // The full storage key of the group
 
-    groupKeys;  // Keys to sub groups of this group
+    subGroups;  // Child groups of this group
 
     columnConfig;
     defaultCompletion = 'N';
@@ -44,13 +44,12 @@ export class DataGroup {
     }
 
     initializeSubGroups(subGroups) {
-        if(!this.groupKeys) this.groupKeys = [];
+        if(!this.subGroups) this.subGroups = [];
 
         for(let i = 0; i < subGroups.length; i++) {
             const subGroup = subGroups[i](subGroups[i].name, this);
 
-            this[subGroup._name] = subGroup;
-            this.groupKeys.push(subGroup._name);
+            this.subGroups.push(subGroup);
         }
 
         return this;
@@ -77,7 +76,7 @@ export class DataGroup {
         if(this._parent) this._parent.initializeTasksFromSubGroup(subGroupTotal);
     }
 
-    //------------------------------------------------------------------
+    //------------------------------------------------------------------ Task Update
     updateExcluded(mod) {
         this.totalExcluded += mod;
         if(this._parent) this._parent.updateExcluded(mod);
@@ -91,6 +90,15 @@ export class DataGroup {
     updateTotal(mod) {
         this.total += mod;
         if(this._parent) this._parent.updateTotal(mod);
+    }
+
+    //------------------------------------------------------------------ SubGroup Getter
+    sg(subGroupName) {
+        if(!this.subGroups) return null;
+        for(let i = 0; i < this.subGroups.length; i++) {
+            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
+        }
+        return null;
     }
 
     //------------------------------------------------------------------ Getters

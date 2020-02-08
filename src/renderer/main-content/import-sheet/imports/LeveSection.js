@@ -1,21 +1,23 @@
 import { data } from '../../../../data';
 import { importCallback } from './utils';
 
+const levequests = data.sg('Quests').sg('Levequests');
+
 export const LeveSection = {
     name: "Leves",
     tabs: [
         {
             title: "BattlecraftGC Leves",
-            importCallback: importCallback(1, [data.Quests.Levequests.Battlecraft], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [levequests.sg('Battlecraft')], (isMatch, task, columns) => {
                 return isMatch || (task.name === columns[1] + ' (L)');
             }),
         },
         {
             title: "Fieldcraft Leves",
             importCallback: importCallback(2, [
-                data.Quests.Levequests.Botany,
-                data.Quests.Levequests.Fishing,
-                data.Quests.Levequests.Mining,
+                levequests.sg('Botany'),
+                levequests.sg('Fishing'),
+                levequests.sg('Mining'),
             ], (isMatch, task, columns) => {
                 return isMatch || (task.name === columns[2] + ' (L)');
             }),
@@ -23,14 +25,14 @@ export const LeveSection = {
         {
             title: "Tradecraft Leves",
             importCallback: importCallback(1, [
-                data.Quests.Levequests.Alchemy,
-                data.Quests.Levequests.Armoring,
-                data.Quests.Levequests.Blacksmithing,
-                data.Quests.Levequests.Carpentry,
-                data.Quests.Levequests.Cooking,
-                data.Quests.Levequests.Goldsmithing,
-                data.Quests.Levequests.Leatherworking,
-                data.Quests.Levequests.Clothcrafting,
+                levequests.sg('Alchemy'),
+                levequests.sg('Armoring'),
+                levequests.sg('Blacksmithing'),
+                levequests.sg('Carpentry'),
+                levequests.sg('Cooking'),
+                levequests.sg('Goldsmithing'),
+                levequests.sg('Leatherworking'),
+                levequests.sg('Clothcrafting'),
             ], (isMatch, task, columns) => {
                 return (task.level === columns[2]) && (isMatch || (task.name === columns[1] + ' (L)'));
             }),

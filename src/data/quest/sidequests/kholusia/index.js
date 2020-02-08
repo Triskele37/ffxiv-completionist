@@ -8,20 +8,6 @@ export const Quests_Sidequests_Kholusia = function(name, parent) {
     ]).initializeTasks(tasks);
 };
 
-export const Quest_Sidequests_Kholusia = function(parentStorageKey) {
-    const storageKey = `${parentStorageKey}.kholusia`;
-
-    return {
-        name: "Kholusia",
-        storageKey,
-        groupKeys: [
-            "Eulmore",
-        ],
-        // Groups
-        Eulmore: Quest_Sidequests_Kholusia_Eulmore(storageKey),
-    };
-};
-
 const tasks = [
     {
         level: "70",

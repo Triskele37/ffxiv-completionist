@@ -1,6 +1,8 @@
 import { data } from '../../../../data';
 import { importCallback, SheetImport, searchGroupForImportedNames } from './utils';
 
+const gatheringLog = data.sg('Gathering Log');
+
 export const GatheringLogSection = {
     name: "Gathering Logs",
     tabs: [
@@ -13,7 +15,7 @@ export const GatheringLogSection = {
                     if(task.name === 'Skybuilders\' Hardsilver Ore' && columns[3] === 'Skybuilders\' Hardsilve Ore') return true;
                     return false;
                 });
-                searchGroupForImportedNames(data.Gathering_Log.Mining, importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Mining'), importObj);
 
                 importObj.finalCompare = (isMatch, task, columns) => {
                     if(!columns[1] === 'Quarrying' || isMatch) return isMatch && columns[1] === 'Quarrying';
@@ -21,7 +23,7 @@ export const GatheringLogSection = {
                     if(task.name === 'Amh Araeng Seasonings' && columns[3] === 'Kholusian Seasonings') return true;
                     return false;
                 };
-                searchGroupForImportedNames(data.Gathering_Log.Quarrying, importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Quarrying'), importObj);
 
                 return importObj;
             },
@@ -32,7 +34,7 @@ export const GatheringLogSection = {
                 const importObj = new SheetImport(rawText, 3, (isMatch, task, columns) => {
                     return isMatch && columns[1] === 'Logging';
                 });
-                searchGroupForImportedNames(data.Gathering_Log.Logging, importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Logging'), importObj);
 
                 importObj.finalCompare = (isMatch, task, columns) => {
                     if(!columns[1] === 'Harvesting' || isMatch) return isMatch && columns[1] === 'Harvesting';
@@ -42,7 +44,7 @@ export const GatheringLogSection = {
                     if(task.name === 'Yanxian Cotton Boll' && columns[3] === 'Yanzian Cotton Boll') return true;
                     return false;
                 };
-                searchGroupForImportedNames(data.Gathering_Log.Harvesting, importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Harvesting'), importObj);
 
                 return importObj;
             },
@@ -60,8 +62,8 @@ export const GatheringLogSection = {
                     return false;
                 });
 
-                searchGroupForImportedNames(data.Gathering_Log.Fishing.Log, importObj);
-                searchGroupForImportedNames(data.Gathering_Log.Spearfishing.Log, importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Fishing').sg('Log'), importObj);
+                searchGroupForImportedNames(gatheringLog.sg('Spearfishing').sg('Log'), importObj);
 
                 return importObj;
             },
@@ -69,8 +71,8 @@ export const GatheringLogSection = {
         {
             title: "Fishing Guide",
             importCallback: importCallback(1, [
-                data.Gathering_Log.Fishing.Guide,
-                data.Gathering_Log.Spearfishing.Guide
+                gatheringLog.sg('Fishing').sg('Guide'),
+                gatheringLog.sg('Spearfishing').sg('Guide'),
             ]),
         },
     ]

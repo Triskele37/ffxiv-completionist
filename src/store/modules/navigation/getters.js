@@ -17,8 +17,8 @@ export function getGroupFromBreadcrumbs(breadcrumbs) {
 
 function diveForGroup(group, targetName) {
     let ret;
-    group.groupKeys.forEach((groupKey) => {
-        if(group[groupKey].name === targetName) ret = group[groupKey]
+    group.subGroups.forEach((subGroup) => {
+        if(subGroup.name === targetName) ret = subGroup
     });
     return ret;
 }

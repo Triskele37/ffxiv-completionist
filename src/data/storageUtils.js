@@ -8,11 +8,11 @@ export function applyStoreToData(data) {
 }
 
 function diveForLoad(currentGroup, currentStoreLayer) {
-    if(currentGroup.groupKeys) {
-        currentGroup.groupKeys.forEach((groupKey) => {
-            const last = currentGroup[groupKey]._storageKey.split('.').pop();
+    if(currentGroup.subGroups) {
+        currentGroup.subGroups.forEach((subGroup) => {
+            const last = subGroup._storageKey.split('.').pop();
             if(currentStoreLayer[last]) {
-                diveForLoad(currentGroup[groupKey], currentStoreLayer[last]);
+                diveForLoad(subGroup, currentStoreLayer[last]);
             }
         });
     }
@@ -37,10 +37,10 @@ export function applyDataToStore(data) {
 function diveForSave(currentGroup) {
     const currentLevel = {};
 
-    if(currentGroup.groupKeys) {
-        currentGroup.groupKeys.forEach((groupKey) => {
-            const last = currentGroup[groupKey]._storageKey.split('.').pop();
-            currentLevel[last] = diveForSave(currentGroup[groupKey]);
+    if(currentGroup.subGroups) {
+        currentGroup.subGroups.forEach((subGroup) => {
+            const last = subGroup._storageKey.split('.').pop();
+            currentLevel[last] = diveForSave(subGroup);
         });
     }
 

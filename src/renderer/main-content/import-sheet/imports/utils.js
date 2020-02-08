@@ -105,9 +105,9 @@ export class SheetImport {
 export function searchGroupForImportedNames(group, importObj) {
     if(group.tasks) searchTasksForImportedNames(group, importObj);
 
-    if(group.groupKeys) {
-        group.groupKeys.forEach(
-            (groupKey) => searchGroupForImportedNames(group[groupKey], importObj)
+    if(group.subGroups) {
+        group.subGroups.forEach(
+            (subGroup) => searchGroupForImportedNames(subGroup, importObj)
         );
     }
 }

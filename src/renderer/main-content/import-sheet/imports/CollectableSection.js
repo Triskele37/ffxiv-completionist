@@ -1,39 +1,41 @@
 import { data } from '../../../../data';
 import { importCallback } from './utils';
 
+const collectables = data.sg('Collectables');
+
 export const CollectablesSection = {
     name: "Collectables",
     tabs: [
         {
             title: "Aesthetician",
-            importCallback: importCallback(1, [data.Collectables.Aesthetician]),
+            importCallback: importCallback(1, [collectables.sg('Aesthetician')]),
         },
         {
             title: "Emotes",
-            importCallback: importCallback(1, [data.Collectables.Emotes]),
+            importCallback: importCallback(1, [collectables.sg('Emotes')]),
         },
         {
             title: "Minions",
-            importCallback: importCallback(1, [data.Collectables.Minion_Guide]),
+            importCallback: importCallback(1, [collectables.sg('Minion Guide')]),
         },
         {
             title: "Mounts & Barding",
             importCallback: importCallback(1, [
-                data.Collectables.Mount_Guide,
-                data.Collectables.Barding
+                collectables.sg('Mount Guide'),
+                collectables.sg('Barding'),
             ]),
         },
         {
             title: "Orchestrion",
-            importCallback: importCallback(2, [data.Collectables.Orchestrion_List]),
+            importCallback: importCallback(2, [collectables.sg('Orchestrion List')]),
         },
         {
             title: "Triple Triad Cards",
-            importCallback: importCallback(1, [data.Collectables.Triple_Triad_Card_List]),
+            importCallback: importCallback(1, [collectables.sg('Triple Triad Card List')]),
         },
         {
             title: "Triple Triad Opponents",
-            importCallback: importCallback(2, [data.Collectables.Triple_Triad_Opponents]),
+            importCallback: importCallback(2, [collectables.sg('Triple Triad Opponents')]),
         },
     ]
 };

@@ -1,74 +1,80 @@
 import { data } from '../../../../data';
 import { importCallback } from './utils';
 
+const duty = data.sg('Duty');
+const quests = data.sg('Quests');
+const classAndJob = quests.sg('Class & Job');
+const sidequests = quests.sg('Sidequests');
+const sideStory = sidequests.sg('Side Story');
+
 export const OtherQuestSection = {
     name: "Other Quests",
     tabs: [
         {
             title: "Class Quests",
             importCallback: importCallback(3, [
-                data.Duty.Hall_of_the_Novice,
-                data.Quests.Class_and_Job.Disciple_of_War,
-                data.Quests.Class_and_Job.Disciple_of_Magic,
-                data.Quests.Class_and_Job.Disciple_of_the_Hand,
-                data.Quests.Class_and_Job.Disciple_of_the_Land,
+                duty.sg('Hall of the Novice'),
+                classAndJob.sg('Disciple of War'),
+                classAndJob.sg('Disciple of Magic'),
+                classAndJob.sg('Disciple of the Hand'),
+                classAndJob.sg('Disciple of the Land'),
             ]),
         },
         {
             title: "Job & Role Quests (old)",
             importCallback: importCallback(3, [
-                data.Quests.Class_and_Job.Disciple_of_War_Job,
-                data.Quests.Class_and_Job.Disciple_of_Magic_Job,
-                data.Quests.Class_and_Job.Role,
+                classAndJob.sg('Disciple of War Job'),
+                classAndJob.sg('Disciple of Magic Job'),
+                classAndJob.sg('Role'),
             ]),
         },
         {
             title: "Job Quests (new)",
             importCallback: importCallback(3, [
-                data.Quests.Class_and_Job.Disciple_of_War_Job,
-                data.Quests.Class_and_Job.Disciple_of_Magic_Job,
+                classAndJob.sg('Disciple of War Job'),
+                classAndJob.sg('Disciple of Magic Job'),
             ]),
         },
         {
             title: "Role Quests (new)",
             importCallback: importCallback(3, [
-                data.Quests.Class_and_Job.Role,
+                classAndJob.sg('Role'),
             ]),
         },
         {
             title: "Crystalline Mean Quests",
-            importCallback: importCallback(2, [data.Quests.Class_and_Job.Crystalline_Mean]),
+            importCallback: importCallback(2, [classAndJob.sg('Crystalline Mean')]),
         },
         {
             title: "Chronicles of a New Era",
-            importCallback: importCallback(2, [data.Quests.Chronicles_of_a_New_Era]),
+            importCallback: importCallback(2, [quests.sg('Chronicles of a New Era')]),
         },
         {
             title: "Side Story Quests",
             importCallback: importCallback(2, [
-                data.Quests.Sidequests.Side_Story.Hildibrand,
-                data.Quests.Sidequests.Side_Story.Further_Hildibrand_Adventures,
-                data.Quests.Sidequests.Side_Story.Even_Further_Hildibrand_Adventures,
-                data.Quests.Sidequests.Side_Story.Scholasticate,
-                data.Quests.Sidequests.Side_Story.Tales_of_the_Dragonsong_War,
-                data.Quests.Sidequests.Side_Story.Wandering_Minstrel,
-                data.Quests.Sidequests.Side_Story.The_Forbidden_Land_Eureka,
-                data.Quests.Sidequests.Side_Story.Delivery_Moogle,
-                data.Quests.Sidequests.Side_Story.Doman_Adventurers_Guild,
-                data.Quests.Sidequests.Side_Story.Doman_Reconstruction,
-                data.Quests.Sidequests.Side_Story.Tales_from_the_Shadows,
-                data.Quests.Sidequests.Side_Story.Ishgardian_Restoration_Main,
+                sideStory.sg('Hildibrand'),
+                sideStory.sg('Further Hildibrand Adventures'),
+                sideStory.sg('Even Further Hildibrand Adventures'),
+                sideStory.sg('Scholasticate'),
+                sideStory.sg('Tales of the Dragonsong War'),
+                sideStory.sg('Wandering Minstrel'),
+                sideStory.sg('The Forbidden Land, Eureka'),
+                sideStory.sg('Delivery Moogle'),
+                sideStory.sg('Doman Adventurers\' Guild'),
+                sideStory.sg('Doman Reconstruction'),
+                sideStory.sg('Tales from the Shadows'),
+                sideStory.sg('Ishgardian Restoration Main'),
             ]),
         },
         {
             title: "Weapon Quests",
             importCallback: importCallback(2, [
-                data.Quests.Sidequests.Side_Story.Zodiac_Weapons,
-                data.Quests.Sidequests.Side_Story.Anima_Weapons,
-                data.Quests.Sidequests.Gridanian.North_Shroud,
-                data.Quests.Sidequests.Ul_Dahn.Western_Thanalan,
-                data.Quests.Sidequests.Mor_Dhonan.Mor_Dhona,
-                data.Collectables.Relic_Gear,
+                sideStory.sg('Zodiac Weapons'),
+                sideStory.sg('Anima Weapons'),
+                sidequests.sg('Gridanian').sg('North Shroud'),
+                sidequests.sg('Ul\'Dahn').sg('Western Thanalan'),
+                sidequests.sg('Mor Dhonan').sg('Mor Dhona'),
+                data.sg('Collectables').sg('Relic Gear'),
             ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
@@ -98,15 +104,15 @@ export const OtherQuestSection = {
         {
             title: "Beast Tribe Quests",
             importCallback: importCallback(3, [
-                data.Quests.Beast_Tribe,
-                data.Quests.Sidequests.Side_Story.Allied_Beast_Tribe,
-                data.Quests.Sidequests.Side_Story.Heavensward_Beast_Tribe,
-                data.Quests.Sidequests.Side_Story.Stormblood_Beast_Tribe,
+                quests.sg('Beast Tribe'),
+                sideStory.sg('Allied Beast Tribe'),
+                sideStory.sg('Heavensward Beast Tribe'),
+                sideStory.sg('Stormblood Beast Tribe'),
             ]),
         },
         {
             title: "Grand Company Quests",
-            importCallback: importCallback(2, [data.Quests.Other.Grand_Company]),
+            importCallback: importCallback(2, [quests.sg('Other').sg('Grand Company')]),
         },
     ]
 };

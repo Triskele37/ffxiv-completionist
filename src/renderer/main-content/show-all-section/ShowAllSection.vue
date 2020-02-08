@@ -30,9 +30,9 @@
 
         if(group.tasks) tasks = tasks.concat(group.tasks);
 
-        if(group.groupKeys) {
-            group.groupKeys.forEach((groupKey) => {
-                tasks = tasks.concat(diveForTasks(group[groupKey]));
+        if(group.subGroups) {
+            group.subGroups.forEach((subGroup) => {
+                tasks = tasks.concat(diveForTasks(subGroup));
             });
         }
 

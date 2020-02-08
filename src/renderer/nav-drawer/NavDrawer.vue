@@ -9,11 +9,11 @@
 
         <!---------------------- Data Nav ---------------------->
         <nav-group
-            v-for="groupKey in allData.groupKeys"
-            :key="allData[groupKey].name"
+            v-for="subGroup in allData.subGroups"
+            :key="subGroup.name"
             :show="true"
             :degree="1"
-            :group="allData[groupKey]"
+            :group="subGroup"
         />
     </span>
 </template>

@@ -13,11 +13,11 @@
         </template>
         <!----------- Summary & Task Table ----------->
         <template v-else>
-            <div v-if="selectedGroup.groupKeys" class="group-summary-section">
+            <div v-if="selectedGroup.subGroups" class="group-summary-section">
                 <summary-line
-                    v-for="groupKey in selectedGroup.groupKeys"
-                    :key="selectedGroup[groupKey].name"
-                    :group="selectedGroup[groupKey]"
+                    v-for="subGroup in selectedGroup.subGroups"
+                    :key="subGroup.name"
+                    :group="subGroup"
                 />
             </div>
 
@@ -71,7 +71,7 @@
                 selectedGroup: 'selectedGroup',
             }),
             showShowAllButton: function() {
-                return (this.selectedGroup && this.selectedGroup.groupKeys && this.selectedGroup.columnConfig);
+                return (this.selectedGroup && this.selectedGroup.subGroups && this.selectedGroup.columnConfig);
             },
         },
         methods: {

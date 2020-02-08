@@ -14,11 +14,11 @@ function pushCrumb(state, crumb) {
     state.breadcrumbs = state.breadcrumbs.concat(crumb);
 
     // also set the selected group to match
-    for(let i = 0; i < state.selectedGroup.groupKeys.length; i++) {
-        const groupKey = state.selectedGroup.groupKeys[i];
+    for(let i = 0; i < state.selectedGroup.subGroups.length; i++) {
+        const subGroup = state.selectedGroup.subGroups[i];
 
-        if(state.selectedGroup[groupKey].name === crumb) {
-            state.selectedGroup = state.selectedGroup[groupKey];
+        if(subGroup.name === crumb) {
+            state.selectedGroup = subGroup;
             break;
         }
     }

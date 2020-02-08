@@ -1,12 +1,14 @@
 import { data } from '../../../../data';
 import { importCallback } from './utils';
 
+const craftingLog = data.sg('Crafting Log');
+
 export const CraftingLogSection = {
     name: "Crafting Logs",
     tabs: [
         {
             title: "Carpentry Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Carpenter], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Carpenter')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Glade Bachelor\'s Chest' && columns[2] === 'Glade Bachelor\'s Desk') return true;
@@ -17,7 +19,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Blacksmithing Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Blacksmith], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Blacksmith')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Deepgold Uchigatana' && columns[2] === 'Stonegold Uchigatana') return true;
@@ -28,7 +30,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Armorcrafting Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Armorer], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Armorer')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Altered Cobalt Gauntlets' && columns[2] === 'Altered Cobolt Gauntlets') return true;
@@ -38,7 +40,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Goldsmithing Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Goldsmith], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Goldsmith')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Odder Otter Hanging Andon Lamp' && columns[2] === 'Odder Otter Andon Lamp') {
@@ -51,7 +53,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Leatherworking Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Leatherworker], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Leatherworker')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'True Griffin Caligae of Striking' && columns[2] === 'True Griffin Bracers of Striking') {
@@ -69,7 +71,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Weaving Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Weaver], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Weaver')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Ala Mhigan Turban of Crafting' && columns[2] === 'Ala Mhigan Bottoms of Crafting') {
@@ -88,7 +90,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Alchemy Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Alchemist], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Alchemist')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Thunderer Orchestrion Roll' && columns[2] === 'Thunder Rolls Orchestrion Roll') {
@@ -102,7 +104,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Culinary Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Culinarian], (isMatch, task, columns) => {
+            importCallback: importCallback(2, [craftingLog.sg('Culinarian')], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Pot of Cream Stew' && columns[2] === 'Pot of Crean Stew') return true;
@@ -111,7 +113,7 @@ export const CraftingLogSection = {
         },
         {
             title: "Shared Craft Log",
-            importCallback: importCallback(2, [data.Crafting_Log.Shared]),
+            importCallback: importCallback(2, [craftingLog.sg('Shared')]),
         },
     ]
 };

@@ -1,12 +1,16 @@
 import { data } from '../../../../data';
 import { importCallback } from './utils';
 
+const achievements = data.sg('Achievements');
+
 export const AchievementsSection = {
     name: "Achievements",
     tabs: [
         {
             title: "Battle Achievements",
-            importCallback: importCallback(1, [data.Achievements.Battle], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Battle')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === columns[1].replace('Raiders', 'Raider')) return true;
@@ -18,7 +22,9 @@ export const AchievementsSection = {
         },
         {
             title: "Character Achievements",
-            importCallback: importCallback(1, [data.Achievements.Character], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Character')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === 'Freebird: The Tempest' && columns[1] === 'Freebird: Tempest') return true;
@@ -27,7 +33,9 @@ export const AchievementsSection = {
         },
         {
             title: "PvP Achievements",
-            importCallback: importCallback(1, [data.Achievements.PvP], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('PvP')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name.toLowerCase() === columns[1].toLowerCase()) return true;
@@ -60,7 +68,9 @@ export const AchievementsSection = {
         },
         {
             title: "Items Achievements",
-            importCallback: importCallback(1, [data.Achievements.Items], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Items')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
                 if(task.name === columns[1].replace('the ', '')) return true;
                 return false;
@@ -68,11 +78,15 @@ export const AchievementsSection = {
         },
         {
             title: "Crafting Achievements",
-            importCallback: importCallback(1, [data.Achievements.Crafting]),
+            importCallback: importCallback(1, [
+                achievements.sg('Crafting')
+            ]),
         },
         {
             title: "Gathering Achievements",
-            importCallback: importCallback(1, [data.Achievements.Gathering], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Gathering')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 
                 if(task.name === columns[1].replace('Farm From', 'Far from')) return true;
@@ -81,11 +95,15 @@ export const AchievementsSection = {
         },
         {
             title: "Quests Achievements",
-            importCallback: importCallback(1, [data.Achievements.Quests]),
+            importCallback: importCallback(1, [
+                achievements.sg('Quests')
+            ]),
         },
         {
             title: "Exploration Achievements",
-            importCallback: importCallback(1, [data.Achievements.Exploration], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Exploration')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
                 if(task.name === columns[1].replace('The ', '')) return true;
                 return false;
@@ -93,7 +111,9 @@ export const AchievementsSection = {
         },
         {
             title: "Grand Company Achievements",
-            importCallback: importCallback(1, [data.Achievements.Grand_Company], (isMatch, task, columns) => {
+            importCallback: importCallback(1, [
+                achievements.sg('Grand Company')
+            ], (isMatch, task, columns) => {
                 if(isMatch) return true;
                 if(task.name === columns[1].replace(' (Achievement)', '')) return true;
                 return false;
