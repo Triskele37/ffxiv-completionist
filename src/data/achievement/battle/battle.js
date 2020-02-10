@@ -29,83 +29,61 @@ const tasks = [
         "description": "Defeat 50,000 enemies.",
         "name": "To Crush Your Enemies VI",
         "points": 10,
-        "Title": {
-            "name": "The Exterminator"
-        }
+        "reward": "Title: The Exterminator",
     }, {
         "description": "Defeat 100,000 enemies.",
-        "Item": {
-            "name": "Butcher's Crown"
-        },
         "name": "Let the Bodies Hit the Floor",
         "points": 30,
+        "reward": "Item: Butcher's Crown",
     }, {
         "description": "Defeat 200,000 enemies.",
         "name": "To Crush Your Enemies VII",
         "points": 30,
     }, {
         "description": "Complete all gladiator entries in the hunting log.",
-        "Item": {
-            "name": "Master Gladiator's Ring"
-        },
         "name": "Bump on a Log: Gladiator",
         "points": 20,
+        "reward": "Item: Master Gladiator's Ring",
     }, {
         "description": "Complete all pugilist entries in the hunting log.",
-        "Item": {
-            "name": "Master Pugilist's Ring"
-        },
         "name": "Bump on a Log: Pugilist",
         "points": 20,
+        "reward": "Item: Master Pugilist's Ring",
     }, {
         "description": "Complete all marauder entries in the hunting log.",
-        "Item": {
-            "name": "Master Marauder's Ring"
-        },
         "name": "Bump on a Log: Marauder",
         "points": 20,
+        "reward": "Item: Master Marauder's Ring",
     }, {
         "description": "Complete all lancer entries in the hunting log.",
-        "Item": {
-            "name": "Master Lancer's Ring"
-        },
         "name": "Bump on a Log: Lancer",
         "points": 20,
+        "reward": "Item: Master Lancer's Ring",
     }, {
         "description": "Complete all archer entries in the hunting log.",
-        "Item": {
-            "name": "Master Archer's Ring"
-        },
         "name": "Bump on a Log: Archer",
         "points": 20,
+        "reward": "Item: Master Archer's Ring",
     }, {
         "description": "Complete all rogue entries in the hunting log.",
-        "Item": {
-            "name": "Master Rogue's Ring"
-        },
         "name": "Bump on a Log: Rogue",
         "points": 20,
+        "reward": "Item: Master Rogue's Ring",
     }, {
         "description": "Complete all conjurer entries in the hunting log.",
-        "Item": {
-            "name": "Master Conjurer's Ring"
-        },
         "name": "Bump on a Log: Conjurer",
         "points": 20,
+        "reward": "Item: Master Conjurer's Ring",
     }, {
         "description": "Complete all thaumaturge entries in the hunting log.",
-        "Item": {
-            "name": "Master Thaumaturge's Ring"
-        },
         "name": "Bump on a Log: Thaumaturge",
         "points": 20,
+        "reward": "Item: Master Thaumaturge's Ring",
     }, {
         "description": "Complete all arcanist entries in the hunting log.",
-        "Item": {
-            "name": "Master Arcanist's Ring"
-        },
         "name": "Bump on a Log: Arcanist",
         "points": 20,
+        "reward": "Item: Master Arcanist's Ring",
     }, {
         "description": "Successfully complete the FATE “He Taketh It with His Eyes” with the highest rating possible.",
         "name": "Locking Horns",
@@ -266,9 +244,7 @@ const tasks = [
         "description": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
         "name": "Merchant's Best Friend",
         "points": 20,
-        "Title": {
-            "name": "The Invisible Hand"
-        }
+        "reward": "Title: The Invisible Hand",
     }, {
         "description": "Successfully complete 10 FATEs.",
         "name": "Date With Destiny I",
@@ -285,16 +261,12 @@ const tasks = [
         "description": "Successfully complete 1,000 FATEs.",
         "name": "Date With Destiny IV",
         "points": 10,
-        "Title": {
-            "name": "Tempter of Fate"
-        }
+        "reward": "Title: Tempter of Fate",
     }, {
         "description": "Successfully complete 3,000 FATEs.",
-        "Item": {
-            "name": "Paragon's Gown"
-        },
         "name": "Destiny's Child",
         "points": 20,
+        "reward": "Item: Paragon's Gown",
     }, {
         "description": "Successfully complete 5,000 FATEs.",
         "name": "Date With Destiny V",
@@ -303,9 +275,7 @@ const tasks = [
         "description": "Successfully complete 10,000 FATEs.",
         "name": "Date With Destiny VI",
         "points": 20,
-        "Title": {
-            "name": "The Fortunate"
-        }
+        "reward": "Title: The Fortunate",
     }, {
         "description": "See your companion chocobo to rank 1.",
         "name": "Bosom Buddies I",
@@ -316,11 +286,9 @@ const tasks = [
         "points": 10,
     }, {
         "description": "See your companion chocobo to rank 10.",
-        "Item": {
-            "name": "Chocobo Suit"
-        },
         "name": "Bosom Buddies III",
         "points": 20,
+        "reward": "Item: Chocobo Suit",
     }, {
         "description": "Resurrect a player who is not in your party or alliance.",
         "name": "The Kindness of Strangers",
@@ -341,72 +309,52 @@ const tasks = [
         "description": "Resurrect a player who is not in your party or alliance 200 times.",
         "name": "The Kindness of Strangers V",
         "points": 10,
-        "Title": {
-            "name": "Good Samaritan"
-        }
+        "reward": "Title: Good Samaritan",
     }, {
         "description": "Complete 50 high-level duties as a paladin.",
         "name": "A Tankless Job I (Paladin)",
         "points": 5,
-        "Title": {
-            "name": "The Meat Shield"
-        }
+        "reward": "Title: The Meat Shield",
     }, {
         "description": "Complete 100 high-level duties as a paladin.",
         "name": "A Tankless Job II (Paladin)",
         "points": 10,
-        "Title": {
-            "name": "Of the Stalwart Shield"
-        }
+        "reward": "Title: Of the Stalwart Shield",
     }, {
         "description": "Complete 200 high-level duties as a paladin.",
-        "Item": {
-            "name": "Warlion Horn"
-        },
         "name": "But Somebody's Gotta Do It (Paladin)",
         "points": 20,
+        "reward": "Item: Warlion Horn",
     }, {
         "description": "Complete 50 high-level duties as a warrior.",
         "name": "A Tankless Job I (Warrior)",
         "points": 5,
-        "Title": {
-            "name": "The Meat Axe"
-        }
+        "reward": "Title: The Meat Axe",
     }, {
         "description": "Complete 100 high-level duties as a warrior.",
         "name": "A Tankless Job II (Warrior)",
         "points": 10,
-        "Title": {
-            "name": "Of the Stalwart Axe"
-        }
+        "reward": "Title: Of the Stalwart Axe",
     }, {
         "description": "Complete 200 high-level duties as a warrior.",
-        "Item": {
-            "name": "Warbear Horn"
-        },
         "name": "But Somebody's Gotta Do It (Warrior)",
         "points": 20,
+        "reward": "Item: Warbear Horn",
     }, {
         "description": "Complete 50 high-level duties as a dark knight.",
         "name": "A Tankless Job I (Dark Knight)",
         "points": 5,
-        "Title": {
-            "name": "Dark Driver"
-        }
+        "reward": "Title: Dark Driver",
     }, {
         "description": "Complete 100 high-level duties as a dark knight.",
         "name": "A Tankless Job II (Dark Knight)",
         "points": 10,
-        "Title": {
-            "name": "Of the Stalwart Sword"
-        }
+        "reward": "Title: Of the Stalwart Sword",
     }, {
         "description": "Complete 200 high-level duties as a dark knight.",
-        "Item": {
-            "name": "Panther Bell"
-        },
         "name": "But Somebody's Gotta Do It (Dark Knight)",
         "points": 20,
+        "reward": "Item: Panther Bell",
     }, {
         "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Paladin I",
@@ -417,18 +365,14 @@ const tasks = [
         "points": 10,
     }, {
         "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
-        "Item": {
-            "name": "Battle Lion Horn"
-        },
         "name": "Tank You, Paladin III",
         "points": 20,
+        "reward": "Item: Battle Lion Horn",
     }, {
         "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Paladin IV",
         "points": 20,
-        "Title": {
-            "name": "Of Unyielding Oath"
-        }
+        "reward": "Title: Of Unyielding Oath",
     }, {
         "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Warrior I",
@@ -439,18 +383,14 @@ const tasks = [
         "points": 10,
     }, {
         "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
-        "Item": {
-            "name": "Battle Bear Horn"
-        },
         "name": "Tank You, Warrior III",
         "points": 20,
+        "reward": "Item: Battle Bear Horn",
     }, {
         "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Warrior IV",
         "points": 20,
-        "Title": {
-            "name": "Of Unyielding Steel"
-        }
+        "reward": "Title: Of Unyielding Steel",
     }, {
         "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Dark Knight I",
@@ -461,43 +401,33 @@ const tasks = [
         "points": 10,
     }, {
         "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
-        "Item": {
-            "name": "Battle Panther Bell"
-        },
         "name": "Tank You, Dark Knight III",
         "points": 20,
+        "reward": "Item: Battle Panther Bell",
     }, {
         "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Dark Knight IV",
         "points": 20,
-        "Title": {
-            "name": "Of Unyielding Principle"
-        }
+        "reward": "Title: Of Unyielding Principle",
     }, {
         "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Gunbreaker I",
         "points": 5,
     }, {
         "description": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
-        "Item": {
-            "name": "War Tiger Horn"
-        },
         "name": "Tank You, Gunbreaker II",
         "points": 10,
+        "reward": "Item: War Tiger Horn",
     }, {
         "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
-        "Item": {
-            "name": "Battle Tiger Horn"
-        },
         "name": "Tank You, Gunbreaker III",
         "points": 20,
+        "reward": "Item: Battle Tiger Horn",
     }, {
         "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
         "name": "Tank You, Gunbreaker IV",
         "points": 20,
-        "Title": {
-            "name": "Of Unyielding Lealty"
-        }
+        "reward": "Title: Of Unyielding Lealty",
     }, {
         "description": "Complete 5 types of routine mission in the Blue Mage Log.",
         "name": "Jack of All Trades I",
@@ -510,9 +440,7 @@ const tasks = [
         "description": "Complete 50 types of routine mission in the Blue Mage Log.",
         "name": "Jack of All Trades III",
         "points": 5,
-        "Title": {
-            "name": "Blue Luminary"
-        }
+        "reward": "Title: Blue Luminary",
     }, {
         "description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
         "name": "Mightier than the Inferno",
@@ -565,9 +493,7 @@ const tasks = [
         "description": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
         "name": "Mightier than the Round",
         "points": 5,
-        "Title": {
-            "name": "Masked of the Round"
-        }
+        "reward": "Title: Masked of the Round",
     }, {
         "description": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
         "name": "Mightier than the Fiend",
@@ -600,22 +526,16 @@ const tasks = [
         "description": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
         "name": "Blue Unchained",
         "points": 10,
-        "Title": {
-            "name": "Unbound Blue"
-        }
+        "reward": "Title: Unbound Blue",
     }, {
         "description": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
         "name": "Masked Conqueror",
         "points": 10,
-        "Title": {
-            "name": "Blue Justice"
-        }
+        "reward": "Title: Blue Justice",
     }, {
         "description": "Obtain the achievements “Blue Unchained” and “Masked Conqueror.”",
-        "Item": {
-            "name": "Morbol Horn"
-        },
         "name": "True Blue",
         "points": 10,
+        "reward": "Item: Morbol Horn",
     }
 ];

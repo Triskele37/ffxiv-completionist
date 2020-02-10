@@ -7,6 +7,12 @@
         <h3>Data Fixes</h3>
         <ul>
             <li>
+                Achievements > Battle > Battle
+                <ul>
+                    <li>Fixed rewards not displaying</li>
+                </ul>
+            </li>
+            <li>
                 General Logs > Hunting Log > Archer
                 <ul>
                     <li>Log 18: Location to (20, 30)</li>
