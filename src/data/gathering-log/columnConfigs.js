@@ -31,16 +31,16 @@ export const FishingLogColumnConfig = [
 export const FishingGuideColumnConfig = [
     {
         header: "iLVL",
-        key: "ilvl",
+        key: "iLvl",
         filterable: true,
         filterType: 'number',
         centered: true,
     },
     { header: "Name", key: "name" },
     { header: "Prime Location", key: "primeLocation", filterable: true },
-    { header: "Fishing Holes", key: "fishingHoles" },
+    { header: "Fishing Holes", key: "lowestFishingHole" },
     { header: "Type", key: "type", filterable: true },
     { header: "Bait", key: "bait", filterable: true },
-    { header: "Usages", key: "usages" },
+    { header: "Usages", key: "usage" },
     { header: "Special", key: "special" },
 ];

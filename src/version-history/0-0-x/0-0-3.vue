@@ -13,26 +13,18 @@
         <h3>Data Fixes</h3>
         <ul>
             <li>
-                Achievements >
+                Achievements
                 <ul>
-                    <li>
-                        Battle > Battle
-                        <ul>
-                            <li>Fixed rewards not displaying</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Character > General
-                        <ul>
-                            <li>Fixed description not displaying</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Quests > Quests
-                        <ul>
-                            <li>Fixed description not displaying</li>
-                        </ul>
-                    </li>
+                    <li>Battle > Battle: Fixed rewards not displaying</li>
+                    <li>Character > General: Fixed description not displaying</li>
+                    <li>Quests > Quests: Fixed description not displaying</li>
+                </ul>
+            </li>
+            <li>
+                Gathering Logs
+                <ul>
+                    <li>Fishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
+                    <li>Spearfishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
                 </ul>
             </li>
             <li>
