@@ -13,9 +13,26 @@
         <h3>Data Fixes</h3>
         <ul>
             <li>
-                Achievements > Battle > Battle
+                Achievements >
                 <ul>
-                    <li>Fixed rewards not displaying</li>
+                    <li>
+                        Battle > Battle
+                        <ul>
+                            <li>Fixed rewards not displaying</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Character > General
+                        <ul>
+                            <li>Fixed description not displaying</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Quests > Quests
+                        <ul>
+                            <li>Fixed description not displaying</li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li>
