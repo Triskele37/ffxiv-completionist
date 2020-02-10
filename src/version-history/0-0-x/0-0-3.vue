@@ -21,13 +21,6 @@
                 </ul>
             </li>
             <li>
-                Gathering Logs
-                <ul>
-                    <li>Fishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
-                    <li>Spearfishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
-                </ul>
-            </li>
-            <li>
                 General Logs > Hunting Log > Archer
                 <ul>
                     <li>Log 18: Location to (20, 30)</li>
@@ -35,9 +28,17 @@
                 </ul>
             </li>
             <li>
-                Quests > Levequests > Battlecraft
+                Gathering Logs
                 <ul>
-                    <li>"Whither the Morbol Goeth" spelling fix</li>
+                    <li>Fishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
+                    <li>Spearfishing > Guide: Fixed iLvl, Fishing Holes, and Usages not displaying</li>
+                </ul>
+            </li>
+            <li>
+                Quests
+                <ul>
+                    <li>Beast Tribes > Ixal: Fixed Daily quests not displaying as Daily</li>
+                    <li>Levequests > Battlecraft: "Whither the Morbol Goeth" spelling fix</li>
                 </ul>
             </li>
         </ul>
