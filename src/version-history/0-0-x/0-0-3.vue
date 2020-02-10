@@ -47,6 +47,6 @@
 
 <script>
     export default {
-        name: '0.0.3',
+        name: 'version-0-0-3',
     }
 </script>

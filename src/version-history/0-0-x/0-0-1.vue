@@ -30,6 +30,6 @@
 
 <script>
     export default {
-        name: '0.0.1',
+        name: 'version-0-0-1',
     }
 </script>
