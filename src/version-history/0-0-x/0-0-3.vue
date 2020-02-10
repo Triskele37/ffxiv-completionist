@@ -4,6 +4,12 @@
 
         <h3>Additions</h3>
         <h3>Changes</h3>
+
+        <h3>Fixes</h3>
+        <ul>
+            <li>Fixed backward navigation with breadcrumbs not stepping back when sections had the same name (e.g. Achievements > Battle > Battle)</li>
+        </ul>
+
         <h3>Data Fixes</h3>
         <ul>
             <li>

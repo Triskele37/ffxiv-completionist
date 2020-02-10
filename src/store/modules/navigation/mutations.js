@@ -24,10 +24,10 @@ function pushCrumb(state, crumb) {
     }
 }
 
-function popCrumbsUntil(state, crumb) {
-    // Step backward through breadcrumbs, pop until crumb is found
+function popCrumbsUntil(state, index) {
+    // Step backward through breadcrumbs, pop until index is hit
     for(let i = state.breadcrumbs.length; i > -1; i--) {
-        if(state.breadcrumbs[i - 1] === crumb) break;
+        if(i - 1 === index) break;
         state.breadcrumbs.pop();
     }
 

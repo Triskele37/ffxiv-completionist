@@ -2,7 +2,7 @@
     <div id="breadcrumbs">
         <span
             v-for="crumb, index in breadcrumbs"
-            @click="onClickCrumb(crumb)"
+            @click="onClickCrumb(index)"
         >
             <span class="breadcrumb">{{crumb}}</span>
             <span>{{index < breadcrumbs.length - 1 ? '  >  ' : ''}}</span>
@@ -20,8 +20,8 @@
             }),
         },
         methods: {
-            onClickCrumb: function(crumb) {
-                this.$store.commit('navigation/POP_CRUMBS_UNTIL', crumb);
+            onClickCrumb: function(index) {
+                this.$store.commit('navigation/POP_CRUMBS_UNTIL', index);
             },
         }
     };
