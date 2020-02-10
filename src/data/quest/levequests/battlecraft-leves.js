@@ -1149,7 +1149,7 @@ const tasks = [
         company: ""
     }, {
         level: "58",
-        name: "Wihither the Morbol Goeth",
+        name: "Whither the Morbol Goeth",
         zone: "The Dravanian Hinterlands",
         location: "The Paths of Creation",
         npc: "Eloin",

@@ -9,7 +9,12 @@ export const LeveSection = {
         {
             title: "BattlecraftGC Leves",
             importCallback: importCallback(1, [levequests.sg('Battlecraft')], (isMatch, task, columns) => {
-                return isMatch || (task.name === columns[1] + ' (L)');
+                if(isMatch) return true;
+
+                if(task.name === columns[1] + ' (L)') return true;
+                if(task.name === columns[1].replace('Wihither', 'Whither')) return true;
+
+                return false;
             }),
         },
         {

@@ -20,6 +20,7 @@ Missing Sections:
 Missing Data:
     a few Legacy Achievement categories
     full list of special/seasonal quests
+    eureka gear
 */
 
 const data = new DataGroup("Overall", null);

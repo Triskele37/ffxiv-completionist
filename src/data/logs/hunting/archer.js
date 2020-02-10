@@ -112,7 +112,7 @@ const tasks = [
         rank: "2",
         mob: "Raptor Poacher x4",
         zone: "East Shroud",
-        location: "Nine Ivies (19,39)"
+        location: "Nine Ivies (20,30)"
     }, {
         name: "Archer 19",
         rank: "2",
@@ -122,7 +122,7 @@ const tasks = [
     }, {
         name: "Archer 20",
         rank: "2",
-        mob: "Wild Bear x4",
+        mob: "Wild Boar x4",
         zone: "East Shroud",
         location: "The Bramble Patch (18,24)"
     }, {
