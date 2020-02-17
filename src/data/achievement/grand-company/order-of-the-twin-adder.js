@@ -29,9 +29,9 @@ const tasks = [
         reward: "Title: Serpentlord"
     }, {
         description: "Earn 500,000 Serpent Seals.",
-        reward: "Item: Twin Adder Escutcheon",
         name: "The Mahogany Leaf",
         points: 20,
+        reward: "Item: Twin Adder Escutcheon",
     }, {
         description: "Complete 10 company levequests for the Order of the Twin Adder.",
         name: "In Good Company: Twin Adder I",
@@ -49,9 +49,9 @@ const tasks = [
         reward: "Title: The Serpentsworn"
     }, {
         description: "Complete 500 company levequests for the Order of the Twin Adder.",
-        reward: "Item: Lily and Serpent Bracelet ",
         name: "The Ironwood Leaf",
         points: 20,
+        reward: "Item: Lily and Serpent Bracelet ",
     }, {
         description: "Complete 10 supply missions for the Order of the Twin Adder.",
         name: "Feeding the Serpent I",
@@ -69,9 +69,9 @@ const tasks = [
         reward: "Title: Serpentcarrier"
     }, {
         description: "Complete 500 supply missions for the Order of the Twin Adder.",
-        reward: "Item: Lily and Serpent Earrings",
         name: "The Sycamore Leaf",
         points: 20,
+        reward: "Item: Lily and Serpent Earrings",
     }, {
         description: "Complete 10 provisioning missions for the Order of the Twin Adder.",
         name: "To Each According to His Need: Twin Adder I",
@@ -89,9 +89,9 @@ const tasks = [
         reward: "Title: Serpentbringer"
     }, {
         description: "Complete 200 provisioning missions for the Order of the Twin Adder.",
-        reward: "Item: Lily and Serpent Ring",
         name: "The Willow Leaf",
         points: 20,
+        reward: "Item: Lily and Serpent Ring",
     }, {
         description: "Complete 5 unique Order of the Twin Adder levequests.",
         name: "In the Yellow I",
@@ -109,8 +109,8 @@ const tasks = [
         reward: "-"
     }, {
         description: "Complete all Order of the Twin Adder entries in the hunting log.",
-        reward: "Item: Mammet #003G",
         name: "Bump on a Log: Order of the Twin Adder",
         points: 20,
+        reward: "Item: Mammet #003G",
     }
 ];

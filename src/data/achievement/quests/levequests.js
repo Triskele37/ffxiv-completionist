@@ -7,6 +7,7 @@ export const Achievements_Quests_Levequests = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Regional Battlecraft
     {
         description: "Complete 10 regional battlecraft levequests.",
         name: "All the More Region to Leve I",
@@ -43,6 +44,13 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
+        description: "Complete 5,000 regional battlecraft levequests.",
+        name: "All the More Region to Leve VII",
+        points: 20,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Tradecraft
+    {
         description: "Complete 10 local tradecraft levequests.",
         name: "Think Global, Quest Local I",
         points: 5,
@@ -78,6 +86,13 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
+        description: "Complete 5,000 local tradecraft levequests.",
+        name: "Think Global, Quest Local VII",
+        points: 20,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Fieldcraft
+    {
         description: "Complete 10 fieldcraft levequests.",
         name: "In the Outfield I",
         points: 5,
@@ -113,6 +128,13 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
+        description: "Complete 5,000 fieldcraft levequests.",
+        name: "In the Outfield VII",
+        points: 20,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Battlecraft
+    {
         description: "Complete 10 unique battlecraft levequests.",
         name: "Uphill Battle I",
         points: 5,
@@ -128,6 +150,13 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 150 unique battlecraft levequests.",
+        name: "Uphill Battle IV",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Carpenter
+    {
         description: "Complete 5 unique carpenter levequests.",
         name: "With Saw in Hand I",
         points: 5,
@@ -143,6 +172,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique carpenter levequests.",
+        name: "With Saw in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique carpenter levequests.",
+        name: "With Saw in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique carpenter levequests.",
+        name: "With Saw in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Blacksmith
+    {
         description: "Complete 5 unique blacksmith levequests.",
         name: "With Hammer in Hand I",
         points: 5,
@@ -158,6 +204,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique blacksmith levequests.",
+        name: "With Hammer in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique blacksmith levequests.",
+        name: "With Hammer in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique blacksmith levequests.",
+        name: "With Hammer in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Armorer
+    {
         description: "Complete 5 unique armorer levequests.",
         name: "With Steel in Hand I",
         points: 5,
@@ -173,6 +236,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique armorer levequests.",
+        name: "With Steel in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique armorer levequests.",
+        name: "With Steel in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique armorer levequests.",
+        name: "With Steel in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Goldsmith
+    {
         description: "Complete 5 unique goldsmith levequests.",
         name: "With Gem in Hand I",
         points: 5,
@@ -188,6 +268,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique goldsmith levequests.",
+        name: "With Gem in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique goldsmith levequests.",
+        name: "With Gem in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique goldsmith levequests.",
+        name: "With Gem in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Leatherworker
+    {
         description: "Complete 5 unique leatherworker levequests.",
         name: "With Skin in Hand I",
         points: 5,
@@ -203,6 +300,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique leatherworker levequests.",
+        name: "With Skin in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique leatherworker levequests.",
+        name: "With Skin in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique leatherworker levequests.",
+        name: "With Skin in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Weaver
+    {
         description: "Complete 5 unique weaver levequests.",
         name: "With Needle in Hand I",
         points: 5,
@@ -218,6 +332,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique weaver levequests.",
+        name: "With Needle in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique weaver levequests.",
+        name: "With Needle in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique weaver levequests.",
+        name: "With Needle in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Alchemist
+    {
         description: "Complete 5 unique alchemist levequests.",
         name: "With Pestle in Hand I",
         points: 5,
@@ -233,6 +364,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique alchemist levequests.",
+        name: "With Pestle in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique alchemist levequests.",
+        name: "With Pestle in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique alchemist levequests.",
+        name: "With Pestle in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Culinarian
+    {
         description: "Complete 5 unique culinarian levequests.",
         name: "With Pan in Hand I",
         points: 5,
@@ -248,6 +396,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 80 unique culinarian levequests.",
+        name: "With Pan in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 100 unique culinarian levequests.",
+        name: "With Pan in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 110 unique culinarian levequests.",
+        name: "With Pan in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Miner
+    {
         description: "Complete 5 unique miner levequests.",
         name: "With Pick in Hand I",
         points: 5,
@@ -263,6 +428,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 70 unique miner levequests.",
+        name: "With Pick in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique miner levequests.",
+        name: "With Pick in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 90 unique miner levequests.",
+        name: "With Pick in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Botanist
+    {
         description: "Complete 5 unique botanist levequests.",
         name: "With Axe in Hand I",
         points: 5,
@@ -278,6 +460,23 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Complete 70 unique botanist levequests.",
+        name: "With Axe in Hand IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 80 unique botanist levequests.",
+        name: "With Axe in Hand V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Complete 90 unique botanist levequests.",
+        name: "With Axe in Hand VI",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Fisher
+    {
         description: "Complete 5 unique fisher levequests.",
         name: "With Bait in Hand I",
         points: 5,
@@ -293,128 +492,8 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Complete 5,000 regional battlecraft levequests.",
-        name: "All the More Region to Leve VII",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 5,000 local tradecraft levequests.",
-        name: "Think Global, Quest Local VII",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 5,000 fieldcraft levequests.",
-        name: "In the Outfield VII",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Complete 150 unique battlecraft levequests.",
-        name: "Uphill Battle IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique carpenter levequests.",
-        name: "With Saw in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique blacksmith levequests.",
-        name: "With Hammer in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique armorer levequests.",
-        name: "With Steel in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique goldsmith levequests.",
-        name: "With Gem in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique leatherworker levequests.",
-        name: "With Skin in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique weaver levequests.",
-        name: "With Needle in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique alchemist levequests.",
-        name: "With Pestle in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique culinarian levequests.",
-        name: "With Pan in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 70 unique miner levequests.",
-        name: "With Pick in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 70 unique botanist levequests.",
-        name: "With Axe in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Complete 70 unique fisher levequests.",
         name: "With Bait in Hand IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique carpenter levequests.",
-        name: "With Saw in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique blacksmith levequests.",
-        name: "With Hammer in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique armorer levequests.",
-        name: "With Steel in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique goldsmith levequests.",
-        name: "With Gem in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique leatherworker levequests.",
-        name: "With Skin in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique weaver levequests.",
-        name: "With Needle in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique alchemist levequests.",
-        name: "With Pestle in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 100 unique culinarian levequests.",
-        name: "With Pan in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique botanist levequests.",
-        name: "With Axe in Hand V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 80 unique miner levequests.",
-        name: "With Pick in Hand V",
         points: 10,
         reward: "-"
     }, {
@@ -423,59 +502,9 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Complete 110 unique carpenter levequests.",
-        name: "With Saw in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique blacksmith levequests.",
-        name: "With Hammer in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique armorer levequests.",
-        name: "With Steel in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique goldsmith levequests.",
-        name: "With Gem in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique leatherworker levequests.",
-        name: "With Skin in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique weaver levequests.",
-        name: "With Needle in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique alchemist levequests.",
-        name: "With Pestle in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 110 unique culinarian levequests.",
-        name: "With Pan in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 90 unique botanist levequests.",
-        name: "With Axe in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Complete 90 unique miner levequests.",
-        name: "With Pick in Hand VI",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Complete 90 unique fisher levequests.",
         name: "With Bait in Hand VI",
         points: 10,
         reward: "-"
-    }
+    },
 ];

@@ -133,6 +133,60 @@ const tasks = [
         points: 5,
         reward: "-"
     },
+    //----------------------------------------------------------------------------- Astrologian
+    {
+        description: "Achieve astrologian level 30.",
+        name: "Starstruck I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve astrologian level 40.",
+        name: "Starstruck II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve astrologian level 50.",
+        name: "Starstruck III",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve astrologian level 60.",
+        name: "Starstruck IV",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve astrologian level 70.",
+        name: "Starstruck V",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve astrologian level 80.",
+        name: "Starstruck VI",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Red Mage
+    {
+        description: "Achieve red mage level 50.",
+        name: "How Deep the Rabbit Hole Goes I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve red mage level 60.",
+        name: "How Deep the Rabbit Hole Goes II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve red mage level 70.",
+        name: "How Deep the Rabbit Hole Goes III",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve red mage level 80.",
+        name: "How Deep the Rabbit Hole Goes IV",
+        points: 5,
+        reward: "-"
+    },
     //----------------------------------------------------------------------------- Blue Mage Level
     {
         description: "Achieve blue mage level 10.",
@@ -199,60 +253,6 @@ const tasks = [
     }, {
         description: "Learn 80 blue mage spells.",
         name: "The More You Know VII",
-        points: 5,
-        reward: "-"
-    },
-    //----------------------------------------------------------------------------- Astrologian
-    {
-        description: "Achieve astrologian level 30.",
-        name: "Starstruck I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve astrologian level 40.",
-        name: "Starstruck II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve astrologian level 50.",
-        name: "Starstruck III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve astrologian level 60.",
-        name: "Starstruck IV",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve astrologian level 70.",
-        name: "Starstruck V",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve astrologian level 80.",
-        name: "Starstruck VI",
-        points: 5,
-        reward: "-"
-    },
-    //----------------------------------------------------------------------------- Red Mage
-    {
-        description: "Achieve red mage level 50.",
-        name: "How Deep the Rabbit Hole Goes I",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve red mage level 60.",
-        name: "How Deep the Rabbit Hole Goes II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve red mage level 70.",
-        name: "How Deep the Rabbit Hole Goes III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve red mage level 80.",
-        name: "How Deep the Rabbit Hole Goes IV",
         points: 5,
         reward: "-"
     },

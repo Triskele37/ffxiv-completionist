@@ -83,6 +83,66 @@ const tasks = [
         points: 10,
         reward: "Title: Seasoned Tracker"
     }, {
+        description: "Slay 6 unique rank B elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+        name: "Mark of the Dragon: B",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank B elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+        name: "Mark of Cloud and Ice: B",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank A elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+        name: "Mark of the Dragon: A",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank A elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+        name: "Mark of Cloud and Ice: A",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 3 unique rank S elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+        name: "Mark of the Dragon: S",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 3 unique rank S elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+        name: "Mark of Cloud and Ice: S",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank B elite marks in Gyr Abania.",
+        name: "Mark of the Wastes: B",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank B elite marks in Othard.",
+        name: "Mark of the East: B",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank A elite marks in Gyr Abania.",
+        name: "Mark of the Wastes: A",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 6 unique rank A elite marks in Othard.",
+        name: "Mark of the East: A",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 3 unique rank S elite marks in Gyr Abania.",
+        name: "Mark of the Wastes: S",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Slay 3 unique rank S elite marks in Othard.",
+        name: "Mark of the East: S",
+        points: 5,
+        reward: "-"
+    }, {
         description: "Slay 10 rank B elite marks.",
         name: "Bring Your B Game I",
         points: 5,
@@ -123,6 +183,36 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Slay 1,500 rank A elite marks.",
+        name: "Bring Your A Game IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Slay 3,000 rank A elite marks.",
+        name: "Bring Your A Game V",
+        points: 10,
+        reward: "Title: Of the Longest Hunt"
+    }, {
+        description: "Slay 10,000 rank A elite marks.",
+        name: "Bring Your A Game VI",
+        points: 10,
+        reward: "Title: Of the Endless Hunt"
+    }, {
+        description: "Slay 100 rank A elite marks in Norvrandt.",
+        name: "Shadowbring Your A Game I",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Slay 500 rank A elite marks in Norvrandt.",
+        name: "Shadowbring Your A Game II",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Slay 2,000 rank A elite marks in Norvrandt.",
+        name: "Shadowbring Your A Game III",
+        points: 10,
+        reward: "Title: Charming Brute"
+    }, {
         description: "Slay 3 rank S elite marks.",
         name: "Bring Your S Game I",
         points: 5,
@@ -143,81 +233,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Slay 6 unique rank B elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
-        name: "Mark of the Dragon: B",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank B elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
-        name: "Mark of Cloud and Ice: B",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank A elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
-        name: "Mark of the Dragon: A",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank A elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
-        name: "Mark of Cloud and Ice: A",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 3 unique rank S elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
-        name: "Mark of the Dragon: S",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 3 unique rank S elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
-        name: "Mark of Cloud and Ice: S",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank B elite marks in Gyr Abania.",
-        name: "Mark of the Wastes: B",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank A elite marks in Gyr Abania.",
-        name: "Mark of the Wastes: A",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 3 unique rank S elite marks in Gyr Abania.",
-        name: "Mark of the Wastes: S",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank B elite marks in Othard.",
-        name: "Mark of the East: B",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 6 unique rank A elite marks in Othard.",
-        name: "Mark of the East: A",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 3 unique rank S elite marks in Othard.",
-        name: "Mark of the East: S",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Slay 1,500 rank A elite marks.",
-        name: "Bring Your A Game IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Slay 3,000 rank A elite marks.",
-        name: "Bring Your A Game V",
-        points: 10,
-        reward: "Title: Of the Longest Hunt"
-    }, {
-        description: "Slay 10,000 rank A elite marks.",
-        name: "Bring Your A Game VI",
-        points: 10,
-        reward: "Title: Of the Endless Hunt"
-    }, {
         description: "Slay 1,000 rank S elite marks.",
         name: "Bring Your S Game IV",
         points: 10,
@@ -237,21 +252,6 @@ const tasks = [
         name: "You Got Game",
         points: 10,
         reward: "Item: Centurio Tiger Horn",
-    }, {
-        description: "Slay 100 rank A elite marks in Norvrandt.",
-        name: "Shadowbring Your A Game I",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Slay 500 rank A elite marks in Norvrandt.",
-        name: "Shadowbring Your A Game II",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Slay 2,000 rank A elite marks in Norvrandt.",
-        name: "Shadowbring Your A Game III",
-        points: 10,
-        reward: "Title: Charming Brute"
     }, {
         description: "Slay 30 elite marks of rank S or higher in Norvrandt.",
         name: "Shadowbring Your S Game I",

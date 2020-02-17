@@ -7,6 +7,7 @@ export const Achievements_Character_Disciple_of_the_Land = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Miner
     {
         description: "Achieve miner level 10.",
         name: "Breaking Rocks in the Hot Sun I",
@@ -33,6 +34,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve miner level 60.",
+        name: "Breaking Rocks in the Hot Sun VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve miner level 70.",
+        name: "Breaking Rocks in the Hot Sun VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve miner level 80.",
+        name: "Breaking Rocks in the Hot Sun VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Botanist
+    {
         description: "Achieve botanist level 10.",
         name: "Fear the Reaper I",
         points: 5,
@@ -58,6 +76,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve botanist level 60.",
+        name: "Fear the Reaper VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve botanist level 70.",
+        name: "Fear the Reaper VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve botanist level 80.",
+        name: "Fear the Reaper VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Fisher
+    {
         description: "Achieve fisher level 10.",
         name: "Gone Fishin' I",
         points: 5,
@@ -83,28 +118,8 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve miner level 60.",
-        name: "Breaking Rocks in the Hot Sun VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve botanist level 60.",
-        name: "Fear the Reaper VI",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve fisher level 60.",
         name: "Gone Fishin' VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve botanist level 70.",
-        name: "Fear the Reaper VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve miner level 70.",
-        name: "Breaking Rocks in the Hot Sun VII",
         points: 5,
         reward: "-"
     }, {
@@ -113,19 +128,9 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve botanist level 80.",
-        name: "Fear the Reaper VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve miner level 80.",
-        name: "Breaking Rocks in the Hot Sun VIII",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve fisher level 80.",
         name: "Gone Fishin' VIII",
         points: 5,
         reward: "-"
-    }
+    },
 ];

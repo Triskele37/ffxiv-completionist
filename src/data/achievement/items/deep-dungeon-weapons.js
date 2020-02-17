@@ -33,8 +33,8 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Obtain a Padjali rod.",
-        name: "Aetherpool Party: Rod",
+        description: "Obtain a pair of Padjali daggers.",
+        name: "Aetherpool Party: Daggers",
         points: 10,
         reward: "-"
     }, {
@@ -43,8 +43,8 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Obtain a pair of Padjali daggers.",
-        name: "Aetherpool Party: Daggers",
+        description: "Obtain a Padjali rod.",
+        name: "Aetherpool Party: Rod",
         points: 10,
         reward: "-"
     }, {
@@ -73,11 +73,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Obtain a piece of kinna gear.",
-        name: "Some Kinna Wonderful",
-        points: 10,
-        reward: "Title: Lightbringer"
-    }, {
         description: "Obtain a Padjali katana.",
         name: "Aetherpool Party: Katana",
         points: 10,
@@ -85,11 +80,6 @@ const tasks = [
     }, {
         description: "Obtain a Padjali rapier.",
         name: "Aetherpool Party: Rapier",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Obtain an empyrean aetherpool weapon.",
-        name: "Empyrean Dreams",
         points: 10,
         reward: "-"
     }, {
@@ -102,5 +92,15 @@ const tasks = [
         name: "Aetherpool Party: War Quoits",
         points: 10,
         reward: "-"
-    }
+    }, {
+        description: "Obtain a piece of kinna gear.",
+        name: "Some Kinna Wonderful",
+        points: 10,
+        reward: "Title: Lightbringer"
+    }, {
+        description: "Obtain an empyrean aetherpool weapon.",
+        name: "Empyrean Dreams",
+        points: 10,
+        reward: "-"
+    },
 ];

@@ -7,6 +7,7 @@ export const Achievements_PvP_Rival_Wings = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Participate
     {
         description: "Participate in a Rival Wings campaign.",
         name: "Roll the Dice I",
@@ -32,7 +33,9 @@ const tasks = [
         name: "Roll the Dice V",
         points: 20,
         reward: "Title: Wings of Steel"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Victory
+    {
         description: "Emerge victorious in a Rival Wings campaign.",
         name: "Die Another Day I",
         points: 5,
@@ -59,8 +62,8 @@ const tasks = [
         reward: "Title: Wings of Fire"
     }, {
         description: "Emerge victorious in a Hidden Gorge campaign 100 times.",
-        reward: "Item: Magitek Avenger A-1 Identification Key",
         name: "Out of Hiding",
         points: 5,
+        reward: "Item: Magitek Avenger A-1 Identification Key",
     }
 ];

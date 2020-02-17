@@ -6,55 +6,100 @@ export const Achievements_Character_General = function(parent) {
 
 const tasks = [
     {
+        name: "Mastering War I",
+        points: "20",
+        description: "Achieve level 50 as a gladiator, pugilist, marauder, archer, and lancer.",
+        reward: "Title: Warmonger"
+    }, {
+        name: "Mastering Magic I",
+        points: "20",
+        description: "Achieve level 50 as a conjurer, thaumaturge, and arcanist.",
+        reward: "Title: Archmage"
+    }, {
         name: "A Life of Adventure I",
         points: "30",
         description: "Obtain the achievements Mastering War I and Mastering Magic I.",
         reward: "Paragon's Crown"
+    }, {
+        name: "Mastering War II",
+        points: "20",
+        description: "Achieve level 60 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, and machinist.",
+        reward: "Title: Grandmaster of War"
+    }, {
+        name: "Mastering Magic II",
+        points: "20",
+        description: "Achieve level 60 as a conjurer, thaumaturge, arcanist, and astrologian.",
+        reward: "Title: Grandmaster of Magic"
     }, {
         name: "A Life of Adventure II",
         points: "30",
         description: "Obtain the achievements Mastering War II and Mastering Magic II.",
         reward: "Warlord's Crown"
     }, {
-        name: "A Life of Adventure II",
+        name: "Mastering War III",
+        points: "20",
+        description: "Achieve level 70 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, and samurai.",
+        reward: "Title: God/Goddess of the War"
+    }, {
+        name: "Mastering Magic III",
+        points: "20",
+        description: "Achieve level 70 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
+        reward: "Title: God/Goddess of the Magic"
+    }, {
+        name: "A Life of Adventure III",
         points: "30",
         description: "Obtain the achievements Mastering War III and Mastering Magic III.",
         reward: "Dynasty Crown"
+    }, {
+        name: "Mastering War IV",
+        points: "20",
+        description: "Achieve level 80 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker and dancer.",
+        reward: "Title: Soul of War"
+    }, {
+        name: "Mastering Magic IV",
+        points: "20",
+        description: "Achieve level 80 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
+        reward: "Title: Soul of Magic"
     }, {
         name: "A Life of Adventure IV",
         points: "30",
         description: "Obtain the achievements Mastering War IV and Mastering Magic IV.",
         reward: "Amaro Mount"
     }, {
-        name: "You Look Marvelous I",
-        points: "5",
-        description: "Be awarded a total of 80 points in the Fashion Report.",
-        reward: ""
-    }, {
-        name: "You Look Marvelous II",
-        points: "5",
-        description: "Be awarded a total of 90 points in the Fashion Report.",
-        reward: "Title: Fashion Leader"
-    }, {
-        name: "You Look Marvelous III",
-        points: "10",
-        description: "Be awarded a total of 100 points in the Fashion Report.",
-        reward: ""
+        name: "Mastering the Hand I",
+        points: "20",
+        description: "Achieve level 50 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+        reward: "Title: Builder of the Realm"
     }, {
         name: "Mastering the Land I",
         points: "20",
         description: "Achieve level 50 as a miner, botanist, and fisher.",
         reward: "Title: Provider of the Realm"
     }, {
+        name: "Mastering the Hand II",
+        points: "20",
+        description: "Achieve level 60 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+        reward: "Title: Grandmaster of the Hand"
+    }, {
         name: "Mastering the Land II",
         points: "20",
         description: "Achieve level 60 as a miner, botanist, and fisher.",
         reward: "Title: Grandmaster of the Land"
     }, {
+        name: "Mastering the Hand III",
+        points: "20",
+        description: "Achieve level 70 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+        reward: "Title: God/Goddess of the Hand"
+    }, {
         name: "Mastering the Land III",
         points: "20",
         description: "Achieve level 70 as a miner, botanist, and fisher.",
         reward: "Title: God/Goddess of the Land"
+    }, {
+        name: "Mastering the Hand IV",
+        points: "20",
+        description: "Achieve level 80 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+        reward: "Title: Soul of the Craft"
     }, {
         name: "Mastering the Land IV",
         points: "20",
@@ -80,121 +125,6 @@ const tasks = [
         points: "20",
         description: "Complete 500 retainer ventures.",
         reward: ""
-    }, {
-        name: "Mastering the Hand I",
-        points: "20",
-        description: "Achieve level 50 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-        reward: "Title: Builder of the Realm"
-    }, {
-        name: "Mastering the Hand II",
-        points: "20",
-        description: "Achieve level 60 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-        reward: "Title: Grandmaster of the Hand"
-    }, {
-        name: "Mastering the Hand III",
-        points: "20",
-        description: "Achieve level 70 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-        reward: "Title: God/Goddess of the Hand"
-    }, {
-        name: "Mastering the Hand IV",
-        points: "20",
-        description: "Achieve level 80 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-        reward: "Title: Soul of the Craft"
-    }, {
-        name: "Mastering War I",
-        points: "20",
-        description: "Achieve level 50 as a gladiator, pugilist, marauder, archer, and lancer.",
-        reward: "Title: Warmonger"
-    }, {
-        name: "Mastering War II",
-        points: "20",
-        description: "Achieve level 60 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, and machinist.",
-        reward: "Title: Grandmaster of War"
-    }, {
-        name: "Mastering War III",
-        points: "20",
-        description: "Achieve level 70 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, and samurai.",
-        reward: "Title: God/Goddess of the War"
-    }, {
-        name: "Mastering War IV",
-        points: "20",
-        description: "Achieve level 80 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker and dancer.",
-        reward: "Title: Soul of War"
-    }, {
-        name: "Mastering Magic I",
-        points: "20",
-        description: "Achieve level 50 as a conjurer, thaumaturge, and arcanist.",
-        reward: "Title: Archmage"
-    }, {
-        name: "Mastering Magic II",
-        points: "20",
-        description: "Achieve level 60 as a conjurer, thaumaturge, arcanist, and astrologian.",
-        reward: "Title: Grandmaster of Magic"
-    }, {
-        name: "Mastering Magic III",
-        points: "20",
-        description: "Achieve level 70 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
-        reward: "Title: God/Goddess of the Magic"
-    }, {
-        name: "Mastering Magic IV",
-        points: "20",
-        description: "Achieve level 80 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
-        reward: "Title: Soul of Magic"
-    }, {
-        name: "Bio-Doma I",
-        points: "5",
-        description: "See the Doman Enclave through the first phase of reconstruction.",
-        reward: ""
-    }, {
-        name: "Bio-Doma II",
-        points: "10",
-        description: "See the Doman Enclave through the second phase of reconstruction.",
-        reward: ""
-    }, {
-        name: "Bio-Doma III",
-        points: "10",
-        description: "See the Doman Enclave through the third phase of reconstruction.",
-        reward: ""
-    }, {
-        name: "Bio-Doma IV",
-        points: "10",
-        description: "See the Doman Enclave through the fourth phase of reconstruction.",
-        reward: ""
-    }, {
-        name: "Bio-Doma V",
-        points: "20",
-        description: "See the Doman Enclave through the fifth phase of reconstruction.",
-        reward: "Title: Philanthropist"
-    }, {
-        name: "I Hope Mentor Will Notice Me I",
-        points: "5",
-        description: "Complete 10 duties via Duty Roulette: Mentor.",
-        reward: ""
-    }, {
-        name: "I Hope Mentor Will Notice Me II",
-        points: "5",
-        description: "Complete 50 duties via Duty Roulette: Mentor.",
-        reward: "Title: Mentor"
-    }, {
-        name: "I Hope Mentor Will Notice Me III",
-        points: "5",
-        description: "Complete 200 duties via Duty Roulette: Mentor.",
-        reward: "Expeditioner's Flyers"
-    }, {
-        name: "I Hope Mentor Will Notice Me IV",
-        points: "5",
-        description: "Complete 500 duties via Duty Roulette: Mentor.",
-        reward: "Title: Mentor of Mentors"
-    }, {
-        name: "I Hope Mentor Will Notice Me V",
-        points: "10",
-        description: "Complete 1,000 duties via Duty Roulette: Mentor.",
-        reward: "Dragon Monacle"
-    }, {
-        name: "I Hope Mentor Will Notice Me VI",
-        points: "20",
-        description: "Complete 2,000 duties via Duty Roulette: Mentor.",
-        reward: "Astrope Mount"
     }, {
         name: "Breaking Bo",
         points: "5",
@@ -231,6 +161,11 @@ const tasks = [
         description: "Attune with all the aether currents on Azys Lla.",
         reward: ""
     }, {
+        name: "Frequent Flyer",
+        points: "10",
+        description: "Obtain first six \"Freebird\" achievements.",
+        reward: ""
+    }, {
         name: "Freebird: The Fringes",
         points: "5",
         description: "Attune with all the aether currents on The Fringes.",
@@ -259,6 +194,11 @@ const tasks = [
         name: "Freebird: Azim Steppe",
         points: "5",
         description: "Attune with all the aether currents on Azim Steppe.",
+        reward: ""
+    }, {
+        name: "Frequent Flyer II",
+        points: "10",
+        description: "Obtain next six \"Freebird\" achievements.",
         reward: ""
     }, {
         name: "Freebird: Lakeland",
@@ -291,25 +231,75 @@ const tasks = [
         description: "Attune with all the aether currents on the Tempest",
         reward: ""
     }, {
-        name: "Frequent Flyer",
-        points: "10",
-        description: "Obtain first six \"Freebird\" achievements.",
-        reward: ""
-    }, {
-        name: "Frequent Flyer II",
-        points: "10",
-        description: "Obtain next six \"Freebird\" achievements.",
-        reward: ""
-    }, {
         name: "Frequent Flyer III",
         points: "10",
         description: "Obtain \"Freebird\" achievements for Lakeland, Kholusia, Amh Araeng, Il Mheg, the Rak'tika Greatwood, and the Tempest. ",
         reward: ""
     }, {
-        name: "Bound by Faith",
+        name: "I Hope Mentor Will Notice Me I",
+        points: "5",
+        description: "Complete 10 duties via Duty Roulette: Mentor.",
+        reward: ""
+    }, {
+        name: "I Hope Mentor Will Notice Me II",
+        points: "5",
+        description: "Complete 50 duties via Duty Roulette: Mentor.",
+        reward: "Title: Mentor"
+    }, {
+        name: "I Hope Mentor Will Notice Me III",
+        points: "5",
+        description: "Complete 200 duties via Duty Roulette: Mentor.",
+        reward: "Expeditioner's Flyers"
+    }, {
+        name: "I Hope Mentor Will Notice Me IV",
+        points: "5",
+        description: "Complete 500 duties via Duty Roulette: Mentor.",
+        reward: "Title: Mentor of Mentors"
+    }, {
+        name: "I Hope Mentor Will Notice Me V",
+        points: "10",
+        description: "Complete 1,000 duties via Duty Roulette: Mentor.",
+        reward: "Dragon Monacle"
+    }, {
+        name: "I Hope Mentor Will Notice Me VI",
         points: "20",
-        description: "Achieve trust level 80 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, and Ryne. ",
-        reward: "Title: Trusted Friend"
+        description: "Complete 2,000 duties via Duty Roulette: Mentor.",
+        reward: "Astrope Mount"
+    }, {
+        name: "And Khloe Was Her Name-o I",
+        points: "5",
+        description: "Successfully complete a series of Wondrous Tails.",
+        reward: ""
+    }, {
+        name: "And Khloe Was Her Name-o II",
+        points: "5",
+        description: "Successfully complete 5 series of Wondrous Tails.",
+        reward: "Title: Khloe's Friend"
+    }, {
+        name: "And Khloe Was Her Name-o III",
+        points: "5",
+        description: "Successfully complete 10 series of Wondrous Tails.",
+        reward: ""
+    }, {
+        name: "And Khloe Was Her Name-o IV",
+        points: "5",
+        description: "Successfully complete 20 series of Wondrous Tails.",
+        reward: ""
+    }, {
+        name: "And Khloe Was Her Name-o V",
+        points: "5",
+        description: "Successfully complete 30 series of Wondrous Tails.",
+        reward: ""
+    }, {
+        name: "And Khloe Was Her Name-o VI",
+        points: "5",
+        description: "Successfully complete 40 series of Wondrous Tails.",
+        reward: ""
+    }, {
+        name: "And Khloe Was Her Name-o VII",
+        points: "10",
+        description: "Successfully complete 50 series of Wondrous Tails.",
+        reward: "Title: Khloe's Best Friend"
     }, {
         name: "Satisfaction Guaranteed: Zhloe Aliapoh I",
         points: "5",
@@ -436,39 +426,49 @@ const tasks = [
         description: "Achieve a satisfaction level of 5 with Kai-Shirr.",
         reward: "Title: Kai-Shirr's Best Mate"
     }, {
-        name: "And Khloe Was Her Name-o I",
+        name: "You Look Marvelous I",
         points: "5",
-        description: "Successfully complete a series of Wondrous Tails.",
+        description: "Be awarded a total of 80 points in the Fashion Report.",
         reward: ""
     }, {
-        name: "And Khloe Was Her Name-o II",
+        name: "You Look Marvelous II",
         points: "5",
-        description: "Successfully complete 5 series of Wondrous Tails.",
-        reward: "Title: Khloe's Friend"
+        description: "Be awarded a total of 90 points in the Fashion Report.",
+        reward: "Title: Fashion Leader"
     }, {
-        name: "And Khloe Was Her Name-o III",
-        points: "5",
-        description: "Successfully complete 10 series of Wondrous Tails.",
-        reward: ""
-    }, {
-        name: "And Khloe Was Her Name-o IV",
-        points: "5",
-        description: "Successfully complete 20 series of Wondrous Tails.",
-        reward: ""
-    }, {
-        name: "And Khloe Was Her Name-o V",
-        points: "5",
-        description: "Successfully complete 30 series of Wondrous Tails.",
-        reward: ""
-    }, {
-        name: "And Khloe Was Her Name-o VI",
-        points: "5",
-        description: "Successfully complete 40 series of Wondrous Tails.",
-        reward: ""
-    }, {
-        name: "And Khloe Was Her Name-o VII",
+        name: "You Look Marvelous III",
         points: "10",
-        description: "Successfully complete 50 series of Wondrous Tails.",
-        reward: "Title: Khloe's Best Friend"
+        description: "Be awarded a total of 100 points in the Fashion Report.",
+        reward: ""
+    }, {
+        name: "Bio-Doma I",
+        points: "5",
+        description: "See the Doman Enclave through the first phase of reconstruction.",
+        reward: ""
+    }, {
+        name: "Bio-Doma II",
+        points: "10",
+        description: "See the Doman Enclave through the second phase of reconstruction.",
+        reward: ""
+    }, {
+        name: "Bio-Doma III",
+        points: "10",
+        description: "See the Doman Enclave through the third phase of reconstruction.",
+        reward: ""
+    }, {
+        name: "Bio-Doma IV",
+        points: "10",
+        description: "See the Doman Enclave through the fourth phase of reconstruction.",
+        reward: ""
+    }, {
+        name: "Bio-Doma V",
+        points: "20",
+        description: "See the Doman Enclave through the fifth phase of reconstruction.",
+        reward: "Title: Philanthropist"
+    }, {
+        name: "Bound by Faith",
+        points: "20",
+        description: "Achieve trust level 80 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, and Ryne.",
+        reward: "Title: Trusted Friend"
     },
 ];

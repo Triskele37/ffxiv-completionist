@@ -24,6 +24,21 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
+        description: "Successfully complete 30 unique instanced dungeon raids or trials.",
+        name: "To the Dungeons IV",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Successfully complete 40 unique instanced dungeon raids or trials.",
+        name: "To the Dungeons V",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Successfully complete 50 unique instanced dungeon raids or trials.",
+        name: "To the Dungeons VI",
+        points: 20,
+        reward: "-"
+    }, {
         description: "Complete 10 instanced dungeon raids or trials.",
         name: "Dungeon Siege I",
         points: 5,
@@ -46,21 +61,6 @@ const tasks = [
     }, {
         description: "Complete 1,000 instanced dungeon raids or trials.",
         name: "Dungeon Master",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Successfully complete 30 unique instanced dungeon raids or trials.",
-        name: "To the Dungeons IV",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Successfully complete 40 unique instanced dungeon raids or trials.",
-        name: "To the Dungeons V",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Successfully complete 50 unique instanced dungeon raids or trials.",
-        name: "To the Dungeons VI",
         points: 20,
         reward: "-"
     }, {
@@ -129,6 +129,11 @@ const tasks = [
         points: 10,
         reward: "Title: Lonely Explorer"
     }, {
+        description: "Clear the 1st through the 200th floors of the Palace of the Dead solo.",
+        name: "Pal-less Palace III",
+        points: 20,
+        reward: "Title: The Necromancer"
+    }, {
         description: "Discover a piece of the Accursed Hoard.",
         name: "For the Hoard I",
         points: 5,
@@ -149,6 +154,11 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
+        description: "Discover 10,000 pieces of the Accursed Hoard.",
+        name: "For the Hoard V",
+        points: 20,
+        reward: "Title: Hoarder"
+    }, {
         description: "Discover a piece of the Accursed Hoard without using a pomander of intuition.",
         name: "The Trouble with Buried I",
         points: 10,
@@ -158,11 +168,6 @@ const tasks = [
         name: "The Trouble with Buried II",
         points: 20,
         reward: "Title: Of the Sixth Sense"
-    }, {
-        description: "Clear the 1st through the 200th floors of the Palace of the Dead solo.",
-        name: "Pal-less Palace III",
-        points: 20,
-        reward: "Title: The Necromancer"
     }, {
         description: "Clear the 10th floor of Heaven–on–High.",
         name: "She's So High I",
@@ -199,10 +204,20 @@ const tasks = [
         points: 10,
         reward: "Title: Lone Hero"
     }, {
-        description: "Discover 10,000 pieces of the Accursed Hoard.",
-        name: "For the Hoard V",
-        points: 20,
-        reward: "Title: Hoarder"
+        description: "Clear the Baldesion Arsenal.",
+        name: "We're on Your Side I",
+        points: 5,
+        reward: "Item: Demi-Ozma",
+    }, {
+        description: "Clear the Baldesion Arsenal 5 times.",
+        name: "We're on Your Side II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Clear the Baldesion Arsenal 10 times.",
+        name: "We're on Your Side III",
+        points: 5,
+        reward: "-"
     }, {
         description: "Complete a single stage at the Masked Carnivale.",
         name: "Smokin' I",
@@ -234,6 +249,11 @@ const tasks = [
         points: 5,
         reward: "Title: Mask of the Blue"
     }, {
+        description: "Complete 30 stages at the Masked Carnivale.",
+        name: "Smokin' VII",
+        points: 5,
+        reward: "-"
+    }, {
         description: "Achieve the “Giant Slayer” feat at the Masked Carnivale.",
         name: "The Harder They Fall",
         points: 10,
@@ -248,26 +268,6 @@ const tasks = [
         name: "Something Borrowed",
         points: 10,
         reward: "Title: Perfect Blue"
-    }, {
-        description: "Clear the Baldesion Arsenal.",
-        reward: "Item: Demi-Ozma",
-        name: "We're on Your Side I",
-        points: 5
-    }, {
-        description: "Clear the Baldesion Arsenal 5 times.",
-        name: "We're on Your Side II",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Clear the Baldesion Arsenal 10 times.",
-        name: "We're on Your Side III",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Complete 30 stages at the Masked Carnivale.",
-        name: "Smokin' VII",
-        points: 5,
-        reward: "-"
     }, {
         description: "Achieve the “The Celestium's Finest” feat at the Masked Carnivale.",
         name: "None More Blue",

@@ -7,6 +7,7 @@ export const Achievements_PvP_Frontline = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Participate
     {
         description: "Participate in a Frontline campaign.",
         name: "Walk the Line I",
@@ -37,7 +38,9 @@ const tasks = [
         name: "Life on the Line",
         points: 20,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Maelstrom Victory
+    {
         description: "Guide the Maelstrom to a Frontline victory.",
         name: "A Line in the Storm I",
         points: 5,
@@ -67,7 +70,9 @@ const tasks = [
         name: "The Amethyst Keel",
         points: 20,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Twin Adder Victory
+    {
         description: "Guide the Order of the Twin Adder to a Frontline victory.",
         name: "A Line in the Glade I",
         points: 5,
@@ -97,7 +102,9 @@ const tasks = [
         name: "The Ebony Leaf",
         points: 20,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Immortal Flames Victory
+    {
         description: "Guide the Immortal Flames to a Frontline victory.",
         name: "A Line in the Sand I",
         points: 5,
@@ -127,7 +134,9 @@ const tasks = [
         name: "The Rose Gold Scales",
         points: 20,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Destroy Drone
+    {
         description: "Destroy an interceptor drone.",
         name: "Prime Air I",
         points: 5,
@@ -152,7 +161,9 @@ const tasks = [
         name: "A Drone in the Dark",
         points: 10,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Destroy Node
+    {
         description: "Destroy an interceptor node.",
         name: "Just Say Node I",
         points: 5,
@@ -177,7 +188,9 @@ const tasks = [
         name: "A Node off My Back",
         points: 10,
         reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Kills
+    {
         description: "Dispatch an enemy on a Frontline campaign.",
         name: "Slaughterhouse One",
         points: 5,
@@ -202,12 +215,21 @@ const tasks = [
         name: "Slaughterhouse Five",
         points: 20,
         reward: "Title: The Hand of Mercy"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Overall Victory
+    {
         description: "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
-        reward: "Item: Logistics System Identification Key",
         name: "Behind Enemy Lines I",
         points: 10,
+        reward: "Item: Logistics System Identification Key",
     }, {
+        description: "Guide any of the three Grand Companies to a total of 300 Frontline victories.",
+        name: "Behind Enemy Lines II",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Occupy
+    {
         description: "Occupy a tomelith on Seal Rock.",
         name: "Hounding the Rock I",
         points: 5,
@@ -232,37 +254,36 @@ const tasks = [
         name: "Hounding the Rock V",
         points: 10,
         reward: "-"
-    }, {
-        description: "Guide any of the three Grand Companies to a total of 300 Frontline victories.",
-        name: "Behind Enemy Lines II",
-        points: 10,
-        reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Overall Victory (Seal Rock)
+    {
         description: "Guide any of the three Grand Companies to victory on Seal Rock.",
-        reward: "Item: Field Commander's Helm",
         name: "Between a Rock and a Hard Place I",
         points: 5,
+        reward: "Item: Field Commander's Helm",
     }, {
         description: "Guide any of the three Grand Companies to a total of 10 Seal Rock campaign victories combined.",
-        reward: "Item: Field Commander's Boots",
         name: "Between a Rock and a Hard Place II",
         points: 5,
+        reward: "Item: Field Commander's Boots",
     }, {
         description: "Guide any of the three Grand Companies to a total of 30 Seal Rock campaign victories combined.",
-        reward: "Item: Field Commander's Gloves",
         name: "Between a Rock and a Hard Place III",
         points: 5,
+        reward: "Item: Field Commander's Gloves",
     }, {
         description: "Guide any of the three Grand Companies to a total of 50 Seal Rock campaign victories combined.",
-        reward: "Item: Field Commander's Slops",
         name: "Between a Rock and a Hard Place IV",
         points: 5,
+        reward: "Item: Field Commander's Slops",
     }, {
         description: "Guide any of the three Grand Companies to a total of 100 Seal Rock campaign victories combined.",
-        reward: "Item: Field Commander's Coat",
         name: "Between a Rock and a Hard Place V",
         points: 5,
-    }, {
+        reward: "Item: Field Commander's Coat",
+    },
+    //----------------------------------------------------------------------------- Overall Victory Again?
+    {
         description: "Guide any of the three Grand Companies to a total of 300 Seal Rock campaign victories combined.",
         name: "Beneath Enemy Rocks",
         points: 10,
@@ -297,7 +318,9 @@ const tasks = [
         name: "In a Blaze of Glory VI",
         points: 10,
         reward: "Title: The Knight of Glory"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Wins Again again?
+    {
         description: "Triumph for the first time in Frontline.",
         name: "Front and Center I",
         points: 5,
@@ -327,7 +350,9 @@ const tasks = [
         name: "Front and Center VI",
         points: 20,
         reward: "Title: Vanguard"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Victories (Onsal Hakair)
+    {
         description: "Guide any of the three Grand Companies to victory at Onsal Hakair.",
         name: "One Steppe at a Time I",
         points: 5,

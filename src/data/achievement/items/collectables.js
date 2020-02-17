@@ -7,6 +7,7 @@ export const Achievements_Items_Collectables = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Synthesize 100 collectables.",
         name: "I Made That (Worth Collecting) I",
@@ -23,6 +24,18 @@ const tasks = [
         points: 10,
         reward: "Title: Molder of Masterpieces"
     }, {
+        description: "Synthesize 3,000 collectables.",
+        name: "I Made That (Worth Collecting) IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Synthesize 5,000 collectables.",
+        name: "I Made That (Worth Collecting) V",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Gather/Catch
+    {
         description: "Gather or catch 300 collectables.",
         name: "I Collected That I",
         points: 5,
@@ -38,6 +51,18 @@ const tasks = [
         points: 10,
         reward: "Title: Amasser of Masterpieces"
     }, {
+        description: "Gather or catch 5,000 collectables.",
+        name: "I Collected That IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Gather or catch 8,000 collectables.",
+        name: "I Collected That V",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Splendors
+    {
         description: "Submit 300 collectables to Rowena's House of Splendors.",
         name: "I Traded That I",
         points: 5,
@@ -52,7 +77,9 @@ const tasks = [
         name: "I Traded That III",
         points: 10,
         reward: "Title: Business Associate"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Zhloe
+    {
         description: "Deliver 36 collectables to Zhloe Aliapoh.",
         name: "The Customer Is Always Right: Zhloe Aliapoh I",
         points: 5,
@@ -82,17 +109,9 @@ const tasks = [
         name: "The Customer Is Always Right: Zhloe Aliapoh VI",
         points: 10,
         reward: "Title: Zhloe's Best Friend"
-    }, {
-        description: "Synthesize 3,000 collectables.",
-        name: "I Made That (Worth Collecting) IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Gather or catch 5,000 collectables.",
-        name: "I Collected That IV",
-        points: 10,
-        reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- M'Naago
+    {
         description: "Deliver 36 collectables to M'naago.",
         name: "The Customer Is Always Right: M'naago I",
         points: 5,
@@ -122,7 +141,9 @@ const tasks = [
         name: "The Customer Is Always Right: M'naago VI",
         points: 10,
         reward: "Title: Naago's Partner"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Kurenai
+    {
         description: "Deliver 36 collectables to Kurenai.",
         name: "The Customer Is Always Right: Kurenai I",
         points: 5,
@@ -152,7 +173,9 @@ const tasks = [
         name: "The Customer Is Always Right: Kurenai VI",
         points: 10,
         reward: "Title: Kurenai's Partner"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Adkiragh
+    {
         description: "Deliver 36 collectables to Adkiragh.",
         name: "The Customer Is Always Right: Adkiragh I",
         points: 5,
@@ -182,17 +205,9 @@ const tasks = [
         name: "The Customer Is Always Right: Adkiragh VI",
         points: 10,
         reward: "Title: Tough Customer"
-    }, {
-        description: "Synthesize 5,000 collectables.",
-        name: "I Made That (Worth Collecting) V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Gather or catch 8,000 collectables.",
-        name: "I Collected That V",
-        points: 10,
-        reward: "-"
-    }, {
+    },
+    //----------------------------------------------------------------------------- Kai-Shirr
+    {
         description: "Deliver 36 collectables to Kai-Shirr.",
         name: "The Customer Is Always Right: Kai-Shirr I",
         points: 5,

@@ -7,6 +7,7 @@ export const Achievements_Gathering_Botanist = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Gather
     {
         description: "Log 20 times from level 1-10 mature trees in La Noscea.",
         name: "Logging the Hours: La Noscea I",
@@ -99,10 +100,27 @@ const tasks = [
         reward: "Title: Desertreaper"
     }, {
         description: "Obtain the \u201cA Botanist's Life for Me\u201d achievements for La Noscea, the Black Shroud, and Thanalan.",
-        reward: "Item: Axe of the Luminary",
         name: "A Botanist's Life for Me: Greater Eorzea",
         points: 30,
+        reward: "Item: Axe of the Luminary",
     }, {
+        description: "Gather 5,000 times from level 51-60 mature trees or lush vegetation.",
+        name: "Reaping Heavensward",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Gather 5,000 times from level 61-70 mature trees or lush vegetation.",
+        name: "Reaping Stormblood",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Gather 5,000 times from level 71-80 mature trees or lush vegetation.",
+        name: "Reaping Shadowbringers",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique
+    {
         description: "Harvest and record discovery of 25 unique items that can only be gathered as a botanist.",
         name: "I Found That: Botanist I",
         points: 5,
@@ -118,6 +136,23 @@ const tasks = [
         name: "I Found That: Botanist III",
         points: 10,
     }, {
+        description: "Harvest and record discovery of 150 unique items that can only be gathered as a botanist.",
+        name: "I Found That: Botanist IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Harvest and record discovery of 230 unique items that can only be gathered as a botanist.",
+        name: "I Found That: Botanist V",
+        points: 10,
+        reward: "Item: Blessed Fieldkeep's Hatchet",
+    }, {
+        description: "Harvest and record discovery of 280 unique items that can only be gathered as a botanist.",
+        name: "I Found That: Botanist VI",
+        points: 10,
+        reward: "Item: Blessed Fieldking's Hatchet",
+    },
+    //----------------------------------------------------------------------------- HQ Gather
+    {
         description: "Gather 300 high-quality items as a botanist.",
         name: "An Eye for Quality: Botanist I",
         points: 5,
@@ -133,39 +168,9 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Harvest and record discovery of 150 unique items that can only be gathered as a botanist.",
-        name: "I Found That: Botanist IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Gather 5,000 times from level 51-60 mature trees or lush vegetation.",
-        name: "Reaping Heavensward",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Gather 20,000 high-quality items as a botanist.",
         name: "An Eye for Quality: Botanist IV",
         points: 10,
         reward: "Title: Master Botanist"
-    }, {
-        description: "Harvest and record discovery of 230 unique items that can only be gathered as a botanist.",
-        reward: "Item: Blessed Fieldkeep's Hatchet",
-        name: "I Found That: Botanist V",
-        points: 10,
-    }, {
-        description: "Gather 5,000 times from level 61-70 mature trees or lush vegetation.",
-        name: "Reaping Stormblood",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Harvest and record discovery of 280 unique items that can only be gathered as a botanist.",
-        reward: "Item: Blessed Fieldking's Hatchet",
-        name: "I Found That: Botanist VI",
-        points: 10,
-    }, {
-        description: "Gather 5,000 times from level 71-80 mature trees or lush vegetation.",
-        name: "Reaping Shadowbringers",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

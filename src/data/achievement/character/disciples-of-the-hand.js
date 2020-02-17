@@ -8,6 +8,7 @@ export const Achievements_Character_Disciple_of_the_Hand = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Carpenter
     {
         description: "Achieve carpenter level 10.",
         name: "Knock on Wood I",
@@ -34,6 +35,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve carpenter level 60.",
+        name: "Knock on Wood VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve carpenter level 70.",
+        name: "Knock on Wood VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve carpenter level 80.",
+        name: "Knock on Wood VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Blacksmith
+    {
         description: "Achieve blacksmith level 10.",
         name: "Temper, Temper I",
         points: 5,
@@ -59,6 +77,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve blacksmith level 60.",
+        name: "Temper, Temper VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve blacksmith level 70.",
+        name: "Temper, Temper VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve blacksmith level 80.",
+        name: "Temper, Temper VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Armorer
+    {
         description: "Achieve armorer level 10.",
         name: "The Riddle of Steel I",
         points: 5,
@@ -84,6 +119,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve armorer level 60.",
+        name: "The Riddle of Steel VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve armorer level 70.",
+        name: "The Riddle of Steel VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve armorer level 80.",
+        name: "The Riddle of Steel VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Goldsmith
+    {
         description: "Achieve goldsmith level 10.",
         name: "Heart of Gold I",
         points: 5,
@@ -109,6 +161,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve goldsmith level 60.",
+        name: "Heart of Gold VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve goldsmith level 70.",
+        name: "Heart of Gold VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve goldsmith level 80.",
+        name: "Heart of Gold VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Leatherworker
+    {
         description: "Achieve leatherworker level 10.",
         name: "Tougher than Leather I",
         points: 5,
@@ -134,6 +203,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve leatherworker level 60.",
+        name: "Tougher than Leather VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve leatherworker level 70.",
+        name: "Tougher than Leather VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve leatherworker level 80.",
+        name: "Tougher than Leather VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Weaver
+    {
         description: "Achieve weaver level 10.",
         name: "Smiling, Styling, and Textiling I",
         points: 5,
@@ -159,6 +245,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve weaver level 60.",
+        name: "Smiling, Styling, and Textiling VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve weaver level 70.",
+        name: "Smiling, Styling, and Textiling VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve weaver level 80.",
+        name: "Smiling, Styling, and Textiling VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Alchemist
+    {
         description: "Achieve alchemist level 10.",
         name: "'Tis True without Lying I",
         points: 5,
@@ -184,6 +287,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve alchemist level 60.",
+        name: "'Tis True without Lying VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve alchemist level 70.",
+        name: "'Tis True without Lying VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve alchemist level 80.",
+        name: "'Tis True without Lying VIII",
+        points: 5,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Culinarian
+    {
         description: "Achieve culinarian level 10.",
         name: "All in Good Taste I",
         points: 5,
@@ -209,78 +329,8 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve carpenter level 60.",
-        name: "Knock on Wood VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve blacksmith level 60.",
-        name: "Temper, Temper VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve armorer level 60.",
-        name: "The Riddle of Steel VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve goldsmith level 60.",
-        name: "Heart of Gold VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve leatherworker level 60.",
-        name: "Tougher than Leather VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve weaver level 60.",
-        name: "Smiling, Styling, and Textiling VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve alchemist level 60.",
-        name: "'Tis True without Lying VI",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve culinarian level 60.",
         name: "All in Good Taste VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve carpenter level 70.",
-        name: "Knock on Wood VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve blacksmith level 70.",
-        name: "Temper, Temper VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve armorer level 70.",
-        name: "The Riddle of Steel VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve goldsmith level 70.",
-        name: "Heart of Gold VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve leatherworker level 70.",
-        name: "Tougher than Leather VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve weaver level 70.",
-        name: "Smiling, Styling, and Textiling VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve alchemist level 70.",
-        name: "'Tis True without Lying VII",
         points: 5,
         reward: "-"
     }, {
@@ -289,44 +339,9 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve carpenter level 80.",
-        name: "Knock on Wood VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve blacksmith level 80.",
-        name: "Temper, Temper VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve armorer level 80.",
-        name: "The Riddle of Steel VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve goldsmith level 80.",
-        name: "Heart of Gold VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve leatherworker level 80.",
-        name: "Tougher than Leather VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve weaver level 80.",
-        name: "Smiling, Styling, and Textiling VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve alchemist level 80.",
-        name: "'Tis True without Lying VIII",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve culinarian level 80",
         name: "All in Good Taste VIII",
         points: 5,
         reward: "-"
-    }
+    },
 ];

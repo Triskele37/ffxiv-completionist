@@ -7,6 +7,7 @@ export const Achievements_Items_Relic_Weapons = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Weapon
     {
         description: "Obtain Curtana and a Holy Shield in the quest \u201cA Relic Reborn.\u201d",
         name: "Raising the Curtana",
@@ -33,6 +34,11 @@ const tasks = [
         points: 10,
         reward: "Title: The Godsbow"
     }, {
+        description: "Obtain a pair of Yoshimitsu in the quest \u201cA Relic Reborn.\u201d",
+        name: "Yoshimitsu's Island",
+        points: 10,
+        reward: "Title: The Shadow"
+    }, {
         description: "Obtain Thyrus in the quest \u201cA Relic Reborn.\u201d",
         name: "Dressed to Heal",
         points: 10,
@@ -42,11 +48,6 @@ const tasks = [
         name: "Ohohohohoho!",
         points: 10,
         reward: "Title: Starcaller"
-    }, {
-        description: "Obtain Curtana, a Holy Shield, a pair of Sphairai, a Bravura, Gae Bolg, the Artemis Bow, Thyrus, a Stardust Rod, the Veil of Wiyu, and a copy of the Omnilex in the quest \u201cA Relic Reborn.\u201d",
-        name: "Armed to the Teeth",
-        points: 30,
-        reward: "Title: The Insatiable"
     }, {
         description: "Obtain the Veil of Wiyu in the quest \u201cA Relic Reborn.\u201d",
         name: "Green Eyes",
@@ -58,6 +59,13 @@ const tasks = [
         points: 10,
         reward: "Title: The Strategist"
     }, {
+        description: "Obtain Curtana, a Holy Shield, a pair of Sphairai, a Bravura, Gae Bolg, the Artemis Bow, Thyrus, a Stardust Rod, the Veil of Wiyu, and a copy of the Omnilex in the quest \u201cA Relic Reborn.\u201d",
+        name: "Armed to the Teeth",
+        points: 30,
+        reward: "Title: The Insatiable"
+    },
+    //----------------------------------------------------------------------------- Steps
+    {
         description: "Obtain a relic weapon animus.",
         name: "Taking It to the Stars",
         points: 10,
@@ -72,10 +80,5 @@ const tasks = [
         name: "Inspire the Nexus",
         points: 10,
         reward: "-"
-    }, {
-        description: "Obtain a pair of Yoshimitsu in the quest \u201cA Relic Reborn.\u201d",
-        name: "Yoshimitsu's Island",
-        points: 10,
-        reward: "Title: The Shadow"
-    }
+    },
 ];

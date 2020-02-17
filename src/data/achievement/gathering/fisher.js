@@ -7,6 +7,7 @@ export const Achievements_Gathering_Fisher = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Gather
     {
         description: "Fish 20 times from level 1-10 waters in La Noscea.",
         name: "Good Things Come to Those Who Bait: La Noscea I",
@@ -99,10 +100,27 @@ const tasks = [
         reward: "Title: Desertcaster"
     }, {
         description: "Obtain the \u201cA Fisher's Life for Me\u201d achievements for La Noscea, the Black Shroud, and Thanalan.",
-        reward: "Item: Rod of the Luminary",
         name: "A Fisher's Life for Me: Greater Eorzea",
         points: 30,
+        reward: "Item: Rod of the Luminary",
     }, {
+        description: "Fish 3,000 times from level 51-60 waters.",
+        name: "Baiting Heavensward",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Fish or gig 3,000 times from level 61-70 waters.",
+        name: "Baiting Stormblood",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Fish or gig 3,000 times from level 71-80 waters.",
+        name: "Baiting Shadowbringers",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique
+    {
         description: "Catch and record discovery of 40 unique fish.",
         name: "I Caught That I",
         points: 5,
@@ -118,6 +136,23 @@ const tasks = [
         name: "I Caught That III",
         points: 10,
     }, {
+        description: "Catch and record discovery of 400 unique fish.",
+        name: "I Caught That IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch and record discovery of 460 unique fish.",
+        name: "I Caught That V",
+        points: 10,
+        reward: "Item: Blessed Tacklekeep's Rod",
+    }, {
+        description: "Catch and record discovery of 780 unique fish.",
+        name: "I Caught That VI",
+        points: 10,
+        reward: "Item: Blessed Tackleking's Rod",
+    },
+    //----------------------------------------------------------------------------- HQ Gather
+    {
         description: "Catch 100 high-quality fish.",
         name: "The One that Didn't Get Away I",
         points: 5,
@@ -133,6 +168,13 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Catch 10,000 high-quality fish.",
+        name: "The One that Didn't Get Away IV",
+        points: 10,
+        reward: "Title: Master Fisher"
+    },
+    //----------------------------------------------------------------------------- Big Fish
+    {
         description: "Catch your first big fish in the Source world.",
         name: "Go Big or Go Home I",
         points: 5,
@@ -183,21 +225,6 @@ const tasks = [
         name: "Go Big or Go Home X",
         points: 20,
     }, {
-        description: "Catch and record discovery of 400 unique fish.",
-        name: "I Caught That IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Fish 3,000 times from level 51-60 waters.",
-        name: "Baiting Heavensward",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Catch 10,000 high-quality fish.",
-        name: "The One that Didn't Get Away IV",
-        points: 10,
-        reward: "Title: Master Fisher"
-    }, {
         description: "Catch 119 different varieties of big fish in the Source world.",
         name: "Go Big or Go Home XI",
         points: 20,
@@ -208,19 +235,9 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
-        description: "Catch and record discovery of 460 unique fish.",
-        reward: "Item: Blessed Tacklekeep's Rod",
-        name: "I Caught That V",
-        points: 10,
-    }, {
         description: "Catch 156 different varieties of big fish in the Source world.",
         name: "Go Big or Go Home XIII",
         points: 20,
-        reward: "-"
-    }, {
-        description: "Fish or gig 3,000 times from level 61-70 waters.",
-        name: "Baiting Stormblood",
-        points: 10,
         reward: "-"
     }, {
         description: "Catch 170 different varieties of big fish in the Source world.",
@@ -233,24 +250,14 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
-        description: "Catch and record discovery of 780 unique fish.",
-        reward: "Item: Blessed Tackleking's Rod",
-        name: "I Caught That VI",
-        points: 10,
-    }, {
         description: "Catch 204 different varieties of big fish in the Source world.",
         name: "Go Big or Go Home XVI",
         points: 20,
         reward: "Title: Grandmaster Caster"
     }, {
-        description: "Fish or gig 3,000 times from level 71-80 waters.",
-        name: "Baiting Shadowbringers",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Catch 8 different varieties of big fish in the First world.",
         name: "Go Big Far from Home",
         points: 10,
         reward: "-"
-    }
+    },
 ];

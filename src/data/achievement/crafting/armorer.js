@@ -7,6 +7,7 @@ export const Achievements_Crafting_Armorer = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 armorcraft recipes.",
         name: "Pounding Out the Dents: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Hammer"
     }, {
         description: "Obtain the first five “Pounding Out the Dents” achievements.",
-        reward: "Item: Mallet of the Luminary",
         name: "An Armorer's Life for Me",
         points: 30,
+        reward: "Item: Mallet of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 armorcraft recipes.",
+        name: "Pounding Out the Dents: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 armorcraft recipes.",
+        name: "Pounding Out the Dents: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 armorcraft recipes.",
+        name: "Pounding Out the Dents: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 40 unique armorer recipes.",
         name: "I Made That: Armorer I",
         points: 5,
@@ -49,10 +67,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Craft and record completion of 170 unique armorer recipes.",
-        reward: "Item: Master Armorer's Ring",
         name: "I Made That: Armorer III",
         points: 10,
+        reward: "Item: Master Armorer's Ring",
     }, {
+        description: "Craft and record completion of 230 unique armorer recipes.",
+        name: "I Made That: Armorer IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 300 unique armorer recipes.",
+        name: "I Made That: Armorer V",
+        points: 10,
+        reward: "Item: Blessed Hammerkeep's Beetle",
+    }, {
+        description: "Craft and record completion of 370 unique armorer recipes.",
+        name: "I Made That: Armorer VI",
+        points: 10,
+        reward: "Item: Blessed Hammerking's Beetle",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as an armorer.",
         name: "An Eye for Detail: Armorer I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 230 unique armorer recipes.",
-        name: "I Made That: Armorer IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 armorcraft recipes.",
-        name: "Pounding Out the Dents: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as an armorer.",
         name: "An Eye for Detail: Armorer IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Armorer V",
         points: 10,
         reward: "Title: Master Armorer"
-    }, {
-        description: "Craft and record completion of 300 unique armorer recipes.",
-        reward: "Item: Blessed Hammerkeep's Beetle",
-        name: "I Made That: Armorer V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 armorcraft recipes.",
-        name: "Pounding Out the Dents: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 370 unique armorer recipes.",
-        reward: "Item: Blessed Hammerking's Beetle",
-        name: "I Made That: Armorer VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 armorcraft recipes.",
-        name: "Pounding Out the Dents: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

@@ -29,9 +29,9 @@ const tasks = [
         reward: "Title: Stormlord"
     }, {
         description: "Earn 500,000 Storm Seals.",
-        reward: "Item: Maelstrom Escutcheon",
         name: "The Ruby Anchor",
         points: 20,
+        reward: "Item: Maelstrom Escutcheon",
     }, {
         description: "Complete 10 company levequests for the Maelstrom.",
         name: "In Good Company: Maelstrom I",
@@ -49,9 +49,9 @@ const tasks = [
         reward: "Title: The Stormsworn"
     }, {
         description: "Complete 500 company levequests for the Maelstrom.",
-        reward: "Item: Crimson Standard Bracelet",
         name: "The Turquoise Cannon",
         points: 20,
+        reward: "Item: Crimson Standard Bracelet",
     }, {
         description: "Complete 10 supply missions for the Maelstrom.",
         name: "Fueling the Storm I",
@@ -69,9 +69,9 @@ const tasks = [
         reward: "Title: Stormcarrier"
     }, {
         description: "Complete 500 supply missions for the Maelstrom.",
-        reward: "Item: Crimson Standard Earrings",
         name: "The Onyx Oars",
         points: 20,
+        reward: "Item: Crimson Standard Earrings",
     }, {
         description: "Complete 10 provisioning missions for the Maelstrom.",
         name: "To Each According to His Need: Maelstrom I",
@@ -89,9 +89,9 @@ const tasks = [
         reward: "Title: Stormbringer"
     }, {
         description: "Complete 200 provisioning missions for the Maelstrom.",
-        reward: "Item: Crimson Standard Ring",
         name: "The Jade Mast",
         points: 20,
+        reward: "Item: Crimson Standard Ring",
     }, {
         description: "Complete 5 unique Maelstrom levequests.",
         name: "In the Red I",
@@ -109,8 +109,8 @@ const tasks = [
         reward: "-"
     }, {
         description: "Complete all Maelstrom entries in the hunting log.",
-        reward: "Item: Mammet #003L",
         name: "Bump on a Log: Maelstrom",
         points: 20,
+        reward: "Item: Mammet #003L",
     }
 ];

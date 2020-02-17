@@ -14,9 +14,9 @@ const tasks = [
         reward: "-"
     }, {
         description: "Complete entries 1-80 in your sightseeing log.",
-        reward: "Item: Fledgling Apkallu",
         name: "Out of Sight Out of Mind",
         points: 10,
+        reward: "Item: Fledgling Apkallu",
     }, {
         description: "Complete entries 1-42 in your Heavensward sightseeing log.",
         name: "Out of Sight Out of Bounds I",

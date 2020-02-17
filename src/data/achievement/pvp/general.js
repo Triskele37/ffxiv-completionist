@@ -101,21 +101,4 @@ const tasks = [
         description: "Achieve PvP rank 50 with the Immortal Flames.",
         reward: "Title: Flame Chaser"
     },
-    //----------------------------------------------------------------------------- Legacy
-    {
-        name: "Fatal Feast",
-        points: "10",
-        description: "Emerge victorious in 30 Feast matches while using a title received from the disreputable priest. ",
-        reward: "Goten Pipe"
-    }, {
-        name: "Frontline Fury",
-        points: "10",
-        description: "Emerge victorious in 10 Frontline or Rival Wings campaigns while using a title received from the disreputable priest.",
-        reward: "Ginga Pipe"
-    }, {
-        name: "Furious Fatalities",
-        points: "20",
-        description: "Emerge victorious in 60 Frontline or Rival Wings campaigns or Feast matches while using a title received from the disreputable priest.",
-        reward: "Raigo Pipe"
-    },
 ];

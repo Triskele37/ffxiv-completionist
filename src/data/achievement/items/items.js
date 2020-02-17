@@ -52,19 +52,19 @@ const tasks = [
         reward: "Title: Mammeteer"
     }, {
         description: "Add 10 unique music rolls to your orchestrion.",
-        reward: "Item: Prelude \u2013 Discoveries Orchestrion Roll",
         name: "The Leader of the Band I",
         points: 5,
+        reward: "Item: Prelude \u2013 Discoveries Orchestrion Roll",
     }, {
         description: "Add 30 unique music rolls to your orchestrion.",
-        reward: "Item: Ultima Orchestrion Roll",
         name: "The Leader of the Band II",
         points: 5,
+        reward: "Item: Ultima Orchestrion Roll",
     }, {
         description: "Add 50 unique music rolls to your orchestrion.",
-        reward: "Item: Defender of the Realm Orchestrion Roll",
         name: "The Leader of the Band III",
         points: 10,
+        reward: "Item: Defender of the Realm Orchestrion Roll",
     }, {
         description: "Add 70 unique music rolls to your orchestrion.",
         name: "The Leader of the Band IV",
@@ -72,14 +72,14 @@ const tasks = [
         reward: "-"
     }, {
         description: "Add 100 unique music rolls to your orchestrion.",
-        reward: "Item: The Seventh Sun Orchestrion Roll",
         name: "The Leader of the Band V",
         points: 10,
+        reward: "Item: The Seventh Sun Orchestrion Roll",
     }, {
         description: "Add 200 unique music rolls to your orchestrion.",
-        reward: "Item: Prelude - Long March Home Orchestrion Roll",
         name: "The Leader of the Band VI",
         points: 10,
+        reward: "Item: Prelude - Long March Home Orchestrion Roll",
     }, {
         description: "Speak with the cast-off Confederate while in possession of all four of the empyrean accessories.",
         name: "Dressed for Heaven",

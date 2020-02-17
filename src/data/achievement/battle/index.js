@@ -4,8 +4,8 @@ import { Achievements_Battle_Battle } from "./battle";
 import { Achievements_Battle_Dungeons } from "./dungeons";
 import { Achievements_Battle_Trials } from "./trials";
 import { Achievements_Battle_Raids } from "./raids";
-import { Achievements_Battle_The_Hunt } from "./hunt";
-import { Achievements_Battle_Treasure_Hunt } from "./treasurehunt";
+import { Achievements_Battle_The_Hunt } from "./the-hunt";
+import { Achievements_Battle_Treasure_Hunt } from "./treasure-hunt";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 

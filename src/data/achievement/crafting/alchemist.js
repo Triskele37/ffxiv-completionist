@@ -7,6 +7,7 @@ export const Achievements_Crafting_Alchemist = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 alchemy recipes.",
         name: "Mixing It Up: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Lead"
     }, {
         description: "Obtain the first five “Mixing it Up” achievements.",
-        reward: "Item: Alembic of the Luminary",
         name: "An Alchemist's Life for Me",
         points: 30,
+        reward: "Item: Alembic of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 alchemy recipes.",
+        name: "Mixing It Up: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 alchemy recipes.",
+        name: "Mixing It Up: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 alchemy recipes.",
+        name: "Mixing It Up: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 30 unique alchemist recipes.",
         name: "I Made That: Alchemist I",
         points: 5,
@@ -49,10 +67,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Craft and record completion of 110 unique alchemist recipes.",
-        reward: "Item: Master Alchemist's Ring",
         name: "I Made That: Alchemist III",
         points: 10,
+        reward: "Item: Master Alchemist's Ring",
     }, {
+        description: "Craft and record completion of 170 unique alchemist recipes.",
+        name: "I Made That: Alchemist IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 270 unique alchemist recipes.",
+        name: "I Made That: Alchemist V",
+        points: 10,
+        reward: "Item: Blessed Cauldronkeep's Alembic",
+    }, {
+        description: "Craft and record completion of 370 unique alchemist recipes.",
+        name: "I Made That: Alchemist VI",
+        points: 10,
+        reward: "Item: Blessed Cauldronking's Alembic",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as an alchemist.",
         name: "An Eye for Detail: Alchemist I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 170 unique alchemist recipes.",
-        name: "I Made That: Alchemist IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 alchemy recipes.",
-        name: "Mixing It Up: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as an alchemist.",
         name: "An Eye for Detail: Alchemist IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Alchemist V",
         points: 10,
         reward: "Title: Master Alchemist"
-    }, {
-        description: "Craft and record completion of 270 unique alchemist recipes.",
-        reward: "Item: Blessed Cauldronkeep's Alembic",
-        name: "I Made That: Alchemist V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 alchemy recipes.",
-        name: "Mixing It Up: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 370 unique alchemist recipes.",
-        reward: "Item: Blessed Cauldronking's Alembic",
-        name: "I Made That: Alchemist VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 alchemy recipes.",
-        name: "Mixing It Up: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

@@ -98,9 +98,9 @@ const tasks = [
         points: 10,
         reward: "Title: The First Across"
     }, {
+        description: "Complete the first 15 Chocobo Challenge races.",
         name: "Ride to the Challenge I",
-        points: "10",
-        task: "Complete the first 15 Chocobo Challenge races.",
+        points: 10,
         reward: "Race Barding"
     },
     //----------------------------------------------------------------------------- Triple Triad - Collect

@@ -4,12 +4,12 @@ import { AchievementColumnConfig } from "./columnConfigs";
 import { Achievements_Battle } from "./battle";
 import { Achievements_PvP } from "./pvp";
 import { Achievements_Character } from "./character";
-import { Achievements_Items } from "./item";
+import { Achievements_Items } from "./items";
 import { Achievements_Crafting } from "./crafting";
 import { Achievements_Gathering } from "./gathering";
-import { Achievements_Quests } from "./quest";
+import { Achievements_Quests } from "./quests";
 import { Achievements_Exploration } from "./exploration";
-import { Achievements_Grand_Company } from "./grandcompany";
+import { Achievements_Grand_Company } from "./grand-company";
 import { Achievements_Legacy } from "./legacy";
 
 export const Achievements = function(parent) {

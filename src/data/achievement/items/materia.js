@@ -7,6 +7,7 @@ export const Achievements_Items_Materia = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Affix
     {
         description: "Successfully affix 10 materia.",
         name: "Getting Too Attached I",
@@ -33,6 +34,23 @@ const tasks = [
         points: 10,
         reward: "Title: Carrier of the Cauldron"
     }, {
+        description: "Successfully affix 2,500 materia.",
+        name: "Getting Too Attached V",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully affix 5,000 materia.",
+        name: "Getting Too Attached VI",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully affix 10,000 materia.",
+        name: "Getting Too Attached VII",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Overmeld
+    {
         description: "Successfully affix two materia to the same piece of gear.",
         name: "Beginner's Luck",
         points: 10,
@@ -52,7 +70,9 @@ const tasks = [
         reward: "Item: Gambler's Crown",
         name: "I Got This!",
         points: 40,
-    }, {
+    },
+    //----------------------------------------------------------------------------- Convert
+    {
         description: "Successfully convert 10 spiritbound items into materia.",
         name: "Prepare to Be Assimilated I",
         points: 5,
@@ -78,29 +98,16 @@ const tasks = [
         points: 10,
         reward: "Title: The Assimilator"
     }, {
-        description: "Obtain materia of a higher grade through transmutation.",
-        name: "I Got a Good Materia",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully affix 2,500 materia.",
-        name: "Getting Too Attached V",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully affix 5,000 materia.",
-        name: "Getting Too Attached VI",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Successfully convert 5,000 spiritbound items into materia.",
         name: "Prepare to Be Assimilated V",
         points: 10,
         reward: "-"
-    }, {
-        description: "Successfully affix 10,000 materia.",
-        name: "Getting Too Attached VII",
+    },
+    //----------------------------------------------------------------------------- Transmute
+    {
+        description: "Obtain materia of a higher grade through transmutation.",
+        name: "I Got a Good Materia",
         points: 10,
         reward: "-"
-    }
+    },
 ];

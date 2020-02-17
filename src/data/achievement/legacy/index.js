@@ -1,6 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 
 import { Achievements_Legacy_Battle } from "./battle";
+import { Achievements_Legacy_PvP } from "./pvp";
 import { Achievements_Legacy_Currency } from "./currency";
 import { Achievements_Legacy_Gathering } from "./gathering";
 import { Achievements_Legacy_Quests } from "./quests";
@@ -15,6 +16,7 @@ export const Achievements_Legacy = function(parent) {
 
     data.initializeSubGroups([
         Achievements_Legacy_Battle,
+        Achievements_Legacy_PvP,
         Achievements_Legacy_Currency,
         Achievements_Legacy_Gathering,
         Achievements_Legacy_Quests,

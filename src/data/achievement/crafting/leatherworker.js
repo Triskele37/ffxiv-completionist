@@ -7,6 +7,7 @@ export const Achievements_Crafting_Leatherworker = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 leatherworking recipes.",
         name: "Hiding in Plain Sight: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Hide"
     }, {
         description: "Obtain the first five “Hiding in Plain Sight” achievements.",
-        reward: "Item: Knife of the Luminary",
         name: "A Leatherworker's Life for Me",
         points: 30,
+        reward: "Item: Knife of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 leatherworking recipes.",
+        name: "Hiding in Plain Sight: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 leatherworking recipes.",
+        name: "Hiding in Plain Sight: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 leatherworking recipes.",
+        name: "Hiding in Plain Sight: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 50 unique leatherworker recipes.",
         name: "I Made That: Leatherworker I",
         points: 5,
@@ -53,6 +71,23 @@ const tasks = [
         name: "I Made That: Leatherworker III",
         points: 10,
     }, {
+        description: "Craft and record completion of 320 unique leatherworker recipes.",
+        name: "I Made That: Leatherworker IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 420 unique leatherworker recipes.",
+        name: "I Made That: Leatherworker V",
+        points: 10,
+        reward: "Item: Blessed Hidekeep's Knife",
+    }, {
+        description: "Craft and record completion of 550 unique leatherworker recipes.",
+        name: "I Made That: Leatherworker VI",
+        points: 10,
+        reward: "Item: Blessed Hideking's Knife",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as a leatherworker.",
         name: "An Eye for Detail: Leatherworker I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 320 unique leatherworker recipes.",
-        name: "I Made That: Leatherworker IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 leatherworking recipes.",
-        name: "Hiding in Plain Sight: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as a leatherworker.",
         name: "An Eye for Detail: Leatherworker IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Leatherworker V",
         points: 10,
         reward: "Title: Master Leatherworker"
-    }, {
-        description: "Craft and record completion of 420 unique leatherworker recipes.",
-        reward: "Item: Blessed Hidekeep's Knife",
-        name: "I Made That: Leatherworker V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 leatherworking recipes.",
-        name: "Hiding in Plain Sight: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 550 unique leatherworker recipes.",
-        reward: "Item: Blessed Hideking's Knife",
-        name: "I Made That: Leatherworker VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 leatherworking recipes.",
-        name: "Hiding in Plain Sight: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

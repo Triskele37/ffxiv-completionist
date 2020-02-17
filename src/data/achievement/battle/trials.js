@@ -48,11 +48,6 @@ const tasks = [
         points: 10,
         reward: "Title: The Unsevered"
     }, {
-        description: "Defeat Vishap on the Steps of Faith.",
-        name: "Broken Bridges",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Defeat Gilgamesh and Enkidu at the Battle in the Big Keep.",
         name: "Enough Expository Banter",
         points: 10,
@@ -60,6 +55,11 @@ const tasks = [
     }, {
         description: "Defeat Nabriales in the Chrysalis.",
         name: "Secret Ascian Man",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Defeat Vishap on the Steps of Faith.",
+        name: "Broken Bridges",
         points: 10,
         reward: "-"
     }, {
@@ -123,11 +123,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Defeat the Rathalos in the Great Hunt (Extreme).",
-        name: "Extreme Rathalos Hunter",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Defeat Suzaku in Hells' Kier (Extreme).",
         name: "The Scarlet Bloodletter",
         points: 10,
@@ -157,6 +152,11 @@ const tasks = [
         name: "Don't Look Back",
         points: 10,
         reward: "-"
-    }
+    }, {
+        description: "Defeat the Rathalos in the Great Hunt (Extreme).",
+        name: "Extreme Rathalos Hunter",
+        points: 10,
+        reward: "-"
+    },
 ];
 

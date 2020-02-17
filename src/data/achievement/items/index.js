@@ -1,15 +1,15 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Achievements_Items_Items } from "./item";
+import { Achievements_Items_Items } from "./items";
 import { Achievements_Items_Currency } from "./currency";
 import { Achievements_Items_Desynthesis } from "./desynthesis";
-import { Achievements_Items_Collectables } from "./collectable";
+import { Achievements_Items_Collectables } from "./collectables";
 import { Achievements_Items_Materia } from "./materia";
-import { Achievements_Items_Relic_Weapons } from "./relicweapons";
-import { Achievements_Items_Zodiac_Weapons } from "./zodiacweapons";
-import { Achievements_Items_Anima_Weapons } from "./animaweapons";
-import { Achievements_Items_Deep_Dungeon_Weapons } from "./deepdungeon";
-import { Achievements_Items_Eureka_Weapons } from "./eurekaweapons";
+import { Achievements_Items_Relic_Weapons } from "./relic-weapons";
+import { Achievements_Items_Zodiac_Weapons } from "./zodiac-weapons";
+import { Achievements_Items_Anima_Weapons } from "./anima-weapons";
+import { Achievements_Items_Deep_Dungeon_Weapons } from "./deep-dungeon-weapons";
+import { Achievements_Items_Eureka_Weapons } from "./eureka-weapons";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 

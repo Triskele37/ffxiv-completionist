@@ -33,11 +33,6 @@ const tasks = [
         points: 20,
         reward: "Title: Treasure Hunter"
     }, {
-        description: "Decipher unhidden leather maps to locate and loot 20 treasure coffers.",
-        name: "Unhide and Seek",
-        points: 20,
-        reward: "Title: Bearer of the Coffer"
-    }, {
         description: "Decipher 20 timeworn archaeoskin maps and open the treasure coffers to which they lead.",
         name: "I Can Dig It V",
         points: 20,
@@ -50,6 +45,41 @@ const tasks = [
     }, {
         description: "Decipher 20 timeworn dragonskin maps and open the treasure coffers to which they lead.",
         name: "I Can Dig It VII",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher unhidden leather maps to locate and loot 20 treasure coffers.",
+        name: "Unhide and Seek",
+        points: 20,
+        reward: "Title: Bearer of the Coffer"
+    }, {
+        description: "Decipher 20 timeworn gaganaskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It VIII",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher 20 timeworn gazelleskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It IX",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher 20 timeworn gliderskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It X",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher 20 timeworn zonureskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It XI",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher 20 timeworn gliderskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It X",
+        points: 20,
+        reward: "-"
+    }, {
+        description: "Decipher 20 timeworn zonureskin maps and open the treasure coffers to which they lead.",
+        name: "I Can Dig It XI",
         points: 20,
         reward: "-"
     }, {
@@ -92,16 +122,6 @@ const tasks = [
         name: "The Slow Regard of Stolen Things IV",
         points: 20,
         reward: "Title: Polis Lord"
-    }, {
-        description: "Decipher 20 timeworn gaganaskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It VIII",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Decipher 20 timeworn gazelleskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It IX",
-        points: 20,
-        reward: "-"
     }, {
         description: "Raid the Lost Canals of Uznair.",
         name: "Raider of the Lost Canals I",
@@ -222,16 +242,6 @@ const tasks = [
         name: "The Deepest End IV",
         points: 20,
         reward: "Title: Invoker of Gods"
-    }, {
-        description: "Decipher 20 timeworn gliderskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It X",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Decipher 20 timeworn zonureskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It XI",
-        points: 20,
-        reward: "-"
     }, {
         description: "Raid the Dungeons of Lyhe Ghiah.",
         name: "Beauty and Its Beasts I",

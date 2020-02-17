@@ -7,6 +7,7 @@ export const Achievements_Crafting_Blacksmith = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 smithing recipes.",
         name: "Working the Bellows: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Anvil"
     }, {
         description: "Obtain the first five “Working the Bellows” achievements.",
-        reward: "Item: Hammer of the Luminary",
         name: "A Blacksmith's Life for Me",
         points: 30,
+        reward: "Item: Hammer of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 smithing recipes.",
+        name: "Working the Bellows: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 smithing recipes.",
+        name: "Working the Bellows: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 smithing recipes.",
+        name: "Working the Bellows: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 40 unique blacksmith recipes.",
         name: "I Made That: Blacksmith I",
         points: 5,
@@ -49,10 +67,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Craft and record completion of 190 unique blacksmith recipes.",
-        reward: "Item: Master Blacksmith's Ring",
         name: "I Made That: Blacksmith III",
         points: 10,
+        reward: "Item: Master Blacksmith's Ring",
     }, {
+        description: "Craft and record completion of 270 unique blacksmith recipes.",
+        name: "I Made That: Blacksmith IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 380 unique blacksmith recipes.",
+        name: "I Made That: Blacksmith V",
+        points: 10,
+        reward: "Item: Blessed Forgekeep's Hammer",
+    }, {
+        description: "Craft and record completion of 480 unique blacksmith recipes.",
+        name: "I Made That: Blacksmith VI",
+        points: 10,
+        reward: "Item: Blessed Forgeking's Hammer",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as a blacksmith.",
         name: "An Eye for Detail: Blacksmith I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 270 unique blacksmith recipes.",
-        name: "I Made That: Blacksmith IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 smithing recipes.",
-        name: "Working the Bellows: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as a blacksmith.",
         name: "An Eye for Detail: Blacksmith IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Blacksmith V",
         points: 10,
         reward: "Title: Master Blacksmith"
-    }, {
-        description: "Craft and record completion of 380 unique blacksmith recipes.",
-        reward: "Item: Blessed Forgekeep's Hammer",
-        name: "I Made That: Blacksmith V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 smithing recipes.",
-        name: "Working the Bellows: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 480 unique blacksmith recipes.",
-        reward: "Item: Blessed Forgeking's Hammer",
-        name: "I Made That: Blacksmith VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 smithing recipes.",
-        name: "Working the Bellows: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

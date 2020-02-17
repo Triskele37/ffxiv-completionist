@@ -7,6 +7,7 @@ export const Achievements_Quests_Quests = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Guildhests
     {
         name: "Serving a Greater Cause I",
         points: "5",
@@ -57,57 +58,26 @@ const tasks = [
         points: "10",
         description: "Complete 14 unique guildhests.",
         reward: "",
-    }, {
-        name: "The Greatest Tales Ever Told",
-        points: "20",
-        description: "Complete all the class quests available at level 30.",
-        reward: "Chronicler's Crown",
-    }, {
-        name: "Tales of Magic",
-        points: "10",
-        description: "Complete all the Disciple of Magic quests available at level 30.",
-        reward: "Title: Seeker of Truth",
-    }, {
-        name: "Tales of the Land",
-        points: "10",
-        description: "Complete all the Disciple of the Land quests available at level 30.",
-        reward: "Title: Seeker of Bounty",
-    }, {
-        name: "Tales of the Hand",
-        points: "10",
-        description: "Complete all the Disciple of the Hand quests available at level 30.",
-        reward: "Title: Seeker of Skill",
-    }, {
-        name: "Tales of War",
-        points: "10",
-        description: "Complete all the Disciple of War quests available at level 30.",
-        reward: "Title: Seeker of Blood",
-    }, {
-        name: "Career Opportunities",
-        points: "20",
-        description: "Obtain the following seven achievements: \"Like a Knight in Shining Armor I,\" \"Bulletproof I,\" \"I Am the Warrior I,\" Dragoon Age I,\" \"A Bard's Tale I,\" \"Seeing White I,\" and \"Back in Black I.\"",
-        reward: "Title: The Professional",
-    }, {
-        name: "Anima Crossing",
-        points: "20",
-        description: "Complete the quest \"Coming into Its Own.\"",
-        reward: "Title: The Noumenon",
-    }, {
-        name: "What's Nexus",
-        points: "10",
-        description: "Complete the quest \"His Dark Materia.\"",
-        reward: "",
-    }, {
-        name: "Walking on Sunshine",
-        points: "10",
-        description: "Complete the quest \"I Believe I Can Fly.\"",
-        reward: "Title: Lighter than Air",
-    }, {
-        name: "This One Time, at Level Thirty...",
+    },
+    //-----------------------------------------------------------------------------
+    {
+        name: "Leaving Limsa Lominsa",
         points: "5",
-        description: "Complete any one of the Disciple of War or Magic class quests available at level 30.",
+        description: "Complete the main scenario quest \"The Lominsan Envoy.\"",
         reward: "",
     }, {
+        name: "Gone from Gridania",
+        points: "5",
+        description: "Complete the main scenario quest \"The Gridanian Envoy.\"",
+        reward: "",
+    }, {
+        name: "Out of Ul'dah",
+        points: "5",
+        description: "Complete the main scenario quest \"The Ul'dahn Envoy.\"",
+        reward: "",
+    },
+    //----------------------------------------------------------------------------- Quests
+    {
         name: "Back from the Wood",
         points: "5",
         description: "Complete the main scenario quest \"Back from the Wood.\"",
@@ -128,154 +98,14 @@ const tasks = [
         description: "Complete the main scenario quest \"In Pursuit of the Past.\"",
         reward: "",
     }, {
-        name: "Storyteller I",
-        points: "5",
-        description: "Complete 10 unique quests.",
-        reward: "",
-    }, {
         name: "Free Wing Night",
         points: "10",
         description: "Complete the main scenario quest \"Lady of the Vortex.\"",
         reward: "",
     }, {
-        name: "Storyteller II",
-        points: "10",
-        description: "Complete 30 unique quests.",
-        reward: "",
-    }, {
-        name: "The Truth Is Down There",
-        points: "10",
-        description: "Complete the quest \"Alisaie's Pledge.\"",
-        reward: "",
-    }, {
-        name: "I Like Big Fish and I Cannot Lie",
-        points: "10",
-        description: "Complete the quest \"The Beast of Brewer's Beacon.\"",
-        reward: "Title: The Ambitious Angler",
-    }, {
-        name: "The Postmoogle Always Rings Twice",
-        points: "10",
-        description: "Complete the quest \"Of Errant Epistles.\"",
-        reward: "Title: The Postman/Postwoman",
-    }, {
-        name: "The Rest of the Story",
-        points: "10",
-        description: "Complete the quest \"The Greatest Story Never Told.\"",
-        reward: "",
-    }, {
-        name: "Postal",
-        points: "10",
-        description: "Complete the quest \"The Little Postmoogle that Could.\"",
-        reward: "Title: Postmaster",
-    }, {
-        name: "Awake the Metal",
-        points: "10",
-        description: "Complete the quest \"Enigma.\"",
-        reward: "Title: Illuminati Quencher",
-    }, {
-        name: "The War Still Wageth On",
-        points: "20",
-        description: "Complete the quests \"Thok Around the Clock\" and \"The Diabolical Bismarck.\"",
-        reward: "Title: Finder of False Gods",
-    }, {
-        name: "So it Goes",
-        points: "10",
-        description: "Complete the quest \"As Goes Light, So Goes Darkness.\"",
-        reward: "Title: House Fortemps Knight",
-    }, {
-        name: "Paying the Bills",
-        points: "10",
-        description: "Complete the quest \"To Rule the Skies.\"",
-        reward: "Title: Sky Pirate",
-    }, {
-        name: "Back to School I",
-        points: "10",
-        description: "Complete the quest \"More than Meets Her Eye.\"",
-        reward: "Title: Special Advisor",
-    }, {
-        name: "First Gear",
-        points: "10",
-        description: "Complete the quest \"Causes and Costs.\"",
-        reward: "Title: The Gear of Change",
-    }, {
-        name: "The Midas Touch",
-        points: "10",
-        description: "Complete the quest \"A Gob in the Machine.\"",
-        reward: "Title: Allthoughts",
-    }, {
-        name: "I'll Sleep When I'm Dead",
-        points: "10",
-        description: "Complete the quest \"The Nightmare's End.\"",
-        reward: "Title: The Chief Mourner",
-    }, {
-        name: "Floor the Horde",
-        points: "10",
-        description: "Complete the quest \"Litany of Peace.\"",
-        reward: "Title: The Dragonsong",
-    }, {
-        name: "On the Road Again",
-        points: "10",
-        description: "Complete the quest \"The Burdens We Bear.\"",
-        reward: "",
-    }, {
-        name: "Back to School II",
-        points: "10",
-        description: "Complete the quest \"Finding Ulaa.\"",
-        reward: "",
-    }, {
-        name: "Back in Time",
-        points: "10",
-        description: "Complete the quest \"Of Endings and Beginnings.\"",
-        reward: "Title: The Wings of Time",
-    }, {
-        name: "No Retreat, No Surrender",
-        points: "10",
-        description: "Complete the quest \"An Ending to Mark a New Beginning.\"",
-        reward: "Title: Surrender of Souls",
-    }, {
-        name: "Dead Tired",
-        points: "10",
-        description: "Complete the quest \"Dead but Not Gone.\"",
-        reward: "Title: Corpse Dancer",
-    }, {
-        name: "School's Out Forever",
-        points: "10",
-        description: "Complete the quest \"Louisoix's Finest Student.\"",
-        reward: "Title: The Finest Pupil's Ally",
-    }, {
-        name: "Five Minutes of Fate",
-        points: "10",
-        description: "Complete the quest \"The Far Edge of Fate.\"",
-        reward: "Title: Fatewalker",
-    }, {
-        name: "Back to School III",
-        points: "10",
-        description: "Complete the quest \"The Life and Lies of Father Saturnois.\"",
-        reward: "Title: Of the Holy Body",
-    }, {
-        name: "That is What You Are",
-        points: "10",
-        description: "Complete the quest \"If I Could Turn Back Time.\"",
-        reward: "Title: Gigi's Best Friend",
-    }, {
-        name: "Good Night, Sweet Hildy",
-        points: "10",
-        description: "Complete the quest \"Don't Do the Dewprism.\"",
-        reward: "Title: Soboro",
-    }, {
-        name: "Delta Force",
-        points: "10",
-        description: "Complete the quest \"The Anonaly.\"",
-        reward: "Title: Deltascape Deleter",
-    }, {
         name: "Warrior of Light",
         points: "20",
         description: "Complete all the main scenario quests.",
-        reward: "",
-    }, {
-        name: "Storyteller III",
-        points: "20",
-        description: "Complete 100 unique quests.",
         reward: "",
     }, {
         name: "A Realm Awoken",
@@ -288,11 +118,6 @@ const tasks = [
         description: "Complete the main scenario quest \"Through the Maelstrom.\"",
         reward: "",
     }, {
-        name: "You Can Handle the Truth",
-        points: "20",
-        description: "Complete the quest \"Alisaie's Resolve.\"",
-        reward: "",
-    }, {
         name: "Eorzea Defended",
         points: "20",
         description: "Complete the quest \"Brave New Companions.\"",
@@ -302,26 +127,6 @@ const tasks = [
         points: "20",
         description: "Complete the quest \"Let Us Cling Together.\"",
         reward: "Title: Icebreaker",
-    }, {
-        name: "Uncoiled",
-        points: "20",
-        description: "Complete the quest \"Alisaie's Path.\"",
-        reward: "Title: The Final Witness",
-    }, {
-        name: "Out of the Dark",
-        points: "20",
-        description: "Complete the quest \"The Light of Hope.\"",
-        reward: "Title: Of the Silver Lining",
-    }, {
-        name: "I'll Be There for You",
-        points: "20",
-        description: "Complete the quest \"Her Last Vow.\"",
-        reward: "Title: Gentleman/Gentlewoman",
-    }, {
-        name: "Home of the Brave",
-        points: "20",
-        description: "Complete the quest \"The Vital Title.\"",
-        reward: "",
     }, {
         name: "My Left Arm",
         points: "20",
@@ -362,6 +167,41 @@ const tasks = [
         points: "20",
         description: "Complete the quest \"Heavensward.\"",
         reward: "Title: The End of Ascalon",
+    }, {
+        name: "So it Goes",
+        points: "10",
+        description: "Complete the quest \"As Goes Light, So Goes Darkness.\"",
+        reward: "Title: House Fortemps Knight",
+    }, {
+        name: "First Gear",
+        points: "10",
+        description: "Complete the quest \"Causes and Costs.\"",
+        reward: "Title: The Gear of Change",
+    }, {
+        name: "Floor the Horde",
+        points: "10",
+        description: "Complete the quest \"Litany of Peace.\"",
+        reward: "Title: The Dragonsong",
+    }, {
+        name: "On the Road Again",
+        points: "10",
+        description: "Complete the quest \"The Burdens We Bear.\"",
+        reward: "",
+    }, {
+        name: "No Retreat, No Surrender",
+        points: "10",
+        description: "Complete the quest \"An Ending to Mark a New Beginning.\"",
+        reward: "Title: Surrender of Souls",
+    }, {
+        name: "School's Out Forever",
+        points: "10",
+        description: "Complete the quest \"Louisoix's Finest Student.\"",
+        reward: "Title: The Finest Pupil's Ally",
+    }, {
+        name: "Five Minutes of Fate",
+        points: "10",
+        description: "Complete the quest \"The Far Edge of Fate.\"",
+        reward: "Title: Fatewalker",
     }, {
         name: "Incidentally Speaking",
         points: "20",
@@ -418,15 +258,15 @@ const tasks = [
         description: "Complete the quest \"Under the Moonlight.\"",
         reward: "Title: Under the Moonlight",
     }, {
-        name: "Imagine Dragon",
-        points: "30",
-        description: "Complete the quest \"Feast of Famine.\"",
-        reward: "Title: Of Dragons Deep",
-    }, {
         name: "A History of Violet",
         points: "20",
         description: "Complete the main quest \"Prelude in Violet\"",
         reward: "Title: Preluse in Violet",
+    }, {
+        name: "What is it Good For",
+        points: "20",
+        description: "Complete the quest \"The Face of War.\"",
+        reward: "",
     }, {
         name: "Swan Song",
         points: "20",
@@ -468,6 +308,132 @@ const tasks = [
         description: "Complete the quest \"Vows of Virtue, Deeds of Cruelty.\"",
         reward: "Title: Of Virtuous Deeds",
     }, {
+        name: "I Like Big Fish and I Cannot Lie",
+        points: "10",
+        description: "Complete the quest \"The Beast of Brewer's Beacon.\"",
+        reward: "Title: The Ambitious Angler",
+    }, {
+        name: "I'll Sleep When I'm Dead",
+        points: "10",
+        description: "Complete the quest \"The Nightmare's End.\"",
+        reward: "Title: The Chief Mourner",
+    }, {
+        name: "Dead Tired",
+        points: "10",
+        description: "Complete the quest \"Dead but Not Gone.\"",
+        reward: "Title: Corpse Dancer",
+    }, {
+        name: "The Truth Is Down There",
+        points: "10",
+        description: "Complete the quest \"Alisaie's Pledge.\"",
+        reward: "",
+    }, {
+        name: "You Can Handle the Truth",
+        points: "20",
+        description: "Complete the quest \"Alisaie's Resolve.\"",
+        reward: "",
+    }, {
+        name: "Uncoiled",
+        points: "20",
+        description: "Complete the quest \"Alisaie's Path.\"",
+        reward: "Title: The Final Witness",
+    }, {
+        name: "Awake the Metal",
+        points: "10",
+        description: "Complete the quest \"Enigma.\"",
+        reward: "Title: Illuminati Quencher",
+    }, {
+        name: "The Midas Touch",
+        points: "10",
+        description: "Complete the quest \"A Gob in the Machine.\"",
+        reward: "Title: Allthoughts",
+    }, {
+        name: "Back in Time",
+        points: "10",
+        description: "Complete the quest \"Of Endings and Beginnings.\"",
+        reward: "Title: The Wings of Time",
+    }, {
+        name: "Delta Force",
+        points: "10",
+        description: "Complete the quest \"The Anonaly.\"",
+        reward: "Title: Deltascape Deleter",
+    }, {
+        name: "Paying the Bills",
+        points: "10",
+        description: "Complete the quest \"To Rule the Skies.\"",
+        reward: "Title: Sky Pirate",
+    }, {
+        name: "Imagine Dragon",
+        points: "30",
+        description: "Complete the quest \"Feast of Famine.\"",
+        reward: "Title: Of Dragons Deep",
+    }, {
+        name: "The Postmoogle Always Rings Twice",
+        points: "10",
+        description: "Complete the quest \"Of Errant Epistles.\"",
+        reward: "Title: The Postman/Postwoman",
+    }, {
+        name: "Postal",
+        points: "10",
+        description: "Complete the quest \"The Little Postmoogle that Could.\"",
+        reward: "Title: Postmaster",
+    }, {
+        name: "The Rest of the Story",
+        points: "10",
+        description: "Complete the quest \"The Greatest Story Never Told.\"",
+        reward: "",
+    },
+    //----------------------------------------------------------------------------- Unique Quests
+    {
+        name: "Storyteller I",
+        points: "5",
+        description: "Complete 10 unique quests.",
+        reward: "",
+    }, {
+        name: "Storyteller II",
+        points: "10",
+        description: "Complete 30 unique quests.",
+        reward: "",
+    }, {
+        name: "Storyteller III",
+        points: "20",
+        description: "Complete 100 unique quests.",
+        reward: "",
+    },
+    //----------------------------------------------------------------------------- Class Quests
+    {
+        name: "This One Time, at Level Thirty...",
+        points: "5",
+        description: "Complete any one of the Disciple of War or Magic class quests available at level 30.",
+        reward: "",
+    }, {
+        name: "Tales of War",
+        points: "10",
+        description: "Complete all the Disciple of War quests available at level 30.",
+        reward: "Title: Seeker of Blood",
+    }, {
+        name: "Tales of Magic",
+        points: "10",
+        description: "Complete all the Disciple of Magic quests available at level 30.",
+        reward: "Title: Seeker of Truth",
+    }, {
+        name: "Tales of the Hand",
+        points: "10",
+        description: "Complete all the Disciple of the Hand quests available at level 30.",
+        reward: "Title: Seeker of Skill",
+    }, {
+        name: "Tales of the Land",
+        points: "10",
+        description: "Complete all the Disciple of the Land quests available at level 30.",
+        reward: "Title: Seeker of Bounty",
+    }, {
+        name: "The Greatest Tales Ever Told",
+        points: "20",
+        description: "Complete all the class quests available at level 30.",
+        reward: "Chronicler's Crown",
+    },
+    //----------------------------------------------------------------------------- Paladin Quests
+    {
         name: "Like a Knight in Shining Armor I",
         points: "5",
         description: "Complete the paladin job quest \"Keeping the Oath.\"",
@@ -487,7 +453,9 @@ const tasks = [
         points: "5",
         description: "Complete the paladin job quest \"Worth Fighting For.\"",
         reward: "Title: Bulwark Between Worlds",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Monk Quests
+    {
         name: "Bulletproof I",
         points: "5",
         description: "Complete the monk job quest \"Five Easy Pieces.\"",
@@ -507,7 +475,9 @@ const tasks = [
         points: "5",
         description: "Complete the monk job quest \"A Monk's Legacy.\"",
         reward: "Title: The Transcendent",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Warrior Quests
+    {
         name: "I Am the Warrior I",
         points: "5",
         description: "Complete the warrior job quest \"How to Quit You.\"",
@@ -527,7 +497,9 @@ const tasks = [
         points: "5",
         description: "Complete the warrior job quest \"Once, Twice, Three Times a Warrior.\"",
         reward: "Title: Worldcleaver",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Dragoon Quests
+    {
         name: "Dragoon Age I",
         points: "5",
         description: "Complete the dragoon job quest \"Into the Dragon's Maw.\"",
@@ -547,7 +519,9 @@ const tasks = [
         points: "5",
         description: "Complete the dragoon job quest \"Gone but Not Forgiven.\"",
         reward: "Title: Bolt from the Black",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Bard Quests
+    {
         name: "A Bard's Tale I",
         points: "5",
         description: "Complete the bard job quest \"Requiem for the Fallen.\"",
@@ -567,87 +541,9 @@ const tasks = [
         points: "5",
         description: "Complete the bard job quest \"A Harmony from the Heavens.\"",
         reward: "Title: The Song upon the Wind",
-    }, {
-        name: "Seeing White I",
-        points: "5",
-        description: "Complete the white mage job quest \"Heart of the Forest.\"",
-        reward: "",
-    }, {
-        name: "Seeing White II",
-        points: "5",
-        description: "Complete the white mage job quest \"Hands of Healing.\"",
-        reward: "Title: Pure White",
-    }, {
-        name: "Seeing White III",
-        points: "5",
-        description: "Complete the white mage job quest \"What She Always Wanted.\"",
-        reward: "Title: Padjal Protector",
-    }, {
-        name: "Seeing White IV",
-        points: "5",
-        description: "Complete the white mage job quest \"Whence the Healing Springs.\"",
-        reward: "Title: Firstblessed",
-    }, {
-        name: "Back in Black I",
-        points: "5",
-        description: "Complete the black mage job quest \"Always Bet on Black.\"",
-        reward: "",
-    }, {
-        name: "Back in Black II",
-        points: "5",
-        description: "Complete the black mage job quest \"The Defiant Ones.\"",
-        reward: "Title: Annihilator",
-    }, {
-        name: "Back in Black III",
-        points: "5",
-        description: "Complete the black mage job quest \"One Golem to Rule Them All.\"",
-        reward: "Title: Gembreaker",
-    }, {
-        name: "Back in Black IV",
-        points: "5",
-        description: "Complete the black mage job quest \"A Home for a Tome.\"",
-        reward: "Title: Of Stranger Shadow",
-    }, {
-        name: "Soul Summoner I",
-        points: "5",
-        description: "Complete the summoner job quest \"Primal Burdens.\"",
-        reward: "",
-    }, {
-        name: "Soul Summoner II",
-        points: "5",
-        description: "Complete the summoner job quest \"A Flare for the Dramatic.\"",
-        reward: "Title: Dreadspawn",
-    }, {
-        name: "Soul Summoner III",
-        points: "5",
-        description: "Complete the summoner job quest \"An Art for the Living.\"",
-        reward: "Title: The First Caller",
-    }, {
-        name: "Soul Summoner IV",
-        points: "5",
-        description: "Complete the summoner job quest \"To Be Second Best.\"",
-        reward: "Title: Farcaller",
-    }, {
-        name: "Flying Colors I",
-        points: "5",
-        description: "Complete the scholar job quest \"The Beast Within.\"",
-        reward: "",
-    }, {
-        name: "Flying Colors II",
-        points: "5",
-        description: "Complete the scholar job quest \"Forward, the Royal Marines.\"",
-        reward: "Title: Nymian Marine",
-    }, {
-        name: "Flying Colors III",
-        points: "5",
-        description: "Complete the scholar job quest \"Our Unsung Heroes.\"",
-        reward: "Title: Keeper of the Lilacs",
-    }, {
-        name: "Flying Colors IV",
-        points: "5",
-        description: "Complete the scholar job quest \"True Beauty.\"",
-        reward: "Title: Knower of Twin Worlds",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Ninja Quests
+    {
         name: "Against the Ninja I",
         points: "5",
         description: "Complete the ninja job quest \"Master and Student.\"",
@@ -667,7 +563,97 @@ const tasks = [
         points: "5",
         description: "Complete the ninja job quest \"Oboro's Big Idea.\"",
         reward: "Title: Shadow of the Other",
+    },
+    //----------------------------------------------------------------------------- White Mage Quests
+    {
+        name: "Seeing White I",
+        points: "5",
+        description: "Complete the white mage job quest \"Heart of the Forest.\"",
+        reward: "",
     }, {
+        name: "Seeing White II",
+        points: "5",
+        description: "Complete the white mage job quest \"Hands of Healing.\"",
+        reward: "Title: Pure White",
+    }, {
+        name: "Seeing White III",
+        points: "5",
+        description: "Complete the white mage job quest \"What She Always Wanted.\"",
+        reward: "Title: Padjal Protector",
+    }, {
+        name: "Seeing White IV",
+        points: "5",
+        description: "Complete the white mage job quest \"Whence the Healing Springs.\"",
+        reward: "Title: Firstblessed",
+    },
+    //----------------------------------------------------------------------------- Black Mage Quests
+    {
+        name: "Back in Black I",
+        points: "5",
+        description: "Complete the black mage job quest \"Always Bet on Black.\"",
+        reward: "",
+    }, {
+        name: "Back in Black II",
+        points: "5",
+        description: "Complete the black mage job quest \"The Defiant Ones.\"",
+        reward: "Title: Annihilator",
+    }, {
+        name: "Back in Black III",
+        points: "5",
+        description: "Complete the black mage job quest \"One Golem to Rule Them All.\"",
+        reward: "Title: Gembreaker",
+    }, {
+        name: "Back in Black IV",
+        points: "5",
+        description: "Complete the black mage job quest \"A Home for a Tome.\"",
+        reward: "Title: Of Stranger Shadow",
+    },
+    //----------------------------------------------------------------------------- Summoner Quests
+    {
+        name: "Soul Summoner I",
+        points: "5",
+        description: "Complete the summoner job quest \"Primal Burdens.\"",
+        reward: "",
+    }, {
+        name: "Soul Summoner II",
+        points: "5",
+        description: "Complete the summoner job quest \"A Flare for the Dramatic.\"",
+        reward: "Title: Dreadspawn",
+    }, {
+        name: "Soul Summoner III",
+        points: "5",
+        description: "Complete the summoner job quest \"An Art for the Living.\"",
+        reward: "Title: The First Caller",
+    }, {
+        name: "Soul Summoner IV",
+        points: "5",
+        description: "Complete the summoner job quest \"To Be Second Best.\"",
+        reward: "Title: Farcaller",
+    },
+    //----------------------------------------------------------------------------- Scholar Quests
+    {
+        name: "Flying Colors I",
+        points: "5",
+        description: "Complete the scholar job quest \"The Beast Within.\"",
+        reward: "",
+    }, {
+        name: "Flying Colors II",
+        points: "5",
+        description: "Complete the scholar job quest \"Forward, the Royal Marines.\"",
+        reward: "Title: Nymian Marine",
+    }, {
+        name: "Flying Colors III",
+        points: "5",
+        description: "Complete the scholar job quest \"Our Unsung Heroes.\"",
+        reward: "Title: Keeper of the Lilacs",
+    }, {
+        name: "Flying Colors IV",
+        points: "5",
+        description: "Complete the scholar job quest \"True Beauty.\"",
+        reward: "Title: Knower of Twin Worlds",
+    },
+    //----------------------------------------------------------------------------- Dark Knight Quests
+    {
         name: "A Dark Day's Knight I",
         points: "5",
         description: "Complete the dark knight job quest \"Our Answer.\"",
@@ -687,7 +673,9 @@ const tasks = [
         points: "5",
         description: "Complete the dark knight job quest \"Our Closure.\"",
         reward: "Title: The Boundless Dark",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Machinist Quests
+    {
         name: "I'm a Machinist, Not a Man I",
         points: "5",
         description: "Complete the machinist job quest \"The Power of a Tourney.\"",
@@ -707,7 +695,9 @@ const tasks = [
         points: "5",
         description: "Complete the machinist job quest \"Machinists for the Morrow.\"",
         reward: "Title: The Shot Heard Across Worlds",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Astrologian Quests
+    {
         name: "The Stars in Our Faults I",
         points: "5",
         description: "Complete the astrologian job quest \"Spearheading Initiatives.\"",
@@ -727,22 +717,9 @@ const tasks = [
         points: "5",
         description: "Complete the astrologian job quest \"Love, Astrologically.\"",
         reward: "Title: Distant Stargazer",
-    }, {
-        name: "SAM I Am I",
-        points: "5",
-        description: "Complete the samurai job quest \"The Face of True Evil.\"",
-        reward: "",
-    }, {
-        name: "SAM I Am II",
-        points: "5",
-        description: "Complete the samurai job quest \"The Battle on Bekko.\"",
-        reward: "Title: Muso",
-    }, {
-        name: "SAM I Am III",
-        points: "5",
-        description: "Complete the samurai job quest \"The Legend of Musosai.\"",
-        reward: "Title: Samurai in a Strange Land",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Red Mage Quests
+    {
         name: "Red On Arrival I",
         points: "5",
         description: "Complete the red mage job quest \"Stained in Scarlet.\"",
@@ -757,7 +734,26 @@ const tasks = [
         points: "5",
         description: "Complete the red mage job quest \"The Succession of Steel.\"",
         reward: "Title: Dualistic Duelist",
+    },
+    //----------------------------------------------------------------------------- Samurai Quests
+    {
+        name: "SAM I Am I",
+        points: "5",
+        description: "Complete the samurai job quest \"The Face of True Evil.\"",
+        reward: "",
     }, {
+        name: "SAM I Am II",
+        points: "5",
+        description: "Complete the samurai job quest \"The Battle on Bekko.\"",
+        reward: "Title: Muso",
+    }, {
+        name: "SAM I Am III",
+        points: "5",
+        description: "Complete the samurai job quest \"The Legend of Musosai.\"",
+        reward: "Title: Samurai in a Strange Land",
+    },
+    //----------------------------------------------------------------------------- Gunbreaker Quests
+    {
         name: "Gunnhildr's Blade I",
         points: "5",
         description: "Complete the gunbreaker job quest \"Steel against Steel.\"",
@@ -767,7 +763,9 @@ const tasks = [
         points: "5",
         description: "Complete the gunbreaker job quest \"Gunblades of the Patriots.\"",
         reward: "Title: Wandering Vanguard",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Dancer Quests
+    {
         name: "No Friends of Mine I",
         points: "5",
         description: "Complete the dancer job quest \"Save the Lance Dance for Me.\"",
@@ -777,7 +775,9 @@ const tasks = [
         points: "5",
         description: "Complete the dancer job quest \"Rising to the Occasion.\"",
         reward: "Title: Riftdancer",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Role Quests
+    {
         name: "Speaker for the Righteous",
         points: "5",
         description: "Complete the role quest \"To Have Loved and Lost.\"",
@@ -798,46 +798,13 @@ const tasks = [
         description: "Complete the role quest \"A Tearful Reunion.\"",
         reward: "",
     }, {
-        name: "A Watched Pot",
-        points: "10",
-        description: "Complete the quest \"Kettle to the Mettle.\"",
-        reward: "Title: Carrier of the Kettle",
-    }, {
-        name: "Leaving Limsa Lominsa",
-        points: "5",
-        description: "Complete the main scenario quest \"The Lominsan Envoy.\"",
-        reward: "",
-    }, {
-        name: "Gone from Gridania",
-        points: "5",
-        description: "Complete the main scenario quest \"The Gridanian Envoy.\"",
-        reward: "",
-    }, {
-        name: "Out of Ul'dah",
-        points: "5",
-        description: "Complete the main scenario quest \"The Ul'dahn Envoy.\"",
-        reward: "",
-    }, {
-        name: "The New King on the Block",
-        points: "10",
-        description: "Complete the quest \"The New King on the Block.\"",
-        reward: "Title: Monster Hunter",
-    }, {
-        name: "Live to Serve",
-        points: "10",
-        description: "Complete the quest \"In Bad Taste.\"",
-        reward: "Title: Lord/Lady of the Fetch",
-    }, {
-        name: "What is it Good For",
-        points: "20",
-        description: "Complete the quest \"The Face of War.\"",
-        reward: "",
-    }, {
         name: "Tales to Be Told",
         points: "10",
         description: "Complete the quest \"Shadow Walk with Me.\"",
         reward: "Title: Living Memory",
-    }, {
+    },
+    //----------------------------------------------------------------------------- Crystalline Mean Quests
+    {
         name: "Precious Metals",
         points: "5",
         description: "Complete the quest \"The Iron Bellows.\"",
@@ -867,5 +834,89 @@ const tasks = [
         points: "10",
         description: "Complete the quest \"For Every Child a Star.\"",
         reward: "Title: The Multifaceted",
+    },
+    //-----------------------------------------------------------------------------
+    {
+        name: "Career Opportunities",
+        points: "20",
+        description: "Obtain the following seven achievements: \"Like a Knight in Shining Armor I,\" \"Bulletproof I,\" \"I Am the Warrior I,\" Dragoon Age I,\" \"A Bard's Tale I,\" \"Seeing White I,\" and \"Back in Black I.\"",
+        reward: "Title: The Professional",
+    }, {
+        name: "What's Nexus",
+        points: "10",
+        description: "Complete the quest \"His Dark Materia.\"",
+        reward: "",
+    },
+    //----------------------------------------------------------------------------- Quests (again)
+    {
+        name: "Out of the Dark",
+        points: "20",
+        description: "Complete the quest \"The Light of Hope.\"",
+        reward: "Title: Of the Silver Lining",
+    }, {
+        name: "I'll Be There for You",
+        points: "20",
+        description: "Complete the quest \"Her Last Vow.\"",
+        reward: "Title: Gentleman/Gentlewoman",
+    }, {
+        name: "Home of the Brave",
+        points: "20",
+        description: "Complete the quest \"The Vital Title.\"",
+        reward: "",
+    }, {
+        name: "The War Still Wageth On",
+        points: "20",
+        description: "Complete the quests \"Thok Around the Clock\" and \"The Diabolical Bismarck.\"",
+        reward: "Title: Finder of False Gods",
+    }, {
+        name: "Walking on Sunshine",
+        points: "10",
+        description: "Complete the quest \"I Believe I Can Fly.\"",
+        reward: "Title: Lighter than Air",
+    }, {
+        name: "Back to School I",
+        points: "10",
+        description: "Complete the quest \"More than Meets Her Eye.\"",
+        reward: "Title: Special Advisor",
+    }, {
+        name: "Back to School II",
+        points: "10",
+        description: "Complete the quest \"Finding Ulaa.\"",
+        reward: "",
+    }, {
+        name: "Back to School III",
+        points: "10",
+        description: "Complete the quest \"The Life and Lies of Father Saturnois.\"",
+        reward: "Title: Of the Holy Body",
+    }, {
+        name: "That is What You Are",
+        points: "10",
+        description: "Complete the quest \"If I Could Turn Back Time.\"",
+        reward: "Title: Gigi's Best Friend",
+    }, {
+        name: "Anima Crossing",
+        points: "20",
+        description: "Complete the quest \"Coming into Its Own.\"",
+        reward: "Title: The Noumenon",
+    }, {
+        name: "A Watched Pot",
+        points: "10",
+        description: "Complete the quest \"Kettle to the Mettle.\"",
+        reward: "Title: Carrier of the Kettle",
+    }, {
+        name: "Good Night, Sweet Hildy",
+        points: "10",
+        description: "Complete the quest \"Don't Do the Dewprism.\"",
+        reward: "Title: Soboro",
+    }, {
+        name: "Live to Serve",
+        points: "10",
+        description: "Complete the quest \"In Bad Taste.\"",
+        reward: "Title: Lord/Lady of the Fetch",
+    }, {
+        name: "The New King on the Block",
+        points: "10",
+        description: "Complete the quest \"The New King on the Block.\"",
+        reward: "Title: Monster Hunter",
     },
 ];

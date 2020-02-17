@@ -7,6 +7,7 @@ export const Achievements_Crafting_Weaver = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 clothcraft recipes.",
         name: "Threading the Needle: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Needle"
     }, {
         description: "Obtain the first five \u201cThreading the Needle\u201d achievements.",
-        reward: "Item: Needle of the Luminary",
         name: "A Weaver's Life for Me",
         points: 30,
+        reward: "Item: Needle of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 clothcraft recipes.",
+        name: "Threading the Needle: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 clothcraft recipes.",
+        name: "Threading the Needle: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 clothcraft recipes.",
+        name: "Threading the Needle: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 60 unique weaver recipes.",
         name: "I Made That: Weaver I",
         points: 5,
@@ -53,6 +71,23 @@ const tasks = [
         name: "I Made That: Weaver III",
         points: 10,
     }, {
+        description: "Craft and record completion of 350 unique weaver recipes.",
+        name: "I Made That: Weaver IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 470 unique weaver recipes.",
+        name: "I Made That: Weaver V",
+        points: 10,
+        reward: "Item: Blessed Boltkeep's Needle",
+    }, {
+        description: "Craft and record completion of 590 unique weaver recipes.",
+        name: "I Made That: Weaver VI",
+        points: 10,
+        reward: "Item: Blessed Boltking's Needle",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as a weaver.",
         name: "An Eye for Detail: Weaver I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 350 unique weaver recipes.",
-        name: "I Made That: Weaver IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 clothcraft recipes.",
-        name: "Threading the Needle: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as a weaver.",
         name: "An Eye for Detail: Weaver IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Weaver V",
         points: 10,
         reward: "Title: Master Weaver"
-    }, {
-        description: "Craft and record completion of 470 unique weaver recipes.",
-        reward: "Item: Blessed Boltkeep's Needle",
-        name: "I Made That: Weaver V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 clothcraft recipes.",
-        name: "Threading the Needle: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 590 unique weaver recipes.",
-        reward: "Item: Blessed Boltking's Needle",
-        name: "I Made That: Weaver VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 clothcraft recipes.",
-        name: "Threading the Needle: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

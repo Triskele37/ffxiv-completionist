@@ -1,14 +1,14 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Achievements_Exploration_Sightseeing_Log } from "./sightseeing";
-import { Achievements_Exploration_La_Noscea } from "./lanoscea";
-import { Achievements_Exploration_The_Black_Shroud } from "./blackshroud";
+import { Achievements_Exploration_Sightseeing_Log } from "./sightseeing-log";
+import { Achievements_Exploration_La_Noscea } from "./la-noscea";
+import { Achievements_Exploration_The_Black_Shroud } from "./the-black-shroud";
 import { Achievements_Exploration_Thanalan } from "./thanalan";
 import { Achievements_Exploration_Coerthas } from "./coerthas";
-import { Achievements_Exploration_Mor_Dhona } from "./mordhona";
-import { Achievements_Exploration_Abalathias_Spine } from "./abalathiaspine";
+import { Achievements_Exploration_Mor_Dhona } from "./mor-dhona";
+import { Achievements_Exploration_Abalathias_Spine } from "./abalathias-spine";
 import { Achievements_Exploration_Dravania } from "./dravania";
-import { Achievements_Exploration_Gyr_Abania } from "./gyrabania";
+import { Achievements_Exploration_Gyr_Abania } from "./gyr-abania";
 import { Achievements_Exploration_Othard } from "./othard";
 import { Achievements_Exploration_Norvrandt } from "./norvrandt";
 import { Achievements_Exploration_Duty } from "./duty";

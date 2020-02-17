@@ -7,6 +7,7 @@ export const Achievements_Character_Disciple_of_War = function(parent) {
 };
 
 const tasks = [
+    //------------------------------------------------------- Gladiator
     {
         description: "Achieve gladiator level 10.",
         name: "Stick Them with the Pointy End I",
@@ -33,6 +34,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve gladiator level 60.",
+        name: "Stick Them with the Pointy End VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve gladiator level 70.",
+        name: "Stick Them with the Pointy End VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve gladiator level 80.",
+        name: "Stick Them with the Pointy End VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Pugilist
+    {
         description: "Achieve pugilist level 10.",
         name: "The Sweet Science I",
         points: 5,
@@ -58,6 +76,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve pugilist level 60.",
+        name: "The Sweet Science VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve pugilist level 70.",
+        name: "The Sweet Science VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve pugilist level 80.",
+        name: "The Sweet Science VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Marauder
+    {
         description: "Achieve marauder level 10.",
         name: "An Axe to Grind I",
         points: 5,
@@ -83,6 +118,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve marauder level 60.",
+        name: "An Axe to Grind VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve marauder level 70.",
+        name: "An Axe to Grind VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve marauder level 80.",
+        name: "An Axe to Grind VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Lancer
+    {
         description: "Achieve lancer level 10.",
         name: "Strong Lance Arm I",
         points: 5,
@@ -108,6 +160,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve lancer level 60.",
+        name: "Strong Lance Arm VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve lancer level 70.",
+        name: "Strong Lance Arm VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve lancer level 80.",
+        name: "Strong Lance Arm VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Archer
+    {
         description: "Achieve archer level 10.",
         name: "Just Talkin' 'bout Shafts I",
         points: 5,
@@ -133,6 +202,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve archer level 60.",
+        name: "Just Talkin' 'bout Shafts VI",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve archer level 70.",
+        name: "Just Talkin' 'bout Shafts VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve archer level 80.",
+        name: "Just Talkin' 'bout Shafts VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Rogue
+    {
         description: "Achieve rogue level 10.",
         name: "Come on, Rogue I",
         points: 5,
@@ -158,36 +244,23 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve gladiator level 60.",
-        name: "Stick Them with the Pointy End VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve pugilist level 60.",
-        name: "The Sweet Science VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve marauder level 60.",
-        name: "An Axe to Grind VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve lancer level 60.",
-        name: "Strong Lance Arm VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve archer level 60.",
-        name: "Just Talkin' 'bout Shafts VI",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve rogue level 60.",
         name: "Come on, Rogue VI",
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve rogue level 70.",
+        name: "Come on, Rogue VII",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve rogue level 80.",
+        name: "Come on, Rogue VIII",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Dark Knight
+    {
         description: "Achieve dark knight level 30.",
         name: "Are You Afraid of the Dark? I",
         points: 5,
@@ -208,6 +281,18 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve dark knight level 70.",
+        name: "Are You Afraid of the Dark? V",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Achieve dark knight level 80.",
+        name: "Are You Afraid of the Dark? VI",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Machinist
+    {
         description: "Achieve machinist level 30.",
         name: "Mean Machine I",
         points: 5,
@@ -228,46 +313,18 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve gladiator level 70.",
-        name: "Stick Them with the Pointy End VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve pugilist level 70.",
-        name: "The Sweet Science VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve marauder level 70.",
-        name: "An Axe to Grind VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve lancer level 70.",
-        name: "Strong Lance Arm VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve archer level 70.",
-        name: "Just Talkin' 'bout Shafts VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve rogue level 70.",
-        name: "Come on, Rogue VII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve dark knight level 70.",
-        name: "Are You Afraid of the Dark? V",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve machinist level 70.",
         name: "Mean Machine V",
         points: 5,
         reward: "-"
     }, {
+        description: "Achieve machinist level 80.",
+        name: "Mean Machine VI",
+        points: 5,
+        reward: "-"
+    },
+    //------------------------------------------------------- Samurai
+    {
         description: "Achieve samurai level 50.",
         name: "Bushido Blade I",
         points: 5,
@@ -283,51 +340,13 @@ const tasks = [
         points: 5,
         reward: "-"
     }, {
-        description: "Achieve gladiator level 80.",
-        name: "Stick Them with the Pointy End VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve pugilist level 80.",
-        name: "The Sweet Science VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve marauder level 80.",
-        name: "An Axe to Grind VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve lancer level 80.",
-        name: "Strong Lance Arm VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve archer level 80.",
-        name: "Just Talkin' 'bout Shafts VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve rogue level 80.",
-        name: "Come on, Rogue VIII",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve dark knight level 80.",
-        name: "Are You Afraid of the Dark? VI",
-        points: 5,
-        reward: "-"
-    }, {
-        description: "Achieve machinist level 80.",
-        name: "Mean Machine VI",
-        points: 5,
-        reward: "-"
-    }, {
         description: "Achieve samurai level 80.",
         name: "Bushido Blade IV",
         points: 5,
         reward: "-"
-    }, {
+    },
+    //------------------------------------------------------- Gunbreaker
+    {
         description: "Achieve gunbreaker level 70.",
         name: "More Complex than You Think I",
         points: 5,
@@ -337,7 +356,9 @@ const tasks = [
         name: "More Complex than You Think II",
         points: 5,
         reward: "-"
-    }, {
+    },
+    //------------------------------------------------------- Dancer
+    {
         description: "Achieve dancer level 70.",
         name: "We Got the Beat I",
         points: 5,

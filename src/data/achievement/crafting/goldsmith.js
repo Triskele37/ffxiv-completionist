@@ -7,6 +7,7 @@ export const Achievements_Crafting_Goldsmith = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 goldsmithing recipes.",
         name: "Cutting the Carats: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Leaf"
     }, {
         description: "Obtain the first five \u201cCutting the Carats\u201d achievements.",
-        reward: "Item: Gavel of the Luminary",
         name: "A Goldsmith's Life for Me",
         points: 30,
+        reward: "Item: Gavel of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 goldsmithing recipes.",
+        name: "Cutting the Carats: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 goldsmithing recipes.",
+        name: "Cutting the Carats: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 goldsmithing recipes.",
+        name: "Cutting the Carats: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 60 unique goldsmith recipes.",
         name: "I Made That: Goldsmith I",
         points: 5,
@@ -49,10 +67,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Craft and record completion of 270 unique goldsmith recipes.",
-        reward: "Item: Master Goldsmith's Ring",
         name: "I Made That: Goldsmith III",
         points: 10,
+        reward: "Item: Master Goldsmith's Ring",
     }, {
+        description: "Craft and record completion of 380 unique goldsmith recipes.",
+        name: "I Made That: Goldsmith IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 550 unique goldsmith recipes.",
+        name: "I Made That: Goldsmith V",
+        points: 10,
+        reward: "Item: Blessed Gemkeep's Mallet",
+    }, {
+        description: "Craft and record completion of 730 unique goldsmith recipes.",
+        name: "I Made That: Goldsmith VI",
+        points: 10,
+        reward: "Item: Blessed Gemking's Mallet",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as a goldsmith.",
         name: "An Eye for Detail: Goldsmith I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 380 unique goldsmith recipes.",
-        name: "I Made That: Goldsmith IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 goldsmithing recipes.",
-        name: "Cutting the Carats: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as a goldsmith.",
         name: "An Eye for Detail: Goldsmith IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Goldsmith V",
         points: 10,
         reward: "Title: Master Goldsmith"
-    }, {
-        description: "Craft and record completion of 550 unique goldsmith recipes.",
-        reward: "Item: Blessed Gemkeep's Mallet",
-        name: "I Made That: Goldsmith V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 goldsmithing recipes.",
-        name: "Cutting the Carats: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 730 unique goldsmith recipes.",
-        reward: "Item: Blessed Gemking's Mallet",
-        name: "I Made That: Goldsmith VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 goldsmithing recipes.",
-        name: "Cutting the Carats: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

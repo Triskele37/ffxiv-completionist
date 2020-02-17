@@ -8,6 +8,7 @@ export const Achievements_Gathering_Miner = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Gather
     {
         description: "Mine 20 times at level 1-10 mineral deposits in La Noscea.",
         name: "Mining Your Own Business: La Noscea I",
@@ -100,10 +101,27 @@ const tasks = [
         reward: "Title: Desertbreaker"
     }, {
         description: "Obtain the \u201cA Miner's Life for Me\u201d achievements for La Noscea, the Black Shroud, and Thanalan.",
-        reward: "Item: Pick of the Luminary",
         name: "A Miner's Life for Me: Greater Eorzea",
         points: 30,
+        reward: "Item: Pick of the Luminary",
     }, {
+        description: "Gather 5,000 times at level 51-60 mineral deposits or rocky outcrops.",
+        name: "Mining Heavensward",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Gather 5,000 times at level 61-70 mineral deposits or rocky outcrops.",
+        name: "Mining Stormblood",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Gather 5,000 times at level 71-80 mineral deposits or rocky outcrops.",
+        name: "Mining Shadowbringers",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique
+    {
         description: "Mine and record discovery of 15 unique items that can only be gathered as a miner.",
         name: "I Found That: Miner I",
         points: 5,
@@ -115,10 +133,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Mine and record discovery of 50 unique items that can only be gathered as a miner.",
-        reward: "Item: Master Miner's Ring",
         name: "I Found That: Miner III",
         points: 10,
+        reward: "Item: Master Miner's Ring",
     }, {
+        description: "Mine and record discovery of 100 unique items that can only be gathered as a miner.",
+        name: "I Found That: Miner IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Mine and record discovery of 150 unique items that can only be gathered as a miner.",
+        name: "I Found That: Miner V",
+        points: 10,
+        reward: "Item: Blessed Minekeep's Pickaxe",
+    }, {
+        description: "Mine and record discovery of 180 unique items that can only be gathered as a miner.",
+        name: "I Found That: Miner VI",
+        points: 10,
+        reward: "Item: Blessed Mineking's Pickaxe",
+    },
+    //----------------------------------------------------------------------------- HQ Gather
+    {
         description: "Gather 300 high-quality items as a miner.",
         name: "An Eye for Quality: Miner I",
         points: 5,
@@ -134,39 +169,9 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Mine and record discovery of 100 unique items that can only be gathered as a miner.",
-        name: "I Found That: Miner IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Gather 5,000 times at level 51-60 mineral deposits or rocky outcrops.",
-        name: "Mining Heavensward",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Gather 20,000 high-quality items as a miner.",
         name: "An Eye for Quality: Miner IV",
         points: 10,
         reward: "Title: Master Miner"
-    }, {
-        description: "Mine and record discovery of 150 unique items that can only be gathered as a miner.",
-        reward: "Item: Blessed Minekeep's Pickaxe",
-        name: "I Found That: Miner V",
-        points: 10,
-    }, {
-        description: "Gather 5,000 times at level 61-70 mineral deposits or rocky outcrops.",
-        name: "Mining Stormblood",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Mine and record discovery of 180 unique items that can only be gathered as a miner.",
-        reward: "Item: Blessed Mineking's Pickaxe",
-        name: "I Found That: Miner VI",
-        points: 10,
-    }, {
-        description: "Gather 5,000 times at level 71-80 mineral deposits or rocky outcrops.",
-        name: "Mining Shadowbringers",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];

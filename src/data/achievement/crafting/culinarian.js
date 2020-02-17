@@ -7,6 +7,7 @@ export const Achievements_Crafting_Culinarian = function(parent) {
 };
 
 const tasks = [
+    //----------------------------------------------------------------------------- Synthesis
     {
         description: "Successfully synthesize 50 times for level 1-10 cooking recipes.",
         name: "Savoring the Realm: Amateur",
@@ -34,10 +35,27 @@ const tasks = [
         reward: "Title: Of the Golden Ladle"
     }, {
         description: "Obtain the first five \u201cSavoring the Realm\u201d achievements.",
-        reward: "Item: Pan of the Luminary",
         name: "A Life of Cooking",
         points: 30,
+        reward: "Item: Pan of the Luminary",
     }, {
+        description: "Successfully synthesize 1,000 times for level 51-60 cooking recipes.",
+        name: "Savoring the Realm: Adept",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 61-70 cooking recipes.",
+        name: "Savoring the Realm: Veteran",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Successfully synthesize 1,000 times for level 71-80 cooking recipes.",
+        name: "Savoring the Realm: Master",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Unique Recipes
+    {
         description: "Craft and record completion of 30 unique culinarian recipes.",
         name: "I Made That: Culinarian I",
         points: 5,
@@ -49,10 +67,27 @@ const tasks = [
         reward: "-"
     }, {
         description: "Craft and record completion of 120 unique culinarian recipes.",
-        reward: "Item: Master Culinarian's Ring",
         name: "I Made That: Culinarian III",
         points: 10,
+        reward: "Item: Master Culinarian's Ring",
     }, {
+        description: "Craft and record completion of 160 unique culinarian recipes.",
+        name: "I Made That: Culinarian IV",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Craft and record completion of 190 unique culinarian recipes.",
+        name: "I Made That: Culinarian V",
+        points: 10,
+        reward: "Item: Blessed Galleykeep's Frypan",
+    }, {
+        description: "Craft and record completion of 230 unique culinarian recipes.",
+        name: "I Made That: Culinarian VI",
+        points: 10,
+        reward: "Item: Blessed Galleyking's Frypan",
+    },
+    //----------------------------------------------------------------------------- HQ Synthesis
+    {
         description: "Craft 100 high-quality items as a culinarian.",
         name: "An Eye for Detail: Culinarian I",
         points: 5,
@@ -68,16 +103,6 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
-        description: "Craft and record completion of 160 unique culinarian recipes.",
-        name: "I Made That: Culinarian IV",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Successfully synthesize 1,000 times for level 51-60 cooking recipes.",
-        name: "Savoring the Realm: Adept",
-        points: 10,
-        reward: "-"
-    }, {
         description: "Craft 5,000 high-quality items as a culinarian.",
         name: "An Eye for Detail: Culinarian IV",
         points: 10,
@@ -87,25 +112,5 @@ const tasks = [
         name: "An Eye for Detail: Culinarian V",
         points: 10,
         reward: "Title: Master Culinarian"
-    }, {
-        description: "Craft and record completion of 190 unique culinarian recipes.",
-        reward: "Item: Blessed Galleykeep's Frypan",
-        name: "I Made That: Culinarian V",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 61-70 cooking recipes.",
-        name: "Savoring the Realm: Veteran",
-        points: 10,
-        reward: "-"
-    }, {
-        description: "Craft and record completion of 230 unique culinarian recipes.",
-        reward: "Item: Blessed Galleyking's Frypan",
-        name: "I Made That: Culinarian VI",
-        points: 10,
-    }, {
-        description: "Successfully synthesize 1,000 times for level 71-80 cooking recipes.",
-        name: "Savoring the Realm: Master",
-        points: 10,
-        reward: "-"
-    }
+    },
 ];
