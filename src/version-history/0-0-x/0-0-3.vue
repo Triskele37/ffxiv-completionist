@@ -15,6 +15,7 @@
             <li>
                 Achievements
                 <ul>
+                    <li>All: Reordered to match IG sort order</li>
                     <li>Battle > Battle: Fixed rewards not displaying</li>
                     <li>Character > General: Fixed description not displaying</li>
                     <li>Quests > Quests: Fixed description not displaying</li>
