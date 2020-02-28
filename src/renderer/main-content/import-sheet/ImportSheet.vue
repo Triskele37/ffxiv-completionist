@@ -5,6 +5,7 @@
                 <li>Open the tab you want to import from FFXIV Checklist</li>
                 <li>Copy the entire sheet in that tab (at minimum every cell with a background color)</li>
                 <li>Paste those contents into the text area next to the matching tab title on this page</li>
+                <li>Hover the status dot next to the import field for more information</li>
             </ol>
 
             <ul style="display: inline-block;">
@@ -12,14 +13,6 @@
                 <li>Green: Items were imported and saved</li>
                 <li>Red: Some name/s in a row could not be found, successful matches still saved</li>
             </ul>
-
-            <p>
-                NOTE: Please PM me all unsuccessful import names grouped by section and tab for your sheets.
-                <br/>
-                I've tried to make matching as fuzzy as possible while maintaining certainty, but expect to see some issues
-                <br/>
-                Also, no tab import should take longer than 5 seconds, let me know if any do
-            </p>
         </div>
 
         <div class="section-container">
