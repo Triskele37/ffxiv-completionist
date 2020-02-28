@@ -976,5 +976,25 @@ const tasks = [
         timeAvailable: "X",
         prerequisite: "X",
         fee: 30
-    }
+    }, {
+        deckStrength: 0,
+        name: "Hanagasa",
+        zone: "Kugane",
+        location: "Kugane (10.4,11.8)",
+        rules: "Descension, Plus",
+        drops: "Argath Thadalfus, Rofocale, Ultima, the High Seraph, Yiazmat",
+        timeAvailable: "X",
+        prerequisite: "Quest: The City of Lost Angels",
+        fee: 40
+    }, {
+        deckStrength: 0,
+        name: "Redard",
+        zone: "The Rak'tika Greatwood",
+        location: "Slitherbough (20.4,27.2)",
+        rules: "Reverse, Same",
+        drops: "Batsquatch, Qitari",
+        timeAvailable: "X",
+        prerequisite: "Quest: The Stewards of Note",
+        fee: 25
+    },
 ];

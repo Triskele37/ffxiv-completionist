@@ -24,14 +24,14 @@ const tasks = [
     	iLvlReq: "430",
     	name: "The Dancing Plague (Extreme)",
     	boss: "Titania",
-    	roulette: "Trials",
+    	roulette: "",
     	unlock: "Minstrel from Another Mother"
     }, {
     	level: "80",
     	iLvlReq: "430",
     	name: "The Crown of the Immaculate (Extreme)",
     	boss: "Innocence",
-    	roulette: "Trials",
+    	roulette: "",
     	unlock: "Minstrel from Another Mother"
     }, {
     	level: "80",
@@ -45,7 +45,21 @@ const tasks = [
     	iLvlReq: "450",
     	name: "The Minstrel's Ballad: Hades's Elegy",
     	boss: "Hades",
-    	roulette: "Trials",
+    	roulette: "",
     	unlock: "Shadowbringers"
-    }
+    }, {
+    	level: "80",
+    	iLvlReq: "455",
+    	name: "Cinder Drift",
+    	boss: "The Ruby Weapon",
+    	roulette: "Trials",
+    	unlock: "Ruby Doomsday"
+    }, {
+    	level: "80",
+    	iLvlReq: "470",
+    	name: "Cinder Drift (Extreme)",
+    	boss: "The Ruby Weapon",
+    	roulette: "",
+    	unlock: ""
+    },
 ];

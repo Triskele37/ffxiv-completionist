@@ -11,6 +11,11 @@ const tasks = [
         npc: "Vorsaile Heuloix",
         unlock: ""
     }, {
+        level: "30",
+        name: "Like Civilized Men and Women (Twin Adder)",
+        npc: "Scarlet",
+        unlock: "Unlocks Frontline"
+    }, {
         level: "44",
         name: "Shadows Uncast (Twin Adder)",
         npc: "Vorsaile Heuloix",
@@ -25,11 +30,6 @@ const tasks = [
         name: "Squadron and Commander (Twin Adder)",
         npc: "Serpent Personnel Officer",
         unlock: "Unlocks Adventurer Squadrons"
-    }, {
-        level: "50",
-        name: "Like Civilized Men and Women (Twin Adder)",
-        npc: "Scarlet",
-        unlock: "Unlocks Frontline"
     }, {
         level: "50",
         name: "Let the Hunt Begin (Twin Adder)",

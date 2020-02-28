@@ -147,6 +147,9 @@ const tasks = [
         name: "Enbarr",
         unlock: "Dropped by Leviathan in The Whorleater (Extreme)."
     }, {
+        name: "Epimetheus",
+        unlock: "The Feast Season 14 Reward"
+    }, {
         name: "Euphonious Kamuy",
         unlock: "Trial reward for Hell's Kier (Extreme)"
     }, {
@@ -210,6 +213,9 @@ const tasks = [
         name: "Grani",
         unlock: "Purchasing the Collector's Edition of Shadowbringer."
     }, {
+        name: "Great Vessel Of Ronka",
+        unlock: "18x Qitari Compliments from Yuqurl Manl"
+    }, {
         name: "Griffin",
         unlock: "Purchasing the Collector's Edition of Heavensward."
     }, {
@@ -218,6 +224,9 @@ const tasks = [
     }, {
         name: "Hallowed Kamuy",
         unlock: "Rare drop from the Wreath of Snakes (Extreme)."
+    }, {
+        name: "Hybodus",
+        unlock: "Awarded from the achievement No More Fish In The Sea II"
     }, {
         name: "Indigo Whale",
         unlock: "Purchased from the Mog Station for EUR 20 or $29."
@@ -236,6 +245,9 @@ const tasks = [
     }, {
         name: "Kamuy of the Nine Tails",
         unlock: "Collect every Stormblood Extreme Primal Mount and complete A Lone Wolf No More sidequest."
+    }, {
+        name: "Kingly Peacock",
+        unlock: ""
     }, {
         name: "Kirin",
         unlock: "Complete the A Legend for a Legend sidequest"
@@ -312,6 +324,9 @@ const tasks = [
         name: "Maxima Roader",
         unlock: "Feast Season 12 Reward"
     }, {
+        name: "Menoetius",
+        unlock: ""
+    }, {
         name: "Midgardsormr",
         unlock: "After completing the Main Scenario Quest Fetters of Lament."
     }, {
@@ -357,6 +372,9 @@ const tasks = [
         name: "Raigo",
         unlock: "Furious Fatalities PvP Achievement"
     }, {
+        name: "Ramuh",
+        unlock: "Raid reward for Eden's Verse: Refulgence (Savage)"
+    }, {
         name: "Rathalos",
         unlock: "50x Rathalos Scale+"
     }, {
@@ -377,6 +395,12 @@ const tasks = [
     }, {
         name: "Round Lanner",
         unlock: "Rare drop from The Minstrel's Ballad: Thordan's Reign."
+    }, {
+        name: "Rubellite Carbuncle",
+        unlock: ""
+    }, {
+        name: "Ruby Gwiber",
+        unlock: "Rare drop from Cinder Drift (Extreme)"
     }, {
         name: "Sabotender Emperador",
         unlock: "Bought at Gold Saucer for 2,000,000 MGP"
@@ -404,6 +428,9 @@ const tasks = [
     }, {
         name: "Sophic Lanner",
         unlock: "Dropped from Containment Bay P1T6 (Extreme)."
+    }, {
+        name: "Spriggin Stonecarrier",
+        unlock: ""
     }, {
         name: "Storm Warsteed",
         unlock: "Completion of the A Line in the Storm IV achievement."

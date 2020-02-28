@@ -379,6 +379,11 @@ const tasks = [
         name: "Mapping the Realm: The Grand Cosmos",
         points: 10,
         reward: "-"
+    }, {
+        description: "Discover every location within Anamnesis Anyder",
+        name: "Mapping the Realm: Anamnesis Anyder",
+        points: 10,
+        reward: "-"
     },
     //----------------------------------------------------------------------------- ARR 24 Raids
     {

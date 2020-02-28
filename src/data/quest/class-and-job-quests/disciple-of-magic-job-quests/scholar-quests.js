@@ -61,6 +61,6 @@ const tasks = [
         name: "Our Unsung Heroes"
     }, {
         level: "80",
-        name: "Yes Beauty"
+        name: "True Beauty"
     }
 ];

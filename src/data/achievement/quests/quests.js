@@ -308,6 +308,11 @@ const tasks = [
         description: "Complete the quest \"Vows of Virtue, Deeds of Cruelty.\"",
         reward: "Title: Of Virtuous Deeds",
     }, {
+        name: "Way More Heroes",
+        points: "20",
+        description: "Complete the quest \"Echoes of a Fallen Star\"",
+        reward: "Title: Echo of a Fallen Star",
+    }, {
         name: "I Like Big Fish and I Cannot Lie",
         points: "10",
         description: "Complete the quest \"The Beast of Brewer's Beacon.\"",

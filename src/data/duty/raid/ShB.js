@@ -5,6 +5,7 @@ export const Duty_Raids_ShB = function(parent) {
 };
 
 const tasks = [
+    //------------------------------------------------------- Tier 1
     {
     	level: "80",
     	iLvlReq: "425",
@@ -65,5 +66,55 @@ const tasks = [
     	name: "The Copied Factory",
     	roulette: "Alliance Raids",
     	unlock: "On the Threshold"
-    }
+    },
+    //------------------------------------------------------- Tier 2
+    {
+    	level: "80",
+    	iLvlReq: "455",
+    	name: "Eden's Verse: Fulmination",
+    	roulette: "Normal Raids",
+    	unlock: "Blood and Thunder"
+    }, {
+    	level: "80",
+    	iLvlReq: "455",
+    	name: "Eden's Verse: Furor",
+    	roulette: "Normal Raids",
+    	unlock: "Into the Firestorm"
+    }, {
+    	level: "80",
+    	iLvlReq: "455",
+    	name: "Eden's Verse: Iconoclasm",
+    	roulette: "Normal Raids",
+    	unlock: "Heart of Darkness"
+    }, {
+    	level: "80",
+    	iLvlReq: "455",
+    	name: "Eden's Verse: Refulgence",
+    	roulette: "Normal Raids",
+    	unlock: "On Thin Ice"
+    }, {
+    	level: "80",
+    	iLvlReq: "470",
+    	name: "Eden's Verse: Fulmination (Savage)",
+    	roulette: "",
+    	unlock: "On Thin Ice"
+    }, {
+    	level: "80",
+    	iLvlReq: "475",
+    	name: "Eden's Verse: Furor (Savage)",
+    	roulette: "",
+    	unlock: "On Thin Ice"
+    }, {
+    	level: "80",
+    	iLvlReq: "480",
+    	name: "Eden's Verse: Iconoclasm (Savage)",
+    	roulette: "",
+    	unlock: "On Thin Ice"
+    }, {
+    	level: "80",
+    	iLvlReq: "480",
+    	name: "Eden's Verse: Refulgence (Savage)",
+    	roulette: "",
+    	unlock: "On Thin Ice"
+    },
 ];

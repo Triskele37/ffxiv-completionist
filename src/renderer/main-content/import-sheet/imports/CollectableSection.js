@@ -31,7 +31,11 @@ export const CollectablesSection = {
         },
         {
             title: "Triple Triad Cards",
-            importCallback: importCallback(1, [collectables.sg('Triple Triad Card List')]),
+            importCallback: importCallback(1, [collectables.sg('Triple Triad Card List')], (isMatch, task, columns) => {
+                if(isMatch) return true;
+                if(task.name === columns[1].replace(' Card', '')) return true;
+                return false;
+            }),
         },
         {
             title: "Triple Triad Opponents",

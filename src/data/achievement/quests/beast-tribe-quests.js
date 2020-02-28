@@ -291,5 +291,27 @@ const tasks = [
         name: "Forever Young",
         points: 20,
         reward: "Title: Sweet Dreamer"
-    }
+    },
+    //----------------------------------------------------------------------------- Qitari
+    {
+        description: "Attain rank 3 reputation (friendly) with the Qitari.",
+        name: "With My Compliments I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Attain rank 4 reputation (trusted) with the Qitari.",
+        name: "With My Compliments II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Attain rank 6 reputation (honored) with the Qitari.",
+        name: "With My Compliments III",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Attain rank 7 reputation (sworn) with the Qitari.",
+        name: "With My Compliments IV",
+        points: 20,
+        reward: "Title: Ronkan Historian"
+    },
 ];

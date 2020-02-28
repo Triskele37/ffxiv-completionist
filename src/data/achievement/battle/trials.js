@@ -153,10 +153,14 @@ const tasks = [
         points: 10,
         reward: "-"
     }, {
+        description: "Defeat the Ruby Weapon at Cinder Draft",
+        name: "Seeing Red",
+        points: 10,
+        reward: "-"
+    }, {
         description: "Defeat the Rathalos in the Great Hunt (Extreme).",
         name: "Extreme Rathalos Hunter",
         points: 10,
         reward: "-"
     },
 ];
-

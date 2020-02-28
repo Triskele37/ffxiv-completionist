@@ -200,5 +200,10 @@ const tasks = [
         name: "Invincible",
         method: "The Minstrel's Ballad: Hades's Elegy",
         unlock: "Level 80?? Alchemist (Master Alchemist VII) from Faded Copy of From The Minstrel's Ballad: Hades's Elegy"
-    }
+    }, {
+        number: 40,
+        name: "Ultima (The Primals)",
+        method: "Materials for synthesis obtained in Cinder Drift (Extreme).",
+        unlock: "Level 80?? Alchemist (Master Alchemist VII) from Faded Copy of From The Minstrel's Ballad: Hades's Elegy"
+    },
 ];

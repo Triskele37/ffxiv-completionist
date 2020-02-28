@@ -73,16 +73,6 @@ const tasks = [
         points: 20,
         reward: "-"
     }, {
-        description: "Decipher 20 timeworn gliderskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It X",
-        points: 20,
-        reward: "-"
-    }, {
-        description: "Decipher 20 timeworn zonureskin maps and open the treasure coffers to which they lead.",
-        name: "I Can Dig It XI",
-        points: 20,
-        reward: "-"
-    }, {
         description: "Raid the Aquapolis.",
         name: "Life Aquatic I",
         points: 5,
@@ -284,4 +274,3 @@ const tasks = [
         reward: "Title: Dungeon Lord"
     }
 ];
-

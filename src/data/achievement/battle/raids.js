@@ -347,6 +347,35 @@ const tasks = [
         name: "When I Ruled the World",
         points: 10,
         reward: "Title: The Perfect Legend"
-    }
+    }, {
+        description: "Complete Eden's Verse",
+        name: "Trouble in Paradise I",
+        points: 5,
+        reward: ""
+    }, {
+        description: "Complete Eden's Verse 5 times",
+        name: "Trouble in Paradise II",
+        points: 10,
+        reward: ""
+    }, {
+        description: "Complete Eden's Verse 10 times",
+        name: "Trouble in Paradise III",
+        points: 20,
+        reward: ""
+    }, {
+        description: "Complete Eden's Verse",
+        name: "Savage Trouble in Paradise I",
+        points: 5,
+        reward: ""
+    }, {
+        description: "Complete Eden's Verse 5 times",
+        name: "Savage Trouble in Paradise II",
+        points: 10,
+        reward: ""
+    }, {
+        description: "Complete Eden's Verse 10 times",
+        name: "Savage Trouble in Paradise III",
+        points: 20,
+        reward: ""
+    },
 ];
-

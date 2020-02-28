@@ -11,6 +11,11 @@ const tasks = [
         npc: "R'ashaht Rhiki",
         unlock: ""
     }, {
+        level: "30",
+        name: "Like Civilized Men and Women (Maelstrom)",
+        npc: "Trachraet",
+        unlock: "Unlocks Frontline"
+    }, {
         level: "44",
         name: "Shadows Uncast (Maelstrom)",
         npc: "R'ashaht Rhiki",
@@ -25,11 +30,6 @@ const tasks = [
         name: "Squadron and Commander (Maelstrom)",
         npc: "Storm Personnel Officer",
         unlock: "Unlocks Adventurer Squadrons"
-    }, {
-        level: "50",
-        name: "Like Civilized Men and Women (Maelstrom)",
-        npc: "Trachraet",
-        unlock: "Unlocks Frontline"
     }, {
         level: "50",
         name: "Let the Hunt Begin (Maelstrom)",

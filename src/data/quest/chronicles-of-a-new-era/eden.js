@@ -6,6 +6,7 @@ export const Quests_Chronicles_of_a_New_Era_Eden = function(parent) {
 };
 
 const tasks = [
+    //------------------------------------------------------- Tier 1
     {
         level: "80",
         name: "In the Middle of Nowhere",
@@ -36,5 +37,37 @@ const tasks = [
         name: "The Next Piece of the Puzzle",
         npc: "Ryne",
         unlock: ""
-    }
+    },
+    //------------------------------------------------------- Tier 2
+    {
+        level: "80",
+        name: "Away with the Faerie",
+        npc: "Yalfort",
+        unlock: ""
+    }, {
+        level: "80",
+        name: "Blood and Thunder",
+        npc: "Gaia",
+        unlock: "Eden's Verse: Fulmination"
+    }, {
+        level: "80",
+        name: "Into the Firestorm",
+        npc: "Urianger",
+        unlock: "Eden's Verse: Furor"
+    }, {
+        level: "80",
+        name: "Heart of Darkness",
+        npc: "Thancred",
+        unlock: "Eden's Verse: Iconoclasm"
+    }, {
+        level: "80",
+        name: "On Thin Ice",
+        npc: "Gaia",
+        unlock: "Eden's Verse: Refulgence"
+    }, {
+        level: "80",
+        name: "Life Finds A Way",
+        npc: "Ryne",
+        unlock: ""
+    },
 ];

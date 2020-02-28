@@ -6,6 +6,7 @@ export const Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse = function(par
 };
 
 const tasks = [
+    //------------------------------------------------------- Tier 1
     {
         level: "70",
         name: "Word about Komra",
@@ -36,5 +37,17 @@ const tasks = [
         name: "Tails, You Lose",
         npc: "Anogg",
         unlock: ""
-    }
+    },
+    //------------------------------------------------------- ???
+    {
+        level: "80",
+        name: "Carnivals and Confrontations",
+        npc: "Dig Site Chief",
+        unlock: ""
+    }, {
+        level: "80",
+        name: "One Way to Do It",
+        npc: "Anogg",
+        unlock: ""
+    },
 ];

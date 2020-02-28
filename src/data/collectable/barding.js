@@ -168,6 +168,9 @@ const tasks = [
         name: "Round Table Barding",
         unlock: "15 Heavens' Ward Helm Fragments traded at Rowena's Center for Cultural Promotion"
     }, {
+        name: "Ruby Barding",
+        unlock: ""
+    }, {
         name: "Saintly Barding",
         unlock: "Acquired through Starlight Celebration (2019) Seasonal Event."
     }, {

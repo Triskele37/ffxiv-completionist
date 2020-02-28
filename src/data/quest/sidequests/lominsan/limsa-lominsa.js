@@ -41,6 +41,11 @@ const tasks = [
         npc: "J'nasshym",
         unlock: ""
     }, {
+        level: "1",
+        name: "All the Fish in the Sea",
+        npc: "Fhilsnoe",
+        unlock: "Ocean Fishing"
+    }, {
         level: "2",
         name: "A Thousand Words",
         npc: "Latisha",

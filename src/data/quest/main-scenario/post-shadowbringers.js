@@ -72,5 +72,69 @@ const tasks = [
         npc: "Alphinaud Leveilleur",
         unlock: "",
         patch: "Vows of Virtue, Deeds of Cruelty"
-    }
+    },
+    //------------------------------------------------------------------ Echoes of a Fallen Star
+    {
+        level: "80",
+        name: "Old Enemies, New Threats",
+        npc: "Krile Baldesion",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "The Way Home",
+        npc: "Krile Baldesion",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "Seeking Counsel",
+        npc: "Alphinaud Leveilleur",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "Facing the Truth",
+        npc: "Lyna",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "A Sleep Disturbed",
+        npc: "Crystal Exarch",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "An Old Friend",
+        npc: "Y'shtola Rhul",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "Deep Designs",
+        npc: "Y'shotla Rhul",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "A Whale's Tale",
+        npc: "Urianger Augurelt",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "Beneath the Surface",
+        npc: "Urianger Augurelt",
+        unlock: "Anamnesis Anyder",
+        patch: "Echoes of a Fallen Star"
+    }, {
+        level: "80",
+        name: "Echoes of a Fallen Star",
+        npc: "Urianger Augurelt",
+        unlock: "",
+        patch: "Echoes of a Fallen Star"
+    },
+    //------------------------------------------------------------------ 5.3
+    //------------------------------------------------------------------ 5.4
 ];

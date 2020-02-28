@@ -104,12 +104,12 @@ const tasks = [
         level: "17",
         name: "The House That Death Built",
         npc: "Nojiro Marujiro",
-        unlock: ""
+        unlock: "Unlocks Palace of the Dead"
     }, {
         level: "20",
         name: "A Sight to Behold",
         npc: "Naoh Gamduhla",
-        unlock: ""
+        unlock: "Unlocks Sightseeing Log"
     }, {
         level: "20",
         name: "My Little Chocobo (Twin Adder)",

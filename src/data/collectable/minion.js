@@ -18,6 +18,10 @@ const tasks = [
         method: "Quest Reward",
         unlock: "Complete the Level 60 sidequest Do It for Gilly."
     }, {
+        name: "Ancient One",
+        method: "Duty",
+        unlock: "Drops from Anamnesis Anyder Duty"
+    }, {
         name: "Angel of Mercy",
         method: "Seasonal Event",
         unlock: "Acquired in Valentione's Day (2017). MogStation: 5 USD / 3.5 EUR"
@@ -474,6 +478,10 @@ const tasks = [
         method: "Duty",
         unlock: "Found in chest after final boss of The Aery."
     }, {
+        name: "Little Leafman",
+        method: "Purchased",
+        unlock: "Purchased from Sul Lad in Lydha Lran for 400 Bicolor Gemstones"
+    }, {
         name: "Little Leannan",
         method: "Duty",
         unlock: "Randomly drops from chest in The Grand Cosmos"
@@ -758,6 +766,10 @@ const tasks = [
         method: "Voyages",
         unlock: "Subaquatic Voyages - The Central Charnel Trench, The Southern Charnel Trench"
     }, {
+        name: "Silver Dasher",
+        method: "Voyages",
+        unlock: "Subaquatic Voyages - The Open Robe"
+    }, {
         name: "Shoebill",
         method: "Duty",
         unlock: "Dropped from Amaurot"
@@ -786,6 +798,10 @@ const tasks = [
         method: "Purchased",
         unlock: "Purchased for 20,000 Storm Seals."
     }, {
+        name: "Sungold Talos",
+        method: "Duty",
+        unlock: "Drop in The Dungeons Of Lyhe Ghiah"
+    }, {
         name: "Taoist Moogle",
         method: "Purchased",
         unlock: "Purchased from Itinerant Moogle for 140 gil"
@@ -798,6 +814,14 @@ const tasks = [
         method: "Retainer Ventures",
         unlock: "Field Exploration XXII Combat Retainer Venture or Quick Exploration"
     }, {
+        name: "The Behatted Serpent of Ronka",
+        method: "Purchased",
+        unlock: "Qitari Beast Tribe Reward. Costs 8 Qitari Compliments from Yuqurl Manl",
+    }, {
+        name: "The Behelmeted Serpent of Ronka",
+        method: "Purchased",
+        unlock: "Qitari Beast Tribe Reward. Costs 8 Qitari Compliments from Yuqurl Manl"
+    }, {
         name: "The Gold Whisker",
         method: "Duty",
         unlock: "The Hidden Canals of Uznair"
@@ -805,6 +829,10 @@ const tasks = [
         name: "The Great Serpent of Ronka",
         method: "Quest Reward",
         unlock: "Complete Level 70 Side Quest Protectors of the Wood"
+    }, {
+        name: "The Major-General",
+        method: "Achievements",
+        unlock: "Complete the No More Fish In The Sea I Achievement"
     }, {
         name: "The Prince of Anemos",
         method: "FATE Reward",
@@ -869,6 +897,10 @@ const tasks = [
         name: "Unicolt",
         method: "Duty",
         unlock: "Found in chest after final boss of The Vault."
+    }, {
+        name: "Unlucky Rabbit",
+        method: "Purchased",
+        unlock: "Purchased from Gold Saucer Attendant for 30,000 MGP"
     }, {
         name: "Venoct",
         method: "Seasonal Event",
@@ -989,6 +1021,10 @@ const tasks = [
         name: "Wind-up Dragonet",
         method: "Purchased",
         unlock: "Purchased from Mogmul Mogbelly for 30,000 gil at Sworn (or higher) reputation"
+    }, {
+        name: "Wind-up Dulia-Chai",
+        method: "Item Code",
+        unlock: "FINAL FANTASY XIV: SHADOWBRINGERS - The Art of Reflection Art Book"
     }, {
         name: "Wind-up Dullahan",
         method: "Crafted",
@@ -1273,6 +1309,10 @@ const tasks = [
         name: "Wind-up Rikku",
         method: "Item Code",
         unlock: "Fan Fest 2016 in Las Vegas Event/Live Stream Ticket"
+    }, {
+        name: "Wind-up Ryne",
+        method: "Duty",
+        unlock: "Drops from Eden's Verse: Refulgence"
     }, {
         name: "Wind-up Sadu",
         method: "Crafted",
