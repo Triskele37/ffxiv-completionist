@@ -2,7 +2,7 @@ import { DataGroup } from "../../DataGroup";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Goldsmith&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Crafting_Goldsmith = function(parent) {
+export const Achievements_Crafting_and_Gathering_Goldsmith = function(parent) {
     return new DataGroup("Goldsmith", parent).initializeTasks(tasks);
 };
 

@@ -5,8 +5,7 @@ import { Achievements_Battle } from "./battle";
 import { Achievements_PvP } from "./pvp";
 import { Achievements_Character } from "./character";
 import { Achievements_Items } from "./items";
-import { Achievements_Crafting } from "./crafting";
-import { Achievements_Gathering } from "./gathering";
+import { Achievements_Crafting_and_Gathering } from "./crafting-and-gathering";
 import { Achievements_Quests } from "./quests";
 import { Achievements_Exploration } from "./exploration";
 import { Achievements_Grand_Company } from "./grand-company";
@@ -21,8 +20,7 @@ export const Achievements = function(parent) {
 		Achievements_PvP,
 		Achievements_Character,
 		Achievements_Items,
-		Achievements_Crafting,
-		Achievements_Gathering,
+		Achievements_Crafting_and_Gathering,
 		Achievements_Quests,
 		Achievements_Exploration,
 		Achievements_Grand_Company,

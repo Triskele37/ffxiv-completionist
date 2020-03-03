@@ -74,22 +74,22 @@ const tasks = [
     //----------------------------------------------------------------------------- Convert
     {
         description: "Successfully convert 10 spiritbound items into materia.",
-        name: "Prepare to Be Assimilated I",
+        name: "An Extract Science I",
         points: 5,
         reward: "-"
     }, {
         description: "Successfully convert 50 spiritbound items into materia.",
-        name: "Prepare to Be Assimilated II",
+        name: "An Extract Science II",
         points: 5,
         reward: "-"
     }, {
         description: "Successfully convert 100 spiritbound items into materia.",
-        name: "Prepare to Be Assimilated III",
+        name: "An Extract Science III",
         points: 5,
         reward: "-"
     }, {
         description: "Successfully convert 500 spiritbound items into materia.",
-        name: "Prepare to Be Assimilated IV",
+        name: "An Extract Science IV",
         points: 5,
         reward: "-"
     }, {

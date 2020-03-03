@@ -54,10 +54,16 @@ const tasks = [
     	roulette: "Expert",
     	unlock: "Akadaemia Anyder"
     }, {
-    	level: "80",
-    	iLvlReq: "430",
-    	name: "The Grand Cosmos",
-    	roulette: "Expert",
-    	unlock: "A Grand Adventure"
-    }
+		level: "80",
+		iLvlReq: "430",
+		name: "The Grand Cosmos",
+		roulette: "Expert",
+		unlock: "A Grand Adventure"
+	}, {
+		level: "80",
+		iLvlReq: "440",
+		name: "Anamnesis Anyder",
+		roulette: "Expert",
+		unlock: "Beneath the Surface"
+	}
 ];

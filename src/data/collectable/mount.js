@@ -120,7 +120,7 @@ const tasks = [
         name: "Dark Lanner",
         unlock: "Rare drop from Nidhogg Extreme"
     }, {
-        name: "Demi-Osma",
+        name: "Demi-Ozma",
         unlock: "Completion of the achievement We're on Your Side I"
     }, {
         name: "Demonic Lanner",

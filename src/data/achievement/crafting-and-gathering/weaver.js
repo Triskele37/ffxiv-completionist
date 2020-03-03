@@ -2,7 +2,7 @@ import { DataGroup } from "../../DataGroup";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Weaver&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
-export const Achievements_Crafting_Weaver = function(parent) {
+export const Achievements_Crafting_and_Gathering_Weaver = function(parent) {
     return new DataGroup("Weaver", parent).initializeTasks(tasks);
 };
 

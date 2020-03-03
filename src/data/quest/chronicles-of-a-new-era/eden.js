@@ -69,5 +69,10 @@ const tasks = [
         name: "Life Finds A Way",
         npc: "Ryne",
         unlock: ""
+    }, {
+        level: "80",
+        name: "Worlds Apart",
+        npc: "Yalfort",
+        unlock: ""
     },
 ];

@@ -73,19 +73,20 @@ export const AchievementsSection = {
             ], (isMatch, task, columns) => {
                 if(isMatch) return true;
                 if(task.name === columns[1].replace('the ', '')) return true;
+                if(task.name === columns[1].replace('Prepare to Be Assimilated', 'An Extract Science')) return true;
                 return false;
             }),
         },
         {
             title: "Crafting Achievements",
             importCallback: importCallback(1, [
-                achievements.sg('Crafting')
+                achievements.sg('Crafting & Gathering')
             ]),
         },
         {
             title: "Gathering Achievements",
             importCallback: importCallback(1, [
-                achievements.sg('Gathering')
+                achievements.sg('Crafting & Gathering')
             ], (isMatch, task, columns) => {
                 if(isMatch) return true;
 

@@ -1073,11 +1073,11 @@ const tasks = [
         opponent: "",
         unlock: "Drops from The Ghimlyt Dark"
     }, {
-        name: "Provinence Watcher",
+        name: "Provenance Watcher",
         rarity: "★★★",
         type: "None",
         opponent: "Hetsukaze",
-        unlock: "Drops from Crystalline Provenence  FATE in Eureka Hydatos"
+        unlock: "Drops from Crystalline Provenance  FATE in Eureka Hydatos"
     }, {
         name: "Qitian Dasheng",
         rarity: "★★★",
