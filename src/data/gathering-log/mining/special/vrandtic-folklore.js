@@ -9,22 +9,33 @@ const tasks = [
         level: "80★",
         name: "Tungsten Ore",
         zone: "The Tempest",
-        location: "Where the Dry Return",
+        closestAetheryte: "The Ondo Cups",
+        coordinates: "(x32,y7)",
         usage: "BSM, Collectable",
-        special: "Legendary (10 AM/PM), Unlocked w/ Geological Folklore - Vrandtic",
+        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
     }, {
         level: "80★",
         name: "Prismstone",
         zone: "Il Mheg",
-        location: "Saint Fathric's Temple",
+        closestAetheryte: "Wolekdorf",
+        coordinates: "(x30,y20)",
         usage: "GSM, Collectable",
-        special: "Legendary (4 AM/PM), Unlocked w/ Geological Folklore - Vrandtic",
+        special: "Legendary (4AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
     }, {
         level: "80★",
         name: "Beryllium Ore",
         zone: "Il Mheg",
-        location: "Saint Fathric's Temple",
+        closestAetheryte: "Wolekdorf",
+        coordinates: "(x30,y20)",
         usage: "GSM",
-        special: "Legendary (4 AM/PM), Unlocked w/ Geological Folklore - Vrandtic",
+        special: "Legendary (4AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
+    }, {
+        level: "80★★",
+        name: "Fireheart Cobalt",
+        zone: "Lakeland",
+        closestAetheryte: "The Ostall Imperative",
+        coordinates: "(x4,y33)",
+        usage: "BSM",
+        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
     },
 ];

@@ -7,6 +7,30 @@ export const Crafting_Log_Alchemist_Master_Recipes_Master_Recipes_6 = function(p
 const tasks = [
     {
         level: "70★★",
+        name: "Shinryu's Ephemeral Grimoire",
+        mat1: "3 True Griffin Leather",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Water Cluster, 2 Lightning Cluster",
+        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Codex",
+        mat1: "2 True Griffin Leather",
+        mat2: "3 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Water Cluster, 2 Lightning Cluster",
+        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+    },
+    {
+        level: "70★★",
         name: "Assorted Candles",
         mat1: "2 Marine Wax Ester",
         mat2: "5 Tallow Candle",

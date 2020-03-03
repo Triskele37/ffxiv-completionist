@@ -9,8 +9,25 @@ const tasks = [
         level: "80★",
         name: "Ethereal Cocoon",
         zone: "Lakeland",
-        location: "Inviolate Witness",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x27,y10)",
         usage: "WVR, Collectable",
-        special: "Legendary (8 AM/PM), Unlocked w/ Botanical Folklore - Vrandtic",
+        special: "Legendary (8AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+    }, {
+        level: "80★★",
+        name: "Duskblooms",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x32,y33)",
+        usage: "WVR",
+        special: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+    }, {
+        level: "80★★",
+        name: "Imperial Fern",
+        zone: "Kholusia",
+        closestAetheryte: "Stilltide",
+        coordinates: "(x28,y21)",
+        usage: "ALC",
+        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
     },
 ];

@@ -9,22 +9,25 @@ const tasks = [
         level: "70★",
         name: "Rhea",
         zone: "The Azim Steppe",
-        location: "Ceol Aen",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x20,y8)",
         usage: "WVR, Collectable",
-        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian",
+        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
     }, {
         level: "70★",
         name: "Azim Cotton Ball",
         zone: "The Azim Steppe",
-        location: "Ceol Aen",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x20,y8)",
         usage: "ALC",
-        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian",
+        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
     }, {
         level: "70★★★",
         name: "Yanxian Cotton Boll",
         zone: "Yanxia",
-        location: "Castrum Flumins",
+        closestAetheryte: "Namai",
+        coordinates: "(x28,y35)",
         usage: "WVR",
-        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Othard",
+        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Othard"
     },
 ];

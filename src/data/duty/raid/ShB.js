@@ -96,25 +96,25 @@ const tasks = [
     	level: "80",
     	iLvlReq: "470",
     	name: "Eden's Verse: Fulmination (Savage)",
-    	roulette: "",
+    	roulette: "-",
     	unlock: "On Thin Ice"
     }, {
     	level: "80",
     	iLvlReq: "475",
     	name: "Eden's Verse: Furor (Savage)",
-    	roulette: "",
+    	roulette: "-",
     	unlock: "On Thin Ice"
     }, {
     	level: "80",
     	iLvlReq: "480",
     	name: "Eden's Verse: Iconoclasm (Savage)",
-    	roulette: "",
+    	roulette: "-",
     	unlock: "On Thin Ice"
     }, {
     	level: "80",
     	iLvlReq: "480",
     	name: "Eden's Verse: Refulgence (Savage)",
-    	roulette: "",
+    	roulette: "-",
     	unlock: "On Thin Ice"
     },
 ];

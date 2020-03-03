@@ -9,22 +9,25 @@ const tasks = [
         level: "60★",
         name: "Snurbleberry",
         zone: "The Dravanian Hinterlands",
-        location: "The Daggers",
+        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
+        coordinates: "(x39,y26)",
         usage: "CUL, Collectable",
-        special: "Legendary (7 PM), Unlocked w/ Botanical Folklore- Dravania",
+        special: "Legendary (10AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     }, {
         level: "60★",
         name: "Seventh Heaven",
         zone: "The Churning Mists",
-        location: "The Lost Landlord",
+        closestAetheryte: "Zenith",
+        coordinates: "(x17,y36)",
         usage: "ALC, GSM, Collectable",
-        special: "Legendary (5 PM), Unlocked w/ Botanical Folklore- Dravania",
+        special: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     }, {
         level: "60★★★",
         name: "Noble Sage",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x33,y30)",
         usage: "ALC",
-        special: "Unlocked w/ Botanical Folklore- Dravania",
+        special: "Legendary (6AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     },
 ];

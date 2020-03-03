@@ -9,29 +9,33 @@ const tasks = [
         level: "70★",
         name: "Chromite Ore",
         zone: "The Peaks",
-        location: "Wightrock",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x16,y33.9)",
         usage: "ARM, BSM, LTW, Collectables",
-        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania",
+        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania"
     }, {
         level: "70★",
         name: "Gyr Abanian Spring Water",
         zone: "The Peaks",
-        location: "Wightrock",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x16,y33.9)",
         usage: "ALC",
-        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania",
+        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania"
     }, {
         level: "70★★★",
         name: "Gyr Abanian Ore",
         zone: "The Fringes",
-        location: "Virdjala",
+        closestAetheryte: "The Peering Stones",
+        coordinates: "(x31,y27)",
         usage: "ARM, BSM",
-        special: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Gyr Abania",
+        special: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Gyr Abania"
     }, {
         level: "70★★★",
         name: "Evergleam Ore",
         zone: "The Lochs",
-        location: "Loch Seld",
+        closestAetheryte: "Porta Praetoria",
+        coordinates: "(x22,y13)",
         usage: "GSM",
-        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania",
+        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Gyr Abania"
     },
 ];

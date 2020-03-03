@@ -9,50 +9,57 @@ const tasks = [
         level: "21",
         name: "Earth Rock",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "22",
         name: "Silver Sand",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "23",
         name: "Fire Rock",
         zone: "Upper La Noscea",
-        location: "Oakwood",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "23",
         name: "Ice Rock",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "24",
         name: "Wind Rock",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "24",
         name: "Lightning Rock",
         zone: "Upper La Noscea",
-        location: "Oakwood",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "25",
         name: "Water Rock",
         zone: "Upper La Noscea",
-        location: "Oakwood",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     },
 ];

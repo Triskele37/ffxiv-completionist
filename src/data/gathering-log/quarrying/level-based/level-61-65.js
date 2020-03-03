@@ -9,50 +9,57 @@ const tasks = [
         level: "61",
         name: "Stiperstone",
         zone: "The Peaks",
-        location: "Rustrock",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x21,y13)",
         usage: "CRP, BSM, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "61",
         name: "Koppranickel Sand",
         zone: "The Peaks",
-        location: "Rustrock",
+        closestAetheryte: "Ala Aannha",
+        coordinates: "(x21,y13)",
         usage: "ARM, BSM, GSM, ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "61",
         name: "Pinch of Active Ingredients",
         zone: "The Peaks",
-        location: "Rustrock",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x21,y13)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "62",
         name: "Slate",
         zone: "The Peaks",
-        location: "Rustrock",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x21,y13)",
         usage: "CRP, GSM, FC Crafting, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "63",
         name: "Diatomite",
         zone: "The Ruby Sea",
-        location: "Rasen Kaikyo",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x14,y16)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Shisui Jewel",
         zone: "The Ruby Sea",
-        location: "Rasen Kaikyo",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x14,y16)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Cloudkin Feather",
         zone: "The Churning Mists",
-        location: "Landlord Colony",
+        closestAetheryte: "Moghome",
+        coordinates: "(x34,25)",
         usage: "Collectable",
-        special: "",
+        special: ""
     },
 ];

@@ -9,50 +9,57 @@ const tasks = [
         level: "6",
         name: "Tin Ore",
         zone: "Western Thanalan",
-        location: "Hammerlea",
+        closestAetheryte: "Ul'Dah -> Gate of the Sultana",
+        coordinates: "(x22,y28)",
         usage: "ARM, BSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "7",
         name: "Raw Sunstone",
         zone: "Lower La Noscea",
-        location: "Cedarwood",
+        closestAetheryte: "Limsa Lominsa -> Tempest Gate",
+        coordinates: "(x27,y18)",
         usage: "GSM",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "7",
         name: "Raw Lapis Lazuli",
         zone: "North Shroud",
-        location: "Treespeak",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x28,y25)",
         usage: "GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "8",
         name: "Soiled Femur",
         zone: "Western Thanalan",
-        location: "Hammerlea",
+        closestAetheryte: "Ul'Dah -> Gate of the Sultana",
+        coordinates: "(x22,y28)",
         usage: "BSM, CRP, GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "9",
         name: "Zinc Ore",
         zone: "Western Thanalan",
-        location: "Hammerlea",
+        closestAetheryte: "Ul'Dah -> Gate of the Sultana",
+        coordinates: "(x22,y28)",
         usage: "GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "10",
         name: "Obsidian",
         zone: "Western Thanalan",
-        location: "Hammerlea",
+        closestAetheryte: "Ul'Dah -> Gate of the Sultana",
+        coordinates: "(x22,y28)",
         usage: "CRP, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "10",
         name: "Potter's Clay",
         zone: "North Shroud",
-        location: "Treespeak",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x28,y25)",
         usage: "ALC, CRP, GSM",
-        special: "Buyable",
+        special: "Buyable"
     },
 ];

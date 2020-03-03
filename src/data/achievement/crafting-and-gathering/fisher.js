@@ -256,8 +256,111 @@ const tasks = [
         reward: "Title: Grandmaster Caster"
     }, {
         description: "Catch 8 different varieties of big fish in the First world.",
-        name: "Go Big Far from Home",
+        name: "Go Big Far from Home I",
         points: 10,
         reward: "-"
+    }, {
+        description: "Catch 14 different varieties of big fish in the First world.",
+        name: "Go Big Far from Home II",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Ocean Fishing - Catches
+    {
+        description: "Catch every type of fish in outer Galadion Bay when a spectral current is not present.",
+        name: "Denizens of Galadion",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in outer Galadion Bay when a spectral current is present.",
+        name: "Specters of Galadion",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the southern Strait of Merlthor when a spectral current is not present.",
+        name: "Denizens of South Merlthor",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the southern Strait of Merlthor when a spectral current is present.",
+        name: "Specters of South Merlthor",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the northern Strait of Merlthor when a spectral current is not present.",
+        name: "Denizens of North Merlthor",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the northern Strait of Merlthor when a spectral current is present.",
+        name: "Specters of North Merlthor",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the open Rhotano Sea when a spectral current is not present.",
+        name: "Denizens of the Rhotano",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Catch every type of fish in the open Rhotano Sea when a spectral current is present.",
+        name: "Specters of the Rhotano",
+        points: 10,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Ocean Fishing - All Points
+    {
+        description: "Earn a cumulative total of 10,000 points while ocean fishing.",
+        name: "On a Boat I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn a cumulative total of 100,000 points while ocean fishing.",
+        name: "On a Boat II",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "Earn a cumulative total of 500,000 points while ocean fishing.",
+        name: "On a Boat III",
+        points: 20,
+        reward: "-"
+    },
+    //----------------------------------------------------------------------------- Ocean Fishing - Single Points
+    {
+        description: "Score at least 5,000 points during a single ocean fishing voyage.",
+        name: "No More Fish in the Sea I",
+        points: 5,
+        reward: "Minion: The Major-General"
+    }, {
+        description: "Score at least 10,000 points during a single ocean fishing voyage.",
+        name: "No More Fish in the Sea II",
+        points: 10,
+        reward: "Mount: Hybodus Horn"
+    }, {
+        description: "Score at least 16,000 points during a single ocean fishing voyage.",
+        name: "No More Fish in the Sea III",
+        points: 20,
+        reward: "Title: Ocean Fisher..."
+    },
+    //----------------------------------------------------------------------------- Ocean Fishing - Bonuses
+    {
+        description: "Earn the \"Octopus Travelers\" bonus during an ocean fishing voyage.",
+        name: "What Did Octopodes Do to You?",
+        points: 10,
+        reward: "Title: Octopus Traveler..."
+    }, {
+        description: "Earn the \"Certifiable Shark Hunters\" bonus during an ocean fishing voyage.",
+        name: "What Did Sharks Do to You?",
+        points: 10,
+        reward: "Title: Shark Hunter..."
+    }, {
+        description: "Earn the \"Jelled Together\" bonus during an ocean fishing voyage.",
+        name: "What Did Jellyfish Do to You?",
+        points: 10,
+        reward: "Title: Jellyfish Fanatic..."
+    }, {
+        description: "Earn the \"Maritime Dragonslayers\" bonus during an ocean fishing voyage.",
+        name: "What Did Seadragons Do to You?",
+        points: 10,
+        reward: "Title: Sea Dragoon..."
     },
 ];

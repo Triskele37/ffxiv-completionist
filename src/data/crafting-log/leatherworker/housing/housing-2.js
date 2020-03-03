@@ -317,4 +317,16 @@ const tasks = [
         catalysts: "7 Earth Crystal, 7 Wind Crystal",
         special: "Housing (Furnishing)"
     },
+    {
+        level: "80",
+        name: "Steppe Bed",
+        mat1: "6 Lignum Vitae Lumber",
+        mat2: "4 Marid Leather",
+        mat3: "2 Steppe Surge",
+        mat4: "3 Halgal Mane",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Earth Crystal, 7 Wind Crystal",
+        special: "Housing (Furnishing)"
+    },
 ];

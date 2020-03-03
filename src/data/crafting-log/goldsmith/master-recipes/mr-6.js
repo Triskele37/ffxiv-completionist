@@ -7,6 +7,42 @@ export const Crafting_Log_Goldsmith_Master_Recipes_Master_Recipes_6 = function(p
 const tasks = [
     {
         level: "70★★",
+        name: "Shinryu's Ephemeral Rod",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Wind Cluster, 2 Fire Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Rapier",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "Rhodonite",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Wind Cluster, 2 Fire Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Ephemeris",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Wind Cluster, 2 Fire Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
         name: "Classic Chandelier",
         mat1: "3 Palladium Ingot",
         mat2: "2 High Steel Nugget",

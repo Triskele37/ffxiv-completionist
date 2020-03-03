@@ -401,4 +401,16 @@ const tasks = [
         catalysts: "7 Fire Crystal, 7 Water Crystal",
         special: "Housing (Tabletop)"
     },
+    {
+        level: "80",
+        name: "The Bismarck",
+        mat1: "Lorikeet Egg",
+        mat2: "La Noscean Lettuce",
+        mat3: "Fermented Butter",
+        mat4: "Volcanic Rock Salt",
+        mat5: "Walnut Bread",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Water Crystal",
+        special: "Housing (Tabletop)"
+    },
 ];

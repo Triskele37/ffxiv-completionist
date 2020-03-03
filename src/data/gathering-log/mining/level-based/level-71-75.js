@@ -9,50 +9,57 @@ const tasks = [
         level: "72",
         name: "Truegold Ore",
         zone: "Il Mheg",
-        location: "The Bookman's Shelves",
+        closestAetheryte: "Pla Enni",
+        coordinates: "(x8,y20)",
         usage: "ARM, BSM, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "72",
         name: "Raw Diaspore",
         zone: "Il Mheg",
-        location: "Sextuplet Shallow",
+        closestAetheryte: "Wolekdorf",
+        coordinates: "(x26,y13)",
         usage: "GSM, Collectable",
-        special: "Unspoiled 6 AM/PM",
+        special: "Unspoiled (6AM/PM)"
     }, {
         level: "73",
         name: "Highland Spring Water",
         zone: "Il Mheg",
-        location: "The Bookman's Shelves",
+        closestAetheryte: "Pla Enni",
+        coordinates: "(x8,y20)",
         usage: "CUL, ALC, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "73",
         name: "Animal Droppings",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(26,y34)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "74",
         name: "Raw Lazurite",
         zone: "The Rak'tika Greatwood",
-        location: "Cleric",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x19,y21)",
         usage: "GSM",
-        special: "Unspoiled 4-6 AM/PM",
+        special: "Unspoiled (4AM/PM)"
     }, {
         level: "74",
         name: "Bluespirit Ore",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(26,y34)",
         usage: "ARM, BSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "75",
         name: "Megafauna Leftovers",
         zone: "Il Mheg",
-        location: "The Bookman's Shelves",
+        closestAetheryte: "Pla Enni",
+        coordinates: "(x8,y20)",
         usage: "Delivery",
-        special: "",
+        special: ""
     },
 ];

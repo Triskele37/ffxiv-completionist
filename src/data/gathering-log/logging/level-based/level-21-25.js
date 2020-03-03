@@ -9,22 +9,25 @@ const tasks = [
         level: "21",
         name: "Gridanian Walnut",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "23",
         name: "Matron's Mistletoe",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "ALC, CRP, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "24",
         name: "Walnut Log",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
         usage: "ALC, CRP, Provisioning",
-        special: "",
+        special: ""
     },
 ];

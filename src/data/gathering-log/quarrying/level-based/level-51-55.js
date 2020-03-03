@@ -9,22 +9,25 @@ const tasks = [
         level: "51",
         name: "Mythrite Sand",
         zone: "Coerthas Western Highlands",
-        location: "Twinpools",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
+        coordinates: "(x16,y12)",
         usage: "ALC, ARM, BSM, GSM, FC Crafting, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "52",
         name: "Yellow Quartz",
         zone: "The Churning Mists",
-        location: "The House of Letters",
+        closestAetheryte: "Moghome",
+        coordinates: "(x33,y22)",
         usage: "Collectable",
-        special: "Unspoiled (2 AM/PM)",
+        special: "Unspoiled (6AM/PM)"
     }, {
         level: "55",
         name: "Green Quartz",
         zone: "The Churning Mists",
-        location: "The House of Letters",
+        closestAetheryte: "Moghome",
+        coordinates: "(x33,y22)",
         usage: "Collectable",
-        special: "Unspoiled (2 AM/PM)",
+        special: "Unspoiled (6AM/PM)"
     },
 ];

@@ -9,15 +9,17 @@ const tasks = [
         level: "24",
         name: "Effervescent Water",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x15,y19)",
         usage: "ALC, WVR",
-        special: "",
+        special: ""
     }, {
         level: "25",
         name: "Silver Ore",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x15,y19)",
         usage: "GSM",
-        special: "",
+        special: ""
     },
 ];

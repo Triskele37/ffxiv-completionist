@@ -7,6 +7,117 @@ export const Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_6 = function(
 const tasks = [
     {
         level: "70★★",
+        name: "Shinryu's Ephemeral Longsword",
+        mat1: "3 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral War Axe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Greatsword",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Gunblade",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Claws",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Katana",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Daggers",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Palladium Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Greatbow",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Chakrams",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
         name: "Private Moai",
         mat1: "2 Colossus Slab",
         mat2: "Royal Fern",

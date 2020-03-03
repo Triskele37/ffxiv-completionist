@@ -9,22 +9,25 @@ const tasks = [
         level: "17",
         name: "Limestone",
         zone: "Western La Noscea",
-        location: "Skull Valley",
+        closestAetheryte: "Aleport",
+        coordinates: "(x26,y24)",
         usage: "ALC, ARM, BSM, CRP, GSM, FC Crafting",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "Mudstone",
         zone: "Western La Noscea",
-        location: "Skull Valley",
+        closestAetheryte: "Aleport",
+        coordinates: "(x26,y24)",
         usage: "ALC, CRP, GSM, FC Crafting, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "20",
         name: "Grade 1 Carbonized Matter",
         zone: "Middle La Noscea",
-        location: "Three-malm Bend",
+        closestAetheryte: "Swiftperch -> Middle La Noscea",
+        coordinates: "(x15,y10)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     },
 ];

@@ -9,85 +9,97 @@ const tasks = [
         level: "66",
         name: "Persimmon Leaf",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x10,y30)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "67",
         name: "Persimmon",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x10,y30)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "67",
         name: "Persimmon Log",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x10,y30)",
         usage: "CRP, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Hard Place Furnishing Materials",
         zone: "The Lochs",
-        location: "Abalathia's Skull",
+        closestAetheryte: "The Ala Mhigan Quarter",
+        coordinates: "(x28,y9)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Othardian Plum",
         zone: "The Azim Steppe",
-        location: "Onsal Hakair",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x27,y17)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (2AM/PM)",
+        special: "Unspoiled (2AM/PM)"
     }, {
         level: "70",
         name: "Zelkova Log",
         zone: "The Lochs",
-        location: "Abalathia's Skull",
+        closestAetheryte: "The Ala Mhigan Quarter",
+        coordinates: "(x26,y9)",
         usage: "CRP, Collectable, Trade, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Sturdy Vat Material",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x9,y30)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Raven Coal",
         zone: "Kholusia",
-        location: "Stonegazer",
+        closestAetheryte: "Wright",
+        coordinates: "(x17,y24)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★",
         name: "Torreya Branch",
         zone: "The Lochs",
-        location: "Abalathia's Skull",
+        closestAetheryte: "The Ala Mhigan Quarter",
+        coordinates: "(x28,y10)",
         usage: "Collectable",
-        special: "Ephemeral (4AM)",
+        special: "Ephemeral (4AM)"
     }, {
         level: "70★",
         name: "Kholusian Miscellany",
         zone: "Kholusia",
-        location: "Stonegazer",
+        closestAetheryte: "Wright",
+        coordinates: "(x17,y24)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★★",
         name: "Yanxian Verbana",
         zone: "The Lochs",
-        location: "Abalathia's Skull",
+        closestAetheryte: "The Ala Mhigan Quarter",
+        coordinates: "(x28,y10)",
         usage: "Collectable",
-        special: "Ephemeral (4AM)",
+        special: "Ephemeral (4AM)"
     }, {
         level: "70★★",
         name: "White Oak Branch",
         zone: "Kholusia",
-        location: "Venmont Yards",
+        closestAetheryte: "Wright",
+        coordinates: "(x12,y29)",
         usage: "Collectable",
-        special: "Unspoiled 10 AM/PM",
+        special: "Unspoiled (10AM/PM)"
     },
 ];

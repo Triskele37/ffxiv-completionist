@@ -9,36 +9,41 @@ const tasks = [
         level: "41",
         name: "Sagolii Sage",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x35,y24)",
         usage: "ALC, CUL, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "42",
         name: "Black Scorpion",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x35,y24)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "43",
         name: "Rolanberry",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x35,y24)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "43",
         name: "Rolanberry Seeds",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x35,y24)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "45",
         name: "Dart Frog",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x35,y24)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     },
 ];

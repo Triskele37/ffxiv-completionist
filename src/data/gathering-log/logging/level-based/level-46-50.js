@@ -9,176 +9,201 @@ const tasks = [
         level: "46",
         name: "Rosewood Log",
         zone: "East Shroud",
-        location: "The Bramble Patch",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x16,y23)",
         usage: "ALC, CRP, FC Crafting, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "47",
         name: "Rosewood Branch",
         zone: "East Shroud",
-        location: "The Bramble Patch",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x16,y23)",
         usage: "ALC, BSM, CRP, GSM, WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "50",
         name: "Fire Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50",
         name: "Ice Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50",
         name: "Wind Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50",
         name: "Earth Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50",
         name: "Lightning Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50",
         name: "Water Cluster",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x32,y11)",
         usage: "Catalyst",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50★",
         name: "Prickly Pineapple",
         zone: "Eastern La Noscea",
-        location: "Bloodshore",
+        closestAetheryte: "Costa Del Sol",
+        coordinates: "(x30,y26)",
         usage: "CUL",
-        special: "Unspoiled (9 AM)",
+        special: "Unspoiled (9AM)"
     }, {
         level: "50★",
         name: "Spruce Log",
         zone: "Coerthas Central Highlands",
-        location: "Providence Point",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x27,y12)",
         usage: "CRP, FC Crafting",
-        special: "Unspoiled (9 AM)",
+        special: "Unspoiled (9AM)"
     }, {
         level: "50★",
         name: "Thavnairian Mistletoe",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x8,y13)",
         usage: "ALC",
-        special: "Unspoiled (5 PM)",
+        special: "Unspoiled (5PM)"
     }, {
         level: "50★",
         name: "Vampire Plant",
         zone: "Coerthas Central Highlands",
-        location: "Dragonhead",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x27,y24)",
         usage: "ALC",
-        special: "Unspoiled (1 PM)",
+        special: "Unspoiled (1PM)"
     }, {
         level: "50★",
         name: "Prickly Pineapple Seeds",
         zone: "Eastern La Noscea",
-        location: "Bloodshore",
+        closestAetheryte: "Costa Del Sol",
+        coordinates: "(x30,y26)",
         usage: "Gardening",
-        special: "Unspoiled (9 AM)",
+        special: "Unspoiled (9AM)"
     }, {
         level: "50★",
         name: "Unaspected Crystal",
         zone: "Mor Dhona",
-        location: "North Silvertear",
+        closestAetheryte: "Revenant's Toll",
+        coordinates: "(x31,y14)",
         usage: "ALC, FC Crafting",
-        special: "Unspoiled (1 AM, 5 AM, 9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50★",
         name: "Fragrant Log",
         zone: "South Shroud",
-        location: "Camp Tranquil",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x18,y23)",
         usage: "Trade",
-        special: "Unspoiled (2 AM)",
+        special: "Unspoiled (2AM)"
     }, {
         level: "50★★",
         name: "Apricot",
         zone: "Middle La Noscea",
-        location: "Summerford",
+        closestAetheryte: "Summerford Farms",
+        coordinates: "(x19,y16)",
         usage: "CUL",
-        special: "Unspoiled (9 AM)",
+        special: "Unspoiled (9AM)"
     }, {
         level: "50★★",
         name: "Blood Orange",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x28,y25)",
         usage: "CUL",
-        special: "Unspoiled (7 AM)",
+        special: "Unspoiled (7AM)"
     }, {
         level: "50★★",
         name: "Bamboo Stick",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x28,y25)",
         usage: "CRP, CUL",
-        special: "Unspoiled (7 AM)",
+        special: "Unspoiled (7AM)"
     }, {
         level: "50★★",
         name: "Redolent Log",
         zone: "Central Shroud",
-        location: "Greentear",
+        closestAetheryte: "Brentbranch Meadows",
+        coordinates: "(x30,y19)",
         usage: "Trade",
-        special: "Unspoiled (6 AM)",
+        special: "Unspoiled (6AM)"
     }, {
         level: "50★★",
         name: "Scarlet Sap",
         zone: "North Shroud",
-        location: "Alder Springs",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x18,y26)",
         usage: "CRP",
-        special: "Unspoiled (3 AM)",
+        special: "Unspoiled (3AM)"
     }, {
         level: "50★★",
         name: "Dark Matter Cluster",
         zone: "Middle La Noscea",
-        location: "Summerford",
+        closestAetheryte: "Summerford Farms",
+        coordinates: "(x19,y16)",
         usage: "Catalyst",
-        special: "Unspoiled (9 AM)",
+        special: "Unspoiled (1AM,5AM,9AM)"
     }, {
         level: "50★★★",
         name: "Cedar Log",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x30,y32)",
         usage: "CRP, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "50★★★",
         name: "Ebony Log",
         zone: "Middle La Noscea",
-        location: "Zephyr Drift",
+        closestAetheryte: "Summerford Farms",
+        coordinates: "(x23,y26)",
         usage: "CRP, FC Crafting",
-        special: "Unspoiled (4 AM)",
+        special: "Unspoiled (4AM)"
     }, {
         level: "50★★★",
         name: "Cypress Log",
         zone: "Central Shroud",
-        location: "Bentbranch",
+        closestAetheryte: "Brentbranch Meadows",
+        coordinates: "(x25,y29)",
         usage: "BSM, CRP, FC Crafting",
-        special: "Unspoiled (10 AM)",
+        special: "Unspoiled (10AM)"
     }, {
         level: "50★★★",
         name: "Cedar Branch",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x30,y32)",
         usage: "BSM, CRP, Provisioning",
-        special: "",
+        special: ""
     },
 ];

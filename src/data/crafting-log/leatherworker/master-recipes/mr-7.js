@@ -269,4 +269,16 @@ const tasks = [
         catalysts: "7 Earth Crystal, 7 Wind Crystal",
         special: "Master Leatherworker VII"
     },
+    {
+        level: "80★★",
+        name: "Dalmascan Leather Boots",
+        mat1: "1 Cloth-softening Powder",
+        mat2: "2 Chalicotherium Leather",
+        mat3: "Dwarven Cotton",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Earth Crystal, 7 Wind Crystal",
+        special: "Unlocked w/ Master Leatherworker VIII"
+    },
 ];

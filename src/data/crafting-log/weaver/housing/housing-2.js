@@ -617,4 +617,28 @@ const tasks = [
         catalysts: "7 Lightning Crystal, 7 Wind Crystal",
         special: "Housing (Tabletop)"
     },
+    {
+        level: "80",
+        name: "Picnic Basket",
+        mat1: "2 Bamboo Stick",
+        mat2: "Dwarven Cotton",
+        mat3: "Messy Dishes",
+        mat4: "Sausage Links",
+        mat5: "Pixie Apple",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
+        special: "Housing (Tabletop)"
+    },
+    {
+        level: "80",
+        name: "Folded Futon",
+        mat1: "4 Dwarven Cotton",
+        mat2: "6 Lorikeet Down",
+        mat3: "3 Twinsilk",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
+        special: "Housing (Tabletop)"
+    },
 ];

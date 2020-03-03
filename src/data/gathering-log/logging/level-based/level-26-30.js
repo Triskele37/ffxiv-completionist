@@ -9,106 +9,121 @@ const tasks = [
         level: "26",
         name: "Fire Crystal",
         zone: "Middle La Noscea",
-        location: "Three-malm Bend",
+        closestAetheryte: "Summerford Farms",
+        coordinates: "(x16,y13)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Ice Crystal",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x16,y21)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Wind Crystal",
         zone: "Central Shroud",
-        location: "Bentbranch",
+        closestAetheryte: "Brentbranch Meadows",
+        coordinates: "(x24,y30)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Earth Crystal",
         zone: "North Shroud",
-        location: "Peacegarden",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x27,y22)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Lightning Crystal",
         zone: "Central Thanalan",
-        location: "Spneless Basin",
+        closestAetheryte: "Black Brush Station",
+        coordinates: "(x24,y31)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Water Crystal",
         zone: "Eastern La Noscea",
-        location: "Bloodshore",
+        closestAetheryte: "Costa Del Sol",
+        coordinates: "(x28,y33)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Blue Pigment",
         zone: "Eastern La Noscea",
-        location: "Bloodshore",
+        closestAetheryte: "Costa Del Sol",
+        coordinates: "(x28,y33)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Red Pigment",
         zone: "Middle La Noscea",
-        location: "Three-malm Bend",
+        closestAetheryte: "Summerford Farms",
+        coordinates: "(x16,y13)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Yellow Pigment",
         zone: "North Shroud",
-        location: "Peacegarden",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x27,y22)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Grey Pigment",
         zone: "South Shroud",
-        location: "Upper Paths",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x16,y21)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Brown Pigment",
         zone: "North Shroud",
-        location: "Peacegarden",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x27,y22)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Green Pigment",
         zone: "Central Shroud",
-        location: "Bentbranch",
+        closestAetheryte: "Brentbranch Meadows",
+        coordinates: "(x24,y30)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Purple Pigment",
         zone: "Central Thanalan",
-        location: "Spineless Basin",
+        closestAetheryte: "Black Brush Station",
+        coordinates: "(x24,y31)",
         usage: "Dye-making",
-        special: "",
+        special: ""
     }, {
         level: "29",
         name: "Chocobo Feather",
         zone: "South Shroud",
-        location: "Silent Arbor",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x26,y19)",
         usage: "BSM, CRP, GSM, LTW, WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "30",
         name: "Alligator Pear",
         zone: "South Shroud",
-        location: "Silent Arbor",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x26,y19)",
         usage: "CUL",
-        special: "",
+        special: ""
     },
 ];

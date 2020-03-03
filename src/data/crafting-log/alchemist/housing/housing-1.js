@@ -796,5 +796,17 @@ const tasks = [
         mat6: "X",
         catalysts: "28 Water Crystal, 28 Lighting Crystal",
         special: "Housing (Outdoor Furnishing)"
-    }
+    },
+    {
+        level: "80",
+        name: "Brick Garden Wall",
+        mat1: "10 Firebricks",
+        mat2: "4 Growth Formula Kappa",
+        mat3: "2 Oldrose Seeds",
+        mat4: "2 Viola Seeds",
+        mat5: "2 Humus",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal",
+        special: "Housing (Outdoor Furnishing)"
+    },
 ];

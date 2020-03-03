@@ -9,36 +9,41 @@ const tasks = [
         level: "36",
         name: "Iron Acorn",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully",
+        closestAetheryte: "Wineport",
+        coordinates: "(x19,y25)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "37",
         name: "Mahogany Log",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully",
+        closestAetheryte: "Wineport",
+        coordinates: "(x19,y25)",
         usage: "CRP",
-        special: "",
+        special: ""
     }, {
         level: "39",
         name: "Nutmeg",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully",
+        closestAetheryte: "Wineport",
+        coordinates: "(x19,y25)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "40",
         name: "Almonds",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully",
+        closestAetheryte: "Wineport",
+        coordinates: "(x19,y25)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "40",
         name: "Almond Seeds",
         zone: "Eastern La Noscea",
-        location: "Raincatcher Gully",
+        closestAetheryte: "Wineport",
+        coordinates: "(x19,y25)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     },
 ];

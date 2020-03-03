@@ -9,15 +9,17 @@ const tasks = [
         level: "42",
         name: "Electrum Sand",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x28,y22)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "45",
         name: "Marble",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x28,y22)",
         usage: "ALC, BSM, CRP, GSM",
-        special: "",
+        special: ""
     },
 ];

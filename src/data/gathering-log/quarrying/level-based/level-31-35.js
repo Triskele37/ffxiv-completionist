@@ -9,8 +9,9 @@ const tasks = [
         level: "33",
         name: "Mythril Sand",
         zone: "Southern Thanalan",
-        location: "The Red Labyrinth",
+        closestAetheryte: "Little Ala Mhigo",
+        coordinates: "(x17,y18)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     },
 ];

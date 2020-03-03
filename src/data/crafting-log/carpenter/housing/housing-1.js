@@ -1061,4 +1061,16 @@ const tasks = [
         catalysts: "28 Wind Crystal, 28 Ice Crystal",
         special: "Housing (Outdoor Furnishing)"
     },
+    {
+        level: "80",
+        name: "Wooden Chandelier",
+        mat1: "6 Lignum Vitae Lumber",
+        mat2: "4 Titanbronze Ingot",
+        mat3: "4 Tallow Candle",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Ceiling Light"
+    },
 ];

@@ -36,6 +36,8 @@ import { Gathering_Log_Fishing_Guide_Page_32 } from "./page-32";
 import { Gathering_Log_Fishing_Guide_Page_33 } from "./page-33";
 import { Gathering_Log_Fishing_Guide_Page_34 } from "./page-34";
 import { Gathering_Log_Fishing_Guide_Page_35 } from "./page-35";
+import { Gathering_Log_Fishing_Guide_Page_36 } from "./page-36";
+import { Gathering_Log_Fishing_Guide_Page_37 } from "./page-37";
 
 export const Gathering_Log_Fishing_Guide = function(parent) {
     const data = new DataGroup("Guide", parent);
@@ -77,6 +79,8 @@ export const Gathering_Log_Fishing_Guide = function(parent) {
         Gathering_Log_Fishing_Guide_Page_33,
         Gathering_Log_Fishing_Guide_Page_34,
         Gathering_Log_Fishing_Guide_Page_35,
+        Gathering_Log_Fishing_Guide_Page_36,
+        Gathering_Log_Fishing_Guide_Page_37,
     ]);
 
     return data;

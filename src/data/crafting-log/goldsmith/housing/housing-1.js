@@ -874,5 +874,27 @@ const tasks = [
         mat6: "3 Petalite",
         catalysts: "28 Wind Crystal, 28 Fire Crystal ",
         special: "Housing (Outdoor Furnishing)"
+    }, {
+        level: "80",
+        name: "Rough Stone Interior Wall",
+        mat1: "8 Granite",
+        mat2: "6 Lignum Vitae Lumber",
+        mat3: "4 Mortar",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal ",
+        special: "Housing (Interior Wall)"
+    }, {
+        level: "80",
+        name: "Rough Stone Flooring",
+        mat1: "8 Granite",
+        mat2: "4 Tuff Whetstone",
+        mat3: "2 Lignum Vitae Lumber",
+        mat4: "4 Mortar",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal ",
+        special: "Housing (Flooring)"
     },
 ];

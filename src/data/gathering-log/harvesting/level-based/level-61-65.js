@@ -9,120 +9,137 @@ const tasks = [
         level: "61",
         name: "Pinch of Active Ingredients",
         zone: "The Peaks",
-        location: "The Last Forest",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x13,y11)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "62",
         name: "Mountain Popoto",
         zone: "The Peaks",
-        location: "The Last Forest",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x13,y11)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "62",
         name: "Buckwheat Kernels",
         zone: "The Peaks",
-        location: "The Last Forest",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x13,y11)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "62",
         name: "Gem Algae",
         zone: "The Ruby Sea",
-        location: "Rasen Kaiko",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x26,y19)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "62",
         name: "Harpoon Head",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x11,y26)",
         usage: "CUL, Collectable",
-        special: "",
+        special: ""
     }, {
         level: "63",
         name: "Ruby Cotton Boll",
         zone: "The Ruby Sea",
-        location: "Rasen Kaiko",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x26,y19)",
         usage: "CUL, WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "63",
         name: "Holy Basil",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x11,y26)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "63",
         name: "Phial of Thermal Fluid",
         zone: "Coerthas Western Highlands",
-        location: "Gorgagne Holding",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x32,y15)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Sugar Beet",
         zone: "The Peaks",
-        location: "The Last Forest",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x13,y11)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Green Leek",
         zone: "The Peaks",
-        location: "The Last Forest",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x13,y11)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Soybeans",
         zone: "The Ruby Sea",
-        location: "East Othard Coastline",
+        closestAetheryte: "Onokoro",
+        coordinates: "(x7,y8)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Ama Nori",
         zone: "The Ruby Sea",
-        location: "Rasen Kaikyo",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x26,y19)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Shisui Jewel",
         zone: "The Ruby Sea",
-        location: "Rasen Kaikyo",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x26,y19)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Kudzu Root",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x11,y26)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Cumin Seeds",
         zone: "The Ruby Sea",
-        location: "East Othard Coastline",
+        closestAetheryte: "Onokoro",
+        coordinates: "(x7,y8)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Kudzu Vine",
         zone: "The Fringes",
-        location: "Dimwold",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x11,y26)",
         usage: "WVR",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Cloudkin Feather",
         zone: "The Churning Mists",
-        location: "Ohl Than",
+        closestAetheryte: "Zenith",
+        coordinates: "(x8,y15)",
         usage: "Collectable",
-        special: "",
+        special: ""
     },
 ];

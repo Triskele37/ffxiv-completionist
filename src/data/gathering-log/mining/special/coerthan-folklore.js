@@ -9,8 +9,9 @@ const tasks = [
         level: "60★★★",
         name: "Tungstite",
         zone: "Coerthas Western Highlands",
-        location: "Dragonspit",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
+        coordinates: "(x10,y9)",
         usage: "ARM, BSM",
-        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Coertha",
+        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Coertha"
     },
 ];

@@ -9,64 +9,73 @@ const tasks = [
         level: "61",
         name: "Loquat",
         zone: "The Fringes",
-        location: "East End",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x10,y16)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "61",
         name: "Beech Log",
         zone: "The Fringes",
-        location: "East End",
+        closestAetheryte: "Castrum Oriens",
+        coordinates: "(x10,y16)",
         usage: "CRP, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "63",
         name: "Bamboo Shoot",
         zone: "Yanxia",
-        location: "Kusakari",
+        closestAetheryte: "Namai",
+        coordinates: "(x28,y25)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (10AM/PM)",
+        special: "Unspoiled (10AM/PM)"
     }, {
         level: "63",
         name: "Larch Log",
         zone: "The Ruby Sea",
-        location: "Onokoro",
+        closestAetheryte: "Onokoro",
+        coordinates: "(x20,y9)",
         usage: "CRP, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Pine Resin",
         zone: "Yanxia",
-        location: "The Heron's Flight",
+        closestAetheryte: "Namai",
+        coordinates: "(x36,y15)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "64",
         name: "Sparkstone",
         zone: "The Ruby Sea",
-        location: "Onokoro",
+        closestAetheryte: "Onokoro",
+        coordinates: "(x20,y9)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Shiitake Mushroom",
         zone: "The Ruby Sea",
-        location: "Onokoro",
+        closestAetheryte: "Onokoro",
+        coordinates: "(x20,y9)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Pine Log",
         zone: "Yanxia",
-        location: "The Heron's Flight",
+        closestAetheryte: "Namai",
+        coordinates: "(x36,y15)",
         usage: "CRP",
-        special: "",
+        special: ""
     }, {
         level: "65",
         name: "Malleable Still Material",
         zone: "Yanxia",
-        location: "The Heron's Flight",
+        closestAetheryte: "Namai",
+        coordinates: "(x36,y15)",
         usage: "Collectable",
-        special: "",
+        special: ""
     },
 ];

@@ -39,19 +39,19 @@ const tasks = [
     	level: "80",
     	iLvlReq: "410",
     	name: "Amaurot",
-    	roulette: "Expert",
+    	roulette: "Level 80",
     	unlock: "Shadowbringers"
     }, {
     	level: "80",
     	iLvlReq: "410",
     	name: "The Twinning",
-    	roulette: "Expert",
+    	roulette: "Level 80",
     	unlock: "By the Time You Hear This"
     }, {
     	level: "80",
     	iLvlReq: "410",
     	name: "Akadaemia Anyder",
-    	roulette: "Expert",
+    	roulette: "Level 80",
     	unlock: "Akadaemia Anyder"
     }, {
 		level: "80",

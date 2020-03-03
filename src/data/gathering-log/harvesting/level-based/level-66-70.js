@@ -9,169 +9,193 @@ const tasks = [
         level: "66",
         name: "Daikon Radish",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y10)",
         usage: "CUL, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "66",
         name: "Gyr Abanian Carrot",
         zone: "The Peaks",
-        location: "Mount Yorn",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x26,y27)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "66",
         name: "Lotus Root",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x28,y7)",
         usage: "CUL, Collectable",
-        special: "",
+        special: "Unspoiled (8AM/PM)"
     }, {
         level: "66",
         name: "Sun Cabbage",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x14,y26)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "66",
         name: "Fennel",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x14,y26)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "66",
         name: "Doman Yellow",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x15,y29)",
         usage: "Collectable",
-        special: "",
+        special: "Ephemeral (8AM)"
     }, {
         level: "66",
         name: "Windtea Leaves",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y13)",
         usage: "ALC",
-        special: "",
+        special: "Ephemeral (4PM)"
     }, {
         level: "66",
         name: "Strong Steppe Spice",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x14,y26)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "67",
         name: "Ruby Tide Kelp",
         zone: "The Ruby Sea",
-        location: "Rasen Kaikyo",
+        closestAetheryte: "Tamamizu",
+        coordinates: "(x11,y13)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Jhammel Ginger",
         zone: "The Lochs",
-        location: "The Royal Hunting Grounds",
+        closestAetheryte: "The Ala Mhigan Quarter",
+        coordinates: "(x8,y8)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (4AM/PM)",
+        special: "Unspoiled (4AM/PM)"
     }, {
         level: "68",
         name: "Yanxian Parsley",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y10)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Alyssum",
         zone: "The Peaks",
-        location: "Mount Yorn",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x26,y27)",
         usage: "ALC",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Nagxian Cudweed",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y10)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Chickweed",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x14,y26)",
         usage: "ALC, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "68",
         name: "Nipplewort",
         zone: "The Azim Steppe",
-        location: "Nhaama's Retreat",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x14,y26)",
         usage: "ALC",
-        special: "",
+        special: ""
     }, {
         level: "69",
         name: "Doman Eggplant",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y10)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "69",
         name: "Twincoon",
         zone: "The Peaks",
-        location: "Mount Yorn",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x26,y27)",
         usage: "WVR, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Amh Araeng Seasonings",
         zone: "Amh Araeng",
-        location: "Snitch",
+        closestAetheryte: "Mord Souq",
+        coordinates: "(x30,y23)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Clinquant Stones",
         zone: "Il Mheg",
-        location: "Thysm Lran",
+        closestAetheryte: "Lydha Lran",
+        coordinates: "(x30,y35)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Animal Trace",
         zone: "Amh Araeng",
-        location: "Snitch",
+        closestAetheryte: "Mord Souq",
+        coordinates: "(x31,y15)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★",
         name: "Hallowed Basil",
         zone: "The Peaks",
-        location: "Mount Yorn",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x23,y16)",
         usage: "CUL",
-        special: "Unspoiled (6AM/PM)",
+        special: "Unspoiled (6AM/PM)"
     }, {
         level: "70★",
         name: "Airship Fitting Components",
         zone: "Amh Araeng",
-        location: "Snitch",
+        closestAetheryte: "Mord Souq",
+        coordinates: "(x32,y23)",
         usage: "",
-        special: "",
+        special: ""
     }, {
         level: "70★★",
         name: "Yanxian Verbena",
         zone: "Yanxia",
-        location: "Doma",
+        closestAetheryte: "The House of the Fierce",
+        coordinates: "(x22,y13)",
         usage: "Collectable",
-        special: "Ephemeral (4PM)",
+        special: "Ephemeral (4PM)"
     }, {
         level: "70★★",
         name: "Night Pepper",
         zone: "Amh Araeng",
-        location: "Snitch",
+        closestAetheryte: "Mord Souq",
+        coordinates: "(x31,y15)",
         usage: "CUL, Collectable",
-        special: "",
+        special: ""
     },
 ];

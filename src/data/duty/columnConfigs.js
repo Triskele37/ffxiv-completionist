@@ -14,7 +14,7 @@ export const DutyColumnConfig = [
         centered: true,
     },
     { header: 'Name', key: 'name' },
-    // { header: 'Roulette', key: 'roulette', filterable: true },
+    { header: 'Roulette', key: 'roulette', filterable: true },
     { header: 'Unlock', key: 'unlock' },
 ];
 

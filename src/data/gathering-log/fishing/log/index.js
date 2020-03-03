@@ -12,6 +12,7 @@ import { Gathering_Log_Fishing_Log_Gyr_Abania } from "./gry-abania";
 import { Gathering_Log_Fishing_Log_Othard } from "./othard";
 import { Gathering_Log_Fishing_Log_Hingashi } from "./hingashi";
 import { Gathering_Log_Fishing_Log_Norvrandt } from "./norvrandt";
+import { Gathering_Log_Fishing_Log_The_High_Seas } from "./the-high-seas";
 
 export const Gathering_Log_Fishing_Log = function(parent) {
     const data = new DataGroup("Log", parent);
@@ -29,6 +30,7 @@ export const Gathering_Log_Fishing_Log = function(parent) {
         Gathering_Log_Fishing_Log_Othard,
         Gathering_Log_Fishing_Log_Hingashi,
         Gathering_Log_Fishing_Log_Norvrandt,
+        Gathering_Log_Fishing_Log_The_High_Seas,
     ]);
 
     return data;

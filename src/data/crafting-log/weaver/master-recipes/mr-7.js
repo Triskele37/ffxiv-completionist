@@ -175,6 +175,18 @@ const tasks = [
     },
     {
         level: "80★★",
+        name: "Dalmascan Draped Top",
+        mat1: "3 Cloth-softening Powder",
+        mat2: "2 Ethereal Silk",
+        mat3: "2 Sea Swallow Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
+        special: "Unlocked w/ Master Weaver VIII"
+    },
+    {
+        level: "80★★",
         name: "Facet Halfgloves of Aiming",
         mat1: "2 Ethereal Silk",
         mat2: "Prismatic Ingot",
@@ -280,5 +292,17 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Lightning Cluster, 2 Wind Cluster",
         special: "Unlocked w/ Master Weaver VII"
-    }
+    },
+    {
+        level: "80★★",
+        name: "Dalmascan Draped Bottoms",
+        mat1: "2 Cloth-softening Powder",
+        mat2: "2 Ethereal Silk",
+        mat3: "2 Sea Swallow Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
+        special: "Unlocked w/ Master Weaver VIII"
+    },
 ];

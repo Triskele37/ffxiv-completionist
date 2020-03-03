@@ -9,57 +9,65 @@ const tasks = [
         level: "16",
         name: "Faerie Apple",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x15,y27)",
         usage: "CRP, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "16",
         name: "Faerie Apple Seeds",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x15,y27)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "17",
         name: "Sun Lemon",
         zone: "Lower La Noscea",
-        location: "The Grey Fleet",
+        closestAetheryte: "Limsa Lominsa -> Tempest Gate",
+        coordinates: "(x34,y17)",
         usage: "CUL, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "17",
         name: "Sun Lemon Seeds",
         zone: "Lower La Noscea",
-        location: "The Grey Fleet",
+        closestAetheryte: "Limsa Lominsa -> Tempest Gate",
+        coordinates: "(x34,y17)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "18",
         name: "Nopales",
         zone: "Central Thanalan",
-        location: "Black Brush",
+        closestAetheryte: "Black Brush Station",
+        coordinates: "(x21,y20)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "19",
         name: "Yew Log",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x15,y27)",
         usage: "ALC, CRP, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "Yew Branch",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x15,y27)",
         usage: "ALC, BSM, CUL, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "20",
         name: "Grade 1 Carbonized Matter",
         zone: "Western La Noscea",
-        location: "Skull Valley",
+        closestAetheryte: "Aleport",
+        coordinates: "(x26,y23)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     },
 ];

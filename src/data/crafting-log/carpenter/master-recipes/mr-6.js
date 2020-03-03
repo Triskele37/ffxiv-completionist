@@ -7,6 +7,30 @@ export const Crafting_Log_Carpenter_Master_Recipes_Master_Recipes_6 = function(p
 const tasks = [
     {
         level: "70★★",
+        name: "Shinryu's Ephemeral Lance",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Wind Cluster, 2 Ice Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Cane",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Chromite Ingot",
+        mat3: "Palladium Nugget",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Wind Cluster, 2 Ice Cluster",
+        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
         name: "Hingan Hot Spring",
         mat1: "5 Torreya Lumber",
         mat2: "3 Oroshigane Ingot",

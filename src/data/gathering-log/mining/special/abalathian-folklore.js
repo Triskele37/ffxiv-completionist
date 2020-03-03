@@ -9,29 +9,33 @@ const tasks = [
         level: "60★",
         name: "Red Alumen",
         zone: "Azys Lla",
-        location: "Habisphere Control",
+        closestAetheryte: "Helix",
+        coordinates: "(x35,y16)",
         usage: "LTW, Collectable",
-        special: "Legendary (7 AM), Unlocked w/ Geological Folklore - Abalathia's Spine",
+        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Abalathia's Spine"
     }, {
         level: "60★",
         name: "Smithsonite Ore",
         zone: "The Sea of Clouds",
-        location: "Hengr's Crucible",
+        closestAetheryte: "Ok'Zundu",
+        coordinates: "(x38,y15)",
         usage: "GSM, Collectable",
-        special: "Legendary (1 AM), Unlocked w/ Geological Folklore - Abalathia's Spine",
+        special: "Legendary (8AM/PM), Unlocked w/ Geological Folklore - Abalathia's Spine"
     }, {
         level: "60★",
         name: "Meteorite",
         zone: "The Sea of Clouds",
-        location: "Hengr's Crucible",
+        closestAetheryte: "Ok'Zundu",
+        coordinates: "(x38,y15)",
         usage: "ALC, Collectable",
-        special: "Unlocked w/ Geological Folklore - Abalathia's Spine",
+        special: "Legendary (8AM/PM), Unlocked w/ Geological Folklore - Abalathia's Spine"
     }, {
         level: "60★★★",
         name: "Luminium Ore",
         zone: "Azys Lla",
-        location: "Hyperstellar Downconverter",
+        closestAetheryte: "Helix",
+        coordinates: "(x5,y17)",
         usage: "GSM",
-        special: "Unlocked w/ Geological Folklore - Abalathia's Spine",
+        special: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Abalathia's Spine"
     },
 ];

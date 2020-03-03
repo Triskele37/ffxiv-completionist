@@ -9,99 +9,113 @@ const tasks = [
         level: "66",
         name: "Perlite",
         zone: "Yanxia",
-        location: "Unseen Spirits Laughing",
+        closestAetheryte: "Namai",
+        coordinates: "(x37,y19)",
         usage: "ALC",
-        special: "Ephemeral (8PM)",
+        special: "Ephemeral (8PM)"
     }, {
         level: "66",
         name: "Durium Sand",
         zone: "The Azim Steppe",
-        location: "Onsal Hakair",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
         usage: "GSM, ALC, FC Crafting, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "66",
         name: "Strong Steppe Spice",
         zone: "The Azim Steppe",
-        location: "Onsal Hakair",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
         usage: "Collectable",
-        special: "",
+        special: ""
     }, {
         level: "67",
         name: "Doman Iron Sand",
         zone: "The Azim Steppe",
-        location: "Onsal Hakair",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
         usage: "ARM, BSM, FC Crafting, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "69",
         name: "Palladium Sand",
         zone: "The Azim Steppe",
-        location: "Onsal Hakair",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
         usage: "GSM, ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "69",
         name: "Ala Mhigan Salt Crystal",
         zone: "The Lochs",
-        location: "Loch Seld",
+        closestAetheryte: "Porta Praetoria",
+        coordinates: "(x21,y29)",
         usage: "ALC, CUL",
-        special: "Unspoiled (12 AM/PM)",
+        special: "Unspoiled (12AM/PM)"
     }, {
         level: "70",
         name: "Raven Coal",
         zone: "Kholusia",
-        location: "Shadow Fruit",
+        closestAetheryte: "Wright",
+        coordinates: "(x10,y27)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Amh Araeng Seasonings",
         zone: "Amh Araeng",
-        location: "The Inn at Journey's Head",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y23)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70",
         name: "Animal Trace",
         zone: "Amh Araeng",
-        location: "The Inn at Journey's Head",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★",
         name: "Airship Fitting Components",
         zone: "Amh Araeng",
-        location: "The Inn at Journey's Head",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y23)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★",
         name: "Kholusian Miscellany",
         zone: "Kholusia",
-        location: "Shadow Fruit",
+        closestAetheryte: "Wright",
+        coordinates: "(x10,y27)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "70★★",
         name: "Yanxian Soil",
         zone: "Yanxia",
-        location: "Unseen Spirits Laughing",
+        closestAetheryte: "Namai",
+        coordinates: "(x37,y19)",
         usage: "Collectable",
-        special: "",
+        special: "Ephemeral (8PM)"
     }, {
         level: "70★★",
         name: "Coarse Saltpeter",
         zone: "Amh Araeng",
-        location: "The Inn at Journey's Head",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
         usage: "ALC",
-        special: "",
+        special: ""
     }, {
         level: "70★★",
         name: "Yellow Alumen",
         zone: "Amh Araeng",
-        location: "The Inn at Journey's Head",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
         usage: "LTW, Collectable",
-        special: "",
+        special: ""
     },
 ];

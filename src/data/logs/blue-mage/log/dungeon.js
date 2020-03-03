@@ -12,7 +12,7 @@ const tasks = [
     }, {
         level: "50",
         iLvlReq: "45",
-        name: "Amdapoor Keep"
+        name: "Amdapor Keep"
     }, {
         level: "50",
         iLvlReq: "48",
@@ -28,7 +28,7 @@ const tasks = [
     }, {
         level: "50",
         iLvlReq: "55",
-        name: "The Lost City of Amdapoor"
+        name: "The Lost City of Amdapor"
     }, {
         level: "50",
         iLvlReq: "55",
@@ -72,7 +72,7 @@ const tasks = [
     }, {
         level: "50",
         iLvlReq: "90",
-        name: "Amdapoor Keep (Hard)"
+        name: "Amdapor Keep (Hard)"
     }, {
         level: "51",
         iLvlReq: "100",

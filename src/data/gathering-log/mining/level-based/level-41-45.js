@@ -9,29 +9,33 @@ const tasks = [
         level: "41",
         name: "Raw Turquoise",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x30,y25)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "43",
         name: "Electrum Ore",
         zone: "Upper La Noscea",
-        location: "Bronze Lake",
+        closestAetheryte: "Camp Bronze Lake",
+        coordinates: "(x30,y25)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "44",
         name: "Raw Amber",
         zone: "Eastern Thanalan",
-        location: "Drybone",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x12,y19)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "45",
         name: "Raw Rubellite",
         zone: "Eastern Thanalan",
-        location: "Drybone",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x12,y19)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     },
 ];

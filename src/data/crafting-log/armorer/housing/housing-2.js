@@ -331,6 +331,30 @@ const tasks = [
     },
     {
         level: "80",
+        name: "First Chair's Trumpet",
+        mat1: "2 Dwarven Mythril Ingot",
+        mat2: "3 Deepgold Ingot",
+        mat3: "1 Lignum Vitae Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal",
+        special: "Housing (Tabletop)"
+    },
+    {
+        level: "80",
+        name: "Bomb Cauldron",
+        mat1: "7 Dwarven Mythril Ingot",
+        mat2: "4 Growth Formula Kappa",
+        mat3: "3 Granite",
+        mat4: "2 Bomb Ash",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal",
+        special: "Housing (Furnishing)"
+    },
+    {
+        level: "80",
         name: "Oasis Wall Mounted Fountain",
         mat1: "3 Marble",
         mat2: "2 Hard Mustone Whetstone",

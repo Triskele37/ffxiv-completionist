@@ -9,8 +9,9 @@ const tasks = [
         level: "40",
         name: "Grenade Ash",
         zone: "Northern Thanalan",
-        location: "Bluefog",
+        closestAetheryte: "Ceruleum Processing Plant",
+        coordinates: "(x21,y28)",
         usage: "ALC, ARM, BSM, CRP, GSM, WVR, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     },
 ];

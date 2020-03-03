@@ -9,71 +9,81 @@ const tasks = [
         level: "76",
         name: "Raw Triplite",
         zone: "Amh Araeng",
-        location: "Ladle",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x20,y29)",
         usage: "GSM, Collectable",
-        special: "Unspoiled 12 AM/PM",
+        special: "Unspoiled (12AM/PM)"
     }, {
         level: "76",
         name: "Gale Rock",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x25,y28)",
         usage: "Collectable",
-        special: "Ephemeral 12 AM/PM",
+        special: "Ephemeral (12AM)"
     }, {
         level: "76",
         name: "Solarite",
         zone: "Lakeland",
-        location: "The Church of the First Light",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x36,y14)",
         usage: "Reducible",
-        special: "Ephemeral 8 AM",
+        special: "Ephemeral (8AM)"
     }, {
         level: "76",
         name: "Extra Effervescent Water",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x23,y28)",
         usage: "ALC, Collectable",
-        special: "",
+        special: ""
     }, {
         level: "77",
         name: "Titancopper Ore",
         zone: "Lakeland",
-        location: "The Church of the First Light",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x35,y16)",
         usage: "ARM, BSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "78",
-        name: "Raw Petalife",
+        name: "Raw Petalite",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x28,y33)",
         usage: "GSM, Collectable",
-        special: "Unspoiled 6 AM/PM",
+        special: "Unspoiled (6AM/PM)"
     }, {
         level: "78",
         name: "Underground Spring Water",
         zone: "Lakeland",
-        location: "The Church of the First Light",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x35,y16)",
         usage: "ALC, CUL, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "78",
         name: "Megafauna Trace",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x23,y28)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "80",
         name: "Dimythrite Ore",
         zone: "Lakeland",
-        location: "The Church of the First Light",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x35,y16)",
         usage: "ARM, BSM, Collectable, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "80",
         name: "Raw Onyx",
         zone: "The Tempest",
-        location: "The Caliban Gorge",
+        closestAetheryte: "Macarenses Angle",
+        coordinates: "(x16,y21)",
         usage: "GSM, Collectable",
-        special: "Unspoiled 12 AM/PM",
+        special: "Unspoiled (12AM/PM)"
     },
 ];

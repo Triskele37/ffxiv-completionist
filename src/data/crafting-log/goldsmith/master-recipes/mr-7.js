@@ -304,6 +304,17 @@ const tasks = [
         special: "Unlocked w/ Master Goldsmith VII"
     }, {
         level: "80★★",
+        name: "Crystallized Coral",
+        mat1: "3 Sintered Whetstone",
+        mat2: "1 Crystal Boule",
+        mat3: "1 Emerald Crystal Boule",
+        mat4: "1 Cerulean Crystal Boule",
+        mat5: "1 Ruby Crystal Boule",
+        mat6: "1 Golden Crystal Boule",
+        catalysts: "2 Wind Cluster, 2 Fire Cluster",
+        special: "Unlocked w/ Master Goldsmith VII"
+    }, {
+        level: "80★★",
         name: "Hades Trophy",
         mat1: "Hades Auracite",
         mat2: "2 Prismatic Ingot",

@@ -9,36 +9,41 @@ const tasks = [
         level: "36",
         name: "Raw Tourmaline",
         zone: "South Shroud",
-        location: "Urth's Gift",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x28,y22)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "37",
         name: "Raw Spinel",
         zone: "South Shroud",
-        location: "Urth's Gift",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x28,y22)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "38",
         name: "Raw Zircon",
         zone: "Coerthas Central Highlands",
-        location: "Dragonhead",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x24,y19)",
         usage: "ALC, GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "39",
         name: "Jade",
         zone: "Coerthas Central Highlands",
-        location: "Dragonhead",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x24,y19)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "40",
         name: "Black Alumen",
         zone: "South Shroud",
-        location: "Urth's Gift",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x28,y22)",
         usage: "ALC, LTW, Provisioning",
-        special: "",
+        special: ""
     },
 ];

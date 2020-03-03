@@ -7,6 +7,18 @@ export const Crafting_Log_Armorer_Master_Recipes_Master_Recipes_6 = function(par
 const tasks = [
     {
         level: "70★★",
+        name: "Shinryu's Ephemeral Shield",
+        mat1: "2 Chromite Ingot",
+        mat2: "1 Torreya Lumber",
+        mat3: "1 Shinryu's Scale",
+        mat4: "2 Demicrystal",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, 2 Earth Cluster",
+        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+    },
+    {
+        level: "70★★",
         name: "Tier 1 Metal Aquarium",
         mat1: "3 Chromite Ingot",
         mat2: "2 Steel Plate",

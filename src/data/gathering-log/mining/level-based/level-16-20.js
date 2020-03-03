@@ -9,43 +9,49 @@ const tasks = [
         level: "16",
         name: "Raw Malachite",
         zone: "Eastern Thanalan",
-        location: "Drybone",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x17,y20)",
         usage: "GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "17",
         name: "Raw Sphene",
         zone: "North Shroud",
-        location: "Peacegarden",
+        closestAetheryte: "Fallgourd Float",
+        coordinates: "(x29,y22)",
         usage: "GSM",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "17",
         name: "Raw Fluorite",
         zone: "Eastern Thanalan",
-        location: "Drybone",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x17,y20)",
         usage: "GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "18",
         name: "Raw Danburite",
         zone: "Western La Noscea",
-        location: "Skull Valley",
+        closestAetheryte: "Aleport",
+        coordinates: "(x29,y22)",
         usage: "GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "19",
         name: "Sunrise Tellin",
         zone: "Western La Noscea",
-        location: "Skull Valley",
+        closestAetheryte: "Aleport",
+        coordinates: "(x29,y22)",
         usage: "BSM, CRP, WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "19",
         name: "Alumen",
         zone: "Eastern Thanalan",
-        location: "Drybone",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x17,y20)",
         usage: "LTW, Provisioning",
-        special: "",
+        special: ""
     },
 ];

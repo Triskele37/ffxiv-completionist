@@ -9,99 +9,113 @@ const tasks = [
         level: "76",
         name: "Russet Popoto",
         zone: "Amh Araeng",
-        location: "The Dragging Tail",
+        closestAetheryte: "Twine",
+        coordinates: "(x19,y16)",
         usage: "CUL, Collectable",
-        special: "Unspoiled 8 AM/PM",
+        special: "Unspoiled (8AM/PM)"
     }, {
         level: "76",
         name: "White Clay",
         zone: "Kholusia",
-        location: "Scree",
+        closestAetheryte: "Tomra",
+        coordinates: "(x13, y13)",
         usage: "Reducible",
-        special: "Ephemeral 8 PM",
+        special: "Ephemeral (8PM)"
     }, {
         level: "76",
         name: "Sweet Alyssum",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x24,y28)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "76",
         name: "Sweet Marjoram",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x26,y24)",
         usage: "Reducible",
-        special: "Ephemeral 4 PM",
+        special: "Ephemeral (4AM)"
     }, {
         level: "77",
         name: "Fernleaf Lavender",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x24,y28)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "78",
         name: "Mist Spinach",
         zone: "The Rak'tika Greatwood",
-        location: "Bowrest",
+        closestAetheryte: "Fanow",
+        coordinates: "(x34,y21)",
         usage: "CUL, Collectable",
-        special: "Unspoiled 12 AM/PM",
+        special: "Unspoiled (12AM/PM)"
     }, {
         level: "78",
         name: "Coffee Beans",
         zone: "Kholusia",
-        location: "Scree",
+        closestAetheryte: "Tomra",
+        coordinates: "(x12,y14)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "78",
         name: "Bomba Rice",
         zone: "Kholusia",
-        location: "Scree",
+        closestAetheryte: "Tomra",
+        coordinates: "(x12,y14)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "78",
         name: "Lime Basil",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x23,y34)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "78",
         name: "Megafauna Trace",
         zone: "The Rak'tika Greatwood",
-        location: "The Wild Fete",
+        closestAetheryte: "Slitherbough",
+        coordinates: "(x24,y28)",
         usage: "Delivery",
-        special: "",
+        special: ""
     }, {
         level: "79",
         name: "Dwarven Cotton Boll",
         zone: "Kholusia",
-        location: "Scree",
+        closestAetheryte: "Tomra",
+        coordinates: "(x12,y14)",
         usage: "WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "79",
         name: "Tiger Lily",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x23,y34)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "79",
         name: "Light Gerbera",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x23,y34)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "80",
         name: "Bog Sage",
         zone: "Lakeland",
-        location: "Weed",
+        closestAetheryte: "Fort Jobb",
+        coordinates: "(x25,y29)",
         usage: "Collectable",
-        special: "Ephemeral 12 PM",
+        special: "Ephemeral (12PM)"
     },
 ];

@@ -9,85 +9,97 @@ const tasks = [
         level: "51",
         name: "Rainbow Cotton Boll",
         zone: "Coerthas Western Highlands",
-        location: "Twinpools",
+        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        coordinates: "(x17,y16)",
         usage: "WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "52",
         name: "Pearl Sprouts",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y20)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (10AM/PM)"
     }, {
         level: "52",
         name: "Mist Dill",
         zone: "Coerthas Western Highlands",
-        location: "Twinpools",
+        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        coordinates: "(x17,y16)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "52",
         name: "Pearl Sprout Seeds",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y20)",
         usage: "Gardening",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (10AM/PM)"
     }, {
         level: "53",
         name: "Cyclops Onion",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x36,y20)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "53",
         name: "Highland Wheat",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x36,y20)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "53",
         name: "Coerthan Tea Leaves",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y20)",
         usage: "CUL, LTW, Collectable",
-        special: "Buyable, Unspoiled (10 AM/PM)",
+        special: "Buyable, Unspoiled (10AM/PM)"
     }, {
         level: "53",
         name: "Coerthan Tea Seeds",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y20)",
         usage: "Gardening",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (10AM/PM)"
     }, {
         level: "54",
         name: "Stalk of Ramie",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x36,y20)",
         usage: "WVR, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Magma Beet",
         zone: "The Churning Mists",
-        location: "Landlord Colony",
+        closestAetheryte: "Moghome",
+        coordinates: "(x20,y21)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Emerald Beans",
         zone: "The Churning Mists",
-        location: "Landlord Colony",
+        closestAetheryte: "Moghome",
+        coordinates: "(x20,y21)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Chives",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y20)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (10AM/PM)"
     },
 ];

@@ -9,36 +9,41 @@ const tasks = [
         level: "51",
         name: "Porcini",
         zone: "The Churning Mists",
-        location: "Easton Eyes",
+        closestAetheryte: "Zenith",
+        coordinates: "(x24,y6)",
         usage: "CUL, Collectable",
-        special: "Unspoiled (12 AM/PM)",
+        special: "Unspoiled (12AM/PM)"
     }, {
         level: "54",
         name: "Dark Chestnut Log",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x25,y25)",
         usage: "CRP, LTW, FC Crafting, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "54",
         name: "Dravanian Mistletoe",
         zone: "The Churning Mists",
-        location: "Easton Eyes",
+        closestAetheryte: "Zenith",
+        coordinates: "(x24,y6)",
         usage: "ALC, Collectable",
-        special: "Buyable, Unspoiled (12 AM/PM)",
+        special: "Buyable, Unspoiled (12AM/PM)"
     }, {
         level: "55",
         name: "Dark Chestnut",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x25,y25)",
         usage: "CUL",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Dark Chestnut Branch",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x25,y25)",
         usage: "ALC, BSM, CRP, Provisioning",
-        special: "",
+        special: ""
     },
 ];

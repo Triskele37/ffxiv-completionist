@@ -9,8 +9,9 @@ const tasks = [
         level: "60★★★",
         name: "Star Cotton Boll",
         zone: "Azys Lla",
-        location: "Antithesis",
+        closestAetheryte: "Helix",
+        coordinates: "(x9,y31)",
         usage: "WVR",
-        special: "Legendary(4AM/PM), Unlocked w/ Botanical Folklore- Abalathian",
+        special: "Legendary(4AM/PM), Unlocked w/ Botanical Folklore- Abalathian"
     },
 ];

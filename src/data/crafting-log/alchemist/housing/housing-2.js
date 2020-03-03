@@ -283,6 +283,42 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Dishware",
+        mat1: "Sour Red",
+        mat2: "2 Silex",
+        mat3: "2 Potter's Clay",
+        mat4: "Refined Natron",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal",
+        special: "Housing (Tabletop)"
+    },
+    {
+        level: "80",
+        name: "Cosmetics Box",
+        mat1: "2 Lignum Vitae Lumber",
+        mat2: "2 Growth Formula Kappa",
+        mat3: "Red Pigment",
+        mat4: "Purple Pigment",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal",
+        special: "Housing (Tabletop)"
+    },
+    {
+        level: "80",
+        name: "Oldrose Wall Planter",
+        mat1: "3 Lignum Vitae Lumber",
+        mat2: "2 Growth Formula Kappa",
+        mat3: "2 Humus",
+        mat4: "3 Oldrose Seeds",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal",
+        special: "Housing (Wall-mounted)"
+    },
+    {
+        level: "80",
         name: "Indoor Oriental Garden",
         mat1: "6 Granite",
         mat2: "3 Crescent Spring Water",
@@ -292,5 +328,17 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Water Crystal, 7 Lightning Crystal",
         special: "Housing (Furnishing)"
-    }
+    },
+    {
+        level: "80",
+        name: "Dish Rack",
+        mat1: "4 Lignum Vitae Lumber",
+        mat2: "Straw",
+        mat3: "Messy Dishes",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal",
+        special: "Housing (Tabletop)"
+    },
 ];

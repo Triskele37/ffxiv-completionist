@@ -9,85 +9,97 @@ const tasks = [
         level: "51",
         name: "Pyrite",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y17)",
         usage: "Collectable",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (8AM/PM)"
     }, {
         level: "51",
         name: "Raw Agate",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y31)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "52",
         name: "Raw Tiger's Eye",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y31)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "53",
         name: "Mythrite Ore",
         zone: "Coerthas Western Highlands",
-        location: "Gorgagne Holding",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y12)",
         usage: "ARM, BSM, GSM",
-        special: "",
+        special: ""
     }, {
         level: "53",
         name: "Chalcocite",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y17)",
         usage: "Collectable",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (8AM/PM)"
     }, {
         level: "53",
         name: "Raw Larimar",
         zone: "Coerthas Western Highlands",
-        location: "Gorgagne Holding",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y12)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "54",
         name: "Limonite",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y17)",
         usage: "Collectable",
-        special: "Unspoiled (10 AM/PM)",
+        special: "Unspoiled (8AM/PM)"
     }, {
         level: "54",
         name: "Raw Mormorion",
         zone: "Coerthas Western Highlands",
-        location: "Gorgagne Holding",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x31,y12)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "54",
         name: "Dravanian Spring Warer",
         zone: "The Dravanian Forelands",
-        location: "The Smoldering Wastes",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x27,y31)",
         usage: "ALC, CULProvisioning",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Titanium Ore",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x30,y16)",
         usage: "ARM, BSM",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Raw Star Ruby",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x30,y16)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "55",
         name: "Raw Star Sapphire",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x30,y16)",
         usage: "GSM, Provisioning",
-        special: "",
+        special: ""
     },
 ];

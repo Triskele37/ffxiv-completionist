@@ -1649,4 +1649,52 @@ const tasks = [
         catalysts: "7 Wind Crystal, 7 Ice Crystal",
         special: "Housing (Table)"
     },
+    {
+        level: "80",
+        name: "Ronkan Rocking Chair",
+        mat1: "1 Aged Oak Log",
+        mat2: "1 White Oak Lumber",
+        mat3: "3 Dwarven Cotton",
+        mat4: "3 Lorikeet Down",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Housing (Chair)"
+    },
+    {
+        level: "80",
+        name: "Used Banquet Table",
+        mat1: "4 Lignum Vitae Lumber",
+        mat2: "4 White Oak Lumber",
+        mat3: "2 Upland Wheat",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Housing (Table)"
+    },
+    {
+        level: "80",
+        name: "Cheese Collection",
+        mat1: "5 Lignum Vitae Lumber",
+        mat2: "2 White Oak Lumber",
+        mat3: "4 Cottage Cheese",
+        mat4: "4 Cream Cheese",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Housing (Table)"
+    },
+    {
+        level: "80",
+        name: "Fat Cat Wall Chronometer",
+        mat1: "4 Lignum Vitae Lumber",
+        mat2: "2 Stonegold Ingot",
+        mat3: "2 Ovim Wool",
+        mat4: "2 Ovim Wool Yarn",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Housing (Wall-mounted)"
+    },
 ];

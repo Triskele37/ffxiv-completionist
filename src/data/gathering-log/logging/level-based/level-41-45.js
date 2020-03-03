@@ -9,22 +9,25 @@ const tasks = [
         level: "42",
         name: "Mirror Apple",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x23,y17)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "42",
         name: "Mirror Apple Seeds",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x23,y17)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "44",
         name: "Mistletoe",
         zone: "Coerthas Central Highlands",
-        location: "Whitebrim",
+        closestAetheryte: "Camp Dragonhead",
+        coordinates: "(x23,y17)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     },
 ];

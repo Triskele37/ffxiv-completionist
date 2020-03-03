@@ -9,22 +9,25 @@ const tasks = [
         level: "31",
         name: "Oak Branch",
         zone: "South Shroud",
-        location: "Lower Paths",
+        closestAetheryte: "Camp Tranquil",
+        coordinates: "(x16,y30)",
         usage: "ALC, CRP, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "32",
         name: "Oak Log",
         zone: "South Shroud",
-        location: "Lower Paths",
+        closestAetheryte: "Camp Tranquil",
+        coordinates: "(x16,y30)",
         usage: "ALC, CRP",
-        special: "",
+        special: ""
     }, {
         level: "35",
         name: "Tarantula",
         zone: "South Shroud",
-        location: "Lower Paths",
+        closestAetheryte: "Camp Tranquil",
+        coordinates: "(x16,y30)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     },
 ];

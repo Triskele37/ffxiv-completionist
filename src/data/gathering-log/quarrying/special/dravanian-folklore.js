@@ -9,15 +9,17 @@ const tasks = [
         level: "60★",
         name: "Blue Quartz",
         zone: "The Dravanian Hinterlands",
-        location: "The Answering Quarter",
+        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
+        coordinates: "(x11,y16)",
         usage: "ARM, BSM, Collectable",
-        special: "Legendary (7 AM), Unlocked w/ Geological Folklore - Dravania",
+        special: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Dravania"
     }, {
         level: "60★★★",
         name: "Zeolite Ore",
         zone: "The Dravanian Hinterlands",
-        location: "Quickspill Delta",
+        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
+        coordinates: "(x13,y31)",
         usage: "ALC",
-        special: "Legendary (8AM), Unlocked w/ Geological Folklore - Dravania",
+        special: "Legendary (8AM/PM), Unlocked w/ Geological Folklore - Dravania"
     },
 ];

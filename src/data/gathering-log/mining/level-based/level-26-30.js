@@ -9,57 +9,65 @@ const tasks = [
         level: "26",
         name: "Fire Crystal",
         zone: "The Dravanian Forelands",
-        location: "Chocobo Forest",
+        closestAetheryte: "Tailfeather",
+        coordinates: "(x20,y26)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Ice Crystal",
         zone: "Coerthas Western Highlands",
-        location: "Riversmeet",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "(x28,y27)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Wind Crystal",
         zone: "The Dravanian Hinterlands",
-        location: "The Makers' Quarter",
+        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
+        coordinates: "(x27,y24)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Earth Crystal",
         zone: "The Peaks",
-        location: "Sleeping Stones",
+        closestAetheryte: "Ala Gannha",
+        coordinates: "(x35,y10)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Lightning Crystal",
         zone: "The Sea of Clouds",
-        location: "Voor Sian Siran",
+        closestAetheryte: "Camp Cloudtop",
+        coordinates: "(x33,y31)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "26",
         name: "Water Crystal",
         zone: "The Sea of Clouds",
-        location: "Voor Sian Siran",
+        closestAetheryte: "Camp Cloudtop",
+        coordinates: "(x33,y31)",
         usage: "Catalyst",
-        special: "",
+        special: ""
     }, {
         level: "28",
         name: "Wyvern Obsidian",
         zone: "Eastern Thanalan",
-        location: "Wellwick Wood",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x26,y17)",
         usage: "ALC, BSM, CRP, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "30",
         name: "Saltpeter",
         zone: "Eastern Thanalan",
-        location: "Wellwick Wood",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x26,y17)",
         usage: "ALC",
-        special: "",
+        special: ""
     },
 ];

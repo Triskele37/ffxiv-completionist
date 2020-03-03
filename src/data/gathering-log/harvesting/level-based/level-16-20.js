@@ -9,85 +9,97 @@ const tasks = [
         level: "16",
         name: "Paprika",
         zone: "Western La Noscea",
-        location: "Quarterstone",
+        closestAetheryte: "Swiftperch",
+        coordinates: "(x31,y28)",
         usage: "CUL, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "16",
         name: "Galago Mint",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x18,y28)",
         usage: "CUL, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     }, {
         level: "16",
         name: "Paprika Seeds",
         zone: "Western La Noscea",
-        location: "Quarterstone",
+        closestAetheryte: "Swiftperch",
+        coordinates: "(x31,y28)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "17",
         name: "Lalafellin Lentil",
         zone: "Western La Noscea",
-        location: "Quarterstone",
+        closestAetheryte: "Swiftperch",
+        coordinates: "(x31,y28)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "18",
         name: "Popoto",
         zone: "Eastern Thanalan",
-        location: "Sandgate",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x16,y27)",
         usage: "CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "18",
         name: "Belladonna",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x18,y28)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "18",
         name: "Popoto Set",
         zone: "Eastern Thanalan",
-        location: "Sandgate",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x16,y27)",
         usage: "Gardening",
-        special: "Hidden",
+        special: "Hidden"
     }, {
         level: "19",
         name: "Gil Bun",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x18,y28)",
         usage: "ALC, CUL, Provisioning",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "Island Seedling",
         zone: "Western La Noscea",
-        location: "Quarterstone",
+        closestAetheryte: "Swiftperch",
+        coordinates: "(x31,y28)",
         usage: "ALC, CRP, FC Crafting",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "Shroud Seedling",
         zone: "East Shroud",
-        location: "Nine Ivies",
+        closestAetheryte: "The Hawthorne Hut",
+        coordinates: "(x18,y28)",
         usage: "ALC, GSM, FC Crafting",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "Desert Seedling",
         zone: "Eastern Thanalan",
-        location: "Sandgate",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x16,y27)",
         usage: "ALC, GSM",
-        special: "",
+        special: ""
     }, {
         level: "20",
         name: "White Scorpion",
         zone: "Eastern Thanalan",
-        location: "Sandgate",
+        closestAetheryte: "Camp Drybone",
+        coordinates: "(x16,y27)",
         usage: "ALC, Provisioning",
-        special: "",
+        special: ""
     },
 ];

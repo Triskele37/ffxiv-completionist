@@ -9,8 +9,9 @@ const tasks = [
         level: "14",
         name: "Iron Ore",
         zone: "Western Thanalan",
-        location: "Horizon's Edge",
+        closestAetheryte: "Horizon",
+        coordinates: "(x27,y17)",
         usage: "ARM, BSM, GSM, Provisioning",
-        special: "Buyable",
+        special: "Buyable"
     },
 ];

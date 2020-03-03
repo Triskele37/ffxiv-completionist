@@ -9,8 +9,9 @@ const tasks = [
         level: "70★★",
         name: "Hingan Flax",
         zone: "The Peaks",
-        location: "Mount Yorn",
+        closestAetheryte: "Ala Ghiri",
+        coordinates: "(x24,y36)",
         usage: "WVR",
-        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Gyr Abanian",
+        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Gyr Abanian"
     },
 ];
