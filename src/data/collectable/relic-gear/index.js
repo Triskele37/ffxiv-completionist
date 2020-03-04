@@ -11,7 +11,7 @@ export const Collectables_Relic_Gear = function(parent) {
         { header: "iLvl", key: "iLvl", filterable: true, filterType: "number", centered: true },
         { header: "Name", key: "name" },
         { header: "Job", key: "job", filterable: true },
-        { header: "Slot", key: "slot", filterable: true },
+        // { header: "Slot", key: "slot", filterable: true },
     ];
 
     data.initializeSubGroups([
