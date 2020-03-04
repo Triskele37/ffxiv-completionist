@@ -8,7 +8,8 @@ export const GatheringColumnConfig = [
     },
     { header: "Name", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
-    { header: "Location", key: "location" },
+    { header: "Aetheryte", key: "closestAetheryte" },
+    { header: "Coordinates", key: "coordinates" },
     { header: "Usages", key: "usage" },
     { header: "Special", key: "special" },
 ];
@@ -38,7 +39,7 @@ export const FishingGuideColumnConfig = [
     },
     { header: "Name", key: "name" },
     { header: "Prime Location", key: "primeLocation", filterable: true },
-    { header: "Fishing Holes", key: "lowestFishingHole" },
+    { header: "Fishing Holes", key: "fishingHoles" },
     { header: "Type", key: "type", filterable: true },
     { header: "Bait", key: "bait", filterable: true },
     { header: "Usages", key: "usage" },

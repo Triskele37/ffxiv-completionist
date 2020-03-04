@@ -99,7 +99,7 @@ const tasks = [
         reward: "Title: The Assimilator"
     }, {
         description: "Successfully convert 5,000 spiritbound items into materia.",
-        name: "Prepare to Be Assimilated V",
+        name: "An Extract Science V",
         points: 10,
         reward: "-"
     },

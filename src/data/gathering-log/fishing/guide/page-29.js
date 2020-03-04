@@ -1,8 +1,7 @@
 import { DataGroup } from "../../../DataGroup";
-import { FishingGuideColumnConfig } from "../../columnConfigs";
 
 export const Gathering_Log_Fishing_Guide_Page_29 = function(parent) {
-    return new DataGroup("Page 29", parent).initializeTasks(tasks, FishingGuideColumnConfig);
+    return new DataGroup("Page 29", parent).initializeTasks(tasks);
 };
 
 const tasks = [
