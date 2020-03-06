@@ -726,7 +726,7 @@ const tasks = [
         npc: "Eirikur"
     }, {
         level: "78",
-        name: "A Show In",
+        name: "A Shoe In",
         zone: "The Crystarium",
         location: "The Baldaquin",
         npc: "Eirikur"

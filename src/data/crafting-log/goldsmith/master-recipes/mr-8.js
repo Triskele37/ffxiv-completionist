@@ -62,7 +62,7 @@ const tasks = [
     	special: "Unlocked w/ Master Goldsmith VIII"
     }, {
     	level: "80★★★",
-    	name: "Neo-Ishgardian Chocker of Fending",
+    	name: "Neo-Ishgardian Choker of Fending",
     	mat1: "Purpure Bead",
     	mat2: "Cobalt Alloy Ingot",
     	mat3: "Dwarven Mythril Nugget",
@@ -73,7 +73,7 @@ const tasks = [
     	special: "Unlocked w/ Master Goldsmith VIII"
     }, {
     	level: "80★★★",
-    	name: "Neo-Ishgardian Chocker of Slaying",
+    	name: "Neo-Ishgardian Choker of Slaying",
     	mat1: "Purpure Bead",
     	mat2: "Cobalt Alloy Ingot",
     	mat3: "Dwarven Mythril Nugget",

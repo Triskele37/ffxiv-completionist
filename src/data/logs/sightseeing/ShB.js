@@ -8,7 +8,7 @@ const tasks = [
     {
         name: "The Rotunda",
         vista: "01",
-        zone: "The Chrystarium",
+        zone: "The Crystarium",
         location: "The Rotunda (8.6, 11.2)",
         weather: "X",
         time: "X",
@@ -16,7 +16,7 @@ const tasks = [
     }, {
         name: "Musica Universalis",
         vista: "02",
-        zone: "The Chrystarium",
+        zone: "The Crystarium",
         location: "Musica Universalis",
         weather: "X",
         time: "X",
@@ -24,7 +24,7 @@ const tasks = [
     }, {
         name: "The Cabinet of Curiosity",
         vista: "03",
-        zone: "The Chrystarium",
+        zone: "The Crystarium",
         location: "The Cabinet of Curiosity (9.9, 5.9)",
         weather: "X",
         time: "X",
@@ -32,7 +32,7 @@ const tasks = [
     }, {
         name: "Rapture",
         vista: "04",
-        zone: "The Chrystarium",
+        zone: "The Crystarium",
         location: "The Amaro Launch (11, 4.7)",
         weather: "X",
         time: "X",
@@ -40,7 +40,7 @@ const tasks = [
     }, {
         name: "Temenos Rookery",
         vista: "05",
-        zone: "The Chrystarium",
+        zone: "The Crystarium",
         location: "Temenos Rookery (7.3-9.7)",
         weather: "X",
         time: "X",

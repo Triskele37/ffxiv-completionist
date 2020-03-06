@@ -84,7 +84,7 @@ const tasks = [
     	special: "Unlocked w/ Master Armorer VIII"
     }, {
     	level: "80★★★",
-    	name: "Neo-Ishgardian Guantlets of Fending",
+    	name: "Neo-Ishgardian Gauntlets of Fending",
     	mat1: "2 Cobalt Alloy Ingot",
     	mat2: "Megalania Leather",
     	mat3: "Dwarven Cotton",
@@ -95,7 +95,7 @@ const tasks = [
     	special: "Unlocked w/ Master Armorer VIII"
     }, {
     	level: "80★★★",
-    	name: "Neo-Ishgardian Guantlets of Maiming",
+    	name: "Neo-Ishgardian Gloves of Maiming",
     	mat1: "2 Cobalt Alloy Ingot",
     	mat2: "Megalania Leather",
     	mat3: "Dwarven Cotton",
