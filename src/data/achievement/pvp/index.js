@@ -9,11 +9,17 @@ import { Achievements_PvP_Rival_Wings } from "./rival-wings";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 
 export const Achievements_PvP = function(parent) {
-    return new DataGroup("PvP", parent).initializeSubGroups([
+    const data = new DataGroup("PvP", parent);
+    data.name_en = "PvP";
+    data.name_fr = "JcJ";
+
+    data.initializeSubGroups([
         Achievements_PvP_General,
         Achievements_PvP_Ranking,
         Achievements_PvP_The_Wolves_Den,
         Achievements_PvP_Frontline,
         Achievements_PvP_Rival_Wings,
     ]);
+
+    return data;
 };

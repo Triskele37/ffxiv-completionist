@@ -1,7 +1,13 @@
 import { DataGroup } from "../../DataGroup";
 
 export const FATEs_Mor_Dhona = function(parent) {
-    return new DataGroup("Mor Dhona", parent).initializeTasks(tasks);
+    const data = new DataGroup("Mor Dhona", parent);
+    data.name_en = "Mor Dhona";
+    data.name_fr = "Mor Dhona";
+
+    data.initializeTasks(tasks);
+
+    return data;
 };
 
 const tasks = [

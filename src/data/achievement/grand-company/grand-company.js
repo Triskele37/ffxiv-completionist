@@ -1,7 +1,13 @@
 import { DataGroup } from "../../DataGroup";
 
 export const Achievements_Grand_Company_Grand_Company = function(parent) {
-    return new DataGroup("Grand Company", parent).initializeTasks(tasks);
+    const data = new DataGroup("Grand Company", parent);
+    data.name_en = "Grand Company";
+    data.name_fr = "Grandes Compagnies";
+
+    data.initializeTasks(tasks);
+
+    return data;
 };
 
 const tasks = [

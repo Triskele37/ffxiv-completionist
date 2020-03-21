@@ -1,7 +1,13 @@
 import { DataGroup } from "../../DataGroup";
 
 export const FATEs_The_Diadem = function(parent) {
-    return new DataGroup("The Diadem", parent).initializeTasks(tasks);
+    const data = new DataGroup("The Diadem", parent);
+    data.name_en = "The Diadem";
+    data.name_fr = "Diadème";
+
+    data.initializeTasks(tasks);
+
+    return data;
 };
 
 const tasks = [

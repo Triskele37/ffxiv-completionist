@@ -198,7 +198,7 @@ const tasks = [
         iLvl: "385"
     },
     {
-        name: "Payros Harp Bow",
+        name: "Pyros Harp Bow",
         job: "Bard",
         slot: "Weapon",
         iLvl: "385"

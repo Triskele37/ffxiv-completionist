@@ -16,6 +16,11 @@ const tasks = [
         unlock: "Purchase from Modern Aesthetics Saleswoman for 14 MPG",
         gender: "Unisex (Differing Styles)"
     }, {
+        name: "Controlled Chaos",
+        location: "The Firmament",
+        unlock: "Purchase from Enie for 1,800 Skybuilders' Scrips",
+        gender: "Unisex"
+    }, {
         name: "Curls",
         location: "The Gold Saucer",
         unlock: "Purchase from Gold Saucer Attendant for 9,600 MPG",

@@ -8,7 +8,11 @@ import { FATEs_La_Noscea_Upper } from "./upper-la-noscea";
 import { FATEs_La_Noscea_Western } from "./western-la-noscea";
 
 export const FATEs_La_Noscea = function(parent) {
-    return new DataGroup("La Noscea", parent).initializeSubGroups([
+    const data = new DataGroup("La Noscea", parent);
+    data.name_en = "La Noscea";
+    data.name_fr = "Noscea";
+
+    data.initializeSubGroups([
         FATEs_La_Noscea_Eastern,
         FATEs_La_Noscea_Lower,
         FATEs_La_Noscea_Middle,
@@ -16,4 +20,6 @@ export const FATEs_La_Noscea = function(parent) {
         FATEs_La_Noscea_Upper,
         FATEs_La_Noscea_Western,
 	]);
+
+    return data;
 };

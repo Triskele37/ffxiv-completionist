@@ -10,6 +10,8 @@ import { Travel_Porter_Norvrandt } from "./norvrandt";
 
 export const Travel_Porter = function(parent) {
     const data = new DataGroup("Porter", parent);
+    data.name_en = "Porter";
+    data.name_fr = "Palefrenier";
 
     data.columnConfig = [
         { header: "Type", key: "type", filterable: true },

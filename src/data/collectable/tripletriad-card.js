@@ -479,6 +479,12 @@ const tasks = [
         opponent: "Indolent Imperial",
         unlock: "Drops from Castrum Meridianum"
     }, {
+        name: "Lizbeth",
+        rarity: "★★",
+        type: "None",
+        opponent: "",
+        unlock: "Buy from Enie"
+    }, {
         name: "Lolorito Nanarito",
         rarity: "★★",
         type: "None",

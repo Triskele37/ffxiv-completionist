@@ -38,7 +38,7 @@ const tasks = [
     }, {
         name: "Flames 06",
         rank: "1",
-        mob: "Kobold Footman x7",
+        mob: "Kobold Footman x3",
         zone: "Upper La Noscea",
         location: "Oakwood (11,22)"
     }, {

@@ -8,6 +8,9 @@ import { Duty_The_Hunt_ShB } from "./ShB";
 
 export const Duty_The_Hunt = function(parent) {
     const data = new DataGroup("The Hunt", parent);
+    data.name_en = "The Hunt";
+    data.name_fr = "La Chasse";
+
     data.columnConfig = HuntColumnConfig;
 
     data.initializeSubGroups([

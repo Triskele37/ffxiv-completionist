@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Blacksmith"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a blacksmith.",
+        name: "Skyward Smithy I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a blacksmith.",
+        name: "Skyward Smithy II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a blacksmith.",
+        name: "Skyward Smithy III",
+        points: 10,
+        reward: "Title: Forge of the Firmament"
+    }, {
+        description: "As a blacksmith, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Smithing",
+        points: 10,
+        reward: "Title: The Nest's Own Blacksmith"
+    },
 ];

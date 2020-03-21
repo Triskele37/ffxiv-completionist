@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Weaver"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a weaver.",
+        name: "Skyward Needle I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a weaver.",
+        name: "Skyward Needle II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a weaver.",
+        name: "Skyward Needle III",
+        points: 10,
+        reward: "Title: Weave of the Firmament"
+    }, {
+        description: "As a weaver, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Clothcraft",
+        points: 10,
+        reward: "Title: The Nest's Own Weaver"
+    },
 ];

@@ -186,6 +186,10 @@ const tasks = [
         method: "Duty",
         unlock: "Drops from The Qitana Ravel Duty"
     }, {
+        name: "Cerberpup",
+        method: "Purchased",
+        unlock: "Purchased for 1,200 Skybuilders' Scrips"
+    }, {
         name: "Cherry Bomb",
         method: "Purchased",
         unlock: "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania."
@@ -474,6 +478,10 @@ const tasks = [
         method: "Seasonal Event",
         unlock: "Acquired from Yo-kai Watch: Gather One, Gather All!."
     }, {
+        name: "Laladile",
+        method: "Achievements",
+        unlock: "Complete the Crafting in the Air achievement."
+    }, {
         name: "Lesser Panda",
         method: "Duty",
         unlock: "Found in chest after final boss of The Aery."
@@ -509,6 +517,10 @@ const tasks = [
         name: "Magitek Avenger F1",
         method: "Duty",
         unlock: "Rare drop from level 69 dungeon Castrum Abania."
+    }, {
+        name: "Malone",
+        method: "Achievements",
+        unlock: "Complete the Gathering in the Air achievement."
     }, {
         name: "Mameshiba",
         method: "Retainer Ventures",
@@ -661,6 +673,14 @@ const tasks = [
         name: "Paissa Brat",
         method: "Treasure Hunt",
         unlock: "Dragonskin Treasure Map, The Aquapolis, or Bronze-trimmed Sacks from Palace of the Dead"
+    }, {
+        name: "Paissa Patissier",
+        method: "",
+        unlock: ""
+    }, {
+        name: "Paissa Threadpuller",
+        method: "",
+        unlock: ""
     }, {
         name: "Palico",
         method: "Quest Reward",

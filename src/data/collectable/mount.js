@@ -24,6 +24,9 @@ const tasks = [
         name: "Aithon",
         unlock: "Dropped by Ifrit in The Bowl of Embers (Extreme)."
     }, {
+        name: "Albino Karakul",
+        unlock: "1,800 Skybuilders' Scrips from Enie in The Firmament"
+    }, {
         name: "Alte Roite",
         unlock: "Drops from Deltascape V4.0 (Savage)"
     }, {
@@ -128,6 +131,9 @@ const tasks = [
     }, {
         name: "Direwolf",
         unlock: "Ixali Vendor with \"Sworn\" Reputation with the tribe."
+    }, {
+        name: "Dhalmel",
+        unlock: ""
     }, {
         name: "Disembodied Head",
         unlock: "Bought from E-Una-Kotor for 10x Gelmorran Potsherd."
@@ -368,6 +374,9 @@ const tasks = [
     }, {
         name: "Prototype Conveyor",
         unlock: "In The Feast Rewards (Season 8), Top 100 Party Ranking in a Datacenter."
+    }, {
+        name: "Pteranodon",
+        unlock: "Completion of the Castle in the Sky Achievement"
     }, {
         name: "Raigo",
         unlock: "Furious Fatalities PvP Achievement"

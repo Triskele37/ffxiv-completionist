@@ -8,10 +8,16 @@ import { Achievements_Quests_Seasonal } from "./seasonal";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Quest&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Quests = function(parent) {
-    return new DataGroup("Quests", parent).initializeSubGroups([
+    const data = new DataGroup("Quests", parent);
+    data.name_en = "Quests";
+    data.name_fr = "Quêtes";
+
+    data.initializeSubGroups([
         Achievements_Quests_Quests,
         Achievements_Quests_Levequests,
         Achievements_Quests_Beast_Tribe_Quests,
         Achievements_Quests_Seasonal,
     ]);
+
+    return data;
 };

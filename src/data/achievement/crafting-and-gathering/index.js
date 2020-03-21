@@ -1,5 +1,6 @@
 import { DataGroup } from "../../DataGroup";
 
+import { Achievements_Crafting_and_Gathering_All_Disciplines } from './all-disciplines';
 import { Achievements_Crafting_and_Gathering_Carpenter } from "./carpenter";
 import { Achievements_Crafting_and_Gathering_Blacksmith } from "./blacksmith";
 import { Achievements_Crafting_and_Gathering_Armorer } from "./armorer";
@@ -15,7 +16,12 @@ import { Achievements_Crafting_and_Gathering_Fisher } from "./fisher";
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Crafting_and_Gathering = function(parent) {
-    return new DataGroup("Crafting & Gathering", parent).initializeSubGroups([
+    const data = new DataGroup("Crafting & Gathering", parent);
+    data.name_en = "Crafting & Gathering";
+    data.name_fr = "Synthèse et Récolte";
+
+    data.initializeSubGroups([
+        Achievements_Crafting_and_Gathering_All_Disciplines,
         Achievements_Crafting_and_Gathering_Carpenter,
         Achievements_Crafting_and_Gathering_Blacksmith,
         Achievements_Crafting_and_Gathering_Armorer,
@@ -28,4 +34,6 @@ export const Achievements_Crafting_and_Gathering = function(parent) {
         Achievements_Crafting_and_Gathering_Botanist,
         Achievements_Crafting_and_Gathering_Fisher,
     ]);
+
+    return data;
 };

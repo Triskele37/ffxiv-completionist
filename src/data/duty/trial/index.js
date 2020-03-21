@@ -8,6 +8,9 @@ import { Duty_Trials_ShB } from "./ShB";
 
 export const Duty_Trials = function(parent) {
     const data = new DataGroup("Trials", parent);
+    data.name_en = "Trials";
+    data.name_fr = "Défis";
+
     data.columnConfig = DutyColumnConfig;
 
     data.initializeSubGroups([

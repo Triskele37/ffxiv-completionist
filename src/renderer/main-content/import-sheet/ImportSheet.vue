@@ -28,7 +28,7 @@
                                 class="paste-textarea"
                                 rows=1
                                 cols=1
-                                @change="onPasteInput($event, tab)"
+                                @paste="onPasteInput($event, tab)"
                             />
                         </td>
                         <td>

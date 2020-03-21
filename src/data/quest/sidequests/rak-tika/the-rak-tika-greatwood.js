@@ -57,7 +57,7 @@ const tasks = [
         unlock: ""
     }, {
         level: "70",
-        name: "Heart as One",
+        name: "Hearts as One",
         npc: "Ciuna",
         unlock: ""
     }, {

@@ -1,7 +1,10 @@
 import { Task } from "./Task";
 
 export class DataGroup {
-    name = '';  // A UI friendly name
+    _lang = 'en';
+    name_en;
+    name_fr;
+
     _parent; // A reference to the parent group
 
     subGroups;  // Child groups of this group
@@ -16,8 +19,9 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Construction
     constructor(name, parent) {
-        this.name = name;
+        this.tempName = name;
         this._parent = parent;
+        this.lang = 'en';
 
         // Inherit things
         if(this._parent) {
@@ -63,6 +67,10 @@ export class DataGroup {
         if(this._parent) this._parent.initializeTasksFromSubGroup(subGroupTotal);
     }
 
+    initializeLocalization(lang) {
+
+    }
+
     //------------------------------------------------------------------ Task Update
     updateExcluded(mod) {
         this.totalExcluded += mod;
@@ -83,14 +91,14 @@ export class DataGroup {
     sg(subGroupName) {
         if(!this.subGroups) return null;
         for(let i = 0; i < this.subGroups.length; i++) {
-            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
+            if(this.subGroups[i].tempName === subGroupName) return this.subGroups[i];
         }
         return null;
     }
 
     //------------------------------------------------------------------ Getters
     get _storageKey() {
-        return this.name
+        return this.tempName
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
@@ -107,5 +115,19 @@ export class DataGroup {
 
     get displayTotal() {
         return this.total - this.totalExcluded;
+    }
+
+    //------------------------------------------------------------------ Language
+    get lang() {
+        return this._lang;
+    }
+
+    set lang(newLang) {
+        this._lang = newLang;
+        this.name = this[`name_${newLang}`] || this.name_en || this.tempName;
+
+        (this.subGroups || []).forEach((subGroup) => {
+            subGroup.lang = newLang;
+        });
     }
 }

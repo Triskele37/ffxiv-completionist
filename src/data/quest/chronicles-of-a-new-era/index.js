@@ -11,7 +11,8 @@ import { Quests_Chronicles_of_a_New_Era_Omega } from "./omega";
 import { Quests_Chronicles_of_a_New_Era_Return_to_Ivalice } from "./return-to-ivalice";
 import { Quests_Chronicles_of_a_New_Era_The_Four_Lords } from "./the-four-lords";
 import { Quests_Chronicles_of_a_New_Era_Eden } from "./eden";
-import { Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse } from "./yorha-dark-apocalypse"
+import { Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse } from "./yorha-dark-apocalypse";
+import { Quests_Chronicles_of_a_New_Era_The_Sorrow_of_Werlyt } from "./the-sorrow-of-werlyt";
 
 export const Quests_Chronicles_of_a_New_Era = function(parent) {
     const data = new DataGroup("Chronicles of a New Era", parent);
@@ -29,6 +30,7 @@ export const Quests_Chronicles_of_a_New_Era = function(parent) {
         Quests_Chronicles_of_a_New_Era_The_Four_Lords,
         Quests_Chronicles_of_a_New_Era_Eden,
         Quests_Chronicles_of_a_New_Era_YoRHa_Dark_Apocalypse,
+        Quests_Chronicles_of_a_New_Era_The_Sorrow_of_Werlyt,
     ]);
 
     return data;
