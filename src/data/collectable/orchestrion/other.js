@@ -280,5 +280,15 @@ const tasks = [
         name: "On Our Fates Alight",
         method: "Maps",
         unlock: "Drops from Dungeons of Lyhe Ghiah"
+    }, {
+        number: 56,
+        name: "Stone and Steel",
+        method: "Exchange",
+        unlock: "Obtained from Kupo of Fortune in the Firmament."
+    }, {
+        number: 57,
+        name: "The Mendicant's Relish",
+        method: "Exchange",
+        unlock: "Obtained from Kupo of Fortune in the Firmament."
     },
 ];

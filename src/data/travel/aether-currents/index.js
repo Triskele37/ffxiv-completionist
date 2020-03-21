@@ -6,6 +6,8 @@ import { Travel_Aether_Currents_ShB } from "./shb";
 
 export const Travel_Aether_Currents = function(parent) {
     const data = new DataGroup("Aether Currents", parent);
+    data.name_en = "Aether Currents";
+    data.name_fr = "Vents éthérés";
 
     data.columnConfig = [
         { header: "#", key: "name" },

@@ -139,7 +139,7 @@ const tasks = [
     	special: "Unlocked w/ Master Alchemist VIII"
     }, {
     	level: "80★★★",
-    	name: "Grade 3 Tinctures of Intelligence ",
+    	name: "Grade 3 Tinctures of Intelligence",
     	mat1: "2 Dried Hi-Ether",
     	mat2: "Fernleaf Lavender",
     	mat3: "Chiaroglow Aethersand",

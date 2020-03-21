@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Armorer"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a armorer.",
+        name: "Skyward Hammer I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a armorer.",
+        name: "Skyward Hammer II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a armorer.",
+        name: "Skyward Hammer III",
+        points: 10,
+        reward: "Title: Hammer of the Firmament"
+    }, {
+        description: "As a armorer, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Armorcraft",
+        points: 10,
+        reward: "Title: The Nest's Own Armorer"
+    },
 ];

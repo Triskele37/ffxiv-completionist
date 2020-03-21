@@ -132,6 +132,9 @@ const tasks = [
         name: "Lunar Barding",
         unlock: "Can be crafted by Weaver Recipe 70???"
     }, {
+        name: "Machinist Barding",
+        unlock: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips."
+    }, {
         name: "Mandervillian Barding",
         unlock: "Purchased from Gold Saucer Attendant for 150,000 MGP."
     }, {

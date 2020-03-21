@@ -10,7 +10,11 @@ import { Achievements_Battle_Treasure_Hunt } from "./treasure-hunt";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.AchievementKind.Name_en&string=Battle&columns=Name,Description,Points,Item.Name,Title.Name&page=2&limit=250
 
 export const Achievements_Battle = function(parent) {
-    return new DataGroup("Battle", parent).initializeSubGroups([
+    const data = new DataGroup("Battle", parent);
+    data.name_en = "Battle";
+    data.name_fr = "Combats";
+
+    data.initializeSubGroups([
         Achievements_Battle_Battle,
         Achievements_Battle_Dungeons,
         Achievements_Battle_Trials,
@@ -18,4 +22,6 @@ export const Achievements_Battle = function(parent) {
         Achievements_Battle_The_Hunt,
         Achievements_Battle_Treasure_Hunt,
     ]);
+
+    return data;
 };

@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Alchemist"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a alchemist.",
+        name: "Skyward Science I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a alchemist.",
+        name: "Skyward Science II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a alchemist.",
+        name: "Skyward Science III",
+        points: 10,
+        reward: "Title: Panacea of the Firmament"
+    }, {
+        description: "As a alchemist, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Alchemy",
+        points: 10,
+        reward: "Title: The Nest's Own Alchemist"
+    },
 ];

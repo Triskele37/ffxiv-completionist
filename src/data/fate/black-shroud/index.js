@@ -6,12 +6,20 @@ import { FATEs_The_Black_Shroud_North_Shroud } from "./north-shroud";
 import { FATEs_The_Black_Shroud_South_Shroud } from "./south-shroud";
 
 export const FATEs_The_Black_Shroud = function(parent) {
-    return new DataGroup("The Black Shroud", parent).initializeSubGroups([
+    const data = new DataGroup("The Black Shroud", parent);
+    data.name_en = "The Black Shroud";
+    data.name_fr = "Sombrelinceul";
+
+    data.initializeSubGroups([
         FATEs_The_Black_Shroud_Central_Shroud,
         FATEs_The_Black_Shroud_East_Shroud,
         FATEs_The_Black_Shroud_North_Shroud,
         FATEs_The_Black_Shroud_South_Shroud,
-	]).initializeTasks(tasks);
+	]);
+
+    data.initializeTasks(tasks);
+
+    return data;
 };
 
 const tasks = [

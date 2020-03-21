@@ -97,32 +97,6 @@ const menuTemplate = [
             isMac ? { role: 'close' } : { role: 'quit' }
         ]
     },
-    // { role: 'editMenu' }
-    {
-        label: 'Edit',
-        submenu: [
-            { role: 'undo' },
-            { role: 'redo' },
-            { type: 'separator' },
-            { role: 'cut' },
-            { role: 'copy' },
-            { role: 'paste' },
-            ...(isMac ? [
-                { role: 'pasteAndMatchStyle' },
-                { role: 'delete' },
-                { type: 'separator' },
-                {
-                    label: 'Speech',
-                    submenu: [
-                        { role: 'startspeaking' },
-                        { role: 'stopspeaking' }
-                    ]
-                }
-            ] : [
-                { role: 'delete' },
-            ])
-        ]
-    },
     // { role: 'viewMenu' }
     {
         label: 'View',

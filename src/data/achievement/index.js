@@ -13,6 +13,9 @@ import { Achievements_Legacy } from "./legacy";
 
 export const Achievements = function(parent) {
 	const data = new DataGroup("Achievements", parent);
+	data.name_en = "Achievements";
+	data.name_fr = "Hauts Faits";
+
 	data.columnConfig = AchievementColumnConfig;
 
 	data.initializeSubGroups([

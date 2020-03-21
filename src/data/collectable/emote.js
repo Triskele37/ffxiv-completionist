@@ -58,6 +58,10 @@ const tasks = [
         command: "/boxstep",
         unlock: "MogStation: 7 USD / 4.9 EUR"
     }, {
+        name: "Bread",
+        command: "/bread",
+        unlock: ""
+    }, {
         name: "Breath Control",
         command: "/breathcontrol",
         unlock: "Achievement \"Dear Leader I\""
@@ -178,6 +182,10 @@ const tasks = [
         command: "/imperialsalute",
         unlock: "Level 45 main quest \"Acting the Part\""
     }, {
+        name: "Insist",
+        command: "/insist",
+        unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
+    }, {
         name: "Lali-ho",
         command: "/laliho",
         unlock: "Sidequest chain continuing on form lvl 78 Aether Current quest"
@@ -233,6 +241,10 @@ const tasks = [
         name: "Push-ups",
         command: "/pushups",
         unlock: "Achievement \"Dear Leader I\""
+    }, {
+        name: "Read",
+        command: "/read",
+        unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
     }, {
         name: "Red Ranger Pose A",
         command: "/redrangerposea, /rrpa",

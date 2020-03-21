@@ -11,7 +11,11 @@ import { Achievements_Character_Gold_Saucer } from "./gold-saucer";
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Character = function(parent) {
-    return new DataGroup("Character", parent).initializeSubGroups([
+    const data = new DataGroup("Character", parent);
+    data.name_en = "Character";
+    data.name_fr = "Personnage";
+
+    data.initializeSubGroups([
         Achievements_Character_General,
         Achievements_Character_Disciple_of_War,
         Achievements_Character_Disciple_of_Magic,
@@ -20,4 +24,6 @@ export const Achievements_Character = function(parent) {
         Achievements_Character_Commendation,
         Achievements_Character_Gold_Saucer,
     ]);
+
+    return data;
 };

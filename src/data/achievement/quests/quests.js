@@ -914,6 +914,11 @@ const tasks = [
         description: "Complete the quest \"Don't Do the Dewprism.\"",
         reward: "Title: Soboro",
     }, {
+        name: "Second Chances",
+        points: "5",
+        description: "Complete the quest \"To Thaw a Frozen Heart.\"",
+        reward: "-",
+    }, {
         name: "Live to Serve",
         points: "10",
         description: "Complete the quest \"In Bad Taste.\"",

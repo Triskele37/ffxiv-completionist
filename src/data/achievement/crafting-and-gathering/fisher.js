@@ -265,6 +265,43 @@ const tasks = [
         points: 10,
         reward: "-"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a fisher.",
+        name: "Skyward Rod I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a fisher.",
+        name: "Skyward Rod II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a fisher.",
+        name: "Skyward Rod III",
+        points: 10,
+        reward: "Title: Rod of the Firmament"
+    }, {
+        description: "Catch 5 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+        name: "Dauntless Treader I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Catch 50 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+        name: "Dauntless Treader II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Catch 100 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+        name: "Dauntless Treader III",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "As a fisher, submit 300 artisanal seafood items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Angling",
+        points: 10,
+        reward: "Title: The Nest's Own Fisher"
+    },
     //----------------------------------------------------------------------------- Ocean Fishing - Catches
     {
         description: "Catch every type of fish in outer Galadion Bay when a spectral current is not present.",

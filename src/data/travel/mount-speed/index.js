@@ -11,6 +11,8 @@ import { Travel_Mount_Speed_Others } from "./others";
 
 export const Travel_Mount_Speed = function(parent) {
     const data = new DataGroup("Mount Speed", parent);
+    data.name_en = "Mount Speed";
+    data.name_fr = "Vitesse des Montures";
 
     data.columnConfig = [
         { header: "Area Name", key: "name" },

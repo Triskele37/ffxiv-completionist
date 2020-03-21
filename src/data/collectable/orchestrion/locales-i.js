@@ -338,7 +338,7 @@ const tasks = [
     }, {
         number: 67,
         name: "Seven Hundred Seventy-Seven Whiskers",
-        method: "Avalailable for exchange in Dhoro Iloh.",
+        method: "Available for exchange in Dhoro Iloh.",
         unlock: "Bought from Gyosho for 3 Namazu Koban."
     }, {
         number: 68,
@@ -350,5 +350,20 @@ const tasks = [
         name: "Harmony",
         method: "Available for exchange.",
         unlock: "Exchanged at a Scrip Exchange for 200 Yellow Crafters' Scrips."
+    }, {
+        number: 70,
+        name: "Order Yet Undeciphered",
+        method: "Available in The Firmament.",
+        unlock: "Obtained from Kupo of Fortune in the Firmament."
+    }, {
+        number: 71,
+        name: "Paradise Found",
+        method: "Available in The Firmament.",
+        unlock: "Obtained from Kupo of Fortune in the Firmament."
+    }, {
+        number: 72,
+        name: "Fealty",
+        method: "Available in The Firmament.",
+        unlock: "Obtained from Kupo of Fortune in the Firmament."
     },
 ];

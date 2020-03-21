@@ -8,6 +8,9 @@ import { FATEs_Eureka_Hydatos } from "./hydatos";
 
 export const FATEs_Eureka = function(parent) {
     const data = new DataGroup("Eureka", parent);
+    data.name_en = "Eureka";
+    data.name_fr = "Euréka";
+
     data.columnConfig = EurekaColumnConfig;
 
     data.initializeSubGroups([

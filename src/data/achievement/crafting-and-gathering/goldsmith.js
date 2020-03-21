@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Goldsmith"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a goldsmith.",
+        name: "Skyward Gemstone I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a goldsmith.",
+        name: "Skyward Gemstone II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a goldsmith.",
+        name: "Skyward Gemstone III",
+        points: 10,
+        reward: "Title: Jewel of the Firmament"
+    }, {
+        description: "As a goldsmith, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Gemcraft",
+        points: 10,
+        reward: "Title: The Nest's Own Goldsmith"
+    },
 ];

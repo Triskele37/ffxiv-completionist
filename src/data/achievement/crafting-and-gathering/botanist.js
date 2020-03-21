@@ -173,4 +173,41 @@ const tasks = [
         points: 10,
         reward: "Title: Master Botanist"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a botanist.",
+        name: "Skyward Scythe I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a botanist.",
+        name: "Skyward Scythe II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a botanist.",
+        name: "Skyward Scythe III",
+        points: 10,
+        reward: "Title: Hatchet of the Firmament"
+    }, {
+        description: "Mine 50 clouded mature tree or lush vegetation.",
+        name: "With Scythes Unclouded I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Mine 500 clouded mature tree or lush vegetation.",
+        name: "With Scythes Unclouded II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Mine 1000 clouded mature tree or lush vegetation.",
+        name: "With Scythes Unclouded III",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "As a botanist, submit 50,000 expert recipe materials for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Botany",
+        points: 10,
+        reward: "Title: The Nest's Own Botanist"
+    },
 ];

@@ -14,7 +14,11 @@ import { Achievements_Items_Eureka_Weapons } from "./eureka-weapons";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Items = function(parent) {
-    return new DataGroup("Items", parent).initializeSubGroups([
+    const data = new DataGroup("Items", parent);
+    data.name_en = "Items";
+    data.name_fr = "d'Objets";
+
+    data.initializeSubGroups([
         Achievements_Items_Items,
         Achievements_Items_Currency,
         Achievements_Items_Desynthesis,
@@ -26,4 +30,6 @@ export const Achievements_Items = function(parent) {
         Achievements_Items_Deep_Dungeon_Weapons,
         Achievements_Items_Eureka_Weapons,
     ]);
+
+    return data;
 };

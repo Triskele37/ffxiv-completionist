@@ -232,6 +232,6 @@
 
 <script>
     export default {
-        name: 'version-0-0-3',
+        name: 'version-1-0-0',
     }
 </script>

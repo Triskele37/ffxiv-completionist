@@ -173,4 +173,41 @@ const tasks = [
         points: 10,
         reward: "Title: Master Miner"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a miner.",
+        name: "Skyward Sledgehammer I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a miner.",
+        name: "Skyward Sledgehammer II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a miner.",
+        name: "Skyward Sledgehammer III",
+        points: 10,
+        reward: "Title: Pick of the Firmament"
+    }, {
+        description: "Mine 50 clouded mineral deposits or rocky outcrops.",
+        name: "With Mines Unclouded I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Mine 500 clouded mineral deposits or rocky outcrops.",
+        name: "With Mines Unclouded II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Mine 1000 clouded mineral deposits or rocky outcrops.",
+        name: "With Mines Unclouded III",
+        points: 10,
+        reward: "-"
+    }, {
+        description: "As a miner, submit 50,000 expert recipe materials for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Mining",
+        points: 10,
+        reward: "Title: The Nest's Own Miner"
+    },
 ];

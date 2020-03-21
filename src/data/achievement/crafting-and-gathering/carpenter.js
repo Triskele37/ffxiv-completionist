@@ -113,4 +113,26 @@ const tasks = [
         points: 10,
         reward: "Title: Master Carpenter"
     },
+    //----------------------------------------------------------------------------- Ishgardian Restoration
+    {
+        description: "Earn 50,000 points toward your skyward score as a carpenter.",
+        name: "Skyward Saw I",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 150,000 points toward your skyward score as a carpenter.",
+        name: "Skyward Saw II",
+        points: 5,
+        reward: "-"
+    }, {
+        description: "Earn 500,000 points toward your skyward score as a carpenter.",
+        name: "Skyward Saw III",
+        points: 10,
+        reward: "Title: Frame of the Firmament"
+    }, {
+        description: "As a carpenter, craft and submit 100 expert recipe items for the second phase of the Ishgardian Restoration.",
+        name: "The Height of Carpentry",
+        points: 10,
+        reward: "Title: The Nest's Own Carpenter"
+    },
 ];

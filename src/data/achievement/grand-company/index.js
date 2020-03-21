@@ -8,10 +8,16 @@ import { Achievements_Grand_Company_Immortal_Flames } from "./immortal-flames";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Grand%20Company&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Achievements_Grand_Company = function(parent) {
-    return new DataGroup("Grand Company", parent).initializeSubGroups([
+    const data = new DataGroup("Grand Company", parent);
+    data.name_en = "Grand Company";
+    data.name_fr = "Grandes Compagnies";
+
+    data.initializeSubGroups([
         Achievements_Grand_Company_Grand_Company,
         Achievements_Grand_Company_Maelstrom,
         Achievements_Grand_Company_Order_of_the_Twin_Adder,
         Achievements_Grand_Company_Immortal_Flames,
     ]);
+
+    return data;
 };
