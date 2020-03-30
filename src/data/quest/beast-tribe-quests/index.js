@@ -19,13 +19,13 @@ export const Quests_Beast_Tribe = function(parent) {
     data.columnConfig = [
         {
             header: "Level",
-            key: "level",
+            key: "Level",
             filterable: true,
             centered: true,
         },
-        { header: "Name", key: "name" },
-        { header: "NPC", key: "npc" },
-        { header: "Reputation", key: "reputation", filterable: true },
+        { header: "Name", key: "Name" },
+        { header: "NPC", key: "Npc" },
+        { header: "Reputation", key: "Reputation", filterable: true },
         { header: "Type", key: "type", filterable: true },
     ];
 

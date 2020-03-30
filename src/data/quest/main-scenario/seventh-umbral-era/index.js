@@ -17,9 +17,6 @@ https://xivapi.com/search?indexes=Quest&filters=JournalGenreTargetID=1&columns=I
 
 ???: api contains 2 "Call of the Sea"s, app has 3
 ???: api contains 8 "Close to Home"s, app has 3
-spelling:
-	api > All upon the Watchtowers, app > All Upon the Watchtowers, api matches game
-	api > All by Ourselves, app > All By Ourselves, api matches game
 */
 
 const tasks = [

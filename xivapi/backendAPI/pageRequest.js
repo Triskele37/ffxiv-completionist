@@ -17,7 +17,7 @@ module.exports = async function(xivApiUrl) {
             console.log(`Page ${page}/${data.Pagination.PageTotal}`);
 
             // Finish if there is no next page
-            if(!data.Pagination.PageNext) done = true;
+            if(data.Pagination.Page === data.Pagination.PageTotal) done = true;
         }
         catch(e) {
             console.error(e);
