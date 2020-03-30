@@ -1,13 +1,27 @@
+import { eStore } from "../store/electronStore";
+
 export class Task {
     name;
     _parent;
 
+    language = eStore.get('lang') || 'en';
     completionFlag = 'N';
 
     constructor(task, parent) {
         // Map properties of task to this class
         const keys = Object.keys(task);
-        keys.forEach((key) => this[key] = task[key]);
+        keys.forEach((key) => {
+            this[key] = task[key];
+
+            // Create a getter for this property to aid in localization
+            if(key.includes('_en')) {
+                const nonLocalizedKey = key.replace('_en', '');
+
+                Object.defineProperty(this, nonLocalizedKey, {
+                    get: () => this[`${nonLocalizedKey}_${this.language}`]
+                });
+            }
+        });
 
         // Attach parent
         this._parent = parent;
@@ -32,10 +46,7 @@ export class Task {
     }
 
     get _storageKey() {
-        return this.name
-            .toLowerCase()
-            .replace(/ /g, '-')
-            .replace(/[^a-z0-9-]/g, '');
+        return this.ID;
     }
 
     get _fullStorageKey() {

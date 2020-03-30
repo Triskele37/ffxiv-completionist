@@ -31,6 +31,42 @@ const tasks = [
     },
     {
         level: "61",
+        name: "Gaganaskin Bush Hat",
+        mat1: "2 Gagana Leather",
+        mat2: "Bloodhempen Cloth",
+        mat3: "Rose Gold Nugget",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Earth Crystal, 2 Wind Crystal",
+        special: "Buyable, Collectable"
+    },
+    {
+        level: "61",
+        name: "Gaganaskin Jacket of Aiming",
+        mat1: "3 Gagana Leather",
+        mat2: "Bloodhempen Cloth",
+        mat3: "Bloodhempen Yarn",
+        mat4: "Koppranickel Nugget",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Earth Crystal, 2 Wind Crystal",
+        special: "Buyable, Collectable"
+    },
+    {
+        level: "61",
+        name: "Gaganaskin Vest",
+        mat1: "2 Gagana Leather",
+        mat2: "Bloodhempen Cloth",
+        mat3: "Bloodhempen Yarn",
+        mat4: "Rose Gold Nugget",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Earth Crystal, 2 Wind Crystal",
+        special: "Buyable, Levequest"
+    },
+    {
+        level: "61",
         name: "Gaganaskin Gloves of Aiming",
         mat1: "2 Gagana Leather",
         mat2: "Koppranickel Nugget",
@@ -40,6 +76,30 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Earth Crystal, 2 Wind Crystal",
         special: "Buyable"
+    },
+    {
+        level: "61",
+        name: "Gaganaskin Halfgloves",
+        mat1: "2 Gagana Leather",
+        mat2: "Bloodhempen Yarn",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Earth Crystal, 2 Wind Crystal",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "61",
+        name: "Gaganaskin Gloves",
+        mat1: "2 Gagana Leather",
+        mat2: "Amphipter Leather",
+        mat3: "Bloodhempen Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Earth Crystal, 2 Wind Crystal",
+        special: "Buyable, Collectable"
     },
     {
         level: "61",
@@ -124,66 +184,6 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Earth Crystal, 2 Wind Crystal",
         special: "Buyable"
-    },
-    {
-        level: "61",
-        name: "Gaganaskin Bush Hat",
-        mat1: "2 Gagana Leather",
-        mat2: "Bloodhempen Cloth",
-        mat3: "Rose Gold Nugget",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
-    },
-    {
-        level: "61",
-        name: "Gaganaskin Jacket of Aiming",
-        mat1: "3 Gagana Leather",
-        mat2: "Bloodhempen Cloth",
-        mat3: "Bloodhempen Yarn",
-        mat4: "Koppranickel Nugget",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
-    },
-    {
-        level: "61",
-        name: "Gaganaskin Vest",
-        mat1: "2 Gagana Leather",
-        mat2: "Bloodhempen Cloth",
-        mat3: "Bloodhempen Yarn",
-        mat4: "Rose Gold Nugget",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
-    },
-    {
-        level: "61",
-        name: "Gaganaskin Halfgloves",
-        mat1: "2 Gagana Leather",
-        mat2: "Bloodhempen Yarn",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
-    },
-    {
-        level: "61",
-        name: "Gaganaskin Gloves",
-        mat1: "2 Gagana Leather",
-        mat2: "Amphipter Leather",
-        mat3: "Bloodhempen Yarn",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
     },
     {
         level: "61",

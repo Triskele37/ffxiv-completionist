@@ -7,6 +7,18 @@ export const Crafting_Log_Goldsmith_Level_Based_51_55 = function(parent) {
 const tasks = [
     {
         level: "51",
+        name: "Tiger's Eye",
+        mat1: "3 Raw Tiger's Eye",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal",
+        special: "Ingredient (GSM, LTW, BSM)"
+    },
+    {
+        level: "51",
         name: "Agate",
         mat1: "3 Raw Agate",
         mat2: "Basilisk Whetstone",
@@ -31,90 +43,6 @@ const tasks = [
     },
     {
         level: "51",
-        name: "Mythrite Rapier",
-        mat1: "Mythrite Nugget",
-        mat2: "Cedar Lumber",
-        mat3: "2 Cobalt Ingot",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
-        name: "Agate Ring of Fending",
-        mat1: "Agate",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
-        name: "Agate Ring of Slaying",
-        mat1: "Agate",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
-        name: "Agate Ring of Aiming",
-        mat1: "Agate",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable, Collectable"
-    },
-    {
-        level: "51",
-        name: "Agate Ring of Casting",
-        mat1: "Agate",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
-        name: "Agate Ring of Healing",
-        mat1: "Agate",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Buyable, Collectable"
-    },
-    {
-        level: "51",
-        name: "Tiger's Eye",
-        mat1: "3 Raw Tiger's Eye",
-        mat2: "Basilisk Whetstone",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal",
-        special: "Ingredient (GSM, LTW, BSM)"
-    },
-    {
-        level: "51",
         name: "Yeti Staff",
         mat1: "Cedar Lumber",
         mat2: "2 Yeti Fang",
@@ -124,6 +52,18 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Wind Crystal, 2 Fire Crystal",
         special: "Buyable, Collectable, Levequest, Provisioning"
+    },
+    {
+        level: "51",
+        name: "Mythrite Rapier",
+        mat1: "Mythrite Nugget",
+        mat2: "Cedar Lumber",
+        mat3: "2 Cobalt Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable"
     },
     {
         level: "51",
@@ -292,6 +232,66 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Wind Crystal, 2 Fire Crystal",
         special: "Buyable"
+    },
+    {
+        level: "51",
+        name: "Agate Ring of Fending",
+        mat1: "Agate",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable"
+    },
+    {
+        level: "51",
+        name: "Agate Ring of Slaying",
+        mat1: "Agate",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable"
+    },
+    {
+        level: "51",
+        name: "Agate Ring of Aiming",
+        mat1: "Agate",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable, Collectable"
+    },
+    {
+        level: "51",
+        name: "Agate Ring of Casting",
+        mat1: "Agate",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable"
+    },
+    {
+        level: "51",
+        name: "Agate Ring of Healing",
+        mat1: "Agate",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Fire Crystal",
+        special: "Buyable, Collectable"
     },
     {
         level: "52",

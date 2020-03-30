@@ -5,6 +5,7 @@
         <h2>Functionality</h2>
         <ul>
             <li>Added ability to customize location of save file</li>
+            <li>Implemented preliminary localization (currently only works on achievements)</li>
             <li>Fixed Crafting Logs Item column being a filter instead of search</li>
             <li>Various import fixes</li>
         </ul>

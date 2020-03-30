@@ -1,6 +1,7 @@
 import { app, Menu } from "electron";
 
 import { moveStoreLocation } from "./moveStoreLocation";
+import { changeLanguage } from "./changeLanguage";
 
 // Determine environment
 const isMac = process.platform === 'darwin';
@@ -69,6 +70,10 @@ const SETTINGS_MENU = (mainWindow) => ({
         {
             label: 'Change storage location',
             click: moveStoreLocation(mainWindow)
+        },
+        {
+            label: 'Change Language',
+            click: changeLanguage(mainWindow)
         }
     ]
 });

@@ -1,12 +1,12 @@
 export const AchievementColumnConfig = [
-    { header: "Name", key: "name", },
-    { header: "Description", key: "description" },
+    { header: "Name", key: "Name", },
+    { header: "Description", key: "Description" },
     {
         header: "Points",
-        key: "points",
+        key: "Points",
         filterable: true,
         filterType: "number",
         centered: true
     },
-    { header: "Reward", key: "reward" }
+    { header: "Reward", key: "Reward" }
 ];

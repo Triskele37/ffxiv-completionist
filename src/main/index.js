@@ -39,6 +39,8 @@ function createWindow () {
     mainWindow.on('closed', () => {
         mainWindow = null;
     });
+
+    setupMenu(mainWindow);
 }
 
 // Initial entry point
@@ -53,5 +55,3 @@ app.on('window-all-closed', () => {
 app.on('activate', () => {
     if (mainWindow === null) createWindow();
 });
-
-setupMenu(mainWindow);
