@@ -7,19 +7,19 @@ export const FATEs_Coerthas_Central_Highlands = function(parent) {
 const tasks = [
     {
         level: "35",
-        name: "Twelve Ilms of Snow",
-        location: "Dragonhead (23,28)",
-        type: "Slay Enemies"
-    }, {
-        level: "35",
         name: "A Log Up",
         location: "Dragonhead (26,27)",
         type: "Defense"
     }, {
         level: "35",
-        name: "Gavial (FATE)",
+        name: "Gavial",
         location: "Dragonhead (24,23)",
         type: "Notorious Monster"
+    }, {
+        level: "35",
+        name: "Twelve Ilms of Snow",
+        location: "Dragonhead (23,28)",
+        type: "Slay Enemies"
     }, {
         level: "36",
         name: "Baa Baa Black Sheep",
@@ -52,13 +52,23 @@ const tasks = [
         type: "Slay Enemies"
     }, {
         level: "38",
-        name: "Svara's Fear",
-        location: "Providence Point (26,8)",
+        name: "Simply Red",
+        location: "Providence Point (24,13)",
         type: "Slay Enemies"
     }, {
         level: "38",
-        name: "Simply Red",
-        location: "Providence Point (24,13)",
+        name: "Spring Forward, Fall Back",
+        location: "Providence Point (31,7)",
+        type: "Gather Items"
+    }, {
+        level: "38",
+        name: "Svara's Fall",
+        location: "Providence Point (26,7)",
+        type: "Notorious Monster"
+    }, {
+        level: "38",
+        name: "Svara's Fear",
+        location: "Providence Point (26,8)",
         type: "Slay Enemies"
     }, {
         level: "38",
@@ -67,19 +77,14 @@ const tasks = [
         type: "Escort"
     }, {
         level: "38",
-        name: "Spring Forward, Fall Back",
-        location: "Providence Point (31,7)",
-        type: "Gather Items"
+        name: "Svara's Fury",
+        location: "Dragonhead (26,15)",
+        type: "Notorious Monster"
     }, {
         level: "38",
         name: "The Grey",
         location: "Providence Point (27,11)",
         type: "Escort"
-    }, {
-        level: "38",
-        name: "Svara's Fall",
-        location: "Providence Point (26,7)",
-        type: "Notorious Monster"
     }, {
         level: "39",
         name: "A Freeze Is Coming",
@@ -92,6 +97,11 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "39",
+        name: "Judge, Jury, and Executioner",
+        location: "Whitebrim (18,17)",
+        type: "Slay Enemies"
+    }, {
+        level: "39",
         name: "Roc of Ages",
         location: "Whitebrim (21,17)",
         type: "Notorious Monster"
@@ -101,19 +111,9 @@ const tasks = [
         location: "Whitebrim (15,19)",
         type: "Notorious Monster"
     }, {
-        level: "39",
-        name: "Judge, Jury, and Executioner",
-        location: "Whitebrim (18,17)",
-        type: "Slay Enemies"
-    }, {
         level: "40",
-        name: "The Taste of Fear",
-        location: "Snowcloak (5,22)",
-        type: "Notorious Monster"
-    }, {
-        level: "40",
-        name: "Riddle Me This",
-        location: "Whitebrim (9,19)",
+        name: "Front and Center",
+        location: "Whitebrim (10,15)",
         type: "Slay Enemies"
     }, {
         level: "40",
@@ -122,24 +122,29 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "40",
-        name: "Front and Center",
-        location: "Whitebrim (10,15)",
-        type: "Slay Enemies"
-    }, {
-        level: "40",
         name: "If This Wall Could Talk",
         location: "Whitebrim (13,18)",
         type: "Slay Enemies"
     }, {
-        level: "45",
-        name: "Tower of Power",
-        location: "Boulder Downs (10,28)",
+        level: "40",
+        name: "Riddle Me This",
+        location: "Whitebrim (9,19)",
         type: "Slay Enemies"
+    }, {
+        level: "40",
+        name: "The Taste of Fear",
+        location: "Snowcloak (5,22)",
+        type: "Notorious Monster"
     }, {
         level: "45",
         name: "In the Saint's Wake",
         location: "Boulder Downs (13,23)",
         type: "Notorious Monster"
+    }, {
+        level: "45",
+        name: "Tower of Power",
+        location: "Boulder Downs (10,28)",
+        type: "Slay Enemies"
     }, {
         level: "46",
         name: "The Bigger They Are",
@@ -147,13 +152,13 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "47",
-        name: "What's On Your Mind",
-        location: "Boulder Downs (9,27)",
+        name: "Turn off Your Hearthlight",
+        location: "Boulder Downs (19,30)",
         type: "Slay Enemies"
     }, {
         level: "47",
-        name: "Turn off Your Hearthlight",
-        location: "Boulder Downs (19,30)",
+        name: "What's On Your Mind",
+        location: "Boulder Downs (9,27)",
         type: "Slay Enemies"
     }, {
         level: "48",
@@ -162,8 +167,8 @@ const tasks = [
         type: "Slay Enemies"
     }, {
         level: "49",
-        name: "The Storm Caller",
-        location: "Natalan (33,19)",
+        name: "Inspector Hatchet",
+        location: "Natalan (33,23)",
         type: "Notorious Monster"
     }, {
         level: "49",
@@ -172,8 +177,8 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "49",
-        name: "Inspector Hatchet",
-        location: "Natalan (33,23)",
+        name: "The Storm Caller",
+        location: "Natalan (33,19)",
         type: "Notorious Monster"
     }, {
         level: "50",

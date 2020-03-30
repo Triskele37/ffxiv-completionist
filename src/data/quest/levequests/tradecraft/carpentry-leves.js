@@ -378,7 +378,7 @@ const tasks = [
     //------------------------------------------------------------------ 50-58
     {
         level: "50",
-        name: "So You Think You Can Lance",
+        name: "So You Think You Can Lance?",
         zone: "Ishgard",
         location: "Foundation",
         npc: "Eloin"

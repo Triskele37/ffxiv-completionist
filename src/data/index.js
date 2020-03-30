@@ -1,5 +1,5 @@
 import { DataGroup } from "./DataGroup";
-import { applyStoreToData } from "./storageUtils";
+import { applyStoreToData } from "../store/electronStore";
 
 import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";

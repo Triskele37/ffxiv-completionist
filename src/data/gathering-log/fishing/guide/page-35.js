@@ -6,7 +6,7 @@ export const Gathering_Log_Fishing_Guide_Page_35 = function(parent) {
 
 const tasks = [
     {
-        name: "Spider Crab",
+        name: "Net Crawler",
         iLvl: "1",
         primeLocation: "The Northern Strait of Merlthor",
         fishingHoles: "The Northern Strait of Merlthor",

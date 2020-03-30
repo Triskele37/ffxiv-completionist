@@ -483,7 +483,7 @@ const tasks = [
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Buy from Enie"
+        unlock: "Purchased from Enie in The Firmament for 500 Skybuilders' Scrips"
     }, {
         name: "Lolorito Nanarito",
         rarity: "★★",
@@ -1083,7 +1083,7 @@ const tasks = [
         rarity: "★★★",
         type: "None",
         opponent: "Hetsukaze",
-        unlock: "Drops from Crystalline Provenance  FATE in Eureka Hydatos"
+        unlock: "Drops from Crystalline Provenance FATE in Eureka Hydatos"
     }, {
         name: "Qitian Dasheng",
         rarity: "★★★",

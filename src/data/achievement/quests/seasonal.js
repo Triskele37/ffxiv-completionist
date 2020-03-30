@@ -453,5 +453,10 @@ const tasks = [
     	points: "10",
     	description: "Complete the quest “Pretty in Peaches.”",
     	reward: ""
-    },
+    }, {
+		name: "Egg-hunter and Egg-hunted",
+		points: "10",
+		description: "Complete the quest “A Procession Eggstraordinaire.”",
+		reward: ""
+	},
 ];

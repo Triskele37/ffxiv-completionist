@@ -6,6 +6,7 @@ import { Collectables_Emotes } from "./emote";
 import { Collectables_Minion_Guide } from "./minion";
 import { Collectables_Mount_Guide } from "./mount";
 import { Collectables_Orchestrion_List } from "./orchestrion";
+import { Collectables_Parasols } from "./parasols";
 import { Collectables_Relic_Gear } from "./relic-gear";
 import { Collectables_Triple_Triad_Card_List } from "./tripletriad-card";
 import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
@@ -18,6 +19,7 @@ export const Collectables = function(parent) {
         Collectables_Minion_Guide,
         Collectables_Mount_Guide,
         Collectables_Orchestrion_List,
+        Collectables_Parasols,
         Collectables_Relic_Gear,
         Collectables_Triple_Triad_Card_List,
         Collectables_Triple_Triad_Opponents,

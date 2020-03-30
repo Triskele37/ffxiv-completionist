@@ -6,99 +6,115 @@ export const Gathering_Log_Harvesting_Special_Ishgard_Restoration = function(par
 
 const tasks = [
     {
-        level: "15",
-        name: "Skybuilders' Hemp",
-        zone: "Lower La Noscea",
-        closestAetheryte: "Moraby Drydocks",
-        coordinates: "(x24,y26)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Hemp",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "25",
-        name: "Skybuilders' Toad",
-        zone: "Western Thanalan",
-        closestAetheryte: "Horizon",
-        coordinates: "(x17,y15)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Flax",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "45",
-        name: "Skybuilders' Flax",
-        zone: "South Shroud",
-        closestAetheryte: "Camp Tranquil",
-        coordinates: "(x16,y32)",
+        level: "60",
+        name: "Grade 2 Skybuilders' Tea Leaves",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "55",
-        name: "Skybuilders' Tea Leaves",
-        zone: "The Sea of Clouds",
-        closestAetheryte: "Camp Cloudtop",
-        coordinates: "(x15,y36)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "55",
-        name: "Skybuilders' Straw",
-        zone: "The Dravanian Forelands",
-        closestAetheryte: "Anyx Trine",
-        coordinates: "(x18,y37)",
+        level: "60",
+        name: "Grade 2 Skybuilders' Straw",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "70",
-        name: "Skybuilders' Vine",
-        zone: "The Azim Steppe",
-        closestAetheryte: "Dhoro Iloh",
-        coordinates: "(x15,y15)",
+        name: "Grade 2 Skybuilders' Vine",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "70",
-        name: "Skybuilders' Cocoon",
-        zone: "Yanxia",
-        closestAetheryte: "Namai",
-        coordinates: "(x10,y36)",
+        name: "Grade 2 Skybuilders' Barbgrass",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "70",
-        name: "Skybuilders' Horsetail",
-        zone: "Yanxia",
-        closestAetheryte: "Namai",
-        coordinates: "(x10,y36)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "70",
-        name: "Skybuilders' Adder",
-        zone: "The Azim Steppe",
-        closestAetheryte: "Dhoro Iloh",
-        coordinates: "(x15,y15)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "75",
-        name: "Skybuilders' Cotton Boll",
-        zone: "Lakeland",
-        closestAetheryte: "The Ostall Imperative",
-        coordinates: "(x22,y24)",
+        name: "Grade 2 Skybuilders' Toad",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "80",
-        name: "Skybuilders' Wheat",
-        zone: "Amh Araeng",
-        closestAetheryte: "Twine",
-        coordinates: "(x21,y25)",
+        name: "Grade 2 Skybuilders' Wheat",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "80",
-        name: "Skybuilders' Dawn Lizard",
-        zone: "Amh Araeng",
-        closestAetheryte: "Twine",
-        coordinates: "(x21,y25)",
+        name: "Grade 2 Skybuilders' Cotton Boll",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80",
+        name: "Grade 2 Skybuilders' Adder",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Skybuilders' Umbral Earthcap",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Wheat",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Cotton Boll",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Dawn Lizard",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     },

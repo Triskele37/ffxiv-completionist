@@ -6,115 +6,131 @@ export const Gathering_Log_Mining_Special_Ishgard_Restoration = function(parent)
 
 const tasks = [
     {
-        level: "5",
-        name: "Skybuilders' Iron Ore",
-        zone: "Middle La Noscea",
-        closestAetheryte: "Summerford Farms",
-        coordinates: "(x24,y20)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Ore",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "35",
-        name: "Skybuilders' Electrum Ore",
-        zone: "Upper La Noscea",
-        closestAetheryte: "Camp Overlook -> Upper La Noscea",
-        coordinates: "(x9,y21)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Zinc Ore",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "35",
-        name: "Skybuilders' Rock Salt",
-        zone: "Upper La Noscea",
-        closestAetheryte: "Camp Overlook -> Upper La Noscea",
-        coordinates: "(x9,y21)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "45",
-        name: "Skybuilders' Spring Water",
-        zone: "Coerthas Central Highlands",
-        closestAetheryte: "Camp Dragonhead",
-        coordinates: "(x24,y13)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "55",
-        name: "Skybuilders' Dravanian Spring Water",
-        zone: "The Dravanian Forelands",
-        closestAetheryte: "Tail Feather",
-        coordinates: "(x30,y10)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Rock Salt",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "60",
-        name: "Skybuilders' Hardsilver Ore",
-        zone: "The Dravanian Hinterlands",
-        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
-        coordinates: "(x5,y27)",
+        name: "Grade 2 Skybuilders' Cobalt Ore",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "65",
-        name: "Skybuilders' Nightsteel Ore",
-        zone: "The Ruby Sea",
-        closestAetheryte: "Tamamizu",
-        coordinates: "(x11,y35)",
+        level: "60",
+        name: "Grade 2 Skybuilders' Asphaltum",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "65",
-        name: "Skybuilders' Ruby Sea Spring Water",
-        zone: "The Ruby Sea",
-        closestAetheryte: "Tamamizu",
-        coordinates: "(x11,y35)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "70",
-        name: "Skybuilders' Molybdenum Ore",
-        zone: "The Lochs",
-        closestAetheryte: "Porta Praetoria",
-        coordinates: "(x22,y15)",
+        level: "60",
+        name: "Grade 2 Skybuilders' Pigment",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "70",
-        name: "Skybuilders' Ala Mhigan Rock Salt",
-        zone: "The Lochs",
-        closestAetheryte: "Porta Praetoria",
-        coordinates: "(x22,y15)",
+        name: "Grade 2 Skybuilders' Mythrite Ore",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "75",
-        name: "Skybuilders' Truegold Ore",
-        zone: "Il Mheg",
-        closestAetheryte: "Pla Enni",
-        coordinates: "(x22,y9)",
+        level: "70",
+        name: "Grade 2 Skybuilders' Spring Water",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "75",
-        name: "Skybuilders' Highland Spring Water",
-        zone: "Il Mheg",
-        closestAetheryte: "Pla Enni",
-        coordinates: "(x22,y9)",
-        usage: "Ishgard Restoration",
-        special: ""
-    }, {
-        level: "80",
-        name: "Skybuilders' Reef Rock",
-        zone: "The Tempest",
-        closestAetheryte: "The Ondo Cups",
-        coordinates: "(x19,y14)",
+        level: "70",
+        name: "Grade 2 Skybuilders' Alumen",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "80",
-        name: "Skybuildres' Sea Salt",
-        zone: "The Tempest",
-        closestAetheryte: "The Ondo Cups",
-        coordinates: "(x19,y14)",
+        name: "Grade 2 Skybuilders' Darksteel Ore",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80",
+        name: "Grade 2 Skybuilders' Cloud-drop Water",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80",
+        name: "Grade 2 Skybuilders' Crystal-clear Rock Salt",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Cloudstone",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Skybuilders' Umbral Flarestone",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Spring Water",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Rock Salt",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     },

@@ -188,7 +188,7 @@ const tasks = [
     }, {
         name: "Cerberpup",
         method: "Purchased",
-        unlock: "Purchased for 1,200 Skybuilders' Scrips"
+        unlock: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips"
     }, {
         name: "Cherry Bomb",
         method: "Purchased",
@@ -675,12 +675,12 @@ const tasks = [
         unlock: "Dragonskin Treasure Map, The Aquapolis, or Bronze-trimmed Sacks from Palace of the Dead"
     }, {
         name: "Paissa Patissier",
-        method: "",
-        unlock: ""
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in The Firmament"
     }, {
         name: "Paissa Threadpuller",
-        method: "",
-        unlock: ""
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in The Firmament"
     }, {
         name: "Palico",
         method: "Quest Reward",

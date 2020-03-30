@@ -62,25 +62,25 @@ const tasks = [
     }, {
     	level: "50",
     	iLvlReq: "110",
-    	name: "The Final Coil of Bahumat - Turn 1",
+    	name: "The Final Coil of Bahamut - Turn 1",
     	roulette: "-",
     	unlock: "Fragments of Truth"
     }, {
     	level: "50",
     	iLvlReq: "115",
-    	name: "The Final Coil of Bahumat - Turn 2",
+    	name: "The Final Coil of Bahamut - Turn 2",
     	roulette: "-",
     	unlock: "Fragments of Truth"
     }, {
     	level: "50",
     	iLvlReq: "120",
-    	name: "The Final Coil of Bahumat - Turn 3",
+    	name: "The Final Coil of Bahamut - Turn 3",
     	roulette: "-",
     	unlock: "Fragments of Truth"
     }, {
     	level: "50",
     	iLvlReq: "123",
-    	name: "The Final Coil of Bahumat - Turn 4",
+    	name: "The Final Coil of Bahamut - Turn 4",
     	roulette: "-",
     	unlock: "Fragments of Truth"
     }, {

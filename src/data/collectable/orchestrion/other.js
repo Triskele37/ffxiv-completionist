@@ -283,12 +283,12 @@ const tasks = [
     }, {
         number: 56,
         name: "Stone and Steel",
-        method: "Exchange",
-        unlock: "Obtained from Kupo of Fortune in the Firmament."
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in The Firmament."
     }, {
         number: 57,
         name: "The Mendicant's Relish",
-        method: "Exchange",
-        unlock: "Obtained from Kupo of Fortune in the Firmament."
+        method: "Available for exchange in The Firmament",
+        unlock: "Bought from Enie in The Firmament for 1,200 Skybuilders' Scrips"
     },
 ];

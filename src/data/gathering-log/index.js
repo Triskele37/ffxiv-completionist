@@ -1,5 +1,7 @@
 import { DataGroup } from "../DataGroup";
 
+import { Gathering_Log_Folklore_Gathering_Books } from "./folklore-gathering-books";
+
 import { Gathering_Log_Mining } from "./mining";
 import { Gathering_Log_Quarrying } from "./quarrying";
 import { Gathering_Log_Logging } from "./logging";
@@ -10,6 +12,7 @@ import { Gathering_Log_Spearfishing } from "./spearfishing";
 
 export const Gathering_Log = function(parent) {
     return new DataGroup("Gathering Log", parent).initializeSubGroups([
+        Gathering_Log_Folklore_Gathering_Books,
         Gathering_Log_Mining,
         Gathering_Log_Quarrying,
         Gathering_Log_Logging,

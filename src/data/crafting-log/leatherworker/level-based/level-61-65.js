@@ -775,7 +775,7 @@ const tasks = [
     },
     {
         level: "65",
-        name: "Star Spinel Tricorne of Striking",
+        name: "Tigerskin Tricorne of Striking",
         mat1: "2 Tiger Leather",
         mat2: "Durium Nugget",
         mat3: "Koppranickel Ingot",

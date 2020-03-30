@@ -536,13 +536,13 @@ const tasks = [
         npc: "Eloin"
     }, {
         level: "56",
-        name: "Loaves the Fishes (L)",
+        name: "Loaves and Fishes (L)",
         zone: "Ishgard",
         location: "Foundation",
         npc: "Eloin"
     }, {
         level: "58",
-        name: "Lap of Luxury (L)",
+        name: "Luxury Spillover (L)",
         zone: "Ishgard",
         location: "Foundation",
         npc: "Eloin"

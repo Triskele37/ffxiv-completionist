@@ -47,7 +47,7 @@ const tasks = [
         type: "Slay Enemies"
     }, {
         level: "28",
-        name: "That Which Binds Us (FATE)",
+        name: "That Which Binds Us",
         location: "Alder Springs (17,28)",
         type: "Gather Items"
     }, {

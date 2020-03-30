@@ -1,11 +1,13 @@
 import { DataGroup } from "../../../DataGroup";
 
-import { Crafting_Log_Armorer_Ishgard_Restoration_Restoration } from "./restoration";
+import { Crafting_Log_Armorer_Ishgard_Restoration_Restoration_1 } from "./restoration-1";
+import { Crafting_Log_Armorer_Ishgard_Restoration_Restoration_2 } from "./restoration-2";
 import { Crafting_Log_Armorer_Ishgard_Restoration_Other } from "./other";
 
 export const Crafting_Log_Armorer_Ishgard_Restoration = function(parent) {
     return new DataGroup("Ishgard Restoration", parent).initializeSubGroups([
-        Crafting_Log_Armorer_Ishgard_Restoration_Restoration,
+        Crafting_Log_Armorer_Ishgard_Restoration_Restoration_1,
+        Crafting_Log_Armorer_Ishgard_Restoration_Restoration_2,
         Crafting_Log_Armorer_Ishgard_Restoration_Other,
     ]);
 };

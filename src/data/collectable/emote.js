@@ -58,10 +58,6 @@ const tasks = [
         command: "/boxstep",
         unlock: "MogStation: 7 USD / 4.9 EUR"
     }, {
-        name: "Bread",
-        command: "/bread",
-        unlock: ""
-    }, {
         name: "Breath Control",
         command: "/breathcontrol",
         unlock: "Achievement \"Dear Leader I\""
@@ -114,6 +110,10 @@ const tasks = [
         command: "/estretch",
         unlock: "MogStation: 7 USD / 4.9 EUR"
     }, {
+        name: "Eat Bread",
+        command: "/bread, /breakfast",
+        unlock: "Kupo of Fortune"
+    }, {
         name: "Egi Glamour",
         command: "/egiglamour",
         unlock: "Level 50 side quest \"An Egi by Any Other Name\""
@@ -150,6 +150,10 @@ const tasks = [
         command: "/golddance, /gdance",
         unlock: "Bought from the main counter in the Gold Saucer for 80,000 MPG"
     }, {
+        name: "Goobbue Do",
+        command: "/mysterymachine, /goobbuedo",
+        unlock: "MogStation: 7 USD / 4.9 EUR"
+    }, {
         name: "Gratuity",
         command: "/gratuity, /makeithail",
         unlock: "Level 70 side quest \"What a Wonder-full World\""
@@ -169,6 +173,10 @@ const tasks = [
         name: "Headache",
         command: "/headache",
         unlock: "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals"
+    }, {
+        name: "Heel Toe",
+        command: "/heeltoe",
+        unlock: "MogStation: 7 USD / 4.9 EUR"
     }, {
         name: "Hum",
         command: "/hum",
@@ -242,7 +250,7 @@ const tasks = [
         command: "/pushups",
         unlock: "Achievement \"Dear Leader I\""
     }, {
-        name: "Read",
+        name: "Read A Book",
         command: "/read",
         unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
     }, {

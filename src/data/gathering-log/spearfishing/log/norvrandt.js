@@ -80,5 +80,19 @@ const tasks = [
         location: "The Rak'tika Greatwood",
         type: "Spearfishing",
         req: ""
+    }, {
+        level: "70",
+        name: "Central Lake Tusi Mek'ta",
+        zone: "Norvrandt",
+        location: "The Rak'tika Greatwood",
+        type: "Spearfishing",
+        req: ""
+    }, {
+        level: "70",
+        name: "South Lake Tusi Mek'ta",
+        zone: "Norvrandt",
+        location: "The Rak'tika Greatwood",
+        type: "Spearfishing",
+        req: ""
     },
 ];

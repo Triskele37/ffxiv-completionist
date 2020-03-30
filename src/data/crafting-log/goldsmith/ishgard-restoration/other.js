@@ -105,4 +105,16 @@ const tasks = [
         catalysts: "3 Wind Crystal, 2 Fire Crystal",
         special: "Ishgard"
     },
+    {
+        level: "80★★★",
+        name: "Grade 2 Expert Skybuilders' Practice Materials",
+        mat1: "Apprentice's Practice Materials",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Wind Crystal, 2 Ice Crystal",
+        special: "Crafted from Master 8 Books"
+    },
 ];

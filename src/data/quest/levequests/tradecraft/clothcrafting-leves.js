@@ -542,7 +542,7 @@ const tasks = [
         npc: "Eloin"
     }, {
         level: "58",
-        name: "Blinding Veil of Vigilance (L)",
+        name: "Blinded Veil of Vigilance (L)",
         zone: "Ishgard",
         location: "Foundation",
         npc: "Eloin"

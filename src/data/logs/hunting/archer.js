@@ -8,7 +8,7 @@ const tasks = [
     {
         name: "Archer 01",
         rank: "1",
-        mob: "Little Ladybug x3",
+        mob: "Little Ladybug x4",
         zone: "Central Shroud",
         location: "Jadeite Thick"
     }, {

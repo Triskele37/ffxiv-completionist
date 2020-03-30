@@ -353,17 +353,17 @@ const tasks = [
     }, {
         number: 70,
         name: "Order Yet Undeciphered",
-        method: "Available in The Firmament.",
-        unlock: "Obtained from Kupo of Fortune in the Firmament."
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in the Firmament."
     }, {
         number: 71,
         name: "Paradise Found",
-        method: "Available in The Firmament.",
-        unlock: "Obtained from Kupo of Fortune in the Firmament."
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in the Firmament."
     }, {
         number: 72,
         name: "Fealty",
-        method: "Available in The Firmament.",
-        unlock: "Obtained from Kupo of Fortune in the Firmament."
+        method: "Kupo of Fortune",
+        unlock: "Prize from Kupo of Fortune in the Firmament."
     },
 ];

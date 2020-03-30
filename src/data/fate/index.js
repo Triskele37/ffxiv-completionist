@@ -8,7 +8,6 @@ import { FATEs_Coerthas } from "./coerthas";
 import { FATEs_Mor_Dhona } from "./mor-dhona";
 import { FATEs_Abalathias_Spine } from "./abalathias-spine";
 import { FATEs_Dravania } from "./dravania";
-import { FATEs_The_Diadem } from "./diadem";
 import { FATEs_Gyr_Abania } from "./gyr-abania";
 import { FATEs_Othard } from "./othard";
 import { FATEs_Eureka } from "./eureka";
@@ -31,7 +30,6 @@ export const FATEs = function(parent) {
         FATEs_Mor_Dhona,
         FATEs_Abalathias_Spine,
         FATEs_Dravania,
-        FATEs_The_Diadem,
         FATEs_Gyr_Abania,
         FATEs_Othard,
         FATEs_Eureka,

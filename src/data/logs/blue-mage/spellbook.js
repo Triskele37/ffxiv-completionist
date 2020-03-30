@@ -39,16 +39,16 @@ const tasks = [
         number: "6",
         name: "High Voltage",
         enemy: "ADS, Bestial Node",
-        location: "The Binding Coil of Bahamut Turn 1, Masked Carnival #15"
+        location: "The Binding Coil of Bahamut Turn 1 or Turn 2, Masked Carnival #15"
     }, {
         number: "7",
         name: "Loom",
-        enemy: "Flame Serpant Dalvag, Baalzephon, Dantalion",
-        location: "Northern Thanalan, The Lost City of Amdapoor, The Tam-Tara Deepcroft (Hard)"
+        enemy: "Flame Sergeant Dalvag, Baalzephon, Dantalion",
+        location: "Northern Thanalan, The Lost City of Amdapor, The Tam-Tara Deepcroft (Hard)"
     }, {
         number: "8",
         name: "Final Sting",
-        enemy: "Killer Waspe",
+        enemy: "Killer Wespe",
         location: "Middle La Noscea (15, 15)"
     }, {
         number: "9",
@@ -198,7 +198,7 @@ const tasks = [
     }, {
         number: "38",
         name: "Fire Angon",
-        enemy: "Fruminious Koheel Ja",
+        enemy: "Frumious Koheel Ja",
         location: "The Wanderer's Palace (Hard)"
     }, {
         number: "39",
@@ -284,7 +284,7 @@ const tasks = [
         number: "55",
         name: "Abyssal Transfixion",
         enemy: "Ash, Arch Demon, Biblioklept",
-        location: "Haukke Manor (Hard), The Dravanian Hinterlands (Necrologos: His Treasure Forbidden Leve), The Great Gubal Library"
+        location: "Haukke Manor (Hard), The Dravanian Hinterlands (Necrologos: His Treasure Forhelen Leve), The Great Gubal Library"
     }, {
         number: "56",
         name: "Chirp",
@@ -303,7 +303,7 @@ const tasks = [
     }, {
         number: "59",
         name: "Gobskin",
-        enemy: "Alexander Hider, Slipkinx Steeljoints (A Rank)",
+        enemy: "Alexandrian Hider, Slipkinx Steeljoints (A Rank)",
         location: "Alexander - The Breath of the Creator, The Dravanian Hinterlands"
     }, {
         number: "60",
@@ -358,7 +358,7 @@ const tasks = [
     }, {
         number: "70",
         name: "Cactguard",
-        enemy: "Sabotender Gaurdia",
+        enemy: "Sabotender Guardia",
         location: "The Sunken Temple of Qarn (Hard)"
     }, {
         number: "71",
@@ -373,11 +373,11 @@ const tasks = [
     }, {
         number: "73",
         name: "Exuviation",
-        enemy: "Abalatian Wamoura",
+        enemy: "Abalathian Wamoura",
         location: "Sea of Clouds (9, 16)"
     }, {
         number: "74",
-        name: "Reflex",
+        name: "Reflux",
         enemy: "Cloud Wyvern",
         location: "The Churning Mists (23, 29)"
     }, {

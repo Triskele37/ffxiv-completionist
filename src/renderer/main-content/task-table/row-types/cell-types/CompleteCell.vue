@@ -10,8 +10,7 @@
 </template>
 
 <script>
-    import Store from 'electron-store';
-    const store = new Store();
+    import { getPlayerStore } from "../../../../../store/electronStore";
 
     export default {
         name: 'completion-flag-cell',
@@ -24,11 +23,11 @@
                 const newFlag = this.task.completionFlag === 'N' ? 'Y' : 'N';
 
                 this.task.changeCompletionFlag(newFlag);
-                store.set(this.task._fullStorageKey, newFlag);
+                getPlayerStore().set(this.task._fullStorageKey, newFlag);
             },
             onExcludeTaskClick: function() {
                 this.task.changeCompletionFlag('X');
-                store.set(this.task._fullStorageKey, 'X');
+                getPlayerStore().set(this.task._fullStorageKey, 'X');
             }
         }
     };

@@ -25,7 +25,7 @@ const tasks = [
         unlock: "Dropped by Ifrit in The Bowl of Embers (Extreme)."
     }, {
         name: "Albino Karakul",
-        unlock: "1,800 Skybuilders' Scrips from Enie in The Firmament"
+        unlock: "Purchased from Enie in The Firmament for 8,400 Skybuilders' Scrips"
     }, {
         name: "Alte Roite",
         unlock: "Drops from Deltascape V4.0 (Savage)"
@@ -133,7 +133,7 @@ const tasks = [
         unlock: "Ixali Vendor with \"Sworn\" Reputation with the tribe."
     }, {
         name: "Dhalmel",
-        unlock: ""
+        unlock: "Prize from Kupo of Fortune in The Firmament"
     }, {
         name: "Disembodied Head",
         unlock: "Bought from E-Una-Kotor for 10x Gelmorran Potsherd."
@@ -439,7 +439,7 @@ const tasks = [
         unlock: "Dropped from Containment Bay P1T6 (Extreme)."
     }, {
         name: "Spriggin Stonecarrier",
-        unlock: ""
+        unlock: "Purchased from the Mog Station for EUR 16.90 or $24"
     }, {
         name: "Storm Warsteed",
         unlock: "Completion of the A Line in the Storm IV achievement."

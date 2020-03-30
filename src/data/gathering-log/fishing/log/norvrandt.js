@@ -235,6 +235,13 @@ const tasks = [
         location: "The Rak'tika Greatwood",
         type: "",
         req: "Gulleye"
+    }, {
+        level: "70",
+        name: "Mjrl's Tears",
+        zone: "Norvrandt",
+        location: "The Rak'tika Greatwood",
+        type: "",
+        req: ""
     },
     //-------------------------------------------- The Tempest
     {

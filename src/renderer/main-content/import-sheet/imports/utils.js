@@ -1,5 +1,5 @@
 import { data } from '../../../../data';
-import { applyDataToStore } from '../../../../data/storageUtils';
+import { applyDataToStore } from '../../../../store/electronStore';
 
 //----------------------------------------------------------------------------- Common Callback
 export const importCallback = function(nameColumnIndex, groups, finalCompare) {

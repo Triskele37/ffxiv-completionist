@@ -82,11 +82,6 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "30",
-        name: "Sprig Cleaning",
-        location: "Sorrel Haven (15,17)",
-        type: "Slay Enemies"
-    }, {
-        level: "30",
         name: "What's Your Poison (FATE)",
         location: "Sorrel Haven (15,20)",
         type: "Gather Items"

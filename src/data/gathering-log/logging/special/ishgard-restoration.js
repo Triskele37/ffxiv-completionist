@@ -6,51 +6,107 @@ export const Gathering_Log_Logging_Special_Ishgard_Restoration = function(parent
 
 const tasks = [
     {
-        level: "5",
-        name: "Skybuilders' Yew Log",
-        zone: "East Shroud",
-        closestAetheryte: "The Hawthorne Hut",
-        coordinates: "(x12,y23)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Maple Log",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "35",
-        name: "Skybuilders' Ash Log",
-        zone: "Central Shroud",
-        closestAetheryte: "Brentbranch Meadows",
-        coordinates: "(x14,y18)",
+        level: "10",
+        name: "Grade 2 Skybuilders' Switch",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "10",
+        name: "Grade 2 Skybuilders' Maple Sap",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "60",
-        name: "Skybuilders' Camphorwood Log",
-        zone: "The Churning Mists",
-        closestAetheryte: "Zenith",
-        coordinates: "(x11,y19)",
+        name: "Grade 2 Skybuilders' Teak Log",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
-        level: "65",
-        name: "Skybuilders' Urunday Log",
-        zone: "The Peaks",
-        closestAetheryte: "Ala Gannha",
-        coordinates: "(x7,y13)",
+        level: "60",
+        name: "Grade 2 Skybuilders' Beehive",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "60",
+        name: "Grade 2 Skybuilders' Mistletoe",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "70",
+        name: "Grade 2 Skybuilders' Oak Log",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "70",
+        name: "Grade 2 Skybuilders' Feather",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "80",
-        name: "Skybuilders' White Ash Log",
-        zone: "The Rak'tika Greatwood",
-        closestAetheryte: "Fanow",
-        coordinates: "(x31,y22)",
+        name: "Grade 2 Skybuilders' Walnut Log",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     }, {
         level: "80",
-        name: "Skybuilders' Resin",
-        zone: "The Rak'tika Greatwood",
-        closestAetheryte: "Fanow",
-        coordinates: "(x31,y22)",
+        name: "Grade 2 Skybuilders' Resin",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Log",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Skybuilders' Umbral Galewood Log ",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
+        usage: "Ishgard Restoration",
+        special: ""
+    }, {
+        level: "80★",
+        name: "Grade 2 Artisanal Skybuilders' Hardened Sap",
+        zone: "Diadem",
+        closestTeleport: "The Foundation -> Firmament",
+        coordinates: "Varies",
         usage: "Ishgard Restoration",
         special: ""
     },

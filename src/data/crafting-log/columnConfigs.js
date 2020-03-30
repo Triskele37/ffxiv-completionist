@@ -6,7 +6,6 @@ export const CraftingLogColumnConfig = [{
   {
     header: "Item",
     key: "name",
-    filterable: true,
     centered: true,
   },
   {
