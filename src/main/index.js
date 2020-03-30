@@ -31,8 +31,9 @@ function createWindow () {
     // Show the window once initial rendering is complete
     mainWindow.on('ready-to-show', () => mainWindow.show());
 
+    // Capture navigation state before closing
     mainWindow.on('close', (event) => {
-        event.sender.send('beforeunload');
+        event.sender.send('beforeunload')
     });
 
     // Cleanup

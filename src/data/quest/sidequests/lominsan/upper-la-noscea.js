@@ -1,39 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/sidequests/lominsan-sidequests/upper-la-noscea";
 
 export const Quests_Sidequests_Lominsan_Upper_La_Noscea = function(parent) {
     return new DataGroup("Upper La Noscea", parent).initializeTasks(tasks);
 };
-
-const tasks = [
-    {
-        level: "23",
-        name: "The Hottest of Box Lunches",
-        npc: "Gegeroon",
-        unlock: ""
-    }, {
-        level: "23",
-        name: "Buried Truth",
-        npc: "Tanga Tonga",
-        unlock: ""
-    }, {
-        level: "34",
-        name: "One Swallow Does Not a Victory Make",
-        npc: "Blaugybal",
-        unlock: ""
-    }, {
-        level: "34",
-        name: "The Monster of Bronze Lake",
-        npc: "Rukusa Farusa",
-        unlock: ""
-    }, {
-        level: "34",
-        name: "Red, Red Wine",
-        npc: "A'rhunlika",
-        unlock: ""
-    }, {
-        level: "34",
-        name: "The Adventure of the Fainting Goldsmith",
-        npc: "Rukusa Farusa",
-        unlock: ""
-    }
-];

@@ -1,11 +1,13 @@
 const fs = require("fs");
 
+const setupFileWrite = require("../utils/setupFileWrite");
+
 const QUESTS = require("./quest.json");
 const ADDITIONAL = require("./additional");
 
 const BASE_OUTPUT_DIR = './static/quests';
 
-module.exports = async function buildQuests() {
+module.exports = async function buildQuests(done) {
     const output = categorizeQuests();
     let sum = 0;
 
@@ -16,10 +18,10 @@ module.exports = async function buildQuests() {
                 const finalQuestList = output[section][category][subCategory].map((quest) => ({
                     ...quest,
                     ...(ADDITIONAL[quest.ID] || {})
-                }));
+                })).sort((a, b) => a.SortKey - b.SortKey);
 
                 // Write the file
-                const fileName = setupFileWrite(section, category, subCategory);
+                const fileName = setupFileWrite(BASE_OUTPUT_DIR, [section, category, subCategory]);
                 fs.writeFileSync(fileName, JSON.stringify(finalQuestList, null, 4));
 
                 // Some output
@@ -30,16 +32,19 @@ module.exports = async function buildQuests() {
     });
 
     console.log(`Total Quests: ${sum}`);
+    done();
 };
 
-// Categorize quests by section/category/subCategory
+// Categorize by section/category/subCategory
 function categorizeQuests() {
     const output = {};
 
     QUESTS.forEach((quest) => {
-        const section = quest.Section || '_unknown';
-        const category = quest.Category || '_unknown';
-        const subCategory = quest.SubCategory || '_unknown';
+        const section = quest.Section || (!quest.Category ? '_' : 'Main Scenario Past');
+        const category = quest.Category || '_';
+
+        const isLocationSidequests = (section === 'Sidequests' && category.includes('Sidequests'));
+        const subCategory = (isLocationSidequests ? quest.PlaceName : quest.SubCategory) || '_';
 
         if(!output[section]) output[section] = {};
         if(!output[section][category]) output[section][category] = {};
@@ -49,26 +54,4 @@ function categorizeQuests() {
     });
 
     return output;
-}
-
-// Creates necessary directories then returns final file name
-function setupFileWrite(section, category, subCategory) {
-    // Make sure the section has a directory
-    const sectionDir = `${BASE_OUTPUT_DIR}/${safeName(section)}`;
-    if(!fs.existsSync(sectionDir)) fs.mkdirSync(sectionDir);
-
-    // Make sure the category has a directory
-    const categoryDir = `${sectionDir}/${safeName(category)}`;
-    if(!fs.existsSync(categoryDir)) fs.mkdirSync(categoryDir);
-
-    return `${categoryDir}/${safeName(subCategory)}.json`;
-}
-
-// Return a safe version of names for file/directory name
-function safeName(name) {
-    return name
-        .toLowerCase()
-        .replace(/[^a-z_ ]/g, '') // remove non-alpha characters
-        .replace(/\s\s+/g, ' ') // remove multiple spacing
-        .replace(/\s/g, '-');
 }

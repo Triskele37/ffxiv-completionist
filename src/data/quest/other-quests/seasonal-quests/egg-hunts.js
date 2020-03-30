@@ -1,21 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/other-quests/seasonal-events/egg-hunts";
 
 export const Quests_Other_Seasonal_Egg_Hunts = function(parent) {
     return new DataGroup("Egg Hunts", parent).initializeTasks(tasks);
 };
-
-const tasks = [
-    {
-        level: "15",
-        name: "Uneggseptable Losses"
-    }, {
-        level: "15",
-        name: "Eggstreme Eggstrapolation"
-    }, {
-        level: "15",
-        name: "A Shelltered Eggsistence"
-    }, {
-        level: "15",
-        name: "Deus Eggs Machina"
-    }
-];

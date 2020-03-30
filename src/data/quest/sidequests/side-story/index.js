@@ -17,6 +17,7 @@ import { Quests_Sidequests_Side_Story_Doman_Adventurers_Guild } from "./doman-ad
 import { Quests_Sidequests_Side_Story_Doman_Reconstruction } from "./doman-reconstruction";
 import { Quests_Sidequests_Side_Story_Tales_from_the_Shadows } from "./tales-from-the-shadows";
 import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main } from "./ishgardian-restoration-main";
+import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Side } from "./ishgardian-restoration-sidequests";
 
 export const Quests_Sidequests_Side_Story = function(parent) {
     return new DataGroup("Side Story", parent).initializeSubGroups([
@@ -37,5 +38,6 @@ export const Quests_Sidequests_Side_Story = function(parent) {
         Quests_Sidequests_Side_Story_Doman_Reconstruction,
         Quests_Sidequests_Side_Story_Tales_from_the_Shadows,
         Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main,
+        Quests_Sidequests_Side_Story_Ishgardian_Restoration_Side,
     ]);
 };

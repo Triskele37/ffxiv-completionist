@@ -19,54 +19,6 @@ const tasks = [
     },
     {
         level: "51",
-        name: "Mythrite Sallet of Fending",
-        mat1: "Electrum Ingot",
-        mat2: "3 Mythrite Nugget",
-        mat3: "Archaeornis Leather",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
-    },
-    {
-        level: "51",
-        name: "Mythrite Sallet of Maiming",
-        mat1: "Electrum Ingot",
-        mat2: "3 Mythrite Nugget",
-        mat3: "Archaeornis Leather",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
-        name: "Mythrite Tassets of Fending",
-        mat1: "2 Mythrite Nugget",
-        mat2: "Archaeornis Leather",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
-    },
-    {
-        level: "51",
-        name: "Mythrite Tassets of Maiming",
-        mat1: "2 Mythrite Nugget",
-        mat2: "Archaeornis Leather",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable, Levequest"
-    },
-    {
-        level: "51",
         name: "Mythrite Rivets",
         mat1: "Mythrite Nugget",
         mat2: "X",
@@ -88,6 +40,30 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Ice Crystal, 2 Earth Crystal",
         special: "Buyable, Collectable, Levequest"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sallet of Fending",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable, Collectable"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sallet of Maiming",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable"
     },
     {
         level: "51",
@@ -136,6 +112,30 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Ice Crystal, 2 Earth Crystal",
         special: "Buyable, Collectable"
+    },
+    {
+        level: "51",
+        name: "Mythrite Tassets of Fending",
+        mat1: "2 Mythrite Nugget",
+        mat2: "Archaeornis Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable, Provisioning"
+    },
+    {
+        level: "51",
+        name: "Mythrite Tassets of Maiming",
+        mat1: "2 Mythrite Nugget",
+        mat2: "Archaeornis Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable, Collectable, Levequest"
     },
     {
         level: "51",

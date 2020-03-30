@@ -19,30 +19,6 @@ const tasks = [
     },
     {
         level: "61",
-        name: "Beech Rod",
-        mat1: "2 Beech Lumber",
-        mat2: "Koppranickel Nugget",
-        mat3: "Amphiptere Leather",
-        mat4: "2 Star Ruby",
-        mat5: "Growth Formula Eta",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Buyable, Collectable, Levequest"
-    },
-    {
-        level: "61",
-        name: "Beech Mask of Healing",
-        mat1: "2 Beech Lumber",
-        mat2: "2 Muud Suud Horn",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "61",
         name: "High Steel Trident",
         mat1: "Beech Lumber",
         mat2: "3 High Steel Nugget",
@@ -67,6 +43,18 @@ const tasks = [
     },
     {
         level: "61",
+        name: "Beech Rod",
+        mat1: "2 Beech Lumber",
+        mat2: "Koppranickel Nugget",
+        mat3: "Amphiptere Leather",
+        mat4: "2 Star Ruby",
+        mat5: "Growth Formula Eta",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Ice Crystal",
+        special: "Buyable, Collectable, Levequest"
+    },
+    {
+        level: "61",
         name: "Muudhorn Fishing Rod",
         mat1: "2 Beech Lumber",
         mat2: "High Steel Nugget",
@@ -80,6 +68,18 @@ const tasks = [
     {
         level: "61",
         name: "Beech Mask of Casting",
+        mat1: "2 Beech Lumber",
+        mat2: "2 Muud Suud Horn",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Crystal, 2 Ice Crystal",
+        special: "Buyable"
+    },
+    {
+        level: "61",
+        name: "Beech Mask of Healing",
         mat1: "2 Beech Lumber",
         mat2: "2 Muud Suud Horn",
         mat3: "X",

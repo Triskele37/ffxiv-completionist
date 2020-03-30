@@ -19,6 +19,30 @@ const tasks = [
     },
     {
         level: "61",
+        name: "High Steel Thermal Alembic",
+        mat1: "3 High Steel Nugget",
+        mat2: "Koppranickel Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable, Levequest"
+    },
+    {
+        level: "61",
+        name: "High Steel Bomb Frypan",
+        mat1: "3 High Steel Nugget",
+        mat2: "Beech Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal",
+        special: "Buyable, Collectable, Provisioning"
+    },
+    {
+        level: "61",
         name: "High Steel Hoplon",
         mat1: "2 High Steel Nugget",
         mat2: "Koppranickel Nugget",
@@ -52,30 +76,6 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Ice Crystal, 2 Earth Crystal",
         special: "Buyable, Levequest"
-    },
-    {
-        level: "61",
-        name: "High Steel Thermal Alembic",
-        mat1: "3 High Steel Nugget",
-        mat2: "Koppranickel Nugget",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Levequest"
-    },
-    {
-        level: "61",
-        name: "High Steel Bomb Frypan",
-        mat1: "3 High Steel Nugget",
-        mat2: "Beech Lumber",
-        mat3: "X",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
     },
     {
         level: "61",

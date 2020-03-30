@@ -1,10 +1,31 @@
 const fs = require("fs");
 
 const pageRequest = require("../../backendAPI/pageRequest");
-const CONSTANTS = require("./constants");
 
-module.exports = async function cacheAchievements() {
-    const achievements = await pageRequest(CONSTANTS.API_URL);
+// The values to grab from xivAPI
+const COLUMNS = [
+    // Base properties
+    'Name_de', 'Name_en', 'Name_fr', 'Name_ja',
+    'Description_de', 'Description_en', 'Description_fr', 'Description_ja',
+    'Points',
+    'GamePatch.Version',
+
+    // Reward Properties
+    'Item.Name_de', 'Item.Name_en', 'Item.Name_fr', 'Item.Name_ja',
+    'Title.Name_de', 'Title.NameFemale_de',
+    'Title.Name_en', 'Title.NameFemale_en',
+    'Title.Name_fr', 'Title.NameFemale_fr',
+    'Title.Name_ja', 'Title.NameFemale_ja',
+
+    // Programmatic Properties
+    'ID',
+    'AchievementCategory.Name',
+    'AchievementCategory.AchievementKind.Name',
+    'Order',
+];
+
+module.exports = async function cacheAchievements(done) {
+    const achievements = await pageRequest(`http://xivapi.com/Achievement?columns=${COLUMNS.join(',')}`);
 
     // Restructure the achievement object
     const json = achievements.map((achievement) => {
@@ -20,6 +41,7 @@ module.exports = async function cacheAchievements() {
     });
 
     fs.writeFileSync('./xivapi/data/achievements/achievements.json', JSON.stringify(json, null, 4));
+    done();
 };
 
 function rewardProperties(Item, Title) {

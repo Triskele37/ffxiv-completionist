@@ -8,7 +8,7 @@ const COLUMNS = [
     'GamePatch.Version',
 ];
 
-module.exports = async function cacheNPCs() {
+module.exports = async function cacheNPCs(done) {
     const data = await pageRequest(`http://xivapi.com/ENpcResident?columns=${COLUMNS.join(',')}&limit=1000`);
 
     // Restructure the data
@@ -24,4 +24,5 @@ module.exports = async function cacheNPCs() {
     }, {});
 
     fs.writeFileSync('./xivapi/data/npcs/npcs.json', JSON.stringify(json, null, 4));
+    done();
 };

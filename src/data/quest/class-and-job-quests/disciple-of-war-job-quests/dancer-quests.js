@@ -1,30 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/class-job-quests/disciple-of-war-job-quests/dancer-quests";
 
 export const Quests_Class_and_Job_Disciple_of_War_Job_Dancer = function(parent) {
     return new DataGroup("Dancer", parent).initializeTasks(tasks);
 };
-
-const tasks = [
-    {
-        level: "60",
-        name: "Shall We Dance"
-    }, {
-        level: "60",
-        name: "Gamboling for Gil"
-    }, {
-        level: "63",
-        name: "A Soirée in the Sultanate"
-    }, {
-        level: "65",
-        name: "Dances with Duskwights"
-    }, {
-        level: "68",
-        name: "High-steppin' in the Holy See"
-    }, {
-        level: "70",
-        name: "Save the Last Dance for Me"
-    }, {
-        level: "80",
-        name: "Rising to the Occasion"
-    }
-];

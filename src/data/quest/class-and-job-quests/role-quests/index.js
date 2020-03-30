@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/class-job-quests/role-quests/role-quests";
 
 import { Quests_Class_and_Job_Role_Tank } from "./tank-role-quests";
 import { Quests_Class_and_Job_Role_Healer } from "./healer-role-quests";
@@ -13,10 +14,3 @@ export const Quests_Class_and_Job_Role = function(parent) {
         Quests_Class_and_Job_Role_Magical_DPS,
     ]).initializeTasks(tasks);
 };
-
-const tasks = [
-    {
-        level: "80",
-        name: "Shadow Walk with Me"
-    },
-];

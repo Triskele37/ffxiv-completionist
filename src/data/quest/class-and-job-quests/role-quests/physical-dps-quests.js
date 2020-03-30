@@ -1,27 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/class-job-quests/role-quests/physical-dps-quests";
 
 export const Quests_Class_and_Job_Role_Physical_DPS = function(parent) {
     return new DataGroup("Physical DPS", parent).initializeTasks(tasks);
 };
-
-const tasks = [
-    {
-        level: "70",
-        name: "No Greater Sport"
-    }, {
-        level: "72",
-        name: "Vengeance in Defeat"
-    }, {
-        level: "74",
-        name: "Freedom from Privilege"
-    }, {
-        level: "76",
-        name: "The Hunter's Legacy"
-    }, {
-        level: "78",
-        name: "Fellowship Restored"
-    }, {
-        level: "80",
-        name: "Courage Born of Fear"
-    }
-];

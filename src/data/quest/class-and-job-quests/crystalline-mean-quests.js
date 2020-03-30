@@ -1,39 +1,28 @@
 import { DataGroup } from "../../DataGroup";
+import forging from "../../../../static/quests/class-job-quests/crystalline-mean-quests/facet-of-forging-quests";
+import crafting from "../../../../static/quests/class-job-quests/crystalline-mean-quests/facet-of-crafting-quests";
+import nourishing from "../../../../static/quests/class-job-quests/crystalline-mean-quests/facet-of-nourishing-quests";
+import gathering from "../../../../static/quests/class-job-quests/crystalline-mean-quests/facet-of-gathering-quests";
+import fishing from "../../../../static/quests/class-job-quests/crystalline-mean-quests/facet-of-fishing-quests";
+import mainTasks from "../../../../static/quests/class-job-quests/crystalline-mean-quests/crystalline-mean-quests";
+
+const tasks = [
+    ...forging.map((task) => { task.facet = 'Forging'; return task; }),
+    ...crafting.map((task) => { task.facet = 'Crafting'; return task; }),
+    ...nourishing.map((task) => { task.facet = 'Nourishing'; return task; }),
+    ...gathering.map((task) => { task.facet = 'Gathering'; return task; }),
+    ...fishing.map((task) => { task.facet = 'Fishing'; return task; }),
+    ...mainTasks,
+];
 
 export const Quests_Class_and_Job_Crystalline_Mean = function(parent) {
     const data = new DataGroup("Crystalline Mean", parent).initializeTasks(tasks);
     data.columnConfig = [
         { header: "Facet", key: "facet", filterable: true },
-        { header: "Level", key: "level" },
-        { header: "Name", key: "name" },
-        { header: "NPC", key: "npc" },
+        { header: "Level", key: "Level" },
+        { header: "Name", key: "Name" },
+        { header: "NPC", key: "Npc" },
     ];
 
     return data;
 };
-
-const tasks = [
-    //------------------------------------------------------------------ Facet of Forging
-    { level: "70", facet: "Forging", name: "Iola, Forgemaster", npc: "Iola" },
-    { level: "75", facet: "Forging", name: "To Struggle Nu Mou", npc: "Iola" },
-    { level: "80", facet: "Forging", name: "The Iron Bellows", npc: "Iola" },
-    //------------------------------------------------------------------ Facet of Crafting
-    { level: "70", facet: "Crafting", name: "Cherished Memories", npc: "Recording Node" },
-    { level: "75", facet: "Crafting", name: "For Sentimental Reasons", npc: "Thiuna" },
-    { level: "80", facet: "Crafting", name: "The Notes of Bond Restoring", npc: "Thiuna" },
-    //------------------------------------------------------------------ Facet of Nourishing
-    { level: "70", facet: "Nourishing", name: "Friends of a Feather", npc: "Bethric" },
-    { level: "75", facet: "Nourishing", name: "Where We Belong", npc: "Bethric" },
-    { level: "80", facet: "Nourishing", name: "Healing Old Wounds", npc: "Bethric" },
-    //------------------------------------------------------------------ Facet of Gathering
-    { level: "70", facet: "Gathering", name: "On the Trail of a Myth", npc: "Qeshi-rae" },
-    { level: "75", facet: "Gathering", name: "Shedding Light on the Myth", npc: "Qeshi-rae" },
-    { level: "80", facet: "Gathering", name: "The Myth Takes Form", npc: "Qeshi-rae" },
-    //------------------------------------------------------------------ Facet of Fishing
-    { level: "70", facet: "Fishing", name: "Well Eel Be Damned", npc: "Frithrik" },
-    { level: "75", facet: "Fishing", name: "Fishing for Confidence", npc: "Frithrik" },
-    { level: "80", facet: "Fishing", name: "Morsel of the Deep", npc: "Frithrik" },
-    //------------------------------------------------------------------
-    { level: "70", facet: "", name: "The Crystalline Mean", npc: "Katliss" },
-    { level: "80", facet: "", name: "For Every Child a Star", npc: "Katliss" }
-];

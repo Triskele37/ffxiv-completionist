@@ -19,18 +19,6 @@ const tasks = [
     },
     {
         level: "51",
-        name: "Mythrite Uchigatana",
-        mat1: "3 Mythrite Nugget",
-        mat2: "Cedar Lumber",
-        mat3: "Undyed Cotton Cloth",
-        mat4: "Cobalt Ingot",
-        mat5: "Aqueous Whetstone",
-        mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable"
-    },
-    {
-        level: "51",
         name: "Mythrite Rivets",
         mat1: "Mythrite Nugget",
         mat2: "X",
@@ -88,6 +76,18 @@ const tasks = [
         mat6: "X",
         catalysts: "3 Fire Crystal, 2 Earth Crystal",
         special: "Buyable, Collectable, Levequest"
+    },
+    {
+        level: "51",
+        name: "Mythrite Uchigatana",
+        mat1: "3 Mythrite Nugget",
+        mat2: "Cedar Lumber",
+        mat3: "Undyed Cotton Cloth",
+        mat4: "Cobalt Ingot",
+        mat5: "Aqueous Whetstone",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal",
+        special: "Buyable"
     },
     {
         level: "51",

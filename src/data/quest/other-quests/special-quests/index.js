@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import tasks from "../../../../../static/quests/other-quests/special-quests/special-quests";
 
 import { Quests_Other_Special_Collaboration } from "./collaboration-quests";
 
@@ -11,10 +12,3 @@ export const Quests_Other_Special = function(parent) {
 
     return data;
 };
-
-const tasks = [
-    {
-        level: "1",
-        name: "The Ties That Bind"
-    }
-];
