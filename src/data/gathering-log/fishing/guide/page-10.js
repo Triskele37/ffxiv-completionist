@@ -42,7 +42,7 @@ const tasks = [
         usage: "N/A",
         special: "N/A"
     }, {
-        name: "Vip Viper ",
+        name: "Vip Viper",
         iLvl: "80",
         primeLocation: "South Shroud",
         fishingHoles: "Upper Hathoeva River",

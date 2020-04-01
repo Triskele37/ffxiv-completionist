@@ -4,6 +4,7 @@ const setupFileWrite = require("../utils/setupFileWrite");
 
 const QUESTS = require("./quest.json");
 const ADDITIONAL = require("./additional");
+const EXCLUDE = require("./exclude");
 
 const BASE_OUTPUT_DIR = './static/quests';
 
@@ -15,10 +16,13 @@ module.exports = async function buildQuests(done) {
         Object.keys(output[section]).forEach((category) => {
             Object.keys(output[section][category]).forEach((subCategory) => {
                 // Map additional properties on
-                const finalQuestList = output[section][category][subCategory].map((quest) => ({
+                let finalQuestList = output[section][category][subCategory].map((quest) => ({
                     ...quest,
                     ...(ADDITIONAL[quest.ID] || {})
                 })).sort((a, b) => a.SortKey - b.SortKey);
+
+                // Remove excludes
+                finalQuestList = finalQuestList.filter((quest) => !EXCLUDE.includes(quest.ID));
 
                 // Write the file
                 const fileName = setupFileWrite(BASE_OUTPUT_DIR, [section, category, subCategory]);

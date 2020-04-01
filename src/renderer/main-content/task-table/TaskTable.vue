@@ -1,5 +1,11 @@
 <template>
     <div id="item-container">
+        <template v-if="showTable">
+            <button class="action-button" @click="selectAll">Select All</button>
+            <button class="action-button" @click="deselectAll">Deselect All</button>
+            <button class="action-button" @click="excludeAll">Exclude All</button>
+        </template>
+
         <table
             class="task-table"
             v-if="showTable"
@@ -21,6 +27,7 @@
     // Components
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
+    import { getPlayerStore } from "../../../store/electronStore";
 
     // Export component
     export default {
@@ -106,6 +113,24 @@
         methods: {
             onFilterChange: function(filters) {
                 this.filters = filters;
+            },
+            selectAll: function() {
+                this.filteredTasks.forEach((task) => {
+                    task.changeCompletionFlag('Y');
+                    getPlayerStore().set(task._fullStorageKey, 'Y');
+                });
+            },
+            deselectAll: function() {
+                this.filteredTasks.forEach((task) => {
+                    task.changeCompletionFlag('N');
+                    getPlayerStore().set(task._fullStorageKey, 'N');
+                });
+            },
+            excludeAll: function() {
+                this.filteredTasks.forEach((task) => {
+                    task.changeCompletionFlag('X');
+                    getPlayerStore().set(task._fullStorageKey, 'X');
+                });
             }
         }
     }
@@ -130,5 +155,27 @@
 
     .task-table tr:nth-child(even) {
         background-color: #0F4C75;
+    }
+
+    /*---------------------- TODO: temporarily duped from MainContent, make component ----------------------*/
+    .action-button {
+        background-color: #0F4C75;
+        border-radius: 10px;
+        border: 1px solid;
+        color: #BBE1FA;
+        text-align: center;
+        user-select: none;
+
+        margin: 5px;
+        padding: 0 10px;
+    }
+
+    .action-button:hover {
+        filter: brightness(125%);
+        cursor: pointer;
+    }
+
+    .action-button:active {
+        filter: brightness(75%);
     }
 </style>

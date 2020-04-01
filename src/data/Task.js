@@ -46,7 +46,13 @@ export class Task {
     }
 
     get _storageKey() {
-        return this.ID;
+        const name = (this.Name || this.name).trim();
+
+        return name
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+        // return this.ID;
     }
 
     get _fullStorageKey() {

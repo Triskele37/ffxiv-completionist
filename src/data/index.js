@@ -10,6 +10,7 @@ import { Duty } from "./duty";
 import { FATEs } from "./fate";
 import { Travel } from "./travel";
 import { Quests } from "./quest";
+import { migrateData } from "../store/electronStore/migration";
 
 /*
 Missing Sections:
@@ -39,6 +40,7 @@ data.initializeSubGroups([
 ]);
 
 // This line is what loads the user's data
+migrateData();
 applyStoreToData(data);
 
 export { data };

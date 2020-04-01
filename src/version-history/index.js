@@ -1,8 +1,12 @@
-import { version_1_0_x } from "./1-0-x";
-//import { version_0_0_x } from "./0-0-x";
+import * as BetaVersions from "./beta";
 
 export const versionHistory = {
     name: "Version History",
-    disableSelection: true,
-    subGroups: [version_1_0_x],
+    component: BetaVersions.version_0_5_21,
+    subGroups: [
+        ...Object.keys(BetaVersions).map((key) => ({
+            name: key.replace('version_', '').replace(/_/g, '.'),
+            component: BetaVersions[key]
+        }))
+    ],
 };

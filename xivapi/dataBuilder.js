@@ -4,36 +4,32 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const cacheAchievements = require("./data/achievements/cache");
-const buildAchievements = require("./data/achievements/build");
-const cacheQuests = require("./data/quest/cache");
-const buildQuests = require("./data/quest/build");
-const cacheNPCs = require("./data/npcs/cache");
+const OPTIONS = {
+    'Cache Achievements': require("./data/achievements/cache"),
+    'Build Achievements': require("./data/achievements/build"),
+    'Cache Crafting Items': require("./data/crafting-items/cache"),
+    'Cache Quests': require("./data/quest/cache"),
+    'Build Quests': require("./data/quest/build"),
+    'Cache Items': require("./data/items/cache"),
+    'Cache NPCs': require("./data/npcs/cache"),
+};
 
 mainScreen();
 
 function mainScreen() {
     console.clear();
-    console.log("Welcome\n" +
-        "  1. Cache Achievements\n" +
-        "  2. Build Achievements\n" +
-        "  3. Cache Quests\n" +
-        "  4. Build Quests\n" +
-        "  5. Cache NPCs\n" +
-        "  6. Exit\n"
+    console.log(
+        "Welcome\n" +
+        Object.keys(OPTIONS).reduce((acc, option, i) => acc + `  ${i}. ${option}\n`, '') +
+        `  ${Object.keys(OPTIONS).length}. Exit\n`
     );
 
     rl.question("What would you like to do? ", (answer) => {
         console.log();
 
-        switch(answer) {
-            case "1": cacheAchievements(done); break;
-            case "2": buildAchievements(done); break;
-            case "3": cacheQuests(done); break;
-            case "4": buildQuests(done); break;
-            case "5": cacheNPCs(done); break;
-            default: rl.close();
-        }
+        const option = Object.keys(OPTIONS)[answer];
+        if(OPTIONS[option]) OPTIONS[option](done);
+        else rl.close();
     });
 
     function done() {
@@ -41,6 +37,8 @@ function mainScreen() {
         rl.question("Completed, press any key to continue", () => mainScreen());
     }
 }
+
+//xivapi.com/Recipe/33891 = Stuffed Highland Cabbage
 
 // Mount
 // Leve
