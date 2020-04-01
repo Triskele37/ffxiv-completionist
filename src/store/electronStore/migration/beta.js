@@ -1,6 +1,4 @@
 export const migrateBeta = (completion) => {
-    console.log('migration fired');
-
     change('overall.collectables.relic-gear.eureka.pyros', 'payros-harp-bow', 'pyros-harp-bow');
     change('overall.general-logs.blue-mage.spellbook', 'reflex', 'reflux');
     change('overall.gathering-log.fishing.guide.page-10', 'vip-viper-', 'vip-viper');

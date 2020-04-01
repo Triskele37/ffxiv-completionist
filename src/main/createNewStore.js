@@ -3,17 +3,16 @@ import { dialog } from "electron";
 
 import { eStore } from "../store/electronStore";
 
-export const moveStoreLocation = (mainWindow) => async (menuItem, browserWindow, event) => {
-    const result = await dialog.showOpenDialog(mainWindow, {
+export const createNewStore = (mainWindow) => () => {
+    const result = dialog.showSaveDialog({
         defaultPath: eStore.get('store-loc'),
-        properties: ['openFile'],
         filters: [{ name: 'JSON', extensions: ['json'] }]
     });
 
     // Do stuff only if something was selected
-    if(result && result[0]) {
+    if(result) {
         // Modify the location the app points to
-        const selected = path.parse(result[0]);
+        const selected = path.parse(result);
         eStore.set('store-loc', selected.dir);
         eStore.set('store-name', selected.name);
 

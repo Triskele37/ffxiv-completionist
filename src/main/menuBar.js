@@ -1,5 +1,6 @@
 import { app, Menu } from "electron";
 
+import { createNewStore } from './createNewStore';
 import { moveStoreLocation } from "./moveStoreLocation";
 import { changeLanguage } from "./changeLanguage";
 
@@ -9,7 +10,7 @@ const isMac = process.platform === 'darwin';
 export const setupMenu = (mainWindow) => {
     const menuTemplate = [
         ...(isMac ? [APP_MENU] : []),
-        FILE_MENU,
+        FILE_MENU(mainWindow),
         VIEW_MENU,
         SETTINGS_MENU(mainWindow),
         DEVELOPER_MENU,
@@ -40,12 +41,13 @@ const APP_MENU = {
 //------------------------------------------------------------------
 // File Menu
 //------------------------------------------------------------------
-const FILE_MENU = {
+const FILE_MENU = (mainWindow) => ({
     label: 'File',
     submenu: [
+        { label: 'New Save', click: createNewStore(mainWindow) },
         isMac ? { role: 'close' } : { role: 'quit' }
     ]
-};
+});
 
 //------------------------------------------------------------------
 // View Menu

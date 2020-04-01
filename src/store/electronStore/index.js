@@ -14,6 +14,7 @@ export { applyDataToStore } from './applyDataToStore';
 const eStore = new Store();
 
 // Set the default store location
+if(!eStore.get('store-name')) eStore.set('store-name', 'completion');
 if(!eStore.get('store-loc')) eStore.set('store-loc', appImport.getPath('userData'));
 
 export { eStore };
@@ -21,7 +22,7 @@ export { eStore };
 // Get the current targeted player store
 export const getPlayerStore = (locOverride) => {
     const options = {
-        name: 'completion',
+        name: eStore.get('store-name'),
         cwd: locOverride ? locOverride : eStore.get('store-loc')
     };
 
