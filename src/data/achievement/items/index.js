@@ -10,6 +10,7 @@ import { Achievements_Items_Zodiac_Weapons } from "./zodiac-weapons";
 import { Achievements_Items_Anima_Weapons } from "./anima-weapons";
 import { Achievements_Items_Deep_Dungeon_Weapons } from "./deep-dungeon-weapons";
 import { Achievements_Items_Eureka_Weapons } from "./eureka-weapons";
+import { Achievements_Items_Resistance_Weapons } from "./resistance-weapons";
 
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
@@ -29,6 +30,7 @@ export const Achievements_Items = function(parent) {
         Achievements_Items_Anima_Weapons,
         Achievements_Items_Deep_Dungeon_Weapons,
         Achievements_Items_Eureka_Weapons,
+        Achievements_Items_Resistance_Weapons,
     ]);
 
     return data;

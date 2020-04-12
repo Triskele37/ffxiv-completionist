@@ -413,4 +413,16 @@ const tasks = [
         catalysts: "7 Fire Crystal, 7 Water Crystal",
         special: "Housing (Tabletop)"
     },
+    {
+        level: "80",
+        name: "Devil's Salad Bowl",
+        mat1: "Lorikeet Egg",
+        mat2: "Fullmoon Sardine",
+        mat3: "Curly Parsley",
+        mat4: "Paprika",
+        mat5: "Ala Mhigan Mustard",
+        mat6: "Lemonette",
+        catalysts: "7 Fire Crystal, 7 Water Crystal",
+        special: "Housing (Tabletop)"
+    },
 ];

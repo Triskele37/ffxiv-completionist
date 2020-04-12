@@ -1733,6 +1733,12 @@ const tasks = [
         opponent: "",
         unlock: "Obtain Wheel of Fortune V Achievement by winning 300 matches with Roulette rules."
     }, {
+        name: "Varis yae Galvus",
+        rarity: "★★★★★",
+        type: "Garlean",
+        opponent: "",
+        unlock: "Drops from Memoria Misera (Extreme)"
+    }, {
         name: "Warrior of Light",
         rarity: "★★★★★",
         type: "None",

@@ -9,6 +9,7 @@ import { Quests_Sidequests_Side_Story_Wandering_Minstrel } from "./wandering-min
 import { Quests_Sidequests_Side_Story_Zodiac_Weapons } from "./zodiac-weapons";
 import { Quests_Sidequests_Side_Story_Anima_Weapons } from "./anima-weapons";
 import { Quests_Sidequests_Side_Story_The_Forbidden_Land_Eureka } from "./the-forbidden-land-eureka";
+import { Quests_Sidequests_Side_Story_Resistance_Weapons } from "./resistance-weapons";
 import { Quests_Sidequests_Side_Story_Delivery_Moogle } from "./delivery-moogle";
 import { Quests_Sidequests_Side_Story_Allied_Beast_Tribe } from "./allied-beast-tribe";
 import { Quests_Sidequests_Side_Story_Heavensward_Beast_Tribe } from "./heavensward-beast-tribe";
@@ -30,6 +31,7 @@ export const Quests_Sidequests_Side_Story = function(parent) {
         Quests_Sidequests_Side_Story_Zodiac_Weapons,
         Quests_Sidequests_Side_Story_Anima_Weapons,
         Quests_Sidequests_Side_Story_The_Forbidden_Land_Eureka,
+        Quests_Sidequests_Side_Story_Resistance_Weapons,
         Quests_Sidequests_Side_Story_Delivery_Moogle,
         Quests_Sidequests_Side_Story_Allied_Beast_Tribe,
         Quests_Sidequests_Side_Story_Heavensward_Beast_Tribe,

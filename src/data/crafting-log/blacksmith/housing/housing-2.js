@@ -368,5 +368,16 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Fire Crystal, 7 Earth Crystal",
         special: "Housing (Tabletop)"
+    }, {
+        level: "80",
+        name: "Manor Dressing Table",
+        mat1: "6 Dwarven Mythril Ingot",
+        mat2: "3 Clear Glass Lens",
+        mat3: "3 Manasilver Nugget",
+        mat4: "4 Pixie Cotton",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal",
+        special: "Housing (Table)"
     },
 ];

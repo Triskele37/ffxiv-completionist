@@ -55,11 +55,18 @@ const tasks = [
     	roulette: "-",
     	unlock: "Shadowbringers"
     }, {
-    	level: "80",
-    	iLvlReq: "470",
-    	name: "Cinder Drift (Extreme)",
-    	boss: "The Ruby Weapon",
-    	roulette: "-",
-    	unlock: ""
-    },
+		level: "80",
+		iLvlReq: "470",
+		name: "Cinder Drift (Extreme)",
+		boss: "The Ruby Weapon",
+		roulette: "-",
+		unlock: ""
+	}, {
+		level: "80",
+		iLvlReq: "470",
+		name: "Memoria Misera (Extreme)",
+		boss: "Varis yae Galvus",
+		roulette: "-",
+		unlock: ""
+	},
 ];

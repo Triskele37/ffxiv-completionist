@@ -68,5 +68,23 @@ const tasks = [
         bait: "???",
         usage: "N/A",
         special: "Ocean Fishing"
+    }, {
+        name: "Thinker's Coral",
+        iLvl: "430",
+        primeLocation: "The Dravanian Hinterlands",
+        fishingHoles: "Thaliak River",
+        type: "Rivers",
+        bait: "Signature Skyball",
+        usage: "Skysteel Fishing Rod +1",
+        special: "N/A"
+    }, {
+        name: "Dragonspine",
+        iLvl: "430",
+        primeLocation: "Coerthas Western Highlands",
+        fishingHoles: "Dragonspit",
+        type: "Rivers",
+        bait: "Signature Skyball",
+        usage: "Dragonsung Fishing Rod",
+        special: "N/A"
     },
 ];

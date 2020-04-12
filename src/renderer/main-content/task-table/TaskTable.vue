@@ -116,20 +116,26 @@
             },
             selectAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    task.changeCompletionFlag('Y');
-                    getPlayerStore().set(task._fullStorageKey, 'Y');
+                    if(task.completionFlag === 'N') {
+                        task.changeCompletionFlag('Y');
+                        getPlayerStore().set(task._fullStorageKey, 'Y');
+                    }
                 });
             },
             deselectAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    task.changeCompletionFlag('N');
-                    getPlayerStore().set(task._fullStorageKey, 'N');
+                    if(task.completionFlag === 'Y') {
+                        task.changeCompletionFlag('N');
+                        getPlayerStore().set(task._fullStorageKey, 'N');
+                    }
                 });
             },
             excludeAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    task.changeCompletionFlag('X');
-                    getPlayerStore().set(task._fullStorageKey, 'X');
+                    if(task.completionFlag !== 'X') {
+                        task.changeCompletionFlag('X');
+                        getPlayerStore().set(task._fullStorageKey, 'X');
+                    }
                 });
             }
         }

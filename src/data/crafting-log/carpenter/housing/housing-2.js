@@ -1663,6 +1663,18 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Mahogany Aqueduct",
+        mat1: "6 Mahogany Lumber Lumber",
+        mat2: "4 Lignum Vitae Lumber",
+        mat3: "5 Underground Spring Water",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal",
+        special: "Furnishing"
+    },
+    {
+        level: "80",
         name: "Used Banquet Table",
         mat1: "4 Lignum Vitae Lumber",
         mat2: "4 White Oak Lumber",
