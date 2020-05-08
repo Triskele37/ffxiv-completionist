@@ -1,8 +1,15 @@
-const fs = require("fs");
+const config = require('./cacheConfig');
 
-const pageRequest = require("../../backendAPI/pageRequest");
+module.exports = {
+    RecipeConfig: config,
+    RecipePath: function(Recipe) {
+        return [
+            Recipe.ClassJob.Abbreviation,
+            Recipe.RecipeLevelTable.ClassJobLevel
+        ];
+    }
+};
 
-// The values to grab from xivAPI
 const COLUMNS = [
     // Base properties
     'Name_de', 'Name_en', 'Name_fr', 'Name_ja',
@@ -26,20 +33,3 @@ const COLUMNS = [
     //'GameContentLinks.RecipeNotebookList',
     'Order',
 ];
-
-module.exports = async function cacheCraftingItems(done) {
-    const items = await pageRequest(`http://xivapi.com/Recipe?columns=${COLUMNS.join(',')}`);
-
-    // Restructure the object
-    const json = items.map((item) => {
-        const { AchievementCategory, GamePatch, Item, Title, ...rest } = item;
-
-        return {
-            Patch: GamePatch.Version,
-            ...rest,
-        };
-    });
-
-    fs.writeFileSync('./xivapi/data/crafting-items/items.json', JSON.stringify(json, null, 4));
-    done();
-};
