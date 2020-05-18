@@ -4,8 +4,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const cacheCLI = require('./cli/cache');
-const buildCLI = require('./cli/build');
+const cacheCLI = require('./cli/cachePrompt');
+const compareCLI = require('./cli/comparePrompt');
+const buildCLI = require('./cli/buildPrompt');
 
 // Process entry point
 mainScreen();
@@ -14,15 +15,17 @@ function mainScreen() {
     console.clear();
     rl.write('Welcome\n');
     rl.write('\n1. Cache');
-    rl.write('\n2. Build');
-    rl.write('\n3. Custom');
-    rl.write('\n4. Exit\n');
+    rl.write('\n2. Compare');
+    rl.write('\n3. Build');
+    rl.write('\n4. Custom');
+    rl.write('\n5. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
             case '1': cacheCLI(rl, mainScreen); break;
-            case '2': buildCLI(rl, mainScreen); break;
-            case '3': {
+            case '2': compareCLI(rl, mainScreen); break;
+            case '3': buildCLI(rl, mainScreen); break;
+            case '4': {
                 done();
                 break;
             }

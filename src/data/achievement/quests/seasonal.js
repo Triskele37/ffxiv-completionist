@@ -1,5 +1,5 @@
 import { DataGroup } from "../../DataGroup";
-import tasks from "../../../../static/achievements/quests/seasonal-events";
+import tasks from "../../../../static/achievement/quests/seasonal-events";
 
 export const Achievements_Quests_Seasonal_Events = function(parent) {
     const data = new DataGroup("Seasonal Events", parent);

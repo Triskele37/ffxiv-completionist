@@ -1,5 +1,5 @@
 import { DataGroup } from "../../DataGroup";
-import tasks from "../../../../static/achievements/battle/battle";
+import tasks from "../../../../static/achievement/battle/battle";
 
 export const Achievements_Battle_Battle = function(parent) {
     const data = new DataGroup("Battle", parent);
