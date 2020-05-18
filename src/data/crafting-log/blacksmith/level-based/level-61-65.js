@@ -415,7 +415,7 @@ const tasks = [
     },
     {
         level: "63",
-        name: "Hight Steel War Quoits",
+        name: "High Steel War Quoits",
         mat1: "2 High Steel Nugget",
         mat2: "Koppranickel Nugget",
         mat3: "Gyuki Leather",

@@ -10,7 +10,8 @@ const isMac = process.platform === 'darwin';
 export const setupMenu = (mainWindow) => {
     const menuTemplate = [
         ...(isMac ? [APP_MENU] : []),
-        FILE_MENU(mainWindow),
+        FILE_MENU,
+        PROGRESS_MENU(mainWindow),
         VIEW_MENU,
         SETTINGS_MENU(mainWindow),
         DEVELOPER_MENU,
@@ -41,11 +42,21 @@ const APP_MENU = {
 //------------------------------------------------------------------
 // File Menu
 //------------------------------------------------------------------
-const FILE_MENU = (mainWindow) => ({
+const FILE_MENU = {
     label: 'File',
     submenu: [
-        { label: 'New Save', click: createNewStore(mainWindow) },
         isMac ? { role: 'close' } : { role: 'quit' }
+    ]
+};
+
+//------------------------------------------------------------------
+// Progress Menu
+//------------------------------------------------------------------
+const PROGRESS_MENU = (mainWindow) => ({
+    label: 'Progress',
+    submenu: [
+        { label: 'New Save', click: createNewStore(mainWindow) },
+        { label: 'Load Save', click: moveStoreLocation(mainWindow) },
     ]
 });
 
@@ -69,14 +80,7 @@ const VIEW_MENU = {
 const SETTINGS_MENU = (mainWindow) => ({
     label: 'Settings',
     submenu: [
-        {
-            label: 'Change storage location',
-            click: moveStoreLocation(mainWindow)
-        },
-        {
-            label: 'Change Language',
-            click: changeLanguage(mainWindow)
-        }
+        { label: 'Change Language', click: changeLanguage(mainWindow) }
     ]
 });
 

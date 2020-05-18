@@ -52,7 +52,7 @@ const tasks = [
         zone: "Upper La Noscea",
         location: "Oakwood (14,24)",
         rules: "All Open",
-        drops: "Amalj'aa, Memeroon, Tonberry",
+        drops: "Amalj'aa, Memeroon, Tonberry, Manxome Molaa Ja Ja",
         timeAvailable: "X",
         prerequisite: "X",
         fee: 10
@@ -81,7 +81,7 @@ const tasks = [
         name: "Wyra \"Greenhands\" Lyehga",
         zone: "Triple Triad Battlehall",
         location: "Battlehall (3.3,3.3)",
-        rules: "All Opne, Same",
+        rules: "All Open, Same",
         drops: "Apkallu",
         timeAvailable: "X",
         prerequisite: "X",

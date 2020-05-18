@@ -7,9 +7,6 @@ const appImport = !!app ? app : remote.app;
 //------------------------------------------------------------------
 // electron-store: Data persistence utility
 //------------------------------------------------------------------
-export { applyStoreToData } from './applyStoreToData';
-export { applyDataToStore } from './applyDataToStore';
-
 // This should be the only instantiation of Store
 const eStore = new Store();
 

@@ -4,8 +4,8 @@
             <ol style="display: inline-block;">
                 <li>Open the tab you want to import from FFXIV Checklist</li>
                 <li>Copy the entire sheet in that tab (at minimum every cell with a background color)</li>
-                <li>Paste those contents into the text area next to the matching tab title on this page</li>
-                <li>Hover the status dot next to the import field for more information</li>
+                <li>Paste those contents into the text area below</li>
+                <li>Results will be displayed when indicator icon stops pulsing</li>
             </ol>
 
             <ul style="display: inline-block;">
@@ -16,54 +16,39 @@
         </div>
 
         <div class="section-container">
-            <span v-for="section in sheetSections">
-                <p class="section-header">
-                    {{section.name}}
-                </p>
-
-                <table class="import-table">
-                    <tr v-for="tab in section.tabs">
-                        <td>
-                            <textarea
-                                class="paste-textarea"
-                                rows=1
-                                cols=1
-                                @paste="onPasteInput($event, tab)"
-                            />
-                        </td>
-                        <td>
-                            <div
-                                class="status-indicator"
-                                :class="tab.status"
-                                :title="tab.tooltip"
-                            />
-                        </td>
-                        <td>{{tab.title}}</td>
-                    </tr>
-                </table>
-            </span>
+            <div>
+                <textarea
+                    class="paste-textarea"
+                    rows=1
+                    cols=1
+                    @paste="onPasteInput($event)"
+                />
+                <span class="status-indicator" :class="status"/>
+            </div>
+            <pre>{{info}}</pre>
         </div>
     </div>
 </template>
 
 <script>
-    import { Sections } from './imports';
+    import { importCallback } from './importer';
 
     export default {
         name: 'import-sheet',
         data: () => ({
-            sheetSections: Sections
+            status: '',
+            info: ''
         }),
         methods: {
-            onPasteInput: function($event, tab) {
-                tab.status = 'active';
-                tab.tooltip = 'Processing...';
+            onPasteInput: function($event) {
+                this.status = 'active';
+                this.info = 'Processing...';
                 this.$forceUpdate();
 
                 setTimeout(() => {
-                    const importObj = tab.importCallback($event.target.value, this.$store);
-                    tab.status = importObj.status;
-                    tab.tooltip = importObj.tooltip;
+                    const importObj = importCallback($event.target.value);
+                    this.status = importObj.status;
+                    this.info = importObj.tooltip;
 
                     // Clear textarea and update
                     $event.target.value = '';
@@ -81,24 +66,18 @@
     }
 
     .section-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        height: 920px;
         width: 100%;
     }
 
-    .section-header {
-        margin: 5px 0 0 0;
-        text-decoration: underline;
+    .paste-textarea {
+        overflow: hidden;
+        resize: none;
+        vertical-align: text-bottom;
     }
 
-    .import-table td {
-        padding: 0 5px;
-    }
-
+    /* Dot Indicator */
     .status-indicator {
+        display: inline-block;
         height: 15px;
         width: 15px;
         background-color: #CCC;
@@ -118,12 +97,7 @@
         background-color: red;
     }
 
-    .paste-textarea {
-        overflow: hidden;
-        resize: none;
-        vertical-align: text-bottom;
-    }
-
+    /* Dot Indicator Animation */
     @keyframes pulse {
     	0% {
     		transform: scale(0.75);

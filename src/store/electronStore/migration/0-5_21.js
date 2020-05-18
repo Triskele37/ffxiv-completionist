@@ -1,7 +1,7 @@
 import { ChangeStore } from "./utils";
 
 export const migrate_0_to_5_21 = () => {
-    const overall = new ChangeStore();
+    const overall = new ChangeStore('0.5.21');
 
     overall.change('collectables.relic-gear.eureka.pyros', 'payros-harp-bow', 'pyros-harp-bow');
     overall.change('general-logs.blue-mage.spellbook', 'reflex', 'reflux');

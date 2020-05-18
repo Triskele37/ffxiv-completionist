@@ -1,4 +1,5 @@
 import { getGroupFromBreadcrumbs } from './getters';
+import { eStore } from "../../electronStore";
 
 export const mutations = {
     PUSH_CRUMB: pushCrumb,
@@ -12,6 +13,7 @@ export const mutations = {
 function pushCrumb(state, crumb) {
     // concat so state mutates
     state.breadcrumbs = state.breadcrumbs.concat(crumb);
+    eStore.set('last-breadcrumbs', state.breadcrumbs);
 
     // also set the selected group to match
     for(let i = 0; i < state.selectedGroup.subGroups.length; i++) {
@@ -32,6 +34,7 @@ function popCrumbsUntil(state, index) {
     }
 
     state.selectedGroup = getGroupFromBreadcrumbs(state.breadcrumbs);
+    eStore.set('last-breadcrumbs', state.breadcrumbs);
 }
 
 function setCrumbAt(state, data) {
@@ -41,6 +44,7 @@ function setCrumbAt(state, data) {
     }
 
     state.breadcrumbs = breadcrumbs.concat(data.groupName);
+    eStore.set('last-breadcrumbs', state.breadcrumbs);
 }
 
 //------------------------------------------------------- Group Mutation

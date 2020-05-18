@@ -1,5 +1,9 @@
 <template>
     <div id="app">
+        <div id="loading-modal" v-if="loading">
+            {{modalText}}
+        </div>
+
         <nav-drawer />
 
         <div id="right-container">
@@ -17,6 +21,8 @@
     import Breadcrumbs from './breadcrumbs/Breadcrumbs';
     import MainContent from "./main-content/MainContent";
 
+    import { initializeData } from "../store/electronStore/initializeData";
+
     export default {
         components: {
             'nav-drawer': NavDrawer,
@@ -24,6 +30,24 @@
             'breadcrumbs': Breadcrumbs,
             'main-content': MainContent,
         },
+        data: () => ({
+            loading: false,
+            modalText: 'Loading...'
+        }),
+        mounted: function() {
+            this.$nextTick(function() {
+                this.loading = true;
+
+                try {
+                    initializeData();
+                    this.loading = false;
+                }
+                catch(e) {
+                    this.modalText = 'An error has occurred...';
+                    console.error(e);
+                }
+            });
+        }
     };
 </script>
 
@@ -58,6 +82,18 @@
         margin: -1px 0 0 -4px;
         width: calc(100% - 250px);
         vertical-align: top;
+    }
+
+    /*---------------------- Loading Modal ----------------------*/
+    #loading-modal {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 99999;
+
+        text-align: center;
+        padding: 25% 0;
     }
 
     /*---------------------- Scrollbar Override ----------------------*/

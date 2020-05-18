@@ -33,7 +33,7 @@ function createWindow () {
 
     // Capture navigation state before closing
     mainWindow.on('close', (event) => {
-        event.sender.send('beforeunload')
+        event.sender.send('beforeunload');
     });
 
     // Cleanup

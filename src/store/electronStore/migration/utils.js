@@ -1,19 +1,25 @@
 import { getPlayerStore } from "../index";
 
 export class ChangeStore {
-    constructor() {
+    constructor(version) {
+        console.log(`Migrating to ${version}`);
+
+        if(!getPlayerStore().get('overall')) getPlayerStore().set('overall', {});
         this.store = getPlayerStore().get('overall');
+        this.version = version;
     }
 
     write() {
-        getPlayerStore.set('overall', this.store);
+        getPlayerStore().set('overall', this.store);
+        // getPlayerStore().set('version', this.version);
     }
 
     // Change Helper when task is in same group
     change(basePath, oldKey, newKey) {
         const obj = this.dive(basePath);
 
-        if(obj[oldKey]) {
+        if(obj && obj[oldKey]) {
+            const value = obj[oldKey];
             delete obj[oldKey];
             obj[newKey] = value;
         }
@@ -23,7 +29,7 @@ export class ChangeStore {
     move(oldPath, newPath, key) {
         const obj = this.dive(oldPath);
 
-        if(obj[key]) {
+        if(obj && obj[key]) {
             this.dive(newPath)[key] = obj[key];
             delete obj[key];
         }
@@ -42,6 +48,7 @@ export class ChangeStore {
         let cur = this.store;
         for(let i = 0; i < split.length; i++) {
             cur = cur[split[i]];
+            if(!cur) return null;
         }
 
         return cur;

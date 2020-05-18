@@ -102,6 +102,7 @@
 // //             Category: JournalGenre.JournalCategory.Name,
 // //             SubCategory: JournalGenre.Name,
 // //             PlaceName: PlaceName.Name,
+// //             //TODO: Level = ClassJobLevel + QuestLevelOffset (applies to random quests?)
 // //             Level: ClassJobLevel0,
 // //             Name_de: rest.Name_de.replace(' ', '').replace(' ', ''),
 // //             Name_en: rest.Name_en.replace(' ', '').replace(' ', ''),

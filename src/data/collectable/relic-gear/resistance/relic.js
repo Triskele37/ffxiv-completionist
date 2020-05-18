@@ -30,6 +30,12 @@ const tasks = [
         iLvl: "485",
     },
     {
+        name: "Woeborn",
+        job: "Dark Knight",
+        slot: "Weapon",
+        iLvl: "485",
+    },
+    {
         name: "Dreizack",
         job: "Dragoon",
         slot: "Weapon",

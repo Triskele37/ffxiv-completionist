@@ -13,7 +13,7 @@ const tasks = [
     {
         name: "Adventure",
         location: "The Gold Saucer",
-        unlock: "Purchase from Modern Aesthetics Saleswoman for 14 MPG",
+        unlock: "Purchase from Modern Aesthetics Saleswoman for 14 MGP",
         gender: "Unisex (Differing Styles)"
     }, {
         name: "Controlled Chaos",
@@ -23,7 +23,7 @@ const tasks = [
     }, {
         name: "Curls",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 9,600 MPG",
+        unlock: "Purchase from Gold Saucer Attendant for 9,600 MGP",
         gender: "Unisex"
     }, {
         name: "Eternal Bonding",
@@ -43,7 +43,7 @@ const tasks = [
     }, {
         name: "Great Lengths",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 30,000 MPG",
+        unlock: "Purchase from Gold Saucer Attendant for 30,000 MGP",
         gender: "Unisex (Differing Styles)"
     }, {
         name: "Gyr Abanian Plait",
@@ -53,7 +53,7 @@ const tasks = [
     }, {
         name: "Lexen-tails",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 50,000 MPG after finishing \"The City of Lost Angels\" & \"The Orbonne Monastery\"",
+        unlock: "Purchase from Gold Saucer Attendant for 50,000 MGP after finishing \"The City of Lost Angels\" & \"The Orbonne Monastery\"",
         gender: "Unisex (Differing Styles)"
     }, {
         name: "Lucian Locks",
@@ -73,7 +73,7 @@ const tasks = [
     }, {
         name: "Ponytails",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 8,000 MPG",
+        unlock: "Purchase from Gold Saucer Attendant for 8,000 MGP",
         gender: "Unisex"
     }, {
         name: "Pulse - Lightning Hairstyle",
@@ -88,7 +88,7 @@ const tasks = [
     }, {
         name: "Rainmaker",
         location: "Make it Rain 2018",
-        unlock: "Purchase from Event NPC for 5,000 MPG",
+        unlock: "Purchase from Event NPC for 5,000 MGP",
         gender: "Unisex"
     }, {
         name: "Samsonian Locks",

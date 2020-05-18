@@ -1,10 +1,10 @@
 <template>
     <div id="item-container">
-        <template v-if="showTable">
+        <div class="action-button-container" v-if="showTable">
             <button class="action-button" @click="selectAll">Select All</button>
             <button class="action-button" @click="deselectAll">Deselect All</button>
             <button class="action-button" @click="excludeAll">Exclude All</button>
-        </template>
+        </div>
 
         <table
             class="task-table"
@@ -28,6 +28,7 @@
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
     import { getPlayerStore } from "../../../store/electronStore";
+    import { applyDataToStore } from "../../../store/electronStore/applyDataToStore";
 
     // Export component
     export default {
@@ -116,27 +117,24 @@
             },
             selectAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag === 'N') {
-                        task.changeCompletionFlag('Y');
-                        getPlayerStore().set(task._fullStorageKey, 'Y');
-                    }
+                    if(task.completionFlag === 'N') task.changeCompletionFlag('Y');
                 });
+
+                applyDataToStore();
             },
             deselectAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag === 'Y') {
-                        task.changeCompletionFlag('N');
-                        getPlayerStore().set(task._fullStorageKey, 'N');
-                    }
+                    if(task.completionFlag === 'Y') task.changeCompletionFlag('N');
                 });
+
+                applyDataToStore();
             },
             excludeAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag !== 'X') {
-                        task.changeCompletionFlag('X');
-                        getPlayerStore().set(task._fullStorageKey, 'X');
-                    }
+                    if(task.completionFlag !== 'X') task.changeCompletionFlag('X');
                 });
+
+                applyDataToStore();
             }
         }
     }
@@ -164,6 +162,10 @@
     }
 
     /*---------------------- TODO: temporarily duped from MainContent, make component ----------------------*/
+    .action-button-container {
+        float: right;
+    }
+
     .action-button {
         background-color: #0F4C75;
         border-radius: 10px;
