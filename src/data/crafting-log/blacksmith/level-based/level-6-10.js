@@ -118,7 +118,7 @@ const tasks = [
         name: "Bronze Claw Hammer",
         mat1: "Bronze Ingot",
         mat2: "Maple Lumber",
-        mat3: "X",
+        mat3: "Fish Oil",
         mat4: "X",
         mat5: "X",
         mat6: "X",

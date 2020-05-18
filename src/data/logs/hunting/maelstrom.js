@@ -140,7 +140,7 @@ const tasks = [
     }, {
         name: "Maelstrom 23",
         rank: "3",
-        mob: "U'Ghamaro Bedesman",
+        mob: "U'Ghamaro Bedesman x3",
         zone: "Outer La Noscea",
         location: "U'Ghamaro Mines (23,10)"
     }, {

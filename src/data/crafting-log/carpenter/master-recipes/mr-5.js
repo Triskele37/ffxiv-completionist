@@ -80,8 +80,8 @@ const tasks = [
     {
         level: "70★★",
         name: "Ala Mhigan Fishing Rod",
-        mat1: "Torreya Lumber",
-        mat2: "3 Snailfish Oil",
+        mat1: "3 Snailfish Oil",
+        mat2: "Torreya Lumber",
         mat3: "Gazelle Leather",
         mat4: "Everdeep Athersand",
         mat5: "3 Mastercraft Demimateria",

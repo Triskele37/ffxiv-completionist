@@ -224,7 +224,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, BSM, ALC, CRP, GSM, LTR,WVR, FCC), Unlocked w/ Master Blacksmith IV"
+        special: "Ingredient (ARM, BSM, ALC, CRP, GSM, LTW, WVR, FCC), Unlocked w/ Master Blacksmith IV"
     }, {
         level: "60★★★",
         name: "Sword of the Round",
@@ -708,7 +708,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, GSM, LTR), Unlocked w/ Master Blacksmith IV"
+        special: "Ingredient (ARM, GSM, LTW), Unlocked w/ Master Blacksmith IV"
     }, {
         level: "60★★★",
         name: "High Mythrite Saw",

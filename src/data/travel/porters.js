@@ -261,7 +261,7 @@ const tasks = [
         zone: "Kugane",
         name: "Pier #2"
     }, {
-        type: "Summoning Stone",
+        type: "Falcon Porter",
         region: "Othard",
         zone: "The Ruby Sea",
         name: "Tamamizu"

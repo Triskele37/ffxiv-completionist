@@ -333,7 +333,7 @@ const tasks = [
         level: "28",
         name: "Walnut Table",
         mat1: "2 Walnut Lumber",
-        mat2: "2 Steel Ingot",
+        mat2: "2 Steel Plates",
         mat3: "2 Steel Rivets",
         mat4: "X",
         mat5: "X",
@@ -488,7 +488,7 @@ const tasks = [
     {
         level: "35",
         name: "Riviera House Roof (Composite)",
-        mat1: "8 Walnut Lumber",
+        mat1: "10 Walnut Lumber",
         mat2: "10 Yew Lumber",
         mat3: "10 Steel Joint Plate",
         mat4: "10 Steel Nails",
@@ -500,7 +500,7 @@ const tasks = [
     {
         level: "35",
         name: "Glade House Wall (Wood)",
-        mat1: "8 Walnut Lumber",
+        mat1: "15 Walnut Lumber",
         mat2: "5 Oak Lumber",
         mat3: "10 Steel Joint Plate",
         mat4: "10 Steel Nails",

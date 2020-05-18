@@ -302,7 +302,7 @@ const tasks = [
     }, {
         name: "Pugilist 50",
         rank: "5",
-        mob: "Zahar'ak Battle Drake x4, Basilisk x3, Shelfclaw Reaver x4",
+        mob: "Zahar'ak Battle Drake x3, Basilisk x3, Shelfclaw Reaver x4",
         zone: "Southern Thanalan, Northern Thanalan, Western La Noscea",
         location: "Zahar'ak (30,19), Bluefog (22,24), Halfstone (13,17)"
     }

@@ -41,7 +41,7 @@ const tasks = [
     }, {
         level: "50★★★",
         name: "Mummer's Daggers",
-        mat1: "Composite Whetstone",
+        mat1: "3 Composite Whetstone",
         mat2: "Scheelite",
         mat3: "Ferberite",
         mat4: "X",

@@ -24,7 +24,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Expanse Baleen",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Water Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -36,7 +36,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Hive Forewing",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -48,7 +48,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Expanse Baleen",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Water Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -60,7 +60,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Hive Forewing",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -72,7 +72,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Expanse Baleen",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Water Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -84,7 +84,7 @@ const tasks = [
         mat2: "3 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Hive Forewing",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -168,7 +168,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "3 Platinum Ingot",
         mat4: "3 Luminous Fiber",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -180,7 +180,7 @@ const tasks = [
         mat2: "2 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Fiend Sap",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -212,11 +212,11 @@ const tasks = [
     {
         level: "60★★★",
         name: "Bow of the Round",
-        mat1: "2 High Mythrite Ingot",
-        mat2: "2 Treated Camphorwood Lumber",
+        mat1: "High Mythrite Ingot",
+        mat2: "3 Treated Camphorwood Lumber",
         mat3: "3 Platinum Ingot",
         mat4: "3 Luminous Fiber",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -228,7 +228,7 @@ const tasks = [
         mat2: "3 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Fiend Sap",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -236,7 +236,7 @@ const tasks = [
     {
         level: "60★★★",
         name: "Seeing Horde Bow",
-        mat1: "2 High Mythrite Ingot",
+        mat1: "High Mythrite Ingot",
         mat2: "3 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Nidhogg's Scale",
@@ -248,7 +248,7 @@ const tasks = [
     {
         level: "60★★★",
         name: "Bow of the Goddess",
-        mat1: "3 Treater Camphorwood Lumber",
+        mat1: "3 Treated Camphorwood Lumber",
         mat2: "High Mythrite Ingot",
         mat3: "Eikon Iron Ingot",
         mat4: "Sophic Bead Fragment",
@@ -261,10 +261,10 @@ const tasks = [
         level: "60★★★",
         name: "Cane of the Round",
         mat1: "Eikon Iron Ingot",
-        mat2: "2 Treated Camphorwood Lumber",
+        mat2: "3 Treated Camphorwood Lumber",
         mat3: "3 Platinum Ingot",
         mat4: "3 Luminous Fiber",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -276,7 +276,7 @@ const tasks = [
         mat2: "3 Treated Camphorwood Lumber",
         mat3: "Eikon Iron Ingot",
         mat4: "Fiend Sap",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "3 Wind Cluster, 2 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -600,7 +600,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Strength Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -612,7 +612,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Dexterity Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -624,7 +624,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Intelligence Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -636,7 +636,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Mind Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -660,7 +660,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Strength Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -672,7 +672,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Dexterity Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -684,7 +684,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Intelligence Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"
@@ -696,7 +696,7 @@ const tasks = [
         mat2: "Star Velvet",
         mat3: "Gold Ingot",
         mat4: "Diamond",
-        mat5: "Grade 3 Vitality Dissolvent",
+        mat5: "Grade 3 Mind Dissolvent",
         mat6: "X",
         catalysts: "3 Wind Cluster, 3 Ice Cluster",
         special: "Unlocked w/ Master Carpenter IV"

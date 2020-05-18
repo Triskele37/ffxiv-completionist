@@ -69,7 +69,7 @@ const tasks = [
         level: "23",
         name: "Elm Spinning Wheel",
         mat1: "2 Elm Lumber",
-        mat2: "2 Iron Ingot",
+        mat2: "2 Iron Rivet",
         mat3: "X",
         mat4: "X",
         mat5: "X",

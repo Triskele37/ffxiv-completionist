@@ -68,7 +68,7 @@ const tasks = [
     }, {
         name: "Rogue 11",
         rank: "2",
-        mob: "Wild Jackal",
+        mob: "Wild Jackal x3",
         zone: "Lower La Noscea",
         location: "The Gods' Grip (21,35)"
     }, {

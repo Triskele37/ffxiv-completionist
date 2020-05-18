@@ -289,7 +289,7 @@ const tasks = [
         name: "Prism Lake",
         vista: "36",
         zone: "Yanxia",
-        location: "Valley of the Fallen Rainbow (30.4, 6.2, 0.4",
+        location: "Valley of the Fallen Rainbow (30.4, 6.2, 0.4)",
         weather: "X",
         time: "X",
         emote: "Lookout"

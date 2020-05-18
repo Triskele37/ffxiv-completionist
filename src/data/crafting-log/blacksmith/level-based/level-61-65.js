@@ -356,8 +356,8 @@ const tasks = [
     {
         level: "63",
         name: "High Steel Bayonet",
-        mat1: "2 High Steel Nugget",
-        mat2: "Koppranickel Nugget",
+        mat1: "2 High Steel Ingot",
+        mat2: "Koppranickel Ingot",
         mat3: "Larch Lumber",
         mat4: "X",
         mat5: "X",
@@ -416,8 +416,8 @@ const tasks = [
     {
         level: "63",
         name: "High Steel War Quoits",
-        mat1: "2 High Steel Nugget",
-        mat2: "Koppranickel Nugget",
+        mat1: "2 High Steel Ingot",
+        mat2: "Koppranickel Ingot",
         mat3: "Gyuki Leather",
         mat4: "Slate Whetstone",
         mat5: "X",

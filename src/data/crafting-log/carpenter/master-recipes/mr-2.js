@@ -36,7 +36,7 @@ const tasks = [
         mat2: "2 Ancient Lumber",
         mat3: "Gold Ingot",
         mat4: "Large Levin Orb",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "4 Lightning Cluster",
         special: "Unlocked w/ Master Carpenter II"
@@ -60,7 +60,7 @@ const tasks = [
         mat2: "3 Ancient Lumber",
         mat3: "Gold Ingot",
         mat4: "Large Levin Orb",
-        mat5: "5 Battlecraft Demimaterria III",
+        mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
         catalysts: "4 Lightning Cluster",
         special: "Unlocked w/ Master Carpenter II"

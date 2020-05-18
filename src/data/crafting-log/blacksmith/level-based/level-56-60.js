@@ -142,7 +142,7 @@ const tasks = [
         name: "Titanium Battleaxe",
         mat1: "3 Titanium Ingot",
         mat2: "Hallowed Chestnut Lumber",
-        mat3: "Titanium Rivets",
+        mat3: "2 Titanium Rivets",
         mat4: "Wing Glue",
         mat5: "X",
         mat6: "X",

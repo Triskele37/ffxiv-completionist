@@ -732,7 +732,7 @@ const tasks = [
         mat2: "3 Mahogany Lumber",
         mat3: "2 Electrum Ingot",
         mat4: "2 Clear Glass Lens",
-        mat5: "Varnish",
+        mat5: "2 Varnish",
         mat6: "X",
         catalysts: "6 Wind Shard, 5 Ice Shard",
         special: "Housing (Furnishing), Buyable"
@@ -778,7 +778,7 @@ const tasks = [
         name: "Corner Counter",
         mat1: "4 Rosewood Lumber",
         mat2: "2 Cobalt Plate",
-        mat3: "Cobalt Ingot",
+        mat3: "2 Cobalt Ingot",
         mat4: "X",
         mat5: "X",
         mat6: "X",
@@ -1200,7 +1200,7 @@ const tasks = [
         mat2: "Ancient Lumber",
         mat3: "2 Mahogany Lumber",
         mat4: "2 Spruce Lumber",
-        mat5: "2 Cobalt Nails",
+        mat5: "2 Cobalt Ingot",
         mat6: "2 Undyed Woolen Cloth",
         catalysts: "2 Wind Cluster, Ice Cluster",
         special: "Housing (Furnishing)"
@@ -1453,8 +1453,8 @@ const tasks = [
         mat3: "2 Granite",
         mat4: "8 Fine Sand",
         mat5: "Terminus Putty",
-        mat6: "X",
-        catalysts: "Crystal Glass, 5 Wind Crystal, 5 Ice Crystal",
+        mat6: "Crystal Glass",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal",
         special: "Housing (Tabletop)"
     },
     {
@@ -1536,9 +1536,9 @@ const tasks = [
         mat2: "Beech Lumber",
         mat3: "Ruby Cotton Cloth",
         mat4: "Durium Nugget",
-        mat5: "X",
+        mat5: "Crystal Glass",
         mat6: "X",
-        catalysts: "Crystal Glass, 4 Wind Crystal, 4 Ice Crystal",
+        catalysts: "4 Wind Crystal, 4 Ice Crystal",
         special: "Housing (Tabletop)"
     },
     {
