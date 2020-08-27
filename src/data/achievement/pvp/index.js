@@ -10,8 +10,10 @@ import { Achievements_PvP_Rival_Wings } from "./rival-wings";
 
 export const Achievements_PvP = function(parent) {
     const data = new DataGroup("PvP", parent);
+    data.name_de = "PvP";
     data.name_en = "PvP";
     data.name_fr = "JcJ";
+    data.name_ja = "PvP";
 
     data.initializeSubGroups([
         Achievements_PvP_General,

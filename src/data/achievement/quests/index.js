@@ -7,8 +7,10 @@ import { Achievements_Quests_Seasonal_Events } from "./seasonal";
 
 export const Achievements_Quests = function(parent) {
     const data = new DataGroup("Quests", parent);
+    data.name_de = "Aufträge";
     data.name_en = "Quests";
     data.name_fr = "Quêtes";
+    data.name_ja = "クエスト";
 
     data.initializeSubGroups([
         Achievements_Quests_Quests,

@@ -2,5 +2,13 @@ import { DataGroup } from "../../DataGroup";
 import tasks from "../../../../static/achievement/battle/trials";
 
 export const Achievements_Battle_Trials = function(parent) {
-    return new DataGroup("Trials", parent).initializeTasks(tasks);
+    const data = new DataGroup("Trials", parent);
+    data.name_de = "Prüfungen";
+    data.name_en = "Trials";
+    data.name_fr = "Défis";
+    data.name_ja = "討伐・討滅戦";
+
+    data.initializeTasks(tasks);
+
+    return data;
 };

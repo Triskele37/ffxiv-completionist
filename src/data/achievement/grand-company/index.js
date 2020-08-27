@@ -9,8 +9,10 @@ import { Achievements_Grand_Company_Immortal_Flames } from "./immortal-flames";
 
 export const Achievements_Grand_Company = function(parent) {
     const data = new DataGroup("Grand Company", parent);
+    data.name_de = "Staatliche Gesellschaften";
     data.name_en = "Grand Company";
-    data.name_fr = "Grandes Compagnies";
+    data.name_fr = "Grandes compagnies";
+    data.name_ja = "グランドカンパニー";
 
     data.initializeSubGroups([
         Achievements_Grand_Company_Grand_Company,

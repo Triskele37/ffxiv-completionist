@@ -16,8 +16,10 @@ import { Achievements_Items_Resistance_Weapons } from "./resistance-weapons";
 
 export const Achievements_Items = function(parent) {
     const data = new DataGroup("Items", parent);
+    data.name_de = "Gegenstände";
     data.name_en = "Items";
-    data.name_fr = "d'Objets";
+    data.name_fr = "Objets";
+    data.name_ja = "アイテム";
 
     data.initializeSubGroups([
         Achievements_Items_Items,

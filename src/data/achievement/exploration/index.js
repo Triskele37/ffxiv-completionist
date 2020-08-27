@@ -17,8 +17,10 @@ import { Achievements_Exploration_Duty } from "./duty";
 
 export const Achievements_Exploration = function(parent) {
     const data = new DataGroup("Exploration", parent);
+    data.name_de = "Erkundungen";
     data.name_en = "Exploration";
-    data.name_fr = "d'Exploration";
+    data.name_fr = "Exploration";
+    data.name_fr = "探検";
 
     data.initializeSubGroups([
         Achievements_Exploration_Sightseeing_Log,

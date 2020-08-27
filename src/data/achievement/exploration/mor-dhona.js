@@ -2,5 +2,13 @@ import { DataGroup } from "../../DataGroup";
 import tasks from "../../../../static/achievement/exploration/mor-dhona";
 
 export const Achievements_Exploration_Mor_Dhona = function(parent) {
-    return new DataGroup("Mor Dhona", parent).initializeTasks(tasks);
+    const data = new DataGroup("Mor Dhona", parent);
+    data.name_de = "Mor Dhona";
+    data.name_en = "Mor Dhona";
+    data.name_fr = "Mor Dhona";
+    data.name_ja = "モードゥナ";
+
+    data.initializeTasks(tasks);
+
+    return data;
 };

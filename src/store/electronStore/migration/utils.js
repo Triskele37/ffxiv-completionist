@@ -11,7 +11,7 @@ export class ChangeStore {
 
     write() {
         getPlayerStore().set('overall', this.store);
-        getPlayerStore().set('version', this.version);
+        // getPlayerStore().set('version', this.version);
     }
 
     // Change Helper when task is in same group

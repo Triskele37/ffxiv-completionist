@@ -1,6 +1,7 @@
 import { eStore, getPlayerStore } from "../index";
 import { migrate_0_to_5_21 } from "./0-5_21";
 import { migrate_5_21_to_5_25 } from "./5_21-5_25";
+import { migrate_5_25_to_5_3 } from "./5_25-5_3";
 
 export const migrateData = () => {
     const completionStore = getPlayerStore();
@@ -11,8 +12,12 @@ export const migrateData = () => {
     }
 
     // 2nd beta release, when version started being used for migration
-    if(!completionStore.get('version')) migrate_0_to_5_21();
-    if(completionStore.get('version') === '0.5.21') migrate_5_21_to_5_25();
+    const version = completionStore.get('version');
+    switch(version) {
+        case '0.5.21': migrate_5_21_to_5_25(); break;
+        case '0.5.25': migrate_5_25_to_5_3(); break;
+        default: migrate_0_to_5_21();
+    }
 };
 
 const moveCompletionStore = (completionStore) => {

@@ -9,8 +9,10 @@ import { Achievements_Battle_Treasure_Hunt } from "./treasure-hunt";
 
 export const Achievements_Battle = function(parent) {
     const data = new DataGroup("Battle", parent);
+    data.name_de = "Kamferfolge";
     data.name_en = "Battle";
     data.name_fr = "Combats";
+    data.name_ja = "バトル";
 
     data.initializeSubGroups([
         Achievements_Battle_Battle,

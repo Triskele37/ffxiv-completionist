@@ -12,8 +12,10 @@ import { Achievements_Character_Gold_Saucer } from "./gold-saucer";
 
 export const Achievements_Character = function(parent) {
     const data = new DataGroup("Character", parent);
+    data.name_de = "Charakter";
     data.name_en = "Character";
     data.name_fr = "Personnage";
+    data.name_ja = "キャラクター";
 
     data.initializeSubGroups([
         Achievements_Character_General,

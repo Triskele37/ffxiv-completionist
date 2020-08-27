@@ -14,7 +14,6 @@
         "Name_en": "Crafting in the Air",
         "Name_fr": "Maître artisan d'Azurée",
         "Name_ja": "蒼天街の製作マスター",
-        "Order": 1,
         "Points": 5
     },
     {
@@ -32,7 +31,6 @@
         "Name_en": "Handking of the World",
         "Name_fr": "Artisan en chef d'Azurée",
         "Name_ja": "蒼天街の製作王",
-        "Order": 2,
         "Points": 10
     },
     {
@@ -50,7 +48,6 @@
         "Name_en": "Gathering in the Air",
         "Name_fr": "Maître récolteur d'Azurée",
         "Name_ja": "蒼天街の採集マスター",
-        "Order": 21,
         "Points": 5
     },
     {
@@ -68,7 +65,6 @@
         "Name_en": "Landking of the World",
         "Name_fr": "Récolteur en chef d'Azurée",
         "Name_ja": "蒼天街の採集王",
-        "Order": 22,
         "Points": 10
     },
     {
@@ -86,7 +82,6 @@
         "Name_en": "Castle in the Sky",
         "Name_fr": "Légende de la reconstruction",
         "Name_ja": "蒼天街の復興王",
-        "Order": 30,
         "Points": 20
     },
     {
@@ -100,7 +95,6 @@
         "Name_en": "Force of Nature I",
         "Name_fr": "Perforateur de l'archipel I",
         "Name_ja": "エーテルで穿つ者：ランク1",
-        "Order": 50,
         "Points": 5
     },
     {
@@ -114,7 +108,6 @@
         "Name_en": "Force of Nature II",
         "Name_fr": "Perforateur de l'archipel II",
         "Name_ja": "エーテルで穿つ者：ランク2",
-        "Order": 51,
         "Points": 5
     },
     {
@@ -128,7 +121,6 @@
         "Name_en": "Force of Nature III",
         "Name_fr": "Perforateur de l'archipel III",
         "Name_ja": "エーテルで穿つ者：ランク3",
-        "Order": 52,
         "Points": 10
     },
     {
@@ -146,7 +138,6 @@
         "Name_en": "Let Luck Be a Moogle I",
         "Name_fr": "Fortuné du kupo I",
         "Name_ja": "クポフォーチュンに導かれし者：ランク1",
-        "Order": 100,
         "Points": 5
     },
     {
@@ -160,7 +151,6 @@
         "Name_en": "Let Luck Be a Moogle II",
         "Name_fr": "Fortuné du kupo II",
         "Name_ja": "クポフォーチュンに導かれし者：ランク2",
-        "Order": 101,
         "Points": 5
     },
     {
@@ -178,25 +168,6 @@
         "Name_en": "Let Luck Be a Moogle III",
         "Name_fr": "Fortuné du kupo III",
         "Name_ja": "クポフォーチュンに導かれし者：ランク3",
-        "Order": 102,
-        "Points": 10
-    },
-    {
-        "Patch": null,
-        "Reward_de": "Beatus des Himmels / Beata des Himmels",
-        "Reward_en": "Beatus of the Firmament / Beata of the Firmament",
-        "Reward_fr": "Bienheureux d'Azurée / Bienheureuse d'Azurée",
-        "Reward_ja": "Beatus of the Firmament / Beata of the Firmament",
-        "Description_de": "Beim Wiederaufbau der Himmelsstadt mindestens Rang 100 erreicht.",
-        "Description_en": "Place between 1st and 100th in the skybuilder rankings.",
-        "Description_fr": "Être classé parmi les 100 premiers dans le classement de la reconstruction d'Azurée.",
-        "Description_ja": "イシュガルド復興の職人ランキングで1～100位になる",
-        "ID": 2488,
-        "Name_de": "Seliger der Himmelsstadt",
-        "Name_en": "Minor Miracle",
-        "Name_fr": "Bienheureux d'Azurée",
-        "Name_ja": "蒼天街の福者",
-        "Order": 1000,
         "Points": 10
     },
     {
@@ -211,10 +182,26 @@
         "Description_ja": "イシュガルド復興の職人ランキングで1～12位になる",
         "ID": 2487,
         "Name_de": "Heiliger der Himmelsstadt",
-        "Name_en": "Divine Ascension",
+        "Name_en": "Phase II Divine Ascension",
         "Name_fr": "Saint d'Azurée",
         "Name_ja": "蒼天街の聖者",
-        "Order": 1000,
+        "Points": 10
+    },
+    {
+        "Patch": null,
+        "Reward_de": "Beatus des Himmels / Beata des Himmels",
+        "Reward_en": "Beatus of the Firmament / Beata of the Firmament",
+        "Reward_fr": "Bienheureux d'Azurée / Bienheureuse d'Azurée",
+        "Reward_ja": "Beatus of the Firmament / Beata of the Firmament",
+        "Description_de": "Beim Wiederaufbau der Himmelsstadt mindestens Rang 100 erreicht.",
+        "Description_en": "Place between 1st and 100th in the skybuilder rankings.",
+        "Description_fr": "Être classé parmi les 100 premiers dans le classement de la reconstruction d'Azurée.",
+        "Description_ja": "イシュガルド復興の職人ランキングで1～100位になる",
+        "ID": 2488,
+        "Name_de": "Seliger der Himmelsstadt",
+        "Name_en": "Phase II Minor Miracle",
+        "Name_fr": "Bienheureux d'Azurée",
+        "Name_ja": "蒼天街の福者",
         "Points": 10
     }
 ]

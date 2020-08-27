@@ -1,18 +1,5 @@
 [
     {
-        "Description_de": "Ein geachtetes Verhältnis zu den Gnath erworben.",
-        "Description_en": "Attain rank 6 reputation (honored) with the Vath.",
-        "Description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Égarés de Loth ast Vath.",
-        "Description_ja": "グナース族「分かたれし者たち」の友好関係をランク6「名誉」にする",
-        "ID": 1497,
-        "Name_de": "Die Gnade der Gnath III",
-        "Name_en": "The Vath Less Troubled III",
-        "Name_fr": "Bonne âme égarée III",
-        "Name_ja": "分かたれし者たち：ランク3",
-        "Order": 0,
-        "Points": 10
-    },
-    {
         "Description_de": "Ein neutrales Verhältnis zur Bruderschaft der Asche erworben.",
         "Description_en": "Attain rank 1 reputation (neutral) with the Brotherhood of Ash.",
         "Description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Amalj'aa de la Ligue des cendres.",
@@ -22,7 +9,18 @@
         "Name_en": "You Bet Your Ash I",
         "Name_fr": "Couver sous les cendres I",
         "Name_ja": "灰の一党：ランク1",
-        "Order": 0,
+        "Points": 5
+    },
+    {
+        "Description_de": "Ein anerkanntes Verhältnis zur Bruderschaft der Asche erworben.",
+        "Description_en": "Attain rank 2 reputation (recognized) with the Brotherhood of Ash.",
+        "Description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Amalj'aa de la Ligue des cendres.",
+        "Description_ja": "アマルジャ族「灰の一党」の友好関係をランク2「認定」にする",
+        "ID": 864,
+        "Name_de": "Asche auf mein Haupt II",
+        "Name_en": "You Bet Your Ash II",
+        "Name_fr": "Couver sous les cendres II",
+        "Name_ja": "灰の一党：ランク2",
         "Points": 5
     },
     {
@@ -35,7 +33,6 @@
         "Name_en": "You Bet Your Ash III",
         "Name_fr": "Couver sous les cendres III",
         "Name_ja": "灰の一党：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -52,7 +49,6 @@
         "Name_en": "A Real Bad Ash",
         "Name_fr": "Mettre en cendres",
         "Name_ja": "灰の武人",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -65,7 +61,6 @@
         "Name_en": "Sylph-conscious I",
         "Name_fr": "Aide du Refuge I",
         "Name_ja": "仮宿のシルフ：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -78,7 +73,6 @@
         "Name_en": "Sylph-conscious II",
         "Name_fr": "Aide du Refuge II",
         "Name_ja": "仮宿のシルフ：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -91,7 +85,6 @@
         "Name_en": "Sylph-conscious III",
         "Name_fr": "Aide du Refuge III",
         "Name_ja": "仮宿のシルフ：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -108,7 +101,6 @@
         "Name_en": "Sylph-assured",
         "Name_fr": "Pilier du Refuge",
         "Name_ja": "シルフのお友達",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -121,7 +113,6 @@
         "Name_en": "Fortune Favors the Kobold I",
         "Name_fr": "789e désordre I",
         "Name_ja": "第789洞穴団：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -134,7 +125,6 @@
         "Name_en": "Fortune Favors the Kobold II",
         "Name_fr": "789e désordre II",
         "Name_ja": "第789洞穴団：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -147,7 +137,6 @@
         "Name_en": "Fortune Favors the Kobold III",
         "Name_fr": "789e désordre III",
         "Name_ja": "第789洞穴団：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -164,7 +153,6 @@
         "Name_en": "Kobold as Brass",
         "Name_fr": "Bonne à tout faire pour Kobolds",
         "Name_ja": "落ちこぼれの英雄",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -177,7 +165,6 @@
         "Name_en": "Gilling Me Softly I",
         "Name_fr": "Être toutes ouïes I",
         "Name_ja": "ノォヴ一味：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -190,7 +177,6 @@
         "Name_en": "Gilling Me Softly II",
         "Name_fr": "Être toutes ouïes II",
         "Name_ja": "ノォヴ一味：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -203,7 +189,6 @@
         "Name_en": "Gilling Me Softly III",
         "Name_fr": "Être toutes ouïes III",
         "Name_ja": "ノォヴ一味：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -220,7 +205,6 @@
         "Name_en": "Licensed to Gill",
         "Name_fr": "Avoir les ouïes fines",
         "Name_ja": "ノォヴの家族",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -233,7 +217,6 @@
         "Name_en": "Bird Is the Word I",
         "Name_fr": "Quel drôle d'oiseau I",
         "Name_ja": "エカトル空力団：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -246,7 +229,6 @@
         "Name_en": "Bird Is the Word II",
         "Name_fr": "Quel drôle d'oiseau II",
         "Name_ja": "エカトル空力団：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -259,7 +241,6 @@
         "Name_en": "Bird Is the Word III",
         "Name_fr": "Quel drôle d'oiseau III",
         "Name_ja": "エカトル空力団：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -276,7 +257,6 @@
         "Name_en": "That's Ixal, Folks",
         "Name_fr": "À l'Ixal de l'Homme",
         "Name_ja": "エカトルのマブダチ",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -293,7 +273,6 @@
         "Name_en": "Sore Thumb",
         "Name_fr": "L'ami des hommes-bêtes",
         "Name_ja": "六族連盟の同志",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -306,7 +285,6 @@
         "Name_en": "When the Getting's Gundu I",
         "Name_fr": "Bien-vanu à Gundu I",
         "Name_ja": "鮮やかなグンド：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -319,7 +297,6 @@
         "Name_en": "When the Getting's Gundu II",
         "Name_fr": "Bien-vanu à Gundu II",
         "Name_ja": "鮮やかなグンド：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -332,7 +309,6 @@
         "Name_en": "When the Getting's Gundu III",
         "Name_fr": "Bien-vanu à Gundu III",
         "Name_ja": "鮮やかなグンド：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -349,7 +325,6 @@
         "Name_en": "Top Gundu",
         "Name_fr": "Ce pas vanu à Gundu",
         "Name_ja": "太陽の舞手",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -362,7 +337,6 @@
         "Name_en": "The Vath Less Troubled I",
         "Name_fr": "Bonne âme égarée I",
         "Name_ja": "分かたれし者たち：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -375,21 +349,19 @@
         "Name_en": "The Vath Less Troubled II",
         "Name_fr": "Bonne âme égarée II",
         "Name_ja": "分かたれし者たち：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
-        "Description_de": "Ein anerkanntes Verhältnis zur Bruderschaft der Asche erworben.",
-        "Description_en": "Attain rank 2 reputation (recognized) with the Brotherhood of Ash.",
-        "Description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Amalj'aa de la Ligue des cendres.",
-        "Description_ja": "アマルジャ族「灰の一党」の友好関係をランク2「認定」にする",
-        "ID": 864,
-        "Name_de": "Asche auf mein Haupt II",
-        "Name_en": "You Bet Your Ash II",
-        "Name_fr": "Couver sous les cendres II",
-        "Name_ja": "灰の一党：ランク2",
-        "Order": 0,
-        "Points": 5
+        "Description_de": "Ein geachtetes Verhältnis zu den Gnath erworben.",
+        "Description_en": "Attain rank 6 reputation (honored) with the Vath.",
+        "Description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Égarés de Loth ast Vath.",
+        "Description_ja": "グナース族「分かたれし者たち」の友好関係をランク6「名誉」にする",
+        "ID": 1497,
+        "Name_de": "Die Gnade der Gnath III",
+        "Name_en": "The Vath Less Troubled III",
+        "Name_fr": "Bonne âme égarée III",
+        "Name_ja": "分かたれし者たち：ランク3",
+        "Points": 10
     },
     {
         "Reward_de": "der Neuverbundene / die Neuverbundene",
@@ -405,7 +377,6 @@
         "Name_en": "Vathcore",
         "Name_fr": "Égarés retrouvés",
         "Name_ja": "ヴァスの先輩冒険者",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -418,7 +389,6 @@
         "Name_en": "Mog Eat Mog I",
         "Name_fr": "Amateur d'architecture mogderne I",
         "Name_ja": "モグモグ修復団：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -431,7 +401,6 @@
         "Name_en": "Mog Eat Mog II",
         "Name_fr": "Amateur d'architecture mogderne II",
         "Name_ja": "モグモグ修復団：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -444,7 +413,6 @@
         "Name_en": "Mog Eat Mog III",
         "Name_fr": "Amateur d'architecture mogderne III",
         "Name_ja": "モグモグ修復団：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -461,7 +429,6 @@
         "Name_en": "Top Mog",
         "Name_fr": "Bienfaiteur des Mogdernisateurs",
         "Name_ja": "修復団のセンセイ",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -478,7 +445,6 @@
         "Name_en": "Hey Now, You're an All-star",
         "Name_fr": "Petit meurtre entre amis",
         "Name_ja": "導かれし盟友たち",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -491,7 +457,6 @@
         "Name_en": "To Kojin Is Divine I",
         "Name_fr": "Nul ne perd ses Verts I",
         "Name_ja": "碧甲羅：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -504,7 +469,6 @@
         "Name_en": "To Kojin Is Divine II",
         "Name_fr": "Nul ne perd ses Verts II",
         "Name_ja": "碧甲羅：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -517,7 +481,6 @@
         "Name_en": "To Kojin Is Divine III",
         "Name_fr": "Nul ne perd ses Verts III",
         "Name_ja": "碧甲羅：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -534,7 +497,6 @@
         "Name_en": "Divinity: Original Kojin",
         "Name_fr": "Chacun a son Vert à soi",
         "Name_ja": "宝探衆の縁者",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -547,7 +509,6 @@
         "Name_en": "Call Me Snake I",
         "Name_fr": "Croquer la pomme I",
         "Name_ja": "アルパ国境警備隊：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -560,7 +521,6 @@
         "Name_en": "Call Me Snake II",
         "Name_fr": "Croquer la pomme II",
         "Name_ja": "アルパ国境警備隊：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -573,7 +533,6 @@
         "Name_en": "Call Me Snake III",
         "Name_fr": "Croquer la pomme III",
         "Name_ja": "アルパ国境警備隊：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -590,7 +549,6 @@
         "Name_en": "My Anantaconda",
         "Name_fr": "Le serpent de la Velodyna",
         "Name_ja": "アルパの導き手",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -603,7 +561,6 @@
         "Name_en": "Fish to Fry I",
         "Name_fr": "Gentil organisateur I",
         "Name_ja": "大鯰大祭実行委員会：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -616,7 +573,6 @@
         "Name_en": "Fish to Fry II",
         "Name_fr": "Gentil organisateur II",
         "Name_ja": "大鯰大祭実行委員会：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -629,7 +585,6 @@
         "Name_en": "Fish to Fry III",
         "Name_fr": "Gentil organisateur III",
         "Name_ja": "大鯰大祭実行委員会：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -646,7 +601,6 @@
         "Name_en": "In a Barrel",
         "Name_fr": "Dans le vent de l'illumination",
         "Name_ja": "あっぱれ文明開化",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -663,7 +617,6 @@
         "Name_en": "West Meets East",
         "Name_fr": "D'est en ouest",
         "Name_ja": "ウェスト・ミート・イースト",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -676,7 +629,6 @@
         "Name_en": "Bring Me a Dream I",
         "Name_fr": "On croit rêver I",
         "Name_ja": "夢の園の妖精：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -689,7 +641,6 @@
         "Name_en": "Bring Me a Dream II",
         "Name_fr": "On croit rêver II",
         "Name_ja": "夢の園の妖精：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -702,7 +653,6 @@
         "Name_en": "Bring Me a Dream III",
         "Name_fr": "On croit rêver III",
         "Name_ja": "夢の園の妖精：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -719,7 +669,6 @@
         "Name_en": "Forever Young",
         "Name_fr": "Tisse-rêve honoraire",
         "Name_ja": "夢の園の住人",
-        "Order": 0,
         "Points": 20
     },
     {
@@ -732,7 +681,6 @@
         "Name_en": "With My Compliments I",
         "Name_fr": "Les aventuriers de la stèle perdue I",
         "Name_ja": "ルリの発掘隊：ランク1",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -745,7 +693,6 @@
         "Name_en": "With My Compliments II",
         "Name_fr": "Les aventuriers de la stèle perdue II",
         "Name_ja": "ルリの発掘隊：ランク2",
-        "Order": 0,
         "Points": 5
     },
     {
@@ -758,7 +705,6 @@
         "Name_en": "With My Compliments III",
         "Name_fr": "Les aventuriers de la stèle perdue III",
         "Name_ja": "ルリの発掘隊：ランク3",
-        "Order": 0,
         "Points": 10
     },
     {
@@ -775,7 +721,58 @@
         "Name_en": "With My Compliments IV",
         "Name_fr": "Scribe de Ronka",
         "Name_ja": "ロンカの書記官",
-        "Order": 0,
+        "Points": 20
+    },
+    {
+        "Description_de": "",
+        "Description_en": "Attain rank 3 reputation (friendly) with Watts's Anvil.",
+        "Description_fr": "",
+        "Description_ja": "",
+        "ID": -1,
+        "Name_de": "",
+        "Name_en": "Dwarven Crafts I",
+        "Name_fr": "",
+        "Name_ja": "",
+        "Points": 5
+    },
+    {
+        "Description_de": "",
+        "Description_en": "Attain rank 4 reputation (trusted) with Watts's Anvil.",
+        "Description_fr": "",
+        "Description_ja": "",
+        "ID": -1,
+        "Name_de": "",
+        "Name_en": "Dwarven Crafts II",
+        "Name_fr": "",
+        "Name_ja": "",
+        "Points": 5
+    },
+    {
+        "Description_de": "",
+        "Description_en": "Attain rank 6 reputation (honored) with Watts's Anvil.",
+        "Description_fr": "",
+        "Description_ja": "",
+        "ID": -1,
+        "Name_de": "",
+        "Name_en": "Dwarven Crafts III",
+        "Name_fr": "",
+        "Name_ja": "",
+        "Points": 10
+    },
+    {
+        "Reward_de": "",
+        "Reward_en": "Tank Technician",
+        "Reward_fr": "",
+        "Reward_ja": "",
+        "Description_de": "",
+        "Description_en": "Attain rank 7 reputation (sworn) with Watts's Anvil.",
+        "Description_fr": "",
+        "Description_ja": "",
+        "ID": -1,
+        "Name_de": "",
+        "Name_en": "Beard Science",
+        "Name_fr": "",
+        "Name_ja": "",
         "Points": 20
     }
 ]

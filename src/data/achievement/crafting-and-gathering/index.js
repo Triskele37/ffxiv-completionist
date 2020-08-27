@@ -17,8 +17,10 @@ import { Achievements_Crafting_and_Gathering_Fisher } from "./fisher";
 
 export const Achievements_Crafting_and_Gathering = function(parent) {
     const data = new DataGroup("Crafting & Gathering", parent);
+    data.name_de = "Synthese und Sammeln";
     data.name_en = "Crafting & Gathering";
-    data.name_fr = "Synthèse et Récolte";
+    data.name_fr = "Synthèse et récolte";
+    data.name_ja = "製作・採集";
 
     data.initializeSubGroups([
         Achievements_Crafting_and_Gathering_All_Disciplines,
