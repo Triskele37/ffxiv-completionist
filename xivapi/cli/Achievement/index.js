@@ -1,4 +1,7 @@
-const config = require('./cacheConfig');
+const buildAPI = require('../util/buildAPI');
+
+const config = require('./config');
+const mapProperties = require('./propertyMap');
 
 module.exports = {
     AchievementConfig: config,
@@ -7,5 +10,6 @@ module.exports = {
             Achievement.AchievementCategory.AchievementKind.Name,
             Achievement.AchievementCategory.Name
         ];
-    }
+    },
+    AchievementBuild: () => buildAPI(config, mapProperties)
 };

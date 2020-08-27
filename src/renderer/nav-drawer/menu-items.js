@@ -4,7 +4,7 @@ export const MainMenu = {
     name: "FFXIV Completionist",
     disableSelection: true,
     subGroups: [
-        { name: "Import", component: "import-sheet" },
+        // { name: "Import", component: "import-sheet" },
         versionHistory,
     ],
 };

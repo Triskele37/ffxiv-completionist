@@ -126,7 +126,7 @@ const tasks = [
         method: "Duty/Retainer Ventures",
         unlock: "Heaven-on-High Silver-haloed Sack or Field Exploration XX and XXII Combat Retainer Venture or Quick Exploration"
     }, {
-        name: "Bomb Fish",
+        name: "Bombfish",
         method: "Duty",
         unlock: "Rare drop from Shisui of the Violet Tides"
     }, {

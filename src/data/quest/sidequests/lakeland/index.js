@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/sidequests/lakeland-sidequests/lakeland";
+import tasks from "../../../../../static/quest/sidequests/lakeland-sidequests/lakeland";
 
 import { Quests_Sidequests_Lakeland_The_Crystarium } from "./the-crystarium";
 

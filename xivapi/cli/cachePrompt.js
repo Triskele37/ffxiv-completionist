@@ -1,11 +1,11 @@
 const cacheAPI = require('./util/cacheAPI');
 
-const { AchievementConfig, AchievementPath } = require('./Achievement/cache');
-const { ENpcResidentConfig, ENpcResidentPath } = require('./ENpcResident/cache');
-const { ItemConfig, ItemPath } = require('./Item/cache');
-const { QuestConfig, QuestPath } = require('./Quest/cache');
-const { RecipeConfig, RecipePath } = require('./Recipe/cache');
-const { RecipeNotebookListConfig, RecipeNotebookListPath } = require('./RecipeNotebookList/cache');
+const { AchievementConfig, AchievementPath } = require('./Achievement');
+const { ENpcResidentConfig, ENpcResidentPath } = require('./ENpcResident');
+const { ItemConfig, ItemPath } = require('./Item');
+const { QuestConfig, QuestPath } = require('./Quest');
+const { RecipeConfig, RecipePath } = require('./Recipe');
+const { RecipeNotebookListConfig, RecipeNotebookListPath } = require('./RecipeNotebookList');
 
 module.exports = function cacheCLI(rl, back) {
     console.clear();

@@ -60,13 +60,13 @@ const tasks = [
 		name: "Cinder Drift (Extreme)",
 		boss: "The Ruby Weapon",
 		roulette: "-",
-		unlock: ""
+		unlock: "Weapon of Choice"
 	}, {
 		level: "80",
 		iLvlReq: "470",
 		name: "Memoria Misera (Extreme)",
 		boss: "Varis yae Galvus",
 		roulette: "-",
-		unlock: ""
+		unlock: "Wandering Dramaturge"
 	},
 ];

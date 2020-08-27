@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/other-quests/seasonal-events/little-ladies-day-events";
+import tasks from "../../../../../static/quest/other-quests/seasonal-events/little-ladies-day-events";
 
 export const Quests_Other_Seasonal_Little_Ladies_Day = function(parent) {
     return new DataGroup("Little Ladies' Day", parent).initializeTasks(tasks);

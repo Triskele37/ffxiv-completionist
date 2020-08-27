@@ -27,7 +27,7 @@
     // Components
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
-    import { getPlayerStore } from "../../../store/electronStore";
+    import { data } from "../../../data";
     import { applyDataToStore } from "../../../store/electronStore/applyDataToStore";
 
     // Export component
@@ -120,21 +120,21 @@
                     if(task.completionFlag === 'N') task.changeCompletionFlag('Y');
                 });
 
-                applyDataToStore();
+                applyDataToStore(data);
             },
             deselectAll: function() {
                 this.filteredTasks.forEach((task) => {
                     if(task.completionFlag === 'Y') task.changeCompletionFlag('N');
                 });
 
-                applyDataToStore();
+                applyDataToStore(data);
             },
             excludeAll: function() {
                 this.filteredTasks.forEach((task) => {
                     if(task.completionFlag !== 'X') task.changeCompletionFlag('X');
                 });
 
-                applyDataToStore();
+                applyDataToStore(data);
             }
         }
     }

@@ -1,8 +1,8 @@
 import { DataGroup } from "../../DataGroup";
 
 import { combineMainAndDaily } from "./combineMainAndDaily";
-import mainQuests from "../../../../static/quests/beast-tribe-quests-shadowbringers/pixie-quests/main-quests";
-import dailyQuests from "../../../../static/quests/beast-tribe-quests-shadowbringers/pixie-quests/daily-quests";
+import mainQuests from "../../../../static/quest/beast-tribe-quests-shadowbringers/pixie-quests/main-quests";
+import dailyQuests from "../../../../static/quest/beast-tribe-quests-shadowbringers/pixie-quests/daily-quests";
 
 const tasks = combineMainAndDaily(mainQuests, dailyQuests);
 

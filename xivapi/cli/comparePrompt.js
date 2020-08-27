@@ -1,9 +1,11 @@
-const compareAchievements = require('./Achievement/compare');
-// const { ENpcResidentConfig, ENpcResidentPath } = require('./ENpcResident/compare');
-// const { ItemConfig, ItemPath } = require('./Item/compare');
-// const { QuestConfig, QuestPath } = require('./Quest/compare');
-// const { RecipeConfig, RecipePath } = require('./Recipe/compare');
-// const { RecipeNotebookListConfig, RecipeNotebookListPath } = require('./RecipeNotebookList/compare');
+const compareAPI = require('./util/compareAPI');
+
+const { AchievementConfig, AchievementBuild } = require('./Achievement');
+// const { ENpcResidentConfig, ENpcResidentBuild } = require('./ENpcResident');
+// const { ItemConfig, ItemBuild } = require('./Item');
+const { QuestConfig, QuestBuild } = require('./Quest');
+// const { RecipeConfig, RecipeBuild } = require('./Recipe');
+// const { RecipeNotebookListConfig, RecipeNotebookListBuild } = require('./RecipeNotebookList');
 
 module.exports = function compareCLI(rl, back) {
     console.clear();
@@ -19,13 +21,15 @@ module.exports = function compareCLI(rl, back) {
         console.clear();
 
         switch(answer) {
-            case '1': compareAchievements(done); break;
-            case '2': break;
-            case '3': break;
-            case '4': break;
-            case '5': break;
+            case '1': compareAPI(AchievementConfig, AchievementBuild); break;
+            // case '2': compareAPI(ENpcResidentConfig, ENpcResidentBuild); break;
+            // case '3': compareAPI(ItemConfig, ItemBuild); break;
+            case '4': compareAPI(QuestConfig, QuestBuild);break;
+            // case '5': compareAPI(RecipeConfig, RecipeBuild); break;
             default: back();
         }
+
+        done();
     });
 
     function done() {

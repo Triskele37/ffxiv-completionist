@@ -5,6 +5,7 @@ import { Gathering_Log_Logging_Special_Abalathian_Folklore } from "./abalathian-
 import { Gathering_Log_Logging_Special_Gyr_Abanian_Folklore } from "./gyr-abanian-folklore";
 import { Gathering_Log_Logging_Special_Vrandtic_Folklore } from "./vrandtic-folklore";
 import { Gathering_Log_Logging_Special_Ishgard_Restoration } from "./ishgard-restoration";
+import { Gathering_Log_Logging_Special_Skysteel_Tools } from "./skysteel-tools";
 
 export const Gathering_Log_Logging_Special = function(parent) {
     return new DataGroup("Special", parent).initializeSubGroups([
@@ -13,5 +14,6 @@ export const Gathering_Log_Logging_Special = function(parent) {
         Gathering_Log_Logging_Special_Gyr_Abanian_Folklore,
         Gathering_Log_Logging_Special_Vrandtic_Folklore,
         Gathering_Log_Logging_Special_Ishgard_Restoration,
+        Gathering_Log_Logging_Special_Skysteel_Tools,
 	]);
 };

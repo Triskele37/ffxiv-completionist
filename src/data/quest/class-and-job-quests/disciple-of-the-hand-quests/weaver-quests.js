@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/class-job-quests/disciple-of-the-hand-quests/weaver-quests";
+import tasks from "../../../../../static/quest/class-job-quests/disciple-of-the-hand-quests/weaver-quests";
 
 export const Quests_Class_and_Job_Disciple_of_the_Hand_Weaver = function(parent) {
     return new DataGroup("Weaver", parent).initializeTasks(tasks);

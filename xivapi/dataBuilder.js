@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 
 const cacheCLI = require('./cli/cachePrompt');
 const compareCLI = require('./cli/comparePrompt');
-const buildCLI = require('./cli/buildPrompt');
+const updateCLI = require('./cli/updatePrompt');
 
 // Process entry point
 mainScreen();
@@ -16,7 +16,7 @@ function mainScreen() {
     rl.write('Welcome\n');
     rl.write('\n1. Cache');
     rl.write('\n2. Compare');
-    rl.write('\n3. Build');
+    rl.write('\n3. Update');
     rl.write('\n4. Custom');
     rl.write('\n5. Exit\n');
 
@@ -24,7 +24,7 @@ function mainScreen() {
         switch(answer) {
             case '1': cacheCLI(rl, mainScreen); break;
             case '2': compareCLI(rl, mainScreen); break;
-            case '3': buildCLI(rl, mainScreen); break;
+            case '3': updateCLI(rl, mainScreen); break;
             case '4': {
                 done();
                 break;

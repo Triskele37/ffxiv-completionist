@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/other-quests/special-quests/special-quests";
+import tasks from "../../../../../static/quest/other-quests/special-quests/special-quests";
 
 import { Quests_Other_Special_Collaboration } from "./collaboration-quests";
 

@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/class-job-quests/role-quests/role-quests";
+import tasks from "../../../../../static/quest/class-job-quests/role-quests/role-quests";
 
 import { Quests_Class_and_Job_Role_Tank } from "./tank-role-quests";
 import { Quests_Class_and_Job_Role_Healer } from "./healer-role-quests";

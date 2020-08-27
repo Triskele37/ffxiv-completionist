@@ -31,8 +31,8 @@ module.exports = async function cacheAPI(config, additionalSegmentCallback, done
     resultOutput(config, IDS);
 
     // Write cache config updates
-    console.log(`Updating cache config for ${config.API_ENDPOINT}`);
-    writeJsonFile('./xivapi/cli/cache', [config.API_ENDPOINT], 'cacheConfig', config);
+    console.log(`Updating config for ${config.API_ENDPOINT}`);
+    writeJsonFile('./xivapi/cli', [config.API_ENDPOINT], 'config', config);
 
     done();
 };

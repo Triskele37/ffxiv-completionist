@@ -1475,7 +1475,7 @@ const tasks = [
         opponent: "",
         unlock: "Drops from The Minstrel's Ballad: Tsukuyomi's Pain"
     }, {
-        name: "Ultima Weapon",
+        name: "The Ultima Weapon",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "",

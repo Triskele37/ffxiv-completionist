@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quests/sidequests/kholusia-sidequests/kholusia";
+import tasks from "../../../../../static/quest/sidequests/kholusia-sidequests/kholusia";
 
 import { Quests_Sidequests_Kholusia_Eulmore } from "./eulmore";
 
