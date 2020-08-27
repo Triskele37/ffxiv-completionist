@@ -148,6 +148,11 @@ const tasks = [
         region: "The Black Shroud",
         zone: "South Shroud",
         name: "Camp Tranquil"
+    }, {
+        type: "Crystal",
+        region: "The Black Shroud",
+        zone: "North Shroud",
+        name: "Fallgourd Float"
     },
     //------------------------------------------------------- Thanalan
     {

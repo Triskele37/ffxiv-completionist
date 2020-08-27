@@ -300,5 +300,20 @@ const tasks = [
         name: "Floundering in the Depths",
         method: "Obtained in Anamnesis Anyder",
         unlock: "Drops in Anamnesis Anyder"
+    }, {
+        number: 60,
+        name: "Abomination",
+        method: "Obtained in Cutter's Cry.",
+        unlock: ""
+    }, {
+        number: 61,
+        name: "A Tonberry's Tears",
+        method: "Obtained in the Wanderer's Palace.",
+        unlock: ""
+    }, {
+        number: 62,
+        name: "Where All Roads Lead",
+        method: "Obtained in the Heroes' Gauntlet.",
+        unlock: ""
     },
 ];

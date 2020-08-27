@@ -12,103 +12,111 @@ const tasks = [
     {
         name: "Aback",
         command: "/aback",
-        unlock: "Purchased from Kasumi at the Gold Saucer for 5,000 gil"
+        unlock: "Kasumi - Gold Saucer - 5,000 gil"
     }, {
         name: "At Ease",
         command: "/atease",
-        unlock: "Trade with Grand Company Quartermasters"
+        unlock: "40,000 Company Seals"
     }, {
         name: "Attention",
         command: "/attention",
-        unlock: "Trade with Grand Company Quartermasters"
+        unlock: "40,000 Company Seals"
     }, {
         name: "Backflip",
         command: "/backflip, /bflip",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Ball Dance",
         command: "/balldance",
-        unlock: "Level 14 side quest \"Help Me, Lord of the Dance\""
+        unlock: "Quest: Help Me, Lord of the Dance (Level 14 Thanalan Sidequest)"
     }, {
         name: "Battle Stance",
         command: "/battlestance, /bstance",
-        unlock: "Level 60 main quest \"Causes and Costs\""
+        unlock: "Quest: Causes and Costs (Level 60 Main Scenario Quest)"
+    }, {
+        name: "Bee's Knees",
+        command: "/beesknees",
+        unlock: "80,000 MGP"
     }, {
         name: "Big Grin",
         command: "/biggrin",
-        unlock: "Bought from the main counter in the Gold Saucer for 20,000 MPG"
+        unlock: "20,000 MPG"
     }, {
         name: "Black Ranger Pose A",
         command: "/blackrangerposea, /brpa",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Black Ranger Pose B",
         command: "/blackrangerposeb, /brpb",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Bomb Dance",
         command: "/bombdance",
-        unlock: "Moonfire Faire (2014), MogStation: 2 USD / 1.4 EUR"
+        unlock: "Moonfire Faire (2014), Final Fantasy XIV Online Store"
     }, {
         name: "Box",
         command: "/box",
-        unlock: "Level 70 main quest \"Arenvald's Adventure\""
+        unlock: "Quest: Arenvald's Adventure (Level 70 Main Scenario Quest)"
     }, {
         name: "Box Step",
         command: "/boxstep",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Breath Control",
         command: "/breathcontrol",
-        unlock: "Achievement \"Dear Leader I\""
+        unlock: "Achievement: Dear Leader I"
     }, {
         name: "Charmed",
         command: "/charmed",
-        unlock: "Trade with Madhura at Castellum Velodyna"
+        unlock: "Madhura - Castellum Velodyna - 5 Ananta Dreamstaffs"
     }, {
         name: "Cheer Jump",
         command: "/cheerjump",
-        unlock: "Little Ladies' Day (2018)"
+        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
     }, {
         name: "Cheer On",
         command: "/cheeron",
-        unlock: "Little Ladies' Day (2018)"
+        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
     }, {
         name: "Cheer Wave",
         command: "/cheerwave",
-        unlock: "Little Ladies' Day (2018)"
+        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
     }, {
         name: "Confirm",
         command: "/confirm",
-        unlock: "Treasure Maps - Lost Canals of Uznair"
+        unlock: "The Lost Canals Of Uznair, The Hidden Canals Of Uznair, The Shifting Altars Of Uznair"
+    }, {
+        name: "Consider",
+        command: "/consider, /hmm",
+        unlock: ""
     }, {
         name: "Crimson Lotus",
         command: "/crimsonlotus",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Diamond Dust",
         command: "/iceheart",
-        unlock: "Meister Quality Shiva Figure Order Bonus"
+        unlock: "Item code included with Meister Quality Figure Shiva"
     }, {
         name: "Dote",
         command: "/dote",
-        unlock: "Level 15 Valentione's Day (2017) quest \"Once More with Feeling\". MogStation: 2 USD / 1.4 EUR"
+        unlock: "Valentione's Day (2017), Final Fantasy XIV Online Store"
     }, {
         name: "Eastern Bow",
         command: "/easternbow, /ebow",
-        unlock: "Level 62 main quest \"Confederate Consternation\""
+        unlock: "Quest: Confederate Consternation (Level 62 Main Scenario Quest)"
     }, {
         name: "Eastern Dance",
         command: "/edance",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Eastern Greeting",
         command: "/easterngreeting",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Eastern Stretch",
         command: "/estretch",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Eat Bread",
         command: "/bread, /breakfast",
@@ -120,147 +128,155 @@ const tasks = [
     }, {
         name: "Elucidate",
         command: "/elucidate",
-        unlock: "Bought from the Storm Sergeant (Wolves' Den Provisioner) in Wolves' Den Pier for 15,000 Wolf Marks"
+        unlock: "15,000 Wolf Marks"
     }, {
         name: "Embrace",
         command: "/embrace",
-        unlock: "Level 1 quest \"The Ties that Bind\".  Get married."
+        unlock: "Quest: The Ties That Bind (Level 1 Other Quest)"
     }, {
         name: "Endure",
         command: "/endure",
-        unlock: "Level 70 Main Quest \"The Call\""
+        unlock: "Quest: The Call (Level 70 Main Scenario Quest)"
     }, {
         name: "Eureka",
         command: "/eureka",
-        unlock: "Level 15 Make it Rain Campain (2016) quest \"An Inspector's Gadget\". MogStation: 2 USD / 1.4 EUR"
+        unlock: "The Make It Rain Campain (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Fist Bump",
         command: "/fistbump",
-        unlock: "Received from the \"Recruit a Friend Campaign\" as either recruiter or recruited."
+        unlock: "Recruit a Friend Campaign reward"
     }, {
         name: "Fist Pump",
         command: "/fistpump",
-        unlock: "Duty \"The Forbidden Land, Eureka Hydatos\""
+        unlock: "Moisture-warped Lockbox - Eureka Hydatos"
+    }, {
+        name: "Flame Dance",
+        command: "/flamedance",
+        unlock: "Moonfire Faire (2020)"
     }, {
         name: "Get Fantasy",
         command: "/getfantasy",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Gold Dance",
         command: "/golddance, /gdance",
-        unlock: "Bought from the main counter in the Gold Saucer for 80,000 MPG"
+        unlock: "80,000 MPG"
     }, {
         name: "Goobbue Do",
         command: "/mysterymachine, /goobbuedo",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Gratuity",
         command: "/gratuity, /makeithail",
-        unlock: "Level 70 side quest \"What a Wonder-full World\""
+        unlock: "Quest: What a Wonder-full World (Level 70 Side Story Quest)"
     }, {
         name: "Greeting",
         command: "/greet",
-        unlock: "Level 70 main quest \"Tidings from the East\""
+        unlock: "Quest: Tidings from the East (Level 70 Main Scenario Quest)"
     }, {
         name: "Harvest Dance",
         command: "/harvestdance",
-        unlock: "Level 14 side quest \"Saw That One Coming\""
+        unlock: "Quest: Saw That One Coming (Level 14 Black Shroud Sidequest)"
     }, {
         name: "Haurchefant",
         command: "/haurchefant",
-        unlock: "Level 60 side quest \"The Burdens We Bear\""
+        unlock: "Quest: The Burdens We Bear (Level 60 Side Story Quest)"
     }, {
         name: "Headache",
         command: "/headache",
-        unlock: "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals"
+        unlock: "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)"
     }, {
         name: "Heel Toe",
         command: "/heeltoe",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Hum",
         command: "/hum",
-        unlock: "Quest \"Hell's Kier (Normal)\""
+        unlock: "Quest: The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)"
     }, {
         name: "Huzzah",
         command: "/huzzah, /hurray",
-        unlock: "Level 15 The Rising (2014) quest \"What Blooms in the Night\". MogStation: 2 USD / 1.4 EUR"
+        unlock: "The Rising (2014), Final Fantasy XIV Online Store"
     }, {
         name: "Imperial Salute",
         command: "/imperialsalute",
-        unlock: "Level 45 main quest \"Acting the Part\""
+        unlock: "Quest: Acting the Part (Level 45 Main Scenario Quest)"
     }, {
         name: "Insist",
         command: "/insist",
-        unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
+        unlock: "1,800 Skybuilders' Scrips"
     }, {
         name: "Lali-ho",
         command: "/laliho",
-        unlock: "Sidequest chain continuing on form lvl 78 Aether Current quest"
+        unlock: "Quest: Learning to Lali-ho (Level 70 Kholusia Sidequest)"
+    }, {
+        name: "Lali-hop",
+        command: "/lalihop",
+        unlock: "8 Hammered Frogments"
     }, {
         name: "Lean",
         command: "/lean",
-        unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
+        unlock: "1,800 Skybuilders' Scrips"
     }, {
         name: "Manderville Dance",
         command: "/mandervilledance",
-        unlock: "Level 50 side story quest \"The Hammer\""
+        unlock: "Quest: The Hammer (Level 50 Side Story Quest)"
     }, {
         name: "Manderville Mambo",
         command: "/mandervillemambo, /mmambo",
-        unlock: "Level 70 side story quest \"Don't Do the Dewprism\""
+        unlock: "Quest: Don't Do the Dewprism (Level 70 Side Story Quest)"
     }, {
         name: "Megaflare",
         command: "/megaflare",
-        unlock: "Mogstation: 12 USD / 9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Moogle Dance",
         command: "/mogdance",
-        unlock: "Level 50 moogle quest \"Piecing Together the Past\""
+        unlock: "Quest: Piecing Together the Past (Level 50 Beast Tribe Quest)"
     }, {
         name: "Moonlift Dance",
         command: "/moonlift",
-        unlock: "Level 60 side story quest \"Eternity, Loyalty, Honesty\""
+        unlock: "Quest: Eternity, Loyalty, Honesty (Level 60 Side Story Quest)"
     }, {
         name: "Most Gentlemanly",
         command: "/hildy",
-        unlock: "Level 50 side story quest \"Her Last Vow\""
+        unlock: "Quest: Her Last Vow (Level 50 Side Story Quest)"
     }, {
         name: "Play Dead",
         command: "/playdead, /pdead",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Ponder",
         command: "/ponder, /makeyougohmmm",
-        unlock: "Level 70 main quest \"Emmisary of the Dawn\""
+        unlock: "Quest: Emmisary of the Dawn (Level 70 Main Scenario Quest)"
     }, {
         name: "Popoto Step",
         command: "/popotostep",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Power Up",
         command: "/powerup",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Pretty Please",
         command: "/prettyplease, /pplease",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Push-ups",
         command: "/pushups",
-        unlock: "Achievement \"Dear Leader I\""
+        unlock: "Achievement: Dear Leader I"
     }, {
         name: "Read A Book",
         command: "/read",
-        unlock: "Purchased from Enie in The Firmament for 1,800 Skybuilders' Scrips"
+        unlock: "1,800 Skybuilders' Scrips"
     }, {
         name: "Red Ranger Pose A",
         command: "/redrangerposea, /rrpa",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Red Ranger Pose B",
         command: "/redrangerposeb, /rrpb",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Reflect",
         command: "/reflect",
@@ -268,110 +284,114 @@ const tasks = [
     }, {
         name: "Reprimand",
         command: "/reprimand",
-        unlock: "15,0000 Wolf Marks Exchange"
+        unlock: "15,0000 Wolf Marks"
     }, {
         name: "Ritual Prayer",
         command: "/ritualprayer",
-        unlock: "Trade with Shikitahe in Tamamizu"
+        unlock: "Shikitahe - Tamamizu - 3 Kojin Sango"
     }, {
         name: "Scheme",
         command: "/scheme",
-        unlock: "Duty \"The Forbidden Land, Eureka Pyros\""
+        unlock: "Heat-warped Lockbox - Eureka Pyros"
     }, {
         name: "Senor Sabotender",
         command: "/sabotender",
-        unlock: "\"Make It Rain\" 2019 Event"
+        unlock: "The Make It Rain Campaign (2019)"
     }, {
         name: "Shiver",
         command: "/shiver",
-        unlock: "Duty \"The Forbidden Land, Eureka Pagos\""
+        unlock: "Cold-warped Lockbox - Eureka Pagos"
     }, {
         name: "Side Step",
         command: "/sidestep",
-        unlock: "MogStation: 7 USD / 4.9 EUR"
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Sit-ups",
         command: "/situps",
-        unlock: "Achievement \"Dear Leader I\""
+        unlock: "Achievement: Dear Leader I"
+    }, {
+        name: "Snap",
+        command: "",
+        unlock: ""
     }, {
         name: "Songbird",
         command: "/songbird",
-        unlock: "Little Ladies' Day (2017), MogStation: 2 USD / 1.4 EUR"
+        unlock: "Little Ladies' Day (2017), Final Fantasy XIV Online Store"
     }, {
         name: "Spectacles",
         command: "/spectacles",
-        unlock: "Level 60 side story quest \"Letters from No One\""
+        unlock: "Quest: Letters from No One (Level 60 Side Story Quest)"
     }, {
         name: "Splash",
         command: "/splash",
-        unlock: "Moonfire Faire (2018), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2018), Final Fantasy XIV Online Store"
     }, {
         name: "Squats",
         command: "/squats",
-        unlock: "Achievement \"Dear Leader I\""
+        unlock: "Achievement: Dear Leader I"
     }, {
         name: "Step Dance",
         command: "/stepdance",
-        unlock: "Level 14 side quest \"Good for What Ales You\""
+        unlock: "Quest: Good for What Ales You (Level 14 La Noscea Sidequest)"
     }, {
         name: "Sundrop Dance",
         command: "/sundance, /sundropdance",
-        unlock: "Level 50 Vanu Vanu quest \"Sundrop the Beat\""
+        unlock: "Quest: Sundrop the Beat (Level 50 Beast Tribe Quest)"
     }, {
         name: "Sweat",
         command: "/sweat",
-        unlock: "Trade with Confederate Custodian in Crick."
+        unlock: "Confederate Custodian - Crick - 10 Empyrean Potsherds"
     }, {
         name: "Thavnairian Dance",
         command: "/thavnairiandance",
-        unlock: "Bought from the main counter in the Gold Saucer for 80,000 MPG"
+        unlock: "80,000 MGP"
     }, {
         name: "Throw",
         command: "/throw",
-        unlock: "Level 36 side quest \"Toss Fit Workout\""
+        unlock: "Quest: Toss Fit Workout (Level 36 Coerthas Sidequest)"
     }, {
         name: "Toast",
-        command: "",
-        unlock: "Unknown"
+        command: "/toast",
+        unlock: "Final Fantasy XIV Online Store"
     }, {
         name: "Tomestone",
         command: "/tomestone",
-        unlock: "Connect your account to the FFXIV mobile app"
+        unlock: "Available if registered in the Companion app"
     }, {
         name: "Tremble",
         command: "/tremble",
-        unlock: "Trade with Eschidna in Rhalgr's Reach"
+        unlock: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
     }, {
         name: "Ultima",
         command: "/ultima",
-        unlock: "Meister Quality Ultima Figure order bonus"
+        unlock: "Item code included with Meister Quality Figure Ultima, the High Seraph"
     }, {
         name: "Victory",
         command: "/vpose",
-        unlock: "Level 60 main quest \"A Spectacle for the Ages\""
+        unlock: "Quest: A Spectacle for the Ages (Level 60 Main Scenario Quest)"
     }, {
         name: "Water Flip",
         command: "/waterflip",
-        unlock: "Level 63 main quest \"In Soroban We Trust\""
+        unlock: "Quest: In Soroban We Trust (Level 63 Main Scenario Quest)"
     }, {
         name: "Winded",
         command: "/winded",
-        unlock: "Trade with Eschidna in Rhalgr's Reach"
+        unlock: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
     }, {
         name: "Yellow Ranger Pose A",
         command: "/yellowrangerposea, /yrpa",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Yellow Ranger Pose B",
         command: "/yellowrangerposeb, /yrpb",
-        unlock: "Moonfire Faire (2016), MogStation: 3 USD / 2.1 EUR"
+        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
     }, {
         name: "Yol Dance",
         command: "/yoldance",
-        unlock: "Trade with Gyosho in Dhoro Iloh"
+        unlock: "Gyosho - Dhoro Iloh - 8 Namazu Koban"
     }, {
         name: "Zantetsuken",
         command: "/zantetsuken, /ztk",
-        unlock: "Item code from purchasing Meister Quality Odin Figure"
+        unlock: "Item code included with Meister Quality Figure Odin"
     }
 ];

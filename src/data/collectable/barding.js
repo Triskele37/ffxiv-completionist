@@ -28,13 +28,13 @@ const tasks = [
         unlock: "3x Achievement Certificate from Jonathas in Apkallu Falls."
     }, {
         name: "Blissful Barding",
-        unlock: "Can be crafted by Goldsmith Recipe 70?"
+        unlock: "Can be crafted by Goldsmith Recipe 70★"
     }, {
         name: "Butlery Barding",
         unlock: "Purchased from the Mog Station for EUR 7 or $10."
     }, {
         name: "Byakko Barding",
-        unlock: "Can be crafted by Goldsmith Recipe 70???"
+        unlock: "Can be crafted by Goldsmith Recipe 70★★★"
     }, {
         name: "Chocobo Raincoat",
         unlock: "Trade 1,650 Yellow Gatherers' Scrip at an Exchange"
@@ -61,7 +61,7 @@ const tasks = [
         unlock: "Purchased from the Mog Station for EUR 4.90 or $7."
     }, {
         name: "Expanse Barding",
-        unlock: "Can be crafted by Armorer Recipe 60?"
+        unlock: "Can be crafted by Armorer Recipe 60★"
     }, {
         name: "Far East Barding",
         unlock: "Purchased from the Mog Station for EUR 7 or $10."
@@ -85,7 +85,7 @@ const tasks = [
         unlock: "Order of the Twin Adder Default Barding"
     }, {
         name: "Hades Barding",
-        unlock: "Can be crafted by Armorer Recipe 80??"
+        unlock: "Can be crafted by Armorer Recipe 80★★"
     }, {
         name: "Highland Barding",
         unlock: "Can be crafted by a Level 40 Leatherworker Recipe"
@@ -94,16 +94,16 @@ const tasks = [
         unlock: "Obtained from Eschina in Rhalgr's Reach for 4 Veteran Clan Mark Logs."
     }, {
         name: "Hive Barding",
-        unlock: "Can be crafted by Armorer Recipe 60?"
+        unlock: "Can be crafted by Armorer Recipe 60★"
     }, {
         name: "Horde Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 60???"
+        unlock: "Can be crafted by Leatherworker Recipe 60★★★"
     }, {
         name: "Ice Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 50????"
+        unlock: "Can be crafted by Leatherworker Recipe 50★★★★"
     }, {
         name: "Innocence Barding",
-        unlock: "Level 80? Armorer recipe."
+        unlock: "Level 80★ Armorer recipe."
     }, {
         name: "Ishgardian Barding",
         unlock: "Purchased with 350 Centurio Seals, obtained from Clan Hunts from Ardolain in Foundation"
@@ -115,7 +115,7 @@ const tasks = [
         unlock: "5 Ixion Horns, acquired from A Horse Outside FATE, to Eschina in Rhalgr's Reach"
     }, {
         name: "Levin Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 50???"
+        unlock: "Can be crafted by Leatherworker Recipe 50★★★"
     }, {
         name: "Lominsan Barding",
         unlock: "Purchased from The Maelstrom vendor for 6000 Company Seals."
@@ -130,7 +130,7 @@ const tasks = [
         unlock: "Maelstrom Default Barding"
     }, {
         name: "Lunar Barding",
-        unlock: "Can be crafted by Weaver Recipe 70???"
+        unlock: "Can be crafted by Weaver Recipe 70★★★"
     }, {
         name: "Machinist Barding",
         unlock: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips."
@@ -166,7 +166,7 @@ const tasks = [
         unlock: "Aquired from duty \"The Forbidden Land, Eureka Anemos\""
     }, {
         name: "Reveler's Barding",
-        unlock: "Can be crafted by Armorer Recipe 70?"
+        unlock: "Can be crafted by Armorer Recipe 70★"
     }, {
         name: "Round Table Barding",
         unlock: "15 Heavens' Ward Helm Fragments traded at Rowena's Center for Cultural Promotion"
@@ -181,19 +181,19 @@ const tasks = [
         unlock: "Aquired from The Forbidden Land, Eureka Pyros"
     }, {
         name: "Seiryu Barding",
-        unlock: "Can be crafted by Armorer Recipe 70????"
+        unlock: "Can be crafted by Armorer Recipe 70★★★★"
     }, {
         name: "Sephirotic Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 60??"
+        unlock: "Can be crafted by Leatherworker Recipe 60★★"
     }, {
         name: "Shinryu Barding",
-        unlock: "Can be crafted by Armorer Recipe 70??"
+        unlock: "Can be crafted by Armorer Recipe 70★★"
     }, {
         name: "Sleipnir Barding",
         unlock: "5 Odin's Mantle, from completing the Odin FATE, to Aelina in Mor Dhona (22,6)."
     }, {
         name: "Sophic Barding",
-        unlock: "Level 60???? Goldsmith recipe."
+        unlock: "Level 60★★★★ Goldsmith recipe."
     }, {
         name: "Sovereign Barding",
         unlock: "Awarded after receiving 300 player commendations."
@@ -202,13 +202,16 @@ const tasks = [
         unlock: "Acquired through Starlight Celebration (2013) Seasonal Event."
     }, {
         name: "Suzaku Barding",
-        unlock: "Can be crafted by Armorer Recipe 70????"
+        unlock: "Can be crafted by Armorer Recipe 70★★★★"
     }, {
         name: "Tidal Barding",
-        unlock: "Can be crafted from recipe by a level 50??? Armorer"
+        unlock: "Can be crafted from recipe by a level 50★★★ Armorer"
     }, {
         name: "Titania Barding",
-        unlock: "Level 80? Armorer recipe."
+        unlock: "Level 80★ Armorer recipe."
+    }, {
+        name: "True Barding of Light",
+        unlock: "Level 80★★★ Armorer recipe."
     }, {
         name: "Ul'dahn Barding",
         unlock: "Purchased from The Immortal Flames vendor for 6000 Company Seals."
@@ -232,6 +235,6 @@ const tasks = [
         unlock: "Drops from Kugane Ohashi Trial"
     }, {
         name: "Zurvanite Barding",
-        unlock: "Crafted  by Level 60???? Armorer"
+        unlock: "Crafted  by Level 60★★★★ Armorer"
     }
 ];

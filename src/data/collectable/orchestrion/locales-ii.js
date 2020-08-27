@@ -115,5 +115,10 @@ const tasks = [
         name: "No Greater Sorrow",
         method: "Available for exchange in Eulmore",
         unlock: "Bought from Pedronille in Eulmore for 350 Bicolor Gemstones."
+    }, {
+        number: 23,
+        name: "Watts's Anvil",
+        method: "Available for exchange in Watts's Anvil.",
+        unlock: "6 Hammered Frogments."
     }
 ];

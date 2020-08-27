@@ -290,5 +290,15 @@ const tasks = [
         name: "The Mendicant's Relish",
         method: "Available for exchange in The Firmament",
         unlock: "Bought from Enie in The Firmament for 1,200 Skybuilders' Scrips"
+    }, {
+        number: 58,
+        name: "Hard To Miss",
+        method: "Obtained from subaquatic voyages.",
+        unlock: "Bought from Enie in The Firmament for 1,200 Skybuilders' Scrips"
+    }, {
+        number: 59,
+        name: "Eternal Wind - Shadowbringers",
+        method: "Materials for synthesis obtained in the Seat of Sacrifice (Extreme).",
+        unlock: ""
     },
 ];

@@ -30,14 +30,25 @@ export class ChangeStore {
         const obj = this.dive(oldPath);
 
         if(obj && obj[key]) {
+            if(this.dive(newPath) === null) console.error(`${newPath} does not exist, create it first`);
             this.dive(newPath)[key] = obj[key];
             delete obj[key];
         }
     }
 
-    //
-    delete(path) {
+    // Change helper to create a group
+    create(pathStart, pathEnd) {
+        const obj = this.dive(pathStart);
+        if(!obj[pathEnd]) obj[pathEnd] = {};
+    }
 
+    // Change helper when task is removed
+    delete(path, key) {
+        const obj = this.dive(path);
+
+        if(obj && obj[key]) {
+            delete obj[key];
+        }
     }
 
     //

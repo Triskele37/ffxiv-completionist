@@ -106,11 +106,6 @@ const tasks = [
         location: "Halfstone (18,21)",
         type: "Slay Enemies"
     }, {
-        level: "45",
-        name: "The Mandragoras",
-        location: "The Isles of Umbra (16,35)",
-        type: "Notorious Monster"
-    }, {
         level: "46",
         name: "Tail of a Whale",
         location: "Sapsa Spawning Grounds (17,16)",

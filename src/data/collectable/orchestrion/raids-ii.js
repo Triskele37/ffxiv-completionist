@@ -80,5 +80,35 @@ const tasks = [
         name: "Return to Oblivion",
         method: "Raid Reward",
         unlock: "Obtained in Eden's Verse"
+    }, {
+        number: 16,
+        name: "Broken Heart",
+        method: "Quest Reward Reward",
+        unlock: "Crime and Punishment (YoRHa: Dark Apocalypse)"
+    }, {
+        number: 17,
+        name: "Amusement Park",
+        method: "Quest Reward",
+        unlock: "We Can Rebuild Her (YoRHa: Dark Apocalypse)"
+    }, {
+        number: 18,
+        name: "Fortress Of Lies",
+        method: "Obtained in the Puppets' Bunker",
+        unlock: ""
+    }, {
+        number: 19,
+        name: "Grandma - Destruction",
+        method: "Obtained in the Puppets' Bunker",
+        unlock: ""
+    }, {
+        number: 20,
+        name: "End Of The Unknown",
+        method: "Obtained in the Puppets' Bunker",
+        unlock: ""
+    }, {
+        number: 21,
+        name: "Torn From The Heavens/The Dark Colossus Destroys All (Medley)",
+        method: "Obtained in the Puppets' Bunker",
+        unlock: ""
     },
 ];

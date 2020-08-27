@@ -102,6 +102,9 @@ const tasks = [
         name: "Ceremony Chocobo",
         unlock: "Obtain from Gold or Platinum Eternal Bond."
     }, {
+        name: "Chocobo Carriage",
+        unlock: ""
+    }, {
         name: "Circus Ahriman",
         unlock: "All Saint's Wake 2019"
     }, {
@@ -146,6 +149,9 @@ const tasks = [
     }, {
         name: "Eggshilaration System",
         unlock: "Purchased from the Mog Station for EUR 8.40 or $12."
+    }, {
+        name: "Ehll Tou",
+        unlock: "Completion of the level 70 Ishgardian Restoration Sidequest on Ehll Tou's Wings"
     }, {
         name: "Eldthurs",
         unlock: "Forbidden Land, Eureka Pyros"
@@ -228,11 +234,17 @@ const tasks = [
         name: "Gullfaxi",
         unlock: "Dropped by Titan in The Navel (Extreme)."
     }, {
+        name: "Gwiber of Light",
+        unlock: "Rare drop from The Seat of Sacrifice (Extreme)"
+    }, {
         name: "Hallowed Kamuy",
         unlock: "Rare drop from the Wreath of Snakes (Extreme)."
     }, {
         name: "Hybodus",
         unlock: "Awarded from the achievement No More Fish In The Sea II"
+    }, {
+        name: "Incitatus",
+        unlock: "Purchased with 600 Faux Leaves or 1 Khloe's Gold Certificate of Commendation"
     }, {
         name: "Indigo Whale",
         unlock: "Purchased from the Mog Station for EUR 20 or $29."
@@ -245,6 +257,9 @@ const tasks = [
     }, {
         name: "Ixion",
         unlock: "Trade 12 Ixion Horns to Eschina."
+    }, {
+        name: "Jibanyan Couch",
+        unlock: "From the Yo-kai Watch: Gather One, Gather All! Seasonal Event."
     }, {
         name: "Juedi",
         unlock: "Have all 4 Empyrean Accessories in your inventory and speak with Cast-off Confederate in Crick."
@@ -305,6 +320,9 @@ const tasks = [
     }, {
         name: "Magitek Death Claw",
         unlock: "6x Achievement Certificate from Jonathas in New Gridania."
+    }, {
+        name: "Magitek Hyperconveyor",
+        unlock: "The Feast Season 16 Reward"
     }, {
         name: "Magitek Predator",
         unlock: "Dropped by Zenos yae Galvus in the dungeon Ala Mhigo (Dungeon)."
@@ -398,6 +416,9 @@ const tasks = [
     }, {
         name: "Reveling Kamuy",
         unlock: "Rare drop from The Pool of Tribute (Extreme) (Susano Ex)."
+    }, {
+        name: "Rolling Tankard",
+        unlock: "18x Hammered Frogments from Mizutt"
     }, {
         name: "Rose Lanner",
         unlock: "Rare drop from Thok ast Thok (Extreme)."

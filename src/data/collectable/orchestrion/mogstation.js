@@ -8,102 +8,117 @@ const tasks = [
     {
         number: 1,
         name: "Oblivion (Orchestral)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 2,
         name: "Revenge Twofold (Orchestral)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 3,
         name: "Rise of the White Raven (Orchestral)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 4,
         name: "Serenity (Orchestral Version)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 5,
         name: "Calamity Unbound (Orchestral Version)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 6,
         name: "Ominous Prognisticks (Orchestral Version)",
-        method: "Mogstation Purchase",
-        unlock: "Purchase via Mogstation for $5 / �3.50"
+        method: "Available for purchase on the online store or via promotional bonuses.",
+        unlock: ""
     }, {
         number: 7,
         name: "Unbending Steel (Duality)",
-        method: "",
-        unlock: "Buying the \"Duality\" Arrangement Album"
+        method: "Obtained with a promotional code.",
+        unlock: "FINAL FANTASY XIV: DUALITY Arrangement Album"
     }, {
         number: 8,
         name: "Borderless (Duality)",
-        method: "",
-        unlock: "Buying the \"Duality\" Arrangement Album"
+        method: "Obtained with a promotional code.",
+        unlock: "FINAL FANTASY XIV: DUALITY Arrangement Album"
     }, {
         number: 9,
         name: "Heroes (Orchestral)",
-        method: "",
-        unlock: "Buying the \"Eorzean Symphony\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album"
     }, {
         number: 10,
         name: "Ultima (Orchestral)",
-        method: "",
-        unlock: "Buying the \"Eorzean Symphony\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album"
     }, {
         number: 11,
         name: "eScape (Journeys Version) Orchestrion Roll",
-        method: "",
-        unlock: "Buying the \"Journeys: FINAL FANTASY XIV Arrangement\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "Journeys: FINAL FANTASY XIV Arrangement Album"
     }, {
         number: 12,
         name: "The Worm's Tale (Journeys Version)",
-        method: "",
-        unlock: "Buying the \"Journeys: FINAL FANTASY XIV Arrangement\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "Journeys: FINAL FANTASY XIV Arrangement Album"
     }, {
         number: 13,
         name: "Oblivion (GUNN Vocals)",
-        method: "",
-        unlock: "Buying the \"Primals Zepp Tour 2018\" Blu-Ray"
+        method: "Obtained with a promotional code.",
+        unlock: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow"
     }, {
         number: 14,
         name: "Rise (The Primals)",
-        method: "",
-        unlock: "Buying the \"Primals Zepp Tour 2018\" Blu-Ray"
+        method: "Obtained with a promotional code.",
+        unlock: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow"
     }, {
         number: 15,
         name: "Moebius (Orchestral Version)",
         method: "",
-        unlock: "Currently Unknown"
+        unlock: "Unknown"
     }, {
         number: 16,
         name: "Painted Foothills (Orchestral Version)",
         method: "",
-        unlock: "Currently Unknown"
+        unlock: "Unknown"
     }, {
         number: 17,
         name: "Wayward Daughter (Chiptune Version)",
-        method: "",
-        unlock: "Buying \"The Best\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "FINAL FANTASY XIV - The Best Compilation Album"
     }, {
         number: 18,
         name: "The Worm's Tail (Chiptune Version)",
-        method: "",
-        unlock: "Buying \"The Best\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "FINAL FANTASY XIV - The Best Compilation Album"
     }, {
         number: 19,
         name: "The Worm's Tail (Orchestral Version)",
-        method: "",
-        unlock: "Buying \"Eorzean Symphony: Final Fantasy XIV Orchestral Album Vol. 2\" Album"
+        method: "Obtained with a promotional code.",
+        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2"
     }, {
         number: 20,
         name: "Tsukuyomi's Pain (Orchestral Version)",
+        method: "Obtained with a promotional code.",
+        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2"
+    }, {
+        number: 21,
+        name: "A New Hope (Piano Collections)",
         method: "",
-        unlock: "Buying \"Eorzean Symphony: Final Fantasy XIV Orchestral Album Vol. 2\" Album"
+        unlock: "Unknown"
+    }, {
+        number: 22,
+        name: "Wailers And Waterwheels (Piano Collections)",
+        method: "",
+        unlock: "Unknown"
+    }, {
+        number: 23,
+        name: "I Am The Sea (Piano Collections)",
+        method: "",
+        unlock: "Unknown"
     }
 ];

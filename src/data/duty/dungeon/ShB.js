@@ -57,7 +57,7 @@ const tasks = [
 		level: "80",
 		iLvlReq: "430",
 		name: "The Grand Cosmos",
-		roulette: "Expert",
+		roulette: "Level 80",
 		unlock: "A Grand Adventure"
 	}, {
 		level: "80",
@@ -65,5 +65,11 @@ const tasks = [
 		name: "Anamnesis Anyder",
 		roulette: "Expert",
 		unlock: "Beneath the Surface"
+	}, {
+		level: "80",
+		iLvlReq: "460",
+		name: "The Heroes' Gauntlet",
+		roulette: "Expert",
+		unlock: "The Converging Light"
 	}
 ];

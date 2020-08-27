@@ -116,5 +116,11 @@ const tasks = [
     	name: "Eden's Verse: Refulgence (Savage)",
     	roulette: "-",
     	unlock: "On Thin Ice"
-    },
+    }, {
+		level: "80",
+		iLvlReq: "465",
+		name: "The Puppets' Bunker",
+		roulette: "Alliance Raids",
+		unlock: "Everything You Know Is Wrong"
+	}
 ];

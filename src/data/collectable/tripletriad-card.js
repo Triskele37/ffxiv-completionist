@@ -83,6 +83,12 @@ const tasks = [
         opponent: "",
         unlock: "Starter Deck"
     }, {
+        name: "Dwarf",
+        rarity: "★",
+        type: "Beastman",
+        opponent: "Cobleva",
+        unlock: ""
+    }, {
         name: "Evil Weapon",
         rarity: "★",
         type: "None",
@@ -587,6 +593,12 @@ const tasks = [
         opponent: "O'kalkaya",
         unlock: ""
     }, {
+        name: "Rolling Tankard",
+        rarity: "★★",
+        type: "None",
+        opponent: "Cobleva",
+        unlock: ""
+    }, {
         name: "Runar",
         rarity: "★★",
         type: "None",
@@ -953,6 +965,12 @@ const tasks = [
         opponent: "Wawalago",
         unlock: ""
     }, {
+        name: "Lugus",
+        rarity: "★★★",
+        type: "None",
+        opponent: "",
+        unlock: "21,000 MGP"
+    }, {
         name: "Lupin",
         rarity: "★★★",
         type: "Beastman",
@@ -1301,6 +1319,12 @@ const tasks = [
         opponent: "",
         unlock: "Drops from Dun Scaith"
     }, {
+        name: "Elidibus",
+        rarity: "★★★★",
+        type: "None",
+        opponent: "",
+        unlock: "56,000 MGP"
+    }, {
         name: "F'lhaminn",
         rarity: "★★★★",
         type: "Scion",
@@ -1421,6 +1445,12 @@ const tasks = [
         opponent: "",
         unlock: "Drop from Cinder Drift, Cinder Drift (Extreme)"
     }, {
+        name: "Sapphire Weapon",
+        rarity: "★★★★",
+        type: "Garlean",
+        opponent: "Furtive Former Imperial",
+        unlock: ""
+    }, {
         name: "Senor Sabotender",
         rarity: "★★★★",
         type: "None",
@@ -1433,15 +1463,21 @@ const tasks = [
         opponent: "",
         unlock: "Containment Bay S1T7"
     }, {
+        name: "Shadowbringers Thancred",
+        rarity: "★★★★",
+        type: "Scion",
+        opponent: "",
+        unlock: "Complete Triple-decker X achievement"
+    }, {
         name: "Shadowbringers Urianger",
         rarity: "★★★★",
-        type: "None",
+        type: "Scion",
         opponent: "",
         unlock: "Complete Triple-decker IX achievement"
     }, {
         name: "Shadowbringers Y'shtola",
         rarity: "★★★★",
-        type: "None",
+        type: "Scion",
         opponent: "Hargra",
         unlock: ""
     }, {
@@ -1504,6 +1540,12 @@ const tasks = [
         type: "Garlean",
         opponent: "Imperial Soldier",
         unlock: ""
+    }, {
+        name: "2P",
+        rarity: "★★★★★",
+        type: "None",
+        opponent: "",
+        unlock: "Drops from The Puppets' Bunker"
     }, {
         name: "9S",
         rarity: "★★★★★",
@@ -1678,6 +1720,12 @@ const tasks = [
         type: "Garlean",
         opponent: "Idle Imperial",
         unlock: "Random from Imperial Triad Card"
+    }, {
+        name: "Shadowbringers Warrior of Light",
+        rarity: "★★★★★",
+        type: "Primal",
+        opponent: "",
+        unlock: "The Seat of Sacrifice, The Seat of Sacrifice (Extreme)"
     }, {
         name: "Shantotto",
         rarity: "★★★★★",

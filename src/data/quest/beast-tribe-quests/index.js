@@ -13,6 +13,7 @@ import { Quests_Beast_Tribe_Ananta } from "./ananta";
 import { Quests_Beast_Tribe_Namazu } from "./namazu";
 import { Quests_Beast_Tribe_Pixie } from "./pixie";
 import { Quests_Beast_Tribe_Qitari } from "./qitari";
+import { Quests_Beast_Tribe_Dwarf } from "./dwarf";
 
 export const Quests_Beast_Tribe = function(parent) {
     const data = new DataGroup("Beast Tribe", parent);
@@ -43,6 +44,7 @@ export const Quests_Beast_Tribe = function(parent) {
         Quests_Beast_Tribe_Namazu,
         Quests_Beast_Tribe_Pixie,
         Quests_Beast_Tribe_Qitari,
+        Quests_Beast_Tribe_Dwarf,
     ]);
 
     return data;

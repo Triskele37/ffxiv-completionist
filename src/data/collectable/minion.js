@@ -10,6 +10,14 @@ export const Collectables_Minion_Guide = function(parent) {
 
 const tasks = [
     {
+        name: "2B Automaton",
+        method: "Duty",
+        unlock: "Found in chest after final boss of The Puppets' Bunker"
+    }, {
+        name: "2P Automaton",
+        method: "Duty",
+        unlock: "Found in chest after final boss of The Puppets' Bunker"
+    }, {
         name: "Abroader Otter",
         method: "Voyages",
         unlock: "Deep Sea Site 7 Voyage"
@@ -17,6 +25,10 @@ const tasks = [
         name: "Accompaniment Node",
         method: "Quest Reward",
         unlock: "Complete the Level 60 sidequest Do It for Gilly."
+    }, {
+        name: "Allagan Melon",
+        method: "Gardening",
+        unlock: "Gardening"
     }, {
         name: "Ancient One",
         method: "Duty",
@@ -246,6 +258,10 @@ const tasks = [
         method: "Purchased",
         unlock: "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals (Requires Level 60 BLU)"
     }, {
+        name: "Damona",
+        method: "Seasonal Event",
+        unlock: "Acquired from Yo-kai Watch: Gather One, Gather All!."
+    }, {
         name: "Demon Box",
         method: "Other",
         unlock: "Attending an Eternal Bond ceremony of Gold or Platinum tier."
@@ -313,6 +329,10 @@ const tasks = [
         name: "Enkidu",
         method: "Trials",
         unlock: "Obtained from Battle in the Big Keep."
+    }, {
+        name: "Ephemeral Necromancer",
+        method: "Quest Reward",
+        unlock: "Complete the Level 80 Main Scenario Quest \"The Converging Light\""
     }, {
         name: "Faepup",
         method: "PvP",
@@ -482,6 +502,10 @@ const tasks = [
         method: "Achievements",
         unlock: "Complete the Crafting in the Air achievement."
     }, {
+        name: "Lalinator 5.HO",
+        method: "Purchased",
+        unlock: "8x Hammered Frogments from the Dwarven Reputation Vendor"
+    }, {
         name: "Lesser Panda",
         method: "Duty",
         unlock: "Found in chest after final boss of The Aery."
@@ -505,6 +529,14 @@ const tasks = [
         name: "Littlefoot",
         method: "Retainer Ventures",
         unlock: "Woodland Exploration XIV-XVIII Botanist Retainer Venture"
+    }, {
+        name: "Lord Ananta",
+        method: "Seasonal Event",
+        unlock: "Acquired from Yo-kai Watch: Gather One, Gather All!."
+    }, {
+        name: "Lord Enma",
+        method: "Seasonal Event",
+        unlock: "Acquired from Yo-kai Watch: Gather One, Gather All!."
     }, {
         name: "Magic Broom",
         method: "Crafted",
@@ -762,6 +794,10 @@ const tasks = [
         method: "Duty",
         unlock: "Dropped in The Drowned City of Skalla"
     }, {
+        name: "Sand Fox",
+        method: "Purchased",
+        unlock: "Purchased from Faux Commander for 400 Faux Leaves"
+    }, {
         name: "Scarlet Peacock",
         method: "Crafted",
         unlock: "Level 70 ??? Weaver recipe."
@@ -977,6 +1013,10 @@ const tasks = [
         name: "Wind-up Ananta",
         method: "Purchased",
         unlock: "7x Ananta Dreamstaff from the Ananta Reputation Vendor"
+    }, {
+        name: "Wind-up Ardbert",
+        method: "Seasonal Event",
+        unlock: "Complete the event quest \"Glass from the Past\""
     }, {
         name: "Wind-up Aymeric",
         method: "Quest Reward",
@@ -1246,6 +1286,10 @@ const tasks = [
         method: "Other",
         unlock: "Trade 1 Hi-Elixir to the Magic Pot on The Isles of Umbra."
     }, {
+        name: "Wind-up Mystel",
+        method: "Quest Reward",
+        unlock: "Complete Level 80 Main Scenario Quest \"Unto the Morrow\""
+    }, {
         name: "Wind-up Namazu",
         method: "Treasure Hunt",
         unlock: "Rarely from Gazelleskin Treasure Maps."
@@ -1477,6 +1521,10 @@ const tasks = [
         name: "Zephyrous Zabuton",
         method: "Purchased",
         unlock: "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe."
+    }, {
+        name: "Zazel",
+        method: "Seasonal Event",
+        unlock: "Acquired from Yo-kai Watch: Gather One, Gather All!."
     }, {
         name: "Zu Hatchling",
         method: "Purchased",

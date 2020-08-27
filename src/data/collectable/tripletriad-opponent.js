@@ -308,6 +308,16 @@ const tasks = [
         fee: 15
     }, {
         deckStrength: 19,
+        name: "Cobleva",
+        zone: "Lakeland",
+        location: "Clearmelt (14.3,7.8)",
+        rules: "Plus, Reverse",
+        drops: "Dwarf, Rolling Tankard",
+        timeAvailable: "X",
+        prerequisite: "Quest: Tanks for the Memory (Level 70 Dwarf Beast Tribe Quest)",
+        fee: 25
+    }, {
+        deckStrength: 19,
         name: "Eo Sigun",
         zone: "Norvrandt",
         location: "Il Mheg (22,3)",
@@ -756,6 +766,16 @@ const tasks = [
         timeAvailable: "X",
         prerequisite: "X",
         fee: 25
+    }, {
+        deckStrength: 23,
+        name: "Furtive Former Imperial",
+        zone: "???",
+        location: "Terncliff (5.0,6.3)",
+        rules: "Swap, Fallen Ace",
+        drops: "Sapphire Weapon",
+        timeAvailable: "X",
+        prerequisite: "Quest: Sleep Now in Sapphire (Level 80 Chronicles of a New Era Quest)",
+        fee: 40
     }, {
         deckStrength: 23,
         name: "Grewenn",

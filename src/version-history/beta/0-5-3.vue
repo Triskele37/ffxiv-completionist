@@ -10,12 +10,7 @@
         <h2>Data</h2>
         <ul>
             <li>Added 5.3 content</li>
-            <li>Ingesting data via XIVAPI
-                <ul>
-                    <li>Achievements & Quests using XIVAPI</li>
-                    <li>Working on recipes</li>
-                </ul>
-            </li>
+            <li>Removed ARR quests (users will need to re-enter completion for all 3 "Call of the Sea" quests, found in the ARR MSQ starting area quests)</li>
         </ul>
 
         <h3>Known Issues (planned to be resolved)</h3>

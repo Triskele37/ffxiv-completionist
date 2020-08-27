@@ -3,8 +3,7 @@ import { Quests_Main_Scenario_Seventh_Umbral_Era_Gridania } from "./gridania";
 import { Quests_Main_Scenario_Seventh_Umbral_Era_Limsa_Lominsa } from "./limsa-lominsa";
 import { Quests_Main_Scenario_Seventh_Umbral_Era_Ul_Dah } from "./ul-dah";
 
-import all from "../../../../../static/quest/main-scenario-past/seventh-umbral-era-main-scenario-quests/seventh-umbral-era";
-const tasks = all.filter((quest) => quest.Level >= 15);
+import tasks from "../../../../../static/quest/main-scenario-past/seventh-umbral-era-main-scenario-quests/seventh-umbral-era";
 
 export const Quests_Main_Scenario_Seventh_Umbral_Era = function(parent) {
     return new DataGroup("Seventh Umbral Era", parent).initializeSubGroups([

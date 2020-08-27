@@ -34,6 +34,13 @@ const tasks = [
 		roulette: "Trials",
 		unlock: "Ruby Doomsday"
 	}, {
+		level: "80",
+		iLvlReq: "465",
+		name: "The Seat of Sacrifice",
+		boss: "Warrior of Light",
+		roulette: "Trials",
+		unlock: "Hope's Confluence"
+	}, {
     	level: "80",
     	iLvlReq: "430",
     	name: "The Dancing Plague (Extreme)",
@@ -68,5 +75,12 @@ const tasks = [
 		boss: "Varis yae Galvus",
 		roulette: "-",
 		unlock: "Wandering Dramaturge"
-	},
+	}, {
+		level: "80",
+		iLvlReq: "480",
+		name: "The Seat of Sacrifice (Extreme)",
+		boss: "Warrior of Light",
+		roulette: "-",
+		unlock: "Minstrel from Another Mother"
+	}
 ];
