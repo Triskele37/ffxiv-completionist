@@ -6,114 +6,157 @@ export const Collectables_Orchestrion_List_Seasonal = function(parent) {
 
 const tasks = [
     {
-        number: 1,
+        number: "-",
         name: "Pa-Paya",
-        method: "Mogstation Purchase",
-        unlock: "Hatching-tide (2016) Seasonal Event. MogStation: 3 USD / 2.1 EUR"
-    }, {
-        number: 2,
+        methodType: "Seasonal event reward.",
+        method: "Hatching-tide (2016), Final Fantasy XIV Online Store",
+        patch: "3.25",
+    },
+    {
+        number: "-",
         name: "Moonfire Faire",
-        method: "Mogstation Purchase",
-        unlock: "Moonfire Faire (2016) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 3,
+        methodType: "Seasonal event reward.",
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.3",
+    },
+    {
+        number: "-",
         name: "Heavensward",
-        method: "Mogstation Purchase",
-        unlock: "The Rising (2016) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 4,
+        methodType: "Seasonal event reward.",
+        method: "The Rising (2016), Final Fantasy XIV Online Store",
+        patch: "3.3",
+    },
+    {
+        number: "-",
         name: "All Saints' Wake",
-        method: "Mogstation Purchase",
-        unlock: "All Saints' Wake (2016) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 5,
+        methodType: "Seasonal event reward.",
+        method: "All Saints' Wake (2016), Final Fantasy XIV Online Store",
+        patch: "3.4",
+    },
+    {
+        number: "-",
         name: "Up at Dawn",
-        method: "Mogstation Purchase",
-        unlock: "All Saints' Wake (2016) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 6,
+        methodType: "Seasonal event reward.",
+        method: "All Saints' Wake (2016), Final Fantasy XIV Online Store",
+        patch: "3.4",
+    },
+    {
+        number: "-",
         name: "Starlight Celebration",
-        method: "Mogstation Purchase",
-        unlock: "Starlight Celebration Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 7,
+        methodType: "Seasonal event reward.",
+        method: "Starlight Celebration (2016), Final Fantasy XIV Online Store",
+        patch: "3.45",
+    },
+    {
+        number: "-",
         name: "Heavensturn",
-        method: "Mogstation Purchase",
-        unlock: "Heavensturn (2017) Seasonal Event. MogStation: 3 USD / 2.1 EUR"
-    }, {
-        number: 8,
+        methodType: "Seasonal event reward.",
+        method: "Heavensturn (2017), Final Fantasy XIV Online Store",
+        patch: "3.45",
+    },
+    {
+        number: "-",
         name: "The Kiss",
-        method: "Mogstation Purchase",
-        unlock: "Valentione's Day (2017) Seasonal Event. MogStation: 3 USD / 2.1 EUR"
-    }, {
-        number: 9,
+        methodType: "Seasonal event reward.",
+        method: "Valentione's Day (2017), Final Fantasy XIV Online Store",
+        patch: "3.5",
+    },
+    {
+        number: "-",
         name: "Hyper Rainbow Z",
-        method: "Mogstation Purchase",
-        unlock: "Moonfire Faire (2017) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 10,
+        methodType: "Seasonal event reward.",
+        method: "Moonfire Faire (2017), Final Fantasy XIV Online Store",
+        patch: "4.05",
+    },
+    {
+        number: "-",
         name: "Answers - Reprise",
-        method: "Mogstation Purchase",
-        unlock: "The Rising (2017) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 11,
+        methodType: "Seasonal event reward.",
+        method: "The Rising (2017), Final Fantasy XIV Online Store",
+        patch: "4.05",
+    },
+    {
+        number: "-",
         name: "Stormblood",
-        method: "Mogstation Purchase",
-        unlock: "The Rising (2017) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 12,
+        methodType: "Seasonal event reward.",
+        method: "The Rising (2017), Final Fantasy XIV Online Store",
+        patch: "4.05",
+    },
+    {
+        number: "-",
         name: "Starlit Gateway",
-        method: "Mogstation Purchase",
-        unlock: "Starlight Celebration (2017) Seasonal Event. 3 USD / 2.1 EUR"
-    }, {
-        number: 13,
+        methodType: "Seasonal event reward.",
+        method: "Starlight Celebration (2017), Final Fantasy XIV Online Store",
+        patch: "4.1",
+    },
+    {
+        number: "-",
         name: "Siren Song",
-        method: "",
-        unlock: "Little Ladies' Day (2018) Seasonal Event"
-    }, {
-        number: 14,
+        methodType: "Seasonal event reward.",
+        method: "Little Ladies' Day (2018), Final Fantasy XIV Online Store",
+        patch: "4.2",
+    },
+    {
+        number: "-",
         name: "Revolutions",
-        method: "",
-        unlock: "The Rising (2018) Seasonal Event"
-    }, {
-        number: 15,
+        methodType: "Seasonal event reward.",
+        method: "The Rising (2018), Final Fantasy XIV Online Store",
+        patch: "4.35",
+    },
+    {
+        number: "-",
         name: "Starlight, Starbright",
-        method: "",
-        unlock: "Starlight Celebration (2018) Seasonal Event"
-    }, {
-        number: 16,
+        methodType: "Seasonal event reward.",
+        method: "Starlight Celebration (2018), Final Fantasy XIV Online Store",
+        patch: "4.4",
+    },
+    {
+        number: "-",
         name: "Hammerhead",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 17,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Valse di Fantastica",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 18,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Relax and Reflect",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 19,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Veiled in Black",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 20,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Apocalypsis Noctis",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 21,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "A Quick Pit Stop",
-        method: "Final Fantasy XV Crossover Event",
-        unlock: "Trade Unidentified Magitek with Ironworks Hand"
-    }, {
-        number: 22,
+        methodType: "Available for unidentified magitek exchange from Ironworks hands.",
+        method: "Trade Unidentified Magitek with Ironworks Hand",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Starlight De Chocobo",
-        method: "",
-        unlock: "Starlight Celebration (2019) Seasonal Event"
-    }
+        methodType: "Seasonal event reward.",
+        method: "Starlight Celebration (2019)",
+        patch: "5.1",
+    },
 ];

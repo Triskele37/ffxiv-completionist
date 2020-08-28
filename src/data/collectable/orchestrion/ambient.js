@@ -6,69 +6,94 @@ export const Collectables_Orchestrion_List_Ambient = function(parent) {
 
 const tasks = [
     {
-       number: 1,
-       name: "Ambient Birdsong",
-       method: "Available for purchase in residential areas.",
-       unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-   }, {
-        number: 2,
+        number: "1",
+        name: "Ambient Birdsong",
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.0",
+    },
+    {
+        number: "2",
         name: "Ambient Waves",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 3,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.0",
+    },
+    {
+        number: "3",
         name: "Ambient Rainfall",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 4,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.0",
+    },
+    {
+        number: "4",
         name: "Ambient Cricketsong",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 5,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.0",
+    },
+    {
+        number: "5",
         name: "Ambient Insects",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 6,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "6",
         name: "Ambient Bonfire",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 7,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "7",
         name: "Ambient Kitchen",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 8,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "8",
         name: "Babbling Brook",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 9,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.2",
+    },
+    {
+        number: "9",
         name: "Bustling Boulevard",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 10,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.2",
+    },
+    {
+        number: "10",
         name: "Temple Bell",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 11,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.2",
+    },
+    {
+        number: "11",
         name: "Chapel Bell",
-        method: "Available for purchase in residential areas.",
-        unlock: "Bought from Housing Merchant in Residential Districts for 5,000 Gil."
-    }, {
-        number: 12,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.2",
+    },
+    {
+        number: "12",
         name: "Ambient Wind Chime",
-        method: "Bought from Housing Merchant",
-        unlock: "Purchased from Housing/Apartment merchant"
-    }, {
-        number: 13,
+        methodType: "Available for purchase in residential areas.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "13",
         name: "Ambient Abyss",
-        method: "Find faded copy",
-        unlock: "Acquired from The Mystic Basin"
+        methodType: "Materials for synthesis obtained on subaquatic voyages.",
+        method: "",
+        patch: "4.3",
     },
 ];

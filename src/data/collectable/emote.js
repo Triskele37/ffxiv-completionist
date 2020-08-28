@@ -4,7 +4,8 @@ export const Collectables_Emotes = function(parent) {
     return new DataGroup("Emotes", parent).initializeTasks(tasks, [
         { header: 'Emote', key: 'name', },
         { header: 'Command', key: 'command', },
-        { header: 'Unlock', key: 'unlock' },
+        { header: 'Method', key: 'method' },
+        { header: 'Patch', key: 'patch', filterable: true },
     ]);
 };
 
@@ -12,386 +13,571 @@ const tasks = [
     {
         name: "Aback",
         command: "/aback",
-        unlock: "Kasumi - Gold Saucer - 5,000 gil"
-    }, {
+        method: "Kasumi - The Gold Saucer - 5,000 Gil",
+        patch: "4.2"
+    },
+    {
         name: "At Ease",
         command: "/atease",
-        unlock: "40,000 Company Seals"
-    }, {
+        method: "40,000 Company Seals",
+        patch: "4.1"
+    },
+    {
         name: "Attention",
         command: "/attention",
-        unlock: "40,000 Company Seals"
-    }, {
+        method: "40,000 Company Seals",
+        patch: "4.1"
+    },
+    {
         name: "Backflip",
         command: "/backflip, /bflip",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "3.5"
+    },
+    {
         name: "Ball Dance",
         command: "/balldance",
-        unlock: "Quest: Help Me, Lord of the Dance (Level 14 Thanalan Sidequest)"
-    }, {
+        method: "Quest: Help Me, Lord of the Dance (Level 14 Thanalan Sidequest)",
+        patch: "2.2"
+    },
+    {
         name: "Battle Stance",
         command: "/battlestance, /bstance",
-        unlock: "Quest: Causes and Costs (Level 60 Main Scenario Quest)"
-    }, {
+        method: "Quest: Causes and Costs (Level 60 Main Scenario Quest)",
+        patch: "3.2"
+    },
+    {
         name: "Bee's Knees",
         command: "/beesknees",
-        unlock: "80,000 MGP"
-    }, {
+        method: "80,000 MGP",
+        patch: "5.3"
+    },
+    {
         name: "Big Grin",
         command: "/biggrin",
-        unlock: "20,000 MPG"
-    }, {
+        method: "20,000 MGP",
+        patch: "4.2"
+    },
+    {
         name: "Black Ranger Pose A",
         command: "/blackrangerposea, /brpa",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Black Ranger Pose B",
         command: "/blackrangerposeb, /brpb",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Bomb Dance",
         command: "/bombdance",
-        unlock: "Moonfire Faire (2014), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2014), Final Fantasy XIV Online Store",
+        patch: "2.3"
+    },
+    {
         name: "Box",
         command: "/box",
-        unlock: "Quest: Arenvald's Adventure (Level 70 Main Scenario Quest)"
-    }, {
+        method: "Quest: Arenvald's Adventure (Level 70 Main Scenario Quest)",
+        patch: "4.1"
+    },
+    {
         name: "Box Step",
         command: "/boxstep",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.4"
+    },
+    {
         name: "Breath Control",
         command: "/breathcontrol",
-        unlock: "Achievement: Dear Leader I"
-    }, {
+        method: "Achievement: Dear Leader I",
+        patch: "4.1"
+    },
+    {
         name: "Charmed",
         command: "/charmed",
-        unlock: "Madhura - Castellum Velodyna - 5 Ananta Dreamstaffs"
-    }, {
+        method: "Madhura - Castellum Velodyna - 5 Ananta Dreamstaffs",
+        patch: "4.2"
+    },
+    {
         name: "Cheer Jump",
         command: "/cheerjump",
-        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
-    }, {
+        method: "Little Ladies' Day (2018), Final Fantasy XIV Online Store",
+        patch: "4.2"
+    },
+    {
         name: "Cheer On",
         command: "/cheeron",
-        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
-    }, {
+        method: "Little Ladies' Day (2018), Final Fantasy XIV Online Store",
+        patch: "4.2"
+    },
+    {
         name: "Cheer Wave",
         command: "/cheerwave",
-        unlock: "Little Ladies' Day (2018), Final Fantasy XIV Online Store"
-    }, {
+        method: "Little Ladies' Day (2018), Final Fantasy XIV Online Store",
+        patch: "4.2"
+    },
+    {
         name: "Confirm",
         command: "/confirm",
-        unlock: "The Lost Canals Of Uznair, The Hidden Canals Of Uznair, The Shifting Altars Of Uznair"
-    }, {
+        method: "The Lost Canals Of Uznair, The Hidden Canals Of Uznair, The Shifting Altars Of Uznair",
+        patch: "4.4"
+    },
+    {
         name: "Consider",
         command: "/consider, /hmm",
-        unlock: ""
-    }, {
+        method: "",
+        patch: "5.3"
+    },
+    {
         name: "Crimson Lotus",
         command: "/crimsonlotus",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.3"
+    },
+    {
         name: "Diamond Dust",
         command: "/iceheart",
-        unlock: "Item code included with Meister Quality Figure Shiva"
-    }, {
+        method: "Item code included with Meister Quality Figure Shiva",
+        patch: "4.05"
+    },
+    {
         name: "Dote",
         command: "/dote",
-        unlock: "Valentione's Day (2017), Final Fantasy XIV Online Store"
-    }, {
+        method: "Valentione's Day (2017), Final Fantasy XIV Online Store",
+        patch: "3.5"
+    },
+    {
         name: "Eastern Bow",
         command: "/easternbow, /ebow",
-        unlock: "Quest: Confederate Consternation (Level 62 Main Scenario Quest)"
-    }, {
+        method: "Quest: Confederate Consternation (Level 62 Main Scenario Quest)",
+        patch: "4.0"
+    },
+    {
         name: "Eastern Dance",
         command: "/edance",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.0"
+    },
+    {
         name: "Eastern Greeting",
         command: "/easterngreeting",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "3.4"
+    },
+    {
         name: "Eastern Stretch",
         command: "/estretch",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.0"
+    },
+    {
         name: "Eat Bread",
         command: "/bread, /breakfast",
-        unlock: "Kupo of Fortune"
-    }, {
-        name: "Egi Glamour",
-        command: "/egiglamour",
-        unlock: "Level 50 side quest \"An Egi by Any Other Name\""
-    }, {
+        method: "Kupo of Fortune",
+        patch: "5.21"
+    },
+    {
         name: "Elucidate",
         command: "/elucidate",
-        unlock: "15,000 Wolf Marks"
-    }, {
+        method: "15,000 Wolf Marks",
+        patch: "4.3"
+    },
+    {
         name: "Embrace",
         command: "/embrace",
-        unlock: "Quest: The Ties That Bind (Level 1 Other Quest)"
-    }, {
+        method: "Quest: The Ties That Bind (Level 1 Other Quest)",
+        patch: "2.45"
+    },
+    {
         name: "Endure",
         command: "/endure",
-        unlock: "Quest: The Call (Level 70 Main Scenario Quest)"
-    }, {
+        method: "Quest: The Call (Level 70 Main Scenario Quest)",
+        patch: "4.4"
+    },
+    {
         name: "Eureka",
         command: "/eureka",
-        unlock: "The Make It Rain Campain (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "The Make It Rain Campain (2016), Final Fantasy XIV Online Store",
+        patch: "3.25"
+    },
+    {
         name: "Fist Bump",
         command: "/fistbump",
-        unlock: "Recruit a Friend Campaign reward"
-    }, {
+        method: "Recruit a Friend Campaign reward",
+        patch: "3.0"
+    },
+    {
         name: "Fist Pump",
         command: "/fistpump",
-        unlock: "Moisture-warped Lockbox - Eureka Hydatos"
-    }, {
+        method: "Moisture-warped Lockbox - Eureka Hydatos",
+        patch: "4.5"
+    },
+    {
         name: "Flame Dance",
         command: "/flamedance",
-        unlock: "Moonfire Faire (2020)"
-    }, {
+        method: "Moonfire Faire (2020)",
+        patch: "5.3"
+    },
+    {
         name: "Get Fantasy",
         command: "/getfantasy",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.45"
+    },
+    {
         name: "Gold Dance",
         command: "/golddance, /gdance",
-        unlock: "80,000 MPG"
-    }, {
+        method: "80,000 MGP",
+        patch: "3.1"
+    },
+    {
         name: "Goobbue Do",
         command: "/mysterymachine, /goobbuedo",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "5.2"
+    },
+    {
         name: "Gratuity",
         command: "/gratuity, /makeithail",
-        unlock: "Quest: What a Wonder-full World (Level 70 Side Story Quest)"
-    }, {
+        method: "Quest: What a Wonder-full World (Level 70 Side Story Quest)",
+        patch: "4.5"
+    },
+    {
         name: "Greeting",
         command: "/greet",
-        unlock: "Quest: Tidings from the East (Level 70 Main Scenario Quest)"
-    }, {
+        method: "Quest: Tidings from the East (Level 70 Main Scenario Quest)",
+        patch: "4.2"
+    },
+    {
         name: "Harvest Dance",
         command: "/harvestdance",
-        unlock: "Quest: Saw That One Coming (Level 14 Black Shroud Sidequest)"
-    }, {
+        method: "Quest: Saw That One Coming (Level 14 Black Shroud Sidequest)",
+        patch: "2.2"
+    },
+    {
         name: "Haurchefant",
         command: "/haurchefant",
-        unlock: "Quest: The Burdens We Bear (Level 60 Side Story Quest)"
-    }, {
+        method: "Quest: The Burdens We Bear (Level 60 Side Story Quest)",
+        patch: "3.3"
+    },
+    {
         name: "Headache",
         command: "/headache",
-        unlock: "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)"
-    }, {
+        method: "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)",
+        patch: "5.15"
+    },
+    {
         name: "Heel Toe",
         command: "/heeltoe",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "5.2"
+    },
+    {
         name: "Hum",
         command: "/hum",
-        unlock: "Quest: The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)"
-    }, {
+        method: "Quest: The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)",
+        patch: "4.4"
+    },
+    {
         name: "Huzzah",
         command: "/huzzah, /hurray",
-        unlock: "The Rising (2014), Final Fantasy XIV Online Store"
-    }, {
+        method: "The Rising (2014), Final Fantasy XIV Online Store",
+        patch: "2.35"
+    },
+    {
         name: "Imperial Salute",
         command: "/imperialsalute",
-        unlock: "Quest: Acting the Part (Level 45 Main Scenario Quest)"
-    }, {
+        method: "Quest: Acting the Part (Level 45 Main Scenario Quest)",
+        patch: "2.0"
+    },
+    {
         name: "Insist",
         command: "/insist",
-        unlock: "1,800 Skybuilders' Scrips"
-    }, {
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.21"
+    },
+    {
+        name: "Lali Hop",
+        command: "/lalihop",
+        method: "8 Hammered Frogments",
+        patch: "5.3"
+    },
+    {
         name: "Lali-ho",
         command: "/laliho",
-        unlock: "Quest: Learning to Lali-ho (Level 70 Kholusia Sidequest)"
-    }, {
-        name: "Lali-hop",
-        command: "/lalihop",
-        unlock: "8 Hammered Frogments"
-    }, {
+        method: "Quest: Learning to Lali-ho (Level 70 Kholusia Sidequest)",
+        patch: "5.0"
+    },
+    {
         name: "Lean",
         command: "/lean",
-        unlock: "1,800 Skybuilders' Scrips"
-    }, {
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.11"
+    },
+    {
         name: "Manderville Dance",
         command: "/mandervilledance",
-        unlock: "Quest: The Hammer (Level 50 Side Story Quest)"
-    }, {
+        method: "Quest: The Hammer (Level 50 Side Story Quest)",
+        patch: "2.2"
+    },
+    {
         name: "Manderville Mambo",
         command: "/mandervillemambo, /mmambo",
-        unlock: "Quest: Don't Do the Dewprism (Level 70 Side Story Quest)"
-    }, {
+        method: "Quest: Don't Do the Dewprism (Level 70 Side Story Quest)",
+        patch: "4.5"
+    },
+    {
         name: "Megaflare",
         command: "/megaflare",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.25"
+    },
+    {
         name: "Moogle Dance",
         command: "/mogdance",
-        unlock: "Quest: Piecing Together the Past (Level 50 Beast Tribe Quest)"
-    }, {
+        method: "Quest: Piecing Together the Past (Level 50 Beast Tribe Quest)",
+        patch: "3.3"
+    },
+    {
         name: "Moonlift Dance",
         command: "/moonlift",
-        unlock: "Quest: Eternity, Loyalty, Honesty (Level 60 Side Story Quest)"
-    }, {
+        method: "Quest: Eternity, Loyalty, Honesty (Level 60 Side Story Quest)",
+        patch: "3.5"
+    },
+    {
         name: "Most Gentlemanly",
         command: "/hildy",
-        unlock: "Quest: Her Last Vow (Level 50 Side Story Quest)"
-    }, {
+        method: "Quest: Her Last Vow (Level 50 Side Story Quest)",
+        patch: "2.5"
+    },
+    {
         name: "Play Dead",
         command: "/playdead, /pdead",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "3.5"
+    },
+    {
         name: "Ponder",
         command: "/ponder, /makeyougohmmm",
-        unlock: "Quest: Emmisary of the Dawn (Level 70 Main Scenario Quest)"
-    }, {
+        method: "Quest: Emmisary of the Dawn (Level 70 Main Scenario Quest)",
+        patch: "4.3"
+    },
+    {
         name: "Popoto Step",
         command: "/popotostep",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.45"
+    },
+    {
         name: "Power Up",
         command: "/powerup",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.2"
+    },
+    {
         name: "Pretty Please",
         command: "/prettyplease, /pplease",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
-        name: "Push-ups",
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.1"
+    },
+    {
+        name: "Push-ups ",
         command: "/pushups",
-        unlock: "Achievement: Dear Leader I"
-    }, {
+        method: "Achievement: Dear Leader I",
+        patch: "4.1"
+    },
+    {
         name: "Read A Book",
         command: "/read",
-        unlock: "1,800 Skybuilders' Scrips"
-    }, {
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.21"
+    },
+    {
         name: "Red Ranger Pose A",
         command: "/redrangerposea, /rrpa",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Red Ranger Pose B",
         command: "/redrangerposeb, /rrpb",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Reflect",
         command: "/reflect",
-        unlock: "10,000 Company Seals"
-    }, {
+        method: "10,000 Company Seals",
+        patch: "4.2"
+    },
+    {
         name: "Reprimand",
         command: "/reprimand",
-        unlock: "15,0000 Wolf Marks"
-    }, {
+        method: "15,000 Wolf Marks",
+        patch: "4.45"
+    },
+    {
         name: "Ritual Prayer",
         command: "/ritualprayer",
-        unlock: "Shikitahe - Tamamizu - 3 Kojin Sango"
-    }, {
+        method: "Shikitahe - Tamamizu - 3 Kojin Sango",
+        patch: "4.1"
+    },
+    {
         name: "Scheme",
         command: "/scheme",
-        unlock: "Heat-warped Lockbox - Eureka Pyros"
-    }, {
+        method: "Heat-warped Lockbox - Eureka Pyros",
+        patch: "4.45"
+    },
+    {
         name: "Senor Sabotender",
         command: "/sabotender",
-        unlock: "The Make It Rain Campaign (2019)"
-    }, {
+        method: "The Make It Rain Campaign (2019)",
+        patch: "4.45"
+    },
+    {
         name: "Shiver",
         command: "/shiver",
-        unlock: "Cold-warped Lockbox - Eureka Pagos"
-    }, {
+        method: "Cold-warped Lockbox - Eureka Pagos",
+        patch: "4.36"
+    },
+    {
         name: "Side Step",
         command: "/sidestep",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "4.4"
+    },
+    {
         name: "Sit-ups",
         command: "/situps",
-        unlock: "Achievement: Dear Leader I"
-    }, {
+        method: "Achievement: Dear Leader I",
+        patch: "4.1"
+    },
+    {
         name: "Snap",
         command: "",
-        unlock: ""
-    }, {
+        method: "",
+        patch: "5.2"
+    },
+    {
         name: "Songbird",
         command: "/songbird",
-        unlock: "Little Ladies' Day (2017), Final Fantasy XIV Online Store"
-    }, {
+        method: "Little Ladies' Day (2017), Final Fantasy XIV Online Store",
+        patch: "3.5"
+    },
+    {
         name: "Spectacles",
         command: "/spectacles",
-        unlock: "Quest: Letters from No One (Level 60 Side Story Quest)"
-    }, {
+        method: "Quest: Letters from No One (Level 60 Side Story Quest)",
+        patch: "3.5"
+    },
+    {
         name: "Splash",
         command: "/splash",
-        unlock: "Moonfire Faire (2018), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2018), Final Fantasy XIV Online Store",
+        patch: "4.3"
+    },
+    {
         name: "Squats",
         command: "/squats",
-        unlock: "Achievement: Dear Leader I"
-    }, {
+        method: "Achievement: Dear Leader I",
+        patch: "4.1"
+    },
+    {
         name: "Step Dance",
         command: "/stepdance",
-        unlock: "Quest: Good for What Ales You (Level 14 La Noscea Sidequest)"
-    }, {
+        method: "Quest: Good for What Ales You (Level 14 La Noscea Sidequest)",
+        patch: "2.2"
+    },
+    {
         name: "Sundrop Dance",
         command: "/sundance, /sundropdance",
-        unlock: "Quest: Sundrop the Beat (Level 50 Beast Tribe Quest)"
-    }, {
+        method: "Quest: Sundrop the Beat (Level 50 Beast Tribe Quest)",
+        patch: "3.1"
+    },
+    {
         name: "Sweat",
         command: "/sweat",
-        unlock: "Confederate Custodian - Crick - 10 Empyrean Potsherds"
-    }, {
+        method: "Confederate Custodian - Crick - 10 Empyrean Potsherds",
+        patch: "4.35"
+    },
+    {
         name: "Thavnairian Dance",
         command: "/thavnairiandance",
-        unlock: "80,000 MGP"
-    }, {
+        method: "80,000 MGP",
+        patch: "3.1"
+    },
+    {
         name: "Throw",
         command: "/throw",
-        unlock: "Quest: Toss Fit Workout (Level 36 Coerthas Sidequest)"
-    }, {
+        method: "Quest: Toss Fit Workout (Level 36 Coerthas Sidequest)",
+        patch: "2.1"
+    },
+    {
         name: "Toast",
         command: "/toast",
-        unlock: "Final Fantasy XIV Online Store"
-    }, {
+        method: "Final Fantasy XIV Online Store",
+        patch: "5.1"
+    },
+    {
         name: "Tomestone",
         command: "/tomestone",
-        unlock: "Available if registered in the Companion app"
-    }, {
+        method: "Available if registered in the Companion app",
+        patch: "4.4"
+    },
+    {
         name: "Tremble",
         command: "/tremble",
-        unlock: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
-    }, {
+        method: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs",
+        patch: "4.2"
+    },
+    {
         name: "Ultima",
         command: "/ultima",
-        unlock: "Item code included with Meister Quality Figure Ultima, the High Seraph"
-    }, {
+        method: "Item code included with Meister Quality Figure Ultima, the High Seraph",
+        patch: "4.45"
+    },
+    {
         name: "Victory",
         command: "/vpose",
-        unlock: "Quest: A Spectacle for the Ages (Level 60 Main Scenario Quest)"
-    }, {
+        method: "Quest: A Spectacle for the Ages (Level 60 Main Scenario Quest)",
+        patch: "3.2"
+    },
+    {
         name: "Water Flip",
         command: "/waterflip",
-        unlock: "Quest: In Soroban We Trust (Level 63 Main Scenario Quest)"
-    }, {
+        method: "Quest: In Soroban We Trust (Level 63 Main Scenario Quest)",
+        patch: "4.0"
+    },
+    {
         name: "Winded",
         command: "/winded",
-        unlock: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
-    }, {
+        method: "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs",
+        patch: "4.2"
+    },
+    {
         name: "Yellow Ranger Pose A",
         command: "/yellowrangerposea, /yrpa",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Yellow Ranger Pose B",
         command: "/yellowrangerposeb, /yrpb",
-        unlock: "Moonfire Faire (2016), Final Fantasy XIV Online Store"
-    }, {
+        method: "Moonfire Faire (2016), Final Fantasy XIV Online Store",
+        patch: "3.35"
+    },
+    {
         name: "Yol Dance",
         command: "/yoldance",
-        unlock: "Gyosho - Dhoro Iloh - 8 Namazu Koban"
-    }, {
+        method: "Gyosho - Dhoro Iloh - 8 Namazu Koban",
+        patch: "4.3"
+    },
+    {
         name: "Zantetsuken",
         command: "/zantetsuken, /ztk",
-        unlock: "Item code included with Meister Quality Figure Odin"
-    }
+        method: "Item code included with Meister Quality Figure Odin",
+        patch: "3.4"
+    },
 ];

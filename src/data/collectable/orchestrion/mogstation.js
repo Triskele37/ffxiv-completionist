@@ -1,124 +1,172 @@
 import { DataGroup } from "../../DataGroup";
 
 export const Collectables_Orchestrion_List_Mog_Station = function(parent) {
-    return new DataGroup("Mog Station", parent).initializeTasks(tasks);
+    const data = new DataGroup("Mog Station", parent);
+    data.defaultCompletion = "X";
+    data.initializeTasks(tasks);
+    return data;
 };
 
 const tasks = [
     {
-        number: 1,
-        name: "Oblivion (Orchestral)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 2,
-        name: "Revenge Twofold (Orchestral)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 3,
-        name: "Rise of the White Raven (Orchestral)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 4,
-        name: "Serenity (Orchestral Version)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 5,
-        name: "Calamity Unbound (Orchestral Version)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 6,
-        name: "Ominous Prognisticks (Orchestral Version)",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        unlock: ""
-    }, {
-        number: 7,
-        name: "Unbending Steel (Duality)",
-        method: "Obtained with a promotional code.",
-        unlock: "FINAL FANTASY XIV: DUALITY Arrangement Album"
-    }, {
-        number: 8,
+        number: "-",
         name: "Borderless (Duality)",
-        method: "Obtained with a promotional code.",
-        unlock: "FINAL FANTASY XIV: DUALITY Arrangement Album"
-    }, {
-        number: 9,
-        name: "Heroes (Orchestral)",
-        method: "Obtained with a promotional code.",
-        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album"
-    }, {
-        number: 10,
-        name: "Ultima (Orchestral)",
-        method: "Obtained with a promotional code.",
-        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album"
-    }, {
-        number: 11,
-        name: "eScape (Journeys Version) Orchestrion Roll",
-        method: "Obtained with a promotional code.",
-        unlock: "Journeys: FINAL FANTASY XIV Arrangement Album"
-    }, {
-        number: 12,
-        name: "The Worm's Tale (Journeys Version)",
-        method: "Obtained with a promotional code.",
-        unlock: "Journeys: FINAL FANTASY XIV Arrangement Album"
-    }, {
-        number: 13,
-        name: "Oblivion (GUNN Vocals)",
-        method: "Obtained with a promotional code.",
-        unlock: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow"
-    }, {
-        number: 14,
-        name: "Rise (The Primals)",
-        method: "Obtained with a promotional code.",
-        unlock: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow"
-    }, {
-        number: 15,
-        name: "Moebius (Orchestral Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "FINAL FANTASY XIV: DUALITY Arrangement Album",
+        patch: "3.45",
+    },
+    {
+        number: "-",
+        name: "Unbending Steel (Duality)",
+        methodType: "Obtained with a promotional code.",
+        method: "FINAL FANTASY XIV: DUALITY Arrangement Album",
+        patch: "3.45",
+    },
+    {
+        number: "-",
+        name: "Ultima (Orchestral Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+        patch: "4.1",
+    },
+    {
+        number: "-",
+        name: "Heroes (Orchestral Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+        patch: "4.1",
+    },
+    {
+        number: "-",
+        name: "Rise of the White Raven (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
         method: "",
-        unlock: "Unknown"
-    }, {
-        number: 16,
-        name: "Painted Foothills (Orchestral Version)",
+        patch: "4.3",
+    },
+    {
+        number: "-",
+        name: "Revenge Twofold (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
         method: "",
-        unlock: "Unknown"
-    }, {
-        number: 17,
+        patch: "4.3",
+    },
+    {
+        number: "-",
+        name: "Oblivion (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "-",
+        name: "Serenity (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "-",
+        name: "Calamity Unbound (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "-",
+        name: "Ominous Prognisticks (Orchestral Version)",
+        methodType: "Available for purchase on the online store or via promotional bonuses.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "-",
         name: "Wayward Daughter (Chiptune Version)",
-        method: "Obtained with a promotional code.",
-        unlock: "FINAL FANTASY XIV - The Best Compilation Album"
-    }, {
-        number: 18,
+        methodType: "Obtained with a promotional code.",
+        method: "FINAL FANTASY XIV - The Best Compilation Album",
+        patch: "4.45",
+    },
+    {
+        number: "-",
         name: "The Worm's Tail (Chiptune Version)",
-        method: "Obtained with a promotional code.",
-        unlock: "FINAL FANTASY XIV - The Best Compilation Album"
-    }, {
-        number: 19,
-        name: "The Worm's Tail (Orchestral Version)",
-        method: "Obtained with a promotional code.",
-        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2"
-    }, {
-        number: 20,
+        methodType: "Obtained with a promotional code.",
+        method: "FINAL FANTASY XIV - The Best Compilation Album",
+        patch: "4.45",
+    },
+    {
+        number: "-",
+        name: "Rise (The Primals)",
+        methodType: "Obtained with a promotional code.",
+        method: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+        patch: "4.45",
+    },
+    {
+        number: "-",
+        name: "Oblivion (GUNN Vocals)",
+        methodType: "Obtained with a promotional code.",
+        method: "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+        patch: "4.45",
+    },
+    {
+        number: "-",
+        name: "Painted Foothills (Orchestral Version)",
+        methodType: "",
+        method: "Unknown",
+        patch: "4.45",
+    },
+    {
+        number: "-",
+        name: "Moebius (Orchestral Version)",
+        methodType: "",
+        method: "Unknown",
+        patch: "4.45",
+    },
+    {
+        number: "-",
+        name: "The Worm's Tale (Journeys Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "Journeys: FINAL FANTASY XIV Arrangement Album",
+        patch: "4.5",
+    },
+    {
+        number: "-",
+        name: "eScape (Journeys Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "Journeys: FINAL FANTASY XIV Arrangement Album",
+        patch: "4.5",
+    },
+    {
+        number: "-",
         name: "Tsukuyomi's Pain (Orchestral Version)",
-        method: "Obtained with a promotional code.",
-        unlock: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2"
-    }, {
-        number: 21,
+        methodType: "Obtained with a promotional code.",
+        method: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+        patch: "5.1",
+    },
+    {
+        number: "-",
+        name: "The Worm's Tail (Orchestral Version)",
+        methodType: "Obtained with a promotional code.",
+        method: "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+        patch: "5.1",
+    },
+    {
+        number: "-",
         name: "A New Hope (Piano Collections)",
-        method: "",
-        unlock: "Unknown"
-    }, {
-        number: 22,
+        methodType: "",
+        method: "Unknown",
+        patch: "5.3",
+    },
+    {
+        number: "-",
         name: "Wailers And Waterwheels (Piano Collections)",
-        method: "",
-        unlock: "Unknown"
-    }, {
-        number: 23,
+        methodType: "",
+        method: "Unknown",
+        patch: "5.3",
+    },
+    {
+        number: "-",
         name: "I Am The Sea (Piano Collections)",
-        method: "",
-        unlock: "Unknown"
-    }
+        methodType: "",
+        method: "Unknown",
+        patch: "5.3",
+    },
 ];

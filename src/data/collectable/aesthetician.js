@@ -4,8 +4,9 @@ export const Collectables_Aesthetician = function(parent) {
     return new DataGroup("Aesthetician", parent).initializeTasks(tasks, [
         { header: 'Hairstyle / Face Paint', key: 'name', },
         { header: 'Location', key: 'location', filterable: true },
-        { header: 'Method of Unlock', key: 'unlock' },
-        { header: 'Gender', key: 'gender', filterable: true }
+        { header: 'Method', key: 'method' },
+        { header: 'Gender', key: 'gender', filterable: true },
+        { header: 'Patch', key: 'patch', filterable: true }
     ]);
 };
 
@@ -13,122 +14,170 @@ const tasks = [
     {
         name: "Adventure",
         location: "The Gold Saucer",
-        unlock: "Purchase from Modern Aesthetics Saleswoman for 14 MGP",
-        gender: "Unisex (Differing Styles)"
-    }, {
+        method: "14 MGP",
+        gender: "Unisex (Differing Styles)",
+        patch: "3.1"
+    },
+    {
         name: "Controlled Chaos",
         location: "The Firmament",
-        unlock: "Purchase from Enie for 1,800 Skybuilders' Scrips",
-        gender: "Unisex"
-    }, {
+        method: "1,800 Skybuilders' Scrips",
+        gender: "Unisex",
+        patch: "5.21"
+    },
+    {
         name: "Curls",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 9,600 MGP",
-        gender: "Unisex"
-    }, {
-        name: "Eternal Bonding",
+        method: "9,600 MGP",
+        gender: "Unisex",
+        patch: "3.1"
+    },
+    {
+        name: "Eternal Bonding ",
         location: "MogStation",
-        unlock: "Progression through \"The Ties that Bind\" quest for $0-$20 USD (Available on all plans)",
-        gender: "Unisex (Differing Styles)"
-    }, {
+        method: "Quest: The Ties That Bind (Level 1 Special Quest)",
+        gender: "Unisex (Differing Styles)",
+        patch: "2.4"
+    },
+    {
         name: "Fashionably Feathered",
         location: "Wolves' Den",
-        unlock: "Purchased from Storm Sergeant - Wolves' Den Provisioner for 18,000 Wolf Marks",
-        gender: "Unisex"
-    }, {
+        method: "18,000 Wolf Marks",
+        gender: "Unisex",
+        patch: "4.3"
+    },
+    {
         name: "Form and Function",
         location: "Eureka Pyros",
-        unlock: "Drops from Eureka Pyros",
-        gender: "Unisex"
-    }, {
+        method: "Happy Bunny Lockbox - Eureka Pyros",
+        gender: "Unisex",
+        patch: "4.45"
+    },
+    {
         name: "Great Lengths",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 30,000 MGP",
-        gender: "Unisex (Differing Styles)"
-    }, {
+        method: "30,000 MGP",
+        gender: "Unisex (Differing Styles)",
+        patch: "5.0"
+    },
+    {
         name: "Gyr Abanian Plait",
         location: "Random Drop",
-        unlock: "Drops from Heaven-on-High",
-        gender: "Unisex"
-    }, {
+        method: "Heaven-on-High",
+        gender: "Unisex",
+        patch: "4.35"
+    },
+    {
         name: "Lexen-tails",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 50,000 MGP after finishing \"The City of Lost Angels\" & \"The Orbonne Monastery\"",
-        gender: "Unisex (Differing Styles)"
-    }, {
+        method: "50,000 MGP",
+        gender: "Unisex (Differing Styles)",
+        patch: "4.45"
+    },
+    {
         name: "Lucian Locks",
         location: "Crossover Questline",
-        unlock: "Purchased from Ironworks Vendor for 20,000 MGP after completeing \"Messenger of the Winds\"",
-        gender: "Unisex"
-    }, {
+        method: "Final Fantasy XV Collaboration",
+        gender: "Unisex",
+        patch: "4.5"
+    },
+    {
         name: "Master & Commander",
         location: "MogStation",
-        unlock: "Purchase \"Aymeric's Attire\" for $15",
-        gender: "Unisex"
-    }, {
+        method: "Final Fantasy XIV Online Store (Aymeric's Attire)",
+        gender: "Unisex",
+        patch: "3.55a"
+    },
+    {
         name: "Modern Legend",
         location: "The Firmament",
-        unlock: "Purchase from Enie for 1,800 Skybuilders' Scrips",
-        gender: "Unisex"
-    }, {
+        method: "1,800 Skybuilders' Scrips",
+        gender: "Unisex",
+        patch: "5.11"
+    },
+    {
         name: "Ponytails",
         location: "The Gold Saucer",
-        unlock: "Purchase from Gold Saucer Attendant for 8,000 MGP",
-        gender: "Unisex"
-    }, {
+        method: "8,000 MGP",
+        gender: "Unisex",
+        patch: "2.51"
+    },
+    {
         name: "Pulse - Lightning Hairstyle",
         location: "MogStation",
-        unlock: "Purchase \"Lightning's Attire\" or \"Snow's Attire\" for $15",
-        gender: "Female Only"
-    }, {
+        method: "Final Fantasy XIII Collaboration / Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
+        gender: "Female Only",
+        patch: "3.2"
+    },
+    {
         name: "Pulse - Snow's Hairstyle",
         location: "MogStation",
-        unlock: "Purchase \"Lightning's Attire\" or \"Snow's Attire\" for $15",
-        gender: "Male Only"
-    }, {
+        method: "Final Fantasy XIII Collaboration / Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
+        gender: "Male Only",
+        patch: "3.2"
+    },
+    {
         name: "Rainmaker",
         location: "Make it Rain 2018",
-        unlock: "Purchase from Event NPC for 5,000 MGP",
-        gender: "Unisex"
-    }, {
+        method: "The Make It Rain Campaign (2018)",
+        gender: "Unisex",
+        patch: "3.55a"
+    },
+    {
         name: "Samsonian Locks",
         location: "Random Drop",
-        unlock: "Drops from Palace of the Dead",
-        gender: "Unisex"
-    }, {
+        method: "The Palace of the Dead",
+        gender: "Unisex",
+        patch: "3.4"
+    },
+    {
         name: "Scion Special Issue",
         location: "MogStation",
-        unlock: "Purchase \"Minfilia's Attire\" for $15",
-        gender: "Female Only"
-    }, {
+        method: "Final Fantasy XIV Online Store (Minfilia's Attire)",
+        gender: "Female Only",
+        patch: "3.1"
+    },
+    {
         name: "Scion Special Issue II",
         location: "MogStation",
-        unlock: "Purchase \"Thancred's Modish Attire\" for $15",
-        gender: "Male Only"
-    }, {
+        method: "Final Fantasy XIV Online Store (Thancred's Modish Attire)",
+        gender: "Male Only",
+        patch: "3.35"
+    },
+    {
         name: "Scion Special Issue III",
         location: "MogStation",
-        unlock: "Purchase \"Y'shtola Modish Attire\" for $15",
-        gender: "Female Only"
-    }, {
+        method: "Final Fantasy XIV Online Store (Y'shtola's Modish Attire)",
+        gender: "Female Only",
+        patch: "3.35"
+    },
+    {
         name: "Strife",
         location: "Contest",
-        unlock: "Art or Costume contests for Fan Festival 2018",
-        gender: "Unisex"
-    }, {
+        method: "Community Events Reward",
+        gender: "Unisex",
+        patch: "4.4"
+    },
+    {
         name: "Styled for Hire",
         location: "Wolves' Den",
-        unlock: "Purchased from Storm Sergeant - Wolves' Den Provisioner for 18,000 Wolf Marks",
-        gender: "Unisex"
-    }, {
+        method: "18,000 Wolf Marks",
+        gender: "Unisex",
+        patch: "4.4"
+    },
+    {
         name: "Bats",
         location: "MogStation",
-        unlock: "Purchase Modern Cosmetics: A Wicked Wake for EUR 4.90 or $7 USD",
-        gender: "Unisex"
-    }, {
+        method: "Final Fantasy XIV Online Store (Modern Cosmetics)",
+        gender: "Unisex",
+        patch: "2.38"
+    },
+    {
         name: "Spiderweb",
         location: "MogStation",
-        unlock: "Purchase Modern Cosmetics: A Wicked Wake for EUR 4.90 or $7 USD",
-        gender: "Unisex"
-    }
+        method: "Final Fantasy XIV Online Store (Modern Cosmetics)",
+        gender: "Unisex",
+        patch: "2.38"
+    },
+
 ];

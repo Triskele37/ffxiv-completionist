@@ -10,8 +10,9 @@ export const Collectables_Triple_Triad_Card_List = function(parent) {
             centered: true,
         },
         { header: "Type", key: "type", filterable: true },
-        { header: "Opponent", key: "opponent", filterable: true },
-        { header: "Method of Unlock", key: "unlock" },
+        { header: "Opponent", key: "opponent" },
+        { header: "Acquired By", key: "acquiredBy" },
+        { header: "Patch", key: "patch", filterable: true },
     ]);
 };
 
@@ -21,1806 +22,2407 @@ const tasks = [
         rarity: "★",
         type: "None",
         opponent: "Ourdilic",
-        unlock: "Drops from Dzemael Darkhold"
-    }, {
+        acquiredBy: "Dzemael Darkhold",
+        patch: "2.51",
+    },
+    {
         name: "Amalj'aa",
         rarity: "★",
         type: "Beastman",
         opponent: "Memeroon",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Amaro",
         rarity: "★",
         type: "None",
         opponent: "Glynard",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Apkallu",
         rarity: "★",
         type: "None",
-        opponent: "Wyra Lyegha",
-        unlock: ""
-    }, {
+        opponent: "Wyra \"Greenhands\" Lyegha",
+        acquiredBy: "",
+        patch: "3.40",
+    },
+    {
         name: "Bomb",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Starter Deck"
-    }, {
+        acquiredBy: "Quest: Triple Triad Trial",
+        patch: "2.51",
+    },
+    {
         name: "Chocobo",
         rarity: "★",
         type: "None",
-        opponent: "Triple Triad Master, Jonas of the Three Spades, Guhtwint of the Three Diamonds",
-        unlock: "Purchased from Triple Triad Trader for 600 MGP."
-    }, {
+        opponent: "Guhtwint of the Three Diamonds",
+        acquiredBy: "600 MGP",
+        patch: "2.51",
+    },
+    {
         name: "Coblyn",
         rarity: "★",
         type: "None",
         opponent: "Maisenta, Wymond",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Coeurl",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Starter Deck"
-    }, {
+        acquiredBy: "Quest: Triple Triad Trial",
+        patch: "2.51",
+    },
+    {
         name: "Colibri",
         rarity: "★",
         type: "None",
         opponent: "Flichoirel the Lordling",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.4",
+    },
+    {
         name: "Deepeye",
         rarity: "★",
         type: "None",
         opponent: "Dominiac",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Dodo",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Starter Deck"
-    }, {
+        acquiredBy: "Quest: Triple Triad Trial",
+        patch: "2.51",
+    },
+    {
         name: "Dwarf",
         rarity: "★",
         type: "Beastman",
         opponent: "Cobleva",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.3",
+    },
+    {
         name: "Evil Weapon",
         rarity: "★",
         type: "None",
         opponent: "Drery",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Flower Basket",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Sul Lad in Lydha Lran for 40 Bicolor Gemstones"
-    }, {
+        acquiredBy: "40 Bicolor Gemstones (Il Mheg)",
+        patch: "5.2",
+    },
+    {
         name: "Gaelicat",
         rarity: "★",
         type: "None",
         opponent: "Noes",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Goobbue",
         rarity: "★",
         type: "None",
         opponent: "Mother Miounne, Aurifort of the Three Clubs",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Hobgoblin",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Ixal",
         rarity: "★",
         type: "Beastman",
         opponent: "Jonas of the Three Spades, Joellaut",
-        unlock: "Drops from Silver Triad Card"
-    }, {
-        name: "Karakuri Hanya",
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
+        name: "Karakuri Hanya Card ",
         rarity: "★",
         type: "None",
         opponent: "Hokushin",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.45",
+    },
+    {
         name: "Kobold",
         rarity: "★",
         type: "Beastman",
         opponent: "",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Koja",
         rarity: "★",
         type: "None",
         opponent: "Masatsuchi",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Lord and Lady Chai",
         rarity: "★",
         type: "None",
         opponent: "Ibenart",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Magitek Death Claw",
         rarity: "★",
-        type: "Garland",
+        type: "Garlean",
         opponent: "",
-        unlock: "Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "3.4",
+    },
+    {
         name: "Mandragora",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Starter Deck"
-    }, {
-        name: "Morbol",
-        rarity: "★",
-        type: "None",
-        opponent: "Roger",
-        unlock: "Drops from Aurum Vale"
-    }, {
+        acquiredBy: "Quest: Triple Triad Trial",
+        patch: "2.51",
+    },
+    {
         name: "Moogle",
         rarity: "★",
         type: "Beastman",
         opponent: "Jonas of the Three Spades, Trachtoum",
-        unlock: "Purchased from Triple Triad Trader for 840 MGP."
-    }, {
+        acquiredBy: "840 MGP",
+        patch: "2.51",
+    },
+    {
+        name: "Morbol",
+        rarity: "★",
+        type: "None",
+        opponent: "Roger",
+        acquiredBy: "The Aurum Vale",
+        patch: "2.51",
+    },
+    {
         name: "Mossling",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 840 MGP"
-    }, {
+        acquiredBy: "840 MGP",
+        patch: "4.1",
+    },
+    {
         name: "Namazu",
         rarity: "★",
         type: "Beastman",
         opponent: "Gyoei",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Opo-opo",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 600 MGP"
-    }, {
+        acquiredBy: "600 MGP",
+        patch: "3.5",
+    },
+    {
         name: "Porxie",
         rarity: "★",
         type: "None",
         opponent: "Eo Sigun",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.1",
+    },
+    {
         name: "Pudding",
         rarity: "★",
         type: "None",
         opponent: "Roger",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Qitari",
         rarity: "★",
         type: "Beastman",
         opponent: "Redard",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.2",
+    },
+    {
         name: "Sabotender",
         rarity: "★",
         type: "None",
         opponent: "",
-        unlock: "Starter Deck"
-    }, {
+        acquiredBy: "Quest: Triple Triad Trial",
+        patch: "2.51",
+    },
+    {
         name: "Sahagin",
         rarity: "★",
         type: "Beastman",
         opponent: "Baderon",
-        unlock: "Drops from Sastasha, Sastasha (Hard)"
-    }, {
+        acquiredBy: "Sastasha, Sastasha (Hard)",
+        patch: "2.51",
+    },
+    {
         name: "Spriggan",
         rarity: "★",
         type: "None",
-        opponent: "Triple Triad Master, Guhtwint of the Three Diamonds",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        opponent: "Triple Triad Master",
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Stormblood Tataru Taru",
         rarity: "★",
         type: "Scion",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 96,000 MGP"
-    }, {
+        acquiredBy: "96,000 MGP",
+        patch: "4.5",
+    },
+    {
         name: "Sylph",
         rarity: "★",
         type: "Beastman",
         opponent: "Maisenta",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Tataru Taru",
         rarity: "★",
         type: "Scion",
         opponent: "Tataru",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Tonberry",
         rarity: "★",
         type: "None",
         opponent: "Memeroon",
-        unlock: "Drops from The Wanderer's Palace, The Wanderer's Palace (Hard)"
-    }, {
+        acquiredBy: "The Wanderer's Palace, The Wanderer's Palace (Hard)",
+        patch: "2.51",
+    },
+    {
         name: "Wanyudo and Katasharin",
         rarity: "★",
         type: "None",
-        opponent: "",
-        unlock: "Silver Sack in Heaven on High"
-    }, {
+        opponent: "Ushiogi",
+        acquiredBy: "Heaven on High: Silver/Gold Sack",
+        patch: "4.35",
+    },
+    {
         name: "Adamantoise",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 840 MGP"
-    }, {
+        acquiredBy: "840 MGP",
+        patch: "3.5",
+    },
+    {
         name: "Ananta",
         rarity: "★★",
         type: "Beastman",
         opponent: "Garima",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Ango",
         rarity: "★★",
         type: "None",
         opponent: "Isobe",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Archaeornis",
         rarity: "★★",
         type: "None",
         opponent: "Elaisse",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Baderon Tenfingers",
         rarity: "★★",
         type: "None",
         opponent: "Baderon",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Bandersnatch",
         rarity: "★★",
         type: "None",
         opponent: "Voracious Vath",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Biggs & Wedge",
         rarity: "★★",
         type: "None",
         opponent: "Mimidoa, Sezul Totoloc",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Blue Dragon",
         rarity: "★★",
         type: "None",
         opponent: "Ourdilic",
-        unlock: "Drops from The Stone Vigil, Stone Vigil (Hard)"
-    }, {
+        acquiredBy: "The Stone Vigil, The Stone Vigil (Hard)",
+        patch: "2.51",
+    },
+    {
         name: "Carvallain de Gorgagne",
         rarity: "★★",
         type: "None",
         opponent: "Mordyn",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Chapuli",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 1,200 MGP"
-    }, {
+        acquiredBy: "1,200 MGP",
+        patch: "4.1",
+    },
+    {
         name: "Chimera",
         rarity: "★★",
         type: "None",
         opponent: "Fufulupa",
-        unlock: "Drops from Cutter's Cry"
-    }, {
+        acquiredBy: "Cutter's Cry",
+        patch: "2.51",
+    },
+    {
         name: "Crawler",
         rarity: "★★",
         type: "None",
         opponent: "Seika",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Delivery Moogle",
         rarity: "★★",
         type: "Beastman",
         opponent: "",
-        unlock: "Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "3.4",
+    },
+    {
         name: "Demon Wall",
         rarity: "★★",
         type: "None",
         opponent: "Buscarron",
-        unlock: "Drops from Amdapor Keep, Amdapor Keep (Hard)"
-    }, {
+        acquiredBy: "Amdapor Keep, Amdapor Keep (Hard)",
+        patch: "2.51",
+    },
+    {
         name: "Dhalmel",
         rarity: "★★",
         type: "None",
         opponent: "Laniaitte",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Dvergr",
         rarity: "★★",
         type: "None",
         opponent: "Hetsukaze",
-        unlock: "Drops from Duty-Free FATE in Eureka Hydatos (29-23) "
-    }, {
+        acquiredBy: "FATE: Duty-free (Eureka Hydatos)",
+        patch: "4.55",
+    },
+    {
         name: "Ejika Tsunjika",
         rarity: "★★",
         type: "None",
         opponent: "Hetsukaze",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.55",
+    },
+    {
         name: "Fat Chocobo",
         rarity: "★★",
         type: "None",
         opponent: "Vath Deftarm",
-        unlock: "Drops from Special Tarasque Force FATE in The Dravanian Forelands (13,36)."
-    }, {
+        acquiredBy: "FATE: Special Tarasque Force (Dravanian Forelands)",
+        patch: "3.0",
+    },
+    {
         name: "Feo Ul",
         rarity: "★★",
-        type: "None",
+        type: "Beastman",
         opponent: "Gyulf Uin",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Frixio",
         rarity: "★★",
         type: "Beastman",
         opponent: "Marcette, Piralnaut",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Fuath",
         rarity: "★★",
         type: "Beastman",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Gerolt",
         rarity: "★★",
         type: "None",
         opponent: "Helmhart, Rowena",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Gibrillont",
         rarity: "★★",
         type: "None",
         opponent: "Elaisse",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Gigantender",
         rarity: "★★",
         type: "None",
         opponent: "Drery",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Gnath",
         rarity: "★★",
         type: "Beastman",
         opponent: "Mogmill",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Gnoll",
         rarity: "★★",
-        type: "",
+        type: "None",
         opponent: "",
-        unlock: "Purchased from Siulmet in Fort Jobb for 60 Bicolor Gemstones"
-    }, {
+        acquiredBy: "60 Bicolor Gemstones (Lakeland)",
+        patch: "5.2",
+    },
+    {
         name: "Gold Saucer Attendant",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 500 MGP"
-    }, {
+        acquiredBy: "Event: Make It Rain (2017), 5,000 MGP",
+        patch: "3.55a",
+    },
+    {
         name: "Grenoldt",
         rarity: "★★",
         type: "None",
         opponent: "Saushs Koal",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Guidance Node",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Fractal Continuum (Hard)"
-    }, {
+        acquiredBy: "The Fractal Continuum (Hard)",
+        patch: "4.2",
+    },
+    {
         name: "Hatamoto",
         rarity: "★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Silver and Gold Sacks in Heaven on High"
-    }, {
+        opponent: "Ushiogi",
+        acquiredBy: "Heaven on High: Silver/Gold Sack",
+        patch: "4.35",
+    },
+    {
         name: "Hoary Boulder & Coultenet",
         rarity: "★★",
         type: "Scion",
         opponent: "",
-        unlock: "Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "3.2",
+    },
+    {
         name: "Honoroit",
         rarity: "★★",
         type: "None",
         opponent: "House Fortemps Manservant",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.2",
+    },
+    {
         name: "Iguana",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Kojin",
         rarity: "★★",
         type: "Beastman",
         opponent: "Tsuzura",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Kotokaze",
         rarity: "★★",
         type: "None",
         opponent: "Kotokaze",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Laniaitte de Haillenarte",
         rarity: "★★",
         type: "None",
         opponent: "Marielle",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Liquid Flame",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "3.4",
+    },
+    {
         name: "Livia sas Junius",
         rarity: "★★",
         type: "Garlean",
         opponent: "Indolent Imperial",
-        unlock: "Drops from Castrum Meridianum"
-    }, {
+        acquiredBy: "Castrum Meridianum",
+        patch: "2.51",
+    },
+    {
         name: "Lizbeth",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Enie in The Firmament for 500 Skybuilders' Scrips"
-    }, {
+        acquiredBy: "500 Skybuilders' Scrips",
+        patch: "5.21",
+    },
+    {
         name: "Lolorito Nanarito",
         rarity: "★★",
         type: "None",
         opponent: "Wymond",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Lost Lamb",
         rarity: "★★",
         type: "None",
         opponent: "Prideful Stag",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.4",
+    },
+    {
         name: "M'naago",
         rarity: "★★",
         type: "None",
         opponent: "Ercanbald",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Magitek Colossus",
         rarity: "★★",
         type: "Garlean",
         opponent: "Hall Overseer",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.4",
+    },
+    {
         name: "Magitek Gunship",
         rarity: "★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.5",
+    },
+    {
         name: "Magitek Vanguard",
         rarity: "★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.5",
+    },
+    {
         name: "Memeroon",
         rarity: "★★",
         type: "Beastman",
         opponent: "Memeroon",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Momodi Modi",
         rarity: "★★",
         type: "None",
         opponent: "Momodi",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Mother Miounne",
         rarity: "★★",
         type: "None",
         opponent: "Mother Miounne",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Mutamix Bubblypots",
         rarity: "★★",
         type: "Beastman",
         opponent: "F'hobhas",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Muud Suud",
         rarity: "★★",
         type: "None",
         opponent: "",
-        unlock: "Buy from Triple Triad Trader"
-    }, {
+        acquiredBy: "1,500 MGP",
+        patch: "4.4",
+    },
+    {
         name: "Nu Mou",
         rarity: "★★",
         type: "Beastman",
         opponent: "Eo Sigun",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.1",
+    },
+    {
         name: "Paissa",
         rarity: "★★",
         type: "None",
         opponent: "Laniaitte",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Poroggo",
         rarity: "★★",
         type: "None",
         opponent: "Seika",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Qiqirn Meateater",
         rarity: "★★",
         type: "Beastman",
         opponent: "Garima",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.1",
+    },
+    {
         name: "Rhitahtyn sas Arvina",
         rarity: "★★",
         type: "Garlean",
         opponent: "Indolent Imperial",
-        unlock: "Drops from Cape Westwind"
-    }, {
+        acquiredBy: "Cape Westwind",
+        patch: "2.51",
+    },
+    {
         name: "Rhoswen",
         rarity: "★★",
         type: "None",
         opponent: "O'kalkaya",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Rolling Tankard",
         rarity: "★★",
         type: "None",
         opponent: "Cobleva",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.3",
+    },
+    {
         name: "Runar",
         rarity: "★★",
         type: "None",
         opponent: "Hargra",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Scarface Bugaal Ja",
         rarity: "★★",
         type: "Beastman",
         opponent: "Guhtwint of the Three Diamonds, Aurifort of the Three Clubs",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Siren",
         rarity: "★★",
         type: "None",
         opponent: "Mimidoa",
-        unlock: "Drops from Pharos Sirius"
-    }, {
+        acquiredBy: "Pharos Sirius",
+        patch: "2.51",
+    },
+    {
         name: "Succubus",
         rarity: "★★",
         type: "None",
         opponent: "Piralnaut",
-        unlock: "Drops from Haukke Manor, Haukke Manor (Hard)"
-    }, {
+        acquiredBy: "Haukke Manor, Haukke Manor (Hard)",
+        patch: "2.51",
+    },
+    {
         name: "Tansui",
         rarity: "★★",
         type: "None",
         opponent: "Yusui",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Ultros & Typhon",
         rarity: "★★",
         type: "None",
         opponent: "Helmhart",
-        unlock: "Drops from The Dragon's Neck"
-    }, {
+        acquiredBy: "The Dragon's Neck",
+        patch: "2.51",
+    },
+    {
         name: "Vanu Vanu",
         rarity: "★★",
         type: "Beastman",
         opponent: "Mogmill",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Yugiri Mistwalker",
         rarity: "★★",
         type: "None",
         opponent: "Yellow Moon",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Yukinko",
         rarity: "★★",
         type: "None",
-        opponent: "",
-        unlock: "FATE \"Eternity\", Eureka Pagos (21, 26)"
-    }, {
+        opponent: "Botan",
+        acquiredBy: "FATE: Eternity (Eureka Pagos)",
+        patch: "4.36",
+    },
+    {
         name: "Alexander Prime",
         rarity: "★★★",
         type: "Primal",
-        opponent: "",
-        unlock: "Drops from Alexander - The Soul of the Creator (A12)"
-    }, {
+        opponent: "Tapklix",
+        acquiredBy: "Alexander - The Soul of the Creator",
+        patch: "3.4",
+    },
+    {
         name: "Alpha",
         rarity: "★★★",
         type: "None",
-        opponent: "Ironwork's Hand",
-        unlock: ""
-    }, {
+        opponent: "Ironworks Hand",
+        acquiredBy: "",
+        patch: "4.5",
+    },
+    {
         name: "Arenvald Lentinus",
         rarity: "★★★",
         type: "Scion",
         opponent: "Umber Torrent",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Artoirel de Fortemps",
         rarity: "★★★",
         type: "None",
         opponent: "House Fortemps Manservant",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.2",
+    },
+    {
         name: "Asahi sas Brutus",
         rarity: "★★★",
         type: "Garlean",
         opponent: "Hachinan",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.4",
+    },
+    {
         name: "Batsquatch",
         rarity: "★★★",
         type: "None",
         opponent: "Redard",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.2",
+    },
+    {
         name: "Behemoth",
         rarity: "★★★",
         type: "None",
         opponent: "Sezul Totoloc, Ourdilic",
-        unlock: "Drops from Bronze Triad Card"
-    }, {
+        acquiredBy: "Bronze Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Belladonna",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Saint Mocianne's Arboretum"
-    }, {
+        opponent: "Midnight Dew",
+        acquiredBy: "Saint Mocianne's Arboretrum",
+        patch: "3.1",
+    },
+    {
         name: "Brachiosaur",
         rarity: "★★★",
         type: "None",
         opponent: "Linu Vali",
-        unlock: "Mythril Triad Card"
-    }, {
+        acquiredBy: "Mythril Triad Card",
+        patch: "3.2",
+    },
+    {
         name: "Brendt, Brennan, & Bremondt",
         rarity: "★★★",
         type: "None",
         opponent: "Nell Half-full",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.4",
+    },
+    {
         name: "Byakko",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Jade Stoa and The Jade Stoa (Extreme)"
-    }, {
+        acquiredBy: "The Jade Stoa, The Jade Stoa (Extreme)",
+        patch: "4.2",
+    },
+    {
         name: "Byblos",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from the final boss of The Great Gubal Library dungeon."
-    }, {
+        opponent: "Mero Roggo",
+        acquiredBy: "The Great Gubal Library",
+        patch: "3.0",
+    },
+    {
         name: "Calcabrina",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Antitower"
-    }, {
+        opponent: "Mero Roggo",
+        acquiredBy: "The Antitower",
+        patch: "3.2",
+    },
+    {
         name: "Charibert",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Vault"
-    }, {
+        acquiredBy: "The Vault",
+        patch: "3.1",
+    },
+    {
         name: "Cirina",
         rarity: "★★★",
         type: "None",
         opponent: "Nigen",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Coeurlregina",
         rarity: "★★★",
         type: "None",
         opponent: "Voracious Vath, Vath Deftarm",
-        unlock: "Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Mythril Triad Card",
+        patch: "3.1",
+    },
+    {
         name: "Count Edmont de Fortemps",
         rarity: "★★★",
         type: "None",
         opponent: "Marielle",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Curator",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Fractal Continuum"
-    }, {
+        opponent: "Idle Imperial",
+        acquiredBy: "The Fractal Continuum",
+        patch: "3.3",
+    },
+    {
         name: "Darkscale",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Mogicide FATE in The Churning Mists (22,21) and Rastaban Vibration FATE in The Churning Mists (14,13)."
-    }, {
+        opponent: "Master Mogzin",
+        acquiredBy: "FATE: Mogicide / Rastaban Vibration (Churning Mists)",
+        patch: "3.2",
+    },
+    {
         name: "Echidna",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Void Ark"
-    }, {
+        opponent: "Redbill Storeboy",
+        acquiredBy: "The Void Ark",
+        patch: "3.1",
+    },
+    {
         name: "Emmanellain de Fortemps",
         rarity: "★★★",
         type: "None",
         opponent: "House Fortemps Manservant",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.2",
+    },
+    {
         name: "Eros",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Qitana Ravel, Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "The Qitana Ravel, Dream Triad Card",
+        patch: "5.0",
+    },
+    {
         name: "Estinien",
         rarity: "★★★",
         type: "None",
         opponent: "Gibrillont",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Fenrir",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Snowcloak"
-    }, {
+        acquiredBy: "Snowcloak",
+        patch: "3.2",
+    },
+    {
         name: "Ferdiad",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Amdapor Keep (Hard)"
-    }, {
+        opponent: "Redbill Storeboy",
+        acquiredBy: "Amdapor Keep (Hard)",
+        patch: "3.2",
+    },
+    {
         name: "Fordola rem Lupis",
         rarity: "★★★",
         type: "None",
         opponent: "Imperial Deserter",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.1",
+    },
+    {
         name: "Forgiven Obscenity",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Zumutt in Tomra for 100 Bicolor Gemstones"
-    }, {
+        acquiredBy: "100 Bicolor Gemstones (Kholusia)",
+        patch: "5.2",
+    },
+    {
         name: "Formidable",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchase from Zumutt for 200 Bicolor Gemstones"
-    }, {
+        acquiredBy: "200 Bicolor Gemstones (Kholusia)",
+        patch: "5.0",
+    },
+    {
         name: "Garuda",
         rarity: "★★★",
         type: "Primal",
         opponent: "Marcette",
-        unlock: "Drops from The Howling Eye (Hard), The Howling Eye (Extreme)"
-    }, {
+        acquiredBy: "The Howling Eye (Hard), The Howling Eye (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Genbu",
         rarity: "★★★",
-        type: "",
+        type: "None",
         opponent: "",
-        unlock: "Drops from Hell's Lid"
-    }, {
+        acquiredBy: "Hells' Lid",
+        patch: "4.2",
+    },
+    {
         name: "Gilgamesh & Enkidu",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Battle on the Big Bridge, Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Battle on the Big Bridge, Mythril Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Godbert Manderville",
         rarity: "★★★",
         type: "None",
         opponent: "Ruhtwyda of the Three Hearts, King Elmer III, Hab",
-        unlock: "Purchased from Triple Triad Trader for 9,600 MGP."
-    }, {
+        acquiredBy: "9,600 MGP",
+        patch: "2.51",
+    },
+    {
         name: "Good King Moggle Mog XII",
         rarity: "★★★",
         type: "Primal",
-        opponent: "Vorsaile Heuloix",
-        unlock: "Drops from Thornmarch (Hard), Thornmarch (Extreme)"
-    }, {
+        opponent: "Vorsaile Heuloix, Master Mogzin",
+        acquiredBy: "Thornmarch (Hard), Thornmarch (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Griffin",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from the final boss of The Dusk Vigil dungeon."
-    }, {
+        opponent: "Dominiac, Ercanbald",
+        acquiredBy: "The Dusk Vigil",
+        patch: "3.0",
+    },
+    {
         name: "Grynewaht",
         rarity: "★★★",
         type: "Garlean",
-        opponent: "",
-        unlock: "Doma Castle"
-    }, {
+        opponent: "Imperial Deserter",
+        acquiredBy: "Doma Castle",
+        patch: "4.0",
+    },
+    {
         name: "Happy Bunny",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Happy Bunny Silver Treasure Chest (Eureka Pagos)"
-    }, {
+        opponent: "Botan",
+        acquiredBy: "Eureka Pagos: Silver Coffer, Eureka Pyros: Silver Coffer",
+        patch: "4.36",
+    },
+    {
         name: "Haurchefant",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Triple Team III Achievement by defeating 41 unique NPCs"
-    }, {
+        acquiredBy: "Achievement: Triple Team III",
+        patch: "3.0",
+    },
+    {
         name: "Hilda",
         rarity: "★★★",
         type: "None",
         opponent: "Idle Imperial",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Hiruko",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Random from a Gold-haloed Sack"
-    }, {
+        opponent: "Ushiogi",
+        acquiredBy: "Heaven on High: Gold Sack",
+        patch: "4.36",
+    },
+    {
         name: "Hrodric Poisontongue",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "The Drowned City of Skalla"
-    }, {
+        acquiredBy: "The Drowned City of Skalla",
+        patch: "4.1",
+    },
+    {
         name: "Huaca",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Nacille in Fanow for 100 Bicolor Gemstones"
-    }, {
+        acquiredBy: "100 Bicolor Gemstones (The Rak'tika Greatwood)",
+        patch: "5.2",
+    },
+    {
         name: "Ifrit",
         rarity: "★★★",
         type: "Primal",
         opponent: "Swift",
-        unlock: "Drops from The Bowl of Embers (Hard), The Bowl of Embers (Extreme)"
-    }, {
+        acquiredBy: "The Bowl of Embers (Hard), The Bowl of Embers (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Jongleurs of Eulmore",
         rarity: "★★★",
         type: "None",
         opponent: "Grewenn",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Julyan Manderville",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from the Triple Triad Trader for 14,400 MGP"
-    }, {
+        acquiredBy: "14,400 MGP",
+        patch: "3.1",
+    },
+    {
         name: "Kal Myhk",
         rarity: "★★★",
         type: "None",
         opponent: "Master Mogzin",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Kraken",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Sastasha (Hard)"
-    }, {
+        opponent: "Mordyn",
+        acquiredBy: "Sastasha (Hard)",
+        patch: "3.2",
+    },
+    {
         name: "Kuribu",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Lost City of Amdapor (Hard)"
-    }, {
+        opponent: "Noes",
+        acquiredBy: "The Lost City of Amdapor (Hard)",
+        patch: "3.2",
+    },
+    {
         name: "Lakshmi",
         rarity: "★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Emanation, Emanation (Extreme)"
-    }, {
+        acquiredBy: "Emanation, Emanation (Extreme)",
+        patch: "4.0",
+    },
+    {
         name: "Lava Scorpion",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Sohm Al (Hard)"
-    }, {
+        acquiredBy: "Sohm Al (Hard)",
+        patch: "3.55a",
+    },
+    {
         name: "Leannan Sith",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Louhi",
         rarity: "★★★",
         type: "None",
         opponent: "Botan",
-        unlock: "Potential drop \"Louhi on Ice\" FATE at (35,19) in Pagos"
-    }, {
+        acquiredBy: "FATE: Louhi on Ice (Eureka Pagos)",
+        patch: "4.36",
+    },
+    {
         name: "Lucia goe Junius",
         rarity: "★★★",
         type: "None",
         opponent: "Wawalago",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Lugus",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "21,000 MGP"
-    }, {
+        acquiredBy: "21,000 MGP",
+        patch: "5.3",
+    },
+    {
         name: "Lupin",
         rarity: "★★★",
         type: "Beastman",
         opponent: "Masatsuchi",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Lyna",
         rarity: "★★★",
         type: "None",
         opponent: "Lamlyn",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Magitek Predator",
         rarity: "★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.55a",
+    },
+    {
         name: "Magitek Sky Armor",
         rarity: "★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.55a",
+    },
+    {
         name: "Magnai",
         rarity: "★★★",
         type: "None",
         opponent: "Ogodei",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Mammoth",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Get Gold on the FATE Wham, Bam, Thank You, Mammoth in The Azim Steppe (31,23)"
-    }, {
+        opponent: "Nigen, Ogodei, Munglig",
+        acquiredBy: "FATE: Wham, Bam, Thank You, Mammoth (The Azim Steppe)",
+        patch: "4.0",
+    },
+    {
         name: "Manxome Molaa Ja Ja",
         rarity: "★★★",
         type: "Beastman",
-        opponent: "",
-        unlock: "Drops from The Wanderer's Palace (Hard)"
-    }, {
+        opponent: "Memeroon",
+        acquiredBy: "The Wanderer's Palace (Hard)",
+        patch: "3.2",
+    },
+    {
         name: "Matoya",
         rarity: "★★★",
         type: "None",
         opponent: "Midnight Dew",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Mist Dragon",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Burn (Duty)"
-    }, {
+        acquiredBy: "The Burn",
+        patch: "4.4",
+    },
+    {
         name: "Mistbeard",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Hullbreaker Isle (Hard)"
-    }, {
+        opponent: "O'kalkaya",
+        acquiredBy: "Hullbreaker Isle (Hard)",
+        patch: "3.3",
+    },
+    {
         name: "Moglin",
         rarity: "★★★",
         type: "Beastman",
         opponent: "Mogmill",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Nero tol Scaeva",
         rarity: "★★★",
         type: "Garlean",
         opponent: "Indolent Imperial",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Papalymo & Yda",
         rarity: "★★★",
         type: "Scion",
         opponent: "Buscarron, Vorsaile Heuloix",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Pazuzu",
         rarity: "★★★",
         type: "None",
         opponent: "Botan",
-        unlock: ""
-    }, {
+        acquiredBy: "FATE: Wail in the Willows (Eureka Anemos)",
+        patch: "4.45",
+    },
+    {
         name: "Penthesilea",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Get Gold on the FATE Lost Epic in The Ring of Fire"
-    }, {
+        opponent: "Hetsukaze",
+        acquiredBy: "FATE: Lost Epic (Eureka Pyros)",
+        patch: "4.45",
+    },
+    {
         name: "Philia",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Holminster Switch duty, Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Holminster Switch, Dream Triad Card",
+        patch: "5.0",
+    },
+    {
         name: "Phlegethon",
         rarity: "★★★",
         type: "None",
         opponent: "Klynthota",
-        unlock: "Drops from Labyrinth of the Ancients"
-    }, {
+        acquiredBy: "The Labyrinth of the Ancients",
+        patch: "3.2",
+    },
+    {
         name: "Phoebad",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Get Gold on the FATE Tall Tale in The Lochs (21,25)"
-    }, {
+        opponent: "Umber Torrent",
+        acquiredBy: "FATE: Tall Tale (The Lochs)",
+        patch: "4.0",
+    },
+    {
         name: "Pipin Tarupin",
         rarity: "★★★",
         type: "None",
         opponent: "Swift",
-        unlock: "Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Mythril Triad Card",
+        patch: "3.1",
+    },
+    {
         name: "Progenitrix",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Pharos Sirius (Hard)"
-    }, {
+        acquiredBy: "Pharos Sirius (Hard)",
+        patch: "3.1",
+    },
+    {
         name: "Prometheus",
         rarity: "★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Drops from The Ghimlyt Dark"
-    }, {
+        acquiredBy: "The Ghimlyt Dark",
+        patch: "4.5",
+    },
+    {
         name: "Provenance Watcher",
         rarity: "★★★",
         type: "None",
         opponent: "Hetsukaze",
-        unlock: "Drops from Crystalline Provenance FATE in Eureka Hydatos"
-    }, {
+        acquiredBy: "FATE: Crystalline Provenance (Eureka Hydatos)",
+        patch: "4.55",
+    },
+    {
         name: "Qitian Dasheng",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "The Swallow's Compass (Duty)"
-    }, {
+        acquiredBy: "The Swallow's Compass",
+        patch: "4.36",
+    },
+    {
         name: "Rasho",
         rarity: "★★★",
         type: "None",
         opponent: "Kaizan",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Raya-O-Senna & A-Ruhn-Senna",
         rarity: "★★★",
         type: "None",
-        opponent: "Buscarron, Landenel",
-        unlock: "Purchased from Triple Triad Trader for 4,800 MGP."
-    }, {
+        opponent: "Buscarron",
+        acquiredBy: "4,800 MGP",
+        patch: "2.51",
+    },
+    {
         name: "Rofocale",
         rarity: "★★★",
         type: "None",
         opponent: "Hanagasa",
-        unlock: "The Royal City of Rabanastre"
-    }, {
+        acquiredBy: "The Royal City of Rabanastre",
+        patch: "4.1",
+    },
+    {
         name: "Roland",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 1000 MGP"
-    }, {
+        acquiredBy: "Event: Make It Rain (2017), 10,000 MGP",
+        patch: "3.55a",
+    },
+    {
         name: "Roundrox",
         rarity: "★★★",
-        type: "None",
+        type: "Beastman",
         opponent: "Seika, Tapklix",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.1",
+    },
+    {
         name: "Sadu",
         rarity: "★★★",
         type: "None",
         opponent: "Munglig",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Seeker of Solitude",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Grand Cosmos"
-    }, {
+        acquiredBy: "The Grand Cosmos",
+        patch: "5.1",
+    },
+    {
         name: "Seiryu",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "The Wreath of Snakes, The Wreath of Snakes (Extreme)"
-    }, {
+        acquiredBy: "The Wreath of Snakes, The Wreath of Snakes (Extreme)",
+        patch: "4.5",
+    },
+    {
         name: "Storge",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Malikah's Well, Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Malikah's Well, Dream Triad Card",
+        patch: "5.0",
+    },
+    {
         name: "Strix",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Great Gubal Library (Hard)"
-    }, {
+        opponent: "Mero Roggo",
+        acquiredBy: "The Great Gubal Library (Hard)",
+        patch: "3.4",
+    },
+    {
         name: "Susano",
         rarity: "★★★",
         type: "Primal",
         opponent: "",
-        unlock: "The Pool of Tribute, The Pool of Tribute (Extreme)"
-    }, {
+        acquiredBy: "The Pool of Tribute, The Pool of Tribute (Extreme)",
+        patch: "4.0",
+    },
+    {
         name: "Suzaku",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Hell's Kier, Hell's Kier (Extreme)"
-    }, {
+        acquiredBy: "Hell's Kier, Hell's Kier (Extreme)",
+        patch: "4.4",
+    },
+    {
         name: "Thancred",
         rarity: "★★★",
         type: "Scion",
         opponent: "Fufulupa, Hab",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "The Griffin",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Baelsar's Wall"
-    }, {
+        acquiredBy: "Baelsar's Wall",
+        patch: "3.55a",
+    },
+    {
         name: "Tioman",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from the final boss of Sohm Al dungeon."
-    }, {
+        acquiredBy: "Sohm Al",
+        patch: "3.0",
+    },
+    {
         name: "Titan",
         rarity: "★★★",
         type: "Primal",
         opponent: "Landenel, Trachtoum",
-        unlock: "Drops from The Navel (Hard), The Navel (Extreme)"
-    }, {
+        acquiredBy: "The Navel (Hard), The Navel (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Titania",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Dancing Plague, The Dancing Plague (Extreme), Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "The Dancing Plague, The Dancing Plague (Extreme), Dream Triad Card",
+        patch: "5.0",
+    },
+    {
         name: "Tokkapchi",
         rarity: "★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Saint Mocianne's Arboretum (Hard)"
-    }, {
+        acquiredBy: "Saint Mocianne's Arboretum (Hard)",
+        patch: "4.4",
+    },
+    {
         name: "Tozol Huatotl",
         rarity: "★★★",
         type: "Beastman",
-        opponent: "",
-        unlock: "Drops from Xelphatol"
-    }, {
+        opponent: "Sezul Totoloc",
+        acquiredBy: "Xelphatol",
+        patch: "3.4",
+    },
+    {
         name: "Unknown",
         rarity: "★★★",
-        type: "",
+        type: "None",
         opponent: "",
-        unlock: "Drops from Anamnesis Anyder"
-    }, {
+        acquiredBy: "Anamnesis Anyder",
+        patch: "5.2",
+    },
+    {
         name: "Urianger",
         rarity: "★★★",
         type: "Scion",
-        opponent: "Ruhtwyda of the Three Hearts, Tataru",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        opponent: "Ruhtwyda of the Three Hearts",
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Vedrfolnir",
         rarity: "★★★",
         type: "None",
         opponent: "Mogmill",
-        unlock: "Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Mythril Triad Card",
+        patch: "3.1",
+    },
+    {
         name: "Vicegerent to the Warden",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Sunken Temple of Qarn (Hard)"
-    }, {
+        opponent: "Yayake",
+        acquiredBy: "The Sunken Temple of Qarn (Hard)",
+        patch: "3.2",
+    },
+    {
         name: "Waukkeon",
         rarity: "★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Neverreap"
-    }, {
+        opponent: "Linu Vali",
+        acquiredBy: "Neverreap",
+        patch: "3.3",
+    },
+    {
         name: "Y'shtola",
         rarity: "★★★",
         type: "Scion",
         opponent: "Gegeruju, R'ashaht Rhiki",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Ysayle",
         rarity: "★★★",
         type: "None",
         opponent: "Marcechamp",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Alphinaud & Alisaie",
         rarity: "★★★★",
         type: "Scion",
         opponent: "Joellaut, Swift",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Argath Thadalfus",
         rarity: "★★★★",
         type: "None",
         opponent: "Hanagasa",
-        unlock: "The Royal City of Rabanastre"
-    }, {
+        acquiredBy: "The Royal City of Rabanastre",
+        patch: "4.1",
+    },
+    {
         name: "Armored Weapon",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.55a",
+    },
+    {
         name: "Aymeric",
         rarity: "★★★★",
         type: "None",
         opponent: "Yayake",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.0",
+    },
+    {
         name: "Bismarck",
         rarity: "★★★★",
         type: "Primal",
         opponent: "Linu Vali",
-        unlock: "Drops from The Limitless Blue (Hard) and The Limitless Blue (Extreme) Trials."
-    }, {
+        acquiredBy: "The Limitless Blue (Hard), The Limitless Blue (Extreme)",
+        patch: "3.0",
+    },
+    {
         name: "Brute Justice",
         rarity: "★★★★",
         type: "None",
         opponent: "Tapklix",
-        unlock: "Alexander - The Burden of the Son"
-    }, {
+        acquiredBy: "Alexander - The Burden of the Son",
+        patch: "3.2",
+    },
+    {
         name: "Calofisteri",
         rarity: "★★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from The Weeping City of Mhach"
-    }, {
+        opponent: "Redbill Storeboy",
+        acquiredBy: "The Weeping City of Mhach",
+        patch: "3.3",
+    },
+    {
         name: "Cid Garlond",
         rarity: "★★★★",
         type: "None",
         opponent: "Sezul Totoloc",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Diabolos Hollow",
         rarity: "★★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Dun Scaith"
-    }, {
+        opponent: "Redbill Storeboy",
+        acquiredBy: "Dun Scaith",
+        patch: "3.55a",
+    },
+    {
         name: "Elidibus",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "56,000 MGP"
-    }, {
+        acquiredBy: "56,000 MGP",
+        patch: "5.3",
+    },
+    {
         name: "F'lhaminn",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Purchased from the Triple Triad Trader for 20,000 MGP"
-    }, {
+        acquiredBy: "20,000 MGP",
+        patch: "3.2",
+    },
+    {
         name: "Gigi",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Campaign Attendant during The Make It Rain Campaign 2017 for 18000 MGP"
-    }, {
+        acquiredBy: "Event: Make It Rain (2017), 90,000 MGP",
+        patch: "3.55a",
+    },
+    {
         name: "Great Gold Whisker",
         rarity: "★★★★",
         type: "Beastman",
         opponent: "Gyoei",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.5",
+    },
+    {
         name: "Hancock",
         rarity: "★★★★",
         type: "None",
         opponent: "Kikimo",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Heavensward Thancred",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Achievement Triple Team V - Defeat 60 unique NPCs at Triple Triad."
-    }, {
+        acquiredBy: "Achievement: Triple-decker VI",
+        patch: "3.4",
+    },
+    {
         name: "Heavensward Y'shtola",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Achievement Triple-Decker VI - Obtain 150 unique Triple Triad cards."
-    }, {
+        acquiredBy: "Achievement: Triple Team V",
+        patch: "3.4",
+    },
+    {
         name: "Innocence",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Crown of the Immaculate, The Crown of the Immaculate (Extreme), Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "The Crown of the Immaculate, The Crown of the Immaculate (Extreme), Dream Triad Card",
+        patch: "5.0",
+    },
+    {
         name: "Krile",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Triple Team VII achievement: obtain 190 unique Triple Triad cards"
-    }, {
+        acquiredBy: "Achievement: Triple-decker VII",
+        patch: "4.0",
+    },
+    {
         name: "Lahabrea",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Silver Triad Card, Platinum Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Leviathan",
         rarity: "★★★★",
         type: "Primal",
         opponent: "R'ashaht Rhiki",
-        unlock: "Drops from The Whorleater (Hard), The Whorleater (Extreme)"
-    }, {
+        acquiredBy: "The Whorleater (Hard), The Whorleater (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Louisoix Leveilleur",
         rarity: "★★★★",
         type: "None",
         opponent: "Rowena",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Lyse",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Triple-decker VI achievement: defeat 70 different NPCs"
-    }, {
+        acquiredBy: "Achievement: Triple Team VI",
+        patch: "4.0",
+    },
+    {
         name: "Minfilia",
         rarity: "★★★★",
         type: "Scion",
         opponent: "Gegeruju",
-        unlock: "Drops from Silver Triad Card"
-    }, {
+        acquiredBy: "Silver Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Nael van Darnus",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "Flichoirel the Lordling",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.4",
+    },
+    {
         name: "Odin",
         rarity: "★★★★",
         type: "Primal",
         opponent: "Landenel",
-        unlock: "Drops from Urth's Fount, Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Urth's Fount, Mythril Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Oracle of Light",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Ramuh",
         rarity: "★★★★",
         type: "Primal",
         opponent: "Vorsaile Heuloix",
-        unlock: "Drops from The Striking Tree (Hard), The Striking Tree (Extreme)"
-    }, {
+        acquiredBy: "The Striking Tree (Hard), The Striking Tree (Extreme)",
+        patch: "2.51",
+    },
+    {
         name: "Ran'jit",
         rarity: "★★★★",
         type: "None",
         opponent: "Grewenn",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Ravana",
         rarity: "★★★★",
         type: "Primal",
         opponent: "Vath Deftarm",
-        unlock: "Drops from Thok ast Thok (Hard) and Thok ast Thok (Extreme) Trials."
-    }, {
+        acquiredBy: "Thok ast Thok (Hard), Thok ast Thok (Extreme)",
+        patch: "3.0",
+    },
+    {
         name: "Ruby Weapon",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Drop from Cinder Drift, Cinder Drift (Extreme)"
-    }, {
+        acquiredBy: "Cinder Drift, Cinder Drift (Extreme)",
+        patch: "5.2",
+    },
+    {
         name: "Sapphire Weapon",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "Furtive Former Imperial",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.3",
+    },
+    {
         name: "Senor Sabotender",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from the Triple Triad Trader for 200,000 MGP"
-    }, {
+        acquiredBy: "200,000 MGP",
+        patch: "3.1",
+    },
+    {
         name: "Sephirot",
         rarity: "★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Containment Bay S1T7"
-    }, {
+        acquiredBy: "Containment Bay S1T7, Containment Bay S1T7 (Extreme)",
+        patch: "3.2",
+    },
+    {
         name: "Shadowbringers Thancred",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Complete Triple-decker X achievement"
-    }, {
+        acquiredBy: "Complete Triple-decker X achievement",
+        patch: "5.3",
+    },
+    {
         name: "Shadowbringers Urianger",
         rarity: "★★★★",
         type: "Scion",
         opponent: "",
-        unlock: "Complete Triple-decker IX achievement"
-    }, {
+        acquiredBy: "Complete Triple-decker IX achievement",
+        patch: "5.0",
+    },
+    {
         name: "Shadowbringers Y'shtola",
         rarity: "★★★★",
         type: "Scion",
         opponent: "Hargra",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "5.0",
+    },
+    {
         name: "Shinryu",
         rarity: "★★★★",
         type: "Primal",
-        opponent: "",
-        unlock: "The Royal Menagerie"
-    }, {
+        opponent: "Ironworks Hand",
+        acquiredBy: "The Royal Menagerie, The Minstrel's Ballad: Shinryu's Domain",
+        patch: "4.0",
+    },
+    {
         name: "Shiva",
         rarity: "★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Drops from Akh Afah Amphitheatre (Hard), Akh Afah Amphitheatre (Extreme), Drops from Platinum Triad Card"
-    }, {
+        acquiredBy: "Akh Afah Amphitheatre (Hard), Akh Afah Amphitheatre (Extreme), Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Stormblood Gilgamesh",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Kugane Ohashi duty."
-    }, {
+        acquiredBy: "Kugane Ohashi",
+        patch: "4.56",
+    },
+    {
         name: "Tiamat",
         rarity: "★★★★",
         type: "None",
         opponent: "Idle Imperial",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Tsukuyomi",
         rarity: "★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Drops from The Minstrel's Ballad: Tsukuyomi's Pain"
-    }, {
+        acquiredBy: "Castrum Fluminis, The Minstrel's Ballad: Tsukuyomi's Pain",
+        patch: "4.3",
+    },
+    {
         name: "The Ultima Weapon",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Drops from The Minstrel's Ballad: Ultima's Bane, Gold Triad Card, Platinum Triad Card"
-    }, {
+        acquiredBy: "The Minstrel's Ballad: Ultima's Bane, Gold Triad Card, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Unei & Doga",
         rarity: "★★★★",
         type: "None",
         opponent: "Klynthota",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "3.3",
+    },
+    {
         name: "Vidofnir",
         rarity: "★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Triple Decker V Achievement by containing 120 Triple Triad cards"
-    }, {
+        acquiredBy: "Achievement: Triple-decker V",
+        patch: "3.2",
+    },
+    {
         name: "Xande",
         rarity: "★★★★",
         type: "None",
         opponent: "Klynthota",
-        unlock: "Drops from Syrcus Tower"
-    }, {
+        acquiredBy: "Syrcus Tower",
+        patch: "3.2",
+    },
+    {
         name: "Yotsuyu",
         rarity: "★★★★",
         type: "Garlean",
         opponent: "Imperial Soldier",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "2P",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Puppets' Bunker"
-    }, {
+        acquiredBy: "The Puppets' Bunker",
+        patch: "5.3",
+    },
+    {
         name: "9S",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Copied Factory"
-    }, {
+        acquiredBy: "The Copied Factory",
+        patch: "5.1",
+    },
+    {
         name: "Archaeotania",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Dream Triad Card"
-    }, {
+        acquiredBy: "Dream Triad Card",
+        patch: "5.1",
+    },
+    {
         name: "Archbishop Thordan VII",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Minstrel's Ballad: Thordan's Reign"
-    }, {
+        acquiredBy: "The Minstrel's Ballad: Thordan's Reign",
+        patch: "3.1",
+    },
+    {
         name: "Ardbert",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Complete Triple Team VIII Achievement"
-    }, {
+        acquiredBy: "Achievement: Triple Team VII",
+        patch: "5.0",
+    },
+    {
         name: "Bahamut",
         rarity: "★★★★★",
-        type: "None",
+        type: "Primal",
         opponent: "King Elmer III",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Bartz Klauser",
         rarity: "★★★★★",
         type: "None",
         opponent: "Lewena",
-        unlock: "Drops from Battle in the Big Keep, Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "Battle in the Big Keep, Mythril Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Cecil Harvey",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Spinner's Pull Triple Triad Tournament Reward, Drops from Platinum Triad Card"
-    }, {
+        acquiredBy: "Triple Triad Tournament, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Cloud of Darkness",
         rarity: "★★★★★",
         type: "None",
         opponent: "Klynthota",
-        unlock: "Drops from World of Darkness"
-    }, {
+        acquiredBy: "The World of Darkness",
+        patch: "3.2",
+    },
+    {
         name: "Cloud Strife",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Triple Triad Trader for 1,000,000 MGP."
-    }, {
+        acquiredBy: "1,000,000 MGP",
+        patch: "2.51",
+    },
+    {
         name: "Firion",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
-    }, {
+        acquiredBy: "Triple Triad Tournament, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Gaius van Baelsar",
         rarity: "★★★★★",
         type: "Garlean",
         opponent: "Indolent Imperial",
-        unlock: "Dropped from The Praetorium"
-    }, {
+        acquiredBy: "The Praetorium",
+        patch: "2.51",
+    },
+    {
         name: "Gosetsu",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Triple-Decker VIII Achievement"
-    }, {
+        acquiredBy: "Achievement: Triple-decker VIII",
+        patch: "4.3",
+    },
+    {
         name: "Hades",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from The Dying Gasp, The Minstrel's Ballad: Hades's Elegy"
-    }, {
+        acquiredBy: "The Dying Gasp, The Minstrel's Ballad: Hades's Elegy",
+        patch: "5.0",
+    },
+    {
         name: "Hien",
         rarity: "★★★★★",
         type: "None",
         opponent: "Kiuka",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.0",
+    },
+    {
         name: "Hildibrand & Nashu Mhakaracca",
         rarity: "★★★★★",
         type: "None",
-        opponent: "Hab, Helmhart",
-        unlock: ""
-    }, {
+        opponent: "Hab",
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Hisui and Kurenai",
         rarity: "★★★★★",
         type: "None",
         opponent: "Isobe",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.2",
+    },
+    {
         name: "Hraesvelgr",
         rarity: "★★★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Sohr Khai"
-    }, {
+        opponent: "Master Mogzin",
+        acquiredBy: "Sohr Khai",
+        patch: "3.3",
+    },
+    {
         name: "Kan-E-Senna",
         rarity: "★★★★★",
         type: "None",
         opponent: "Vorsaile Heuloix",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Lightning",
         rarity: "★★★★★",
         type: "None",
-        opponent: "Tataru",
-        unlock: "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
-    }, {
+        opponent: "",
+        acquiredBy: "Triple Triad Tournament, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Merlwyb Bloefhiswyn",
         rarity: "★★★★★",
         type: "None",
-        opponent: "R'ashaht Rhiki, Mordyn",
-        unlock: ""
-    }, {
+        opponent: "R'ashaht Rhiki, O'kalkaya, Mordyn",
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Midgardsormr",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Triple-Decker IV Achievement by obtaining 90 unique Triple Triad Cards."
-    }, {
+        acquiredBy: "Achievement: Triple-decker IV",
+        patch: "3.0",
+    },
+    {
         name: "Nanamo Ul Namo",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Triple Triad Trader for 400,000 MGP, Drops from Platinum Triad Card"
-    }, {
+        acquiredBy: "Platinum Triad Card, 400,000 MGP",
+        patch: "2.51",
+    },
+    {
         name: "Nidhogg",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from the final boss of The Aery dungeon."
-    }, {
+        acquiredBy: "The Aery",
+        patch: "3.0",
+    },
+    {
         name: "Noctis Lucis Caelum",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Ironworks Vendor for 10,000 MPG, during A Nocturne for Heroes"
-    }, {
+        acquiredBy: "Event: A Nocturne for Heroes (FFXV Crossover), 200,000 MGP",
+        patch: "4.56",
+    },
+    {
         name: "Omega",
         rarity: "★★★★★",
         type: "None",
-        opponent: "",
-        unlock: "Drops from Alphascape V3.0 & V4.0"
-    }, {
+        opponent: "Ironworks Hand",
+        acquiredBy: "Alphascape V3.0, Alphascape V4.0",
+        patch: "4.4",
+    },
+    {
         name: "Onion Knight",
         rarity: "★★★★★",
         type: "None",
         opponent: "Lewena",
-        unlock: "Drops from World of Darkness, Drops randomly from Mythril Triad Card"
-    }, {
+        acquiredBy: "The World of Darkness, Mythril Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Raubahn Aldynn",
         rarity: "★★★★★",
         type: "None",
         opponent: "Swift",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "2.51",
+    },
+    {
         name: "Raubahn and Pipin",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Bought from the Triple Triad Trader for 400,000 MGP"
-    }, {
+        acquiredBy: "400,000 MGP",
+        patch: "4.1",
+    },
+    {
         name: "Regula van Hydrus",
         rarity: "★★★★★",
         type: "Garlean",
         opponent: "Idle Imperial",
-        unlock: "Random from Imperial Triad Card"
-    }, {
+        acquiredBy: "Imperial Triad Card",
+        patch: "3.1",
+    },
+    {
         name: "Shadowbringers Warrior of Light",
         rarity: "★★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "The Seat of Sacrifice, The Seat of Sacrifice (Extreme)"
-    }, {
+        acquiredBy: "The Seat of Sacrifice, The Seat of Sacrifice (Extreme)",
+        patch: "5.3",
+    },
+    {
         name: "Shantotto",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Kumite Kumite Kumite Achievement by winning 30 Tournament Matches"
-    }, {
+        acquiredBy: "Achievement: Kumite Kumite Kumite",
+        patch: "2.51",
+    },
+    {
         name: "Sophia",
         rarity: "★★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Drops from Containment Bay P1T6 and Containment Bay P1T6 (Extreme)"
-    }, {
+        acquiredBy: "Containment Bay P1T6, Containment Bay P1T6 (Extreme)",
+        patch: "3.4",
+    },
+    {
         name: "Squall Leonhart",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Triple Team II Achievement by defeating 30 unique NPCs"
-    }, {
+        acquiredBy: "Achievement: Triple Team II",
+        patch: "2.51",
+    },
+    {
         name: "Stormblood Alphinaud and Alisaie",
         rarity: "★★★★★",
         type: "Scion",
         opponent: "Mero Roggo",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.5",
+    },
+    {
         name: "Terra Branford",
         rarity: "★★★★★",
         type: "None",
         opponent: "Lewena, Hall Overseer",
-        unlock: "Drops from The Dragon's Neck"
-    }, {
+        acquiredBy: "The Dragon's Neck, Mythril Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Therion",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Purchased from Goushs Ooan in The Ondo Cups for 250 Bicolor Gemstones"
-    }, {
+        acquiredBy: "250 Bicolor Gemstones (The Tempest)",
+        patch: "5.2",
+    },
+    {
         name: "Tidus",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Triple Triad Tournament Reward, Drops from Platinum Triad Card"
-    }, {
+        acquiredBy: "Triple Triad Tournament, Platinum Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Ultima, the High Seraph",
         rarity: "★★★★★",
         type: "None",
         opponent: "Hanagasa",
-        unlock: "Drops from The Orbonne Monastery"
-    }, {
+        acquiredBy: "The Orbonne Monastery",
+        patch: "4.5",
+    },
+    {
         name: "Vaan",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Obtain Wheel of Fortune V Achievement by winning 300 matches with Roulette rules."
-    }, {
+        acquiredBy: "Achievement: Wheel of Fortune V",
+        patch: "2.51",
+    },
+    {
         name: "Varis yae Galvus",
         rarity: "★★★★★",
         type: "Garlean",
         opponent: "",
-        unlock: "Drops from Memoria Misera (Extreme)"
-    }, {
+        acquiredBy: "Memoria Misera (Extreme)",
+        patch: "5.25",
+    },
+    {
         name: "Warrior of Light",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Yiazmat",
         rarity: "★★★★★",
         type: "None",
         opponent: "Hanagasa",
-        unlock: "The Ridorana Lighthouse"
-    }, {
+        acquiredBy: "The Ridorana Lighthouse",
+        patch: "4.3",
+    },
+    {
         name: "Yojimbo & Daigaro",
         rarity: "★★★★★",
         type: "None",
         opponent: "Hokushin",
-        unlock: ""
-    }, {
+        acquiredBy: "",
+        patch: "4.45",
+    },
+    {
         name: "Zenos yae Galvus",
         rarity: "★★★★★",
         type: "Garlean",
-        opponent: "",
-        unlock: "Ala Mhigo"
-    }, {
+        opponent: "Hachinan",
+        acquiredBy: "Ala Mhigo",
+        patch: "4.0",
+    },
+    {
         name: "Zidane Tribal",
         rarity: "★★★★★",
         type: "None",
         opponent: "",
-        unlock: "Drops from Gold Triad Card"
-    }, {
+        acquiredBy: "Gold Triad Card",
+        patch: "2.51",
+    },
+    {
         name: "Zurvan",
         rarity: "★★★★★",
         type: "Primal",
         opponent: "",
-        unlock: "Drops Containment Bay Z1T9, Containment Bay Z1T9 (Extreme)"
-    }
+        acquiredBy: "Containment Bay Z1T9, Containment Bay Z1T9 (Extreme)",
+        patch: "3.5",
+    },
 ];

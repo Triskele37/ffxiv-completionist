@@ -6,304 +6,423 @@ export const Collectables_Orchestrion_List_Raids_I = function(parent) {
 
 const tasks = [
     {
-        number: 1,
+        number: "1",
         name: "Hubris",
-        method: "Materials for synthesis obtained in the Labyrinth of the Ancients.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Hubris, dropped in Labyrinth of the Ancients."
-    }, {
-        number: 2,
+        methodType: "Materials for synthesis obtained in the Labyrinth of the Ancients.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "2",
         name: "Tumbling Down",
-        method: "Materials for synthesis obtained in the Labyrinth of the Ancients.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Tumbling Down, dropped in Labyrinth of the Ancients."
-    }, {
-        number: 3,
+        methodType: "Materials for synthesis obtained in the Labyrinth of the Ancients.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "3",
         name: "Now I Know the Truth",
-        method: "Materials for synthesis obtained in Syrcus Tower.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Now I Know the Truth, dropped in Syrcus Tower."
-    }, {
-        number: 4,
+        methodType: "Materials for synthesis obtained in Syrcus Tower.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "4",
         name: "Out of the Labyrinth",
-        method: "Materials for synthesis obtained in Syrcus Tower.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Out of the Labyrinth, dropped in Syrcus Tower."
-    }, {
-        number: 5,
+        methodType: "Materials for synthesis obtained in Syrcus Tower.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "5",
         name: "Shattered",
-        method: "Obtained in Syrcus Tower.",
-        unlock: "Drops from Syrcus Tower."
-    }, {
-        number: 6,
+        methodType: "Obtained in Syrcus Tower.",
+        method: "",
+        patch: "4.2",
+    },
+    {
+        number: "6",
         name: "Blind to the Dark",
-        method: "Materials for synthesis obtained in the World of Darkness.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Blind to the Dark, dropped in World of Darkness."
-    }, {
-        number: 7,
+        methodType: "Materials for synthesis obtained in the World of Darkness.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "7",
         name: "Hunger",
-        method: "Materials for synthesis obtained in the World of Darkness.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) with Faded Copy of Hunger, dropped in World of Darkness."
-    }, {
-        number: 8,
+        methodType: "Materials for synthesis obtained in the World of Darkness.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "8",
         name: "Eternal Wind",
-        method: "Materials for synthesis obtained in the Labyrinth of the Ancients, Syrcus Tower, or the World of Darkness.",
-        unlock: "Crafted by Level 60 Alchemist (Master Alchemist III ?) with Faded Copy of Tumbling Down, Faded Copy of Out of the Labyrinth and Faded Copy of Hunger, dropped in Labyrinth of the Ancients, Syrcus Tower, and World of Darkness."
-    }, {
-        number: 9,
+        methodType: "Materials for synthesis obtained in the Labyrinth of the Ancients, Syrcus Tower, or the World of Darkness.",
+        method: "",
+        patch: "3.25",
+    },
+    {
+        number: "9",
         name: "Calamity Unbound",
-        method: "Obtained in the Aquapolis.",
-        unlock: "Teleportation ward for The Aquapolis randomly spawns after the completion of a Timeworn Dragonskin Map."
-    }, {
-        number: 10,
+        methodType: "Obtained in the Aquapolis or from Kupo of Fortune in the Firmament.",
+        method: "Wyvernskin Treasure Map.",
+        patch: "3.4",
+    },
+    {
+        number: "10",
         name: "Spiral",
-        method: "Available for MGP exchange at the Gold Saucer.",
-        unlock: "Bought from the Gold Saucer Attendant <Prize Claim> at the Gold Saucer for 30,000 MGP."
-    }, {
-        number: 11,
+        methodType: "Available for MGP exchange at the Gold Saucer.",
+        method: "Purchase for 30,000 MGP.",
+        patch: "3.5",
+    },
+    {
+        number: "11",
         name: "Thunderer",
-        method: "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) Faded Copy of Thunderer, dropped in The Binding Coil of Bahamut - Turn 5."
-    }, {
-        number: 12,
+        methodType: "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5.",
+        method: "*Drop rates increase when participating at minimum IL.",
+        patch: "3.25",
+    },
+    {
+        number: "12",
         name: "Tempest",
-        method: "Available for MGP exchange at the Gold Saucer.",
-        unlock: "Bought from the Gold Saucer Attendant <Prize Claim> at the Gold Saucer for 30,000 MGP."
-    }, {
-        number: 13,
+        methodType: "Available for MGP exchange at the Gold Saucer.",
+        method: "Purchase for 30,000 MGP.",
+        patch: "3.5",
+    },
+    {
+        number: "13",
         name: "Rise of the White Raven",
-        method: "Materials for synthesis obtained in the Second Coil of Bahamut - Turn 4.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) Faded Copy of Rise of the White Raven, dropped in The Second Coil of Bahamut - Turn 4."
-    }, {
-        number: 14,
+        methodType: "Materials for synthesis obtained in the Second Coil of Bahamut - Turn 4.",
+        method: "*Drop rates increase when participating at minimum IL.",
+        patch: "3.25",
+    },
+    {
+        number: "14",
         name: "From the Ashes",
-        method: "Materials for synthesis obtained in the Final Coil of Bahamut - Turn 3.",
-        unlock: "Crafted by Level 50 Alchemist (Master Alchemist II ????) Faded Copy of From the Ashes, dropped in The Final Coil of Bahamut - Turn 3."
-    }, {
-        number: 15,
+        methodType: "Materials for synthesis obtained in the Final Coil of Bahamut - Turn 3.",
+        method: "*Drop rates increase when participating at minimum IL.",
+        patch: "3.25",
+    },
+    {
+        number: "15",
         name: "Answers",
-        method: "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5, the Second Coil of Bahamut - Turn 4, or the Final Coil of Bahamut - Turn 4.",
-        unlock: "Crafted by Level 60 Alchemist (Master Alchemist IV ??) Faded Copy of Thunderer, Faded Copy of Rise of the White Raven, and Faded Copy of Answers, dropped in The Binding Coil of Bahamut - Turn 5, The Second Coil of Bahamut - Turn 4, and The Final Coil of Bahamut - Turn 4."
-    }, {
-        number: 16,
+        methodType: "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5, the Second Coil of Bahamut - Turn 4, or the Final Coil of Bahamut - Turn 4.",
+        method: "*Drop rates increase when participating at minimum IL.",
+        patch: "3.25",
+    },
+    {
+        number: "16",
         name: "Beyond Redemption",
-        method: "Exchange",
-        unlock: "Exchange in Old Gridania"
-    }, {
-        number: 17,
+        methodType: "Available for exchange in Old Gridania.",
+        method: "Exchange from Jonathas for 2 Achievement Certificates.",
+        patch: "4.45",
+    },
+    {
+        number: "17",
         name: "Aetherosphere",
-        method: "Available for Mhachi farthing exchange in Idyllshire.",
-        unlock: "Purchased from Bertana in Idyllshire for 1 Mhachi Farthing."
-    }, {
-        number: 18,
+        methodType: "Available for Mhachi farthing exchange in Idyllshire.",
+        method: "Purchase from Bertana for 1 Mhachi Farthing.",
+        patch: "3.5",
+    },
+    {
+        number: "18",
         name: "Six Fulms Under",
-        method: "Available for Mhachi farthing exchange in Idyllshire.",
-        unlock: "Purchased from Bertana in Idyllshire for 1 Mhachi Farthing."
-    }, {
-        number: 19,
+        methodType: "Available for Mhachi farthing exchange in Idyllshire.",
+        method: "Purchase from Bertana for 1 Mhachi Farthing.",
+        patch: "3.5",
+    },
+    {
+        number: "19",
         name: "Teardrops in the Rain",
-        method: "Available for Mhachi penny exchange in Idyllshire.",
-        unlock: "Purchased from Bertana in Idyllshire for 1 Mhachi Penny."
-    }, {
-        number: 20,
+        methodType: "Available for Mhachi penny exchange in Idyllshire.",
+        method: "Purchase from Bertana for 1 Mhachi Penny.",
+        patch: "3.5",
+    },
+    {
+        number: "20",
         name: "A Thousand Faces",
-        method: "Available for Mhachi penny exchange in Idyllshire.",
-        unlock: "Purchased from Bertana in Idyllshire for 1 Mhachi Penny."
-    }, {
-        number: 21,
+        methodType: "Available for Mhachi penny exchange in Idyllshire.",
+        method: "Purchase from Bertana for 1 Mhachi Penny.",
+        patch: "3.5",
+    },
+    {
+        number: "21",
         name: "Promises",
-        method: "Chronicles of a New Era - The Shadow of Mhach quest reward.",
-        unlock: "Reward for the quest Where Shadows Reign."
-    }, {
-        number: 22,
+        methodType: "Chronicles of a New Era - The Shadow of Mhach quest reward.",
+        method: "",
+        patch: "3.5",
+    },
+    {
+        number: "22",
         name: "Shadow of the Body",
-        method: "Chronicles of a New Era - The Shadow of Mhach quest reward.",
-        unlock: "Reward for the quest Where Shadows Reign."
-    }, {
-        number: 23,
+        methodType: "Chronicles of a New Era - The Shadow of Mhach quest reward.",
+        method: "",
+        patch: "3.5",
+    },
+    {
+        number: "23",
         name: "Sins of the Father, Sins of the Son",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Of Endings and Beginnings."
-    }, {
-        number: 24,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "24",
         name: "Locus",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Of Endings and Beginnings."
-    }, {
-        number: 25,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "25",
         name: "Metal",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Of Endings and Beginnings."
-    }, {
-        number: 26,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "26",
         name: "Metal - Brute Justice Mode",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Of Endings and Beginnings."
-    }, {
-        number: 27,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "27",
         name: "Exponential Entropy",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Thus Spake Quickthinx."
-    }, {
-        number: 28,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "28",
         name: "Rise",
-        method: "Chronicles of a New Era - Alexander: The Creator quest reward.",
-        unlock: "Reward for the quest Judgment Day."
-    }, {
-        number: 29,
+        methodType: "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        method: "",
+        patch: "3.4",
+    },
+    {
+        number: "29",
         name: "Moebius",
-        method: "Available for Alexandrian gear exchange in Idyllshire.",
-        unlock: "Purchased from Bertana in Idyllshire for 1 Alexandrian Gear."
-    }, {
-        number: 30,
+        methodType: "Available for Alexandrian gear exchange in Idyllshire.",
+        method: "Purchase from Bertana for 1 Alexandrian Gear.",
+        patch: "3.5",
+    },
+    {
+        number: "30",
         name: "Trisection",
-        method: "Obtained in the Royal City of Rabanastre.",
-        unlock: "Drops from the final chest of The Royal City of Rabanastre."
-    }, {
-        number: 31,
+        methodType: "Obtained in the Royal City of Rabanastre.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "31",
         name: "Precipitous Combat",
-        method: "Obtained in the Royal City of Rabanastre.",
-        unlock: "Drops from the final chest of The Royal City of Rabanastre."
-    }, {
-        number: 32,
+        methodType: "Obtained in the Royal City of Rabanastre.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "32",
         name: "Ultima's Transformation",
-        method: "Obtained in the Royal City of Rabanastre.",
-        unlock: "Drops from the final chest of The Royal City of Rabanastre."
-    }, {
-        number: 33,
+        methodType: "Obtained in the Royal City of Rabanastre.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "33",
         name: "Protagonist's Theme",
-        method: "Quest reward.",
-        unlock: "Reward for the quest A City Fallen."
-    }, {
-        number: 34,
+        methodType: "Quest reward.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "34",
         name: "Background Story",
-        method: "Quest reward.",
-        unlock: "Reward for the quest A City Fallen."
-    }, {
-        number: 35,
+        methodType: "Quest reward.",
+        method: "",
+        patch: "4.1",
+    },
+    {
+        number: "35",
         name: "World Map",
-        method: "Quest reward.",
-        unlock: "Reward for the quest Desire"
-    }, {
-        number: 36,
+        methodType: "Return to Ivalice Reward.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "36",
         name: "A Chapel",
-        method: "Quest reward.",
-        unlock: "Reward for Annihilation"
-    }, {
-        number: 37,
+        methodType: "Return to Ivalice Reward.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "37",
         name: "The Mystery of Giruvegan",
-        method: "Acquired from Duty",
-        unlock: "Acquired in The Ridorana Lighthouse"
-    }, {
-        number: 38,
+        methodType: "Obtained in the Ridorana Lighthouse.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "38",
         name: "Apoplexy",
-        method: "Acquired from Duty",
-        unlock: "Acquired in The Ridorana Lighthouse"
-    }, {
-        number: 39,
+        methodType: "Obtained in the Ridorana Lighthouse.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "39",
         name: "Flash of Steel",
-        method: "Acquired from Duty",
-        unlock: "Acquired in The Ridorana Lighthouse"
-    }, {
-        number: 40,
+        methodType: "Obtained in the Ridorana Lighthouse.",
+        method: "",
+        patch: "4.3",
+    },
+    {
+        number: "40",
         name: "Staff Credits",
-        method: "Quest Reward",
-        unlock: "Return to Ivalice Quests"
-    }, {
-        number: 41,
+        methodType: "Quest Reward.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "41",
         name: "Alma's Theme",
-        method: "Quest Reward",
-        unlock: "Return to Ivalice Quests"
-    }, {
-        number: 42,
+        methodType: "Quest Reward.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "42",
         name: "Under the Stars",
-        method: "Raid Reward",
-        unlock: "Orbonne Monastery"
-    }, {
-        number: 43,
+        methodType: "Obtained in the Orbonne Monastery.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "43",
         name: "Pressure (No. 1)",
-        method: "Raid Reward",
-        unlock: "Orbonne Monastery"
-    }, {
-        number: 44,
+        methodType: "Obtained in the Orbonne Monastery.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "44",
         name: "Antipyretic",
-        method: "Raid Reward",
-        unlock: "Orbonne Monastery"
-    }, {
-        number: 45,
+        methodType: "Obtained in the Orbonne Monastery.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "45",
         name: "A Man Consumed",
-        method: "Raid Reward",
-        unlock: "Orbonne Monastery"
-    }, {
-        number: 46,
+        methodType: "Obtained in the Orbonne Monastery.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "46",
         name: "Ultima's Perfection",
-        method: "Raid Reward",
-        unlock: "Orbonne Monastery"
-    }, {
-        number: 47,
+        methodType: "Obtained in the Orbonne Monastery.",
+        method: "",
+        patch: "4.45",
+    },
+    {
+        number: "47",
         name: "Deltascape",
-        method: "Quest Reward",
-        unlock: "Unlocking Alphascape 1.0"
-    }, {
-        number: 48,
+        methodType: "Quest Reward.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "48",
         name: "Omega Squared",
-        method: "Raid Reward",
-        unlock: "Deltascape V1.0, V2.0, or V3.0."
-    }, {
-        number: 49,
+        methodType: "Obtained in Deltascape V1.0, V2.0, or V3.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "49",
         name: "Decisions",
-        method: "Raid Reward",
-        unlock: "Deltascape V4.0."
-    }, {
-        number: 50,
+        methodType: "Obtained in Deltascape V4.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "50",
         name: "Final, Not Final",
-        method: "Eschina - Wondrous Sundries",
-        unlock: "2 Deltascape Bolts"
-    }, {
-        number: 51,
+        methodType: "Available for exchange in Rhalgr's Reach.",
+        method: "Purchase from Eschina for 2 Deltascape Bolts.",
+        patch: "4.4",
+    },
+    {
+        number: "51",
         name: "A Battle Decisively",
-        method: "Raid Reward",
-        unlock: "Sigmascape V1.0, V2.0, or V3.0."
-    }, {
-        number: 52,
+        methodType: "Obtained in Sigmascape V1.0, V2.0, or V3.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "52",
         name: "Dancing Mad - Movement I",
-        method: "Raid Reward",
-        unlock: "Sigmascape V4.0."
-    }, {
-        number: 53,
+        methodType: "Obtained in Sigmascape V4.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "53",
         name: "Dancing Mad - Movement II",
-        method: "Raid Reward",
-        unlock: "Sigmascape V4.0."
-    }, {
-        number: 54,
+        methodType: "Obtained in Sigmascape V4.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "54",
         name: "Dancing Mad - Movement III",
-        method: "Raid Reward",
-        unlock: "Sigmascape V4.0."
-    }, {
-        number: 55,
+        methodType: "Obtained in Sigmascape V4.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "55",
         name: "Dancing Mad - Movement IV",
-        method: "Eschina - Wondrous Sundries",
-        unlock: "2 Sigmascape Bolts"
-    }, {
-        number: 56,
+        methodType: "Available for exchange in Rhalgr's Reach.",
+        method: "Purchase from Eschina for 2 Sigmascape Bolts.",
+        patch: "4.4",
+    },
+    {
+        number: "56",
         name: "Battle",
-        method: "Raid Reward",
-        unlock: "Alphascape V1.0."
-    }, {
-        number: 57,
+        methodType: "Obtained in Alphascape V1.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "57",
         name: "Primogenitor",
-        method: "Raid Reward",
-        unlock: "Alphascape V2.0."
-    }, {
-        number: 58,
+        methodType: "Obtained in Alphascape V2.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "58",
         name: "eScape",
-        method: "Raid Reward",
-        unlock: "Alphascape V3.0."
-    }, {
-        number: 59,
+        methodType: "Obtained in Alphascape V3.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "59",
         name: "Heartless",
-        method: "Raid Reward",
-        unlock: "Alphascape V4.0."
-    }, {
-        number: 60,
+        methodType: "Obtained in Alphascape V4.0.",
+        method: "",
+        patch: "4.4",
+    },
+    {
+        number: "60",
         name: "From the Heavens",
-        method: "Eschina - Wondrous Sundries",
-        unlock: "2 Alphascape Bolts"
+        methodType: "Available for exchange in Rhalgr's Reach.",
+        method: "Purchase from Eschina for 2 Alphascape Bolts.",
+        patch: "4.4",
     },
 ];

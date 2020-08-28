@@ -6,109 +6,150 @@ export const Collectables_Orchestrion_List_Raids_II = function(parent) {
 
 const tasks = [
     {
-        number: 1,
+        number: "1",
         name: "Significance",
-        method: "Quest Reward",
-        unlock: "YoRHa: Dark Apocalypse Quests"
-    }, {
-        number: 2,
+        methodType: "Quest Reward.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "2",
         name: "City Ruins (Rays of Light)",
-        method: "Raid Reward",
-        unlock: "The Copied Factory"
-    }, {
-        number: 3,
+        methodType: "Obtained in the Copied Factory.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "3",
         name: "Voice of no Return",
-        method: "Quest Reward",
-        unlock: "YoRHa: Dark Apocalypse Quests"
-    }, {
-        number: 4,
+        methodType: "Quest Reward.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "4",
         name: "Alien Manifestation",
-        method: "Raid Reward",
-        unlock: "The Copied Factory"
-    }, {
-        number: 5,
+        methodType: "Obtained in the Copied Factory.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "5",
         name: "Song of the Ancients (Atonement)",
-        method: "Raid Reward",
-        unlock: "The Copied Factory"
-    }, {
-        number: 6,
+        methodType: "Obtained in the Copied Factory.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "6",
         name: "Bipolar Nightmare",
-        method: "Raid Reward",
-        unlock: "The Copied Factory"
-    }, {
-        number: 7,
+        methodType: "Obtained in the Copied Factory.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "7",
         name: "Weight of the World (Prelude Version)",
-        method: "Raid Reward",
-        unlock: "The Copied Factory"
-    }, {
-        number: 8,
+        methodType: "Obtained in the Copied Factory.",
+        method: "",
+        patch: "5.1",
+    },
+    {
+        number: "8",
         name: "Crumbling Lies - Front",
-        method: "Quest Reward",
-        unlock: ""
-    }, {
-        number: 9,
+        methodType: "Quest Reward.",
+        method: "One Way to Do It (YoRHa: Dark Apocalypse).",
+        patch: "5.2",
+    },
+    {
+        number: "9",
         name: "Blue Fields",
-        method: "Quest Reward",
-        unlock: "Worlds Apart (Eden's Verse)"
-    }, {
-        number: 10,
+        methodType: "Quest Reward.",
+        method: "Worlds Apart (Eden's Verse).",
+        patch: "5.2",
+    },
+    {
+        number: "10",
         name: "Force Your Way",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Gate: Resurrection or Descent."
-    }, {
-        number: 11,
+        methodType: "Obtained in Eden's Gate: Resurrection or Descent.",
+        method: "",
+        patch: "5.01",
+    },
+    {
+        number: "11",
         name: "Blinding Indigo",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Gate: Inundation."
-    }, {
-        number: 12,
+        methodType: "Obtained in Eden's Gate: Inundation.",
+        method: "",
+        patch: "5.01",
+    },
+    {
+        number: "12",
         name: "Landslide",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Gate: Sepulture."
-    }, {
-        number: 13,
+        methodType: "Obtained in Eden's Gate: Sepulture.",
+        method: "",
+        patch: "5.01",
+    },
+    {
+        number: "13",
         name: "Twice Stricken",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Verse"
-    }, {
-        number: 14,
+        methodType: "Obtained in Eden's Verse: Fulmination.",
+        method: "",
+        patch: "5.2",
+    },
+    {
+        number: "14",
         name: "Primal Angel",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Verse"
-    }, {
-        number: 15,
+        methodType: "Obtained in Eden's Verse: Furor.",
+        method: "",
+        patch: "5.2",
+    },
+    {
+        number: "15",
         name: "Return to Oblivion",
-        method: "Raid Reward",
-        unlock: "Obtained in Eden's Verse"
-    }, {
-        number: 16,
+        methodType: "Obtained in Eden's Verse: Refulgence.",
+        method: "",
+        patch: "5.2",
+    },
+    {
+        number: "16",
         name: "Broken Heart",
-        method: "Quest Reward Reward",
-        unlock: "Crime and Punishment (YoRHa: Dark Apocalypse)"
-    }, {
-        number: 17,
+        methodType: "Quest Reward.",
+        method: "Crime and Punishment (YoRHa: Dark Apocalypse).",
+        patch: "5.3",
+    },
+    {
+        number: "17",
         name: "Amusement Park",
-        method: "Quest Reward",
-        unlock: "We Can Rebuild Her (YoRHa: Dark Apocalypse)"
-    }, {
-        number: 18,
+        methodType: "Quest Reward.",
+        method: "We Can Rebuild Her (YoRHa: Dark Apocalypse).",
+        patch: "5.3",
+    },
+    {
+        number: "18",
         name: "Fortress Of Lies",
-        method: "Obtained in the Puppets' Bunker",
-        unlock: ""
-    }, {
-        number: 19,
+        methodType: "Obtained in the Puppets' Bunker.",
+        method: "",
+        patch: "5.3",
+    },
+    {
+        number: "19",
         name: "Grandma - Destruction",
-        method: "Obtained in the Puppets' Bunker",
-        unlock: ""
-    }, {
-        number: 20,
+        methodType: "Obtained in the Puppets' Bunker.",
+        method: "",
+        patch: "5.3",
+    },
+    {
+        number: "20",
         name: "End Of The Unknown",
-        method: "Obtained in the Puppets' Bunker",
-        unlock: ""
-    }, {
-        number: 21,
+        methodType: "Obtained in the Puppets' Bunker.",
+        method: "",
+        patch: "5.3",
+    },
+    {
+        number: "21",
         name: "Torn From The Heavens/The Dark Colossus Destroys All (Medley)",
-        method: "Obtained in the Puppets' Bunker",
-        unlock: ""
+        methodType: "Obtained in the Puppets' Bunker.",
+        method: "",
+        patch: "5.3",
     },
 ];

@@ -199,6 +199,11 @@ export const migrate_5_25_to_5_3 = () => {
     overall.move(SB_FLOWERS, ORNAMENTS, 'black-tulip-corsage');
     overall.move(SB_FLOWERS, ORNAMENTS, 'rainbow-tulip-corsage');
 
+    // Orchestrion Renames?
+    overall.change('collectables.orchestrion-list.locales-ii', 'thw-dark-which-illuminates-the-world', 'the-dark-which-illuminates-the-world');
+    overall.change('collectables.orchestrion-list.dungeons', 'ominous-porgnisticks', 'ominous-prognisticks');
+    overall.change('collectables.orchestrion-list.others', 'gates-of-paradise', 'gates-of-paradise---the-garden-of-ruhmet');
+
     // Move Parasol to Fashion Accessories / remove Parasol
     overall.create('collectables', 'fashion-accessories');
     overall.move('collectables.parasols', 'collectables.fashion-accessories', 'parasol');

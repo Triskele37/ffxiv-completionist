@@ -20,8 +20,9 @@ export const Collectables_Orchestrion_List = function(parent) {
             centered: true,
         },
         { header: 'Orchestrion Roll', key: 'name' },
-        { header: 'Method Type', key: 'method' },
-        { header: 'Unlock', key: 'unlock' }
+        { header: 'Method Type', key: 'methodType' },
+        { header: 'Method', key: 'method' },
+        { header: 'Patch', key: 'patch', filterable: true },
     ];
 
     data.initializeSubGroups([

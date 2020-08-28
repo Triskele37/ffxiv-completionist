@@ -3,238 +3,392 @@ import { DataGroup } from "../DataGroup";
 export const Collectables_Barding = function(parent) {
     return new DataGroup("Barding", parent).initializeTasks(tasks, [
         { header: 'Barding', key: 'name', },
-        { header: 'Unlock', key: 'unlock' },
+        { header: 'Method', key: 'method' },
+        { header: 'Patch', key: 'patch', filterable: true },
     ]);
 };
 
 const tasks = [
+
     {
         name: "Abigail Barding",
-        unlock: "From Gold and Silver Trimmed Sacks found in Palace of the Dead."
-    }, {
+        method: "From Gold and Silver Trimmed Sacks found in Palace of the Dead.",
+        patch: "3.4",
+    },
+    {
         name: "Ala Mhigan Barding",
-        unlock: "Acquired through the \"Rattle and Humbaba\" FATE in The Peaks."
-    }, {
+        method: "Acquired through the \"Rattle and Humbaba\" FATE in The Peaks.",
+        patch: "4.0",
+    },
+    {
         name: "Angelic Barding",
-        unlock: "Purchased from the Mog Station for EUR 7 or $10."
-    }, {
+        method: "Purchased from the Mog Station for EUR 7 or $10.",
+        patch: "3.5",
+    },
+    {
         name: "Barding of Light",
-        unlock: "3x Achievement Certificate from Jonathas in Apkallu Falls."
-    }, {
+        method: "3x Achievement Certificate from Jonathas in Apkallu Falls.",
+        patch: "2.2",
+    },
+    {
         name: "Behemoth Barding",
-        unlock: "Acquired through the purchase of Final Fantasy XIV A Realm Reborn Collector's Edition."
-    }, {
+        method: "Acquired through the purchase of Final Fantasy XIV A Realm Reborn Collector's Edition.",
+        patch: "2.0",
+    },
+    {
         name: "Black Mage Barding",
-        unlock: "3x Achievement Certificate from Jonathas in Apkallu Falls."
-    }, {
+        method: "3x Achievement Certificate from Jonathas in Apkallu Falls.",
+        patch: "2.0",
+    },
+    {
         name: "Blissful Barding",
-        unlock: "Can be crafted by Goldsmith Recipe 70★"
-    }, {
+        method: "Can be crafted by Goldsmith Recipe 70★",
+        patch: "4.0",
+    },
+    {
         name: "Butlery Barding",
-        unlock: "Purchased from the Mog Station for EUR 7 or $10."
-    }, {
+        method: "Purchased from the Mog Station for EUR 7 or $10.",
+        patch: "2.0",
+    },
+    {
         name: "Byakko Barding",
-        unlock: "Can be crafted by Goldsmith Recipe 70★★★"
-    }, {
+        method: "Can be crafted by Goldsmith Recipe 70★★★",
+        patch: "4.2",
+    },
+    {
         name: "Chocobo Raincoat",
-        unlock: "Trade 1,650 Yellow Gatherers' Scrip at an Exchange"
-    }, {
+        method: "800 Yellow Gatherers' Scrips",
+        patch: "4.2",
+    },
+    {
         name: "Dancer Barding",
-        unlock: "Purchased with 350x Bicolour Gemstone (Eulmore)"
-    }, {
+        method: "Purchased with 350x Bicolour Gemstone (Eulmore)",
+        patch: "5.0",
+    },
+    {
         name: "Deepshadow Barding",
-        unlock: "Purchased with 350x Bicolour Gemstone (Lakeland)"
-    }, {
+        method: "Purchased with 350x Bicolour Gemstone (Lakeland)",
+        patch: "5.0",
+    },
+    {
         name: "Demonic Barding",
-        unlock: "Purchased from the Mog Station for EUR 7 or $10."
-    }, {
+        method: "Purchased from the Mog Station for EUR 7 or $10.",
+        patch: "3.5",
+    },
+    {
         name: "Dragoon Barding",
-        unlock: "Obtain a level 10 Attacker Chocobo Companion."
-    }, {
+        method: "Obtain a level 10 Attacker Chocobo Companion.",
+        patch: "2.0",
+    },
+    {
         name: "Eerie Barding",
-        unlock: "Purchased from the Mog Station for EUR 4.90 or $7."
-    }, {
+        method: "Purchased from the Mog Station for EUR 4.90 or $7.",
+        patch: "2.38",
+    },
+    {
         name: "Egg Harness",
-        unlock: "Acquired through 2014 Hatching-tide seasonal event."
-    }, {
+        method: "Acquired through 2014 Hatching-tide seasonal event.",
+        patch: "2.2",
+    },
+    {
         name: "Egg Hunter Barding",
-        unlock: "Purchased from the Mog Station for EUR 4.90 or $7."
-    }, {
+        method: "Purchased from the Mog Station for EUR 4.90 or $7.",
+        patch: "3.2",
+    },
+    {
         name: "Expanse Barding",
-        unlock: "Can be crafted by Armorer Recipe 60★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 60★",
+        patch: "3.0",
+    },
+    {
         name: "Far East Barding",
-        unlock: "Purchased from the Mog Station for EUR 7 or $10."
-    }, {
+        method: "Purchased from the Mog Station for EUR 7 or $10.",
+        patch: "2.0",
+    },
+    {
         name: "Flyer Shaffron",
-        unlock: "Complete \"I Believe I Can Fly\" Quest"
-    }, {
+        method: "Complete \"I Believe I Can Fly\" Quest",
+        patch: "3.0",
+    },
+    {
         name: "Gambler Barding",
-        unlock: "Purchase from Gold Saucer Attendant for 20,000 MGP."
-    }, {
+        method: "Purchase from Gold Saucer Attendant for 20,000 MGP.",
+        patch: "2.51",
+    },
+    {
         name: "Gridanian Barding",
-        unlock: "Purchased from The Order of the Twin Adder vendor for 6000 Company Seals."
-    }, {
+        method: "Purchased from The Order of the Twin Adder vendor for 6000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Gridanian Crested Barding",
-        unlock: "Purchased from The Order of the Twin Adder vendor for 8000 Company Seals."
-    }, {
+        method: "Purchased from The Order of the Twin Adder vendor for 8000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Gridanian Half Barding",
-        unlock: "Purchased from The Order of the Twin Adder vendor for 4000 Company Seals."
-    }, {
+        method: "Purchased from The Order of the Twin Adder vendor for 4000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Gridanian Saddle",
-        unlock: "Order of the Twin Adder Default Barding"
-    }, {
+        method: "Order of the Twin Adder Default Barding",
+        patch: "2.0",
+    },
+    {
         name: "Hades Barding",
-        unlock: "Can be crafted by Armorer Recipe 80★★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 80★★",
+        patch: "5.1",
+    },
+    {
         name: "Highland Barding",
-        unlock: "Can be crafted by a Level 40 Leatherworker Recipe"
-    }, {
+        method: "Can be crafted by a Level 40 Leatherworker Recipe",
+        patch: "3.0",
+    },
+    {
         name: "Hingan Barding",
-        unlock: "Obtained from Eschina in Rhalgr's Reach for 4 Veteran Clan Mark Logs."
-    }, {
+        method: "Obtained from Eschina in Rhalgr's Reach for 4 Veteran Clan Mark Logs.",
+        patch: "4.0",
+    },
+    {
         name: "Hive Barding",
-        unlock: "Can be crafted by Armorer Recipe 60★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 60★",
+        patch: "3.0",
+    },
+    {
         name: "Horde Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 60★★★"
-    }, {
+        method: "Can be crafted by Leatherworker Recipe 60★★★",
+        patch: "3.3",
+    },
+    {
         name: "Ice Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 50★★★★"
-    }, {
+        method: "Can be crafted by Leatherworker Recipe 50★★★★",
+        patch: "2.4",
+    },
+    {
         name: "Innocence Barding",
-        unlock: "Level 80★ Armorer recipe."
-    }, {
+        method: "Level 80★ Armorer recipe.",
+        patch: "5.0",
+    },
+    {
         name: "Ishgardian Barding",
-        unlock: "Purchased with 350 Centurio Seals, obtained from Clan Hunts from Ardolain in Foundation"
-    }, {
+        method: "Purchased with 350 Centurio Seals, obtained from Clan Hunts from Ardolain in Foundation",
+        patch: "3.0",
+    },
+    {
         name: "Ishgardian Half Barding",
-        unlock: "Obtained from Level 56 FATE Vedrfolnir Devoteth in The Churning Mists (11,36)."
-    }, {
+        method: "Obtained from Level 56 FATE Vedrfolnir Devoteth in The Churning Mists (11,36).",
+        patch: "3.0",
+    },
+    {
         name: "Ixion Barding",
-        unlock: "5 Ixion Horns, acquired from A Horse Outside FATE, to Eschina in Rhalgr's Reach"
-    }, {
+        method: "5 Ixion Horns, acquired from A Horse Outside FATE, to Eschina in Rhalgr's Reach",
+        patch: "4.1",
+    },
+    {
         name: "Levin Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 50★★★"
-    }, {
+        method: "Can be crafted by Leatherworker Recipe 50★★★",
+        patch: "2.3",
+    },
+    {
         name: "Lominsan Barding",
-        unlock: "Purchased from The Maelstrom vendor for 6000 Company Seals."
-    }, {
+        method: "Purchased from The Maelstrom vendor for 6000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Lominsan Crested Barding",
-        unlock: "Purchased from The Maelstrom vendor for 8000 Company Seals."
-    }, {
+        method: "Purchased from The Maelstrom vendor for 8000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Lominsan Half Barding",
-        unlock: "Purchased from The Maelstrom vendor for 4000 Company Seals."
-    }, {
+        method: "Purchased from The Maelstrom vendor for 4000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Lominsan Saddle",
-        unlock: "Maelstrom Default Barding"
-    }, {
+        method: "Maelstrom Default Barding",
+        patch: "2.0",
+    },
+    {
         name: "Lunar Barding",
-        unlock: "Can be crafted by Weaver Recipe 70★★★"
-    }, {
+        method: "Can be crafted by Weaver Recipe 70★★★",
+        patch: "4.3",
+    },
+    {
         name: "Machinist Barding",
-        unlock: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips."
-    }, {
+        method: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips",
+        patch: "5.21",
+    },
+    {
         name: "Mandervillian Barding",
-        unlock: "Purchased from Gold Saucer Attendant for 150,000 MGP."
-    }, {
+        method: "Purchased from Gold Saucer Attendant for 150,000 MGP.",
+        patch: "3.4",
+    },
+    {
         name: "Nezha Barding",
-        unlock: "Purchased from the Mog Station for EUR 7 or $10."
-    }, {
+        method: "Purchased from the Mog Station for EUR 7 or $10.",
+        patch: "4.2",
+    },
+    {
         name: "Noble Barding",
-        unlock: "The \"Do you even /Pose?\" Forum Hairstyle Design Contest"
-    }, {
+        method: "The \"Do you even \Pose?\" Forum Hairstyle Design Contest",
+        patch: "3.0",
+    },
+    {
         name: "Oriental Barding",
-        unlock: "Unknown"
-    }, {
+        method: "Unknown",
+        patch: "4.0",
+    },
+    {
         name: "Orthodox Barding",
-        unlock: "Can be crafted by a level 56 Weaver Recipe"
-    }, {
+        method: "Can be crafted by a level 56 Weaver Recipe",
+        patch: "3.0",
+    },
+    {
         name: "Paladin Barding",
-        unlock: "Obtain a level 10 Defender Chocobo Companion."
-    }, {
+        method: "Obtain a level 10 Defender Chocobo Companion.",
+        patch: "2.0",
+    },
+    {
         name: "Paramour Barding",
-        unlock: "Acquired after completing the quests during the Valentione's Day (2015)."
-    }, {
+        method: "Acquired after completing the quests during the Valentione's Day (2015).",
+        patch: "2.5",
+    },
+    {
         name: "Plumed Barding",
-        unlock: "Obtain the Breaking Bo achievement "
-    }, {
+        method: "Obtain the Breaking Bo achievement ",
+        patch: "2.3",
+    },
+    {
         name: "Race Barding",
-        unlock: "Acquired from the achievement Ride to the Challenge I"
-    }, {
+        method: "Acquired from the achievement Ride to the Challenge I",
+        patch: "3.25",
+    },
+    {
         name: "Red Mage Barding",
-        unlock: "Aquired from duty \"The Forbidden Land, Eureka Anemos\""
-    }, {
+        method: "Aquired from duty \"The Forbidden Land, Eureka Anemos\"",
+        patch: "4.25",
+    },
+    {
         name: "Reveler's Barding",
-        unlock: "Can be crafted by Armorer Recipe 70★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 70★",
+        patch: "4.0",
+    },
+    {
         name: "Round Table Barding",
-        unlock: "15 Heavens' Ward Helm Fragments traded at Rowena's Center for Cultural Promotion"
-    }, {
+        method: "15 Heavens' Ward Helm Fragments traded at Rowena's Center for Cultural Promotion",
+        patch: "3.1",
+    },
+    {
         name: "Ruby Barding",
-        unlock: ""
-    }, {
+        method: "Can be crafted by Armorer Recipe 80★★",
+        patch: "5.2",
+    },
+    {
         name: "Saintly Barding",
-        unlock: "Acquired through Starlight Celebration (2019) Seasonal Event."
-    }, {
+        method: "Acquired through Starlight Celebration (2019) Seasonal Event.",
+        patch: "5.1",
+    },
+    {
         name: "Samurai Barding",
-        unlock: "Aquired from The Forbidden Land, Eureka Pyros"
-    }, {
+        method: "Aquired from The Forbidden Land, Eureka Pyros",
+        patch: "4.45",
+    },
+    {
         name: "Seiryu Barding",
-        unlock: "Can be crafted by Armorer Recipe 70★★★★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 70★★★★",
+        patch: "4.45",
+    },
+    {
         name: "Sephirotic Barding",
-        unlock: "Can be crafted by Leatherworker Recipe 60★★"
-    }, {
+        method: "Can be crafted by Leatherworker Recipe 60★★",
+        patch: "3.2",
+    },
+    {
         name: "Shinryu Barding",
-        unlock: "Can be crafted by Armorer Recipe 70★★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 70★★",
+        patch: "4.1",
+    },
+    {
         name: "Sleipnir Barding",
-        unlock: "5 Odin's Mantle, from completing the Odin FATE, to Aelina in Mor Dhona (22,6)."
-    }, {
+        method: "5 Odin's Mantle, from completing the Odin FATE, to Aelina in Mor Dhona (22,6).",
+        patch: "2.0",
+    },
+    {
         name: "Sophic Barding",
-        unlock: "Level 60★★★★ Goldsmith recipe."
-    }, {
+        method: "Level 60★★★★ Goldsmith recipe.",
+        patch: "3.4",
+    },
+    {
         name: "Sovereign Barding",
-        unlock: "Awarded after receiving 300 player commendations."
-    }, {
+        method: "Awarded after receiving 300 player commendations.",
+        patch: "2.1",
+    },
+    {
         name: "Starlight Barding",
-        unlock: "Acquired through Starlight Celebration (2013) Seasonal Event."
-    }, {
+        method: "Acquired through Starlight Celebration (2013) Seasonal Event.",
+        patch: "2.1",
+    },
+    {
         name: "Suzaku Barding",
-        unlock: "Can be crafted by Armorer Recipe 70★★★★"
-    }, {
+        method: "Can be crafted by Armorer Recipe 70★★★★",
+        patch: "4.4",
+    },
+    {
         name: "Tidal Barding",
-        unlock: "Can be crafted from recipe by a level 50★★★ Armorer"
-    }, {
+        method: "Can be crafted from recipe by a level 50★★★ Armorer",
+        patch: "2.2",
+    },
+    {
         name: "Titania Barding",
-        unlock: "Level 80★ Armorer recipe."
-    }, {
+        method: "Level 80★ Armorer recipe.",
+        patch: "5.0",
+    },
+    {
         name: "True Barding of Light",
-        unlock: "Level 80★★★ Armorer recipe."
-    }, {
+        method: "Level 80★★★ Armorer recipe.",
+        patch: "5.3",
+    },
+    {
         name: "Ul'dahn Barding",
-        unlock: "Purchased from The Immortal Flames vendor for 6000 Company Seals."
-    }, {
+        method: "Purchased from The Immortal Flames vendor for 6000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Ul'dahn Saddle",
-        unlock: "Immortal Flames Default Barding"
-    }, {
+        method: "Immortal Flames Default Barding",
+        patch: "2.0",
+    },
+    {
         name: "Ul'dahn Crested Barding",
-        unlock: "Purchased from The Immortal Flames vendor for 8000 Company Seals."
-    }, {
+        method: "Purchased from The Immortal Flames vendor for 8000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "Ul'dahn Half Barding",
-        unlock: "Purchased from The Immortal Flames vendor for 4000 Company Seals."
-    }, {
+        method: "Purchased from The Immortal Flames vendor for 4000 Company Seals.",
+        patch: "2.0",
+    },
+    {
         name: "White Mage Barding",
-        unlock: "Achieve rank 10 with your chocobo with all 10 skill points in your healer skill tree."
-    }, {
+        method: "Achieve rank 10 with your chocobo with all 10 skill points in your healer skill tree.",
+        patch: "2.0",
+    },
+    {
         name: "Wild Rose Barding",
-        unlock: "3x Achievement Certificate from Jonathas in Apkallu Falls."
-    }, {
+        method: "3x Achievement Certificate from Jonathas in Apkallu Falls.",
+        patch: "3.07",
+    },
+    {
         name: "Yojimbo Barding",
-        unlock: "Drops from Kugane Ohashi Trial"
-    }, {
+        method: "Drops from Kugane Ohashi Trial",
+        patch: "4.5",
+    },
+    {
         name: "Zurvanite Barding",
-        unlock: "Crafted  by Level 60★★★★ Armorer"
-    }
+        method: "Crafted  by Level 60★★★★ Armorer",
+        patch: "3.5",
+    },
+
 ];
