@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Upper Yat Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Killifish",
         iLvl: "225",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "The Silver Canal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "Collectable",
-        special: "Clear"
     }, {
         name: "Doman Crayfish",
         iLvl: "225",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "The Heron's Nest",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Othardian Trout",
         iLvl: "225",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Nem Khaal",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Zagas Khaal",
         iLvl: "225",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Hak Khaal",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Steppe Skipper",
         iLvl: "225",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Nem Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "Precision Hookset"
     }, {
         name: "Sun Bass",
         iLvl: "225",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Azim Khaat",
         type: "Lakes",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Dawn Crayfish",
         iLvl: "225",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Nem Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Curtain Pleco",
         iLvl: "230",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Hak Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Yat Goby",
         iLvl: "230",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Lower Yat Khaal",
         type: "Rivers",
         bait: "Midge/Stonefly Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Nhaama's Boon",
         iLvl: "230",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Dotharl Khaa",
         type: "Lakes",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Doman Eel",
         iLvl: "230",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Prism Canyon",
         type: "Lakes",
         bait: "Midge Larva",
-        usage: "Cooking",
-        special: "3PM-9AM"
     }, {
         name: "Brassfish",
         iLvl: "230",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "The Silver Canal",
         type: "Lakes",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Dry Steppe Skipper",
         iLvl: "230",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Hak Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Skytear",
         iLvl: "230",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Upper Yat Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Dusk Crayfish",
         iLvl: "230",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Hak Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Bowfish",
         iLvl: "230",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Tao Khaal",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "Provisioning",
-        special: "N/A"
     }, {
         name: "Jade Sculpin",
         iLvl: "230",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Lower Yat Khaal",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Hardscale",
         iLvl: "230",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Azim Khaat",
         type: "Lakes",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Doman Grass Carp",
         iLvl: "245",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Mercantile Docks",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "8PM-3AM, Powerful Hookset"
     }, {
         name: "Samurai Fish",
         iLvl: "245",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Doma Castle",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "Collector",
-        special: "N/A"
     }, {
         name: "Tao Bitterling",
         iLvl: "245",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Tao Khaal",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Blank Oscar",
         iLvl: "290",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Doma Castle",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Dragonfish",
         iLvl: "245",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Doma Castle",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Lordly Salmon",
         iLvl: "220",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The One River (East)",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "Powerful Hookset"
     },
 ];

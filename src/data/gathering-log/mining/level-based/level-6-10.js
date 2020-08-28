@@ -11,55 +11,48 @@ const tasks = [
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x22,y28)",
-        usage: "ARM, BSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "7",
         name: "Raw Sunstone",
         zone: "Lower La Noscea",
         closestAetheryte: "Limsa Lominsa -> Tempest Gate",
         coordinates: "(x27,y18)",
-        usage: "GSM",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "7",
         name: "Raw Lapis Lazuli",
         zone: "North Shroud",
         closestAetheryte: "Fallgourd Float",
         coordinates: "(x28,y25)",
-        usage: "GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "8",
         name: "Soiled Femur",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x22,y28)",
-        usage: "BSM, CRP, GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "9",
         name: "Zinc Ore",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x22,y28)",
-        usage: "GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "10",
         name: "Obsidian",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x22,y28)",
-        usage: "CRP, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "10",
         name: "Potter's Clay",
         zone: "North Shroud",
         closestAetheryte: "Fallgourd Float",
         coordinates: "(x28,y25)",
-        usage: "ALC, CRP, GSM",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

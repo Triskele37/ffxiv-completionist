@@ -54,13 +54,7 @@ const tasks = [
 		iLvl: "200",
     },
     {
-        name: "Hauteclaire Awoken",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "200",
-    },
-    {
-        name: "Prytwen Awoken",
+        name: "Hauteclaire Awoken & Prytwen Awoken",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "200",

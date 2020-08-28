@@ -11,8 +11,7 @@ const tasks = [
         zone: "The Dravanian Hinterlands",
         closestTeleport: "Anyx Trine -> The Dravanian Hinterlands",
         coordinates: "(x30, y28)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -20,7 +19,6 @@ const tasks = [
         zone: "The Dravanian Hinterlands",
         closestTeleport: "Anyx Trine -> The Dravanian Hinterlands",
         coordinates: "(x30, y28)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

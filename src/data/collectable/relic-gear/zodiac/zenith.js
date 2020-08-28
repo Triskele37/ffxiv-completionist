@@ -36,13 +36,7 @@ const tasks = [
 		iLvl: "90",
     },
     {
-        name: "Curtana Zenith",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "90",
-    },
-    {
-        name: "Holy Shield Zenith",
+        name: "Curtana Zenith & Holy Shield Zenith",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "90",

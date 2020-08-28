@@ -11,23 +11,20 @@ const tasks = [
         zone: "Coerthas Central Highlands",
         closestAetheryte: "Camp Dragonhead",
         coordinates: "(x23,y17)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "42",
         name: "Mirror Apple Seeds",
         zone: "Coerthas Central Highlands",
         closestAetheryte: "Camp Dragonhead",
         coordinates: "(x23,y17)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "44",
         name: "Mistletoe",
         zone: "Coerthas Central Highlands",
         closestAetheryte: "Camp Dragonhead",
         coordinates: "(x23,y17)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

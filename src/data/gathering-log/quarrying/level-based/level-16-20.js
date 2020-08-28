@@ -11,23 +11,20 @@ const tasks = [
         zone: "Western La Noscea",
         closestAetheryte: "Aleport",
         coordinates: "(x26,y24)",
-        usage: "ALC, ARM, BSM, CRP, GSM, FC Crafting",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "20",
         name: "Mudstone",
         zone: "Western La Noscea",
         closestAetheryte: "Aleport",
         coordinates: "(x26,y24)",
-        usage: "ALC, CRP, GSM, FC Crafting, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "20",
         name: "Grade 1 Carbonized Matter",
         zone: "Middle La Noscea",
         closestAetheryte: "Swiftperch -> Middle La Noscea",
         coordinates: "(x15,y10)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     },
 ];

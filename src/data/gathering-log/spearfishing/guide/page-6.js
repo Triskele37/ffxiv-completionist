@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "5AM, 7AM, 10AM-1PM, 3PM, 7PM, 10PM-12AM",
     }, {
         name: "Voeburt Bichir",
         iLvl: "406",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Poecilia",
         iLvl: "406",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Collectable",
-        special: "9PM-4AM, 6AM-8PM",
     }, {
         name: "Petalfish",
         iLvl: "406",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "10PM-2AM, 4-9AM, 10AM, 12PM, 3-5PM, 7-9PM",
     }, {
         name: "Voeburt Salamander",
         iLvl: "406",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "5AM, 7AM, 10AM, 2-4PM, 10PM-12AM",
     }, {
         name: "Bedskipper",
         iLvl: "409",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "12-9AM, 10AM-11PM",
     }, {
         name: "Dandyfish",
         iLvl: "409",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "12-9AM, 10AM-5PM, 7-11PM",
     }, {
         name: "Mock Pixie",
         iLvl: "409",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Hunter's Arrow",
         iLvl: "409",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "Fair Skies, 7-12PM, 4-6PM",
     }, {
         name: "Fuathgobbler",
         iLvl: "409",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "Fair Skies",
     }, {
         name: "Paradise Crab",
         iLvl: "409",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "2AM, 5-10AM, 11AM, 1-9PM, 11PM",
     }, {
         name: "Saint Fathric's Ire",
         iLvl: "409",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "2AM, 5-10AM, 11AM-10PM, 11PM",
     }, {
         name: "Queensgown",
         iLvl: "409",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "12-4AM, 7AM, 9AM, 11AM-9PM",
     }, {
         name: "Ankle Snipper",
         iLvl: "409",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Treescale",
         iLvl: "409",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Ronkan Pleco",
         iLvl: "409",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Gourmand Crab",
         iLvl: "409",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Sauldia Ruby",
         iLvl: "412",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Flowering Kelpie",
         iLvl: "412",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "11PM-5AM, 6AM, 9-11AM, 1-3PM, 5-10PM",
     }, {
         name: "Ghoulfish",
         iLvl: "412",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "12-4AM, 6AM, 10AM, 1PM, 4-8PM, 9PM",
     }, {
         name: "Measan Deala",
         iLvl: "412",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Thysm Lran",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Dohn Horn",
         iLvl: "409",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "1-3AM, 9AM, 11AM, 4PM",
     }, {
         name: "Everdark Bass",
         iLvl: "412",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "7PM-2AM, 5AM, 7AM-3PM",
     }, {
         name: "Aquabloom",
         iLvl: "415",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "1AM, 11AM, 3-5PM, 9PM, 11PM",
     }, {
         name: "Jester Fish",
         iLvl: "415",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "12-3AM, 6AM, 8AM-12PM, 2-5PM, 6-11PM",
     },
 ];

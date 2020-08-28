@@ -18,17 +18,6 @@ const tasks = [
     	special: "Unlocked w/ Master Goldsmith VIII"
     }, {
     	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Material",
-    	mat1: "Apprentice's Practice Material",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Wind Crystal, 2 Fire Crystal",
-    	special: "Unlocked w/ Master Goldsmith VIII"
-    }, {
-    	level: "80★★★",
     	name: "Neo-Ishgardian Rod",
     	mat1: "2 Purpure Bead",
     	mat2: "2 Cobalt Alloy Ingot",
@@ -60,7 +49,30 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Wind Cluster, 2 Fire Cluster",
     	special: "Unlocked w/ Master Goldsmith VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Needle",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Purpure Bead",
+		mat3: "2 Duskcourt Cloth",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Wind Cluster, 2 Fire Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Ear Cuffs of Crafting",
+		mat1: "2 Brashgold Plate",
+		mat2: "3 Purpure Bead",
+		mat3: "Duskcourt Cloth",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Wind Cluster, 2 Fire Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Choker of Fending",
     	mat1: "Purpure Bead",
@@ -115,7 +127,19 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Wind Cluster, 2 Fire Cluster",
     	special: "Unlocked w/ Master Goldsmith VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Choker of Crafting",
+		mat1: "2 Brashgold Plate",
+		mat2: "3 Purpure Bead",
+		mat3: "Duskcourt Cloth",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Wind Cluster, 2 Fire Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Wristbands of Fending",
     	mat1: "Purpure Bead",
@@ -170,16 +194,27 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Wind Cluster, 2 Fire Cluster",
     	special: "Unlocked w/ Master Goldsmith VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Material",
-    	mat1: "Apprentice's Practice Material",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Wind Crystal, 2 Fire Crystal",
-    	special: "Unlocked w/ Master Goldsmith VIII"
     },
+	{
+		level: "80★★★",
+		name: "Aesthete's Bracelets of Crafting",
+		mat1: "2 Brashgold Plate",
+		mat2: "3 Purpure Bead",
+		mat3: "Duskcourt Cloth",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Wind Cluster, 2 Fire Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Ring of Crafting",
+		mat1: "2 Brashgold Plate",
+		mat2: "3 Purpure Bead",
+		mat3: "Duskcourt Cloth",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Wind Cluster, 2 Fire Cluster"
+	},
 ];

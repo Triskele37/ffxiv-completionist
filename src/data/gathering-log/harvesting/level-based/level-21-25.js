@@ -11,103 +11,90 @@ const tasks = [
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "21",
         name: "Pixie Plum Seeds",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "22",
         name: "Button Mushroom",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "22",
         name: "Noble Grapes",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "23",
         name: "Ala Mhigan Mustard",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "23",
         name: "Ala Mhigan Mustard Seeds",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Pearl Ginger",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "ALC, CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Chamomile",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "CUL, LTW, WVR",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Pearl Ginger Root",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Chamomile Seeds",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "25",
         name: "Sticky Rice",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x14,y24)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "25",
         name: "Millioncorn",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "25",
         name: "Millioncorn Seeds",
         zone: "Eastern Thanalan",
         closestAetheryte: "Camp Drybone",
         coordinates: "(x14,y20)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

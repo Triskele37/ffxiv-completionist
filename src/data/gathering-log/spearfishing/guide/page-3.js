@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Bleached Bonytongue",
         iLvl: "230",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Salt Shark",
         iLvl: "230",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Loch Seld Central Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "King's Mantle",
         iLvl: "230",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Sea Lamp",
         iLvl: "245",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Levequest",
-        special: "N/A",
     }, {
         name: "Amberjack",
         iLvl: "245",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable, Cooking",
-        special: "N/A",
     }, {
         name: "Cherry Salmon",
         iLvl: "245",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Yu-No-Hana Crab",
         iLvl: "245",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Dotharli Gudgeon",
         iLvl: "245",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "River Clam",
         iLvl: "245",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Eastern Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Grass Shark",
         iLvl: "245",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Eastern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Typhoon Shrimp",
         iLvl: "245",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Rock Oyster",
         iLvl: "245",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Loch Seld Central Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Salt Urchin",
         iLvl: "245",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Carpenter Crab",
         iLvl: "245",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Spiny Lobster",
         iLvl: "260",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Mitsukuri Shark",
         iLvl: "260",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collected",
-        special: "N/A",
     }, {
         name: "Doman Bubble Eye",
         iLvl: "260",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Levequest",
-        special: "N/A",
     }, {
         name: "Dragon Squeaker",
         iLvl: "260",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Dawn Herald",
         iLvl: "260",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Salt Cellar",
         iLvl: "260",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "White Sturgeon",
         iLvl: "260",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Loch Seld Central Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Tithe Collector",
         iLvl: "260",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "Bashful Batfish",
         iLvl: "275",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Smalll",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "River Bream",
         iLvl: "275",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Crafting",
-        special: "N/A",
     },
 ];

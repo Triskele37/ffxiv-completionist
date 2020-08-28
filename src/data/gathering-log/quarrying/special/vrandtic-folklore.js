@@ -11,15 +11,13 @@ const tasks = [
         zone: "The Tempest",
         closestAetheryte: "Macarenses Angle",
         coordinates: "(x34,y31)",
-        usage: "GSM",
-        special: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
+        nodeTimer: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
     }, {
         level: "80★★",
         name: "Ashen Alumen",
         zone: "Amh Araeng",
         closestAetheryte: "Twine",
         coordinates: "(x20,y8)",
-        usage: "LTW",
-        special: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
+        nodeTimer: "Legendary (10AM/PM), Unlocked w/ Geological Folklore - Vrandtic"
     },
 ];

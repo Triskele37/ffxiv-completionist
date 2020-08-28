@@ -325,4 +325,15 @@ const tasks = [
         catalysts: "28 Fire Crystal, 28 Earth Crystal",
         special: "Housing (Outdoor Furnishing)"
     },
+    {
+        level: "80",
+        name: "Factory Chandelier",
+        mat1: "2 Weathering Agent",
+        mat2: "9 Dwarven Mythril Ingot",
+        mat3: "3 Crystal Glass",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
 ];

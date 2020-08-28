@@ -19,6 +19,39 @@ const tasks = [
     },
     {
         level: "70★★",
+        name: "Tsukuyomi's Moonlit Grimoire",
+        mat1: "3 True Griffin Leather",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Grimoire",
+        mat1: "3 True Griffin Leather",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctifed Grimoire",
+        mat1: "2 True Griffin Leather",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "70★★",
         name: "Shinryu's Ephemeral Codex",
         mat1: "2 True Griffin Leather",
         mat2: "3 Torreya Lumber",
@@ -28,6 +61,39 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Water Cluster, 2 Lightning Cluster",
         special: "Specialist, Unlocked w/ Master Alchemist VIII"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Codex",
+        mat1: "2 True Griffin Leather",
+        mat2: "3 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Codex",
+        mat1: "2 True Griffin Leather",
+        mat2: "3 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctifed Codex",
+        mat1: "2 True Griffin Leather",
+        mat2: "3 Torreya Lumber",
+        mat3: "2 Enchanted Palladium Ink",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "70★★",

@@ -11,8 +11,7 @@ const tasks = [
         zone: "The Sea of Clouds",
         closestTeleport: "Camp Cloudtop",
         coordinates: "(x29, y23)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★",
@@ -20,8 +19,7 @@ const tasks = [
         zone: "The Sea of Clouds",
         closestTeleport: "Camp Cloudtop",
         coordinates: "(x29, y23)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -29,8 +27,7 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestTeleport: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10, y18)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -38,7 +35,6 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestTeleport: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10, y18)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

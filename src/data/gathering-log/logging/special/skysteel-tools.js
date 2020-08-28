@@ -11,8 +11,7 @@ const tasks = [
         zone: "The Dravanian Forelands",
         closestTeleport: "Tailfeather",
         coordinates: "(x29, y17)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★",
@@ -20,8 +19,7 @@ const tasks = [
         zone: "The Dravanian Forelands",
         closestTeleport: "Tailfeather",
         coordinates: "(x29, y17)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -29,8 +27,7 @@ const tasks = [
         zone: "The Churning Mists",
         closestTeleport: "Zenith",
         coordinates: "(x25, y28)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -38,7 +35,6 @@ const tasks = [
         zone: "The Churning Mists",
         closestTeleport: "Zenith",
         coordinates: "(x25, y28)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

@@ -18,17 +18,6 @@ const tasks = [
     	special: "Unlocked w/ Master Weaver VIII"
     }, {
     	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Lightning Crystal, 2 Wind Crystal",
-    	special: "Unlocked w/ Master Weaver VIII"
-    }, {
-    	level: "80★★★",
     	name: "Neo-Ishgardian Cap of Fending",
     	mat1: "2 Duskcourt Cloth",
     	mat2: "Purpure Bead",
@@ -104,7 +93,30 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Lightning Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Weaver VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Cap of Crafting",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Duskcourt Cloth",
+		mat3: "Megalania Leather",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Lightning Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Hat of Gathering",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Duskcourt Cloth",
+		mat3: "Megalania Leather",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Lightning Cluster, 2 Wind Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Top of Striking",
     	mat1: "2 Duskcourt Cloth",
@@ -115,7 +127,30 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Lightning Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Weaver VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Doublet of Crafting",
+		mat1: "4 Defthand's Dissolvent",
+		mat2: "5 Duskcourt Cloth",
+		mat3: "2 Megalania Leather",
+		mat4: "4 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Lightning Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Southern Seas Shirt",
+		mat1: "3 Seacloth",
+		mat2: "2 Duskcourt Cloth",
+		mat3: "Megalania Leather",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "7 Lightning Crystal, 7 Wind Crystal"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Bottoms of Fending",
     	mat1: "2 Duskcourt Cloth",
@@ -192,16 +227,49 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Lightning Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Weaver VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Lightning Crystal, 2 Wind Crystal",
-    	special: "Unlocked w/ Master Weaver VIII"
     },
+	{
+		level: "80★★★",
+		name: "Aesthete's Trousers of Crafting",
+		mat1: "4 Defthand's Dissolvent",
+		mat2: "5 Duskcourt Cloth",
+		mat3: "2 Megalania Leather",
+		mat4: "4 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Lightning Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Trousers of Gathering ",
+		mat1: "4 Defthand's Dissolvent",
+		mat2: "5 Duskcourt Cloth",
+		mat3: "2 Megalania Leather",
+		mat4: "4 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Lightning Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Southern Seas Trousers",
+		mat1: "2 Seacloth",
+		mat2: "3 Duskcourt Cloth",
+		mat3: "Dwarven Cotton",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "7 Lightning Crystal, 7 Wind Crystal"
+	},
+	{
+		level: "80★★★",
+		name: "Southern Seas Skirt",
+		mat1: "2 Seacloth",
+		mat2: "3 Duskcourt Cloth",
+		mat3: "Dwarven Cotton",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "7 Lightning Crystal, 7 Wind Crystal"
+	},
 ];

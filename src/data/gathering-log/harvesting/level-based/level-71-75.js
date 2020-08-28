@@ -11,111 +11,118 @@ const tasks = [
         zone: "Lakeland",
         closestAetheryte: "The Ostall Imperative",
         coordinates: "(x16,y23)",
-        usage: "ALC, CUL",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "71",
         name: "Curly Parsley",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x11,y24)",
-        usage: "ALC, CUL",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "71",
         name: "Blood Tomato",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x11,y24)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "71",
         name: "Bright Flax",
         zone: "Lakeland",
         closestAetheryte: "The Ostall Imperative",
         coordinates: "(x16,y23)",
-        usage: "WVR",
-        special: ""
+        nodeTimer: ""
+    }, {
+        level: "71",
+        name: "Gathering Tool Paraphernalia",
+        zone: "The Dravanian Hinterlands",
+        closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
+        coordinates: "",
+        nodeTimer: ""
     }, {
         level: "72",
         name: "Garden Beet",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x11,y24)",
-        usage: "ALC, CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "72",
         name: "Broad Beans",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x24,y36)",
-        usage: "CUL, Collectable",
-        special: "Unspoiled (12AM/PM)"
+        nodeTimer: "Unspoiled (12AM/PM)"
     }, {
         level: "72",
         name: "Iridescent Cocoon",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x11,y24)",
-        usage: "WVR, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "73",
         name: "Upland Wheat",
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "(x16,y36)",
-        usage: "CUL, Collectable, Provisioning",
-        special: ""
+        nodeTimer: ""
+    }, {
+        level: "73",
+        name: "Crafting Tool Paraphernalia",
+        zone: "The Sea of Clouds",
+        closestAetheryte: "Camp Cloudtop",
+        coordinates: "",
+        nodeTimer: ""
     }, {
         level: "73",
         name: "Animal Droppings",
         zone: "Lakeland",
         closestAetheryte: "The Ostall Imperative",
         coordinates: "(x16,y23)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "74",
         name: "Peppermint",
         zone: "Lakeland",
         closestAetheryte: "Fort Jobb",
         coordinates: "(x26,y20)",
-        usage: "CUL",
-        special: "Unspoiled (10AM/PM)"
+        nodeTimer: "Unspoiled (10AM/PM)"
     }, {
         level: "74",
         name: "Pixie Floss Boll",
         zone: "The Rak'tika Greatwood",
         closestAetheryte: "Slitherbough",
         coordinates: "(x16,y29)",
-        usage: "WVR, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "75",
         name: "Creamtop Mushroom",
         zone: "The Rak'tika Greatwood",
         closestAetheryte: "Slitherbough",
         coordinates: "(x16,y29)",
-        usage: "ALC, CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "75",
         name: "Royal Grapes",
         zone: "The Rak'tika Greatwood",
         closestAetheryte: "Slitherbough",
         coordinates: "(x16,y29)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
+    }, {
+        level: "75",
+        name: "Printing Paraphernalia",
+        zone: "Yanxia",
+        closestAetheryte: "Namai",
+        coordinates: "",
+        nodeTimer: ""
     }, {
         level: "75",
         name: "Megafauna Leftovers",
         zone: "Il Mheg",
         closestAetheryte: "Lydha Lran",
         coordinates: "(x11,y24)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     },
 ];

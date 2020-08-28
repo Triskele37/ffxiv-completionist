@@ -11,71 +11,62 @@ const tasks = [
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x26,y25)",
-        usage: "ARM, BSM, GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Fire Shard",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x26,y25)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Ice Shard",
         zone: "Western La Noscea",
         closestAetheryte: "Aleport",
         coordinates: "(x29,y22)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Wind Shard",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x24,y26)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Earth Shard",
         zone: "Lower La Noscea",
         closestAetheryte: "Limsa Lominsa -> Tempest Gate",
         coordinates: "(x27,y18)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Lightning Shard",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x24,y26)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Water Shard",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x26,y25)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "3",
         name: "Muddy Water",
         zone: "Western Thanalan",
         closestAetheryte: "Ul'Dah -> Gate of the Sultana",
         coordinates: "(x26,y25)",
-        usage: "ALC, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "5",
         name: "Bone Chip",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x24,y26)",
-        usage: "ALC, BSM, CRP, GSM, LTW, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

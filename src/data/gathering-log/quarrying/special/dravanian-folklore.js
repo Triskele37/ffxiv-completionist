@@ -11,15 +11,13 @@ const tasks = [
         zone: "The Dravanian Hinterlands",
         closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
         coordinates: "(x11,y16)",
-        usage: "ARM, BSM, Collectable",
-        special: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Dravania"
+        nodeTimer: "Legendary (6AM/PM), Unlocked w/ Geological Folklore - Dravania"
     }, {
         level: "60★★★",
         name: "Zeolite Ore",
         zone: "The Dravanian Hinterlands",
         closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
         coordinates: "(x13,y31)",
-        usage: "ALC",
-        special: "Legendary (8AM/PM), Unlocked w/ Geological Folklore - Dravania"
+        nodeTimer: "Legendary (8AM/PM), Unlocked w/ Geological Folklore - Dravania"
     },
 ];

@@ -19,6 +19,39 @@ const tasks = [
     },
     {
         level: "70★★",
+        name: "Tsukuyomi's Moonlit Greatbow",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Zelkova Lumber",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Cluster, 7 Ice Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Greatbow",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Cluster, 7 Ice Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Rod",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Cluster, 7 Ice Cluster"
+    },
+    {
+        level: "70★★",
         name: "Shinryu's Ephemeral Cane",
         mat1: "3 Torreya Lumber",
         mat2: "2 Chromite Ingot",
@@ -28,6 +61,28 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Ice Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Cane",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Rhea Cloth",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Cluster, 7 Ice Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Cane",
+        mat1: "3 Torreya Lumber",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Zelkova Lumber",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Cluster, 7 Ice Cluster"
     },
     {
         level: "70★★",

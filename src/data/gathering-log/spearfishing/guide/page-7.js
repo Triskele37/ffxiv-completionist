@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "1AM, 10AM, 2-9PM, 10PM-12AM",
     }, {
         name: "Maidenhair",
         iLvl: "415",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "1AM, 9-11AM, 12PM, 3PM-12AM",
     }, {
         name: "Hermit's Hood",
         iLvl: "415",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "5-4AM",
     }, {
         name: "Megapiranha",
         iLvl: "415",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "7PM-2AM, 7AM-4PM",
     }, {
         name: "Little Bismarck",
         iLvl: "403",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Elder Pixie",
         iLvl: "418",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Gatorl's Bead",
         iLvl: "418",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "2AM, 4AM, 9-11AM, 12PM, 7-10PM, 11PM",
     }, {
         name: "Hermit Crab",
         iLvl: "418",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "10PM-4AM, 8-10AM, 11AM-3PM, 4-6PM",
     }, {
         name: "Lozatl Pirarucu",
         iLvl: "418",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "9PM-2AM, 10AM, 12-2PM, 5-7PM",
     }, {
         name: "Rak'tika Goby",
         iLvl: "418",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Bothriolepis",
         iLvl: "406",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Blue Mountain Bubble",
         iLvl: "420",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Central Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Diamondtongue",
         iLvl: "420",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "12-2AM, 4AM, 9-11AM, 7PM, 9PM",
     }, {
         name: "Anpa's Handmade",
         iLvl: "420",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "The Covered Halls of Dwatl",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "1AM, 10AM, 12-2PM, 6PM, 9-11PM",
     }, {
         name: "Viis Ear",
         iLvl: "420",
@@ -138,7 +110,5 @@ const tasks = [
         fishingHoles: "North Lake Tusi Mek'ta",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Collectable",
-        special: "N/A",
     },
 ];

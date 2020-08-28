@@ -11,7 +11,6 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10,y9)",
-        usage: "ARM, BSM",
-        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Coertha"
+        nodeTimer: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Coertha"
     },
 ];

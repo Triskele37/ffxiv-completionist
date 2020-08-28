@@ -11,47 +11,41 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x21,y29)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "36",
         name: "Blood Currant Seeds",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x21,y29)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "37",
         name: "Mugwort",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x21,y29)",
-        usage: "ALC, CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "38",
         name: "Maiden Artichoke",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x21,y29)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "39",
         name: "Ramhorn Zucchini",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x21,y29)",
-        usage: "CUL",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "39",
         name: "Thyme",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x21,y29)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

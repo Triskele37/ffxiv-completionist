@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "The One River Southern Riverbeds",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Zeni Clam",
         iLvl: "215",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Corpse-Eater",
         iLvl: "220",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Ruby Price Depths",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Ronin Trevally",
         iLvl: "220",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Tamamizu",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Toothsome Grouper",
         iLvl: "220",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Sui-no-Sato",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Horned Turban",
         iLvl: "220",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "The Adventure",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Ruby Sea Star",
         iLvl: "220",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Gauntlet Crab",
         iLvl: "220",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Hermit Goby",
         iLvl: "220",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "The One River Southern Riverbeds",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Skythorn",
         iLvl: "220",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Swordtip",
         iLvl: "225",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Tamamizu",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "False Scad",
         iLvl: "225",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Sui-no-Sato",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Snow Crab",
         iLvl: "225",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "The Adventure",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Red-Eyed Lates",
         iLvl: "225",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "Common Bitterling",
         iLvl: "225",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Fifty-Summer Cod",
         iLvl: "225",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Nagxian Mullet",
         iLvl: "225",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Redcoat",
         iLvl: "230",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Yanxian Tiger Prawn",
         iLvl: "230",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Tengu Fan",
         iLvl: "230",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "Star Turban",
         iLvl: "230",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Blue-Fish",
         iLvl: "230",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Steppe Bullfrog",
         iLvl: "230",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Cavalry Catfish",
         iLvl: "230",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Redfin",
         iLvl: "230",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "Azim Khaat Eastern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Levequest",
-        special: "Mooch, Clouds/Fog,Unlocked w/ Gyr Abania Folklore",
     },
 ];

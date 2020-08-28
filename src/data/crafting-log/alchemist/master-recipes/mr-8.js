@@ -16,7 +16,19 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Water Cluster, 2 Lightning Cluster",
     	special: "Specialist, Unlocked w/ Master Alchemist VIII, Orchestrion Roll"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Defthand's Dissolvent",
+		mat1: "3 Tender Dill",
+		mat2: "Sublime Solution",
+		mat3: "Levinstrike Aethersand",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Water Cluster, 2 Lightning Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Grade 3 Strength Alkahest",
     	mat1: "3 Imperial Fern",
@@ -70,17 +82,6 @@ const tasks = [
     	mat5: "X",
     	mat6: "X",
     	catalysts: "2 Water Cluster, 2 Lightning Cluster",
-    	special: "Unlocked w/ Master Alchemist VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Water Crystal, 2 Lightning Crystal",
     	special: "Unlocked w/ Master Alchemist VIII"
     }, {
     	level: "80★★★",
@@ -159,16 +160,27 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Water Cluster, 2 Lightning Cluster",
     	special: "Unlocked w/ Master Alchemist VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Water Crystal, 2 Lightning Crystal",
-    	special: "Unlocked w/ Master Alchemist VIII"
     },
+	{
+		level: "80★★★",
+		name: "Eternal Wind - Shadowbringers Orchestrion Roll",
+		mat1: "Blank Grade 3 Orchestrion Roll",
+		mat2: "Enchanged Dimythrite Ink",
+		mat3: "Faded Copy of To the Edge",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Water Cluster, 2 Lightning Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "To the Edge Orchestrion Roll",
+		mat1: "Blank Grade 3 Orchestrion Roll",
+		mat2: "Enchanged Dimythrite Ink",
+		mat3: "Faded Copy of To the Edge",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Water Cluster, 2 Lightning Cluster"
+	},
 ];

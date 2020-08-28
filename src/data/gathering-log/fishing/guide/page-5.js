@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Daniffen Pass",
         type: "Lakes",
         bait: "Honey Worm",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Storm Rider",
         iLvl: "39",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Sagolii Desert",
         type: "Dunefishing",
         bait: "Sand Leech",
-        usage: "Provisioning (40)",
-        special: "N/A"
     }, {
         name: "Trader Eel",
         iLvl: "39",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Yugr'am River",
         type: "Rivers",
         bait: "Honey Worm",
-        usage: "Provisioning (39)",
-        special: "5PM-6AM"
     }, {
         name: "Crimson Trout",
         iLvl: "40",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Coerthas River",
         type: "Rivers",
         bait: "Honey Worm",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Discus",
         iLvl: "40",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Hidden Falls",
         type: "Rivers",
         bait: "Honey Worm",
-        usage: "Provisioning (42)",
-        special: "N/A"
     }, {
         name: "Antlion Slug",
         iLvl: "40",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Sagolii Desert",
         type: "Dunefishing",
         bait: "Sand Leech",
-        usage: "Provisioning (40)",
-        special: "N/A"
     }, {
         name: "Red Coral",
         iLvl: "40",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "North Bloodshore",
         type: "Coastlines",
         bait: "Herring Ball",
-        usage: "Leatherworking, Goldsmithing, Carpentry",
-        special: "N/A"
     }, {
         name: "Bronze Lake Trout",
         iLvl: "41",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "North Bronze Lake",
         type: "Lakes",
         bait: "Mythril Spoon Lure",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Ignus Snail",
         iLvl: "41",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Zahar'ak",
         type: "Lakes",
         bait: "Stem Borer",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Dune Manta",
         iLvl: "41",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Sagolii Desert",
         type: "Dunefishing",
         bait: "Storm Rider",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Silver Shark",
         iLvl: "41",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Summerford",
         type: "Deep Sea",
         bait: "Merlthor Goby",
-        usage: "Alchemy",
-        special: "Mooch"
     }, {
         name: "Loyal Pleco",
         iLvl: "42",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "East Agelyss River",
         type: "Lakes",
         bait: "Stem Borer",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Thunderbolt Sculpin",
         iLvl: "42",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Raincatcher Gully",
         type: "Rivers",
         bait: "Mythril Spoon Lure",
-        usage: "Provisioning (42)",
-        special: "Rain"
     }, {
         name: "Fall Jumper",
         iLvl: "43",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Fool Falls",
         type: "Rivers",
         bait: "Copperfish",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Knifefish",
         iLvl: "43",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "The Burning Wall",
         type: "Rivers",
         bait: "Stem Borer",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Wahoo",
         iLvl: "43",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Skull Valley",
         type: "Deep Sea",
         bait: "Merlthor Goby",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Raincaller",
         iLvl: "43",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Gridania",
         type: "Rivers",
         bait: "Stem Borer",
-        usage: "Quest, Cooking",
-        special: "Rain"
     }, {
         name: "Oakroot",
         iLvl: "44",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Proud Creek",
         type: "Rivers",
         bait: "Streamer",
-        usage: "Provisioning (45)",
-        special: "5PM-9AM"
     }, {
         name: "Common Sculpin",
         iLvl: "44",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Oakwood",
         type: "Rivers",
         bait: "Spinnerbait",
-        usage: "Provisioning (44)",
-        special: "N/A"
     }, {
         name: "Blacklip Oyster",
         iLvl: "44",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Sapsa Spawning Grounds",
         type: "Coastlines",
         bait: "Krill Cage Feeder",
-        usage: "Cooking",
-        special: "N/A"
     }, {
         name: "Southern Pike",
         iLvl: "45",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Proud Creek",
         type: "Lakes",
         bait: "Streamer",
-        usage: "Provisioning (45)",
-        special: "N/A"
     }, {
         name: "Northern Pike",
         iLvl: "45",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Exploratory Ice Hole",
         type: "Rivers",
         bait: "Topwater Frog",
-        usage: "Leve, Cooking",
-        special: "N/A"
     }, {
         name: "Kobold Puffer",
         iLvl: "45",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Hidden Falls",
         type: "Rivers",
         bait: "Rainbow Spoon Lure",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Nautilus",
         iLvl: "45",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Mist",
         type: "Coastlines",
         bait: "Fullmoon Sardine",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Archerfish",
         iLvl: "45",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "East Agelyss River",
         type: "Lakes",
         bait: "Glowworm",
-        usage: "Provisioning (45)",
-        special: "N/A"
     },
 ];

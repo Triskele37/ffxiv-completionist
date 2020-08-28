@@ -11,39 +11,34 @@ const tasks = [
         zone: "Amh Araeng",
         closestAetheryte: "Twine",
         coordinates: "(x15,y30)",
-        usage: "CUL, Collectable, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "76",
         name: "Sandteak Log",
         zone: "Amh Araeng",
         closestAetheryte: "Twine",
         coordinates: "(x15,y30)",
-        usage: "CRP, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "78",
         name: "Harcot",
         zone: "Lakeland",
         closestAetheryte: "The Ostall Imperative",
         coordinates: "(x8,y9)",
-        usage: "CUL, Collectable, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "80",
         name: "Lemonette",
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "(x20,y27)",
-        usage: "CUL, Collectable",
-        special: "Unspoiled (6AM/PM)"
+        nodeTimer: "Unspoiled (6AM/PM)"
     }, {
         level: "80",
         name: "Lignum Vitae Log",
         zone: "Lakeland",
         closestAetheryte: "The Ostall Imperative",
         coordinates: "(x8,y9)",
-        usage: "CRP, Collectable, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

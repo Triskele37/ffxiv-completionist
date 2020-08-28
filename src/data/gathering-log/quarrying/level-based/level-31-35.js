@@ -11,7 +11,6 @@ const tasks = [
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x17,y18)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

@@ -365,4 +365,26 @@ const tasks = [
         catalysts: "28 Ice Crystal, 28 Earth Crystal",
         special: "Housing (Outdoor Furnishing)"
     },
+    {
+        level: "80",
+        name: "Factory Interior Wall",
+        mat1: "2 Weathering Agent",
+        mat2: "12 Dwarven Mythril Ingot",
+        mat3: "4 Cobalt Plate",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Flooring",
+        mat1: "2 Weathering Agent",
+        mat2: "12 Dwarven Mythril Ingot",
+        mat3: "4 Cobalt Plate",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
 ];

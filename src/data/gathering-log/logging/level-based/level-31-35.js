@@ -11,23 +11,20 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x16,y30)",
-        usage: "ALC, CRP, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "32",
         name: "Oak Log",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x16,y30)",
-        usage: "ALC, CRP",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "35",
         name: "Tarantula",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x16,y30)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

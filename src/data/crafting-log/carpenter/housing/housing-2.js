@@ -1687,6 +1687,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Wooden Staircase Bookshelf",
+        mat1: "7 Lignum Vitae Lumber",
+        mat2: "5 Stonegold Ingot",
+        mat3: "Stack of Tomes",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
+    },
+    {
+        level: "80",
         name: "Cheese Collection",
         mat1: "5 Lignum Vitae Lumber",
         mat2: "2 White Oak Lumber",
@@ -1699,6 +1710,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Barrel Table",
+        mat1: "6 Lignum Vitae Lumber",
+        mat2: "6 Sandteak Lumber",
+        mat3: "2 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
+    },
+    {
+        level: "80",
         name: "Fat Cat Wall Chronometer",
         mat1: "4 Lignum Vitae Lumber",
         mat2: "2 Stonegold Ingot",
@@ -1708,5 +1730,16 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Wind Crystal, 7 Ice Crystal",
         special: "Housing (Wall-mounted)"
+    },
+    {
+        level: "80",
+        name: "Bluebird Mobile",
+        mat1: "4 Lignum Vitae Lumber",
+        mat2: "2 Sandteak Lumber",
+        mat3: "2 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
 ];

@@ -11,31 +11,34 @@ const tasks = [
         zone: "Kholusia",
         closestAetheryte: "Tomra",
         coordinates: "(x22,y16)",
-        usage: "GSM",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "76",
         name: "Titancopper Sand",
         zone: "Amh Araeng",
         closestAetheryte: "Twine",
         coordinates: "(x15,y12)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "79",
         name: "Dimythrite Sand",
         zone: "Amh Araeng",
         closestAetheryte: "Twine",
         coordinates: "(x15,y12)",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "80",
         name: "Shade Quartz",
         zone: "Kholusia",
         closestAetheryte: "Tomra",
         coordinates: "(x22,y18)",
-        usage: "Reducible",
-        special: "Ephemeral (4PM)"
+        nodeTimer: "Ephemeral (4PM)"
+    }, {
+        level: "80★★",
+        name: "Thunder Rock",
+        zone: "Kholusia",
+        closestAetheryte: "Tomra",
+        coordinates: "(x13,y13)",
+        nodeTimer: "Ephemeral (8PM)"
     },
 ];

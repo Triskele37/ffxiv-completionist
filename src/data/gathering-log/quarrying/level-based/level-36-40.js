@@ -11,7 +11,6 @@ const tasks = [
         zone: "Northern Thanalan",
         closestAetheryte: "Ceruleum Processing Plant",
         coordinates: "(x21,y28)",
-        usage: "ALC, ARM, BSM, CRP, GSM, WVR, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

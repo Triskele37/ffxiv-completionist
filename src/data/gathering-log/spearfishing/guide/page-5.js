@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "1PM-9AM, 11AM",
     }, {
         name: "Purple Ghost",
         iLvl: "390",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "1PM-1AM, 2-6AM, 7-9AM, 10AM-12PM",
     }, {
         name: "Gazing Glass",
         iLvl: "390",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Elven Spear",
         iLvl: "390",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "1AM, 5AM, 1-3PM, 8PM-12AM",
     }, {
         name: "Skykisser",
         iLvl: "390",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "11PM-6AM, 7AM, 9AM-1PM, 4-7PM",
     }, {
         name: "Viola Clam",
         iLvl: "390",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "11PM-6AM, 7AM, 10AM-1PM, 4PM, 9PM",
     }, {
         name: "Lakeland Cod",
         iLvl: "390",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Big-eye",
         iLvl: "409",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "South Longmirror Lake",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "2PM-3AM, 6AM, 8AM-1PM",
     }, {
         name: "Lakelouse",
         iLvl: "390",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "2PM-5AM, 6AM-1PM",
     }, {
         name: "Source Octopus",
         iLvl: "395",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Northeast Source",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "1AM, 5AM, 2PM, 9PM-12AM",
     }, {
         name: "Shade Gudgeon",
         iLvl: "395",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Lakethistle",
         iLvl: "395",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Platinum Bream",
         iLvl: "395",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "8-7AM",
     }, {
         name: "Finned Eggplant",
         iLvl: "395",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Geayi",
         iLvl: "395",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "8PM-5AM, 7AM-5PM, 6PM",
     }, {
         name: "Noblefish",
         iLvl: "395",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "7PM-5AM, 7AM-3PM, 4PM",
     }, {
         name: "Wardenfish",
         iLvl: "400",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Misteye",
         iLvl: "400",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Southeast Source",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "12AM, 2AM, 6-9AM, 10AM-1PM, 2-9PM, 11PM",
     }, {
         name: "Jenanna's Tear",
         iLvl: "400",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Shade Axolotl",
         iLvl: "400",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "8-7AM",
     }, {
         name: "Daisy Turban",
         iLvl: "403",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "5PM-1AM, 5AM, 7-10AM, 11AM-1PM, 3PM",
     }, {
         name: "Little Flirt",
         iLvl: "403",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "2-1AM",
     }, {
         name: "Peallaidh",
         iLvl: "403",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "North Lyhe Ghiah",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Gilded Batfish",
         iLvl: "403",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "6-5AM",
     }, {
         name: "Mirrorfish",
         iLvl: "403",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "Deepwood Swim",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     },
 ];

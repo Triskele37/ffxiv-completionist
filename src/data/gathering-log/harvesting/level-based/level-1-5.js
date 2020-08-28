@@ -11,95 +11,83 @@ const tasks = [
         zone: "Middle La Noscea",
         closestAetheryte: "Summerford Farms",
         coordinates: "(x22,y19)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Ice Shard",
         zone: "Western La Noscea",
         closestAetheryte: "Swiftperch",
         coordinates: "(x31,y28)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Wind Shard",
         zone: "Central Shroud",
         closestAetheryte: "Bentbranch Meadows",
         coordinates: "(x18,y19)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Earth Shard",
         zone: "Lower La Noscea",
         closestAetheryte: "Moraby Drydocks",
         coordinates: "(x26,y22)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Lightning Shard",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x25,y20)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Water Shard",
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x23,y18)",
-        usage: "Catalyst",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Firelight Seeds",
         zone: "Middle La Noscea",
         closestAetheryte: "Summerford Farms",
         coordinates: "(x22,y19)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Icelight Seeds",
         zone: "Western La Noscea",
         closestAetheryte: "Swiftperch",
         coordinates: "(x31,y28)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Windlight Seeds",
         zone: "Central Shroud",
         closestAetheryte: "Bentbranch Meadows",
         coordinates: "(x22,y24)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Earthlight Seeds",
         zone: "Lower La Noscea",
         closestAetheryte: "Moraby Drydocks",
         coordinates: "(x26,y22)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Levinlight Seeds",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x25,y20)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "1",
         name: "Waterlight Seeds",
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x23,y18)",
-        usage: "Gardening",
-        special: ""
+        nodeTimer: ""
     },
 ];

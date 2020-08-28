@@ -11,39 +11,34 @@ const tasks = [
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x35,y24)",
-        usage: "ALC, CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "42",
         name: "Black Scorpion",
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x35,y24)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "43",
         name: "Rolanberry",
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x35,y24)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "43",
         name: "Rolanberry Seeds",
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x35,y24)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "45",
         name: "Dart Frog",
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x35,y24)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

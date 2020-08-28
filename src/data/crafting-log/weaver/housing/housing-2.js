@@ -631,6 +631,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Floor Sofa",
+        mat1: "6 Dwarven Cotton",
+        mat2: "3 Dwarven Cotton Thread",
+        mat3: "6 Lorikeet Down",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
+    },
+    {
+        level: "80",
         name: "Folded Futon",
         mat1: "4 Dwarven Cotton",
         mat2: "6 Lorikeet Down",
@@ -640,5 +651,16 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Lightning Crystal, 7 Wind Crystal",
         special: "Housing (Tabletop)"
+    },
+    {
+        level: "80",
+        name: "Stage Curtain",
+        mat1: "6 Dwarven Cotton",
+        mat2: "4 Lignum Vitae Lumber",
+        mat3: "2 Titanbronze Nugget",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
 ];

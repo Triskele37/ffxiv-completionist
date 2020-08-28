@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Snowcloak",
         type: "Rivers",
         bait: "Caddisfly Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Goosefish",
         iLvl: "50",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Skull Valley",
         type: "Deep Sea",
         bait: "Wahoo",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Cave Cherax",
         iLvl: "50",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Daniffen Pass",
         type: "Lakes",
         bait: "Abalathian Smelt",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Coeurlfish",
         iLvl: "70",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Oakwood",
         type: "Lakes",
         bait: "Common Sculpin",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Little Thalaos",
         iLvl: "55",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Costa del Sol",
         type: "Deep Sea",
         bait: "Northern Krill",
-        usage: "N/A",
-        special: "Shower/Rain"
     }, {
         name: "Shall Shell",
         iLvl: "55",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Candlekeep Quay",
         type: "Coastlines",
         bait: "Northern Krill",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Giant Donko",
         iLvl: "55",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "The Long Climb",
         type: "Rivers",
         bait: "Caddisfly Larva",
-        usage: "N/A",
-        special: "4AM-9AM"
     }, {
         name: "Sundisc",
         iLvl: "55",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The Burning Wall",
         type: "Rivers",
         bait: "Caddisfly Larva",
-        usage: "N/A",
-        special: "10AM-3PM, Clear/Fair"
     }, {
         name: "Mahi-Mahi",
         iLvl: "55",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Oschon's Torch",
         type: "Deep Sea",
         bait: "Yumizuno",
-        usage: "N/A",
-        special: "10AM-6PM"
     }, {
         name: "Halibut",
         iLvl: "55",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Swiftperch",
         type: "Deep Sea",
         bait: "Northern Krill",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Alligator Garfish",
         iLvl: "55",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Bluefog",
         type: "Lakes",
         bait: "Common Sculpin",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Wootz Knifefish",
         iLvl: "55",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Ceruleum Field",
         type: "Lakes",
         bait: "Goldfish",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Giant Catfish",
         iLvl: "55",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "North Bronze Lake",
         type: "Lakes",
         bait: "Silverfish",
-        usage: "Cooking",
-        special: "Mooch"
     }, {
         name: "Caravan Eel",
         iLvl: "55",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Sagolii Dunes",
         type: "Dunefishing",
         bait: "Storm Rider",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Mazlaya Marlin",
         iLvl: "50",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "North Bloodshore",
         type: "Deep Sea",
         bait: "Ogre Barracuda",
-        usage: "Quest, Alchemy",
-        special: "Mooch"
     }, {
         name: "Coelacanth",
         iLvl: "55",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Isles of Umbra Southshore",
         type: "Coastlines",
         bait: "Fullmoon Sardine",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Cadaver Carp",
         iLvl: "70",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The Tangle",
         type: "Lakes",
         bait: "Caddisfly Larva",
-        usage: "N/A",
-        special: "Gloom"
     }, {
         name: "Rhamphorhynchus",
         iLvl: "70",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Witchdrop",
         type: "Skyfishing",
         bait: "Saucerfish",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Giant Squid",
         iLvl: "55",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "The Ship Graveyard",
         type: "Deep Sea",
         bait: "Wahoo",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Gigant Octopus",
         iLvl: "70",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "The Brewer's Beacon",
         type: "Deep Sea",
         bait: "Ogre Barracuda",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Sunfish",
         iLvl: "50",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Isles of Umbra Northshore",
         type: "Deep Sea",
         bait: "Ocean Cloud",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Dinichthys",
         iLvl: "70",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Reaver Hide",
         type: "Deep Sea",
         bait: "Wahoo",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Mushroom Crab",
         iLvl: "55",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Sylphlands",
         type: "Lakes",
         bait: "Common Sculpin",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Judgment Staff",
         iLvl: "55",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Rootslake",
         type: "Lakes",
         bait: "Caddisfly Larva",
-        usage: "N/A",
-        special: "Thunder"
     }, {
         name: "Poxpike",
         iLvl: "55",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "Rathefrost",
         type: "Lakes",
         bait: "Goldfish",
-        usage: "N/A",
-        special: "N/A"
     },
 ];

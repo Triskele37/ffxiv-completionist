@@ -11,23 +11,20 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "23",
         name: "Matron's Mistletoe",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "ALC, CRP, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Walnut Log",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "ALC, CRP, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

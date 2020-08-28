@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "The Hundred Throes",
         type: "Rivers",
         bait: "Stonefly Nymph",
-        usage: "Levequest",
-        special: "Dust Storms/Fog/Clouds"
     }, {
         name: "Pipira Pira",
         iLvl: "145",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Whilom River",
         type: "Rivers",
         bait: "Goblin Jig",
-        usage: "Leve, Cooking",
-        special: "Clouds/Fog/Dust Storm"
     }, {
         name: "Dravanian Squeaker",
         iLvl: "133",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Weston Waters",
         type: "Lakes",
         bait: "Stonefly Nymph",
-        usage: "Collectable",
-        special: "4PM-7PM"
     }, {
         name: "Kissing Fish",
         iLvl: "133",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Eil Tohn",
         type: "Rivers",
         bait: "Purse Web Spider",
-        usage: "N/A",
-        special: "9AM-12AM"
     }, {
         name: "Mitre Slug",
         iLvl: "133",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Cloudtop",
         type: "Cloudfishing",
         bait: "Red Balloon",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Lava Crab",
         iLvl: "133",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Mourn",
         type: "Hellfishing",
         bait: "Magma Worm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Storm Core",
         iLvl: "133",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "The Blue Window",
         type: "Cloudfishing",
         bait: "Red Balloon",
-        usage: "N/A",
-        special: "Wind/Clouds/Fog"
     }, {
         name: "Scholar Sculpin",
         iLvl: "133",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Upper Thaliak River",
         type: "Lakes",
         bait: "Stonefly Nymph",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Gigant Grouper",
         iLvl: "136",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Ashpool",
         type: "Lakes",
         bait: "Goblin Jig",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Vanuhead",
         iLvl: "136",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "The Eddies",
         type: "Rivers",
         bait: "Bullfrog",
-        usage: "N/A",
-        special: "Mooch, Clear/Fair"
     }, {
         name: "Marble Oscar",
         iLvl: "136",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "The Smoldering Wastes",
         type: "Lakes",
         bait: "Purse Web Spider",
-        usage: "Provisioning (55)",
-        special: "N/A"
     }, {
         name: "Lungfish",
         iLvl: "180",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "The Pappus Tree",
         type: "Lakes",
         bait: "Aether Eye",
-        usage: "N/A",
-        special: "9PM-1AM, Clouds"
     }, {
         name: "Tigerfish",
         iLvl: "136",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Quickspill Delta",
         type: "Lakes",
         bait: "Bullfrog",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Sky Faerie",
         iLvl: "130",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Landlord Colony",
         type: "Cloudfishing",
         bait: "Red Balloon",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Granite Crab",
         iLvl: "136",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Mourn",
         type: "Hellfishing",
         bait: "Magma Worm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Aithon's Colt",
         iLvl: "136",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "West Mourn",
         type: "Hellfishing",
         bait: "Magma Worm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Shipworm",
         iLvl: "136",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Thaliak River",
         type: "Rivers",
         bait: "Goblin Jig",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Hedgemole Cricket",
         iLvl: "130",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Voor Sian Siran",
         type: "Rivers",
         bait: "Purse Web Spider",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Mogpom",
         iLvl: "136",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Greensward",
         type: "Lakes",
         bait: "Goblin Jig",
-        usage: "Alchemy",
-        special: "N/A"
     }, {
         name: "Magma Tree",
         iLvl: "136",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "West Mourn",
         type: "Hellfishing",
         bait: "Magma Worm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Cloud Rider",
         iLvl: "136",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Landlord Colony",
         type: "Cloudfishing",
         bait: "Red Balloon",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Dravanian Bass",
         iLvl: "139",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Whilom River",
         type: "Rivers",
         bait: "Blueclaw Shrimp",
-        usage: "N/A",
-        special: "Mooch, 12AM-6AM, Clouds/Dust Storms/Fog"
     }, {
         name: "Coerthan Puffer",
         iLvl: "136",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Riversmeet",
         type: "Lakes",
         bait: "Stonefly Nymph",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Snowcaller",
         iLvl: "136",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "West Banepool",
         type: "Lakes",
         bait: "Ice Faerie",
-        usage: "N/A",
-        special: "Mooch, Snow/Blizzards"
     }, {
         name: "Dragonhead",
         iLvl: "136",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The Iron Feast",
         type: "Rivers",
         bait: "Bladed Steel Jig",
-        usage: "N/A",
-        special: "N/A"
     },
 ];

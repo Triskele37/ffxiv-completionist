@@ -11,7 +11,6 @@ const tasks = [
         zone: "The Peaks",
         closestAetheryte: "Ala Ghiri",
         coordinates: "(x24,y36)",
-        usage: "WVR",
-        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Gyr Abanian"
+        nodeTimer: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Gyr Abanian"
     },
 ];

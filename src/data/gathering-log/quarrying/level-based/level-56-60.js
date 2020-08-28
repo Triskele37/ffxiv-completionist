@@ -11,119 +11,104 @@ const tasks = [
         zone: "The Sea of Clouds",
         closestAetheryte: "Ok'Zundu",
         coordinates: "(x7,y7)",
-        usage: "ALC, CUL, Collectable",
-        special: "Buyable, Unspoiled (10AM/PM)"
+        nodeTimer: "Buyable, Unspoiled (10AM/PM)"
     }, {
         level: "56",
         name: "Fire Moraine",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Anyx Trine",
         coordinates: "(x17,y27)",
-        usage: "Collectable",
-        special: "Ephemeral (4AM)"
+        nodeTimer: "Ephemeral (4AM)"
     }, {
         level: "56",
         name: "Lightning Moraine",
         zone: "The Sea of Clouds",
         closestAetheryte: "Camp Cloudtop",
         coordinates: "(x34,y30)",
-        usage: "Collectable",
-        special: "Ephemeral (4PM)"
+        nodeTimer: "Ephemeral (4PM)"
     }, {
         level: "56",
         name: "Hardsilver Sand",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "56",
         name: "Fossilized Dragon Bone",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "Collectable",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "58",
         name: "Cloud Mica",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "ARM, BSM, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "58",
         name: "Red Quartz",
         zone: "The Sea of Clouds",
         closestAetheryte: "Ok'Zundu",
         coordinates: "(x7,y7)",
-        usage: "ALC, Collectable",
-        special: "Unspoiled (10AM/PM)"
+        nodeTimer: "Unspoiled (10AM/PM)"
     }, {
         level: "58",
         name: "Bright Fire Rock",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Anyx Trine",
         coordinates: "(x17,y27)",
-        usage: "Collectable",
-        special: "Ephemeral (4AM)"
+        nodeTimer: "Ephemeral (4AM)"
     }, {
         level: "58",
         name: "Bright Lightning Rock",
         zone: "The Sea of Clouds",
         closestAetheryte: "Camp Cloudtop",
         coordinates: "(x34,y30)",
-        usage: "Collectable",
-        special: "Ephemeral (4PM)"
+        nodeTimer: "Ephemeral (4PM)"
     }, {
         level: "59",
         name: "Tektite",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "Collectable",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "59",
         name: "Duskfall Moss",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "Collectable",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "60",
         name: "Radiant Fire Moraine",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Anyx Trine",
         coordinates: "(x17,y27)",
-        usage: "Collectable",
-        special: "Ephemeral (4AM)"
+        nodeTimer: "Ephemeral (4AM)"
     }, {
         level: "60",
         name: "Radiant Lightning Moraine",
         zone: "The Sea of Clouds",
         closestAetheryte: "Camp Cloudtop",
         coordinates: "(x34,y30)",
-        usage: "Collectable",
-        special: "Ephemeral (4PM)"
+        nodeTimer: "Ephemeral (4PM)"
     }, {
         level: "60★",
         name: "Lumythrite Sand",
         zone: "The Churning Mists",
         closestAetheryte: "Moghome",
         coordinates: "(x29,y18)",
-        usage: "ARM, BSM",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "60★",
         name: "Radiant Astral Moraine",
         zone: "Coerthas Western Highlands",
         closestAetheryte: "Falcon's Nest",
         coordinates: "(x21,y28)",
-        usage: "Collectable",
-        special: "Ephemeral (8PM)"
+        nodeTimer: "Ephemeral (8PM)"
     },
 ];

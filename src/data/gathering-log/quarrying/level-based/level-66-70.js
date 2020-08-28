@@ -11,111 +11,97 @@ const tasks = [
         zone: "Yanxia",
         closestAetheryte: "Namai",
         coordinates: "(x37,y19)",
-        usage: "ALC",
-        special: "Ephemeral (8PM)"
+        nodeTimer: "Ephemeral (8PM)"
     }, {
         level: "66",
         name: "Durium Sand",
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x29,y15)",
-        usage: "GSM, ALC, FC Crafting, Collectable, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "66",
         name: "Strong Steppe Spice",
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x29,y15)",
-        usage: "Collectable",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "67",
         name: "Doman Iron Sand",
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x29,y15)",
-        usage: "ARM, BSM, FC Crafting, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "69",
         name: "Palladium Sand",
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x29,y15)",
-        usage: "GSM, ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "69",
         name: "Ala Mhigan Salt Crystal",
         zone: "The Lochs",
         closestAetheryte: "Porta Praetoria",
         coordinates: "(x21,y29)",
-        usage: "ALC, CUL",
-        special: "Unspoiled (12AM/PM)"
+        nodeTimer: "Unspoiled (12AM/PM)"
     }, {
         level: "70",
         name: "Raven Coal",
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "(x10,y27)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70",
         name: "Amh Araeng Seasonings",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x30,y23)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70",
         name: "Animal Trace",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x30,y25)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70★",
         name: "Airship Fitting Components",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x30,y23)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70★",
         name: "Kholusian Miscellany",
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "(x10,y27)",
-        usage: "Delivery",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70★★",
         name: "Yanxian Soil",
         zone: "Yanxia",
         closestAetheryte: "Namai",
         coordinates: "(x37,y19)",
-        usage: "Collectable",
-        special: "Ephemeral (8PM)"
+        nodeTimer: "Ephemeral (8PM)"
     }, {
         level: "70★★",
         name: "Coarse Saltpeter",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x30,y25)",
-        usage: "ALC",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "70★★",
         name: "Yellow Alumen",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x30,y25)",
-        usage: "LTW, Collectable",
-        special: ""
+        nodeTimer: ""
     },
 ];

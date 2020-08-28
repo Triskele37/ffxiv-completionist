@@ -54,14 +54,8 @@ const tasks = [
         iLvl: "290"
     },
     {
-        name: "Antiquated Galatyn",
+        name: "Antiquated Galatyn & Antiquated Evalach",
         slot: "Weapon",
-        job: "Paladin",
-        iLvl: "290"
-    },
-    {
-        name: "Antiquated Evalach",
-        slot: "Shield",
         job: "Paladin",
         iLvl: "290"
     },

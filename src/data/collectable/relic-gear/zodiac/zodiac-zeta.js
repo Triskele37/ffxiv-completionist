@@ -36,13 +36,7 @@ const tasks = [
 		iLvl: "135",
     },
     {
-        name: "Excalibur Zeta",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "135",
-    },
-    {
-        name: "Aegis Shield Zeta",
+        name: "Excalibur Zeta & Aegis Shield Zeta",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "135",

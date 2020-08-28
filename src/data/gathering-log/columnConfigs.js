@@ -8,10 +8,9 @@ export const GatheringColumnConfig = [
     },
     { header: "Name", key: "name" },
     { header: "Zone", key: "zone", filterable: true },
-    { header: "Aetheryte", key: "closestAetheryte" },
+    { header: "Closest Aetheryte", key: "closestAetheryte" },
     { header: "Coordinates", key: "coordinates" },
-    { header: "Usages", key: "usage" },
-    { header: "Special", key: "special" },
+    { header: "Node Timer", key: "nodeTimer" },
 ];
 
 export const FishingLogColumnConfig = [

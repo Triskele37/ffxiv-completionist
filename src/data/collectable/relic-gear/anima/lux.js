@@ -54,13 +54,7 @@ const tasks = [
 		iLvl: "275",
     },
     {
-        name: "Aettir Lux",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "275",
-    },
-    {
-        name: "Priwen Lux",
+        name: "Aettir Lux & Priwen Lux",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "275",

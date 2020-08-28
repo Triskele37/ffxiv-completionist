@@ -11,15 +11,13 @@ const tasks = [
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x28,y22)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "45",
         name: "Marble",
         zone: "Upper La Noscea",
         closestAetheryte: "Camp Bronze Lake",
         coordinates: "(x28,y22)",
-        usage: "ALC, BSM, CRP, GSM",
-        special: ""
+        nodeTimer: ""
     },
 ];

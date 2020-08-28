@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Tamamizu",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Black Boxfish",
         iLvl: "205",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Ruby Price Depths",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Glass Manta",
         iLvl: "205",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Tamamizu",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Levequest",
-        special: "N/A",
     }, {
         name: "Regal Silverside",
         iLvl: "205",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Sui-no-Sato",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Snowflake Moray",
         iLvl: "205",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Hoppfish",
         iLvl: "205",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Lightscale",
         iLvl: "205",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Grass Fugu",
         iLvl: "205",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Giant Eel",
         iLvl: "205",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "The One River Southern Riverbeds",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Kamina Crab",
         iLvl: "205",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Spider Crab",
         iLvl: "210",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Ruby Price Depths",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Little Dragonfish",
         iLvl: "210",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Sui-no-Sato",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Black Fanfish",
         iLvl: "210",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Zebra Shark",
         iLvl: "210",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "The Adventure",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Nophica's Comb",
         iLvl: "210",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Warty Wartfish",
         iLvl: "210",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "The One River Southwestern Riverbeds",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Common Whelk",
         iLvl: "210",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The One River Southern Riverbeds",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Levequest",
-        special: "N/A",
     }, {
         name: "Hairless Barb",
         iLvl: "210",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Imperial Hypersonic Assault Craft L-XXIII",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Hatchetfish",
         iLvl: "215",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Ruby Price Depths",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Threadfish",
         iLvl: "215",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Ruby Price Depths",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Garden Eel",
         iLvl: "215",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Tamamizu",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Eastern Sea Pickle",
         iLvl: "215",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Sui-no-Sato",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Levequest",
-        special: "N/A",
     }, {
         name: "Brindlebass",
         iLvl: "215",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "The Adventure",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "Demon Stonefish",
         iLvl: "215",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Shisui of the Violet Tides",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Armored Crayfish",
         iLvl: "215",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The One River Southern Riverbeds",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     },
 ];

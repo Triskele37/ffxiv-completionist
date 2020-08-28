@@ -18,17 +18,6 @@ const tasks = [
     	special: "Unlocked w/ Master Leatherworker VIII"
     }, {
     	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Earth Crystal, 2 Wind Crystal",
-    	special: "Unlocked w/ Master Leatherworker VIII"
-    }, {
-    	level: "80★★★",
     	name: "Neo-Ishgardian Top of Scouting",
     	mat1: "2 Megalania Leather",
     	mat2: "2 Duskcourt Cloth",
@@ -71,7 +60,41 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Earth Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Leatherworker VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Doublet of Gathering",
+		mat1: "4 Defthand's Dissolvent",
+		mat2: "5 Megalania Leather",
+		mat3: "2 Purpure Bead",
+		mat4: "4 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Fingerless Gloves of Crafting",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Megalania Leather",
+		mat3: "Duskcourt Cloth",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Halfgloves of Gathering",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Megalania Leather",
+		mat3: "Duskcourt Cloth",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Leather Belt of Striking",
     	mat1: "Megalania Leather",
@@ -126,7 +149,30 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Earth Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Leatherworker VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Aesthete's Tool Belt",
+		mat1: "2 Defthand's Dissolvent",
+		mat2: "3 Megalania Leather",
+		mat3: "Purpure Bead",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Belt of Gathering",
+		mat1: "2 Defthand's Dissolvent",
+		mat2: "3 Megalania Leather",
+		mat3: "Purpure Bead",
+		mat4: "2 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
     	level: "80★★★",
     	name: "Neo-Ishgardian Boots of Maiming",
     	mat1: "2 Megalania Leather",
@@ -181,16 +227,38 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Earth Cluster, 2 Wind Cluster",
     	special: "Unlocked w/ Master Leatherworker VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Earth Crystal, 2 Wind Crystal",
-    	special: "Unlocked w/ Master Leatherworker VIII"
     },
+	{
+		level: "80★★★",
+		name: "Aesthete's Boots of Crafting",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Megalania Leather",
+		mat3: "Cobalt Alloy Ingot",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Boots of Gathering",
+		mat1: "3 Defthand's Dissolvent",
+		mat2: "4 Megalania Leather",
+		mat3: "Cobalt Alloy Ingot",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Southern Seas Shoes",
+		mat1: "Seacloth",
+		mat2: "2 Megalania Leather",
+		mat3: "Dwarven Cotton",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "7 Earth Crystal, 7 Wind Crystal"
+	},
 ];

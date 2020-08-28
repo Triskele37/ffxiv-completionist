@@ -11,8 +11,7 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestTeleport: "Falcon's Nest",
         coordinates: "(x14, y30)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★",
@@ -20,8 +19,7 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestTeleport: "Falcon's Nest",
         coordinates: "(x14, y30)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -29,8 +27,7 @@ const tasks = [
         zone: "The Dravanian Forelands",
         closestTeleport: "Anyx Trine",
         coordinates: "(x17, y10)",
-        usage: "DOH/DOL Relic",
-        special: ""
+        nodeTimer: ""
     },
     {
         level: "80★★",
@@ -38,7 +35,6 @@ const tasks = [
         zone: "The Dravanian Forelands",
         closestTeleport: "Anyx Trine",
         coordinates: "(x17, y10)",
-        usage: "DOH/DOL Relic",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

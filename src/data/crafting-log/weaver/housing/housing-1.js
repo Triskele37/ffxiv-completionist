@@ -329,4 +329,15 @@ const tasks = [
         catalysts: "7 Lightning Crystal, 7 Wind Crystal",
         special: "Housing (Interior Wall)"
     },
+    {
+        level: "80",
+        name: "Nomad's Tent",
+        mat1: "8 Dwarven Cotton",
+        mat2: "3 Dwarven Cotton Thread",
+        mat3: "2 Lignum Vitae Lumber",
+        mat4: "Granite",
+        mat5: "Glade Pendant Lamp",
+        mat6: "X",
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
+    },
 ];

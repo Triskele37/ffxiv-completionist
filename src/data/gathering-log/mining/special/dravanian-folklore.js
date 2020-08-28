@@ -11,15 +11,13 @@ const tasks = [
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
         coordinates: "(x11,y38)",
-        usage: "GSM, Collectable",
-        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Dravania"
+        nodeTimer: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Dravania"
     }, {
         level: "60★",
         name: "Lumythrite Ore",
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
         coordinates: "(x11,y38)",
-        usage: "ARM, BSM, Collectable",
-        special: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Dravania"
+        nodeTimer: "Legendary (2AM/PM), Unlocked w/ Geological Folklore - Dravania"
     },
 ];

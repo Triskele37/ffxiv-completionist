@@ -11,15 +11,13 @@ const tasks = [
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x20,y20)",
-        usage: "ALC, CRP",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "14",
         name: "Gridanian Chestnut",
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x20,y20)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

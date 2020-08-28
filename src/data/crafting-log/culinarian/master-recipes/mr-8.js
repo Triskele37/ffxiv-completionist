@@ -115,16 +115,27 @@ const tasks = [
     	mat6: "Galago Mint",
     	catalysts: "2 Fire Cluster, 2 Water Cluster",
     	special: "Unlocked w/ Master Culinarian VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Fire Crystal, 2 Water Crystal",
-    	special: "Unlocked w/ Master Culinarian VIII"
     },
+	{
+		level: "80★★★",
+		name: "Crab Cakes",
+		mat1: "Blue Crab",
+		mat2: "Upland Wheat Flour",
+		mat3: "Lorikeet Egg",
+		mat4: "Cyclops Onion",
+		mat5: "Levinstrike Aethersand",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Water Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Chili Crab",
+		mat1: "Blue Crab",
+		mat2: "Frantoio Oil",
+		mat3: "2 Blood Tomato",
+		mat4: "Jhammel Ginger",
+		mat5: "Levinstrike Aethersand",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Water Cluster"
+	},
 ];

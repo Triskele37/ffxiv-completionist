@@ -809,4 +809,15 @@ const tasks = [
         catalysts: "7 Water Crystal, 7 Lightning Crystal",
         special: "Housing (Outdoor Furnishing)"
     },
+    {
+        level: "80",
+        name: "Red Brick Kitchen",
+        mat1: "12 Firebricks",
+        mat2: "5 Titanbronze Ingot",
+        mat3: "3 Lignum Vitae Lumber",
+        mat4: "Firewood",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
 ];

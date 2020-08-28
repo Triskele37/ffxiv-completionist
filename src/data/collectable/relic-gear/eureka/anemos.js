@@ -54,14 +54,8 @@ const tasks = [
         iLvl: "335"
     },
     {
-        name: "Galatyn",
+        name: "Galatyn & Evalach",
         slot: "Weapon",
-        job: "Paladin",
-        iLvl: "335"
-    },
-    {
-        name: "Evalach",
-        slot: "Shield",
         job: "Paladin",
         iLvl: "335"
     },
@@ -150,14 +144,8 @@ const tasks = [
         iLvl: "340"
     },
     {
-        name: "Galatyn +1",
+        name: "Galatyn +1 & Evalach +1",
         slot: "Weapon",
-        job: "Paladin",
-        iLvl: "340"
-    },
-    {
-        name: "Evalach +1",
-        slot: "Shield",
         job: "Paladin",
         iLvl: "340"
     },
@@ -246,14 +234,8 @@ const tasks = [
         iLvl: "345"
     },
     {
-        name: "Galatyn +2",
+        name: "Galatyn +2 & Evalach +2",
         slot: "Weapon",
-        job: "Paladin",
-        iLvl: "345"
-    },
-    {
-        name: "Evalach +2",
-        slot: "Shield",
         job: "Paladin",
         iLvl: "345"
     },
@@ -342,14 +324,8 @@ const tasks = [
         iLvl: "355"
     },
     {
-        name: "Anemos Galatyn",
+        name: "Anemos Galatyn & Anemos Evalach",
         slot: "Weapon",
-        job: "Paladin",
-        iLvl: "355"
-    },
-    {
-        name: "Anemos Evalach",
-        slot: "Shield",
         job: "Paladin",
         iLvl: "355"
     },

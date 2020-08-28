@@ -36,13 +36,7 @@ const tasks = [
 		iLvl: "100",
     },
     {
-        name: "Curtana Animus",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "100",
-    },
-    {
-        name: "Holy Shield Animus",
+        name: "Curtana Animus & Holy Shield Animus",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "100",

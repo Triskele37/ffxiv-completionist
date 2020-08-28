@@ -16,7 +16,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "Torreya Lumber",
+        mat3: "Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "True Griffin Leather",
+        mat3: "Palladium Nugget",
+        mat4: "Seiryu's Scale",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral War Axe",
         mat1: "3 Chromite Ingot",
@@ -27,7 +61,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Greataxe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Greataxe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified War Axe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Palladium Nugget",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Greatsword",
         mat1: "3 Chromite Ingot",
@@ -38,7 +106,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Odachi",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Odachi",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Spine",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Gunblade",
         mat1: "3 Chromite Ingot",
@@ -49,7 +151,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Claws",
         mat1: "3 Chromite Ingot",
@@ -60,7 +196,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Crescents",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Pinions",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Tekko",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Katana",
         mat1: "3 Chromite Ingot",
@@ -71,7 +241,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Chokuto",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Chokuto",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Katana",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Daggers",
         mat1: "3 Chromite Ingot",
@@ -82,7 +286,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Kunai",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Kunai",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Daggers",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Greatbow",
         mat1: "3 Chromite Ingot",
@@ -104,7 +342,41 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Fire Cluster, 2 Earth Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
-    }, {
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Rhea Cloth",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "70★★",
         name: "Shinryu's Ephemeral Chakrams",
         mat1: "3 Chromite Ingot",

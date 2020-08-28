@@ -11,23 +11,34 @@ const tasks = [
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "Slowroad",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "71",
         name: "Truegold Sand",
         zone: "Kholusia",
         closestAetheryte: "Wright",
         coordinates: "Slowroad",
-        usage: "ALC, ARM, BSM, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
+    }, {
+        level: "71",
+        name: "Gathering Tool Paraphernalia",
+        zone: "Coerthas Western Highlands",
+        closestAetheryte: "Falcon's Nest",
+        coordinates: "",
+        nodeTimer: ""
+    }, {
+        level: "74",
+        name: "Handpicked Ingredients",
+        zone: "The Ruby Sea",
+        closestAetheryte: "Onokoro",
+        coordinates: "",
+        nodeTimer: ""
     }, {
         level: "75",
         name: "Manasilver Sand",
         zone: "The Rak'tika Greatwood",
         closestAetheryte: "Slitherbough",
         coordinates: "Lozatl's Conquest",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

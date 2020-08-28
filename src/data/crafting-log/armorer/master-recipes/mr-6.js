@@ -19,6 +19,39 @@ const tasks = [
     },
     {
         level: "70★★",
+        name: "Tsukuyomi's Moonlit Shield",
+        mat1: "2 Chromite Ingot",
+        mat2: "Zelkova Lumber",
+        mat3: "Celestial Kimono Remnant",
+        mat4: "2 Demicrystal",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Shield",
+        mat1: "2 Chromite Ingot",
+        mat2: "Zelkova Lumber",
+        mat3: "Scarlet Tailfeather",
+        mat4: "2 Demicrystal",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Shield",
+        mat1: "2 Chromite Ingot",
+        mat2: "Gazelle Leather",
+        mat3: "Seiryu's Scale",
+        mat4: "2 Demicrystal",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
         name: "Tier 1 Metal Aquarium",
         mat1: "3 Chromite Ingot",
         mat2: "2 Steel Plate",

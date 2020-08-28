@@ -11,23 +11,20 @@ const tasks = [
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x20,y8)",
-        usage: "WVR, Collectable",
-        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
     }, {
         level: "70★",
         name: "Azim Cotton Ball",
         zone: "The Azim Steppe",
         closestAetheryte: "The Dawn Throne",
         coordinates: "(x20,y8)",
-        usage: "ALC",
-        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore- Othardian"
     }, {
         level: "70★★★",
         name: "Yanxian Cotton Boll",
         zone: "Yanxia",
         closestAetheryte: "Namai",
         coordinates: "(x28,y35)",
-        usage: "WVR",
-        special: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Othard"
+        nodeTimer: "Unspoiled (2AM/PM), Unlocked w/ Botanical Folklore- Othard"
     },
 ];

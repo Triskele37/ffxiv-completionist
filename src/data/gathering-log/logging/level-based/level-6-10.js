@@ -11,71 +11,62 @@ const tasks = [
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x22,y26)",
-        usage: "ALC, CRP, WVR, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "6",
         name: "Tinolqa Mistletoe",
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x25,y20)",
-        usage: "ALC, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "7",
         name: "La Noscean Orange",
         zone: "Lower La Noscea",
         closestAetheryte: "Limsa Lominsa -> Tempest Gate",
         coordinates: "(x32,y16)",
-        usage: "CRP, CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "7",
         name: "La Noscean Orange Seeds",
         zone: "Lower La Noscea",
         closestAetheryte: "Limsa Lominsa -> Tempest Gate",
         coordinates: "(x32,y16)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "8",
         name: "Ash Log",
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x25,y20)",
-        usage: "ALC, CRP, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "9",
         name: "Kukuru Bean",
         zone: "Lower La Noscea",
         closestAetheryte: "Limsa Lominsa -> Tempest Gate",
         coordinates: "(x32,y16)",
-        usage: "CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "9",
         name: "Ash Branch",
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x25,y20)",
-        usage: "ALC, CRP, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "10",
         name: "Cloves",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x22,y26)",
-        usage: "ALC, CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "10",
         name: "Crow Feather",
         zone: "Central Shroud",
         closestAetheryte: "Brentbranch Meadows",
         coordinates: "(x25,y20)",
-        usage: "BSM, CRP, GSM, WVR",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

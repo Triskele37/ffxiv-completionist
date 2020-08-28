@@ -11,39 +11,34 @@ const tasks = [
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x19,y25)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "37",
         name: "Mahogany Log",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x19,y25)",
-        usage: "CRP",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "39",
         name: "Nutmeg",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x19,y25)",
-        usage: "ALC, CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "40",
         name: "Almonds",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x19,y25)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "40",
         name: "Almond Seeds",
         zone: "Eastern La Noscea",
         closestAetheryte: "Wineport",
         coordinates: "(x19,y25)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     },
 ];

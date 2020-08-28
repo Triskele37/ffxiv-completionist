@@ -11,39 +11,34 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x28,y22)",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "37",
         name: "Raw Spinel",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x28,y22)",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "38",
         name: "Raw Zircon",
         zone: "Coerthas Central Highlands",
         closestAetheryte: "Camp Dragonhead",
         coordinates: "(x24,y19)",
-        usage: "ALC, GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "39",
         name: "Jade",
         zone: "Coerthas Central Highlands",
         closestAetheryte: "Camp Dragonhead",
         coordinates: "(x24,y19)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "40",
         name: "Black Alumen",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x28,y22)",
-        usage: "ALC, LTW, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

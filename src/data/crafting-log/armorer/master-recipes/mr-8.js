@@ -38,18 +38,40 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Ice Cluster, 2 Earth Cluster",
     	special: "Unlocked w/ Master Armorer VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Ice Crystal, 2 Earth Crystal",
-    	special: "Unlocked w/ Master Armorer VIII"
-    }, {
+    },
+	{
+		level: "80★★★",
+		name: "Brashgold Plate",
+		mat1: "3 Brashgold Ore",
+		mat2: "Sublime Solution",
+		mat3: "Levinstrike Aethersand",
+		mat4: "X",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Ice Crystal, 2 Earth Crystal"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Alembic",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Ice Crystal, 2 Earth Crystal"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Frypan",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "x",
+		catalysts: "2 Ice Crystal, 2 Earth Crystal"
+	}, {
     	level: "80★★★",
     	name: "Neo-Ishgardian Shield",
     	mat1: "Cobalt Alloy Ingot",
@@ -203,16 +225,27 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Ice Cluster, 2 Earth Cluster",
     	special: "Unlocked w/ Master Armorer VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "x",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Ice Crystal, 2 Earth Crystal",
-    	special: "Unlocked w/ Master Armorer VIII"
     },
+	{
+		level: "80★★★",
+		name: "True Barding of Light",
+		mat1: "Plate of Light",
+		mat2: "3 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "2 Dwarven Mythril Ingot",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Ice Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Trophy of Light",
+		mat1: "Plate of Light",
+		mat2: "2 Cobalt Alloy Ingot",
+		mat3: "Megalania Leather",
+		mat4: "Dwarven Mythril Ingot",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "7 Ice Crystal, 7 Earth Crystal"
+	},
 ];

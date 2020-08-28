@@ -54,13 +54,7 @@ const tasks = [
 		iLvl: "230",
     },
     {
-        name: "Hyperconductive Almace",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "230",
-    },
-    {
-        name: "Hyperconductive Ancile",
+        name: "Hyperconductive Almace & Hyperconductive Ancile",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "230",

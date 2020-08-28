@@ -54,13 +54,7 @@ const tasks = [
 		iLvl: "170",
     },
     {
-        name: "Animated Hauteclaire",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "170",
-    },
-    {
-        name: "Animated Prytwen",
+        name: "Animated Hauteclaire & Animated Prytwen",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "170",

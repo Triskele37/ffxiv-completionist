@@ -11,7 +11,6 @@ const tasks = [
         zone: "Azys Lla",
         closestAetheryte: "Helix",
         coordinates: "(x9,y31)",
-        usage: "WVR",
-        special: "Legendary(4AM/PM), Unlocked w/ Botanical Folklore- Abalathian"
+        nodeTimer: "Legendary(4AM/PM), Unlocked w/ Botanical Folklore- Abalathian"
     },
 ];

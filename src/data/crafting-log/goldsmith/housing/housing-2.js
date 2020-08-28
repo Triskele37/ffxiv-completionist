@@ -611,4 +611,15 @@ const tasks = [
         catalysts: "7 Wind Crystal, 7 Fire Crystal",
         special: "Housing (Tabletop)"
     },
+    {
+        level: "80",
+        name: "Marble Alcove Bed",
+        mat1: "9 Marble",
+        mat2: "3 Dwarven Cotton",
+        mat3: "3 Lignum Vitae Lumber",
+        mat4: "2 Lorikeet Down",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
 ];

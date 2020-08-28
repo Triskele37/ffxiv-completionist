@@ -331,6 +331,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Indoor Pond",
+        mat1: "10 Firebricks",
+        mat2: "4 Growth Formula Kappa",
+        mat3: "4 Underground Spring Water",
+        mat4: "2 island Seedling",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
+    },
+    {
+        level: "80",
         name: "Dish Rack",
         mat1: "4 Lignum Vitae Lumber",
         mat2: "Straw",

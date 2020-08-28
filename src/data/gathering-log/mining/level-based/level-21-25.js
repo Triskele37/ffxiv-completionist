@@ -11,15 +11,13 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x15,y19)",
-        usage: "ALC, WVR",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "25",
         name: "Silver Ore",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x15,y19)",
-        usage: "GSM",
-        special: ""
+        nodeTimer: ""
     },
 ];

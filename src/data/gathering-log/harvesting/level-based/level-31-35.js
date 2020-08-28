@@ -11,119 +11,104 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x17,y28)",
-        usage: "ALC, WVR, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "31",
         name: "Yafaem Wildgrass",
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x20,y7)",
-        usage: "CUL",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "31",
         name: "Linseed",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x17,y28)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "32",
         name: "Aloe",
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x20,y7)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "32",
         name: "Midland Basil",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "32",
         name: "Midland Basil Seeds",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "33",
         name: "White Truffle",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x17,y28)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "33",
         name: "Bloodgrass",
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x20,y7)",
-        usage: "CRP, LTW, WVR",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "33",
         name: "Mandrake",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "33",
         name: "Mandrake Seeds",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "Gardening",
-        special: "Hidden"
+        nodeTimer: ""
     }, {
         level: "34",
         name: "Salt Leek",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "34",
         name: "Laurel",
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x20,y7)",
-        usage: "CUL",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "34",
         name: "Wildfowl Feather",
         zone: "South Shroud",
         closestAetheryte: "Camp Tranquil",
         coordinates: "(x17,y28)",
-        usage: "BSM, CRP, GSM, LTW, WVR, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "35",
         name: "Dragon Pepper",
         zone: "Eastern La Noscea",
         closestAetheryte: "Costa del Sol",
         coordinates: "(x26,y30)",
-        usage: "CUL, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "35",
         name: "Desert Saffron",
         zone: "Southern Thanalan",
         closestAetheryte: "Little Ala Mhigo",
         coordinates: "(x20,y7)",
-        usage: "ALC, CUL, WVR, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

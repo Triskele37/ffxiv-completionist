@@ -54,13 +54,7 @@ const tasks = [
         iLvl: "240",
     },
     {
-        name: "Sword of the Twin Thegns",
-        job: "Paladin",
-        slot: "Weapon",
-        iLvl: "240",
-    },
-    {
-        name: "Shield of the Twin Thegns",
+        name: "Sword of the Twin Thegns & Shield of the Twin Thegns",
         job: "Paladin",
         slot: "Weapon",
         iLvl: "240",

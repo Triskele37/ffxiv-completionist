@@ -11,55 +11,48 @@ const tasks = [
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "22",
         name: "Silver Sand",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "ALC, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "23",
         name: "Fire Rock",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x12,y23)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "23",
         name: "Ice Rock",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Wind Rock",
         zone: "South Shroud",
         closestAetheryte: "Quarrymill",
         coordinates: "(x23,y21)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "24",
         name: "Lightning Rock",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x12,y23)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "25",
         name: "Water Rock",
         zone: "Upper La Noscea",
         closestAetheryte: "Aleport -> Upper La Noscea",
         coordinates: "(x12,y23)",
-        usage: "GSM, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

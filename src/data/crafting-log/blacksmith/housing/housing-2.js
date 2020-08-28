@@ -368,7 +368,19 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Fire Crystal, 7 Earth Crystal",
         special: "Housing (Tabletop)"
-    }, {
+    },
+    {
+        level: "80",
+        name: "Factory Partition",
+        mat1: "Weathering Agent",
+        mat2: "7 Dwarven Mythril Ingot",
+        mat3: "5 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
         level: "80",
         name: "Manor Dressing Table",
         mat1: "6 Dwarven Mythril Ingot",
@@ -379,5 +391,38 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Fire Crystal, 7 Earth Crystal",
         special: "Housing (Table)"
+    },
+    {
+        level: "80",
+        name: "Factory Railing",
+        mat1: "Weathering Agent",
+        mat2: "4 Dwarven Mythril Ingot",
+        mat3: "2 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Wall Lamp",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "2 Crystal Glass",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Grate",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "4 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     },
 ];

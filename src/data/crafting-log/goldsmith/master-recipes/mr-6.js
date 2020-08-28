@@ -7,6 +7,17 @@ export const Crafting_Log_Goldsmith_Master_Recipes_Master_Recipes_6 = function(p
 const tasks = [
     {
         level: "70★★",
+        name: "Suzaku's Flame-kissed Greatbow",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
         name: "Shinryu's Ephemeral Rod",
         mat1: "3 Palladium Ingot",
         mat2: "2 Torreya Lumber",
@@ -16,6 +27,28 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Fire Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Rod",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Rhodonite",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Rod",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     },
     {
         level: "70★★",
@@ -31,6 +64,50 @@ const tasks = [
     },
     {
         level: "70★★",
+        name: "Tsukuyomi's Moonlit Rapier",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Rapier",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Rhodonite",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Rapier",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Cane",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Rhodonite",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
         name: "Shinryu's Ephemeral Ephemeris",
         mat1: "3 Palladium Ingot",
         mat2: "2 Chromite Ingot",
@@ -40,6 +117,39 @@ const tasks = [
         mat6: "X",
         catalysts: "2 Wind Cluster, 2 Fire Cluster",
         special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Ephemeris",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Rhea Cloth",
+        mat3: "2 Palladium Nugget",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Ephemeris",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Zelkova Lumber",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Ephemeris",
+        mat1: "3 Palladium Ingot",
+        mat2: "2 Chromite Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     },
     {
         level: "70★★",

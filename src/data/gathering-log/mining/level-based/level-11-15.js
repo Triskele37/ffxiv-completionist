@@ -11,7 +11,6 @@ const tasks = [
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x27,y17)",
-        usage: "ARM, BSM, GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

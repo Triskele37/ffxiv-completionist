@@ -11,23 +11,27 @@ const tasks = [
         zone: "Lakeland",
         closestAetheryte: "Fort Jobb",
         coordinates: "(x27,y10)",
-        usage: "WVR, Collectable",
-        special: "Legendary (8AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+        nodeTimer: "Legendary (8AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
     }, {
         level: "80★★",
         name: "Duskblooms",
         zone: "Amh Araeng",
         closestAetheryte: "The Inn at Journey's Head",
         coordinates: "(x32,y33)",
-        usage: "WVR",
-        special: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+        nodeTimer: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
     }, {
         level: "80★★",
         name: "Imperial Fern",
         zone: "Kholusia",
         closestAetheryte: "Stilltide",
         coordinates: "(x28,y21)",
-        usage: "ALC",
-        special: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
+    }, {
+        level: "80★★",
+        name: "Tender Dill",
+        zone: "Kholusia",
+        closestAetheryte: "Stilltide",
+        coordinates: "(x28,y21)",
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
     },
 ];

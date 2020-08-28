@@ -425,4 +425,37 @@ const tasks = [
         catalysts: "7 Fire Crystal, 7 Water Crystal",
         special: "Housing (Tabletop)"
     },
+    {
+        level: "80",
+        name: "Takoyaki Boat",
+        mat1: "Upland Wheat Flour",
+        mat2: "Cyan Sea Devil",
+        mat3: "Secret Recipe Broth",
+        mat4: "Green Leek",
+        mat5: "Lorikeet Egg",
+        mat6: "Frantoio Oil",
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
+    },
+    {
+        level: "80",
+        name: "Giant Beaver Burger Set",
+        mat1: "2 Upland Wheat Flour",
+        mat2: "2 Ovim Meat",
+        mat3: "Russet Popoto",
+        mat4: "La Noscean Lettuce",
+        mat5: "Yak Milk",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
+    },
+    {
+        level: "80",
+        name: "Sliced Watermelon",
+        mat1: "Allagan Melon",
+        mat2: "2 Ala Mhigan Salt Crystal",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
+    },
 ];

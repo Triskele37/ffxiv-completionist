@@ -343,6 +343,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Factory Automatic Door",
+        mat1: "Weathering Agent",
+        mat2: "8 Dwarven Mythril Ingot",
+        mat3: "6 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
         name: "Bomb Cauldron",
         mat1: "7 Dwarven Mythril Ingot",
         mat2: "4 Growth Formula Kappa",
@@ -355,6 +366,17 @@ const tasks = [
     },
     {
         level: "80",
+        name: "Factory Bench",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "6 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
         name: "Oasis Wall Mounted Fountain",
         mat1: "3 Marble",
         mat2: "2 Hard Mustone Whetstone",
@@ -364,5 +386,27 @@ const tasks = [
         mat6: "X",
         catalysts: "7 Ice Crystal, 7 Earth Crystal",
         special: "Housing (Wall-mounted)"
+    },
+    {
+        level: "80",
+        name: "Factory Staircase",
+        mat1: "Weathering Agent",
+        mat2: "7 Dwarven Mythril Ingot",
+        mat3: "4 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Beam",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "4 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
 ];

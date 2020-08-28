@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Tao Khaal",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "8PM-12AM, Unlocked w/ Othard Folklore"
     }, {
         name: "Yat Khan",
         iLvl: "320",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Lower Yat Khaal",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "Any Time But 5AM and 7AM, Wind, Unlocked w/ Othard Folklore"
     }, {
         name: "Curefish",
         iLvl: "205",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Grymm & Enid",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Lake Sphairai",
         iLvl: "210",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "The Comet's Tail",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Warmscale Pleco",
         iLvl: "215",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "West Banepool",
         type: "Rivers",
         bait: "Stonefly Nymph",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Shirogane Clam",
         iLvl: "220",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Isari",
         type: "Coastlines",
         bait: "Live Shrimp",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Illuminati Mask",
         iLvl: "225",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Weston Waters",
         type: "Lakes",
         bait: "Purse Web Spider",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Indigo Prismfish",
         iLvl: "320",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Prism Lake",
         type: "Lakes",
         bait: "Violet Prismfish",
-        usage: "N/A",
-        special: "Mooch, 12-5AM, Clear/Fair or Cloudy, Unlocked w/ Othard Folklore"
     }, {
         name: "Green Prismfish",
         iLvl: "320",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Prism Lake",
         type: "Lakes",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "12-2AM, 3AM, 9AM-3PM, Fair/Clear, Unlocked w/ Othard Folklore"
     }, {
         name: "Watcher Catfish",
         iLvl: "340",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Rhalgr's Reach",
         type: "Lakes",
         bait: "Gyr Abanian Trout",
-        usage: "N/A",
-        special: "Mooch, 3AM, 5AM, 9-11AM, 1PM, 6PM, 8PM, 10PM-1AM, Thunder, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Bloodtail Zombie",
         iLvl: "340",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "The Outer Fist",
         type: "Lakes",
         bait: "Balloon Frog",
-        usage: "N/A",
-        special: "Mooch, 8AM-12PM, Cloudy, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Hardhead Trout",
         iLvl: "340",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Timmon Beck",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "4-8PM, Fair/Cloudy/Fog, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Downstream Loach",
         iLvl: "340",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "The Velodyna River",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "12AM, 3AM, 9AM-1PM, 2PM, Fog, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Corpse Chub",
         iLvl: "340",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Mirage Creek",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "8PM-12AM, Clear, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "The Last Tear",
         iLvl: "340",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Heather Falls",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Hemon",
         iLvl: "340",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "The Bull's Bath",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "5-8PM, Clouds, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Moksha",
         iLvl: "340",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The Ephor",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "7PM, Clear, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "Princess Killifish",
         iLvl: "340",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "The Silver Canal",
         type: "Rivers",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "4-6AM, Clear, Unlocked w/ Othard Folklore"
     }, {
         name: "Ku'er",
         iLvl: "340",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "The Ruby Price",
         type: "Deep Sea",
         bait: "Blue Bobbit",
-        usage: "N/A",
-        special: "12AM, 2-6AM, 7AM, Thunder/Clouds, Unlocked w/ Othard Folklore"
     }, {
         name: "Argonautica",
         iLvl: "340",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Onokoro",
         type: "Deep Sea",
         bait: "Ruby Shrimp",
-        usage: "N/A",
-        special: "Mooch, 12AM, 2-5AM, 8AM, 4PM, 10PM, Wind, Unlocked w/ Othard Folklore"
     }, {
         name: "Hagoromo Bijin",
         iLvl: "340",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "The One River (West)",
         type: "Rivers",
         bait: "Stonefly Larva",
-        usage: "N/A",
-        special: "3AM, 9AM-4PM, 6PM, 8PM, Clear/Fair, Unlocked w/ Othard Folklore"
     }, {
         name: "Duskfish",
         iLvl: "340",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Azim Khaat",
         type: "Lakes",
         bait: "Zaghas Khaal",
-        usage: "N/A",
-        special: "Mooch, Unlocked w/ Othard Folklore"
     }, {
         name: "Blade Skipper",
         iLvl: "340",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Upper Yat Khaal",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "Unlocked w/ Othard Folklore"
     }, {
         name: "Lily of the Veil",
         iLvl: "340",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "The Arms of Meed",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "12AM-4PM, Fair, Unlocked w/ Gyr Abania Folklore"
     }, {
         name: "The Vegetarian",
         iLvl: "340",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "Hell's Lid",
         type: "Deep Sea",
         bait: "Ruby Shrimp",
-        usage: "N/A",
-        special: "Mooch, 8PM-12AM, Thunder, Unlocked w/ Othard Folklore"
     },
 ];

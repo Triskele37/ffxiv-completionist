@@ -11,23 +11,20 @@ const tasks = [
         zone: "The Dravanian Hinterlands",
         closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
         coordinates: "(x39,y26)",
-        usage: "CUL, Collectable",
-        special: "Legendary (10AM/PM), Unlocked w/ Botanical Folklore- Dravania"
+        nodeTimer: "Legendary (10AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     }, {
         level: "60★",
         name: "Seventh Heaven",
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
         coordinates: "(x17,y36)",
-        usage: "ALC, GSM, Collectable",
-        special: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore- Dravania"
+        nodeTimer: "Legendary (4AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     }, {
         level: "60★★★",
         name: "Noble Sage",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
         coordinates: "(x33,y30)",
-        usage: "ALC",
-        special: "Legendary (6AM/PM), Unlocked w/ Botanical Folklore- Dravania"
+        nodeTimer: "Legendary (6AM/PM), Unlocked w/ Botanical Folklore- Dravania"
     },
 ];

@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Cherubfish",
         iLvl: "275",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Dusk Herald",
         iLvl: "275",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Glaring Perch",
         iLvl: "275",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Eastern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Abalathian Pipira",
         iLvl: "275",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Lock Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Steel Loach",
         iLvl: "275",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Loch Seld Central Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Ivory Sole",
         iLvl: "275",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Motley Beakfish",
         iLvl: "290",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Cooking",
-        special: "N/A",
     }, {
         name: "Thousandfang",
         iLvl: "290",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Ichthyosaur",
         iLvl: "290",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "The Sunken Jink",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Sailfin",
         iLvl: "290",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "The Dragon's Struggle",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Fangshi",
         iLvl: "290",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Flamefish",
         iLvl: "290",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Western Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Provisioning",
-        special: "N/A",
     }, {
         name: "Fickle Krait",
         iLvl: "290",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Azim Khaat Eastern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Eternal Eye",
         iLvl: "275",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Soul of the Stallion",
         iLvl: "290",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Small",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Flood Tuna",
         iLvl: "290",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Mercenary Crab",
         iLvl: "290",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Loch Seld Central Lakebed",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Ashfish",
         iLvl: "290",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Loch Seld Southeastern Lakebed",
         type: "Spearfishing",
         bait: "Small",
-        usage: "N/A",
-        special: "N/A",
     }, {
         name: "Silken Sunfish",
         iLvl: "275",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Mosasaur",
         iLvl: "290",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Collectable",
-        special: "N/A",
     }, {
         name: "Tiny Tatsunoko",
         iLvl: "70",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Large",
-        usage: "Minion",
-        special: "N/A",
     }, {
         name: "Ichimonji",
         iLvl: "300",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "The Kobayashi Maru",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "2AM-12PM",
     }, {
         name: "Snailfish",
         iLvl: "300",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Unspoiled Teeming Waters",
         type: "Spearfishing",
         bait: "Normal",
-        usage: "Alchemy",
-        special: "2AM-12PM",
     }, {
         name: "Grey Carp",
         iLvl: "390",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The Isle of Ken",
         type: "Spearfishing",
         bait: "Large",
-        usage: "N/A",
-        special: "N/A",
     },
 ];

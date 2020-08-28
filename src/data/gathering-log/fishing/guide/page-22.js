@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Rhalgr's Reach",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Death Loach",
         iLvl: "215",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Grymm & Enid",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Grymm Crab",
         iLvl: "215",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Grymm & Enid",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Invisible Crayfish",
         iLvl: "215",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "The Slow Wash",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Abalathian Salamander",
         iLvl: "215",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Heather Falls",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Cave Killifish",
         iLvl: "215",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Dimwold",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Rhalgr's Bolt",
         iLvl: "215",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Mirage Creek",
         type: "Rivers",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Butterfly Fish",
         iLvl: "215",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Shoal Rock",
         type: "Deep Sea",
         bait: "Live Shrimp",
-        usage: "Collectable",
-        special: "N/A"
     }, {
         name: "Dafu",
         iLvl: "215",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "The Isle of Bekko",
         type: "Deep Sea",
         bait: "Ruby Shrimp",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Leaf Tatsunoko",
         iLvl: "215",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Onokoro",
         type: "Deep Sea",
         bait: "Live Shrimp",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Glass Flounder",
         iLvl: "215",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Onokoro",
         type: "Deep Sea",
         bait: "Ruby Shrimp",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Gliding Fish",
         iLvl: "215",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "Isari",
         type: "Coastlines",
         bait: "Live Shrimp",
-        usage: "Provisioning",
-        special: "N/A"
     }, {
         name: "Globefish",
         iLvl: "215",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Isari",
         type: "Coastlines",
         bait: "Live Shrimp",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Fan Clam",
         iLvl: "215",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Isari",
         type: "Coastlines",
         bait: "Live Shrimp",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Striped Fugu",
         iLvl: "215",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "Shirogane",
         type: "Deep Sea",
         bait: "Live Shrimp",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Ruby Meagre",
         iLvl: "220",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Isari",
         type: "Coastlines",
         bait: "Live Shrimp",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "River Barramundi",
         iLvl: "220",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The Heron's Way",
         type: "Rivers",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Nogoi",
         iLvl: "220",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Namai",
         type: "Lakes",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Pagan Pirarucu",
         iLvl: "220",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Rhalgr's Reach",
         type: "Lakes",
         bait: "Pot of Salmon Roe",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Enid Shrimp",
         iLvl: "220",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Grymm & Enid",
         type: "Lakes",
         bait: "Suspending Minnow",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Black Velodyna Carp",
         iLvl: "220",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "The Velodyna River",
         type: "Rivers",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Yanxian Koi",
         iLvl: "220",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "The One River (East)",
         type: "Rivers",
         bait: "Nightcrawler",
-        usage: "Collectable, Provisioning",
-        special: "N/A"
     }, {
         name: "Longhair Catfish",
         iLvl: "220",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "The One River (East)",
         type: "Rivers",
         bait: "Suspending Minnow",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Doman Trout",
         iLvl: "220",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "The Heron's Way",
         type: "Rivers",
         bait: "Midge Larva",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Yanxian Barramundi",
         iLvl: "225",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The One River (East)",
         type: "Rivers",
         bait: "Nightcrawler",
-        usage: "N/A",
-        special: "N/A"
     },
 ];

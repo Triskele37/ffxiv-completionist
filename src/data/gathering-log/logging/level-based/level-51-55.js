@@ -11,39 +11,34 @@ const tasks = [
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
         coordinates: "(x24,y6)",
-        usage: "CUL, Collectable",
-        special: "Unspoiled (12AM/PM)"
+        nodeTimer: "Unspoiled (12AM/PM)"
     }, {
         level: "54",
         name: "Dark Chestnut Log",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
         coordinates: "(x25,y25)",
-        usage: "CRP, LTW, FC Crafting, Provisioning",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "54",
         name: "Dravanian Mistletoe",
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
         coordinates: "(x24,y6)",
-        usage: "ALC, Collectable",
-        special: "Buyable, Unspoiled (12AM/PM)"
+        nodeTimer: "Buyable, Unspoiled (12AM/PM)"
     }, {
         level: "55",
         name: "Dark Chestnut",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
         coordinates: "(x25,y25)",
-        usage: "CUL",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "55",
         name: "Dark Chestnut Branch",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
         coordinates: "(x25,y25)",
-        usage: "ALC, BSM, CRP, Provisioning",
-        special: ""
+        nodeTimer: ""
     },
 ];

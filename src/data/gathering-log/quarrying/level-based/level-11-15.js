@@ -11,47 +11,41 @@ const tasks = [
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x14,y23)",
-        usage: "ALC, CRP",
-        special: ""
+        nodeTimer: ""
     }, {
         level: "11",
         name: "Copper Sand",
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x24,y18)",
-        usage: "ALC, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "12",
         name: "Rock Salt",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x14,y23)",
-        usage: "ALC, CUL, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "13",
         name: "Ragstone",
         zone: "Central Thanalan",
         closestAetheryte: "Black Brush Station",
         coordinates: "(x14,y23)",
-        usage: "CRP, CUL, GSM, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "14",
         name: "Iron Sand",
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x24,y18)",
-        usage: "ALC, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     }, {
         level: "15",
         name: "Cinnabar",
         zone: "Western Thanalan",
         closestAetheryte: "Horizon",
         coordinates: "(x24,y18)",
-        usage: "ALC, Provisioning",
-        special: "Buyable"
+        nodeTimer: ""
     },
 ];

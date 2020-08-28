@@ -11,15 +11,13 @@ const tasks = [
         zone: "Coerthas Western Highlands",
         closestAetheryte: "Falcon's Nest",
         coordinates: "(x11,y21)",
-        usage: "GSM, Collectable",
-        special: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Coerthas"
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Coerthas"
     }, {
         level: "60★",
         name: "Astral Moraine",
         zone: "Coerthas Western Highlands",
         closestAetheryte: "Falcon's Nest",
         coordinates: "(x37,y16)",
-        usage: "ALC, CRP, Collectable",
-        special: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Coerthas"
+        nodeTimer: "Legendary (12AM/PM), Unlocked w/ Geological Folklore - Coerthas"
     },
 ];

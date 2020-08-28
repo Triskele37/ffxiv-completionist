@@ -18,17 +18,6 @@ const tasks = [
     	special: "Unlocked with Master Blacksmith VIII"
     }, {
     	level: "80★★★",
-    	name: "Rank VIII Artisan's Fragile Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Fire Crystal, 2 Earth Crystal",
-    	special: "Unlocked with Master Blacksmith VIII"
-    }, {
-    	level: "80★★★",
     	name: "Neo-Ishgardian Sword",
     	mat1: "2 Cobalt Ingot",
     	mat2: "Dwarven Mythril Ingot",
@@ -137,16 +126,170 @@ const tasks = [
     	mat6: "X",
     	catalysts: "2 Fire Cluster, 2 Earth Cluster",
     	special: "Unlocked with Master Blacksmith VIII"
-    }, {
-    	level: "80★★★",
-    	name: "Rank VIII Artisan's Durable Practice Materials",
-    	mat1: "Apprentice's Practice Materials",
-    	mat2: "X",
-    	mat3: "X",
-    	mat4: "X",
-    	mat5: "X",
-    	mat6: "X",
-    	catalysts: "2 Fire Crystal, 2 Earth Crystal",
-    	special: "Unlocked with Master Blacksmith VIII"
     },
+	{
+		level: "80★★★",
+		name: "Aesthete's Saw",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Megalania Leather",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Claw-Hammer",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Cross-pein Hammer",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's File",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Raising Hammer",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Pliers",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Mallet",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Round Knife",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Megalania Leather",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Awl",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Megalania Leather",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Mortar",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Culinary Knife",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Pickaxe",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Purpure Bead",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Sledgehammer",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Hatchet",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
+	{
+		level: "80★★★",
+		name: "Aesthete's Scythe",
+		mat1: "3 Brashgold Plate",
+		mat2: "5 Cobalt Alloy Ingot",
+		mat3: "2 Merbau Lumber",
+		mat4: "3 Slithersand",
+		mat5: "X",
+		mat6: "X",
+		catalysts: "2 Fire Cluster, 2 Earth Cluster"
+	},
 ];

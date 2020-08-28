@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "Oakwood",
         type: "Lakes",
         bait: "Crow Fly",
-        usage: "Quest, Cooking",
-        special: "N/A"
     }, {
         name: "Glass Perch",
         iLvl: "24",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "Woad Whisper Canyon",
         type: "Rivers",
         bait: "Butterworm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Four-eyed Fish",
         iLvl: "24",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Fool Falls",
         type: "Rivers",
         bait: "Butterworm",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Saber Sardine",
         iLvl: "24",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Crescent Cove",
         type: "Deep Sea",
         bait: "Floating Minnow",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Black Eel",
         iLvl: "25",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Upper Hathoeva River",
         type: "Rivers",
         bait: "Bass Ball",
-        usage: "Leve, Cooking",
-        special: "N/A"
     }, {
         name: "Dark Bass",
         iLvl: "25",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Lower Soot Creek",
         type: "Lakes",
         bait: "Crow Fly",
-        usage: "Leve, Cooking",
-        special: "N/A"
     }, {
         name: "Blue Coral",
         iLvl: "25",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "South Bloodshore",
         type: "Deep Sea",
         bait: "Shrimp Cage Feeder",
-        usage: "Leatherworking",
-        special: "N/A"
     }, {
         name: "Ogre Barracuda",
         iLvl: "25",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Summerford",
         type: "Deep Sea",
         bait: "Harbor Herring",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Aegis Shrimp",
         iLvl: "26",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Lower Soot Creek",
         type: "Lakes",
         bait: "Bass Ball",
-        usage: "Provisioning",
-        special: "N/A"
     }, {
         name: "Five-ilm Pleco",
         iLvl: "26",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Goblinblood",
         type: "Lakes",
         bait: "Bass Ball",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Monkfish",
         iLvl: "26",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "Crescent Cove",
         type: "Deep Sea",
         bait: "Heavy Steel Jig",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Sea Bo",
         iLvl: "26",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "The Salt Strand",
         type: "Coastlines",
         bait: "Krill Cage Feeder",
-        usage: "Provisioning",
-        special: "N/A"
     }, {
         name: "Climbing Perch",
         iLvl: "27",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "Lower Hathoeva River",
         type: "Lakes",
         bait: "Bass Ball",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Shadow Catfish",
         iLvl: "27",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "Fallgourd Float",
         type: "Lakes",
         bait: "Ala Mhigan Fighting Fish",
-        usage: "Quest",
-        special: "Mooch"
     }, {
         name: "Bianaq Bream",
         iLvl: "27",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "South Bloodshore",
         type: "Deep Sea",
         bait: "Steel Jig",
-        usage: "Cooking",
-        special: "N/A"
     }, {
         name: "Black Ghost",
         iLvl: "28",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Goblinblood",
         type: "Lakes",
         bait: "Ala Mhigan Fighting Fish",
-        usage: "Levequest",
-        special: "Mooch"
     }, {
         name: "Black Sole",
         iLvl: "28",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "The Salt Strand",
         type: "Coastlines",
         bait: "Shrimp Cage Feeder",
-        usage: "Leve, Cooking",
-        special: "N/A"
     }, {
         name: "Lamprey",
         iLvl: "29",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Burnt Lizard Creek",
         type: "Rivers",
         bait: "Copperfish",
-        usage: "Cooking, Provisioning (29)",
-        special: "Mooch"
     }, {
         name: "Plaguefish",
         iLvl: "29",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "Burnt Lizard Creek",
         type: "Rivers",
         bait: "Bass Ball",
-        usage: "Provisioning",
-        special: "N/A"
     }, {
         name: "Hammerhead Shark",
         iLvl: "29",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "The Silver Bazaar",
         type: "Deep Sea",
         bait: "Steel Jig",
-        usage: "Alchemy",
-        special: "N/A"
     }, {
         name: "Yugr'am Salmon",
         iLvl: "28",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Lower Hathoeva River",
         type: "Rivers",
         bait: "Bass Ball",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Sea Pickle",
         iLvl: "30",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "North Bloodshore",
         type: "Coastlines",
         bait: "Spoon Worm",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Spotted Pleco",
         iLvl: "30",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Verdant Drop",
         type: "Lakes",
         bait: "Bass Ball",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Lamp Marimo",
         iLvl: "31",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "Blind Iron Mines",
         type: "Lakes",
         bait: "Spinnerbait",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Indigo Herring",
         iLvl: "31",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "The Silver Bazaar",
         type: "Coastlines",
         bait: "Krill Cage Feeder",
-        usage: "Leve, Cooking",
-        special: "N/A"
     },
 ];

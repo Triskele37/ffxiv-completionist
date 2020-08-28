@@ -2,6 +2,7 @@ import { DataGroup } from "../DataGroup";
 
 import { Collectables_Aesthetician } from "./aesthetician";
 import { Collectables_Barding } from "./barding";
+import { Collectables_Collection } from "./collection";
 import { Collectables_Emotes } from "./emote";
 import { Collectables_Fashion_Accessories } from "./fashion-accessories";
 import { Collectables_Minion_Guide } from "./minion";
@@ -15,6 +16,7 @@ export const Collectables = function(parent) {
 	return new DataGroup("Collectables", parent).initializeSubGroups([
         Collectables_Aesthetician,
         Collectables_Barding,
+        Collectables_Collection,
         Collectables_Emotes,
         Collectables_Fashion_Accessories,
         Collectables_Minion_Guide,

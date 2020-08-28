@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "The Flagship",
         type: "Aetherfishing",
         bait: "Fiend Worm",
-        usage: "N/A",
-        special: "Thunder"
     }, {
         name: "Jeweled Jellyfish",
         iLvl: "148",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "The Flagship",
         type: "Aetherfishing",
         bait: "Fiend Worm",
-        usage: "N/A",
-        special: "8PM-3AM, Thunder/Fair/Clouds, Fish Eyes"
     }, {
         name: "Battle Galley",
         iLvl: "148",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Ashpool",
         type: "Rivers",
         bait: "Abalathian Smelt",
-        usage: "Provisioning (59)",
-        special: "Mooch"
     }, {
         name: "Yalm Lobster",
         iLvl: "148",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Upper Thaliak River",
         type: "Lakes",
         bait: "Bladed Steel Jig",
-        usage: "Levequest",
-        special: "N/A"
     }, {
         name: "Hinterlands Perch",
         iLvl: "150",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Thaliak River",
         type: "Lakes",
         bait: "Goblin Jig",
-        usage: "Provisioning (60)",
-        special: "N/A"
     }, {
         name: "Oven Catish",
         iLvl: "148",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Mourn",
         type: "Hellfishing",
         bait: "Granite Crab",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Pteranodon",
         iLvl: "145",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Sohm Al Summit",
         type: "Cloudfishing",
         bait: "Sky Faerie",
-        usage: "N/A",
-        special: "Mooch, 9AM-5PM"
     }, {
         name: "Winged Gurnard",
         iLvl: "148",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "The Blue Window",
         type: "Cloudfishing",
         bait: "Sky Faerie",
-        usage: "Provisioning (59)",
-        special: "Mooch"
     }, {
         name: "Spring Urchin",
         iLvl: "180",
@@ -84,8 +68,6 @@ const tasks = [
         fishingHoles: "Dragonspit",
         type: "Lakes",
         bait: "Bladed Steel Jig",
-        usage: "Cooking",
-        special: "Fish Eyes, Unlocked w/ Coerthas Folklore"
     }, {
         name: "Cherry Trout",
         iLvl: "148",
@@ -93,8 +75,6 @@ const tasks = [
         fishingHoles: "Dragonspit",
         type: "Lakes",
         bait: "Bladed Steel Jig",
-        usage: "N/A",
-        special: "N/A"
     }, {
         name: "Stupendemys",
         iLvl: "180",
@@ -102,8 +82,6 @@ const tasks = [
         fishingHoles: "The Habisphere",
         type: "Cloudfishing",
         bait: "Rudderfish",
-        usage: "Collectable",
-        special: "Mooch, Fair/Clouds/Thunder, Unlocked w/ Abalathian Folklore"
     }, {
         name: "Black Magefish",
         iLvl: "150",
@@ -111,8 +89,6 @@ const tasks = [
         fishingHoles: "West Mourn",
         type: "Hellfishing",
         bait: "Granite Crab",
-        usage: "N/A",
-        special: "Mooch, Fish Eyes"
     }, {
         name: "Barreleye",
         iLvl: "180",
@@ -120,8 +96,6 @@ const tasks = [
         fishingHoles: "The Flagship",
         type: "Aetherfishing",
         bait: "Platinum Fish",
-        usage: "N/A",
-        special: "Mooch, Thunder, Unlocked w/ Abalathia's Spine Folklore"
     }, {
         name: "Thunderbolt Eel",
         iLvl: "150",
@@ -129,8 +103,6 @@ const tasks = [
         fishingHoles: "The Iron Feast",
         type: "Rivers",
         bait: "Bladed Steel Jig",
-        usage: "Collectable, Trade",
-        special: "10PM-4AM"
     }, {
         name: "Catkiller",
         iLvl: "150",
@@ -138,8 +110,6 @@ const tasks = [
         fishingHoles: "The Eddies",
         type: "Lakes",
         bait: "Bullfrog",
-        usage: "Quest",
-        special: "Mooch"
     }, {
         name: "Loosetongue",
         iLvl: "180",
@@ -147,8 +117,6 @@ const tasks = [
         fishingHoles: "Upper Thaliak River",
         type: "Lakes",
         bait: "Sweetfish",
-        usage: "Collectable",
-        special: "Mooch, 1PM-8PM, Clear/Fair, Unlocked w/ Dravanian Folklore"
     }, {
         name: "Thaliak Caiman",
         iLvl: "150",
@@ -156,8 +124,6 @@ const tasks = [
         fishingHoles: "Middle Thaliak River",
         type: "Rivers",
         bait: "Bullfrog",
-        usage: "N/A",
-        special: "Mooch, 3PM-6PM"
     }, {
         name: "Lavalord",
         iLvl: "180",
@@ -165,8 +131,6 @@ const tasks = [
         fishingHoles: "Halo",
         type: "Hellfishing",
         bait: "Granite Crab",
-        usage: "N/A",
-        special: "Mooch, 10AM-5PM, Clear/Fair, Fish Eyes, Unlocked w/ Dravanian Folklore"
     }, {
         name: "Tupuxuara",
         iLvl: "150",
@@ -174,8 +138,6 @@ const tasks = [
         fishingHoles: "The Habisphere",
         type: "Cloudfishing",
         bait: "Red Balloon",
-        usage: "N/A",
-        special: "3PM-6PM, Fair/Clouds/Thunder"
     }, {
         name: "Vampiric Tapestry",
         iLvl: "150",
@@ -183,8 +145,6 @@ const tasks = [
         fishingHoles: "Mok Oogl Island",
         type: "Cloudfishing",
         bait: "Sky Faerie",
-        usage: "Provisioning (60)",
-        special: "Mooch, Clear/Fair"
     }, {
         name: "Storm Chaser",
         iLvl: "180",
@@ -192,8 +152,6 @@ const tasks = [
         fishingHoles: "Tharl Oom Khash",
         type: "Cloudfishing",
         bait: "Rudderfish",
-        usage: "N/A",
-        special: "Mooch"
     }, {
         name: "Berserker Betta",
         iLvl: "180",
@@ -201,8 +159,6 @@ const tasks = [
         fishingHoles: "Middle Thaliak River",
         type: "Rivers",
         bait: "Bullfrog",
-        usage: "N/A",
-        special: "Mooch, Clear/Fair, Unlocked w/ Dravanian Folklore"
     }, {
         name: "Capelin",
         iLvl: "180",
@@ -210,8 +166,6 @@ const tasks = [
         fishingHoles: "Clearpool",
         type: "Lakes",
         bait: "Purse Web Spider",
-        usage: "Collectable",
-        special: "12AM-6AM, Fish Eyes, Unlocked w/ Coerthas Folklore"
     }, {
         name: "Functional Proto-Hropken",
         iLvl: "180",
@@ -219,8 +173,6 @@ const tasks = [
         fishingHoles: "The Flagship",
         type: "Aetherfishing",
         bait: "Platinum Fish",
-        usage: "N/A",
-        special: "Mooch, Thunder, Fish Eyes, Unlocked w/ Abalathia's Spine Folklore"
     }, {
         name: "Coerthan Clione",
         iLvl: "180",
@@ -228,7 +180,5 @@ const tasks = [
         fishingHoles: "Unfrozen Pond",
         type: "Lakes",
         bait: "Ice Faerie",
-        usage: "N/A",
-        special: "Mooch, Blizzard, Unlock w/ Coerthas Folklore"
     },
 ];

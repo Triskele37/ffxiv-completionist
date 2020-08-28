@@ -12,8 +12,6 @@ const tasks = [
         fishingHoles: "The Southern Strait of Merlthor",
         type: "Coastlines",
         bait: "Krill",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Spectral Sea Bo",
         iLvl: "1",
@@ -21,8 +19,6 @@ const tasks = [
         fishingHoles: "The Northern Strait of Merlthor",
         type: "Coastlines",
         bait: "Ragworm",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Spectral Bass",
         iLvl: "1",
@@ -30,8 +26,6 @@ const tasks = [
         fishingHoles: "Open Rhotano Sea",
         type: "Coastlines",
         bait: "Plump Worm",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Sothis",
         iLvl: "1",
@@ -39,8 +33,6 @@ const tasks = [
         fishingHoles: "Galadion Spectral Current",
         type: "Coastlines",
         bait: "Glowworm",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Coral Manta",
         iLvl: "1",
@@ -48,8 +40,6 @@ const tasks = [
         fishingHoles: "Southern Merlthor Spectral Current",
         type: "Coastlines",
         bait: "Shrimp Cage Feeder",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Stonescale",
         iLvl: "1",
@@ -57,8 +47,6 @@ const tasks = [
         fishingHoles: "Rhotano Spectral Current",
         type: "Coastlines",
         bait: "???",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Elasmosaurus",
         iLvl: "1",
@@ -66,8 +54,6 @@ const tasks = [
         fishingHoles: "Northern Merlthor Spectral Current",
         type: "Coastlines",
         bait: "???",
-        usage: "N/A",
-        special: "Ocean Fishing"
     }, {
         name: "Thinker's Coral",
         iLvl: "430",
@@ -75,8 +61,6 @@ const tasks = [
         fishingHoles: "Thaliak River",
         type: "Rivers",
         bait: "Signature Skyball",
-        usage: "Skysteel Fishing Rod +1",
-        special: "N/A"
     }, {
         name: "Dragonspine",
         iLvl: "430",
@@ -84,7 +68,125 @@ const tasks = [
         fishingHoles: "Dragonspit",
         type: "Rivers",
         bait: "Signature Skyball",
-        usage: "Dragonsung Fishing Rod",
-        special: "N/A"
+    },
+    {
+        name: "Blue Crab",
+        iLvl: "460",
+        primeLocation: "Kholusia",
+        fishingHoles: "The Western Kholusian Coast",
+        type: "Coastlines",
+        bait: "Squid Strip",
+    },
+    {
+        name: "Fuchsia Bloom",
+        iLvl: "460",
+        primeLocation: "Il Mheg",
+        fishingHoles: "Longmirror Lake",
+        type: "Coastlines",
+        bait: "Robber Ball",
+    },
+    {
+        name: "The Sinsteeped",
+        iLvl: "460",
+        primeLocation: "The Crystarium",
+        fishingHoles: "The Quadrivium",
+        type: "Deep Sea",
+        bait: "Fruit Worm",
+    },
+    {
+        name: "Sweetheart",
+        iLvl: "460",
+        primeLocation: "Lakeland",
+        fishingHoles: "The Rift of Sighs",
+        type: "Deep Sea",
+        bait: "Box of Baitbugs",
+    },
+    {
+        name: "Giant Taimen",
+        iLvl: "460",
+        primeLocation: "Kholusia",
+        fishingHoles: "Upper Watts River",
+        type: "Deep Sea",
+        bait: "Box of Baitbugs",
+    },
+    {
+        name: "Leannisg",
+        iLvl: "460",
+        primeLocation: "Il Mheg",
+        fishingHoles: "Handmirror Lake",
+        type: "Deep Sea",
+        bait: "???",
+    },
+    {
+        name: "Gold Hammer",
+        iLvl: "460",
+        primeLocation: "Il Mheg",
+        fishingHoles: "Saint Fathric's Temple",
+        type: "Deep Sea",
+        bait: "Box of Baitbugs",
+    },
+    {
+        name: "Recordkiller",
+        iLvl: "460",
+        primeLocation: "The Rak'tika Greatwood",
+        fishingHoles: "South Mjrl's Regret",
+        type: "Deep Sea",
+        bait: "Box of Baitbugs",
+    },
+    {
+        name: "The Mother of All Pancakes",
+        iLvl: "460",
+        primeLocation: "The Tempest",
+        fishingHoles: "East Caliban Gap",
+        type: "Deep Sea",
+        bait: "???",
+    },
+    {
+        name: "Opal Shrimp",
+        iLvl: "460",
+        primeLocation: "The Tempest",
+        fishingHoles: "The Norvrandt Slope",
+        type: "Deep Sea",
+        bait: "Squid Strip",
+    },
+    {
+        name: "Hoplite",
+        iLvl: "345",
+        primeLocation: "The Dravanian Forelands",
+        fishingHoles: "Anyx Old",
+        type: "Coastlines",
+        bait: "Metal Spinner",
+    },
+    {
+        name: "Hook Fish",
+        iLvl: "350",
+        primeLocation: "The Ruby Sea",
+        fishingHoles: "Onokoro",
+        type: "Coastlines",
+        bait: "Metal Spinner",
+    },
+    {
+        name: "Cloudweed",
+        iLvl: "355",
+        primeLocation: "The Sea of Clouds",
+        fishingHoles: "The Blue Window",
+        type: "Coastlines",
+        bait: "Metal Spinner",
+    },
+    {
+        name: "Fatty Herring",
+        iLvl: "370",
+        primeLocation: "The Ruby Sea",
+        fishingHoles: "The Isle of Bekko",
+        type: "Coastlines",
+        bait: "Metal Spinner",
+    },
+    {
+        name: "Inkshell",
+        iLvl: "380",
+        primeLocation: "The Dravanian Hinterlands",
+        fishingHoles: "Middle Thaliak River",
+        type: "Coastlines",
+        bait: "Metal Spinner",
     },
 ];

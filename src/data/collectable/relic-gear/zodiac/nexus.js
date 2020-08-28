@@ -36,13 +36,7 @@ const tasks = [
 		iLvl: "115",
     },
     {
-        name: "Curtana Nexus",
-        job: "Paladin",
-		slot: "Weapon",
-		iLvl: "115",
-    },
-    {
-        name: "Holy Shield Nexus",
+        name: "Curtana Nexus & Holy Shield Nexus",
         job: "Paladin",
 		slot: "Weapon",
 		iLvl: "115",
