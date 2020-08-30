@@ -7,7 +7,7 @@ export const FATEs_Abalathias_Spine_The_Sea_of_Clouds = function(parent) {
 const tasks = [
     {
         level: "50",
-        name: "Food Fight (FATE)",
+        name: "Food Fight",
         location: "Voor Sian Siran (28,32)",
         type: "Slay Enemies"
     }, {

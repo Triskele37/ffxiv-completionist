@@ -179,6 +179,6 @@ const tasks = [
         primeLocation: "Yanxia",
         fishingHoles: "Plum Spring",
         type: "Lakes",
-        bait: "Stone Larva",
+        bait: "Stonefly Larva",
     },
 ];

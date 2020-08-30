@@ -35,7 +35,7 @@ const tasks = [
         nodeTimer: ""
     }, {
         level: "70",
-        name: "Grade 2 Skybuilders' Rock ",
+        name: "Grade 2 Skybuilders' Rock",
         zone: "Diadem",
         closestTeleport: "The Foundation -> Firmament",
         coordinates: "Varies",

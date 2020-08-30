@@ -6,18 +6,6 @@ export const Crafting_Log_Alchemist_Level_Based_16_20 = function(parent) {
 
 const tasks = [
     {
-        level: "15",
-        name: "Ether",
-        mat1: "Distilled Water",
-        mat2: "Tinolqa Mistletoe",
-        mat3: "Imp Wing",
-        mat4: "X",
-        mat5: "X",
-        mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
-    },
-    {
         level: "16",
         name: "Hard Leather Grimoire",
         mat1: "Enchanted Iron Ink",

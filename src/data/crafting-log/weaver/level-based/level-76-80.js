@@ -91,7 +91,7 @@ const tasks = [
     },
     {
         level: "76",
-        name: "Ovim Wool Tunix of Casting",
+        name: "Ovim Wool Tunic of Casting",
         mat1: "2 Ovim Wool",
         mat2: "Titanbronze Nugget",
         mat3: "Zonure Leather",
@@ -403,7 +403,7 @@ const tasks = [
     },
     {
         level: "79",
-        name: "Dwarvem Cotton Gaskins of Scouting",
+        name: "Dwarven Cotton Gaskins of Scouting",
         mat1: "3 Dwarven Cotton  ",
         mat2: "Sea Swallow Leather",
         mat3: "Bright Linen Yarn",

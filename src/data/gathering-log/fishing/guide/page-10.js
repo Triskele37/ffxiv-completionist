@@ -170,7 +170,7 @@ const tasks = [
         name: "King of the Spring",
         iLvl: "80",
         primeLocation: "Upper La Noscea",
-        fishingHoles: "North Bronze Lake",
+        fishingHoles: "Northeast Bronze Lake",
         type: "Lakes",
         bait: "Spinnerbait",
     }, {

@@ -162,7 +162,7 @@ const tasks = [
         patch: "2.51",
     },
     {
-        name: "Karakuri Hanya Card ",
+        name: "Karakuri Hanya",
         rarity: "★",
         type: "None",
         opponent: "Hokushin",

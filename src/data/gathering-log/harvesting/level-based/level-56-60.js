@@ -9,7 +9,7 @@ const tasks = [
         level: "56",
         name: "Highland Oregano",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10,y14)",
         nodeTimer: "Ephemeral (12AM)"
     }, {
@@ -51,7 +51,7 @@ const tasks = [
         level: "58",
         name: "Furymint",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10,y14)",
         nodeTimer: "Ephemeral (12AM)"
     }, {
@@ -65,14 +65,14 @@ const tasks = [
         level: "58",
         name: "Ice Stalagmite",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x11,y15)",
         nodeTimer: ""
     }, {
         level: "58",
         name: "Rue",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x12,y14)",
         nodeTimer: ""
     }, {
@@ -86,7 +86,7 @@ const tasks = [
         level: "59",
         name: "Coriander",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x12,y14)",
         nodeTimer: ""
     }, {
@@ -100,14 +100,14 @@ const tasks = [
         level: "60",
         name: "Chysahl Greens",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x8,y9)",
         nodeTimer: "Unspoiled (8AM/PM)"
     }, {
         level: "60",
         name: "Clary Sage",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10,y14)",
         nodeTimer: "Ephemeral (12AM)"
     }, {
@@ -163,14 +163,14 @@ const tasks = [
         level: "60★",
         name: "Lover's Laurel",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x10,y14)",
         nodeTimer: "Ephemeral (12AM)"
     }, {
         level: "60★",
         name: "Whitefrost Cotton Boll",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x12,y14)",
         nodeTimer: ""
     }, {

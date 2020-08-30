@@ -144,7 +144,7 @@ const tasks = [
         mat2: "Gem Marimo",
         mat3: "Filtered Water",
         mat4: "Coneflower",
-        mat5: "Cow Bitter ",
+        mat5: "Cow Bitter",
         mat6: "X",
         catalysts: "6 Water Crystal, 5 Lightning Crystal",
         special: "X"

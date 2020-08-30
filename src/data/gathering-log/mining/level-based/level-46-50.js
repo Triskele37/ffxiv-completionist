@@ -39,14 +39,14 @@ const tasks = [
         zone: "Lakeland",
         closestAetheryte: "Fort Jobb",
         coordinates: "(x36,y14)",
-        nodeTimer: "Ephemeral Mineral Deposit (8AM)"
+        nodeTimer: "Ephemeral (8AM)"
     }, {
         level: "50",
         name: "Water Cluster",
         zone: "The Rak'tika Greatwood",
         closestAetheryte: "Slitherbough",
         coordinates: "(x25,y28)",
-        nodeTimer: "Ephemeral Mineral Deposit (12AM)"
+        nodeTimer: "Ephemeral (12AM)"
     }, {
         level: "50★",
         name: "Gold Ore",

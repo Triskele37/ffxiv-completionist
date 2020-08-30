@@ -23,7 +23,7 @@ const tasks = [
         level: "26",
         name: "Ice Crystal",
         zone: "Western La Noscea",
-        closestAetheryte: "Swiftperch  ",
+        closestAetheryte: "Swiftperch",
         coordinates: "(x31,y28)",
         nodeTimer: ""
     }, {

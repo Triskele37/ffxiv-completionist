@@ -23,7 +23,7 @@ const tasks = [
         name: "Bull's Bite",
         iLvl: "260",
         primeLocation: "The Peaks",
-        fishingHoles: "The Bull's Breath",
+        fishingHoles: "The Bull's Bath",
         type: "Lakes",
         bait: "Suspending Minnow",
     }, {

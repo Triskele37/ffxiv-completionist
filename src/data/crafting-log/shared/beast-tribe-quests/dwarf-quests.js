@@ -161,7 +161,7 @@ const tasks = [
     },
     {
         level: "70",
-        name: "Automaton Repair Component ",
+        name: "Automaton Repair Component",
         mat1: "Automaton Repair Component Materials",
         mat2: "X",
         catalysts: "Variable"

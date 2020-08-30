@@ -9,7 +9,7 @@ const tasks = [
         level: "20",
         name: "Skybuilders' Ingot",
         mat1: "6 Skybuilders' Fine Sand",
-        mat2: "Mudstone  ",
+        mat2: "Mudstone",
         mat3: "X",
         mat4: "X",
         mat5: "X",

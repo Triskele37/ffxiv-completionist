@@ -1,33 +1,41 @@
 export const GROUP_MAP = [
-    { groups: ['Quests', 'Levequests'], firstTask: 'A Long and Winding Road', extraCompare: LeveCompare },
-    { groups: ['Quests', 'Levequests'], firstTask: 'Waking Wood', extraCompare: LeveCompare },
-    { groups: ['Quests', 'Levequests'], firstTask: 'One for the Books', extraCompare: LeveCompare },
+    { groups: ['Achievements', 'Battle'], firstTask: 'To Crush Your Enemies I' },
+    { groups: ['Achievements', 'PvP'], firstTask: 'Cutting Your Wolf Loose: Maelstrom I' },
+    { groups: ['Achievements', 'Character'], firstTask: 'Mastering War I' },
+    { groups: ['Achievements', 'Items'], firstTask: 'My Body Is a Temple' },
+    { groups: ['Achievements', 'Crafting & Gathering'], firstTask: 'Crafting in the Air' },
+    { groups: ['Achievements', 'Quests'], firstTask: 'Serving a Greater Cause I' },
+    { groups: ['Achievements', 'Exploration'], firstTask: 'Out of Sight' },
+    { groups: ['Achievements', 'Grand Company'], firstTask: 'I Make This Look Good' },
+
     { groups: ['General Logs', 'Blue Mage', 'Spellbook'], firstTask: 'Water Cannon' },
-    { groups: ['General Logs', 'Blue Mage'], firstTask: '' }, //TODO: Blue Mage Logs?
+    { groups: ['General Logs', 'Blue Mage', 'Log'], firstTask: 'The Wanderer\'s Palace' },
     { groups: ['General Logs', 'Blue Mage', 'The Masked Carnivale'], firstTask: 'All\'s Well That Starts Well' },
-    { groups: ['General Logs', 'Hunting Log'], firstTask: 'Little Ladybug x3' },
+    { groups: ['General Logs', 'Hunting Log'], firstTask: 'Arcanist 01' },
     { groups: ['General Logs', 'Sightseeing Log'], firstTask: 'Barracuda Piers' },
+
+    { groups: ['Crafting Log', 'Master Crafting Books'], firstTask: 'Master Carpenter I' },
     { groups: ['Crafting Log', 'Carpenter'], firstTask: 'Maple Lumber' },
-    { groups: ['Crafting Log', 'Blacksmith'], firstTask: 'Bronze Ingot' }, //TODO:
-    { groups: ['Crafting Log', 'Armorer'], firstTask: 'Bronze Ingot' }, //TODO:
+    { groups: ['Crafting Log', 'Blacksmith'], secondTask: 'Bronze Hatchet' },
+    { groups: ['Crafting Log', 'Armorer'], secondTask: 'Bronze Rings' },
     { groups: ['Crafting Log', 'Goldsmith'], firstTask: 'Copper Ingot' },
     { groups: ['Crafting Log', 'Leatherworker'], firstTask: 'Leather' },
     { groups: ['Crafting Log', 'Weaver'], firstTask: 'Hempen Yarn' },
-    { groups: ['Crafting Log', 'Alchemist'], firstTask: 'Distilled Water' },
-    { groups: ['Crafting Log', 'Culinarian'], firstTask: 'Table Salt' },
+    { groups: ['Crafting Log', 'Alchemist'], secondTask: 'Quicksilver' },
+    { groups: ['Crafting Log', 'Culinarian'], secondTask: 'Maple Syrup' },
     { groups: ['Crafting Log', 'Shared'], firstTask: 'Magitek Repair Materials' },
+
+    { groups: ['Gathering Log', 'Folklore Gathering Books'], firstTask: 'Tome of Geological Folklore - Coerthas' },
     { groups: [['Gathering Log', 'Mining'], ['Gathering Log', 'Quarrying']], firstTask: 'Copper Ore' },
-    { groups: ['Gathering Log', 'Logging'], firstTask: 'Latex' }, //TODO: Harvesting?
+    { groups: [['Gathering Log', 'Logging'], ['Gathering Log', 'Harvesting']], firstTask: 'Latex' },
     { groups: [['Gathering Log', 'Fishing', 'Log'], ['Gathering Log', 'Spearfishing', 'Log']], firstTask: 'Limsa Lominsa Upper Decks' },
     { groups: [['Gathering Log', 'Fishing', 'Guide'], ['Gathering Log', 'Spearfishing', 'Guide']], firstTask: 'Malm Kelp' },
-    { groups: ['Collectables', 'Aesthetician'], firstTask: 'Adventure' },
-    { groups: ['Collectables', 'Emotes'], firstTask: 'Aback' },
-    { groups: ['Collectables', 'Minion Guide'], firstTask: 'Abroader Otter' },
-    { groups: [['Collectables', 'Barding'], ['Collectables', 'Mount Guide']], firstTask: 'Adamantoise' },
-    { groups: ['Collectables', 'Relic Gear'], firstTask: 'Artemis Bow' },
-    { groups: ['Collectables', 'Orchestrion List'], firstTask: 'Wailers and Waterwheels' },
-    { groups: ['Collectables', 'Triple Triad Card List'], firstTask: 'Ahriman Card', extraCompare: TripleTriadCardCompare },
-    { groups: ['Collectables', 'Triple Triad Card Opponent'], firstTask: 'Triple Triad Master' },
+
+    { groups: [['Duty', 'Guildhests'], ['Duty', 'Dungeons']], firstTask: 'Basic Training: Enemy Parties' },
+    { groups: ['Duty', 'Raids'], firstTask: 'The Binding Coil of Bahamut - Turn 1' },
+    { groups: ['Duty', 'Trials'], firstTask: 'The Bowl of Embers' },
+    { groups: ['Duty', 'The Hunt'], firstTask: 'Albin the Ashen' },
+
     { groups: ['Quests', 'Main Scenario', 'Seventh Umbral Era'], firstTask: 'Close to Home' },
     { groups: ['Quests', 'Main Scenario', 'Seventh Astral Era'], firstTask: 'The Price of Principles' },
     { groups: ['Quests', 'Main Scenario', 'Heavensward'], firstTask: 'Coming to Ishgard' },
@@ -36,6 +44,7 @@ export const GROUP_MAP = [
     { groups: ['Quests', 'Main Scenario', 'Post-Stormblood'], firstTask: 'Arenvald\'s Adventure' },
     { groups: ['Quests', 'Main Scenario', 'Shadowbringers'], firstTask: 'The Syrcus Trench' },
     { groups: ['Quests', 'Main Scenario', 'Post-Shadowbringers'], firstTask: 'Shaken Resolve' },
+
     { groups: ['Quests', 'Sidequests', 'Lominsan'], firstTask: 'Coming to Limsa Lominsa' },
     { groups: ['Quests', 'Sidequests', 'Gridanian'], firstTask: 'Coming to Gridania' },
     { groups: ['Quests', 'Sidequests', 'Ul\'Dahn'], firstTask: 'Coming to Ul\'dah' },
@@ -53,6 +62,7 @@ export const GROUP_MAP = [
     { groups: ['Quests', 'Sidequests', 'Il Mheg'], firstTask: 'A New Amano' },
     { groups: ['Quests', 'Sidequests', 'Rak\'Tika'], firstTask: 'An Express Delivery' },
     { groups: ['Quests', 'Sidequests', 'Tempest'], firstTask: 'Beware the Benthos' },
+
     { groups: [['Duty', 'Hall of the Novice'], ['Quests', 'Class & Job']], firstTask: 'Avoid Area of Effect Attacks' },
     { groups: ['Quests', 'Class & Job'], firstTask: 'A Song of Bards and Bowmen' },
     { groups: ['Quests', 'Class & Job', 'Role'], firstTask: 'The Man with Too Many Scars' },
@@ -61,33 +71,53 @@ export const GROUP_MAP = [
     { groups: ['Quests', 'Sidequests', 'Side Story'], firstTask: 'The Rise and Fall of Gentlemen' },
     { groups: ['Quests', 'Beast Tribe'], firstTask: 'Peace for Thanalan' },
     { groups: ['Quests', 'Other', 'Grand Company'], firstTask: 'A Pup No Longer (Maelstrom)' },
-    { groups: [['Duty', 'Guildhests'], ['Duty', 'Dungeons']], firstTask: 'Basic Training: Enemy Parties' },
-    { groups: ['Duty', 'Raids'], firstTask: 'The Binding Coil of Bahamut - Turn 1' },
-    { groups: ['Duty', 'Trials'], firstTask: 'The Bowl of Embers' },
-    { groups: ['Duty', 'The Hunt'], firstTask: 'Albin the Ashen' },
+
+    { groups: ['Quests', 'Levequests', 'Battlecraft'], firstTask: 'A Long and Winding Road', extraCompare: LeveCompare },
+    { groups: [
+        ['Quests', 'Levequests', 'Botany'],
+        ['Quests', 'Levequests', 'Fishing'],
+        ['Quests', 'Levequests', 'Mining']
+    ], firstTask: 'Waking Wood', extraCompare: LeveCompare },
+    { groups: [
+        ['Quests', 'Levequests', 'Carpentry'],
+        ['Quests', 'Levequests', 'Blacksmithing'],
+        ['Quests', 'Levequests', 'Armoring'],
+        ['Quests', 'Levequests', 'Goldsmithing'],
+        ['Quests', 'Levequests', 'Leatherworking'],
+        ['Quests', 'Levequests', 'Clothcrafting'],
+        ['Quests', 'Levequests', 'Alchemy'],
+        ['Quests', 'Levequests', 'Cooking'],
+    ], firstTask: 'One for the Books', extraCompare: LeveCompare },
+
+    { groups: ['Collectables', 'Aesthetician'], firstTask: 'Adventure' },
+    { groups: ['Collectables', 'Collection'], firstTask: 'Jibanyan' },
+    { groups: ['Collectables', 'Emotes'], firstTask: 'Aback' },
+    { groups: ['Collectables', 'Fashion Accessories'], firstTask: 'Parasol' },
+    { groups: ['Collectables', 'Minion Guide'], firstTask: '2B Automaton' },
+    { groups: [['Collectables', 'Barding'], ['Collectables', 'Mount Guide']], firstTask: 'Adamantoise' },
+    { groups: ['Collectables', 'Orchestrion List'], firstTask: 'Wailers and Waterwheels' },
+    { groups: ['Collectables', 'Relic Gear', 'Skysteel'], firstTask: 'Skysteel Saw' },
+    { groups: ['Collectables', 'Relic Gear'], firstTask: 'Artemis Bow' },
+    { groups: ['Collectables', 'Triple Triad Card List'], firstTask: 'Ahriman Card', extraCompare: TripleTriadCardCompare },
+    { groups: ['Collectables', 'Triple Triad Opponents'], firstTask: 'Triple Triad Master' },
+
     { groups: ['FATEs', 'La Noscea'], firstTask: 'I Melt with You' },
-    { groups: ['FATEs', 'The Black Shroud'], firstTask: 'One Enchanted Eve' },
+    { groups: ['FATEs', 'The Black Shroud'], firstTask: 'Steel Reign' },
     { groups: ['FATEs', 'Thanalan'], firstTask: 'Let them Eat Cactus' },
-    { groups: ['FATEs', 'Coerthas'], firstTask: 'Twelve Ilms of Snow' },
+    { groups: ['FATEs', 'Coerthas'], firstTask: 'A Log Up' },
     { groups: ['FATEs', 'Mor Dhona'], firstTask: 'Mud About You' },
-    { groups: ['FATEs', 'Abalathia\'s Spine'], firstTask: 'Food Fight (FATE)' },
+    { groups: ['FATEs', 'Abalathia\'s Spine'], firstTask: 'Food Fight' },
     { groups: ['FATEs', 'Dravania'], firstTask: 'Glawackus On, Glawackus Off' },
     { groups: ['FATEs', 'Gyr Abania'], firstTask: 'Bold This Way' },
     { groups: ['FATEs', 'Othard'], firstTask: 'Agni\'s Philosophy' },
     { groups: ['FATEs', 'Eureka'], firstTask: 'Unsafety Dance' },
     { groups: ['FATEs', 'Norvrandt'], firstTask: 'A Beast Among Men' },
-    { groups: ['Travel', 'Aether Currents'], firstTask: 'Twinpools' },
+
+    // Aether Currents are not uniquely named
+    { groups: ['Travel', 'Aetherytes'], secondTask: 'The Aftcastle' },
     { groups: ['Travel', 'Mount Speed'], firstTask: 'Mist' },
-    { groups: ['', ''], firstTask: '' }, //TODO: Shared FATE?
-    { groups: ['Travel', 'Porters'], firstTask: 'Limsa Lominsa Lower Decks' },
-    { groups: ['Achievements', 'Battle'], firstTask: 'To Crush Your Enemies I' },
-    { groups: ['Achievements', 'PvP'], firstTask: 'Cutting Your Wolf Loose: Maelstrom I' },
-    { groups: ['Achievements', 'Character'], firstTask: 'Mastering War I' },
-    { groups: ['Achievements', 'Items'], firstTask: 'My Body Is a Temple' },
-    { groups: ['Achievements', 'Crafting & Gathering'], firstTask: 'I Made That: Carpenter I' },
-    { groups: ['Achievements', 'Quest'], firstTask: 'Serving a Greater Cause I' },
-    { groups: ['Achievements', 'Exploration'], firstTask: 'Out of Sight' },
-    { groups: ['Achievements', 'Grand Company'], firstTask: 'I Make This Look Good' },
+    { groups: ['Travel', 'Porters'], firstTask: 'Limsa Lominsa Aetheryte Plaza' },
+    // Shared FATE ranks are not uniquely named
 ];
 
 function LeveCompare(isMatch, appTask, sheetTaskName) {

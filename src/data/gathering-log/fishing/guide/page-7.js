@@ -93,7 +93,7 @@ const tasks = [
         name: "Giant Catfish",
         iLvl: "55",
         primeLocation: "Upper La Noscea",
-        fishingHoles: "North Bronze Lake",
+        fishingHoles: "Northeast Bronze Lake",
         type: "Lakes",
         bait: "Silverfish",
     }, {

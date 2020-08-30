@@ -440,7 +440,7 @@ const tasks = [
     {
         level: "73",
         name: "Iridescent Top of Casting",
-        mat1: "3 Iridescent Silk  ",
+        mat1: "3 Iridescent Silk",
         mat2: "Green Glider Leather",
         mat3: "Star Ruby",
         mat4: "Electrum Ingot",
@@ -452,7 +452,7 @@ const tasks = [
     {
         level: "73",
         name: "Iridescent Top of Healing",
-        mat1: "3 Iridescent Silk  ",
+        mat1: "3 Iridescent Silk",
         mat2: "Green Glider Leather",
         mat3: "Star Sapphire",
         mat4: "Electrum Ingot",

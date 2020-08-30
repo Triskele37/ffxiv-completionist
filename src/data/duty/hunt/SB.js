@@ -138,7 +138,7 @@ const tasks = [
     }, {
         rank: "S",
         name: "Okina",
-        condition: "Kill 200 Yumemi. Spawns from 12pm at Full Moon. ",
+        condition: "Kill 200 Yumemi. Spawns from 12pm at Full Moon.",
         location: "The Ruby Sea"
     }, {
         rank: "S",

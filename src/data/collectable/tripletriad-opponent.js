@@ -1033,7 +1033,7 @@ const tasks = [
         zone: "Mor Dhona",
         location: "North Silvertear (30,13)",
         rules: "Same, Plus",
-        drops: "Cloud of Darkness, Phlegethon, Xande, Unei & Doga ",
+        drops: "Cloud of Darkness, Phlegethon, Xande, Unei & Doga",
         preRequisite: "Quest: Moon Sliver and Me (Level 45 Mor Dhona Sidequest) Unavailable During Quest: The Light of Hope (Level 50 Chronicles of a New Era Quest)",
         fee: 30,
         patch: "3.2",

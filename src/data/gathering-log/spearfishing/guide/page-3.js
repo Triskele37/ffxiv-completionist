@@ -51,7 +51,7 @@ const tasks = [
         name: "Cherry Salmon",
         iLvl: "245",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Large",
     }, {
@@ -128,7 +128,7 @@ const tasks = [
         name: "Doman Bubble Eye",
         iLvl: "260",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Small",
     }, {
@@ -177,7 +177,7 @@ const tasks = [
         name: "River Bream",
         iLvl: "275",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Normal",
     },

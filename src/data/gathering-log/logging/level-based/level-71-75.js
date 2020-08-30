@@ -38,7 +38,7 @@ const tasks = [
         name: "Weaving Paraphernalia",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
-        coordinates: "",
+        coordinates: "(x34,y12)",
         nodeTimer: ""
     }, {
         level: "74",
@@ -52,7 +52,7 @@ const tasks = [
         name: "Handpicked Ingredients",
         zone: "The Peaks",
         closestAetheryte: "Ala Gannha",
-        coordinates: "",
+        coordinates: "(x32,y10)",
         nodeTimer: ""
     }, {
         level: "75",

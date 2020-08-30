@@ -1,0 +1,32 @@
+<template>
+    <div>
+        <h1>Version 0.5.3 - (Beta)</h1>
+
+        <h2>Functionality</h2>
+        <ul>
+            <li>Made the landing page say something better than "Hello World"</li>
+            <li>Added several instructional pages to the home menu</li>
+            <li>Added a "Dev Notes" page to the home menu</li>
+        </ul>
+
+        <h2>Data</h2>
+        <ul>
+            <li>Added 5.3 content</li>
+            <li>Added "Collection" group under "Collectables"</li>
+            <li>Removed ARR quests (users will need to re-enter completion for all 3 "Call of the Sea" quests, found in the ARR MSQ starting area quests)</li>
+            <li>Removed "Wolf" crafts found under each crafter's "Others" section</li>
+            <li>Removed "Practice Materials" recipes</li>
+            <li>Moved ALC corsages from level based groups to ALC > Other > Ornaments</li>
+            <li>Merged PLD sword and shield items for all relics</li>
+            <li>Fixed misnaming of "Hammer and Sails" lvl 68 BSM Levequest (manually re-enter completion)</li>
+            <li>Removed "The Mandragoras" quest only FATE</li>
+            <li>Many spelling fixes</li>
+        </ul>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'version-0-5-3',
+    }
+</script>

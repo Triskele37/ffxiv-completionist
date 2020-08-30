@@ -24,7 +24,7 @@ const tasks = [
         name: "Weaving Paraphernalia",
         zone: "The Churning Mists",
         closestAetheryte: "Zenith",
-        coordinates: "",
+        coordinates: "(x7,y8)",
         nodeTimer: ""
     }, {
         level: "73",
@@ -38,7 +38,7 @@ const tasks = [
         name: "Crafting Tool Paraphernalia",
         zone: "The Sea of Clouds",
         closestAetheryte: "Ok'Zundu",
-        coordinates: "",
+        coordinates: "(x28,y7)",
         nodeTimer: ""
     }, {
         level: "73",
@@ -66,7 +66,7 @@ const tasks = [
         name: "Printing Paraphernalia",
         zone: "The Lochs",
         closestAetheryte: "The Ala Mhigan Quarter",
-        coordinates: "",
+        coordinates: "(x30,y17)",
         nodeTimer: ""
     }, {
         level: "75",

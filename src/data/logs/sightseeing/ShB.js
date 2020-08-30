@@ -137,7 +137,7 @@ const tasks = [
         name: "White Oil Falls",
         vista: "17",
         zone: "Kholusia",
-        location: "White Oil Falls (28.8-22.1) ",
+        location: "White Oil Falls (28.8-22.1)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -161,7 +161,7 @@ const tasks = [
         name: "The Ladder",
         vista: "20",
         zone: "Kholusia",
-        location: "The Ladder (12.1-22.1)  ",
+        location: "The Ladder (12.1-22.1)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -185,7 +185,7 @@ const tasks = [
         name: "The Red Serai",
         vista: "23",
         zone: "Amh Araeng",
-        location: "The Red Serai (33.2-13.8) ",
+        location: "The Red Serai (33.2-13.8)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -193,7 +193,7 @@ const tasks = [
         name: "Mord Souq",
         vista: "24",
         zone: "Amh Araeng",
-        location: "Mord Souq (25.3-16.6) ",
+        location: "Mord Souq (25.3-16.6)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -265,7 +265,7 @@ const tasks = [
         name: "Lyhe Ghiah",
         vista: "33",
         zone: "Il Mheg",
-        location: "Lyhe Ghiah (20.8-16.3) ",
+        location: "Lyhe Ghiah (20.8-16.3)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -297,7 +297,7 @@ const tasks = [
         name: "The Covered Halls of Dwatl",
         vista: "37",
         zone: "The Rak'tika Greatwood",
-        location: "The Covered Halls of Dwatl (4.3-27.2) ",
+        location: "The Covered Halls of Dwatl (4.3-27.2)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -313,7 +313,7 @@ const tasks = [
         name: "Fanow",
         vista: "39",
         zone: "The Rak'tika Greatwood",
-        location: "Fanow (29.1-19.0) ",
+        location: "Fanow (29.1-19.0)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -321,7 +321,7 @@ const tasks = [
         name: "The Morning Stars",
         vista: "40",
         zone: "The Rak'tika Greatwood",
-        location: "The Morning Stars (26.4-10.0) ",
+        location: "The Morning Stars (26.4-10.0)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -329,7 +329,7 @@ const tasks = [
         name: "The Ondo Cups",
         vista: "41",
         zone: "The Tempest",
-        location: "The Ondo Cups (33.0-16.2) ",
+        location: "The Ondo Cups (33.0-16.2)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -337,7 +337,7 @@ const tasks = [
         name: "The Workbench",
         vista: "42",
         zone: "The Tempest",
-        location: " The Workbench (33.0-16.2) ",
+        location: " The Workbench (33.0-16.2)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -345,7 +345,7 @@ const tasks = [
         name: "Where the Dry Return",
         vista: "43",
         zone: "The Tempest",
-        location: "Where the Dry Return (37.1-6.6) ",
+        location: "Where the Dry Return (37.1-6.6)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -353,7 +353,7 @@ const tasks = [
         name: "Purpure",
         vista: "44",
         zone: "The Tempest",
-        location: "Purpure (34.3-30.6) ",
+        location: "Purpure (34.3-30.6)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -361,7 +361,7 @@ const tasks = [
         name: "Amaurot",
         vista: "45",
         zone: "The Tempest",
-        location: "Amaurot  (13.7-36.8) ",
+        location: "Amaurot  (13.7-36.8)",
         weather: "X",
         time: "X",
         emote: "Lookout"

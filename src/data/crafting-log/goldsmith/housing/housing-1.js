@@ -872,7 +872,7 @@ const tasks = [
         mat4: "4 Dwarven Mythril Nugget",
         mat5: "3 Titanbronze Nugget",
         mat6: "3 Petalite",
-        catalysts: "28 Wind Crystal, 28 Fire Crystal ",
+        catalysts: "28 Wind Crystal, 28 Fire Crystal",
         special: "Housing (Outdoor Furnishing)"
     }, {
         level: "80",
@@ -883,7 +883,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal ",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal",
         special: "Housing (Interior Wall)"
     }, {
         level: "80",
@@ -894,7 +894,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal ",
+        catalysts: "7 Wind Crystal, 7 Fire Crystal",
         special: "Housing (Flooring)"
     },
 ];

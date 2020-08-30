@@ -84,7 +84,7 @@ const tasks = [
         nodeTimer: ""
     }, {
         level: "80★",
-        name: "Grade 2 Skybuilders' Umbral Galewood Log ",
+        name: "Grade 2 Skybuilders' Umbral Galewood Log",
         zone: "Diadem",
         closestTeleport: "The Foundation -> Firmament",
         coordinates: "Varies",

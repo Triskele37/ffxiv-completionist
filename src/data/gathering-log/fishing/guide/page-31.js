@@ -121,7 +121,7 @@ const tasks = [
         name: "Rak'tika Trout",
         iLvl: "406",
         primeLocation: "The Rak'tika Greatwood",
-        fishingHoles: "The Rotzatl",
+        fishingHoles: "The Lozatl",
         type: "Rivers",
         bait: "Robber Ball",
     }, {
@@ -135,7 +135,7 @@ const tasks = [
         name: "Night's Bass",
         iLvl: "406",
         primeLocation: "The Rak'tika Greatwood",
-        fishingHoles: "The Rotzatl",
+        fishingHoles: "The Lozatl",
         type: "Rivers",
         bait: "Robber Ball",
     }, {

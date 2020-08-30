@@ -383,7 +383,7 @@ const tasks = [
         patch: "4.1"
     },
     {
-        name: "Push-ups ",
+        name: "Push-ups",
         command: "/pushups",
         method: "Achievement: Dear Leader I",
         patch: "4.1"

@@ -303,7 +303,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "5 Fire Shard, 5 Earth Shard",
-        special: "Levequest "
+        special: "Levequest"
     },
     {
         level: "44",

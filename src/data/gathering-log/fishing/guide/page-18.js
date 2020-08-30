@@ -163,7 +163,7 @@ const tasks = [
         name: "Vidofnir",
         iLvl: "210",
         primeLocation: "The Churning Mists",
-        fishingHoles: "Eil Tohn",
+        fishingHoles: "Eil Tohm",
         type: "Lakes",
         bait: "Brute Leech",
     }, {

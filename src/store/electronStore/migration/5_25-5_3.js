@@ -81,6 +81,14 @@ export const migrate_5_25_to_5_3 = () => {
     overall.delete('crafting-log.alchemist.master-recipes.master-recipes-8', 'rank-viii-artisans-fragile-practice-materials');
     overall.delete('crafting-log.alchemist.master-recipes.master-recipes-8', 'rank-viii-artisans-durable-practice-materials');
     overall.delete('crafting-log.culinarian.master-recipes.master-recipes-8', 'rank-viii-artisans-durable-practice-materials');
+    overall.delete('crafting-log.carpenter.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.blacksmith.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.armorer.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.goldsmith.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.leatherworker.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.weaver.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.alchemist.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
+    overall.delete('crafting-log.culinarian.ishgard-restoration.other', 'grade-2-expert-skybuilders-practice-materials');
 
     // Removed "Wolf" crafts
     overall.delete('crafting-log.carpenter', 'others');
@@ -199,11 +207,6 @@ export const migrate_5_25_to_5_3 = () => {
     overall.move(SB_FLOWERS, ORNAMENTS, 'black-tulip-corsage');
     overall.move(SB_FLOWERS, ORNAMENTS, 'rainbow-tulip-corsage');
 
-    // Orchestrion Renames?
-    overall.change('collectables.orchestrion-list.locales-ii', 'thw-dark-which-illuminates-the-world', 'the-dark-which-illuminates-the-world');
-    overall.change('collectables.orchestrion-list.dungeons', 'ominous-porgnisticks', 'ominous-prognisticks');
-    overall.change('collectables.orchestrion-list.others', 'gates-of-paradise', 'gates-of-paradise---the-garden-of-ruhmet');
-
     // Move Parasol to Fashion Accessories / remove Parasol
     overall.create('collectables', 'fashion-accessories');
     overall.move('collectables.parasols', 'collectables.fashion-accessories', 'parasol');
@@ -259,12 +262,65 @@ export const migrate_5_25_to_5_3 = () => {
     overall.change(`${EUREKA}.anemos`, 'anemos-galatyn', 'anemos-galatyn--anemos-evalach');
     overall.delete(`${EUREKA}.anemos`, 'anemos-evalach');
 
+    // Misplaced
+    overall.move('crafting-log.alchemist.level-based.16-20', 'crafting-log.alchemist.level-based.11-15', 'ether');
+
     // Removed quest fate
     overall.delete('fates.la-noscea.western', 'the-mandragoras');
 
+    // Mislabeled Relics
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-pleiades', 'pleiades-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-vanargand', 'vanargand-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-failnaught', 'failnaught-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-ryunohige', 'ryunohige-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-caladbolg', 'caladbolg-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-outsider', 'outsider-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-sudarshana-chakra', 'sudarshana-chakra-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-nagi', 'nagi-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-galatyn--anemos-evalach', 'galatyn-anemos--evalach-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-murglies', 'murgleis-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-kiki-ichimonji', 'kiki-ichimonji-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-organum', 'organum-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-lemegeton', 'lemegeton-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-farsha', 'farsha-anemos');
+    overall.change('collectables.relic-gear.eureka.anemos', 'anemos-aymur', 'aymur-anemos');
+
     // Spelling Fixes
     overall.change('collectables.minion-guide', 'bomb-fish', 'bombfish');
+    overall.change('collectables.orchestrion-list.locales-ii', 'thw-dark-which-illuminates-the-world', 'the-dark-which-illuminates-the-world');
+    overall.change('collectables.orchestrion-list.dungeons', 'ominous-porgnisticks', 'ominous-prognisticks');
+    overall.change('collectables.orchestrion-list.others', 'gates-of-paradise', 'gates-of-paradise---the-garden-of-ruhmet');
+    overall.change('collectables.relic-gear.eureka.antiquated', 'antiquated-murglies', 'antiquated-murgleis');
+    overall.change('collectables.relic-gear.eureka.anemos', 'murglies', 'murgleis');
+    overall.change('collectables.relic-gear.eureka.anemos', 'murglies-1', 'murgleis-1');
+    overall.change('collectables.relic-gear.eureka.anemos', 'murglies-2', 'murgleis-2');
+    overall.change('collectables.relic-gear.eureka.pagos', 'murglies-pagos', 'murgleis-pagos');
+    overall.change('collectables.relic-gear.eureka.pagos', 'murglies-pagos-1', 'murgleis-pagos-1');
+    overall.change('collectables.relic-gear.eureka.antiquated', 'antiquated-kiki-ichimonji', 'antiquated-kiku-ichimonji');
+    overall.change('collectables.relic-gear.eureka.anemos', 'kiki-ichimonji', 'kiku-ichimonji');
+    overall.change('collectables.relic-gear.eureka.anemos', 'kiki-ichimonji-1', 'kiku-ichimonji-1');
+    overall.change('collectables.relic-gear.eureka.anemos', 'kiki-ichimonji-2', 'kiku-ichimonji-2');
+    overall.change('collectables.relic-gear.eureka.anemos', 'kiki-ichimonji-anemos', 'kiku-ichimonji-anemos');
+    overall.change('collectables.relic-gear.eureka.pagos', 'kiki-ichimonji-pagos', 'kiku-ichimonji-pagos');
+    overall.change('collectables.relic-gear.eureka.pagos', 'kiki-ichimonji-pagos-1', 'kiku-ichimonji-pagos-1');
+    overall.change('collectables.relic-gear.eureka.pagos', 'eternal-lance', 'elemental-lance');
+    overall.change('collectables.relic-gear.eureka.pyros', 'eternal-lance-1', 'elemental-lance-1');
+    overall.change('collectables.relic-gear.eureka.pyros', 'eternal-lance-2', 'elemental-lance-2');
     overall.change('collectables.triple-triad-card-list', 'ultima-weapon', 'the-ultima-weapon');
+    overall.change('collectables.triple-triad-opponents', 'imperial-deserter-the-lochs', 'imperial-deserter');
+    overall.change('crafting-log.leatherworker.master-recipes.master-recipes-3', 'chivalric-battledress-of-aiming', 'chivalric-longcoat-of-aiming');
+    overall.change('crafting-log.weaver.level-based.26-30', 'velveteen-bottom', 'velveteen-bottoms');
+    overall.change('crafting-log.weaver.level-based.76-80', 'ovim-wool-tunix-of-casting', 'ovim-wool-tunic-of-casting');
+    overall.change('crafting-log.weaver.level-based.76-80', 'dwarvem-cotton-gaskins-of-scouting', 'dwarven-cotton-gaskins-of-scouting');
+    overall.change('crafting-log.shared.custom-deliveries.mnaago', 'resistance-material-component', 'resistance-materiel-component');
+    overall.change('crafting-log.shared.custom-deliveries.mnaago', 'resistance-material', 'resistance-materiel');
+    overall.change('gathering-log.fishing.log.abalathias-spine', 'hypersteller-downconvertor', 'hyperstellar-downconvertor');
+    overall.change('gathering-log.mining.level-based.51-55', 'dravanian-spring-warer', 'dravanian-spring-water');
+    overall.change('fates.the-black-shroud.central-shroud', 'whats-your-poison-fate', 'whats-your-poison');
+    overall.change('fates.coerthas.central-highlands', 'the-eyes-have-it-fate', 'the-eyes-have-it');
+    overall.change('fates.coerthas.central-highlands', 'the-eyes-have-it-fate', 'the-eyes-have-it');
+    overall.change('fates.abalathias-spine.the-sea-of-clouds', 'food-fight-fate', 'food-fight');
+    overall.change('fates.norvrandt.kholusia', 'shadow-of-stilltide', 'shadow-over-stilltide');
 
     overall.write();
 };

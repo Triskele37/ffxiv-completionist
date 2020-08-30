@@ -81,7 +81,7 @@ const tasks = [
         name: "Nyunkrepf's Hope",
         vista: "10",
         zone: "The Peaks",
-        location: "Wightrock (22, 32.8, 3.5) ",
+        location: "Wightrock (22, 32.8, 3.5)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -97,7 +97,7 @@ const tasks = [
         name: "Specula Imperatoris",
         vista: "12",
         zone: "The Peaks",
-        location: "Wightrock (19.9, 23.4, 3.2) ",
+        location: "Wightrock (19.9, 23.4, 3.2)",
         weather: "X",
         time: "X",
         emote: "Lookout"
@@ -188,7 +188,7 @@ const tasks = [
         location: "Rakuza District (9.4, 7.3)",
         weather: "X",
         time: "X",
-        emote: "Lookout"
+        emote: "Sit"
     }, {
         name: "Kogane Dori",
         vista: "24",

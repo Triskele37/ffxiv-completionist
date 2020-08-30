@@ -30,7 +30,7 @@ const tasks = [
         name: "Kissing Fish",
         iLvl: "133",
         primeLocation: "The Churning Mists",
-        fishingHoles: "Eil Tohn",
+        fishingHoles: "Eil Tohm",
         type: "Rivers",
         bait: "Purse Web Spider",
     }, {

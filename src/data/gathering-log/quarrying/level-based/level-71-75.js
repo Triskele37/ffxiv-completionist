@@ -24,14 +24,14 @@ const tasks = [
         name: "Gathering Tool Paraphernalia",
         zone: "Coerthas Western Highlands",
         closestAetheryte: "Falcon's Nest",
-        coordinates: "",
+        coordinates: "(x14,y23)",
         nodeTimer: ""
     }, {
         level: "74",
         name: "Handpicked Ingredients",
         zone: "The Ruby Sea",
         closestAetheryte: "Onokoro",
-        coordinates: "",
+        coordinates: "(x38,y2)",
         nodeTimer: ""
     }, {
         level: "75",

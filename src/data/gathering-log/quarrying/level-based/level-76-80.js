@@ -38,7 +38,7 @@ const tasks = [
         name: "Thunder Rock",
         zone: "Kholusia",
         closestAetheryte: "Tomra",
-        coordinates: "(x13,y13)",
-        nodeTimer: "Ephemeral (8PM)"
+        coordinates: "(x22,y18)",
+        nodeTimer: "Ephemeral (4PM)"
     },
 ];

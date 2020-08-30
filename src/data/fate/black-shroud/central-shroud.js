@@ -82,7 +82,7 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "30",
-        name: "What's Your Poison (FATE)",
+        name: "What's Your Poison",
         location: "Sorrel Haven (15,20)",
         type: "Gather Items"
     }, {

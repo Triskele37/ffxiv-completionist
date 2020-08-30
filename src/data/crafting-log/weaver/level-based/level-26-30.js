@@ -223,7 +223,7 @@ const tasks = [
     },
     {
         level: "30",
-        name: "Velveteen Bottom",
+        name: "Velveteen Bottoms",
         mat1: "2 Undyed Velveteen",
         mat2: "Dew Thread",
         mat3: "Iron Ingot",

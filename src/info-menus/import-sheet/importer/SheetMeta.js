@@ -1,4 +1,4 @@
-import { data } from "../../../../data";
+import { data } from "../../../data";
 import { GROUP_MAP } from "./mapper";
 
 export class SheetMeta {
@@ -15,16 +15,18 @@ export class SheetMeta {
         this.sheetTaskArray = convertSheetToArray(sheet);
         this.total = this.sheetTaskArray.length;
 
-        console.log(this.sheetTaskArray.concat());
-        console.log(this.sheetTaskArray);
+        // console.log(this.sheetTaskArray.concat());
         // markDuplicateTasks(this.sheetTaskArray);
 
         for(let i = 0; i < GROUP_MAP.length; i++) {
             const groupMeta = GROUP_MAP[i];
 
-            const taskIndex = this.sheetTaskArray[0].indexOf(groupMeta.firstTask);
+            const taskIndex = groupMeta.firstTask ?
+                this.sheetTaskArray[0].indexOf(groupMeta.firstTask) :
+                this.sheetTaskArray[1].indexOf(groupMeta.secondTask);
             if(taskIndex !== -1) {
                 this.nameColumnIndex = taskIndex;
+                console.log(groupMeta.firstTask, groupMeta.secondTask, taskIndex);
 
                 const multipleGroups = groupMeta.groups[0] instanceof Array;
                 this.groups = (multipleGroups ? groupMeta.groups : [groupMeta.groups]).map((groups) => {
@@ -44,6 +46,7 @@ export class SheetMeta {
     get tooltip() {
         let totalUnresolved = this.sheetTaskArray.length;
         if(this.debugMode) totalUnresolved += this.notInSheet.length;
+        if(!this.groups) return `Unable to import sheet,  ${totalUnresolved} unrecognized items`;
 
         if(totalUnresolved === 0) {
             return `${this.total} tasks imported`;
@@ -70,7 +73,7 @@ function convertSheetToArray(sheet) {
     // Cells with line breaks look like: {Col0}\t"{Col1}\n"\t{Col2}
     let cleanSheet = sheet
         .replace(/\t"/g, '\t') // Clean cells that include line breaks
-        .replace(/\n"\t/g, '\t') // Clean cells that include line breaks
+        .replace(/\n^(.*)"\t/g, '$1\t') // Clean cells that include line breaks
         .split('\n') // Split each row
         .map((row) => row.split('\t')); // Split each column within a row
 

@@ -58,7 +58,7 @@ const tasks = [
         name: "Bronze Lake Trout",
         iLvl: "41",
         primeLocation: "Upper La Noscea",
-        fishingHoles: "North Bronze Lake",
+        fishingHoles: "Northeast Bronze Lake",
         type: "Lakes",
         bait: "Mythril Spoon Lure",
     }, {

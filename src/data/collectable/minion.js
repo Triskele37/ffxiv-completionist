@@ -175,7 +175,7 @@ const tasks = [
     {
         name: "Black Coeurl",
         methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 20,000 MGP ",
+        method: "Purchased from Gold Saucer Attendant for 20,000 MGP",
         patch: "2.51"
     },
     {
@@ -545,7 +545,7 @@ const tasks = [
         patch: "5.0"
     },
     {
-        name: "Fox Kit ",
+        name: "Fox Kit",
         methodType: "Purchased",
         method: "Purchased for 3x Sassho-seki Fragments from Eschina",
         patch: "4.0"
@@ -1080,8 +1080,8 @@ const tasks = [
     },
     {
         name: "Pegasus Colt",
-        methodType: "FATE Reward",
-        method: "Acquired in The Diadem, dropped by Bloody Wings FATE.",
+        methodType: "Purchased",
+        method: "800 Skybuilders' Scrips",
         patch: "3.55b"
     },
     {
@@ -1111,13 +1111,13 @@ const tasks = [
     {
         name: "Pod 054",
         methodType: "Duty",
-        method: "Found in chest after final boss of The Copied City",
+        method: "Found in chest after final boss of The Copied Factory",
         patch: "5.1"
     },
     {
         name: "Pod 316",
         methodType: "Duty",
-        method: "Found in chest after final boss of The Copied City",
+        method: "Found in chest after final boss of The Copied Factory",
         patch: "5.1"
     },
     {
@@ -1681,7 +1681,7 @@ const tasks = [
     {
         name: "Wind-up Founder",
         methodType: "Purchased",
-        method: "Purchased from Amalj'aa Vendor for 25,000 gil ",
+        method: "Purchased from Amalj'aa Vendor for 25,000 gil",
         patch: "2.35"
     },
     {
@@ -1741,7 +1741,7 @@ const tasks = [
     {
         name: "Wind-up Gundu Warrior",
         methodType: "Purchased",
-        method: "Purchased from Luna Vanu for 30,000 gil ",
+        method: "Purchased from Luna Vanu for 30,000 gil",
         patch: "3.1"
     },
     {
@@ -2089,7 +2089,7 @@ const tasks = [
     {
         name: "Wind-up Sea Devil",
         methodType: "Purchased",
-        method: "Purchased from Sahagin Vendor for 25,000 gil ",
+        method: "Purchased from Sahagin Vendor for 25,000 gil",
         patch: "2.35"
     },
     {

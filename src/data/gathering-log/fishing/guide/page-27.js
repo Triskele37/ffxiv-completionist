@@ -158,7 +158,7 @@ const tasks = [
         primeLocation: "The Azim Steppe",
         fishingHoles: "Azim Khaat",
         type: "Lakes",
-        bait: "Zaghas Khaal",
+        bait: "Zagas Khaal",
     }, {
         name: "Blade Skipper",
         iLvl: "340",

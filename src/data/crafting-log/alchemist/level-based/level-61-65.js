@@ -21,7 +21,7 @@ const tasks = [
         level: "61",
         name: "Enchanted Koppranickel Ink",
         mat1: "3 Koppranickel Sand",
-        mat2: "Moth Scales   ",
+        mat2: "Moth Scales",
         mat3: "Deepeye Tears",
         mat4: "X",
         mat5: "X",

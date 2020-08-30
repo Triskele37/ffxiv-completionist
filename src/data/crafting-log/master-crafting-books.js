@@ -49,7 +49,7 @@ const tasks = [
     }, {
         name: 'Master Carpenter: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Blacksmith
     {

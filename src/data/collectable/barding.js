@@ -257,7 +257,7 @@ const tasks = [
     },
     {
         name: "Plumed Barding",
-        method: "Obtain the Breaking Bo achievement ",
+        method: "Obtain the Breaking Bo achievement",
         patch: "2.3",
     },
     {

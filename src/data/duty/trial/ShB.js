@@ -82,5 +82,12 @@ const tasks = [
 		boss: "Warrior of Light",
 		roulette: "-",
 		unlock: "Minstrel from Another Mother"
+	}, {
+		level: "80",
+		iLvlReq: "430",
+		name: "The Akh Afah Amphitheatre (Unreal)",
+		boss: "Shiva",
+		roulette: "-",
+		unlock: "Fantastic Mr. Faux"
 	}
 ];

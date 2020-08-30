@@ -8,7 +8,7 @@ const tasks = [
     {
         level: "66",
         name: "Tempura Platter",
-        mat1: "Gyr Abanian Flour ",
+        mat1: "Gyr Abanian Flour",
         mat2: "Gagana Egg",
         mat3: "Cottonseed Oil",
         mat4: "Yanxian Tiger Prawn",

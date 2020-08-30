@@ -37,7 +37,7 @@ const tasks = [
         name: "Abalathian Pipira",
         iLvl: "275",
         primeLocation: "The Lochs",
-        fishingHoles: "Lock Seld Northwestern Lakebed",
+        fishingHoles: "Loch Seld Northwestern Lakebed",
         type: "Spearfishing",
         bait: "Normal",
     }, {
@@ -72,7 +72,7 @@ const tasks = [
         name: "Ichthyosaur",
         iLvl: "290",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Large",
     }, {

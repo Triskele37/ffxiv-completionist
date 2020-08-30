@@ -572,8 +572,8 @@ const tasks = [
     {
         level: "45",
         name: "Black-and-white Interior Wall",
-        mat1: "2 Rosewood Lumber",
-        mat2: "2 Mahogany Lumber",
+        mat1: "2 Rosewood Log",
+        mat2: "2 Mahogany Log",
         mat3: "2 Oak Log",
         mat4: "X",
         mat5: "X",

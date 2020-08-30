@@ -23,7 +23,7 @@ const tasks = [
         name: "Stargazer",
         iLvl: "420",
         primeLocation: "The Tempest",
-        fishingHoles: "Pupure",
+        fishingHoles: "Purpure",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {
@@ -44,7 +44,7 @@ const tasks = [
         name: "Ondo Harpoon",
         iLvl: "420",
         primeLocation: "The Tempest",
-        fishingHoles: "The Flounder's Floor",
+        fishingHoles: "The Flounders' Floor",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {

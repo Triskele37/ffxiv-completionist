@@ -290,7 +290,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal ",
+        catalysts: "6 Earth Crystal",
         special: ""
     },
     {

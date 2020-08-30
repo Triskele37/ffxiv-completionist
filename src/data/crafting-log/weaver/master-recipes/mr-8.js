@@ -241,7 +241,7 @@ const tasks = [
 	},
 	{
 		level: "80★★★",
-		name: "Aesthete's Trousers of Gathering ",
+		name: "Aesthete's Trousers of Gathering",
 		mat1: "4 Defthand's Dissolvent",
 		mat2: "5 Duskcourt Cloth",
 		mat3: "2 Megalania Leather",

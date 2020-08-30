@@ -138,7 +138,7 @@ const tasks = [
     }, {
         rank: "S",
         name: "Forgiven Pedantry",
-        condition: "Gather Dwarven Bolls.",
+        condition: "Gather Dwarven Cotton Bolls.",
         location: "Kholusia"
     }, {
         rank: "S",

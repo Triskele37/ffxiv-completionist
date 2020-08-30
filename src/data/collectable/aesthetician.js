@@ -33,7 +33,7 @@ const tasks = [
         patch: "3.1"
     },
     {
-        name: "Eternal Bonding ",
+        name: "Eternal Bonding",
         location: "MogStation",
         method: "Quest: The Ties That Bind (Level 1 Special Quest)",
         gender: "Unisex (Differing Styles)",

@@ -38,7 +38,7 @@ const tasks = [
         name: "Gathering Tool Paraphernalia",
         zone: "The Dravanian Hinterlands",
         closestAetheryte: "Idyllshire -> The Dravanian Hinterlands",
-        coordinates: "",
+        coordinates: "(x14,y33)",
         nodeTimer: ""
     }, {
         level: "72",
@@ -73,7 +73,7 @@ const tasks = [
         name: "Crafting Tool Paraphernalia",
         zone: "The Sea of Clouds",
         closestAetheryte: "Camp Cloudtop",
-        coordinates: "",
+        coordinates: "(x35,y37)",
         nodeTimer: ""
     }, {
         level: "73",
@@ -115,7 +115,7 @@ const tasks = [
         name: "Printing Paraphernalia",
         zone: "Yanxia",
         closestAetheryte: "Namai",
-        coordinates: "",
+        coordinates: "(x17,y30)",
         nodeTimer: ""
     }, {
         level: "75",

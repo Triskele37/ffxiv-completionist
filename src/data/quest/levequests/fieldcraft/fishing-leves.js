@@ -520,7 +520,7 @@ const tasks = [
         npc: "Keltraeng"
     }, {
         level: "68",
-        name: "Blood In The Water",
+        name: "Blood in the Water",
         zone: "Kugane",
         location: "Kugane",
         npc: "Keltraeng"

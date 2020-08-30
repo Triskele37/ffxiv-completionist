@@ -107,7 +107,7 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "39",
-        name: "The Eyes Have It (FATE)",
+        name: "The Eyes Have It",
         location: "Whitebrim (15,19)",
         type: "Notorious Monster"
     }, {

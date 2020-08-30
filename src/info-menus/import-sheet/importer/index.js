@@ -1,5 +1,5 @@
-import { data } from '../../../../data';
-import { applyDataToStore } from '../../../../store/electronStore/applyDataToStore';
+import { data } from '../../../data';
+import { applyDataToStore } from '../../../store/electronStore/applyDataToStore';
 
 import { SheetMeta } from "./SheetMeta";
 
@@ -8,7 +8,9 @@ export const importCallback = function(rawText) {
     const sheetMeta = new SheetMeta(rawText);
 
     // Analyze Matches
-    sheetMeta.groups.forEach((group) => searchGroupForImportedNames(group, sheetMeta));
+    if(sheetMeta.groups && sheetMeta.groups.length) {
+        sheetMeta.groups.forEach((group) => searchGroupForImportedNames(group, sheetMeta));
+    }
 
     // Save
     applyDataToStore(data);

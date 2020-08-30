@@ -16,6 +16,7 @@ export const migrateData = () => {
     switch(version) {
         case '0.5.21': migrate_5_21_to_5_25(); break;
         case '0.5.25': migrate_5_25_to_5_3(); break;
+        case '0.5.3': break;
         default: migrate_0_to_5_21();
     }
 };

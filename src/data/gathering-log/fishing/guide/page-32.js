@@ -23,7 +23,7 @@ const tasks = [
         name: "Black Tri-star",
         iLvl: "412",
         primeLocation: "The Rak'tika Greatwood",
-        fishingHoles: "The Rotzatl",
+        fishingHoles: "The Lozatl",
         type: "Rivers",
         bait: "Robber Ball",
     }, {
@@ -37,7 +37,7 @@ const tasks = [
         name: "Sycorax",
         iLvl: "412",
         primeLocation: "The Tempest",
-        fishingHoles: "Pupure",
+        fishingHoles: "Purpure",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {
@@ -65,7 +65,7 @@ const tasks = [
         name: "Maneater Clam",
         iLvl: "415",
         primeLocation: "The Tempest",
-        fishingHoles: "Pupure",
+        fishingHoles: "Purpure",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {
@@ -79,7 +79,7 @@ const tasks = [
         name: "Azure Sea Spider",
         iLvl: "415",
         primeLocation: "The Tempest",
-        fishingHoles: "Pupure",
+        fishingHoles: "Purpure",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {
@@ -163,7 +163,7 @@ const tasks = [
         name: "Bubble Angler",
         iLvl: "420",
         primeLocation: "The Tempest",
-        fishingHoles: "The Flounder's Floor",
+        fishingHoles: "The Flounders' Floor",
         type: "Deep Sea",
         bait: "Short Bill Minnow",
     }, {

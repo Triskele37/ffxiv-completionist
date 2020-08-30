@@ -646,7 +646,7 @@ const tasks = [
         npc: "Keltraeng"
     }, {
         level: "68",
-        name: "Knock on Wood",
+        name: "Hammer and Sails",
         zone: "Kugane",
         location: "Kugane",
         npc: "Keltraeng"

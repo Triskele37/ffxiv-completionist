@@ -130,7 +130,7 @@ const tasks = [
         primeLocation: "The Fringes",
         fishingHoles: "Timmon Beck",
         type: "Rivers",
-        bait: "Hardhed Trout",
+        bait: "Hardhead Trout",
     }, {
         name: "Drepanaspis",
         iLvl: "370",

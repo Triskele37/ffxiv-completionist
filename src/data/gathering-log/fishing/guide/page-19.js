@@ -24,7 +24,7 @@ const tasks = [
         iLvl: "210",
         primeLocation: "Azys Lla",
         fishingHoles: "Delta Quadrant",
-        type: "Laked",
+        type: "Lakes",
         bait: "Aether Eye",
     }, {
         name: "Hailfinder",

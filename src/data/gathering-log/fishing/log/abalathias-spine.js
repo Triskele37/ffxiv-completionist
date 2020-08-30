@@ -59,7 +59,7 @@ const tasks = [
         req: "Aetherfishing"
     }, {
         level: "60",
-        name: "Hypersteller Downconvertor",
+        name: "Hyperstellar Downconvertor",
         zone: "Azys Lla",
         location: "Alpha Quadrant (6,16)",
         type: "Aetherochemical Spill",

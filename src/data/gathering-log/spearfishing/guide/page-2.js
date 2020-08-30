@@ -135,14 +135,14 @@ const tasks = [
         name: "Yanxian Tiger Prawn",
         iLvl: "230",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Large",
     }, {
         name: "Tengu Fan",
         iLvl: "230",
         primeLocation: "Yanxia",
-        fishingHoles: "The Sunken Jink",
+        fishingHoles: "The Sunken Junk",
         type: "Spearfishing",
         bait: "Normal",
     }, {

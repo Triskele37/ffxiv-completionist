@@ -53,14 +53,6 @@
             <li>Archer Hunting Log 1 required kills</li>
             <li>Various spelling fixes</li>
         </ul>
-
-        <h3>Known Issues (planned to be resolved)</h3>
-        <ul>
-            <li>exe is not signed</li>
-            <li>Fishing/Spearfishing Log only tracks one form of completion</li>
-            <li>Mount Speed tasks track as completion with one form</li>
-            <li>Quest restrictions based on starting zone are not automatic</li>
-        </ul>
     </div>
 </template>
 

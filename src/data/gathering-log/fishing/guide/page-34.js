@@ -16,7 +16,7 @@ const tasks = [
         name: "Ondo Sigh",
         iLvl: "460",
         primeLocation: "The Tempest",
-        fishingHoles: "The Flounder's Floor",
+        fishingHoles: "The Flounders' Floor",
         type: "Deep Sea",
         bait: "Squid Strip",
     }, {

@@ -63,15 +63,15 @@ const tasks = [
         special: "Collectable"
     }, {
         level: "63",
-        name: "Resistance Material Component",
-        mat1: "Resistance Material Component Materials",
+        name: "Resistance Materiel Component",
+        mat1: "Resistance Materiel Component Materials",
         mat2: "X",
         catalysts: "Variable",
         special: "Buyable, Ingredient"
     }, {
         level: "63",
-        name: "Resistance Material",
-        mat1: "4 Resistance Material Component",
+        name: "Resistance Materiel",
+        mat1: "4 Resistance Materiel Component",
         mat2: "X",
         catalysts: "Variable",
         special: "Collectable"

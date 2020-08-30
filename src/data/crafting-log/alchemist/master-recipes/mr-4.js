@@ -51,7 +51,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★",
@@ -183,7 +183,7 @@ const tasks = [
         mat5: "3 Luminous Fiber",
         mat6: "5 Battlecraft Demimateria III",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -195,7 +195,7 @@ const tasks = [
         mat5: "Fiend Sap",
         mat6: "5 Battlecraft Demimateria III",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -207,7 +207,7 @@ const tasks = [
         mat5: "Demicrystal",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -219,7 +219,7 @@ const tasks = [
         mat5: "5 Demicrystal",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -231,7 +231,7 @@ const tasks = [
         mat5: "2 Kirimu Leather",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -243,7 +243,7 @@ const tasks = [
         mat5: "2 Kirimu Leather",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -255,7 +255,7 @@ const tasks = [
         mat5: "3 Luminous Fiber",
         mat6: "5 Battlecraft Demimateria III",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -267,7 +267,7 @@ const tasks = [
         mat5: "Fiend Sap",
         mat6: "5 Battlecraft Demimateria III",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -279,7 +279,7 @@ const tasks = [
         mat5: "Demicrystal",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -291,7 +291,7 @@ const tasks = [
         mat5: "5 Demicrystal",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV "
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -303,7 +303,7 @@ const tasks = [
         mat5: "2 Kirimu Leather",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -315,7 +315,7 @@ const tasks = [
         mat5: "2 Kirimu Leather",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -327,7 +327,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -339,7 +339,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -351,7 +351,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -363,7 +363,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -375,7 +375,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",
@@ -387,7 +387,7 @@ const tasks = [
         mat5: "5 Marble",
         mat6: "X",
         catalysts: "3 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist IV \n"
+        special: "Unlocked w/ Master Alchemist IV"
     },
     {
         level: "60★★★",

@@ -18,9 +18,9 @@ const tasks = [
     },
     {
         level: "64",
-        name: "Rarefied Reisui ",
+        name: "Rarefied Reisui",
         mat1: "2 Gyr Abanian Mineral Water",
-        mat2: "2 Holy Basil ",
+        mat2: "2 Holy Basil",
         mat3: "2 Dandelion",
         mat4: "2 Diaomite",
         mat5: "X",

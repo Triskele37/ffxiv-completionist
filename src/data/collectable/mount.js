@@ -91,7 +91,7 @@ const tasks = [
     },
     {
         name: "Battle Panther",
-        method: "Awarded from the Achievement Tank You, Dark Knight III. ",
+        method: "Awarded from the Achievement Tank You, Dark Knight III.",
         patch: "4.0",
     },
     {
@@ -166,7 +166,7 @@ const tasks = [
     },
     {
         name: "Chocobo Carriage",
-        method: "",
+        method: "Available for purchase on the online store or via promotional bonuses.",
         patch: "5.3",
     },
     {
@@ -321,7 +321,7 @@ const tasks = [
     },
     {
         name: "Flying Chair",
-        method: "Crafted by Alchemist Level 70** with Master Alchemist V. ",
+        method: "Crafted by Alchemist Level 70** with Master Alchemist V.",
         patch: "4.1",
     },
     {
@@ -736,7 +736,7 @@ const tasks = [
     },
     {
         name: "Serpent Warsteed",
-        method: "Completion of the A Line in the Glade IV achievement. ",
+        method: "Completion of the A Line in the Glade IV achievement.",
         patch: "2.3",
     },
     {

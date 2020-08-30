@@ -9,7 +9,7 @@ const tasks = [
         level: "51",
         name: "Rainbow Cotton Boll",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x17,y16)",
         nodeTimer: ""
     }, {
@@ -23,7 +23,7 @@ const tasks = [
         level: "52",
         name: "Mist Dill",
         zone: "Coerthas Western Highlands",
-        closestAetheryte: "Tailfeather -> The Dravanian Forelands",
+        closestAetheryte: "Tailfeather -> Coerthas Western Highlands",
         coordinates: "(x17,y16)",
         nodeTimer: ""
     }, {

@@ -63,7 +63,7 @@ const tasks = [
     {
         level: "60",
         name: "Rarefied Serpentskin Hat",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hallowed Ramie Cloth",
         mat3: "Rose Gold Nugget",
         mat4: "X",

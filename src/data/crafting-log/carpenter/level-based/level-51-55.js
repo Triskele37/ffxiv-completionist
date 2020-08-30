@@ -63,7 +63,7 @@ const tasks = [
         mat5: "X",
         mat6: "X",
         catalysts: "3 Wind Crystal",
-        special: "Ingredient (CRP, GSM, ALC, BSM, FCC) "
+        special: "Ingredient (CRP, GSM, ALC, BSM, FCC)"
     },
     {
         level: "52",

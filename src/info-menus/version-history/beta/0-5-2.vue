@@ -221,12 +221,6 @@
                 </ul>
             </li>
         </ul>
-
-        <h3>Known Issues</h3>
-        <ul>
-            <li>Fishing/Spearfishing Log only tracks one form of completion</li>
-            <li>Mount Speed tasks track as completion with one form</li>
-        </ul>
     </div>
 </template>
 

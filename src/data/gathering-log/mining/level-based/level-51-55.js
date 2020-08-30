@@ -63,7 +63,7 @@ const tasks = [
         nodeTimer: ""
     }, {
         level: "54",
-        name: "Dravanian Spring Warer",
+        name: "Dravanian Spring Water",
         zone: "The Dravanian Forelands",
         closestAetheryte: "Tailfeather",
         coordinates: "(x27,y31)",

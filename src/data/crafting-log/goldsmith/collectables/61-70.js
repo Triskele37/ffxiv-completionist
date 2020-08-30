@@ -51,7 +51,7 @@ const tasks = [
     },
     {
         level: "70",
-        name: "Rarefied Palladium Needle ",
+        name: "Rarefied Palladium Needle",
         mat1: "2 Palladium Nugget",
         mat2: "Zelkova Lumber",
         mat3: "Slate Whetstone",

@@ -260,7 +260,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Hat of Casting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hallowed Ramie Cloth",
         mat3: "Rose Gold Nugget",
         mat4: "Grade 1 Intelligence Dissolvent",
@@ -272,7 +272,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Armguards of Striking",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Titanium Rivets",
         mat4: "2 Grade 1 Strength Dissolvent",
@@ -284,7 +284,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Armguards of Scouting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Titanium Rivets",
         mat4: "2 Grade 1 Dexterity Dissolvent",
@@ -296,7 +296,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Armguards of Aiming",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Titanium Rivets",
         mat4: "2 Grade 1 Dexterity Dissolvent",
@@ -308,7 +308,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Dress Gloves of Casting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Crawler Silk",
         mat3: "Jadeite",
         mat4: "Grade 1 Intelligence Dissolvent",
@@ -320,7 +320,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Ringbelt of Striking",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Grade 1 Strength Dissolvent",
         mat4: "X",
@@ -332,7 +332,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Ringbelt of Scouting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Grade 1 Dexterity Dissolvent",
         mat4: "X",
@@ -344,7 +344,7 @@ const tasks = [
     {
         level: "58",
         name: "Serpentskin Ringbelt of Aiming",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Titanium Ingot",
         mat3: "Grade 1 Dexterity Dissolvent",
         mat4: "X",
@@ -404,7 +404,7 @@ const tasks = [
     {
         level: "59",
         name: "Serpentskin Boots of Striking",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hardsilver Ingot",
         mat3: "Crawler Silk",
         mat4: "Rubber",
@@ -416,7 +416,7 @@ const tasks = [
     {
         level: "59",
         name: "Serpentskin Boots of Scouting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hardsilver Ingot",
         mat3: "Crawler Silk",
         mat4: "Rubber",
@@ -428,7 +428,7 @@ const tasks = [
     {
         level: "59",
         name: "Serpentskin Boots of Aiming",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hardsilver Ingot",
         mat3: "Crawler Silk",
         mat4: "Rubber",
@@ -440,7 +440,7 @@ const tasks = [
     {
         level: "59",
         name: "Serpentskin Thighboots of Casting",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hallowed Ramie Cloth",
         mat3: "Titanium Ingot",
         mat4: "Rubber",
@@ -452,7 +452,7 @@ const tasks = [
     {
         level: "59",
         name: "Serpentskin Thighboots of Healing",
-        mat1: "2 Amphipter Leather",
+        mat1: "2 Amphiptere Leather",
         mat2: "Hallowed Ramie Cloth",
         mat3: "Titanium Ingot",
         mat4: "Rubber",

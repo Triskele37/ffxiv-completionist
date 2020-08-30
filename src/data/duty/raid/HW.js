@@ -64,7 +64,7 @@ const tasks = [
     	iLvlReq: "200",
     	name: "Alexander - The Cuff of the Son",
     	roulette: "Normal Raids",
-    	unlock: "The Folley of Youth"
+    	unlock: "The Folly of Youth"
     }, {
     	level: "60",
     	iLvlReq: "200",

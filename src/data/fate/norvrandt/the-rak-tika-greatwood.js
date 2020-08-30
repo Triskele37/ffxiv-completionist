@@ -8,7 +8,7 @@ const tasks = [
     {
         level: "74",
         name: "Attack of the Killer Tomatl",
-        location: "The Citia Swamps ",
+        location: "The Citia Swamps",
         type: "Notorious Monster"
     }, {
         level: "74",

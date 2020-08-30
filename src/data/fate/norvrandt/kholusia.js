@@ -27,7 +27,7 @@ const tasks = [
         type: "Slay Enemies"
     }, {
         level: "70",
-        name: "Shadow of Stilltide",
+        name: "Shadow over Stilltide",
         location: "The Bright Cliff (31.8-24.8)",
         type: "Slay Enemies"
     }, {

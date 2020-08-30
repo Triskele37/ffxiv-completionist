@@ -89,4 +89,16 @@ const tasks = [
         catalysts: "Water Shard",
         special: "Buyable, Ingredient (ALC, CRP), Levequest"
     },
+    {
+        level: "15",
+        name: "Ether",
+        mat1: "Distilled Water",
+        mat2: "Tinolqa Mistletoe",
+        mat3: "Imp Wing",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Water Shard, Lightning Shard",
+        special: "Buyable, Levequest, Provisioning"
+    },
 ];

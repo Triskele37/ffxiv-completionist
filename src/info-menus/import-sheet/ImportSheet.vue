@@ -13,6 +13,8 @@
                 <li>Green: Items were imported and saved</li>
                 <li>Red: Some name/s in a row could not be found, successful matches still saved</li>
             </ul>
+
+            <p>Please note, Aether Current & Shared FATE sheets cannot currently be imported</p>
         </div>
 
         <div class="section-container">
