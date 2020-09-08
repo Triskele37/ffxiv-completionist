@@ -14,7 +14,8 @@
     "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
-    "data:build": "node xivapi/dataBuilder.js"
+    "data:build": "node xivapi/dataBuilder.js",
+    "convertSheet": "node scripts/convertSheetToJson.js"
   },
   "build": {
     "productName": "ffxiv-completionist",
