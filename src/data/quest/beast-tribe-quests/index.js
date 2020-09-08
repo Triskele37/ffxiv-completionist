@@ -17,6 +17,8 @@ import { Quests_Beast_Tribe_Dwarf } from "./dwarf";
 
 export const Quests_Beast_Tribe = function(parent) {
     const data = new DataGroup("Beast Tribe", parent);
+    data.name_fr = "Tribale";
+
     data.columnConfig = [
         {
             header: "Level",

@@ -1,11 +1,16 @@
 import { DataGroup } from "../DataGroup";
 
 export const Gathering_Log_Folklore_Gathering_Books = function(parent) {
-    return new DataGroup("Folklore Gathering Books", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Folklore Gathering Books", parent);
+    data.name_fr = "Livres de folklores";
+
+    data.initializeTasks(tasks, [
         { key: "name", header: "Book" },
         { key: "npc", header: "NPC" },
         { key: "requirements", header: "Requirements" }
     ]);
+
+    return data;
 };
 
 const tasks = [

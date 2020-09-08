@@ -23,6 +23,8 @@ import { Quests_Sidequests_Tempest } from './tempest';
 
 export const Quests_Sidequests = function(parent) {
     const data = new DataGroup("Sidequests", parent);
+    data.name_fr = "Quêtes Annexes";
+
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

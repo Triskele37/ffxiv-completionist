@@ -7,6 +7,8 @@ import { General_Logs_Blue_Mage_Log_Raids } from "./raid";
 
 export const General_Logs_Blue_Mage_Log = function(parent) {
     const data = new DataGroup("Log", parent);
+    data.name_fr = "Carnet";
+
     data.columnConfig = BlueMageLogColumnConfig;
 
     data.initializeSubGroups([

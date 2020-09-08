@@ -7,6 +7,8 @@ import { Quests_Other_Special } from "./special-quests";
 
 export const Quests_Other = function(parent) {
     const data = new DataGroup("Other", parent);
+    data.name_fr = "Autres Quêtes";
+
     data.columnConfig = SimpleQuestColumnConfig;
 
     data.initializeSubGroups([

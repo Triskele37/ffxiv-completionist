@@ -6,7 +6,6 @@
         <br/>
 
         <h3>The Notes:</h3>
-        <p>Importing is currently being reworked and is thus disabled</p>
         <p>Working on a way to hit XIVAPI to pull new data without breaking existing data (such as quests and achievements in 0.5.25)</p>
 
         <br/>

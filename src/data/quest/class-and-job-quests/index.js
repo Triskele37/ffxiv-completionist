@@ -12,6 +12,8 @@ import { Quests_Class_and_Job_Role } from "./role-quests";
 
 export const Quests_Class_and_Job = function(parent) {
     const data = new DataGroup("Class & Job", parent);
+    data.name_fr = "Classe & Job";
+
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

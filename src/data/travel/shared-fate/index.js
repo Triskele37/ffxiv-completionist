@@ -10,7 +10,7 @@ import { Travel_Shared_FATE_The_Tempest } from "./the-tempest";
 export const Travel_Shared_FATE = function(parent) {
     const data = new DataGroup("Shared FATE", parent);
     data.name_en = "Shared FATE";
-    data.name_fr = "Partagé d'Aléa";
+    data.name_fr = "Rangs d'Aléa";
 
     data.columnConfig = [
         { header: "Rank", key: "name" },

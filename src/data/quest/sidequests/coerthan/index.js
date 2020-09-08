@@ -4,8 +4,13 @@ import { Quests_Sidequests_Coerthan_Coerthas_Central_Highlands } from "./coertha
 import { Quests_Sidequests_Coerthan_Coerthas_Western_Highlands } from "./coerthas-western-highlands";
 
 export const Quests_Sidequests_Coerthan = function(parent) {
-    return new DataGroup("Coerthan", parent).initializeSubGroups([
+    const data = new DataGroup("Coerthan", parent);
+    data.name_fr = "Coerthas";
+
+    data.initializeSubGroups([
         Quests_Sidequests_Coerthan_Coerthas_Central_Highlands,
         Quests_Sidequests_Coerthan_Coerthas_Western_Highlands,
     ]);
+
+    return data;
 };

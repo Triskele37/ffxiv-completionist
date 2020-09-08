@@ -8,7 +8,10 @@ import { Crafting_Log_Carpenter_Ishgard_Restoration } from "./ishgard-restoratio
 import { Crafting_Log_Carpenter_Collectables } from "./collectables";
 
 export const Crafting_Log_Carpenter = function(parent) {
-    return new DataGroup("Carpenter", parent).initializeSubGroups([
+    const data = new DataGroup("Carpenter", parent);
+    data.name_fr = "Menuiserie";
+
+    data.initializeSubGroups([
         Crafting_Log_Carpenter_Level_Based,
         Crafting_Log_Carpenter_Master_Recipes,
         Crafting_Log_Carpenter_Housing,
@@ -16,4 +19,6 @@ export const Crafting_Log_Carpenter = function(parent) {
         Crafting_Log_Carpenter_Ishgard_Restoration,
         Crafting_Log_Carpenter_Collectables,
     ]);
+
+    return data;
 };

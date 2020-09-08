@@ -50,10 +50,10 @@ export const CraftingLogColumnConfig = [{
     filterable: true,
     centered: true,
   },
-  {
-    header: "Special",
-    key: "special",
-    filterable: true,
-    centered: true,
-  },
+  // {
+  //   header: "Special",
+  //   key: "special",
+  //   filterable: true,
+  //   centered: true,
+  // },
 ];

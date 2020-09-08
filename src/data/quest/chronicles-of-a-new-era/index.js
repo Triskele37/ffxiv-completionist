@@ -16,6 +16,8 @@ import { Quests_Chronicles_of_a_New_Era_The_Sorrow_of_Werlyt } from "./the-sorro
 
 export const Quests_Chronicles_of_a_New_Era = function(parent) {
     const data = new DataGroup("Chronicles of a New Era", parent);
+    data.name_fr = "Chroniques d'une Nouvelle Ère";
+
     data.columnConfig = QuestColumnConfig;
 
     data.initializeSubGroups([

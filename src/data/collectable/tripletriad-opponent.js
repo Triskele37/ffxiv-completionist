@@ -1,7 +1,10 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Triple_Triad_Opponents = function(parent) {
-    return new DataGroup("Triple Triad Opponents", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Triple Triad Opponents", parent);
+    data.name_fr = "Adversaires de Triple Triade";
+
+    data.initializeTasks(tasks, [
         {
             header: "Deck Strength",
             key: "deckStrength",
@@ -23,6 +26,8 @@ export const Collectables_Triple_Triad_Opponents = function(parent) {
         },
         { header: "Patch", key: "patch", filterable: true },
     ]);
+
+    return data;
 };
 
 const tasks = [

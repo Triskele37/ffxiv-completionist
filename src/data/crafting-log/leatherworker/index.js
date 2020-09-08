@@ -8,7 +8,10 @@ import { Crafting_Log_Leatherworker_Ishgard_Restoration } from "./ishgard-restor
 import { Crafting_Log_Leatherworker_Collectables } from "./collectables";
 
 export const Crafting_Log_Leatherworker = function(parent) {
-    return new DataGroup("Leatherworker", parent).initializeSubGroups([
+    const data = new DataGroup("Leatherworker", parent);
+    data.name_fr = "Tannage";
+
+    data.initializeSubGroups([
         Crafting_Log_Leatherworker_Level_Based,
         Crafting_Log_Leatherworker_Master_Recipes,
         Crafting_Log_Leatherworker_Housing,
@@ -16,4 +19,6 @@ export const Crafting_Log_Leatherworker = function(parent) {
         Crafting_Log_Leatherworker_Ishgard_Restoration,
         Crafting_Log_Leatherworker_Collectables,
     ]);
+
+    return data;
 };

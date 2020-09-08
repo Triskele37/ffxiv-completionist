@@ -1,7 +1,10 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Triple_Triad_Card_List = function(parent) {
-    return new DataGroup("Triple Triad Card List", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Triple Triad Card List", parent);
+    data.name_fr = "Cartes de Triple Triade";
+
+    data.initializeTasks(tasks, [
         { header: "Card", key: "name" },
         {
             header: "Rarity",
@@ -14,6 +17,8 @@ export const Collectables_Triple_Triad_Card_List = function(parent) {
         { header: "Acquired By", key: "acquiredBy" },
         { header: "Patch", key: "patch", filterable: true },
     ]);
+
+    return data;
 };
 
 const tasks = [

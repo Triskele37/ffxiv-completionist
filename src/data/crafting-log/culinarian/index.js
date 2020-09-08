@@ -8,7 +8,10 @@ import { Crafting_Log_Culinarian_Ishgard_Restoration } from "./ishgard-restorati
 import { Crafting_Log_Culinarian_Collectables } from "./collectables";
 
 export const Crafting_Log_Culinarian = function(parent) {
-    return new DataGroup("Culinarian", parent).initializeSubGroups([
+    const data = new DataGroup("Culinarian", parent);
+    data.name_fr = "Culinaire";
+
+    data.initializeSubGroups([
         Crafting_Log_Culinarian_Level_Based,
         Crafting_Log_Culinarian_Master_Recipes,
         Crafting_Log_Culinarian_Housing,
@@ -16,4 +19,6 @@ export const Crafting_Log_Culinarian = function(parent) {
         Crafting_Log_Culinarian_Ishgard_Restoration,
         Crafting_Log_Culinarian_Collectables,
     ]);
+
+    return data;
 };

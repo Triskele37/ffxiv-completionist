@@ -41,6 +41,6 @@ export const FishingGuideColumnConfig = [
     { header: "Fishing Holes", key: "fishingHoles" },
     { header: "Type", key: "type", filterable: true },
     { header: "Bait", key: "bait", filterable: true },
-    { header: "Usages", key: "usage" },
-    { header: "Special", key: "special" },
+    // { header: "Usages", key: "usage" },
+    // { header: "Special", key: "special" },
 ];

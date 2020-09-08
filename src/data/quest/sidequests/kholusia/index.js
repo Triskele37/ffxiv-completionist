@@ -4,7 +4,14 @@ import tasks from "../../../../../static/quest/sidequests/kholusia-sidequests/kh
 import { Quests_Sidequests_Kholusia_Eulmore } from "./eulmore";
 
 export const Quests_Sidequests_Kholusia = function(parent) {
-    return new DataGroup("Kholusia", parent).initializeSubGroups([
+    const data = new DataGroup("Kholusia", parent);
+    data.name_fr = "Kholusia";
+
+    data.initializeSubGroups([
         Quests_Sidequests_Kholusia_Eulmore,
-    ]).initializeTasks(tasks);
+    ]);
+
+    data.initializeTasks(tasks);
+
+    return data;
 };

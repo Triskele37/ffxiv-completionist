@@ -18,7 +18,7 @@ import { FATEs_Norvrandt } from "./norvrandt";
 export const FATEs = function(parent) {
     const data = new DataGroup("FATEs", parent);
     data.name_en = "FATEs";
-    data.name_fr = "ALÉAs";
+    data.name_fr = "Aléas";
 
     data.columnConfig = FATEColumnConfig;
 

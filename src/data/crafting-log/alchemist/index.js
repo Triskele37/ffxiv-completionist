@@ -9,7 +9,10 @@ import { Crafting_Log_Alchemist_Ishgard_Restoration } from "./ishgard-restoratio
 import { Crafting_Log_Alchemist_Collectables } from "./collectables";
 
 export const Crafting_Log_Alchemist = function(parent) {
-    return new DataGroup("Alchemist", parent).initializeSubGroups([
+    const data = new DataGroup("Alchemist", parent);
+    data.name_fr = "Alchimie";
+
+    data.initializeSubGroups([
         Crafting_Log_Alchemist_Level_Based,
         Crafting_Log_Alchemist_Master_Recipes,
         Crafting_Log_Alchemist_Housing,
@@ -18,4 +21,6 @@ export const Crafting_Log_Alchemist = function(parent) {
         Crafting_Log_Alchemist_Ishgard_Restoration,
         Crafting_Log_Alchemist_Collectables,
     ]);
+
+    return data;
 };

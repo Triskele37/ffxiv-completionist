@@ -13,7 +13,10 @@ import { Collectables_Triple_Triad_Card_List } from "./tripletriad-card";
 import { Collectables_Triple_Triad_Opponents } from "./tripletriad-opponent";
 
 export const Collectables = function(parent) {
-	return new DataGroup("Collectables", parent).initializeSubGroups([
+    const data = new DataGroup("Collectables", parent);
+    data.name_fr = "Collection";
+
+    data.initializeSubGroups([
         Collectables_Aesthetician,
         Collectables_Barding,
         Collectables_Collection,
@@ -25,5 +28,7 @@ export const Collectables = function(parent) {
         Collectables_Relic_Gear,
         Collectables_Triple_Triad_Card_List,
         Collectables_Triple_Triad_Opponents,
-	]);
+    ]);
+
+    return data;
 };

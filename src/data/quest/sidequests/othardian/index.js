@@ -5,9 +5,14 @@ import { Quests_Sidequests_Othardian_Yanxia } from "./yanxia";
 import { Quests_Sidequests_Othardian_The_Azim_Steppe } from "./the-azim-steppe";
 
 export const Quests_Sidequests_Othardian = function(parent) {
-    return new DataGroup("Othardian", parent).initializeSubGroups([
+    const data = new DataGroup("Othardian", parent);
+    data.name_fr = "Othard";
+
+    data.initializeSubGroups([
         Quests_Sidequests_Othardian_The_Ruby_Sea,
         Quests_Sidequests_Othardian_Yanxia,
         Quests_Sidequests_Othardian_The_Azim_Steppe,
     ]);
+
+    return data;
 };

@@ -51,15 +51,14 @@ export class ChangeStore {
         }
     }
 
-    //
+    // Dives a given path, creating object along the way, returning the final object
     dive(path) {
         const split = path.split('.');
 
-        // dive path 'stop' indexes back
         let cur = this.store;
         for(let i = 0; i < split.length; i++) {
+            if(!cur[split[i]]) cur[split[i]] = {};
             cur = cur[split[i]];
-            if(!cur) return null;
         }
 
         return cur;

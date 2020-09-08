@@ -14,6 +14,8 @@ import { Crafting_Log_Shared } from "./shared";
 
 export const Crafting_Log = function(parent) {
     const data = new DataGroup("Crafting Log", parent);
+    data.name_fr = "Carnet d'Artisanat";
+
     data.columnConfig = CraftingLogColumnConfig;
 
     data.initializeSubGroups([

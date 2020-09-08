@@ -8,7 +8,10 @@ import { Crafting_Log_Goldsmith_Ishgard_Restoration } from "./ishgard-restoratio
 import { Crafting_Log_Goldsmith_Collectables } from "./collectables";
 
 export const Crafting_Log_Goldsmith = function(parent) {
-    return new DataGroup("Goldsmith", parent).initializeSubGroups([
+    const data = new DataGroup("Goldsmith", parent);
+    data.name_fr = "Orfèvrerie";
+
+    data.initializeSubGroups([
         Crafting_Log_Goldsmith_Level_Based,
         Crafting_Log_Goldsmith_Master_Recipes,
         Crafting_Log_Goldsmith_Housing,
@@ -16,4 +19,6 @@ export const Crafting_Log_Goldsmith = function(parent) {
         Crafting_Log_Goldsmith_Ishgard_Restoration,
         Crafting_Log_Goldsmith_Collectables,
     ]);
+
+    return data;
 };

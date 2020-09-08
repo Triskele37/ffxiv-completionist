@@ -21,7 +21,10 @@ import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main } from "./ishg
 import { Quests_Sidequests_Side_Story_Ishgardian_Restoration_Side } from "./ishgardian-restoration-sidequests";
 
 export const Quests_Sidequests_Side_Story = function(parent) {
-    return new DataGroup("Side Story", parent).initializeSubGroups([
+    const data = new DataGroup("Side Story", parent);
+    data.name_fr = "Histoires Annexes";
+
+    data.initializeSubGroups([
         Quests_Sidequests_Side_Story_Hildibrand,
         Quests_Sidequests_Side_Story_Further_Hildibrand_Adventures,
         Quests_Sidequests_Side_Story_Even_Further_Hildibrand_Adventures,
@@ -42,4 +45,6 @@ export const Quests_Sidequests_Side_Story = function(parent) {
         Quests_Sidequests_Side_Story_Ishgardian_Restoration_Main,
         Quests_Sidequests_Side_Story_Ishgardian_Restoration_Side,
     ]);
+
+    return data;
 };

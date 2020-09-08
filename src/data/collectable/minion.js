@@ -1,12 +1,17 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Minion_Guide = function(parent) {
-    return new DataGroup("Minion Guide", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Minion Guide", parent);
+    data.name_fr = "Mascottes";
+
+    data.initializeTasks(tasks, [
         { header: "Minion", key: "name", },
         { header: "Method Type", key: "methodType", },
         { header: "method", key: "method" },
         { header: "Patch", key: "patch", filterable: true },
     ]);
+
+    return data;
 };
 
 const tasks = [

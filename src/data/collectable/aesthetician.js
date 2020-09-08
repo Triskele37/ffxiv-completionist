@@ -1,13 +1,18 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Aesthetician = function(parent) {
-    return new DataGroup("Aesthetician", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Aesthetician", parent);
+    data.name_fr = "Esthéticien";
+
+    data.initializeTasks(tasks, [
         { header: 'Hairstyle / Face Paint', key: 'name', },
         { header: 'Location', key: 'location', filterable: true },
         { header: 'Method', key: 'method' },
         { header: 'Gender', key: 'gender', filterable: true },
         { header: 'Patch', key: 'patch', filterable: true }
     ]);
+
+    return data;
 };
 
 const tasks = [

@@ -13,6 +13,8 @@ import { Collectables_Orchestrion_List_Mog_Station } from "./mogstation";
 
 export const Collectables_Orchestrion_List = function(parent) {
     const data = new DataGroup("Orchestrion List", parent);
+    data.name_fr = "Orchestrion";
+
     data.columnConfig = [
         {
             header: 'Number',

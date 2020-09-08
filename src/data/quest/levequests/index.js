@@ -15,6 +15,7 @@ import { Quests_Levequests_Cooking } from "./tradecraft/cooking-leves";
 
 export const Quests_Levequests = function(parent) {
     const data = new DataGroup("Levequests", parent);
+    data.name_fr = "Mandats";
 
     data.columnConfig = [
         { header: "Level", key: "level", centered: true },

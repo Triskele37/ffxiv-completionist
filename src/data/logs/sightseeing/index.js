@@ -8,6 +8,8 @@ import { General_Logs_Sightseeing_Log_ShB } from "./ShB";
 
 export const General_Logs_Sightseeing_Log = function(parent) {
     const data = new DataGroup("Sightseeing Log", parent);
+    data.name_fr = "Carnet d'Exploration";
+
     data.columnConfig = SightseeingLogColumnConfig;
 
     data.initializeSubGroups([

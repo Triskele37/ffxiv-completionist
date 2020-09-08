@@ -1,12 +1,17 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Emotes = function(parent) {
-    return new DataGroup("Emotes", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Emotes", parent);
+    data.name_fr = "Emotes";
+
+    data.initializeTasks(tasks, [
         { header: 'Emote', key: 'name', },
         { header: 'Command', key: 'command', },
         { header: 'Method', key: 'method' },
         { header: 'Patch', key: 'patch', filterable: true },
     ]);
+
+    return data;
 };
 
 const tasks = [

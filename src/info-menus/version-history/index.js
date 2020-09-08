@@ -2,7 +2,7 @@ import * as BetaVersions from "./beta";
 
 export const versionHistory = {
     name: "Version History",
-    component: BetaVersions.version_0_5_3,
+    component: BetaVersions.version_0_5_31,
     subGroups: [
         ...Object.keys(BetaVersions).map((key) => ({
             name: key.replace('version_', '').replace(/_/g, '.'),

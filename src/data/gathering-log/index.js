@@ -11,7 +11,10 @@ import { Gathering_Log_Fishing } from "./fishing";
 import { Gathering_Log_Spearfishing } from "./spearfishing";
 
 export const Gathering_Log = function(parent) {
-    return new DataGroup("Gathering Log", parent).initializeSubGroups([
+    const data = new DataGroup("Gathering Log", parent);
+    data.name_fr = "Carnet de Récolte";
+
+    data.initializeSubGroups([
         Gathering_Log_Folklore_Gathering_Books,
         Gathering_Log_Mining,
         Gathering_Log_Quarrying,
@@ -20,4 +23,6 @@ export const Gathering_Log = function(parent) {
         Gathering_Log_Fishing,
         Gathering_Log_Spearfishing,
 	]);
+
+    return data;
 };

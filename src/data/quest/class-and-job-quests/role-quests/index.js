@@ -7,10 +7,15 @@ import { Quests_Class_and_Job_Role_Physical_DPS } from "./physical-dps-quests";
 import { Quests_Class_and_Job_Role_Magical_DPS } from "./magical-dps-quests";
 
 export const Quests_Class_and_Job_Role = function(parent) {
-    return new DataGroup("Role", parent).initializeSubGroups([
+    const data = new DataGroup("Role", parent);
+    data.name_fr = "Rôle";
+
+    data.initializeSubGroups([
         Quests_Class_and_Job_Role_Tank,
         Quests_Class_and_Job_Role_Healer,
         Quests_Class_and_Job_Role_Physical_DPS,
         Quests_Class_and_Job_Role_Magical_DPS,
     ]).initializeTasks(tasks);
+
+    return data;
 };

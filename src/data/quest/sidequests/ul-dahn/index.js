@@ -12,6 +12,7 @@ import { Quests_Sidequests_Ul_Dahn_Northern_Thanalan } from "./northern-thanalan
 
 export const Quests_Sidequests_Ul_Dahn = function(parent) {
     const data = new DataGroup("Ul'Dahn", parent);
+    data.name_fr = "Thanalan";
 
     data.initializeSubGroups([
         Quests_Sidequests_Ul_Dahn_Ul_Dah,

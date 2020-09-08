@@ -1,11 +1,16 @@
 import { DataGroup } from "../DataGroup";
 
 export const Crafting_Log_Master_Crafting_Books = function(parent) {
-    return new DataGroup("Master Crafting Books", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Master Crafting Books", parent);
+    data.name_fr = "Livres d'artisanat expert";
+
+    data.initializeTasks(tasks, [
         { key: 'name', header: 'Book' },
         { key: 'npc', header: 'NPC' },
         { key: 'requirements', header: 'Requirements' }
     ]);
+
+    return data;
 };
 
 const tasks = [

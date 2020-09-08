@@ -16,6 +16,8 @@ import { General_Logs_Hunting_Log_Immortal_Flames } from "./immortal-flames";
 
 export const General_Logs_Hunting_Log = function(parent) {
     const data = new DataGroup("Hunting Log", parent);
+    data.name_fr = "Bestiaire";
+
     data.columnConfig = HuntingLogColumnConfig;
 
     data.initializeSubGroups([

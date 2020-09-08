@@ -1,12 +1,17 @@
 import { DataGroup } from "../DataGroup";
 
 export const Travel_Porters = function(parent) {
-    return new DataGroup("Porters", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Porters", parent);
+    data.name_fr = "Palefrenier";
+
+    data.initializeTasks(tasks, [
         { key: 'type', header: 'Type', filterable: true },
         { key: 'region', header: 'Region', filterable: true },
         { key: 'zone', header: 'Zone', filterable: true },
         { key: 'name', header: 'Location' },
     ]);
+
+    return data;
 };
 
 const tasks = [

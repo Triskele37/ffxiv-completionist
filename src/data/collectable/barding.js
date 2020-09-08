@@ -1,11 +1,16 @@
 import { DataGroup } from "../DataGroup";
 
 export const Collectables_Barding = function(parent) {
-    return new DataGroup("Barding", parent).initializeTasks(tasks, [
+    const data = new DataGroup("Barding", parent);
+    data.name_fr = "Bardes";
+
+    data.initializeTasks(tasks, [
         { header: 'Barding', key: 'name', },
         { header: 'Method', key: 'method' },
         { header: 'Patch', key: 'patch', filterable: true },
     ]);
+
+    return data;
 };
 
 const tasks = [
