@@ -1,3 +1,4 @@
+import { eStore } from "../store/electronStore";
 import { DataGroup } from "./DataGroup";
 
 import { Achievements } from "./achievement";
@@ -10,19 +11,7 @@ import { FATEs } from "./fate";
 import { Travel } from "./travel";
 import { Quests } from "./quest";
 
-/*
-Missing Sections:
-    Duty > Collection
-    Duty > Trust
-    Duty > GC
-
-Missing Data:
-    a few Legacy Achievement categories
-    full list of special/seasonal quests
-*/
-
 const data = new DataGroup("Overall", null);
-data.name_en = "Overall";
 data.name_fr = "Global";
 
 data.initializeSubGroups([
@@ -36,5 +25,8 @@ data.initializeSubGroups([
     Travel,
     Quests,
 ]);
+
+// Must be set after data initializes
+data.lang = eStore.get('lang');
 
 export { data };

@@ -19,7 +19,7 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Construction
     constructor(name, parent) {
-        this.tempName = name;
+        this.name_en = name;
         this._parent = parent;
         this.lang = 'en';
 
@@ -91,14 +91,14 @@ export class DataGroup {
     sg(subGroupName) {
         if(!this.subGroups) return null;
         for(let i = 0; i < this.subGroups.length; i++) {
-            if(this.subGroups[i].tempName === subGroupName) return this.subGroups[i];
+            if(this.subGroups[i].name_en === subGroupName) return this.subGroups[i];
         }
         return null;
     }
 
     //------------------------------------------------------------------ Getters
     get _storageKey() {
-        return this.tempName
+        return this.name_en
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
@@ -124,7 +124,7 @@ export class DataGroup {
 
     set lang(newLang) {
         this._lang = newLang;
-        this.name = this[`name_${newLang}`] || this.name_en || this.tempName;
+        this.name = this[`name_${newLang}`] || this.name_en;
 
         (this.subGroups || []).forEach((subGroup) => {
             subGroup.lang = newLang;
