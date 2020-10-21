@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Crystal, Wind Crystal",
-        special: "Buyable, Unlocked w/ Master Weaver: Glamours"
+        catalysts: "Lightning Crystal, Wind Crystal"
     },
     {
         level: "50★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "50★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Cashmere Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -170,7 +157,6 @@ const tasks = [
         mat4: "2 Cashmere Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver: Demimateria"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 2 Earth Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Fire Shard, 2 Earth Shard"
     }, {
         level: "40",
         name: "Skybuilders' Nails",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 2 Earth Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Fire Shard, 2 Earth Shard"
     }, {
         level: "60",
         name: "Skybuilders' Hammer",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 2 Earth Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "70",
         name: "Skybuilders' Crosscut Saw",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Pine Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 2 Earth Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "80",
         name: "Skybuilders' Oven",
@@ -58,7 +54,6 @@ const tasks = [
         mat4: "Bluespirit Tile",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 2 Earth Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Fire Crystal, 2 Earth Crystal"
     },
 ];

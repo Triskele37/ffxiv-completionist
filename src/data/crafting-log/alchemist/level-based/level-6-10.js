@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "7",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Buyable, Ingredient (LTW, WVR), Levequest"
+        catalysts: "Water Shard"
     },
     {
         level: "8",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Hempen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "8",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Ingredient (ALC), Levequest"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "10",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Buyable, Ingredient (BSM, CRP)"
+        catalysts: "Water Shard"
     },
     {
         level: "10",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Ingredient (BSM, CRP, LTW)"
+        catalysts: "Water Shard"
     },
     {
         level: "10",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Buyable, Ingredient (ALC, ARM, BSM, CRP, CUL, WVR), Levequest"
+        catalysts: "Water Shard"
     },
     {
         level: "10",
@@ -98,7 +91,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
 ];

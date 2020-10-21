@@ -14,8 +14,7 @@ const tasks = [
         mat4: "3 Wootz Ingot",
         mat5: "2 Kirimu Leather",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist II"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Enchanted Gold Ink",
         mat5: "Large Levin Orb",
         mat6: "Battlecraft Demimateria III",
-        catalysts: "4 Lightning Cluster",
-        special: ""
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "3 Ebony Lumber",
         mat5: "2 Kirimu Leather",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist II"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Enchanted Gold Ink",
         mat5: "Large Levin Orb",
         mat6: "Battlecraft Demimateria III",
-        catalysts: "4 Lightning Cluster",
-        special: ""
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist II"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "50★★★★",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
 ];

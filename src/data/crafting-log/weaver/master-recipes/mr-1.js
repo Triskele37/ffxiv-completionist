@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "11 Lightning Shard, 10 Wind Shard",
-        special: "Trade, Ingredient (WVR), Unlocked w/ Master Weaver I"
+        catalysts: "11 Lightning Shard, 10 Wind Shard"
     },
     {
         level: "50★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     },
     {
         level: "50★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Crystal, 5 Wind Crystal",
-        special: "Housing (Flooring), Unlocked w/ Master Weaver I"
+        catalysts: "5 Lightning Crystal, 5 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Lightning Shard, 11 Wind Shard",
-        special: "Trade, Unlocked w/ Master Weaver I"
+        catalysts: "12 Lightning Shard, 11 Wind Shard"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Weaver I"
+        catalysts: "3 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Ingredient (WVR, GSM, ALC, CRP, BSM, LTW), Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Effervescent Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "Wildfowl Feather",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "8 Crow Feather",
         mat5: "2 Eagle Feather",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Sylphic Silk",
         mat5: "3 Mega-Potion of Intelligence",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Ingredient (WVR), Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Silk Thread",
         mat5: "Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Ingredient (WVR), Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Woolen Yarn",
         mat5: "Sapphire",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "2 Silk Thread",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Silk Thread",
         mat6: "Rose Gold Nugget",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Silk Thread",
         mat5: "Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Silk Thread",
         mat5: "Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Woolen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver I"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "53",
@@ -230,7 +212,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Ingredient (CRP, FCC), Unlocked w/ Master Weaver I"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
 ];

@@ -6,8 +6,8 @@ export const Collectables_Minion_Guide = function(parent) {
 
     data.initializeTasks(tasks, [
         { header: "Minion", key: "name", },
-        { header: "Method Type", key: "methodType", },
-        { header: "method", key: "method" },
+        { header: "Category", key: "category", filterable: true },
+        { header: "Source", key: "source" },
         { header: "Patch", key: "patch", filterable: true },
     ]);
 
@@ -16,2283 +16,2295 @@ export const Collectables_Minion_Guide = function(parent) {
 
 const tasks = [
     {
-        name: "2B Automaton",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Puppets' Bunker",
-        patch: "5.3"
+        "name_en": "2B Automaton",
+        "category": "Raid",
+        "source": "The Puppets' Bunker",
+        "patch": "5.3"
     },
     {
-        name: "2P Automaton",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Puppets' Bunker",
-        patch: "5.3"
+        "name_en": "2P Automaton",
+        "category": "Raid",
+        "source": "The Puppets' Bunker",
+        "patch": "5.3"
     },
     {
-        name: "Abroader Otter",
-        methodType: "Voyages",
-        method: "Deep Sea Site 7 Voyage",
-        patch: "4.45"
+        "name_en": "Abroader Otter",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages",
+        "patch": "4.45"
     },
     {
-        name: "Accompaniment Node",
-        methodType: "Quest Reward",
-        method: "Complete the Level 60 sidequest Do It for Gilly.",
-        patch: "3.0"
+        "name_en": "Accompaniment Node",
+        "category": "Quest",
+        "source": "Do It for Gilly",
+        "patch": "3.0"
     },
     {
-        name: "Allagan Melon",
-        methodType: "Gardening",
-        method: "Gardening",
-        patch: "5.3"
+        "name_en": "Allagan Melon",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "5.3"
     },
     {
-        name: "Ancient One",
-        methodType: "Duty",
-        method: "Drops from Anamnesis Anyder Duty",
-        patch: "5.2"
+        "name_en": "Ancient One",
+        "category": "Dungeon",
+        "source": "Anamnesis Anyder",
+        "patch": "5.2"
     },
     {
-        name: "Angel of Mercy",
-        methodType: "Seasonal Event",
-        method: "Acquired in Valentione's Day (2017). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.5"
+        "name_en": "Angel of Mercy",
+        "category": "Event / Premium",
+        "source": "Valentione's Day (2017) / Final Fantasy XIV Online Store",
+        "patch": "3.5"
     },
     {
-        name: "Anima",
-        methodType: "Quest Reward",
-        method: "Body and Soul Anima Relic Weapon Quest",
-        patch: "3.5"
+        "name_en": "Anima",
+        "category": "Quest",
+        "source": "Body and Soul",
+        "patch": "3.5"
     },
     {
-        name: "Armadillo Bowler",
-        methodType: "Duty",
-        method: "Drops from Malikah's Well Duty",
-        patch: "5.0"
+        "name_en": "Armadillo Bowler",
+        "category": "Dungeon",
+        "source": "Malikah's Well",
+        "patch": "5.0"
     },
     {
-        name: "Assassin Fry",
-        methodType: "Crafted",
-        method: "Obtained from Desynthesizing of Ninja Betta.",
-        patch: "2.4"
+        "name_en": "Assassin Fry",
+        "category": "Other",
+        "source": "Desynthesize a Ninja Betta",
+        "patch": "2.4"
     },
     {
-        name: "Atrophied Atomos",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Alchemist.",
-        patch: "3.0"
+        "name_en": "Atrophied Atomos",
+        "category": "Crafting / Skybuilders",
+        "source": "Crafted by Alchemist / Kupo of Fortune",
+        "patch": "3.0"
     },
     {
-        name: "Attendee #777",
-        methodType: "Purchased",
-        method: "Bought for 7 Namazu Koban from Gyosho at Trusted (or higher) Beast Tribe Reputation.",
-        patch: "4.3"
+        "name_en": "Attendee #777",
+        "category": "Beast Tribe",
+        "source": "Gyosho - Dhoro Iloh - 7 Namazu Koban",
+        "patch": "4.3"
     },
     {
-        name: "Aurelia Polyp",
-        methodType: "Voyages",
-        method: "Subaquatic Voyages",
-        patch: "4.2"
+        "name_en": "Aurelia Polyp",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages",
+        "patch": "4.2"
     },
     {
-        name: "Axolotl Eft",
-        methodType: "Retainer Ventures",
-        method: "Waterside Exploration XXII Fisher Retainer Venture or Quick Exploration",
-        patch: "4.1"
+        "name_en": "Axolotl Eft",
+        "category": "Venture",
+        "source": "Waterside Exploration XXII / Quick Exploration",
+        "patch": "4.1"
     },
     {
-        name: "Baby Bat",
-        methodType: "Purchased",
-        method: "From Junkmonger Nonoroon for 2,400 gil in Poor Maid's Mill, Upper La Noscea (11.8,24.7).",
-        patch: "2.0"
+        "name_en": "Baby Bat",
+        "category": "Purchase",
+        "source": "Junkmonger Nonoroon - Poor Maid's Mill - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "Baby Behemoth",
-        methodType: "Collector's",
-        method: "Purchase the collectors edition of FFXIV (1.0 or ARR)",
-        patch: "2.0"
+        "name_en": "Baby Behemoth",
+        "category": "Premium",
+        "source": "A Realm Reborn Collector's Edition",
+        "patch": "2.0"
     },
     {
-        name: "Baby Brachiosaur",
-        methodType: "FATE Reward",
-        method: "Heaven-on-High, 800 Skybuilders' Scrips",
-        patch: "3.55b"
+        "name_en": "Baby Brachiosaur",
+        "category": "Deep Dungeon / Skybuilders",
+        "source": "Heaven-on-High / 800 Skybuilders' Scrips",
+        "patch": "3.55b"
     },
     {
-        name: "Baby Bun",
-        methodType: "FATE Reward",
-        method: "Complete the FATE: Lazy for You with Gold Medal rating in East Shroud (23x y29).",
-        patch: "2.0"
+        "name_en": "Baby Bun",
+        "category": "FATE",
+        "source": "FATE \"Lazy for You\"",
+        "patch": "2.0"
     },
     {
-        name: "Baby Gremlin",
-        methodType: "Preorder",
-        method: "Preordering Shadowbringers",
-        patch: "4.45"
+        "name_en": "Baby Gremlin",
+        "category": "Limited",
+        "source": "Shadowbringers Pre-order",
+        "patch": "4.45"
     },
     {
-        name: "Baby Opo-opo",
-        methodType: "Duty",
-        method: "Found in chest after final boss of Brayflox's Longstop (Hard).",
-        patch: "2.2"
+        "name_en": "Baby Opo-opo",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / Brayflox's Longstop (Hard) / The Aquapolis",
+        "patch": "2.2"
     },
     {
-        name: "Baby Raptor",
-        methodType: "Purchased",
-        method: "Boughbury Trader for 2400 if Clearing the Hive has been won.",
-        patch: "2.0"
+        "name_en": "Baby Raptor",
+        "category": "Purchase",
+        "source": "Boughbury Trader - Redbelly Hive - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "Bacon Bits",
-        methodType: "Retainer Ventures",
-        method: "Woodland Exploration XXV Botanist Retainer Venture or Quick Exploration",
-        patch: "5.1"
+        "name_en": "Bacon Bits",
+        "category": "Venture",
+        "source": "Woodland Exploration XXV / Quick Exploration",
+        "patch": "5.1"
     },
     {
-        name: "Beady Eye",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.0"
+        "name_en": "Beady Eye",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.0"
     },
     {
-        name: "Behemoth Heir",
-        methodType: "Purchased",
-        method: "400 Centurio Seals from Ardolain",
-        patch: "3.0"
+        "name_en": "Behemoth Heir",
+        "category": "Purchase",
+        "source": "400 Centurio Seals",
+        "patch": "3.0"
     },
     {
-        name: "Bite-Sized Pudding",
-        methodType: "Duty",
-        method: "Randomly drops from chest in The Wanderer's Palace.",
-        patch: "2.0"
+        "name_en": "Bite-Sized Pudding",
+        "category": "Dungeon",
+        "source": "The Wanderer's Palace",
+        "patch": "2.0"
     },
     {
-        name: "Bitty Duckbill",
-        methodType: "Purchased",
-        method: "800x Sacks of Nuts",
-        patch: "5.0"
+        "name_en": "Bitty Duckbill",
+        "category": "Purchase",
+        "source": "800 Sacks of Nuts",
+        "patch": "5.0"
     },
     {
-        name: "Black Chocobo Chick",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.0"
+        "name_en": "Black Chocobo Chick",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.0"
     },
     {
-        name: "Black Coeurl",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 20,000 MGP",
-        patch: "2.51"
+        "name_en": "Black Coeurl",
+        "category": "Purchase",
+        "source": "20,000 MGP",
+        "patch": "2.51"
     },
     {
-        name: "Black Hayate",
-        methodType: "Duty",
-        method: "Drops from Holminster Switch Duty",
-        patch: "5.0"
+        "name_en": "Black Hayate",
+        "category": "Dungeon",
+        "source": "Holminster Switch",
+        "patch": "5.0"
     },
     {
-        name: "Blizzaria",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Blizzaria",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Bluebird",
-        methodType: "Treasure Hunt",
-        method: "Obtained from Timeworn Peisteskin Map.",
-        patch: "2.1"
+        "name_en": "Bluebird",
+        "category": "Deep Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / Timeworn Peisteskin Map / Timeworn Dragonskin Map / The Aquapolis",
+        "patch": "2.1"
     },
     {
-        name: "Bom Boko",
-        methodType: "Duty/Retainer Ventures",
-        method: "Heaven-on-High Silver-haloed Sack or Field Exploration XX and XXII Combat Retainer Venture or Quick Exploration",
-        patch: "4.0"
+        "name_en": "Bom Boko",
+        "category": "Deep Dungeon / Venture",
+        "source": "Heaven-on-High / Field Exploration XX and XXII / Quick Exploration",
+        "patch": "4.0"
     },
     {
-        name: "Bombfish",
-        methodType: "Duty",
-        method: "Rare drop from Shisui of the Violet Tides",
-        patch: "4.0"
+        "name_en": "Bombfish",
+        "category": "Deep Dungeon / Dungeon",
+        "source": "Heaven-on-High / Shisui of the Violet Tides",
+        "patch": "4.0"
     },
     {
-        name: "Brave New Y'shtola",
-        methodType: "Seasonal Event",
-        method: "The Rising 2019",
-        patch: "5.05"
+        "name_en": "Brave New Y'shtola",
+        "category": "Event / Premium",
+        "source": "The Rising (2019) / Final Fantasy XIV Online Store",
+        "patch": "5.05"
     },
     {
-        name: "Bridesmoogle",
-        methodType: "Event",
-        method: "Gift for attendees of an Eternal Bonding Anniversary",
-        patch: "4.4"
+        "name_en": "Bridesmoogle",
+        "category": "Premium",
+        "source": "Attend a Ceremony of Eternal Bonding (Gold/Platinum)",
+        "patch": "4.4"
     },
     {
-        name: "Brina",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Antitower.",
-        patch: "3.2"
+        "name_en": "Brina",
+        "category": "Dungeon",
+        "source": "The Antitower",
+        "patch": "3.2"
     },
     {
-        name: "Buffalo Calf",
-        methodType: "Quest Reward",
-        method: "Complete the Level 50 Main Scenario Quest \"You're Gonna Carry That\".",
-        patch: "2.1"
+        "name_en": "Buffalo Calf",
+        "category": "Quest",
+        "source": "It's Possibly a Primal",
+        "patch": "2.1"
     },
     {
-        name: "Bullpup",
-        methodType: "Quest Reward",
-        method: "Rarely found in chest after final boss of Baelsar's Wall.",
-        patch: "3.5"
+        "name_en": "Bullpup",
+        "category": "Dungeon / Skybuilders",
+        "source": "Baelsar's Wall / Kupo of Fortune",
+        "patch": "3.5"
     },
     {
-        name: "Butterfly Effect",
-        methodType: "Purchased",
-        method: "Purchased from Nacille in Fanow for 400 Bicolor Gemstones",
-        patch: "5.0"
+        "name_en": "Butterfly Effect",
+        "category": "FATE",
+        "source": "400 Bicolor Gemstones (The Rak'tika Greatwood)",
+        "patch": "5.0"
     },
     {
-        name: "Byakko Cub",
-        methodType: "Crafted",
-        method: "Level 70★★ Weaver recipe.",
-        patch: "4.2"
+        "name_en": "Byakko Cub",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.2"
     },
     {
-        name: "Cactuar Cutting",
-        methodType: "Quest Reward",
-        method: "Complete the quest Zombies Are People Too in Southern Thanalan",
-        patch: "2.0"
+        "name_en": "Cactuar Cutting",
+        "category": "Quest",
+        "source": "Zombies Are People Too",
+        "patch": "2.0"
     },
     {
-        name: "Cait Sith Doll",
-        methodType: "Preorder",
-        method: "Received for pre-ordering FFXIV: ARR (CE or SE)",
-        patch: "2.0"
+        "name_en": "Cait Sith Doll",
+        "category": "Limited",
+        "source": "A Realm Reborn Pre-order",
+        "patch": "2.0"
     },
     {
-        name: "Calamari",
-        methodType: "Duty",
-        method: "Rarely found in chest after final boss of Hullbreaker Isle (Hard).",
-        patch: "3.3"
+        "name_en": "Calamari",
+        "category": "Dungeon",
+        "source": "Hullbreaker Isle (Hard)",
+        "patch": "3.3"
     },
     {
-        name: "Calca",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Antitower.",
-        patch: "3.2"
+        "name_en": "Calca",
+        "category": "Dungeon / Eureka",
+        "source": "The Antitower / FATE \"Creepy Doll\" - Eureka Pyros",
+        "patch": "3.2"
     },
     {
-        name: "Capybara Pup",
-        methodType: "Duty",
-        method: "The Lost Canals of Uznair",
-        patch: "4.4"
+        "name_en": "Capybara Pup",
+        "category": "Treasure Hunt",
+        "source": "The Lost Canals of Uznair / The Hidden Canals of Uznair / The Shifting Canals of Uznair",
+        "patch": "4.4"
     },
     {
-        name: "Castaway Chocobo Chick",
-        methodType: "Fishing",
-        method: "Fished from Fishing Log: Isle of Endless Summer North Shore",
-        patch: "4.0"
+        "name_en": "Castaway Chocobo Chick",
+        "category": "Deep Dungeon / Gathering",
+        "source": "Heaven-on-High / Gathered by Fisher",
+        "patch": "4.0"
     },
     {
-        name: "Cerberpup",
-        methodType: "Purchased",
-        method: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips",
-        patch: "5.21"
+        "name_en": "Cerberpup",
+        "category": "Skybuilders",
+        "source": "1,200 Skybuilders' Scrips",
+        "patch": "5.21"
     },
     {
-        name: "Chameleon",
-        methodType: "Duty",
-        method: "Drops from The Qitana Ravel Duty",
-        patch: "5.0"
+        "name_en": "Chameleon",
+        "category": "Dungeon",
+        "source": "The Qitana Ravel",
+        "patch": "5.0"
     },
     {
-        name: "Cherry Bomb",
-        methodType: "Purchased",
-        method: "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania.",
-        patch: "2.0"
+        "name_en": "Cherry Bomb",
+        "category": "Purchase",
+        "source": "Minion Trader - The Gold Saucer - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "Chigoe Larva",
-        methodType: "Quest Reward",
-        method: "Complete the quest Occupational Hazards from Yoenne in South Shroud, Quarrymill",
-        patch: "2.0"
+        "name_en": "Chigoe Larva",
+        "category": "Quest",
+        "source": "Occupational Hazards",
+        "patch": "2.0"
     },
     {
-        name: "Chocobo Chick Courier",
-        methodType: "Preorder",
-        method: "Heavensward Pre-order",
-        patch: "3.0"
+        "name_en": "Chocobo Chick Courier",
+        "category": "Limited",
+        "source": "Heavensward Pre-order",
+        "patch": "3.0"
     },
     {
-        name: "Clionid Larva",
-        methodType: "Duty",
-        method: "Akadaemia Anyder",
-        patch: "5.0"
+        "name_en": "Clionid Larva",
+        "category": "Dungeon",
+        "source": "Akadaemia Anyder",
+        "patch": "5.0"
     },
     {
-        name: "Clockwork Barrow",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Carpenter",
-        patch: "3.0"
+        "name_en": "Clockwork Barrow",
+        "category": "Crafting",
+        "source": "Crafted by Carpenter",
+        "patch": "3.0"
     },
     {
-        name: "Clockwork Lantern",
-        methodType: "Purchased",
-        method: "15,000 Wolf Mark from Storm Sergeant (Materia Provisioner).",
-        patch: "4.3"
+        "name_en": "Clockwork Lantern",
+        "category": "Purchase",
+        "source": "15,000 Wolf Marks",
+        "patch": "4.3"
     },
     {
-        name: "Clockwork Twintania",
-        methodType: "Achievements",
-        method: "Complete the Challenge Accepted achievement",
-        patch: "3.1"
+        "name_en": "Clockwork Twintania",
+        "category": "Achievement",
+        "source": "Challenge Accepted",
+        "patch": "3.1"
     },
     {
-        name: "Coblyn Larva",
-        methodType: "Mining",
-        method: "Unspoiled Deposit, level 46-50 Miner",
-        patch: "2.0"
+        "name_en": "Coblyn Larva",
+        "category": "Gathering",
+        "source": "Gathered by Miner",
+        "patch": "2.0"
     },
     {
-        name: "Coeurl Kitten",
-        methodType: "Quest Reward",
-        method: "Curiosity Killed the Coeurl quest in Aleport from Skribyld.",
-        patch: "2.1"
+        "name_en": "Coeurl Kitten",
+        "category": "Quest",
+        "source": "Curiosity Killed the Coeurl",
+        "patch": "2.1"
     },
     {
-        name: "Conditional Virtue",
-        methodType: "Duty",
-        method: "The Baldesion Arsenal",
-        patch: "4.5"
+        "name_en": "Conditional Virtue",
+        "category": "Eureka",
+        "source": "The Baldesion Arsenal - Eureka Hydatos",
+        "patch": "4.5"
     },
     {
-        name: "Construct 8",
-        methodType: "Duty",
-        method: "Raid-wide drop in The Ridorana Lighthouse",
-        patch: "4.3"
+        "name_en": "Construct 8",
+        "category": "Raid",
+        "source": "The Ridorana Lighthouse",
+        "patch": "4.3"
     },
     {
-        name: "Continental Eye",
-        methodType: "Seasonal Event",
-        method: "Acquired from All Saints' Wake (2016). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.4"
+        "name_en": "Continental Eye",
+        "category": "Event / Premium",
+        "source": "All Saints' Wake (2016) / Final Fantasy XIV Online Store",
+        "patch": "3.4"
     },
     {
-        name: "Copycat Bulb",
-        methodType: "Duty",
-        method: "Rare drop from lockboxes in Eureka: Pagos",
-        patch: "4.36"
+        "name_en": "Copycat Bulb",
+        "category": "Eureka",
+        "source": "Happy Bunny Lockbox - Eureka Pagos",
+        "patch": "4.36"
     },
     {
-        name: "Cute Justice",
-        methodType: "Purchased",
-        method: "Purchased from Maudlin Latool Ja in Ul'dah for 400 Allied Seals (Requires Level 60 BLU)",
-        patch: "5.15"
+        "name_en": "Cute Justice",
+        "category": "Purchase",
+        "source": "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)",
+        "patch": "5.15"
     },
     {
-        name: "Damona",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "5.3"
+        "name_en": "Damona",
+        "category": "Event",
+        "source": "Yo-kai Watch (2020)",
+        "patch": "5.3"
     },
     {
-        name: "Demon Box",
-        methodType: "Other",
-        method: "Attending an Eternal Bond ceremony of Gold or Platinum tier.",
-        patch: "2.45"
+        "name_en": "Demon Box",
+        "category": "Other",
+        "source": "Attend a Ceremony of Eternal Bonding",
+        "patch": "2.45"
     },
     {
-        name: "Demon Brick",
-        methodType: "Duty",
-        method: "Found in first chest of Amdapor Keep.",
-        patch: "2.0"
+        "name_en": "Demon Brick",
+        "category": "Dungeon",
+        "source": "Amdapor Keep",
+        "patch": "2.0"
     },
     {
-        name: "Dhalmel Calf",
-        methodType: "Duty",
-        method: "Forbidden Land, Eureka Pyros",
-        patch: "4.45"
+        "name_en": "Dhalmel Calf",
+        "category": "Eureka",
+        "source": "Pyros Lockbox / Heat-warped Lockbox - Eureka Pyros",
+        "patch": "4.45"
     },
     {
-        name: "Domakin",
-        methodType: "Retainer Ventures",
-        method: "Waterside Exploration XXV Fisher Retainer Venture or Quick Exploration",
-        patch: "5.1"
+        "name_en": "Domakin",
+        "category": "Venture",
+        "source": "Waterside Exploration XXV / Quick Exploration",
+        "patch": "5.1"
     },
     {
-        name: "Doman Magpie",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "3.25"
+        "name_en": "Doman Magpie",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.25"
     },
     {
-        name: "Dress-up Alisaie",
-        methodType: "Other",
-        method: "Wondrous Tails, 1 Khloe's Bronze Certificate of Commendation",
-        patch: "3.4"
+        "name_en": "Dress-up Alisaie",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "3.4"
     },
     {
-        name: "Dress-up Estinien",
-        methodType: "Purchased",
-        method: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips",
-        patch: "5.11"
+        "name_en": "Dress-up Estinien",
+        "category": "Skybuilders",
+        "source": "1,200 Skybuilders' Scrips",
+        "patch": "5.11"
     },
     {
-        name: "Dress-up Raubahn",
-        methodType: "Quest Reward",
-        method: "Complete the Level 70 Main Scenario Quest Return of the Bull.",
-        patch: "4.1"
+        "name_en": "Dress-up Raubahn",
+        "category": "Quest",
+        "source": "Return of the Bull",
+        "patch": "4.1"
     },
     {
-        name: "Dress-up Tataru",
-        methodType: "Item Code",
-        method: "Bonus code from the Art of the Revolution - Eastern Memories Art Book",
-        patch: "4.5"
+        "name_en": "Dress-up Tataru",
+        "category": "Premium",
+        "source": "Item code included with Art of the Revolution: Eastern Memories",
+        "patch": "4.5"
     },
     {
-        name: "Dress-up Thancred",
-        methodType: "Other",
-        method: "Wondrous Tails 2-line Reward",
-        patch: "3.4"
+        "name_en": "Dress-up Thancred",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "3.4"
     },
     {
-        name: "Dress-up Y'shtola",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2016). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.35"
+        "name_en": "Dress-up Y'shtola",
+        "category": "Event / Premium",
+        "source": "The Rising (2016) / Final Fantasy XIV Online Store",
+        "patch": "3.35"
     },
     {
-        name: "Dress-up Yugiri",
-        methodType: "Duty",
-        method: "Rarely found in the final chest of Kugane Castle",
-        patch: "4.0"
+        "name_en": "Dress-up Yugiri",
+        "category": "Dungeon",
+        "source": "Kugane Castle",
+        "patch": "4.0"
     },
     {
-        name: "Dust Bunny",
-        methodType: "Purchased",
-        method: "Purchased from Auriana for Tomestones, or from Hatching-tide (2016)",
-        patch: "2.0"
+        "name_en": "Dust Bunny",
+        "category": "Event / Purchase",
+        "source": "Hatching-tide (2016) / Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
+        "patch": "2.0"
     },
     {
-        name: "Dwarf Rabbit",
-        methodType: "Duty",
-        method: "Dropped in The Aquapolis.",
-        patch: "3.3"
+        "name_en": "Dwarf Rabbit",
+        "category": "Deep Dungeon / Skybuilders / Treasure Hunt",
+        "source": "Heaven-on-High / Kupo of Fortune / The Aquapolis",
+        "patch": "3.3"
     },
     {
-        name: "Eden Minor",
-        methodType: "Duty",
-        method: "Dropped in Eden's Gate: Sepulture",
-        patch: "5.01"
+        "name_en": "Eden Minor",
+        "category": "Raid",
+        "source": "Eden's Gate: Sepulture / Eden's Gate: Sepulture (Savage)",
+        "patch": "5.01"
     },
     {
-        name: "Eggplant Knight",
-        methodType: "Gardening",
-        method: "By intercrossing: Krakka Root with Star Anise OR Wizard Eggplant with Mandrake",
-        patch: "2.3"
+        "name_en": "Eggplant Knight",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "2.3"
     },
     {
-        name: "Enkidu",
-        methodType: "Duty",
-        method: "Obtained from Battle in the Big Keep.",
-        patch: "2.5"
+        "name_en": "Enkidu",
+        "category": "Trial",
+        "source": "Battle in the Big Keep",
+        "patch": "2.5"
     },
     {
-        name: "Ephemeral Necromancer",
-        methodType: "Quest Reward",
-        method: "Complete the Level 80 Main Scenario Quest The Converging Light",
-        patch: "5.3"
+        "name_en": "Ephemeral Necromancer",
+        "category": "Dungeon",
+        "source": "The Heroes' Gauntlet",
+        "patch": "5.3"
     },
     {
-        name: "Faepup",
-        methodType: "PvP",
-        method: "How Can I Help III (300 assists in The Feast)",
-        patch: "3.55a"
+        "name_en": "Faepup",
+        "category": "Achievement",
+        "source": "How Can I Help III",
+        "patch": "3.55a"
     },
     {
-        name: "Fat Cat",
-        methodType: "Retainer Ventures",
-        method: "Waterside Exploration XIV-XIX Fisher Retainer Venture",
-        patch: "2.4"
+        "name_en": "Fat Cat",
+        "category": "Venture",
+        "source": "Waterside Exploration XIV - XXV",
+        "patch": "2.4"
     },
     {
-        name: "Faustlet",
-        methodType: "Duty",
-        method: "Obtained from Alexander - The Burden of the Son (Savage)",
-        patch: "3.2"
+        "name_en": "Faustlet",
+        "category": "Raid",
+        "source": "Alexander - The Burden of the Son (Savage)",
+        "patch": "3.2"
     },
     {
-        name: "Fenrir Pup",
-        methodType: "PvP",
-        method: "Randomly dropped after The Feast matches.",
-        patch: "3.2"
+        "name_en": "Fenrir Pup",
+        "category": "Other",
+        "source": "The Feast: Random Drop",
+        "patch": "3.2"
     },
     {
-        name: "Flame Hatchling",
-        methodType: "Purchased",
-        method: "Purchased for 20,000 Flame Seals",
-        patch: "2.0"
+        "name_en": "Flame Hatchling",
+        "category": "Purchase",
+        "source": "20,000 Flame Seals",
+        "patch": "2.0"
     },
     {
-        name: "Fledgling Apkallu",
-        methodType: "Achievements",
-        method: "Completing all 80 A Realm Reborn Sightseeing Log Entries",
-        patch: "2.28"
+        "name_en": "Fledgling Apkallu",
+        "category": "Achievement",
+        "source": "Out of Sight Out of Mind",
+        "patch": "2.28"
     },
     {
-        name: "Fledgling Dodo",
-        methodType: "Purchased",
-        method: "Purchased from Auriana for 3 Allagan Tomestones of Soldiery",
-        patch: "2.0"
+        "name_en": "Fledgling Dodo",
+        "category": "Purchase",
+        "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
+        "patch": "2.0"
     },
     {
-        name: "Forgiven Hate",
-        methodType: "Duty",
-        method: "Drops from Mt. Gulg",
-        patch: "5.0"
+        "name_en": "Forgiven Hate",
+        "category": "Dungeon",
+        "source": "Mt. Gulg",
+        "patch": "5.0"
     },
     {
-        name: "Fox Kit",
-        methodType: "Purchased",
-        method: "Purchased for 3x Sassho-seki Fragments from Eschina",
-        patch: "4.0"
+        "name_en": "Fox Kit ",
+        "category": "FATE",
+        "source": "Eschina - Rhalgr's Reach - 3 Sassho-seki Fragments (FATEs \"Outfoxed\" and \"Foxy Lady\")",
+        "patch": "4.0"
     },
     {
-        name: "Frilled Dragon",
-        methodType: "Purchased",
-        method: "10 Empyrean Potsherds from Confederate Custodian",
-        patch: "4.35"
+        "name_en": "Frilled Dragon",
+        "category": "Deep Dungeon",
+        "source": "Confederate Custodian - Crick - 10 Empyrean Potsherds",
+        "patch": "4.35"
     },
     {
-        name: "Gaelikitten",
-        methodType: "Duty",
-        method: "Found in chest after final boss of Sohm Al.",
-        patch: "3.0"
+        "name_en": "Gaelikitten",
+        "category": "Deep Dungeon / Dungeon / Skybuilders / Treasure Hunt",
+        "source": "The Palace of the Dead / Sohm Al / Kupo of Fortune / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Garlic Jester",
-        methodType: "Gardening",
-        method: "By intercrossing:   Garlic Clove with Mandrake",
-        patch: "2.3"
+        "name_en": "Garlic Jester",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "2.3"
     },
     {
-        name: "Gestahl",
-        methodType: "Duty/Retainer Ventures",
-        method: "Heaven-on-High Silver-haloed Sack or Waterside Exploration XVIII or XIX Fisher Retainer Venture",
-        patch: "3.0"
+        "name_en": "Gestahl",
+        "category": "Deep Dungeon / Venture",
+        "source": "Heaven-on-High / Waterside Exploration XVIII and XIX",
+        "patch": "3.0"
     },
     {
-        name: "Ghido",
-        methodType: "Duty",
-        method: "Rare drop from The Sirensong Sea",
-        patch: "4.0"
+        "name_en": "Ghido",
+        "category": "Deep Dungeon / Dungeon",
+        "source": "Heaven-on-High / The Sirensong Sea",
+        "patch": "4.0"
     },
     {
-        name: "Giant Beaver",
-        methodType: "Purchased",
-        method: "1x Dancing Wing from Dancing Plague",
-        patch: "5.0"
+        "name_en": "Giant Beaver",
+        "category": "Purchase / Quest",
+        "source": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) / Required Quests: And Then There Were None, Acht-la Ormh Inn",
+        "patch": "5.0"
     },
     {
-        name: "Gigantpole",
-        methodType: "Fishing",
-        method: "Rare fishing catch from The Burning Wall in Eastern Thanalan (28-25) with Topwater Frog.",
-        patch: "2.0"
+        "name_en": "Gigantpole",
+        "category": "Gathering",
+        "source": "Gathered by Fisher",
+        "patch": "2.0"
     },
     {
-        name: "Gigi",
-        methodType: "Quest Reward",
-        method: "Complete Further Hildibrand Adventures Quest: If I Could Turn Back Time.",
-        patch: "3.5"
+        "name_en": "Gigi",
+        "category": "Quest",
+        "source": "If I Could Turn Back Time",
+        "patch": "3.5"
     },
     {
-        name: "Gold Rush Minecart",
-        methodType: "FATE Reward",
-        method: "Complete On Dangerous Ground with a Gold Medal rating.",
-        patch: "3.0"
+        "name_en": "Gold Rush Minecart",
+        "category": "FATE",
+        "source": "FATE \"On Dangerous Ground\"",
+        "patch": "3.0"
     },
     {
-        name: "Goobbue Sproutling",
-        methodType: "Quest Reward",
-        method: "Complete the Level 33 Main Scenario Quest \"It Was a Very Good Year\".",
-        patch: "2.0"
+        "name_en": "Goobbue Sproutling",
+        "category": "Quest",
+        "source": "It Was a Very Good Year",
+        "patch": "2.0"
     },
     {
-        name: "Gravel Golem",
-        methodType: "Crafted",
-        method: "Crafted by Level 50 Goldsmith.",
-        patch: "2.0"
+        "name_en": "Gravel Golem",
+        "category": "Crafting",
+        "source": "Crafted by Goldsmith",
+        "patch": "2.0"
     },
     {
-        name: "Griffin Hatchling",
-        methodType: "Purchased",
-        method: "400 Centurio Seals from Ardolain",
-        patch: "3.0"
+        "name_en": "Griffin Hatchling",
+        "category": "Purchase",
+        "source": "400 Centurio Seals",
+        "patch": "3.0"
     },
     {
-        name: "Heavy Hatchling",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 20,000 MGP",
-        patch: "2.4"
+        "name_en": "Heavy Hatchling",
+        "category": "Purchase",
+        "source": "20,000 MGP",
+        "patch": "2.4"
     },
     {
-        name: "Hecteye",
-        methodType: "Purchased",
-        method: "3 Gelmorran Potsherds from E-Una-Kotor in Quarrymill",
-        patch: "3.35"
+        "name_en": "Hecteye",
+        "category": "Deep Dungeon",
+        "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds",
+        "patch": "3.35"
     },
     {
-        name: "Hedgehoglet",
-        methodType: "Duty",
-        method: "Canals/Altars of Uznair",
-        patch: "4.45"
+        "name_en": "Hedgehoglet",
+        "category": "Treasure Hunt",
+        "source": "The Lost Canals of Uznair / The Hidden Canals of Uznair / The Shifting Canals of Uznair",
+        "patch": "4.45"
     },
     {
-        name: "Heliodor Carbuncle",
-        methodType: "Item Code",
-        method: "Topaz Carbuncle Plush",
-        patch: "3.0"
+        "name_en": "Heliodor Carbuncle",
+        "category": "Premium",
+        "source": "Item code Included with Topaz Carbuncle Plushie",
+        "patch": "3.0"
     },
     {
-        name: "Hellpup",
-        methodType: "PvP",
-        method: "Mama Said Knock You Out III (300 KO's in The Feast)",
-        patch: "3.55a"
+        "name_en": "Hellpup",
+        "category": "Achievement",
+        "source": "Mama Said Knock You Out III",
+        "patch": "3.55a"
     },
     {
-        name: "Hoary the Snowman",
-        methodType: "Seasonal Event",
-        method: "Acquired from the Starlight Celebration (2014). MogStation: 5 USD / 3.5 EUR",
-        patch: "2.45"
+        "name_en": "Hoary the Snowman",
+        "category": "Event / Premium",
+        "source": "Starlight Celebration (2014) / Final Fantasy XIV Online Store",
+        "patch": "2.45"
     },
     {
-        name: "Hovernyan",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Hovernyan",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Hunting Hawk",
-        methodType: "Duty",
-        method: "Dropped from Silver Coffer in The Diadem of the Exploratory Missions.",
-        patch: "3.1"
+        "name_en": "Hunting Hawk",
+        "category": "Deep Dungeon / Skybuilders",
+        "source": "Heaven-on-High / 800 Skybuilders' Scrips",
+        "patch": "3.1"
     },
     {
-        name: "Infant Imp",
-        methodType: "FATE Reward",
-        method: "Complete the FATE Go, Go, Gorgimera with a Gold Medal rating",
-        patch: "2.0"
+        "name_en": "Infant Imp",
+        "category": "FATE",
+        "source": "FATE \"Go, Go, Gorgimera\"",
+        "patch": "2.0"
     },
     {
-        name: "Iron Dwarf",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Armorer.",
-        patch: "3.0"
+        "name_en": "Iron Dwarf",
+        "category": "Crafting",
+        "source": "Crafted by Armorer",
+        "patch": "3.0"
     },
     {
-        name: "Ironfrog Ambler",
-        methodType: "Purchased",
-        method: "Pruchased from Fathard in Eulmore Aetheryte Plaze for 6 Formidable Cogs",
-        patch: "5.0"
+        "name_en": "Ironfrog Ambler",
+        "category": "FATE",
+        "source": "Fathard - Eulmore - 6 Formidable Cog (FATE \"A Finale Most Formidable\")",
+        "patch": "5.0"
     },
     {
-        name: "Ivon Coeurlfist Doll",
-        methodType: "Duty",
-        method: "Rare drop in chest after final boss of Temple of the Fist.",
-        patch: "4.0"
+        "name_en": "Ivon Coeurlfist Doll",
+        "category": "Dungeon",
+        "source": "The Temple of the Fist",
+        "patch": "4.0"
     },
     {
-        name: "Jibanyan",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Jibanyan",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Kidragora",
-        methodType: "Botany",
-        method: "Gathered by level 46-50 Botanist",
-        patch: "2.0"
+        "name_en": "Kidragora",
+        "category": "Gathering",
+        "source": "Gathered by Botanist",
+        "patch": "2.0"
     },
     {
-        name: "Koala Joey",
-        methodType: "Retainer Ventures",
-        method: "Woodland Exploration XXII Botanist Retainer Venture or Quick Exploration",
-        patch: "4.1"
+        "name_en": "Koala Joey",
+        "category": "Venture",
+        "source": "Woodland Exploration XXII / Quick ExplorationWoodland Exploration XXII / Quick Exploration",
+        "patch": "4.1"
     },
     {
-        name: "Komainu",
-        methodType: "Achievements",
-        method: "2x Achievement Certificate from Jonathas.",
-        patch: "4.2"
+        "name_en": "Komainu",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "4.2"
     },
     {
-        name: "Komajiro",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Komajiro",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Komasan",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Komasan",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Korpokkur Kid",
-        methodType: "Duty",
-        method: "Rarely found in chest after final boss of Saint Mocianne's Arboretum.",
-        patch: "3.1"
+        "name_en": "Korpokkur Kid",
+        "category": "Deep Dungeon / Dungeon",
+        "source": "Heaven-on-High / Saint Mocianne's Arboretrum",
+        "patch": "3.1"
     },
     {
-        name: "Kyubi",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Kyubi",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Laladile",
-        methodType: "Achievements",
-        method: "Complete the Crafting In The Air Achievement",
-        patch: "5.21"
+        "name_en": "Laladile",
+        "category": "Achievement",
+        "source": "Crafting in the Air",
+        "patch": "5.21"
     },
     {
-        name: "Lalinator 5.HO",
-        methodType: "Purchased",
-        method: "8x Hammered Frogments from the Dwarven Reputation Vendor",
-        patch: "5.3"
+        "name_en": "Lalinator 5.HO",
+        "category": "Beast Tribe",
+        "source": "8 Hammered Frogments",
+        "patch": "5.3"
     },
     {
-        name: "Lesser Panda",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Aery.",
-        patch: "3.0"
+        "name_en": "Lesser Panda",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / The Aery / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Little Leafman",
-        methodType: "Purchased",
-        method: "Purchased from Sul Lad in Lydha Lran for 400 Bicolor Gemstones",
-        patch: "5.2"
+        "name_en": "Little Leafman",
+        "category": "FATE",
+        "source": "400 Bicolor Gemstones (Il Mheg)",
+        "patch": "5.2"
     },
     {
-        name: "Little Leannan",
-        methodType: "Duty",
-        method: "Randomly drops from chest in The Grand Cosmos",
-        patch: "5.1"
+        "name_en": "Little Leannan",
+        "category": "Dungeon",
+        "source": "The Grand Cosmos",
+        "patch": "5.1"
     },
     {
-        name: "Little Yang",
-        methodType: "Seasonal Event",
-        method: "2018 All Saint's Wake",
-        patch: "4.4"
+        "name_en": "Little Yang",
+        "category": "Event / Premium",
+        "source": "All Saints' Wake (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.4"
     },
     {
-        name: "Little Yin",
-        methodType: "Seasonal Event",
-        method: "2018 All Saint's Wake",
-        patch: "4.4"
+        "name_en": "Little Yin",
+        "category": "Event / Premium",
+        "source": "All Saints' Wake (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.4"
     },
     {
-        name: "Littlefoot",
-        methodType: "Retainer Ventures",
-        method: "Woodland Exploration XIV-XVIII Botanist Retainer Venture",
-        patch: "2.4"
+        "name_en": "Littlefoot",
+        "category": "Venture",
+        "source": "Woodland Exploration XIV - XVIII",
+        "patch": "2.4"
     },
     {
-        name: "Lord Ananta",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "5.3"
+        "name_en": "Lord Ananta",
+        "category": "Event",
+        "source": "Yo-kai Watch (2020)",
+        "patch": "5.3"
     },
     {
-        name: "Lord Enma",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "5.3"
+        "name_en": "Lord Enma",
+        "category": "Event",
+        "source": "Yo-kai Watch (2020)",
+        "patch": "5.3"
     },
     {
-        name: "Magic Broom",
-        methodType: "Crafted",
-        method: "Crafted by Level 50★★★ Carpenter.",
-        patch: "2.2"
+        "name_en": "Magic Broom",
+        "category": "Crafting",
+        "source": "Crafted by Carpenter",
+        "patch": "2.2"
     },
     {
-        name: "Magic Bucket",
-        methodType: "Fishing",
-        method: "Found in South Banepool with Snagging On and Brute Leech as bait.",
-        patch: "3.3"
+        "name_en": "Magic Bucket",
+        "category": "Gathering",
+        "source": "Gathered by Fisher",
+        "patch": "3.3"
     },
     {
-        name: "Magitek Avenger F1",
-        methodType: "Duty",
-        method: "Rare drop from level 69 dungeon Castrum Abania.",
-        patch: "4.0"
+        "name_en": "Magitek Avenger F1",
+        "category": "Dungeon",
+        "source": "Castrum Abania",
+        "patch": "4.0"
     },
     {
-        name: "Malone",
-        methodType: "Achievements",
-        method: "Complete the Gathering In The Air Achievement",
-        patch: "5.21"
+        "name_en": "Malone",
+        "category": "Achievement",
+        "source": "Gathering in the Air",
+        "patch": "5.21"
     },
     {
-        name: "Mameshiba",
-        methodType: "Retainer Ventures",
-        method: "Highland Exploration XXII Miner Retainer Venture or Quick Exploration",
-        patch: "4.1"
+        "name_en": "Mameshiba",
+        "category": "Venture",
+        "source": "Highland Exploration XXII / Quick Exploration",
+        "patch": "4.1"
     },
     {
-        name: "Mammet #001",
-        methodType: "Purchased",
-        method: "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania.",
-        patch: "2.0"
+        "name_en": "Mammet #001",
+        "category": "Purchase",
+        "source": "Minion Trade - The Gold Saucer - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "Mammet #003G",
-        methodType: "Achievements",
-        method: "Talk to Jonathas in Old Gridania after completing Bump on a Log: Order of the Twin Adder",
-        patch: "2.0"
+        "name_en": "Mammet #003G",
+        "category": "Achievement",
+        "source": "Bump on a Log: Order of the Twin Adder",
+        "patch": "2.0"
     },
     {
-        name: "Mammet #003L",
-        methodType: "Achievements",
-        method: "Talk to Jonathas in Old Gridania after completing Bump on a Log: Maelstrom",
-        patch: "2.0"
+        "name_en": "Mammet #003L",
+        "category": "Achievement",
+        "source": "Bump on a Log: Maelstrom",
+        "patch": "2.0"
     },
     {
-        name: "Mammet #003U",
-        methodType: "Achievements",
-        method: "Talk to Jonathas in Old Gridania after completing Bump on a Log: Immortal Flames",
-        patch: "2.0"
+        "name_en": "Mammet #003U",
+        "category": "Achievement",
+        "source": "Bump on a Log: Immortal Flames",
+        "patch": "2.0"
     },
     {
-        name: "Mandragora Queen",
-        methodType: "Gardening",
-        method: "By intercrossing: Mandrake with Nymeia Lily",
-        patch: "2.3"
+        "name_en": "Mandragora Queen",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "2.3"
     },
     {
-        name: "Manjimutt",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Manjimutt",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Meerkat",
-        methodType: "Voyages",
-        method: "Subaquatic Voyages - Coldtoe Isle",
-        patch: "5.1"
+        "name_en": "Meerkat",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages - Coldtoe Isle",
+        "patch": "5.1"
     },
     {
-        name: "Micro Gigantender",
-        methodType: "Purchased",
-        method: "400x Bicolour Gemstone (Amh Araeng)",
-        patch: "5.0"
+        "name_en": "Micro Gigantender",
+        "category": "FATE",
+        "source": "400 Bicolor Gemstones (Amh Araeng)",
+        "patch": "5.0"
     },
     {
-        name: "Midgardsormr",
-        methodType: "Quest Reward",
-        method: "Complete the Main Scenario Quest The Rising Chorus.",
-        patch: "2.5"
+        "name_en": "Midgardsormr",
+        "category": "Quest",
+        "source": "The Rising Chorus",
+        "patch": "2.5"
     },
     {
-        name: "Mini Mole",
-        methodType: "Quest Reward",
-        method: "Complete the Delivery Moogle Quests Thwack-a-Mole.",
-        patch: "2.3"
+        "name_en": "Mini Mole",
+        "category": "Quest",
+        "source": "Thwack-a-Mole",
+        "patch": "2.3"
     },
     {
-        name: "Miniature Minecart",
-        methodType: "Duty/Retainer Ventures",
-        method: "Heaven-on-High Silver-haloed Sack or Highland Exploration XIV Miner Retainer Venture",
-        patch: "2.3"
+        "name_en": "Miniature Minecart",
+        "category": "Deep Dungeon / Venture",
+        "source": "Heaven-on-High / Highland Exploration XIV",
+        "patch": "2.3"
     },
     {
-        name: "Miniature White Knight",
-        methodType: "Purchased",
-        method: "Purchased from Enie in The Firmament for 1,200 Skybuilders' Scrips",
-        patch: "5.11"
+        "name_en": "Miniature White Knight",
+        "category": "Skybuilders",
+        "source": "1,200 Skybuilders' Scrips",
+        "patch": "5.11"
     },
     {
-        name: "Minion of Light",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates.",
-        patch: "2.1"
+        "name_en": "Minion of Light",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.1"
     },
     {
-        name: "Minitek Conveyer",
-        methodType: "Purchased",
-        method: "Exchanged for 15,000 Wolf Marks",
-        patch: "4.45"
+        "name_en": "Minitek Conveyer",
+        "category": "Purchase",
+        "source": "15,000 Wolf Marks",
+        "patch": "4.45"
     },
     {
-        name: "Minute Mindflayer",
-        methodType: "Duty/Retainer Ventures",
-        method: "The Aquapolis, Palace of the Dead Bronze-trimmed Sack, or Field, Highland, or Waterside Exploration XIII Retainer Venture",
-        patch: "2.2"
+        "name_en": "Minute Mindflayer",
+        "category": "Deep Dungeon / Treasure Hunt / Venture",
+        "source": "The Palace of the Dead / The Aquapolis / Field Exploration XIII / Highland Exploration XIII / Waterside Exploration XIII",
+        "patch": "2.2"
     },
     {
-        name: "Mock-up Grynewaht",
-        methodType: "Duty",
-        method: "Rare drop from Doma Castle",
-        patch: "4.0"
+        "name_en": "Mock-up Grynewaht",
+        "category": "Dungeon",
+        "source": "Doma Castle",
+        "patch": "4.0"
     },
     {
-        name: "Model Enterprise",
-        methodType: "Item Code",
-        method: "The Art Of Eorzea, A Final Fantasy XIV Art Book",
-        patch: "2.38"
+        "name_en": "Model Enterprise",
+        "category": "Limited",
+        "source": "Item code included with The Art of Eorzea: Another Dawn",
+        "patch": "2.38"
     },
     {
-        name: "Model Magitek Bit",
-        methodType: "Crafted",
-        method: "Level 50★★★★ Blacksmith recipe",
-        patch: "2.5"
+        "name_en": "Model Magitek Bit",
+        "category": "Crafting",
+        "source": "Crafted by Blacksmith",
+        "patch": "2.5"
     },
     {
-        name: "Model Vanguard",
-        methodType: "Crafted",
-        method: "Crafted by Level 50 Goldsmith.",
-        patch: "2.0"
+        "name_en": "Model Vanguard",
+        "category": "Crafting",
+        "source": "Crafted by Goldsmith",
+        "patch": "2.0"
     },
     {
-        name: "Monkey King",
-        methodType: "Duty",
-        method: "Rare drop from The Swallow's Compass (Duty).",
-        patch: "4.3"
+        "name_en": "Monkey King",
+        "category": "Dungeon",
+        "source": "The Swallow's Compass",
+        "patch": "4.3"
     },
     {
-        name: "Morbol Seedling",
-        methodType: "Duty",
-        method: "Found in third chest of The Aurum Vale.",
-        patch: "2.0"
+        "name_en": "Morbol Seedling",
+        "category": "Dungeon",
+        "source": "The Aurum Vale",
+        "patch": "2.0"
     },
     {
-        name: "Morpho",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Lost City of Amdapor (Hard).",
-        patch: "3.2"
+        "name_en": "Morpho",
+        "category": "Deep Dungeon / Dungeon / Skybuilders",
+        "source": "Heaven-on-High / The Lost City of Amdapor (Hard) / Kupo of Fortune",
+        "patch": "3.2"
     },
     {
-        name: "Motley Egg",
-        methodType: "Seasonal Event",
-        method: "Hatching-Tide (2018)",
-        patch: "4.2"
+        "name_en": "Motley Egg",
+        "category": "Event / Premium",
+        "source": "Hatching-tide (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.2"
     },
     {
-        name: "Mudpie",
-        methodType: "Duty",
-        method: "St Mocianne's Arboretum (Hard)",
-        patch: "4.4"
+        "name_en": "Mudpie",
+        "category": "Dungeon",
+        "source": "Saint Mocianne's Arboretum (Hard)",
+        "patch": "4.4"
     },
     {
-        name: "Mummy's Little Mummy",
-        methodType: "Duty",
-        method: "Rarely found in chest after final boss of The Sunken Temple of Qarn (Hard).",
-        patch: "2.4"
+        "name_en": "Mummy's Little Mummy",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / The Sunken Temple of Qarn (Hard) / The Aquapolis",
+        "patch": "2.4"
     },
     {
-        name: "Mystic Weapon",
-        methodType: "Retainer Ventures",
-        method: "Field Exploration XXV Combat Retainer Venture or Quick Exploration",
-        patch: "5.1"
+        "name_en": "Mystic Weapon",
+        "category": "Venture",
+        "source": "Field Exploration XXV / Quick Exploration",
+        "patch": "5.1"
     },
     {
-        name: "Namingway",
-        methodType: "Item Code",
-        method: "Libra Eorzea (Lore Book) Bonus Code",
-        patch: "3.4"
+        "name_en": "Namingway",
+        "category": "Premium",
+        "source": "Item code included with Encyclopaedia Eorzea",
+        "patch": "3.4"
     },
     {
-        name: "Nana Bear",
-        methodType: "Crafted",
-        method: "Crafted by Level 50★★★★ Weaver.",
-        patch: "2.4"
+        "name_en": "Nana Bear",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "2.4"
     },
     {
-        name: "Naughty Nanka",
-        methodType: "Duty",
-        method: "Found in last chest before final boss of Hullbreaker Isle at (5,10).",
-        patch: "2.3"
+        "name_en": "Naughty Nanka",
+        "category": "Dungeon",
+        "source": "Hullbreaker Isle",
+        "patch": "2.3"
     },
     {
-        name: "Noko",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Noko",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Nutkin",
-        methodType: "Treasure Hunt",
-        method: "Unhidden Treasure Map, or The Aquapolis",
-        patch: "2.3"
+        "name_en": "Nutkin",
+        "category": "Deep Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / Unhidden Leather Map / The Aquapolis",
+        "patch": "2.3"
     },
     {
-        name: "Odder Otter",
-        methodType: "Duty/Retainer Ventures",
-        method: "Heaven-on-High Silver or Gold-haloed Sacks or Highland, Waterside, or Woodland Exploration XIX-XXII Retainer Venture or Quick Exploration",
-        patch: "4.0"
+        "name_en": "Odder Otter",
+        "category": "Deep Dungeon / Venture",
+        "source": "Heaven-on-High / Highland Exploration XIX - XXII / Woodland Exploration XIX - XXII / Waterside Exploration XIX - XXII / Quick Exploration",
+        "patch": "4.0"
     },
     {
-        name: "OMG",
-        methodType: "Duty",
-        method: "Alphascape V4.0",
-        patch: "4.4"
+        "name_en": "OMG",
+        "category": "Raid",
+        "source": "Alphascape V4.0 / Alphascape V4.0 (Savage)",
+        "patch": "4.4"
     },
     {
-        name: "Onion Prince",
-        methodType: "Gardening",
-        method: "By intercrossing: Azeyma Rose with Krakka Root OR Krakka Root with mandrake",
-        patch: "2.3"
+        "name_en": "Onion Prince",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "2.3"
     },
     {
-        name: "Owlet",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Fractal Continuum.",
-        patch: "3.0"
+        "name_en": "Owlet",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / The Fractal Continuum / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Page 63",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Great Gubal Library.",
-        patch: "3.0"
+        "name_en": "Page 63",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / The Great Gubal Library / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Paissa Brat",
-        methodType: "Treasure Hunt",
-        method: "Dragonskin Treasure Map, The Aquapolis, or Bronze-trimmed Sacks from Palace of the Dead",
-        patch: "3.1"
+        "name_en": "Paissa Brat",
+        "category": "Deep Dungeon / Skybuilders / Treasure Hunt",
+        "source": "The Palace of the Dead / 800 Skybuilders' Scrips / Timeworn Dragonskin Map / The Aquapolis",
+        "patch": "3.1"
     },
     {
-        name: "Paissa Patissier",
-        methodType: "Kupo of Fortune",
-        method: "Prize from Kupo of Fortune in The Firmament",
-        patch: "5.21"
+        "name_en": "Paissa Patissier",
+        "category": "Skybuilders",
+        "source": "Kupo of Fortune",
+        "patch": "5.21"
     },
     {
-        name: "Paissa Threadpuller",
-        methodType: "Kupo of Fortune",
-        method: "Prize from Kupo of Fortune in The Firmament",
-        patch: "5.21"
+        "name_en": "Paissa Threadpuller",
+        "category": "Skybuilders",
+        "source": "Kupo of Fortune",
+        "patch": "5.21"
     },
     {
-        name: "Palico",
-        methodType: "Quest Reward",
-        method: "The New King on the Block MHW cross-over quest",
-        patch: "4.36"
+        "name_en": "Palico",
+        "category": "Quest",
+        "source": "The New King on the Block",
+        "patch": "4.36"
     },
     {
-        name: "Panda Cub",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "3.25"
+        "name_en": "Panda Cub",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.25"
     },
     {
-        name: "Pegasus Colt",
-        methodType: "Purchased",
-        method: "800 Skybuilders' Scrips",
-        patch: "3.55b"
+        "name_en": "Pegasus Colt",
+        "category": "Skybuilders",
+        "source": "800 Skybuilders' Scrips",
+        "patch": "3.55b"
     },
     {
-        name: "Penguin Prince",
-        methodType: "Achievements",
-        method: "Complete the The Road of Verminion I achievement",
-        patch: "3.1"
+        "name_en": "Penguin Prince",
+        "category": "Achievement",
+        "source": "The Road of Verminion I",
+        "patch": "3.1"
     },
     {
-        name: "Peridot Carbuncle",
-        methodType: "Item Code",
-        method: "Emerald Carbuncle Plush",
-        patch: "3.0"
+        "name_en": "Peridot Carbuncle",
+        "category": "Premium",
+        "source": "Item code included with Emerald Carbuncle Plushie",
+        "patch": "3.0"
     },
     {
-        name: "Piggy",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 30,000 MGP",
-        patch: "3.3"
+        "name_en": "Petit Pteranodon",
+        "category": "Skybuilders",
+        "source": "Kupo of Fortune",
+        "patch": "5.31"
     },
     {
-        name: "Plush Cushion",
-        methodType: "Crafted",
-        method: "Crafted by Level 50★★★ Weaver.",
-        patch: "2.2"
+        "name_en": "Piggy",
+        "category": "Purchase",
+        "source": "30,000 MGP",
+        "patch": "3.3"
     },
     {
-        name: "Pod 054",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Copied Factory",
-        patch: "5.1"
+        "name_en": "Plush Cushion",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "2.2"
     },
     {
-        name: "Pod 316",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Copied Factory",
-        patch: "5.1"
+        "name_en": "Pod 054",
+        "category": "Raid",
+        "source": "The Copied Factory",
+        "patch": "5.1"
     },
     {
-        name: "Poogie",
-        methodType: "Purchased",
-        method: "5x Scales from the Rathalos Scale Exchange shop",
-        patch: "4.36"
+        "name_en": "Pod 316",
+        "category": "Raid",
+        "source": "The Copied Factory",
+        "patch": "5.1"
     },
     {
-        name: "Poro Roggo",
-        methodType: "Quest Reward",
-        method: "Complete the Level 60 Main Scenario Quest The Word of the Mother.",
-        patch: "3.2"
+        "name_en": "Poogie",
+        "category": "Trial",
+        "source": "The Great Hunt (Extreme)",
+        "patch": "4.36"
     },
     {
-        name: "The Primogs",
-        methodType: "Item Code",
-        method: "Before the Fall: Final Fantasy XIV Original Soundtrack",
-        patch: "2.1"
+        "name_en": "Poro Roggo",
+        "category": "Quest",
+        "source": "The Word of the Mother",
+        "patch": "3.2"
     },
     {
-        name: "Princely Hatchling",
-        methodType: "Achievements",
-        method: "Complete the Leaving a Good Impression II Achievement",
-        patch: "4.2"
+        "name_en": "Princely Hatchling",
+        "category": "Achievement",
+        "source": "Leaving a Good Impression II",
+        "patch": "2.1"
     },
     {
-        name: "Private Moai",
-        methodType: "Crafted",
-        method: "Level 70 ★★ Blacksmith recipe.",
-        patch: "2.0"
+        "name_en": "Private Moai",
+        "category": "Crafting",
+        "source": "Crafted by Blacksmith",
+        "patch": "4.2"
     },
     {
-        name: "Pudgy Puk",
-        methodType: "FATE Reward",
-        method: "Complete the FATE: The Eyes Have It (FATE) with a Gold Medal rating",
-        patch: "2.5"
+        "name_en": "Pudgy Puk",
+        "category": "FATE",
+        "source": "FATE \"The Eyes Have It\"",
+        "patch": "2.0"
     },
     {
-        name: "Puff of Darkness",
-        methodType: "Duty",
-        method: "Found in World of Darkness.",
-        patch: "3.07"
+        "name_en": "Puff of Darkness",
+        "category": "Raid",
+        "source": "The World of Darkness",
+        "patch": "2.5"
     },
     {
-        name: "Pumpkin Butler",
-        methodType: "Seasonal Event",
-        method: "Acquired from the All Saints' Wake (2015). MogStation: 5 USD / 3.5 EUR",
-        patch: "4.0"
+        "name_en": "Pumpkin Butler",
+        "category": "Event / Premium",
+        "source": "All Saints' Wake (2015) / Final Fantasy XIV Online Store",
+        "patch": "3.07"
     },
     {
-        name: "Road Sparrow",
-        methodType: "Duty",
-        method: "Rare drop after completing Bardam's Mettle.",
-        patch: "3.35"
+        "name_en": "Road Sparrow",
+        "category": "Deep Dungeon / Dungeon",
+        "source": "Heaven-on-High / Bardam's Mettle",
+        "patch": "4.0"
     },
     {
-        name: "Robonyan F-type",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "4.1"
+        "name_en": "Robonyan F-type",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Salt & Pepper Seal",
-        methodType: "Duty",
-        method: "Dropped in The Drowned City of Skalla",
-        patch: "5.3"
+        "name_en": "Salt & Pepper Seal",
+        "category": "Dungeon",
+        "source": "The Drowned City of Skalla",
+        "patch": "4.1"
     },
     {
-        name: "Sand Fox",
-        methodType: "Purchased",
-        method: "Purchased from Faux Commander for 400 Faux Leaves",
-        patch: "4.4"
+        "name_en": "Sand Fox",
+        "category": "Purchase",
+        "source": "400 Faux Leaves",
+        "patch": "5.3"
     },
     {
-        name: "Scarlet Peacock",
-        methodType: "Crafted",
-        method: "Level 70 ★★★ Weaver recipe.",
-        patch: "4.45"
+        "name_en": "Scarlet Peacock",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.4"
     },
     {
-        name: "Seitei",
-        methodType: "Crafted",
-        method: "Level 70 ★★★★ Weaver recipe.",
-        patch: "2.0"
+        "name_en": "Seitei",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.45"
     },
     {
-        name: "Serpent Hatchling",
-        methodType: "Purchased",
-        method: "Purchased for 20,000 Serpent Seals.",
-        patch: "3.0"
+        "name_en": "Serpent Hatchling",
+        "category": "Purchase",
+        "source": "20,000 Serpent Seals",
+        "patch": "2.0"
     },
     {
-        name: "Shaggy Shoat",
-        methodType: "Duty",
-        method: "Rarely found in chest after final boss of Xelphatol.",
-        patch: "3.4"
+        "name_en": "Set of Primogs",
+        "category": "Premium",
+        "source": "Item code included with Before the Fall Original Soundtrack",
+        "patch": "3.0"
     },
     {
-        name: "Shalloweye",
-        methodType: "Achievements",
-        method: "Complete the A Load of Verminion II Achievement",
-        patch: "3.1"
+        "name_en": "Shaggy Shoat",
+        "category": "Deep Dungeon / Dungeon",
+        "source": "Heaven-on-High / Xelphatol",
+        "patch": "3.4"
     },
     {
-        name: "Sharksucker-class Insubmersible",
-        methodType: "Voyages",
-        method: "Subaquatic Voyages - The Central Charnel Trench, The Southern Charnel Trench",
-        patch: "5.05"
+        "name_en": "Shalloweye",
+        "category": "Achievement",
+        "source": "A Load of Verminion II",
+        "patch": "3.1"
     },
     {
-        name: "Shoebill",
-        methodType: "Duty",
-        method: "Dropped from Amaurot",
-        patch: "5.0"
+        "name_en": "Sharksucker-class Insubmersible",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages - The Central Charnel Trench / Subaquatic Voyages - The Southern Charnel Trench",
+        "patch": "5.05"
     },
     {
-        name: "Shogunyan",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Shoebill",
+        "category": "Dungeon",
+        "source": "Amaurot",
+        "patch": "5.0"
     },
     {
-        name: "Silver Dasher",
-        methodType: "Voyages",
-        method: "Subaquatic Voyages - The Open Robe",
-        patch: "5.2"
+        "name_en": "Shogunyan",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Slime Puddle",
-        methodType: "Duty",
-        method: "Randomly drops from chest in Copperbell Mines (Hard).",
-        patch: "2.1"
+        "name_en": "Silver Dasher",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages - The Open Robe",
+        "patch": "5.2"
     },
     {
-        name: "Smallshell",
-        methodType: "FATE Reward",
-        method: "Complete the FATE: It's Not Lupus with a Gold Medal rating",
-        patch: "2.0"
+        "name_en": "Slime Puddle",
+        "category": "Dungeon",
+        "source": "Copperbell Mines (Hard)",
+        "patch": "2.1"
     },
     {
-        name: "Spoony Bard",
-        methodType: "Item Code",
-        method: "Final Fantasy XIV: Heavensward Soundtrack",
-        patch: "3.2"
+        "name_en": "Smallshell",
+        "category": "FATE",
+        "source": "FATE \"It's Not Lupus\"",
+        "patch": "2.0"
     },
     {
-        name: "Steam-powered Gobwalker G-VII",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Armorer.",
-        patch: "3.01"
+        "name_en": "Spoony Bard",
+        "category": "Premium",
+        "source": "Item code included with Heavensward Original Soundtrack",
+        "patch": "3.2"
     },
     {
-        name: "Storm Hatchling",
-        methodType: "Purchased",
-        method: "Purchased for 20,000 Storm Seals.",
-        patch: "2.0"
+        "name_en": "Steam-powered Gobwalker G-VII",
+        "category": "Crafting",
+        "source": "Crafted by Armorer",
+        "patch": "3.01"
     },
     {
-        name: "Sungold Talos",
-        methodType: "Duty",
-        method: "Drop in The Dungeons Of Lyhe Ghiah",
-        patch: "5.2"
+        "name_en": "Storm Hatchling",
+        "category": "Purchase",
+        "source": "20,000 Storm Seals",
+        "patch": "2.0"
     },
     {
-        name: "Taoist Moogle",
-        methodType: "Purchased",
-        method: "Purchased from Itinerant Moogle for 140 gil",
-        patch: "4.4"
+        "name_en": "Sungold Talos",
+        "category": "Treasure Hunt",
+        "source": "The Dungeons of Lyhe Ghiah",
+        "patch": "5.2"
     },
     {
-        name: "Tender Lamb",
-        methodType: "Seasonal Event",
-        method: "Acquired from Heavensturn (2015). MogStation: 5 USD / 3.5 EUR",
-        patch: "2.0"
+        "name_en": "Taoist Moogle",
+        "category": "Limited",
+        "source": "Itinerant Moogle",
+        "patch": "4.4"
     },
     {
-        name: "Tengu Doll",
-        methodType: "Retainer Ventures",
-        method: "Field Exploration XXII Combat Retainer Venture or Quick Exploration",
-        patch: "4.1"
+        "name_en": "Tender Lamb",
+        "category": "Event / Premium",
+        "source": "Heavensturn (2015) / Final Fantasy XIV Online Store",
+        "patch": "2.0"
     },
     {
-        name: "The Behatted Serpent of Ronka",
-        methodType: "Purchased",
-        method: "Qitari Beast Tribe Reward. Costs 8 Qitari Compliments from Yuqurl Manl",
-        patch: "5.2"
+        "name_en": "Tengu Doll",
+        "category": "Venture",
+        "source": "Field Exploration XXII / Quick Exploration",
+        "patch": "4.1"
     },
     {
-        name: "The Behelmeted Serpent of Ronka",
-        methodType: "Purchased",
-        method: "Qitari Beast Tribe Reward. Costs 8 Qitari Compliments from Yuqurl Manl",
-        patch: "5.2"
+        "name_en": "The Behatted Serpent of Ronka",
+        "category": "Beast Tribe",
+        "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments",
+        "patch": "5.2"
     },
     {
-        name: "The Gold Whisker",
-        methodType: "Duty",
-        method: "The Hidden Canals of Uznair",
-        patch: "4.2"
+        "name_en": "The Behelmeted Serpent of Ronka",
+        "category": "Beast Tribe",
+        "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments",
+        "patch": "5.2"
     },
     {
-        name: "The Great Serpent of Ronka",
-        methodType: "Quest Reward",
-        method: "Complete Level 70 Side Quest Protectors of the Wood",
-        patch: "5.0"
+        "name_en": "The Gold Whisker",
+        "category": "Treasure Hunt",
+        "source": "The Hidden Canals of Uznair",
+        "patch": "4.2"
     },
     {
-        name: "The Prince of Anemos",
-        methodType: "FATE Reward",
-        method: "Occasional drop from The Shadow over Anemos in Eureka Anemos",
-        patch: "5.2"
+        "name_en": "The Great Serpent of Ronka",
+        "category": "Quest",
+        "source": "Protectors of the Wood",
+        "patch": "5.0"
     },
     {
-        name: "The Major-General",
-        methodType: "Achievements",
-        method: "Complete the No More Fish In The Sea I Achievement",
-        patch: "4.25"
+        "name_en": "The Major-General",
+        "category": "Achievement",
+        "source": "No More Fish in the Sea I",
+        "patch": "5.2"
     },
     {
-        name: "Tight-beaked Parrot",
-        methodType: "Duty",
-        method: "Rarely drops from chest in Sastasha (Hard).",
-        patch: "2.4"
+        "name_en": "The Prince of Anemos",
+        "category": "Eureka",
+        "source": "Anemos Lockbox / FATE \"The Shadow over Anemos\" - Eureka Anemos",
+        "patch": "4.25"
     },
     {
-        name: "Tinker's Bell",
-        methodType: "Purchased",
-        method: "Purchased from Fathard in Eulmore Aetheryte Plaza for 6 Archaeotania's Horn",
-        patch: "5.0"
+        "name_en": "Tight-beaked Parrot",
+        "category": "Dungeon / Treasure Hunt",
+        "source": "Sastasha (Hard) / The Aquapolis",
+        "patch": "2.4"
     },
     {
-        name: "Tiny Bulb",
-        methodType: "Treasure Hunt",
-        method: "Rare reward from Treasure Hunting",
-        patch: "2.1"
+        "name_en": "Tinker's Bell",
+        "category": "FATE",
+        "source": "Fathard - Eulmore - 6 Archaeotania's Horn (FATE \"The Head, The Tail, the Whole Damned Thing\")",
+        "patch": "5.0"
     },
     {
-        name: "Tiny Echevore",
-        methodType: "Duty",
-        method: "Dohn Mheg",
-        patch: "5.0"
+        "name_en": "Tiny Bulb",
+        "category": "Deep Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / Timeworn Toadskin Map / The Aquapolis",
+        "patch": "2.1"
     },
     {
-        name: "Tiny Rat",
-        methodType: "Purchased",
-        method: "From Chachamun for 2400 gil after successfully completing Attack on Highbridge: Act II",
-        patch: "2.0"
+        "name_en": "Tiny Echevore",
+        "category": "Dungeon",
+        "source": "Dohn Mheg",
+        "patch": "5.0"
     },
     {
-        name: "Tiny Tapir",
-        methodType: "Retainer Ventures",
-        method: "Field Exploration XIV, XV, and XIX Combat Retainer Venture",
-        patch: "2.3"
+        "name_en": "Tiny Rat",
+        "category": "Purchase",
+        "source": "Chachamun - Wellwick Wood - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "Tiny Tatsunoko",
-        methodType: "Fishing",
-        method: "Spearfishing in the Ruby Sea",
-        patch: "4.0"
+        "name_en": "Tiny Tapir",
+        "category": "Venture",
+        "source": "Field Exploration XIV, XV, XIX",
+        "patch": "2.3"
     },
     {
-        name: "Tiny Tortoise",
-        methodType: "Fishing",
-        method: "Use Northern Krill and fish from the The Salt Strand in Lower La Noscea.",
-        patch: "2.0"
+        "name_en": "Tiny Tatsunoko",
+        "category": "Deep Dungeon / Gathering",
+        "source": "Heaven-on-High / Gathered by Fisher",
+        "patch": "4.0"
     },
     {
-        name: "Tomato King",
-        methodType: "Gardening",
-        method: "Intercrossing: Dzemael Tomato w Mandrake OR Krakka Root w Broombush OR Jute w Krakka Root",
-        patch: "2.3"
+        "name_en": "Tiny Tortoise",
+        "category": "Gathering",
+        "source": "Gathered by Fisher",
+        "patch": "2.0"
     },
     {
-        name: "Tora-jiro",
-        methodType: "Purchased",
-        method: "Purchased for 800 Centurio Seals from Estril in Kugane",
-        patch: "4.0"
+        "name_en": "Tomato King",
+        "category": "Other",
+        "source": "Gardening",
+        "patch": "2.3"
     },
     {
-        name: "Toy Alexander",
-        methodType: "Duty",
-        method: "Obtained from Alexander - The Soul of the Creator.",
-        patch: "3.4"
+        "name_en": "Tora-jiro",
+        "category": "Purchase",
+        "source": "800 Centurio Seals",
+        "patch": "4.0"
     },
     {
-        name: "Treasure Box",
-        methodType: "Purchased",
-        method: "Purchased from Grand Company's Hunt vendor for 440 Allied Seals.",
-        patch: "2.3"
+        "name_en": "Toy Alexander",
+        "category": "Raid",
+        "source": "Alexander - The Soul of the Creator / Alexander - The Soul of the Creator (Savage)",
+        "patch": "3.4"
     },
     {
-        name: "USApyon",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.0"
+        "name_en": "Treasure Box",
+        "category": "Purchase",
+        "source": "440 Allied Seals",
+        "patch": "2.3"
     },
     {
-        name: "Ugly Duckling",
-        methodType: "Duty",
-        method: "Found in chest after final boss of Neverreap.",
-        patch: "3.0"
+        "name_en": "Ugly Duckling",
+        "category": "Deep Dungeon / Dungeon / Skybuilders / Treasure Hunt",
+        "source": "The Palace of the Dead / Neverreap / Kupo of Fortune / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Unicolt",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Vault.",
-        patch: "5.2"
+        "name_en": "Unicolt",
+        "category": "Deep Dungeon / Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / The Vault / The Aquapolis",
+        "patch": "3.0"
     },
     {
-        name: "Unlucky Rabbit",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 30,000 MGP",
-        patch: "3.35"
+        "name_en": "Unlucky Rabbit",
+        "category": "Purchase",
+        "source": "30,000 MGP",
+        "patch": "5.2"
     },
     {
-        name: "Venoct",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "USApyon",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Water Imp",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 10,000 MGP",
-        patch: "2.51"
+        "name_en": "Venoct",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Wayward Hatchling",
-        methodType: "Purchased",
-        method: "Purchased from Bango Zango in Limsa Lominsa, Roarich in Ul'dah, or Maisenta in New Gridania.",
-        patch: "2.0"
+        "name_en": "Water Imp",
+        "category": "Purchase",
+        "source": "10,000 MGP",
+        "patch": "2.51"
     },
     {
-        name: "Whisper",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "3.35"
+        "name_en": "Wayward Hatchling",
+        "category": "Purchase",
+        "source": "Minion Trader - The Gold Saucer - 2,400 Gil",
+        "patch": "2.0"
     },
     {
-        name: "White Whittret",
-        methodType: "Duty",
-        method: "Rare drop from the final chest in Hells' Lid",
-        patch: "4.2"
+        "name_en": "Weatherproof Gaelicat",
+        "category": "Skybuilders",
+        "source": "Kupo of Fortune",
+        "patch": "5.31"
     },
     {
-        name: "Wide-eyed Fawn",
-        methodType: "Purchased",
-        method: "Purchased from Auriana for 7 Allagan Tomestones of Soldiery",
-        patch: "2.0"
+        "name_en": "Whisper",
+        "category": "Event",
+        "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)",
+        "patch": "3.35"
     },
     {
-        name: "Wind-up Aerith",
-        methodType: "Optional Item",
-        method: "Mog Station (once the 2019 Japan Fan Festival goes live)",
-        patch: "4.45"
+        "name_en": "White Whittret",
+        "category": "Dungeon",
+        "source": "Hells' Lid",
+        "patch": "4.2"
     },
     {
-        name: "Wind-up Airship",
-        methodType: "Quest Reward",
-        method: "Obtain an airship pass (The Gridanian Envoy, The Ul'dahn Envoy, or The Lominsan Envoy.)",
-        patch: "2.0"
+        "name_en": "Wide-eyed Fawn",
+        "category": "Purchase",
+        "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Aldgoat",
-        methodType: "Crafted",
-        method: "Crafted by Level 50 Weaver.",
-        patch: "2.0"
+        "name_en": "Wind-up Aerith",
+        "category": "Premium",
+        "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store",
+        "patch": "4.45"
     },
     {
-        name: "Wind-up Alisae",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "3.01"
+        "name_en": "Wind-up Airship",
+        "category": "Quest",
+        "source": "The Gridanian Envoy / The Lominsan Envoy / The Ul'dahn Envoy",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Alpha",
-        methodType: "Quest Reward",
-        method: "Post Alphascape 4.0 Quest",
-        patch: "4.4"
+        "name_en": "Wind-up Aldgoat",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Alphinaud",
-        methodType: "Quest Reward",
-        method: "Complete the Level 51 Main Scenario Quest In Search of Iceheart.",
-        patch: "3.0"
+        "name_en": "Wind-up Alisae",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.01"
     },
     {
-        name: "Wind-up Amalj'aa",
-        methodType: "Purchased",
-        method: "Bought from Amalj'aa Vendor for 25,000 Gil.",
-        patch: "2.1"
+        "name_en": "Wind-up Alpha",
+        "category": "Quest",
+        "source": "To Kweh under Distant Skies",
+        "patch": "4.4"
     },
     {
-        name: "Wind-up Ananta",
-        methodType: "Purchased",
-        method: "7x Ananta Dreamstaff from the Ananta Reputation Vendor",
-        patch: "4.2"
+        "name_en": "Wind-up Alphinaud",
+        "category": "Quest",
+        "source": "In Search of Iceheart",
+        "patch": "3.0"
     },
     {
-        name: "Wind-up Ardbert",
-        methodType: "Seasonal Event",
-        method: "Complete the event quest Glass from the Past",
-        patch: "5.3"
+        "name_en": "Wind-up Amalj'aa",
+        "category": "Beast Tribe",
+        "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Aymeric",
-        methodType: "Quest Reward",
-        method: "Complete the level 60 Main Scenario Quest Litany of Peace.",
-        patch: "3.3"
+        "name_en": "Wind-up Ananta",
+        "category": "Beast Tribe",
+        "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs",
+        "patch": "4.2"
     },
     {
-        name: "Wind-up Bahamut",
-        methodType: "Item Code",
-        method: "Final Fantasy XIV: A Realm Reborn Original Soundtrack",
-        patch: "2.2"
+        "name_en": "Wind-up Ardbert",
+        "category": "Event",
+        "source": "The Rising (2020)",
+        "patch": "5.3"
     },
     {
-        name: "Wind-up Bartz",
-        methodType: "Collector's",
-        method: "Purchase Collector's Edition of Stormblood",
-        patch: "4.0"
+        "name_en": "Wind-up Aymeric",
+        "category": "Quest",
+        "source": "Litany of Peace",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Bismarck",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Weaver.",
-        patch: "4.0"
+        "name_en": "Wind-up Bahamut",
+        "category": "Limited",
+        "source": "Item code included with A Realm Reborn Original Sountrack",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Brickman",
-        methodType: "Seasonal Event",
-        method: "Complete the event quest Breaking Brick Mountains",
-        patch: "2.1"
+        "name_en": "Wind-up Bartz",
+        "category": "Premium",
+        "source": "Stormblood Collector's Edition",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Calofisteri",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Weeping City of Mhach.",
-        patch: "3.3"
+        "name_en": "Wind-up Bismarck",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Cheerleader",
-        methodType: "Purchased",
-        method: "Purchased from Storm Sergeant for 15,000 Wolf Marks in Wolves' Den Pier.",
-        patch: "3.3"
+        "name_en": "Wind-up Brickman",
+        "category": "Event",
+        "source": "Breaking Brick Mountains (2014) / Breaking Brick Mountains (2017)",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Chimera",
-        methodType: "Crafted",
-        method: "Crafted by Level 70★ Weaver.",
-        patch: "4.0"
+        "name_en": "Wind-up Calofisteri",
+        "category": "Raid",
+        "source": "The Weeping City of Mhach",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Cid",
-        methodType: "Quest Reward",
-        method: "Complete the Level 57 Main Scenario Quest A Difference of Opinion.",
-        patch: "3.0"
+        "name_en": "Wind-up Cheerleader",
+        "category": "Purchase",
+        "source": "15,000 Wolf Marks",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Cirina",
-        methodType: "Seasonal Event",
-        method: "In Adventurers We Trust Seasonal Quest reward (The Rising (2018) anniversary event.)",
-        patch: "4.35"
+        "name_en": "Wind-up Chimera",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.0"
     },
     {
-        name: "Wind-Up Cloud",
-        methodType: "Optional Item",
-        method: "Mog Station (once the 2019 Japan Fan Festival goes live)",
-        patch: "4.45"
+        "name_en": "Wind-up Cid",
+        "category": "Quest",
+        "source": "A Difference of Opinion",
+        "patch": "3.0"
     },
     {
-        name: "Wind-up Cursor",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates.",
-        patch: "2.0"
+        "name_en": "Wind-up Cirina",
+        "category": "Event / Premium",
+        "source": "The Rising (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.35"
     },
     {
-        name: "Wind-up Dalamud",
-        methodType: "Item Code",
-        method: "Obtained when you purchase the Before Meteor Blu-Ray Soundtrack from the Square Enix Store",
-        patch: "2.0"
+        "name_en": "Wind-Up Cloud",
+        "category": "Premium",
+        "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store",
+        "patch": "4.45"
     },
     {
-        name: "Wind-up Deliver Moogle",
-        methodType: "Item Code",
-        method: "Delivery Moogle Plush",
-        patch: "2.38"
+        "name_en": "Wind-up Cursor",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Dezul Qualan",
-        methodType: "Purchased",
-        method: "Purchased from Ixali Vendor for 25,000 gil in North Shroud",
-        patch: "2.35"
+        "name_en": "Wind-up Dalamud",
+        "category": "Limited",
+        "source": "Item code included with Before Meteor Original Soundtrack",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Dragonet",
-        methodType: "Purchased",
-        method: "Purchased from Mogmul Mogbelly for 30,000 gil at Sworn (or higher) reputation",
-        patch: "3.3"
+        "name_en": "Wind-up Deliver Moogle",
+        "category": "Premium",
+        "source": "Item code included with Delivery Moogle Plushie",
+        "patch": "2.38"
     },
     {
-        name: "Wind-up Dulia-Chai",
-        methodType: "Item Code",
-        method: "FINAL FANTASY XIV: SHADOWBRINGERS - The Art of Reflection Art Book",
-        patch: "5.2"
+        "name_en": "Wind-up Dezul Qualan",
+        "category": "Beast Tribe",
+        "source": "Ixali Vendor - Ehcatl - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up Dullahan",
-        methodType: "Crafted",
-        method: "Crafted by Level 50 Armorer.",
-        patch: "2.0"
+        "name_en": "Wind-up Dragonet",
+        "category": "Beast Tribe",
+        "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Echidna",
-        methodType: "Duty",
-        method: "Found in chest after final boss of The Void Ark.",
-        patch: "3.1"
+        "name_en": "Wind-up Dulia-Chai",
+        "category": "Premium",
+        "source": "Item code included with The Art of Reflection -Histories Forsaken- Artbook",
+        "patch": "5.2"
     },
     {
-        name: "Wind-up Edda",
-        methodType: "Duty",
-        method: "From Iron Trimmed Sacks found in Palace of the Dead.",
-        patch: "3.4"
+        "name_en": "Wind-up Dullahan",
+        "category": "Crafting",
+        "source": "Crafted by Armorer",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Edvya",
-        methodType: "Seasonal Event",
-        method: "Acquired from the Little Ladies' Day. MogStation: 5 USD / 3.5 EUR",
-        patch: "2.1"
+        "name_en": "Wind-up Echidna",
+        "category": "Raid",
+        "source": "The Void Ark",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Elvaan",
-        methodType: "FATE Reward",
-        method: "You Do Know Jack FATE in East Flamerock",
-        patch: "4.45"
+        "name_en": "Wind-up Edda",
+        "category": "Deep Dungeon",
+        "source": "The Palace of the Dead",
+        "patch": "3.4"
     },
     {
-        name: "Wind-up Estinien",
-        methodType: "Other",
-        method: "Randomly the 2-line reward of Wondrous Tails.",
-        patch: "3.5"
+        "name_en": "Wind-up Edvya",
+        "category": "Event / Premium",
+        "source": "Little Ladies' Day (2014) / Final Fantasy XIV Online Store",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Exdeath",
-        methodType: "Duty",
-        method: "Found in chest after final boss of Deltascape V4.0.",
-        patch: "4.01"
+        "name_en": "Wind-up Elvaan",
+        "category": "Eureka",
+        "source": "FATE \"You Do Know Jack\" - Eureka Pyros",
+        "patch": "4.45"
     },
     {
-        name: "Wind-up Fafnir",
-        methodType: "FATE Reward",
-        method: "Occasional drop from Wine and Honey FATE in Eureka Anemos",
-        patch: "4.25"
+        "name_en": "Wind-up Estinien",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "3.5"
     },
     {
-        name: "Wind-up Firion",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "3.07"
+        "name_en": "Wind-up Exdeath",
+        "category": "Raid",
+        "source": "Deltascape V4.0 / Deltascape V4.0 (Savage)",
+        "patch": "4.01"
     },
     {
-        name: "Wind-up Founder",
-        methodType: "Purchased",
-        method: "Purchased from Amalj'aa Vendor for 25,000 gil",
-        patch: "2.35"
+        "name_en": "Wind-up Fafnir",
+        "category": "Eureka",
+        "source": "Anemos Lockbox / FATE \"Wine and Honey\" - Eureka Anemos",
+        "patch": "4.25"
     },
     {
-        name: "Wind-up Fran",
-        methodType: "Collector's",
-        method: "Purchase Collector's Edition of Shadowbringers",
-        patch: "5.0"
+        "name_en": "Wind-up Firion",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "3.07"
     },
     {
-        name: "Wind-up Fuath",
-        methodType: "Treasure Hunt",
-        method: "Drops from Dungeons of Lyhe Ghiah",
-        patch: "5.05"
+        "name_en": "Wind-up Founder",
+        "category": "Beast Tribe",
+        "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up G'raha Tia",
-        methodType: "Quest Reward",
-        method: "Complete the Level 80 Main Scenario Quest Shadowbringers.",
-        patch: "5.0"
+        "name_en": "Wind-up Fran",
+        "category": "Premium",
+        "source": "Shadowbringers Collector's Edition",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Garuda",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Weaver",
-        patch: "3.2"
+        "name_en": "Wind-up Fuath",
+        "category": "Treasure Hunt",
+        "source": "The Dungeons of Lyhe Ghiah",
+        "patch": "5.05"
     },
     {
-        name: "Wind-up Gentleman",
-        methodType: "Quest Reward",
-        method: "Complete the Level 50 Hildibrand questline Her Last Vow.",
-        patch: "2.5"
+        "name_en": "Wind-up G'raha Tia",
+        "category": "Quest",
+        "source": "Shadowbringers",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Gilgamesh",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.3"
+        "name_en": "Wind-up Garuda",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Gnath",
-        methodType: "Purchased",
-        method: "30,000 gil and Rank 7 (Sworn Reputation) from Vath Stickpeddler.",
-        patch: "3.2"
+        "name_en": "Wind-up Gentleman",
+        "category": "Quest",
+        "source": "Her Last Vow",
+        "patch": "2.5"
     },
     {
-        name: "Wind-up Goblin",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.3"
+        "name_en": "Wind-up Gilgamesh",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Gosetsu",
-        methodType: "Optional Item",
-        method: "Acquired from The Rising (2017). MogStation: 5 USD / 3.5 EUR",
-        patch: "4.05"
+        "name_en": "Wind-up Gnath",
+        "category": "Beast Tribe",
+        "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Gundu Warrior",
-        methodType: "Purchased",
-        method: "Purchased from Luna Vanu for 30,000 gil",
-        patch: "3.1"
+        "name_en": "Wind-up Goblin",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Haurchefant",
-        methodType: "Quest Reward",
-        method: "Complete the Level 60 Main Scenario Quest As Goes Light, So Goes Darkness.",
-        patch: "3.1"
+        "name_en": "Wind-up Gosetsu",
+        "category": "Event / Premium",
+        "source": "The Rising (2017) / Final Fantasy XIV Online Store",
+        "patch": "4.05"
     },
     {
-        name: "Wind-up Hien",
-        methodType: "Other",
-        method: "Potential reward from Wondrous Tails",
-        patch: "4.1"
+        "name_en": "Wind-up Gundu Warrior",
+        "category": "Beast Tribe",
+        "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Hobgoblin",
-        methodType: "Retainer Ventures",
-        method: "Highland Exploration XXV Miner Retainer Venture or Quick Exploration",
-        patch: "5.1"
+        "name_en": "Wind-up Haurchefant",
+        "category": "Quest",
+        "source": "As Goes Light, So Goes Darkness",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Hraesvelgr",
-        methodType: "Item Code",
-        method: "FINAL FANTASY XIV: HEAVENSWARD - The Scars of War Art Book",
-        patch: "3.55a"
+        "name_en": "Wind-up Hien",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Iceheart",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2015). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.05"
+        "name_en": "Wind-up Hobgoblin",
+        "category": "Venture",
+        "source": "Highland Exploration XXV / Quick Exploration",
+        "patch": "5.1"
     },
     {
-        name: "Wind-up Ifrit",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Weaver.",
-        patch: "3.1"
+        "name_en": "Wind-up Hraesvelgr",
+        "category": "Premium",
+        "source": "Item code included with The Art of Ishgard: The Scars of War",
+        "patch": "3.55a"
     },
     {
-        name: "Wind-up Illuminatus",
-        methodType: "Crafted",
-        method: "Crafted by Level 60★ Weaver.",
-        patch: "3.1"
+        "name_en": "Wind-up Iceheart",
+        "category": "Event / Premium",
+        "source": "The Rising (2015) / Final Fantasy XIV Online Store",
+        "patch": "3.05"
     },
     {
-        name: "Wind-up Ixal",
-        methodType: "Purchased",
-        method: "Purchased from Ixali Vendor for 25,000 gil",
-        patch: "2.35"
+        "name_en": "Wind-up Ifrit",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Ixion",
-        methodType: "FATE Reward",
-        method: "Traded from Eschina for 5 Ixion Horns",
-        patch: "4.1"
+        "name_en": "Wind-up Illuminatus",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Kain",
-        methodType: "Collector's",
-        method: "Heavensward Collector's Edition",
-        patch: "3.0"
+        "name_en": "Wind-up Ixal",
+        "category": "Beast Tribe",
+        "source": "Ixali Vendor - Ehcatl - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up Kefka",
-        methodType: "Duty",
-        method: "Guaranteed drop from Sigmascape V4.0 and Sigmascape V4.0 (Savage).",
-        patch: "4.2"
+        "name_en": "Wind-up Ixion",
+        "category": "FATE",
+        "source": "Eschina - Rhalgr's Reach - 5 Ixion Horns (FATE \"A Horse Outside\")",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Khloe",
-        methodType: "Other",
-        method: "Possible Wondrous Tails reward.",
-        patch: "4.0"
+        "name_en": "Wind-up Kain",
+        "category": "Premium",
+        "source": "Heavensward Collector's Edition",
+        "patch": "3.0"
     },
     {
-        name: "Wind-up Kobold",
-        methodType: "Purchased",
-        method: "Bought from Kobold Vendor for 25,000 Gil.",
-        patch: "2.2"
+        "name_en": "Wind-up Kefka",
+        "category": "Raid",
+        "source": "Sigmascape V4.0 / Sigmascape V4.0 (Savage)",
+        "patch": "4.2"
     },
     {
-        name: "Wind-up Kobolder",
-        methodType: "Purchased",
-        method: "Bought from Kobold Vendor for 25,000 Gil.",
-        patch: "2.35"
+        "name_en": "Wind-up Khloe",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Kojin",
-        methodType: "Purchased",
-        method: "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe.",
-        patch: "4.1"
+        "name_en": "Wind-up Kobold",
+        "category": "Beast Tribe",
+        "source": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Krile",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2016). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.35"
+        "name_en": "Wind-up Kobolder",
+        "category": "Beast Tribe",
+        "source": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up Lakshmi",
-        methodType: "Crafted",
-        method: "Crafted by level 70★ Weaver.",
-        patch: "4.0"
+        "name_en": "Wind-up Kojin",
+        "category": "Beast Tribe",
+        "source": "Shikitahe - Tamamizu - 5 Kojin Sango",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Leader",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.1"
+        "name_en": "Wind-up Krile",
+        "category": "Event / Premium",
+        "source": "The Rising (2016) / Final Fantasy XIV Online Store",
+        "patch": "3.35"
     },
     {
-        name: "Wind-up Leviathan",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Weaver.",
-        patch: "3.2"
+        "name_en": "Wind-up Lakshmi",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "4.0"
     },
     {
-        name: "Wind-Up Louisoix",
-        methodType: "Achievements",
-        method: "Complete the Out of a Bind I achievement by completing The Final Coil of Bahamut.",
-        patch: "2.4"
+        "name_en": "Wind-up Leader",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Lulu",
-        methodType: "Item Code",
-        method: "Fan Fest 2016 in Tokyo Event/Live Stream Ticket",
-        patch: "3.4"
+        "name_en": "Wind-up Leviathan",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Lyse",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2017). MogStation: 5 USD / 3.5 EUR",
-        patch: "4.05"
+        "name_en": "Wind-Up Louisoix",
+        "category": "Achievement",
+        "source": "Out of a Bind I",
+        "patch": "2.4"
     },
     {
-        name: "Wind-up Magnai",
-        methodType: "Crafted",
-        method: "Level 70 ★★ Weaver recipe.",
-        patch: "4.3"
+        "name_en": "Wind-up Lulu",
+        "category": "Premium",
+        "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store",
+        "patch": "3.4"
     },
     {
-        name: "Wind-up Matanga",
-        methodType: "Treasure Hunt",
-        method: "Potential reward from the Hidden Canals of Uznair",
-        patch: "4.1"
+        "name_en": "Wind-up Lyse",
+        "category": "Event / Premium",
+        "source": "The Rising (2017) / Final Fantasy XIV Online Store",
+        "patch": "4.05"
     },
     {
-        name: "Wind-up Meateater",
-        methodType: "Purchased",
-        method: "Purchased from Estrild in Kugane with 800 Centurio Seals.",
-        patch: "4.0"
+        "name_en": "Wind-up Magnai",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.3"
     },
     {
-        name: "Wind-up Minfilia",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2014). MogStation: 5 USD / 3.5 EUR",
-        patch: "2.3"
+        "name_en": "Wind-up Matanga",
+        "category": "Treasure Hunt",
+        "source": "The Hidden Canals of Uznair",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Mithra",
-        methodType: "FATE Reward",
-        method: "Rarely from Short Serket 2 in Eureka Anemos.",
-        patch: "4.25"
+        "name_en": "Wind-up Meateater",
+        "category": "Purchase",
+        "source": "800 Centurio Seals",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Moenbryda",
-        methodType: "Quest Reward",
-        method: "Complete Level 60 Main Scenario Quest An Ending to Mark a New Beginning.",
-        patch: "3.4"
+        "name_en": "Wind-up Minfilia",
+        "category": "Event / Premium",
+        "source": "The Rising (2014) / Final Fantasy XIV Online Store",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Moogle",
-        methodType: "Collector's",
-        method: "Final Fantasy XIV: A Realm Reborn Collector's Edition",
-        patch: "2.2"
+        "name_en": "Wind-up Mithra",
+        "category": "Eureka",
+        "source": "Anemos Lockbox / FATE \"Short Serket 2\" - Eureka Anemos",
+        "patch": "4.25"
     },
     {
-        name: "Wind-up Moon",
-        methodType: "Other",
-        method: "Trade 1 Hi-Elixir to the Magic Pot on The Isles of Umbra.",
-        patch: "3.5"
+        "name_en": "Wind-up Moenbryda",
+        "category": "Quest",
+        "source": "An Ending to Mark a New Beginning",
+        "patch": "3.4"
     },
     {
-        name: "Wind-up Mystel",
-        methodType: "Quest Reward",
-        method: "Complete Level 80 Main Scenario Quest Unto the Morrow",
-        patch: "5.3"
+        "name_en": "Wind-up Moogle",
+        "category": "Premium",
+        "source": "A Realm Reborn Collector's Edition",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Namazu",
-        methodType: "Treasure Hunt",
-        method: "Rarely from Gazelleskin Treasure Maps.",
-        patch: "4.05"
+        "name_en": "Wind-up Moon",
+        "category": "Purchase",
+        "source": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir",
+        "patch": "3.5"
     },
     {
-        name: "Wind-up Nanamo",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.45"
+        "name_en": "Wind-up Mystel",
+        "category": "Quest",
+        "source": "Unto the Morrow",
+        "patch": "5.3"
     },
     {
-        name: "Wind-up Nero tol Scaeva",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 30,000 MGP",
-        patch: "3.2"
+        "name_en": "Wind-up Namazu",
+        "category": "Treasure Hunt",
+        "source": "Timeworn Gazelleskin Map",
+        "patch": "4.05"
     },
     {
-        name: "Wind-up Nidhogg",
-        methodType: "Item Code",
-        method: "The Far Edge of Fate: Final Fantasy XIV Original Soundtrack",
-        patch: "3.5"
+        "name_en": "Wind-up Nanamo",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.45"
     },
     {
-        name: "Wind-up Nu Mou",
-        methodType: "Purchased",
-        method: "800x Sacks of Nuts",
-        patch: "5.0"
+        "name_en": "Wind-up Nero tol Scaeva",
+        "category": "Purchase",
+        "source": "30,000 MGP",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Odin",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania ( X:10.6 Y:6.3) for 2 Achievement Certificates.",
-        patch: "2.2"
+        "name_en": "Wind-up Nidhogg",
+        "category": "Premium",
+        "source": "Item code included with The Far Edge of Fate Original Soundtrack",
+        "patch": "3.5"
     },
     {
-        name: "Wind-up Ohl Deeh",
-        methodType: "Purchased",
-        method: "30,000 Gil from Mogmul Mogbelly at Allied rank",
-        patch: "3.5"
+        "name_en": "Wind-up Nu Mou",
+        "category": "Purchase",
+        "source": "800 Sacks of Nuts",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Omega-F",
-        methodType: "Quest Reward",
-        method: "Reward for Wondrous Tales",
-        patch: "5.0"
+        "name_en": "Wind-up Odin",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Omega-M",
-        methodType: "Quest Reward",
-        method: "Reward for Wondrous Tales",
-        patch: "5.0"
+        "name_en": "Wind-up Ohl Deeh",
+        "category": "Beast Tribe",
+        "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil",
+        "patch": "3.5"
     },
     {
-        name: "Wind-up Onion Knight",
-        methodType: "Duty",
-        method: "Found in rare extra chest after final boss of Syrcus Tower.",
-        patch: "2.3"
+        "name_en": "Wind-up Omega-F",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Silver Certificate of Commendation",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Papalymo",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "2.38"
+        "name_en": "Wind-up Omega-M",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Silver Certificate of Commendation",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Pixie",
-        methodType: "Purchased",
-        method: "8x Fae Fancy from the Pixie Reputation Vendor",
-        patch: "5.1"
+        "name_en": "Wind-up Onion Knight",
+        "category": "Raid",
+        "source": "Syrcus Tower",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Qalyana",
-        methodType: "Purchased",
-        method: "7x Ananta Dreamstaff from the Ananta Reputation Vendor",
-        patch: "4.5"
+        "name_en": "Wind-up Papalymo",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "2.38"
     },
     {
-        name: "Wind-up Qiqirn",
-        methodType: "Crafted",
-        method: "Crafted by Level 50 Weaver.",
-        patch: "2.0"
+        "name_en": "Wind-up Pixie",
+        "category": "Beast Tribe",
+        "source": "Jul Oul - Il Mheg - 8 Fae Fancy",
+        "patch": "5.1"
     },
     {
-        name: "Wind-up Ramuh",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Weaver.",
-        patch: "3.3"
+        "name_en": "Wind-up Qalyana",
+        "category": "Beast Tribe",
+        "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs",
+        "patch": "4.5"
     },
     {
-        name: "Wind-up Ramza",
-        methodType: "Duty",
-        method: "Drops from the Osbonne Monastery",
-        patch: "4.45"
+        "name_en": "Wind-up Qiqirn",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "2.0"
     },
     {
-        name: "Wind-up Ravana",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Weaver.",
-        patch: "4.1"
+        "name_en": "Wind-up Ramuh",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Red Mage",
-        methodType: "Preorder",
-        method: "Preordering Stormblood",
-        patch: "4.0"
+        "name_en": "Wind-up Ramza",
+        "category": "Raid",
+        "source": "The Orbonne Monastery",
+        "patch": "4.45"
     },
     {
-        name: "Wind-up Redback",
-        methodType: "Purchased",
-        method: "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe.",
-        patch: "4.5"
+        "name_en": "Wind-up Ravana",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Relm",
-        methodType: "Item Code",
-        method: "HEAVENSWARD | The Art of Ishgard - Stone and Steel Art Book",
-        patch: "3.1"
+        "name_en": "Wind-up Red Mage",
+        "category": "Limited",
+        "source": "Stormblood Pre-order",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Rikku",
-        methodType: "Item Code",
-        method: "Fan Fest 2016 in Las Vegas Event/Live Stream Ticket",
-        patch: "3.4"
+        "name_en": "Wind-up Redback",
+        "category": "Beast Tribe",
+        "source": "Shikitahe - Tamamizu - 5 Kojin Sango",
+        "patch": "4.5"
     },
     {
-        name: "Wind-up Ryne",
-        methodType: "Duty",
-        method: "Drops from Eden's Verse: Refulgence",
-        patch: "5.2"
+        "name_en": "Wind-up Relm",
+        "category": "Premium",
+        "source": "Item code included with The Art of Ishgard: Stone and Steel",
+        "patch": "3.1"
     },
     {
-        name: "Wind-up Sadu",
-        methodType: "Crafted",
-        method: "Level 70 ★★ Weaver recipe.",
-        patch: "4.3"
+        "name_en": "Wind-up Rikku",
+        "category": "Premium",
+        "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store",
+        "patch": "3.4"
     },
     {
-        name: "Wind-up Sahagin",
-        methodType: "Purchased",
-        method: "Bought from Sahagin Vendor for 25,000 Gil.",
-        patch: "2.2"
+        "name_en": "Wind-up Ryne",
+        "category": "Raid",
+        "source": "Eden's Verse: Refulgence / Eden's Verse: Refulgence (Savage)",
+        "patch": "5.2"
     },
     {
-        name: "Wind-up Sasquatch",
-        methodType: "Purchased",
-        method: "3 Gelmorran Potsherds from E-Una-Kotor at Quarrymill",
-        patch: "3.35"
+        "name_en": "Wind-up Sadu",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.3"
     },
     {
-        name: "Wind-up Scathach",
-        methodType: "Duty",
-        method: "Drops at the end of Dun Scaith",
-        patch: "3.5"
+        "name_en": "Wind-up Sahagin",
+        "category": "Beast Tribe",
+        "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Sea Devil",
-        methodType: "Purchased",
-        method: "Purchased from Sahagin Vendor for 25,000 gil",
-        patch: "2.35"
+        "name_en": "Wind-up Sasquatch",
+        "category": "Deep Dungeon",
+        "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds",
+        "patch": "3.35"
     },
     {
-        name: "Wind-up Shantotto",
-        methodType: "Optional Item",
-        method: "Complete the FFXI Cross-over Event quest Burgeoning Dread. MogStation: 5 USD / 3.5 EUR",
-        patch: "2.1"
+        "name_en": "Wind-up Scathach",
+        "category": "Raid",
+        "source": "Dun Scaith",
+        "patch": "3.5"
     },
     {
-        name: "Wind-up Shinryu",
-        methodType: "Crafted",
-        method: "Level 70 ★★ Weaver recipe.",
-        patch: "4.1"
+        "name_en": "Wind-up Sea Devil",
+        "category": "Beast Tribe",
+        "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up Shiva",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Weaver.",
-        patch: "3.3"
+        "name_en": "Wind-up Shantotto",
+        "category": "Event / Premium",
+        "source": "Burgeoning Dread (2014) / Final Fantasy XIV Online Store",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Succubus",
-        methodType: "Purchased",
-        method: "Grand Company's Hunt Billmaster for 500 Allied Seals.",
-        patch: "2.3"
+        "name_en": "Wind-up Shinryu",
+        "category": "Crafting",
+        "source": "Crafted by Weaver",
+        "patch": "4.1"
     },
     {
-        name: "Wind-up Sun",
-        methodType: "Purchased",
-        method: "Give an Elixir to the Magic Pot at The Ship Graveyard.",
-        patch: "2.2"
+        "name_en": "Wind-up Shiva",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.3"
     },
     {
-        name: "Wind-up Susano",
-        methodType: "Crafted",
-        method: "Level 70 ★ Weaver recipe.",
-        patch: "4.0"
+        "name_en": "Wind-up Succubus",
+        "category": "Purchase",
+        "source": "500 Allied Seals",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Suzaku",
-        methodType: "Item Code",
-        method: "From the SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack.",
-        patch: "5.0"
+        "name_en": "Wind-up Sun",
+        "category": "Purchase",
+        "source": "Magic Pot - The Isles of Umbra - 1 Elixir",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Sylph",
-        methodType: "Purchased",
-        method: "Purchased from Sylph Vendor for 25,000 gil",
-        patch: "2.1"
+        "name_en": "Wind-up Susano",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "4.0"
     },
     {
-        name: "Wind-up Tarutaru",
-        methodType: "Duty",
-        method: "From Lockboxes in Eureka: Pagos",
-        patch: "4.36"
+        "name_en": "Wind-up Suzaku",
+        "category": "Premium",
+        "source": "Item code included with Shadowbringers Original Soundtrack",
+        "patch": "5.0"
     },
     {
-        name: "Wind-up Tataru",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "3.01"
+        "name_en": "Wind-up Sylph",
+        "category": "Beast Tribe",
+        "source": "Sylphic Vendor - Little Solace - 25,000 Gil",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Thancred",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2014). MogStation: 5 USD / 3.5 EUR",
-        patch: "2.3"
+        "name_en": "Wind-up Tarutaru",
+        "category": "Eureka",
+        "source": "Pagos Lockbox - Eureka Pagos",
+        "patch": "4.36"
     },
     {
-        name: "Wind-up Tifa",
-        methodType: "Optional Item",
-        method: "MogStation: 6.99 USD",
-        patch: "4.4"
+        "name_en": "Wind-up Tataru",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.01"
     },
     {
-        name: "Wind-up Titan",
-        methodType: "Crafted",
-        method: "Crafted by level 60★ Weaver.",
-        patch: "3.2"
+        "name_en": "Wind-up Thancred",
+        "category": "Event / Premium",
+        "source": "The Rising (2014) / Final Fantasy XIV Online Store",
+        "patch": "2.3"
     },
     {
-        name: "Wind-up Tonberry",
-        methodType: "Treasure Hunt",
-        method: "Boarskin Treasure Hunt, The Aquapolis, or Palace of the Dead Bronze-trimmed Sacks.",
-        patch: "2.1"
+        "name_en": "Wind-up Tifa",
+        "category": "Premium",
+        "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store",
+        "patch": "4.4"
     },
     {
-        name: "Wind-up Tsukuyomi",
-        methodType: "Item Code",
-        method: "From the STORMBLOOD: FINAL FANTASY XIV Original Soundtrack.",
-        patch: "4.3"
+        "name_en": "Wind-up Titan",
+        "category": "Crafting / Deep Dungeon",
+        "source": "Crafted by Weaver / Heaven-on-High",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Ultros",
-        methodType: "Duty",
-        method: "Obtained from The Dragon's Neck.",
-        patch: "2.4"
+        "name_en": "Wind-up Tonberry",
+        "category": "Deep Dungeon / Treasure Hunt",
+        "source": "The Palace of the Dead / Timeworn Boarskin Map / The Aquapolis",
+        "patch": "2.1"
     },
     {
-        name: "Wind-up Urianger",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "2.45"
+        "name_en": "Wind-up Tsukuyomi",
+        "category": "Premium",
+        "source": "Item code included with Stormblood Original Soundtrack",
+        "patch": "4.3"
     },
     {
-        name: "Wind-up Vath",
-        methodType: "Purchased",
-        method: "30,000 gil and Rank 4 (Trusted Reputation) from Vath Stickpeddler.",
-        patch: "3.2"
+        "name_en": "Wind-up Ultros",
+        "category": "Trial",
+        "source": "The Dragon's Neck",
+        "patch": "2.4"
     },
     {
-        name: "Wind-up Violet",
-        methodType: "Purchased",
-        method: "Purchased from Sylph Vendor for 25,000 gil",
-        patch: "2.35"
+        "name_en": "Wind-up Urianger",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "2.45"
     },
     {
-        name: "Wind-up Warrior of Light",
-        methodType: "Achievements",
-        method: "Obtained from Jonathas in Old Gridania for 2 Achievement Certificates.",
-        patch: "2.2"
+        "name_en": "Wind-up Vath",
+        "category": "Beast Tribe",
+        "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil",
+        "patch": "3.2"
     },
     {
-        name: "Wind-up Weapon",
-        methodType: "Duty",
-        method: "Drops from The Ghimlyt Dark",
-        patch: "4.45"
+        "name_en": "Wind-up Violet",
+        "category": "Beast Tribe",
+        "source": "Sylphic Vendor - Little Solace - 25,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Wind-up Y'shtola",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "2.38"
+        "name_en": "Wind-up Warrior of Light",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 2 Achievement Certificates",
+        "patch": "2.2"
     },
     {
-        name: "Wind-up Yda",
-        methodType: "Optional Item",
-        method: "MogStation: 5 USD / 3.5 EUR",
-        patch: "2.38"
+        "name_en": "Wind-up Weapon",
+        "category": "Dungeon",
+        "source": "The Ghimlyt Dark",
+        "patch": "4.45"
     },
     {
-        name: "Wind-up Yotsuyu",
-        methodType: "Item Code",
-        method: "Bonus code from the Stormblood Art Book",
-        patch: "4.2"
+        "name_en": "Wind-up Y'shtola",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "2.38"
     },
     {
-        name: "Wind-up Yugiri",
-        methodType: "Seasonal Event",
-        method: "Acquired from The Rising (2015). MogStation: 5 USD / 3.5 EUR",
-        patch: "3.07"
+        "name_en": "Wind-up Yda",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "2.38"
     },
     {
-        name: "Wind-up Yuna",
-        methodType: "Item Code",
-        method: "Fan Fest 2017 in Frankfurt Event/Live Stream Ticket",
-        patch: "3.5"
+        "name_en": "Wind-up Yotsuyu",
+        "category": "Premium",
+        "source": "Item code included with Art of the Revolution: Western Memories",
+        "patch": "4.2"
     },
     {
-        name: "Wind-up Zhloe",
-        methodType: "Quest Reward",
-        method: "Potential Wondrous Tails reward",
-        patch: "4.3"
+        "name_en": "Wind-up Yugiri",
+        "category": "Event / Premium",
+        "source": "The Rising (2015) / Final Fantasy XIV Online Store",
+        "patch": "3.07"
     },
     {
-        name: "Wind-up Zundu Warrior",
-        methodType: "Purchased",
-        method: "30,000 gil and Rank 4 (Trusted Reputation) from Luna Vanu",
-        patch: "3.1"
+        "name_en": "Wind-up Yuna",
+        "category": "Premium",
+        "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store",
+        "patch": "3.5"
     },
     {
-        name: "Wolf Pup",
-        methodType: "Quest Reward",
-        method: "Man's Best Friend quest in Aleport from Skribyld.",
-        patch: "2.1"
+        "name_en": "Wind-up Zhloe",
+        "category": "Wondrous Tails",
+        "source": "1 Khloe's Bronze Certificate of Commendation",
+        "patch": "4.3"
     },
     {
-        name: "Yukinko Snowflake",
-        methodType: "Duty",
-        method: "The Forbidden Land, Eureka Hydatos",
-        patch: "4.5"
+        "name_en": "Wind-up Zundu Warrior",
+        "category": "Beast Tribe",
+        "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil",
+        "patch": "3.1"
     },
     {
-        name: "Zephyrous Zabuton",
-        methodType: "Purchased",
-        method: "Kojiin Beast Tribe Reward. Costs 5 Kojin Sango from Shikitahe.",
-        patch: "5.3"
+        "name_en": "Wolf Pup",
+        "category": "Quest",
+        "source": "Man's Best Friend",
+        "patch": "2.1"
     },
     {
-        name: "Zazel",
-        methodType: "Seasonal Event",
-        method: "Acquired from Yo-kai Watch: Gather One, Gather All!.",
-        patch: "4.5"
+        "name_en": "Yukinko Snowflake",
+        "category": "Eureka",
+        "source": "Hydatos Lockbox / Moisture-warped Lockbox - Eureka Hydatos",
+        "patch": "4.5"
     },
     {
-        name: "Zu Hatchling",
-        methodType: "Purchased",
-        method: "Purchased from Gold Saucer Attendant for 10,000 MGP",
-        patch: "2.3"
+        "name_en": "Zazel",
+        "category": "Event",
+        "source": "Yo-kai Watch (2020)",
+        "patch": "5.3"
     },
+    {
+        "name_en": "Zephyrous Zabuton",
+        "category": "Beast Tribe",
+        "source": "Shikitahe - Tamamizu - 5 Kojin Sango",
+        "patch": "4.5"
+    },
+    {
+        "name_en": "Zu Hatchling",
+        "category": "Purchase",
+        "source": "10,000 MGP",
+        "patch": "2.3"
+    }
 ];

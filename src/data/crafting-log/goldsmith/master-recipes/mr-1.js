@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "1Wind Shard, 10 Fire Shard",
-        special: "Trade, Ingredient (GSM), Unlocked w/ Master Goldsmith I"
+        catalysts: "1Wind Shard, 10 Fire Shard"
     }, {
         level: "50★★",
         name: "Magitek Repair Materials",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     }, {
         level: "50★★★",
         name: "Fluorite Lens",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Siltstone Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith I"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★",
         name: "Calibrated Rose Gold Cog",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Wind Shard, 11 Fire Shard",
-        special: "Trade, Unlocked w/ Master Goldsmith I"
+        catalysts: "12 Wind Shard, 11 Fire Shard"
     }, {
         level: "50★★★",
         name: "Ruby",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, CRP, WVR, LTW, BSM, ARM), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Diamond",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, CRP), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emerald",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, WVR), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Topaz",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, WVR), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Iolite",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, WVR, CRP, ALC), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Sapphire",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, WVR, ARM, ALC, LTW, GSM), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Gold Ingot",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (GSM, CRP, ARM, BSM, ALC, LTW, WVR, FCC), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Platinum Nugget",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (WVR, CRP, LTW, GSM, ARM, BSM), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Furnace Ring",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Gold Spectacles",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "Rose Gold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Large Garden Pond",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "8 Terminus Putty",
         mat5: "8 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith I"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "54",
         name: "Celestine",
@@ -179,7 +164,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Trade, Ingredient (CRP, GSM, FCC), Unlocked w/ Master Goldsmith I"
+        catalysts: "Wind Cluster, Fire Cluster"
     },
 ];

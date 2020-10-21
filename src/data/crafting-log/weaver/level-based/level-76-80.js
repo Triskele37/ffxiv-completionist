@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal"
     },
     {
         level: "76",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal"
     },
     {
         level: "76",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Manzasiri Hair",
         mat5: "Grade 1 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Manzasiri Hair",
         mat5: "Grade 1 Intelligence Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Manzasiri Hair",
         mat5: "Grade 1 Mind Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "Star Ruby",
         mat6: "2 Grade 1 Dexterity Alkahest",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "Star Sapphire",
         mat6: "2 Grade 1 Intelligence Alkahest",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "2 Grade 1 Intelligence Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "77",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Manzasiri Hair",
         mat5: "Grade 1 Strength Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Star Sapphire",
         mat5: "2 Grade 1 Strength Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Star Ruby",
         mat5: "2 Grade 1 Mind Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal"
     },
     {
         level: "78",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal"
     },
     {
         level: "78",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "2 Grade 1 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "2 Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "2 Wildfowl Feather",
         mat5: "Grade 1 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "2 Wildfowl Feather",
         mat5: "Grade 1 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "2 Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "2 Dwarven Cotton Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -482,7 +443,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -59,8 +58,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -93,8 +91,7 @@ const tasks = [
         mat4: "2 Steel Joint Plate",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -105,8 +102,7 @@ const tasks = [
         mat4: "2 Cedar Lumber",
         mat5: "2 Potash",
         mat6: "2 Tallow Candle",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -117,8 +113,7 @@ const tasks = [
         mat4: "2 Tempered Glass",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -129,8 +124,7 @@ const tasks = [
         mat4: "Tiger Leather",
         mat5: "2 Ruby Cotton Yarn",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -141,8 +135,7 @@ const tasks = [
         mat4: "2 Silk Thread",
         mat5: "4 Waterfowl Feather",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -153,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -165,8 +157,7 @@ const tasks = [
         mat4: "3 Cobalt Joint Plate",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -177,8 +168,7 @@ const tasks = [
         mat4: "2 Cobalt rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "70★★",
@@ -189,8 +179,7 @@ const tasks = [
         mat4: "4 Cut Stone",
         mat5: "2 Steel Hinge",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -201,8 +190,7 @@ const tasks = [
         mat4: "Kudzu Cloth",
         mat5: "2 Cobalt Joint Plate",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Wall-Mounted), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -213,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Wall-Mounted), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -225,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter VI"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -237,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Ingredient (CRP, BSM, ARM, GSM), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -249,8 +234,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -261,8 +245,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -273,8 +256,7 @@ const tasks = [
         mat4: "2 Imperial Jade",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Reisui of Mind",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -285,8 +267,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -297,8 +278,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -309,8 +289,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -321,8 +300,7 @@ const tasks = [
         mat4: "Persimmon Tannen",
         mat5: "4 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -333,8 +311,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -345,8 +322,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -357,8 +333,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -369,8 +344,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -381,8 +355,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -393,8 +366,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -405,8 +377,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -417,8 +388,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -429,8 +399,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -441,8 +410,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -453,8 +421,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -465,8 +432,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★",
@@ -477,8 +443,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -489,8 +454,7 @@ const tasks = [
         mat4: "Paladium Ingot",
         mat5: "Varnish",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Housing (Wall-mount), Unlocked w/ Master Carpenter VI"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -501,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Buyable, Ingredient (CRP, BSM, GSM, LTW), Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -513,8 +476,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -525,8 +487,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -537,8 +498,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Vitality",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -549,8 +509,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -561,8 +520,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Dexterity",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -573,8 +531,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -585,8 +542,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Mind",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -597,8 +553,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Vitality",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -609,8 +564,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -621,8 +575,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Dexterity",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -633,8 +586,7 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★★★",
@@ -645,7 +597,6 @@ const tasks = [
         mat4: "Imperial Jade",
         mat5: "Grade 4 Reisui Mind",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VI"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
 ];

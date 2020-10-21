@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "30 Wind Cluster, 30 Ice Cluster",
-        special: "Mount, Unlocked w/ Master Carpenter VII"
+        catalysts: "30 Wind Cluster, 30 Ice Cluster"
     },
     {
         level: "80★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Strength Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Onyx",
         mat5: "3 Grade 2 Intelligence Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Mind Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "80★★",
@@ -110,7 +102,6 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter VII"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "2 Furymint",
         mat5: "2 Rue",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "58",
         name: "Draconian Potion of Dexterity",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "2 Furymint",
         mat5: "2 Coneflower",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Unlocked w/ Master Alchemist III, Levequest, Provisioning"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "59",
         name: "Draconian Potion of Vitality",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "2 Furymint",
         mat5: "2 Cow Bitter",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Unlocked w/ Master Alchemist III, Provisioning"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "59",
         name: "Draconian Potion of Intelligence",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "2 Furymint",
         mat5: "2 Coriander",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Unlocked w/ Master Alchemist III, Provisioning"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "59",
         name: "Draconian Potion of Mind",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "2 Furymint",
         mat5: "2 Dandelion",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Unlocked w/ Master Alchemist III, Provisioning"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60",
         name: "Noble Gold",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Mormorion",
         mat5: "Chrysolite",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Buyable, Collectable, Trade, Unlocked w/ Master Alchemist III, Levequest"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60",
         name: "Noble's Codex",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Dragon Leather",
         mat5: "Chrysolite",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Buyable, Collectable, Trade, Unlocked w/ Master Alchemist III, Levequest"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60",
         name: "Painted Foothills Orchestrion Roll",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Lost in the Clouds Orchestrion Roll",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Blood for Blood Orchestrion Roll",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Starved Orchestrion Roll",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Imagination Orchestrion Roll",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Against The Wind Orchestrion Roll",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Landlords Orchestrion Roll",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Missing Pages Orchestrion Roll",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Engage Orchestrion Roll",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Close to the Heavens Orchestrion Roll",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Skylords Orchestrion Roll",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "The Silent Regard of Stars Orchestrion Roll",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60",
         name: "Black and White Orchestrion Roll",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     }, {
         level: "60★",
         name: "Astral Oil",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Ingredient (ALC, CRP, GSM, WVR), Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Titanium Alloy Mirror",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "Vitriol",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Trade, Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Atrophied Atomos",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "Glazenut",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "99 Water Shard",
-        special: "Minion, Unlocked w/ Master Alchemist III"
+        catalysts: "99 Water Shard"
     }, {
         level: "60★",
         name: "Down the Up Staircase Orchestrion Roll",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Heroes Orchestrion Roll",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Fiend Orchestrion Roll",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Eternal Wind Orchestrion Roll",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "Blank Grade 3 Orchestrion Roll",
         mat5: "Enchanted Aurum Regis Ink",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist II, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Limitless Blue Orchestrion Roll",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Woe That Is Madness Orchestrion Roll",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "The Hand That Gives the Rose Orchestrion Roll",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★",
         name: "Unbending Steel Orchestrion Roll",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     }, {
         level: "60★★",
         name: "Grade 2 Strength Dissolvent",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     }, {
         level: "60★★",
         name: "Grade 2 Dexterity Dissolvent",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "Gaelicatnip",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (LTW, WVR), Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     }, {
         level: "60★★",
         name: "Grade 2 Vitality Dissolvent",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ARM, GSM, LTW, WVR), Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     }, {
         level: "60★★",
         name: "Grade 2 Intelligence Dissolvent",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "Chysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (GSM, LTW, WVR), Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     }, {
         level: "60★★",
         name: "Grade 2 Mind Dissolvent",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "Gloaming Coral",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (GSM, LTW, WVR), Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     }, {
         level: "60★★",
         name: "Dravanian Down Tree",
@@ -410,7 +374,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Outdoor Furnishing, Unlocked w/ Master Alchemist III"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
 ];

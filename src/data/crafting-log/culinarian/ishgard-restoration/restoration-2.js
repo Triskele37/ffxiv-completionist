@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     }, {
         level: "40",
         name: "Grade 2 Skybuilders' Bread",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     }, {
         level: "60",
         name: "Grade 2 Skybuilders' Tea",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Sun Lemon",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "70",
         name: "Grade 2 Skybuilders' All-purpose Infusion",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Holy Basil",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "80",
         name: "Grade 2 Skybuilders' Stew",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Rail Tenderloin",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "80★★★",
         name: "Grade 2 Artisanal Skybuilders' Quiche",
@@ -69,7 +64,6 @@ const tasks = [
         mat4: "10 Approved Grade 2 Artisanal Skybuilders' Wheat",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Cluster, 2 Ice Cluster",
-        special: "Ishgard, Collectable, Expert Craft"
+        catalysts: "4 Wind Cluster, 2 Ice Cluster"
     },
 ];

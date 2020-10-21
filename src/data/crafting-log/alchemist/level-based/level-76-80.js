@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal"
     },
     {
         level: "76",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal"
     },
     {
         level: "77",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "Wildfowl Feather",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "77",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "Wildfowl Feather",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "77",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "2 Kudzu Root",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "77",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Kudzu Root",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "78",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal"
     },
     {
         level: "78",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Stonegold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "78",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Stonegold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "79",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Chiaroglow Aethersand",
         mat5: "Scuroglow Aethersand",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "79",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Chiaroglow Aethersand",
         mat5: "Scuroglow Aethersand",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Chiaroglow Aethersand",
         mat5: "Scuroglow Aethersand",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Chiaroglow Aethersand",
         mat5: "Scuroglow Aethersand",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80",
@@ -170,7 +157,6 @@ const tasks = [
         mat4: "Chiaroglow Aethersand",
         mat5: "Scuroglow Aethersand",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     }
 ];

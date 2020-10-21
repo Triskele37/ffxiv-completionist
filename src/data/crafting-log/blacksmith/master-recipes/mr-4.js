@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Earth Crystal",
-        special: "Ingredient(ARM, GSM, LTW, WVR), Unlocked w/ Master Blacksmith IV"
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     }, {
         level: "60★★",
         name: "Galvanized Garlond Steel",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "9 Coke",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient(CRP, FCC), Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Sword",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Shamshir",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Battleaxe",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Battleaxe",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Greatsword",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Claymore",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Patas",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Claws",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Katana",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Cloud Mica Whetstone",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Katana",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Cloud Mica Whetstone",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Machetes",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Kris",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Handgonne",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Musketoon",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Black Firesand",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Pudding Floor Lamp",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "3 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Great Gubal Floor Lamp",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "2 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Mammet Lantern",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "Astral Silk",
         mat5: "4 Whitefrost Cotton Ball",
         mat6: "Tallow Candle",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Blacksmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Ingot",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, BSM, ALC, CRP, GSM, LTW, WVR, FCC), Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Sword of the Round",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "2 Luminous Fiber",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Blade of the Fiend",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Blade",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "3 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Blade of the Goddess",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "3 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Blade",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Blade",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Axe of the Round",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Axe of the Fiend",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Axe",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Axe of the Goddess",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Battleaxe",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Battleaxe",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Claymore of the Round",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Edge of the Fiend",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Guillotine",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Edge of the Goddess",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Guillotine",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Guillotine",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Spear",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Spear",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Knuckles of the Round",
@@ -454,8 +414,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Fists of the Fiend",
@@ -465,8 +424,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Knuckles",
@@ -476,8 +434,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Fists of the Goddess",
@@ -487,8 +444,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Baghnakhs",
@@ -498,8 +454,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Baghnakhs",
@@ -509,8 +464,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Katana of the Round",
@@ -520,8 +474,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Cloud Mica Whetstone",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Katana of the Fiend",
@@ -531,8 +484,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Cloud Mica Whetstone",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Katana",
@@ -542,8 +494,7 @@ const tasks = [
         mat4: "Cloud Mica Whetstone",
         mat5: "Nidhogg's Scale",
         mat6: "5 Demicrystal",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Katana of the Goddess",
@@ -553,8 +504,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Daggers of the Round",
@@ -564,8 +514,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Points of the Fiend",
@@ -575,8 +524,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Daggers",
@@ -586,8 +534,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Points of the Goddess",
@@ -597,8 +544,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Daggers",
@@ -608,8 +554,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Cleavers",
@@ -619,8 +564,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Composite Bow",
@@ -630,8 +574,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Composite Bow",
@@ -641,8 +584,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Fire of the Round",
@@ -652,8 +594,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Black Firesand",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Fire of the Fiend",
@@ -663,8 +604,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "Fiend Sap",
         mat6: "5 Battlecraft Demimateria III",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Fire of the Goddess",
@@ -674,8 +614,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Pistol",
@@ -685,8 +624,7 @@ const tasks = [
         mat4: "3 Wyrm Obsidian",
         mat5: "2 Allagan Catalyst",
         mat6: "Black Firesand",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Pistol",
@@ -696,8 +634,7 @@ const tasks = [
         mat4: "3 Wyrm Obsidian",
         mat5: "2 Allagan Catalyst",
         mat6: "Black Firesand",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Cloud Mythril Ingot",
@@ -707,8 +644,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, GSM, LTW), Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Saw",
@@ -718,8 +654,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Claw Hammer",
@@ -729,8 +664,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Cross-pein Hammer",
@@ -740,8 +674,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite File",
@@ -751,8 +684,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Raising Hammer",
@@ -762,8 +694,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Pliers",
@@ -773,8 +704,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Lapidary Hammer",
@@ -784,8 +714,7 @@ const tasks = [
         mat4: "Treated Camphorwood Lumber",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Round Knife",
@@ -795,8 +724,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Awl",
@@ -806,8 +734,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Mortar",
@@ -817,8 +744,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Culinary Knife",
@@ -828,8 +754,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Pickaxe",
@@ -839,8 +764,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Sledgehammer",
@@ -850,8 +774,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Hatchet",
@@ -861,8 +784,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★",
         name: "High Mythrite Scythe",
@@ -872,8 +794,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Ingot",
@@ -883,8 +804,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Ingredient (ARM, BSM, CRP, GSM), Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Longsword",
@@ -894,8 +814,7 @@ const tasks = [
         mat4: "4 Demicrystal",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal War Axe",
@@ -905,8 +824,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "2 Saurian Leather",
         mat6: "4 Battlectaft Demimateria III",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Greatsword",
@@ -916,8 +834,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "Saurian Leather",
         mat6: "4 Battlectaft Demimateria III",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Claws",
@@ -927,8 +844,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "Saurian Leather",
         mat6: "4 Battlectaft Demimateria III",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Daggers",
@@ -938,8 +854,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "4 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "60★★★★",
         name: "Heavy Metal Culverin",
@@ -949,8 +864,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "4 Battlecraft Demimateria III",
         mat6: "Black Firesand",
-        catalysts: "3 Fire Cluster, 3 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "3 Fire Cluster, 3 Earth Cluster"
     }, {
         level: "70★",
         name: "Pure Titanium Plate",
@@ -960,7 +874,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Crystal, 6 Earth Crystal",
-        special: "Unlocked w/ Master Blacksmith IV"
+        catalysts: "6 Fire Crystal, 6 Earth Crystal"
     },
 ];

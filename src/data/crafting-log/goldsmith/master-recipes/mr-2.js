@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (GSM, BSM, CRP, ALC, LTW, WVR, ARM, FCC), Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "High Adjudicator's Staff",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria III",
         mat5: "",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderstone",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Planisphere",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "Kirimu Leather",
         mat6: "Enchanted Platinum Ink",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderdome",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Circlet of Casting",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Circlet of Healing",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Earrings of Fending",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "2 Topaz",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Earrings of Slaying",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "2 Ruby",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Earrings of Aiming",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "2 Iolite",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Earrings of Casting",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "2 Sapphire",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Earrings of Healing",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "2 Emerald",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Scarf of Fending",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Cashmere Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Scarf of Slaying",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "Ruby",
         mat5: "Cashmere Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Scarf of Aiming",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "Iolite",
         mat5: "Cashmere Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Scarf of Casting",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "Sapphire",
         mat5: "Cashmere Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Scarf of Healing",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "Emerald",
         mat5: "Cashmere Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Bangles of Fending",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "2 Topaz",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Bangles of Slaying",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "2 Ruby",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Bangles of Aiming",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "2 Iolite",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Bangles of Casting",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "2 Sapphire",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Bangles of Healing",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "2 Emerald",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Ring of Fending",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "Topaz",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Ring of Slaying",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "Ruby",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Ring of Aiming",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "Iolite",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Ring of Casting",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Sapphire",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Platinum Ring of Healing",
@@ -300,7 +274,6 @@ const tasks = [
         mat4: "Emerald",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith II"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     },
 ];

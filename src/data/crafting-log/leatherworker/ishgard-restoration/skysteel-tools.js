@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Skysteel Round Knife Required"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -26,7 +25,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Skysteel Round Knife +1 Required"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
 ];

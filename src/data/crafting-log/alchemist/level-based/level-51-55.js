@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal",
-        special: "Ingredient (ALC, GSM), Levequest"
+        catalysts: "3 Water Crystal"
     },
     {
         level: "51",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 2 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: "51",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 2 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "3 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: "51",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal",
-        special: "Ingredient (ALC, CRP)"
+        catalysts: "3 Water Crystal"
     },
     {
         level: "51",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal",
-        special: "Ingredient (BSM, CRP, GSM, FCC), Levequest"
+        catalysts: "3 Water Crystal"
     },
     {
         level: "52",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal",
-        special: "Ingredient (ALC, CRP, GSM, WVR), Levequest"
+        catalysts: "3 Water Crystal"
     },
     {
         level: "52",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 3 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "3 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "52",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Rainbow Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 3 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "52",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 3 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ARM, CRP, GSM, LTW, WVR), Provisioning"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "53",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ARM, CRP, GSM, LTW, WVR), Provisioning"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "54",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ALC, GSM, FCC), Collectable, Levequest"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "54",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ARM, CRP, GSM, LTW, WVR), Provisioning"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "54",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ARM, CRP, GSM, LTW, WVR)"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "54",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (ARM, CRP, GSM, LTW, WVR), Levequest, Provisioning"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "55",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal",
-        special: "Ingredient (BSM, CRP, GSM, FCC), Levequest"
+        catalysts: "4 Water Crystal"
     },
     {
         level: "55",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Spinel",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "Rubellite",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
 ];

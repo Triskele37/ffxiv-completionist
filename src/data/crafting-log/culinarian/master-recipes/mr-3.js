@@ -14,8 +14,7 @@ const tasks = [
         mat4: "3 Malm Kelp",
         mat5: "Oriental Bean Paste",
         mat6: "Thanalan Tea",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Culinarian III"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "57",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Gastornis Egg",
         mat5: "Maple Sugar",
         mat6: "Oriental Bean Sauce",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Culinarian III"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "60★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Sour Cream",
         mat5: "Okeanis Egg",
         mat6: "Duskborne Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Coriander",
         mat5: "Abalathian Rock Salt",
         mat6: "Duskborne Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Rock Mussel",
         mat5: "2 Dzemael Tomato",
         mat6: "Duskborne Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Birch Syrup",
         mat5: "Duskborne Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Gelatin",
         mat5: "Fermented Butter",
         mat6: "Duskborne Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Okeanis Egg",
         mat5: "Birch Syrup",
         mat6: "Tiny Crown",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Buyable, Trade, Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Birch Syrup",
         mat5: "Duskborne Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Duskborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Buyable, Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "60★",
@@ -134,7 +124,6 @@ const tasks = [
         mat4: "2 Okeanis Egg",
         mat5: "2 Birch Syrup",
         mat6: "Duskborne Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Culinarian III"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
 ];

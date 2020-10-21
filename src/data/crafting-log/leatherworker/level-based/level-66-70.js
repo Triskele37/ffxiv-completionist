@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal",
-        special: "Ingredient (CRP, ARM, BSM, LTW, ALC, GSM, WVR)"
+        catalysts: "5 Earth Crystal"
     },
     {
         level: "66",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Oroshigane Ingot",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Grade 1 Reisui Of Intelligence",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Intelligence",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "66",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "2 Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Carnelian",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Azurite",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Worsted Yarn",
         mat5: "2 Grade 1 Reisui Of Vitality",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Worsted Yarn",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Worsted Yarn",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Worsted Yarn",
         mat5: "2 Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "X"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "67",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "X"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "68",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal",
-        special: "Trade, Ingredient (WVR, BSM, ARM, CRP, LTW, ALC, GSM, FCC), Collectable"
+        catalysts: "5 Earth Crystal"
     },
     {
         level: "68",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Vitality",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "68",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "2 Grade 1 Reisui Of Vitality",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Rhodondite",
         mat6: "2 Grade 1 Reisui of Strength",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Kyanite",
         mat6: "2 Grade 1 Reisui of Strength",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Kyanite",
         mat6: "2 Grade 1 Reisui of Dexterity",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Durium Ingot",
         mat5: "2 Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "69",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "Tama-Hagane Ingot",
         mat5: "2 Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Provisioning"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "3 Manzasiri Hair",
         mat5: "Rubber",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "70",
@@ -770,7 +707,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Provisioning"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
 ];

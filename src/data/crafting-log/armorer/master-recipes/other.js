@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Crystal, Earth Crystal",
-        special: "Unlocked w/ Master Armorer: Glamours"
+        catalysts: "Ice Crystal, Earth Crystal"
     },
     {
         level: "50★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "10 Battlecraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer: Demimateria"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -38,7 +36,6 @@ const tasks = [
         mat4: "10 Battlecraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer: Demimateria"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
 ];

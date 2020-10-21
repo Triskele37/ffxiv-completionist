@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     },
     {
         level: "46",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Basilisk Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     },
     {
         level: "47",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     },
     {
         level: "47",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Tourmaline",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     },
     {
         level: "47",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Crystal",
-        special: "X"
+        catalysts: "Earth Crystal"
     },
     {
         level: "48",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Raptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "48",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Wyvern Obsidian",
         mat5: "Black Firesand",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "48",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Sunrise Tellin",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Raptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Horn Glue",
         mat5: "Brass Ingot",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Aldgoat Leather",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     },
     {
         level: "50★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal",
-        special: "Ingredient (ARM, BSM, GSM, ALC, LTW, WVR, CRP, FCC)"
+        catalysts: "3 Fire Crystal"
     },
     {
         level: "50★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal",
-        special: "Ingredient (ARM, BSM, LTW, WVR, ALC, CRP, FCC)"
+        catalysts: "3 Fire Crystal"
     },
     {
         level: "50★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "50★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster",
-        special: "Trade, Ingredient (BSM, ARM, ALC, GSM, CRP, LTW, FCC)"
+        catalysts: "Fire Cluster"
     },
     {
         level: "50★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM)"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM)"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM)"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM)"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM)"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Spruce Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Spruce Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Spruce Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Spruce Lumber",
         mat5: "2 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -470,7 +432,6 @@ const tasks = [
         mat4: "Garlean Fiber",
         mat5: "Garlean Rubber",
         mat6: "Glazenut",
-        catalysts: "99 Fire Shard",
-        special: "Minion"
+        catalysts: "99 Fire Shard"
     },
 ];

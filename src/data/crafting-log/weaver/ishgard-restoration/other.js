@@ -14,8 +14,7 @@ const tasks = [
         mat4: "1 Bloodhempen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "1 High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "1 High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "1 High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "1 High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "1 High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 61,
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "1 Gagana Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
 ];

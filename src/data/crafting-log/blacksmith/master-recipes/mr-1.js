@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "11 Fire Shard, 10 Earth Shard",
-        special: "Trade, Ingredient (BSM), Unlocked w/ Master Blacksmith I"
+        catalysts: "11 Fire Shard, 10 Earth Shard"
     }, {
         level: "50★★",
         name: "Magitek Repair Materials",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     }, {
         level: "50★★★",
         name: "Balanced Darksteel Hook",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Fire Shard, 11 Earth Shard",
-        special: "Trade, Unlocked w/ Master Blacksmith I"
+        catalysts: "12 Fire Shard, 11 Earth Shard"
     }, {
         level: "50★★★",
         name: "Mummer's Daggers",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith I"
+        catalysts: "3 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★",
         name: "Wolfram Ingot",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Ingredient (BSM, ARM, CRP, GSM, ALC, LTW, FCC), Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Perfect Pestle",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's Claw Hammer",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's File",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's Pliers",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's Awl",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's Mortar",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Artisan's Culinary Knife",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Forager's Sledgehammer",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Forager's Scythe",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith I"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "52",
         name: "Garlond Steel",
@@ -168,7 +154,6 @@ const tasks = [
         mat4: "",
         mat5: "",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Trade, Ingredient (CRP, FCC),  Unlocked w/ Master Blacksmith I"
+        catalysts: "Fire Cluster, Earth Cluster"
     },
 ];

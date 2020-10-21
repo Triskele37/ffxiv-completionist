@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: "46",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Raptor Leather",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Provisioning, Levequest"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: "46",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Crystal",
-        special: "Aspect: Earth"
+        catalysts: "Earth Crystal"
     },
     {
         level: "47",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: "47",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Crystal",
-        special: "Aspect: Ice"
+        catalysts: "Ice Crystal"
     },
     {
         level: "48",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Raptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "49",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Buyable"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Provisioning"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "X"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Ice Shard",
-        special: "Minion"
+        catalysts: "99 Ice Shard"
     },
     {
         level: "50★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ALC, ARM, BSM, CRP, GSM, LTW, WVR, FCC)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "50★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ARM, BSM, GSM, FCC)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "50★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ARM, LTW)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "50★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ALC, ARM, BSM, CRP, LTW, WVR, FCC)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "50★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "50★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster",
-        special: "Tradable, Ingredient (ALC, ARM, BSM, CRP, GSM, LTW, FCC)"
+        catalysts: "Ice Cluster"
     },
     {
         level: "50★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Ingredient (ARM)"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Ingredient (ARM)"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Ingredient (ARM)"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Darksteel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Darksteel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "Undyed Felt",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "2  Darksteel Plate",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Darksteel Plate",
         mat5: "Darksteel Rings",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Darksteel Plate",
         mat5: "Darksteel Rings",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "X"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -650,7 +597,6 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Barding"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
 ];

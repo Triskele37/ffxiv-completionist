@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Yanxian Tiger Prawn",
         mat5: "Swordtip",
         mat6: "Lotus Root",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "66",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Rice Vinegar",
         mat5: "Cottonseed Oil",
         mat6: "Algae Salt",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "66",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Cyclops Onion",
         mat5: "Oriental Soy Sauce",
         mat6: "Algae Salt",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Levequest"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "66",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Sun Cabbage",
         mat5: "Fennel",
         mat6: "Algae Salt",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "67",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Shiitake Mushroom",
         mat5: "Bamboo Shoot",
         mat6: "Fish Stock",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "67",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Greek Leek",
         mat5: "Algae Salt",
         mat6: "Crescent Spring Water",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "67",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Nutmeg",
         mat5: "Beet Sugar",
         mat6: "Steppe Milk",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "68",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Oriental Miso Paste",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Trade, Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "68",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Ruby Tide Kelp",
         mat5: "Jhammel Ginger",
         mat6: "Beet Sugar",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "68",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Crescent Spring Water",
         mat5: "Beet Sugar",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "69",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Dragon Pepper",
         mat5: "Highland Oregano",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 5 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "69",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Oriental Miso Paste",
         mat5: "Beet Sugar",
         mat6: "Cooking Sake",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "69",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Lotus Root",
         mat5: "Yanxian Tiger Prawn",
         mat6: "Gagana Egg",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "70",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Sun Cabbage",
         mat5: "Doman Eggplant",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 6 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 6 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "70",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Cooking Sake",
         mat5: "Jhammel Ginger",
         mat6: "Green Leek",
-        catalysts: "6 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "6 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "70",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Jhammel Haunch",
         mat5: "Gyr Abanian Flour",
         mat6: "Steppe Milk",
-        catalysts: "6 Fire Crystal, 5 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "6 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "70★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Ivory Sole",
         mat5: "Motley Breakfast",
         mat6: "Dusklight Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "70★",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "Gelatin",
         mat5: "Beet Sugar",
         mat6: "Dusklight Aethersand",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
 ];

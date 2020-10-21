@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL, CRP)"
+        catalysts: "Fire Shard"
     },
     {
         level: "16",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL, ARM, GSM, CRP), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "16",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "16",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "Tomato Sauce",
         mat6: "Highland Parsley",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "17",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "17",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Olive Oil",
         mat5: "Sour Red",
         mat6: "Black Pepper",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "17",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "17",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "Popoto",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "18",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Smooth Butter",
         mat5: "Maple Sugar",
         mat6: "Gridanian Walnut",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "18",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Cinnamon",
         mat5: "Maple Sugar",
         mat6: "Smooth Butter",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "19",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "20",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Bait"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "20",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "X"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "20",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Coerthan Carrot",
         mat5: "Popoto",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "20",
@@ -182,7 +168,6 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
 ];

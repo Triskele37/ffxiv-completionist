@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Dark Vinegar",
         mat5: "X",
         mat6: "X",
-        catalysts: "11 Fire Shard, 10 Water Shard",
-        special: "Trade, Ingredient (CUL), Unlocked w/ Master Culinarian I"
+        catalysts: "11 Fire Shard, 10 Water Shard"
     },
     {
         level: "50★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     },
     {
         level: "50★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Fire Shard, 1Water Crystal",
-        special: "Trade, Unlocked w/ Master Culinarian I"
+        catalysts: "12 Fire Shard, 1Water Crystal"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "4 Wild Onion",
         mat5: "2 Garlean Garlic",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Trade, Unlocked w/ Master Culinarian I"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Smooth Butter",
         mat5: "Black Pepper",
         mat6: "Cloves",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Honey",
         mat5: "Smooth Butter",
         mat6: "Popoto",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Popoto",
         mat5: "Maple Sugar",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Olive Oil",
         mat5: "Black Pepper",
         mat6: "Garlean Garlic",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Nutmeg",
         mat5: "Apkallu Egg",
         mat6: "Table Salt",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Pearl Ginger",
         mat5: "Volcanic Rock Salt",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -134,7 +124,6 @@ const tasks = [
         mat4: "Sweet Cream",
         mat5: "Sunset Wheat Flour",
         mat6: "Smooth Butter",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Unlocked w/ Master Culinarian I"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
 ];

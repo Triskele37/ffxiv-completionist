@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard",
-        special: "Buyable, Ingredient (ALC, ARM, BSM, CRP, LTW, WVR), Levequest"
+        catalysts: "Wind Shard"
     },
     {
         level: "1",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "2",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable, Ingredient (CRP), Levequest, Provisioning"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "3",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "4",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "4",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "5",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "5",
@@ -98,7 +91,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Buyable, Levequest"
+        catalysts: "Wind Shard, Ice Shard"
     },
 ];

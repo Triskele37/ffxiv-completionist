@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Earth Shard",
-        special: "Housing (Window)"
+        catalysts: "Fire Shard, Earth Shard"
     }, {
         level: "18",
         name: "Riviera Oblong Window",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Earth Shard",
-        special: "Housing (Window)"
+        catalysts: "Fire Shard, Earth Shard"
     }, {
         level: "20",
         name: "Oasis Lancet Window",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Earth Shard",
-        special: "Housing (Window)"
+        catalysts: "Fire Shard, Earth Shard"
     }, {
         level: "21",
         name: "Riviera Pendant Lamp",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, Earth Shard",
-        special: "Housing (Ceiling Light), Buyable"
+        catalysts: "2 Fire Shard, Earth Shard"
     }, {
         level: "27",
         name: "Riviera Ornate Door",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "2 Clear Glass Lens",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Housing (Door)"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     }, {
         level: "29",
         name: "Deluxe Riviera Pendant Lamp",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     }, {
         level: "30",
         name: "Riviera Lamppost",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "2 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     }, {
         level: "32",
         name: "Oasis Lamppost",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "2 Cut Stone",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     }, {
         level: "33",
         name: "Oaken Bench",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Fire Shard, 3 Earth Shard"
     }, {
         level: "42",
         name: "Apkallu Weathervane",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Shard, 5 Earth Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "5 Fire Shard, 5 Earth Shard"
     }, {
         level: "45",
         name: "Cannonballs",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "45",
         name: "Stone Vigil Beacon",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "48",
         name: "Riviera Chandelier",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable, Housing (Ceiling Light)"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     }, {
         level: "50",
         name: "Chocobo Weathervane",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     }, {
         level: "50",
         name: "Dark Divinity Falleth",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     }, {
         level: "50★",
         name: "Tonberry Chandelier",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "3 Electrum Ingot",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "7 Fire Shard, 6 Earth Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "7 Fire Shard, 6 Earth Shard"
     }, {
         level: "50★",
         name: "Bertha Cannon",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "50★",
         name: "Riviera Fence",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "28 Fire Shard, 24 Earth Shard",
-        special: "Housing (Fence)"
+        catalysts: "28 Fire Shard, 24 Earth Shard"
     }, {
         level: "50★★",
         name: "Wavesoul Fount",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "10 Darksteel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "10 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "10 Water Crystal"
     }, {
         level: "50★★★",
         name: "Riviera Path Light",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "3 Darksteel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Oasis Path Light",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "3 Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Carbuncle Garden Bench",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "2 Cobalt Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Tidal Wavesoul Fount",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "10 Darksteel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "12 Water Crystal"
     }, {
         level: "57",
         name: "Alpine Chandelier",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 4 Earth Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
     }, {
         level: "61",
         name: "Hingan Cottage Roof (Mokuzo)",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "10 Iron Joint Plate",
         mat5: "10 Mortar",
         mat6: "X",
-        catalysts: "12 Fire Crystal, 8 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Fire Crystal, 8 Earth Crystal"
     }, {
         level: "62",
         name: "Hingan Stone Fence",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Fire Crystal, 12 Earth Crystal",
-        special: "Housing (Fence)"
+        catalysts: "12 Fire Crystal, 12 Earth Crystal"
     }, {
         level: "64",
         name: "Hingan House Roof (Mozuko)",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "15 Steel Joint Plate",
         mat5: "15 Mortar",
         mat6: "X",
-        catalysts: "16 Fire Crystal, 12 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "16 Fire Crystal, 12 Earth Crystal"
     }, {
         level: "68",
         name: "Hingan Mansion Roof (Mokuzo)",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "20 Cobalt Joint Plate",
         mat5: "20 Mortar",
         mat6: "X",
-        catalysts: "20 Fire Crystal, 20 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "20 Fire Crystal, 20 Earth Crystal"
     }, {
         level: "78",
         name: "Weaponsmith's Stall",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "4 Dwarven Mythril Ingot",
         mat5: "4 Titanbronze Ingot",
         mat6: "2 Bluespirit Tile",
-        catalysts: "28 Fire Crystal, 28 Earth Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Fire Crystal, 28 Earth Crystal"
     },
     {
         level: "80",

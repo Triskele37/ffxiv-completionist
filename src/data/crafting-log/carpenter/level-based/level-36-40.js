@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Fish Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "36",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Diremite Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Ingredient(CRP), Levequest, Provisioning"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "37",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Scaleskin Blood",
         mat5: "Cotton Yarn",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "37",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Aldgoat Horn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "38",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "38",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Crystal",
-        special: "X"
+        catalysts: "Wind Crystal"
     },
     {
         level: "39",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard",
-        special: "Trade, Ingredient (BSM, GSM, CRP, ARM, WVR, ALC, LTW, FCC), Levequest"
+        catalysts: "5 Wind Shard"
     },
     {
         level: "39",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Ingredient (CRP), Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -134,7 +124,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
 ];

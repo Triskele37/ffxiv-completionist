@@ -14,8 +14,7 @@ const tasks = [
         mat4: "2 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -59,8 +58,7 @@ const tasks = [
         mat4: "Limestone",
         mat5: "4 Fine Sand",
         mat6: "X",
-        catalysts: "3 Ice Cluster, 3 Earth Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer VI"
+        catalysts: "3 Ice Cluster, 3 Earth Cluster"
     },
     {
         level: "70★★",
@@ -71,8 +69,7 @@ const tasks = [
         mat4: "2 Granite",
         mat5: "8 Fine Sand",
         mat6: "X",
-        catalysts: "3 Ice Cluster, 3 Earth Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer VI"
+        catalysts: "3 Ice Cluster, 3 Earth Cluster"
     },
     {
         level: "70★★",
@@ -83,8 +80,7 @@ const tasks = [
         mat4: "2 Limestone",
         mat5: "10 Fine Sand",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer VI"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "70★★",
@@ -95,8 +91,7 @@ const tasks = [
         mat4: "3 Granite",
         mat5: "12 Fine Sand",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer VI"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "70★★★",
@@ -107,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Ingredients (ARM, BSM, CRP, ALC, GSM, LTW), Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -119,8 +113,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -131,8 +124,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -143,8 +135,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -155,8 +146,7 @@ const tasks = [
         mat4: "Bloodhempen Cloth",
         mat5: "2 Everbright Aethersand",
         mat6: "Grade 3 Reisui of Vitality",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -167,8 +157,7 @@ const tasks = [
         mat4: "Bloodhempen Cloth",
         mat5: "2 Everbright Aethersand",
         mat6: "Grade 3 Reisui of Strength",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -179,8 +168,7 @@ const tasks = [
         mat4: "2 Rhodonite",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 3 Reisui of Vitality",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -191,8 +179,7 @@ const tasks = [
         mat4: "2 Azurite",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 3 Reisui of Strength",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -203,8 +190,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 3 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -215,8 +201,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -227,8 +212,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★",
@@ -239,8 +223,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -251,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Ingredients (ARM, BSM, ALC, GSM, WVR), Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -263,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -275,8 +256,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -287,8 +267,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -299,8 +278,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -311,8 +289,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -323,8 +300,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -335,8 +311,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -347,8 +322,7 @@ const tasks = [
         mat4: "Marid Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Barding, Unlocked w/ Master Armorer VI"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★★★",
@@ -359,8 +333,7 @@ const tasks = [
         mat4: "Gazelle Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "50 Ice Crystal, 50 Earth Crystal",
-        special: "Barding, Unlocked w/ Master Armorer VI"
+        catalysts: "50 Ice Crystal, 50 Earth Crystal"
     },
     {
         level: "80★",
@@ -371,8 +344,7 @@ const tasks = [
         mat4: "Atrociraptor Leather",
         mat5: "2 Halgai Mane",
         mat6: "X",
-        catalysts: "50 Ice Crystal, 50 Earth Crystal",
-        special: "Unlocked w/ Master Armorer VI, Barding"
+        catalysts: "50 Ice Crystal, 50 Earth Crystal"
     },
     {
         level: "80★",
@@ -383,7 +355,6 @@ const tasks = [
         mat4: "Dwarven Cotton",
         mat5: "X",
         mat6: "X",
-        catalysts: "50 Ice Crystal, 50 Earth Crystal",
-        special: "Unlocked w/ Master Armorer VI, Barding"
+        catalysts: "50 Ice Crystal, 50 Earth Crystal"
     },
 ];

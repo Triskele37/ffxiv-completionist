@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Ingredient (ALC, CRP, GSM), Levequest"
+        catalysts: "Water Shard"
     },
     {
         level: "11",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "12",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "13",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "14",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Buyable, Ingredient (ARM, BSM, CRP, CUL)"
+        catalysts: "Water Shard"
     },
     {
         level: "14",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Ingredient (ALC)"
+        catalysts: "Water Shard"
     },
     {
         level: "15",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard",
-        special: "Buyable, Ingredient (ALC, CRP), Levequest"
+        catalysts: "Water Shard"
     },
     {
         level: "15",
@@ -98,7 +91,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Water Shard, Lightning Shard"
     },
 ];

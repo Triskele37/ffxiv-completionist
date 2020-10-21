@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Crystal, Earth Crystal",
-        special: "Buyable, Unlocked w/ Master Blacksmith: Glamours"
+        catalysts: "Fire Crystal, Earth Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Blade",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Gaze of the Vortex",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Morbid Moggle Mogblade",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Battleaxe",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Scream of the Vortex",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Malignant Moggle Mogaxe",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Faussar",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Pain of the Vortex",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Monstrous Moggle Mogsword",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Harpoon",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Uraeus Leather",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Melancholy Moggle Mogfork",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Claws",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Uraeus Leather",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Talons of the Vortex",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Uraeus Leather",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Katana",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "Aqueous Whetstone",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Blood of the Vortex",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "Aqueous Whetstone",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Maliferous Moggle Mogtana",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "Aqueous Whetstone",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Kris",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Mortal Moggle Mogknives",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Inferno Musketoon",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "2 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Abandon of the Vortex",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "2 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Menacing Moggle Mog Gun",
@@ -245,7 +224,6 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "2 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith: Demimateria"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     },
 ];

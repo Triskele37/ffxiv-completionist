@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
     {
         level: "53",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 3 Lightning Crystal",
-        special: "X"
+        catalysts: "4 Water Crystal, 3 Lightning Crystal"
     },
 
     {
@@ -555,8 +510,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -567,8 +521,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -579,8 +532,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -591,8 +543,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -603,8 +554,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -615,8 +565,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -627,8 +576,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -639,8 +587,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -651,8 +598,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -663,8 +609,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -675,8 +620,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -687,8 +631,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -699,8 +642,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -711,8 +653,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -723,8 +664,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -735,8 +675,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -747,8 +686,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -759,8 +697,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -771,8 +708,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -783,8 +719,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -795,8 +730,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -807,8 +741,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -819,8 +752,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -831,8 +763,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -843,8 +774,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -855,8 +785,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -867,8 +796,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -879,8 +807,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -891,8 +818,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -903,8 +829,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -915,8 +840,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -927,8 +851,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -939,8 +862,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -951,8 +873,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -963,8 +884,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -975,8 +895,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -987,8 +906,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -999,8 +917,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1011,8 +928,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1023,8 +939,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1035,8 +950,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1047,8 +961,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1059,8 +972,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1071,8 +983,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1083,8 +994,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: ""
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1095,8 +1005,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1107,8 +1016,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1119,8 +1027,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1131,8 +1038,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1143,8 +1049,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1155,8 +1060,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1167,8 +1071,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1179,8 +1082,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "66",
@@ -1191,8 +1093,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "X"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "73",

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Scale Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Headsman's Axe",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "Adamantite Rivets",
         mat5: "Scale Glue",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Greatsword",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Amphiptere Leather",
         mat5: "Scale Glue",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Provisioner, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Knuckles",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "2 Larimar",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Provisioner, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Main Gauches",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Scale Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite-barreled Culverin",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Adamantite Rivets",
         mat5: "3 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Saw",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Cross-pein Hammer",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Ball-pein Hammer",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Adamantite Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Aurum Regis Texture Hammer",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Opal",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Aurum Regis Creasing Knife",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "Scale Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Dolabra",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Amphiptere Leather",
         mat5: "Adamantite Rivets",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Levequest, Provisioner, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60",
         name: "Adamantite Hatchet",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "Amphiptere Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60★",
         name: "Titanium Alloy Ingot",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Ingredient(ARM, GSM, BSM, WVR, LTW), Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60★",
         name: "Adamantite Francesca",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Buyable, Trade, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60★",
         name: "Crystal Bell",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "60★★",
         name: "Adamantite Ingot",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "5 Purified Coke",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient(ARM, BSM), Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Kamacite",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Earth Crystal",
-        special: "Ingredient(FCC), Unlocked w/ Master Blacksmith III"
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     }, {
         level: "60★★",
         name: "Millmaster's Saw",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "3 Leadborne Aethersand",
         mat5: "Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Fortified Claw Hammer",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Forgemaster's Hammer",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Leafborne Aethersand",
         mat6: "Mastercraft Demimateria",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Polished Adamantite File",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Hammermaster's Beetle",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Leafborne Aethersand",
         mat6: "Mastercraft Demimateria",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Double-jointed Adamantite Pliers",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Gemmaster's Mallet",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Leafborne Aethersand",
         mat6: "Mastercraft Demimateria",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Hidemaster's Knife",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Leafborne Aethersand",
         mat6: "Mastercraft Demimateria",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Sharpened Adamantite Awl",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Heavy Adamantite Mortar",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Wrapped Adamantite Culinary Knife",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Weighted Adamantite Sledgehammer",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Balanced Adamantite Scythe",
@@ -344,7 +314,6 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Buyable, Unlocked w/ Master Blacksmith III"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
 ];

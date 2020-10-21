@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Fire Shard",
-        special: "Housing (Tabletop), Buyable"
+        catalysts: "Wind Shard, Fire Shard"
     }, {
         level: "20",
         name: "Oasis Partition",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Fire Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "Wind Shard, Fire Shard"
     }, {
         level: "24",
         name: "Oasis Lantern",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Housing (Tabletop), Buyable"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     }, {
         level: "27",
         name: "Manor Candelabra",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Fire Shard"
     }, {
         level: "27",
         name: "Weighing Scale",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Yew Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Fire Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Wind Shard, 2 Fire Shard"
     }, {
         level: "29",
         name: "Mounted Flower Vase",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Fire Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "3 Wind Shard, 2 Fire Shard"
     }, {
         level: "30",
         name: "White Rectangular Partition",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "32",
         name: "Masonwork Stove",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "2 Steel Ingot",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "34",
         name: "Lily Floor Lamp",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "34",
         name: "Lily Wall Lamp",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Wall Lamp)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "35",
         name: "Ahriman Flower Vase",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "Carnation",
         mat5: "Ahriman Tears",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "35",
         name: "Ahriman Chronometer",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Clear Glass Lens",
         mat5: "Ahriman Tears",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "37",
         name: "Riviera Pillar",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "39",
         name: "Ahriman Vase",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Fire Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Shard, 4 Fire Shard"
     }, {
         level: "39",
         name: "Oasis Pillar",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 4 Fire Shard"
     }, {
         level: "40",
         name: "Misplaced Eyeglasses",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Fire Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "5 Wind Shard, 4 Fire Shard"
     }, {
         level: "42",
         name: "Sylphic Chair",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "Woolen Yarn",
         mat5: "Sylphic Silk",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "42",
         name: "Sylphic Table",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "42",
         name: "Gemscope",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "Clear Glass Lens",
         mat5: "Walnut Lumber",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "42",
         name: "Sylphic Screen",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "2 Sylphic Silk",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "43",
         name: "Sylphic Cupboard",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "2 Sylphic Silk",
         mat5: "2 Steel Hinge",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "43",
         name: "Sylphic Bookshelf",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "43",
         name: "Sylphic Wall Lantern",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "2 Sylphic Silk",
         mat5: "4 Tallow Candles",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "44",
         name: "Sylphic Dining Table",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "2 Sylphic Silk",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "44",
         name: "Sylphic Counter",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "2 Sylphic Silk",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Fire Shard",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Shard, 5 Fire Shard"
     }, {
         level: "46",
         name: "Riviera Table Chronometer",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Rosewood Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Fire Shard",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "6 Wind Shard, 5 Fire Shard"
     }, {
         level: "46",
         name: "Table Chronometer",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "Brass Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Fire Shard",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "6 Wind Shard, 5 Fire Shard"
     }, {
         level: "48",
         name: "Llymlaen's Embrace",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "12 Lapis Lazuli",
         mat5: "9 Distilled Water",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "48",
         name: "Glade Wall Chronometer",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "Brass Ingot",
         mat5: "4 Cobalt Rivets",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Buyable, Housing (Wall-mounted)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "48",
         name: "Wall Chronometer",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "Brass Ingot",
         mat5: "2 Rosewood",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Buyable, Housing (Wall-mounted)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "49",
         name: "Astroscope",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "Clear Glass Lens",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Mandragora Floor Lamp",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "4 Tallow Candle",
         mat5: "Frosted Glass Lens",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Riviera Bathtub",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "Clear Glass Lens",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Oasis Bathtub",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "Lavender Oil",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Amdapori Wall Lantern",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "4 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50★",
         name: "Ivy Pillar",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "3 Growth Formula Delta",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Vodoriga Sculpture",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "4 Amdapori Stone",
         mat5: "Cutting Oil",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Vortex Couch",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "Frosted Glass Lens",
         mat5: "2 Electrum Ingot",
         mat6: "2 Tourmanline",
-        catalysts: "5 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Crystal"
     }, {
         level: "50★",
         name: "Inferno Wall Lamp",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "Frosted Glass Lens",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "5 Fire Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "5 Fire Crystal"
     }, {
         level: "50★★",
         name: "Amigo Cactus Floor Lamp",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "6 Tallow Candle",
         mat5: "2 Frosted Glass Lens",
         mat6: "X",
-        catalysts: "8 Wind Shard, 7 Fire Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "8 Wind Shard, 7 Fire Shard"
     }, {
         level: "50★★",
         name: "Gargoyle Sculpture",
@@ -454,8 +414,7 @@ const tasks = [
         mat4: "4 Fine Wax",
         mat5: "2 Cutting Oil",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Raging Vortex Couch",
@@ -465,8 +424,7 @@ const tasks = [
         mat4: "2 Frosted Glass Lens",
         mat5: "2 Electrum Ingot",
         mat6: "2 Tourmanline",
-        catalysts: "10 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "10 Wind Crystal"
     }, {
         level: "50★★",
         name: "Megalodon Jaws",
@@ -476,8 +434,7 @@ const tasks = [
         mat4: "2 Shark Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Wall-mounted)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Demon Wall Sculpture",
@@ -487,8 +444,7 @@ const tasks = [
         mat4: "2 Cutting Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Wall-mounted)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Blazing Inferno Wall Lamp",
@@ -498,8 +454,7 @@ const tasks = [
         mat4: "2 Frosted Glass Lens",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "10 Fire Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "10 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Carbuncle Lantern",
@@ -509,8 +464,7 @@ const tasks = [
         mat4: "2 Rose Gold Nugget",
         mat5: "2 Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Armorcraft Forge",
@@ -520,8 +474,7 @@ const tasks = [
         mat4: "4 Cut Stone",
         mat5: "2 Mortar",
         mat6: "Coke",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emperor's Throne",
@@ -531,8 +484,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Carbuncle Chronometer",
@@ -542,8 +494,7 @@ const tasks = [
         mat4: "4 Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Housing (Wall-mounted)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Syrcus Tower",
@@ -553,8 +504,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "",
         mat6: "X",
-        catalysts: "Syrcus Shard, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "Syrcus Shard, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "55",
         name: "Marimo Lamp",
@@ -564,8 +514,7 @@ const tasks = [
         mat4: "Lamp Marimo",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Fire Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Crystal, 4 Fire Crystal"
     }, {
         level: "57",
         name: "Fat Cat Bank",
@@ -575,8 +524,7 @@ const tasks = [
         mat4: "Rainbow Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     }, {
         level: "78",
         name: "Necklace Display Stand",
@@ -586,8 +534,7 @@ const tasks = [
         mat4: "Sandteak Log",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "78",
         name: "Vanity Mirror",
@@ -597,8 +544,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "80",
         name: "Crystarium Mechanical Till",
@@ -608,8 +554,7 @@ const tasks = [
         mat4: "Mythrite Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     },
     {
         level: "80",

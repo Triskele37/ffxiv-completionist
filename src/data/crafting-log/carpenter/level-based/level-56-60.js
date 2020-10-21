@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Ingredient (BSM, GSM, WVR, CRP, ALC, ARM, FCC)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "56",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "Ramie Thread",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "Grade 1 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "Grade 1 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "56",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "Grade 1 Mind Dissolvent",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "57",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "57",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "58",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Buyable, Ingredient (BSM, ARM, CRP, GSM, FCC), Levequest"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "58",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Amphiptere Leather",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "58",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Chimerical Felt",
         mat5: "Ramie Thread",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "58",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Ramie Thread",
         mat5: "Growth Formula Zeta",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "58",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Collectable, Levequest"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "59",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "59",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "59",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "60",
@@ -230,7 +212,6 @@ const tasks = [
         mat4: "Potash",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: "Ingredient (ALC)"
+        catalysts: "6 Wind Crystal"
     },
 ];

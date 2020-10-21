@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "6",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "7",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "7",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "7",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Sunset Wheat Flour",
         mat5: "Garlean Garlic",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "8",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "8",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "9",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "9",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Coerthan Carrot",
         mat5: "Mineral Water",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "10",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "10",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Bait"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "10",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Mineral Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "10",
@@ -158,7 +146,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
 ];

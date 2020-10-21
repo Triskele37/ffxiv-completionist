@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "73",
         name: "Metal Worm Jar",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "75",
         name: "Metal Trident",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "75",
         name: "Intricate Censer",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Ice Crystal, 2 Earth Crystal"
     }, {
         level: "78",
         name: "Nullifying Neckpiece",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "80",
         name: "Enchanting Ring",
@@ -69,7 +64,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, 2 Earth Crystal"
     },
 ];

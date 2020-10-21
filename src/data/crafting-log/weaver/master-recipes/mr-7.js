@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "2 Grade 2 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "1 Sublime Solution",
         mat5: "1 Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "2 Grade 2 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "2 Grade 2 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "2 Grade 2 Intelligence Alkahest",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Grade 2 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "1 Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "1 Agewood Aethersand",
         mat6: "X",
-        catalysts: "3 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "3 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "1 Manasilver Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Weaver VIII"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Grade 2 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "1 Sublime Solution",
         mat5: "1 Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Grade 2 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "1 Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "1 Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver VII"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -302,7 +278,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Weaver VIII"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
 ];

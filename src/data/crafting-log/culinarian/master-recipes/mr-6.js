@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Cooking Sherry",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Daikon Radish",
         mat5: "Gagana Egg",
         mat6: "Cooking Sake",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Cream Cheese",
         mat5: "Cyclops Onion",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Cottonseed Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Green Leek",
         mat5: "2 Gagana Egg",
         mat6: "Cottonseed Oil",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Shiitake Mushroom",
         mat5: "Gagana Egg",
         mat6: "Rice Vinegar",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Steppe Milk",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Green Leek",
         mat5: "Fennel",
         mat6: "2 Cumin Seeds",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Kudze Root",
         mat5: "3 Loquat",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Gyr Abanian Carrot",
         mat5: "Laurel",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Gagana Egg",
         mat5: "Dragon Pepper",
         mat6: "Thyme",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Daikon Radish",
         mat5: "Olive Oil",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Cyclops Onion",
         mat5: "Highland Parsley",
         mat6: "Crimson Pepper",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Alligator Pear",
         mat5: "Reunion Cheese",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Sour Cream",
         mat5: "Reunion Cheese",
         mat6: "3 Rolanberry",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★★★",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VI"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
 ];

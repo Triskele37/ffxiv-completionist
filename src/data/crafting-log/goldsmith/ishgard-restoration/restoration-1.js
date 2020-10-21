@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Fire Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Fire Shard"
     }, {
         level: "40",
         name: "Skybuilders' Rings",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Fire Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Fire Shard"
     }, {
         level: "60",
         name: "Skybuilders' Candelabra",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "70",
         name: "Skybuilders' Stone",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "80",
         name: "Skybuilders' Brazier",
@@ -58,7 +54,6 @@ const tasks = [
         mat4: "Manasilver Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Fire Crystal"
     },
 ];

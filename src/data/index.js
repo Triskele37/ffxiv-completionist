@@ -1,6 +1,8 @@
 import { eStore } from "../store/electronStore";
 import { DataGroup } from "./DataGroup";
 
+import { Character } from "./character";
+
 import { Achievements } from "./achievement";
 import { Collectables } from "./collectable";
 import { General_Logs } from "./logs";
@@ -15,6 +17,8 @@ const data = new DataGroup("Overall", null);
 data.name_fr = "Global";
 
 data.initializeSubGroups([
+    // Character,
+
     Achievements,
     Collectables,
     General_Logs,

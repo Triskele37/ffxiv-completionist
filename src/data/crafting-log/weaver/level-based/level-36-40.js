@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard",
-        special: "Ingredient (CRP, LTW, WVR, FCC)"
+        catalysts: "4 Lightning Shard"
     },
     {
         level: "36",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "36",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "36",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "X"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "36",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "36",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Diremite Sinew",
         mat5: "Steel Rivets",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Levequest"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "37",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "37",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "37",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "37",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "37",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Crystal",
-        special: "X"
+        catalysts: "Lightning Crystal"
     },
     {
         level: "38",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard",
-        special: "Ingredient (CRP, LTW, WVR, ALC, GSM)"
+        catalysts: "4 Lightning Shard"
     },
     {
         level: "38",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "38",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "38",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "X"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "38",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "38",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Cotton Yarn",
         mat5: "Brass Ingot",
         mat6: "X",
-        catalysts: "Wind Crystal",
-        special: "X"
+        catalysts: "Wind Crystal"
     },
     {
         level: "39",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard",
-        special: "Ingredient (CRP, LTW, WVR, ARM, BSM, ALC, GSM)"
+        catalysts: "5 Lightning Shard"
     },
     {
         level: "39",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Hippogryph Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "X"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "X"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "39",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Diremite Sinew",
         mat5: "Steel Rivets",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Levequest"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "X"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Diremite Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Diremite Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Buyable"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -398,7 +366,6 @@ const tasks = [
         mat4: "Dew Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Crystal",
-        special: "X"
+        catalysts: "Lightning Crystal"
     },
 ];

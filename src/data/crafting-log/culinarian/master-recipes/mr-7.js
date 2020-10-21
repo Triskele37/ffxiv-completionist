@@ -14,8 +14,7 @@ const tasks = [
         mat4: "2 Night Pepper",
         mat5: "Fennel",
         mat6: "2 Gyr Abanian Carrot",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Night Pepper",
         mat5: "Vermicelli",
         mat6: "Sweet Cream",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "2 Night Pepper",
         mat5: "Fermented Butter",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Underground Spring Water",
         mat5: "2 Night Pepper",
         mat6: "2 Gyr Abanian Carrot",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Garlean Garlic",
         mat5: "Chiaroglow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Lorikeet Egg",
         mat5: "2 Night Pepper",
         mat6: "2 Ramhorn Zucchini",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Lorikeet Egg",
         mat5: "2 Blood Tomato",
         mat6: "2 Fennel",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Paprika",
         mat5: "Chiaroglow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "2 Sour Cream",
         mat5: "Yak Milk",
         mat6: "2 Gelatin",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Underground Spring Water",
         mat5: "Yak Milk",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Sour Cream",
         mat5: "Fermented Butter",
         mat6: "2 Royal Kukuru Bean",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "80★★",
@@ -146,7 +135,6 @@ const tasks = [
         mat4: "2 Underground Spring Water",
         mat5: "Coerthan Tea Leaves",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian VII"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
 ];

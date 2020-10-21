@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Goldsmith V"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Ingot",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (GSM, ARM, BSM, ALC, WVR, CRP, LTW), Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Staff",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Rapier",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Orrery",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 2 Seisui of Mind",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Needle",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Everborn Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Circlet of Maiming",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Rhodonite",
         mat5: "2 Everbright Aethersand",
         mat6: "Grade 2 Reisui of Strength",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Circlet of Striking",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "2 Everbright Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Circlet of Scouting",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "2 Everbright Aethersand",
         mat5: "Grade 2 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Earring of Fending",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Earring of Slaying",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Earring of Aiming",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "Grade 2 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Earring of Casting",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "Grade 2 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Earring of Healing",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "Grade 2 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Band of Fending",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "Grade 2 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Band of Slaying",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "Grade 2 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Band of Aiming",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "Grade 2 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Band of Casting",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "Grade 2 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Palladium Band of Healing",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "Grade 2 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith V"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Imitation Stained Crystal Pane",
@@ -223,7 +204,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Wall Mounted), Unlocked w/ Master Goldsmith V"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     },
 ];

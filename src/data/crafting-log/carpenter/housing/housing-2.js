@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "14",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "15",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "18",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "18",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "19",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Beeswax",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "20",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "20",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Iron Joint Plate",
         mat5: "Beeswax",
         mat6: "X",
-        catalysts: "Wind Shard, Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "Wind Shard, Ice Shard"
     },
     {
         level: "21",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "22",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Housing (Table), Buyable, Ingredient (CRP)"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "23",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "25",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "25",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Beeswax",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "26",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "27",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "27",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "28",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "28",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Beeswax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "28",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "28",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "29",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 2 Ice Shard"
     },
     {
         level: "30",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "30",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "30",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "30",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "30",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "31",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "31",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "32",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Linseed Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "32",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "32",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "32",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Ice Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Wind Shard, 3 Ice Shard"
     },
     {
         level: "33",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Deser Seedling",
         mat5: "3 Growth Formula Beta",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "33",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "33",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "33",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "34",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "34",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "35",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Horn Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "35",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Wind Shard, 3 Ice Shard"
     },
     {
         level: "37",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "38",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "4 Wind Shard, 4 Ice Shard"
     },
     {
         level: "39",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: ""
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "2 Cotton Canvas",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "40",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Steel Hinge",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "41",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "41",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "42",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "2 Steel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "43",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "3 Mythril Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "43",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "43",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "44",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "44",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Wall Mounted)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "2 Clear Glass Lens",
         mat5: "2 Varnish",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "46",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "46",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "46",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Table)"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "47",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "49",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "2 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Ice Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "6 Wind Shard, 6 Ice Shard"
     },
     {
         level: "49",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Crystal"
     },
     {
         level: "50",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "Limestone",
         mat5: "4 Fine Sand",
         mat6: "X",
-        catalysts: "2 Wind Crystal, Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Crystal, Ice Crystal"
     },
     {
         level: "50",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "3 Granite",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Wind Shard, 6 Ice Shard"
     },
     {
         level: "50★",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Apkallu Down",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "6 Chocobo Feather",
         mat5: "2 Fieldcraft Demimateria I",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "2 Undyed Cotton Cloth",
         mat5: "Cherry Bomb",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -914,8 +839,7 @@ const tasks = [
         mat4: "2 Steel Hinge",
         mat5: "Pile of Tomes",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -926,8 +850,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -938,8 +861,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★",
@@ -950,8 +872,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "50★★",
@@ -962,8 +883,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★",
@@ -974,8 +894,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★",
@@ -986,8 +905,7 @@ const tasks = [
         mat4: "3 Granite",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★",
@@ -998,8 +916,7 @@ const tasks = [
         mat4: "3 Grenade Ash",
         mat5: "Firewood",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★",
@@ -1010,8 +927,7 @@ const tasks = [
         mat4: "2 Clinker Bricks",
         mat5: "2 Mortar",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Table)"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1022,8 +938,7 @@ const tasks = [
         mat4: "6 Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1034,8 +949,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1046,8 +960,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1058,8 +971,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1070,8 +982,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1082,8 +993,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1094,8 +1004,7 @@ const tasks = [
         mat4: "4 Raptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1106,8 +1015,7 @@ const tasks = [
         mat4: "2 Cobalt Ingot",
         mat5: "2 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1118,8 +1026,7 @@ const tasks = [
         mat4: "4 Mahogany Lumber",
         mat5: "4 Cobalt Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1130,8 +1037,7 @@ const tasks = [
         mat4: "4 Raptor Leather",
         mat5: "4 Cobalt Rivets",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1142,8 +1048,7 @@ const tasks = [
         mat4: "4 Cobalt Ingot",
         mat5: "4 Dew Thread",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1154,8 +1059,7 @@ const tasks = [
         mat4: "4 Mahogany Lumber",
         mat5: "4 Dew Thread",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1166,8 +1070,7 @@ const tasks = [
         mat4: "4 Cobalt Ingot",
         mat5: "2 Cobalt Nails",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1178,8 +1081,7 @@ const tasks = [
         mat4: "4 Darksteel Nugget",
         mat5: "2 Electrum",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1190,8 +1092,7 @@ const tasks = [
         mat4: "4 Darksteel Nugget",
         mat5: "2 Hippogryph Skin",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1202,8 +1103,7 @@ const tasks = [
         mat4: "2 Spruce Lumber",
         mat5: "2 Cobalt Ingot",
         mat6: "2 Undyed Woolen Cloth",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1214,8 +1114,7 @@ const tasks = [
         mat4: "Eorzean Map",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1226,8 +1125,7 @@ const tasks = [
         mat4: "6 Undyed Woolen Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -1238,8 +1136,7 @@ const tasks = [
         mat4: "Clear Glass Lens",
         mat5: "Matron's Mistletoe",
         mat6: "2 Fieldcraft Demimateria II",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Wall-mounted)"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1250,8 +1147,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1262,8 +1158,7 @@ const tasks = [
         mat4: "2 Mythril Ingot",
         mat5: "4 Undyed Woolen Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1274,8 +1169,7 @@ const tasks = [
         mat4: "4 Undyed Woolen Cloth",
         mat5: "2 Woolen Yarn",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1286,8 +1180,7 @@ const tasks = [
         mat4: "2 Jadeite",
         mat5: "4 Undyed Woolen Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1298,8 +1191,7 @@ const tasks = [
         mat4: "3 Clear Glass Lens",
         mat5: "3 Jadeite",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -1310,8 +1202,7 @@ const tasks = [
         mat4: "4 Bronze Ingot",
         mat5: "4 Lavender Oil",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table)"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "51",
@@ -1322,8 +1213,7 @@ const tasks = [
         mat4: "2 Iron Joint Plate",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Shard, 6 Ice Shard",
-        special: ""
+        catalysts: "7 Wind Shard, 6 Ice Shard"
     },
     {
         level: "51",
@@ -1334,8 +1224,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "52",
@@ -1346,8 +1235,7 @@ const tasks = [
         mat4: "4 Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 3 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 3 Ice Crystal"
     },
     {
         level: "54",
@@ -1358,8 +1246,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Shard, 7 Ice Shard",
-        special: ""
+        catalysts: "7 Wind Shard, 7 Ice Shard"
     },
     {
         level: "55",
@@ -1370,8 +1257,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "55",
@@ -1382,8 +1268,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "55",
@@ -1394,8 +1279,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "55",
@@ -1406,8 +1290,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "Stuffed Moogle",
         mat6: "Stuffed Ahriman",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "55",
@@ -1418,8 +1301,7 @@ const tasks = [
         mat4: "3 Linen Canvas",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "55",
@@ -1430,8 +1312,7 @@ const tasks = [
         mat4: "3 Cut Stone",
         mat5: "5 Granite",
         mat6: "2 Felt Lining",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "57",
@@ -1442,8 +1323,7 @@ const tasks = [
         mat4: "Varnish",
         mat5: "9 Cut Stone",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "58",
@@ -1454,8 +1334,7 @@ const tasks = [
         mat4: "8 Fine Sand",
         mat5: "Terminus Putty",
         mat6: "Crystal Glass",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "59",
@@ -1466,8 +1345,7 @@ const tasks = [
         mat4: "2 Fire Ward Hi-Potion",
         mat5: "2 Cloud Acorn",
         mat6: "3 Tallow Candle",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "61",
@@ -1478,8 +1356,7 @@ const tasks = [
         mat4: "Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Ice Crystal",
-        special: "Housing (Wall-mounted), Ingredient (GSM)"
+        catalysts: "7 Wind Crystal, 6 Ice Crystal"
     },
     {
         level: "61",
@@ -1490,8 +1367,7 @@ const tasks = [
         mat4: "3 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "3 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: "62",
@@ -1502,8 +1378,7 @@ const tasks = [
         mat4: "Crystal Glass",
         mat5: "Wildflower Feather",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 3 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Wind Crystal, 3 Ice Crystal"
     },
     {
         level: "63",
@@ -1514,8 +1389,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 3 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Crystal, 3 Ice Crystal"
     },
     {
         level: "63",
@@ -1526,8 +1400,7 @@ const tasks = [
         mat4: "2 Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 3 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Wind Crystal, 3 Ice Crystal"
     },
     {
         level: "65",
@@ -1538,8 +1411,7 @@ const tasks = [
         mat4: "Durium Nugget",
         mat5: "Crystal Glass",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "66",
@@ -1550,8 +1422,7 @@ const tasks = [
         mat4: "3 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "66",
@@ -1562,8 +1433,7 @@ const tasks = [
         mat4: "Firewood",
         mat5: "2 Varnish",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
     },
     {
         level: "68",
@@ -1574,8 +1444,7 @@ const tasks = [
         mat4: "Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "68",
@@ -1586,8 +1455,7 @@ const tasks = [
         mat4: "3 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "69",
@@ -1598,8 +1466,7 @@ const tasks = [
         mat4: "Potash",
         mat5: "2 Varnish",
         mat6: "X",
-        catalysts: "8 Wind Shard, 8 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "8 Wind Shard, 8 Ice Shard"
     },
     {
         level: "69",
@@ -1610,8 +1477,7 @@ const tasks = [
         mat4: "3 Potting Soil",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Wind Shard, 8 Ice Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "8 Wind Shard, 8 Ice Shard"
     },
     {
         level: "74",
@@ -1622,8 +1488,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Ice Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "7 Wind Crystal, 6 Ice Crystal"
     },
     {
         level: "78",
@@ -1634,8 +1499,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "78",
@@ -1646,8 +1510,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",
@@ -1658,8 +1521,7 @@ const tasks = [
         mat4: "3 Lorikeet Down",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Chair)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",
@@ -1670,8 +1532,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Furnishing"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",
@@ -1682,8 +1543,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",
@@ -1705,8 +1565,7 @@ const tasks = [
         mat4: "4 Cream Cheese",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Table)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",
@@ -1728,8 +1587,7 @@ const tasks = [
         mat4: "2 Ovim Wool Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "80",

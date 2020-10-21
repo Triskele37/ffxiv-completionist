@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard",
-        special: "Buyable, Ingredient (BSM, LTW, CRP, ARM, WVR, GSM, ALC, FCC), Levequest"
+        catalysts: "2 Fire Shard"
     },
     {
         level: "26",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Buyable"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     },
     {
         level: "26",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Buyable"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     },
     {
         level: "26",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Clove Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Ingredient (BSM), Levequest, Provisioning"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     },
     {
         level: "26",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Ingredient (BSM), Provisioning"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     },
     {
         level: "26",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     },
     {
         level: "27",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard",
-        special: "Ingredient (CRP, WVR, GSM, ALC, FCC)"
+        catalysts: "3 Fire Shard"
     },
     {
         level: "27",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "27",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "27",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Aldgoat Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "28",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "28",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "28",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Brass Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard",
-        special: "Buyable, Ingredient (BSM, LTW, CRP, ARM, WVR, GSM, ALC, FCC)"
+        catalysts: "3 Fire Shard"
     },
     {
         level: "29",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Fish Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Ingredient (BSM), Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     },
     {
         level: "30",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Buyable"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
     {
         level: "30",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Buyable, Levequest"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
     {
         level: "30",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
     {
         level: "30",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Buyable"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
     {
         level: "30",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
     {
         level: "30",
@@ -302,7 +278,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Ingredient (BSM), Levequest, Provisioning"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Crystal, Ice Crystal",
-        special: "Buyable, Unlocked w/ Master Carpenter: Glamours"
+        catalysts: "Wind Crystal, Ice Crystal"
     },
     {
         level: "50★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "12 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "12 Fire Crystal"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "12 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Undyed Felt",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -86,7 +80,6 @@ const tasks = [
         mat4: "3 Ancient Lumber",
         mat5: "Growth Formula Delta",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Carpenter: Demimateria"
+        catalysts: "12 Fire Crystal"
     },
 ];

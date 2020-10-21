@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "60★★",
         name: "Endless Expanse Longpole",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Longpole",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Rapier",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Rapier",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Endless Expanse Astrometer",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     }, {
         level: "60★★",
         name: "Dead Hive Planisphere",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "60★★",
         name: "Replica Allagan Circlet of Casting",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica Allagan Circlet of Healing",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica High Allagan Circlet of Fending",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica High Allagan Circlet of Healing",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "3 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica Dreadwyrm Coronet of Fending",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica Dreadwyrm Circlet of Striking",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Replica Dreadwyrm Circlet of Scouting",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Dinosaur Skull",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "Hallowed Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Dinosaur Skeleton",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "Hallowed Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Dinosaur Tailbone",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "Hallowed Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Living Arch",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "3 Growth Formula Zeta",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Table Orchestrion",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ingot",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (BSM, CRP, ALC, ARM, WVR, LTW, GSM, FCC), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Handgonne",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "Nidhogg's Scale",
         mat6: "5 Demicrystal",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Scepter",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Staff of the Round",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Staff of the Fiend",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Rod",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Pole of the Goddess",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Staff",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Rod",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Rapier of the Round",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Rapier of the Fiend",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Rapier",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Rapier of the Goddess",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "5 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Cane",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Cane of the Goddess",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Cane",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Crook",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Astrometer of the Round",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "Enchanted Platinum Ink",
         mat5: "3 Luminous Fiber",
         mat6: "5 Fieldcraft Demimateria III",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Star of the Fiend",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Seeing Horde Star Globe",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Star of the Goddess",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica Allagan Star Globe",
@@ -454,8 +414,7 @@ const tasks = [
         mat4: "Enchanted Aurum Regis Ink",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Replica High Allagan Star Globe",
@@ -465,8 +424,7 @@ const tasks = [
         mat4: "Enchanted Aurum Regis Ink",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Earring of Fending",
@@ -476,8 +434,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Earring of Slaying",
@@ -487,8 +444,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Earring of Aiming",
@@ -498,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Earring of Casting",
@@ -509,8 +464,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Earring of Healing",
@@ -520,8 +474,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ring of Fending",
@@ -531,8 +484,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ring of Slaying",
@@ -542,8 +494,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ring of Aiming",
@@ -553,8 +504,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ring of Casting",
@@ -564,8 +514,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Ring of Healing",
@@ -575,8 +524,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Crystal Chandelier",
@@ -586,8 +534,7 @@ const tasks = [
         mat4: "4 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Crystal Glass, 3 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Goldsmith IV"
+        catalysts: "6 Crystal Glass, 3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Diabolos Miniature",
@@ -597,8 +544,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Scathach Miniature",
@@ -608,8 +554,7 @@ const tasks = [
         mat4: "6 Iolite",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Cloud Mythril Ingot",
@@ -619,8 +564,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (LTW, ARM, GSM), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Eikon Iron Needle",
@@ -630,8 +574,7 @@ const tasks = [
         mat4: "Cashmere Cloth",
         mat5: "Gold Ingot",
         mat6: "Mastercraft Demimateria",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Ironworks Earring of Crafting",
@@ -641,8 +584,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Ironworks Earring of Gathering",
@@ -652,8 +594,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Ironworks Ring of Crafting",
@@ -663,8 +604,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Ironworks Ring of Gathering",
@@ -674,8 +614,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★",
         name: "Nidhogg Miniature",
@@ -685,8 +624,7 @@ const tasks = [
         mat4: "2 Marble",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ingot",
@@ -696,8 +634,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Ingredient (BSM, ARM, CRP, ALC, GSM, WVR), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Staff",
@@ -707,8 +644,7 @@ const tasks = [
         mat4: "4 Battlecraft Demimateria III",
         mat5: "Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Planisphere",
@@ -718,8 +654,7 @@ const tasks = [
         mat4: "Enchanted Platinum Ink",
         mat5: "4 Battlecraft Demimateria III",
         mat6: "5 Demicrystal",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sky Rat Mask of Fending",
@@ -729,8 +664,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sky Rat Mask of Maiming",
@@ -740,8 +674,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "Grade 2 Strenth Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Circlet of Striking",
@@ -751,8 +684,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "2 Grade 3 Strenth Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Circlet of Scouting",
@@ -762,8 +694,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "2 Grade 3 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Circlet of Aiming",
@@ -773,8 +704,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "2 Grade 3 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sky Rat Mask of Aiming",
@@ -784,8 +714,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "Grade 2 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sky Rat Mask of Casting",
@@ -795,8 +724,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "Grade 2 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sky Rat Mask of Healing",
@@ -806,8 +734,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "Grade 2 Mind Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Earring of Fending",
@@ -817,8 +744,7 @@ const tasks = [
         mat4: "Grade 3 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Earring of Slaying",
@@ -828,8 +754,7 @@ const tasks = [
         mat4: "Grade 3 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Earring of Aiming",
@@ -839,8 +764,7 @@ const tasks = [
         mat4: "Grade 3 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Earring of Casting",
@@ -850,8 +774,7 @@ const tasks = [
         mat4: "Grade 3 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Earring of Healing",
@@ -861,8 +784,7 @@ const tasks = [
         mat4: "Grade 3 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ring of Fending",
@@ -872,8 +794,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ring of Slaying",
@@ -883,8 +804,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ring of Aiming",
@@ -894,8 +814,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ring of Casting",
@@ -905,8 +824,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Scintillant Ring of Healing",
@@ -916,8 +834,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sophic Barding",
@@ -927,8 +844,7 @@ const tasks = [
         mat4: "2 Cashmere Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Barding, Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "60★★★★",
         name: "Sophia Miniature",
@@ -938,8 +854,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     }, {
         level: "70★",
         name: "Blissful Barding",
@@ -949,8 +864,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Azurite",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Barding, Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "70★",
         name: "Lakshmi Miniature",
@@ -960,7 +874,6 @@ const tasks = [
         mat4: "2 Twinsilk",
         mat5: "Silk Thread",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith IV"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     },
 ];

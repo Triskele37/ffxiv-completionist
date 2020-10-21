@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     },
     {
         level: 40,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     },
     {
         level: 60,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: 70,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Oroshigane Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     },
     {
         level: 80,
@@ -62,7 +58,6 @@ const tasks = [
         mat4: "Pixie Cotton",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     },
 ];

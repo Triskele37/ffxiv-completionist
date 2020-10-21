@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal",
-        special: "Ingredient (ARM, BSM, CRP, GSM, LTW, WVR, FCC), Levequest"
+        catalysts: "5 Ice Crystal"
     },
     {
         level: "66",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Opal",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Duriun Nugget",
         mat5: "2 Grade 1 Reisui of Vitality",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "67",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Duriun Nugget",
         mat5: "2 Grade 1 Reisui of Strength",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "68",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal",
-        special: "Ingredient (ARM, BSM, CRP, LTW, GSM, WVR, FCC), Collectable, Trade"
+        catalysts: "5 Ice Crystal"
     },
     {
         level: "68",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "68",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Levequest"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "68",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "68",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "69",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "69",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "69",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "69",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "69",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "70",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "6 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "70",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Crystal, 5 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "6 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "70",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Crystal, 5 Earth Crystal",
-        special: "Collectable"
+        catalysts: "6 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "70",
@@ -362,7 +333,6 @@ const tasks = [
         mat4: "Grade 1 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Crystal, 5 Earth Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "6 Ice Crystal, 5 Earth Crystal"
     },
 ];

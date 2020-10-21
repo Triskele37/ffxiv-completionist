@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Earth Crystal"
     }, {
         level: "65",
         name: "Heavy Uchigatana",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Earth Crystal"
     }, {
         level: "68",
         name: "Custom-made Hammer",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Earth Crystal"
     }, {
         level: "70",
         name: "Examination Uchigatana",
@@ -47,7 +44,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Earth Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Earth Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "2 Sewing Thread",
         mat5: "Allagan Catalyst",
         mat6: "X",
-        catalysts: "6 Lightning Crystal, 6 Wind Crystal",
-        special: "Minion, Unlocked w/ Master Weaver V"
+        catalysts: "6 Lightning Crystal, 6 Wind Crystal"
     },
     {
         level: "70★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Shinryu's Scales",
         mat5: "X",
         mat6: "X",
-        catalysts: "50 Lighning Shard, 50 Wind Shard",
-        special: "Minion, Unlocked w/ Master Weaver V"
+        catalysts: "50 Lighning Shard, 50 Wind Shard"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Ingredient (WVR, ALC, LTW), Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Rhodonite",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 2 Reisui of Dexterity",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Triphane",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 2 Reisui of Intelligence",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Triphane",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 2 Reisui of Mind",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Sewing Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Sewing Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "3 Everdeep Aethersand",
         mat6: "2 Grade 2 Reisui of Strength",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "3 Everdeep Aethersand",
         mat6: "2 Grade 2 Reisui of Dexterity",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "3 Everdeep Aethersand",
         mat6: "2 Grade 2 Reisui of Intelligence",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Triphane",
         mat5: "3 Everdeep Aethersand",
         mat6: "2 Grade 2 Reisui of Mind",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -314,7 +289,6 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver V"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
 ];

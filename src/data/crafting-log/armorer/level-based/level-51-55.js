@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Buyable, Ingredient (ARM, BSM, CRP, GSM, LTW, WVR, FCC)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "51",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ARM, BSM, CRP, LTW), Levequest"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "51",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable, Levequest"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Archaeornis Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Archaeornis Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable, Levequest"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "51",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "52",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal",
-        special: "Ingredient (ALC, ARM, BSM, CRP, GSM, LTW, FCC)"
+        catalysts: "3 Ice Crystal"
     },
     {
         level: "52",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning, Levequest"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "52",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning, Levequest"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "53",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning, Levequest"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "53",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "53",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Ingredient (ARM, BSM, CRP, GSM, LTW, WVR, FCC), Levequest"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Ingredient (ARM, BSM, CRP, LTW)"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Dhalmel Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning, Levequest"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "54",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "55",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "2 Ramie Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Dhalmel Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "55",
@@ -422,7 +388,6 @@ const tasks = [
         mat4: "Dhalmel Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
     },
 ];

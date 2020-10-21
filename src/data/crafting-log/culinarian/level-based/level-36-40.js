@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "4 Fire Shard"
     },
     {
         level: "36",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Dragon Pepper",
         mat5: "Mineral Water",
         mat6: "X",
-        catalysts: "4 Fire Shard, 4 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Fire Shard, 4 Water Shard"
     },
     {
         level: "37",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Laurel",
         mat5: "Lavendar Oil",
         mat6: "Garlean Garlic",
-        catalysts: "4 Fire Shard, 4 Water Shard",
-        special: "Provisioning"
+        catalysts: "4 Fire Shard, 4 Water Shard"
     },
     {
         level: "37",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Maple Syrup",
         mat5: "Sun Lemon",
         mat6: "X",
-        catalysts: "4 Fire Shard, 4 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Fire Shard, 4 Water Shard"
     },
     {
         level: "38",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 4 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "4 Fire Shard, 4 Water Shard"
     },
     {
         level: "38",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Midland Basil",
         mat5: "Chicken Egg",
         mat6: "X",
-        catalysts: "4 Fire Shard, 4 Water Shard",
-        special: "Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "4 Fire Shard, 4 Water Shard"
     },
     {
         level: "39",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Sunset Wheat Flour",
         mat5: "Table Salt",
         mat6: "X",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Provisioning"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
     {
         level: "39",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Black Pepper",
         mat5: "Blue Cheese",
         mat6: "Knight's Bread",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Provisioning"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
     {
         level: "40",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Provisioning"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
     {
         level: "40",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "Almonds",
         mat6: "Mirror Apple",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
     {
         level: "40",
@@ -134,7 +124,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "x",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "61",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Almonds",
         mat5: "Gridanian Walnut",
         mat6: "Honey",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "61",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "62",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "x",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "62",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "62",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Sprig of Mist Dill",
         mat5: "Gagana Egg",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "62",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "63",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL, ALC), Levequest"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "63",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Mountain Popoto",
         mat5: "Gagana Egg",
         mat6: "Ama Nori",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "63",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "64",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "64",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "64",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Mountain Popoto",
         mat5: "Cyclops Onion",
         mat6: "Cottonseed",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "64",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Greek Leek",
         mat5: "Crescent Spring Water",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "65",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "65",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Black Pepper",
         mat5: "Algae Salt",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "65",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Kudzu Rice",
         mat5: "Rice Vinegar",
         mat6: "Beet Sugar",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "65",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "Shiitake Mushroom",
         mat5: "Gyr Abanian Carrot",
         mat6: "Oriental Soy Sauce",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
 ];

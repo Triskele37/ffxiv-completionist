@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: ""
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "71",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: ""
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "71",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: ""
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "71",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "2 Imperial Jade",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Hard Mudstone Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: ""
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Mythrite Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "71",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "72",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "72",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "72",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "72",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Cobalt Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "73",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "6 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal"
     },
     {
         level: "74",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal"
     },
     {
         level: "74",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "2 Rose Gold Nugget",
         mat5: "Hard Mudstone Whetstone",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "Hard Mudstone Whetstone",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "74",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "Star Ruby",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "Hard Mudstone Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Collectable"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
     {
         level: "75",
@@ -854,7 +784,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "X"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     },
 ];

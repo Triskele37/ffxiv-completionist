@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Sinfender",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "2 Grade 2 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Alastor",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Vitality Alkahest",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Gust Tongue",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Vitality Alkahest",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Tutelary",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "3 Grade 2 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Burattinaios",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "3 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Sankhara",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "3 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Silktones",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Dexterity Alkahest",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Murderer",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "3 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Barathrum",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "3 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Saw",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Claw Hammer",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Cross-pein Hammer",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet File",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Raising Hammer",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Pliers",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Mallet",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Round Knife",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Awl",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Mortar",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Culinary Knife",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Pickaxe",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Sledgehammer",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Hatchet",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★★",
         name: "Facet Scythe",
@@ -278,7 +254,6 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked with Master Blacksmith VII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
 ];

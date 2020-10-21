@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (ALC, CRP, GSM, WVR), Levequest"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "56",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "57",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "2 Dragon Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "57",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Dragon Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "58",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (ALC, CRP, GSM), Levequest"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "58",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (ALC, GSM, FCC), Collectable, Levequest"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "58",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Star Ruby",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 5 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "58",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Star Sapphire",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 5 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "59",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (BSM, CRP, LTW)"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "60",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Golden Hakataku Eye",
         mat5: "Damp Hakataku Eye",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "60",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Pagos Sage",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "60",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Coneflower",
         mat5: "Cow Bitter",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "60",
@@ -158,7 +146,6 @@ const tasks = [
         mat4: "Highland Oregano",
         mat5: "Dandelion",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "11",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "12",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "12",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "13",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard",
-        special: "Buyable, Ingredient (ALC, ARM, BSM, CRP, GSM, LTW, WVR, FCC)"
+        catalysts: "Ice Shard"
     },
     {
         level: "13",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "14",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard",
-        special: "Buyable, Ingredient (ARM, BSM)"
+        catalysts: "Ice Shard"
     },
     {
         level: "14",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard",
-        special: "Buyable, Ingredient (ALC, ARM, BSM, CRP, GSM, LTW, WVR, FCC)"
+        catalysts: "Ice Shard"
     },
     {
         level: "14",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "15",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard",
-        special: "Ingredient (ARM)"
+        catalysts: "Ice Shard"
     },
     {
         level: "15",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard",
-        special: "Ingredient (ALC, CRP, GSM, WVR)"
+        catalysts: "Ice Shard"
     },
     {
         level: "15",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "15",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "15",
@@ -170,7 +157,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Ingredient (ARM), Provisioning"
+        catalysts: "Ice Shard, Earth Shard"
     },
 ];

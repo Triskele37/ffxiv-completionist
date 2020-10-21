@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal",
-        special: "Ingredient (ARM, BSM, WVR, LTW, ALC, GSM, CRP, FCC), Levequest"
+        catalysts: "5 Earth Crystal"
     },
     {
         level: "56",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Cobalt Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "X"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "56",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "X"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Mind Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "57",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 4 Wind Crystal",
-        special: "Collectable"
+        catalysts: "5 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "58",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal",
-        special: "Ingredient (ARM, BSM, CRP, GSM, WVR, LTW, ALC, FCC), Collectable"
+        catalysts: "5 Earth Crystal"
     },
     {
         level: "58",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "X"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "58",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Collectable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "59",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Strength Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "59",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "59",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "59",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "59",
@@ -458,7 +421,6 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Mind Dissolvent",
         mat6: "X",
-        catalysts: "5 Earth Crystal, 5 Wind Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Earth Crystal, 5 Wind Crystal"
     },
 ];

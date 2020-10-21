@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Ingredient (CRP, ALC, LTW, BSM, GSM), Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Wootz Ingot",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Wootz Ingot",
         mat5: "Ruby",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "Iolite",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "Diamond",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -110,7 +102,6 @@ const tasks = [
         mat4: "2 Hippogryph Leather",
         mat5: "3 Ehcatl Sealant",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter II"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
 ];

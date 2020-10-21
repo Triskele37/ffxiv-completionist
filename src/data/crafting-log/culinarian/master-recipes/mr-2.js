@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Volcanic Rock Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian II"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "50★★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Night Milk",
         mat5: "2 Volvanic Rock Salt",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian II"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "50★★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Garlean Garlic",
         mat5: "Volcanic Rock Salt",
         mat6: "Black Pepper",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian II"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "50★★★★",
@@ -50,7 +47,6 @@ const tasks = [
         mat4: "Maple Sugar",
         mat5: "Cinnamon",
         mat6: "Water",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian II"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
 ];

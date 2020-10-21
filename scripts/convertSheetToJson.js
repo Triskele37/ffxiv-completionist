@@ -1,14 +1,18 @@
 const fs = require('fs');
 
+// const config = [
+//     '', '',
+//     'name_en', 'name_fr',
+//     'vista', '',
+//     'zone_en', 'zone_fr',
+//     'location_en', 'location_fr',
+//     'weather_en', 'weather_fr',
+//     'time_en', 'time_fr',
+//     'emote_en', 'emote_fr'
+// ];
+
 const config = [
-    '', '',
-    'name_en', 'name_fr',
-    'vista', '',
-    'zone_en', 'zone_fr',
-    'location_en', 'location_fr',
-    'weather_en', 'weather_fr',
-    'time_en', 'time_fr',
-    'emote_en', 'emote_fr'
+    'level', 'name_en', 'zone', 'closestTeleport', 'coordinates', 'nodeTimer'
 ];
 
 const sheet = fs.readFileSync('scripts/sheet.txt', 'utf8');

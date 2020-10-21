@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "1Wind Shard, 10 Ice Shard",
-        special: "Trade, Ingredient (CRP), Unlocked w/ Master Carpenter I"
+        catalysts: "1Wind Shard, 10 Ice Shard"
     },
     {
         level: "50★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     },
     {
         level: "50★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "5 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter I"
+        catalysts: "Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Ice Crystal",
-        special: "Housing (Table), Unlocked w/ Master Carpenter I"
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Wind Shard, 1Ice Shard",
-        special: "Trade, Unlocked w/ Master Carpenter I"
+        catalysts: "12 Wind Shard, 1Ice Shard"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Trade, Unlocked w/ Master Carpenter I"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Ingredient (CRP, ALC, BSM, GSM, WVR, FCC), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Lumber), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "6 Ehcatl Sealant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "4 Varnish",
         mat5: "5 Maiden Grass",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Steel Hinge",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Door), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Steel Hinge",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Door), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "56",
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Ingredient (CRP, FCC), Unlocked w/ Master Carpenter I"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
 ];

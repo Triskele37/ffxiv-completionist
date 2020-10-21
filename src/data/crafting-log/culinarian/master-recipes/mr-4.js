@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "60★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Rosemary",
         mat5: "Highland Parsley",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Chives",
         mat5: "Highland Flour",
         mat6: "Yak Milk",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Dragon Pepper",
         mat5: "Highland Parsley",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Morel",
         mat5: "Porcini",
         mat6: "Cyclops Onion",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Cooking Sherry",
         mat5: "Abalathian Rock Salt",
         mat6: "Thyme",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Birch Syrup",
         mat5: "Vanilla Beans",
         mat6: "Cinnamon",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Pearl Ginger",
         mat5: "Cloves",
         mat6: "X",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Dravanian Paprika",
         mat5: "Wizard Eggplant",
         mat6: "Ramhorn Zucchini",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Cyclops Onion",
         mat5: "Ogre Pumpkin",
         mat6: "Laurel",
-        catalysts: "3 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Stone Cheese",
         mat5: "Sweet Cream",
         mat6: "Black Pepper",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Rock Mussel",
         mat5: "Solstice Garlic",
         mat6: "Mature Olive Oil",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Highland Flour",
         mat5: "Mature Olive Oil",
         mat6: "Alabathian Rock Salt",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Sweet Cream Milk",
         mat5: "Sweet Cream",
         mat6: "Alabathian Rock Salt",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "White Truffle",
         mat5: "Tomato Sauce",
         mat6: "Highland Parsley",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Birch Syrup",
         mat5: "Cinnamon",
         mat6: "Nutmeg",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
     {
         level: "60★★★★",
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "Sweet Cream Milk",
         mat5: "Sweet Cream",
         mat6: "Birch Syrup",
-        catalysts: "3 Fire Cluster, 3 Water Cluster",
-        special: "Unlocked w/ Master Culinarian IV"
+        catalysts: "3 Fire Cluster, 3 Water Cluster"
     },
 ];

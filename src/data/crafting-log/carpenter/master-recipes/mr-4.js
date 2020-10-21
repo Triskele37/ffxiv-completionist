@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Ice Crystal",
-        special: "Ingredient (CRP, FCC), Unlocked w/ Master Carpenter IV"
+        catalysts: "7 Wind Crystal, 7 Ice Crystal"
     },
     {
         level: "60★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     },
     {
         level: "60★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "60★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     },
     {
         level: "60★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "60★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     },
     {
         level: "60★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "60★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "5 Astral Moraine",
         mat5: "Young Water Lily",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "Scale Glue",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "4 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Petrifiedn Log",
         mat5: "4 Astral Moraine",
         mat6: "2 Terminus Putty",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter IV"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Ingredient (CRP, BSM, ARM, ALC, GSM, FCC), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Nidhogg's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Sophic Bead Fragment",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "3 Luminous Fiber",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Grade 1 Ming Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "4 Granite",
         mat5: "6 Varnish",
         mat6: "4 Fieldcraft Demimateria II",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "3 Kaiser Roll",
         mat5: "5 Honey Muffin",
         mat6: "5 Walnut Bread",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "4 Linen Canvas",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercradt Demimateria",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Gold Ingot",
         mat6: "Mastercradt Demimateria",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Eikon Fiber",
         mat5: "Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Eikon Fiber",
         mat5: "Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "2 Celestine",
         mat5: "Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "2 Celestine",
         mat5: "Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Ingredient (CRP, BSM, GSM, FCC), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "2 Saurian Leather",
         mat5: "4 Battlecraft Demimateria III",
         mat6: "5 Demicrystal",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "4 Battlecraft Demimateriia III",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "4 Battlecraft Demimateriia III",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Mind Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Diamond",
         mat5: "Grade 3 Mind Dissolvent",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Undyed Cotton Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "60★★★★",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "2 Petrified Log",
         mat5: "8 Astral Moraine",
         mat6: "2 Terminus Putty",
-        catalysts: "3 Wind Cluster, 3 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter IV"
+        catalysts: "3 Wind Cluster, 3 Ice Cluster"
     },
     {
         level: "70★",
@@ -734,7 +674,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 6 Ice Crystal",
-        special: "Unlocked w/ Master Carpenter IV"
+        catalysts: "6 Wind Crystal, 6 Ice Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "59",
         name: "Citrine Choker of Slaying",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Provisioning, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "59",
         name: "Citrine Choker of Aiming",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "59",
         name: "Citrine Choker of Casting",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "59",
         name: "Citrine Choker of Healing",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Aurum Regis Staff",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "2 Carnelian",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Aurum Regis Planisphere",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Enchanted Aurum Regis Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Griffin Talon Needle",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "Cloud Mica Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Collectable, Levequest, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Aurum Regis Circlet of Healing",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Buyable, Collectable, Levequest, Provisioning, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Earrings of Fending",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Earrings of Slaying",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Earrings of Aiming",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Earrings of Casting",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Earrings of Healing",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Bracelet of Fending",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Bracelet of Slaying",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Bracelet of Aiming",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Bracelet of Casting",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Bracelet of Healing",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Provisioning, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Ring of Fending",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Ring of Slaying",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Ring of Aiming",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Collectable, Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Ring of Casting",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Chrysolite Ring of Healing",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Expanse Fountain",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "10 Cut Stone",
         mat5: "3 Abalathian Spring Water",
         mat6: "4 Fieldcraft Demimateria II",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Star Sapphire Music Box",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60",
         name: "Star Ruby Music Box",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60★",
         name: "Moogle Miniature",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Ingredient (CUL), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60★",
         name: "Boundless Expanse Fountain",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "15 Cut Stone",
         mat5: "5 Abalathian Spring Water",
         mat6: "5 Fieldcraft Demimateria III",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "60★★",
         name: "Aurum Regis Ingot",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "5 Raziqcoat",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (GSM, WVR, ARM, BSM, LTW, CRP), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Boltmaster's Needle",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "Sun Mica",
         mat5: "3 Leafborne Aethersand",
         mat6: "Mastercraft Demimateria",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Forgemaster's Goggles",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Gemmaster's Coronal",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Cauldronmaster's Spectacles",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Sky Pirate's Mask of Striking",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Sky Pirate's Mask of Scouting",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Aurum Regis Circlet of Casting",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "Grade 2 Intelligence Dissolvent",
         mat5: "2 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Sky Pirate's Cap of Casting",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Aurum Regis Crown of Healing",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "Grade 2 Mind Dissolvent",
         mat5: "2 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Sky Pirate's Cap of Healing",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "Dawnborn Aerhersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Gemmaster's Chaplets",
@@ -454,8 +414,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Aurum Regis Earrings of Crafting",
@@ -465,8 +424,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Aurum Regis Earrings of Gathering",
@@ -476,8 +434,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Tribunal Flooring",
@@ -487,8 +444,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "4 Mortar",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Flooring), Unlocked w/ Master Goldsmith III"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "Faerie Chandelier",
@@ -498,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Goldsmith III"
+        catalysts: "3 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "60★★",
         name: "House Fortemps Chandelier",
@@ -509,7 +464,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Goldsmith III"
+        catalysts: "3 Crystal Glass, 2 Wind Cluster, 2 Fire Cluster"
     },
 ];

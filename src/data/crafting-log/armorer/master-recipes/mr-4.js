@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "60★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "9 Coke",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Ingredient (FCC), Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Wind Cluster, 2 Water Cluster"
     },
     {
         level: "60★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "60★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Arachne Velveteen",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Arachne Velveteen",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Arachne Velveteen",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Kirimu Leather",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "2 Gold Ingots",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ingredient (ARM, LTW), Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "x",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Fiend Sap",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "2 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "2 Demicrystal",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Allagan Catalyst",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "3 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "Blood Pepper",
         mat5: "Allagan Catalyst",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "8 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Armorer IV"
+        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster"
     },
     {
         level: "60★★★",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "8 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer IV"
+        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster"
     },
     {
         level: "60★★★",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "8 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Armorer IV"
+        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster"
     },
     {
         level: "60★★★",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ingredient (ARM, LTW, GSM), Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "Crystal Glass, 3 Ice Crystal, 2 Earth Cluster"
     },
     {
         level: "60★★★",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "Wolfram Ingot",
         mat5: "Mastercraft Demimateria",
         mat6: "Gold Ingot",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Ingredient (ARM, BSM, GSM, LTW, CRP, WVR, FCC), Levequest"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "Demicrystal",
         mat5: "Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 2 Dexterity Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "2 Wolfram Square",
         mat5: "3 Grade 3 Vitality Dissolvent",
         mat6: "Gold Ingot",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "2 Wolfram Square",
         mat5: "3 Grade 3 Strength Dissolvent",
         mat6: "Gold Ingot",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Dexterity Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Mind Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -914,8 +839,7 @@ const tasks = [
         mat4: "Wolfram Square",
         mat5: "Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -926,8 +850,7 @@ const tasks = [
         mat4: "Wolfram Square",
         mat5: "Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -938,8 +861,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -950,8 +872,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -962,8 +883,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -974,8 +894,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -986,8 +905,7 @@ const tasks = [
         mat4: "Saurian Leather",
         mat5: "2 Grade 3 Strength Dissolvent",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -998,8 +916,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -1010,8 +927,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Dexterity Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -1022,8 +938,7 @@ const tasks = [
         mat4: "High Mythrite Nugget",
         mat5: "Grade 2 Intelligence Dissolvent",
         mat6: "Dawnborne Aethersand",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -1034,8 +949,7 @@ const tasks = [
         mat4: "Griffin Leather Strap",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV, Barding"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -1046,8 +960,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "60★★★★",
@@ -1058,8 +971,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 3 Earth Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer IV"
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: "70★",
@@ -1070,8 +982,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Crystal, 5 Earth Crystal",
-        special: "Unlocked w/ Master Armorer IV"
+        catalysts: "6 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: "70★",
@@ -1082,8 +993,7 @@ const tasks = [
         mat4: "2 Kyanite",
         mat5: "3 Halgai Mane",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Barding, Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "70★",
@@ -1094,7 +1004,6 @@ const tasks = [
         mat4: "2 Halgai Mane",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Armorer IV"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
 ];

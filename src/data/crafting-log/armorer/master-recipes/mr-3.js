@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Dusk Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "59",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "59",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Birch Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Tradable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Tradable, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Levequest, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Dawnborne Aethersand",
         mat5: "2 Grade 1 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Dawnborne Aethersand",
         mat5: "2 Grade 1 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Ingredient (ALC), Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Glazenut",
         mat6: "X",
-        catalysts: "99 Ice Shard",
-        special: "Minion, Unlocked w/ Master Armorer III"
+        catalysts: "99 Ice Shard"
     },
     {
         level: "60★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Glazenut",
         mat6: "X",
-        catalysts: "99 Ice Shard",
-        special: "Minion, Unlocked w/ Master Armorer III"
+        catalysts: "99 Ice Shard"
     },
     {
         level: "60★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Hallowed Ramie Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Barding, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Dhalmel Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Barding, Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Amphiptere Leather",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "60★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "5 Purified Coke",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Ingredient (ARM, BSM), Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Ingredient (FCC), Unlocked w/ Master Armorer III"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "60★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Mastercraft Demimateria",
         mat5: "Crystal Glass",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Mastercraft Demimateria",
         mat5: "3 Leafborn Aethersand",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "2 Landborn Aethersand",
         mat5: "Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "2 Landborn Aethersand",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 1 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "2 Landborn Aethersand",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 1 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "3 Landborne Aethersand",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Cloud Cloth",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "3 Landborne Aethersand",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Cloud Cloth",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 1 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "Grade 1 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "2 Seaborne Aethersand",
         mat5: "Grade 2 Vitality Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "2 Seaborne Aethersand",
         mat5: "Grade 2 Strength Dissolvent",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
     {
         level: "60★★",
@@ -482,7 +443,6 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "Amphiptere Leather",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Crystal",
-        special: "Housing (Furnishing), Unlocked w/ Master Armorer III"
+        catalysts: "2 Ice Cluster, 2 Earth Crystal"
     },
 ];

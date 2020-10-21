@@ -280,6 +280,12 @@ const tasks = [
         patch: "5.2"
     },
     {
+        name: "High Five",
+        command: "/highfive, /hifive",
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.31"
+    },
+    {
         name: "Hum",
         command: "/hum",
         method: "Quest: The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)",

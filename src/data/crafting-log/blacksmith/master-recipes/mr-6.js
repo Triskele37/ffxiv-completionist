@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "3 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -59,8 +58,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -104,8 +102,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -149,8 +146,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -194,8 +190,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -239,8 +234,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -284,8 +278,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -329,8 +322,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Shinryu's Ephemeral Revolver",
@@ -340,8 +332,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -385,8 +376,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -397,8 +387,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Cluster, 7 Earth Cluster",
-        special: "Minion, Unlocked w/ Master Blacksmith VI"
+        catalysts: "7 Fire Cluster, 7 Earth Cluster"
     }, {
         level: "70★★",
         name: "Bomb Stove",
@@ -408,8 +397,7 @@ const tasks = [
         mat4: "4 Bomb Ash",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Table), Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Ingot",
@@ -419,8 +407,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, BSM, CRP, ALC, GSM, LTW), Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Sword",
@@ -430,8 +417,7 @@ const tasks = [
         mat4: "2 Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Battleaxe",
@@ -441,8 +427,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Greatsword",
@@ -452,8 +437,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Claws",
@@ -463,8 +447,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Katana",
@@ -474,8 +457,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Reisui of Strength",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Daggers",
@@ -485,8 +467,7 @@ const tasks = [
         mat4: "2 Oroshigane Ingot",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Resui of Dexterity",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Blunderbuss",
@@ -496,8 +477,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Resui of Dexterity",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Trade, Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Saw",
@@ -507,8 +487,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Claw Hammer",
@@ -518,8 +497,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Cross-pein Hammer",
@@ -529,8 +507,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel File",
@@ -540,8 +517,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Raising Hammer",
@@ -551,8 +527,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Pliers",
@@ -562,8 +537,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Lapidary Hammer",
@@ -573,8 +547,7 @@ const tasks = [
         mat4: "2 Black Willow Lumber",
         mat5: "Gold Ingot",
         mat6: "5 Kingcraft Demimateria",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Round Knife",
@@ -584,8 +557,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Awl",
@@ -595,8 +567,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Mortar",
@@ -606,8 +577,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Culinary Knife",
@@ -617,8 +587,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Pickaxe",
@@ -628,8 +597,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Sledgehammer",
@@ -639,8 +607,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Hatchet",
@@ -650,8 +617,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★",
         name: "Nightsteel Scythe",
@@ -661,8 +627,7 @@ const tasks = [
         mat4: "Gold Ingot",
         mat5: "5 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Chigusa Ingot",
@@ -672,8 +637,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredients (ARM, BSM, ALC, GSM, WVR), Unlocked w/ Master Armorer VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Blade",
@@ -683,8 +647,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Axe",
@@ -694,8 +657,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Odachi",
@@ -705,8 +667,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Lance",
@@ -716,8 +677,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Knuckles",
@@ -727,8 +687,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Katana",
@@ -738,8 +697,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "3 Grade 4 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Daggers",
@@ -749,8 +707,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Revolver",
@@ -760,8 +717,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "3 Grade 4 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "80★",
         name: "Blades of Innocence",
@@ -771,7 +727,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Wall-Mounted), Unlocked with Master Blacksmith VI"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
 ];

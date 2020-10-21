@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "71",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "71",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "71",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Smilodon Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "71",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Smilodon Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "72",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "72",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "72",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Garden Beet",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "73",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "73",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "73",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "73",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal",
-        special: "Collectable"
+        catalysts: "6 Water Crystal"
     },
     {
         level: "73",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "73",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "74",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal"
     },
     {
         level: "74",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Star Ruby   ",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "7 Water Crystal, 6 Lightning Crystal",
-        special: "Collectable"
+        catalysts: "7 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "74",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Star Ruby   ",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "7 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 6 Lightning Crystal"
     },
     {
         level: "75",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal"
     },
     {
         level: "75",
@@ -326,7 +300,6 @@ const tasks = [
         mat4: "2 Kudzu Root",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 6 Lightning Crystal",
-        special: "X"
+        catalysts: "7 Water Crystal, 6 Lightning Crystal"
     },
 ];

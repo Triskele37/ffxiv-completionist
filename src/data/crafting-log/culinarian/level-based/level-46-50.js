@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Paprika",
         mat5: "Ala Mhigan Mustard",
         mat6: "Sun Lemon",
-        catalysts: "6 Fire Shard, 5 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 5 Water Shard"
     },
     {
         level: "47",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Cinnamon",
         mat5: "Mineral Water",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Water Shard",
-        special: "Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 5 Water Shard"
     },
     {
         level: "48",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Cinnamon",
         mat5: "Almonds",
         mat6: "Tiny Crown",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "49",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Tomato Sauce",
         mat5: "Table Salt",
         mat6: "Desert Saffron",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Sour Red",
         mat5: "Cider Vinegar",
         mat6: "Laurel",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Wild Onion",
         mat5: "Sour Red",
         mat6: "Mineral Water",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Cream Cheese",
         mat5: "Nutmeg",
         mat6: "Midland Basil",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Buyable"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Mineral Water",
         mat5: "Salt Leek",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Buyable"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Dzemael Tomato",
         mat5: "Olive Oil",
         mat6: "Table Salt",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Midland Basil",
         mat5: "Rolanberry Cheese",
         mat6: "Table Salt",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Dzemael Tomato",
         mat5: "Olive Oil",
         mat6: "Desert Saffron",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Provisioning"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Gelatin",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Garlean Garlic",
         mat5: "Smooth Butter",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "Trade, Ingredient (CUL)"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Smooth Butter",
         mat5: "Table Salt",
         mat6: "Mineral Water",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Dragon Pepper",
         mat5: "Sunset Wheat Flour",
         mat6: "Midland Basil",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Wild Onion",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Volcanic Rock Salt",
         mat5: "Walnut Bread",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "Ingredient (CUL, WVR)"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Nutmeg",
         mat5: "Cream Cheese",
         mat6: "Table Salt",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Smooth Butter",
         mat5: "Table Salt",
         mat6: "Highland Parsley",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Apkallu Egg",
         mat5: "Maple Syrup",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "Ingredient (CUL)"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Gysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Gysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Gysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Gysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -326,7 +300,6 @@ const tasks = [
         mat4: "Gysahl Greens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "X"
+        catalysts: "Fire Cluster, Water Cluster"
     },
 ];

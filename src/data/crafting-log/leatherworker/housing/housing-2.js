@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "28",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Shard, 2 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Earth Shard, 2 Wind Shard"
     },
     {
         level: "28",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Shard, 2 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Earth Shard, 2 Wind Shard"
     },
     {
         level: "29",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Shard, 2 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Earth Shard, 2 Wind Shard"
     },
     {
         level: "35",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Steel Rivets",
         mat5: "Ahriman Tears",
         mat6: "X",
-        catalysts: "4 Earth Shard, 3 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Earth Shard, 3 Wind Shard"
     },
     {
         level: "38",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Shard, 4 Wind Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "4 Earth Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 4 Wind Shard",
-        special: "Housing (Rug)"
+        catalysts: "5 Earth Shard, 4 Wind Shard"
     },
     {
         level: "41",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 4 Wind Shard",
-        special: "Housing (Rug), Buyable"
+        catalysts: "5 Earth Shard, 4 Wind Shard"
     },
     {
         level: "44",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 5 Wind Shard",
-        special: "Housing (Rug), Buyable"
+        catalysts: "5 Earth Shard, 5 Wind Shard"
     },
     {
         level: "46",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Apkallu Down",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "47",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Housing (Rug), Buyable"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "48",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Apkallu Down",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "Sandworm Fang",
         mat6: "Morbol Saliva",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "Sandworm Fang",
         mat6: "Morbol Saliva",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "Sandworm Fang",
         mat6: "Morbol Saliva",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "Morbol Saliva",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Rug)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "3 Electrum Ingot",
         mat5: "3 Apkallu Down",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "5 Apkallu Down",
         mat5: "Frosted Glass Lens",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Undyed Felt",
         mat5: "2 Linen Yarn",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Housing (Tabletop), Ingredient (ARM)"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "3 Electrum Ingot",
         mat5: "3 Apkallu Down",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "4 Behemoth Horn",
         mat5: "2 Chinchilla Hide",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "3 Apkallu Down",
         mat5: "3 Cobalt Ingot",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "4 Raptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Housing (Rug)"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "63",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "70",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Crystal, 5 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Earth Crystal, 5 Wind Crystal"
     },
     {
         level: "78",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -326,7 +300,6 @@ const tasks = [
         mat4: "3 Halgal Mane",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
 ];

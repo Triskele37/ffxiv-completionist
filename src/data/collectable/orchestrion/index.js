@@ -22,8 +22,8 @@ export const Collectables_Orchestrion_List = function(parent) {
             centered: true,
         },
         { header: 'Orchestrion Roll', key: 'name' },
-        { header: 'Method Type', key: 'methodType' },
-        { header: 'Method', key: 'method' },
+        { header: 'Source', key: 'source' },
+        { header: 'Additional Information', key: 'additional' },
         { header: 'Patch', key: 'patch', filterable: true },
     ];
 

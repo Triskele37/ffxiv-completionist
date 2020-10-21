@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard",
-        special: "Ingredient (ALC, BSM, CRP, CUL, GSM, LTW), Levequest"
+        catalysts: "5 Water Shard"
     },
     {
         level: "41",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard",
-        special: "Ingredient (ARM, CRP, GSM, FCC)"
+        catalysts: "5 Water Shard"
     },
     {
         level: "42",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard, 5 Lightning Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Water Shard, 5 Lightning Shard"
     },
     {
         level: "43",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard",
-        special: "Ingredient (ALC, GSM), Levequest"
+        catalysts: "5 Water Shard"
     },
     {
         level: "43",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard, 5 Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Water Shard, 5 Lightning Shard"
     },
     {
         level: "44",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Shard, 5 Lightning Shard",
-        special: "Buyable, Ingredient (ALC), Provisioning"
+        catalysts: "5 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Rosewood Log",
         mat5: "Woolen Yarn",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Buyable, Ingredient (ALC)"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Provisioning"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "X"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Buyable"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "45",
@@ -146,7 +135,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Buyable, Ingredient (WVR), Provisioning"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
 ];

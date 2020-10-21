@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "Night Pepper",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 6 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 6 Water Crystal"
     },
     {
         level: "76",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Ala Mhigan Salt Crystal",
         mat5: "Smooth Butter",
         mat6: "Russet Popoto",
-        catalysts: "7 Fire Crystal, 6 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 6 Water Crystal"
     },
     {
         level: "76",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Fermented Butter",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 6 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 6 Water Crystal"
     },
     {
         level: "76",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Ramhorn Zucchini",
         mat5: "Abalathian Rock Salt",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 6 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 6 Water Crystal"
     },
     {
         level: "77",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Abalathian Rock Salt",
         mat5: "Night Pepper",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "77",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Cyclops Onion",
         mat5: "Cream Cheese",
         mat6: "Night Pepper",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "77",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Steppe Milk",
         mat5: "Cinnamon",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "78",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Night Pepper",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "78",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Blood Tomato",
         mat5: "Frantoio Oil",
         mat6: "Ala Mhigan Salt Crystal",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "78",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Garden Beet Sugar",
         mat5: "Cinnamon",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "79",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Sweetflesh Oyster",
         mat5: "Cyclops Onion",
         mat6: "Desert Saffron",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "79",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Maneater Clam",
         mat5: "Paprika",
         mat6: "Heavens Lemon",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "79",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "X"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Lemonette",
         mat5: "Frantoio Oil",
         mat6: "Ala Mhigan Salt Crystal",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Lemonette",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Collectable"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
 ];

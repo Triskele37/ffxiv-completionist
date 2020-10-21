@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
     {
         level: 61,
@@ -182,7 +168,6 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Crystal",
-        special: "Ishgard"
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "11 Earth Shard, 10 Wind Shard",
-        special: "Trade, Ingredient (LTW), Unlocked w/ Master Leatherworker I"
+        catalysts: "11 Earth Shard, 10 Wind Shard"
     },
     {
         level: "50★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     },
     {
         level: "50★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker I"
+        catalysts: "3 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Earth Shard, 11 Wind Shard",
-        special: "Trade, Unlocked w/ Master Leatherworker I"
+        catalysts: "12 Earth Shard, 11 Wind Shard"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Ingredient (WVR, LTW, ALC, BSM, ARM, CRP, FCC), Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Silk Thread",
         mat6: "Gold Rose Nugget",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW), Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Darksteel Rings",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW), Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "Rose Gold Nugget",
         mat6: "Raptor Sinew",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Silk Thread",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "2 Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker I"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "55",
@@ -302,7 +278,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Trade, Ingredient (CRP, FCC), Unlocked w/ Master Leatherworker I"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
 ];

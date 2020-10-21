@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Skysteel Alembic Required"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80★★",
@@ -26,7 +25,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Skysteel Alembic +1 Required"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
 ];

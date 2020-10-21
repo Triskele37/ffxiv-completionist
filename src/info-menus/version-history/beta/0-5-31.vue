@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Version 0.5.31 - (Beta)</h1>
+        <h1>Version 0.5.35 - (Beta)</h1>
 
         <h2>Functionality</h2>
         <ul>
@@ -12,6 +12,7 @@
         <h2>Data</h2>
         <ul>
             <li>Added 5.31 content</li>
+            <li>Merged all relic steps into a single table per expansion</li>
             <li>Spelling fixes</li>
         </ul>
     </div>

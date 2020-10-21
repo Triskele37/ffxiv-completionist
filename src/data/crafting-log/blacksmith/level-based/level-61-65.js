@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal",
-        special: "Ingredient (CRP, GSM, ARM, LTW, BSM, WVR, FCC), Levequest"
+        catalysts: "3 Fire Crystal"
     },
     {
         level: "61",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Dhalmel Leather",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Gagana Leather",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Chimerical Felt",
         mat5: "2 Spinel",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "Cloud Mica Whetstone",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Star Ruby",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "X"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Stiperstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "61",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Buyable"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     },
     {
         level: "62",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal",
-        special: "Ingredient (CRP, GSM, ARM, LTW, BSM, WVR, FCC), Levequest"
+        catalysts: "3 Fire Crystal"
     },
     {
         level: "62",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "62",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Gagana Leather",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Wing Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "X"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Bloodhempen Cloth",
         mat5: "2 Star Spinal",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "Slate Whetstone",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "Wing Glue",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "Black Firesand",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "63",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "X"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal",
-        special: "Ingredient (ARM, CRP, BSM, GSM, LTW, WVR, FCC), Levequest"
+        catalysts: "4 Fire Crystal"
     },
     {
         level: "64",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "X"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Gyuki Leather",
         mat5: "Beetle Glue",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "X"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Mormorion",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "64",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     },
     {
         level: "65",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Gyuki Leather",
         mat5: "Beetle Glue",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "Slate Whetstone",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Beetle Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
     {
         level: "65",
@@ -722,7 +663,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Earth Crystal",
-        special: "Buyable"
+        catalysts: "4 Fire Crystal, 4 Earth Crystal"
     },
 ];

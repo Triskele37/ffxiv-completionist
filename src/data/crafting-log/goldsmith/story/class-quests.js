@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Crystal, Fire Crystal",
-        special: "X"
+        catalysts: "2 Wind Crystal, Fire Crystal"
     }, {
         level: "65",
         name: "Precision Spectacles",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Crystal, Fire Crystal",
-        special: "X"
+        catalysts: "2 Wind Crystal, Fire Crystal"
     }, {
         level: "68",
         name: "Sample Chronometer",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Crystal, Fire Crystal",
-        special: "X"
+        catalysts: "2 Wind Crystal, Fire Crystal"
     }, {
         level: "70",
         name: "Tribute Orchestrion",
@@ -47,7 +44,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Crystal, Fire Crystal",
-        special: "X"
+        catalysts: "2 Wind Crystal, Fire Crystal"
     },
 ];

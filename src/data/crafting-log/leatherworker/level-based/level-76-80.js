@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal"
     },
     {
         level: "76",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Strength Alkahest",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "76",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 6 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 6 Wind Crystal"
     },
     {
         level: "77",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Ramie Thread",
         mat5: "2 Grade 1 Vitality Alkahest",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Ramie Thread",
         mat5: "2 Grade 1 Strength Alkahest",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Ovim Wool Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Ovim Wool Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Ovim Wool Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Ovim Wool Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Vitality Alkahest",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Strength Alkahest",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "77",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal"
     },
     {
         level: "78",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Halgai Mane",
         mat5: "Bright Linen Yarn",
         mat6: "2 Grade 1 Dexterity Alkahest",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Halgai Mane",
         mat5: "Bright Linen Yarn",
         mat6: "2 Grade 1 Dexterity Alkahest",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Grade 1 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "78",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Grade 1 Strength Alkahest",
         mat5: "Rubber",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Halgai Mane",
         mat5: "Bright Linen Yarn",
         mat6: "2 Grade 1 Intelligence Alkahest",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Halgai Mane",
         mat5: "Bright Linen Yarn",
         mat6: "2 Grade 1 Mind Alkahest",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Grade 1 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Alkahest",
         mat5: "Rubber",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "79",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Grade 1 Mind Alkahest",
         mat5: "Rubber",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: ""
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Dwarven Cotton Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80",
@@ -542,7 +498,6 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Collectable"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
 ];

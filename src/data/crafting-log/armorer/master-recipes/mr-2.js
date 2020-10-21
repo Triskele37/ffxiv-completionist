@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Battlecraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "4 Lightning Cluster"
     },
     {
         level: "50★★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Darksteel Rings",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Wolfram Square",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Darksteel Rings",
         mat5: "Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Darksteel Rings",
         mat5: "Hippogryph Leather",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Darksteel Rings",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "50★★★★",
@@ -134,7 +124,6 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer II"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
 ];

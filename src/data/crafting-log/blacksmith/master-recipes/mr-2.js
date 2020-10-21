@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (CRP, BSM, ALC, GSM, ARM, LTW), Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Scimitar",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "Platinum Nugget",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderstrike",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "3 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Bhuj",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "2 Ebony Lumber",
         mat5: "Sapphire",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderstorm",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Faussar",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "3 Platinum Ingot",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderclap",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Knuckles",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "2 Kirimu Leather",
         mat5: "Ancient Lumber",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thundercrack",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thunderstroke",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "Aqueous Whetstone",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Daggers",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "Gold Ingot",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thundersparks",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Large Levin Orb",
         mat5: "5 Battlecraft Demimateria III",
         mat6: "X",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     }, {
         level: "50★★★★",
         name: "Wootz Revolver",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "2 Platinum Ingot",
         mat5: "3 Wyvern Obsidian",
         mat6: "Black Firesand",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Mighty Thundershower",
@@ -157,7 +144,6 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "Large Levin Orb",
         mat6: "5 Battlecraft Demimateria III",
-        catalysts: "4 Lightning Cluster",
-        special: "Unlocked w/ Master Blacksmith II"
+        catalysts: "4 Lightning Cluster"
     },
 ];

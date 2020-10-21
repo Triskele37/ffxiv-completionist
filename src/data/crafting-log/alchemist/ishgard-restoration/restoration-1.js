@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 2 Lightning Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Water Shard, 2 Lightning Shard"
     },
     {
         level: 40,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 2 Lightning Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Water Shard, 2 Lightning Shard"
     },
     {
         level: 60,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 2 Lightning Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: 70,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Bear Fat",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 2 Lightning Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: 80,
@@ -62,7 +58,6 @@ const tasks = [
         mat4: "Golden Honey",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 2 Lightning Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Water Crystal, 2 Lightning Crystal"
     }
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Water Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Water Crystal"
     },
     {
         level: 65,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Water Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Water Crystal"
     },
     {
         level: 68,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Water Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Water Crystal"
     },
     {
         level: 70,
@@ -50,7 +47,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Crystal, Water Crystal",
-        special: "X"
+        catalysts: "2 Fire Crystal, Water Crystal"
     }
 ];

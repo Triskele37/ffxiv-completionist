@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Ice Shard",
-        special: "Provisioning"
+        catalysts: "5 Wind Shard, 4 Ice Shard"
     },
     {
         level: "42",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Provisioning"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "43",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "43",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Iron Rivets",
         mat5: "Lanolin",
         mat6: "X",
-        catalysts: "Wind Crystal",
-        special: "X"
+        catalysts: "Wind Crystal"
     },
     {
         level: "44",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "44",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Horn Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 5 Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard",
-        special: "Ingredient (BSM, CRP, LTW, GSM, ALC, ARM, WVR, FCC)"
+        catalysts: "6 Wind Shard"
     },
     {
         level: "45",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Provisioning"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Provisioning"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Crab Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Ingredient (CRP), Provisioning"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Boar Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Wind Shard, 5 Ice Shard"
     },
     {
         level: "45",
@@ -146,7 +135,6 @@ const tasks = [
         mat4: "Horn Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Crystal",
-        special: "X"
+        catalysts: "Ice Crystal"
     },
 ];

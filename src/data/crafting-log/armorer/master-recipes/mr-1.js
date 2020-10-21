@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "1Ice Shard, 10 Earth Shard",
-        special: "Tradable, Ingredient (ARM), Unlocked w/ Master Armorer I"
+        catalysts: "1Ice Shard, 10 Earth Shard"
     },
     {
         level: "50★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "",
-        special: "Unlocked w/ Master Alchemist I"
+        catalysts: ""
     },
     {
         level: "50★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Ice Shard, 1Earth Shard",
-        special: "Tradable, Unlocked w/ Master Armorer I"
+        catalysts: "12 Ice Shard, 1Earth Shard"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Crystal, 2 Earth Cluster",
-        special: "Tradable, Unlocked w/ Master Armorer I"
+        catalysts: "3 Ice Crystal, 2 Earth Cluster"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Ingredient (ALC, ARM), Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "2 Terminus Putty",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Ingredient (ARM), Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "2 Terminus Putty",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Ingredient (ARM), Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "2 Terminus Putty",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Silk Thread",
         mat6: "2 Terminus Putty",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Hippogryph Leather",
         mat5: "2 Terminus Putty",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Silk Thread",
         mat6: "2 Terminus Putty",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Unlocked w/ Master Armorer I"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "52",
@@ -218,7 +201,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Ingredient (FCC), Unlocked w/ Master Armorer I"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
 ];

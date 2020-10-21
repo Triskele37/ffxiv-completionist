@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Shard, 3 Wind Shard",
-        special: "Housing (Flooring), Buyable"
+        catalysts: "3 Earth Shard, 3 Wind Shard"
     },
     {
         level: 36,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Steel Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Shard, 4 Wind Shard",
-        special: "Housing (Placard)"
+        catalysts: "4 Earth Shard, 4 Wind Shard"
     },
     {
         level: 39,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Ink & Quill",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 4 Wind Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Earth Shard, 4 Wind Shard"
     },
     {
         level: 40,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Steel Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 4 Wind Shard",
-        special: "Housing (Placard)"
+        catalysts: "5 Earth Shard, 4 Wind Shard"
     },
     {
         level: 44,
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "2 Steel Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Earth Shard, 5 Wind Shard",
-        special: "Housing (Placard)"
+        catalysts: "5 Earth Shard, 5 Wind Shard"
     },
     {
         level: 50,
@@ -74,7 +69,6 @@ const tasks = [
         mat4: "Morbol Seedling",
         mat5: "Morbol Saliva",
         mat6: "4 Tallow Candle",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
 ];

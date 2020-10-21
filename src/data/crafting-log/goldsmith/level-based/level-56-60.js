@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Ingredient (BSM, GSM, CRP, ARM, WVR)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "56",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Ingredient (BSM, GSM, CRP)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "56",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Ingredient (BSM, GSM, ALC, ARM, WVR, LTW, CRP, FCC), Levequest"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "56",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Buyable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Cloud Mica Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "56",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Ingredient (WVR, GSM, CRP, LTW)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "57",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Tiger's Eye",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Carnelian",
         mat5: "Enchanted Hardsilver Ink",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Provisioning"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "57",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     },
     {
         level: "58",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Buyable, Ingredient (ARM, GSM, CRP, WVR, BSM, LTW, ALC, FCC)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "58",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Buyable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "58",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable. Provisioning"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal",
-        special: "Collectable, Ingredient (GSM)"
+        catalysts: "5 Wind Crystal"
     },
     {
         level: "59",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Ingredient (GSM)"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "2 Spinel",
         mat5: "Tourmaline",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Enchanted Aurum Regis Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Grade 1 Strenth Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "X"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collecting"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collecting"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Levequest"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Provisioning"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "59",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Collecting"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     },
     {
         level: "60",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal",
-        special: "Ingredient (GSM, ALC, LTW, WVR, FCC)"
+        catalysts: "6 Wind Crystal"
     },
     {
         level: "60",
@@ -710,7 +652,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Crystal, 5 Fire Crystal",
-        special: "Collectable, Provisioning, Bait"
+        catalysts: "6 Wind Crystal, 5 Fire Crystal"
     },
 ];

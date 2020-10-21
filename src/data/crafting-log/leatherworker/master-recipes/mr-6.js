@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "2 Bloodhempen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "3 Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Cluster, 3 Wind Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Leatherworker VI"
+        catalysts: "3 Earth Cluster, 3 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Ingredient (LTW, BSM, WVR, GSM), Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "4 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "4 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 3 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Trade, Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "4 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "4 Kingcraft Demimateria",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "70★★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Ingredient (ALC, CRP, BSM, GSM, WVR, ARM, LTW), Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "70★★★★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker VI"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★",
@@ -554,7 +509,6 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VI"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
 ];

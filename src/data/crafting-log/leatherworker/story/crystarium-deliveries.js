@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: 73,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: 75,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: 75,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: 78,
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: 80,
@@ -74,7 +69,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Crystal, 2 Wind Crystal",
-        special: ""
+        catalysts: "2 Earth Crystal, 2 Wind Crystal"
     },
 ];

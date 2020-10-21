@@ -14,8 +14,7 @@ const tasks = [
         mat4: "10 Iron Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Roof)"
+        catalysts: "4 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "21",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "10 Iron Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Roof)"
+        catalysts: "8 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "32",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Shard, 3 Wind Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "3 Lightning Shard, 3 Wind Shard"
     },
     {
         level: "34",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "10 Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Lightning Shard, 12 Wind Shard",
-        special: "Housing (Roof)"
+        catalysts: "16 Lightning Shard, 12 Wind Shard"
     },
     {
         level: "35",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 3 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "4 Lightning Shard, 3 Wind Shard"
     },
     {
         level: "38",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "10 Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Lightning Shard, 16 Wind Shard",
-        special: "Housing (Roof)"
+        catalysts: "16 Lightning Shard, 16 Wind Shard"
     },
     {
         level: "39",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "40",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "41",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "41",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "41",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 4 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "5 Lightning Shard, 4 Wind Shard"
     },
     {
         level: "44",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Lightning Shard, 5 Wind Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "5 Lightning Shard, 5 Wind Shard"
     },
     {
         level: "44",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "20 Lightning Shard, 20 Wind Shard",
-        special: "Housing (Fence), Buyable"
+        catalysts: "20 Lightning Shard, 20 Wind Shard"
     },
     {
         level: "45",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Lightning Shard, 5 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "6 Lightning Shard, 5 Wind Shard"
     },
     {
         level: "45",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Lightning Shard, 5 Wind Shard",
-        special: "Housing (Flooring)"
+        catalysts: "6 Lightning Shard, 5 Wind Shard"
     },
     {
         level: "46",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Lightning Shard, 5 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "6 Lightning Shard, 5 Wind Shard"
     },
     {
         level: "48",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Woolen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Lightning Shard, 6 Wind Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "6 Lightning Shard, 6 Wind Shard"
     },
     {
         level: "48",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Lightning Shard, 6 Wind Shard",
-        special: "Housing (Flooring)"
+        catalysts: "6 Lightning Shard, 6 Wind Shard"
     },
     {
         level: "50★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Housing (Interior Wall), Buyable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "10 Cobalt Nails",
         mat5: "10 Felt Lining",
         mat6: "X",
-        catalysts: "12 Lightning Crystal, 8 Wind Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Lightning Crystal, 8 Wind Crystal"
     },
     {
         level: "50★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "10 Cobalt Nails",
         mat5: "10 Felt Lining",
         mat6: "X",
-        catalysts: "12 Lightning Crystal, 8 Wind Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Lightning Crystal, 8 Wind Crystal"
     },
     {
         level: "50★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Woolen Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Housing (Interior Wall)"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Housing (Flooring)"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Housing (Flooring)"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "55",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "10 Sky Blue Dye",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "63",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "78",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "4 Wine Red Dye",
         mat6: "X",
-        catalysts: "7 Lightning Crystal, 7 Wind Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "7 Lightning Crystal, 7 Wind Crystal"
     },
     {
         level: "80",

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "51",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Maple Sugar",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Ingredient (CUL), Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "52",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "52",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Tomato Sauce",
         mat5: "Volcanic Rock Salt",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "52",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Cream Cheese",
         mat5: "Volcanic Rock Salt",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "53",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "53",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Fermented Butter",
         mat5: "Volcanic Rock Salt",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Ingredient (CUL), Collectable, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "53",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Ingredient (CUL), Collectable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "53",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Ingredient (CUL), Collectable"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "54",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "54",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Highland Flour",
         mat5: "Popoto",
         mat6: "Sour Cream",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "54",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Spring of Mist Dill",
         mat5: "Sour Cream",
         mat6: "Abalathian Rock Salt",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Buyable, Ingredient (CUL), Collectable"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "54",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Highland Flour",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Ingredient (CUL), Collectable"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "55",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Black Pepper",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Shard",
-        special: "Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "7 Fire Shard"
     },
     {
         level: "55",
@@ -182,7 +168,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Buyable, Ingredient (CUL), Collectable"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Alumina Whetsone",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Marveilleuse",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Intelligence Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Pollux",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "3 Grade 2 Mind Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Needle",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "2 Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Circlet of Fending",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Deepgold Nugget",
         mat5: "2 Grade 2 Vitality Alkahest",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Circlet of Striking",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Earrings of Fending",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Earrings of Slaying",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Earrings of Aiming",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Earrings of Casting",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Earrings of Healing",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Choker of Fending",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Choker of Slaying",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Choker of Aiming",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Choker of Casting",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Choker of Healing",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Bracelet of Fending",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Bracelet of Slaying",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Bracelet of Aiming",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Bracelet of Casting",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Bracelet of Healing",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Ring of Fending",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Ring of Slaying",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Ring of Aiming",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Ring of Casting",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Facet Ring of Healing",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Crystallized Coral",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "1 Cerulean Crystal Boule",
         mat5: "1 Ruby Crystal Boule",
         mat6: "1 Golden Crystal Boule",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "80★★",
         name: "Hades Trophy",
@@ -322,7 +294,6 @@ const tasks = [
         mat4: "Tuff Whetstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Coerthan Carrot",
         mat5: "Ogre Pumpkin",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "17",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "4 Ruby Tomato",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "20",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "25",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Black Pepper",
         mat5: "Rock Salt",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Water Shard",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "2 Fire Shard, 2 Water Shard"
     },
     {
         level: "27",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "4 Alpine Parsnip",
         mat5: "4 Apkallu Egg",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Fire Shard, 2 Water Shard"
     },
     {
         level: "30",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "Ice Crystal"
     },
     {
         level: "32",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "3 Popoto",
         mat5: "3 Coerthan Carrots",
         mat6: "3 Wild Onion",
-        catalysts: "3 Fire Shard, 3 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Fire Shard, 3 Water Shard"
     },
     {
         level: "35",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Maple Sugar",
         mat5: "Night Milk",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Water Shard",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "4 Fire Shard, 3 Water Shard"
     },
     {
         level: "40",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "La Noscean Lettuce",
         mat5: "Ruby Tomato",
         mat6: "X",
-        catalysts: "5 Fire Shard, 4 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Shard, 4 Water Shard"
     },
     {
         level: "43",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "3 Maple Sugar",
         mat5: "3 Natron",
         mat6: "3 Gelatin",
-        catalysts: "5 Fire Shard, 5 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Shard, 5 Water Shard"
     },
     {
         level: "45",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Spinach Saute",
         mat5: "Ruby Tomato",
         mat6: "Rolanberry Cheese",
-        catalysts: "6 Fire Shard, 5 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "6 Fire Shard, 5 Water Shard"
     },
     {
         level: "45",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Apkallu Egg",
         mat5: "Rolanberry",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "6 Fire Shard, 5 Water Shard"
     },
     {
         level: "50",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Pixie Plums",
         mat5: "Walnut Lumber",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Water Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "6 Fire Shard, 6 Water Shard"
     },
     {
         level: "50★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Volcanic Rock Salt",
         mat5: "2 Mulled Tea",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Mugwort",
         mat5: "Bamboo Stick",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Fire Crystal, 2 Water Crystal"
     },
     {
         level: "50★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "La Noscean Lettuce",
         mat5: "Dzemael Tomato",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Acorn Cookie",
         mat5: "Maple Sugar",
         mat6: "X",
-        catalysts: "Fire Cluster, Water Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "Fire Cluster, Water Cluster"
     },
     {
         level: "50★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Sweet Cream",
         mat5: "2 Smooth Butter",
         mat6: "Rolanberry",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "52",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Rolanberry",
         mat5: "2 Blood Currants",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "52",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Night Milk",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 3 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "3 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "55",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "56",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Orange Juice",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "56",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Oriental Bean Sauce",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Water Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Fire Cluster, Water Cluster"
     },
     {
         level: "56",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Sohm Al Tart",
         mat5: "Roast Coffee Beans",
         mat6: "Mineral Water",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "56",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Tomato Sauce",
         mat5: "Highland Parsley",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "57",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "2 La Noscean Orange",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "60",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Heavenly Kukuru Powder",
         mat5: "Yak Milk",
         mat6: "X",
-        catalysts: "6 Fire Crystal, 5 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "6 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "64",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Firm Tofu",
         mat5: "Beet Sugar",
         mat6: "Green Leek",
-        catalysts: "4 Fire Crystal, 3 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Fire Crystal, 3 Water Crystal"
     },
     {
         level: "65",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Ash Tuna",
         mat5: "Yanxian Tiger Prawn",
         mat6: "Bianaq Bream",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "65",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Yugr'am Salmon",
         mat5: "Thanalan Tea Leaves",
         mat6: "X",
-        catalysts: "4 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "66",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Daikon Radish",
         mat5: "Ama Nori",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 4 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 4 Water Crystal"
     },
     {
         level: "69",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "2 Beet Sugar",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Crystal, 5 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Fire Crystal, 5 Water Crystal"
     },
     {
         level: "78",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Shiitake Mushroom",
         mat5: "Yanxian Parsley",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Volcanic Rock Salt",
         mat5: "Walnut Bread",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Paprika",
         mat5: "Ala Mhigan Mustard",
         mat6: "Lemonette",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80",

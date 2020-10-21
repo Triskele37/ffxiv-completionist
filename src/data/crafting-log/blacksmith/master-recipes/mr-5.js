@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, BSM, GSM, CRP, ALC, LTW), Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Sword",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "2 Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Axe",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Greatsword",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Knuckles",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Uchigatana",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "Slate Whetstone",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 2 Reisui of Strength",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Daggers",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Chromite Arquebus",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "Black Firesand",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 2 Reisui of Dexterity",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhiggan Saw",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Everborn Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Cross-pein Hammer",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Raising Hammer",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Lapidary Hammer",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Round Knife",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Pickaxe",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "Everbright Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "70★★",
         name: "Ala Mhigan Hatchet",
@@ -168,7 +154,6 @@ const tasks = [
         mat4: "Everborn Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Blacksmith V"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     },
 ];

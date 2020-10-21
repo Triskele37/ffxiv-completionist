@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "1",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "2",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "3",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "3",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "4",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "4",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "4",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Aldgoat Milk",
         mat5: "Cinnamon",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "5",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Gardening"
+        catalysts: "Fire Shard"
     },
     {
         level: "5",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Bait"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "5",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Table Salt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "X"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "5",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Buffalo Milk",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Shard",
-        special: "Buyable"
+        catalysts: "2 Ice Shard"
     },
     {
         level: "5",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "5",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "x",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "5",
@@ -182,7 +168,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Ingredient (CUL), Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
 ];

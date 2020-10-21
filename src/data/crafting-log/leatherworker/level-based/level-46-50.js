@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Provisioning"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "46",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Raptor Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: ""
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "46",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Undyed Linen",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "46",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: ""
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "47",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Crystal",
-        special: "Ingredient (LTW, WVR)"
+        catalysts: "Earth Crystal"
     },
     {
         level: "47",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "47",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 5 Wind Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "6 Earth Shard, 5 Wind Shard"
     },
     {
         level: "47",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Crystal",
-        special: "X"
+        catalysts: "Earth Crystal"
     },
     {
         level: "48",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Provisioning"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "48",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "x",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "49",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Provisioning"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "49",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: ""
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "49",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Provisioning"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "49",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: "Provisioning"
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "49",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Earth Shard, 6 Wind Shard",
-        special: ""
+        catalysts: "6 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal",
-        special: "Ingredient (LTW, ALC, WVR, ARM, CRP, GSM, BSM)"
+        catalysts: "3 Earth Crystal"
     },
     {
         level: "50★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal",
-        special: "Ingredient (LTW)"
+        catalysts: "3 Earth Crystal"
     },
     {
         level: "50★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Woolen Yarn",
         mat5: "2 Rose Gold Nugget",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Shard, 6 Wind Shard",
-        special: "X"
+        catalysts: "7 Earth Shard, 6 Wind Shard"
     },
     {
         level: "50★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Sinking Minnow",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Darksteel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "Brass Ingot",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "X"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★★",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster",
-        special: "Trade, Ingredient (LTW, ALC, WVR, FCC)"
+        catalysts: "Earth Cluster"
     },
     {
         level: "50★★",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW)"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW)"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW)"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Ingredient (LTW)"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Rose Gold Nugget",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "Undyed Linen",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -914,8 +839,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -926,8 +850,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -938,8 +861,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -950,8 +872,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -962,8 +883,7 @@ const tasks = [
         mat4: "Hippogryph Sinew",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -974,8 +894,7 @@ const tasks = [
         mat4: "Undyed Felt",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -986,8 +905,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -998,8 +916,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -1010,8 +927,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -1022,8 +938,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -1034,8 +949,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "X"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -1046,8 +960,7 @@ const tasks = [
         mat4: "4 Silk Thread",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Barding"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★★",
@@ -1058,7 +971,6 @@ const tasks = [
         mat4: "Platinum Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Barding"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
 ];

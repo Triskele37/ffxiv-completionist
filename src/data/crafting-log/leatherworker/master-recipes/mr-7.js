@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Stonegold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Sublime Solution",
         mat5: "Agewood Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Sublime Solution",
         mat5: "Agedeep Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Grade 2 Vitality Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Grade 2 Mind Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Sublime Solution",
         mat5: "Ageflow Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Master Leatherworker VII"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "80★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Master Leatherworker VII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
     {
         level: "80★★",
@@ -278,7 +256,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Earth Crystal, 7 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker VIII"
+        catalysts: "7 Earth Crystal, 7 Wind Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Jhammel Ginger",
         mat5: "Fennel",
         mat6: "Dusklight Aethersand",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian V"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Shiitake Mushroom",
         mat5: "Yanxian Parsley",
         mat6: "Dusklight Aethersand",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian V"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Heavens Lemon",
         mat5: "Young Cieldalaes Spinich",
         mat6: "Crimson Pepper",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian V"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Daikon Radish",
         mat5: "Gyr Abanian Carrot",
         mat6: "Dusklight Aethersand",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Unlocked w/ Master Culinarian V"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
     {
         level: "70★★",
@@ -62,7 +58,6 @@ const tasks = [
         mat4: "Dark Chestnut",
         mat5: "Dusklight Aethersand",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Water Cluster",
-        special: "Ingredient (WVR), Unlocked w/ Master Culinarian V"
+        catalysts: "2 Fire Cluster, 2 Water Cluster"
     },
 ];

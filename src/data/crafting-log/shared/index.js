@@ -25,7 +25,6 @@ const tasks = [
         name: "Magitek Repair Materials",
         mat1: "Dark Matter Cluster",
         mat2: "Grade 6 Dark Matter",
-        catalysts: "Variable",
-        special: "Requires Master I"
+        catalysts: "Variable"
     }
 ];

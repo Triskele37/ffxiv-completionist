@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "21",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "21",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "22",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "22",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "22",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "22",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "22",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Bait"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "23",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW, ARM)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "23",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "23",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, ALC, LTW, ARM, CRP)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "23",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM, LTW, WVR, ALC, CRP, CUL, ARM, BSM, FCC)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "23",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "23",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "23",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "X"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "23",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "X"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "23",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Fire Shard",
-        special: "Buyable, Bait"
+        catalysts: "2 Wind Shard, Fire Shard"
     },
     {
         level: "24",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Ingredient (GSM)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "24",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "24",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Ingredient (GSM), Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "24",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Buyable"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     },
     {
         level: "25",
@@ -338,7 +311,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster",
-        special: "Buyable"
+        catalysts: "Water Cluster"
     },
 ];

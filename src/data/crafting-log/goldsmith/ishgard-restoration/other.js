@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Pirate's Mask of Scouting",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Pirate's Cap of Healing",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Pirate's Cap of Casting",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Rat Mask of Fending",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Rat Mask of Maiming",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Rat Mask of Aiming",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Rat Mask of Healing",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Replica Sky Rat Mask of Casting",
@@ -102,7 +94,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Ishgard"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Wall-Mounted), Unlocked w/ Master Carpenter V"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Wall-Mounted), Unlocked w/ Master Carpenter V"
+        catalysts: "3 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Ingredient (CRP, ALC, BSM, ARM, GSM), Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Silk Thread",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 2 Reisui of Dexterity",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 2 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Everdeep Athersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everbright Aethersand",
         mat6: "Grade 2 Reisui of Vitality",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everbright Aethersand",
         mat6: "Grade 2 Reisui of Strength",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everbright Aethersand",
         mat6: "Grade 2 Reisui of Dexterity",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everbright Aethersand",
         mat6: "Grade 2 Reisui of Intelligence",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everbright Aethersand",
         mat6: "Grade 2 Reisui of Mind",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everborn Aethersand",
         mat6: "Grade 2 Reisui of Vitality",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everborn Aethersand",
         mat6: "Grade 2 Reisui of Strength",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everborn Aethersand",
         mat6: "Grade 2 Reisui of Dexterity",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everborn Aethersand",
         mat6: "Grade 2 Reisui of Intelligence",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "70★★",
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "Star Spinel",
         mat5: "Everborn Aethersand",
         mat6: "Grade 2 Reisui of Mind",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "U+A335:K413nlocked w/ Master Carpenter V"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
 ];

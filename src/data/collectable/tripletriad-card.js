@@ -471,6 +471,14 @@ const tasks = [
         patch: "4.55",
     },
     {
+        name: "Ehll Tou",
+        rarity: "★★",
+        type: "None",
+        opponent: "",
+        acquiredBy: "500 Skybuilders' Scrips",
+        patch: "5.31",
+    },
+    {
         name: "Ejika Tsunjika",
         rarity: "★★",
         type: "None",

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Levequest, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Levequest, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Larimar",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Ingredient (WVR, LTW, ARM, GSM), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "2 Star Ruby",
         mat5: "2 Grade 1 Strength Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "2 Star Sapphire",
         mat5: "2 Grade 1 Dexterity Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Chrysolite",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Titanium Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "2 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Wolfram Square",
         mat5: "Rubber",
         mat6: "1 Fine Alumen",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Ingredient (BSM), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "2 Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Housing (Rug), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "60★★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "5 Odorless Animal Fat",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Ingredient (ARM, LTW, WVR, BSM), Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Landborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Grade 2 Dexterity Dissolvent",
         mat5: "2 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Larimar",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "2 Star Ruby",
         mat5: "2 Grade 2 Strength Dissolvent",
         mat6: "3 Landborne Athersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "2 Grade 1 Strength Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "2 Star Sapphire",
         mat5: "2 Grade 2 Dexterity Dissolvent",
         mat6: "3 Landborne Athersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "2 Grade 1 Dexterity Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Dissolvent",
         mat5: "3 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Leafborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "Leafborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Leafborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "Leafborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Leafborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "Grade 2 Dexterity Dissolvent",
         mat5: "2 Leafborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -914,8 +839,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -926,8 +850,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -938,8 +861,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -950,8 +872,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -962,8 +883,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -974,8 +894,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -986,8 +905,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -998,8 +916,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1010,8 +927,7 @@ const tasks = [
         mat4: "Adamantite Nugget",
         mat5: "Seaborne Aethersand",
         mat6: "2 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1022,8 +938,7 @@ const tasks = [
         mat4: "Adamantite Nugget",
         mat5: "Seaborne Aethersand",
         mat6: "2 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1034,8 +949,7 @@ const tasks = [
         mat4: "2 Grade 2 Vitality Dissolvent",
         mat5: "3 Seaborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1046,8 +960,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Dissolvent",
         mat5: "3 Seaborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1058,8 +971,7 @@ const tasks = [
         mat4: "2 Grade 2 Strength Dissolvent",
         mat5: "3 Seaborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1070,8 +982,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Dissolvent",
         mat5: "3 Seaborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1082,8 +993,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Seaborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1094,8 +1004,7 @@ const tasks = [
         mat4: "Garlean Rubber",
         mat5: "2 Seaborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1106,8 +1015,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Seaborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1118,8 +1026,7 @@ const tasks = [
         mat4: "Garlean Rubber",
         mat5: "2 Seaborne Aethersand",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1130,8 +1037,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1142,8 +1048,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1154,8 +1059,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1166,8 +1070,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1178,8 +1081,7 @@ const tasks = [
         mat4: "Grade 1 Vitality Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1190,8 +1092,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1202,8 +1103,7 @@ const tasks = [
         mat4: "2 Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1214,8 +1114,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1226,8 +1125,7 @@ const tasks = [
         mat4: "2 Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1238,8 +1136,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1250,8 +1147,7 @@ const tasks = [
         mat4: "2 Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1262,8 +1158,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1274,8 +1169,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "Grade 2 Intelligence Dissolvent",
         mat6: "2 Seaborne Aethersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1286,8 +1180,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1298,8 +1191,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "Grade 2 Mind Dissolvent",
         mat6: "2 Seaborne Aethersand",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1310,8 +1202,7 @@ const tasks = [
         mat4: "Grade 1 Mind Dissolvent",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1322,8 +1213,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1334,8 +1224,7 @@ const tasks = [
         mat4: "Leafborne Aethersand",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1346,7 +1235,6 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker III"
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
     },
 ];

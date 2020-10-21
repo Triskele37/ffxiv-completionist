@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -59,8 +58,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Specialist, Unlocked w/ Master Alchemist VIII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -104,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -116,8 +113,7 @@ const tasks = [
         mat4: "2 Jellyfish Umbrella",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -128,8 +124,7 @@ const tasks = [
         mat4: "2 Mega-Potion",
         mat5: "2 Mega-Ether",
         mat6: "X",
-        catalysts: "10 Water Shard, 9 Lightning Shard",
-        special: "Housing (Tabletop), Unlocked w/ Master Alchemist VI"
+        catalysts: "10 Water Shard, 9 Lightning Shard"
     },
     {
         level: "70★★",
@@ -140,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -152,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (LTW, CRP, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -164,8 +157,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, GSM, LTW, ARM, CRP, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -176,8 +168,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, GSM, LTW, WVR, CRP), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -188,8 +179,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, ALC, GSM, LTW, WVR, CRP), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -200,8 +190,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ALC, GSM, LTW, WVR, CRP), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -212,8 +201,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ALC, GSM, LTW, WVR, CRP), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -224,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ARM, BSM, GSM, LTW, CRP), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -236,8 +223,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade Reisui of Intelligence",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Trade, Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -248,8 +234,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade Reisui of Mind",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Trade, Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -260,8 +245,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -272,8 +256,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -284,8 +267,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -296,8 +278,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -308,8 +289,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -320,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -332,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -344,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★",
@@ -356,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -368,8 +344,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (CRP, BSM, ARM, GSM, LTW, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -380,8 +355,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (CRP, BSM, GSM, LTW, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -392,8 +366,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (CRP, BSM, ARM, GSM, LTW, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -404,8 +377,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (CRP, ALC, GSM, LTW, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -416,8 +388,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (CRP, ALC, GSM, LTW, WVR), Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -428,8 +399,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Grade 4 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -440,8 +410,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Grade 4 Reisui of Mind",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -452,8 +421,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -464,8 +432,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -476,8 +443,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -488,8 +454,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -500,8 +465,7 @@ const tasks = [
         mat4: "Duskglow Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -512,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★★★",
@@ -524,8 +487,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★",
@@ -536,8 +498,7 @@ const tasks = [
         mat4: "Refined Natron",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Alchemist VI"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80★",
@@ -548,8 +509,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★",
@@ -560,7 +520,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VI, Orchestrion Roll"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
 ];

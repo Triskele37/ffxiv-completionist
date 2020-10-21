@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Crystal, Wind Crystal",
-        special: "Buyable, Unlocked w/ Master Leatherworker: Glamours"
+        catalysts: "Earth Crystal, Wind Crystal"
     },
     {
         level: "50★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Lapiz Lazuli",
         mat5: "5 Fieldcraft Demimateria I",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "10 Fieldcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "5 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "50★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Darksteel Ingot",
         mat5: "Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "3 Saurian Leather",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Saurian Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
     {
         level: "50★★★",
@@ -206,7 +190,6 @@ const tasks = [
         mat4: "2 Saurian Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Earth Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Leatherworker: Demimateria"
+        catalysts: "2 Earth Cluster, Wind Cluster"
     },
 ];

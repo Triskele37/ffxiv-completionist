@@ -14,8 +14,7 @@ const tasks = [
         mat4: "2 Elm Lumber",
         mat5: "2 Growth Formula Beta",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Housing (Flooring)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Buyable, Housing (Exterior Wall Decoration)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Shard, Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Water Shard, Lightning Shard"
     },
     {
         level: "20",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "10 Iron Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 4 Lightning Shard",
-        special: "Housing (Roof)"
+        catalysts: "4 Water Shard, 4 Lightning Shard"
     },
     {
         level: "23",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "9 Weak Blinding Potion",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, Lightning Shard"
     },
     {
         level: "23",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "10 Iron Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Water shard, 4 Lightning Shard",
-        special: "Housing (Roof)"
+        catalysts: "8 Water shard, 4 Lightning Shard"
     },
     {
         level: "24",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "24",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "9 Weak Poisoning Potion",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "25",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Walnut Lumber",
         mat5: "Iron Rivets",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "25",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "25",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "9 Weak Silencing Potion",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "26",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Shard, 2 Lightning Shard",
-        special: "Housing (Flooring)"
+        catalysts: "2 Water Shard, 2 Lightning Shard"
     },
     {
         level: "28",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Shard, 2 Lightning Shard",
-        special: "Ingredient (ARM), Housing (Outdoor Furnishing)"
+        catalysts: "3 Water Shard, 2 Lightning Shard"
     },
     {
         level: "30",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Shard, 3 Lightning Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "3 Water Shard, 3 Lightning Shard"
     },
     {
         level: "30",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Shard, 3 Lightning Shard",
-        special: "Housing (Flooring)"
+        catalysts: "3 Water Shard, 3 Lightning Shard"
     },
     {
         level: "30",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "3 Potting Soil",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Shard, 3 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Water Shard, 3 Lightning Shard"
     },
     {
         level: "31",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Shard, 3 Lightning Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "3 Water Shard, 3 Lightning Shard"
     },
     {
         level: "33",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 3 Lightning Shard",
-        special: "Ingredient (GSM), Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Shard, 3 Lightning Shard"
     },
     {
         level: "35",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 3 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Shard, 3 Lightning Shard"
     },
     {
         level: "36",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "10 Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 6 Lightning Shard",
-        special: "Housing (Roof)"
+        catalysts: "6 Water Shard, 6 Lightning Shard"
     },
     {
         level: "37",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Shard, 4 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Shard, 4 Lightning Shard"
     },
     {
         level: "40",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "10 Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "20 Water Shard, 6 Lightning Shard",
-        special: "Housing (Roof)"
+        catalysts: "20 Water Shard, 6 Lightning Shard"
     },
     {
         level: "41",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "45",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "3 Rosewood Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "46",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "4 Spoken Blood",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 5 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Water Shard, 5 Lightning Shard"
     },
     {
         level: "49",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "12 Potent Poisoning Potion",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 6 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Water Shard, 6 Lightning Shard"
     },
     {
         level: "50",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 6 Lightning Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "6 Water Shard, 6 Lightning Shard"
     },
     {
         level: "50",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 6 Lightning Shard",
-        special: "Housing (Flooring)"
+        catalysts: "6 Water Shard, 6 Lightning Shard"
     },
     {
         level: "50",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "2 Rosewood Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Shard, 6 Lightning Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Water Shard, 6 Lightning Shard"
     },
     {
         level: "50★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 2 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: "50★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 2 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: "50★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "10 Cobalt Nails",
         mat5: "10 Cobalt Joint Plate",
         mat6: "X",
-        catalysts: "12 Water Crystal, 8 Lightning Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Water Crystal, 8 Lightning Crystal"
     },
     {
         level: "50★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "10 Cobalt Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Water Crystal, 8 Lightning Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Water Crystal, 8 Lightning Crystal"
     },
     {
         level: "50★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "28 Water Shard, 24 Lightning Shard",
-        special: "Housing (Fence)"
+        catalysts: "28 Water Shard, 24 Lightning Shard"
     },
     {
         level: "50★★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Aetherial Wheel (Level 1)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Cluster, Lightning Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Water Cluster, Lightning Cluster"
     },
     {
         level: "55",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "55",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Water Crystal, 4 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "59",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 5 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "78",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "2 Yellow Tulips",
         mat5: "2 Blue Violets",
         mat6: "4 Growth Formula Kappa",
-        catalysts: "28 Water Crystal, 28 Lighting Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Water Crystal, 28 Lighting Crystal"
     },
     {
         level: "78",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "4 Enchanted Dimythrite Ink",
         mat5: "4 Zonure Leather",
         mat6: "2 Enchanted Manasilver Ink",
-        catalysts: "28 Water Crystal, 28 Lighting Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Water Crystal, 28 Lighting Crystal"
     },
     {
         level: "78",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "4 Titanbronze Nugget",
         mat5: "3 Pixie Cotton",
         mat6: "3 Enchanted Dimythrite Ink",
-        catalysts: "28 Water Crystal, 28 Lighting Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Water Crystal, 28 Lighting Crystal"
     },
     {
         level: "78",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "3 Growth Formula Kappa",
         mat5: "5 Potting Soil",
         mat6: "X",
-        catalysts: "28 Water Crystal, 28 Lighting Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Water Crystal, 28 Lighting Crystal"
     },
     {
         level: "80",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "2 Viola Seeds",
         mat5: "2 Humus",
         mat6: "X",
-        catalysts: "7 Water Crystal, 7 Lightning Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "7 Water Crystal, 7 Lightning Crystal"
     },
     {
         level: "80",

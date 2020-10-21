@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lighning Shard, 2 Wind Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Lighning Shard, 2 Wind Shard"
     },
     {
         level: 40,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Shard, 2 Wind Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Lightning Shard, 2 Wind Shard"
     },
     {
         level: 60,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 70,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "1 Tiger Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: 80,
@@ -62,7 +58,6 @@ const tasks = [
         mat4: "1 Atrociraptor Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 2 Wind Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Lightning Crystal, 2 Wind Crystal"
     },
 ];

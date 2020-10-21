@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Earth Shard",
-        special: "Buyable, Housing (Table)"
+        catalysts: "Fire Shard, Earth Shard"
     }, {
         level: "18",
         name: "Towel Hanger",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Earth Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "Fire Shard, Earth Shard"
     }, {
         level: "21",
         name: "Riviera Chair",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, Earth Shard",
-        special: "Housing (Furnishing), Buyable"
+        catalysts: "2 Fire Shard, Earth Shard"
     }, {
         level: "24",
         name: "Riviera Table",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Shard, 2 Earth Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "2 Fire Shard, 2 Earth Shard"
     }, {
         level: "27",
         name: "Galleass Wheel",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "2 Steel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 2 Earth Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "3 Fire Shard, 2 Earth Shard"
     }, {
         level: "30",
         name: "Manor Flower Stand",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Fire Shard, 3 Earth Shard"
     }, {
         level: "35",
         name: "Ahriman Bookshelf",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "Ahriman Tears",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Earth Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Fire Shard, 3 Earth Shard"
     }, {
         level: "35",
         name: "Ahriman Screen",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "Ahriman Tears",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Earth Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "4 Fire Shard, 3 Earth Shard"
     }, {
         level: "35",
         name: "Ahriman Cupboard",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "Ahriman Tears",
         mat5: "2 Undyed Velveteen",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Fire Shard, 3 Earth Shard"
     }, {
         level: "35",
         name: "Ahriman Sideboard",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "Ahriman Tears",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Fire Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Fire Shard, 3 Earth Shard"
     }, {
         level: "41",
         name: "Riviera Counter",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Fire Shard, 4 Earth Shard",
-        special: "Housing (Table), Buyable"
+        catalysts: "5 Fire Shard, 4 Earth Shard"
     }, {
         level: "45",
         name: "Oasis Floor Lamp",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "2 Clear Glass Lens",
         mat5: "2 Tallow Candle",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Housing (Furnishing)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "46",
         name: "Riviera Bench",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "2 Undyed Woolen Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Housing (Furnishing)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "46",
         name: "Knight Captain's Desk",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "47",
         name: "Riviera Floor Lamp",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "2 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Housing (Furnishing)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "47",
         name: "Oasis Counter",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "3 Undyedd Woolen Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Buyable, Housing (Table)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "47",
         name: "Nymian Wall Lantern",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 5 Earth Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "6 Fire Shard, 5 Earth Shard"
     }, {
         level: "49",
         name: "Mahogany Screen",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable, Housing (Furnishing)"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     }, {
         level: "50",
         name: "Wall Lantern",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Fire Shard, 6 Earth Shard",
-        special: "Buyable, Housing (Wall-mounted)"
+        catalysts: "6 Fire Shard, 6 Earth Shard"
     }, {
         level: "50★",
         name: "Tonberry Wall Lantern",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "6 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Fire Crystal, 2 Earth Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
     }, {
         level: "50★★",
         name: "Seating Module",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "1 ADS Frame",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "Fire Cluster, Earth Cluster"
     }, {
         level: "50★★",
         name: "Plasma Lamp",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "10 Lightning Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "10 Lightning Crystal"
     }, {
         level: "50★★",
         name: "Manor Oven",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "4 Clinker Bricks",
         mat5: "2 Mortar",
         mat6: "X",
-        catalysts: "Fire Cluster, Earth Cluster",
-        special: "Housing (Table)"
+        catalysts: "Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Shower Stand",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Lord of Levin Lamp",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Lightning Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "12 Lightning Crystal"
     }, {
         level: "50★★★",
         name: "Summoning Bell",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Smithing Bench",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "4 Cobalt Ingot",
         mat5: "Coke",
         mat6: "X",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★",
         name: "Cooking Stove",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "2 Spruce Lumber",
         mat5: "2 Cut Stone",
         mat6: "Coke",
-        catalysts: "2 Fire Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Cluster, Earth Cluster"
     }, {
         level: "50★★★★",
         name: "Head of the Dreadwyrm",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "ADS Illuminant",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Fire Cluster, 2 Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
     }, {
         level: "63",
         name: "Kotetsu Replica",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "Holy Rainbow Cloth",
         mat5: "Slate Whetstone",
         mat6: "3 Wolfram Ingot",
-        catalysts: "4 Fire Crystal, 3 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "4 Fire Crystal, 3 Earth Crystal"
     }, {
         level: "76",
         name: "Crystarium Stove",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 6 Earth Crystal",
-        special: "Housing (Table)"
+        catalysts: "7 Fire Crystal, 6 Earth Crystal"
     }, {
         level: "78",
         name: "Ale Tap",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     }, {
         level: "80",
         name: "Siphon Coffee Brewer",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     },
     {
         level: "80",
@@ -389,8 +356,7 @@ const tasks = [
         mat4: "4 Pixie Cotton",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Earth Crystal",
-        special: "Housing (Table)"
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
     },
     {
         level: "80",

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "3 Grade 2 Intelligence Alkahest",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Enchanted Dimythrite Ink",
         mat5: "3 Grade 2 Mind Alkahest",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "80★★",
@@ -170,7 +157,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist VII, Orchestrion Roll (SP only)"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Upland Wheat Flour",
         mat5: "Highland Spring Water",
         mat6: "Ala Mhigan Salt Crystal",
-        catalysts: "28 Fire Crystal, 28 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Fire Crystal, 28 Water Crystal"
     },
     {
         level: 78,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Royal Grapes",
         mat5: "Pixie Apple",
         mat6: "Prickly Pineapple",
-        catalysts: "28 Fire Crystal, 28 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Fire Crystal, 28 Water Crystal"
     },
     {
         level: 78,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Blood Tomato",
         mat5: "Russet Popoto",
         mat6: "Sun Cabbage",
-        catalysts: "28 Fire Crystal, 28 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Fire Crystal, 28 Water Crystal"
     },
     {
         level: 78,
@@ -50,7 +47,6 @@ const tasks = [
         mat4: "Ovim Meat",
         mat5: "Rail Tenderloin",
         mat6: "Dzo Chuck",
-        catalysts: "28 Fire Crystal, 28 Water Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Fire Crystal, 28 Water Crystal"
     },
 ];

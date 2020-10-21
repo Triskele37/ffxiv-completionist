@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "Lightning Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "59",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver III"
+        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver III"
+        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "Crystal Glass, 2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Grade 1 Intelligence Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Carnelian",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Grade 1 Dexterity Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "2 Grade 1 Intelligence Dissolvent",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Larimar",
         mat5: "2 Grade 1 Mind Dissolvent",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "2 Grade 1 Mind Dissolvent",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Provisioning, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Buyable, Collectable, Levequest, Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "2 Ramie Thread",
         mat5: "Titanium Nugget",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Ingredient (WVR, LTW, ARM), Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Chrysolite",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Larimar",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "2 Crawler Silk",
         mat5: "Fine Alumen",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "2 Grade 1 Intelligence Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "2 Grade 1 Mind Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Iolite",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "Titanium Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "2 Crawler Silk",
         mat5: "Wolfram Square",
         mat6: "2 Fine Alumen",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "2 Sewing Thread",
         mat5: "3 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Dawnborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "Rose Gold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "2 Crawler Silk",
         mat5: "Fine Alumen",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Ingredient (CRP), Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Titanium Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Lightning Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Lightning Shard"
     },
     {
         level: "60★",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Ifrit's Horn",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Fire Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Fire Shard"
     },
     {
         level: "60★",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Garuda's Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Wind Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Wind Shard"
     },
     {
         level: "60★",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Titan's Heart",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Earth Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Earth Shard"
     },
     {
         level: "60★",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Leviathan's Barb",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Water Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Water Shard"
     },
     {
         level: "60★",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Levin's Orb",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Lightning Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Lightning Shard"
     },
     {
         level: "60★",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Ice Tear",
         mat5: "X",
         mat6: "X",
-        catalysts: "99 Ice Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "99 Ice Shard"
     },
     {
         level: "60★",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Expanse Baleen",
         mat5: "X",
         mat6: "X",
-        catalysts: "50 Wind Shard, 50 Water Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "50 Wind Shard, 50 Water Shard"
     },
     {
         level: "60★",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Hive Forewing",
         mat5: "X",
         mat6: "X",
-        catalysts: "50 Fire Shard, 50 Earth Shard",
-        special: "Minion, Unlocked w/ Master Weaver III"
+        catalysts: "50 Fire Shard, 50 Earth Shard"
     },
     {
         level: "60★",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "2 Rainbow Thread",
         mat5: "2 Bearskin",
         mat6: "Fine Alumen",
-        catalysts: "2 Lightning Cluster, Wind Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, Wind Cluster"
     },
     {
         level: "60★★",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Ingredient (WVR, GSM, LTW, BSM), Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Landborne Aethersamd",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "Star Sapphire",
         mat5: "2 Landborne Aethersamd",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "2 Landborne Aethersamd",
         mat6: "3 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "3 Crawler Silk",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Landborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "2 Grade 1 Dexterity Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Dissolvent",
         mat5: "3 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "2 Grade 1 Intelligence Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "2 Grade 2 Intelligence Dissolvent",
         mat5: "3 Landborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "2 Grade 1 Mind Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "Platinum Ingot",
         mat5: "Iolite",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "2 Leafborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "Grade 2 Intelligence Dissolvent",
         mat5: "2 Leafborne Athersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "Grade 2 Mind Dissolvent",
         mat5: "2 Leafborne Athersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "Seaborne Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -914,8 +839,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -926,8 +850,7 @@ const tasks = [
         mat4: "3 Seaborne Aethersand",
         mat5: "4 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -938,8 +861,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -950,8 +872,7 @@ const tasks = [
         mat4: "Hardsilver Ingot",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -962,8 +883,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -974,8 +894,7 @@ const tasks = [
         mat4: "Iolite",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -986,8 +905,7 @@ const tasks = [
         mat4: "Aurum Regis Nugget",
         mat5: "3 Seaborne Aethersand",
         mat6: "4 Fieldcraft Demimateria III",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -998,8 +916,7 @@ const tasks = [
         mat4: "2 Grade 1 Vitality Dissolvent",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1010,8 +927,7 @@ const tasks = [
         mat4: "2 Grade 1 Strength Dissolvent",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1022,8 +938,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "2 Grade 1 Strength Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1034,8 +949,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "2 Grade 1 Dexterity Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1046,8 +960,7 @@ const tasks = [
         mat4: "2 Grade 2 Dexterity Dissolvent",
         mat5: "3 Seaborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1058,8 +971,7 @@ const tasks = [
         mat4: "Hardsilver Nugget",
         mat5: "2 Grade 1 Dexterity Dissolvent",
         mat6: "2 Dawnborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1070,8 +982,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "2 Grade 2 Intelligence Dissolvent",
         mat6: "3 Seaborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1082,8 +993,7 @@ const tasks = [
         mat4: "2 Grade 1 Intelligence Dissolvent",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1094,8 +1004,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "2 Grade 2 Mind Dissolvent",
         mat6: "3 Seaborne Aethersand",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1106,8 +1015,7 @@ const tasks = [
         mat4: "2 Grade 1 Mind Dissolvent",
         mat5: "2 Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
     {
         level: "60★★",
@@ -1118,7 +1026,6 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Lightning Cluster, 2 Wind Cluster",
-        special: "Housing (Interior Wall), Unlocked w/ Master Weaver III"
+        catalysts: "2 Lightning Cluster, 2 Wind Cluster"
     },
 ];

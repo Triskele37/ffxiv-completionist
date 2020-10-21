@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Buyable, Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "11",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL), Levequest"
+        catalysts: "Fire Shard"
     },
     {
         level: "11",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "12",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "12",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Buffalo Milk",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Ingredient (CUL), Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "12",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "13",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Chicken Egg",
         mat5: "Tomato Sauce",
         mat6: "Black Pepper",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "13",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Cieldalaes Spinach",
         mat5: "Buffalo Beams",
         mat6: "Mineral Water",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "14",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "14",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard",
-        special: "Ingredient (CUL)"
+        catalysts: "Fire Shard"
     },
     {
         level: "14",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Wild Onion",
         mat5: "Black Pepper",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "15",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
     {
         level: "15",
@@ -158,7 +146,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Fire Shard, Water Shard",
-        special: "Buyable, Ingredient (CUL), Levequest, Provisioning"
+        catalysts: "Fire Shard, Water Shard"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Ingredient (ARM, BSM, GSM, CRP, ALC, LTW), Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Everdeep Aethersand",
         mat5: "3 Mastercraft Demimateria",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Everborn Aethersand",
         mat5: "Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Rhodonite",
         mat5: "2 Everbright Aethersand",
         mat6: "Grade 2 Reisui of Vitality",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Rhodonite",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 2 Reisui of Vitality",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "2 Rhodonite",
         mat5: "3 Everbright Aethersand",
         mat6: "2 Grade 2 Reisui of Strength",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "2 Everborn Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Vitality",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Everdeep Aethersand",
         mat5: "Grade 2 Reisui of Strength",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
     {
         level: "70★★",
@@ -146,7 +135,6 @@ const tasks = [
         mat4: "Palladium Nugget",
         mat5: "Gazelle Leather",
         mat6: "X",
-        catalysts: "2 Ice Cluster, 2 Earth Cluster",
-        special: "Barding, Unlocked w/ Master Armorer V"
+        catalysts: "2 Ice Cluster, 2 Earth Cluster"
     },
 ];

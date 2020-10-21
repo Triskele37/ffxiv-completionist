@@ -6,7 +6,8 @@ export const Collectables_Mount_Guide = function(parent) {
 
     data.initializeTasks(tasks, [
         { header: "Mount", key: "name", },
-        { header: "Method", key: "method" },
+        { header: "Category", key: "category", filterable: true },
+        { header: "Source", key: "source" },
         { header: "Patch", key: "patch", filterable: true },
     ]);
 
@@ -15,888 +16,1071 @@ export const Collectables_Mount_Guide = function(parent) {
 
 const tasks = [
     {
-        name: "Adamantoise",
-        method: "200,000 MGP from Gold Saucer Attendant (Prize Claim)",
-        patch: "2.51",
+        "name_en": "Adamantoise",
+        "category": "Purchase",
+        "source": "200,000 MGP",
+        "patch": "2.51"
     },
     {
-        name: "Aerodynamics System",
-        method: "Awarded from the Achievement In a Blaze of Glory V.",
-        patch: "3.3",
+        "name_en": "Aerodynamics System",
+        "category": "Achievement",
+        "source": "In a Blaze of Glory V",
+        "patch": "3.3"
     },
     {
-        name: "Ahriman",
-        method: "Achievement Certificates",
-        patch: "2.0",
+        "name_en": "Ahriman",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 6 Achievement Certificates",
+        "patch": "2.0"
     },
     {
-        name: "Air Force",
-        method: "Guaranteed drop from Sigmascape V4.0 (Savage)",
-        patch: "4.2",
+        "name_en": "Air Force",
+        "category": "Raid",
+        "source": "Sigmascape V4.0 (Savage)",
+        "patch": "4.2"
     },
     {
-        name: "Aithon",
-        method: "Dropped by Ifrit in The Bowl of Embers (Extreme).",
-        patch: "2.2",
+        "name_en": "Aithon",
+        "category": "Trial",
+        "source": "The Bowl of Embers (Extreme)",
+        "patch": "2.2"
     },
     {
-        name: "Albino Karakul",
-        method: "Purchased from Enie in The Firmament for 8,400 Skybuilders' Scrips",
-        patch: "5.21",
+        "name_en": "Albino Karakul",
+        "category": "Purchase",
+        "source": "8,400 Skybuilders' Scrips",
+        "patch": "5.21"
     },
     {
-        name: "Alte Roite",
-        method: "Drops from Deltascape V4.0 (Savage)",
-        patch: "4.05",
+        "name_en": "Alte Roite",
+        "category": "Raid",
+        "source": "Deltascape V4.0 (Savage)",
+        "patch": "4.05"
     },
     {
-        name: "Amaro",
-        method: "Completion of the Life of Adventure IV Achievement",
-        patch: "5.0",
+        "name_en": "Amaro",
+        "category": "Achievement",
+        "source": "A Life of Adventure IV",
+        "patch": "5.0"
     },
     {
-        name: "Amber Draught Chocobo",
-        method: "8x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign.",
-        patch: "3.0",
+        "name_en": "Amber Draught Chocobo",
+        "category": "Premium",
+        "source": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
+        "patch": "3.0"
     },
     {
-        name: "Aquamarine Carbuncle",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.15",
+        "name_en": "Aquamarine Carbuncle",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.15"
     },
     {
-        name: "Archon Throne",
-        method: "750,000 MGP from Gold Saucer Attendant",
-        patch: "3.5",
+        "name_en": "Archon Throne",
+        "category": "Purchase",
+        "source": "750,000 MGP",
+        "patch": "3.5"
     },
     {
-        name: "Arrhidaeus",
-        method: "Dropped from Alexander - The Soul of the Creator (Savage) (A12S)",
-        patch: "3.4",
+        "name_en": "Arrhidaeus",
+        "category": "Raid",
+        "source": "Alexander - The Soul of the Creator (Savage)",
+        "patch": "3.4"
     },
     {
-        name: "Astrope",
-        method: "Rewarded from the 2,000 Mentor Roulette Achievement",
-        patch: "3.3",
+        "name_en": "Astrope",
+        "category": "Achievement",
+        "source": "I Hope Mentor Will Notice Me VI",
+        "patch": "3.3"
     },
     {
-        name: "Auspicious Kamuy",
-        method: "Rarely from The Jade Stoa (Extreme).",
-        patch: "4.2",
+        "name_en": "Auspicious Kamuy",
+        "category": "Trial",
+        "source": "The Jade Stoa (Extreme)",
+        "patch": "4.2"
     },
     {
-        name: "Battle Bear",
-        method: "Awarded from the Achievement Tank You, Warrior III.",
-        patch: "4.0",
+        "name_en": "Battle Bear",
+        "category": "Achievement",
+        "source": "Tank You, Warrior III",
+        "patch": "4.0"
     },
     {
-        name: "Battle Lion",
-        method: "Awarded from the Achievement Tank You, Paladin III.",
-        patch: "4.0",
+        "name_en": "Battle Lion",
+        "category": "Achievement",
+        "source": "Tank You, Paladin III",
+        "patch": "4.0"
     },
     {
-        name: "Battle Panther",
-        method: "Awarded from the Achievement Tank You, Dark Knight III.",
-        patch: "4.0",
+        "name_en": "Battle Panther",
+        "category": "Achievement",
+        "source": "Tank You, Dark Knight III",
+        "patch": "4.0"
     },
     {
-        name: "Battle Tiger",
-        method: "Completion of the Tank you Gunbreaker III achievement.",
-        patch: "5.0",
+        "name_en": "Battle Tiger",
+        "category": "Achievement",
+        "source": "Tank You, Gunbreaker III",
+        "patch": "5.0"
     },
     {
-        name: "Behemoth",
-        method: "Achievement Certificates",
-        patch: "2.1",
+        "name_en": "Behemoth",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 6 Achievement Certificates",
+        "patch": "2.1"
     },
     {
-        name: "Bennu",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "3.25",
+        "name_en": "Bennu",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.25"
     },
     {
-        name: "Black Chocobo",
-        method: "Completion of Divine Intervention Heavensward Main Scenario Quest",
-        patch: "3.0",
+        "name_en": "Black Chocobo",
+        "category": "Quest",
+        "source": "Divine Intervention",
+        "patch": "3.0"
     },
     {
-        name: "Black Pegasus",
-        method: "From Gold-trimmed Sacks found in Floors 151 - 200 of Palace of the Dead.",
-        patch: "3.4",
+        "name_en": "Black Pegasus",
+        "category": "Deep Dungeon",
+        "source": "The Palace of the Dead",
+        "patch": "3.4"
     },
     {
-        name: "Blissful Kamuy",
-        method: "Dropped from Emanation (Extreme) (Lakshmi Ex).",
-        patch: "4.0",
+        "name_en": "Blissful Kamuy",
+        "category": "Trial",
+        "source": "Emanation (Extreme)",
+        "patch": "4.0"
     },
     {
-        name: "Bomb Palanquin",
-        method: "Kobold Vendor with \"Trusted\" Reputation with the tribe.",
-        patch: "2.2",
+        "name_en": "Bomb Palanquin",
+        "category": "Purchase",
+        "source": "Kobold Vendor - 789th Order Dig - 120,000 Gil",
+        "patch": "2.2"
     },
     {
-        name: "Boreas",
-        method: "Dropped by Shiva in The Akh Afah Amphitheatre (Extreme)",
-        patch: "2.4",
+        "name_en": "Boreas",
+        "category": "Trial",
+        "source": "Akh Afah Amphitheatre (Extreme)",
+        "patch": "2.4"
     },
     {
-        name: "Broken Heart (Left)",
-        method: "Valentione's Day (2018)",
-        patch: "4.2",
+        "name_en": "Broken Heart (Left)",
+        "category": "Event / Premium",
+        "source": "Valentione's Day (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.2"
     },
     {
-        name: "Broken Heart (Right)",
-        method: "Valentione's Day (2018)",
-        patch: "4.2",
+        "name_en": "Broken Heart (Right)",
+        "category": "Event / Premium",
+        "source": "Valentione's Day (2018) / Final Fantasy XIV Online Store",
+        "patch": "4.2"
     },
     {
-        name: "Cavalry Drake",
-        method: "Amalj'aa Vendor with \"Trusted\" Reputation with the tribe.",
-        patch: "2.1",
+        "name_en": "Cavalry Drake",
+        "category": "Purchase",
+        "source": "Amalj'aa Vendor - Ring of Ash - 120,000 Gil",
+        "patch": "2.1"
     },
     {
-        name: "Cavalry Elbst",
-        method: "Sahagin Vendor with \"Trusted\" Reputation with the tribe.",
-        patch: "2.2",
+        "name_en": "Cavalry Elbst",
+        "category": "Purchase",
+        "source": "Sahagin Vendor - Novv's Nursery - 120,000 Gil",
+        "patch": "2.2"
     },
     {
-        name: "Centurio Tiger",
-        method: "You Got Game Hunt Achievement",
-        patch: "4.0",
+        "name_en": "Centurio Tiger",
+        "category": "Achievement",
+        "source": "You Got Game",
+        "patch": "4.0"
     },
     {
-        name: "Ceremony Chocobo",
-        method: "Obtain from Gold or Platinum Eternal Bond.",
-        patch: "2.45",
+        "name_en": "Ceremony Chocobo",
+        "category": "Quest",
+        "source": "The Ties That Bind",
+        "patch": "2.45"
     },
     {
-        name: "Chocobo Carriage",
-        method: "Available for purchase on the online store or via promotional bonuses.",
-        patch: "5.3",
+        "name_en": "Chocobo Carriage",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "5.3"
     },
     {
-        name: "Circus Ahriman",
-        method: "All Saint's Wake 2019",
-        patch: "5.0",
+        "name_en": "Circus Ahriman",
+        "category": "Event",
+        "source": "All Saints' Wake (2019)",
+        "patch": "5.0"
     },
     {
-        name: "Citrine Carbuncle",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.15",
+        "name_en": "Citrine Carbuncle",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.15"
     },
     {
-        name: "Cloud Mallow",
-        method: "200,000 gil from Mogmul Mogbelly, at Rank 7 (Sworn) with the Moogle Beast Tribe.",
-        patch: "3.3",
+        "name_en": "Cloud Mallow",
+        "category": "Purchase",
+        "source": "Mogmul Mogbelly - Bahrr Lehs - 200,000 Gil",
+        "patch": "3.3"
     },
     {
-        name: "Coeurl",
-        method: "Coeurl Mount is available to players who have purchased the Collector's Edition.",
-        patch: "2.0",
+        "name_en": "Coeurl",
+        "category": "Premium",
+        "source": "A Realm Reborn Collector's Edition",
+        "patch": "2.0"
     },
     {
-        name: "Company Chocobo",
-        method: "Completion of one of the My Little Chocobo Grand Company quests.",
-        patch: "2.0",
+        "name_en": "Company Chocobo",
+        "category": "Quest",
+        "source": "My Little Chocobo (Immortal Flames) / My Little Chocobo (Maelstrom) / My Little Chocobo (Twin Adder)",
+        "patch": "2.0"
     },
     {
-        name: "Construct VII",
-        method: "Awarded from the achievement One Steppe At A Time V",
-        patch: "5.15",
+        "name_en": "Construct VII",
+        "category": "Achievement",
+        "source": "One Steppe at a Time V",
+        "patch": "5.15"
     },
     {
-        name: "Dark Lanner",
-        method: "Rare drop from Nidhogg Extreme",
-        patch: "3.3",
+        "name_en": "Dark Lanner",
+        "category": "Trial",
+        "source": "The Minstrel's Ballad: Nidhogg's Rage",
+        "patch": "3.3"
     },
     {
-        name: "Demi-Ozma",
-        method: "Completion of the achievement We're on Your Side I",
-        patch: "4.5",
+        "name_en": "Demi-Ozma",
+        "category": "Achievement",
+        "source": "We're on Your Side I",
+        "patch": "4.5"
     },
     {
-        name: "Demonic Lanner",
-        method: "Drops from Containment Bay Z1T9 (Extreme) (Zurvan EX).",
-        patch: "3.5",
+        "name_en": "Demonic Lanner",
+        "category": "Trial",
+        "source": "Containment Bay Z1T9 (Extreme)",
+        "patch": "3.5"
     },
     {
-        name: "Dhalmel",
-        method: "Prize from Kupo of Fortune in The Firmament",
-        patch: "5.21",
+        "name_en": "Dhalmel",
+        "category": "Other",
+        "source": "Kupo of Fortune",
+        "patch": "5.21"
     },
     {
-        name: "Direwolf",
-        method: "Ixali Vendor with \"Sworn\" Reputation with the tribe.",
-        patch: "2.35",
+        "name_en": "Direwolf",
+        "category": "Purchase",
+        "source": "Ixali Vendor - Ehcatl - 120,000 Gil",
+        "patch": "2.35"
     },
     {
-        name: "Disembodied Head",
-        method: "Bought from E-Una-Kotor for 10x Gelmorran Potsherd.",
-        patch: "3.35",
+        "name_en": "Disembodied Head",
+        "category": "Purchase",
+        "source": "E-Una-Kotor - Quarrymill - 10 Gelmorran Potsherds",
+        "patch": "3.35"
     },
     {
-        name: "Dodo",
-        method: "Rarely from Platinum-haloed Sacks from Heaven-on-High",
-        patch: "4.35",
+        "name_en": "Dodo",
+        "category": "Deep Dungeon",
+        "source": "Heaven-on-High",
+        "patch": "4.35"
     },
     {
-        name: "Draught Chocobo",
-        method: "Received from the Recruit a Friend Campaign.",
-        patch: "2.3",
+        "name_en": "Draught Chocobo",
+        "category": "Premium",
+        "source": "Recruit a Friend Campaign Reward",
+        "patch": "2.3"
     },
     {
-        name: "Eggshilaration System",
-        method: "Purchased from the Mog Station for EUR 8.40 or $12.",
-        patch: "3.5",
+        "name_en": "Eggshilaration System",
+        "category": "Event / Premium",
+        "source": "Hatching-tide (2017) / Final Fantasy XIV Online Store",
+        "patch": "3.5"
     },
     {
-        name: "Ehll Tou",
-        method: "Completion of the level 70 Ishgardian Restoration Sidequest on Ehll Tou's Wings",
-        patch: "5.3",
+        "name_en": "Ehll Tou",
+        "category": "Quest",
+        "source": "On Ehll Tou's Wings",
+        "patch": "5.3"
     },
     {
-        name: "Eldthurs",
-        method: "Forbidden Land, Eureka Pyros",
-        patch: "4.45",
+        "name_en": "Eldthurs",
+        "category": "Eureka",
+        "source": "Happy Bunny Lockbox - Eureka Pyros",
+        "patch": "4.45"
     },
     {
-        name: "Enbarr",
-        method: "Dropped by Leviathan in The Whorleater (Extreme).",
-        patch: "2.2",
+        "name_en": "Enbarr",
+        "category": "Trial",
+        "source": "The Whorleater (Extreme)",
+        "patch": "2.2"
     },
     {
-        name: "Epimetheus",
-        method: "The Feast Season 14 Reward",
-        patch: "5.2",
+        "name_en": "Epimetheus",
+        "category": "Feast",
+        "source": "The Feast: Season 14",
+        "patch": "5.2"
     },
     {
-        name: "Euphonious Kamuy",
-        method: "Trial reward for Hell's Kier (Extreme)",
-        patch: "4.4",
+        "name_en": "Euphonious Kamuy",
+        "category": "Trial",
+        "source": "Hells' Kier (Extreme)",
+        "patch": "4.4"
     },
     {
-        name: "Eurekan Petrel",
-        method: "Rarely drops from Eureka Hydatos bunny chest.",
-        patch: "4.5",
+        "name_en": "Eurekan Petrel",
+        "category": "Eureka",
+        "source": "Happy Bunny Lockbox - Eureka Hydatos",
+        "patch": "4.5"
     },
     {
-        name: "Fae Gwiber",
-        method: "Trial reward for Titania - Dancing Plague (Extreme).",
-        patch: "5.0",
+        "name_en": "Fae Gwiber",
+        "category": "Trial",
+        "source": "The Dancing Plague (Extreme)",
+        "patch": "5.0"
     },
     {
-        name: "Falcon",
-        method: "Acquired from Fly the Falcon Mount Campaign",
-        patch: "4.05",
+        "name_en": "Falcon",
+        "category": "Limited",
+        "source": "Fly the Falcon Mount Campaign",
+        "patch": "4.05"
     },
     {
-        name: "Fat Black Chocobo",
-        method: "Amazon Promotion",
-        patch: "4.45",
+        "name_en": "Fat Black Chocobo",
+        "category": "Premium",
+        "source": "In-Game Item Campaign",
+        "patch": "4.45"
     },
     {
-        name: "Fat Chocobo",
-        method: "Obtained from A Realm Reborn Collector's Edition Bonuses.",
-        patch: "2.2",
+        "name_en": "Fat Chocobo",
+        "category": "Premium",
+        "source": "A Realm Reborn Collector's Edition",
+        "patch": "2.2"
     },
     {
-        name: "Fat Moogle",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "3.35",
+        "name_en": "Fat Moogle",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.35"
     },
     {
-        name: "Fatter Cat",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.45",
+        "name_en": "Fatter Cat",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.45"
     },
     {
-        name: "Fenrir",
-        method: "1,000,000 MGP from Gold Saucer Attendant (Prize Claim)",
-        patch: "2.51",
+        "name_en": "Fenrir",
+        "category": "Purchase",
+        "source": "1,000,000 MGP",
+        "patch": "2.51"
     },
     {
-        name: "Firebird",
-        method: "Acquired all 7 Lanner mounts then complete the Fiery Wings, Fiery Hearts quest.",
-        patch: "3.5",
+        "name_en": "Firebird",
+        "category": "Quest",
+        "source": "Fiery Wings, Fiery Hearts",
+        "patch": "3.5"
     },
     {
-        name: "Flame Warsteed",
-        method: "Completion of the A Line in the Sand IV achievement.",
-        patch: "2.3",
+        "name_en": "Flame Warsteed",
+        "category": "Achievement",
+        "source": "A Line in the Sand IV",
+        "patch": "2.3"
     },
     {
-        name: "Flying Chair",
-        method: "Crafted by Alchemist Level 70** with Master Alchemist V.",
-        patch: "4.1",
+        "name_en": "Flying Chair",
+        "category": "Crafting",
+        "source": "Crafted by Alchemist",
+        "patch": "4.1"
     },
     {
-        name: "Flying Cumulus",
-        method: "NA and JP special DLC Promotional Events",
-        patch: "3.5",
+        "name_en": "Flying Cumulus",
+        "category": "Limited",
+        "source": "In-Game Item Campaign",
+        "patch": "3.5"
     },
     {
-        name: "Forgiven Reticence",
-        method: "Purchased with 3,200 Sacks of Nuts from Ilfroy",
-        patch: "5.1",
+        "name_en": "Forgiven Reticence",
+        "category": "Purchase",
+        "source": "3,200 Sacks of Nuts",
+        "patch": "5.1"
     },
     {
-        name: "Gilded Magitek Armor",
-        method: "Completion of the Everybody's Darling achievement.",
-        patch: "2.1",
+        "name_en": "Gilded Magitek Armor",
+        "category": "Achievement",
+        "source": "Everybody's Darling",
+        "patch": "2.1"
     },
     {
-        name: "Ginga",
-        method: "Obtained from Frontline Fury Achievement.",
-        patch: "3.5",
+        "name_en": "Ginga",
+        "category": "Event",
+        "source": "GARO Collaboration",
+        "patch": "3.5"
     },
     {
-        name: "Gloria-class Airship",
-        method: "Completion of the You Are What You Eat IV achievement.",
-        patch: "3.2",
+        "name_en": "Gloria-class Airship",
+        "category": "Achievement",
+        "source": "You Are What You Eat IV",
+        "patch": "3.2"
     },
     {
-        name: "Gobwalker",
-        method: "Drops from Alexander - The Burden of the Father (Savage) / A4S.",
-        patch: "3.05",
+        "name_en": "Gobwalker",
+        "category": "Raid",
+        "source": "Alexander - The Burden of the Father (Savage)",
+        "patch": "3.05"
     },
     {
-        name: "Goobbue",
-        method: "Goobbue Mount is available only to 1.0 players.",
-        patch: "2.0",
+        "name_en": "Goobbue",
+        "category": "Limited",
+        "source": "At level 30 or above, speak with the Wandering Minstrel in Eastern La Noscea (1.0)",
+        "patch": "2.0"
     },
     {
-        name: "Goten",
-        method: "Fatal Feast PvP Achievement",
-        patch: "3.5",
+        "name_en": "Goten",
+        "category": "Event",
+        "source": "GARO Collaboration",
+        "patch": "3.5"
     },
     {
-        name: "Grani",
-        method: "Purchasing the Collector's Edition of Shadowbringer.",
-        patch: "5.0",
+        "name_en": "Grani",
+        "category": "Premium",
+        "source": "Shadowbringers Collector's Edition",
+        "patch": "5.0"
     },
     {
-        name: "Great Vessel Of Ronka",
-        method: "18x Qitari Compliments from Yuqurl Manl",
-        patch: "5.2",
+        "name_en": "Great Vessel Of Ronka",
+        "category": "Purchase",
+        "source": "Yuqurl Manl - The Rak'tika Greatwood - 18 Qitari Compliments",
+        "patch": "5.2"
     },
     {
-        name: "Griffin",
-        method: "Purchasing the Collector's Edition of Heavensward.",
-        patch: "3.0",
+        "name_en": "Griffin",
+        "category": "Premium",
+        "source": "Heavensward Collector's Edition",
+        "patch": "3.0"
     },
     {
-        name: "Gullfaxi",
-        method: "Dropped by Titan in The Navel (Extreme).",
-        patch: "2.2",
+        "name_en": "Gullfaxi",
+        "category": "Trial",
+        "source": "The Navel (Extreme)",
+        "patch": "2.2"
     },
     {
-        name: "Gwiber of Light",
-        method: "Rare drop from The Seat of Sacrifice (Extreme)",
-        patch: "5.3",
+        "name_en": "Gwiber of Light",
+        "category": "Trial",
+        "source": "The Seat of Sacrifice (Extreme)",
+        "patch": "5.3"
     },
     {
-        name: "Hallowed Kamuy",
-        method: "Rare drop from the Wreath of Snakes (Extreme).",
-        patch: "4.45",
+        "name_en": "Hallowed Kamuy",
+        "category": "Trial",
+        "source": "The Wreath of Snakes (Extreme)",
+        "patch": "4.45"
     },
     {
-        name: "Hybodus",
-        method: "Awarded from the achievement No More Fish In The Sea II",
-        patch: "5.2",
+        "name_en": "Hybodus",
+        "category": "Achievement",
+        "source": "No More Fish in the Sea II",
+        "patch": "5.2"
     },
     {
-        name: "Incitatus",
-        method: "Purchased with 600 Faux Leaves or 1 Khloe's Gold Certificate of Commendation",
-        patch: "5.3",
+        "name_en": "Incitatus",
+        "category": "Purchase",
+        "source": "600 Faux Leaves / 1 Khloe's Gold Certificate of Commendation",
+        "patch": "5.3"
     },
     {
-        name: "Indigo Whale",
-        method: "Purchased from the Mog Station for EUR 20 or $29.",
-        patch: "4.4",
+        "name_en": "Indigo Whale",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.4"
     },
     {
-        name: "Innocent Gwiber",
-        method: "Trial reward for Innocence - Crown of the Immaculate (Extreme).",
-        patch: "5.0",
+        "name_en": "Innocent Gwiber",
+        "category": "Trial",
+        "source": "The Crown of the Immaculate (Extreme)",
+        "patch": "5.0"
     },
     {
-        name: "Ironfrog Mover",
-        method: "Purchased with 12x Formidable Cog from FATE Chain in Kholusia.",
-        patch: "5.0",
+        "name_en": "Ironfrog Mover",
+        "category": "Purchase",
+        "source": "Fathard - Eulmore - 12 Formidable Cog (FATE \"A Finale Most Formidable\")",
+        "patch": "5.0"
     },
     {
-        name: "Ixion",
-        method: "Trade 12 Ixion Horns to Eschina.",
-        patch: "4.0",
+        "name_en": "Ixion",
+        "category": "Purchase",
+        "source": "Eschina - Rhalgr's Reach - 12 Ixion Horns (FATE \"A Horse Outside\")",
+        "patch": "4.0"
     },
     {
-        name: "Jibanyan Couch",
-        method: "From the Yo-kai Watch: Gather One, Gather All! Seasonal Event.",
-        patch: "5.3",
+        "name_en": "Jibanyan Couch",
+        "category": "Event",
+        "source": "Yo-kai Watch Collaboration - Acquire 17 Yo-kai Weapons",
+        "patch": "5.3"
     },
     {
-        name: "Juedi",
-        method: "Have all 4 Empyrean Accessories in your inventory and speak with Cast-off Confederate in Crick.",
-        patch: "4.35",
+        "name_en": "Juedi",
+        "category": "Achievement",
+        "source": "Dressed For Heaven",
+        "patch": "4.35"
     },
     {
-        name: "Kamuy of the Nine Tails",
-        method: "Collect every Stormblood Extreme Primal Mount and complete A Lone Wolf No More sidequest.",
-        patch: "4.45",
+        "name_en": "Kamuy of the Nine Tails",
+        "category": "Quest",
+        "source": "A Lone Wolf No More",
+        "patch": "4.45"
     },
     {
-        name: "Kingly Peacock",
-        method: "",
-        patch: "5.2",
+        "name_en": "Kingly Peacock",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "5.2"
     },
     {
-        name: "Kirin",
-        method: "Complete the A Legend for a Legend sidequest",
-        patch: "2.5",
+        "name_en": "Kirin",
+        "category": "Quest",
+        "source": "A Legend for a Legend",
+        "patch": "2.5"
     },
     {
-        name: "Kongamato",
-        method: "Obtain Rank 7 (Sworn) with Vath Beast Tribe.",
-        patch: "3.2",
+        "name_en": "Kongamato",
+        "category": "Purchase",
+        "source": "Vath Stickpeddler - Loth ast Vath - 200,000 Gil",
+        "patch": "3.2"
     },
     {
-        name: "Korpokkur Kolossus",
-        method: "Purchased in Gold Saucer for 750,000 MGP",
-        patch: "4.1",
+        "name_en": "Korpokkur Kolossus",
+        "category": "Purchase",
+        "source": "750,000 MGP",
+        "patch": "4.1"
     },
     {
-        name: "Laurel Goobbue",
-        method: "Sylphic Vendor with \"Trusted\" Reputation with the tribe.",
-        patch: "2.1",
+        "name_en": "Laurel Goobbue",
+        "category": "Purchase",
+        "source": "Sylphic Vendor - Little Solace - 120,000 Gil",
+        "patch": "2.1"
     },
     {
-        name: "Legacy Chocobo",
-        method: "Legacy Chocobo is available to legacy players.",
-        patch: "2.0",
+        "name_en": "Legacy Chocobo",
+        "category": "Limited",
+        "source": "Legacy Campaign",
+        "patch": "2.0"
     },
     {
-        name: "Legendary Kamuy",
-        method: "Rare drop in The Minstrel's Ballad: Shinryu's Domain.",
-        patch: "4.1",
+        "name_en": "Legendary Kamuy",
+        "category": "Trial",
+        "source": "The Minstrel's Ballad: Shinryu's Domain",
+        "patch": "4.1"
     },
     {
-        name: "Logistics System",
-        method: "Received from the Behind Enemy Lines I Achievement.",
-        patch: "2.5",
+        "name_en": "Logistics System",
+        "category": "Achievement",
+        "source": "Behind Enemy Lines I",
+        "patch": "2.5"
     },
     {
-        name: "Lone Faehound",
-        method: "In The Feast Rewards (Season 4), Top 100 Solo Ranking in a Datacenter.",
-        patch: "4.0",
+        "name_en": "Lone Faehound",
+        "category": "Feast",
+        "source": "The Feast: Season 4",
+        "patch": "4.0"
     },
     {
-        name: "Lone Hellhound",
-        method: "In The Feast Rewards (Season 3), Top 100 Solo Ranking in a Datacenter.",
-        patch: "3.55a",
+        "name_en": "Lone Hellhound",
+        "category": "Feast",
+        "source": "The Feast: Season 3",
+        "patch": "3.55a"
     },
     {
-        name: "Lunar Kamuy",
-        method: "  Rare drop from The Minstrel's Ballad: Tsukuyomi's Pain.",
-        patch: "4.3",
+        "name_en": "Lunar Kamuy",
+        "category": "Trial",
+        "source": "The Minstrel's Ballad: Tsukuyomi's Pain",
+        "patch": "4.3"
     },
     {
-        name: "Magicked Bed",
-        method: "Can be crafted by Carpenter Recipe 80★",
-        patch: "5.05",
+        "name_en": "Magicked Bed",
+        "category": "Crafting",
+        "source": "Crafted by Carpenter",
+        "patch": "5.05"
     },
     {
-        name: "Magicked Carpet",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.45",
+        "name_en": "Magicked Carpet",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online",
+        "patch": "4.45"
     },
     {
-        name: "Magitek Armor",
-        method: "Acquired after completing the Main Storyline.",
-        patch: "2.0",
+        "name_en": "Magitek Armor",
+        "category": "Quest",
+        "source": "The Ultimate Weapon",
+        "patch": "2.0"
     },
     {
-        name: "Magitek Avenger",
-        method: "Awarded from the achievement Die Another Day III.",
-        patch: "4.1",
+        "name_en": "Magitek Avenger",
+        "category": "Achievement",
+        "source": "Die Another Day III",
+        "patch": "4.1"
     },
     {
-        name: "Magitek Avenger A-1",
-        method: "Complete \"Out of Hiding\" Achievement",
-        patch: "4.5",
+        "name_en": "Magitek Avenger A-1",
+        "category": "Achievement",
+        "source": "Out of Hiding",
+        "patch": "4.5"
     },
     {
-        name: "Magitek Conveyer",
-        method: "In The Feast Rewards (Season 7), Top 100 Solo Ranking in a Datacenter.",
-        patch: "4.3",
+        "name_en": "Magitek Conveyer",
+        "category": "Feast",
+        "source": "The Feast: Season 7",
+        "patch": "4.3"
     },
     {
-        name: "Magitek Death Claw",
-        method: "6x Achievement Certificate from Jonathas in New Gridania.",
-        patch: "4.2",
+        "name_en": "Magitek Death Claw",
+        "category": "Purchase",
+        "source": "Jonathas - Old Gridania - 6 Achievement Certificates",
+        "patch": "4.2"
     },
     {
-        name: "Magitek Hyperconveyor",
-        method: "The Feast Season 16 Reward",
-        patch: "5.3",
+        "name_en": "Magitek Hyperconveyor",
+        "category": "Feast",
+        "source": "The Feast: Season 16",
+        "patch": "5.3"
     },
     {
-        name: "Magitek Predator",
-        method: "Dropped by Zenos yae Galvus in the dungeon Ala Mhigo (Dungeon).",
-        patch: "4.0",
+        "name_en": "Magitek Predator",
+        "category": "Dungeon",
+        "source": "Ala Mhigo",
+        "patch": "4.0"
     },
     {
-        name: "Magitek Sky Armor",
-        method: "Bought at PvP Merchant for 20,000 Wolf Marks.",
-        patch: "4.4",
+        "name_en": "Magitek Sky Armor",
+        "category": "Purchase",
+        "source": "20,000 Wolf Marks",
+        "patch": "4.4"
     },
     {
-        name: "Magna Roader",
-        method: "The Feast Season 11 Reward",
-        patch: "4.45",
+        "name_en": "Magna Roader",
+        "category": "Feast",
+        "source": "The Feast: Season 11",
+        "patch": "4.45"
     },
     {
-        name: "Manacutter",
-        method: "After completing the Main Scenario Quest Into the Aery.",
-        patch: "3.0",
+        "name_en": "Manacutter",
+        "category": "Quest",
+        "source": "Into the Aery",
+        "patch": "3.0"
     },
     {
-        name: "Managarm",
-        method: "8x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign.",
-        patch: "4.1",
+        "name_en": "Managarm",
+        "category": "Premium",
+        "source": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
+        "patch": "4.1"
     },
     {
-        name: "Marid",
-        method: "18x Ananta Dreamstaff from Madhura.",
-        patch: "4.2",
+        "name_en": "Marid",
+        "category": "Purchase",
+        "source": "Madhura - Castellum Velodyna - 18 Ananta Dreamstaffs",
+        "patch": "4.2"
     },
     {
-        name: "Markab",
-        method: "Obtained after defeating Ramuh in The Striking Tree (Extreme)",
-        patch: "2.3",
+        "name_en": "Markab",
+        "category": "Trial",
+        "source": "The Striking Tree (Extreme)",
+        "patch": "2.3"
     },
     {
-        name: "Maxima Roader",
-        method: "Feast Season 12 Reward",
-        patch: "4.45",
+        "name_en": "Maxima Roader",
+        "category": "Feast",
+        "source": "The Feast: Season 12",
+        "patch": "4.45"
     },
     {
-        name: "Menoetius",
-        method: "",
-        patch: "5.2",
+        "name_en": "Megalotragus",
+        "category": "Purchase",
+        "source": "8,400 Skybuilders' Scrips",
+        "patch": "5.31"
     },
     {
-        name: "Midgardsormr",
-        method: "After completing the Main Scenario Quest Fetters of Lament.",
-        patch: "3.0",
+        "name_en": "Menoetius",
+        "category": "Feast",
+        "source": "The Feast: Season 15",
+        "patch": "5.2"
     },
     {
-        name: "Mikoshi",
-        method: "20 Namazu Koban from Gyosho",
-        patch: "4.3",
+        "name_en": "Midgardsormr",
+        "category": "Quest",
+        "source": "Fetters of Lament",
+        "patch": "3.0"
     },
     {
-        name: "Model O",
-        method: "Raid reward for Alphascape V4.0 (Savage)",
-        patch: "4.4",
+        "name_en": "Mikoshi",
+        "category": "Purchase",
+        "source": "Gyosho - Dhoro Iloh - 20 Namazu Koban",
+        "patch": "4.3"
     },
     {
-        name: "Morbol",
-        method: "Awarded from the achievement True Blue",
-        patch: "5.15",
+        "name_en": "Model O",
+        "category": "Raid",
+        "source": "Alphascape V4.0 (Savage)",
+        "patch": "4.4"
     },
     {
-        name: "Mystic Panda",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.1",
+        "name_en": "Morbol",
+        "category": "Achievement",
+        "source": "True Blue",
+        "patch": "5.15"
     },
     {
-        name: "Nezha Chariot",
-        method: "Purchased from the Mog Station for EUR 16.80 or $24.",
-        patch: "4.2",
+        "name_en": "Mystic Panda",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.1"
     },
     {
-        name: "Nightmare",
-        method: "Summoned by Nightmare Whistle. Dropped by Garuda (Extreme), Titan (Extreme), and Ifrit (Extreme).",
-        patch: "2.1",
+        "name_en": "Nezha Chariot",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.2"
     },
     {
-        name: "Original Fat Chocobo",
-        method: "Limited time promotional event with 7-11 (JP), Amazon (US) and GamesMaster (EU)",
-        patch: "3.2",
+        "name_en": "Nightmare",
+        "category": "Trial",
+        "source": "The Bowl of Embers (Extreme) / The Howling Eye (Extreme) / The Navel (Extreme)",
+        "patch": "2.1"
     },
     {
-        name: "Pack Faehound",
-        method: "In The Feast Rewards (Season 4), Top 100 Party Ranking in a Datacenter.",
-        patch: "4.0",
+        "name_en": "Original Fat Chocobo",
+        "category": "Limited",
+        "source": "In-Game Item Campaign",
+        "patch": "3.2"
     },
     {
-        name: "Pack Hellhound",
-        method: "In The Feast Rewards (Season 3), Top 100 Party Ranking in a Datacenter.",
-        patch: "3.55a",
+        "name_en": "Pack Faehound",
+        "category": "Feast",
+        "source": "The Feast: Season 4",
+        "patch": "4.0"
     },
     {
-        name: "Parade Chocobo",
-        method: "Leaving a Better Impression II",
-        patch: "2.4",
+        "name_en": "Pack Hellhound",
+        "category": "Feast",
+        "source": "The Feast: Season 3",
+        "patch": "3.55a"
     },
     {
-        name: "Pegasus",
-        method: "Purchased from Spoils Collector (The Pillars) for 99 Brass Sky Pirate Spoils.",
-        patch: "3.1",
+        "name_en": "Parade Chocobo",
+        "category": "Achievement",
+        "source": "Leaving a Better Impression II",
+        "patch": "2.4"
     },
     {
-        name: "Portly Porxie",
-        method: "18x Fae Fancy from Jul Oul",
-        patch: "5.1",
+        "name_en": "Pegasus",
+        "category": "Purchase",
+        "source": "4,200 Skybuilders' Scrips",
+        "patch": "3.1"
     },
     {
-        name: "Prototype Conveyor",
-        method: "In The Feast Rewards (Season 8), Top 100 Party Ranking in a Datacenter.",
-        patch: "4.31",
+        "name_en": "Portly Porxie",
+        "category": "Purchase",
+        "source": "Jul Oul - Il Mheg - 18 Fae Fancy",
+        "patch": "5.1"
     },
     {
-        name: "Pteranodon",
-        method: "Completion of the Castle In The Sky Achievement",
-        patch: "5.21",
+        "name_en": "Prototype Conveyor",
+        "category": "Feast",
+        "source": "The Feast: Season 8",
+        "patch": "4.31"
     },
     {
-        name: "Raigo",
-        method: "Furious Fatalities PvP Achievement",
-        patch: "3.5",
+        "name_en": "Pteranodon",
+        "category": "Achievement",
+        "source": "Castle in the Sky",
+        "patch": "5.21"
     },
     {
-        name: "Ramuh",
-        method: "Raid reward for Eden's Verse: Refulgence (Savage)",
-        patch: "5.2",
+        "name_en": "Raigo",
+        "category": "Event",
+        "source": "GARO Collaboration",
+        "patch": "3.5"
     },
     {
-        name: "Rathalos",
-        method: "50x Rathalos Scale+",
-        patch: "4.36",
+        "name_en": "Ramuh",
+        "category": "Raid",
+        "source": "Eden's Verse: Refulgence (Savage)",
+        "patch": "5.2"
     },
     {
-        name: "Red Baron",
-        method: "Purchased from the Mog Station for EUR 8.40 or $12.",
-        patch: "3.1",
+        "name_en": "Rathalos",
+        "category": "Trial",
+        "source": "The Great Hunt (Extreme)",
+        "patch": "4.36"
     },
     {
-        name: "Red Hare",
-        method: "Purchased from the Mog Station for EUR 16.90 or $24.",
-        patch: "4.3",
+        "name_en": "Red Baron",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.1"
     },
     {
-        name: "Regalia Type-G",
-        method: "Purchased for 200,000 MGP during the A Nocturne for Heroes Event",
-        patch: "4.5",
+        "name_en": "Red Hare",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "4.3"
     },
     {
-        name: "Reveling Kamuy",
-        method: "Rare drop from The Pool of Tribute (Extreme) (Susano Ex).",
-        patch: "4.0",
+        "name_en": "Regalia Type-G",
+        "category": "Event",
+        "source": "Final Fantasy XV Collaboration",
+        "patch": "4.5"
     },
     {
-        name: "Rolling Tankard",
-        method: "18x Hammered Frogments from Mizutt",
-        patch: "5.3",
+        "name_en": "Reveling Kamuy",
+        "category": "Trial",
+        "source": "The Pool of Tribute (Extreme)",
+        "patch": "4.0"
     },
     {
-        name: "Rose Lanner",
-        method: "Rare drop from Thok ast Thok (Extreme).",
-        patch: "3.2",
+        "name_en": "Rolling Tankard",
+        "category": "Purchase",
+        "source": "18 Hammered Frogments",
+        "patch": "5.3"
     },
     {
-        name: "Round Lanner",
-        method: "Rare drop from The Minstrel's Ballad: Thordan's Reign.",
-        patch: "3.2",
+        "name_en": "Rose Lanner",
+        "category": "Trial",
+        "source": "Thok ast Thok (Extreme)",
+        "patch": "3.2"
     },
     {
-        name: "Rubellite Carbuncle",
-        method: "Purchased from the Mog Station for EUR 16.90 or $24.",
-        patch: "5.2",
+        "name_en": "Round Lanner",
+        "category": "Trial",
+        "source": "The Minstrel's Ballad: Thordan's Reign",
+        "patch": "3.2"
     },
     {
-        name: "Ruby Gwiber",
-        method: "Rare drop from Cinder Drift (Extreme)",
-        patch: "5.2",
+        "name_en": "Rubellite Carbuncle",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "5.2"
     },
     {
-        name: "Sabotender Emperador",
-        method: "Bought at Gold Saucer for 2,000,000 MGP",
-        patch: "4.45",
+        "name_en": "Ruby Gwiber",
+        "category": "Trial",
+        "source": "Cinder Drift (Extreme)",
+        "patch": "5.2"
     },
     {
-        name: "Safeguard System",
-        method: "Front and Center V PvP Achievement",
-        patch: "4.3",
+        "name_en": "Sabotender Emperador",
+        "category": "Purchase",
+        "source": "2,000,000 MGP",
+        "patch": "4.45"
     },
     {
-        name: "Sanuwa",
-        method: "200,000 gil from Luna Vanu, at Rank 7 with the Vanu Vanu Beast Tribe.",
-        patch: "3.1",
+        "name_en": "Safeguard System",
+        "category": "Achievement",
+        "source": "Front and Center V",
+        "patch": "4.3"
     },
     {
-        name: "SDS Fenrir",
-        method: "Purchased from the Mog Station for EUR 20 or $29.",
-        patch: "4.4",
+        "name_en": "Sanuwa",
+        "category": "Purchase",
+        "source": "Luna Vanu - Ok' Gundu Nakki - 200,000 Gil",
+        "patch": "3.1"
     },
     {
-        name: "Serpent Warsteed",
-        method: "Completion of the A Line in the Glade IV achievement.",
-        patch: "2.3",
+        "name_en": "SDS Fenrir",
+        "category": "Premium",
+        "source": "Fan Festival 2018-2019 / Final Fantasy XIV Online Store",
+        "patch": "4.4"
     },
     {
-        name: "Shadow Gwiber",
-        method: "Rare drop from The Minstrel's Ballad: Hades's Elegy",
-        patch: "5.1",
+        "name_en": "Serpent Warsteed",
+        "category": "Achievement",
+        "source": "A Line in the Glade IV",
+        "patch": "2.3"
     },
     {
-        name: "Skyslipper",
-        method: "Rare drop from Eden's Gate: Sepulture (Savage)",
-        patch: "5.05",
+        "name_en": "Shadow Gwiber",
+        "category": "Trial",
+        "source": "The Minstrel's Ballad: Hades's Elegy",
+        "patch": "5.1"
     },
     {
-        name: "Sleipnir",
-        method: "Purchased from the Mog Station for EUR 16.90 or $24.",
-        patch: "2.38",
+        "name_en": "Skyslipper",
+        "category": "Raid",
+        "source": "Eden's Gate: Sepulture (Savage)",
+        "patch": "5.05"
     },
     {
-        name: "Sophic Lanner",
-        method: "Dropped from Containment Bay P1T6 (Extreme).",
-        patch: "3.4",
+        "name_en": "Sleipnir",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "2.38"
     },
     {
-        name: "Spriggin Stonecarrier",
-        method: "Purchased from the Mog Station for EUR 16.90 or $24.",
-        patch: "5.2",
+        "name_en": "Sophic Lanner",
+        "category": "Trial",
+        "source": "Containment Bay P1T6 (Extreme)",
+        "patch": "3.4"
     },
     {
-        name: "Storm Warsteed",
-        method: "Completion of the A Line in the Storm IV achievement.",
-        patch: "4.1",
+        "name_en": "Spriggin Stonecarrier",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "5.2"
     },
     {
-        name: "Starlight Bear",
-        method: "Purchased from the Mog Station for EUR 8.40 or $12.",
-        patch: "2.3",
+        "name_en": "Starlight Bear",
+        "category": "Event / Premium",
+        "source": "Starlight Celebration (2017) / Final Fantasy XIV Online Store",
+        "patch": "4.1"
     },
     {
-        name: "Striped Ray",
-        method: "Bought from Shikitahe for 12x Kojin Sango. Bloodsworn Rep required.",
-        patch: "4.1",
+        "name_en": "Storm Warsteed",
+        "category": "Achievement",
+        "source": "A Line in the Storm IV",
+        "patch": "2.3"
     },
     {
-        name: "Sunspun Cumulus",
-        method: "Purchased from Mog Station for EUR 8.40 or $12.",
-        patch: "5.0",
+        "name_en": "Striped Ray",
+        "category": "Purchase",
+        "source": "Shikitahe - Tamamizu - 12 Kojin Sango",
+        "patch": "4.1"
     },
     {
-        name: "Syldra",
-        method: "Purchase Stormblood Collector's Edition.",
-        patch: "4.0",
+        "name_en": "Sunspun Cumulus",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "5.0"
     },
     {
-        name: "Triceratops",
-        method: "Completion of the Nuts for Nutsy achievement.",
-        patch: "5.0",
+        "name_en": "Syldra",
+        "category": "Premium",
+        "source": "Stormblood Collector's Edition",
+        "patch": "4.0"
     },
     {
-        name: "True Griffin",
-        method: "18x Ananta Dreamstaff from Madhura",
-        patch: "4.2",
+        "name_en": "Triceratops",
+        "category": "Achievement",
+        "source": "Nuts for Nutsy",
+        "patch": "5.0"
     },
     {
-        name: "Twintania",
-        method: "15x Gold Chocobo Feathers, which are received from the Recruit a Friend Campaign.",
-        patch: "3.0",
+        "name_en": "True Griffin",
+        "category": "Purchase",
+        "source": "Madhura - Castellum Velodyna - 18 Ananta Dreamstaffs",
+        "patch": "4.2"
     },
     {
-        name: "Typhon",
-        method: "Bought at the Gold Saucer for 750,000 MGP",
-        patch: "4.4",
+        "name_en": "Twintania",
+        "category": "Premium",
+        "source": "Calamity Salvager - 15 Gold Chocobo Feathers (Recruit a Friend Campaign)",
+        "patch": "3.0"
     },
     {
-        name: "Tyrannosaur",
-        method: "The Forbidden Land, Eureka Anemos",
-        patch: "4.25",
+        "name_en": "Typhon",
+        "category": "Purchase",
+        "source": "750,000 MGP",
+        "patch": "4.4"
     },
     {
-        name: "Ufiti",
-        method: "Purchased from Enie in The Firmament for 8,400 Skybuilders' Scrips",
-        patch: "5.11",
+        "name_en": "Tyrannosaur",
+        "category": "Eureka",
+        "source": "Anemos Lockbox",
+        "patch": "4.25"
     },
     {
-        name: "Unicorn",
-        method: "Unicorn can be acquired when you level Conjurer to 30 and complete the quest Unicorn Power.",
-        patch: "2.0",
+        "name_en": "Ufiti",
+        "category": "Purchase",
+        "source": "8,400 Skybuilders' Scrips",
+        "patch": "5.11"
     },
     {
-        name: "War Panther",
-        method: "Completion of the But Somebody's Gotta Do It (Dark Knight) achievement.",
-        patch: "3.0",
+        "name_en": "Unicorn",
+        "category": "Quest",
+        "source": "Unicorn Power",
+        "patch": "2.0"
     },
     {
-        name: "War Tiger",
-        method: "Completion of the Tank you Gunbreaker II achievement.",
-        patch: "5.0",
+        "name_en": "War Panther",
+        "category": "Achievement",
+        "source": "But Somebody's Gotta Do It (Dark Knight)",
+        "patch": "3.0"
     },
     {
-        name: "Warbear",
-        method: "Completion of the But Somebody's Gotta Do It (Warrior) achievement.",
-        patch: "2.2",
+        "name_en": "War Tiger",
+        "category": "Achievement",
+        "source": "Tank You, Gunbreaker II",
+        "patch": "5.0"
     },
     {
-        name: "Warlion",
-        method: "Completion of the But Somebody's Gotta Do It (Paladin) achievement.",
-        patch: "2.2",
+        "name_en": "Warbear",
+        "category": "Achievement",
+        "source": "But Somebody's Gotta Do It (Warrior)",
+        "patch": "2.2"
     },
     {
-        name: "Warring Lanner",
-        method: "Rare drop from Containment Bay S1T7 (Extreme).",
-        patch: "3.2",
+        "name_en": "Warlion",
+        "category": "Achievement",
+        "source": "But Somebody's Gotta Do It (Paladin)",
+        "patch": "2.2"
     },
     {
-        name: "Whisper A-go-go",
-        method: "Acquiring all 13 Yo-kai Weapons from the Yo-kai Watch: Gather One, Gather All! Seasonal Event.",
-        patch: "3.35",
+        "name_en": "Warring Lanner",
+        "category": "Trial",
+        "source": "Containment Bay S1T7 (Extreme)",
+        "patch": "3.2"
     },
     {
-        name: "Whisper-go",
-        method: "Acquiring all 13 Yo-kai Minions from the Yo-kai Watch: Gather One, Gather All! Seasonal Event.",
-        patch: "3.35",
+        "name_en": "Whisper A-go-go",
+        "category": "Event",
+        "source": "Yo-kai Watch Collaboration - Acquire 13 Yo-kai Weapons",
+        "patch": "3.35"
     },
     {
-        name: "White Devil",
-        method: "Purchased from the Mog Station for EUR 8.40 or $12.",
-        patch: "3.1",
+        "name_en": "Whisper-go",
+        "category": "Event",
+        "source": "Yo-kai Watch Collaboration - Acquire 13 Yo-kai Minions",
+        "patch": "3.35"
     },
     {
-        name: "White Lanner",
-        method: "Rare drop from The Limitless Blue (Extreme).",
-        patch: "3.2",
+        "name_en": "White Devil",
+        "category": "Premium",
+        "source": "Final Fantasy XIV Online Store",
+        "patch": "3.1"
     },
     {
-        name: "Witch's Broom",
-        method: "Purchased from the Mog Station for EUR 8.40 or $12.",
-        patch: "3.07",
+        "name_en": "White Lanner",
+        "category": "Trial",
+        "source": "The Limitless Blue (Extreme)",
+        "patch": "3.2"
     },
     {
-        name: "Wyvern",
-        method: "Sold for 6 Clan Mark Logs from Bertana.",
-        patch: "3.1",
+        "name_en": "Witch's Broom",
+        "category": "Event / Premium",
+        "source": "All Saints' Wake (2015) / Final Fantasy XIV Online Store",
+        "patch": "3.07"
     },
     {
-        name: "Xanthos",
-        method: "Dropped by Garuda in The Howling Eye (Extreme).",
-        patch: "2.2",
+        "name_en": "Wyvern",
+        "category": "Purchase",
+        "source": "Bertana - Idyllshire - 6 Clan Mark Logs",
+        "patch": "3.1"
     },
     {
-        name: "Yol",
-        method: "In the Footsteps of Bardam the Brave Stormblood Main Scenario Quest",
-        patch: "4.0",
+        "name_en": "Xanthos",
+        "category": "Trial",
+        "source": "The Howling Eye (Extreme)",
+        "patch": "2.2"
     },
     {
-        name: "Zu",
-        method: "Purchased from Resident Caretaker for 1 Iron Voyage Spoil.",
-        patch: "3.2",
+        "name_en": "Yol",
+        "category": "Quest",
+        "source": "In the Footsteps of Bardam The Brave",
+        "patch": "4.0"
     },
+    {
+        "name_en": "Zu",
+        "category": "Purchase",
+        "source": "Spoils Collector - 1 Iron Voyage Spoil",
+        "patch": "3.2"
+    }
 ];

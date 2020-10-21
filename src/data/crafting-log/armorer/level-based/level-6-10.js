@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "7",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "8",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "8",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "9",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Ingredient (ARM), Provisioning"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "9",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Ingredient (ARM), Provisioning"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "10",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "10",
@@ -98,7 +91,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Ingredient (ARM), Provisioning, Levequest"
+        catalysts: "Ice Shard, Earth Shard"
     },
 ];

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal",
-        special: "Ingredient (BSM, WVR, LTW, ARM, CRP, GSM), Levequest"
+        catalysts: "3 Earth Crystal"
     },
     {
         level: "61",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 2 Wind Crystal"
     },
     {
         level: "62",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal",
-        special: "Ingredient (BSM, WVR, LTW, ARM, CRP, GSM, ALC)"
+        catalysts: "3 Earth Crystal"
     },
     {
         level: "62",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Levequest"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal",
-        special: "Ingredient (BSM, WVR, LTW, ARM, CRP, GSM, ALC, FCC), Levequest"
+        catalysts: "4 Earth Crystal"
     },
     {
         level: "64",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -734,8 +674,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Ming",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -746,8 +685,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -758,8 +696,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -770,8 +707,7 @@ const tasks = [
         mat4: "Grade 1 Reisui Of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 3 Wind Crystal"
     },
     {
         level: "65",
@@ -782,8 +718,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -794,8 +729,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -806,8 +740,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -818,8 +751,7 @@ const tasks = [
         mat4: "Wildfowl Feather",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -830,8 +762,7 @@ const tasks = [
         mat4: "Halgai Mane",
         mat5: "Azurite",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -842,8 +773,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -854,8 +784,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -866,8 +795,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -878,8 +806,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Intelligence",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -890,8 +817,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -902,8 +828,7 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -914,7 +839,6 @@ const tasks = [
         mat4: "Rubber",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Earth Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Earth Crystal, 4 Wind Crystal"
     },
 ];

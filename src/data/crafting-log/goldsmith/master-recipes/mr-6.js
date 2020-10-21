@@ -25,8 +25,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     },
     {
         level: "70★★",
@@ -59,8 +58,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     },
     {
         level: "70★★",
@@ -115,8 +113,7 @@ const tasks = [
         mat4: "Shinryu's Scale",
         mat5: "5 Demicrystal",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Specialist, Unlocked w/ Master Blacksmith VIII"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     },
     {
         level: "70★★",
@@ -160,8 +157,7 @@ const tasks = [
         mat4: "8 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Odder Otter Hanging Andon Lamp",
@@ -171,8 +167,7 @@ const tasks = [
         mat4: "Granite",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Carbuncle Chandelier",
@@ -182,8 +177,7 @@ const tasks = [
         mat4: "2 Gold Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "70★★",
         name: "Odder Otter Andon Lamp",
@@ -193,8 +187,7 @@ const tasks = [
         mat4: "Granite",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Outdoor Furnishing), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Carbuncle Bathtub",
@@ -204,8 +197,7 @@ const tasks = [
         mat4: "5 Marble",
         mat5: "X",
         mat6: "X",
-        catalysts: "10 Wind Shard, 9 Fire Shard",
-        special: "Housing (Furnishing), Unlocked w/ Master Goldsmith VI"
+        catalysts: "10 Wind Shard, 9 Fire Shard"
     }, {
         level: "70★★",
         name: "Washbasin",
@@ -215,8 +207,7 @@ const tasks = [
         mat4: "3 Marble",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "70★★",
         name: "Eorzean Lantern",
@@ -226,8 +217,7 @@ const tasks = [
         mat4: "Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Odder Otter Lantern",
@@ -237,8 +227,7 @@ const tasks = [
         mat4: "6 Potter's Clay",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Mellow Mog Lamp",
@@ -248,8 +237,7 @@ const tasks = [
         mat4: "3 Tempered Glass",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Crimson Coral Object",
@@ -259,8 +247,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Hannya Mask",
@@ -270,8 +257,7 @@ const tasks = [
         mat4: "Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Odder Otter Wall Lantern",
@@ -281,8 +267,7 @@ const tasks = [
         mat4: "2 Granite",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★",
         name: "Moogle Wall Chronometer",
@@ -292,8 +277,7 @@ const tasks = [
         mat4: "2 Electrum Rings",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ingot",
@@ -303,8 +287,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (GSM, ARM, BSM, ALC, WVR, CRP, LTW), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Rod",
@@ -314,8 +297,7 @@ const tasks = [
         mat4: "3 Everborn Aethersand",
         mat5: "3 Grade 3 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Rapier",
@@ -325,8 +307,7 @@ const tasks = [
         mat4: "Tiger Leather",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Reisui of Intelligence",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Planisphere",
@@ -336,8 +317,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "3 Grade 3 Reisui of Mind",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Needle",
@@ -347,8 +327,7 @@ const tasks = [
         mat4: "Star Velvet",
         mat5: "Gold Ingot",
         mat6: "5 Kingcraft Demimateria",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Halfmask of Striking",
@@ -358,8 +337,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Strengths",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Fending",
@@ -369,8 +347,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Slaying",
@@ -380,8 +357,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Aiming",
@@ -391,8 +367,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Casting",
@@ -402,8 +377,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Healing",
@@ -413,8 +387,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Crafting",
@@ -424,8 +397,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Earring of Gathering",
@@ -435,8 +407,7 @@ const tasks = [
         mat4: "3 Kingcraft Demimateria",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ring of Fending",
@@ -446,8 +417,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ring of Slaying",
@@ -457,8 +427,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ring of Aiming",
@@ -468,8 +437,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ring of Casting",
@@ -479,8 +447,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Silvergrace Ring of Healing",
@@ -490,8 +457,7 @@ const tasks = [
         mat4: "Grade 3 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Trade, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★",
         name: "Byakko Barding",
@@ -501,8 +467,7 @@ const tasks = [
         mat4: "Tiger Leather",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Barding, Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Evergleam Ingot",
@@ -512,8 +477,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Ingredient (BSM, CRP, ALC, WVR, GSM, LTW), Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Rod",
@@ -523,8 +487,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Rapier",
@@ -534,8 +497,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ephemeris",
@@ -545,8 +507,7 @@ const tasks = [
         mat4: "3 Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Gantai of Striking",
@@ -556,8 +517,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Gantai of Scouting",
@@ -567,8 +527,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Gantai of Aiming",
@@ -578,8 +537,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Kanmuri of Casting",
@@ -589,8 +547,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Kanmuri of Healing",
@@ -600,8 +557,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Earings of Fending",
@@ -611,8 +567,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Vitality",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Earings of Slaying",
@@ -622,8 +577,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Strength",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Earings of Aiming",
@@ -633,8 +587,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Dexterity",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Earings of Casting",
@@ -644,8 +597,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Earings of Healing",
@@ -655,8 +607,7 @@ const tasks = [
         mat4: "Grade 4 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ring of Fending",
@@ -666,8 +617,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ring of Slaying",
@@ -677,8 +627,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ring of Aiming",
@@ -688,8 +637,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ring of Casting",
@@ -699,8 +647,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Rakshasa Ring of Healing",
@@ -710,8 +657,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith VI"
+        catalysts: "2 Wind Cluster, 2 Fire Cluster"
     }, {
         level: "70★★★★",
         name: "Seiryu Statuette",
@@ -721,8 +667,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Tabletop), Unlocked w/ Master Goldsmith VI"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "80★",
         name: "Titania Shadow Box",
@@ -732,7 +677,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Cluster, 3 Fire Cluster",
-        special: "Housing (Wall Mounted), Unlocked w/ Master Goldsmith VI"
+        catalysts: "3 Wind Cluster, 3 Fire Cluster"
     },
 ];

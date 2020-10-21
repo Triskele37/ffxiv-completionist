@@ -14,8 +14,7 @@ const tasks = [
         mat4: "Undyed Velveteen",
         mat5: "Glade Lantern",
         mat6: "Ink & Quill",
-        catalysts: "8 Wind Shard, 8 Ice Shard",
-        special: "Housing (Table), Unlocked w/ Master Carpenter III"
+        catalysts: "8 Wind Shard, 8 Ice Shard"
     },
     {
         level: "60",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Scale Glue",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Buyable, Collectable, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Crawler Silk",
         mat5: "Adamantite Rivets",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Archaeornis Leather",
         mat5: "2 Star Sapphire",
         mat6: "Growth Formula Zeta",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Chimerical Felt",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Buyable, Collectable, Provisioning, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Hardsilver Ingot",
         mat5: "4 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Ingredient(CRP, FCC), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Buyable, Trade, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Glazenut",
         mat5: "Dawnborne Aethersand",
         mat6: "X",
-        catalysts: "99 Wind Shard",
-        special: "Minion, Unlocked w/ Master Carpenter III"
+        catalysts: "99 Wind Shard"
     },
     {
         level: "60★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Cluster, 6 Ice Cluster",
-        special: "Housing (Flooring), Unlocked w/ Master Carpenter III"
+        catalysts: "6 Wind Cluster, 6 Ice Cluster"
     },
     {
         level: "60★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Cluster, 6 Ice Cluster",
-        special: "Housing (Flooring), Unlocked w/ Master Carpenter III"
+        catalysts: "6 Wind Cluster, 6 Ice Cluster"
     },
     {
         level: "60★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "2 Chimerical Felt",
         mat5: "4 Fieldcraft Demimateria II",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Aurum Regis Nugget",
         mat5: "5 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Ceiling Light), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Aurum Regis Nugget",
         mat5: "2 Allagan Catalyst",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "5 Star Ruby",
         mat5: "2 Aurum Regis Nugget",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, Ice Cluster"
     },
     {
         level: "60★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Ingredient (CRP, BSM, GSM, ARM, LTW, FCC), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "2 Landborne Aethersand",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Buyable, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "3 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Buyable, Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria III",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria III",
         mat5: "x",
         mat6: "X",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Undyed Woolen Cloth",
         mat5: "Apkallu Down",
         mat6: "Allagan Catalyst",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Furnishing), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "2 Adamantite Nugget",
         mat5: "2 Aurum Regis Nugget",
         mat6: "3 Allagan Catalyst",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Table), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "2 Linen Canvas",
         mat5: "2 Iron Rivets",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "2 Steel Rivets",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Farreach Canvas",
         mat5: "2 Cobalt Rivets",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "Rose Gold Ingot",
         mat5: "Cobalt Rivets",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Farreach Canvas",
         mat5: "Celestine",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "High Allagan Chimera Leather",
         mat5: "Celestine",
         mat6: "2 Varnish",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "Housing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
     {
         level: "60★★",
@@ -386,7 +355,6 @@ const tasks = [
         mat4: "Farreach Canvas",
         mat5: "Celestine",
         mat6: "Astral Oil",
-        catalysts: "2 Wind Cluster, 2 Ice Cluster",
-        special: "H+A302:K333ousing (Tabletop), Unlocked w/ Master Carpenter III"
+        catalysts: "2 Wind Cluster, 2 Ice Cluster"
     },
 ];

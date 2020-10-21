@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Housing (Tabletop)"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "20",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Beeswax",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: "25",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Beeswax",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Shard, 2 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "2 Ice Shard, 2 Earth Shard"
     },
     {
         level: "29",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 2 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Ice Shard, 2 Earth Shard"
     },
     {
         level: "32",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "3 Ice Shard, 3 Earth Shard"
     },
     {
         level: "32",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 3 Earth Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "3 Ice Shard, 3 Earth Shard"
     },
     {
         level: "34",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Linseed Oil",
         mat5: "Ahriman Tears",
         mat6: "X",
-        catalysts: "4 Ice Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Ice Shard, 3 Earth Shard"
     },
     {
         level: "34",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Linseed Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Shard, 3 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "4 Ice Shard, 3 Earth Shard"
     },
     {
         level: "38",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "2 Tallow Candle",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Shard, 4 Earth Shard",
-        special: "Housing (Wall-mounted)"
+        catalysts: "4 Ice Shard, 4 Earth Shard"
     },
     {
         level: "46",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: "48",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "2 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "48",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Housing (Furnishing)"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "48",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Fine Wax",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Housing (Table)"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: "50★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Clear Glass Lens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Housing (Table)"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Frosted Glass Lens",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Cluster, Earth Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "8 Lavender Oil",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Tabletop)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Ruby",
         mat5: "Sapphire",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Glazenut",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Coke",
         mat5: "Glazenut",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Furnishing)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "3 Cobalt Plate",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Rug)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "50★★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Cluster, Earth Cluster",
-        special: "Housing (Rug)"
+        catalysts: "2 Ice Cluster, Earth Cluster"
     },
     {
         level: "54",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Shard, 7 Earth Shard",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Ice Shard, 7 Earth Shard"
     },
     {
         level: "66",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "6 Granite",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "66",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "3 Cedar Lumber",
         mat5: "2 Urushi",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: "77",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "77",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "Cobalt Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "77",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "80",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Tabletop)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "80",
@@ -361,8 +333,7 @@ const tasks = [
         mat4: "2 Bomb Ash",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Furnishing)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "80",
@@ -384,8 +355,7 @@ const tasks = [
         mat4: "Underground Spring Water",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Ice Crystal, 7 Earth Crystal",
-        special: "Housing (Wall-mounted)"
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
     },
     {
         level: "80",

@@ -14,8 +14,7 @@ const tasks = [
         mat4: "10 Roof Tile",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Roof)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "20",
         name: "Riviera Cottage Wall (Composite)",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "10 Iron Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "20",
         name: "Oasis Cottage Wall (Stone)",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "21",
         name: "Oasis Cottage Roof (Composite)",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "10 Mortar",
         mat5: "10 Roof Tile",
         mat6: "X",
-        catalysts: "8 Wind Shard, 4 Fire Shard",
-        special: "Housing (Roof)"
+        catalysts: "8 Wind Shard, 4 Fire Shard"
     }, {
         level: "21",
         name: "Glade Cottage Wall (Stone)",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "8 Wind Shard, 4 Fire Shard"
     }, {
         level: "21",
         name: "Oasis Cottage Wall (Composite)",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "5 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "8 Wind Shard, 4 Fire Shard"
     }, {
         level: "22",
         name: "Riviera Cottage Wall (Stone)",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "8 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "8 Wind Shard, 4 Fire Shard"
     }, {
         level: "24",
         name: "Oasis Placard",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Housing (Placard), Buyable"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     }, {
         level: "25",
         name: "Ceramic Tile Flooring",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Fire Shard",
-        special: "Housing (Flooring)"
+        catalysts: "2 Wind Shard, 2 Fire Shard"
     }, {
         level: "29",
         name: "Riviera Studded Door",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "2 Steel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 2 Fire Shard",
-        special: "Housing (Door)"
+        catalysts: "3 Wind Shard, 2 Fire Shard"
     }, {
         level: "30",
         name: "Oasis Classical Door",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "4 Walnut Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Door)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "30",
         name: "Oasis Stone Chimney",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Buyable, Housing (Roof Decoration)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "31",
         name: "Glade Classical Door",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Door)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "31",
         name: "Masonwork Interior Wall",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "31",
         name: "Masonwork Flooring",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Shard, 3 Fire Shard",
-        special: "Housing (Flooring)"
+        catalysts: "3 Wind Shard, 3 Fire Shard"
     }, {
         level: "31",
         name: "Riviera Roofed Wall",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Wind Shard, 12 Fire Shard",
-        special: "Housing (Fence), Buyable"
+        catalysts: "12 Wind Shard, 12 Fire Shard"
     }, {
         level: "32",
         name: "Glade Cobblestone Wall",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "20 Humus",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Wind Shard, 12 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "12 Wind Shard, 12 Fire Shard"
     }, {
         level: "33",
         name: "Straight Stepping Stones",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "33",
         name: "Curved Stepping Stones",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "34",
         name: "Mosaic Interior Wall",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 3 Fire Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "4 Wind Shard, 3 Fire Shard"
     }, {
         level: "35",
         name: "Oasis House Roof (Stone)",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "20 Roof Tiles",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Wind Shard, 12 Fire Shard",
-        special: "Housing (Roof)"
+        catalysts: "16 Wind Shard, 12 Fire Shard"
     }, {
         level: "36",
         name: "Riviera Wall Chimney",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "36",
         name: "Oasis Wall Chimney",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "3 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "36",
         name: "Riviera House Wall (Composite)",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "10 Steel Nails",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Wind Shard, 16 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "16 Wind Shard, 16 Fire Shard"
     }, {
         level: "36",
         name: "Oasis House Wall (Stone)",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "20 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Wind Shard, 16 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "16 Wind Shard, 16 Fire Shard"
     }, {
         level: "37",
         name: "Riviera Stone Chimney",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 4 Fire Shard",
-        special: "Buyable, Housing (Roof Decoration)"
+        catalysts: "4 Wind Shard, 4 Fire Shard"
     }, {
         level: "38",
         name: "Oasis House Roof (Composite)",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "20 Mortar",
         mat5: "20 Roof Tile",
         mat6: "X",
-        catalysts: "16 Wind Shard, 16 Fire Shard",
-        special: "Housing (Roof)"
+        catalysts: "16 Wind Shard, 16 Fire Shard"
     }, {
         level: "38",
         name: "Glade House Wall (Stone)",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "20 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Wind Shard, 16 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "16 Wind Shard, 16 Fire Shard"
     }, {
         level: "38",
         name: "Oasis House Wall (Composite)",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "10 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Wind Shard, 16 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "16 Wind Shard, 16 Fire Shard"
     }, {
         level: "39",
         name: "Riviera House Wall (Stone)",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "20 Wind Shard, 16 Fire Shard",
-        special: "Housing (Exterior Wall)"
+        catalysts: "20 Wind Shard, 16 Fire Shard"
     }, {
         level: "40",
         name: "Oasis Cobble Flooring",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Fire Shard",
-        special: "Housing (Flooring)"
+        catalysts: "5 Wind Shard, 4 Fire Shard"
     }, {
         level: "41",
         name: "Oasis Rounded Chimney",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "2 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Shard, 4 Fire Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "5 Wind Shard, 4 Fire Shard"
     }, {
         level: "43",
         name: "Oasis Stone Wall",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "25 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "20 Wind Shard, 20 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "20 Wind Shard, 20 Fire Shard"
     }, {
         level: "45",
         name: "Riviera Picket Wall",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "24 Wind Shard, 20 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "24 Wind Shard, 20 Fire Shard"
     }, {
         level: "46",
         name: "Oasis Hanging Placard",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Fire Shard",
-        special: "Housing (Placard)"
+        catalysts: "6 Wind Shard, 5 Fire Shard"
     }, {
         level: "47",
         name: "Cactuar Weathervane",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 5 Fire Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "6 Wind Shard, 5 Fire Shard"
     }, {
         level: "50",
         name: "Tiled Interior Wall",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing  (Interior Wall)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Tiled Flooring",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing  (Flooring)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Checkered Flooring",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing  (Flooring)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Amdapori Beacon",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Wind Shard, 6 Fire Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Wind Shard, 6 Fire Shard"
     }, {
         level: "50",
         name: "Riviera Stone Wall",
@@ -454,8 +414,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "24 Wind Shard, 24 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "24 Wind Shard, 24 Fire Shard"
     }, {
         level: "50",
         name: "Oasis Ornate Fence",
@@ -465,8 +424,7 @@ const tasks = [
         mat4: "30 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "24 Wind Shard, 24 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "24 Wind Shard, 24 Fire Shard"
     }, {
         level: "50★",
         name: "Star Chandelier",
@@ -476,8 +434,7 @@ const tasks = [
         mat4: "3 Brass Ingot",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Personal Astroscope",
@@ -487,8 +444,7 @@ const tasks = [
         mat4: "3 Cut Stone",
         mat5: "Clear Glass Lens",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Cragsoul Lamp",
@@ -498,8 +454,7 @@ const tasks = [
         mat4: "Frosted Glass Lens",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "5 Earth Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Earth Crystal"
     }, {
         level: "50★",
         name: "Oasis Mansion Roof (Composite)",
@@ -509,8 +464,7 @@ const tasks = [
         mat4: "30 Mortar",
         mat5: "30 Roof Tile",
         mat6: "10 Clinker Bricks",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Oasis Mansion Roof (Stone)",
@@ -520,8 +474,7 @@ const tasks = [
         mat4: "30 Roof Tile",
         mat5: "10 Clinker Bricks",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Riviera Mansion Wall (Composite)",
@@ -531,8 +484,7 @@ const tasks = [
         mat4: "10 Cobalt Nails",
         mat5: "10 Felt Lining",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Riviera Mansion Wall (Stone)",
@@ -542,8 +494,7 @@ const tasks = [
         mat4: "45 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Glade Mansion Wall (Stone)",
@@ -553,8 +504,7 @@ const tasks = [
         mat4: "30 Mortar",
         mat5: "10 Clinker Bricks",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Oasis Mansion Wall (Composite)",
@@ -564,8 +514,7 @@ const tasks = [
         mat4: "30 Granite",
         mat5: "15 Mortar",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Oasis Mansion Wall (Stone)",
@@ -575,8 +524,7 @@ const tasks = [
         mat4: "15 Granite",
         mat5: "30 Mortar",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "50★",
         name: "Oasis Fence",
@@ -586,8 +534,7 @@ const tasks = [
         mat4: "20 Marble",
         mat5: "X",
         mat6: "X",
-        catalysts: "28 Wind Shard, 24 Fire Shard",
-        special: "Housing (Fence)"
+        catalysts: "28 Wind Shard, 24 Fire Shard"
     }, {
         level: "50★★",
         name: "Marble Flooring",
@@ -597,8 +544,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Flooring)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Monochrome Flooring",
@@ -608,8 +554,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Flooring)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Sharlayan Flooring",
@@ -619,8 +564,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Flooring)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Illumination Module",
@@ -630,8 +574,7 @@ const tasks = [
         mat4: "ADS Frame",
         mat5: "2 Frosted Glass Lens",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Ceiling Light)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Pendant Lamp Planter",
@@ -641,8 +584,7 @@ const tasks = [
         mat4: "2 Growth Formula Delta Concentrate",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Crystal Glass, Wind Cluster, Fire Cluster",
-        special: "Housing (Ceiling Light)"
+        catalysts: "3 Crystal Glass, Wind Cluster, Fire Cluster"
     }, {
         level: "50★★",
         name: "Titanic Cragsoul Lamp",
@@ -652,8 +594,7 @@ const tasks = [
         mat4: "2 Frosted Glass Lens",
         mat5: "4 Tallow Candle",
         mat6: "X",
-        catalysts: "10 Earth Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "10 Earth Crystal"
     }, {
         level: "50★★",
         name: "Savage Arc of Triumph",
@@ -663,8 +604,7 @@ const tasks = [
         mat4: "4 Tourmaline",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Ice Chandelier",
@@ -674,8 +614,7 @@ const tasks = [
         mat4: "2 Darksteel Ingot",
         mat5: "2 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "12 Ice Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "12 Ice Crystal"
     }, {
         level: "50★★★",
         name: "Garden Pond",
@@ -685,8 +624,7 @@ const tasks = [
         mat4: "4 Terminus Putty",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Regal Letter Box",
@@ -696,8 +634,7 @@ const tasks = [
         mat4: "Ancient Lumber",
         mat5: "Undyed Woolen Cloth",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★★",
         name: "Diamond Chandelier",
@@ -707,8 +644,7 @@ const tasks = [
         mat4: "2 Wolfram Ingot",
         mat5: "3 Fieldcraft Demimateria III",
         mat6: "X",
-        catalysts: "14 Ice Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "14 Ice Crystal"
     }, {
         level: "53",
         name: "Stained Crystal Interior Wall",
@@ -718,8 +654,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "9 Crystal Glass, 4 Wind Crystal, 3 Fire Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "9 Crystal Glass, 4 Wind Crystal, 3 Fire Crystal"
     }, {
         level: "56",
         name: "Alpine Inner Wall",
@@ -729,8 +664,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     }, {
         level: "56",
         name: "Alpine Flooring",
@@ -740,8 +674,7 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Housing (Flooring)"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     }, {
         level: "61",
         name: "Hingan Awning (Nanpu)",
@@ -751,8 +684,7 @@ const tasks = [
         mat4: "3 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Hingan Hanging Bonbori Lamp",
@@ -762,8 +694,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "61",
         name: "Hingan Cottage Roof (Nanpu)",
@@ -773,8 +704,7 @@ const tasks = [
         mat4: "10 Iron Joint Plate",
         mat5: "10 Mortar",
         mat6: "X",
-        catalysts: "12 Wind Crystal, 8 Fire Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Wind Crystal, 8 Fire Crystal"
     }, {
         level: "63",
         name: "Hingan Watchtower (Nanpu)",
@@ -784,8 +714,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 3 Fire Crystal",
-        special: "Housing (Roof Decoration)"
+        catalysts: "4 Wind Crystal, 3 Fire Crystal"
     }, {
         level: "64",
         name: "Hingan House Roof (Nanpu)",
@@ -795,8 +724,7 @@ const tasks = [
         mat4: "15 Steel Joint Plate",
         mat5: "15 Mortar",
         mat6: "X",
-        catalysts: "16 Wind Crystal, 12 Fire Crystal",
-        special: "Housing (Roof)"
+        catalysts: "16 Wind Crystal, 12 Fire Crystal"
     }, {
         level: "66",
         name: "Hingan Chimney (Kura-zukuri)",
@@ -806,8 +734,7 @@ const tasks = [
         mat4: "3 Granite",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 4 Fire Crystal",
-        special: "Housing (Roof Decoration)"
+        catalysts: "5 Wind Crystal, 4 Fire Crystal"
     }, {
         level: "68",
         name: "Hingan Awning (Mokuzo)",
@@ -817,8 +744,7 @@ const tasks = [
         mat4: "3 Varnish",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Wind Crystal, 5 Fire Crystal",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "5 Wind Crystal, 5 Fire Crystal"
     }, {
         level: "68",
         name: "Hingan Mansion Roof (Nanpu)",
@@ -828,8 +754,7 @@ const tasks = [
         mat4: "20 Cobalt Joint Plate",
         mat5: "20 Mortar",
         mat6: "X",
-        catalysts: "20 Wind Crystal, 20 Fire Crystal",
-        special: "Housing (Roof)"
+        catalysts: "20 Wind Crystal, 20 Fire Crystal"
     }, {
         level: "76",
         name: "Crystarium Chandelier",
@@ -839,8 +764,7 @@ const tasks = [
         mat4: "4 Crystal Glass",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 6 Fire Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "7 Wind Crystal, 6 Fire Crystal"
     }, {
         level: "78",
         name: "Eulmoran Marble Flooring",
@@ -850,8 +774,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Flooring)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "78",
         name: "Eulmoran Chandelier",
@@ -861,8 +784,7 @@ const tasks = [
         mat4: "2 Petalite",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Ceiling Light)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "78",
         name: "Jeweler's Stall",
@@ -872,8 +794,7 @@ const tasks = [
         mat4: "4 Dwarven Mythril Nugget",
         mat5: "3 Titanbronze Nugget",
         mat6: "3 Petalite",
-        catalysts: "28 Wind Crystal, 28 Fire Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Wind Crystal, 28 Fire Crystal"
     }, {
         level: "80",
         name: "Rough Stone Interior Wall",
@@ -883,8 +804,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Interior Wall)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     }, {
         level: "80",
         name: "Rough Stone Flooring",
@@ -894,7 +814,6 @@ const tasks = [
         mat4: "4 Mortar",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Wind Crystal, 7 Fire Crystal",
-        special: "Housing (Flooring)"
+        catalysts: "7 Wind Crystal, 7 Fire Crystal"
     },
 ];

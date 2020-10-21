@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Buyable, Ingredient (ARM, BSM, CRP, GSM, WVR, ALC, FCC)"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "21",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "21",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "22",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "22",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "23",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, Ice Shard"
     },
     {
         level: "24",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "24",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Buyable, Ingredient (CRP), Levequest, Provisioning"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "24",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "25",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard",
-        special: "Buyable, Ingredient (ARM, ALC, BSM, GSM, LTW, CRP, CUL, WVR, FCC), Levequest"
+        catalysts: "2 Wind Shard"
     },
     {
         level: "25",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
     {
         level: "25",
@@ -146,7 +135,6 @@ const tasks = [
         mat4: "Jellyfish Humours",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Shard, 2 Ice Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "2 Wind Shard, 2 Ice Shard"
     },
 ];

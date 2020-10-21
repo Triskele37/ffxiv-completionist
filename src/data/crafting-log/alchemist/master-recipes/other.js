@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Water Crystal, Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist: Glamours\n"
+        catalysts: "Water Crystal, Lightning Crystal"
     },
     {
         level: "50★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Crystal, 2 Lightning Crystal",
-        special: "Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "3 Water Crystal, 2 Lightning Crystal"
     },
     {
         level: "50★★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Spoken Blood",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Shark Oil",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Shark Oil",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Uraeus Leather",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Crag Heart & Aqueous Whetstone",
         mat5: "Undyed Woolen Cloth",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Shark Oil",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Raptor Sinew",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "2 Wyvern Obsidian",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Amber",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Amber",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Inferno Horn",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Aspect: Fire, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Fire Crystal"
     },
     {
         level: "50★★★",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Vortex Feather",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Aspect: Wind, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Kingly Whisker",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★★",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Shark Oil",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "Kingly Whisker",
         mat5: "Growth Formula Delta",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★★",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Growth Formula Delta",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "Kingly Whisker",
         mat5: "Growth Formula Delta",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★★",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Inferno Horn",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Aspect: Fire, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Fire Crystal"
     },
     {
         level: "50★★★",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "Vortex Feather",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Aspect: Wind, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Wind Crystal"
     },
     {
         level: "50★★★",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "Kingly Whisker",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "50★★★",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
     {
         level: "50★★★",
@@ -314,7 +289,6 @@ const tasks = [
         mat4: "Crag Heart",
         mat5: "Cobalt Ingot",
         mat6: "X",
-        catalysts: "12 Earth Crystal",
-        special: "Aspect: Earth, Unlocked w/ Master Alchemist: Demimateria"
+        catalysts: "12 Earth Crystal"
     },
 ];

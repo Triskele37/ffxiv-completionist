@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Skysteel Frypan Required"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
     {
         level: "80★★",
@@ -26,7 +25,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "7 Fire Crystal, 7 Water Crystal",
-        special: "Skysteel Saw +1 Required"
+        catalysts: "7 Fire Crystal, 7 Water Crystal"
     },
 ];

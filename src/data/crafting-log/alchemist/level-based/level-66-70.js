@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (CRP), Provisioning"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "66",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (ALC, CRP, LTW, FCC), Levequest"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "67",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Enchanted Durium Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "67",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Enchanted Durium Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "67",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Fennel",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 4 Lightning Crystal",
-        special: "Levequest, Provisioning"
+        catalysts: "5 Water Crystal, 4 Lightning Crystal"
     },
     {
         level: "68",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal",
-        special: "Ingredient (ALC, GSM), Collectable, Trade, Levequest"
+        catalysts: "5 Water Crystal"
     },
     {
         level: "68",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 5 Lightning Crystal",
-        special: "Buyable, Collectable, Provisioning"
+        catalysts: "5 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "68",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Water Crystal, 5 Lightning Crystal",
-        special: "Buyable, Collectable, Levequest, Provisioning"
+        catalysts: "5 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "69",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Levequest, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster"
     },
     {
         level: "69",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster"
     },
     {
         level: "70",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Kudzu Root",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "70",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Kudzu Root",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Water Crystal, 5 Lightning Crystal",
-        special: "X"
+        catalysts: "6 Water Crystal, 5 Lightning Crystal"
     },
     {
         level: "70",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster"
     },
     {
         level: "70",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster"
     },
     {
         level: "70",
@@ -182,7 +168,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster",
-        special: "Collectable, Provisioning"
+        catalysts: "Ala Mhigan Salt Crystal, 2 Water Cluster, Lightning Cluster"
     },
 ];

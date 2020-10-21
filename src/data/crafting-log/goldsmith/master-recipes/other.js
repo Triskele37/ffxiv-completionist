@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Crystal, Fire Crystal",
-        special: "Buyable, Unlocked w/ Master Goldsmith: Glamours"
+        catalysts: "Wind Crystal, Fire Crystal"
     }, {
         level: "50★",
         name: "Mosshorn Earrings",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "10 Fieldcraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Rose Gold Earrings of Gathering",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★",
         name: "Rose Gold Choker",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Wind Crystal, 2 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "3 Wind Crystal, 2 Fire Crystal"
     }, {
         level: "50★★",
         name: "Thick-rimmed Glasses",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "2 Fieldcraft Demimateria II",
         mat5: "X",
         mat6: "X",
-        catalysts: "Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Plumes of the Vortex",
@@ -69,8 +64,7 @@ const tasks = [
         mat4: "3 Wolfram Ingot",
         mat5: "Electrum Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Cudgel",
@@ -80,8 +74,7 @@ const tasks = [
         mat4: "3 Ruby",
         mat5: "Mythril Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Rod",
@@ -91,8 +84,7 @@ const tasks = [
         mat4: "3 Ruby",
         mat5: "Mythril Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Van of the Vortex",
@@ -102,8 +94,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Jadeite",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Rapier",
@@ -113,8 +104,7 @@ const tasks = [
         mat4: "2 Wolfram Ingot",
         mat5: "2 Gold Ingot",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Honor of the Vortex",
@@ -124,8 +114,7 @@ const tasks = [
         mat4: "2 Wolfram Ingot",
         mat5: "2 Gold Ingot",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Manipulative Moggle Mogfoil",
@@ -135,8 +124,7 @@ const tasks = [
         mat4: "2 Wolfram Ingot",
         mat5: "2 Gold Ingot",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Wile of the Vortex",
@@ -146,8 +134,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Jadeite",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Heart of the Vortex",
@@ -157,8 +144,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Jadeite",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Inferno Star Globe",
@@ -168,8 +154,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Fire Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Fire Crystal"
     }, {
         level: "50★★★",
         name: "Lift of the Vortex",
@@ -179,8 +164,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "12 Wind Crystal",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "12 Wind Crystal"
     }, {
         level: "50★★★",
         name: "Moonlit Moggle Moglobe",
@@ -190,8 +174,7 @@ const tasks = [
         mat4: "3 Gold Ingot",
         mat5: "Enchanted Gold Ink",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Ruby Earrings",
@@ -201,8 +184,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Diamond Earrings",
@@ -212,8 +194,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emerald Earrings",
@@ -223,8 +204,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Topaz Earrings",
@@ -234,8 +214,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Iolite Earrings",
@@ -245,8 +224,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Sapphire Earrings",
@@ -256,8 +234,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Ruby Choker",
@@ -267,8 +244,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Diamond Choker",
@@ -278,8 +254,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emerald Choker",
@@ -289,8 +264,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Topaz Choker",
@@ -300,8 +274,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Iolite Choker",
@@ -311,8 +284,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Sapphire Choker",
@@ -322,8 +294,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Ruby Bracelet",
@@ -333,8 +304,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Diamond Bracelet",
@@ -344,8 +314,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emerald Bracelet",
@@ -355,8 +324,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Topaz Bracelet",
@@ -366,8 +334,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Iolite Bracelet",
@@ -377,8 +344,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Sapphire Bracelet",
@@ -388,8 +354,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Ruby Ring",
@@ -399,8 +364,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Diamond Ring",
@@ -410,8 +374,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Emerald Ring",
@@ -421,8 +384,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Topaz Ring",
@@ -432,8 +394,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Iolite Ring",
@@ -443,8 +404,7 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     }, {
         level: "50★★★",
         name: "Sapphire Ring",
@@ -454,7 +414,6 @@ const tasks = [
         mat4: "5 Battlecraft Demimateria I",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Wind Cluster, Fire Cluster",
-        special: "Unlocked w/ Master Goldsmith: Demimateria"
+        catalysts: "2 Wind Cluster, Fire Cluster"
     },
 ];

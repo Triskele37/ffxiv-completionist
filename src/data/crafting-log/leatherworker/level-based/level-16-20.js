@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "16",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "16",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "17",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard",
-        special: "Ingredient (LTW, WVR, BSM, GSM, ARM, CRP, ALC), Levequest"
+        catalysts: "Earth Shard"
     },
     {
         level: "17",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "17",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "17",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Levequest"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "17",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "18",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Levequest, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "18",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "18",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "19",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "19",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "19",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "20",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
     {
         level: "20",
@@ -194,7 +179,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Earth Shard, Wind Shard",
-        special: "Buyable, Provisioning"
+        catalysts: "Earth Shard, Wind Shard"
     },
 ];

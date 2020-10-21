@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     }, {
         level: "40",
         name: "Grade 2 Skybuilders' Crate",
@@ -25,8 +24,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Shard, 2 Ice Shard",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Shard, 2 Ice Shard"
     }, {
         level: "60",
         name: "Grade 2 Skybuilders' Grindstone",
@@ -36,8 +34,7 @@ const tasks = [
         mat4: "Titanium Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "70",
         name: "Grade 2 Skybuilders' Stepladder",
@@ -47,8 +44,7 @@ const tasks = [
         mat4: "Oroshigane Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "80",
         name: "Grade 2 Skybuilders' Bed",
@@ -58,8 +54,7 @@ const tasks = [
         mat4: "Pixie Cotton",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Crystal, 2 Ice Crystal",
-        special: "Ishgard, Collectable"
+        catalysts: "4 Wind Crystal, 2 Ice Crystal"
     }, {
         level: "80★★★",
         name: "Grade 2 Artisanal Skybuilders' Wardrobe",
@@ -69,7 +64,6 @@ const tasks = [
         mat4: "10 Approved Grade 2 Artisanal Skybuildres' Hardened Sap",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Wind Cluster, 2 Ice Cluster",
-        special: "Ishgard, Collectable, Expert Craft"
+        catalysts: "4 Wind Cluster, 2 Ice Cluster"
     },
 ];

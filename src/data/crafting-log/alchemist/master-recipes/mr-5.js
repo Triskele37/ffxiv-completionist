@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist V, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "70★",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist V, Orchestrion Roll"
+        catalysts: "2 Water Cluster, Lightning Cluster"
     },
     {
         level: "70★★",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Rhea Cloth",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Water Cluster, 3 Lightning Cluster",
-        special: "Housing (Wall-mounted), Unlocked w/ Master Alchemist V"
+        catalysts: "3 Water Cluster, 3 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Everborn Aethersand",
         mat5: "Everdeep Aethersand",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, GSM, ARM, CRP), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, ARM, GSM, CRP, LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, GSM, CRP, LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (BSM, GSM, ARM, CRP, LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ALC, GSM, CRP, LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "Dawnlight Aethersand",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Ingredient (ALC, GSM, CRP, LTW, WVR), Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "Grade 2 Reisui of Intelligence",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "Enchanted Palladium Ink",
         mat5: "3 Everborn Aethersand",
         mat6: "Grade 2 Reisui of Mind",
-        catalysts: "2 Water Cluster, 2 Lightning Cluster",
-        special: "Unlocked w/ Master Alchemist V"
+        catalysts: "2 Water Cluster, 2 Lightning Cluster"
     },
     {
         level: "70★★",
@@ -158,7 +146,6 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "30 Water Shard, 30 Lightning Shard",
-        special: "Mount, Unlocked w/ Master Alchemist V"
+        catalysts: "30 Water Shard, 30 Lightning Shard"
     },
 ];

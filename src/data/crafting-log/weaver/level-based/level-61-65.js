@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal",
-        special: "Ingredient (WVR, CRP, BSM, LTW, ARM, GSM, FCC)"
+        catalysts: "3 Lightning Crystal"
     },
     {
         level: "61",
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal",
-        special: "Ingredient (WVR, LTW, ARM, GSM)"
+        catalysts: "3 Lightning Crystal"
     },
     {
         level: "61",
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "Triphane",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "Electrum Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "5 Crow Feathers",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "5 Cock Feathers",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "Rose Gold Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "Silver Ingot",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "61",
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 2 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 2 Wind Crystal"
     },
     {
         level: "62",
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal",
-        special: "Ingredient (BSM, LTW, ARM, WVR, CRP), Levequest"
+        catalysts: "3 Lightning Crystal"
     },
     {
         level: "62",
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal",
-        special: "Ingredient (LTW, WVR, GSM, CRP, ARM)"
+        catalysts: "3 Lightning Crystal"
     },
     {
         level: "62",
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "62",
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "3 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -374,8 +344,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -386,8 +355,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -398,8 +366,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -410,8 +377,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -422,8 +388,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -434,8 +399,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -446,8 +410,7 @@ const tasks = [
         mat4: "Koppranickel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "63",
@@ -458,8 +421,7 @@ const tasks = [
         mat4: "High Steel Nugget",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -470,8 +432,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal",
-        special: "Ingredient (GSM, ARM, WVR, CRP, BSM, LTW, FCC)"
+        catalysts: "4 Lightning Crystal"
     },
     {
         level: "64",
@@ -482,8 +443,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal",
-        special: "Ingredient (WVR, LTW, GSM), Levequest"
+        catalysts: "4 Lightning Crystal"
     },
     {
         level: "64",
@@ -494,8 +454,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -506,8 +465,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -518,8 +476,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -530,8 +487,7 @@ const tasks = [
         mat4: "Grade 1 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -542,8 +498,7 @@ const tasks = [
         mat4: "2 Grade 1 Reisui of Intelligence",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -554,8 +509,7 @@ const tasks = [
         mat4: "2 Grade 1 Reisui of Mind",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -566,8 +520,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -578,8 +531,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui of Dexterity",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -590,8 +542,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "64",
@@ -602,8 +553,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui of Mind",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 3 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 3 Wind Crystal"
     },
     {
         level: "65",
@@ -614,8 +564,7 @@ const tasks = [
         mat4: "Star Ruby",
         mat5: "3 Cock Feather",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -626,8 +575,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -638,8 +586,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -650,8 +597,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui Of Dexterity",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -662,8 +608,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui of Intelligence",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -674,8 +619,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui Of Mind",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Collectable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -686,8 +630,7 @@ const tasks = [
         mat4: "2 Halgai Mane",
         mat5: "Star Ruby",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -698,8 +641,7 @@ const tasks = [
         mat4: "Azurite",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -710,8 +652,7 @@ const tasks = [
         mat4: "Ruby Cotton Yarn",
         mat5: "2 Grade 1 Reisui Of Strength",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -722,8 +663,7 @@ const tasks = [
         mat4: "Tiger Leather",
         mat5: "2 Jadeite",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Provisioning"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
     {
         level: "65",
@@ -734,7 +674,6 @@ const tasks = [
         mat4: "Tiger Leather",
         mat5: "2 Jadeite",
         mat6: "X",
-        catalysts: "4 Lightning Crystal, 4 Wind Crystal",
-        special: "Buyable, Levequest"
+        catalysts: "4 Lightning Crystal, 4 Wind Crystal"
     },
 ];

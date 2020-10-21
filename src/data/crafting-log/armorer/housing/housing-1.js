@@ -14,8 +14,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Housing (Outdoor Furnishing)"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: 19,
@@ -26,8 +25,7 @@ const tasks = [
         mat4: "2 Elm Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "Ice Shard, Earth Shard",
-        special: "Buyable, Housing (Placard)"
+        catalysts: "Ice Shard, Earth Shard"
     },
     {
         level: 22,
@@ -38,8 +36,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Shard, Earth Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "2 Ice Shard, Earth Shard"
     },
     {
         level: 25,
@@ -50,8 +47,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "2 Ice Shard, 2 Earth Shard",
-        special: "Buyable, Housing (Placard)"
+        catalysts: "2 Ice Shard, 2 Earth Shard"
     },
     {
         level: 27,
@@ -62,8 +58,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 2 Earth Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "3 Ice Shard, 2 Earth Shard"
     },
     {
         level: 29,
@@ -74,8 +69,7 @@ const tasks = [
         mat4: "2 Limestone",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 2 Earth Shard",
-        special: "Housing (Door)"
+        catalysts: "3 Ice Shard, 2 Earth Shard"
     },
     {
         level: 29,
@@ -86,8 +80,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 2 Earth Shard",
-        special: "Housing (Flooring)"
+        catalysts: "3 Ice Shard, 2 Earth Shard"
     },
     {
         level: 30,
@@ -98,8 +91,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "3 Ice Shard, 3 Earth Shard",
-        special: "Ingredient (ARM), Housing (Outdoor Furnishing)"
+        catalysts: "3 Ice Shard, 3 Earth Shard"
     },
     {
         level: 34,
@@ -110,8 +102,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Shard, 3 Earth Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "4 Ice Shard, 3 Earth Shard"
     },
     {
         level: 35,
@@ -122,8 +113,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Shard, 3 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "4 Ice Shard, 3 Earth Shard"
     },
     {
         level: 36,
@@ -134,8 +124,7 @@ const tasks = [
         mat4: "3 Limestone",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Shard, 4 Earth Shard",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "4 Ice Shard, 4 Earth Shard"
     },
     {
         level: 39,
@@ -146,8 +135,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Shard, 4 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "5 Ice Shard, 4 Earth Shard"
     },
     {
         level: 41,
@@ -158,8 +146,7 @@ const tasks = [
         mat4: "2 Steel Rivets",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Shard, 4 Earth Shard",
-        special: "Housing (Placard)"
+        catalysts: "5 Ice Shard, 4 Earth Shard"
     },
     {
         level: 43,
@@ -170,8 +157,7 @@ const tasks = [
         mat4: "2 Mahogany Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Shard, 5 Earth Shard",
-        special: "Housing (Placard)"
+        catalysts: "5 Ice Shard, 5 Earth Shard"
     },
     {
         level: 45,
@@ -182,8 +168,7 @@ const tasks = [
         mat4: "2 Rosewood Lumber",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Housing (Roof Decoration)"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: 45,
@@ -194,8 +179,7 @@ const tasks = [
         mat4: "Moggle Mog XII's Whisker",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: 46,
@@ -206,8 +190,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Housing (Interior Wall)"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: 46,
@@ -218,8 +201,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 5 Earth Shard",
-        special: "Housing (Flooring)"
+        catalysts: "6 Ice Shard, 5 Earth Shard"
     },
     {
         level: 49,
@@ -230,8 +212,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "6 Ice Shard, 6 Earth Shard",
-        special: "Housing (Ceiling Light)"
+        catalysts: "6 Ice Shard, 6 Earth Shard"
     },
     {
         level: 61,
@@ -242,8 +223,7 @@ const tasks = [
         mat4: "10 Iron Joint Plate",
         mat5: "10 Mortar",
         mat6: "X",
-        catalysts: "12 Ice Crystal, 8 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "12 Ice Crystal, 8 Earth Crystal"
     },
     {
         level: 61,
@@ -254,8 +234,7 @@ const tasks = [
         mat4: "10 Granite",
         mat5: "5 Clear Glass Lens",
         mat6: "X",
-        catalysts: "12 Ice Crystal, 8 Earth Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "12 Ice Crystal, 8 Earth Crystal"
     },
     {
         level: 63,
@@ -266,8 +245,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "4 Ice Crystal, 3 Earth Crystal",
-        special: "Housing (Window)"
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
     },
     {
         level: 63,
@@ -278,8 +256,7 @@ const tasks = [
         mat4: "15 Mudstone",
         mat5: "X",
         mat6: "X",
-        catalysts: "16 Ice Crystal, 12 Earth Crystal",
-        special: "Housing (Fence)"
+        catalysts: "16 Ice Crystal, 12 Earth Crystal"
     },
     {
         level: 64,
@@ -290,8 +267,7 @@ const tasks = [
         mat4: "15 Steel Joint Plate",
         mat5: "15 Mortar",
         mat6: "X",
-        catalysts: "16 Ice Crystal, 12 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "16 Ice Crystal, 12 Earth Crystal"
     },
     {
         level: 66,
@@ -302,8 +278,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 4 Earth Crystal",
-        special: "Housing (Exterior Wall Decoration)"
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
     },
     {
         level: 66,
@@ -314,8 +289,7 @@ const tasks = [
         mat4: "15 Granite",
         mat5: "10 Clear Glass Lens",
         mat6: "X",
-        catalysts: "20 Ice Crystal, 16 Earth Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "20 Ice Crystal, 16 Earth Crystal"
     },
     {
         level: 68,
@@ -326,8 +300,7 @@ const tasks = [
         mat4: "X",
         mat5: "X",
         mat6: "X",
-        catalysts: "5 Ice Crystal, 5 Earth Crystal",
-        special: "Housing (Placard)"
+        catalysts: "5 Ice Crystal, 5 Earth Crystal"
     },
     {
         level: 68,
@@ -338,8 +311,7 @@ const tasks = [
         mat4: "20 Cobalt Joint Plate",
         mat5: "20 Mortar",
         mat6: "X",
-        catalysts: "20 Ice Crystal, 20 Earth Crystal",
-        special: "Housing (Roof)"
+        catalysts: "20 Ice Crystal, 20 Earth Crystal"
     },
     {
         level: 68,
@@ -350,8 +322,7 @@ const tasks = [
         mat4: "20 Granite",
         mat5: "15 Clear Glass Lens",
         mat6: "X",
-        catalysts: "20 Ice Crystal, 20 Earth Crystal",
-        special: "Housing (Exterior Wall)"
+        catalysts: "20 Ice Crystal, 20 Earth Crystal"
     },
     {
         level: 78,
@@ -362,8 +333,7 @@ const tasks = [
         mat4: "4 Drawven Mythril Ingot",
         mat5: "4 Titanbronze Ingot",
         mat6: "2 Bluespirit Tile",
-        catalysts: "28 Ice Crystal, 28 Earth Crystal",
-        special: "Housing (Outdoor Furnishing)"
+        catalysts: "28 Ice Crystal, 28 Earth Crystal"
     },
     {
         level: "80",
