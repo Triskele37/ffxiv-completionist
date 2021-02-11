@@ -71,5 +71,11 @@ const tasks = [
 		name: "The Heroes' Gauntlet",
 		roulette: "Expert",
 		unlock: "The Converging Light"
+	}, {
+		level: "80",
+		iLvlReq: "470",
+		name: "Matoya's Relict",
+		roulette: "Expert",
+		unlock: "Like Master, Like Pupil"
 	}
 ];

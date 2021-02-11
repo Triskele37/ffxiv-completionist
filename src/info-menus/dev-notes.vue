@@ -12,6 +12,7 @@
 
         <h3>Features being considered, planned, or worked on</h3>
         <ul>
+            <li>A tool to enter data temporarily when waiting for updates</li>
             <li>Further translation support</li>
             <li>Garland Tools & Teamcraft integration with crafting recipe groups</li>
             <li>Manual task entry section for the time between patch and app updates</li>

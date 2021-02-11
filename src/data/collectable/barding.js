@@ -118,6 +118,12 @@ const tasks = [
         "patch": "3.2"
     },
     {
+        "name_en": "Emerald Barding",
+        "category": "Crafting",
+        "source": "Crafted by Armorer",
+        "patch": "5.4"
+    },
+    {
         "name_en": "Expanse Barding",
         "category": "Crafting / Deep Dungeon",
         "source": "Crafted by Armorer / Heaven-on-High",
@@ -314,6 +320,12 @@ const tasks = [
         "category": "Achievement",
         "source": "Breaking Bo",
         "patch": "2.3"
+    },
+    {
+        "name_en": "Queen's Guard Barding",
+        "category": "Bozja",
+        "source": "Delubrum Reginae",
+        "patch": "5.45"
     },
     {
         "name_en": "Race Barding",

@@ -358,6 +358,17 @@ const tasks = [
     },
     {
         "difficulty": "★★★",
+        "name_en": "Droyn",
+        "zone": "Ul'dah - Steps of Thal",
+        "location": "Onyx Lane (11.8,13.0)",
+        "rules": "Same, Descension",
+        "drops": "Azulmagia, Siegfried",
+        "preRequisite": "Quest: Blue Cheese (Level 60 Blue Mage Job Quest)",
+        "fee": "15",
+        "patch": "5.45"
+    },
+    {
+        "difficulty": "★★★",
         "name_en": "Eo Sigun",
         "zone": "Il Mheg",
         "location": "Pla Enni (22.2,3.6)",
@@ -622,6 +633,17 @@ const tasks = [
     },
     {
         "difficulty": "★★★★",
+        "name_en": "Arsieu",
+        "zone": "???",
+        "location": "Gangos (5.9,6.6)",
+        "rules": "Ascension, Plus",
+        "drops": "Adrammelech, Dawon",
+        "preRequisite": "Quest: The Lady of Blades (Level 80 Side Story Quest)",
+        "fee": "35",
+        "patch": "5.35"
+    },
+    {
+        "difficulty": "★★★★",
         "name_en": "Buscarron",
         "zone": "South Shroud",
         "location": "Buscarron's Druthers (18.1,19.8)",
@@ -817,6 +839,17 @@ const tasks = [
         "preRequisite": "Quest: Honoring the Past (Level 56 Ishgard Sidequest)",
         "fee": "30",
         "patch": "3.1"
+    },
+    {
+        "difficulty": "★★★★",
+        "name_en": "Lewto-Sue",
+        "zone": "Amh Araeng",
+        "location": "Mord Suuq (26,16)",
+        "rules": "Fallen Ace, Plus",
+        "drops": "Gaia, Ryne",
+        "preRequisite": "Quest: Where I Belong (Level 80 Chronicles of a New Era Quest)",
+        "fee": "25",
+        "patch": "5.4"
     },
     {
         "difficulty": "★★★★",

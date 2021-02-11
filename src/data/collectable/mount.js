@@ -136,6 +136,12 @@ const tasks = [
         "patch": "3.25"
     },
     {
+        "name_en": "Big Shell",
+        "category": "Skybuilders",
+        "source": "8,400 Skybuilders' Scrips",
+        "patch": "5.41"
+    },
+    {
         "name_en": "Black Chocobo",
         "category": "Quest",
         "source": "Divine Intervention",
@@ -196,6 +202,12 @@ const tasks = [
         "patch": "4.0"
     },
     {
+        "name_en": "Cerberus",
+        "category": "Achievement",
+        "source": "Savage Queen of Swords I",
+        "patch": "5.45"
+    },
+    {
         "name_en": "Ceremony Chocobo",
         "category": "Quest",
         "source": "The Ties That Bind",
@@ -206,6 +218,12 @@ const tasks = [
         "category": "Premium",
         "source": "Final Fantasy XIV Online Store",
         "patch": "5.3"
+    },
+    {
+        "name_en": "Chocorpokkur",
+        "category": "Premium",
+        "source": "Lawson Promotion (Japan Only)",
+        "patch": "5.4"
     },
     {
         "name_en": "Circus Ahriman",
@@ -236,6 +254,18 @@ const tasks = [
         "category": "Quest",
         "source": "My Little Chocobo (Immortal Flames) / My Little Chocobo (Maelstrom) / My Little Chocobo (Twin Adder)",
         "patch": "2.0"
+    },
+    {
+        "name_en": "Construct 14",
+        "category": "Bozja",
+        "source": "180 Bozjan Clusters",
+        "patch": "5.35"
+    },
+    {
+        "name_en": "Construct VI-S",
+        "category": "Purchase",
+        "source": "600 Faux Leaves",
+        "patch": "5.4"
     },
     {
         "name_en": "Construct VII",
@@ -292,6 +322,12 @@ const tasks = [
         "patch": "2.3"
     },
     {
+        "name_en": "Eden",
+        "category": "Raid",
+        "source": "Eden's Promise: Eternity (Savage)",
+        "patch": "5.4"
+    },
+    {
         "name_en": "Eggshilaration System",
         "category": "Event / Premium",
         "source": "Hatching-tide (2017) / Final Fantasy XIV Online Store",
@@ -308,6 +344,12 @@ const tasks = [
         "category": "Eureka",
         "source": "Happy Bunny Lockbox - Eureka Pyros",
         "patch": "4.45"
+    },
+    {
+        "name_en": "Emerald Gwiber",
+        "category": "Trial",
+        "source": "Castrum Marinum (Extreme)",
+        "patch": "5.4"
     },
     {
         "name_en": "Enbarr",
@@ -404,6 +446,18 @@ const tasks = [
         "category": "Purchase",
         "source": "3,200 Sacks of Nuts",
         "patch": "5.1"
+    },
+    {
+        "name_en": "Gabriel α",
+        "category": "Bozja",
+        "source": "Southern Front Lockbox",
+        "patch": "5.35"
+    },
+    {
+        "name_en": "Gabriel Mark III",
+        "category": "Bozja",
+        "source": "Delubrum Reginae",
+        "patch": "5.45"
     },
     {
         "name_en": "Gilded Magitek Armor",
@@ -790,6 +844,12 @@ const tasks = [
         "patch": "4.31"
     },
     {
+        "name_en": "Prototype Roader",
+        "category": "Feast",
+        "source": "The Feast: Season 17",
+        "patch": "5.4"
+    },
+    {
         "name_en": "Pteranodon",
         "category": "Achievement",
         "source": "Castle in the Sky",
@@ -914,6 +974,12 @@ const tasks = [
         "category": "Premium",
         "source": "Final Fantasy XIV Online Store",
         "patch": "2.38"
+    },
+    {
+        "name_en": "Snowman",
+        "category": "Event",
+        "source": "Starlight Celebration (2020)",
+        "patch": "5.4"
     },
     {
         "name_en": "Sophic Lanner",

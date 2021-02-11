@@ -67,60 +67,110 @@ const tasks = [
     	roulette: "Alliance Raids",
     	unlock: "On the Threshold"
     },
-    //------------------------------------------------------- Tier 2
-    {
-    	level: "80",
-    	iLvlReq: "455",
-    	name: "Eden's Verse: Fulmination",
-    	roulette: "Normal Raids",
-    	unlock: "Blood and Thunder"
-    }, {
-    	level: "80",
-    	iLvlReq: "455",
-    	name: "Eden's Verse: Furor",
-    	roulette: "Normal Raids",
-    	unlock: "Into the Firestorm"
-    }, {
-    	level: "80",
-    	iLvlReq: "455",
-    	name: "Eden's Verse: Iconoclasm",
-    	roulette: "Normal Raids",
-    	unlock: "Heart of Darkness"
-    }, {
-    	level: "80",
-    	iLvlReq: "455",
-    	name: "Eden's Verse: Refulgence",
-    	roulette: "Normal Raids",
-    	unlock: "On Thin Ice"
-    }, {
-    	level: "80",
-    	iLvlReq: "470",
-    	name: "Eden's Verse: Fulmination (Savage)",
-    	roulette: "-",
-    	unlock: "On Thin Ice"
-    }, {
-    	level: "80",
-    	iLvlReq: "475",
-    	name: "Eden's Verse: Furor (Savage)",
-    	roulette: "-",
-    	unlock: "On Thin Ice"
-    }, {
-    	level: "80",
-    	iLvlReq: "480",
-    	name: "Eden's Verse: Iconoclasm (Savage)",
-    	roulette: "-",
-    	unlock: "On Thin Ice"
-    }, {
-    	level: "80",
-    	iLvlReq: "480",
-    	name: "Eden's Verse: Refulgence (Savage)",
-    	roulette: "-",
-    	unlock: "On Thin Ice"
-    }, {
+	//------------------------------------------------------- Tier 2
+	{
+		level: "80",
+		iLvlReq: "455",
+		name: "Eden's Verse: Fulmination",
+		roulette: "Normal Raids",
+		unlock: "Blood and Thunder"
+	}, {
+		level: "80",
+		iLvlReq: "455",
+		name: "Eden's Verse: Furor",
+		roulette: "Normal Raids",
+		unlock: "Into the Firestorm"
+	}, {
+		level: "80",
+		iLvlReq: "455",
+		name: "Eden's Verse: Iconoclasm",
+		roulette: "Normal Raids",
+		unlock: "Heart of Darkness"
+	}, {
+		level: "80",
+		iLvlReq: "455",
+		name: "Eden's Verse: Refulgence",
+		roulette: "Normal Raids",
+		unlock: "On Thin Ice"
+	}, {
+		level: "80",
+		iLvlReq: "470",
+		name: "Eden's Verse: Fulmination (Savage)",
+		roulette: "-",
+		unlock: "On Thin Ice"
+	}, {
+		level: "80",
+		iLvlReq: "475",
+		name: "Eden's Verse: Furor (Savage)",
+		roulette: "-",
+		unlock: "On Thin Ice"
+	}, {
+		level: "80",
+		iLvlReq: "480",
+		name: "Eden's Verse: Iconoclasm (Savage)",
+		roulette: "-",
+		unlock: "On Thin Ice"
+	}, {
+		level: "80",
+		iLvlReq: "480",
+		name: "Eden's Verse: Refulgence (Savage)",
+		roulette: "-",
+		unlock: "On Thin Ice"
+	}, {
 		level: "80",
 		iLvlReq: "465",
 		name: "The Puppets' Bunker",
 		roulette: "Alliance Raids",
 		unlock: "Everything You Know Is Wrong"
+	},
+	//------------------------------------------------------- Tier 3
+	{
+		level: "80",
+		iLvlReq: "485",
+		name: "Eden's Promise: Umbra",
+		roulette: "Normal Raids",
+		unlock: "Fear of the Dark"
+	}, {
+		level: "80",
+		iLvlReq: "485",
+		name: "Eden's Promise: Litany",
+		roulette: "Normal Raids",
+		unlock: "Shadows of the Past"
+	}, {
+		level: "80",
+		iLvlReq: "485",
+		name: "Eden's Promise: Anamorphosis",
+		roulette: "Normal Raids",
+		unlock: "Voice of the Soul"
+	}, {
+		level: "80",
+		iLvlReq: "485",
+		name: "Eden's Promise: Eternity",
+		roulette: "Normal Raids",
+		unlock: "Voice of the Soul"
+	}, {
+		level: "80",
+		iLvlReq: "500",
+		name: "Eden's Promise: Umbra (Savage)",
+		roulette: "-",
+		unlock: "Where I Belong"
+	}, {
+		level: "80",
+		iLvlReq: "505",
+		name: "Eden's Promise: Litany (Savage)",
+		roulette: "-",
+		unlock: "Where I Belong"
+	}, {
+		level: "80",
+		iLvlReq: "510",
+		name: "Eden's Promise: Anamorphosis (Savage)",
+		roulette: "-",
+		unlock: "Where I Belong"
+	}, {
+		level: "80",
+		iLvlReq: "510",
+		name: "Eden's Promise: Eternity (Savage)",
+		roulette: "-",
+		unlock: "Where I Belong"
 	}
 ];

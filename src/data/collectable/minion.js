@@ -46,6 +46,12 @@ const tasks = [
         "patch": "5.3"
     },
     {
+        "name_en": "Amaro Hatchling",
+        "category": "FATE",
+        "source": "400 Bicolor Gemstones (The Crystarium)",
+        "patch": "5.4"
+    },
+    {
         "name_en": "Ancient One",
         "category": "Dungeon",
         "source": "Anamnesis Anyder",
@@ -388,6 +394,12 @@ const tasks = [
         "patch": "5.15"
     },
     {
+        "name_en": "Dáinsleif F1",
+        "category": "Bozja",
+        "source": "Southern Front Lockbox",
+        "patch": "5.35"
+    },
+    {
         "name_en": "Damona",
         "category": "Event",
         "source": "Yo-kai Watch (2020)",
@@ -464,6 +476,12 @@ const tasks = [
         "category": "Dungeon",
         "source": "Kugane Castle",
         "patch": "4.0"
+    },
+    {
+        "name_en": "Drippy",
+        "category": "Dungeon",
+        "source": "Matoya's Relict",
+        "patch": "5.4"
     },
     {
         "name_en": "Dust Bunny",
@@ -602,6 +620,12 @@ const tasks = [
         "category": "Quest",
         "source": "If I Could Turn Back Time",
         "patch": "3.5"
+    },
+    {
+        "name_en": "Golden Beaver",
+        "category": "Treasure Hunt",
+        "source": "The Shifting Oubliettes Of Lyhe Ghiah",
+        "patch": "5.4"
     },
     {
         "name_en": "Gold Rush Minecart",
@@ -826,6 +850,12 @@ const tasks = [
         "patch": "4.0"
     },
     {
+        "name_en": "Magitek Helldiver F1",
+        "category": "Bozja",
+        "source": "Castrum Lacus Litore",
+        "patch": "5.35"
+    },
+    {
         "name_en": "Malone",
         "category": "Achievement",
         "source": "Gathering in the Air",
@@ -974,6 +1004,12 @@ const tasks = [
         "category": "Event / Premium",
         "source": "Hatching-tide (2018) / Final Fantasy XIV Online Store",
         "patch": "4.2"
+    },
+    {
+        "name_en": "Much-coveted Mora",
+        "category": "Achievement",
+        "source": "On a Boat IV",
+        "patch": "5.4"
     },
     {
         "name_en": "Mudpie",
@@ -1198,6 +1234,12 @@ const tasks = [
         "patch": "5.3"
     },
     {
+        "name_en": "Save the Princess",
+        "category": "",
+        "source": "",
+        "patch": "5.45"
+    },
+    {
         "name_en": "Scarlet Peacock",
         "category": "Crafting",
         "source": "Crafted by Weaver",
@@ -1292,6 +1334,12 @@ const tasks = [
         "category": "Treasure Hunt",
         "source": "The Dungeons of Lyhe Ghiah",
         "patch": "5.2"
+    },
+    {
+        "name_en": "Syldrion-class Insubmersible",
+        "category": "Voyages",
+        "source": "Subaquatic Voyages - Sea of Jade 4",
+        "patch": "5.4"
     },
     {
         "name_en": "Taoist Moogle",
@@ -1418,6 +1466,12 @@ const tasks = [
         "category": "Purchase",
         "source": "440 Allied Seals",
         "patch": "2.3"
+    },
+    {
+        "name_en": "Trike",
+        "category": "Skybuilders",
+        "source": "Kupo of Fortune",
+        "patch": "5.41"
     },
     {
         "name_en": "Ugly Duckling",
@@ -1712,6 +1766,12 @@ const tasks = [
         "category": "Treasure Hunt",
         "source": "The Dungeons of Lyhe Ghiah",
         "patch": "5.05"
+    },
+    {
+        "name_en": "Wind-up Gaia",
+        "category": "Raid",
+        "source": "Eden's Promise: Eternity / Eden's Promise: Eternity (Savage)",
+        "patch": "5.4"
     },
     {
         "name_en": "Wind-up G'raha Tia",

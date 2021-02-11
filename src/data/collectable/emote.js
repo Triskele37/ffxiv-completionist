@@ -178,10 +178,22 @@ const tasks = [
         patch: "4.0"
     },
     {
+        name: "Eat Apple",
+        command: "/apple, /eatapple",
+        method: "Kupo of Fortune",
+        patch: "5.41"
+    },
+    {
         name: "Eat Bread",
         command: "/bread, /breakfast",
         method: "Kupo of Fortune",
         patch: "5.21"
+    },
+    {
+        name: "Eat Rice Ball",
+        command: "/riceball, /eatriceball",
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.41"
     },
     {
         name: "Elucidate",
@@ -256,6 +268,12 @@ const tasks = [
         patch: "4.2"
     },
     {
+        name: "Guard",
+        command: "/guard",
+        method: "50 Bozjan Clusters",
+        patch: "5.35"
+    },
+    {
         name: "Harvest Dance",
         command: "/harvestdance",
         method: "Quest: Saw That One Coming (Level 14 Black Shroud Sidequest)",
@@ -328,6 +346,12 @@ const tasks = [
         patch: "5.11"
     },
     {
+        name: "Malevolence",
+        command: "/malevolence",
+        method: "50 Bozjan Clusters",
+        patch: "5.45"
+    },
+    {
         name: "Manderville Dance",
         command: "/mandervilledance",
         method: "Quest: The Hammer (Level 50 Side Story Quest)",
@@ -362,6 +386,30 @@ const tasks = [
         command: "/hildy",
         method: "Quest: Her Last Vow (Level 50 Side Story Quest)",
         patch: "2.5"
+    },
+    {
+        name: "Paint It Black",
+        command: "/paintblack",
+        method: "The Shifting Oubliettes of Lyhe Ghiah",
+        patch: "5.4"
+    },
+    {
+        name: "Paint It Blue",
+        command: "/paintblue",
+        method: "The Shifting Oubliettes of Lyhe Ghiah",
+        patch: "5.4"
+    },
+    {
+        name: "Paint It Red",
+        command: "/paintred",
+        method: "The Shifting Oubliettes of Lyhe Ghiah",
+        patch: "5.4"
+    },
+    {
+        name: "Paint It Yellow",
+        command: "/paintyellow",
+        method: "The Shifting Oubliettes of Lyhe Ghiah",
+        patch: "5.4"
     },
     {
         name: "Play Dead",
@@ -460,6 +508,18 @@ const tasks = [
         patch: "4.4"
     },
     {
+        name: "Simulation F",
+        command: "/simulationf",
+        method: "",
+        patch: "5.4"
+    },
+    {
+        name: "Simulation M",
+        command: "/simulationm",
+        method: "",
+        patch: "5.4"
+    },
+    {
         name: "Sit-ups",
         command: "/situps",
         method: "Achievement: Dear Leader I",
@@ -514,6 +574,12 @@ const tasks = [
         patch: "4.35"
     },
     {
+        name: "Sweeep Up",
+        command: "/sweep, /broom",
+        method: "1,800 Skybuilders' Scrips",
+        patch: "5.41"
+    },
+    {
         name: "Thavnairian Dance",
         command: "/thavnairiandance",
         method: "80,000 MGP",
@@ -554,6 +620,12 @@ const tasks = [
         command: "/vpose",
         method: "Quest: A Spectacle for the Ages (Level 60 Main Scenario Quest)",
         patch: "3.2"
+    },
+    {
+        name: "Wasshoi",
+        command: "/wasshoi",
+        method: "",
+        patch: "5.4"
     },
     {
         name: "Water Flip",

@@ -5,6 +5,7 @@ export const Duty_Trials_ShB = function(parent) {
 };
 
 const tasks = [
+	//--------------------------------- Normal
     {
     	level: "73",
     	iLvlReq: "-",
@@ -41,6 +42,15 @@ const tasks = [
 		roulette: "Trials",
 		unlock: "Hope's Confluence"
 	}, {
+		level: "80",
+		iLvlReq: "485",
+		name: "Castrum Marinum",
+		boss: "Emerald Weapon",
+		roulette: "Trials",
+		unlock: "Blood of Emerald"
+	},
+	//--------------------------------- Extreme
+	{
     	level: "80",
     	iLvlReq: "430",
     	name: "The Dancing Plague (Extreme)",
@@ -84,9 +94,25 @@ const tasks = [
 		unlock: "Minstrel from Another Mother"
 	}, {
 		level: "80",
+		iLvlReq: "500",
+		name: "Castrum Marinum (Extreme)",
+		boss: "Emerald Weapon",
+		roulette: "-",
+		unlock: "Warmachina Fanatic"
+	},
+	//--------------------------------- Unreal
+	{
+		level: "80",
 		iLvlReq: "430",
 		name: "The Akh Afah Amphitheatre (Unreal)",
 		boss: "Shiva",
+		roulette: "-",
+		unlock: "Fantastic Mr. Faux"
+	}, {
+		level: "80",
+		iLvlReq: "430",
+		name: "The Navel (Unreal)",
+		boss: "Titan",
 		roulette: "-",
 		unlock: "Fantastic Mr. Faux"
 	}

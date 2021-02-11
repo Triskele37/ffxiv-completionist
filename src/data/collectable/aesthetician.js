@@ -38,6 +38,13 @@ const tasks = [
         "patch": "3.1"
     },
     {
+        "name_en": "Early to Rise",
+        "category": "Bozja",
+        "source": "Delubrum Reginae",
+        "gender": "Unisex",
+        "patch": "5.45"
+    },
+    {
         "name_en": "Eternal Bonding",
         "category": "Quest",
         "source": "The Ties That Bind (Level 1 Special Quest)",
@@ -164,6 +171,13 @@ const tasks = [
         "patch": "3.35"
     },
     {
+        "name_en": "Sharlayan Studies",
+        "category": "",
+        "source": "",
+        "gender": "Unisex",
+        "patch": "5.4"
+    },
+    {
         "name_en": "Strife",
         "category": "Limited",
         "source": "Community Events Reward",
@@ -176,6 +190,13 @@ const tasks = [
         "source": "18,000 Wolf Marks",
         "gender": "Unisex",
         "patch": "4.4"
+    },
+    {
+        "name_en": "Wind Caller",
+        "category": "Bozja",
+        "source": "150 Bozjan Clusters",
+        "gender": "Unisex",
+        "patch": "5.35"
     },
     {
         "name_en": "Bats",

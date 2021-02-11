@@ -12,7 +12,7 @@ const fs = require('fs');
 // ];
 
 const config = [
-    'level', 'name_en', 'zone', 'closestTeleport', 'coordinates', 'nodeTimer'
+    'number', 'name', 'coordinates', 'patch'
 ];
 
 const sheet = fs.readFileSync('scripts/sheet.txt', 'utf8');
