@@ -1,4 +1,5 @@
 const readline = require('readline');
+const logUpdate = require('log-update');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -6,17 +7,19 @@ const rl = readline.createInterface({
 
 const cacheCLI = require('./cli/cachePrompt');
 const compareCLI = require('./cli/comparePrompt');
-const updateCLI = require('./cli/updatePrompt');
+const importNewCLI = require('./cli/importNewPrompt');
 
 // Process entry point
 mainScreen();
 
 function mainScreen() {
+    logUpdate.clear();
+
     console.clear();
     rl.write('Welcome\n');
     rl.write('\n1. Cache');
     rl.write('\n2. Compare');
-    rl.write('\n3. Update');
+    rl.write('\n3. Import New');
     rl.write('\n4. Custom');
     rl.write('\n5. Exit\n');
 
@@ -24,7 +27,7 @@ function mainScreen() {
         switch(answer) {
             case '1': cacheCLI(rl, mainScreen); break;
             case '2': compareCLI(rl, mainScreen); break;
-            case '3': updateCLI(rl, mainScreen); break;
+            case '3': importNewCLI(rl, mainScreen); break;
             case '4': {
                 done();
                 break;

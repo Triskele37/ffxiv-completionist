@@ -14,6 +14,7 @@
         <ul>
             <li>Further translation support</li>
             <li>Garland Tools & Teamcraft integration with crafting recipe groups</li>
+            <li>Manual task entry section for the time between patch and app updates</li>
             <li>Auto-completion of related items</li>
             <li>Customizable themes</li>
         </ul>

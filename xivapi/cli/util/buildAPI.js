@@ -31,7 +31,7 @@ function dive(path, buildObj, config) {
             else if(!config.EXCLUDE_IDS.includes(item)) {
                 try {
                     const cachedFile = JSON.parse(fs.readFileSync(newPath));
-                    const staticFile = config.mapProperties(cachedFile, config);
+                    const staticFile = config.mapProperties(cachedFile);
                     buildObj.tasks.push(staticFile);
                 }
                 catch(e) {

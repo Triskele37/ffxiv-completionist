@@ -10,6 +10,7 @@ import { Quests_Main_Scenario_Stormblood } from "./stormblood";
 import { Quests_Main_Scenario_Post_Stormblood } from "./post-stormblood";
 import { Quests_Main_Scenario_Shadowbringers } from "./shadowbringers";
 import { Quests_Main_Scenario_Post_Shadowbringers } from "./post-shadowbringers";
+import { Quests_Main_Scenario_Post_Shadowbringers_II } from "./post-shadowbringers-ii";
 
 export const Quests_Main_Scenario = function(parent) {
     const data = new DataGroup("Main Scenario", parent);
@@ -27,6 +28,7 @@ export const Quests_Main_Scenario = function(parent) {
         Quests_Main_Scenario_Post_Stormblood,
         Quests_Main_Scenario_Shadowbringers,
         Quests_Main_Scenario_Post_Shadowbringers,
+        Quests_Main_Scenario_Post_Shadowbringers_II,
     ]);
 
     return data;

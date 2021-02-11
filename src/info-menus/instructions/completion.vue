@@ -25,7 +25,7 @@
 
         <h2>Calculations</h2>
         <p>Completion for any group is calculated as the percentage of total items completed of all child items of that group, excluding any items marked as "excluded"</p>
-        <p>Items are not currently weighted so completing TEA gains you the same progress as crafting an Oak Lumber</p>
+        <p>Items are not weighted so completing TEA gains you the same progress as crafting an Oak Lumber</p>
 
         <br/>
 

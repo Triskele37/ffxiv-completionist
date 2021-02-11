@@ -1,10 +1,12 @@
 <template>
     <div id="import-sheet-container">
         <div>
+            <p>This page helps you import your progress from the sheet into the app</p>
+
             <ol style="display: inline-block;">
                 <li>Open the tab you want to import from FFXIV Checklist</li>
                 <li>Copy the entire sheet in that tab (at minimum every cell with a background color)</li>
-                <li>Paste those contents into the text area below</li>
+                <li>Paste those contents into the tiny text area below</li>
                 <li>Results will be displayed when indicator icon stops pulsing</li>
             </ol>
 

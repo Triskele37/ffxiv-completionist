@@ -1,10 +1,9 @@
-const mapProperties = (apiObj, config) => {
+const mapProperties = (apiObj) => {
     let npc = {};
 
     try { npc = require(`../../cache/enpcresident/${apiObj.IssuerStart}`); }
     catch(e) { console.error(`Could not find NPC (${apiObj.IssuerStart}) for quest ${apiObj.ID}`); }
 
-    const additionalProperties = config.additionalProperties[apiObj.ID] || {};
     const reputation = !apiObj.BeastReputationRank ? {} : {
         "Reputation_de": apiObj.BeastReputationRank.Name_de,
         "Reputation_en": apiObj.BeastReputationRank.Name_en,
@@ -20,7 +19,6 @@ const mapProperties = (apiObj, config) => {
         "Name_ja": cleanName(apiObj.Name_ja),
         "Level": apiObj.ClassJobLevel0 + (apiObj.QuestLevelOffset ? apiObj.QuestLevelOffset : 0),
         "Order": apiObj.Order,
-        "SortKey": apiObj.SortKey, //TODO: different than Order?
 
         // Quest Giver
         "PlaceName": apiObj.PlaceName.Name,
@@ -29,8 +27,7 @@ const mapProperties = (apiObj, config) => {
         "Npc_fr": npc.Name_fr,
         "Npc_ja": npc.Name_ja,
 
-        ...reputation,
-        ...additionalProperties
+        ...reputation
     }
 };
 

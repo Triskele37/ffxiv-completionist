@@ -1,4 +1,4 @@
-const updateAPI = require('./util/updateAPI');
+const importNewAPI = require('./util/importNewAPI');
 
 const { AchievementConfig, AchievementBuild } = require('./Achievement');
 // const { ENpcResidentConfig, ENpcResidentBuild } = require('./ENpcResident');
@@ -9,7 +9,7 @@ const { QuestConfig, QuestBuild } = require('./Quest');
 
 module.exports = function updateCLI(rl, back) {
     console.clear();
-    rl.write('Update which static with API data?\n');
+    rl.write('Import new items from which static with API data?\n');
     rl.write('\n1. Achievement');
     rl.write('\n2. ENpcResident');
     rl.write('\n3. Item');
@@ -21,11 +21,11 @@ module.exports = function updateCLI(rl, back) {
         console.clear();
 
         switch(answer) {
-            case '1': updateAPI(AchievementConfig, AchievementBuild); break;
-            // case '2': updateAPI(ENpcResidentConfig, ENpcResidentBuild); break;
-            // case '3': updateAPI(ItemConfig, ItemBuild); break;
-            case '4': updateAPI(QuestConfig, QuestBuild);break;
-            // case '5': updateAPI(RecipeConfig, RecipeBuild); break;
+            case '1': importNewAPI(AchievementConfig, AchievementBuild); break;
+            // case '2': importNewAPI(ENpcResidentConfig, ENpcResidentBuild); break;
+            // case '3': importNewAPI(ItemConfig, ItemBuild); break;
+            case '4': importNewAPI(QuestConfig, QuestBuild);break;
+            // case '5': importNewAPI(RecipeConfig, RecipeBuild); break;
             default: back();
         }
 
@@ -34,6 +34,6 @@ module.exports = function updateCLI(rl, back) {
 
     function done() {
         rl.write('\n\n');
-        rl.question('Completed, press any key to continue...', back);
+        rl.question('Import Completed, press any key to continue...', back);
     }
 };

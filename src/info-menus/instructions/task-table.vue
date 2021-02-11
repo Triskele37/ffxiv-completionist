@@ -23,10 +23,6 @@
         <p>To the right of most items is a link to "Gamer Escape" and "Garland Tools"</p>
         <p>All these links do is fire a search at those sites, so not all items will come up with what you'd expect</p>
 
-        <br/>
-
-        <h4>Final Note</h4>
-        <p>Your currently selected group is saved when closing the app to help you pick up where you left off :D</p>
     </div>
 </template>
 

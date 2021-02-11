@@ -20,21 +20,26 @@ function dive(path, buildData) {
     if(buildData.tasks.length) {
         logUpdate(`\nComparing tasks for ${path}`);
 
-        const staticTasks = JSON.parse(fs.readFileSync(`${path}.json`, 'utf8'));
+        if(fs.existsSync(`${path}.json`)) {
+            const staticTasks = JSON.parse(fs.readFileSync(`${path}.json`, 'utf8'));
 
-        checkForDeprecatedTasks(buildData.tasks, staticTasks);
+            checkForDeprecatedTasks(buildData.tasks, staticTasks);
 
-        buildData.tasks.forEach((buildTask) => {
-            const staticTask = staticTasks.find((staticTask) => staticTask.ID === buildTask.ID);
+            buildData.tasks.forEach((buildTask) => {
+                const staticTask = staticTasks.find((staticTask) => staticTask.ID === buildTask.ID);
 
-            // Check for new tasks not in static
-            if(!staticTask) {
-                console.log(`\nNew task not in static: ${buildTask.ID}\n`);
-            }
-            else {
-                compareProperties(buildTask, staticTask, path);
-            }
-        });
+                // Check for new tasks not in static
+                if(!staticTask) {
+                    console.log(`New task not in static: ${buildTask.ID}\n`);
+                }
+                else {
+                    compareProperties(buildTask, staticTask, path);
+                }
+            });
+        }
+        else {
+            console.log(`New section`);
+        }
     }
 }
 
@@ -45,8 +50,8 @@ function checkForDeprecatedTasks(buildTasks, staticTasks) {
     staticTasks.forEach((staticTask) => {
         const buildTask = buildTasks.find((buildTask) => staticTask.ID === buildTask.ID);
 
-        if(!buildTask) {
-            console.log(`Deprecated task left in static: ${staticTask.ID}\n`);
+        if(!buildTask && staticTask.ID !== -1) {
+            console.log(`Deprecated task left in static: ${staticTask.ID}`);
         }
     });
 }

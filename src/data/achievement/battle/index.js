@@ -6,6 +6,7 @@ import { Achievements_Battle_Trials } from "./trials";
 import { Achievements_Battle_Raids } from "./raids";
 import { Achievements_Battle_The_Hunt } from "./the-hunt";
 import { Achievements_Battle_Treasure_Hunt } from "./treasure-hunt";
+import { Achievements_Battle_Field_Operations } from "./field-operations";
 
 export const Achievements_Battle = function(parent) {
     const data = new DataGroup("Battle", parent);
@@ -21,6 +22,7 @@ export const Achievements_Battle = function(parent) {
         Achievements_Battle_Raids,
         Achievements_Battle_The_Hunt,
         Achievements_Battle_Treasure_Hunt,
+        Achievements_Battle_Field_Operations,
     ]);
 
     return data;

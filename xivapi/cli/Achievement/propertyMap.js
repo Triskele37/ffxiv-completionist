@@ -20,7 +20,6 @@ const mapProperties = (apiObj) => {
         "Description_fr": apiObj.Description_fr,
         "Description_ja": apiObj.Description_ja,
         "Points": apiObj.Points,
-        "Order": apiObj.Order,
         ...reward
     };
 

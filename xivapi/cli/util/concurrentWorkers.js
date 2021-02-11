@@ -1,5 +1,5 @@
-const CONCURRENT_CALLS_MAX = 10;
-const CONCURRENT_CALL_TIMEOUT = 500;
+const CONCURRENT_CALLS_MAX = 5;
+const CONCURRENT_CALL_TIMEOUT = 1000;
 
 module.exports = async function concurrentWorkers(callback) {
     const workers = []; // The workers to await

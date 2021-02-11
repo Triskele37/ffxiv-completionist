@@ -1,17 +1,19 @@
 import { getPlayerStore } from "../index";
 
 export class ChangeStore {
-    constructor(version) {
+    constructor(version, isTesting) {
         console.log(`Migrating to ${version}`);
 
         if(!getPlayerStore().get('overall')) getPlayerStore().set('overall', {});
         this.store = getPlayerStore().get('overall');
         this.version = version;
+
+        this.isTesting = isTesting;
     }
 
     write() {
         getPlayerStore().set('overall', this.store);
-        getPlayerStore().set('version', this.version);
+        if(!this.isTesting) getPlayerStore().set('version', this.version);
     }
 
     // Change Helper when task is in same group
@@ -33,6 +35,32 @@ export class ChangeStore {
             if(this.dive(newPath) === null) console.error(`${newPath} does not exist, create it first`);
             this.dive(newPath)[key] = obj[key];
             delete obj[key];
+        }
+    }
+
+    // Change helper to move an entire group of tasks
+    moveGroup(oldPath, newPath) {
+        const obj = this.dive(oldPath);
+
+        if(obj) {
+            if(this.dive(newPath) === null) console.error(`${newPath} does not exist, create it first`);
+
+            // Get left/right of new path so assignment can take place
+            let newLeftHand = newPath.split('.');
+            const newRightHand = newLeftHand.pop();
+            newLeftHand = newLeftHand.join('.');
+
+            this.dive(newLeftHand)[newRightHand] = {
+                ...this.dive(newPath),
+                ...obj
+            };
+
+            // Get left/right of old path so deletion can take place
+            let oldLeftHand = oldPath.split('.');
+            const oldRightHand = oldLeftHand.pop();
+            oldLeftHand = oldLeftHand.join('.');
+
+            delete this.dive(oldLeftHand)[oldRightHand];
         }
     }
 

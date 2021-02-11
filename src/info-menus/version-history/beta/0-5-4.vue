@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Version 0.5.35 - (Beta)</h1>
+        <h1>Version 0.5.4 - (Beta)</h1>
 
         <h2>Functionality</h2>
         <ul>
@@ -12,7 +12,9 @@
         <h2>Data</h2>
         <ul>
             <li>Added 5.31 content</li>
-            <li>Merged all relic steps into a single table per expansion</li>
+            <li>Added 5.35 content</li>
+            <li>Added 5.4 content</li>
+            <li>Merged all relic steps into a single table per expansion (and type when it comes to skysteel)</li>
             <li>Spelling fixes</li>
         </ul>
     </div>
@@ -20,6 +22,6 @@
 
 <script>
     export default {
-        name: 'version-0-5-31',
+        name: 'version-0-5-4',
     }
 </script>

@@ -6,7 +6,7 @@
         <br/>
 
         <h2>Releases</h2>
-        <p>I tend to release the a week-ish after the sheet</p>
+        <p>Release times may vary</p>
         <p>Under the home menu there is a version history for the app, each new version will be added here</p>
         <p>The version of the app will reflect FFXIV's version in some way e.g. FFXIV 5.3 will correspond to app version 0.5.3</p>
 
