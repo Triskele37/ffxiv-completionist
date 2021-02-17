@@ -5,14 +5,9 @@
 
         <br/>
 
-        <h3>The Notes:</h3>
-        <p>Working on a way to hit XIVAPI to pull new data without breaking existing data (such as quests and achievements in 0.5.25)</p>
-
-        <br/>
-
         <h3>Features being considered, planned, or worked on</h3>
         <ul>
-            <li>A tool to enter data temporarily when waiting for updates</li>
+            <li>Methods of pulling data from XIVAPI while maintaining app data integrity</li>
             <li>Further translation support</li>
             <li>Garland Tools & Teamcraft integration with crafting recipe groups</li>
             <li>Manual task entry section for the time between patch and app updates</li>
@@ -26,10 +21,8 @@
         <ul>
             <li>Many ARR quests have the wrong level (please provide feedback to help, there is a lot of em)</li>
             <li>Achievements missing "Patch" column</li>
-            <li>"Unlock" column for many quests missing information</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
             <li>application is not code signed</li>
-            <li>Mount Speed tasks only allow a single mark when several speed upgrades can be received</li>
             <li>Fishing/Spearfishing Log only tracks being discovered, not completed</li>
             <li>Quest restrictions based on starting zone are not automatic</li>
         </ul>

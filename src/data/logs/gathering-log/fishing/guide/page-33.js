@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_33 = function(parent) {
+    return new DataGroup("Page 33", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Ondobane",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "Where the Dry Return",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Seatrap",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "Northwest Caliban Gorge",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Stargazer",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "Purpure",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Pancake Octopus",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "East Caliban Gap",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Predator",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "The Norvrandt Slope",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Ondo Harpoon",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "The Flounders' Floor",
+        "type": "Deep Sea",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Aapoak",
+        "iLvl": "420",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "West Caliban Gap",
+        "type": "Deep Sea",
+        "bait": "Ancient Shrimp"
+    },
+    {
+        "name": "Sweetmeat Mussel",
+        "iLvl": "440",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "Northwest Caliban Gorge",
+        "type": "Deep Sea",
+        "bait": "Squid Strip"
+    },
+    {
+        "name": "Loose Pendant",
+        "iLvl": "440",
+        "primeLocation": "The Crystarium",
+        "fishingHoles": "Crystarium Personal Suites",
+        "type": "Lakes",
+        "bait": "Box of Baitbugs"
+    },
+    {
+        "name": "Winged Dame",
+        "iLvl": "440",
+        "primeLocation": "Eulmore",
+        "fishingHoles": "The Derelicts",
+        "type": "Deep Sea",
+        "bait": "Squid Strip"
+    },
+    {
+        "name": "The Unforgiven",
+        "iLvl": "440",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Source",
+        "type": "Lakes",
+        "bait": "Box of Baitbugs"
+    },
+    {
+        "name": "Bronze Sole",
+        "iLvl": "440",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Sharptongue Drip",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "The Horned King",
+        "iLvl": "440",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The River of Sand",
+        "type": "Sands",
+        "bait": "Hornhelm"
+    },
+    {
+        "name": "The Sound of Fury",
+        "iLvl": "440",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Longmirror Lake",
+        "type": "Lakes",
+        "bait": "Box of Baitbugs"
+    },
+    {
+        "name": "Priest of Yx'Lokwa",
+        "iLvl": "440",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Eryops"
+    },
+    {
+        "name": "Starchaser",
+        "iLvl": "440",
+        "primeLocation": "The Tempest",
+        "fishingHoles": "Purpure",
+        "type": "Deep Sea",
+        "bait": "Squid Strip"
+    },
+    {
+        "name": "Laxan Inkhorn",
+        "iLvl": "290",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Source",
+        "type": "Lakes",
+        "bait": "Metal Spinner"
+    },
+    {
+        "name": "White Oil Perch",
+        "iLvl": "300",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "White Oil Falls",
+        "type": "Rivers",
+        "bait": "Metal Spinner"
+    },
+    {
+        "name": "Faeshine Clam",
+        "iLvl": "390",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Handmirror Lake",
+        "type": "Rivers",
+        "bait": "Metal Spinner"
+    },
+    {
+        "name": "Areng Dire",
+        "iLvl": "395",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The Nabaath Severance",
+        "type": "Sands",
+        "bait": "Metal Spinner"
+    },
+    {
+        "name": "Kholusian King Crab",
+        "iLvl": "400",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Western Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Metal Spinner"
+    },
+    {
+        "name": "The Jaws of Undeath",
+        "iLvl": "460",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Isle of Ken",
+        "type": "Deep Sea",
+        "bait": "Box of Baitbugs"
+    },
+    {
+        "name": "White Ronso",
+        "iLvl": "460",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Lower Watts River",
+        "type": "Deep Sea",
+        "bait": "Box of Baitbugs"
+    },
+    {
+        "name": "Ambling Caltrop",
+        "iLvl": "460",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The Hills of Amber",
+        "type": "Deep Sea",
+        "bait": "???"
+    },
+    {
+        "name": "Fae Rainbow",
+        "iLvl": "460",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "The Jealous One",
+        "type": "Deep Sea",
+        "bait": "Marble Nymph"
+    },
+];

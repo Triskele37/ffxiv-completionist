@@ -4,7 +4,12 @@
             v-for="task, index in tasks"
             :key="`${task.name}-${index}`"
         >
-            <completion-flag-cell :task="task" :flag="task.completionFlag" />
+            <template v-if="!task.isNumericCompletion">
+                <completion-flag-cell :task="task" :flag="task.completionFlag" />
+            </template>
+            <template v-else>
+                <completion-number-cell :task="task" :value="task.completionFlag"/>
+            </template>
 
             <td
                 class="data-cell"
@@ -23,6 +28,7 @@
 
 <script>
     import CompleteCell from './cell-types/CompleteCell';
+    import NumericCompleteCell from './cell-types/NumericCompleteCell';
     import ExternalCell from './cell-types/ExternalCell';
 
     export default {
@@ -32,6 +38,7 @@
             tasks: Array,
         },
         components: {
+            'completion-number-cell': NumericCompleteCell,
             'completion-flag-cell': CompleteCell,
             'external-cell': ExternalCell,
         }

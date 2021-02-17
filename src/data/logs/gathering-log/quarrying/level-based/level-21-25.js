@@ -1,0 +1,58 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Quarrying_Level_21_25 = function(parent) {
+    return new DataGroup("21-25", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "21",
+        name: "Earth Rock",
+        zone: "South Shroud",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
+        nodeTimer: ""
+    }, {
+        level: "22",
+        name: "Silver Sand",
+        zone: "South Shroud",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
+        nodeTimer: ""
+    }, {
+        level: "23",
+        name: "Fire Rock",
+        zone: "Upper La Noscea",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
+        nodeTimer: ""
+    }, {
+        level: "23",
+        name: "Ice Rock",
+        zone: "South Shroud",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
+        nodeTimer: ""
+    }, {
+        level: "24",
+        name: "Wind Rock",
+        zone: "South Shroud",
+        closestAetheryte: "Quarrymill",
+        coordinates: "(x23,y21)",
+        nodeTimer: ""
+    }, {
+        level: "24",
+        name: "Lightning Rock",
+        zone: "Upper La Noscea",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
+        nodeTimer: ""
+    }, {
+        level: "25",
+        name: "Water Rock",
+        zone: "Upper La Noscea",
+        closestAetheryte: "Aleport -> Upper La Noscea",
+        coordinates: "(x12,y23)",
+        nodeTimer: ""
+    },
+];

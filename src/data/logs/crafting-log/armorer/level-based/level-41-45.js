@@ -1,0 +1,382 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Armorer_Level_Based_41_45 = function(parent) {
+    return new DataGroup("41-45", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "41",
+        name: "Mythril Barbut",
+        mat1: "Mythril Ingot",
+        mat2: "Mythril Plate",
+        mat3: "Steel Plate",
+        mat4: "Mythril Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 4 Earth Shard"
+    },
+    {
+        level: "41",
+        name: "Mythril Vambraces",
+        mat1: "Mythril Plate",
+        mat2: "Peiste Leather",
+        mat3: "Boar Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard,  4 Earth Shard"
+    },
+    {
+        level: "41",
+        name: "Mythril-plated Jackboots",
+        mat1: "Mythril Ingot",
+        mat2: "Mythril Plate",
+        mat3: "Boar Leather",
+        mat4: "Hippogryph Sinew",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 4 Earth Shard"
+    },
+    {
+        level: "41",
+        name: "Vintage Scale Mail",
+        mat1: "Blackened Scale Mail",
+        mat2: "Iron Plate",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Crystal"
+    },
+    {
+        level: "42",
+        name: "Cobalt Ingot",
+        mat1: "2 Cobalt Ore",
+        mat2: "Iron Ore",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard"
+    },
+    {
+        level: "42",
+        name: "Electrum Alembic",
+        mat1: "Mythril Alembic",
+        mat2: "2 Electrum Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "42",
+        name: "Mythril Mesail",
+        mat1: "Mythril Plate",
+        mat2: "Mythril Rivets",
+        mat3: "Aldgoat Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "42",
+        name: "Mythril Chain Coif",
+        mat1: "Mythril Plate",
+        mat2: "2 Mythril Rings",
+        mat3: "Aldgoat Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "42",
+        name: "Mythril Haubergeon",
+        mat1: "Steel Plate",
+        mat2: "3 Mythril Rings",
+        mat3: "Aldgoat Leather",
+        mat4: "Undyed Woolen Cloth",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "42",
+        name: "Mythril-plated Caligae",
+        mat1: "Bronze Ingot",
+        mat2: "Mythril Plate",
+        mat3: "Mythril Rivets",
+        mat4: "Peiste Leather",
+        mat5: "Hippogryph Sinew",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "42",
+        name: "Mythril Sollerets",
+        mat1: "Mythril Plate",
+        mat2: "2 Mythril Rings",
+        mat3: "Aldgoat Leather",
+        mat4: "Hippogryph Sinew",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "Cobalt Plate",
+        mat1: "2 Cobalt Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard"
+    },
+    {
+        level: "43",
+        name: "Cobalt Rings",
+        mat1: "Cobalt Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard"
+    },
+    {
+        level: "43",
+        name: "Cobalt Skillet",
+        mat1: "Cobalt Plate",
+        mat2: "Mahogany Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "Mythril Mitt Gauntlets",
+        mat1: "Mythril Plate",
+        mat2: "Steel Plate",
+        mat3: "Mythril Rivets",
+        mat4: "Peiste Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "High Mythril Gauntlets",
+        mat1: "3 Mythril Plate",
+        mat2: "Mythril Rings",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "High Mythril Plate Belt",
+        mat1: "3 Mythril Plate",
+        mat2: "Peiste Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "High Mythril Flanchard",
+        mat1: "3 Mythril Ingot",
+        mat2: "2 Cobalt Rings",
+        mat3: "Raptor Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "43",
+        name: "Vintage Buckler",
+        mat1: "Notched Buckler",
+        mat2: "Mahogany Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Crystal"
+    },
+    {
+        level: "44",
+        name: "Cobalt Rivets",
+        mat1: "Cobalt Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard"
+    },
+    {
+        level: "44",
+        name: "Cobalt Joint Plate",
+        mat1: "Cobalt Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard"
+    },
+    {
+        level: "44",
+        name: "Cobalt Scutum",
+        mat1: "2 Cobalt Plate",
+        mat2: "3 Cobalt Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "44",
+        name: "Reinforced Mythril Elmo",
+        mat1: "Mythril Elmo",
+        mat2: "Mythril Rivets",
+        mat3: "Peiste Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "44",
+        name: "Altered Mythril Chain Coif",
+        mat1: "2 Cobalt Ingot",
+        mat2: "Mythril Rivets",
+        mat3: "Peiste Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "44",
+        name: "High Mythril Armor",
+        mat1: "Electrum Ingot",
+        mat2: "4 Mythril Plate",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "44",
+        name: "Altered High Mythril Armor",
+        mat1: "4 Mythril Plate",
+        mat2: "Electrum Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "44",
+        name: "Cobalt Vambraces",
+        mat1: "2 Cobalt Plate",
+        mat2: "Raptor Leather",
+        mat3: "Boar Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Cobalt Elmo",
+        mat1: "2 Cobalt Plate",
+        mat2: "3 Cobalt Rivets",
+        mat3: "Raptor Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Altered Cobalt Elmo",
+        mat1: "2 Cobalt Plate",
+        mat2: "Cobalt Rivets",
+        mat3: "Raptor Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Tortoiseshell Scale Mail",
+        mat1: "Cobalt Ingot",
+        mat2: "Raptor Leather",
+        mat3: "Boar Leather",
+        mat4: "Adamantoise Shell",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Tortoiseshell Scale Fingers",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Plate",
+        mat3: "Adamantoise Shell",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Cobalt-plated Jackboots",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Plate",
+        mat3: "Raptor Leather",
+        mat4: "Raptor Sinew",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Tortoiseshell Scale Greaves",
+        mat1: "Cobalt Ingot",
+        mat2: "2 Cobalt Plate",
+        mat3: "Adamantoise Shell",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "45",
+        name: "Vintage Kite Shield",
+        mat1: "Scarred Kite Shield",
+        mat2: "Aldgoat Leather",
+        mat3: "Mahogany Lumber",
+        mat4: "Siltstone Whetstone",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Crystal"
+    },
+];

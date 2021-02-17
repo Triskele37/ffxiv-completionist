@@ -5,21 +5,11 @@ export const Travel_Mount_Speed_Gyr_Abania = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "Rhalgr's Reach",
-    	increase1: "Stormblood (Quest)",
-    	increase2: "-"
-    }, {
-    	name: "The Fringes",
-    	increase1: "The Lady of Bliss",
-    	increase2: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)"
-    }, {
-    	name: "The Peaks",
-    	increase1: "The Price of Freedom",
-    	increase2: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)"
-    }, {
-    	name: "The Lochs",
-    	increase1: "The Resonant",
-    	increase2: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)"
-    },
+    { name: "Rhalgr's Reach", method: "Stormblood (Quest)" },
+	{ name: "The Fringes - 1", method: "The Lady of Bliss", },
+	{ name: "The Fringes - 2", method: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)" },
+	{ name: "The Peaks - 1", method: "The Price of Freedom", },
+	{ name: "The Peaks - 2", method: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)" },
+	{ name: "The Lochs - 1", method: "The Resonant", },
+	{ name: "The Lochs - 2", method: "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)" }
 ];

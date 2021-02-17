@@ -1,0 +1,261 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Leatherworker_Master_Recipes_Master_Recipes_5 = function(parent) {
+    return new DataGroup("Master Recipes (5)", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "70★★",
+        name: "True Griffin Leather",
+        mat1: "3 True Griffin Hide",
+        mat2: "Chromite Ore",
+        mat3: "2 Forbidden Wax",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Hat of Aiming",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Rhodonite",
+        mat4: "Eagle Feather",
+        mat5: "2 Everbright Aethersand",
+        mat6: "Grade 2 Reisui of Dexterity",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Hat of Casting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Triphane",
+        mat4: "Eagle Feather",
+        mat5: "2 Everbright Aethersand",
+        mat6: "Grade 2 Reisui of Intelligence",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Hat of Healing",
+        mat1: "2 True Griffin Leather",
+        mat2: "Rhea Cloth",
+        mat3: "Silk Thread",
+        mat4: "Triphane",
+        mat5: "2 Everbright Aethersand",
+        mat6: "Grade 2 Reisui of Mind",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Chestpiece of Striking",
+        mat1: "2 True Griffin Leather",
+        mat2: "Rhea Cloth",
+        mat3: "Chromite Ingot",
+        mat4: "2 Rhodonite",
+        mat5: "3 Everbright Aethersand",
+        mat6: "2 Grade 2 Reisui of Strength",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Chestpiece of Scouting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Rhea Cloth",
+        mat3: "Chromite Ingot",
+        mat4: "2 Triphane",
+        mat5: "3 Everbright Aethersand",
+        mat6: "2 Grade 2 Reisui of Dexterity",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Bracers of Striking",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Bracers of Scouting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Bracers of Aiming",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Gloves of Casting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Intelligence",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Gloves of Healing",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Mind",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Gloves of Crafting",
+        mat1: "2 Ala Mhigan Fiber",
+        mat2: "True Griffin Leather",
+        mat3: "2 Twinsilk",
+        mat4: "Kudzu Thread",
+        mat5: "2 Fieldcraft Demimateria III",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Gloves of Gathering",
+        mat1: "2 Ala Mhigan Fiber",
+        mat2: "True Griffin Leather",
+        mat3: "2 Twinsilk",
+        mat4: "Kudzu Thread",
+        mat5: "2 Fieldcraft Demimateria III",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Breeches of Fending",
+        mat1: "3 True Griffin Leather",
+        mat2: "Chromite Ingot",
+        mat3: "Silk Thread",
+        mat4: "3 Everdeep Aethersand",
+        mat5: "2 Grade 2 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Breeches of Maiming",
+        mat1: "3 True Griffin Leather",
+        mat2: "Chromite Ingot",
+        mat3: "Silk Thread",
+        mat4: "3 Everdeep Aethersand",
+        mat5: "2 Grade 2 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Breeches of Aiming",
+        mat1: "3 True Griffin Leather",
+        mat2: "Chromite Ingot",
+        mat3: "Silk Thread",
+        mat4: "3 Everdeep Aethersand",
+        mat5: "2 Grade 2 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Caligae of Striking",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Caligae of Scouting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everborn Aethersand",
+        mat5: "Grade 2 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Boots of Aiming",
+        mat1: "2 True Griffin Leather",
+        mat2: "Chromite Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everdeep Aethersand",
+        mat5: "Grade 2 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Sandals of Casting",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everdeep Aethersand",
+        mat5: "Grade 2 Reisui of Intelligence",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "True Griffin Sandals of Healing",
+        mat1: "2 True Griffin Leather",
+        mat2: "Palladium Ingot",
+        mat3: "Silk Thread",
+        mat4: "2 Everdeep Aethersand",
+        mat5: "Grade 2 Reisui of Mind",
+        mat6: "X",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Shoes of Crafting",
+        mat1: "2 Ala Mhigan Fiber",
+        mat2: "True Griffin Leather",
+        mat3: "2 Twinsilk",
+        mat4: "Kudzu Thread",
+        mat5: "Rubber",
+        mat6: "2 Fieldcraft Demimateria III",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Ala Mhigan Shoes of Gathering",
+        mat1: "2 Ala Mhigan Fiber",
+        mat2: "True Griffin Leather",
+        mat3: "2 Twinsilk",
+        mat4: "Kudzu Thread",
+        mat5: "Rubber",
+        mat6: "2 Fieldcraft Demimateria III",
+        catalysts: "2 Earth Cluster, 2 Wind Cluster"
+    },
+];

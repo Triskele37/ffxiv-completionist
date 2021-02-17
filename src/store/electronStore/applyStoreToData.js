@@ -18,7 +18,12 @@ function diveForLoad(currentGroup, currentStoreLayer) {
     if(currentGroup.tasks) {
         currentGroup.tasks.forEach((task) => {
             if(currentStoreLayer[task._storageKey]) {
-                task.changeCompletionFlag(currentStoreLayer[task._storageKey]);
+                if(!currentGroup.isNumericCompletion) {
+                    task.changeCompletionFlag(currentStoreLayer[task._storageKey]);
+                }
+                else {
+                    task.changeCompletionNumber(currentStoreLayer[task._storageKey]);
+                }
             }
         });
     }

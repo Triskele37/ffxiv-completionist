@@ -2,7 +2,7 @@ import { eStore, getPlayerStore } from "../index";
 import { migrate_0_to_5_21 } from "./0-5_21";
 import { migrate_5_21_to_5_25 } from "./5_21-5_25";
 import { migrate_5_25_to_5_3 } from "./5_25-5_3";
-import { migrate_5_3_to_5_4 } from "./5_3-5_4";
+import { migrate_5_3_to_5_45 } from "./5_3-5_45";
 
 export const migrateData = () => {
     const completionStore = getPlayerStore();
@@ -16,7 +16,7 @@ export const migrateData = () => {
     if(!completionStore.get('version')) migrate_0_to_5_21();
     if(completionStore.get('version') === '0.5.21') migrate_5_21_to_5_25();
     if(completionStore.get('version') === '0.5.25') migrate_5_25_to_5_3();
-    if(completionStore.get('version') === '0.5.3') migrate_5_3_to_5_4();
+    if(completionStore.get('version') === '0.5.3') migrate_5_3_to_5_45();
 };
 
 const moveCompletionStore = (completionStore) => {

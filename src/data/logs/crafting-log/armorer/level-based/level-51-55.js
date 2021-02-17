@@ -1,0 +1,393 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Armorer_Level_Based_51_55 = function(parent) {
+    return new DataGroup("51-55", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "51",
+        name: "Mythrite Nugget",
+        mat1: "Mythril Ore",
+        mat2: "5 Mythrite Sand",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Rivets",
+        mat1: "Mythrite Nugget",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Scutum",
+        mat1: "3 Mythrite Nugget",
+        mat2: "Mythrite Rivets",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sallet of Fending",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sallet of Maiming",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Hauberk of Fending",
+        mat1: "Electrum Ingot",
+        mat2: "4 Mythrite Nugget",
+        mat3: "Darksteel Rings",
+        mat4: "Archaeornis Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Hauberk of Maiming",
+        mat1: "Electrum Ingot",
+        mat2: "4 Mythrite Nugget",
+        mat3: "Darksteel Rings",
+        mat4: "Archaeornis Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Gauntlets of Fending",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Gauntlets of Maiming",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Tassets of Fending",
+        mat1: "2 Mythrite Nugget",
+        mat2: "Archaeornis Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Tassets of Maiming",
+        mat1: "2 Mythrite Nugget",
+        mat2: "Archaeornis Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sabatons of Fending",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "51",
+        name: "Mythrite Sabatons of Maiming",
+        mat1: "Electrum Ingot",
+        mat2: "3 Mythrite Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "52",
+        name: "Mythrite Ingot",
+        mat1: "Mythrite Nugget",
+        mat2: "4 Mythrite Ore",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal"
+    },
+    {
+        level: "52",
+        name: "Mythrite Alembic",
+        mat1: "3 Mythrite Nugget",
+        mat2: "Mythrite Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "52",
+        name: "Frypan Caliente",
+        mat1: "3 Mythrite Nugget",
+        mat2: "Mythrite Rivets",
+        mat3: "Cedar Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "53",
+        name: "Mythrite Bladed Lantern Shield",
+        mat1: "3 Mythrite Ingot",
+        mat2: "2 Darksteel Nugget",
+        mat3: "2 Mythrite Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "53",
+        name: "Titanium Plate Belt of Fending",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dhalmel Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "53",
+        name: "Titanium Plate Belt of Maiming",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dhalmel Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Nugget",
+        mat1: "5 Titanium Ore",
+        mat2: "Iron Ore",
+        mat3: "Grenade Ash",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Rivets",
+        mat1: "Titanium Nugget",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Hardsilver Alembic",
+        mat1: "2 Hardsilver Nugget",
+        mat2: "2 Titanium Rivets",
+        mat3: "Larimar",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Frypan",
+        mat1: "3 Titanium Nugget",
+        mat2: "Titanium Rivets",
+        mat3: "Dark Chestnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Mask of Fending",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Titanium Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Sallet of Maiming",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Titanium Rivets",
+        mat4: "Dhalmel Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Mask of Striking",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Mask of Scouting",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "54",
+        name: "Titanium Mask of Aiming",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 3 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Kite Shield",
+        mat1: "2 Darksteel Nugget",
+        mat2: "3 Titanium Nugget",
+        mat3: "2 Titanium Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Mail of Fending",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Dhalmel Leather",
+        mat4: "2 Ramie Cloth",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Cuirass of Maiming",
+        mat1: "3 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Titanium Rivets",
+        mat4: "Dhalmel Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Gauntlets of Fending",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "2 Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Mitt Gauntlets of Maiming",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "2 Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Sollerets of Fending",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "2 Dhalmel Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "55",
+        name: "Titanium Sabatons of Maiming",
+        mat1: "2 Titanium Nugget",
+        mat2: "Rose Gold Nugget",
+        mat3: "Titanium Rivets",
+        mat4: "Dhalmel Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Crystal, 4 Earth Crystal"
+    },
+];

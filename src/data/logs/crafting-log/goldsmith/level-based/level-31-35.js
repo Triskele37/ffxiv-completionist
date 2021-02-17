@@ -1,0 +1,437 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Goldsmith_Level_Based_31_35 = function(parent) {
+    return new DataGroup("31-35", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "31",
+        name: "Goathorn Staff",
+        mat1: "Marbled Eye",
+        mat2: "2 Aldgoat Horn",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "31",
+        name: "Silver Ear Cuffs",
+        mat1: "2 Silver Ingot",
+        mat2: "Siltstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "31",
+        name: "Silver Choker",
+        mat1: "2 Silver Ingot",
+        mat2: "Aldgoat Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "31",
+        name: "Horn Armillae",
+        mat1: "3 Aldgoat Horn",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "31",
+        name: "Horn Ring",
+        mat1: "Aldgoat Horn",
+        mat2: "Siltstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "32",
+        name: "Aquamarine",
+        mat1: "Raw Aquamarine",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Amethyst",
+        mat1: "Raw Amethyst",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Garnet",
+        mat1: "Raw Garnet",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Goshenite",
+        mat1: "Raw Goshenite",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Heliodor",
+        mat1: "Raw Heliodor",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Peridot",
+        mat1: "Raw Peridot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard"
+    },
+    {
+        level: "32",
+        name: "Worm Fang Needle",
+        mat1: "Sandworm Fang",
+        mat2: "Siltstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "32",
+        name: "Silver Monocle",
+        mat1: "Silver Ingot",
+        mat2: "Clear Glass Lens",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "32",
+        name: "Steel Jig",
+        mat1: "2 Steel Ingot",
+        mat2: "Siltstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "32",
+        name: "Silver Spoon Lure",
+        mat1: "2 Silver Ingot",
+        mat2: "Mudstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Aquamarine)",
+        mat1: "Aquamarine",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Amethyst)",
+        mat1: "Amethyst",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Garnet)",
+        mat1: "Garnet",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Goshenite)",
+        mat1: "Goshenite",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Heliodor)",
+        mat1: "Heliodor",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "33",
+        name: "Silver Circlet (Peridot)",
+        mat1: "Peridot",
+        mat2: "3 Silver Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Mythril Ingot",
+        mat1: "3 Mythril Ore",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard"
+    },
+    {
+        level: "34",
+        name: "Crabshell Hora",
+        mat1: "2 Green Megalocrab Shell",
+        mat2: "Hippogryph Sinew",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Earth Brand",
+        mat1: "Eye of Earth",
+        mat2: "Aldgoat Horn",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Decorated Silver Scepter",
+        mat1: "Silver Scepter",
+        mat2: "2 Silver Ingot",
+        mat3: "Scaleskin Blood",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Silver Star Globe",
+        mat1: "Silver Ingot",
+        mat2: "Iron Ingot",
+        mat3: "Brass Ingot",
+        mat4: "Enchanted Silver Ink",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Steel Goggles",
+        mat1: "Steel Plate",
+        mat2: "Clear Glass Lens",
+        mat3: "Aldgoat Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Mythril Magnifiers",
+        mat1: "Mythril Spectacles",
+        mat2: "Mythril Ingot",
+        mat3: "Clear Glass Lens",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Mythril Spectacles",
+        mat1: "Mythril Ingot",
+        mat2: "Clear Glass Lens",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "34",
+        name: "Sinking Minnow",
+        mat1: "Silver Ingot",
+        mat2: "Oalk Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Mythril Rings",
+        mat1: "Mythril Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard"
+    },
+    {
+        level: "35",
+        name: "Fire Brand",
+        mat1: "Silver Ingot",
+        mat2: "Aldgoat Horn",
+        mat3: "Eye of Fire",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Toothed Goathorn Staff",
+        mat1: "Goathorn Staff",
+        mat2: "2 Aldgoat Horn",
+        mat3: "Scaleskin Blood",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Wolf Earrings",
+        mat1: "Wolf Fang",
+        mat2: "Aldgoat Horn",
+        mat3: "Scaleskin Blood",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Mythril Earrings",
+        mat1: "Mythril Ingot",
+        mat2: "Siltstone Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Mythril Gorget",
+        mat1: "2 Mythril Ingot",
+        mat2: "Toad Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Mythril Wristlets",
+        mat1: "Mythril Ingot",
+        mat2: "2 Mythril Rings",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Mythril Wristlets of Crafting",
+        mat1: "Mythril Ingot",
+        mat2: "2 Mythril Rings",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Wind Shard, 3 Fire Shard"
+    },
+    {
+        level: "35",
+        name: "Vintage Cudgel",
+        mat1: "Damaged Cudgel",
+        mat2: "Iron Rivets",
+        mat3: "Siltstone Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Wind Crystal"
+    },
+];

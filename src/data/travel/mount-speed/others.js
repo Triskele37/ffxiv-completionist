@@ -5,9 +5,6 @@ export const Travel_Mount_Speed_Others = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "Mor Dhona",
-    	increase1: "Every Little Thing She Does Is Magitek",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    },
+    { name: "Mor Dhona - 1", method: "Every Little Thing She Does Is Magitek" },
+    { name: "Mor Dhona - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
 ];

@@ -5,33 +5,17 @@ export const Travel_Mount_Speed_La_Noscea = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "Mist",
-    	increase1: "The Ultimate Weapon",
-    	increase2: "-"
-    }, {
-    	name: "Middle La Noscea",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Lower La Noscea",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Eastern La Noscea",
-    	increase1: "In the Company of Heroes",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Western La Noscea",
-    	increase1: "History Repeating",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Upper La Noscea",
-    	increase1: "Lord of Crags",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Outer La Noscea",
-    	increase1: "Lord of Crags",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    },
+    { name: "Mist", method: "The Ultimate Weapon" },
+    { name: "Middle La Noscea - 1", method: "Brotherly Love" },
+    { name: "Middle La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Lower La Noscea - 1", method: "Brotherly Love" },
+    { name: "Lower La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Eastern La Noscea - 1", method: "In the Company of Heroes" },
+    { name: "Eastern La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Western La Noscea - 1", method: "History Repeating" },
+    { name: "Western La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Upper La Noscea - 1", method: "Lord of Crags" },
+    { name: "Upper La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Outer La Noscea - 1", method: "Lord of Crags" },
+    { name: "Outer La Noscea - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
 ];

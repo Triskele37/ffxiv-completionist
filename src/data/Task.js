@@ -7,11 +7,16 @@ export class Task {
     language = eStore.get('lang') || 'en';
     completionFlag = 'N';
 
+    // minValue = 0; // Define this for numeric completion tasks
+    // maxValue = 42; // Define this for numeric completion tasks
+
     constructor(task, parent) {
         // Map properties of task to this class
         const keys = Object.keys(task);
         keys.forEach((key) => {
             this[key] = task[key];
+
+            if(parent.isNumericCompletion) this.isNumericCompletion = true;
 
             // Create a getter for this property to aid in localization
             if(key.includes('_en')) {
@@ -43,6 +48,16 @@ export class Task {
         if(wasY || nowY) {
             this._parent.updateCompleted(wasY ? -1 : nowY ? 1 : 0);
         }
+    }
+
+    changeCompletionNumber(newValue) {
+        let previousValue = this.completionFlag;
+        this.completionFlag = newValue.toString();
+
+        // Restrict values to the minimum defined on the task
+        if(parseFloat(previousValue) < this.minValue) previousValue = this.minValue.toString();
+
+        this._parent.updateCompleted(newValue - previousValue);
     }
 
     get _storageKey() {

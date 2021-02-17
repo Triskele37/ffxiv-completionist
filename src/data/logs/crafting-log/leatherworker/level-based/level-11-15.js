@@ -1,0 +1,250 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Leatherworker_Level_Based_11_15 = function(parent) {
+    return new DataGroup("11-15", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "11",
+        name: "Amateur's Headgear",
+        mat1: "Hard Leather",
+        mat2: "Bronze Ingot",
+        mat3: "Bronze Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "11",
+        name: "Leather Survival Belt",
+        mat1: "Hard Leather",
+        mat2: "Undyed Hempen Cloth",
+        mat3: "Bronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "11",
+        name: "Hard Leather Shoes",
+        mat1: "Hard Leather",
+        mat2: "Beast Sinew",
+        mat3: "Rubber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "12",
+        name: "Hard Leather Harness",
+        mat1: "Hard Leather",
+        mat2: "Leather",
+        mat3: "Bronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "12",
+        name: "Hard Leather Satchel Belt",
+        mat1: "Hard Leather",
+        mat2: "Copper Ingot",
+        mat3: "Hempen Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "12",
+        name: "Leather Jackboots",
+        mat1: "Hard Leather",
+        mat2: "Beast Sinew",
+        mat3: "Undyed Hempen Cloth",
+        mat4: "Rubber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "12",
+        name: "Hard Leather Sandals",
+        mat1: "Hard Leather",
+        mat2: "Ash Lumber",
+        mat3: "Beast Sinew",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "13",
+        name: "Leather Targe",
+        mat1: "2 Leather",
+        mat2: "Ash Lumber",
+        mat3: "Bronze Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "13",
+        name: "Hard Leather Armguards",
+        mat1: "2 Hard Leather",
+        mat2: "Bronze Ingot",
+        mat3: "Bronze Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "13",
+        name: "Hard Leather Hunting Belt",
+        mat1: "Hard Leather",
+        mat2: "Leather",
+        mat3: "Copper Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Himantes",
+        mat1: "2 Hard Leather",
+        mat2: "Iron Ingot",
+        mat3: "Undyed Hempen Cloth",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Eyepatch",
+        mat1: "Hard Leather",
+        mat2: "Beast Sinew",
+        mat3: "Hempen Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Lightmitts",
+        mat1: "2 Hard Leather",
+        mat2: "Beast Sinew",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Lightpouch",
+        mat1: "Hard Leather",
+        mat2: "Iron Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Subligar",
+        mat1: "Hard Leather",
+        mat2: "Undyed Hempen Cloth",
+        mat3: "Hempen Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Kecks",
+        mat1: "Hard Leather",
+        mat2: "Undyed Hempen Cloth",
+        mat3: "Hempen Yarn",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Caligae",
+        mat1: "Hard Leather",
+        mat2: "Bronze Rivets",
+        mat3: "Beast Sinew",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "14",
+        name: "Hard Leather Thighboots",
+        mat1: "Hard Leather",
+        mat2: "Bronze Rivets",
+        mat3: "Beast Sinew",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "15",
+        name: "Fingerless Hard Leather Gloves",
+        mat1: "2 Hard Leather",
+        mat2: "Iron Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "15",
+        name: "Hard Leather Boots",
+        mat1: "Hard Leather",
+        mat2: "Undyed Hempen Cloth",
+        mat3: "Beast Sinew",
+        mat4: "Rubber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "15",
+        name: "Hard Leather Crakows",
+        mat1: "Hard Leather",
+        mat2: "Bronze Ingot",
+        mat3: "Beast Sinew",
+        mat4: "Rubber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+    {
+        level: "15",
+        name: "Hard Leather Choker",
+        mat1: "Hard Leather",
+        mat2: "Beast Sinew",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Shard, Wind Shard"
+    },
+];

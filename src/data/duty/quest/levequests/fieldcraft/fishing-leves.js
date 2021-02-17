@@ -1,0 +1,626 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Duty_Quests_Levequests_Fishing = function(parent) {
+    return new DataGroup("Fishing", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    //------------------------------------------------------------------ 1-5
+    {
+        level: "1",
+        name: "A Kelping Hand",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "1",
+        name: "Poor Boys Eat Well",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "1",
+        name: "Adventurers' Relish",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "1",
+        name: "Soup to Guts",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "5",
+        name: "Cloud Cutlet",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "5",
+        name: "Splendor in the Glass",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "5",
+        name: "They Taste Just as Pretty",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    }, {
+        level: "5",
+        name: "Yummy in the Tummy",
+        zone: "Lower La Noscea",
+        location: "Red Rooster Stead",
+        npc: "Wyrkholsk"
+    },
+    //------------------------------------------------------------------ 10-15
+    {
+        level: "10",
+        name: "The Fertile Incandescent",
+        zone: "Western La Noscea",
+        location: "Swiftperch",
+        npc: "Swygskyf"
+    }, {
+        level: "10",
+        name: "Fish by Many Other Names",
+        zone: "Western La Noscea",
+        location: "Swiftperch",
+        npc: "Swygskyf"
+    }, {
+        level: "10",
+        name: "Just Add Water",
+        zone: "Western La Noscea",
+        location: "Swiftperch",
+        npc: "Swygskyf"
+    }, {
+        level: "10",
+        name: "Brain Candy",
+        zone: "Western La Noscea",
+        location: "Swiftperch",
+        npc: "Swygskyf"
+    }, {
+        level: "15",
+        name: "My Own Private Shell",
+        zone: "Western La Noscea",
+        location: "Aleport",
+        npc: "Orwen"
+    }, {
+        level: "15",
+        name: "The Deepest Cut",
+        zone: "Western La Noscea",
+        location: "Aleport",
+        npc: "Orwen"
+    }, {
+        level: "15",
+        name: "Crab Life by the Horns",
+        zone: "Western La Noscea",
+        location: "Aleport",
+        npc: "Orwen"
+    }, {
+        level: "15",
+        name: "The Moral of the Coral",
+        zone: "Western La Noscea",
+        location: "Aleport",
+        npc: "Orwen"
+    },
+    //------------------------------------------------------------------ 20-25
+    {
+        level: "20",
+        name: "Sounds Fishy to Me",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "20",
+        name: "The Long and the Shortcrust",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "20",
+        name: "Food Chain Reaction",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "20",
+        name: "Blind Ambition",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "25",
+        name: "A Shocking Soiree",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "25",
+        name: "A Watery Web of Lies",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "25",
+        name: "Fishing 101",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    }, {
+        level: "25",
+        name: "The Truth Will Set You Free",
+        zone: "South Shroud",
+        location: "Quarrymill",
+        npc: "Nyell"
+    },
+    //------------------------------------------------------------------ 30-35
+    {
+        level: "30",
+        name: "A Recipe for Disaster",
+        zone: "Eastern La Noscea",
+        location: "Costa del Sol",
+        npc: "Nahctahr"
+    }, {
+        level: "30",
+        name: "The Blue Period",
+        zone: "Eastern La Noscea",
+        location: "Costa del Sol",
+        npc: "Nahctahr"
+    }, {
+        level: "30",
+        name: "Just Call Me Late for Dinner",
+        zone: "Eastern La Noscea",
+        location: "Costa del Sol",
+        npc: "Nahctahr"
+    }, {
+        level: "30",
+        name: "Kitchen Nightmares No More",
+        zone: "Eastern La Noscea",
+        location: "Costa del Sol",
+        npc: "Nahctahr"
+    }, {
+        level: "35",
+        name: "Gathering Light",
+        zone: "Coerthas Central Highlands",
+        location: "Observatorium",
+        npc: "Cimeaurant"
+    }, {
+        level: "35",
+        name: "Hands Off Our Fish",
+        zone: "Coerthas Central Highlands",
+        location: "Observatorium",
+        npc: "Cimeaurant"
+    }, {
+        level: "35",
+        name: "The Perks of Politics",
+        zone: "Coerthas Central Highlands",
+        location: "Observatorium",
+        npc: "Cimeaurant"
+    }, {
+        level: "35",
+        name: "Fry Me a River",
+        zone: "Coerthas Central Highlands",
+        location: "Observatorium",
+        npc: "Cimeaurant"
+    },
+    //------------------------------------------------------------------ 40-45
+    {
+        level: "40",
+        name: "Rationally Speaking",
+        zone: "Coerthas Central Highlands",
+        location: "Whitebrim Front",
+        npc: "Voilinaut"
+    }, {
+        level: "40",
+        name: "Make a Fish",
+        zone: "Coerthas Central Highlands",
+        location: "Whitebrim Front",
+        npc: "Voilinaut"
+    }, {
+        level: "40",
+        name: "Empire Builder",
+        zone: "Coerthas Central Highlands",
+        location: "Whitebrim Front",
+        npc: "Voilinaut"
+    }, {
+        level: "40",
+        name: "Laird of the Lakes",
+        zone: "Coerthas Central Highlands",
+        location: "Whitebrim Front",
+        npc: "Voilinaut"
+    }, {
+        level: "45",
+        name: "Sleeper Creeper",
+        zone: "Mor Dhona",
+        location: "Saint Coinach's Find",
+        npc: "K'leytai"
+    }, {
+        level: "45",
+        name: "Awash in Evidence",
+        zone: "Mor Dhona",
+        location: "Saint Coinach's Find",
+        npc: "K'leytai"
+    }, {
+        level: "45",
+        name: "Snail Fail",
+        zone: "Mor Dhona",
+        location: "Saint Coinach's Find",
+        npc: "K'leytai"
+    }, {
+        level: "45",
+        name: "Putting the Zap on Nature",
+        zone: "Mor Dhona",
+        location: "Saint Coinach's Find",
+        npc: "K'leytai"
+    },
+    //------------------------------------------------------------------ 50-58
+    {
+        level: "50",
+        name: "The Voice of the Fury",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "50",
+        name: "Please Halone, Tell Me I'm Still Asleep",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "50",
+        name: "Dine or Spine",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Loose Lips Heal (Broken) Hips",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Fish Oils and Forgotten Spoils",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Bounty of Sky, Bounty of Earth",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "The Aquariums of Ishgard",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "Analysis of Paralysis",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "Bearing of the Blue",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Dining with Dravanians",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Pipira Pirouette",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Solo Out the Bolo",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "Spew Forth and Spawn",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "Warmer than Wine",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "They Call It the Kissing Disease",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    },
+    //------------------------------------------------------------------ Large-scale
+    {
+        level: "50",
+        name: "Snipped for Spirituality (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "50",
+        name: "Lurchin' from Urchins (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "50",
+        name: "A Whole Lot of Nope (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Valuing the Vintage (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Eating Like the Natives (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "52",
+        name: "Prayer and Prejudice (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "Send a Feeling to My Spine (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "A Win-win Situation (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "54",
+        name: "Blue of Sky and Sea (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Plus One or Two or Three (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Sucking on Face (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "56",
+        name: "Hundred Fins for a Hundred Wings (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "What Does Not Break Us, Devours Us (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "Angling for Ailments (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    }, {
+        level: "58",
+        name: "Unleash the Hydro Cannons (L)",
+        zone: "Ishgard",
+        location: "Foundation",
+        npc: "Eloin"
+    },
+    //------------------------------------------------------------------ 60-68
+    {
+        level: "60",
+        name: "There Can Only Be One",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "60",
+        name: "If A Leaf Falls In The Water",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "60",
+        name: "Slow Wash, Rapids Jumper",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "62",
+        name: "Perhaps Not-So-Common",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "62",
+        name: "In A Pickle",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "62",
+        name: "Lighter Wallets",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "64",
+        name: "Marooned Minnow",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "64",
+        name: "Catfish Scheme",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "64",
+        name: "Curtains For Pleco",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "66",
+        name: "Unbeliebubble",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "66",
+        name: "Step By Steppe",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "66",
+        name: "Peculiar De-Light",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "68",
+        name: "Pre-Octopied",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "68",
+        name: "Blood in the Water",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    }, {
+        level: "68",
+        name: "To The Teeth",
+        zone: "Kugane",
+        location: "Kugane",
+        npc: "Keltraeng"
+    },
+    //------------------------------------------------------------------ 70-78
+    {
+        level: "70",
+        name: "Needs More Egg",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "70",
+        name: "Eco-Warrior of Light",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "70",
+        name: "The Source of the Problem",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "72",
+        name: "Jelly Salad",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "72",
+        name: "Aetherquake",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "72",
+        name: "Full of Fish",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "74",
+        name: "The Bride Aquatic",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "74",
+        name: "Faerie Fish",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "74",
+        name: "A Cherry-red Herring",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "76",
+        name: "Crab Corps",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "76",
+        name: "Fish for Days",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "76",
+        name: "Magic Mushrooms",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "78",
+        name: "Deep-sea Diving",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "78",
+        name: "Short-term Gains",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }, {
+        level: "78",
+        name: "A Feast for the Senses",
+        zone: "The Crystarium",
+        location: "The Baldaquin",
+        npc: "Eirikur"
+    }
+];

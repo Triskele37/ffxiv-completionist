@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_30 = function(parent) {
+    return new DataGroup("Page 30", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Misty Killifish",
+        "iLvl": "395",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Rusted Reservoir",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Snakeskin Discus",
+        "iLvl": "395",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "Sullen",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Albino Rock Crab",
+        "iLvl": "395",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Source",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Noble's Fan",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "White Oil Falls",
+        "type": "Rivers",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Zebra Catfish",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Lower Watts River",
+        "type": "Rivers",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Sepia Sole",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Sharptongue Drip",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Spearhead Squid",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Eastern Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Short Bill Minnow"
+    },
+    {
+        "name": "Shapeshifter",
+        "iLvl": "403",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Seagazer Shoals",
+        "type": "Coastlines",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Kholusian Wrasse",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Eastern Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Spearhead Squid"
+    },
+    {
+        "name": "Razorfish",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Western Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Weedy Seadragon",
+        "iLvl": "395",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Eastern Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Shadow Crab",
+        "iLvl": "395",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The River of Sand",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Desert Dustfish",
+        "iLvl": "395",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The Hills of Amber",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Amber Lamprey",
+        "iLvl": "395",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The Nabaath Severance",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Wandering Catfish",
+        "iLvl": "400",
+        "primeLocation": "The Crystarium",
+        "fishingHoles": "The Quadrivium",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Skeletonfish",
+        "iLvl": "400",
+        "primeLocation": "The Crystarium",
+        "fishingHoles": "Crystarium Personal Suites",
+        "type": "Lakes",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Crimson Sea Spider",
+        "iLvl": "400",
+        "primeLocation": "Eulmore",
+        "fishingHoles": "The Derelicts",
+        "type": "Deep Sea",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Vicejaw",
+        "iLvl": "406",
+        "primeLocation": "Lakeland",
+        "fishingHoles": "The Isle of Ken",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Creamy Oyster",
+        "iLvl": "400",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "The Western Kholusian Coast",
+        "type": "Coastlines",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Minstrelfish",
+        "iLvl": "406",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Seagazer Shoals",
+        "type": "Coastlines",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Hornhelm",
+        "iLvl": "400",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The River of Sand",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Web-footed Sand Gecko",
+        "iLvl": "400",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The River of Sand",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Grey Skipper",
+        "iLvl": "400",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Handmirror Lake",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Cerulean Loach",
+        "iLvl": "400",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Longmirror Lake",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Pixie Fish",
+        "iLvl": "400",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Handmirror Lake",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+];

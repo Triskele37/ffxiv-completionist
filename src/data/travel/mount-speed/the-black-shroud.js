@@ -5,25 +5,13 @@ export const Travel_Mount_Speed_The_Black_Shroud = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "The Lavender Beds",
-    	increase1: "The Ultimate Weapon",
-    	increase2: "-"
-    }, {
-    	name: "Central Shroud",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "East Shroud",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "South Shroud",
-    	increase1: "Come Highly Recommended",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "North Shroud",
-    	increase1: "Power of Deduction",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    },
+    { name: "The Lavender Beds", method: "The Ultimate Weapon" },
+    { name: "Central Shroud - 1", method: "Brotherly Love" },
+    { name: "Central Shroud - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "East Shroud - 1", method: "Brotherly Love" },
+    { name: "East Shroud - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "South Shroud - 1", method: "Come Highly Recommended" },
+    { name: "South Shroud - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "North Shroud - 1", method: "Power of Deduction" },
+    { name: "North Shroud - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
 ];

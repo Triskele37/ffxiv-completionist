@@ -1,0 +1,133 @@
+import { DataGroup } from "../../DataGroup";
+
+export const Duty_Collection_Yo_Kai_Medallium = function(parent) {
+    return new DataGroup("Yo-Kai Medallium", parent).initializeTasks(tasks, [
+        { header: 'Minion', key: 'name', },
+        { header: 'Area 1', key: 'area1', },
+        { header: 'Area 2', key: 'area2', },
+        { header: 'Area 3', key: 'area3', },
+        { header: 'Patch', key: 'patch', filterable: true },
+    ]);
+};
+
+const tasks = [
+    {
+        name: "Jibanyan",
+        area1: "Central Shroud",
+        area2: "Lower La Noscea",
+        area3: "Central Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Komasan",
+        area1: "East Shroud",
+        area2: "Western La Noscea",
+        area3: "Eastern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Whisper",
+        area1: "South Shroud",
+        area2: "Upper La Noscea",
+        area3: "Southern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Blizzaria",
+        area1: "North Shroud",
+        area2: "Outer La Noscea",
+        area3: "Middle La Noscea",
+        patch: "3.35"
+    },
+    {
+        name: "Kyubi",
+        area1: "Central Shroud",
+        area2: "Lower La Noscea",
+        area3: "Western Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Komajiro",
+        area1: "East Shroud",
+        area2: "Western La Noscea",
+        area3: "Central Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Manjimutt",
+        area1: "South Shroud",
+        area2: "Upper La Noscea",
+        area3: "Eastern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Noko",
+        area1: "North Shroud",
+        area2: "Outer La Noscea",
+        area3: "Southern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Venoct",
+        area1: "Central Shroud",
+        area2: "Middle La Noscea",
+        area3: "Western Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Shogunyan",
+        area1: "East Shroud",
+        area2: "Lower La Noscea",
+        area3: "Central Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Hovernyan",
+        area1: "South Shroud",
+        area2: "Western La Noscea",
+        area3: "Eastern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Robonyan F-type",
+        area1: "North Shroud",
+        area2: "Upper La Noscea",
+        area3: "Southern Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "USApyon",
+        area1: "Outer La Noscea",
+        area2: "Middle La Noscea",
+        area3: "Western Thanalan",
+        patch: "3.35"
+    },
+    {
+        name: "Lord Enma",
+        area1: "Any Gyr Abania region",
+        area2: "Any Othard region",
+        area3: "",
+        patch: "5.3"
+    },
+    {
+        name: "Lord Ananta",
+        area1: "Any Dravania region",
+        area2: "Any Abalathia's Spine region",
+        area3: "Coerthas Western Highlands",
+        patch: "5.3"
+    },
+    {
+        name: "Zazel",
+        area1: "Any Dravania region",
+        area2: "Any Abalathia's Spine region",
+        area3: "Coerthas Western Highlands",
+        patch: "5.3"
+    },
+    {
+        name: "Damona",
+        area1: "Any Gyr Abania region",
+        area2: "Any Othard region",
+        area3: "",
+        patch: "5.3"
+    },
+];

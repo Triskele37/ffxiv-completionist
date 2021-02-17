@@ -13,6 +13,9 @@ export class DataGroup {
     defaultCompletion = 'N';
     tasks;
 
+    isNumericCompletion = false; // Used for numeric completions
+    numericDecimal = 0;
+
     total = 0;     // The total of all tasks of this and children
     totalCompleted = 0; // The total of completed tasks of this and children
     totalExcluded = 0;  // The total of excluded tasks of this and children
@@ -47,7 +50,9 @@ export class DataGroup {
             const taskObj = new Task(task, this);
 
             // Allow groups to have default flags for all child tasks
-            taskObj.changeCompletionFlag(this.defaultCompletion);
+            if(!taskObj.defaultCompletion) taskObj.changeCompletionFlag(this.defaultCompletion);
+            // Prioritize task level defaults
+            else taskObj.changeCompletionFlag(taskObj.defaultCompletion);
 
             return taskObj;
         });
@@ -55,9 +60,17 @@ export class DataGroup {
         // Allow a manually passed config to override an inherited config
         if(columnConfig) this.columnConfig = columnConfig;
 
-        // Update totals
-        this.total += this.tasks.length;
-        if(this._parent) this._parent.initializeTasksFromSubGroup(this.tasks.length);
+        // Determine how to calculate totals
+        let totalTasks = this.tasks.length;
+
+        if(this.isNumericCompletion) {
+            totalTasks = 0;
+            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
+        }
+
+        // Update Totals
+        this.total += totalTasks;
+        if(this._parent) this._parent.initializeTasksFromSubGroup(totalTasks);
 
         return this;
     }

@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_35 = function(parent) {
+    return new DataGroup("Page 35", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Net Crawler",
+        "iLvl": "1",
+        "primeLocation": "The Northern Strait of Merlthor",
+        "fishingHoles": "The Northern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Cyan Octopus",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Outer Galadion Bay",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Heavenswimmer",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Outer Galadion Bay",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Merlthor Butterfly",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "The Southern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Gladius",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "The Southern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Ghoul Barracuda"
+    },
+    {
+        "name": "Dark Nautilus",
+        "iLvl": "1",
+        "primeLocation": "Rhotano Sea",
+        "fishingHoles": "Open Rhotano Sea",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Lampfish",
+        "iLvl": "1",
+        "primeLocation": "Rhotano Sea",
+        "fishingHoles": "Open Rhotano Sea",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Merlthor Lobster",
+        "iLvl": "1",
+        "primeLocation": "The Northern Strait of Merlthor",
+        "fishingHoles": "The Northern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Elder Dinichthys",
+        "iLvl": "1",
+        "primeLocation": "The Northern Strait of Merlthor",
+        "fishingHoles": "The Northern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Tossed Dagger"
+    },
+    {
+        "name": "Drunkfish",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Outer Galadion Bay",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Little Leviathan",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "The Southern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Sabaton",
+        "iLvl": "1",
+        "primeLocation": "Rhotano Sea",
+        "fishingHoles": "Open Rhotano Sea",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Shooting Star",
+        "iLvl": "1",
+        "primeLocation": "The Northern Strait of Merlthor",
+        "fishingHoles": "The Northern Strait of Merlthor",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Merman's Mane",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Heavenskey",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Ghost Shark",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Quicksilver Blade",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Navigator's Print",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Casket Oyster",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Fishmonger",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Mythril Sovereign",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "Southern Merlthor Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Nimble Dancer",
+        "iLvl": "1",
+        "primeLocation": "Gladadion Bay",
+        "fishingHoles": "Galadion Spectral Current",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Sea Nettle",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "Southern Merlthor Spectral Current",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Great Grandmarlin",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "Southern Merlthor Spectral Current",
+        "type": "Coastlines",
+        "bait": "Hi-aetherlouse"
+    },
+    {
+        "name": "Shipwreck's Sail",
+        "iLvl": "1",
+        "primeLocation": "The Southern Strait of Merlthor",
+        "fishingHoles": "Southern Merlthor Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+];

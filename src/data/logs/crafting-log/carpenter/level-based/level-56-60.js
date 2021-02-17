@@ -1,0 +1,217 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Carpenter_Level_Based_56_60 = function(parent) {
+    return new DataGroup("56-60", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "56",
+        name: "Hallowed Chestnut Lumber",
+        mat1: "Dark Chestnut Lumber",
+        mat2: "2 Hallowed Water",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Fork",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "3 Titanium Ingot",
+        mat3: "Dragon Leather",
+        mat4: "Wing Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Hallowed Chestnut Composite Bow",
+        mat1: "2 Hallowed Chestnut Lumber",
+        mat2: "Dark Chestnut Branch",
+        mat3: "2 Hardsilver Ingot",
+        mat4: "Electrum Ingot",
+        mat5: "Ramie Thread",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Cloud Mica Grinding Wheel",
+        mat1: "2 Dark Chestnut Lumber",
+        mat2: "Hardsilver Ingot",
+        mat3: "2 Cloud Mica Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Dark Chestnut Spinning Wheel",
+        mat1: "3 Dark Chestnut Lumber",
+        mat2: "2 Titanium Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Hallowed Chestnut Mask of Aiming",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "Hardsilver Ingot",
+        mat3: "Spinel",
+        mat4: "Wing Glue",
+        mat5: "Grade 1 Dexterity Dissolvent",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Hallowed Chestnut Mask of Casting",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "Hardsilver Ingot",
+        mat3: "Tourmaline",
+        mat4: "Wing Glue",
+        mat5: "Grade 1 Intelligence Dissolvent",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "56",
+        name: "Hallowed Chestnut Mask of Healing",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "Hardsilver Ingot",
+        mat3: "Turquoise",
+        mat4: "Wing Glue",
+        mat5: "Grade 1 Mind Dissolvent",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "57",
+        name: "Hallowed Chestnut Fishing Rod",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "2 Dark Chestnut Branch",
+        mat3: "2 Hardsilver Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "57",
+        name: "Hallowed Chestnut Ring",
+        mat1: "Hallowed Chestnut Lumber",
+        mat2: "Varnish",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 4 Ice Crystal"
+    },
+    {
+        level: "58",
+        name: "Birch Lumber",
+        mat1: "5 Birch Log",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Spear",
+        mat1: "Birch Lumber",
+        mat2: "Adamantite Nugget",
+        mat3: "2 Aurum Regis Nugget",
+        mat4: "Amphiptere Leather",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "58",
+        name: "Birch Longbow",
+        mat1: "Birch Lumber",
+        mat2: "2 Birch Branch",
+        mat3: "2 Adamantite Nugget",
+        mat4: "Chimerical Felt",
+        mat5: "Ramie Thread",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "58",
+        name: "Birch Signum",
+        mat1: "Birch Lumber",
+        mat2: "2 Birch Branch",
+        mat3: "Chimerical Felt",
+        mat4: "2 Ramie Thread",
+        mat5: "Growth Formula Zeta",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "58",
+        name: "Hallowed Chestnut Armillae",
+        mat1: "2 Hallowed Chestnut Lumber",
+        mat2: "Varnish",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "59",
+        name: "Dragonscale Grinding Wheel",
+        mat1: "2 Birch Lumber",
+        mat2: "Aurum Regis Nugget",
+        mat3: "2 Dragon Scale",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "59",
+        name: "Birch Spinning Wheel",
+        mat1: "3 Birch Lumber",
+        mat2: "2 Adamantite Rivets",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "59",
+        name: "Hallowed Chestnut Necklace",
+        mat1: "2 Hallowed Chestnut Lumber",
+        mat2: "Varnish",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Wind Crystal, 5 Ice Crystal"
+    },
+    {
+        level: "60",
+        name: "Blank Grade 3 Orchestrion Roll",
+        mat1: "Red Moko Grass",
+        mat2: "Dark Chestnut Log",
+        mat3: "Birch Log",
+        mat4: "Potash",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Wind Crystal"
+    },
+];

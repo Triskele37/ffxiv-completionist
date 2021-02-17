@@ -1,6 +1,6 @@
 {
   "name": "ffxiv-completionist",
-  "version": "0.5.3",
+  "version": "0.5.45",
   "author": "",
   "description": "",
   "license": "ISC",
@@ -42,13 +42,13 @@
       ]
     },
     "mac": {
-      "icon": "build/icons/icon.icns"
+      "icon": "assets/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "assets/icons/icon.png"
     },
     "linux": {
-      "icon": "build/icons"
+      "icon": "assets/icons"
     }
   },
   "dependencies": {

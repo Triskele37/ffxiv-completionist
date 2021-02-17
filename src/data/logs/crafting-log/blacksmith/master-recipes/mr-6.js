@@ -1,0 +1,732 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Blacksmith_Master_Recipes_Master_Recipes_6 = function(parent) {
+    return new DataGroup("Master Recipes (6)", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Longsword",
+        mat1: "3 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "Torreya Lumber",
+        mat3: "Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "Palladium Ingot",
+        mat3: "Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Longsword",
+        mat1: "2 Chromite Ingot",
+        mat2: "True Griffin Leather",
+        mat3: "Palladium Nugget",
+        mat4: "Seiryu's Scale",
+        mat5: "3 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral War Axe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Greataxe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Greataxe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified War Axe",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Palladium Nugget",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Greatsword",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Odachi",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Odachi",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Spine",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Gunblade",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Lance",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Claws",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Crescents",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Pinions",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Tekko",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Katana",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Chokuto",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Chokuto",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Katana",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Daggers",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Palladium Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Kunai",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Kunai",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Daggers",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 True Griffin Leather",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Greatbow",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Torreya Lumber",
+        mat3: "2 Palladium Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Tsukuyomi's Moonlit Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Celestial Kimono Remnant",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Suzaku's Flame-kissed Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Scarlet Tailfeather",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Seiryu's Sanctified Revolver",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Rhea Cloth",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Seiryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "7 Fire Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "70★★",
+        name: "Shinryu's Ephemeral Chakrams",
+        mat1: "3 Chromite Ingot",
+        mat2: "2 Palladium Ingot",
+        mat3: "2 Palladium Nugget",
+        mat4: "Shinryu's Scale",
+        mat5: "5 Demicrystal",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+    {
+        level: "70★★",
+        name: "Private Moai",
+        mat1: "2 Colossus Slab",
+        mat2: "Royal Fern",
+        mat3: "2 Chromite Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Fire Cluster, 7 Earth Cluster"
+    }, {
+        level: "70★★",
+        name: "Bomb Stove",
+        mat1: "2 Chromite Ingot",
+        mat2: "2 Cobalt Ingot",
+        mat3: "4 Granite",
+        mat4: "4 Bomb Ash",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Ingot",
+        mat1: "4 Nightsteel Ore",
+        mat2: "2 Thavnairian Abrasive",
+        mat3: "High Steel Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Sword",
+        mat1: "2 Nightsteel Ingot",
+        mat2: "Rhodonite",
+        mat3: "2 Everborn Aethersand",
+        mat4: "2 Grade 3 Reisui of Vitality",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Battleaxe",
+        mat1: "3 Nightsteel Ingot",
+        mat2: "Silvergrace Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "3 Everborn Aethersand",
+        mat5: "3 Grade 3 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Greatsword",
+        mat1: "3 Nightsteel Ingot",
+        mat2: "Silvergrace Ingot",
+        mat3: "2 Rhodonite",
+        mat4: "3 Everborn Aethersand",
+        mat5: "3 Grade 3 Reisui of Vitality",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Claws",
+        mat1: "3 Nightsteel Ingot",
+        mat2: "Silvergrace Ingot",
+        mat3: "2 Triphane",
+        mat4: "3 Everborn Aethersand",
+        mat5: "3 Grade 3 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Katana",
+        mat1: "3 Nightsteel Ingot",
+        mat2: "Silvergrace Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "Slate Whetstone",
+        mat5: "3 Everborn Aethersand",
+        mat6: "3 Grade 3 Reisui of Strength",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Daggers",
+        mat1: "2 Nightsteel Ingot",
+        mat2: "Ground Sloth Leather",
+        mat3: "True Linen",
+        mat4: "2 Oroshigane Ingot",
+        mat5: "3 Everborn Aethersand",
+        mat6: "3 Grade 3 Resui of Dexterity",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Blunderbuss",
+        mat1: "3 Nightsteel Ingot",
+        mat2: "Silvergrace Ingot",
+        mat3: "2 Molybdenum Ingot",
+        mat4: "Black Firesand",
+        mat5: "3 Everborn Aethersand",
+        mat6: "3 Grade 3 Resui of Dexterity",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Saw",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Claw Hammer",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Cross-pein Hammer",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel File",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Ground Sloth Leather",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Raising Hammer",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "2 Ground Sloth Leather",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Pliers",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "Palladium Nugget",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Lapidary Hammer",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Silvergrace Ingot",
+        mat4: "2 Black Willow Lumber",
+        mat5: "Gold Ingot",
+        mat6: "5 Kingcraft Demimateria",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Round Knife",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "2 Ground Sloth Leather",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Awl",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "Steppe Serge",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Mortar",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Culinary Knife",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Pickaxe",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "6 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Sledgehammer",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Hatchet",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "4 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★",
+        name: "Nightsteel Scythe",
+        mat1: "3 Hawk's Eye Sand",
+        mat2: "4 Nightsteel Ingot",
+        mat3: "2 Black Willow Lumber",
+        mat4: "Gold Ingot",
+        mat5: "5 Kingcraft Demimateria",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Chigusa Ingot",
+        mat1: "4 Gyr Abanion Ore",
+        mat2: "2 Tatara Iron Sand",
+        mat3: "Tama-hagane Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Blade",
+        mat1: "2 Chigusa Ingot",
+        mat2: "Oroshigane Ingot",
+        mat3: "2 Grade 4 Reisui of Vitality",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Axe",
+        mat1: "3 Chigusa Ingot",
+        mat2: "Evergleam Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "3 Grade 4 Reisui of Vitality",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Odachi",
+        mat1: "3 Chigusa Ingot",
+        mat2: "Evergleam Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "3 Grade 4 Reisui of Vitality",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Lance",
+        mat1: "2 Chigusa Ingot",
+        mat2: "2 Urunday Lumber",
+        mat3: "Oroshigane Ingot",
+        mat4: "3 Grade 4 Reisui of Strength",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Knuckles",
+        mat1: "3 Chigusa Ingot",
+        mat2: "Evergleam Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "3 Grade 4 Reisui of Strength",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Katana",
+        mat1: "3 Chigusa Ingot",
+        mat2: "Evergleam Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "Slate Whetstone",
+        mat5: "3 Grade 4 Reisui of Strength",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Daggers",
+        mat1: "2 Chigusa Ingot",
+        mat2: "Procoptodon Leather",
+        mat3: "Stardust Cotton Cloth",
+        mat4: "3 Grade 4 Reisui of Dexterity",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "70★★★★",
+        name: "Rakshasa Revolver",
+        mat1: "3 Chigusa Ingot",
+        mat2: "Evergleam Ingot",
+        mat3: "Oroshigane Ingot",
+        mat4: "Black Firesand",
+        mat5: "3 Grade 4 Reisui of Dexterity",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    }, {
+        level: "80★",
+        name: "Blades of Innocence",
+        mat1: "Immaculate Wingblade",
+        mat2: "Dwarven Mythril Nugget",
+        mat3: "2 Deepgold Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Cluster, 2 Earth Cluster"
+    },
+];

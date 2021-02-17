@@ -1,0 +1,116 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Quarrying_Level_66_70 = function(parent) {
+    return new DataGroup("66-70", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "66",
+        name: "Perlite",
+        zone: "Yanxia",
+        closestAetheryte: "Namai",
+        coordinates: "(x37,y19)",
+        nodeTimer: "Ephemeral (8PM)"
+    },
+    {
+        "level": "66",
+        "name_en": "Dacite",
+        "zone": "Yanxia",
+        "closestTeleport": "Namai",
+        "coordinates": "(x37,y19)",
+        "nodeTimer": "Ephemeral (8PM)"
+    },
+    {
+        level: "66",
+        name: "Durium Sand",
+        zone: "The Azim Steppe",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
+        nodeTimer: ""
+    }, {
+        level: "66",
+        name: "Strong Steppe Spice",
+        zone: "The Azim Steppe",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
+        nodeTimer: ""
+    }, {
+        level: "67",
+        name: "Doman Iron Sand",
+        zone: "The Azim Steppe",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
+        nodeTimer: ""
+    }, {
+        level: "69",
+        name: "Palladium Sand",
+        zone: "The Azim Steppe",
+        closestAetheryte: "The Dawn Throne",
+        coordinates: "(x29,y15)",
+        nodeTimer: ""
+    }, {
+        level: "69",
+        name: "Ala Mhigan Salt Crystal",
+        zone: "The Lochs",
+        closestAetheryte: "Porta Praetoria",
+        coordinates: "(x21,y29)",
+        nodeTimer: "Unspoiled (12AM/PM)"
+    }, {
+        level: "70",
+        name: "Raven Coal",
+        zone: "Kholusia",
+        closestAetheryte: "Wright",
+        coordinates: "(x10,y27)",
+        nodeTimer: ""
+    }, {
+        level: "70",
+        name: "Amh Araeng Seasonings",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y23)",
+        nodeTimer: ""
+    }, {
+        level: "70",
+        name: "Animal Trace",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
+        nodeTimer: ""
+    }, {
+        level: "70★",
+        name: "Airship Fitting Components",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y23)",
+        nodeTimer: ""
+    }, {
+        level: "70★",
+        name: "Kholusian Miscellany",
+        zone: "Kholusia",
+        closestAetheryte: "Wright",
+        coordinates: "(x10,y27)",
+        nodeTimer: ""
+    }, {
+        level: "70★★",
+        name: "Yanxian Soil",
+        zone: "Yanxia",
+        closestAetheryte: "Namai",
+        coordinates: "(x37,y19)",
+        nodeTimer: "Ephemeral (8PM)"
+    }, {
+        level: "70★★",
+        name: "Coarse Saltpeter",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
+        nodeTimer: ""
+    }, {
+        level: "70★★",
+        name: "Yellow Alumen",
+        zone: "Amh Araeng",
+        closestAetheryte: "The Inn at Journey's Head",
+        coordinates: "(x30,y25)",
+        nodeTimer: ""
+    },
+];

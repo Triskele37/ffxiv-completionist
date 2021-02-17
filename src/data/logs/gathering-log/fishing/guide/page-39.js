@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_39 = function(parent) {
+    return new DataGroup("Page 39", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Mamahi-mahi",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Margin",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Lavandin Remora",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Margin",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Bloodfresh Tuna",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Open Bloodbrine Sea",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Sunken Mask",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Open Bloodbrine Sea",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Thavnarian Shark",
+        "iLvl": "1",
+        "primeLocation": "The Rothlyt Sound",
+        "fishingHoles": "Outer Routhlyt Sound",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Nephrite Eel",
+        "iLvl": "1",
+        "primeLocation": "The Rothlyt Sound",
+        "fishingHoles": "Outer Routhlyt Sound",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Cieldalaes Geode",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Margin",
+        "type": "Deep Sea",
+        "bait": "Krill"
+    },
+    {
+        "name": "Bareface",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Open Bloodbrine Sea",
+        "type": "Deep Sea",
+        "bait": "Krill"
+    },
+    {
+        "name": "Ginkgo Fin",
+        "iLvl": "1",
+        "primeLocation": "The Rothlyt Sound",
+        "fishingHoles": "Outer Routhlyt Sound",
+        "type": "Deep Sea",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Titanshell Crab",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Margin",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Mythril Boxfish",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Margin",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Mistbeard's Cup",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Anomalocaris Saron",
+        "iLvl": "1",
+        "primeLocation": "Coerthas Central Highlands",
+        "fishingHoles": "Sea of Clouds",
+        "type": "Deep Sea",
+        "bait": "Hoverworm"
+    },
+    {
+        "name": "Flaming Eel",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Jetborne Manta",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Devil's Sting",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Callichthyid",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Meandering Mora",
+        "iLvl": "1",
+        "primeLocation": "The Cieldalaes",
+        "fishingHoles": "Cieldalaes Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+    {
+        "name": "Oracular Crab",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Dravanian Bream",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Skaldminni",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Serrated Clam",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Beatific Vision",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Krill"
+    },
+    {
+        "name": "Exterminator",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Ragworm"
+    },
+    {
+        "name": "Gory Tuna",
+        "iLvl": "1",
+        "primeLocation": "The Bloodbrine Sea",
+        "fishingHoles": "Bloodbrine Spectral Current",
+        "type": "Coastlines",
+        "bait": "Plump Worm"
+    },
+];

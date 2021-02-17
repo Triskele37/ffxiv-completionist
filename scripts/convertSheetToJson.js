@@ -1,5 +1,19 @@
 const fs = require('fs');
 
+/*
+{
+    level: "1",
+    name: "Distilled Water",
+    mat1: "Muddy Water",
+    mat2: "X",
+    mat3: "X",
+    mat4: "X",
+    mat5: "X",
+    mat6: "X",
+    catalysts: "Water Shard"
+},
+* */
+
 // const config = [
 //     '', '',
 //     'name_en', 'name_fr',
@@ -12,7 +26,7 @@ const fs = require('fs');
 // ];
 
 const config = [
-    'number', 'name', 'coordinates', 'patch'
+    'level', 'name', 'mat1', 'mat2', 'mat3', 'mat4', 'mat5', 'mat6', 'catalysts'
 ];
 
 const sheet = fs.readFileSync('scripts/sheet.txt', 'utf8');

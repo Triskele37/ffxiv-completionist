@@ -1,0 +1,448 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Blacksmith_Level_Based_56_60 = function(parent) {
+    return new DataGroup("56-60", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "56",
+        name: "Titanium Ingot",
+        mat1: "4 Cloud Mica",
+        mat2: "Titanium Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Tachi",
+        mat1: "3 Titanium Ingot",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "Ramie Cloth",
+        mat4: "Hardsilver Nugget",
+        mat5: "Cloud Mica Whetstone",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Claw Hammer",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "Linseed Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium File",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dhalmel Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Pliers",
+        mat1: "2 Titanium Nugget",
+        mat2: "Titanium Rivets",
+        mat3: "Linseed Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Awl",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "Ramie Cloth",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Mortar",
+        mat1: "3 Titanium Nugget",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Culinary Knife",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "Cloud Mica Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Sledgehammer",
+        mat1: "2 Titanium Nugget",
+        mat2: "Dark Chestnut Lumber",
+        mat3: "Wing Glue",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "56",
+        name: "Titanium Scythe",
+        mat1: "Titanium Nugget",
+        mat2: "Dark Chestnut Branch",
+        mat3: "Cloud Mica Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Longsword",
+        mat1: "3 Titanium Ingot",
+        mat2: "Mythrite Ingot",
+        mat3: "Hallowed Chestnut Lumber",
+        mat4: "Dragon Leather",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Battleaxe",
+        mat1: "3 Titanium Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "2 Titanium Rivets",
+        mat4: "Wing Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Greatsword",
+        mat1: "3 Titanium Ingot",
+        mat2: "3 Darksteel Ingot",
+        mat3: "Electrum Ingot",
+        mat4: "Titanium Rivets",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Knuckles",
+        mat1: "2 Titanium Ingot",
+        mat2: "2 Mythrite Ingot",
+        mat3: "Hallowed Chestnut Lumber",
+        mat4: "Wing Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Kris",
+        mat1: "2 Titanium Ingot",
+        mat2: "2 Mythrite Ingot",
+        mat3: "Hallowed Chestnut Lumber",
+        mat4: "Titanium Rivets",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium-barreled Snaphance",
+        mat1: "2 Titanium Ingot",
+        mat2: "2 Electrum Ingot",
+        mat3: "Hallowed Chestnut Lumber",
+        mat4: "Titanium Rivets",
+        mat5: "3 Dragon Obsidian",
+        mat6: "Black Firesand",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Halfheart Saw",
+        mat1: "3 Titanium Ingot",
+        mat2: "Dragon Leather",
+        mat3: "Titanium Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Lump Hammer",
+        mat1: "2 Titanium Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Mythrite Ingot",
+        mat4: "Wing Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Raising Hammer",
+        mat1: "2 Titanium Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Dragon Leather",
+        mat4: "Titanium Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Hardsilver Lapidary Hammer",
+        mat1: "2 Hardsilver Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Electrum Ingot",
+        mat4: "Agate",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Hardsilver Round Knife",
+        mat1: "2 Hardsilver Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Dragon Leather",
+        mat4: "Titanium Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Titanium Pickaxe",
+        mat1: "3 Titanium Ingot",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Wing Glue",
+        mat4: "Titanium Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "57",
+        name: "Hardsilver Hatchet",
+        mat1: "Titanium Ingot",
+        mat2: "Hardsilver Ingot",
+        mat3: "Dark Chestnut Lumber",
+        mat4: "Dragon Leather",
+        mat5: "Dragon Fang",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Nugget",
+        mat1: "5 Adamantite Ore",
+        mat2: "Darksteel Ore",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Rivets",
+        mat1: "Adamantite Nugget",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Broadsword",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Titanium Ingot",
+        mat3: "2 Aurum Regis Nugget",
+        mat4: "Amphiptere Leather",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Bill",
+        mat1: "3 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "Amphiptere Leather",
+        mat4: "Wing Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Zweihander",
+        mat1: "4 Adamantite Nugget",
+        mat2: "2 Aurum Regis Nugget",
+        mat3: "Birch Lumber",
+        mat4: "Dragon Leather",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Jamadhars",
+        mat1: "2 Adamantite Nugget",
+        mat2: "2 Aurum Regis Nugget",
+        mat3: "Birch Lumber",
+        mat4: "Amphiptere Leather",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Uchigatana",
+        mat1: "3 Adamantite Nugget",
+        mat2: "Hallowed Chestnut Lumber",
+        mat3: "Hallowed Ramie Cloth",
+        mat4: "Electrum Ingot",
+        mat5: "Cloud Mica Whetstone",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Knives",
+        mat1: "3 Adamantite Nugget",
+        mat2: "Aurum Regis Nugget",
+        mat3: "Archaeornis Leather",
+        mat4: "Adamantite Rivets",
+        mat5: "Wing Glue",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "58",
+        name: "Adamantite Revolver",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Titanium Ingot",
+        mat3: "Mythrite Ingot",
+        mat4: "Birch Lumber",
+        mat5: "Wyrm Obsidian",
+        mat6: "Black Firesand",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Claw Hammer",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "Shark Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite File",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Dragon Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Pliers",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Adamantite Rivets",
+        mat3: "Shark Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Awl",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "Chimerical Felt",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Mortar",
+        mat1: "3 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Culinary Knife",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "Dragon Scale",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Sledgehammer",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Birch Lumber",
+        mat3: "Scale Glue",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+    {
+        level: "59",
+        name: "Adamantite Scythe",
+        mat1: "2 Adamantite Nugget",
+        mat2: "Birch Branch",
+        mat3: "Dragon Scale",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Fire Crystal, 5 Earth Crystal"
+    },
+];

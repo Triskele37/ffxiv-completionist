@@ -1,10 +1,15 @@
 <template>
     <tr>
         <th class="completed-column">
-            <span class="complete" @click="onFilterCompletion('Y')">&#10004;</span>
-            <span class="incomplete" @click="onFilterCompletion('N')">&#10008;</span>
-            <br/>
-            <span class="exclude" @click="onFilterCompletion('X')">&#10006;</span>
+            <template v-if="!isNumericCompletion">
+                <span class="complete" @click="onFilterCompletion('Y')">&#10004;</span>
+                <span class="incomplete" @click="onFilterCompletion('N')">&#10008;</span>
+                <br/>
+                <span class="exclude" @click="onFilterCompletion('X')">&#10006;</span>
+            </template>
+            <template v-else>
+                #
+            </template>
         </th>
 
         <th v-for="column in columnConfig">
@@ -56,6 +61,7 @@
             filters: [],
         }),
         props: {
+            isNumericCompletion: Boolean,
             columnConfig: Array,
             uniqueValues: Object,
         },

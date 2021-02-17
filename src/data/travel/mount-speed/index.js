@@ -16,8 +16,7 @@ export const Travel_Mount_Speed = function(parent) {
 
     data.columnConfig = [
         { header: "Area Name", key: "name" },
-        { header: "1st Increase (Quest Name)", key: "increase1" },
-        { header: "2nd Increase (Currency and Cost)", key: "increase2" },
+        { header: "Method (Quest or Cost)", key: "method" },
     ];
 
     data.initializeSubGroups([

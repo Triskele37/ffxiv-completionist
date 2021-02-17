@@ -16,6 +16,14 @@
 
         <br/>
 
+        <h2>Number Based Completion</h2>
+        <p>Some sections may have completion based on a range of numbers</p>
+        <p>In these tables the completion column will instead contain a text field to manually enter data</p>
+        <p>These fields validate data entered into them, so data you enter may be changed to fit within validation</p>
+        <p>These fields also only commit the data entered after you click away from them</p>
+
+        <br/>
+
         <h2>Filtering Completion</h2>
         <p>At the top of the completion column are 3 icons that indicate "completed", "not completed", and "excluded"</p>
         <p>When you click on one of these icons, it will filter to show you only items that are in that state within the current group</p>

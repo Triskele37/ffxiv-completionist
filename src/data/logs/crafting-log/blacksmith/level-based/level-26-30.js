@@ -1,0 +1,283 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Blacksmith_Level_Based_26_30 = function(parent) {
+    return new DataGroup("26-30", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "26",
+        name: "Steel Ingot",
+        mat1: "Bomb Ash",
+        mat2: "2 Iron Ore",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard"
+    },
+    {
+        level: "26",
+        name: "Thunderstorm Axe",
+        mat1: "Inferno Axe",
+        mat2: "Iron Ingot",
+        mat3: "Silver Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "26",
+        name: "Steel Daggers",
+        mat1: "2 Steel Ingot",
+        mat2: "Yew Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "26",
+        name: "Crowsbeak Hammer",
+        mat1: "Iron Ingot",
+        mat2: "Undyed Cotton Cloth",
+        mat3: "Walnut Lumber",
+        mat4: "Clove Oil",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "26",
+        name: "Iron Raising Hammer",
+        mat1: "Iron Ingot",
+        mat2: "Iron Plate",
+        mat3: "Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "26",
+        name: "Iron Ornamental Hammer",
+        mat1: "Initiate's Chaser Hammer",
+        mat2: "Iron Rivets",
+        mat3: "Brass Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "27",
+        name: "Steel Nails",
+        mat1: "Steel Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard"
+    },
+    {
+        level: "27",
+        name: "Initiate's File",
+        mat1: "2 Iron Ingot",
+        mat2: "Toad Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "27",
+        name: "Initiate's Pliers",
+        mat1: "Iron Ingot",
+        mat2: "Iron Rivets",
+        mat3: "Crab Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "27",
+        name: "Iron Dolabra",
+        mat1: "Iron Ingot",
+        mat2: "Iron Plate",
+        mat3: "Walnut Lumber",
+        mat4: "Aldgoat Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "28",
+        name: "Steel Broadsword",
+        mat1: "Steel Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "Wolf Fang",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "28",
+        name: "Spiked Steel Labrys",
+        mat1: "3 Steel Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "28",
+        name: "Iron Chocobotail Saw",
+        mat1: "Iron Ingot",
+        mat2: "Iron Rivets",
+        mat3: "Walnut Lumber",
+        mat4: "Brass Ingot",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Steel Rivets",
+        mat1: "Steel Ingot",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard"
+    },
+    {
+        level: "29",
+        name: "Steel Claws",
+        mat1: "Steel Plate",
+        mat2: "Steel Ingot",
+        mat3: "Walnut Lumber",
+        mat4: "Fish Glue",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Heavy Crowsbeak Hammer",
+        mat1: "Crowsbeak Hammer",
+        mat2: "Iron Ingot",
+        mat3: "Clove Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Wrapped Iron Raising Hammer",
+        mat1: "Iron Raising Hammer",
+        mat2: "Walnut Lumber",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Iron Head Knife",
+        mat1: "Iron Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "Mudstone Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Plumed Iron Hatchet",
+        mat1: "Iron Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "Chocobo Feather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 2 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Steel Knives",
+        mat1: "2 Steel Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Bas-relief Steel Saw",
+        mat1: "Steel Ingot",
+        mat2: "Steel Rivets",
+        mat3: "Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Steel Chaser Hammer",
+        mat1: "Steel Ingot",
+        mat2: "Steel Rivets",
+        mat3: "Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Silver Head Knife",
+        mat1: "Iron Head Knife",
+        mat2: "Mudstone Whetstone",
+        mat3: "Silver Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Steel Pickaxe",
+        mat1: "Steel Ingot",
+        mat2: "Undyed Velveteen",
+        mat3: "Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+    {
+        level: "30",
+        name: "Steel Sledgehammer",
+        mat1: "Steel Ingot",
+        mat2: "Walnut Lumber",
+        mat3: "Fish Glue",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Shard, 3 Earth Shard"
+    },
+];

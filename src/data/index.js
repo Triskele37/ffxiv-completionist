@@ -2,32 +2,20 @@ import { eStore } from "../store/electronStore";
 import { DataGroup } from "./DataGroup";
 
 import { Character } from "./character";
-
-import { Achievements } from "./achievement";
-import { Collectables } from "./collectable";
-import { General_Logs } from "./logs";
-import { Crafting_Log } from "./crafting-log";
-import { Gathering_Log } from "./gathering-log";
 import { Duty } from "./duty";
-import { FATEs } from "./fate";
+import { Logs } from "./logs";
 import { Travel } from "./travel";
-import { Quests } from "./quest";
+import { Social } from "./social";
 
 const data = new DataGroup("Overall", null);
 data.name_fr = "Global";
 
 data.initializeSubGroups([
-    // Character,
-
-    Achievements,
-    Collectables,
-    General_Logs,
-    Crafting_Log,
-    Gathering_Log,
+    Character,
     Duty,
-    FATEs,
+    Logs,
     Travel,
-    Quests,
+    Social,
 ]);
 
 // Must be set after data initializes

@@ -1,0 +1,437 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Blacksmith_Level_Based_46_50 = function(parent) {
+    return new DataGroup("46-50", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "46",
+        name: "Bas-relief Cobalt Saw",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Rivets",
+        mat3: "Rosewood Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 5 Earth Shard"
+    },
+    {
+        level: "46",
+        name: "Electrum Head Knife",
+        mat1: "Cobalt Ingot",
+        mat2: "Electrum Ingot",
+        mat3: "Rosewood Lumber",
+        mat4: "Basilisk Whetstone",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 5 Earth Shard"
+    },
+    {
+        level: "47",
+        name: "Cobalt Raising Hammer",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Plate",
+        mat3: "Rosewood Lumber",
+        mat4: "Cobalt Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 5 Earth Shard"
+    },
+    {
+        level: "47",
+        name: "Electrum Lapidary Hammer",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Rivets",
+        mat3: "Rosewood Lumber",
+        mat4: "Tourmaline",
+        mat5: "Electrum Ingot",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 5 Earth Shard"
+    },
+    {
+        level: "47",
+        name: "Vintage Bill",
+        mat1: "Notched Bill",
+        mat2: "Basilisk Whetstone",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Earth Crystal"
+    },
+    {
+        level: "48",
+        name: "Cobalt Zweihander",
+        mat1: "3 Cobalt Ingot",
+        mat2: "Electrum Ingot",
+        mat3: "Rosewood Lumber",
+        mat4: "Raptor Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "48",
+        name: "Cobalt-barreled Musketoon",
+        mat1: "2 Cobalt Ingot",
+        mat2: "Electrum Ingot",
+        mat3: "Rosewood Lumber",
+        mat4: "Wyvern Obsidian",
+        mat5: "Black Firesand",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "48",
+        name: "Egret Dolabra",
+        mat1: "Cobalt Ingot",
+        mat2: "Cobalt Plate",
+        mat3: "Rosewood Lumber",
+        mat4: "Boar Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "49",
+        name: "Cobalt Winglet",
+        mat1: "2 Cobalt Ingot",
+        mat2: "Mahogany Lumber",
+        mat3: "Horn Glue",
+        mat4: "Sunrise Tellin",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "49",
+        name: "Spiked Cobalt Labrys",
+        mat1: "3 Cobalt Ingot",
+        mat2: "2 Silver Ingot",
+        mat3: "Rosewood Lumber",
+        mat4: "Raptor Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "49",
+        name: "Cobalt Claws",
+        mat1: "Cobalt Plate",
+        mat2: "Cobalt Ingot",
+        mat3: "Mahogany Lumber",
+        mat4: "Horn Glue",
+        mat5: "Brass Ingot",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "49",
+        name: "Cobalt Baselards",
+        mat1: "2 Cobalt Ingot",
+        mat2: "Rosewood Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "49",
+        name: "Horned Hatchet",
+        mat1: "Cobalt Ingot",
+        mat2: "Rosewood Lumber",
+        mat3: "Boar Leather",
+        mat4: "Aldgoat Leather",
+        mat5: "Raptor Sinew",
+        mat6: "X",
+        catalysts: "6 Fire Shard, 6 Earth Shard"
+    },
+    {
+        level: "50★",
+        name: "Darksteel Nugget",
+        mat1: "3 Darksteel Ore",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal"
+    },
+    {
+        level: "50★",
+        name: "Darksteel Rivets",
+        mat1: "Darksteel Nugget",
+        mat2: "X",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal"
+    },
+    {
+        level: "50★",
+        name: "Aeolian Scimitar",
+        mat1: "Blunt Aeolian Scimitar",
+        mat2: "Darksteel Nugget",
+        mat3: "Basilisk Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Barbarian's Bardiche",
+        mat1: "Bloody Bardiche Head",
+        mat2: "Darksteel Nugget",
+        mat3: "Basilisk Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Claw Hammer",
+        mat1: "Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "Shark Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia File",
+        mat1: "2 Darksteel Nugget",
+        mat2: "Hippogryph Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Pliers",
+        mat1: "Darksteel Nugget",
+        mat2: "Darksteel Rivets",
+        mat3: "Shark Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Awl",
+        mat1: "Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "Shark Oil",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Mortar",
+        mat1: "2 Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Culinary Knife",
+        mat1: "Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "Basilisk Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Sledgehammer",
+        mat1: "Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "Horn Glue",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★",
+        name: "Militia Scythe",
+        mat1: "Darksteel Nugget",
+        mat2: "Spruce Lumber",
+        mat3: "Basilisk Whetstone",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Fire Crystal, 2 Earth Crystal"
+    },
+    {
+        level: "50★★",
+        name: "Darksteel Ingot",
+        mat1: "2 Darksteel Nugget",
+        mat2: "9 Coke",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Avenger Grips",
+        mat1: "Darksteel Ingot",
+        mat2: "2 Rose Gold Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Obelisk Head",
+        mat1: "Darksteel Ingot",
+        mat2: "2 Darksteel Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Mailbreaker Blade",
+        mat1: "Darksteel Ingot",
+        mat2: "2 Rose Gold Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Rampager Head",
+        mat1: "Darksteel Ingot",
+        mat2: "2 Darksteel Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Misericorde Blades",
+        mat1: "Darksteel Ingot",
+        mat2: "Rose Gold Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Mailbreaker",
+        mat1: "Mailbreaker Blade",
+        mat2: "Darksteel Nugget",
+        mat3: "Rose Gold Nugget",
+        mat4: "Hippogryph Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Rampager",
+        mat1: "Rampager Head",
+        mat2: "2 Darksteel Plate",
+        mat3: "Spruce Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Subduer",
+        mat1: "Darksteel Ingot",
+        mat2: "3 Darksteel Nugget",
+        mat3: "Rose Gold Nugget",
+        mat4: "Spruce Lumber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Obelisk",
+        mat1: "Obelisk Head",
+        mat2: "3 Darksteel Nugget",
+        mat3: "Spruce Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Avengers",
+        mat1: "Avenger Grips",
+        mat2: "Darksteel Nugget",
+        mat3: "Rose Gold Nugget",
+        mat4: "Spruce Lumber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Misericordes",
+        mat1: "Misericorde Blades",
+        mat2: "Darksteel Nugget",
+        mat3: "Rose Gold Nugget",
+        mat4: "Spruce Lumber",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Darksteel-barreled Blunderbuss",
+        mat1: "Darksteel Ingot",
+        mat2: "2 Darksteel Nugget",
+        mat3: "Rose Gold Nugget",
+        mat4: "Spruce Lumber",
+        mat5: "2 Wyvern Obsidian",
+        mat6: "Black Firesand",
+        catalysts: "Fire Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★★",
+        name: "Model Magitek Bit",
+        mat1: "Wootz Ingot",
+        mat2: "Garlean Steel Joint",
+        mat3: "Garlean Steel Plate",
+        mat4: "Garlean Fiber",
+        mat5: "Garlean Rubber",
+        mat6: "Glazenut",
+        catalysts: "99 Fire Shard"
+    },
+];

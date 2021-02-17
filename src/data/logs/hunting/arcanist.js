@@ -1,7 +1,7 @@
 import { DataGroup } from "../../DataGroup";
 import tasks from "../../../../static/logs/hunting/arcanist";
 
-export const General_Logs_Hunting_Log_Arcanist = function(parent) {
+export const Logs_Hunting_Log_Arcanist = function(parent) {
     const data = new DataGroup("Arcanist", parent);
     data.name_fr = "Arcaniste";
 

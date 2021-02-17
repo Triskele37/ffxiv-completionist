@@ -33,8 +33,8 @@ function createWindow () {
     if(isMaximized) mainWindow.maximize();
 
     // Taskbar Icon
-    const image = nativeImage.createFromPath(path.join(__dirname, '/icon.png'));
-    mainWindow.setIcon(image);
+    // const image = nativeImage.createFromPath(path.join(__dirname, '../../assets/icons/icon.png'));
+    // mainWindow.setIcon(image);
 
     // Tell the window what to load
     mainWindow.loadURL(winURL);

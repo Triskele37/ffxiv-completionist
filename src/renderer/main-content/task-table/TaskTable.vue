@@ -1,10 +1,12 @@
 <template>
     <div id="item-container">
-        <div class="action-button-container" v-if="showTable">
-            <button class="action-button" @click="selectAll">Select All</button>
-            <button class="action-button" @click="deselectAll">Deselect All</button>
-            <button class="action-button" @click="excludeAll">Exclude All</button>
-        </div>
+        <template v-if="tasks && tasks.length && !tasks[0].isNumericCompletion">
+            <div class="action-button-container" v-if="showTable">
+                <button class="action-button" @click="selectAll">Select All</button>
+                <button class="action-button" @click="deselectAll">Deselect All</button>
+                <button class="action-button" @click="excludeAll">Exclude All</button>
+            </div>
+        </template>
 
         <table
             class="task-table"
@@ -14,6 +16,7 @@
                 @filter-change="onFilterChange"
                 :column-config="columnConfig"
                 :uniqueValues="uniqueValues"
+                :is-numeric-completion="tasks && tasks.length && tasks[0].isNumericCompletion"
             />
             <task-table-data-row
                 :column-config="columnConfig"

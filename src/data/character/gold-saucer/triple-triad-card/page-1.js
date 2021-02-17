@@ -1,0 +1,278 @@
+import { DataGroup } from "../../../DataGroup";
+
+export const Character_Gold_Saucer_Triple_Triad_Card_List_Page_1 = function(parent) {
+    return new DataGroup("Page 1", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "number": "001",
+        "name": "Dodo",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Quest: Triple Triad Trial",
+        "patch": "2.51"
+    },
+    {
+        "number": "002",
+        "name": "Tonberry",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Memeroon",
+        "acquiredBy": "The Wanderer's Palace, The Wanderer's Palace (Hard)",
+        "patch": "2.51"
+    },
+    {
+        "number": "003",
+        "name": "Sabotender",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Quest: Triple Triad Trial",
+        "patch": "2.51"
+    },
+    {
+        "number": "004",
+        "name": "Spriggan",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Triple Triad Master",
+        "acquiredBy": "Bronze Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "005",
+        "name": "Pudding",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Roger",
+        "acquiredBy": "Bronze Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "006",
+        "name": "Bomb",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Quest: Triple Triad Trial",
+        "patch": "2.51"
+    },
+    {
+        "number": "007",
+        "name": "Mandragora",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Quest: Triple Triad Trial",
+        "patch": "2.51"
+    },
+    {
+        "number": "008",
+        "name": "Coblyn",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Maisenta, Wymond",
+        "acquiredBy": "Bronze Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "009",
+        "name": "Morbol",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Roger",
+        "acquiredBy": "The Aurum Vale",
+        "patch": "2.51"
+    },
+    {
+        "number": "010",
+        "name": "Coeurl",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Quest: Triple Triad Trial",
+        "patch": "2.51"
+    },
+    {
+        "number": "011",
+        "name": "Ahriman",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Ourdilic",
+        "acquiredBy": "Dzemael Darkhold",
+        "patch": "2.51"
+    },
+    {
+        "number": "012",
+        "name": "Goobbue",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Mother Miounne, Aurifort of the Three Clubs",
+        "acquiredBy": "Bronze Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "013",
+        "name": "Chocobo",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Guhtwint of the Three Diamonds",
+        "acquiredBy": "600 MGP",
+        "patch": "2.51"
+    },
+    {
+        "number": "014",
+        "name": "Amalj'aa",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "Memeroon",
+        "acquiredBy": "Silver Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "015",
+        "name": "Ixal",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "Jonas of the Three Spades, Joellaut",
+        "acquiredBy": "Silver Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "016",
+        "name": "Sylph",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "Maisenta",
+        "acquiredBy": "Silver Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "017",
+        "name": "Kobold",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "",
+        "acquiredBy": "Silver Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "018",
+        "name": "Sahagin",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "Baderon",
+        "acquiredBy": "Sastasha, Sastasha (Hard)",
+        "patch": "2.51"
+    },
+    {
+        "number": "019",
+        "name": "Tataru Taru",
+        "rarity": "★",
+        "type": "Scion",
+        "opponent": "Tataru",
+        "acquiredBy": "Silver Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "020",
+        "name": "Moogle",
+        "rarity": "★",
+        "type": "Beastman",
+        "opponent": "Jonas of the Three Spades, Trachtoum",
+        "acquiredBy": "840 MGP",
+        "patch": "2.51"
+    },
+    {
+        "number": "021",
+        "name": "Siren",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Mimidoa",
+        "acquiredBy": "Pharos Sirius",
+        "patch": "2.51"
+    },
+    {
+        "number": "022",
+        "name": "Ultros & Typhon",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Helmhart",
+        "acquiredBy": "The Dragon's Neck",
+        "patch": "2.51"
+    },
+    {
+        "number": "023",
+        "name": "Demon Wall",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Buscarron",
+        "acquiredBy": "Amdapor Keep, Amdapor Keep (Hard)",
+        "patch": "2.51"
+    },
+    {
+        "number": "024",
+        "name": "Succubus",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Piralnaut",
+        "acquiredBy": "Haukke Manor, Haukke Manor (Hard)",
+        "patch": "2.51"
+    },
+    {
+        "number": "025",
+        "name": "Chimera",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Fufulupa",
+        "acquiredBy": "Cutter's Cry",
+        "patch": "2.51"
+    },
+    {
+        "number": "026",
+        "name": "Blue Dragon",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Ourdilic",
+        "acquiredBy": "The Stone Vigil, The Stone Vigil (Hard)",
+        "patch": "2.51"
+    },
+    {
+        "number": "027",
+        "name": "Scarface Bugaal Ja",
+        "rarity": "★★",
+        "type": "Beastman",
+        "opponent": "Guhtwint of the Three Diamonds, Aurifort of the Three Clubs",
+        "acquiredBy": "Bronze Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "028",
+        "name": "Momodi Modi",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Momodi",
+        "acquiredBy": "Gold Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "029",
+        "name": "Baderon Tenfingers",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Baderon",
+        "acquiredBy": "Gold Triad Card",
+        "patch": "2.51"
+    },
+    {
+        "number": "030",
+        "name": "Mother Miounne",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Mother Miounne",
+        "acquiredBy": "Gold Triad Card",
+        "patch": "2.51"
+    }
+];

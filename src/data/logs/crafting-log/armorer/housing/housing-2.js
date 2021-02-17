@@ -1,0 +1,382 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Armorer_Housing_Housing_2 = function(parent) {
+    return new DataGroup("Housing (2)", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "14",
+        name: "Riviera Lantern",
+        mat1: "Bronze Plate",
+        mat2: "Undyed Hempen Cloth",
+        mat3: "Beeswax Candle",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Shard, Earth Shard"
+    },
+    {
+        level: "20",
+        name: "Oasis Dining Table",
+        mat1: "2 Iron Plate",
+        mat2: "Iron Rivets",
+        mat3: "2 Elm Lumber",
+        mat4: "Beeswax",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Shard, Earth Shard"
+    },
+    {
+        level: "25",
+        name: "Glade Dining Table",
+        mat1: "2 Iron Plate",
+        mat2: "Iron Rivets",
+        mat3: "2 Yew Lumber",
+        mat4: "Beeswax",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Shard, 2 Earth Shard"
+    },
+    {
+        level: "29",
+        name: "Manor Desk",
+        mat1: "Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "3 Walnut Lumber",
+        mat4: "2 Fine Wax",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 2 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Riviera Round Table",
+        mat1: "2 Steel Plate",
+        mat2: "2 Walnut Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Riviera Wardrobe",
+        mat1: "2 Iron Plate",
+        mat2: "2 Steel Hinge",
+        mat3: "4 Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Ahriman Round Table",
+        mat1: "Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "Walnut Lumber",
+        mat4: "Linseed Oil",
+        mat5: "Ahriman Tears",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Riviera Dining Table",
+        mat1: "2 Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "2 Walnut Lumber",
+        mat4: "Linseed Oil",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "38",
+        name: "Belah'dian Crystal Lantern",
+        mat1: "Mythril Plate",
+        mat2: "2 Mythril Rings",
+        mat3: "3 Belah'dian Glass",
+        mat4: "2 Tallow Candle",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 4 Earth Shard"
+    },
+    {
+        level: "46",
+        name: "Riviera Desk",
+        mat1: "2 Cobalt Plate",
+        mat2: "2 Cobalt Rivets",
+        mat3: "2 Rosewood Lumber",
+        mat4: "2 Varnish",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 5 Earth Shard"
+    },
+    {
+        level: "48",
+        name: "Riviera Bookshelf",
+        mat1: "3 Cobalt Ingot",
+        mat2: "2 Cobalt Plate",
+        mat3: "3 Mahogany Lumber",
+        mat4: "2 Varnish",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 6 Earth Shard"
+    },
+    {
+        level: "48",
+        name: "Company Chest",
+        mat1: "2 Electrum Ingot",
+        mat2: "5 Cobalt Plate",
+        mat3: "2 Steel Hinge",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 6 Earth Shard"
+    },
+    {
+        level: "48",
+        name: "Manor Fireplace",
+        mat1: "2 Cobalt Plate",
+        mat2: "2 Rosewood Lumber",
+        mat3: "2 Clinker Bricks",
+        mat4: "2 Fine Wax",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "6 Ice Shard, 6 Earth Shard"
+    },
+    {
+        level: "50★★",
+        name: "Diagnostics Module",
+        mat1: "Darksteel Ingot",
+        mat2: "6 Rose Gold Nugget",
+        mat3: "ADS Plating",
+        mat4: "2 Clear Glass Lens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★",
+        name: "Magitek Reaper Miniature",
+        mat1: "Darksteel Ingot",
+        mat2: "Electrum Ingot",
+        mat3: "3 Mythril Plate",
+        mat4: "2 Frosted Glass Lens",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Incensory",
+        mat1: "2 Gold Ingot",
+        mat2: "2 Mythril Plate",
+        mat3: "8 Clove Oil",
+        mat4: "8 Lavender Oil",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Dead Man's Chest",
+        mat1: "3 Splintered Chest",
+        mat2: "2 Gold Ingot",
+        mat3: "Wolfram Square",
+        mat4: "Ruby",
+        mat5: "Sapphire",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Manor Marching Horn",
+        mat1: "4 Darksteel Plate",
+        mat2: "4 Mahogany Lumber",
+        mat3: "2 Manor Varnish",
+        mat4: "Glazenut",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Alchemy Furnace",
+        mat1: "Wolfram Ingot",
+        mat2: "2  Darksteel Plate",
+        mat3: "4 Darksteel Rivets",
+        mat4: "Coke",
+        mat5: "Glazenut",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Projection Module",
+        mat1: "White Raven Armor Fragment",
+        mat2: "2 Gold Ingot",
+        mat3: "4 Rose Gold Nugget",
+        mat4: "3 Cobalt Plate",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "50★★★",
+        name: "Purification Module",
+        mat1: "White Raven Armor Fragment",
+        mat2: "4 Darksteel Plate",
+        mat3: "3 Cobalt Plate",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "2 Ice Cluster, Earth Cluster"
+    },
+    {
+        level: "54",
+        name: "Hunting Supplies",
+        mat1: "4 Titanium Nugget",
+        mat2: "2 Hardsilver Nugget",
+        mat3: "2 Cedar Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Shard, 7 Earth Shard"
+    },
+    {
+        level: "66",
+        name: "Hingan Oven",
+        mat1: "5 Tama-hagane Ingot",
+        mat2: "5 Titanium Ingot",
+        mat3: "5 Electrum Ingot",
+        mat4: "6 Granite",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "66",
+        name: "Hingan Armor Display",
+        mat1: "5 Tama-hagane Ingot",
+        mat2: "3 Durium Nugget",
+        mat3: "3 Kudzu Cloth",
+        mat4: "3 Cedar Lumber",
+        mat5: "2 Urushi",
+        mat6: "X",
+        catalysts: "5 Ice Crystal, 4 Earth Crystal"
+    },
+    {
+        level: "77",
+        name: "Crystarium Teapot",
+        mat1: "3 Titanbronze Ingot",
+        mat2: "Titanbronze Nugget",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "77",
+        name: "Crystarium Bench",
+        mat1: "3 Titanbronze Ingot",
+        mat2: "2 Steppe Serge",
+        mat3: "3 Darksteel Plate",
+        mat4: "Cobalt Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "77",
+        name: "Crystarium Kitchen Hanger",
+        mat1: "4 Titanbronze Ingot",
+        mat2: "2 Titanbronze Nugget",
+        mat3: "2 Cobalt Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "First Chair's Trumpet",
+        mat1: "2 Dwarven Mythril Ingot",
+        mat2: "3 Deepgold Ingot",
+        mat3: "1 Lignum Vitae Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Automatic Door",
+        mat1: "Weathering Agent",
+        mat2: "8 Dwarven Mythril Ingot",
+        mat3: "6 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Bomb Cauldron",
+        mat1: "7 Dwarven Mythril Ingot",
+        mat2: "4 Growth Formula Kappa",
+        mat3: "3 Granite",
+        mat4: "2 Bomb Ash",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Bench",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "6 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Oasis Wall Mounted Fountain",
+        mat1: "3 Marble",
+        mat2: "2 Hard Mustone Whetstone",
+        mat3: "2 Mortar",
+        mat4: "Underground Spring Water",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Staircase",
+        mat1: "Weathering Agent",
+        mat2: "7 Dwarven Mythril Ingot",
+        mat3: "4 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+    {
+        level: "80",
+        name: "Factory Beam",
+        mat1: "Weathering Agent",
+        mat2: "6 Dwarven Mythril Ingot",
+        mat3: "4 Titanbronze Ingot",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "7 Ice Crystal, 7 Earth Crystal"
+    },
+];

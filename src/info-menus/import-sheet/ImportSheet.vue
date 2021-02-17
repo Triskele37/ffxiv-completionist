@@ -16,7 +16,7 @@
                 <li>Red: Some name/s in a row could not be found, successful matches still saved</li>
             </ul>
 
-            <p>Please note, Aether Current & Shared FATE sheets cannot currently be imported</p>
+            <p>Please note, all sheets may not be able to be imported, either partially or entirely</p>
         </div>
 
         <div class="section-container">

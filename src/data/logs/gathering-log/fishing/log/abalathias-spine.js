@@ -1,0 +1,94 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Log_Abalathias_Spine = function(parent) {
+    return new DataGroup("Abalathia's Spine", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    //-------------------------------------------- The Sea of Clouds
+    {
+        "name": "Voor Sian Siran",
+        "level": "52",
+        "zone": "The Sea of Clouds",
+        "location": "Voor Sian Siran (29,35)",
+        "type": "Freshwater"
+    },
+    {
+        "name": "The Eddies",
+        "level": "60",
+        "zone": "The Sea of Clouds",
+        "location": "Voor Sian Siran (30,39)",
+        "type": "Freshwater"
+    },
+    {
+        "name": "Cloudtop",
+        "level": "53",
+        "zone": "The Sea of Clouds",
+        "location": "Cloudtop (14,38)",
+        "type": "Floating Islands"
+    },
+    {
+        "name": "The Blue Window",
+        "level": "56",
+        "zone": "The Sea of Clouds",
+        "location": "The Blue Window (7,11)",
+        "type": "Floating Islands"
+    },
+    {
+        "name": "Mok Oogl Island",
+        "level": "56",
+        "zone": "The Sea of Clouds",
+        "location": "The Gauntlet (15,7)",
+        "type": "Floating Islands"
+    },
+    //-------------------------------------------- Azys Lla
+    {
+        "name": "Alpha Quadrant",
+        "level": "58",
+        "zone": "Azys Lla",
+        "location": "Alpha Quadrant (16,12)",
+        "type": "Aetherochemical Spill"
+    },
+    {
+        "name": "Aetherochemical Spill",
+        "level": "59",
+        "zone": "Azys Lla",
+        "location": "Beta Quadrant (30,6)",
+        "type": "Aetherochemical Spill"
+    },
+    {
+        "name": "Hyperstellar Downconvertor",
+        "level": "60",
+        "zone": "Azys Lla",
+        "location": "Alpha Quadrant (6,16)",
+        "type": "Aetherochemical Spill"
+    },
+    {
+        "name": "Delta Quadrant",
+        "level": "59",
+        "zone": "Azys Lla",
+        "location": "Delta Quadrant (10,31)",
+        "type": "Freshwater"
+    },
+    {
+        "name": "The Pappus Tree",
+        "level": "60",
+        "zone": "Azys Lla",
+        "location": "Delta Quadrant (6,35)",
+        "type": "Freshwater"
+    },
+    {
+        "name": "The Habisphere",
+        "level": "60",
+        "zone": "Azys Lla",
+        "location": "The Habisphere (38,18)",
+        "type": "Floating Islands"
+    },
+    {
+        "name": "The Flagship",
+        "level": "60",
+        "zone": "Azys Lla",
+        "location": "The Flagship (21,21)",
+        "type": "Aetherochemical Spill"
+    },
+];

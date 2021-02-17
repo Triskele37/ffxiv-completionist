@@ -1,0 +1,481 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Leatherworker_Master_Recipes_Master_Recipes_8 = function(parent) {
+    return new DataGroup("Master Recipes (8)", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+	{
+		"level": "80★★★",
+		"name": "Megalania Leather",
+		"mat1": "2 Megalania Skin",
+		"mat2": "4 Ashen Alumen",
+		"mat3": "X",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Top of Scouting",
+		"mat1": "2 Megalania Leather",
+		"mat2": "2 Duskcourt Cloth",
+		"mat3": "Sea Swallow Leather",
+		"mat4": "2 Grade 3 Dexterity Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Top of Aiming",
+		"mat1": "2 Megalania Leather",
+		"mat2": "2 Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Ingot",
+		"mat4": "2 Grade 3 Dexterity Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Top of Casting",
+		"mat1": "2 Megalania Leather",
+		"mat2": "2 Duskcourt Cloth",
+		"mat3": "Sea Swallow Leather",
+		"mat4": "2 Grade 3 Intelligence Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Top of Healing",
+		"mat1": "2 Megalania Leather",
+		"mat2": "2 Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Ingot",
+		"mat4": "2 Grade 3 Mind Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Doublet of Gathering",
+		"mat1": "4 Defthand's Dissolvent",
+		"mat2": "5 Megalania Leather",
+		"mat3": "2 Purpure Bead",
+		"mat4": "4 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Fingerless Gloves of Crafting",
+		"mat1": "3 Defthand's Dissolvent",
+		"mat2": "4 Megalania Leather",
+		"mat3": "Duskcourt Cloth",
+		"mat4": "3 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Halfgloves of Gathering",
+		"mat1": "3 Defthand's Dissolvent",
+		"mat2": "4 Megalania Leather",
+		"mat3": "Duskcourt Cloth",
+		"mat4": "3 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Leather Belt of Striking",
+		"mat1": "Megalania Leather",
+		"mat2": "Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Nugget",
+		"mat4": "Grade 3 Strength Alkaheset",
+		"mat5": "Ageflow Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Leather Belt of Scouting",
+		"mat1": "Megalania Leather",
+		"mat2": "Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Nugget",
+		"mat4": "Grade 3 Dexterity Alkahest",
+		"mat5": "Ageflow Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Leather Belt of Aiming",
+		"mat1": "Megalania Leather",
+		"mat2": "Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Nugget",
+		"mat4": "Grade 3 Dexterity Alkahest",
+		"mat5": "Ageflow Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Leather Belt of Casting",
+		"mat1": "Megalania Leather",
+		"mat2": "Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Nugget",
+		"mat4": "Grade 3 Intelligence Alkahest",
+		"mat5": "Ageflow Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Leather Belt of Healing",
+		"mat1": "Megalania Leather",
+		"mat2": "Duskcourt Cloth",
+		"mat3": "Dwarven Mythril Nugget",
+		"mat4": "Grade 3 Mind Alkahest",
+		"mat5": "Ageflow Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Tool Belt",
+		"mat1": "2 Defthand's Dissolvent",
+		"mat2": "3 Megalania Leather",
+		"mat3": "Purpure Bead",
+		"mat4": "2 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Belt of Gathering",
+		"mat1": "2 Defthand's Dissolvent",
+		"mat2": "3 Megalania Leather",
+		"mat3": "Purpure Bead",
+		"mat4": "2 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Boots of Maiming",
+		"mat1": "2 Megalania Leather",
+		"mat2": "Cobalt Alloy Ingot",
+		"mat3": "Lignum Vitae Lumber",
+		"mat4": "2 Grade 3 Strength Alkaheset",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Boots of Striking",
+		"mat1": "2 Megalania Leather",
+		"mat2": "Merbau Lumber",
+		"mat3": "Dwarven Cotton",
+		"mat4": "2 Grade 3 Strength Alkaheset",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Boots of Aiming",
+		"mat1": "2 Megalania Leather",
+		"mat2": "Merbau Lumber",
+		"mat3": "Dwarven Cotton",
+		"mat4": "2 Grade 3 Dexterity Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Boots of Casting",
+		"mat1": "2 Megalania Leather",
+		"mat2": "Cobalt Alloy Ingot",
+		"mat3": "Lignum Vitae Lumber",
+		"mat4": "2 Grade 3 Intelligence Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Neo-Ishgardian Boots of Healing",
+		"mat1": "2 Megalania Leather",
+		"mat2": "Merbau Lumber",
+		"mat3": "Dwarven Cotton",
+		"mat4": "2 Grade 3 Mind Alkahest",
+		"mat5": "Agedeep Aethersand",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Boots of Crafting",
+		"mat1": "3 Defthand's Dissolvent",
+		"mat2": "4 Megalania Leather",
+		"mat3": "Cobalt Alloy Ingot",
+		"mat4": "3 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Aesthete's Boots of Gathering",
+		"mat1": "3 Defthand's Dissolvent",
+		"mat2": "4 Megalania Leather",
+		"mat3": "Cobalt Alloy Ingot",
+		"mat4": "3 Slithersand",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "2 Earth Cluster, 2 Wind Cluster"
+	},
+	{
+		"level": "80★★★",
+		"name": "Southern Seas Shoes",
+		"mat1": "Seacloth",
+		"mat2": "2 Megalania Leather",
+		"mat3": "Dwarven Cotton",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Thylacoleo Leather",
+		"mat1": "4 Wattle Petribark",
+		"mat2": "2 Thylacoleo Skin",
+		"mat3": "X",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Hat of Casting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Saffron Cloth",
+		"mat3": "2 Grade 4 Intelligence Alkahest",
+		"mat4": "Dwarven Mythril Nugget",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Calfskin Rider's Cap",
+		"mat1": "Calf Leather",
+		"mat2": "3 Megalania Leather",
+		"mat3": "X",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Coat of Casting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "2 Solstice Ingot",
+		"mat3": "2 Grade 4 Intelligence Alkahest",
+		"mat4": "Dwarven Mythril Nugget",
+		"mat5": "2 Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Calfskin Rider's Jacket",
+		"mat1": "2 Calf Leather",
+		"mat2": "3 Megalania Leather",
+		"mat3": "Dwarven Mythril Ingot",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Armguards of Striking",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Saffron Cloth",
+		"mat3": "2 Grade 4 Strength Alkahest",
+		"mat4": "Dwarven Mythril Ingot",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Armguards of Scouting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Saffron Cloth",
+		"mat3": "2 Grade 4 Dexterity Alkahest",
+		"mat4": "Dwarven Mythril Ingot",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Armguards of Aiming",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Saffron Cloth",
+		"mat3": "2 Grade 4 Dexterity Alkahest",
+		"mat4": "Dwarven Mythril Ingot",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Gloves of Casting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Saffron Cloth",
+		"mat3": "2 Grade 4 Intelligence Alkahest",
+		"mat4": "Dwarven Mythril Nugget",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Calfskin Rider's Gloves",
+		"mat1": "Calf Leather",
+		"mat2": "3 Duskcourt Cloth",
+		"mat3": "X",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Hose of Fending",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "2 Saffron Cloth",
+		"mat3": "2 Grade 4 Vitality Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "2 Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Hose of Maiming",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "2 Saffron Cloth",
+		"mat3": "2 Grade 4 Strength Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "2 Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Hose of Casting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "2 Saffron Cloth",
+		"mat3": "2 Grade 4 Intelligence Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "2 Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Hose of Healing",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "2 Saffron Cloth",
+		"mat3": "2 Grade 4 Mind Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "2 Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Calfskin Rider's Bottoms",
+		"mat1": "2 Calf Leather",
+		"mat2": "3 Megalania Leather",
+		"mat3": "Dwarven Cotton",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Boots of Striking",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Silver Beech Lumber",
+		"mat3": "2 Grade 4 Strength Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic boots of Scouting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Silver Beech Lumber",
+		"mat3": "2 Grade 4 Dexterity Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Boots of Aiming",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Silver Beech Lumber",
+		"mat3": "2 Grade 4 Dexterity Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Exarchic Shoes of Casting",
+		"mat1": "2 Thylacoleo Leather",
+		"mat2": "Silver Beech Lumber",
+		"mat3": "2 Grade 4 Intelligence Alkahest",
+		"mat4": "Dwarven Cotton",
+		"mat5": "Levinstrike Aethersand",
+		"mat6": "X",
+		"catalysts": "3 Earth Cluster, 3 Wind Cluster"
+	},
+	{
+		"level": "80★★★★",
+		"name": "Calfskin Rider's Shoes",
+		"mat1": "Calf Leather",
+		"mat2": "3 Duskcourt Cloth",
+		"mat3": "X",
+		"mat4": "X",
+		"mat5": "X",
+		"mat6": "X",
+		"catalysts": "7 Earth Crystal, 7 Wind Crystal"
+	}
+];

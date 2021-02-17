@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_31 = function(parent) {
+    return new DataGroup("Page 31", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Official Ball",
+        "iLvl": "400",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Longmirror Lake",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Cherry Herring",
+        "iLvl": "400",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "The Spoiled One",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Eulmore Butterfly",
+        "iLvl": "403",
+        "primeLocation": "Eulmore",
+        "fishingHoles": "The Derelicts",
+        "type": "Deep Sea",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Red Hammerhead",
+        "iLvl": "403",
+        "primeLocation": "Eulmore",
+        "fishingHoles": "The Derelicts",
+        "type": "Deep Sea",
+        "bait": "Moyebi Shrimp"
+    },
+    {
+        "name": "Blood-eyed Frog",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Saint Fathric's Temple",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Spotted Blue-eye",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "The Jealous One",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Lemonfish",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Handmirror Lake",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Rebel",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Longmirror Lake",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Wild Red Betta",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Longmirror Lake",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Golden Lobster",
+        "iLvl": "403",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Saint Fathric's Temple",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Clawbow",
+        "iLvl": "403",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Yellow Pipira",
+        "iLvl": "403",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Oathfish",
+        "iLvl": "403",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "The Red Chalice",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Brightmirror Clam",
+        "iLvl": "406",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "The Spoiled One",
+        "type": "Rivers",
+        "bait": "Fruit Worm"
+    },
+    {
+        "name": "Wimple Carp",
+        "iLvl": "406",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "Handmirror Lake",
+        "type": "Lakes",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Spotted Ctenopoma",
+        "iLvl": "406",
+        "primeLocation": "Il Mheg",
+        "fishingHoles": "The Haughty One",
+        "type": "Rivers",
+        "bait": "Marble Nymph"
+    },
+    {
+        "name": "Rak'tika Trout",
+        "iLvl": "406",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "The Lotzatl",
+        "type": "Rivers",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Darkroot",
+        "iLvl": "406",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "The Red Chalice",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Night's Bass",
+        "iLvl": "406",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "The Lotzatl",
+        "type": "Rivers",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Robber Crab",
+        "iLvl": "406",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Garik Crab",
+        "iLvl": "409",
+        "primeLocation": "Amh Araeng",
+        "fishingHoles": "The Hills of Amber",
+        "type": "Sands",
+        "bait": "Desert Dessert Frog"
+    },
+    {
+        "name": "Clown Tetra",
+        "iLvl": "409",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Eryops",
+        "iLvl": "409",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "Lake Tusi Mek'ta",
+        "type": "Lakes",
+        "bait": "Clown Tetra"
+    },
+    {
+        "name": "Diamond Pipira",
+        "iLvl": "409",
+        "primeLocation": "The Rak'tika Greatwood",
+        "fishingHoles": "The Red Chalice",
+        "type": "Lakes",
+        "bait": "Robber Ball"
+    },
+    {
+        "name": "Hucho Taimen",
+        "iLvl": "412",
+        "primeLocation": "Kholusia",
+        "fishingHoles": "Upper Watts River",
+        "type": "Rivers",
+        "bait": "Robber Ball"
+    },
+];

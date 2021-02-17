@@ -1,0 +1,278 @@
+import { DataGroup } from "../../../DataGroup";
+
+export const Character_Gold_Saucer_Triple_Triad_Card_List_Page_8 = function(parent) {
+    return new DataGroup("Page 8", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "number": "211",
+        "name": "Gosetsu",
+        "rarity": "★★★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Achievement: Triple-decker VIII",
+        "patch": "4.3"
+    },
+    {
+        "number": "212",
+        "name": "Wanyudo and Katasharin",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Ushiogi",
+        "acquiredBy": "Heaven on High: Silver/Gold Sack",
+        "patch": "4.35"
+    },
+    {
+        "number": "213",
+        "name": "Hatamoto",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Ushiogi",
+        "acquiredBy": "Heaven on High: Silver/Gold Sack",
+        "patch": "4.35"
+    },
+    {
+        "number": "214",
+        "name": "Hiruko",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Ushiogi",
+        "acquiredBy": "Heaven on High: Gold Sack",
+        "patch": "4.36"
+    },
+    {
+        "number": "215",
+        "name": "Yukinko",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Botan",
+        "acquiredBy": "FATE: Eternity (Eureka Pagos)",
+        "patch": "4.36"
+    },
+    {
+        "number": "216",
+        "name": "Happy Bunny",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Botan",
+        "acquiredBy": "Eureka Pagos: Silver Coffer, Eureka Pyros: Silver Coffer",
+        "patch": "4.36"
+    },
+    {
+        "number": "217",
+        "name": "Louhi",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Botan",
+        "acquiredBy": "FATE: Louhi on Ice (Eureka Pagos)",
+        "patch": "4.36"
+    },
+    {
+        "number": "218",
+        "name": "Muud Suud",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "1,500 MGP",
+        "patch": "4.4"
+    },
+    {
+        "number": "219",
+        "name": "Tokkapchi",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Saint Mocianne's Arboretum (Hard)",
+        "patch": "4.4"
+    },
+    {
+        "number": "220",
+        "name": "Mist Dragon",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "The Burn",
+        "patch": "4.4"
+    },
+    {
+        "number": "221",
+        "name": "Suzaku",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Hell's Kier, Hell's Kier (Extreme)",
+        "patch": "4.4"
+    },
+    {
+        "number": "222",
+        "name": "Asahi sas Brutus",
+        "rarity": "★★★",
+        "type": "Garlean",
+        "opponent": "Hachinan",
+        "acquiredBy": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "223",
+        "name": "Omega",
+        "rarity": "★★★★★",
+        "type": "None",
+        "opponent": "Ironworks Hand",
+        "acquiredBy": "Alphascape V3.0, Alphascape V4.0",
+        "patch": "4.4"
+    },
+    {
+        "number": "224",
+        "name": "Karakuri Hanya",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Hokushin",
+        "acquiredBy": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "225",
+        "name": "Pazuzu",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Botan",
+        "acquiredBy": "FATE: Wail in the Willows (Eureka Anemos)",
+        "patch": "4.45"
+    },
+    {
+        "number": "226",
+        "name": "Penthesilea",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Hetsukaze",
+        "acquiredBy": "FATE: Lost Epic (Eureka Pyros)",
+        "patch": "4.45"
+    },
+    {
+        "number": "227",
+        "name": "Yojimbo & Daigaro",
+        "rarity": "★★★★★",
+        "type": "None",
+        "opponent": "Hokushin",
+        "acquiredBy": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "228",
+        "name": "Stormblood Tataru Taru",
+        "rarity": "★",
+        "type": "Scion",
+        "opponent": "",
+        "acquiredBy": "96,000 MGP",
+        "patch": "4.5"
+    },
+    {
+        "number": "229",
+        "name": "Prometheus",
+        "rarity": "★★★",
+        "type": "Garlean",
+        "opponent": "",
+        "acquiredBy": "The Ghimlyt Dark",
+        "patch": "4.5"
+    },
+    {
+        "number": "230",
+        "name": "Seiryu",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "The Wreath of Snakes, The Wreath of Snakes (Extreme)",
+        "patch": "4.5"
+    },
+    {
+        "number": "231",
+        "name": "Alpha",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Ironworks Hand",
+        "acquiredBy": "",
+        "patch": "4.5"
+    },
+    {
+        "number": "232",
+        "name": "Great Gold Whisker",
+        "rarity": "★★★★",
+        "type": "Beastman",
+        "opponent": "Gyoei",
+        "acquiredBy": "",
+        "patch": "4.5"
+    },
+    {
+        "number": "233",
+        "name": "Ultima, the High Seraph",
+        "rarity": "★★★★★",
+        "type": "None",
+        "opponent": "Hanagasa",
+        "acquiredBy": "The Orbonne Monastery",
+        "patch": "4.5"
+    },
+    {
+        "number": "234",
+        "name": "Stormblood Alphinaud and Alisaie",
+        "rarity": "★★★★★",
+        "type": "Scion",
+        "opponent": "Mero Roggo",
+        "acquiredBy": "",
+        "patch": "4.5"
+    },
+    {
+        "number": "235",
+        "name": "Dvergr",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Hetsukaze",
+        "acquiredBy": "FATE: Duty-free (Eureka Hydatos)",
+        "patch": "4.55"
+    },
+    {
+        "number": "236",
+        "name": "Ejika Tsunjika",
+        "rarity": "★★",
+        "type": "None",
+        "opponent": "Hetsukaze",
+        "acquiredBy": "",
+        "patch": "4.55"
+    },
+    {
+        "number": "237",
+        "name": "Provenance Watcher",
+        "rarity": "★★★",
+        "type": "None",
+        "opponent": "Hetsukaze",
+        "acquiredBy": "FATE: Crystalline Provenance (Eureka Hydatos)",
+        "patch": "4.55"
+    },
+    {
+        "number": "238",
+        "name": "Stormblood Gilgamesh",
+        "rarity": "★★★★",
+        "type": "None",
+        "opponent": "",
+        "acquiredBy": "Kugane Ohashi",
+        "patch": "4.56"
+    },
+    {
+        "number": "239",
+        "name": "Amaro",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Glynard",
+        "acquiredBy": "",
+        "patch": "5.0"
+    },
+    {
+        "number": "240",
+        "name": "Evil Weapon",
+        "rarity": "★",
+        "type": "None",
+        "opponent": "Drery",
+        "acquiredBy": "",
+        "patch": "5.0"
+    }
+];

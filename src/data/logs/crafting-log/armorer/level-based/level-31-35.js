@@ -1,0 +1,239 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Crafting_Log_Armorer_Level_Based_31_35 = function(parent) {
+    return new DataGroup("31-35", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        level: "31",
+        name: "Bull Hoplon",
+        mat1: "2 Steel Ingot",
+        mat2: "Steel Plate",
+        mat3: "Walnut Lumber",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "31",
+        name: "Steel Elmo",
+        mat1: "2 Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "31",
+        name: "Steel Vambraces",
+        mat1: "Steel Plate",
+        mat2: "2 Aldgoat Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "31",
+        name: "Steel Plate Belt",
+        mat1: "2 Steel Plate",
+        mat2: "Boar Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Steel Headgear",
+        mat1: "2 Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Steel Scale Mail",
+        mat1: "Silver Ingot",
+        mat2: "Steel Plate",
+        mat3: "2 Aldgoat Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Steel Scale Fingers",
+        mat1: "Steel Ingot",
+        mat2: "Steel Plate",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "32",
+        name: "Steel Scale Greaves",
+        mat1: "Steel Ingot",
+        mat2: "2 Steel Plate",
+        mat3: "Aldgoat Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "3 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "33",
+        name: "White Skillet",
+        mat1: "Steel Plate",
+        mat2: "Walnut Lumber",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "33",
+        name: "Decorated Buckler",
+        mat1: "Ironclad Bronze Buckler",
+        mat2: "Silver Ingot",
+        mat3: "Iron Rivets",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Silver Alembic",
+        mat1: "Silver Ingot",
+        mat2: "Steel Plate",
+        mat3: "Steel Rivets",
+        mat4: "Eye of Fire",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Decorated Iron Scutum",
+        mat1: "Iron Scutum",
+        mat2: "2 Iron Rivets",
+        mat3: "Toad Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Heavy Steel Armor",
+        mat1: "Brass Ingot",
+        mat2: "4 Steel Plate",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Heavy Steel Gauntlets",
+        mat1: "3 Steel Plate",
+        mat2: "Steel Rings",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "34",
+        name: "Reinforced Steel Plate Belt",
+        mat1: "3 Steel Plate",
+        mat2: "Aldgoat Leather",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Steel Barbut",
+        mat1: "Steel Ingot",
+        mat2: "Steel Plate",
+        mat3: "Iron Plate",
+        mat4: "Steel Rivets",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Altered Heavy Steel Armor",
+        mat1: "4 Steel Plate",
+        mat2: "Brass Ingot",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Steel Mitt Gauntlets",
+        mat1: "Steel Plate",
+        mat2: "Iron Plate",
+        mat3: "Steel Rivets",
+        mat4: "Boar Leather",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Heavy Steel Flanchard",
+        mat1: "3 Steel Ingot",
+        mat2: "2 Steel Rings",
+        mat3: "Boar Leather",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Steel-plated Caligae",
+        mat1: "Steel Plate",
+        mat2: "Steel Rivets",
+        mat3: "Boar Leather",
+        mat4: "Animal Sinew",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "4 Ice Shard, 3 Earth Shard"
+    },
+    {
+        level: "35",
+        name: "Vintage Hoplon",
+        mat1: "Tarnished Hoplon",
+        mat2: "Bronze Plate",
+        mat3: "X",
+        mat4: "X",
+        mat5: "X",
+        mat6: "X",
+        catalysts: "Ice Crystal"
+    },
+];

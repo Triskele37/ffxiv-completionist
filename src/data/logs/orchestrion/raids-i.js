@@ -1,0 +1,428 @@
+import { DataGroup } from "../../DataGroup";
+
+export const Logs_Orchestrion_List_Raids_I = function(parent) {
+    return new DataGroup("Raids I", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "number": "1",
+        "name": "Hubris",
+        "source": "Materials for synthesis obtained in the Labyrinth of the Ancients.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "2",
+        "name": "Tumbling Down",
+        "source": "Materials for synthesis obtained in the Labyrinth of the Ancients.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "3",
+        "name": "Now I Know the Truth",
+        "source": "Materials for synthesis obtained in Syrcus Tower.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "4",
+        "name": "Out of the Labyrinth",
+        "source": "Materials for synthesis obtained in Syrcus Tower.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "5",
+        "name": "Shattered",
+        "source": "Obtained in Syrcus Tower.",
+        "additional": "",
+        "patch": "4.2"
+    },
+    {
+        "number": "6",
+        "name": "Blind to the Dark",
+        "source": "Materials for synthesis obtained in the World of Darkness.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "7",
+        "name": "Hunger",
+        "source": "Materials for synthesis obtained in the World of Darkness.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "8",
+        "name": "Eternal Wind",
+        "source": "Materials for synthesis obtained in the Labyrinth of the Ancients, Syrcus Tower, or the World of Darkness.",
+        "additional": "",
+        "patch": "3.25"
+    },
+    {
+        "number": "9",
+        "name": "Calamity Unbound",
+        "source": "Obtained in the Aquapolis or from Kupo of Fortune in the Firmament.",
+        "additional": "Wyvernskin Treasure Map.",
+        "patch": "3.4"
+    },
+    {
+        "number": "10",
+        "name": "Spiral",
+        "source": "Available for MGP exchange at the Gold Saucer.",
+        "additional": "Purchase for 30,000 MGP.",
+        "patch": "3.5"
+    },
+    {
+        "number": "11",
+        "name": "Thunderer",
+        "source": "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5.",
+        "additional": "*Drop rates increase when participating at minimum IL.",
+        "patch": "3.25"
+    },
+    {
+        "number": "12",
+        "name": "Tempest",
+        "source": "Available for MGP exchange at the Gold Saucer.",
+        "additional": "Purchase for 30,000 MGP.",
+        "patch": "3.5"
+    },
+    {
+        "number": "13",
+        "name": "Rise of the White Raven",
+        "source": "Materials for synthesis obtained in the Second Coil of Bahamut - Turn 4.",
+        "additional": "*Drop rates increase when participating at minimum IL.",
+        "patch": "3.25"
+    },
+    {
+        "number": "14",
+        "name": "From the Ashes",
+        "source": "Materials for synthesis obtained in the Final Coil of Bahamut - Turn 3.",
+        "additional": "*Drop rates increase when participating at minimum IL.",
+        "patch": "3.25"
+    },
+    {
+        "number": "15",
+        "name": "Answers",
+        "source": "Materials for synthesis obtained in the Binding Coil of Bahamut - Turn 5, the Second Coil of Bahamut - Turn 4, or the Final Coil of Bahamut - Turn 4.",
+        "additional": "*Drop rates increase when participating at minimum IL.",
+        "patch": "3.25"
+    },
+    {
+        "number": "16",
+        "name": "Beyond Redemption",
+        "source": "Available for exchange in Old Gridania.",
+        "additional": "Exchange from Jonathas for 2 Achievement Certificates.",
+        "patch": "4.45"
+    },
+    {
+        "number": "17",
+        "name": "Aetherosphere",
+        "source": "Available for exchange in Idyllshire or Foundation",
+        "additional": "Purchase from Hismena or Rowena's Representative for 375 Allagan Tomestones of Poetics",
+        "patch": "3.5"
+    },
+    {
+        "number": "18",
+        "name": "Six Fulms Under",
+        "source": "Available for exchange in Idyllshire or Foundation",
+        "additional": "Purchase from Hismena or Rowena's Representative for 375 Allagan Tomestones of Poetics",
+        "patch": "3.5"
+    },
+    {
+        "number": "19",
+        "name": "Teardrops in the Rain",
+        "source": "Available for exchange in Idyllshire or Foundation",
+        "additional": "Purchase from Hismena or Rowena's Representative for 375 Allagan Tomestones of Poetics",
+        "patch": "3.5"
+    },
+    {
+        "number": "20",
+        "name": "A Thousand Faces",
+        "source": "Available for exchange in Idyllshire or Foundation",
+        "additional": "Purchase from Hismena or Rowena's Representative for 375 Allagan Tomestones of Poetics",
+        "patch": "3.5"
+    },
+    {
+        "number": "21",
+        "name": "Promises",
+        "source": "Chronicles of a New Era - The Shadow of Mhach quest reward.",
+        "additional": "",
+        "patch": "3.5"
+    },
+    {
+        "number": "22",
+        "name": "Shadow of the Body",
+        "source": "Chronicles of a New Era - The Shadow of Mhach quest reward.",
+        "additional": "",
+        "patch": "3.5"
+    },
+    {
+        "number": "23",
+        "name": "Sins of the Father, Sins of the Son",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "24",
+        "name": "Locus",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "25",
+        "name": "Metal",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "26",
+        "name": "Metal - Brute Justice Mode",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "27",
+        "name": "Exponential Entropy",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "28",
+        "name": "Rise",
+        "source": "Chronicles of a New Era - Alexander: The Creator quest reward.",
+        "additional": "",
+        "patch": "3.4"
+    },
+    {
+        "number": "29",
+        "name": "Moebius",
+        "source": "Available for Alexandrian gear exchange in Idyllshire.",
+        "additional": "Purchase from Bertana for 1 Alexandrian Gear.",
+        "patch": "3.5"
+    },
+    {
+        "number": "30",
+        "name": "Trisection",
+        "source": "Obtained in the Royal City of Rabanastre.",
+        "additional": "",
+        "patch": "4.1"
+    },
+    {
+        "number": "31",
+        "name": "Precipitous Combat",
+        "source": "Obtained in the Royal City of Rabanastre.",
+        "additional": "",
+        "patch": "4.1"
+    },
+    {
+        "number": "32",
+        "name": "Ultima's Transformation",
+        "source": "Obtained in the Royal City of Rabanastre.",
+        "additional": "",
+        "patch": "4.1"
+    },
+    {
+        "number": "33",
+        "name": "Protagonist's Theme",
+        "source": "Quest reward.",
+        "additional": "",
+        "patch": "4.1"
+    },
+    {
+        "number": "34",
+        "name": "Background Story",
+        "source": "Quest reward.",
+        "additional": "",
+        "patch": "4.1"
+    },
+    {
+        "number": "35",
+        "name": "World Map",
+        "source": "Return to Ivalice Reward.",
+        "additional": "",
+        "patch": "4.3"
+    },
+    {
+        "number": "36",
+        "name": "A Chapel",
+        "source": "Return to Ivalice Reward.",
+        "additional": "",
+        "patch": "4.3"
+    },
+    {
+        "number": "37",
+        "name": "The Mystery of Giruvegan",
+        "source": "Obtained in the Ridorana Lighthouse.",
+        "additional": "",
+        "patch": "4.3"
+    },
+    {
+        "number": "38",
+        "name": "Apoplexy",
+        "source": "Obtained in the Ridorana Lighthouse.",
+        "additional": "",
+        "patch": "4.3"
+    },
+    {
+        "number": "39",
+        "name": "Flash of Steel",
+        "source": "Obtained in the Ridorana Lighthouse.",
+        "additional": "",
+        "patch": "4.3"
+    },
+    {
+        "number": "40",
+        "name": "Staff Credits",
+        "source": "Quest Reward.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "41",
+        "name": "Alma's Theme",
+        "source": "Quest Reward.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "42",
+        "name": "Under the Stars",
+        "source": "Obtained in the Orbonne Monastery.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "43",
+        "name": "Pressure (No. 1)",
+        "source": "Obtained in the Orbonne Monastery.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "44",
+        "name": "Antipyretic",
+        "source": "Obtained in the Orbonne Monastery.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "45",
+        "name": "A Man Consumed",
+        "source": "Obtained in the Orbonne Monastery.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "46",
+        "name": "Ultima's Perfection",
+        "source": "Obtained in the Orbonne Monastery.",
+        "additional": "",
+        "patch": "4.45"
+    },
+    {
+        "number": "47",
+        "name": "Deltascape",
+        "source": "Quest Reward.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "48",
+        "name": "Omega Squared",
+        "source": "Obtained in Deltascape V1.0, V2.0, or V3.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "49",
+        "name": "Decisions",
+        "source": "Obtained in Deltascape V4.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "50",
+        "name": "Final, Not Final",
+        "source": "Available for exchange in Rhalgr's Reach.",
+        "additional": "Purchase from Eschina for 2 Deltascape Bolts.",
+        "patch": "4.4"
+    },
+    {
+        "number": "51",
+        "name": "A Battle Decisively",
+        "source": "Obtained in Sigmascape V1.0, V2.0, or V3.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "52",
+        "name": "Dancing Mad - Movement I",
+        "source": "Obtained in Sigmascape V4.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "53",
+        "name": "Dancing Mad - Movement II",
+        "source": "Obtained in Sigmascape V4.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "54",
+        "name": "Dancing Mad - Movement III",
+        "source": "Obtained in Sigmascape V4.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "55",
+        "name": "Dancing Mad - Movement IV",
+        "source": "Available for exchange in Rhalgr's Reach.",
+        "additional": "Purchase from Eschina for 2 Sigmascape Bolts.",
+        "patch": "4.4"
+    },
+    {
+        "number": "56",
+        "name": "Battle",
+        "source": "Obtained in Alphascape V1.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "57",
+        "name": "Primogenitor",
+        "source": "Obtained in Alphascape V2.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "58",
+        "name": "eScape",
+        "source": "Obtained in Alphascape V3.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "59",
+        "name": "Heartless",
+        "source": "Obtained in Alphascape V4.0.",
+        "additional": "",
+        "patch": "4.4"
+    },
+    {
+        "number": "60",
+        "name": "From the Heavens",
+        "source": "Available for exchange in Rhalgr's Reach.",
+        "additional": "Purchase from Eschina for 2 Alphascape Bolts.",
+        "patch": "4.4"
+    }
+];

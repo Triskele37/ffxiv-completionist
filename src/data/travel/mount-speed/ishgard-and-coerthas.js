@@ -5,37 +5,19 @@ export const Travel_Mount_Speed_Ishgard_and_Coerthas = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "Coerthas Central Highlands",
-    	increase1: "In Pursuit of the Past",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Coerthas Western Highlands",
-    	increase1: "Sounding Out the Amphitheatre",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    }, {
-    	name: "The Sea of Clouds",
-    	increase1: "Bolt, Chain, and Island",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    }, {
-    	name: "Azys Lla",
-    	increase1: "Close Encounters of the VIth Kind",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    }, {
-    	name: "Idyllshire",
-    	increase1: "Heavensward (Quest)",
-    	increase2: "-"
-    }, {
-    	name: "The Dravanian Forelands",
-    	increase1: "Lord of the Hive",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    }, {
-    	name: "The Dravanian Hinterlands",
-    	increase1: "Matoya's Cave",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    }, {
-    	name: "The Churning Mists",
-    	increase1: "Waiting for the Wind to Change",
-    	increase2: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)"
-    },
+    { name: "Coerthas Central Highlands - 1", method: "In Pursuit of the Past" },
+	{ name: "Coerthas Central Highlands - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
+    { name: "Coerthas Western Highlands - 1", method: "Sounding Out the Amphitheatre" },
+	{ name: "Coerthas Western Highlands - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
+    { name: "The Sea of Clouds - 1", method: "Bolt, Chain, and Island" },
+	{ name: "The Sea of Clouds - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
+    { name: "Azys Lla - 1", method: "Close Encounters of the VIth Kind" },
+	{ name: "Azys Lla - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
+    { name: "Idyllshire", method: "Heavensward (Quest)" },
+    { name: "The Dravanian Forelands - 1", method: "Lord of the Hive" },
+	{ name: "The Dravanian Forelands - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
+    { name: "The Dravanian Hinterlands - 1", method: "Matoya's Cave" },
+	{ name: "The Dravanian Hinterlands - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
+    { name: "The Churning Mists - 1", method: "Waiting for the Wind to Change" },
+	{ name: "The Churning Mists - 2", method: "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)" },
 ];

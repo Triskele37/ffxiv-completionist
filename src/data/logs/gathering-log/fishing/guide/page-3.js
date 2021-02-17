@@ -1,0 +1,208 @@
+import { DataGroup } from "../../../../DataGroup";
+
+export const Logs_Gathering_Log_Fishing_Guide_Page_3 = function(parent) {
+    return new DataGroup("Page 3", parent).initializeTasks(tasks);
+};
+
+const tasks = [
+    {
+        "name": "Warmwater Trout",
+        "iLvl": "23",
+        "primeLocation": "Upper La Noscea",
+        "fishingHoles": "Oakwood",
+        "type": "Lakes",
+        "bait": "Crow Fly"
+    },
+    {
+        "name": "Glass Perch",
+        "iLvl": "24",
+        "primeLocation": "Middle La Noscea",
+        "fishingHoles": "Woad Whisper Canyon",
+        "type": "Rivers",
+        "bait": "Butterworm"
+    },
+    {
+        "name": "Four-eyed Fish",
+        "iLvl": "24",
+        "primeLocation": "Upper La Noscea",
+        "fishingHoles": "Fool Falls",
+        "type": "Rivers",
+        "bait": "Butterworm"
+    },
+    {
+        "name": "Saber Sardine",
+        "iLvl": "24",
+        "primeLocation": "Western Thanalan",
+        "fishingHoles": "Crescent Cove",
+        "type": "Deep Sea",
+        "bait": "Floating Minnow"
+    },
+    {
+        "name": "Black Eel",
+        "iLvl": "25",
+        "primeLocation": "The Black Shroud",
+        "fishingHoles": "Upper Hathoeva River",
+        "type": "Rivers",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Dark Bass",
+        "iLvl": "25",
+        "primeLocation": "Central Thanalan",
+        "fishingHoles": "Lower Soot Creek",
+        "type": "Lakes",
+        "bait": "Crow Fly"
+    },
+    {
+        "name": "Blue Coral",
+        "iLvl": "25",
+        "primeLocation": "Eastern La Noscea",
+        "fishingHoles": "South Bloodshore",
+        "type": "Deep Sea",
+        "bait": "Shrimp Cage Feeder"
+    },
+    {
+        "name": "Ogre Barracuda",
+        "iLvl": "25",
+        "primeLocation": "Middle La Noscea",
+        "fishingHoles": "Summerford",
+        "type": "Deep Sea",
+        "bait": "Harbor Herring"
+    },
+    {
+        "name": "Aegis Shrimp",
+        "iLvl": "26",
+        "primeLocation": "Central Thanalan",
+        "fishingHoles": "Lower Soot Creek",
+        "type": "Lakes",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Five-ilm Pleco",
+        "iLvl": "26",
+        "primeLocation": "South Shroud",
+        "fishingHoles": "Goblinblood",
+        "type": "Lakes",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Monkfish",
+        "iLvl": "26",
+        "primeLocation": "Western Thanalan",
+        "fishingHoles": "Crescent Cove",
+        "type": "Deep Sea",
+        "bait": "Heavy Steel Jig"
+    },
+    {
+        "name": "Sea Bo",
+        "iLvl": "26",
+        "primeLocation": "Lower La Noscea",
+        "fishingHoles": "The Salt Strand",
+        "type": "Coastlines",
+        "bait": "Krill Cage Feeder"
+    },
+    {
+        "name": "Climbing Perch",
+        "iLvl": "27",
+        "primeLocation": "South Shroud",
+        "fishingHoles": "Lower Hathoeva River",
+        "type": "Lakes",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Shadow Catfish",
+        "iLvl": "27",
+        "primeLocation": "North Shroud",
+        "fishingHoles": "Fallgourd Float",
+        "type": "Lakes",
+        "bait": "Ala Mhigan Fighting Fish"
+    },
+    {
+        "name": "Bianaq Bream",
+        "iLvl": "27",
+        "primeLocation": "Eastern La Noscea",
+        "fishingHoles": "South Bloodshore",
+        "type": "Deep Sea",
+        "bait": "Steel Jig"
+    },
+    {
+        "name": "Black Ghost",
+        "iLvl": "28",
+        "primeLocation": "South Shroud",
+        "fishingHoles": "Goblinblood",
+        "type": "Lakes",
+        "bait": "Ala Mhigan Fighting Fish"
+    },
+    {
+        "name": "Black Sole",
+        "iLvl": "28",
+        "primeLocation": "Lower La Noscea",
+        "fishingHoles": "The Salt Strand",
+        "type": "Coastlines",
+        "bait": "Shrimp Cage Feeder"
+    },
+    {
+        "name": "Lamprey",
+        "iLvl": "29",
+        "primeLocation": "Southern Thanalan",
+        "fishingHoles": "Burnt Lizard Creek",
+        "type": "Rivers",
+        "bait": "Copperfish"
+    },
+    {
+        "name": "Plaguefish",
+        "iLvl": "29",
+        "primeLocation": "Southern Thanalan",
+        "fishingHoles": "Burnt Lizard Creek",
+        "type": "Rivers",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Hammerhead Shark",
+        "iLvl": "29",
+        "primeLocation": "Western Thanalan",
+        "fishingHoles": "The Silver Bazaar",
+        "type": "Deep Sea",
+        "bait": "Steel Jig"
+    },
+    {
+        "name": "Yugr'am Salmon",
+        "iLvl": "28",
+        "primeLocation": "South Shroud",
+        "fishingHoles": "Lower Hathoeva River",
+        "type": "Rivers",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Sea Pickle",
+        "iLvl": "30",
+        "primeLocation": "Eastern La Noscea",
+        "fishingHoles": "North Bloodshore",
+        "type": "Coastlines",
+        "bait": "Spoon Worm"
+    },
+    {
+        "name": "Spotted Pleco",
+        "iLvl": "30",
+        "primeLocation": "East Shroud",
+        "fishingHoles": "Verdant Drop",
+        "type": "Lakes",
+        "bait": "Bass Ball"
+    },
+    {
+        "name": "Lamp Marimo",
+        "iLvl": "31",
+        "primeLocation": "Lower La Noscea",
+        "fishingHoles": "Blind Iron Mines",
+        "type": "Lakes",
+        "bait": "Spinnerbait"
+    },
+    {
+        "name": "Indigo Herring",
+        "iLvl": "31",
+        "primeLocation": "Western Thanalan",
+        "fishingHoles": "The Silver Bazaar",
+        "type": "Coastlines",
+        "bait": "Krill Cage Feeder"
+    },
+];

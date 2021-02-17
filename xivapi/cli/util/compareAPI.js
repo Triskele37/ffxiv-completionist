@@ -5,20 +5,22 @@ const getSafeName = require('./getSafeName');
 const BASE_STATIC_DIR = './static';
 
 module.exports = function compareAPI(config, buildCb) {
-    dive(`${BASE_STATIC_DIR}/${getSafeName(config.API_ENDPOINT)}`, buildCb());
+    const totalChanges = dive(`${BASE_STATIC_DIR}/${getSafeName(config.API_ENDPOINT)}`, buildCb());
 
-    logUpdate(`\n${config.API_ENDPOINT} Comparison Completed!!!`);
+    logUpdate(`\n${config.API_ENDPOINT} Comparison Completed!!! ${totalChanges} changes found.`);
 };
 
 function dive(path, buildData) {
+    let changes = 0;
+
     // Dive each category
     if(buildData.keys && buildData.keys.length) {
-        buildData.keys.forEach((key) => dive(`${path}/${key}`, buildData[key]));
+        buildData.keys.forEach((key) => changes += dive(`${path}/${key}`, buildData[key]));
     }
 
     // Perform the actual comparisons
     if(buildData.tasks.length) {
-        logUpdate(`\nComparing tasks for ${path}`);
+        logUpdate(`Comparing tasks for ${path}`);
 
         if(fs.existsSync(`${path}.json`)) {
             const staticTasks = JSON.parse(fs.readFileSync(`${path}.json`, 'utf8'));
@@ -33,7 +35,7 @@ function dive(path, buildData) {
                     console.log(`New task not in static: ${buildTask.ID}\n`);
                 }
                 else {
-                    compareProperties(buildTask, staticTask, path);
+                    changes += compareProperties(buildTask, staticTask, path);
                 }
             });
         }
@@ -41,6 +43,8 @@ function dive(path, buildData) {
             console.log(`New section`);
         }
     }
+
+    return changes;
 }
 
 //-----------------------------------------------------------------------------
@@ -61,6 +65,7 @@ function checkForDeprecatedTasks(buildTasks, staticTasks) {
 //-----------------------------------------------------------------------------
 function compareProperties(buildTask, staticTask, path) {
     const properties = Object.keys(buildTask);
+    let changes = 0;
 
     properties.forEach((property) => {
         const isBuildPropertyUnset = buildTask[property] === undefined || buildTask[property] === null;
@@ -77,9 +82,12 @@ function compareProperties(buildTask, staticTask, path) {
         }
 
         if(message) {
-            console.log(`\n${path}/${buildTask.ID}`);
-            console.log(message);
-            console.log();
+            console.log(`${path}/${buildTask.ID}`);
+            console.log(`${message}\n\n`);
+
+            changes++;
         }
     });
+
+    return changes;
 }

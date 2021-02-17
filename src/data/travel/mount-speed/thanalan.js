@@ -5,29 +5,15 @@ export const Travel_Mount_Speed_Thanalan = function(parent) {
 };
 
 const tasks = [
-    {
-    	name: "The Goblet",
-    	increase1: "The Ultimate Weapon",
-    	increase2: "-"
-    }, {
-    	name: "Western Thanalan",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Central Thanalan",
-    	increase1: "Brotherly Love",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Eastern Thanalan",
-    	increase1: "Eyes on Me",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Southern Thanalan",
-    	increase1: "When the Worm Turns",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    }, {
-    	name: "Northern Thanalan",
-    	increase1: "The Ultimate Weapon",
-    	increase2: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)"
-    },
+    { name: "The Goblet", method: "The Ultimate Weapon" },
+    { name: "Western Thanalan - 1", method: "Brotherly Love" },
+    { name: "Western Thanalan - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "Central Thanalan - 1", method: "Brotherly Love" },
+    { name: "Central Thanalan - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "Eastern Thanalan - 1", method: "Eyes on Me" },
+    { name: "Eastern Thanalan - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "Southern Thanalan - 1", method: "When the Worm Turns" },
+    { name: "Southern Thanalan - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" }, 
+    { name: "Northern Thanalan - 1", method: "The Ultimate Weapon" },
+    { name: "Northern Thanalan - 2", method: "250 Allied Seals (Hunt Billmaster - Grand Company HQ)" },
 ];
