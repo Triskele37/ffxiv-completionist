@@ -15,6 +15,7 @@ export const migrate_5_45_to_5_5 = () => {
 
     //--------------------------------- Spelling
     overall.change('duty.fates.gyr-abania.the-fringes', 'rasin-hell', 'raisin-hell');
+    overall.change('logs.sightseeing-log.sb', 'namal', 'namai');
 
     overall.write();
 };
