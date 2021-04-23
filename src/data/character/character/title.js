@@ -2153,98 +2153,112 @@ const tasks = [
         "category": "Items",
         "achievement": "Protector",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Garo…",
         "category": "Items",
         "achievement": "Echoes Of The Golden Wolf",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Monk…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Fist",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Barago…",
         "category": "Items",
         "achievement": "Echoes Of Undying Twilight",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Dan…",
         "category": "Items",
         "achievement": "Echoes Of The White Night",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Bard…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Bow",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Black Mage…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Dark",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai White Mage…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Sun",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Zero…",
         "category": "Items",
         "achievement": "Echoes Of The Silver Wolf",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Summoner…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Vessel",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Scholar…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Lore",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Kiba…",
         "category": "Items",
         "achievement": "Echoes Of Darkness",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Machinist…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Arm",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Makai Astrologian…",
         "category": "Items",
         "achievement": "Echoes Of The Makai Star",
         "remarks": "Garo Collaboration Event",
-        "patch": "3.5"
+        "patch": "3.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Moonlifter…",
@@ -2914,9 +2928,10 @@ const tasks = [
     {
         "name_en": "Kingsglaive…",
         "category": "Quests",
-        "achievement": "Borther From Another Mothercrystal",
+        "achievement": "Brother From Another Mothercrystal",
         "remarks": "FFXV Collaboration Event",
-        "patch": "4.5"
+        "patch": "4.5",
+        defaultCompletion: "X"
     },
     {
         "name_en": "(♂) …Lord of the Fetch / (♀) …Lady of the Fetch",
@@ -3931,41 +3946,47 @@ const tasks = [
         "category": "Crafting & Gathering",
         "achievement": "Phase II Divine Ascension",
         "remarks": "Second Phase of Ishgardian Restoration",
-        "patch": "5.21"
+        "patch": "5.21",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Saint of the Firmament…",
         "category": "Crafting & Gathering",
         "achievement": "Phase III Divine Ascension",
         "remarks": "Third Phase of Ishgardian Restoration",
-        "patch": "5.31"
+        "patch": "5.31",
+        defaultCompletion: "X"
     },
     {
         "name_en": "Saint of the Firmament…",
         "category": "Crafting & Gathering",
         "achievement": "Phase IV Divine Ascension",
         "remarks": "Fourth Phase of Ishgardian Restoration",
-        "patch": "5.41"
+        "patch": "5.41",
+        defaultCompletion: "X"
     },
     {
         "name_en": "(♂) Beatus of the Firmament… / (♀) Beata of the Firmament…",
         "category": "Crafting & Gathering",
         "achievement": "Phase II Minor Miracle",
         "remarks": "Second Phase of Ishgardian Restoration",
-        "patch": "5.21"
+        "patch": "5.21",
+        defaultCompletion: "X"
     },
     {
         "name_en": "(♂) Beatus of the Firmament… / (♀) Beata of the Firmament…",
         "category": "Crafting & Gathering",
         "achievement": "Phase III Minor Miracle",
         "remarks": "Third Phase of Ishgardian Restoration",
-        "patch": "5.31"
+        "patch": "5.31",
+        defaultCompletion: "X"
     },
     {
         "name_en": "(♂) Beatus of the Firmament… / (♀) Beata of the Firmament…",
         "category": "Crafting & Gathering",
         "achievement": "Phase IV Minor Miracle",
         "remarks": "Fourth Phase of Ishgardian Restoration",
-        "patch": "5.41"
+        "patch": "5.41",
+        defaultCompletion: "X"
     }
 ];
