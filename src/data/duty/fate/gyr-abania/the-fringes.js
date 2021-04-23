@@ -107,7 +107,7 @@ const tasks = [
         type: "Notorious Monster"
     }, {
         level: "67",
-        name: "Rasin' Hell",
+        name: "Raisin' Hell",
         location: "Virdjala (30.8,21.4)",
         type: "Notorious Monster"
     }, {
