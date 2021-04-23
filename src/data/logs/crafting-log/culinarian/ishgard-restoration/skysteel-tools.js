@@ -29,7 +29,7 @@ const tasks = [
     },
     {
         "level": "80★★",
-        "name": "Oddly Specific Oill",
+        "name": "Oddly Specific Oil",
         "mat1": "Oddly Specific Aloe",
         "mat2": "2 Frantoio  ",
         "mat3": "X",
