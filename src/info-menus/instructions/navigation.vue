@@ -22,6 +22,12 @@
 
         <br/>
 
+        <h2>Search</h2>
+        <p>The "Search" page under the main menu allows you to search the app for a term</p>
+        <p>Clicking on a row in the results takes you directly to that section where search found a match</p>
+
+        <br/>
+
         <h4>Final Note</h4>
         <p>Your currently selected group is saved when closing the app to help you pick up where you left off :D</p>
         <p>There is a "Show All Tasks" button for groups that have similar sub groups under them, this will give you a table with all of the items underneath in one big table</p>

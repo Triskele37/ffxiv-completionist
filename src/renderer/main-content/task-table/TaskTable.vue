@@ -7,7 +7,7 @@
                     @mouseenter="actionDropdownOpen = true"
                     @mouseleave="actionDropdownOpen = false"
                 >
-                    &#8230;
+                    &#10147;
                 </div>
                 <div
                     v-if="actionDropdownOpen"
@@ -15,30 +15,45 @@
                     @mouseleave="actionDropdownOpen = false"
                     class="action-dropdown"
                 >
-                  <button class="action-dropdown-item" @click="changeTasks('N', 'Y')">
-                      (<span class="incomplete">&#10008</span> &#8594; <span class="complete">&#10004</span>)
-                      Mark Incomplete as Complete
-                  </button>
-                  <button class="action-dropdown-item" @click="changeTasks('N', 'X')">
-                      (<span class="incomplete">&#10008</span> &#8594; <span class="exclude">&#10006</span>)
-                      Mark Incomplete as Excluded
-                  </button>
-                  <button class="action-dropdown-item" @click="changeTasks('Y', 'N')">
-                      (<span class="complete">&#10004</span> &#8594; <span class="incomplete">&#10008</span>)
-                      Mark Complete as Incomplete
-                  </button>
-                  <button class="action-dropdown-item" @click="changeTasks('Y', 'X')">
-                      (<span class="complete">&#10004</span> &#8594; <span class="exclude">&#10006</span>)
-                      Mark Complete as Excluded
-                  </button>
-                  <button class="action-dropdown-item" @click="changeTasks('X', 'N')">
-                      (<span class="exclude">&#10006</span> &#8594; <span class="incomplete">&#10008</span>)
-                      Mark Excluded as Incomplete
-                  </button>
-                  <button class="action-dropdown-item" @click="changeTasks('X', 'Y')">
-                      (<span class="exclude">&#10006</span> &#8594; <span class="complete">&#10004</span>)
-                      Mark Excluded as Complete
-                  </button>
+                    <button class="action-dropdown-item" @click="changeTasks('N', 'Y')">
+                        <span class="incomplete">(&#10008</span> &#10147; <span class="complete">&#10004)</span>
+                        Mark Incomplete as Complete
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('N', 'X')">
+                        <span class="incomplete">(&#10008</span> &#10147; <span class="exclude">&#10006)</span>
+                        Mark Incomplete as Excluded
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('Y', 'N')">
+                        <span class="complete">(&#10004</span> &#10147; <span class="incomplete">&#10008)</span>
+                        Mark Complete as Incomplete
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('Y', 'X')">
+                        <span class="complete">(&#10004</span> &#10147; <span class="exclude">&#10006)</span>
+                        Mark Complete as Excluded
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('X', 'N')">
+                        <span class="exclude">(&#10006</span> &#10147; <span class="incomplete">&#10008)</span>
+                        Mark Excluded as Incomplete
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('X', 'Y')">
+                        <span class="exclude">(&#10006</span> &#10147; <span class="complete">&#10004)</span>
+                        Mark Excluded as Complete
+                    </button>
+                    <button class="action-dropdown-item" @click="onSelectAll(true)">Select All Tasks</button>
+                    <button class="action-dropdown-item" @click="onSelectAll(false)">Deselect All Tasks</button>
+                    <button class="action-dropdown-item" @click="onSelectAll(null)">Invert Selection</button>
+                    <button class="action-dropdown-item" @click="changeTasks('$', 'Y')">
+                        <span class="selected">(&#9755;</span> &#10147; <span class="complete">&#10004)</span>
+                        Mark Selected as Complete
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('$', 'N')">
+                        <span class="selected">(&#9755;</span> &#10147; <span class="incomplete">&#10008)</span>
+                        Mark Selected as Incomplete
+                    </button>
+                    <button class="action-dropdown-item" @click="changeTasks('$', 'X')">
+                        <span class="selected">(&#9755;</span> &#10147; <span class="exclude">&#10006)</span>
+                        Mark Selected as Excluded
+                    </button>
                 </div>
             </div>
         </template>
@@ -54,6 +69,7 @@
                 :is-numeric-completion="tasks && tasks.length && tasks[0].isNumericCompletion"
             />
             <task-table-data-row
+                :key="rerenderKey"
                 :column-config="columnConfig"
                 :tasks="filteredTasks"
             />
@@ -81,7 +97,8 @@
         },
         data: () => ({
             actionDropdownOpen: false,
-            filters: {}
+            filters: {},
+            rerenderKey: 0
         }),
         computed: {
             showTable: function() {
@@ -155,32 +172,16 @@
                 this.filters = filters;
             },
             changeTasks: function(from, to) {
-              this.filteredTasks.forEach((task) => {
-                if(task.completionFlag === from) task.changeCompletionFlag(to);
-              });
-
-              applyDataToStore(data);
-            },
-            selectAll: function() {
                 this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag === 'N') task.changeCompletionFlag('Y');
+                    if(from === '$' && task.selected) task.changeCompletionFlag(to);
+                    else if(task.completionFlag === from) task.changeCompletionFlag(to);
                 });
 
                 applyDataToStore(data);
             },
-            deselectAll: function() {
-                this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag === 'Y') task.changeCompletionFlag('N');
-                });
-
-                applyDataToStore(data);
-            },
-            excludeAll: function() {
-                this.filteredTasks.forEach((task) => {
-                    if(task.completionFlag !== 'X') task.changeCompletionFlag('X');
-                });
-
-                applyDataToStore(data);
+            onSelectAll: function(select) {
+                this.filteredTasks.forEach((task) => task.selected = select === null ? !task.selected : select);
+                this.rerenderKey++;
             },
         }
     }
@@ -201,6 +202,7 @@
     .task-table tr {
         background-color: #3282B8;
         border-bottom: 1px solid black;
+        cursor: pointer;
     }
 
     .task-table tr:nth-child(even) {
@@ -208,21 +210,21 @@
     }
 
     /*---------------------- TODO: temporarily duped from MainContent, make component ----------------------*/
-    .action-dropdown-container .complete { color: #0f7538; }
-    .action-dropdown-container .incomplete { color: #75190f; }
-    .action-dropdown-container .exclude { color: #aaa; }
+    .action-dropdown-container .complete   { font-size: 18px; color: #0f7538; }
+    .action-dropdown-container .incomplete { font-size: 18px; color: #75190f; }
+    .action-dropdown-container .exclude    { font-size: 18px; color: #aaa; }
+    .action-dropdown-container .selected   { font-size: 18px; color: darkblue; }
 
     .action-dropdown-arrow {
         background-color: #0F4C75;
-        border-radius: 10px;
+        border-radius: 12px 12px 12px 0;
         border: 1px solid;
         color: #BBE1FA;
-        height: 25px;
-        width: 30px;
-        text-align: center;
+        height: 23px;
+        width: 14px;
         user-select: none;
 
-        margin: 5px;
+        margin-bottom: 5px;
         padding: 0 10px;
     }
 
@@ -232,7 +234,7 @@
         border: 1px solid;
         color: #BBE1FA;
         position: absolute;
-        margin: -12px 0 0 5px;
+        margin-top: -6px;
         z-index: 1;
     }
 

@@ -3,6 +3,10 @@
         <tr
             v-for="task, index in tasks"
             :key="`${task.name}-${index}`"
+            :class="{
+                selected: !!task.selected
+            }"
+            @click="onClick($event, task)"
         >
             <template v-if="!task.isNumericCompletion">
                 <completion-flag-cell :task="task" :flag="task.completionFlag" />
@@ -41,11 +45,23 @@
             'completion-number-cell': NumericCompleteCell,
             'completion-flag-cell': CompleteCell,
             'external-cell': ExternalCell,
+        },
+        methods: {
+            onClick: function($event, task) {
+                if(!$event.target.className.includes('completion-flag-cell')) {
+                    task.selected = !task.selected;
+                    this.$forceUpdate();
+                }
+            }
         }
     };
 </script>
 
 <style>
+    .task-table tr.selected, .task-table tr:nth-child(even).selected {
+        background-color: darkblue;
+    }
+
     .task-table td {
         max-width: 25vw;
         padding: 0 10px;

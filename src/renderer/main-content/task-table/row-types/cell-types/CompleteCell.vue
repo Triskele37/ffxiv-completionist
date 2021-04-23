@@ -35,6 +35,7 @@
 
 <style>
     .completion-flag-cell {
+        box-sizing: border-box;
         color: black;
         cursor: pointer;
         text-align: center;
@@ -44,7 +45,6 @@
 
     .completion-flag-cell:hover {
         border: 1px solid white;
-        box-sizing: border-box;
     }
 
     .completion-flag-cell-Y {

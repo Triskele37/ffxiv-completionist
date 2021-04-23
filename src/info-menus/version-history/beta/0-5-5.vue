@@ -4,12 +4,15 @@
 
         <h2>Functionality</h2>
         <ul>
-            <li>Fix for maximized state not carrying between loads (maybe)</li>
-            <li>Fix for negative completion</li>
+            <li>Added app-wide Search functionality</li>
+            <li>Added partial table selection</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>
+            <li>Fix for maximized state not carrying between loads (maybe)</li>
+            <li>Fix for negative completion</li>
+            <li>Fix for table freakout when hovering left cell with 1 item on the table</li>
+            <li>Fixed "FFXIV Completionist" menu items not showing on reopen</li>
             <li>Removed sheet import (see below)</li>
-            <li>Added app-wide Search functionality</li>
         </ul>
 
         <h2>Data</h2>
@@ -30,6 +33,7 @@
         <ul>
             <li>An app-wide search has been added</li>
             <li>Additional and more refined "Quick-Mark" options have been added</li>
+            <li>Partial selection of multiple tasks in a table</li>
         </ul>
     </div>
 </template>

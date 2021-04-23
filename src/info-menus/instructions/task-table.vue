@@ -19,6 +19,13 @@
 
         <br/>
 
+        <h2>Select Items</h2>
+        <p>Clicking on any row will "select" it and turn it dark blue</p>
+        <p>The dropdown above the table allows for a few options with selecting as well</p>
+        <p>Selections will persist when navigating away, but not through app reloads</p>
+
+        <br/>
+
         <h2>Links (work in progress)</h2>
         <p>To the right of most items is a link to "Gamer Escape" and "Garland Tools"</p>
         <p>All these links do is fire a search at those sites, so not all items will come up with what you'd expect</p>
