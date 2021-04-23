@@ -96,7 +96,7 @@ const tasks = [
     }, {
         name: 'Master Blacksmith: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Armorer
     {
@@ -138,7 +138,7 @@ const tasks = [
     }, {
         name: 'Master Armorer: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Goldsmith
     {
@@ -180,7 +180,7 @@ const tasks = [
     }, {
         name: 'Master Goldsmith: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Leatherworker
     {
@@ -222,7 +222,7 @@ const tasks = [
     }, {
         name: 'Master Leatherworker: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Weaver
     {
@@ -264,7 +264,7 @@ const tasks = [
     }, {
         name: 'Master Weaver: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Alchemist
     {
@@ -306,7 +306,7 @@ const tasks = [
     }, {
         name: 'Master Alchemist: Glamours',
         npc: 'Tataroga: Mor Dhona (x22, y6)',
-        requirements: '3000 gil'
+        requirements: '300 gil'
     },
     //------------------------------------------------------- Culinarian
     {
