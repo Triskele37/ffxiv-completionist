@@ -2569,7 +2569,7 @@ const tasks = [
         "patch": "4.0"
     },
     {
-        "name_en": "Canal Rider…",
+        "name_en": "Canal Raider…",
         "category": "Battle",
         "achievement": "Raider Of The Lost Canals I",
         "remarks": "",

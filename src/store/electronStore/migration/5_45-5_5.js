@@ -14,6 +14,7 @@ export const migrate_5_45_to_5_5 = () => {
     // overall.moveGroup('collectables.relic-gear.zodiac.relic', 'collectables.relic-gear.zodiac');
 
     //--------------------------------- Spelling
+    overall.change('character.character.title', 'canal-rider', 'canal-raider');
     overall.change('duty.fates.gyr-abania.the-fringes', 'rasin-hell', 'raisin-hell');
     overall.change('logs.sightseeing-log.sb', 'namal', 'namai');
     overall.change('logs.crafting-log.culinarian.ishgard-restoration.skysteel-tools', 'oddly-specific-oill', 'oddly-specific-oil');
