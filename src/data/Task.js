@@ -57,7 +57,9 @@ export class Task {
         // Restrict values to the minimum defined on the task
         if(parseFloat(previousValue) < this.minValue) previousValue = this.minValue.toString();
 
-        this._parent.updateCompleted(newValue - previousValue);
+        // Prevent negative progression
+        if(newValue < this.minValue) this._parent.updateCompleted(0);
+        else this._parent.updateCompleted(newValue - previousValue);
     }
 
     get _storageKey() {
