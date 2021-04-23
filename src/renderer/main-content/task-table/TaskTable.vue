@@ -1,10 +1,45 @@
 <template>
     <div id="item-container">
         <template v-if="tasks && tasks.length && !tasks[0].isNumericCompletion">
-            <div class="action-button-container" v-if="showTable">
-                <button class="action-button" @click="selectAll">Select All</button>
-                <button class="action-button" @click="deselectAll">Deselect All</button>
-                <button class="action-button" @click="excludeAll">Exclude All</button>
+            <div class="action-dropdown-container" v-if="showTable">
+                <div
+                    class="action-dropdown-arrow"
+                    @mouseenter="actionDropdownOpen = true"
+                    @mouseleave="actionDropdownOpen = false"
+                >
+                    &#8230;
+                </div>
+                <div
+                    v-if="actionDropdownOpen"
+                    @mouseenter="actionDropdownOpen = true"
+                    @mouseleave="actionDropdownOpen = false"
+                    class="action-dropdown"
+                >
+                  <button class="action-dropdown-item" @click="changeTasks('N', 'Y')">
+                      (<span class="incomplete">&#10008</span> &#8594; <span class="complete">&#10004</span>)
+                      Mark Incomplete as Complete
+                  </button>
+                  <button class="action-dropdown-item" @click="changeTasks('N', 'X')">
+                      (<span class="incomplete">&#10008</span> &#8594; <span class="exclude">&#10006</span>)
+                      Mark Incomplete as Excluded
+                  </button>
+                  <button class="action-dropdown-item" @click="changeTasks('Y', 'N')">
+                      (<span class="complete">&#10004</span> &#8594; <span class="incomplete">&#10008</span>)
+                      Mark Complete as Incomplete
+                  </button>
+                  <button class="action-dropdown-item" @click="changeTasks('Y', 'X')">
+                      (<span class="complete">&#10004</span> &#8594; <span class="exclude">&#10006</span>)
+                      Mark Complete as Excluded
+                  </button>
+                  <button class="action-dropdown-item" @click="changeTasks('X', 'N')">
+                      (<span class="exclude">&#10006</span> &#8594; <span class="incomplete">&#10008</span>)
+                      Mark Excluded as Incomplete
+                  </button>
+                  <button class="action-dropdown-item" @click="changeTasks('X', 'Y')">
+                      (<span class="exclude">&#10006</span> &#8594; <span class="complete">&#10004</span>)
+                      Mark Excluded as Complete
+                  </button>
+                </div>
             </div>
         </template>
 
@@ -45,6 +80,7 @@
             tasks: Array,
         },
         data: () => ({
+            actionDropdownOpen: false,
             filters: {}
         }),
         computed: {
@@ -118,6 +154,13 @@
             onFilterChange: function(filters) {
                 this.filters = filters;
             },
+            changeTasks: function(from, to) {
+              this.filteredTasks.forEach((task) => {
+                if(task.completionFlag === from) task.changeCompletionFlag(to);
+              });
+
+              applyDataToStore(data);
+            },
             selectAll: function() {
                 this.filteredTasks.forEach((task) => {
                     if(task.completionFlag === 'N') task.changeCompletionFlag('Y');
@@ -138,7 +181,7 @@
                 });
 
                 applyDataToStore(data);
-            }
+            },
         }
     }
 </script>
@@ -165,15 +208,17 @@
     }
 
     /*---------------------- TODO: temporarily duped from MainContent, make component ----------------------*/
-    .action-button-container {
-        float: right;
-    }
+    .action-dropdown-container .complete { color: #0f7538; }
+    .action-dropdown-container .incomplete { color: #75190f; }
+    .action-dropdown-container .exclude { color: #aaa; }
 
-    .action-button {
+    .action-dropdown-arrow {
         background-color: #0F4C75;
         border-radius: 10px;
         border: 1px solid;
         color: #BBE1FA;
+        height: 25px;
+        width: 30px;
         text-align: center;
         user-select: none;
 
@@ -181,12 +226,38 @@
         padding: 0 10px;
     }
 
-    .action-button:hover {
+    .action-dropdown {
+        background-color: #3282B8;
+        border-radius: 0 10px 10px 10px;
+        border: 1px solid;
+        color: #BBE1FA;
+        position: absolute;
+        margin: -12px 0 0 5px;
+        z-index: 1;
+    }
+
+    .action-dropdown-item {
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        color: #BBE1FA;
+        display: block;
+        padding: 5px;
+        text-align: left;
+        width: 100%
+    }
+
+    .action-dropdown-item:last-child {
+        border: none;
+    }
+
+    .action-dropdown-arrow:hover, .action-dropdown-item:hover {
         filter: brightness(125%);
         cursor: pointer;
     }
 
-    .action-button:active {
+    .action-dropdown-arrow:active, .action-dropdown-item:active {
         filter: brightness(75%);
     }
+
 </style>

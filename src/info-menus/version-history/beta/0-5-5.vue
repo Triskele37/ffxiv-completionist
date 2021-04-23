@@ -6,6 +6,8 @@
         <ul>
             <li>Potential fix for maximized state not carrying between loads</li>
             <li>Fix for negative completion</li>
+            <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
+            <li>Changed quick mark options</li>
         </ul>
 
         <h2>Data</h2>
