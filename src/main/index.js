@@ -30,8 +30,6 @@ function createWindow () {
         }
     });
 
-    if(isMaximized) mainWindow.maximize();
-
     // Taskbar Icon
     // const image = nativeImage.createFromPath(path.join(__dirname, '../../assets/icons/icon.png'));
     // mainWindow.setIcon(image);
@@ -40,7 +38,10 @@ function createWindow () {
     mainWindow.loadURL(winURL);
 
     // Show the window once initial rendering is complete
-    mainWindow.on('ready-to-show', () => mainWindow.show());
+    mainWindow.on('ready-to-show', () => {
+        mainWindow.show();
+        if(isMaximized) mainWindow.maximize();
+    });
 
     // Capture navigation state before closing
     mainWindow.on('close', (event) => {
