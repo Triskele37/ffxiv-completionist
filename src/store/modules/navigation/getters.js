@@ -1,3 +1,4 @@
+import { MainMenu } from '../../../renderer/nav-drawer/menu-items';
 import { data } from '../../../data';
 
 export const getters = {
@@ -7,12 +8,18 @@ export const getters = {
 export function getGroupFromBreadcrumbs(breadcrumbs) {
     if(!breadcrumbs) return null;
 
-    let group = data;
-    for(let i = 1; i < breadcrumbs.length; i++) {
-        group = diveForGroup(group, breadcrumbs[i]);
-        if(!group) return null;
+    if(breadcrumbs.length === 1) {
+        if(breadcrumbs[0] === 'FFXIV Completionist') return MainMenu;
+        else return data;
     }
-    return group;
+
+    let navGroup = { subGroups: [MainMenu, ...data.subGroups] };
+
+    for(let i = 1; i < breadcrumbs.length && navGroup; i++) {
+        navGroup = diveForGroup(navGroup, breadcrumbs[i]);
+    }
+
+    return navGroup;
 }
 
 function diveForGroup(group, targetName) {

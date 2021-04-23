@@ -6,7 +6,7 @@ import other from "./other";
 
 export const instructions = {
     name: "Instructions",
-    disableSelection: true,
+    noContent: true,
     subGroups: [
         { name: 'Navigation', component: navigation },
         { name: 'Completion', component: completion },

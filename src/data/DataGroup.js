@@ -100,15 +100,6 @@ export class DataGroup {
         if(this._parent) this._parent.updateTotal(mod);
     }
 
-    //------------------------------------------------------------------ Functions that are gets
-    sg(subGroupName) {
-        if(!this.subGroups) return null;
-        for(let i = 0; i < this.subGroups.length; i++) {
-            if(this.subGroups[i].name_en === subGroupName) return this.subGroups[i];
-        }
-        return null;
-    }
-
     //------------------------------------------------------------------ Getters
     get _storageKey() {
         return this.name_en
@@ -128,6 +119,10 @@ export class DataGroup {
 
     get displayTotal() {
         return this.total - this.totalExcluded;
+    }
+
+    get groupPath() {
+        return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
 
     //------------------------------------------------------------------ Language

@@ -1,7 +1,7 @@
 <template>
     <div id="main-content">
         <!----------- Top-Level Summary ----------->
-        <div v-if="!selectedGroup">
+        <div v-if="selectedGroup.noContent || !selectedGroup">
             <landing-page/>
         </div>
         <!----------- Selected Custom Component ----------->
@@ -51,7 +51,7 @@
     import { data } from '../../data';
     import LandingPage from '../../info-menus/landing-page';
     import SummaryLine from '../summary-line/SummaryLine';
-    import ImportSheet from '../../info-menus/import-sheet/ImportSheet';
+    import SearchData from '../../info-menus/search-data/SearchData';
     import ShowAllSection from "./show-all-section/ShowAllSection";
     import TaskTable from './task-table/TaskTable';
 
@@ -64,7 +64,7 @@
         components: {
             'landing-page': LandingPage,
             'summary-line': SummaryLine,
-            'import-sheet': ImportSheet,
+            'search-data': SearchData,
             'show-all-section': ShowAllSection,
             'task-table': TaskTable,
         },

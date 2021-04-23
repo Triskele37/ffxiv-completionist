@@ -4,11 +4,11 @@ import { versionHistory } from '../../info-menus/version-history';
 
 export const MainMenu = {
     name: "FFXIV Completionist",
-    disableSelection: true,
+    noContent: true,
     subGroups: [
         instructions,
         { name: "Dev Notes", component: dev_notes },
-        { name: "Import", component: "import-sheet" },
+        { name: "Search", component: "search-data" },
         versionHistory,
     ],
 };

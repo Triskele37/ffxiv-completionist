@@ -5,6 +5,7 @@ export const mutations = {
     PUSH_CRUMB: pushCrumb,
     POP_CRUMBS_UNTIL: popCrumbsUntil,
     SET_CRUMB_AT: setCrumbAt,
+    SET_BREADCRUMBS: setBreadcrumbs,
 
     SET_SELECTED_GROUP: setSelectedGroupTo,
 };
@@ -44,6 +45,13 @@ function setCrumbAt(state, data) {
     }
 
     state.breadcrumbs = breadcrumbs.concat(data.groupName);
+    eStore.set('last-breadcrumbs', state.breadcrumbs);
+}
+
+function setBreadcrumbs(state, breadcrumbs) {
+    state.breadcrumbs = breadcrumbs;
+    state.selectedGroup = getGroupFromBreadcrumbs(breadcrumbs);
+
     eStore.set('last-breadcrumbs', state.breadcrumbs);
 }
 
