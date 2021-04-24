@@ -125,6 +125,25 @@ export class DataGroup {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
 
+    sg(subGroupName) {
+        if(!this.subGroups) return null;
+        for(let i = 0; i < this.subGroups.length; i++) {
+            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
+            if(this.subGroups[i].tempName === subGroupName) return this.subGroups[i];
+        }
+        return null;
+    }
+
+    //------------------------------------------------------------------ Get Subgroups
+    getChildGroupFromPath(path) {
+        // No more path means we're the group being requested
+        if(path.length === 0) return this;
+
+        // Pop off the first part of the path and dive
+        const nextStep = path.shift();
+        return this.sg(nextStep).getChildGroupFromPath(path);
+    }
+
     //------------------------------------------------------------------ Language
     get lang() {
         return this._lang;

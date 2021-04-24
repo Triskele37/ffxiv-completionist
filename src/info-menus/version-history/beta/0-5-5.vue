@@ -2,9 +2,12 @@
     <div>
         <h1>Version 0.5.5 - (Beta)</h1>
 
+        <p>Please see instructions on new feature functionality</p>
+
         <h2>Functionality</h2>
         <ul>
             <li>Added app-wide Search functionality</li>
+            <li>Added custom task entry with merge capability</li>
             <li>Added partial table selection</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>

@@ -1,8 +1,8 @@
 import { data } from '../../data';
 
 //----------------------------------------------------------------------------- Main Callback
-export const searchData = function(searchTerm) {
-    const matches = searchGroupForTerm(data, searchTerm);
+export const searchData = function(searchTerm, strict) {
+    const matches = searchGroupForTerm(data, searchTerm, strict);
     const groupedMatches = groupMatches(matches);
 
     return cleanGroupedMatches(groupedMatches);
@@ -13,19 +13,19 @@ function arrayEquals(a, b) {
 }
 
 //----------------------------------------------------------------------------- Recursive Search
-function searchGroupForTerm(group, searchTerm) {
+function searchGroupForTerm(group, searchTerm, strict) {
     const matches = [];
 
     // Recurse downward
     if(group.subGroups && group.subGroups.length) {
-        group.subGroups.forEach((subGroup) => matches.push(...searchGroupForTerm(subGroup, searchTerm)));
+        group.subGroups.forEach((subGroup) => matches.push(...searchGroupForTerm(subGroup, searchTerm, strict)));
     }
 
     // Search current group
     if(group.tasks && group.tasks.length) {
         group.tasks.forEach((task) => {
-            if(task.name && namesFuzzyMatch(searchTerm, task.name)) matches.push([...group.groupPath, task.name]);
-            if(task.Name && namesFuzzyMatch(searchTerm, task.Name)) matches.push([...group.groupPath, task.Name]);
+            if(task.name && namesFuzzyMatch(searchTerm, task.name, strict)) matches.push([...group.groupPath, task.name]);
+            if(task.Name && namesFuzzyMatch(searchTerm, task.Name, strict)) matches.push([...group.groupPath, task.Name]);
         });
     }
 
@@ -33,11 +33,13 @@ function searchGroupForTerm(group, searchTerm) {
 }
 
 // Fuzzy matches search term against task name or if task name includes search term
-function namesFuzzyMatch(searchTerm, taskName) {
+function namesFuzzyMatch(searchTerm, taskName, strict) {
     const fuzzySearchTerm = searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
     const fuzzyTaskName = taskName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-    return fuzzySearchTerm === fuzzyTaskName || fuzzyTaskName.includes(fuzzySearchTerm);
+    if(fuzzySearchTerm === fuzzyTaskName) return true;
+
+    return !strict && fuzzyTaskName.includes(fuzzySearchTerm);
 }
 
 //----------------------------------------------------------------------------- Group Results

@@ -37,8 +37,9 @@
             </template>
             <template v-else-if="selectedGroup.tasks">
                 <task-table
-                    :column-config="selectedGroup.columnConfig"
+                    :group="selectedGroup"
                     :tasks="selectedGroup.tasks"
+                    :column-config="selectedGroup.columnConfig"
                 />
             </template>
         </template>

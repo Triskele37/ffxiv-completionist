@@ -1,72 +1,24 @@
 <template>
-    <div id="item-container">
-        <template v-if="tasks && tasks.length && !tasks[0].isNumericCompletion">
-            <div class="action-dropdown-container" v-if="showTable">
-                <div
-                    class="action-dropdown-arrow"
-                    @mouseenter="actionDropdownOpen = true"
-                    @mouseleave="actionDropdownOpen = false"
-                >
-                    &#10147;
-                </div>
-                <div
-                    v-if="actionDropdownOpen"
-                    @mouseenter="actionDropdownOpen = true"
-                    @mouseleave="actionDropdownOpen = false"
-                    class="action-dropdown"
-                >
-                    <button class="action-dropdown-item" @click="changeTasks('N', 'Y')">
-                        <span class="incomplete">(&#10008</span> &#10147; <span class="complete">&#10004)</span>
-                        Mark Incomplete as Complete
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('N', 'X')">
-                        <span class="incomplete">(&#10008</span> &#10147; <span class="exclude">&#10006)</span>
-                        Mark Incomplete as Excluded
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('Y', 'N')">
-                        <span class="complete">(&#10004</span> &#10147; <span class="incomplete">&#10008)</span>
-                        Mark Complete as Incomplete
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('Y', 'X')">
-                        <span class="complete">(&#10004</span> &#10147; <span class="exclude">&#10006)</span>
-                        Mark Complete as Excluded
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('X', 'N')">
-                        <span class="exclude">(&#10006</span> &#10147; <span class="incomplete">&#10008)</span>
-                        Mark Excluded as Incomplete
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('X', 'Y')">
-                        <span class="exclude">(&#10006</span> &#10147; <span class="complete">&#10004)</span>
-                        Mark Excluded as Complete
-                    </button>
-                    <button class="action-dropdown-item" @click="onSelectAll(true)">Select All Tasks</button>
-                    <button class="action-dropdown-item" @click="onSelectAll(false)">Deselect All Tasks</button>
-                    <button class="action-dropdown-item" @click="onSelectAll(null)">Invert Selection</button>
-                    <button class="action-dropdown-item" @click="changeTasks('$', 'Y')">
-                        <span class="selected">(&#9755;</span> &#10147; <span class="complete">&#10004)</span>
-                        Mark Selected as Complete
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('$', 'N')">
-                        <span class="selected">(&#9755;</span> &#10147; <span class="incomplete">&#10008)</span>
-                        Mark Selected as Incomplete
-                    </button>
-                    <button class="action-dropdown-item" @click="changeTasks('$', 'X')">
-                        <span class="selected">(&#9755;</span> &#10147; <span class="exclude">&#10006)</span>
-                        Mark Selected as Excluded
-                    </button>
-                </div>
-            </div>
-        </template>
+    <div id="item-container" v-if="!!columnConfig">
+        <span v-if="hasTasks && !tasks[0].isNumericCompletion">
+            <quick-mark-dropdown
+                v-on:select-change="onSelectChange"
+                :filtered-tasks="filteredTasks"
+            />
+        </span>
 
-        <table
-            class="task-table"
-            v-if="showTable"
-        >
+        <span v-if="group.isCustomGroup">
+            <add-custom-task
+                :filtered-tasks="filteredTasks"
+            />
+        </span>
+
+        <table class="task-table" v-if="hasTasks">
             <task-table-header
                 @filter-change="onFilterChange"
                 :column-config="columnConfig"
                 :uniqueValues="uniqueValues"
-                :is-numeric-completion="tasks && tasks.length && tasks[0].isNumericCompletion"
+                :is-numeric-completion="tasks[0].isNumericCompletion"
             />
             <task-table-data-row
                 :key="rerenderKey"
@@ -79,32 +31,32 @@
 
 <script>
     // Components
+    import QuickMarkDropdown from './QuickMarkDropdown';
+    import AddCustomTask from './AddCustomTask';
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
-    import { data } from "../../../data";
-    import { applyDataToStore } from "../../../store/electronStore/applyDataToStore";
 
     // Export component
     export default {
         name: 'task-table',
         components: {
+            'quick-mark-dropdown': QuickMarkDropdown,
+            'add-custom-task': AddCustomTask,
             'task-table-header': TaskTableHeader,
             'task-table-data-row': TaskTableDataRow,
         },
         props: {
             columnConfig: Array,
+            group: Object,
             tasks: Array,
         },
         data: () => ({
-            actionDropdownOpen: false,
             filters: {},
             rerenderKey: 0
         }),
         computed: {
-            showTable: function() {
-                if(!this.columnConfig) return false;
-                if(!this.tasks) return false;
-                return this.tasks.length > 0;
+            hasTasks: function() {
+                return this.tasks && this.tasks.length > 0;
             },
             uniqueValues: function() {
                 const uniqueValues = {};
@@ -171,18 +123,12 @@
             onFilterChange: function(filters) {
                 this.filters = filters;
             },
-            changeTasks: function(from, to) {
-                this.filteredTasks.forEach((task) => {
-                    if(from === '$' && task.selected) task.changeCompletionFlag(to);
-                    else if(task.completionFlag === from) task.changeCompletionFlag(to);
-                });
-
-                applyDataToStore(data);
-            },
-            onSelectAll: function(select) {
-                this.filteredTasks.forEach((task) => task.selected = select === null ? !task.selected : select);
+            onSelectChange: function() {
                 this.rerenderKey++;
             },
+            addCustomTask: function() {
+
+            }
         }
     }
 </script>
@@ -191,6 +137,10 @@
     /*---------------------- Container ----------------------*/
     #item-container {
 
+    }
+
+    #item-container > span {
+        display: inline-block;
     }
 
     .task-table {
@@ -208,58 +158,4 @@
     .task-table tr:nth-child(even) {
         background-color: #0F4C75;
     }
-
-    /*---------------------- TODO: temporarily duped from MainContent, make component ----------------------*/
-    .action-dropdown-container .complete   { font-size: 18px; color: #0f7538; }
-    .action-dropdown-container .incomplete { font-size: 18px; color: #75190f; }
-    .action-dropdown-container .exclude    { font-size: 18px; color: #aaa; }
-    .action-dropdown-container .selected   { font-size: 18px; color: darkblue; }
-
-    .action-dropdown-arrow {
-        background-color: #0F4C75;
-        border-radius: 12px 12px 12px 0;
-        border: 1px solid;
-        color: #BBE1FA;
-        height: 23px;
-        width: 14px;
-        user-select: none;
-
-        margin-bottom: 5px;
-        padding: 0 10px;
-    }
-
-    .action-dropdown {
-        background-color: #3282B8;
-        border-radius: 0 10px 10px 10px;
-        border: 1px solid;
-        color: #BBE1FA;
-        position: absolute;
-        margin-top: -6px;
-        z-index: 1;
-    }
-
-    .action-dropdown-item {
-        background: none;
-        border: none;
-        border-bottom: 1px solid white;
-        color: #BBE1FA;
-        display: block;
-        padding: 5px;
-        text-align: left;
-        width: 100%
-    }
-
-    .action-dropdown-item:last-child {
-        border: none;
-    }
-
-    .action-dropdown-arrow:hover, .action-dropdown-item:hover {
-        filter: brightness(125%);
-        cursor: pointer;
-    }
-
-    .action-dropdown-arrow:active, .action-dropdown-item:active {
-        filter: brightness(75%);
-    }
-
 </style>
