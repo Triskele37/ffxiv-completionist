@@ -4,7 +4,6 @@ export class Task {
     name;
     _parent;
 
-    language = eStore.get('lang') || 'en';
     completionFlag = 'N';
 
     // minValue = 0; // Define this for numeric completion tasks
@@ -17,15 +16,6 @@ export class Task {
             this[key] = task[key];
 
             if(parent.isNumericCompletion) this.isNumericCompletion = true;
-
-            // Create a getter for this property to aid in localization
-            if(key.includes('_en')) {
-                const nonLocalizedKey = key.replace('_en', '');
-
-                Object.defineProperty(this, nonLocalizedKey, {
-                    get: () => this[`${nonLocalizedKey}_${this.language}`]
-                });
-            }
         });
 
         // Attach parent
@@ -63,7 +53,7 @@ export class Task {
     }
 
     get _storageKey() {
-        const name = (this.Name || this.name).trim();
+        const name = (this.Name || this.name || '').trim();
 
         return name
             .toLowerCase()

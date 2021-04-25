@@ -11,6 +11,9 @@ import { Custom } from "./custom";
 const data = new DataGroup("Overall", null);
 data.name_fr = "Global";
 
+// Must be set after data initializes
+data.lang = eStore.get('lang');
+
 data.initializeSubGroups([
     Character,
     Duty,
@@ -19,8 +22,5 @@ data.initializeSubGroups([
     Social,
     Custom,
 ]);
-
-// Must be set after data initializes
-data.lang = eStore.get('lang');
 
 export { data };

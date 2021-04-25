@@ -24,7 +24,7 @@ export class DataGroup {
     constructor(name, parent) {
         this.name_en = name;
         this._parent = parent;
-        this.lang = 'en';
+        this.lang = parent ? parent.lang : 'en';
 
         // Inherit things
         if(this._parent) {
@@ -78,10 +78,6 @@ export class DataGroup {
     initializeTasksFromSubGroup(subGroupTotal) {
         this.total += subGroupTotal;
         if(this._parent) this._parent.initializeTasksFromSubGroup(subGroupTotal);
-    }
-
-    initializeLocalization(lang) {
-
     }
 
     //------------------------------------------------------------------ Task Update
@@ -151,10 +147,6 @@ export class DataGroup {
 
     set lang(newLang) {
         this._lang = newLang;
-        this.name = this[`name_${newLang}`] || this.name_en;
-
-        (this.subGroups || []).forEach((subGroup) => {
-            subGroup.lang = newLang;
-        });
+        (this.subGroups || []).forEach((subGroup) => subGroup.lang = newLang);
     }
 }
