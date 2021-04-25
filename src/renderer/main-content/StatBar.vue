@@ -12,7 +12,7 @@
 <script>
     import { data } from '../../data';
     import { mapState } from 'vuex';
-    import SummaryLine from '../summary-line/SummaryLine';
+    import SummaryLine from '../components/SummaryLine';
 
     export default {
         data: () => ({
@@ -37,9 +37,9 @@
     };
 </script>
 
-<style>
-    #stat-bar {
-        height: 100px;
-        padding: 0 10px;
-    }
+<style lang="scss">
+#stat-bar {
+    height: 100px;
+    padding: 0 10px;
+}
 </style>

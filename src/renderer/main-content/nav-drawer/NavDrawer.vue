@@ -19,9 +19,9 @@
 </template>
 
 <script>
-    import { data } from '../../data';
-    import { MainMenu } from './menu-items';
-    import NavGroup from './nav-group/NavGroup.vue';
+    import { data } from '../../../data';
+    import { MainMenu } from './main-menu';
+    import NavGroup from './NavGroup.vue';
 
     export default {
         name: 'nav-drawer',
@@ -35,15 +35,16 @@
     }
 </script>
 
-<style>
-    /*---------------------- Navigation Bar ----------------------*/
-    #nav-drawer {
-        background-color: #0F4C75;
-        display: inline-block;
+<style lang="scss">
+@import '../../../styles/colors';
 
-        height: 100%;
-        width: 250px;
+#nav-drawer {
+    background-color: $blue-3;
+    display: inline-block;
 
-        overflow-x: hidden;
-    }
+    height: 100%;
+    width: 250px;
+
+    overflow-x: hidden;
+}
 </style>

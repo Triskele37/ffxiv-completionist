@@ -1,4 +1,4 @@
-import { MainMenu } from '../../../renderer/nav-drawer/menu-items';
+import { MainMenu } from '../../../renderer/main-content/nav-drawer/main-menu';
 import { data } from '../../../data';
 
 export const getters = {

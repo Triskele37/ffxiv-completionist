@@ -1,6 +1,6 @@
-import { instructions } from '../../info-menus/instructions';
-import dev_notes from '../../info-menus/dev-notes';
-import { versionHistory } from '../../info-menus/version-history';
+import { instructions } from '../../pages/instructions';
+import dev_notes from '../../pages/dev-notes';
+import { versionHistory } from '../../pages/version-history';
 
 export const MainMenu = {
     name: "FFXIV Completionist",

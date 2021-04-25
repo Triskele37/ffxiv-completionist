@@ -1,19 +1,21 @@
 <template>
-    <div id="item-container" v-if="!!columnConfig">
-        <span v-if="hasTasks && !tasks[0].isNumericCompletion">
-            <quick-mark-dropdown
-                v-on:select-change="onSelectChange"
-                :filtered-tasks="filteredTasks"
-            />
+    <div v-if="!!columnConfig">
+        <span class="task-table-toolbar">
+            <span v-if="hasTasks && !tasks[0].isNumericCompletion">
+                <quick-mark-dropdown
+                    v-on:select-change="onSelectChange"
+                    :filtered-tasks="filteredTasks"
+                />
+            </span>
+
+            <span v-if="group.isCustomGroup">
+                <custom-task-dropdown
+                    :filtered-tasks="filteredTasks"
+                />
+            </span>
         </span>
 
-        <span v-if="group.isCustomGroup">
-            <add-custom-task
-                :filtered-tasks="filteredTasks"
-            />
-        </span>
-
-        <table class="task-table" v-if="hasTasks">
+        <table class="xiv-table" v-if="hasTasks">
             <task-table-header
                 @filter-change="onFilterChange"
                 :column-config="columnConfig"
@@ -32,7 +34,7 @@
 <script>
     // Components
     import QuickMarkDropdown from './QuickMarkDropdown';
-    import AddCustomTask from './AddCustomTask';
+    import CustomTaskDropdown from './CustomTaskDropdown';
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
 
@@ -41,7 +43,7 @@
         name: 'task-table',
         components: {
             'quick-mark-dropdown': QuickMarkDropdown,
-            'add-custom-task': AddCustomTask,
+            'custom-task-dropdown': CustomTaskDropdown,
             'task-table-header': TaskTableHeader,
             'task-table-data-row': TaskTableDataRow,
         },
@@ -125,37 +127,13 @@
             },
             onSelectChange: function() {
                 this.rerenderKey++;
-            },
-            addCustomTask: function() {
-
             }
         }
     }
 </script>
 
-<style>
-    /*---------------------- Container ----------------------*/
-    #item-container {
-
-    }
-
-    #item-container > span {
-        display: inline-block;
-    }
-
-    .task-table {
-        border-spacing: 0;
-        width: 100%;
-    }
-
-    /*---------------------- Row ----------------------*/
-    .task-table tr {
-        background-color: #3282B8;
-        border-bottom: 1px solid black;
-        cursor: pointer;
-    }
-
-    .task-table tr:nth-child(even) {
-        background-color: #0F4C75;
-    }
+<style lang="scss">
+.task-table-toolbar > span {
+    display: inline-block;
+}
 </style>

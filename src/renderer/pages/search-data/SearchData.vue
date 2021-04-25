@@ -4,14 +4,14 @@
             <div class="section-container">
                 <p>Enter your search term below</p>
                 <div class="search-line">
-                    <span class="status-indicator" :class="status"/>
-                    <input v-model="searchTerm" @keypress="searchOnEnter"/>
+                    <status-indicator :status="status"/>
+                    <input class="xiv-input" v-model="searchTerm" @keypress="searchOnEnter" placeholder="..."/>
                     <button @click="onSearch">Search</button>
                 </div>
                 {{ info }}
             </div>
             <div class="section-container">
-                <ul style="display: inline-block;">
+                <ul>
                     <li>This search is case insensitive and returns partial results</li>
                     <li>It ignores any character other than letters and numbers</li>
                     <li>Requires at least 3 characters to run</li>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="output">
-            <table class="match-table" v-if="status === 'success'">
+            <table class="xiv-table" v-if="status === 'success'">
                 <tr>
                     <th>Match/es</th>
                     <th>Group</th>
@@ -81,90 +81,23 @@ export default {
 };
 </script>
 
-<style>
-/*---------------------- Search Area ----------------------*/
+<style lang="scss">
 #search-data-container {
+    margin-right: 20px;
     height: 100%;
     width: 100%;
-}
 
-.section-container {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.search-line {
-    margin: 10px 0;
-}
-
-.output {
-    margin-top: 20px;
-}
-
-/*---------------------- Row ----------------------*/
-.match-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.match-table tr {
-    background-color: #3282B8;
-    border-bottom: 1px solid black;
-    user-select: none;
-}
-
-.match-table tr:nth-child(even) {
-    background-color: #0F4C75;
-}
-
-.match-table tr:hover {
-    cursor: pointer;
-}
-
-.match-table td {
-    padding: 5px 10px;
-    white-space: pre-wrap;
-    width: 50%;
-}
-
-/*---------------------- Dot Indicator ----------------------*/
-.status-indicator {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    background-color: #CCC;
-    border-radius: 50%;
-    margin-bottom: -3px;
-}
-
-.status-indicator.active {
-    transform: scale(1);
-    animation: pulse 2s infinite;
-}
-
-.status-indicator.success {
-    background-color: green;
-}
-
-.status-indicator.failure {
-    background-color: red;
-}
-
-/* Dot Indicator Animation */
-@keyframes pulse {
-    0% {
-        transform: scale(0.75);
-        filter: brightness(75%);
+    .section-container {
+        display: inline-block;
+        //vertical-align: top;
     }
 
-    50% {
-        transform: scale(1);
-        filter: brightness(100%);
+    .search-line {
+        margin: 10px 0;
     }
 
-    100% {
-        transform: scale(0.75);
-        filter: brightness(75%);
+    .output {
+        margin-top: 20px;
     }
 }
 </style>

@@ -1,7 +1,5 @@
 <template>
-    <td
-        class="completion-flag-cell"
-    >
+    <td class="completion-flag-cell">
         <input
             class="numeric-input"
             type="number"
@@ -13,7 +11,7 @@
 </template>
 
 <script>
-    import { getPlayerStore } from "../../../../../store/electronStore";
+    import { getPlayerStore } from "../../../../store/electronStore";
 
     export default {
         name: 'completion-number-cell',
@@ -45,27 +43,28 @@
     };
 </script>
 
-<style>
-    .completion-flag-cell {
-        border: 1px solid transparent;
-        color: black;
-        cursor: pointer;
-        text-align: center;
-        user-select: none;
-        width: 69px;
-    }
+<style lang="scss">
+@import '../../../../styles/colors';
 
-    .completion-flag-cell:hover {
+.completion-flag-cell {
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    width: 69px;
+
+    &:hover {
         border: 1px solid white;
-        box-sizing: border-box;
     }
 
-    .completion-flag-cell .numeric-input {
+    .numeric-input {
         background-color: transparent;
         border: none;
         border-bottom: 1px solid;
-        color: #BBE1FA;
+        color: $blue-1;
         margin: 10px 2.5%;
         width: 95%;
     }
+}
 </style>

@@ -85,31 +85,33 @@
     }
 </script>
 
-<style>
-    .nav-group {
-        transition: height 0.5s ease;
-    }
+<style lang="scss">
+@import '../../../styles/colors';
 
-    .nav-group.collapsed {
+.nav-group {
+    transition: height 0.5s ease;
+
+    &.collapsed {
         height: 0;
         overflow: hidden;
     }
 
     .nav-bar-button {
-        background-color: #0F4C75;
+        background-color: $blue-3;
         border-top: 2px solid black;
         height: 30px;
         line-height: 30px;
         padding: 0 5px;
         user-select: none;
-    }
 
-    .nav-bar-button:hover {
-        filter: brightness(150%);
-        cursor: pointer;
-    }
+        &:hover {
+            filter: brightness(150%);
+            cursor: pointer;
+        }
 
-    .nav-bar-button:active {
-        filter: brightness(50%);
+        &:active {
+            filter: brightness(50%);
+        }
     }
+}
 </style>

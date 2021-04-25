@@ -16,75 +16,55 @@
 </template>
 
 <script>
-    import NavDrawer from './nav-drawer/NavDrawer';
-    import StatBar from './stat-bar/StatBar';
-    import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-    import MainContent from "./main-content/MainContent";
+import '../styles/global.scss';
+import '../styles/button.scss';
+import '../styles/dropdown.scss';
+import '../styles/input.scss';
+import '../styles/table.scss';
+import '../styles/select.scss';
 
-    import { initializeData } from "../store/electronStore/initializeData";
+import NavDrawer from './main-content/nav-drawer/NavDrawer';
+import StatBar from './main-content/StatBar';
+import Breadcrumbs from './main-content/Breadcrumbs';
+import MainContent from "./main-content/MainContent";
 
-    export default {
-        components: {
-            'nav-drawer': NavDrawer,
-            'stat-bar': StatBar,
-            'breadcrumbs': Breadcrumbs,
-            'main-content': MainContent,
-        },
-        data: () => ({
-            loading: false,
-            modalText: 'Loading...'
-        }),
-        mounted: function() {
-            this.$nextTick(function() {
-                this.loading = true;
+import { initializeData } from "../store/electronStore/initializeData";
 
-                try {
-                    initializeData();
-                    this.loading = false;
-                }
-                catch(e) {
-                    this.modalText = 'An error has occurred...';
-                    console.error(e);
-                }
-            });
-        }
-    };
+export default {
+    components: {
+        'nav-drawer': NavDrawer,
+        'stat-bar': StatBar,
+        'breadcrumbs': Breadcrumbs,
+        'main-content': MainContent,
+    },
+    data: () => ({
+        loading: false,
+        modalText: 'Loading...'
+    }),
+    mounted: function() {
+        this.$nextTick(function() {
+            this.loading = true;
+
+            try {
+                initializeData();
+                this.loading = false;
+            }
+            catch(e) {
+                this.modalText = 'An error has occurred...';
+                console.error(e);
+            }
+        });
+    }
+};
 </script>
 
-<style>
-    /*---------------------- Element Styles ----------------------*/
-    /* https://colorhunt.co/palette/167893 */
-    body {
-        background-color: #1B262C;
-        color: #BBE1FA;
-        height: 100vh;
-        width: 100vw;
-        min-width: 900px;
-        margin: 0;
-        overflow: hidden;
-    }
+<style lang="scss">
+#app {
+    height: 100%;
+    width: 100%;
 
-    button {
-        user-select: none;
-    }
+    white-space: nowrap;
 
-    /*----------------------  ----------------------*/
-    #app {
-        height: 100%;
-        width: 100%;
-
-        white-space: nowrap;
-    }
-
-    #right-container {
-        display: inline-block;
-        height: 100%;
-        margin: -1px 0 0 -4px;
-        width: calc(100% - 250px);
-        vertical-align: top;
-    }
-
-    /*---------------------- Loading Modal ----------------------*/
     #loading-modal {
         background-color: rgba(0, 0, 0, 0.5);
         position: absolute;
@@ -96,20 +76,12 @@
         padding: 25% 0;
     }
 
-    /*---------------------- Scrollbar Override ----------------------*/
-    ::-webkit-scrollbar {
-        width: 10px;
+    #right-container {
+        display: inline-block;
+        height: 100%;
+        margin: -1px 0 0 -4px;
+        width: calc(100% - 250px);
+        vertical-align: top;
     }
-
-    ::-webkit-scrollbar-track {
-        background: #BBE1FA;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #0F4C75;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: #3282B8;
-    }
+}
 </style>

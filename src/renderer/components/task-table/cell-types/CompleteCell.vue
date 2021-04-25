@@ -10,7 +10,7 @@
 </template>
 
 <script>
-    import { getPlayerStore } from "../../../../../store/electronStore";
+    import { getPlayerStore } from "../../../../store/electronStore";
 
     export default {
         name: 'completion-flag-cell',
@@ -33,29 +33,31 @@
     };
 </script>
 
-<style>
-    .completion-flag-cell {
-        box-sizing: border-box;
-        color: black;
-        cursor: pointer;
-        text-align: center;
-        user-select: none;
-        width: 30px;
-    }
+<style lang="scss">
+@import '../../../../styles/colors';
 
-    .completion-flag-cell:hover {
+.completion-flag-cell {
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    width: 30px;
+
+    &:hover {
         border: 1px solid white;
     }
 
-    .completion-flag-cell-Y {
-        background-color: #0f7538;
+    &.completion-flag-cell-Y {
+        background-color: $state_completed;
     }
 
-    .completion-flag-cell-N {
-        background-color: #75190f;
+    &.completion-flag-cell-N {
+        background-color: $state_incomplete;
     }
 
-    .completion-flag-cell-X {
-        background-color: #aaa;
+    &.completion-flag-cell-X {
+        background-color: $state_excluded;
     }
+}
 </style>

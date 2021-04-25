@@ -1,37 +1,37 @@
 <template>
-    <div>
-        <div class="add-custom-task-dropdown-arrow"
+    <div class="add-custom-task-container">
+        <div class="xiv-dropdown-arrow"
              @mouseenter="dropdownOpen = true"
              @mouseleave="dropdownOpen = false"
         >
-            &#10010;
+            <icon name="plus" size="16"/>
         </div>
-        <div class="add-custom-task-dropdown"
+        <div class="xiv-dropdown-body"
              v-if="dropdownOpen && !mergingOpen"
              @mouseenter="dropdownOpen = true"
              @mouseleave="dropdownOpen = false"
         >
-            <div class="add-custom-task-dropdown-item">
-                <input class="new-task-input" v-model="newTaskName" placeholder="Enter Custom Task Name Here"/>
+            <div class="xiv-dropdown-li new-task-dropdown-li">
+                <input class="xiv-input" v-model="newTaskName" placeholder="Enter Custom Task Name Here"/>
             </div>
-            <div class="add-custom-task-dropdown-item">
-                <input class="new-task-input" v-model="newTaskNotes" placeholder="Enter Custom Task Notes Here"/>
+            <div class="xiv-dropdown-li new-task-dropdown-li">
+                <input class="xiv-input" v-model="newTaskNotes" placeholder="Enter Custom Task Notes Here"/>
             </div>
-            <button class="add-custom-task-dropdown-item" @click="addCustomTask">Add Custom Task</button>
-            <button class="add-custom-task-dropdown-item" @click="mergeCustomTasks">Merge Custom Tasks into App</button>
-            <button class="add-custom-task-dropdown-item" @click="removeSelectedCustomTasks">Remove Selected Tasks</button>
+            <button class="xiv-dropdown-li" @click="addCustomTask">Add Custom Task</button>
+            <button class="xiv-dropdown-li" @click="mergeCustomTasks">Merge Custom Tasks into App</button>
+            <button class="xiv-dropdown-li" @click="removeSelectedCustomTasks">Remove Selected Tasks</button>
         </div>
-        <div class="add-custom-task-dropdown" v-if="mergingOpen">
-            <div class="merge-custom-tasks-dropdown-item">
+        <div class="xiv-dropdown-body" v-if="mergingOpen">
+            <div class="xiv-dropdown-li merge-custom-tasks-dropdown-item">
                 {{mergeTask.name}}<br/>
                 {{mergeTask.notes}}<br/><br/>
                 {{mergeInfo}}
             </div>
-            <button class="add-custom-task-dropdown-item" @click="goToNextMerge">Skip</button>
+            <button class="xiv-dropdown-li" @click="goToNextMerge">Skip</button>
             <template v-if="mergeMatches.length > 0">
                 <button
                     v-for="match in mergeMatches"
-                    class="add-custom-task-dropdown-item"
+                    class="xiv-dropdown-li"
                     @click="confirmCurrentMerge(match)"
                 >
                     {{match.pathString}}
@@ -45,7 +45,7 @@
 import { data } from "../../../data";
 import { Task } from "../../../data/Task";
 import { getPlayerStore } from "../../../store/electronStore";
-import { searchData } from "../../../info-menus/search-data";
+import { searchData } from "../../pages/search-data";
 
 export default {
     name: 'add-custom-task',
@@ -156,73 +156,18 @@ export default {
 }
 </script>
 
-<style>
-/*---------------------- Dropdown Arrow ----------------------*/
-.add-custom-task-dropdown-arrow {
-    background-color: #0F4C75;
-    border-radius: 12px 12px 12px 0;
-    border: 1px solid;
-    color: #BBE1FA;
-    height: 23px;
-    width: 14px;
-    user-select: none;
+<style lang="scss">
+.add-custom-task-container {
+    .new-task-dropdown-li {
+        padding: 5px 0;
+    }
 
-    margin-bottom: 5px;
-    padding: 0 10px;
-}
+    .merge-custom-tasks-dropdown-item {
+        width: unset;
+    }
 
-/*---------------------- Dropdown ----------------------*/
-.add-custom-task-dropdown {
-    background-color: #3282B8;
-    border-radius: 0 10px 10px 10px;
-    border: 1px solid;
-    color: #BBE1FA;
-    position: absolute;
-    margin-top: -6px;
-    z-index: 1;
-}
-
-.add-custom-task-dropdown-item {
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    box-sizing: border-box;
-    color: #BBE1FA;
-    display: block;
-    padding: 5px;
-    text-align: left;
-    width: 100%
-}
-
-.merge-custom-tasks-dropdown-item {
-    border-bottom: 1px solid white;
-    display: block;
-    padding: 5px;
-}
-
-.add-custom-task-dropdown-item:last-child {
-    border: none;
-}
-
-.add-custom-task-dropdown-arrow:hover, .add-custom-task-dropdown-item:hover {
-    filter: brightness(125%);
-    cursor: pointer;
-}
-
-.add-custom-task-dropdown-arrow:active, .add-custom-task-dropdown-item:active {
-    filter: brightness(75%);
-}
-
-/*---------------------- Text Field ----------------------*/
-.new-task-input {
-    background-color: #3282B8;
-    border: none;
-    border-bottom: 1px solid;
-    color: #BBE1FA;
-    width: 300px;
-}
-
-.new-task-input::placeholder {
-    color: #BBE1FA;
+    .xiv-input {
+        width: 300px;
+    }
 }
 </style>

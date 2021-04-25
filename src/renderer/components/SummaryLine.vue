@@ -59,22 +59,22 @@
     }
 </script>
 
-<style>
-    /*--------------------------------- Container */
-    .summary-line {
-        background-color: #75190f;
-        position: relative;
-        margin: 5px 10px;
+<style lang="scss">
+@import '../../styles/colors';
 
-        border: 1px outset;
-        overflow: hidden;
-    }
+.summary-line {
+    background-color: $state_incomplete;
+    position: relative;
+    margin: 5px 10px;
 
-    .summary-line.excluded {
+    border: 1px outset;
+    overflow: hidden;
+
+    &.excluded {
         background-color: #333;
     }
 
-    .summary-line.big {
+    &.big {
         border-radius: 20px;
         display: block;
         text-align: center;
@@ -82,7 +82,7 @@
         width: calc(100% - 20px);
     }
 
-    .summary-line:not(.big) {
+    &:not(.big) {
         border-radius: 7.5px;
         cursor: pointer;
         display: inline-block;
@@ -90,26 +90,24 @@
         width: calc(33% - 20px);
     }
 
-    /*--------------------------------- Summary Text */
     .summary-info {
         position: absolute;
         top: 1px;
         width: calc(100% - 10px);
         z-index: 10;
+
+        &.big {
+            left: unset;
+            transform: translate(-50%, 0);
+        }
+
+        &:not(.big) {
+            left: 5px;
+        }
     }
 
-    .summary-info.big {
-        left: unset;
-        transform: translate(-50%, 0);
-    }
-
-    .summary-info:not(.big) {
-        left: 5px;
-    }
-
-    /*--------------------------------- Progress Line */
     .progress-line {
-        background-color: #0f7538;
+        background-color: $state_completed;
         display: inline-block;
         position: relative;
         height: 100%;
@@ -117,4 +115,5 @@
         float: left;
         transition: width 0.5s;
     }
+}
 </style>

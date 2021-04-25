@@ -1,6 +1,7 @@
 <template>
     <div class="show-all-section">
         <task-table
+            :group="group"
             :column-config="group.columnConfig"
             :tasks="allChildTasks"
         />
@@ -8,7 +9,7 @@
 </template>
 
 <script>
-    import TaskTable from "../task-table/TaskTable";
+    import TaskTable from "../components/task-table/TaskTable";
 
     export default {
         name: 'show-all-section',
@@ -40,8 +41,8 @@
     }
 </script>
 
-<style>
-    .show-all-section {
-        width: calc(100% - 20px);
-    }
+<style lang="scss">
+.show-all-section {
+    width: calc(100% - 20px);
+}
 </style>

@@ -1,0 +1,17 @@
+@import './colors';
+
+.xiv-select {
+    background-color: $blue-2;
+    border: none;
+    border-bottom: 1px solid;
+    color: $blue-1;
+
+    width: 100%;
+    max-width: 25vw;
+
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(150%);
+    }
+}

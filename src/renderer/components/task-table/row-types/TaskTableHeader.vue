@@ -1,11 +1,11 @@
 <template>
-    <tr>
-        <th class="completed-column">
+    <tr class="task-table-header">
+        <th class="completion-column">
             <template v-if="!isNumericCompletion">
-                <span class="complete" @click="onFilterCompletion('Y')">&#10004;</span>
-                <span class="incomplete" @click="onFilterCompletion('N')">&#10008;</span>
+                <span @click="onFilterCompletion('Y')"><icon name="complete"/></span>
+                <span @click="onFilterCompletion('N')"><icon name="incomplete"/></span>
                 <br/>
-                <span class="exclude" @click="onFilterCompletion('X')">&#10006;</span>
+                <span @click="onFilterCompletion('X')"><icon name="exclude"/></span>
             </template>
             <template v-else>
                 #
@@ -14,9 +14,9 @@
 
         <th v-for="column in columnConfig">
             <div>
-                <span v-if="column.filterable">
+                <span v-if="column.filterable" class="filter-column">
                     <select
-                        class="filter-select"
+                        class="xiv-select"
                         v-if="!filters[column.key]"
                         @change="addFilter($event, column)"
                     >
@@ -34,12 +34,9 @@
                         {{filters[column.key].value}}
                     </div>
                 </span>
-                <span
-                    class="column-container"
-                    v-else
-                >
+                <span v-else class="search-column">
                     <input
-                        class="search-input"
+                        class="xiv-input"
                         placeholder="..."
                         @keyup="modifySearch($event, column)"
                     />
@@ -127,72 +124,24 @@
     };
 </script>
 
-<style>
-    /*----------- Header -----------*/
-    .task-table th {
-        border: 1px solid black;
-        border-top: none;
-        border-left: none;
-
-        background-color: #3282B8;
-        max-width: 25vw;
-        padding: 0 5px;
-        position: sticky;
-        top: 0;
-
-        cursor: context-menu;
-        user-select: none;
-    }
-
-    .task-table th:hover {
-        /*background-color: rgba(0, 0, 0, 0.1);*/
-    }
-
-    /*----------- Completed Column -----------*/
-    .task-table .completed-column span {
+<style lang="scss">
+.task-table-header {
+    .completion-column span {
         cursor: pointer;
     }
 
-    .task-table .completed-column .complete { color: #0f7538; }
-    .task-table .completed-column .incomplete { color: #75190f; }
-    .task-table .completed-column .exclude { color: #aaa; }
+    .filter-column {
+        .applied-filter {
+            cursor: pointer;
 
-    /*----------- Filter -----------*/
-    .task-table .applied-filter {
-        cursor: pointer;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
     }
 
-    .task-table .applied-filter:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-
-    .task-table .filter-select {
-        background-color: #3282B8;
-        border: none;
-        border-bottom: 1px solid;
-        color: #BBE1FA;
-
-        width: 100%;
-        max-width: 25vw;
-
-        cursor: pointer;
-    }
-
-    .task-table .filter-select:hover {
-        filter: brightness(150%);
-    }
-
-    /*----------- Search -----------*/
-    .task-table .search-input {
-        background-color: #3282B8;
-        border: none;
-        border-bottom: 1px solid;
-        color: #BBE1FA;
-        margin: 0 2.5%;
+    .search-column .xiv-input {
         width: 95%;
     }
-
-    .task-table .search-input::placeholder {
-        color: #BBE1FA;
-    }
+}
 </style>

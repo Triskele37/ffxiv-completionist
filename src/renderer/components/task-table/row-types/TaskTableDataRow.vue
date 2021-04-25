@@ -31,9 +31,9 @@
 </template>
 
 <script>
-    import CompleteCell from './cell-types/CompleteCell';
-    import NumericCompleteCell from './cell-types/NumericCompleteCell';
-    import ExternalCell from './cell-types/ExternalCell';
+    import CompleteCell from '../cell-types/CompleteCell';
+    import NumericCompleteCell from '../cell-types/NumericCompleteCell';
+    import ExternalCell from '../cell-types/ExternalCell';
 
     export default {
         name: 'task-table-data-row',
@@ -57,19 +57,5 @@
     };
 </script>
 
-<style>
-    .task-table tr.selected, .task-table tr:nth-child(even).selected {
-        background-color: darkblue;
-    }
-
-    .task-table td {
-        max-width: 25vw;
-        padding: 0 10px;
-        white-space: normal;
-    }
-
-    /* Conditional Styling */
-    .data-cell.centered {
-        text-align: center;
-    }
+<style lang="scss">
 </style>

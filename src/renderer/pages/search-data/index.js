@@ -1,4 +1,4 @@
-import { data } from '../../data';
+import { data } from '../../../data';
 
 //----------------------------------------------------------------------------- Main Callback
 export const searchData = function(searchTerm, strict) {

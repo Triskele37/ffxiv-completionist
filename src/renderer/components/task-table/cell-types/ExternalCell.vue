@@ -5,7 +5,7 @@
             @click="gotoGamerEscape()"
         >
             <img
-                src="../../../../assets/gamerescape.png"
+                src="../../../assets/gamerescape.png"
                 alt="Gamer Escape"
                 height="20"
                 width="20"
@@ -16,7 +16,7 @@
             @click="gotoGarlandTools()"
         >
             <img
-                src="../../../../assets/Garland.png"
+                src="../../../assets/Garland.png"
                 alt="Garland Tools"
                 height="20"
                 width="20"
@@ -44,12 +44,12 @@
     };
 </script>
 
-<style>
-    .external-link-cell {
-        width: 45px;
-    }
+<style lang="scss">
+.external-link-cell {
+    width: 45px;
 
-    .external-link-cell img {
+    .img {
         cursor: pointer;
     }
+}
 </style>

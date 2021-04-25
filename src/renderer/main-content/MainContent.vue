@@ -23,7 +23,7 @@
 
             <div class="section-actions">
                 <button
-                    class="action-button"
+                    class="xiv-button"
                     v-if="showShowAllButton"
                     @click="toggleShowAll"
                 >
@@ -50,11 +50,11 @@
     import { mapState } from "vuex";
 
     import { data } from '../../data';
-    import LandingPage from '../../info-menus/landing-page';
-    import SummaryLine from '../summary-line/SummaryLine';
-    import SearchData from '../../info-menus/search-data/SearchData';
-    import ShowAllSection from "./show-all-section/ShowAllSection";
-    import TaskTable from './task-table/TaskTable';
+    import LandingPage from '../pages/landing-page';
+    import SummaryLine from '../components/SummaryLine';
+    import SearchData from '../pages/search-data/SearchData';
+    import ShowAllSection from "./ShowAllSection";
+    import TaskTable from '../components/task-table/TaskTable';
 
     export default {
         name: 'main-content',
@@ -85,12 +85,13 @@
     };
 </script>
 
-<style>
-    #main-content {
-        height: calc(100% - 160px);
-        margin: 10px;
-        overflow-y: auto;
-    }
+<style lang="scss">
+@import '../../styles/colors';
+
+#main-content {
+    height: calc(100% - 160px);
+    margin: 10px;
+    overflow-y: auto;
 
     .group-summary-section {
         display: flex;
@@ -100,25 +101,5 @@
     .section-actions {
         text-align: center;
     }
-
-    .action-button {
-        background-color: #0F4C75;
-        border-radius: 10px;
-        border: 1px solid;
-        color: #BBE1FA;
-        text-align: center;
-        user-select: none;
-
-        margin: 5px;
-        padding: 0 10px;
-    }
-
-    .action-button:hover {
-        filter: brightness(125%);
-        cursor: pointer;
-    }
-
-    .action-button:active {
-        filter: brightness(75%);
-    }
+}
 </style>

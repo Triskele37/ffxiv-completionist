@@ -27,14 +27,14 @@
     };
 </script>
 
-<style>
-    #breadcrumbs {
-        border-bottom: 1px solid;
-        margin: 0 10px;
-        height: 20px;
-    }
+<style lang="scss">
+#breadcrumbs {
+    border-bottom: 1px solid;
+    margin: 0 10px;
+    height: 20px;
 
     .breadcrumb {
         cursor: pointer;
     }
+}
 </style>
