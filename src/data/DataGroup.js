@@ -53,6 +53,11 @@ export class DataGroup {
         return data;
     }
 
+    // used only to allow one json for guildhests instead of 1 per class
+    forceName(name) {
+        this.name = name;
+    }
+
     //------------------------------------------------------------------ Post-Construction Inits
     initializeSubGroups(subGroups) {
         if(!this.subGroups) this.subGroups = [];

@@ -1,0 +1,27 @@
+{
+    "groupName": "Aetherytes",
+    "headers": {
+        "name": "Location",
+        "zone": "Zone",
+        "eLvlReq": "eLvl Required"
+    },
+    "tasks": [
+        { "name": "Port Surgate", "zone": "Anemos", "eLvlReq": "1" },
+        { "name": "Abandoned Laboratory", "zone": "Anemos", "eLvlReq": "9" },
+        { "name": "Windtorn Cabin", "zone": "Anemos", "eLvlReq": "9" },
+
+        { "name": "Icepoint", "zone": "Pagos", "eLvlReq": "20" },
+        { "name": "Vlondette's Retreat", "zone": "Pagos", "eLvlReq": "21" },
+        { "name": "Geothermal Studies", "zone": "Pagos", "eLvlReq": "23" },
+        { "name": "Gravitational Studies", "zone": "Pagos", "eLvlReq": "25" },
+
+        { "name": "Northpoint", "zone": "Pyros", "eLvlReq": "35" },
+        { "name": "The Dragon Star Observatory", "zone": "Pyros", "eLvlReq": "37" },
+        { "name": "The Firing Chamber", "zone": "Pyros", "eLvlReq": "39" },
+        { "name": "Carbonatite Quarry", "zone": "Pyros", "eLvlReq": "41" },
+
+        { "name": "Central Point", "zone": "Hydatos", "eLvlReq": "50" },
+        { "name": "Unverified Research", "zone": "Hydatos", "eLvlReq": "51" },
+        { "name": "Dormitory", "zone": "Hydatos", "eLvlReq": "55" },
+    ]
+}

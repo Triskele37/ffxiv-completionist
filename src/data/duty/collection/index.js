@@ -1,18 +1,21 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Duty_Collection_Yo_Kai_Medallium } from "./yo-kai-medallium";
 import { Duty_Collection_Portable_Archive } from "./portable-archive";
-import { Duty_Collection_Field_Record } from "./field-record";
 
+const basePath = "./duty/collection";
 export const Duty_Collection = function(parent) {
-    const data = new DataGroup("Collection", parent);
-    data.name_fr = "Objet précieux";
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
-    data.initializeSubGroups([
-        Duty_Collection_Yo_Kai_Medallium,
-        Duty_Collection_Portable_Archive,
-        Duty_Collection_Field_Record
+    group.initializeSubGroups([
+        DataGroup.fromJSON(parent, `${basePath}/yo-kai-medallium`, {
+            patch: { filterable: true }
+        }),
+        Duty_Collection_Portable_Archive(group),
+        DataGroup.fromJSON(parent, `${basePath}/field-record`, {
+            number: { centered: true },
+            patch: { filterable: true }
+        }),
     ]);
 
-    return data;
+    return group;
 };

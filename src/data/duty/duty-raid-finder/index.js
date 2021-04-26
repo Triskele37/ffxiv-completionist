@@ -2,20 +2,20 @@ import { DataGroup } from "../../DataGroup";
 
 import { Duty_Dungeons } from "./dungeon";
 import { Duty_Guildhests } from "./guildhests";
-import { Duty_Trials } from "./trial";
-import { Duty_Raids } from "./raid";
-import { Duty_The_Hunt } from "./hunt";
+import { Duty_Trials } from "./trials";
+import { Duty_Raids } from "./raids";
+import { Duty_The_Hunt } from "./the-hunt";
 
 export const Duty_Duty_Raid_Finder = function(parent) {
-    const data = new DataGroup("Duty/Raid Finder", parent);
+    const group = DataGroup.fromJSON(parent, "./duty/duty-raid-finder/index");
 
-    data.initializeSubGroups([
-        Duty_Dungeons,
-        Duty_Guildhests,
-        Duty_Trials,
-        Duty_Raids,
-        Duty_The_Hunt,
-    ]);
+    group.subGroups = [
+        Duty_Dungeons(group),
+        Duty_Guildhests(group),
+        Duty_Trials(group),
+        Duty_Raids(group),
+        Duty_The_Hunt(group),
+    ];
 
-    return data;
+    return group;
 };
