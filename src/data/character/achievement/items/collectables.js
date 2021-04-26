@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/items/collectables";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Items_Collectables = function(parent) {
-    const data = new DataGroup("Collectables", parent);
-    data.name_de = "Sammlerstücke";
-    data.name_en = "Collectables";
-    data.name_fr = "Objets collectionnables";
-    data.name_ja = "収集品";
+    const json = loadJson('./character/achievement/items/collectables', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/battle/treasure-hunt";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Battle_Treasure_Hunt = function(parent) {
-    const data = new DataGroup("Treasure Hunt", parent);
-    data.name_de = "Schatzsuche";
-    data.name_en = "Treasure Hunt";
-    data.name_fr = "Treasure Hunt";
-    data.name_ja = "トレジャーハント";
+    const json = loadJson('./character/achievement/battle/treasure-hunt', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

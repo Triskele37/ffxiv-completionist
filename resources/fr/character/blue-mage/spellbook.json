@@ -1,0 +1,635 @@
+{
+    "groupName": "Grimoire",
+    "headers": {
+        "number":  "#",
+        "name": "Spell",
+        "enemy": "Enemy",
+        "location": "Location"
+    },
+    "tasks": [
+        {
+            "number": "1",
+            "name": "Tir d'eau",
+            "enemy": "",
+            "location": "Sort de départ"
+        },
+        {
+            "number": "2",
+            "name": "Crache-flammes",
+            "enemy": "Gobtank G-VI, Einhänder",
+            "location": "Le Bivouac de Brayflox (brutal), Le Gardien du lac"
+        },
+        {
+            "number": "3",
+            "name": "Aquasouffle",
+            "enemy": "Orthros, Léviathan",
+            "location": "Le Col du dragon, Le Briseur de marées"
+        },
+        {
+            "number": "4",
+            "name": "Démence",
+            "enemy": "Zu",
+            "location": "Le Phare de Sirius"
+        },
+        {
+            "number": "5",
+            "name": "Canon-foreur",
+            "enemy": "Avant-garde magitek améliorée",
+            "location": "Thanalan septentrional (16, 15)"
+        },
+        {
+            "number": "6",
+            "name": "Haute tension",
+            "enemy": "Sphère De Contrôle, Sphère bestiale",
+            "location": "Le Labyrinthe de Bahamut I / II, La Grande Mascarade #15"
+        },
+        {
+            "number": "7",
+            "name": "Approche masquée",
+            "enemy": "Sergent-major Dalvag, Baalzephon, Dantalion",
+            "location": "Thanalan septentrional, Les Vestiges de la cité d'Amdapor, L'Hypogée de Tam-Tara (brutal)"
+        },
+        {
+            "number": "8",
+            "name": "Dard final",
+            "enemy": "Frelon tueur",
+            "location": "Noscea centrale (15, 15)"
+        },
+        {
+            "number": "9",
+            "name": "Chant de l'agonie",
+            "enemy": "Sirène",
+            "location": "Le Phare de Sirius"
+        },
+        {
+            "number": "10",
+            "name": "Regard noir",
+            "enemy": "Trésorier",
+            "location": "Le Val d'Aurum"
+        },
+        {
+            "number": "11",
+            "name": "Brise-plaine",
+            "enemy": "Golem de basalte, Golem de grès",
+            "location": "Noscea extérieure, Thanalan méridional"
+        },
+        {
+            "number": "12",
+            "name": "Hérissement",
+            "enemy": "Sanglier sauvage",
+            "location": "Forêt de l'est (18, 24)"
+        },
+        {
+            "number": "13",
+            "name": "Vent blanc",
+            "enemy": "",
+            "location": "Apprendre 10 sorts"
+        },
+        {
+            "number": "14",
+            "name": "Pétrification niveau 5",
+            "enemy": "Vigile du manoir",
+            "location": "Le Manoir des Haukke"
+        },
+        {
+            "number": "15",
+            "name": "Couteau aiguisé",
+            "enemy": "Tomberry roi",
+            "location": "Le Palais du Vagabond"
+        },
+        {
+            "number": "16",
+            "name": "Pointes de glace",
+            "enemy": "Imp",
+            "location": "Forêt centrale (27, 24)"
+        },
+        {
+            "number": "17",
+            "name": "Suceur de sang",
+            "enemy": "Chauve-souris cavernicole",
+            "location": "Basse-Noscea (27,16)"
+        },
+        {
+            "number": "18",
+            "name": "Gland explosif",
+            "enemy": "Pousse de tréant",
+            "location": "Forêt du nord (24, 28)"
+        },
+        {
+            "number": "19",
+            "name": "Lancer de bombe",
+            "enemy": "Pêcheur gobelin, Parieur gobelin",
+            "location": "Noscea centrale (23, 21)"
+        },
+        {
+            "number": "20",
+            "name": "Sans défense",
+            "enemy": "",
+            "location": "Apprendre 5 sorts"
+        },
+        {
+            "number": "21",
+            "name": "Auto-destruction",
+            "enemy": "Bombo planeur",
+            "location": "Thanalan occidental (27, 16)"
+        },
+        {
+            "number": "22",
+            "name": "Fusion",
+            "enemy": "",
+            "location": "Apprendre 20 sorts"
+        },
+        {
+            "number": "23",
+            "name": "Désorientation",
+            "enemy": "Qiqirn casse-coquille",
+            "location": "Thanalan central (16, 19)"
+        },
+        {
+            "number": "24",
+            "name": "Sardine volante",
+            "enemy": "Apkallu",
+            "location": "Noscea orientale (27, 35)"
+        },
+        {
+            "number": "25",
+            "name": "Souffle nasal",
+            "enemy": "Typhon",
+            "location": "Le Col du dragon, La Grande Masquarade"
+        },
+        {
+            "number": "26",
+            "name": "Poids de 4 tonz",
+            "enemy": "Orthros",
+            "location": "Le Col du dragon"
+        },
+        {
+            "number": "27",
+            "name": "Regard intense",
+            "enemy": "Anantaboga",
+            "location": "Le Château d'Amdapor"
+        },
+        {
+            "number": "28",
+            "name": "Mauvaise haleine",
+            "enemy": "Storoper, Morbol",
+            "location": "Forêt centrale (26, 29), Mor Dhona (15, 14)"
+        },
+        {
+            "number": "29",
+            "name": "Blindage",
+            "enemy": "Cuca Fera, Dragon cuirassé dravanien",
+            "location": "Le Vigile de Pierre (brutal), Le siège de la sainte Cité d’Ishgard"
+        },
+        {
+            "number": "30",
+            "name": "Garde puissante",
+            "enemy": "",
+            "location": "Apprendre 10 sorts"
+        },
+        {
+            "number": "31",
+            "name": "Langue poisseuse",
+            "enemy": "Crapaud toxique, Crapaud rieur",
+            "location": "Thanalan central (26, 19), Thanalan occidental (14, 6)"
+        },
+        {
+            "number": "32",
+            "name": "Huile de crapaud",
+            "enemy": "Crapaud rieur géant",
+            "location": "Thanalan occidental (15, 7)"
+        },
+        {
+            "number": "33",
+            "name": "Voix du bélier",
+            "enemy": "Chimère, Chimère Dhorme, Azulmagia",
+            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade #25"
+        },
+        {
+            "number": "34",
+            "name": "Voix du dragon",
+            "enemy": "Chimère, Chimère Dhorme, Azulmagia",
+            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade #25"
+        },
+        {
+            "number": "35",
+            "name": "Missile",
+            "enemy": "Enkidu",
+            "location": "Revanche au vieux château"
+        },
+        {
+            "number": "36",
+            "name": "1000 aiguilles",
+            "enemy": "Pampa bailarin",
+            "location": "Thanalan méridional (16, 15)"
+        },
+        {
+            "number": "37",
+            "name": "Tir d'encre",
+            "enemy": "Kraken",
+            "location": "Sastasha (brutal)"
+        },
+        {
+            "number": "38",
+            "name": "Angon enflammé",
+            "enemy": "Koheel Ja",
+            "location": "Le Palais du Vagabond (brutal)"
+        },
+        {
+            "number": "39",
+            "name": "Flûte lunaire",
+            "enemy": "",
+            "location": "Faire 10 épreuves de la Grande Masquarade"
+        },
+        {
+            "number": "40",
+            "name": "Queue forante",
+            "enemy": "Karlabos, Griffe d'argile",
+            "location": "Sastasha (brutal), Alexander - Le Bras du Père"
+        },
+        {
+            "number": "41",
+            "name": "Explosion mentale",
+            "enemy": "Galvanth le tyran",
+            "location": "L'Hypogée de Tam-Tara"
+        },
+        {
+            "number": "42",
+            "name": "Glas",
+            "enemy": "",
+            "location": "Faire 20 épreuves de la Grande Masquarade"
+        },
+        {
+            "number": "43",
+            "name": "Lumière sinistre",
+            "enemy": "Protée lacustre",
+            "location": "Mor Dhona (13, 10)"
+        },
+        {
+            "number": "44",
+            "name": "Pluie de plumes",
+            "enemy": "Garuda",
+            "location": "Hurlœil (extrême)"
+        },
+        {
+            "number": "45",
+            "name": "Éruption",
+            "enemy": "Ifrit",
+            "location": "Le Cratère des tissons"
+        },
+        {
+            "number": "46",
+            "name": "Casse-montagnes",
+            "enemy": "Titan",
+            "location": "Le Nombril (brutal)"
+        },
+        {
+            "number": "47",
+            "name": "Frappe de choc",
+            "enemy": "Ramuh",
+            "location": "L'Arbre du jugement (brutal)"
+        },
+        {
+            "number": "48",
+            "name": "Danse de glace",
+            "enemy": "Shiva",
+            "location": "L'Amphithéâtre d'Akh Afah (extrême)"
+        },
+        {
+            "number": "49",
+            "name": "Voile du Déchaîneur",
+            "enemy": "Leviathan",
+            "location": "Le Briseur de marées"
+        },
+        {
+            "number": "50",
+            "name": "Vent alpin",
+            "enemy": "Griffon",
+            "location": "L'Écume des cieux d'Abalathia (36, 9)"
+        },
+        {
+            "number": "51",
+            "name": "Vague inconstante",
+            "enemy": "Liquide vivant, Shikigami d'eau",
+            "location": "Alexandre - Le Bras du Père, La Grande Masquarade #29"
+        },
+        {
+            "number": "52",
+            "name": "Aquilons",
+            "enemy": "Yéti du grésil",
+            "location": "Hautes terres du Coerthas occidental (22, 27)"
+        },
+        {
+            "number": "53",
+            "name": "Électrogenèse",
+            "enemy": "Conodonte",
+            "location": "L'Écume des cieux d'Abalathia (26, 33)"
+        },
+        {
+            "number": "54",
+            "name": "Kaltstrahl",
+            "enemy": "Faust, Poupée Jagd",
+            "location": "Alexandre - Le Poing du Père, Alexandre - Le Poignet du Père"
+        },
+        {
+            "number": "55",
+            "name": "Transfixion abyssale",
+            "enemy": "Astaroth, Archidémon, Biblioclepte",
+            "location": "Le Manoir des Haukke (brutal), Arrière-pays dravanien ( Mandat : Nécrologos : arrestation mouvementé), La Grande bibliothèque de Gubal"
+        },
+        {
+            "number": "56",
+            "name": "Gazouillement",
+            "enemy": "Païssa",
+            "location": "L'Écume des cieux d'Abalathia (24, 33)"
+        },
+        {
+            "number": "57",
+            "name": "Onde lugubre",
+            "enemy": "Empousa",
+            "location": "Azys Lla (30, 12)"
+        },
+        {
+            "number": "58",
+            "name": "Pompon soignant",
+            "enemy": "Kupli Kipp Pieds-poilus",
+            "location": "La Lisière de ronces (extrême)"
+        },
+        {
+            "number": "59",
+            "name": "Gobépiderme",
+            "enemy": "Traquenardeur Alexandrin, Slipkinx Joints-d'acier (rang A)",
+            "location": "Alexander - Le Souffle du Créateur, L'Arrière-pays dravanien"
+        },
+        {
+            "number": "60",
+            "name": "Marteau magique",
+            "enemy": "Apanda, Epilogi",
+            "location": " La Grande bibliothèque de Gubal (brutal), La Grande Masquarade #24"
+        },
+        {
+            "number": "61",
+            "name": "Ordre défensif",
+            "enemy": "Reine des guêpes",
+            "location": "L'Arboretum Sainte-Mocianne"
+        },
+        {
+            "number": "62",
+            "name": "Ritournelle batracienne",
+            "enemy": " Poroggo",
+            "location": "L'Arrière-pays dravanien (12, 35)"
+        },
+        {
+            "number": "63",
+            "name": "Bang supersonique",
+            "enemy": "Anzu",
+            "location": "L'Écume des cieux d'Abalathia (21, 6)"
+        },
+        {
+            "number": "64",
+            "name": "Sifflement",
+            "enemy": "Dhalmel",
+            "location": "L'Écume des cieux d'Abalathia (16, 30)"
+        },
+        {
+            "number": "65",
+            "name": "Tour de cavalier blanc",
+            "enemy": "Chevalier blanc",
+            "location": "La Voûte"
+        },
+        {
+            "number": "66",
+            "name": "Tour de cavalier noir",
+            "enemy": "Chevalier noir",
+            "location": "La Voûte"
+        },
+        {
+            "number": "67",
+            "name": "Mort niveau 5",
+            "enemy": "Page Soixante-quatre",
+            "location": "La Grande bibliothèque de Gubal"
+        },
+        {
+            "number": "68",
+            "name": "Lance-roquettes",
+            "enemy": "Arme blindée",
+            "location": "La Muraille de Baelsar"
+        },
+        {
+            "number": "69",
+            "name": "Rayon perpétuel",
+            "enemy": "Manipulateur",
+            "location": "Alexander - Le Fardeau du Père (sadique)"
+        },
+        {
+            "number": "70",
+            "name": "Cactugarde",
+            "enemy": "Pampa garde",
+            "location": "Le Temple enseveli de Qarn (brutal)"
+        },
+        {
+            "number": "71",
+            "name": "Éclat vengeur",
+            "enemy": "",
+            "location": "Apprendre 50 sorts"
+        },
+        {
+            "number": "72",
+            "name": "Grâce angélique",
+            "enemy": "",
+            "location": "Faire 30 épreuves de la Grande Masquarade"
+        },
+        {
+            "number": "73",
+            "name": "Exuviation",
+            "enemy": "Wamoura d'Abalathia",
+            "location": "L'Écume des cieux d'Abalathia (9, 16)"
+        },
+        {
+            "number": "74",
+            "name": "Reflux",
+            "enemy": "Wyverne des nuages",
+            "location": "L'Écume des cieux de Dravania"
+        },
+        {
+            "number": "75",
+            "name": "Dévoration",
+            "enemy": "Caducée",
+            "location": "Le Labyrinthe de Bahamut I  "
+        },
+        {
+            "number": "76",
+            "name": "Acuité concentrée",
+            "enemy": "Scribe de l'arène",
+            "location": "La Grande Masquarade #24"
+        },
+        {
+            "number": "77",
+            "name": "Imitation éthéréenne",
+            "enemy": "Trash de Grah virtuose",
+            "location": "Le Phare de Sirius (brutal)"
+        },
+        {
+            "number": "78",
+            "name": "Surpanakha",
+            "enemy": "Ravana",
+            "location": "Thok Ast Thok"
+        },
+        {
+            "number": "79",
+            "name": "Quasar",
+            "enemy": "Sophia",
+            "location": "Unité de contention P1P6"
+        },
+        {
+            "number": "80",
+            "name": "Pied justicier",
+            "enemy": "Justicier",
+            "location": "Alexander - Le Fardeau du Fils "
+        },
+        {
+            "number": "81",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "82",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "83",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "84",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "85",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "86",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "87",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "88",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "89",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "90",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "91",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "92",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "93",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "94",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "95",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "96",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "97",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "98",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "99",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "100",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "101",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "102",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "103",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        },
+        {
+            "number": "104",
+            "name": "",
+            "enemy": "",
+            "location": ""
+        }
+    ]
+}

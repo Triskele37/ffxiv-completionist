@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/norvrandt";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Norvrandt = function(parent) {
-    const data = new DataGroup("Norvrandt", parent);
-    data.name_de = "Norvrandt";
-    data.name_en = "Norvrandt";
-    data.name_fr = "Norvrandt";
-    data.name_ja = "ノルヴラント";
+    const json = loadJson('./character/achievement/exploration/norvrandt', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

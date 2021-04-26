@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/character/disciples-of-magic";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Character_Disciple_of_Magic = function(parent) {
-    const data = new DataGroup("Disciple of Magic", parent);
-    data.name_de = "Magier";
-    data.name_en = "Disciple of Magic";
-    data.name_fr = "Disciples de la magie";
-    data.name_ja = "ソーサラー";
+    const json = loadJson('./character/achievement/character/disciples-of-magic', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

@@ -1,6 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/legacy/currency";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Legacy_Currency = function(parent) {
-    return new DataGroup("Currency", parent).initializeTasks(tasks);
+    const json = loadJson('./character/achievement/legacy/currency', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
+
+    data.initializeTasks(json.tasks);
+
+    return data;
 };

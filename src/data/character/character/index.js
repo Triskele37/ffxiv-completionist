@@ -1,4 +1,5 @@
 import { DataGroup } from "../../DataGroup";
+import { loadJson } from "../../loader";
 
 import { Character_Character_Aesthetician } from "./aesthetician";
 import { Character_Character_Title } from "./title";
@@ -8,7 +9,8 @@ import { Character_Character_Beast_Tribe_Reputation } from "./beast-tribe-reputa
 import { Character_Character_Desynthesis } from "./desynthesis";
 
 export const Character_Character = function(parent) {
-    const data = new DataGroup("Character", parent);
+    const json = loadJson('./character/character/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Character_Aesthetician,

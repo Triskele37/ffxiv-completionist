@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/abalathias-spine";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Abalathias_Spine = function(parent) {
-    const data = new DataGroup("Abalathia's Spine", parent);
-    data.name_de = "Abalathia";
-    data.name_en = "Abalathia's Spine";
-    data.name_fr = "Abalathia";
-    data.name_ja = "アバラシア";
+    const json = loadJson('./character/achievement/exploration/abalathias-spine', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

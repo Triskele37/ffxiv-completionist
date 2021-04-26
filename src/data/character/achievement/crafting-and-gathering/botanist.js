@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/botanist";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Botanist = function(parent) {
-    const data = new DataGroup("Botanist", parent);
-    data.name_de = "Gärtner";
-    data.name_en = "Botanist";
-    data.name_fr = "Botaniste";
-    data.name_ja = "園芸師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/botanist', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

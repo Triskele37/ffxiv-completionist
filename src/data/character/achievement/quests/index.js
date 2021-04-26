@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Quests_Quests } from "./quests";
 import { Character_Achievements_Quests_Levequests } from "./levequests";
@@ -6,11 +7,8 @@ import { Character_Achievements_Quests_Beast_Tribe_Quests } from "./beast-tribe-
 import { Character_Achievements_Quests_Seasonal_Events } from "./seasonal";
 
 export const Character_Achievements_Quests = function(parent) {
-    const data = new DataGroup("Quests", parent);
-    data.name_de = "Aufträge";
-    data.name_en = "Quests";
-    data.name_fr = "Quêtes";
-    data.name_ja = "クエスト";
+    const json = loadJson('./character/achievement/quests/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Quests_Quests,

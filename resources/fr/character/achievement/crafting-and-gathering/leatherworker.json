@@ -1,0 +1,181 @@
+{
+    "groupName": "Leatherworker",
+    "tasks": [
+        {
+            "Description": "Réaliser 50 synthèses de tannerie de niveau 1 à 10.",
+            "ID": 161,
+            "Name": "Tourner autour des peaux : Amateur",
+            "Points": 5
+        },
+        {
+            "Description": "Réaliser 300 synthèses de tannerie de niveau 11 à 20.",
+            "ID": 162,
+            "Name": "Tourner autour des peaux : Recrue",
+            "Points": 5
+        },
+        {
+            "Description": "Réaliser 750 synthèses de tannerie de niveau 21 à 30.",
+            "ID": 163,
+            "Name": "Tourner autour des peaux : Initié",
+            "Points": 5
+        },
+        {
+            "Description": "Réaliser 1 500 synthèses de tannerie de niveau 31 à 40.",
+            "ID": 164,
+            "Name": "Tourner autour des peaux : Novice",
+            "Points": 5
+        },
+        {
+            "Reward": "Le Mégissier / La Mégissière",
+            "Description": "Réaliser 3 000 synthèses de tannerie de niveau 41 à 50.",
+            "ID": 165,
+            "Name": "Tourner autour des peaux : Qualifié",
+            "Points": 10
+        },
+        {
+            "Reward": "Couteau de virtuose",
+            "Description": "Accomplir les cinq hauts faits de la série “Tourner autour des peaux”.",
+            "ID": 166,
+            "Name": "J'ai le cuir dans la peau",
+            "Points": 30
+        },
+        {
+            "Description": "Réaliser 1 000 synthèses de tannerie de niveau 51 à 60.",
+            "ID": 1305,
+            "Name": "Tourner autour des peaux : Expert",
+            "Points": 10
+        },
+        {
+            "Description": "Réaliser 1 000 synthèses de tannerie de niveau 61 à 70.",
+            "ID": 1852,
+            "Name": "Tourner autour des peaux : Maître",
+            "Points": 10
+        },
+        {
+            "Description": "Réaliser 1 000 synthèses de tannerie de niveau 71 à 80.",
+            "ID": 2284,
+            "Name": "Tourner autour des peaux : Génie",
+            "Points": 10
+        },
+        {
+            "Description": "Faire 50 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 707,
+            "Name": "Carnet de notes : tanneur I",
+            "Points": 5
+        },
+        {
+            "Description": "Faire 110 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 708,
+            "Name": "Carnet de notes : tanneur II",
+            "Points": 5
+        },
+        {
+            "Reward": "Anneau de maître tanneur",
+            "Description": "Faire 220 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 709,
+            "Name": "Carnet de notes : tanneur III",
+            "Points": 10
+        },
+        {
+            "Description": "Faire 320 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 1282,
+            "Name": "Carnet de notes : tanneur IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Couteau de mégissier béni",
+            "Description": "Faire 420 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 1725,
+            "Name": "Carnet de notes : tanneur V",
+            "Points": 10
+        },
+        {
+            "Reward": "Couteau du roi de la peausserie béni",
+            "Description": "Faire 550 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "ID": 2170,
+            "Name": "Carnet de notes : tanneur VI",
+            "Points": 10
+        },
+        {
+            "Description": "Fabriquer un total de 100 objets de haute qualité en tant que tanneur.",
+            "ID": 762,
+            "Name": "De main de maître : tanneur I",
+            "Points": 5
+        },
+        {
+            "Description": "Fabriquer un total de 500 objets de haute qualité en tant que tanneur.",
+            "ID": 763,
+            "Name": "De main de maître : tanneur II",
+            "Points": 5
+        },
+        {
+            "Description": "Fabriquer un total de 3 000 objets de haute qualité en tant que tanneur.",
+            "ID": 764,
+            "Name": "De main de maître : tanneur III",
+            "Points": 10
+        },
+        {
+            "Description": "Fabriquer un total de 5 000 objets de haute qualité en tant que tanneur.",
+            "ID": 1317,
+            "Name": "De main de maître : tanneur IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Maître tanneur",
+            "Description": "Fabriquer un total de 10 000  objets de haute qualité en tant que tanneur.",
+            "ID": 1325,
+            "Name": "De main de maître : tanneur V",
+            "Points": 10
+        },
+        {
+            "Patch": null,
+            "Description": "Gagner un total de 50 000 points d'azur en tant que tanneur.",
+            "ID": 2501,
+            "Name": "Couteau d'Azurée I",
+            "Points": 5
+        },
+        {
+            "Patch": null,
+            "Description": "Gagner un total de 150 000 points d'azur en tant que tanneur.",
+            "ID": 2502,
+            "Name": "Couteau d'Azurée II",
+            "Points": 5
+        },
+        {
+            "Patch": null,
+            "Reward": "Couteau d'Azurée",
+            "Description": "Gagner un total de 500 000 points d'azur en tant que tanneur.",
+            "ID": 2503,
+            "Name": "Couteau d'Azurée III",
+            "Points": 10
+        },
+        {
+            "Patch": null,
+            "Reward": "Tanneur du Nichoir / Tanneuse du Nichoir",
+            "Description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la deuxième phase de reconstruction d'Azurée.",
+            "ID": 2531,
+            "Name": "Tanneur du Nichoir",
+            "Points": 10
+        },
+        {
+            "ID": 2652,
+            "Name": "Tanneur de Tombeplume",
+            "Description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la troisième phase de reconstruction d'Azurée.",
+            "Points": 10,
+            "Reward": "Tanneur de Tombeplume / Tanneuse de Tombeplume",
+        },
+        {
+            "ID": -1,
+            "Name": "",
+            "Description": "",
+            "Points": 10,
+            "Reward": "",
+        },
+        {
+            "ID": 2826,
+            "Name": "Tannerie resplendissante",
+            "Description": "Obtenir un couteau du fiélon de la peausserie resplendissant.",
+            "Points": 10
+        }
+    ]
+}

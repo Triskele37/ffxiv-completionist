@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Grand_Company_Grand_Company } from "./grand-company";
 import { Character_Achievements_Grand_Company_Maelstrom } from "./maelstrom";
@@ -8,11 +9,8 @@ import { Character_Achievements_Grand_Company_Immortal_Flames } from "./immortal
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Grand%20Company&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Character_Achievements_Grand_Company = function(parent) {
-    const data = new DataGroup("Grand Company", parent);
-    data.name_de = "Staatliche Gesellschaften";
-    data.name_en = "Grand Company";
-    data.name_fr = "Grandes compagnies";
-    data.name_ja = "グランドカンパニー";
+    const json = loadJson('./character/achievement/grand-company/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Grand_Company_Grand_Company,

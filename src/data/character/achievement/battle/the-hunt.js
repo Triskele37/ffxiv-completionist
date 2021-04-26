@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/battle/the-hunt";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Battle_The_Hunt = function(parent) {
-    const data = new DataGroup("The Hunt", parent);
-    data.name_de = "Hohe Jagd";
-    data.name_en = "The Hunt";
-    data.name_fr = "Contrats de chasse";
-    data.name_ja = "モブハント";
+    const json = loadJson('./character/achievement/battle/the-hunt', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

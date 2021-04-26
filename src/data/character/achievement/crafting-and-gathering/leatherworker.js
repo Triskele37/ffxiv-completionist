@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/leatherworker";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Leatherworker = function(parent) {
-    const data = new DataGroup("Leatherworker", parent);
-    data.name_de = "Gerber";
-    data.name_en = "Leatherworker";
-    data.name_fr = "Tanneur";
-    data.name_ja = "革細工師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/leatherworker', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

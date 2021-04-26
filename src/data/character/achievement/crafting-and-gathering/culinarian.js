@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/culinarian";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Culinarian = function(parent) {
-    const data = new DataGroup("Culinarian", parent);
-    data.name_de = "Gourmet";
-    data.name_en = "Culinarian";
-    data.name_fr = "Cuisinier";
-    data.name_ja = "調理師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/culinarian', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

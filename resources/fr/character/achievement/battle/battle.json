@@ -1,0 +1,857 @@
+{
+    "groupName": "Général",
+    "tasks": [
+        {
+            "Description": "Vaincre 100 ennemis.",
+            "ID": 1,
+            "Name": "Une goutte de sang",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre 500 ennemis.",
+            "ID": 2,
+            "Name": "Une flaque de sang",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre 1 000 ennemis.",
+            "ID": 3,
+            "Name": "Une mare de sang",
+            "Points": 10
+        },
+        {
+            "Description": "Vaincre 5 000 ennemis.",
+            "ID": 4,
+            "Name": "Une rivière de sang",
+            "Points": 10
+        },
+        {
+            "Description": "Vaincre 10 000 ennemis.",
+            "ID": 5,
+            "Name": "Une mer de sang",
+            "Points": 10
+        },
+        {
+            "Reward": "Le Sanguinaire / La Sanguinaire",
+            "Description": "Vaincre 50 000 ennemis.",
+            "ID": 6,
+            "Name": "C'est une véritable boucherie",
+            "Points": 10
+        },
+        {
+            "Reward": "Couronne de massacreur",
+            "Description": "Vaincre 100 000 ennemis.",
+            "ID": 7,
+            "Name": "Disciple de Halone, la Conquérante",
+            "Points": 30
+        },
+        {
+            "Description": "Vaincre 200 000 ennemis.",
+            "ID": 1336,
+            "Name": "Un océan de sang",
+            "Points": 30
+        },
+        {
+            "Reward": "Anneau de maître gladiateur",
+            "Description": "Finir toutes les catégories du bestiaire de gladiateur.",
+            "ID": 728,
+            "Name": "Carnet de chasse : gladiateur",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître pugiliste",
+            "Description": "Finir toutes les catégories du bestiaire de pugiliste.",
+            "ID": 729,
+            "Name": "Carnet de chasse : pugiliste",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître maraudeur",
+            "Description": "Finir toutes les catégories du bestiaire de maraudeur.",
+            "ID": 730,
+            "Name": "Carnet de chasse : maraudeur",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître lancier",
+            "Description": "Finir toutes les catégories du bestiaire de maître d'hast.",
+            "ID": 731,
+            "Name": "Carnet de chasse : maître d'hast",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître archer",
+            "Description": "Finir toutes les catégories du bestiaire d'archer.",
+            "ID": 732,
+            "Name": "Carnet de chasse : archer",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître surineur",
+            "Description": "Finir toutes les catégories du bestiaire de surineur.",
+            "ID": 1051,
+            "Name": "Carnet de chasse : surineur",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître élémentaliste",
+            "Description": "Finir toutes les catégories du bestiaire d'élémentaliste.",
+            "ID": 733,
+            "Name": "Carnet de chasse : élémentaliste",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître occultiste",
+            "Description": "Finir toutes les catégories du bestiaire d'occultiste.",
+            "ID": 734,
+            "Name": "Carnet de chasse : occultiste",
+            "Points": 20
+        },
+        {
+            "Reward": "Anneau de maître arcaniste",
+            "Description": "Finir toutes les catégories du bestiaire d'arcaniste.",
+            "ID": 735,
+            "Name": "Carnet de chasse : arcaniste",
+            "Points": 20
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: contre-traque” avec la meilleure évaluation possible.",
+            "ID": 792,
+            "Name": "Béhémoth belliqueux",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: le Chevalier des ombres” avec la meilleure évaluation possible.",
+            "ID": 793,
+            "Name": "Face au dieu",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: gorgimère indigne” avec la meilleure évaluation possible.",
+            "ID": 794,
+            "Name": "Folle chimère",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: l'œil de la tête” avec la meilleure évaluation possible.",
+            "ID": 795,
+            "Name": "Je t'ai à l'œil",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: cancer, le casque de mort” avec la meilleure évaluation possible.",
+            "ID": 796,
+            "Name": "Serrer les pinces",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: Laurence pas ravie” avec la meilleure évaluation possible.",
+            "ID": 797,
+            "Name": "Herbicide",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Culte maudit: l'affront” avec la meilleure évaluation possible.",
+            "ID": 798,
+            "Name": "Entité entêtée",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Svara s'en est venu: les canons anti-dragon” ou “Svara s'en est venu: la colère du dragon” avec la meilleure évaluation possible.",
+            "ID": 799,
+            "Name": "Cercle de feu",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Nid de guêpes: colonisation”, “Nid de guêpes: alliance défensive” ou “Nid de guêpes: défense du nid” avec la meilleure évaluation possible.",
+            "ID": 800,
+            "Name": "Se fourrer dans le Guêpier",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Assaut sur Le Viaduc: acte III” avec la meilleure évaluation possible.",
+            "ID": 801,
+            "Name": "Vaillant viaduc",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Pauvre hameau: des coeurls qui battent” avec la meilleure évaluation possible.",
+            "ID": 802,
+            "Name": "Des coeurls à prendre",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: coeurls brisés” avec la meilleure évaluation possible.",
+            "ID": 1359,
+            "Name": "Bourreau des coeurls",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: duel amical contre Vedrfolnir” avec la meilleure évaluation possible.",
+            "ID": 1360,
+            "Name": "Vainqueur de Vedrfolnir",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: ne pas douter face à Dzu Teh” avec la meilleure évaluation possible.",
+            "ID": 1361,
+            "Name": "L'abominable homme des neiges",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: terrasser la Tarasque” avec la meilleure évaluation possible.",
+            "ID": 1362,
+            "Name": "Hutin de Tarasque",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: vengeurs de ferraille II” avec la meilleure évaluation possible.",
+            "ID": 1363,
+            "Name": "Haut la Main indigo",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: quand sombre Sombrécaille” avec la meilleure évaluation possible.",
+            "ID": 1364,
+            "Name": "Le coup du Sombrécaille",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: mangeur de terre gardée” avec la meilleure évaluation possible.",
+            "ID": 1365,
+            "Name": "La terre ne se mange pas",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: mauvaise graine” avec la meilleure évaluation possible.",
+            "ID": 1923,
+            "Name": "Bûcheron providentiel",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: l'affreux Humbaba” avec la meilleure évaluation possible.",
+            "ID": 1924,
+            "Name": "Dans le baba",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: ciel, mon sosie” avec la meilleure évaluation possible.",
+            "ID": 1925,
+            "Name": "La montagne renversée",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: amocher les daimyo” avec la meilleure évaluation possible.",
+            "ID": 1926,
+            "Name": "Rêveurs brisés",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: le géant de fer” avec la meilleure évaluation possible.",
+            "ID": 1927,
+            "Name": "Assez joué",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: attention, passage de mammouths” avec la meilleure évaluation possible.",
+            "ID": 1928,
+            "Name": "Le piétineur piétiné",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: la renarde fait surface” avec la meilleure évaluation possible.",
+            "ID": 1929,
+            "Name": "Les neuf queues entre les jambes",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: l'étalon survolté” avec la meilleure évaluation possible.",
+            "ID": 1930,
+            "Name": "Dressage électrique",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Défi: le roi des matangas” avec la meilleure évaluation possible.",
+            "ID": 1931,
+            "Name": "Le voyage des Dataq",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “La menace des Fanes pourpres: les wargs s'en mêlent” avec la meilleure évaluation possible.",
+            "ID": 2337,
+            "Name": "L'allié de la garde",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Appel à l'aide: l'épée de l'ancien” avec la meilleure évaluation possible.",
+            "ID": 2338,
+            "Name": "Chasseur de trésors dans le désert",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Les frères Daen: la bataille finale” avec la meilleure évaluation possible.",
+            "ID": 2339,
+            "Name": "Confident des Pixies",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Chasse de Myalna: l'élimination du Tojil” avec la meilleure évaluation possible.",
+            "ID": 2340,
+            "Name": "Les protectrices des ruines",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “Formidable: l'arme secrète” avec la meilleure évaluation possible.",
+            "ID": 2341,
+            "Name": "Annihilateur d'automates",
+            "Points": 10
+        },
+        {
+            "Description": "Accomplir l'ALÉA “L'annonciatrice du chaos: bataille au sommet des fonds” avec la meilleure évaluation possible.",
+            "ID": 2342,
+            "Name": "Les dents de La Tempête",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA à Grand-Lac.",
+            "ID": 2343,
+            "Name": "Héros de grand chemin : Grand-Lac",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA en Amh Araeng.",
+            "ID": 2345,
+            "Name": "Héros de grand chemin : Amh Araeng",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA à Kholusia.",
+            "ID": 2344,
+            "Name": "Héros de grand chemin : Kholusia",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA en Il Mheg.",
+            "ID": 2346,
+            "Name": "Héros de grand chemin : Il Mheg",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA à Rak'tika.",
+            "ID": 2347,
+            "Name": "Héros de grand chemin : Rak'tika",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 3 de réussite des ALÉA à La Tempête.",
+            "ID": 2348,
+            "Name": "Héros de grand chemin : La Tempête",
+            "Points": 10
+        },
+        {
+            "Reward": "Main invisible",
+            "Description": "Accomplir les hauts faits “Héros de grand chemin” pour les régions de Grand-Lac, Kholusia, Amh Araeng, Il Mheg, Rak'tika et La Tempête.",
+            "ID": 2349,
+            "Name": "Héros de grand chemin : Norvrandt",
+            "Points": 20
+        },
+        {
+            "Description": "Accomplir un total de 10 ALÉA.",
+            "ID": 803,
+            "Name": "Faire face aux imprévus I",
+            "Points": 5
+        },
+        {
+            "Description": "Accomplir un total de 100 ALÉA.",
+            "ID": 804,
+            "Name": "Faire face aux imprévus II",
+            "Points": 5
+        },
+        {
+            "Description": "Accomplir un total de 300 ALÉA.",
+            "ID": 805,
+            "Name": "Faire face aux imprévus III",
+            "Points": 10
+        },
+        {
+            "Reward": "Jouet des aléas du destin",
+            "Description": "Accomplir un total de 1 000 ALÉA.",
+            "ID": 806,
+            "Name": "Faire face aux imprévus IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Manteau d'expert",
+            "Description": "Accomplir un total de 3 000 ALÉA.",
+            "ID": 807,
+            "Name": "Le hasard fait bien les choses",
+            "Points": 20
+        },
+        {
+            "Description": "Accomplir un total de 5 000 ALÉA.",
+            "ID": 1353,
+            "Name": "Faire face aux imprévus V",
+            "Points": 20
+        },
+        {
+            "Reward": "Le Chanceux / La Chanceuse",
+            "Description": "Accomplir un total de 10 000 ALÉA.",
+            "ID": 1354,
+            "Name": "Faire face aux imprévus VI",
+            "Points": 20
+        },
+        {
+            "Description": "Élever le compagnon chocobo au niveau 1.",
+            "ID": 808,
+            "Name": "Mon fier destrier I",
+            "Points": 5
+        },
+        {
+            "Description": "Élever le compagnon chocobo au niveau 5.",
+            "ID": 809,
+            "Name": "Mon fier destrier II",
+            "Points": 10
+        },
+        {
+            "Reward": "Costume de chocobo",
+            "Description": "Élever le compagnon chocobo au niveau 10.",
+            "ID": 810,
+            "Name": "Mon fier destrier III",
+            "Points": 20
+        },
+        {
+            "Description": "Ressusciter un joueur qui n'est pas dans l'équipe 1 fois.",
+            "ID": 885,
+            "Name": "Bon Samaritain I",
+            "Points": 5
+        },
+        {
+            "Description": "Ressusciter un joueur qui n'est pas dans l'équipe 20 fois.",
+            "ID": 886,
+            "Name": "Bon Samaritain II",
+            "Points": 10
+        },
+        {
+            "Description": "Ressusciter un joueur qui n'est pas dans l'équipe 50 fois.",
+            "ID": 1355,
+            "Name": "Bon Samaritain III",
+            "Points": 10
+        },
+        {
+            "Description": "Ressusciter un joueur qui n'est pas dans l'équipe 100 fois.",
+            "ID": 1356,
+            "Name": "Bon Samaritain IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Bon Samaritain",
+            "Description": "Ressusciter un joueur qui n'est pas dans l'équipe 200 fois.",
+            "ID": 1357,
+            "Name": "Bon Samaritain V",
+            "Points": 10
+        },
+        {
+            "Reward": "Le Bouclier humain",
+            "Description": "Effectuer 50 missions de haut niveau en tant que paladin.",
+            "ID": 919,
+            "Name": "On demande un paladin I",
+            "Points": 5
+        },
+        {
+            "Reward": "Le Bouclier infaillible",
+            "Description": "Effectuer 100 missions de haut niveau en tant que paladin.",
+            "ID": 920,
+            "Name": "On demande un paladin II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor lion de guerre",
+            "Description": "Effectuer 200 missions de haut niveau en tant que paladin.",
+            "ID": 921,
+            "Name": "Chevalier errant à mi-temps",
+            "Points": 20
+        },
+        {
+            "Reward": "La Hache humaine",
+            "Description": "Effectuer 50 missions de haut niveau en tant que guerrier.",
+            "ID": 922,
+            "Name": "On demande un guerrier I",
+            "Points": 5
+        },
+        {
+            "Reward": "La Hache impitoyable",
+            "Description": "Effectuer 100 missions de haut niveau en tant que guerrier.",
+            "ID": 923,
+            "Name": "On demande un guerrier II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor ours de guerre",
+            "Description": "Effectuer 200 missions de haut niveau en tant que guerrier.",
+            "ID": 924,
+            "Name": "Je suis chef de guerre, moi",
+            "Points": 20
+        },
+        {
+            "Reward": "Guide des ténèbres",
+            "Description": "Effectuer 50 missions de haut niveau en tant que chevalier noir.",
+            "ID": 1193,
+            "Name": "On demande un chevalier noir I",
+            "Points": 5
+        },
+        {
+            "Reward": "L'Épée implacable",
+            "Description": "Effectuer 100 missions de haut niveau en tant que chevalier noir.",
+            "ID": 1194,
+            "Name": "On demande un chevalier noir II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cloche panthère",
+            "Description": "Effectuer 200 missions de haut niveau en tant que chevalier noir.",
+            "ID": 1195,
+            "Name": "La séduction du côté obscur",
+            "Points": 20
+        },
+        {
+            "Description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1953,
+            "Name": "Paladin philanthrope I",
+            "Points": 5
+        },
+        {
+            "Description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1954,
+            "Name": "Paladin philanthrope II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor lion de combat",
+            "Description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1955,
+            "Name": "Paladin philanthrope III",
+            "Points": 20
+        },
+        {
+            "Reward": "Serment inflexible",
+            "Description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2387,
+            "Name": "Paladin philanthrope IV",
+            "Points": 20
+        },
+        {
+            "Description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1956,
+            "Name": "Guerrier philanthrope I",
+            "Points": 5
+        },
+        {
+            "Description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1957,
+            "Name": "Guerrier philanthrope II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor ours de combat",
+            "Description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1958,
+            "Name": "Guerrier philanthrope III",
+            "Points": 20
+        },
+        {
+            "Reward": "Acier inflexible",
+            "Description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2388,
+            "Name": "Guerrier philanthrope IV",
+            "Points": 20
+        },
+        {
+            "Description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1959,
+            "Name": "Chevalier noir philanthrope I",
+            "Points": 5
+        },
+        {
+            "Description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1960,
+            "Name": "Chevalier noir philanthrope II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cloche panthère de combat",
+            "Description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 1961,
+            "Name": "Chevalier noir philanthrope III",
+            "Points": 20
+        },
+        {
+            "Reward": "Morale inflexible",
+            "Description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2389,
+            "Name": "Chevalier noir philanthrope IV",
+            "Points": 20
+        },
+        {
+            "Description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2390,
+            "Name": "Pistosabreur philanthrope I",
+            "Points": 5
+        },
+        {
+            "Reward": "Cor tigre de guerre",
+            "Description": "Finir 200 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2391,
+            "Name": "Pistosabreur philanthrope II",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor tigre de combat",
+            "Description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2392,
+            "Name": "Pistosabreur philanthrope III",
+            "Points": 20
+        },
+        {
+            "Reward": "Loyauté inflexible",
+            "Description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "ID": 2393,
+            "Name": "Pistosabreur philanthrope IV",
+            "Points": 20
+        },
+        {
+            "Description": "Accomplir 5 missions différentes dans le palmarès bleu.",
+            "ID": 2451,
+            "Name": "Tout un palmarès I",
+            "Points": 5
+        },
+        {
+            "Description": "Accomplir 20 missions différentes dans le palmarès bleu.",
+            "ID": 2452,
+            "Name": "Tout un palmarès II",
+            "Points": 5
+        },
+        {
+            "Reward": "Sommité bleue",
+            "Description": "Accomplir 50 missions différentes dans le palmarès bleu.",
+            "ID": 2453,
+            "Name": "Tout un palmarès III",
+            "Points": 5
+        },
+        {
+            "Reward": "",
+            "Description": "",
+            "ID": -1,
+            "Name": "",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Ifrit dans le défi “Le Cratère des tisons (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2454,
+            "Name": "Des bleus pour le Seigneur des flammes",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Titan dans le défi “Le Nombril (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2455,
+            "Name": "Des bleus pour l'Ébranleur des terres",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Garuda dans le défi “Hurlœil (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2456,
+            "Name": "Des bleus pour la Souffleuse de rafales",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre le bon roi Moggle Mog XII dans le défi “La Lisière de ronces (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2457,
+            "Name": "Des bleus pour le bon roi",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Léviathan dans le défi “Le Briseur de marées (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2458,
+            "Name": "Des bleus pour le Déchaîneur des marées",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Ramuh dans le défi “L'Arbre du jugement (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2459,
+            "Name": "Des bleus pour le Patriarche fulgurant",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Shiva dans le défi “L'Amphithéâtre d'Akh Afah (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2460,
+            "Name": "Des bleus pour la Furie des neiges",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2461,
+            "Name": "Des bleus pour Bahamut I",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2462,
+            "Name": "Des bleus pour Bahamut II",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2463,
+            "Name": "Des bleus pour Bahamut III",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Ravana dans le défi “Thok ast Thok (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2464,
+            "Name": "Des bleus pour le Maître des lames",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Bismarck dans le défi “L'Immensité bleue (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2465,
+            "Name": "Des bleus pour le Migrateur des brumes",
+            "Points": 5
+        },
+        {
+            "Reward": "Masque vedette",
+            "Description": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2466,
+            "Name": "Des bleus pour le Roi des rois",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Sephirot dans le défi “Unité de contention S1P7 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2467,
+            "Name": "Des bleus pour Sephirot",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Nidhogg dans le défi “L'ire de Nidhogg” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2468,
+            "Name": "Des bleus pour le dragon maléfique",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Sophia dans le défi “Unité de contention P1P6 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2469,
+            "Name": "Des bleus pour Sophia",
+            "Points": 5
+        },
+        {
+            "Description": "Vaincre Zurvan dans le défi “Unité de contention Z1P9 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2470,
+            "Name": "Des bleus pour Zurvan",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2471,
+            "Name": "Des bleus pour Alexander I",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2472,
+            "Name": "Des bleus pour Alexander II",
+            "Points": 5
+        },
+        {
+            "Description": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "ID": 2473,
+            "Name": "Des bleus pour Alexander III",
+            "Points": 5
+        },
+        {
+            "Reward": "Bleu infini",
+            "Description": "Accomplir les trois hauts faits de la série “Des bleus pour Bahamut”.",
+            "ID": 2474,
+            "Name": "Conte bleu de Bahamut",
+            "Points": 10
+        },
+        {
+            "Reward": "Justicier bleu / Justicière bleue",
+            "Description": "Accomplir les trois hauts faits de la série “Des bleus pour Alexander”.",
+            "ID": 2475,
+            "Name": "Conte bleu d'Alexander",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor morbol",
+            "Description": "Accomplir les hauts faits “Conte bleu de Bahamut” et “Conte bleu d'Alexander”.",
+            "ID": 2476,
+            "Name": "L'épopée des bleus d'Éorzéa",
+            "Points": 10
+        },
+        {
+            "Description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Revel",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than Bliss",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Worm",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Moon",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the White",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Vermilion",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Azure",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Delta",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Sigma",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Alpha",
+            "Points": 5
+        },
+        {
+            "Reward": "The Azure and Omega",
+            "Description": "Obtain the achievements \"Mightier than the Delta,\" \"Mightier than the Sigma,\" and \"Mightier than the Alpha.\"",
+            "ID": -1,
+            "Name": "Omega Blue",
+            "Points": 10
+        }
+    ]
+}

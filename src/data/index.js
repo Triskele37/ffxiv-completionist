@@ -1,5 +1,6 @@
 import { eStore } from "../store/electronStore";
 import { DataGroup } from "./DataGroup";
+import { loadJson } from "./loader";
 
 import { Character } from "./character";
 import { Duty } from "./duty";
@@ -8,11 +9,11 @@ import { Travel } from "./travel";
 import { Social } from "./social";
 import { Custom } from "./custom";
 
-const data = new DataGroup("Overall", null);
-data.name_fr = "Global";
+const language = eStore.get('lang');
+const json = loadJson('./index', language);
 
-// Must be set after data initializes
-data.lang = eStore.get('lang');
+const data = new DataGroup(json.groupName, null);
+data.lang = language;
 
 data.initializeSubGroups([
     Character,

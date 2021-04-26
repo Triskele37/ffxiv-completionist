@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/othard";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Othard = function(parent) {
-    const data = new DataGroup("Othard", parent);
-    data.name_de = "Othard";
-    data.name_en = "Othard";
-    data.name_fr = "Othard";
-    data.name_ja = "オサード";
+    const json = loadJson('./character/achievement/exploration/othard', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

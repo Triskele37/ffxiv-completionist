@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/coerthas";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Coerthas = function(parent) {
-    const data = new DataGroup("Coerthas", parent);
-    data.name_de = "Coerthas";
-    data.name_en = "Coerthas";
-    data.name_fr = "Coerthas";
-    data.name_ja = "クルザス";
+    const json = loadJson('./character/achievement/exploration/coerthas', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/pvp/frontline";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_PvP_Frontline = function(parent) {
-    const data = new DataGroup("Frontline", parent);
-    data.name_de = "Front";
-    data.name_en = "Frontline";
-    data.name_fr = "Front";
-    data.name_ja = "フロントライン";
+    const json = loadJson('./character/achievement/pvp/frontline', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

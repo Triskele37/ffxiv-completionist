@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/carpenter";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Carpenter = function(parent) {
-    const data = new DataGroup("Carpenter", parent);
-    data.name_de = "Zimmerer";
-    data.name_en = "Carpenter";
-    data.name_fr = "Menuisier";
-    data.name_ja = "木工師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/carpenter', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/items/materia";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Items_Materia = function(parent) {
-    const data = new DataGroup("Materia", parent);
-    data.name_de = "Materia";
-    data.name_en = "Materia";
-    data.name_fr = "Matérias";
-    data.name_ja = "マテリア";
+    const json = loadJson('./character/achievement/items/materia', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

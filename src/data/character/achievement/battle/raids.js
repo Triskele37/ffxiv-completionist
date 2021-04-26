@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/battle/raids";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Battle_Raids = function(parent) {
-    const data = new DataGroup("Raids", parent);
-    data.name_de = "Raids";
-    data.name_en = "Raids";
-    data.name_fr = "Raids";
-    data.name_ja = "レイド";
+    const json = loadJson('./character/achievement/battle/raids', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

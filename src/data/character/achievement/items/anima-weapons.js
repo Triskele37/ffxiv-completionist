@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/items/anima-weapons";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Items_Anima_Weapons = function(parent) {
-    const data = new DataGroup("Anima Weapons", parent);
-    data.name_de = "Anima-Waffen";
-    data.name_en = "Anima Weapons";
-    data.name_fr = "Armes anima";
-    data.name_ja = "アニマウェポン";
+    const json = loadJson('./character/achievement/items/anima-weapons', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

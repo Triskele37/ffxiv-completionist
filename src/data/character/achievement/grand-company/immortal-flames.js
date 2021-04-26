@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/grand-company/immortal-flames";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Grand_Company_Immortal_Flames = function(parent) {
-    const data = new DataGroup("Immortal Flames", parent);
-    data.name_de = "Legion";
-    data.name_en = "Immortal Flames";
-    data.name_fr = "Immortels";
-    data.name_ja = "不滅隊";
+    const json = loadJson('./character/achievement/grand-company/immortal-flames', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

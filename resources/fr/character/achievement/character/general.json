@@ -1,0 +1,687 @@
+{
+    "groupName": "Général",
+    "tasks": [
+        {
+            "Reward": "Le Va-t-en-guerre / La Va-t-en-guerre",
+            "Description": "Atteindre le niveau 50 avec les classes gladiateur, pugiliste, maraudeur, archer et maître d'hast.",
+            "ID": 44,
+            "Name": "Maître de la guerre",
+            "Points": 20
+        },
+        {
+            "Reward": "L'Archimage",
+            "Description": "Atteindre le niveau 50 avec les classes élémentaliste, occultiste et arcaniste.",
+            "ID": 55,
+            "Name": "Maître de la magie",
+            "Points": 20
+        },
+        {
+            "Reward": "Couronne d'expert",
+            "Description": "Accomplir les hauts faits “Maître de la guerre” et “Maître de la magie”.",
+            "ID": 56,
+            "Name": "Maître du corps et de l'esprit",
+            "Points": 30
+        },
+        {
+            "Reward": "Grand maître de la guerre / Grande maîtresse de la guerre",
+            "Description": "Atteindre le niveau 60 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir et machiniste.",
+            "ID": 1188,
+            "Name": "Virtuose de la guerre",
+            "Points": 20
+        },
+        {
+            "Reward": "Grand maître de la magie / Grande maîtresse de la magie",
+            "Description": "Atteindre le niveau 60 avec les classes ou jobs élémentaliste, occultiste, arcaniste et astromancien.",
+            "ID": 1189,
+            "Name": "Virtuose de la magie",
+            "Points": 20
+        },
+        {
+            "Reward": "Couronne de seigneur de guerre",
+            "Description": "Accomplir les hauts faits “Virtuose de la guerre” et “Virtuose de la magie”.",
+            "ID": 1190,
+            "Name": "Virtuose du corps et de l'esprit",
+            "Points": 30
+        },
+        {
+            "Reward": "Dieu de la guerre / Déesse de la guerre",
+            "Description": "Atteindre le niveau 70 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste et samouraï.",
+            "ID": 1832,
+            "Name": "Prodige de la guerre",
+            "Points": 20
+        },
+        {
+            "Reward": "Dieu de la magie / Déesse de la magie",
+            "Description": "Atteindre le niveau 70 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien et mage rouge.",
+            "ID": 1833,
+            "Name": "Prodige de la magie",
+            "Points": 20
+        },
+        {
+            "Reward": "Couronne de dynastie",
+            "Description": "Accomplir les hauts faits “Prodige de la guerre” et “Prodige de la magie”.",
+            "ID": 1834,
+            "Name": "Prodige du corps et de l'esprit",
+            "Points": 30
+        },
+        {
+            "Reward": "Icône de la guerre",
+            "Description": "Atteindre le niveau 80 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur et danseur.",
+            "ID": 2275,
+            "Name": "Icône de la guerre",
+            "Points": 20
+        },
+        {
+            "Reward": "Icône de la magie",
+            "Description": "Atteindre le niveau 80 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien et mage rouge.",
+            "ID": 2276,
+            "Name": "Icône de la magie",
+            "Points": 20
+        },
+        {
+            "Reward": "Cor amaro",
+            "Description": "Accomplir les hauts faits “Icône de la guerre” et “Icône de la magie”.",
+            "ID": 2277,
+            "Name": "Icône du corps et de l'esprit",
+            "Points": 30
+        },
+        {
+            "Reward": "Maître ouvrier / Maîtresse ouvrière",
+            "Description": "Atteindre le niveau 50 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "ID": 97,
+            "Name": "Maître de la main",
+            "Points": 20
+        },
+        {
+            "Reward": "As des ressources",
+            "Description": "Atteindre le niveau 50 avec les classes mineur, botaniste et pêcheur.",
+            "ID": 113,
+            "Name": "Maître de la terre",
+            "Points": 20
+        },
+        {
+            "Reward": "Grand maître de la main / Grande maîtresse de la main",
+            "Description": "Atteindre le niveau 60 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "ID": 1276,
+            "Name": "Virtuose de la main",
+            "Points": 20
+        },
+        {
+            "Reward": "Grand maître de la terre / Grande maîtresse de la terre",
+            "Description": "Atteindre le niveau 60 avec les classes mineur, botaniste et pêcheur.",
+            "ID": 1277,
+            "Name": "Virtuose de la terre",
+            "Points": 20
+        },
+        {
+            "Reward": "Dieu de la main / Déesse de la main",
+            "Description": "Atteindre le niveau 70 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "ID": 1846,
+            "Name": "Prodige de la main",
+            "Points": 20
+        },
+        {
+            "Reward": "Dieu de la terre / Déesse de la terre",
+            "Description": "Atteindre le niveau 70 avec les classes mineur, botaniste et pêcheur.",
+            "ID": 1847,
+            "Name": "Prodige de la terre",
+            "Points": 20
+        },
+        {
+            "Reward": "Icône de la main",
+            "Description": "Atteindre le niveau 80 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "ID": 2278,
+            "Name": "Icône de la main",
+            "Points": 20
+        },
+        {
+            "Reward": "Icône de la terre",
+            "Description": "Atteindre le niveau 80 avec les classes mineur, botaniste et pêcheur.",
+            "ID": 2279,
+            "Name": "Icône de la terre",
+            "Points": 20
+        },
+        {
+            "Description": "Envoyer son servant accomplir une tâche à 5 reprises.",
+            "ID": 912,
+            "Name": "Le gras et la tâche I",
+            "Points": 5
+        },
+        {
+            "Description": "Envoyer son servant accomplir une tâche à 50 reprises.",
+            "ID": 913,
+            "Name": "Le gras et la tâche II",
+            "Points": 5
+        },
+        {
+            "Description": "Envoyer son servant accomplir une tâche à 100 reprises.",
+            "ID": 914,
+            "Name": "Le gras et la tâche III",
+            "Points": 10
+        },
+        {
+            "Description": "Envoyer son servant accomplir une tâche à 500 reprises.",
+            "ID": 915,
+            "Name": "Pauvre, pauvre tâche",
+            "Points": 20
+        },
+        {
+            "Reward": "Chanfrein à panache",
+            "Description": "Entraîner les chocobos d'autres joueurs 30 fois.",
+            "ID": 1020,
+            "Name": "Meilleur ami des chocobos",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Hautes terres du Coerthas occidental.",
+            "ID": 1157,
+            "Name": "Aux quatre vents : Hautes terres du Coerthas occidental",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de l'Avant-pays dravanien.",
+            "ID": 1158,
+            "Name": "Aux quatre vents : Avant-pays dravanien",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de l'Arrière-pays dravanien.",
+            "ID": 1159,
+            "Name": "Aux quatre vents : Arrière-pays dravanien",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de L'Écume des cieux de Dravania.",
+            "ID": 1160,
+            "Name": "Aux quatre vents : L'Écume des cieux de Dravania",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de L'Écume des cieux d'Abalathia.",
+            "ID": 1161,
+            "Name": "Aux quatre vents : L'Écume des cieux d'Abalathia",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés d'Azys Lla.",
+            "ID": 1162,
+            "Name": "Aux quatre vents : Azys Lla",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Hautes terres du Coerthas occidental, de l'Avant-pays dravanien, de l'Arrière-pays dravanien, de L'Écume des cieux de Dravania, de L'Écume des cieux d'Abalathia et d'Azys Lla.",
+            "ID": 1163,
+            "Name": "Navigateur des cieux du nord",
+            "Points": 10
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Marges.",
+            "ID": 1870,
+            "Name": "Aux quatre vents : Les Marges",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Pics.",
+            "ID": 1871,
+            "Name": "Aux quatre vents : Les Pics",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Lacs.",
+            "ID": 1872,
+            "Name": "Aux quatre vents : Les Lacs",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de la Mer de Rubis.",
+            "ID": 1873,
+            "Name": "Aux quatre vents : Mer de Rubis",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de Yanxia.",
+            "ID": 1874,
+            "Name": "Aux quatre vents : Yanxia",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de la Steppe d'Azim.",
+            "ID": 1875,
+            "Name": "Aux quatre vents : Steppe d'Azim",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés des Marges, des Pics, des Lacs, de la Mer de Rubis, de Yanxia et de la Steppe d'Azim.",
+            "ID": 1876,
+            "Name": "Navigateur des cieux de l'est",
+            "Points": 10
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de Grand-Lac.",
+            "ID": 2329,
+            "Name": "Aux quatre vents : Grand-Lac",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de Kholusia",
+            "ID": 2330,
+            "Name": "Aux quatre vents : Kholusia",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de l'Amh Araeng.",
+            "ID": 2331,
+            "Name": "Aux quatre vents : Amh Araeng",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de l'Il Mheg.",
+            "ID": 2332,
+            "Name": "Aux quatre vents : Il Mheg",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de Rak'tika.",
+            "ID": 2333,
+            "Name": "Aux quatre vents : Rak'tika",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de La Tempête.",
+            "ID": 2334,
+            "Name": "Aux quatre vents : La Tempête",
+            "Points": 5
+        },
+        {
+            "Description": "S'harmoniser avec tous les vents éthérés de Grand-Lac, de Kholusia, de l'Amh Araeng, de l'Il Mheg, de Rak'tika et de La Tempête.",
+            "ID": 2335,
+            "Name": "Navigateur des cieux ténébreux",
+            "Points": 10
+        },
+        {
+            "Description": "Réussir 10 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1472,
+            "Name": "Mentor, mentor I",
+            "Points": 5
+        },
+        {
+            "Reward": "Mentor",
+            "Description": "Réussir 50 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1473,
+            "Name": "Mentor, mentor II",
+            "Points": 5
+        },
+        {
+            "Reward": "Casquette à lunettes d'expédition",
+            "Description": "Réussir 200 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1474,
+            "Name": "Mentor, mentor III",
+            "Points": 5
+        },
+        {
+            "Reward": "Mentor des mentors",
+            "Description": "Réussir 500 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1475,
+            "Name": "Mentor, mentor IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Monocle dragon",
+            "Description": "Réussir 1 000 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1603,
+            "Name": "Mentor, mentor V",
+            "Points": 10
+        },
+        {
+            "Reward": "Cor d'Astérope",
+            "Description": "Réussir 2 000 missions avec la “mission aléatoire: mentor”.",
+            "ID": 1604,
+            "Name": "Mentor, mentor VI",
+            "Points": 20
+        },
+        {
+            "Description": "Obtenir 1 récompense des Aventures imaginaires de Khloe.",
+            "ID": 1648,
+            "Name": "Aventurier imaginaire I",
+            "Points": 5
+        },
+        {
+            "Reward": "Ami de Khloe / Amie de Khloe",
+            "Description": "Obtenir 5 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1649,
+            "Name": "Aventurier imaginaire II",
+            "Points": 5
+        },
+        {
+            "Description": "Obtenir 10 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1650,
+            "Name": "Aventurier imaginaire III",
+            "Points": 5
+        },
+        {
+            "Description": "Obtenir 20 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1651,
+            "Name": "Aventurier imaginaire IV",
+            "Points": 5
+        },
+        {
+            "Description": "Obtenir 30 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1652,
+            "Name": "Aventurier imaginaire V",
+            "Points": 5
+        },
+        {
+            "Description": "Obtenir 40 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1653,
+            "Name": "Aventurier imaginaire VI",
+            "Points": 5
+        },
+        {
+            "Reward": "Meilleur ami de Khloe / Meilleure amie de Khloe",
+            "Description": "Obtenir 50 récompenses des Aventures imaginaires de Khloe.",
+            "ID": 1654,
+            "Name": "Aventurier imaginaire VII",
+            "Points": 10
+        },
+        {
+            "ID": 2634,
+            "Name": "Renard sacripant I",
+            "Description": "Jouer pour la première fois à Touché-tourné.",
+            "Points": 5
+        },
+        {
+            "ID": 2635,
+            "Name": "Renard sacripant II",
+            "Description": "Jouer 5 fois à Touché-tourné.",
+            "Points": 5,
+            "Reward": "Buveur de thé / Buveuse de thé",
+        },
+        {
+            "ID": 2636,
+            "Name": "Renard sacripant III",
+            "Description": "Jouer 20 fois à Touché-tourné.",
+            "Points": 5
+        },
+        {
+            "ID": 2637,
+            "Name": "Renard sacripant IV",
+            "Description": "Jouer 50 fois à Touché-tourné.",
+            "Points": 10,
+            "Reward": "Maitre de thé / Maitresse de thé",
+        },
+        {
+            "Description": "Atteindre le rang 1 de satisfaction auprès de Zhloe Aliapoh.",
+            "ID": 1774,
+            "Name": "Satisfait ou remboursé I",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 2 de satisfaction auprès de Zhloe Aliapoh.",
+            "ID": 1775,
+            "Name": "Satisfait ou remboursé II",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 3 de satisfaction auprès de Zhloe Aliapoh.",
+            "ID": 1776,
+            "Name": "Satisfait ou remboursé III",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 4 de satisfaction auprès de Zhloe Aliapoh.",
+            "ID": 1777,
+            "Name": "Satisfait ou remboursé IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Ami de Zhloe / Amie de Zhloe",
+            "Description": "Atteindre le rang 5 de satisfaction auprès de Zhloe Aliapoh.",
+            "ID": 1778,
+            "Name": "Satisfait ou remboursé V",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 1 de satisfaction auprès de M'naago.",
+            "ID": 1969,
+            "Name": "Pension de guerre I",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 2 de satisfaction auprès de M'naago.",
+            "ID": 1970,
+            "Name": "Pension de guerre II",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 3 de satisfaction auprès de M'naago.",
+            "ID": 1971,
+            "Name": "Pension de guerre III",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 4 de satisfaction auprès de M'naago.",
+            "ID": 1972,
+            "Name": "Pension de guerre IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Ami de M'naago / Amie de M'naago",
+            "Description": "Atteindre le rang 5 de satisfaction auprès de M'naago.",
+            "ID": 1973,
+            "Name": "Pension de guerre V",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 1 de satisfaction auprès de Kurenai.",
+            "ID": 2067,
+            "Name": "Bulle économique I",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 2 de satisfaction auprès de Kurenai.",
+            "ID": 2068,
+            "Name": "Bulle économique II",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 3 de satisfaction auprès de Kurenai.",
+            "ID": 2069,
+            "Name": "Bulle économique III",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 4 de satisfaction auprès de Kurenai.",
+            "ID": 2070,
+            "Name": "Bulle économique IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Ami de Kurenai / Amie de Kurenai",
+            "Description": "Atteindre le rang 5 de satisfaction auprès de Kurenai.",
+            "ID": 2071,
+            "Name": "Bulle économique V",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 1 de satisfaction auprès d'Adkiragh.",
+            "ID": 2183,
+            "Name": "Pilier de taverne I",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 2 de satisfaction auprès d'Adkiragh.",
+            "ID": 2184,
+            "Name": "Pilier de taverne II",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 3 de satisfaction auprès d'Adkiragh.",
+            "ID": 2185,
+            "Name": "Pilier de taverne III",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 4 de satisfaction auprès d'Adkiragh.",
+            "ID": 2186,
+            "Name": "Pilier de taverne IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Porcelet",
+            "Description": "Atteindre le rang 5 de satisfaction auprès d'Adkiragh.",
+            "ID": 2187,
+            "Name": "Pilier de taverne V",
+            "Points": 10
+        },
+        {
+            "Description": "Atteindre le rang 1 de satisfaction auprès de Kai-Shirr.",
+            "ID": 2425,
+            "Name": "Nul miel sans fiel I",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 2 de satisfaction auprès de Kai-Shirr.",
+            "ID": 2426,
+            "Name": "Nul miel sans fiel II",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 3 de satisfaction auprès de Kai-Shirr.",
+            "ID": 2427,
+            "Name": "Nul miel sans fiel III",
+            "Points": 5
+        },
+        {
+            "Description": "Atteindre le rang 4 de satisfaction auprès de Kai-Shirr.",
+            "ID": 2428,
+            "Name": "Nul miel sans fiel IV",
+            "Points": 5
+        },
+        {
+            "Reward": "Meilleur ami de Kai-Shirr / Meilleure amie de Kai-Shirr",
+            "Description": "Atteindre le rang 5 de satisfaction auprès de Kai-Shirr.",
+            "ID": 2429,
+            "Name": "Nul miel sans fiel V",
+            "Points": 10
+        },
+        {
+            "ID": 2623,
+            "Name": "Chant artisanal I",
+            "Description": "Atteindre le rang 1 de satisfaction auprès d'Ehll Tou.",
+            "Points": 5
+        },
+        {
+            "ID": 2624,
+            "Name": "Chant artisanal II",
+            "Description": "Atteindre le rang 2 de satisfaction auprès d'Ehll Tou.",
+            "Points": 5
+        },
+        {
+            "ID": 2625,
+            "Name": "Chant artisanal III",
+            "Description": "Atteindre le rang 3 de satisfaction auprès d'Ehll Tou.",
+            "Points": 5
+        },
+        {
+            "ID": 2626,
+            "Name": "Chant artisanal IV",
+            "Description": "Atteindre le rang 4 de satisfaction auprès d'Ehll Tou.",
+            "Points": 5
+        },
+        {
+            "ID": 2627,
+            "Name": "Chant artisanal V",
+            "Description": "Atteindre le rang 5 de satisfaction auprès d'Ehll Tou.",
+            "Points": 10,
+            "Reward": "Meilleur ami d'Ehll Tou / Meilleure amie d'Ehll Tou",
+        },
+        {
+            "Description": "Obtenir une note supérieure à 80 à la Revue de mode.",
+            "ID": 2001,
+            "Name": "Classe mannequin I",
+            "Points": 5
+        },
+        {
+            "Description": "Obtenir une note supérieure à 90 à la Revue de mode.",
+            "ID": 2002,
+            "Name": "Classe mannequin II",
+            "Points": 5
+        },
+        {
+            "Reward": "Styliste d'avant-garde",
+            "Description": "Obtenir une note de 100 à la Revue de mode.",
+            "ID": 2003,
+            "Name": "Classe mannequin III",
+            "Points": 10
+        },
+        {
+            "Description": "Aider à reconstruire la première partie du quartier enclavé de Doma.",
+            "ID": 2080,
+            "Name": "Œuvres de charité I",
+            "Points": 5
+        },
+        {
+            "Description": "Aider à reconstruire la deuxième partie du quartier enclavé de Doma.",
+            "ID": 2081,
+            "Name": "Œuvres de charité II",
+            "Points": 10
+        },
+        {
+            "Description": "Aider à reconstruire la troisième partie du quartier enclavé de Doma.",
+            "ID": 2129,
+            "Name": "Œuvres de charité III",
+            "Points": 10
+        },
+        {
+            "Description": "Aider à reconstruire la quatrième partie du quartier enclavé de Doma.",
+            "ID": 2130,
+            "Name": "Œuvres de charité IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Philanthrope",
+            "Description": "Aider à reconstruire la dernière partie du quartier enclavé de Doma.",
+            "ID": 2131,
+            "Name": "Œuvres de charité V",
+            "Points": 20
+        },
+        {
+            "Reward": "Adjurateur d'amis / Adjuratrice d'amis",
+            "Description": "Faire atteindre le niveau 80 à Alphinaud, Alisaie, Thancred, Y'shtola, Urianger et Ryne dans le cadre du système d'adjuration.",
+            "ID": 2336,
+            "Name": "Des liens à toute épreuve",
+            "Points": 20
+        },
+        {
+            "ID": 2835,
+            "Name": "Le comte est bon I",
+            "Description": "Atteindre le rang 1 de satisfaction auprès du comte de Durendaire.",
+            "Points": 5
+        },
+        {
+            "ID": 2836,
+            "Name": "Le comte est bon II",
+            "Description": "Atteindre le rang 2 de satisfaction auprès du comte de Durendaire.",
+            "Points": 5
+        },
+        {
+            "ID": 2837,
+            "Name": "Le comte est bon III",
+            "Description": "Atteindre le rang 3 de satisfaction auprès du comte de Durendaire.",
+            "Points": 5
+        },
+        {
+            "ID": 2838,
+            "Name": "Le comte est bon IV",
+            "Description": "Atteindre le rang 4 de satisfaction auprès du comte de Durendaire.",
+            "Points": 5
+        },
+        {
+            "ID": 2839,
+            "Name": "Le comte est bon V",
+            "Description": "Atteindre le rang 5 de satisfaction auprès du comte de Durendaire.",
+            "Points": 10,
+            "Reward": "Ange gardien de Charlemend",
+        }
+    ]
+}

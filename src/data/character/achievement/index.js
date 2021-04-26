@@ -1,5 +1,5 @@
 import { DataGroup } from "../../DataGroup";
-import { AchievementColumnConfig } from "./columnConfigs";
+import { loadJson } from "../../loader";
 
 import { Character_Achievements_Battle } from "./battle";
 import { Character_Achievements_PvP } from "./pvp";
@@ -12,10 +12,20 @@ import { Character_Achievements_Grand_Company } from "./grand-company";
 import { Character_Achievements_Legacy } from "./legacy";
 
 export const Character_Achievements = function(parent) {
-	const data = new DataGroup("Achievements", parent);
-	data.name_fr = "Hauts Faits";
+    const json = loadJson('./character/achievement/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-	data.columnConfig = AchievementColumnConfig;
+    data.initializeColumnConfig([
+        { key: "Name", },
+        { key: "Description" },
+        {
+            key: "Points",
+            filterable: true,
+            filterType: "number",
+            centered: true
+        },
+        { key: "Reward" }
+    ], json.headers);
 
 	data.initializeSubGroups([
 		Character_Achievements_Battle,

@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Exploration_Sightseeing_Log } from "./sightseeing-log";
 import { Character_Achievements_Exploration_La_Noscea } from "./la-noscea";
@@ -16,11 +17,8 @@ import { Character_Achievements_Exploration_Duty } from "./duty";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Exploration&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Character_Achievements_Exploration = function(parent) {
-    const data = new DataGroup("Exploration", parent);
-    data.name_de = "Erkundungen";
-    data.name_en = "Exploration";
-    data.name_fr = "Exploration";
-    data.name_fr = "探検";
+    const json = loadJson('./character/achievement/exploration/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Exploration_Sightseeing_Log,

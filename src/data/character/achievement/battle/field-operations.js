@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/battle/field-operations";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Battle_Field_Operations = function(parent) {
-    const data = new DataGroup("Field Operations", parent);
-    data.name_de = "";
-    data.name_en = "Field Operations";
-    data.name_fr = "";
-    data.name_ja = "";
+    const json = loadJson('./character/achievement/battle/field-operations', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

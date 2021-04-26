@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/weaver";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Weaver = function(parent) {
-    const data = new DataGroup("Weaver", parent);
-    data.name_de = "Weber";
-    data.name_en = "Weaver";
-    data.name_fr = "Couturier";
-    data.name_ja = "裁縫師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/weaver', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

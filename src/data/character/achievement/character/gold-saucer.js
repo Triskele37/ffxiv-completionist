@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/character/gold-saucer";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Character_Gold_Saucer = function(parent) {
-    const data = new DataGroup("Gold Saucer", parent);
-    data.name_de = "Gold Saucer";
-    data.name_en = "Gold Saucer";
-    data.name_fr = "Gold Saucer";
-    data.name_ja = "ゴールドソーサー";
+    const json = loadJson('./character/achievement/character/gold-saucer', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

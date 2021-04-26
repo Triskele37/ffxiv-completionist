@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/pvp/ranking";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_PvP_Ranking = function(parent) {
-    const data = new DataGroup("Ranking", parent);
-    data.name_de = "PvP-Ranglisten";
-    data.name_en = "Ranking";
-    data.name_fr = "Classement";
-    data.name_ja = "ランキング";
+    const json = loadJson('./character/achievement/pvp/ranking', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/the-black-shroud";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_The_Black_Shroud = function(parent) {
-    const data = new DataGroup("The Black Shroud", parent);
-    data.name_de = "Finsterwald";
-    data.name_en = "The Black Shroud";
-    data.name_fr = "Forêt de Sombrelinceul";
-    data.name_ja = "黒衣森";
+    const json = loadJson('./character/achievement/exploration/the-black-shroud', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

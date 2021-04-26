@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/character/disciples-of-war";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Character_Disciple_of_War = function(parent) {
-    const data = new DataGroup("Disciple of War", parent);
-    data.name_de = "Krieger";
-    data.name_en = "Disciple of War";
-    data.name_fr = "Disciples de la guerre";
-    data.name_ja = "ファイター";
+    const json = loadJson('./character/achievement/character/disciples-of-war', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

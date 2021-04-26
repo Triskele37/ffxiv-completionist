@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/character/disciples-of-the-hand";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Character_Disciple_of_the_Hand = function(parent) {
-    const data = new DataGroup("Disciple of the Hand", parent);
-    data.name_de = "Handwerker";
-    data.name_en = "Disciple of the Hand";
-    data.name_fr = "Disciples de la main";
-    data.name_ja = "クラフター";
+    const json = loadJson('./character/achievement/character/disciples-of-the-hand', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

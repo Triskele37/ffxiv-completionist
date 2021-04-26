@@ -1,11 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/logs/blue-mage/log/dungeon";
+import { loadJson } from "../../../loader";
 
 export const Character_Blue_Mage_Log_Dungeons = function(parent) {
-    const data = new DataGroup("Dungeons", parent);
-    data.name_fr = "Donjons";
+    const json = loadJson('./character/blue-mage/log/dungeon', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

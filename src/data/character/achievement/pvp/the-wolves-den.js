@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/pvp/the-wolves-den";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_PvP_The_Wolves_Den = function(parent) {
-    const data = new DataGroup("The Wolves' Den", parent);
-    data.name_de = "Wolfshöhle";
-    data.name_en = "The Wolves' Den";
-    data.name_fr = "L'Antre des loups";
-    data.name_ja = "コロセウム";
+    const json = loadJson('./character/achievement/pvp/the-wolves-den', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

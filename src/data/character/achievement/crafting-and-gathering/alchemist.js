@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/alchemist";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Alchemist = function(parent) {
-    const data = new DataGroup("Alchemist", parent);
-    data.name_de = "Alchemist";
-    data.name_en = "Alchemist";
-    data.name_fr = "Alchimiste";
-    data.name_ja = "錬金術師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/alchemist', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

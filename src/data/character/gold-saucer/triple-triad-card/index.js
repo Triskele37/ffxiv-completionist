@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Gold_Saucer_Triple_Triad_Card_List_Page_1 } from "./page-1";
 import { Character_Gold_Saucer_Triple_Triad_Card_List_Page_2 } from "./page-2";
@@ -14,23 +15,18 @@ import { Character_Gold_Saucer_Triple_Triad_Card_List_Page_11 } from "./page-11"
 import { Character_Gold_Saucer_Triple_Triad_Card_List_Last_Page } from "./last-page";
 
 export const Character_Gold_Saucer_Triple_Triad_Card_List = function(parent) {
-    const data = new DataGroup("Triple Triad Card List", parent);
-    data.name_fr = "Cartes de Triple Triade";
+    const json = loadJson('./character/gold-saucer/triple-triad-card-list/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.columnConfig = [
-        { header: "Number", key: "number", centered: true },
-        { header: "Card", key: "name" },
-        {
-            header: "Rarity",
-            key: "rarity",
-            filterable: true,
-            centered: true,
-        },
-        { header: "Type", key: "type", filterable: true },
-        { header: "Opponent", key: "opponent" },
-        { header: "Acquired By", key: "acquiredBy" },
-        { header: "Patch", key: "patch", filterable: true },
-    ];
+    data.initializeColumnConfig([
+        { key: "number", centered: true },
+        { key: "name" },
+        { key: "rarity", filterable: true, centered: true },
+        { key: "type", filterable: true },
+        { key: "opponent" },
+        { key: "acquiredBy" },
+        { key: "patch", filterable: true },
+    ], json.headers);
 
     data.initializeSubGroups([
         Character_Gold_Saucer_Triple_Triad_Card_List_Page_1,

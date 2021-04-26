@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/duty";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Duty = function(parent) {
-    const data = new DataGroup("Duty", parent);
-    data.name_de = "Inhalte";
-    data.name_en = "Duty";
-    data.name_fr = "Instances";
-    data.name_ja = "コンテンツ";
+    const json = loadJson('./character/achievement/exploration/duty', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

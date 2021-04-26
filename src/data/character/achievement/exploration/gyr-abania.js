@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/gyr-abania";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Gyr_Abania = function(parent) {
-    const data = new DataGroup("Gyr Abania", parent);
-    data.name_de = "Gyr Abania";
-    data.name_en = "Gyr Abania";
-    data.name_fr = "Gyr Abania";
-    data.name_ja = "ギラバニア";
+    const json = loadJson('./character/achievement/exploration/gyr-abania', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

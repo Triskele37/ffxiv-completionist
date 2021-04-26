@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/dravania";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Dravania = function(parent) {
-    const data = new DataGroup("Dravania", parent);
-    data.name_de = "Dravania";
-    data.name_en = "Dravania";
-    data.name_fr = "Dravania";
-    data.name_ja = "ドラヴァニア";
+    const json = loadJson('./character/achievement/exploration/dravania', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

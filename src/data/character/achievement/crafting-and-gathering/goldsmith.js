@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/goldsmith";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Goldsmith = function(parent) {
-    const data = new DataGroup("Goldsmith", parent);
-    data.name_de = "Goldschmied";
-    data.name_en = "Goldsmith";
-    data.name_fr = "Orfèvre";
-    data.name_ja = "彫金師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/goldsmith', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

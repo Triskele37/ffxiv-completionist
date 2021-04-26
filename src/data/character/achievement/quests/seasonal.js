@@ -1,16 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/quests/seasonal-events";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Quests_Seasonal_Events = function(parent) {
-    const data = new DataGroup("Seasonal Events", parent);
-    data.defaultCompletion = "X";
+    const json = loadJson('./character/achievement/quests/seasonal-events', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.name_de = "Saisonale Ereignisse";
-    data.name_en = "Seasonal Events";
-    data.name_fr = "Événements saisonniers";
-    data.name_ja = "シーズナルイベント";
-
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

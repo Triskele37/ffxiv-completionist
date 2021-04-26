@@ -1,77 +1,20 @@
 import { DataGroup } from "../../DataGroup";
+import { loadJson } from "../../loader";
 
 export const Character_Character_Desynthesis = function(parent) {
-    const data = new DataGroup("Desynthesis", parent);
+    const json = loadJson('./character/character/desynthesis', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.isNumericCompletion = true;
     data.defaultCompletion = "0";
     data.numericDecimal = 2;
 
-    data.initializeTasks(tasks, [
-        { header: "Level", key: "name", },
-        { header: "Crafter", key: "name", },
-        { header: "Starting Quest", key: "startingQuest", },
-        { header: "Patch", key: "patch", filterable: true },
-    ]);
+    data.initializeColumnConfig([
+        { key: "name", },
+        { key: "startingQuest", },
+        { key: "patch", filterable: true },
+    ], json.headers);
+    data.initializeTasks(json.tasks);
 
     return data;
 };
-
-const tasks = [
-    {
-        name: "Carpenter",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Blacksmith",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Armorer",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Goldsmith",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Leatherworker",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Weaver",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Alchemist",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-    {
-        name: "Culinarian",
-        startingQuest: "Gone to Pieces - Syntgoht - Ul'dah - Steps of Thal",
-        patch: "2.0",
-        minValue: 0,
-        maxValue: 510
-    },
-];

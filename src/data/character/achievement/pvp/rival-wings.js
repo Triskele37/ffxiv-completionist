@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/pvp/rival-wings";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_PvP_Rival_Wings = function(parent) {
-    const data = new DataGroup("Rival Wings", parent);
-    data.name_de = "Stahlschwingen";
-    data.name_en = "Rival Wings";
-    data.name_fr = "Ailes rivales";
-    data.name_ja = "ライバルウィングズ";
+    const json = loadJson('./character/achievement/pvp/rival-wings', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

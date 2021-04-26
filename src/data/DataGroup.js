@@ -45,7 +45,15 @@ export class DataGroup {
         return this;
     }
 
-    initializeTasks(tasks, columnConfig) {
+    // Allow a manually passed config to override an inherited config
+    initializeColumnConfig(columnConfig, jsonHeaders) {
+        this.columnConfig = columnConfig;
+
+        // Assign header text based on localization
+        columnConfig.forEach((column) => column.header = jsonHeaders[column.key]);
+    }
+
+    initializeTasks(tasks) {
         this.tasks = tasks.map((task) => {
             const taskObj = new Task(task, this);
 
@@ -56,9 +64,6 @@ export class DataGroup {
 
             return taskObj;
         });
-
-        // Allow a manually passed config to override an inherited config
-        if(columnConfig) this.columnConfig = columnConfig;
 
         // Determine how to calculate totals
         let totalTasks = this.tasks.length;

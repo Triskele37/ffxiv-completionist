@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Items_Items } from "./items";
 import { Character_Achievements_Items_Currency } from "./currency";
@@ -16,11 +17,8 @@ import { Character_Achievements_Items_Skysteel_Tools } from "./skysteel-tools";
 //https://xivapi.com/search?indexes=Achievement&string_column=AchievementCategory.Name_en&string=Item&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Character_Achievements_Items = function(parent) {
-    const data = new DataGroup("Items", parent);
-    data.name_de = "Gegenstände";
-    data.name_en = "Items";
-    data.name_fr = "Objets";
-    data.name_ja = "アイテム";
+    const json = loadJson('./character/achievement/items/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Items_Items,

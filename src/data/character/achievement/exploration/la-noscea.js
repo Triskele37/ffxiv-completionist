@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/la-noscea";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_La_Noscea = function(parent) {
-    const data = new DataGroup("La Noscea", parent);
-    data.name_de = "La Noscea";
-    data.name_en = "La Noscea";
-    data.name_fr = "Noscea";
-    data.name_ja = "ラノシア";
+    const json = loadJson('./character/achievement/exploration/la-noscea', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

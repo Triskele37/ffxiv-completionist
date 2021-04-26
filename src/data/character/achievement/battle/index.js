@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Battle_Battle } from "./battle";
 import { Character_Achievements_Battle_Dungeons } from "./dungeons";
@@ -9,11 +10,8 @@ import { Character_Achievements_Battle_Treasure_Hunt } from "./treasure-hunt";
 import { Character_Achievements_Battle_Field_Operations } from "./field-operations";
 
 export const Character_Achievements_Battle = function(parent) {
-    const data = new DataGroup("Battle", parent);
-    data.name_de = "Kamferfolge";
-    data.name_en = "Battle";
-    data.name_fr = "Combats";
-    data.name_ja = "バトル";
+    const json = loadJson('./character/achievement/battle/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Battle_Battle,

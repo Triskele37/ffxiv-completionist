@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/items/desynthesis";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Items_Desynthesis = function(parent) {
-    const data = new DataGroup("Desynthesis", parent);
-    data.name_de = "Verwertung";
-    data.name_en = "Desynthesis";
-    data.name_fr = "Recyclage";
-    data.name_ja = "分解";
+    const json = loadJson('./character/achievement/items/desynthesis', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

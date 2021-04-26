@@ -1,0 +1,857 @@
+{
+    "groupName": "Battle",
+    "tasks": [
+        {
+            "Description": "Defeat 100 enemies.",
+            "ID": 1,
+            "Name": "To Crush Your Enemies I",
+            "Points": 5
+        },
+        {
+            "Description": "Defeat 500 enemies.",
+            "ID": 2,
+            "Name": "To Crush Your Enemies II",
+            "Points": 5
+        },
+        {
+            "Description": "Defeat 1,000 enemies.",
+            "ID": 3,
+            "Name": "To Crush Your Enemies III",
+            "Points": 10
+        },
+        {
+            "Description": "Defeat 5,000 enemies.",
+            "ID": 4,
+            "Name": "To Crush Your Enemies IV",
+            "Points": 10
+        },
+        {
+            "Description": "Defeat 10,000 enemies.",
+            "ID": 5,
+            "Name": "To Crush Your Enemies V",
+            "Points": 10
+        },
+        {
+            "Reward": "The Exterminator",
+            "Description": "Defeat 50,000 enemies.",
+            "ID": 6,
+            "Name": "To Crush Your Enemies VI",
+            "Points": 10
+        },
+        {
+            "Reward": "Butcher's Crown",
+            "Description": "Defeat 100,000 enemies.",
+            "ID": 7,
+            "Name": "Let the Bodies Hit the Floor",
+            "Points": 30
+        },
+        {
+            "Description": "Defeat 200,000 enemies.",
+            "ID": 1336,
+            "Name": "To Crush Your Enemies VII",
+            "Points": 30
+        },
+        {
+            "Reward": "Master Gladiator's Ring",
+            "Description": "Complete all gladiator entries in the hunting log.",
+            "ID": 728,
+            "Name": "Bump on a Log: Gladiator",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Pugilist's Ring",
+            "Description": "Complete all pugilist entries in the hunting log.",
+            "ID": 729,
+            "Name": "Bump on a Log: Pugilist",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Marauder's Ring",
+            "Description": "Complete all marauder entries in the hunting log.",
+            "ID": 730,
+            "Name": "Bump on a Log: Marauder",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Lancer's Ring",
+            "Description": "Complete all lancer entries in the hunting log.",
+            "ID": 731,
+            "Name": "Bump on a Log: Lancer",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Archer's Ring",
+            "Description": "Complete all archer entries in the hunting log.",
+            "ID": 732,
+            "Name": "Bump on a Log: Archer",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Rogue's Ring",
+            "Description": "Complete all rogue entries in the hunting log.",
+            "ID": 1051,
+            "Name": "Bump on a Log: Rogue",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Conjurer's Ring",
+            "Description": "Complete all conjurer entries in the hunting log.",
+            "ID": 733,
+            "Name": "Bump on a Log: Conjurer",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Thaumaturge's Ring",
+            "Description": "Complete all thaumaturge entries in the hunting log.",
+            "ID": 734,
+            "Name": "Bump on a Log: Thaumaturge",
+            "Points": 20
+        },
+        {
+            "Reward": "Master Arcanist's Ring",
+            "Description": "Complete all arcanist entries in the hunting log.",
+            "ID": 735,
+            "Name": "Bump on a Log: Arcanist",
+            "Points": 20
+        },
+        {
+            "Description": "Successfully complete the FATE “He Taketh It with His Eyes” with the highest rating possible.",
+            "ID": 792,
+            "Name": "Locking Horns",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Steel Reign” with the highest rating possible.",
+            "ID": 793,
+            "Name": "Uncut",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Go, Go, Gorgimera” with the highest rating possible.",
+            "ID": 794,
+            "Name": "When the Going Gets Tough",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “The Eyes Have It” with the highest rating possible.",
+            "ID": 795,
+            "Name": "On the Ropes",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “It's Not Lupus” with the highest rating possible.",
+            "ID": 796,
+            "Name": "Full Remission",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Lazy for You” with the highest rating possible.",
+            "ID": 797,
+            "Name": "Lazy Town",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Dark Devices - The End” with the highest rating possible.",
+            "ID": 798,
+            "Name": "Blood, Sweat, and Blood",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete either the FATE “Svara's Fall” or “Svara's Fury” with the highest rating possible.",
+            "ID": 799,
+            "Name": "Ring of Fire",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Clearing the Hive,” “Defending the Hive,” or “Keeping the Hive” with the highest rating possible.",
+            "ID": 800,
+            "Name": "Boughbury Burning",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Attack on Highbridge: Act III” with the highest rating possible.",
+            "ID": 801,
+            "Name": "Curtain Call",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Poor Maid's Misfortune” with the highest rating possible.",
+            "ID": 802,
+            "Name": "Old Maid",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Coeurls Chase Boys Chase Coeurls” with the highest rating possible.",
+            "ID": 1359,
+            "Name": "Short-lived, the Queen",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Vedrfolnir Devoteth” with the highest rating possible.",
+            "ID": 1360,
+            "Name": "A Worthy Adversary",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “We Fought a Dzu” with the highest rating possible.",
+            "ID": 1361,
+            "Name": "A Day at the Dzu",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Special Tarasque Force” with the highest rating possible.",
+            "ID": 1362,
+            "Name": "Falling Down",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Metal Gears Revengeance 2” with the highest rating possible.",
+            "ID": 1363,
+            "Name": "Neverlasting Gobstopper",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Darkscale Devoureth” with the highest rating possible.",
+            "ID": 1364,
+            "Name": "Tipping the Scales",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “On Dangerous Ground” with the highest rating possible.",
+            "ID": 1365,
+            "Name": "Fantasy Islet",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “The Evil Seed” with the highest rating possible.",
+            "ID": 1923,
+            "Name": "Superseed",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Rattle and Humbaba” with the highest rating possible.",
+            "ID": 1924,
+            "Name": "What You're Looking For",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Tall Tale” with the highest rating possible.",
+            "ID": 1925,
+            "Name": "Slay Me a Mountain",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Never Say Daimyo” with the highest rating possible.",
+            "ID": 1926,
+            "Name": "Shucked, Not Stirred",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Curiosity Killed the Catfish” with the highest rating possible.",
+            "ID": 1927,
+            "Name": "Maru Five",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Wham, Bam, Thank You, Mammoth” with the highest rating possible.",
+            "ID": 1928,
+            "Name": "Tusk",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Foxy Lady” with the highest rating possible.",
+            "ID": 1929,
+            "Name": "Naughty Girls Need Love, as Well",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “A Horse Outside” with the highest rating possible.",
+            "ID": 1930,
+            "Name": "Ride On",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “The Dataqi Chronicles: Dominion” with the highest rating possible.",
+            "ID": 1931,
+            "Name": "Dataq Is Cheap",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Deadly Nightshade” with the highest rating possible.",
+            "ID": 2337,
+            "Name": "Not Today",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “The Elderblade” with the highest rating possible.",
+            "ID": 2338,
+            "Name": "Stay Thy Blade",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Fuath to Be Reckoned With” with the highest rating possible.",
+            "ID": 2339,
+            "Name": "Mischief Managed",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “Tojil Eclipse” with the highest rating possible.",
+            "ID": 2340,
+            "Name": "Unbowed, Unbent, Unbroken",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “A Finale Most Formidable” with the highest rating possible.",
+            "ID": 2341,
+            "Name": "Be Still My (Automatic) Heart",
+            "Points": 10
+        },
+        {
+            "Description": "Successfully complete the FATE “The Head, the Tail, the Whole Damned Thing” with the highest rating possible.",
+            "ID": 2342,
+            "Name": "Another World, Another Turn",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in Lakeland.",
+            "ID": 2343,
+            "Name": "Free Market Friend: Lakeland",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in Amh Araeng.",
+            "ID": 2345,
+            "Name": "Free Market Friend: Amh Araeng",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in Kholusia.",
+            "ID": 2344,
+            "Name": "Free Market Friend: Kholusia",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in Il Mheg.",
+            "ID": 2346,
+            "Name": "Free Market Friend: Il Mheg",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in the Rak'tika Greatwood.",
+            "ID": 2347,
+            "Name": "Free Market Friend: The Rak'tika Greatwood",
+            "Points": 10
+        },
+        {
+            "Description": "Achieve shared FATE rank 3 in the Tempest.",
+            "ID": 2348,
+            "Name": "Free Market Friend: The Tempest",
+            "Points": 10
+        },
+        {
+            "Reward": "The Invisible Hand",
+            "Description": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
+            "ID": 2349,
+            "Name": "Merchant's Best Friend",
+            "Points": 20
+        },
+        {
+            "Description": "Successfully complete 10 FATEs.",
+            "ID": 803,
+            "Name": "Date With Destiny I",
+            "Points": 5
+        },
+        {
+            "Description": "Successfully complete 100 FATEs.",
+            "ID": 804,
+            "Name": "Date With Destiny II",
+            "Points": 5
+        },
+        {
+            "Description": "Successfully complete 300 FATEs.",
+            "ID": 805,
+            "Name": "Date With Destiny III",
+            "Points": 10
+        },
+        {
+            "Reward": "Tempter of Fate / Temptress of Fate",
+            "Description": "Successfully complete 1,000 FATEs.",
+            "ID": 806,
+            "Name": "Date With Destiny IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Paragon's Gown",
+            "Description": "Successfully complete 3,000 FATEs.",
+            "ID": 807,
+            "Name": "Destiny's Child",
+            "Points": 20
+        },
+        {
+            "Description": "Successfully complete 5,000 FATEs.",
+            "ID": 1353,
+            "Name": "Date With Destiny V",
+            "Points": 20
+        },
+        {
+            "Reward": "The Fortunate",
+            "Description": "Successfully complete 10,000 FATEs.",
+            "ID": 1354,
+            "Name": "Date With Destiny VI",
+            "Points": 20
+        },
+        {
+            "Description": "See your companion chocobo to rank 1.",
+            "ID": 808,
+            "Name": "Bosom Buddies I",
+            "Points": 5
+        },
+        {
+            "Description": "See your companion chocobo to rank 5.",
+            "ID": 809,
+            "Name": "Bosom Buddies II",
+            "Points": 10
+        },
+        {
+            "Reward": "Chocobo Suit",
+            "Description": "See your companion chocobo to rank 10.",
+            "ID": 810,
+            "Name": "Bosom Buddies III",
+            "Points": 20
+        },
+        {
+            "Description": "Resurrect a player who is not in your party or alliance.",
+            "ID": 885,
+            "Name": "The Kindness of Strangers I",
+            "Points": 5
+        },
+        {
+            "Description": "Resurrect a player who is not in your party or alliance 20 times.",
+            "ID": 886,
+            "Name": "The Kindness of Strangers II",
+            "Points": 10
+        },
+        {
+            "Description": "Resurrect a player who is not in your party or alliance 50 times.",
+            "ID": 1355,
+            "Name": "The Kindness of Strangers III",
+            "Points": 10
+        },
+        {
+            "Description": "Resurrect a player who is not in your party or alliance 100 times.",
+            "ID": 1356,
+            "Name": "The Kindness of Strangers IV",
+            "Points": 10
+        },
+        {
+            "Reward": "Good Samaritan",
+            "Description": "Resurrect a player who is not in your party or alliance 200 times.",
+            "ID": 1357,
+            "Name": "The Kindness of Strangers V",
+            "Points": 10
+        },
+        {
+            "Reward": "The Meat Shield",
+            "Description": "Complete 50 high-level duties as a paladin.",
+            "ID": 919,
+            "Name": "A Tankless Job I (Paladin)",
+            "Points": 5
+        },
+        {
+            "Reward": "Of the Stalwart Shield",
+            "Description": "Complete 100 high-level duties as a paladin.",
+            "ID": 920,
+            "Name": "A Tankless Job II (Paladin)",
+            "Points": 10
+        },
+        {
+            "Reward": "Warlion Horn",
+            "Description": "Complete 200 high-level duties as a paladin.",
+            "ID": 921,
+            "Name": "But Somebody's Gotta Do It (Paladin)",
+            "Points": 20
+        },
+        {
+            "Reward": "The Meat Axe",
+            "Description": "Complete 50 high-level duties as a warrior.",
+            "ID": 922,
+            "Name": "A Tankless Job I (Warrior)",
+            "Points": 5
+        },
+        {
+            "Reward": "Of the Stalwart Axe",
+            "Description": "Complete 100 high-level duties as a warrior.",
+            "ID": 923,
+            "Name": "A Tankless Job II (Warrior)",
+            "Points": 10
+        },
+        {
+            "Reward": "Warbear Horn",
+            "Description": "Complete 200 high-level duties as a warrior.",
+            "ID": 924,
+            "Name": "But Somebody's Gotta Do It (Warrior)",
+            "Points": 20
+        },
+        {
+            "Reward": "Dark Driver",
+            "Description": "Complete 50 high-level duties as a dark knight.",
+            "ID": 1193,
+            "Name": "A Tankless Job I (Dark Knight)",
+            "Points": 5
+        },
+        {
+            "Reward": "Of the Stalwart Sword",
+            "Description": "Complete 100 high-level duties as a dark knight.",
+            "ID": 1194,
+            "Name": "A Tankless Job II (Dark Knight)",
+            "Points": 10
+        },
+        {
+            "Reward": "Panther Bell",
+            "Description": "Complete 200 high-level duties as a dark knight.",
+            "ID": 1195,
+            "Name": "But Somebody's Gotta Do It (Dark Knight)",
+            "Points": 20
+        },
+        {
+            "Description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1953,
+            "Name": "Tank You, Paladin I",
+            "Points": 5
+        },
+        {
+            "Description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1954,
+            "Name": "Tank You, Paladin II",
+            "Points": 10
+        },
+        {
+            "Reward": "Battle Lion Horn",
+            "Description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1955,
+            "Name": "Tank You, Paladin III",
+            "Points": 20
+        },
+        {
+            "Reward": "Of Unyielding Oath",
+            "Description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2387,
+            "Name": "Tank You, Paladin IV",
+            "Points": 20
+        },
+        {
+            "Description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1956,
+            "Name": "Tank You, Warrior I",
+            "Points": 5
+        },
+        {
+            "Description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1957,
+            "Name": "Tank You, Warrior II",
+            "Points": 10
+        },
+        {
+            "Reward": "Battle Bear Horn",
+            "Description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1958,
+            "Name": "Tank You, Warrior III",
+            "Points": 20
+        },
+        {
+            "Reward": "Of Unyielding Steel",
+            "Description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2388,
+            "Name": "Tank You, Warrior IV",
+            "Points": 20
+        },
+        {
+            "Description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1959,
+            "Name": "Tank You, Dark Knight I",
+            "Points": 5
+        },
+        {
+            "Description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1960,
+            "Name": "Tank You, Dark Knight II",
+            "Points": 10
+        },
+        {
+            "Reward": "Battle Panther Bell",
+            "Description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 1961,
+            "Name": "Tank You, Dark Knight III",
+            "Points": 20
+        },
+        {
+            "Reward": "Of Unyielding Principle",
+            "Description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2389,
+            "Name": "Tank You, Dark Knight IV",
+            "Points": 20
+        },
+        {
+            "Description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2390,
+            "Name": "Tank You, Gunbreaker I",
+            "Points": 5
+        },
+        {
+            "Reward": "War Tiger Horn",
+            "Description": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2391,
+            "Name": "Tank You, Gunbreaker II",
+            "Points": 10
+        },
+        {
+            "Reward": "Battle Tiger Horn",
+            "Description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2392,
+            "Name": "Tank You, Gunbreaker III",
+            "Points": 20
+        },
+        {
+            "Reward": "Of Unyielding Lealty",
+            "Description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "ID": 2393,
+            "Name": "Tank You, Gunbreaker IV",
+            "Points": 20
+        },
+        {
+            "Description": "Complete 5 types of routine mission in the Blue Mage Log.",
+            "ID": 2451,
+            "Name": "Jack of All Trades I",
+            "Points": 5
+        },
+        {
+            "Description": "Complete 20 types of routine mission in the Blue Mage Log.",
+            "ID": 2452,
+            "Name": "Jack of All Trades II",
+            "Points": 5
+        },
+        {
+            "Reward": "Blue Luminary",
+            "Description": "Complete 50 types of routine mission in the Blue Mage Log.",
+            "ID": 2453,
+            "Name": "Jack of All Trades III",
+            "Points": 5
+        },
+        {
+            "Reward": "Blue Ranger",
+            "Description": "Complete 90 types of routine mission in the Blue Mage Log.",
+            "ID": -1,
+            "Name": "Jack of All Trades IV",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2454,
+            "Name": "Mightier than the Inferno",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Navel (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2455,
+            "Name": "Mightier than the Crag",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Howling Eye (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2456,
+            "Name": "Mightier than the Vortex",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Thornmarch (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2457,
+            "Name": "Mightier than the King",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Whorleater (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2458,
+            "Name": "Mightier than the Whorl",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Striking Tree (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2459,
+            "Name": "Mightier than Levin",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Akh Afah Amphitheatre (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2460,
+            "Name": "Mightier than the Frost",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Binding Coil of Bahamut - Turn 5 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2461,
+            "Name": "Mightier than the Dragon",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Second Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2462,
+            "Name": "Mightier than the Raven",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Final Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2463,
+            "Name": "Mightier than the Dreadwyrm",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Thok ast Thok (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2464,
+            "Name": "Mightier than the Hive",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Limitless Blue (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2465,
+            "Name": "Mightier than the Expanse",
+            "Points": 5
+        },
+        {
+            "Reward": "Masked of the Round",
+            "Description": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2466,
+            "Name": "Mightier than the Round",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2467,
+            "Name": "Mightier than the Fiend",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Minstrel's Ballad: Nidhogg's Rage with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2468,
+            "Name": "Mightier than the Horde",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Containment Bay P1T6 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2469,
+            "Name": "Mightier than the Goddess",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Containment Bay Z1T9 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2470,
+            "Name": "Mightier than the Demon",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Alexander - The Burden of the Father (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2471,
+            "Name": "Mightier than the Manipulator",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Alexander - The Burden of the Son (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2472,
+            "Name": "Mightier than Justice",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Alexander - The Soul of the Creator (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": 2473,
+            "Name": "Mightier than the Prime",
+            "Points": 5
+        },
+        {
+            "Reward": "Unbound Blue",
+            "Description": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
+            "ID": 2474,
+            "Name": "Blue Unchained",
+            "Points": 10
+        },
+        {
+            "Reward": "Blue Justice",
+            "Description": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
+            "ID": 2475,
+            "Name": "Masked Conqueror",
+            "Points": 10
+        },
+        {
+            "Reward": "Morbol Horn",
+            "Description": "Obtain the achievements “Blue Unchained” and “Masked Conqueror.”",
+            "ID": 2476,
+            "Name": "True Blue",
+            "Points": 10
+        },
+        {
+            "Description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Revel",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than Bliss",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Worm",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Moon",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the White",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Vermilion",
+            "Points": 5
+        },
+        {
+            "Description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Azure",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Delta",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Sigma",
+            "Points": 5
+        },
+        {
+            "Description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "ID": -1,
+            "Name": "Mightier than the Alpha",
+            "Points": 5
+        },
+        {
+            "Reward": "The Azure and Omega",
+            "Description": "Obtain the achievements \"Mightier than the Delta,\" \"Mightier than the Sigma,\" and \"Mightier than the Alpha.\"",
+            "ID": -1,
+            "Name": "Omega Blue",
+            "Points": 10
+        }
+    ]
+}

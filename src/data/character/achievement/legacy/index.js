@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Legacy_Battle } from "./battle";
 import { Character_Achievements_Legacy_Currency } from "./currency";
@@ -10,7 +11,8 @@ import { Character_Achievements_Legacy_Exploration } from "./exploration";
 import { Character_Achievements_Legacy_Grand_Company } from "./grand-company";
 
 export const Character_Achievements_Legacy = function(parent) {
-    const data = new DataGroup("Legacy", parent);
+    const json = loadJson('./character/achievement/legacy/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
     data.defaultCompletion = "X";
 
     data.initializeSubGroups([

@@ -1,16 +1,17 @@
 import { DataGroup } from "../../DataGroup";
-import tasks from "../../../../static/logs/blue-mage/spellbook";
+import { loadJson } from "../../loader";
 
 export const Character_Blue_Mage_Spellbook = function(parent) {
-    const data = new DataGroup("Spellbook", parent);
-    data.name_fr = "Grimoire";
+    const json = loadJson('./character/blue-mage/spellbook', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks, [
-        { header: "#", key: "number", centered: true },
-        { header: "Spell", key: "name" },
-        { header: "Enemy", key: "enemy" },
-        { header: "Location", key: "location" },
-    ]);
+    data.initializeColumnConfig([
+        { key: "number", centered: true },
+        { key: "name" },
+        { key: "enemy" },
+        { key: "location" },
+    ], json.headers);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

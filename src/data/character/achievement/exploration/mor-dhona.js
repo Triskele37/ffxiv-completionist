@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/mor-dhona";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Mor_Dhona = function(parent) {
-    const data = new DataGroup("Mor Dhona", parent);
-    data.name_de = "Mor Dhona";
-    data.name_en = "Mor Dhona";
-    data.name_fr = "Mor Dhona";
-    data.name_ja = "モードゥナ";
+    const json = loadJson('./character/achievement/exploration/mor-dhona', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

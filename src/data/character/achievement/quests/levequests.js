@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/quests/levequests";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Quests_Levequests = function(parent) {
-    const data = new DataGroup("Levequests", parent);
-    data.name_de = "Freibriefe";
-    data.name_en = "Levequests";
-    data.name_fr = "Mandats";
-    data.name_ja = "リーヴ";
+    const json = loadJson('./character/achievement/quests/levequests', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

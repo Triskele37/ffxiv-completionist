@@ -7,15 +7,13 @@ import { Character_Achievements_Character_Disciple_of_the_Hand } from "./discipl
 import { Character_Achievements_Character_Disciple_of_the_Land } from "./disciples-of-the-land";
 import { Character_Achievements_Character_Commendation } from "./commendation";
 import { Character_Achievements_Character_Gold_Saucer } from "./gold-saucer";
+import { loadJson } from "../../../loader";
 
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Character_Achievements_Character = function(parent) {
-    const data = new DataGroup("Character", parent);
-    data.name_de = "Charakter";
-    data.name_en = "Character";
-    data.name_fr = "Personnage";
-    data.name_ja = "キャラクター";
+    const json = loadJson('./character/achievement/character/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Character_General,

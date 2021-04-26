@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/crafting-gathering/miner";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Crafting_and_Gathering_Miner = function(parent) {
-    const data = new DataGroup("Miner", parent);
-    data.name_de = "Minenarbeiter";
-    data.name_en = "Miner";
-    data.name_fr = "Mineur";
-    data.name_ja = "採掘師";
+    const json = loadJson('./character/achievement/crafting-and-gathering/miner', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

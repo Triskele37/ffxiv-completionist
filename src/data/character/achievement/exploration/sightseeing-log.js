@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/exploration/sightseeing-log";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Exploration_Sightseeing_Log = function(parent) {
-    const data = new DataGroup("Sightseeing Log", parent);
-    data.name_de = "Eorzea Incognita";
-    data.name_en = "Sightseeing Log";
-    data.name_fr = "Carnet d'exploration";
-    data.name_ja = "探検手帳";
+    const json = loadJson('./character/achievement/exploration/sightseeing-log', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };

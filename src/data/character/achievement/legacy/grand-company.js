@@ -1,6 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/legacy/grand-company";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Legacy_Grand_Company = function(parent) {
-    return new DataGroup("Grand Company", parent).initializeTasks(tasks);
+    const json = loadJson('./character/achievement/legacy/grand-company', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
+
+    data.initializeTasks(json.tasks);
+
+    return data;
 };

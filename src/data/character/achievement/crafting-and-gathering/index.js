@@ -1,4 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
+import { loadJson } from "../../../loader";
 
 import { Character_Achievements_Crafting_and_Gathering_All_Disciplines } from './all-disciplines';
 import { Character_Achievements_Crafting_and_Gathering_Carpenter } from "./carpenter";
@@ -16,11 +17,8 @@ import { Character_Achievements_Crafting_and_Gathering_Fisher } from "./fisher";
 //https://xivapi.com/search?indexes=Achievement&filters=AchievementCategory.ID=12&columns=Name,Description,Points,Item.Name,Title.Name&page=1&limit=380
 
 export const Character_Achievements_Crafting_and_Gathering = function(parent) {
-    const data = new DataGroup("Crafting & Gathering", parent);
-    data.name_de = "Synthese und Sammeln";
-    data.name_en = "Crafting & Gathering";
-    data.name_fr = "Synthèse et récolte";
-    data.name_ja = "製作・採集";
+    const json = loadJson('./character/achievement/crafting-and-gathering/index', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
     data.initializeSubGroups([
         Character_Achievements_Crafting_and_Gathering_All_Disciplines,

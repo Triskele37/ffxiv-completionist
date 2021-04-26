@@ -1,9 +1,3 @@
-export const BlueMageLogColumnConfig = [
-    { header: "Level", key: "level", centered: true },
-    { header: "iLvl Req", key: "iLvlReq", filterable: true, centered: true },
-    { header: "Name", key: "name" },
-];
-
 export const HuntingLogColumnConfig = [
     { header: "#", key: "name", centered: true },
     { header: "Rank", key: "rank", filterable: true, centered: true },

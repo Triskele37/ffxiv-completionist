@@ -1,14 +1,11 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/achievement/grand-company/maelstrom";
+import { loadJson } from "../../../loader";
 
 export const Character_Achievements_Grand_Company_Maelstrom = function(parent) {
-    const data = new DataGroup("Maelstrom", parent);
-    data.name_de = "Mahlstrom";
-    data.name_en = "Maelstrom";
-    data.name_fr = "Maelstrom";
-    data.name_ja = "黒渦団";
+    const json = loadJson('./character/achievement/grand-company/maelstrom', parent.lang);
+    const data = new DataGroup(json.groupName, parent);
 
-    data.initializeTasks(tasks);
+    data.initializeTasks(json.tasks);
 
     return data;
 };
