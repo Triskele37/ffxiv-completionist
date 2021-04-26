@@ -7,12 +7,12 @@ export const Duty_Exploratory_Missions_Eureka_Notorious_Monsters = function(pare
         light: { centered: true, filterable: true },
     });
 
-    group.initializeSubGroups([
-        DataGroup.fromJSON(parent, `${basePath}/anemos`),
-        DataGroup.fromJSON(parent, `${basePath}/pagos`),
-        DataGroup.fromJSON(parent, `${basePath}/pyros`),
-        DataGroup.fromJSON(parent, `${basePath}/hydatos`),
-	]);
+    group.subGroups = [
+        DataGroup.fromJSON(group, `${basePath}/anemos`),
+        DataGroup.fromJSON(group, `${basePath}/pagos`),
+        DataGroup.fromJSON(group, `${basePath}/pyros`),
+        DataGroup.fromJSON(group, `${basePath}/hydatos`),
+	];
 
     return group;
 };

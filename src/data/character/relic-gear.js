@@ -8,11 +8,11 @@ export const Character_Relic_Gear = function(parent) {
     });
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/zodiac`),
-        DataGroup.fromJSON(parent, `${basePath}/anima`),
-        DataGroup.fromJSON(parent, `${basePath}/eureka`),
-        DataGroup.fromJSON(parent, `${basePath}/resistance`),
-        DataGroup.fromJSON(parent, `${basePath}/skysteel-tools`),
+        DataGroup.fromJSON(group, `${basePath}/zodiac`),
+        DataGroup.fromJSON(group, `${basePath}/anima`),
+        DataGroup.fromJSON(group, `${basePath}/eureka`),
+        DataGroup.fromJSON(group, `${basePath}/resistance`),
+        DataGroup.fromJSON(group, `${basePath}/skysteel-tools`),
     ];
 
     return group;

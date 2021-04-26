@@ -8,7 +8,7 @@ const tasks = [
     {
         level: "66",
         name: "Ishgardian Culinary Materials",
-        mat1: "Raw Ishgardian Materials ",
+        mat1: "Raw Ishgardian Materials",
         mat2: "X",
         catalysts: "Variable"
     }, {

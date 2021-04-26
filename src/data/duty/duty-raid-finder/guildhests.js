@@ -8,20 +8,20 @@ export const Duty_Guildhests = function(parent) {
     });
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Arcanist"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Archer"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Astrologian"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Conjurer"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Dark Knight"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Gladiator"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Lancer"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Machinist"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Marauder"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Pugilist"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Red Mage"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Rogue"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Samurai"),
-        DataGroup.fromJSON(parent, `${basePath}/guildhests`).forceName("Thaumaturge"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Arcanist"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Archer"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Astrologian"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Conjurer"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Dark Knight"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Gladiator"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Lancer"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Machinist"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Marauder"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Pugilist"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Red Mage"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Rogue"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Samurai"),
+        DataGroup.fromJSON(group, `${basePath}/guildhests`).forceName("Thaumaturge"),
     ];
 
     return group;

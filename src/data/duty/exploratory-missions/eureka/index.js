@@ -7,19 +7,19 @@ export const Duty_Exploratory_Missions_Eureka = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/elemental-level`, {
+        DataGroup.fromJSON(group, `${basePath}/elemental-level`, {
             name: { centered: true },
             zone: { filterable: true }
         }),
-        DataGroup.fromJSON(parent, `${basePath}/aetherytes`, {
+        DataGroup.fromJSON(group, `${basePath}/aetherytes`, {
             zone: { filterable: true },
             eLvlReq: { centered: true }
         }),
         Duty_Exploratory_Missions_Eureka_Notorious_Monsters(group),
-        DataGroup.fromJSON(parent, `${basePath}/logos-actions`, {
+        DataGroup.fromJSON(group, `${basePath}/logos-actions`, {
             equippableBy: { filterable: true }
         }),
-        DataGroup.fromJSON(parent, `${basePath}/duties`),
+        DataGroup.fromJSON(group, `${basePath}/duties`),
     ];
 
     return group;

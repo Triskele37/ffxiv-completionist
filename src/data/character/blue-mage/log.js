@@ -8,9 +8,9 @@ export const Character_Blue_Mage_Log = function(parent) {
     });
 
     group.subGroups = [
-        DataGroup.fromJSON(group, `${basePath}/dungeons`),
-        DataGroup.fromJSON(group, `${basePath}/trials`),
-        DataGroup.fromJSON(group, `${basePath}/raids`),
+        DataGroup.fromJSON(group, `${basePath}/dungeon`),
+        DataGroup.fromJSON(group, `${basePath}/trial`),
+        DataGroup.fromJSON(group, `${basePath}/raid`),
     ];
 
     return group;

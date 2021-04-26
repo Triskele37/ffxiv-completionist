@@ -7,8 +7,8 @@ export const Duty_Collection_Portable_Archive = function(parent) {
     })
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/the-copied-factory`),
-        DataGroup.fromJSON(parent, `${basePath}/the-puppets-bunker`),
+        DataGroup.fromJSON(group, `${basePath}/the-copied-factory`),
+        DataGroup.fromJSON(group, `${basePath}/the-puppets-bunker`),
     ];
 
     return group;

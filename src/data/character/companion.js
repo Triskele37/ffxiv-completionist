@@ -5,16 +5,16 @@ export const Character_Companion = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/companion-rank`, {
+        DataGroup.fromJSON(group, `${basePath}/companion-rank`, {
             name: { centered: true },
             skillPoints: { centered: true },
         }),
-        DataGroup.fromJSON(parent, `${basePath}/companion-skills`, {
+        DataGroup.fromJSON(group, `${basePath}/companion-skills`, {
             tree: { filterable: true },
             spCost: { centered: true },
             type: { filterable: true },
         }),
-        DataGroup.fromJSON(parent, `${basePath}/barding`, {
+        DataGroup.fromJSON(group, `${basePath}/barding`, {
             category: { filterable: true },
             patch: { filterable: true },
         }),

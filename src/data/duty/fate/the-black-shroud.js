@@ -5,10 +5,10 @@ export const Duty_FATEs_The_Black_Shroud = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/central-shroud`),
-        DataGroup.fromJSON(parent, `${basePath}/east-shroud`),
-        DataGroup.fromJSON(parent, `${basePath}/north-shroud`),
-        DataGroup.fromJSON(parent, `${basePath}/south-shroud`),
+        DataGroup.fromJSON(group, `${basePath}/central-shroud`),
+        DataGroup.fromJSON(group, `${basePath}/east-shroud`),
+        DataGroup.fromJSON(group, `${basePath}/north-shroud`),
+        DataGroup.fromJSON(group, `${basePath}/south-shroud`),
     ];
 
     return group;

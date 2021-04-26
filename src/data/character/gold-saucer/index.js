@@ -8,7 +8,7 @@ export const Character_Gold_Saucer = function(parent) {
 
     group.subGroups = [
         Character_Gold_Saucer_Triple_Triad_Card_List(group),
-        DataGroup.fromJSON(parent, `${basePath}/triple-triad-opponents`, {
+        DataGroup.fromJSON(group, `${basePath}/triple-triad-opponents`, {
             difficulty: { filterable: true, centered: true },
             zone: { filterable: true },
             rules: { filterable: true },

@@ -8,9 +8,9 @@ export const Duty_Hall_of_the_Novice = function(parent) {
     });
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/tank`),
-        DataGroup.fromJSON(parent, `${basePath}/dps`),
-        DataGroup.fromJSON(parent, `${basePath}/healer`),
+        DataGroup.fromJSON(group, `${basePath}/tank`),
+        DataGroup.fromJSON(group, `${basePath}/dps`),
+        DataGroup.fromJSON(group, `${basePath}/healer`),
     ];
 
     return group;

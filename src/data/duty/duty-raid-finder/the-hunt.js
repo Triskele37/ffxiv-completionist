@@ -1,6 +1,6 @@
 import { DataGroup } from "../../DataGroup";
 
-const basePath = "./duty/duty-raid-finder/the-the-hunt";
+const basePath = "./duty/duty-raid-finder/the-hunt";
 export const Duty_The_Hunt = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`, {
         rank: { filterable: true, centered: true },

@@ -10,14 +10,14 @@ import { Duty_Exploratory_Missions } from "./exploratory-missions";
 export const Duty = function(parent) {
     const group = DataGroup.fromJSON(parent, "./duty/index");
 
-    group.initializeSubGroups([
+    group.subGroups = [
         Duty_Collection(group),
         Duty_Quests(group),
         Duty_Duty_Raid_Finder(group),
         Duty_Hall_of_the_Novice(group),
         Duty_FATEs(group),
         Duty_Exploratory_Missions(group),
-    ]);
+    ];
 
     return group;
 };

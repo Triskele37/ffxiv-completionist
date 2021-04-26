@@ -5,8 +5,8 @@ export const Duty_FATEs_Coerthas = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/central-coerthas`),
-        DataGroup.fromJSON(parent, `${basePath}/western-coerthas`),
+        DataGroup.fromJSON(group, `${basePath}/central-coerthas`),
+        DataGroup.fromJSON(group, `${basePath}/western-coerthas`),
     ];
 
     return group;

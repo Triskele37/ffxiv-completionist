@@ -42,10 +42,10 @@ export class DataGroup {
         if(json.headers) {
             const columnConfig = [];
             Object.keys(json.headers).forEach((key) => {
-                columnConfig.push({ key, header: json.headers[key], ...additionalColumnConfig });
+                columnConfig.push({ key, header: json.headers[key], ...(additionalColumnConfig || {})[key] });
             });
 
-            this.columnConfig = columnConfig;
+            data.columnConfig = columnConfig;
         }
 
         if(json.tasks) data.initializeTasks(json.tasks);
@@ -56,6 +56,7 @@ export class DataGroup {
     // used only to allow one json for guildhests instead of 1 per class
     forceName(name) {
         this.name = name;
+        return this;
     }
 
     //------------------------------------------------------------------ Post-Construction Inits
@@ -170,11 +171,17 @@ export class DataGroup {
     }
 
     set defaultCompletion(defaultCompletion) {
-        this.tasks.forEach((task) => {
-            if(!task.defaultCompletion) task.changeCompletionFlag(defaultCompletion);
-        });
+        if(this.subGroups) {
+            this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = defaultCompletion);
+        }
 
-        this.countTasks();
+        if(this.tasks) {
+            this.tasks.forEach((task) => {
+                if(!task.defaultCompletion) task.changeCompletionFlag(defaultCompletion);
+            });
+
+            this.countTasks();
+        }
     }
 
     //------------------------------------------------------------------ Numeric Completion
@@ -184,6 +191,9 @@ export class DataGroup {
 
     set isNumericCompletion(isNumericCompletion) {
         this._isNumericCompletion = isNumericCompletion;
+
+        if(this.tasks) this.tasks.forEach((task) => task.isNumericCompletion = isNumericCompletion);
+
         this.countTasks();
     }
 

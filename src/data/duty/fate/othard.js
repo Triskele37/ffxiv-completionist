@@ -5,9 +5,9 @@ export const Duty_FATEs_Othard = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, `${basePath}/the-azim-steppe`),
-        DataGroup.fromJSON(parent, `${basePath}/the-ruby-sea`),
-        DataGroup.fromJSON(parent, `${basePath}/yanxia`),
+        DataGroup.fromJSON(group, `${basePath}/the-azim-steppe`),
+        DataGroup.fromJSON(group, `${basePath}/the-ruby-sea`),
+        DataGroup.fromJSON(group, `${basePath}/yanxia`),
     ];
 
     return group;
