@@ -1,19 +1,20 @@
 import { DataGroup } from "../../DataGroup";
-import { loadJson } from "../../loader";
 
-import { Character_Blue_Mage_Spellbook } from "./spellbook";
-import { Character_Blue_Mage_The_Masked_Carnivale } from "./the-masked-carnivale";
 import { Character_Blue_Mage_Log } from "./log";
 
+const basePath = "./character/blue-mage";
 export const Character_Blue_Mage = function(parent) {
-    const json = loadJson('./character/blue-mage/index', parent.lang);
-    const data = new DataGroup(json.groupName, parent);
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
-    data.initializeSubGroups([
-        Character_Blue_Mage_Spellbook,
-        Character_Blue_Mage_The_Masked_Carnivale,
-        Character_Blue_Mage_Log,
-    ]);
+    group.subGroups = [
+        DataGroup.fromJSON(group, `${basePath}/spellbook`, {
+            number: { centered: true }
+        }),
+        DataGroup.fromJSON(group, `${basePath}/the-masked-carnivale`, {
+            level: { centered: true }
+        }),
+        Character_Blue_Mage_Log(group),
+    ];
 
-    return data;
+    return group;
 };

@@ -1,5 +1,4 @@
 import { DataGroup } from "../DataGroup";
-import { loadJson } from "../loader";
 
 import { Character_Character } from "./character";
 import { Character_Companion } from "./companion";
@@ -12,20 +11,19 @@ import { Character_Gold_Saucer } from "./gold-saucer";
 import { Character_Achievements } from "./achievement";
 
 export const Character = function(parent) {
-    const json = loadJson('./character/index', parent.lang);
-    const data = new DataGroup(json.groupName, parent);
+    const group = DataGroup.fromJSON(parent, "./character/index");
 
-    data.initializeSubGroups([
-        Character_Character,
-        Character_Companion,
-        Character_Mount_Guide,
-        Character_Minion_Guide,
-        Character_Fashion_Accessories,
-        Character_Relic_Gear,
-        Character_Blue_Mage,
-        Character_Gold_Saucer,
-        Character_Achievements
-    ]);
+    group.subGroups = [
+        Character_Character(group),
+        Character_Companion(group),
+        Character_Mount_Guide(group),
+        Character_Minion_Guide(group),
+        Character_Fashion_Accessories(group),
+        Character_Relic_Gear(group),
+        Character_Blue_Mage(group),
+        Character_Gold_Saucer(group),
+        Character_Achievements(group),
+    ];
 
-    return data;
+    return group;
 };

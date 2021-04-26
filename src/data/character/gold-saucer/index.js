@@ -1,17 +1,21 @@
 import { DataGroup } from "../../DataGroup";
-import { loadJson } from "../../loader";
 
-import { Character_Gold_Saucer_Triple_Triad_Card_List } from "./triple-triad-card";
-import { Character_Gold_Saucer_Triple_Triad_Opponents } from "./tripletriad-opponent";
+import { Character_Gold_Saucer_Triple_Triad_Card_List } from "./triple-triad-card-list";
 
+const basePath = "./character/gold-saucer";
 export const Character_Gold_Saucer = function(parent) {
-    const json = loadJson('./character/gold-saucer/index', parent.lang);
-    const data = new DataGroup(json.groupName, parent);
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
-    data.initializeSubGroups([
-        Character_Gold_Saucer_Triple_Triad_Card_List,
-        Character_Gold_Saucer_Triple_Triad_Opponents
-    ]);
+    group.subGroups = [
+        Character_Gold_Saucer_Triple_Triad_Card_List(group),
+        DataGroup.fromJSON(parent, `${basePath}/triple-triad-opponents`, {
+            difficulty: { filterable: true, centered: true },
+            zone: { filterable: true },
+            rules: { filterable: true },
+            fee: { filterable: true, filterType: "number", centered: true },
+            patch: { filterable: true },
+        }),
+    ];
 
-    return data;
+    return group;
 };

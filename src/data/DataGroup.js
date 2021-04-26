@@ -1,19 +1,19 @@
 import { Task } from "./Task";
+import { loadJson } from "./loader";
 
 export class DataGroup {
     _lang = 'en';
-    name_en;
-    name_fr;
+    name;
 
     _parent; // A reference to the parent group
 
     subGroups;  // Child groups of this group
 
     columnConfig;
-    defaultCompletion = 'N';
+    _defaultCompletion = 'N';
     tasks;
 
-    isNumericCompletion = false; // Used for numeric completions
+    _isNumericCompletion = false; // Used for numeric completions
     numericDecimal = 0;
 
     total = 0;     // The total of all tasks of this and children
@@ -22,7 +22,7 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Construction
     constructor(name, parent) {
-        this.name_en = name;
+        this.name = name;
         this._parent = parent;
         this.lang = parent ? parent.lang : 'en';
 
@@ -35,6 +35,25 @@ export class DataGroup {
         return this;
     }
 
+    static fromJSON(parent, path, additionalColumnConfig) {
+        const json = loadJson(path, parent.lang);
+        const data = new DataGroup(json.groupName, parent);
+
+        if(json.headers) {
+            const columnConfig = [];
+            Object.keys(json.headers).forEach((key) => {
+                columnConfig.push({ key, header: json.headers[key], ...additionalColumnConfig });
+            });
+
+            this.columnConfig = columnConfig;
+        }
+
+        if(json.tasks) data.initializeTasks(json.tasks);
+
+        return data;
+    }
+
+    //------------------------------------------------------------------ Post-Construction Inits
     initializeSubGroups(subGroups) {
         if(!this.subGroups) this.subGroups = [];
 
@@ -43,14 +62,6 @@ export class DataGroup {
         }
 
         return this;
-    }
-
-    // Allow a manually passed config to override an inherited config
-    initializeColumnConfig(columnConfig, jsonHeaders) {
-        this.columnConfig = columnConfig;
-
-        // Assign header text based on localization
-        columnConfig.forEach((column) => column.header = jsonHeaders[column.key]);
     }
 
     initializeTasks(tasks) {
@@ -65,27 +76,21 @@ export class DataGroup {
             return taskObj;
         });
 
-        // Determine how to calculate totals
-        let totalTasks = this.tasks.length;
-
-        if(this.isNumericCompletion) {
-            totalTasks = 0;
-            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
-        }
-
-        // Update Totals
-        this.total += totalTasks;
-        if(this._parent) this._parent.initializeTasksFromSubGroup(totalTasks);
+        this.countTasks();
 
         return this;
     }
 
-    initializeTasksFromSubGroup(subGroupTotal) {
-        this.total += subGroupTotal;
-        if(this._parent) this._parent.initializeTasksFromSubGroup(subGroupTotal);
+    //------------------------------------------------------------------ Task Totals
+    get displayTotal() {
+        return this.total - this.totalExcluded;
     }
 
-    //------------------------------------------------------------------ Task Update
+    get percentComplete() {
+        if(!this.total || this.total - this.totalExcluded === 0) return 0;
+        return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
+    }
+
     updateExcluded(mod) {
         this.totalExcluded += mod;
         if(this._parent) this._parent.updateExcluded(mod);
@@ -101,9 +106,28 @@ export class DataGroup {
         if(this._parent) this._parent.updateTotal(mod);
     }
 
-    //------------------------------------------------------------------ Getters
+    countTasks() {
+        const oldTotal = this.total;
+        let totalTasks = this.tasks.length;
+
+        if(this._isNumericCompletion) {
+            totalTasks = 0;
+            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
+        }
+
+        // Update Totals
+        this.total += totalTasks;
+        if(this._parent) this._parent.adjustTaskTotal(totalTasks - oldTotal);
+    }
+
+    adjustTaskTotal(totalMod) {
+        this.total += totalMod;
+        if(this._parent) this._parent.adjustTaskTotal(totalMod);
+    }
+
+    //------------------------------------------------------------------ Storage Key
     get _storageKey() {
-        return this.name_en
+        return this.name
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
@@ -113,29 +137,11 @@ export class DataGroup {
         return (this._parent ? this._parent._fullStorageKey + '.' : '') + this._storageKey;
     }
 
-    get percentComplete() {
-        if(!this.total || this.total - this.totalExcluded === 0) return 0;
-        return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
-    }
-
-    get displayTotal() {
-        return this.total - this.totalExcluded;
-    }
-
+    //------------------------------------------------------------------ Pathing
     get groupPath() {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
 
-    sg(subGroupName) {
-        if(!this.subGroups) return null;
-        for(let i = 0; i < this.subGroups.length; i++) {
-            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
-            if(this.subGroups[i].tempName === subGroupName) return this.subGroups[i];
-        }
-        return null;
-    }
-
-    //------------------------------------------------------------------ Get Subgroups
     getChildGroupFromPath(path) {
         // No more path means we're the group being requested
         if(path.length === 0) return this;
@@ -143,6 +149,37 @@ export class DataGroup {
         // Pop off the first part of the path and dive
         const nextStep = path.shift();
         return this.sg(nextStep).getChildGroupFromPath(path);
+    }
+
+    sg(subGroupName) {
+        if(!this.subGroups) return null;
+        for(let i = 0; i < this.subGroups.length; i++) {
+            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
+        }
+        return null;
+    }
+
+    //------------------------------------------------------------------ Default Completion
+    get defaultCompletion() {
+        return this._defaultCompletion;
+    }
+
+    set defaultCompletion(defaultCompletion) {
+        this.tasks.forEach((task) => {
+            if(!task.defaultCompletion) task.changeCompletionFlag(defaultCompletion);
+        });
+
+        this.countTasks();
+    }
+
+    //------------------------------------------------------------------ Numeric Completion
+    get isNumericCompletion() {
+        return this._isNumericCompletion;
+    }
+
+    set isNumericCompletion(isNumericCompletion) {
+        this._isNumericCompletion = isNumericCompletion;
+        this.countTasks();
     }
 
     //------------------------------------------------------------------ Language

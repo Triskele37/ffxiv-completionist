@@ -1,20 +1,13 @@
 import { DataGroup } from "../../DataGroup";
-import { loadJson } from "../../loader";
 
 export const Character_Character_Desynthesis = function(parent) {
-    const json = loadJson('./character/character/desynthesis', parent.lang);
-    const data = new DataGroup(json.groupName, parent);
+    const group = DataGroup.fromJSON(parent, "./character/character/desynthesis", {
+        patch: { filterable: true }
+    });
 
-    data.isNumericCompletion = true;
-    data.defaultCompletion = "0";
-    data.numericDecimal = 2;
+    group.isNumericCompletion = true;
+    group.defaultCompletion = "0";
+    group.numericDecimal = 2;
 
-    data.initializeColumnConfig([
-        { key: "name", },
-        { key: "startingQuest", },
-        { key: "patch", filterable: true },
-    ], json.headers);
-    data.initializeTasks(json.tasks);
-
-    return data;
+    return group;
 };

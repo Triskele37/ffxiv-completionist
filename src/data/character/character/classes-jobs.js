@@ -1,20 +1,13 @@
 import { DataGroup } from "../../DataGroup";
-import { loadJson } from "../../loader";
 
 export const Character_Character_Classes_Job = function(parent) {
-    const json = loadJson('./character/character/classes-jobs', parent.lang);
-    const data = new DataGroup(json.groupName, parent);
+    const group = DataGroup.fromJSON(parent, "./character/character/classes-jobs", {
+        role: { filterable: true },
+        patch: { filterable: true }
+    });
 
-    data.isNumericCompletion = true;
-    data.defaultCompletion = "0";
+    group.isNumericCompletion = true;
+    group.defaultCompletion = "0";
 
-    data.initializeColumnConfig([
-        { key: "name", },
-        { key: "role", filterable: true },
-        { key: "startingQuest", },
-        { key: "patch", filterable: true },
-    ], json.headers);
-    data.initializeTasks(json.tasks);
-
-    return data;
+    return group;
 };
