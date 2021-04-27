@@ -1,6 +1,4 @@
-import { eStore } from "../store/electronStore";
 import { DataGroup } from "./DataGroup";
-import { loadJson } from "./loader";
 
 import { Character } from "./character";
 import { Duty } from "./duty";
@@ -9,19 +7,15 @@ import { Travel } from "./travel";
 import { Social } from "./social";
 import { Custom } from "./custom";
 
-const language = eStore.get('lang');
-const json = loadJson('./index', language);
+const data = DataGroup.fromJSON(null, "./index");
 
-const data = new DataGroup(json.groupName, null);
-data.lang = language;
-
-data.initializeSubGroups([
-    Character,
-    Duty,
-    Logs,
-    Travel,
-    Social,
-    Custom,
-]);
+data.subGroups = [
+    Character(data),
+    Duty(data),
+    Logs(data),
+    Travel(data),
+    Social(data),
+    Custom(data),
+];
 
 export { data };

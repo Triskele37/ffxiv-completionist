@@ -2,13 +2,11 @@ import { DataGroup } from "./DataGroup";
 import { getPlayerStore } from "../store/electronStore";
 
 export const Custom = function(parent) {
-    const data = new DataGroup("Custom", parent);
+    const data = DataGroup.fromJSON(parent, "./custom");
     data.isCustomGroup = true;
 
-    data.initializeTasks(getPlayerStore().get('custom') || [], [
-        { key: 'name', header: 'Name' },
-        { key: 'notes', header: 'Notes' }
-    ]);
+    const customTasks = getPlayerStore().get('custom') || [];
+    data.initializeTasks(customTasks);
 
     return data;
 };

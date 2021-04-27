@@ -1,5 +1,6 @@
 import { Task } from "./Task";
 import { loadJson } from "./loader";
+import { eStore } from "../store/electronStore";
 
 export class DataGroup {
     _lang = 'en';
@@ -24,7 +25,7 @@ export class DataGroup {
     constructor(name, parent) {
         this.name = name;
         this._parent = parent;
-        this.lang = parent ? parent.lang : 'en';
+        this.lang = parent ? parent.lang : eStore.get('lang');
 
         // Inherit things
         if(this._parent) {
@@ -36,7 +37,7 @@ export class DataGroup {
     }
 
     static fromJSON(parent, path, additionalColumnConfig) {
-        const json = loadJson(path, parent.lang);
+        const json = loadJson(path, parent.lang || eStore.get('lang'));
         const data = new DataGroup(json.groupName, parent);
 
         if(json.headers) {
