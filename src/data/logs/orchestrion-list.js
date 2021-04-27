@@ -15,7 +15,7 @@ export const Logs_Orchestrion_List = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/raids-i`),
         DataGroup.fromJSON(group, `${basePath}/raids-ii`),
         DataGroup.fromJSON(group, `${basePath}/ambient`),
-        DataGroup.fromJSON(group, `${basePath}/others`),
+        DataGroup.fromJSON(group, `${basePath}/other`),
         DataGroup.fromJSON(group, `${basePath}/seasonal`),
         DataGroup.fromJSON(group, `${basePath}/mogstation`),
     ];

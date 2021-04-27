@@ -5,9 +5,9 @@ export const Duty_Quests_Class_and_Job_Disciple_of_the_Land = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(group, `${basePath}/miner`),
-        DataGroup.fromJSON(group, `${basePath}/botanist`),
-        DataGroup.fromJSON(group, `${basePath}/fisher`),
+        DataGroup.fromJSON(group, `${basePath}/miner-quests`),
+        DataGroup.fromJSON(group, `${basePath}/botanist-quests`),
+        DataGroup.fromJSON(group, `${basePath}/fisher-quests`),
     ];
 
     return group;

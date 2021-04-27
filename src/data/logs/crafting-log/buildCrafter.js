@@ -4,7 +4,7 @@ export function buildCrafter(parent, basePath) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     // Level Based
-    const levelBased = DataGroup.fromJSON(parent, `${basePath}/level-based/index`);
+    const levelBased = DataGroup.fromJSON(group, `${basePath}/level-based/index`);
     levelBased.subGroups = [
         DataGroup.fromJSON(levelBased, `${basePath}/level-based/level-1-5`),
         DataGroup.fromJSON(levelBased, `${basePath}/level-based/level-6-10`),
@@ -25,7 +25,7 @@ export function buildCrafter(parent, basePath) {
     ];
 
     // Master Recipes
-    const masterRecipes = DataGroup.fromJSON(parent, `${basePath}/master-recipes/index`);
+    const masterRecipes = DataGroup.fromJSON(group, `${basePath}/master-recipes/index`);
     masterRecipes.subGroups = [
         DataGroup.fromJSON(masterRecipes, `${basePath}/master-recipes/mr-1`),
         DataGroup.fromJSON(masterRecipes, `${basePath}/master-recipes/mr-2`),
@@ -39,21 +39,21 @@ export function buildCrafter(parent, basePath) {
     ];
 
     // Housing
-    const housing = DataGroup.fromJSON(parent, `${basePath}/housing/index`);
+    const housing = DataGroup.fromJSON(group, `${basePath}/housing/index`);
     housing.subGroups = [
         DataGroup.fromJSON(housing, `${basePath}/housing/housing-1`),
         DataGroup.fromJSON(housing, `${basePath}/housing/housing-2`),
     ];
 
     // Story
-    const story = DataGroup.fromJSON(parent, `${basePath}/story/index`);
+    const story = DataGroup.fromJSON(group, `${basePath}/story/index`);
     story.subGroups = [
         DataGroup.fromJSON(story, `${basePath}/story/class-quests`),
         DataGroup.fromJSON(story, `${basePath}/story/crystarium-deliveries`),
     ];
 
     // Ishgard Restoration
-    const ishgardRestoration = DataGroup.fromJSON(parent, `${basePath}/ishgard-restoration/index`);
+    const ishgardRestoration = DataGroup.fromJSON(group, `${basePath}/ishgard-restoration/index`);
     ishgardRestoration.subGroups = [
         DataGroup.fromJSON(ishgardRestoration, `${basePath}/ishgard-restoration/restoration-1`),
         DataGroup.fromJSON(ishgardRestoration, `${basePath}/ishgard-restoration/restoration-2`),
@@ -64,7 +64,7 @@ export function buildCrafter(parent, basePath) {
     ];
 
     // Collectables
-    const collectables = DataGroup.fromJSON(parent, `${basePath}/collectables/index`);
+    const collectables = DataGroup.fromJSON(group, `${basePath}/collectables/index`);
     collectables.subGroups = [
         DataGroup.fromJSON(collectables, `${basePath}/collectables/50-60`),
         DataGroup.fromJSON(collectables, `${basePath}/collectables/61-70`),

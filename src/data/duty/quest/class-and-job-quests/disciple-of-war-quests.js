@@ -5,12 +5,12 @@ export const Duty_Quests_Class_and_Job_Disciple_of_War = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     group.subGroups = [
-        DataGroup.fromJSON(group, `${basePath}/gladiator`),
-        DataGroup.fromJSON(group, `${basePath}/pugilist`),
-        DataGroup.fromJSON(group, `${basePath}/marauder`),
-        DataGroup.fromJSON(group, `${basePath}/lancer`),
-        DataGroup.fromJSON(group, `${basePath}/archer`),
-        DataGroup.fromJSON(group, `${basePath}/rogue`),
+        DataGroup.fromJSON(group, `${basePath}/gladiator-quests`),
+        DataGroup.fromJSON(group, `${basePath}/pugilist-quests`),
+        DataGroup.fromJSON(group, `${basePath}/marauder-quests`),
+        DataGroup.fromJSON(group, `${basePath}/lancer-quests`),
+        DataGroup.fromJSON(group, `${basePath}/archer-quests`),
+        DataGroup.fromJSON(group, `${basePath}/rogue-quests`),
     ];
 
     return group;

@@ -37,7 +37,7 @@ export class DataGroup {
     }
 
     static fromJSON(parent, path, additionalColumnConfig) {
-        const json = loadJson(path, parent.lang || eStore.get('lang'));
+        const json = loadJson(path, parent ? parent.lang : eStore.get('lang'));
         const data = new DataGroup(json.groupName, parent);
 
         if(json.headers) {
@@ -61,16 +61,6 @@ export class DataGroup {
     }
 
     //------------------------------------------------------------------ Post-Construction Inits
-    initializeSubGroups(subGroups) {
-        if(!this.subGroups) this.subGroups = [];
-
-        for(let i = 0; i < subGroups.length; i++) {
-            this.subGroups.push(subGroups[i](this));
-        }
-
-        return this;
-    }
-
     initializeTasks(tasks) {
         this.tasks = tasks.map((task) => {
             const taskObj = new Task(task, this);
@@ -134,6 +124,8 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Storage Key
     get _storageKey() {
+        // if(!this.name) console.log(this);
+
         return this.name
             .toLowerCase()
             .replace(/ /g, '-')

@@ -7,11 +7,15 @@ import { Logs_Gathering_Log } from "./gathering-log";
 import { Logs_Orchestrion_List } from "./orchestrion-list";
 
 export const Logs = function(parent) {
-    return new DataGroup("Logs", parent).initializeSubGroups([
-        Logs_Hunting_Log,
-        Logs_Sightseeing_Log,
-        Logs_Crafting_Log,
-        Logs_Gathering_Log,
-        Logs_Orchestrion_List,
-    ]);
+    const group = DataGroup.fromJSON(parent, "./logs/index");
+
+    group.subGroups = [
+        Logs_Hunting_Log(group),
+        Logs_Sightseeing_Log(group),
+        Logs_Crafting_Log(group),
+        Logs_Gathering_Log(group),
+        Logs_Orchestrion_List(group),
+    ];
+
+    return group;
 };

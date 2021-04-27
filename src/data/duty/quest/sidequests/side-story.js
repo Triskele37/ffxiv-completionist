@@ -6,8 +6,8 @@ export const Duty_Quests_Sidequests_Side_Story = function(parent) {
 
     group.subGroups = [
         DataGroup.fromJSON(group, `${basePath}/hildibrand-quests`),
-        DataGroup.fromJSON(group, `${basePath}/futher-hildibrand-adventures`),
-        DataGroup.fromJSON(group, `${basePath}/even-futher-hildibrand-adventures`),
+        DataGroup.fromJSON(group, `${basePath}/further-hildibrand-adventures`),
+        DataGroup.fromJSON(group, `${basePath}/even-further-hildibrand-adventures`),
         DataGroup.fromJSON(group, `${basePath}/scholasticate-quests`),
         DataGroup.fromJSON(group, `${basePath}/tales-of-the-dragonsong-war`),
         DataGroup.fromJSON(group, `${basePath}/wandering-minstrel-quests`),

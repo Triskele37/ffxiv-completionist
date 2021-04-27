@@ -13,7 +13,7 @@ import { Logs_Crafting_Log_Shared } from "./shared";
 export const Logs_Crafting_Log = function(parent) {
     const group = DataGroup.fromJSON(parent, "./logs/crafting/index");
 
-    group.initializeSubGroups([
+    group.subGroups = [
         DataGroup.fromJSON(parent, "./logs/crafting/master-crafting-books"),
         Logs_Crafting_Log_Carpenter(group),
         Logs_Crafting_Log_Blacksmith(group),
@@ -24,7 +24,7 @@ export const Logs_Crafting_Log = function(parent) {
         Logs_Crafting_Log_Alchemist(group),
         Logs_Crafting_Log_Culinarian(group),
         Logs_Crafting_Log_Shared(group),
-    ]);
+    ];
 
     return group;
 };

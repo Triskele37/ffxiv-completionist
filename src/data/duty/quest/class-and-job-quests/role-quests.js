@@ -7,8 +7,8 @@ export const Duty_Quests_Class_and_Job_Role = function(parent) {
     group.subGroups = [
         DataGroup.fromJSON(group, `${basePath}/tank-role-quests`),
         DataGroup.fromJSON(group, `${basePath}/healer-role-quests`),
-        DataGroup.fromJSON(group, `${basePath}/physical-dps-role-quests`),
-        DataGroup.fromJSON(group, `${basePath}/magical-dps-role-quests`),
+        DataGroup.fromJSON(group, `${basePath}/physical-dps-quests`),
+        DataGroup.fromJSON(group, `${basePath}/magical-dps-quests`),
     ];
 
     return group;
