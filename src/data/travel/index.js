@@ -7,17 +7,15 @@ import { Travel_Porters } from "./porters";
 import { Travel_Shared_FATE } from "./shared-fate";
 
 export const Travel = function(parent) {
-    const data = new DataGroup("Travel", parent);
-    data.name_en = "Travel";
-    data.name_fr = "Voyage";
+    const group = DataGroup.fromJSON(parent, "./travel/index");
 
-    data.initializeSubGroups([
-        Travel_Aether_Currents,
-        Travel_Aetherytes,
-        Travel_Mount_Speed,
-        Travel_Porters,
-        Travel_Shared_FATE,
-    ]);
+    group.subGroups = [
+        Travel_Aether_Currents(group),
+        Travel_Aetherytes(group),
+        Travel_Mount_Speed(group),
+        Travel_Porters(group),
+        Travel_Shared_FATE(group),
+    ];
 
-    return data;
+    return group;
 };
