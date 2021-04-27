@@ -28,6 +28,7 @@
                 {{mergeInfo}}
             </div>
             <button class="xiv-dropdown-li" @click="goToNextMerge">Skip</button>
+            <button class="xiv-dropdown-li" @click="exitMerge">Exit</button>
             <template v-if="mergeMatches.length > 0">
                 <button
                     v-for="match in mergeMatches"
@@ -119,13 +120,12 @@ export default {
         goToNextMerge: function() {
             this.mergeIndex++;
 
-            if(this.mergeIndex > this.customData.tasks.length - 1) {
-                this.mergingOpen = false;
-                this.mergeIndex = 0;
-            }
-            else {
-                this.mergeCustomTasks();
-            }
+            if(this.mergeIndex > this.customData.tasks.length - 1) this.exitMerge();
+            else this.mergeCustomTasks();
+        },
+        exitMerge: function() {
+            this.mergingOpen = false;
+            this.mergeIndex = 0;
         },
         removeSelectedCustomTasks: function() {
             this.filteredTasks.forEach((task) => {
