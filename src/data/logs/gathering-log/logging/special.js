@@ -1,0 +1,19 @@
+import { DataGroup } from "../../../DataGroup";
+
+const basePath = "./logs/gathering/logging/special";
+export const Logs_Gathering_Log_Logging_Special = function(parent) {
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
+
+    group.subGroups = [
+        DataGroup.fromJSON(group, `${basePath}/dravanian-folklore`),
+        DataGroup.fromJSON(group, `${basePath}/abalathian-folklore`),
+        DataGroup.fromJSON(group, `${basePath}/gyr-abanian-folklore`),
+        DataGroup.fromJSON(group, `${basePath}/vrandtic-folklore`),
+        DataGroup.fromJSON(group, `${basePath}/ishgard-restoration`),
+        DataGroup.fromJSON(group, `${basePath}/skysteel-tools`),
+        DataGroup.fromJSON(group, `${basePath}/collectables-1`),
+        DataGroup.fromJSON(group, `${basePath}/collectables-2`),
+    ];
+
+    return group;
+};

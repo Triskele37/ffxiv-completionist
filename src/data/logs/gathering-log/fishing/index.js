@@ -3,9 +3,14 @@ import { DataGroup } from "../../../DataGroup";
 import { Logs_Gathering_Log_Fishing_Log } from "./log";
 import { Logs_Gathering_Log_Fishing_Guide } from "./guide";
 
+const basePath = "./logs/gathering/fishing";
 export const Logs_Gathering_Log_Fishing = function(parent) {
-    return new DataGroup("Fishing", parent).initializeSubGroups([
-        Logs_Gathering_Log_Fishing_Log,
-        Logs_Gathering_Log_Fishing_Guide,
-    ]);
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
+
+    group.subGroups = [
+        Logs_Gathering_Log_Fishing_Log(group),
+        Logs_Gathering_Log_Fishing_Guide(group),
+    ];
+
+    return group;
 };

@@ -11,18 +11,17 @@ import { Logs_Gathering_Log_Fishing } from "./fishing";
 import { Logs_Gathering_Log_Spearfishing } from "./spearfishing";
 
 export const Logs_Gathering_Log = function(parent) {
-    const data = new DataGroup("Gathering Log", parent);
-    data.name_fr = "Carnet de Récolte";
+    const group = DataGroup.fromJSON(parent, "./logs/gathering/index");
 
-    data.initializeSubGroups([
-        Logs_Gathering_Log_Folklore_Gathering_Books,
-        Logs_Gathering_Log_Mining,
-        Logs_Gathering_Log_Quarrying,
-        Logs_Gathering_Log_Logging,
-        Logs_Gathering_Log_Harvesting,
-        Logs_Gathering_Log_Fishing,
-        Logs_Gathering_Log_Spearfishing,
-	]);
+    group.subGroups = [
+        Logs_Gathering_Log_Folklore_Gathering_Books(group),
+        Logs_Gathering_Log_Mining(group),
+        Logs_Gathering_Log_Quarrying(group),
+        Logs_Gathering_Log_Logging(group),
+        Logs_Gathering_Log_Harvesting(group),
+        Logs_Gathering_Log_Fishing(group),
+        Logs_Gathering_Log_Spearfishing(group),
+	];
 
-    return data;
+    return group;
 };
