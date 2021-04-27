@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../../DataGroup";
-import tasks from "../../../../../../static/quest/other-quests/special-quests/collaboration-quests";
+import tasks from "../../../../../../resources/en/duty/quest/other-quests/special-quests/collaboration-quests";
 
 export const Duty_Quests_Other_Special_Collaboration = function(parent) {
     const data = new DataGroup("Collaboration", parent);

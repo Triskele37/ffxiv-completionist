@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../../DataGroup";
-import tasks from "../../../../../../static/quest/class-job-quests/disciple-of-war-job-quests/dark-knight-quests";
+import tasks from "../../../../../../resources/en/duty/quest/class-job-quests/disciple-of-war-job-quests/dark-knight-quests";
 
 export const Duty_Quests_Class_and_Job_Disciple_of_War_Job_Dark_Knight = function(parent) {
     return new DataGroup("Dark Knight", parent).initializeTasks(tasks);

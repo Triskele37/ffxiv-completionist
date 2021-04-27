@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../../DataGroup";
-import tasks from "../../../../../../static/quest/class-job-quests/disciple-of-war-quests/pugilist-quests";
+import tasks from "../../../../../../resources/en/duty/quest/class-job-quests/disciple-of-war-quests/pugilist-quests";
 
 export const Duty_Quests_Class_and_Job_Disciple_of_War_Pugilist = function(parent) {
     return new DataGroup("Pugilist", parent).initializeTasks(tasks);

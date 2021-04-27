@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../../DataGroup";
-import tasks from "../../../../../../static/quest/sidequests/side-story-quests/delivery-moogle-quests";
+import tasks from "../../../../../../resources/en/duty/quest/sidequests/side-story-quests/delivery-moogle-quests";
 
 export const Duty_Quests_Sidequests_Side_Story_Delivery_Moogle = function(parent) {
     return new DataGroup("Delivery Moogle", parent).initializeTasks(tasks);

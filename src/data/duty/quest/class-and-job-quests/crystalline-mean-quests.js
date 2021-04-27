@@ -1,10 +1,10 @@
 import { DataGroup } from "../../../DataGroup";
-import forging from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/facet-of-forging-quests";
-import crafting from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/facet-of-crafting-quests";
-import nourishing from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/facet-of-nourishing-quests";
-import gathering from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/facet-of-gathering-quests";
-import fishing from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/facet-of-fishing-quests";
-import mainTasks from "../../../../../static/quest/class-job-quests/crystalline-mean-quests/crystalline-mean-quests";
+import forging from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-forging-quests";
+import crafting from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-crafting-quests";
+import nourishing from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-nourishing-quests";
+import gathering from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-gathering-quests";
+import fishing from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-fishing-quests";
+import mainTasks from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/crystalline-mean-quests";
 
 const tasks = [
     ...forging.map((task) => { task.facet = 'Forging'; return task; }),

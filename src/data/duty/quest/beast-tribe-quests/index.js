@@ -20,12 +20,7 @@ export const Duty_Quests_Beast_Tribe = function(parent) {
     data.name_fr = "Tribale";
 
     data.columnConfig = [
-        {
-            header: "Level",
-            key: "Level",
-            filterable: true,
-            centered: true,
-        },
+        { header: "Level", key: "Level", filterable: true, centered: true },
         { header: "Name", key: "Name" },
         { header: "NPC", key: "Npc" },
         { header: "Reputation", key: "Reputation", filterable: true },

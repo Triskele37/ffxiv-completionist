@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quest/main-scenario-past/stormblood-main-scenario-quests/stormblood";
+import tasks from "../../../../../resources/en/duty/quest/main-scenario-past/stormblood-main-scenario-quests/stormblood";
 
 export const Duty_Quests_Main_Scenario_Stormblood = function(parent) {
     const data = new DataGroup("Stormblood", parent);

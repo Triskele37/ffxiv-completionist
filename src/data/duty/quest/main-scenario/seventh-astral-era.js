@@ -1,5 +1,5 @@
 import { DataGroup } from "../../../DataGroup";
-import tasks from "../../../../../static/quest/main-scenario-past/seventh-astral-era-main-scenario-quests/seventh-astral-era";
+import tasks from "../../../../../resources/en/duty/quest/main-scenario-past/seventh-astral-era-main-scenario-quests/seventh-astral-era";
 
 export const Duty_Quests_Main_Scenario_Seventh_Astral_Era = function(parent) {
     const data = new DataGroup("Seventh Astral Era", parent);
