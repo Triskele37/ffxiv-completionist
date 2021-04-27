@@ -1,6 +1,0 @@
-import { DataGroup } from "../../../../DataGroup";
-import tasks from "../../../../../../resources/en/duty/quest/sidequests/othardian-sidequests/the-ruby-sea";
-
-export const Duty_Quests_Sidequests_Othardian_The_Ruby_Sea = function(parent) {
-    return new DataGroup("The Ruby Sea", parent).initializeTasks(tasks);
-};

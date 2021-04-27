@@ -1,5 +1,4 @@
 import { DataGroup } from "../../../DataGroup";
-import { QuestColumnConfig } from "../columnConfigs";
 
 import { Duty_Quests_Class_and_Job_Disciple_of_War } from "./disciple-of-war-quests";
 import { Duty_Quests_Class_and_Job_Disciple_of_Magic } from "./disciple-of-magic-quests";
@@ -11,21 +10,18 @@ import { Duty_Quests_Class_and_Job_Disciple_of_Magic_Job } from "./disciple-of-m
 import { Duty_Quests_Class_and_Job_Role } from "./role-quests";
 
 export const Duty_Quests_Class_and_Job = function(parent) {
-    const data = new DataGroup("Class & Job", parent);
-    data.name_fr = "Classe & Job";
+    const group = DataGroup.fromJSON(parent, "./duty/quest/class-job-quests/index");
 
-    data.columnConfig = QuestColumnConfig;
+    group.subGroups = [
+        Duty_Quests_Class_and_Job_Disciple_of_War(group),
+        Duty_Quests_Class_and_Job_Disciple_of_Magic(group),
+        Duty_Quests_Class_and_Job_Disciple_of_the_Hand(group),
+        Duty_Quests_Class_and_Job_Disciple_of_the_Land(group),
+        Duty_Quests_Class_and_Job_Crystalline_Mean(group),
+        Duty_Quests_Class_and_Job_Disciple_of_War_Job(group),
+        Duty_Quests_Class_and_Job_Disciple_of_Magic_Job(group),
+        Duty_Quests_Class_and_Job_Role(group),
+    ];
 
-    data.initializeSubGroups([
-        Duty_Quests_Class_and_Job_Disciple_of_War,
-        Duty_Quests_Class_and_Job_Disciple_of_Magic,
-        Duty_Quests_Class_and_Job_Disciple_of_the_Hand,
-        Duty_Quests_Class_and_Job_Disciple_of_the_Land,
-        Duty_Quests_Class_and_Job_Crystalline_Mean,
-        Duty_Quests_Class_and_Job_Disciple_of_War_Job,
-        Duty_Quests_Class_and_Job_Disciple_of_Magic_Job,
-        Duty_Quests_Class_and_Job_Role,
-    ]);
-
-    return data;
+    return group;
 };

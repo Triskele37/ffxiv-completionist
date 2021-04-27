@@ -1,28 +1,16 @@
 import { DataGroup } from "../../../DataGroup";
-import forging from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-forging-quests";
-import crafting from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-crafting-quests";
-import nourishing from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-nourishing-quests";
-import gathering from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-gathering-quests";
-import fishing from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/facet-of-fishing-quests";
-import mainTasks from "../../../../../resources/en/duty/quest/class-job-quests/crystalline-mean-quests/crystalline-mean-quests";
 
-const tasks = [
-    ...forging.map((task) => { task.facet = 'Forging'; return task; }),
-    ...crafting.map((task) => { task.facet = 'Crafting'; return task; }),
-    ...nourishing.map((task) => { task.facet = 'Nourishing'; return task; }),
-    ...gathering.map((task) => { task.facet = 'Gathering'; return task; }),
-    ...fishing.map((task) => { task.facet = 'Fishing'; return task; }),
-    ...mainTasks,
-];
-
+const basePath = "./duty/quest/class-job-quests/crystalline-mean-quests";
 export const Duty_Quests_Class_and_Job_Crystalline_Mean = function(parent) {
-    const data = new DataGroup("Crystalline Mean", parent).initializeTasks(tasks);
-    data.columnConfig = [
-        { header: "Facet", key: "facet", filterable: true },
-        { header: "Level", key: "Level" },
-        { header: "Name", key: "Name" },
-        { header: "NPC", key: "Npc" },
+    const group = DataGroup.fromJSON(parent, `${basePath}/index`);
+
+    group.subGroups = [
+        DataGroup.fromJSON(group, `${basePath}/forging`),
+        DataGroup.fromJSON(group, `${basePath}/crafting`),
+        DataGroup.fromJSON(group, `${basePath}/nourishing`),
+        DataGroup.fromJSON(group, `${basePath}/gathering`),
+        DataGroup.fromJSON(group, `${basePath}/fishing`),
     ];
 
-    return data;
+    return group;
 };
