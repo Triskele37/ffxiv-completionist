@@ -1,13 +1,13 @@
 import { DataGroup } from "../DataGroup";
 
-import { Social_Emotes } from "./emote";
-
+const basePath = "./social";
 export const Social = function(parent) {
-    const data = new DataGroup("Social", parent);
-    data.name_fr = "Collection";
+    const data = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     data.initializeSubGroups([
-        Social_Emotes,
+        DataGroup.fromJSON(data, `${basePath}/emotes`, {
+            patch: { filterable: true }
+        }),
     ]);
 
     return data;
