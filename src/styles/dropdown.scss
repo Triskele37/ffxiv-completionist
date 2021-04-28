@@ -49,12 +49,12 @@
         border: none;
     }
 
-    &:hover {
+    &:not(:disabled):hover {
         filter: brightness(125%);
         cursor: pointer;
     }
 
-    &:active {
+    &:not(:disabled):active {
         filter: brightness(75%);
     }
 }

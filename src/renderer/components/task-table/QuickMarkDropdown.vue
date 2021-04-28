@@ -13,6 +13,10 @@
             @mouseenter="dropdownOpen = true"
             @mouseleave="dropdownOpen = false"
         >
+            <button :disabled="lastChanged.length === 0" class="xiv-dropdown-li" @click="onUndoLastChange()">
+                <template v-if="lastChanged.length">Undo Last Quick-Mark</template>
+                <template v-else>Quick-Mark Menu</template>
+            </button>
             <button class="xiv-dropdown-li" @click="onChangeTaskCompletion('N', 'Y')">
                 (<icon name="incomplete"/> <icon name="arrow"/> <icon name="complete"/>)
                 Mark Incomplete as Complete
@@ -66,13 +70,19 @@ export default {
         filteredTasks: Array
     },
     data: () => ({
-        dropdownOpen: false
+        dropdownOpen: false,
+        lastChanged: []
     }),
     methods: {
         onChangeTaskCompletion: function(from, to) {
+            this.lastChanged = [];
+
             this.filteredTasks.forEach((task) => {
-                if (from === '$' && task.selected) task.changeCompletionFlag(to);
-                else if (task.completionFlag === from) task.changeCompletionFlag(to);
+                if(from === '$' && task.selected || task.completionFlag === from) {
+                    this.lastChanged.push({ task, oldFlag: task.completionFlag });
+
+                    task.changeCompletionFlag(to)
+                }
             });
 
             applyDataToStore(data);
@@ -80,6 +90,13 @@ export default {
         onSelectChange: function(select) {
             this.filteredTasks.forEach((task) => task.selected = select === null ? !task.selected : select);
             this.$emit('select-change');
+        },
+        onUndoLastChange: function() {
+            this.lastChanged.forEach((changed) => {
+                changed.task.changeCompletionFlag(changed.oldFlag);
+            });
+            applyDataToStore(data);
+            this.lastChanged = [];
         }
     }
 };

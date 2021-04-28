@@ -10,6 +10,7 @@
             <li>Added custom task entry with merge capability</li>
             <li>Added partial table selection</li>
             <li>Added gradient background for Job Level & Desynth completion</li>
+            <li>Added an undo for the most recent quick mark action</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>
             <li>Fix for broken French localization</li>
@@ -26,6 +27,7 @@
             <li>Split GC Leves into own section</li>
             <li>Excluded event based titles by default</li>
             <li>Removed class level 1 & 10 duplicate quests</li>
+            <li>Removed crafting recipe materials columns</li>
             <li>Fixed issue with "Friends In Deed" achievement</li>
             <li>Added French translations to several sections</li>
             <li>Various value fixes (spelling, counts, etc)</li>
