@@ -1,28 +1,28 @@
 import { getPlayerStore } from "./";
 
 export function applyStoreToData(data) {
-    if(getPlayerStore().store[data._storageKey]) {
-        diveForLoad(data, getPlayerStore().store[data._storageKey]);
+    if(getPlayerStore().store[data.storageKey]) {
+        diveForLoad(data, getPlayerStore().store[data.storageKey]);
     }
 }
 
 function diveForLoad(currentGroup, currentStoreLayer) {
     if(currentGroup.subGroups) {
         currentGroup.subGroups.forEach((subGroup) => {
-            if(currentStoreLayer[subGroup._storageKey]) {
-                diveForLoad(subGroup, currentStoreLayer[subGroup._storageKey]);
+            if(currentStoreLayer[subGroup.storageKey]) {
+                diveForLoad(subGroup, currentStoreLayer[subGroup.storageKey]);
             }
         });
     }
 
     if(currentGroup.tasks) {
         currentGroup.tasks.forEach((task) => {
-            if(currentStoreLayer[task._storageKey]) {
+            if(currentStoreLayer[task.storageKey]) {
                 if(!currentGroup.isNumericCompletion) {
-                    task.changeCompletionFlag(currentStoreLayer[task._storageKey]);
+                    task.changeCompletionFlag(currentStoreLayer[task.storageKey]);
                 }
                 else {
-                    task.changeCompletionNumber(currentStoreLayer[task._storageKey]);
+                    task.changeCompletionNumber(currentStoreLayer[task.storageKey]);
                 }
             }
         });

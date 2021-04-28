@@ -1,7 +1,7 @@
-import { eStore } from "../store/electronStore";
-
 export class Task {
     name;
+    id; // Its assumed that an id is passed with every task
+    ID; // xivapi has ID as the attribute
     _parent;
 
     completionFlag = 'N';
@@ -52,17 +52,25 @@ export class Task {
         else this._parent.updateCompleted(newValue - previousValue);
     }
 
-    get _storageKey() {
+    get storageKey() {
+        if(this.id !== undefined && this.id !== null) return this.id;
+        return this.ID;
+    }
+
+    get fullStorageKey() {
+        return `${this._parent.fullStorageKey}.${this.storageKey}`;
+    }
+
+    get oldStorageKey() {
         const name = (this.Name || this.name || '').trim();
 
         return name
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
-        // return this.ID;
     }
 
-    get _fullStorageKey() {
-        return `${this._parent._fullStorageKey}.${this._storageKey}`;
+    get oldFullStorageKey() {
+        return `${this._parent.oldFullStorageKey}.${this.oldStorageKey}`;
     }
 }

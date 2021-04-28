@@ -140,7 +140,7 @@ export default {
             customTasks.splice(storeIndex, 1);
 
             // Update Store
-            store.delete(task._fullStorageKey);
+            store.delete(task.fullStorageKey);
             store.set('custom', customTasks);
 
             // Update displayed completion

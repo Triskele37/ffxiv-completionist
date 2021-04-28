@@ -25,6 +25,9 @@ export class ChangeStore {
             delete obj[oldKey];
             obj[newKey] = value;
         }
+        else {
+            // console.error(`Could not find ${basePath}.${oldKey}`);
+        }
     }
 
     // Change helper when task is in different group

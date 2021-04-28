@@ -5,6 +5,7 @@ import { eStore } from "../store/electronStore";
 export class DataGroup {
     _lang = 'en';
     name;
+    _key; // key used for storage
 
     _parent; // A reference to the parent group
 
@@ -21,8 +22,9 @@ export class DataGroup {
     totalExcluded = 0;  // The total of excluded tasks of this and children
 
     //------------------------------------------------------------------ Construction
-    constructor(name, parent) {
-        this.name = name;
+    constructor(json, parent, additionalColumnConfig) {
+        this.name = json.groupName;
+        this._key = json.key;
         this._parent = parent;
         this.lang = parent ? parent.lang : eStore.get('lang');
 
@@ -32,30 +34,31 @@ export class DataGroup {
             this.defaultCompletion = this._parent.defaultCompletion;
         }
 
-        return this;
-    }
-
-    static fromJSON(parent, path, additionalColumnConfig) {
-        const json = loadJson(path, parent ? parent.lang : eStore.get('lang'));
-        const data = new DataGroup(json.groupName, parent);
-
         if(json.headers) {
             const columnConfig = [];
             Object.keys(json.headers).forEach((key) => {
                 columnConfig.push({ key, header: json.headers[key], ...(additionalColumnConfig || {})[key] });
             });
 
-            data.columnConfig = columnConfig;
+            this.columnConfig = columnConfig;
         }
 
-        if(json.tasks) data.initializeTasks(json.tasks);
+        if(json.tasks) this.initializeTasks(json.tasks);
 
-        return data;
+        return this;
+    }
+
+    static fromJSON(parent, path, additionalColumnConfig) {
+        const json = loadJson(path, parent ? parent.lang : eStore.get('lang'));
+        return new DataGroup(json, parent, additionalColumnConfig);
     }
 
     // used only to allow one json for guildhests instead of 1 per class
     forceName(name) {
         this.name = name;
+        this._key = name.toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^a-z0-9-]/g, '');
         return this;
     }
 
@@ -112,17 +115,23 @@ export class DataGroup {
     }
 
     //------------------------------------------------------------------ Storage Key
-    get _storageKey() {
-        // if(!this.name) console.log(this);
+    get storageKey() {
+        return this._key;
+    }
 
+    get fullStorageKey() {
+        return (this._parent ? this._parent.fullStorageKey + '.' : '') + this.storageKey;
+    }
+
+    get oldStorageKey() {
         return this.name
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
     }
 
-    get _fullStorageKey() {
-        return (this._parent ? this._parent._fullStorageKey + '.' : '') + this._storageKey;
+    get oldFullStorageKey() {
+        return (this._parent ? this._parent.oldFullStorageKey + '.' : '') + this.oldStorageKey;
     }
 
     //------------------------------------------------------------------ Pathing

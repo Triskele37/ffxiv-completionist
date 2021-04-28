@@ -41,7 +41,7 @@
         },
         methods: {
             onTaskValueChange: function(event) {
-                let newValue = parseFloat(event.target.value).toFixed(this.task._parent.numericDecimal);
+                let newValue = parseFloat(event.target.value || this.task.minValue).toFixed(this.task._parent.numericDecimal);
 
                 // Validate the new value
                 if(newValue < this.task.minValue) newValue = this.task.minValue;
@@ -49,7 +49,7 @@
 
                 // Update the new value
                 this.task.changeCompletionNumber(newValue);
-                getPlayerStore().set(this.task._fullStorageKey, newValue.toString());
+                getPlayerStore().set(this.task.fullStorageKey, newValue.toString());
 
                 // Force validation changes to update the UI
                 this.$forceUpdate();

@@ -1,7 +1,8 @@
+import { data } from "../../../data";
 import { ChangeStore } from "./utils";
 
 export const migrate_5_45_to_5_5 = () => {
-    const overall = new ChangeStore('0.5.5', true);
+    const overall = new ChangeStore('0.5.5');
 
     //--------------------------------- GC Leves
     const leves = 'duty.quests.levequests';
@@ -187,5 +188,28 @@ export const migrate_5_45_to_5_5 = () => {
     overall.change('logs.crafting-log.armorer.master-recipes.master-recipes-8', 'neo-ishgardian-gauntlets-of-maiming', 'neo-ishgardian-gloves-of-maiming');
     overall.change('logs.crafting-log.culinarian.ishgard-restoration.skysteel-tools', 'oddly-specific-oill', 'oddly-specific-oil');
 
+    diveAndChange(data, overall);
+
     overall.write();
+
+    function diveAndChange(group) {
+        if(group.subGroups) {
+            group.subGroups.forEach(diveAndChange);
+        }
+
+        if(group.tasks) {
+            group.tasks.forEach((task) => {
+                let path = task.oldFullStorageKey.split('.');
+                const oldKey = path.pop();
+                const newKey = task.fullStorageKey.split('.').pop()
+
+                path.shift();
+                path = path.join('.');
+
+                overall.change(path, oldKey, newKey);
+                // if(path.includes('beast-tribe')) console.log(path, oldKey, newKey);
+                // console.log(`${path}: ${oldKey} > ${newKey}`);
+            });
+        }
+    }
 };
