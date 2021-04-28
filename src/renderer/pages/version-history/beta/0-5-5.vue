@@ -13,7 +13,10 @@
             <li>Added an undo for the most recent quick mark action</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>
+            <li>Reduced save file size</li>
+            <li>Reworded Progress menu options</li>
             <li>Fix for broken French localization</li>
+            <li>Fixed save data not transferring between languages</li>
             <li>Fix for maximized state not carrying between loads</li>
             <li>Fix for negative completion</li>
             <li>Fix for table freakout when hovering left cell with 1 item on the table</li>

@@ -55,8 +55,8 @@ const FILE_MENU = {
 const PROGRESS_MENU = (mainWindow) => ({
     label: 'Progress',
     submenu: [
-        { label: 'New Save', click: createNewStore(mainWindow) },
-        { label: 'Load Save', click: moveStoreLocation(mainWindow) },
+        { label: 'New Character', click: createNewStore(mainWindow) },
+        { label: 'Load Character', click: moveStoreLocation(mainWindow) },
     ]
 });
 
