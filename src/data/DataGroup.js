@@ -17,7 +17,6 @@ export class DataGroup {
     _isNumericCompletion = false; // Used for numeric completions
     numericDecimal = 0;
 
-    total = 0;     // The total of all tasks of this and children
     totalCompleted = 0; // The total of completed tasks of this and children
     totalExcluded = 0;  // The total of excluded tasks of this and children
 
@@ -73,12 +72,26 @@ export class DataGroup {
             return taskObj;
         });
 
-        this.countTasks();
-
         return this;
     }
 
     //------------------------------------------------------------------ Task Totals
+    // Total count of all tasks of this group & children
+    get total() {
+        let totalTasks = this.tasks ? this.tasks.length : 0;
+
+        if(this._isNumericCompletion) {
+            totalTasks = 0;
+            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
+        }
+
+        if(this.subGroups) {
+            this.subGroups.forEach((subGroup) => totalTasks += subGroup.total);
+        }
+
+        return totalTasks;
+    }
+
     get displayTotal() {
         return this.total - this.totalExcluded;
     }
@@ -96,30 +109,6 @@ export class DataGroup {
     updateCompleted(mod) {
         this.totalCompleted += mod;
         if(this._parent) this._parent.updateCompleted(mod);
-    }
-
-    updateTotal(mod) {
-        this.total += mod;
-        if(this._parent) this._parent.updateTotal(mod);
-    }
-
-    countTasks() {
-        const oldTotal = this.total;
-        let totalTasks = this.tasks.length;
-
-        if(this._isNumericCompletion) {
-            totalTasks = 0;
-            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
-        }
-
-        // Update Totals
-        this.total += totalTasks;
-        if(this._parent) this._parent.adjustTaskTotal(totalTasks - oldTotal);
-    }
-
-    adjustTaskTotal(totalMod) {
-        this.total += totalMod;
-        if(this._parent) this._parent.adjustTaskTotal(totalMod);
     }
 
     //------------------------------------------------------------------ Storage Key
@@ -172,8 +161,6 @@ export class DataGroup {
             this.tasks.forEach((task) => {
                 if(!task.defaultCompletion) task.changeCompletionFlag(defaultCompletion);
             });
-
-            this.countTasks();
         }
     }
 
@@ -186,8 +173,6 @@ export class DataGroup {
         this._isNumericCompletion = isNumericCompletion;
 
         if(this.tasks) this.tasks.forEach((task) => task.isNumericCompletion = isNumericCompletion);
-
-        this.countTasks();
     }
 
     //------------------------------------------------------------------ Language

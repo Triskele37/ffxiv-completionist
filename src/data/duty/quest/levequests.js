@@ -17,7 +17,10 @@ export const Duty_Quests_Levequests = function(parent) {
 
     group.subGroups = [
         DataGroup.fromJSON(group, `${basePath}/battlecraft/battlecraft`),
-        DataGroup.fromJSON(group, `${basePath}/battlecraft/grand-company`),
+        DataGroup.fromJSON(group, `${basePath}/battlecraft/grand-company`, {
+            level: { centered: true },
+            company: { filterable: true }
+        }),
         DataGroup.fromJSON(group, `${basePath}/fieldcraft/mining`),
         DataGroup.fromJSON(group, `${basePath}/fieldcraft/botany`),
         DataGroup.fromJSON(group, `${basePath}/fieldcraft/fishing`),

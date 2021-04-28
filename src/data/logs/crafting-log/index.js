@@ -14,7 +14,7 @@ export const Logs_Crafting_Log = function(parent) {
     const group = DataGroup.fromJSON(parent, "./logs/crafting/index");
 
     group.subGroups = [
-        DataGroup.fromJSON(parent, "./logs/crafting/master-crafting-books"),
+        DataGroup.fromJSON(group, "./logs/crafting/master-crafting-books"),
         Logs_Crafting_Log_Carpenter(group),
         Logs_Crafting_Log_Blacksmith(group),
         Logs_Crafting_Log_Armorer(group),

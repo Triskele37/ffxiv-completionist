@@ -10,7 +10,7 @@ export const Logs_Crafting_Log_Shared = function(parent) {
     group.subGroups = [
         Logs_Crafting_Log_Shared_Beast_Tribe_Quests(group),
         Logs_Crafting_Log_Shared_Custom_Deliveries(group),
-        DataGroup.fromJSON(parent, `${basePath}/dyes`),
+        DataGroup.fromJSON(group, `${basePath}/dyes`),
     ];
 
     return group;

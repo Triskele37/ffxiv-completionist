@@ -82,7 +82,6 @@ export default {
                 name: this.newTaskName,
                 notes: this.newTaskNotes
             }, this.customData));
-            this.customData.updateTotal(1);
         },
         mergeCustomTasks: function() {
             // Don't merge without items
@@ -146,7 +145,6 @@ export default {
 
             // Update displayed completion
             task.changeCompletionFlag('N');
-            this.customData.updateTotal(-1);
 
             // Find & Remove from data
             const groupIndex = this.customData.tasks.findIndex((c) => c.name === task.name);

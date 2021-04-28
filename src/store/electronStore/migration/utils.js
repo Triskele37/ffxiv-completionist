@@ -43,7 +43,7 @@ export class ChangeStore {
         const obj = this.dive(oldPath);
 
         if(obj) {
-            if(this.dive(newPath) === null) console.error(`${newPath} does not exist, create it first`);
+            if(!this.dive(newPath)) console.error(`${newPath} does not exist, create it first`);
 
             // Get left/right of new path so assignment can take place
             let newLeftHand = newPath.split('.');
@@ -61,6 +61,9 @@ export class ChangeStore {
             oldLeftHand = oldLeftHand.join('.');
 
             delete this.dive(oldLeftHand)[oldRightHand];
+        }
+        else {
+            console.error(`Could not find: ${oldPath}`);
         }
     }
 

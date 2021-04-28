@@ -36,7 +36,6 @@ function buildBeastTribe(parent, basePath) {
     const dailyGroup = DataGroup.fromJSON(group, `${basePath}/daily-quests`);
 
     group.tasks = [...mainGroup.tasks, ...dailyGroup.tasks];
-    group.countTasks();
 
     return group;
 }
