@@ -26,7 +26,7 @@ const fs = require('fs');
 // ];
 
 const config = [
-    'level', 'name', 'mat1', 'mat2', 'mat3', 'mat4', 'mat5', 'mat6', 'catalysts'
+    '', '', 'name', '', 'location', '', 'method', '', 'gender', 'patch'
 ];
 
 const sheet = fs.readFileSync('scripts/sheet.txt', 'utf8');
