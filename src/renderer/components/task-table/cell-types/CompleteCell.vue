@@ -1,6 +1,6 @@
 <template>
     <td
-        class="completion-flag-cell"
+        class="completion-flag-cell noSelect"
         @click="onTaskCompleteClick"
         @contextmenu.prevent="onExcludeTaskClick"
         :class="`completion-flag-cell-${flag}`"

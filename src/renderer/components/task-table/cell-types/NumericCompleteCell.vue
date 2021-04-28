@@ -1,7 +1,7 @@
 <template>
-    <td class="completion-flag-cell">
+    <td class="completion-flag-cell noSelect" :style="gradientBackground">
         <input
-            class="numeric-input"
+            class="numeric-input noSelect"
             type="number"
             :step="step"
             :value="value"
@@ -22,6 +22,21 @@
         computed: {
             step: function() {
                 return 1 / (10 ** this.task._parent.numericDecimal);
+            },
+            gradientBackground: function() {
+                const prog = parseInt(this.value) - parseInt(this.task.minValue);
+                const tot = parseInt(this.task.maxValue) - parseInt(this.task.minValue);
+
+                const weight1 = prog / tot;
+                const weight2 = 1 - weight1;
+
+                const r = Math.round(0x0f * weight1 + 0x75 * weight2);
+                const g = Math.round(0x75 * weight1 + 0x19 * weight2);
+                const b = Math.round(0x38 * weight1 + 0x0f * weight2);
+
+                return {
+                    backgroundColor: `rgb(${r},${g},${b})`
+                }
             }
         },
         methods: {
@@ -52,7 +67,7 @@
     cursor: pointer;
     text-align: center;
     user-select: none;
-    width: 69px;
+    width: 99px;
 
     &:hover {
         border: 1px solid white;

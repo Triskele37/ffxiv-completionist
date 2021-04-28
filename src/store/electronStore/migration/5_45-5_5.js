@@ -3,9 +3,6 @@ import { ChangeStore } from "./utils";
 export const migrate_5_45_to_5_5 = () => {
     const overall = new ChangeStore('0.5.5', true);
 
-    //--------------------------------- Mount Speed Rework
-    // overall.delete('travel', 'mount-speed');
-
     //--------------------------------- GC Leves
     const leves = 'duty.quests.levequests';
     overall.create(leves, 'grand-company');

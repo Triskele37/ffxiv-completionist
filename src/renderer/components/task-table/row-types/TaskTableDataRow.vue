@@ -48,7 +48,7 @@
         },
         methods: {
             onClick: function($event, task) {
-                if(!$event.target.className.includes('completion-flag-cell')) {
+                if(!$event.target.className.includes('noSelect')) {
                     task.selected = !task.selected;
                     this.$forceUpdate();
                 }
