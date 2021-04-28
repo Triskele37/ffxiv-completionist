@@ -3,23 +3,23 @@
     "tasks": [
         {
             "level": "66",
-            "name": "Schorl",
-            "zone": "The Azim Steppe",
-            "closestAetheryte": "The Dawn Throne",
+            "name": "Schörl",
+            "zone": "Steppe d'Azim",
+            "closestAetheryte": "Trône de l'Aube",
             "coordinates": "(x29,y15)",
-            "nodeTimer": "Ephemeral (12PM)"
+            "nodeTimer": "Point de récolte éphémère (12:00)"
         },
         {
             "level": "66",
-            "name": "Raw Azurite",
-            "zone": "The Azim Steppe",
+            "name": "Azurite brute",
+            "zone": "Steppe d'Azim",
             "closestAetheryte": "Dhoro Iloh",
             "coordinates": "(x5,y29)",
-            "nodeTimer": "Unspoiled (4AM/PM)"
+            "nodeTimer": "Point de récolte intact (04:00 / 16:00)"
         },
         {
             "level": "68",
-            "name": "Durium Ore",
+            "name": "Minerai de durium",
             "zone": "Yanxia",
             "closestAetheryte": "Namai",
             "coordinates": "(x36,y19)",
@@ -27,39 +27,39 @@
         },
         {
             "level": "68",
-            "name": "Raw Imperial Jade",
+            "name": "Jade impérial brut",
             "zone": "Yanxia",
-            "closestAetheryte": "The House of the Fierce",
+            "closestAetheryte": "Cercle des Intrépides",
             "coordinates": "(x29,y9)",
-            "nodeTimer": "Unspoiled (6AM/PM)"
+            "nodeTimer": "Point de récolte intact (06:00 / 18:00)"
         },
         {
             "level": "68",
-            "name": "Hard Place Furnishing Materials",
-            "zone": "The Lochs",
+            "name": "Matière première pour pièce décorative du Bord du gouffre",
+            "zone": "Les Lacs",
             "closestAetheryte": "Porta Praetoria",
             "coordinates": "(x10,y18)",
             "nodeTimer": ""
         },
         {
             "level": "70",
-            "name": "Molybdenum Ore",
-            "zone": "The Lochs",
+            "name": "Minerai de molybdène",
+            "zone": "Les Lacs",
             "closestAetheryte": "Porta Praetoria",
             "coordinates": "(x10,y18)",
             "nodeTimer": ""
         },
         {
             "level": "70",
-            "name": "Raw Rhodonite",
-            "zone": "The Peaks",
+            "name": "Rhodonite brute",
+            "zone": "Les Pics",
             "closestAetheryte": "Ala Gannha",
             "coordinates": "(x26,y12)",
-            "nodeTimer": "Unspoiled (8AM/PM)"
+            "nodeTimer": "Point de récolte intact (08:00 / 20:00)"
         },
         {
             "level": "70",
-            "name": "Sturdy Vat Material",
+            "name": "Élément nécessaire à une fermentation",
             "zone": "Yanxia",
             "closestAetheryte": "Namai",
             "coordinates": "(x37,y19)",
@@ -67,7 +67,7 @@
         },
         {
             "level": "70",
-            "name": "Clinquant Stones",
+            "name": "Minerai brillant",
             "zone": "Il Mheg",
             "closestAetheryte": "Lydha Lran",
             "coordinates": "(x33,y30)",
@@ -75,11 +75,11 @@
         },
         {
             "level": "70★",
-            "name": "Almandine",
-            "zone": "The Lochs",
+            "name": "Almandin",
+            "zone": "Les Lacs",
             "closestAetheryte": "Porta Praetoria",
             "coordinates": "(x13,y17)",
-            "nodeTimer": "Ephemeral (12AM)"
+            "nodeTimer": "Point de récolte éphémère (00:00)"
         },
         {
             "level": "70★",
@@ -91,19 +91,19 @@
         },
         {
             "level": "70★★",
-            "name": "Raw Hematite",
+            "name": "Hématite brute",
             "zone": "Kholusia",
-            "closestAetheryte": "Stilltide",
+            "closestAetheryte": "Douceonde",
             "coordinates": "(x33,y23)",
-            "nodeTimer": "Unspoiled (2AM/PM)"
+            "nodeTimer": "Point de récolte intact (02:00 / 14:00)"
         },
         {
             "level": "70★★",
-            "name": "Yanxian Soil",
+            "name": "Terreau de Yanxia",
             "zone": "Yanxia",
             "closestAetheryte": "Namai",
             "coordinates": "(x37,y19)",
-            "nodeTimer": "Ephemeral (8PM)"
+            "nodeTimer": "Point de récolte éphémère (20:00)"
         }
     ]
 }

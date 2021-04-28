@@ -1,19 +1,5 @@
 const fs = require('fs');
 
-/*
-{
-    level: "1",
-    name: "Distilled Water",
-    mat1: "Muddy Water",
-    mat2: "X",
-    mat3: "X",
-    mat4: "X",
-    mat5: "X",
-    mat6: "X",
-    catalysts: "Water Shard"
-},
-* */
-
 // const config = [
 //     '', '',
 //     'name_en', 'name_fr',
@@ -26,7 +12,7 @@ const fs = require('fs');
 // ];
 
 const config = [
-    '', '', 'name', '', 'location', '', 'method', '', 'gender', 'patch'
+    'en', 'name', 'iLvl', 'primeLocation', 'fishingHoles', 'type', 'bait'
 ];
 
 const sheet = fs.readFileSync('scripts/sheet.txt', 'utf8');

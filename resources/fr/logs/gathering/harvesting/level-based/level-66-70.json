@@ -3,55 +3,62 @@
     "tasks": [
         {
             "level": "66",
-            "name": "Daikon Radish",
+            "name": "Grand radis oriental",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
-            "coordinates": "(x22,y10)"
+            "coordinates": "(x22,y10)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "66",
-            "name": "Gyr Abanian Carrot",
-            "zone": "The Peaks",
+            "name": "Carotte gyrabanienne",
+            "zone": "Les Pics",
             "closestTeleport": "Ala Ghiri",
-            "coordinates": "(x26,y27)"
+            "coordinates": "(x26,y27)",
+            "closestAetheryte": "Ala Ghiri"
         },
         {
             "level": "66",
-            "name": "Lotus Root",
+            "name": "Rhizome de lotus",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
             "coordinates": "(x28,y7)",
-            "nodeTimer": "Unspoiled (8AM/PM)"
+            "nodeTimer": "Point de récolte intact (08:00 / 20:00)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "66",
-            "name": "Sun Cabbage",
-            "zone": "The Azim Steppe",
+            "name": "Chou-soleil",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
-            "coordinates": "(x14,y26)"
+            "coordinates": "(x14,y26)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "66",
-            "name": "Fennel",
-            "zone": "The Azim Steppe",
+            "name": "Fenouil",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
-            "coordinates": "(x14,y26)"
+            "coordinates": "(x14,y26)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "66",
-            "name": "Doman Yellow",
-            "zone": "The Azim Steppe",
+            "name": "Lœss",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
             "coordinates": "(x15,y29)",
-            "nodeTimer": "Ephemeral (8AM)"
+            "nodeTimer": "Point de récolte éphémère (08:00)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "66",
-            "name": "Windtea Leaves",
+            "name": "Mauve des vents",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
             "coordinates": "(x22,y13)",
-            "nodeTimer": "Ephemeral (4PM)"
+            "nodeTimer": "Point de récolte éphémère (16:00)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "66",
@@ -63,126 +70,143 @@
         },
         {
             "level": "66",
-            "name": "Strong Steppe Spice",
-            "zone": "The Azim Steppe",
+            "name": "Épices de la Steppe d'Azim",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
-            "coordinates": "(x14,y26)"
+            "coordinates": "(x14,y26)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "67",
-            "name": "Ruby Tide Kelp",
-            "zone": "The Ruby Sea",
+            "name": "Goémon corallin",
+            "zone": "Mer de Rubis",
             "closestTeleport": "Tamamizu",
-            "coordinates": "(x11,y13)"
+            "coordinates": "(x11,y13)",
+            "closestAetheryte": "Tamamizu"
         },
         {
             "level": "68",
-            "name": "Jhammel Ginger",
-            "zone": "The Lochs",
+            "name": "Gingembre jhammel",
+            "zone": "Les Lacs",
             "closestTeleport": "The Ala Mhigan Quarter",
             "coordinates": "(x8,y8)",
-            "nodeTimer": "Unspoiled (4AM/PM)"
+            "nodeTimer": "Point de récolte intact (04:00 / 16:00)",
+            "closestAetheryte": "Faubourg mhigois"
         },
         {
             "level": "68",
-            "name": "Yanxian Parsley",
+            "name": "Œnanthe de Yanxia",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
-            "coordinates": "(x22,y10)"
+            "coordinates": "(x22,y10)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "68",
-            "name": "Alyssum",
-            "zone": "The Peaks",
+            "name": "Alysson",
+            "zone": "Les Pics",
             "closestTeleport": "Ala Ghiri",
-            "coordinates": "(x26,y27)"
+            "coordinates": "(x26,y27)",
+            "closestAetheryte": "Ala Ghiri"
         },
         {
             "level": "68",
-            "name": "Nagxian Cudweed",
+            "name": "Gnaphale orientale",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
-            "coordinates": "(x22,y10)"
+            "coordinates": "(x22,y10)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "68",
-            "name": "Chickweed",
-            "zone": "The Azim Steppe",
+            "name": "Mouron blanc",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
-            "coordinates": "(x14,y26)"
+            "coordinates": "(x14,y26)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "68",
-            "name": "Nipplewort",
-            "zone": "The Azim Steppe",
+            "name": "Lamier amplexicaule",
+            "zone": "Steppe d'Azim",
             "closestTeleport": "The Dawn Throne",
-            "coordinates": "(x14,y26)"
+            "coordinates": "(x14,y26)",
+            "closestAetheryte": "Trône de l'Aube"
         },
         {
             "level": "69",
-            "name": "Doman Eggplant",
+            "name": "Bringèle domienne",
             "zone": "Yanxia",
             "closestTeleport": "The House of the Fierce",
-            "coordinates": "(x22,y10)"
+            "coordinates": "(x22,y10)",
+            "closestAetheryte": "Cercle des Intrépides"
         },
         {
             "level": "69",
-            "name": "Twincoon",
-            "zone": "The Peaks",
+            "name": "Cocon double",
+            "zone": "Les Pics",
             "closestTeleport": "Ala Ghiri",
-            "coordinates": "(x26,y27)"
+            "coordinates": "(x26,y27)",
+            "closestAetheryte": "Ala Ghiri"
         },
         {
             "level": "70",
-            "name": "Amh Araeng Seasonings",
+            "name": "Épices parfumées",
             "zone": "Amh Araeng",
             "closestTeleport": "Mord Souq",
-            "coordinates": "(x30,y23)"
+            "coordinates": "(x30,y23)",
+            "closestAetheryte": "Mord Souq"
         },
         {
             "level": "70",
-            "name": "Clinquant Stones",
+            "name": "Minerai brillant",
             "zone": "Il Mheg",
             "closestTeleport": "Lydha Lran",
-            "coordinates": "(x30,y35)"
+            "coordinates": "(x30,y35)",
+            "closestAetheryte": "Lydha Lran"
         },
         {
             "level": "70",
-            "name": "Animal Trace",
-            "zone": "Amh Araeng",
-            "closestTeleport": "Mord Souq",
-            "coordinates": "(x31,y15)"
-        },
-        {
-            "level": "70★",
-            "name": "Hallowed Basil",
-            "zone": "The Peaks",
-            "closestTeleport": "Ala Gannha",
-            "coordinates": "(x23,y16)",
-            "nodeTimer": "Unspoiled (6AM/PM)"
-        },
-        {
-            "level": "70★",
-            "name": "Airship Fitting Components",
-            "zone": "Amh Araeng",
-            "closestTeleport": "Mord Souq",
-            "coordinates": "(x32,y23)"
-        },
-        {
-            "level": "70★★",
-            "name": "Yanxian Verbena",
-            "zone": "Yanxia",
-            "closestTeleport": "The House of the Fierce",
-            "coordinates": "(x22,y13)",
-            "nodeTimer": "Ephemeral (4PM)"
-        },
-        {
-            "level": "70★★",
-            "name": "Night Pepper",
+            "name": "Trace d'animal sauvage",
             "zone": "Amh Araeng",
             "closestTeleport": "Mord Souq",
             "coordinates": "(x31,y15)",
-            "nodeTimer": ""
+            "closestAetheryte": "Mord Souq"
+        },
+        {
+            "level": "70★",
+            "name": "Basilic béni",
+            "zone": "Les Pics",
+            "closestTeleport": "Ala Gannha",
+            "coordinates": "(x23,y16)",
+            "nodeTimer": "Point de récolte intact (06:00 / 18:00)",
+            "closestAetheryte": "Ala Gannha"
+        },
+        {
+            "level": "70★",
+            "name": "Élément pour intérieur d'aéronef",
+            "zone": "Amh Araeng",
+            "closestTeleport": "Mord Souq",
+            "coordinates": "(x32,y23)",
+            "closestAetheryte": "Mord Souq"
+        },
+        {
+            "level": "70★★",
+            "name": "Verveine de Yanxia",
+            "zone": "Yanxia",
+            "closestTeleport": "The House of the Fierce",
+            "coordinates": "(x22,y13)",
+            "nodeTimer": "Point de récolte éphémère (16:00)",
+            "closestAetheryte": "Cercle des Intrépides"
+        },
+        {
+            "level": "70★★",
+            "name": "Poivre sombre",
+            "zone": "Amh Araeng",
+            "closestTeleport": "Mord Souq",
+            "coordinates": "(x31,y15)",
+            "nodeTimer": "",
+            "closestAetheryte": "Mord Souq"
         }
     ]
 }
