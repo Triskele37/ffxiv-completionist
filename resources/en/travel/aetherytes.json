@@ -1,4 +1,5 @@
 {
+    "key": "aetherytes",
     "groupName": "Aetherytes",
     "headers": {
         "type": "Type",
@@ -8,792 +9,924 @@
     },
     "tasks": [
         {
+            "id": 0,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Lower Decks",
             "name": "Limsa Lominsa Lower Decks"
         },
         {
+            "id": 1,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Upper Decks",
             "name": "The Aftcastle"
         },
         {
+            "id": 2,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Upper Decks",
             "name": "Culinarian's Guild"
         },
         {
+            "id": 3,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Lower Decks",
             "name": "Arcanists' Guild"
         },
         {
+            "id": 4,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Lower Decks",
             "name": "Fishermen's Guild"
         },
         {
+            "id": 5,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Upper Decks",
             "name": "Marauders' Guild"
         },
         {
+            "id": 6,
             "type": "Shard",
             "region": "La Noscea",
             "zone": "Limsa Lominsa Lower Decks",
             "name": "Hawkers' Alley"
         },
         {
+            "id": 7,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Middle La Noscea",
             "name": "Summerford Farms"
         },
         {
+            "id": 8,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Lower La Noscea",
             "name": "Moraby Drydocks"
         },
         {
+            "id": 9,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Eastern La Noscea",
             "name": "Costa del Sol"
         },
         {
+            "id": 10,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Eastern La Noscea",
             "name": "Wineport"
         },
         {
+            "id": 11,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Western La Noscea",
             "name": "Swiftperch"
         },
         {
+            "id": 12,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Western La Noscea",
             "name": "Aleport"
         },
         {
+            "id": 13,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Upper La Noscea",
             "name": "Camp Bronze Lake"
         },
         {
+            "id": 14,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Outer La Noscea",
             "name": "Camp Overlook"
         },
         {
+            "id": 15,
             "type": "Crystal",
             "region": "La Noscea",
             "zone": "Wolves' Den Pier",
             "name": "Wolves' Den Pier"
         },
         {
+            "id": 16,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "New Gridania",
             "name": "New Gridania"
         },
         {
+            "id": 17,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "New Gridania",
             "name": "Archers' Guild"
         },
         {
+            "id": 18,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "Old Gridania",
             "name": "Leatherworkers' Guild"
         },
         {
+            "id": 19,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "Old Gridania",
             "name": "Lancers' Guild"
         },
         {
+            "id": 20,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "Old Gridania",
             "name": "Conjurors' Guild"
         },
         {
+            "id": 21,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "Old Gridania",
             "name": "Botanists' Guild"
         },
         {
+            "id": 22,
             "type": "Shard",
             "region": "The Black Shroud",
             "zone": "Old Gridania",
             "name": "Mih Khetto's Amphitheatre"
         },
         {
+            "id": 23,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "Central Shroud",
             "name": "Bentbranch Meadows"
         },
         {
+            "id": 24,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "East Shroud",
             "name": "The Hawthorne Hut"
         },
         {
+            "id": 25,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "South Shroud",
             "name": "Quarrymill"
         },
         {
+            "id": 26,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "South Shroud",
             "name": "Camp Tranquil"
         },
         {
+            "id": 27,
             "type": "Crystal",
             "region": "The Black Shroud",
             "zone": "North Shroud",
             "name": "Fallgourd Float"
         },
         {
+            "id": 28,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Nald",
             "name": "Ul'dah - Steps of Nald"
         },
         {
+            "id": 29,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Nald",
             "name": "Adventurers' Guild"
         },
         {
+            "id": 30,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Nald",
             "name": "Thaumaturges' Guild"
         },
         {
+            "id": 31,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Gladiators' Guild"
         },
         {
+            "id": 32,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Miners' Guild"
         },
         {
+            "id": 33,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Alchemists' Guild"
         },
         {
+            "id": 34,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Weavers' Guild"
         },
         {
+            "id": 35,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Goldsmiths' Guild"
         },
         {
+            "id": 36,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Chamber of Rule"
         },
         {
+            "id": 37,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Ul'dah - Steps of Thal",
             "name": "Sapphire Avenue Exchange"
         },
         {
+            "id": 38,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Western Thanalan",
             "name": "Horizon"
         },
         {
+            "id": 39,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Central Thanalan",
             "name": "Black Brush Station"
         },
         {
+            "id": 40,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Eastern Thanalan",
             "name": "Camp Drybone"
         },
         {
+            "id": 41,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Southern Thanalan",
             "name": "Little Ala Mhigo"
         },
         {
+            "id": 42,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Southern Thanalan",
             "name": "Forgotten Springs"
         },
         {
+            "id": 43,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Northern Thanalan",
             "name": "Camp Bluefog"
         },
         {
+            "id": 44,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "Northern Thanalan",
             "name": "Ceruleum Processing Plant"
         },
         {
+            "id": 45,
             "type": "Crystal",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "The Gold Saucer"
         },
         {
+            "id": 46,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Entrance & Card Squares"
         },
         {
+            "id": 47,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Wonder Square East"
         },
         {
+            "id": 48,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Wonder Square West"
         },
         {
+            "id": 49,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Event Square"
         },
         {
+            "id": 50,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Cactpot Board"
         },
         {
+            "id": 51,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "The Gold Saucer",
             "name": "Round Square"
         },
         {
+            "id": 52,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Chocobo Square",
             "name": "Chocobo Square"
         },
         {
+            "id": 53,
             "type": "Shard",
             "region": "Thanalan",
             "zone": "Chocobo Square",
             "name": "Minion Square"
         },
         {
+            "id": 54,
             "type": "Crystal",
             "region": "Coerthas",
             "zone": "Foundation",
             "name": "Foundation"
         },
         {
+            "id": 55,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "Foundation",
             "name": "The Forgotten Knight"
         },
         {
+            "id": 56,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "Foundation",
             "name": "Skysteel Manufactory"
         },
         {
+            "id": 57,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "Foundation",
             "name": "The Brume"
         },
         {
+            "id": 58,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "The Pillars",
             "name": "Athenaeum Astrologicum"
         },
         {
+            "id": 59,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "The Pillars",
             "name": "The Jeweled Crozier"
         },
         {
+            "id": 60,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "The Pillars",
             "name": "Saint Reymanaud Cathedral"
         },
         {
+            "id": 61,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "The Pillars",
             "name": "The Tribunal"
         },
         {
+            "id": 62,
             "type": "Shard",
             "region": "Coerthas",
             "zone": "The Pillars",
             "name": "The Last Vigil"
         },
         {
+            "id": 63,
             "type": "Crystal",
             "region": "Coerthas",
             "zone": "Coerthas Central Highlands",
             "name": "Camp Dragonhead"
         },
         {
+            "id": 64,
             "type": "Crystal",
             "region": "Coerthas",
             "zone": "Coerthas Western Highlands",
             "name": "Falcon's Nest"
         },
         {
+            "id": 65,
             "type": "Crystal",
             "region": "Abalathia's Spine",
             "zone": "The Sea of Clouds",
             "name": "Camp Cloudtop"
         },
         {
+            "id": 66,
             "type": "Crystal",
             "region": "Abalathia's Spine",
             "zone": "The Sea of Clouds",
             "name": "Ok' Zundu"
         },
         {
+            "id": 67,
             "type": "Crystal",
             "region": "Abalathia's Spine",
             "zone": "Azys Lla",
             "name": "Helix"
         },
         {
+            "id": 68,
             "type": "Crystal",
             "region": "Dravania",
             "zone": "Idyllshire",
             "name": "Idyllshire"
         },
         {
+            "id": 69,
             "type": "Shard",
             "region": "Dravania",
             "zone": "Idyllshire",
             "name": "West Idyllshire"
         },
         {
+            "id": 70,
             "type": "Crystal",
             "region": "Dravania",
             "zone": "The Dravanian Forelands",
             "name": "Tailfeather"
         },
         {
+            "id": 71,
             "type": "Crystal",
             "region": "Dravania",
             "zone": "The Dravanian Forelands",
             "name": "Anyx Trine"
         },
         {
+            "id": 72,
             "type": "Crystal",
             "region": "Dravania",
             "zone": "The Churning Mists",
             "name": "Moghome"
         },
         {
+            "id": 73,
             "type": "Crystal",
             "region": "Dravania",
             "zone": "The Churning Mists",
             "name": "Zenith"
         },
         {
+            "id": 74,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "Rhalgr's Reach",
             "name": "Rhalgr's Reach"
         },
         {
+            "id": 75,
             "type": "Shard",
             "region": "Gyr Abania",
             "zone": "Rhalgr's Reach",
             "name": "Western Rhalgr's Reach"
         },
         {
+            "id": 76,
             "type": "Shard",
             "region": "Gyr Abania",
             "zone": "Rhalgr's Reach",
             "name": "Northeastern Rhalgr's Reach"
         },
         {
+            "id": 77,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Fringes",
             "name": "Castrum Oriens"
         },
         {
+            "id": 78,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Fringes",
             "name": "The Peering Stones"
         },
         {
+            "id": 79,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Peaks",
             "name": "Ala Gannha"
         },
         {
+            "id": 80,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Peaks",
             "name": "Ala Ghiri"
         },
         {
+            "id": 81,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Lochs",
             "name": "Porta Praetoria"
         },
         {
+            "id": 82,
             "type": "Crystal",
             "region": "Gyr Abania",
             "zone": "The Lochs",
             "name": "The Ala Mhigan Quarter"
         },
         {
+            "id": 83,
             "type": "Crystal",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Kugane"
         },
         {
+            "id": 84,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Shiokaze Hostelry"
         },
         {
+            "id": 85,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Pier #1"
         },
         {
+            "id": 86,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Thavnairian Consulate"
         },
         {
+            "id": 87,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Kogane Dori Markets"
         },
         {
+            "id": 88,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Bokairo Inn"
         },
         {
+            "id": 89,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "The Ruby Bazaar"
         },
         {
+            "id": 90,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Sekiseigumi Barracks"
         },
         {
+            "id": 91,
             "type": "Shard",
             "region": "Hingashi",
             "zone": "Kugane",
             "name": "Rakuza District"
         },
         {
+            "id": 92,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Ruby Sea",
             "name": "Tamamizu"
         },
         {
+            "id": 93,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Ruby Sea",
             "name": "Onokoro"
         },
         {
+            "id": 94,
             "type": "Crystal",
             "region": "Othard",
             "zone": "Yanxia",
             "name": "Namai"
         },
         {
+            "id": 95,
             "type": "Crystal",
             "region": "Othard",
             "zone": "Yanxia",
             "name": "The House of the Fierce"
         },
         {
+            "id": 96,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Azim Steppe",
             "name": "Reunion"
         },
         {
+            "id": 97,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Azim Steppe",
             "name": "The Dawn Throne"
         },
         {
+            "id": 98,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Azim Steppe",
             "name": "Dhoro Iloh"
         },
         {
+            "id": 99,
             "type": "Crystal",
             "region": "Othard",
             "zone": "The Doman Enclave",
             "name": "The Doman Enclave"
         },
         {
+            "id": 100,
             "type": "Shard",
             "region": "Othard",
             "zone": "The Doman Enclave",
             "name": "The Northern Enclave"
         },
         {
+            "id": 101,
             "type": "Shard",
             "region": "Othard",
             "zone": "The Doman Enclave",
             "name": "The Southern Enclave"
         },
         {
+            "id": 102,
             "type": "Shard",
             "region": "Othard",
             "zone": "The Doman Enclave",
             "name": "Ferry Docks"
         },
         {
+            "id": 103,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Crystarium"
         },
         {
+            "id": 104,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "Musica Universalis Markets"
         },
         {
+            "id": 105,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "Temenos Rookery"
         },
         {
+            "id": 106,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Dossal Gate"
         },
         {
+            "id": 107,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Pendants"
         },
         {
+            "id": 108,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Amaro Launch"
         },
         {
+            "id": 109,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Crystalline Mean"
         },
         {
+            "id": 110,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "The Crystarium",
             "name": "The Cabinet of Curiosity"
         },
         {
+            "id": 111,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Eulmore",
             "name": "Eulmore"
         },
         {
+            "id": 112,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "Eulmore",
             "name": "Southeast Derelicts"
         },
         {
+            "id": 113,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "Eulmore",
             "name": "The Mainstay"
         },
         {
+            "id": 114,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "Eulmore",
             "name": "Nightsoil Pots"
         },
         {
+            "id": 115,
             "type": "Shard",
             "region": "Norvrandt",
             "zone": "Eulmore",
             "name": "The Glory Gate"
         },
         {
+            "id": 116,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Lakeland",
             "name": "Fort Jobb"
         },
         {
+            "id": 117,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Lakeland",
             "name": "The Ostall Imperative"
         },
         {
+            "id": 118,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Kholusia",
             "name": "Stilltide"
         },
         {
+            "id": 119,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Kholusia",
             "name": "Wright"
         },
         {
+            "id": 120,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Kholusia",
             "name": "Tomra"
         },
         {
+            "id": 121,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Amh Araeng",
             "name": "Mord Souq"
         },
         {
+            "id": 122,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Amh Araeng",
             "name": "The Inn at Journey's Head"
         },
         {
+            "id": 123,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Amh Araeng",
             "name": "Twine"
         },
         {
+            "id": 124,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Il Mheg",
             "name": "Lydha Lran"
         },
         {
+            "id": 125,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Il Mheg",
             "name": "Pla Enni"
         },
         {
+            "id": 126,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "Il Mheg",
             "name": "Wolekdorf"
         },
         {
+            "id": 127,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "The Rak'tika Greatwood",
             "name": "Slitherbough"
         },
         {
+            "id": 128,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "The Rak'tika Greatwood",
             "name": "Fanow"
         },
         {
+            "id": 129,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "The Tempest",
             "name": "The Ondo Cups"
         },
         {
+            "id": 130,
             "type": "Crystal",
             "region": "Norvrandt",
             "zone": "The Tempest",
             "name": "The Macarenses Angle"
         },
         {
+            "id": 131,
             "type": "Crystal",
             "region": "Mor Dhona",
             "zone": "Mor Dhona",

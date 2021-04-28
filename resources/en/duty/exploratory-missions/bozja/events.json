@@ -1,4 +1,5 @@
 {
+    "key": "events",
     "groupName": "Events",
     "headers": {
         "category": "Category",
@@ -8,288 +9,336 @@
     },
     "tasks": [
         {
+            "id": 0,
             "category": "Skirmish",
             "name": "All Pets Are Off",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:17.0, y:26.8)"
         },
         {
+            "id": 1,
             "category": "Skirmish",
             "name": "Brought to Heal",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:28.6, y:26.1)"
         },
         {
+            "id": 2,
             "category": "Skirmish",
             "name": "Can Carnivorous Plants Bloom Even on a Battlefield?",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:33.5, y:19.3)"
         },
         {
+            "id": 3,
             "category": "Skirmish",
             "name": "Conflicting with the First Law",
             "type": "Notorious Monster",
             "coordinates": "Southern Entrenchment (x:33.5, y:29.3)"
         },
         {
+            "id": 4,
             "category": "Skirmish",
             "name": "Demonstrably Demonic",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:11.3, y:20.4)"
         },
         {
+            "id": 5,
             "category": "Skirmish",
             "name": "Deperately Seeking Something",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:24.5, y:17.3)"
         },
         {
+            "id": 6,
             "category": "Skirmish",
             "name": "For Absent Friends",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:14.3, y:18.2)"
         },
         {
+            "id": 7,
             "category": "Skirmish",
             "name": "Heavy Boots of Lead",
             "type": "Notorious Monster",
             "coordinates": "Old Bozja (x:30.7, y:22.3)"
         },
         {
+            "id": 8,
             "category": "Skirmish",
             "name": "Help Wanted",
             "type": "Defense",
             "coordinates": "Old Bozja (x:18.2, y:20.9)"
         },
         {
+            "id": 9,
             "category": "Skirmish",
             "name": "I'm a Mechanical Man",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:20.8, y:18.0)"
         },
         {
+            "id": 10,
             "category": "Skirmish",
             "name": "Let Slip the Dogs of War",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:14.1, y:15.7)"
         },
         {
+            "id": 11,
             "category": "Skirmish",
             "name": "More Machine Now than Man",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:27.9, y:28.9)"
         },
         {
+            "id": 12,
             "category": "Skirmish",
             "name": "Murder Death Kill",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:14.1, y:15.7)"
         },
         {
+            "id": 13,
             "category": "Skirmish",
             "name": "My Family and Other Animals",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:11.3, y:15.2)"
         },
         {
+            "id": 14,
             "category": "Skirmish",
             "name": "No Camping Allowed",
             "type": "Slay Enemies",
             "coordinates": "Old Bozja (x:17.6, y:23.4)"
         },
         {
+            "id": 15,
             "category": "Skirmish",
             "name": "None of Them Knew They Were Robots",
             "type": "FATE",
             "coordinates": "Southern Entrenchment (x:24.4, y:27.7)"
         },
         {
+            "id": 16,
             "category": "Skirmish",
             "name": "Of Steel and Flame",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:14.3, y:18.2)"
         },
         {
+            "id": 17,
             "category": "Skirmish",
             "name": "Parts and Recreation",
             "type": "Gather Items",
             "coordinates": "Old Bozja (x:25.4, y:21.9)"
         },
         {
+            "id": 18,
             "category": "Skirmish",
             "name": "Pyromancer Supreme",
             "type": "Notorious Monster",
             "coordinates": "Old Bozja (x:18.2, y:20.9)"
         },
         {
+            "id": 19,
             "category": "Skirmish",
             "name": "Red (Chocobo) Alert",
             "type": "Slay Enemies",
             "coordinates": "Old Bozja (x:27.0, y:18.5)"
         },
         {
+            "id": 20,
             "category": "Skirmish",
             "name": "Scavengers of Human Sorrow",
             "type": "Slay Enemies",
             "coordinates": "Old Bozja (x:25.2, y:22.8)"
         },
         {
+            "id": 21,
             "category": "Skirmish",
             "name": "Seeq and Destroy",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:28.6, y:26.0)"
         },
         {
+            "id": 22,
             "category": "Skirmish",
             "name": "Sneak & Spell",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:20.2, y:26.9)"
         },
         {
+            "id": 23,
             "category": "Skirmish",
             "name": "Sneak and Spell",
             "type": "FATE",
             "coordinates": "Southern Entrenchment (x:20.2, y:20.6)"
         },
         {
+            "id": 24,
             "category": "Skirmish",
             "name": "Supplies Party",
             "type": "Gather Items",
             "coordinates": "The Alermuc Climb (x:20.9, y:14.7)"
         },
         {
+            "id": 25,
             "category": "Skirmish",
             "name": "The Beasts Must Die",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:20.0, y:27.1)"
         },
         {
+            "id": 26,
             "category": "Skirmish",
             "name": "The Element of Supplies",
             "type": "Slay Enemies",
             "coordinates": "Old Bozja (x:17.6, y:23.3)"
         },
         {
+            "id": 27,
             "category": "Skirmish",
             "name": "The Monster Mash",
             "type": "Slay Enemies",
             "coordinates": "Old Bozja (x:30.8, y:22.2)"
         },
         {
+            "id": 28,
             "category": "Skirmish",
             "name": "The War Against the Machines",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:11.3, y:20.4)"
         },
         {
+            "id": 29,
             "category": "Skirmish",
             "name": "The Wild Bunch",
             "type": "Slay Enemies",
             "coordinates": "The Alermuc Climb (x:20.9, y:14.7)"
         },
         {
+            "id": 30,
             "category": "Skirmish",
             "name": "Unicorn Flakes",
             "type": "Defense",
             "coordinates": "Old Bozja (x:31.6, y:17.3)"
         },
         {
+            "id": 31,
             "category": "Skirmish",
             "name": "Unrest for the Wicked",
             "type": "Slay Enemies",
             "coordinates": "Southern Entrenchment (x:24.3, y:27.6)"
         },
         {
+            "id": 32,
             "category": "Skirmish",
             "name": "Waste the Rainbow",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:24.5, y:17.3)"
         },
         {
+            "id": 33,
             "category": "Critical Engagement",
             "name": "Kill It with Fire",
             "type": "Notorious Monster",
             "coordinates": "Southern Entrenchment (x:17.2, y:27.0)"
         },
         {
+            "id": 34,
             "category": "Critical Engagement",
             "name": "Metal Fox Chaos",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:14.3, y:18.3)"
         },
         {
+            "id": 35,
             "category": "Critical Engagement",
             "name": "Patriot Games",
             "type": "Notorious Monster",
             "coordinates": "Old Bozja (x:14.2, y:21.3)"
         },
         {
+            "id": 36,
             "category": "Critical Engagement",
             "name": "Rise of the Robots",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:21.0, y:17.8)"
         },
         {
+            "id": 37,
             "category": "Critical Engagement",
             "name": "The Baying of the Hound(s)",
             "type": "Notorious Monster",
             "coordinates": "Southern Entrenchment (x:22.0, y:29.0)"
         },
         {
+            "id": 38,
             "category": "Critical Engagement",
             "name": "The Final Furlong",
             "type": "Notorious Monster",
             "coordinates": "Old Bozja (x:31.9, y:17.6)"
         },
         {
+            "id": 39,
             "category": "Critical Engagement",
             "name": "The Fires of War",
             "type": "Waves",
             "coordinates": "Old Bozja (x:20.6, y:24.3)"
         },
         {
+            "id": 40,
             "category": "Critical Engagement",
             "name": "The Hunt for Red Choctober",
             "type": "Notorious Monster",
             "coordinates": "Old Bozja (x:26.8, y:18.4)"
         },
         {
+            "id": 41,
             "category": "Critical Engagement",
             "name": "The Shadow of Death's Hand",
             "type": "Notorious Monster",
             "coordinates": "Southern Entrenchment (x:35.4, y:26.2)"
         },
         {
+            "id": 42,
             "category": "Critical Engagement",
             "name": "Trampled Under Hoof",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:9.9, y:18.3)"
         },
         {
+            "id": 43,
             "category": "Critical Engagement",
             "name": "Vigil for the Lost",
             "type": "Notorious Monster",
             "coordinates": "Southern Entrenchment (x:27.9, y:30.0)"
         },
         {
+            "id": 44,
             "category": "Critical Engagement",
             "name": "Where Strode the Behemoth",
             "type": "Notorious Monster",
             "coordinates": "The Alermuc Climb (x:23.6, y:14.9)"
         },
         {
+            "id": 45,
             "category": "Solo Critical Engagement",
             "name": "Aces High",
             "type": "Solo Critical Engagement",
             "coordinates": "Southern Entrenchment (x:31.6, y:26.8)"
         },
         {
+            "id": 46,
             "category": "Solo Critical Engagement",
             "name": "And the Flames Went Higher",
             "type": "Solo Critical Engagement",
             "coordinates": "The Alermuc Climb (x:18.7, y:15.9)"
         },
         {
+            "id": 47,
             "category": "Solo Critical Engagement",
             "name": "Beast of Man",
             "type": "Solo Critical Engagement",

@@ -1,4 +1,5 @@
 {
+    "key": "aesthetician",
     "groupName": "Esthéticien",
     "headers": {
         "name": "Coiffure / Peinture faciale",
@@ -9,6 +10,7 @@
     },
     "tasks": [
         {
+            "id": 0,
             "name": "Aventurier",
             "category": "Purchase",
             "source": "14 PGS",
@@ -16,6 +18,7 @@
             "patch": "3.1"
         },
         {
+            "id": 1,
             "name": "Coupe asymétrique",
             "category": "Purchase",
             "source": "1.800 Assignats d'Azurée",
@@ -23,6 +26,7 @@
             "patch": "5.21"
         },
         {
+            "id": 2,
             "name": "Boucles",
             "category": "Purchase",
             "source": "9,600 PGS",
@@ -30,6 +34,7 @@
             "patch": "3.1"
         },
         {
+            "id": 3,
             "name": "Early to Rise",
             "category": "Bozja",
             "source": "Delubrum Reginae",
@@ -37,6 +42,7 @@
             "patch": "5.45"
         },
         {
+            "id": 4,
             "name": "Lien éternel",
             "category": "Quest",
             "source": "Quête nv.1: \"Jusqu'à ce que le destin vous sépare\"",
@@ -44,6 +50,7 @@
             "patch": "2.4"
         },
         {
+            "id": 5,
             "name": "Brushing souple",
             "category": "Purchase",
             "source": "18.000 Marques de loup",
@@ -51,6 +58,7 @@
             "patch": "4.3"
         },
         {
+            "id": 6,
             "name": "Tresse bandeau",
             "category": "Eureka",
             "source": "Eurêka Pyros",
@@ -58,6 +66,7 @@
             "patch": "4.45"
         },
         {
+            "id": 7,
             "name": "Cheveux longs classiques",
             "category": "Purchase",
             "source": "30,000 PGS",
@@ -65,6 +74,7 @@
             "patch": "5.0"
         },
         {
+            "id": 8,
             "name": "Tresse gyrabanienne",
             "category": "Deep Dungeon",
             "source": "Pilier des cieux",
@@ -72,6 +82,7 @@
             "patch": "4.35"
         },
         {
+            "id": 9,
             "name": "Ramza & Alma",
             "category": "Purchase",
             "source": "50,000 PGS",
@@ -79,6 +90,7 @@
             "patch": "4.45"
         },
         {
+            "id": 10,
             "name": "Noctis",
             "category": "Event",
             "source": "Quête en collaboration avec Final Fantasy XV",
@@ -86,6 +98,7 @@
             "patch": "4.5"
         },
         {
+            "id": 11,
             "name": "Capitaine général",
             "category": "Premium",
             "source": "Compris dans la tenue \"Tenue d'Aymeric\" (Station mog)",
@@ -93,6 +106,7 @@
             "patch": "3.55a"
         },
         {
+            "id": 12,
             "name": "Mèches légendaires",
             "category": "Purchase",
             "source": "1.800 Assignats d'Azurée",
@@ -100,6 +114,7 @@
             "patch": "5.11"
         },
         {
+            "id": 13,
             "name": "Queue de cheval",
             "category": "Purchase",
             "source": "8,000 PGS",
@@ -107,6 +122,7 @@
             "patch": "2.51"
         },
         {
+            "id": 14,
             "name": "Lightning",
             "category": "Event / Premium",
             "source": "Collaboration avec Final Fantasy XIII / Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
@@ -114,6 +130,7 @@
             "patch": "3.2"
         },
         {
+            "id": 15,
             "name": "Snow",
             "category": "Event / Premium",
             "source": "Collaboration avec Final Fantasy XIII / Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
@@ -121,6 +138,7 @@
             "patch": "3.2"
         },
         {
+            "id": 16,
             "name": "Flambeur",
             "category": "Event",
             "source": "Le festival du Gold Saucer (2018)",
@@ -128,6 +146,7 @@
             "patch": "3.55a"
         },
         {
+            "id": 17,
             "name": "Saintly Style",
             "category": "Purchase",
             "source": "1,800 Assignats d'Azurée",
@@ -135,6 +154,7 @@
             "patch": "5.31"
         },
         {
+            "id": 18,
             "name": "Cheveux longs",
             "category": "Deep Dungeon",
             "source": "Palais des morts",
@@ -142,6 +162,7 @@
             "patch": "3.4"
         },
         {
+            "id": 19,
             "name": "Meneuse des Héritiers",
             "category": "Premium",
             "source": "Compris dans la tenue \"Tenue de Minfillia\" (Station mog)",
@@ -149,6 +170,7 @@
             "patch": "3.1"
         },
         {
+            "id": 20,
             "name": "Surineur des Héritiers",
             "category": "Premium",
             "source": "Compris dans la tenue \"Nouvelle tenue de Thancred\" (Station mog)",
@@ -156,6 +178,7 @@
             "patch": "3.35"
         },
         {
+            "id": 21,
             "name": "Élémentaliste des Héritiers",
             "category": "Premium",
             "source": "Compris dans la tenue \"Nouvelle tenue de Y'shtola\" (Station mog)",
@@ -163,6 +186,7 @@
             "patch": "3.35"
         },
         {
+            "id": 22,
             "name": "Sharlayan Studies",
             "category": "",
             "source": "",
@@ -170,6 +194,7 @@
             "patch": "5.4"
         },
         {
+            "id": 23,
             "name": "Strife",
             "category": "Limited",
             "source": "Concours d'art & costume du Fan Festival 2018",
@@ -177,6 +202,7 @@
             "patch": "4.4"
         },
         {
+            "id": 24,
             "name": "Mercenaire",
             "category": "Purchase",
             "source": "18.000 Marques de loup",
@@ -184,6 +210,7 @@
             "patch": "4.4"
         },
         {
+            "id": 25,
             "name": "Wind Caller",
             "category": "Bozja",
             "source": "150 Bozjan Clusters",
@@ -191,6 +218,7 @@
             "patch": "5.35"
         },
         {
+            "id": 26,
             "name": "Chauve-souris",
             "category": "Event / Premium",
             "source": "Acheter Méthode de maquillage : Veillée des saints (Station mog)",
@@ -198,6 +226,7 @@
             "patch": "2.38"
         },
         {
+            "id": 27,
             "name": "Toile d'araignée",
             "category": "Event / Premium",
             "source": "Acheter Méthode de maquillage : Veillée des saints (Station mog)",

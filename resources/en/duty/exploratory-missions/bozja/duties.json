@@ -1,4 +1,5 @@
 {
+    "key": "duties",
     "groupName": "Duties",
     "headers": {
         "name": "Name",
@@ -6,14 +7,17 @@
     },
     "tasks": [
         {
+            "id": 0,
             "name": "Castrum Lacus Litore",
             "rankReq": "10"
         },
         {
+            "id": 1,
             "name": "Delubrum Reginae",
             "rankReq": "10"
         },
         {
+            "id": 2,
             "name": "Delubrum Reginae (Savage)",
             "rankReq": "15"
         }

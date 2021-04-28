@@ -1,4 +1,5 @@
 {
+    "key": "classes--jobs",
     "groupName": "Classes & Jobs",
     "headers": {
         "name": "Job / Class",
@@ -8,6 +9,7 @@
     },
     "tasks": [
         {
+            "id": 0,
             "name": "Paladin / Gladiator",
             "role": "Tank",
             "startingQuest": "Paladin's Pledge - Lulutsu - Ul'dah - Steps of Thal / Way of the Gladiator - Lulutsu - Ul'dah - Steps of Thal",
@@ -16,6 +18,7 @@
             "maxValue": 80
         },
         {
+            "id": 1,
             "name": "Warrior / Marauder",
             "role": "Tank",
             "startingQuest": "Pride and Duty (Will Take You from the Mountain) - Wyrnzoen - Limsa Lominsa Upper Decks / Way of the Marauder - Blauthota - Limsa Lominsa Upper Decks",
@@ -24,6 +27,7 @@
             "maxValue": 80
         },
         {
+            "id": 2,
             "name": "Dark Knight",
             "role": "Tank",
             "startingQuest": "Our End - Ishgardian Citizen - The Pillars",
@@ -32,6 +36,7 @@
             "maxValue": 80
         },
         {
+            "id": 3,
             "name": "Gunbreaker",
             "role": "Tank",
             "startingQuest": "The Makings of a Gunbreaker - Gods' Quiver Bow - New Gridania",
@@ -40,6 +45,7 @@
             "maxValue": 80
         },
         {
+            "id": 4,
             "name": "White Mage / Conjurer",
             "role": "Healer",
             "startingQuest": "Seer Folly - E-Sumi-Yan - Old Gridania / Way of the Conjurer - Madelle - Old Gridania",
@@ -48,6 +54,7 @@
             "maxValue": 80
         },
         {
+            "id": 5,
             "name": "Scholar / Arcanist",
             "role": "Healer",
             "startingQuest": "Forgotten but Not Gone - Murie - Limsa Lominsa Lower Decks",
@@ -56,6 +63,7 @@
             "maxValue": 80
         },
         {
+            "id": 6,
             "name": "Astrologian",
             "role": "Healer",
             "startingQuest": "Stairway to the Heavens - Jannequinard - The Pillars",
@@ -64,6 +72,7 @@
             "maxValue": 80
         },
         {
+            "id": 7,
             "name": "Monk / Pugilist",
             "role": "Melee DPS",
             "startingQuest": "Brother from Another Mother - Gagaruna - Ul'dah - Steps of Nald / Way of the Pugilist - Gagaruna - Ul'dah - Steps of Nald",
@@ -72,6 +81,7 @@
             "maxValue": 80
         },
         {
+            "id": 8,
             "name": "Dragoon / Lancer",
             "role": "Melee DPS",
             "startingQuest": "Eye of the Dragon - Ywain - Old Gridania / Way of the Lancer - Jillian - Old Gridania",
@@ -80,6 +90,7 @@
             "maxValue": 80
         },
         {
+            "id": 9,
             "name": "Ninja / Rogue",
             "role": "Melee DPS",
             "startingQuest": "Peasants by Day, Ninjas by Night - Jacke - Limsa Lominsa Lower Decks / My First Daggers - Lonwoerd - Limsa Lominsa Lower Decks",
@@ -88,6 +99,7 @@
             "maxValue": 80
         },
         {
+            "id": 10,
             "name": "Samurai",
             "role": "Melee DPS",
             "startingQuest": "The Way of the Samurai - Ul'dahn Citizen - Ul'dah - Steps of Nald",
@@ -96,6 +108,7 @@
             "maxValue": 80
         },
         {
+            "id": 11,
             "name": "Bard / Archer",
             "role": "Physical Ranged DPS",
             "startingQuest": "A Song of Bards and Bowmen - Luciane - New Gridania / Way of the Archer - Athelyna - New Gridania",
@@ -104,6 +117,7 @@
             "maxValue": 80
         },
         {
+            "id": 12,
             "name": "Machinist",
             "role": "Physical Ranged DPS",
             "startingQuest": "Savior of Skysteel - Stephanivien - Foundation",
@@ -112,6 +126,7 @@
             "maxValue": 80
         },
         {
+            "id": 13,
             "name": "Dancer",
             "role": "Physical Ranged DPS",
             "startingQuest": "Shall We Dance - Eager Lominsan - Limsa Lominsa Lower Decks",
@@ -120,6 +135,7 @@
             "maxValue": 80
         },
         {
+            "id": 14,
             "name": "Black Mage / Thaumaturge",
             "role": "Magical Ranged DPS",
             "startingQuest": "Taking the Black - Yayake - Ul'dah - Steps of Nald / Way of the Thaumaturge - Yayake - Ul'dah - Steps of Nald",
@@ -128,6 +144,7 @@
             "maxValue": 80
         },
         {
+            "id": 15,
             "name": "Summoner / Arcanist",
             "role": "Magical Ranged DPS",
             "startingQuest": "Austerities of Flame - Thubyrgeim - Limsa Lominsa Lower Decks / Way of the Arcanist - Murie - Limsa Lominsa Lower Decks",
@@ -136,6 +153,7 @@
             "maxValue": 80
         },
         {
+            "id": 16,
             "name": "Red Mage",
             "role": "Magical Ranged DPS",
             "startingQuest": "Taking the Red - Distraught Lass - Ul'dah - Steps of Thal",
@@ -144,6 +162,7 @@
             "maxValue": 80
         },
         {
+            "id": 17,
             "name": "Blue Mage",
             "role": "Magical Ranged DPS",
             "startingQuest": "Out of the Blue - Zealous Yellowjacket - Limsa Lominsa Lower Decks",
@@ -152,6 +171,7 @@
             "maxValue": 70
         },
         {
+            "id": 18,
             "name": "Carpenter",
             "role": "Crafter",
             "startingQuest": "Way of the Carpenter - Corgg - New Gridania",
@@ -160,6 +180,7 @@
             "maxValue": 80
         },
         {
+            "id": 19,
             "name": "Blacksmith",
             "role": "Crafter",
             "startingQuest": "Way of the Blacksmith - Randwulf - Limsa Lominsa Upper Decks",
@@ -168,6 +189,7 @@
             "maxValue": 80
         },
         {
+            "id": 20,
             "name": "Armorer",
             "role": "Crafter",
             "startingQuest": "Way of the Armorer - G'wahnako - Limsa Lominsa Upper Decks",
@@ -176,6 +198,7 @@
             "maxValue": 80
         },
         {
+            "id": 21,
             "name": "Goldsmith",
             "role": "Crafter",
             "startingQuest": "Way of the Goldsmith - Jemime - Ul'dah - Steps of Thal",
@@ -184,6 +207,7 @@
             "maxValue": 80
         },
         {
+            "id": 22,
             "name": "Leatherworker",
             "role": "Crafter",
             "startingQuest": "Way of the Leatherworker - Randall - Old Gridania",
@@ -192,6 +216,7 @@
             "maxValue": 80
         },
         {
+            "id": 23,
             "name": "Weaver",
             "role": "Crafter",
             "startingQuest": "Way of the Weaver - Maronne - Ul'dah - Steps of Thal",
@@ -200,6 +225,7 @@
             "maxValue": 80
         },
         {
+            "id": 24,
             "name": "Alchemist",
             "role": "Crafter",
             "startingQuest": "Way of the Alchemist - Deitrich - Ul'dah - Steps of Thal",
@@ -208,6 +234,7 @@
             "maxValue": 80
         },
         {
+            "id": 25,
             "name": "Culinarian",
             "role": "Crafter",
             "startingQuest": "Way of the Culinarian - Charlys - Limsa Lominsa Upper Decks",
@@ -216,6 +243,7 @@
             "maxValue": 80
         },
         {
+            "id": 26,
             "name": "Miner",
             "role": "Gatherer",
             "startingQuest": "Way of the Miner - Linette - Ul'dah - Steps of Thal",
@@ -224,6 +252,7 @@
             "maxValue": 80
         },
         {
+            "id": 27,
             "name": "Botanist",
             "role": "Gatherer",
             "startingQuest": "Way of the Botanist - Leonceault - Old Gridania",
@@ -232,6 +261,7 @@
             "maxValue": 80
         },
         {
+            "id": 28,
             "name": "Fisher",
             "role": "Gatherer",
             "startingQuest": "Way of the Fisher - N'nmulika - Limsa Lominsa Lower Decks",

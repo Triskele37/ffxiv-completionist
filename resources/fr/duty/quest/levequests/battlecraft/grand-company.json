@@ -1,15 +1,17 @@
 {
+    "key": "grand-company",
     "groupName": "Grand Company",
     "headers": {
         "level": "Niveau",
         "name": "Nom",
-        "zone":  "Zone",
+        "zone": "Zone",
         "location": "Lieux",
-        "npc":  "PNJ",
+        "npc": "PNJ",
         "company": "Company"
     },
     "tasks": [
         {
+            "id": 0,
             "name": "Protection : touche pas à mon pot",
             "level": "20",
             "zone": "Thanalan oriental",
@@ -18,6 +20,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 1,
             "name": "Pourchasse : hystérie collective",
             "level": "20",
             "zone": "Thanalan oriental",
@@ -26,6 +29,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 2,
             "name": "Exécution : Mamanzo le calciné",
             "level": "20",
             "zone": "Thanalan oriental",
@@ -34,6 +38,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 3,
             "name": "Interception : attirer l'attention",
             "level": "20",
             "zone": "Thanalan oriental",
@@ -42,6 +47,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 4,
             "name": "Exécution : à jouer avec le feu, on finit par se brûler",
             "level": "25",
             "zone": "Thanalan oriental",
@@ -50,6 +56,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 5,
             "name": "Protection : au pied du mur",
             "level": "25",
             "zone": "Thanalan oriental",
@@ -58,6 +65,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 6,
             "name": "Interception : des animaux qui ont les creux",
             "level": "25",
             "zone": "Thanalan oriental",
@@ -66,6 +74,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 7,
             "name": "Pourchasse : à la chasse aux imposteurs",
             "level": "25",
             "zone": "Thanalan oriental",
@@ -74,6 +83,7 @@
             "npc": "Kikiri"
         },
         {
+            "id": 8,
             "name": "Interception : un mauvais présage",
             "level": "30",
             "zone": "Thanalan méridional",
@@ -82,6 +92,7 @@
             "npc": "Blue Herring"
         },
         {
+            "id": 9,
             "name": "Protection : il faut veiller au grain",
             "level": "30",
             "zone": "Thanalan méridional",
@@ -90,6 +101,7 @@
             "npc": "Blue Herring"
         },
         {
+            "id": 10,
             "name": "Exécution : dénonciation en règle",
             "level": "30",
             "zone": "Thanalan méridional",
@@ -98,6 +110,7 @@
             "npc": "Blue Herring"
         },
         {
+            "id": 11,
             "name": "Pourchasse : le coût de la vie",
             "level": "30",
             "zone": "Thanalan méridional",
@@ -106,6 +119,7 @@
             "npc": "Blue Herring"
         },
         {
+            "id": 12,
             "name": "Pourchasse : déguisement mortuaire",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -114,6 +128,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 13,
             "name": "Protection : contrecarrer un complot",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -122,6 +137,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 14,
             "name": "Interception : la Légion contre leurs légions",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -130,6 +146,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 15,
             "name": "Exécution : le péril draconique",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -138,6 +155,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 16,
             "name": "Pourchasse : ci-gisent les gigas",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -146,6 +164,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 17,
             "name": "Protection : vous avez laissé tomber quelque chose",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -154,6 +173,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 18,
             "name": "Interception : allier l'utile à l'agréable",
             "level": "45",
             "zone": "Mor Dhona",
@@ -162,6 +182,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 19,
             "name": "Protection : apprendre à respecter le passé",
             "level": "45",
             "zone": "Mor Dhona",
@@ -170,6 +191,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 20,
             "name": "Exécution : les vainqueurs écrivent l'histoire",
             "level": "45",
             "zone": "Mor Dhona",
@@ -178,6 +200,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 21,
             "name": "Protection : bas les pattes !",
             "level": "20",
             "zone": "Basse-Noscea",
@@ -186,6 +209,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 22,
             "name": "Pourchasse : la perversion de l'âme",
             "level": "20",
             "zone": "Basse-Noscea",
@@ -194,6 +218,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 23,
             "name": "Exécution : tome de malheur",
             "level": "20",
             "zone": "Basse-Noscea",
@@ -202,6 +227,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 24,
             "name": "Interception : en route vers la victoire",
             "level": "20",
             "zone": "Basse-Noscea",
@@ -210,6 +236,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 25,
             "name": "Pourchasse : jeu de main, jeu de vilain",
             "level": "25",
             "zone": "Basse-Noscea",
@@ -218,6 +245,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 26,
             "name": "Protection : à fond la caisse",
             "level": "25",
             "zone": "Basse-Noscea",
@@ -226,6 +254,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 27,
             "name": "Interception : l'enfer est dans un cœur vide",
             "level": "25",
             "zone": "Basse-Noscea",
@@ -234,6 +263,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 28,
             "name": "Exécution : comme un fauve en cage",
             "level": "25",
             "zone": "Basse-Noscea",
@@ -242,6 +272,7 @@
             "npc": "Eugene"
         },
         {
+            "id": 29,
             "name": "Interception : partie de pêche",
             "level": "30",
             "zone": "Noscea orientale",
@@ -250,6 +281,7 @@
             "npc": "C'lafumyn"
         },
         {
+            "id": 30,
             "name": "Protection : la voirie dévoyée",
             "level": "30",
             "zone": "Noscea orientale",
@@ -258,6 +290,7 @@
             "npc": "C'lafumyn"
         },
         {
+            "id": 31,
             "name": "Exécution : zigouillage en règle de Zi Gu",
             "level": "30",
             "zone": "Noscea orientale",
@@ -266,6 +299,7 @@
             "npc": "C'lafumyn"
         },
         {
+            "id": 32,
             "name": "Pourchasse : sus aux usurpateurs impériaux",
             "level": "30",
             "zone": "Noscea orientale",
@@ -274,6 +308,7 @@
             "npc": "C'lafumyn"
         },
         {
+            "id": 33,
             "name": "Protection : attiser les flammes",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -282,6 +317,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 34,
             "name": "Pourchasse : de facétieux imps",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -290,6 +326,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 35,
             "name": "Exécution : folie des grandeurs",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -298,6 +335,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 36,
             "name": "Pourchasse : les blagues les plus courtes sont les meilleures",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -306,6 +344,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 37,
             "name": "Interception : pas touche aux chocobos",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -314,6 +353,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 38,
             "name": "Exécution : quelqu'un a une grande gueule",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -322,6 +362,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 39,
             "name": "Protection : sus aux intrus",
             "level": "45",
             "zone": "Mor Dhona",
@@ -330,6 +371,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 40,
             "name": "Exécution : tuer le messager",
             "level": "45",
             "zone": "Mor Dhona",
@@ -338,6 +380,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 41,
             "name": "Interception : un gros problème de résolu",
             "level": "45",
             "zone": "Mor Dhona",
@@ -346,6 +389,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 42,
             "name": "Interception : construire à tout prix",
             "level": "20",
             "zone": "Forêt de l'est",
@@ -354,6 +398,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 43,
             "name": "Protection : tout feu tout flammes",
             "level": "20",
             "zone": "Forêt de l'est",
@@ -362,6 +407,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 44,
             "name": "Pourchasse : une faim de loup",
             "level": "20",
             "zone": "Forêt de l'est",
@@ -370,6 +416,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 45,
             "name": "Exécution : mystique et méchante",
             "level": "20",
             "zone": "Forêt de l'est",
@@ -378,6 +425,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 46,
             "name": "Exécution : Sylph' faut y aller, faut y aller",
             "level": "25",
             "zone": "Forêt de l'est",
@@ -386,6 +434,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 47,
             "name": "Pourchasse : sans queue, ni tête",
             "level": "25",
             "zone": "Forêt de l'est",
@@ -394,6 +443,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 48,
             "name": "Protection : du nectar, dare-dare",
             "level": "25",
             "zone": "Forêt de l'est",
@@ -402,6 +452,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 49,
             "name": "Interception : intolérable cruauté",
             "level": "25",
             "zone": "Forêt de l'est",
@@ -410,6 +461,7 @@
             "npc": "Cedrepierre"
         },
         {
+            "id": 50,
             "name": "Interception : ménage de printemps",
             "level": "30",
             "zone": "Forêt du sud",
@@ -418,6 +470,7 @@
             "npc": "H'amneko"
         },
         {
+            "id": 51,
             "name": "Exécution : Clairvisse le perfide",
             "level": "30",
             "zone": "Forêt du sud",
@@ -426,6 +479,7 @@
             "npc": "H'amneko"
         },
         {
+            "id": 52,
             "name": "Pourchasse : le tombeau des Impériaux",
             "level": "30",
             "zone": "Forêt du sud",
@@ -434,6 +488,7 @@
             "npc": "H'amneko"
         },
         {
+            "id": 53,
             "name": "Protection : touche pas aux rations",
             "level": "30",
             "zone": "Forêt du sud",
@@ -442,6 +497,7 @@
             "npc": "H'amneko"
         },
         {
+            "id": 54,
             "name": "Exécution : Ixal qui vole...",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -450,6 +506,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 55,
             "name": "Interception : observe comment je tue",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -458,6 +515,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 56,
             "name": "Pourchasse : purification par le feu",
             "level": "35",
             "zone": "Hautes terres du Coerthas central",
@@ -466,6 +524,7 @@
             "npc": "Haisie"
         },
         {
+            "id": 57,
             "name": "Exécution : dissiper la magie",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -474,6 +533,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 58,
             "name": "Protection : suivre la piste",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -482,6 +542,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 59,
             "name": "Interception : le jaune, c'est tendance",
             "level": "40",
             "zone": "Hautes terres du Coerthas central",
@@ -490,6 +551,7 @@
             "npc": "Lodille"
         },
         {
+            "id": 60,
             "name": "Pourchasse : ils n'ont pas la carrure",
             "level": "45",
             "zone": "Mor Dhona",
@@ -498,6 +560,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 61,
             "name": "Interception : des troupes un peu trop curieuses",
             "level": "45",
             "zone": "Mor Dhona",
@@ -506,6 +569,7 @@
             "npc": "Eidhart"
         },
         {
+            "id": 62,
             "name": "Protection : sauve qui peut",
             "level": "45",
             "zone": "Mor Dhona",
