@@ -1,8 +1,8 @@
 module.exports = function mapCacheTask(apiObj) {
     let npc = {};
 
-    try { npc = require(`../../cache/enpcresident/${apiObj.IssuerStart}`); }
-    catch(e) { console.error(`Could not find NPC (${apiObj.IssuerStart}) for quest ${apiObj.ID}`); }
+    try { npc = require(`../../cache/enpcresident/${apiObj.IssuerStartTargetID}`); }
+    catch(e) { console.error(`Could not find NPC (${apiObj.IssuerStartTargetID}) for quest ${apiObj.ID}`); }
 
     const reputation = !apiObj.BeastReputationRank ? {} : {
         "Reputation_de": apiObj.BeastReputationRank.Name_de,

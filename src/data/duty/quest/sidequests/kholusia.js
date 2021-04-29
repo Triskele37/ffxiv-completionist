@@ -1,6 +1,6 @@
 import { DataGroup } from "../../../DataGroup";
 
-const basePath = "./duty/quest/sidequests/kholusia-sidequests";
+const basePath = "./duty/quest/sidequests/kholusian-sidequests";
 export const Duty_Quests_Sidequests_Kholusia = function(parent) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 

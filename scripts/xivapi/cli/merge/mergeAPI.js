@@ -75,8 +75,8 @@ module.exports = function mergeAPI(content, rl, done) {
 
         rl.write(`Diff detected ${totalDiffs - diffTasks.length}/${totalDiffs}: ${appPath}\n`);
         rl.write(`Key: ${appKey}\n\n`);
-        rl.write(`  App Value: ${appTask[appKey]}\n`);
-        rl.write(`Cache Value: ${cacheTask[cacheKey]}\n`);
+        rl.write(`  App Value: "${appTask[appKey]}"\n`);
+        rl.write(`Cache Value: "${cacheTask[cacheKey]}"\n`);
 
         rl.question('\nUpdate App with cached value? (Y/N)', (answer) => {
             if(answer.toLowerCase() === 'y') {

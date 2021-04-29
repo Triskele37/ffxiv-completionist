@@ -32,6 +32,21 @@ module.exports = {
         }
     },
     translateCachePath: function(path) {
+        // Directory Changes
+        path = path.replace("/beast-tribe-quests-arrheavenswardstormblood", "/beast-tribe-quests-past");
+
+        // Directory Removal
+        path = path.replace("/post-shadowbringers-main-scenario-quests-ii", "");
+        path = path.replace("/post-shadowbringers-main-scenario-quests", "");
+        path = path.replace("/shadowbringers-main-scenario-quests", "");
+
+        // CoaNE
+        if(path.includes("chronicles-of-a-new-era")) {
+            path = path.replace(/chronicles-of-a-new-era-[a-z-]*\//, "");
+            path = path.replace("yorha-dark-apocalypse/", "");
+            path = path.replace("-quests.json", ".json");
+        }
+
         return path;
     },
 };
