@@ -1,4 +1,4 @@
-const mapProperties = (apiObj) => {
+module.exports = function mapCacheTask(apiObj) {
     let npc = {};
 
     try { npc = require(`../../cache/enpcresident/${apiObj.IssuerStart}`); }
@@ -34,5 +34,3 @@ const mapProperties = (apiObj) => {
 function cleanName(name) {
     return name.replace(' ', '').replace(' ', '');
 }
-
-module.exports = mapProperties;

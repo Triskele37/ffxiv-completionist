@@ -5,8 +5,6 @@ const mapCacheTask = require('./mapCacheTask');
 const mapAppTask = require('./mapAppTask');
 
 module.exports = {
-    MERGE_KEYS: ["id", "name", "description", "reward", "points"],
-    mapAppTask,
     config,
     path: function(Achievement) {
         return [
@@ -14,12 +12,9 @@ module.exports = {
             Achievement.AchievementCategory.Name
         ];
     },
-    translateCachePath: function(path) {
-        path = path.replace('crafting-gathering', 'crafting-and-gathering');
-
-        return path;
-    },
     build: () => buildAPI(config, mapCacheTask),
+    MERGE_KEYS: ["id", "name", "description", "reward", "points"],
+    mapAppTask,
     translateKeys: function(appKey, lang) {
         switch(appKey) {
             case "id": return "ID";
@@ -28,5 +23,10 @@ module.exports = {
             case "reward": return `Reward_${lang}`;
             case "points": return "Points";
         }
-    }
+    },
+    translateCachePath: function(path) {
+        path = path.replace('crafting-gathering', 'crafting-and-gathering');
+
+        return path;
+    },
 };

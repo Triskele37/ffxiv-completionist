@@ -1,7 +1,8 @@
 const buildAPI = require('../../cli/util/buildAPI');
 
 const config = require('./config.json');
-const mapProperties = require('./propertyMap');
+const mapCacheTask = require('./mapCacheTask');
+const mapAppTask = require('./mapAppTask');
 
 module.exports = {
     config,
@@ -18,5 +19,19 @@ module.exports = {
             isLocationSidequests ? Quest.PlaceName.Name : subCategory.Name
         ];
     },
-    build: () => buildAPI(config, mapProperties)
+    build: () => buildAPI(config, mapCacheTask),
+    MERGE_KEYS: ["id", "name", "level", "npc", "reputation"],
+    mapAppTask,
+    translateKeys: function(appKey, lang) {
+        switch(appKey) {
+            case "id": return "ID";
+            case "name": return `Name_${lang}`;
+            case "npc": return `Npc_${lang}`;
+            case "reputation": return `Reputation_${lang}`;
+            case "level": return "Level";
+        }
+    },
+    translateCachePath: function(path) {
+        return path;
+    },
 };
