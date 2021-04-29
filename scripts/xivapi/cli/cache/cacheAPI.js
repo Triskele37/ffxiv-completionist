@@ -1,0 +1,124 @@
+const axios = require('axios');
+const logUpdate = require('log-update');
+
+const getContentIDs = require('./getContentIDs');
+const getCachedIDs = require('./getCachedIDs');
+const concurrentWorkers = require('./concurrentWorkers');
+const isValidContentConfig = require('./isValidContentConfig');
+const writeJsonFile = require('../util/writeJsonFile');
+
+module.exports = async function cacheAPI(content, done) {
+    console.log(`Initializing ${content.config.API_ENDPOINT} cache\n`);
+
+    // Fail fast for invalid configs
+    if(!isValidContentConfig(content)) {
+        done();
+        return;
+    }
+
+    // Retrieve the list of IDs to grab
+    const IDS = await getIdList(content);
+
+    // Bail if nothing needs to be grabbed
+    if(!IDS.length) {
+        console.log('No new items to cache');
+        done();
+        return;
+    }
+
+    // Do the actual grabbing
+    await getItems(content, IDS);
+    resultOutput(content, IDS);
+
+    // Write cache config updates
+    console.log(`Updating config for ${content.config.API_ENDPOINT}`);
+    writeJsonFile('./scripts/xivapi/cli', [content.config.API_ENDPOINT], 'config', content.config);
+
+    done();
+};
+
+/**-----------------------------------------------------------------------------
+ * Used to determine a list of IDs to grab from a contentType
+ * ----------------------------------------------------------------------------- */
+async function getIdList(content) {
+    if(content.config.NEW_SCRAPE) {
+        const allIDs = await getContentIDs(content.config.API_ENDPOINT);
+        const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
+        content.config.TOTAL_ITEMS = allIDs.length;
+
+        const newIDs = allIDs.filter((ID) => !cachedIDs.includes(ID.toString()));
+        console.log(`${newIDs.length} new items detected`);
+
+        return newIDs;
+    }
+    else if(content.config.FULL_SCRAPE) {
+        const allIDs = await getContentIDs(content.config.API_ENDPOINT);
+        content.config.TOTAL_ITEMS = allIDs.length;
+
+        return allIDs;
+    }
+    else if(content.config.FAILED_SCRAPE) {
+        const temp = [...content.config.FAILED_IDS];
+        content.config.FAILED_IDS = [];
+        return temp;
+    }
+}
+
+/**-----------------------------------------------------------------------------
+ * Fires off several concurrent calls on a timeout to get all items
+ * ----------------------------------------------------------------------------- */
+async function getItems(content, IDS) {
+    await concurrentWorkers((cur, resolve) => {
+        if(cur.value < IDS.length) {
+            let output = `\nRetrieving item ${cur.value + 1}/${IDS.length}`;
+            if(content.config.FAILED_IDS.length) output += `\n${content.config.FAILED_IDS.length} items failed`;
+
+            logUpdate(output);
+
+            return getItem(content, IDS[cur.next]);
+        }
+        else resolve();
+    });
+}
+
+/**-----------------------------------------------------------------------------
+ * The grab of a single item, does the cache write
+ * ----------------------------------------------------------------------------- */
+async function getItem(content, id) {
+    // Bail out if trying to get a non-existent ID
+    if(!id) return;
+
+    // Bail out for excluded IDs
+    if(content.config.EXCLUDE_IDS.indexOf(id) !== -1) return;
+
+    try {
+        // Attempt to grab the item's data
+        const { data } = await axios.get(`http://xivapi.com/${content.config.API_ENDPOINT}/${id}`);
+
+        let contentPath;
+        try { contentPath = content.path(data); }
+        catch(e) { contentPath = ['_error']; }
+
+        writeJsonFile(`./scripts/xivapi/cache`, [
+            content.config.API_ENDPOINT,
+            ...contentPath
+        ], data.ID, data);
+    }
+    catch(e) {
+        content.config.FAILED_IDS.push(id);
+    }
+}
+
+/**-----------------------------------------------------------------------------
+ * Completion output
+ * ----------------------------------------------------------------------------- */
+function resultOutput(content, IDS) {
+    content.config.FAILED_IDS.sort((a, b) => a - b);
+
+    if(content.config.NEW_SCRAPE) console.log(`Scrape for new data complete`);
+    else if(content.config.FULL_SCRAPE) console.log(`Full scrape complete`);
+    else if(content.config.FAILED_SCRAPE) console.log(`Scrape for previous failures complete`);
+
+    const successful = IDS.length - content.config.FAILED_IDS.length;
+    console.log(`${successful}/${IDS.length} successful, ${content.config.FAILED_IDS.length} failed\n`);
+}

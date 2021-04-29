@@ -12,6 +12,7 @@ export const Duty_Quests_Other_Seasonal = function(parent) {
     group.subGroups = [
         DataGroup.fromJSON(group, `${basePath}/heavensturn-events`),
         DataGroup.fromJSON(group, `${basePath}/valentiones-day-events`),
+        DataGroup.fromJSON(group, `${basePath}/valentiones-little-ladies-day-events`),
         DataGroup.fromJSON(group, `${basePath}/little-ladies-day-events`),
         DataGroup.fromJSON(group, `${basePath}/egg-hunts`),
         DataGroup.fromJSON(group, `${basePath}/gold-saucer-festivities`),
