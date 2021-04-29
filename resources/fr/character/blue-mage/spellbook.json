@@ -1,11 +1,11 @@
 {
     "key": "spellbook",
-    "groupName": "Grimoire",
+    "groupName": "Codex bleu",
     "headers": {
-        "number": "#",
-        "name": "Spell",
-        "enemy": "Enemy",
-        "location": "Location"
+        "number": "N°",
+        "name": "Sort",
+        "enemy": "Ennemi",
+        "location": "Lieu"
     },
     "tasks": [
         {
@@ -48,7 +48,7 @@
             "number": "6",
             "name": "Haute tension",
             "enemy": "Sphère De Contrôle, Sphère bestiale",
-            "location": "Le Labyrinthe de Bahamut I / II, La Grande Mascarade #15"
+            "location": "Le Labyrinthe de Bahamut I / II, La Grande Mascarade n°15"
         },
         {
             "id": 6,
@@ -237,14 +237,14 @@
             "number": "33",
             "name": "Voix du bélier",
             "enemy": "Chimère, Chimère Dhorme, Azulmagia",
-            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade #25"
+            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade n°25"
         },
         {
             "id": 33,
             "number": "34",
             "name": "Voix du dragon",
             "enemy": "Chimère, Chimère Dhorme, Azulmagia",
-            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade #25"
+            "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade n°25"
         },
         {
             "id": 34,
@@ -279,7 +279,7 @@
             "number": "39",
             "name": "Flûte lunaire",
             "enemy": "",
-            "location": "Faire 10 épreuves de la Grande Masquarade"
+            "location": "Compléter 10 épreuves de la Grande Masquarade"
         },
         {
             "id": 39,
@@ -300,7 +300,7 @@
             "number": "42",
             "name": "Glas",
             "enemy": "",
-            "location": "Faire 20 épreuves de la Grande Masquarade"
+            "location": "Compléter 20 épreuves de la Grande Masquarade"
         },
         {
             "id": 42,
@@ -363,7 +363,7 @@
             "number": "51",
             "name": "Vague inconstante",
             "enemy": "Liquide vivant, Shikigami d'eau",
-            "location": "Alexandre - Le Bras du Père, La Grande Masquarade #29"
+            "location": "Alexandre - Le Bras du Père, La Grande Masquarade n°29"
         },
         {
             "id": 51,
@@ -426,7 +426,7 @@
             "number": "60",
             "name": "Marteau magique",
             "enemy": "Apanda, Epilogi",
-            "location": " La Grande bibliothèque de Gubal (brutal), La Grande Masquarade #24"
+            "location": " La Grande bibliothèque de Gubal (brutal), La Grande Masquarade n°24"
         },
         {
             "id": 60,
@@ -510,7 +510,7 @@
             "number": "72",
             "name": "Grâce angélique",
             "enemy": "",
-            "location": "Faire 30 épreuves de la Grande Masquarade"
+            "location": "Compléter 30 épreuves de la Grande Masquarade"
         },
         {
             "id": 72,
@@ -538,7 +538,7 @@
             "number": "76",
             "name": "Acuité concentrée",
             "enemy": "Scribe de l'arène",
-            "location": "La Grande Masquarade #24"
+            "location": "La Grande Masquarade n°24"
         },
         {
             "id": 76,
@@ -571,170 +571,170 @@
         {
             "id": 80,
             "number": "81",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Triple trident",
+            "enemy": "Namazu ebisu",
+            "location": "Yanxia (28, 6)"
         },
         {
             "id": 81,
             "number": "82",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Fourmillement",
+            "enemy": "Namazu ebisu",
+            "location": "Yanxia (28, 6)"
         },
         {
             "id": 82,
             "number": "83",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Tatami-gaeshi",
+            "enemy": "Dôjun Maru",
+            "location": "Le Château de Kugane"
         },
         {
             "id": 83,
             "number": "84",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Brume glaciale",
+            "enemy": "Dragon des brumes",
+            "location": "L'Escarre"
         },
         {
             "id": 84,
             "number": "85",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Stotram",
+            "enemy": "Lakshmi",
+            "location": "Émanation"
         },
         {
             "id": 85,
             "number": "86",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Faisceaux sacrés",
+            "enemy": "Sigmastice v1.0",
+            "location": "Train fantôme"
         },
         {
             "id": 86,
             "number": "87",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Sukuinage-gadoue",
+            "enemy": "Tokkapchi",
+            "location": "L'Arboretum Sainte-Mocianne (brutal)"
         },
         {
             "id": 87,
             "number": "88",
-            "name": "",
+            "name": "Angélique",
             "enemy": "",
-            "location": ""
+            "location": "Atteindre le niveau 70"
         },
         {
             "id": 88,
             "number": "89",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Barrière mystique",
+            "enemy": "Genbu",
+            "location": "Le Couvercle des enfers"
         },
         {
             "id": 89,
             "number": "90",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Rose de la destruction",
+            "enemy": "Ivon le Coeurl",
+            "location": "Le Temple du Poing"
         },
         {
             "id": 90,
             "number": "91",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Instinct profond",
+            "enemy": "Maître Coeurl, Coeurl scruti",
+            "location": "Haute Noscea (8, 21), Le Temple du Poing"
         },
         {
             "id": 91,
             "number": "92",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Ultravibration",
+            "enemy": "Kongamato",
+            "location": "Les Pics (11, 25)"
         },
         {
             "id": 92,
             "number": "93",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Givre",
+            "enemy": "Alte Roite",
+            "location": "Deltastice v1.0"
         },
         {
             "id": 93,
             "number": "94",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Obus d'ypérite",
+            "enemy": "Oméga",
+            "location": "Alphastice v3.0"
         },
         {
             "id": 94,
             "number": "95",
-            "name": "",
+            "name": "Dracoforce",
             "enemy": "",
-            "location": ""
+            "location": "Apprendre 100 sorts"
         },
         {
             "id": 95,
             "number": "96",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Étincelle éthérée",
+            "enemy": "Dhruva de sel",
+            "location": "Les Lacs (22, 22)"
         },
         {
             "id": 96,
             "number": "97",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Hydrotraction",
+            "enemy": "Kelpie",
+            "location": "La Cité engloutie de Skalla"
         },
         {
             "id": 97,
             "number": "98",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Malédiction de l'eau",
+            "enemy": "Sai Taisui",
+            "location": "Le Compas de l'Hirondelle"
         },
         {
             "id": 98,
             "number": "99",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Choco-météore",
+            "enemy": "Chocobo coursier",
+            "location": "Avant-pays dravanien (34, 28)"
         },
         {
             "id": 99,
             "number": "100",
-            "name": "",
+            "name": "Magie Matra",
             "enemy": "",
-            "location": ""
+            "location": "Apprendre 100 sorts"
         },
         {
             "id": 100,
             "number": "101",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Impression",
+            "enemy": "Oméga",
+            "location": "Alphastice v3.0"
         },
         {
             "id": 101,
             "number": "102",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Coup de bâton tournicotant",
+            "enemy": "Qitian Dasheng",
+            "location": "Le Compas de l'Hirondelle"
         },
         {
             "id": 102,
             "number": "103",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Frénésie spectrale",
+            "enemy": "Suzaku",
+            "location": "Le Nid des Lamentations"
         },
         {
             "id": 103,
             "number": "104",
-            "name": "",
-            "enemy": "",
-            "location": ""
+            "name": "Lis araignée",
+            "enemy": "Tsukuyomi",
+            "location": "Castrum Fluminis"
         }
     ]
 }
