@@ -12,6 +12,7 @@ module.exports = function mergeAPI(content, rl, done) {
     dive(content.build(), cachePath);
 
     // mergeDiffTasks > mergeNewTasks > done
+    const [totalDiffs, totalNew] = [diffTasks.length, newTasks.length];
     mergeDiffTasks();
 
     //------------------------------------------------------------------ Look for things to merge
@@ -72,7 +73,7 @@ module.exports = function mergeAPI(content, rl, done) {
         // Merge diff'd tasks
         const { appPath, appKey, appTask, cacheKey, cacheTask } = diffTasks.shift();
 
-        rl.write(`Diff detected: ${appPath}\n`);
+        rl.write(`Diff detected ${totalDiffs - diffTasks.length}/${totalDiffs}: ${appPath}\n`);
         rl.write(`Key: ${appKey}\n\n`);
         rl.write(`  App Value: ${appTask[appKey]}\n`);
         rl.write(`Cache Value: ${cacheTask[cacheKey]}\n`);
@@ -81,7 +82,7 @@ module.exports = function mergeAPI(content, rl, done) {
             if(answer.toLowerCase() === 'y') {
                 const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
                 json.tasks.forEach((task) => {
-                    if(task.ID === appTask.id) task[appKey] = cacheTask[cacheKey];
+                    if(task.id === appTask.id) task[appKey] = cacheTask[cacheKey];
                 });
                 fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
 
@@ -105,7 +106,7 @@ module.exports = function mergeAPI(content, rl, done) {
         // Merge new task
         const { appPath, lang, cacheTask } = newTasks.shift();
 
-        rl.write(`New Task detected: ${appPath}\n`);
+        rl.write(`New Task detected ${totalNew - newTasks.length}/${totalNew}: ${appPath}\n`);
         console.log(cacheTask);
 
         rl.question('\nAdd task to app? (Y/N)', (answer) => {
