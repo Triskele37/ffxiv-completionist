@@ -5,9 +5,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const cacheCLI = require('./cli/cachePrompt');
-const compareCLI = require('./cli/comparePrompt');
-const importNewCLI = require('./cli/importNewPrompt');
+const convertSheetToJSON = require('./convertSheetToJson');
 
 // Process entry point
 mainScreen();
@@ -17,18 +15,13 @@ function mainScreen() {
 
     console.clear();
     rl.write('Welcome\n');
-    rl.write('\n1. Cache');
-    rl.write('\n2. Compare');
-    rl.write('\n3. Import New');
-    rl.write('\n4. Custom');
-    rl.write('\n5. Exit\n');
+    rl.write('\n1. Convert sheet to JSON');
+    rl.write('\n2. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
-            case '1': cacheCLI(rl, mainScreen); break;
-            case '2': compareCLI(rl, mainScreen); break;
-            case '3': importNewCLI(rl, mainScreen); break;
-            case '4': {
+            case '1': convertSheetToJSON(done, mainScreen); break;
+            case '2': {
                 done();
                 break;
             }
@@ -41,12 +34,3 @@ function mainScreen() {
         rl.question('Completed, press any key to continue...', () => mainScreen());
     }
 }
-
-//xivapi.com/Recipe/33891 = Stuffed Highland Cabbage
-
-// Mount
-// Leve
-// Emote
-// InstanceContent
-// Fate
-// Orchestrion
