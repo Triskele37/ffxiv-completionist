@@ -3,7 +3,7 @@
     "groupName": "Esthéticien",
     "headers": {
         "name": "Coiffure / Peinture faciale",
-        "category": "Category",
+        "category": "Catégorie",
         "source": "Source",
         "gender": "Genre",
         "patch": "Patch"
@@ -12,7 +12,7 @@
         {
             "id": 0,
             "name": "Aventurier",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "14 PGS",
             "gender": "Unisexe (styles différents)",
             "patch": "3.1"
@@ -20,7 +20,7 @@
         {
             "id": 1,
             "name": "Coupe asymétrique",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "1.800 Assignats d'Azurée",
             "gender": "Unisexe",
             "patch": "5.21"
@@ -28,14 +28,14 @@
         {
             "id": 2,
             "name": "Boucles",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "9,600 PGS",
             "gender": "Unisexe",
             "patch": "3.1"
         },
         {
             "id": 3,
-            "name": "Early to Rise",
+            "name": "Lêve-tôt",
             "category": "Bozja",
             "source": "Delubrum Reginae",
             "gender": "Unisexe",
@@ -44,7 +44,7 @@
         {
             "id": 4,
             "name": "Lien éternel",
-            "category": "Quest",
+            "category": "Quête",
             "source": "Quête nv.1: \"Jusqu'à ce que le destin vous sépare\"",
             "gender": "Unisexe (styles différents)",
             "patch": "2.4"
@@ -52,7 +52,7 @@
         {
             "id": 5,
             "name": "Brushing souple",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "18.000 Marques de loup",
             "gender": "Unisexe",
             "patch": "4.3"
@@ -60,7 +60,7 @@
         {
             "id": 6,
             "name": "Tresse bandeau",
-            "category": "Eureka",
+            "category": "Eurêka",
             "source": "Eurêka Pyros",
             "gender": "Unisexe",
             "patch": "4.45"
@@ -68,7 +68,7 @@
         {
             "id": 7,
             "name": "Cheveux longs classiques",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "30,000 PGS",
             "gender": "Unisexe (styles différents)",
             "patch": "5.0"
@@ -76,7 +76,7 @@
         {
             "id": 8,
             "name": "Tresse gyrabanienne",
-            "category": "Deep Dungeon",
+            "category": "Donjon sans fond",
             "source": "Pilier des cieux",
             "gender": "Unisexe",
             "patch": "4.35"
@@ -84,7 +84,7 @@
         {
             "id": 9,
             "name": "Ramza & Alma",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "50,000 PGS",
             "gender": "Unisexe (styles différents)",
             "patch": "4.45"
@@ -92,7 +92,7 @@
         {
             "id": 10,
             "name": "Noctis",
-            "category": "Event",
+            "category": "Événement",
             "source": "Quête en collaboration avec Final Fantasy XV",
             "gender": "Unisexe",
             "patch": "4.5"
@@ -108,7 +108,7 @@
         {
             "id": 12,
             "name": "Mèches légendaires",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "1.800 Assignats d'Azurée",
             "gender": "Unisexe",
             "patch": "5.11"
@@ -116,7 +116,7 @@
         {
             "id": 13,
             "name": "Queue de cheval",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "8,000 PGS",
             "gender": "Unisexe",
             "patch": "2.51"
@@ -124,7 +124,7 @@
         {
             "id": 14,
             "name": "Lightning",
-            "category": "Event / Premium",
+            "category": "Événement / Premium",
             "source": "Collaboration avec Final Fantasy XIII / Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
             "gender": "Femme seulement",
             "patch": "3.2"
@@ -132,7 +132,7 @@
         {
             "id": 15,
             "name": "Snow",
-            "category": "Event / Premium",
+            "category": "Événement / Premium",
             "source": "Collaboration avec Final Fantasy XIII / Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
             "gender": "Homme seulement",
             "patch": "3.2"
@@ -140,15 +140,15 @@
         {
             "id": 16,
             "name": "Flambeur",
-            "category": "Event",
+            "category": "Événement",
             "source": "Le festival du Gold Saucer (2018)",
             "gender": "Unisexe",
             "patch": "3.55a"
         },
         {
             "id": 17,
-            "name": "Saintly Style",
-            "category": "Purchase",
+            "name": "Ailes de saint",
+            "category": "Achat",
             "source": "1,800 Assignats d'Azurée",
             "gender": "Unisexe",
             "patch": "5.31"
@@ -156,7 +156,7 @@
         {
             "id": 18,
             "name": "Cheveux longs",
-            "category": "Deep Dungeon",
+            "category": "Donjon sans fond",
             "source": "Palais des morts",
             "gender": "Unisexe",
             "patch": "3.4"
@@ -187,16 +187,16 @@
         },
         {
             "id": 22,
-            "name": "Sharlayan Studies",
-            "category": "",
-            "source": "",
+            "name": "Prodige sharlayanais",
+            "category": "Premium",
+            "source": "Compris dans la tenue \"Nouveau costume d'Alphinaud\" (Station mog)",
             "gender": "Unisexe",
             "patch": "5.4"
         },
         {
             "id": 23,
             "name": "Strife",
-            "category": "Limited",
+            "category": "Limité",
             "source": "Concours d'art & costume du Fan Festival 2018",
             "gender": "Unisexe",
             "patch": "4.4"
@@ -204,32 +204,32 @@
         {
             "id": 24,
             "name": "Mercenaire",
-            "category": "Purchase",
+            "category": "Achat",
             "source": "18.000 Marques de loup",
             "gender": "Unisexe",
             "patch": "4.4"
         },
         {
             "id": 25,
-            "name": "Wind Caller",
+            "name": "Vartan",
             "category": "Bozja",
-            "source": "150 Bozjan Clusters",
+            "source": "150 Cristaux bozjien",
             "gender": "Unisexe",
             "patch": "5.35"
         },
         {
             "id": 26,
             "name": "Chauve-souris",
-            "category": "Event / Premium",
-            "source": "Acheter Méthode de maquillage : Veillée des saints (Station mog)",
+            "category": "Événement / Premium",
+            "source": "Achat de la Méthode de maquillage : Veillée des saints (Station mog)",
             "gender": "Unisexe",
             "patch": "2.38"
         },
         {
             "id": 27,
             "name": "Toile d'araignée",
-            "category": "Event / Premium",
-            "source": "Acheter Méthode de maquillage : Veillée des saints (Station mog)",
+            "category": "Événement / Premium",
+            "source": "Achat de la Méthode de maquillage : Veillée des saints (Station mog)",
             "gender": "Unisexe",
             "patch": "2.38"
         }
