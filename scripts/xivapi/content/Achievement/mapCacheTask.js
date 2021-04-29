@@ -1,4 +1,4 @@
-const mapProperties = (apiObj) => {
+module.exports = function mapCacheTask(apiObj) {
     const hasItemReward = !!apiObj.Item;
     const hasTitleReward = !!apiObj.Title;
 
@@ -33,5 +33,3 @@ const mapProperties = (apiObj) => {
         return (title === femaleTitle) ? title : `${title} / ${femaleTitle}`;
     }
 };
-
-module.exports = mapProperties;

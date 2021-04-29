@@ -5,9 +5,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const cacheCLI = require('./cli/cachePrompt');
-const compareCLI = require('./cli/comparePrompt');
-const importNewCLI = require('./cli/importNewPrompt');
+const cacheCLI = require('./cli/cache');
+const compareCLI = require('./cli/compare');
+const mergeCLI = require('./cli/merge');
 
 // Process entry point
 mainScreen();
@@ -19,7 +19,7 @@ function mainScreen() {
     rl.write('Welcome\n');
     rl.write('\n1. Cache');
     rl.write('\n2. Compare');
-    rl.write('\n3. Import New');
+    rl.write('\n3. Merge');
     rl.write('\n4. Custom');
     rl.write('\n5. Exit\n');
 
@@ -27,7 +27,7 @@ function mainScreen() {
         switch(answer) {
             case '1': cacheCLI(rl, mainScreen); break;
             case '2': compareCLI(rl, mainScreen); break;
-            case '3': importNewCLI(rl, mainScreen); break;
+            case '3': mergeCLI(rl, mainScreen); break;
             case '4': {
                 done();
                 break;

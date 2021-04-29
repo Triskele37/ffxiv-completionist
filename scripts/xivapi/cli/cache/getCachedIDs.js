@@ -1,8 +1,8 @@
 const fs = require('fs');
-const getSafeName = require('./getSafeName');
+const getSafeName = require('../util/getSafeName');
 
 module.exports = function getCachedIDs(contentType) {
-    return dive(`./xivapi/cache/${getSafeName(contentType)}`);
+    return dive(`./scripts/xivapi/cache/${getSafeName(contentType)}`);
 };
 
 function dive(path) {

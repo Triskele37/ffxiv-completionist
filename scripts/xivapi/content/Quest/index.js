@@ -1,11 +1,11 @@
-const buildAPI = require('../util/buildAPI');
+const buildAPI = require('../../cli/util/buildAPI');
 
-const config = require('./config');
+const config = require('./config.json');
 const mapProperties = require('./propertyMap');
 
 module.exports = {
-    QuestConfig: config,
-    QuestPath: function(Quest) {
+    config,
+    path: function(Quest) {
         const subCategory = Quest.JournalGenre;
         const category = subCategory.JournalCategory;
         const section = category.JournalSection;
@@ -18,5 +18,5 @@ module.exports = {
             isLocationSidequests ? Quest.PlaceName.Name : subCategory.Name
         ];
     },
-    QuestBuild: () => buildAPI(config, mapProperties)
+    build: () => buildAPI(config, mapProperties)
 };

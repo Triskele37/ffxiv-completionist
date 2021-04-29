@@ -1,6 +1,6 @@
 const fs = require('fs');
 const logUpdate = require('log-update');
-const getSafeName = require('./getSafeName');
+const getSafeName = require('../util/getSafeName');
 
 const BASE_STATIC_DIR = './static';
 

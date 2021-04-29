@@ -1,15 +1,15 @@
-const buildAPI = require('../util/buildAPI');
+const buildAPI = require('../../cli/util/buildAPI');
 
-const config = require('./config');
+const config = require('./config.json');
 // const mapProperties = require('./propertyMap');
 
 module.exports = {
-    RecipeConfig: config,
-    RecipePath: function(Recipe) {
+    config,
+    path: function(Recipe) {
         return [
             Recipe.ClassJob.Abbreviation,
             Recipe.RecipeLevelTable.ClassJobLevel
         ];
     },
-    // RecipeBuild: () => buildAPI(config, mapProperties)
+    // build: () => buildAPI(config, mapProperties)
 };
