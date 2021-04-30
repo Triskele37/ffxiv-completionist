@@ -1,656 +1,656 @@
 {
     "key": "beast-tribe-reputation",
-    "groupName": "Beast Tribe Reputation",
+    "groupName": "Réputation des tribus barbares",
     "headers": {
-        "name": "Rank",
-        "expansion": "Expansion",
-        "reputationToCap": "Reputation To Cap",
+        "name": "Rang",
+        "expansion": "Extension",
+        "reputationToCap": "Réputation nécessaire",
         "notes": "Notes"
     },
     "tasks": [
         {
             "id": 0,
-            "name": "Amalj'aa - Neutral",
+            "name": "Amalj'aa - Neutre",
             "expansion": "A Realm Reborn",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 1,
-            "name": "Amalj'aa - Recognized",
+            "name": "Amalj'aa - Reconnu",
             "expansion": "A Realm Reborn",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 2,
-            "name": "Amalj'aa - Friendly",
+            "name": "Amalj'aa - Ami",
             "expansion": "A Realm Reborn",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 3,
-            "name": "Amalj'aa - Trusted",
+            "name": "Amalj'aa - Fiable",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 4,
-            "name": "Amalj'aa - Allied",
+            "name": "Amalj'aa - Allié",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Complete Allied Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées"
         },
         {
             "id": 5,
-            "name": "Sylph - Neutral",
+            "name": "Sylphes - Neutre",
             "expansion": "A Realm Reborn",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 6,
-            "name": "Sylph - Recognized",
+            "name": "Sylphes - Reconnu",
             "expansion": "A Realm Reborn",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 7,
-            "name": "Sylph - Friendly",
+            "name": "Sylphes - Ami",
             "expansion": "A Realm Reborn",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 8,
-            "name": "Sylph - Trusted",
+            "name": "Sylphes - Fiable",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 9,
-            "name": "Sylph - Allied",
+            "name": "Sylphes - Allié",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Complete Allied Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées"
         },
         {
             "id": 10,
-            "name": "Kobold - Neutral",
+            "name": "Kobolds - Neutre",
             "expansion": "A Realm Reborn",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 11,
-            "name": "Kobold - Recognized",
+            "name": "Kobolds - Reconnu",
             "expansion": "A Realm Reborn",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 12,
-            "name": "Kobold - Friendly",
+            "name": "Kobolds - Ami",
             "expansion": "A Realm Reborn",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 13,
-            "name": "Kobold - Trusted",
+            "name": "Kobolds - Fiable",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 14,
-            "name": "Kobold - Allied",
+            "name": "Kobolds - Allié",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Complete Allied Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées"
         },
         {
             "id": 15,
-            "name": "Sahagin - Neutral",
+            "name": "Sahuagins - Neutre",
             "expansion": "A Realm Reborn",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 16,
-            "name": "Sahagin - Recognized",
+            "name": "Sahuagins - Reconnu",
             "expansion": "A Realm Reborn",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 17,
-            "name": "Sahagin - Friendly",
+            "name": "Sahuagins - Ami",
             "expansion": "A Realm Reborn",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 18,
-            "name": "Sahagin - Trusted",
+            "name": "Sahuagins - Fiable",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 19,
-            "name": "Sahagin - Allied",
+            "name": "Sahuagins - Allié",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Complete Allied Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées"
         },
         {
             "id": 20,
-            "name": "Ixal - Neutral",
+            "name": "Ixali - Neutre",
             "expansion": "A Realm Reborn",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 21,
-            "name": "Ixal - Recognized",
+            "name": "Ixali - Reconnu",
             "expansion": "A Realm Reborn",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 22,
-            "name": "Ixal - Friendly",
+            "name": "Ixali - Ami",
             "expansion": "A Realm Reborn",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 23,
-            "name": "Ixal - Trusted",
+            "name": "Ixali - Fiable",
             "expansion": "A Realm Reborn",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 24,
-            "name": "Ixal - Respected",
+            "name": "Ixali - Respecté",
             "expansion": "A Realm Reborn",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 25,
-            "name": "Ixal - Honored",
+            "name": "Ixali - Émérite",
             "expansion": "A Realm Reborn",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 26,
-            "name": "Ixal - Sworn",
+            "name": "Ixali - Assermenté",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 27,
-            "name": "Ixal - Allied",
+            "name": "Ixali - Allié",
             "expansion": "A Realm Reborn",
             "reputationToCap": "-",
-            "notes": "Complete Allied Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées"
         },
         {
             "id": 28,
-            "name": "Vanu Vanu - Neutral",
+            "name": "Vanu Vanu - Neutre",
             "expansion": "Heavensward",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 29,
-            "name": "Vanu Vanu - Recognized",
+            "name": "Vanu Vanu - Reconnu",
             "expansion": "Heavensward",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 30,
-            "name": "Vanu Vanu - Friendly",
+            "name": "Vanu Vanu - Ami",
             "expansion": "Heavensward",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 31,
-            "name": "Vanu Vanu - Trusted",
+            "name": "Vanu Vanu - Fiable",
             "expansion": "Heavensward",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 32,
-            "name": "Vanu Vanu - Respected",
+            "name": "Vanu Vanu - Respecté",
             "expansion": "Heavensward",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 33,
-            "name": "Vanu Vanu - Honored",
+            "name": "Vanu Vanu - Émérite",
             "expansion": "Heavensward",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 34,
-            "name": "Vanu Vanu - Sworn",
+            "name": "Vanu Vanu - Assermenté",
             "expansion": "Heavensward",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 35,
-            "name": "Vanu Vanu - Bloodsworn",
+            "name": "Vanu Vanu - Assermenté★",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 36,
-            "name": "Vanu Vanu - Allied",
+            "name": "Vanu Vanu - Allié",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Complete Heavensward Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Heavensward)"
         },
         {
             "id": 37,
-            "name": "Vath - Friendly",
+            "name": "Gnathes - Ami",
             "expansion": "Heavensward",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 38,
-            "name": "Vath - Trusted",
+            "name": "Gnathes - Fiable",
             "expansion": "Heavensward",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 39,
-            "name": "Vath - Respected",
+            "name": "Gnathes - Respecté",
             "expansion": "Heavensward",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 40,
-            "name": "Vath - Honored",
+            "name": "Gnathes - Émérite",
             "expansion": "Heavensward",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 41,
-            "name": "Vath - Sworn",
+            "name": "Gnathes - Assermenté",
             "expansion": "Heavensward",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 42,
-            "name": "Vath - Bloodsworn",
+            "name": "Gnathes - Assermenté★",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 43,
-            "name": "Vath - Allied",
+            "name": "Gnathes - Allié",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Complete Heavensward Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Heavensward)"
         },
         {
             "id": 44,
-            "name": "Moogle - Neutral",
+            "name": "Mogs célestes - Neutre",
             "expansion": "Heavensward",
             "reputationToCap": "150",
             "notes": ""
         },
         {
             "id": 45,
-            "name": "Moogle - Recognized",
+            "name": "Mogs célestes - Reconnu",
             "expansion": "Heavensward",
             "reputationToCap": "360",
             "notes": ""
         },
         {
             "id": 46,
-            "name": "Moogle - Friendly",
+            "name": "Mogs célestes - Ami",
             "expansion": "Heavensward",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 47,
-            "name": "Moogle - Trusted",
+            "name": "Mogs célestes - Fiable",
             "expansion": "Heavensward",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 48,
-            "name": "Moogle - Respected",
+            "name": "Mogs célestes - Respecté",
             "expansion": "Heavensward",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 49,
-            "name": "Moogle - Honored",
+            "name": "Mogs célestes - Émérite",
             "expansion": "Heavensward",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 50,
-            "name": "Moogle - Sworn",
+            "name": "Mogs célestes - Assermenté",
             "expansion": "Heavensward",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 51,
-            "name": "Moogle - Bloodsworn",
+            "name": "Mogs célestes - Assermenté★",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 52,
-            "name": "Moogle - Allied",
+            "name": "Mogs célestes - Allié",
             "expansion": "Heavensward",
             "reputationToCap": "-",
-            "notes": "Complete Heavensward Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Heavensward)"
         },
         {
             "id": 53,
-            "name": "Kojin - Friendly",
+            "name": "Kojin verts - Ami",
             "expansion": "Stormblood",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 54,
-            "name": "Kojin - Trusted",
+            "name": "Kojin verts - Fiable",
             "expansion": "Stormblood",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 55,
-            "name": "Kojin - Respected",
+            "name": "Kojin verts - Respecté",
             "expansion": "Stormblood",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 56,
-            "name": "Kojin - Honored",
+            "name": "Kojin verts - Émérite",
             "expansion": "Stormblood",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 57,
-            "name": "Kojin - Sworn",
+            "name": "Kojin verts - Assermenté",
             "expansion": "Stormblood",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 58,
-            "name": "Kojin - Bloodsworn",
+            "name": "Kojin verts - Assermenté★",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 59,
-            "name": "Kojin - Allied",
+            "name": "Kojin verts - Allié",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Complete Stormblood Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Stormblood)"
         },
         {
             "id": 60,
-            "name": "Ananta - Friendly",
+            "name": "Anantas - Ami",
             "expansion": "Stormblood",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 61,
-            "name": "Ananta - Trusted",
+            "name": "Anantas - Fiable",
             "expansion": "Stormblood",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 62,
-            "name": "Ananta - Respected",
+            "name": "Anantas - Respecté",
             "expansion": "Stormblood",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 63,
-            "name": "Ananta - Honored",
+            "name": "Anantas - Émérite",
             "expansion": "Stormblood",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 64,
-            "name": "Ananta - Sworn",
+            "name": "Anantas - Assermenté",
             "expansion": "Stormblood",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 65,
-            "name": "Ananta - Bloodsworn",
+            "name": "Anantas - Assermenté★",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 66,
-            "name": "Ananta - Allied",
+            "name": "Anantas - Allié",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Complete Stormblood Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Stormblood)"
         },
         {
             "id": 67,
-            "name": "Namazu - Friendly",
+            "name": "Namazu - Ami",
             "expansion": "Stormblood",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 68,
-            "name": "Namazu - Trusted",
+            "name": "Namazu - Fiable",
             "expansion": "Stormblood",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 69,
-            "name": "Namazu - Respected",
+            "name": "Namazu - Respecté",
             "expansion": "Stormblood",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 70,
-            "name": "Namazu - Honored",
+            "name": "Namazu - Émérite",
             "expansion": "Stormblood",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 71,
-            "name": "Namazu - Sworn",
+            "name": "Namazu - Assermenté",
             "expansion": "Stormblood",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 72,
-            "name": "Namazu - Bloodsworn",
+            "name": "Namazu - Assermenté★",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 73,
-            "name": "Namazu - Allied",
+            "name": "Namazu - Allié",
             "expansion": "Stormblood",
             "reputationToCap": "-",
-            "notes": "Complete Stormblood Beast Tribe Side Story Quests to Unlock"
+            "notes": "Accomplir la série de quête annexes des tribus alliées (Stormblood)"
         },
         {
             "id": 74,
-            "name": "Dwarf - Friendly",
+            "name": "Nains - Ami",
             "expansion": "Shadowbringers",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 75,
-            "name": "Dwarf - Trusted",
+            "name": "Nains - Fiable",
             "expansion": "Shadowbringers",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 76,
-            "name": "Dwarf - Respected",
+            "name": "Nains - Respecté",
             "expansion": "Shadowbringers",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 77,
-            "name": "Dwarf - Honored",
+            "name": "Nains - Émérite",
             "expansion": "Shadowbringers",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 78,
-            "name": "Dwarf - Sworn",
+            "name": "Nains - Assermenté",
             "expansion": "Shadowbringers",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 79,
-            "name": "Dwarf - Bloodsworn",
+            "name": "Nains - Assermenté★",
             "expansion": "Shadowbringers",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 80,
-            "name": "Qitari - Friendly",
+            "name": "Qitari - Ami",
             "expansion": "Shadowbringers",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 81,
-            "name": "Qitari - Trusted",
+            "name": "Qitari - Fiable",
             "expansion": "Shadowbringers",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 82,
-            "name": "Qitari - Respected",
+            "name": "Qitari - Respecté",
             "expansion": "Shadowbringers",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 83,
-            "name": "Qitari - Honored",
+            "name": "Qitari - Émérite",
             "expansion": "Shadowbringers",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 84,
-            "name": "Qitari - Sworn",
+            "name": "Qitari - Assermenté",
             "expansion": "Shadowbringers",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 85,
-            "name": "Qitari - Bloodsworn",
+            "name": "Qitari - Assermenté★",
             "expansion": "Shadowbringers",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         },
         {
             "id": 86,
-            "name": "Pixie - Friendly",
+            "name": "Pixies - Ami",
             "expansion": "Shadowbringers",
             "reputationToCap": "510",
             "notes": ""
         },
         {
             "id": 87,
-            "name": "Pixie - Trusted",
+            "name": "Pixies - Fiable",
             "expansion": "Shadowbringers",
             "reputationToCap": "720",
             "notes": ""
         },
         {
             "id": 88,
-            "name": "Pixie - Respected",
+            "name": "Pixies - Respecté",
             "expansion": "Shadowbringers",
             "reputationToCap": "990",
             "notes": ""
         },
         {
             "id": 89,
-            "name": "Pixie - Honored",
+            "name": "Pixies - Émérite",
             "expansion": "Shadowbringers",
             "reputationToCap": "1320",
             "notes": ""
         },
         {
             "id": 90,
-            "name": "Pixie - Sworn",
+            "name": "Pixies - Assermenté",
             "expansion": "Shadowbringers",
             "reputationToCap": "1730",
             "notes": ""
         },
         {
             "id": 91,
-            "name": "Pixie - Bloodsworn",
+            "name": "Pixies - Assermenté★",
             "expansion": "Shadowbringers",
             "reputationToCap": "-",
-            "notes": "Max Rank from Missions"
+            "notes": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes"
         }
     ]
 }

@@ -1,243 +1,243 @@
 {
     "key": "grand-company-rank",
-    "groupName": "Grand Company Rank",
+    "groupName": "Rangs de Grande Compagnie",
     "headers": {
-        "name": "Rank",
-        "grandCompany": "Grand Company",
-        "requirement": "Requirement",
-        "entitlements": "Entitlements"
+        "name": "Rang",
+        "grandCompany": "Grande Compagnie",
+        "requirement": "Condition",
+        "entitlements": "Droits"
     },
     "tasks": [
         {
             "id": 0,
-            "name": "Storm Private Third Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "name": "Soldat 3e classe",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
+            "entitlements": "10.000 Sceaux de compagnie limséen maximum; Ravitaillement"
         },
         {
             "id": 1,
-            "name": "Storm Private Second Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "2,000 Storm Seals",
-            "entitlements": "15,000 Seal Cap"
+            "name": "Soldat 2e classe",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "2.000 Sceaux de compagnie limséen",
+            "entitlements": "15.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 2,
-            "name": "Storm Private First Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "3,000 Storm Seals",
-            "entitlements": "20,000 Seal Cap"
+            "name": "Soldat 1re classe",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "3.000 Sceaux de compagnie limséen",
+            "entitlements": "20.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 3,
-            "name": "Storm Corporal",
-            "grandCompany": "Maelstrom",
-            "requirement": "4,000 Storm Seals",
-            "entitlements": "25,000 Seal Cap"
+            "name": "Caporal(e)",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "4.000 Sceaux de compagnie limséen",
+            "entitlements": "25.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 4,
-            "name": "Storm Sergeant Third Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of Hunting Log: Maelstrom Rank 1 & 5,000 Storm Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "name": "Adjudant(e)",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement du Bestiaire: Maelstrom Rang 1 & 5.000 Sceaux de compagnie limséen",
+            "entitlements": "30.000 Sceaux de compagnie limséen maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
         },
         {
             "id": 5,
-            "name": "Storm Sergeant Second Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "6,000 Storm Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "name": "Sergent(e)",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "6.000 Sceaux de compagnie limséen",
+            "entitlements": "35.000 Sceaux de compagnie limséen maximum ; Prises de guerre"
         },
         {
             "id": 6,
-            "name": "Storm Sergeant First Class",
-            "grandCompany": "Maelstrom",
-            "requirement": "7,000 Storm Seals",
-            "entitlements": "40,000 Seal Cap"
+            "name": "Sergent-major",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "7.000 Sceaux de compagnie limséen",
+            "entitlements": "40.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 7,
-            "name": "Chief Storm Sergeant",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of Shadows Uncast (Maelstrom) Quest & 8,000 Storm Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "name": "Major",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Maelstrom)\" & 8.000 Sceaux de compagnie limséen",
+            "entitlements": "45.000 Sceaux de compagnie limséen maximum; Mandats de Grande Compagnie au Mor Dhona"
         },
         {
             "id": 8,
-            "name": "Second Storm Lieutenant",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of Hunting Log: Maelstrom Rank 2, Gilding the Bilious (Maelstrom) & 9,000 Storm Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "name": "Sous-lieutenant(e)",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement du Bestiaire: Maelstrom Rang 2, \"Opération Val d'Aurum (Maelstrom)\" & 9.000 Sceaux de compagnie limséen",
+            "entitlements": "50.000 Sceaux de compagnie limséen maximum; Escouade de Grande Compagnie"
         },
         {
             "id": 9,
-            "name": "First Storm Lieutenant",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
-            "entitlements": "80,000 Seal Cap"
+            "name": "Lieutenant(e)",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
+            "entitlements": "80.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 10,
-            "name": "Storm Captain",
-            "grandCompany": "Maelstrom",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
-            "entitlements": "90,000 Seal Cap"
+            "name": "Capitaine",
+            "grandCompany": "Le Maelstrom",
+            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "entitlements": "90.000 Sceaux de compagnie limséen maximum"
         },
         {
             "id": 11,
-            "name": "Serpent Private Third Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "name": "Soldat 3e classe",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
+            "entitlements": "10.000 Sceaux de compagnie gridanien maximum; Ravitaillement"
         },
         {
             "id": 12,
-            "name": "Serpent Private Second Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "2,000 Serpent Seals",
-            "entitlements": "15,000 Seal Cap"
+            "name": "Soldat 2e classe",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "2.000 Sceaux de compagnie gridanien",
+            "entitlements": "15.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 13,
-            "name": "Serpent Private First Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "3,000 Serpent Seals",
-            "entitlements": "20,000 Seal Cap"
+            "name": "Soldat 1re classe",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "3.000 Sceaux de compagnie gridanien",
+            "entitlements": "20.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 14,
-            "name": "Serpent Corporal",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "4,000 Serpent Seals",
-            "entitlements": "25,000 Seal Cap"
+            "name": "Caporal(e)",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "4.000 Sceaux de compagnie gridanien",
+            "entitlements": "25.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 15,
-            "name": "Serpent Sergeant Third Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Hunting Log: Order of the Twin Adder Rank 1 & 5,000 Serpent Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "name": "Adjudant(e)",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement du Bestiaire: L'Odre des Deux Vipères Rang 1 & 5.000 Sceaux de compagnie gridanien",
+            "entitlements": "30.000 Sceaux de compagnie gridanien maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
         },
         {
             "id": 16,
-            "name": "Serpent Sergeant Second Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "6,000 Serpent Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "name": "Sergent(e)",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "6.000 Sceaux de compagnie gridanien",
+            "entitlements": "35.000 Sceaux de compagnie gridanien maximum; Prises de guerre"
         },
         {
             "id": 17,
-            "name": "Serpent Sergeant First Class",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "7,000 Serpent Seals",
-            "entitlements": "40,000 Seal Cap"
+            "name": "Sergent-major",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "7.000 Sceaux de compagnie gridanien",
+            "entitlements": "40.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 18,
-            "name": "Chief Serpent Sergeant",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Shadows Uncast (Twin Adder) Quest & 8,000 Serpent Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "name": "Major",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Deux Vipères)\" & 8.000 Sceaux de compagnie gridanien",
+            "entitlements": "45.000 Sceaux de compagnie gridanien maximum; Mandats de Grande Compagnie au Mor Dhona"
         },
         {
             "id": 19,
-            "name": "Second Serpent Lieutenant",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Hunting Log: Order of the Twin Adder Rank 2, Gilding the Bilious (Twin Adder) & 9,000 Serpent Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "name": "Sous-lieutenant(e)",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement du Bestiaire: L'Ordre des Deux Vipères Rang 2, \"Opération Val d'Aurum (Deux Vipères)\" & 9.000 Sceaux de compagnie gridanien",
+            "entitlements": "50.000 Sceaux de compagnie gridanien maximum; Escouade de Grande Compagnie"
         },
         {
             "id": 20,
-            "name": "First Serpent Lieutenant",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
-            "entitlements": "80,000 Seal Cap"
+            "name": "Lieutenant(e)",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
+            "entitlements": "80.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 21,
-            "name": "Serpent Captain",
-            "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
-            "entitlements": "90,000 Seal Cap"
+            "name": "Capitaine",
+            "grandCompany": "L'ordre des Deux Vipères",
+            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "entitlements": "90.000 Sceaux de compagnie gridanien maximum"
         },
         {
             "id": 22,
-            "name": "Flame Private Third Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "name": "Soldat 3e classe",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
+            "entitlements": "10.000 Sceaux de compagnie uldien maximum; Ravitaillement"
         },
         {
             "id": 23,
-            "name": "Flame Private Second Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "2,000 Flame Seals",
-            "entitlements": "15,000 Seal Cap"
+            "name": "Soldat 2e classe",
+            "grandCompany": "Les Immortels",
+            "requirement": "2.000 Sceaux de compagnie uldien",
+            "entitlements": "15.000 Sceaux de compagnie uldien maximum"
         },
         {
             "id": 24,
-            "name": "Flame Private First Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "3,000 Flame Seals",
-            "entitlements": "20,000 Seal Cap"
+            "name": "Soldat 1re classe",
+            "grandCompany": "Les Immortels",
+            "requirement": "3.000 Sceaux de compagnie uldien",
+            "entitlements": "20.000 Sceaux de compagnie uldien maximum"
         },
         {
             "id": 25,
-            "name": "Flame Corporal",
-            "grandCompany": "Immortal Flames",
-            "requirement": "4,000 Flame Seals",
-            "entitlements": "25,000 Seal Cap"
+            "name": "Caporal(e)",
+            "grandCompany": "Les Immortels",
+            "requirement": "4.000 Sceaux de compagnie uldien",
+            "entitlements": "25.000 Sceaux de compagnie uldien maximum"
         },
         {
             "id": 26,
-            "name": "Flame Sergeant Third Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Hunting Log: Immortal Flames Rank 1 & 5,000 Flame Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "name": "Adjudant(e)",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissement du Bestiaire: Les Immortels Rang 1 & 5.000 Sceaux de compagnie uldien",
+            "entitlements": "30.000 Sceaux de compagnie uldien maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
         },
         {
             "id": 27,
-            "name": "Flame Sergeant Second Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "6,000 Flame Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "name": "Sergent(e)",
+            "grandCompany": "Les Immortels",
+            "requirement": "6.000 Sceaux de compagnie uldien",
+            "entitlements": "35.000 Sceaux de compagnie uldien maximum; Prise de guerre"
         },
         {
             "id": 28,
-            "name": "Flame Sergeant First Class",
-            "grandCompany": "Immortal Flames",
-            "requirement": "7,000 Flame Seals",
-            "entitlements": "40,000 Seal Cap"
+            "name": "Sergent-major",
+            "grandCompany": "Les Immortels",
+            "requirement": "7.000 Sceaux de compagnie uldien",
+            "entitlements": "40.000 Sceaux de compagnie uldien maximum"
         },
         {
             "id": 29,
-            "name": "Chief Flame Sergeant",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Shadows Uncast (Immortal Flames) Quest & 8,000 Flame Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "name": "Major",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Deux Vipères)\" & 8,000 Sceaux de compagnie uldien",
+            "entitlements": "45,000 Sceaux de compagnie uldien maximum; Mandats de Grande Compagnie au Mor Dhona"
         },
         {
             "id": 30,
-            "name": "Second Flame Lieutenant",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Hunting Log: Immortal Flames Rank 2, Gilding the Bilious (Immortal Flames) & 9,000 Serpent Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "name": "Sous-lieutenant(e)",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissment du Bestiaire: Les Immortels Rang 2, \"Opération Val d'Aurum (Deux Vipères)\" & 9.000 Sceaux de compagnie uldien",
+            "entitlements": "50.000 Sceaux de compagnie uldien maximum; Escouade de Grande Compagnie"
         },
         {
             "id": 31,
-            "name": "First Flame Lieutenant",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
-            "entitlements": "80,000 Seal Cap"
+            "name": "Lieutenant(e)",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
+            "entitlements": "80.000 Sceaux de compagnie uldien maximum"
         },
         {
             "id": 32,
-            "name": "Flame Captain",
-            "grandCompany": "Immortal Flames",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
-            "entitlements": "90,000 Seal Cap"
+            "name": "Capitaine",
+            "grandCompany": "Les Immortels",
+            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "entitlements": "90.000 Sceaux de compagnie uldien maximum"
         }
     ]
 }
