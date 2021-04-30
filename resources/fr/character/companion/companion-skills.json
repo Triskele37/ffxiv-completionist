@@ -1,253 +1,253 @@
 {
     "key": "companion-skills",
-    "groupName": "Companion Skills",
+    "groupName": "Compétences du Compagnon",
     "headers": {
-        "name": "Skill",
-        "tree": "Tree",
-        "spCost": "SP Cost",
+        "name": "Compétence",
+        "tree": "Arbre",
+        "spCost": "Coût en PA",
         "type": "Type",
         "description": "Description"
     },
     "tasks": [
         {
             "id": 0,
-            "name": "Choco Drop",
-            "tree": "Defender",
+            "name": "Choco-saut",
+            "tree": "Défense",
             "spCost": "1",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 150.  Additional Effect: Increased Enmity"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque physique sur la cible (Puissance : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
         {
             "id": 1,
-            "name": "Enhanced Strength (1)",
-            "tree": "Defender",
+            "name": "Force améliorée",
+            "tree": "Défense",
             "spCost": "2",
             "type": "Trait",
-            "description": "Increases companion strength by 5%"
+            "description": "La force du compagnon est augmentée de 5%"
         },
         {
             "id": 2,
-            "name": "Increased HP (1)",
-            "tree": "Defender",
+            "name": "PV améliorés",
+            "tree": "Défense",
             "spCost": "3",
             "type": "Trait",
-            "description": "Increases companion HP by 10%"
+            "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
         {
             "id": 3,
-            "name": "Choco Kick",
-            "tree": "Defender",
+            "name": "Choco-serres",
+            "tree": "Défense",
             "spCost": "4",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 130.  Additional Effect: Slow +20% for 12s"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : inflige Lenteur 20% (Durée : 12s)"
         },
         {
             "id": 4,
-            "name": "Enhanced Accuracy (1)",
-            "tree": "Defender",
+            "name": "Précision améliorée",
+            "tree": "Défense",
             "spCost": "5",
             "type": "Trait",
-            "description": "Increases companion accuracy by 5%"
+            "description": "La précision du compagnon est augmentée de 5%"
         },
         {
             "id": 5,
-            "name": "Enhanced Critical Hit Rate (1)",
-            "tree": "Defender",
+            "name": "Critique amélioré",
+            "tree": "Défense",
             "spCost": "6",
             "type": "Trait",
-            "description": "Increases companion Critical Hit Rate by 15%"
+            "description": "Le critique du compagnon est augmenté de 15%"
         },
         {
             "id": 6,
-            "name": "Choco Guard",
-            "tree": "Defender",
+            "name": "Choco-garde",
+            "tree": "Défense",
             "spCost": "7",
-            "type": "Weaponskill",
-            "description": "Reduces damage taken by chocobo by 15% for 15s"
+            "type": "Technique d'arme",
+            "description": "Réduit de 15% les dégâts subis par le compagnon (Durée : 15s)"
         },
         {
             "id": 7,
-            "name": "Enhanced Strength (2)",
-            "tree": "Defender",
+            "name": "Force améliorée",
+            "tree": "Défense",
             "spCost": "8",
             "type": "Trait",
-            "description": "Increases companion strength by 5%"
+            "description": "La force du compagnon est augmentée de 5%"
         },
         {
             "id": 8,
-            "name": "Increased HP (2)",
-            "tree": "Defender",
+            "name": "PV améliorés",
+            "tree": "Défense",
             "spCost": "9",
             "type": "Trait",
-            "description": "Increases companion HP by 10%"
+            "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
         {
             "id": 9,
-            "name": "Choco Strike",
-            "tree": "Defender",
+            "name": "Choco-frappe",
+            "tree": "Défense",
             "spCost": "10",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 150 to all enemies in a cone.  Additional Effect: Increased Enmity"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissant : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
         {
             "id": 10,
-            "name": "Choco Slash",
-            "tree": "Attacker",
+            "name": "Choco-taillade",
+            "tree": "Attaque",
             "spCost": "1",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 150"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque physique sur la cible (Puissance : 150)"
         },
         {
             "id": 11,
-            "name": "Enhanced Strength (3)",
-            "tree": "Attacker",
+            "name": "Force améliorée",
+            "tree": "Attaque",
             "spCost": "2",
             "type": "Trait",
-            "description": "Increases companion strength by 5%"
+            "description": "La force du compagnon est augmentée de 5%"
         },
         {
             "id": 12,
-            "name": "Increased HP (3)",
-            "tree": "Attacker",
+            "name": "PV améliorés",
+            "tree": "Attaque",
             "spCost": "3",
             "type": "Trait",
-            "description": "Increases companion HP by 10%"
+            "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         {
             "id": 13,
-            "name": "Choco Beak",
-            "tree": "Attacker",
+            "name": "Choco-bec",
+            "tree": "Attaque",
             "spCost": "4",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 130.  Additional Effect: Damage over time with potency of 20 for 18s"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : dégats périodiques (Puissance : 20 / Durée : 18s)"
         },
         {
             "id": 14,
-            "name": "Enhanced Accuracy (2)",
-            "tree": "Attacker",
+            "name": "Précision améliorée",
+            "tree": "Attaque",
             "spCost": "5",
             "type": "Trait",
-            "description": "Increases companion accuracy by 5%"
+            "description": "La précision du compagnon est augmentée de 5%"
         },
         {
             "id": 15,
-            "name": "Enhanced Critical Hit Rate (2)",
-            "tree": "Attacker",
+            "name": "Critique amélioré",
+            "tree": "Attaque",
             "spCost": "6",
             "type": "Trait",
-            "description": "Increases companion Critical Hit Rate by 15%"
+            "description": "Le critique du compagnon est augmenté de 15%"
         },
         {
             "id": 16,
-            "name": "Choco Rush",
-            "tree": "Attacker",
+            "name": "Choco-ruée",
+            "tree": "Attaque",
             "spCost": "7",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 130.  Additional Effect: Stun for 5s"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : Étourdissement (Durée: 5s)"
         },
         {
             "id": 17,
-            "name": "Enhanced Strength (4)",
-            "tree": "Attacker",
+            "name": "Force améliorée",
+            "tree": "Attaque",
             "spCost": "8",
             "type": "Trait",
-            "description": "Increases companion strength by 10%"
+            "description": "La force du compagnon est augmentée de 10%"
         },
         {
             "id": 18,
-            "name": "Increased Attack Speed",
-            "tree": "Attacker",
+            "name": "Vitesse améliorée",
+            "tree": "Attaque",
             "spCost": "9",
             "type": "Trait",
-            "description": "Increases companion Attack Speed by 10%"
+            "description": "La vitesse d'attaque du compagnon est augmentée de 10%"
         },
         {
             "id": 19,
-            "name": "Choco Blast",
-            "tree": "Attacker",
+            "name": "Choco-explosion",
+            "tree": "Attaque",
             "spCost": "10",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to deliver an attack with a potency of 170 to all enemies in a cone"
+            "type": "Technique d'arme",
+            "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissance : 170)"
         },
         {
             "id": 20,
-            "name": "Choco Regen",
-            "tree": "Healer",
+            "name": "Choco-récup",
+            "tree": "Soin",
             "spCost": "1",
-            "type": "Weaponskill",
-            "description": "Orders chocobo to grant healing over time to a target.  Cure Potency: 25  Duration: 18s"
+            "type": "Technique d'arme",
+            "description": "Restaure périodiquement les PV de la cible (Puissance : 25 / Durée : 18s)"
         },
         {
             "id": 21,
-            "name": "Enhanced Mind (1)",
-            "tree": "Healer",
+            "name": "Esprit amélioré",
+            "tree": "Soin",
             "spCost": "2",
             "type": "Trait",
-            "description": "Increases companion mind by 10%"
+            "description": "L'esprit du compagnon est augmenté de 10%"
         },
         {
             "id": 22,
-            "name": "Increased HP (4)",
-            "tree": "Healer",
+            "name": "PV améliorés",
+            "tree": "Soin",
             "spCost": "3",
             "type": "Trait",
-            "description": "Increases companion HP by 5%"
+            "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         {
             "id": 23,
-            "name": "Choco Cure",
-            "tree": "Healer",
+            "name": "Choco-soin",
+            "tree": "Soin",
             "spCost": "4",
-            "type": "Weaponskill",
-            "description": "Orders a chocobo to restore target's HP. Cure Potency: 300"
+            "type": "Technique d'arme",
+            "description": "Restaure les PV de la cible (Puissance : 300)"
         },
         {
             "id": 24,
-            "name": "Enhanced Accuracy (3)",
-            "tree": "Healer",
+            "name": "Précision améliorée",
+            "tree": "Soin",
             "spCost": "5",
             "type": "Trait",
-            "description": "Increases companion accuracy by 5%"
+            "description": "La précision du compagnon est augmentée de 5%"
         },
         {
             "id": 25,
-            "name": "Enhanced Critical Hit Rate (3)",
-            "tree": "Healer",
+            "name": "Critique amélioré",
+            "tree": "Soin",
             "spCost": "6",
             "type": "Trait",
-            "description": "Increases companion Critical Hit Rate by 15%"
+            "description": "Le critique du compagnon est augmenté de 15%"
         },
         {
             "id": 26,
-            "name": "Choco Surge",
-            "tree": "Healer",
+            "name": "Choco-ardeur",
+            "tree": "Soin",
             "spCost": "7",
-            "type": "Weaponskill",
-            "description": "Increases chocobo's healing magic potency by 30% for 30s"
+            "type": "Technique d'arme",
+            "description": "Augmente de 30% les PV restaurés par les sorts curatifs du compagnon (Durée : 30s)"
         },
         {
             "id": 27,
-            "name": "Enhanced Mind (2)",
-            "tree": "Healer",
+            "name": "Esprit amélioré",
+            "tree": "Soin",
             "spCost": "8",
             "type": "Trait",
-            "description": "Increases companion mind by 15%"
+            "description": "L'esprit du compagnon est augmenté de 15%"
         },
         {
             "id": 28,
-            "name": "Increased HP (5)",
-            "tree": "Healer",
+            "name": "PV améliorés",
+            "tree": "Soin",
             "spCost": "9",
             "type": "Trait",
-            "description": "Increases companion HP by 5%"
+            "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         {
             "id": 29,
-            "name": "Choco Medica",
-            "tree": "Healer",
+            "name": "Choco-médica",
+            "tree": "Soin",
             "spCost": "10",
-            "type": "Weaponskill",
-            "description": "Orders a chocobo to restore its own HP and the HP of all nearby party members.  Cure Potency: 150"
+            "type": "Technique d'arme",
+            "description": "Restaure les PV du compagnon et des équipiers autour (Puissance : 150)"
         }
     ]
 }
