@@ -3,964 +3,844 @@
     "groupName": "Métallurgie",
     "tasks": [
         {
-            "id": 0,
-            "name": "Fabrication : hachette-moi ça",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 141,
+            "level": 1,
+            "name": "Fabrication: hachette-moi ça",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 1,
-            "name": "Fabrication : maladie du bronze",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 142,
+            "level": 1,
+            "name": "Fabrication: maladie du bronze",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 2,
-            "name": "Livraison : la barrière bat de l'aile",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 143,
+            "level": 1,
+            "name": "Livraison: la barrière bat de l'aile",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 3,
-            "name": "Livraison : des épées pour les brutes",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 146,
+            "level": 1,
+            "name": "Livraison: des épées pour les brutes",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 4,
-            "name": "Fabrication : d'humeur tranchante",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 144,
+            "level": 1,
+            "name": "Fabrication: d'humeur tranchante",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 5,
-            "name": "Fabrication : mauvaise coupe",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 145,
+            "level": 1,
+            "name": "Fabrication: mauvaise coupe",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 6,
-            "name": "Fabrication : épées vikings conformes",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 148,
+            "level": 5,
+            "name": "Fabrication: épées vikings conformes ",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 7,
-            "name": "Fabrication : chef inoxydale",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 147,
+            "level": 5,
+            "name": "Fabrication: chef inoxydable",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 8,
-            "name": "Livraison : un couteau à pied dans la tombe",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 149,
+            "level": 5,
+            "name": "Livraison: un couteau à pied dans la tombe",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 9,
-            "name": "Livraison : bonne pioche !",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 152,
+            "level": 5,
+            "name": "Livraison: bonne pioche!",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 10,
-            "name": "Fabrication : pharma coupée",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 150,
+            "level": 5,
+            "name": "Fabrication: pharma coupée",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 11,
-            "name": "Fabrication : opération coup de marteau",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
+            "id": 151,
+            "level": 5,
+            "name": "Fabrication: opération coup de marteau",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 12,
-            "name": "Fabrication : maréchal-débutant",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 153,
+            "level": 10,
+            "name": "Fabrication: maréchal-débutant",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 13,
-            "name": "Fabrication : spathes en stock",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 154,
+            "level": 10,
+            "name": "Fabrication: spathes en stock",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 14,
-            "name": "Livraison : escale à Ul'dah",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 155,
+            "level": 10,
+            "name": "Livraison: escale à Ul'dah",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 15,
-            "name": "Livraison : ça va trancher",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 158,
+            "level": 10,
+            "name": "Livraison: ça va trancher",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 16,
-            "name": "Fabrication : finition maison",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 157,
+            "level": 10,
+            "name": "Fabrication: finition maison",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 17,
-            "name": "Fabrication : argent sale",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 156,
+            "level": 10,
+            "name": "Fabrication: argent sale",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 18,
-            "name": "Fabrication : alêne fraîche",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 160,
+            "level": 15,
+            "name": "Fabrication: alêne fraîche",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 19,
-            "name": "Fabrication : sitôt forgé, sitôt embarqué",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 159,
+            "level": 15,
+            "name": "Fabrication: sitôt forgé, sitôt embarqué",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 20,
-            "name": "Livraison : arrivée de rivets",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 161,
+            "level": 15,
+            "name": "Livraison: arrivée de rivets",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 21,
-            "name": "Livraison : ils sont marteaux",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 164,
+            "level": 15,
+            "name": "Livraison: ils sont marteaux",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 22,
-            "name": "Fabrication : combat rapproché",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 162,
+            "level": 15,
+            "name": "Fabrication: combat rapproché",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 23,
-            "name": "Fabrication : manque de lest",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 163,
+            "level": 15,
+            "name": "Fabrication: manque de lest",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 24,
-            "name": "Fabrication : filon en douce",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 165,
+            "level": 20,
+            "name": "Fabrication: filon en douce",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 25,
-            "name": "Grosse commande : le clou du spectacle",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 166,
+            "level": 20,
+            "name": "Grosse commande: le clou du spectacle",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 26,
-            "name": "Livraison : masse critique",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 167,
+            "level": 20,
+            "name": "Livraison: masse critique",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 27,
-            "name": "Fabrication : armons la milice",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 170,
+            "level": 20,
+            "name": "Fabrication: armons la milice",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 28,
-            "name": "Fabrication : halte aux xylophages",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 168,
+            "level": 20,
+            "name": "Fabrication: halte aux xylophages",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 29,
-            "name": "Grosse commande : l'atelier du démon",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 169,
+            "level": 20,
+            "name": "Grosse commande: l'atelier du démon",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 30,
-            "name": "Fabrication : mise à jour des outils",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 171,
+            "level": 25,
+            "name": "Fabrication: mise à jour des outils",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 31,
-            "name": "Grosse commande : donner le temps au tan",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 173,
+            "level": 25,
+            "name": "Grosse commande: donner le temps au tan",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 32,
-            "name": "Livraison : dames à lames",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 172,
+            "level": 25,
+            "name": "Livraison: dames à lames",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 33,
-            "name": "Fabrication : le credo du lancier",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 174,
+            "level": 25,
+            "name": "Fabrication: le credo du lancier",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 34,
-            "name": "Fabrication : scie et seulement scie",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 175,
+            "level": 25,
+            "name": "Fabrication: scie et seulement scie",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 35,
-            "name": "Grosse commande : touche pas à mon mortier",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
+            "id": 176,
+            "level": 25,
+            "name": "Grosse commande: touche pas à mon mortier",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 36,
-            "name": "Fabrication : amputation personnelle",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 178,
+            "level": 30,
+            "name": "Fabrication: amputation personnelle",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 37,
-            "name": "Grosse commande : adorables dolabres",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 179,
+            "level": 30,
+            "name": "Grosse commande: adorables dolabres",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 38,
-            "name": "Livraison : la lame nue",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 177,
+            "level": 30,
+            "name": "Livraison: la lame nue",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 39,
-            "name": "Fabrication : coup de massue",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 181,
+            "level": 30,
+            "name": "Fabrication: coup de massue",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 40,
-            "name": "Fabrication : alêne en acier",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 180,
+            "level": 30,
+            "name": "Fabrication: alêne en acier",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 41,
-            "name": "Grosse commande : la faux s'il le faut",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 182,
+            "level": 30,
+            "name": "Grosse commande: la faux s'il le faut",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 42,
-            "name": "Fabrication : alênes en urgence",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 184,
+            "level": 35,
+            "name": "Fabrication: alênes en urgence",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 43,
+            "id": 185,
+            "level": 35,
             "name": "Grosse commande: herboriste cherche mortiers",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
-        {
-            "id": 44,
-            "name": "Livraison : savoir couper le cordon",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 183,
+            "level": 35,
+            "name": "Livraison: savoir couper le cordon",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 45,
-            "name": "Fabrication : une question de contrôle",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+        {
+            "id": 186,
+            "level": 35,
+            "name": "Fabrication: une question de contrôle",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 46,
-            "name": "Fabrication : coups de couteau dand la nuit froide",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+        {
+            "id": 187,
+            "level": 35,
+            "name": "Fabrication: coups de couteau dans la nuit froide",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 47,
-            "name": "Grosse commande : pas de cuisine sans couteaux",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+        {
+            "id": 188,
+            "level": 35,
+            "name": "Grosse commande: pas de cuisine sans couteaux",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 48,
-            "name": "Fabrication : outil simple en métal noble",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 190,
+            "level": 40,
+            "name": "Fabrication: outil simple en métal noble",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
-        {
-            "id": 49,
-            "name": "Grosse commande : laissons limer les condamnés",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 191,
+            "level": 40,
+            "name": "Grosse commande: laissons limer les condamnés",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
-        {
-            "id": 50,
-            "name": "Livraison : de la légèreté de la masse",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 189,
+            "level": 40,
+            "name": "Livraison: de la légèreté de la masse",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 51,
-            "name": "Fabrication : la forge perpétuelle",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+        {
+            "id": 193,
+            "level": 40,
+            "name": "Fabrication: la forge perpétuelle",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 52,
-            "name": "Fabrication : couteaux de cuisine",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+        {
+            "id": 192,
+            "level": 40,
+            "name": "Fabrication: couteaux de cuisine",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 53,
-            "name": "Grosse commande : compter les coups sur les clous",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+        {
+            "id": 194,
+            "level": 40,
+            "name": "Grosse commande: compter les coups sur les clous",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
-        {
-            "id": 54,
-            "name": "Fabrication : limes défectueuses",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 196,
+            "level": 45,
+            "name": "Fabrication: limes défectueuses",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
-        {
-            "id": 55,
-            "name": "Grosse commande : pâturages en tenailles",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+        {
+            "id": 197,
+            "level": 45,
+            "name": "Grosse commande: pâturages en tenailles",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 56,
-            "name": "Livraison : tanner pour mieux creuser",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 195,
+            "level": 45,
+            "name": "Livraison: tanner pour mieux creuser",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 57,
-            "name": "Fabrication : terreur griffue",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 199,
+            "level": 45,
+            "name": "Fabrication: terreur griffue",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 58,
-            "name": "Fabrication : boîtes à reliques",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 198,
+            "level": 45,
+            "name": "Fabrication: boîtes à reliques",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 59,
-            "name": "Grosse commande : maillets à tout faire",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 200,
+            "level": 45,
+            "name": "Grosse commande: maillets à tout faire",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 60,
-            "name": "Fabrication : des patas d'entraînement",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 969,
+            "level": 50,
+            "name": "Fabrication: des patas d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 61,
-            "name": "Fabrication : des katzbalgers pour les défenses",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 968,
+            "level": 50,
+            "name": "Fabrication: des katzbalgers pour les défenses",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 62,
-            "name": "Grosse commande : des pépites pour balistes",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 970,
+            "level": 50,
+            "name": "Grosse commande: des pépites pour balistes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 63,
-            "name": "Grand mandat : des patas d'entraînement",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 975,
+            "level": 52,
+            "name": "Fabrication: des stylets pour les pilotes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 64,
-            "name": "Grand mandat : des katzbalgers pour les défenses",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 974,
+            "level": 52,
+            "name": "Fabrication: des espadons de bourreau",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 65,
-            "name": "Grand mandat : des pépites pour balistes",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 976,
+            "level": 52,
+            "name": "Grosse commande: des couteaux pour les cuistots",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 66,
-            "name": "Fabrication : des stylets pour les pilotes",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 981,
+            "level": 54,
+            "name": "Fabrication: des scies pour sapeur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 67,
-            "name": "Fabrication : des espadons de bourreau",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 980,
+            "level": 54,
+            "name": "Fabrication: des couteaux de tanneur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 68,
-            "name": "Grosse commande : des couteaux pour les cuistots",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 982,
+            "level": 54,
+            "name": "Grosse commande: arquebuses d'essai",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 69,
-            "name": "Grand mandat : des stylets pour les pilotes",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 986,
+            "level": 56,
+            "name": "Fabrication: du titane aux carreaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 70,
-            "name": "Grand mandat : des espadons de bourreau",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 987,
+            "level": 56,
+            "name": "Fabrication: déblayage à la hache",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 71,
-            "name": "Grand mandat : des couteaux pour cuistots",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 988,
+            "level": 56,
+            "name": "Grosse commande: coup de massette",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 72,
-            "name": "Fabrication : des scies pour sapeur",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 993,
+            "level": 58,
+            "name": "Fabrication: que de dolabres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 73,
-            "name": "Fabrication : des couteaux de tanneur",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 992,
+            "level": 58,
+            "name": "Fabrication: de l'adamantium à la pointe",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 74,
-            "name": "Grosse commande : arquebuses d'essai",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 994,
+            "level": 58,
+            "name": "Grosse commande: charcuterie à l'espadon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 75,
-            "name": "Grand mandat : des scies pour sapeur",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 972,
+            "level": 50,
+            "name": "Grand mandat: des patas d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 76,
-            "name": "Grand mandat : des couteaux de tanneur",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 971,
+            "level": 50,
+            "name": "Grand mandat: des katzbalgers pour les défenses",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 77,
-            "name": "Grand mandat : arquebuses d'essai",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 973,
+            "level": 50,
+            "name": "Grand mandat: des pépites pour balistes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 78,
-            "name": "Fabrication : du titane aux carreaux",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 978,
+            "level": 52,
+            "name": "Grand mandat: des stylets pour les pilotes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 79,
-            "name": "Fabrication : déblayage à la hache",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 977,
+            "level": 52,
+            "name": "Grand mandat: des espadons de bourreau",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 80,
-            "name": "Grosse commande : coup de massette",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 979,
+            "level": 52,
+            "name": "Grand mandat: des couteaux pour les cuistots",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 81,
-            "name": "Grand mandat : du titane aux carreaux",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 984,
+            "level": 54,
+            "name": "Grand mandat: des scies pour sapeur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 82,
-            "name": "Grand mandat : déblayage à la hache",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 983,
+            "level": 54,
+            "name": "Grand mandat: des couteaux de tanneur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 83,
-            "name": "Grand mandat : coup de massette",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 985,
+            "level": 54,
+            "name": "Grand mandat: arquebuses d'essai",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 84,
-            "name": "Fabrication : que de dolabres",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 989,
+            "level": 56,
+            "name": "Grand mandat: du titane aux carreaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 85,
-            "name": "Fabrication : de l'adamantium à la pointe",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 990,
+            "level": 56,
+            "name": "Grand mandat: déblayage à la hache",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 86,
-            "name": "Grosse commande : charcuterie à l'espadon",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 991,
+            "level": 56,
+            "name": "Grand mandat: coup de massette",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 87,
-            "name": "Grand mandat : que de dolabres",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 996,
+            "level": 58,
+            "name": "Grand mandat: que de dolabres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 88,
-            "name": "Grand mandat : de l'adamantium à la pointe",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 995,
+            "level": 58,
+            "name": "Grand mandat: de l'adamantium à la pointe",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 89,
-            "name": "Grand mandat : charcuterie à l'espadon",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 997,
+            "level": 58,
+            "name": "Grand mandat: charcuterie à l'espadon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 90,
-            "name": "Grosse commande : des pépites d'acier, par pitié !",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1270,
+            "level": 60,
+            "name": "Grosse commande: des pépites d'acier, par pitié!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 91,
-            "name": "Fabrication : un couteau à louer",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1269,
+            "level": 60,
+            "name": "Fabrication: un couteau à louer",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 92,
-            "name": "Fabrication : une épée pour se défendre",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1268,
+            "level": 60,
+            "name": "Fabrication: une épée pour se défendre",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 93,
-            "name": "Fabrication : une arme dissimulable",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1271,
+            "level": 62,
+            "name": "Fabrication: une arme dissimulable",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 94,
-            "name": "Fabrication : le maillet du maçon",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1272,
+            "level": 62,
+            "name": "Fabrication: le maillet du maçon",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 95,
-            "name": "Grosse commande : de nouvelles limes à louer",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1273,
+            "level": 62,
+            "name": "Grosse commande: de nouvelles limes à louer",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 96,
-            "name": "Grosse commande : déterrer les haches de guerre",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1276,
+            "level": 64,
+            "name": "Grosse commande: déterrer les haches de guerre",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 97,
-            "name": "Fabrication : avec sa manique et son couteau",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1274,
+            "level": 64,
+            "name": "Fabrication: avec sa manique et son couteau",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 98,
-            "name": "Fabrication : de beaux lingots",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1275,
+            "level": 64,
+            "name": "Fabrication: de beaux lingots",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 99,
-            "name": "Grosse commande : plein de beaux tachi",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1279,
+            "level": 66,
+            "name": "Grosse commande: plein de beaux tachi",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 100,
-            "name": "Fabrication : une production en dents de scie",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1277,
+            "level": 66,
+            "name": "Fabrication: une production en dents de scie",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 101,
-            "name": "Fabrication : un mortier à louer",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1278,
+            "level": 66,
+            "name": "Fabrication: un mortier à louer",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 102,
-            "name": "Grosse commande : problèmes carabinés au Sekiseigumi",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1282,
+            "level": 68,
+            "name": "Grosse commande: problèmes carabinés au Sekiseigumi",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 103,
-            "name": "Fabrication : pur comme un lingot",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1281,
+            "level": 68,
+            "name": "Fabrication: pur comme un lingot",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 104,
-            "name": "Fabrication : un beau marteau",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1280,
+            "level": 68,
+            "name": "Fabrication: un beau marteau",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 105,
-            "name": "Fabrication : nouvel article en vente",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1434,
+            "level": 70,
+            "name": "Fabrication: nouvel article en vente",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 106,
-            "name": "Grosse commande : des maillets en masse",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1435,
+            "level": 70,
+            "name": "Grosse commande: des maillets en masse",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 107,
-            "name": "Fabrication : des réserves d'or incarnat",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1433,
+            "level": 70,
+            "name": "Fabrication: des réserves d'or incarnat",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 108,
-            "name": "Grosse commande : les épées des recrues",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1438,
+            "level": 72,
+            "name": "Grosse commande: les épées des recrues",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 109,
-            "name": "Fabrication : des poings dans la face des brigands",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1437,
+            "level": 72,
+            "name": "Fabrication: des poings dans la face des brigands",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 110,
-            "name": "Fabrication : une bonne grosse hache",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1436,
+            "level": 72,
+            "name": "Fabrication: une bonne grosse hache",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 111,
-            "name": "Fabrication : le génie de la scie ronde",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1440,
+            "level": 74,
+            "name": "Fabrication: le génie de la scie ronde",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 112,
-            "name": "Fabrication : réparation à l'azuresprit",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1439,
+            "level": 74,
+            "name": "Fabrication: réparation à l'azuresprit",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 113,
-            "name": "Grosse commande : outils pour jardiniers",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1441,
+            "level": 74,
+            "name": "Grosse commande: outils pour jardiniers",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 114,
-            "name": "Grosse commande : couteaux de cuisine pour enfants",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1444,
+            "level": 76,
+            "name": "Grosse commande: couteaux de cuisine pour enfants",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 115,
-            "name": "Fabrication : des dagues contre la mauvaise haleine",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1442,
+            "level": 76,
+            "name": "Fabrication: des dagues contre la mauvaise haleine",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 116,
-            "name": "Fabrication : des chakrams pour les admirateurs",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1443,
+            "level": 76,
+            "name": "Fabrication: des chakrams pour les admirateurs",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 117,
-            "name": "Fabrication : esthétisme et efficacité tranchants",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1445,
+            "level": 78,
+            "name": "Fabrication: esthétisme et efficacité tranchants",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 118,
-            "name": "Grosse commande : cadeau pour nos artisants",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1447,
+            "level": 78,
+            "name": "Grosse commande: cadeau pour nos artisans",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         },
         {
-            "id": 119,
-            "name": "Fabrication : des armes à feu expérimentales",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1446,
+            "level": 78,
+            "name": "Fabrication: des armes à feu expérimentales",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         }
     ]
 }

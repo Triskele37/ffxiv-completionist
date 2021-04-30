@@ -48,7 +48,8 @@ async function getIdList(content) {
 
         const newIDs = allIDs.filter((ID) => {
             if(cachedIDs.includes(ID.toString())) return false; // Not already cached
-            return !Object.keys(content.excludedIds).includes(ID.toString()); // Not excluded
+            const excluded = content.excludedIds ? Object.keys(content.excludedIds) : []
+            return !excluded.includes(ID.toString()); // Not excluded
         });
         console.log(`${newIDs.length} new items detected`);
 
@@ -56,9 +57,10 @@ async function getIdList(content) {
     }
     else if(content.config.FULL_SCRAPE) {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
+        const excluded = content.excludedIds ? Object.keys(content.excludedIds) : [];
         content.config.TOTAL_ITEMS = allIDs.length;
 
-        return allIDs.filter((ID) => !Object.keys(content.excludedIds).includes(ID.toString()));
+        return allIDs.filter((ID) => !excluded.includes(ID.toString()));
     }
     else if(content.config.FAILED_SCRAPE) {
         const temp = [...content.config.FAILED_IDS];

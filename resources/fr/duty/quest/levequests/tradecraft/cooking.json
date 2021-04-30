@@ -3,964 +3,844 @@
     "groupName": "Cooking",
     "tasks": [
         {
-            "id": 0,
-            "name": "Cuisine : salez donc les salaisons",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 1,
-            "name": "Cuisine : pêche à la truite",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 2,
-            "name": "Livraison : le secret de l'œuf à la coque",
-            "level": "1",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 3,
-            "name": "Livraison : cure de raisins",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 4,
-            "name": "Cuisine : marmottes à la braise",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 5,
-            "name": "Cuisine : misérable érable",
-            "level": "1",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 6,
-            "name": "Cuisine : Jack l'embrouille",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 7,
-            "name": "Cuisine : crème bafouée",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 8,
-            "name": "Livraison : mycophobie",
-            "level": "5",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
-        },
-        {
-            "id": 9,
-            "name": "Livraison : le nerf de la mer",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 10,
-            "name": "Cuisine : oranges pressées appréciées",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 11,
-            "name": "Cuisine : l'argent du beurre",
-            "level": "5",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 12,
-            "name": "Cuisine : faire parler la poudre",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 261,
+            "level": 1,
+            "name": "Cuisine: salez donc les salaisons",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 13,
-            "name": "Cuisine : belles à croquer",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 262,
+            "level": 1,
+            "name": "Cuisine: pêche à la truite",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 14,
-            "name": "Livraison : taupe-là",
-            "level": "10",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 263,
+            "level": 1,
+            "name": "Livraison: le secret de l'œuf à la coque",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 15,
-            "name": "Livraison : panais de la dernière pluie",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 266,
+            "level": 1,
+            "name": "Livraison: cure de raisins",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 16,
-            "name": "Cuisine : l'occasion fait la morue",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 265,
+            "level": 1,
+            "name": "Cuisine: marmottes à la braise",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 17,
-            "name": "Cuisine : dodu, le dodo",
-            "level": "10",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
+            "id": 264,
+            "level": 1,
+            "name": "Cuisine: misérable érable",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 18,
-            "name": "Cuisine : omelette de secours",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 268,
+            "level": 5,
+            "name": "Cuisine: Jack l'embrouille",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 19,
-            "name": "Cuisine : la discrétion de l'huître",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 267,
+            "level": 5,
+            "name": "Cuisine: crème bafouée",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 20,
-            "name": "Livraison : distribution de pains",
-            "level": "15",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 269,
+            "level": 5,
+            "name": "Livraison: mycophobie",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 21,
-            "name": "Livraison : une tarte à croquer",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 272,
+            "level": 5,
+            "name": "Livraison: le nerf de la mer",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 22,
-            "name": "Cuisine : la douce odeur du succès",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 270,
+            "level": 5,
+            "name": "Cuisine: oranges pressées appréciées",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 23,
-            "name": "Cuisine : chère bonne chère",
-            "level": "15",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 271,
+            "level": 5,
+            "name": "Cuisine: l'argent du beurre",
+            "issueLocation": "Métairie du Coq rouge",
+            "leveZone": "Basse-Noscea"
         },
         {
-            "id": 24,
-            "name": "Cuisine : mauvais vin, bon raisin",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 273,
+            "level": 10,
+            "name": "Cuisine: faire parler la poudre",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 25,
-            "name": "Grosse commande : dingue de noix",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 274,
+            "level": 10,
+            "name": "Cuisine: belles à croquer",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 26,
-            "name": "Livraison : en l'honneur de la meunière",
-            "level": "20",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 275,
+            "level": 10,
+            "name": "Livraison: taupe-là",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 27,
-            "name": "Cuisine : un hachis pacificateur",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 278,
+            "level": 10,
+            "name": "Livraison: panais de la dernière pluie",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 28,
-            "name": "Cuisine : miel bien léché",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 277,
+            "level": 10,
+            "name": "Cuisine: l'occasion fait la morue",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 29,
-            "name": "Grosse commande : panique au pique-nique",
-            "level": "20",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 276,
+            "level": 10,
+            "name": "Cuisine: dodu, le dodo",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 30,
-            "name": "Cuisine : cookies digestifs",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 279,
+            "level": 15,
+            "name": "Cuisine: omelette de secours",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 31,
-            "name": "Grosse commande : poussée de fièvre",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 280,
+            "level": 15,
+            "name": "Cuisine: la discrétion de l'huître",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 32,
-            "name": "Livraison : bouillon relaxant",
-            "level": "25",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 281,
+            "level": 15,
+            "name": "Livraison: distribution de pains",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 33,
-            "name": "Cuisine : virage végétarien",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 284,
+            "level": 15,
+            "name": "Livraison: une tarte à croquer",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 34,
-            "name": "Cuisine : des crumpets pour le thé",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 282,
+            "level": 15,
+            "name": "Cuisine: la douce odeur du succès",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 35,
-            "name": "Grosse commande : anguille sous roche",
-            "level": "25",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 283,
+            "level": 15,
+            "name": "Cuisine: chère bonne chère",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 36,
-            "name": "Cuisine : bonnes sanguines ne sauraient mentir",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 285,
+            "level": 20,
+            "name": "Cuisine: mauvais vin, bon raisin",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 37,
-            "name": "Grosse commande : gruau sans grumeaux",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 286,
+            "level": 20,
+            "name": "Grosse commande: dingue de noix",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 38,
-            "name": "Livraison : attention à l'appétit",
-            "level": "30",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 287,
+            "level": 20,
+            "name": "Livraison: en l'honneur de la meunière",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 39,
-            "name": "Cuisine : un succulent pain de maïs",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 290,
+            "level": 20,
+            "name": "Cuisine: un hachis pacificateur",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 40,
-            "name": "Cuisine : donner le thon",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 288,
+            "level": 20,
+            "name": "Cuisine: miel bien léché",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 41,
-            "name": "Grosse commande : soles en société",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 289,
+            "level": 20,
+            "name": "Grosse commande: panique au pique-nique",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 42,
-            "name": "Cuisine : le doux parfum de la choucroute",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 291,
+            "level": 25,
+            "name": "Cuisine: cookies digestifs",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 43,
-            "name": "Grosse commande : Qiqirns nourris, Qiqirns ravis",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 293,
+            "level": 25,
+            "name": "Grosse commande: poussée de fièvre",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 44,
-            "name": "Livraison : le régime des astrologues",
-            "level": "35",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 292,
+            "level": 25,
+            "name": "Livraison: bouillon relaxant",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 45,
-            "name": "Cuisine : leur souffler des remerciements",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 294,
+            "level": 25,
+            "name": "Cuisine: virage végétarien",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 46,
-            "name": "Cuisine : carpes à l'armoise",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 295,
+            "level": 25,
+            "name": "Cuisine: des crumpets pour le thé",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 47,
-            "name": "Grosse commande : les chevaliers aux poireaux",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 296,
+            "level": 25,
+            "name": "Grosse commande: anguille sous roche",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 48,
-            "name": "Cuisine : charcuterie de premier choix",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 298,
+            "level": 30,
+            "name": "Cuisine: bonnes sanguines ne sauraient mentir",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 49,
-            "name": "Grosse commande : l'effet de la pomme de fée",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 299,
+            "level": 30,
+            "name": "Grosse commande: gruau sans grumeaux",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 50,
-            "name": "Livraison : un train de dignitaire",
-            "level": "40",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 297,
+            "level": 30,
+            "name": "Livraison: attention à l'appétit",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 51,
-            "name": "Cuisine : rolanbaies sur leur lit de fromage",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 300,
+            "level": 30,
+            "name": "Cuisine: un succulent pain de maïs",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 52,
-            "name": "Cuisine : on se bat comme on mange",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 301,
+            "level": 30,
+            "name": "Cuisine: donner le thon",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 53,
-            "name": "Grosse commande : poisson festif",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 302,
+            "level": 30,
+            "name": "Grosse commande: soles en société",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 54,
-            "name": "Cuisine : des œufs pour leur silence",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 304,
+            "level": 35,
+            "name": "Cuisine: le doux parfum de la choucroute",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 55,
-            "name": "Grosse commande : négociations à base d'œufs",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 305,
+            "level": 35,
+            "name": "Grosse commande: Qiqirns nourris, Qiqirns ravis",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 56,
-            "name": "Livraison : galette des rois ishgardaise",
-            "level": "45",
-            "zone": "Limsa Lominsa",
-            "location": "Limsa Lominsa",
-            "npc": "T'mokkri"
+            "id": 303,
+            "level": 35,
+            "name": "Livraison: le régime des astrologues",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 57,
-            "name": "Cuisine : champignons à l'ancienne",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 307,
+            "level": 35,
+            "name": "Cuisine: leur souffler des remerciements",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 58,
-            "name": "Cuisine : à leur santé",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 306,
+            "level": 35,
+            "name": "Cuisine: carpes à l'armoise",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 59,
-            "name": "Grosse commande : jamais lassé du lassi",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 308,
+            "level": 35,
+            "name": "Grosse commande: les chevaliers aux poireaux",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 60,
-            "name": "Cuisine : un bon repas chaud",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 310,
+            "level": 40,
+            "name": "Cuisine: charcuterie de premier choix",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 61,
-            "name": "Cuisine : une douce récompense",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 311,
+            "level": 40,
+            "name": "Grosse commande: l'effet de la pomme de fée",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 62,
-            "name": "Grosse commande : réchauffer les cœurs",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 309,
+            "level": 40,
+            "name": "Livraison: un train de dignitaire",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 63,
-            "name": "Grand mandat : un bon repas chaud",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 312,
+            "level": 40,
+            "name": "Cuisine: rolanbaies sur leur lit de fromage",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 64,
-            "name": "Grand mandat : une douche récompense",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 313,
+            "level": 40,
+            "name": "Cuisine: on se bat comme on mange",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 65,
-            "name": "Grand mandat : réchauffer mes cœurs",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 314,
+            "level": 40,
+            "name": "Grosse commande: poisson festif",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 66,
-            "name": "Cuisine : se mettre du beurre au cœur",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 316,
+            "level": 45,
+            "name": "Cuisine: des œufs pour leur silence",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 67,
-            "name": "Cuisine : les pains du petit matin",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 317,
+            "level": 45,
+            "name": "Grosse commande: négociations à base d'œufs",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 68,
-            "name": "Grosse commande : le gratin des manœuvres",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 315,
+            "level": 45,
+            "name": "Livraison: galette des rois ishgardaise",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 69,
-            "name": "Grand mandat : se mettre du beurre au cœur",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 318,
+            "level": 45,
+            "name": "Cuisine: champignons à l'ancienne",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 70,
-            "name": "Grand mandat : les pains du petit matin",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 319,
+            "level": 45,
+            "name": "Cuisine: à leur santé",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 71,
-            "name": "Grand mandat : le gratin des manœuvres",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 320,
+            "level": 45,
+            "name": "Grosse commande: jamais lassé du lassi",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 72,
-            "name": "Cuisine : la bonne soupe des volontaires",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1029,
+            "level": 50,
+            "name": "Cuisine: un bon repas chaud",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 73,
-            "name": "Cuisine : des œufs en comité",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1028,
+            "level": 50,
+            "name": "Cuisine: une douce récompense",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 74,
-            "name": "Grosse commande : fricassée d'encouragements",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1030,
+            "level": 50,
+            "name": "Grosse commande: réchauffer les cœurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 75,
-            "name": "Grand mandat : la bonne soupe des volontaires",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1034,
+            "level": 52,
+            "name": "Cuisine: se mettre du beurre au cœur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 76,
-            "name": "Grand mandat : des œufs en comité",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1035,
+            "level": 52,
+            "name": "Cuisine: les pains du petit matin",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 77,
-            "name": "Grand mandat : fricassée d'encouragements",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1036,
+            "level": 52,
+            "name": "Grosse commande: le gratin des manœuvres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 78,
-            "name": "Cuisine : un mélange digestif",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1041,
+            "level": 54,
+            "name": "Cuisine: la bonne soupe des volontaires",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 79,
-            "name": "Cuisine : la sauce des braves",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1040,
+            "level": 54,
+            "name": "Cuisine: des œufs en comité",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 80,
-            "name": "Grosse commande : le pipira pira des gourmets",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1042,
+            "level": 54,
+            "name": "Grosse commande: fricassée d'encouragements",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 81,
-            "name": "Grand mandat : un mélange digestif",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1047,
+            "level": 56,
+            "name": "Cuisine: un mélange digestif",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 82,
-            "name": "Grand mandat : la sauce des braves",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1046,
+            "level": 56,
+            "name": "Cuisine: la sauce des braves",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 83,
-            "name": "Grand mandat : le pipira pira des gourmets",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1048,
+            "level": 56,
+            "name": "Grosse commande: le pipira pira des gourmets",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 84,
-            "name": "Cuisine : le sirop du capitaine général",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1052,
+            "level": 58,
+            "name": "Cuisine: le sirop du capitaine général",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 85,
-            "name": "Cuisine : de la chaudrée pour l'élite",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1053,
+            "level": 58,
+            "name": "Cuisine: de la chaudrée pour l'élite",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 86,
-            "name": "Grosse commande : les sandwiches des sapeurs",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1054,
+            "level": 58,
+            "name": "Grosse commande: les sandwiches des sapeurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 87,
-            "name": "Grand mandat : le sirop du capitaine général",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1032,
+            "level": 50,
+            "name": "Grand mandat: un bon repas chaud",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 88,
-            "name": "Grand mandat : de la chaudrée pour l'élite",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1031,
+            "level": 50,
+            "name": "Grand mandat: une douce récompense",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 89,
-            "name": "Grand mandat : les sandwiches des sapeurs",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1033,
+            "level": 50,
+            "name": "Grand mandat: réchauffer les cœurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 90,
-            "name": "Grosse commande : privés de dessert",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1037,
+            "level": 52,
+            "name": "Grand mandat: se mettre du beurre au cœur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 91,
-            "name": "Fabrication : plus une goutte de jus",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1038,
+            "level": 52,
+            "name": "Grand mandat: les pains du petit matin",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 92,
-            "name": "Fabrication : un don de farine",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1039,
+            "level": 52,
+            "name": "Grand mandat: le gratin des manœuvres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 93,
-            "name": "Grosse commande : c'est une huile !",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1044,
+            "level": 54,
+            "name": "Grand mandat: la bonne soupe des volontaires",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 94,
-            "name": "Fabrication : un repas de malade",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1043,
+            "level": 54,
+            "name": "Grand mandat: des œufs en comité",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 95,
-            "name": "Fabrication : paf le chef !",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1045,
+            "level": 54,
+            "name": "Grand mandat: fricassée d'encouragements",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 96,
-            "name": "Fabrication : ça tourne au vinaigre au Sekiseigumi",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1050,
+            "level": 56,
+            "name": "Grand mandat: un mélange digestif",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 97,
-            "name": "Fabrication : une belle brochette !",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1049,
+            "level": 56,
+            "name": "Grand mandat: la sauce des braves",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 98,
-            "name": "Grosse commande : cuisine de groupe",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1051,
+            "level": 56,
+            "name": "Grand mandat: le pipira pira des gourmets",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 99,
-            "name": "Fabrication : le crabe aux pinces dort",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1055,
+            "level": 58,
+            "name": "Grand mandat: le sirop du capitaine général",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 100,
-            "name": "Grosse commande : c'est de la tarte !",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1056,
+            "level": 58,
+            "name": "Grand mandat: de la chaudrée pour l'élite",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 101,
-            "name": "Fabrication : c'est du flan",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1057,
+            "level": 58,
+            "name": "Grand mandat: les sandwiches des sapeurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 102,
-            "name": "Grosse commande : des mets impérissables",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1300,
+            "level": 60,
+            "name": "Grosse commande: privés de dessert",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 103,
-            "name": "Fabrication : le goût du thé",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1299,
+            "level": 60,
+            "name": "Fabrication: plus une goutte de jus",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 104,
-            "name": "Fabrication : pas de sushis !",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1298,
+            "level": 60,
+            "name": "Fabrication: un don de farine",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 105,
-            "name": "Grosse commande : jus de légume requinquant",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1303,
+            "level": 62,
+            "name": "Grosse commande: c'est une huile!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 106,
-            "name": "Fabrication : grillade de râle pour les braves",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1301,
+            "level": 62,
+            "name": "Fabrication: un repas de malade",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 107,
-            "name": "Fabrication : de l'huile pour que ça cuise",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 108,
-            "name": "Fabrication : des pâtes noires comme la nuit",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 109,
-            "name": "Fabrication : la soupe du vieux soldat",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 110,
-            "name": "Grosse commande : miam, du bon caramel !",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 111,
-            "name": "Fabrication : une pointe de vinaigre",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 112,
-            "name": "Grosse commande : du jus de tomate pour les cocktails",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 113,
-            "name": "Fabrication : sauté aux champignons nostalgique",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 114,
-            "name": "Fabrication : un peu de piquant pour un vieil homme",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 115,
-            "name": "Fabrication  : des saucisses bien juteuses",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 116,
-            "name": "Grosse commande : du thé masala en masse",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 117,
-            "name": "Grosse commande : un rêve de biscuits au café",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 118,
-            "name": "Fabrication : un paella festive",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 119,
-            "name": "Fabrication : le riz vire aussi au noir",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1302,
+            "level": 62,
+            "name": "Fabrication: paf le chef!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1304,
+            "level": 64,
+            "name": "Fabrication: ça tourne au vinaigre au Sekiseigumi",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1305,
+            "level": 64,
+            "name": "Fabrication: une belle brochette!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1306,
+            "level": 64,
+            "name": "Grosse commande: cuisine de groupe",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1307,
+            "level": 66,
+            "name": "Fabrication: le crabe aux pinces dort",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1309,
+            "level": 66,
+            "name": "Grosse commande: c'est de la tarte!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1308,
+            "level": 66,
+            "name": "Fabrication: c'est du flan",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1312,
+            "level": 68,
+            "name": "Grosse commande: des mets impérissables",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1310,
+            "level": 68,
+            "name": "Fabrication: le goût du thé",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1311,
+            "level": 68,
+            "name": "Fabrication: pas de sushis!",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1465,
+            "level": 70,
+            "name": "Grosse commande: jus de légume requinquant",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1464,
+            "level": 70,
+            "name": "Fabrication: grillade de râle pour les braves",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1463,
+            "level": 70,
+            "name": "Fabrication: de l'huile pour que ça cuise",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1466,
+            "level": 72,
+            "name": "Fabrication: des pâtes noires comme la nuit",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1467,
+            "level": 72,
+            "name": "Fabrication: la soupe du vieux soldat",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1468,
+            "level": 72,
+            "name": "Grosse commande: miam, du bon caramel!",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1469,
+            "level": 74,
+            "name": "Fabrication: une pointe de vinaigre",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1471,
+            "level": 74,
+            "name": "Grosse commande: du jus de tomate pour les cocktails",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1470,
+            "level": 74,
+            "name": "Fabrication: sauté aux champignons nostalgique",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1473,
+            "level": 76,
+            "name": "Fabrication: un peu de piquant pour un vieil homme",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1472,
+            "level": 76,
+            "name": "Fabrication: des saucisses bien juteuses",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1474,
+            "level": 76,
+            "name": "Grosse commande: du thé masala en masse",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1477,
+            "level": 78,
+            "name": "Grosse commande: un rêve de biscuits au café",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1476,
+            "level": 78,
+            "name": "Fabrication: une paella festive",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1475,
+            "level": 78,
+            "name": "Fabrication: le riz vire aussi au noir",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         }
     ]
 }

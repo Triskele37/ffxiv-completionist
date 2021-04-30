@@ -3,964 +3,844 @@
     "groupName": "Tannage",
     "tasks": [
         {
-            "id": 0,
-            "name": "Fabrication : chapeuax en cuir pour artisans",
-            "level": "1",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 1,
-            "name": "Fabrication : bracelets en cuir",
-            "level": "1",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 2,
-            "name": "Livraison : chaussures d'entraînement pour nouveaux",
-            "level": "1",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 3,
-            "name": "Livraison : apprendre les peaux",
-            "level": "1",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 4,
-            "name": "Fabrication : ras de cou pour les recrues",
-            "level": "1",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 5,
-            "name": "Fabrication : bourses pour les intendants",
-            "level": "1",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 6,
-            "name": "Fabrication : armes de pugilistes pour l'entraînement",
-            "level": "5",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 7,
-            "name": "Fabrication : poignets bon marché",
-            "level": "5",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 8,
-            "name": "Livraison : bottes pour les éclaireurs",
-            "level": "5",
-            "zone": "Gridania",
-            "location": "Le Bannock",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 9,
-            "name": "Livraison : gants pour chasseurs",
-            "level": "5",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 10,
-            "name": "Fabrication : casques de cuir pour l'entraînement",
-            "level": "5",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 11,
-            "name": "Fabrication : gants pour nouveaux",
-            "level": "5",
-            "zone": "Forêt centrale",
-            "location": "Le Bannock",
-            "npc": "Muriaule"
-        },
-        {
-            "id": 12,
-            "name": "Fabrication : garde-poignets pour groupies",
-            "level": "10",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 13,
-            "name": "Fabrication : souliers neufs pour les Flèches",
-            "level": "10",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 14,
-            "name": "Livraison : cuir rigide",
-            "level": "10",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 15,
-            "name": "Livraison : ceintures de chasse",
-            "level": "10",
-            "zone": "Forêt centrale",
-            "location": "Ranch de Brancharquée",
-            "npc": "Tierney"
-        },
-        {
-            "id": 16,
-            "name": "Fabrication : caligae pour cavaliers",
-            "level": "10",
-            "zone": "Forêt centrale",
-            "location": "Ranch de Brancharquée",
-            "npc": "Tierney"
-        },
-        {
-            "id": 17,
-            "name": "Fabrication : harnais pour cavaliers",
-            "level": "10",
-            "zone": "Forêt centrale",
-            "location": "Ranch de Brancharquée",
-            "npc": "Tierney"
-        },
-        {
-            "id": 18,
-            "name": "Fabrication : chapes pour botanistes",
-            "level": "15",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 19,
-            "name": "Fabrication : ras de cou pour jeunes âmes fleur bleue",
-            "level": "15",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 20,
-            "name": "Livraison : peaux de bouquetin",
-            "level": "15",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 21,
-            "name": "Livraison : palettes sanglées bon marché",
-            "level": "15",
-            "zone": "Forêt de l'est",
-            "location": "Hutte des Hawtorne",
-            "npc": "Qina Lyehga"
-        },
-        {
-            "id": 22,
-            "name": "Fabrication : chaussures pour artisans",
-            "level": "15",
-            "zone": "Forêt de l'est",
-            "location": "Hutte des Hawtorne",
-            "npc": "Qina Lyehga"
-        },
-        {
-            "id": 23,
-            "name": "Fabrication : poignets pour les vigiles",
-            "level": "15",
-            "zone": "Forêt de l'est",
-            "location": "Hutte des Hawtorne",
-            "npc": "Qina Lyehga"
-        },
-        {
-            "id": 24,
-            "name": "Fabrication : garde-bras pour les acteurs",
-            "level": "20",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 25,
-            "name": "Grosse commande : peaux de bouquetins",
-            "level": "20",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 26,
-            "name": "Livraison : chaussures pour volontaires",
-            "level": "20",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 27,
-            "name": "Fabrication : vestes en cuir de bouquetin",
-            "level": "20",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 28,
-            "name": "Fabrication : gants de travail",
-            "level": "20",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 29,
-            "name": "Grosse commande : cestes pour les vigiles sombres",
-            "level": "20",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 30,
-            "name": "Fabrication : targes en cuir de bouquetin",
-            "level": "25",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 31,
-            "name": "Grosse commande : ceintures pour navigateurs",
-            "level": "25",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 32,
-            "name": "Livraison : garde-poignets pour aventuriers",
-            "level": "25",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 33,
-            "name": "Fabrication : cestes pour un champion",
-            "level": "25",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 34,
-            "name": "Fabrication : armures pour les réservistes",
-            "level": "25",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 35,
-            "name": "Grosse commande : chaussures pour volontaires",
-            "level": "25",
-            "zone": "Forêt du Sud",
-            "location": "Hutte des Hawtorne",
-            "npc": "Nyell"
-        },
-        {
-            "id": 36,
-            "name": "Fabrication : himantes en cuir de sanglier",
-            "level": "30",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 37,
-            "name": "Grosse commande : cuir de crapaud",
-            "level": "30",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 38,
-            "name": "Livraison : sangler sans sanglots",
-            "level": "30",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 39,
-            "name": "Fabrication : pas de sang sur mes poignées",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 40,
-            "name": "Fabrication : esclave de la mode",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 41,
-            "name": "Grosse commande : proposition subordonnée",
-            "level": "30",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 42,
-            "name": "Fabrication : chaussures en cuir de peiste",
-            "level": "35",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 43,
-            "name": "Grosse commande : quand la logique va tout va",
-            "level": "35",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 44,
-            "name": "Livraison : sus aux hérétiques",
-            "level": "35",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 45,
-            "name": "Fabrication : mitaines pour nuits fraîches",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 46,
-            "name": "Fabrication : délivrez-nous du gel",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 47,
-            "name": "Grosse commande : colliers prépayés",
-            "level": "35",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 48,
-            "name": "Fabrication : jupes légères",
-            "level": "40",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 49,
-            "name": "Grosse commande : le credo du lièvre",
-            "level": "40",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 50,
-            "name": "Livraison : à l'abri des becs",
-            "level": "40",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 51,
-            "name": "Fabricaton : du sanglier pour les palefreniers",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 52,
-            "name": "Fabrication : les pieds au chaud",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 53,
-            "name": "Grosse commande : prendre les selles au sérieux",
-            "level": "40",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 54,
-            "name": "Fabrication : bracelets ininflammables",
-            "level": "45",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 55,
-            "name": "Grosse commande : la folie des cestes",
-            "level": "45",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 56,
-            "name": "Livraison : un chef bien entouré",
-            "level": "45",
-            "zone": "Gridania",
-            "location": "Gridania",
-            "npc": "Gontrant"
-        },
-        {
-            "id": 57,
-            "name": "Fabrication : pieds tendres",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 58,
-            "name": "Fabrication : bottes en cuire de raptor",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 59,
-            "name": "Grosse commande : jamais sans mon cuir",
-            "level": "45",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 60,
-            "name": "Fabrication : des ceintures de lutteur",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 61,
-            "name": "Fabrication : des bottes de ravitailleur",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 62,
-            "name": "Grosse commande : des gants pour durs à cuire",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 63,
-            "name": "Grand mandat : des ceintures de lutteur",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 64,
-            "name": "Grand mandat : des bottes de ravitailleur",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 65,
-            "name": "Grand mandat : des gants pour durs à cuire",
-            "level": "50",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 66,
-            "name": "Fabrication : des wyvernes d'entraînement",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 67,
-            "name": "Fabrication : des crinières pour les héros",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 68,
-            "name": "Grosse commande : wyverne à fleur de peau",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 69,
-            "name": "Grand mandat : des wyvernes d'entraînement",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 70,
-            "name": "Grand mandat : des crinières pour les héros",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 71,
-            "name": "Grand mandat : wyverne à fleur de peau",
-            "level": "52",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 72,
-            "name": "Fabrication : des bottes pour bons chasseurs",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 73,
-            "name": "Fabrication : des gilets pour les villageois",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 74,
-            "name": "Grosse commande : des jambières pour l'élite",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 75,
-            "name": "Grand mandat : des bottes pour bons chasseurs",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 76,
-            "name": "Grand mandat : des gilets pour les villageois",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 77,
-            "name": "Grand mandat : des jambières pour l'élite",
-            "level": "54",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 78,
-            "name": "Fabrication : des gants pour les sauveurs",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 79,
-            "name": "Fabrication : des jeunes à poigne",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 80,
-            "name": "Grosse commande : des dragons d'entraînement",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
             "id": 81,
-            "name": "Grand mandat : des gants pour les sauveurs",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "level": 1,
+            "name": "Fabrication: chapeaux en cuir pour artisans",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 82,
-            "name": "Grand mandat : des jeunes à poigne",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "level": 1,
+            "name": "Fabrication: bracelets en cuir",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 83,
-            "name": "Grand mandat : des dragons d'entraînement",
-            "level": "56",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 84,
-            "name": "Fabrication : garde-bras pour écuyers dragon",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 85,
-            "name": "Fabrication : les ceintures du courage",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "level": 1,
+            "name": "Livraison: chaussures d'entraînement pour nouveaux",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 86,
-            "name": "Grosse commande : des mages bottés",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "level": 1,
+            "name": "Livraison: apprendre les peaux",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
-            "id": 87,
-            "name": "Grand mandat : garde-bras pour écuyers dragon",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 85,
+            "level": 1,
+            "name": "Fabrication: ras de cou pour les recrues",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
+        },
+        {
+            "id": 84,
+            "level": 1,
+            "name": "Fabrication: bourses pour les intendants",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 88,
-            "name": "Grand mandat : les ceintures du courage",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "level": 5,
+            "name": "Fabrication: armes de pugilistes pour l'entraînement",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 87,
+            "level": 5,
+            "name": "Fabrication: poignets bon marché",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 89,
-            "name": "Grand mandat : des mages bottés",
-            "level": "58",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
-        },
-        {
-            "id": 90,
-            "name": "Fabrication : un gilet pour le guide",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 91,
-            "name": "Grosse commande : le Sekiseigumi fait ceinture",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 5,
+            "name": "Livraison: bottes pour les éclaireurs",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 92,
-            "name": "Fabrication : du cuir de l'étranger",
-            "level": "60",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 5,
+            "name": "Livraison: gants pour chasseurs",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
-            "id": 93,
-            "name": "Fabrication : des poignets exotiques",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 91,
+            "level": 5,
+            "name": "Fabrication: casques de cuir pour l'entraînement",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
+        },
+        {
+            "id": 90,
+            "level": 5,
+            "name": "Fabrication: gants pour nouveaux",
+            "issueLocation": "Le Bannock",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 94,
-            "name": "Fabrication : des chaussures de pèlerinage",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 10,
+            "name": "Fabrication: garde-poignets pour groupies",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 93,
+            "level": 10,
+            "name": "Fabrication: souliers neufs pour les Flèches",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 95,
-            "name": "Grosse commande : des mitaines pour des marins",
-            "level": "62",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 96,
-            "name": "Grosse commande : du cuir de tigre pour gagner",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 97,
-            "name": "Fabrication : des chaussures taille standard",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 10,
+            "name": "Livraison: cuir rigide",
+            "issueLocation": "Ranch de Brancharquée",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 98,
-            "name": "Fabrication : un beau tricorne",
-            "level": "64",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 10,
+            "name": "Livraison: ceintures de chasse",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
-            "id": 99,
-            "name": "Grosse commande : de belles braies",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 97,
+            "level": 10,
+            "name": "Fabrication: caligae pour cavaliers",
+            "issueLocation": "Ranch de Brancharquée",
+            "leveZone": "Forêt centrale"
+        },
+        {
+            "id": 96,
+            "level": 10,
+            "name": "Fabrication: harnais pour cavaliers",
+            "issueLocation": "Ranch de Brancharquée",
+            "leveZone": "Forêt centrale"
         },
         {
             "id": 100,
-            "name": "Fabrication : un corset dans le style occidental",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 15,
+            "name": "Fabrication: chapes pour botanistes",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 99,
+            "level": 15,
+            "name": "Fabrication: ras de cou pour jeunes âmes fleur bleue",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 101,
-            "name": "Fabrication : une veste à louer",
-            "level": "66",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 102,
-            "name": "Grosse commande : des bottes longues à louer",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 103,
-            "name": "Fabrication : Cuir, cuir, cuir... de gazelle",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 15,
+            "name": "Livraison: peaux de bouquetin",
+            "issueLocation": "Hutte des Hawthorne",
+            "leveZone": "Forêt de l'est"
         },
         {
             "id": 104,
-            "name": "Fabrication : un beau jaseran",
-            "level": "68",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "level": 15,
+            "name": "Livraison: palettes sanglées bon marché",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 103,
+            "level": 15,
+            "name": "Fabrication: chaussures pour artisans",
+            "issueLocation": "Hutte des Hawthorne",
+            "leveZone": "Forêt de l'est"
+        },
+        {
+            "id": 102,
+            "level": 15,
+            "name": "Fabrication: poignets pour les Vigiles",
+            "issueLocation": "Hutte des Hawthorne",
+            "leveZone": "Forêt de l'est"
         },
         {
             "id": 105,
-            "name": "Grosse commande : pénurie de bracelets",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 20,
+            "name": "Fabrication: garde-bras pour les acteurs",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 106,
-            "name": "Fabrication : avoir des jambes de smilodon",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 20,
+            "name": "Grosse commande: peaux de bouquetins",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 107,
-            "name": "Fabrication : du smilodon dans les meubles",
-            "level": "70",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 108,
-            "name": "Grosse commande : des bottes pour bibliothécaires",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 109,
-            "name": "Fabrication : des braies pour les recrues",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 20,
+            "name": "Livraison: chaussures pour volontaires",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 110,
-            "name": "Fabrication : des gants pour un connaisseur",
-            "level": "72",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 20,
+            "name": "Fabrication: vestes en cuir de bouquetin",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 108,
+            "level": 20,
+            "name": "Fabrication: gants de travail",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 109,
+            "level": 20,
+            "name": "Grosse commande: cestes pour les vigiles sombres",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 111,
-            "name": "Fabrication : pas de saurien pour les vauriens",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 112,
-            "name": "Grosse commande : colliers pour archers unis",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 25,
+            "name": "Fabrication: targes en cuir de bouquetin",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 113,
-            "name": "Fabrication : le confort du cuir d'atrociraptor",
-            "level": "74",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 25,
+            "name": "Grosse commande: ceintures pour navigateurs",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 112,
+            "level": 25,
+            "name": "Livraison: garde-poignets pour aventuriers",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 114,
-            "name": "Fabrication : chaussures de marche pour naturalistes",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 25,
+            "name": "Fabrication: cestes pour un champion",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 115,
-            "name": "Fabrication : un beau manteau de zonure",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 25,
+            "name": "Fabrication: armures pour les réservistes",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 116,
-            "name": "Grosse commande : gants pour archers braves",
-            "level": "76",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 117,
-            "name": "Grosse commande : chaussons nos infirmiers",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 25,
+            "name": "Grosse commande: chaussures pour volontaires",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
             "id": 118,
-            "name": "Fabrication : pour les mains d'une héroïne",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 30,
+            "name": "Fabrication: himantes en cuir de sanglier",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
         },
         {
             "id": 119,
-            "name": "Fabrication : une jaque pour un hurluberlu",
-            "level": "78",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "level": 30,
+            "name": "Grosse commande: cuir de crapaud",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 117,
+            "level": 30,
+            "name": "Livraison: sangler sans sanglots",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 120,
+            "level": 30,
+            "name": "Fabrication: pas de sang sur mes poignées",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 121,
+            "level": 30,
+            "name": "Fabrication: esclave de la mode",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 122,
+            "level": 30,
+            "name": "Grosse commande: proposition subordonnée",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 124,
+            "level": 35,
+            "name": "Fabrication: chaussures en cuir de peiste",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 125,
+            "level": 35,
+            "name": "Grosse commande: quand la logistique va tout va",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 123,
+            "level": 35,
+            "name": "Livraison: sus aux hérétiques",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 127,
+            "level": 35,
+            "name": "Fabrication: mitaines pour nuits fraîches",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 126,
+            "level": 35,
+            "name": "Fabrication: délivrez-nous du gel",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 128,
+            "level": 35,
+            "name": "Grosse commande: colliers prépayés",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 130,
+            "level": 40,
+            "name": "Fabrication: jupes légères",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 131,
+            "level": 40,
+            "name": "Grosse commande: le credo du lièvre",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 129,
+            "level": 40,
+            "name": "Livraison: à l'abri des becs",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 133,
+            "level": 40,
+            "name": "Fabrication: du sanglier pour les palefreniers",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 132,
+            "level": 40,
+            "name": "Fabrication: les pieds au chaud",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 134,
+            "level": 40,
+            "name": "Grosse commande: prendre les selles au sérieux",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 136,
+            "level": 45,
+            "name": "Fabrication: bracelets ininflammables",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 137,
+            "level": 45,
+            "name": "Grosse commande: la folie des cestes",
+            "issueLocation": "Gridania",
+            "leveZone": "Gridania"
+        },
+        {
+            "id": 135,
+            "level": 45,
+            "name": "Livraison: un chef bien entouré",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 139,
+            "level": 45,
+            "name": "Fabrication: pieds tendres",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 138,
+            "level": 45,
+            "name": "Fabrication: bottes en cuir de raptor",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 140,
+            "level": 45,
+            "name": "Grosse commande: jamais sans mon cuir",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 938,
+            "level": 50,
+            "name": "Fabrication: des ceintures de lutteur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 939,
+            "level": 50,
+            "name": "Fabrication: des bottes de ravitailleur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 940,
+            "level": 50,
+            "name": "Grosse commande: des gants pour durs à cuire",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 944,
+            "level": 52,
+            "name": "Fabrication: des wyvernes d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 945,
+            "level": 52,
+            "name": "Fabrication: des crinières pour les héros",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 946,
+            "level": 52,
+            "name": "Grosse commande: wyverne à fleur de peau",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 951,
+            "level": 54,
+            "name": "Fabrication: des bottes pour bons chasseurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 950,
+            "level": 54,
+            "name": "Fabrication: des gilets pour les villageois",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 952,
+            "level": 54,
+            "name": "Grosse commande: des jambières pour l'élite",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 957,
+            "level": 56,
+            "name": "Fabrication: des gants pour les sauveurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 956,
+            "level": 56,
+            "name": "Fabrication: des jeunes à poigne",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 958,
+            "level": 56,
+            "name": "Grosse commande: des dragons d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 962,
+            "level": 58,
+            "name": "Fabrication: garde-bras pour écuyers dragon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 963,
+            "level": 58,
+            "name": "Fabrication: les ceintures du courage",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 964,
+            "level": 58,
+            "name": "Grosse commande: des mages bottés",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 941,
+            "level": 50,
+            "name": "Grand mandat: des ceintures de lutteur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 942,
+            "level": 50,
+            "name": "Grand mandat: des bottes de ravitailleur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 943,
+            "level": 50,
+            "name": "Grand mandat: des gants pour durs à cuire",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 947,
+            "level": 52,
+            "name": "Grand mandat: des wyvernes d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 948,
+            "level": 52,
+            "name": "Grand mandat: des crinières pour les héros",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 949,
+            "level": 52,
+            "name": "Grand mandat: wyverne à fleur de peau",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 954,
+            "level": 54,
+            "name": "Grand mandat: des bottes pour bons chasseurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 953,
+            "level": 54,
+            "name": "Grand mandat: des gilets pour les villageois",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 955,
+            "level": 54,
+            "name": "Grand mandat: des jambières pour l'élite",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 960,
+            "level": 56,
+            "name": "Grand mandat: des gants pour les sauveurs",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 959,
+            "level": 56,
+            "name": "Grand mandat: des jeunes à poigne",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 961,
+            "level": 56,
+            "name": "Grand mandat: des dragons d'entraînement",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 965,
+            "level": 58,
+            "name": "Grand mandat: garde-bras pour écuyers dragon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 966,
+            "level": 58,
+            "name": "Grand mandat: les ceintures du courage",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 967,
+            "level": 58,
+            "name": "Grand mandat: des mages bottés",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
+        },
+        {
+            "id": 1253,
+            "level": 60,
+            "name": "Fabrication: un gilet pour le guide",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1255,
+            "level": 60,
+            "name": "Grosse commande: le Sekiseigumi fait ceinture",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1254,
+            "level": 60,
+            "name": "Fabrication: du cuir de l'étranger",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1257,
+            "level": 62,
+            "name": "Fabrication: des poignets exotiques",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1256,
+            "level": 62,
+            "name": "Fabrication: des chaussures de pèlerinage",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1258,
+            "level": 62,
+            "name": "Grosse commande: des mitaines pour des marins",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1261,
+            "level": 64,
+            "name": "Grosse commande: du cuir de tigre pour gagner",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1260,
+            "level": 64,
+            "name": "Fabrication: des chaussures taille standard",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1259,
+            "level": 64,
+            "name": "Fabrication: un beau tricorne",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1264,
+            "level": 66,
+            "name": "Grosse commande: de belles braies",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1262,
+            "level": 66,
+            "name": "Fabrication: un corset dans le style occidental",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1263,
+            "level": 66,
+            "name": "Fabrication: une veste à louer",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1267,
+            "level": 68,
+            "name": "Grosse commande: des bottes longues à louer",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1265,
+            "level": 68,
+            "name": "Fabrication: Cuir, cuir, cuir... de gazelle",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1266,
+            "level": 68,
+            "name": "Fabrication: un beau jaseran",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1420,
+            "level": 70,
+            "name": "Grosse commande: pénurie de bracelets",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1419,
+            "level": 70,
+            "name": "Fabrication: avoir des jambes de smilodon",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1418,
+            "level": 70,
+            "name": "Fabrication: du smilodon dans les meubles",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1423,
+            "level": 72,
+            "name": "Grosse commande: des bottes pour bibliothécaires",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1421,
+            "level": 72,
+            "name": "Fabrication: des braies pour les recrues",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1422,
+            "level": 72,
+            "name": "Fabrication: des gants pour un connaisseur",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1425,
+            "level": 74,
+            "name": "Fabrication: pas de saurien pour les vauriens",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1426,
+            "level": 74,
+            "name": "Grosse commande: colliers pour archers unis",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1424,
+            "level": 74,
+            "name": "Fabrication: le confort du cuir d'atrociraptor",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1428,
+            "level": 76,
+            "name": "Fabrication: chaussures de marche pour naturalistes",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1427,
+            "level": 76,
+            "name": "Fabrication: un beau manteau de zonure",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1429,
+            "level": 76,
+            "name": "Grosse commande: gants pour archers braves",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1432,
+            "level": 78,
+            "name": "Grosse commande: chaussons nos infirmiers",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1430,
+            "level": 78,
+            "name": "Fabrication: pour les mains d'une héroïne",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1431,
+            "level": 78,
+            "name": "Fabrication: une jaque pour un hurluberlu",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         }
     ]
 }

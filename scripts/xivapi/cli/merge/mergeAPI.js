@@ -35,10 +35,10 @@ module.exports = function mergeAPI(content, rl, done) {
         let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
         appPath = content.translateCachePath(appPath);
 
-        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : [];
+        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : {};
 
         cache.tasks.forEach((cacheTask) => {
-            if(!appGroup.tasks) console.log(appPath);
+            if(!appGroup.tasks) console.log(`\n${appPath} tasks not found\n`);
             const appTask = appGroup.tasks.find((appTask) => cacheTask.ID === appTask.id);
 
             if(appTask) {
@@ -76,6 +76,7 @@ module.exports = function mergeAPI(content, rl, done) {
         const { appPath, appKey, appTask, cacheKey, cacheTask } = diffTasks.shift();
 
         rl.write(`Diff detected ${totalDiffs - diffTasks.length}/${totalDiffs}: ${appPath}\n`);
+        rl.write(`Name: ${appTask.name}\n`);
         rl.write(`Key: ${appKey}\n\n`);
         rl.write(`  App Value: "${appTask[appKey]}"\n`);
         rl.write(`Cache Value: "${cacheTask[cacheKey]}"\n`);
@@ -111,7 +112,7 @@ module.exports = function mergeAPI(content, rl, done) {
         rl.write(`New Task detected ${totalNew - newTasks.length}/${totalNew}: ${appPath}\n`);
         console.log(cacheTask);
 
-        rl.question('\nAdd task to app? (Y/N) or (1/2) ', (answer) => {
+        rl.question('\nAdd task to app? (Y/N) or (1/2) or 3 to add all new tasks ', (answer) => {
             if(answer.toLowerCase() === 'y' || answer === '1') {
                 const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
                 json.tasks.push(content.mapAppTask(cacheTask, lang));
@@ -119,7 +120,29 @@ module.exports = function mergeAPI(content, rl, done) {
 
                 rl.question(`\n\ntask added to ${appPath}`, mergeNewTasks);
             }
+            else if(answer === '3') mergeAllNewTasks(appPath, lang, cacheTask);
             else mergeNewTasks();
         });
+    }
+
+    function mergeAllNewTasks(curAppPath, curLang, curCacheTask) {
+        // Merge the current task when "All" was selected
+        const json = JSON.parse(fs.readFileSync(curAppPath, 'utf8'));
+        json.tasks.push(content.mapAppTask(curCacheTask, curLang));
+        fs.writeFileSync(`${curAppPath}`, JSON.stringify(json, null, 4));
+
+        // Merge the rest of the new tasks
+        let totalAdded = 1;
+        while(newTasks.length) {
+            const { appPath, lang, cacheTask } = newTasks.shift();
+
+            const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
+            json.tasks.push(content.mapAppTask(cacheTask, lang));
+            fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
+
+            totalAdded++;
+        }
+
+        rl.question(`\n\n${totalAdded} tasks added`, mergeNewTasks);
     }
 };

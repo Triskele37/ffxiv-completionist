@@ -3,804 +3,704 @@
     "groupName": "Minage",
     "tasks": [
         {
-            "id": 0,
-            "level": "1",
-            "name": "Collecte : la voie dorée",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 1,
-            "level": "1",
-            "name": "Échantillons : paperasse inutile",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 2,
-            "level": "1",
-            "name": "Échantillons : il suffit d'y croire",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 3,
-            "level": "1",
-            "name": "Collecte : mineurs en vacances",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 4,
-            "level": "5",
-            "name": "Collecte : Pipikkuli le nouveau riche",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 5,
-            "level": "5",
-            "name": "Échantillons : du flair pour le filons",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 6,
-            "level": "5",
-            "name": "Échantillons : effacer le passé",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 7,
-            "level": "5",
-            "name": "Grosse récolte : débats sur le zinc",
-            "zone": "Thanalan occidental",
-            "location": "Rond-point des Scorpions",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 8,
-            "level": "10",
-            "name": "Prélèvement : solide comme un roc",
-            "zone": "Thanalan occidental",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 9,
-            "level": "10",
-            "name": "Échantillons : tout ce qui est or ne brille pas",
-            "zone": "Thanalan occidental",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 10,
-            "level": "10",
-            "name": "Collecte : fuir comme le peiste",
-            "zone": "Thanalan occidental",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 11,
-            "level": "10",
-            "name": "Échantillons : en mille morceaux",
-            "zone": "Thanalan occidental",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 12,
-            "level": "15",
-            "name": "Échantillons : un grand rêveur",
-            "zone": "Thanalan oriental",
-            "location": "Camp des Os desséches",
-            "npc": "Poponagu"
+            "id": 1178,
+            "level": 50,
+            "name": "Échantillons: des pierres pour la fortification",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 13,
-            "level": "15",
-            "name": "Collecte : pierres de pouvoir",
-            "zone": "Thanalan oriental",
-            "location": "Camp des Os desséches",
-            "npc": "Poponagu"
+            "id": 1179,
+            "level": 50,
+            "name": "Collecte: des pierres pour les Ceptres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 14,
-            "level": "15",
-            "name": "Collecte : six fulms sous terre",
-            "zone": "Thanalan oriental",
-            "location": "Camp des Os desséches",
-            "npc": "Poponagu"
+            "id": 1180,
+            "level": 50,
+            "name": "Prélèvement: le recyclage des supports",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 15,
-            "level": "15",
-            "name": "Prélèvement : la malédiction de Belah'dia",
-            "zone": "Thanalan oriental",
-            "location": "Camp des Os desséches",
-            "npc": "Poponagu"
+            "id": 1181,
+            "level": 50,
+            "name": "Grand mandat: des pierres pour la fortification",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 16,
-            "level": "20",
-            "name": "Échantillons : le jour de gloire est arrivé",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1182,
+            "level": 50,
+            "name": "Grand mandat: des pierres pour les Ceptres",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 17,
-            "level": "20",
-            "name": "Collecte : travaux de rénovation",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1183,
+            "level": 50,
+            "name": "Grand mandat: le recyclage des supports",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
-            "id": 18,
-            "level": "20",
-            "name": "Collecte : l'équilibre est une force",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1184,
+            "level": 52,
+            "name": "Échantillons: des édifices hérétiques",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 19,
-            "level": "20",
-            "name": "Grosse récolte : bric-à-brac",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1185,
+            "level": 52,
+            "name": "Grosse récolte: de la lancite dans nos canons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 20,
-            "level": "25",
-            "name": "Collecte : allumer des feux",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1186,
+            "level": 52,
+            "name": "Collecte: des saphirs pour l'autel",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 21,
-            "level": "25",
-            "name": "Échantillons : à qui suit le fou",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1187,
+            "level": 52,
+            "name": "Grand mandat: des édifices hérétiques",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 22,
-            "level": "25",
-            "name": "Grosse récolte : éclaire mon chemin",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1188,
+            "level": 52,
+            "name": "Grand mandat: de la lancite dans nos canons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 23,
-            "level": "25",
-            "name": "Grosse récolte : mur griffé",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 1189,
+            "level": 52,
+            "name": "Grand mandat: des saphirs pour l'autel",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Avant-pays dravanien"
         },
         {
-            "id": 24,
-            "level": "30",
-            "name": "Grosse récolte : huître, ça suffit",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 1190,
+            "level": 54,
+            "name": "Échantillons: des pierres d'avant-poste",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 25,
-            "level": "30",
-            "name": "Grosse récolte : étude archéologique",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 1191,
+            "level": 54,
+            "name": "Collecte: un sable légendaire",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 26,
-            "level": "30",
-            "name": "Échantillons : brèves de comptoir",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 1192,
+            "level": 54,
+            "name": "Prélèvement: archéologie céleste",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 27,
-            "level": "30",
-            "name": "Collecte : le nerf de la guerre",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 1193,
+            "level": 54,
+            "name": "Grand mandat: des pierres d'avant-poste",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 28,
-            "level": "35",
-            "name": "Échantillons : cailloux en stock",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 1194,
+            "level": 54,
+            "name": "Grand mandat: un sable légendaire",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 29,
-            "level": "35",
-            "name": "Collecte : le secret de la glace",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 1195,
+            "level": 54,
+            "name": "Grand mandat: archéologie céleste",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux de Dravania"
         },
         {
-            "id": 30,
-            "level": "35",
-            "name": "Prélèvement : céruleum tremens",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 1196,
+            "level": 56,
+            "name": "Grosse récolte: la pseudo-halonite des cieux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 31,
-            "level": "35",
-            "name": "Grosse récolte : deux yeux pour le prix d'un",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 1197,
+            "level": 56,
+            "name": "Collecte: du minerai des vents",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 32,
-            "level": "40",
-            "name": "Grosse récolte : casser pour remonter",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 1198,
+            "level": 56,
+            "name": "Prélèvement: des pierres ponces flottantes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 33,
-            "level": "40",
-            "name": "Collecte : frères d'armes",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 1199,
+            "level": 56,
+            "name": "Grand mandat: la pseudo-halonite des cieux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 34,
-            "level": "40",
-            "name": "Échantillons : la nature est monstrueuse",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 1200,
+            "level": 56,
+            "name": "Grand mandat: du minerai des vents",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 35,
-            "level": "40",
-            "name": "Prélèvement : la même sans perdre nos têtes",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 1201,
+            "level": 56,
+            "name": "Grand mandat: des pierres ponces flottantes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
-            "id": 36,
-            "level": "45",
-            "name": "Prélèvement : hypothèses hybrides",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 1202,
+            "level": 58,
+            "name": "Échantillons: de la pommelite à carreaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 37,
-            "level": "45",
-            "name": "Grosse récolte : discerner le vrai du faux",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 1203,
+            "level": 58,
+            "name": "Grosse récolte: les cristaux des vitraux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 38,
-            "level": "45",
-            "name": "Échantillons : le métal n'a aucun maitre ",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 1204,
+            "level": 58,
+            "name": "Prélèvement: l'architecture sharlayanaise",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 39,
-            "level": "45",
-            "name": "Collecte : cristaux gênants",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 1205,
+            "level": 58,
+            "name": "Grand mandat: de la pommelite à carreaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 40,
-            "level": "50",
-            "name": "Prélèvement : le recyclage des supports",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1206,
+            "level": 58,
+            "name": "Grand mandat: les cristaux des vitraux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 41,
-            "level": "50",
-            "name": "Collecte : des pierres pour les Ceptres",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1207,
+            "level": 58,
+            "name": "Grand mandat: l'architecture sharlayanaise",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Arrière-pays dravanien"
         },
         {
-            "id": 42,
-            "level": "50",
-            "name": "Échantillons : des pierres pour la fortification",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1373,
+            "level": 60,
+            "name": "Échantillons: débris magitek en cermet",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Marges"
         },
         {
-            "id": 43,
-            "level": "52",
-            "name": "Grosse récolte : de la lancite dans nos canons",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1374,
+            "level": 60,
+            "name": "Collecte: protéger les fossiles de la ruine",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Marges"
         },
         {
-            "id": 44,
-            "level": "52",
-            "name": "Échantillons : des édifices hérétiques",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1375,
+            "level": 60,
+            "name": "Prélèvement: pierres qui roulent n'amassent pas pont",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Marges"
         },
         {
-            "id": 45,
-            "level": "52",
-            "name": "Collecte : des saphirs pour l'autel",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1376,
+            "level": 62,
+            "name": "Échantillons: des filons en haute mer",
+            "issueLocation": "Kugane",
+            "leveZone": "Mer de Rubis"
         },
         {
-            "id": 46,
-            "level": "54",
-            "name": "Collecte : un sable légendaires",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1377,
+            "level": 62,
+            "name": "Grosse récolte: des pierres pour un teinturier",
+            "issueLocation": "Kugane",
+            "leveZone": "Mer de Rubis"
         },
         {
-            "id": 47,
-            "level": "54",
-            "name": "Prélèvement : archéologie céleste",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1378,
+            "level": 62,
+            "name": "Collecte: des kanzashi en corail dur",
+            "issueLocation": "Kugane",
+            "leveZone": "Mer de Rubis"
         },
         {
-            "id": 48,
-            "level": "54",
-            "name": "Échantillons : des pierres d'avant-poste",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1379,
+            "level": 64,
+            "name": "Échantillons: une reconstruction solide comme un roc",
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 49,
-            "level": "56",
-            "name": "Prélèvement : des pierres ponces flottantes",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1380,
+            "level": 64,
+            "name": "Collecte: de nouveaux matériaux pour les katana",
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 50,
-            "level": "56",
-            "name": "Collecte : du minerai des vents",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1381,
+            "level": 64,
+            "name": "Prélèvement: pont et chaussée",
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 51,
-            "level": "56",
-            "name": "Grosse récolte : la pseudo-halonite des cieux",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1382,
+            "level": 66,
+            "name": "Grosse récolte: des pierres à rosaires",
+            "issueLocation": "Kugane",
+            "leveZone": "Steppe d'Azim"
         },
         {
-            "id": 52,
-            "level": "58",
-            "name": "Échantillons : de la pommelite à carreaux",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1383,
+            "level": 66,
+            "name": "Collecte: brillance lapidaire",
+            "issueLocation": "Kugane",
+            "leveZone": "Steppe d'Azim"
         },
         {
-            "id": 53,
-            "level": "58",
-            "name": "Prélèvement : l'architecture sharlayanaise",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1384,
+            "level": 66,
+            "name": "Prélèvement: la géographie de la steppe",
+            "issueLocation": "Kugane",
+            "leveZone": "Steppe d'Azim"
         },
         {
-            "id": 54,
-            "level": "58",
-            "name": "Grosse récolte : les cristaux des vitraux",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1385,
+            "level": 68,
+            "name": "Échantillons: les diamants pourpres",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Pics"
         },
         {
-            "id": 55,
-            "level": "50",
-            "name": "Grand mandat : le recyclage des supports",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1386,
+            "level": 68,
+            "name": "Grosse récolte: rien ne se perd, tout se recycle",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Pics"
         },
         {
-            "id": 56,
-            "level": "50",
-            "name": "Grand mandat : des pierres pour la fortification",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1387,
+            "level": 68,
+            "name": "Prélèvement: trouver le filon",
+            "issueLocation": "Kugane",
+            "leveZone": "Les Pics"
         },
         {
-            "id": 57,
-            "level": "50",
-            "name": "Grand mandat : des pierres pour les Ceptres",
-            "zone": "Hautes terres du Coerthas occidental",
-            "location": "Nid du Faucon",
-            "npc": "Eloin"
+            "id": 1538,
+            "level": 70,
+            "name": "Échantillons: de la callaïs au doigt",
+            "issueLocation": "Cristarium",
+            "leveZone": "Kholusia"
         },
         {
-            "id": 58,
-            "level": "52",
-            "name": "Grand mandat : des saphirs pour l'autel",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1539,
+            "level": 70,
+            "name": "Collecte: dissoudre littéralement Eulmore?",
+            "issueLocation": "Cristarium",
+            "leveZone": "Kholusia"
         },
         {
-            "id": 59,
-            "level": "52",
-            "name": "Grand mandat : de la lancite dans nos canons",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1540,
+            "level": 70,
+            "name": "Prélèvement: l'acier des grandes balistes",
+            "issueLocation": "Cristarium",
+            "leveZone": "Kholusia"
         },
         {
-            "id": 60,
-            "level": "52",
-            "name": "Grand mandat : des édifices hérétiques",
-            "zone": "Avant-pays dravanien",
-            "location": "La Penne",
-            "npc": "Eloin"
+            "id": 1541,
+            "level": 72,
+            "name": "Échantillons: les pierres magiques du royaume",
+            "issueLocation": "Cristarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 61,
-            "level": "54",
-            "name": "Grand mandat : archéologie céleste",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1542,
+            "level": 72,
+            "name": "Grosse récolte: du saphir rose au cou",
+            "issueLocation": "Cristarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 62,
-            "level": "54",
-            "name": "Grand mandat : des pierres d'avant-poste",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1543,
+            "level": 72,
+            "name": "Collecte: des cristaux contre les mauvais tours",
+            "issueLocation": "Cristarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 63,
-            "level": "54",
-            "name": "Grand mandat : un sable légendaire",
-            "zone": "L'Écume des cieux de Dravania",
-            "location": "Nid-Mog",
-            "npc": "Eloin"
+            "id": 1544,
+            "level": 74,
+            "name": "Échantillons: du gravier hautement toxique",
+            "issueLocation": "Cristarium",
+            "leveZone": "Rak'tika"
         },
         {
-            "id": 64,
-            "level": "56",
-            "name": "Grand mandat : du minerai des vents",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1545,
+            "level": 74,
+            "name": "Collecte: le jade de Rak'tika",
+            "issueLocation": "Cristarium",
+            "leveZone": "Rak'tika"
         },
         {
-            "id": 65,
-            "level": "56",
-            "name": "Grand mandat : la pseudo-halonite des cieux",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1546,
+            "level": 74,
+            "name": "Prélèvement: la serpentine des temps anciens",
+            "issueLocation": "Cristarium",
+            "leveZone": "Rak'tika"
         },
         {
-            "id": 66,
-            "level": "56",
-            "name": "Grand mandat : des pierres ponces flottantes",
-            "zone": "L'Écume des cieux d'Alabathia",
-            "location": "Camp de Cime-des-nuages",
-            "npc": "Eloin"
+            "id": 1547,
+            "level": 76,
+            "name": "Grosse récolte: les conséquences d'un accident",
+            "issueLocation": "Cristarium",
+            "leveZone": "Amh Araeng"
         },
         {
-            "id": 67,
-            "level": "58",
-            "name": "Grand mandat : les cristaux des vitraux",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1548,
+            "level": 76,
+            "name": "Collecte: parez-vous de nabaathrite",
+            "issueLocation": "Cristarium",
+            "leveZone": "Amh Araeng"
         },
         {
-            "id": 68,
-            "level": "58",
-            "name": "Grand mandat : de la pommelite à carreaux",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1549,
+            "level": 76,
+            "name": "Prélèvement: rendre vie aux talos",
+            "issueLocation": "Cristarium",
+            "leveZone": "Amh Araeng"
         },
         {
-            "id": 69,
-            "level": "58",
-            "name": "Grand mandat : l'architecture sharlayanaise",
-            "zone": "Arrière-pays dravanien",
-            "location": "Voie de la Création",
-            "npc": "Eloin"
+            "id": 1550,
+            "level": 78,
+            "name": "Échantillons: les pierres de l'ancienne fédération",
+            "issueLocation": "Cristarium",
+            "leveZone": "Grand-Lac"
         },
         {
-            "id": 70,
-            "level": "60",
-            "name": "Échantillons : débris magitek en cermet",
-            "zone": "Les Marges",
-            "location": "Roches rayées",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 71,
-            "level": "60",
-            "name": "Collecte : protéger les fossiles de la ruine",
-            "zone": "Les Marges",
-            "location": "Velodyna",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 72,
-            "level": "60",
-            "name": "Prélèvement : pierres qui roulent n'amassent pas pont",
-            "zone": "Les Marges",
-            "location": "Confins est",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 73,
-            "level": "62",
-            "name": "Échantillons : des filons en haute mer",
-            "zone": "Mer de Rubis",
-            "location": "Côte orientale d'Othard",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 74,
-            "level": "62",
-            "name": "Grosse récolte : des pierres pour un teinturier",
-            "zone": "Mer de Rubis",
-            "location": "Rasen Kaikyo",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 75,
-            "level": "62",
-            "name": "Collecte : des kanzashi en corail dur",
-            "zone": "Mer de Rubis",
-            "location": "Rasen Kaikyo",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 76,
-            "level": "64",
-            "name": "Prélèvement : pont et chaussée",
-            "zone": "Yanxia",
-            "location": "Castrum Fluminis",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 77,
-            "level": "64",
-            "name": "Échantillons : une reconstruction solide comme un roc",
-            "zone": "Yanxia",
-            "location": "Kusakari",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 78,
-            "level": "64",
-            "name": "Collecte : de nouveaux matériaux pour les katana",
-            "zone": "Yanxia",
-            "location": "Chaîbe du Gensui",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 79,
-            "level": "66",
-            "name": "Prélèvement : la géographie de la steppe",
-            "zone": "Steppe d'Azim",
-            "location": "Mer de fanes",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 80,
-            "level": "66",
-            "name": "Grosse récolte : des pierres à rosaires",
-            "zone": "Steppe d'Azim",
-            "location": "Retraite de Nhaama",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 81,
-            "level": "66",
-            "name": "Collecte : brillance lapidaire",
-            "zone": "Steppe d'Azim",
-            "location": "Retraite de Nhaama",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 82,
-            "level": "68",
-            "name": "Prélèvement : trouver le filon",
-            "zone": "Les Pics",
-            "location": "Blêmeroche",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 83,
-            "level": "68",
-            "name": "Grosse récolte : rien ne se perd, tout se recycle",
-            "zone": "Les Pics",
-            "location": "Mont Yorn",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 84,
-            "level": "68",
-            "name": "Échantillons : les diamants pourpres",
-            "zone": "Les Pics",
-            "location": "Blêmeroche",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 85,
-            "level": "70",
-            "name": "Prélèvement : l'acier des grandes balistes",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 86,
-            "level": "70",
-            "name": "Échantillons : de la callaïs au doigt",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 87,
-            "level": "70",
-            "name": "Collecte : dissoudre littéralement Eulmore ?",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 88,
-            "level": "72",
-            "name": "Échantillons : les pierres magiques du royaume",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 89,
-            "level": "72",
-            "name": "Grosse récolte : du saphir rose au cou",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 90,
-            "level": "72",
-            "name": "Collecte : des cristaux contre les mauvais tours",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 91,
-            "level": "74",
-            "name": "Prélèvement : la serpentine des temps anciens",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 92,
-            "level": "74",
-            "name": "Collecte : le jade de Rak'tika",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 93,
-            "level": "74",
-            "name": "Échantillons : du gravier hautement toxique",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 94,
-            "level": "76",
-            "name": "Prélèvement : rendre vie aux talos",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 95,
-            "level": "76",
-            "name": "Collecte : parez-vous de nabaathrite",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 96,
-            "level": "76",
-            "name": "Grosse récolte : les conséquences d'un accident",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 97,
-            "level": "78",
-            "name": "Échantillons : les pierres de l'ancienne fédération",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 98,
-            "level": "78",
-            "name": "Prélèvement : des cristaux médicinaux ?",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 99,
-            "level": "78",
+            "id": 1551,
+            "level": 78,
             "name": "Grosse récolte: la prasiolite pour recommencer",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "Cristarium",
+            "leveZone": "Grand-Lac"
+        },
+        {
+            "id": 1552,
+            "level": 78,
+            "name": "Prélèvement: des cristaux médicinaux?",
+            "issueLocation": "Cristarium",
+            "leveZone": "Grand-Lac"
+        },
+        {
+            "id": 714,
+            "level": 1,
+            "name": "Échantillons: il suffit d'y croire",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 715,
+            "level": 1,
+            "name": "Échantillons: paperasse inutile",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 716,
+            "level": 1,
+            "name": "Collecte: la voie dorée",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 717,
+            "level": 1,
+            "name": "Collecte: mineurs en vacances",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 718,
+            "level": 5,
+            "name": "Échantillons: effacer le passé",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 719,
+            "level": 5,
+            "name": "Échantillons: du flair pour les filons",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 720,
+            "level": 5,
+            "name": "Collecte: Pipikkuli le nouveau riche",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 721,
+            "level": 5,
+            "name": "Grosse récolte: débats sur le zinc",
+            "issueLocation": "Rond-point des Scorpions",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 722,
+            "level": 10,
+            "name": "Échantillons: en mille morceaux",
+            "issueLocation": "Horizon",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 723,
+            "level": 10,
+            "name": "Échantillons: tout ce qui est or ne brille pas",
+            "issueLocation": "Horizon",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 724,
+            "level": 10,
+            "name": "Collecte: fuir comme la peiste",
+            "issueLocation": "Horizon",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 725,
+            "level": 10,
+            "name": "Prélèvement: solide comme un roc",
+            "issueLocation": "Horizon",
+            "leveZone": "Thanalan occidental"
+        },
+        {
+            "id": 726,
+            "level": 15,
+            "name": "Échantillons: un grand rêveur",
+            "issueLocation": "Camp des Os desséchés",
+            "leveZone": "Thanalan oriental"
+        },
+        {
+            "id": 727,
+            "level": 15,
+            "name": "Collecte: pierres de pouvoir",
+            "issueLocation": "Camp des Os desséchés",
+            "leveZone": "Thanalan oriental"
+        },
+        {
+            "id": 728,
+            "level": 15,
+            "name": "Collecte: six fulms sous terre",
+            "issueLocation": "Camp des Os desséchés",
+            "leveZone": "Thanalan oriental"
+        },
+        {
+            "id": 729,
+            "level": 15,
+            "name": "Prélèvement: la malédiction de Belah'dia",
+            "issueLocation": "Camp des Os desséchés",
+            "leveZone": "Thanalan oriental"
+        },
+        {
+            "id": 730,
+            "level": 20,
+            "name": "Échantillons: le jour de gloire est arrivé",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 731,
+            "level": 20,
+            "name": "Collecte: l'équilibre est une force",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 732,
+            "level": 20,
+            "name": "Collecte: travaux de rénovation",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 733,
+            "level": 20,
+            "name": "Grosse récolte: bric-à-brac",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 734,
+            "level": 25,
+            "name": "Échantillons: à qui suit le fou",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 735,
+            "level": 25,
+            "name": "Collecte: allumer des feux",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 736,
+            "level": 25,
+            "name": "Grosse récolte: mur griffé",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 737,
+            "level": 25,
+            "name": "Grosse récolte: éclaire mon chemin",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
+        },
+        {
+            "id": 738,
+            "level": 30,
+            "name": "Échantillons: brèves de comptoir",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 739,
+            "level": 30,
+            "name": "Collecte: le nerf de la guerre",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 740,
+            "level": 30,
+            "name": "Grosse récolte: étude archéologique",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 741,
+            "level": 30,
+            "name": "Grosse récolte: huître, ça suffit",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
+        },
+        {
+            "id": 742,
+            "level": 35,
+            "name": "Échantillons: cailloux en stock",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 743,
+            "level": 35,
+            "name": "Collecte: le secret de la glace",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 744,
+            "level": 35,
+            "name": "Grosse récolte: deux yeux pour le prix d'un",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 745,
+            "level": 35,
+            "name": "Prélèvement: céruleum tremens",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 746,
+            "level": 40,
+            "name": "Échantillons: la nature est monstrueuse",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 747,
+            "level": 40,
+            "name": "Collecte: frères d'armes",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 748,
+            "level": 40,
+            "name": "Grosse récolte: casser pour remonter",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 749,
+            "level": 40,
+            "name": "Prélèvement: la même sans perdre nos têtes",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
+        },
+        {
+            "id": 750,
+            "level": 45,
+            "name": "Échantillons: le métal n'a aucun maître",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 751,
+            "level": 45,
+            "name": "Collecte: cristaux gênants",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 752,
+            "level": 45,
+            "name": "Grosse récolte: discerner le vrai du faux",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 753,
+            "level": 45,
+            "name": "Prélèvement: hypothèses hybrides",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         }
     ]
 }

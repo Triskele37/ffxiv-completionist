@@ -3,804 +3,704 @@
     "groupName": "Mining",
     "tasks": [
         {
-            "id": 0,
-            "level": "1",
-            "name": "The Primrose Path",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 1,
-            "level": "1",
-            "name": "Who Needs the Paperwork",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 2,
-            "level": "1",
-            "name": "Rubble Bubble",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 3,
-            "level": "1",
-            "name": "Miners' Holiday",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 4,
-            "level": "5",
-            "name": "Pipikkuli's Ship Comes In",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 5,
-            "level": "5",
-            "name": "Do They Ore Don't They",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 6,
-            "level": "5",
-            "name": "Vanishing Point",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 7,
-            "level": "5",
-            "name": "I Don't Zinc It's A Coincidence",
-            "zone": "Western Thanalan",
-            "location": "Scorpion Crossing",
-            "npc": "Graceful Song"
-        },
-        {
-            "id": 8,
-            "level": "10",
-            "name": "We Do This the Hard Way",
-            "zone": "Western Thanalan",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 9,
-            "level": "10",
-            "name": "That's Why They Call It Fool's Gold",
-            "zone": "Western Thanalan",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 10,
-            "level": "10",
-            "name": "It Peiste to Listen",
-            "zone": "Western Thanalan",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 11,
-            "level": "10",
-            "name": "Break It Up",
-            "zone": "Western Thanalan",
-            "location": "Horizon",
-            "npc": "Totonowa"
-        },
-        {
-            "id": 12,
-            "level": "15",
-            "name": "A Man's Gotta Dream",
-            "zone": "Eastern Thanalan",
-            "location": "Camp Drybone",
-            "npc": "Poponagu"
-        },
-        {
-            "id": 13,
-            "level": "15",
-            "name": "Earth Sprites Are Easy",
-            "zone": "Eastern Thanalan",
-            "location": "Camp Drybone",
-            "npc": "Poponagu"
-        },
-        {
-            "id": 14,
-            "level": "15",
-            "name": "Eiderdown for Eidolons",
-            "zone": "Eastern Thanalan",
-            "location": "Camp Drybone",
-            "npc": "Poponagu"
-        },
-        {
-            "id": 15,
-            "level": "15",
-            "name": "The Doom that Came to Belah'dia",
-            "zone": "Eastern Thanalan",
-            "location": "Camp Drybone",
-            "npc": "Poponagu"
-        },
-        {
-            "id": 16,
-            "level": "20",
-            "name": "Look How They Shine for You",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 17,
-            "level": "20",
-            "name": "Location, Location, Location",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 18,
-            "level": "20",
-            "name": "Elemental Housekeeping",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 19,
-            "level": "20",
-            "name": "Rock My Wall",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 20,
-            "level": "25",
-            "name": "Can't Start a Fire",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 21,
-            "level": "25",
-            "name": "Fool Me Twice",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 22,
-            "level": "25",
-            "name": "Baby, Light My Way",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 23,
-            "level": "25",
-            "name": "Tag, You're It",
-            "zone": "South Shroud",
-            "location": "Quarrymill",
-            "npc": "Nyell"
-        },
-        {
-            "id": 24,
-            "level": "30",
-            "name": "Shell Game",
-            "zone": "Eastern La Noscea",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 25,
-            "level": "30",
-            "name": "The Midden Fair",
-            "zone": "Eastern La Noscea",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 26,
-            "level": "30",
-            "name": "I Kidd You Not",
-            "zone": "Eastern La Noscea",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 27,
-            "level": "30",
-            "name": "That's What the Money Is For",
-            "zone": "Eastern La Noscea",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
-        },
-        {
-            "id": 28,
-            "level": "35",
-            "name": "Rocks for Brains",
-            "zone": "Coerthas Central Highlands",
-            "location": "Observatorium",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 29,
-            "level": "35",
-            "name": "There Are No Good Answers",
-            "zone": "Coerthas Central Highlands",
-            "location": "Observatorium",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 30,
-            "level": "35",
-            "name": "Mythril Madness",
-            "zone": "Coerthas Central Highlands",
-            "location": "Observatorium",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 31,
-            "level": "35",
-            "name": "Eye for an Eye",
-            "zone": "Coerthas Central Highlands",
-            "location": "Observatorium",
-            "npc": "Cimeaurant"
-        },
-        {
-            "id": 32,
-            "level": "40",
-            "name": "Breach and Build",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim Front",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 33,
-            "level": "40",
-            "name": "Brother in Arms",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim Front",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 34,
-            "level": "40",
-            "name": "Nature Is a Monster",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim Front",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 35,
-            "level": "40",
-            "name": "Not Losing Our Heads This Time",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim Front",
-            "npc": "Voilinaut"
-        },
-        {
-            "id": 36,
-            "level": "45",
-            "name": "Hybrid Hypotheses",
-            "zone": "Mor Dhona",
-            "location": "Saint Coinach's Find",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 37,
-            "level": "45",
-            "name": "Sucker Seer",
-            "zone": "Mor Dhona",
-            "location": "Saint Coinach's Find",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 38,
-            "level": "45",
-            "name": "Metal Has No Master",
-            "zone": "Mor Dhona",
-            "location": "Saint Coinach's Find",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 39,
-            "level": "45",
-            "name": "Crystal Mess",
-            "zone": "Mor Dhona",
-            "location": "Saint Coinach's Find",
-            "npc": "K'leytai"
-        },
-        {
-            "id": 40,
-            "level": "50",
-            "name": "The Merits of Upcycling",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
-        },
-        {
-            "id": 41,
-            "level": "50",
-            "name": "The Road to Pilgrimage",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
-        },
-        {
-            "id": 42,
-            "level": "50",
+            "id": 1178,
+            "level": 50,
             "name": "Taken for Granite",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 43,
-            "level": "52",
-            "name": "I'll Show You My Battle Shards",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
+            "id": 1179,
+            "level": 50,
+            "name": "The Road to Pilgrimage",
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 44,
-            "level": "52",
-            "name": "Permit for Destruction of Religious Property",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
+            "id": 1180,
+            "level": 50,
+            "name": "The Merits of Upcycling",
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 45,
-            "level": "52",
-            "name": "Halone's Jewelry Box",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
-        },
-        {
-            "id": 46,
-            "level": "54",
-            "name": "Dreams of War, Dreams of Liars, Dreams of Dragon Fire",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
-        },
-        {
-            "id": 47,
-            "level": "54",
-            "name": "Talk about Boundaries",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
-        },
-        {
-            "id": 48,
-            "level": "54",
-            "name": "From Creepers to Squatters",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
-        },
-        {
-            "id": 49,
-            "level": "56",
-            "name": "Mortarin'",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
-        },
-        {
-            "id": 50,
-            "level": "56",
-            "name": "What Goes Up",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
-        },
-        {
-            "id": 51,
-            "level": "56",
-            "name": "Fake-icite",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
-        },
-        {
-            "id": 52,
-            "level": "58",
-            "name": "Sticking It Out",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
-        },
-        {
-            "id": 53,
-            "level": "58",
-            "name": "Dragonproofing",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
-        },
-        {
-            "id": 54,
-            "level": "58",
-            "name": "Crystal Chronicles",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
-        },
-        {
-            "id": 55,
-            "level": "50",
-            "name": "Breaking Beacons (L)",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
-        },
-        {
-            "id": 56,
-            "level": "50",
+            "id": 1181,
+            "level": 50,
             "name": "The Basics of Forgery (L)",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 57,
-            "level": "50",
+            "id": 1182,
+            "level": 50,
             "name": "For Vares Beyond Compare (L)",
-            "zone": "Coerthas Western Highlands",
-            "location": "Falcon's Nest",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 58,
-            "level": "52",
-            "name": "Polished Till They Shine (L)",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
+            "id": 1183,
+            "level": 50,
+            "name": "Breaking Beacons (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "Coerthas Western Highlands"
         },
         {
-            "id": 59,
-            "level": "52",
-            "name": "Forging Lance Base (L)",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
+            "id": 1184,
+            "level": 52,
+            "name": "Permit for Destruction of Religious Property",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
         },
         {
-            "id": 60,
-            "level": "52",
+            "id": 1185,
+            "level": 52,
+            "name": "I'll Show You My Battle Shards",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
+        },
+        {
+            "id": 1186,
+            "level": 52,
+            "name": "Halone's Jewelry Box",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
+        },
+        {
+            "id": 1187,
+            "level": 52,
             "name": "Rose Never Lets Go (L)",
-            "zone": "The Dravanian Forelands",
-            "location": "Tailfeather",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
         },
         {
-            "id": 61,
-            "level": "54",
-            "name": "History Needs Some Revisions (L)",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
+            "id": 1188,
+            "level": 52,
+            "name": "Forging Lance Base (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
         },
         {
-            "id": 62,
-            "level": "54",
+            "id": 1189,
+            "level": 52,
+            "name": "Polished till They Shine (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Forelands"
+        },
+        {
+            "id": 1190,
+            "level": 54,
+            "name": "From Creepers to Squatters",
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
+        },
+        {
+            "id": 1191,
+            "level": 54,
+            "name": "Dreams of War, Dreams of Liars, Dreams of Dragon Fire",
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
+        },
+        {
+            "id": 1192,
+            "level": 54,
+            "name": "Talk about Boundaries",
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
+        },
+        {
+            "id": 1193,
+            "level": 54,
             "name": "All of These Bases Belong to Us (L)",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
         },
         {
-            "id": 63,
-            "level": "54",
+            "id": 1194,
+            "level": 54,
             "name": "There's Sand in My Water (L)",
-            "zone": "The Churning Mists",
-            "location": "Moghome",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
         },
         {
-            "id": 64,
-            "level": "56",
-            "name": "The Puppets of War (L)",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
+            "id": 1195,
+            "level": 54,
+            "name": "History Needs Some Revisions (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Churning Mists"
         },
         {
-            "id": 65,
-            "level": "56",
+            "id": 1196,
+            "level": 56,
+            "name": "Fake-icite",
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
+        },
+        {
+            "id": 1197,
+            "level": 56,
+            "name": "What Goes Up",
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
+        },
+        {
+            "id": 1198,
+            "level": 56,
+            "name": "Mortarin'",
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
+        },
+        {
+            "id": 1199,
+            "level": 56,
             "name": "Fool Me Once (L)",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
         },
         {
-            "id": 66,
-            "level": "56",
-            "name": "A Spire for New Hights (L)",
-            "zone": "The Sea of Clouds",
-            "location": "Camp Cloudtop",
-            "npc": "Eloin"
+            "id": 1200,
+            "level": 56,
+            "name": "The Puppets of War (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
         },
         {
-            "id": 67,
-            "level": "58",
-            "name": "Not So Crystal Clear (L)",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
+            "id": 1201,
+            "level": 56,
+            "name": "A Spire for New Heights (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Sea of Clouds"
         },
         {
-            "id": 68,
-            "level": "58",
+            "id": 1202,
+            "level": 58,
+            "name": "Sticking It Out",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
+        },
+        {
+            "id": 1203,
+            "level": 58,
+            "name": "Crystal Chronicles",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
+        },
+        {
+            "id": 1204,
+            "level": 58,
+            "name": "Dragonproofing",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
+        },
+        {
+            "id": 1205,
+            "level": 58,
             "name": "Pommeling the Enemy (L)",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
         },
         {
-            "id": 69,
-            "level": "58",
+            "id": 1206,
+            "level": 58,
+            "name": "Not So Crystal Clear (L)",
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
+        },
+        {
+            "id": 1207,
+            "level": 58,
             "name": "Sharlayan Sympathizers (L)",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Paths of Creation",
-            "npc": "Eloin"
+            "issueLocation": "Foundation",
+            "leveZone": "The Dravanian Hinterlands"
         },
         {
-            "id": 70,
-            "level": "60",
+            "id": 1373,
+            "level": 60,
             "name": "Cermet Breaker",
-            "zone": "The Fringes",
-            "location": "The Striped Hills",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Fringes"
         },
         {
-            "id": 71,
-            "level": "60",
-            "name": "Set In Stone",
-            "zone": "The Fringes",
-            "location": "The Striped Hills",
-            "npc": "Keltraeng"
+            "id": 1374,
+            "level": 60,
+            "name": "Set in Stone",
+            "issueLocation": "Kugane",
+            "leveZone": "The Fringes"
         },
         {
-            "id": 72,
-            "level": "60",
-            "name": "Axe To Grind",
-            "zone": "The Fringes",
-            "location": "The Striped Hills",
-            "npc": "Keltraeng"
+            "id": 1375,
+            "level": 60,
+            "name": "Axe to Grind",
+            "issueLocation": "Kugane",
+            "leveZone": "The Fringes"
         },
         {
-            "id": 73,
-            "level": "62",
+            "id": 1376,
+            "level": 62,
             "name": "Ready Ore Not",
-            "zone": "The Ruby Sea",
-            "location": "Rasen Kaikyo",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Ruby Sea"
         },
         {
-            "id": 74,
-            "level": "62",
+            "id": 1377,
+            "level": 62,
             "name": "Hit Rock Bottom",
-            "zone": "The Ruby Sea",
-            "location": "Rasen Kaikyo",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Ruby Sea"
         },
         {
-            "id": 75,
-            "level": "62",
+            "id": 1378,
+            "level": 62,
             "name": "Coral-lary",
-            "zone": "The Ruby Sea",
-            "location": "Rasen Kaikyo",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Ruby Sea"
         },
         {
-            "id": 76,
-            "level": "64",
-            "name": "No Stone Unturned",
-            "zone": "Yanxia",
-            "location": "Eastern Ryurin Bridge",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 77,
-            "level": "64",
+            "id": 1379,
+            "level": 64,
             "name": "Simply Marble Us",
-            "zone": "Yanxia",
-            "location": "The Gensui Chain",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 78,
-            "level": "64",
+            "id": 1380,
+            "level": 64,
             "name": "Scraptacular",
-            "zone": "Yanxia",
-            "location": "Casrum Fluminis",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 79,
-            "level": "66",
-            "name": "Dunes of Our Lives",
-            "zone": "The Azim Steppe",
-            "location": "Ceol Aen",
-            "npc": "Keltraeng"
+            "id": 1381,
+            "level": 64,
+            "name": "No Stone Unturned",
+            "issueLocation": "Kugane",
+            "leveZone": "Yanxia"
         },
         {
-            "id": 80,
-            "level": "66",
-            "name": "Bead Em Up",
-            "zone": "The Azim Steppe",
-            "location": "Nhaama's Retreat",
-            "npc": "Keltraeng"
+            "id": 1382,
+            "level": 66,
+            "name": "Bead 'Em Up",
+            "issueLocation": "Kugane",
+            "leveZone": "The Azim Steppe"
         },
         {
-            "id": 81,
-            "level": "66",
+            "id": 1383,
+            "level": 66,
             "name": "O Say Can You Rock",
-            "zone": "The Azim Steppe",
-            "location": "Onsal Hakair",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Azim Steppe"
         },
         {
-            "id": 82,
-            "level": "68",
-            "name": "The Ores Have It",
-            "zone": "The Peaks",
-            "location": "Mount Yorn",
-            "npc": "Keltraeng"
+            "id": 1384,
+            "level": 66,
+            "name": "Dunes of Our Lives",
+            "issueLocation": "Kugane",
+            "leveZone": "The Azim Steppe"
         },
         {
-            "id": 83,
-            "level": "68",
-            "name": "Adios, Ala Mhigo",
-            "zone": "The Peaks",
-            "location": "Wightrock",
-            "npc": "Keltraeng"
-        },
-        {
-            "id": 84,
-            "level": "68",
+            "id": 1385,
+            "level": 68,
             "name": "Mine All Mine",
-            "zone": "The Peaks",
-            "location": "Wightrock",
-            "npc": "Keltraeng"
+            "issueLocation": "Kugane",
+            "leveZone": "The Peaks"
         },
         {
-            "id": 85,
-            "level": "70",
-            "name": "Barmy for Ballistas",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "id": 1386,
+            "level": 68,
+            "name": "Adios, Ala Mhigo",
+            "issueLocation": "Kugane",
+            "leveZone": "The Peaks"
         },
         {
-            "id": 86,
-            "level": "70",
+            "id": 1387,
+            "level": 68,
+            "name": "The Ores Have It",
+            "issueLocation": "Kugane",
+            "leveZone": "The Peaks"
+        },
+        {
+            "id": 1538,
+            "level": 70,
             "name": "Jewelry for All",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Kholusia"
         },
         {
-            "id": 87,
-            "level": "70",
+            "id": 1539,
+            "level": 70,
             "name": "The Search for Slag",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Kholusia"
         },
         {
-            "id": 88,
-            "level": "72",
+            "id": 1540,
+            "level": 70,
+            "name": "Barmy for Ballistas",
+            "issueLocation": "The Crystarium",
+            "leveZone": "Kholusia"
+        },
+        {
+            "id": 1541,
+            "level": 72,
             "name": "Secret Stones",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 89,
-            "level": "72",
+            "id": 1542,
+            "level": 72,
             "name": "New Necklaces",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 90,
-            "level": "72",
-            "name": "Crystalized Revenge",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "id": 1543,
+            "level": 72,
+            "name": "Crystallized Revenge",
+            "issueLocation": "The Crystarium",
+            "leveZone": "Il Mheg"
         },
         {
-            "id": 91,
-            "level": "74",
-            "name": "Knowledge Is Power",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 92,
-            "level": "74",
-            "name": "Jewels for Jewelry",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 93,
-            "level": "74",
+            "id": 1544,
+            "level": 74,
             "name": "Rocks from Rak'tika",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "The Rak'tika Greatwood"
         },
         {
-            "id": 94,
-            "level": "76",
-            "name": "The Magic of Mining",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "id": 1545,
+            "level": 74,
+            "name": "Jewels for Jewelry",
+            "issueLocation": "The Crystarium",
+            "leveZone": "The Rak'tika Greatwood"
         },
         {
-            "id": 95,
-            "level": "76",
-            "name": "Jewelry Is Forever",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "id": 1546,
+            "level": 74,
+            "name": "Knowledge Is Power",
+            "issueLocation": "The Crystarium",
+            "leveZone": "The Rak'tika Greatwood"
         },
         {
-            "id": 96,
-            "level": "76",
+            "id": 1547,
+            "level": 76,
             "name": "Road to Recovery",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Amh Araeng"
         },
         {
-            "id": 97,
-            "level": "78",
+            "id": 1548,
+            "level": 76,
+            "name": "Jewelry Is Forever",
+            "issueLocation": "The Crystarium",
+            "leveZone": "Amh Araeng"
+        },
+        {
+            "id": 1549,
+            "level": 76,
+            "name": "The Magic of Mining",
+            "issueLocation": "The Crystarium",
+            "leveZone": "Amh Araeng"
+        },
+        {
+            "id": 1550,
+            "level": 78,
             "name": "Lakeland's Legacy",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Lakeland"
         },
         {
-            "id": 98,
-            "level": "78",
-            "name": "Crystal Meds",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 99,
-            "level": "78",
+            "id": 1551,
+            "level": 78,
             "name": "Back Stronger",
-            "zone": "The Crystarium",
-            "location": "The Baldaquin",
-            "npc": "Eirikur"
+            "issueLocation": "The Crystarium",
+            "leveZone": "Lakeland"
+        },
+        {
+            "id": 1552,
+            "level": 78,
+            "name": "Crystal Meds",
+            "issueLocation": "The Crystarium",
+            "leveZone": "Lakeland"
+        },
+        {
+            "id": 714,
+            "level": 1,
+            "name": "Rubble Bubble",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 715,
+            "level": 1,
+            "name": "Who Needs the Paperwork",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 716,
+            "level": 1,
+            "name": "The Primrose Path",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 717,
+            "level": 1,
+            "name": "Miners' Holiday",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 718,
+            "level": 5,
+            "name": "Vanishing Point",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 719,
+            "level": 5,
+            "name": "Do They Ore Don't They",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 720,
+            "level": 5,
+            "name": "Pipikkuli's Ship Comes In",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 721,
+            "level": 5,
+            "name": "I Don't Zinc It's a Coincidence",
+            "issueLocation": "Scorpion Crossing",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 722,
+            "level": 10,
+            "name": "Break It Up",
+            "issueLocation": "Horizon",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 723,
+            "level": 10,
+            "name": "That's Why They Call It Fool's Gold",
+            "issueLocation": "Horizon",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 724,
+            "level": 10,
+            "name": "It Peiste to Listen",
+            "issueLocation": "Horizon",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 725,
+            "level": 10,
+            "name": "We Do This the Hard Way",
+            "issueLocation": "Horizon",
+            "leveZone": "Western Thanalan"
+        },
+        {
+            "id": 726,
+            "level": 15,
+            "name": "A Man's Gotta Dream",
+            "issueLocation": "Camp Drybone",
+            "leveZone": "Eastern Thanalan"
+        },
+        {
+            "id": 727,
+            "level": 15,
+            "name": "Earth Sprites Are Easy",
+            "issueLocation": "Camp Drybone",
+            "leveZone": "Eastern Thanalan"
+        },
+        {
+            "id": 728,
+            "level": 15,
+            "name": "Eiderdown for Eidolons",
+            "issueLocation": "Camp Drybone",
+            "leveZone": "Eastern Thanalan"
+        },
+        {
+            "id": 729,
+            "level": 15,
+            "name": "The Doom that Came to Belah'dia",
+            "issueLocation": "Camp Drybone",
+            "leveZone": "Eastern Thanalan"
+        },
+        {
+            "id": 730,
+            "level": 20,
+            "name": "Look How They Shine for You",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 731,
+            "level": 20,
+            "name": "Elemental Housekeeping",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 732,
+            "level": 20,
+            "name": "Location, Location, Location",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 733,
+            "level": 20,
+            "name": "Rock My Wall",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 734,
+            "level": 25,
+            "name": "Fool Me Twice",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 735,
+            "level": 25,
+            "name": "Can't Start a Fire",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 736,
+            "level": 25,
+            "name": "Tag, You're It",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 737,
+            "level": 25,
+            "name": "Baby, Light My Way",
+            "issueLocation": "Quarrymill",
+            "leveZone": "South Shroud"
+        },
+        {
+            "id": 738,
+            "level": 30,
+            "name": "I Kidd You Not",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Eastern La Noscea"
+        },
+        {
+            "id": 739,
+            "level": 30,
+            "name": "That's What the Money Is For",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Eastern La Noscea"
+        },
+        {
+            "id": 740,
+            "level": 30,
+            "name": "The Midden Fair",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Eastern La Noscea"
+        },
+        {
+            "id": 741,
+            "level": 30,
+            "name": "Shell Game",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Eastern La Noscea"
+        },
+        {
+            "id": 742,
+            "level": 35,
+            "name": "Rocks for Brains",
+            "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 743,
+            "level": 35,
+            "name": "There Are No Good Answers",
+            "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 744,
+            "level": 35,
+            "name": "Eye for an Eye",
+            "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 745,
+            "level": 35,
+            "name": "Mythril Madness",
+            "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 746,
+            "level": 40,
+            "name": "Nature Is a Monster",
+            "issueLocation": "Whitebrim Front",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 747,
+            "level": 40,
+            "name": "Brother in Arms",
+            "issueLocation": "Whitebrim Front",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 748,
+            "level": 40,
+            "name": "Breach and Build",
+            "issueLocation": "Whitebrim Front",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 749,
+            "level": 40,
+            "name": "Not Losing Our Heads This Time",
+            "issueLocation": "Whitebrim Front",
+            "leveZone": "Coerthas Central Highlands"
+        },
+        {
+            "id": 750,
+            "level": 45,
+            "name": "Metal Has No Master",
+            "issueLocation": "Saint Coinach's Find",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 751,
+            "level": 45,
+            "name": "Crystal Mess",
+            "issueLocation": "Saint Coinach's Find",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 752,
+            "level": 45,
+            "name": "Sucker Seer",
+            "issueLocation": "Saint Coinach's Find",
+            "leveZone": "Mor Dhona"
+        },
+        {
+            "id": 753,
+            "level": 45,
+            "name": "Hybrid Hypotheses",
+            "issueLocation": "Saint Coinach's Find",
+            "leveZone": "Mor Dhona"
         }
     ]
 }

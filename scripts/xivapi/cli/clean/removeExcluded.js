@@ -12,10 +12,11 @@ module.exports = function removeExcluded(rl, content) {
 
         dirs.forEach((dir) => {
             const fileName = dir.replace(".json", "");
+            const excluded = content.excludedIds ? Object.keys(content.excludedIds) : [];
             const newPath = `${path}/${dir}`;
 
             if(dir === fileName) dive(content, newPath);
-            else if(content.excludedIds && Object.keys(content.excludedIds).includes(fileName)) {
+            else if(excluded.includes(fileName)) {
                 rl.write(`Removing ${newPath}\n`);
                 fs.unlinkSync(newPath);
             }

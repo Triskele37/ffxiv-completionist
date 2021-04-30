@@ -27,8 +27,12 @@ module.exports = function reviewErrors(rl, content) {
                 }
                 catch(e) {
                     if(content.config.API_ENDPOINT === "Quest") {
-                        if(!file.JournalGenre) console.log(`${error} does not have a JournalGenre: ${file.Name}`);
-                        else console.log(`${error}: Unknown error`);
+                        let message = `Unknown Error`;
+
+                        if(!file.JournalGenre) message = `Missing JournalGenre: ${file.Name}`;
+                        if(!file.Name) message = "Missing Name";
+
+                        console.log(`${error}: ${message}`);
                     }
                 }
             }

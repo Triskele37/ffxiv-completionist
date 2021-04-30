@@ -6,8 +6,11 @@ const config = require('./config.json');
 module.exports = {
     config,
     path: function(Recipe) {
+        const isLevelRecipe = !!Recipe.RecipeLevelTable; // .ClassJobLevel = 20
+        const isMasterRecipe = !!Recipe.SecretRecipeBook; // .Name = "Master Armorer VIII"
+
         return [
-            Recipe.ClassJob.Abbreviation,
+            Recipe.ClassJob.Name,
             Recipe.RecipeLevelTable.ClassJobLevel
         ];
     },
