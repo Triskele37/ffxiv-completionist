@@ -1,4 +1,7 @@
+const baseDir = "./scripts/xivapi";
+
 module.exports = {
-    CACHE_DIR: "./scripts/xivapi/cache",
-    RESOURCES: "./resources"
+    CONTENT_DIR: `${baseDir}/content`,
+    CACHE_DIR: `${baseDir}/cache`,
+    RESOURCES: "./resources",
 };

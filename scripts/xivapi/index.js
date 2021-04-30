@@ -6,6 +6,7 @@ const rl = readline.createInterface({
 });
 
 const cacheCLI = require('./cli/cache');
+const cleanCLI = require("./cli/clean");
 const mergeCLI = require('./cli/merge');
 
 // Process entry point
@@ -17,15 +18,17 @@ function mainScreen() {
     console.clear();
     rl.write('Welcome\n');
     rl.write('\n1. Cache');
-    rl.write('\n2. Merge');
-    rl.write('\n3. Custom');
-    rl.write('\n4. Exit\n');
+    rl.write('\n2. Clean');
+    rl.write('\n3. Merge');
+    rl.write('\n4. Custom');
+    rl.write('\n5. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
             case '1': cacheCLI(rl, mainScreen); break;
-            case '2': mergeCLI(rl, mainScreen); break;
-            case '3': {
+            case '2': cleanCLI(rl, mainScreen); break;
+            case '3': mergeCLI(rl, mainScreen); break;
+            case '4': {
                 done();
                 break;
             }

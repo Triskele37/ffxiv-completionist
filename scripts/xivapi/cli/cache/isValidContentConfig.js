@@ -3,7 +3,6 @@ module.exports = function isValidContentConfig(content) {
     if(!content.config.API_ENDPOINT) content.config.API_ENDPOINT = '';
     if(!content.config.TOTAL_ITEMS) content.config.TOTAL_ITEMS = 0;
     if(!content.config.FAILED_IDS) content.config.FAILED_IDS = [];
-    if(!content.config.EXCLUDE_IDS) content.config.EXCLUDE_IDS = [];
 
     // Initialize flags
     if(!content.config.hasOwnProperty('NEW_SCRAPE')) content.config.NEW_SCRAPE = false;

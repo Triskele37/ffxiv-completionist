@@ -46,7 +46,10 @@ async function getIdList(content) {
         const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;
 
-        const newIDs = allIDs.filter((ID) => !cachedIDs.includes(ID.toString()));
+        const newIDs = allIDs.filter((ID) => {
+            if(cachedIDs.includes(ID.toString())) return false; // Not already cached
+            return !Object.keys(content.excludedIds).includes(ID.toString()); // Not excluded
+        });
         console.log(`${newIDs.length} new items detected`);
 
         return newIDs;
@@ -55,7 +58,7 @@ async function getIdList(content) {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;
 
-        return allIDs;
+        return allIDs.filter((ID) => !Object.keys(content.excludedIds).includes(ID.toString()));
     }
     else if(content.config.FAILED_SCRAPE) {
         const temp = [...content.config.FAILED_IDS];
@@ -85,11 +88,7 @@ async function getItems(content, IDS) {
  * The grab of a single item, does the cache write
  * ----------------------------------------------------------------------------- */
 async function getItem(content, id) {
-    // Bail out if trying to get a non-existent ID
-    if(!id) return;
-
-    // Bail out for excluded IDs
-    if(content.config.EXCLUDE_IDS.indexOf(id) !== -1) return;
+    if(!id) return; // Bail out if trying to get a non-existent ID
 
     try {
         // Attempt to grab the item's data

@@ -1,11 +1,13 @@
-const buildAPI = require('../../cli/util/buildAPI');
+const utils = require("../../utils");
+const buildAPI = require("../../cli/util/buildAPI");
 
-const config = require('./config.json');
-const mapCacheTask = require('./mapCacheTask');
-const mapAppTask = require('./mapAppTask');
+const config = require("./config.json");
+const mapCacheTask = require("./mapCacheTask");
+const mapAppTask = require("./mapAppTask");
 
 module.exports = {
     config,
+    excludedIds: utils.loadExcludedFile("Achievement"),
     path: function(Achievement) {
         return [
             Achievement.AchievementCategory.AchievementKind.Name,
@@ -25,7 +27,7 @@ module.exports = {
         }
     },
     translateCachePath: function(path) {
-        path = path.replace('crafting-gathering', 'crafting-and-gathering');
+        path = path.replace("crafting-gathering", "crafting-and-gathering");
 
         return path;
     },

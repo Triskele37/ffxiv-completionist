@@ -25,7 +25,7 @@ module.exports = function buildAPI(config, mapProperties) {
                     buildObj.keys.push(item);
                     dive(newPath, buildObj[item], config);
                 }
-                else if(!config.EXCLUDE_IDS.includes(item)) {
+                else {
                     try {
                         const cachedFile = JSON.parse(fs.readFileSync(newPath));
                         const staticFile = mapProperties(cachedFile);

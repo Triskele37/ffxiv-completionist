@@ -4,6 +4,8 @@ const logUpdate = require('log-update');
 const constants = require("../../constants");
 const getSafeName = require('../util/getSafeName');
 
+//TODO: Merge new tasks that have the same ID but differing lang so only one action does both
+
 module.exports = function mergeAPI(content, rl, done) {
     const diffTasks = [];
     const newTasks = [];
@@ -78,8 +80,8 @@ module.exports = function mergeAPI(content, rl, done) {
         rl.write(`  App Value: "${appTask[appKey]}"\n`);
         rl.write(`Cache Value: "${cacheTask[cacheKey]}"\n`);
 
-        rl.question('\nUpdate App with cached value? (Y/N)', (answer) => {
-            if(answer.toLowerCase() === 'y') {
+        rl.question('\nUpdate App with cached value? (Y/N) or (1/2) ', (answer) => {
+            if(answer.toLowerCase() === 'y' || answer === '1') {
                 const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
                 json.tasks.forEach((task) => {
                     if(task.id === appTask.id) task[appKey] = cacheTask[cacheKey];
@@ -109,8 +111,8 @@ module.exports = function mergeAPI(content, rl, done) {
         rl.write(`New Task detected ${totalNew - newTasks.length}/${totalNew}: ${appPath}\n`);
         console.log(cacheTask);
 
-        rl.question('\nAdd task to app? (Y/N)', (answer) => {
-            if(answer.toLowerCase() === 'y') {
+        rl.question('\nAdd task to app? (Y/N) or (1/2) ', (answer) => {
+            if(answer.toLowerCase() === 'y' || answer === '1') {
                 const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
                 json.tasks.push(content.mapAppTask(cacheTask, lang));
                 fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
