@@ -2,7 +2,6 @@ const fs = require("fs");
 const logUpdate = require('log-update');
 
 const constants = require("../../constants");
-const getSafeName = require('../util/getSafeName');
 
 //TODO: Merge new tasks that have the same ID but differing lang so only one action does both
 
@@ -10,8 +9,7 @@ module.exports = function mergeAPI(content, rl, done) {
     const diffTasks = [];
     const newTasks = [];
 
-    const cachePath = `${getSafeName(content.config.API_ENDPOINT)}`;
-    dive(content.build(), cachePath);
+    dive(content.build(), "");
 
     // mergeDiffTasks > mergeNewTasks > done
     const [totalDiffs, totalNew] = [diffTasks.length, newTasks.length];
@@ -21,11 +19,11 @@ module.exports = function mergeAPI(content, rl, done) {
     function dive(cache, path) {
         // Recurse all groups within content type
         if(cache.keys.length) {
-            cache.keys.forEach((key) => dive(cache[key], `${path}/${key}`));
+            cache.keys.forEach((key) => dive(cache[key], path ? `${path}/${key}` : key));
         }
 
         // Initialize merge of cached & app tasks
-        if(cache.tasks.length) {
+        if(cache.tasks.length && !content.mergePathExcluded(path)) {
             analyzeTasks(cache, path, "en");
             analyzeTasks(cache, path, "fr");
         }
@@ -33,7 +31,7 @@ module.exports = function mergeAPI(content, rl, done) {
 
     function analyzeTasks(cache, path, lang) {
         let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
-        appPath = content.translateCachePath(appPath);
+        if(content.getAppPath) appPath = content.getAppPath(appPath);
 
         const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : {};
 
@@ -43,9 +41,9 @@ module.exports = function mergeAPI(content, rl, done) {
 
             if(appTask) {
                 content.MERGE_KEYS.forEach((appKey) => {
-                    const cacheKey = content.translateKeys(appKey, lang);
+                    const cacheKey = content.getCacheKey(appKey, lang);
 
-                    if(appTask[appKey] !== cacheTask[cacheKey]) {
+                    if(appTask[appKey] !== trim(cacheTask[cacheKey])) {
                         diffTasks.push({
                             appPath,
                             appKey,
@@ -64,6 +62,7 @@ module.exports = function mergeAPI(content, rl, done) {
 
     //------------------------------------------------------------------ Merge diff'd properties
     function mergeDiffTasks() {
+        logUpdate.clear();
         console.clear();
 
         // Continue workflow
@@ -76,16 +75,18 @@ module.exports = function mergeAPI(content, rl, done) {
         const { appPath, appKey, appTask, cacheKey, cacheTask } = diffTasks.shift();
 
         rl.write(`Diff detected ${totalDiffs - diffTasks.length}/${totalDiffs}: ${appPath}\n`);
-        rl.write(`Name: ${appTask.name}\n`);
         rl.write(`Key: ${appKey}\n\n`);
-        rl.write(`  App Value: "${appTask[appKey]}"\n`);
-        rl.write(`Cache Value: "${cacheTask[cacheKey]}"\n`);
+        rl.write("App Task:\n");
+        console.log(appTask);
+
+        rl.write("\nCache Task:\n");
+        console.log(cacheTask);
 
         rl.question('\nUpdate App with cached value? (Y/N) or (1/2) ', (answer) => {
             if(answer.toLowerCase() === 'y' || answer === '1') {
                 const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
                 json.tasks.forEach((task) => {
-                    if(task.id === appTask.id) task[appKey] = cacheTask[cacheKey];
+                    if(task.id === appTask.id) task[appKey] = trim(cacheTask[cacheKey]);
                 });
                 fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
 
@@ -146,3 +147,7 @@ module.exports = function mergeAPI(content, rl, done) {
         rl.question(`\n\n${totalAdded} tasks added`, mergeNewTasks);
     }
 };
+
+function trim(val) {
+    return (typeof val === "string") ? val.trim() : val;
+}

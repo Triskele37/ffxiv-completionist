@@ -2,33 +2,19 @@ const utils = require("../../utils");
 const buildAPI = require("../../cli/util/buildAPI");
 
 const config = require("./config.json");
-const mapCacheTask = require("./mapCacheTask");
-const mapAppTask = require("./mapAppTask");
+const getCachePath = require("./cache/getCachePath");
+const mapCacheTask = require("./cache/mapCacheTask");
+const getCacheKey = require("./cache/getCacheKey");
+const getAppPath = require("./app/getAppPath");
+const mapAppTask = require("./app/mapAppTask");
 
 module.exports = {
     config,
-    excludedIds: utils.loadExcludedFile("Achievement"),
-    path: function(Achievement) {
-        return [
-            Achievement.AchievementCategory.AchievementKind.Name,
-            Achievement.AchievementCategory.Name
-        ];
-    },
-    build: () => buildAPI(config, mapCacheTask),
     MERGE_KEYS: ["id", "name", "description", "reward", "points"],
+    excludedIds: utils.loadExcludedFile("Achievement"),
+    path: getCachePath,
+    build: () => buildAPI(config, mapCacheTask),
+    getCacheKey,
     mapAppTask,
-    translateKeys: function(appKey, lang) {
-        switch(appKey) {
-            case "id": return "ID";
-            case "name": return `Name_${lang}`;
-            case "description": return `Description_${lang}`;
-            case "reward": return `Reward_${lang}`;
-            case "points": return "Points";
-        }
-    },
-    translateCachePath: function(path) {
-        path = path.replace("crafting-gathering", "crafting-and-gathering");
-
-        return path;
-    },
+    getAppPath
 };

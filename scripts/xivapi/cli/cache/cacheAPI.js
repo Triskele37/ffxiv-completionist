@@ -6,6 +6,7 @@ const getCachedIDs = require('./getCachedIDs');
 const concurrentWorkers = require('./concurrentWorkers');
 const isValidContentConfig = require('./isValidContentConfig');
 const writeJsonFile = require('../util/writeJsonFile');
+const constants = require("../../constants");
 
 module.exports = async function cacheAPI(content, done) {
     console.log(`Initializing ${content.config.API_ENDPOINT} cache\n`);
@@ -32,7 +33,7 @@ module.exports = async function cacheAPI(content, done) {
 
     // Write cache config updates
     console.log(`Updating config for ${content.config.API_ENDPOINT}`);
-    writeJsonFile('./scripts/xivapi/cli', [content.config.API_ENDPOINT], 'config', content.config);
+    writeJsonFile(constants.CONTENT_DIR, [content.config.API_ENDPOINT], 'config', content.config);
 
     done();
 };
@@ -100,7 +101,7 @@ async function getItem(content, id) {
         try { contentPath = content.path(data); }
         catch(e) { contentPath = ['_error']; }
 
-        writeJsonFile(`./scripts/xivapi/cache`, [
+        writeJsonFile(constants.CACHE_DIR, [
             content.config.API_ENDPOINT,
             ...contentPath
         ], data.ID, data);
