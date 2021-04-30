@@ -3,804 +3,704 @@
     "groupName": "Pêche",
     "tasks": [
         {
-            "id": 0,
-            "level": "1",
-            "name": "Collecte : le secret est dans le varech",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 1,
-            "level": "1",
-            "name": "Collecte : le festin des pauvres",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 2,
-            "level": "1",
-            "name": "Prélèvement : condiments pour aventuriers",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 3,
-            "level": "1",
-            "name": "Collecte : des gobies à gober",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 4,
-            "level": "5",
-            "name": "Prélèvement : la bonne dose de méduse",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 5,
-            "level": "5",
-            "name": "Grosse récolte : splendeur en bocal",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 6,
-            "level": "5",
-            "name": "Collecte : aussi bons qu'ils sont jolis",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 7,
-            "level": "5",
-            "name": "Grosse récolte : recette terre-mer",
-            "zone": "Basse-Noscea",
-            "location": "Métairie du Coq rouge",
-            "npc": "Wyrkholsk"
-        },
-        {
-            "id": 8,
-            "level": "10",
-            "name": "Grosse récolte : incandescente fertilité",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
-        },
-        {
-            "id": 9,
-            "level": "10",
-            "name": "Collecte : flets à flots",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
-        },
-        {
-            "id": 10,
-            "level": "10",
-            "name": "Collecte : mouiller avant de déguster",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
-        },
-        {
-            "id": 11,
-            "level": "10",
-            "name": "Grosse récolte : tout est dans le cerveau",
-            "zone": "Noscea occidentale",
-            "location": "Le Martinet",
-            "npc": "Swygskyf"
-        },
-        {
-            "id": 12,
-            "level": "15",
-            "name": "Collecte : la bonne coquille",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 756,
+            "level": 1,
+            "name": "Collecte: le secret est dans le varech",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 13,
-            "level": "15",
-            "name": "Collecte : plus profonde sera l'entaille",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 757,
+            "level": 1,
+            "name": "Collecte: le festin des pauvres",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 14,
-            "level": "15",
-            "name": "Grosse récolte : les crabes de la fortune",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 754,
+            "level": 1,
+            "name": "Collecte: condiments pour aventuriers",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 15,
-            "level": "15",
-            "name": "Grosse récolte : la morale du corail",
-            "zone": "Noscea occidentale",
-            "location": "Port-aux-Ales",
-            "npc": "Orwen"
+            "id": 755,
+            "level": 1,
+            "name": "Collecte: des gobies à gober",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 16,
-            "level": "20",
-            "name": "Collecte : décoration poissonneuse",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 758,
+            "level": 5,
+            "name": "Collecte: la bonne dose de méduse",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 17,
-            "level": "20",
-            "name": "Collecte : anguilles et ophiophobie",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 761,
+            "level": 5,
+            "name": "Grosse récolte: splendeur en bocal",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 18,
-            "level": "20",
-            "name": "Grosse récolte : chaîne alimentaire",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 759,
+            "level": 5,
+            "name": "Collecte: aussi bons qu'ils sont jolis",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 19,
-            "level": "20",
-            "name": "Grosse récolte : ambition aveugle",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 760,
+            "level": 5,
+            "name": "Grosse récolte: recette terre-mer",
+            "issueLocation": "Limsa Lominsa",
+            "leveZone": "Limsa Lominsa"
         },
         {
-            "id": 20,
-            "level": "25",
-            "name": "Collecte : coup de foudre pour un poisson",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 765,
+            "level": 10,
+            "name": "Grosse récolte: incandescente fertilité",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 21,
-            "level": "25",
-            "name": "Collecte : mensonges et parties de pêche",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 762,
+            "level": 10,
+            "name": "Collecte: flets à flots",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 22,
-            "level": "25",
-            "name": "Grosse récolte : être pêcheur ou ne pas l'être",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 763,
+            "level": 10,
+            "name": "Collecte: mouiller avant de déguster",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 23,
-            "level": "25",
-            "name": "Grosse récolte : la liberté dans la vérité",
-            "zone": "Forêt du sud",
-            "location": "Moulin de la Carrière",
-            "npc": "Nyell"
+            "id": 764,
+            "level": 10,
+            "name": "Grosse récolte: tout est dans le cerveau",
+            "issueLocation": "Le Martinet",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 24,
-            "level": "30",
-            "name": "Collecte : recettte amicale",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 766,
+            "level": 15,
+            "name": "Collecte: la bonne coquille",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 25,
-            "level": "30",
-            "name": "Grosse récolte : sa période bleue",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 767,
+            "level": 15,
+            "name": "Collecte: plus profonde sera l'entaille",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 26,
-            "level": "30",
-            "name": "Collecte : ne m'attendez pas pour dîner",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 769,
+            "level": 15,
+            "name": "Grosse récolte: les crabes de la fortune",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 27,
-            "level": "30",
-            "name": "Grosse récolte : plus de cauchemar en cuisine",
-            "zone": "Nocea orientale",
-            "location": "Costa del Sol",
-            "npc": "Nahctahr"
+            "id": 768,
+            "level": 15,
+            "name": "Grosse récolte: la morale du corail",
+            "issueLocation": "Port-aux-Ales",
+            "leveZone": "Noscea occidentale"
         },
         {
-            "id": 28,
-            "level": "35",
-            "name": "Grosse récolte : ceux qui voient la lumière",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 770,
+            "level": 20,
+            "name": "Collecte: décoration poissonneuse",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 29,
-            "level": "35",
-            "name": "Collecte : touche pas à mon poisson!",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 771,
+            "level": 20,
+            "name": "Collecte: anguilles et ophiophobie",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 30,
-            "level": "35",
-            "name": "Collecte : avantages alimentaires",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 772,
+            "level": 20,
+            "name": "Grosse récolte: chaîne alimentaire",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 31,
-            "level": "35",
-            "name": "Grosse récolte : de la friture sur la ligne",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Observatoire",
-            "npc": "Cimeaurant"
+            "id": 773,
+            "level": 20,
+            "name": "Grosse récolte: ambition aveugle",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 32,
-            "level": "40",
-            "name": "Grosse récolte : rations de gardon",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 774,
+            "level": 25,
+            "name": "Collecte: coup de foudre pour un poisson",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 33,
-            "level": "40",
-            "name": "Grosse récolte : la saison des éperlans",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 775,
+            "level": 25,
+            "name": "Collecte: mensonges et parties de pêche",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 34,
-            "level": "40",
-            "name": "Collecte : bâtisseur d'empire",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 776,
+            "level": 25,
+            "name": "Grosse récolte: être pêcheur ou ne pas l'être",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 35,
-            "level": "40",
-            "name": "Collecte : maître des lacs",
-            "zone": "Hautes terres du Coerthas central",
-            "location": "Poste de l'Arête blanche",
-            "npc": "Voilinaut"
+            "id": 777,
+            "level": 25,
+            "name": "Grosse récolte: la liberté dans la vérité",
+            "issueLocation": "Moulin de la Carrière",
+            "leveZone": "Forêt du sud"
         },
         {
-            "id": 36,
-            "level": "45",
-            "name": "Grosse récolte : ciel, mes gobies!",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 778,
+            "level": 30,
+            "name": "Collecte: recette amicale",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 37,
-            "level": "45",
-            "name": "Collecte : preuve par comparaison",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 781,
+            "level": 30,
+            "name": "Grosse récolte: sa période bleue",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 38,
-            "level": "45",
-            "name": "Grosse récolte : repas fossile",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 779,
+            "level": 30,
+            "name": "Collecte: ne m'attendez pas pour dîner",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 39,
-            "level": "45",
-            "name": "Grosse récolte : zapper la nature",
-            "zone": "Mor Dhona",
-            "location": "Trouvaille de Saint-Coinach",
-            "npc": "K'leytai"
+            "id": 780,
+            "level": 30,
+            "name": "Grosse récolte: plus de cauchemar en cuisine",
+            "issueLocation": "Costa del Sol",
+            "leveZone": "Noscea orientale"
         },
         {
-            "id": 40,
-            "level": "50",
-            "name": "Collecte : des crevettes à l'égout",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 785,
+            "level": 35,
+            "name": "Grosse récolte: ceux qui voient la lumière",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 41,
-            "level": "50",
-            "name": "Collecte : les crabes des forgerons",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 783,
+            "level": 35,
+            "name": "Collecte: touche pas à mon poisson!",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 42,
-            "level": "50",
-            "name": "Grosse récolte : des oursins pour les pontes",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 782,
+            "level": 35,
+            "name": "Collecte: avantages alimentaires",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 43,
-            "level": "52",
-            "name": "Collecte : trois lèvres pour les blessés",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 784,
+            "level": 35,
+            "name": "Grosse récolte: de la friture sur la ligne",
+            "issueLocation": "Observatoire",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 44,
-            "level": "52",
-            "name": "Collecte : du poisson au Faucon",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 789,
+            "level": 40,
+            "name": "Grosse récolte: rations de gardon",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 45,
-            "level": "52",
-            "name": "Grosse récolte : poisson-nuage au menu",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 788,
+            "level": 40,
+            "name": "Grosse récolte: la saison des éperlans",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 46,
-            "level": "54",
-            "name": "Collecte : des œufs volants pour bienfaiteur",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 786,
+            "level": 40,
+            "name": "Collecte: bâtisseur d'empire",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 47,
-            "level": "54",
-            "name": "Collecte : un remède de mahu waï",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 787,
+            "level": 40,
+            "name": "Collecte: maître des lacs",
+            "issueLocation": "Poste de L'Arête blanche",
+            "leveZone": "Hautes terres du Coerthas central"
         },
         {
-            "id": 48,
-            "level": "54",
-            "name": "Grosse récolte : les coraux des drapeaux",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 793,
+            "level": 45,
+            "name": "Grosse récolte: ciel, mes gobies!",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 49,
-            "level": "56",
-            "name": "Collecte : les poissons des dragons",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 791,
+            "level": 45,
+            "name": "Collecte: preuve par comparaison",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 50,
-            "level": "56",
-            "name": "Grosse récolte : du pipira pira pour les volontaires",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 792,
+            "level": 45,
+            "name": "Grosse récolte: repas fossile",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 51,
-            "level": "56",
-            "name": "Collecte : des créatures antiques",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 790,
+            "level": 45,
+            "name": "Collecte: zapper la nature",
+            "issueLocation": "Trouvaille de Saint-Coinach",
+            "leveZone": "Mor Dhona"
         },
         {
-            "id": 52,
-            "level": "58",
-            "name": "Collecte : d'étranges poissons-albalétriers",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1209,
+            "level": 50,
+            "name": "Collecte: des crevettes à l'égout",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 53,
-            "level": "58",
-            "name": "Grosse récolte : interrogatoire au poisson",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1208,
+            "level": 50,
+            "name": "Collecte: les crabes des forgerons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 54,
-            "level": "58",
-            "name": "Collecte : du homard contre la grippe",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1210,
+            "level": 50,
+            "name": "Grosse récolte: des oursins pour les pontes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 55,
-            "level": "50",
-            "name": "Grand mandat : les crabes des forgerons",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1214,
+            "level": 52,
+            "name": "Collecte: trois lèvres pour les blessés",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 56,
-            "level": "50",
-            "name": "Grand mandat : des oursins pour les pontes",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1215,
+            "level": 52,
+            "name": "Collecte: du poisson au Faucon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 57,
-            "level": "50",
-            "name": "Grand mandat : des crevettes à l'égout",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1216,
+            "level": 52,
+            "name": "Grosse récolte: poisson-nuage au menu",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 58,
-            "level": "52",
-            "name": "Grand mandat : du poisson au Faucon",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1221,
+            "level": 54,
+            "name": "Collecte: des œufs volants pour bienfaiteur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 59,
-            "level": "52",
-            "name": "Grand mandat : poisson-nuage au menu",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1220,
+            "level": 54,
+            "name": "Collecte: un remède de mahu waï",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 60,
-            "level": "52",
-            "name": "Grand mandat : trois lèvres pour les blessés",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1222,
+            "level": 54,
+            "name": "Grosse récolte: les coraux des drapeaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 61,
-            "level": "54",
-            "name": "Grand mandat : un remède de mahu waï",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1226,
+            "level": 56,
+            "name": "Collecte: les poissons des dragons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 62,
-            "level": "54",
-            "name": "Grand mandat : des œufs volants pour bienfaiteur",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1228,
+            "level": 56,
+            "name": "Grosse récolte: du pipira pira pour les volontaires",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 63,
-            "level": "54",
-            "name": "Grand mandat : les coraux des drapeaux",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1227,
+            "level": 56,
+            "name": "Collecte: des créatures antiques",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 64,
-            "level": "56",
-            "name": "Grand mandat : du pipira pira pour les volontaires",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1232,
+            "level": 58,
+            "name": "Collecte: d'étranges poissons-arbalétriers",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 65,
-            "level": "56",
-            "name": "Grand mandat : des créatures antiques",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1234,
+            "level": 58,
+            "name": "Grosse récolte: interrogatoire au poisson",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 66,
-            "level": "56",
-            "name": "Grand mandat : les poissons des dragons",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1233,
+            "level": 58,
+            "name": "Collecte: du homard contre la grippe",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 67,
-            "level": "58",
-            "name": "Grand mandat : interrogatoire au poisson",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1211,
+            "level": 50,
+            "name": "Grand mandat: les crabes des forgerons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 68,
-            "level": "58",
-            "name": "Grand mandat : du homard contre la grippe",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1213,
+            "level": 50,
+            "name": "Grand mandat: des oursins pour les pontes",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 69,
-            "level": "58",
-            "name": "Grand mandat : d'étranges poissons-albalétriers",
-            "zone": "Ishgard",
-            "location": "L'Assise",
-            "npc": "Eloin"
+            "id": 1212,
+            "level": 50,
+            "name": "Grand mandat: des crevettes à l'égout",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 70,
-            "level": "60",
-            "name": "Grosse récolte : tendre des perches",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1218,
+            "level": 52,
+            "name": "Grand mandat: du poisson au Faucon",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 71,
-            "level": "60",
-            "name": "Collecte : il s'en ralasse à la pelle",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1219,
+            "level": 52,
+            "name": "Grand mandat: poisson-nuage au menu",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 72,
-            "level": "60",
-            "name": "Collecte : des comparaisons rapides",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1217,
+            "level": 52,
+            "name": "Grand mandat: trois lèvres pour les blessés",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 73,
-            "level": "62",
-            "name": "Grosse récolte : coquillages et crustacés",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1223,
+            "level": 54,
+            "name": "Grand mandat: un remède de mahu waï",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 74,
-            "level": "62",
-            "name": "Collecte : les concombres de mer de Shiokaze",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1224,
+            "level": 54,
+            "name": "Grand mandat: des œufs volants pour bienfaiteur",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 75,
-            "level": "62",
-            "name": "Collecte : quelques belles raies",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1225,
+            "level": 54,
+            "name": "Grand mandat: les coraux des drapeaux",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 76,
-            "level": "64",
-            "name": "Grosse récolte : importation de poissons",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1231,
+            "level": 56,
+            "name": "Grand mandat: du pipira pira pour les volontaires",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 77,
-            "level": "64",
-            "name": "Collecte : des poissons à la mode",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1230,
+            "level": 56,
+            "name": "Grand mandat: des créatures antiques",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 78,
-            "level": "64",
-            "name": "Collecte : des écailles pour le dragon",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1229,
+            "level": 56,
+            "name": "Grand mandat: les poissons des dragons",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 79,
-            "level": "66",
-            "name": "Grosse récolte : pénurie de poissons",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1237,
+            "level": 58,
+            "name": "Grand mandat: interrogatoire au poisson",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 80,
-            "level": "66",
-            "name": "Collecte : des poissons consulaires",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1236,
+            "level": 58,
+            "name": "Grand mandat: du homard contre la grippe",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 81,
-            "level": "66",
-            "name": "Collecte : petite gastronomie deviendra grande",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1235,
+            "level": 58,
+            "name": "Grand mandat: d'étranges poissons-arbalétriers",
+            "issueLocation": "Ishgard - L'Assise",
+            "leveZone": "Ishgard"
         },
         {
-            "id": 82,
-            "level": "68",
-            "name": "Grosse récolte : entre deux âges",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1390,
+            "level": 60,
+            "name": "Grosse récolte: tendre des perches",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 83,
-            "level": "68",
-            "name": "Collecte : les poissons d'aquarium éorzéens",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1389,
+            "level": 60,
+            "name": "Collecte: il s'en ramasse à la pelle",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 84,
-            "level": "68",
-            "name": "Collecte : des crocs acérés pour le dragon",
-            "zone": "Kugane",
-            "location": "Kugane",
-            "npc": "Keltraeng"
+            "id": 1388,
+            "level": 60,
+            "name": "Collecte: des comparaisons rapides",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 85,
-            "level": "70",
-            "name": "Collecte : un délicieux sandwich-omelette",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1393,
+            "level": 62,
+            "name": "Grosse récolte: coquillages et crustacés",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 86,
-            "level": "70",
-            "name": "Collecte : mutaion ou pas mutation ?",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1392,
+            "level": 62,
+            "name": "Collecte: les concombres de mer du Shiokaze",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
         },
         {
-            "id": 87,
-            "level": "70",
-            "name": "Grosse récolte : électropêche de nuisibles",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 88,
-            "level": "72",
-            "name": "Collecte : succulente salade de méduse",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 89,
-            "level": "72",
-            "name": "Grosse récolte : plan séisme à Grand-Lac",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 90,
-            "level": "72",
-            "name": "Collecte : l'équilibre de L'Origine",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 91,
-            "level": "74",
-            "name": "Collecte : l'agence matrimoniale du village de pêcheurs",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 92,
-            "level": "74",
-            "name": "Collecte : dissection douce",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 93,
-            "level": "74",
-            "name": "Grosse récolte : savoureux harengs",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 94,
-            "level": "76",
-            "name": "Collecte : onctueuse bisque bleue",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 95,
-            "level": "76",
-            "name": "Grosse récolte : grande entreprise de pisciculture",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 96,
-            "level": "76",
-            "name": "Collecte : fungis guérisseurs",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 97,
-            "level": "78",
-            "name": "Collecte : l'étrange éther des créatures des profondeurs",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 98,
-            "level": "78",
-            "name": "Collecte : les secrets d'une aquaculture stable",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
-        },
-        {
-            "id": 99,
-            "level": "78",
-            "name": "Grosse récolte : délicieux émincé d'anguille des abysses",
-            "zone": "Cristarium",
-            "location": "Le Baldaquin",
-            "npc": "Eirikur"
+            "id": 1391,
+            "level": 62,
+            "name": "Collecte: quelques belles raies",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1396,
+            "level": 64,
+            "name": "Grosse récolte: importation de poissons",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1394,
+            "level": 64,
+            "name": "Collecte: des poissons à la mode",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1395,
+            "level": 64,
+            "name": "Collecte: des écailles pour le dragon",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1399,
+            "level": 66,
+            "name": "Grosse récolte: pénurie de poissons",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1398,
+            "level": 66,
+            "name": "Collecte: des poissons consulaires",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1397,
+            "level": 66,
+            "name": "Collecte: petite gastronomie deviendra grande",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1402,
+            "level": 68,
+            "name": "Grosse récolte: entre deux âges",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1400,
+            "level": 68,
+            "name": "Collecte: les poissons d'aquarium éorzéens",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1401,
+            "level": 68,
+            "name": "Collecte: des crocs acérés pour le dragon",
+            "issueLocation": "Kugane",
+            "leveZone": "Kugane"
+        },
+        {
+            "id": 1554,
+            "level": 70,
+            "name": "Collecte: un délicieux sandwich-omelette",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1553,
+            "level": 70,
+            "name": "Collecte: mutation ou pas mutation?",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1555,
+            "level": 70,
+            "name": "Grosse récolte: électropêche de nuisibles",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1556,
+            "level": 72,
+            "name": "Collecte: succulente salade de méduse",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1558,
+            "level": 72,
+            "name": "Grosse récolte: plan séisme à Grand-Lac",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1557,
+            "level": 72,
+            "name": "Collecte: l'équilibre de L'Origine",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1560,
+            "level": 74,
+            "name": "Collecte: l'agence matrimoniale du village de pêcheurs",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1559,
+            "level": 74,
+            "name": "Collecte: dissection douce",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1561,
+            "level": 74,
+            "name": "Grosse récolte: savoureux harengs",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1562,
+            "level": 76,
+            "name": "Collecte: onctueuse bisque bleue",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1564,
+            "level": 76,
+            "name": "Grosse récolte: grande entreprise de pisciculture",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1563,
+            "level": 76,
+            "name": "Collecte: fungis guérisseurs",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1566,
+            "level": 78,
+            "name": "Collecte: l'étrange éther des créatures des profondeurs",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1565,
+            "level": 78,
+            "name": "Collecte: les secrets d'une aquaculture stable",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
+        },
+        {
+            "id": 1567,
+            "level": 78,
+            "name": "Grosse récolte: délicieux émincé d'anguille des abysses",
+            "issueLocation": "Cristarium",
+            "leveZone": "Cristarium"
         }
     ]
 }
