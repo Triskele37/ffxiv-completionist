@@ -45,8 +45,10 @@ module.exports = function mergeFauxIDs(rl, back) {
             }
         }
 
-        rl.write(`${mergesFound} tasks merged: ${path}\n`);
-        fs.writeFileSync(path, JSON.stringify(resource, null, 4));
+        if(mergesFound > 0) {
+            rl.write(`${mergesFound} tasks merged: ${path}\n`);
+            fs.writeFileSync(path, JSON.stringify(resource, null, 4));
+        }
     }
 
     function done() {
