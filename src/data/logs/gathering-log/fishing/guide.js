@@ -50,6 +50,7 @@ export const Logs_Gathering_Log_Fishing_Guide = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/page-38`),
         DataGroup.fromJSON(group, `${basePath}/page-39`),
         DataGroup.fromJSON(group, `${basePath}/page-40`),
+        DataGroup.fromJSON(group, `${basePath}/page-41`),
     ];
 
     return group;
