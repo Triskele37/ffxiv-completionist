@@ -2,7 +2,7 @@ import { data } from "../../../data";
 import { ChangeStore } from "./utils";
 
 export const migrate_5_45_to_5_5 = () => {
-    const overall = new ChangeStore('0.5.5', true);
+    const overall = new ChangeStore('0.5.5');
 
     //--------------------------------- Leves
     const leves = 'duty.quests.levequests';
@@ -301,7 +301,7 @@ export const migrate_5_45_to_5_5 = () => {
     overall.change('duty.quests.sidequests.coerthan', 'coerthas-central--highlands', 'coerthas-central-highlands');
     overall.change('logs.sightseeing-log.sb', 'namal', 'namai');
 
-    // diveAndChange(data, overall);
+    diveAndChange(data, overall);
 
     overall.write();
 

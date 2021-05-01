@@ -53,12 +53,6 @@ export class Task {
     }
 
     get storageKey() {
-        const name = (this.Name || this.name || '').trim();
-
-        return name
-            .toLowerCase()
-            .replace(/ /g, '-')
-            .replace(/[^a-z0-9-]/g, '');
         if(this.id !== undefined && this.id !== null) return this.id;
         return this.ID;
     }
