@@ -46,7 +46,7 @@ module.exports = function propagateNewTasks(rl, back) {
                 const sourceFile = JSON.parse(fs.readFileSync(fullSourceDir, "utf8"));
 
                 config.targetLangs.forEach((lang) => {
-                    const targetPath = sourcePath.replace("en", lang);
+                    const targetPath = fullSourceDir.replace("en", lang);
                     const targetFile = JSON.parse(fs.readFileSync(targetPath, "utf8"));
 
                     if(sourceFile.tasks && targetFile.tasks) {
