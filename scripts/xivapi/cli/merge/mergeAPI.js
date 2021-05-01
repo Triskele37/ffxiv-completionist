@@ -114,26 +114,38 @@ module.exports = function mergeAPI(content, rl, done) {
         }
 
         // Merge new task
-        const { appPath, lang, cacheTask } = newTasks.shift();
+        const tasksToReview = [newTasks.shift()];
+        addMatchingTasks(tasksToReview);
 
-        rl.write(`New Task detected ${totalNew - newTasks.length}/${totalNew}: ${appPath}\n`);
-        console.log(cacheTask);
+        rl.write(`New Task detected ${totalNew - newTasks.length}/${totalNew}:\n`);
+        tasksToReview.forEach((t) => rl.write(`${t.appPath}\n`));
+        console.log(tasksToReview[0].cacheTask);
 
-        rl.question('\nAdd task to app? (Y/N) or (1/2) or 3 to add all new tasks ', (answer) => {
+        rl.question('\nAdd task/s to app? (Y/N) or (1/2) or 3 to add all new tasks ', (answer) => {
             if(answer.toLowerCase() === 'y' || answer === '1') {
-                writeFile(appPath, lang, cacheTask);
-                rl.question(`\n\ntask added to ${appPath}`, mergeNewTasks);
+                tasksToReview.forEach((t) => {
+                    writeFile(t.appPath, t.lang, t.cacheTask);
+                    rl.question(`\ntask added to ${t.appPath}`, mergeNewTasks);
+                });
             }
-            else if(answer === '3') mergeAllNewTasks(appPath, lang, cacheTask);
+            else if(answer === '3') mergeAllNewTasks(tasksToReview);
             else mergeNewTasks();
         });
     }
 
-    function mergeAllNewTasks(curAppPath, curLang, curCacheTask) {
-        // Merge the current task when "All" was selected
-        const json = JSON.parse(fs.readFileSync(curAppPath, 'utf8'));
-        json.tasks.push(content.mapAppTask(curCacheTask, curLang));
-        fs.writeFileSync(`${curAppPath}`, JSON.stringify(json, null, 4));
+    function addMatchingTasks(tasksToReview) {
+        for(let i = 0; i < newTasks.length; i++) {
+            if(newTasks[i].cacheTask.ID === tasksToReview[0].cacheTask.ID) {
+                tasksToReview.push(newTasks[i]);
+                newTasks.splice(i, 1);
+                i--;
+            }
+        }
+    }
+
+    function mergeAllNewTasks(tasksToReview) {
+        // Merge the current task/s when "All" was selected
+        tasksToReview.forEach((t) => writeFile(t.appPath, t.lang, t.cacheTask));
 
         // Merge the rest of the new tasks
         let totalAdded = 1;
