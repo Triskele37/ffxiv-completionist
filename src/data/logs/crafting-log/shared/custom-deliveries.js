@@ -11,6 +11,7 @@ export const Logs_Crafting_Log_Shared_Custom_Deliveries = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/adkiragh`),
         DataGroup.fromJSON(group, `${basePath}/kai-shirr`),
         DataGroup.fromJSON(group, `${basePath}/ehll-tou`),
+        DataGroup.fromJSON(group, `${basePath}/charlemend`),
     ];
 
     return group;
