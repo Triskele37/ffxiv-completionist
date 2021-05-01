@@ -59,9 +59,8 @@ module.exports = function propagateNewTasks(rl, back) {
                             }
                         });
 
-                        rl.write(`${totalAdded} tasks added to ${targetPath}\n`);
-
                         if(totalAdded > 0) {
+                            rl.write(`${totalAdded} tasks added to ${targetPath}\n`);
                             fs.writeFileSync(targetPath, JSON.stringify(targetFile, null, 4));
                         }
                     }
