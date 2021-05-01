@@ -55,6 +55,7 @@ module.exports = function reorderTasksByOldName(rl, back) {
         // Create the new task order
         const newTasks = [];
         const missingTasksNames = [];
+
         oldTaskNames.forEach((name) => {
             const newTask = newGroup.tasks.find((t) => t.name.toLowerCase() === name.toLowerCase());
             if(newTask) newTasks.push(newTask);

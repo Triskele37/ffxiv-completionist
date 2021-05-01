@@ -3,6 +3,7 @@ module.exports = function(cachePath) {
     cachePath = cachePath.replace("/beast-tribe-quests-arrheavenswardstormblood", "/beast-tribe-quests-past");
 
     // Directory Removal
+    cachePath = cachePath.replace("/dragonsong-main-scenario-quests", "");
     cachePath = cachePath.replace("/post-shadowbringers-main-scenario-quests-ii", "");
     cachePath = cachePath.replace("/post-shadowbringers-main-scenario-quests", "");
     cachePath = cachePath.replace("/shadowbringers-main-scenario-quests", "");

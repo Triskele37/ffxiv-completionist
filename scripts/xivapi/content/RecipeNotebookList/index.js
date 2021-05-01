@@ -17,11 +17,11 @@ module.exports = {
     getCacheKey,
     getAppPath,
     mapAppTask,
-    mergePathExcluded: function(cachePath) {
-        const isCarpenter = cachePath.includes("/carpenter/");
-        const isShared = cachePath.includes("/beast-tribe-quests/") ||
-            cachePath.includes("/custom-deliveries/") ||
-            cachePath.includes("/dyes");
+    mergePathExcluded: function(appPath) {
+        const isCarpenter = appPath.includes("/shared/");
+        const isShared = appPath.includes("/beast-tribe-quests/") ||
+            appPath.includes("/custom-deliveries/") ||
+            appPath.includes("/dyes");
 
         return isShared && !isCarpenter;
     }

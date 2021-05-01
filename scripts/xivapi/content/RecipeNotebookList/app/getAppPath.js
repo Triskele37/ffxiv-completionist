@@ -9,9 +9,9 @@ module.exports = function getAppPath(cachePath) {
     cachePath = cachePath.replace("/cooking/", "/culinarian/");
 
     if(cachePath.includes("/carpenter/")) {
-        cachePath = cachePath.replace("/carpenter/beast-tribe-quests", "shared/beast-tribe-quests");
-        cachePath = cachePath.replace("/carpenter/custom-deliveries", "shared/custom-deliveries");
-        cachePath = cachePath.replace("/carpenter/dyes", "shared/dyes");
+        cachePath = cachePath.replace("/carpenter/beast-tribe-quests", "/shared/beast-tribe-quests");
+        cachePath = cachePath.replace("/carpenter/custom-deliveries", "/shared/custom-deliveries");
+        cachePath = cachePath.replace("/carpenter/dyes", "/shared/dyes");
     }
 
     return cachePath;

@@ -23,7 +23,7 @@ module.exports = function mergeAPI(content, rl, done) {
         }
 
         // Initialize merge of cached & app tasks
-        if(cache.tasks.length && !content.mergePathExcluded(path)) {
+        if(cache.tasks.length) {
             analyzeTasks(cache, path, "en");
             analyzeTasks(cache, path, "fr");
         }
@@ -33,30 +33,36 @@ module.exports = function mergeAPI(content, rl, done) {
         let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
         if(content.getAppPath) appPath = content.getAppPath(appPath);
 
-        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : {};
+        // Allow content to exclude some paths
+        if(content.mergePathExcluded && content.mergePathExcluded(appPath)) return;
+
+        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : null;
 
         cache.tasks.forEach((cacheTask) => {
-            if(!appGroup.tasks) console.log(`\n${appPath} tasks not found\n`);
-            const appTask = appGroup.tasks.find((appTask) => cacheTask.ID === appTask.id);
+            let newTask = true;
 
-            if(appTask) {
-                content.MERGE_KEYS.forEach((appKey) => {
-                    const cacheKey = content.getCacheKey(appKey, lang);
+            if(appGroup) {
+                const appTask = appGroup.tasks.find((appTask) => cacheTask.ID === appTask.id);
 
-                    if(appTask[appKey] !== trim(cacheTask[cacheKey])) {
-                        diffTasks.push({
-                            appPath,
-                            appKey,
-                            appTask,
-                            cacheKey,
-                            cacheTask
-                        });
-                    }
-                });
+                if(appTask) {
+                    newTask = false;
+                    content.MERGE_KEYS.forEach((appKey) => {
+                        const cacheKey = content.getCacheKey(appKey, lang);
+
+                        if(appTask[appKey] !== trim(cacheTask[cacheKey])) {
+                            diffTasks.push({
+                                appPath,
+                                appKey,
+                                appTask,
+                                cacheKey,
+                                cacheTask
+                            });
+                        }
+                    });
+                }
             }
-            else {
-                newTasks.push({ appPath, lang, cacheTask });
-            }
+
+            if(newTask) newTasks.push({ appPath, lang, cacheTask });
         });
     }
 
@@ -115,10 +121,7 @@ module.exports = function mergeAPI(content, rl, done) {
 
         rl.question('\nAdd task to app? (Y/N) or (1/2) or 3 to add all new tasks ', (answer) => {
             if(answer.toLowerCase() === 'y' || answer === '1') {
-                const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
-                json.tasks.push(content.mapAppTask(cacheTask, lang));
-                fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
-
+                writeFile(appPath, lang, cacheTask);
                 rl.question(`\n\ntask added to ${appPath}`, mergeNewTasks);
             }
             else if(answer === '3') mergeAllNewTasks(appPath, lang, cacheTask);
@@ -137,14 +140,28 @@ module.exports = function mergeAPI(content, rl, done) {
         while(newTasks.length) {
             const { appPath, lang, cacheTask } = newTasks.shift();
 
-            const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
-            json.tasks.push(content.mapAppTask(cacheTask, lang));
-            fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
-
+            writeFile(appPath, lang, cacheTask);
             totalAdded++;
         }
 
         rl.question(`\n\n${totalAdded} tasks added`, mergeNewTasks);
+    }
+
+    function writeFile(appPath, lang, cacheTask) {
+        let json = {};
+
+        if(fs.existsSync(appPath)) {
+            json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
+            json.tasks.push(content.mapAppTask(cacheTask, lang));
+        }
+        else {
+            json = {
+                groupName: "PLACEHOLDER",
+                tasks: [content.mapAppTask(cacheTask, lang)]
+            };
+        }
+
+        fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
     }
 };
 
