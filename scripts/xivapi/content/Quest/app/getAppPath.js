@@ -3,7 +3,13 @@ module.exports = function(cachePath) {
     cachePath = cachePath.replace("/beast-tribe-quests-arrheavenswardstormblood", "/beast-tribe-quests-past");
 
     // Directory Removal
+    cachePath = cachePath.replace("/seventh-astral-era-main-scenario-quests", "");
+    cachePath = cachePath.replace("/seventh-umbral-era-main-scenario-quests", "");
+    cachePath = cachePath.replace("/heavensward-main-scenario-quests", "");
     cachePath = cachePath.replace("/dragonsong-main-scenario-quests", "");
+    cachePath = cachePath.replace("/post-dragonsong-main-scenario-quests", "");
+    cachePath = cachePath.replace("/stormblood-main-scenario-quests", "");
+    cachePath = cachePath.replace("/post-stormblood-main-scenario-quests", "");
     cachePath = cachePath.replace("/post-shadowbringers-main-scenario-quests-ii", "");
     cachePath = cachePath.replace("/post-shadowbringers-main-scenario-quests", "");
     cachePath = cachePath.replace("/shadowbringers-main-scenario-quests", "");

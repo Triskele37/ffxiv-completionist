@@ -1,8 +1,13 @@
+const fs = require("fs");
+const constants = require("../../../constants");
+
 module.exports = function mapCacheTask(apiObj) {
+    const npcPath = `${constants.CACHE_DIR}/enpcresident/${apiObj.IssuerStartTargetID}`;
     let npc = {};
 
-    try { npc = require(`../../cache/enpcresident/${apiObj.IssuerStartTargetID}`); }
-    catch(e) { console.error(`Could not find NPC (${apiObj.IssuerStartTargetID}) for quest ${apiObj.ID}`); }
+    if(fs.existsSync(npcPath)) {
+        npc = JSON.parse(fs.readFileSync(npcPath, "utf8"));
+    }
 
     const reputation = !apiObj.BeastReputationRank ? {} : {
         "Reputation_de": apiObj.BeastReputationRank.Name_de,
