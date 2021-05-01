@@ -13,7 +13,7 @@ module.exports = {
     // MERGE_KEYS: ["id", "name", "level", "npc", "reputation"],
     MERGE_KEYS: ["id", "name", "reputation"],
     excludedIds: utils.loadExcludedFile("Quest"),
-    path: getCachePath,
+    getCachePath,
     build: () => buildAPI(config, mapCacheTask),
     getCacheKey,
     getAppPath,

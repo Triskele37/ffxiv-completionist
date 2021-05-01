@@ -12,7 +12,7 @@ module.exports = {
     config,
     MERGE_KEYS: ["id", "name", "description", "reward", "points"],
     excludedIds: utils.loadExcludedFile("Achievement"),
-    path: getCachePath,
+    getCachePath,
     build: () => buildAPI(config, mapCacheTask),
     getCacheKey,
     mapAppTask,

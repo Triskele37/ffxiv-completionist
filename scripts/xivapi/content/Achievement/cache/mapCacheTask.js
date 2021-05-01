@@ -1,3 +1,5 @@
+const utils = require("../../../utils");
+
 module.exports = function mapCacheTask(apiObj) {
     const hasItemReward = !!apiObj.Item;
     const hasTitleReward = !!apiObj.Title;
@@ -11,14 +13,8 @@ module.exports = function mapCacheTask(apiObj) {
 
     return {
         "ID": apiObj.ID,
-        "Name_de": apiObj.Name_de,
-        "Name_en": apiObj.Name_en,
-        "Name_fr": apiObj.Name_fr,
-        "Name_ja": apiObj.Name_ja,
-        "Description_en": apiObj.Description_en,
-        "Description_de": apiObj.Description_de,
-        "Description_fr": apiObj.Description_fr,
-        "Description_ja": apiObj.Description_ja,
+        ...utils.spreadLangs(apiObj, "Name"),
+        ...utils.spreadLangs(apiObj, "Description"),
         "Points": apiObj.Points,
         ...reward
     };

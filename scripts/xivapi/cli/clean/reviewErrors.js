@@ -17,7 +17,7 @@ module.exports = function reviewErrors(rl, content) {
                 const file = JSON.parse(fs.readFileSync(errorPath, 'utf8'));
 
                 try {
-                    const path = content.path(file);
+                    const path = content.getCachePath(file);
                     const pathSegments = [content.config.API_ENDPOINT, ...path];
 
                     writeJsonFile(constants.CACHE_DIR, pathSegments, file.ID, file);

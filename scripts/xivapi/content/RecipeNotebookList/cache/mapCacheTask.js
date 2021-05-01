@@ -1,3 +1,5 @@
+const utils = require("../../../utils");
+
 module.exports = function mapCacheTask(RecipeNotebookList) {
     const recipes = [];
 
@@ -12,17 +14,10 @@ module.exports = function mapCacheTask(RecipeNotebookList) {
             recipes.push({
                 "ID": Recipe.ID,
                 "Level": `${Recipe.RecipeLevelTable.ClassJobLevel}${stars ? ' ' + stars : ''}`,
-                "Name_de": cleanName(Recipe.ItemResult.Name_de),
-                "Name_en": cleanName(Recipe.ItemResult.Name_en),
-                "Name_fr": cleanName(Recipe.ItemResult.Name_fr),
-                "Name_ja": cleanName(Recipe.ItemResult.Name_ja),
+                ...utils.spreadLangs(Recipe.ItemResult, "Name")
             });
         }
     }
 
     return recipes;
 };
-
-function cleanName(name) {
-    return name.replace(' ', '').replace(' ', '');
-}

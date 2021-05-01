@@ -42,7 +42,12 @@ module.exports = async function cacheAPI(content, done) {
  * Used to determine a list of IDs to grab from a contentType
  * ----------------------------------------------------------------------------- */
 async function getIdList(content) {
-    if(content.config.NEW_SCRAPE) {
+    if(content.config.FAILED_IDS && content.config.FAILED_IDS.length) {
+        const temp = [...content.config.FAILED_IDS];
+        content.config.FAILED_IDS = [];
+        return temp;
+    }
+    else if(content.config.NEW_SCRAPE) {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;
@@ -62,11 +67,6 @@ async function getIdList(content) {
         content.config.TOTAL_ITEMS = allIDs.length;
 
         return allIDs.filter((ID) => !excluded.includes(ID.toString()));
-    }
-    else if(content.config.FAILED_SCRAPE) {
-        const temp = [...content.config.FAILED_IDS];
-        content.config.FAILED_IDS = [];
-        return temp;
     }
 }
 
@@ -98,7 +98,7 @@ async function getItem(content, id) {
         const { data } = await axios.get(`http://xivapi.com/${content.config.API_ENDPOINT}/${id}`);
 
         let contentPath;
-        try { contentPath = content.path(data); }
+        try { contentPath = content.getCachePath(data); }
         catch(e) { contentPath = ['_error']; }
 
         writeJsonFile(constants.CACHE_DIR, [
@@ -117,9 +117,7 @@ async function getItem(content, id) {
 function resultOutput(content, IDS) {
     content.config.FAILED_IDS.sort((a, b) => a - b);
 
-    if(content.config.NEW_SCRAPE) console.log(`Scrape for new data complete`);
-    else if(content.config.FULL_SCRAPE) console.log(`Full scrape complete`);
-    else if(content.config.FAILED_SCRAPE) console.log(`Scrape for previous failures complete`);
+    console.log(`Scrape complete`);
 
     const successful = IDS.length - content.config.FAILED_IDS.length;
     console.log(`${successful}/${IDS.length} successful, ${content.config.FAILED_IDS.length} failed\n`);

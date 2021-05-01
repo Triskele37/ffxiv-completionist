@@ -12,7 +12,7 @@ module.exports = {
     config,
     MERGE_KEYS: ["id", "level", "name"],
     excludedIds: utils.loadExcludedFile("RecipeNotebookList"),
-    path: getCachePath,
+    getCachePath,
     build: () => buildAPI(config, mapCacheTask),
     getCacheKey,
     getAppPath,

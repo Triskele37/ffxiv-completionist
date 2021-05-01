@@ -10,8 +10,8 @@ const mapAppTask = require("./app/mapAppTask");
 
 module.exports = {
     config,
-    MERGE_KEYS: ["id", "level", "name", "issueLocation", "leveZone"],
-    excludedIds: utils.loadExcludedFile("Leve"),
+    MERGE_KEYS: ["id", "name", "iLvl", "location", "fishingHole", "type"],
+    excludedIds: utils.loadExcludedFile("FishParameter"),
     getCachePath,
     build: () => buildAPI(config, mapCacheTask),
     getCacheKey,
