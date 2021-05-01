@@ -11,7 +11,7 @@ module.exports = function mapCacheTask(RecipeNotebookList) {
 
             recipes.push({
                 "ID": Recipe.ID,
-                "Level": `${Recipe.RecipeLevelTable.ClassJobLevel} ${stars}`,
+                "Level": `${Recipe.RecipeLevelTable.ClassJobLevel}${stars ? ' ' + stars : ''}`,
                 "Name_de": cleanName(Recipe.ItemResult.Name_de),
                 "Name_en": cleanName(Recipe.ItemResult.Name_en),
                 "Name_fr": cleanName(Recipe.ItemResult.Name_fr),
