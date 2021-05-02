@@ -28,7 +28,7 @@ module.exports = function buildAPI(config, mapFromCache) {
         // Iterate the current directory
         dirs.forEach((stat) => {
             // Bail from building _error directory
-            if(stat === "_error") return;
+            if(stat.includes("_")) return;
 
             const newPath = `${path}/${stat}`;
             if(fs.lstatSync(newPath).isDirectory()) {
@@ -44,6 +44,7 @@ module.exports = function buildAPI(config, mapFromCache) {
                 // Build tasks from the cached data
                 const cachedFile = JSON.parse(fs.readFileSync(newPath, "utf8"));
                 const cacheTask = mapFromCache(cachedFile);
+                cleanTaskValues(cacheTask);
 
                 // mapCacheTasks can either return a single task or multiple
                 if(Array.isArray(cacheTask)) buildObj.tasks.push(...cacheTask);
@@ -58,3 +59,17 @@ module.exports = function buildAPI(config, mapFromCache) {
         }
     }
 };
+
+function cleanTaskValues(cacheTask) {
+    Object.keys(cacheTask).forEach((key) => {
+        let value = cacheTask[key];
+
+        if(typeof value === "string") {
+            value = value.replace("", "");
+            value = value.replace("", "");
+            value = value.trim();
+
+            cacheTask[key] = value;
+        }
+    });
+}

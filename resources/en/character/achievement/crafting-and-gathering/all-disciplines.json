@@ -3,7 +3,6 @@
     "groupName": "All Disciplines",
     "tasks": [
         {
-            "Patch": null,
             "reward": "Laladile",
             "description": "Earn 50,000 points toward your skyward score as a Disciple of the Hand.",
             "id": 2522,
@@ -11,7 +10,6 @@
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "The Hand of Creation",
             "description": "Earn 500,000 points toward your skyward score as every Disciple of the Hand.",
             "id": 2524,
@@ -19,7 +17,6 @@
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "Malone",
             "description": "Earn 50,000 points toward your skyward score as a Disciple of the Land.",
             "id": 2523,
@@ -27,7 +24,6 @@
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "Divine Provider",
             "description": "Earn 500,000 points toward your skyward score as every Disciple of the Land.",
             "id": 2525,
@@ -35,7 +31,6 @@
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "Pteranodon Horn",
             "description": "Earn 500,000 points toward your skyward score as every Disciple of the Hand and Land.",
             "id": 2526,
@@ -43,28 +38,24 @@
             "points": 20
         },
         {
-            "Patch": null,
             "description": "Fire your aetheromatic auger 50 times.",
             "id": 2550,
             "name": "Force of Nature I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Fire your aetheromatic auger 500 times.",
             "id": 2551,
             "name": "Force of Nature II",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Fire your aetheromatic auger 1,000 times.",
             "id": 2552,
             "name": "Force of Nature III",
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "Kupo Crown",
             "description": "Claim first prize 5 times in Kupo of Fortune.",
             "id": 2538,
@@ -72,14 +63,12 @@
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Claim first prize 10 times in Kupo of Fortune.",
             "id": 2539,
             "name": "Let Luck Be a Moogle II",
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "Fortune's Favored Kupo",
             "description": "Claim first prize 30 times in Kupo of Fortune.",
             "id": 2540,
@@ -87,7 +76,6 @@
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "Saint of the Firmament",
             "description": "Place between 1st and 12th in the skybuilder rankings during the second phase of reconstruction.",
             "id": 2487,
@@ -95,7 +83,6 @@
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "Beatus of the Firmament / Beata of the Firmament",
             "description": "Place between 1st and 100th in the skybuilder rankings during the second phase of reconstruction.",
             "id": 2488,
@@ -117,18 +104,18 @@
             "reward": "Beatus of the Firmament / Beata of the Firmament"
         },
         {
-            "id": -1,
             "name": "Phase IV Divine Ascension",
             "description": "Place between 1st and 12th in the skybuilder rankings during the fourth phase of reconstruction.",
             "points": 10,
-            "reward": "Saint of the Firmament"
+            "reward": "Saint of the Firmament",
+            "id": 2785
         },
         {
-            "id": -1,
             "name": "Phase IV Minor Miracle",
             "description": "Place between 1st and 100th in the skybuilder rankings during the fourth phase of reconstruction.",
             "points": 10,
-            "reward": "Beatus of the Firmament / Beata of the Firmament"
+            "reward": "Beatus of the Firmament / Beata of the Firmament",
+            "id": 2786
         },
         {
             "id": 2829,
@@ -142,20 +129,6 @@
             "name": "Work Hard, Play Hard",
             "description": "Earn the highest rating possible in 10 Skyrise Celebration fêtes.",
             "points": 5
-        },
-        {
-            "id": 2785,
-            "name": "Phase IV Divine Ascension",
-            "description": "Place between 1st and 12th in the skybuilder rankings during the fourth phase of reconstruction.",
-            "reward": "Saint of the Firmament",
-            "points": 10
-        },
-        {
-            "id": 2786,
-            "name": "Phase IV Minor Miracle",
-            "description": "Place between 1st and 100th in the skybuilder rankings during the fourth phase of reconstruction.",
-            "reward": "Beatus of the Firmament / Beata of the Firmament",
-            "points": 10
         }
     ]
 }

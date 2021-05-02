@@ -326,21 +326,18 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Earn 50,000 points toward your skyward score as a fisher.",
             "id": 2519,
             "name": "Skyward Rod I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Earn 150,000 points toward your skyward score as a fisher.",
             "id": 2520,
             "name": "Skyward Rod II",
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "Rod of the Firmament",
             "description": "Earn 500,000 points toward your skyward score as a fisher.",
             "id": 2521,
@@ -348,28 +345,24 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Catch 5 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
             "id": 2547,
             "name": "Dauntless Treader I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Catch 50 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
             "id": 2548,
             "name": "Dauntless Treader II",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Catch 100 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
             "id": 2549,
             "name": "Dauntless Treader III",
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "The Nest's Own Fisher",
             "description": "As a fisher, submit 300 artisanal seafood items for the second phase of the Ishgardian restoration.",
             "id": 2537,
@@ -384,11 +377,11 @@
             "reward": "Featherfall's Finest Fisher"
         },
         {
-            "id": -1,
             "name": "An Ode to Angling",
             "description": "As a fisher, submit 300 artisanal seafood items for the fourth phase of the Ishgardian restoration.",
             "points": 10,
-            "reward": "The Risensung Fisher"
+            "reward": "The Risensung Fisher",
+            "id": 2817
         },
         {
             "description": "Catch every type of fish in outer Galadion Bay when a spectral current is not present.",
@@ -603,13 +596,6 @@
             "description": "Encounter 3 dolphin pods while ocean fishing.",
             "points": 10,
             "reward": "Dolphin Calf"
-        },
-        {
-            "id": 2817,
-            "name": "An Ode to Angling",
-            "description": "As a fisher, submit 300 artisanal seafood items for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Fisher",
-            "points": 10
         }
     ]
 }

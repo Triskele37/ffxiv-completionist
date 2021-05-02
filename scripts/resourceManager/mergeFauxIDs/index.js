@@ -29,14 +29,14 @@ module.exports = function mergeFauxIDs(rl, back) {
         for(let i = 0; i < resource.tasks.length; i++) {
             const task = resource.tasks[i];
 
-            if(task.ID === -1) {
-                const match = resource.tasks.findIndex((t) => t.ID !== task.ID && t.Name === task.Name);
+            if(task.id === -1) {
+                const match = resource.tasks.findIndex((t) => t.id !== task.id && t.name === task.name);
 
                 if(match !== -1) {
-                    const matchTask = resource.tasks.splice(match, 1);
+                    const matchTask = resource.tasks.splice(match, 1)[0];
                     mergesFound++;
 
-                    delete task.ID;
+                    delete task.id;
                     resource.tasks[i] = { ...task, ...matchTask };
 
                     // Adjust i if match was found before the faux task

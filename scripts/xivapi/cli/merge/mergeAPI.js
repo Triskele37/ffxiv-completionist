@@ -173,7 +173,7 @@ module.exports = function mergeAPI(content, rl, done) {
             };
         }
 
-        fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
+        fs.writeFileSync(appPath, JSON.stringify(json, null, 4));
     }
 };
 

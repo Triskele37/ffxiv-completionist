@@ -203,21 +203,18 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Earn 50,000 points toward your skyward score as a miner.",
             "id": 2513,
             "name": "Skyward Sledgehammer I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Earn 150,000 points toward your skyward score as a miner.",
             "id": 2514,
             "name": "Skyward Sledgehammer II",
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "Pick of the Firmament",
             "description": "Earn 500,000 points toward your skyward score as a miner.",
             "id": 2515,
@@ -225,28 +222,24 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Mine 50 clouded mineral deposits or rocky outcrops.",
             "id": 2541,
             "name": "With Mines Unclouded I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Mine 500 clouded mineral deposits or rocky outcrops.",
             "id": 2542,
             "name": "With Mines Unclouded II",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Mine 1,000 clouded mineral deposits or rocky outcrops.",
             "id": 2543,
             "name": "With Mines Unclouded III",
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "The Nest's Own Miner",
             "description": "As a miner, submit 50,000 expert recipe materials for the second phase of the Ishgardian restoration.",
             "id": 2535,
@@ -261,11 +254,11 @@
             "reward": "Featherfall's Finest Miner"
         },
         {
-            "id": -1,
             "name": "An Ode to Mining",
             "description": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
             "points": 10,
-            "reward": "The Risensung Miner"
+            "reward": "The Risensung Miner",
+            "id": 2815
         },
         {
             "id": 2830,
@@ -273,13 +266,6 @@
             "description": "Mine and record discovery of 220 unique items that can only be gathered as a miner.",
             "points": 10,
             "reward": "Resplendent Minefiend's Pickaxe"
-        },
-        {
-            "id": 2815,
-            "name": "An Ode to Mining",
-            "description": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Miner",
-            "points": 10
         }
     ]
 }

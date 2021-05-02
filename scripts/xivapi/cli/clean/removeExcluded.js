@@ -8,7 +8,7 @@ module.exports = function removeExcluded(rl, content) {
     dive(content, cachePath);
 
     function dive(content, path) {
-        const dirs = fs.readdirSync(path);
+        const dirs = fs.existsSync(path) ? fs.readdirSync(path) : [];
 
         dirs.forEach((dir) => {
             const fileName = dir.replace(".json", "");

@@ -203,21 +203,18 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Earn 50,000 points toward your skyward score as a botanist.",
             "id": 2516,
             "name": "Skyward Scythe I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Earn 150,000 points toward your skyward score as a botanist.",
             "id": 2517,
             "name": "Skyward Scythe II",
             "points": 5
         },
         {
-            "Patch": null,
             "reward": "Hatchet of the Firmament",
             "description": "Earn 500,000 points toward your skyward score as a botanist.",
             "id": 2518,
@@ -225,28 +222,24 @@
             "points": 10
         },
         {
-            "Patch": null,
             "description": "Mine 50 clouded mature trees or lush vegetation.",
             "id": 2544,
             "name": "With Scythes Unclouded I",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Mine 500 clouded mature trees or lush vegetation.",
             "id": 2545,
             "name": "With Scythes Unclouded II",
             "points": 5
         },
         {
-            "Patch": null,
             "description": "Mine 1,000 clouded mature trees or lush vegetation.",
             "id": 2546,
             "name": "With Scythes Unclouded III",
             "points": 10
         },
         {
-            "Patch": null,
             "reward": "The Nest's Own Botanist",
             "description": "As a botanist, submit 50,000 expert recipe materials for the second phase of the Ishgardian restoration.",
             "id": 2536,
@@ -261,11 +254,11 @@
             "reward": "Featherfall's Finest Botanist"
         },
         {
-            "id": -1,
             "name": "An Ode to Botany",
             "description": "As a botanist, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
             "points": 10,
-            "reward": "The Risensung Botanist"
+            "reward": "The Risensung Botanist",
+            "id": 2816
         },
         {
             "id": 2831,
@@ -273,13 +266,6 @@
             "description": "Harvest and record discovery of 340 unique items that can only be gathered as a botanist.",
             "points": 10,
             "reward": "Resplendent Fieldfiend's Hatchet"
-        },
-        {
-            "id": 2816,
-            "name": "An Ode to Botany",
-            "description": "As a botanist, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Botanist",
-            "points": 10
         }
     ]
 }

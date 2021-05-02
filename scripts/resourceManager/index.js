@@ -24,7 +24,7 @@ function mainScreen() {
     rl.write('\n3. Reorder Tasks by Source');
     rl.write('\n4. Propagate New Tasks');
     rl.write('\n5. Merge Faux Tasks');
-    rl.write('\n5. Exit\n');
+    rl.write('\n6. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
