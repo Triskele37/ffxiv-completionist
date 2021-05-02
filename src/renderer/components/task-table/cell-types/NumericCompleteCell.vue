@@ -1,12 +1,13 @@
 <template>
-    <td class="completion-flag-cell noSelect" :style="gradientBackground">
+    <td class="completion-flag-cell noSelect" :style="gradientBackground" :title="tooltip">
         <input
-            class="numeric-input noSelect"
+            class="numeric-input"
             type="number"
             :step="step"
             :value="value"
             @blur="onTaskValueChange($event)"
         />
+        <span class="percentage">{{percentage}}%</span>
     </td>
 </template>
 
@@ -27,8 +28,9 @@
                 const prog = parseInt(this.value) - parseInt(this.task.minValue);
                 const tot = parseInt(this.task.maxValue) - parseInt(this.task.minValue);
 
-                const weight1 = prog / tot;
-                const weight2 = 1 - weight1;
+                let weight1 = prog / tot;
+                if(weight1 < 1) weight1 *= 0.77; // Make it obvious when values are close to max
+                const weight2 = (1 - weight1);
 
                 const r = Math.round(0x0f * weight1 + 0x75 * weight2);
                 const g = Math.round(0x75 * weight1 + 0x19 * weight2);
@@ -37,6 +39,16 @@
                 return {
                     backgroundColor: `rgb(${r},${g},${b})`
                 }
+            },
+            percentage: function() {
+                const totProg = this.task.maxValue - this.task.minValue;
+                let prog = parseFloat(this.value) - this.task.minValue;
+                if(prog < 0) prog = 0;
+
+                return ((prog / totProg) * 100).toFixed(2);
+            },
+            tooltip: function() {
+                return `${this.task.minValue} - ${this.task.maxValue}`;
             }
         },
         methods: {
@@ -78,8 +90,15 @@
         border: none;
         border-bottom: 1px solid;
         color: $blue-1;
-        margin: 10px 2.5%;
+        margin: 5px 2.5% 10px 2.5%;
         width: 95%;
+    }
+
+    .percentage {
+        color: $blue-1;
+        float: right;
+        font-size: 8pt;
+        margin-top: -8px;
     }
 }
 </style>

@@ -48,10 +48,14 @@
         },
         methods: {
             onClick: function($event, task) {
-                if(!$event.target.className.includes('noSelect')) {
+                if(!this.parentHasClass($event.target, 'noSelect')) {
                     task.selected = !task.selected;
                     this.$forceUpdate();
                 }
+            },
+            parentHasClass: function(element, className) {
+                if(element.className.includes(className)) return true;
+                return element.parentNode && this.parentHasClass(element.parentNode, className);
             }
         }
     };

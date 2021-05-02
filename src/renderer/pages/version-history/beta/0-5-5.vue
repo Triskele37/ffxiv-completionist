@@ -17,6 +17,8 @@
             <li>Added custom task entry with merge capability</li>
             <li>Added partial table selection</li>
             <li>Added gradient background for Job Level & Desynth completion</li>
+            <li>Added a tooltip to Job Level & Desynth fields showing their range</li>
+            <li>Added a percentage output to Job Leve & Desynth rows</li>
             <li>Added an undo for the most recent quick mark action</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>
