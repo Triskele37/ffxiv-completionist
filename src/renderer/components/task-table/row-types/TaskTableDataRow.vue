@@ -54,7 +54,7 @@
                 }
             },
             parentHasClass: function(element, className) {
-                if(element.className.includes(className)) return true;
+                if(typeof element.className === "string" && element.className.includes(className)) return true;
                 return element.parentNode && this.parentHasClass(element.parentNode, className);
             }
         }
