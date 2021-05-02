@@ -4,6 +4,13 @@
 
         <p>Please see instructions on new feature functionality</p>
 
+        <h2>Tasks that need manual review</h2>
+        <ul>
+            <li>Rhyme & Region PvP achievements</li>
+            <li>Saint/Beatus of the Firmament Titles</li>
+            <li>Magitek Repair Materials (moved from shared into each crafter's MR1 book)</li>
+        </ul>
+
         <h2>Functionality</h2>
         <ul>
             <li>Added app-wide Search functionality</li>
