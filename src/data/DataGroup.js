@@ -13,6 +13,7 @@ export class DataGroup {
 
     columnConfig;
     _defaultCompletion = 'N';
+    _isCraftingLogGroup = false;
     tasks;
 
     _isNumericCompletion = false; // Used for numeric completions
@@ -161,14 +162,14 @@ export class DataGroup {
         return this._defaultCompletion;
     }
 
-    set defaultCompletion(defaultCompletion) {
+    set defaultCompletion(value) {
         if(this.subGroups) {
-            this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = defaultCompletion);
+            this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = value);
         }
 
         if(this.tasks) {
             this.tasks.forEach((task) => {
-                if(!task.defaultCompletion) task.changeCompletionFlag(defaultCompletion);
+                if(!task.defaultCompletion) task.changeCompletionFlag(value);
             });
         }
     }
@@ -178,10 +179,21 @@ export class DataGroup {
         return this._isNumericCompletion;
     }
 
-    set isNumericCompletion(isNumericCompletion) {
-        this._isNumericCompletion = isNumericCompletion;
+    set isNumericCompletion(value) {
+        this._isNumericCompletion = value;
 
-        if(this.tasks) this.tasks.forEach((task) => task.isNumericCompletion = isNumericCompletion);
+        if(this.tasks) this.tasks.forEach((task) => task.isNumericCompletion = value);
+    }
+
+    //------------------------------------------------------------------ Craft Group
+    get isCraftingLogGroup() {
+        return this._isCraftingLogGroup;
+    }
+
+    // for now requires being set after subGroups are added
+    set isCraftingLogGroup(value) {
+        this._isCraftingLogGroup = value;
+        (this.subGroups || []).forEach((sg) => sg.isCraftingLogGroup = value);
     }
 
     //------------------------------------------------------------------ Language

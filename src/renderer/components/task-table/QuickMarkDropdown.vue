@@ -41,9 +41,6 @@
                 (<icon name="exclude"/> <icon name="arrow"/> <icon name="complete"/>)
                 Mark Excluded as Complete
             </button>
-            <button class="xiv-dropdown-li" @click="onSelectChange(true)">Select All Tasks</button>
-            <button class="xiv-dropdown-li" @click="onSelectChange(false)">Deselect All Tasks</button>
-            <button class="xiv-dropdown-li" @click="onSelectChange(null)">Invert Selection</button>
             <button class="xiv-dropdown-li" @click="onChangeTaskCompletion('$', 'Y')">
                 (<icon name="selected"/> <icon name="arrow"/> <icon name="complete"/>)
                 Mark Selected as Complete
@@ -86,10 +83,6 @@ export default {
             });
 
             applyDataToStore(data);
-        },
-        onSelectChange: function(select) {
-            this.filteredTasks.forEach((task) => task.selected = select === null ? !task.selected : select);
-            this.$emit('select-change');
         },
         onUndoLastChange: function() {
             this.lastChanged.forEach((changed) => {

@@ -20,6 +20,8 @@
             <li>Added a tooltip to Job Level & Desynth fields showing their range</li>
             <li>Added a percentage output to Job Leve & Desynth rows</li>
             <li>Added an undo for the most recent quick mark action</li>
+            <li>Added a selection action menu to the top left of tables</li>
+            <li>Added an option to open selected recipes in Garland Tools or Teamcraft</li>
             <li>Moved quick mark buttons to a dropdown at the top left of tables</li>
             <li>Changed quick mark options</li>
             <li>Reduced save file size</li>

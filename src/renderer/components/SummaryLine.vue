@@ -37,7 +37,11 @@
         },
         computed: {
             tooltip: function() {
+                const remaining = (this.group.total - this.group.totalExcluded) - this.group.totalCompleted;
+
                 let tooltip = `${parseInt(this.group.totalCompleted)}/${this.group.displayTotal}\n`;
+                tooltip += `${this.group.totalCompleted} Completed\n`;
+                tooltip += `${remaining} Remaining\n`;
                 tooltip += `${this.group.totalExcluded} Excluded`;
 
                 return tooltip;

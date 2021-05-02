@@ -20,9 +20,9 @@
         <br/>
 
         <h2>Select Items</h2>
-        <p>Clicking on any row will "select" it and turn it dark blue</p>
-        <p>The dropdown above the table allows for a few options with selecting as well</p>
-        <p>Selections will persist when navigating away, but not through app reloads</p>
+        <p>Clicking on any row will "select" it and turn it a different color</p>
+        <p>A dropdown above the table allows for a few options with selecting as well</p>
+        <p>Within the Crafting Log groups, there are options to open all selected recipes in other sites</p>
 
         <br/>
 

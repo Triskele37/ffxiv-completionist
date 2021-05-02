@@ -81,5 +81,6 @@ export function buildCrafter(parent, basePath) {
         collectables,
     ];
 
+    group.isCraftingLogGroup = true;
     return group;
 }

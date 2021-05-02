@@ -14,8 +14,12 @@
             background-color: $blue-3;
         }
 
-        &.selected {
+        &.selected td:not(.noSelect) {
             background-color: $state_selected;
+        }
+
+        &.selected:nth-child(even) td:not(.noSelect) {
+            background-color: $state_selected-2;
         }
     }
 

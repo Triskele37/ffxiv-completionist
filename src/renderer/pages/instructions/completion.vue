@@ -17,9 +17,9 @@
 
         <h2>Number Based Completion</h2>
         <p>Some sections may have completion based on a range of numbers</p>
-        <p>In these tables the completion column will instead contain a text field to manually enter data</p>
-        <p>These fields validate data entered into them, so data you enter may be changed to fit within validation</p>
-        <p>These fields also only commit the data entered after you click away from them</p>
+        <p>In these tables the completion column will instead contain a text field to manually enter the value</p>
+        <p>These fields validate data entered into them, so data you enter may be changed to fit within a range</p>
+        <p>These fields only commit the data entered after you click away from them</p>
 
         <br/>
 
@@ -52,7 +52,7 @@
         <br/>
 
         <h4>Final Notes</h4>
-        <p>Hovering over the progress bar for any group gives you a tooltip of the total items completed, total items minus excluded items, and excluded items for that group</p>
+        <p>Hovering over the progress bar for any group gives you a tooltip detailing that group's completion numbers</p>
     </div>
 </template>
 

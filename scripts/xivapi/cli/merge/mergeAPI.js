@@ -3,11 +3,10 @@ const logUpdate = require('log-update');
 
 const constants = require("../../constants");
 
-//TODO: Merge new tasks that have the same ID but differing lang so only one action does both
-
 module.exports = function mergeAPI(content, rl, done) {
     const diffTasks = [];
     const newTasks = [];
+    let mergeAll = false;
 
     dive(content.build(), "");
 
@@ -42,6 +41,8 @@ module.exports = function mergeAPI(content, rl, done) {
             let newTask = true;
 
             if(appGroup) {
+                // vvv Can be used to reapply IDs
+                // const appTask = appGroup.tasks.find((appTask) => cacheTask[`Name_${lang}`] === appTask.name);
                 const appTask = appGroup.tasks.find((appTask) => cacheTask.ID === appTask.id);
 
                 if(appTask) {
@@ -88,18 +89,37 @@ module.exports = function mergeAPI(content, rl, done) {
         rl.write("\nCache Task:\n");
         console.log(cacheTask);
 
-        rl.question('\nUpdate App with cached value? (Y/N) or (1/2) ', (answer) => {
+        rl.question('\nUpdate App with cached value? (Y/N) or (1/2) or 3 to merge all: ', (answer) => {
             if(answer.toLowerCase() === 'y' || answer === '1') {
-                const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
-                json.tasks.forEach((task) => {
-                    if(task.id === appTask.id) task[appKey] = trim(cacheTask[cacheKey]);
-                });
-                fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
-
+                writeMerge(appPath, appTask, appKey, cacheTask, cacheKey);
                 rl.question(`\n\n${appPath} updated`, mergeDiffTasks);
             }
+            else if(answer === "3") mergeAllDiffTasks(appPath, appTask, appKey, cacheTask, cacheKey);
             else mergeDiffTasks();
         });
+    }
+
+    function mergeAllDiffTasks(appPath, appTask, appKey, cacheTask, cacheKey) {
+        // Merge the current diff when "All" was selected
+        writeMerge(appPath, appTask, appKey, cacheTask, cacheKey);
+
+        // Merge the rest of the diff tasks
+        let totalDiffs = 1;
+        while(diffTasks.length) {
+            const { appPath, appKey, appTask, cacheKey, cacheTask } = diffTasks.shift();
+            writeMerge(appPath, appTask, appKey, cacheTask, cacheKey);
+            totalDiffs++;
+        }
+
+        rl.question(`\n\n${totalDiffs} tasks updated`, mergeDiffTasks);
+    }
+
+    function writeMerge(appPath, appTask, appKey, cacheTask, cacheKey) {
+        const json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
+        json.tasks.forEach((task) => {
+            if(task.id === appTask.id) task[appKey] = trim(cacheTask[cacheKey]);
+        });
+        fs.writeFileSync(`${appPath}`, JSON.stringify(json, null, 4));
     }
 
     //------------------------------------------------------------------ Merge new tasks

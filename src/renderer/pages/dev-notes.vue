@@ -9,10 +9,9 @@
         <ul>
             <li>Methods of pulling data from XIVAPI while maintaining app data integrity</li>
             <li>Further translation support</li>
-            <li>Garland Tools & Teamcraft integration with crafting recipe groups</li>
-            <li>Manual task entry section for the time between patch and app updates</li>
             <li>Auto-completion of related items</li>
             <li>Customizable themes</li>
+            <li>Syncing data available on your character from Lodestone</li>
         </ul>
 
         <br/>
@@ -23,7 +22,6 @@
             <li>Achievements missing "Patch" column</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
             <li>application is not code signed</li>
-            <li>Fishing/Spearfishing Log only tracks being discovered, not completed</li>
             <li>Quest restrictions based on starting zone are not automatic</li>
         </ul>
     </div>

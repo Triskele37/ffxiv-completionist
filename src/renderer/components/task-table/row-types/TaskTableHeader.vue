@@ -2,10 +2,16 @@
     <tr class="task-table-header">
         <th class="completion-column">
             <template v-if="!isNumericCompletion">
-                <span @click="onFilterCompletion('Y')"><icon name="complete"/></span>
-                <span @click="onFilterCompletion('N')"><icon name="incomplete"/></span>
+                <span @click="onFilterCompletion('Y')">
+                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'Y' }" name="complete"/>
+                </span>
+                <span @click="onFilterCompletion('N')">
+                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'N' }" name="incomplete"/>
+                </span>
                 <br/>
-                <span @click="onFilterCompletion('X')"><icon name="exclude"/></span>
+                <span @click="onFilterCompletion('X')">
+                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'X' }" name="exclude"/>
+                </span>
             </template>
             <template v-else>
                 #
@@ -128,6 +134,10 @@
 .task-table-header {
     .completion-column span {
         cursor: pointer;
+
+        .selectedFilter {
+            filter: drop-shadow(2px 2px 0px black);
+        }
     }
 
     .filter-column {

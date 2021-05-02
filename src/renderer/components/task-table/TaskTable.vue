@@ -2,16 +2,15 @@
     <div v-if="!!columnConfig">
         <span class="task-table-toolbar">
             <span v-if="hasTasks && !tasks[0].isNumericCompletion">
-                <quick-mark-dropdown
-                    v-on:select-change="onSelectChange"
-                    :filtered-tasks="filteredTasks"
-                />
+                <quick-mark-dropdown :filtered-tasks="filteredTasks"/>
+            </span>
+
+            <span v-if="hasTasks && !tasks[0].isNumericCompletion">
+                <selection-action-dropdown :group="group" :filtered-tasks="filteredTasks" v-on:select-change="onSelectChange"/>
             </span>
 
             <span v-if="group.isCustomGroup">
-                <custom-task-dropdown
-                    :filtered-tasks="filteredTasks"
-                />
+                <custom-task-dropdown :filtered-tasks="filteredTasks"/>
             </span>
         </span>
 
@@ -34,6 +33,7 @@
 <script>
     // Components
     import QuickMarkDropdown from './QuickMarkDropdown';
+    import SelectionActionDropdown from "./SelectionActionDropdown";
     import CustomTaskDropdown from './CustomTaskDropdown';
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
@@ -42,7 +42,9 @@
     export default {
         name: 'task-table',
         components: {
+          SelectionActionDropdown,
             'quick-mark-dropdown': QuickMarkDropdown,
+            'selection-action-dropdown': SelectionActionDropdown,
             'custom-task-dropdown': CustomTaskDropdown,
             'task-table-header': TaskTableHeader,
             'task-table-data-row': TaskTableDataRow,

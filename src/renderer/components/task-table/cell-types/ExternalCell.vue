@@ -1,5 +1,5 @@
 <template>
-    <td class="external-link-cell">
+    <td class="external-link-cell noSelect">
         <span
             title="Gamer Escape"
             @click="gotoGamerEscape()"

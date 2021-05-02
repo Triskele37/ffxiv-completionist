@@ -12,7 +12,7 @@ module.exports = function mapCacheTask(RecipeNotebookList) {
             const stars = new Array(Recipe.RecipeLevelTable.Stars).fill("★").join("");
 
             recipes.push({
-                "ID": Recipe.ID,
+                "ID": Recipe.ItemResult.ID,
                 "Level": `${Recipe.RecipeLevelTable.ClassJobLevel}${stars ? ' ' + stars : ''}`,
                 ...utils.spreadLangs(Recipe.ItemResult, "Name")
             });

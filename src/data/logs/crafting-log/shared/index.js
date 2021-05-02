@@ -13,5 +13,6 @@ export const Logs_Crafting_Log_Shared = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/dyes`),
     ];
 
+    group.isCraftingLogGroup = true;
     return group;
 };
