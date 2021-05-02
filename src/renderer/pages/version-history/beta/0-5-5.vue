@@ -28,6 +28,7 @@
         <ul>
             <li>Added 5.5 content</li>
             <li>Added French translations to several sections</li>
+            <li>Added Quasi-Quest section to Other Quests</li>
             <li>Split GC Leves into own section</li>
             <li>Excluded event based titles by default</li>
             <li>Removed class level 1 & 10 duplicate quests</li>
