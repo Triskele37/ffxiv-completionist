@@ -7,4 +7,5 @@ module.exports = [
     { content: "Leve", ...require("./Leve") },
     { content: "Quest", ...require("./Quest") },
     { content: "RecipeNotebookList", ...require("./RecipeNotebookList") },
+    { content: "Title", ...require("./Title") },
 ];

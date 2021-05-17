@@ -10,6 +10,7 @@ const reorderTasksByOldName = require('./reorderTasksByOldName');
 const reorderTasksBySource = require('./reorderTasksBySource');
 const propagateNewTasks = require('./propagateNewTasks');
 const mergeFauxIDs = require('./mergeFauxIDs');
+const outputIdChanges = require('./outputIdChanges');
 
 // Process entry point
 mainScreen();
@@ -24,7 +25,8 @@ function mainScreen() {
     rl.write('\n3. Reorder Tasks by Source');
     rl.write('\n4. Propagate New Tasks');
     rl.write('\n5. Merge Faux Tasks');
-    rl.write('\n6. Exit\n');
+    rl.write('\n6. Output ID Changes');
+    rl.write('\n7. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
@@ -33,6 +35,7 @@ function mainScreen() {
             case '3': reorderTasksBySource(rl, mainScreen); break;
             case '4': propagateNewTasks(rl, mainScreen); break;
             case '5': mergeFauxIDs(rl, mainScreen); break;
+            case '6': outputIdChanges(rl, mainScreen); break;
             default: rl.close();
         }
     });
