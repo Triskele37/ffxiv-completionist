@@ -1,6 +1,5 @@
 import { DataGroup } from "../../DataGroup";
 
-import { Character_Character_Title } from "./title";
 import { Character_Character_Classes_Job } from "./classes-jobs";
 import { Character_Character_Desynthesis } from "./desynthesis";
 
@@ -14,7 +13,10 @@ export const Character_Character = function(parent) {
             gender: { filterable: true },
             patch: { filterable: true },
         }),
-        Character_Character_Title(group),
+        DataGroup.fromJSON(parent, `${basePath}/title`, {
+            category: { filterable: true },
+            patch: { filterable: true },
+        }),
         DataGroup.fromJSON(group, `${basePath}/grand-company-rank`, {
             grandCompany: { filterable: true }
         }),
