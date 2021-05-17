@@ -10,6 +10,7 @@
             <li>Methods of pulling data from XIVAPI while maintaining app data integrity</li>
             <li>Further translation support</li>
             <li>Auto-completion of related items</li>
+            <li>Armoire section</li>
             <li>Customizable themes</li>
             <li>Syncing data available on your character from Lodestone</li>
         </ul>
@@ -18,7 +19,6 @@
 
         <h3>Known Issues</h3>
         <ul>
-            <li>Some sorting issues in Achievements</li>
             <li>Many ARR quests have the wrong level (please provide feedback to help, there is a lot of em)</li>
             <li>Achievements missing "Patch" column</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
