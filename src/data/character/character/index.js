@@ -13,7 +13,7 @@ export const Character_Character = function(parent) {
             gender: { filterable: true },
             patch: { filterable: true },
         }),
-        DataGroup.fromJSON(parent, `${basePath}/title`, {
+        DataGroup.fromJSON(group, `${basePath}/title`, {
             category: { filterable: true },
             patch: { filterable: true },
         }),
