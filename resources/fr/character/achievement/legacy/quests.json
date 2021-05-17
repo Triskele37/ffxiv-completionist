@@ -3,17 +3,16 @@
     "groupName": "Quests",
     "tasks": [
         {
-            "reward": "Iconoclaste du divin",
-            "description": "Vaincre Sazel Ciloc le divin au cours d'une bataille de défense du Moulin des Bois.",
-            "id": 417,
-            "name": "Repose en paix Sazel Ciloc",
+            "description": "Accomplir 15 quêtes annexes de la Noscea.",
+            "id": 319,
+            "name": "Détours dans la Noscea",
             "Order": 0,
             "points": 5
         },
         {
-            "description": "Accomplir 15 quêtes annexes de la Noscea.",
-            "id": 319,
-            "name": "Détours dans la Noscea",
+            "description": "Accomplir 15 quêtes annexes de la forêt de Sombrelinceul.",
+            "id": 320,
+            "name": "Détours dans Sombrelinceul",
             "Order": 0,
             "points": 5
         },
@@ -502,9 +501,10 @@
             "points": 5
         },
         {
-            "description": "Accomplir 15 quêtes annexes de la forêt de Sombrelinceul.",
-            "id": 320,
-            "name": "Détours dans Sombrelinceul",
+            "reward": "Iconoclaste du divin",
+            "description": "Vaincre Sazel Ciloc le divin au cours d'une bataille de défense du Moulin des Bois.",
+            "id": 417,
+            "name": "Repose en paix Sazel Ciloc",
             "Order": 0,
             "points": 5
         },

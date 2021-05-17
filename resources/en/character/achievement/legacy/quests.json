@@ -3,17 +3,16 @@
     "groupName": "Quests",
     "tasks": [
         {
-            "reward": "Divine Crusher",
-            "description": "Defeat Sazel Ciloc the Divine during the Battle for Hyrstmill.",
-            "id": 417,
-            "name": "To Kill a Mocking Bird",
+            "description": "Complete 15 sidequests originating in La Noscea.",
+            "id": 319,
+            "name": "A Little Something on the Side: La Noscea",
             "Order": 0,
             "points": 5
         },
         {
-            "description": "Complete 15 sidequests originating in La Noscea.",
-            "id": 319,
-            "name": "A Little Something on the Side: La Noscea",
+            "description": "Complete 15 sidequests originating in the Black Shroud.",
+            "id": 320,
+            "name": "A Little Something on the Side: Black Shroud",
             "Order": 0,
             "points": 5
         },
@@ -502,9 +501,10 @@
             "points": 5
         },
         {
-            "description": "Complete 15 sidequests originating in the Black Shroud.",
-            "id": 320,
-            "name": "A Little Something on the Side: Black Shroud",
+            "reward": "Divine Crusher",
+            "description": "Defeat Sazel Ciloc the Divine during the Battle for Hyrstmill.",
+            "id": 417,
+            "name": "To Kill a Mocking Bird",
             "Order": 0,
             "points": 5
         },

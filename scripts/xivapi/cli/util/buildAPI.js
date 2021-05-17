@@ -52,10 +52,15 @@ module.exports = function buildAPI(config, mapFromCache) {
             }
         });
 
-        // Try to sort if XIVAPI came with a sort key
+        // Try to sort if XIVAPI came with a sort order
+        //NOTE: Rename any sort key to "Order" when mapping cache tasks
         if(buildObj.tasks.length) {
-            if(buildObj.tasks[0].SortKey) buildObj.tasks.sort((a, b) => a.SortKey - b.SortKey);
-            else if(buildObj.tasks[0].Order) buildObj.tasks.sort((a, b) => a.Order - b.Order);
+            const hasSortOrder = buildObj.tasks[0].Order !== undefined && buildObj.tasks[0].Order !== null;
+            if(hasSortOrder) {
+                buildObj.tasks.sort((a, b) => {
+                    return (a.Order === 0 || b.Order === 0) ? a.ID - b.ID : a.Order - b.Order;
+                });
+            }
         }
     }
 };

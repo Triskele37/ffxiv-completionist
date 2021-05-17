@@ -3,17 +3,16 @@
     "groupName": "Grand Company",
     "tasks": [
         {
-            "reward": "Lightning",
-            "description": "Complete level 40 caravan security in less than 8 minutes (Earth time).",
-            "id": 583,
-            "name": "Gone in Eight Minutes",
-            "Order": 0,
-            "points": 10
-        },
-        {
             "description": "Complete level 20 caravan security in less than 12 minutes (Earth time).",
             "id": 578,
             "name": "Twelve Minutes or Less or Your Cargo's Free",
+            "Order": 0,
+            "points": 5
+        },
+        {
+            "description": "Complete level 20 caravan security in less than 10 minutes (Earth time).",
+            "id": 579,
+            "name": "Ten Minutes or Less or Your Cargo's Free",
             "Order": 0,
             "points": 5
         },
@@ -40,11 +39,12 @@
             "points": 5
         },
         {
-            "description": "Complete level 20 caravan security in less than 10 minutes (Earth time).",
-            "id": 579,
-            "name": "Ten Minutes or Less or Your Cargo's Free",
+            "reward": "Lightning",
+            "description": "Complete level 40 caravan security in less than 8 minutes (Earth time).",
+            "id": 583,
+            "name": "Gone in Eight Minutes",
             "Order": 0,
-            "points": 5
+            "points": 10
         },
         {
             "description": "Protect a total of 100 packs of chocobo cargo.",

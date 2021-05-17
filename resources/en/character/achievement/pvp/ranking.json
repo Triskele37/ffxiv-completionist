@@ -3,18 +3,18 @@
     "groupName": "Ranking",
     "tasks": [
         {
-            "reward": "Of the First Pack",
-            "description": "Complete a Feast season ranked #1 (party).",
-            "id": 1565,
-            "name": "It's My Party",
-            "points": 20
-        },
-        {
             "reward": "Leader of the Pack",
             "description": "Complete a Feast season ranked #1 (solo).",
             "id": 1540,
             "name": "Head of the Table",
             "points": 20
+        },
+        {
+            "reward": "Beta Wolf",
+            "description": "Complete a Feast season ranked #2-#10 (solo).",
+            "id": 1541,
+            "name": "Dinner for Two (to Ten)",
+            "points": 10
         },
         {
             "reward": "Hunter Wolf",
@@ -59,11 +59,11 @@
             "points": 20
         },
         {
-            "reward": "Beta Wolf",
-            "description": "Complete a Feast season ranked #2-#10 (solo).",
-            "id": 1541,
-            "name": "Dinner for Two (to Ten)",
-            "points": 10
+            "reward": "Of the First Pack",
+            "description": "Complete a Feast season ranked #1 (party).",
+            "id": 1565,
+            "name": "It's My Party",
+            "points": 20
         },
         {
             "reward": "Of the Second Pack",

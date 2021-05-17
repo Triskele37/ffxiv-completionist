@@ -3,18 +3,18 @@
     "groupName": "Classement",
     "tasks": [
         {
-            "reward": "Loup de meute dominante / Louve de meute dominante",
-            "description": "Terminer une saison de The Feast à la 1re place du classement en équipe.",
-            "id": 1565,
-            "name": "Roi du Festin collectif",
-            "points": 20
-        },
-        {
             "reward": "Grand carnassier solitaire / Grande carnassière solitaire",
             "description": "Terminer une saison de The Feast à la 1re place du classement.",
             "id": 1540,
             "name": "Roi du Festin solitaire",
             "points": 20
+        },
+        {
+            "reward": "Carnassier impitoyable / Carnassière impitoyable",
+            "description": "Terminer une saison de The Feast entre la 2e et la 10e place du classement.",
+            "id": 1541,
+            "name": "Boucher du Festin solitaire",
+            "points": 10
         },
         {
             "reward": "Jeune carnassier / Jeune carnassière",
@@ -59,11 +59,11 @@
             "points": 20
         },
         {
-            "reward": "Carnassier impitoyable / Carnassière impitoyable",
-            "description": "Terminer une saison de The Feast entre la 2e et la 10e place du classement.",
-            "id": 1541,
-            "name": "Boucher du Festin solitaire",
-            "points": 10
+            "reward": "Loup de meute dominante / Louve de meute dominante",
+            "description": "Terminer une saison de The Feast à la 1re place du classement en équipe.",
+            "id": 1565,
+            "name": "Roi du Festin collectif",
+            "points": 20
         },
         {
             "reward": "Loup de meute impitoyable / Louve de meute impitoyable",

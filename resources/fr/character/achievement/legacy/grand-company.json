@@ -3,17 +3,16 @@
     "groupName": "Grand Company",
     "tasks": [
         {
-            "reward": "L'Éclair / La Foudre",
-            "description": "Terminer une escorte de caravane de niveau 40 en moins de 8 minutes.",
-            "id": 583,
-            "name": "Les monstres attaquent, la caravane trace (niveau 40)",
-            "Order": 0,
-            "points": 10
-        },
-        {
             "description": "Terminer une escorte de caravane de niveau 20 en moins de 12 minutes.",
             "id": 578,
             "name": "Hue, cocotte ! (niveau 20)",
+            "Order": 0,
+            "points": 5
+        },
+        {
+            "description": "Terminer une escorte de caravane de niveau 20 en moins de 10 minutes.",
+            "id": 579,
+            "name": "Chocobo express (niveau 20)",
             "Order": 0,
             "points": 5
         },
@@ -40,11 +39,12 @@
             "points": 5
         },
         {
-            "description": "Terminer une escorte de caravane de niveau 20 en moins de 10 minutes.",
-            "id": 579,
-            "name": "Chocobo express (niveau 20)",
+            "reward": "L'Éclair / La Foudre",
+            "description": "Terminer une escorte de caravane de niveau 40 en moins de 8 minutes.",
+            "id": 583,
+            "name": "Les monstres attaquent, la caravane trace (niveau 40)",
             "Order": 0,
-            "points": 5
+            "points": 10
         },
         {
             "description": "Accompagner 100 unités de chargement de caravane.",

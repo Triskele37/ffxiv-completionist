@@ -7,6 +7,9 @@ module.exports = {
         const file = fs.readFileSync(path, "utf8");
         return JSON.parse(file);
     },
+    safeTrim: function safeTrim(val) {
+        return (typeof val === "string") ? val.trim() : val;
+    },
     spreadLangs: function spreadLangs(obj, key, leftSideOverride) {
         return {
             [`${leftSideOverride || key}_de`]: obj[`${key}_de`],

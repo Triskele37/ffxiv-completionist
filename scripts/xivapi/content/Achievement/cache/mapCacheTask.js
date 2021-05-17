@@ -15,6 +15,7 @@ module.exports = function mapCacheTask(apiObj) {
         "ID": apiObj.ID,
         ...utils.spreadLangs(apiObj, "Name"),
         ...utils.spreadLangs(apiObj, "Description"),
+        "Order": apiObj.Order,
         "Points": apiObj.Points,
         ...reward
     };
