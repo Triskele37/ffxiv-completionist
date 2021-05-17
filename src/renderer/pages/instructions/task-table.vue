@@ -19,6 +19,13 @@
 
         <br/>
 
+        <h2>Filtering Completion</h2>
+        <p>At the top of the completion column are 3 icons that indicate "completed", "not completed", and "excluded"</p>
+        <p>These can be enabled/disabled separately and their state is saved between tables and reloads</p>
+        <p>Items in the table that match any enabled icon will be displayed</p>
+
+        <br/>
+
         <h2>Select Items</h2>
         <p>Clicking on any row will "select" it and turn it a different color</p>
         <p>A dropdown above the table allows for a few options with selecting as well</p>

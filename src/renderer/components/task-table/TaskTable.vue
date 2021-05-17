@@ -31,6 +31,8 @@
 </template>
 
 <script>
+    import { eStore } from "../../../store/electronStore";
+
     // Components
     import QuickMarkDropdown from './QuickMarkDropdown';
     import SelectionActionDropdown from "./SelectionActionDropdown";
@@ -55,7 +57,13 @@
             tasks: Array,
         },
         data: () => ({
-            filters: {},
+            filters: {
+                completion: {
+                    completed: eStore.get("table-filters.completed"),
+                    incomplete: eStore.get("table-filters.incomplete"),
+                    excluded: eStore.get("table-filters.excluded"),
+                }
+            },
             rerenderKey: 0
         }),
         computed: {
@@ -92,16 +100,19 @@
             filteredTasks: function() {
                 let filtered = this.tasks.concat();
 
-                if(this.filters.completed) {
-                    filtered = filtered.filter((task) => {
-                        const completed = task.completionFlag;
-                        const filterCompleted = this.filters.completed.value;
-
-                        if(!completed && filterCompleted === 'N') return true;
-                        return completed === filterCompleted;
+                // Completion filters
+                if(this.hasTasks && !this.tasks[0].isNumericCompletion) {
+                    filtered = filtered.filter(({ completionFlag }) => {
+                        switch(completionFlag) {
+                            case "Y": return this.filters.completion.completed;
+                            case "N": return this.filters.completion.incomplete;
+                            case "X": return this.filters.completion.excluded;
+                            default: return this.filters.completion.incomplete;
+                        }
                     });
                 }
 
+                // Column filters
                 for(let i = 0; i < this.columnConfig.length; i++) {
                     const key = this.columnConfig[i].key;
                     const filter = this.filters[key];

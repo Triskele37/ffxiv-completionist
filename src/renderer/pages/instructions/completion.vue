@@ -23,13 +23,6 @@
 
         <br/>
 
-        <h2>Filtering Completion</h2>
-        <p>At the top of the completion column are 3 icons that indicate "completed", "not completed", and "excluded"</p>
-        <p>When you click on one of these icons, it will filter to show you only items that are in that state within the current group</p>
-        <p>You can then remove this filter by clicking the same icon again</p>
-
-        <br/>
-
         <h2>Quick-Mark Completion</h2>
         <p>Above the table is a dropdown that has several options for altering completion state of many tasks at once</p>
 

@@ -3,14 +3,14 @@
         <th class="completion-column">
             <template v-if="!isNumericCompletion">
                 <span @click="onFilterCompletion('Y')">
-                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'Y' }" name="complete"/>
+                  <icon :class="{ enabledFilter: filters.completion.completed }" name="complete"/>
                 </span>
                 <span @click="onFilterCompletion('N')">
-                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'N' }" name="incomplete"/>
+                  <icon :class="{ enabledFilter: filters.completion.incomplete }" name="incomplete"/>
                 </span>
                 <br/>
                 <span @click="onFilterCompletion('X')">
-                  <icon :class="{ selectedFilter: filters.completed && filters.completed.value === 'X' }" name="exclude"/>
+                  <icon :class="{ enabledFilter: filters.completion.excluded }" name="exclude"/>
                 </span>
             </template>
             <template v-else>
@@ -58,10 +58,18 @@
 </template>
 
 <script>
+    import { eStore } from "../../../../store/electronStore";
+
     export default {
         name: 'task-table-header',
         data: () => ({
-            filters: [],
+            filters: {
+                completion: {
+                    completed: eStore.get("table-filters.completed"),
+                    incomplete: eStore.get("table-filters.incomplete"),
+                    excluded: eStore.get("table-filters.excluded"),
+                }
+            },
         }),
         props: {
             isNumericCompletion: Boolean,
@@ -73,17 +81,9 @@
         },
         methods: {
             onFilterCompletion: function(value) {
-                if(!value || this.filters.completed && this.filters.completed.value === value) {
-                    // Remove filter
-                    this.filters.completed = null;
-                }
-                else {
-                    // Add/Change filter
-                    this.filters.completed = {
-                        filterType: 'completed',
-                        value
-                    };
-                }
+                const key = (value === "Y") ? "completed" : (value === "N") ? "incomplete" : "excluded";
+                this.filters.completion[key] = !this.filters.completion[key];
+                eStore.set(`table-filters.${key}`, this.filters.completion[key]);
 
                 this.filters = Object.assign({}, this.filters);
                 this.$emit('filter-change', this.filters);
@@ -135,7 +135,7 @@
     .completion-column span {
         cursor: pointer;
 
-        .selectedFilter {
+        .enabledFilter {
             filter: drop-shadow(2px 2px 0px black);
         }
     }
