@@ -69,16 +69,22 @@ export default {
         addCustomTask: function() {
             // Prevent short names
             if(this.newTaskName.length < 3) return;
+            const customTasks = getPlayerStore().get('custom') || [];
+
+            // Get next safe ID
+            let nextId = 0;
+            while(!!customTasks.find((t) => t.id === nextId)) nextId++;
 
             // Update store with custom name & notes
-            const customTasks = getPlayerStore().get('custom') || [];
             getPlayerStore().set('custom', [...customTasks, {
+                id: nextId,
                 name: this.newTaskName,
                 notes: this.newTaskNotes
             }]);
 
             // Update data with new custom task
             this.customData.tasks.push(new Task({
+                id: nextId,
                 name: this.newTaskName,
                 notes: this.newTaskNotes
             }, this.customData));
