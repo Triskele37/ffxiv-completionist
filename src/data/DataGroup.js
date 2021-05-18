@@ -124,17 +124,6 @@ export class DataGroup {
         return (this._parent ? this._parent.fullStorageKey + '.' : '') + this.storageKey;
     }
 
-    get oldStorageKey() {
-        return this.name
-            .toLowerCase()
-            .replace(/ /g, '-')
-            .replace(/[^a-z0-9-]/g, '');
-    }
-
-    get oldFullStorageKey() {
-        return (this._parent ? this._parent.oldFullStorageKey + '.' : '') + this.oldStorageKey;
-    }
-
     //------------------------------------------------------------------ Pathing
     get groupPath() {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]

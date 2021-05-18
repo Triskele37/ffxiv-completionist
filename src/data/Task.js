@@ -60,17 +60,4 @@ export class Task {
     get fullStorageKey() {
         return `${this._parent.fullStorageKey}.${this.storageKey}`;
     }
-
-    get oldStorageKey() {
-        const name = (this.Name || this.name || '').trim();
-
-        return name
-            .toLowerCase()
-            .replace(/ /g, '-')
-            .replace(/[^a-z0-9-]/g, '');
-    }
-
-    get oldFullStorageKey() {
-        return `${this._parent.oldFullStorageKey}.${this.oldStorageKey}`;
-    }
 }
