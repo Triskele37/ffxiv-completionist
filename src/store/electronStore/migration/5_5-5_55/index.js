@@ -6,6 +6,7 @@ import { migrate_5_55_barding } from "./barding";
 export const migrate_5_5_to_5_55 = () => {
     const overall = new ChangeStore('0.5.55', true);
 
+    //TODO: Don't forget to uncomment
     // migrate_5_55_titles(overall);
     // migrate_5_55_barding(overall);
 
