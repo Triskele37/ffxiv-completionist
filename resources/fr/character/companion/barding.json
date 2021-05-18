@@ -9,385 +9,427 @@
     },
     "tasks": [
         {
-            "id": 0,
-            "name": "Barde de servante",
-            "category": "Donjon sans fond",
-            "source": "Le Palais des morts",
-            "patch": "3.4"
-        },
-        {
             "id": 1,
-            "name": "Barde mhigoise",
-            "category": "ALÉA",
-            "source": "Défi: L'affreux Humbaba",
-            "patch": "4.0"
-        },
-        {
-            "id": 2,
-            "name": "Barde angélique",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.5"
-        },
-        {
-            "id": 3,
-            "name": "Barde de la Lumière",
-            "category": "Achat",
-            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
-            "patch": "2.2"
-        },
-        {
-            "id": 4,
-            "name": "Barde de Béhémoth",
-            "category": "Premium",
-            "source": "A Realm Reborn Édition Collector",
-            "patch": "2.0"
-        },
-        {
-            "id": 5,
-            "name": "Barde de mage noir",
-            "category": "Achat",
-            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
-            "patch": "2.0"
-        },
-        {
-            "id": 6,
-            "name": "Barde de Lakshmi",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Orfèvre / Pilier des Cieux",
-            "patch": "4.0"
-        },
-        {
-            "id": 7,
-            "name": "Barde de majordome",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.0"
-        },
-        {
-            "id": 8,
-            "name": "Barde de Byakko",
-            "category": "Artisanat",
-            "source": "Orfèvre",
-            "patch": "4.2"
-        },
-        {
-            "id": 9,
-            "name": "Barde imperméable",
-            "category": "Achat",
-            "source": "800 Assignats jaunes de Récolteur",
-            "patch": "4.2"
-        },
-        {
-            "id": 10,
-            "name": "Barde de danseur",
-            "category": "Achat",
-            "source": "350 gemmes bicolores (Eulmore)",
-            "patch": "5.0"
-        },
-        {
-            "id": 11,
-            "name": "Barde de la Pleine-ombre",
-            "category": "Achat",
-            "source": "350 gemmes bicolores (Grand-Lac)",
-            "patch": "5.0"
-        },
-        {
-            "id": 12,
-            "name": "Barde démoniaque",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.5"
-        },
-        {
-            "id": 13,
-            "name": "Armure du chevalier Dragon",
-            "category": "Autre",
-            "source": "Compétence du Compagnon - Choco-explosion",
-            "patch": "2.0"
-        },
-        {
-            "id": 14,
-            "name": "Barde d'effroi",
-            "category": "Événement / Premium",
-            "source": "La Veillée des saints (2014) / Boutique en ligne Final Fantasy XIV",
-            "patch": "2.38"
-        },
-        {
-            "id": 15,
-            "name": "Chanfrein ovoïde",
-            "category": "Événement",
-            "source": "La Chasse aux Prœufs (2014)",
-            "patch": "2.2"
-        },
-        {
-            "id": 16,
-            "name": "Barde de chasseur de Prœufs",
-            "category": "Événement / Premium",
-            "source": "La Chasse aux Prœufs (2016) / Boutique en ligne Final Fantasy XIV",
-            "patch": "3.2"
-        },
-        {
-            "id": 17,
-            "name": "Barde Smaragdus",
-            "category": "Artisanat",
-            "source": "Armurier",
-            "patch": "5.4"
-        },
-        {
-            "id": 18,
-            "name": "Barde de Bismarck",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Armurier / Pilier des Cieux",
-            "patch": "3.0"
-        },
-        {
-            "id": 19,
-            "name": "Barde orientale",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.0"
-        },
-        {
-            "id": 20,
-            "name": "Chanfrein d'aviateur",
-            "category": "Achat",
-            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
-            "patch": "3.0"
-        },
-        {
-            "id": 21,
-            "name": "Barde de flambeur",
-            "category": "Achat",
-            "source": "20.000 PGS",
-            "patch": "2.51"
-        },
-        {
-            "id": 22,
-            "name": "Barde des Deux Vipères",
-            "category": "Achat",
-            "source": "6.000 Sceaux de compagnie gridanien",
-            "patch": "2.0"
-        },
-        {
-            "id": 23,
-            "name": "Barde lourde des Deux Vipères",
-            "category": "Achat",
-            "source": "8.000 Sceaux de compagnie gridanien",
-            "patch": "2.0"
-        },
-        {
-            "id": 24,
-            "name": "Demi-barde des Deux Vipères",
-            "category": "Achat",
-            "source": "4.000 Sceaux de compagnie gridanien",
-            "patch": "2.0"
-        },
-        {
-            "id": 25,
-            "name": "Harnachement des Deux Vipères",
-            "category": "Autre",
-            "source": "Rejoindre L'Ordre des Deux Vipères",
-            "patch": "2.0"
-        },
-        {
-            "id": 26,
-            "name": "Barde d'Hadès",
-            "category": "Artisanat",
-            "source": "Armurier",
-            "patch": "5.1"
-        },
-        {
-            "id": 27,
-            "name": "Barde des Hautes terres",
-            "category": "Artisanat",
-            "source": "Tanneur",
-            "patch": "3.0"
-        },
-        {
-            "id": 28,
-            "name": "Barde chocobo hingashienne",
-            "category": "Achat",
-            "source": "Eschina - L'Étendue de Rhalgr - 4 Journaux de membre éminent du clan",
-            "patch": "4.0"
-        },
-        {
-            "id": 29,
-            "name": "Barde de Ravana",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Armurier / Pilier des Cieux",
-            "patch": "3.0"
-        },
-        {
-            "id": 30,
-            "name": "Barde de Nidhogg",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Tanneur / Pilier des Cieux",
-            "patch": "3.3"
-        },
-        {
-            "id": 31,
-            "name": "Barde de Shiva",
-            "category": "Artisanant / Donjon sans fond",
-            "source": "Tanneur / Pilier des Cieux",
-            "patch": "2.4"
-        },
-        {
-            "id": 32,
-            "name": "Barde d'Innocence",
-            "category": "Artisanat",
-            "source": "Armurier",
-            "patch": "5.0"
-        },
-        {
-            "id": 33,
-            "name": "Barde ishgardaise",
-            "category": "Achat",
-            "source": "350 Insignes Centurio",
-            "patch": "3.0"
-        },
-        {
-            "id": 34,
-            "name": "Demi-barde ishgardaise",
-            "category": "ALÉA",
-            "source": "Défi : Duel Amical Contre Vedrfolnir",
-            "patch": "3.0"
-        },
-        {
-            "id": 35,
-            "name": "Barde d'Ixion",
-            "category": "Achat",
-            "source": "Eschina - L'Étendue de Rhalgr - 5 Cornes d'Ixion (Défi: l'étalon survolté)",
-            "patch": "4.1"
-        },
-        {
-            "id": 36,
-            "name": "Barde de Ramuh",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Tanneur / Pilier des Cieux",
-            "patch": "2.3"
-        },
-        {
-            "id": 37,
-            "name": "Barde du Maelstrom",
-            "category": "Achat",
-            "source": "6.000 Sceaux de compagnie limséen",
-            "patch": "2.0"
-        },
-        {
-            "id": 38,
-            "name": "Barde lourde du Maelstrom",
-            "category": "Achat",
-            "source": "8.000 Sceaux de compagnie limséen",
-            "patch": "2.0"
-        },
-        {
-            "id": 39,
-            "name": "Demi-barde du Maelstrom",
-            "category": "Achat",
-            "source": "4.000 Sceaux de compagnie limséen",
-            "patch": "2.0"
-        },
-        {
-            "id": 40,
             "name": "Harnachement du Maelstrom",
             "category": "Autre",
             "source": "Rejoindre Le Maelstrom",
             "patch": "2.0"
         },
         {
-            "id": 41,
-            "name": "Barde de Tsukuyomi",
-            "category": "Artisanat",
-            "source": "Couturier",
-            "patch": "4.3"
-        },
-        {
-            "id": 42,
-            "name": "Barde de machiniste",
+            "id": 2,
+            "name": "Demi-barde du Maelstrom",
             "category": "Achat",
-            "source": "1.200 Assignats d'Azurée",
-            "patch": "5.21"
+            "source": "4.000 Sceaux de compagnie limséen",
+            "patch": "2.0"
         },
         {
-            "id": 43,
-            "name": "Barde de servante des Manderville",
+            "id": 3,
+            "name": "Barde du Maelstrom",
             "category": "Achat",
-            "source": "150,000 PGS",
-            "patch": "3.4"
+            "source": "6.000 Sceaux de compagnie limséen",
+            "patch": "2.0"
         },
         {
-            "id": 44,
-            "name": "Barde de Nezha",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.2"
+            "id": 4,
+            "name": "Barde lourde du Maelstrom",
+            "category": "Achat",
+            "source": "8.000 Sceaux de compagnie limséen",
+            "patch": "2.0"
         },
         {
-            "id": 45,
-            "name": "Barde noble",
-            "category": "Limité",
-            "source": "Récompense \"Do you even /Pose?\"",
-            "patch": "3.0"
+            "id": 5,
+            "name": "Harnachement des Deux Vipères",
+            "category": "Autre",
+            "source": "Rejoindre L'Ordre des Deux Vipères",
+            "patch": "2.0"
         },
         {
-            "id": 46,
-            "name": "Barde mog hingashienne",
-            "category": "Premium",
-            "source": "Boutique en ligne Final Fantasy XIV (Chine)",
-            "patch": "4.0"
+            "id": 6,
+            "name": "Demi-barde des Deux Vipères",
+            "category": "Achat",
+            "source": "4.000 Sceaux de compagnie gridanien",
+            "patch": "2.0"
         },
         {
-            "id": 47,
-            "name": "Barde orthodoxe",
-            "category": "Artisanat",
-            "source": "Couturier",
-            "patch": "3.0"
+            "id": 7,
+            "name": "Barde des Deux Vipères",
+            "category": "Achat",
+            "source": "6.000 Sceaux de compagnie gridanien",
+            "patch": "2.0"
         },
         {
-            "id": 48,
-            "name": "Armure de Paladin",
+            "id": 8,
+            "name": "Barde lourde des Deux Vipères",
+            "category": "Achat",
+            "source": "8.000 Sceaux de compagnie gridanien",
+            "patch": "2.0"
+        },
+        {
+            "id": 9,
+            "name": "Harnachement des Immortels",
+            "category": "Autre",
+            "source": "Rejoindre Les Immortels",
+            "patch": "2.0"
+        },
+        {
+            "id": 10,
+            "name": "Demi-barde des Immortels",
+            "category": "Achat",
+            "source": "4.000 Sceaux de compagnie uldien",
+            "patch": "2.0"
+        },
+        {
+            "id": 11,
+            "name": "Barde des Immortels",
+            "category": "Achat",
+            "source": "6.000 Sceaux de compagnie uldien",
+            "patch": "2.0"
+        },
+        {
+            "id": 12,
+            "name": "Barde lourde des Immortels",
+            "category": "Achat",
+            "source": "8.000 Sceaux de compagnie uldien",
+            "patch": "2.0"
+        },
+        {
+            "id": 13,
+            "name": "Barde de paladin",
             "category": "Autre",
             "source": "Compétence de Compagnon - Choco-frappe",
             "patch": "2.0"
         },
         {
-            "id": 49,
-            "name": "Barde de soupirant",
-            "category": "Événement",
-            "source": "La Valention (2015)",
-            "patch": "2.5"
+            "id": 14,
+            "name": "Barde de chevalier dragon",
+            "category": "Autre",
+            "source": "Compétence du Compagnon - Choco-explosion",
+            "patch": "2.0"
         },
         {
-            "id": 50,
-            "name": "Chanfrein à panache",
-            "category": "Haut fait",
-            "source": "Meilleur ami des chocobos",
-            "patch": "2.3"
+            "id": 15,
+            "name": "Barde de mage blanc",
+            "category": "Autre",
+            "source": "Compétence du Compagnon- Choco-médica",
+            "patch": "2.0"
         },
         {
-            "id": 51,
-            "name": "Barde-la-Reine",
-            "category": "Bozja",
-            "source": "Delubrum Reginae",
-            "patch": "5.45"
+            "id": 19,
+            "name": "Barde de mage noir",
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
+            "patch": "2.0"
         },
         {
-            "id": 52,
-            "name": "Barde de course",
-            "category": "Haut fait",
-            "source": "Challengeur à plumes I",
-            "patch": "3.25"
-        },
-        {
-            "id": 53,
+            "id": 61,
             "name": "Barde de mage rouge",
             "category": "Eurêka",
             "source": "Coffre verrouillé d'Anemos",
             "patch": "4.25"
         },
         {
+            "id": 66,
+            "name": "Barde de samouraï",
+            "category": "Eurêka",
+            "source": "Coffre roussi - Eurêka Pyros",
+            "patch": "4.45"
+        },
+        {
+            "id": 71,
+            "name": "Barde de danseur",
+            "category": "Achat",
+            "source": "350 gemmes bicolores (Eulmore)",
+            "patch": "5.0"
+        },
+        {
+            "id": 76,
+            "name": "Barde de machiniste",
+            "category": "Achat",
+            "source": "1.200 Assignats d'Azurée",
+            "patch": "5.21"
+        },
+        {
+            "id": 23,
+            "name": "Barde de la Lumière",
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
+            "patch": "2.2"
+        },
+        {
+            "id": 29,
+            "name": "Barde de flambeur",
+            "category": "Achat",
+            "source": "20.000 PGS",
+            "patch": "2.51"
+        },
+        {
+            "id": 39,
+            "name": "Barde de la rose sauvage",
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
+            "patch": "3.07"
+        },
+        {
+            "id": 18,
+            "name": "Chanfrein d'aviateur",
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
+            "patch": "3.0"
+        },
+        {
+            "id": 20,
+            "name": "Chanfrein du roi chocobo",
+            "category": "Haut fait",
+            "source": "Laisser une bonne impression IV",
+            "patch": "2.1"
+        },
+        {
+            "id": 26,
+            "name": "Chanfrein à panache",
+            "category": "Haut fait",
+            "source": "Meilleur ami des chocobos",
+            "patch": "2.3"
+        },
+        {
+            "id": 31,
+            "name": "Demi-barde ishgardaise",
+            "category": "ALÉA",
+            "source": "Défi : Duel Amical Contre Vedrfolnir",
+            "patch": "3.0"
+        },
+        {
+            "id": 32,
+            "name": "Barde ishgardaise",
+            "category": "Achat",
+            "source": "350 Insignes Centurio",
+            "patch": "3.0"
+        },
+        {
+            "id": 36,
+            "name": "Barde noble",
+            "category": "Limité",
+            "source": "Récompense \"Do you even /Pose?\"",
+            "patch": "3.0"
+        },
+        {
+            "id": 37,
+            "name": "Barde orthodoxe",
+            "category": "Artisanat",
+            "source": "Couturier",
+            "patch": "3.0"
+        },
+        {
+            "id": 38,
+            "name": "Barde des Hautes terres",
+            "category": "Artisanat",
+            "source": "Tanneur",
+            "patch": "3.0"
+        },
+        {
+            "id": 43,
+            "name": "Barde orientale",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.0"
+        },
+        {
+            "id": 44,
+            "name": "Barde de course",
+            "category": "Haut fait",
+            "source": "Challengeur à plumes I",
+            "patch": "3.25"
+        },
+        {
+            "id": 46,
+            "name": "Barde de majordome",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.0"
+        },
+        {
+            "id": 48,
+            "name": "Barde de servante",
+            "category": "Donjon sans fond",
+            "source": "Le Palais des morts",
+            "patch": "3.4"
+        },
+        {
+            "id": 49,
+            "name": "Barde de servante des Manderville",
+            "category": "Achat",
+            "source": "150,000 PGS",
+            "patch": "3.4"
+        },
+        {
+            "id": 50,
+            "name": "Barde angélique",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5"
+        },
+        {
+            "id": 51,
+            "name": "Barde démoniaque",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5"
+        },
+        {
             "id": 54,
+            "name": "Barde mhigoise",
+            "category": "ALÉA",
+            "source": "Défi: L'affreux Humbaba",
+            "patch": "4.0"
+        },
+        {
+            "id": 56,
+            "name": "Barde chocobo hingashienne",
+            "category": "Achat",
+            "source": "Eschina - L'Étendue de Rhalgr - 4 Journaux de membre éminent du clan",
+            "patch": "4.0"
+        },
+        {
+            "id": 57,
+            "name": "Barde mog hingashienne",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV (Chine)",
+            "patch": "4.0"
+        },
+        {
+            "id": 58,
+            "name": "Barde de Nezha",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.2"
+        },
+        {
+            "id": 63,
+            "name": "Barde imperméable",
+            "category": "Achat",
+            "source": "800 Assignats jaunes de Récolteur",
+            "patch": "4.2"
+        },
+        {
+            "id": 72,
+            "name": "Barde de la Pleine-ombre",
+            "category": "Achat",
+            "source": "350 gemmes bicolores (Grand-Lac)",
+            "patch": "5.0"
+        },
+        {
+            "id": 21,
+            "name": "Barde de la fête des étoiles",
+            "category": "Événement",
+            "source": "La fête des étoiles (2013)",
+            "patch": "2.1"
+        },
+        {
+            "id": 24,
+            "name": "Chanfrein ovoïde",
+            "category": "Événement",
+            "source": "La Chasse aux Prœufs (2014)",
+            "patch": "2.2"
+        },
+        {
+            "id": 27,
+            "name": "Barde d'effroi",
+            "category": "Événement / Premium",
+            "source": "La Veillée des saints (2014) / Boutique en ligne Final Fantasy XIV",
+            "patch": "2.38"
+        },
+        {
+            "id": 30,
+            "name": "Barde de soupirant",
+            "category": "Événement",
+            "source": "La Valention (2015)",
+            "patch": "2.5"
+        },
+        {
+            "id": 42,
+            "name": "Barde de chasseur de Prœufs",
+            "category": "Événement / Premium",
+            "source": "La Chasse aux Prœufs (2016) / Boutique en ligne Final Fantasy XIV",
+            "patch": "3.2"
+        },
+        {
+            "id": 74,
+            "name": "Barde sainte",
+            "category": "Événement",
+            "source": "La fête des étoiles (2019)",
+            "patch": "5.1"
+        },
+        {
+            "id": 22,
+            "name": "Barde de Léviathan",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Armurier / Pilier des Cieux",
+            "patch": "2.2"
+        },
+        {
+            "id": 25,
+            "name": "Barde de Ramuh",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Tanneur / Pilier des Cieux",
+            "patch": "2.3"
+        },
+        {
+            "id": 28,
+            "name": "Barde de Shiva",
+            "category": "Artisanant / Donjon sans fond",
+            "source": "Tanneur / Pilier des Cieux",
+            "patch": "2.4"
+        },
+        {
+            "id": 34,
+            "name": "Barde de Bismarck",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Armurier / Pilier des Cieux",
+            "patch": "3.0"
+        },
+        {
+            "id": 35,
+            "name": "Barde de Ravana",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Armurier / Pilier des Cieux",
+            "patch": "3.0"
+        },
+        {
+            "id": 40,
+            "name": "Barde de la Table ronde",
+            "category": "Achat",
+            "source": "Bertana - Idyllée - 15 Fragments de casque de l'Azur",
+            "patch": "3.1"
+        },
+        {
+            "id": 41,
+            "name": "Barde de Sephirot",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Tanneur / Pilier des Cieux",
+            "patch": "3.2"
+        },
+        {
+            "id": 45,
+            "name": "Barde de Nidhogg",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Tanneur / Pilier des Cieux",
+            "patch": "3.3"
+        },
+        {
+            "id": 47,
+            "name": "Barde de Sophia",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Orfèvre / Pilier des Cieux",
+            "patch": "3.4"
+        },
+        {
+            "id": 52,
+            "name": "Barde de Zurvan",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Armurier / Pilier des Cieux",
+            "patch": "3.5"
+        },
+        {
+            "id": 53,
             "name": "Barde de Susano",
             "category": "Artisanat / Donjon sans Fond",
             "source": "Armurier / Pilier des Cieux",
@@ -395,48 +437,13 @@
         },
         {
             "id": 55,
-            "name": "Barde de la Table ronde",
-            "category": "Achat",
-            "source": "Bertana - Idyllée - 15 Fragments de casque de l'Azur",
-            "patch": "3.1"
-        },
-        {
-            "id": 56,
-            "name": "Barde Rubinus",
-            "category": "Artisanat",
-            "source": "Armurier",
-            "patch": "5.2"
-        },
-        {
-            "id": 57,
-            "name": "Barde sainte",
-            "category": "Événement",
-            "source": "La fête des étoiles (2019)",
-            "patch": "5.1"
-        },
-        {
-            "id": 58,
-            "name": "Barde de samouraï",
-            "category": "Eurêka",
-            "source": "Coffre roussi - Eurêka Pyros",
-            "patch": "4.45"
+            "name": "Barde de Lakshmi",
+            "category": "Artisanat / Donjon sans fond",
+            "source": "Orfèvre / Pilier des Cieux",
+            "patch": "4.0"
         },
         {
             "id": 59,
-            "name": "Barde de Seiryû",
-            "category": "Artisanat",
-            "source": "Armurier",
-            "patch": "4.45"
-        },
-        {
-            "id": 60,
-            "name": "Barde de Sephirot",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Tanneur / Pilier des Cieux",
-            "patch": "3.2"
-        },
-        {
-            "id": 61,
             "name": "Barde de Shinryu",
             "category": "Artisanat",
             "source": "Armurier",
@@ -444,34 +451,20 @@
         },
         {
             "id": 62,
-            "name": "Barde de Sleipnir",
-            "category": "Achat",
-            "source": "Aelina - Mor Dhona - 5 Mantes d'Odin (Défi : le Chevalier des ombres)",
-            "patch": "2.0"
-        },
-        {
-            "id": 63,
-            "name": "Barde de Sophia",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Orfèvre / Pilier des Cieux",
-            "patch": "3.4"
+            "name": "Barde de Byakko",
+            "category": "Artisanat",
+            "source": "Orfèvre",
+            "patch": "4.2"
         },
         {
             "id": 64,
-            "name": "Chanfrein du roi chocobo",
-            "category": "Haut fait",
-            "source": "Laisser une bonne impression IV",
-            "patch": "2.1"
+            "name": "Barde de Tsukuyomi",
+            "category": "Artisanat",
+            "source": "Couturier",
+            "patch": "4.3"
         },
         {
             "id": 65,
-            "name": "Barde de la fête des étoiles",
-            "category": "Événement",
-            "source": "La fête des étoiles (2013)",
-            "patch": "2.1"
-        },
-        {
-            "id": 66,
             "name": "Barde de Suzaku",
             "category": "Artisanat",
             "source": "Armurier",
@@ -479,80 +472,94 @@
         },
         {
             "id": 67,
-            "name": "Barde de Léviathan",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Armurier / Pilier des Cieux",
-            "patch": "2.2"
+            "name": "Barde de Seiryû",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "4.45"
         },
         {
-            "id": 68,
+            "id": 69,
             "name": "Barde de Titania",
             "category": "Artisanat",
             "source": "Armurier",
             "patch": "5.0"
         },
         {
-            "id": 69,
+            "id": 70,
+            "name": "Barde d'Innocence",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "5.0"
+        },
+        {
+            "id": 73,
+            "name": "Barde d'Hadès",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "5.1"
+        },
+        {
+            "id": 75,
+            "name": "Barde Rubinus",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "5.2"
+        },
+        {
+            "id": 77,
             "name": "Barde de la Lumière véritable",
             "category": "Artisanat",
             "source": "Armurier",
             "patch": "5.3"
         },
         {
-            "id": 70,
-            "name": "Barde des Immortels",
+            "id": 78,
+            "name": "Barde Smaragdus",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "5.4"
+        },
+        {
+            "id": 79,
+            "name": "Barde-la-Reine",
+            "category": "Bozja",
+            "source": "Delubrum Reginae",
+            "patch": "5.45"
+        },
+        {
+            "id": 81,
+            "name": "Barde Adamas",
+            "category": "Artisanat",
+            "source": "Armurier",
+            "patch": "5.5"
+        },
+        {
+            "id": 16,
+            "name": "Barde de Sleipnir",
             "category": "Achat",
-            "source": "6.000 Sceaux de compagnie uldien",
+            "source": "Aelina - Mor Dhona - 5 Mantes d'Odin (Défi : le Chevalier des ombres)",
             "patch": "2.0"
         },
         {
-            "id": 71,
-            "name": "Barde lourde des Immortels",
+            "id": 17,
+            "name": "Barde de Béhémoth",
+            "category": "Premium",
+            "source": "A Realm Reborn Édition Collector",
+            "patch": "2.0"
+        },
+        {
+            "id": 60,
+            "name": "Barde d'Ixion",
             "category": "Achat",
-            "source": "8.000 Sceaux de compagnie uldien",
-            "patch": "2.0"
+            "source": "Eschina - L'Étendue de Rhalgr - 5 Cornes d'Ixion (Défi: l'étalon survolté)",
+            "patch": "4.1"
         },
         {
-            "id": 72,
-            "name": "Demi-barde des Immortels",
-            "category": "Achat",
-            "source": "4.000 Sceaux de compagnie uldien",
-            "patch": "2.0"
-        },
-        {
-            "id": 73,
-            "name": "Harnachement des Immortels",
-            "category": "Autre",
-            "source": "Rejoindre Les Immortels",
-            "patch": "2.0"
-        },
-        {
-            "id": 74,
-            "name": "Armure de Mage blanc",
-            "category": "Autre",
-            "source": "Compétence du Compagnon- Choco-médica",
-            "patch": "2.0"
-        },
-        {
-            "id": 75,
-            "name": "Barde de la rose sauvage",
-            "category": "Achat",
-            "source": "Jonathas - Vieille Gridania - 3 Jetons de haut fait",
-            "patch": "3.07"
-        },
-        {
-            "id": 76,
+            "id": 68,
             "name": "Barde de Yojimbo",
             "category": "Défi",
             "source": "Le Pont Ohashi",
             "patch": "4.5"
-        },
-        {
-            "id": 77,
-            "name": "Barde de Zurvan",
-            "category": "Artisanat / Donjon sans fond",
-            "source": "Armurier / Pilier des Cieux",
-            "patch": "3.5"
         }
     ]
 }

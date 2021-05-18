@@ -1,5 +1,6 @@
 module.exports = [
     { content: "Achievement", ...require("./Achievement") },
+    { content: "BuddyEquip", ...require("./BuddyEquip") },
     { content: "ENpcResident", ...require("./ENpcResident") },
     { content: "FishParameter", ...require("./FishParameter") },
     { content: "FishingSpot", ...require("./FishingSpot") },

@@ -55,9 +55,7 @@ module.exports = function outputIdChanges(rl, back) {
                 let found = false;
 
                 targetFile.tasks.forEach((t) => {
-                    const cleanName = t.name.replace("…", "").replace("...", "").split(" / ")[0]; //TODO: specifically for Titles
-
-                    if(sourceFile.Name_en === cleanName) {
+                    if(sourceFile.Name_en === t.name) {
                         found = true;
                         changes.push({ name: sourceFile.Name_en, sourceId: sourceFile.ID, targetId: t.id });
                     }
