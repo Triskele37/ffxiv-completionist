@@ -13,6 +13,7 @@
 
 <script>
     import { getPlayerStore } from "../../../../store/electronStore";
+    import { rygGradient } from "../../../../styles/gradients";
 
     export default {
         name: 'completion-number-cell',
@@ -28,17 +29,7 @@
                 const prog = parseInt(this.value) - parseInt(this.task.minValue);
                 const tot = parseInt(this.task.maxValue) - parseInt(this.task.minValue);
 
-                let weight1 = prog / tot;
-                if(weight1 < 1) weight1 *= 0.77; // Make it obvious when values are close to max
-                const weight2 = (1 - weight1);
-
-                const r = Math.round(0x0f * weight1 + 0x75 * weight2);
-                const g = Math.round(0x75 * weight1 + 0x19 * weight2);
-                const b = Math.round(0x38 * weight1 + 0x0f * weight2);
-
-                return {
-                    backgroundColor: `rgb(${r},${g},${b})`
-                }
+                return rygGradient(prog / tot);
             },
             percentage: function() {
                 const totProg = this.task.maxValue - this.task.minValue;
