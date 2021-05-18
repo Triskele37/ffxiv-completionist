@@ -8,8 +8,6 @@ const mergeDiffTasks = require("./mergeDiff");
 const mergeSortTasks = require("./mergeSort");
 const mergeNewTasks = require("./mergeNew");
 
-//TODO: sorting likely needs to consider "effective index" by pushing appIndex forward by the count of non-sorted before it
-
 module.exports = function mergeAPI(content, rl, done) {
     const diffTasks = [];
     const sortTasks = [];
@@ -43,6 +41,8 @@ module.exports = function mergeAPI(content, rl, done) {
 
     function analyzeTasks(cache, path, lang) {
         let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
+        if(!path) appPath = appPath.replace("/.json", ".json");
+
         if(content.getAppPath) appPath = content.getAppPath(appPath);
 
         // Allow content to exclude some paths

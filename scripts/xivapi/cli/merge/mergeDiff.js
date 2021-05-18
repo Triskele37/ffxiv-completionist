@@ -21,6 +21,18 @@ module.exports = function mergeDiffTasks(rl, tasks, next) {
         // Remove and destructure the next task to be reviewed
         const { appPath, appKey, appTask, cacheKey, cacheTask } = tasks.shift();
 
+        // Auto-merge casing diffs
+        const stringValue = typeof appTask[appKey] === "string";
+        const isCasingDiff = stringValue && appTask[appKey].toLowerCase() === cacheTask[cacheKey].toLowerCase();
+
+        if(isCasingDiff) {
+            writeMerge(appPath, appKey, appTask, cacheKey, cacheTask);
+            mergeNextTask();
+        }
+        else displayDeveloperInput(appPath, appKey, appTask, cacheKey, cacheTask);
+    }
+
+    function displayDeveloperInput(appPath, appKey, appTask, cacheKey, cacheTask) {
         // Display the progress of all diffs and information about the current diff
         rl.write(`Diff detected ${totalTasks - tasks.length}/${totalTasks}: ${appPath}\n`);
         rl.write(`Key: ${appKey}\n\n`);

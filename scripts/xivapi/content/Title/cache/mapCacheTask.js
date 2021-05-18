@@ -2,34 +2,43 @@ const fs = require("fs");
 const constants = require("../../../constants");
 const utils = require("../../../utils");
 
+let achievementPaths;
+
 module.exports = function mapCacheTask(apiObj) {
-    console.clear();
-    console.log(`Cross referencing Achievement for Title ${apiObj.ID}`);
+    if(!achievementPaths) buildAchievementPaths();
     const Achievement = getAchievement(apiObj.GameContentLinks);
 
     return {
         "ID": apiObj.ID,
         "Order": apiObj.Order,
-        "IsPrefix": apiObj.IsPrefix,
-        "Patch": Achievement.GamePatch ? Achievement.GamePatch.Version : "",
+        ...utils.spreadLangs(apiObj, constructName, "Name"),
         ...utils.spreadLangs(Achievement, "Name", "Achievement"),
         ...utils.spreadLangs(Achievement.AchievementCategory.AchievementKind, "Name", "Category"),
-        ...utils.spreadLangs(apiObj, "Name"),
-        ...utils.spreadLangs(apiObj, "NameFemale"),
     }
 };
 
-function getAchievement(GameContentLinks) {
-    let Achievement = { AchievementCategory: { AchievementKind: {} }, GamePatch: {} };
-    let found = false;
+function constructName(Title, lang) {
+    let name = Title[`Name_${lang}`];
+    let fName = Title[`NameFemale_${lang}`];
 
-    if(GameContentLinks && GameContentLinks.Achievement && GameContentLinks.Achievement.Title && GameContentLinks.Achievement.Title[0]) {
-        dive(`${constants.CACHE_DIR}/achievement`, GameContentLinks.Achievement.Title[0]);
+    if(Title.IsPrefix === 1) {
+        name += "…";
+        fName += "…";
+    }
+    else {
+        name = `…${name}`;
+        fName = `…${fName}`;
     }
 
-    return Achievement;
+    const genderless = name === fName;
+    return genderless ? name : `${name} / ${fName}`
+}
 
-    function dive(path, id) {
+function buildAchievementPaths() {
+    achievementPaths = {};
+    dive(`${constants.CACHE_DIR}/achievement`);
+
+    function dive(path) {
         const dirs = fs.readdirSync(path);
 
         for(let i = 0; i < dirs.length; i++) {
@@ -37,14 +46,21 @@ function getAchievement(GameContentLinks) {
             const fullDir = `${path}/${stat}`;
 
             if(fs.lstatSync(fullDir).isDirectory()) {
-                dive(fullDir, id);
-                if(found) break;
+                dive(fullDir);
             }
-            else if(stat === `${id}.json`) {
-                Achievement = JSON.parse(fs.readFileSync(fullDir, "utf8"));
-                found = true;
-                break;
+            else {
+                achievementPaths[stat.replace(".json", "")] = fullDir;
             }
         }
+    }
+}
+
+function getAchievement(GameContentLinks) {
+    if(GameContentLinks && GameContentLinks.Achievement && GameContentLinks.Achievement.Title && GameContentLinks.Achievement.Title[0]) {
+        const id = GameContentLinks.Achievement.Title[0];
+        return JSON.parse(fs.readFileSync(achievementPaths[id], "utf8"));
+    }
+    else {
+        return { AchievementCategory: { AchievementKind: {} } };
     }
 }

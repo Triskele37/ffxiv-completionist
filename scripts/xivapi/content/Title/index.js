@@ -10,7 +10,7 @@ const mapAppTask = require("./app/mapAppTask");
 
 module.exports = {
     config,
-    MERGE_KEYS: ["id", "name", "category", "achievement", "patch"],
+    MERGE_KEYS: ["id", "name", "category", "achievement"],
     excludedIds: utils.loadExcludedFile("Title"),
     getCachePath,
     build: () => buildAPI(config, mapCacheTask),

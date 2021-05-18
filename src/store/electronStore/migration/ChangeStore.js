@@ -79,7 +79,7 @@ export class ChangeStore {
     }
 
     // Change helper to create a group
-    create(parentGroupPath, groupKey) {
+    createGroup(parentGroupPath, groupKey) {
         const parentGroup = dive(parentGroupPath, this.newStore);
 
         // Don't nuke the group creation is called on it more than once
@@ -87,7 +87,7 @@ export class ChangeStore {
     }
 
     // Change helper when task is removed
-    delete(groupPath, taskKey) {
+    deleteTask(groupPath, taskKey) {
         const group = dive(groupPath, this.newStore);
         if(!!group) delete group[taskKey];
     }

@@ -32,7 +32,12 @@ module.exports = function outputIdChanges(rl, back) {
     dive(config.source);
     changes.sort((a, b) => a.targetId - b.targetId);
 
-    changes.forEach((c) => console.log(`${c.name}: ${c.targetId} -> ${c.sourceId}`));
+    changes.forEach((c) => {
+        const idFrom = c.targetId === undefined ? "?" : c.targetId;
+        const idTo = c.sourceId === undefined ? "?" : c.sourceId;
+
+        console.log(`${c.name}: ${idFrom} -> ${idTo}`);
+    });
 
     done();
 
@@ -47,12 +52,20 @@ module.exports = function outputIdChanges(rl, back) {
             }
             else {
                 const sourceFile = JSON.parse(fs.readFileSync(fullSourceDir, "utf8"));
+                let found = false;
 
                 targetFile.tasks.forEach((t) => {
-                    if(sourceFile.Name_en === t.name.replace("…", "").replace("...", "")) {
+                    const cleanName = t.name.replace("…", "").replace("...", "").split(" / ")[0]; //TODO: specifically for Titles
+
+                    if(sourceFile.Name_en === cleanName) {
+                        found = true;
                         changes.push({ name: sourceFile.Name_en, sourceId: sourceFile.ID, targetId: t.id });
                     }
                 });
+
+                if(!found) {
+                    changes.push({ name: sourceFile.Name_en, sourceId: -1, targetId: -1 });
+                }
             }
         });
     }
