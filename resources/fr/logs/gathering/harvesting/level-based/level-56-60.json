@@ -1,330 +1,263 @@
 {
-    "key": "56-60",
     "groupName": "56-60",
     "tasks": [
         {
             "id": 0,
-            "level": "56",
             "name": "Origan",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Point de récolte éphémère (00:00)",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 1,
-            "level": "56",
             "name": "Pot Marjoram",
             "zone": "Coerthas Western Highlands",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Ephemeral (12AM)"
         },
         {
             "id": 2,
-            "level": "56",
             "name": "Argile granuleuse",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x13,y19)",
             "nodeTimer": "Point de récolte éphémère (08:00)",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 3,
-            "level": "56",
             "name": "Échinacée",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x10,y33)",
             "nodeTimer": "",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 4,
-            "level": "57",
             "name": "Sésame",
             "zone": "L'Écume des cieux d'Abalathia",
             "closestTeleport": "Ok'Zundu",
-            "coordinates": "(x23,y10)",
             "nodeTimer": "",
             "closestAetheryte": "Ok'Zundu"
         },
         {
             "id": 5,
-            "level": "57",
             "name": "Tanaisie",
             "zone": "Arrière-pays dravanien",
             "closestTeleport": "Idyllshire -> The Dravanian Hinterlands",
-            "coordinates": "(x14,y19)",
             "nodeTimer": "",
             "closestAetheryte": "Idyllée -> Arrière-pays dravanien"
         },
         {
             "id": 6,
-            "level": "57",
             "name": "Pièce de monnaie ancienne de Radz-at-Han",
             "zone": "Arrière-pays dravanien",
             "closestTeleport": "Idyllshire -> The Dravanian Hinterlands",
-            "coordinates": "(x14,y19)",
             "nodeTimer": "",
             "closestAetheryte": "Idyllée -> Arrière-pays dravanien"
         },
         {
             "id": 7,
-            "level": "58",
             "name": "Menthe douce",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Point de récolte éphémère (00:00)",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 8,
-            "level": "58",
             "name": "Water Mint",
             "zone": "Coerthas Western Highlands",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Ephemeral (12AM)"
         },
         {
             "id": 9,
-            "level": "58",
             "name": "Stalagmite de glace",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x11,y15)",
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 10,
-            "level": "58",
             "name": "Tourbe",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x13,y19)",
             "nodeTimer": "Point de récolte éphémère (08:00)",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 11,
-            "level": "58",
             "name": "Rue des jardins",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x12,y14)",
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 12,
-            "level": "59",
             "name": "Mousse tombe-crépuscule",
             "zone": "L'Écume des cieux de Dravania",
             "closestTeleport": "Zenith",
-            "coordinates": "(x29,y29)",
             "nodeTimer": "",
             "closestAetheryte": "Zénith"
         },
         {
             "id": 13,
-            "level": "59",
             "name": "Pissenlit",
             "zone": "L'Écume des cieux de Dravania",
             "closestTeleport": "Zenith",
-            "coordinates": "(x20,y31)",
             "nodeTimer": "",
             "closestAetheryte": "Zénith"
         },
         {
             "id": 14,
-            "level": "59",
             "name": "Coriandre",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x12,y14)",
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 15,
-            "level": "60",
             "name": "Légumes cabus",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x8,y9)",
             "nodeTimer": "Point de récolte intact (08:00 / 20:00)",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 16,
-            "level": "60",
             "name": "Sauge sclarée",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Point de récolte éphémère (00:00)",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 17,
-            "level": "60",
             "name": "Wild Sage",
             "zone": "Coerthas Western Highlands",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Ephemeral (12AM)"
         },
         {
             "id": 18,
-            "level": "60",
             "name": "Terreau noir",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x13,y19)",
             "nodeTimer": "Point de récolte éphémère (08:00)",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 19,
-            "level": "60",
             "name": "Humic Soil",
             "zone": "The Dravanian Forelands",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x13,y19)",
             "nodeTimer": "Ephemeral (8AM)"
         },
         {
             "id": 20,
-            "level": "60",
             "name": "Cataire",
             "zone": "Arrière-pays dravanien",
             "closestTeleport": "Idyllshire -> The Dravanian Hinterlands",
-            "coordinates": "(x14,y19)",
             "nodeTimer": "",
             "closestAetheryte": "Idyllée -> Arrière-pays dravanien"
         },
         {
             "id": 21,
-            "level": "60",
             "name": "Pervenche",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x10,y33)",
             "nodeTimer": "",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 22,
-            "level": "60",
             "name": "Œil-de-verre",
             "zone": "L'Écume des cieux d'Abalathia",
             "closestTeleport": "Ok'Zundu",
-            "coordinates": "(x22,y12)",
             "nodeTimer": "",
             "closestAetheryte": "Ok'Zundu"
         },
         {
             "id": 23,
-            "level": "60",
             "name": "Sablétoile",
             "zone": "Les Marges",
             "closestTeleport": "Castrum Oriens",
-            "coordinates": "(x17,y8)",
             "nodeTimer": "",
             "closestAetheryte": "Castrum Oriens"
         },
         {
             "id": 24,
-            "level": "60",
             "name": "Koban de Shishu",
             "zone": "Mer de Rubis",
             "closestTeleport": "Tamamizu",
-            "coordinates": "(x36,y17)",
             "nodeTimer": "",
             "closestAetheryte": "Tamamizu"
         },
         {
             "id": 25,
-            "level": "60",
             "name": "Bijou de la dynastie des Cotter",
             "zone": "Les Marges",
             "closestTeleport": "Castrum Oriens",
-            "coordinates": "(x17,y8)",
             "nodeTimer": "",
             "closestAetheryte": "Castrum Oriens"
         },
         {
             "id": 26,
-            "level": "60★",
             "name": "Feuille de laurier de Menphina",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x10,y14)",
             "nodeTimer": "Point de récolte éphémère (00:00)",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 27,
-            "level": "60★",
             "name": "Fleur de coton du givre",
             "zone": "Hautes terres du Coerthas occidental",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
-            "coordinates": "(x12,y14)",
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
         {
             "id": 28,
-            "level": "60★",
             "name": "Pigment arc-en-ciel",
             "zone": "Avant-pays dravanien",
             "closestTeleport": "Anyx Trine",
-            "coordinates": "(x10,y33)",
             "nodeTimer": "",
             "closestAetheryte": "Annexe Trine"
         },
         {
             "id": 29,
-            "level": "60★",
             "name": "Pigments gyrabaniens",
             "zone": "Les Pics",
             "closestTeleport": "Ala Gannha",
-            "coordinates": "(x13,y7)",
             "nodeTimer": "",
             "closestAetheryte": "Ala Gannha"
         },
         {
             "id": 30,
-            "level": "60★",
             "name": "Racine de kudzu doré",
             "zone": "Les Pics",
             "closestTeleport": "Ala Gannha",
-            "coordinates": "(x13,y7)",
             "nodeTimer": "",
             "closestAetheryte": "Ala Gannha"
         },
         {
             "id": 31,
-            "level": "60★★",
             "name": "Blé des plateaux",
             "zone": "Les Marges",
             "closestTeleport": "Castrum Oriens",
-            "coordinates": "(x16,y7)",
             "nodeTimer": "",
             "closestAetheryte": "Castrum Oriens"
         },
         {
             "id": 32,
-            "level": "60★★",
             "name": "Akaso",
             "zone": "Les Marges",
             "closestTeleport": "Castrum Oriens",
-            "coordinates": "(x16,y7)",
             "nodeTimer": "",
             "closestAetheryte": "Castrum Oriens"
         }
