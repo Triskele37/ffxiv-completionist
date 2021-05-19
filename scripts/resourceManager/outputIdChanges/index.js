@@ -62,7 +62,7 @@ module.exports = function outputIdChanges(rl, back) {
                 });
 
                 if(!found) {
-                    changes.push({ name: sourceFile.Name_en, sourceId: -1, targetId: -1 });
+                    changes.push({ name: sourceFile.Name_en, sourceId: sourceFile.ID, targetId: -1 });
                 }
             }
         });

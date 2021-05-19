@@ -2,6 +2,7 @@ module.exports = [
     { content: "Achievement", ...require("./Achievement") },
     { content: "BuddyEquip", ...require("./BuddyEquip") },
     { content: "ENpcResident", ...require("./ENpcResident") },
+    { content: "Emote", ...require("./Emote") },
     { content: "FishParameter", ...require("./FishParameter") },
     { content: "FishingSpot", ...require("./FishingSpot") },
     { content: "SpearfishingItem", ...require("./SpearfishingItem") },

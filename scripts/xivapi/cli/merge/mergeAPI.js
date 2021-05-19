@@ -48,7 +48,9 @@ module.exports = function mergeAPI(content, rl, done) {
         // Allow content to exclude some paths
         if(content.mergePathExcluded && content.mergePathExcluded(appPath)) return;
 
-        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, 'utf8')) : null;
+        const cmnPath = appPath.replace(lang, "common");
+        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, "utf8")) : null;
+        const cmnGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(cmnPath, "utf8")) : null;
 
         cache.tasks.forEach((cacheTask, cacheIndex) => {
             let newTask = true;
@@ -74,6 +76,21 @@ module.exports = function mergeAPI(content, rl, done) {
                     if(cacheIndex !== appIndex) {
                         sortTasks.push({ appPath, appTask, appIndex, cacheIndex });
                     }
+                }
+            }
+
+            if(content.COMMON_KEYS && cmnGroup) {
+                const cmnTask = cmnGroup.tasks.find((t) => cacheTask.ID === t.id);
+
+                if(cmnTask) {
+                    content.COMMON_KEYS.forEach((cmnKey) => {
+                        const cacheKey = content.getCacheKey(cmnKey, lang);
+
+                        // Different Value
+                        if(cmnTask[cmnKey] !== utils.safeTrim(cacheTask[cacheKey])) {
+                            diffTasks.push({ appPath: cmnPath, appKey: cmnKey, appTask: cmnTask, cacheKey, cacheTask });
+                        }
+                    });
                 }
             }
 

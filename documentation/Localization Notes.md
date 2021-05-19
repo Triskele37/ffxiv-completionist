@@ -3,9 +3,12 @@ Notes on each section regarding localization:
 **XIVAPI Automated Sections**
 > The following sections require *header* and *section* translations  
 > * Achievements
-> * Quests
-> * Levequests
+> * Barding
 > * Crafting Log
+> * Emote
+> * Levequests
+> * Quests
+> * Title
 
 **Additional Translations**
 > Quests  
@@ -23,14 +26,12 @@ Notes on each section regarding localization:
 > * BeastTribe
 > * BeastTribeRank
 > * BuddyAction
-> * BuddyEquip
 > * BuddyItem
 > * BuddyRank
 > * BuddySkill
 > * ClassJob
 > * Companion
 > * DeepDungeonEquipment
-> * Emote
 > * EurekaAetherItem
 > * EurekaAethernet
 > * EurekaMagiciteItem
@@ -45,7 +46,6 @@ Notes on each section regarding localization:
 > * Relic
 > * Relic3
 > * RelicItem
-> * Title
 > * Tribe
 > * TripleTriad
 > * TripleTriadCard
