@@ -15,1215 +15,912 @@
     "tasks": [
         {
             "id": 0,
-            "difficulty": "★",
             "name": "Croupière",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (4,7)",
             "rules": "Toutes sur table",
             "drops": "Spriggan",
-            "preRequisite": "X",
-            "fee": "5",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 1,
-            "difficulty": "★★",
             "name": "Baderon",
             "zone": "Limsa Lominsa - Le Tillac",
             "location": "Le Dauphin noyé (11,11)",
             "rules": "Trois sur table",
             "drops": "Baderon, Sahuagin",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
         },
         {
             "id": 2,
-            "difficulty": "★★",
             "name": "Drery",
             "zone": "Amh Araeng",
             "location": "Queues-liées (11.9,16.9)",
             "rules": "identique, Plus",
             "drops": "Arme maligne, Gigapampa",
-            "preRequisite": "La lettre cryptée d'un ami défunt (Quête secondaire d'Amh Araeng niveau 75)",
-            "fee": "20",
-            "patch": "5.0"
+            "preRequisite": "La lettre cryptée d'un ami défunt (Quête secondaire d'Amh Araeng niveau 75)"
         },
         {
             "id": 3,
-            "difficulty": "★★",
             "name": "Ercanbald",
             "zone": "L'Étendue de Rhalgr",
             "location": "Étang des Étoiles chues (9.8,9.8)",
             "rules": "Aucune",
             "drops": "Griffon, M'naago",
-            "preRequisite": "L'Étendue du Destructeur (Quête princiaple niveau 60)",
-            "fee": "15",
-            "patch": "3.0"
+            "preRequisite": "L'Étendue du Destructeur (Quête princiaple niveau 60)"
         },
         {
             "id": 4,
-            "difficulty": "★★",
             "name": "F'hobhas",
             "zone": "Thanalan central",
             "location": "Roncenoire (23,13)",
             "rules": "Trois sur table",
             "drops": "Mutamix",
-            "preRequisite": "X",
-            "fee": "15",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 5,
-            "difficulty": "★★",
             "name": "Fufulupa",
             "zone": "Thanalan occidental",
             "location": "Horizon (22,17)",
             "rules": "Trois sur table",
             "drops": "Chimère, Thancred",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
         },
         {
             "id": 6,
-            "difficulty": "★★",
             "name": "Glynard",
             "zone": "Cristarium",
             "location": "Les Marches nébuleuses (10.8,15.2)",
             "rules": "Trois sur table",
             "drops": "Amaro",
-            "preRequisite": "Le guerrier de la légende (Quête principale niveau 71)",
-            "fee": "15",
-            "patch": "5.0"
+            "preRequisite": "Le guerrier de la légende (Quête principale niveau 71)"
         },
         {
             "id": 7,
-            "difficulty": "★★",
             "name": "Guthwint l'As de carreau",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (4,7)",
             "rules": "Trois sur table, Plus",
             "drops": "Chocobo, Bugaal Ja",
-            "preRequisite": "X",
-            "fee": "15",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 8,
-            "difficulty": "★★",
             "name": "Gyoei",
             "zone": "Yanxia",
             "location": "Manoir des Yozuka (15.7,31.9)",
             "rules": "Inversion, Plus",
             "drops": "Namazu, Altesse namazu nain doré",
-            "preRequisite": "Les grosses têtes (Quête secondaire d'Othard niveau 64)",
-            "fee": "15",
-            "patch": "4.0"
+            "preRequisite": "Les grosses têtes (Quête secondaire d'Othard niveau 64)"
         },
         {
             "id": 9,
-            "difficulty": "★★",
             "name": "Ibenart",
             "zone": "Kholusia",
             "location": "Amistie (19.1,17.4)",
             "rules": "Trois sur table, Tueur d'as",
             "drops": "Chai-Nuzz & Dulia-Chai",
-            "preRequisite": "La contribution du peuple de la Nuit (Quête principale niveau 78)",
-            "fee": "15",
-            "patch": "5.0"
+            "preRequisite": "La contribution du peuple de la Nuit (Quête principale niveau 78)"
         },
         {
             "id": 10,
-            "difficulty": "★★",
             "name": "Joellaut",
             "zone": "Hautes terres du Coerthas central",
             "location": "L'Arête blanche (13,15)",
             "rules": "Trois sur table",
             "drops": "Alphinaud & Alisaie, Ixal",
-            "preRequisite": "X",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 11,
-            "difficulty": "★★",
             "name": "Jonas le Valet de pique",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (4,7)",
             "rules": "Toutes sur table, Identique",
             "drops": "Ixal, Mog",
-            "preRequisite": "X",
-            "fee": "10",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 12,
-            "difficulty": "★★",
             "name": "Kotokaze",
             "zone": "Kugane",
             "location": "Shiokaze (10.2,10.2)",
             "rules": "Identique",
             "drops": "Kotokaze",
-            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)",
-            "fee": "15",
-            "patch": "4.0"
+            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)"
         },
         {
             "id": 13,
-            "difficulty": "★★",
             "name": "Maisenta",
             "zone": "Nouvelle Gridania",
             "location": "Le Nœud (11,11)",
             "rules": "Toutes sur table",
             "drops": "Coblyn, Sylphe",
-            "preRequisite": "X",
-            "fee": "10",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 14,
-            "difficulty": "★★",
             "name": "Marcechamp",
             "zone": "Avant-pays dravanien",
             "location": "Fôret des chocobos (31,23)",
             "rules": "Inversion, Plus",
             "drops": "Ysayle",
-            "preRequisite": "Un cadeau de circonstance (Quête principale niveau 52)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Un cadeau de circonstance (Quête principale niveau 52)"
         },
         {
             "id": 15,
-            "difficulty": "★★",
             "name": "Memeroon",
             "zone": "Haute-Noscea",
             "location": "La Chênaie (14,24)",
             "rules": "Toutes sur table",
             "drops": "Amalj'aa, Molaa Ja Ja, Memeroon, Tonberry",
-            "preRequisite": "X",
-            "fee": "10",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 16,
-            "difficulty": "★★",
             "name": "Mimidoa",
             "zone": "Basse-Noscea",
             "location": "La Poigne des Dieux (25,35)",
             "rules": "Trois sur table",
             "drops": "Biggs & Wedge, Sirène",
-            "preRequisite": "Récital pour un amour dément (Quête principale niveau 42)",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "Récital pour un amour dément (Quête principale niveau 42)"
         },
         {
             "id": 17,
-            "difficulty": "★★",
             "name": "Momodi",
             "zone": "Ul'dah - Faubourg de Nald",
             "location": "Les Sables mouvants (11.9,9.6)",
             "rules": "Trois sur table",
             "drops": "Momodi",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)",
-            "fee": "15",
-            "patch": "2.51"
+            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
         },
         {
             "id": 18,
-            "difficulty": "★★",
             "name": "Mother Miounne",
             "zone": "Nouvelle Gridania",
             "location": "Aux Feuilles de carline (11,13)",
             "rules": "Trois sur table",
             "drops": "Goobbue, Miounne",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)",
-            "fee": "15",
-            "patch": "2.51"
+            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
         },
         {
             "id": 19,
-            "difficulty": "★★",
             "name": "Prideful Stag le Parvenu",
             "zone": "Arène Triple Triade",
             "location": "Arène Triple Triade (3.7,3.3)",
             "rules": "Plus",
             "drops": "Agneau",
-            "preRequisite": "X",
-            "fee": "15",
-            "patch": "3.4"
+            "preRequisite": "X"
         },
         {
             "id": 20,
-            "difficulty": "★★",
             "name": "Roger",
             "zone": "Thanalan central",
             "location": "Roncenoire (19,20)",
             "rules": "Toutes sur table",
             "drops": "Morbol, Pudding",
-            "preRequisite": "X",
-            "fee": "10",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 21,
-            "difficulty": "★★",
             "name": "Saushs Koal",
             "zone": "La Tempête",
             "location": "Baïne (31.4,17.3)",
             "rules": "Toutes sur table",
             "drops": "Grenoldt",
-            "preRequisite": "Donne-moi tes dents ! (Quête secondaire de La Tempête niveau 70)",
-            "fee": "15",
-            "patch": "5.0"
+            "preRequisite": "Donne-moi tes dents ! (Quête secondaire de La Tempête niveau 70)"
         },
         {
             "id": 22,
-            "difficulty": "★★",
             "name": "Seika",
             "zone": "Idyllée",
             "location": "Marché des Pas libres (6.7,7.4)",
             "rules": "Chaos, Inversion",
             "drops": "Chenille, Poroggo, Roundrox",
-            "preRequisite": "Le trésor de Roundrox (Quête des Chroniques d'une nouvelle ère niveau 60)",
-            "fee": "35",
-            "patch": "3.1"
+            "preRequisite": "Le trésor de Roundrox (Quête des Chroniques d'une nouvelle ère niveau 60)"
         },
         {
             "id": 23,
-            "difficulty": "★★",
             "name": "Trachtoum",
             "zone": "Basse-Noscea",
             "location": "La Cédrière (35,15)",
             "rules": "Trois sur table",
             "drops": "Mog, Titan",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
         },
         {
             "id": 24,
-            "difficulty": "★★",
             "name": "Wymond",
             "zone": "Ul'dah - Faubourg de Nald",
             "location": "Avenue de l'Émeraude (9.8,8.7)",
             "rules": "Trois sur table",
             "drops": "Coblyn, Lolorito Nanarito",
-            "preRequisite": "X",
-            "fee": "15",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 25,
-            "difficulty": "★★",
             "name": "Wyra Lyehga La Main Verte",
             "zone": "Arène Triple Triade",
             "location": "Arène Triple Triade (3.3,3.3)",
             "rules": "Toutes dur table, Identique",
             "drops": "Apkallu",
-            "preRequisite": "X",
-            "fee": "10",
-            "patch": "3.4"
+            "preRequisite": "X"
         },
         {
             "id": 26,
-            "difficulty": "★★★",
             "name": "Aurifort l'As de trèfle",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (4,7)",
             "rules": "Trois sur table, Ordre",
             "drops": "Goobbue, Bugaal Ja",
-            "preRequisite": "X",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 27,
-            "difficulty": "★★★",
             "name": "Botan",
             "zone": "Kugane",
             "location": "Jetée n°1 (7.8, 14,.7)",
             "rules": "Plus, Roulette",
             "drops": "Lapin du bonheur, Louhi, Pazuzu, Yukinko",
-            "preRequisite": "Quête d'accès à Pyros (Quête secondaire niveau 70)",
-            "fee": "25",
-            "patch": "4.36"
+            "preRequisite": "Quête d'accès à Pyros (Quête secondaire niveau 70)"
         },
         {
             "id": 28,
-            "difficulty": "★★★",
             "name": "Cobleva",
             "zone": "Grand-Lac",
             "location": "Sources du Névé (14.3,7.8)",
             "rules": "Plus, Inversion",
             "drops": "Nain, Automatank",
-            "preRequisite": "Santé ! (Quête tribale des Nains niveau 70)",
-            "fee": "25",
-            "patch": "5.3"
+            "preRequisite": "Santé ! (Quête tribale des Nains niveau 70)"
         },
         {
             "id": 29,
-            "difficulty": "★★★",
             "name": "Dominiac",
             "zone": "Hautes terres du Coerthas occidental",
             "location": "Deux-Rivières (16,22)",
             "rules": "Ordre",
             "drops": "Oculus, Griffon",
-            "preRequisite": "Au-delà de nos différences (Quête secondaire du Coerthas niveau 56)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Au-delà de nos différences (Quête secondaire du Coerthas niveau 56)"
         },
         {
             "id": 30,
-            "difficulty": "★★★",
             "name": "Droyn",
             "zone": "Ul'dah - Faubourg de Thal",
             "location": "Rue de l'Onyx (11.8,13.0)",
             "rules": "Identique, Malus",
             "drops": "Azulmagia, Siegfried",
-            "preRequisite": "Un Bleuet chasse l'autre (Quêtes de mage bleu niveau 60)",
-            "fee": "15",
-            "patch": "5.45"
+            "preRequisite": "Un Bleuet chasse l'autre (Quêtes de mage bleu niveau 60)"
         },
         {
             "id": 31,
-            "difficulty": "★★★",
             "name": "Eo Sigun",
             "zone": "Il Mheg",
             "location": "Pla Enni (22.2,3.6)",
             "rules": "Plus",
             "drops": "Nu Mou, Porxie",
-            "preRequisite": "Entre rêve et réalité (Quête tribale des Pixies niveau 70)",
-            "fee": "25",
-            "patch": "5.1"
+            "preRequisite": "Entre rêve et réalité (Quête tribale des Pixies niveau 70)"
         },
         {
             "id": 32,
-            "difficulty": "★★★",
             "name": "Garima",
             "zone": "Les Marges",
             "location": "Vira Nilya (28.2,19.9)",
             "rules": "Plus, Bonus",
             "drops": "Ananta, Qiqirn croque-viande",
-            "preRequisite": "Faveurs divines (Quête secondaire de Gyr Abania niveau 67)",
-            "fee": "20",
-            "patch": "4.0"
+            "preRequisite": "Faveurs divines (Quête secondaire de Gyr Abania niveau 67)"
         },
         {
             "id": 33,
-            "difficulty": "★★★",
             "name": "Gyuf Uin",
             "zone": "Il Mheg",
             "location": "Lydha Lran (16.1,30.7)",
             "rules": "Trois sur table, Échange",
             "drops": "Feo-Ul",
-            "preRequisite": "Passation de pouvoir (Quête principale niveau 73)",
-            "fee": "25",
-            "patch": "5.0"
+            "preRequisite": "Passation de pouvoir (Quête principale niveau 73)"
         },
         {
             "id": 34,
-            "difficulty": "★★★",
             "name": "Hargra",
             "zone": "Rak'tika",
             "location": "Serpentige (18.5,26.0)",
             "rules": "Identique, Roulette",
             "drops": "Runar, Y'shtola (Shadowbringers)",
-            "preRequisite": "Heureux qui a fait un beau voyage\" (Quête secondaire de Rak'tika niveau 70)",
-            "fee": "30",
-            "patch": "5.0"
+            "preRequisite": "Heureux qui a fait un beau voyage\" (Quête secondaire de Rak'tika niveau 70)"
         },
         {
             "id": 35,
-            "difficulty": "★★★",
             "name": "Helmhart",
             "zone": "Thanalan oriental",
             "location": "Les Os desséchés (20,21)",
             "rules": "Trois sur table",
             "drops": "Gerolt, Orthros & Typhon",
-            "preRequisite": "X",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 36,
-            "difficulty": "★★★",
             "name": "Hetsukaze",
             "zone": "Kugane",
             "location": "Jetée n°1 (8.0, 13.6)",
             "rules": "Identique, Plus",
             "drops": "Ejika Tsunjika, Penthésilée, Dvergr, Gardien de Provenance",
-            "preRequisite": "Quête d'accès à Hydatos (Quête secondaire niveau 70)",
-            "fee": "30",
-            "patch": "4.45"
+            "preRequisite": "Quête d'accès à Hydatos (Quête secondaire niveau 70)"
         },
         {
             "id": 37,
-            "difficulty": "★★★",
             "name": "Hokushin",
             "zone": "Kugane",
             "location": "Château de Kugane (14.4, 11.2)",
             "rules": "Plus, Échange",
             "drops": "Hannya Karakuri, Yojimbo & Daigoro",
-            "preRequisite": "Voleur contre voleur (Quête secondaire niveau 70)",
-            "fee": "20",
-            "patch": "4.45"
+            "preRequisite": "Voleur contre voleur (Quête secondaire niveau 70)"
         },
         {
             "id": 38,
-            "difficulty": "★★★",
             "name": "Serviteur des Fortemps",
             "zone": "Manoir des Fortemps",
             "location": "Variés (dans le Manoir des Fortemps)",
             "rules": "Trois sur table, Plus",
             "drops": "Artoirel, Emmanellain, Honoroit",
-            "preRequisite": "Les yeux rivés au ciel (Quête principale niveau 60)",
-            "fee": "25",
-            "patch": "3.2"
+            "preRequisite": "Les yeux rivés au ciel (Quête principale niveau 60)"
         },
         {
             "id": 39,
-            "difficulty": "★★★",
             "name": "Impérial désœuvré",
             "zone": "Azys La",
             "location": "Quadrant gamma (28,31)",
             "rules": "Chaos, Échange",
             "drops": "Conservateur, Hilda, Regula van Hydrus, Tiamat",
-            "preRequisite": "L'Entreprise Excelsior (Quête principale niveau 59)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "L'Entreprise Excelsior (Quête principale niveau 59)"
         },
         {
             "id": 40,
-            "difficulty": "★★★",
             "name": "Kaizan",
             "zone": "Mer de Rubis",
             "location": "Mer de Rubis (22.3,8.6)",
             "rules": "Échange, Malus",
             "drops": "Rasho",
-            "preRequisite": "L'affaire est dans le sac (Quête secondaire d'Othard niveau 62)",
-            "fee": "20",
-            "patch": "4.0"
+            "preRequisite": "L'affaire est dans le sac (Quête secondaire d'Othard niveau 62)"
         },
         {
             "id": 41,
-            "difficulty": "★★★",
             "name": "Lamlyn",
             "zone": "Grand-Lac",
             "location": "Fort Jobb (35.4,20.2)",
             "rules": "Chaos",
             "drops": "Lyna",
-            "preRequisite": "Lendemain de défaite (Quête principale niveau 79)",
-            "fee": "25",
-            "patch": "5.0"
+            "preRequisite": "Lendemain de défaite (Quête principale niveau 79)"
         },
         {
             "id": 42,
-            "difficulty": "★★★",
             "name": "Linu Vali",
             "zone": "L'Écume des cieux d'Abalathia",
             "location": "Variés",
             "rules": "Inversion, Chaos",
             "drops": "Bismarck, Brachiosaure, Waukkeon",
-            "preRequisite": "Les mots de la gratitude (Quête tribale des Vanu Vanu niveau 50)",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "Les mots de la gratitude (Quête tribale des Vanu Vanu niveau 50)"
         },
         {
             "id": 43,
-            "difficulty": "★★★",
             "name": "Mordyn",
             "zone": "Limsa Lominsa - Le Tillac",
             "location": "Les Sept Sauges (11,7)",
             "rules": "Échange, Identique",
             "drops": "Carvallain de Gorgagne, Merlwyb, Kraken",
-            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)"
         },
         {
             "id": 44,
-            "difficulty": "★★★",
             "name": "Nell la Boit-sans-soif",
             "zone": "Arène Triple Triade",
             "location": "Arène Triple Triade (3.3,3.7)",
             "rules": "Identique, Plus",
             "drops": "Brendt, Brennan, & Bremondt",
-            "preRequisite": "X",
-            "fee": "15",
-            "patch": "3.4"
+            "preRequisite": "X"
         },
         {
             "id": 45,
-            "difficulty": "★★★",
             "name": "Noes",
             "zone": "Vieille Gridania",
             "location": "Chutes de l'Apkallu (10,5)",
             "rules": "Malus, Plus",
             "drops": "Gaélichat, Kuribu",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "X"
         },
         {
             "id": 46,
-            "difficulty": "★★★",
             "name": "O'kalkaya",
             "zone": "Limsa Lominsa - Le Tillac",
             "location": "La Dunette (12,13)",
             "rules": "Roulette, Plus",
             "drops": "Rhoswen, Merlwyb, Barbe-Brume",
-            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)",
-            "fee": "20",
-            "patch": "4.0"
+            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)"
         },
         {
             "id": 47,
-            "difficulty": "★★★",
             "name": "Piralnaut",
             "zone": "Forêt de l'est",
             "location": "Neuf-Lierres (17,26)",
             "rules": "Trois sur table",
             "drops": "Frixio, Succube",
-            "preRequisite": "X",
-            "fee": "20",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 48,
-            "difficulty": "★★★",
             "name": "Redard",
             "zone": "Rak'tika",
             "location": "Serpentige (20.4,27.2)",
             "rules": "Inversion, Identique",
             "drops": "Batsquatch, Qitari",
-            "preRequisite": "Qui qui qui sont les Qitari ? (Quête tribale des Qitaris niveau 70)",
-            "fee": "25",
-            "patch": "5.2"
+            "preRequisite": "Qui qui qui sont les Qitari ? (Quête tribale des Qitaris niveau 70)"
         },
         {
             "id": 49,
-            "difficulty": "★★★",
             "name": "Swift",
             "zone": "Ul'dah - Faubourg de Nald",
             "location": "Quartier général des Immortels (8.4,8.9)",
             "rules": "Chaos",
             "drops": "Alphinaud & Alisaie, Ifrit, Pipin Tarupin, Raubahn",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
         },
         {
             "id": 50,
-            "difficulty": "★★★",
             "name": "Tsuzura",
             "zone": "Mer de Rubis",
             "location": "Mer de Rubis (28.5,16.4)",
             "rules": "Chaos, Roulette",
             "drops": "Kojin",
-            "preRequisite": "Une vénérable carapace (Quête secondaire d'Othard niveau 62)",
-            "fee": "20",
-            "patch": "4.0"
+            "preRequisite": "Une vénérable carapace (Quête secondaire d'Othard niveau 62)"
         },
         {
             "id": 51,
-            "difficulty": "★★★",
             "name": "Ushiogi",
             "zone": "Mer de Rubis",
             "location": "Rasen Kaikyo (21.7,7.9)",
             "rules": "Échange, Ordre",
             "drops": "Hatamoto, Hiruko, Wanyûdô & Katasharin",
-            "preRequisite": "Aller plus haut (Quête secondaire d'Othard niveau 61)",
-            "fee": "15",
-            "patch": "4.35"
+            "preRequisite": "Aller plus haut (Quête secondaire d'Othard niveau 61)"
         },
         {
             "id": 52,
-            "difficulty": "★★★",
             "name": "Futé",
             "zone": "Avant-pays dravanien",
             "location": "Variés",
             "rules": "Roulette",
             "drops": "Ravana, Regina coeurl, Gros chocobo",
-            "preRequisite": "La nouvelle vie des Égarés (Quête tribale des Vathes niveau 50)",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "La nouvelle vie des Égarés (Quête tribale des Vathes niveau 50)"
         },
         {
             "id": 53,
-            "difficulty": "★★★",
             "name": "Yellow Moon",
             "zone": "Ul'dah - Faubourg de Thal",
             "location": "Guilde des couturiers (14,13)",
             "rules": "Bonus, Échange",
             "drops": "Yugiri",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "X"
         },
         {
             "id": 54,
-            "difficulty": "★★★",
             "name": "Yusui",
             "zone": "Mer de Rubis",
             "location": "Sakazuki (31.6,37.1)",
             "rules": "Plus",
             "drops": "Tansui",
-            "preRequisite": "Les pirates de la Confédération (Quête principale niveau 62)",
-            "fee": "15",
-            "patch": "4.2"
+            "preRequisite": "Les pirates de la Confédération (Quête principale niveau 62)"
         },
         {
             "id": 55,
-            "difficulty": "★★★★",
             "name": "Arsieu",
             "zone": "???",
             "location": "Gangos (5.9,6.6)",
             "rules": "Ascension, Plus",
             "drops": "Adrammelech, Dawon",
-            "preRequisite": "L'épée sacrée de Garde-la-Reine (Quête secondaire niveau 80)",
-            "fee": "35",
-            "patch": "5.35"
+            "preRequisite": "L'épée sacrée de Garde-la-Reine (Quête secondaire niveau 80)"
         },
         {
             "id": 56,
-            "difficulty": "★★★★",
             "name": "Buscarron",
             "zone": "Forêt du sud",
             "location": "Au Choix de Buscarron (18.1, 19.8)",
             "rules": "Ordre",
             "drops": "Mur démoniaque, Papalymo & Yda, Raya-O-Senna & A-Ruhn-Senna",
-            "preRequisite": "Dans les mille gueules du loup (Quête principale niveau 24)",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "Dans les mille gueules du loup (Quête principale niveau 24)"
         },
         {
             "id": 57,
-            "difficulty": "★★★★",
             "name": "Flichoirel le Seigneurial",
             "zone": "Arène Triple Triade",
             "location": "Arène Triple Triade (3.7,3.7)",
             "rules": "Aucune",
             "drops": "Colibri, Nael van Darnus",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "3.4"
+            "preRequisite": "X"
         },
         {
             "id": 58,
-            "difficulty": "★★★★",
             "name": "Soldat Impérial plein d'entrain",
             "zone": "???",
             "location": "Terncliff (5.0,6.3)",
             "rules": "Échange, Tueur d'as",
             "drops": "Arme Saphir",
-            "preRequisite": "Sur la mer de saphir (Quête des Chroniques d'une nouvelle ère niveau 80)",
-            "fee": "40",
-            "patch": "5.3"
+            "preRequisite": "Sur la mer de saphir (Quête des Chroniques d'une nouvelle ère niveau 80)"
         },
         {
             "id": 59,
-            "difficulty": "★★★★",
             "name": "Gegeruju",
             "zone": "Noscea orientale",
             "location": "Rives sanglantes (35,30)",
             "rules": "Échange, Mort subite",
             "drops": "Minfilia, Y'shtola",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
         },
         {
             "id": 60,
-            "difficulty": "★★★★",
             "name": "Gibrillont",
             "zone": "Ishgard - L'Assise",
             "location": "Le Chevalier oublié (12,11)",
             "rules": "Roulette",
             "drops": "Estinien",
-            "preRequisite": "Les bas-fonds (Quête principale niveau 50)",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "Les bas-fonds (Quête principale niveau 50)"
         },
         {
             "id": 61,
-            "difficulty": "★★★★",
             "name": "Grewenn",
             "zone": "Eulmore",
             "location": "La Ruche (12.5,9.9)",
             "rules": "Plus, Échange",
             "drops": "Bouffonnes d'Eulmore, Ran'jit",
-            "preRequisite": "Porteurs d'ombre (Quête principale niveau 80)",
-            "fee": "35",
-            "patch": "5.0"
+            "preRequisite": "Porteurs d'ombre (Quête principale niveau 80)"
         },
         {
             "id": 62,
-            "difficulty": "★★★★",
             "name": "Hab",
             "zone": "Thanalan méridional",
             "location": "Désert de Sagolii (24,40)",
             "rules": "Malus",
             "drops": "Godbert, Hildibrand & Nashu Mhakaracca, Thancred",
-            "preRequisite": "De piquants compagnons (Quête secondaire niveau 47)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "De piquants compagnons (Quête secondaire niveau 47)"
         },
         {
             "id": 63,
-            "difficulty": "★★★★",
             "name": "Hachinan",
             "zone": "Yanxia",
             "location": "Cercle des Intrépides (26.4,12.9)",
             "rules": "Bonus, Tueur d'as",
             "drops": "Asahi sas Brutus, Zenos yae Galvus",
-            "preRequisite": "La clause principale (Quête principale niveau 70)",
-            "fee": "30",
-            "patch": "4.0"
+            "preRequisite": "La clause principale (Quête principale niveau 70)"
         },
         {
             "id": 64,
-            "difficulty": "★★★★",
             "name": "Hanagasa",
             "zone": "Kugane",
             "location": "Petite Jetée (10.4,11.9)",
             "rules": "Malus, Plus",
             "drops": "Argath Thadalfus, Rofocale le Roi centaure, Ultima, la Grande Séraphine, Yiazmat",
-            "preRequisite": "La clause principale (Quête principale niveau 70)",
-            "fee": "40",
-            "patch": "5.2"
+            "preRequisite": "La clause principale (Quête principale niveau 70)"
         },
         {
             "id": 65,
-            "difficulty": "★★★★",
             "name": "Soldat impérial",
             "zone": "Les Lacs",
             "location": "Les Lacs (32.8,30.1)",
             "rules": "Tueur d'as",
             "drops": "Fordola rem Lupis, Grynewaht, Yotsuyu",
-            "preRequisite": "Tempête de sang (Quête principale niveau 70)",
-            "fee": "30",
-            "patch": "4.0"
+            "preRequisite": "Tempête de sang (Quête principale niveau 70)"
         },
         {
             "id": 66,
-            "difficulty": "★★★★",
             "name": "Impérial paresseux",
             "zone": "Mor Dhona",
             "location": "Castrum Centri (11,17)",
             "rules": "Bonus",
             "drops": "Gaius, Livia, Nero, Rhitahtyn",
-            "preRequisite": "X",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 67,
-            "difficulty": "★★★★",
             "name": "Employé des Forges",
             "zone": "L'Étendue de Rhalgr",
             "location": "Relais à chocobos (13.7,11.3)",
             "rules": "Roulette, Roulette",
             "drops": "Alpha, Oméga, Shinryu",
-            "preRequisite": "Le grand envol (Quête des Chroniques d'une nouvelle ère niveau 70)",
-            "fee": "35",
-            "patch": "4.5"
+            "preRequisite": "Le grand envol (Quête des Chroniques d'une nouvelle ère niveau 70)"
         },
         {
             "id": 68,
-            "difficulty": "★★★★",
             "name": "Kikimo",
             "zone": "Kugane",
             "location": "Jetée n°1 (8.6,14.0)",
             "rules": "Échange, Tueur d'as",
             "drops": "Hancock",
-            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)",
-            "fee": "30",
-            "patch": "4.2"
+            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)"
         },
         {
             "id": 69,
-            "difficulty": "★★★★",
             "name": "Elmer le Roi",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (3,7)",
             "rules": "Plus",
             "drops": "Bahamut, Godbert",
-            "preRequisite": "X",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 70,
-            "difficulty": "★★★★",
             "name": "Kiuka",
             "zone": "Quartier enclavé de Doma",
             "location": "Place Tenkonto (6.9,5.9)",
             "rules": "Chaos",
             "drops": "Hien",
-            "preRequisite": "X",
-            "fee": "30",
-            "patch": "4.0"
+            "preRequisite": "X"
         },
         {
             "id": 71,
-            "difficulty": "★★★★",
             "name": "Klynthota",
             "zone": "Mor Dhona",
             "location": "Rive nord de Pleurargent (30,13)",
             "rules": "Identique, Plus",
             "drops": "Nuage de Ténèbres, Phlégéthon, Xande, Unéi & Doga",
-            "preRequisite": "Un avenir plus radieux (Quête des Chroniques d'une nouvelle ère niveau 50)",
-            "fee": "30",
-            "patch": "3.2"
+            "preRequisite": "Un avenir plus radieux (Quête des Chroniques d'une nouvelle ère niveau 50)"
         },
         {
             "id": 72,
-            "difficulty": "★★★★",
             "name": "Landenel",
             "zone": "Forêt du sud",
             "location": "Camp des Sentes tranquilles (16,28)",
             "rules": "Chaos, Tueur d'as",
             "drops": "Odin, Titan",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
         },
         {
             "id": 73,
-            "difficulty": "★★★★",
             "name": "Laniaitte",
             "zone": "L'Écume des cieux d'Abalathia",
             "location": "Cime-des-nuages (16,37)",
             "rules": "Identique, Plus",
             "drops": "Dhalmel, Païssa",
-            "preRequisite": "Le début de la fin (Quête secondaire d'Ishgard niveau 56)",
-            "fee": "30",
-            "patch": "3.1"
+            "preRequisite": "Le début de la fin (Quête secondaire d'Ishgard niveau 56)"
         },
         {
             "id": 74,
-            "difficulty": "★★★★",
             "name": "Lewto-Sue",
             "zone": "Amh Araeng",
             "location": "Mord Suuq (26,16)",
             "rules": "Tueur d'as, Plus",
             "drops": "Gaïa, Ryne",
-            "preRequisite": "Le jardin de l'espoir (Quête des Chroniques d'une nouvelle ère niveau 80)",
-            "fee": "25",
-            "patch": "5.4"
+            "preRequisite": "Le jardin de l'espoir (Quête des Chroniques d'une nouvelle ère niveau 80)"
         },
         {
             "id": 75,
-            "difficulty": "★★★★",
             "name": "Marcette",
             "zone": "Forêt centrale",
             "location": "Havre des Renouées (16,18)",
             "rules": "Chaos",
             "drops": "Frixio, Garuda",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 76,
-            "difficulty": "★★★★",
             "name": "Marielle",
             "zone": "L'Écume des cieux d'Abalathia",
             "location": "Cime-des-Nuages (15,37)",
             "rules": "Ordre",
             "drops": "Edmont de Fortemps, Laniaitte de Haillenarte",
-            "preRequisite": "Un retour douloureux (Quête principale niveau 50)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Un retour douloureux (Quête principale niveau 50)"
         },
         {
             "id": 77,
-            "difficulty": "★★★★",
             "name": "Masatsuchi",
             "zone": "Yanxia",
             "location": "Namaï (29.5,20.2)",
             "rules": "Identique",
             "drops": "Koja, Lupin",
-            "preRequisite": "Fringale de loup (Quête secondaire de Yanxia niveau 64)",
-            "fee": "25",
-            "patch": "4.2"
+            "preRequisite": "Fringale de loup (Quête secondaire de Yanxia niveau 64)"
         },
         {
             "id": 78,
-            "difficulty": "★★★★",
             "name": "Mogzin",
             "zone": "L'Écume des cieux de Dravania",
             "location": "Variés",
             "rules": "Identique, Plus",
             "drops": "Moggle Mog XII, Kal Myhk, Hraesvelgr, Sombrécaille",
-            "preRequisite": "Mogzin au zénith (Quête tribale des Mogs niveau 50)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "Mogzin au zénith (Quête tribale des Mogs niveau 50)"
         },
         {
             "id": 79,
-            "difficulty": "★★★★",
             "name": "Mero Roggo",
             "zone": "Arrière-pays dravanien",
             "location": "Quartier des Sages (12.7,36.8)",
             "rules": "Plus, Roulette",
             "drops": "Byblos, Calcabrina, Strix, Alphinaud & Alisaie (Stormblood)",
-            "preRequisite": "Prélude pourpré (Quête principale niveau 70)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Prélude pourpré (Quête principale niveau 70)"
         },
         {
             "id": 80,
-            "difficulty": "★★★★",
             "name": "Midnight Dew",
             "zone": "Idyllée",
             "location": "Marché des Pas libres (5.5,6.6)",
             "rules": "Roulette, Roulette",
             "drops": "Matoya, Belladone",
-            "preRequisite": "Resserrer les liens (Quête secondaire de Dravania niveau 58)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Resserrer les liens (Quête secondaire de Dravania niveau 58)"
         },
         {
             "id": 81,
-            "difficulty": "★★★★",
             "name": "Mogmill",
             "zone": "L'Écume des cieux de Dravania",
             "location": "Sommet de Sohm Al (28,35)",
             "rules": "Roulette, Roulette",
             "drops": "Gnathe, Moglin, Vanu Vanu, Vedrfolnir",
-            "preRequisite": "Un endroit secret (Quête secondaire de Dravania niveau 55)",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "Un endroit secret (Quête secondaire de Dravania niveau 55)"
         },
         {
             "id": 82,
-            "difficulty": "★★★★",
             "name": "Munglig",
             "zone": "Steppe d'Azim",
             "location": "Dotharl Khaa (12.2,33.7)",
             "rules": "Chaos, Identique",
             "drops": "Sadu, Mammouth",
-            "preRequisite": "À la découverte des Dotharl (Quête principale niveau 66)",
-            "fee": "25",
-            "patch": "4.0"
+            "preRequisite": "À la découverte des Dotharl (Quête principale niveau 66)"
         },
         {
             "id": 83,
-            "difficulty": "★★★★",
             "name": "Nigen",
             "zone": "Steppe d'Azim",
             "location": "Steppe d'Azim (31.9,11.5)",
             "rules": "Identique, Plus",
             "drops": "Cirina, Mammouth",
-            "preRequisite": "Toujours du souci pour Nigen (Quête secondaire d'Othard niveau 65)",
-            "fee": "25",
-            "patch": "4.0"
+            "preRequisite": "Toujours du souci pour Nigen (Quête secondaire d'Othard niveau 65)"
         },
         {
             "id": 84,
-            "difficulty": "★★★★",
             "name": "Ogodei",
             "zone": "Steppe d'Azim",
             "location": "Trône de l'Aube (22,20.7)",
             "rules": "Tueur d'as, Plus",
             "drops": "Magnai, Mammouth",
-            "preRequisite": "Un heureux événement (Quête secondaire d'Othard niveau 65)",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "Un heureux événement (Quête secondaire d'Othard niveau 65)"
         },
         {
             "id": 85,
-            "difficulty": "★★★★",
             "name": "Ourdilic",
             "zone": "Hautes terres du Coerthas central",
             "location": "L'Arête blanche (6,22)",
             "rules": "Ordre",
             "drops": "Béhémoth, Dragon bleu, Ahriman",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 86,
-            "difficulty": "★★★★",
             "name": "R'ashaht Rhiki",
             "zone": "Limsa Lominsa - Le Tillac",
             "location": "Quartier général du Maelstrom (13,12)",
             "rules": "Identique, Plus",
             "drops": "Léviathan, Merlwyb, Y'shtola",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
         },
         {
             "id": 87,
-            "difficulty": "★★★★",
             "name": "Intendant des Becs-rouges",
             "zone": "Idyllée",
             "location": "Potagers du Vert-manger (3.8,4.5)",
             "rules": "Chaos",
             "drops": "Calofisteri, Diabolos nihil, Echidna, Ferdiad",
-            "preRequisite": "Le foulard lui va si bien (Quête des Chroniques d'une nouvelle ère niveau 60)",
-            "fee": "25",
-            "patch": "3.1"
+            "preRequisite": "Le foulard lui va si bien (Quête des Chroniques d'une nouvelle ère niveau 60)"
         },
         {
             "id": 88,
-            "difficulty": "★★★★",
             "name": "Rowena",
             "zone": "Mor Dhona",
             "location": "Maison des splendeurs de Rowena (21.9,5.1)",
             "rules": "Roulette, Roulette",
             "drops": "Gerolt, Louisoix",
-            "preRequisite": "Le forgeron légendaire (Quête secondaire du Thanalan niveau 50)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "Le forgeron légendaire (Quête secondaire du Thanalan niveau 50)"
         },
         {
             "id": 89,
-            "difficulty": "★★★★",
             "name": "Ruthwyda la Dame de cœur",
             "zone": "Gold Saucer",
             "location": "Square des duellistes (3,7)",
             "rules": "Bonus, Mort subite",
             "drops": "Godbert, Urianger",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 90,
-            "difficulty": "★★★★",
             "name": "Sezul Totoloc",
             "zone": "Forêt du nord",
             "location": "Sommière de la Paix (24,23)",
             "rules": "Identique, Plus",
             "drops": "Béhémoth, Biggs & Wedge, Cid, Tozol Huatotl",
-            "preRequisite": "Plus près des étoiles (Quête tribale des Ixalis niveau 18)",
-            "fee": "25",
-            "patch": "2.51"
+            "preRequisite": "Plus près des étoiles (Quête tribale des Ixalis niveau 18)"
         },
         {
             "id": 91,
-            "difficulty": "★★★★",
             "name": "Tapklix",
             "zone": "Arrière-pays dravanien",
             "location": "Quartier des Collectionneurs (21,18)",
             "rules": "Échange, Identique",
             "drops": "Primo-Alexander, Justice, Roundrox",
-            "preRequisite": "Une question de temps (Quête des Chroniques d'une nouvelle ère niveau 60)",
-            "fee": "30",
-            "patch": "3.1"
+            "preRequisite": "Une question de temps (Quête des Chroniques d'une nouvelle ère niveau 60)"
         },
         {
             "id": 92,
-            "difficulty": "★★★★",
             "name": "Umber Torrent",
             "zone": "Les Lacs",
             "location": "La Salaisonnerie (16.4,24.7)",
             "rules": "Plus, Identique",
             "drops": "Arenvald Lentinus, Phoebad",
-            "preRequisite": "Retour au bercail (Quête principale niveau 70)",
-            "fee": "25",
-            "patch": "4.0"
+            "preRequisite": "Retour au bercail (Quête principale niveau 70)"
         },
         {
             "id": 93,
-            "difficulty": "★★★★",
             "name": "Vathe Vorace",
             "zone": "Avant-pays dravanien",
             "location": "Terres fumantes (23,19)",
             "rules": "Bonus, Échange",
             "drops": "Bandersnatch, Regina coeurl",
-            "preRequisite": "L'or jaunâtre (Quête secondaire de Dravania niveau 53)",
-            "fee": "30",
-            "patch": "3.1"
+            "preRequisite": "L'or jaunâtre (Quête secondaire de Dravania niveau 53)"
         },
         {
             "id": 94,
-            "difficulty": "★★★★",
             "name": "Wawalago",
             "zone": "Limsa Lominsa - L'Entrepont",
             "location": "L'Escale du pêcheur (8,15)",
             "rules": "Échange, Chaos",
             "drops": "Lucia",
-            "preRequisite": "X",
-            "fee": "25",
-            "patch": "3.0"
+            "preRequisite": "X"
         },
         {
             "id": 95,
-            "difficulty": "★★★★",
             "name": "Yayake",
             "zone": "Ul'dah - Faubourg de Nald",
             "location": "Ossuaire d'Arrzaneth (7.3,12.4)",
             "rules": "Chaos, Roulette",
             "drops": "Aymeric, Adjoint de la Gardienne",
-            "preRequisite": "X",
-            "fee": "30",
-            "patch": "3.0"
+            "preRequisite": "X"
         },
         {
             "id": 96,
-            "difficulty": "★★★★★",
             "name": "Elaisse",
             "zone": "Ishgard - Les Contreforts",
             "location": "Le Crosseron précieux (7,10)",
             "rules": "Chaos, Plus",
             "drops": "Archéornis, Gibrillont",
-            "preRequisite": "Pièces piégées (Quête secondaire d'Ishgard niveau 56)",
-            "fee": "25",
-            "patch": "3.1"
+            "preRequisite": "Pièces piégées (Quête secondaire d'Ishgard niveau 56)"
         },
         {
             "id": 97,
-            "difficulty": "★★★★★",
             "name": "Croupier de l'arène",
             "zone": "Arène Triple Triade",
             "location": "Arène Triple Triade (3.5,3.5)",
             "rules": "Tueur d'as, Chaos",
             "drops": "Terra, Colosse magitek",
-            "preRequisite": "X",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 98,
-            "difficulty": "★★★★★",
             "name": "Isobe",
             "zone": "Mer de Rubis",
             "location": "Sui-no-Sato (20.2,19.5)",
             "rules": "Plus, Échange",
             "drops": "Ango, Hisui & Kurenai",
-            "preRequisite": "Qui est qui ? (Quête secondaire d'Othard niveau 63)",
-            "fee": "30",
-            "patch": "4.2"
+            "preRequisite": "Qui est qui ? (Quête secondaire d'Othard niveau 63)"
         },
         {
             "id": 99,
-            "difficulty": "★★★★★",
             "name": "Lewena",
             "zone": "Gold Saucer",
             "location": "Hall d'accueil (4,6)",
             "rules": "Chaos, Tueur d'as",
             "drops": "Bartz, Chevalier Oignon, Terra",
-            "preRequisite": "X",
-            "fee": "40",
-            "patch": "2.51"
+            "preRequisite": "X"
         },
         {
             "id": 100,
-            "difficulty": "★★★★★",
             "name": "Vorsaile Heuloix",
             "zone": "Nouvelle Gridania",
             "location": "Quartier général des Deux Vipères (9.7,11.0)",
             "rules": "Bonus",
             "drops": "Kan-E-Senna, Papalymo & Yda, Ramuh, Moggle Mog XII",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)",
-            "fee": "30",
-            "patch": "2.51"
+            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
         }
     ]
 }
