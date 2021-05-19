@@ -1,1139 +1,862 @@
 {
-    "key": "quests",
     "groupName": "Quests",
     "tasks": [
         {
             "description": "Complete 15 sidequests originating in La Noscea.",
             "id": 319,
             "name": "A Little Something on the Side: La Noscea",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 15 sidequests originating in the Black Shroud.",
             "id": 320,
             "name": "A Little Something on the Side: Black Shroud",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 15 sidequests originating in Thanalan.",
             "id": 321,
             "name": "A Little Something on the Side: Thanalan",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Sidestepper",
             "description": "Obtain all three “A Little Something on the Side” achievements.",
             "id": 322,
             "name": "Sideways",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 faction levequests.",
             "id": 337,
             "name": "A Slave to Faction I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 50 faction levequests.",
             "id": 338,
             "name": "A Slave to Faction II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Peacemaker",
             "description": "Complete 100 faction levequests.",
             "id": 339,
             "name": "A Slave to Faction III",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 500 faction levequests.",
             "id": 340,
             "name": "Just the Factions, Ma'am",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete one regional battlecraft levequest at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
             "id": 348,
             "name": "Around the Realm and Back Again",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Bearded Rock.",
             "id": 349,
             "name": "I Survived Camp Bearded Rock",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Cedarwood.",
             "id": 350,
             "name": "I Survived Cedarwood",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Skull Valley.",
             "id": 351,
             "name": "I Survived Camp Skull Valley",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Bald Knoll.",
             "id": 352,
             "name": "I Survived Camp Bald Knoll",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Bloodshore.",
             "id": 353,
             "name": "I Survived Camp Bloodshore",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Cassiopeia Hollow.",
             "id": 354,
             "name": "I Survived Cassiopeia Hollow",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Iron Lake.",
             "id": 355,
             "name": "I Survived Camp Iron Lake",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Sword of La Noscea",
             "description": "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in La Noscea.",
             "id": 356,
             "name": "And All I Got Was This Lousy Achievement: La Noscea",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Bentbranch.",
             "id": 357,
             "name": "I Survived Camp Bentbranch",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Humblehearth.",
             "id": 358,
             "name": "I Survived Humblehearth",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Nine Ivies.",
             "id": 359,
             "name": "I Survived Camp Nine Ivies",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Emerald Moss.",
             "id": 360,
             "name": "I Survived Camp Emerald Moss",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Treespeak.",
             "id": 361,
             "name": "I Survived Treespeak",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in the Mun–Tuy Cellars.",
             "id": 362,
             "name": "I Survived the Mun-Tuy Cellars",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Tranquil.",
             "id": 363,
             "name": "I Survived Camp Tranquil",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Sword of the Shroud",
             "description": "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in the Black Shroud.",
             "id": 364,
             "name": "And All I Got Was This Lousy Achievement: Black Shroud",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Black Brush.",
             "id": 365,
             "name": "I Survived Camp Black Brush",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in the Nanawa Mines.",
             "id": 366,
             "name": "I Survived the Nanawa Mines",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Drybone.",
             "id": 367,
             "name": "I Survived Camp Drybone",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Halatali.",
             "id": 368,
             "name": "I Survived Halatali",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Horizon.",
             "id": 369,
             "name": "I Survived Camp Horizon",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating in Nophica's Wells.",
             "id": 370,
             "name": "I Survived Nophica's Wells",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 20 regional battlecraft levequests originating at Camp Broken Water.",
             "id": 371,
             "name": "I Survived Camp Broken Water",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Sword of Thanalan",
             "description": "Complete 20 regional battlecraft levequests at each aetheryte camp and aetherial gate in Thanalan.",
             "id": 372,
             "name": "And All I Got Was This Lousy Achievement: Thanalan",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Sword of Eorzea",
             "description": "Complete 20 regional battlecraft levequests at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
             "id": 373,
             "name": "Globetrotter",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete one behest at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
             "id": 374,
             "name": "At the Realm's Behest",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Bearded Rock.",
             "id": 375,
             "name": "To Serve and Protect: Camp Bearded Rock",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Cedarwood.",
             "id": 376,
             "name": "To Serve and Protect: Cedarwood",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Skull Valley.",
             "id": 377,
             "name": "To Serve and Protect: Camp Skull Valley",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Bald Knoll.",
             "id": 378,
             "name": "To Serve and Protect: Camp Bald Knoll",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Bloodshore.",
             "id": 379,
             "name": "To Serve and Protect: Camp Bloodshore",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Cassiopeia Hollow.",
             "id": 380,
             "name": "To Serve and Protect: Cassiopeia Hollow",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Iron Lake.",
             "id": 381,
             "name": "To Serve and Protect: Camp Iron Lake",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Shield of La Noscea",
             "description": "Complete 10 behests at each aetheryte camp and aetherial gate in La Noscea.",
             "id": 382,
             "name": "La Noscea Got Served...and Protected",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Bentbranch.",
             "id": 383,
             "name": "To Serve and Protect: Camp Bentbranch",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Humblehearth.",
             "id": 384,
             "name": "To Serve and Protect: Humblehearth",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Nine Ivies.",
             "id": 385,
             "name": "To Serve and Protect: Camp Nine Ivies",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Emerald Moss.",
             "id": 386,
             "name": "To Serve and Protect: Camp Emerald Moss",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Treespeak.",
             "id": 387,
             "name": "To Serve and Protect: Treespeak",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in the Mun–Tuy Cellars.",
             "id": 388,
             "name": "To Serve and Protect: Mun-Tuy Cellars",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Tranquil.",
             "id": 389,
             "name": "To Serve and Protect: Camp Tranquil",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Shield of the Shroud",
             "description": "Complete 10 behests at each aetheryte camp and aetherial gate in the Black Shroud.",
             "id": 390,
             "name": "The Black Shroud Got Served...and Protected",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Black Brush.",
             "id": 391,
             "name": "To Serve and Protect: Camp Black Brush",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in the Nanawa Mines.",
             "id": 392,
             "name": "To Serve and Protect: Nanawa Silvermines",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Drybone.",
             "id": 393,
             "name": "To Serve and Protect: Camp Drybone",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Halatali.",
             "id": 394,
             "name": "To Serve and Protect: Halatali",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Horizon.",
             "id": 395,
             "name": "To Serve and Protect: Camp Horizon",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests in Nophica's Wells.",
             "id": 396,
             "name": "To Serve and Protect: Nophica's Wells",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 behests at Camp Broken Water.",
             "id": 397,
             "name": "To Serve and Protect: Camp Broken Water",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Shield of Thanalan",
             "description": "Complete 10 behests at each aetheryte camp and aetherial gate in Thanalan.",
             "id": 398,
             "name": "Thanalan Got Served...and Protected",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Shield of Eorzea",
             "description": "Complete 10 behests at every aetheryte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
             "id": 399,
             "name": "Eorzea Got Served...and Protected",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 faction levequests for the Brotherhood of the Broken Blade.",
             "id": 400,
             "name": "Leaning Towards the Brotherhood",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Brother of the Broken Blade / Sister of the Broken Blade",
             "description": "Complete 50 faction levequests for the Brotherhood of the Broken Blade.",
             "id": 401,
             "name": "Love Thy Brother",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 faction levequests for Azeyma's Shields.",
             "id": 402,
             "name": "Leaning Towards the Shield",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Warden's Wall",
             "description": "Complete 50 faction levequests for Azeyma's Shields.",
             "id": 403,
             "name": "Another Brick in the Shield Wall",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete 10 faction levequests for the Horn and Hand.",
             "id": 404,
             "name": "Leaning Towards the Horn",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bearer of the Horn",
             "description": "Complete 50 faction levequests for the Horn and Hand.",
             "id": 405,
             "name": "A Helping Horn",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Uncommitted",
             "description": "Complete 50 faction levequests each for the Brotherhood of the Broken Blade, Azeyma's Shields, and the Horn and Hand.",
             "id": 406,
             "name": "Commitment Issues",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Complete the entire scenario centered around Dalamud and the Empire's Meteor project.",
             "id": 415,
             "name": "Once in a Lifetime",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Inquisitor",
             "description": "Defeat 11th Order Patriarch Gu Bu during the Battle for Aleport.",
             "id": 416,
             "name": "Patricide",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Divine Crusher",
             "description": "Defeat Sazel Ciloc the Divine during the Battle for Hyrstmill.",
             "id": 417,
             "name": "To Kill a Mocking Bird",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Stonesplitter",
             "description": "Defeat Stonespike Tanadd Gah during the battle for the Golden Bazaar.",
             "id": 418,
             "name": "Pounding the Spike",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
             "id": 419,
             "name": "An Eye on the Ale I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
             "id": 420,
             "name": "An Eye on the Ale II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
             "id": 421,
             "name": "An Eye on the Ale III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
             "id": 422,
             "name": "An Eye on the Ale IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "A Kobold's Worst Nightmare",
             "description": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
             "id": 423,
             "name": "First Blood: Aleport",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
             "id": 424,
             "name": "An Eye on the Trees I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
             "id": 425,
             "name": "An Eye on the Trees II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
             "id": 426,
             "name": "An Eye on the Trees III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
             "id": 427,
             "name": "An Eye on the Trees IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "An Ixal's Worst Nightmare",
             "description": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
             "id": 428,
             "name": "First Blood: Hyrstmill",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 10,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
             "id": 429,
             "name": "An Eye on the Gold I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 20,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
             "id": 430,
             "name": "An Eye on the Gold II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 30,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
             "id": 431,
             "name": "An Eye on the Gold III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Receive a score of 40,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
             "id": 432,
             "name": "An Eye on the Gold IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "An Amalj'aa's Worst Nightmare",
             "description": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
             "id": 433,
             "name": "First Blood: Golden Bazaar",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Aleport from invading kobold forces 5 times.",
             "id": 434,
             "name": "Holding the Hamlet: Aleport I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Aleport from invading kobold forces 10 times.",
             "id": 435,
             "name": "Holding the Hamlet: Aleport II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Aleport from invading kobold forces 50 times.",
             "id": 436,
             "name": "Holding the Hamlet: Aleport III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Aleport from invading kobold forces 100 times.",
             "id": 437,
             "name": "Holding the Hamlet: Aleport IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Guardian of Aleport",
             "description": "Defend Aleport from invading kobold forces 1,000 times.",
             "id": 438,
             "name": "To Be or Not to Be the Guardian of Aleport",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Hyrstmill from invading Ixali forces 5 times.",
             "id": 439,
             "name": "Holding the Hamlet: Hyrstmill I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Hyrstmill from invading Ixali forces 10 times.",
             "id": 440,
             "name": "Holding the Hamlet: Hyrstmill II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Hyrstmill from invading Ixali forces 50 times.",
             "id": 441,
             "name": "Holding the Hamlet: Hyrstmill III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend Hyrstmill from invading Ixali forces 100 times.",
             "id": 442,
             "name": "Holding the Hamlet: Hyrstmill IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Guardian of Hyrstmill",
             "description": "Defend Hyrstmill from invading Ixali forces 1,000 times.",
             "id": 443,
             "name": "To Be or Not to Be the Guardian of Hyrstmill",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend the Golden Bazaar from invading Amalj'aa forces 5 times.",
             "id": 444,
             "name": "Holding the Hamlet: Golden Bazaar I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend the Golden Bazaar from invading Amalj'aa forces 10 times.",
             "id": 445,
             "name": "Holding the Hamlet: Golden Bazaar II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend the Golden Bazaar from invading Amalj'aa forces 50 times.",
             "id": 446,
             "name": "Holding the Hamlet: Golden Bazaar III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Defend the Golden Bazaar from invading Amalj'aa forces 100 times.",
             "id": 447,
             "name": "Holding the Hamlet: Golden Bazaar IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Guardian of the Golden Bazaar",
             "description": "Defend the Golden Bazaar from invading Amalj'aa forces 1,000 times.",
             "id": 448,
             "name": "To Be or Not to Be the Guardian of the Golden Bazaar",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 10 times during the Battle for Aleport.",
             "id": 449,
             "name": "Helping the Hamlet: Aleport I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 100 times during the Battle for Aleport.",
             "id": 450,
             "name": "Helping the Hamlet: Aleport II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 500 times during the Battle for Aleport.",
             "id": 451,
             "name": "Helping the Hamlet: Aleport III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 1,000 times during the Battle for Aleport.",
             "id": 452,
             "name": "Helping the Hamlet: Aleport IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Wind of Aleport",
             "description": "Procure and submit supplies 10,000 times during the Battle for Aleport.",
             "id": 453,
             "name": "To Be or Not to Be the Wind of Aleport",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 10 times during the Battle for Hyrstmill.",
             "id": 454,
             "name": "Helping the Hamlet: Hyrstmill I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 100 times during the Battle for Hyrstmill.",
             "id": 455,
             "name": "Helping the Hamlet: Hyrstmill II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 500 times during the Battle for Hyrstmill.",
             "id": 456,
             "name": "Helping the Hamlet: Hyrstmill III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 1,000 times during the Battle for Hyrstmill.",
             "id": 457,
             "name": "Helping the Hamlet: Hyrstmill IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Wind of Hyrstmill",
             "description": "Procure and submit supplies 10,000 times during the Battle for Hyrstmill.",
             "id": 458,
             "name": "To Be or Not to Be the Wind of Hyrstmill",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 10 times during the Battle for the Golden Bazaar.",
             "id": 459,
             "name": "Helping the Hamlet: Golden Bazaar I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 100 times during the Battle for the Golden Bazaar.",
             "id": 460,
             "name": "Helping the Hamlet: Golden Bazaar II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 500 times during the Battle for the Golden Bazaar.",
             "id": 461,
             "name": "Helping the Hamlet: Golden Bazaar III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Procure and submit supplies 1,000 times during the Battle for the Golden Bazaar.",
             "id": 462,
             "name": "Helping the Hamlet: Golden Bazaar IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Wind of the Golden Bazaar",
             "description": "Procure and submit supplies 10,000 times during the Battle for the Golden Bazaar.",
             "id": 463,
             "name": "To Be or Not to Be the Wind of the Golden Bazaar",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 10 times during the Battle for Aleport.",
             "id": 464,
             "name": "Habiting the Hamlet: Aleport I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 100 times during the Battle for Aleport.",
             "id": 465,
             "name": "Habiting the Hamlet: Aleport II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 500 times during the Battle for Aleport.",
             "id": 466,
             "name": "Habiting the Hamlet: Aleport III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 1,000 times during the Battle for Aleport.",
             "id": 467,
             "name": "Habiting the Hamlet: Aleport IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Hand of Aleport",
             "description": "Craft and submit materia-augmented equipment 10,000 times during the Battle for Aleport.",
             "id": 468,
             "name": "To Be or Not to Be the Hand of Aleport",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 10 times during the Battle for Hyrstmill.",
             "id": 469,
             "name": "Habiting the Hamlet: Hyrstmill I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 100 times during the Battle for Hyrstmill.",
             "id": 470,
             "name": "Habiting the Hamlet: Hyrstmill II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 500 times during the Battle for Hyrstmill.",
             "id": 471,
             "name": "Habiting the Hamlet: Hyrstmill III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 1,000 times during the Battle for Hyrstmill.",
             "id": 472,
             "name": "Habiting the Hamlet: Hyrstmill IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Hand of Hyrstmill",
             "description": "Craft and submit materia-augmented equipment 10,000 times during the Battle for Hyrstmill.",
             "id": 473,
             "name": "To Be or Not to Be the Hand of Hyrstmill",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 10 times during the Battle for the Golden Bazaar.",
             "id": 474,
             "name": "Habiting the Hamlet: Golden Bazaar I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 100 times during the Battle for the Golden Bazaar.",
             "id": 475,
             "name": "Habiting the Hamlet: Golden Bazaar II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 500 times during the Battle for the Golden Bazaar.",
             "id": 476,
             "name": "Habiting the Hamlet: Golden Bazaar III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Craft and submit materia-augmented equipment 1,000 times during the Battle for the Golden Bazaar.",
             "id": 477,
             "name": "Habiting the Hamlet: Golden Bazaar IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "The Hand of the Golden Bazaar",
             "description": "Craft and submit materia-augmented equipment 10,000 times during the Battle for the Golden Bazaar.",
             "id": 478,
             "name": "To Be or Not to Be the Hand of the Golden Bazaar",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for Aleport without the assistance of any Disciples of the Land or Hand.",
             "id": 479,
             "name": "Leave Your Hammer at Home: Aleport",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for Hyrstmill without the assistance of any Disciples of the Land or Hand.",
             "id": 480,
             "name": "Leave Your Hammer at Home: Hyrstmill",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for the Golden Bazaar without the assistance of any Disciples of the Land or Hand.",
             "id": 481,
             "name": "Leave Your Hammer at Home: Golden Bazaar",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for Aleport without the assistance of any Disciples of War or Magic.",
             "id": 482,
             "name": "Make Stuff, Not War: Aleport",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for Hyrstmill without the assistance of any Disciples of War or Magic.",
             "id": 483,
             "name": "Make Stuff, Not War: Hyrstmill",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for the Golden Bazaar without the assistance of any Disciples of War or Magic.",
             "id": 484,
             "name": "Make Stuff, Not War: Golden Bazaar",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Emerge victorious in the Battle for Aleport, the Battle for Hyrstmill, and the Battle for the Golden Bazaar.",
             "id": 485,
             "name": "Looking Out for the Little People",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         }
     ]
 }

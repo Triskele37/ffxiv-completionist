@@ -1,205 +1,150 @@
 {
-    "key": "culinarian",
     "groupName": "Culinarian",
     "tasks": [
         {
             "description": "Réaliser 50 synthèses de cuisine de niveau 1 à 10.",
             "id": 179,
-            "name": "Cordon-bleu : Amateur",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Cordon-bleu : Amateur"
         },
         {
             "description": "Réaliser 300 synthèses de cuisine de niveau 11 à 20.",
             "id": 180,
-            "name": "Cordon-bleu : Recrue",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Cordon-bleu : Recrue"
         },
         {
             "description": "Réaliser 750 synthèses de cuisine de niveau 21 à 30.",
             "id": 181,
-            "name": "Cordon-bleu : Initié",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Cordon-bleu : Initié"
         },
         {
             "description": "Réaliser 1 500 synthèses de cuisine de niveau 31 à 40.",
             "id": 182,
-            "name": "Cordon-bleu : Novice",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Cordon-bleu : Novice"
         },
         {
             "reward": "Le Cordon-bleu",
             "description": "Réaliser 3 000 synthèses de cuisine de niveau 41 à 50.",
             "id": 183,
-            "name": "Cordon-bleu : Qualifié",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Cordon-bleu : Qualifié"
         },
         {
             "reward": "Poêle de virtuose",
             "description": "Accomplir les hauts faits “Cordon-bleu: Amateur”, “Cordon-bleu: Recrue”, “Cordon-bleu: Initié”, “Cordon-bleu: Novice” et “Cordon-bleu: Qualifié”.",
             "id": 184,
-            "name": "Crème de la crème",
-            "points": 30,
-            "patch": "2.0"
+            "name": "Crème de la crème"
         },
         {
             "description": "Réaliser 1 000 synthèses de cuisine de niveau 51 à 60.",
             "id": 1308,
-            "name": "Cordon-bleu : Expert",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Cordon-bleu : Expert"
         },
         {
             "description": "Réaliser 1 000 synthèses de cuisine de niveau 61 à 70.",
             "id": 1855,
-            "name": "Cordon-bleu : Maître",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Cordon-bleu : Maître"
         },
         {
             "description": "Réaliser 1 000 synthèses de cuisine de niveau 71 à 80.",
             "id": 2287,
-            "name": "Cordon-bleu : Génie",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Cordon-bleu : Génie"
         },
         {
             "description": "Faire 30 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 716,
-            "name": "Carnet de notes : cuisinier I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Carnet de notes : cuisinier I"
         },
         {
             "description": "Faire 60 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 717,
-            "name": "Carnet de notes : cuisinier II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Carnet de notes : cuisinier II"
         },
         {
             "reward": "Anneau de maître cuisinier",
             "description": "Faire 120 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 718,
-            "name": "Carnet de notes : cuisinier III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Carnet de notes : cuisinier III"
         },
         {
             "description": "Faire 160 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 1285,
-            "name": "Carnet de notes : cuisinier IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Carnet de notes : cuisinier IV"
         },
         {
             "reward": "Poêle de cordon-bleu bénie",
             "description": "Faire 190 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 1728,
-            "name": "Carnet de notes : cuisinier V",
-            "points": 10,
-            "patch": "3.5"
+            "name": "Carnet de notes : cuisinier V"
         },
         {
             "reward": "Poêle à frire du roi des fourneaux bénie",
             "description": "Faire 230 synthèses de cuisinier différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 2173,
-            "name": "Carnet de notes : cuisinier VI",
-            "points": 10,
-            "patch": "4.5"
+            "name": "Carnet de notes : cuisinier VI"
         },
         {
             "description": "Fabriquer un total de 100 objets de haute qualité en tant que cuisinier.",
             "id": 771,
-            "name": "De main de maître : cuisinier I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "De main de maître : cuisinier I"
         },
         {
             "description": "Fabriquer un total de 500 objets de haute qualité en tant que cuisinier.",
             "id": 772,
-            "name": "De main de maître : cuisinier II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "De main de maître : cuisinier II"
         },
         {
             "description": "Fabriquer un total de 3 000 objets de haute qualité en tant que cuisinier.",
             "id": 773,
-            "name": "De main de maître : cuisinier III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "De main de maître : cuisinier III"
         },
         {
             "description": "Fabriquer un total de 5 000 objets de haute qualité en tant que cuisinier.",
             "id": 1320,
-            "name": "De main de maître : cuisinier IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "De main de maître : cuisinier IV"
         },
         {
             "reward": "Maître cuisinier",
             "description": "Fabriquer un total de 10 000  objets de haute qualité en tant que cuisinier.",
             "id": 1328,
-            "name": "De main de maître : cuisinier V",
-            "points": 10,
-            "patch": "3.0"
+            "name": "De main de maître : cuisinier V"
         },
         {
             "description": "Gagner un total de 50 000 points d'azur en tant que cuisinier.",
             "id": 2510,
-            "name": "Poêle d'Azurée I",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Poêle d'Azurée I"
         },
         {
             "description": "Gagner un total de 150 000 points d'azur en tant que cuisinier.",
             "id": 2511,
-            "name": "Poêle d'Azurée II",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Poêle d'Azurée II"
         },
         {
             "reward": "Poêle d'Azurée",
             "description": "Gagner un total de 500 000 points d'azur en tant que cuisinier.",
             "id": 2512,
-            "name": "Poêle d'Azurée III",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Poêle d'Azurée III"
         },
         {
             "reward": "Cuisinier du Nichoir / Cuisinière du Nichoir",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de cuisinier de la deuxième phase de reconstruction d'Azurée.",
             "id": 2534,
-            "name": "Cuisinier du Nichoir",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Cuisinier du Nichoir"
         },
         {
             "id": 2655,
             "name": "Cuisinier de Tombeplume",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de cuisinier de la troisième phase de reconstruction d'Azurée.",
-            "points": 10,
-            "reward": "Cuisinier de Tombeplume / Cuisinière de Tombeplume",
-            "patch": "5.31"
+            "reward": "Cuisinier de Tombeplume / Cuisinière de Tombeplume"
         },
         {
             "id": 2814,
             "name": "Cuisinier du Nouveau Refrain",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de cuisinier de la quatrième phase de reconstruction d'Azurée.",
-            "reward": "Cuisinier du Nouveau Refrain / Cuisinière du Nouveau Refrain",
-            "points": 10,
-            "patch": "5.41"
+            "reward": "Cuisinier du Nouveau Refrain / Cuisinière du Nouveau Refrain"
         },
         {
             "id": 2828,
             "name": "Cuisine resplendissante",
-            "description": "Obtenir une poêle à frire du fiélon des fourneaux resplendissante.",
-            "points": 10,
-            "patch": "5.5"
+            "description": "Obtenir une poêle à frire du fiélon des fourneaux resplendissante."
         }
     ]
 }

@@ -1,588 +1,423 @@
 {
-    "key": "raids",
     "groupName": "Raids",
     "tasks": [
         {
             "description": "Complete the Binding Coil of Bahamut.",
             "id": 747,
-            "name": "The Binds that Tie I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "The Binds that Tie I"
         },
         {
             "description": "Complete the Binding Coil of Bahamut 5 times.",
             "id": 748,
-            "name": "The Binds that Tie II",
-            "points": 10,
-            "patch": "2.1"
+            "name": "The Binds that Tie II"
         },
         {
             "description": "Complete the Binding Coil of Bahamut 10 times.",
             "id": 749,
-            "name": "The Binds that Tie III",
-            "points": 20,
-            "patch": "2.1"
+            "name": "The Binds that Tie III"
         },
         {
             "description": "Complete the Labyrinth of the Ancients.",
             "id": 883,
-            "name": "You Call That a Labyrinth",
-            "points": 10,
-            "patch": "2.1"
+            "name": "You Call That a Labyrinth"
         },
         {
             "description": "Complete the Second Coil of Bahamut.",
             "id": 887,
-            "name": "In Another Bind I",
-            "points": 5,
-            "patch": "2.2"
+            "name": "In Another Bind I"
         },
         {
             "description": "Complete the Second Coil of Bahamut 5 times.",
             "id": 888,
-            "name": "In Another Bind II",
-            "points": 10,
-            "patch": "2.2"
+            "name": "In Another Bind II"
         },
         {
             "description": "Complete the Second Coil of Bahamut 10 times.",
             "id": 889,
-            "name": "In Another Bind III",
-            "points": 20,
-            "patch": "2.2"
+            "name": "In Another Bind III"
         },
         {
             "description": "Complete Syrcus Tower.",
             "id": 995,
-            "name": "Life Is a Syrcus",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Life Is a Syrcus"
         },
         {
             "reward": "Rafflesia Reaper",
             "description": "Defeat the rafflesia within the first turn of the Second Coil of Bahamut (Savage).",
             "id": 997,
-            "name": "A Flower by Any Other Name",
-            "points": 10,
-            "patch": "2.3"
+            "name": "A Flower by Any Other Name"
         },
         {
             "reward": "Melusine Mauler",
             "description": "Defeat Melusine within the second turn of the Second Coil of Bahamut (Savage).",
             "id": 998,
-            "name": "Seconds",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Seconds"
         },
         {
             "reward": "The Avatar",
             "description": "Defeat the Avatar within the third turn of the Second Coil of Bahamut (Savage).",
             "id": 999,
-            "name": "Obtanium",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Obtanium"
         },
         {
             "reward": "Domitor / Domitrix",
             "description": "Defeat Nael deus Darnus within the fourth turn of the Second Coil of Bahamut (Savage).",
             "id": 1000,
-            "name": "Scent of a Woman",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Scent of a Woman"
         },
         {
             "reward": "Wind-up Louisoix",
             "description": "Complete the Final Coil of Bahamut.",
             "id": 1040,
-            "name": "Out of a Bind I",
-            "points": 5,
-            "patch": "2.4"
+            "name": "Out of a Bind I"
         },
         {
             "description": "Complete the Final Coil of Bahamut 5 times.",
             "id": 1041,
-            "name": "Out of a Bind II",
-            "points": 10,
-            "patch": "2.4"
+            "name": "Out of a Bind II"
         },
         {
             "description": "Complete the Final Coil of Bahamut 10 times.",
             "id": 1042,
-            "name": "Out of a Bind III",
-            "points": 20,
-            "patch": "2.4"
+            "name": "Out of a Bind III"
         },
         {
             "description": "Clear the World of Darkness.",
             "id": 1068,
-            "name": "Let the Sun Shine In",
-            "points": 20,
-            "patch": "2.5"
+            "name": "Let the Sun Shine In"
         },
         {
             "description": "Complete Alexander: Gordias.",
             "id": 1228,
-            "name": "Sins of the Father I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Sins of the Father I"
         },
         {
             "description": "Complete Alexander: Gordias 5 times.",
             "id": 1229,
-            "name": "Sins of the Father II",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Sins of the Father II"
         },
         {
             "description": "Complete Alexander: Gordias 10 times.",
             "id": 1230,
-            "name": "Sins of the Father III",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Sins of the Father III"
         },
         {
             "description": "Complete Alexander: Gordias (Savage).",
             "id": 1231,
-            "name": "Sins of the Savage Father I",
-            "points": 5,
-            "patch": "3.05"
+            "name": "Sins of the Savage Father I"
         },
         {
             "description": "Complete Alexander: Gordias (Savage) 5 times.",
             "id": 1232,
-            "name": "Sins of the Savage Father II",
-            "points": 10,
-            "patch": "3.05"
+            "name": "Sins of the Savage Father II"
         },
         {
             "description": "Complete Alexander: Gordias (Savage) 10 times.",
             "id": 1233,
-            "name": "Sins of the Savage Father III",
-            "points": 20,
-            "patch": "3.05"
+            "name": "Sins of the Savage Father III"
         },
         {
             "description": "Complete the Void Ark.",
             "id": 1399,
-            "name": "Touching the Void",
-            "points": 10,
-            "patch": "3.1"
+            "name": "Touching the Void"
         },
         {
             "description": "Complete Alexander: Midas.",
             "id": 1476,
-            "name": "Sins of the Son I",
-            "points": 5,
-            "patch": "3.15"
+            "name": "Sins of the Son I"
         },
         {
             "description": "Complete Alexander: Midas 5 times.",
             "id": 1477,
-            "name": "Sins of the Son II",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Sins of the Son II"
         },
         {
             "description": "Complete Alexander: Midas 10 times.",
             "id": 1478,
-            "name": "Sins of the Son III",
-            "points": 20,
-            "patch": "3.15"
+            "name": "Sins of the Son III"
         },
         {
             "description": "Complete Alexander: Midas (Savage).",
             "id": 1479,
-            "name": "Sins of the Savage Son I",
-            "points": 5,
-            "patch": "3.15"
+            "name": "Sins of the Savage Son I"
         },
         {
             "description": "Complete Alexander: Midas (Savage) 5 times.",
             "id": 1480,
-            "name": "Sins of the Savage Son II",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Sins of the Savage Son II"
         },
         {
             "description": "Complete Alexander: Midas (Savage) 10 times.",
             "id": 1481,
-            "name": "Sins of the Savage Son III",
-            "points": 20,
-            "patch": "3.15"
+            "name": "Sins of the Savage Son III"
         },
         {
             "description": "Complete the Weeping City of Mhach.",
             "id": 1574,
-            "name": "Ex Mhachina",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Ex Mhachina"
         },
         {
             "description": "Complete Alexander.",
             "id": 1639,
-            "name": "Sins of the Creator I",
-            "points": 5,
-            "patch": "3.4"
+            "name": "Sins of the Creator I"
         },
         {
             "description": "Complete Alexander 5 times.",
             "id": 1640,
-            "name": "Sins of the Creator II",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Sins of the Creator II"
         },
         {
             "description": "Complete Alexander 10 times.",
             "id": 1641,
-            "name": "Sins of the Creator III",
-            "points": 20,
-            "patch": "3.4"
+            "name": "Sins of the Creator III"
         },
         {
             "description": "Complete Alexander (Savage).",
             "id": 1642,
-            "name": "Sins of the Savage Creator I",
-            "points": 5,
-            "patch": "3.4"
+            "name": "Sins of the Savage Creator I"
         },
         {
             "description": "Complete Alexander (Savage) 5 times.",
             "id": 1643,
-            "name": "Sins of the Savage Creator II",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Sins of the Savage Creator II"
         },
         {
             "description": "Complete Alexander (Savage) 10 times.",
             "id": 1644,
-            "name": "Sins of the Savage Creator III",
-            "points": 20,
-            "patch": "3.4"
+            "name": "Sins of the Savage Creator III"
         },
         {
             "description": "Complete Dun Scaith.",
             "id": 1689,
-            "name": "What's Dun Is Done",
-            "points": 10,
-            "patch": "3.5"
+            "name": "What's Dun Is Done"
         },
         {
             "description": "Complete Omega: Deltascape.",
             "id": 1895,
-            "name": "I Am the Delta, I Am the Omega I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "I Am the Delta, I Am the Omega I"
         },
         {
             "description": "Complete Omega: Deltascape 5 times.",
             "id": 1896,
-            "name": "I Am the Delta, I Am the Omega II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "I Am the Delta, I Am the Omega II"
         },
         {
             "description": "Complete Omega: Deltascape 10 times.",
             "id": 1897,
-            "name": "I Am the Delta, I Am the Omega III",
-            "points": 20,
-            "patch": "4.01"
+            "name": "I Am the Delta, I Am the Omega III"
         },
         {
             "description": "Complete Omega: Deltascape (Savage).",
             "id": 1898,
-            "name": "I Am the Savage Delta, I Am the Savage Omega I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "I Am the Savage Delta, I Am the Savage Omega I"
         },
         {
             "description": "Complete Omega: Deltascape (Savage) 5 times.",
             "id": 1899,
-            "name": "I Am the Savage Delta, I Am the Savage Omega II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "I Am the Savage Delta, I Am the Savage Omega II"
         },
         {
             "description": "Complete Omega: Deltascape (Savage) 10 times.",
             "id": 1900,
-            "name": "I Am the Savage Delta, I Am the Savage Omega III",
-            "points": 20,
-            "patch": "4.01"
+            "name": "I Am the Savage Delta, I Am the Savage Omega III"
         },
         {
             "description": "Complete the Royal City of Rabanastre.",
             "id": 1992,
-            "name": "Zodiac Thriller",
-            "points": 5,
-            "patch": "4.1"
+            "name": "Zodiac Thriller"
         },
         {
             "reward": "The Legend",
             "description": "Defeat Bahamut Prime in the Unending Coil of Bahamut (Ultimate).",
             "id": 1993,
-            "name": "Resistance Is Futile",
-            "points": 10,
-            "patch": "4.11"
+            "name": "Resistance Is Futile"
         },
         {
             "description": "Complete Omega: Sigmascape.",
             "id": 2024,
-            "name": "I Am the Sigma, I Am the Omega I",
-            "points": 5,
-            "patch": "4.2"
+            "name": "I Am the Sigma, I Am the Omega I"
         },
         {
             "description": "Complete Omega: Sigmascape 5 times.",
             "id": 2025,
-            "name": "I Am the Sigma, I Am the Omega II",
-            "points": 10,
-            "patch": "4.2"
+            "name": "I Am the Sigma, I Am the Omega II"
         },
         {
             "description": "Complete Omega: Sigmascape 10 times.",
             "id": 2026,
-            "name": "I Am the Sigma, I Am the Omega III",
-            "points": 20,
-            "patch": "4.2"
+            "name": "I Am the Sigma, I Am the Omega III"
         },
         {
             "description": "Complete Omega: Sigmascape (Savage).",
             "id": 2027,
-            "name": "I Am the Savage Sigma, I Am the Savage Omega I",
-            "points": 5,
-            "patch": "4.2"
+            "name": "I Am the Savage Sigma, I Am the Savage Omega I"
         },
         {
             "description": "Complete Omega: Sigmascape (Savage) 5 times.",
             "id": 2028,
-            "name": "I Am the Savage Sigma, I Am the Savage Omega II",
-            "points": 10,
-            "patch": "4.2"
+            "name": "I Am the Savage Sigma, I Am the Savage Omega II"
         },
         {
             "description": "Complete Omega: Sigmascape (Savage) 10 times.",
             "id": 2029,
-            "name": "I Am the Savage Sigma, I Am the Savage Omega III",
-            "points": 20,
-            "patch": "4.2"
+            "name": "I Am the Savage Sigma, I Am the Savage Omega III"
         },
         {
             "description": "Complete the Ridorana Lighthouse.",
             "id": 2106,
-            "name": "Didn't Stop, Made It Pop",
-            "points": 5,
-            "patch": "4.3"
+            "name": "Didn't Stop, Made It Pop"
         },
         {
             "reward": "The Ultimate Legend",
             "description": "Defeat the Ultima Weapon in the Weapon's Refrain (Ultimate).",
             "id": 2107,
-            "name": "Ultimatum",
-            "points": 10,
-            "patch": "4.31"
+            "name": "Ultimatum"
         },
         {
             "description": "Complete Omega: Alphascape.",
             "id": 2118,
-            "name": "I Am the Alpha, I Am the Omega I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "I Am the Alpha, I Am the Omega I"
         },
         {
             "description": "Complete Omega: Alphascape 5 times.",
             "id": 2119,
-            "name": "I Am the Alpha, I Am the Omega II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "I Am the Alpha, I Am the Omega II"
         },
         {
             "description": "Complete Omega: Alphascape 10 times.",
             "id": 2120,
-            "name": "I Am the Alpha, I Am the Omega III",
-            "points": 20,
-            "patch": "4.4"
+            "name": "I Am the Alpha, I Am the Omega III"
         },
         {
             "description": "Complete Omega: Alphascape (Savage).",
             "id": 2121,
-            "name": "I Am the Savage Alpha, I Am the Savage Omega I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "I Am the Savage Alpha, I Am the Savage Omega I"
         },
         {
             "description": "Complete Omega: Alphascape (Savage) 5 times.",
             "id": 2122,
-            "name": "I Am the Savage Alpha, I Am the Savage Omega II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "I Am the Savage Alpha, I Am the Savage Omega II"
         },
         {
             "description": "Complete Omega: Alphascape (Savage) 10 times.",
             "id": 2123,
-            "name": "I Am the Savage Alpha, I Am the Savage Omega III",
-            "points": 20,
-            "patch": "4.4"
+            "name": "I Am the Savage Alpha, I Am the Savage Omega III"
         },
         {
             "description": "Complete the Orbonne Monastery.",
             "id": 2164,
-            "name": "Orbonne to Pick",
-            "points": 5,
-            "patch": "4.5"
+            "name": "Orbonne to Pick"
         },
         {
             "description": "Complete Eden's Gate.",
             "id": 2409,
-            "name": "Paradise Found I",
-            "points": 5,
-            "patch": "5.01"
+            "name": "Paradise Found I"
         },
         {
             "description": "Complete Eden's Gate 5 times.",
             "id": 2410,
-            "name": "Paradise Found II",
-            "points": 10,
-            "patch": "5.01"
+            "name": "Paradise Found II"
         },
         {
             "description": "Complete Eden's Gate 10 times.",
             "id": 2411,
-            "name": "Paradise Found III",
-            "points": 20,
-            "patch": "5.01"
+            "name": "Paradise Found III"
         },
         {
             "description": "Complete Eden's Gate (Savage).",
             "id": 2412,
-            "name": "Savage Paradise Found I",
-            "points": 5,
-            "patch": "5.05"
+            "name": "Savage Paradise Found I"
         },
         {
             "description": "Complete Eden's Gate (Savage) 5 times.",
             "id": 2413,
-            "name": "Savage Paradise Found II",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Savage Paradise Found II"
         },
         {
             "description": "Complete Eden's Gate (Savage) 10 times.",
             "id": 2414,
-            "name": "Savage Paradise Found III",
-            "points": 20,
-            "patch": "5.05"
+            "name": "Savage Paradise Found III"
         },
         {
             "description": "Complete the Copied Factory.",
             "id": 2443,
-            "name": "The First Law",
-            "points": 5,
-            "patch": "5.1"
+            "name": "The First Law"
         },
         {
             "reward": "The Perfect Legend",
             "description": "Defeat Perfect Alexander in the Epic of Alexander (Ultimate).",
             "id": 2444,
-            "name": "When I Ruled the World",
-            "points": 10,
-            "patch": "5.11"
+            "name": "When I Ruled the World"
         },
         {
             "description": "Complete Eden's Verse.",
             "id": 2591,
-            "name": "Trouble in Paradise I",
-            "points": 5,
-            "patch": "5.2"
+            "name": "Trouble in Paradise I"
         },
         {
             "description": "Complete Eden's Verse 5 times.",
             "id": 2592,
-            "name": "Trouble in Paradise II",
-            "points": 10,
-            "patch": "5.2"
+            "name": "Trouble in Paradise II"
         },
         {
             "description": "Complete Eden's Verse 10 times.",
             "id": 2593,
-            "name": "Trouble in Paradise III",
-            "points": 20,
-            "patch": "5.2"
+            "name": "Trouble in Paradise III"
         },
         {
             "description": "Complete Eden's Verse (Savage).",
             "id": 2594,
-            "name": "Savage Trouble in Paradise I",
-            "points": 5,
-            "patch": "5.2"
+            "name": "Savage Trouble in Paradise I"
         },
         {
             "description": "Complete Eden's Verse (Savage) 5 times.",
             "id": 2595,
-            "name": "Savage Trouble in Paradise II",
-            "points": 10,
-            "patch": "5.2"
+            "name": "Savage Trouble in Paradise II"
         },
         {
             "description": "Complete Eden's Verse (Savage) 10 times.",
             "id": 2596,
-            "name": "Savage Trouble in Paradise III",
-            "points": 20,
-            "patch": "5.2"
+            "name": "Savage Trouble in Paradise III"
         },
         {
             "id": 2622,
             "name": "Uncanny Valley",
-            "description": "Complete the Puppets' Bunker.",
-            "points": 5,
-            "patch": "5.3"
+            "description": "Complete the Puppets' Bunker."
         },
         {
             "id": 2719,
             "name": "Paradise Within Thee I",
-            "description": "Complete Eden's Promise.",
-            "points": 5,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise."
         },
         {
             "id": 2720,
             "name": "Paradise Within Thee II",
-            "description": "Complete Eden's Promise 5 times.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise 5 times."
         },
         {
             "id": 2721,
             "name": "Paradise Within Thee III",
-            "description": "Complete Eden's Promise 10 times.",
-            "points": 20,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise 10 times."
         },
         {
             "id": 2722,
             "name": "Savage Paradise Within Thee I",
-            "description": "Complete Eden's Promise (Savage).",
-            "points": 5,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise (Savage)."
         },
         {
             "id": 2723,
             "name": "Savage Paradise Within Thee II",
-            "description": "Complete Eden's Promise (Savage) 5 times.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise (Savage) 5 times."
         },
         {
             "id": 2724,
             "name": "Savage Paradise Within Thee III",
-            "description": "Complete Eden's Promise (Savage) 10 times.",
-            "points": 20,
-            "patch": "5.4"
+            "description": "Complete Eden's Promise (Savage) 10 times."
         },
         {
             "id": 2847,
             "name": "Deus et Machina",
-            "description": "Complete the Tower at Paradigm's Breach.",
-            "points": 5,
-            "patch": "5.5"
+            "description": "Complete the Tower at Paradigm's Breach."
         }
     ]
 }

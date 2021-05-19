@@ -1,205 +1,150 @@
 {
-    "key": "weaver",
     "groupName": "Weaver",
     "tasks": [
         {
             "description": "Successfully synthesize 50 times for level 1-10 clothcraft recipes.",
             "id": 167,
-            "name": "Threading the Needle: Amateur",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Threading the Needle: Amateur"
         },
         {
             "description": "Successfully synthesize 300 times for level 11-20 clothcraft recipes.",
             "id": 168,
-            "name": "Threading the Needle: Initiate",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Threading the Needle: Initiate"
         },
         {
             "description": "Successfully synthesize 750 times for level 21-30 clothcraft recipes.",
             "id": 169,
-            "name": "Threading the Needle: Apprentice",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Threading the Needle: Apprentice"
         },
         {
             "description": "Successfully synthesize 1,500 times for level 31-40 clothcraft recipes.",
             "id": 170,
-            "name": "Threading the Needle: Journeyman",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Threading the Needle: Journeyman"
         },
         {
             "reward": "Of the Golden Needle",
             "description": "Successfully synthesize 3,000 times for level 41-50 clothcraft recipes.",
             "id": 171,
-            "name": "Threading the Needle: Artisan",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Threading the Needle: Artisan"
         },
         {
             "reward": "Needle of the Luminary",
             "description": "Obtain the first five “Threading the Needle” achievements.",
             "id": 172,
-            "name": "A Weaver's Life for Me",
-            "points": 30,
-            "patch": "2.0"
+            "name": "A Weaver's Life for Me"
         },
         {
             "description": "Successfully synthesize 1,000 times for level 51-60 clothcraft recipes.",
             "id": 1306,
-            "name": "Threading the Needle: Adept",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Threading the Needle: Adept"
         },
         {
             "description": "Successfully synthesize 1,000 times for level 61-70 clothcraft recipes.",
             "id": 1853,
-            "name": "Threading the Needle: Veteran",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Threading the Needle: Veteran"
         },
         {
             "description": "Successfully synthesize 1,000 times for level 71-80 clothcraft recipes.",
             "id": 2285,
-            "name": "Threading the Needle: Master",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Threading the Needle: Master"
         },
         {
             "description": "Craft and record completion of 60 unique weaver recipes.",
             "id": 710,
-            "name": "I Made That: Weaver I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "I Made That: Weaver I"
         },
         {
             "description": "Craft and record completion of 120 unique weaver recipes.",
             "id": 711,
-            "name": "I Made That: Weaver II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "I Made That: Weaver II"
         },
         {
             "reward": "Master Weaver's Ring",
             "description": "Craft and record completion of 250 unique weaver recipes.",
             "id": 712,
-            "name": "I Made That: Weaver III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "I Made That: Weaver III"
         },
         {
             "description": "Craft and record completion of 350 unique weaver recipes.",
             "id": 1283,
-            "name": "I Made That: Weaver IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "I Made That: Weaver IV"
         },
         {
             "reward": "Blessed Boltkeep's Needle",
             "description": "Craft and record completion of 470 unique weaver recipes.",
             "id": 1726,
-            "name": "I Made That: Weaver V",
-            "points": 10,
-            "patch": "3.5"
+            "name": "I Made That: Weaver V"
         },
         {
             "reward": "Blessed Boltking's Needle",
             "description": "Craft and record completion of 590 unique weaver recipes.",
             "id": 2171,
-            "name": "I Made That: Weaver VI",
-            "points": 10,
-            "patch": "4.5"
+            "name": "I Made That: Weaver VI"
         },
         {
             "description": "Craft 100 high-quality items as a weaver.",
             "id": 765,
-            "name": "An Eye for Detail: Weaver I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "An Eye for Detail: Weaver I"
         },
         {
             "description": "Craft 500 high-quality items as a weaver.",
             "id": 766,
-            "name": "An Eye for Detail: Weaver II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "An Eye for Detail: Weaver II"
         },
         {
             "description": "Craft 3,000 high-quality items as a weaver.",
             "id": 767,
-            "name": "An Eye for Detail: Weaver III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "An Eye for Detail: Weaver III"
         },
         {
             "description": "Craft 5,000 high-quality items as a weaver.",
             "id": 1318,
-            "name": "An Eye for Detail: Weaver IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "An Eye for Detail: Weaver IV"
         },
         {
             "reward": "Master Weaver",
             "description": "Craft 10,000 high-quality items as a weaver.",
             "id": 1326,
-            "name": "An Eye for Detail: Weaver V",
-            "points": 10,
-            "patch": "3.0"
+            "name": "An Eye for Detail: Weaver V"
         },
         {
             "description": "Earn 50,000 points toward your skyward score as a weaver.",
             "id": 2504,
-            "name": "Skyward Needle I",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Skyward Needle I"
         },
         {
             "description": "Earn 150,000 points toward your skyward score as a weaver.",
             "id": 2505,
-            "name": "Skyward Needle II",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Skyward Needle II"
         },
         {
             "reward": "Weave of the Firmament",
             "description": "Earn 500,000 points toward your skyward score as a weaver.",
             "id": 2506,
-            "name": "Skyward Needle III",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Skyward Needle III"
         },
         {
             "reward": "The Nest's Own Weaver",
             "description": "As a weaver, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "id": 2532,
-            "name": "The Height of Clothcraft",
-            "points": 10,
-            "patch": "5.21"
+            "name": "The Height of Clothcraft"
         },
         {
             "id": 2653,
             "name": "Weavers of a Feather",
             "description": "As a weaver, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
-            "points": 10,
-            "reward": "Featherfall's Finest Weaver",
-            "patch": "5.31"
+            "reward": "Featherfall's Finest Weaver"
         },
         {
             "name": "An Ode to Clothcraft",
             "description": "As a weaver, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
-            "points": 10,
             "reward": "The Risensung Weaver",
-            "id": 2812,
-            "patch": "5.41"
+            "id": 2812
         },
         {
             "id": 2825,
             "name": "Retooled: Resplendent Boltfiend's Needle",
-            "description": "Obtain a resplendent boltfiend's needle.",
-            "points": 10,
-            "patch": "5.5"
+            "description": "Obtain a resplendent boltfiend's needle."
         }
     ]
 }

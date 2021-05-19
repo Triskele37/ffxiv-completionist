@@ -1,5 +1,4 @@
 {
-    "key": "classes--jobs",
     "groupName": "Classes & Jobs",
     "headers": {
         "name": "Job / Class",
@@ -12,262 +11,175 @@
             "id": 0,
             "name": "Paladin / Gladiateur",
             "role": "Tank",
-            "startingQuest": "Le serment du paladin - Lulutsu - Ul'dah - Faubourg de Thal / La voie de l'épée - Lulutsu - Ul'dah - Faubourg de Thal",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Le serment du paladin - Lulutsu - Ul'dah - Faubourg de Thal / La voie de l'épée - Lulutsu - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 1,
             "name": "Guerrier / Maraudeur",
             "role": "Tank",
-            "startingQuest": "L'art de la guerre - Wyrnzoen - Limsa Lominsa - Le Tillac / La voie de la hache - Blauthota - Limsa Lominsa - Le Tillac",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "L'art de la guerre - Wyrnzoen - Limsa Lominsa - Le Tillac / La voie de la hache - Blauthota - Limsa Lominsa - Le Tillac"
         },
         {
             "id": 2,
             "name": "Chevalier noir",
             "role": "Tank",
-            "startingQuest": "Un cadavre tout Fray - Citoyen ishgardais - Ishgard - Les Contreforts",
-            "patch": "3.0",
-            "minValue": 30,
-            "maxValue": 80
+            "startingQuest": "Un cadavre tout Fray - Citoyen ishgardais - Ishgard - Les Contreforts"
         },
         {
             "id": 3,
             "name": "Pistosabreur",
             "role": "Tank",
-            "startingQuest": "Le dernier des pistosabreurs - Soldat hardi des flèches divines - Nouvelle Gridania",
-            "patch": "5.0",
-            "minValue": 60,
-            "maxValue": 80
+            "startingQuest": "Le dernier des pistosabreurs - Soldat hardi des flèches divines - Nouvelle Gridania"
         },
         {
             "id": 4,
             "name": "Mage blanc / Élémentaliste",
             "role": "Soigneur",
-            "startingQuest": "L'héritage d'un grand homme - E-Sumi-Yan - Vieille Gridania / La voie de l'élémentaliste - Madelle - Vieille Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "L'héritage d'un grand homme - E-Sumi-Yan - Vieille Gridania / La voie de l'élémentaliste - Madelle - Vieille Gridania"
         },
         {
             "id": 5,
             "name": "Érudit / Arcaniste",
             "role": "Soigneur",
-            "startingQuest": "Le maraudeur intellectuel - Murie - Limsa Lominsa - L'Entrepont",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Le maraudeur intellectuel - Murie - Limsa Lominsa - L'Entrepont"
         },
         {
             "id": 6,
             "name": "Astromancien",
             "role": "Soigneur",
-            "startingQuest": "L'arbre des étoiles - Jannequinard - Ishgard - Les Contreforts",
-            "patch": "3.0",
-            "minValue": 30,
-            "maxValue": 80
+            "startingQuest": "L'arbre des étoiles - Jannequinard - Ishgard - Les Contreforts"
         },
         {
             "id": 7,
             "name": "Moine / Pugiliste",
             "role": "DPS de mêlée",
-            "startingQuest": "Le moine errant - Gagaruna - Ul'dah - Faubourg de Nald / La voie du pugilat - Gagaruna - Ul'dah - Faubourg de Nald",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Le moine errant - Gagaruna - Ul'dah - Faubourg de Nald / La voie du pugilat - Gagaruna - Ul'dah - Faubourg de Nald"
         },
         {
             "id": 8,
             "name": "Chevalier dragon / Maître d'hast",
             "role": "DPS de mêlée",
-            "startingQuest": "L'Œil du dragon - Ywain - Vieille Gridania / La voie de l'hast - Jillian - Vieille Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "L'Œil du dragon - Ywain - Vieille Gridania / La voie de l'hast - Jillian - Vieille Gridania"
         },
         {
             "id": 9,
             "name": "Ninja / Surineur",
             "role": "DPS de mêlée",
-            "startingQuest": "Les visiteurs de l'ombre - Jacke - Limsa Lominsa - L'Entrepont / Les guerriers de l'ombre - Lonwoerd - Limsa Lominsa - L'Entrepont'",
-            "patch": "2.4",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Les visiteurs de l'ombre - Jacke - Limsa Lominsa - L'Entrepont / Les guerriers de l'ombre - Lonwoerd - Limsa Lominsa - L'Entrepont'"
         },
         {
             "id": 10,
             "name": "Samouraï",
             "role": "DPS de mêlée",
-            "startingQuest": "La voie du samouraï - Uldien surexcité - Ul'dah - Faubourg de Nald",
-            "patch": "4.0",
-            "minValue": 50,
-            "maxValue": 80
+            "startingQuest": "La voie du samouraï - Uldien surexcité - Ul'dah - Faubourg de Nald"
         },
         {
             "id": 11,
             "name": "Barde / Archer",
             "role": "DPS physique à distance",
-            "startingQuest": "Quand les cordes résonnent à l'unisson - Luciane - Nouvelle Gridania / La voie de l'archerie - Athelyna - Nouvelle Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Quand les cordes résonnent à l'unisson - Luciane - Nouvelle Gridania / La voie de l'archerie - Athelyna - Nouvelle Gridania"
         },
         {
             "id": 12,
             "name": "Machiniste",
             "role": "DPS physique à distance",
-            "startingQuest": "Instructeur introuvable - Stephanivien - Ishgard - L'Assise",
-            "patch": "3.0",
-            "minValue": 30,
-            "maxValue": 80
+            "startingQuest": "Instructeur introuvable - Stephanivien - Ishgard - L'Assise"
         },
         {
             "id": 13,
             "name": "Danseur",
             "role": "DPS physique à distance",
-            "startingQuest": "Entrez dans la danse ! - Marin exalté - Limsa Lominsa - L'Entrepont",
-            "patch": "5.0",
-            "minValue": 60,
-            "maxValue": 80
+            "startingQuest": "Entrez dans la danse ! - Marin exalté - Limsa Lominsa - L'Entrepont"
         },
         {
             "id": 14,
             "name": "Mage noir / Occultiste",
             "role": "DPS magique à distance",
-            "startingQuest": "La voix des Marchands - Yayake - Ul'dah - Faubourg de Nald / La voie de l'occultisme - Yayake - Ul'dah - Faubourg de Nald",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voix des Marchands - Yayake - Ul'dah - Faubourg de Nald / La voie de l'occultisme - Yayake - Ul'dah - Faubourg de Nald"
         },
         {
             "id": 15,
             "name": "Invocateur / Arcaniste",
             "role": "DPS magique à distance",
-            "startingQuest": "Le baptême du feu - Thubyrgeim - Limsa Lominsa - L'Entrepont / La voie de l'arcanisme - Murie - Limsa Lominsa - L'Entrepont",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "Le baptême du feu - Thubyrgeim - Limsa Lominsa - L'Entrepont / La voie de l'arcanisme - Murie - Limsa Lominsa - L'Entrepont"
         },
         {
             "id": 16,
             "name": "Mage rouge",
             "role": "DPS magique à distance",
-            "startingQuest": "Le vagabond rouge - Fillette aux yeux humides - Ul'dah - Faubourg de Thal",
-            "patch": "4.0",
-            "minValue": 50,
-            "maxValue": 80
+            "startingQuest": "Le vagabond rouge - Fillette aux yeux humides - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 17,
             "name": "Mage bleu",
             "role": "DPS magique à distance",
-            "startingQuest": "Escroc, mais pas trop - Sentinelle incorruptible - Limsa Lominsa - L'Entrepont",
-            "patch": "4.5",
-            "minValue": 0,
-            "maxValue": 70
+            "startingQuest": "Escroc, mais pas trop - Sentinelle incorruptible - Limsa Lominsa - L'Entrepont"
         },
         {
             "id": 18,
             "name": "Menuisier",
             "role": "Artisan",
-            "startingQuest": "La voie de la menuiserie - Corgg - Nouvelle Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la menuiserie - Corgg - Nouvelle Gridania"
         },
         {
             "id": 19,
             "name": "Forgeron",
             "role": "Artisan",
-            "startingQuest": "La voie de la forge - Randwulf - Limsa Lominsa - Le Tillac",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la forge - Randwulf - Limsa Lominsa - Le Tillac"
         },
         {
             "id": 20,
             "name": "Armurier",
             "role": "Artisan",
-            "startingQuest": "La voie des plaques de métal - G'wahnako - Limsa Lominsa - Le Tillac",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie des plaques de métal - G'wahnako - Limsa Lominsa - Le Tillac"
         },
         {
             "id": 21,
             "name": "Orfèvre",
             "role": "Artisan",
-            "startingQuest": "La voie de l'orfèvrerie - Jemime - Ul'dah - Faubourg de Thal",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de l'orfèvrerie - Jemime - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 22,
             "name": "Tanneur",
             "role": "Artisan",
-            "startingQuest": "La voie de la tannerie - Randall - Vieille Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la tannerie - Randall - Vieille Gridania"
         },
         {
             "id": 23,
             "name": "Couturier",
             "role": "Artisan",
-            "startingQuest": "La voie de la couture - Maronne - Ul'dah - Faubourg de Thal",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la couture - Maronne - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 24,
             "name": "Alchimiste",
             "role": "Artisan",
-            "startingQuest": "La voie de l'alchimie - Deitrich - Ul'dah - Faubourg de Thal",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de l'alchimie - Deitrich - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 25,
             "name": "Cuisinier",
             "role": "Artisan",
-            "startingQuest": "La voie de la cuisine - Charlys - Limsa Lominsa - Le Tillac",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la cuisine - Charlys - Limsa Lominsa - Le Tillac"
         },
         {
             "id": 26,
             "name": "Mineur",
             "role": "Récolteur",
-            "startingQuest": "La voie de l'extraction minière - Linette - Ul'dah - Faubourg de Thal",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de l'extraction minière - Linette - Ul'dah - Faubourg de Thal"
         },
         {
             "id": 27,
             "name": "Botaniste",
             "role": "Récolteur",
-            "startingQuest": "La voie de la botanique - Leonceault - Vieille Gridania",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la botanique - Leonceault - Vieille Gridania"
         },
         {
             "id": 28,
             "name": "Pêcheur",
             "role": "Récolteur",
-            "startingQuest": "La voie de la pêche - N'nmulika - Limsa Lominsa - L'Entrepont",
-            "patch": "2.0",
-            "minValue": 0,
-            "maxValue": 80
+            "startingQuest": "La voie de la pêche - N'nmulika - Limsa Lominsa - L'Entrepont"
         }
     ]
 }

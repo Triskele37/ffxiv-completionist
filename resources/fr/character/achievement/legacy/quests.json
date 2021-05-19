@@ -1,1139 +1,862 @@
 {
-    "key": "quests",
     "groupName": "Quests",
     "tasks": [
         {
             "description": "Accomplir 15 quêtes annexes de la Noscea.",
             "id": 319,
             "name": "Détours dans la Noscea",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir 15 quêtes annexes de la forêt de Sombrelinceul.",
             "id": 320,
             "name": "Détours dans Sombrelinceul",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir 15 quêtes annexes du Thanalan.",
             "id": 321,
             "name": "Détours dans le Thanalan",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "La Main tendue",
             "description": "Accomplir les trois hauts faits de la série “Détours dans...”.",
             "id": 322,
             "name": "Collection de digressions",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 mandats de faction.",
             "id": 337,
             "name": "Faction discrète I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 50 mandats de faction.",
             "id": 338,
             "name": "Faction discrète II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Gardien de la paix / Gardienne de la paix",
             "description": "Accomplir un total de 100 mandats de faction.",
             "id": 339,
             "name": "Haut factionnaire",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 500 mandats de faction.",
             "id": 340,
             "name": "Une faction de seconde",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un mandat de mercenariat à chaque éthérite et portail d'éthérite de la Noscea, de la forêt de Sombrelinceul et du Thanalan.",
             "id": 348,
             "name": "Cumul des mandats",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de Roc barbu.",
             "id": 349,
             "name": "Héros régional : Roc barbu",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat à La Cédrière.",
             "id": 350,
             "name": "Héros régional : La Cédrière",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de la vallée du Crâne.",
             "id": 351,
             "name": "Héros régional : Vallée du Crâne",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de la Butte chauve.",
             "id": 352,
             "name": "Héros régional : Butte chauve",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp des Rives sanglantes.",
             "id": 353,
             "name": "Héros régional : Rives sanglantes",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat à la Caverne des Néréides.",
             "id": 354,
             "name": "Héros régional : Caverne des Néréides",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp du lac de Fer.",
             "id": 355,
             "name": "Héros régional : Lac de Fer",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Lame de la prairie",
             "description": "Accomplir un total de 20 mandats de mercenariat à chaque éthérite et portail d'éthérite de la Noscea.",
             "id": 356,
             "name": "La lame de la Noscea",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de Brancharquée.",
             "id": 357,
             "name": "Héros régional : Brancharquée",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au Humblefoyer.",
             "id": 358,
             "name": "Héros régional : Humblefoyer",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp des Neuf Lierres.",
             "id": 359,
             "name": "Héros régional : Neuf Lierres",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de Moussémeraude.",
             "id": 360,
             "name": "Héros régional : Moussémeraude",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat à la futaie des Murmures.",
             "id": 361,
             "name": "Héros régional : Futaie des Murmures",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat aux Caves de Mun-Tuy.",
             "id": 362,
             "name": "Héros régional : Caves de Mun-Tuy",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp des Sentes tranquilles.",
             "id": 363,
             "name": "Héros régional : des Sentes tranquilles",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Lame de la forêt",
             "description": "Accomplir un total de 20 mandats de mercenariat à chaque éthérite et portail d'éthérite de la forêt de Sombrelinceul.",
             "id": 364,
             "name": "La lame de Sombrelinceul",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de Roncenoire.",
             "id": 365,
             "name": "Héros régional : Roncenoire",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat aux Mines de Nanawa.",
             "id": 366,
             "name": "Héros régional : Mines de Nanawa",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp des Os desséchés.",
             "id": 367,
             "name": "Héros régional : Os desséchés",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat à Halatali.",
             "id": 368,
             "name": "Héros régional : Halatali",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp Horizon.",
             "id": 369,
             "name": "Héros régional : Horizon",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat aux sources de Nophica.",
             "id": 370,
             "name": "Héros régional : Sources de Nophica",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 20 mandats de mercenariat au camp de l'Écueil.",
             "id": 371,
             "name": "Héros régional : L'Écueil",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Lame du désert",
             "description": "Accomplir un total de 20 mandats de mercenariat à chaque éthérite et portail d'éthérite du Thanalan.",
             "id": 372,
             "name": "La lame du Thanalan",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Lame d'Éorzéa",
             "description": "Accomplir les trois hauts faits de la série “La lame”.",
             "id": 373,
             "name": "La lame des trois Cités",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir une opération de guilde à chaque éthérite et portail d'éthérite de la Noscea, de la forêt de Sombrelinceul et du Thanalan.",
             "id": 374,
             "name": "Régionaliste national",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de Roc barbu.",
             "id": 375,
             "name": "Casus belli : Roc barbu",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando à La Cédrière.",
             "id": 376,
             "name": "Casus belli : La Cédrière",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de la vallée du Crâne.",
             "id": 377,
             "name": "Casus belli : La Vallée du Crâne",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de la Butte chauve.",
             "id": 378,
             "name": "Casus belli : La Butte chauve",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp des Rives sanglantes.",
             "id": 379,
             "name": "Casus belli : Rives sanglantes",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando à la Caverne des Néréides.",
             "id": 380,
             "name": "Casus belli : La Caverne des Néréides",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp du lac de Fer.",
             "id": 381,
             "name": "Casus belli : Lac de Fer",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bouclier de la prairie",
             "description": "Accomplir un total de 10 opérations commando à chaque éthérite et portail d'éthérite de la Noscea.",
             "id": 382,
             "name": "Le bouclier de la Noscea",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de Brancharquée.",
             "id": 383,
             "name": "Casus belli : Brancharquée",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au Humblefoyer.",
             "id": 384,
             "name": "Casus belli : Humblefoyer",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp des Neuf Lierres.",
             "id": 385,
             "name": "Casus belli : Neuf Lierres",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de Moussémeraude.",
             "id": 386,
             "name": "Casus belli : Moussémeraude",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando à la futaie des Murmures.",
             "id": 387,
             "name": "Casus belli : Futaie des Murmures",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando aux Caves de Mun-Tuy.",
             "id": 388,
             "name": "Casus belli : Caves de Mun-Tuy",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp des Sentes tranquilles.",
             "id": 389,
             "name": "Casus belli : Sentes tranquilles",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bouclier de la forêt",
             "description": "Accomplir un total de 10 opérations commando à chaque éthérite et portail d'éthérite de la forêt de Sombrelinceul.",
             "id": 390,
             "name": "Le bouclier de Sombrelinceul",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de Roncenoire.",
             "id": 391,
             "name": "Casus belli : Roncenoire",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando aux Mines de Nanawa.",
             "id": 392,
             "name": "Casus belli : Mines de Nanawa",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp des Os desséchés.",
             "id": 393,
             "name": "Casus belli : Os desséchés",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando à Halatali.",
             "id": 394,
             "name": "Casus belli : Halatali",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp Horizon.",
             "id": 395,
             "name": "Casus belli : Horizon",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando aux sources de Nophica.",
             "id": 396,
             "name": "Casus belli : Sources de Nophica",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 opérations commando au camp de l'Écueil.",
             "id": 397,
             "name": "Casus belli : L'Ecueil",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bouclier du désert",
             "description": "Accomplir un total de 10 opérations commando à chaque éthérite et portail d'éthérite du Thanalan.",
             "id": 398,
             "name": "Le bouclier du Thanalan",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bouclier d'éorzéa / Bouclier d'Éorzéa",
             "description": "Accomplir les trois hauts faits de la série “Le bouclier”.",
             "id": 399,
             "name": "Le bouclier des trois Cités",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 mandats de faction commandités par la Phratrie des lames cassées.",
             "id": 400,
             "name": "Nouvelle recrue des lames cassées",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Frère des lames cassées / Sœur des lames cassées",
             "description": "Accomplir un total de 50 mandats de faction commandités par la Phratrie des lames cassées.",
             "id": 401,
             "name": "Vétéran des lames cassées",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 mandats de faction commandités par les Boucliers d'Azeyma.",
             "id": 402,
             "name": "Nouvelle recrue des Boucliers d'Azeyma",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Bouclier d'azeyma / Bouclier d'Azeyma",
             "description": "Accomplir un total de 50 mandats de faction commandités par les Boucliers d'Azeyma.",
             "id": 403,
             "name": "Vétéran des Boucliers d'Azeyma",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir un total de 10 mandats de faction commandités par l'association de la Corne et la Main.",
             "id": 404,
             "name": "Nouvelle recrue de la Corne et la Main",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Associé de la corne et la main / Associée de la corne et la main",
             "description": "Accomplir un total de 50 mandats de faction commandités par l'association de la Corne et la Main.",
             "id": 405,
             "name": "Vétéran de la Corne et la Main",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Agent triple",
             "description": "Accomplir les hauts faits de la série “Vétéran” de chacune des trois factions.",
             "id": 406,
             "name": "A tous les râteliers",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Accomplir la quête “Le pèlerinage”.",
             "id": 415,
             "name": "Décrocher la lune",
-            "Order": 0,
-            "points": 20,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Inquisiteur du 11e ordre / Inquisitrice du 11e ordre",
             "description": "Vaincre Gu Bu patriarche du 11e ordre au cours d'une bataille de défense de Port-aux-Ales.",
             "id": 416,
             "name": "Repose en paix Gu Bu",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Iconoclaste du divin",
             "description": "Vaincre Sazel Ciloc le divin au cours d'une bataille de défense du Moulin des Bois.",
             "id": 417,
             "name": "Repose en paix Sazel Ciloc",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Briseur de roche / Briseuse de roche",
             "description": "Vaincre Tanadd Gah le brise-pierre au cours d'une bataille de défense du Bazar doré.",
             "id": 418,
             "name": "Repose en paix Tanadd Gah",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec un score total d'au moins 10 000 points.",
             "id": 419,
             "name": "Pas touche à la bière I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec un score total d'au moins 20 000 points.",
             "id": 420,
             "name": "Pas touche à la bière II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec un score total d'au moins 30 000 points.",
             "id": 421,
             "name": "Pas touche à la bière III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec un score total d'au moins 40 000 points.",
             "id": 422,
             "name": "Pas touche à la bière IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Cauchemar des Kobolds",
             "description": "Remporter une bataille de défense de Port-aux-Ales avec un score total d'au moins 50 000 points.",
             "id": 423,
             "name": "Ils ne passeront pas ! (Port-aux-Ales)",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec un score total d'au moins 10 000 points.",
             "id": 424,
             "name": "Pas touche aux arbres I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec un score total d'au moins 20 000 points.",
             "id": 425,
             "name": "Pas touche aux arbres II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec un score total d'au moins 30 000 points.",
             "id": 426,
             "name": "Pas touche aux arbres III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec un score total d'au moins 40 000 points.",
             "id": 427,
             "name": "Pas touche aux arbres IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Cauchemar des Ixali",
             "description": "Remporter une bataille de défense du Moulin des Bois avec un score total d'au moins 50 000 points.",
             "id": 428,
             "name": "Ils ne passeront pas ! (Moulin des Bois)",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec un score total d'au moins 10 000 points.",
             "id": 429,
             "name": "Pas touche à l'or I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec un score total d'au moins 20 000 points.",
             "id": 430,
             "name": "Pas touche à l'or II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec un score total d'au moins 30 000 points.",
             "id": 431,
             "name": "Pas touche à l'or III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec un score total d'au moins 40 000 points.",
             "id": 432,
             "name": "Pas touche à l'or IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Cauchemar des Amalj'aa",
             "description": "Remporter une bataille de défense du Bazar doré avec un score total d'au moins 50 000 points.",
             "id": 433,
             "name": "Ils ne passeront pas ! (Bazar doré)",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 5 batailles de défense de Port-aux-Ales.",
             "id": 434,
             "name": "Défenseur insatiable de Port-aux-Ales I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 10 batailles de défense de Port-aux-Ales.",
             "id": 435,
             "name": "Défenseur insatiable de Port-aux-Ales II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 50 batailles de défense de Port-aux-Ales.",
             "id": 436,
             "name": "Défenseur insatiable  de Port-aux-Ales III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 100 batailles de défense de Port-aux-Ales.",
             "id": 437,
             "name": "Défenseur insatiable de Port-aux-Ales IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Défenseur de Port-aux-Ales",
             "description": "Remporter un total de 1 000 batailles de défense de Port-aux-Ales.",
             "id": 438,
             "name": "Ennemi juré des Kobolds",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 5 batailles de défense du Moulin des Bois.",
             "id": 439,
             "name": "Défenseur insatiable du Moulin des Bois I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 10 batailles de défense du Moulin des Bois.",
             "id": 440,
             "name": "Défenseur insatiable du Moulin des Bois II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 50 batailles de défense du Moulin des Bois.",
             "id": 441,
             "name": "Défenseur insatiable du Moulin des Bois III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 100 batailles de défense du Moulin des Bois.",
             "id": 442,
             "name": "Défenseur insatiable du Moulin des Bois IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Défenseur du Moulin des Bois",
             "description": "Remporter un total de 1 000 batailles de défense du Moulin des bois.",
             "id": 443,
             "name": "Ennemi juré des Ixali",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 5 batailles de défense du Bazar doré.",
             "id": 444,
             "name": "Défenseur insatiable du Bazar Doré I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 10 batailles de défense du Bazar doré.",
             "id": 445,
             "name": "Défenseur insatiable du Bazar Doré II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 50 batailles de défense du Bazar doré.",
             "id": 446,
             "name": "Défenseur insatiable du Bazar Doré III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter un total de 100 batailles de défense du Bazar doré.",
             "id": 447,
             "name": "Défenseur insatiable du Bazar Doré IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Défenseur du Bazar doré",
             "description": "Remporter un total de 1 000 batailles de défense du Bazar doré.",
             "id": 448,
             "name": "Ennemi juré des Amalj'aa",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets désignés à la milice en stationnement à Port-aux-Ales.",
             "id": 449,
             "name": "Approvisionneur accompli de Port-aux-Ales I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets désignés à la milice en stationnement à Port-aux-Ales.",
             "id": 450,
             "name": "Approvisionneur accompli de Port-aux-Ales II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets désignés à la milice en stationnement à Port-aux-Ales.",
             "id": 451,
             "name": "Approvisionneur accompli de Port-aux-Ales III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets désignés à la milice en stationnement à Port-aux-Ales.",
             "id": 452,
             "name": "Approvisionneur accompli de Port-aux-Ales IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Pourvoyeur de Port-aux-Ales / Pourvoyeuse de Port-aux-Ales",
             "description": "Effectuer un total de 10 000 livraisons d'objets désignés à la milice en stationnement à Port-aux-Ales.",
             "id": 453,
             "name": "Approvisionneur d'honneur de Port-aux-Ales",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets désignés à la milice en stationnement au Moulin des Bois.",
             "id": 454,
             "name": "Approvisionneur accompli du Moulin des bois I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets désignés à la milice en stationnement au Moulin des Bois.",
             "id": 455,
             "name": "Approvisionneur accompli du Moulin des Bois II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets désignés à la milice en stationnement au Moulin des Bois.",
             "id": 456,
             "name": "Approvisionneur accompli du Moulin des Bois III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets désignés à la milice en stationnement au Moulin des Bois.",
             "id": 457,
             "name": "Approvisionneur accompli du Moulin des Bois IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Pourvoyeur du Moulin des Bois / Pourvoyeuse du Moulin des Bois",
             "description": "Effectuer un total de 10 000 livraisons d'objets désignés à la milice en stationnement au Moulin des Bois.",
             "id": 458,
             "name": "Approvisionneur d'honneur du Moulin des Bois",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets désignés à la milice en stationnement au Bazar doré.",
             "id": 459,
             "name": "Approvisionneur accompli du Bazar Doré I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets désignés à la milice en stationnement au Bazar doré.",
             "id": 460,
             "name": "Approvisionneur accompli du Bazar Doré II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets désignés à la milice en stationnement au Bazar doré.",
             "id": 461,
             "name": "Approvisionneur accompli du Bazar Doré III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets désignés à la milice en stationnement au Bazar doré.",
             "id": 462,
             "name": "Approvisionneur accompli du Bazar Doré IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Pourvoyeur du Bazar doré / Pourvoyeuse du Bazar doré",
             "description": "Effectuer un total de 10 000 livraisons d'objets désignés à la milice en stationnement au Bazar doré.",
             "id": 463,
             "name": "Approvisionneur d'honneur du Bazar Doré",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets sertis à la milice en stationnement à Port-aux-Ales.",
             "id": 464,
             "name": "Sertisseur serviable de Port-aux-Ales I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets sertis à la milice en stationnement à Port-aux-Ales.",
             "id": 465,
             "name": "Sertisseur serviable de Port-aux-Ales II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets sertis à la milice en stationnement à Port-aux-Ales.",
             "id": 466,
             "name": "Sertisseur serviable de Port-aux-Ales III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets sertis à la milice en stationnement à Port-aux-Ales.",
             "id": 467,
             "name": "Sertisseur serviable de Port-aux-Ales IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Sertisseur de Port-aux-Ales / Sertisseuse de Port-aux-Ales",
             "description": "Effectuer un total de 10 000 livraisons d'objets sertis à la milice en stationnement à Port-aux-Ales.",
             "id": 468,
             "name": "Sertisseur officiel de Port-aux-Ales",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets sertis à la milice en stationnement au Moulin des Bois.",
             "id": 469,
             "name": "Sertisseur serviable du Moulin des Bois I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets sertis à la milice en stationnement au Moulin des Bois.",
             "id": 470,
             "name": "Sertisseur serviable du Moulin des Bois II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets sertis à la milice en stationnement au Moulin des Bois.",
             "id": 471,
             "name": "Sertisseur serviable du Moulin des Bois III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets sertis à la milice en stationnement au Moulin des Bois.",
             "id": 472,
             "name": "Sertisseur serviable du Moulin des Bois IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Sertisseur du Moulin des Bois / Sertisseuse du Moulin des Bois",
             "description": "Effectuer un total de 10 000 livraisons d'objets sertis à la milice en stationnement au Moulin des Bois.",
             "id": 473,
             "name": "Sertisseur officiel du Moulin des Bois",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 10 livraisons d'objets sertis à la milice en stationnement au Bazar doré.",
             "id": 474,
             "name": "Sertisseur serviable du Bazar doré I",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 100 livraisons d'objets sertis à la milice en stationnement au Bazar doré.",
             "id": 475,
             "name": "Sertisseur serviable du Bazar doré II",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 500 livraisons d'objets sertis à la milice en stationnement au Bazar doré.",
             "id": 476,
             "name": "Sertisseur serviable du Bazar doré III",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Effectuer un total de 1 000 livraisons d'objets sertis à la milice en stationnement au Bazar doré.",
             "id": 477,
             "name": "Sertisseur serviable du Bazar doré IV",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "reward": "Sertisseur du Bazar doré / Sertisseuse du Bazar doré",
             "description": "Effectuer un total de 10 000 livraisons d'objets sertis à la milice en stationnement au Bazar doré.",
             "id": 478,
             "name": "Sertisseur officiel du Bazar doré",
-            "Order": 0,
-            "points": 10,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec une équipe composée uniquement de disciples de la guerre et de la magie.",
             "id": 479,
             "name": "Tout en force (Port-aux-Ales)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec une équipe composée uniquement de disciples de la guerre et de la magie.",
             "id": 480,
             "name": "Tout en force (Moulin des Bois)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec une équipe composée uniquement de disciples de la guerre et de la magie.",
             "id": 481,
             "name": "Tout en force (Bazar doré)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense de Port-aux-Ales avec une équipe composée uniquement de disciples de la terre et de la main.",
             "id": 482,
             "name": "Tout en finesse (Port-aux-Ales)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Moulin des Bois avec une équipe composée uniquement de disciples de la terre et de la main.",
             "id": 483,
             "name": "Tout en finesse (Moulin des Bois)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense du Bazar doré avec une équipe composée uniquement de disciples de la terre et de la main.",
             "id": 484,
             "name": "Tout en finesse (Bazar doré)",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         },
         {
             "description": "Remporter une bataille de défense dans les hameaux de Port-aux-Ales, du Moulin des Bois, et du Bazar doré.",
             "id": 485,
             "name": "Défenseur des hameaux",
-            "Order": 0,
-            "points": 5,
-            "patch": "2.0"
+            "Order": 0
         }
     ]
 }

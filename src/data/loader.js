@@ -13,18 +13,19 @@ export const loadJson = function(path, lang) {
         commonPrefix = `./resources/common`;
     }
 
-    const langJson = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`).toString());
+    let langJson = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`).toString());
 
     if(fs.existsSync(`${commonPrefix}/${path}.json`)) {
-        const commonJson = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`).toString());
+        const { tasks: commonTasks, ...other } = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`).toString());
+        langJson = { ...other, ...langJson };
 
-        if(commonJson.tasks) {
-            for(let i = 0; i < commonJson.tasks.length; i++) {
+        if(commonTasks) {
+            for(let i = 0; i < commonTasks.length; i++) {
                 for(let j = 0; j < langJson.tasks.length; j++) {
-                    if(langJson.tasks[j].id === commonJson.tasks[i].id) {
+                    if(langJson.tasks[j].id === commonTasks[i].id) {
                         langJson.tasks[j] = {
                             ...langJson.tasks[j],
-                            ...commonJson.tasks[i]
+                            ...commonTasks[i]
                         };
                     }
                 }

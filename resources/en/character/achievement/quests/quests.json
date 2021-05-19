@@ -1,1432 +1,1059 @@
 {
-    "key": "quests",
     "groupName": "Quests",
     "tasks": [
         {
             "description": "Complete 5 guildhests.",
             "id": 341,
-            "name": "Serving a Greater Cause I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause I"
         },
         {
             "description": "Complete 10 guildhests.",
             "id": 342,
-            "name": "Serving a Greater Cause II",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause II"
         },
         {
             "description": "Complete 20 guildhests.",
             "id": 343,
-            "name": "Serving a Greater Cause III",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause III"
         },
         {
             "description": "Complete 30 guildhests.",
             "id": 344,
-            "name": "Serving a Greater Cause IV",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause IV"
         },
         {
             "description": "Complete 50 guildhests.",
             "id": 345,
-            "name": "Serving a Greater Cause V",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause V"
         },
         {
             "reward": "The Last Resort",
             "description": "Complete 100 guildhests.",
             "id": 346,
-            "name": "Serving a Greater Cause VI",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Serving a Greater Cause VI"
         },
         {
             "description": "Complete 200 guildhests.",
             "id": 347,
-            "name": "Enraptured Servitude",
-            "points": 20,
-            "patch": "2.0"
+            "name": "Enraptured Servitude"
         },
         {
             "description": "Complete 3 unique guildhests.",
             "id": 644,
-            "name": "Father Knows Hest I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Father Knows Hest I"
         },
         {
             "description": "Complete 7 unique guildhests.",
             "id": 645,
-            "name": "Father Knows Hest II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Father Knows Hest II"
         },
         {
             "description": "Complete 14 unique guildhests.",
             "id": 646,
-            "name": "Father Knows Hest III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Father Knows Hest III"
         },
         {
             "description": "Complete the main scenario quest “The Lominsan Envoy.”",
             "id": 310,
-            "name": "Leaving Limsa Lominsa",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Leaving Limsa Lominsa"
         },
         {
             "description": "Complete the main scenario quest “The Gridanian Envoy.”",
             "id": 311,
-            "name": "Gone from Gridania",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Gone from Gridania"
         },
         {
             "description": "Complete the main scenario quest “The Ul'dahn Envoy.”",
             "id": 312,
-            "name": "Out of Ul'dah",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Out of Ul'dah"
         },
         {
             "description": "Complete the main scenario quest “Back from the Wood.”",
             "id": 783,
-            "name": "Back from the Wood",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Back from the Wood"
         },
         {
             "description": "Complete the main scenario quest “Skeletons in Her Closet.”",
             "id": 784,
-            "name": "Skeletons",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Skeletons"
         },
         {
             "description": "Complete the main scenario quest “All Good Things.”",
             "id": 785,
-            "name": "Those Who Wait",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Those Who Wait"
         },
         {
             "description": "Complete the main scenario quest “In Pursuit of the Past.”",
             "id": 786,
-            "name": "History Repeating",
-            "points": 5,
-            "patch": "2.1"
+            "name": "History Repeating"
         },
         {
             "description": "Complete the main scenario quest “Lady of the Vortex.”",
             "id": 787,
-            "name": "Free Wing Night",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Free Wing Night"
         },
         {
             "description": "Complete all the main scenario quests.",
             "id": 788,
-            "name": "Warrior of Light",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Warrior of Light"
         },
         {
             "description": "Complete the main scenario quest “Build on the Stone.”",
             "id": 898,
-            "name": "A Realm Awoken",
-            "points": 20,
-            "patch": "2.2"
+            "name": "A Realm Awoken"
         },
         {
             "description": "Complete the main scenario quest “Through the Maelstrom.”",
             "id": 899,
-            "name": "Through the Maelstrom",
-            "points": 20,
-            "patch": "2.2"
+            "name": "Through the Maelstrom"
         },
         {
             "reward": "Defender of Eorzea",
             "description": "Complete the quest “Brave New Companions.”",
             "id": 1001,
-            "name": "Eorzea Defended",
-            "points": 20,
-            "patch": "2.3"
+            "name": "Eorzea Defended"
         },
         {
             "reward": "Icebreaker",
             "description": "Complete the quest “Let Us Cling Together.”",
             "id": 1029,
-            "name": "Dreams of Ice",
-            "points": 20,
-            "patch": "2.4"
+            "name": "Dreams of Ice"
         },
         {
             "reward": "Bearer of the Torch",
             "description": "Complete the quest “Before the Dawn.”",
             "id": 1129,
-            "name": "My Left Arm",
-            "points": 20,
-            "patch": "2.55"
+            "name": "My Left Arm"
         },
         {
             "reward": "Unbeliever",
             "description": "Complete the quest “Disclosure.”",
             "id": 1133,
-            "name": "Lucky Number 7",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Lucky Number 7"
         },
         {
             "reward": "The Redeemed",
             "description": "Complete the quest “Keeping the Flame Alive.”",
             "id": 1134,
-            "name": "Gaol Break",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Gaol Break"
         },
         {
             "reward": "Nidhogg Slayer",
             "description": "Complete the quest “Unrest in Ishgard.”",
             "id": 1135,
-            "name": "Orthodox Mayhem",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Orthodox Mayhem"
         },
         {
             "reward": "Of the Silver Fuller",
             "description": "Complete the quest “The Sins of Antiquity.”",
             "id": 1136,
-            "name": "You Say You Want a Revolution",
-            "points": 20,
-            "patch": "3.0"
+            "name": "You Say You Want a Revolution"
         },
         {
             "reward": "Imperial Nuisance",
             "description": "Complete the quest “One Good Turn.”",
             "id": 1137,
-            "name": "The Faith that Drives Us",
-            "points": 20,
-            "patch": "3.0"
+            "name": "The Faith that Drives Us"
         },
         {
             "reward": "Under-archon",
             "description": "Complete the quest “Hour of Departure.”",
             "id": 1138,
-            "name": "Hope Enkindled",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Hope Enkindled"
         },
         {
             "reward": "The End of Ascalon",
             "description": "Complete the quest “Heavensward.”",
             "id": 1139,
-            "name": "Looking Up",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Looking Up"
         },
         {
             "reward": "House Fortemps Knight",
             "description": "Complete the quest “As Goes Light, So Goes Darkness.”",
             "id": 1387,
-            "name": "So It Goes",
-            "points": 10,
-            "patch": "3.1"
+            "name": "So It Goes"
         },
         {
             "reward": "The Gear of Change",
             "description": "Complete the quest “Causes and Costs.”",
             "id": 1493,
-            "name": "First Gear",
-            "points": 10,
-            "patch": "3.15"
+            "name": "First Gear"
         },
         {
             "reward": "The Dragonsong",
             "description": "Complete the quest “Litany of Peace.”",
             "id": 1594,
-            "name": "Floor the Horde",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Floor the Horde"
         },
         {
             "description": "Complete the quest “The Burdens We Bear.”",
             "id": 1595,
-            "name": "On the Road Again",
-            "points": 10,
-            "patch": "3.3"
+            "name": "On the Road Again"
         },
         {
             "reward": "Surrenderer of Souls",
             "description": "Complete the quest “An Ending to Mark a New Beginning.”",
             "id": 1630,
-            "name": "No Retreat, No Surrender",
-            "points": 10,
-            "patch": "3.4"
+            "name": "No Retreat, No Surrender"
         },
         {
             "reward": "The Finest Pupil's Ally",
             "description": "Complete the quest “Louisoix's Finest Student.”",
             "id": 1690,
-            "name": "School's Out Forever",
-            "points": 10,
-            "patch": "3.5"
+            "name": "School's Out Forever"
         },
         {
             "reward": "Fatewalker",
             "description": "Complete the quest “The Far Edge of Fate.”",
             "id": 1691,
-            "name": "Five Minutes of Fate",
-            "points": 10,
-            "patch": "3.56"
+            "name": "Five Minutes of Fate"
         },
         {
             "reward": "Survivor of the Song",
             "description": "Complete the main scenario quest “Not without Incident.”",
             "id": 1787,
-            "name": "Incidentally Speaking",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Incidentally Speaking"
         },
         {
             "reward": "Ijin Traveler",
             "description": "Complete the main scenario quest “Once More, to the Ruby Sea.”",
             "id": 1788,
-            "name": "Destination Unknown",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Destination Unknown"
         },
         {
             "reward": "Confederate",
             "description": "Complete the main scenario quest “Tide Goes in, Imperials Go Out.”",
             "id": 1789,
-            "name": "Unexplained",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Unexplained"
         },
         {
             "reward": "Adversary",
             "description": "Complete the main scenario quest “All the Little Angels.”",
             "id": 1790,
-            "name": "Put Your Wings Up",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Put Your Wings Up"
         },
         {
             "reward": "Steppe Warrior",
             "description": "Complete the main scenario quest “In Crimson They Walked.”",
             "id": 1791,
-            "name": "Crimson Footprints",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Crimson Footprints"
         },
         {
             "reward": "The Returned",
             "description": "Complete the main scenario quest “A Swift and Secret Departure.”",
             "id": 1792,
-            "name": "Catch Me if You Can",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Catch Me if You Can"
         },
         {
             "reward": "Lyse's Right Fist",
             "description": "Complete the main scenario quest “The Lady in Red.”",
             "id": 1793,
-            "name": "Cheek to Cheek",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Cheek to Cheek"
         },
         {
             "reward": "The Liberator",
             "description": "Complete the main scenario quest “Stormblood.”",
             "id": 1794,
-            "name": "The Measure of His Reach",
-            "points": 20,
-            "patch": "4.0"
+            "name": "The Measure of His Reach"
         },
         {
             "reward": "Raubahn's Left Arm",
             "description": "Complete the main scenario quest “Return of the Bull.”",
             "id": 1990,
-            "name": "More Heroes",
-            "points": 20,
-            "patch": "4.1"
+            "name": "More Heroes"
         },
         {
             "reward": "The New Sun",
             "description": "Complete the quest “Rise of a New Sun.”",
             "id": 2013,
-            "name": "Solar Cycle",
-            "points": 20,
-            "patch": "4.2"
+            "name": "Solar Cycle"
         },
         {
             "reward": "Under the Moonlight",
             "description": "Complete the quest “Under the Moonlight.”",
             "id": 2098,
-            "name": "Lunar Cycle",
-            "points": 20,
-            "patch": "4.3"
+            "name": "Lunar Cycle"
         },
         {
             "reward": "Prelude in Violet",
             "description": "Complete the quest “Prelude in Violet.”",
             "id": 2124,
-            "name": "A History of Violet",
-            "points": 20,
-            "patch": "4.4"
+            "name": "A History of Violet"
         },
         {
             "description": "Complete the quest “The Face of War.”",
             "id": 2160,
-            "name": "What Is It Good For",
-            "points": 20,
-            "patch": "4.5"
+            "name": "What Is It Good For"
         },
         {
             "reward": "A Requiem For Heroes",
             "description": "Complete the quest “A Requiem for Heroes.”",
             "id": 2233,
-            "name": "Swan Song",
-            "points": 20,
-            "patch": "4.56"
+            "name": "Swan Song"
         },
         {
             "reward": "Outlander",
             "description": "Complete the main scenario quest “Warrior of Darkness.”",
             "id": 2293,
-            "name": "Between Two Worlds",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Between Two Worlds"
         },
         {
             "reward": "The Fae-touched",
             "description": "Complete the main scenario quest “The Wheel Turns.”",
             "id": 2294,
-            "name": "Realpolitik",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Realpolitik"
         },
         {
             "reward": "Seeker of Hidden Truths",
             "description": "Complete the main scenario quest “Out of the Wood.”",
             "id": 2295,
-            "name": "Journey to the Past",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Journey to the Past"
         },
         {
             "reward": "Of the Sunless Sea",
             "description": "Complete the main scenario quest “More than a Hunch.”",
             "id": 2296,
-            "name": "Shrouded in Darkness",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Shrouded in Darkness"
         },
         {
             "reward": "Enemy of Innocence",
             "description": "Complete the main scenario quest “Extinguishing the Last Light.”",
             "id": 2297,
-            "name": "Warden of Light",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Warden of Light"
         },
         {
             "reward": "Shadowbringer",
             "description": "Complete the main scenario quest “Shadowbringers.”",
             "id": 2298,
-            "name": "Shadowbringers",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Shadowbringers"
         },
         {
             "reward": "Of Virtuous Deeds",
             "description": "Complete the quest “Vows of Virtue, Deeds of Cruelty.”",
             "id": 2424,
-            "name": "Black and White",
-            "points": 20,
-            "patch": "5.1"
+            "name": "Black and White"
         },
         {
             "reward": "Echo of a Fallen Star",
             "description": "Complete the quest “Echoes of a Fallen Star.”",
             "id": 2587,
-            "name": "Way More Heroes",
-            "points": 20,
-            "patch": "5.2"
+            "name": "Way More Heroes"
         },
         {
             "id": 2642,
             "name": "Hope's Legacy",
             "description": "Complete the quest “Reflections in Crystal.”",
-            "points": 20,
-            "reward": "Shepherd to the Stars",
-            "patch": "5.3"
+            "reward": "Shepherd to the Stars"
         },
         {
             "id": 2714,
             "name": "Pen and Sword",
             "description": "Complete the quest “Futures Rewritten.”",
-            "points": 20,
-            "reward": "Writer of Histories",
-            "patch": "5.4"
+            "reward": "Writer of Histories"
         },
         {
             "id": 2850,
             "name": "Not for Naught",
-            "description": "Complete the quest “When the Dust Settles.”",
-            "points": 20,
-            "patch": "5.5"
+            "description": "Complete the quest “When the Dust Settles.”"
         },
         {
             "reward": "The Ambitious Angler",
             "description": "Complete the quest “The Beast of Brewer's Beacon.”",
             "id": 902,
-            "name": "I Like Big Fish and I Cannot Lie",
-            "points": 10,
-            "patch": "2.2"
+            "name": "I Like Big Fish and I Cannot Lie"
         },
         {
             "reward": "The Chief Mourner",
             "description": "Complete the quest “The Nightmare's End.”",
             "id": 1575,
-            "name": "I'll Sleep When I'm Dead",
-            "points": 10,
-            "patch": "3.35"
+            "name": "I'll Sleep When I'm Dead"
         },
         {
             "reward": "Corpse Dancer",
             "description": "Complete the quest “Dead but Not Gone.”",
             "id": 1680,
-            "name": "Dead Tired",
-            "points": 10,
-            "patch": "3.45"
+            "name": "Dead Tired"
         },
         {
             "description": "Complete the quest “Alisaie's Pledge.”",
             "id": 900,
-            "name": "The Truth Is Down There",
-            "points": 10,
-            "patch": "2.2"
+            "name": "The Truth Is Down There"
         },
         {
             "description": "Complete the quest “Alisaie's Resolve.”",
             "id": 901,
-            "name": "You Can Handle the Truth",
-            "points": 20,
-            "patch": "2.2"
+            "name": "You Can Handle the Truth"
         },
         {
             "reward": "The Final Witness",
             "description": "Complete the quest “Alisaie's Path.”",
             "id": 1030,
-            "name": "Uncoiled",
-            "points": 20,
-            "patch": "2.4"
+            "name": "Uncoiled"
         },
         {
             "reward": "Illuminati Quencher",
             "description": "Complete the quest “Enigma.”",
             "id": 1164,
-            "name": "Awake the Metal",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Awake the Metal"
         },
         {
             "reward": "Allthoughts",
             "description": "Complete the quest “A Gob in the Machine.”",
             "id": 1494,
-            "name": "The Midas Touch",
-            "points": 10,
-            "patch": "3.15"
+            "name": "The Midas Touch"
         },
         {
             "reward": "The Wings of Time",
             "description": "Complete the quest “Of Endings and Beginnings.”",
             "id": 1629,
-            "name": "Back in Time",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Back in Time"
         },
         {
             "reward": "Deltascape Deleter",
             "description": "Complete the quest “The Anomaly.”",
             "id": 1796,
-            "name": "Delta Force",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Delta Force"
         },
         {
             "reward": "Sky Pirate",
             "description": "Complete the quest “To Rule the Skies.”",
             "id": 1388,
-            "name": "Paying the Bills",
-            "points": 10,
-            "patch": "3.1"
+            "name": "Paying the Bills"
         },
         {
             "reward": "Of Dragons Deep",
             "description": "Complete the quest “Feast of Famine.”",
             "id": 1031,
-            "name": "Imagine Dragon",
-            "points": 30,
-            "patch": "2.4"
+            "name": "Imagine Dragon"
         },
         {
             "reward": "The Postman / The Postwoman",
             "description": "Complete the quest “Of Errant Epistles.”",
             "id": 1004,
-            "name": "The Postmoogle Always Rings Twice",
-            "points": 10,
-            "patch": "2.3"
+            "name": "The Postmoogle Always Rings Twice"
         },
         {
             "reward": "Postmaster",
             "description": "Complete the quest “The Little Postmoogle That Could.”",
             "id": 1130,
-            "name": "Postal",
-            "points": 10,
-            "patch": "2.55"
+            "name": "Postal"
         },
         {
             "description": "Complete the quest “The Greatest Story Never Told.”",
             "id": 1005,
-            "name": "The Rest of the Story",
-            "points": 10,
-            "patch": "2.3"
+            "name": "The Rest of the Story"
         },
         {
             "description": "Complete 10 unique quests.",
             "id": 789,
-            "name": "Storyteller I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Storyteller I"
         },
         {
             "description": "Complete 30 unique quests.",
             "id": 790,
-            "name": "Storyteller II",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Storyteller II"
         },
         {
             "description": "Complete 100 unique quests.",
             "id": 791,
-            "name": "Storyteller III",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Storyteller III"
         },
         {
             "description": "Complete any one of the Disciple of War or Magic class quests available at level 30.",
             "id": 313,
-            "name": "This One Time, at Level Thirty...",
-            "points": 5,
-            "patch": "2.0"
+            "name": "This One Time, at Level Thirty..."
         },
         {
             "reward": "Seeker of Blood",
             "description": "Complete all the Disciple of War quests available at level 30.",
             "id": 314,
-            "name": "Tales of War",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Tales of War"
         },
         {
             "reward": "Seeker of Truth",
             "description": "Complete all the Disciple of Magic quests available at level 30.",
             "id": 315,
-            "name": "Tales of Magic",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Tales of Magic"
         },
         {
             "reward": "Seeker of Skill",
             "description": "Complete all the Disciple of the Hand quests available at level 30.",
             "id": 316,
-            "name": "Tales of the Hand",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Tales of the Hand"
         },
         {
             "reward": "Seeker of Bounty",
             "description": "Complete all the Disciple of the Land quests available at level 30.",
             "id": 317,
-            "name": "Tales of the Land",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Tales of the Land"
         },
         {
             "reward": "Chronicler's Crown",
             "description": "Complete all the class quests available at level 30.",
             "id": 318,
-            "name": "The Greatest Tales Ever Told",
-            "points": 20,
-            "patch": "2.0"
+            "name": "The Greatest Tales Ever Told"
         },
         {
             "description": "Complete the paladin job quest “Keeping the Oath.”",
             "id": 407,
-            "name": "Like a Knight in Shining Armor I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Like a Knight in Shining Armor I"
         },
         {
             "reward": "The Oathkeeper",
             "description": "Complete the paladin job quest “This Little Sword of Mine.”",
             "id": 1141,
-            "name": "Like a Knight in Shining Armor II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Like a Knight in Shining Armor II"
         },
         {
             "reward": "Ul Cup Champion",
             "description": "Complete the paladin job quest “Raising the Sword.”",
             "id": 1797,
-            "name": "Like a Knight in Shining Armor III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Like a Knight in Shining Armor III"
         },
         {
             "reward": "Bulwark between Worlds",
             "description": "Complete the paladin job quest “Worth Fighting For.”",
             "id": 2306,
-            "name": "Like a Knight in Shining Armor IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Like a Knight in Shining Armor IV"
         },
         {
             "description": "Complete the monk job quest “Five Easy Pieces.”",
             "id": 408,
-            "name": "Bulletproof I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Bulletproof I"
         },
         {
             "reward": "Of the 14th Chakra",
             "description": "Complete the monk job quest “Appetite for Destruction.”",
             "id": 1142,
-            "name": "Bulletproof II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Bulletproof II"
         },
         {
             "reward": "The Fistful",
             "description": "Complete the monk job quest “The Power to Protect.”",
             "id": 1798,
-            "name": "Bulletproof III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Bulletproof III"
         },
         {
             "reward": "The Transcendent",
             "description": "Complete the monk job quest “A Monk's Legacy.”",
             "id": 2307,
-            "name": "Bulletproof IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Bulletproof IV"
         },
         {
             "description": "Complete the warrior job quest “How to Quit You.”",
             "id": 409,
-            "name": "I Am the Warrior I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "I Am the Warrior I"
         },
         {
             "reward": "The Mythril Heart",
             "description": "Complete the warrior job quest “And My Axe.”",
             "id": 1143,
-            "name": "I Am the Warrior II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "I Am the Warrior II"
         },
         {
             "reward": "Loved by the Axe",
             "description": "Complete the warrior job quest “The Heart of the Problem.”",
             "id": 1799,
-            "name": "I Am the Warrior III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "I Am the Warrior III"
         },
         {
             "reward": "Worldcleaver",
             "description": "Complete the warrior job quest “Once, Twice, Three Times a Warrior.”",
             "id": 2308,
-            "name": "I Am the Warrior IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "I Am the Warrior IV"
         },
         {
             "description": "Complete the dragoon job quest “Into the Dragon's Maw.”",
             "id": 410,
-            "name": "Dragoon Age I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Dragoon Age I"
         },
         {
             "reward": "The Azure Dragoon",
             "description": "Complete the dragoon job quest “Dragoon's Fate.”",
             "id": 1144,
-            "name": "Dragoon Age II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Dragoon Age II"
         },
         {
             "reward": "The Blood Dragoon",
             "description": "Complete the dragoon job quest “Dragon Sound.”",
             "id": 1800,
-            "name": "Dragoon Age III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Dragoon Age III"
         },
         {
             "reward": "Bolt from the Black",
             "description": "Complete the dragoon job quest “Gone but Not Forgiven.”",
             "id": 2309,
-            "name": "Dragoon Age IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Dragoon Age IV"
         },
         {
             "description": "Complete the bard job quest “Requiem for the Fallen.”",
             "id": 411,
-            "name": "A Bard's Tale I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "A Bard's Tale I"
         },
         {
             "reward": "Skysinger",
             "description": "Complete the bard job quest “The Ballad of Oblivion.”",
             "id": 1145,
-            "name": "A Bard's Tale II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "A Bard's Tale II"
         },
         {
             "reward": "Of the True Autumn",
             "description": "Complete the bard job quest “Sweet Dreams Are Made of Peace.”",
             "id": 1801,
-            "name": "A Bard's Tale III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "A Bard's Tale III"
         },
         {
             "reward": "The Song upon the Wind",
             "description": "Complete the bard job quest “A Harmony from the Heavens.”",
             "id": 2310,
-            "name": "A Bard's Tale IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "A Bard's Tale IV"
         },
         {
             "description": "Complete the ninja job quest “Master and Student.”",
             "id": 1052,
-            "name": "Against the Ninja I",
-            "points": 5,
-            "patch": "2.4"
+            "name": "Against the Ninja I"
         },
         {
             "reward": "The Darkest Shadow",
             "description": "Complete the ninja job quest “In Her Name.”",
             "id": 1150,
-            "name": "Against the Ninja II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Against the Ninja II"
         },
         {
             "reward": "Eorzean Ninja",
             "description": "Complete the ninja job quest “When Clans Collide.”",
             "id": 1806,
-            "name": "Against the Ninja III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Against the Ninja III"
         },
         {
             "reward": "Shadow of the Other",
             "description": "Complete the ninja job quest “Oboro's Big Idea.”",
             "id": 2315,
-            "name": "Against the Ninja IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Against the Ninja IV"
         },
         {
             "description": "Complete the white mage job quest “Heart of the Forest.”",
             "id": 412,
-            "name": "Seeing White I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Seeing White I"
         },
         {
             "reward": "Pure White",
             "description": "Complete the white mage job quest “Hands of Healing.”",
             "id": 1146,
-            "name": "Seeing White II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Seeing White II"
         },
         {
             "reward": "Padjal Protector",
             "description": "Complete the white mage job quest “What She Always Wanted.”",
             "id": 1802,
-            "name": "Seeing White III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Seeing White III"
         },
         {
             "reward": "Firstblessed",
             "description": "Complete the white mage job quest “Whence the Healing Springs.”",
             "id": 2311,
-            "name": "Seeing White IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Seeing White IV"
         },
         {
             "description": "Complete the black mage job quest “Always Bet on Black.”",
             "id": 413,
-            "name": "Back in Black I",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Back in Black I"
         },
         {
             "reward": "Annihilator",
             "description": "Complete the black mage job quest “The Defiant Ones.”",
             "id": 1147,
-            "name": "Back in Black II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Back in Black II"
         },
         {
             "reward": "Gembreaker",
             "description": "Complete the black mage job quest “One Golem to Rule Them All.”",
             "id": 1803,
-            "name": "Back in Black III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Back in Black III"
         },
         {
             "reward": "Of Stranger Shadow",
             "description": "Complete the black mage job quest “A Home for a Tome.”",
             "id": 2312,
-            "name": "Back in Black IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Back in Black IV"
         },
         {
             "description": "Complete the summoner job quest “Primal Burdens.”",
             "id": 599,
-            "name": "Soul Summoner I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Soul Summoner I"
         },
         {
             "reward": "Dreadspawn",
             "description": "Complete the summoner job quest “A Flare for the Dramatic.”",
             "id": 1148,
-            "name": "Soul Summoner II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Soul Summoner II"
         },
         {
             "reward": "The First Caller",
             "description": "Complete the summoner job quest “An Art for the Living.”",
             "id": 1804,
-            "name": "Soul Summoner III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Soul Summoner III"
         },
         {
             "reward": "Farcaller",
             "description": "Complete the summoner job quest “To Be Second Best.”",
             "id": 2313,
-            "name": "Soul Summoner IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Soul Summoner IV"
         },
         {
             "description": "Complete the scholar job quest “The Beast Within.”",
             "id": 600,
-            "name": "Flying Colors I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Flying Colors I"
         },
         {
             "reward": "Nymian Marine",
             "description": "Complete the scholar job quest “Forward, the Royal Marines.”",
             "id": 1149,
-            "name": "Flying Colors II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Flying Colors II"
         },
         {
             "reward": "Keeper of the Lilacs",
             "description": "Complete the scholar job quest “Our Unsung Heroes.”",
             "id": 1805,
-            "name": "Flying Colors III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Flying Colors III"
         },
         {
             "reward": "Knower of Twin Worlds",
             "description": "Complete the scholar job quest “True Beauty.”",
             "id": 2314,
-            "name": "Flying Colors IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Flying Colors IV"
         },
         {
             "description": "Complete the dark knight job quest “Our Answer.”",
             "id": 1151,
-            "name": "A Dark Day's Knight I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "A Dark Day's Knight I"
         },
         {
             "reward": "Blackblood",
             "description": "Complete the dark knight job quest “Absolution.”",
             "id": 1154,
-            "name": "A Dark Day's Knight II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "A Dark Day's Knight II"
         },
         {
             "reward": "Of the Swirling Abyss",
             "description": "Complete the dark knight job quest “Our Compromise.”",
             "id": 1807,
-            "name": "A Dark Day's Knight III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "A Dark Day's Knight III"
         },
         {
             "reward": "The Boundless Dark",
             "description": "Complete the dark knight job quest “Our Closure.”",
             "id": 2316,
-            "name": "A Dark Day's Knight IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "A Dark Day's Knight IV"
         },
         {
             "description": "Complete the machinist job quest “The Power of a Tourney.”",
             "id": 1152,
-            "name": "I'm a Machinist, Not a Man I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "I'm a Machinist, Not a Man I"
         },
         {
             "reward": "Liberator",
             "description": "Complete the machinist job quest “Rise of the Machinists.”",
             "id": 1155,
-            "name": "I'm a Machinist, Not a Man II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "I'm a Machinist, Not a Man II"
         },
         {
             "reward": "The Howler",
             "description": "Complete the machinist job quest “The Mongrel and the Knight.”",
             "id": 1808,
-            "name": "I'm a Machinist, Not a Man III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "I'm a Machinist, Not a Man III"
         },
         {
             "reward": "The Shot Heard Across Worlds",
             "description": "Complete the machinist job quest “Machinists for the Morrow.”",
             "id": 2317,
-            "name": "I'm a Machinist, Not a Man IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "I'm a Machinist, Not a Man IV"
         },
         {
             "description": "Complete the astrologian job quest “Spearheading Initiatives.”",
             "id": 1153,
-            "name": "The Stars in Our Faults I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "The Stars in Our Faults I"
         },
         {
             "reward": "Stargazer",
             "description": "Complete the astrologian job quest “The Hands of Fate.”",
             "id": 1156,
-            "name": "The Stars in Our Faults II",
-            "points": 5,
-            "patch": "3.0"
+            "name": "The Stars in Our Faults II"
         },
         {
             "reward": "Of the Eastern Skies",
             "description": "Complete the astrologian job quest “Foxfire.”",
             "id": 1809,
-            "name": "The Stars in Our Faults III",
-            "points": 5,
-            "patch": "4.0"
+            "name": "The Stars in Our Faults III"
         },
         {
             "reward": "Distant Stargazer",
             "description": "Complete the astrologian job quest “Love, Astrologically.”",
             "id": 2318,
-            "name": "The Stars in Our Faults IV",
-            "points": 5,
-            "patch": "5.0"
+            "name": "The Stars in Our Faults IV"
         },
         {
             "description": "Complete the red mage job quest “Stained in Scarlet.”",
             "id": 1810,
-            "name": "Red on Arrival I",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Red on Arrival I"
         },
         {
             "reward": "The Red",
             "description": "Complete the red mage job quest “With Heart and Steel.”",
             "id": 1811,
-            "name": "Red on Arrival II",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Red on Arrival II"
         },
         {
             "reward": "Dualistic Duelist",
             "description": "Complete the red mage job quest “Succession of Steel.”",
             "id": 2319,
-            "name": "Red on Arrival III",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Red on Arrival III"
         },
         {
             "description": "Complete the samurai job quest “The Face of True Evil.”",
             "id": 1812,
-            "name": "SAM I Am I",
-            "points": 5,
-            "patch": "4.0"
+            "name": "SAM I Am I"
         },
         {
             "reward": "Muso",
             "description": "Complete the samurai job quest “The Battle on Bekko.”",
             "id": 1813,
-            "name": "SAM I Am II",
-            "points": 5,
-            "patch": "4.0"
+            "name": "SAM I Am II"
         },
         {
             "reward": "Samurai in a Strange Land",
             "description": "Complete the samurai job quest “The Legend of Musosai.”",
             "id": 2320,
-            "name": "SAM I Am III",
-            "points": 5,
-            "patch": "5.0"
+            "name": "SAM I Am III"
         },
         {
             "reward": "Sworn Protector",
             "description": "Complete the gunbreaker job quest “Steel against Steel.”",
             "id": 2299,
-            "name": "Gunnhildr's Blade I",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Gunnhildr's Blade I"
         },
         {
             "reward": "Wandering Vanguard",
             "description": "Complete the gunbreaker job quest “Gunblades of the Patriots.”",
             "id": 2321,
-            "name": "Gunnhildr's Blade II",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Gunnhildr's Blade II"
         },
         {
             "reward": "The Heart's Beat",
             "description": "Complete the dancer job quest “Save the Last Dance for Me.”",
             "id": 2300,
-            "name": "No Friends of Mine I",
-            "points": 5,
-            "patch": "5.0"
+            "name": "No Friends of Mine I"
         },
         {
             "reward": "Riftdancer",
             "description": "Complete the dancer job quest “Rising to the Occasion.”",
             "id": 2322,
-            "name": "No Friends of Mine II",
-            "points": 5,
-            "patch": "5.0"
+            "name": "No Friends of Mine II"
         },
         {
             "description": "Complete the role quest “To Have Loved and Lost.”",
             "id": 2301,
-            "name": "Speaker for the Righteous",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Speaker for the Righteous"
         },
         {
             "description": "Complete the role quest “The Soul of Temperance.”",
             "id": 2302,
-            "name": "Speaker for the Honorable",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Speaker for the Honorable"
         },
         {
             "description": "Complete the role quest “Courage Born of Fear.”",
             "id": 2303,
-            "name": "Speaker for the Brave",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Speaker for the Brave"
         },
         {
             "description": "Complete the role quest “A Tearful Reunion.”",
             "id": 2304,
-            "name": "Speaker for the Wise",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Speaker for the Wise"
         },
         {
             "reward": "Living Memory",
             "description": "Complete the quest “Shadow Walk with Me.”",
             "id": 2305,
-            "name": "Tales to Be Told",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Tales to Be Told"
         },
         {
             "reward": "Otherworld Smith",
             "description": "Complete the quest “The Iron Bellows.”",
             "id": 2323,
-            "name": "Precious Metals",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Precious Metals"
         },
         {
             "reward": "Otherworld Artisan",
             "description": "Complete the quest “The Notes of Bond Restoring.”",
             "id": 2324,
-            "name": "Thank You for the Music",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Thank You for the Music"
         },
         {
             "reward": "Otherworld Apothecary",
             "description": "Complete the quest “Healing Old Wounds.”",
             "id": 2325,
-            "name": "Amaro Whisperer",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Amaro Whisperer"
         },
         {
             "reward": "Otherworld Seeker",
             "description": "Complete the quest “The Myth Takes Form.”",
             "id": 2326,
-            "name": "The Lost World",
-            "points": 5,
-            "patch": "5.0"
+            "name": "The Lost World"
         },
         {
             "reward": "Otherworld Angler",
             "description": "Complete the quest “Morsel of the Deep.”",
             "id": 2327,
-            "name": "Live Long and Prospero",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Live Long and Prospero"
         },
         {
             "reward": "The Multifaceted",
             "description": "Complete the quest “For Every Child a Star.”",
             "id": 2328,
-            "name": "The Golden Mean",
-            "points": 10,
-            "patch": "5.0"
+            "name": "The Golden Mean"
         },
         {
             "id": 2715,
             "name": "Friends In Deed",
-            "description": "Complete the quest “A Bounty of Hunters.”",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Complete the quest “A Bounty of Hunters.”"
         },
         {
             "reward": "The Professional",
             "description": "Obtain the following nine achievements: “Like a Knight in Shining Armor I,” “Bulletproof I,” “I Am the Warrior I,” Dragoon Age I,“ ”A Bard's Tale I,“ ”Seeing White I,“ ”Back in Black I,“ ”Soul Summoner I,“ and ”Flying Colors I.“",
             "id": 414,
-            "name": "Career Opportunities",
-            "points": 20,
-            "patch": "2.0"
+            "name": "Career Opportunities"
         },
         {
             "description": "Complete the quest “His Dark Materia.”",
             "id": 1058,
-            "name": "What's Nexus",
-            "points": 10,
-            "patch": "2.45"
+            "name": "What's Nexus"
         },
         {
             "reward": "Of the Silver Lining",
             "description": "Complete the quest “The Light of Hope.”",
             "id": 1060,
-            "name": "Out of the Dark",
-            "points": 20,
-            "patch": "2.5"
+            "name": "Out of the Dark"
         },
         {
             "reward": "Gentleman / Gentlewoman",
             "description": "Complete the quest “Her Last Vow.”",
             "id": 1061,
-            "name": "I'll Be There for You",
-            "points": 20,
-            "patch": "2.5"
+            "name": "I'll Be There for You"
         },
         {
             "description": "Complete the quest “The Vital Title.”",
             "id": 1080,
-            "name": "Home of the Brave",
-            "points": 20,
-            "patch": "2.51"
+            "name": "Home of the Brave"
         },
         {
             "reward": "Finder of False Gods",
             "description": "Complete the quests “Thok Around the Clock” and “The Diabolical Bismarck.”",
             "id": 1165,
-            "name": "The War Still Wageth On",
-            "points": 10,
-            "patch": "3.0"
+            "name": "The War Still Wageth On"
         },
         {
             "reward": "Lighter than Air",
             "description": "Complete the quest “I Believe I Can Fly.”",
             "id": 1166,
-            "name": "Walking on Sunshine",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Walking on Sunshine"
         },
         {
             "reward": "Special Advisor",
             "description": "Complete the quest “More than Meets Her Eye.”",
             "id": 1405,
-            "name": "Back to School I",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Back to School I"
         },
         {
             "description": "Complete the quest “Finding Ulaa.”",
             "id": 1628,
-            "name": "Back to School II",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Back to School II"
         },
         {
             "reward": "Of the Holy Body",
             "description": "Complete the quest “The Life and Lies of Father Saturnois.”",
             "id": 1692,
-            "name": "Back to School III",
-            "points": 10,
-            "patch": "3.5"
+            "name": "Back to School III"
         },
         {
             "reward": "Gigi's Best Friend",
             "description": "Complete the quest “If I Could Turn Back Time.”",
             "id": 1693,
-            "name": "That Is What You Are",
-            "points": 10,
-            "patch": "3.5"
+            "name": "That Is What You Are"
         },
         {
             "reward": "The Noumenon",
             "description": "Complete the quest “Coming into Its Own.”",
             "id": 1394,
-            "name": "Anima Crossing",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Anima Crossing"
         },
         {
             "reward": "Carrier of the Kettle",
             "description": "Complete the quest “Kettle to the Mettle.”",
             "id": 1492,
-            "name": "A Watched Pot",
-            "points": 10,
-            "patch": "3.15"
+            "name": "A Watched Pot"
         },
         {
             "reward": "The Soboro",
             "description": "Complete the quest “Don't Do the Dewprism.”",
             "id": 2234,
-            "name": "Good Night, Sweet Hildy",
-            "points": 10,
-            "patch": "4.56"
+            "name": "Good Night, Sweet Hildy"
         },
         {
             "description": "Complete the quest “To Thaw a Frozen Heart.”",
             "id": 2567,
-            "name": "Second Chances",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Second Chances"
         },
         {
             "id": 2711,
             "name": "Featherfall Rising",
-            "description": "Complete the quest “May Featherfall Flourish.”",
-            "points": 5,
-            "patch": "5.31"
+            "description": "Complete the quest “May Featherfall Flourish.”"
         },
         {
             "description": "Complete the quest “Smiles Cross the Sky.”",
             "name": "Solid Ground",
-            "points": 5,
-            "id": 2818,
-            "patch": "5.41"
+            "id": 2818
         },
         {
             "description": "Complete the quest “Work It Harder, Make It Better.”",
             "id": 2568,
-            "name": "Modern Design",
-            "points": 5,
-            "patch": "5.25"
+            "name": "Modern Design"
         },
         {
             "description": "Complete the quest “Greater Heights.”",
             "name": "Launch Party",
-            "points": 10,
-            "id": 2798,
-            "patch": "5.45"
+            "id": 2798
         },
         {
             "description": "Complete the quest “The Bozja Incident.”",
             "id": 2607,
-            "name": "Cidception",
-            "points": 10,
-            "patch": "5.25"
+            "name": "Cidception"
         },
         {
             "id": 2670,
             "name": "In the Trenches",
-            "description": "Complete the quest “The Lady of Blades.”",
-            "points": 10,
-            "patch": "5.35"
+            "description": "Complete the quest “The Lady of Blades.”"
         },
         {
             "description": "Complete the quest “Fit for a Queen.”",
             "name": "She's a Killer Queen",
-            "points": 10,
-            "id": 2760,
-            "patch": "5.45"
+            "id": 2760
         },
         {
             "id": 2887,
             "name": "Mass Destruction of Weapons",
-            "description": "Complete the quest “Forever at Your Side.”",
-            "points": 10,
-            "patch": "5.5"
+            "description": "Complete the quest “Forever at Your Side.”"
         },
         {
             "reward": "Lord of the Fetch / Lady of the Fetch",
             "description": "Complete the quest “In Bad Taste.”",
             "id": 2243,
-            "name": "Live to Serve",
-            "points": 10,
-            "patch": "4.5"
+            "name": "Live to Serve"
         },
         {
             "reward": "Monster Hunter",
             "description": "Complete the quest “The New King on the Block.”",
             "id": 2108,
-            "name": "The New King on the Block",
-            "points": 10,
-            "patch": "4.4"
+            "name": "The New King on the Block"
         }
     ]
 }

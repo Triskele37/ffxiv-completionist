@@ -1,305 +1,204 @@
 {
-    "key": "dungeons",
     "groupName": "Donjons",
     "tasks": [
         {
             "id": 0,
-            "level": "50",
-            "iLvlReq": "45",
             "name": "Le Palais du Vagabond"
         },
         {
             "id": 1,
-            "level": "50",
-            "iLvlReq": "45",
             "name": "Le Château d'Ampador"
         },
         {
             "id": 2,
-            "level": "50",
-            "iLvlReq": "48",
             "name": "Le Phare de Sirius"
         },
         {
             "id": 3,
-            "level": "50",
-            "iLvlReq": "48",
             "name": "Les Mines de Clochecuivre (brutal)"
         },
         {
             "id": 4,
-            "level": "50",
-            "iLvlReq": "48",
             "name": "Le Manoir des Haukke (brutal)"
         },
         {
             "id": 5,
-            "level": "50",
-            "iLvlReq": "55",
             "name": "Les Vestiges de la cité d'Amdapor"
         },
         {
             "id": 6,
-            "level": "50",
-            "iLvlReq": "55",
             "name": "Halatali (brutal)"
         },
         {
             "id": 7,
-            "level": "50",
-            "iLvlReq": "55",
             "name": "Le Bivouac de Brayflox (brutal)"
         },
         {
             "id": 8,
-            "level": "50",
-            "iLvlReq": "70",
             "name": "L'Île de Crèvecarène"
         },
         {
             "id": 9,
-            "level": "50",
-            "iLvlReq": "70",
             "name": "L'Hypogée de Tam-Tara (brutal)"
         },
         {
             "id": 10,
-            "level": "50",
-            "iLvlReq": "70",
             "name": "Le Vigile de Pierre (brutal)"
         },
         {
             "id": 11,
-            "level": "50",
-            "iLvlReq": "80",
             "name": "Manteneige"
         },
         {
             "id": 12,
-            "level": "50",
-            "iLvlReq": "80",
             "name": "Sastasha (brutal)"
         },
         {
             "id": 13,
-            "level": "50",
-            "iLvlReq": "80",
             "name": "Le Temple enseveli de Qarn (brutal)"
         },
         {
             "id": 14,
-            "level": "50",
-            "iLvlReq": "90",
             "name": "Le Gardien du lac"
         },
         {
             "id": 15,
-            "level": "50",
-            "iLvlReq": "90",
             "name": "Le Palais du Vagabond (brutal)"
         },
         {
             "id": 16,
-            "level": "50",
-            "iLvlReq": "90",
             "name": "Le Château d'Ampador (brutal)"
         },
         {
             "id": 17,
-            "level": "51",
-            "iLvlReq": "100",
             "name": "Le Vigile du Crépuscule"
         },
         {
             "id": 18,
-            "level": "53",
-            "iLvlReq": "105",
             "name": "Sohm Al"
         },
         {
             "id": 19,
-            "level": "55",
-            "iLvlReq": "110",
             "name": "L'Aire"
         },
         {
             "id": 20,
-            "level": "57",
-            "iLvlReq": "115",
             "name": "La Voûte"
         },
         {
             "id": 21,
-            "level": "59",
-            "iLvlReq": "120",
             "name": "La Grande bibliothèque de Gubal"
         },
         {
             "id": 22,
-            "level": "60",
-            "iLvlReq": "142",
             "name": "Le Laboratoire de magismologie"
         },
         {
             "id": 23,
-            "level": "60",
-            "iLvlReq": "145",
             "name": "Nalloncques"
         },
         {
             "id": 24,
-            "level": "60",
-            "iLvlReq": "145",
             "name": "Le Continuum fractal"
         },
         {
             "id": 25,
-            "level": "60",
-            "iLvlReq": "170",
             "name": "L'Arboretum Sainte-Mocianne"
         },
         {
             "id": 26,
-            "level": "60",
-            "iLvlReq": "170",
             "name": "Le Phare de Sirius (brutal)"
         },
         {
             "id": 27,
-            "level": "60",
-            "iLvlReq": "180",
             "name": "L'Antitour"
         },
         {
             "id": 28,
-            "level": "60",
-            "iLvlReq": "180",
             "name": "Les Vestiges de la cité d'Amdapor (brutal)"
         },
         {
             "id": 29,
-            "level": "60",
-            "iLvlReq": "200",
             "name": "Sohr Khai"
         },
         {
             "id": 30,
-            "level": "60",
-            "iLvlReq": "200",
             "name": "L'Île de Crèvecarène (brutal)"
         },
         {
             "id": 31,
-            "level": "60",
-            "iLvlReq": "210",
             "name": "Xelphatol"
         },
         {
             "id": 32,
-            "level": "60",
-            "iLvlReq": "210",
             "name": "La Grande bibliothèque de Gubal (brutal)"
         },
         {
             "id": 33,
-            "level": "60",
-            "iLvlReq": "230",
             "name": "La Muraille de Baelsar"
         },
         {
             "id": 34,
-            "level": "60",
-            "iLvlReq": "230",
             "name": "Sohm Al (brutal)"
         },
         {
             "id": 35,
-            "level": "61",
-            "iLvlReq": "240",
             "name": "La Mer du Chant des sirènes"
         },
         {
             "id": 36,
-            "level": "63",
-            "iLvlReq": "245",
             "name": "Le Palais aux Marées violettes"
         },
         {
             "id": 37,
-            "level": "65",
-            "iLvlReq": "250",
             "name": "La Force de Bardam"
         },
         {
             "id": 38,
-            "level": "67",
-            "iLvlReq": "255",
             "name": "Le Château de Doma"
         },
         {
             "id": 39,
-            "level": "69",
-            "iLvlReq": "260",
             "name": "Castrum Abania"
         },
         {
             "id": 40,
-            "level": "70",
-            "iLvlReq": "280",
             "name": "Ala Mhigo"
         },
         {
             "id": 41,
-            "level": "70",
-            "iLvlReq": "280",
             "name": "Le Château de Kugane"
         },
         {
             "id": 42,
-            "level": "70",
-            "iLvlReq": "280",
             "name": "Le Temple du Poing"
         },
         {
             "id": 43,
-            "level": "70",
-            "iLvlReq": "300",
             "name": "La Cité engloutie de Skalla"
         },
         {
             "id": 44,
-            "level": "70",
-            "iLvlReq": "310",
             "name": "Le Couvercle des enfers"
         },
         {
             "id": 45,
-            "level": "70",
-            "iLvlReq": "310",
             "name": "Le Continuum fractal (brutal)"
         },
         {
             "id": 46,
-            "level": "70",
-            "iLvlReq": "330",
             "name": "Le Compas de l'Hirondelle"
         },
         {
             "id": 47,
-            "level": "70",
-            "iLvlReq": "340",
             "name": "L'Escarre"
         },
         {
             "id": 48,
-            "level": "70",
-            "iLvlReq": "340",
             "name": "L'Arboretum Sainte-Mocianne (brutal)"
         },
         {
             "id": 49,
-            "level": "70",
-            "iLvlReq": "360",
             "name": "Les Ténèbres de Ghimlyt"
         }
     ]

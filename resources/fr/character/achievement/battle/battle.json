@@ -1,993 +1,722 @@
 {
-    "key": "battle",
     "groupName": "Général",
     "tasks": [
         {
             "description": "Vaincre 100 ennemis.",
             "id": 1,
-            "name": "Une goutte de sang",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Une goutte de sang"
         },
         {
             "description": "Vaincre 500 ennemis.",
             "id": 2,
-            "name": "Une flaque de sang",
-            "points": 5,
-            "patch": "2.0"
+            "name": "Une flaque de sang"
         },
         {
             "description": "Vaincre 1 000 ennemis.",
             "id": 3,
-            "name": "Une mare de sang",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Une mare de sang"
         },
         {
             "description": "Vaincre 5 000 ennemis.",
             "id": 4,
-            "name": "Une rivière de sang",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Une rivière de sang"
         },
         {
             "description": "Vaincre 10 000 ennemis.",
             "id": 5,
-            "name": "Une mer de sang",
-            "points": 10,
-            "patch": "2.0"
+            "name": "Une mer de sang"
         },
         {
             "reward": "Le Sanguinaire / La Sanguinaire",
             "description": "Vaincre 50 000 ennemis.",
             "id": 6,
-            "name": "C'est une véritable boucherie",
-            "points": 10,
-            "patch": "2.0"
+            "name": "C'est une véritable boucherie"
         },
         {
             "reward": "Couronne de massacreur",
             "description": "Vaincre 100 000 ennemis.",
             "id": 7,
-            "name": "Disciple de Halone, la Conquérante",
-            "points": 30,
-            "patch": "2.0"
+            "name": "Disciple de Halone, la Conquérante"
         },
         {
             "description": "Vaincre 200 000 ennemis.",
             "id": 1336,
-            "name": "Un océan de sang",
-            "points": 30,
-            "patch": "3.0"
+            "name": "Un océan de sang"
         },
         {
             "reward": "Anneau de maître gladiateur",
             "description": "Finir toutes les catégories du bestiaire de gladiateur.",
             "id": 728,
-            "name": "Carnet de chasse : gladiateur",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : gladiateur"
         },
         {
             "reward": "Anneau de maître pugiliste",
             "description": "Finir toutes les catégories du bestiaire de pugiliste.",
             "id": 729,
-            "name": "Carnet de chasse : pugiliste",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : pugiliste"
         },
         {
             "reward": "Anneau de maître maraudeur",
             "description": "Finir toutes les catégories du bestiaire de maraudeur.",
             "id": 730,
-            "name": "Carnet de chasse : maraudeur",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : maraudeur"
         },
         {
             "reward": "Anneau de maître lancier",
             "description": "Finir toutes les catégories du bestiaire de maître d'hast.",
             "id": 731,
-            "name": "Carnet de chasse : maître d'hast",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : maître d'hast"
         },
         {
             "reward": "Anneau de maître archer",
             "description": "Finir toutes les catégories du bestiaire d'archer.",
             "id": 732,
-            "name": "Carnet de chasse : archer",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : archer"
         },
         {
             "reward": "Anneau de maître surineur",
             "description": "Finir toutes les catégories du bestiaire de surineur.",
             "id": 1051,
-            "name": "Carnet de chasse : surineur",
-            "points": 20,
-            "patch": "2.4"
+            "name": "Carnet de chasse : surineur"
         },
         {
             "reward": "Anneau de maître élémentaliste",
             "description": "Finir toutes les catégories du bestiaire d'élémentaliste.",
             "id": 733,
-            "name": "Carnet de chasse : élémentaliste",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : élémentaliste"
         },
         {
             "reward": "Anneau de maître occultiste",
             "description": "Finir toutes les catégories du bestiaire d'occultiste.",
             "id": 734,
-            "name": "Carnet de chasse : occultiste",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : occultiste"
         },
         {
             "reward": "Anneau de maître arcaniste",
             "description": "Finir toutes les catégories du bestiaire d'arcaniste.",
             "id": 735,
-            "name": "Carnet de chasse : arcaniste",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Carnet de chasse : arcaniste"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: contre-traque” avec la meilleure évaluation possible.",
             "id": 792,
-            "name": "Béhémoth belliqueux",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Béhémoth belliqueux"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: le Chevalier des ombres” avec la meilleure évaluation possible.",
             "id": 793,
-            "name": "Face au dieu",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Face au dieu"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: gorgimère indigne” avec la meilleure évaluation possible.",
             "id": 794,
-            "name": "Folle chimère",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Folle chimère"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: l'œil de la tête” avec la meilleure évaluation possible.",
             "id": 795,
-            "name": "Je t'ai à l'œil",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Je t'ai à l'œil"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: cancer, le casque de mort” avec la meilleure évaluation possible.",
             "id": 796,
-            "name": "Serrer les pinces",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Serrer les pinces"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: Laurence pas ravie” avec la meilleure évaluation possible.",
             "id": 797,
-            "name": "Herbicide",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Herbicide"
         },
         {
             "description": "Accomplir l'ALÉA “Culte maudit: l'affront” avec la meilleure évaluation possible.",
             "id": 798,
-            "name": "Entité entêtée",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Entité entêtée"
         },
         {
             "description": "Accomplir l'ALÉA “Svara s'en est venu: les canons anti-dragon” ou “Svara s'en est venu: la colère du dragon” avec la meilleure évaluation possible.",
             "id": 799,
-            "name": "Cercle de feu",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Cercle de feu"
         },
         {
             "description": "Accomplir l'ALÉA “Nid de guêpes: colonisation”, “Nid de guêpes: alliance défensive” ou “Nid de guêpes: défense du nid” avec la meilleure évaluation possible.",
             "id": 800,
-            "name": "Se fourrer dans le Guêpier",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Se fourrer dans le Guêpier"
         },
         {
             "description": "Accomplir l'ALÉA “Assaut sur Le Viaduc: acte III” avec la meilleure évaluation possible.",
             "id": 801,
-            "name": "Vaillant viaduc",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Vaillant viaduc"
         },
         {
             "description": "Accomplir l'ALÉA “Pauvre hameau: des coeurls qui battent” avec la meilleure évaluation possible.",
             "id": 802,
-            "name": "Des coeurls à prendre",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Des coeurls à prendre"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: coeurls brisés” avec la meilleure évaluation possible.",
             "id": 1359,
-            "name": "Bourreau des coeurls",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Bourreau des coeurls"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: duel amical contre Vedrfolnir” avec la meilleure évaluation possible.",
             "id": 1360,
-            "name": "Vainqueur de Vedrfolnir",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Vainqueur de Vedrfolnir"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: ne pas douter face à Dzu Teh” avec la meilleure évaluation possible.",
             "id": 1361,
-            "name": "L'abominable homme des neiges",
-            "points": 10,
-            "patch": "3.0"
+            "name": "L'abominable homme des neiges"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: terrasser la Tarasque” avec la meilleure évaluation possible.",
             "id": 1362,
-            "name": "Hutin de Tarasque",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Hutin de Tarasque"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: vengeurs de ferraille II” avec la meilleure évaluation possible.",
             "id": 1363,
-            "name": "Haut la Main indigo",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Haut la Main indigo"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: quand sombre Sombrécaille” avec la meilleure évaluation possible.",
             "id": 1364,
-            "name": "Le coup du Sombrécaille",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Le coup du Sombrécaille"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: mangeur de terre gardée” avec la meilleure évaluation possible.",
             "id": 1365,
-            "name": "La terre ne se mange pas",
-            "points": 10,
-            "patch": "3.0"
+            "name": "La terre ne se mange pas"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: mauvaise graine” avec la meilleure évaluation possible.",
             "id": 1923,
-            "name": "Bûcheron providentiel",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Bûcheron providentiel"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: l'affreux Humbaba” avec la meilleure évaluation possible.",
             "id": 1924,
-            "name": "Dans le baba",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Dans le baba"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: ciel, mon sosie” avec la meilleure évaluation possible.",
             "id": 1925,
-            "name": "La montagne renversée",
-            "points": 10,
-            "patch": "4.0"
+            "name": "La montagne renversée"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: amocher les daimyo” avec la meilleure évaluation possible.",
             "id": 1926,
-            "name": "Rêveurs brisés",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Rêveurs brisés"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: le géant de fer” avec la meilleure évaluation possible.",
             "id": 1927,
-            "name": "Assez joué",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Assez joué"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: attention, passage de mammouths” avec la meilleure évaluation possible.",
             "id": 1928,
-            "name": "Le piétineur piétiné",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Le piétineur piétiné"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: la renarde fait surface” avec la meilleure évaluation possible.",
             "id": 1929,
-            "name": "Les neuf queues entre les jambes",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Les neuf queues entre les jambes"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: l'étalon survolté” avec la meilleure évaluation possible.",
             "id": 1930,
-            "name": "Dressage électrique",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Dressage électrique"
         },
         {
             "description": "Accomplir l'ALÉA “Défi: le roi des matangas” avec la meilleure évaluation possible.",
             "id": 1931,
-            "name": "Le voyage des Dataq",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Le voyage des Dataq"
         },
         {
             "description": "Accomplir l'ALÉA “La menace des Fanes pourpres: les wargs s'en mêlent” avec la meilleure évaluation possible.",
             "id": 2337,
-            "name": "L'allié de la garde",
-            "points": 10,
-            "patch": "5.0"
+            "name": "L'allié de la garde"
         },
         {
             "description": "Accomplir l'ALÉA “Appel à l'aide: l'épée de l'ancien” avec la meilleure évaluation possible.",
             "id": 2338,
-            "name": "Chasseur de trésors dans le désert",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Chasseur de trésors dans le désert"
         },
         {
             "description": "Accomplir l'ALÉA “Les frères Daen: la bataille finale” avec la meilleure évaluation possible.",
             "id": 2339,
-            "name": "Confident des Pixies",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Confident des Pixies"
         },
         {
             "description": "Accomplir l'ALÉA “Chasse de Myalna: l'élimination du Tojil” avec la meilleure évaluation possible.",
             "id": 2340,
-            "name": "Les protectrices des ruines",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Les protectrices des ruines"
         },
         {
             "description": "Accomplir l'ALÉA “Formidable: l'arme secrète” avec la meilleure évaluation possible.",
             "id": 2341,
-            "name": "Annihilateur d'automates",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Annihilateur d'automates"
         },
         {
             "description": "Accomplir l'ALÉA “L'annonciatrice du chaos: bataille au sommet des fonds” avec la meilleure évaluation possible.",
             "id": 2342,
-            "name": "Les dents de La Tempête",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Les dents de La Tempête"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA à Grand-Lac.",
             "id": 2343,
-            "name": "Héros de grand chemin : Grand-Lac",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Grand-Lac"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA à Kholusia.",
             "id": 2344,
-            "name": "Héros de grand chemin : Kholusia",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Kholusia"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA en Amh Araeng.",
             "id": 2345,
-            "name": "Héros de grand chemin : Amh Araeng",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Amh Araeng"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA en Il Mheg.",
             "id": 2346,
-            "name": "Héros de grand chemin : Il Mheg",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Il Mheg"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA à Rak'tika.",
             "id": 2347,
-            "name": "Héros de grand chemin : Rak'tika",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Rak'tika"
         },
         {
             "description": "Atteindre le rang 3 de réussite des ALÉA à La Tempête.",
             "id": 2348,
-            "name": "Héros de grand chemin : La Tempête",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : La Tempête"
         },
         {
             "reward": "Main invisible",
             "description": "Accomplir les hauts faits “Héros de grand chemin” pour les régions de Grand-Lac, Kholusia, Amh Araeng, Il Mheg, Rak'tika et La Tempête.",
             "id": 2349,
-            "name": "Héros de grand chemin : Norvrandt",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Héros de grand chemin : Norvrandt"
         },
         {
             "description": "Accomplir un total de 10 ALÉA.",
             "id": 803,
-            "name": "Faire face aux imprévus I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Faire face aux imprévus I"
         },
         {
             "description": "Accomplir un total de 100 ALÉA.",
             "id": 804,
-            "name": "Faire face aux imprévus II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Faire face aux imprévus II"
         },
         {
             "description": "Accomplir un total de 300 ALÉA.",
             "id": 805,
-            "name": "Faire face aux imprévus III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Faire face aux imprévus III"
         },
         {
             "reward": "Jouet des aléas du destin",
             "description": "Accomplir un total de 1 000 ALÉA.",
             "id": 806,
-            "name": "Faire face aux imprévus IV",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Faire face aux imprévus IV"
         },
         {
             "reward": "Manteau d'expert",
             "description": "Accomplir un total de 3 000 ALÉA.",
             "id": 807,
-            "name": "Le hasard fait bien les choses",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Le hasard fait bien les choses"
         },
         {
             "description": "Accomplir un total de 5 000 ALÉA.",
             "id": 1353,
-            "name": "Faire face aux imprévus V",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Faire face aux imprévus V"
         },
         {
             "reward": "Le Chanceux / La Chanceuse",
             "description": "Accomplir un total de 10 000 ALÉA.",
             "id": 1354,
-            "name": "Faire face aux imprévus VI",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Faire face aux imprévus VI"
         },
         {
             "description": "Élever le compagnon chocobo au niveau 1.",
             "id": 808,
-            "name": "Mon fier destrier I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Mon fier destrier I"
         },
         {
             "description": "Élever le compagnon chocobo au niveau 5.",
             "id": 809,
-            "name": "Mon fier destrier II",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Mon fier destrier II"
         },
         {
             "reward": "Costume de chocobo",
             "description": "Élever le compagnon chocobo au niveau 10.",
             "id": 810,
-            "name": "Mon fier destrier III",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Mon fier destrier III"
         },
         {
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 1 fois.",
             "id": 885,
-            "name": "Bon Samaritain I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Bon Samaritain I"
         },
         {
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 20 fois.",
             "id": 886,
-            "name": "Bon Samaritain II",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Bon Samaritain II"
         },
         {
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 50 fois.",
             "id": 1355,
-            "name": "Bon Samaritain III",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Bon Samaritain III"
         },
         {
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 100 fois.",
             "id": 1356,
-            "name": "Bon Samaritain IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Bon Samaritain IV"
         },
         {
             "reward": "Bon Samaritain",
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 200 fois.",
             "id": 1357,
-            "name": "Bon Samaritain V",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Bon Samaritain V"
         },
         {
             "reward": "Le Bouclier humain",
             "description": "Effectuer 50 missions de haut niveau en tant que paladin.",
             "id": 919,
-            "name": "On demande un paladin I",
-            "points": 5,
-            "patch": "2.2"
+            "name": "On demande un paladin I"
         },
         {
             "reward": "Le Bouclier infaillible",
             "description": "Effectuer 100 missions de haut niveau en tant que paladin.",
             "id": 920,
-            "name": "On demande un paladin II",
-            "points": 10,
-            "patch": "2.2"
+            "name": "On demande un paladin II"
         },
         {
             "reward": "Cor lion de guerre",
             "description": "Effectuer 200 missions de haut niveau en tant que paladin.",
             "id": 921,
-            "name": "Chevalier errant à mi-temps",
-            "points": 20,
-            "patch": "2.2"
+            "name": "Chevalier errant à mi-temps"
         },
         {
             "reward": "La Hache humaine",
             "description": "Effectuer 50 missions de haut niveau en tant que guerrier.",
             "id": 922,
-            "name": "On demande un guerrier I",
-            "points": 5,
-            "patch": "2.2"
+            "name": "On demande un guerrier I"
         },
         {
             "reward": "La Hache impitoyable",
             "description": "Effectuer 100 missions de haut niveau en tant que guerrier.",
             "id": 923,
-            "name": "On demande un guerrier II",
-            "points": 10,
-            "patch": "2.2"
+            "name": "On demande un guerrier II"
         },
         {
             "reward": "Cor ours de guerre",
             "description": "Effectuer 200 missions de haut niveau en tant que guerrier.",
             "id": 924,
-            "name": "Je suis chef de guerre, moi",
-            "points": 20,
-            "patch": "2.2"
+            "name": "Je suis chef de guerre, moi"
         },
         {
             "reward": "Guide des ténèbres",
             "description": "Effectuer 50 missions de haut niveau en tant que chevalier noir.",
             "id": 1193,
-            "name": "On demande un chevalier noir I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "On demande un chevalier noir I"
         },
         {
             "reward": "L'Épée implacable",
             "description": "Effectuer 100 missions de haut niveau en tant que chevalier noir.",
             "id": 1194,
-            "name": "On demande un chevalier noir II",
-            "points": 10,
-            "patch": "3.0"
+            "name": "On demande un chevalier noir II"
         },
         {
             "reward": "Cloche panthère",
             "description": "Effectuer 200 missions de haut niveau en tant que chevalier noir.",
             "id": 1195,
-            "name": "La séduction du côté obscur",
-            "points": 20,
-            "patch": "3.0"
+            "name": "La séduction du côté obscur"
         },
         {
             "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1953,
-            "name": "Paladin philanthrope I",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Paladin philanthrope I"
         },
         {
             "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1954,
-            "name": "Paladin philanthrope II",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Paladin philanthrope II"
         },
         {
             "reward": "Cor lion de combat",
             "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1955,
-            "name": "Paladin philanthrope III",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Paladin philanthrope III"
         },
         {
             "reward": "Serment inflexible",
             "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2387,
-            "name": "Paladin philanthrope IV",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Paladin philanthrope IV"
         },
         {
             "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1956,
-            "name": "Guerrier philanthrope I",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Guerrier philanthrope I"
         },
         {
             "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1957,
-            "name": "Guerrier philanthrope II",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Guerrier philanthrope II"
         },
         {
             "reward": "Cor ours de combat",
             "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1958,
-            "name": "Guerrier philanthrope III",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Guerrier philanthrope III"
         },
         {
             "reward": "Acier inflexible",
             "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2388,
-            "name": "Guerrier philanthrope IV",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Guerrier philanthrope IV"
         },
         {
             "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1959,
-            "name": "Chevalier noir philanthrope I",
-            "points": 5,
-            "patch": "4.0"
+            "name": "Chevalier noir philanthrope I"
         },
         {
             "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1960,
-            "name": "Chevalier noir philanthrope II",
-            "points": 10,
-            "patch": "4.0"
+            "name": "Chevalier noir philanthrope II"
         },
         {
             "reward": "Cloche panthère de combat",
             "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 1961,
-            "name": "Chevalier noir philanthrope III",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Chevalier noir philanthrope III"
         },
         {
             "reward": "Morale inflexible",
             "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2389,
-            "name": "Chevalier noir philanthrope IV",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Chevalier noir philanthrope IV"
         },
         {
             "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2390,
-            "name": "Pistosabreur philanthrope I",
-            "points": 5,
-            "patch": "5.0"
+            "name": "Pistosabreur philanthrope I"
         },
         {
             "reward": "Cor tigre de guerre",
             "description": "Finir 200 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2391,
-            "name": "Pistosabreur philanthrope II",
-            "points": 10,
-            "patch": "5.0"
+            "name": "Pistosabreur philanthrope II"
         },
         {
             "reward": "Cor tigre de combat",
             "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2392,
-            "name": "Pistosabreur philanthrope III",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Pistosabreur philanthrope III"
         },
         {
             "reward": "Loyauté inflexible",
             "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "id": 2393,
-            "name": "Pistosabreur philanthrope IV",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Pistosabreur philanthrope IV"
         },
         {
             "description": "Accomplir 5 missions différentes dans le palmarès bleu.",
             "id": 2451,
-            "name": "Tout un palmarès I",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Tout un palmarès I"
         },
         {
             "description": "Accomplir 20 missions différentes dans le palmarès bleu.",
             "id": 2452,
-            "name": "Tout un palmarès II",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Tout un palmarès II"
         },
         {
             "reward": "Sommité bleue",
             "description": "Accomplir 50 missions différentes dans le palmarès bleu.",
             "id": 2453,
-            "name": "Tout un palmarès III",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Tout un palmarès III"
         },
         {
             "id": 2728,
             "name": "Tout un palmarès IV",
             "description": "Accomplir 90 missions différentes dans le palmarès bleu.",
-            "reward": "Ranger bleu / Ranger bleue",
-            "points": 5,
-            "patch": "5.45"
+            "reward": "Ranger bleu / Ranger bleue"
         },
         {
             "description": "Vaincre Ifrit dans le défi “Le Cratère des tisons (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2454,
-            "name": "Des bleus pour le Seigneur des flammes",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Seigneur des flammes"
         },
         {
             "description": "Vaincre Titan dans le défi “Le Nombril (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2455,
-            "name": "Des bleus pour l'Ébranleur des terres",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour l'Ébranleur des terres"
         },
         {
             "description": "Vaincre Garuda dans le défi “Hurlœil (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2456,
-            "name": "Des bleus pour la Souffleuse de rafales",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour la Souffleuse de rafales"
         },
         {
             "description": "Vaincre le bon roi Moggle Mog XII dans le défi “La Lisière de ronces (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2457,
-            "name": "Des bleus pour le bon roi",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le bon roi"
         },
         {
             "description": "Vaincre Léviathan dans le défi “Le Briseur de marées (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2458,
-            "name": "Des bleus pour le Déchaîneur des marées",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Déchaîneur des marées"
         },
         {
             "description": "Vaincre Ramuh dans le défi “L'Arbre du jugement (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2459,
-            "name": "Des bleus pour le Patriarche fulgurant",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Patriarche fulgurant"
         },
         {
             "description": "Vaincre Shiva dans le défi “L'Amphithéâtre d'Akh Afah (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2460,
-            "name": "Des bleus pour la Furie des neiges",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour la Furie des neiges"
         },
         {
             "description": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2461,
-            "name": "Des bleus pour Bahamut I",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Bahamut I"
         },
         {
             "description": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2462,
-            "name": "Des bleus pour Bahamut II",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Bahamut II"
         },
         {
             "description": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2463,
-            "name": "Des bleus pour Bahamut III",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Bahamut III"
         },
         {
             "description": "Vaincre Ravana dans le défi “Thok ast Thok (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2464,
-            "name": "Des bleus pour le Maître des lames",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Maître des lames"
         },
         {
             "description": "Vaincre Bismarck dans le défi “L'Immensité bleue (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2465,
-            "name": "Des bleus pour le Migrateur des brumes",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Migrateur des brumes"
         },
         {
             "reward": "Masque vedette",
             "description": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2466,
-            "name": "Des bleus pour le Roi des rois",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le Roi des rois"
         },
         {
             "description": "Vaincre Sephirot dans le défi “Unité de contention S1P7 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2467,
-            "name": "Des bleus pour Sephirot",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Sephirot"
         },
         {
             "description": "Vaincre Nidhogg dans le défi “L'ire de Nidhogg” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2468,
-            "name": "Des bleus pour le dragon maléfique",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour le dragon maléfique"
         },
         {
             "description": "Vaincre Sophia dans le défi “Unité de contention P1P6 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2469,
-            "name": "Des bleus pour Sophia",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Sophia"
         },
         {
             "description": "Vaincre Zurvan dans le défi “Unité de contention Z1P9 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2470,
-            "name": "Des bleus pour Zurvan",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Zurvan"
         },
         {
             "description": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2471,
-            "name": "Des bleus pour Alexander I",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Alexander I"
         },
         {
             "description": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2472,
-            "name": "Des bleus pour Alexander II",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Alexander II"
         },
         {
             "description": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
             "id": 2473,
-            "name": "Des bleus pour Alexander III",
-            "points": 5,
-            "patch": "5.18"
+            "name": "Des bleus pour Alexander III"
         },
         {
             "reward": "Bleu infini",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Bahamut”.",
             "id": 2474,
-            "name": "Conte bleu de Bahamut",
-            "points": 10,
-            "patch": "5.18"
+            "name": "Conte bleu de Bahamut"
         },
         {
             "reward": "Justicier bleu / Justicière bleue",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Alexander”.",
             "id": 2475,
-            "name": "Conte bleu d'Alexander",
-            "points": 10,
-            "patch": "5.18"
+            "name": "Conte bleu d'Alexander"
         },
         {
             "reward": "Cor morbol",
             "description": "Accomplir les hauts faits “Conte bleu de Bahamut” et “Conte bleu d'Alexander”.",
             "id": 2476,
-            "name": "L'épopée des bleus d'Éorzéa",
-            "points": 10,
-            "patch": "5.18"
+            "name": "L'épopée des bleus d'Éorzéa"
         },
         {
             "id": 2729,
             "name": "Des bleus pour le Kami de la fougue",
-            "description": "Vaincre Susano dans le défi “La Crique aux tributs (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Susano dans le défi “La Crique aux tributs (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2730,
             "name": "Des bleus pour la Béatificatrice onirique",
-            "description": "Vaincre Lakshmi dans le défi “Émanation (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Lakshmi dans le défi “Émanation (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2731,
             "name": "Des bleus pour le Dragon divin",
-            "description": "Vaincre Shinryu dans le défi “Le domaine de Shinryu” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Shinryu dans le défi “Le domaine de Shinryu” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2732,
             "name": "Des bleus pour la Maîtresse de la lune et de la nuit",
-            "description": "Vaincre Tsukuyomi dans le défi “Castrum Fluminis (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Tsukuyomi dans le défi “Castrum Fluminis (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2733,
             "name": "Des bleus pour le Tigre blanc de l'ouest",
-            "description": "Vaincre Byakko dans le défi “La Clairière de Jade (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Byakko dans le défi “La Clairière de Jade (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2734,
             "name": "Des bleus pour l'Oiseau vermillon du sud",
-            "description": "Vaincre Suzaku dans le défi “Le Nid des Lamentations (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Suzaku dans le défi “Le Nid des Lamentations (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2735,
             "name": "Des bleus pour le Dragon azur de l'est",
-            "description": "Vaincre Seiryû dans le défi “L'Îlot des Amertumes (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Vaincre Seiryû dans le défi “L'Îlot des Amertumes (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2736,
             "name": "Des bleus pour Oméga I",
-            "description": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2737,
             "name": "Des bleus pour Oméga II",
-            "description": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2738,
             "name": "Des bleus pour Oméga III",
-            "description": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
-            "points": 5,
-            "patch": "5.45"
+            "description": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
         },
         {
             "id": 2739,
             "name": "Conte bleu d'Oméga",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Oméga”.",
-            "reward": "L'Azur et l'Oméga",
-            "points": 10,
-            "patch": "5.45"
+            "reward": "L'Azur et l'Oméga"
         }
     ]
 }

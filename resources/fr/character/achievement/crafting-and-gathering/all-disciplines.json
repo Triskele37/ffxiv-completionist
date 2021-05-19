@@ -1,153 +1,114 @@
 {
-    "key": "all-disciplines",
     "groupName": "All Disciplines",
     "tasks": [
         {
             "reward": "Laladile",
             "description": "Gagner un total de 50 000 points d'azur en tant qu'artisan.",
             "id": 2522,
-            "name": "Maître artisan d'Azurée",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Maître artisan d'Azurée"
         },
         {
             "reward": "Artisan en chef d'Azurée / Artisane en chef d'Azurée",
             "description": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat.",
             "id": 2524,
-            "name": "Artisan en chef d'Azurée",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Artisan en chef d'Azurée"
         },
         {
             "reward": "Malone",
             "description": "Gagner un total de 50 000 points d'azur en tant que récolteur.",
             "id": 2523,
-            "name": "Maître récolteur d'Azurée",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Maître récolteur d'Azurée"
         },
         {
             "reward": "Récolteur en chef d'Azurée / Récolteuse en chef d'Azurée",
             "description": "Gagner un total de 500 000 points d'azur avec toutes les classes de récolte.",
             "id": 2525,
-            "name": "Récolteur en chef d'Azurée",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Récolteur en chef d'Azurée"
         },
         {
             "reward": "Cor ptéranodon",
             "description": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat et de récolte.",
             "id": 2526,
-            "name": "Légende de la reconstruction",
-            "points": 20,
-            "patch": "5.21"
+            "name": "Légende de la reconstruction"
         },
         {
             "description": "Utiliser 50 fois le perforateur éthéréen.",
             "id": 2550,
-            "name": "Perforateur de l'archipel I",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Perforateur de l'archipel I"
         },
         {
             "description": "Utiliser 500 fois le perforateur éthéréen.",
             "id": 2551,
-            "name": "Perforateur de l'archipel II",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Perforateur de l'archipel II"
         },
         {
             "description": "Utiliser 1 000 fois le perforateur éthéréen.",
             "id": 2552,
-            "name": "Perforateur de l'archipel III",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Perforateur de l'archipel III"
         },
         {
             "reward": "Couronne Kupo kupo",
             "description": "Gagner le premier prix 5 fois au Kupo de la fortune.",
             "id": 2538,
-            "name": "Fortuné du kupo I",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Fortuné du kupo I"
         },
         {
             "description": "Gagner le premier prix 10 fois au Kupo de la fortune.",
             "id": 2539,
-            "name": "Fortuné du kupo II",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Fortuné du kupo II"
         },
         {
             "reward": "Fortuné du kupo / Fortunée du kupo",
             "description": "Gagner le premier prix 30 fois au Kupo de la fortune.",
             "id": 2540,
-            "name": "Fortuné du kupo III",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Fortuné du kupo III"
         },
         {
             "id": 2890,
             "name": "C'est la feste au village",
-            "description": "Accomplir 10 festes de la Grande Célébration d'Azurée avec la meilleure évaluation possible.",
-            "points": 5,
-            "patch": "5.5"
+            "description": "Accomplir 10 festes de la Grande Célébration d'Azurée avec la meilleure évaluation possible."
         },
         {
             "reward": "Saint d'Azurée / Sainte d'Azurée",
             "description": "Être dans les 12 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
             "id": 2487,
-            "name": "Saint d'Azurée (2e phase)",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Saint d'Azurée (2e phase)"
         },
         {
             "reward": "Bienheureux d'Azurée / Bienheureuse d'Azurée",
             "description": "Être dans les 100 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
             "id": 2488,
-            "name": "Bienheureux d'Azurée (2e phase)",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Bienheureux d'Azurée (2e phase)"
         },
         {
             "id": 2712,
             "name": "Saint d'Azurée (3e phase)",
             "description": "Être dans les 12 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
-            "points": 10,
-            "reward": "Saint d'Azurée / Sainte d'Azurée",
-            "patch": "5.31"
+            "reward": "Saint d'Azurée / Sainte d'Azurée"
         },
         {
             "id": 2713,
             "name": "Bienheureux d'Azurée (3e phase)",
             "description": "Être dans les 100 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
-            "points": 10,
-            "reward": "Bienheureux d'Azurée / Bienheureuse d'Azurée",
-            "patch": "5.31"
+            "reward": "Bienheureux d'Azurée / Bienheureuse d'Azurée"
         },
         {
             "id": 2785,
             "name": "Saint d'Azurée (4e phase)",
             "description": "Être dans les 12 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
-            "reward": "Saint d'Azurée / Sainte d'Azurée",
-            "points": 10,
-            "patch": "5.41"
+            "reward": "Saint d'Azurée / Sainte d'Azurée"
         },
         {
             "id": 2786,
             "name": "Bienheureux d'Azurée (4e phase)",
             "description": "Être dans les 100 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
-            "reward": "Bienheureux d'Azurée / Bienheureuse d'Azurée",
-            "points": 10,
-            "patch": "5.41"
+            "reward": "Bienheureux d'Azurée / Bienheureuse d'Azurée"
         },
         {
             "id": 2829,
             "name": "Resplendissement total",
             "description": "Obtenir tous les outils resplendissants.",
-            "points": 20,
-            "reward": "Artisan infatigable / Artisane infatigable",
-            "patch": "5.5"
+            "reward": "Artisan infatigable / Artisane infatigable"
         }
     ]
 }

@@ -1,453 +1,330 @@
 {
-    "key": "treasure-hunt",
     "groupName": "Treasure Hunt",
     "tasks": [
         {
             "description": "Déchiffrer 3 vieilles cartes en cuir et ouvrir les coffres auxquels elles conduisent.",
             "id": 878,
-            "name": "Creuser son trou I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Creuser son trou I"
         },
         {
             "description": "Déchiffrer 5 vieilles cartes en peau de bouquetin et ouvrir les coffres auxquels elles conduisent.",
             "id": 879,
-            "name": "Creuser son trou II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Creuser son trou II"
         },
         {
             "description": "Déchiffrer 10 vieilles cartes en peau de crapaud et ouvrir les coffres auxquels elles conduisent.",
             "id": 880,
-            "name": "Creuser son trou III",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Creuser son trou III"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de sanglier et ouvrir les coffres auxquels elles conduisent.",
             "id": 881,
-            "name": "Creuser son trou IV",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Creuser son trou IV"
         },
         {
             "reward": "Chasseur de trésors / Chasseuse de trésors",
             "description": "Déchiffrer 20 vieilles cartes en peau de peiste et ouvrir les coffres auxquels elles conduisent.",
             "id": 882,
-            "name": "Trésor humain vivant",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Trésor humain vivant"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau d'archéornis et ouvrir les coffres auxquels elles conduisent.",
             "id": 1298,
-            "name": "Creuser son trou V",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Creuser son trou V"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de wyverne et ouvrir les coffres auxquels elles conduisent.",
             "id": 1299,
-            "name": "Creuser son trou VI",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Creuser son trou VI"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de dragon et ouvrir les coffres auxquels elles conduisent.",
             "id": 1300,
-            "name": "Creuser son trou VII",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Creuser son trou VII"
         },
         {
             "reward": "Détecteur de coffre au trésor / Détectrice de coffre au trésor",
             "description": "Déchiffrer 20 cartes secrètes en cuir et ouvrir les coffres auxquels elles conduisent.",
             "id": 1019,
-            "name": "Dénicheur de trésors",
-            "points": 20,
-            "patch": "2.3"
+            "name": "Dénicheur de trésors"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de gagana et ouvrir les coffres auxquels elles conduisent.",
             "id": 1942,
-            "name": "Creuser son trou VIII",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Creuser son trou VIII"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de gazelle et ouvrir les coffres auxquels elles conduisent.",
             "id": 1943,
-            "name": "Creuser son trou IX",
-            "points": 20,
-            "patch": "4.0"
+            "name": "Creuser son trou IX"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de smilodon et ouvrir les coffres auxquels elles conduisent.",
             "id": 2396,
-            "name": "Creuser son trou X",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Creuser son trou X"
         },
         {
             "description": "Déchiffrer 20 vieilles cartes en peau de glaucus et ouvrir les coffres auxquels elles conduisent.",
             "id": 2397,
-            "name": "Creuser son trou XI",
-            "points": 20,
-            "patch": "5.0"
+            "name": "Creuser son trou XI"
         },
         {
             "reward": "Découvreur de l'Aquapole / Découvreuse de l'Aquapole",
             "description": "Pénétrer 1 fois dans l'Aquapole.",
             "id": 1548,
-            "name": "Visiteur de l'Aquapole I",
-            "points": 5,
-            "patch": "3.3"
+            "name": "Visiteur de l'Aquapole I"
         },
         {
             "description": "Pénétrer 5 fois dans l'Aquapole.",
             "id": 1549,
-            "name": "Visiteur de l'Aquapole II",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Visiteur de l'Aquapole II"
         },
         {
             "description": "Pénétrer 10 fois dans l'Aquapole.",
             "id": 1550,
-            "name": "Visiteur de l'Aquapole III",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Visiteur de l'Aquapole III"
         },
         {
             "reward": "Explorateur de l'Aquapole / Exploratrice de l'Aquapole",
             "description": "Pénétrer 20 fois dans l'Aquapole.",
             "id": 1551,
-            "name": "Visiteur de l'Aquapole IV",
-            "points": 20,
-            "patch": "3.3"
+            "name": "Visiteur de l'Aquapole IV"
         },
         {
             "description": "Conquérir 1 fois l'Aquapole.",
             "id": 1552,
-            "name": "Pilleur de l'Aquapole I",
-            "points": 5,
-            "patch": "3.3"
+            "name": "Pilleur de l'Aquapole I"
         },
         {
             "description": "Conquérir 5 fois l'Aquapole.",
             "id": 1553,
-            "name": "Pilleur de l'Aquapole II",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Pilleur de l'Aquapole II"
         },
         {
             "description": "Conquérir 10 fois l'Aquapole.",
             "id": 1554,
-            "name": "Pilleur de l'Aquapole III",
-            "points": 10,
-            "patch": "3.3"
+            "name": "Pilleur de l'Aquapole III"
         },
         {
             "reward": "Conquérant de l'Aquapole / Conquérante de l'Aquapole",
             "description": "Conquérir 20 fois l'Aquapole.",
             "id": 1555,
-            "name": "Pilleur de l'Aquapole IV",
-            "points": 20,
-            "patch": "3.3"
+            "name": "Pilleur de l'Aquapole IV"
         },
         {
             "reward": "Pilleur de canaux / Pilleuse de canaux",
             "description": "Pénétrer 1 fois dans les Canaux perdus d'Uznair.",
             "id": 1944,
-            "name": "Égoutier perdu d'Uznair I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "Égoutier perdu d'Uznair I"
         },
         {
             "description": "Pénétrer 5 fois dans les Canaux perdus d'Uznair.",
             "id": 1945,
-            "name": "Égoutier perdu d'Uznair II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Égoutier perdu d'Uznair II"
         },
         {
             "description": "Pénétrer 10 fois dans les Canaux perdus d'Uznair.",
             "id": 1946,
-            "name": "Égoutier perdu d'Uznair III",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Égoutier perdu d'Uznair III"
         },
         {
             "reward": "Habitant des canaux / Habitante des canaux",
             "description": "Pénétrer 20 fois dans les Canaux perdus d'Uznair.",
             "id": 1947,
-            "name": "Égoutier perdu d'Uznair IV",
-            "points": 20,
-            "patch": "4.01"
+            "name": "Égoutier perdu d'Uznair IV"
         },
         {
             "description": "Conquérir 1 fois les Canaux perdus d'Uznair.",
             "id": 1948,
-            "name": "Vidangeur de canaux I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "Vidangeur de canaux I"
         },
         {
             "description": "Conquérir 5 fois les Canaux perdus d'Uznair.",
             "id": 1949,
-            "name": "Vidangeur de canaux II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Vidangeur de canaux II"
         },
         {
             "description": "Conquérir 10 fois les Canaux perdus d'Uznair.",
             "id": 1950,
-            "name": "Vidangeur de canaux III",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Vidangeur de canaux III"
         },
         {
             "reward": "Maître des canaux / Maîtresse des canaux",
             "description": "Conquérir 20 fois les Canaux perdus d'Uznair.",
             "id": 1951,
-            "name": "Vidangeur de canaux IV",
-            "points": 20,
-            "patch": "4.01"
+            "name": "Vidangeur de canaux IV"
         },
         {
             "reward": "Pilleur de canaux profonds / Pilleuse de canaux profonds",
             "description": "Pénétrer 1 fois dans les Canaux cachés d'Uznair.",
             "id": 1980,
-            "name": "Rat d'égout d'Uznair I",
-            "points": 5,
-            "patch": "4.1"
+            "name": "Rat d'égout d'Uznair I"
         },
         {
             "description": "Pénétrer 5 fois dans les Canaux cachés d'Uznair.",
             "id": 1981,
-            "name": "Rat d'égout d'Uznair II",
-            "points": 10,
-            "patch": "4.1"
+            "name": "Rat d'égout d'Uznair II"
         },
         {
             "description": "Pénétrer 10 fois dans les Canaux cachés d'Uznair.",
             "id": 1982,
-            "name": "Rat d'égout d'Uznair III",
-            "points": 10,
-            "patch": "4.1"
+            "name": "Rat d'égout d'Uznair III"
         },
         {
             "reward": "Habitant des canaux profonds / Habitante des canaux profonds",
             "description": "Pénétrer 20 fois dans les Canaux cachés d'Uznair.",
             "id": 1983,
-            "name": "Rat d'égout d'Uznair IV",
-            "points": 20,
-            "patch": "4.1"
+            "name": "Rat d'égout d'Uznair IV"
         },
         {
             "description": "Conquérir 1 fois les Canaux cachés d'Uznair.",
             "id": 1984,
-            "name": "Purgateur de canaux I",
-            "points": 5,
-            "patch": "4.1"
+            "name": "Purgateur de canaux I"
         },
         {
             "description": "Conquérir 5 fois les Canaux cachés d'Uznair.",
             "id": 1985,
-            "name": "Purgateur de canaux II",
-            "points": 10,
-            "patch": "4.1"
+            "name": "Purgateur de canaux II"
         },
         {
             "description": "Conquérir 10 fois les Canaux cachés d'Uznair.",
             "id": 1986,
-            "name": "Purgateur de canaux III",
-            "points": 10,
-            "patch": "4.1"
+            "name": "Purgateur de canaux III"
         },
         {
             "reward": "Maître de la chance / Maîtresse de la chance",
             "description": "Conquérir 20 fois les Canaux cachés d'Uznair.",
             "id": 1987,
-            "name": "Purgateur de canaux IV",
-            "points": 20,
-            "patch": "4.1"
+            "name": "Purgateur de canaux IV"
         },
         {
             "reward": "Servant d'autel / Servante d'autel",
             "description": "Pénétrer 1 fois dans le Temple sacré d'Uznair.",
             "id": 2132,
-            "name": "Visiteur du Temple sacré d'Uznair I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "Visiteur du Temple sacré d'Uznair I"
         },
         {
             "description": "Pénétrer 5 fois dans le Temple sacré d'Uznair.",
             "id": 2133,
-            "name": "Visiteur du Temple sacré d'Uznair II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "Visiteur du Temple sacré d'Uznair II"
         },
         {
             "description": "Pénétrer 10 fois dans le Temple sacré d'Uznair.",
             "id": 2134,
-            "name": "Visiteur du Temple sacré d'Uznair III",
-            "points": 10,
-            "patch": "4.4"
+            "name": "Visiteur du Temple sacré d'Uznair III"
         },
         {
             "reward": "Le Dévot / La Dévote",
             "description": "Pénétrer 20 fois dans le Temple sacré d'Uznair.",
             "id": 2135,
-            "name": "Visiteur du Temple sacré d'Uznair IV",
-            "points": 20,
-            "patch": "4.4"
+            "name": "Visiteur du Temple sacré d'Uznair IV"
         },
         {
             "description": "Réussir 1 série de cinq invocations dans le Temple sacré d'Uznair.",
             "id": 2136,
-            "name": "La roue de la fortune I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "La roue de la fortune I"
         },
         {
             "description": "Réussir 5 séries de cinq invocations dans le Temple sacré d'Uznair.",
             "id": 2137,
-            "name": "La roue de la fortune II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "La roue de la fortune II"
         },
         {
             "description": "Réussir 10 séries de cinq invocations dans le Temple sacré d'Uznair.",
             "id": 2138,
-            "name": "La roue de la fortune III",
-            "points": 10,
-            "patch": "4.4"
+            "name": "La roue de la fortune III"
         },
         {
             "reward": "Invocateur de Dieux / Invocatrice de Dieux",
             "description": "Réussir 20 séries de cinq invocations dans le Temple sacré d'Uznair.",
             "id": 2139,
-            "name": "La roue de la fortune IV",
-            "points": 20,
-            "patch": "4.4"
+            "name": "La roue de la fortune IV"
         },
         {
             "reward": "Promeneur hypogéen / Promeneuse hypogéenne",
             "description": "Pénétrer 1 fois dans le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2401,
-            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah I",
-            "points": 5,
-            "patch": "5.05"
+            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah I"
         },
         {
             "description": "Pénétrer 5 fois dans le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2402,
-            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah II",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah II"
         },
         {
             "description": "Pénétrer 10 fois dans le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2403,
-            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah III",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah III"
         },
         {
             "reward": "Explorateur hypogéen / Exploratrice hypogéenne",
             "description": "Pénétrer 20 fois dans le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2404,
-            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah IV",
-            "points": 20,
-            "patch": "5.05"
+            "name": "Visiteur du Donjon hypogéen du Lyhe Ghiah IV"
         },
         {
             "description": "Conquérir 1 fois le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2405,
-            "name": "Maître du Donjon hypogéen du Lyhe Ghiah I",
-            "points": 5,
-            "patch": "5.05"
+            "name": "Maître du Donjon hypogéen du Lyhe Ghiah I"
         },
         {
             "description": "Conquérir 5 fois le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2406,
-            "name": "Maître du Donjon hypogéen du Lyhe Ghiah II",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Maître du Donjon hypogéen du Lyhe Ghiah II"
         },
         {
             "description": "Conquérir 10 fois le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2407,
-            "name": "Maître du Donjon hypogéen du Lyhe Ghiah III",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Maître du Donjon hypogéen du Lyhe Ghiah III"
         },
         {
             "reward": "Seigneur hypogéen / Grande dame hypogéenne",
             "description": "Conquérir 20 fois le Donjon hypogéen du Lyhe Ghiah.",
             "id": 2408,
-            "name": "Maître du Donjon hypogéen du Lyhe Ghiah IV",
-            "points": 20,
-            "patch": "5.05"
+            "name": "Maître du Donjon hypogéen du Lyhe Ghiah IV"
         },
         {
             "id": 2740,
             "name": "Visiteur du Jardin secret du Lyhe Ghiah I",
             "description": "Pénétrer 1 fois dans le Jardin secret du Lyhe Ghiah.",
-            "points": 5,
-            "reward": "Découvreur du jardin secret / Découvreuse du jardin secret",
-            "patch": "5.4"
+            "reward": "Découvreur du jardin secret / Découvreuse du jardin secret"
         },
         {
             "id": 2741,
             "name": "Visiteur du Jardin secret du Lyhe Ghiah II",
-            "description": "Pénétrer 5 fois dans le Jardin secret du Lyhe Ghiah.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Pénétrer 5 fois dans le Jardin secret du Lyhe Ghiah."
         },
         {
             "id": 2742,
             "name": "Visiteur du Jardin secret du Lyhe Ghiah III",
-            "description": "Pénétrer 10 fois dans le Jardin secret du Lyhe Ghiah.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Pénétrer 10 fois dans le Jardin secret du Lyhe Ghiah."
         },
         {
             "id": 2743,
             "name": "Visiteur du Jardin secret du Lyhe Ghiah IV",
             "description": "Pénétrer 20 fois dans le Jardin secret du Lyhe Ghiah.",
-            "points": 20,
-            "reward": "Gardien du jardin secret / Gardienne du jardin secret",
-            "patch": "5.4"
+            "reward": "Gardien du jardin secret / Gardienne du jardin secret"
         },
         {
             "id": 2744,
             "name": "Secret éventé I",
-            "description": "Réussir 1 série de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
-            "points": 5,
-            "patch": "5.4"
+            "description": "Réussir 1 série de cinq invocations dans le Jardin secret du Lyhe Ghiah."
         },
         {
             "id": 2745,
             "name": "Secret éventé II",
-            "description": "Réussir 5 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Réussir 5 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah."
         },
         {
             "id": 2746,
             "name": "Secret éventé III",
-            "description": "Réussir 10 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Réussir 10 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah."
         },
         {
             "id": 2747,
             "name": "Secret éventé IV",
             "description": "Réussir 20 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
-            "points": 20,
-            "reward": "Échappé du jardin secret / Échappée du jardin secret",
-            "patch": "5.4"
+            "reward": "Échappé du jardin secret / Échappée du jardin secret"
         }
     ]
 }

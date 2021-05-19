@@ -1,588 +1,423 @@
 {
-    "key": "raids",
     "groupName": "Raids",
     "tasks": [
         {
             "description": "Finir le Labyrinthe de Bahamut 1 fois.",
             "id": 747,
-            "name": "Chevalier du labyrinthe I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Chevalier du labyrinthe I"
         },
         {
             "description": "Finir le Labyrinthe de Bahamut 5 fois.",
             "id": 748,
-            "name": "Chevalier du labyrinthe II",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Chevalier du labyrinthe II"
         },
         {
             "description": "Finir le Labyrinthe de Bahamut 10 fois.",
             "id": 749,
-            "name": "Chevalier du labyrinthe III",
-            "points": 20,
-            "patch": "2.1"
+            "name": "Chevalier du labyrinthe III"
         },
         {
             "description": "Finir le Dédale antique 1 fois.",
             "id": 883,
-            "name": "Dédale de là !",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Dédale de là !"
         },
         {
             "description": "Finir les Méandres de Bahamut 1 fois.",
             "id": 887,
-            "name": "Mercenaire des Méandres I",
-            "points": 5,
-            "patch": "2.2"
+            "name": "Mercenaire des Méandres I"
         },
         {
             "description": "Finir les Méandres de Bahamut 5 fois.",
             "id": 888,
-            "name": "Mercenaire des Méandres II",
-            "points": 10,
-            "patch": "2.2"
+            "name": "Mercenaire des Méandres II"
         },
         {
             "description": "Finir les Méandres de Bahamut 10 fois.",
             "id": 889,
-            "name": "Mercenaire des Méandres III",
-            "points": 20,
-            "patch": "2.2"
+            "name": "Mercenaire des Méandres III"
         },
         {
             "description": "Finir la Tour de Syrcus 1 fois.",
             "id": 995,
-            "name": "Qu'est-ce que c'est que ce Syrcus !?",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Qu'est-ce que c'est que ce Syrcus !?"
         },
         {
             "reward": "Ravageur de la rafflesia / Ravageuse de la rafflesia",
             "description": "Vaincre la rafflesia dans les Méandres de Bahamut I (sadique).",
             "id": 997,
-            "name": "Tortionnaire de la rafflesia",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Tortionnaire de la rafflesia"
         },
         {
             "reward": "Massacreur de Mélusine / Massacreuse de Mélusine",
             "description": "Vaincre Mélusine dans les Méandres de Bahamut II (sadique).",
             "id": 998,
-            "name": "Tortionnaire de Mélusine",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Tortionnaire de Mélusine"
         },
         {
             "reward": "Élagueur du bio-tréant / Élagueuse du bio-tréant",
             "description": "Vaincre le bio-tréant dans les Méandres de Bahamut III (sadique).",
             "id": 999,
-            "name": "Tortionnaire du bio-tréant",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Tortionnaire du bio-tréant"
         },
         {
             "reward": "Le Dominateur / La Dominatrice",
             "description": "Vaincre Nael deus Darnus dans les Méandres de Bahamut IV (sadique).",
             "id": 1000,
-            "name": "Maso deus Sado",
-            "points": 10,
-            "patch": "2.3"
+            "name": "Maso deus Sado"
         },
         {
             "reward": "Louisoix miniature",
             "description": "Finir l'Abîme de Bahamut 1 fois.",
             "id": 1040,
-            "name": "Jusqu'au fond de l'Abîme I",
-            "points": 5,
-            "patch": "2.4"
+            "name": "Jusqu'au fond de l'Abîme I"
         },
         {
             "description": "Finir l'Abîme de Bahamut 5 fois.",
             "id": 1041,
-            "name": "Jusqu'au fond de l'Abîme II",
-            "points": 10,
-            "patch": "2.4"
+            "name": "Jusqu'au fond de l'Abîme II"
         },
         {
             "description": "Finir l'Abîme de Bahamut 10 fois.",
             "id": 1042,
-            "name": "Jusqu'au fond de l'Abîme III",
-            "points": 20,
-            "patch": "2.4"
+            "name": "Jusqu'au fond de l'Abîme III"
         },
         {
             "description": "Explorer le Monde des Ténèbres.",
             "id": 1068,
-            "name": "Ténébreux conquérant",
-            "points": 20,
-            "patch": "2.5"
+            "name": "Ténébreux conquérant"
         },
         {
             "description": "Finir Gordias: le Père 1 fois.",
             "id": 1228,
-            "name": "Les péchés du Père I",
-            "points": 5,
-            "patch": "3.0"
+            "name": "Les péchés du Père I"
         },
         {
             "description": "Finir Gordias: le Père 5 fois.",
             "id": 1229,
-            "name": "Les péchés du Père II",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Les péchés du Père II"
         },
         {
             "description": "Finir Gordias: le Père 10 fois.",
             "id": 1230,
-            "name": "Les péchés du Père III",
-            "points": 20,
-            "patch": "3.0"
+            "name": "Les péchés du Père III"
         },
         {
             "description": "Finir Gordias: le Père (sadique) 1 fois.",
             "id": 1231,
-            "name": "Le sadisme du Père I",
-            "points": 5,
-            "patch": "3.05"
+            "name": "Le sadisme du Père I"
         },
         {
             "description": "Finir Gordias: le Père (sadique) 5 fois.",
             "id": 1232,
-            "name": "Le sadisme du Père II",
-            "points": 10,
-            "patch": "3.05"
+            "name": "Le sadisme du Père II"
         },
         {
             "description": "Finir Gordias: le Père (sadique) 10 fois.",
             "id": 1233,
-            "name": "Le sadisme du Père III",
-            "points": 20,
-            "patch": "3.05"
+            "name": "Le sadisme du Père III"
         },
         {
             "description": "Explorer l'Arche du néant.",
             "id": 1399,
-            "name": "Passager du néant",
-            "points": 10,
-            "patch": "3.1"
+            "name": "Passager du néant"
         },
         {
             "description": "Finir Midas: le Fils 1 fois.",
             "id": 1476,
-            "name": "Les péchés du Fils I",
-            "points": 5,
-            "patch": "3.15"
+            "name": "Les péchés du Fils I"
         },
         {
             "description": "Finir Midas: le Fils 5 fois.",
             "id": 1477,
-            "name": "Les péchés du Fils II",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Les péchés du Fils II"
         },
         {
             "description": "Finir Midas: le Fils 10 fois.",
             "id": 1478,
-            "name": "Les péchés du Fils III",
-            "points": 20,
-            "patch": "3.15"
+            "name": "Les péchés du Fils III"
         },
         {
             "description": "Finir Midas: le Fils (sadique) 1 fois.",
             "id": 1479,
-            "name": "Le sadisme du Fils I",
-            "points": 5,
-            "patch": "3.15"
+            "name": "Le sadisme du Fils I"
         },
         {
             "description": "Finir Midas: le Fils (sadique) 5 fois.",
             "id": 1480,
-            "name": "Le sadisme du Fils II",
-            "points": 10,
-            "patch": "3.15"
+            "name": "Le sadisme du Fils II"
         },
         {
             "description": "Finir Midas: le Fils (sadique) 10 fois.",
             "id": 1481,
-            "name": "Le sadisme du Fils III",
-            "points": 20,
-            "patch": "3.15"
+            "name": "Le sadisme du Fils III"
         },
         {
             "description": "Explorer la Cité défendue de Mhach",
             "id": 1574,
-            "name": "En avant, Mhach !",
-            "points": 10,
-            "patch": "3.3"
+            "name": "En avant, Mhach !"
         },
         {
             "description": "Finir Alexander: le Créateur 1 fois.",
             "id": 1639,
-            "name": "Les péchés du Créateur I",
-            "points": 5,
-            "patch": "3.4"
+            "name": "Les péchés du Créateur I"
         },
         {
             "description": "Finir Alexander: le Créateur 5 fois.",
             "id": 1640,
-            "name": "Les péchés du Créateur II",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Les péchés du Créateur II"
         },
         {
             "description": "Finir Alexander: le Créateur 10 fois.",
             "id": 1641,
-            "name": "Les péchés du Créateur III",
-            "points": 20,
-            "patch": "3.4"
+            "name": "Les péchés du Créateur III"
         },
         {
             "description": "Finir Alexander: le Créateur (sadique) 1 fois.",
             "id": 1642,
-            "name": "Le sadisme du Créateur I",
-            "points": 5,
-            "patch": "3.4"
+            "name": "Le sadisme du Créateur I"
         },
         {
             "description": "Finir Alexander: le Créateur (sadique) 5 fois.",
             "id": 1643,
-            "name": "Le sadisme du Créateur II",
-            "points": 10,
-            "patch": "3.4"
+            "name": "Le sadisme du Créateur II"
         },
         {
             "description": "Finir Alexander: le Créateur (sadique) 10 fois.",
             "id": 1644,
-            "name": "Le sadisme du Créateur III",
-            "points": 20,
-            "patch": "3.4"
+            "name": "Le sadisme du Créateur III"
         },
         {
             "description": "Explorer Dun Scaith.",
             "id": 1689,
-            "name": "Plus une ombre au tableau",
-            "points": 10,
-            "patch": "3.5"
+            "name": "Plus une ombre au tableau"
         },
         {
             "description": "Finir Oméga: Deltastice 1 fois.",
             "id": 1895,
-            "name": "Survivant du Deltastice I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "Survivant du Deltastice I"
         },
         {
             "description": "Finir Oméga: Deltastice 5 fois.",
             "id": 1896,
-            "name": "Survivant du Deltastice II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Survivant du Deltastice II"
         },
         {
             "description": "Finir Oméga: Deltastice 10 fois.",
             "id": 1897,
-            "name": "Survivant du Deltastice III",
-            "points": 20,
-            "patch": "4.01"
+            "name": "Survivant du Deltastice III"
         },
         {
             "description": "Finir Oméga: Deltastice (sadique) 1 fois.",
             "id": 1898,
-            "name": "Conquérant du Deltastice I",
-            "points": 5,
-            "patch": "4.01"
+            "name": "Conquérant du Deltastice I"
         },
         {
             "description": "Finir Oméga: Deltastice (sadique) 5 fois.",
             "id": 1899,
-            "name": "Conquérant du Deltastice II",
-            "points": 10,
-            "patch": "4.01"
+            "name": "Conquérant du Deltastice II"
         },
         {
             "description": "Finir Oméga: Deltastice (sadique) 10 fois.",
             "id": 1900,
-            "name": "Conquérant du Deltastice III",
-            "points": 20,
-            "patch": "4.01"
+            "name": "Conquérant du Deltastice III"
         },
         {
             "description": "Finir la Cité royale de Rabanastre.",
             "id": 1992,
-            "name": "Bas les masques",
-            "points": 5,
-            "patch": "4.1"
+            "name": "Bas les masques"
         },
         {
             "reward": "La Légende",
             "description": "Vaincre Primo-Bahamut dans le raid “L'Abîme infini de Bahamut (fatal)”.",
             "id": 1993,
-            "name": "Ennemi fatal de Bahamut",
-            "points": 10,
-            "patch": "4.11"
+            "name": "Ennemi fatal de Bahamut"
         },
         {
             "description": "Finir Oméga: Sigmastice 1 fois.",
             "id": 2024,
-            "name": "Survivant du Sigmastice I",
-            "points": 5,
-            "patch": "4.2"
+            "name": "Survivant du Sigmastice I"
         },
         {
             "description": "Finir Oméga: Sigmastice 5 fois.",
             "id": 2025,
-            "name": "Survivant du Sigmastice II",
-            "points": 10,
-            "patch": "4.2"
+            "name": "Survivant du Sigmastice II"
         },
         {
             "description": "Finir Oméga: Sigmastice 10 fois.",
             "id": 2026,
-            "name": "Survivant du Sigmastice III",
-            "points": 20,
-            "patch": "4.2"
+            "name": "Survivant du Sigmastice III"
         },
         {
             "description": "Finir Oméga: Sigmastice (sadique) 1 fois.",
             "id": 2027,
-            "name": "Conquérant du Sigmastice I",
-            "points": 5,
-            "patch": "4.2"
+            "name": "Conquérant du Sigmastice I"
         },
         {
             "description": "Finir Oméga: Sigmastice (sadique) 5 fois.",
             "id": 2028,
-            "name": "Conquérant du Sigmastice II",
-            "points": 10,
-            "patch": "4.2"
+            "name": "Conquérant du Sigmastice II"
         },
         {
             "description": "Finir Oméga: Sigmastice (sadique) 10 fois.",
             "id": 2029,
-            "name": "Conquérant du Sigmastice III",
-            "points": 20,
-            "patch": "4.2"
+            "name": "Conquérant du Sigmastice III"
         },
         {
             "description": "Finir Le Phare de Ridorana.",
             "id": 2106,
-            "name": "Phare à éons",
-            "points": 5,
-            "patch": "4.3"
+            "name": "Phare à éons"
         },
         {
             "reward": "L'ultime Légende",
             "description": "Vaincre Ultima Arma dans le raid “La Fantasmagorie d'Ultima (fatal)”.",
             "id": 2107,
-            "name": "Ultime mise en pièces",
-            "points": 10,
-            "patch": "4.31"
+            "name": "Ultime mise en pièces"
         },
         {
             "description": "Finir Oméga: Alphastice 1 fois.",
             "id": 2118,
-            "name": "Survivant de l'Alphastice I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "Survivant de l'Alphastice I"
         },
         {
             "description": "Finir Oméga: Alphastice 5 fois.",
             "id": 2119,
-            "name": "Survivant de l'Alphastice II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "Survivant de l'Alphastice II"
         },
         {
             "description": "Finir Oméga: Alphastice 10 fois.",
             "id": 2120,
-            "name": "Survivant de l'Alphastice III",
-            "points": 20,
-            "patch": "4.4"
+            "name": "Survivant de l'Alphastice III"
         },
         {
             "description": "Finir Oméga: Alphastice (sadique) 1 fois.",
             "id": 2121,
-            "name": "Conquérant de l'Alphastice I",
-            "points": 5,
-            "patch": "4.4"
+            "name": "Conquérant de l'Alphastice I"
         },
         {
             "description": "Finir Oméga: Alphastice (sadique) 5 fois.",
             "id": 2122,
-            "name": "Conquérant de l'Alphastice II",
-            "points": 10,
-            "patch": "4.4"
+            "name": "Conquérant de l'Alphastice II"
         },
         {
             "description": "Finir Oméga: Alphastice (sadique) 10 fois.",
             "id": 2123,
-            "name": "Conquérant de l'Alphastice III",
-            "points": 20,
-            "patch": "4.4"
+            "name": "Conquérant de l'Alphastice III"
         },
         {
             "description": "Finir Le Monastère d'Orbonne.",
             "id": 2164,
-            "name": "Un monastère hors bornes",
-            "points": 5,
-            "patch": "4.5"
+            "name": "Un monastère hors bornes"
         },
         {
             "description": "Finir L'Éveil d'Éden 1 fois.",
             "id": 2409,
-            "name": "Sonner le clairon I",
-            "points": 5,
-            "patch": "5.01"
+            "name": "Sonner le clairon I"
         },
         {
             "description": "Finir L'Éveil d'Éden 5 fois.",
             "id": 2410,
-            "name": "Sonner le clairon II",
-            "points": 10,
-            "patch": "5.01"
+            "name": "Sonner le clairon II"
         },
         {
             "description": "Finir L'Éveil d'Éden 10 fois.",
             "id": 2411,
-            "name": "Sonner le clairon III",
-            "points": 20,
-            "patch": "5.01"
+            "name": "Sonner le clairon III"
         },
         {
             "description": "Finir L'Éveil d'Éden (sadique) 1 fois.",
             "id": 2412,
-            "name": "Lendemain difficile I",
-            "points": 5,
-            "patch": "5.05"
+            "name": "Lendemain difficile I"
         },
         {
             "description": "Finir L'Éveil d'Éden (sadique) 5 fois.",
             "id": 2413,
-            "name": "Lendemain difficile II",
-            "points": 10,
-            "patch": "5.05"
+            "name": "Lendemain difficile II"
         },
         {
             "description": "Finir L'Éveil d'Éden (sadique) 10 fois.",
             "id": 2414,
-            "name": "Lendemain difficile III",
-            "points": 20,
-            "patch": "5.05"
+            "name": "Lendemain difficile III"
         },
         {
             "description": "Finir La réplique de l'usine désaffectée.",
             "id": 2443,
-            "name": "Bizarroïdes androïdes",
-            "points": 5,
-            "patch": "5.1"
+            "name": "Bizarroïdes androïdes"
         },
         {
             "reward": "La Légende parfaite",
             "description": "Vaincre Alexander parfait dans le raid “L'Odyssée d'Alexander (fatal)”.",
             "id": 2444,
-            "name": "Nul n'est parfait",
-            "points": 10,
-            "patch": "5.11"
+            "name": "Nul n'est parfait"
         },
         {
             "description": "Finir Les Accords d'Éden 1 fois.",
             "id": 2591,
-            "name": "Briser la glace I",
-            "points": 5,
-            "patch": "5.2"
+            "name": "Briser la glace I"
         },
         {
             "description": "Finir Les Accords d'Éden 5 fois.",
             "id": 2592,
-            "name": "Briser la glace II",
-            "points": 10,
-            "patch": "5.2"
+            "name": "Briser la glace II"
         },
         {
             "description": "Finir Les Accords d'Éden 10 fois.",
             "id": 2593,
-            "name": "Briser la glace III",
-            "points": 20,
-            "patch": "5.2"
+            "name": "Briser la glace III"
         },
         {
             "description": "Finir Les Accords d'Éden (sadique) 1 fois.",
             "id": 2594,
-            "name": "Accords parfaits I",
-            "points": 5,
-            "patch": "5.2"
+            "name": "Accords parfaits I"
         },
         {
             "description": "Finir Les Accords d'Éden (sadique) 5 fois.",
             "id": 2595,
-            "name": "Accords parfaits II",
-            "points": 10,
-            "patch": "5.2"
+            "name": "Accords parfaits II"
         },
         {
             "description": "Finir Les Accords d'Éden (sadique) 10 fois.",
             "id": 2596,
-            "name": "Accords parfaits III",
-            "points": 20,
-            "patch": "5.2"
+            "name": "Accords parfaits III"
         },
         {
             "id": 2622,
             "name": "Pantins désarticulés",
-            "description": "Finir La base militaire des Pantins.",
-            "points": 5,
-            "patch": "5.3"
+            "description": "Finir La base militaire des Pantins."
         },
         {
             "id": 2719,
             "name": "La promesse du souvenir I",
-            "description": "Finir La Promesse d'Éden 1 fois.",
-            "points": 5,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden 1 fois."
         },
         {
             "id": 2720,
             "name": "La promesse du souvenir II",
-            "description": "Finir La Promesse d'Éden 5 fois.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden 5 fois."
         },
         {
             "id": 2721,
             "name": "La promesse du souvenir III",
-            "description": "Finir La Promesse d'Éden 10 fois.",
-            "points": 20,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden 10 fois."
         },
         {
             "id": 2722,
             "name": "Dans son jardin I",
-            "description": "Finir La Promesse d'Éden (sadique) 1 fois.",
-            "points": 5,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden (sadique) 1 fois."
         },
         {
             "id": 2723,
             "name": "Dans son jardin II",
-            "description": "Finir La Promesse d'Éden (sadique) 5 fois.",
-            "points": 10,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden (sadique) 5 fois."
         },
         {
             "id": 2724,
             "name": "Dans son jardin III",
-            "description": "Finir La Promesse d'Éden (sadique) 10 fois.",
-            "points": 20,
-            "patch": "5.4"
+            "description": "Finir La Promesse d'Éden (sadique) 10 fois."
         },
         {
             "id": 2847,
             "name": "Réalité virtuelle",
-            "description": "Finir La tour de la Contingence.",
-            "points": 5,
-            "patch": "5.5"
+            "description": "Finir La tour de la Contingence."
         }
     ]
 }

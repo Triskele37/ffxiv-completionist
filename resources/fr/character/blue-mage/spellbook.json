@@ -1,5 +1,4 @@
 {
-    "key": "spellbook",
     "groupName": "Codex bleu",
     "headers": {
         "number": "N°",
@@ -10,728 +9,624 @@
     "tasks": [
         {
             "id": 0,
-            "number": "1",
             "name": "Tir d'eau",
             "enemy": "",
             "location": "Sort de départ"
         },
         {
             "id": 1,
-            "number": "2",
             "name": "Crache-flammes",
             "enemy": "Gobtank G-VI, Einhänder",
             "location": "Le Bivouac de Brayflox (brutal), Le Gardien du lac"
         },
         {
             "id": 2,
-            "number": "3",
             "name": "Aquasouffle",
             "enemy": "Orthros, Léviathan",
             "location": "Le Col du dragon, Le Briseur de marées"
         },
         {
             "id": 3,
-            "number": "4",
             "name": "Démence",
             "enemy": "Zu",
             "location": "Le Phare de Sirius"
         },
         {
             "id": 4,
-            "number": "5",
             "name": "Canon-foreur",
             "enemy": "Avant-garde magitek améliorée",
             "location": "Thanalan septentrional (16, 15)"
         },
         {
             "id": 5,
-            "number": "6",
             "name": "Haute tension",
             "enemy": "Sphère De Contrôle, Sphère bestiale",
             "location": "Le Labyrinthe de Bahamut I / II, La Grande Mascarade n°15"
         },
         {
             "id": 6,
-            "number": "7",
             "name": "Approche masquée",
             "enemy": "Sergent-major Dalvag, Baalzephon, Dantalion",
             "location": "Thanalan septentrional, Les Vestiges de la cité d'Amdapor, L'Hypogée de Tam-Tara (brutal)"
         },
         {
             "id": 7,
-            "number": "8",
             "name": "Dard final",
             "enemy": "Frelon tueur",
             "location": "Noscea centrale (15, 15)"
         },
         {
             "id": 8,
-            "number": "9",
             "name": "Chant de l'agonie",
             "enemy": "Sirène",
             "location": "Le Phare de Sirius"
         },
         {
             "id": 9,
-            "number": "10",
             "name": "Regard noir",
             "enemy": "Trésorier",
             "location": "Le Val d'Aurum"
         },
         {
             "id": 10,
-            "number": "11",
             "name": "Brise-plaine",
             "enemy": "Golem de basalte, Golem de grès",
             "location": "Noscea extérieure, Thanalan méridional"
         },
         {
             "id": 11,
-            "number": "12",
             "name": "Hérissement",
             "enemy": "Sanglier sauvage",
             "location": "Forêt de l'est (18, 24)"
         },
         {
             "id": 12,
-            "number": "13",
             "name": "Vent blanc",
             "enemy": "",
             "location": "Apprendre 10 sorts"
         },
         {
             "id": 13,
-            "number": "14",
             "name": "Pétrification niveau 5",
             "enemy": "Vigile du manoir",
             "location": "Le Manoir des Haukke"
         },
         {
             "id": 14,
-            "number": "15",
             "name": "Couteau aiguisé",
             "enemy": "Tomberry roi",
             "location": "Le Palais du Vagabond"
         },
         {
             "id": 15,
-            "number": "16",
             "name": "Pointes de glace",
             "enemy": "Imp",
             "location": "Forêt centrale (27, 24)"
         },
         {
             "id": 16,
-            "number": "17",
             "name": "Suceur de sang",
             "enemy": "Chauve-souris cavernicole",
             "location": "Basse-Noscea (27,16)"
         },
         {
             "id": 17,
-            "number": "18",
             "name": "Gland explosif",
             "enemy": "Pousse de tréant",
             "location": "Forêt du nord (24, 28)"
         },
         {
             "id": 18,
-            "number": "19",
             "name": "Lancer de bombe",
             "enemy": "Pêcheur gobelin, Parieur gobelin",
             "location": "Noscea centrale (23, 21)"
         },
         {
             "id": 19,
-            "number": "20",
             "name": "Sans défense",
             "enemy": "",
             "location": "Apprendre 5 sorts"
         },
         {
             "id": 20,
-            "number": "21",
             "name": "Auto-destruction",
             "enemy": "Bombo planeur",
             "location": "Thanalan occidental (27, 16)"
         },
         {
             "id": 21,
-            "number": "22",
             "name": "Fusion",
             "enemy": "",
             "location": "Apprendre 20 sorts"
         },
         {
             "id": 22,
-            "number": "23",
             "name": "Désorientation",
             "enemy": "Qiqirn casse-coquille",
             "location": "Thanalan central (16, 19)"
         },
         {
             "id": 23,
-            "number": "24",
             "name": "Sardine volante",
             "enemy": "Apkallu",
             "location": "Noscea orientale (27, 35)"
         },
         {
             "id": 24,
-            "number": "25",
             "name": "Souffle nasal",
             "enemy": "Typhon",
             "location": "Le Col du dragon, La Grande Masquarade"
         },
         {
             "id": 25,
-            "number": "26",
             "name": "Poids de 4 tonz",
             "enemy": "Orthros",
             "location": "Le Col du dragon"
         },
         {
             "id": 26,
-            "number": "27",
             "name": "Regard intense",
             "enemy": "Anantaboga",
             "location": "Le Château d'Amdapor"
         },
         {
             "id": 27,
-            "number": "28",
             "name": "Mauvaise haleine",
             "enemy": "Storoper, Morbol",
             "location": "Forêt centrale (26, 29), Mor Dhona (15, 14)"
         },
         {
             "id": 28,
-            "number": "29",
             "name": "Blindage",
             "enemy": "Cuca Fera, Dragon cuirassé dravanien",
             "location": "Le Vigile de Pierre (brutal), Le siège de la sainte Cité d’Ishgard"
         },
         {
             "id": 29,
-            "number": "30",
             "name": "Garde puissante",
             "enemy": "",
             "location": "Apprendre 10 sorts"
         },
         {
             "id": 30,
-            "number": "31",
             "name": "Langue poisseuse",
             "enemy": "Crapaud toxique, Crapaud rieur",
             "location": "Thanalan central (26, 19), Thanalan occidental (14, 6)"
         },
         {
             "id": 31,
-            "number": "32",
             "name": "Huile de crapaud",
             "enemy": "Crapaud rieur géant",
             "location": "Thanalan occidental (15, 7)"
         },
         {
             "id": 32,
-            "number": "33",
             "name": "Voix du bélier",
             "enemy": "Chimère, Chimère Dhorme, Azulmagia",
             "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade n°25"
         },
         {
             "id": 33,
-            "number": "34",
             "name": "Voix du dragon",
             "enemy": "Chimère, Chimère Dhorme, Azulmagia",
             "location": "Le Gouffre hurlant, La chimère dhorme du Coerthas, La Grande Masquarade n°25"
         },
         {
             "id": 34,
-            "number": "35",
             "name": "Missile",
             "enemy": "Enkidu",
             "location": "Revanche au vieux château"
         },
         {
             "id": 35,
-            "number": "36",
             "name": "1000 aiguilles",
             "enemy": "Pampa bailarin",
             "location": "Thanalan méridional (16, 15)"
         },
         {
             "id": 36,
-            "number": "37",
             "name": "Tir d'encre",
             "enemy": "Kraken",
             "location": "Sastasha (brutal)"
         },
         {
             "id": 37,
-            "number": "38",
             "name": "Angon enflammé",
             "enemy": "Koheel Ja",
             "location": "Le Palais du Vagabond (brutal)"
         },
         {
             "id": 38,
-            "number": "39",
             "name": "Flûte lunaire",
             "enemy": "",
             "location": "Compléter 10 épreuves de la Grande Masquarade"
         },
         {
             "id": 39,
-            "number": "40",
             "name": "Queue forante",
             "enemy": "Karlabos, Griffe d'argile",
             "location": "Sastasha (brutal), Alexander - Le Bras du Père"
         },
         {
             "id": 40,
-            "number": "41",
             "name": "Explosion mentale",
             "enemy": "Galvanth le tyran",
             "location": "L'Hypogée de Tam-Tara"
         },
         {
             "id": 41,
-            "number": "42",
             "name": "Glas",
             "enemy": "",
             "location": "Compléter 20 épreuves de la Grande Masquarade"
         },
         {
             "id": 42,
-            "number": "43",
             "name": "Lumière sinistre",
             "enemy": "Protée lacustre",
             "location": "Mor Dhona (13, 10)"
         },
         {
             "id": 43,
-            "number": "44",
             "name": "Pluie de plumes",
             "enemy": "Garuda",
             "location": "Hurlœil (extrême)"
         },
         {
             "id": 44,
-            "number": "45",
             "name": "Éruption",
             "enemy": "Ifrit",
             "location": "Le Cratère des tissons"
         },
         {
             "id": 45,
-            "number": "46",
             "name": "Casse-montagnes",
             "enemy": "Titan",
             "location": "Le Nombril (brutal)"
         },
         {
             "id": 46,
-            "number": "47",
             "name": "Frappe de choc",
             "enemy": "Ramuh",
             "location": "L'Arbre du jugement (brutal)"
         },
         {
             "id": 47,
-            "number": "48",
             "name": "Danse de glace",
             "enemy": "Shiva",
             "location": "L'Amphithéâtre d'Akh Afah (extrême)"
         },
         {
             "id": 48,
-            "number": "49",
             "name": "Voile du Déchaîneur",
             "enemy": "Leviathan",
             "location": "Le Briseur de marées"
         },
         {
             "id": 49,
-            "number": "50",
             "name": "Vent alpin",
             "enemy": "Griffon",
             "location": "L'Écume des cieux d'Abalathia (36, 9)"
         },
         {
             "id": 50,
-            "number": "51",
             "name": "Vague inconstante",
             "enemy": "Liquide vivant, Shikigami d'eau",
             "location": "Alexandre - Le Bras du Père, La Grande Masquarade n°29"
         },
         {
             "id": 51,
-            "number": "52",
             "name": "Aquilons",
             "enemy": "Yéti du grésil",
             "location": "Hautes terres du Coerthas occidental (22, 27)"
         },
         {
             "id": 52,
-            "number": "53",
             "name": "Électrogenèse",
             "enemy": "Conodonte",
             "location": "L'Écume des cieux d'Abalathia (26, 33)"
         },
         {
             "id": 53,
-            "number": "54",
             "name": "Kaltstrahl",
             "enemy": "Faust, Poupée Jagd",
             "location": "Alexandre - Le Poing du Père, Alexandre - Le Poignet du Père"
         },
         {
             "id": 54,
-            "number": "55",
             "name": "Transfixion abyssale",
             "enemy": "Astaroth, Archidémon, Biblioclepte",
             "location": "Le Manoir des Haukke (brutal), Arrière-pays dravanien ( Mandat : Nécrologos : arrestation mouvementé), La Grande bibliothèque de Gubal"
         },
         {
             "id": 55,
-            "number": "56",
             "name": "Gazouillement",
             "enemy": "Païssa",
             "location": "L'Écume des cieux d'Abalathia (24, 33)"
         },
         {
             "id": 56,
-            "number": "57",
             "name": "Onde lugubre",
             "enemy": "Empousa",
             "location": "Azys Lla (30, 12)"
         },
         {
             "id": 57,
-            "number": "58",
             "name": "Pompon soignant",
             "enemy": "Kupli Kipp Pieds-poilus",
             "location": "La Lisière de ronces (extrême)"
         },
         {
             "id": 58,
-            "number": "59",
             "name": "Gobépiderme",
             "enemy": "Traquenardeur Alexandrin, Slipkinx Joints-d'acier (rang A)",
             "location": "Alexander - Le Souffle du Créateur, L'Arrière-pays dravanien"
         },
         {
             "id": 59,
-            "number": "60",
             "name": "Marteau magique",
             "enemy": "Apanda, Epilogi",
             "location": " La Grande bibliothèque de Gubal (brutal), La Grande Masquarade n°24"
         },
         {
             "id": 60,
-            "number": "61",
             "name": "Ordre défensif",
             "enemy": "Reine des guêpes",
             "location": "L'Arboretum Sainte-Mocianne"
         },
         {
             "id": 61,
-            "number": "62",
             "name": "Ritournelle batracienne",
             "enemy": " Poroggo",
             "location": "L'Arrière-pays dravanien (12, 35)"
         },
         {
             "id": 62,
-            "number": "63",
             "name": "Bang supersonique",
             "enemy": "Anzu",
             "location": "L'Écume des cieux d'Abalathia (21, 6)"
         },
         {
             "id": 63,
-            "number": "64",
             "name": "Sifflement",
             "enemy": "Dhalmel",
             "location": "L'Écume des cieux d'Abalathia (16, 30)"
         },
         {
             "id": 64,
-            "number": "65",
             "name": "Tour de cavalier blanc",
             "enemy": "Chevalier blanc",
             "location": "La Voûte"
         },
         {
             "id": 65,
-            "number": "66",
             "name": "Tour de cavalier noir",
             "enemy": "Chevalier noir",
             "location": "La Voûte"
         },
         {
             "id": 66,
-            "number": "67",
             "name": "Mort niveau 5",
             "enemy": "Page Soixante-quatre",
             "location": "La Grande bibliothèque de Gubal"
         },
         {
             "id": 67,
-            "number": "68",
             "name": "Lance-roquettes",
             "enemy": "Arme blindée",
             "location": "La Muraille de Baelsar"
         },
         {
             "id": 68,
-            "number": "69",
             "name": "Rayon perpétuel",
             "enemy": "Manipulateur",
             "location": "Alexander - Le Fardeau du Père (sadique)"
         },
         {
             "id": 69,
-            "number": "70",
             "name": "Cactugarde",
             "enemy": "Pampa garde",
             "location": "Le Temple enseveli de Qarn (brutal)"
         },
         {
             "id": 70,
-            "number": "71",
             "name": "Éclat vengeur",
             "enemy": "",
             "location": "Apprendre 50 sorts"
         },
         {
             "id": 71,
-            "number": "72",
             "name": "Grâce angélique",
             "enemy": "",
             "location": "Compléter 30 épreuves de la Grande Masquarade"
         },
         {
             "id": 72,
-            "number": "73",
             "name": "Exuviation",
             "enemy": "Wamoura d'Abalathia",
             "location": "L'Écume des cieux d'Abalathia (9, 16)"
         },
         {
             "id": 73,
-            "number": "74",
             "name": "Reflux",
             "enemy": "Wyverne des nuages",
             "location": "L'Écume des cieux de Dravania"
         },
         {
             "id": 74,
-            "number": "75",
             "name": "Dévoration",
             "enemy": "Caducée",
             "location": "Le Labyrinthe de Bahamut I "
         },
         {
             "id": 75,
-            "number": "76",
             "name": "Acuité concentrée",
             "enemy": "Scribe de l'arène",
             "location": "La Grande Masquarade n°24"
         },
         {
             "id": 76,
-            "number": "77",
             "name": "Imitation éthéréenne",
             "enemy": "Trash de Grah virtuose",
             "location": "Le Phare de Sirius (brutal)"
         },
         {
             "id": 77,
-            "number": "78",
             "name": "Surpanakha",
             "enemy": "Ravana",
             "location": "Thok Ast Thok"
         },
         {
             "id": 78,
-            "number": "79",
             "name": "Quasar",
             "enemy": "Sophia",
             "location": "Unité de contention P1P6"
         },
         {
             "id": 79,
-            "number": "80",
             "name": "Pied justicier",
             "enemy": "Justicier",
             "location": "Alexander - Le Fardeau du Fils"
         },
         {
             "id": 80,
-            "number": "81",
             "name": "Triple trident",
             "enemy": "Namazu ebisu",
             "location": "Yanxia (28, 6)"
         },
         {
             "id": 81,
-            "number": "82",
             "name": "Fourmillement",
             "enemy": "Namazu ebisu",
             "location": "Yanxia (28, 6)"
         },
         {
             "id": 82,
-            "number": "83",
             "name": "Tatami-gaeshi",
             "enemy": "Dôjun Maru",
             "location": "Le Château de Kugane"
         },
         {
             "id": 83,
-            "number": "84",
             "name": "Brume glaciale",
             "enemy": "Dragon des brumes",
             "location": "L'Escarre"
         },
         {
             "id": 84,
-            "number": "85",
             "name": "Stotram",
             "enemy": "Lakshmi",
             "location": "Émanation"
         },
         {
             "id": 85,
-            "number": "86",
             "name": "Faisceaux sacrés",
             "enemy": "Sigmastice v1.0",
             "location": "Train fantôme"
         },
         {
             "id": 86,
-            "number": "87",
             "name": "Sukuinage-gadoue",
             "enemy": "Tokkapchi",
             "location": "L'Arboretum Sainte-Mocianne (brutal)"
         },
         {
             "id": 87,
-            "number": "88",
             "name": "Angélique",
             "enemy": "",
             "location": "Atteindre le niveau 70"
         },
         {
             "id": 88,
-            "number": "89",
             "name": "Barrière mystique",
             "enemy": "Genbu",
             "location": "Le Couvercle des enfers"
         },
         {
             "id": 89,
-            "number": "90",
             "name": "Rose de la destruction",
             "enemy": "Ivon le Coeurl",
             "location": "Le Temple du Poing"
         },
         {
             "id": 90,
-            "number": "91",
             "name": "Instinct profond",
             "enemy": "Maître Coeurl, Coeurl scruti",
             "location": "Haute Noscea (8, 21), Le Temple du Poing"
         },
         {
             "id": 91,
-            "number": "92",
             "name": "Ultravibration",
             "enemy": "Kongamato",
             "location": "Les Pics (11, 25)"
         },
         {
             "id": 92,
-            "number": "93",
             "name": "Givre",
             "enemy": "Alte Roite",
             "location": "Deltastice v1.0"
         },
         {
             "id": 93,
-            "number": "94",
             "name": "Obus d'ypérite",
             "enemy": "Oméga",
             "location": "Alphastice v3.0"
         },
         {
             "id": 94,
-            "number": "95",
             "name": "Dracoforce",
             "enemy": "",
             "location": "Apprendre 100 sorts"
         },
         {
             "id": 95,
-            "number": "96",
             "name": "Étincelle éthérée",
             "enemy": "Dhruva de sel",
             "location": "Les Lacs (22, 22)"
         },
         {
             "id": 96,
-            "number": "97",
             "name": "Hydrotraction",
             "enemy": "Kelpie",
             "location": "La Cité engloutie de Skalla"
         },
         {
             "id": 97,
-            "number": "98",
             "name": "Malédiction de l'eau",
             "enemy": "Sai Taisui",
             "location": "Le Compas de l'Hirondelle"
         },
         {
             "id": 98,
-            "number": "99",
             "name": "Choco-météore",
             "enemy": "Chocobo coursier",
             "location": "Avant-pays dravanien (34, 28)"
         },
         {
             "id": 99,
-            "number": "100",
             "name": "Magie Matra",
             "enemy": "",
             "location": "Apprendre 100 sorts"
         },
         {
             "id": 100,
-            "number": "101",
             "name": "Impression",
             "enemy": "Oméga",
             "location": "Alphastice v3.0"
         },
         {
             "id": 101,
-            "number": "102",
             "name": "Coup de bâton tournicotant",
             "enemy": "Qitian Dasheng",
             "location": "Le Compas de l'Hirondelle"
         },
         {
             "id": 102,
-            "number": "103",
             "name": "Frénésie spectrale",
             "enemy": "Suzaku",
             "location": "Le Nid des Lamentations"
         },
         {
             "id": 103,
-            "number": "104",
             "name": "Lis araignée",
             "enemy": "Tsukuyomi",
             "location": "Castrum Fluminis"

@@ -1,5 +1,4 @@
 {
-    "key": "companion-skills",
     "groupName": "Compétences du Compagnon",
     "headers": {
         "name": "Compétence",
@@ -13,7 +12,6 @@
             "id": 0,
             "name": "Choco-saut",
             "tree": "Défense",
-            "spCost": "1",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
@@ -21,7 +19,6 @@
             "id": 1,
             "name": "Force améliorée",
             "tree": "Défense",
-            "spCost": "2",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
@@ -29,7 +26,6 @@
             "id": 2,
             "name": "PV améliorés",
             "tree": "Défense",
-            "spCost": "3",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
@@ -37,7 +33,6 @@
             "id": 3,
             "name": "Choco-serres",
             "tree": "Défense",
-            "spCost": "4",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : inflige Lenteur 20% (Durée : 12s)"
         },
@@ -45,7 +40,6 @@
             "id": 4,
             "name": "Précision améliorée",
             "tree": "Défense",
-            "spCost": "5",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
@@ -53,7 +47,6 @@
             "id": 5,
             "name": "Critique amélioré",
             "tree": "Défense",
-            "spCost": "6",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
@@ -61,7 +54,6 @@
             "id": 6,
             "name": "Choco-garde",
             "tree": "Défense",
-            "spCost": "7",
             "type": "Technique d'arme",
             "description": "Réduit de 15% les dégâts subis par le compagnon (Durée : 15s)"
         },
@@ -69,7 +61,6 @@
             "id": 7,
             "name": "Force améliorée",
             "tree": "Défense",
-            "spCost": "8",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
@@ -77,7 +68,6 @@
             "id": 8,
             "name": "PV améliorés",
             "tree": "Défense",
-            "spCost": "9",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
@@ -85,7 +75,6 @@
             "id": 9,
             "name": "Choco-frappe",
             "tree": "Défense",
-            "spCost": "10",
             "type": "Technique d'arme",
             "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissant : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
@@ -93,7 +82,6 @@
             "id": 10,
             "name": "Choco-taillade",
             "tree": "Attaque",
-            "spCost": "1",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 150)"
         },
@@ -101,7 +89,6 @@
             "id": 11,
             "name": "Force améliorée",
             "tree": "Attaque",
-            "spCost": "2",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
@@ -109,7 +96,6 @@
             "id": 12,
             "name": "PV améliorés",
             "tree": "Attaque",
-            "spCost": "3",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
@@ -117,7 +103,6 @@
             "id": 13,
             "name": "Choco-bec",
             "tree": "Attaque",
-            "spCost": "4",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : dégats périodiques (Puissance : 20 / Durée : 18s)"
         },
@@ -125,7 +110,6 @@
             "id": 14,
             "name": "Précision améliorée",
             "tree": "Attaque",
-            "spCost": "5",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
@@ -133,7 +117,6 @@
             "id": 15,
             "name": "Critique amélioré",
             "tree": "Attaque",
-            "spCost": "6",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
@@ -141,7 +124,6 @@
             "id": 16,
             "name": "Choco-ruée",
             "tree": "Attaque",
-            "spCost": "7",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : Étourdissement (Durée: 5s)"
         },
@@ -149,7 +131,6 @@
             "id": 17,
             "name": "Force améliorée",
             "tree": "Attaque",
-            "spCost": "8",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 10%"
         },
@@ -157,7 +138,6 @@
             "id": 18,
             "name": "Vitesse améliorée",
             "tree": "Attaque",
-            "spCost": "9",
             "type": "Trait",
             "description": "La vitesse d'attaque du compagnon est augmentée de 10%"
         },
@@ -165,7 +145,6 @@
             "id": 19,
             "name": "Choco-explosion",
             "tree": "Attaque",
-            "spCost": "10",
             "type": "Technique d'arme",
             "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissance : 170)"
         },
@@ -173,7 +152,6 @@
             "id": 20,
             "name": "Choco-récup",
             "tree": "Soin",
-            "spCost": "1",
             "type": "Technique d'arme",
             "description": "Restaure périodiquement les PV de la cible (Puissance : 25 / Durée : 18s)"
         },
@@ -181,7 +159,6 @@
             "id": 21,
             "name": "Esprit amélioré",
             "tree": "Soin",
-            "spCost": "2",
             "type": "Trait",
             "description": "L'esprit du compagnon est augmenté de 10%"
         },
@@ -189,7 +166,6 @@
             "id": 22,
             "name": "PV améliorés",
             "tree": "Soin",
-            "spCost": "3",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
@@ -197,7 +173,6 @@
             "id": 23,
             "name": "Choco-soin",
             "tree": "Soin",
-            "spCost": "4",
             "type": "Technique d'arme",
             "description": "Restaure les PV de la cible (Puissance : 300)"
         },
@@ -205,7 +180,6 @@
             "id": 24,
             "name": "Précision améliorée",
             "tree": "Soin",
-            "spCost": "5",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
@@ -213,7 +187,6 @@
             "id": 25,
             "name": "Critique amélioré",
             "tree": "Soin",
-            "spCost": "6",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
@@ -221,7 +194,6 @@
             "id": 26,
             "name": "Choco-ardeur",
             "tree": "Soin",
-            "spCost": "7",
             "type": "Technique d'arme",
             "description": "Augmente de 30% les PV restaurés par les sorts curatifs du compagnon (Durée : 30s)"
         },
@@ -229,7 +201,6 @@
             "id": 27,
             "name": "Esprit amélioré",
             "tree": "Soin",
-            "spCost": "8",
             "type": "Trait",
             "description": "L'esprit du compagnon est augmenté de 15%"
         },
@@ -237,7 +208,6 @@
             "id": 28,
             "name": "PV améliorés",
             "tree": "Soin",
-            "spCost": "9",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
@@ -245,7 +215,6 @@
             "id": 29,
             "name": "Choco-médica",
             "tree": "Soin",
-            "spCost": "10",
             "type": "Technique d'arme",
             "description": "Restaure les PV du compagnon et des équipiers autour (Puissance : 150)"
         }

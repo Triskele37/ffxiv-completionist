@@ -1,205 +1,150 @@
 {
-    "key": "blacksmith",
     "groupName": "Blacksmith",
     "tasks": [
         {
             "description": "Réaliser 50 synthèses de métallurgie de niveau 1 à 10.",
             "id": 143,
-            "name": "En avant, forgez : Amateur",
-            "points": 5,
-            "patch": "2.0"
+            "name": "En avant, forgez : Amateur"
         },
         {
             "description": "Réaliser 300 synthèses de métallurgie de niveau 11 à 20.",
             "id": 144,
-            "name": "En avant, forgez : Recrue",
-            "points": 5,
-            "patch": "2.0"
+            "name": "En avant, forgez : Recrue"
         },
         {
             "description": "Réaliser 750 synthèses de métallurgie de niveau 21 à 30.",
             "id": 145,
-            "name": "En avant, forgez : Initié",
-            "points": 5,
-            "patch": "2.0"
+            "name": "En avant, forgez : Initié"
         },
         {
             "description": "Réaliser 1 500 synthèses de métallurgie de niveau 31 à 40.",
             "id": 146,
-            "name": "En avant, forgez : Novice",
-            "points": 5,
-            "patch": "2.0"
+            "name": "En avant, forgez : Novice"
         },
         {
             "reward": "Le Forgeur / La Forgeuse",
             "description": "Réaliser 3 000 synthèses de métallurgie de niveau 41 à 50.",
             "id": 147,
-            "name": "En avant, forgez : Qualifié",
-            "points": 10,
-            "patch": "2.0"
+            "name": "En avant, forgez : Qualifié"
         },
         {
             "reward": "Marteau de virtuose",
             "description": "Accomplir les cinq hauts faits de la série “En avant, forgez”.",
             "id": 148,
-            "name": "Forcené de la forge",
-            "points": 30,
-            "patch": "2.0"
+            "name": "Forcené de la forge"
         },
         {
             "description": "Réaliser 1 000 synthèses de métallurgie de niveau 51 à 60.",
             "id": 1302,
-            "name": "En avant, forgez : Expert",
-            "points": 10,
-            "patch": "3.0"
+            "name": "En avant, forgez : Expert"
         },
         {
             "description": "Réaliser 1 000 synthèses de métallurgie de niveau 61 à 70.",
             "id": 1849,
-            "name": "En avant, forgez : Maître",
-            "points": 10,
-            "patch": "4.0"
+            "name": "En avant, forgez : Maître"
         },
         {
             "description": "Réaliser 1 000 synthèses de métallurgie de niveau 71 à 80.",
             "id": 2281,
-            "name": "En avant, forgez : Génie",
-            "points": 10,
-            "patch": "5.0"
+            "name": "En avant, forgez : Génie"
         },
         {
             "description": "Faire 40 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 698,
-            "name": "Carnet de notes : forgeron I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Carnet de notes : forgeron I"
         },
         {
             "description": "Faire 90 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 699,
-            "name": "Carnet de notes : forgeron II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "Carnet de notes : forgeron II"
         },
         {
             "reward": "Anneau de maître forgeron",
             "description": "Faire 190 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 700,
-            "name": "Carnet de notes : forgeron III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "Carnet de notes : forgeron III"
         },
         {
             "description": "Faire 270 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 1279,
-            "name": "Carnet de notes : forgeron IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "Carnet de notes : forgeron IV"
         },
         {
             "reward": "Batte de ferronnier bénie",
             "description": "Faire 380 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 1722,
-            "name": "Carnet de notes : forgeron V",
-            "points": 10,
-            "patch": "3.5"
+            "name": "Carnet de notes : forgeron V"
         },
         {
             "reward": "Marteau du roi de la forge béni",
             "description": "Faire 480 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
             "id": 2167,
-            "name": "Carnet de notes : forgeron VI",
-            "points": 10,
-            "patch": "4.5"
+            "name": "Carnet de notes : forgeron VI"
         },
         {
             "description": "Fabriquer un total de 100 objets de haute qualité en tant que forgeron.",
             "id": 753,
-            "name": "De main de maître : forgeron I",
-            "points": 5,
-            "patch": "2.1"
+            "name": "De main de maître : forgeron I"
         },
         {
             "description": "Fabriquer un total de 500 objets de haute qualité en tant que forgeron.",
             "id": 754,
-            "name": "De main de maître : forgeron II",
-            "points": 5,
-            "patch": "2.1"
+            "name": "De main de maître : forgeron II"
         },
         {
             "description": "Fabriquer un total de 3 000 objets de haute qualité en tant que forgeron.",
             "id": 755,
-            "name": "De main de maître : forgeron III",
-            "points": 10,
-            "patch": "2.1"
+            "name": "De main de maître : forgeron III"
         },
         {
             "description": "Fabriquer un total de 5 000 objets de haute qualité en tant que forgeron.",
             "id": 1314,
-            "name": "De main de maître : forgeron IV",
-            "points": 10,
-            "patch": "3.0"
+            "name": "De main de maître : forgeron IV"
         },
         {
             "reward": "Maître forgeron",
             "description": "Fabriquer un total de 10 000  objets de haute qualité en tant que forgeron.",
             "id": 1322,
-            "name": "De main de maître : forgeron V",
-            "points": 10,
-            "patch": "3.0"
+            "name": "De main de maître : forgeron V"
         },
         {
             "description": "Gagner un total de 50 000 points d'azur en tant que forgeron.",
             "id": 2492,
-            "name": "Enclume d'Azurée I",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Enclume d'Azurée I"
         },
         {
             "description": "Gagner un total de 150 000 points d'azur en tant que forgeron.",
             "id": 2493,
-            "name": "Enclume d'Azurée II",
-            "points": 5,
-            "patch": "5.21"
+            "name": "Enclume d'Azurée II"
         },
         {
             "reward": "Enclume d'Azurée",
             "description": "Gagner un total de 500 000 points d'azur en tant que forgeron.",
             "id": 2494,
-            "name": "Enclume d'Azurée III",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Enclume d'Azurée III"
         },
         {
             "reward": "Forgeron du Nichoir / Forgeronne du Nichoir",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la deuxième phase de reconstruction d'Azurée.",
             "id": 2528,
-            "name": "Forgeron du Nichoir",
-            "points": 10,
-            "patch": "5.21"
+            "name": "Forgeron du Nichoir"
         },
         {
             "id": 2649,
             "name": "Forgeron de Tombeplume",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la troisième phase de reconstruction d'Azurée.",
-            "points": 10,
-            "reward": "Forgeron de Tombeplume / Forgeronne de Tombeplume",
-            "patch": "5.31"
+            "reward": "Forgeron de Tombeplume / Forgeronne de Tombeplume"
         },
         {
             "id": 2808,
             "name": "Forgeron du Nouveau Refrain",
             "description": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la quatrième phase de reconstruction d'Azurée.",
-            "reward": "Forgeron du Nouveau Refrain / Forgeronne du Nouveau Refrain",
-            "points": 10,
-            "patch": "5.41"
+            "reward": "Forgeron du Nouveau Refrain / Forgeronne du Nouveau Refrain"
         },
         {
             "id": 2822,
             "name": "Métallurgie resplendissante",
-            "description": "Obtenir un marteau du fiélon de la forge resplendissant.",
-            "points": 10,
-            "patch": "5.5"
+            "description": "Obtenir un marteau du fiélon de la forge resplendissant."
         }
     ]
 }
