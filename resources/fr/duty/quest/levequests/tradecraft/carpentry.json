@@ -1,843 +1,722 @@
 {
-    "key": "carpentry",
     "groupName": "Menuiserie",
     "tasks": [
         {
             "id": 21,
-            "level": 1,
             "name": "Fabrication: lances pour l'Ordre",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 22,
-            "level": 1,
             "name": "Fabrication: patins pour recrues",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 23,
-            "level": 1,
             "name": "Livraison: sabots pour les ingénieurs",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 26,
-            "level": 1,
             "name": "Livraison: érable pour instruments de musique",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 25,
-            "level": 1,
             "name": "Fabrication: boucliers de bois pour les gardes",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 24,
-            "level": 1,
             "name": "Fabrication: arcs courts pour les éclaireurs",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 27,
-            "level": 5,
             "name": "Fabrication: arcs pour l'Ordre",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 28,
-            "level": 5,
             "name": "Fabrication: boucliers pour les aventuriers",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 29,
-            "level": 5,
             "name": "Livraison: cannes pour les aides-soignants",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 32,
-            "level": 5,
             "name": "Livraison: cannes bon marché",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 30,
-            "level": 5,
             "name": "Fabrication: lances d'entraînement pour nouveaux",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 31,
-            "level": 5,
             "name": "Fabrication: épées en bois pour les instructeurs",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 34,
-            "level": 10,
             "name": "Fabrication: outils pour orfèvres",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 33,
-            "level": 10,
             "name": "Fabrication: radicelles bon marché",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 35,
-            "level": 10,
             "name": "Livraison: bois pour enclos",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 38,
-            "level": 10,
             "name": "Livraison: boucliers bon marché",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 36,
-            "level": 10,
             "name": "Fabrication: lances décorées à offrir",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 37,
-            "level": 10,
             "name": "Fabrication: outils de couture pour le ranch",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 39,
-            "level": 15,
             "name": "Fabrication: lances métalliques",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 40,
-            "level": 15,
             "name": "Fabrication: armes d'élémentalistes en orme",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 41,
-            "level": 15,
             "name": "Livraison: bois pour la tour",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 44,
-            "level": 15,
             "name": "Livraison: arc court en frêne",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 42,
-            "level": 15,
             "name": "Fabrication: masques pour vigiles sombres",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 43,
-            "level": 15,
             "name": "Fabrication: bouclier de bois pour aventuriers",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 45,
-            "level": 20,
             "name": "Fabrication: armes d'élémentalistes en if",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 46,
-            "level": 20,
             "name": "Grosse commande: des masques pour les vigiles",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 47,
-            "level": 20,
             "name": "Livraison: lances pour les volontaires",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 48,
-            "level": 20,
             "name": "Fabrication: meule à aiguiser",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 50,
-            "level": 20,
             "name": "Fabrication: madriers de noyer",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 49,
-            "level": 20,
             "name": "Grosse commande: projectiles de balistes",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 51,
-            "level": 25,
             "name": "Fabrication: bouclier à l'effigie des Deux Vipères",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 53,
-            "level": 25,
             "name": "Grosse commande: madriers pour meubles de luxe",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 52,
-            "level": 25,
             "name": "Livraison: un beau râteau",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 54,
-            "level": 25,
             "name": "Fabrication: épées de bois pour les volontaires",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 55,
-            "level": 25,
             "name": "Fabrication: lances pour une cérémonie",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 56,
-            "level": 25,
             "name": "Grosse commande: armes d'élémentalistes pour les volontaires",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 58,
-            "level": 30,
             "name": "Fabrication: arc pour le vainqueur du concours",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 59,
-            "level": 30,
             "name": "Grosse commande: lances pour une cérémonie",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 57,
-            "level": 30,
             "name": "Livraison: bois de collection",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 61,
-            "level": 30,
             "name": "Fabrication: lances à louer",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 60,
-            "level": 30,
             "name": "Fabrication: un arc pour la chasse",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 62,
-            "level": 30,
             "name": "Grosse commande: la longue lance de la loi",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 64,
-            "level": 35,
             "name": "Fabrication: armes d'élémentaliste en chêne",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 65,
-            "level": 35,
             "name": "Grosse commande: gladiateurs en bois",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 63,
-            "level": 35,
             "name": "Livraison: harpon pour dragon",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 66,
-            "level": 35,
             "name": "Fabrication: arc de luxe",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 67,
-            "level": 35,
             "name": "Fabrication: des pieds bien au chaud",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 68,
-            "level": 35,
             "name": "Grosse commande: entorse aux traditions",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 70,
-            "level": 40,
             "name": "Fabrication: le vert leur va si bien",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 71,
-            "level": 40,
             "name": "Grosse commande: que tourne la laine",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 69,
-            "level": 40,
             "name": "Livraison: des armes, et vite",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 73,
-            "level": 40,
             "name": "Fabrication: le cœur de la meule",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 72,
-            "level": 40,
             "name": "Fabrication: combiner les forces",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 74,
-            "level": 40,
             "name": "Grosse commande: des lances pour l'honneur",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 76,
-            "level": 45,
             "name": "Fabrication: patins scéniques",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 77,
-            "level": 45,
             "name": "Grosse commande: bois pour meuble de luxe",
             "issueLocation": "Gridania",
             "leveZone": "Gridania"
         },
         {
             "id": 75,
-            "level": 45,
             "name": "Livraison: pour se faire les tridents",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 79,
-            "level": 45,
             "name": "Fabrication: l'arc ou la vie",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 78,
-            "level": 45,
             "name": "Fabrication: une arme efficace",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 80,
-            "level": 45,
             "name": "Grosse commande: lancer d'abord, réfléchir après",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 909,
-            "level": 50,
             "name": "Fabrication: des tridents pour les défenses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 908,
-            "level": 50,
             "name": "Fabrication: du cèdre de réparation",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 910,
-            "level": 50,
             "name": "Grosse commande: des arcs d'entraînement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 915,
-            "level": 52,
             "name": "Fabrication: un pêcheur généreux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 914,
-            "level": 52,
             "name": "Fabrication: l'arc des as",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 916,
-            "level": 52,
             "name": "Grosse commande: la générosité au cou",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 920,
-            "level": 54,
             "name": "Fabrication: des sceptres d'examen",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 921,
-            "level": 54,
             "name": "Fabrication: des rouets pour templiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 922,
-            "level": 54,
             "name": "Grosse commande: du bois de charrette",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 927,
-            "level": 56,
             "name": "Fabrication: les arcs du faucon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 926,
-            "level": 56,
             "name": "Fabrication: au bras des charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 928,
-            "level": 56,
             "name": "Grosse commande: des masques d'archer",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 932,
-            "level": 58,
             "name": "Fabrication: du boulot à la tour",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 933,
-            "level": 58,
             "name": "Fabrication: des meules à la pointe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 934,
-            "level": 58,
             "name": "Grosse commande: les hasts du courage",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 912,
-            "level": 50,
             "name": "Grand mandat: des tridents pour les défenses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 911,
-            "level": 50,
             "name": "Grand mandat: du cèdre de réparation",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 913,
-            "level": 50,
             "name": "Grand mandat: des arcs d'entraînement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 918,
-            "level": 52,
             "name": "Grand mandat: un pêcheur généreux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 917,
-            "level": 52,
             "name": "Grand mandat: l'arc des as",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 919,
-            "level": 52,
             "name": "Grand mandat: la générosité au cou",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 923,
-            "level": 54,
             "name": "Grand mandat: des sceptres d'examen",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 924,
-            "level": 54,
             "name": "Grand mandat: des rouets pour templiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 925,
-            "level": 54,
             "name": "Grand mandat: du bois de charrette",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 930,
-            "level": 56,
             "name": "Grand mandat: les arcs du faucon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 929,
-            "level": 56,
             "name": "Grand mandat: au bras des charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 931,
-            "level": 56,
             "name": "Grand mandat: des masques d'archer",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 935,
-            "level": 58,
             "name": "Grand mandat: du boulot à la tour",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 936,
-            "level": 58,
             "name": "Grand mandat: des meules à la pointe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 937,
-            "level": 58,
             "name": "Grand mandat: les hasts du courage",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1240,
-            "level": 60,
             "name": "Grosse commande: le hêtre parfait",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1239,
-            "level": 60,
             "name": "Fabrication: une canne à pêche pour étoffer l'offre",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1238,
-            "level": 60,
             "name": "Fabrication: une canne de pèlerinage",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1241,
-            "level": 62,
             "name": "Fabrication: une arme éorzéenne noble",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1242,
-            "level": 62,
             "name": "Fabrication: pas de malaise avec le mélèze",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1243,
-            "level": 62,
             "name": "Grosse commande: la paire de bracelets exotiques",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1246,
-            "level": 64,
             "name": "Grosse commande: une canne à la mode",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1244,
-            "level": 64,
             "name": "Fabrication: le savoir-faire uldien",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1245,
-            "level": 64,
             "name": "Fabrication: le pin parfait",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1247,
-            "level": 66,
             "name": "Fabrication: une belle arme en acier",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1248,
-            "level": 66,
             "name": "Fabrication: une paire de boucles d'oreilles exotiques",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1249,
-            "level": 66,
             "name": "Grosse commande: des cannes en corne",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1252,
-            "level": 68,
             "name": "Grosse commande: des arcs pour de l'archerie montée",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1251,
-            "level": 68,
             "name": "Fabrication: avec le zelkova, ça ira",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1250,
-            "level": 68,
             "name": "Fabrication: un collier exotique",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1403,
-            "level": 70,
             "name": "Fabrication: du chêne blanc utilitaire",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1404,
-            "level": 70,
             "name": "Fabrication: une première canne à pêche",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1405,
-            "level": 70,
             "name": "Grosse commande: des colliers en chêne blanc",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1406,
-            "level": 72,
             "name": "Fabrication: des hasts pour la bleusaille",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1407,
-            "level": 72,
             "name": "Fabrication: des arcs pour chasseurs",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1408,
-            "level": 72,
             "name": "Grosse commande: soigner à la canne",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1410,
-            "level": 74,
             "name": "Fabrication: je me suis cassé la meule",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1411,
-            "level": 74,
             "name": "Grosse commande: des bracelets en frêne blanc",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1409,
-            "level": 74,
             "name": "Fabrication: les patients touchent du bois",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1414,
-            "level": 76,
             "name": "Grosse commande: des arcs pour experts",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1413,
-            "level": 76,
             "name": "Fabrication: un parfait rouet pour un lit",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1412,
-            "level": 76,
             "name": "Fabrication: sceptres d'apprentis-sorciers",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1416,
-            "level": 78,
             "name": "Fabrication: dites-le avec une bague en bois",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1415,
-            "level": 78,
             "name": "Fabrication: cannes pour soigneurs confirmés",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1417,
-            "level": 78,
             "name": "Grosse commande: boucles d'oreilles protectrices",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"

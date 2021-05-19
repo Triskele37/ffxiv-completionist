@@ -1,703 +1,602 @@
 {
-    "key": "botany",
     "groupName": "Botanique",
     "tasks": [
         {
             "id": 674,
-            "level": 1,
             "name": "Échantillons: l'appel de la forêt",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 675,
-            "level": 1,
             "name": "Échantillons: reforestation massive",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 676,
-            "level": 1,
             "name": "Collecte: la guerre du feu",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 677,
-            "level": 1,
             "name": "Collecte: la qualité avant tout",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 681,
-            "level": 5,
             "name": "Grosse récolte: les inconvénients des spores",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 678,
-            "level": 5,
             "name": "Échantillons: un arbre peut en cacher un autre",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 680,
-            "level": 5,
             "name": "Collecte: des graines maléfiques",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 679,
-            "level": 5,
             "name": "Échantillons: la racine de tout le mal",
             "issueLocation": "Le Bannock",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 683,
-            "level": 10,
             "name": "Échantillons: étude périodique",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 682,
-            "level": 10,
             "name": "Échantillons: châtaignes",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 685,
-            "level": 10,
             "name": "Prélèvement: suppression de parasites",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 684,
-            "level": 10,
             "name": "Collecte: le bois qu'il vous faut",
             "issueLocation": "Ranch de Brancharquée",
             "leveZone": "Forêt centrale"
         },
         {
             "id": 687,
-            "level": 15,
             "name": "Collecte: l'or liquide",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 688,
-            "level": 15,
             "name": "Collecte: le grand nettoyage",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 686,
-            "level": 15,
             "name": "Échantillons: la plante vampire",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 689,
-            "level": 15,
             "name": "Prélèvement: la chasse aux preuves",
             "issueLocation": "Hutte des Hawthorne",
             "leveZone": "Forêt de l'est"
         },
         {
             "id": 691,
-            "level": 20,
             "name": "Collecte: couleur menthe à l'eau",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 692,
-            "level": 20,
             "name": "Collecte: reliques du passé",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 690,
-            "level": 20,
             "name": "Échantillons: glissement de terrain",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 693,
-            "level": 20,
             "name": "Grosse récolte: du carburant pour le feu",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 695,
-            "level": 25,
             "name": "Collecte: le colorant naturel",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 694,
-            "level": 25,
             "name": "Échantillons: suppression de plantes vivaces",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 697,
-            "level": 25,
             "name": "Grosse récolte: étude mycologique",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 696,
-            "level": 25,
             "name": "Grosse récolte: mangez des pommes",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 701,
-            "level": 30,
             "name": "Grosse récolte: coco à gogo",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 699,
-            "level": 30,
             "name": "Collecte: nettoyage d'automne",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 698,
-            "level": 30,
             "name": "Échantillons: palmiers comestibles",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 700,
-            "level": 30,
             "name": "Grosse récolte: l'apprenti teinturier",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 703,
-            "level": 35,
             "name": "Collecte: les lances célestes",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 704,
-            "level": 35,
             "name": "Grosse récolte: ramasseurs en herbe",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 702,
-            "level": 35,
             "name": "Échantillons: la planque aux herbes",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 705,
-            "level": 35,
             "name": "Prélèvement: chaleur flottante",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 709,
-            "level": 40,
             "name": "Prélèvement: les traces des criminels",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 707,
-            "level": 40,
             "name": "Collecte: droit comme une flèche",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 706,
-            "level": 40,
             "name": "Échantillons: la peste soit de leurs forêts",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 708,
-            "level": 40,
             "name": "Grosse récolte: pas si fort que ça",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 713,
-            "level": 45,
             "name": "Prélèvement: voyez comme ils brillent",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 710,
-            "level": 45,
             "name": "Échantillons: les pieds dans les ronces",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 711,
-            "level": 45,
             "name": "Collecte: la tête en bas",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 712,
-            "level": 45,
             "name": "Grosse récolte: une herbe qui vaut de l'or",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 1150,
-            "level": 50,
             "name": "Prélèvement: du bois pour les architectes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1149,
-            "level": 50,
             "name": "Collecte: couronnes de verdure",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1148,
-            "level": 50,
             "name": "Échantillons: maladie endémique",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1156,
-            "level": 52,
             "name": "Collecte: des racines aéronavales",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1155,
-            "level": 52,
             "name": "Grosse récolte: des herbes contre les dragons",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1154,
-            "level": 52,
             "name": "Échantillons: de la gentiane pour l'estomac",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1162,
-            "level": 54,
             "name": "Prélèvement: de l'herbe à dragon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1161,
-            "level": 54,
             "name": "Collecte: des pissenlits en tisane",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1160,
-            "level": 54,
             "name": "Échantillons: les remèdes de l'écume",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1166,
-            "level": 56,
             "name": "Grosse récolte: les artichauts pétomanes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1167,
-            "level": 56,
             "name": "Collecte: le pigment des drapeaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1168,
-            "level": 56,
             "name": "Prélèvement: le nectar de l'encens",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1172,
-            "level": 58,
             "name": "Échantillons: du bois d'avant-poste",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1174,
-            "level": 58,
             "name": "Prélèvement: de la fumée anti-dragon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1173,
-            "level": 58,
             "name": "Grosse récolte: des racines de doigt-de-Thaliak",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1151,
-            "level": 50,
             "name": "Grand mandat: maladie endémique",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1152,
-            "level": 50,
             "name": "Grand mandat: couronnes de verdure",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1153,
-            "level": 50,
             "name": "Grand mandat: du bois pour les architectes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Hautes terres du Coerthas occidental"
         },
         {
             "id": 1157,
-            "level": 52,
             "name": "Grand mandat: de la gentiane pour l'estomac",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1158,
-            "level": 52,
             "name": "Grand mandat: des herbes contre les dragons",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1159,
-            "level": 52,
             "name": "Grand mandat: des racines aéronavales",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Avant-pays dravanien"
         },
         {
             "id": 1163,
-            "level": 54,
             "name": "Grand mandat: les remèdes de l'écume",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1165,
-            "level": 54,
             "name": "Grand mandat: de l'herbe à dragon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1164,
-            "level": 54,
             "name": "Grand mandat: des pissenlits en tisane",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux de Dravania"
         },
         {
             "id": 1170,
-            "level": 56,
             "name": "Grand mandat: le pigment des drapeaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1171,
-            "level": 56,
             "name": "Grand mandat: le nectar de l'encens",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1169,
-            "level": 56,
             "name": "Grand mandat: les artichauts pétomanes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "L'Écume des cieux d'Abalathia"
         },
         {
             "id": 1176,
-            "level": 58,
             "name": "Grand mandat: des racines de doigt-de-Thaliak",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1175,
-            "level": 58,
             "name": "Grand mandat: du bois d'avant-poste",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1177,
-            "level": 58,
             "name": "Grand mandat: de la fumée anti-dragon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Arrière-pays dravanien"
         },
         {
             "id": 1358,
-            "level": 60,
             "name": "Échantillons: un bois destructeur d'interdictions",
             "issueLocation": "Kugane",
             "leveZone": "Les Marges"
         },
         {
             "id": 1360,
-            "level": 60,
             "name": "Prélèvement: la végétation du bassin",
             "issueLocation": "Kugane",
             "leveZone": "Les Marges"
         },
         {
             "id": 1359,
-            "level": 60,
             "name": "Collecte: la sève de la vie",
             "issueLocation": "Kugane",
             "leveZone": "Les Marges"
         },
         {
             "id": 1362,
-            "level": 62,
             "name": "Grosse récolte: des kanzashi couleur rubis",
             "issueLocation": "Kugane",
             "leveZone": "Mer de Rubis"
         },
         {
             "id": 1363,
-            "level": 62,
             "name": "Collecte: la végétation des mers et des baies",
             "issueLocation": "Kugane",
             "leveZone": "Mer de Rubis"
         },
         {
             "id": 1361,
-            "level": 62,
             "name": "Échantillons: bon comme du bon pin",
             "issueLocation": "Kugane",
             "leveZone": "Mer de Rubis"
         },
         {
             "id": 1364,
-            "level": 64,
             "name": "Échantillons: une construction échafaudée",
             "issueLocation": "Kugane",
             "leveZone": "Yanxia"
         },
         {
             "id": 1366,
-            "level": 64,
             "name": "Prélèvement: la végétation des lacs et des rivières",
             "issueLocation": "Kugane",
             "leveZone": "Yanxia"
         },
         {
             "id": 1365,
-            "level": 64,
             "name": "Collecte: du pin de Yanxia, rien que ça!",
             "issueLocation": "Kugane",
             "leveZone": "Yanxia"
         },
         {
             "id": 1367,
-            "level": 66,
             "name": "Grosse récolte: le bon pin d'Azim",
             "issueLocation": "Kugane",
             "leveZone": "Steppe d'Azim"
         },
         {
             "id": 1368,
-            "level": 66,
             "name": "Collecte: l'infusion de la steppe",
             "issueLocation": "Kugane",
             "leveZone": "Steppe d'Azim"
         },
         {
             "id": 1369,
-            "level": 66,
             "name": "Prélèvement: en quête de nouveaux produits",
             "issueLocation": "Kugane",
             "leveZone": "Steppe d'Azim"
         },
         {
             "id": 1370,
-            "level": 68,
             "name": "Échantillons: la guerre des pétales",
             "issueLocation": "Kugane",
             "leveZone": "Les Pics"
         },
         {
             "id": 1372,
-            "level": 68,
             "name": "Prélèvement: pour un développement durable",
             "issueLocation": "Kugane",
             "leveZone": "Les Pics"
         },
         {
             "id": 1371,
-            "level": 68,
             "name": "Grosse récolte: des fleurs pour les morts",
             "issueLocation": "Kugane",
             "leveZone": "Les Pics"
         },
         {
             "id": 1523,
-            "level": 70,
             "name": "Échantillons: un peu de piment dans le vin",
             "issueLocation": "Cristarium",
             "leveZone": "Kholusia"
         },
         {
             "id": 1525,
-            "level": 70,
             "name": "Prélèvement: des cabanes en bois recyclé",
             "issueLocation": "Cristarium",
             "leveZone": "Kholusia"
         },
         {
             "id": 1524,
-            "level": 70,
             "name": "Collecte: pot-pourri de sauge séchée",
             "issueLocation": "Cristarium",
             "leveZone": "Kholusia"
         },
         {
             "id": 1527,
-            "level": 72,
             "name": "Grosse récolte: embarcations en bois d'eau",
             "issueLocation": "Cristarium",
             "leveZone": "Il Mheg"
         },
         {
             "id": 1526,
-            "level": 72,
             "name": "Échantillons: de la gnôle de Pixies",
             "issueLocation": "Cristarium",
             "leveZone": "Il Mheg"
         },
         {
             "id": 1528,
-            "level": 72,
             "name": "Collecte: la chasse aux graines féeriques",
             "issueLocation": "Cristarium",
             "leveZone": "Il Mheg"
         },
         {
             "id": 1529,
-            "level": 74,
             "name": "Échantillons: les larmes d'une déesse",
             "issueLocation": "Cristarium",
             "leveZone": "Rak'tika"
         },
         {
             "id": 1530,
-            "level": 74,
             "name": "Collecte: l'aloe ronka des réfugiés",
             "issueLocation": "Cristarium",
             "leveZone": "Rak'tika"
         },
         {
             "id": 1531,
-            "level": 74,
             "name": "Prélèvement: du rêve sous l'écorce",
             "issueLocation": "Cristarium",
             "leveZone": "Rak'tika"
         },
         {
             "id": 1534,
-            "level": 76,
             "name": "Prélèvement: des tisanes pour les petits Ronsos",
             "issueLocation": "Cristarium",
             "leveZone": "Amh Araeng"
         },
         {
             "id": 1533,
-            "level": 76,
             "name": "Collecte: de l'huile dans les graines",
             "issueLocation": "Cristarium",
             "leveZone": "Amh Araeng"
         },
         {
             "id": 1532,
-            "level": 76,
             "name": "Grosse récolte: du vieux bois pour plus de goût",
             "issueLocation": "Cristarium",
             "leveZone": "Amh Araeng"
         },
         {
             "id": 1535,
-            "level": 78,
             "name": "Échantillons: du chêne de Grand-Lac en fût",
             "issueLocation": "Cristarium",
             "leveZone": "Grand-Lac"
         },
         {
             "id": 1536,
-            "level": 78,
             "name": "Grosse récolte: le sirop préféré de l'exarque",
             "issueLocation": "Cristarium",
             "leveZone": "Grand-Lac"
         },
         {
             "id": 1537,
-            "level": 78,
             "name": "Prélèvement: l'herbe du Lac dans les cheveux",
             "issueLocation": "Cristarium",
             "leveZone": "Grand-Lac"

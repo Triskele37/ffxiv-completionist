@@ -1,843 +1,722 @@
 {
-    "key": "clothcrafting",
     "groupName": "Couture",
     "tasks": [
         {
             "id": 381,
-            "level": 1,
             "name": "Fabrication: ceux d'en dessous",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 382,
-            "level": 1,
             "name": "Fabrication: à braie dire",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 383,
-            "level": 1,
             "name": "Livraison: des vêtements plus adaptés",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 386,
-            "level": 1,
             "name": "Livraison: protection anti-poux",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 385,
-            "level": 1,
             "name": "Fabrication: un cas de coule",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 384,
-            "level": 1,
             "name": "Fabrication: opération mains propres",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 388,
-            "level": 5,
             "name": "Fabrication: les 101 dalmatiques",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 387,
-            "level": 5,
             "name": "Fabrication: tabard ta gueule",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 389,
-            "level": 5,
             "name": "Livraison: bénards antiémeutes",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 392,
-            "level": 5,
             "name": "Livraison: doublets pour novices",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 391,
-            "level": 5,
             "name": "Fabrication: la sobre attitude",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 390,
-            "level": 5,
             "name": "Fabrication: place aux tuniques",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 393,
-            "level": 10,
             "name": "Fabrication: cadeau de paille",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 394,
-            "level": 10,
             "name": "Fabrication: le port du foulard à la mine",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 395,
-            "level": 10,
             "name": "Livraison: sous le soleil du Thanalan",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 398,
-            "level": 10,
             "name": "Livraison: de pratiques galurins",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 397,
-            "level": 10,
             "name": "Fabrication: confort cotonneux",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 396,
-            "level": 10,
             "name": "Fabrication: pas de brassière, pas de chocolat",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 400,
-            "level": 15,
             "name": "Fabrication: le feu aux trousses",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 399,
-            "level": 15,
             "name": "Fabrication: quand y a de la place pour un",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 401,
-            "level": 15,
             "name": "Livraison: le dernier voile",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 404,
-            "level": 15,
             "name": "Livraison: mineurs en chaleur",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 402,
-            "level": 15,
             "name": "Fabrication: jamais sans mon pantalon",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 403,
-            "level": 15,
             "name": "Fabrication: touche-moi si tu peux",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 405,
-            "level": 20,
             "name": "Fabrication: de fil en écharpe",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 406,
-            "level": 20,
             "name": "Grosse commande: futiles futals",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 407,
-            "level": 20,
             "name": "Livraison: halte aux doublures, place aux doublets",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 408,
-            "level": 20,
             "name": "Fabrication: bon gant, mal an",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 410,
-            "level": 20,
             "name": "Fabrication: oreille distraite",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 409,
-            "level": 20,
             "name": "Grosse commande: signe capillotracté",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 411,
-            "level": 25,
             "name": "Fabrication: fin tisseur, bon vendeur",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 413,
-            "level": 25,
             "name": "Grosse commande: de haut en bas",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 412,
-            "level": 25,
             "name": "Livraison: la coiffe vigilante",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 415,
-            "level": 25,
             "name": "Fabrication: calots pour miliciens",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 414,
-            "level": 25,
             "name": "Fabrication: des trousses à la rescousse",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 416,
-            "level": 25,
             "name": "Grosse commande: pari tenu",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 418,
-            "level": 30,
             "name": "Fabrication: ridicules séants",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 419,
-            "level": 30,
             "name": "Grosse commande: la mode et ses victimes",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 417,
-            "level": 30,
             "name": "Livraison: amour courtois",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 421,
-            "level": 30,
             "name": "Fabrication: le plus beau pour aller dîner",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 420,
-            "level": 30,
             "name": "Fabrication: des moitiés de gants",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 422,
-            "level": 30,
             "name": "Grosse commande: le salut dans la veloutine",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 424,
-            "level": 35,
             "name": "Fabrication: braguettes pas nettes",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 425,
-            "level": 35,
             "name": "Grosse commande: de la simplicité du chapeau",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 423,
-            "level": 35,
             "name": "Livraison: un cheveu sur la lentille",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 426,
-            "level": 35,
             "name": "Fabrication: faites pénitence",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 427,
-            "level": 35,
             "name": "Fabrication: les prêtres ont tout compris",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 428,
-            "level": 35,
             "name": "Grosse commande: blindage confortable",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 430,
-            "level": 40,
             "name": "Fabrication: des tabliers en Ordre",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 431,
-            "level": 40,
             "name": "Grosse commande: à quoi ça cerf",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 429,
-            "level": 40,
             "name": "Livraison: couverture universelle",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 433,
-            "level": 40,
             "name": "Fabrication: vétérans sensibles",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 432,
-            "level": 40,
             "name": "Fabrication: tuniques épaisses pour l'hiver",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 434,
-            "level": 40,
             "name": "Grosse commande: chapelier, c'est un métier",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 436,
-            "level": 45,
             "name": "Fabrication: chapeaux d'été",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 437,
-            "level": 45,
             "name": "Grosse commande: sarraus pour serviteurs",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 435,
-            "level": 45,
             "name": "Livraison: des braies et des hommes",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 439,
-            "level": 45,
             "name": "Fabrication: on ne veut plus de ces tissus",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 438,
-            "level": 45,
             "name": "Fabrication: des tuniques contre l'embonpoint",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 440,
-            "level": 45,
             "name": "Grosse commande: habillés pour l'hiver",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 1088,
-            "level": 50,
             "name": "Fabrication: hissez haut, les drapeaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1089,
-            "level": 50,
             "name": "Fabrication: ceintures pour les volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1090,
-            "level": 50,
             "name": "Grosse commande: cadeau d'encouragement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1094,
-            "level": 52,
             "name": "Fabrication: tenue de combat",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1095,
-            "level": 52,
             "name": "Fabrication: des pantalons neufs pour les inquisiteurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1096,
-            "level": 52,
             "name": "Grosse commande: des tabliers pour les charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1100,
-            "level": 54,
             "name": "Fabrication: robes pour mages",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1101,
-            "level": 54,
             "name": "Fabrication: couvre-chefs pour les sapeurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1102,
-            "level": 54,
             "name": "Grosse commande: mains guérisseuses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1107,
-            "level": 56,
             "name": "Fabrication: coup de filet",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1106,
-            "level": 56,
             "name": "Fabrication: préparation aux manœuvres",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1108,
-            "level": 56,
             "name": "Grosse commande: des doublets pour les civils",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1112,
-            "level": 58,
             "name": "Fabrication: hommage aux morts",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1113,
-            "level": 58,
             "name": "Fabrication: pantalon pour un bûcheron",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1114,
-            "level": 58,
             "name": "Grosse commande: cadeau de bienvenue",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1091,
-            "level": 50,
             "name": "Grand mandat: hissez haut, les drapeaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1092,
-            "level": 50,
             "name": "Grand mandat: ceintures pour les volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1093,
-            "level": 50,
             "name": "Grand mandat: cadeau d'encouragement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1097,
-            "level": 52,
             "name": "Grand mandat: tenue de combat",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1098,
-            "level": 52,
             "name": "Grand mandat: des pantalons neufs pour les inquisiteurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1099,
-            "level": 52,
             "name": "Grand mandat: des tabliers pour les charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1103,
-            "level": 54,
             "name": "Grand mandat: robes pour mages",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1104,
-            "level": 54,
             "name": "Grand mandat: couvre-chefs pour les sapeurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1105,
-            "level": 54,
             "name": "Grand mandat: mains guérisseuses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1110,
-            "level": 56,
             "name": "Grand mandat: coup de filet",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1109,
-            "level": 56,
             "name": "Grand mandat: préparation aux manœuvres",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1111,
-            "level": 56,
             "name": "Grand mandat: des doublets pour les civils",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1115,
-            "level": 58,
             "name": "Grand mandat: hommage aux morts",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1116,
-            "level": 58,
             "name": "Grand mandat: pantalon pour un bûcheron",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1117,
-            "level": 58,
             "name": "Grand mandat: cadeau de bienvenue",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1330,
-            "level": 60,
             "name": "Grosse commande: des paires de garde-bras de scène",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1329,
-            "level": 60,
             "name": "Fabrication: un gilet pour le porteur de valises",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1328,
-            "level": 60,
             "name": "Fabrication: la culotte venue d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1333,
-            "level": 62,
             "name": "Grosse commande: les grègues venues d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1332,
-            "level": 62,
             "name": "Fabrication: filer un bon rubicoton",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1331,
-            "level": 62,
             "name": "Fabrication: une écharpe de rôle secondaire",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1336,
-            "level": 64,
             "name": "Grosse commande: Daitenya en a gros sur la patate",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1334,
-            "level": 64,
             "name": "Fabrication: une tunique venue d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1335,
-            "level": 64,
             "name": "Fabrication: une belle culotte",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1339,
-            "level": 66,
             "name": "Grosse commande: des gambisons venus d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1337,
-            "level": 66,
             "name": "Fabrication: de belles écharpes",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1338,
-            "level": 66,
             "name": "Fabrication: un turban pour l'antagoniste",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1342,
-            "level": 68,
             "name": "Grosse commande: des tabliers venus d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1341,
-            "level": 68,
             "name": "Fabrication: un costume de rechange pour l'antagoniste",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1340,
-            "level": 68,
             "name": "Fabrication: un beau turban",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1493,
-            "level": 70,
             "name": "Fabrication: du lin blanc pour des meubles",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1494,
-            "level": 70,
             "name": "Fabrication: des bas-de-corps robustes et peu coûteux",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1495,
-            "level": 70,
             "name": "Grosse commande: des turbans pour les aspirants artisans",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1497,
-            "level": 72,
             "name": "Fabrication: un bas-de-corps taille Ronso",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1498,
-            "level": 72,
             "name": "Grosse commande: de quoi coiffer le personnel soignant",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1496,
-            "level": 72,
             "name": "Fabrication: des doublets pour les archers",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1499,
-            "level": 74,
             "name": "Fabrication: du fil solide pour des tables d'examen",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1501,
-            "level": 74,
             "name": "Grosse commande: des gants de rechange pour tête en l'air",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1500,
-            "level": 74,
             "name": "Fabrication: protégeons la tête des éclaireurs",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1502,
-            "level": 76,
             "name": "Fabrication: une commande bien confidentielle",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1504,
-            "level": 76,
             "name": "Grosse commande: des turbans contre le sable",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1503,
-            "level": 76,
             "name": "Fabrication: des bonnets pour éclaireurs",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1505,
-            "level": 78,
             "name": "Fabrication: des grègues pour éclaireurs méritants",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1506,
-            "level": 78,
             "name": "Fabrication: un turban pour un départ en retraite",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1507,
-            "level": 78,
             "name": "Grosse commande: couvrons la tête des soigneurs itinérants",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"

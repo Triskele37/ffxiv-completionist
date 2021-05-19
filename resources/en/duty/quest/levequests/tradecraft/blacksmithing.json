@@ -1,843 +1,722 @@
 {
-    "key": "blacksmithing",
     "groupName": "Blacksmithing",
     "tasks": [
         {
             "id": 141,
-            "level": 1,
             "name": "Proly Hatchet",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 142,
-            "level": 1,
             "name": "Hells Bells",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 143,
-            "level": 1,
             "name": "Mending Fences",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 146,
-            "level": 1,
             "name": "Thank You for Your Business",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 144,
-            "level": 1,
             "name": "Axe Me Anything",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 145,
-            "level": 1,
             "name": "The Unkindest Cut",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 148,
-            "level": 5,
             "name": "I, Gladius",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 147,
-            "level": 5,
             "name": "Stainless Chef",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 149,
-            "level": 5,
             "name": "Bring Me the Head Knife of Al'bedo Derssia",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 152,
-            "level": 5,
             "name": "As Above, Below",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 150,
-            "level": 5,
             "name": "Down on the Pharm",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 151,
-            "level": 5,
             "name": "A Hit Job",
             "issueLocation": "Red Rooster Stead",
             "leveZone": "Lower La Noscea"
         },
         {
             "id": 153,
-            "level": 10,
             "name": "Farriers of Fortune",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 154,
-            "level": 10,
             "name": "Anutha Spatha",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 155,
-            "level": 10,
             "name": "Port of Call: Ul'dah",
             "issueLocation": "Swiftperch",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 158,
-            "level": 10,
             "name": "Twice as Slice",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 157,
-            "level": 10,
             "name": "I'm into Leather",
             "issueLocation": "Swiftperch",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 156,
-            "level": 10,
             "name": "Peddle to the Metal",
             "issueLocation": "Swiftperch",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 160,
-            "level": 15,
             "name": "Awl or Nothing",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 159,
-            "level": 15,
             "name": "Smelt and Dealt",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 161,
-            "level": 15,
             "name": "Riveting Run",
             "issueLocation": "Aleport",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 164,
-            "level": 15,
             "name": "Tools of the Trade",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 162,
-            "level": 15,
             "name": "Get a Little Bit Closer",
             "issueLocation": "Aleport",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 163,
-            "level": 15,
             "name": "Honest Ballast",
             "issueLocation": "Aleport",
             "leveZone": "Western La Noscea"
         },
         {
             "id": 165,
-            "level": 20,
             "name": "Unseamly Conditions",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 166,
-            "level": 20,
             "name": "Claw Daddy",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 167,
-            "level": 20,
             "name": "Hearth Maul",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 170,
-            "level": 20,
             "name": "When Rhalgr Met Nophica",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 168,
-            "level": 20,
             "name": "Powderpost Derby",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 169,
-            "level": 20,
             "name": "The Devil's Workshop",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 171,
-            "level": 25,
             "name": "Time to Upgrade",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 173,
-            "level": 25,
             "name": "Cleaving the Glim",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 172,
-            "level": 25,
             "name": "Mors Dagger",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 174,
-            "level": 25,
             "name": "Lancers' Creed",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 175,
-            "level": 25,
             "name": "I Saw What You Did There",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 176,
-            "level": 25,
             "name": "That's Some Fine Grinding",
             "issueLocation": "Quarrymill",
             "leveZone": "South Shroud"
         },
         {
             "id": 178,
-            "level": 30,
             "name": "Out on a Limb",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 179,
-            "level": 30,
             "name": "Can You Spare a Dolabra",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 177,
-            "level": 30,
             "name": "The Naked Blade",
             "issueLocation": "Costa del Sol",
             "leveZone": "Eastern La Noscea"
         },
         {
             "id": 181,
-            "level": 30,
             "name": "Hard Knock Life",
             "issueLocation": "Costa del Sol",
             "leveZone": "Eastern La Noscea"
         },
         {
             "id": 180,
-            "level": 30,
             "name": "A Spy in the House of Love",
             "issueLocation": "Costa del Sol",
             "leveZone": "Eastern La Noscea"
         },
         {
             "id": 182,
-            "level": 30,
             "name": "Don't Fear the Reaper",
             "issueLocation": "Costa del Sol",
             "leveZone": "Eastern La Noscea"
         },
         {
             "id": 184,
-            "level": 35,
             "name": "Awl about Who You Know",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 185,
-            "level": 35,
             "name": "Spice Cadet",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 183,
-            "level": 35,
             "name": "You Spin Me Round",
             "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 186,
-            "level": 35,
             "name": "Lending a Hand",
             "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 187,
-            "level": 35,
             "name": "Colder than Steel",
             "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 188,
-            "level": 35,
             "name": "Seemed Like the Thing to Get",
             "issueLocation": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 190,
-            "level": 40,
             "name": "A Mixed Message",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 191,
-            "level": 40,
             "name": "File That under Whatever",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 189,
-            "level": 40,
             "name": "A Weighty Question",
             "issueLocation": "Whitebrim Front",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 193,
-            "level": 40,
             "name": "Get Me to the War on Time",
             "issueLocation": "Whitebrim Front",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 192,
-            "level": 40,
             "name": "Kitchen Casualties",
             "issueLocation": "Whitebrim Front",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 194,
-            "level": 40,
             "name": "Streamlining Operations",
             "issueLocation": "Whitebrim Front",
             "leveZone": "Coerthas Central Highlands"
         },
         {
             "id": 196,
-            "level": 45,
             "name": "No Refunds, Only Exchanges",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 197,
-            "level": 45,
             "name": "You Stay on That Side",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 195,
-            "level": 45,
             "name": "I'd Rather Be Digging",
             "issueLocation": "Saint Coinach's Find",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 199,
-            "level": 45,
             "name": "Talon Terrors",
             "issueLocation": "Saint Coinach's Find",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 198,
-            "level": 45,
             "name": "Pop That Top",
             "issueLocation": "Saint Coinach's Find",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 200,
-            "level": 45,
             "name": "I Maul Right",
             "issueLocation": "Saint Coinach's Find",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 969,
-            "level": 50,
             "name": "Punching Your Way to Success",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 968,
-            "level": 50,
             "name": "Barring the Gates to Foundation",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 970,
-            "level": 50,
             "name": "With Bearings Straight",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 975,
-            "level": 52,
             "name": "Freight and Barrel",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 974,
-            "level": 52,
             "name": "It's All about Execution",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 976,
-            "level": 52,
             "name": "Cautionary Cutlery",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 981,
-            "level": 54,
             "name": "I Saw the Pine",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 980,
-            "level": 54,
             "name": "I Could Feel That from Here",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 982,
-            "level": 54,
             "name": "Keep Up with the Mechanics",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 986,
-            "level": 56,
             "name": "Unbreaker",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 987,
-            "level": 56,
             "name": "Diamond Sawdust",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 988,
-            "level": 56,
             "name": "Spirituality Inspector",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 993,
-            "level": 58,
             "name": "Winter Weather Conditions",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 992,
-            "level": 58,
             "name": "Through Thick and Thin",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 994,
-            "level": 58,
             "name": "Swords for Plowshares",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 972,
-            "level": 50,
             "name": "Foreign Exchange (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 971,
-            "level": 50,
             "name": "Starting Young (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 973,
-            "level": 50,
             "name": "Bearing the Brunt (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 978,
-            "level": 52,
             "name": "Stepping on My Heart with Stilettos (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 977,
-            "level": 52,
             "name": "Too Big to Miss (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 979,
-            "level": 52,
             "name": "Saw, Shank, and Redemption (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 984,
-            "level": 54,
             "name": "I Came, I Sawed, I Conquered (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 983,
-            "level": 54,
             "name": "Tensions in Creasing (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 985,
-            "level": 54,
             "name": "Unconventional Weaponry (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 989,
-            "level": 56,
             "name": "Attack on Titanium (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 990,
-            "level": 56,
             "name": "I'm a Lumberjack and I'm Okay (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 991,
-            "level": 56,
             "name": "The Clamor for Hammers (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 996,
-            "level": 58,
             "name": "The Nightsoil Is Dark and Full of Terrors (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 995,
-            "level": 58,
             "name": "Piercing Eyes Deserve Piercing Shafts (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 997,
-            "level": 58,
             "name": "Negative, They Are Meat Popsicles (L)",
             "issueLocation": "Foundation",
             "leveZone": "Ishgard"
         },
         {
             "id": 1270,
-            "level": 60,
             "name": "High Steal",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1269,
-            "level": 60,
             "name": "A Knack for Nicking",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1268,
-            "level": 60,
             "name": "Have Blade, Will Travel",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1271,
-            "level": 62,
             "name": "Crisscrossing",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1272,
-            "level": 62,
             "name": "Hammer Time",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1273,
-            "level": 62,
             "name": "File under Dull",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1276,
-            "level": 64,
             "name": "And My Axe",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1274,
-            "level": 64,
             "name": "Killer Cutlery",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1275,
-            "level": 64,
             "name": "Meddle in Metal",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1279,
-            "level": 66,
             "name": "The Bigger the Blade",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1277,
-            "level": 66,
             "name": "Sea-saw",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1278,
-            "level": 66,
             "name": "Renting Mortality",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1282,
-            "level": 68,
             "name": "Fire for Hire",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1281,
-            "level": 68,
             "name": "Ingot to Wing It",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1280,
-            "level": 68,
             "name": "Hammer and Sails",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1434,
-            "level": 70,
             "name": "Fire Sale",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1435,
-            "level": 70,
             "name": "Here Comes the Hammer",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1433,
-            "level": 70,
             "name": "The Gold Experience",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1438,
-            "level": 72,
             "name": "Enlistment Highs",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1437,
-            "level": 72,
             "name": "Heavy Hitter",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1436,
-            "level": 72,
             "name": "Selective Logging",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1440,
-            "level": 74,
             "name": "Halfhearted Effort",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1439,
-            "level": 74,
             "name": "Instruments of Distraction",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1441,
-            "level": 74,
             "name": "Nip It in the Bud",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1444,
-            "level": 76,
             "name": "Cooking for the Future",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1442,
-            "level": 76,
             "name": "Dodge Once, Cut Twice",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1443,
-            "level": 76,
             "name": "Idol Hands",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1445,
-            "level": 78,
             "name": "Bae Blade",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1447,
-            "level": 78,
             "name": "Keeping Loyalty",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"
         },
         {
             "id": 1446,
-            "level": 78,
             "name": "Under the Fool Moon",
             "issueLocation": "The Crystarium",
             "leveZone": "The Crystarium"

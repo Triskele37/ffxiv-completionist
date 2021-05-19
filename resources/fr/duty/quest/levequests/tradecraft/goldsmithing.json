@@ -1,843 +1,722 @@
 {
-    "key": "goldsmithing",
     "groupName": "Orfèvrerie",
     "tasks": [
         {
             "id": 441,
-            "level": 1,
             "name": "Fabrication: cuivre en douce",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 442,
-            "level": 1,
             "name": "Fabrication: anneaux pour tous",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 443,
-            "level": 1,
             "name": "Livraison: ramille pour débutant",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 446,
-            "level": 1,
             "name": "Livraison: anneaux purificateurs",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 444,
-            "level": 1,
             "name": "Fabrication: hip, hip, hip! hora",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 445,
-            "level": 1,
             "name": "Fabrication: un ami sur qui s'appuyer",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 447,
-            "level": 5,
             "name": "Fabrication: au petit bonheur",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 448,
-            "level": 5,
             "name": "Fabrication: mains contre cornes",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 449,
-            "level": 5,
             "name": "Livraison: collier maudit",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 452,
-            "level": 5,
             "name": "Livraison: l'aiguille est une petite épée",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 451,
-            "level": 5,
             "name": "Fabrication: cornes d'abondance",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 450,
-            "level": 5,
             "name": "Fabrication: les anneaux du succès",
             "issueLocation": "Rond-point des Scorpions",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 454,
-            "level": 10,
             "name": "Fabrication: un marchand qui a les crocs",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 453,
-            "level": 10,
             "name": "Fabrication: au bonheur de ces dames",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 455,
-            "level": 10,
             "name": "Livraison: cadeau de la maison",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 458,
-            "level": 10,
             "name": "Livraison: qui vivra verra",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 456,
-            "level": 10,
             "name": "Fabrication: point d'honneur",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 457,
-            "level": 10,
             "name": "Fabrication: gorgerins pour gorges chaudes",
             "issueLocation": "Horizon",
             "leveZone": "Thanalan occidental"
         },
         {
             "id": 460,
-            "level": 15,
             "name": "Fabrication: alliage gratifiant",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 459,
-            "level": 15,
             "name": "Fabrication: un brin de coquetterie",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 461,
-            "level": 15,
             "name": "Livraison: la richesse de leurs tombeaux",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 464,
-            "level": 15,
             "name": "Livraison: l'élégance dans la discrétion",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 463,
-            "level": 15,
             "name": "Fabrication: panne d'inspiration",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 462,
-            "level": 15,
             "name": "Fabrication: proverbe pointu",
             "issueLocation": "Camp des Os desséchés",
             "leveZone": "Thanalan oriental"
         },
         {
             "id": 465,
-            "level": 20,
             "name": "Fabrication: fan de fiction",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 466,
-            "level": 20,
             "name": "Grosse commande: le roi du jour",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 467,
-            "level": 20,
             "name": "Livraison: arme brûlée, arme gâchée",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 470,
-            "level": 20,
             "name": "Fabrication: qualité gridanienne exigée",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 468,
-            "level": 20,
             "name": "Fabrication: cadeau pour des tourtereaux",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 469,
-            "level": 20,
             "name": "Grosse commande: pas de soldats inconnus",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 471,
-            "level": 25,
             "name": "Fabrication: l'amour au doigt",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 473,
-            "level": 25,
             "name": "Grosse commande: copistes copieurs",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 472,
-            "level": 25,
             "name": "Livraison: pour la noblesse de l'occultiste",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 474,
-            "level": 25,
             "name": "Fabrication: collier de champions",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 475,
-            "level": 25,
             "name": "Fabrication: la boucle est bouclée",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 476,
-            "level": 25,
             "name": "Grosse commande: danse stellaire",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 478,
-            "level": 30,
             "name": "Fabrication: nature morte de valeur",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 479,
-            "level": 30,
             "name": "Grosse commande: elle court, la malachite d'amour",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 477,
-            "level": 30,
             "name": "Livraison: elle mérite un béryl",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 481,
-            "level": 30,
             "name": "Fabrication: l'amour, toujours",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 480,
-            "level": 30,
             "name": "Fabrication: en avant la couture",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 482,
-            "level": 30,
             "name": "Grosse commande: la mode passe au vert",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 484,
-            "level": 35,
             "name": "Fabrication: mithril opportuniste",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 485,
-            "level": 35,
             "name": "Grosse commande: la saison des occultistes",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 483,
-            "level": 35,
             "name": "Livraison: juste un bracelet",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 487,
-            "level": 35,
             "name": "Fabrication: un croc pour y croire",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 486,
-            "level": 35,
             "name": "Fabrication: question d'image",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 488,
-            "level": 35,
             "name": "Grosse commande: le secret est dans la boucle",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 490,
-            "level": 40,
             "name": "Fabrication: tape-à-l'œil",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 491,
-            "level": 40,
             "name": "Grosse commande: armilles en corail rouge",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 489,
-            "level": 40,
             "name": "Livraison: du corail sous les écailles",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 493,
-            "level": 40,
             "name": "Fabrication: la corne ou la mort",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 492,
-            "level": 40,
             "name": "Fabrication: protéger nos gorges",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 494,
-            "level": 40,
             "name": "Grosse commande: trop de gemmes tuent la vertu",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 496,
-            "level": 45,
             "name": "Fabrication: mélange rentable",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 497,
-            "level": 45,
             "name": "Grosse commande: le grand final du corail",
             "issueLocation": "Ul'dah",
             "leveZone": "Ul'dah"
         },
         {
             "id": 495,
-            "level": 45,
             "name": "Livraison: radicaux ras de cou",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 498,
-            "level": 45,
             "name": "Fabrication: des aiguilles pour tous",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 499,
-            "level": 45,
             "name": "Fabrication: présent pour bienfaitrices",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 500,
-            "level": 45,
             "name": "Grosse commande: ras de cou simples",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 1119,
-            "level": 50,
             "name": "Fabrication: boucles d'oreilles pour les soigneurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1118,
-            "level": 50,
             "name": "Fabrication: lunettes pour les templiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1120,
-            "level": 50,
             "name": "Grosse commande: bâtons pour les ecclésiastiques",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1125,
-            "level": 52,
             "name": "Fabrication: gagnant-gagnant",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1124,
-            "level": 52,
             "name": "Fabrication: un besoin urgent",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1126,
-            "level": 52,
             "name": "Grosse commande: lingots de mithrite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1131,
-            "level": 54,
             "name": "Fabrication: avoir le bon réflexe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1130,
-            "level": 54,
             "name": "Fabrication: cadeau de départ à la retraite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1132,
-            "level": 54,
             "name": "Grosse commande: fatigue visuelle",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1137,
-            "level": 56,
             "name": "Fabrication: aux oreilles des charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1136,
-            "level": 56,
             "name": "Fabrication: sacrilège",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1138,
-            "level": 56,
             "name": "Grosse commande: le boum de l'astromancie",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1143,
-            "level": 58,
             "name": "Fabrication: un don généreux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1142,
-            "level": 58,
             "name": "Fabrication: en plein dans l'œil",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1144,
-            "level": 58,
             "name": "Grosse commande: diadèmes pour soigneurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1122,
-            "level": 50,
             "name": "Grand mandat: boucles d'oreilles pour les soigneurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1121,
-            "level": 50,
             "name": "Grand mandat: lunettes pour les templiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1123,
-            "level": 50,
             "name": "Grand mandat: bâtons pour les ecclésiastiques",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1128,
-            "level": 52,
             "name": "Grand mandat: gagnant-gagnant",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1127,
-            "level": 52,
             "name": "Grand mandat: un besoin urgent",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1129,
-            "level": 52,
             "name": "Grand mandat: lingots de mithrite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1134,
-            "level": 54,
             "name": "Grand mandat: avoir le bon réflexe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1133,
-            "level": 54,
             "name": "Grand mandat: cadeau de départ à la retraite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1135,
-            "level": 54,
             "name": "Grand mandat: fatigue visuelle",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1140,
-            "level": 56,
             "name": "Grand mandat: aux oreilles des charpentiers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1139,
-            "level": 56,
             "name": "Grand mandat: sacrilège",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1141,
-            "level": 56,
             "name": "Grand mandat: le boum de l'astromancie",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1146,
-            "level": 58,
             "name": "Grand mandat: un don généreux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1145,
-            "level": 58,
             "name": "Grand mandat: en plein dans l'œil",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1147,
-            "level": 58,
             "name": "Grand mandat: diadèmes pour soigneurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1345,
-            "level": 60,
             "name": "Grosse commande: des outils similaires à ceux d'Ul'dah",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1344,
-            "level": 60,
             "name": "Fabrication: une bague séduisante",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1343,
-            "level": 60,
             "name": "Fabrication: des boucles d'oreilles venues d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1346,
-            "level": 62,
             "name": "Fabrication: une chaîne monastique venue d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1347,
-            "level": 62,
             "name": "Fabrication: matérialisation de bracelet",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1348,
-            "level": 62,
             "name": "Grosse commande: du bonheur en lingots",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1349,
-            "level": 64,
             "name": "Fabrication: une belle petite épée",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1350,
-            "level": 64,
             "name": "Fabrication: du matériel de grand professionnel",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1351,
-            "level": 64,
             "name": "Grosse commande: une barrette venue d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1354,
-            "level": 66,
             "name": "Grosse commande: des bagues venues d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1353,
-            "level": 66,
             "name": "Fabrication: un lingot à la place du cœur",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1352,
-            "level": 66,
             "name": "Fabrication: un beau planisphère",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1357,
-            "level": 68,
             "name": "Grosse commande: des ras de cou venus d'ailleurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1356,
-            "level": 68,
             "name": "Fabrication: un bel estoc",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1355,
-            "level": 68,
             "name": "Fabrication: un sceptre à louer",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1509,
-            "level": 70,
             "name": "Fabrication: des aiguilles bien robustes",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1508,
-            "level": 70,
             "name": "Fabrication: l'amour de l'artisan pour ses outils",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1510,
-            "level": 70,
             "name": "Grosse commande: des boucles d'oreilles étoilées",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1513,
-            "level": 72,
             "name": "Grosse commande: les bracelets de la générosité",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1512,
-            "level": 72,
             "name": "Fabrication: des protections pour les casse-cous",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1511,
-            "level": 72,
             "name": "Fabrication: devenir une fine lame",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1514,
-            "level": 74,
             "name": "Fabrication: un métal éthéroconducteur",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1515,
-            "level": 74,
             "name": "Fabrication: mage par admiration",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1516,
-            "level": 74,
             "name": "Grosse commande: les ras de cou de la générosité",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1519,
-            "level": 76,
             "name": "Grosse commande: les boucles d'oreilles de la générosité",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1518,
-            "level": 76,
             "name": "Fabrication: une bague pour nouveau-né",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1517,
-            "level": 76,
             "name": "Fabrication: des sphères célestes à en perdre la boule",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1521,
-            "level": 78,
             "name": "Fabrication: les ras de cou de l'ultime générosité",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1520,
-            "level": 78,
             "name": "Fabrication: devenir une plus fine lame",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1522,
-            "level": 78,
             "name": "Grosse commande: des bracelets en première ligne",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"

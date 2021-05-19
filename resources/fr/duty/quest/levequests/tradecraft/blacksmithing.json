@@ -1,843 +1,722 @@
 {
-    "key": "blacksmithing",
     "groupName": "Métallurgie",
     "tasks": [
         {
             "id": 141,
-            "level": 1,
             "name": "Fabrication: hachette-moi ça",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 142,
-            "level": 1,
             "name": "Fabrication: maladie du bronze",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 143,
-            "level": 1,
             "name": "Livraison: la barrière bat de l'aile",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 146,
-            "level": 1,
             "name": "Livraison: des épées pour les brutes",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 144,
-            "level": 1,
             "name": "Fabrication: d'humeur tranchante",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 145,
-            "level": 1,
             "name": "Fabrication: mauvaise coupe",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 148,
-            "level": 5,
             "name": "Fabrication: épées vikings conformes",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 147,
-            "level": 5,
             "name": "Fabrication: chef inoxydable",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 149,
-            "level": 5,
             "name": "Livraison: un couteau à pied dans la tombe",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 152,
-            "level": 5,
             "name": "Livraison: bonne pioche!",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 150,
-            "level": 5,
             "name": "Fabrication: pharma coupée",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 151,
-            "level": 5,
             "name": "Fabrication: opération coup de marteau",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 153,
-            "level": 10,
             "name": "Fabrication: maréchal-débutant",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 154,
-            "level": 10,
             "name": "Fabrication: spathes en stock",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 155,
-            "level": 10,
             "name": "Livraison: escale à Ul'dah",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 158,
-            "level": 10,
             "name": "Livraison: ça va trancher",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 157,
-            "level": 10,
             "name": "Fabrication: finition maison",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 156,
-            "level": 10,
             "name": "Fabrication: argent sale",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 160,
-            "level": 15,
             "name": "Fabrication: alêne fraîche",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 159,
-            "level": 15,
             "name": "Fabrication: sitôt forgé, sitôt embarqué",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 161,
-            "level": 15,
             "name": "Livraison: arrivée de rivets",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 164,
-            "level": 15,
             "name": "Livraison: ils sont marteaux",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 162,
-            "level": 15,
             "name": "Fabrication: combat rapproché",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 163,
-            "level": 15,
             "name": "Fabrication: manque de lest",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 165,
-            "level": 20,
             "name": "Fabrication: filon en douce",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 166,
-            "level": 20,
             "name": "Grosse commande: le clou du spectacle",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 167,
-            "level": 20,
             "name": "Livraison: masse critique",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 170,
-            "level": 20,
             "name": "Fabrication: armons la milice",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 168,
-            "level": 20,
             "name": "Fabrication: halte aux xylophages",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 169,
-            "level": 20,
             "name": "Grosse commande: l'atelier du démon",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 171,
-            "level": 25,
             "name": "Fabrication: mise à jour des outils",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 173,
-            "level": 25,
             "name": "Grosse commande: donner le temps au tan",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 172,
-            "level": 25,
             "name": "Livraison: dames à lames",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 174,
-            "level": 25,
             "name": "Fabrication: le credo du lancier",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 175,
-            "level": 25,
             "name": "Fabrication: scie et seulement scie",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 176,
-            "level": 25,
             "name": "Grosse commande: touche pas à mon mortier",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 178,
-            "level": 30,
             "name": "Fabrication: amputation personnelle",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 179,
-            "level": 30,
             "name": "Grosse commande: adorables dolabres",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 177,
-            "level": 30,
             "name": "Livraison: la lame nue",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 181,
-            "level": 30,
             "name": "Fabrication: coup de massue",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 180,
-            "level": 30,
             "name": "Fabrication: alêne en acier",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 182,
-            "level": 30,
             "name": "Grosse commande: la faux s'il le faut",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 184,
-            "level": 35,
             "name": "Fabrication: alênes en urgence",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 185,
-            "level": 35,
             "name": "Grosse commande: herboriste cherche mortiers",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 183,
-            "level": 35,
             "name": "Livraison: savoir couper le cordon",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 186,
-            "level": 35,
             "name": "Fabrication: une question de contrôle",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 187,
-            "level": 35,
             "name": "Fabrication: coups de couteau dans la nuit froide",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 188,
-            "level": 35,
             "name": "Grosse commande: pas de cuisine sans couteaux",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 190,
-            "level": 40,
             "name": "Fabrication: outil simple en métal noble",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 191,
-            "level": 40,
             "name": "Grosse commande: laissons limer les condamnés",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 189,
-            "level": 40,
             "name": "Livraison: de la légèreté de la masse",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 193,
-            "level": 40,
             "name": "Fabrication: la forge perpétuelle",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 192,
-            "level": 40,
             "name": "Fabrication: couteaux de cuisine",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 194,
-            "level": 40,
             "name": "Grosse commande: compter les coups sur les clous",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 196,
-            "level": 45,
             "name": "Fabrication: limes défectueuses",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 197,
-            "level": 45,
             "name": "Grosse commande: pâturages en tenailles",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 195,
-            "level": 45,
             "name": "Livraison: tanner pour mieux creuser",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 199,
-            "level": 45,
             "name": "Fabrication: terreur griffue",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 198,
-            "level": 45,
             "name": "Fabrication: boîtes à reliques",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 200,
-            "level": 45,
             "name": "Grosse commande: maillets à tout faire",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 969,
-            "level": 50,
             "name": "Fabrication: des patas d'entraînement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 968,
-            "level": 50,
             "name": "Fabrication: des katzbalgers pour les défenses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 970,
-            "level": 50,
             "name": "Grosse commande: des pépites pour balistes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 975,
-            "level": 52,
             "name": "Fabrication: des stylets pour les pilotes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 974,
-            "level": 52,
             "name": "Fabrication: des espadons de bourreau",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 976,
-            "level": 52,
             "name": "Grosse commande: des couteaux pour les cuistots",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 981,
-            "level": 54,
             "name": "Fabrication: des scies pour sapeur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 980,
-            "level": 54,
             "name": "Fabrication: des couteaux de tanneur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 982,
-            "level": 54,
             "name": "Grosse commande: arquebuses d'essai",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 986,
-            "level": 56,
             "name": "Fabrication: du titane aux carreaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 987,
-            "level": 56,
             "name": "Fabrication: déblayage à la hache",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 988,
-            "level": 56,
             "name": "Grosse commande: coup de massette",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 993,
-            "level": 58,
             "name": "Fabrication: que de dolabres",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 992,
-            "level": 58,
             "name": "Fabrication: de l'adamantium à la pointe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 994,
-            "level": 58,
             "name": "Grosse commande: charcuterie à l'espadon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 972,
-            "level": 50,
             "name": "Grand mandat: des patas d'entraînement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 971,
-            "level": 50,
             "name": "Grand mandat: des katzbalgers pour les défenses",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 973,
-            "level": 50,
             "name": "Grand mandat: des pépites pour balistes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 978,
-            "level": 52,
             "name": "Grand mandat: des stylets pour les pilotes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 977,
-            "level": 52,
             "name": "Grand mandat: des espadons de bourreau",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 979,
-            "level": 52,
             "name": "Grand mandat: des couteaux pour les cuistots",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 984,
-            "level": 54,
             "name": "Grand mandat: des scies pour sapeur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 983,
-            "level": 54,
             "name": "Grand mandat: des couteaux de tanneur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 985,
-            "level": 54,
             "name": "Grand mandat: arquebuses d'essai",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 989,
-            "level": 56,
             "name": "Grand mandat: du titane aux carreaux",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 990,
-            "level": 56,
             "name": "Grand mandat: déblayage à la hache",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 991,
-            "level": 56,
             "name": "Grand mandat: coup de massette",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 996,
-            "level": 58,
             "name": "Grand mandat: que de dolabres",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 995,
-            "level": 58,
             "name": "Grand mandat: de l'adamantium à la pointe",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 997,
-            "level": 58,
             "name": "Grand mandat: charcuterie à l'espadon",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1270,
-            "level": 60,
             "name": "Grosse commande: des pépites d'acier, par pitié!",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1269,
-            "level": 60,
             "name": "Fabrication: un couteau à louer",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1268,
-            "level": 60,
             "name": "Fabrication: une épée pour se défendre",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1271,
-            "level": 62,
             "name": "Fabrication: une arme dissimulable",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1272,
-            "level": 62,
             "name": "Fabrication: le maillet du maçon",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1273,
-            "level": 62,
             "name": "Grosse commande: de nouvelles limes à louer",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1276,
-            "level": 64,
             "name": "Grosse commande: déterrer les haches de guerre",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1274,
-            "level": 64,
             "name": "Fabrication: avec sa manique et son couteau",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1275,
-            "level": 64,
             "name": "Fabrication: de beaux lingots",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1279,
-            "level": 66,
             "name": "Grosse commande: plein de beaux tachi",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1277,
-            "level": 66,
             "name": "Fabrication: une production en dents de scie",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1278,
-            "level": 66,
             "name": "Fabrication: un mortier à louer",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1282,
-            "level": 68,
             "name": "Grosse commande: problèmes carabinés au Sekiseigumi",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1281,
-            "level": 68,
             "name": "Fabrication: pur comme un lingot",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1280,
-            "level": 68,
             "name": "Fabrication: un beau marteau",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1434,
-            "level": 70,
             "name": "Fabrication: nouvel article en vente",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1435,
-            "level": 70,
             "name": "Grosse commande: des maillets en masse",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1433,
-            "level": 70,
             "name": "Fabrication: des réserves d'or incarnat",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1438,
-            "level": 72,
             "name": "Grosse commande: les épées des recrues",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1437,
-            "level": 72,
             "name": "Fabrication: des poings dans la face des brigands",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1436,
-            "level": 72,
             "name": "Fabrication: une bonne grosse hache",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1440,
-            "level": 74,
             "name": "Fabrication: le génie de la scie ronde",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1439,
-            "level": 74,
             "name": "Fabrication: réparation à l'azuresprit",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1441,
-            "level": 74,
             "name": "Grosse commande: outils pour jardiniers",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1444,
-            "level": 76,
             "name": "Grosse commande: couteaux de cuisine pour enfants",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1442,
-            "level": 76,
             "name": "Fabrication: des dagues contre la mauvaise haleine",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1443,
-            "level": 76,
             "name": "Fabrication: des chakrams pour les admirateurs",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1445,
-            "level": 78,
             "name": "Fabrication: esthétisme et efficacité tranchants",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1447,
-            "level": 78,
             "name": "Grosse commande: cadeau pour nos artisans",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1446,
-            "level": 78,
             "name": "Fabrication: des armes à feu expérimentales",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"

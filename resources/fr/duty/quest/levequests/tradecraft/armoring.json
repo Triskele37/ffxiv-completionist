@@ -1,843 +1,722 @@
 {
-    "key": "armoring",
     "groupName": "Armurerie",
     "tasks": [
         {
             "id": 202,
-            "level": 1,
             "name": "Fabrication: des poêles au poil",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 201,
-            "level": 1,
             "name": "Fabrication: par ici les lingots",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 203,
-            "level": 1,
             "name": "Livraison: ne pas être à côté de la plaque",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 206,
-            "level": 1,
             "name": "Livraison: la distillation pour les nuls",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 204,
-            "level": 1,
             "name": "Fabrication: alliage indispensable",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 205,
-            "level": 1,
             "name": "Fabrication: outils dangereux",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 208,
-            "level": 5,
             "name": "Fabrication: barbutes pour barbus",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 207,
-            "level": 5,
             "name": "Fabrication: il n'y a que la maille qui m'aille",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 209,
-            "level": 5,
             "name": "Livraison: les bronzés à la ferme",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 212,
-            "level": 5,
             "name": "Livraison: coiffes renforcées",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 210,
-            "level": 5,
             "name": "Fabrication: rongeurs hors normes",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 211,
-            "level": 5,
             "name": "Fabrication: ce qui porte souci",
             "issueLocation": "Métairie du Coq rouge",
             "leveZone": "Basse-Noscea"
         },
         {
             "id": 213,
-            "level": 10,
             "name": "Fabrication: l'attrait du bronze",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 214,
-            "level": 10,
             "name": "Fabrication: parce qu'œuf le vaut bien",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 215,
-            "level": 10,
             "name": "Livraison: jambards de secours",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 218,
-            "level": 10,
             "name": "Livraison: gantelets pour lutteur",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 216,
-            "level": 10,
             "name": "Fabrication: le chef régale",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 217,
-            "level": 10,
             "name": "Fabrication: du meilleur cru",
             "issueLocation": "Le Martinet",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 219,
-            "level": 15,
             "name": "Fabrication: jeunesse casquée",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 220,
-            "level": 15,
             "name": "Fabrication: cuirasses pimpantes",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 221,
-            "level": 15,
             "name": "Livraison: chef saboteur",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 224,
-            "level": 15,
             "name": "Livraison: alambic d'expérimentation",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 222,
-            "level": 15,
             "name": "Fabrication: équipage abrité",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 223,
-            "level": 15,
             "name": "Fabrication: d'une main de fer",
             "issueLocation": "Port-aux-Ales",
             "leveZone": "Noscea occidentale"
         },
         {
             "id": 225,
-            "level": 20,
             "name": "Fabrication: des cris dans la nuit",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 226,
-            "level": 20,
             "name": "Grosse commande: bois rongé, bouclier périmé",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 227,
-            "level": 20,
             "name": "Livraison: le fromage maudit",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 230,
-            "level": 20,
             "name": "Fabrication: de l'eau pour les guerriers",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 228,
-            "level": 20,
             "name": "Fabrication: présents, levez la main",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 229,
-            "level": 20,
             "name": "Grosse commande: mal aux casques",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 231,
-            "level": 25,
             "name": "Fabrication: le poids de la foi",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 233,
-            "level": 25,
             "name": "Grosse commande: quand c'est assez, c'est tassettes",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 232,
-            "level": 25,
             "name": "Livraison: cuissières en fer",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 235,
-            "level": 25,
             "name": "Fabrication: de bien belles armures",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 234,
-            "level": 25,
             "name": "Fabrication: mon royaume pour de l'hydromel",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 236,
-            "level": 25,
             "name": "Grosse commande: taillés dans la maille",
             "issueLocation": "Moulin de la Carrière",
             "leveZone": "Forêt du sud"
         },
         {
             "id": 238,
-            "level": 30,
             "name": "Fabrication: ô mon taureau",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 239,
-            "level": 30,
             "name": "Grosse commande: la botte secrète",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 237,
-            "level": 30,
             "name": "Livraison: la rondache des délices",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 240,
-            "level": 30,
             "name": "Fabrication: des poêles pour un gourmet",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 241,
-            "level": 30,
             "name": "Fabrication: la classe du chat casqué",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 242,
-            "level": 30,
             "name": "Grosse commande: la beauté du tibia",
             "issueLocation": "Costa del Sol",
             "leveZone": "Noscea orientale"
         },
         {
             "id": 244,
-            "level": 35,
             "name": "Fabrication: il n'y a qu'un vrai mithril",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 245,
-            "level": 35,
             "name": "Grosse commande: bonnes vieilles plaques",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 243,
-            "level": 35,
             "name": "Livraison: la patience des astrologues",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 247,
-            "level": 35,
             "name": "Fabrication: la poêle syndicale",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 246,
-            "level": 35,
             "name": "Fabrication: de robustes ceintures",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 248,
-            "level": 35,
             "name": "Grosse commande: les caligae ou le fouet",
             "issueLocation": "Observatoire",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 250,
-            "level": 40,
             "name": "Fabrication: mon royaume pour une cheville",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 251,
-            "level": 40,
             "name": "Grosse commande: bien alambiqué",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 249,
-            "level": 40,
             "name": "Livraison: la meilleure façon de brûler",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 253,
-            "level": 40,
             "name": "Fabrication: casque cérémonial en mithril",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 252,
-            "level": 40,
             "name": "Fabrication: canons d'avant-bras en mithril",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 254,
-            "level": 40,
             "name": "Grosse commande: halte à l'acier, place au mithril",
             "issueLocation": "Poste de L'Arête blanche",
             "leveZone": "Hautes terres du Coerthas central"
         },
         {
             "id": 256,
-            "level": 45,
             "name": "Fabrication: du cobalt pour les casaques",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 257,
-            "level": 45,
             "name": "Grosse commande: quand le mithril monte à la tête",
             "issueLocation": "Limsa Lominsa",
             "leveZone": "Limsa Lominsa"
         },
         {
             "id": 255,
-            "level": 45,
             "name": "Livraison: fête du savoir",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 259,
-            "level": 45,
             "name": "Fabrication: chaussures à leurs pieds",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 258,
-            "level": 45,
             "name": "Fabrication: des caligae contre les vers",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 260,
-            "level": 45,
             "name": "Grosse commande: la couche dure",
             "issueLocation": "Trouvaille de Saint-Coinach",
             "leveZone": "Mor Dhona"
         },
         {
             "id": 998,
-            "level": 50,
             "name": "Fabrication: remplacement de tassettes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 999,
-            "level": 50,
             "name": "Fabrication: des rivets de réparation",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1000,
-            "level": 50,
             "name": "Grosse commande: des scuta pour volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1005,
-            "level": 52,
             "name": "Fabrication: des alambics pour l'hôpital",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1004,
-            "level": 52,
             "name": "Fabrication: des boucliers bien ternes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1006,
-            "level": 52,
             "name": "Grosse commande: des poêles pour les cuistots",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1010,
-            "level": 54,
             "name": "Fabrication: du titane pour engrenages",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1011,
-            "level": 54,
             "name": "Fabrication: des sallets pour l'élite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1012,
-            "level": 54,
             "name": "Grosse commande: la côte des mailles",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1016,
-            "level": 56,
             "name": "Fabrication: la récompense du dévouement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1017,
-            "level": 56,
             "name": "Fabrication: des protège-têtes pour inquisiteurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1018,
-            "level": 56,
             "name": "Grosse commande: des canons d'avant-bras pour volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1022,
-            "level": 58,
             "name": "Fabrication: des fuseaux pour les chevaliers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1023,
-            "level": 58,
             "name": "Fabrication: protection contre les dragons",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1024,
-            "level": 58,
             "name": "Grosse commande: des rivets pour le Protecteur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1001,
-            "level": 50,
             "name": "Grand mandat: remplacement de tassettes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1002,
-            "level": 50,
             "name": "Grand mandat: des rivets de réparation",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1003,
-            "level": 50,
             "name": "Grand mandat: des scuta pour volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1008,
-            "level": 52,
             "name": "Grand mandat: des alambics pour l'hôpital",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1007,
-            "level": 52,
             "name": "Grand mandat: des boucliers bien ternes",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1009,
-            "level": 52,
             "name": "Grand mandat: des poêles pour les cuistots",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1013,
-            "level": 54,
             "name": "Grand mandat: du titane pour engrenages",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1014,
-            "level": 54,
             "name": "Grand mandat: des sallets pour l'élite",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1015,
-            "level": 54,
             "name": "Grand mandat: la côte des mailles",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1019,
-            "level": 56,
             "name": "Grand mandat: la récompense du dévouement",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1020,
-            "level": 56,
             "name": "Grand mandat: des protège-têtes pour inquisiteurs",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1021,
-            "level": 56,
             "name": "Grand mandat: des canons d'avant-bras pour volontaires",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1025,
-            "level": 58,
             "name": "Grand mandat: des fuseaux pour les chevaliers",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1026,
-            "level": 58,
             "name": "Grand mandat: protection contre les dragons",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1027,
-            "level": 58,
             "name": "Grand mandat: des rivets pour le Protecteur",
             "issueLocation": "Ishgard - L'Assise",
             "leveZone": "Ishgard"
         },
         {
             "id": 1285,
-            "level": 60,
             "name": "Grosse commande: des casques de scène",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1284,
-            "level": 60,
             "name": "Fabrication: la demande alambiquée du consulat",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1283,
-            "level": 60,
             "name": "Fabrication: l'armure de l'ennemi imaginé",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1287,
-            "level": 62,
             "name": "Fabrication: des gantelets de second rôle",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1288,
-            "level": 62,
             "name": "Grosse commande: couler des lingots",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1286,
-            "level": 62,
             "name": "Fabrication: un grand bouclier pare-balle",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1289,
-            "level": 64,
             "name": "Fabrication: des chaussures renforcées à louer",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1290,
-            "level": 64,
             "name": "Fabrication: une belle poêle à frire",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1291,
-            "level": 64,
             "name": "Grosse commande: les tassettes du Sekiseigumi",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1292,
-            "level": 66,
             "name": "Fabrication: un tabard pour le rôle principal",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1293,
-            "level": 66,
             "name": "Fabrication: de beaux lingots",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1294,
-            "level": 66,
             "name": "Grosse commande: les jambards du Sekiseigumi",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1296,
-            "level": 68,
             "name": "Fabrication: un costume de rechange pour les acteurs",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1297,
-            "level": 68,
             "name": "Grosse commande: des protège-tête pour le Sekiseigumi",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1295,
-            "level": 68,
             "name": "Fabrication: un bel écu",
             "issueLocation": "Kugane",
             "leveZone": "Kugane"
         },
         {
             "id": 1450,
-            "level": 70,
             "name": "Grosse commande: des casques très utiles",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1448,
-            "level": 70,
             "name": "Fabrication: des écus pour les recrues",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1449,
-            "level": 70,
             "name": "Fabrication: une poêle à frire toute neuve",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1452,
-            "level": 72,
             "name": "Fabrication: un surcot sur mesure",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1451,
-            "level": 72,
             "name": "Fabrication: des lingots pour l'entretien",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1453,
-            "level": 72,
             "name": "Grosse commande: les mains des recrues",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1455,
-            "level": 74,
             "name": "Fabrication: de l'azuresprit aux mains",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1454,
-            "level": 74,
             "name": "Fabrication: attention oreilles délicates",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1456,
-            "level": 74,
             "name": "Grosse commande: des remèdes alambiqués",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1459,
-            "level": 76,
             "name": "Grosse commande: des tassettes pour les camarades",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1457,
-            "level": 76,
             "name": "Fabrication: tir multiple de bronze titané",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1458,
-            "level": 76,
             "name": "Fabrication: pavoiser en formation serrée",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1462,
-            "level": 78,
             "name": "Grosse commande: avoir les reins solides",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1461,
-            "level": 78,
             "name": "Fabrication: protection renforcée pour les pieds",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
         },
         {
             "id": 1460,
-            "level": 78,
             "name": "Fabrication: y a que le mithril noble qui m'aille",
             "issueLocation": "Cristarium",
             "leveZone": "Cristarium"
