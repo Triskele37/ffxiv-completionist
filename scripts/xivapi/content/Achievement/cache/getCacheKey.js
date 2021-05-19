@@ -5,5 +5,6 @@ module.exports = function(appKey, lang) {
         case "description": return `Description_${lang}`;
         case "reward": return `Reward_${lang}`;
         case "points": return "Points";
+        case "patch": return "Patch";
     }
 };

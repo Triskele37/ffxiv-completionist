@@ -4,6 +4,7 @@ module.exports = function mapAppTask(cacheTask, lang) {
         name: cacheTask[`Name_${lang}`],
         description: cacheTask[`Description_${lang}`],
         reward: cacheTask[`Reward_${lang}`],
-        points: cacheTask.Points
+        points: cacheTask.Points,
+        patch: cacheTask.Patch,
     };
 };

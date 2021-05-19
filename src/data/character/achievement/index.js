@@ -12,7 +12,8 @@ import { Character_Achievements_Legacy } from "./legacy";
 
 export const Character_Achievements = function(parent) {
     const data = DataGroup.fromJSON(parent, "./character/achievement/index", {
-        Points: { filterable: true, filterType: "number", centered: true }
+        points: { filterable: true, filterType: "number" },
+        patch: { filterable: true },
     });
 
 	data.subGroups = [

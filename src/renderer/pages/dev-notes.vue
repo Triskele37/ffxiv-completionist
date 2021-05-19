@@ -20,7 +20,6 @@
         <h3>Known Issues</h3>
         <ul>
             <li>Many ARR quests have the wrong level (please provide feedback to help, there is a lot of em)</li>
-            <li>Achievements missing "Patch" column</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
             <li>application is not code signed</li>
             <li>Quest restrictions based on starting zone are not automatic</li>

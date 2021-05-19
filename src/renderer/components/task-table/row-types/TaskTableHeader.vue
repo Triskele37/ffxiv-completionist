@@ -28,7 +28,7 @@
                     >
                         <option></option>
                         <option v-for="uniqueValue in uniqueValues[column.key]">
-                            {{uniqueValue}}
+                            {{displayedFilterValue(uniqueValue)}}
                         </option>
                     </select>
 
@@ -37,7 +37,7 @@
                         v-if="!!filters[column.key]"
                         @click="removeFilter(column.key)"
                     >
-                        {{filters[column.key].value}}
+                        {{displayedFilterValue(filters[column.key].value)}}
                     </div>
                 </span>
                 <span v-else class="search-column">
@@ -88,8 +88,16 @@
                 this.filters = Object.assign({}, this.filters);
                 this.$emit('filter-change', this.filters);
             },
+            displayedFilterValue: function(filterValue) {
+                switch(filterValue) {
+                    case null:
+                    case undefined:
+                    case "": return "Blank"
+                    default: return filterValue;
+                }
+            },
             addFilter: function($event, column) {
-                const value = $event.target.value;
+                const value = $event.target.value === "Blank" ? "" : $event.target.value;
 
                 // New Filter
                 this.filters[column.key] = {

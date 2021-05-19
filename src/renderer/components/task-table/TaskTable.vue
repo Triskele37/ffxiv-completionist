@@ -78,8 +78,9 @@
                     this.columnConfig.forEach(({ key }) => {
                         if(!uniqueValues[key]) uniqueValues[key] = [];
 
-                        if(task[key] && uniqueValues[key].indexOf(task[key]) === -1) {
-                            uniqueValues[key].push(task[key]);
+                        const value = !task[key] && task[key] !== 0 ? "" : task[key];
+                        if(uniqueValues[key].indexOf(value) === -1) {
+                            uniqueValues[key].push(value);
                         }
                     });
                 });
