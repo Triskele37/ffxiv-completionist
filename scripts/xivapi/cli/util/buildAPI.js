@@ -14,7 +14,7 @@ const getSafeName = require("./getSafeName");
 }
  * */
 
-module.exports = function buildAPI(config, mapFromCache) {
+module.exports = function buildAPI({ config, mapCacheTask }) {
     const output = { keys: [], tasks: [] };
 
     const contentDir = `${constants.CACHE_DIR}/${getSafeName(config.API_ENDPOINT)}`;
@@ -43,7 +43,7 @@ module.exports = function buildAPI(config, mapFromCache) {
             else {
                 // Build tasks from the cached data
                 const cachedFile = JSON.parse(fs.readFileSync(newPath, "utf8"));
-                const cacheTask = mapFromCache(cachedFile);
+                const cacheTask = mapCacheTask(cachedFile);
                 cleanTaskValues(cacheTask);
 
                 // mapCacheTasks can either return a single task or multiple

@@ -1,8 +1,5 @@
-const config = require('./config.json');
+const Content = require("../../Content");
 
-module.exports = {
-    config,
-    getCachePath: function(ENpcResident) {
-        return [];
-    }
-};
+const ENpcResident = new Content(__dirname);
+
+module.exports = ENpcResident;

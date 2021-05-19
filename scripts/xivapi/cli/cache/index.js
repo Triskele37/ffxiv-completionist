@@ -33,7 +33,7 @@ module.exports = async function cacheAPI(content, done) {
 
     // Write cache config updates
     console.log(`Updating config for ${content.config.API_ENDPOINT}`);
-    writeJsonFile(constants.CONTENT_DIR, [content.config.API_ENDPOINT], 'config', content.config);
+    content.updateConfigFile();
 
     done();
 };

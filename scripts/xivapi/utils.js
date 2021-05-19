@@ -1,11 +1,6 @@
 const fs = require("fs");
 
 module.exports = {
-    loadExcludedFile: function loadExcludedFile(dirname) {
-        const path = `${dirname}/excluded.json`;
-        const file = fs.readFileSync(path, "utf8");
-        return JSON.parse(file);
-    },
     safeTrim: function safeTrim(val) {
         return (typeof val === "string") ? val.trim() : val;
     },

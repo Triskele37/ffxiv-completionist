@@ -4,6 +4,8 @@ const logUpdate = require("log-update");
 const constants = require("../../constants");
 const utils = require("../../utils");
 
+const buildAPI = require("../util/buildAPI");
+
 const mergeDiffTasks = require("./mergeDiff");
 const mergeSortTasks = require("./mergeSort");
 const mergeNewTasks = require("./mergeNew");
@@ -13,7 +15,7 @@ module.exports = function mergeAPI(content, rl, done) {
     const sortTasks = [];
     const newTasks = [];
 
-    dive(content.build(), "");
+    dive(buildAPI(content), "");
 
     // Kick off the recursion to merge all identified tasks
     mergeDiffTasks(rl, diffTasks, () => {
@@ -46,7 +48,7 @@ module.exports = function mergeAPI(content, rl, done) {
         if(content.getAppPath) appPath = content.getAppPath(appPath);
 
         // Allow content to exclude some paths
-        if(content.mergePathExcluded && content.mergePathExcluded(appPath)) return;
+        if(content.excludeAppPathMerge && content.excludeAppPathMerge(appPath)) return;
 
         const cmnPath = appPath.replace(lang, "common");
         const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, "utf8")) : null;

@@ -1,21 +1,7 @@
-const utils = require("../../../utils");
-const buildAPI = require("../../../cli/util/buildAPI");
+const Content = require("../../Content");
 
-const config = require("./config.json");
-const getCachePath = require("./cache/getCachePath");
-const mapCacheTask = require("./cache/mapCacheTask");
-const getCacheKey = require("./cache/getCacheKey");
-const getAppPath = require("./app/getAppPath");
-const mapAppTask = require("./app/mapAppTask");
+const Emote = new Content(__dirname);
+Emote.MERGE_KEYS = ["id", "name", "command"];
+// Emote.COMMON_KEYS = ["patch"];
 
-module.exports = {
-    config,
-    MERGE_KEYS: ["id", "name", "command"],
-    // COMMON_KEYS: ["patch"],
-    excludedIds: utils.loadExcludedFile(__dirname),
-    getCachePath,
-    build: () => buildAPI(config, mapCacheTask),
-    getCacheKey,
-    getAppPath,
-    mapAppTask
-};
+module.exports = Emote;

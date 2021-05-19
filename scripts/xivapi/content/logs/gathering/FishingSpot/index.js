@@ -1,11 +1,7 @@
-const utils = require("../../../../utils");
+const Content = require("../../../Content");
 
-const config = require('./config.json');
+const FishingSpot = new Content(__dirname);
+// FishingSpot.MERGE_KEYS = ["id", "name", "issueLocation", "leveZone"];
+// FishingSpot.COMMON_KEYS = ["level"];
 
-module.exports = {
-    config,
-    excludedIds: utils.loadExcludedFile(__dirname),
-    getCachePath: function(FishingSpot) {
-        return [];
-    }
-};
+module.exports = FishingSpot;

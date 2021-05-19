@@ -1,20 +1,7 @@
-const utils = require("../../../utils");
-const buildAPI = require("../../../cli/util/buildAPI");
+const Content = require("../../Content");
 
-const config = require("./config.json");
-const getCachePath = require("./cache/getCachePath");
-const mapCacheTask = require("./cache/mapCacheTask");
-const getCacheKey = require("./cache/getCacheKey");
-const getAppPath = require("./app/getAppPath");
-const mapAppTask = require("./app/mapAppTask");
+const Achievement = new Content(__dirname);
+Achievement.MERGE_KEYS = ["id", "name", "description", "reward"];
+Achievement.COMMON_KEYS = ["points", "patch"]
 
-module.exports = {
-    config,
-    MERGE_KEYS: ["id", "name", "description", "reward", "points", "patch"],
-    excludedIds: utils.loadExcludedFile(__dirname),
-    getCachePath,
-    build: () => buildAPI(config, mapCacheTask),
-    getCacheKey,
-    mapAppTask,
-    getAppPath
-};
+module.exports = Achievement;

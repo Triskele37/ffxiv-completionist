@@ -1,21 +1,8 @@
-const utils = require("../../../../utils");
-const buildAPI = require("../../../../cli/util/buildAPI");
+const Content = require("../../../Content");
 
-const config = require("./config.json");
-const getCachePath = require("./cache/getCachePath");
-const mapCacheTask = require("./cache/mapCacheTask");
-const getCacheKey = require("./cache/getCacheKey");
-const getAppPath = require("./app/getAppPath");
-const mapAppTask = require("./app/mapAppTask");
+const Quest = new Content(__dirname);
+// Quest.MERGE_KEYS = ["id", "name", "npc", "reputation"];
+Quest.MERGE_KEYS = ["id", "name", "reputation"];
+// Quest.COMMON_KEYS = ["level"];
 
-module.exports = {
-    config,
-    // MERGE_KEYS: ["id", "name", "level", "npc", "reputation"],
-    MERGE_KEYS: ["id", "name", "reputation"],
-    excludedIds: utils.loadExcludedFile(__dirname),
-    getCachePath,
-    build: () => buildAPI(config, mapCacheTask),
-    getCacheKey,
-    getAppPath,
-    mapAppTask
-};
+module.exports = Quest;

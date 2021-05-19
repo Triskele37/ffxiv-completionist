@@ -1,20 +1,7 @@
-const utils = require("../../../../utils");
-const buildAPI = require("../../../../cli/util/buildAPI");
+const Content = require("../../../Content");
 
-const config = require("./config.json");
-const getCachePath = require("./cache/getCachePath");
-const mapCacheTask = require("./cache/mapCacheTask");
-const getCacheKey = require("./cache/getCacheKey");
-const getAppPath = require("./app/getAppPath");
-const mapAppTask = require("./app/mapAppTask");
+const Leve = new Content(__dirname);
+Leve.MERGE_KEYS = ["id", "name", "issueLocation", "leveZone"];
+Leve.COMMON_KEYS = ["level"];
 
-module.exports = {
-    config,
-    MERGE_KEYS: ["id", "level", "name", "issueLocation", "leveZone"],
-    excludedIds: utils.loadExcludedFile(__dirname),
-    getCachePath,
-    build: () => buildAPI(config, mapCacheTask),
-    getCacheKey,
-    getAppPath,
-    mapAppTask
-};
+module.exports = Leve;
