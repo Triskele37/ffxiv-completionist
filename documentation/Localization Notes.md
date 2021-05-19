@@ -39,6 +39,7 @@ Notes on each section regarding localization:
 > * FateEvent
 > * Festival
 > * GrandCompanyRank
+> * InstanceContent
 > * Mount
 > * MountSpeed
 > * Orchestrion

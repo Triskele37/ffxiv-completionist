@@ -6,12 +6,30 @@ const reviewErrors = require("./reviewErrors");
 module.exports = function cleanAPI(rl, back) {
     console.clear();
 
-    Content.forEach((content) => {
-        rl.write(`Cleaning ${content.content}\n\n`);
+    const crumbs = [Content];
+    diveContent(0);
 
-        removeExcluded(rl, content);
-        reviewErrors(rl, content);
-    });
+    function diveContent(depth) {
+        const cur = crumbs[crumbs.length - 1];
+        const curKeys = Object.keys(cur);
+
+        curKeys.forEach((key) => {
+            const tabs = new Array(depth).fill("    ").join("");
+            const content = cur[key];
+
+            if(content.config) {
+                rl.write(`${tabs}Cleaning ${key}\n`);
+
+                removeExcluded(rl, content);
+                reviewErrors(rl, content);
+            }
+            else {
+                rl.write(`${tabs}(${key})\n`);
+                crumbs.push(content);
+                diveContent(depth + 1);
+            }
+        });
+    }
 
     done();
 

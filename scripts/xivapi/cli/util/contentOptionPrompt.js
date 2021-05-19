@@ -1,12 +1,79 @@
-module.exports = function contentOptionPrompt(rl, content, prompt) {
-    console.clear();
+const cacheAPI = require("../cache");
+const mergeAPI = require("../merge");
 
-    // Prompt question
-    rl.write(`${prompt}\n`);
+const Content = require("../../content");
 
-    // Content options
-    content.forEach((c, i) => rl.write(`\n${i}. ${c.content}`));
+module.exports = function contentOptionPrompt(rl, returnToMain) {
+    const crumbs = [Content];
+    let cur, curKeys;
 
-    // Back option
-    rl.write(`\n${content.length}. Back\n`);
+    diveContent();
+
+    // Recursive function to decide what content to interact with
+    function diveContent() {
+        cur = crumbs[crumbs.length - 1];
+        curKeys = Object.keys(cur);
+
+        console.clear();
+        writeOptions();
+        contentPrompt();
+    }
+
+    // Writes current depth of options to screen
+    function writeOptions() {
+        rl.write("Content Options:\n");
+
+        curKeys.forEach((key, i) => {
+            const ascii = !!cur[key].config ? "" : " >";
+
+            rl.write(`\n${i + 1}. ${key}${ascii}`);
+        });
+
+        rl.write(`\n${curKeys.length + 1}. Back\n`);
+    }
+
+    // Prompt for which content to execute on
+    function contentPrompt() {
+        rl.question('\nChoice: ', (answer) => {
+            const content = cur[curKeys[parseInt(answer) - 1]];
+
+            if(!content) goBack();
+            else if(content.config) actionPrompt(content);
+            else goForward(content);
+        });
+    }
+
+    // Go back to the previous depth or throw back to main
+    function goBack() {
+        crumbs.pop();
+
+        if(crumbs.length) diveContent();
+        else returnToMain();
+    }
+
+    // Go forward to the next depth
+    function goForward(content) {
+        crumbs.push(content);
+        diveContent();
+    }
+
+    // Prompt for which action to execute on the chosen content
+    function actionPrompt(content) {
+        console.clear();
+
+        rl.write(`Perform which action on (${content.config.API_ENDPOINT})?\n\n`);
+        rl.write("1. Update Cache\n");
+        rl.write("2. Merge to App\n");
+        rl.write("3. Back\n");
+
+        rl.question("\nChoice: ", (answer) => {
+            console.clear();
+
+            switch(answer) {
+                case "1": cacheAPI(content, returnToMain); break;
+                case "2": mergeAPI(content, rl, returnToMain); break;
+                default: diveContent();
+            }
+        });
+    }
 };
