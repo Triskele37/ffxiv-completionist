@@ -13,23 +13,33 @@
         </template>
         <!----------- Summary & Task Table ----------->
         <template v-else>
-            <div v-if="selectedGroup.subGroups" class="group-summary-section">
-                <summary-line
-                    v-for="subGroup in selectedGroup.subGroups"
-                    :key="subGroup.name"
-                    :group="subGroup"
-                />
-            </div>
+            <template v-if="!showAll">
+                <div v-if="selectedGroup.subGroups" class="group-summary-section">
+                    <summary-line
+                        v-for="subGroup in selectedGroup.subGroups"
+                        :key="subGroup.name"
+                        :group="subGroup"
+                    />
+                </div>
 
-            <div class="section-actions">
+                <div class="section-actions">
+                    <button
+                        class="xiv-button"
+                        v-if="showShowAllButton"
+                        @click="toggleShowAll"
+                    >
+                        {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
+                    </button>
+                </div>
+            </template>
+            <template v-else>
                 <button
-                    class="xiv-button"
-                    v-if="showShowAllButton"
+                    class="xiv-button exit-all-button"
                     @click="toggleShowAll"
                 >
-                    {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
+                    Exit All Task View
                 </button>
-            </div>
+            </template>
 
             <!----------- Task Tables (base & show all) ----------->
             <template v-if="showShowAllButton && showAll">
@@ -77,6 +87,11 @@
                 return (this.selectedGroup && this.selectedGroup.subGroups && this.selectedGroup.columnConfig);
             },
         },
+        watch: {
+            selectedGroup: function(oldGroup, newGroup) {
+                if(oldGroup.name !== newGroup.name) this.showAll = false;
+            }
+        },
         methods: {
             toggleShowAll: function() {
                 this.showAll = !this.showAll;
@@ -91,7 +106,6 @@
 #main-content {
     height: calc(100% - 160px);
     margin: 10px;
-    overflow-y: auto;
 
     .group-summary-section {
         display: flex;
@@ -100,6 +114,11 @@
 
     .section-actions {
         text-align: center;
+    }
+
+    .exit-all-button {
+        float: right;
+        margin-right: 20px;
     }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div v-if="!!columnConfig">
-        <span class="task-table-toolbar">
+        <div class="task-table-toolbar">
             <span v-if="hasTasks && !tasks[0].isNumericCompletion">
                 <quick-mark-dropdown :filtered-tasks="filteredTasks"/>
             </span>
@@ -12,21 +12,27 @@
             <span v-if="group.isCustomGroup">
                 <custom-task-dropdown :filtered-tasks="filteredTasks"/>
             </span>
-        </span>
 
-        <table class="xiv-table" v-if="hasTasks">
-            <task-table-header
-                @filter-change="onFilterChange"
-                :column-config="columnConfig"
-                :uniqueValues="uniqueValues"
-                :is-numeric-completion="tasks[0].isNumericCompletion"
-            />
-            <task-table-data-row
-                :key="rerenderKey"
-                :column-config="columnConfig"
-                :tasks="filteredTasks"
-            />
-        </table>
+            <span class="row-count">
+                {{filteredTasks.length}} Rows displayed
+            </span>
+        </div>
+
+        <div class="task-table-scroll-container">
+            <table class="xiv-table" v-if="hasTasks">
+                <task-table-header
+                    @filter-change="onFilterChange"
+                    :column-config="columnConfig"
+                    :uniqueValues="uniqueValues"
+                    :is-numeric-completion="tasks[0].isNumericCompletion"
+                />
+                <task-table-data-row
+                    :key="rerenderKey"
+                    :column-config="columnConfig"
+                    :tasks="filteredTasks"
+                />
+            </table>
+        </div>
     </div>
 </template>
 
@@ -147,7 +153,20 @@
 </script>
 
 <style lang="scss">
-.task-table-toolbar > span {
+.task-table-toolbar {
+    & > span {
+        display: inline-block;
+    }
+
+    .row-count {
+        margin-left: 5px;
+    }
+}
+
+.task-table-scroll-container {
+    overflow-y: auto;
     display: inline-block;
+    height: 83vh;
+    width: 100%;
 }
 </style>
