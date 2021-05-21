@@ -4,6 +4,7 @@
         "name": "Minion",
         "category": "Category",
         "source": "Source",
+        "moreSources": "Additional Sources",
         "patch": "Patch"
     },
     "tasks": [
@@ -58,8 +59,8 @@
         {
             "id": 7,
             "name": "Angel of Mercy",
-            "category": "Event / Premium",
-            "source": "Valentione's Day (2017) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 8,
@@ -88,8 +89,9 @@
         {
             "id": 11,
             "name": "Atrophied Atomos",
-            "category": "Crafting / Skybuilders",
-            "source": "Crafted by Alchemist / Kupo of Fortune"
+            "category": "Crafting",
+            "source": "Crafted by Alchemist",
+            "moreSources": "Kupo of Fortune"
         },
         {
             "id": 12,
@@ -107,7 +109,7 @@
             "id": 14,
             "name": "Axolotl Eft",
             "category": "Venture",
-            "source": "Waterside Exploration XXII / Quick Exploration"
+            "source": "Waterside Exploration XXII, Quick Exploration"
         },
         {
             "id": 15,
@@ -124,8 +126,9 @@
         {
             "id": 17,
             "name": "Baby Brachiosaur",
-            "category": "Deep Dungeon / Skybuilders",
-            "source": "Heaven-on-High / 800 Skybuilders' Scrips"
+            "category": "Purchase",
+            "source": "800 Skybuilders' Scrips",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 18,
@@ -136,14 +139,15 @@
         {
             "id": 19,
             "name": "Baby Gremlin",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Shadowbringers Pre-order"
         },
         {
             "id": 20,
             "name": "Baby Opo-opo",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / Brayflox's Longstop (Hard) / The Aquapolis"
+            "category": "Dungeon",
+            "source": "Brayflox's Longstop (Hard)",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 21,
@@ -155,7 +159,7 @@
             "id": 22,
             "name": "Bacon Bits",
             "category": "Venture",
-            "source": "Woodland Exploration XXV / Quick Exploration"
+            "source": "Woodland Exploration XXV, Quick Exploration"
         },
         {
             "id": 23,
@@ -209,31 +213,34 @@
             "id": 30,
             "name": "Blizzaria",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 31,
             "name": "Bluebird",
-            "category": "Deep Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / Timeworn Peisteskin Map / Timeworn Dragonskin Map / The Aquapolis"
+            "category": "Deep Dungeon",
+            "source": "The Palace of the Dead",
+            "moreSources": "Timeworn Peisteskin Map, Timeworn Dragonskin Map, The Aquapolis"
         },
         {
             "id": 32,
             "name": "Bom Boko",
-            "category": "Deep Dungeon / Venture",
-            "source": "Heaven-on-High / Field Exploration XX and XXII / Quick Exploration"
+            "category": "Venture",
+            "source": "Field Exploration XX and XXII, Quick Exploration",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 33,
             "name": "Bombfish",
-            "category": "Deep Dungeon / Dungeon",
-            "source": "Heaven-on-High / Shisui of the Violet Tides"
+            "category": "Dungeon",
+            "source": "Shisui of the Violet Tides",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 34,
             "name": "Brave New Y'shtola",
-            "category": "Event / Premium",
-            "source": "The Rising (2019) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 35,
@@ -256,8 +263,9 @@
         {
             "id": 38,
             "name": "Bullpup",
-            "category": "Dungeon / Skybuilders",
-            "source": "Baelsar's Wall / Kupo of Fortune"
+            "category": "Dungeon",
+            "source": "Baelsar's Wall",
+            "moreSources": "Kupo of Fortune"
         },
         {
             "id": 39,
@@ -280,7 +288,7 @@
         {
             "id": 42,
             "name": "Cait Sith Doll",
-            "category": "Limited",
+            "category": "Premium",
             "source": "A Realm Reborn Pre-order"
         },
         {
@@ -292,25 +300,27 @@
         {
             "id": 44,
             "name": "Calca",
-            "category": "Dungeon / Eureka",
-            "source": "The Antitower / FATE \"Creepy Doll\" - Eureka Pyros"
+            "category": "Dungeon",
+            "source": "The Antitower",
+            "moreSources": "FATE \"Creepy Doll\" - Eureka Pyros"
         },
         {
             "id": 45,
             "name": "Capybara Pup",
             "category": "Treasure Hunt",
-            "source": "The Lost Canals of Uznair / The Hidden Canals of Uznair / The Shifting Canals of Uznair"
+            "source": "The Lost Canals of Uznair, The Hidden Canals of Uznair, The Shifting Canals of Uznair"
         },
         {
             "id": 46,
             "name": "Castaway Chocobo Chick",
-            "category": "Deep Dungeon / Gathering",
-            "source": "Heaven-on-High / Gathered by Fisher"
+            "category": "Gathering",
+            "source": "Gathered by Fisher",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 47,
             "name": "Cerberpup",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "1,200 Skybuilders' Scrips"
         },
         {
@@ -334,7 +344,7 @@
         {
             "id": 51,
             "name": "Chocobo Chick Courier",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Heavensward Pre-order"
         },
         {
@@ -376,7 +386,7 @@
         {
             "id": 58,
             "name": "Conditional Virtue",
-            "category": "Eureka",
+            "category": "Exploratory Mission",
             "source": "The Baldesion Arsenal - Eureka Hydatos"
         },
         {
@@ -388,13 +398,13 @@
         {
             "id": 60,
             "name": "Continental Eye",
-            "category": "Event / Premium",
-            "source": "All Saints' Wake (2016) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 61,
             "name": "Copycat Bulb",
-            "category": "Eureka",
+            "category": "Exploratory Mission",
             "source": "Happy Bunny Lockbox - Eureka Pagos"
         },
         {
@@ -406,8 +416,8 @@
         {
             "id": 63,
             "name": "Dáinsleif F1",
-            "category": "Bozja",
-            "source": "Southern Front Lockbox"
+            "category": "Exploratory Mission",
+            "source": "Southern Front Lockbox - The Bozjan Southern Front"
         },
         {
             "id": 64,
@@ -418,7 +428,7 @@
         {
             "id": 65,
             "name": "Demon Box",
-            "category": "Other",
+            "category": "Premium",
             "source": "Attend a Ceremony of Eternal Bonding"
         },
         {
@@ -430,8 +440,8 @@
         {
             "id": 67,
             "name": "Dhalmel Calf",
-            "category": "Eureka",
-            "source": "Pyros Lockbox / Heat-warped Lockbox - Eureka Pyros"
+            "category": "Exploratory Mission",
+            "source": "Pyros Lockbox, Heat-warped Lockbox - Eureka Pyros"
         },
         {
             "id": 395,
@@ -443,7 +453,7 @@
             "id": 68,
             "name": "Domakin",
             "category": "Venture",
-            "source": "Waterside Exploration XXV / Quick Exploration"
+            "source": "Waterside Exploration XXV, Quick Exploration"
         },
         {
             "id": 69,
@@ -460,7 +470,7 @@
         {
             "id": 71,
             "name": "Dress-up Estinien",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "1,200 Skybuilders' Scrips"
         },
         {
@@ -484,8 +494,8 @@
         {
             "id": 75,
             "name": "Dress-up Y'shtola",
-            "category": "Event / Premium",
-            "source": "The Rising (2016) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 76,
@@ -502,20 +512,22 @@
         {
             "id": 78,
             "name": "Dust Bunny",
-            "category": "Event / Purchase",
-            "source": "Hatching-tide (2016) / Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
+            "category": "Purchase",
+            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
+            "moreSources": "Hatching-tide (2016)"
         },
         {
             "id": 79,
             "name": "Dwarf Rabbit",
-            "category": "Deep Dungeon / Skybuilders / Treasure Hunt",
-            "source": "Heaven-on-High / Kupo of Fortune / The Aquapolis"
+            "category": "Deep Dungeon",
+            "source": "Heaven-on-High",
+            "moreSources": "Kupo of Fortune, The Aquapolis"
         },
         {
             "id": 80,
             "name": "Eden Minor",
             "category": "Raid",
-            "source": "Eden's Gate: Sepulture / Eden's Gate: Sepulture (Savage)"
+            "source": "Eden's Gate: Sepulture, Eden's Gate: Sepulture (Savage)"
         },
         {
             "id": 81,
@@ -598,8 +610,9 @@
         {
             "id": 94,
             "name": "Gaelikitten",
-            "category": "Deep Dungeon / Dungeon / Skybuilders / Treasure Hunt",
-            "source": "The Palace of the Dead / Sohm Al / Kupo of Fortune / The Aquapolis"
+            "category": "Dungeon",
+            "source": "Sohm Al",
+            "moreSources": "The Palace of the Dead, Kupo of Fortune, The Aquapolis"
         },
         {
             "id": 95,
@@ -610,20 +623,22 @@
         {
             "id": 96,
             "name": "Gestahl",
-            "category": "Deep Dungeon / Venture",
-            "source": "Heaven-on-High / Waterside Exploration XVIII and XIX"
+            "category": "Venture",
+            "source": "Waterside Exploration XVIII and XIX",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 97,
             "name": "Ghido",
-            "category": "Deep Dungeon / Dungeon",
-            "source": "Heaven-on-High / The Sirensong Sea"
+            "category": "Dungeon",
+            "source": "The Sirensong Sea",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 98,
             "name": "Giant Beaver",
-            "category": "Purchase / Quest",
-            "source": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) / Required Quests: And Then There Were None, Acht-la Ormh Inn"
+            "category": "Purchase",
+            "source": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)"
         },
         {
             "id": 99,
@@ -689,7 +704,7 @@
             "id": 108,
             "name": "Hedgehoglet",
             "category": "Treasure Hunt",
-            "source": "The Lost Canals of Uznair / The Hidden Canals of Uznair / The Shifting Canals of Uznair"
+            "source": "The Lost Canals of Uznair, The Hidden Canals of Uznair, The Shifting Canals of Uznair"
         },
         {
             "id": 109,
@@ -706,20 +721,21 @@
         {
             "id": 111,
             "name": "Hoary the Snowman",
-            "category": "Event / Premium",
-            "source": "Starlight Celebration (2014) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 112,
             "name": "Hovernyan",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 113,
             "name": "Hunting Hawk",
-            "category": "Deep Dungeon / Skybuilders",
-            "source": "Heaven-on-High / 800 Skybuilders' Scrips"
+            "category": "Purchase",
+            "source": "800 Skybuilders' Scrips",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 114,
@@ -749,7 +765,7 @@
             "id": 118,
             "name": "Jibanyan",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 119,
@@ -761,7 +777,7 @@
             "id": 120,
             "name": "Koala Joey",
             "category": "Venture",
-            "source": "Woodland Exploration XXII / Quick ExplorationWoodland Exploration XXII / Quick Exploration"
+            "source": "Woodland Exploration XXII, Quick Exploration, Woodland Exploration XXII, Quick Exploration"
         },
         {
             "id": 121,
@@ -773,25 +789,26 @@
             "id": 122,
             "name": "Komajiro",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 123,
             "name": "Komasan",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 124,
             "name": "Korpokkur Kid",
-            "category": "Deep Dungeon / Dungeon",
-            "source": "Heaven-on-High / Saint Mocianne's Arboretrum"
+            "category": "Dungeon",
+            "source": "Saint Mocianne's Arboretrum",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 125,
             "name": "Kyubi",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 126,
@@ -808,8 +825,9 @@
         {
             "id": 128,
             "name": "Lesser Panda",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / The Aery / The Aquapolis"
+            "category": "Dungeon",
+            "source": "The Aery",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 129,
@@ -826,14 +844,14 @@
         {
             "id": 131,
             "name": "Little Yang",
-            "category": "Event / Premium",
-            "source": "All Saints' Wake (2018) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 132,
             "name": "Little Yin",
-            "category": "Event / Premium",
-            "source": "All Saints' Wake (2018) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 133,
@@ -874,8 +892,8 @@
         {
             "id": 139,
             "name": "Magitek Helldiver F1",
-            "category": "Bozja",
-            "source": "Castrum Lacus Litore"
+            "category": "Exploratory Mission",
+            "source": "Castrum Lacus Litore - The Bozjan Southern Front"
         },
         {
             "id": 397,
@@ -893,7 +911,7 @@
             "id": 141,
             "name": "Mameshiba",
             "category": "Venture",
-            "source": "Highland Exploration XXII / Quick Exploration"
+            "source": "Highland Exploration XXII, Quick Exploration"
         },
         {
             "id": 142,
@@ -929,7 +947,7 @@
             "id": 147,
             "name": "Manjimutt",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 148,
@@ -958,13 +976,14 @@
         {
             "id": 152,
             "name": "Miniature Minecart",
-            "category": "Deep Dungeon / Venture",
-            "source": "Heaven-on-High / Highland Exploration XIV"
+            "category": "Venture",
+            "source": "Highland Exploration XIV",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 153,
             "name": "Miniature White Knight",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "1,200 Skybuilders' Scrips"
         },
         {
@@ -982,8 +1001,9 @@
         {
             "id": 156,
             "name": "Minute Mindflayer",
-            "category": "Deep Dungeon / Treasure Hunt / Venture",
-            "source": "The Palace of the Dead / The Aquapolis / Field Exploration XIII / Highland Exploration XIII / Waterside Exploration XIII"
+            "category": "Venture",
+            "source": "Field Exploration XIII, Highland Exploration XIII, Waterside Exploration XIII",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 157,
@@ -994,7 +1014,7 @@
         {
             "id": 158,
             "name": "Model Enterprise",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Item code included with The Art of Eorzea: Another Dawn"
         },
         {
@@ -1024,14 +1044,15 @@
         {
             "id": 163,
             "name": "Morpho",
-            "category": "Deep Dungeon / Dungeon / Skybuilders",
-            "source": "Heaven-on-High / The Lost City of Amdapor (Hard) / Kupo of Fortune"
+            "category": "Dungeon",
+            "source": "The Lost City of Amdapor (Hard)",
+            "moreSources": "Heaven-on-High, Kupo of Fortune"
         },
         {
             "id": 164,
             "name": "Motley Egg",
-            "category": "Event / Premium",
-            "source": "Hatching-tide (2018) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 165,
@@ -1048,14 +1069,15 @@
         {
             "id": 167,
             "name": "Mummy's Little Mummy",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / The Sunken Temple of Qarn (Hard) / The Aquapolis"
+            "category": "Dungeon",
+            "source": "The Sunken Temple of Qarn (Hard)",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 168,
             "name": "Mystic Weapon",
             "category": "Venture",
-            "source": "Field Exploration XXV / Quick Exploration"
+            "source": "Field Exploration XXV, Quick Exploration"
         },
         {
             "id": 169,
@@ -1079,25 +1101,27 @@
             "id": 172,
             "name": "Noko",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 173,
             "name": "Nutkin",
-            "category": "Deep Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / Unhidden Leather Map / The Aquapolis"
+            "category": "Deep Dungeon",
+            "source": "The Palace of the Dead",
+            "moreSources": "Unhidden Leather Map, The Aquapolis"
         },
         {
             "id": 174,
             "name": "Odder Otter",
-            "category": "Deep Dungeon / Venture",
-            "source": "Heaven-on-High / Highland Exploration XIX - XXII / Woodland Exploration XIX - XXII / Waterside Exploration XIX - XXII / Quick Exploration"
+            "category": "Venture",
+            "source": "Highland Exploration XIX - XXII, Woodland Exploration XIX - XXII, Waterside Exploration XIX - XXII, Quick Exploration",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 175,
             "name": "OMG",
             "category": "Raid",
-            "source": "Alphascape V4.0 / Alphascape V4.0 (Savage)"
+            "source": "Alphascape V4.0, Alphascape V4.0 (Savage)"
         },
         {
             "id": 176,
@@ -1108,31 +1132,34 @@
         {
             "id": 177,
             "name": "Owlet",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / The Fractal Continuum / The Aquapolis"
+            "category": "Dungeon",
+            "source": "The Fractal Continuum",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 178,
             "name": "Page 63",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / The Great Gubal Library / The Aquapolis"
+            "category": "Dungeon",
+            "source": "The Great Gubal Library",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 179,
             "name": "Paissa Brat",
-            "category": "Deep Dungeon / Skybuilders / Treasure Hunt",
-            "source": "The Palace of the Dead / 800 Skybuilders' Scrips / Timeworn Dragonskin Map / The Aquapolis"
+            "category": "Purchase",
+            "source": "800 Skybuilders' Scrips",
+            "moreSources": "The Palace of the Dead, Timeworn Dragonskin Map, The Aquapolis"
         },
         {
             "id": 180,
             "name": "Paissa Patissier",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         {
             "id": 181,
             "name": "Paissa Threadpuller",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         {
@@ -1150,7 +1177,7 @@
         {
             "id": 184,
             "name": "Pegasus Colt",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "800 Skybuilders' Scrips"
         },
         {
@@ -1168,7 +1195,7 @@
         {
             "id": 187,
             "name": "Petit Pteranodon",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         {
@@ -1234,20 +1261,21 @@
         {
             "id": 198,
             "name": "Pumpkin Butler",
-            "category": "Event / Premium",
-            "source": "All Saints' Wake (2015) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 199,
             "name": "Road Sparrow",
-            "category": "Deep Dungeon / Dungeon",
-            "source": "Heaven-on-High / Bardam's Mettle"
+            "category": "Dungeon",
+            "source": "Bardam's Mettle",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 200,
             "name": "Robonyan F-type",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 201,
@@ -1300,8 +1328,9 @@
         {
             "id": 208,
             "name": "Shaggy Shoat",
-            "category": "Deep Dungeon / Dungeon",
-            "source": "Heaven-on-High / Xelphatol"
+            "category": "Dungeon",
+            "source": "Xelphatol",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 209,
@@ -1313,7 +1342,7 @@
             "id": 210,
             "name": "Sharksucker-class Insubmersible",
             "category": "Voyages",
-            "source": "Subaquatic Voyages - The Central Charnel Trench / Subaquatic Voyages - The Southern Charnel Trench"
+            "source": "Subaquatic Voyages - The Central Charnel Trench, Subaquatic Voyages - The Southern Charnel Trench"
         },
         {
             "id": 211,
@@ -1325,7 +1354,7 @@
             "id": 212,
             "name": "Shogunyan",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 213,
@@ -1384,20 +1413,20 @@
         {
             "id": 221,
             "name": "Taoist Moogle",
-            "category": "Limited",
+            "category": "Event",
             "source": "Itinerant Moogle"
         },
         {
             "id": 222,
             "name": "Tender Lamb",
-            "category": "Event / Premium",
-            "source": "Heavensturn (2015) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 223,
             "name": "Tengu Doll",
             "category": "Venture",
-            "source": "Field Exploration XXII / Quick Exploration"
+            "source": "Field Exploration XXII, Quick Exploration"
         },
         {
             "id": 224,
@@ -1432,14 +1461,15 @@
         {
             "id": 229,
             "name": "The Prince of Anemos",
-            "category": "Eureka",
-            "source": "Anemos Lockbox / FATE \"The Shadow over Anemos\" - Eureka Anemos"
+            "category": "Exploratory Mission",
+            "source": "Anemos Lockbox, FATE \"The Shadow over Anemos\" - Eureka Anemos"
         },
         {
             "id": 230,
             "name": "Tight-beaked Parrot",
-            "category": "Dungeon / Treasure Hunt",
-            "source": "Sastasha (Hard) / The Aquapolis"
+            "category": "Dungeon",
+            "source": "Sastasha (Hard)",
+            "moreSources": "The Aquapolis"
         },
         {
             "id": 231,
@@ -1450,8 +1480,9 @@
         {
             "id": 232,
             "name": "Tiny Bulb",
-            "category": "Deep Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / Timeworn Toadskin Map / The Aquapolis"
+            "category": "Deep Dungeon",
+            "source": "The Palace of the Dead",
+            "moreSources": "Timeworn Toadskin Map, The Aquapolis"
         },
         {
             "id": 233,
@@ -1474,8 +1505,9 @@
         {
             "id": 236,
             "name": "Tiny Tatsunoko",
-            "category": "Deep Dungeon / Gathering",
-            "source": "Heaven-on-High / Gathered by Fisher"
+            "category": "Gathering",
+            "source": "Gathered by Fisher",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 237,
@@ -1499,7 +1531,7 @@
             "id": 240,
             "name": "Toy Alexander",
             "category": "Raid",
-            "source": "Alexander - The Soul of the Creator / Alexander - The Soul of the Creator (Savage)"
+            "source": "Alexander - The Soul of the Creator, Alexander - The Soul of the Creator (Savage)"
         },
         {
             "id": 241,
@@ -1510,20 +1542,22 @@
         {
             "id": 242,
             "name": "Trike",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         {
             "id": 243,
             "name": "Ugly Duckling",
-            "category": "Deep Dungeon / Dungeon / Skybuilders / Treasure Hunt",
-            "source": "The Palace of the Dead / Neverreap / Kupo of Fortune / The Aquapolis"
+            "category": "Dungeon",
+            "source": "Neverreap",
+            "moreSources": "The Palace of the Dead, Kupo of Fortune, The Aquapolis"
         },
         {
             "id": 244,
             "name": "Unicolt",
-            "category": "Deep Dungeon / Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / The Vault / The Aquapolis"
+            "category": "Dungeon",
+            "source": "The Vault",
+            "moreSources": "The Palace of the Dead, The Aquapolis"
         },
         {
             "id": 245,
@@ -1535,13 +1569,13 @@
             "id": 246,
             "name": "USApyon",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 247,
             "name": "Venoct",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 400,
@@ -1564,14 +1598,14 @@
         {
             "id": 250,
             "name": "Weatherproof Gaelicat",
-            "category": "Skybuilders",
+            "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         {
             "id": 251,
             "name": "Whisper",
             "category": "Event",
-            "source": "Yo-kai Watch (2016) / Yo-kai Watch (2017) / Yo-kai Watch (2020)"
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
         },
         {
             "id": 252,
@@ -1589,13 +1623,13 @@
             "id": 254,
             "name": "Wind-up Aerith",
             "category": "Premium",
-            "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 255,
             "name": "Wind-up Airship",
             "category": "Quest",
-            "source": "The Gridanian Envoy / The Lominsan Envoy / The Ul'dahn Envoy"
+            "source": "The Gridanian Envoy, The Lominsan Envoy, The Ul'dahn Envoy"
         },
         {
             "id": 256,
@@ -1648,7 +1682,7 @@
         {
             "id": 264,
             "name": "Wind-up Bahamut",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Item code included with A Realm Reborn Original Sountrack"
         },
         {
@@ -1660,14 +1694,15 @@
         {
             "id": 266,
             "name": "Wind-up Bismarck",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 267,
             "name": "Wind-up Brickman",
             "category": "Event",
-            "source": "Breaking Brick Mountains (2014) / Breaking Brick Mountains (2017)"
+            "source": "Breaking Brick Mountains (2014, 2017)"
         },
         {
             "id": 268,
@@ -1696,14 +1731,14 @@
         {
             "id": 272,
             "name": "Wind-up Cirina",
-            "category": "Event / Premium",
-            "source": "The Rising (2018) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 273,
             "name": "Wind-Up Cloud",
             "category": "Premium",
-            "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 274,
@@ -1714,7 +1749,7 @@
         {
             "id": 275,
             "name": "Wind-up Dalamud",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Item code included with Before Meteor Original Soundtrack"
         },
         {
@@ -1768,13 +1803,13 @@
         {
             "id": 283,
             "name": "Wind-up Edvya",
-            "category": "Event / Premium",
-            "source": "Little Ladies' Day (2014) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 284,
             "name": "Wind-up Elvaan",
-            "category": "Eureka",
+            "category": "Exploratory Mission",
             "source": "FATE \"You Do Know Jack\" - Eureka Pyros"
         },
         {
@@ -1787,13 +1822,13 @@
             "id": 286,
             "name": "Wind-up Exdeath",
             "category": "Raid",
-            "source": "Deltascape V4.0 / Deltascape V4.0 (Savage)"
+            "source": "Deltascape V4.0, Deltascape V4.0 (Savage)"
         },
         {
             "id": 287,
             "name": "Wind-up Fafnir",
-            "category": "Eureka",
-            "source": "Anemos Lockbox / FATE \"Wine and Honey\" - Eureka Anemos"
+            "category": "Exploratory Mission",
+            "source": "Anemos Lockbox, FATE \"Wine and Honey\" - Eureka Anemos"
         },
         {
             "id": 288,
@@ -1823,7 +1858,7 @@
             "id": 292,
             "name": "Wind-up Gaia",
             "category": "Raid",
-            "source": "Eden's Promise: Eternity / Eden's Promise: Eternity (Savage)"
+            "source": "Eden's Promise: Eternity, Eden's Promise: Eternity (Savage)"
         },
         {
             "id": 293,
@@ -1834,8 +1869,9 @@
         {
             "id": 294,
             "name": "Wind-up Garuda",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 295,
@@ -1864,8 +1900,8 @@
         {
             "id": 299,
             "name": "Wind-up Gosetsu",
-            "category": "Event / Premium",
-            "source": "The Rising (2017) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 300,
@@ -1889,7 +1925,7 @@
             "id": 303,
             "name": "Wind-up Hobgoblin",
             "category": "Venture",
-            "source": "Highland Exploration XXV / Quick Exploration"
+            "source": "Highland Exploration XXV, Quick Exploration"
         },
         {
             "id": 304,
@@ -1900,14 +1936,15 @@
         {
             "id": 305,
             "name": "Wind-up Iceheart",
-            "category": "Event / Premium",
-            "source": "The Rising (2015) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 306,
             "name": "Wind-up Ifrit",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 307,
@@ -1937,7 +1974,7 @@
             "id": 311,
             "name": "Wind-up Kefka",
             "category": "Raid",
-            "source": "Sigmascape V4.0 / Sigmascape V4.0 (Savage)"
+            "source": "Sigmascape V4.0, Sigmascape V4.0 (Savage)"
         },
         {
             "id": 312,
@@ -1966,14 +2003,15 @@
         {
             "id": 316,
             "name": "Wind-up Krile",
-            "category": "Event / Premium",
-            "source": "The Rising (2016) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 317,
             "name": "Wind-up Lakshmi",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 318,
@@ -1984,8 +2022,9 @@
         {
             "id": 319,
             "name": "Wind-up Leviathan",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 320,
@@ -1997,7 +2036,7 @@
             "id": 321,
             "name": "Wind-up Lulu",
             "category": "Premium",
-            "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 402,
@@ -2008,8 +2047,8 @@
         {
             "id": 322,
             "name": "Wind-up Lyse",
-            "category": "Event / Premium",
-            "source": "The Rising (2017) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 323,
@@ -2032,14 +2071,14 @@
         {
             "id": 326,
             "name": "Wind-up Minfilia",
-            "category": "Event / Premium",
-            "source": "The Rising (2014) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 327,
             "name": "Wind-up Mithra",
-            "category": "Eureka",
-            "source": "Anemos Lockbox / FATE \"Short Serket 2\" - Eureka Anemos"
+            "category": "Exploratory Mission",
+            "source": "Anemos Lockbox, FATE \"Short Serket 2\" - Eureka Anemos"
         },
         {
             "id": 328,
@@ -2158,8 +2197,9 @@
         {
             "id": 346,
             "name": "Wind-up Ramuh",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 347,
@@ -2170,13 +2210,14 @@
         {
             "id": 348,
             "name": "Wind-up Ravana",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 349,
             "name": "Wind-up Red Mage",
-            "category": "Limited",
+            "category": "Premium",
             "source": "Stormblood Pre-order"
         },
         {
@@ -2195,7 +2236,7 @@
             "id": 352,
             "name": "Wind-up Rikku",
             "category": "Premium",
-            "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 404,
@@ -2219,7 +2260,7 @@
             "id": 353,
             "name": "Wind-up Ryne",
             "category": "Raid",
-            "source": "Eden's Verse: Refulgence / Eden's Verse: Refulgence (Savage)"
+            "source": "Eden's Verse: Refulgence, Eden's Verse: Refulgence (Savage)"
         },
         {
             "id": 354,
@@ -2254,8 +2295,8 @@
         {
             "id": 359,
             "name": "Wind-up Shantotto",
-            "category": "Event / Premium",
-            "source": "Burgeoning Dread (2014) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 360,
@@ -2266,8 +2307,9 @@
         {
             "id": 361,
             "name": "Wind-up Shiva",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 362,
@@ -2284,8 +2326,9 @@
         {
             "id": 364,
             "name": "Wind-up Susano",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 365,
@@ -2302,7 +2345,7 @@
         {
             "id": 367,
             "name": "Wind-up Tarutaru",
-            "category": "Eureka",
+            "category": "Exploratory Mission",
             "source": "Pagos Lockbox - Eureka Pagos"
         },
         {
@@ -2314,26 +2357,28 @@
         {
             "id": 369,
             "name": "Wind-up Thancred",
-            "category": "Event / Premium",
-            "source": "The Rising (2014) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 370,
             "name": "Wind-up Tifa",
             "category": "Premium",
-            "source": "Fan Festival 2018-19 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 371,
             "name": "Wind-up Titan",
-            "category": "Crafting / Deep Dungeon",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Crafting",
+            "source": "Crafted by Weaver",
+            "moreSources": "Heaven-on-High"
         },
         {
             "id": 372,
             "name": "Wind-up Tonberry",
-            "category": "Deep Dungeon / Treasure Hunt",
-            "source": "The Palace of the Dead / Timeworn Boarskin Map / The Aquapolis"
+            "category": "Deep Dungeon",
+            "source": "The Palace of the Dead",
+            "moreSources": "Timeworn Boarskin Map, The Aquapolis"
         },
         {
             "id": 373,
@@ -2398,14 +2443,14 @@
         {
             "id": 383,
             "name": "Wind-up Yugiri",
-            "category": "Event / Premium",
-            "source": "The Rising (2015) / Final Fantasy XIV Online Store"
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 384,
             "name": "Wind-up Yuna",
             "category": "Premium",
-            "source": "Fan Festival 2016-17 / Final Fantasy XIV Online Store"
+            "source": "Final Fantasy XIV Online Store"
         },
         {
             "id": 385,
@@ -2428,8 +2473,8 @@
         {
             "id": 388,
             "name": "Yukinko Snowflake",
-            "category": "Eureka",
-            "source": "Hydatos Lockbox / Moisture-warped Lockbox - Eureka Hydatos"
+            "category": "Exploratory Mission",
+            "source": "Hydatos Lockbox, Moisture-warped Lockbox - Eureka Hydatos"
         },
         {
             "id": 389,

@@ -6,6 +6,7 @@ export const Social = function(parent) {
 
     data.subGroups = [
         DataGroup.fromJSON(data, `${basePath}/emotes`, {
+            category: { filterable: true },
             patch: { filterable: true }
         }),
     ];

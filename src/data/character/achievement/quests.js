@@ -11,5 +11,8 @@ export const Character_Achievements_Quests = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/seasonal-events`),
     ];
 
+    // Default seasonal events to excluded
+    group.subGroups[3].defaultCompletion = "X";
+
     return group;
 };

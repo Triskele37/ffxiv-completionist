@@ -152,6 +152,8 @@ export class DataGroup {
     }
 
     set defaultCompletion(value) {
+        this._defaultCompletion = value;
+
         if(this.subGroups) {
             this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = value);
         }
