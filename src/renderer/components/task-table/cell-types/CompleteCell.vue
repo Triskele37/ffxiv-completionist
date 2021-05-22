@@ -10,7 +10,8 @@
 </template>
 
 <script>
-    import { getPlayerStore } from "../../../../store/electronStore";
+    import { data } from "../../../../data";
+    import { applyDataToStore } from "../../../../store/electronStore/applyDataToStore";
 
     export default {
         name: 'completion-flag-cell',
@@ -20,14 +21,14 @@
         },
         methods: {
             onTaskCompleteClick: function() {
-                const newFlag = this.task.completionFlag === 'N' ? 'Y' : 'N';
-
-                this.task.changeCompletionFlag(newFlag);
-                getPlayerStore().set(this.task.fullStorageKey, newFlag);
+                const flag = this.task.completionFlag === "Y" ? "N" : "Y";
+                this.task.changeCompletionFlag(flag);
+                applyDataToStore(data);
             },
             onExcludeTaskClick: function() {
-                this.task.changeCompletionFlag('X');
-                getPlayerStore().set(this.task.fullStorageKey, 'X');
+                const flag = this.task.completionFlag === "X" ? "N" : "X";
+                this.task.changeCompletionFlag(flag);
+                applyDataToStore(data);
             }
         }
     };

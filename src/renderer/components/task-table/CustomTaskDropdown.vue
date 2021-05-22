@@ -54,7 +54,7 @@ export default {
         filteredTasks: Array
     },
     data: () => ({
-        customData: data.sg('Custom'),
+        customData: data.sg("custom"),
         dropdownOpen: false,
         newTaskName: '',
         newTaskNotes: '',
@@ -114,7 +114,7 @@ export default {
             if(match.path[0] === 'Overall') {
                 match.path.shift(); // Remove the 'Overall' step
 
-                const group = data.getChildGroupFromPath(match.path);
+                const group = data.getChildGroupFromPath(match.path, true);
                 const task = group.tasks.find((t) => t.name === this.mergeTask.name);
                 task.changeCompletionFlag(this.mergeTask.completionFlag);
                 this.removeCustomTask(this.mergeTask);

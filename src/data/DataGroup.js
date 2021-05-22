@@ -129,19 +129,26 @@ export class DataGroup {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
 
-    getChildGroupFromPath(path) {
+    getFirstParent() {
+        let cur = this;
+        while(cur._parent) cur = cur._parent;
+        return cur;
+    }
+
+    getChildGroupFromPath(path, byName) {
         // No more path means we're the group being requested
         if(path.length === 0) return this;
 
         // Pop off the first part of the path and dive
         const nextStep = path.shift();
-        return this.sg(nextStep).getChildGroupFromPath(path);
+        return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path);
     }
 
-    sg(subGroupName) {
+    getSubGroup(subGroupString, byName) {
         if(!this.subGroups) return null;
         for(let i = 0; i < this.subGroups.length; i++) {
-            if(this.subGroups[i].name === subGroupName) return this.subGroups[i];
+            if(byName && this.subGroups[i].name === subGroupString) return this.subGroups[i];
+            else if(!byName && this.subGroups[i]._key === subGroupString) return this.subGroups[i];
         }
         return null;
     }
