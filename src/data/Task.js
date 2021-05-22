@@ -1,5 +1,3 @@
-import { getPlayerStore } from "../store/electronStore";
-
 export class Task {
     name;
     id; // Its assumed that an id is passed with every task
@@ -9,6 +7,9 @@ export class Task {
 
     completionFlag = "N";
 
+    parentLinks; // Tasks this task is dependant on
+    childLinks;  // Tasks dependant on this task
+    mirrorLinks; // Tasks that should mirror this task
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
 
@@ -51,16 +52,23 @@ export class Task {
         if(updateNext) this._parent.tasks.find((t) => t.id === this.nextID).changeCompletionFlag("N");
 
         // Chain related tasks
-        if(this.chains) {
-            const overall = this._parent.getFirstParent();
+        const updateParentLinks = (!!this.parentLinks && flag === "Y");
+        const updateChildLinks = (!!this.childLinks && flag === "N");
+        const updateMirrorLinks = !!this.mirrorLinks;
 
-            this.chains.forEach((chain) => {
-                const splitChain = chain.split(".");
-                const chainID = parseInt(splitChain.pop());
+        const overall = updateParentLinks || updateChildLinks || updateMirrorLinks ? this._parent.getFirstParent() : null;
+        if(updateParentLinks) updateLinkedArray(this.parentLinks);
+        if(updateChildLinks) updateLinkedArray(this.childLinks);
+        if(updateMirrorLinks) updateLinkedArray(this.mirrorLinks);
 
-                overall.getChildGroupFromPath(splitChain).tasks.forEach((task) => {
-                    if(task.id === chainID) task.changeCompletionFlag(flag);
-                });
+        function updateLinkedArray(linkedArray) {
+            linkedArray.forEach((link) => {
+                const linkedGroup = link.split(".");
+                const linkedID = parseInt(linkedGroup.pop());
+
+                overall.getChildGroupFromPath(linkedGroup).tasks
+                    .find((t) => t.id === linkedID)
+                    .changeCompletionFlag(flag);
             });
         }
     }

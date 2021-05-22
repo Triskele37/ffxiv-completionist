@@ -3,371 +3,527 @@
     "tasks": [
         {
             "id": 0,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 1
         },
         {
             "id": 1,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 0,
+            "nextID": 2
         },
         {
             "id": 2,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 1,
+            "nextID": 3
         },
         {
             "id": 3,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 2,
+            "nextID": 4
         },
         {
             "id": 4,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 3
         },
         {
             "id": 5,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 6
         },
         {
             "id": 6,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 5,
+            "nextID": 7
         },
         {
             "id": 7,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 6,
+            "nextID": 8
         },
         {
             "id": 8,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 7,
+            "nextID": 9
         },
         {
             "id": 9,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 8
         },
         {
             "id": 10,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 11
         },
         {
             "id": 11,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 10,
+            "nextID": 12
         },
         {
             "id": 12,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 11,
+            "nextID": 13
         },
         {
             "id": 13,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 12,
+            "nextID": 14
         },
         {
             "id": 14,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 13
         },
         {
             "id": 15,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 16
         },
         {
             "id": 16,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 15,
+            "nextID": 17
         },
         {
             "id": 17,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 16,
+            "nextID": 18
         },
         {
             "id": 18,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 17,
+            "nextID": 19
         },
         {
             "id": 19,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 18
         },
         {
             "id": 20,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 21
         },
         {
             "id": 21,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 20,
+            "nextID": 22
         },
         {
             "id": 22,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 21,
+            "nextID": 23
         },
         {
             "id": 23,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 22,
+            "nextID": 24
         },
         {
             "id": 24,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 23,
+            "nextID": 25
         },
         {
             "id": 25,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 24,
+            "nextID": 26
         },
         {
             "id": 26,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 25,
+            "nextID": 27
         },
         {
             "id": 27,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 26
         },
         {
             "id": 28,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 29
         },
         {
             "id": 29,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 28,
+            "nextID": 30
         },
         {
             "id": 30,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 29,
+            "nextID": 31
         },
         {
             "id": 31,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 30,
+            "nextID": 32
         },
         {
             "id": 32,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 31,
+            "nextID": 33
         },
         {
             "id": 33,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 32,
+            "nextID": 34
         },
         {
             "id": 34,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 33,
+            "nextID": 35
         },
         {
             "id": 35,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 34,
+            "nextID": 36
         },
         {
             "id": 36,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 35
         },
         {
             "id": 37,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 38
         },
         {
             "id": 38,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 37,
+            "nextID": 39
         },
         {
             "id": 39,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 38,
+            "nextID": 40
         },
         {
             "id": 40,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 39,
+            "nextID": 41
         },
         {
             "id": 41,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 40,
+            "nextID": 42
         },
         {
             "id": 42,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 41,
+            "nextID": 43
         },
         {
             "id": 43,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 42
         },
         {
             "id": 44,
-            "reputationToCap": "150"
+            "reputationToCap": "150",
+            "nextID": 45
         },
         {
             "id": 45,
-            "reputationToCap": "360"
+            "reputationToCap": "360",
+            "prevID": 44,
+            "nextID": 46
         },
         {
             "id": 46,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "prevID": 45,
+            "nextID": 47
         },
         {
             "id": 47,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 46,
+            "nextID": 48
         },
         {
             "id": 48,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 47,
+            "nextID": 49
         },
         {
             "id": 49,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 48,
+            "nextID": 50
         },
         {
             "id": 50,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 49,
+            "nextID": 51
         },
         {
             "id": 51,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 50,
+            "nextID": 52
         },
         {
             "id": 52,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 51
         },
         {
             "id": 53,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 54
         },
         {
             "id": 54,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 53,
+            "nextID": 55
         },
         {
             "id": 55,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 54,
+            "nextID": 56
         },
         {
             "id": 56,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 55,
+            "nextID": 57
         },
         {
             "id": 57,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 56,
+            "nextID": 58
         },
         {
             "id": 58,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 57,
+            "nextID": 59
         },
         {
             "id": 59,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 58
         },
         {
             "id": 60,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 61
         },
         {
             "id": 61,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 60,
+            "nextID": 62
         },
         {
             "id": 62,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 61,
+            "nextID": 63
         },
         {
             "id": 63,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 62,
+            "nextID": 64
         },
         {
             "id": 64,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 63,
+            "nextID": 65
         },
         {
             "id": 65,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 64,
+            "nextID": 66
         },
         {
             "id": 66,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 65
         },
         {
             "id": 67,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 68
         },
         {
             "id": 68,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 67,
+            "nextID": 69
         },
         {
             "id": 69,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 68,
+            "nextID": 70
         },
         {
             "id": 70,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 69,
+            "nextID": 71
         },
         {
             "id": 71,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 70,
+            "nextID": 72
         },
         {
             "id": 72,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 71,
+            "nextID": 73
         },
         {
             "id": 73,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 72
         },
         {
             "id": 74,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 75
         },
         {
             "id": 75,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 74,
+            "nextID": 76
         },
         {
             "id": 76,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 75,
+            "nextID": 77
         },
         {
             "id": 77,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 76,
+            "nextID": 78
         },
         {
             "id": 78,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 77,
+            "nextID": 79
         },
         {
             "id": 79,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 78
         },
         {
             "id": 80,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 81
         },
         {
             "id": 81,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 80,
+            "nextID": 82
         },
         {
             "id": 82,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 81,
+            "nextID": 83
         },
         {
             "id": 83,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 82,
+            "nextID": 84
         },
         {
             "id": 84,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 83,
+            "nextID": 85
         },
         {
             "id": 85,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 84
         },
         {
             "id": 86,
-            "reputationToCap": "510"
+            "reputationToCap": "510",
+            "nextID": 87
         },
         {
             "id": 87,
-            "reputationToCap": "720"
+            "reputationToCap": "720",
+            "prevID": 86,
+            "nextID": 88
         },
         {
             "id": 88,
-            "reputationToCap": "990"
+            "reputationToCap": "990",
+            "prevID": 87,
+            "nextID": 89
         },
         {
             "id": 89,
-            "reputationToCap": "1320"
+            "reputationToCap": "1320",
+            "prevID": 88,
+            "nextID": 90
         },
         {
             "id": 90,
-            "reputationToCap": "1730"
+            "reputationToCap": "1730",
+            "prevID": 89,
+            "nextID": 91
         },
         {
             "id": 91,
-            "reputationToCap": "-"
+            "reputationToCap": "-",
+            "prevID": 90
         }
     ]
 }

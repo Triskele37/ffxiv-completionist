@@ -127,7 +127,7 @@
                     if(filter) {
                         if(filter.filterType === 'search') {
                             filtered = filtered.filter((task) =>
-                                task[key].toString().toLowerCase().includes(filter.value.toLowerCase())
+                                !!task[key] && task[key].toString().toLowerCase().includes(filter.value.toLowerCase())
                             );
                         }
                         else {

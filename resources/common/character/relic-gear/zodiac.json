@@ -3,323 +3,463 @@
     "tasks": [
         {
             "id": 0,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 1
         },
         {
             "id": 1,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 0,
+            "nextID": 2
         },
         {
             "id": 2,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 1,
+            "nextID": 3
         },
         {
             "id": 3,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 2,
+            "nextID": 4
         },
         {
             "id": 4,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 3,
+            "nextID": 5
         },
         {
             "id": 5,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 4,
+            "nextID": 6
         },
         {
             "id": 6,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 5,
+            "nextID": 7
         },
         {
             "id": 7,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 6
         },
         {
             "id": 8,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 9
         },
         {
             "id": 9,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 8,
+            "nextID": 10
         },
         {
             "id": 10,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 9,
+            "nextID": 11
         },
         {
             "id": 11,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 10,
+            "nextID": 12
         },
         {
             "id": 12,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 11,
+            "nextID": 13
         },
         {
             "id": 13,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 12,
+            "nextID": 14
         },
         {
             "id": 14,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 13,
+            "nextID": 15
         },
         {
             "id": 15,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 14
         },
         {
             "id": 16,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 17
         },
         {
             "id": 17,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 16,
+            "nextID": 18
         },
         {
             "id": 18,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 17,
+            "nextID": 19
         },
         {
             "id": 19,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 18,
+            "nextID": 20
         },
         {
             "id": 20,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 19,
+            "nextID": 21
         },
         {
             "id": 21,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 20,
+            "nextID": 22
         },
         {
             "id": 22,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 21,
+            "nextID": 23
         },
         {
             "id": 23,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 22
         },
         {
             "id": 24,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 25
         },
         {
             "id": 25,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 24,
+            "nextID": 26
         },
         {
             "id": 26,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 25,
+            "nextID": 27
         },
         {
             "id": 27,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 26,
+            "nextID": 28
         },
         {
             "id": 28,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 27,
+            "nextID": 29
         },
         {
             "id": 29,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 28,
+            "nextID": 30
         },
         {
             "id": 30,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 29,
+            "nextID": 31
         },
         {
             "id": 31,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 30
         },
         {
             "id": 32,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 33
         },
         {
             "id": 33,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 32,
+            "nextID": 34
         },
         {
             "id": 34,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 33,
+            "nextID": 35
         },
         {
             "id": 35,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 34,
+            "nextID": 36
         },
         {
             "id": 36,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 35,
+            "nextID": 37
         },
         {
             "id": 37,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 36,
+            "nextID": 38
         },
         {
             "id": 38,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 37,
+            "nextID": 39
         },
         {
             "id": 39,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 38
         },
         {
             "id": 40,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 41
         },
         {
             "id": 41,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 40,
+            "nextID": 42
         },
         {
             "id": 42,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 41,
+            "nextID": 43
         },
         {
             "id": 43,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 42,
+            "nextID": 44
         },
         {
             "id": 44,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 43,
+            "nextID": 45
         },
         {
             "id": 45,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 44,
+            "nextID": 46
         },
         {
             "id": 46,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 45,
+            "nextID": 47
         },
         {
             "id": 47,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 46
         },
         {
             "id": 48,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 49
         },
         {
             "id": 49,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 48,
+            "nextID": 50
         },
         {
             "id": 50,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 49,
+            "nextID": 51
         },
         {
             "id": 51,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 50,
+            "nextID": 52
         },
         {
             "id": 52,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 51,
+            "nextID": 53
         },
         {
             "id": 53,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 52,
+            "nextID": 54
         },
         {
             "id": 54,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 53,
+            "nextID": 55
         },
         {
             "id": 55,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 54
         },
         {
             "id": 56,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 57
         },
         {
             "id": 57,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 56,
+            "nextID": 58
         },
         {
             "id": 58,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 57,
+            "nextID": 59
         },
         {
             "id": 59,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 58,
+            "nextID": 60
         },
         {
             "id": 60,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 59,
+            "nextID": 61
         },
         {
             "id": 61,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 60,
+            "nextID": 62
         },
         {
             "id": 62,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 61,
+            "nextID": 63
         },
         {
             "id": 63,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 62
         },
         {
             "id": 64,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 65
         },
         {
             "id": 65,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 64,
+            "nextID": 66
         },
         {
             "id": 66,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 65,
+            "nextID": 67
         },
         {
             "id": 67,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 66,
+            "nextID": 68
         },
         {
             "id": 68,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 67,
+            "nextID": 69
         },
         {
             "id": 69,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 68,
+            "nextID": 70
         },
         {
             "id": 70,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 69,
+            "nextID": 71
         },
         {
             "id": 71,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 70
         },
         {
             "id": 72,
-            "iLevel": "80"
+            "iLevel": "80",
+            "nextID": 73
         },
         {
             "id": 73,
-            "iLevel": "90"
+            "iLevel": "90",
+            "prevID": 72,
+            "nextID": 74
         },
         {
             "id": 74,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 73,
+            "nextID": 75
         },
         {
             "id": 75,
-            "iLevel": "100"
+            "iLevel": "100",
+            "prevID": 74,
+            "nextID": 76
         },
         {
             "id": 76,
-            "iLevel": "110"
+            "iLevel": "110",
+            "prevID": 75,
+            "nextID": 77
         },
         {
             "id": 77,
-            "iLevel": "115"
+            "iLevel": "115",
+            "prevID": 76,
+            "nextID": 78
         },
         {
             "id": 78,
-            "iLevel": "125"
+            "iLevel": "125",
+            "prevID": 77,
+            "nextID": 79
         },
         {
             "id": 79,
-            "iLevel": "135"
+            "iLevel": "135",
+            "prevID": 78
         }
     ]
 }

@@ -3,63 +3,91 @@
     "tasks": [
         {
             "id": 0,
-            "name": "1"
+            "name": "1",
+            "nextID": 1
         },
         {
             "id": 1,
-            "name": "2"
+            "name": "2",
+            "prevID": 0,
+            "nextID": 2
         },
         {
             "id": 2,
-            "name": "3"
+            "name": "3",
+            "prevID": 1,
+            "nextID": 3
         },
         {
             "id": 3,
-            "name": "4"
+            "name": "4",
+            "prevID": 2,
+            "nextID": 4
         },
         {
             "id": 4,
-            "name": "5"
+            "name": "5",
+            "prevID": 3,
+            "nextID": 5
         },
         {
             "id": 5,
-            "name": "6"
+            "name": "6",
+            "prevID": 4,
+            "nextID": 6
         },
         {
             "id": 6,
-            "name": "7"
+            "name": "7",
+            "prevID": 5,
+            "nextID": 7
         },
         {
             "id": 7,
-            "name": "8"
+            "name": "8",
+            "prevID": 6,
+            "nextID": 8
         },
         {
             "id": 8,
-            "name": "9"
+            "name": "9",
+            "prevID": 7,
+            "nextID": 9
         },
         {
             "id": 9,
-            "name": "10"
+            "name": "10",
+            "prevID": 8,
+            "nextID": 10
         },
         {
             "id": 10,
-            "name": "11"
+            "name": "11",
+            "prevID": 9,
+            "nextID": 11
         },
         {
             "id": 11,
-            "name": "12"
+            "name": "12",
+            "prevID": 10,
+            "nextID": 12
         },
         {
             "id": 12,
-            "name": "13"
+            "name": "13",
+            "prevID": 11,
+            "nextID": 13
         },
         {
             "id": 13,
-            "name": "14"
+            "name": "14",
+            "prevID": 12,
+            "nextID": 14
         },
         {
             "id": 14,
-            "name": "15"
+            "name": "15",
+            "prevID": 13
         }
     ]
 }

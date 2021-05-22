@@ -3,15 +3,19 @@
     "tasks": [
         {
             "id": 0,
-            "name": "1"
+            "name": "1",
+            "nextID": 1
         },
         {
             "id": 1,
-            "name": "2"
+            "name": "2",
+            "prevID": 0,
+            "nextID": 2
         },
         {
             "id": 2,
-            "name": "3"
+            "name": "3",
+            "prevID": 1
         }
     ]
 }

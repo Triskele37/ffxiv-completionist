@@ -3,27 +3,37 @@
     "tasks": [
         {
             "id": 0,
-            "patch": "5.5"
+            "patch": "5.5",
+            "nextID": 1
         },
         {
             "id": 1,
-            "patch": "5.5"
+            "patch": "5.5",
+            "prevID": 0,
+            "nextID": 2
         },
         {
             "id": 2,
-            "patch": "5.5"
+            "patch": "5.5",
+            "prevID": 1,
+            "nextID": 3
         },
         {
             "id": 3,
-            "patch": "5.5"
+            "patch": "5.5",
+            "prevID": 2,
+            "nextID": 4
         },
         {
             "id": 4,
-            "patch": "5.5"
+            "patch": "5.5",
+            "prevID": 3,
+            "nextID": 5
         },
         {
             "id": 5,
-            "patch": "5.5"
+            "patch": "5.5",
+            "prevID": 4
         }
     ]
 }
