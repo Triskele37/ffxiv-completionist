@@ -60,7 +60,7 @@
             <li>Partial selection of multiple tasks in a table</li>
             <li>Custom task entry has been added</li>
         </ul>
-        
+
         <h2>0.5.5b</h2>
         <p>Fixed "Custom Tasks" section not saving properly between loads</p>
     </div>
