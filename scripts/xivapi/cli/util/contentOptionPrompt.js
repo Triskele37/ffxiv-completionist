@@ -61,7 +61,7 @@ module.exports = function contentOptionPrompt(rl, returnToMain) {
     function actionPrompt(content) {
         console.clear();
 
-        rl.write(`Perform which action on (${content.config.API_ENDPOINT})?\n\n`);
+        rl.write(`Perform which action on (${content.Name})?\n\n`);
         rl.write("1. Add new content to cache\n");
         rl.write(`2. Retry failed content (${content.config.FAILED_IDS.length})\n`);
         rl.write("3. Create fresh cache\n");

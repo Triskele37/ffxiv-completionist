@@ -4,11 +4,11 @@ const constants = require("../../constants");
 
 // Removes common keys from lang json
 module.exports = function removeExcluded(rl, content, indentation) {
-    const hasAppData = !!content.config.APP_PATH;
+    const hasAppData = !!content.APP_PATH;
 
     if(hasAppData && content.hasCommonKeys()) {
-        dive("en", `${constants.RESOURCES}/en/${content.config.APP_PATH}`);
-        dive("fr", `${constants.RESOURCES}/fr/${content.config.APP_PATH}`);
+        dive("en", `${constants.RESOURCES}/en/${content.APP_PATH}`);
+        dive("fr", `${constants.RESOURCES}/fr/${content.APP_PATH}`);
     }
 
     function dive(lang, path) {

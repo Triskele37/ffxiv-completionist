@@ -6,6 +6,9 @@ module.exports = {
         "Companion": {
             "Barding": require("./character/companion/BuddyEquip")
         },
+        "Gold Saucer": {
+            "TripleTriadCard": require("./character/gold-saucer/TripleTriadCard")
+        },
         "Achievement": require("./character/Achievement")
     },
     "Duty": {

@@ -4,7 +4,7 @@ const getSafeName = require('../util/getSafeName');
 
 // Removes excluded items from cache content
 module.exports = function removeExcluded(rl, content, indentation) {
-    const cachePath = `./scripts/xivapi/cache/${getSafeName(content.config.API_ENDPOINT)}`;
+    const cachePath = `./scripts/xivapi/cache/${getSafeName(content.Name)}`;
     dive(content, cachePath);
 
     function dive(content, path) {

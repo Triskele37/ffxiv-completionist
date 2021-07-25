@@ -4,19 +4,12 @@ const logUpdate = require('log-update');
 const getContentIDs = require('./getContentIDs');
 const getCachedIDs = require('./getCachedIDs');
 const concurrentWorkers = require('./concurrentWorkers');
-const isValidContentConfig = require('./isValidContentConfig');
 const writeJsonFile = require('../util/writeJsonFile');
 const constants = require("../../constants");
 
 module.exports = async function cacheAPI(content, scrapeType, done) {
-    console.log(`Initializing ${content.config.API_ENDPOINT} cache\n`);
+    console.log(`Initializing ${content.Name} cache\n`);
     content.scrapeType = scrapeType;
-
-    // Fail fast for invalid configs
-    if(!isValidContentConfig(content)) {
-        done();
-        return;
-    }
 
     // Retrieve the list of IDs to grab
     const IDS = await getIdList(content);
@@ -33,7 +26,7 @@ module.exports = async function cacheAPI(content, scrapeType, done) {
     resultOutput(content, IDS);
 
     // Write cache config updates
-    console.log(`Updating config for ${content.config.API_ENDPOINT}`);
+    console.log(`Updating config for ${content.Name}`);
     content.updateConfigFile();
 
     done();
@@ -51,7 +44,7 @@ async function getIdList(content) {
     }
     // Re-grab all content
     else if(content.scrapeType === "full") {
-        const allIDs = await getContentIDs(content.config.API_ENDPOINT);
+        const allIDs = await getContentIDs(content);
         const excluded = content.excludedIds ? Object.keys(content.excludedIds) : [];
         content.config.TOTAL_ITEMS = allIDs.length;
 
@@ -59,8 +52,8 @@ async function getIdList(content) {
     }
     // Only grab new IDs
     else if(content.scrapeType === "new") {
-        const allIDs = await getContentIDs(content.config.API_ENDPOINT);
-        const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
+        const allIDs = await getContentIDs(content);
+        const cachedIDs = getCachedIDs(content.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;
 
         const newIDs = allIDs.filter((ID) => {
@@ -99,14 +92,15 @@ async function getItem(content, id) {
 
     try {
         // Attempt to grab the item's data
-        const { data } = await axios.get(`http://xivapi.com/${content.config.API_ENDPOINT}/${id}`);
+        const url = content.buildContentURL(id);
+        const { data } = await axios.get(url);
 
         let contentPath;
         try { contentPath = content.getCachePath(data); }
         catch(e) { contentPath = ['_error']; }
 
         writeJsonFile(constants.CACHE_DIR, [
-            content.config.API_ENDPOINT,
+            content.Name,
             ...contentPath
         ], data.ID, data);
     }

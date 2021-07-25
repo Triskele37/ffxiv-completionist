@@ -1,19 +1,18 @@
 const fs = require("fs");
 
-const getSafeName = require("../util/getSafeName");
 const constants = require("../../constants");
 const writeJsonFile = require('../util/writeJsonFile');
 
 // Attempts to re-cache error'd files
 module.exports = function reviewErrors(rl, content, indentation) {
-    const errorDir = `${constants.CACHE_DIR}/${getSafeName(content.config.API_ENDPOINT)}/_error`;
+    const errorDir = `${constants.CACHE_DIR}/${content.Name}/_error`;
 
     if(fs.existsSync(errorDir)) {
         const errors = fs.readdirSync(errorDir);
 
         errors.forEach((error) => {
 
-            switch(content.config.API_ENDPOINT) {
+            switch(content.Name) {
                 case 'Quest': retryQuestErrors(error); break;
                 default: retryDefaultError(error);
             }
@@ -26,7 +25,7 @@ module.exports = function reviewErrors(rl, content, indentation) {
 
         try {
             const path = content.getCachePath(file);
-            const pathSegments = [content.config.API_ENDPOINT, ...path];
+            const pathSegments = [content.Name, ...path];
 
             writeJsonFile(constants.CACHE_DIR, pathSegments, file.ID, file);
             fs.unlinkSync(errorPath);
@@ -49,7 +48,7 @@ module.exports = function reviewErrors(rl, content, indentation) {
 
         try {
             // const path = content.getCachePath(file);
-            // const pathSegments = [content.config.API_ENDPOINT, ...path];
+            // const pathSegments = [content.Name, ...path];
 
             // writeJsonFile(constants.CACHE_DIR, pathSegments, file.ID, file);
             // fs.unlinkSync(errorPath);

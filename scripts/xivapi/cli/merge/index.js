@@ -17,7 +17,7 @@ module.exports = function mergeAPI(content, rl, done) {
     // Kick off the recursion to merge all identified tasks
     mergeDiffTasks(rl, content, diffTasks, () => {
         mergeNewTasks(rl, content, newTasks, () => {
-            logUpdate(`\n${content.config.API_ENDPOINT} Merges Completed!!!`);
+            logUpdate(`\n${content.Name} Merges Completed!!!`);
             done();
         });
     });
@@ -37,7 +37,7 @@ module.exports = function mergeAPI(content, rl, done) {
     }
 
     function analyzeTasks(cache, path, lang) {
-        let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
+        let appPath = `${constants.RESOURCES}/${lang}/${content.APP_PATH}/${path}.json`;
 
         // Allow for self-named content paths e.g. contentType.json
         if(!path) appPath = appPath.replace("/.json", ".json");

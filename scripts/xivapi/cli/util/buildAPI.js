@@ -14,15 +14,15 @@ const getSafeName = require("./getSafeName");
 }
  * */
 
-module.exports = function buildAPI({ config, mapCacheTask }) {
+module.exports = function buildAPI(content) {
     const output = { keys: [], tasks: [] };
 
-    const contentDir = `${constants.CACHE_DIR}/${getSafeName(config.API_ENDPOINT)}`;
-    dive(contentDir, output, config);
+    const contentDir = `${constants.CACHE_DIR}/${content.Name}`;
+    dive(contentDir, output);
 
     return output;
 
-    function dive(path, buildObj, config) {
+    function dive(path, buildObj) {
         const dirs = fs.readdirSync(path);
 
         // Iterate the current directory
@@ -38,12 +38,12 @@ module.exports = function buildAPI({ config, mapCacheTask }) {
                 buildObj[stat] = { keys: [], tasks: [] };
                 buildObj.keys.push(stat);
 
-                dive(newPath, buildObj[stat], config);
+                dive(newPath, buildObj[stat]);
             }
             else {
                 // Build tasks from the cached data
                 const cachedFile = JSON.parse(fs.readFileSync(newPath, "utf8"));
-                const cacheTask = mapCacheTask(cachedFile);
+                const cacheTask = content.mapCacheTask(cachedFile);
                 cleanTaskValues(cacheTask);
 
                 // mapCacheTasks can either return a single task or multiple

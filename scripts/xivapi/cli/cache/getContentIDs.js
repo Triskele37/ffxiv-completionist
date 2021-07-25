@@ -2,8 +2,9 @@ const axios = require('axios');
 const logUpdate = require('log-update');
 
 const concurrentWorkers = require('./concurrentWorkers');
+const IDS_PER_PAGE = 100;
 
-module.exports = async function getContentIDs(contentType) {
+module.exports = async function getContentIDs(content) {
     const { data } = await getPage(1);
 
     console.log('Retrieving all IDs');
@@ -30,6 +31,13 @@ module.exports = async function getContentIDs(contentType) {
     }, []).sort((a, b) => a - b);
 
     function getPage(page) {
-        return axios.get(`http://xivapi.com/${contentType}?page=${page},limit=100,columns=ID`);
+        let url = `http://xivapi.com/search?indexes=${content.API_ENDPOINT}`;
+        url += "&ids"; // Allows xivapi to return data faster
+        url += `&page=${page}`;
+        url += `&limit=${IDS_PER_PAGE}`;
+
+        if(!!content.filterParams) url += `&filters=${content.filterParams}`;
+
+        return axios.get(url);
     }
 };
