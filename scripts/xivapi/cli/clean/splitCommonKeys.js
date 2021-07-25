@@ -82,6 +82,7 @@ module.exports = function removeExcluded(rl, content, indentation) {
             }
 
             // Write back the lang and common files
+            rl.write(`${indentation}Removing common keys from ${path}\n`);
             fs.writeFileSync(path, JSON.stringify(group, null, 4));
         }
     }

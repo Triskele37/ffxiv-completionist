@@ -10,7 +10,7 @@ const constants = require("../../constants");
 
 module.exports = async function cacheAPI(content, scrapeType, done) {
     console.log(`Initializing ${content.config.API_ENDPOINT} cache\n`);
-    content.config.scrapeType = scrapeType;
+    content.scrapeType = scrapeType;
 
     // Fail fast for invalid configs
     if(!isValidContentConfig(content)) {
@@ -44,13 +44,13 @@ module.exports = async function cacheAPI(content, scrapeType, done) {
  * ----------------------------------------------------------------------------- */
 async function getIdList(content) {
     // Re-attempt failed IDs
-    if(content.config.scrapeType === "fail") {
+    if(content.scrapeType === "fail") {
         const temp = [...content.config.FAILED_IDS];
         content.config.FAILED_IDS = [];
         return temp;
     }
     // Re-grab all content
-    else if(content.config.scrapeType === "full") {
+    else if(content.scrapeType === "full") {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         const excluded = content.excludedIds ? Object.keys(content.excludedIds) : [];
         content.config.TOTAL_ITEMS = allIDs.length;
@@ -58,7 +58,7 @@ async function getIdList(content) {
         return allIDs.filter((ID) => !excluded.includes(ID.toString()));
     }
     // Only grab new IDs
-    else if(content.config.scrapeType === "new") {
+    else if(content.scrapeType === "new") {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;
