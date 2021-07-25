@@ -20,6 +20,12 @@
 * Removed Total_Items from xivapi configs and create function to combine all
   existing ids in cache then compare against pulled list of ids
 * Potentially remove ENpcResident from xivapi script
+* Consider getting Recipe data independent of RecipeNotebookList
+    so that a fresh cache isn't necessary each update
 
 **Must Do**
 * Add Resplendent Relics
+* See why these was only just added as a recipe
+  Flat Cap
+  Coeurl Eyeglasses
+  Magic Broom

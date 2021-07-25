@@ -4,7 +4,7 @@ const Recipes = new Content(__dirname);
 Recipes.API_ENDPOINT = "RecipeNotebookList";
 Recipes.APP_PATH = "logs/crafting";
 
-Recipes.MERGE_KEYS = ["id", "name"];
+Recipes.MERGE_KEYS = ["id", "name", "level"];
 Recipes.COMMON_KEYS = ["level"];
 
 module.exports = Recipes;

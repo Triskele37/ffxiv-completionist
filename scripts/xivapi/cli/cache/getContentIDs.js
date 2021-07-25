@@ -31,12 +31,24 @@ module.exports = async function getContentIDs(content) {
     }, []).sort((a, b) => a - b);
 
     function getPage(page) {
-        let url = `http://xivapi.com/search?indexes=${content.API_ENDPOINT}`;
-        url += "&ids"; // Allows xivapi to return data faster
+        let url = "http://xivapi.com/";
+
+        // Some content cannot be searched via indexes
+        // so url generation must be different if none exist
+        if(!content.filterParams) {
+            url += `${content.API_ENDPOINT}?`;
+        }
+        else {
+            url += `search?indexes=${content.API_ENDPOINT}`;
+            url += `&filters=${content.filterParams}`;
+        }
+
+        // Allows xivapi to return data faster
+        url += "&ids";
+
+        // Pagination Params
         url += `&page=${page}`;
         url += `&limit=${IDS_PER_PAGE}`;
-
-        if(!!content.filterParams) url += `&filters=${content.filterParams}`;
 
         return axios.get(url);
     }
