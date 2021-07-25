@@ -2,7 +2,9 @@ const Content = require("../../content");
 
 const removeExcluded = require("./removeExcluded");
 const reviewErrors = require("./reviewErrors");
+const splitCommonKeys = require("./splitCommonKeys");
 
+const TAB = "    ";
 module.exports = function cleanAPI(rl, back) {
     console.clear();
 
@@ -14,17 +16,18 @@ module.exports = function cleanAPI(rl, back) {
         const curKeys = Object.keys(cur);
 
         curKeys.forEach((key) => {
-            const tabs = new Array(depth).fill("    ").join("");
+            const indentation = new Array(depth).fill(TAB).join("");
             const content = cur[key];
 
             if(content.config) {
-                rl.write(`${tabs}Cleaning ${key}\n`);
+                rl.write(`${indentation}Cleaning ${key}\n`);
 
-                removeExcluded(rl, content);
-                reviewErrors(rl, content);
+                removeExcluded(rl, content, indentation + TAB);
+                reviewErrors(rl, content, indentation + TAB);
+                splitCommonKeys(rl, content, indentation + TAB);
             }
             else {
-                rl.write(`${tabs}(${key})\n`);
+                rl.write(`${indentation}(${key})\n`);
                 crumbs.push(content);
                 diveContent(depth + 1);
             }

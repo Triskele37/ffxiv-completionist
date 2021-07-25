@@ -54,7 +54,7 @@ module.exports = function mergeAPI(content, rl, done) {
         // Loop over the cached version of the task list
         // TODO: this will miss removed tasks left in the app
         cache.tasks.forEach((cacheTask, cacheIndex) => {
-            const changeData = new ChangeData(content, lang, appPath, cacheTask, cacheIndex);
+            const changeData = new ChangeData({ content, lang, appPath, cacheTask, cacheIndex });
 
             if(appGroup) {
                 changeData.setAppTaskInfo(appGroup.tasks);
@@ -66,7 +66,7 @@ module.exports = function mergeAPI(content, rl, done) {
                         changeData.setTaskKeyInfo(appKey);
 
                         // Different value
-                        if(changeData.tasksHaveDiff()) diffTasks.push(changeData.clone());
+                        if(changeData.tasksHaveDiff()) diffTasks.push(ChangeData.clone(changeData));
                     });
                 }
             }

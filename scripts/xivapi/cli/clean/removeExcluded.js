@@ -3,7 +3,7 @@ const fs = require("fs");
 const getSafeName = require('../util/getSafeName');
 
 // Removes excluded items from cache content
-module.exports = function removeExcluded(rl, content) {
+module.exports = function removeExcluded(rl, content, indentation) {
     const cachePath = `./scripts/xivapi/cache/${getSafeName(content.config.API_ENDPOINT)}`;
     dive(content, cachePath);
 
@@ -17,7 +17,7 @@ module.exports = function removeExcluded(rl, content) {
 
             if(dir === fileName) dive(content, newPath);
             else if(excluded.includes(fileName)) {
-                rl.write(`Removing ${newPath}\n`);
+                rl.write(`${indentation}Removing ${newPath}\n`);
                 fs.unlinkSync(newPath);
             }
         });

@@ -3,7 +3,7 @@ const utils = require("../../utils");
 
 const splitCommonAndLangKeys = require("../util/splitCommonAndLangKeys");
 
-module.exports = class ChangeData {
+class ChangeData {
     isNew = true;
     content;
     lang;
@@ -17,7 +17,7 @@ module.exports = class ChangeData {
     cacheIndex;
     cacheKey; // undefined for new task
 
-    constructor(content, lang, appPath, cacheTask, cacheIndex) {
+    constructor({ content, lang, appPath, cacheTask, cacheIndex }) {
         this.content = content;
         this.lang = lang;
         this.appPath = appPath;
@@ -25,11 +25,8 @@ module.exports = class ChangeData {
         this.cacheIndex = cacheIndex;
     }
 
-    clone() {
-        const clone = new ChangeData(this.content, this.lang);
-        for(let key of this) clone[key] = this[key];
-
-        return clone;
+    static clone(changeData) {
+        return Object.assign(new ChangeData({}), changeData);
     }
 
     setAppTaskInfo(tasks) {
@@ -95,4 +92,6 @@ module.exports = class ChangeData {
             fs.writeFileSync(path, JSON.stringify(group, null, 4));
         }
     }
-};
+}
+
+module.exports = ChangeData;

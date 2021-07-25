@@ -5,7 +5,7 @@ const constants = require("../../constants");
 const writeJsonFile = require('../util/writeJsonFile');
 
 // Attempts to re-cache error'd files
-module.exports = function reviewErrors(rl, content) {
+module.exports = function reviewErrors(rl, content, indentation) {
     const errorDir = `${constants.CACHE_DIR}/${getSafeName(content.config.API_ENDPOINT)}/_error`;
 
     if(fs.existsSync(errorDir)) {
@@ -23,7 +23,7 @@ module.exports = function reviewErrors(rl, content) {
                     writeJsonFile(constants.CACHE_DIR, pathSegments, file.ID, file);
                     fs.unlinkSync(errorPath);
 
-                    rl.write(`${errorPath} moved from _error\n`);
+                    rl.write(`${indentation}${errorPath} moved from _error\n`);
                 }
                 catch(e) {
                     if(content.config.API_ENDPOINT === "Quest") {
@@ -32,7 +32,7 @@ module.exports = function reviewErrors(rl, content) {
                         if(!file.JournalGenre) message = `Missing JournalGenre: ${file.Name}`;
                         if(!file.Name) message = "Missing Name";
 
-                        console.log(`${error}: ${message}`);
+                        console.log(`${indentation}${error}: ${message}`);
                     }
                 }
             }
