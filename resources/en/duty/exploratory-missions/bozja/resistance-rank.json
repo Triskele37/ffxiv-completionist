@@ -3,83 +3,186 @@
     "headers": {
         "name": "Rank",
         "zone": "Zone",
-        "unlocks": "Unlocks"
+        "questUnlock": "Quest Unlocked",
+        "areaUnlock": "Area Unlocked",
+        "fragmentUnlock": "Fragments Unlocked"
     },
     "tasks": [
         {
             "id": 0,
             "zone": "Southern Front",
-            "unlocks": ""
+            "unlocks": "",
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 1,
             "zone": "Southern Front",
-            "unlocks": "Quest: Lost No Longer; Can appraise Forgotten Fragments of Skill, Preparation, and Caution"
+            "questUnlock": "Lost No Longer",
+            "areaUnlock": "",
+            "fragmentUnlock": "Skill, Preparation, Caution"
         },
         {
             "id": 2,
             "zone": "Southern Front",
-            "unlocks": ""
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 3,
             "zone": "Southern Front",
-            "unlocks": ""
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 4,
             "zone": "Southern Front",
-            "unlocks": "Quest: On the Offensive; Access to Old Bozja; Can appraise Forgotten Fragments of Awakening, Ingenuity, and Care"
+            "questUnlock": "On the Offensive",
+            "areaUnlock": "Old Bozja",
+            "fragmentUnlock": "Awakening, Ingenuity, Care"
         },
         {
             "id": 5,
             "zone": "Southern Front",
-            "unlocks": "Quest: Time to Focus"
+            "questUnlock": "Time to Focus",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 6,
             "zone": "Southern Front",
-            "unlocks": "Quest: Third Time's the Charm"
+            "questUnlock": "Third Time's the Charm",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 7,
             "zone": "Southern Front",
-            "unlocks": "Quest: Pressing Forward; Access to the Alermuc Climb; Can appraise Forgotten Fragments of Violence, Resolve, Support, and Compassion"
+            "questUnlock": "Pressing Forward",
+            "areaUnlock": "Alermuc Climb",
+            "fragmentUnlock": "Violence, Resolve, Support, Compassion"
         },
         {
             "id": 8,
             "zone": "Southern Front",
-            "unlocks": "Quest: Signature Acquired; Quest: Picking Up the Trail"
+            "questUnlock": "Signature Acquired, Picking Up the Trail",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
         },
         {
             "id": 9,
             "zone": "Southern Front",
-            "unlocks": "Quest: The Lady of Blades; Access to Castrum Lacus Litore; Can appraise Forgotten Fragments of Observation"
+            "questUnlock": "The Lady of Blades",
+            "areaUnlock": "Castrum Lacus Litore",
+            "fragmentUnlock": "Observation"
         },
         {
             "id": 10,
             "zone": "Southern Front",
-            "unlocks": "Can appraise Forgotten Fragments of Mastery and Superstition"
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": "Mastery, Superstition"
         },
         {
             "id": 11,
             "zone": "Southern Front",
-            "unlocks": "Can appraise Forgotten Fragments of Sagacity"
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": "Sagacity"
         },
         {
             "id": 12,
             "zone": "Southern Front",
-            "unlocks": "Can appraise Forgotten Fragments of Becoming and Deception"
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": "Becoming, Deception"
         },
         {
             "id": 13,
             "zone": "Southern Front",
-            "unlocks": "Can appraise Forgotten Fragments of Transcendence and Loss"
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": "Transcendence, Loss"
         },
         {
             "id": 14,
             "zone": "Southern Front",
-            "unlocks": "Can appraise Forgotten Fragments of Caprice, Clarity, Contention, Divinity, Finesse, and Fortitude"
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": "Caprice, Clarity, Contention, Divinity, Finesse, Fortitude"
+        },
+        {
+            "id": 15,
+            "zone": "Zadnor",
+            "questUnlock": "Resolve Unshaken",
+            "areaUnlock": "",
+            "fragmentUnlock": "History, Rage, Ferocity"
+        },
+        {
+            "id": 16,
+            "zone": "Zadnor",
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 17,
+            "zone": "Zadnor",
+            "questUnlock": "Where Eagles Roost",
+            "areaUnlock": "The Western Plateau",
+            "fragmentUnlock": "Moonlight, Hope, Aristry"
+        },
+        {
+            "id": 18,
+            "zone": "Zadnor",
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 19,
+            "zone": "Zadnor",
+            "questUnlock": "Reaching Out",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 20,
+            "zone": "Zadnor",
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 21,
+            "zone": "Zadnor",
+            "questUnlock": "In Their Shadow",
+            "areaUnlock": "The Northern Plateau",
+            "fragmentUnlock": "Desperation, Tenacity, Inspiration"
+        },
+        {
+            "id": 22,
+            "zone": "Zadnor",
+            "questUnlock": "Renewed Focus",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 23,
+            "zone": "Zadnor",
+            "questUnlock": "",
+            "areaUnlock": "",
+            "fragmentUnlock": ""
+        },
+        {
+            "id": 24,
+            "zone": "Zadnor",
+            "questUnlock": "March of the Bloody Queen",
+            "areaUnlock": "The Dalriada",
+            "fragmentUnlock": "Heroism, Cunning, Revelation"
         }
     ]
 }
