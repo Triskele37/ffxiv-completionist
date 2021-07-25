@@ -7,23 +7,19 @@ const utils = require("../../utils");
 const buildAPI = require("../util/buildAPI");
 
 const mergeDiffTasks = require("./mergeDiff");
-const mergeSortTasks = require("./mergeSort");
 const mergeNewTasks = require("./mergeNew");
 
 module.exports = function mergeAPI(content, rl, done) {
     const diffTasks = [];
-    const sortTasks = [];
     const newTasks = [];
 
     dive(buildAPI(content), "");
 
     // Kick off the recursion to merge all identified tasks
     mergeDiffTasks(rl, diffTasks, () => {
-        mergeSortTasks(rl, sortTasks, () => {
-            mergeNewTasks(rl, content, newTasks, () => {
-                logUpdate(`\n${content.config.API_ENDPOINT} Merges Completed!!!`);
-                done();
-            });
+        mergeNewTasks(rl, content, newTasks, () => {
+            logUpdate(`\n${content.config.API_ENDPOINT} Merges Completed!!!`);
+            done();
         });
     });
 
@@ -73,11 +69,6 @@ module.exports = function mergeAPI(content, rl, done) {
                             diffTasks.push({ appPath, appKey, appTask, cacheKey, cacheTask });
                         }
                     });
-
-                    // Different Index
-                    if(cacheIndex !== appIndex) {
-                        sortTasks.push({ appPath, appTask, appIndex, cacheIndex });
-                    }
                 }
             }
 
