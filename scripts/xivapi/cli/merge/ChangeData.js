@@ -62,13 +62,15 @@ class ChangeData {
     }
 
     writeNewData() {
-        const task = this.content.mapAppTask(this.cacheTask, this.lang);
-        const [langTask, commonTask] = splitCommonAndLangKeys(this.content, task);
+        const fullTask = this.content.mapAppTask(this.cacheTask, this.lang);
+        const [langTask, commonTask] = splitCommonAndLangKeys(this.content, fullTask);
 
-        if(langTask) write(this.appPath, this.cacheIndex);
-        if(commonTask) write(this.appPath.replace(this.lang, "common"), this.cacheIndex);
+        if(langTask) write(langTask, this.appPath, this.cacheIndex);
+        if(commonTask && this.lang === "en") {
+            write(commonTask, this.appPath.replace(this.lang, "common"), this.cacheIndex);
+        }
 
-        function write(path, cacheIndex) {
+        function write(task, path, cacheIndex) {
             let group = {};
 
             if(fs.existsSync(path)) {
