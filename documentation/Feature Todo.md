@@ -5,6 +5,8 @@
 * Toggle between dropdown & text filter for applicable columns
 * Pin tasks to top-level group i.e. Watch function
 * Add xivapi CLI option to re-cache content with diffs
+* Add an Armoire section
+* Add the Lucis relics
 
 **Defects**
 * Leve Issue/Start zones, follow up with XIVAPI
@@ -15,3 +17,6 @@
 **Changes**
 * Removed Total_Items from xivapi configs and create function to combine all
   existing ids in cache then compare against pulled list of ids
+
+**Must Do**
+* Add Resplendent Relics

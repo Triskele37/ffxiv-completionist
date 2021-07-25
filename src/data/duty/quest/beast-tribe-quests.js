@@ -33,7 +33,10 @@ function buildBeastTribe(parent, basePath) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
 
     const mainGroup = DataGroup.fromJSON(group, `${basePath}/main-quests`);
+    mainGroup.tasks.forEach((t) => t.type = "Main");
+
     const dailyGroup = DataGroup.fromJSON(group, `${basePath}/daily-quests`);
+    dailyGroup.tasks.forEach((t) => t.type = "Daily");
 
     group.tasks = [...mainGroup.tasks, ...dailyGroup.tasks];
     group.tasks.forEach((t) => t._parent = group);

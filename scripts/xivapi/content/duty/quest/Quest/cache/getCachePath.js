@@ -23,13 +23,9 @@ module.exports = function getPath(Quest) {
     return path;
 };
 
-const yorha_5_5_quests = [69580, 69581, 69582, 69583, 69584, 69585];
 function hotfixJournal(Quest) {
     if(!Quest.JournalGenre) {
-        if(yorha_5_5_quests.includes(Quest.ID)) {
-            return buildJournal("Chronicles of a New Era", "YoRHa: Dark Apocalypse", "YoRHa: Dark Apocalypse");
-        }
-        else if(quasi_quests.includes(Quest.ID)) {
+        if(quasi_quests.includes(Quest.ID)) {
             return buildJournal("Other Quests", "Quasi Quests", "Quasi Quests");
         }
     }
@@ -56,6 +52,7 @@ const quasi_quests = [
     65713, 65715, 65718, // ARR Tank/Heal Classes
     65714, 65716, 65717, 65719, 65987, // ARR DPS Classes
     65720, 65721, 65722, 65723, 65724, 65725, 65726, 65727, // ARR Crafter Classes
+    69580, 69581, 69582, 69583, 69584, 69585, // YoRHa Messages
     65728, 65729, 66670, // ARR Gatherer Classes
     67925, 67926, 67927, // Squadrons
     67642, 68457, 69138, // Leves
