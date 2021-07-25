@@ -53,7 +53,7 @@ async function getIdList(content) {
     // Only grab new IDs
     else if(content.scrapeType === "new") {
         const allIDs = await getContentIDs(content);
-        const cachedIDs = getCachedIDs(content.API_ENDPOINT);
+        const cachedIDs = getCachedIDs(content.Name);
         content.config.TOTAL_ITEMS = allIDs.length;
 
         const newIDs = allIDs.filter((ID) => {

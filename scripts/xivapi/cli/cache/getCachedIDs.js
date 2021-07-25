@@ -1,9 +1,8 @@
 const fs = require("fs");
 const constants = require("../../constants");
-const getSafeName = require("../util/getSafeName");
 
 module.exports = function getCachedIDs(contentType) {
-    const path = `${constants.CACHE_DIR}/${getSafeName(contentType)}`;
+    const path = `${constants.CACHE_DIR}/${contentType}`;
 
     if(!fs.existsSync(path)) fs.mkdirSync(path);
 
