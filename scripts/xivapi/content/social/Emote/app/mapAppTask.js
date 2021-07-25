@@ -3,7 +3,8 @@ module.exports = function mapAppTask(cacheTask, lang) {
         id: cacheTask.ID,
         name: cacheTask[`Name_${lang}`],
         command: cacheTask[`Command_${lang}`],
-        method: "",
+        category: "",
+        source: "",
         patch: cacheTask.Patch
     };
 };

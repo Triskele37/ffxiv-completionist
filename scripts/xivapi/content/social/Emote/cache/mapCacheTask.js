@@ -1,8 +1,6 @@
 const utils = require("../../../../utils");
 
 module.exports = function mapCacheTask(Emote) {
-    if(!Emote.TextCommand) console.log(Emote.ID);
-
     return {
         "ID": Emote.ID,
         ...utils.spreadLangs(Emote, "Name"),

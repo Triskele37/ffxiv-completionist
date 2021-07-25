@@ -46,7 +46,7 @@ class ChangeData {
 
     writeDiffMerge() {
         let path = this.appPath;
-        if(this.content.COMMON_KEYS.indexOf(this.appKey) !== -1) {
+        if(this.content.hasCommonKeys() && this.content.COMMON_KEYS.indexOf(this.appKey) !== -1) {
             path = path.replace(this.lang, "common");
         }
 

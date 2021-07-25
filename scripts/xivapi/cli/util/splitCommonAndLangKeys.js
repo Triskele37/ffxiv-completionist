@@ -1,6 +1,6 @@
 // Split common keys from lang task and return both
 module.exports = function splitCommonAndLangKeys(content, langTask) {
-    if(!content.COMMON_KEYS || !content.COMMON_KEYS.length) {
+    if(!content.hasCommonKeys()) {
         return [langTask, null];
     }
 

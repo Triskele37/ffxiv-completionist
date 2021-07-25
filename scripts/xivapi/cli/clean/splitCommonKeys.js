@@ -4,10 +4,9 @@ const constants = require("../../constants");
 
 // Removes common keys from lang json
 module.exports = function removeExcluded(rl, content, indentation) {
-    const hasCommonKeys = content.COMMON_KEYS && content.COMMON_KEYS.length;
     const hasAppData = !!content.config.APP_PATH;
 
-    if(hasAppData && hasCommonKeys) {
+    if(hasAppData && content.hasCommonKeys()) {
         dive("en", `${constants.RESOURCES}/en/${content.config.APP_PATH}`);
         dive("fr", `${constants.RESOURCES}/fr/${content.config.APP_PATH}`);
     }
@@ -17,7 +16,10 @@ module.exports = function removeExcluded(rl, content, indentation) {
 
         // for single-level content
         if(fs.existsSync(`${path}.json`)) {
-            //TODO: split last word after "/" and put into array as dirs e.g. ["title.json"]
+            const split = path.split('/');
+            const last = split.pop();
+            path = split.join('/');
+            dirs = [`${last}.json`];
         }
 
         dirs.forEach((dir) => {

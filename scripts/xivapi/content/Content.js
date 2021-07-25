@@ -32,6 +32,10 @@ module.exports = class Content {
         return [];
     }
 
+    hasCommonKeys() {
+        return this.COMMON_KEYS && this.COMMON_KEYS.length > 0;
+    }
+
     updateConfigFile() {
         fs.writeFileSync(`${this.dirname}/config.json`, JSON.stringify(this.config, null, 4));
     }

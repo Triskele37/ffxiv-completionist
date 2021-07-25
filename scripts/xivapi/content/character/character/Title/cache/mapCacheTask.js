@@ -11,6 +11,7 @@ module.exports = function mapCacheTask(apiObj) {
     return {
         "ID": apiObj.ID,
         "Order": apiObj.Order,
+        "Patch": (apiObj.GamePatch && apiObj.GamePatch.Version) ? apiObj.GamePatch.Version : "",
         ...utils.spreadLangs(apiObj, constructName, "Name"),
         ...utils.spreadLangs(Achievement, "Name", "Achievement"),
         ...utils.spreadLangs(Achievement.AchievementCategory.AchievementKind, "Name", "Category"),

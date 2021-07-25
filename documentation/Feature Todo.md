@@ -10,6 +10,7 @@
 * Leve Issue/Start zones, follow up with XIVAPI
 * Re-run quest cache comparison for quest levels
     see ClassJobLevel0 + QuestLevelOffset
+* Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 
 **Changes**
 * Removed Total_Items from xivapi configs and create function to combine all
