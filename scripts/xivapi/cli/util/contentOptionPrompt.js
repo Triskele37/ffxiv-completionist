@@ -75,7 +75,7 @@ module.exports = function contentOptionPrompt(rl, returnToMain) {
                 case "1": cacheAPI(content, "new", returnToMain); break;
                 case "2": cacheAPI(content, "fail", returnToMain); break;
                 case "3": cacheAPI(content, "full", returnToMain); break;
-                case "4": mergeAPI(content, true, rl, returnToMain); break;
+                case "4": mergeAPI(content, rl, returnToMain); break;
                 default: diveContent();
             }
         });

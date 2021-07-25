@@ -1,11 +1,10 @@
-const fs = require("fs");
 const logUpdate = require("log-update");
 
 const constants = require("../../constants");
-const utils = require("../../utils");
-
 const buildAPI = require("../util/buildAPI");
 
+const ChangeData = require("./ChangeData");
+const getCombinedAppGroup = require("./getCombinedAppGroup");
 const mergeDiffTasks = require("./mergeDiff");
 const mergeNewTasks = require("./mergeNew");
 
@@ -16,7 +15,7 @@ module.exports = function mergeAPI(content, rl, done) {
     dive(buildAPI(content), "");
 
     // Kick off the recursion to merge all identified tasks
-    mergeDiffTasks(rl, diffTasks, () => {
+    mergeDiffTasks(rl, content, diffTasks, () => {
         mergeNewTasks(rl, content, newTasks, () => {
             logUpdate(`\n${content.config.API_ENDPOINT} Merges Completed!!!`);
             done();
@@ -39,56 +38,41 @@ module.exports = function mergeAPI(content, rl, done) {
 
     function analyzeTasks(cache, path, lang) {
         let appPath = `${constants.RESOURCES}/${lang}/${content.config.APP_PATH}/${path}.json`;
+
+        // Allow for self-named content paths e.g. contentType.json
         if(!path) appPath = appPath.replace("/.json", ".json");
 
+        // Allow override of the appPath
         if(content.getAppPath) appPath = content.getAppPath(appPath);
 
         // Allow content to exclude some paths
         if(content.excludeAppPathMerge && content.excludeAppPathMerge(appPath)) return;
 
-        const cmnPath = appPath.replace(lang, "common");
-        const appGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(appPath, "utf8")) : null;
-        const cmnGroup = fs.existsSync(appPath) ? JSON.parse(fs.readFileSync(cmnPath, "utf8")) : null;
+        // Read the actual file content in
+        const appGroup = getCombinedAppGroup(appPath, lang);
 
+        // Loop over the cached version of the task list
+        // TODO: this will miss removed tasks left in the app
         cache.tasks.forEach((cacheTask, cacheIndex) => {
-            let newTask = true;
+            const changeData = new ChangeData(content, lang, appPath, cacheTask, cacheIndex);
 
             if(appGroup) {
-                // vvv Can be used to reapply IDs
-                // const appTask = appGroup.tasks.find((appTask) => cacheTask[`Name_${lang}`] === appTask.name);
-                const appTask = appGroup.tasks.find((appTask) => cacheTask.ID === appTask.id);
-                const appIndex = appGroup.tasks.findIndex((appTask) => cacheTask.ID === appTask.id);
+                changeData.setAppTaskInfo(appGroup.tasks);
 
-                if(appTask) {
-                    newTask = false;
+                if(changeData.appTask) {
+                    changeData.isNew = false;
+
                     content.MERGE_KEYS.forEach((appKey) => {
-                        const cacheKey = content.getCacheKey(appKey, lang);
+                        changeData.setTaskKeyInfo(appKey);
 
                         // Different value
-                        if(appTask[appKey] !== utils.safeTrim(cacheTask[cacheKey])) {
-                            diffTasks.push({ appPath, appKey, appTask, cacheKey, cacheTask });
-                        }
-                    });
-                }
-            }
-
-            if(content.COMMON_KEYS && cmnGroup) {
-                const cmnTask = cmnGroup.tasks.find((t) => cacheTask.ID === t.id);
-
-                if(cmnTask) {
-                    content.COMMON_KEYS.forEach((cmnKey) => {
-                        const cacheKey = content.getCacheKey(cmnKey, lang);
-
-                        // Different Value
-                        if(cmnTask[cmnKey] !== utils.safeTrim(cacheTask[cacheKey])) {
-                            diffTasks.push({ appPath: cmnPath, appKey: cmnKey, appTask: cmnTask, cacheKey, cacheTask });
-                        }
+                        if(changeData.tasksHaveDiff()) diffTasks.push(changeData.clone());
                     });
                 }
             }
 
             // New Task
-            if(newTask) newTasks.push({ appPath, lang, cacheTask, cacheIndex });
+            if(changeData.isNew) newTasks.push(changeData);
         });
     }
 };

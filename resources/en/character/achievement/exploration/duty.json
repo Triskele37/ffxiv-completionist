@@ -704,6 +704,13 @@
             "description": "Discover every location at the Bozjan southern front."
         },
         {
+            "id": 2891,
+            "name": "Mapping the Realm: Zadnor",
+            "description": "Discover every location in Zadnor.",
+            "points": 10,
+            "patch": "5.55"
+        },
+        {
             "id": 2671,
             "name": "Annals of War",
             "description": "Complete all Bozjan southern front entries in your field record."
@@ -712,6 +719,21 @@
             "name": "Annals of Archaeology",
             "description": "Complete all Delubrum Reginae entries in your field record.",
             "id": 2761
+        },
+        {
+            "id": 2885,
+            "name": "Annals of Liberation",
+            "description": "Complete all Zadnor entries in your field record.",
+            "points": 10,
+            "patch": "5.55"
+        },
+        {
+            "id": 2886,
+            "name": "A Complete History",
+            "description": "Obtain the achievements “Annals of War,” “Annals of Archaeology,” and “Annals of Liberation.”",
+            "reward": "Al-iklil Identification Key",
+            "points": 20,
+            "patch": "5.55"
         }
     ]
 }

@@ -1,5 +1,3 @@
-const fs = require("fs");
-
 module.exports = function mergeNewTasks(rl, content, tasks, next) {
     const totalTasks = tasks.length;
     mergeNextTasks();
@@ -26,14 +24,14 @@ module.exports = function mergeNewTasks(rl, content, tasks, next) {
         rl.question('\nAdd task/s to app?\n1: Yes\n2: No\n3: Add All\n', (answer) => {
             switch(answer) {
                 case "1":
-                    tasksToReview.forEach((t) => {
-                        writeFile(content, t.appPath, t.lang, t.cacheTask, t.cacheIndex);
-                        rl.question(`\ntask added to ${t.appPath}`, mergeNextTasks);
+                    tasksToReview.forEach((changeData) => {
+                        changeData.writeNewData();
+                        rl.question(`\ntask added to ${changeData.appPath}`, mergeNextTasks);
                     });
                     break;
                 case "3":
                     // Merge the current task/s first when "All" was selected
-                    tasksToReview.forEach((t) => writeFile(content, t.appPath, t.lang, t.cacheTask, t.cacheIndex));
+                    tasksToReview.forEach((changeData) => changeData.writeNewData());
                     // Continue merging the rest off the tasks
                     mergeAllTasks();
                     break;
@@ -62,32 +60,10 @@ module.exports = function mergeNewTasks(rl, content, tasks, next) {
     function mergeAllTasks() {
         let totalAdded = 1;
         while(tasks.length) {
-            const { appPath, lang, cacheTask, cacheIndex } = tasks.shift();
-            writeFile(content, appPath, lang, cacheTask, cacheIndex);
+            tasks.shift().writeNewData();
             totalAdded++;
         }
 
         rl.question(`\n\n${totalAdded} tasks added`, mergeNextTasks);
     }
 };
-
-function writeFile(content, appPath, lang, cacheTask, cacheIndex) {
-    let json = {};
-
-    if(fs.existsSync(appPath)) {
-        const task = content.mapAppTask(cacheTask, lang);
-        json = JSON.parse(fs.readFileSync(appPath, 'utf8'));
-
-        // Attempt to insert the task into the right sort order
-        if(json.tasks.length > cacheIndex) json.tasks.splice(cacheIndex, 0, task);
-        else json.tasks.push(task);
-    }
-    else {
-        json = {
-            groupName: "PLACEHOLDER",
-            tasks: [content.mapAppTask(cacheTask, lang)]
-        };
-    }
-
-    fs.writeFileSync(appPath, JSON.stringify(json, null, 4));
-}

@@ -704,14 +704,36 @@
             "description": "Découvrir toute la carte du Front sud de Bozja."
         },
         {
+            "id": 2891,
+            "name": "Cartographe du continent : Hauts plateaux de Zadnor",
+            "description": "Découvrir toute la carte des Hauts plateaux de Zadnor.",
+            "points": 10,
+            "patch": "5.55"
+        },
+        {
             "id": 2671,
             "name": "Biographe du Front sud de Bozja",
-            "description": "Remplir toutes les entrées du rapport du front bozjien."
+            "description": "Remplir toutes les entrées du rapport du front relative au Front sud de Bozja."
         },
         {
             "id": 2761,
             "name": "Historiographie",
             "description": "Obtenir toutes les pages de notes du front bozjien dans Delubrum Reginae."
+        },
+        {
+            "id": 2885,
+            "name": "Biographe des Hauts plateaux de Zadnor",
+            "description": "Remplir toutes les entrées du rapport du front bozjien obtenables sur les Hauts plateaux de Zadnor.",
+            "points": 10,
+            "patch": "5.55"
+        },
+        {
+            "id": 2886,
+            "name": "Biographe de Bozja",
+            "description": "Remplir toutes les entrées du rapport du front bozjien.",
+            "reward": "Clef d'activation d'Iklil",
+            "points": 20,
+            "patch": "5.55"
         }
     ]
 }

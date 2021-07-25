@@ -4,6 +4,7 @@
 * Possible "Legacy Quest" section for removed quests
 * Toggle between dropdown & text filter for applicable columns
 * Pin tasks to top-level group i.e. Watch function
+* Add xivapi CLI option to re-cache content with diffs
 
 **Defects**
 * Leve Issue/Start zones, follow up with XIVAPI
