@@ -1,15 +1,6 @@
-const fs = require("fs");
-const constants = require("../../../../../constants");
 const utils = require("../../../../../utils");
 
 module.exports = function mapCacheTask(apiObj) {
-    const npcPath = `${constants.CACHE_DIR}/enpcresident/${apiObj.IssuerStartTargetID}`;
-    let npc = {};
-
-    if(fs.existsSync(npcPath)) {
-        npc = JSON.parse(fs.readFileSync(npcPath, "utf8"));
-    }
-
     const reputation = !apiObj.BeastReputationRank ? {} : {
         ...utils.spreadLangs(apiObj.BeastReputationRank, "Name", "Reputation")
     };
@@ -22,7 +13,7 @@ module.exports = function mapCacheTask(apiObj) {
 
         // Quest Giver
         "PlaceName": apiObj.PlaceName.Name,
-        ...utils.spreadLangs(npc, "Name", "Npc"),
+        ...utils.spreadLangs(apiObj.IssuerStart, "Name", "Npc"),
 
         ...reputation
     }

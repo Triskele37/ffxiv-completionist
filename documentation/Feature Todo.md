@@ -13,10 +13,13 @@
 * Re-run quest cache comparison for quest levels
     see ClassJobLevel0 + QuestLevelOffset
 * Achievement _error 683 & 685 Mapping Binding Coil IV & VI
+* Quest/67635 is the only one without an NPC via XIVAPI (Tobana)
+    add method to exclude certain fields in certain ids from merge
 
 **Changes**
 * Removed Total_Items from xivapi configs and create function to combine all
   existing ids in cache then compare against pulled list of ids
+* Potentially remove ENpcResident from xivapi script
 
 **Must Do**
 * Add Resplendent Relics
