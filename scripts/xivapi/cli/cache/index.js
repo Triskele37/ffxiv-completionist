@@ -8,9 +8,9 @@ const isValidContentConfig = require('./isValidContentConfig');
 const writeJsonFile = require('../util/writeJsonFile');
 const constants = require("../../constants");
 
-module.exports = async function cacheAPI(content, fullScrape, done) {
+module.exports = async function cacheAPI(content, scrapeType, done) {
     console.log(`Initializing ${content.config.API_ENDPOINT} cache\n`);
-    content.config.fullScrape = fullScrape;
+    content.config.scrapeType = scrapeType;
 
     // Fail fast for invalid configs
     if(!isValidContentConfig(content)) {
@@ -43,14 +43,14 @@ module.exports = async function cacheAPI(content, fullScrape, done) {
  * Used to determine a list of IDs to grab from a contentType
  * ----------------------------------------------------------------------------- */
 async function getIdList(content) {
-    // Re-run failed IDs on any attempt
-    if(content.config.FAILED_IDS && content.config.FAILED_IDS.length) {
+    // Re-attempt failed IDs
+    if(content.config.scrapeType === "fail") {
         const temp = [...content.config.FAILED_IDS];
         content.config.FAILED_IDS = [];
         return temp;
     }
     // Re-grab all content
-    else if(content.config.fullScrape) {
+    else if(content.config.scrapeType === "full") {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         const excluded = content.excludedIds ? Object.keys(content.excludedIds) : [];
         content.config.TOTAL_ITEMS = allIDs.length;
@@ -58,7 +58,7 @@ async function getIdList(content) {
         return allIDs.filter((ID) => !excluded.includes(ID.toString()));
     }
     // Only grab new IDs
-    else if(!content.config.fullScrape) {
+    else if(content.config.scrapeType === "new") {
         const allIDs = await getContentIDs(content.config.API_ENDPOINT);
         const cachedIDs = getCachedIDs(content.config.API_ENDPOINT);
         content.config.TOTAL_ITEMS = allIDs.length;

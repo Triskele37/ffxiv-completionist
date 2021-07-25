@@ -63,17 +63,19 @@ module.exports = function contentOptionPrompt(rl, returnToMain) {
 
         rl.write(`Perform which action on (${content.config.API_ENDPOINT})?\n\n`);
         rl.write("1. Add new content to cache\n");
-        rl.write("2. Re-establish cache content\n");
-        rl.write("3. Merge cache to App\n");
-        rl.write("4. Back\n");
+        rl.write(`2. Retry failed content (${content.config.FAILED_IDS.length})\n`);
+        rl.write("3. Create fresh cache\n");
+        rl.write("4. Merge cache to App\n");
+        rl.write("5. Back\n");
 
         rl.question("\nChoice: ", (answer) => {
             console.clear();
 
             switch(answer) {
-                case "1": cacheAPI(content, false, returnToMain); break;
-                case "2": cacheAPI(content, true, returnToMain); break;
-                case "3": mergeAPI(content, true, rl, returnToMain); break;
+                case "1": cacheAPI(content, "new", returnToMain); break;
+                case "2": cacheAPI(content, "fail", returnToMain); break;
+                case "3": cacheAPI(content, "full", returnToMain); break;
+                case "4": mergeAPI(content, true, rl, returnToMain); break;
                 default: diveContent();
             }
         });
