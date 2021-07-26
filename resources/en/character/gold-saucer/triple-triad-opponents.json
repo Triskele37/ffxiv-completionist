@@ -7,8 +7,7 @@
         "location": "Location",
         "rules": "Rules",
         "drops": "Drops",
-        "preRequisite": "Pre-Req.",
-        "fee": "Fee (MGP)",
+        "quest": "Quest",
         "patch": "Patch"
     },
     "tasks": [
@@ -16,343 +15,343 @@
             "id": 0,
             "name": "Triple Triad Master",
             "zone": "The Gold Saucer",
-            "location": "Card Square (4,7)",
+            "location": "Card Square (4, 7)",
             "rules": "All Open",
             "drops": "Spriggan",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 1,
             "name": "Baderon",
             "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Drowning Wench (11,11)",
+            "location": "The Drowning Wench (11, 11)",
             "rules": "Three Open",
             "drops": "Baderon Tenfingers, Sahagin",
-            "preRequisite": "Quest: A Wild Rose by Any Other Name (Level 17 Main Scenario Quest)"
+            "quest": "A Wild Rose by Any Other Name"
         },
         {
             "id": 2,
             "name": "Drery",
             "zone": "Amh Araeng",
-            "location": "Twine (11.9,16.9)",
+            "location": "Twine (11.9, 16.9)",
             "rules": "Same, Plus",
             "drops": "Evil Weapon, Gigantender",
-            "preRequisite": "Quest: Mystery Miners (Level 75 Amh Araeng Sidequest)"
+            "quest": "Mystery Miners"
         },
         {
             "id": 3,
             "name": "Ercanbald",
             "zone": "Rhalgr's Reach",
-            "location": "Starfall (9.8,9.8)",
+            "location": "Starfall (9.8, 9.8)",
             "rules": "None",
             "drops": "Griffin, M'naago",
-            "preRequisite": "Quest: A Haven for the Bold (Level 60 Main Scenario Quest)"
+            "quest": "A Haven for the Bold"
         },
         {
             "id": 4,
             "name": "F'hobhas",
             "zone": "Central Thanalan",
-            "location": "Black Brush (23,13)",
+            "location": "Black Brush (23, 13)",
             "rules": "Three Open",
             "drops": "Mutamix Bubblypots",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 5,
             "name": "Fufulupa",
             "zone": "Western Thanalan",
-            "location": "Horizon's Edge (22,17)",
+            "location": "Horizon's Edge (22, 17)",
             "rules": "Three Open",
             "drops": "Chimera, Thancred",
-            "preRequisite": "Quest: A Wild Rose by Any Other Name (Level 17 Main Scenario Quest)"
+            "quest": "A Wild Rose by Any Other Name"
         },
         {
             "id": 6,
             "name": "Glynard",
             "zone": "The Crystarium",
-            "location": "The Wandering Stairs (10.8,15.2)",
+            "location": "The Wandering Stairs (10.8, 15.2)",
             "rules": "Three Open",
             "drops": "Amaro",
-            "preRequisite": "Quest: Warrior of Darkness (Level 71 Main Scenario Quest)"
+            "quest": "Warrior of Darkness"
         },
         {
             "id": 7,
             "name": "Guhtwint of the Three Diamonds",
             "zone": "The Gold Saucer",
-            "location": "Card Square (4,7)",
+            "location": "Card Square (4, 7)",
             "rules": "Three Open, Plus",
             "drops": "Chocobo, Scarface Bugaal Ja",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 8,
             "name": "Gyoei",
             "zone": "Yanxia",
-            "location": "Yuzuka Manor (15.7,31.9)",
+            "location": "Yuzuka Manor (15.7, 31.9)",
             "rules": "Reverse, Plus",
             "drops": "Namazu, Great Gold Whisker",
-            "preRequisite": "Quest: Criminal Phrenology (Level 64 Othard Sidequest)"
+            "quest": "Criminal Phrenology"
         },
         {
             "id": 9,
             "name": "Ibenart",
             "zone": "Kholusia",
-            "location": "Amity (19.1,17.4)",
+            "location": "Amity (19.1, 17.4)",
             "rules": "Three Open, Fallen Ace",
             "drops": "Lord and Lady Chai",
-            "preRequisite": "Quest: That None Shall Ever Again (Level 78 Main Scenario Quest)"
+            "quest": "That None Shall Ever Again"
         },
         {
             "id": 10,
             "name": "Joellaut",
             "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (13,15)",
+            "location": "Whitebrim (13, 15)",
             "rules": "Three Open",
             "drops": "Alphinaud and Alisaie, Ixal",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 11,
             "name": "Jonas of the Three Spades",
             "zone": "The Gold Saucer",
-            "location": "Card Square (4,7)",
+            "location": "Card Square (4, 7)",
             "rules": "All Open, Same",
             "drops": "Ixal, Moogle",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 12,
             "name": "Kotokaze",
             "zone": "Kugane",
-            "location": "Shiokaze Hostelry (10.2,10.2)",
+            "location": "Shiokaze Hostelry (10.2, 10.2)",
             "rules": "Same",
             "drops": "Kotokaze",
-            "preRequisite": "Quest: By The Grace of Lord Lolorito (Level 61 Main Scenario Quest)"
+            "quest": "By The Grace of Lord Lolorito"
         },
         {
             "id": 13,
             "name": "Maisenta",
             "zone": "New Gridania",
-            "location": "The Knot (11,11)",
+            "location": "The Knot (11, 11)",
             "rules": "All Open",
             "drops": "Coblyn, Sylph",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 14,
             "name": "Marcechamp",
             "zone": "The Dravanian Forelands",
-            "location": "Chocobo Forest (31,23)",
+            "location": "Chocobo Forest (31, 23)",
             "rules": "Reverse, Plus",
             "drops": "Ysayle",
-            "preRequisite": "Quest: Gifts for the Outcasts (Level 52 Main Scenario Quest)"
+            "quest": "Gifts for the Outcasts"
         },
         {
             "id": 15,
             "name": "Memeroon",
             "zone": "Upper La Noscea",
-            "location": "Oakwood (14,24)",
+            "location": "Oakwood (14, 24)",
             "rules": "All Open",
             "drops": "Amalj'aa, Manxome Molaa Ja Ja, Memeroon, Tonberry",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 16,
             "name": "Mimidoa",
             "zone": "Lower La Noscea",
-            "location": "The Gods' Grip (25,35)",
+            "location": "The Gods' Grip (25, 35)",
             "rules": "Three Open",
             "drops": "Biggs and Wedge, Siren",
-            "preRequisite": "Quest: History Repeating (Level 42 Main Scenario Quest)"
+            "quest": "History Repeating"
         },
         {
             "id": 17,
             "name": "Momodi",
             "zone": "Ul'dah - Steps of Nald",
-            "location": "The Quicksand (11.6,9.6)",
+            "location": "The Quicksand (11.6, 9.6)",
             "rules": "Three Open",
             "drops": "Momodi Modi",
-            "preRequisite": "Quest: A Wild Rose by Any Other Name (Level 17 Main Scenario Quest)"
+            "quest": "A Wild Rose by Any Other Name"
         },
         {
             "id": 18,
             "name": "Mother Miounne",
             "zone": "New Gridania",
-            "location": "Carline Canopy (11,13)",
+            "location": "Carline Canopy (11, 13)",
             "rules": "Three Open",
             "drops": "Goobbue, Mother Miounne",
-            "preRequisite": "Quest: A Wild Rose by Any Other Name (Level 17 Main Scenario Quest)"
+            "quest": "A Wild Rose by Any Other Name"
         },
         {
             "id": 19,
             "name": "Prideful Stag",
             "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.7,3.3)",
+            "location": "Battlehall (3.7, 3.3)",
             "rules": "Plus",
             "drops": "Lost Lamb",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 20,
             "name": "Roger",
             "zone": "Central Thanalan",
-            "location": "Black Brush (19,20)",
+            "location": "Black Brush (19, 20)",
             "rules": "All Open",
             "drops": "Morbol, Pudding",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 21,
             "name": "Saushs Koal",
             "zone": "The Tempest",
-            "location": "The Ondo Cups (31.4,17.3)",
+            "location": "The Ondo Cups (31.4, 17.3)",
             "rules": "All Open",
             "drops": "Grenoldt",
-            "preRequisite": "Quest: Pearls of the Deep (Level 70 Tempest Sidequest)"
+            "quest": "Pearls of the Deep"
         },
         {
             "id": 22,
             "name": "Seika",
             "zone": "Idyllshire",
-            "location": "Freewalks Roundspot (6.7,7.4)",
+            "location": "Freewalks Roundspot (6.7, 7.4)",
             "rules": "Chaos, Reverse",
             "drops": "Crawler, Poroggo, Roundrox",
-            "preRequisite": "Quest: Enigma (Level 60 Chronicles of a New Era Quest)"
+            "quest": "Enigma"
         },
         {
             "id": 23,
             "name": "Trachtoum",
             "zone": "Lower La Noscea",
-            "location": "Cedarwood (35,15)",
+            "location": "Cedarwood (35, 15)",
             "rules": "Three Open",
             "drops": "Moogle, Titan",
-            "preRequisite": "Quest: All Good Things (Level 34 Main Scenario Quest)"
+            "quest": "All Good Things"
         },
         {
             "id": 24,
             "name": "Wymond",
             "zone": "Ul'dah - Steps of Nald",
-            "location": "Emerald Avenue (9.8,8.7)",
+            "location": "Emerald Avenue (9.8, 8.7)",
             "rules": "Three Open",
             "drops": "Coblyn, Lolorito Nanarito",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 25,
             "name": "Wyra \"Greenhands\" Lyehga",
             "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.3,3.3)",
+            "location": "Battlehall (3.3, 3.3)",
             "rules": "All Open, Same",
             "drops": "Apkallu",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 26,
             "name": "Aurifort of the Three Clubs",
             "zone": "The Gold Saucer",
-            "location": "Card Square (4,7)",
+            "location": "Card Square (4, 7)",
             "rules": "Three Open, Order",
             "drops": "Goobbue, Scarface Bugaal Ja",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 27,
             "name": "Botan",
             "zone": "Kugane",
-            "location": "Pier 1 (7.8,14.7)",
+            "location": "Pier 1 (7.8, 14.7)",
             "rules": "Plus, Roulette",
             "drops": "Happy Bunny, Louhi, Pazuzu, Yukinko",
-            "preRequisite": "Quest: And We Shall Call It Pyros (Level 70 Side Story Quest)"
+            "quest": "And We Shall Call It Pyros"
         },
         {
             "id": 28,
             "name": "Cobleva",
             "zone": "Lakeland",
-            "location": "Clearmelt (14.3,7.8)",
+            "location": "Clearmelt (14.3, 7.8)",
             "rules": "Plus, Reverse",
             "drops": "Dwarf, Rolling Tankard",
-            "preRequisite": "Quest: Tanks for the Memory (Level 70 Dwarf Beast Tribe Quest)"
+            "quest": "Tanks for the Memory"
         },
         {
             "id": 29,
             "name": "Dominiac",
             "zone": "Coerthas Western Highlands",
-            "location": "Twinpools (16,22)",
+            "location": "Twinpools (16, 22)",
             "rules": "Order",
             "drops": "Deepeye, Griffin",
-            "preRequisite": "Quest: A War Without End (Level 56 Coerthas Sidequest)"
+            "quest": "A War Without End"
         },
         {
             "id": 30,
             "name": "Droyn",
             "zone": "Ul'dah - Steps of Thal",
-            "location": "Onyx Lane (11.8,13.0)",
+            "location": "Onyx Lane (11.8, 13.0)",
             "rules": "Same, Descension",
             "drops": "Azulmagia, Siegfried",
-            "preRequisite": "Quest: Blue Cheese (Level 60 Blue Mage Job Quest)"
+            "quest": "Blue Cheese"
         },
         {
             "id": 31,
             "name": "Eo Sigun",
             "zone": "Il Mheg",
-            "location": "Pla Enni (22.2,3.6)",
+            "location": "Pla Enni (22.2, 3.6)",
             "rules": "Plus",
             "drops": "Nu Mou, Porxie",
-            "preRequisite": "Quest: Manic Pixie Dream Realm (Level 70 Pixie Beast Tribe Quest)"
+            "quest": "Manic Pixie Dream Realm"
         },
         {
             "id": 32,
             "name": "Garima",
             "zone": "The Fringes",
-            "location": "Vira Nilya (28.2,19.9)",
+            "location": "Vira Nilya (28.2, 19.9)",
             "rules": "Plus, Ascension",
             "drops": "Ananta, Qiqirn Meateater",
-            "preRequisite": "Quest: Delicate as a Flower (Level 67 Gyr Abania Sidequest)"
+            "quest": "Delicate as a Flower"
         },
         {
             "id": 33,
             "name": "Gyuf Uin",
             "zone": "Il Mheg",
-            "location": "Lydha Lran (16.1,30.7)",
+            "location": "Lydha Lran (16.1, 30.7)",
             "rules": "Three Open, Swap",
             "drops": "Feo-Ul",
-            "preRequisite": "Quest: Acht-la Ormh Inn (Level 73 Main Scenario Quest)"
+            "quest": "Acht-la Ormh Inn"
         },
         {
             "id": 34,
             "name": "Hargra",
             "zone": "The Rak'tika Greatwood",
-            "location": "Slitherbough (18.5,26.0)",
+            "location": "Slitherbough (18.5, 26.0)",
             "rules": "Same, Roulette",
             "drops": "Runar, Shadowbringers Y'shtola",
-            "preRequisite": "Quest: An Express Delivery (Level 70 Rak'tika Sidequest)"
+            "quest": "An Express Delivery"
         },
         {
             "id": 35,
             "name": "Helmhart",
             "zone": "Eastern Thanalan",
-            "location": "Drybone (20,21)",
+            "location": "Drybone (20, 21)",
             "rules": "Three Open",
             "drops": "Gerolt, Ultros and Typhon",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 36,
             "name": "Hetsukaze",
             "zone": "Kugane",
-            "location": "Pier 1 (8.0,13.6)",
+            "location": "Pier 1 (8.0, 13.6)",
             "rules": "Same, Plus",
             "drops": "Ejika Tsunjika, Penthesilea, Dvergr, Provenance Watcher",
-            "preRequisite": "Quest: And We Shall Call It Hydatos (Level 70 Side Story Quest)"
+            "quest": "And We Shall Call It Hydatos"
         },
         {
             "id": 37,
             "name": "Hokushin",
             "zone": "Kugane",
-            "location": "Kugane Castle (14.4,11.2)",
+            "location": "Kugane Castle (14.4, 11.2)",
             "rules": "Plus, Swap",
             "drops": "Karakuri Hanya, Yojimbo & Daigoro",
-            "preRequisite": "Quest: Good Swords, Good Dogs (Level 70 Side Story Quest)"
+            "quest": "Good Swords, Good Dogs"
         },
         {
             "id": 38,
@@ -361,34 +360,34 @@
             "location": "Various (Inside Fortemps Manor)",
             "rules": "Three Open, Plus",
             "drops": "Artoirel de Fortemps, Emmanellain de Fortemps, Honoroit",
-            "preRequisite": "Quest: Heavensward (Level 60 Main Scenario Quest)"
+            "quest": "Heavensward"
         },
         {
             "id": 39,
             "name": "Idle Imperial",
             "zone": "Azys La",
-            "location": "Gamma Quadrant (28,31)",
+            "location": "Gamma Quadrant (28, 31)",
             "rules": "Chaos, Swap",
             "drops": "Curator, Hilda, Regula van Hydrus, Tiamat",
-            "preRequisite": "Quest: The First Flight of the Excelsior (Level 59 Main Scenario Quest)"
+            "quest": "The First Flight of the Excelsior"
         },
         {
             "id": 40,
             "name": "Kaizan",
             "zone": "The Ruby Sea",
-            "location": "The Ruby Sea (22.3,8.6)",
+            "location": "The Ruby Sea (22.3, 8.6)",
             "rules": "Swap, Descension",
             "drops": "Rasho",
-            "preRequisite": "Quest: A Dance with Snakes (Level 62 Othard Sidequest)"
+            "quest": "A Dance with Snakes"
         },
         {
             "id": 41,
             "name": "Lamlyn",
             "zone": "Lakeland",
-            "location": "Fort Jobb (35.4,20.2)",
+            "location": "Fort Jobb (35.4, 20.2)",
             "rules": "Chaos",
             "drops": "Lyna",
-            "preRequisite": "Quest: Reassuring the Masses (Level 79 Main Scenario Quest)"
+            "quest": "Reassuring the Masses"
         },
         {
             "id": 42,
@@ -397,88 +396,88 @@
             "location": "Various",
             "rules": "Reverse, Chaos",
             "drops": "Bismarck, Brachiosaur, Waukkeon",
-            "preRequisite": "Quest: The Nest of Honor (Level 50 Vanu Vanu Beast Tribe Quest)"
+            "quest": "The Nest of Honor"
         },
         {
             "id": 43,
             "name": "Mordyn",
             "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Seventh Sage (11,7)",
+            "location": "The Seventh Sage (11, 7)",
             "rules": "Swap. Same",
             "drops": "Carvallain de Gorgagne, Merlwyb Bloefhiswyn, Kraken",
-            "preRequisite": "Quest: Storming the Hull (Level 60 La Noscea Sidequest)"
+            "quest": "Storming the Hull"
         },
         {
             "id": 44,
             "name": "Nell Half-Full",
             "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.3,3.7)",
+            "location": "Battlehall (3.3, 3.7)",
             "rules": "Same, Plus",
             "drops": "Brendt, Brennan, & Bremondt",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 45,
             "name": "Noes",
             "zone": "Old Gridania",
-            "location": "Apkallu Falls (10,5)",
+            "location": "Apkallu Falls (10, 5)",
             "rules": "Descension, Plus",
             "drops": "Gaelicat, Kuribu",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 46,
             "name": "O'kalkaya",
             "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Aftcastle (12,13)",
+            "location": "The Aftcastle (12, 13)",
             "rules": "Roulette, Plus",
             "drops": "Rhoswen, Merlwyb Bloefhiswyn, Mistbeard",
-            "preRequisite": "Quest: Storming the Hull (Level 60 La Noscea Sidequest)"
+            "quest": "Storming the Hull"
         },
         {
             "id": 47,
             "name": "Piralnaut",
             "zone": "East Shroud",
-            "location": "Nine Ivies (17,26)",
+            "location": "Nine Ivies (17, 26)",
             "rules": "Three Open",
             "drops": "Frixio, Succubus",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 48,
             "name": "Redard",
             "zone": "The Rak'tika Greatwood",
-            "location": "Slitherbough (20.4,27.2)",
+            "location": "Slitherbough (20.4, 27.2)",
             "rules": "Reverse, Same",
             "drops": "Batsquatch, Qitari",
-            "preRequisite": "Quest: The Stewards of Note (Level 70 Qitari Beast Tribe Quest)"
+            "quest": "The Stewards of Note"
         },
         {
             "id": 49,
             "name": "Swift",
             "zone": "Ul'dah - Steps of Nald",
-            "location": "Hall of Flames (8.4,8.9)",
+            "location": "Hall of Flames (8.4, 8.9)",
             "rules": "Chaos",
             "drops": "Alphinaud and Alisaie, Ifrit, Pipin Tarupin, Raubahn Aldynn",
-            "preRequisite": "Quest: For Coin and Country (Level 20 Main Scenario Quest)"
+            "quest": "For Coin and Country"
         },
         {
             "id": 50,
             "name": "Tsuzura",
             "zone": "The Ruby Sea",
-            "location": "The Ruby Sea (28.5,16.4)",
+            "location": "The Ruby Sea (28.5, 16.4)",
             "rules": "Chaos, Roulette",
             "drops": "Kojin",
-            "preRequisite": "Quest: Our Most Venerated Ancestor (Level 62 Othard Sidequest)"
+            "quest": "Our Most Venerated Ancestor"
         },
         {
             "id": 51,
             "name": "Ushiogi",
             "zone": "The Ruby Sea",
-            "location": "Rasen Kaikyo (21.7,7.9)",
+            "location": "Rasen Kaikyo (21.7, 7.9)",
             "rules": "Swap, Order",
             "drops": "Hatamoto, Hiruko, Wanyudo and Katasharin",
-            "preRequisite": "Quest: On The Shoulders of Giants (Level 61 Othard Sidequest)"
+            "quest": "On The Shoulders of Giants"
         },
         {
             "id": 52,
@@ -487,232 +486,232 @@
             "location": "Various",
             "rules": "Roulette",
             "drops": "Ravana, Coeurlregina, Fat Chocobo",
-            "preRequisite": "Quest: A Symbiotic Friendship (Level 50 Vath Beast Tribe Quest)"
+            "quest": "A Symbiotic Friendship"
         },
         {
             "id": 53,
             "name": "Yellow Moon",
             "zone": "Ul'dah - Steps of Thal",
-            "location": "Weavers' Guild (14,13)",
+            "location": "Weavers' Guild (14, 13)",
             "rules": "Ascension, Swap",
             "drops": "Yugiri Mistwalker",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 54,
             "name": "Yusui",
             "zone": "The Ruby Sea",
-            "location": "Sakazuki (31.6,37.1)",
+            "location": "Sakazuki (31.6, 37.1)",
             "rules": "Plus",
             "drops": "Tansui",
-            "preRequisite": "Quest: Boys with Boats (Level 62 Main Scenario Quest)"
+            "quest": "Boys with Boats"
         },
         {
             "id": 55,
             "name": "Arsieu",
             "zone": "???",
-            "location": "Gangos (5.9,6.6)",
+            "location": "Gangos (5.9, 6.6)",
             "rules": "Ascension, Plus",
             "drops": "Adrammelech, Dawon",
-            "preRequisite": "Quest: The Lady of Blades (Level 80 Side Story Quest)"
+            "quest": "The Lady of Blades"
         },
         {
             "id": 56,
             "name": "Buscarron",
             "zone": "South Shroud",
-            "location": "Buscarron's Druthers (18.1,19.8)",
+            "location": "Buscarron's Druthers (18.1, 19.8)",
             "rules": "Order",
             "drops": "Demon Wall, Papalymo and Yda, Raya-O-Senna and A-Ruhn-Senna",
-            "preRequisite": "Quest: Into the Beast's Maw (Level 24 Main Scenario Quest)"
+            "quest": "Into the Beast's Maw"
         },
         {
             "id": 57,
             "name": "Flichoirel the Lordling",
             "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.7,3.7)",
+            "location": "Battlehall (3.7, 3.7)",
             "rules": "None",
             "drops": "Colibri, Nael van Darnus",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 58,
             "name": "Furtive Former Imperial",
             "zone": "???",
-            "location": "Terncliff (5.0,6.3)",
+            "location": "Terncliff (5.0, 6.3)",
             "rules": "Swap, Fallen Ace",
             "drops": "Sapphire Weapon",
-            "preRequisite": "Quest: Sleep Now in Sapphire (Level 80 Chronicles of a New Era Quest)"
+            "quest": "Sleep Now in Sapphire"
         },
         {
             "id": 59,
             "name": "Gegeruju",
             "zone": "Eastern La Noscea",
-            "location": "Bloodshore (35,30)",
+            "location": "Bloodshore (35, 30)",
             "rules": "Swap, Sudden Death",
             "drops": "Minfilia, Y'shtola",
-            "preRequisite": "Quest: All Good Things (Level 34 Main Scenario Quest)"
+            "quest": "All Good Things"
         },
         {
             "id": 60,
             "name": "Gibrillont",
             "zone": "Foundation",
-            "location": "The Forgotton Knight (12,11)",
+            "location": "The Forgotton Knight (12, 11)",
             "rules": "Roulette",
             "drops": "Estinien",
-            "preRequisite": "Quest: The Better Half (Level 50 Main Scenario Quest)"
+            "quest": "The Better Half"
         },
         {
             "id": 61,
             "name": "Grewenn",
             "zone": "Eulmore",
-            "location": "The Beehive (12.5,9.9)",
+            "location": "The Beehive (12.5, 9.9)",
             "rules": "Plus, Swap",
             "drops": "Jongleurs of Eulmore, Ran'jit",
-            "preRequisite": "Quest: Shadowbringers (Level 80 Main Scenario Quest)"
+            "quest": "Shadowbringers"
         },
         {
             "id": 62,
             "name": "Hab",
             "zone": "Southern Thanalan",
-            "location": "Sagolii Desert (24,40)",
+            "location": "Sagolii Desert (24, 40)",
             "rules": "Descension",
             "drops": "Godbert Manderville, Hildibrand and Nashu Mhakaracca, Thancred",
-            "preRequisite": "Quest: Zombies Are People Too (Level 47 Side Story Quest)"
+            "quest": "Zombies Are People Too"
         },
         {
             "id": 63,
             "name": "Hachinan",
             "zone": "Yanxia",
-            "location": "The House of the Fierce (26.4,12.9)",
+            "location": "The House of the Fierce (26.4, 12.9)",
             "rules": "Ascension, Fallen Ace",
             "drops": "Asahi sas Brutus, Zenos yae Galvus",
-            "preRequisite": "Quest: The Primary Agreement (Level 70 Main Scenario Quest)"
+            "quest": "The Primary Agreement"
         },
         {
             "id": 64,
             "name": "Hanagasa",
             "zone": "Kugane",
-            "location": "The Short Pier (10.4,11.9)",
+            "location": "The Short Pier (10.4, 11.9)",
             "rules": "Descension, Plus",
             "drops": "Argath Thadalfus, Rofocale, Ultima, the High Seraph, Yiazmat",
-            "preRequisite": "Quest: The City of Lost Angels (Level 70 Chronicles of a New Era Quest)"
+            "quest": "The City of Lost Angels"
         },
         {
             "id": 65,
             "name": "Imperial Deserter",
             "zone": "The Lochs",
-            "location": "The Lochs (32.8,30.1)",
+            "location": "The Lochs (32.8, 30.1)",
             "rules": "Fallen Ace",
             "drops": "Fordola rem Lupis, Grynewaht, Yotsuyu",
-            "preRequisite": "Quest: Stormblood (Level 70 Main Scenario Quest)"
+            "quest": "Stormblood"
         },
         {
             "id": 66,
             "name": "Indolent Imperial",
             "zone": "Mor Dhona",
-            "location": "Castrum Centri (11,17)",
+            "location": "Castrum Centri (11, 17)",
             "rules": "Ascension",
             "drops": "Gaius van Baelsar, Livia sas Junius, Nero tol Scaeva, Rhitahtyn sas Arvina",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 67,
             "name": "Ironworks Hand",
             "zone": "Rhalgr's Reach",
-            "location": "Chocobo Keep (13.7,11.3)",
+            "location": "Chocobo Keep (13.7, 11.3)",
             "rules": "Roulette, Roulette",
             "drops": "Alpha, Omega, Shinryu",
-            "preRequisite": "Quest: To Kweh Under Distant Skies (Level 70 Chronicles of a New Era Quest)"
+            "quest": "To Kweh Under Distant Skies"
         },
         {
             "id": 68,
             "name": "Kikimo",
             "zone": "Kugane",
-            "location": "Pier #1 (8.6,14.0)",
+            "location": "Pier #1 (8.6, 14.0)",
             "rules": "Swap, Fallen Ace",
             "drops": "Hancock",
-            "preRequisite": "Quest: By The Grace of Lord Lolorito (Level 61 Main Scenario Quest)"
+            "quest": "By The Grace of Lord Lolorito"
         },
         {
             "id": 69,
             "name": "King Elmer III",
             "zone": "The Gold Saucer",
-            "location": "Card Square (3,7)",
+            "location": "Card Square (3, 7)",
             "rules": "Plus",
             "drops": "Bahamut, Godbert Manderville",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 70,
             "name": "Kiuka",
             "zone": "The Doman Enclave",
-            "location": "Tenkonto (6.9,5.9)",
+            "location": "Tenkonto (6.9, 5.9)",
             "rules": "Chaos",
             "drops": "Hien",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 71,
             "name": "Klynthota",
             "zone": "Mor Dhona",
-            "location": "North Silvertear (30,13)",
+            "location": "North Silvertear (30, 13)",
             "rules": "Same, Plus",
             "drops": "Cloud of Darkness, Phlegethon, Xande, Unei & Doga",
-            "preRequisite": "Quest: The Light of Hope (Level 50 Chronicles of a New Era Quest)"
+            "quest": "The Light of Hope"
         },
         {
             "id": 72,
             "name": "Landenel",
             "zone": "South Shroud",
-            "location": "Camp Tranquil (16,28)",
+            "location": "Camp Tranquil (16, 28)",
             "rules": "Chaos, Fallen Ace",
             "drops": "Odin, Titan",
-            "preRequisite": "Quest: All Good Things (Level 34 Main Scenario Quest)"
+            "quest": "All Good Things"
         },
         {
             "id": 73,
             "name": "Laniaitte",
             "zone": "The Sea of Clouds",
-            "location": "Cloudtop (16,37)",
+            "location": "Cloudtop (16, 37)",
             "rules": "Same, Plus",
             "drops": "Dhalmel, Paissa",
-            "preRequisite": "Quest: Honoring the Past (Level 56 Ishgard Sidequest)"
+            "quest": "Honoring the Past"
         },
         {
             "id": 74,
             "name": "Lewto-Sue",
             "zone": "Amh Araeng",
-            "location": "Mord Suuq (26,16)",
+            "location": "Mord Suuq (26, 16)",
             "rules": "Fallen Ace, Plus",
             "drops": "Gaia, Ryne",
-            "preRequisite": "Quest: Where I Belong (Level 80 Chronicles of a New Era Quest)"
+            "quest": "Where I Belong"
         },
         {
             "id": 75,
             "name": "Marcette",
             "zone": "Central Shroud",
-            "location": "Sorrel Haven (16,18)",
+            "location": "Sorrel Haven (16, 18)",
             "rules": "Chaos",
             "drops": "Frixio, Garuda",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 76,
             "name": "Marielle",
             "zone": "The Sea of Clouds",
-            "location": "Cloudtop (15,37)",
+            "location": "Cloudtop (15, 37)",
             "rules": "Order",
             "drops": "Count Edmont de Fortemps, Laniaitte de Haillenarte",
-            "preRequisite": "Quest: A Reward Long in Coming (Level 50 Main Scenario Quest)"
+            "quest": "A Reward Long in Coming"
         },
         {
             "id": 77,
             "name": "Masatsuchi",
             "zone": "Yanxia",
-            "location": "Namai (29.5,20.2)",
+            "location": "Namai (29.5, 20.2)",
             "rules": "Same",
             "drops": "Koja, Lupin",
-            "preRequisite": "Quest: Tiger Blood (Level 64 Yanxia Sidequest)"
+            "quest": "Tiger Blood"
         },
         {
             "id": 78,
@@ -721,205 +720,214 @@
             "location": "Various",
             "rules": "Plus, Same",
             "drops": "Good King Moggle Mog XII, Kal Myhk, Hraesvelgr, Darkscale",
-            "preRequisite": "Quest: The Zenith of Craftsmanship (Level 50 Moogle Beast Tribe Quest)"
+            "quest": "The Zenith of Craftsmanship"
         },
         {
             "id": 79,
             "name": "Mero Roggo",
             "zone": "The Dravanian Hinterlands",
-            "location": "The Ruling Quarter (12.7,36.8)",
+            "location": "The Ruling Quarter (12.7, 36.8)",
             "rules": "Plus, Roulette",
             "drops": "Byblos, Calcabrina, Strix, Stormblood Alphinaud and Alisaie",
-            "preRequisite": "Quest: Prelude in Violet (Level 70 Main Scenario Quest)"
+            "quest": "Prelude in Violet"
         },
         {
             "id": 80,
             "name": "Midnight Dew",
             "zone": "Idyllshire",
-            "location": "Freewalks Roundspot (5.5,6.6)",
+            "location": "Freewalks Roundspot (5.5, 6.6)",
             "rules": "Roulette, Roulette",
             "drops": "Matoya, Belladonna",
-            "preRequisite": "Quest: Over My Dead Gobbie (Level 58 Dravania Sidequest)"
+            "quest": "Over My Dead Gobbie"
         },
         {
             "id": 81,
             "name": "Mogmill",
             "zone": "The Churning Mists",
-            "location": "Sohm Al Summit (28,35)",
+            "location": "Sohm Al Summit (28, 35)",
             "rules": "Roulette, Roulette",
             "drops": "Gnath, Moglin, Vanu Vanu, Vedrfolnir",
-            "preRequisite": "Quest: A Secret from Everyone (Level 55 Dravania Sidequest)"
+            "quest": "A Secret from Everyone"
         },
         {
             "id": 82,
             "name": "Munglig",
             "zone": "The Azim Steppe",
-            "location": "Dotharl Khaa (12.2,33.7)",
+            "location": "Dotharl Khaa (12.2, 33.7)",
             "rules": "Chaos, Same",
             "drops": "Sadu, Mammoth",
-            "preRequisite": "Quest: The Undying Ones (Level 66 Main Scenario Quest)"
+            "quest": "The Undying Ones"
         },
         {
             "id": 83,
             "name": "Nigen",
             "zone": "The Azim Steppe",
-            "location": "The Azim Steppe (31.9,11.5)",
+            "location": "The Azim Steppe (31.9, 11.5)",
             "rules": "Same, Plus",
             "drops": "Cirina, Mammoth",
-            "preRequisite": "Quest: And Dzo It Goes (Level 65 Othard Sidequest)"
+            "quest": "And Dzo It Goes"
         },
         {
             "id": 84,
             "name": "Ogodei",
             "zone": "The Azim Steppe",
-            "location": "The Dawn Throne (22,20.7)",
+            "location": "The Dawn Throne (22, 20.7)",
             "rules": "Fallen Ace, Plus",
             "drops": "Magnai, Mammoth",
-            "preRequisite": "Quest: A Warm Welcome (Level 65 Othard Sidequest)"
+            "quest": "A Warm Welcome"
         },
         {
             "id": 85,
             "name": "Ourdilic",
             "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (6,22)",
+            "location": "Whitebrim (6, 22)",
             "rules": "Order",
             "drops": "Behemoth, Blue Dragon, Ahriman",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 86,
             "name": "R'ashaht Rhiki",
             "zone": "Limsa Lominsa Upper Decks",
-            "location": "Maelstrom Command (13,12)",
+            "location": "Maelstrom Command (13, 12)",
             "rules": "Same, Plus",
             "drops": "Leviathan, Merlwyb Bloefhiswyn, Y'shtola",
-            "preRequisite": "Quest: For Coin and Country (Level 20 Main Scenario Quest)"
+            "quest": "For Coin and Country"
         },
         {
             "id": 87,
             "name": "Redbill Storeboy",
             "zone": "Idyllshire",
-            "location": "Greengrub Mudplots (3.8,4.5)",
+            "location": "Greengrub Mudplots (3.8, 4.5)",
             "rules": "Chaos",
             "drops": "Calofisteri, Diabolos Hollow, Echidna, Ferdiad",
-            "preRequisite": "Quest: A Redbill Farewell (Level 60 Chronicles of a New Era Quest)"
+            "quest": "A Redbill Farewell"
         },
         {
             "id": 88,
             "name": "Rowena",
             "zone": "Mor Dhona",
-            "location": "Rowena's House of Splendors (21.9,5.1)",
+            "location": "Rowena's House of Splendors (21.9, 5.1)",
             "rules": "Roulette, Roulette",
             "drops": "Gerolt, Louisoix Leveilleur",
-            "preRequisite": "Quest: The Weaponsmith of Legend (Level 50 Thanalan Sidequest)"
+            "quest": "The Weaponsmith of Legend"
         },
         {
             "id": 89,
             "name": "Ruhtwyda of the Three Hearts",
             "zone": "The Gold Saucer",
-            "location": "Card Square (3,7)",
+            "location": "Card Square (3, 7)",
             "rules": "Ascension, Sudden Death",
             "drops": "Godbert Manderville, Urianger",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 90,
             "name": "Sezul Totoloc",
             "zone": "North Shroud",
-            "location": "Peacegarden (24,23)",
+            "location": "Peacegarden (24, 23)",
             "rules": "Same, Plus",
             "drops": "Behemoth, Biggs and Wedge, Cid Garlond, Tozol Huatotl",
-            "preRequisite": "Quest: Spread Your Wings and Soar (Level 18 Ixal Beast Tribe Quest)"
+            "quest": "Spread Your Wings and Soar"
+        },
+        {
+            "id": 101,
+            "name": "Sladkey",
+            "zone": "???",
+            "location": "Gangos (5, 6)",
+            "rules": "Same, Swap",
+            "drops": "4th-make Shemhazai, 4th-make Cuchulainn",
+            "quest": "March of the Bloody Queen"
         },
         {
             "id": 91,
             "name": "Tapklix",
             "zone": "The Dravanian Hinterlands",
-            "location": "The Collectors' Quarter (21,18)",
+            "location": "The Collectors' Quarter (21, 18)",
             "rules": "Swap, Same",
             "drops": "Alexander Prime, Brute Justice, Roundrox",
-            "preRequisite": "Quest: A Gob in the Machine (Level 60 Chronicles of a New Era Quest)"
+            "quest": "A Gob in the Machine"
         },
         {
             "id": 92,
             "name": "Umber Torrent",
             "zone": "The Lochs",
-            "location": "The Saltery (16.4,24.7)",
+            "location": "The Saltery (16.4, 24.7)",
             "rules": "Plus, Same",
             "drops": "Arenvald Lentinus, Phoebad",
-            "preRequisite": "Quest: Return of the Bull (Lvl 70 Main Scenario Quest)"
+            "quest": "Return of the Bull"
         },
         {
             "id": 93,
             "name": "Voracious Vath",
             "zone": "The Dravanian Forelands",
-            "location": "The Smoldering Wastes (23,19)",
+            "location": "The Smoldering Wastes (23, 19)",
             "rules": "Ascension, Swap",
             "drops": "Bandersnatch, Coeurlregina",
-            "preRequisite": "Quest: Yellow Stones (Level 53 Dravania Sidequest)"
+            "quest": "Yellow Stones"
         },
         {
             "id": 94,
             "name": "Wawalago",
             "zone": "Limsa Lominsa Lower Decks",
-            "location": "Fisherman's Bottom (8,15)",
+            "location": "Fisherman's Bottom (8, 15)",
             "rules": "Swap, Chaos",
             "drops": "Lucia goe Junius",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 95,
             "name": "Yayake",
             "zone": "Ul'dah - Steps of Nald",
-            "location": "Arrzaneth Ossuary (7.3,12.4)",
+            "location": "Arrzaneth Ossuary (7.3, 12.4)",
             "rules": "Chaos, Roulette",
             "drops": "Aymeric, Vicegerent to the Warden",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 96,
             "name": "Elaisse",
             "zone": "The Pillars",
-            "location": "The Jeweled Crozier (7,10)",
+            "location": "The Jeweled Crozier (7, 10)",
             "rules": "Chaos, Plus",
             "drops": "Archaeornis, Gibrillont",
-            "preRequisite": "Quest: Caught in the Act (Level 56 Ishgard Sidequest)"
+            "quest": "Caught in the Act"
         },
         {
             "id": 97,
             "name": "Hall Overseer",
             "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.5,3.5)",
+            "location": "Battlehall (3.5, 3.5)",
             "rules": "Fallen Ace, Chaos",
             "drops": "Terra Branford, Magitek Collosus",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 98,
             "name": "Isobe",
             "zone": "The Ruby Sea",
-            "location": "Sui-no-Sato (20.2,19.5)",
+            "location": "Sui-no-Sato (20.2, 19.5)",
             "rules": "Plus, Swap",
             "drops": "Ango, Hisui and Kurenai",
-            "preRequisite": "Quest: The Two Princesses of Sui-no-Sato (Level 63 Othard Sidequest)"
+            "quest": "The Two Princesses of Sui-no-Sato"
         },
         {
             "id": 99,
             "name": "Lewena",
             "zone": "The Gold Saucer",
-            "location": "Entrance Square (4,6)",
+            "location": "Entrance Square (4, 6)",
             "rules": "Chaos, Fallen Ace",
             "drops": "Bartz Klauser, Onion Knight, Terra Branford",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 100,
             "name": "Vorsaile Heuloix",
             "zone": "New Gridania",
-            "location": "Adders' Nest (9.7,11.0)",
+            "location": "Adders' Nest (9.7, 11.0)",
             "rules": "Ascension",
             "drops": "Kan-E-Senna, Papalymo and Yda, Ramuh, Good King Moggle Mog XII",
-            "preRequisite": "Quest: For Coin and Country (Level 20 Main Scenario Quest)"
+            "quest": "For Coin and Country"
         }
     ]
 }

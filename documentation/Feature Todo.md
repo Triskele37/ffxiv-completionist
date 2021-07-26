@@ -15,7 +15,7 @@
     add method to exclude certain fields in certain ids from merge
 
 **Changes**
-* Removed Total_Items from xivapi configs and create function to combine all
+* Remove Total_Items from xivapi configs and create function to combine all
   existing ids in cache then compare against pulled list of ids
 * Potentially remove ENpcResident from xivapi script
 * Consider getting Recipe data independent of RecipeNotebookList
@@ -24,12 +24,4 @@
   in prep for Armoire & all glam
 
 **Must Do**
-* Add triad cards
-* Add triad opponents???
-* See why these were only just added as a recipe
-  Flat Cap
-  Coeurl Eyeglasses
-  Magic Broom
 * Connect all task dependencies of next/previous
-* Zadnor Aetheryte Coordinates
-* Zadnor Lost Actions

@@ -7,8 +7,7 @@
         "location": "Lieu",
         "rules": "Règles",
         "drops": "Récompense",
-        "preRequisite": "Pré-Requis",
-        "fee": "Coût (PGS)",
+        "quest": "Quête",
         "patch": "Patch"
     },
     "tasks": [
@@ -19,7 +18,7 @@
             "location": "Square des duellistes (4,7)",
             "rules": "Toutes sur table",
             "drops": "Spriggan",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 1,
@@ -28,7 +27,7 @@
             "location": "Le Dauphin noyé (11,11)",
             "rules": "Trois sur table",
             "drops": "Baderon, Sahuagin",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
+            "quest": "L'alliance pour la Septième Aube"
         },
         {
             "id": 2,
@@ -37,7 +36,7 @@
             "location": "Queues-liées (11.9,16.9)",
             "rules": "identique, Plus",
             "drops": "Arme maligne, Gigapampa",
-            "preRequisite": "La lettre cryptée d'un ami défunt (Quête secondaire d'Amh Araeng niveau 75)"
+            "quest": "La lettre cryptée d'un ami défunt"
         },
         {
             "id": 3,
@@ -46,7 +45,7 @@
             "location": "Étang des Étoiles chues (9.8,9.8)",
             "rules": "Aucune",
             "drops": "Griffon, M'naago",
-            "preRequisite": "L'Étendue du Destructeur (Quête princiaple niveau 60)"
+            "quest": "L'Étendue du Destructeur"
         },
         {
             "id": 4,
@@ -55,7 +54,7 @@
             "location": "Roncenoire (23,13)",
             "rules": "Trois sur table",
             "drops": "Mutamix",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 5,
@@ -64,7 +63,7 @@
             "location": "Horizon (22,17)",
             "rules": "Trois sur table",
             "drops": "Chimère, Thancred",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
+            "quest": "L'alliance pour la Septième Aube"
         },
         {
             "id": 6,
@@ -73,7 +72,7 @@
             "location": "Les Marches nébuleuses (10.8,15.2)",
             "rules": "Trois sur table",
             "drops": "Amaro",
-            "preRequisite": "Le guerrier de la légende (Quête principale niveau 71)"
+            "quest": "Le guerrier de la légende"
         },
         {
             "id": 7,
@@ -82,7 +81,7 @@
             "location": "Square des duellistes (4,7)",
             "rules": "Trois sur table, Plus",
             "drops": "Chocobo, Bugaal Ja",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 8,
@@ -91,7 +90,7 @@
             "location": "Manoir des Yozuka (15.7,31.9)",
             "rules": "Inversion, Plus",
             "drops": "Namazu, Altesse namazu nain doré",
-            "preRequisite": "Les grosses têtes (Quête secondaire d'Othard niveau 64)"
+            "quest": "Les grosses têtes"
         },
         {
             "id": 9,
@@ -100,7 +99,7 @@
             "location": "Amistie (19.1,17.4)",
             "rules": "Trois sur table, Tueur d'as",
             "drops": "Chai-Nuzz & Dulia-Chai",
-            "preRequisite": "La contribution du peuple de la Nuit (Quête principale niveau 78)"
+            "quest": "La contribution du peuple de la Nuit"
         },
         {
             "id": 10,
@@ -109,7 +108,7 @@
             "location": "L'Arête blanche (13,15)",
             "rules": "Trois sur table",
             "drops": "Alphinaud & Alisaie, Ixal",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 11,
@@ -118,7 +117,7 @@
             "location": "Square des duellistes (4,7)",
             "rules": "Toutes sur table, Identique",
             "drops": "Ixal, Mog",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 12,
@@ -127,7 +126,7 @@
             "location": "Shiokaze (10.2,10.2)",
             "rules": "Identique",
             "drops": "Kotokaze",
-            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)"
+            "quest": "Le Bazar de Rubis"
         },
         {
             "id": 13,
@@ -136,7 +135,7 @@
             "location": "Le Nœud (11,11)",
             "rules": "Toutes sur table",
             "drops": "Coblyn, Sylphe",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 14,
@@ -145,7 +144,7 @@
             "location": "Fôret des chocobos (31,23)",
             "rules": "Inversion, Plus",
             "drops": "Ysayle",
-            "preRequisite": "Un cadeau de circonstance (Quête principale niveau 52)"
+            "quest": "Un cadeau de circonstance"
         },
         {
             "id": 15,
@@ -154,7 +153,7 @@
             "location": "La Chênaie (14,24)",
             "rules": "Toutes sur table",
             "drops": "Amalj'aa, Molaa Ja Ja, Memeroon, Tonberry",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 16,
@@ -163,7 +162,7 @@
             "location": "La Poigne des Dieux (25,35)",
             "rules": "Trois sur table",
             "drops": "Biggs & Wedge, Sirène",
-            "preRequisite": "Récital pour un amour dément (Quête principale niveau 42)"
+            "quest": "Récital pour un amour dément"
         },
         {
             "id": 17,
@@ -172,7 +171,7 @@
             "location": "Les Sables mouvants (11.9,9.6)",
             "rules": "Trois sur table",
             "drops": "Momodi",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
+            "quest": "L'alliance pour la Septième Aube"
         },
         {
             "id": 18,
@@ -181,7 +180,7 @@
             "location": "Aux Feuilles de carline (11,13)",
             "rules": "Trois sur table",
             "drops": "Goobbue, Miounne",
-            "preRequisite": "L'alliance pour la Septième Aube (Quête principale niveau 17)"
+            "quest": "L'alliance pour la Septième Aube"
         },
         {
             "id": 19,
@@ -190,7 +189,7 @@
             "location": "Arène Triple Triade (3.7,3.3)",
             "rules": "Plus",
             "drops": "Agneau",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 20,
@@ -199,7 +198,7 @@
             "location": "Roncenoire (19,20)",
             "rules": "Toutes sur table",
             "drops": "Morbol, Pudding",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 21,
@@ -208,7 +207,7 @@
             "location": "Baïne (31.4,17.3)",
             "rules": "Toutes sur table",
             "drops": "Grenoldt",
-            "preRequisite": "Donne-moi tes dents ! (Quête secondaire de La Tempête niveau 70)"
+            "quest": "Donne-moi tes dents !"
         },
         {
             "id": 22,
@@ -217,7 +216,7 @@
             "location": "Marché des Pas libres (6.7,7.4)",
             "rules": "Chaos, Inversion",
             "drops": "Chenille, Poroggo, Roundrox",
-            "preRequisite": "Le trésor de Roundrox (Quête des Chroniques d'une nouvelle ère niveau 60)"
+            "quest": "Le trésor de Roundrox"
         },
         {
             "id": 23,
@@ -226,7 +225,7 @@
             "location": "La Cédrière (35,15)",
             "rules": "Trois sur table",
             "drops": "Mog, Titan",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
+            "quest": "La lumière vacille"
         },
         {
             "id": 24,
@@ -235,7 +234,7 @@
             "location": "Avenue de l'Émeraude (9.8,8.7)",
             "rules": "Trois sur table",
             "drops": "Coblyn, Lolorito Nanarito",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 25,
@@ -244,7 +243,7 @@
             "location": "Arène Triple Triade (3.3,3.3)",
             "rules": "Toutes dur table, Identique",
             "drops": "Apkallu",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 26,
@@ -253,7 +252,7 @@
             "location": "Square des duellistes (4,7)",
             "rules": "Trois sur table, Ordre",
             "drops": "Goobbue, Bugaal Ja",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 27,
@@ -262,7 +261,7 @@
             "location": "Jetée n°1 (7.8, 14,.7)",
             "rules": "Plus, Roulette",
             "drops": "Lapin du bonheur, Louhi, Pazuzu, Yukinko",
-            "preRequisite": "Quête d'accès à Pyros (Quête secondaire niveau 70)"
+            "quest": "Quête d'accès à Pyros"
         },
         {
             "id": 28,
@@ -271,7 +270,7 @@
             "location": "Sources du Névé (14.3,7.8)",
             "rules": "Plus, Inversion",
             "drops": "Nain, Automatank",
-            "preRequisite": "Santé ! (Quête tribale des Nains niveau 70)"
+            "quest": "Santé !"
         },
         {
             "id": 29,
@@ -280,7 +279,7 @@
             "location": "Deux-Rivières (16,22)",
             "rules": "Ordre",
             "drops": "Oculus, Griffon",
-            "preRequisite": "Au-delà de nos différences (Quête secondaire du Coerthas niveau 56)"
+            "quest": "Au-delà de nos différences"
         },
         {
             "id": 30,
@@ -289,7 +288,7 @@
             "location": "Rue de l'Onyx (11.8,13.0)",
             "rules": "Identique, Malus",
             "drops": "Azulmagia, Siegfried",
-            "preRequisite": "Un Bleuet chasse l'autre (Quêtes de mage bleu niveau 60)"
+            "quest": "Un Bleuet chasse l'autre"
         },
         {
             "id": 31,
@@ -298,7 +297,7 @@
             "location": "Pla Enni (22.2,3.6)",
             "rules": "Plus",
             "drops": "Nu Mou, Porxie",
-            "preRequisite": "Entre rêve et réalité (Quête tribale des Pixies niveau 70)"
+            "quest": "Entre rêve et réalité"
         },
         {
             "id": 32,
@@ -307,7 +306,7 @@
             "location": "Vira Nilya (28.2,19.9)",
             "rules": "Plus, Bonus",
             "drops": "Ananta, Qiqirn croque-viande",
-            "preRequisite": "Faveurs divines (Quête secondaire de Gyr Abania niveau 67)"
+            "quest": "Faveurs divines"
         },
         {
             "id": 33,
@@ -316,7 +315,7 @@
             "location": "Lydha Lran (16.1,30.7)",
             "rules": "Trois sur table, Échange",
             "drops": "Feo-Ul",
-            "preRequisite": "Passation de pouvoir (Quête principale niveau 73)"
+            "quest": "Passation de pouvoir"
         },
         {
             "id": 34,
@@ -325,7 +324,7 @@
             "location": "Serpentige (18.5,26.0)",
             "rules": "Identique, Roulette",
             "drops": "Runar, Y'shtola (Shadowbringers)",
-            "preRequisite": "Heureux qui a fait un beau voyage\" (Quête secondaire de Rak'tika niveau 70)"
+            "quest": "Heureux qui a fait un beau voyage\""
         },
         {
             "id": 35,
@@ -334,7 +333,7 @@
             "location": "Les Os desséchés (20,21)",
             "rules": "Trois sur table",
             "drops": "Gerolt, Orthros & Typhon",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 36,
@@ -343,7 +342,7 @@
             "location": "Jetée n°1 (8.0, 13.6)",
             "rules": "Identique, Plus",
             "drops": "Ejika Tsunjika, Penthésilée, Dvergr, Gardien de Provenance",
-            "preRequisite": "Quête d'accès à Hydatos (Quête secondaire niveau 70)"
+            "quest": "Quête d'accès à Hydatos"
         },
         {
             "id": 37,
@@ -352,7 +351,7 @@
             "location": "Château de Kugane (14.4, 11.2)",
             "rules": "Plus, Échange",
             "drops": "Hannya Karakuri, Yojimbo & Daigoro",
-            "preRequisite": "Voleur contre voleur (Quête secondaire niveau 70)"
+            "quest": "Voleur contre voleur"
         },
         {
             "id": 38,
@@ -361,7 +360,7 @@
             "location": "Variés (dans le Manoir des Fortemps)",
             "rules": "Trois sur table, Plus",
             "drops": "Artoirel, Emmanellain, Honoroit",
-            "preRequisite": "Les yeux rivés au ciel (Quête principale niveau 60)"
+            "quest": "Les yeux rivés au ciel"
         },
         {
             "id": 39,
@@ -370,7 +369,7 @@
             "location": "Quadrant gamma (28,31)",
             "rules": "Chaos, Échange",
             "drops": "Conservateur, Hilda, Regula van Hydrus, Tiamat",
-            "preRequisite": "L'Entreprise Excelsior (Quête principale niveau 59)"
+            "quest": "L'Entreprise Excelsior"
         },
         {
             "id": 40,
@@ -379,7 +378,7 @@
             "location": "Mer de Rubis (22.3,8.6)",
             "rules": "Échange, Malus",
             "drops": "Rasho",
-            "preRequisite": "L'affaire est dans le sac (Quête secondaire d'Othard niveau 62)"
+            "quest": "L'affaire est dans le sac"
         },
         {
             "id": 41,
@@ -388,7 +387,7 @@
             "location": "Fort Jobb (35.4,20.2)",
             "rules": "Chaos",
             "drops": "Lyna",
-            "preRequisite": "Lendemain de défaite (Quête principale niveau 79)"
+            "quest": "Lendemain de défaite"
         },
         {
             "id": 42,
@@ -397,7 +396,7 @@
             "location": "Variés",
             "rules": "Inversion, Chaos",
             "drops": "Bismarck, Brachiosaure, Waukkeon",
-            "preRequisite": "Les mots de la gratitude (Quête tribale des Vanu Vanu niveau 50)"
+            "quest": "Les mots de la gratitude"
         },
         {
             "id": 43,
@@ -406,7 +405,7 @@
             "location": "Les Sept Sauges (11,7)",
             "rules": "Échange, Identique",
             "drops": "Carvallain de Gorgagne, Merlwyb, Kraken",
-            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)"
+            "quest": "Retour à Crèvecarène"
         },
         {
             "id": 44,
@@ -415,7 +414,7 @@
             "location": "Arène Triple Triade (3.3,3.7)",
             "rules": "Identique, Plus",
             "drops": "Brendt, Brennan, & Bremondt",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 45,
@@ -424,7 +423,7 @@
             "location": "Chutes de l'Apkallu (10,5)",
             "rules": "Malus, Plus",
             "drops": "Gaélichat, Kuribu",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 46,
@@ -433,7 +432,7 @@
             "location": "La Dunette (12,13)",
             "rules": "Roulette, Plus",
             "drops": "Rhoswen, Merlwyb, Barbe-Brume",
-            "preRequisite": "Retour à Crèvecarène (Quête secondaire de La Noscea niveau 60)"
+            "quest": "Retour à Crèvecarène"
         },
         {
             "id": 47,
@@ -442,7 +441,7 @@
             "location": "Neuf-Lierres (17,26)",
             "rules": "Trois sur table",
             "drops": "Frixio, Succube",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 48,
@@ -451,7 +450,7 @@
             "location": "Serpentige (20.4,27.2)",
             "rules": "Inversion, Identique",
             "drops": "Batsquatch, Qitari",
-            "preRequisite": "Qui qui qui sont les Qitari ? (Quête tribale des Qitaris niveau 70)"
+            "quest": "Qui qui qui sont les Qitari ?"
         },
         {
             "id": 49,
@@ -460,7 +459,7 @@
             "location": "Quartier général des Immortels (8.4,8.9)",
             "rules": "Chaos",
             "drops": "Alphinaud & Alisaie, Ifrit, Pipin Tarupin, Raubahn",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
+            "quest": "Pour la prospérité d'Ul'dah"
         },
         {
             "id": 50,
@@ -469,7 +468,7 @@
             "location": "Mer de Rubis (28.5,16.4)",
             "rules": "Chaos, Roulette",
             "drops": "Kojin",
-            "preRequisite": "Une vénérable carapace (Quête secondaire d'Othard niveau 62)"
+            "quest": "Une vénérable carapace"
         },
         {
             "id": 51,
@@ -478,7 +477,7 @@
             "location": "Rasen Kaikyo (21.7,7.9)",
             "rules": "Échange, Ordre",
             "drops": "Hatamoto, Hiruko, Wanyûdô & Katasharin",
-            "preRequisite": "Aller plus haut (Quête secondaire d'Othard niveau 61)"
+            "quest": "Aller plus haut"
         },
         {
             "id": 52,
@@ -487,7 +486,7 @@
             "location": "Variés",
             "rules": "Roulette",
             "drops": "Ravana, Regina coeurl, Gros chocobo",
-            "preRequisite": "La nouvelle vie des Égarés (Quête tribale des Vathes niveau 50)"
+            "quest": "La nouvelle vie des Égarés"
         },
         {
             "id": 53,
@@ -496,7 +495,7 @@
             "location": "Guilde des couturiers (14,13)",
             "rules": "Bonus, Échange",
             "drops": "Yugiri",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 54,
@@ -505,7 +504,7 @@
             "location": "Sakazuki (31.6,37.1)",
             "rules": "Plus",
             "drops": "Tansui",
-            "preRequisite": "Les pirates de la Confédération (Quête principale niveau 62)"
+            "quest": "Les pirates de la Confédération"
         },
         {
             "id": 55,
@@ -514,7 +513,7 @@
             "location": "Gangos (5.9,6.6)",
             "rules": "Ascension, Plus",
             "drops": "Adrammelech, Dawon",
-            "preRequisite": "L'épée sacrée de Garde-la-Reine (Quête secondaire niveau 80)"
+            "quest": "L'épée sacrée de Garde-la-Reine"
         },
         {
             "id": 56,
@@ -523,7 +522,7 @@
             "location": "Au Choix de Buscarron (18.1, 19.8)",
             "rules": "Ordre",
             "drops": "Mur démoniaque, Papalymo & Yda, Raya-O-Senna & A-Ruhn-Senna",
-            "preRequisite": "Dans les mille gueules du loup (Quête principale niveau 24)"
+            "quest": "Dans les mille gueules du loup"
         },
         {
             "id": 57,
@@ -532,7 +531,7 @@
             "location": "Arène Triple Triade (3.7,3.7)",
             "rules": "Aucune",
             "drops": "Colibri, Nael van Darnus",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 58,
@@ -541,7 +540,7 @@
             "location": "Terncliff (5.0,6.3)",
             "rules": "Échange, Tueur d'as",
             "drops": "Arme Saphir",
-            "preRequisite": "Sur la mer de saphir (Quête des Chroniques d'une nouvelle ère niveau 80)"
+            "quest": "Sur la mer de saphir"
         },
         {
             "id": 59,
@@ -550,7 +549,7 @@
             "location": "Rives sanglantes (35,30)",
             "rules": "Échange, Mort subite",
             "drops": "Minfilia, Y'shtola",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
+            "quest": "La lumière vacille"
         },
         {
             "id": 60,
@@ -559,7 +558,7 @@
             "location": "Le Chevalier oublié (12,11)",
             "rules": "Roulette",
             "drops": "Estinien",
-            "preRequisite": "Les bas-fonds (Quête principale niveau 50)"
+            "quest": "Les bas-fonds"
         },
         {
             "id": 61,
@@ -568,7 +567,7 @@
             "location": "La Ruche (12.5,9.9)",
             "rules": "Plus, Échange",
             "drops": "Bouffonnes d'Eulmore, Ran'jit",
-            "preRequisite": "Porteurs d'ombre (Quête principale niveau 80)"
+            "quest": "Porteurs d'ombre"
         },
         {
             "id": 62,
@@ -577,7 +576,7 @@
             "location": "Désert de Sagolii (24,40)",
             "rules": "Malus",
             "drops": "Godbert, Hildibrand & Nashu Mhakaracca, Thancred",
-            "preRequisite": "De piquants compagnons (Quête secondaire niveau 47)"
+            "quest": "De piquants compagnons"
         },
         {
             "id": 63,
@@ -586,7 +585,7 @@
             "location": "Cercle des Intrépides (26.4,12.9)",
             "rules": "Bonus, Tueur d'as",
             "drops": "Asahi sas Brutus, Zenos yae Galvus",
-            "preRequisite": "La clause principale (Quête principale niveau 70)"
+            "quest": "La clause principale"
         },
         {
             "id": 64,
@@ -595,7 +594,7 @@
             "location": "Petite Jetée (10.4,11.9)",
             "rules": "Malus, Plus",
             "drops": "Argath Thadalfus, Rofocale le Roi centaure, Ultima, la Grande Séraphine, Yiazmat",
-            "preRequisite": "La clause principale (Quête principale niveau 70)"
+            "quest": "La clause principale"
         },
         {
             "id": 65,
@@ -604,7 +603,7 @@
             "location": "Les Lacs (32.8,30.1)",
             "rules": "Tueur d'as",
             "drops": "Fordola rem Lupis, Grynewaht, Yotsuyu",
-            "preRequisite": "Tempête de sang (Quête principale niveau 70)"
+            "quest": "Tempête de sang"
         },
         {
             "id": 66,
@@ -613,7 +612,7 @@
             "location": "Castrum Centri (11,17)",
             "rules": "Bonus",
             "drops": "Gaius, Livia, Nero, Rhitahtyn",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 67,
@@ -622,7 +621,7 @@
             "location": "Relais à chocobos (13.7,11.3)",
             "rules": "Roulette, Roulette",
             "drops": "Alpha, Oméga, Shinryu",
-            "preRequisite": "Le grand envol (Quête des Chroniques d'une nouvelle ère niveau 70)"
+            "quest": "Le grand envol"
         },
         {
             "id": 68,
@@ -631,7 +630,7 @@
             "location": "Jetée n°1 (8.6,14.0)",
             "rules": "Échange, Tueur d'as",
             "drops": "Hancock",
-            "preRequisite": "Le Bazar de Rubis (Quête principale niveau 61)"
+            "quest": "Le Bazar de Rubis"
         },
         {
             "id": 69,
@@ -640,7 +639,7 @@
             "location": "Square des duellistes (3,7)",
             "rules": "Plus",
             "drops": "Bahamut, Godbert",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 70,
@@ -649,7 +648,7 @@
             "location": "Place Tenkonto (6.9,5.9)",
             "rules": "Chaos",
             "drops": "Hien",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 71,
@@ -658,7 +657,7 @@
             "location": "Rive nord de Pleurargent (30,13)",
             "rules": "Identique, Plus",
             "drops": "Nuage de Ténèbres, Phlégéthon, Xande, Unéi & Doga",
-            "preRequisite": "Un avenir plus radieux (Quête des Chroniques d'une nouvelle ère niveau 50)"
+            "quest": "Un avenir plus radieux"
         },
         {
             "id": 72,
@@ -667,7 +666,7 @@
             "location": "Camp des Sentes tranquilles (16,28)",
             "rules": "Chaos, Tueur d'as",
             "drops": "Odin, Titan",
-            "preRequisite": "La lumière vacille (Quête principale niveau 34)"
+            "quest": "La lumière vacille"
         },
         {
             "id": 73,
@@ -676,7 +675,7 @@
             "location": "Cime-des-nuages (16,37)",
             "rules": "Identique, Plus",
             "drops": "Dhalmel, Païssa",
-            "preRequisite": "Le début de la fin (Quête secondaire d'Ishgard niveau 56)"
+            "quest": "Le début de la fin"
         },
         {
             "id": 74,
@@ -685,7 +684,7 @@
             "location": "Mord Suuq (26,16)",
             "rules": "Tueur d'as, Plus",
             "drops": "Gaïa, Ryne",
-            "preRequisite": "Le jardin de l'espoir (Quête des Chroniques d'une nouvelle ère niveau 80)"
+            "quest": "Le jardin de l'espoir"
         },
         {
             "id": 75,
@@ -694,7 +693,7 @@
             "location": "Havre des Renouées (16,18)",
             "rules": "Chaos",
             "drops": "Frixio, Garuda",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 76,
@@ -703,7 +702,7 @@
             "location": "Cime-des-Nuages (15,37)",
             "rules": "Ordre",
             "drops": "Edmont de Fortemps, Laniaitte de Haillenarte",
-            "preRequisite": "Un retour douloureux (Quête principale niveau 50)"
+            "quest": "Un retour douloureux"
         },
         {
             "id": 77,
@@ -712,7 +711,7 @@
             "location": "Namaï (29.5,20.2)",
             "rules": "Identique",
             "drops": "Koja, Lupin",
-            "preRequisite": "Fringale de loup (Quête secondaire de Yanxia niveau 64)"
+            "quest": "Fringale de loup"
         },
         {
             "id": 78,
@@ -721,7 +720,7 @@
             "location": "Variés",
             "rules": "Identique, Plus",
             "drops": "Moggle Mog XII, Kal Myhk, Hraesvelgr, Sombrécaille",
-            "preRequisite": "Mogzin au zénith (Quête tribale des Mogs niveau 50)"
+            "quest": "Mogzin au zénith"
         },
         {
             "id": 79,
@@ -730,7 +729,7 @@
             "location": "Quartier des Sages (12.7,36.8)",
             "rules": "Plus, Roulette",
             "drops": "Byblos, Calcabrina, Strix, Alphinaud & Alisaie (Stormblood)",
-            "preRequisite": "Prélude pourpré (Quête principale niveau 70)"
+            "quest": "Prélude pourpré"
         },
         {
             "id": 80,
@@ -739,7 +738,7 @@
             "location": "Marché des Pas libres (5.5,6.6)",
             "rules": "Roulette, Roulette",
             "drops": "Matoya, Belladone",
-            "preRequisite": "Resserrer les liens (Quête secondaire de Dravania niveau 58)"
+            "quest": "Resserrer les liens"
         },
         {
             "id": 81,
@@ -748,7 +747,7 @@
             "location": "Sommet de Sohm Al (28,35)",
             "rules": "Roulette, Roulette",
             "drops": "Gnathe, Moglin, Vanu Vanu, Vedrfolnir",
-            "preRequisite": "Un endroit secret (Quête secondaire de Dravania niveau 55)"
+            "quest": "Un endroit secret"
         },
         {
             "id": 82,
@@ -757,7 +756,7 @@
             "location": "Dotharl Khaa (12.2,33.7)",
             "rules": "Chaos, Identique",
             "drops": "Sadu, Mammouth",
-            "preRequisite": "À la découverte des Dotharl (Quête principale niveau 66)"
+            "quest": "À la découverte des Dotharl"
         },
         {
             "id": 83,
@@ -766,7 +765,7 @@
             "location": "Steppe d'Azim (31.9,11.5)",
             "rules": "Identique, Plus",
             "drops": "Cirina, Mammouth",
-            "preRequisite": "Toujours du souci pour Nigen (Quête secondaire d'Othard niveau 65)"
+            "quest": "Toujours du souci pour Nigen"
         },
         {
             "id": 84,
@@ -775,7 +774,7 @@
             "location": "Trône de l'Aube (22,20.7)",
             "rules": "Tueur d'as, Plus",
             "drops": "Magnai, Mammouth",
-            "preRequisite": "Un heureux événement (Quête secondaire d'Othard niveau 65)"
+            "quest": "Un heureux événement"
         },
         {
             "id": 85,
@@ -784,7 +783,7 @@
             "location": "L'Arête blanche (6,22)",
             "rules": "Ordre",
             "drops": "Béhémoth, Dragon bleu, Ahriman",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 86,
@@ -793,7 +792,7 @@
             "location": "Quartier général du Maelstrom (13,12)",
             "rules": "Identique, Plus",
             "drops": "Léviathan, Merlwyb, Y'shtola",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
+            "quest": "Pour la prospérité d'Ul'dah"
         },
         {
             "id": 87,
@@ -802,7 +801,7 @@
             "location": "Potagers du Vert-manger (3.8,4.5)",
             "rules": "Chaos",
             "drops": "Calofisteri, Diabolos nihil, Echidna, Ferdiad",
-            "preRequisite": "Le foulard lui va si bien (Quête des Chroniques d'une nouvelle ère niveau 60)"
+            "quest": "Le foulard lui va si bien"
         },
         {
             "id": 88,
@@ -811,7 +810,7 @@
             "location": "Maison des splendeurs de Rowena (21.9,5.1)",
             "rules": "Roulette, Roulette",
             "drops": "Gerolt, Louisoix",
-            "preRequisite": "Le forgeron légendaire (Quête secondaire du Thanalan niveau 50)"
+            "quest": "Le forgeron légendaire"
         },
         {
             "id": 89,
@@ -820,7 +819,7 @@
             "location": "Square des duellistes (3,7)",
             "rules": "Bonus, Mort subite",
             "drops": "Godbert, Urianger",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 90,
@@ -829,7 +828,16 @@
             "location": "Sommière de la Paix (24,23)",
             "rules": "Identique, Plus",
             "drops": "Béhémoth, Biggs & Wedge, Cid, Tozol Huatotl",
-            "preRequisite": "Plus près des étoiles (Quête tribale des Ixalis niveau 18)"
+            "quest": "Plus près des étoiles"
+        },
+        {
+            "id": 101,
+            "name": "Sladkey",
+            "zone": "???",
+            "location": "Gangos (5, 6)",
+            "rules": "Same, Swap",
+            "drops": "Shemhazai de la 4e légion, Cüachulainn de la 4e légion",
+            "quest": "La marche de la reine sanglante"
         },
         {
             "id": 91,
@@ -838,7 +846,7 @@
             "location": "Quartier des Collectionneurs (21,18)",
             "rules": "Échange, Identique",
             "drops": "Primo-Alexander, Justice, Roundrox",
-            "preRequisite": "Une question de temps (Quête des Chroniques d'une nouvelle ère niveau 60)"
+            "quest": "Une question de temps"
         },
         {
             "id": 92,
@@ -847,7 +855,7 @@
             "location": "La Salaisonnerie (16.4,24.7)",
             "rules": "Plus, Identique",
             "drops": "Arenvald Lentinus, Phoebad",
-            "preRequisite": "Retour au bercail (Quête principale niveau 70)"
+            "quest": "Retour au bercail"
         },
         {
             "id": 93,
@@ -856,7 +864,7 @@
             "location": "Terres fumantes (23,19)",
             "rules": "Bonus, Échange",
             "drops": "Bandersnatch, Regina coeurl",
-            "preRequisite": "L'or jaunâtre (Quête secondaire de Dravania niveau 53)"
+            "quest": "L'or jaunâtre"
         },
         {
             "id": 94,
@@ -865,7 +873,7 @@
             "location": "L'Escale du pêcheur (8,15)",
             "rules": "Échange, Chaos",
             "drops": "Lucia",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 95,
@@ -874,7 +882,7 @@
             "location": "Ossuaire d'Arrzaneth (7.3,12.4)",
             "rules": "Chaos, Roulette",
             "drops": "Aymeric, Adjoint de la Gardienne",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 96,
@@ -883,7 +891,7 @@
             "location": "Le Crosseron précieux (7,10)",
             "rules": "Chaos, Plus",
             "drops": "Archéornis, Gibrillont",
-            "preRequisite": "Pièces piégées (Quête secondaire d'Ishgard niveau 56)"
+            "quest": "Pièces piégées"
         },
         {
             "id": 97,
@@ -892,7 +900,7 @@
             "location": "Arène Triple Triade (3.5,3.5)",
             "rules": "Tueur d'as, Chaos",
             "drops": "Terra, Colosse magitek",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 98,
@@ -901,7 +909,7 @@
             "location": "Sui-no-Sato (20.2,19.5)",
             "rules": "Plus, Échange",
             "drops": "Ango, Hisui & Kurenai",
-            "preRequisite": "Qui est qui ? (Quête secondaire d'Othard niveau 63)"
+            "quest": "Qui est qui ?"
         },
         {
             "id": 99,
@@ -910,7 +918,7 @@
             "location": "Hall d'accueil (4,6)",
             "rules": "Chaos, Tueur d'as",
             "drops": "Bartz, Chevalier Oignon, Terra",
-            "preRequisite": "X"
+            "quest": ""
         },
         {
             "id": 100,
@@ -919,7 +927,7 @@
             "location": "Quartier général des Deux Vipères (9.7,11.0)",
             "rules": "Bonus",
             "drops": "Kan-E-Senna, Papalymo & Yda, Ramuh, Moggle Mog XII",
-            "preRequisite": "Pour la prospérité d'Ul'dah (Quête principale niveau 20)"
+            "quest": "Pour la prospérité d'Ul'dah"
         }
     ]
 }
