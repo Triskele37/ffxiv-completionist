@@ -66,5 +66,6 @@ const quasi_quests = [
     68624, // Duty Recorder
     69141, // Improved Skywatchers
     69295, // New Game+
-    69478  // Field Record
+    69478, // Field Record
+    69630, // Resistance Honors
 ];
