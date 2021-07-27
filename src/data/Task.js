@@ -1,15 +1,16 @@
+import { Chainer } from "./Chainer";
+
 export class Task {
     name;
     id; // Its assumed that an id is passed with every task
-    ID; // xivapi has ID as the attribute TODO: deprecate
     _parent;
     chains; // array of related tasks to chain completion marking
 
     completionFlag = "N";
 
-    parentLinks; // Tasks this task is dependant on
-    childLinks;  // Tasks dependant on this task
-    mirrorLinks; // Tasks that should mirror this task
+    linkedChildren; // Tasks that must be completed if this one is
+    linkedParents; // Tasks that cannot be completed without this one
+    linkedSiblings; // Tasks that should mirror this one's completion
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
 
@@ -27,6 +28,7 @@ export class Task {
     }
 
     changeCompletionFlag(flag) {
+        // VERY IMPORTANT - DO NOT REMOVE
         if(this.completionFlag === flag) return;
 
         // Get flag conversions (N changes are implied from Y changes)
@@ -45,32 +47,11 @@ export class Task {
             this._parent.updateCompleted(wasY ? -1 : nowY ? 1 : 0);
         }
 
-        // Chain progressive tasks
-        const updatePrev = (this.prevID !== undefined && flag === "Y");
-        const updateNext = (this.nextID !== undefined && flag === "N");
-        if(updatePrev) this._parent.tasks.find((t) => t.id === this.prevID).changeCompletionFlag("Y");
-        if(updateNext) this._parent.tasks.find((t) => t.id === this.nextID).changeCompletionFlag("N");
+        // Return a list of chained tasks including this one
+        const chainer = new Chainer(this, flag);
+        chainer.triggerChains();
 
-        // Chain related tasks
-        const updateParentLinks = (!!this.parentLinks && flag === "Y");
-        const updateChildLinks = (!!this.childLinks && flag === "N");
-        const updateMirrorLinks = !!this.mirrorLinks;
-
-        const overall = updateParentLinks || updateChildLinks || updateMirrorLinks ? this._parent.getFirstParent() : null;
-        if(updateParentLinks) updateLinkedArray(this.parentLinks);
-        if(updateChildLinks) updateLinkedArray(this.childLinks);
-        if(updateMirrorLinks) updateLinkedArray(this.mirrorLinks);
-
-        function updateLinkedArray(linkedArray) {
-            linkedArray.forEach((link) => {
-                const linkedGroup = link.split(".");
-                const linkedID = parseInt(linkedGroup.pop());
-
-                overall.getChildGroupFromPath(linkedGroup).tasks
-                    .find((t) => t.id === linkedID)
-                    .changeCompletionFlag(flag);
-            });
-        }
+        return chainer.chainedTasks;
     }
 
     changeCompletionNumber(newValue) {
@@ -86,8 +67,7 @@ export class Task {
     }
 
     get storageKey() {
-        if(this.id !== undefined && this.id !== null) return this.id;
-        return this.ID;
+        return (this.id !== undefined && this.id !== null) ? this.id : -1;
     }
 
     get fullStorageKey() {

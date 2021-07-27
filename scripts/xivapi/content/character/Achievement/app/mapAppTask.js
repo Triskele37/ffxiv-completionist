@@ -1,5 +1,5 @@
 module.exports = function mapAppTask(cacheTask, lang) {
-    return {
+    const appTask = {
         id: cacheTask.ID,
         name: cacheTask[`Name_${lang}`],
         description: cacheTask[`Description_${lang}`],
@@ -7,4 +7,9 @@ module.exports = function mapAppTask(cacheTask, lang) {
         points: cacheTask.Points,
         patch: cacheTask.Patch,
     };
+
+    // Only attach linked lists if they have something
+    if(cacheTask.LinkedSiblings.length) appTask.linkedSiblings = cacheTask.LinkedSiblings;
+
+    return appTask;
 };

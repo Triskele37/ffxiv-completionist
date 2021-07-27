@@ -1,5 +1,9 @@
 {
     "key": "items",
+    "chains": [
+        [1377, 1378],
+        [1433, 1434, 1623, 1634, 1635, 2006]
+    ],
     "tasks": [
         {
             "id": 126,
@@ -19,32 +23,50 @@
         {
             "id": 1063,
             "points": 20,
-            "patch": "2.5"
+            "patch": "2.5",
+            "linkedSiblings": [
+                "title.187"
+            ]
         },
         {
             "id": 1078,
             "points": 10,
-            "patch": "2.5"
+            "patch": "2.5",
+            "linkedSiblings": [
+                "title.191"
+            ]
         },
         {
             "id": 1079,
             "points": 10,
-            "patch": "2.5"
+            "patch": "2.5",
+            "linkedSiblings": [
+                "title.192"
+            ]
         },
         {
             "id": 1377,
             "points": 5,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.266"
+            ]
         },
         {
             "id": 1378,
             "points": 10,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.267"
+            ]
         },
         {
             "id": 1379,
             "points": 10,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.268"
+            ]
         },
         {
             "id": 1433,
@@ -79,106 +101,160 @@
         {
             "id": 2053,
             "points": 10,
-            "patch": "4.35"
+            "patch": "4.35",
+            "linkedSiblings": [
+                "title.386"
+            ]
         },
         {
             "id": 1694,
             "points": 20,
-            "patch": "3.5"
+            "patch": "3.5",
+            "linkedSiblings": [
+                "title.344"
+            ]
         },
         {
             "id": 1757,
             "points": 20,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.325"
+            ]
         },
         {
             "id": 1758,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.326"
+            ]
         },
         {
             "id": 1762,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.327"
+            ]
         },
         {
             "id": 1759,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.328"
+            ]
         },
         {
             "id": 1761,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.329"
+            ]
         },
         {
             "id": 1764,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.330"
+            ]
         },
         {
             "id": 1763,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.333"
+            ]
         },
         {
             "id": 1768,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.332"
+            ]
         },
         {
             "id": 1766,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.331"
+            ]
         },
         {
             "id": 1767,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.334"
+            ]
         },
         {
             "id": 1769,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.335"
+            ]
         },
         {
             "id": 1760,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.336"
+            ]
         },
         {
             "id": 1765,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.337"
+            ]
         },
         {
             "id": 1770,
             "points": 10,
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "linkedSiblings": [
+                "title.338"
+            ]
         },
         {
             "id": 2161,
             "points": 20,
-            "patch": "4.5"
+            "patch": "4.5",
+            "linkedSiblings": [
+                "title.408"
+            ]
         },
         {
             "id": 2820,
             "points": 20,
-            "patch": "5.5"
+            "patch": "5.5",
+            "linkedSiblings": [
+                "title.577"
+            ]
         }
     ]
 }

@@ -22,7 +22,11 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
-                this.task.changeCompletionFlag(flag);
+                const linkedChanges = this.task.changeCompletionFlag(flag);
+                console.log(linkedChanges.map(
+                    (change) => `${change.group.join(' > ')} > ${change.name} ${change.flag}`
+                ));
+
                 applyDataToStore(data);
             },
             onExcludeTaskClick: function() {

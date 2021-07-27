@@ -22,6 +22,12 @@ export class DataGroup {
     totalCompleted = 0; // The total of completed tasks of this and children
     totalExcluded = 0;  // The total of excluded tasks of this and children
 
+    // an array of different tasks that should be chained
+    // used within the same group
+    chains;
+    // [1, 2, 3] - simple chain
+    // [[1, 2], 3] - combination chain (1 & 2) completes 3
+
     //------------------------------------------------------------------ Construction
     constructor(json, parent, additionalColumnConfig) {
         this.name = json.groupName;
@@ -43,6 +49,8 @@ export class DataGroup {
 
             this.columnConfig = columnConfig;
         }
+
+        if(json.chains) this.chains = json.chains;
 
         if(json.tasks) this.initializeTasks(json.tasks);
 
@@ -136,12 +144,31 @@ export class DataGroup {
     }
 
     getChildGroupFromPath(path, byName) {
+        if(typeof path === "string") path = path.split(".");
+
         // No more path means we're the group being requested
         if(path.length === 0) return this;
 
         // Pop off the first part of the path and dive
         const nextStep = path.shift();
         return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path);
+    }
+
+    getChildGroupWithTaskID(taskID) {
+        if(this.tasks) {
+            for(let i = 0; i < this.tasks.length; i++) {
+                if(this.tasks[i].id === taskID) return this;
+            }
+        }
+
+        if(this.subGroups) {
+            for(let i = 0; i < this.subGroups.length; i++) {
+                const hit = this.subGroups[i].getChildGroupWithTaskID(taskID);
+                if(hit) return hit;
+            }
+        }
+
+        return null;
     }
 
     getSubGroup(subGroupString, byName) {

@@ -1,5 +1,8 @@
 {
     "key": "duty",
+    "chains": [
+        [[2671, 2761, 2885], 2886]
+    ],
     "tasks": [
         {
             "id": 663,
@@ -609,7 +612,10 @@
         {
             "id": 1432,
             "points": 20,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.278"
+            ]
         },
         {
             "id": 1734,
@@ -689,7 +695,10 @@
         {
             "id": 2231,
             "points": 10,
-            "patch": "4.55"
+            "patch": "4.55",
+            "linkedSiblings": [
+                "title.416"
+            ]
         },
         {
             "id": 2242,

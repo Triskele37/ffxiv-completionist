@@ -1,5 +1,24 @@
 {
     "key": "battle",
+    "chains": [
+        [1, 2, 3, 4, 5, 6, 7, 1336],
+        [[2343, 2344, 2345, 2346, 2347, 2348], 2349],
+        [803, 804, 805, 806, 807, 1353, 1354],
+        [808, 809, 810],
+        [885, 886, 1355, 1356, 1357],
+        [919, 920, 921],
+        [922, 923, 924],
+        [1193, 1194, 1195],
+        [1953, 1954, 1955, 2387],
+        [1956, 1957, 1958, 2388],
+        [1959, 1960, 1961, 2389],
+        [2390, 2391, 2392, 2393],
+        [2451, 2452, 2453, 2728],
+        [[2461, 2462, 2463], 2474],
+        [[2471, 2472, 2473], 2475],
+        [[2474, 2475], 2476],
+        [[2736, 2737, 2738], 2739]
+    ],
     "tasks": [
         {
             "id": 1,
@@ -29,7 +48,10 @@
         {
             "id": 6,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.9"
+            ]
         },
         {
             "id": 7,
@@ -254,37 +276,58 @@
         {
             "id": 2343,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.lakeland.2"
+            ]
         },
         {
             "id": 2344,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.kholusia.2"
+            ]
         },
         {
             "id": 2345,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.amh-araeng.2"
+            ]
         },
         {
             "id": 2346,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.il-mheg.2"
+            ]
         },
         {
             "id": 2347,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.the-raktika-greatwood.2"
+            ]
         },
         {
             "id": 2348,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "travel.shared-fate.the-tempest.2"
+            ]
         },
         {
             "id": 2349,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.459"
+            ]
         },
         {
             "id": 803,
@@ -304,7 +347,10 @@
         {
             "id": 806,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "title.110"
+            ]
         },
         {
             "id": 807,
@@ -319,22 +365,34 @@
         {
             "id": 1354,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.264"
+            ]
         },
         {
             "id": 808,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "character.companion.companion-rank.0"
+            ]
         },
         {
             "id": 809,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "character.companion.companion-rank.4"
+            ]
         },
         {
             "id": 810,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "character.companion.companion-rank.9"
+            ]
         },
         {
             "id": 885,
@@ -359,17 +417,26 @@
         {
             "id": 1357,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.265"
+            ]
         },
         {
             "id": 919,
             "points": 5,
-            "patch": "2.2"
+            "patch": "2.2",
+            "linkedSiblings": [
+                "title.151"
+            ]
         },
         {
             "id": 920,
             "points": 10,
-            "patch": "2.2"
+            "patch": "2.2",
+            "linkedSiblings": [
+                "title.153"
+            ]
         },
         {
             "id": 921,
@@ -379,12 +446,18 @@
         {
             "id": 922,
             "points": 5,
-            "patch": "2.2"
+            "patch": "2.2",
+            "linkedSiblings": [
+                "title.152"
+            ]
         },
         {
             "id": 923,
             "points": 10,
-            "patch": "2.2"
+            "patch": "2.2",
+            "linkedSiblings": [
+                "title.154"
+            ]
         },
         {
             "id": 924,
@@ -394,12 +467,18 @@
         {
             "id": 1193,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.241"
+            ]
         },
         {
             "id": 1194,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.242"
+            ]
         },
         {
             "id": 1195,
@@ -424,7 +503,10 @@
         {
             "id": 2387,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.462"
+            ]
         },
         {
             "id": 1956,
@@ -444,7 +526,10 @@
         {
             "id": 2388,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.463"
+            ]
         },
         {
             "id": 1959,
@@ -464,7 +549,10 @@
         {
             "id": 2389,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.464"
+            ]
         },
         {
             "id": 2390,
@@ -484,7 +572,10 @@
         {
             "id": 2393,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.465"
+            ]
         },
         {
             "id": 2451,
@@ -499,12 +590,18 @@
         {
             "id": 2453,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "linkedSiblings": [
+                "title.482"
+            ]
         },
         {
             "points": 5,
             "id": 2728,
-            "patch": "5.45"
+            "patch": "5.45",
+            "linkedSiblings": [
+                "title.551"
+            ]
         },
         {
             "id": 2454,
@@ -569,7 +666,10 @@
         {
             "id": 2466,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "linkedSiblings": [
+                "title.483"
+            ]
         },
         {
             "id": 2467,
@@ -609,12 +709,18 @@
         {
             "id": 2474,
             "points": 10,
-            "patch": "5.18"
+            "patch": "5.18",
+            "linkedSiblings": [
+                "title.484"
+            ]
         },
         {
             "id": 2475,
             "points": 10,
-            "patch": "5.18"
+            "patch": "5.18",
+            "linkedSiblings": [
+                "title.485"
+            ]
         },
         {
             "id": 2476,
@@ -674,7 +780,10 @@
         {
             "points": 10,
             "id": 2739,
-            "patch": "5.45"
+            "patch": "5.45",
+            "linkedSiblings": [
+                "title.552"
+            ]
         }
     ]
 }

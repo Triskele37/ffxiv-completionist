@@ -4,36 +4,36 @@
         {
             "id": 0,
             "patch": "5.5",
-            "nextID": 1
+            "linkedParents": [1]
         },
         {
             "id": 1,
             "patch": "5.5",
-            "prevID": 0,
-            "nextID": 2
+            "linkedChildren": [0],
+            "linkedParents": [2]
         },
         {
             "id": 2,
             "patch": "5.5",
-            "prevID": 1,
-            "nextID": 3
+            "linkedChildren": [1],
+            "linkedParents": [3]
         },
         {
             "id": 3,
             "patch": "5.5",
-            "prevID": 2,
-            "nextID": 4
+            "linkedChildren": [2],
+            "linkedParents": [4]
         },
         {
             "id": 4,
             "patch": "5.5",
-            "prevID": 3,
-            "nextID": 5
+            "linkedChildren": [3],
+            "linkedParents": [5]
         },
         {
             "id": 5,
             "patch": "5.5",
-            "prevID": 4
+            "linkedChildren": [4]
         }
     ]
 }

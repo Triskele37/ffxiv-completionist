@@ -1,10 +1,16 @@
 {
     "key": "commendation",
+    "chains": [
+        [858, 859, 860, 861, 862, 1035, 1036]
+    ],
     "tasks": [
         {
             "id": 858,
             "points": 0,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "title.144"
+            ]
         },
         {
             "id": 859,
@@ -19,10 +25,7 @@
         {
             "id": 861,
             "points": 0,
-            "patch": "2.1",
-            "childLinks": [
-                "character.companion.barding.20"
-            ]
+            "patch": "2.1"
         },
         {
             "id": 862,

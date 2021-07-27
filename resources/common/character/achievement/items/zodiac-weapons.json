@@ -1,5 +1,8 @@
 {
     "key": "zodiac-weapons",
+    "chains": [
+        [1054, 1081]
+    ],
     "tasks": [
         {
             "id": 1054,
@@ -9,7 +12,10 @@
         {
             "id": 1081,
             "points": 20,
-            "patch": "2.51"
+            "patch": "2.51",
+            "linkedSiblings": [
+                "title.193"
+            ]
         }
     ]
 }

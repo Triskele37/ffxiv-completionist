@@ -1,5 +1,12 @@
 {
     "key": "quests",
+    "chains": [
+        [341, 342, 343, 344, 345, 346, 347],
+        [644, 645, 646],
+        [789, 790, 791],
+        [[314, 315, 316, 317], 318],
+        [[407, 408, 409, 410, 411, 412, 413, 599, 600], 414]
+    ],
     "tasks": [
         {
             "id": 341,
@@ -29,7 +36,10 @@
         {
             "id": 346,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.53"
+            ]
         },
         {
             "id": 347,
@@ -109,67 +119,106 @@
         {
             "id": 1001,
             "points": 20,
-            "patch": "2.3"
+            "patch": "2.3",
+            "linkedSiblings": [
+                "title.174"
+            ]
         },
         {
             "id": 1029,
             "points": 20,
-            "patch": "2.4"
+            "patch": "2.4",
+            "linkedSiblings": [
+                "title.183"
+            ]
         },
         {
             "id": 1129,
             "points": 20,
-            "patch": "2.55"
+            "patch": "2.55",
+            "linkedSiblings": [
+                "title.211"
+            ]
         },
         {
             "id": 1133,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.214"
+            ]
         },
         {
             "id": 1134,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.215"
+            ]
         },
         {
             "id": 1135,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.216"
+            ]
         },
         {
             "id": 1136,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.217"
+            ]
         },
         {
             "id": 1137,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.218"
+            ]
         },
         {
             "id": 1138,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.219"
+            ]
         },
         {
             "id": 1139,
             "points": 20,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.220"
+            ]
         },
         {
             "id": 1387,
             "points": 10,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.271"
+            ]
         },
         {
             "id": 1493,
             "points": 10,
-            "patch": "3.15"
+            "patch": "3.15",
+            "linkedSiblings": [
+                "title.289"
+            ]
         },
         {
             "id": 1594,
             "points": 10,
-            "patch": "3.3"
+            "patch": "3.3",
+            "linkedSiblings": [
+                "title.292"
+            ]
         },
         {
             "id": 1595,
@@ -179,77 +228,122 @@
         {
             "id": 1630,
             "points": 10,
-            "patch": "3.4"
+            "patch": "3.4",
+            "linkedSiblings": [
+                "title.316"
+            ]
         },
         {
             "id": 1690,
             "points": 10,
-            "patch": "3.5"
+            "patch": "3.5",
+            "linkedSiblings": [
+                "title.340"
+            ]
         },
         {
             "id": 1691,
             "points": 10,
-            "patch": "3.56"
+            "patch": "3.56",
+            "linkedSiblings": [
+                "title.341"
+            ]
         },
         {
             "id": 1787,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.351"
+            ]
         },
         {
             "id": 1788,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.352"
+            ]
         },
         {
             "id": 1789,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.353"
+            ]
         },
         {
             "id": 1790,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.354"
+            ]
         },
         {
             "id": 1791,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.355"
+            ]
         },
         {
             "id": 1792,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.356"
+            ]
         },
         {
             "id": 1793,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.357"
+            ]
         },
         {
             "id": 1794,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.358"
+            ]
         },
         {
             "id": 1990,
             "points": 20,
-            "patch": "4.1"
+            "patch": "4.1",
+            "linkedSiblings": [
+                "title.139"
+            ]
         },
         {
             "id": 2013,
             "points": 20,
-            "patch": "4.2"
+            "patch": "4.2",
+            "linkedSiblings": [
+                "title.181"
+            ]
         },
         {
             "id": 2098,
             "points": 20,
-            "patch": "4.3"
+            "patch": "4.3",
+            "linkedSiblings": [
+                "title.392"
+            ]
         },
         {
             "id": 2124,
             "points": 20,
-            "patch": "4.4"
+            "patch": "4.4",
+            "linkedSiblings": [
+                "title.402"
+            ]
         },
         {
             "id": 2160,
@@ -259,57 +353,90 @@
         {
             "id": 2233,
             "points": 20,
-            "patch": "4.56"
+            "patch": "4.56",
+            "linkedSiblings": [
+                "title.417"
+            ]
         },
         {
             "id": 2293,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.426"
+            ]
         },
         {
             "id": 2294,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.427"
+            ]
         },
         {
             "id": 2295,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.428"
+            ]
         },
         {
             "id": 2296,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.429"
+            ]
         },
         {
             "id": 2297,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.430"
+            ]
         },
         {
             "id": 2298,
             "points": 20,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.431"
+            ]
         },
         {
             "id": 2424,
             "points": 20,
-            "patch": "5.1"
+            "patch": "5.1",
+            "linkedSiblings": [
+                "title.476"
+            ]
         },
         {
             "id": 2587,
             "points": 20,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.520"
+            ]
         },
         {
             "id": 2642,
             "points": 20,
-            "patch": "5.3"
+            "patch": "5.3",
+            "linkedSiblings": [
+                "title.527"
+            ]
         },
         {
             "id": 2714,
             "points": 20,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.549"
+            ]
         },
         {
             "id": 2850,
@@ -319,17 +446,26 @@
         {
             "id": 902,
             "points": 10,
-            "patch": "2.2"
+            "patch": "2.2",
+            "linkedSiblings": [
+                "title.150"
+            ]
         },
         {
             "id": 1575,
             "points": 10,
-            "patch": "3.35"
+            "patch": "3.35",
+            "linkedSiblings": [
+                "title.314"
+            ]
         },
         {
             "id": 1680,
             "points": 10,
-            "patch": "3.45"
+            "patch": "3.45",
+            "linkedSiblings": [
+                "title.324"
+            ]
         },
         {
             "id": 900,
@@ -344,47 +480,74 @@
         {
             "id": 1030,
             "points": 20,
-            "patch": "2.4"
+            "patch": "2.4",
+            "linkedSiblings": [
+                "title.178"
+            ]
         },
         {
             "id": 1164,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.235"
+            ]
         },
         {
             "id": 1494,
             "points": 10,
-            "patch": "3.15"
+            "patch": "3.15",
+            "linkedSiblings": [
+                "title.290"
+            ]
         },
         {
             "id": 1629,
             "points": 10,
-            "patch": "3.4"
+            "patch": "3.4",
+            "linkedSiblings": [
+                "title.315"
+            ]
         },
         {
             "id": 1796,
             "points": 10,
-            "patch": "4.01"
+            "patch": "4.01",
+            "linkedSiblings": [
+                "title.359"
+            ]
         },
         {
             "id": 1388,
             "points": 10,
-            "patch": "3.1"
+            "patch": "3.1",
+            "linkedSiblings": [
+                "title.272"
+            ]
         },
         {
             "id": 1031,
             "points": 30,
-            "patch": "2.4"
+            "patch": "2.4",
+            "linkedSiblings": [
+                "title.179"
+            ]
         },
         {
             "id": 1004,
             "points": 10,
-            "patch": "2.3"
+            "patch": "2.3",
+            "linkedSiblings": [
+                "title.175"
+            ]
         },
         {
             "id": 1130,
             "points": 10,
-            "patch": "2.55"
+            "patch": "2.55",
+            "linkedSiblings": [
+                "title.212"
+            ]
         },
         {
             "id": 1005,
@@ -414,22 +577,34 @@
         {
             "id": 314,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.45"
+            ]
         },
         {
             "id": 315,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.46"
+            ]
         },
         {
             "id": 316,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.47"
+            ]
         },
         {
             "id": 317,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.48"
+            ]
         },
         {
             "id": 318,
@@ -444,17 +619,26 @@
         {
             "id": 1141,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.222"
+            ]
         },
         {
             "id": 1797,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.360"
+            ]
         },
         {
             "id": 2306,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.435"
+            ]
         },
         {
             "id": 408,
@@ -464,17 +648,26 @@
         {
             "id": 1142,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.223"
+            ]
         },
         {
             "id": 1798,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.361"
+            ]
         },
         {
             "id": 2307,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.436"
+            ]
         },
         {
             "id": 409,
@@ -484,17 +677,26 @@
         {
             "id": 1143,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.224"
+            ]
         },
         {
             "id": 1799,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.362"
+            ]
         },
         {
             "id": 2308,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.437"
+            ]
         },
         {
             "id": 410,
@@ -504,17 +706,26 @@
         {
             "id": 1144,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.225"
+            ]
         },
         {
             "id": 1800,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.363"
+            ]
         },
         {
             "id": 2309,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.438"
+            ]
         },
         {
             "id": 411,
@@ -524,17 +735,26 @@
         {
             "id": 1145,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.226"
+            ]
         },
         {
             "id": 1801,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.364"
+            ]
         },
         {
             "id": 2310,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.439"
+            ]
         },
         {
             "id": 1052,
@@ -544,17 +764,26 @@
         {
             "id": 1150,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.231"
+            ]
         },
         {
             "id": 1806,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.369"
+            ]
         },
         {
             "id": 2315,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.444"
+            ]
         },
         {
             "id": 412,
@@ -564,17 +793,26 @@
         {
             "id": 1146,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.227"
+            ]
         },
         {
             "id": 1802,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.365"
+            ]
         },
         {
             "id": 2311,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.440"
+            ]
         },
         {
             "id": 413,
@@ -584,17 +822,26 @@
         {
             "id": 1147,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.228"
+            ]
         },
         {
             "id": 1803,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.366"
+            ]
         },
         {
             "id": 2312,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.441"
+            ]
         },
         {
             "id": 599,
@@ -604,17 +851,26 @@
         {
             "id": 1148,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.229"
+            ]
         },
         {
             "id": 1804,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.367"
+            ]
         },
         {
             "id": 2313,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.442"
+            ]
         },
         {
             "id": 600,
@@ -624,17 +880,26 @@
         {
             "id": 1149,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.230"
+            ]
         },
         {
             "id": 1805,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.368"
+            ]
         },
         {
             "id": 2314,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.443"
+            ]
         },
         {
             "id": 1151,
@@ -644,17 +909,26 @@
         {
             "id": 1154,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.232"
+            ]
         },
         {
             "id": 1807,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.370"
+            ]
         },
         {
             "id": 2316,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.445"
+            ]
         },
         {
             "id": 1152,
@@ -664,17 +938,26 @@
         {
             "id": 1155,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.233"
+            ]
         },
         {
             "id": 1808,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.371"
+            ]
         },
         {
             "id": 2317,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.446"
+            ]
         },
         {
             "id": 1153,
@@ -684,17 +967,26 @@
         {
             "id": 1156,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.234"
+            ]
         },
         {
             "id": 1809,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.372"
+            ]
         },
         {
             "id": 2318,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.447"
+            ]
         },
         {
             "id": 1810,
@@ -704,12 +996,18 @@
         {
             "id": 1811,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.373"
+            ]
         },
         {
             "id": 2319,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.448"
+            ]
         },
         {
             "id": 1812,
@@ -719,32 +1017,50 @@
         {
             "id": 1813,
             "points": 5,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.374"
+            ]
         },
         {
             "id": 2320,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.449"
+            ]
         },
         {
             "id": 2299,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.432"
+            ]
         },
         {
             "id": 2321,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.450"
+            ]
         },
         {
             "id": 2300,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.433"
+            ]
         },
         {
             "id": 2322,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.451"
+            ]
         },
         {
             "id": 2301,
@@ -769,37 +1085,58 @@
         {
             "id": 2305,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.434"
+            ]
         },
         {
             "id": 2323,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.452"
+            ]
         },
         {
             "id": 2324,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.453"
+            ]
         },
         {
             "id": 2325,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.454"
+            ]
         },
         {
             "id": 2326,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.455"
+            ]
         },
         {
             "id": 2327,
             "points": 5,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.456"
+            ]
         },
         {
             "id": 2328,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "linkedSiblings": [
+                "title.457"
+            ]
         },
         {
             "id": 2715,
@@ -809,7 +1146,10 @@
         {
             "id": 414,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.66"
+            ]
         },
         {
             "id": 1058,
@@ -819,12 +1159,18 @@
         {
             "id": 1060,
             "points": 20,
-            "patch": "2.5"
+            "patch": "2.5",
+            "linkedSiblings": [
+                "title.184"
+            ]
         },
         {
             "id": 1061,
             "points": 20,
-            "patch": "2.5"
+            "patch": "2.5",
+            "linkedSiblings": [
+                "title.185"
+            ]
         },
         {
             "id": 1080,
@@ -834,17 +1180,26 @@
         {
             "id": 1165,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.236"
+            ]
         },
         {
             "id": 1166,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.237"
+            ]
         },
         {
             "id": 1405,
             "points": 10,
-            "patch": "3.15"
+            "patch": "3.15",
+            "linkedSiblings": [
+                "title.277"
+            ]
         },
         {
             "id": 1628,
@@ -854,27 +1209,42 @@
         {
             "id": 1692,
             "points": 10,
-            "patch": "3.5"
+            "patch": "3.5",
+            "linkedSiblings": [
+                "title.342"
+            ]
         },
         {
             "id": 1693,
             "points": 10,
-            "patch": "3.5"
+            "patch": "3.5",
+            "linkedSiblings": [
+                "title.343"
+            ]
         },
         {
             "id": 1394,
             "points": 10,
-            "patch": "3.15"
+            "patch": "3.15",
+            "linkedSiblings": [
+                "title.273"
+            ]
         },
         {
             "id": 1492,
             "points": 10,
-            "patch": "3.15"
+            "patch": "3.15",
+            "linkedSiblings": [
+                "title.288"
+            ]
         },
         {
             "id": 2234,
             "points": 10,
-            "patch": "4.56"
+            "patch": "4.56",
+            "linkedSiblings": [
+                "title.418"
+            ]
         },
         {
             "id": 2567,
@@ -924,27 +1294,42 @@
         {
             "id": 2243,
             "points": 10,
-            "patch": "4.5"
+            "patch": "4.5",
+            "linkedSiblings": [
+                "title.421"
+            ]
         },
         {
             "id": 2108,
             "points": 10,
-            "patch": "4.4"
+            "patch": "4.4",
+            "linkedSiblings": [
+                "title.398"
+            ]
         },
         {
             "id": 2851,
             "points": 20,
-            "patch": "5.55"
+            "patch": "5.55",
+            "linkedSiblings": [
+                "title.583"
+            ]
         },
         {
             "id": 2884,
             "points": 10,
-            "patch": "5.55"
+            "patch": "5.55",
+            "linkedSiblings": [
+                "title.592"
+            ]
         },
         {
             "id": 2852,
             "points": 10,
-            "patch": "5.55"
+            "patch": "5.55",
+            "linkedSiblings": [
+                "title.584"
+            ]
         }
     ]
 }

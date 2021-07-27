@@ -22,6 +22,28 @@
     so that a fresh cache isn't necessary each update
 * Move relic gear to top-level Equipment category
   in prep for Armoire & all glam
+* Add a "MERGE_WHEN_NEW" set of keys for xivapi content
 
 **Must Do**
+* several console logs left in, id column left in
 * Connect all task dependencies of next/previous
+    Companion Skills
+    Hall of the Novice
+    Quests
+    Mounts
+    Minions
+    Orchestrion
+    Emotes
+    Fashion Accessories
+    Triple Triad Cards
+    Title
+* Notification window for auto-marked things via dependencies
+
+* achievement/battle/battle hunt logs
+
+* achievement/exploration/duty contains diadem achievements
+
+* how to handle all resplendent achievement between each crafter
+
+* beast tribe quest achievement siblings
+* quest achievement siblings (link all or rely on quest content siblings?)

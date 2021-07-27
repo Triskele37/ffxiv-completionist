@@ -1,603 +1,514 @@
 {
     "key": "anima",
+    "chains": [
+        [0, 1, 2, 3, 4, 5, 6, 7],
+        [8, 9, 10, 11, 12, 13, 14, 15],
+        [16, 17, 18, 19, 20, 21, 22, 23],
+        [24, 25, 26, 27, 28, 29, 30, 31],
+        [32, 33, 34, 35, 36, 37, 38, 39],
+        [40, 41, 42, 43, 44, 45, 46, 47],
+        [48, 49, 50, 51, 52, 53, 54, 55],
+        [56, 57, 58, 59, 60, 61, 62, 63],
+        [64, 65, 66, 67, 68, 69, 70, 71],
+        [72, 73, 74, 75, 76, 77, 78, 79],
+        [80, 81, 82, 83, 84, 85, 86, 87],
+        [88, 89, 90, 91, 92, 93, 94, 95],
+        [96, 97, 98, 99, 100, 101, 102, 103]
+    ],
     "tasks": [
         {
             "id": 0,
-            "iLevel": "170",
-            "nextID": 1
+            "iLevel": "170"
         },
         {
             "id": 1,
-            "iLevel": "200",
-            "prevID": 0,
-            "nextID": 2
+            "iLevel": "200"
         },
         {
             "id": 2,
             "iLevel": "210",
-            "prevID": 1,
-            "nextID": 3
+            "linkedSiblings": ["achievement.1418"]
         },
         {
             "id": 3,
             "iLevel": "230",
-            "prevID": 2,
-            "nextID": 4
+            "linkedSiblings": ["achievement.1511"]
         },
         {
             "id": 4,
             "iLevel": "240",
-            "prevID": 3,
-            "nextID": 5
+            "linkedSiblings": ["achievement.1617"]
         },
         {
             "id": 5,
             "iLevel": "260",
-            "prevID": 4,
-            "nextID": 6
+            "linkedSiblings": ["achievement.1679"]
         },
         {
             "id": 6,
             "iLevel": "270",
-            "prevID": 5,
-            "nextID": 7
+            "linkedSiblings": ["achievement.1707"]
         },
         {
             "id": 7,
             "iLevel": "275",
-            "prevID": 6
+            "linkedSiblings": ["achievement.1720"]
         },
         {
             "id": 8,
-            "iLevel": "170",
-            "nextID": 9
+            "iLevel": "170"
         },
         {
             "id": 9,
-            "iLevel": "200",
-            "prevID": 8,
-            "nextID": 10
+            "iLevel": "200"
         },
         {
             "id": 10,
             "iLevel": "210",
-            "prevID": 9,
-            "nextID": 11
+            "linkedSiblings": ["achievement.1410"]
         },
         {
             "id": 11,
             "iLevel": "230",
-            "prevID": 10,
-            "nextID": 12
+            "linkedSiblings": ["achievement.1503"]
         },
         {
             "id": 12,
             "iLevel": "240",
-            "prevID": 11,
-            "nextID": 13
+            "linkedSiblings": ["achievement.1609"]
         },
         {
             "id": 13,
             "iLevel": "260",
-            "prevID": 12,
-            "nextID": 14
+            "linkedSiblings": ["achievement.1671"]
         },
         {
             "id": 14,
             "iLevel": "270",
-            "prevID": 13,
-            "nextID": 15
+            "linkedSiblings": ["achievement.1699"]
         },
         {
             "id": 15,
             "iLevel": "275",
-            "prevID": 14
+            "linkedSiblings": ["achievement.1712"]
         },
         {
             "id": 16,
-            "iLevel": "170",
-            "nextID": 17
+            "iLevel": "170"
         },
         {
             "id": 17,
-            "iLevel": "200",
-            "prevID": 16,
-            "nextID": 18
+            "iLevel": "200"
         },
         {
             "id": 18,
             "iLevel": "210",
-            "prevID": 17,
-            "nextID": 19
+            "linkedSiblings": ["achievement.1412"]
         },
         {
             "id": 19,
             "iLevel": "230",
-            "prevID": 18,
-            "nextID": 20
+            "linkedSiblings": ["achievement.1505"]
         },
         {
             "id": 20,
             "iLevel": "240",
-            "prevID": 19,
-            "nextID": 21
+            "linkedSiblings": ["achievement.1611"]
         },
         {
             "id": 21,
             "iLevel": "260",
-            "prevID": 20,
-            "nextID": 22
+            "linkedSiblings": ["achievement.1673"]
         },
         {
             "id": 22,
             "iLevel": "270",
-            "prevID": 21,
-            "nextID": 23
+            "linkedSiblings": ["achievement.1701"]
         },
         {
             "id": 23,
             "iLevel": "275",
-            "prevID": 22
+            "linkedSiblings": ["achievement.1714"]
         },
         {
             "id": 24,
-            "iLevel": "170",
-            "nextID": 25
+            "iLevel": "170"
         },
         {
             "id": 25,
-            "iLevel": "200",
-            "prevID": 24,
-            "nextID": 26
+            "iLevel": "200"
         },
         {
             "id": 26,
             "iLevel": "210",
-            "prevID": 25,
-            "nextID": 27
+            "linkedSiblings": ["achievement.1417"]
         },
         {
             "id": 27,
             "iLevel": "230",
-            "prevID": 26,
-            "nextID": 28
+            "linkedSiblings": ["achievement.1510"]
         },
         {
             "id": 28,
             "iLevel": "240",
-            "prevID": 27,
-            "nextID": 29
+            "linkedSiblings": ["achievement.1616"]
         },
         {
             "id": 29,
             "iLevel": "260",
-            "prevID": 28,
-            "nextID": 30
+            "linkedSiblings": ["achievement.1678"]
         },
         {
             "id": 30,
             "iLevel": "270",
-            "prevID": 29,
-            "nextID": 31
+            "linkedSiblings": ["achievement.1706"]
         },
         {
             "id": 31,
             "iLevel": "275",
-            "prevID": 30
+            "linkedSiblings": ["achievement.1719"]
         },
         {
             "id": 32,
-            "iLevel": "170",
-            "nextID": 33
+            "iLevel": "170"
         },
         {
             "id": 33,
-            "iLevel": "200",
-            "prevID": 32,
-            "nextID": 34
+            "iLevel": "200"
         },
         {
             "id": 34,
             "iLevel": "210",
-            "prevID": 33,
-            "nextID": 35
+            "linkedSiblings": ["achievement.1409"]
         },
         {
             "id": 35,
             "iLevel": "230",
-            "prevID": 34,
-            "nextID": 36
+            "linkedSiblings": ["achievement.1502"]
         },
         {
             "id": 36,
             "iLevel": "240",
-            "prevID": 35,
-            "nextID": 37
+            "linkedSiblings": ["achievement.1608"]
         },
         {
             "id": 37,
             "iLevel": "260",
-            "prevID": 36,
-            "nextID": 38
+            "linkedSiblings": ["achievement.1670"]
         },
         {
             "id": 38,
             "iLevel": "270",
-            "prevID": 37,
-            "nextID": 39
+            "linkedSiblings": ["achievement.1698"]
         },
         {
             "id": 39,
             "iLevel": "275",
-            "prevID": 38
+            "linkedSiblings": ["achievement.1711"]
         },
         {
             "id": 40,
-            "iLevel": "170",
-            "nextID": 41
+            "iLevel": "170"
         },
         {
             "id": 41,
-            "iLevel": "200",
-            "prevID": 40,
-            "nextID": 42
+            "iLevel": "200"
         },
         {
             "id": 42,
             "iLevel": "210",
-            "prevID": 41,
-            "nextID": 43
+            "linkedSiblings": ["achievement.1416"]
         },
         {
             "id": 43,
             "iLevel": "230",
-            "prevID": 42,
-            "nextID": 44
+            "linkedSiblings": ["achievement.1509"]
         },
         {
             "id": 44,
             "iLevel": "240",
-            "prevID": 43,
-            "nextID": 45
+            "linkedSiblings": ["achievement.1615"]
         },
         {
             "id": 45,
             "iLevel": "260",
-            "prevID": 44,
-            "nextID": 46
+            "linkedSiblings": ["achievement.1677"]
         },
         {
             "id": 46,
             "iLevel": "270",
-            "prevID": 45,
-            "nextID": 47
+            "linkedSiblings": ["achievement.1705"]
         },
         {
             "id": 47,
             "iLevel": "275",
-            "prevID": 46
+            "linkedSiblings": ["achievement.1718"]
         },
         {
             "id": 48,
-            "iLevel": "170",
-            "nextID": 49
+            "iLevel": "170"
         },
         {
             "id": 49,
-            "iLevel": "200",
-            "prevID": 48,
-            "nextID": 50
+            "iLevel": "200"
         },
         {
             "id": 50,
             "iLevel": "210",
-            "prevID": 49,
-            "nextID": 51
+            "linkedSiblings": ["achievement.1407"]
         },
         {
             "id": 51,
             "iLevel": "230",
-            "prevID": 50,
-            "nextID": 52
+            "linkedSiblings": ["achievement.1500"]
         },
         {
             "id": 52,
             "iLevel": "240",
-            "prevID": 51,
-            "nextID": 53
+            "linkedSiblings": ["achievement.1606"]
         },
         {
             "id": 53,
             "iLevel": "260",
-            "prevID": 52,
-            "nextID": 54
+            "linkedSiblings": ["achievement.1668"]
         },
         {
             "id": 54,
             "iLevel": "270",
-            "prevID": 53,
-            "nextID": 55
+            "linkedSiblings": ["achievement.1696"]
         },
         {
             "id": 55,
             "iLevel": "275",
-            "prevID": 54
+            "linkedSiblings": ["achievement.1709"]
         },
         {
             "id": 56,
-            "iLevel": "170",
-            "nextID": 57
+            "iLevel": "170"
         },
         {
             "id": 57,
-            "iLevel": "200",
-            "prevID": 56,
-            "nextID": 58
+            "iLevel": "200"
         },
         {
             "id": 58,
             "iLevel": "210",
-            "prevID": 57,
-            "nextID": 59
+            "linkedSiblings": ["achievement.1415"]
         },
         {
             "id": 59,
             "iLevel": "230",
-            "prevID": 58,
-            "nextID": 60
+            "linkedSiblings": ["achievement.1508"]
         },
         {
             "id": 60,
             "iLevel": "240",
-            "prevID": 59,
-            "nextID": 61
+            "linkedSiblings": ["achievement.1614"]
         },
         {
             "id": 61,
             "iLevel": "260",
-            "prevID": 60,
-            "nextID": 62
+            "linkedSiblings": ["achievement.1676"]
         },
         {
             "id": 62,
             "iLevel": "270",
-            "prevID": 61,
-            "nextID": 63
+            "linkedSiblings": ["achievement.1704"]
         },
         {
             "id": 63,
             "iLevel": "275",
-            "prevID": 62
+            "linkedSiblings": ["achievement.1717"]
         },
         {
             "id": 64,
-            "iLevel": "170",
-            "nextID": 65
+            "iLevel": "170"
         },
         {
             "id": 65,
-            "iLevel": "200",
-            "prevID": 64,
-            "nextID": 66
+            "iLevel": "200"
         },
         {
             "id": 66,
             "iLevel": "210",
-            "prevID": 65,
-            "nextID": 67
+            "linkedSiblings": ["achievement.1406"]
         },
         {
             "id": 67,
             "iLevel": "230",
-            "prevID": 66,
-            "nextID": 68
+            "linkedSiblings": ["achievement.1499"]
         },
         {
             "id": 68,
             "iLevel": "240",
-            "prevID": 67,
-            "nextID": 69
+            "linkedSiblings": ["achievement.1605"]
         },
         {
             "id": 69,
             "iLevel": "260",
-            "prevID": 68,
-            "nextID": 70
+            "linkedSiblings": ["achievement.1667"]
         },
         {
             "id": 70,
             "iLevel": "270",
-            "prevID": 69,
-            "nextID": 71
+            "linkedSiblings": ["achievement.1695"]
         },
         {
             "id": 71,
             "iLevel": "275",
-            "prevID": 70
+            "linkedSiblings": ["achievement.1708"]
         },
         {
             "id": 72,
-            "iLevel": "170",
-            "nextID": 73
+            "iLevel": "170"
         },
         {
             "id": 73,
-            "iLevel": "200",
-            "prevID": 72,
-            "nextID": 74
+            "iLevel": "200"
         },
         {
             "id": 74,
             "iLevel": "210",
-            "prevID": 73,
-            "nextID": 75
+            "linkedSiblings": ["achievement.1414"]
         },
         {
             "id": 75,
             "iLevel": "230",
-            "prevID": 74,
-            "nextID": 76
+            "linkedSiblings": ["achievement.1507"]
         },
         {
             "id": 76,
             "iLevel": "240",
-            "prevID": 75,
-            "nextID": 77
+            "linkedSiblings": ["achievement.1613"]
         },
         {
             "id": 77,
             "iLevel": "260",
-            "prevID": 76,
-            "nextID": 78
+            "linkedSiblings": ["achievement.1675"]
         },
         {
             "id": 78,
             "iLevel": "270",
-            "prevID": 77,
-            "nextID": 79
+            "linkedSiblings": ["achievement.1703"]
         },
         {
             "id": 79,
             "iLevel": "275",
-            "prevID": 78
+            "linkedSiblings": ["achievement.1716"]
         },
         {
             "id": 80,
-            "iLevel": "170",
-            "nextID": 81
+            "iLevel": "170"
         },
         {
             "id": 81,
-            "iLevel": "200",
-            "prevID": 80,
-            "nextID": 82
+            "iLevel": "200"
         },
         {
             "id": 82,
             "iLevel": "210",
-            "prevID": 81,
-            "nextID": 83
+            "linkedSiblings": ["achievement.1413"]
         },
         {
             "id": 83,
             "iLevel": "230",
-            "prevID": 82,
-            "nextID": 84
+            "linkedSiblings": ["achievement.1506"]
         },
         {
             "id": 84,
             "iLevel": "240",
-            "prevID": 83,
-            "nextID": 85
+            "linkedSiblings": ["achievement.1612"]
         },
         {
             "id": 85,
             "iLevel": "260",
-            "prevID": 84,
-            "nextID": 86
+            "linkedSiblings": ["achievement.1674"]
         },
         {
             "id": 86,
             "iLevel": "270",
-            "prevID": 85,
-            "nextID": 87
+            "linkedSiblings": ["achievement.1702"]
         },
         {
             "id": 87,
             "iLevel": "275",
-            "prevID": 86
+            "linkedSiblings": ["achievement.1715"]
         },
         {
             "id": 88,
-            "iLevel": "170",
-            "nextID": 89
+            "iLevel": "170"
         },
         {
             "id": 89,
-            "iLevel": "200",
-            "prevID": 88,
-            "nextID": 90
+            "iLevel": "200"
         },
         {
             "id": 90,
             "iLevel": "210",
-            "prevID": 89,
-            "nextID": 91
+            "linkedSiblings": ["achievement.1408"]
         },
         {
             "id": 91,
             "iLevel": "230",
-            "prevID": 90,
-            "nextID": 92
+            "linkedSiblings": ["achievement.1501"]
         },
         {
             "id": 92,
             "iLevel": "240",
-            "prevID": 91,
-            "nextID": 93
+            "linkedSiblings": ["achievement.1607"]
         },
         {
             "id": 93,
             "iLevel": "260",
-            "prevID": 92,
-            "nextID": 94
+            "linkedSiblings": ["achievement.1669"]
         },
         {
             "id": 94,
             "iLevel": "270",
-            "prevID": 93,
-            "nextID": 95
+            "linkedSiblings": ["achievement.1697"]
         },
         {
             "id": 95,
             "iLevel": "275",
-            "prevID": 94
+            "linkedSiblings": ["achievement.1710"]
         },
         {
             "id": 96,
-            "iLevel": "170",
-            "nextID": 97
+            "iLevel": "170"
         },
         {
             "id": 97,
-            "iLevel": "200",
-            "prevID": 96,
-            "nextID": 98
+            "iLevel": "200"
         },
         {
             "id": 98,
             "iLevel": "210",
-            "prevID": 97,
-            "nextID": 99
+            "linkedSiblings": ["achievement.1411"]
         },
         {
             "id": 99,
             "iLevel": "230",
-            "prevID": 98,
-            "nextID": 100
+            "linkedSiblings": ["achievement.1504"]
         },
         {
             "id": 100,
             "iLevel": "240",
-            "prevID": 99,
-            "nextID": 101
+            "linkedSiblings": ["achievement.1610"]
         },
         {
             "id": 101,
             "iLevel": "260",
-            "prevID": 100,
-            "nextID": 102
+            "linkedSiblings": ["achievement.1672"]
         },
         {
             "id": 102,
             "iLevel": "270",
-            "prevID": 101,
-            "nextID": 103
+            "linkedSiblings": ["achievement.1700"]
         },
         {
             "id": 103,
             "iLevel": "275",
-            "prevID": 102
+            "linkedSiblings": ["achievement.1713"]
         }
     ]
 }

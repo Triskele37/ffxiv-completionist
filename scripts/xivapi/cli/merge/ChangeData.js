@@ -40,8 +40,13 @@ class ChangeData {
     }
 
     tasksHaveDiff() {
-        const trimmedCacheValue = utils.safeTrim(this.cacheTask[this.cacheKey]);
-        return (this.appTask[this.appKey] !== trimmedCacheValue);
+        const appValue = this.appTask[this.appKey];
+        const cacheValue = this.cacheTask[this.cacheKey];
+
+        // Don't make app tasks have blank arrays as properties
+        if(Array.isArray(cacheValue) && !appValue && !cacheValue.length) return false;
+
+        return (appValue !== utils.safeTrim(cacheValue));
     }
 
     writeDiffMerge() {

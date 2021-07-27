@@ -1,5 +1,20 @@
 {
     "key": "fisher",
+    "chains": [
+        [[259, 260, 261, 262, 263], 264],
+        [[265, 266, 267, 268, 269], 270],
+        [[271, 272, 273, 274, 275], 276],
+        [[264, 270, 276], 277],
+        [725, 726, 727, 1288, 1731, 2176, 2832],
+        [780, 781, 782, 1331],
+        [916, 917, 918, 1015, 1016, 1017, 1018, 1032, 1033, 1034, 1622, 1633, 1732, 2079, 2125, 2245],
+        [2486, 2588, 2644, 2716, 2833],
+        [[2245, 2833], 2834],
+        [2519, 2520, 2521],
+        [2547, 2548, 2549],
+        [2557, 2558, 2559, 2757, 2758],
+        [2560, 2561, 2562, 2759]
+    ],
     "tasks": [
         {
             "id": 259,
@@ -29,7 +44,10 @@
         {
             "id": 264,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.37"
+            ]
         },
         {
             "id": 265,
@@ -59,7 +77,10 @@
         {
             "id": 270,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.38"
+            ]
         },
         {
             "id": 271,
@@ -89,7 +110,10 @@
         {
             "id": 276,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.39"
+            ]
         },
         {
             "id": 277,
@@ -164,7 +188,10 @@
         {
             "id": 1331,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "linkedSiblings": [
+                "title.263"
+            ]
         },
         {
             "id": 916,
@@ -209,7 +236,10 @@
         {
             "id": 1033,
             "points": 20,
-            "patch": "2.4"
+            "patch": "2.4",
+            "linkedSiblings": [
+                "title.180"
+            ]
         },
         {
             "id": 1034,
@@ -244,7 +274,10 @@
         {
             "id": 2245,
             "points": 20,
-            "patch": "4.56"
+            "patch": "4.56",
+            "linkedSiblings": [
+                "title.407"
+            ]
         },
         {
             "id": 2486,
@@ -279,7 +312,10 @@
         {
             "id": 2521,
             "points": 10,
-            "patch": "5.21"
+            "patch": "5.21",
+            "linkedSiblings": [
+                "title.500"
+            ]
         },
         {
             "id": 2547,
@@ -299,17 +335,26 @@
         {
             "id": 2537,
             "points": 10,
-            "patch": "5.21"
+            "patch": "5.21",
+            "linkedSiblings": [
+                "title.513"
+            ]
         },
         {
             "id": 2658,
             "points": 10,
-            "patch": "5.31"
+            "patch": "5.31",
+            "linkedSiblings": [
+                "title.538"
+            ]
         },
         {
             "points": 10,
             "id": 2817,
-            "patch": "5.41"
+            "patch": "5.41",
+            "linkedSiblings": [
+                "title.575"
+            ]
         },
         {
             "id": 2553,
@@ -404,7 +449,10 @@
         {
             "id": 2758,
             "points": 20,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.556"
+            ]
         },
         {
             "id": 2560,
@@ -419,47 +467,74 @@
         {
             "id": 2562,
             "points": 20,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.515"
+            ]
         },
         {
             "id": 2759,
             "points": 20,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.563"
+            ]
         },
         {
             "id": 2563,
             "points": 10,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.516"
+            ]
         },
         {
             "id": 2564,
             "points": 10,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.517"
+            ]
         },
         {
             "id": 2565,
             "points": 10,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.518"
+            ]
         },
         {
             "id": 2566,
             "points": 10,
-            "patch": "5.2"
+            "patch": "5.2",
+            "linkedSiblings": [
+                "title.519"
+            ]
         },
         {
             "id": 2754,
             "points": 10,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.553"
+            ]
         },
         {
             "id": 2755,
             "points": 10,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.554"
+            ]
         },
         {
             "id": 2756,
             "points": 10,
-            "patch": "5.4"
+            "patch": "5.4",
+            "linkedSiblings": [
+                "title.555"
+            ]
         },
         {
             "id": 2888,
@@ -474,12 +549,18 @@
         {
             "id": 2833,
             "points": 10,
-            "patch": "5.55"
+            "patch": "5.55",
+            "linkedSiblings": [
+                "title.579"
+            ]
         },
         {
             "id": 2834,
             "points": 20,
-            "patch": "5.55"
+            "patch": "5.55",
+            "linkedSiblings": [
+                "title.580"
+            ]
         }
     ]
 }

@@ -72,6 +72,14 @@
             },
             rerenderKey: 0
         }),
+        created: function() {
+            if(true) {
+                this.columnConfig = [{
+                    header: "ID",
+                    key: "id"
+                }, ...this.columnConfig];
+            }
+        },
         computed: {
             hasTasks: function() {
                 return this.tasks && this.tasks.length > 0;

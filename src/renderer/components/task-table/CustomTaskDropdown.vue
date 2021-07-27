@@ -54,7 +54,7 @@ export default {
         filteredTasks: Array
     },
     data: () => ({
-        customData: data.sg("custom"),
+        customData: data.getSubGroup("custom"),
         dropdownOpen: false,
         newTaskName: '',
         newTaskNotes: '',
@@ -102,6 +102,8 @@ export default {
 
             this.mergeMatches = searchData(this.mergeTask.name, true);
             this.mergeMatches = this.mergeMatches.filter((m) => m.pathString !== 'Overall > Custom');
+
+            if(this.mergeMatches.length) console.log(this.mergeMatches[0]);
 
             if(this.mergeMatches.length) {
                 this.mergeInfo = `${this.mergeMatches.length} matches found`;

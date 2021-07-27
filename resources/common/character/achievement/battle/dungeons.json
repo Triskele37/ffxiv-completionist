@@ -1,5 +1,16 @@
 {
     "key": "dungeons",
+    "chains": [
+        [739, 740, 741, 1222, 1223, 1224],
+        [742, 743, 744, 745, 746, 1225, 1226, 1227],
+        [1576, 1577, 1578, 1579, 1580, 1655, 1656, 1657],
+        [1659, 1660, 1952],
+        [1661, 1662, 1663, 1664, 2056],
+        [1665, 1666],
+        [2047, 2048, 2049, 2050, 2051],
+        [2054, 2055],
+        [2203, 2204, 2205, 2206, 2207, 2208, 2449]
+    ],
     "tasks": [
         {
             "id": 739,
@@ -49,7 +60,10 @@
         {
             "id": 745,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "linkedSiblings": [
+                "title.109"
+            ]
         },
         {
             "id": 746,
@@ -99,7 +113,10 @@
         {
             "id": 1655,
             "points": 10,
-            "patch": "3.45"
+            "patch": "3.45",
+            "linkedSiblings": [
+                "title.319"
+            ]
         },
         {
             "id": 1656,
@@ -119,12 +136,18 @@
         {
             "id": 1660,
             "points": 10,
-            "patch": "3.45"
+            "patch": "3.45",
+            "linkedSiblings": [
+                "title.321"
+            ]
         },
         {
             "id": 1952,
             "points": 20,
-            "patch": "4.0"
+            "patch": "4.0",
+            "linkedSiblings": [
+                "title.246"
+            ]
         },
         {
             "id": 1661,
@@ -139,7 +162,10 @@
         {
             "id": 1663,
             "points": 10,
-            "patch": "3.4"
+            "patch": "3.4",
+            "linkedSiblings": [
+                "title.322"
+            ]
         },
         {
             "id": 1664,
@@ -149,7 +175,10 @@
         {
             "id": 2056,
             "points": 20,
-            "patch": "4.35"
+            "patch": "4.35",
+            "linkedSiblings": [
+                "title.388"
+            ]
         },
         {
             "id": 1665,
@@ -159,7 +188,10 @@
         {
             "id": 1666,
             "points": 20,
-            "patch": "3.4"
+            "patch": "3.4",
+            "linkedSiblings": [
+                "title.323"
+            ]
         },
         {
             "id": 2047,
@@ -174,7 +206,10 @@
         {
             "id": 2049,
             "points": 5,
-            "patch": "4.35"
+            "patch": "4.35",
+            "linkedSiblings": [
+                "title.384"
+            ]
         },
         {
             "id": 2050,
@@ -184,7 +219,10 @@
         {
             "id": 2051,
             "points": 10,
-            "patch": "4.35"
+            "patch": "4.35",
+            "linkedSiblings": [
+                "title.385"
+            ]
         },
         {
             "id": 2054,
@@ -194,7 +232,10 @@
         {
             "id": 2055,
             "points": 10,
-            "patch": "4.35"
+            "patch": "4.35",
+            "linkedSiblings": [
+                "title.387"
+            ]
         },
         {
             "id": 2203,
@@ -224,7 +265,10 @@
         {
             "id": 2208,
             "points": 5,
-            "patch": "4.5"
+            "patch": "4.5",
+            "linkedSiblings": [
+                "title.414"
+            ]
         },
         {
             "id": 2449,
@@ -244,17 +288,26 @@
         {
             "id": 2211,
             "points": 10,
-            "patch": "4.5"
+            "patch": "4.5",
+            "linkedSiblings": [
+                "title.415"
+            ]
         },
         {
             "id": 2450,
             "points": 10,
-            "patch": "5.18"
+            "patch": "5.18",
+            "linkedSiblings": [
+                "title.487"
+            ]
         },
         {
             "points": 10,
             "id": 2727,
-            "patch": "5.45"
+            "patch": "5.45",
+            "linkedSiblings": [
+                "title.550"
+            ]
         }
     ]
 }

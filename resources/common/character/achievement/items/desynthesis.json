@@ -1,5 +1,8 @@
 {
     "key": "desynthesis",
+    "chains": [
+        [1006, 1007, 1008, 1009, 1010, 1011, 1904]
+    ],
     "tasks": [
         {
             "id": 1006,
@@ -29,7 +32,10 @@
         {
             "id": 1011,
             "points": 10,
-            "patch": "2.3"
+            "patch": "2.3",
+            "linkedSiblings": [
+                "title.171"
+            ]
         },
         {
             "id": 1904,

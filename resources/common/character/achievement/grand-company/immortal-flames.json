@@ -1,5 +1,12 @@
 {
     "key": "immortal-flames",
+    "chains": [
+        [538, 539, 540, 541],
+        [550, 551, 552, 553],
+        [562, 563, 564, 565],
+        [574, 575, 576, 577],
+        [692, 693, 694]
+    ],
     "tasks": [
         {
             "id": 529,
@@ -19,7 +26,10 @@
         {
             "id": 540,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.91"
+            ]
         },
         {
             "id": 541,
@@ -39,7 +49,10 @@
         {
             "id": 552,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.94"
+            ]
         },
         {
             "id": 553,
@@ -59,7 +72,10 @@
         {
             "id": 564,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.97"
+            ]
         },
         {
             "id": 565,
@@ -79,7 +95,10 @@
         {
             "id": 576,
             "points": 10,
-            "patch": "2.0"
+            "patch": "2.0",
+            "linkedSiblings": [
+                "title.100"
+            ]
         },
         {
             "id": 577,

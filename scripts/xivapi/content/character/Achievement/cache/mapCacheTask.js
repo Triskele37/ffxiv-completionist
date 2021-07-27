@@ -18,6 +18,7 @@ module.exports = function mapCacheTask(Achievement) {
         "Order": Achievement.Order,
         "Points": Achievement.Points,
         ...reward,
+        ...buildLinkedTasks(),
         "Patch": patchHotfix(Achievement),
     };
 
@@ -29,6 +30,12 @@ module.exports = function mapCacheTask(Achievement) {
         const title = Achievement.Title[`Name_${lang}`];
         const femaleTitle = Achievement.Title[`NameFemale_${lang}`];
         return (title === femaleTitle) ? title : `${title} / ${femaleTitle}`;
+    }
+
+    function buildLinkedTasks() {
+        return {
+            "LinkedSiblings": Achievement.Title ? [`title.${Achievement.Title.ID}`] : []
+        };
     }
 };
 

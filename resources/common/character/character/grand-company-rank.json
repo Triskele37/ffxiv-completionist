@@ -3,162 +3,162 @@
     "tasks": [
         {
             "id": 0,
-            "nextID": 1
+            "linkedParents": [1]
         },
         {
             "id": 1,
-            "prevID": 0,
-            "nextID": 2
+            "linkedChildren": [0],
+            "linkedParents": [2]
         },
         {
             "id": 2,
-            "prevID": 1,
-            "nextID": 3
+            "linkedChildren": [1],
+            "linkedParents": [3]
         },
         {
             "id": 3,
-            "prevID": 2,
-            "nextID": 4
+            "linkedChildren": [2],
+            "linkedParents": [4]
         },
         {
             "id": 4,
-            "prevID": 3,
-            "nextID": 5
+            "linkedChildren": [3],
+            "linkedParents": [5]
         },
         {
             "id": 5,
-            "prevID": 4,
-            "nextID": 6
+            "linkedChildren": [4],
+            "linkedParents": [6]
         },
         {
             "id": 6,
-            "prevID": 5,
-            "nextID": 7
+            "linkedChildren": [5],
+            "linkedParents": [7]
         },
         {
             "id": 7,
-            "prevID": 6,
-            "nextID": 8
+            "linkedChildren": [6],
+            "linkedParents": [8]
         },
         {
             "id": 8,
-            "prevID": 7,
-            "nextID": 9
+            "linkedChildren": [7],
+            "linkedParents": [9]
         },
         {
             "id": 9,
-            "prevID": 8,
-            "nextID": 10
+            "linkedChildren": [8],
+            "linkedParents": [10]
         },
         {
             "id": 10,
-            "prevID": 9
+            "linkedChildren": [9]
         },
         {
             "id": 11,
-            "nextID": 12
+            "linkedParents": [12]
         },
         {
             "id": 12,
-            "prevID": 11,
-            "nextID": 13
+            "linkedChildren": [11],
+            "linkedParents": [13]
         },
         {
             "id": 13,
-            "prevID": 12,
-            "nextID": 14
+            "linkedChildren": [12],
+            "linkedParents": [14]
         },
         {
             "id": 14,
-            "prevID": 13,
-            "nextID": 15
+            "linkedChildren": [13],
+            "linkedParents": [15]
         },
         {
             "id": 15,
-            "prevID": 14,
-            "nextID": 16
+            "linkedChildren": [14],
+            "linkedParents": [16]
         },
         {
             "id": 16,
-            "prevID": 15,
-            "nextID": 17
+            "linkedChildren": [15],
+            "linkedParents": [17]
         },
         {
             "id": 17,
-            "prevID": 16,
-            "nextID": 18
+            "linkedChildren": [16],
+            "linkedParents": [18]
         },
         {
             "id": 18,
-            "prevID": 17,
-            "nextID": 19
+            "linkedChildren": [17],
+            "linkedParents": [19]
         },
         {
             "id": 19,
-            "prevID": 18,
-            "nextID": 20
+            "linkedChildren": [18],
+            "linkedParents": [20]
         },
         {
             "id": 20,
-            "prevID": 19,
-            "nextID": 21
+            "linkedChildren": [19],
+            "linkedParents": [21]
         },
         {
             "id": 21,
-            "prevID": 20
+            "linkedChildren": [20]
         },
         {
             "id": 22,
-            "nextID": 23
+            "linkedParents": [23]
         },
         {
             "id": 23,
-            "prevID": 22,
-            "nextID": 24
+            "linkedChildren": [22],
+            "linkedParents": [24]
         },
         {
             "id": 24,
-            "prevID": 23,
-            "nextID": 25
+            "linkedChildren": [23],
+            "linkedParents": [25]
         },
         {
             "id": 25,
-            "prevID": 24,
-            "nextID": 26
+            "linkedChildren": [24],
+            "linkedParents": [26]
         },
         {
             "id": 26,
-            "prevID": 25,
-            "nextID": 27
+            "linkedChildren": [25],
+            "linkedParents": [27]
         },
         {
             "id": 27,
-            "prevID": 26,
-            "nextID": 28
+            "linkedChildren": [26],
+            "linkedParents": [28]
         },
         {
             "id": 28,
-            "prevID": 27,
-            "nextID": 29
+            "linkedChildren": [27],
+            "linkedParents": [29]
         },
         {
             "id": 29,
-            "prevID": 28,
-            "nextID": 30
+            "linkedChildren": [28],
+            "linkedParents": [30]
         },
         {
             "id": 30,
-            "prevID": 29,
-            "nextID": 31
+            "linkedChildren": [29],
+            "linkedParents": [31]
         },
         {
             "id": 31,
-            "prevID": 30,
-            "nextID": 32
+            "linkedChildren": [30],
+            "linkedParents": [32]
         },
         {
             "id": 32,
-            "prevID": 31
+            "linkedChildren": [31]
         }
     ]
 }
