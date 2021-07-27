@@ -54,6 +54,8 @@ export class Chainer {
             this.applyChainedFlag(this.task.linkedSiblings);
         }
 
+        if(!!this.task.linkedExclusive) this.applyExclusionChain();
+
         if(this.chains.length) this.triggerGroupLevelChains();
     }
 
@@ -103,6 +105,19 @@ export class Chainer {
         });
     }
 
+    applyExclusionChain() {
+        const linkedTask = this.getTaskFromLink(this.task.linkedExclusive);
+
+        // Exclude the linked task if this one is marked Y
+        if(this.flag === "Y") {
+            this.chainedTasks.push(...(linkedTask.changeCompletionFlag("X") || []));
+        }
+        // Unexclude linked task if this one is unmarked Y
+        else if((this.flag === "N" || this.flag === "X") && linkedTask.completionFlag === "X") {
+            this.chainedTasks.push(...(linkedTask.changeCompletionFlag("N") || []));
+        }
+    }
+
     getTaskFromLink(link) {
         // Link is in the same group
         if(typeof link === "number") {
@@ -129,6 +144,8 @@ export class Chainer {
         switch(linkedPath[0]) {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
+            case "quest": path = "duty.quests"; break;
+
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;
             case "sbRelic": path = "character.relic-gear.eureka"; break;

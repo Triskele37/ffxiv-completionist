@@ -3,51 +3,80 @@
     "tasks": [
         {
             "id": 69330,
-            "level": 70
+            "level": 70,
+            "linkedChildren": [
+                "quest.68877",
+                "quest.69018"
+            ],
+            "linkedParents": [69331]
         },
         {
             "id": 69331,
-            "level": 70
+            "level": 70,
+            "linkedChildren": [69330],
+            "linkedParents": [69336, 69337]
         },
         {
             "id": 69336,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69337,
+            "linkedChildren": [69331],
+            "linkedParents": [69332]
         },
         {
             "id": 69337,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69336,
+            "linkedChildren": [69331],
+            "linkedParents": [69332]
         },
         {
             "id": 69332,
-            "level": 70
+            "level": 70,
+            "linkedParents": [69338, 69339]
         },
         {
             "id": 69338,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69339,
+            "linkedChildren": [69332],
+            "linkedParents": [69333]
         },
         {
             "id": 69339,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69338,
+            "linkedChildren": [69332],
+            "linkedParents": [69333]
         },
         {
             "id": 69333,
-            "level": 70
+            "level": 70,
+            "linkedParents": [69340, 69341]
         },
         {
             "id": 69340,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69341,
+            "linkedChildren": [69333],
+            "linkedParents": [69334]
         },
         {
             "id": 69341,
-            "level": 70
+            "level": 70,
+            "linkedExclusive": 69340,
+            "linkedChildren": [69333],
+            "linkedParents": [69334]
         },
         {
             "id": 69334,
-            "level": 70
+            "level": 70,
+            "linkedParents": [69335]
         },
         {
             "id": 69335,
-            "level": 70
+            "level": 70,
+            "linkedChildren": [69334]
         }
     ]
 }

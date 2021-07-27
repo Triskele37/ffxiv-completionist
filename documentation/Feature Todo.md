@@ -25,7 +25,10 @@
 * Add a "MERGE_WHEN_NEW" set of keys for xivapi content
 
 **Must Do**
-* several console logs left in, id column left in
+* Fix ToDos
+    - achievement/exploration/duty contains diadem achievements
+    - several console logs left in, id column left in
+
 * Connect all task dependencies of next/previous
     Companion Skills
     Hall of the Novice
@@ -37,13 +40,14 @@
     Fashion Accessories
     Triple Triad Cards
     Title
-* Notification window for auto-marked things via dependencies
 
-* achievement/battle/battle hunt logs
+* Chain Features
+    - Notification Window
+    - Undo for last chain
+    - Toggle feature on/off?
 
-* achievement/exploration/duty contains diadem achievements
-
-* how to handle all resplendent achievement between each crafter
-
-* beast tribe quest achievement siblings
-* quest achievement siblings (link all or rely on quest content siblings?)
+* Chain ToDos
+    - achievement/battle/battle hunt logs
+    - beast tribe quest achievement siblings (quests & rep based quests)
+    - quest achievement siblings
+    - how to handle all resplendent achievement between each crafter
