@@ -6,6 +6,6 @@ module.exports = function(appKey, lang) {
         case "reward": return `Reward_${lang}`;
         case "points": return "Points";
         case "patch": return "Patch";
-        case "linkedSiblings": return "LinkedSiblings";
+        case "cSiblings": return "ChainSiblings";
     }
 };

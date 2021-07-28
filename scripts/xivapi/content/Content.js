@@ -15,8 +15,8 @@ module.exports = class Content {
     filterParams; // Params to specify a subset of items within the content type
     columnParams; // Params to specify return properties on a single item
 
-    // Define linked key names in one place for use in COMMON_KEYS
-    static LINKED_KEYS = ["linkedSiblings"];
+    // Define chain key names in one place for use in COMMON_KEYS
+    static CHAIN_KEYS = ["cSiblings"];
 
     constructor(dirname) {
         this.dirname = dirname;

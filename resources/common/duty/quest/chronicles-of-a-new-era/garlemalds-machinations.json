@@ -1,9 +1,14 @@
 {
     "key": "the-sorrow-of-werlyt",
+    "chains": [
+        [69431, 69516, 69517, 69567, 69568]
+    ],
     "tasks": [
         {
             "id": 69319,
-            "level": 80
+            "level": 80,
+            "cPrev": ["quest.69297"],
+            "cNext": [69431, "quest.69378"]
         },
         {
             "id": 69431,

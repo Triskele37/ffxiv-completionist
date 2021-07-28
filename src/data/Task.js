@@ -8,9 +8,9 @@ export class Task {
 
     completionFlag = "N";
 
-    linkedChildren; // Tasks that must be completed if this one is
-    linkedParents; // Tasks that cannot be completed without this one
-    linkedSiblings; // Tasks that should mirror this one's completion
+    cPrev; // Tasks that must be completed if this one is
+    cNext; // Tasks that cannot be completed without this one
+    cSiblings; // Tasks that should mirror this one's completion
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
 

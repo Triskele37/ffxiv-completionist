@@ -8,8 +8,8 @@ module.exports = function mapAppTask(cacheTask, lang) {
         patch: cacheTask.Patch,
     };
 
-    // Only attach linked lists if they have something
-    if(cacheTask.LinkedSiblings.length) appTask.linkedSiblings = cacheTask.LinkedSiblings;
+    // Only attach chain lists if they have something
+    if(cacheTask.ChainSiblings.length) appTask.cSiblings = cacheTask.ChainSiblings;
 
     return appTask;
 };

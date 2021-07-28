@@ -4,526 +4,526 @@
         {
             "id": 0,
             "reputationToCap": "150",
-            "linkedParents": [1]
+            "cNext": [1]
         },
         {
             "id": 1,
             "reputationToCap": "360",
-            "linkedChildren": [0],
-            "linkedParents": [2]
+            "cPrev": [0],
+            "cNext": [2]
         },
         {
             "id": 2,
             "reputationToCap": "510",
-            "linkedChildren": [1],
-            "linkedParents": [3]
+            "cPrev": [1],
+            "cNext": [3]
         },
         {
             "id": 3,
             "reputationToCap": "-",
-            "linkedChildren": [2],
-            "linkedParents": [4]
+            "cPrev": [2],
+            "cNext": [4]
         },
         {
             "id": 4,
             "reputationToCap": "-",
-            "linkedChildren": [3]
+            "cPrev": [3]
         },
         {
             "id": 5,
             "reputationToCap": "150",
-            "linkedParents": [6]
+            "cNext": [6]
         },
         {
             "id": 6,
             "reputationToCap": "360",
-            "linkedChildren": [5],
-            "linkedParents": [7]
+            "cPrev": [5],
+            "cNext": [7]
         },
         {
             "id": 7,
             "reputationToCap": "510",
-            "linkedChildren": [6],
-            "linkedParents": [8]
+            "cPrev": [6],
+            "cNext": [8]
         },
         {
             "id": 8,
             "reputationToCap": "-",
-            "linkedChildren": [7],
-            "linkedParents": [9]
+            "cPrev": [7],
+            "cNext": [9]
         },
         {
             "id": 9,
             "reputationToCap": "-",
-            "linkedChildren": [8]
+            "cPrev": [8]
         },
         {
             "id": 10,
             "reputationToCap": "150",
-            "linkedParents": [11]
+            "cNext": [11]
         },
         {
             "id": 11,
             "reputationToCap": "360",
-            "linkedChildren": [10],
-            "linkedParents": [12]
+            "cPrev": [10],
+            "cNext": [12]
         },
         {
             "id": 12,
             "reputationToCap": "510",
-            "linkedChildren": [11],
-            "linkedParents": [13]
+            "cPrev": [11],
+            "cNext": [13]
         },
         {
             "id": 13,
             "reputationToCap": "-",
-            "linkedChildren": [12],
-            "linkedParents": [14]
+            "cPrev": [12],
+            "cNext": [14]
         },
         {
             "id": 14,
             "reputationToCap": "-",
-            "linkedChildren": [13]
+            "cPrev": [13]
         },
         {
             "id": 15,
             "reputationToCap": "150",
-            "linkedParents": [16]
+            "cNext": [16]
         },
         {
             "id": 16,
             "reputationToCap": "360",
-            "linkedChildren": [15],
-            "linkedParents": [17]
+            "cPrev": [15],
+            "cNext": [17]
         },
         {
             "id": 17,
             "reputationToCap": "510",
-            "linkedChildren": [16],
-            "linkedParents": [18]
+            "cPrev": [16],
+            "cNext": [18]
         },
         {
             "id": 18,
             "reputationToCap": "-",
-            "linkedChildren": [17],
-            "linkedParents": [19]
+            "cPrev": [17],
+            "cNext": [19]
         },
         {
             "id": 19,
             "reputationToCap": "-",
-            "linkedChildren": [18]
+            "cPrev": [18]
         },
         {
             "id": 20,
             "reputationToCap": "150",
-            "linkedParents": [21]
+            "cNext": [21]
         },
         {
             "id": 21,
             "reputationToCap": "360",
-            "linkedChildren": [20],
-            "linkedParents": [22]
+            "cPrev": [20],
+            "cNext": [22]
         },
         {
             "id": 22,
             "reputationToCap": "510",
-            "linkedChildren": [21],
-            "linkedParents": [23]
+            "cPrev": [21],
+            "cNext": [23]
         },
         {
             "id": 23,
             "reputationToCap": "720",
-            "linkedChildren": [22],
-            "linkedParents": [24]
+            "cPrev": [22],
+            "cNext": [24]
         },
         {
             "id": 24,
             "reputationToCap": "990",
-            "linkedChildren": [23],
-            "linkedParents": [25]
+            "cPrev": [23],
+            "cNext": [25]
         },
         {
             "id": 25,
             "reputationToCap": "1320",
-            "linkedChildren": [24],
-            "linkedParents": [26]
+            "cPrev": [24],
+            "cNext": [26]
         },
         {
             "id": 26,
             "reputationToCap": "-",
-            "linkedChildren": [25],
-            "linkedParents": [27]
+            "cPrev": [25],
+            "cNext": [27]
         },
         {
             "id": 27,
             "reputationToCap": "-",
-            "linkedChildren": [26]
+            "cPrev": [26]
         },
         {
             "id": 28,
             "reputationToCap": "150",
-            "linkedParents": [29]
+            "cNext": [29]
         },
         {
             "id": 29,
             "reputationToCap": "360",
-            "linkedChildren": [28],
-            "linkedParents": [30]
+            "cPrev": [28],
+            "cNext": [30]
         },
         {
             "id": 30,
             "reputationToCap": "510",
-            "linkedChildren": [29],
-            "linkedParents": [31]
+            "cPrev": [29],
+            "cNext": [31]
         },
         {
             "id": 31,
             "reputationToCap": "720",
-            "linkedChildren": [30],
-            "linkedParents": [32]
+            "cPrev": [30],
+            "cNext": [32]
         },
         {
             "id": 32,
             "reputationToCap": "990",
-            "linkedChildren": [31],
-            "linkedParents": [33]
+            "cPrev": [31],
+            "cNext": [33]
         },
         {
             "id": 33,
             "reputationToCap": "1320",
-            "linkedChildren": [32],
-            "linkedParents": [34]
+            "cPrev": [32],
+            "cNext": [34]
         },
         {
             "id": 34,
             "reputationToCap": "1730",
-            "linkedChildren": [33],
-            "linkedParents": [35]
+            "cPrev": [33],
+            "cNext": [35]
         },
         {
             "id": 35,
             "reputationToCap": "-",
-            "linkedChildren": [34],
-            "linkedParents": [36]
+            "cPrev": [34],
+            "cNext": [36]
         },
         {
             "id": 36,
             "reputationToCap": "-",
-            "linkedChildren": [35]
+            "cPrev": [35]
         },
         {
             "id": 37,
             "reputationToCap": "510",
-            "linkedParents": [38]
+            "cNext": [38]
         },
         {
             "id": 38,
             "reputationToCap": "720",
-            "linkedChildren": [37],
-            "linkedParents": [39]
+            "cPrev": [37],
+            "cNext": [39]
         },
         {
             "id": 39,
             "reputationToCap": "990",
-            "linkedChildren": [38],
-            "linkedParents": [40]
+            "cPrev": [38],
+            "cNext": [40]
         },
         {
             "id": 40,
             "reputationToCap": "1320",
-            "linkedChildren": [39],
-            "linkedParents": [41]
+            "cPrev": [39],
+            "cNext": [41]
         },
         {
             "id": 41,
             "reputationToCap": "1730",
-            "linkedChildren": [40],
-            "linkedParents": [42]
+            "cPrev": [40],
+            "cNext": [42]
         },
         {
             "id": 42,
             "reputationToCap": "-",
-            "linkedChildren": [41],
-            "linkedParents": [43]
+            "cPrev": [41],
+            "cNext": [43]
         },
         {
             "id": 43,
             "reputationToCap": "-",
-            "linkedChildren": [42]
+            "cPrev": [42]
         },
         {
             "id": 44,
             "reputationToCap": "150",
-            "linkedParents": [45]
+            "cNext": [45]
         },
         {
             "id": 45,
             "reputationToCap": "360",
-            "linkedChildren": [44],
-            "linkedParents": [46]
+            "cPrev": [44],
+            "cNext": [46]
         },
         {
             "id": 46,
             "reputationToCap": "510",
-            "linkedChildren": [45],
-            "linkedParents": [47]
+            "cPrev": [45],
+            "cNext": [47]
         },
         {
             "id": 47,
             "reputationToCap": "720",
-            "linkedChildren": [46],
-            "linkedParents": [48]
+            "cPrev": [46],
+            "cNext": [48]
         },
         {
             "id": 48,
             "reputationToCap": "990",
-            "linkedChildren": [47],
-            "linkedParents": [49]
+            "cPrev": [47],
+            "cNext": [49]
         },
         {
             "id": 49,
             "reputationToCap": "1320",
-            "linkedChildren": [48],
-            "linkedParents": [50]
+            "cPrev": [48],
+            "cNext": [50]
         },
         {
             "id": 50,
             "reputationToCap": "1730",
-            "linkedChildren": [49],
-            "linkedParents": [51]
+            "cPrev": [49],
+            "cNext": [51]
         },
         {
             "id": 51,
             "reputationToCap": "-",
-            "linkedChildren": [50],
-            "linkedParents": [52]
+            "cPrev": [50],
+            "cNext": [52]
         },
         {
             "id": 52,
             "reputationToCap": "-",
-            "linkedChildren": [51]
+            "cPrev": [51]
         },
         {
             "id": 53,
             "reputationToCap": "510",
-            "linkedParents": [54]
+            "cNext": [54]
         },
         {
             "id": 54,
             "reputationToCap": "720",
-            "linkedChildren": [53],
-            "linkedParents": [55]
+            "cPrev": [53],
+            "cNext": [55]
         },
         {
             "id": 55,
             "reputationToCap": "990",
-            "linkedChildren": [54],
-            "linkedParents": [56]
+            "cPrev": [54],
+            "cNext": [56]
         },
         {
             "id": 56,
             "reputationToCap": "1320",
-            "linkedChildren": [55],
-            "linkedParents": [57]
+            "cPrev": [55],
+            "cNext": [57]
         },
         {
             "id": 57,
             "reputationToCap": "1730",
-            "linkedChildren": [56],
-            "linkedParents": [58]
+            "cPrev": [56],
+            "cNext": [58]
         },
         {
             "id": 58,
             "reputationToCap": "-",
-            "linkedChildren": [57],
-            "linkedParents": [59]
+            "cPrev": [57],
+            "cNext": [59]
         },
         {
             "id": 59,
             "reputationToCap": "-",
-            "linkedChildren": [58]
+            "cPrev": [58]
         },
         {
             "id": 60,
             "reputationToCap": "510",
-            "linkedParents": [61]
+            "cNext": [61]
         },
         {
             "id": 61,
             "reputationToCap": "720",
-            "linkedChildren": [60],
-            "linkedParents": [62]
+            "cPrev": [60],
+            "cNext": [62]
         },
         {
             "id": 62,
             "reputationToCap": "990",
-            "linkedChildren": [61],
-            "linkedParents": [63]
+            "cPrev": [61],
+            "cNext": [63]
         },
         {
             "id": 63,
             "reputationToCap": "1320",
-            "linkedChildren": [62],
-            "linkedParents": [64]
+            "cPrev": [62],
+            "cNext": [64]
         },
         {
             "id": 64,
             "reputationToCap": "1730",
-            "linkedChildren": [63],
-            "linkedParents": [65]
+            "cPrev": [63],
+            "cNext": [65]
         },
         {
             "id": 65,
             "reputationToCap": "-",
-            "linkedChildren": [64],
-            "linkedParents": [66]
+            "cPrev": [64],
+            "cNext": [66]
         },
         {
             "id": 66,
             "reputationToCap": "-",
-            "linkedChildren": [65]
+            "cPrev": [65]
         },
         {
             "id": 67,
             "reputationToCap": "510",
-            "linkedParents": [68]
+            "cNext": [68]
         },
         {
             "id": 68,
             "reputationToCap": "720",
-            "linkedChildren": [67],
-            "linkedParents": [69]
+            "cPrev": [67],
+            "cNext": [69]
         },
         {
             "id": 69,
             "reputationToCap": "990",
-            "linkedChildren": [68],
-            "linkedParents": [70]
+            "cPrev": [68],
+            "cNext": [70]
         },
         {
             "id": 70,
             "reputationToCap": "1320",
-            "linkedChildren": [69],
-            "linkedParents": [71]
+            "cPrev": [69],
+            "cNext": [71]
         },
         {
             "id": 71,
             "reputationToCap": "1730",
-            "linkedChildren": [70],
-            "linkedParents": [72]
+            "cPrev": [70],
+            "cNext": [72]
         },
         {
             "id": 72,
             "reputationToCap": "-",
-            "linkedChildren": [71],
-            "linkedParents": [73]
+            "cPrev": [71],
+            "cNext": [73]
         },
         {
             "id": 73,
             "reputationToCap": "-",
-            "linkedChildren": [72]
+            "cPrev": [72]
         },
         {
             "id": 74,
             "reputationToCap": "510",
-            "linkedParents": [75]
+            "cNext": [75]
         },
         {
             "id": 75,
             "reputationToCap": "720",
-            "linkedChildren": [74],
-            "linkedParents": [76]
+            "cPrev": [74],
+            "cNext": [76]
         },
         {
             "id": 76,
             "reputationToCap": "990",
-            "linkedChildren": [75],
-            "linkedParents": [77]
+            "cPrev": [75],
+            "cNext": [77]
         },
         {
             "id": 77,
             "reputationToCap": "1320",
-            "linkedChildren": [76],
-            "linkedParents": [78]
+            "cPrev": [76],
+            "cNext": [78]
         },
         {
             "id": 78,
             "reputationToCap": "1730",
-            "linkedChildren": [77],
-            "linkedParents": [79]
+            "cPrev": [77],
+            "cNext": [79]
         },
         {
             "id": 79,
             "reputationToCap": "-",
-            "linkedChildren": [78]
+            "cPrev": [78]
         },
         {
             "id": 80,
             "reputationToCap": "510",
-            "linkedParents": [81]
+            "cNext": [81]
         },
         {
             "id": 81,
             "reputationToCap": "720",
-            "linkedChildren": [80],
-            "linkedParents": [82]
+            "cPrev": [80],
+            "cNext": [82]
         },
         {
             "id": 82,
             "reputationToCap": "990",
-            "linkedChildren": [81],
-            "linkedParents": [83]
+            "cPrev": [81],
+            "cNext": [83]
         },
         {
             "id": 83,
             "reputationToCap": "1320",
-            "linkedChildren": [82],
-            "linkedParents": [84]
+            "cPrev": [82],
+            "cNext": [84]
         },
         {
             "id": 84,
             "reputationToCap": "1730",
-            "linkedChildren": [83],
-            "linkedParents": [85]
+            "cPrev": [83],
+            "cNext": [85]
         },
         {
             "id": 85,
             "reputationToCap": "-",
-            "linkedChildren": [84]
+            "cPrev": [84]
         },
         {
             "id": 86,
             "reputationToCap": "510",
-            "linkedParents": [87]
+            "cNext": [87]
         },
         {
             "id": 87,
             "reputationToCap": "720",
-            "linkedChildren": [86],
-            "linkedParents": [88]
+            "cPrev": [86],
+            "cNext": [88]
         },
         {
             "id": 88,
             "reputationToCap": "990",
-            "linkedChildren": [87],
-            "linkedParents": [89]
+            "cPrev": [87],
+            "cNext": [89]
         },
         {
             "id": 89,
             "reputationToCap": "1320",
-            "linkedChildren": [88],
-            "linkedParents": [90]
+            "cPrev": [88],
+            "cNext": [90]
         },
         {
             "id": 90,
             "reputationToCap": "1730",
-            "linkedChildren": [89],
-            "linkedParents": [91]
+            "cPrev": [89],
+            "cNext": [91]
         },
         {
             "id": 91,
             "reputationToCap": "-",
-            "linkedChildren": [90]
+            "cPrev": [90]
         }
     ]
 }

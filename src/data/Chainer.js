@@ -42,19 +42,19 @@ export class Chainer {
 
     //#region------------------------------------------------------------------ Chaining
     triggerChains() {
-        if(!!this.task.linkedChildren && this.flag === "Y") {
-            this.applyChainedFlag(this.task.linkedChildren);
+        if(!!this.task.cPrev && this.flag === "Y") {
+            this.applyChainedFlag(this.task.cPrev);
         }
 
-        if(!!this.task.linkedParents && this.flag === "N") {
-            this.applyChainedFlag(this.task.linkedParents);
+        if(!!this.task.cNext && this.flag === "N") {
+            this.applyChainedFlag(this.task.cNext);
         }
 
-        if(!!this.task.linkedSiblings && this.flag !== "X") {
-            this.applyChainedFlag(this.task.linkedSiblings);
+        if(!!this.task.cSiblings && this.flag !== "X") {
+            this.applyChainedFlag(this.task.cSiblings);
         }
 
-        if(!!this.task.linkedExclusive) this.applyExclusionChain();
+        if(!!this.task.cExclude) this.applyExclusionChain();
 
         if(this.chains.length) this.triggerGroupLevelChains();
     }
@@ -65,13 +65,13 @@ export class Chainer {
             if(!Array.isArray(chain[0])) {
                 const indexInChain = chain.indexOf(this.task.id);
                 if(indexInChain !== 0 && this.flag === "Y") {
-                    const linkedPrev = chain.slice(0, indexInChain);
-                    this.applyChainedFlag(linkedPrev);
+                    const prevChain = chain.slice(0, indexInChain);
+                    this.applyChainedFlag(prevChain);
                 }
 
                 if(indexInChain !== chain.length - 1 && this.flag === "N") {
-                    const linkedNext = chain.slice(indexInChain + 1, chain.length);
-                    this.applyChainedFlag(linkedNext);
+                    const nextChain = chain.slice(indexInChain + 1, chain.length);
+                    this.applyChainedFlag(nextChain);
                 }
             }
             // Pre-task chain
@@ -84,8 +84,8 @@ export class Chainer {
                     // A pre-task is completed, check others to potentially complete post-task
                     let preTasksCompleted = true;
                     chain[0].forEach((preTaskLink) => {
-                        const linkedTask = this.getTaskFromLink(preTaskLink);
-                        if(linkedTask.completionFlag !== "Y") preTasksCompleted = false;
+                        const chainTask = this.getTaskFromLink(preTaskLink);
+                        if(chainTask.completionFlag !== "Y") preTasksCompleted = false;
                     });
                     if(preTasksCompleted) this.applyChainedFlag([chain[1]]);
                 }
@@ -98,23 +98,23 @@ export class Chainer {
         });
     }
 
-    applyChainedFlag(linkedTasks) {
-        linkedTasks.forEach((link) => {
-            const linkedTask = this.getTaskFromLink(link);
-            this.chainedTasks.push(...(linkedTask.changeCompletionFlag(this.flag) || []));
+    applyChainedFlag(chainedTasks) {
+        chainedTasks.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+            this.chainedTasks.push(...(chainTask.changeCompletionFlag(this.flag) || []));
         });
     }
 
     applyExclusionChain() {
-        const linkedTask = this.getTaskFromLink(this.task.linkedExclusive);
+        const chainTask = this.getTaskFromLink(this.task.cExclude);
 
-        // Exclude the linked task if this one is marked Y
+        // Exclude the chain task if this one is marked Y
         if(this.flag === "Y") {
-            this.chainedTasks.push(...(linkedTask.changeCompletionFlag("X") || []));
+            this.chainedTasks.push(...(chainTask.changeCompletionFlag("X") || []));
         }
-        // Unexclude linked task if this one is unmarked Y
-        else if((this.flag === "N" || this.flag === "X") && linkedTask.completionFlag === "X") {
-            this.chainedTasks.push(...(linkedTask.changeCompletionFlag("N") || []));
+        // Unexclude chain task if this one is unmarked Y
+        else if((this.flag === "N" || this.flag === "X") && chainTask.completionFlag === "X") {
+            this.chainedTasks.push(...(chainTask.changeCompletionFlag("N") || []));
         }
     }
 
@@ -127,13 +127,14 @@ export class Chainer {
         else {
             const linkedPath = link.split(".");
             const linkedID = parseInt(linkedPath.pop());
-            const linkedGroup = this.linkedGroupMap(linkedPath, linkedID);
+            const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
+
             return linkedGroup.tasks.find((t) => t.id === linkedID);
         }
     }
 
-    // Returns the group for a linked task, allowing shorthand for some groups
-    linkedGroupMap(linkedPath, linkedID) {
+    // Returns the group for a chain task, allowing shorthand for some groups
+    mapGroupLink(linkedPath, linkedID) {
         // Not using shorthand path
         if(linkedPath.length > 1) {
             return this.overall.getChildGroupFromPath(linkedPath);

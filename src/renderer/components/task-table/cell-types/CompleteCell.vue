@@ -22,8 +22,8 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
-                const linkedChanges = this.task.changeCompletionFlag(flag);
-                console.log(linkedChanges.map(
+                const chainedFlags = this.task.changeCompletionFlag(flag);
+                console.log(chainedFlags.map(
                     (change) => `${change.group.join(' > ')} > ${change.name} ${change.flag}`
                 ));
 
