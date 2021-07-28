@@ -1,5 +1,12 @@
 {
     "key": "post-dragonsong",
+    "chains": [
+        [
+            "quest.67783",
+            67877, 67878, 67879, 67880, 67881, 67882, 67883, 67884, 67885, 67886,
+            67887, 67888, 67889, 67890, 67891, 67892, 67893, 67894, 67895
+        ]
+    ],
     "tasks": [
         {
             "id": 67877,
@@ -75,7 +82,36 @@
         },
         {
             "id": 67895,
-            "level": 60
+            "level": 60,
+            "cNext": [
+                "jobQuest.67945",
+                "jobQuest.67950",
+                "jobQuest.67962",
+                "jobQuest.67967",
+                "jobQuest.67972",
+                "jobQuest.67977",
+                "jobQuest.68090",
+                "jobQuest.68102",
+                "jobQuest.68107",
+                "jobQuest.68119",
+                "jobQuest.68124",
+                "jobQuest.68129",
+                "jobQuest.68130",
+                "jobQuest.68135",
+                "jobQuest.68140",
+                "jobQuest.68145",
+                "jobQuest.68156",
+                "jobQuest.68161",
+                "jobQuest.68426",
+                "jobQuest.68431",
+                "jobQuest.68436",
+                "jobQuest.68441",
+                "jobQuest.68446",
+                "jobQuest.68451",
+                "jobQuest.68459",
+                "jobQuest.68484",
+                "quest.68457"
+            ]
         }
     ]
 }
