@@ -54,9 +54,13 @@ export class Chainer {
             this.applyChainedFlag(this.task.cSiblings);
         }
 
-        if(!!this.task.cExclude) this.applyExclusionChain();
+        if(!!this.task.cExclude) {
+            this.applyExclusionChain();
+        }
 
-        if(this.chains.length) this.triggerGroupLevelChains();
+        if(this.chains.length) {
+            this.triggerGroupLevelChains();
+        }
     }
 
     triggerGroupLevelChains() {
@@ -101,21 +105,30 @@ export class Chainer {
     applyChainedFlag(chainedTasks) {
         chainedTasks.forEach((link) => {
             const chainTask = this.getTaskFromLink(link);
-            this.chainedTasks.push(...(chainTask.changeCompletionFlag(this.flag) || []));
+            this.chainedTasks.push(...(chainTask.changeCompletionFlag(this.flag, this.tab) || []));
         });
     }
 
     applyExclusionChain() {
-        const chainTask = this.getTaskFromLink(this.task.cExclude);
+        const isNum = typeof this.task.cExclude === "number";
+        const excludes = isNum ? [this.task.cExclude] : this.task.cExclude;
 
-        // Exclude the chain task if this one is marked Y
-        if(this.flag === "Y") {
-            this.chainedTasks.push(...(chainTask.changeCompletionFlag("X") || []));
-        }
-        // Unexclude chain task if this one is unmarked Y
-        else if((this.flag === "N" || this.flag === "X") && chainTask.completionFlag === "X") {
-            this.chainedTasks.push(...(chainTask.changeCompletionFlag("N") || []));
-        }
+        excludes.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+
+            // Exclude the chain task if this one is marked Y
+            if(this.flag === "Y") {
+                this.chainedTasks.push(
+                    ...(chainTask.changeCompletionFlag("X") || [])
+                );
+            }
+            // Unexclude chain task if this one is unmarked Y
+            else if(this.flag === "N" && chainTask.completionFlag === "X") {
+                this.chainedTasks.push(
+                    ...(chainTask.changeCompletionFlag("N") || [])
+                );
+            }
+        });
     }
 
     getTaskFromLink(link) {
@@ -145,7 +158,11 @@ export class Chainer {
         switch(linkedPath[0]) {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
+
             case "quest": path = "duty.quests"; break;
+            case "cneQuest": path = "duty.quests.chronicles-of-a-new-era"; break;
+            case "jobQuest": path = "duty.quests.class--job"; break;
+            case "sidequest": path = "duty.quests.sidequests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;

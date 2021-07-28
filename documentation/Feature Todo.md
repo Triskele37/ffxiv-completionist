@@ -13,6 +13,8 @@
 * Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 * Quest/67635 is the only one without an NPC via XIVAPI (Tobana)
     add method to exclude certain fields in certain ids from merge
+* Class quests are mixed between the deprecated and in-game actuals
+* Call of the Sea usage (66210 - gridania limsa, 66209 - uldah)
 
 **Changes**
 * Remove Total_Items from xivapi configs and create function to combine all
@@ -23,11 +25,14 @@
 * Move relic gear to top-level Equipment category
   in prep for Armoire & all glam
 * Add a "MERGE_WHEN_NEW" set of keys for xivapi content
+* Move quasi-quests into the group they would be in
 
 **Must Do**
 * Fix ToDos
     - achievement/exploration/duty contains diadem achievements
     - several console logs left in, id column left in
+
+* Tables in groups with sub groups overflows page
 
 * Connect all task dependencies of next/previous
     Companion Skills
@@ -51,3 +56,4 @@
     - beast tribe quest achievement siblings (quests & rep based quests)
     - quest achievement siblings
     - how to handle all resplendent achievement between each crafter
+    - clean up previous "quest" shorthand

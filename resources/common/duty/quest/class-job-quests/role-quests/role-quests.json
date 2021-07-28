@@ -3,11 +3,13 @@
     "tasks": [
         {
             "id": 69165,
-            "level": 80
+            "level": 80,
+            "cNext": [69521]
         },
         {
             "id": 69521,
-            "level": 80
+            "level": 80,
+            "cPrev": [69165, "quest.69318"]
         }
     ]
 }
