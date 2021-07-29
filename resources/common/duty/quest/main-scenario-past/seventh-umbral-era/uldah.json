@@ -2,10 +2,11 @@
     "key": "uldah",
     "chains": [
         [
-            "quest.66130", 66106, 66131, 66207, 66086,
-            65839, 69388, 65843, 65856, 66159, 65864, 66039,
-            65865, 65866, 69389, 65868, 65869, 65870,
-            65872, 66164, 66087, 66177, 66088, 66064, 66210
+            "sidequest.66130",
+            66106, 66131, 66207, 66086, 65839, 69388, 65843, 65856, 66159, 65864,
+            66039, 65865, 65866, 69389, 65868, 65869, 65870, 65872, 66164, 66087,
+            66177, 66088, 66064, 66210,
+            "quest.65781"
         ]
     ],
     "tasks": [
@@ -13,8 +14,20 @@
             "id": 66106,
             "level": 1,
             "cNext": [
-                "quest.65925",
-                "quest.65926"
+                "sidequest.65925",
+                "sidequest.65926"
+            ],
+            "cExclude": ["quest.65660", "quest.65645"],
+            "cExclusive": [
+                "sidequest.66130",
+                66131, 66207, 66086, 65839, 69388, 65843, 65856, 66159, 65864, 66039,
+                65865, 65866, 69389, 65868, 65869, 65870, 65872, 66164, 66087, 66177,
+                66088, 66064, 66210,
+                "sidequest.66130", "sidequest.65925", "sidequest.65926", "sidequest.65857",
+                "sidequest.65858", "sidequest.65840", "sidequest.65924", "sidequest.65862",
+                "sidequest.65844", "sidequest.66223", "sidequest.66040", "sidequest.65877",
+                "sidequest.66066", "sidequest.66067", "sidequest.66109", "sidequest.65878",
+                "sidequest.66041", "sidequest.66042"
             ]
         },
         {
@@ -28,7 +41,7 @@
         {
             "id": 66086,
             "level": 5,
-            "cNext": ["quest.65857"]
+            "cNext": ["sidequest.65857"]
         },
         {
             "id": 65839,
@@ -37,17 +50,17 @@
         {
             "id": 69388,
             "level": 8,
-            "cNext": ["quest.65924"]
+            "cNext": ["sidequest.65924"]
         },
         {
             "id": 65843,
             "level": 9,
-            "cNext": ["quest.65862"]
+            "cNext": ["sidequest.65862"]
         },
         {
             "id": 65856,
             "level": 9,
-            "cNext": ["quest.66223"]
+            "cNext": ["sidequest.66223"]
         },
         {
             "id": 66159,
@@ -56,7 +69,7 @@
         {
             "id": 65864,
             "level": 10,
-            "cNext": ["quest.66040"]
+            "cNext": ["sidequest.66040"]
         },
         {
             "id": 66039,
@@ -65,15 +78,15 @@
         {
             "id": 65865,
             "level": 11,
-            "cNext": ["quest.65877"]
+            "cNext": ["sidequest.65877"]
         },
         {
             "id": 65866,
             "level": 11,
             "cNext": [
-                "quest.66066",
-                "quest.66067",
-                "quest.66109"
+                "sidequest.66066",
+                "sidequest.66067",
+                "sidequest.66109"
             ]
         },
         {
@@ -84,9 +97,9 @@
             "id": 65868,
             "level": 12,
             "cNext": [
-                "quest.65878",
-                "quest.66041",
-                "quest.66042"
+                "sidequest.65878",
+                "sidequest.66041",
+                "sidequest.66042"
             ]
         },
         {
@@ -117,26 +130,26 @@
             "id": 66088,
             "level": 14,
             "cNext": [
-                "quest.66961",
-                "quest.66962",
-                "quest.66963"
+                "sidequest.66961",
+                "sidequest.66962",
+                "sidequest.66963"
             ]
         },
         {
             "id": 66064,
             "level": 15,
             "cNext": [
-                "quest.65970"
+                "sidequest.65970"
             ]
         },
         {
             "id": 66210,
             "level": 15,
             "cNext": [
-                "quest.66678",
-                "quest.66681",
-                "quest.66746",
-                "quest.66967"
+                "sidequest.66678",
+                "sidequest.66681",
+                "sidequest.66746",
+                "sidequest.66967"
             ]
         }
     ]

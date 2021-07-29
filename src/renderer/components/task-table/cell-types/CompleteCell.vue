@@ -22,9 +22,9 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
-                const chainedFlags = this.task.changeCompletionFlag(flag);
-                console.log(chainedFlags.map(
-                    (change) => `${change.group.join(' > ')} > ${change.name} ${change.flag}`
+                const chainedTasks = this.task.changeCompletionFlag(flag);
+                console.log(chainedTasks.map(
+                    (change) => `${change.task.name} > ${change.flag} (${change.task._parent.groupPath.join(' > ')})`
                 ));
 
                 applyDataToStore(data);

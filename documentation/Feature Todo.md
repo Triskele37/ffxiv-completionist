@@ -57,3 +57,5 @@
     - quest achievement siblings
     - how to handle all resplendent achievement between each crafter
     - clean up previous "quest" shorthand
+
+* cPrevAny & cPrevAll?

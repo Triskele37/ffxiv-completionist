@@ -5,15 +5,10 @@ export class Chainer {
     flag = null;
 
     //#region------------------------------------------------------------------ Constructor
-    constructor(task, flag) {
-        // Create chained task list
+    constructor(task, flag, chainedTasks) {
+        this.chainedTasks = chainedTasks;
         this.task = task;
         this.flag = flag;
-        this.chainedTasks = [{
-            group: task._parent.groupPath,
-            name: task.name,
-            flag
-        }];
 
         // Isolate the group chains containing this task id
         this.isolateGroupLevelChains(task, flag);
@@ -42,6 +37,8 @@ export class Chainer {
 
     //#region------------------------------------------------------------------ Chaining
     triggerChains() {
+        if(!!this.chainedTasks.find((c) => c.id === this.task.id)) return;
+
         if(!!this.task.cPrev && this.flag === "Y") {
             this.applyChainedFlag(this.task.cPrev);
         }
@@ -56,6 +53,10 @@ export class Chainer {
 
         if(!!this.task.cExclude) {
             this.applyExclusionChain();
+        }
+
+        if(!!this.task.cExclusive) {
+            this.applyExclusiveChain();
         }
 
         if(this.chains.length) {
@@ -103,10 +104,23 @@ export class Chainer {
     }
 
     applyChainedFlag(chainedTasks) {
+        const originalFlag = this.flag;
+
         chainedTasks.forEach((link) => {
             const chainTask = this.getTaskFromLink(link);
-            this.chainedTasks.push(...(chainTask.changeCompletionFlag(this.flag, this.tab) || []));
+
+            // Sanity Log
+            if(!chainTask) {
+                console.error(`Invalid link (${link}) from task: `, this.task);
+            }
+
+            this.applyCompletion(originalFlag, chainTask);
         });
+    }
+
+    applyCompletion(flag, chainTask) {
+        this.chainedTasks.push({ task: chainTask, flag });
+        chainTask.changeCompletionFlag(flag, this.chainedTasks);
     }
 
     applyExclusionChain() {
@@ -116,17 +130,37 @@ export class Chainer {
         excludes.forEach((link) => {
             const chainTask = this.getTaskFromLink(link);
 
+            // Sanity Log
+            if(!chainTask) {
+                console.error(`Invalid link (${link}) from task: `, this.task);
+            }
+
             // Exclude the chain task if this one is marked Y
-            if(this.flag === "Y") {
-                this.chainedTasks.push(
-                    ...(chainTask.changeCompletionFlag("X") || [])
-                );
+            if(this.task.completionFlag === "Y") {
+                this.applyCompletion("X", chainTask);
             }
             // Unexclude chain task if this one is unmarked Y
-            else if(this.flag === "N" && chainTask.completionFlag === "X") {
-                this.chainedTasks.push(
-                    ...(chainTask.changeCompletionFlag("N") || [])
-                );
+            else if(this.task.completionFlag === "N" && chainTask.completionFlag === "X") {
+                this.applyCompletion("N", chainTask);
+            }
+            else if(this.task.completionFlag === "X") {
+
+            }
+        });
+    }
+
+    applyExclusiveChain() {
+        this.task.cExclusive.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+
+            if(this.flag === "X") {
+                this.applyCompletion("X", chainTask);
+            }
+            else if(this.flag === "N") {
+                this.applyCompletion("N", chainTask);
+            }
+            else if(this.flag === "Y" && chainTask.completionFlag === "X") {
+                this.applyCompletion("N", chainTask);
             }
         });
     }
@@ -141,6 +175,11 @@ export class Chainer {
             const linkedPath = link.split(".");
             const linkedID = parseInt(linkedPath.pop());
             const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
+
+            // Sanity log
+            if(!linkedGroup) {
+                console.error(`Invalid link (${link}) from task: `, this.task);
+            }
 
             return linkedGroup.tasks.find((t) => t.id === linkedID);
         }

@@ -1,5 +1,23 @@
 {
     "key": "stormblood",
+    "chains": [
+        ["quest.67895", 67982, 67983, 67984, 67985, 67986],
+        [
+            68174, 67998, 67999, 68000, 68001, 68002, 68003, 68004, 68005, 68006,
+            68007, 68008, 68009, 68010, 68011, 68012, 68013, 68014, 68015, 68016
+        ],
+        [
+            68017, 68018, 68019, 68020, 68021, 68022, 68023, 68024, 68025, 68026,
+            68027, 68028, 68470, 68029, 68030, 68031, 68032, 68033, 68471, 68034,
+            68035, 68166, 68036, 68037, 68038, 68039, 68040, 68041, 68042, 68043,
+            68044, 68045, 68046, 68047, 68048, 68049, 68050, 68051, 68052, 68053,
+            68054, 68055, 68482, 68056, 68057, 68483, 68058, 68059, 68060, 68061,
+            68062, 68063, 68064, 68065, 68066, 68067, 68068, 68069, 68070, 68071,
+            68072, 68073, 68074, 68075, 68076, 68077, 68078, 68079, 68080, 68081,
+            68082, 68083, 68084, 68085, 68086, 68087, 68088, 68089,
+            "quest.68498"
+        ]
+    ],
     "tasks": [
         {
             "id": 67982,
@@ -15,79 +33,130 @@
         },
         {
             "id": 67985,
-            "level": 60
+            "level": 60,
+            "cNext": ["quest.68456"]
         },
         {
             "id": 67986,
-            "level": 60
+            "level": 60,
+            "cNext": [67987, 67991]
         },
         {
             "id": 67987,
-            "level": 60
+            "level": 60,
+            "cPrev": [67986],
+            "cNext": [67988]
         },
         {
             "id": 67988,
-            "level": 60
+            "level": 60,
+            "cPrev": [67987],
+            "cNext": [
+                67989,
+                "sidequest.68175",
+                "sidequest.68176",
+                "sidequest.68177",
+                "sidequest.68178",
+                "sidequest.68179",
+                "sidequest.68180"
+            ]
         },
         {
             "id": 67989,
-            "level": 60
+            "level": 60,
+            "cPrev": [67988],
+            "cNext": [67990]
         },
         {
             "id": 67990,
-            "level": 60
+            "level": 60,
+            "cPrev": [67989],
+            "cNext": [67997]
         },
         {
             "id": 67991,
-            "level": 60
+            "level": 60,
+            "cPrev": [67986],
+            "cNext": [67992]
         },
         {
             "id": 67992,
-            "level": 60
+            "level": 60,
+            "cPrev": [67991],
+            "cNext": [68490, 68491]
         },
         {
             "id": 68490,
-            "level": 60
+            "level": 60,
+            "cPrev": [67992],
+            "cNext": [67993]
         },
         {
             "id": 68491,
-            "level": 60
+            "level": 60,
+            "cPrev": [67992],
+            "cNext": [67993]
         },
         {
             "id": 67993,
-            "level": 60
+            "level": 60,
+            "cPrev": [68490, 68491],
+            "cNext": [67994]
         },
         {
             "id": 67994,
-            "level": 60
+            "level": 60,
+            "cPrev": [67993],
+            "cNext": [67995]
         },
         {
             "id": 67995,
-            "level": 60
+            "level": 60,
+            "cPrev": [67994],
+            "cNext": [
+                67996,
+                "sidequest.68181",
+                "sidequest.68182",
+                "sidequest.68183",
+                "sidequest.68184",
+                "sidequest.68185",
+                "sidequest.68186"
+            ]
         },
         {
             "id": 67996,
-            "level": 60
+            "level": 60,
+            "cPrev": [67995],
+            "cNext": [67997]
         },
         {
             "id": 67997,
-            "level": 60
+            "level": 60,
+            "cPrev": [67990, 67996],
+            "cNext": [68171, 68172, 68173]
         },
         {
             "id": 68171,
-            "level": 60
+            "level": 60,
+            "cPrev": [67997],
+            "cNext": [68174]
         },
         {
             "id": 68172,
-            "level": 60
+            "level": 60,
+            "cPrev": [67997],
+            "cNext": [68174]
         },
         {
             "id": 68173,
-            "level": 60
+            "level": 60,
+            "cPrev": [67997],
+            "cNext": [68174]
         },
         {
             "id": 68174,
-            "level": 60
+            "level": 60,
+            "cPrev": [68171, 68172, 68173]
         },
         {
             "id": 67998,
@@ -99,7 +168,17 @@
         },
         {
             "id": 68000,
-            "level": 61
+            "level": 61,
+            "cNext": [
+                "sidequest.68187",
+                "sidequest.68188",
+                "sidequest.68189",
+                "sidequest.68190",
+                "sidequest.68191",
+                "sidequest.68192",
+                "sidequest.68193",
+                "sidequest.68194"
+            ]
         },
         {
             "id": 68001,
@@ -107,7 +186,15 @@
         },
         {
             "id": 68002,
-            "level": 61
+            "level": 61,
+            "cNext": [
+                "sidequest.68195",
+                "sidequest.68196",
+                "sidequest.68197",
+                "sidequest.68198",
+                "sidequest.68199",
+                "sidequest.68200"
+            ]
         },
         {
             "id": 68003,
@@ -131,7 +218,16 @@
         },
         {
             "id": 68008,
-            "level": 61
+            "level": 61,
+            "cNext": [
+                "sidequest.68167",
+                "sidequest.68201",
+                "sidequest.68202",
+                "sidequest.68203",
+                "sidequest.68204",
+                "sidequest.68205",
+                "sidequest.68472"
+            ]
         },
         {
             "id": 68009,
@@ -143,7 +239,12 @@
         },
         {
             "id": 68011,
-            "level": 61
+            "level": 61,
+            "cNext": [
+                "sidequest.68206",
+                "sidequest.68207",
+                "sidequest.68208"
+            ]
         },
         {
             "id": 68012,
@@ -155,7 +256,15 @@
         },
         {
             "id": 68014,
-            "level": 62
+            "level": 62,
+            "cNext": [
+                "sidequest.68209",
+                "sidequest.68210",
+                "sidequest.68211",
+                "sidequest.68212",
+                "sidequest.68213",
+                "sidequest.68214"
+            ]
         },
         {
             "id": 68015,
@@ -163,23 +272,43 @@
         },
         {
             "id": 68016,
-            "level": 62
+            "level": 62,
+            "cNext": [68215, 68217, 68489]
         },
         {
             "id": 68217,
-            "level": 62
+            "level": 62,
+            "cPrev": [68016],
+            "cNext": [68017]
         },
         {
             "id": 68489,
-            "level": 62
+            "level": 62,
+            "cPrev": [68016],
+            "cNext": [68017]
         },
         {
             "id": 68215,
-            "level": 62
+            "level": 62,
+            "cPrev": [68016],
+            "cNext": [68017]
         },
         {
             "id": 68017,
-            "level": 62
+            "level": 62,
+            "cPrev": [68215, 68217, 68489],
+            "cNext": [
+                "sidequest.68216",
+                "sidequest.68218",
+                "sidequest.68219",
+                "sidequest.68220",
+                "sidequest.68221",
+                "sidequest.68222",
+                "sidequest.68223",
+                "sidequest.68224",
+                "sidequest.68225",
+                "sidequest.68226"
+            ]
         },
         {
             "id": 68018,
@@ -187,15 +316,40 @@
         },
         {
             "id": 68019,
-            "level": 62
+            "level": 62,
+            "cNext": [
+                "sidequest.68227",
+                "sidequest.68228",
+                "sidequest.68229",
+                "sidequest.68230",
+                "sidequest.68231",
+                "sidequest.68232"
+            ]
         },
         {
             "id": 68020,
-            "level": 63
+            "level": 63,
+            "cNext": [
+                "sidequest.68458"
+            ]
         },
         {
             "id": 68021,
-            "level": 63
+            "level": 63,
+            "cNext": [
+                "sidequest.68168",
+                "sidequest.68233",
+                "sidequest.68234",
+                "sidequest.68235",
+                "sidequest.68236",
+                "sidequest.68237",
+                "sidequest.68238",
+                "sidequest.68239",
+                "sidequest.68240",
+                "sidequest.68241",
+                "sidequest.68242",
+                "sidequest.68243"
+            ]
         },
         {
             "id": 68022,
@@ -203,7 +357,14 @@
         },
         {
             "id": 68023,
-            "level": 63
+            "level": 63,
+            "cNext": [
+                "sidequest.68244",
+                "sidequest.68245",
+                "sidequest.68246",
+                "sidequest.68247",
+                "sidequest.68248"
+            ]
         },
         {
             "id": 68024,
@@ -215,7 +376,22 @@
         },
         {
             "id": 68026,
-            "level": 63
+            "level": 63,
+            "cNext": [
+                "sidequest.68249",
+                "sidequest.68250",
+                "sidequest.68251",
+                "sidequest.68252",
+                "sidequest.68253",
+                "sidequest.68254",
+                "sidequest.68255",
+                "sidequest.68256",
+                "sidequest.68257",
+                "sidequest.68258",
+                "sidequest.68259",
+                "quest.68509",
+                "sidequest.68667"
+            ]
         },
         {
             "id": 68027,
@@ -231,11 +407,25 @@
         },
         {
             "id": 68029,
-            "level": 64
+            "level": 64,
+            "cNext": [
+                "sidequest.68260",
+                "sidequest.68261",
+                "sidequest.68264",
+                "sidequest.68265"
+            ]
         },
         {
             "id": 68030,
-            "level": 64
+            "level": 64,
+            "cNext": [
+                "sidequest.68262",
+                "sidequest.68263",
+                "sidequest.68266",
+                "sidequest.68267",
+                "sidequest.68268",
+                "sidequest.68269"
+            ]
         },
         {
             "id": 68031,
@@ -259,7 +449,27 @@
         },
         {
             "id": 68035,
-            "level": 64
+            "level": 64,
+            "cNext": [
+                "sidequest.68270",
+                "sidequest.68271",
+                "sidequest.68272",
+                "sidequest.68273",
+                "sidequest.68274",
+                "sidequest.68275",
+                "sidequest.68276",
+                "sidequest.68277",
+                "sidequest.68278",
+                "sidequest.68279",
+                "sidequest.68280",
+                "sidequest.68281",
+                "sidequest.68282",
+                "sidequest.68283",
+                "sidequest.68284",
+                "sidequest.68285",
+                "sidequest.68286",
+                "sidequest.68287"
+            ]
         },
         {
             "id": 68166,
@@ -267,11 +477,27 @@
         },
         {
             "id": 68036,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68288",
+                "sidequest.68289",
+                "sidequest.68290",
+                "sidequest.68291",
+                "sidequest.68292",
+                "sidequest.68293"
+            ]
         },
         {
             "id": 68037,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68294",
+                "sidequest.68295",
+                "sidequest.68296",
+                "sidequest.68297",
+                "sidequest.68298",
+                "sidequest.68299"
+            ]
         },
         {
             "id": 68038,
@@ -279,15 +505,31 @@
         },
         {
             "id": 68039,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68300",
+                "sidequest.68301",
+                "sidequest.68302",
+                "sidequest.68303"
+            ]
         },
         {
             "id": 68040,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68304",
+                "sidequest.68305",
+                "sidequest.68306"
+            ]
         },
         {
             "id": 68041,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68307",
+                "sidequest.68308",
+                "sidequest.68309"
+            ]
         },
         {
             "id": 68042,
@@ -299,15 +541,33 @@
         },
         {
             "id": 68044,
-            "level": 65
+            "level": 65,
+            "cNext": [
+                "sidequest.68310",
+                "sidequest.68311",
+                "sidequest.68312",
+                "sidequest.68313",
+                "sidequest.68314"
+            ]
         },
         {
             "id": 68045,
-            "level": 66
+            "level": 66,
+            "cNext": [
+                "sidequest.68315",
+                "sidequest.68316",
+                "sidequest.68317"
+            ]
         },
         {
             "id": 68046,
-            "level": 66
+            "level": 66,
+            "cNext": [
+                "sidequest.68318",
+                "sidequest.68319",
+                "sidequest.68320",
+                "sidequest.68321"
+            ]
         },
         {
             "id": 68047,
@@ -315,7 +575,22 @@
         },
         {
             "id": 68048,
-            "level": 66
+            "level": 66,
+            "cNext": [
+                "sidequest.68322",
+                "sidequest.68323",
+                "sidequest.68324",
+                "sidequest.68325",
+                "sidequest.68326",
+                "sidequest.68327",
+                "sidequest.68328",
+                "sidequest.68329",
+                "sidequest.68330",
+                "sidequest.68331",
+                "sidequest.68332",
+                "sidequest.68333",
+                "sidequest.68334"
+            ]
         },
         {
             "id": 68049,
@@ -331,11 +606,18 @@
         },
         {
             "id": 68052,
-            "level": 66
+            "level": 66,
+            "cNext": [
+                "sidequest.68336",
+                "sidequest.68337",
+                "sidequest.68338",
+                "sidequest.68339"
+            ]
         },
         {
             "id": 68053,
-            "level": 66
+            "level": 66,
+            "cNext": ["quest.68632"]
         },
         {
             "id": 68054,
@@ -347,7 +629,17 @@
         },
         {
             "id": 68482,
-            "level": 67
+            "level": 67,
+            "cNext": [
+                "sidequest.68340",
+                "sidequest.68341",
+                "sidequest.68342",
+                "sidequest.68343",
+                "sidequest.68344",
+                "sidequest.68345",
+                "sidequest.68346",
+                "sidequest.68347"
+            ]
         },
         {
             "id": 68056,
@@ -375,7 +667,13 @@
         },
         {
             "id": 68061,
-            "level": 67
+            "level": 67,
+            "cNext": [
+                "sidequest.68348",
+                "sidequest.68349",
+                "sidequest.68350",
+                "sidequest.68351"
+            ]
         },
         {
             "id": 68062,
@@ -395,11 +693,21 @@
         },
         {
             "id": 68066,
-            "level": 67
+            "level": 67,
+            "cNext": [
+                "sidequest.68356",
+                "sidequest.68357"
+            ]
         },
         {
             "id": 68067,
-            "level": 67
+            "level": 67,
+            "cNext": [
+                "sidequest.68352",
+                "sidequest.68353",
+                "sidequest.68354",
+                "sidequest.68355"
+            ]
         },
         {
             "id": 68068,
@@ -407,7 +715,16 @@
         },
         {
             "id": 68069,
-            "level": 67
+            "level": 67,
+            "cNext": [
+                "sidequest.68358",
+                "sidequest.68359",
+                "sidequest.68360",
+                "sidequest.68361",
+                "sidequest.68362",
+                "sidequest.68363",
+                "sidequest.68364"
+            ]
         },
         {
             "id": 68070,
@@ -415,7 +732,14 @@
         },
         {
             "id": 68071,
-            "level": 68
+            "level": 68,
+            "cNext": [
+                "sidequest.68365",
+                "sidequest.68366",
+                "sidequest.68367",
+                "sidequest.68368",
+                "sidequest.68369"
+            ]
         },
         {
             "id": 68072,
@@ -431,7 +755,17 @@
         },
         {
             "id": 68075,
-            "level": 68
+            "level": 68,
+            "cNext": [
+                "sidequest.68370",
+                "sidequest.68371",
+                "sidequest.68372",
+                "sidequest.68373",
+                "sidequest.68374",
+                "sidequest.68382",
+                "sidequest.68383",
+                "sidequest.68384"
+            ]
         },
         {
             "id": 68076,
@@ -439,7 +773,16 @@
         },
         {
             "id": 68077,
-            "level": 68
+            "level": 68,
+            "cNext": [
+                "sidequest.68375",
+                "sidequest.68376",
+                "sidequest.68377",
+                "sidequest.68378",
+                "sidequest.68379",
+                "sidequest.68380",
+                "sidequest.68381"
+            ]
         },
         {
             "id": 68078,
@@ -447,7 +790,17 @@
         },
         {
             "id": 68079,
-            "level": 68
+            "level": 68,
+            "cNext": [
+                "sidequest.68385",
+                "sidequest.68386",
+                "sidequest.68387",
+                "sidequest.68388",
+                "sidequest.68389",
+                "sidequest.68390",
+                "sidequest.68391",
+                "sidequest.68392"
+            ]
         },
         {
             "id": 68080,
@@ -455,19 +808,51 @@
         },
         {
             "id": 68081,
-            "level": 69
+            "level": 69,
+            "cNext": [
+                "sidequest.68393",
+                "sidequest.68394",
+                "sidequest.68395",
+                "sidequest.68396",
+                "sidequest.68397",
+                "sidequest.68398",
+                "sidequest.68399",
+                "sidequest.68400",
+                "sidequest.68401"
+            ]
         },
         {
             "id": 68082,
-            "level": 69
+            "level": 69,
+            "cNext": [
+                "sidequest.68402",
+                "sidequest.68403"
+            ]
         },
         {
             "id": 68083,
-            "level": 69
+            "level": 69,
+            "cNext": [
+                "sidequest.68404",
+                "sidequest.68405",
+                "sidequest.68406",
+                "sidequest.68407",
+                "sidequest.68408",
+                "sidequest.68409",
+                "sidequest.68410",
+                "sidequest.68411",
+                "sidequest.68412"
+            ]
         },
         {
             "id": 68084,
-            "level": 69
+            "level": 69,
+            "cNext": [
+                "sidequest.68413",
+                "sidequest.68414",
+                "sidequest.68415",
+                "sidequest.68416"
+            ]
         },
         {
             "id": 68085,
@@ -479,7 +864,13 @@
         },
         {
             "id": 68087,
-            "level": 69
+            "level": 69,
+            "cNext": [
+                "sidequest.68417",
+                "sidequest.68418",
+                "sidequest.68419",
+                "sidequest.68420"
+            ]
         },
         {
             "id": 68088,
@@ -487,7 +878,26 @@
         },
         {
             "id": 68089,
-            "level": 70
+            "level": 70,
+            "cNext": [
+                "quest.67090",
+                "sidequest.68169",
+                "sidequest.68170",
+                "sidequest.68421",
+                "sidequest.68422",
+                "sidequest.68423",
+                "sidequest.68424",
+                "sidequest.68425",
+                "cneQuest.68464",
+                "sidequest.68476",
+                "quest.68479",
+                "cneQuest.68539",
+                "sidequest.68544",
+                "sidequest.68613",
+                "sidequest.68614",
+                "sidequest.68678",
+                "sidequest.68713"
+            ]
         }
     ]
 }

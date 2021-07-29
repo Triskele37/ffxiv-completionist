@@ -11,6 +11,8 @@ export class Task {
     cPrev; // Tasks that must be completed if this one is
     cNext; // Tasks that cannot be completed without this one
     cSiblings; // Tasks that should mirror this one's completion
+    cExclude; // Tasks that should be excluded if this is marked Y
+    cExclusive; // hack for starting city spaghetti
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
 
@@ -27,7 +29,7 @@ export class Task {
         this._parent = parent;
     }
 
-    changeCompletionFlag(flag) {
+    changeCompletionFlag(flag, chainedTasks = []) {
         // VERY IMPORTANT - DO NOT REMOVE
         if(this.completionFlag === flag) return;
 
@@ -48,7 +50,7 @@ export class Task {
         }
 
         // Return a list of chained tasks including this one
-        const chainer = new Chainer(this, flag);
+        const chainer = new Chainer(this, flag, chainedTasks);
         chainer.triggerChains();
 
         return chainer.chainedTasks;
