@@ -144,7 +144,7 @@ export class Chainer {
                 this.applyCompletion("N", chainTask);
             }
             else if(this.task.completionFlag === "X") {
-
+                // merp
             }
         });
     }
@@ -157,6 +157,9 @@ export class Chainer {
                 this.applyCompletion("X", chainTask);
             }
             else if(this.flag === "N") {
+                this.task.cExclude.forEach(
+                    (el) => this.applyCompletion("N", this.getTaskFromLink(el))
+                );
                 this.applyCompletion("N", chainTask);
             }
             else if(this.flag === "Y" && chainTask.completionFlag === "X") {
