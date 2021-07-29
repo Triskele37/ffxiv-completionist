@@ -3,23 +3,34 @@
     "tasks": [
         {
             "id": 66641,
-            "level": 30
+            "level": 30,
+            "cNext": [
+                67063,
+                "quest.67064",
+                "quest.67065",
+                "sidequest.67819",
+                "sidequest.68543"
+            ]
         },
         {
             "id": 67063,
-            "level": 30
+            "level": 30,
+            "cPrev": [67063, "quest.67064", "quest.67065"]
         },
         {
             "id": 66665,
-            "level": 44
+            "level": 44,
+            "cNext": [66668]
         },
         {
             "id": 66668,
-            "level": 47
+            "level": 47,
+            "cPrev": [66665]
         },
         {
             "id": 67099,
-            "level": 50
+            "level": 50,
+            "cNext": ["sidequest.67655"]
         }
     ]
 }
