@@ -205,6 +205,7 @@ export class Chainer {
             case "cneQuest": path = "duty.quests.chronicles-of-a-new-era"; break;
             case "jobQuest": path = "duty.quests.class--job"; break;
             case "sidequest": path = "duty.quests.sidequests"; break;
+            case "otherQuest": path = "duty.quests.other-quests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;

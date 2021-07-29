@@ -181,7 +181,7 @@
             "id": 68456,
             "level": 60,
             "cPrev": ["quest.67985", "sidequest.65698"],
-            "cNext": ["quest.69140"]
+            "cNext": ["otherQuest.69140"]
         },
         {
             "id": 68457,
@@ -227,7 +227,7 @@
         {
             "id": 69140,
             "level": 70,
-            "cPrev": ["quest.68817", "quest.68456"]
+            "cPrev": ["quest.68817", "otherQuest.68456"]
         },
         {
             "id": 69141,
@@ -293,36 +293,36 @@
             "id": 69580,
             "level": 1,
             "cPrev": ["cneQuest.69579"],
-            "cNext": ["quest.69581"]
+            "cNext": [69581]
         },
         {
             "id": 69581,
             "level": 1,
-            "cPrev": ["quest.69580"],
-            "cNext": ["quest.69582", "cneQuest.69587"]
+            "cPrev": [69580],
+            "cNext": [69582, "cneQuest.69587"]
         },
         {
             "id": 69582,
             "level": 1,
-            "cPrev": ["quest.69581"],
-            "cNext": ["quest.69583"]
+            "cPrev": [69581],
+            "cNext": [69583]
         },
         {
             "id": 69583,
             "level": 1,
-            "cPrev": ["quest.69582"],
-            "cNext": ["quest.69584", "cneQuest.69588"]
+            "cPrev": [69582],
+            "cNext": [69584, "cneQuest.69588"]
         },
         {
             "id": 69584,
             "level": 1,
-            "cPrev": ["quest.69583"],
-            "cNext": ["quest.69585"]
+            "cPrev": [69583],
+            "cNext": [69585]
         },
         {
             "id": 69585,
             "level": 1,
-            "cPrev": ["quest.69584"],
+            "cPrev": [69584],
             "cNext": ["cneQuest.69589"]
         }
     ]
