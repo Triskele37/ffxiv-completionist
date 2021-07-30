@@ -6,4 +6,6 @@ module.exports = function getCacheKey(appKey, lang) {
         case "reputation": return `Reputation_${lang}`;
         case "level": return "Level";
     }
+
+    return appKey;
 };

@@ -180,6 +180,23 @@ export class DataGroup {
         return null;
     }
 
+    getDeepTaskByID(taskID) {
+        if(this.tasks) {
+            for(let i = 0; i < this.tasks.length; i++) {
+                if(this.tasks[i].id === taskID) return this.tasks[i];
+            }
+        }
+
+        if(this.subGroups) {
+            for(let i = 0; i < this.subGroups.length; i++) {
+                const hit = this.subGroups[i].getDeepTaskByID(taskID);
+                if(hit) return hit;
+            }
+        }
+
+        return null;
+    }
+
     //------------------------------------------------------------------ Default Completion
     get defaultCompletion() {
         return this._defaultCompletion;

@@ -169,11 +169,12 @@ export class Chainer {
     }
 
     getTaskFromLink(link) {
-        // Link is in the same group
+        // Raw ID link
         if(typeof link === "number") {
-            return this.task._parent.tasks.find((t) => t.id === link);
+            const chainTask = this.task._parent.tasks.find((t) => t.id === link)
+            return chainTask ? chainTask : this.overall.getDeepTaskByID(link);
         }
-        // Link is in an external group
+        // String path link
         else {
             const linkedPath = link.split(".");
             const linkedID = parseInt(linkedPath.pop());

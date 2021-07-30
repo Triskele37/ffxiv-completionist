@@ -37,6 +37,10 @@ class ChangeData {
     setTaskKeyInfo(appKey) {
         this.appKey = appKey;
         this.cacheKey = this.content.getCacheKey(this.appKey, this.lang);
+
+        if(!this.cacheKey) {
+            console.error(`Invalid cacheKey for appKey: ${appKey}`);
+        }
     }
 
     tasksHaveDiff() {
@@ -44,7 +48,9 @@ class ChangeData {
         const cacheValue = this.cacheTask[this.cacheKey];
 
         // Don't make app tasks have blank arrays as properties
-        if(Array.isArray(cacheValue) && !appValue && !cacheValue.length) return false;
+        if(Array.isArray(cacheValue)) {
+
+        }
 
         return (appValue !== utils.safeTrim(cacheValue));
     }

@@ -59,3 +59,6 @@
     - clean up previous "quest" shorthand
 
 * cPrevAny & cPrevAll?
+
+* remove "chains" property
+* automate quest chains
