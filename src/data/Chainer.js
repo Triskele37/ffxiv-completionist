@@ -37,11 +37,14 @@ export class Chainer {
 
     //#region------------------------------------------------------------------ Chaining
     triggerChains() {
+        // Don't chain again if this task has already chained
         if(!!this.chainedTasks.find((c) => c.id === this.task.id)) return;
 
         if(!!this.task.cPrev && this.flag === "Y") {
             this.applyChainedFlag(this.task.cPrev);
         }
+
+        // cPrevAny cannot be chained
 
         if(!!this.task.cNext && this.flag === "N") {
             this.applyChainedFlag(this.task.cNext);
@@ -64,6 +67,70 @@ export class Chainer {
         }
     }
 
+    // Generic Chain
+    applyChainedFlag(chainedTasks) {
+        const originalFlag = this.flag;
+
+        chainedTasks.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+
+            // Sanity Log
+            if(!chainTask) {
+                console.error(`Invalid link (${link}) from task: `, this.task);
+            }
+
+            this.applyCompletion(originalFlag, chainTask);
+        });
+    }
+
+    // Exclude Chain
+    applyExclusionChain() {
+        const isNum = typeof this.task.cExclude === "number";
+        const excludes = isNum ? [this.task.cExclude] : this.task.cExclude;
+
+        excludes.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+
+            // Sanity Log
+            if(!chainTask) {
+                console.error(`Invalid link (${link}) from task: `, this.task);
+            }
+
+            // Exclude the chain task if this one is marked Y
+            if(this.task.completionFlag === "Y") {
+                this.applyCompletion("X", chainTask);
+            }
+            // Unexclude chain task if this one is unmarked Y
+            else if(this.task.completionFlag === "N" && chainTask.completionFlag === "X") {
+                this.applyCompletion("N", chainTask);
+            }
+            else if(this.task.completionFlag === "X") {
+                // merp
+            }
+        });
+    }
+
+    // Exclusive Chain
+    applyExclusiveChain() {
+        this.task.cExclusive.forEach((link) => {
+            const chainTask = this.getTaskFromLink(link);
+
+            if(this.flag === "X") {
+                this.applyCompletion("X", chainTask);
+            }
+            else if(this.flag === "N") {
+                this.task.cExclude.forEach(
+                    (el) => this.applyCompletion("N", this.getTaskFromLink(el))
+                );
+                this.applyCompletion("N", chainTask);
+            }
+            else if(this.flag === "Y" && chainTask.completionFlag === "X") {
+                this.applyCompletion("N", chainTask);
+            }
+        });
+    }
+
+    // Shorthand Chains
     triggerGroupLevelChains() {
         this.chains.forEach((chain) => {
             // Simple chain
@@ -102,70 +169,12 @@ export class Chainer {
             }
         });
     }
+    //#endregion
 
-    applyChainedFlag(chainedTasks) {
-        const originalFlag = this.flag;
-
-        chainedTasks.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
-            // Sanity Log
-            if(!chainTask) {
-                console.error(`Invalid link (${link}) from task: `, this.task);
-            }
-
-            this.applyCompletion(originalFlag, chainTask);
-        });
-    }
-
+    //#region------------------------------------------------------------------ Helpers
     applyCompletion(flag, chainTask) {
         this.chainedTasks.push({ task: chainTask, flag });
         chainTask.changeCompletionFlag(flag, this.chainedTasks);
-    }
-
-    applyExclusionChain() {
-        const isNum = typeof this.task.cExclude === "number";
-        const excludes = isNum ? [this.task.cExclude] : this.task.cExclude;
-
-        excludes.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
-            // Sanity Log
-            if(!chainTask) {
-                console.error(`Invalid link (${link}) from task: `, this.task);
-            }
-
-            // Exclude the chain task if this one is marked Y
-            if(this.task.completionFlag === "Y") {
-                this.applyCompletion("X", chainTask);
-            }
-            // Unexclude chain task if this one is unmarked Y
-            else if(this.task.completionFlag === "N" && chainTask.completionFlag === "X") {
-                this.applyCompletion("N", chainTask);
-            }
-            else if(this.task.completionFlag === "X") {
-                // merp
-            }
-        });
-    }
-
-    applyExclusiveChain() {
-        this.task.cExclusive.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
-            if(this.flag === "X") {
-                this.applyCompletion("X", chainTask);
-            }
-            else if(this.flag === "N") {
-                this.task.cExclude.forEach(
-                    (el) => this.applyCompletion("N", this.getTaskFromLink(el))
-                );
-                this.applyCompletion("N", chainTask);
-            }
-            else if(this.flag === "Y" && chainTask.completionFlag === "X") {
-                this.applyCompletion("N", chainTask);
-            }
-        });
     }
 
     getTaskFromLink(link) {
