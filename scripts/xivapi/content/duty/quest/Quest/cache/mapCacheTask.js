@@ -66,5 +66,5 @@ function chainExists(questID) {
 }
 
 function isRemovedQuest(questID) {
-    return Object.keys(removedIds).includes(questID);
+    return Object.keys(removedIds).includes(questID.toString());
 }

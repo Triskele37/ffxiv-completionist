@@ -19,7 +19,7 @@ function diveForLoad(currentGroup, currentStoreLayer) {
         currentGroup.tasks.forEach((task) => {
             if(currentStoreLayer[task.storageKey]) {
                 if(!currentGroup.isNumericCompletion) {
-                    task.changeCompletionFlag(currentStoreLayer[task.storageKey]);
+                    task.setCompletionFlag(currentStoreLayer[task.storageKey]);
                 }
                 else {
                     task.changeCompletionNumber(currentStoreLayer[task.storageKey]);

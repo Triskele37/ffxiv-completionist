@@ -1,3 +1,4 @@
+const fs = require("fs");
 const readline = require('readline');
 const logUpdate = require('log-update');
 const rl = readline.createInterface({
@@ -25,6 +26,10 @@ function mainScreen() {
             case '1': contentOptionPrompt(rl, done); break;
             case '2': cleanCLI(rl, mainScreen); break;
             case '0': {
+                const path = `${__dirname}/content/duty/quest/Quest/excludedIds.json`;
+                const file = JSON.parse(fs.readFileSync(path));
+                console.log(Object.keys(file).includes("66244"));
+
                 done();
                 break;
             }

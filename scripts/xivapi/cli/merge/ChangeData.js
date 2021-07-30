@@ -43,13 +43,19 @@ class ChangeData {
         }
     }
 
+    //TODO: Don't make app tasks have blank arrays as properties
     tasksHaveDiff() {
         const appValue = this.appTask[this.appKey];
         const cacheValue = this.cacheTask[this.cacheKey];
 
-        // Don't make app tasks have blank arrays as properties
         if(Array.isArray(cacheValue)) {
+            if(!appValue || appValue.length !== cacheValue.length) return true;
 
+            for(let i = 0; i < cacheValue.length; i++) {
+                if(appValue[i] !== utils.safeTrim(cacheValue[i])) return true;
+            }
+
+            return false;
         }
 
         return (appValue !== utils.safeTrim(cacheValue));

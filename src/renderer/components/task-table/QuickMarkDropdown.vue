@@ -78,7 +78,7 @@ export default {
                 if(from === '$' && task.selected || task.completionFlag === from) {
                     this.lastChanged.push({ task, oldFlag: task.completionFlag });
 
-                    task.changeCompletionFlag(to)
+                    task.setCompletionFlag(to)
                 }
             });
 
@@ -86,7 +86,7 @@ export default {
         },
         onUndoLastChange: function() {
             this.lastChanged.forEach((changed) => {
-                changed.task.changeCompletionFlag(changed.oldFlag);
+                changed.task.setCompletionFlag(changed.oldFlag);
             });
             applyDataToStore(data);
             this.lastChanged = [];

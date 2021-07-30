@@ -29,9 +29,8 @@ export class Task {
         this._parent = parent;
     }
 
-    changeCompletionFlag(flag, chainedTasks = []) {
-        // VERY IMPORTANT - DO NOT REMOVE
-        if(this.completionFlag === flag) return;
+    setCompletionFlag(flag) {
+        if(this.completionFlag === flag) return; // MUI IMPORTANTE
 
         // Get flag conversions (N changes are implied from Y changes)
         const wasX = this.completionFlag === "X" && flag !== "X"; // X to ?
@@ -48,6 +47,12 @@ export class Task {
         if(wasY || nowY) {
             this._parent.updateCompleted(wasY ? -1 : nowY ? 1 : 0);
         }
+    }
+
+    changeCompletionFlag(flag, chainedTasks = []) {
+        if(this.completionFlag === flag) return; // MUI IMPORTANTE
+
+        this.setCompletionFlag(flag);
 
         // Return a list of chained tasks including this one
         const chainer = new Chainer(this, flag, chainedTasks);

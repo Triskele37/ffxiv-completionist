@@ -118,7 +118,7 @@ export default {
 
                 const group = data.getChildGroupFromPath(match.path, true);
                 const task = group.tasks.find((t) => t.name === this.mergeTask.name);
-                task.changeCompletionFlag(this.mergeTask.completionFlag);
+                task.setCompletionFlag(this.mergeTask.completionFlag);
                 this.removeCustomTask(this.mergeTask);
                 this.mergeIndex--;
                 this.goToNextMerge();
@@ -152,7 +152,7 @@ export default {
             store.set('custom', customTasks);
 
             // Update displayed completion
-            task.changeCompletionFlag('N');
+            task.setCompletionFlag('N');
 
             // Find & Remove from data
             const groupIndex = this.customData.tasks.findIndex((c) => c.name === task.name);

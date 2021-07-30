@@ -38,7 +38,7 @@ export class Chainer {
     //#region------------------------------------------------------------------ Chaining
     triggerChains() {
         // Don't chain again if this task has already chained
-        if(!!this.chainedTasks.find((c) => c.id === this.task.id)) return;
+        // if(!!this.chainedTasks.find((c) => c.id === this.task.id)) return;
 
         if(!!this.task.cPrev && this.flag === "Y") {
             this.applyChainedFlag(this.task.cPrev);
@@ -70,17 +70,9 @@ export class Chainer {
     // Generic Chain
     applyChainedFlag(chainedTasks) {
         const originalFlag = this.flag;
-
-        chainedTasks.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
-            // Sanity Log
-            if(!chainTask) {
-                console.error(`Invalid link (${link}) from task: `, this.task);
-            }
-
-            this.applyCompletion(originalFlag, chainTask);
-        });
+        chainedTasks.forEach(
+            (link) => this.applyFlagToTask(originalFlag, this.getTaskFromLink(link))
+        );
     }
 
     // Exclude Chain
@@ -91,18 +83,13 @@ export class Chainer {
         excludes.forEach((link) => {
             const chainTask = this.getTaskFromLink(link);
 
-            // Sanity Log
-            if(!chainTask) {
-                console.error(`Invalid link (${link}) from task: `, this.task);
-            }
-
             // Exclude the chain task if this one is marked Y
             if(this.task.completionFlag === "Y") {
-                this.applyCompletion("X", chainTask);
+                this.applyFlagToTask("X", chainTask);
             }
             // Unexclude chain task if this one is unmarked Y
             else if(this.task.completionFlag === "N" && chainTask.completionFlag === "X") {
-                this.applyCompletion("N", chainTask);
+                this.applyFlagToTask("N", chainTask);
             }
             else if(this.task.completionFlag === "X") {
                 // merp
@@ -116,16 +103,16 @@ export class Chainer {
             const chainTask = this.getTaskFromLink(link);
 
             if(this.flag === "X") {
-                this.applyCompletion("X", chainTask);
+                this.applyFlagToTask("X", chainTask);
             }
             else if(this.flag === "N") {
                 this.task.cExclude.forEach(
-                    (el) => this.applyCompletion("N", this.getTaskFromLink(el))
+                    (el) => this.applyFlagToTask("N", this.getTaskFromLink(el))
                 );
-                this.applyCompletion("N", chainTask);
+                this.applyFlagToTask("N", chainTask);
             }
             else if(this.flag === "Y" && chainTask.completionFlag === "X") {
-                this.applyCompletion("N", chainTask);
+                this.applyFlagToTask("N", chainTask);
             }
         });
     }
@@ -172,16 +159,21 @@ export class Chainer {
     //#endregion
 
     //#region------------------------------------------------------------------ Helpers
-    applyCompletion(flag, chainTask) {
+    applyFlagToTask(flag, chainTask) {
         this.chainedTasks.push({ task: chainTask, flag });
         chainTask.changeCompletionFlag(flag, this.chainedTasks);
     }
 
     getTaskFromLink(link) {
+        let chainTask;
+
         // Raw ID link
         if(typeof link === "number") {
-            const chainTask = this.task._parent.tasks.find((t) => t.id === link)
-            return chainTask ? chainTask : this.overall.getDeepTaskByID(link);
+            // Attempt to find the task in the immediate group first
+            chainTask = (this.task._parent.tasks || []).find((t) => t.id === link);
+
+            // Otherwise brute force search the task
+            if(!chainTask) chainTask = this.overall.getTaskByID(link);
         }
         // String path link
         else {
@@ -189,13 +181,14 @@ export class Chainer {
             const linkedID = parseInt(linkedPath.pop());
             const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
 
-            // Sanity log
-            if(!linkedGroup) {
-                console.error(`Invalid link (${link}) from task: `, this.task);
-            }
-
-            return linkedGroup.tasks.find((t) => t.id === linkedID);
+            chainTask = (linkedGroup || []).tasks.find((t) => t.id === linkedID);
         }
+
+        if(!chainTask) {
+            console.error(`Invalid link (${link}) from task: `, this.task);
+        }
+
+        return chainTask;
     }
 
     // Returns the group for a chain task, allowing shorthand for some groups
@@ -210,12 +203,7 @@ export class Chainer {
         switch(linkedPath[0]) {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
-
             case "quest": path = "duty.quests"; break;
-            case "cneQuest": path = "duty.quests.chronicles-of-a-new-era"; break;
-            case "jobQuest": path = "duty.quests.class--job"; break;
-            case "sidequest": path = "duty.quests.sidequests"; break;
-            case "otherQuest": path = "duty.quests.other-quests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;

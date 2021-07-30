@@ -36,6 +36,9 @@ module.exports = function mergeDiffTasks(rl, content, tasks, next) {
         // Display the progress of all diffs and information about the current diff
         rl.write(`Diff detected ${totalTasks - tasks.length}/${totalTasks}: ${changeData.appPath}\n`);
         rl.write(`Key: ${changeData.appKey}\n\n`);
+        rl.write(`  App: ${changeData.appTask[changeData.appKey]}\n`);
+        rl.write(`Cache: ${changeData.cacheTask[changeData.cacheKey]}\n\n`);
+
         rl.write("App Task:\n");
         console.log(changeData.appTask);
         rl.write("\nCache Task:\n");

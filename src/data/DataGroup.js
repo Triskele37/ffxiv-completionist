@@ -77,9 +77,9 @@ export class DataGroup {
             const taskObj = new Task(task, this);
 
             // Allow groups to have default flags for all child tasks
-            if(!taskObj.defaultCompletion) taskObj.changeCompletionFlag(this.defaultCompletion);
+            if(!taskObj.defaultCompletion) taskObj.setCompletionFlag(this.defaultCompletion);
             // Prioritize task level defaults
-            else taskObj.changeCompletionFlag(taskObj.defaultCompletion);
+            else taskObj.setCompletionFlag(taskObj.defaultCompletion);
 
             return taskObj;
         });
@@ -132,7 +132,7 @@ export class DataGroup {
         return (this._parent ? this._parent.fullStorageKey + '.' : '') + this.storageKey;
     }
 
-    //------------------------------------------------------------------ Pathing
+    //------------------------------------------------------------------ Groups
     get groupPath() {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
@@ -180,18 +180,30 @@ export class DataGroup {
         return null;
     }
 
-    getDeepTaskByID(taskID) {
-        if(this.tasks) {
-            for(let i = 0; i < this.tasks.length; i++) {
-                if(this.tasks[i].id === taskID) return this.tasks[i];
-            }
+    //------------------------------------------------------------------ Tasks
+    // Looks for a task ID going upward
+    getTaskByID(taskID) {
+        for(let i = 0; i < (this.tasks || []).length; i++) {
+            if(this.tasks[i].id === taskID) return this.tasks[i];
         }
 
-        if(this.subGroups) {
-            for(let i = 0; i < this.subGroups.length; i++) {
-                const hit = this.subGroups[i].getDeepTaskByID(taskID);
-                if(hit) return hit;
-            }
+        for(let i = 0; i < (this.subGroups || []).length; i++) {
+            const task = this.subGroups[i].getDeepTaskByID(taskID);
+            if(task) return task;
+        }
+
+        return this._parent ? this._parent.getTaskByID(taskID) : null;
+    }
+
+    // Looks for a task ID going downward
+    getDeepTaskByID(taskID) {
+        for(let i = 0; i < (this.tasks || []).length; i++) {
+            if(this.tasks[i].id === taskID) return this.tasks[i];
+        }
+
+        for(let i = 0; i < (this.subGroups || []).length; i++) {
+            const task = this.subGroups[i].getDeepTaskByID(taskID);
+            if(task) return task;
         }
 
         return null;
@@ -211,7 +223,7 @@ export class DataGroup {
 
         if(this.tasks) {
             this.tasks.forEach((task) => {
-                if(!task.defaultCompletion) task.changeCompletionFlag(value);
+                if(!task.defaultCompletion) task.setCompletionFlag(value);
             });
         }
     }
