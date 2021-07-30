@@ -4,170 +4,255 @@
         {
             "id": 65713,
             "level": 1,
-            "cNext": ["jobQuest.65821"]
+            "cNext": [
+                65821
+            ]
         },
         {
             "id": 65714,
             "level": 1,
-            "cNext": ["jobQuest.66068"]
+            "cNext": [
+                66068
+            ]
         },
         {
             "id": 65715,
             "level": 1,
-            "cNext": ["jobQuest.65846"]
+            "cNext": [
+                65846
+            ]
         },
         {
             "id": 65716,
             "level": 1,
-            "cNext": ["jobQuest.65668"]
+            "cNext": [
+                65668
+            ]
         },
         {
             "id": 65717,
             "level": 1,
-            "cNext": ["jobQuest.65667"]
+            "cNext": [
+                65667
+            ]
         },
         {
             "id": 65718,
             "level": 1,
-            "cNext": ["jobQuest.65669"]
+            "cNext": [
+                65669
+            ]
         },
         {
             "id": 65719,
             "level": 1,
-            "cNext": ["jobQuest.65880"]
+            "cNext": [
+                65880
+            ]
         },
         {
             "id": 65720,
             "level": 1,
-            "cNext": ["jobQuest.65674"]
+            "cNext": [
+                65674
+            ]
         },
         {
             "id": 65721,
             "level": 1,
-            "cNext": ["jobQuest.65827"]
+            "cNext": [
+                65827
+            ]
         },
         {
             "id": 65722,
             "level": 1,
-            "cNext": ["jobQuest.65809"]
+            "cNext": [
+                65809
+            ]
         },
         {
             "id": 65723,
             "level": 1,
-            "cNext": ["jobQuest.66144"]
+            "cNext": [
+                66144
+            ]
         },
         {
             "id": 65724,
             "level": 1,
-            "cNext": ["jobQuest.65641"]
+            "cNext": [
+                65641
+            ]
         },
         {
             "id": 65725,
             "level": 1,
-            "cNext": ["jobQuest.66070"]
+            "cNext": [
+                66070
+            ]
         },
         {
             "id": 65726,
             "level": 1,
-            "cNext": ["jobQuest.66111"]
+            "cNext": [
+                66111
+            ]
         },
         {
             "id": 65727,
             "level": 1,
-            "cNext": ["jobQuest.65807"]
+            "cNext": [
+                65807
+            ]
         },
         {
             "id": 65728,
             "level": 1,
-            "cNext": ["jobQuest.66133"]
+            "cNext": [
+                66133
+            ]
         },
         {
             "id": 65729,
             "level": 1,
-            "cNext": ["jobQuest.65539"]
+            "cNext": [
+                65539
+            ]
         },
         {
             "id": 65973,
             "level": 15,
-            "cPrev": ["sidequest.65970"]
+            "cPrev": [
+                65970
+            ]
         },
         {
             "id": 65987,
             "level": 1,
-            "cNext": ["jobQuest.65988"]
+            "cNext": [
+                65988
+            ]
         },
         {
             "id": 66024,
             "level": 15,
-            "cPrev": ["sidequest.65970"]
+            "cPrev": [
+                65970
+            ]
         },
         {
             "id": 66025,
             "level": 15,
-            "cPrev": ["sidequest.65970"]
+            "cPrev": [
+                65970
+            ]
         },
         {
             "id": 66670,
             "level": 1,
-            "cNext": ["jobQuest.66643"]
+            "cNext": [
+                66643
+            ]
         },
         {
             "id": 67635,
             "level": 60,
-            "cPrev": ["sidequest.67634"]
+            "cPrev": [
+                67634
+            ]
         },
         {
             "id": 67642,
             "level": 50,
-            "cPrev": ["quest.67118"]
+            "cPrev": [
+                67118
+            ]
         },
         {
             "id": 67643,
             "level": 52,
-            "cPrev": ["quest.67145", "sidequest.65698"]
+            "cPrev": [
+                67145,
+                65698
+            ]
         },
         {
             "id": 67645,
             "level": 50,
-            "cPrev": ["quest.65964"],
-            "cNext": ["jobQuest.67232"]
+            "cPrev": [
+                65964
+            ],
+            "cNext": [
+                67232
+            ]
         },
         {
             "id": 67646,
             "level": 50,
-            "cPrev": ["quest.65964"],
-            "cNext": ["jobQuest.67589"]
+            "cPrev": [
+                65964
+            ],
+            "cNext": [
+                67589
+            ]
         },
         {
             "id": 67659,
             "level": 50,
-            "cPrev": ["quest.65964"],
-            "cNext": ["jobQuest.67548"]
+            "cPrev": [
+                65964
+            ],
+            "cNext": [
+                67548
+            ]
         },
         {
             "id": 67870,
             "level": 60,
-            "cPrev": ["sidequest.67864"]
+            "cPrev": [
+                67864
+            ]
         },
         {
             "id": 67923,
             "level": 17,
-            "cPrev": ["sidequest.67092"]
+            "cPrev": [
+                67092
+            ]
         },
         {
             "id": 67925,
             "level": 47,
-            "cPrev": ["sidequest.66967"]
+            "cPrev": [
+                66967
+            ],
+            "cExclude": [
+                67926,
+                67927
+            ]
         },
         {
             "id": 67926,
             "level": 47,
-            "cPrev": ["sidequest.65964"]
+            "cPrev": [
+                66967
+            ],
+            "cExclude": [
+                67925,
+                67927
+            ]
         },
         {
             "id": 67927,
             "level": 47,
-            "cPrev": ["sidequest.65964"]
+            "cPrev": [
+                66967
+            ],
+            "cExclude": [
+                67926,
+                67925
+            ]
         },
         {
             "id": 68148,
@@ -180,19 +265,30 @@
         {
             "id": 68456,
             "level": 60,
-            "cPrev": ["quest.67985", "sidequest.65698"],
-            "cNext": ["otherQuest.69140"]
+            "cPrev": [
+                65698,
+                67985
+            ],
+            "cNext": [
+                69140
+            ]
         },
         {
             "id": 68457,
             "level": 60,
-            "cPrev": ["quest.67895"]
+            "cPrev": [
+                67895
+            ]
         },
         {
             "id": 68477,
             "level": 60,
-            "cPrev": ["sidequest.67634"],
-            "cNext": ["sidequest.68541"]
+            "cPrev": [
+                67634
+            ],
+            "cNext": [
+                68541
+            ]
         },
         {
             "id": 68478,
@@ -201,79 +297,115 @@
         {
             "id": 68479,
             "level": 70,
-            "cPrev": ["quest.68089"]
+            "cPrev": [
+                68089
+            ]
         },
         {
             "id": 68555,
             "level": 30,
-            "cPrev": ["jobQuest.66621"]
+            "cPrev": [
+                66621
+            ]
         },
         {
             "id": 68624,
             "level": 70,
-            "cPrev": ["quest.66060"]
+            "cPrev": [
+                66060
+            ]
         },
         {
             "id": 69138,
             "level": 70,
-            "cPrev": ["quest.68817"]
+            "cPrev": [
+                68817
+            ]
         },
         {
             "id": 69139,
             "level": 70,
-            "cPrev": ["quest.68822", "sidequest.67634"],
-            "cNext": ["sidequest.69265"]
+            "cPrev": [
+                68822,
+                67634
+            ],
+            "cNext": [
+                69265
+            ]
         },
         {
             "id": 69140,
             "level": 70,
-            "cPrev": ["quest.68817", "otherQuest.68456"]
+            "cPrev": [
+                68456,
+                68817
+            ]
         },
         {
             "id": 69141,
             "level": 80,
-            "cPrev": ["quest.69190"]
+            "cPrev": [
+                69190
+            ]
         },
         {
             "id": 69198,
             "level": 80,
-            "cPrev": ["quest.69190"]
+            "cPrev": [
+                69190
+            ]
         },
         {
             "id": 69295,
             "level": 1,
-            "cPrev": ["quest.66060"]
+            "cPrev": [
+                66060
+            ]
         },
         {
             "id": 69296,
             "level": 1,
-            "cPrev": ["sidequest.69208"]
+            "cPrev": [
+                69208
+            ]
         },
         {
             "id": 69377,
             "level": 1,
-            "cPrev": ["sidequest.69208"]
+            "cPrev": [
+                69208
+            ]
         },
         {
             "id": 69378,
             "level": 80,
-            "cPrev": ["sidequest.69319"]
+            "cPrev": [
+                69319
+            ]
         },
         {
             "id": 69478,
             "level": 1,
-            "cPrev": ["sidequest.69477"],
-            "cNext": ["sidequest.69479"]
+            "cPrev": [
+                69477
+            ],
+            "cNext": [
+                69479
+            ]
         },
         {
             "id": 69508,
             "level": 1,
-            "cPrev": ["sidequest.69208"]
+            "cPrev": [
+                69208
+            ]
         },
         {
             "id": 69563,
             "level": 1,
-            "cPrev": ["sidequest.69562"]
+            "cPrev": [
+                69562
+            ]
         },
         {
             "id": 69566,
@@ -282,48 +414,78 @@
         {
             "id": 69578,
             "level": 1,
-            "cPrev": ["sidequest.69208"]
+            "cPrev": [
+                69208
+            ],
+            "cNext": [
+                69535
+            ]
         },
         {
             "id": 69630,
             "level": 1,
-            "cPrev": ["sidequest.69624"]
+            "cPrev": [
+                69624
+            ]
         },
         {
             "id": 69580,
             "level": 1,
-            "cPrev": ["cneQuest.69579"],
-            "cNext": [69581]
+            "cPrev": [
+                69579
+            ],
+            "cNext": [
+                69581
+            ]
         },
         {
             "id": 69581,
             "level": 1,
-            "cPrev": [69580],
-            "cNext": [69582, "cneQuest.69587"]
+            "cPrev": [
+                69580
+            ],
+            "cNext": [
+                69587,
+                69582
+            ]
         },
         {
             "id": 69582,
             "level": 1,
-            "cPrev": [69581],
-            "cNext": [69583]
+            "cPrev": [
+                69581
+            ],
+            "cNext": [
+                69583
+            ]
         },
         {
             "id": 69583,
             "level": 1,
-            "cPrev": [69582],
-            "cNext": [69584, "cneQuest.69588"]
+            "cPrev": [
+                69582
+            ],
+            "cNext": [
+                69588,
+                69584
+            ]
         },
         {
             "id": 69584,
             "level": 1,
-            "cPrev": [69583],
-            "cNext": [69585]
+            "cPrev": [
+                69583
+            ],
+            "cNext": [
+                69585
+            ]
         },
         {
             "id": 69585,
             "level": 1,
-            "cPrev": [69584],
-            "cNext": ["cneQuest.69589"]
+            "cPrev": [
+                69584
+            ]
         }
     ]
 }

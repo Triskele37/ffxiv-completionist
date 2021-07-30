@@ -6,31 +6,53 @@
             "level": 30,
             "cNext": [
                 67063,
-                "quest.67064",
-                "quest.67065",
-                "sidequest.67819",
-                "sidequest.68543"
+                67064,
+                67065,
+                67819,
+                68543
+            ],
+            "cExclude": [
+                66640,
+                66642
             ]
         },
         {
             "id": 67063,
             "level": 30,
-            "cPrev": [67063, "otherQuest.67064", "otherQuest.67065"]
+            "cPrevAny": [
+                66641,
+                66642,
+                66640
+            ],
+            "cExclude": [
+                67065,
+                67064
+            ]
         },
         {
             "id": 66665,
             "level": 44,
-            "cNext": [66668]
+            "cNext": [
+                66668
+            ]
         },
         {
             "id": 66668,
             "level": 47,
-            "cPrev": [66665]
+            "cPrev": [
+                66665
+            ]
         },
         {
             "id": 67099,
             "level": 50,
-            "cNext": ["sidequest.67655"]
+            "cNext": [
+                67655
+            ],
+            "cExclude": [
+                67100,
+                67101
+            ]
         }
     ]
 }

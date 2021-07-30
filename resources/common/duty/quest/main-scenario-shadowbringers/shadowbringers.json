@@ -3,720 +3,1299 @@
     "tasks": [
         {
             "id": 68815,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68721
+            ],
+            "cNext": [
+                68816
+            ]
         },
         {
             "id": 68816,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68815
+            ],
+            "cNext": [
+                68817
+            ]
         },
         {
             "id": 68817,
             "level": 70,
             "cNext": [
-                "sidequest.68879",
-                "sidequest.68880",
-                "sidequest.68881",
-                "sidequest.68882",
-                "sidequest.68883",
-                "sidequest.68884",
-                "sidequest.69133",
-                "otherQuest.69138",
-                "otherQuest.69140"
+                68827,
+                68881,
+                68882,
+                68879,
+                68880,
+                68818,
+                69138,
+                68883,
+                68884,
+                69140,
+                69133
+            ],
+            "cPrev": [
+                68816
             ]
         },
         {
             "id": 68818,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68817
+            ],
+            "cNext": [
+                68819
+            ]
         },
         {
             "id": 68819,
             "level": 70,
             "cNext": [
-                "sidequest.68885",
-                "sidequest.68886",
-                "sidequest.68887"
+                68885,
+                68887,
+                68820,
+                68886
+            ],
+            "cPrev": [
+                68818
             ]
         },
         {
             "id": 68820,
             "level": 70,
             "cNext": [
-                "sidequest.68888",
-                "sidequest.68889",
-                "sidequest.68890",
-                "sidequest.68891"
+                68888,
+                68889,
+                68890,
+                68821,
+                68891
+            ],
+            "cPrev": [
+                68819
             ]
         },
         {
             "id": 68821,
             "level": 70,
             "cNext": [
-                "sidequest.68892",
-                "sidequest.68893",
-                "sidequest.68894",
-                "sidequest.68895",
-                "sidequest.68896",
-                "sidequest.68907"
+                68896,
+                68907,
+                68822,
+                68895,
+                68892,
+                68893,
+                68894
+            ],
+            "cPrev": [
+                68820
             ]
         },
         {
             "id": 68822,
             "level": 70,
-            "cNext": ["otherQuest.69139"]
+            "cNext": [
+                68823,
+                69139
+            ],
+            "cPrev": [
+                68821
+            ]
         },
         {
             "id": 68823,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68822
+            ],
+            "cNext": [
+                68824
+            ]
         },
         {
             "id": 68824,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68823
+            ],
+            "cNext": [
+                68825
+            ]
         },
         {
             "id": 68825,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68824
+            ],
+            "cNext": [
+                68826
+            ]
         },
         {
             "id": 68826,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68825
+            ],
+            "cNext": [
+                68836
+            ]
         },
         {
             "id": 68827,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68817
+            ],
+            "cNext": [
+                68828
+            ]
         },
         {
             "id": 68828,
             "level": 70,
             "cNext": [
-                "sidequest.68897",
-                "sidequest.68898",
-                "sidequest.68899",
-                "sidequest.68901",
-                "sidequest.68902"
+                68829,
+                68897,
+                68898,
+                68899,
+                68902,
+                68901
+            ],
+            "cPrev": [
+                68827
             ]
         },
         {
             "id": 68829,
             "level": 70,
-            "cNext": ["sidequest.68911"]
+            "cNext": [
+                68911,
+                68830
+            ],
+            "cPrev": [
+                68828
+            ]
         },
         {
             "id": 68830,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68829
+            ],
+            "cNext": [
+                68831
+            ]
         },
         {
             "id": 68831,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68830
+            ],
+            "cNext": [
+                68832
+            ]
         },
         {
             "id": 68832,
             "level": 70,
             "cNext": [
-                "sidequest.68903",
-                "sidequest.68904",
-                "sidequest.68905",
-                "sidequest.68906"
+                68833,
+                68903,
+                68904,
+                68905,
+                68906
+            ],
+            "cPrev": [
+                68831
             ]
         },
         {
             "id": 68833,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68832
+            ],
+            "cNext": [
+                68834
+            ]
         },
         {
             "id": 68834,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68833
+            ],
+            "cNext": [
+                68835
+            ]
         },
         {
             "id": 68835,
-            "level": 70
+            "level": 70,
+            "cPrev": [
+                68834
+            ],
+            "cNext": [
+                68836
+            ]
         },
         {
             "id": 68836,
-            "level": 71
+            "level": 71,
+            "cPrev": [
+                68826,
+                68835
+            ],
+            "cNext": [
+                68837
+            ]
         },
         {
             "id": 68837,
             "level": 71,
             "cNext": [
-                "jobQuest.68779",
-                "jobQuest.68803",
-                "jobQuest.68809",
-                "jobQuest.69159",
-                "sidequest.68915",
-                "sidequest.68916"
+                68916,
+                68838,
+                68809,
+                68915,
+                68779,
+                68803,
+                69159
+            ],
+            "cPrev": [
+                68836
             ]
         },
         {
             "id": 68838,
-            "level": 72
+            "level": 72,
+            "cPrev": [
+                68837
+            ],
+            "cNext": [
+                68839
+            ]
         },
         {
             "id": 68839,
             "level": 72,
-            "cNext": ["jobQuest.69191"]
+            "cNext": [
+                68840,
+                69191
+            ],
+            "cPrev": [
+                68838
+            ]
         },
         {
             "id": 68840,
             "level": 72,
             "cNext": [
-                "sidequest.68920",
-                "sidequest.68921",
-                "sidequest.68922",
-                "sidequest.68924",
-                "sidequest.68925",
-                "sidequest.68926",
-                "sidequest.68927"
+                68920,
+                68921,
+                68922,
+                68841,
+                68924,
+                68925,
+                68926,
+                68927
+            ],
+            "cPrev": [
+                68839
             ]
         },
         {
             "id": 68841,
-            "level": 72
+            "level": 72,
+            "cPrev": [
+                68840
+            ],
+            "cNext": [
+                68842
+            ]
         },
         {
             "id": 68842,
             "level": 72,
             "cNext": [
-                "sidequest.68928",
-                "sidequest.68929",
-                "sidequest.68930",
-                "sidequest.68931"
+                68931,
+                68843,
+                68844,
+                68845,
+                68929,
+                68928,
+                68930
+            ],
+            "cPrev": [
+                68841
             ]
         },
         {
             "id": 68843,
-            "level": 72
+            "level": 72,
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ]
         },
         {
             "id": 68844,
-            "level": 72
+            "level": 72,
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ]
         },
         {
             "id": 68845,
-            "level": 72
+            "level": 72,
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ]
         },
         {
             "id": 68846,
             "level": 72,
             "cNext": [
-                "sidequest.68934",
-                "sidequest.68936"
+                68934,
+                68847,
+                68936
+            ],
+            "cPrev": [
+                68843,
+                68844,
+                68845
             ]
         },
         {
             "id": 68847,
             "level": 72,
             "cNext": [
-                "sidequest.68937",
-                "sidequest.68938",
-                "sidequest.68939",
-                "sidequest.68940"
+                68940,
+                68937,
+                68938,
+                68848,
+                68939
+            ],
+            "cPrev": [
+                68846
             ]
         },
         {
             "id": 68848,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68847
+            ],
+            "cNext": [
+                68849
+            ]
         },
         {
             "id": 68849,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68848
+            ],
+            "cNext": [
+                68850
+            ]
         },
         {
             "id": 68850,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68849
+            ],
+            "cNext": [
+                68851
+            ]
         },
         {
             "id": 68851,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68850
+            ],
+            "cNext": [
+                68852
+            ]
         },
         {
             "id": 68852,
             "level": 73,
             "cNext": [
-                "sidequest.68944",
-                "sidequest.68945",
-                "sidequest.68946",
-                "sidequest.68947",
-                "sidequest.68948",
-                "sidequest.68949",
-                "sidequest.68950",
-                "sidequest.68951",
-                "sidequest.68952",
-                "sidequest.68953",
-                "sidequest.68954"
+                68944,
+                68945,
+                68949,
+                68950,
+                68951,
+                68946,
+                68947,
+                68952,
+                68953,
+                68954,
+                68853,
+                68948
+            ],
+            "cPrev": [
+                68851
             ]
         },
         {
             "id": 68853,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68852
+            ],
+            "cNext": [
+                68854
+            ]
         },
         {
             "id": 68854,
             "level": 73,
             "cNext": [
-                "sidequest.68955",
-                "sidequest.68956",
-                "sidequest.68957",
-                "sidequest.68958",
-                "sidequest.68959",
-                "sidequest.68960",
-                "sidequest.68963",
-                "sidequest.68968",
-                "sidequest.68969",
-                "sidequest.68970"
+                68963,
+                68855,
+                68955,
+                68956,
+                68958,
+                68959,
+                68960,
+                68970,
+                68968,
+                68957,
+                68969
+            ],
+            "cPrev": [
+                68853
             ]
         },
         {
             "id": 68855,
-            "level": 73
+            "level": 73,
+            "cPrev": [
+                68854
+            ],
+            "cNext": [
+                68856
+            ]
         },
         {
             "id": 68856,
             "level": 73,
             "cNext": [
-                "sidequest.68961",
-                "sidequest.68962"
+                68961,
+                68857,
+                68962
+            ],
+            "cPrev": [
+                68855
             ]
         },
         {
             "id": 68857,
             "level": 73,
-            "cNext": ["quest.69219"]
+            "cNext": [
+                68858,
+                69219
+            ],
+            "cPrev": [
+                68856
+            ]
         },
         {
             "id": 68858,
             "level": 74,
             "cNext": [
-                "sidequest.68971",
-                "sidequest.68972",
-                "sidequest.68973",
-                "sidequest.68992"
+                68972,
+                68859,
+                68971,
+                68973,
+                68992
+            ],
+            "cPrev": [
+                68857
             ]
         },
         {
             "id": 68859,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68858
+            ],
+            "cNext": [
+                68860
+            ]
         },
         {
             "id": 68860,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68859
+            ],
+            "cNext": [
+                68861
+            ]
         },
         {
             "id": 68861,
             "level": 74,
             "cNext": [
-                "sidequest.68976",
-                "sidequest.68977",
-                "sidequest.68978",
-                "sidequest.68979",
-                "sidequest.68980"
+                68980,
+                68976,
+                68979,
+                68978,
+                68862,
+                68977
+            ],
+            "cPrev": [
+                68860
             ]
         },
         {
             "id": 68862,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68861
+            ],
+            "cNext": [
+                68863
+            ]
         },
         {
             "id": 68863,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68862
+            ],
+            "cNext": [
+                68864
+            ]
         },
         {
             "id": 68864,
             "level": 74,
             "cNext": [
-                "sidequest.68983",
-                "sidequest.68984",
-                "sidequest.68985",
-                "sidequest.68986",
-                "sidequest.68987",
-                "sidequest.68989",
-                "sidequest.68990",
-                "sidequest.68991"
+                68985,
+                68986,
+                68983,
+                68865,
+                68990,
+                68991,
+                68984,
+                68987,
+                68989
+            ],
+            "cPrev": [
+                68863
             ]
         },
         {
             "id": 68865,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68864
+            ],
+            "cNext": [
+                68866
+            ]
         },
         {
             "id": 68866,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68865
+            ],
+            "cNext": [
+                68867
+            ]
         },
         {
             "id": 68867,
             "level": 74,
-            "cNext": ["sidequest.69192"]
+            "cNext": [
+                69192,
+                68868
+            ],
+            "cPrev": [
+                68866
+            ]
         },
         {
             "id": 68868,
-            "level": 74
+            "level": 74,
+            "cPrev": [
+                68867
+            ],
+            "cNext": [
+                68869
+            ]
         },
         {
             "id": 68869,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68868
+            ],
+            "cNext": [
+                68870
+            ]
         },
         {
             "id": 68870,
             "level": 75,
             "cNext": [
-                "sidequest.68996",
-                "sidequest.68997",
-                "sidequest.68998",
-                "sidequest.68999",
-                "sidequest.69000",
-                "sidequest.69001",
-                "sidequest.69002",
-                "sidequest.69003",
-                "sidequest.69004",
-                "sidequest.69005",
-                "sidequest.69006"
+                69003,
+                68871,
+                68996,
+                68997,
+                68999,
+                69004,
+                69001,
+                69006,
+                68998,
+                69000,
+                69002,
+                69005
+            ],
+            "cPrev": [
+                68869
             ]
         },
         {
             "id": 68871,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68870
+            ],
+            "cNext": [
+                68872
+            ]
         },
         {
             "id": 68872,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68871
+            ],
+            "cNext": [
+                68873
+            ]
         },
         {
             "id": 68873,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68872
+            ],
+            "cNext": [
+                68874
+            ]
         },
         {
             "id": 68874,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68873
+            ],
+            "cNext": [
+                68875
+            ]
         },
         {
             "id": 68875,
             "level": 75,
             "cNext": [
-                "sidequest.69007",
-                "sidequest.69008",
-                "sidequest.69009",
-                "sidequest.69010",
-                "sidequest.69011",
-                "sidequest.69012",
-                "sidequest.69014",
-                "sidequest.69019",
-                "sidequest.69020",
-                "sidequest.69021"
+                68876,
+                69014,
+                69008,
+                69009,
+                69007,
+                69020,
+                69011,
+                69010,
+                69012,
+                69019,
+                69021
+            ],
+            "cPrev": [
+                68874
             ]
         },
         {
             "id": 68876,
-            "level": 75
+            "level": 75,
+            "cPrev": [
+                68875
+            ],
+            "cNext": [
+                68877
+            ]
         },
         {
             "id": 68877,
             "level": 75,
-            "cNext": ["quest.69330"]
+            "cNext": [
+                68878,
+                69330
+            ],
+            "cPrev": [
+                68876
+            ]
         },
         {
             "id": 68878,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                68877
+            ],
+            "cNext": [
+                69142
+            ]
         },
         {
             "id": 69142,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                68878
+            ],
+            "cNext": [
+                69143
+            ]
         },
         {
             "id": 69143,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69142
+            ],
+            "cNext": [
+                69144
+            ]
         },
         {
             "id": 69144,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69143
+            ],
+            "cNext": [
+                69145
+            ]
         },
         {
             "id": 69145,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69144
+            ],
+            "cNext": [
+                69146
+            ]
         },
         {
             "id": 69146,
             "level": 76,
             "cNext": [
-                "sidequest.69022",
-                "sidequest.69023",
-                "sidequest.69024",
-                "sidequest.69025",
-                "sidequest.69026",
-                "sidequest.69027"
+                69022,
+                69024,
+                69025,
+                69026,
+                69027,
+                69023,
+                69147
+            ],
+            "cPrev": [
+                69145
             ]
         },
         {
             "id": 69147,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69146
+            ],
+            "cNext": [
+                69148
+            ]
         },
         {
             "id": 69148,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69147
+            ],
+            "cNext": [
+                69149
+            ]
         },
         {
             "id": 69149,
             "level": 76,
             "cNext": [
-                "sidequest.69028",
-                "sidequest.69029",
-                "sidequest.69030",
-                "sidequest.69031",
-                "sidequest.69032",
-                "sidequest.69033",
-                "sidequest.69034",
-                "sidequest.69037",
-                "sidequest.69038",
-                "sidequest.69039",
-                "sidequest.69042",
-                "sidequest.69044",
-                "sidequest.69045",
-                "sidequest.69046"
+                69039,
+                69150,
+                69032,
+                69033,
+                69045,
+                69046,
+                69030,
+                69034,
+                69038,
+                69037,
+                69028,
+                69029,
+                69031,
+                69042,
+                69044
+            ],
+            "cPrev": [
+                69148
             ]
         },
         {
             "id": 69150,
-            "level": 76
+            "level": 76,
+            "cPrev": [
+                69149
+            ],
+            "cNext": [
+                69151
+            ]
         },
         {
             "id": 69151,
             "level": 76,
             "cNext": [
-                "sidequest.69035",
-                "sidequest.69047"
+                69047,
+                69152,
+                69035
+            ],
+            "cPrev": [
+                69150
             ]
         },
         {
             "id": 69152,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69151
+            ],
+            "cNext": [
+                69153
+            ]
         },
         {
             "id": 69153,
             "level": 77,
-            "cNext": ["sidequest.69061"]
+            "cNext": [
+                69061,
+                69154
+            ],
+            "cPrev": [
+                69152
+            ]
         },
         {
             "id": 69154,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69153
+            ],
+            "cNext": [
+                69155
+            ]
         },
         {
             "id": 69155,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69154
+            ],
+            "cNext": [
+                69156
+            ]
         },
         {
             "id": 69156,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69155
+            ],
+            "cNext": [
+                69157
+            ]
         },
         {
             "id": 69157,
             "level": 77,
             "cNext": [
-                "sidequest.69066",
-                "sidequest.69067",
-                "sidequest.69068"
+                69158,
+                69066,
+                69067,
+                69068
+            ],
+            "cPrev": [
+                69156
             ]
         },
         {
             "id": 69158,
             "level": 77,
-            "cNext": ["sidequest.69069"]
+            "cNext": [
+                69069,
+                69166
+            ],
+            "cPrev": [
+                69157
+            ]
         },
         {
             "id": 69166,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69158
+            ],
+            "cNext": [
+                69167
+            ]
         },
         {
             "id": 69167,
-            "level": 77
+            "level": 77,
+            "cPrev": [
+                69166
+            ],
+            "cNext": [
+                69168
+            ]
         },
         {
             "id": 69168,
             "level": 77,
             "cNext": [
-                "sidequest.69052",
-                "sidequest.69054",
-                "sidequest.69055",
-                "sidequest.69056",
-                "sidequest.69057",
-                "sidequest.69058",
-                "sidequest.69059",
-                "sidequest.69060"
+                69169,
+                69055,
+                69056,
+                69059,
+                69060,
+                69052,
+                69054,
+                69057,
+                69058
+            ],
+            "cPrev": [
+                69167
             ]
         },
         {
             "id": 69169,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69168
+            ],
+            "cNext": [
+                69170
+            ]
         },
         {
             "id": 69170,
             "level": 78,
             "cNext": [
-                "sidequest.69079",
-                "sidequest.69080",
-                "sidequest.69081"
+                69079,
+                69080,
+                69081,
+                69171
+            ],
+            "cPrev": [
+                69169
             ]
         },
         {
             "id": 69171,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69170
+            ],
+            "cNext": [
+                69172
+            ]
         },
         {
             "id": 69172,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69171
+            ],
+            "cNext": [
+                69173
+            ]
         },
         {
             "id": 69173,
             "level": 78,
             "cNext": [
-                "sidequest.69083",
-                "sidequest.69084",
-                "sidequest.69085",
-                "sidequest.69086",
-                "sidequest.69087",
-                "sidequest.69088",
-                "sidequest.69089",
-                "sidequest.69090",
-                "sidequest.69091",
-                "sidequest.69092",
-                "sidequest.69097",
-                "cneQuest.69207"
+                69092,
+                69083,
+                69084,
+                69085,
+                69087,
+                69089,
+                69097,
+                69091,
+                69207,
+                69086,
+                69088,
+                69090,
+                69174
+            ],
+            "cPrev": [
+                69172
             ]
         },
         {
             "id": 69174,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69173
+            ],
+            "cNext": [
+                69175
+            ]
         },
         {
             "id": 69175,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69174
+            ],
+            "cNext": [
+                69176
+            ]
         },
         {
             "id": 69176,
             "level": 78,
             "cNext": [
-                "sidequest.69073",
-                "sidequest.69074",
-                "sidequest.69075",
-                "sidequest.69076",
-                "sidequest.69078",
-                "sidequest.69082"
+                69073,
+                69075,
+                69076,
+                69078,
+                69082,
+                69177,
+                69074
+            ],
+            "cPrev": [
+                69175
             ]
         },
         {
             "id": 69177,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69176
+            ],
+            "cNext": [
+                69178
+            ]
         },
         {
             "id": 69178,
-            "level": 78
+            "level": 78,
+            "cPrev": [
+                69177
+            ],
+            "cNext": [
+                69179
+            ]
         },
         {
             "id": 69179,
-            "level": 79
+            "level": 79,
+            "cPrev": [
+                69178
+            ],
+            "cNext": [
+                69180
+            ]
         },
         {
             "id": 69180,
-            "level": 79
+            "level": 79,
+            "cPrev": [
+                69179
+            ],
+            "cNext": [
+                69181
+            ]
         },
         {
             "id": 69181,
-            "level": 79
+            "level": 79,
+            "cPrev": [
+                69180
+            ],
+            "cNext": [
+                69182
+            ]
         },
         {
             "id": 69182,
             "level": 79,
             "cNext": [
-                "sidequest.69100",
-                "sidequest.69101",
-                "sidequest.69102",
-                "sidequest.69103",
-                "sidequest.69104"
+                69100,
+                69101,
+                69103,
+                69102,
+                69104,
+                69183
+            ],
+            "cPrev": [
+                69181
             ]
         },
         {
             "id": 69183,
             "level": 79,
             "cNext": [
-                "sidequest.69105",
-                "sidequest.69106",
-                "sidequest.69107",
-                "sidequest.69108",
-                "sidequest.69109",
-                "sidequest.69110",
-                "sidequest.69111"
+                69105,
+                69106,
+                69107,
+                69110,
+                69108,
+                69111,
+                69109,
+                69184
+            ],
+            "cPrev": [
+                69182
             ]
         },
         {
             "id": 69184,
             "level": 79,
             "cNext": [
-                "sidequest.69112",
-                "sidequest.69113",
-                "sidequest.69114",
-                "sidequest.69115",
-                "sidequest.69116",
-                "sidequest.69117",
-                "sidequest.69118",
-                "sidequest.69119",
-                "sidequest.69120",
-                "sidequest.69121",
-                "sidequest.69123",
-                "sidequest.69124"
+                69124,
+                69115,
+                69117,
+                69113,
+                69185,
+                69121,
+                69114,
+                69118,
+                69120,
+                69112,
+                69116,
+                69119,
+                69123
+            ],
+            "cPrev": [
+                69183
             ]
         },
         {
             "id": 69185,
-            "level": 79
+            "level": 79,
+            "cPrev": [
+                69184
+            ],
+            "cNext": [
+                69186
+            ]
         },
         {
             "id": 69186,
-            "level": 79
+            "level": 79,
+            "cPrev": [
+                69185
+            ],
+            "cNext": [
+                69187
+            ]
         },
         {
             "id": 69187,
-            "level": 80
+            "level": 80,
+            "cPrev": [
+                69186
+            ],
+            "cNext": [
+                69188
+            ]
         },
         {
             "id": 69188,
             "level": 80,
             "cNext": [
-                "sidequest.69128",
-                "sidequest.69129",
-                "sidequest.69130"
+                69189,
+                69128,
+                69129,
+                69130
+            ],
+            "cPrev": [
+                69187
             ]
         },
         {
             "id": 69189,
-            "level": 80
+            "level": 80,
+            "cPrev": [
+                69188
+            ],
+            "cNext": [
+                69190
+            ]
         },
         {
             "id": 69190,
             "level": 80,
             "cNext": [
-                "jobQuest.68746",
-                "jobQuest.68747",
-                "jobQuest.68748",
-                "jobQuest.68749",
-                "jobQuest.68750",
-                "jobQuest.68751",
-                "jobQuest.68752",
-                "jobQuest.69569",
-                "jobQuest.68754",
-                "jobQuest.68755",
-                "jobQuest.68756",
-                "jobQuest.68757",
-                "jobQuest.68758",
-                "jobQuest.68759",
-                "jobQuest.68760",
-                "jobQuest.68761",
-                "jobQuest.68762",
-                "cneQuest.68791",
-                "cneQuest.69253",
-                "sidequest.69131",
-                "sidequest.69132",
-                "sidequest.69137",
-                "sidequest.69370",
-                "sidequest.69501",
-                "otherQuest.69141",
-                "otherQuest.69198"
+                69137,
+                68791,
+                69131,
+                69132,
+                69141,
+                69198,
+                69253,
+                69209,
+                69370,
+                69501,
+                68754,
+                68749,
+                68757,
+                68748,
+                68755,
+                68746,
+                68747,
+                68750,
+                68751,
+                68752,
+                68753,
+                68756,
+                68758,
+                68759,
+                68760,
+                68761,
+                68762,
+                69569
+            ],
+            "cPrev": [
+                69189
             ]
         }
     ]
