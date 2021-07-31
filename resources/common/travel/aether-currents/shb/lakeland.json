@@ -54,27 +54,32 @@
         "x10": {
             "id": 10,
             "name": "11",
-            "coordinates": "X:   7.4   Y: 14.4   Z: 0.6"
+            "coordinates": "X:   7.4   Y: 14.4   Z: 0.6",
+            "cSiblings": ["quest.68922"]
         },
         "x11": {
             "id": 11,
             "name": "12",
-            "coordinates": "X:   8.0   Y: 17.0   Z: 0.5"
+            "coordinates": "X:   8.0   Y: 17.0   Z: 0.5",
+            "cSiblings": ["quest.68921"]
         },
         "x12": {
             "id": 12,
             "name": "13",
-            "coordinates": "X:   6.1   Y: 15.4   Z: 0.6"
+            "coordinates": "X:   6.1   Y: 15.4   Z: 0.6",
+            "cSiblings": ["quest.68920"]
         },
         "x13": {
             "id": 13,
             "name": "14",
-            "coordinates": "X: 12.0   Y: 16.4"
+            "coordinates": "X: 12.0   Y: 16.4",
+            "cSiblings": ["quest.68916"]
         },
         "x14": {
             "id": 14,
             "name": "15",
-            "coordinates": "X:   8.5   Y:   9.7"
+            "coordinates": "X:   8.5   Y:   9.7",
+            "cSiblings": ["quest.68840"]
         }
     }
 }

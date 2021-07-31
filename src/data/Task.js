@@ -83,7 +83,12 @@ export class Task {
         this.setCompletionFlag(flag);
 
         // Commit this task to the stored chain
-        if(firstInChain) vStore.commit('chain/START_CHAIN', this);
+        if(firstInChain) {
+            vStore.commit('chain/START_CHAIN', {
+                task: this,
+                fromFlag
+            });
+        }
         else {
             vStore.commit('chain/PUSH_CHAINED', {
                 task: this,

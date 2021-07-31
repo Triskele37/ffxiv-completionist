@@ -138,7 +138,7 @@
                             }
                             // Column value fuzzy search filter
                             else if(filter.filterType === 'search') {
-                                const columnValue = filtered[id][key].toString().toLowerCase();
+                                const columnValue = (filtered[id][key] || '').toString().toLowerCase();
                                 removeFromFiltered = !columnValue.includes(filter.value.toLowerCase());
                             }
                             // Column value strict search filter

@@ -5,9 +5,7 @@
         @mouseenter="dropdownOpen = true; doNotify = false;"
         @mouseleave="dropdownOpen = false"
     >
-        <div
-            class="xiv-dropdown-arrow"
-        >
+        <div class="xiv-dropdown-arrow">
             <icon name="chain" size="16"/>
         </div>
         <div
@@ -22,19 +20,38 @@
                 Chaining is: {{chainingEnabled ? 'Enabled' : 'Disabled'}}.
                 &nbsp;Click here to toggle.
             </button>
+            <button
+                @click="nukeSaveData()"
+                class="xiv-dropdown-li"
+            >
+                THIS SHOULD NOT BE IN PROD
+            </button>
 
+            <!-- Dropdown Content Body with Data -->
             <template v-if="!!chainStart">
+                <!-- Undo Button -->
                 <button
                     @click="onUndoLastChain()"
                     class="xiv-dropdown-li"
                 >
                     {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
                 </button>
-                <div class="xiv-dropdown-li disabled">
+
+                <!-- Recent Action Info -->
+                <div
+                    class="xiv-dropdown-li"
+                    @click="onNavigateToGroup(chainStart.path)"
+                    title="Navigate to this group"
+                >
+                    {{chainStart.path}}
+                    <br/>
                     Last action of marking "{{chainStart.task.name}}" as
                     "<span :class="[chainStart.task.completionFlag]">
                         {{chainStart.task.completionFlag}}
                     </span>" chained to {{chainedTaskCount}} other items
+                    <span class="group-nav-arrow arrows-adjust">
+                        &#8614;
+                    </span>
                 </div>
 
                 <!-- Dropdown Content Scroller -->
@@ -46,17 +63,17 @@
                         <!-- Group Content Header -->
                         <div>
                             <span
-                                @click="onNavigateToGroup(path)"
-                                title="Navigate to this group"
-                            >
-                                {{path}} ({{groupChainLength(group)}})
-                            </span>
-                            <span
                                 @click="onToggleShowChainedGroup(group)"
                                 title="Toggle this group's visibility"
-                                class="group-show-hide"
                             >
-                                {{group.show ? '&#8612' : '&#8614'}}
+                                {{path.replace('Overall > ', '')}} ({{groupChainLength(group)}})
+                            </span>
+                            <span
+                                @click="onNavigateToGroup(path)"
+                                title="Navigate to this group"
+                                class="group-nav-arrow"
+                            >
+                                &#8614;
                             </span>
                         </div>
 
@@ -80,6 +97,8 @@
                     </button>
                 </div>
             </template>
+
+            <!-- Dropdown Content Body with no Data -->
             <template v-else>
                 <button class="xiv-dropdown-li">
                     Previous action did not cause a chain
@@ -112,6 +131,17 @@ export default {
         })
     },
     methods: {
+        nukeSaveData: function() {
+            diveNuke(data);
+
+            function diveNuke(group) {
+                for(const id in group.tasks) {
+                    group.tasks[id].setCompletionFlag("N");
+                }
+
+                (group.subGroups || []).forEach((subGroup) => diveNuke(subGroup));
+            }
+        },
         groupChainLength: function(group) {
             return !group ? 0 : Object.keys(group).length;
         },
@@ -134,7 +164,10 @@ export default {
             this.$forceUpdate();
         },
         onNavigateToGroup: function(path) {
-            this.$store.commit('navigation/SET_BREADCRUMBS', path.split(' > '))
+            let safePath = path.split(' > ');
+            if(safePath[0] !== 'Overall') safePath = ['Overall', ...safePath]
+
+            this.$store.commit('navigation/SET_BREADCRUMBS', safePath)
         },
         onUndoLastChain: function() {
             // Allow for oopsie clicks
@@ -143,6 +176,7 @@ export default {
                 return;
             }
             this.undoNotClicked = true;
+            this.dropdownOpen = false;
 
             // Do the actual undo
             this.chainStart.task.setCompletionFlag(this.chainStart.fromFlag);
@@ -160,7 +194,7 @@ export default {
     },
     watch: {
         chainedTasks: function() {
-            this.doNotify = !!this.chainedTasks;
+            this.doNotify = !!Object.keys(this.chainedTasks).length;
         }
     }
 };
@@ -176,18 +210,32 @@ export default {
 
     &.do-notify {
         animation: chainNotificationPulse 2s infinite;
+
+        // Fixes issue where popup goes behind table header
+        position: relative;
+        z-index: 1;
+    }
+
+    .xiv-dropdown-body {
+        overflow: hidden;
     }
 
     .chain-scroll-container {
         overflow-y: auto;
         height: 50vh;
+        width: 30vw;
     }
 
-    .group-show-hide {
+    .group-nav-arrow {
         position: relative;
-        margin-top: -7px;
+        margin-top: -6px;
         font-size: 24px;
         float: right;
+
+        &.arrows-adjust {
+            margin-right: 20px;
+            margin-top: -11px;
+        }
     }
 
     .chained-task {
