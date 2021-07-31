@@ -235,6 +235,7 @@ export class Chainer {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
             case "emote": path = "social.emotes"; break;
+            case "beastRep": path = "character.character.beast-tribe-reputation"; break;
 
             case "konogg": path = "duty.collection"; break;
 

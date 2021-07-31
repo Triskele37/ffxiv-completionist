@@ -42,6 +42,4 @@
 
 * Chain ToDos
     - achievement/battle/battle hunt logs
-    - beast tribe quest achievement siblings (quests & rep based quests)
     - quest achievement siblings
-    - how to handle all resplendent achievement between each crafter
