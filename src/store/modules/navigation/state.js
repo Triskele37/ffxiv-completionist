@@ -1,14 +1,18 @@
 import { eStore } from "../../electronStore";
+import { vStore } from "../../index";
 
-import { getGroupFromBreadcrumbs } from './getters';
+setTimeout(() => {
+    // Load previous state & update defaults
+    const initialBreadcrumbs = eStore.get('last-breadcrumbs');
+    if(!!initialBreadcrumbs) {
+        vStore.commit('navigation/SET_BREADCRUMBS', initialBreadcrumbs);
+    }
+}, 0);
 
-// Load previous state
-const initialBreadcrumbs = eStore.get('last-breadcrumbs');
-const initialSelectedGroup = getGroupFromBreadcrumbs(initialBreadcrumbs);
-let loadDefaults = !initialBreadcrumbs;
+
 
 // Current state
 export const state = {
-    breadcrumbs: loadDefaults ? ['Overall'] : initialBreadcrumbs,
-    selectedGroup: loadDefaults ? null : initialSelectedGroup,
+    breadcrumbs: ['Overall'],
+    selectedGroup: null,
 };

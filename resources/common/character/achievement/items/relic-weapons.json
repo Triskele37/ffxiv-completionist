@@ -1,21 +1,5 @@
 {
     "key": "relic-weapons",
-    "chains": [
-        [
-            [
-                129,
-                130,
-                131,
-                132,
-                133,
-                134,
-                135,
-                597,
-                598
-            ],
-            136
-        ]
-    ],
     "tasks": {
         "x129": {
             "id": 129,
@@ -24,7 +8,8 @@
             "cSiblings": [
                 "arrRelic.40",
                 "title.2"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x130": {
             "id": 130,
@@ -33,7 +18,8 @@
             "cSiblings": [
                 "arrRelic.24",
                 "title.3"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x131": {
             "id": 131,
@@ -42,7 +28,8 @@
             "cSiblings": [
                 "arrRelic.64",
                 "title.4"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x132": {
             "id": 132,
@@ -51,7 +38,8 @@
             "cSiblings": [
                 "arrRelic.16",
                 "title.5"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x133": {
             "id": 133,
@@ -60,7 +48,8 @@
             "cSiblings": [
                 "arrRelic.0",
                 "title.6"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x1053": {
             "id": 1053,
@@ -78,7 +67,8 @@
             "cSiblings": [
                 "arrRelic.72",
                 "title.7"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x135": {
             "id": 135,
@@ -87,7 +77,8 @@
             "cSiblings": [
                 "arrRelic.8",
                 "title.8"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x597": {
             "id": 597,
@@ -96,7 +87,8 @@
             "cSiblings": [
                 "arrRelic.56",
                 "title.106"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x598": {
             "id": 598,
@@ -105,12 +97,24 @@
             "cSiblings": [
                 "arrRelic.48",
                 "title.107"
-            ]
+            ],
+            "cCombos": [136]
         },
         "x136": {
             "id": 136,
             "points": 30,
             "patch": "2.0",
+            "cPrev": [
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                597,
+                598
+            ],
             "cSiblings": [
                 "title.1"
             ]

@@ -35,7 +35,8 @@
 * Tables in groups with sub groups overflows page
 
 * Connect all task dependencies of next/previous
-    Companion Skills
+  Title
+
     Hall of the Novice
     Mounts
     Minions
@@ -43,11 +44,8 @@
     Emotes
     Fashion Accessories
     Triple Triad Cards
-    Title
 
 * Chain Features
-    - Notification Window
-    - Undo for last chain
     - Toggle feature on/off?
 
 * Chain ToDos

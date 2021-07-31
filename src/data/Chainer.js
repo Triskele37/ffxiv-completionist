@@ -5,8 +5,7 @@ export class Chainer {
     flag = null;
 
     //#region------------------------------------------------------------------ Constructor
-    constructor(task, flag, chainedTasks) {
-        this.chainedTasks = chainedTasks;
+    constructor(task, flag) {
         this.task = task;
         this.flag = flag;
 
@@ -38,7 +37,9 @@ export class Chainer {
     //#region------------------------------------------------------------------ Chaining
     triggerChains() {
         // Don't chain again if this task has already chained
-        // if(!!this.chainedTasks.find((c) => c.id === this.task.id)) return;
+        // if(this.overall.chainedTasks && !!this.overall.chainedTasks[`x${this.task.id}`]) {
+        //     return;
+        // }
 
         if(!!this.task.cPrev && this.flag === "Y") {
             this.applyChainedFlag(this.task.cPrev);
@@ -52,6 +53,10 @@ export class Chainer {
 
         if(!!this.task.cSiblings && this.flag !== "X") {
             this.applyChainedFlag(this.task.cSiblings);
+        }
+
+        if(!!this.task.cCombos && this.flag !== "X") {
+            this.applyComboChain();
         }
 
         if(!!this.task.cExclude) {
@@ -73,6 +78,32 @@ export class Chainer {
         chainedTasks.forEach(
             (link) => this.applyFlagToTask(originalFlag, this.getTaskFromLink(link))
         );
+    }
+
+    // Combo Chain
+    applyComboChain() {
+        this.task.cCombos.forEach((link) => {
+            const comboTask = this.getTaskFromLink(link);
+
+            if(comboTask.cPrev) {
+                const allComplete = comboTask.cPrev.reduce((acc, pLink) => {
+                    const preReqTask = this.getTaskFromLink(pLink);
+                    return acc && preReqTask.completionFlag === "Y";
+                }, true);
+
+                if(allComplete) this.applyFlagToTask("Y", comboTask);
+                else this.applyFlagToTask("N", comboTask);
+            }
+            else {
+                const anyComplete = comboTask.cPrevAny.reduce((acc, pLink) => {
+                    const preReqTask = this.getTaskFromLink(pLink);
+                    return acc || preReqTask.completionFlag === "Y";
+                }, false);
+
+                if(anyComplete) this.applyFlagToTask("Y", comboTask);
+                else this.applyFlagToTask("N", comboTask);
+            }
+        });
     }
 
     // Exclude Chain
@@ -160,8 +191,7 @@ export class Chainer {
 
     //#region------------------------------------------------------------------ Helpers
     applyFlagToTask(flag, chainTask) {
-        this.chainedTasks.push({ task: chainTask, flag });
-        chainTask.changeCompletionFlag(flag, this.chainedTasks);
+        chainTask.changeCompletionFlag(flag);
     }
 
     getTaskFromLink(link) {
@@ -181,7 +211,7 @@ export class Chainer {
             const linkedID = parseInt(linkedPath.pop());
             const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
 
-            chainTask = (linkedGroup || []).tasks[`x${linkedID}`];
+            chainTask = (linkedGroup || {}).tasks[`x${linkedID}`];
         }
 
         if(!chainTask) {

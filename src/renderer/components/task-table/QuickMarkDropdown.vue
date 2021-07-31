@@ -74,21 +74,23 @@ export default {
         onChangeTaskCompletion: function(from, to) {
             this.lastChanged = [];
 
+            let first = true;
             for(const id in this.filteredTasks) {
                 const task = this.filteredTasks[id];
 
                 if(from === '$' && task.selected || task.completionFlag === from) {
                     this.lastChanged.push({ task, oldFlag: task.completionFlag });
 
-                    task.setCompletionFlag(to)
+                    task.changeCompletionFlag(to, first);
+                    first = false;
                 }
             }
 
             applyDataToStore(data);
         },
         onUndoLastChange: function() {
-            this.lastChanged.forEach((changed) => {
-                changed.task.setCompletionFlag(changed.oldFlag);
+            this.lastChanged.forEach((changed, index) => {
+                changed.task.changeCompletionFlag(changed.oldFlag, index === 0);
             });
             applyDataToStore(data);
             this.lastChanged = [];

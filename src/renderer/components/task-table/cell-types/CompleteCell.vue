@@ -22,22 +22,16 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
+
                 console.time("test");
-                const chainedTasks = this.task.changeCompletionFlag(flag);
+                this.task.changeCompletionFlag(flag, true);
                 console.timeEnd("test");
-
-                // 3247ms pre change
-                // 40ms post change
-
-                console.log(chainedTasks.map(
-                    (change) => `${change.task.name} > ${change.flag} (${change.task._parent.groupPath.join(' > ')})`
-                ));
 
                 applyDataToStore(data);
             },
             onExcludeTaskClick: function() {
                 const flag = this.task.completionFlag === "X" ? "N" : "X";
-                this.task.changeCompletionFlag(flag);
+                this.task.setCompletionFlag(flag);
                 applyDataToStore(data);
             }
         }

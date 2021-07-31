@@ -10,7 +10,7 @@ import { Duty_Quests_Levequests } from "./levequests";
 
 export const Duty_Quests = function(parent) {
     const group = DataGroup.fromJSON(parent, "./duty/quest/index", {
-        Level: { centered: true }
+        level: { centered: true }
     });
 
     group.subGroups = [

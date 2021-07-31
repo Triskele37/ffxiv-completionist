@@ -13,11 +13,15 @@
                 />
             </span>
 
+            <span v-if="hasTasks && !group.isCustomGroup">
+                <chain-dropdown></chain-dropdown>
+            </span>
+
             <span v-if="group.isCustomGroup">
                 <custom-task-dropdown :filtered-tasks="filteredTasks"/>
             </span>
 
-            <span class="row-count">
+            <span v-if="hasTasks" class="row-count">
                 {{Object.keys(filteredTasks).length}} Rows displayed
             </span>
         </div>
@@ -46,6 +50,7 @@
     // Components
     import QuickMarkDropdown from './QuickMarkDropdown';
     import SelectionActionDropdown from "./SelectionActionDropdown";
+    import ChainDropdown from "./ChainDropdown";
     import CustomTaskDropdown from './CustomTaskDropdown';
     import TaskTableHeader from './row-types/TaskTableHeader';
     import TaskTableDataRow from './row-types/TaskTableDataRow';
@@ -54,12 +59,12 @@
     export default {
         name: 'task-table',
         components: {
-          SelectionActionDropdown,
-            'quick-mark-dropdown': QuickMarkDropdown,
-            'selection-action-dropdown': SelectionActionDropdown,
-            'custom-task-dropdown': CustomTaskDropdown,
-            'task-table-header': TaskTableHeader,
-            'task-table-data-row': TaskTableDataRow,
+            QuickMarkDropdown,
+            SelectionActionDropdown,
+            ChainDropdown,
+            CustomTaskDropdown,
+            TaskTableHeader,
+            TaskTableDataRow,
         },
         props: {
             columnConfig: Array,
@@ -75,14 +80,6 @@
             },
             rerenderKey: 0
         }),
-        created: function() {
-            if(true) {
-                this.columnConfig = [{
-                    header: "ID",
-                    key: "id"
-                }, ...this.columnConfig];
-            }
-        },
         computed: {
             hasTasks: function() {
                 return this.group.tasks && this.group.taskCount > 0;

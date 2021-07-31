@@ -11,7 +11,7 @@ export class DataGroup {
 
     subGroups;  // Child groups of this group
 
-    columnConfig;
+    _columnConfig;
     _defaultCompletion = 'N';
     _isCraftingLogGroup = false;
     tasks = {};
@@ -37,7 +37,7 @@ export class DataGroup {
 
         // Inherit things
         if(this._parent) {
-            if(this._parent.columnConfig) this.columnConfig = this._parent.columnConfig;
+            if(this._parent._columnConfig) this._columnConfig = this._parent._columnConfig;
             this.defaultCompletion = this._parent.defaultCompletion;
         }
 
@@ -47,7 +47,7 @@ export class DataGroup {
                 columnConfig.push({ key, header: json.headers[key], ...(additionalColumnConfig || {})[key] });
             });
 
-            this.columnConfig = columnConfig;
+            this._columnConfig = columnConfig;
         }
 
         if(json.chains) this.chains = json.chains;
@@ -69,6 +69,20 @@ export class DataGroup {
             .replace(/ /g, '-')
             .replace(/[^a-z0-9-]/g, '');
         return this;
+    }
+
+    get columnConfig() {
+        if(!this._columnConfig) return this._columnConfig;
+
+        //TODO: DEBUG ONLY
+        if(!this._columnConfig[0].key !== "id") {
+            return this._columnConfig ? [{
+                header: "ID",
+                key: "id"
+            }, ...this._columnConfig] : [];
+        }
+
+        return this._columnConfig;
     }
 
     //------------------------------------------------------------------ Post-Construction Inits
@@ -156,8 +170,7 @@ export class DataGroup {
     }
 
     getChildGroupWithTaskID(taskID) {
-        if(this.tasks[taskID]) return this.tasks[taskID];
-        if(this.tasks[`x${taskID}`]) return this.tasks[`x${taskID}`];
+        if(this.tasks[taskID] || this.tasks[`x${taskID}`]) return this;
 
         if(this.subGroups) {
             for(let i = 0; i < this.subGroups.length; i++) {

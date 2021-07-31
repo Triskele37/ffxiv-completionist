@@ -1,5 +1,5 @@
 <template>
-    <div id="main-content">
+    <div id="main-content" v-if="!!selectedGroup">
         <!----------- Top-Level Summary ----------->
         <div v-if="selectedGroup.noContent || !selectedGroup">
             <landing-page/>
@@ -88,6 +88,8 @@
         },
         watch: {
             selectedGroup: function(oldGroup, newGroup) {
+                if(!oldGroup || !newGroup) return;
+
                 if(oldGroup.name !== newGroup.name) this.showAll = false;
             }
         },

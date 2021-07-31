@@ -1,3 +1,4 @@
+import { vStore } from "../store";
 import { Chainer } from "./Chainer";
 
 export class Task {
@@ -49,16 +50,25 @@ export class Task {
         }
     }
 
-    changeCompletionFlag(flag, chainedTasks = []) {
+    changeCompletionFlag(flag, firstInChain) {
         if(this.completionFlag === flag) return; // MUI IMPORTANTE
 
-        this.setCompletionFlag(flag);
+        // Commit this task to the stored chain
+        if(firstInChain) vStore.commit('chain/START_CHAIN', this);
+        else {
+            vStore.commit('chain/PUSH_CHAINED', {
+                task: this,
+                fromFlag: this.completionFlag
+            });
+        }
+
+        // if(!overall.chainedTasks || !overall.chainedTasks[`${this.id}`]) {
+            this.setCompletionFlag(flag);
+        // }
 
         // Return a list of chained tasks including this one
-        const chainer = new Chainer(this, flag, chainedTasks);
+        const chainer = new Chainer(this, flag);
         chainer.triggerChains();
-
-        return chainer.chainedTasks;
     }
 
     changeCompletionNumber(newValue) {
