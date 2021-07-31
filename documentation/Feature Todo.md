@@ -16,6 +16,7 @@
     add method to exclude certain fields in certain ids from merge
 * Class quests are mixed between the deprecated and in-game actuals
 * Call of the Sea usage (66210 - gridania limsa, 66209 - uldah)
+* Work on base memory usage
 
 **Changes**
 * Remove Total_Items from xivapi configs and create function to combine all
@@ -38,7 +39,6 @@
 * Connect all task dependencies of next/previous
   Achievements
   Quest
-  Emotes
 
 * Chain ToDos
     - achievement/battle/battle hunt logs

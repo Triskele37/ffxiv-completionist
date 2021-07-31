@@ -46,8 +46,8 @@
                     {{chainStart.path}}
                     <br/>
                     Last action of marking "{{chainStart.task.name}}" as
-                    "<span :class="[chainStart.task.completionFlag]">
-                        {{chainStart.task.completionFlag}}
+                    "<span :class="[chainStart.toFlag]">
+                        {{chainStart.toFlag}}
                     </span>" chained to {{chainedTaskCount}} other items
                     <span class="group-nav-arrow arrows-adjust">
                         &#8614;

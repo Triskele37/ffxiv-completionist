@@ -138,7 +138,10 @@
                             }
                             // Column value fuzzy search filter
                             else if(filter.filterType === 'search') {
-                                const columnValue = (filtered[id][key] || '').toString().toLowerCase();
+                                let safeValue = filtered[id][key];
+                                if(safeValue === null || safeValue === undefined) safeValue = '';
+
+                                const columnValue = safeValue.toString().toLowerCase();
                                 removeFromFiltered = !columnValue.includes(filter.value.toLowerCase());
                             }
                             // Column value strict search filter

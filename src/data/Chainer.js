@@ -234,6 +234,7 @@ export class Chainer {
         switch(linkedPath[0]) {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
+            case "emote": path = "social.emotes"; break;
 
             case "konogg": path = "duty.collection"; break;
 

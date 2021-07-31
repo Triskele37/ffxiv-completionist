@@ -78,6 +78,7 @@ export class Task {
         }
 
         if(this.completionFlag === flag) return; // MUI IMPORTANTE
+        if(!firstInChain && vStore.getters["chain/idExistsInStore"](this.id, firstInChain)) return;
 
         const fromFlag = this.completionFlag;
         this.setCompletionFlag(flag);
@@ -86,7 +87,8 @@ export class Task {
         if(firstInChain) {
             vStore.commit('chain/START_CHAIN', {
                 task: this,
-                fromFlag
+                fromFlag,
+                toFlag: this.completionFlag
             });
         }
         else {

@@ -11,11 +11,11 @@ function clearChain(state) {
     state.chainedTaskCount = 0;
 }
 
-function startChain(state, { task, fromFlag }) {
+function startChain(state, { task, fromFlag, toFlag }) {
     const path = task._parent.groupPath;
     path.shift();
 
-    state.chainStart = { task, fromFlag, path: path.join(" > ") };
+    state.chainStart = { task, fromFlag, toFlag, path: path.join(" > ") };
     state.chainedTasks = {};
     state.chainedTaskCount = 0;
 }
