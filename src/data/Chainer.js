@@ -235,6 +235,8 @@ export class Chainer {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
 
+            case "konogg": path = "duty.collection"; break;
+
             case "quest": path = "duty.quests"; break;
             case "sidequest": path = "duty.quests.sidequests"; break;
 

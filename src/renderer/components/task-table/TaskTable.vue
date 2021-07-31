@@ -68,7 +68,8 @@
         },
         props: {
             columnConfig: Array,
-            group: Object
+            group: Object,
+            tasks: Object,
         },
         data: () => ({
             filters: {
@@ -82,7 +83,7 @@
         }),
         computed: {
             hasTasks: function() {
-                return this.group.tasks && this.group.taskCount > 0;
+                return this.tasks && Object.keys(this.tasks).length > 0;
             },
             uniqueValues: function() {
                 const uniqueValues = {};
@@ -115,43 +116,39 @@
                 return uniqueValues;
             },
             filteredTasks: function() {
-                let filtered = Object.assign({}, this.group.tasks);
+                let filtered = Object.assign({}, this.tasks);
+                const hotwire = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
+                hotwire.push(...this.columnConfig);
 
-                // Completion filters
-                if(!this.group.isNumericCompletion) {
-                    for(const id in this.group.tasks) {
-                        let filterOut = false;
-
-                        switch(this.group.tasks[id].completionFlag) {
-                            case "Y": filterOut = !this.filters.completion.completed; break;
-                            case "N": filterOut = !this.filters.completion.incomplete; break;
-                            case "X": filterOut = !this.filters.completion.excluded; break;
-                            default: filterOut = !this.filters.completion.incomplete; break;
-                        }
-
-                        if(filterOut) delete filtered[id];
-                    }
-                }
-
-                // Column filters
-                for(let i = 0; i < this.columnConfig.length; i++) {
-                    const key = this.columnConfig[i].key;
+                for(const { key } of hotwire) {
                     const filter = this.filters[key];
 
                     if(filter) {
-                        for(const id in this.group.tasks) {
-                            const task = this.group.tasks[id];
-                            let filterOut = false;
+                        for(const id in filtered) {
+                            let removeFromFiltered = false;
 
-                            if(filter.filterType === 'search') {
-                                const val = task[key].toString().toLowerCase();
-                                filterOut = val === filter.value.toLowerCase();
+                            // Completion filters
+                            if(key === 'completion') {
+                                switch(this.tasks[id].completionFlag) {
+                                    case "Y": removeFromFiltered = !filter.completed; break;
+                                    case "N": removeFromFiltered = !filter.incomplete; break;
+                                    case "X": removeFromFiltered = !filter.excluded; break;
+                                    default: removeFromFiltered = !filter.incomplete; break;
+                                }
                             }
+                            // Column value fuzzy search filter
+                            else if(filter.filterType === 'search') {
+                                const columnValue = filtered[id][key].toString().toLowerCase();
+                                removeFromFiltered = !columnValue.includes(filter.value.toLowerCase());
+                            }
+                            // Column value strict search filter
                             else {
-                                filterOut = task[key] === filter.value;
+                                removeFromFiltered = filtered[id][key] !== filter.value;
                             }
 
-                            if(filterOut) delete this.group.tasks[id];
+                            if(removeFromFiltered) {
+                                delete filtered[id];
+                            }
                         }
                     }
                 }

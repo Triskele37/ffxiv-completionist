@@ -57,4 +57,9 @@
     &:not(:disabled):active {
         filter: brightness(75%);
     }
+
+    &.disabled:hover {
+        filter: none;
+        cursor: auto;
+    }
 }

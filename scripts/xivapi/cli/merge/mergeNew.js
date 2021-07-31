@@ -1,10 +1,12 @@
+const skipConsoleClears = require("../../constants").skipClears;
+
 module.exports = function mergeNewTasks(rl, content, tasks, next) {
     const totalTasks = tasks.length;
     mergeNextTasks();
 
     // Recursive function that shifts `tasks` until there are none left then calls `next`
     function mergeNextTasks() {
-        console.clear();
+        if(!skipConsoleClears) console.clear();
 
         // Continue when `tasks` is exhausted
         if(!tasks.length) {

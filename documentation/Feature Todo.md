@@ -7,6 +7,7 @@
 * Add xivapi CLI option to re-cache content with diffs
 * Add an Armoire section
 * Add the Lucis & Resplendent relics
+* Trust Levels
 
 **Defects**
 * Leve Issue/Start zones, follow up with XIVAPI
@@ -35,18 +36,9 @@
 * Tables in groups with sub groups overflows page
 
 * Connect all task dependencies of next/previous
-  Title
-
-    Hall of the Novice
-    Mounts
-    Minions
-    Orchestrion
-    Emotes
-    Fashion Accessories
-    Triple Triad Cards
-
-* Chain Features
-    - Toggle feature on/off?
+  Achievements
+  Quest
+  Emotes
 
 * Chain ToDos
     - achievement/battle/battle hunt logs

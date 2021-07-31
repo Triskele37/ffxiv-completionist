@@ -1,13 +1,17 @@
 const logUpdate = require("log-update");
 
+const skipConsoleClears = require("../../constants").skipClears;
+
 module.exports = function mergeDiffTasks(rl, content, tasks, next) {
     const totalTasks = tasks.length;
     mergeNextTask();
 
     // Recursive function that shifts `tasks` until there are none left then calls `next`
     function mergeNextTask() {
-        logUpdate.clear();
-        console.clear();
+        if(!skipConsoleClears) {
+            logUpdate.clear();
+            console.clear();
+        }
 
         // Continue when `tasks` is exhausted
         if(!tasks.length) {

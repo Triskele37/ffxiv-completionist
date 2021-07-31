@@ -79,6 +79,7 @@ export class Task {
 
         if(this.completionFlag === flag) return; // MUI IMPORTANTE
 
+        const fromFlag = this.completionFlag;
         this.setCompletionFlag(flag);
 
         // Commit this task to the stored chain
@@ -86,7 +87,7 @@ export class Task {
         else {
             vStore.commit('chain/PUSH_CHAINED', {
                 task: this,
-                fromFlag: this.completionFlag
+                fromFlag
             });
         }
 

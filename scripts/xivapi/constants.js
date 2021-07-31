@@ -1,6 +1,7 @@
 const baseDir = "./scripts/xivapi";
 
 module.exports = {
+    skipClears: true,
     CONTENT_DIR: `${baseDir}/content`,
     CACHE_DIR: `${baseDir}/cache`,
     RESOURCES: "./resources",

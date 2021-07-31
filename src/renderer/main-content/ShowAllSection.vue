@@ -21,6 +21,8 @@
         },
         computed: {
             allChildTasks: function() {
+                // const fuck = diveForTasks(this.group, 'x0');
+                // console.log(fuck);
                 return diveForTasks(this.group);
             },
         },
@@ -29,21 +31,21 @@
     function diveForTasks(group) {
         let tasks = {};
 
-        if(group.tasks) {
-            tasks = {
-                ...tasks,
-                ...group.tasks
-            };
+        // add current group's tasks
+        for(const id in group.tasks) {
+            tasks[id] = group.tasks[id];
         }
 
-        if(group.subGroups) {
-            group.subGroups.forEach((subGroup) => {
-                tasks = {
-                    ...tasks,
-                    ...diveForTasks(subGroup)
-                }
-            });
-        }
+        // dive for more child tasks
+        (group.subGroups || []).forEach((subGroup) => {
+            const subGroupTasks = diveForTasks(subGroup);
+
+            for(const id in subGroupTasks) {
+                let prefix = 0;
+                while(!!tasks[`x${prefix}${id}`]) prefix++;
+                tasks[`x${prefix}${id}`] = subGroupTasks[id];
+            }
+        });
 
         return tasks;
     }

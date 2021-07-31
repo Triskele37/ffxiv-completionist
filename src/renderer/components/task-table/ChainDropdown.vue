@@ -24,18 +24,18 @@
             </button>
 
             <template v-if="!!chainStart">
-                <div class="xiv-dropdown-li">
-                    Last action of marking "{{chainStart.task.name}}" as
-                    "<span :class="[chainStart.task.completionFlag]">
-                        {{chainStart.task.completionFlag}}
-                    </span>" chained to {{chainedTaskCount}} other items
-                </div>
                 <button
                     @click="onUndoLastChain()"
                     class="xiv-dropdown-li"
                 >
                     {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
                 </button>
+                <div class="xiv-dropdown-li disabled">
+                    Last action of marking "{{chainStart.task.name}}" as
+                    "<span :class="[chainStart.task.completionFlag]">
+                        {{chainStart.task.completionFlag}}
+                    </span>" chained to {{chainedTaskCount}} other items
+                </div>
 
                 <!-- Dropdown Content Scroller -->
                 <div class="chain-scroll-container">

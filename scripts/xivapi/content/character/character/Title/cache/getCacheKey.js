@@ -7,4 +7,6 @@ module.exports = function getCacheKey(appKey, lang) {
         case "achievement": return `Achievement_${lang}`;
         case "patch": return `Patch`;
     }
+
+    return appKey;
 };

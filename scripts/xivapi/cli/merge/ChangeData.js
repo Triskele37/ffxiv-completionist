@@ -30,8 +30,8 @@ class ChangeData {
     }
 
     setAppTaskInfo(tasks) {
-        this.appTask = tasks[this.cacheTask.ID];
-        this.appIndex = Object.keys(tasks).indexOf(this.cacheTask.ID);
+        this.appTask = tasks[`x${this.cacheTask.ID}`];
+        this.appIndex = Object.keys(tasks).indexOf(`x${this.cacheTask.ID}`);
     }
 
     setTaskKeyInfo(appKey) {
@@ -69,7 +69,7 @@ class ChangeData {
 
         const group = JSON.parse(fs.readFileSync(path, 'utf8'));
 
-        group.tasks[this.appTask.id][this.appKey] = utils.safeTrim(this.cacheTask[this.cacheKey]);
+        group.tasks[`x${this.appTask.id}`][this.appKey] = utils.safeTrim(this.cacheTask[this.cacheKey]);
 
         fs.writeFileSync(path, JSON.stringify(group, null, 4));
     }

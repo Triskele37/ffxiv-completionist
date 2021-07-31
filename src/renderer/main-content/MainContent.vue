@@ -49,6 +49,7 @@
                 <task-table
                     :group="selectedGroup"
                     :column-config="selectedGroup.columnConfig"
+                    :tasks="selectedGroup.tasks"
                 />
             </template>
         </template>
