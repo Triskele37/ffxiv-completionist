@@ -1,18 +1,13 @@
 <template>
-    <div class="action-dropdown-container">
-        <div
-            class="xiv-dropdown-arrow"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
-        >
+    <div
+        class="action-dropdown-container"
+        @mouseenter="dropdownOpen = true"
+        @mouseleave="dropdownOpen = false"
+    >
+        <div class="xiv-dropdown-arrow">
             <icon name="selected" size="16"/>
         </div>
-        <div
-            class="xiv-dropdown-body"
-            v-if="dropdownOpen"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
-        >
+        <div v-if="dropdownOpen" class="xiv-dropdown-body">
             <button class="xiv-dropdown-li" :disabled="true">Selection Actions Menu</button>
             <button class="xiv-dropdown-li" @click="onSelectChange(true)">Select All Tasks</button>
             <button class="xiv-dropdown-li" @click="onSelectChange(false)">Deselect All Tasks</button>

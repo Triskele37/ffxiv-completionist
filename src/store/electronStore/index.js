@@ -11,9 +11,10 @@ const appImport = !!app ? app : remote.app;
 const eStore = new Store();
 
 // Set the default store location
-if(!eStore.get("store-name")) eStore.set("store-name", "completion");
-if(!eStore.get("store-loc")) eStore.set("store-loc", appImport.getPath("userData"));
-if(!eStore.get("table-filters")) eStore.set("table-filters", {
+setDefault('store-name', 'completion');
+setDefault('store-loc', appImport.getPath('userData'));
+setDefault('chaining-enabled', false);
+setDefault('table-filters', {
     completed: true,
     incomplete: true,
     excluded: true
@@ -30,3 +31,9 @@ export const getPlayerStore = (locOverride) => {
 
     return new Store(options);
 };
+
+function setDefault(storeKey, defaultValue) {
+    if(eStore.get(storeKey) === undefined) {
+        eStore.set(storeKey, defaultValue);
+    }
+}

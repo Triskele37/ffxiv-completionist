@@ -1,18 +1,13 @@
 <template>
-    <div class="action-dropdown-container">
-        <div
-            class="xiv-dropdown-arrow"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
-        >
+    <div
+        class="action-dropdown-container"
+        @mouseenter="dropdownOpen = true"
+        @mouseleave="dropdownOpen = false"
+    >
+        <div class="xiv-dropdown-arrow">
             <icon name="arrow" size="16"/>
         </div>
-        <div
-            class="xiv-dropdown-body"
-            v-if="dropdownOpen"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
-        >
+        <div v-if="dropdownOpen" class="xiv-dropdown-body">
             <button :disabled="lastChanged.length === 0" class="xiv-dropdown-li" @click="onUndoLastChange()">
                 <template v-if="lastChanged.length">Undo Last Quick-Mark</template>
                 <template v-else>Quick-Mark Menu</template>

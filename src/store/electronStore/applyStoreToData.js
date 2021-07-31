@@ -23,7 +23,7 @@ function diveForLoad(currentGroup, currentStoreLayer) {
                 task.setCompletionFlag(currentStoreLayer[task.storageKey]);
             }
             else {
-                task.changeCompletionNumber(currentStoreLayer[task.storageKey]);
+                task.setCompletionNumber(currentStoreLayer[task.storageKey]);
             }
         }
     }

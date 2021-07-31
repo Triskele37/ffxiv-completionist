@@ -1,16 +1,13 @@
 <template>
-    <div class="add-custom-task-container">
-        <div class="xiv-dropdown-arrow"
-             @mouseenter="dropdownOpen = true"
-             @mouseleave="dropdownOpen = false"
-        >
+    <div
+        class="add-custom-task-container"
+        @mouseenter="dropdownOpen = true"
+        @mouseleave="dropdownOpen = false"
+    >
+        <div class="xiv-dropdown-arrow">
             <icon name="plus" size="16"/>
         </div>
-        <div class="xiv-dropdown-body"
-             v-if="dropdownOpen && !mergingOpen"
-             @mouseenter="dropdownOpen = true"
-             @mouseleave="dropdownOpen = false"
-        >
+        <div v-if="dropdownOpen && !mergingOpen" class="xiv-dropdown-body">
             <div class="xiv-dropdown-li new-task-dropdown-li">
                 <input class="xiv-input" v-model="newTaskName" placeholder="Enter Custom Task Name Here"/>
             </div>

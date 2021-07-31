@@ -1,20 +1,29 @@
 <template>
-    <div class="chain-dropdown action-dropdown-container">
+    <div
+        class="chain-dropdown action-dropdown-container"
+        :class="{ 'do-notify': doNotify }"
+        @mouseenter="dropdownOpen = true; doNotify = false;"
+        @mouseleave="dropdownOpen = false"
+    >
         <div
             class="xiv-dropdown-arrow"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
         >
             <icon name="chain" size="16"/>
         </div>
         <div
             class="xiv-dropdown-body"
             v-if="dropdownOpen"
-            @mouseenter="dropdownOpen = true"
-            @mouseleave="dropdownOpen = false"
         >
+            <!-- Dropdown Content Header -->
+            <button
+                @click="onToggleChainingEnabled()"
+                class="xiv-dropdown-li"
+            >
+                Chaining is: {{chainingEnabled ? 'Enabled' : 'Disabled'}}.
+                &nbsp;Click here to toggle.
+            </button>
+
             <template v-if="!!chainStart">
-                <!-- Dropdown Content Header -->
                 <div class="xiv-dropdown-li">
                     Last action of marking "{{chainStart.task.name}}" as
                     "<span :class="[chainStart.task.completionFlag]">
@@ -84,16 +93,16 @@
 import { mapState } from "vuex";
 
 import { applyDataToStore } from "../../../store/electronStore/applyDataToStore";
+import { eStore } from "../../../store/electronStore";
 import { data } from "../../../data";
 
 export default {
     name: 'chain-dropdown',
-    props: {
-
-    },
     data: () => ({
         dropdownOpen: false,
-        undoNotClicked: true
+        chainingEnabled: eStore.get('chaining-enabled'),
+        undoNotClicked: true,
+        doNotify: false
     }),
     computed: {
         ...mapState('chain', {
@@ -105,6 +114,10 @@ export default {
     methods: {
         groupChainLength: function(group) {
             return !group ? 0 : Object.keys(group).length;
+        },
+        onToggleChainingEnabled: function() {
+            eStore.set('chaining-enabled', !eStore.get('chaining-enabled'));
+            this.chainingEnabled = eStore.get('chaining-enabled');
         },
         onToggleShowChainedGroup: function(group) {
             if(group.show === undefined) {
@@ -144,6 +157,11 @@ export default {
             this.$store.commit('chain/CLEAR_CHAIN');
             applyDataToStore(data);
         }
+    },
+    watch: {
+        chainedTasks: function() {
+            this.doNotify = !!this.chainedTasks;
+        }
     }
 };
 </script>
@@ -154,6 +172,10 @@ export default {
 .chain-dropdown {
     button:focus {
         outline: none;
+    }
+
+    &.do-notify {
+        animation: chainNotificationPulse 2s infinite;
     }
 
     .chain-scroll-container {
@@ -185,6 +207,20 @@ export default {
     .X {
         background-color: $state_excluded;
         color: black;
+    }
+}
+
+@keyframes chainNotificationPulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
     }
 }
 </style>

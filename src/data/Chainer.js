@@ -13,7 +13,7 @@ export class Chainer {
         this.isolateGroupLevelChains(task, flag);
     }
 
-    isolateGroupLevelChains(task, flag) {
+    isolateGroupLevelChains(task) {
         if(task._parent.chains) {
             task._parent.chains.forEach((chain) => {
                 if(chain.indexOf(task.id) !== -1) {
@@ -137,6 +137,7 @@ export class Chainer {
                 this.applyFlagToTask("X", chainTask);
             }
             else if(this.flag === "N") {
+                // A breakage here means the starting city quests lost their cExcludes
                 this.task.cExclude.forEach(
                     (el) => this.applyFlagToTask("N", this.getTaskFromLink(el))
                 );
@@ -233,7 +234,9 @@ export class Chainer {
         switch(linkedPath[0]) {
             case "achievement": path = "character.achievements"; break;
             case "title": path = "character.character.title"; break;
+
             case "quest": path = "duty.quests"; break;
+            case "sidequest": path = "duty.quests.sidequests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;

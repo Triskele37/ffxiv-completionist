@@ -1,3 +1,4 @@
+import { eStore } from "../store/electronStore";
 import { vStore } from "../store";
 import { Chainer } from "./Chainer";
 
@@ -30,6 +31,7 @@ export class Task {
         this._parent = parent;
     }
 
+    //#region------------------------------------------------------------------ Default Behaviour
     setCompletionFlag(flag) {
         if(this.completionFlag === flag) return; // MUI IMPORTANTE
 
@@ -50,28 +52,7 @@ export class Task {
         }
     }
 
-    changeCompletionFlag(flag, firstInChain) {
-        if(this.completionFlag === flag) return; // MUI IMPORTANTE
-
-        // Commit this task to the stored chain
-        if(firstInChain) vStore.commit('chain/START_CHAIN', this);
-        else {
-            vStore.commit('chain/PUSH_CHAINED', {
-                task: this,
-                fromFlag: this.completionFlag
-            });
-        }
-
-        // if(!overall.chainedTasks || !overall.chainedTasks[`${this.id}`]) {
-            this.setCompletionFlag(flag);
-        // }
-
-        // Return a list of chained tasks including this one
-        const chainer = new Chainer(this, flag);
-        chainer.triggerChains();
-    }
-
-    changeCompletionNumber(newValue) {
+    setCompletionNumber(newValue) {
         let previousValue = this.completionFlag;
         this.completionFlag = newValue.toString();
 
@@ -86,7 +67,36 @@ export class Task {
             this._parent.updateCompleted(newValue - previousValue);
         }
     }
+    //#endregion
 
+    //#region------------------------------------------------------------------ Chaining
+    changeCompletionFlag(flag, firstInChain) {
+        // Dodge all of this if chaining is disabled
+        if(!eStore.get('chaining-enabled')) {
+            this.setCompletionFlag(flag);
+            return;
+        }
+
+        if(this.completionFlag === flag) return; // MUI IMPORTANTE
+
+        this.setCompletionFlag(flag);
+
+        // Commit this task to the stored chain
+        if(firstInChain) vStore.commit('chain/START_CHAIN', this);
+        else {
+            vStore.commit('chain/PUSH_CHAINED', {
+                task: this,
+                fromFlag: this.completionFlag
+            });
+        }
+
+        // Return a list of chained tasks including this one
+        const chainer = new Chainer(this, flag);
+        chainer.triggerChains();
+    }
+    //#endregion
+
+    //#region------------------------------------------------------------------ Storage Key
     get storageKey() {
         return (this.id !== undefined && this.id !== null) ? this.id : -1;
     }
@@ -94,4 +104,5 @@ export class Task {
     get fullStorageKey() {
         return `${this._parent.fullStorageKey}.${this.storageKey}`;
     }
+    //#endregion
 }

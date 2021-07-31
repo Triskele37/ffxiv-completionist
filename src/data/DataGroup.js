@@ -3,6 +3,7 @@ import { loadJson } from "./loader";
 import { eStore } from "../store/electronStore";
 
 export class DataGroup {
+    //#region Properties
     _lang = 'en';
     name;
     _key; // key used for storage
@@ -27,8 +28,9 @@ export class DataGroup {
     chains;
     // [1, 2, 3] - simple chain
     // [[1, 2], 3] - combination chain (1 & 2) completes 3
+    //#endregion
 
-    //------------------------------------------------------------------ Construction
+    //#region------------------------------------------------------------------ Construction
     constructor(json, parent, additionalColumnConfig) {
         this.name = json.groupName;
         this._key = json.key;
@@ -71,21 +73,6 @@ export class DataGroup {
         return this;
     }
 
-    get columnConfig() {
-        if(!this._columnConfig) return this._columnConfig;
-
-        //TODO: DEBUG ONLY
-        if(!this._columnConfig[0].key !== "id") {
-            return this._columnConfig ? [{
-                header: "ID",
-                key: "id"
-            }, ...this._columnConfig] : [];
-        }
-
-        return this._columnConfig;
-    }
-
-    //------------------------------------------------------------------ Post-Construction Inits
     initializeTasks(tasks) {
         for(const id in tasks) {
             const taskObj = new Task(tasks[id], this);
@@ -100,8 +87,24 @@ export class DataGroup {
 
         return this;
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Task Totals
+    // Only used for debugging to force an id column
+    get columnConfig() {
+        if(!this._columnConfig) return this._columnConfig;
+
+        //TODO: DEBUG ONLY
+        if(!this._columnConfig[0].key !== "id") {
+            return this._columnConfig ? [{
+                header: "ID",
+                key: "id"
+            }, ...this._columnConfig] : [];
+        }
+
+        return this._columnConfig;
+    }
+
+    //#region------------------------------------------------------------------ Task Totals
     // Total count of all tasks of this group & children
     get total() {
         let totalTasks = this.tasks ? this.taskCount : 0;
@@ -137,8 +140,9 @@ export class DataGroup {
         this.totalCompleted += mod;
         if(this._parent) this._parent.updateCompleted(mod);
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Storage Key
+    //#region------------------------------------------------------------------ Storage Key
     get storageKey() {
         return this._key;
     }
@@ -146,6 +150,7 @@ export class DataGroup {
     get fullStorageKey() {
         return (this._parent ? this._parent.fullStorageKey + '.' : '') + this.storageKey;
     }
+    //#endregion
 
     //#region------------------------------------------------------------------ Groups
     get groupPath() {
@@ -192,7 +197,7 @@ export class DataGroup {
     }
     //#endregion
 
-    //------------------------------------------------------------------ Tasks
+    //#region------------------------------------------------------------------ Tasks
     get taskCount() {
         return this.tasks ? Object.keys(this.tasks).length : null;
     }
@@ -233,8 +238,9 @@ export class DataGroup {
 
         return null;
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Default Completion
+    //#region------------------------------------------------------------------ Default Completion
     get defaultCompletion() {
         return this._defaultCompletion;
     }
@@ -250,8 +256,9 @@ export class DataGroup {
             if(this.tasks[id].defaultCompletion) this.tasks[id].setCompletionFlag(value);
         };
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Numeric Completion
+    //#region------------------------------------------------------------------ Numeric Completion
     get isNumericCompletion() {
         return this._isNumericCompletion;
     }
@@ -263,8 +270,9 @@ export class DataGroup {
             this.tasks[id].isNumericCompletion = value;
         }
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Craft Group
+    //#region------------------------------------------------------------------ Craft Group
     get isCraftingLogGroup() {
         return this._isCraftingLogGroup;
     }
@@ -274,8 +282,9 @@ export class DataGroup {
         this._isCraftingLogGroup = value;
         (this.subGroups || []).forEach((sg) => sg.isCraftingLogGroup = value);
     }
+    //#endregion
 
-    //------------------------------------------------------------------ Language
+    //#region------------------------------------------------------------------ Language
     get lang() {
         return this._lang;
     }
@@ -284,4 +293,5 @@ export class DataGroup {
         this._lang = newLang;
         (this.subGroups || []).forEach((subGroup) => subGroup.lang = newLang);
     }
+    //#endregion
 }
