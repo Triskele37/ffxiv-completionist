@@ -64,7 +64,7 @@ import { applyDataToStore } from "../../../store/electronStore/applyDataToStore"
 export default {
     name: 'quick-mark-dropdown',
     props: {
-        filteredTasks: Array
+        filteredTasks: Object
     },
     data: () => ({
         dropdownOpen: false,
@@ -74,13 +74,15 @@ export default {
         onChangeTaskCompletion: function(from, to) {
             this.lastChanged = [];
 
-            this.filteredTasks.forEach((task) => {
+            for(const id in this.filteredTasks) {
+                const task = this.filteredTasks[id];
+
                 if(from === '$' && task.selected || task.completionFlag === from) {
                     this.lastChanged.push({ task, oldFlag: task.completionFlag });
 
                     task.setCompletionFlag(to)
                 }
-            });
+            }
 
             applyDataToStore(data);
         },

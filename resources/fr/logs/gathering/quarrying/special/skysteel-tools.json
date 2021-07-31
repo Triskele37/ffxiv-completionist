@@ -1,7 +1,7 @@
 {
     "groupName": "Skysteel Tools",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Braises d'affinage",
             "zone": "Arrière-pays dravanien",
@@ -9,7 +9,7 @@
             "nodeTimer": "",
             "closestAetheryte": "Annexe Trine -> Arrière-pays dravanien"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Matière dombre d'affinage",
             "zone": "Arrière-pays dravanien",
@@ -17,5 +17,5 @@
             "nodeTimer": "",
             "closestAetheryte": "Annexe Trine -> Arrière-pays dravanien"
         }
-    ]
+    }
 }

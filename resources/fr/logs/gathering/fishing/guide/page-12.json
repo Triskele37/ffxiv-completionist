@@ -1,7 +1,7 @@
 {
     "groupName": "Page 12",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Dragon de Nepto",
             "primeLocation": "Noscea orientale",
@@ -9,7 +9,7 @@
             "type": "Pleine mer",
             "bait": "Krill polaire"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Coelacanthus",
             "primeLocation": "Noscea occidentale",
@@ -17,7 +17,7 @@
             "type": "Côtes",
             "bait": "Sardine sélénite"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Endoceras",
             "primeLocation": "Noscea occidentale",
@@ -25,7 +25,7 @@
             "type": "Pleine mer",
             "bait": "Sardine sélénite"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Sorcière des mers",
             "primeLocation": "Noscea occidentale",
@@ -33,7 +33,7 @@
             "type": "Pleine mer",
             "bait": "Thazard noir"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Corne infernale",
             "primeLocation": "Mor Dhona",
@@ -41,7 +41,7 @@
             "type": "Lacs",
             "bait": "Ver luisant"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Bar du néant",
             "primeLocation": "Mor Dhona",
@@ -49,7 +49,7 @@
             "type": "Lacs",
             "bait": "Ver luisant"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Cornelia",
             "primeLocation": "Forêt du nord",
@@ -57,7 +57,7 @@
             "type": "Rivières",
             "bait": "Cuiller arc-en-ciel"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Betta ninja",
             "primeLocation": "Mor Dhona",
@@ -65,7 +65,7 @@
             "type": "Lacs",
             "bait": "Betta assassin"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Canavan",
             "primeLocation": "Mor Dhona",
@@ -73,7 +73,7 @@
             "type": "Rivières",
             "bait": "Cyprin doré"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Kuno le tueur",
             "primeLocation": "Mor Dhona",
@@ -81,7 +81,7 @@
             "type": "Lacs",
             "bait": "Betta assassin"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Naufrageur de pirates",
             "primeLocation": "Thanalan occidental",
@@ -89,7 +89,7 @@
             "type": "Pleine mer",
             "bait": "Gobie de Merlthor"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Ndendecki",
             "primeLocation": "Thanalan occidental",
@@ -97,7 +97,7 @@
             "type": "Lacs",
             "bait": "Cyprin argenté"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Flagrum de mer",
             "primeLocation": "Thanalan occidental",
@@ -105,7 +105,7 @@
             "type": "Rivières",
             "bait": "Cyprin argenté"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Poisson couteau wootz zénith",
             "primeLocation": "Thanalan septentrional",
@@ -113,7 +113,7 @@
             "type": "Lacs",
             "bait": "Cyprin argenté"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Hélicoprion",
             "primeLocation": "Thanalan méridional",
@@ -121,7 +121,7 @@
             "type": "Dune de sable",
             "bait": "Poisson tempête"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Sombrétoile",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -129,7 +129,7 @@
             "type": "Rivières",
             "bait": "Éperlan d'Abalathia"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Cadavre bleu",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -137,7 +137,7 @@
             "type": "Rivières",
             "bait": "Larve de phrygane"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Mahar",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -145,7 +145,7 @@
             "type": "Cieux",
             "bait": "Brise nuage"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Shonisaurus",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -153,7 +153,7 @@
             "type": "Cieux",
             "bait": "Mahar"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Crabe hallucinogène",
             "primeLocation": "Forêt de l'est",
@@ -161,7 +161,7 @@
             "type": "Lacs",
             "bait": "Chabot"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Takitaro géant",
             "primeLocation": "Forêt du sud",
@@ -169,7 +169,7 @@
             "type": "Lacs",
             "bait": "Ver luisant"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Namitaro",
             "primeLocation": "Forêt du sud",
@@ -177,7 +177,7 @@
             "type": "Lacs",
             "bait": "Grenouille sèche"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Arowana sanguin",
             "primeLocation": "Mor Dhona",
@@ -185,7 +185,7 @@
             "type": "Lacs",
             "bait": "Cyprin argenté"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Cocoquillage géant",
             "primeLocation": "Noscea orientale",
@@ -193,7 +193,7 @@
             "type": "Pleine mer",
             "bait": "Devon lesté"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Pic-à-glace",
             "primeLocation": "Hautes terres du Coerthas occidental",
@@ -201,5 +201,5 @@
             "type": "Lacs",
             "bait": "Nymphe de plécoptère"
         }
-    ]
+    }
 }

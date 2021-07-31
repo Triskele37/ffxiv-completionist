@@ -38,8 +38,9 @@ module.exports = function removeExcluded(rl, content, indentation) {
         let shouldUpdate = false;
         let commonKeysFound = [];
 
-        group.tasks.forEach((task) => {
+        Object.keys(group.tasks).forEach((taskId) => {
             content.COMMON_KEYS.forEach((commonKey) => {
+                const task = group.tasks[taskId];
                 if(task[commonKey] !== undefined) {
                     shouldUpdate = true;
 
@@ -70,13 +71,12 @@ module.exports = function removeExcluded(rl, content, indentation) {
 
                 commonKeysFound.forEach((found) => {
                     const { id, key, value } = found;
-                    const commonIndex = commonGroup.tasks.findIndex((t) => t.id === id);
 
-                    if(commonIndex !== -1) {
-                        commonGroup.tasks[commonIndex][key] = value;
+                    if(commonGroup.tasks[id]) {
+                        commonGroup.tasks[id][key] = value;
                     }
                     else {
-                        commonGroup.tasks.push({ id, [key]: value });
+                        commonGroup.tasks[id] = { id, [key]: value };
                     }
                 });
 

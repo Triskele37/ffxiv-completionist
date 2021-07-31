@@ -5,474 +5,474 @@
         "npc": "NPC",
         "requirements": "Requirements"
     },
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Master Carpenter I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Treated Spruce Lumber (HQ)"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Master Carpenter II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Reinforced Spruce Plywood (HQ)"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Master Carpenter III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Master Carpenter IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Master Carpenter V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Master Carpenter VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Master Carpenter VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Master Carpenter VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Master Carpenter: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Master Carpenter: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Master Blacksmith I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Darksteel Ingot (HQ)"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Master Blacksmith II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Balanced Darksteel Hook (HQ)"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Master Blacksmith III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Master Blacksmith IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Master Blacksmith V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Master Blacksmith VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Master Blacksmith VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Master Blacksmith VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Master Blacksmith: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Master Blacksmith: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Master Armorer I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Darksteel Ingot (HQ)"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Master Armorer II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Reinforced Dark Steel Wire (HQ)"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Master Armorer III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Master Armorer IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Master Armorer V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x25": {
             "id": 25,
             "name": "Master Armorer VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x26": {
             "id": 26,
             "name": "Master Armorer VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x27": {
             "id": 27,
             "name": "Master Armorer VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x28": {
             "id": 28,
             "name": "Master Armorer: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x29": {
             "id": 29,
             "name": "Master Armorer: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x30": {
             "id": 30,
             "name": "Master Goldsmith I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Rose Gold Ingot (HQ)"
         },
-        {
+        "x31": {
             "id": 31,
             "name": "Master Goldsmith II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Calibrated Rose Gold Cog (HQ)"
         },
-        {
+        "x32": {
             "id": 32,
             "name": "Master Goldsmith III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x33": {
             "id": 33,
             "name": "Master Goldsmith IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x34": {
             "id": 34,
             "name": "Master Goldsmith V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x35": {
             "id": 35,
             "name": "Master Goldsmith VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x36": {
             "id": 36,
             "name": "Master Goldsmith VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x37": {
             "id": 37,
             "name": "Master Goldsmith VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x38": {
             "id": 38,
             "name": "Master Goldsmith: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x39": {
             "id": 39,
             "name": "Master Goldsmith: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x40": {
             "id": 40,
             "name": "Master Leatherworker I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Hard Hippogryph Leather (HQ)"
         },
-        {
+        "x41": {
             "id": 41,
             "name": "Master Leatherworker II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Water-hardened Hipogryph Strap (HQ)"
         },
-        {
+        "x42": {
             "id": 42,
             "name": "Master Leatherworker III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x43": {
             "id": 43,
             "name": "Master Leatherworker IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x44": {
             "id": 44,
             "name": "Master Leatherworker V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x45": {
             "id": 45,
             "name": "Master Leatherworker VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x46": {
             "id": 46,
             "name": "Master Leatherworker VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x47": {
             "id": 47,
             "name": "Master Leatherworker VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x48": {
             "id": 48,
             "name": "Master Leatherworker: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x49": {
             "id": 49,
             "name": "Master Leatherworker: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x50": {
             "id": 50,
             "name": "Master Weaver I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Vanya Silk (HQ)"
         },
-        {
+        "x51": {
             "id": 51,
             "name": "Master Weaver II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Intricate Silver Brocade (HQ)"
         },
-        {
+        "x52": {
             "id": 52,
             "name": "Master Weaver III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x53": {
             "id": 53,
             "name": "Master Weaver IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x54": {
             "id": 54,
             "name": "Master Weaver V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x55": {
             "id": 55,
             "name": "Master Weaver VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x56": {
             "id": 56,
             "name": "Master Weaver VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x57": {
             "id": 57,
             "name": "Master Weaver VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x58": {
             "id": 58,
             "name": "Master Weaver: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x59": {
             "id": 59,
             "name": "Master Weaver: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x60": {
             "id": 60,
             "name": "Master Alchemist I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Growth Formula Delta Concentrate (HQ)"
         },
-        {
+        "x61": {
             "id": 61,
             "name": "Master Alchemist II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Concentrated Spirits of Salt (HQ)"
         },
-        {
+        "x62": {
             "id": 62,
             "name": "Master Alchemist III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x63": {
             "id": 63,
             "name": "Master Alchemist IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x64": {
             "id": 64,
             "name": "Master Alchemist V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x65": {
             "id": 65,
             "name": "Master Alchemist VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x66": {
             "id": 66,
             "name": "Master Alchemist VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x67": {
             "id": 67,
             "name": "Master Alchemist VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         },
-        {
+        "x68": {
             "id": 68,
             "name": "Master Alchemist: Demimateria",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fieldcraft Demimateria I & Battlecraft Demimateria I"
         },
-        {
+        "x69": {
             "id": 69,
             "name": "Master Alchemist: Glamours",
             "npc": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gil"
         },
-        {
+        "x70": {
             "id": 70,
             "name": "Master Culinarian I",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Sauteed Coeurl (HQ)"
         },
-        {
+        "x71": {
             "id": 71,
             "name": "Master Culinarian II",
             "npc": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Rich Tomato Relish (HQ)"
         },
-        {
+        "x72": {
             "id": 72,
             "name": "Master Culinarian III",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x73": {
             "id": 73,
             "name": "Master Culinarian IV",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "100 Yellow Scrips"
         },
-        {
+        "x74": {
             "id": 74,
             "name": "Master Culinarian V",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "300 Yellow Scrips"
         },
-        {
+        "x75": {
             "id": 75,
             "name": "Master Culinarian VI",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x76": {
             "id": 76,
             "name": "Master Culinarian VII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "400 Yellow Scrips"
         },
-        {
+        "x77": {
             "id": 77,
             "name": "Master Culinarian VIII",
             "npc": "Scrip Exchange: Eulmore (x11, y10)",
             "requirements": "1200 Yellow Scrips"
         }
-    ]
+    }
 }

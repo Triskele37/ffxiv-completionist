@@ -1,7 +1,7 @@
 {
     "groupName": "Vrandtic Folklore",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Cocon mousseux",
             "zone": "Grand-Lac",
@@ -9,7 +9,7 @@
             "nodeTimer": "Légendaire (08:00 / 20:00), Débloqué par Légendes géologiques de Norvrandt",
             "closestAetheryte": "Fort Jobb"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Grémil",
             "zone": "Amh Araeng",
@@ -17,7 +17,7 @@
             "nodeTimer": "Légendaire (04:00 / 16:00), Débloqué par Légendes géologiques de Norvrandt",
             "closestAetheryte": "Auberge du Grand Départ"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Osmonde royale",
             "zone": "Kholusia",
@@ -25,7 +25,7 @@
             "nodeTimer": "Légendaire (00:00 / 12:00), Débloqué par Légendes géologiques de Norvrandt",
             "closestAetheryte": "Douceonde"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Aneth souple",
             "zone": "Kholusia",
@@ -33,12 +33,12 @@
             "nodeTimer": "Legendary (12AM/PM), Unlocked w/ Botanical Folklore - Vrandtic",
             "closestAetheryte": "Douceonde"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Raindrop Cotton Boll",
             "zone": "The Rak'tika Greatwood",
             "closestTeleport": "Fanow",
             "nodeTimer": "Legendary (10AM/PM), Unlocked w/ Botanical Folklore - Vrandtic"
         }
-    ]
+    }
 }

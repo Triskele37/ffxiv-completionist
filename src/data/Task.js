@@ -69,8 +69,12 @@ export class Task {
         if(parseFloat(previousValue) < this.minValue) previousValue = this.minValue.toString();
 
         // Prevent negative progression
-        if(newValue < this.minValue) this._parent.updateCompleted(0);
-        else this._parent.updateCompleted(newValue - previousValue);
+        if(isNaN(previousValue) || newValue < this.minValue) {
+            this._parent.updateCompleted(0);
+        }
+        else {
+            this._parent.updateCompleted(newValue - previousValue);
+        }
     }
 
     get storageKey() {

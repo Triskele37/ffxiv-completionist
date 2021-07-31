@@ -6,11 +6,9 @@ const rl = readline.createInterface({
 });
 
 const convertSheetToJSON = require('./convertSheetToJSON');
-const reorderTasksByOldName = require('./reorderTasksByOldName');
 const reorderTasksBySource = require('./reorderTasksBySource');
-const propagateNewTasks = require('./propagateNewTasks');
-const mergeFauxIDs = require('./mergeFauxIDs');
 const outputIdChanges = require('./outputIdChanges');
+const convertTasksToObject = require('./convertTasksToObject');
 
 // Process entry point
 mainScreen();
@@ -21,21 +19,17 @@ function mainScreen() {
     console.clear();
     rl.write('Welcome\n');
     rl.write('\n1. Convert sheet to JSON');
-    rl.write('\n2. Reorder Tasks by Old Name');
-    rl.write('\n3. Reorder Tasks by Source');
-    rl.write('\n4. Propagate New Tasks');
-    rl.write('\n5. Merge Faux Tasks');
-    rl.write('\n6. Output ID Changes');
-    rl.write('\n7. Exit\n');
+    rl.write('\n2. Reorder Tasks by Source');
+    rl.write('\n3. Output ID Changes');
+    rl.write('\n4. Convert to task objects');
+    rl.write('\n5. Exit\n');
 
     rl.question('\nWhat would you like to do? ', async (answer) => {
         switch(answer) {
             case '1': convertSheetToJSON(rl, mainScreen); break;
-            case '2': reorderTasksByOldName(rl, mainScreen); break;
-            case '3': reorderTasksBySource(rl, mainScreen); break;
-            case '4': propagateNewTasks(rl, mainScreen); break;
-            case '5': mergeFauxIDs(rl, mainScreen); break;
-            case '6': outputIdChanges(rl, mainScreen); break;
+            case '2': reorderTasksBySource(rl, mainScreen); break;
+            case '3': outputIdChanges(rl, mainScreen); break;
+            case '4': convertTasksToObject(rl, mainScreen); break;
             default: rl.close();
         }
     });

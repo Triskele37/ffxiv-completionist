@@ -15,16 +15,16 @@ function diveForLoad(currentGroup, currentStoreLayer) {
         });
     }
 
-    if(currentGroup.tasks) {
-        currentGroup.tasks.forEach((task) => {
-            if(currentStoreLayer[task.storageKey]) {
-                if(!currentGroup.isNumericCompletion) {
-                    task.setCompletionFlag(currentStoreLayer[task.storageKey]);
-                }
-                else {
-                    task.changeCompletionNumber(currentStoreLayer[task.storageKey]);
-                }
+    for(const id in currentGroup.tasks) {
+        const task = currentGroup.tasks[id];
+
+        if(currentStoreLayer[task.storageKey]) {
+            if(!currentGroup.isNumericCompletion) {
+                task.setCompletionFlag(currentStoreLayer[task.storageKey]);
             }
-        });
+            else {
+                task.changeCompletionNumber(currentStoreLayer[task.storageKey]);
+            }
+        }
     }
 }

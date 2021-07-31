@@ -1,26 +1,26 @@
 {
     "groupName": "Dravanian Folklore",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Lainuchairelle",
             "zone": "Arrière-pays dravanien",
             "closestAetheryte": "Idyllée -> Arrière-pays dravanien",
             "nodeTimer": "Légendaire (10:00 / 22:00), Débloqué par Légendes géologiques de Dravania"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Fleur astrale",
             "zone": "L'Écume des cieux de Dravania",
             "closestAetheryte": "Zénith",
             "nodeTimer": "Légendaire (04:00 / 16:00), Débloqué par Légendes géologiques de Dravania"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Sauge noble",
             "zone": "Avant-pays dravanien",
             "closestAetheryte": "La Penne",
             "nodeTimer": "Légendaire (06:00 / 18:00), Débloqué par Légendes géologiques de Dravania"
         }
-    ]
+    }
 }

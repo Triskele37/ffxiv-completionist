@@ -1,33 +1,33 @@
 {
     "groupName": "Skysteel Tools",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Oddly Specific Latex",
             "zone": "The Sea of Clouds",
             "closestTeleport": "Camp Cloudtop",
             "nodeTimer": ""
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Oddly Specific Fossil Dust",
             "zone": "The Sea of Clouds",
             "closestTeleport": "Camp Cloudtop",
             "nodeTimer": ""
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Oddly Specific Amber",
             "zone": "Coerthas Western Highlands",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
             "nodeTimer": ""
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Oddly Specific Bauble",
             "zone": "Coerthas Western Highlands",
             "closestTeleport": "Tailfeather -> Coerthas Western Highlands",
             "nodeTimer": ""
         }
-    ]
+    }
 }

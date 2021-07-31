@@ -1,355 +1,355 @@
 {
     "groupName": "Gladiateur",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Gladiateur 01",
             "mob": "Coccinelle x3",
             "zone": "Thanalan occidental",
             "location": "Martelterre"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Gladiateur 02",
             "mob": "Marmotte x3",
             "zone": "Thanalan central",
             "location": "Bassin des Désépinés"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Gladiateur 03",
             "mob": "Cactuar x3",
             "zone": "Thanalan occidental",
             "location": "Les Quatre-Vingts Bourreaux de Sasamo (26,25)"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Gladiateur 04",
             "mob": "Musaraigne agressive x3",
             "zone": "Thanalan central",
             "location": "Bassin des Désépinés (22,26)"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Gladiateur 05",
             "mob": "Bec-marteau x3",
             "zone": "Thanalan occidental",
             "location": "Martelterre (22,25)"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Gladiateur 06",
             "mob": "Fourmi ouvrière x3",
             "zone": "Thanalan central",
             "location": "Ronenoire (21,16)"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Gladiateur 07",
             "mob": "Élémentaire de terre x3",
             "zone": "Thanalan occidental",
             "location": "Maltelterre"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Gladiateur 08",
             "mob": "Spriggan pilleur de tombe x3",
             "zone": "Thanalan central",
             "location": "Roncenoire (17,23)"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Gladiateur 09",
             "mob": "Qiqirn casse-coquille x3",
             "zone": "Thanalan central",
             "location": "Roncenoire (16,19)"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Gladiateur 10",
             "mob": "Fourmi soldat x3, Houret poussiéreux x3",
             "zone": "Thanalan central, Thanalan occidental",
             "location": "Le Nid (24,18), Confins d'Horizon (22,21)"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Gladiateur 11",
             "mob": "Bombo x3, Coblyn de cuivre x3",
             "zone": "Thanalan occidental",
             "location": "Confins d'Horizon (26,18), Confins d'Horizon (26,16)"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Gladiateur 12",
             "mob": "Cactuar nopal x3",
             "zone": "Thanalan central",
             "location": "Le Nid (25,21)"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Gladiateur 13",
             "mob": "Garde des Quiveron x3",
             "zone": "Thanalan central",
             "location": "Le Nid (23,20)"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Gladiateur 14",
             "mob": "Tortue géante x3",
             "zone": "Thanalan occidental",
             "location": "Martelterre (23,26)"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Gladiateur 15",
             "mob": "Coquépaisse x3",
             "zone": "Thanalan occidental",
             "location": "Vallée des Pas perdus (15,15)"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Gladiateur 16",
             "mob": "Scaphite x3",
             "zone": "Thanalan occidental",
             "location": "Vallée des Pas perdus (17,14)"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Gladiateur 17",
             "mob": "Tuco-tuco x3",
             "zone": "Thanalan oriental",
             "location": "Les Os desséchés (12,16)"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Gladiateur 18",
             "mob": "Bouquetin myotragus x3",
             "zone": "Thanalan oriental",
             "location": "Les Os desséchés (15,23)"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Gladiateur 19",
             "mob": "Imp vandale x3",
             "zone": "Thanalan oriental",
             "location": "Les Os desséchés (14,18)"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Gladiateur 20",
             "mob": "Noble putrescent x3, Épouvantôme boursouflé x3",
             "zone": "Thanalan oriental, Thanalan occidental",
             "location": "Les Os desséchés (14,16), Valllée des Pas perdus (13,11)"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Gladiateur 21",
             "mob": "Coquepierre x4, Piège-pou x3",
             "zone": "Haute-Noscea, Forêt du sud",
             "location": "La Chênaie (13,24), Hauts-Chemins (21,22)"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Gladiateur 22",
             "mob": "Coblyn de plomb x4",
             "zone": "Thanalan occidental",
             "location": "Valée des Pas perdus (13,11)"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Gladiateur 23",
             "mob": "Otyugh monstreux x4",
             "zone": "Forêt du sud",
             "location": "Hauts-Chemins (19,19)"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Gladiateur 24",
             "mob": "Jeune coeurl x4",
             "zone": "Haute-Noscea",
             "location": "La Chênaie (9,20)"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Gladiateur 25",
             "mob": "ballon x4",
             "zone": "Forêt du nord",
             "location": "Sources de L'Aulne (17,27)"
         },
-        {
+        "x25": {
             "id": 25,
             "name": "Gladiateur 26",
             "mob": "pampa x4",
             "zone": "Thanalan méridional",
             "location": "Eaux-Mortes (17,15)"
         },
-        {
+        "x26": {
             "id": 26,
             "name": "Gladiateur 27",
             "mob": "Qiqirn gobe-oisillon x4",
             "zone": "Thanalan oriental",
             "location": "Bois du Renouveau (24,22)"
         },
-        {
+        "x27": {
             "id": 27,
             "name": "Gladiateur 28",
             "mob": "Malfrat gobelin x4",
             "zone": "Forêt du sud",
             "location": "Charmille silencieuse (27,21)"
         },
-        {
+        "x28": {
             "id": 28,
             "name": "Gladiateur 29",
             "mob": "Trancheuse Griffecoeurl x4",
             "zone": "Forêt du sud",
             "location": "Charmille silencieuse (28,21)"
         },
-        {
+        "x29": {
             "id": 29,
             "name": "Gladiateur 30",
             "mob": "Apkallu x4, Ptéroc des embruns x3",
             "zone": "Noscea orientale, Noscea extérieure",
             "location": "Rives sanglantes (28,35), L'Ascension (14,18)"
         },
-        {
+        "x30": {
             "id": 30,
             "name": "Gladiateur 31",
             "mob": "Œil flottant x4, Sophiste mamool ja x3",
             "zone": "Forêt centrale, Haute-Noscea",
             "location": "Havre des Renouées (11,22), Lac d'Airain (28,25)"
         },
-        {
+        "x31": {
             "id": 31,
             "name": "Gladiateur 32",
             "mob": "Uragnite x4, Adamankhélone x3",
             "zone": "Haute-Noscea, Forêt du sud",
             "location": "Lac d'Airain (30,25), Bas-Chemins (20,27)"
         },
-        {
+        "x32": {
             "id": 32,
             "name": "Gladiateur 33",
             "mob": "Ver des sables x4",
             "zone": "Thanalan méridional",
             "location": "Désert de Sagolii (22,32)"
         },
-        {
+        "x33": {
             "id": 33,
             "name": "Gladiateur 34",
             "mob": "Mortalis x4",
             "zone": "Forêt centrale",
             "location": "Havre des Renouées (15,21)"
         },
-        {
+        "x34": {
             "id": 34,
             "name": "Gladiateur 35",
             "mob": "Velociraptor x4",
             "zone": "Noscea extérieure",
             "location": "L'Ascension (20,15)"
         },
-        {
+        "x35": {
             "id": 35,
             "name": "Gladiateur 36",
             "mob": "Magicien déchu x4",
             "zone": "Thanalan méridional",
             "location": "Désert de Sagoliii (21,37)"
         },
-        {
+        "x36": {
             "id": 36,
             "name": "Gladiateur 37",
             "mob": "Louveteau des neiges x4",
             "zone": "Hautes terres du Coerthas central",
             "location": "Tête du dragon (31,14)"
         },
-        {
+        "x37": {
             "id": 37,
             "name": "Gladiateur 38",
             "mob": "Tréant x4",
             "zone": "Forêt du sud",
             "location": "Bocage de la Mue (22,26)"
         },
-        {
+        "x38": {
             "id": 38,
             "name": "Gladiateur 39",
             "mob": "Vodoriga x4",
             "zone": "Hautes terres du Coerthas central",
             "location": "Tête du dragon (27,14)"
         },
-        {
+        "x39": {
             "id": 39,
             "name": "Gladiateur 40",
             "mob": "Hippocerf x4, Grenado x3",
             "zone": "Hautes terres du Coerthas central, Thanalan septentrional",
             "location": "L'Arête blanche (12,18),"
         },
-        {
+        "x40": {
             "id": 40,
             "name": "Gladiateur 41",
             "mob": "Mante prédatrice x5, Gypaète x2",
             "zone": "Noscea occidental",
             "location": "Îles d'Ombra (12,35)"
         },
-        {
+        "x41": {
             "id": 41,
             "name": "Gladiateur 42",
             "mob": "Tréant centenaire x5, Eques de la 3e cohorte x2",
             "zone": "Forêt de l'est",
             "location": "Chantalouette (27,22), Chantalouette (29,21)"
         },
-        {
+        "x42": {
             "id": 42,
             "name": "Gladiateur 43",
             "mob": "Mort gémissant x5, Morbol x2",
             "zone": "Noscea occidental, Forêt de l'est",
             "location": "Îles d'Ombra (14,35), Chantalouette (23,21)"
         },
-        {
+        "x43": {
             "id": 43,
             "name": "Gladiateur 44",
             "mob": "Protée x5",
             "zone": "Mor Dhona",
             "location": "Fangebrume (13,10)"
         },
-        {
+        "x44": {
             "id": 44,
             "name": "Gladiateur 45",
             "mob": "Cobra des lacs x5",
             "zone": "Mor Dhona",
             "location": "Rive nord de Pleurargent (24,12)"
         },
-        {
+        "x45": {
             "id": 45,
             "name": "Gladiateur 46",
             "mob": "Géant jouteur x3",
             "zone": "Hautes terres du Coerthas central",
             "location": "Coteaux rocheux (12,27)"
         },
-        {
+        "x46": {
             "id": 46,
             "name": "Gladiateur 47",
             "mob": "Psalmodieur subjugué x5",
             "zone": "Thanalan méridional",
             "location": "Zan'rak (21,20)"
         },
-        {
+        "x47": {
             "id": 47,
             "name": "Gladiateur 48",
             "mob": "Dullahan x5",
             "zone": "Forêt du nord",
             "location": "La Fierté (21,21)"
         },
-        {
+        "x48": {
             "id": 48,
             "name": "Gladiateur 49",
             "mob": "Basilic x5",
             "zone": "Thanalan septentrional",
             "location": "L'Arête blanche (12,18), Brumebleue (21,15)"
         },
-        {
+        "x49": {
             "id": 49,
             "name": "Gladiateur 50",
             "mob": "Gigas bhikkhu x5, Hoplomachus de la 2e cohorte x5",
             "zone": "Mor Dhona, Noscea orientale",
             "location": "Rive nord de Pleurargent (32,14), Chaussée d'Agelyss (30,20)"
         }
-    ]
+    }
 }

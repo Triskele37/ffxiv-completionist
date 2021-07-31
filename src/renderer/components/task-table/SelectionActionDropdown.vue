@@ -33,18 +33,33 @@ export default {
     name: 'selection-action-dropdown',
     props: {
         group: Object,
-        filteredTasks: Array
+        filteredTasks: Object
     },
     data: () => ({
         dropdownOpen: false
     }),
     methods: {
+        selectedIds: function() {
+            const selectedIds = [];
+            for(const id in this.filteredTasks) {
+                if(this.filteredTasks[id].selected) selectedIds.push(id);
+            }
+            return selectedIds;
+        },
         onSelectChange: function(select) {
-            this.filteredTasks.forEach((task) => task.selected = select === null ? !task.selected : select);
+            for(const id in this.filteredTasks) {
+                if(select === null) {
+                    this.filteredTasks[id].selected = !this.filteredTasks[id].selected;
+                }
+                else {
+                    this.filteredTasks[id].selected = select;
+                }
+            }
+
             this.$emit('select-change');
         },
         openInGardland: function() {
-            const ids = this.filteredTasks.filter((t) => t.selected).map((t) => t.id);
+            const ids = this.selectedIds();
 
             if(ids.length) {
                 const baseUrl = "https://www.garlandtools.org/db/#group";
@@ -59,7 +74,7 @@ export default {
             }
         },
         openInTeamcraft: function() {
-            const ids = this.filteredTasks.filter((t) => t.selected).map((t) => t.id);
+            const ids = this.selectedIds();
 
             if(ids.length) {
                 const baseUrl = "https://www.ffxivteamcraft.com/import";

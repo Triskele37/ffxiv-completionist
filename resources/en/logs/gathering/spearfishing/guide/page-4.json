@@ -1,7 +1,7 @@
 {
     "groupName": "Page 4",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Snipe Eel",
             "primeLocation": "Yanxia",
@@ -9,7 +9,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Cherubfish",
             "primeLocation": "Yanxia",
@@ -17,7 +17,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Dusk Herald",
             "primeLocation": "The Azim Steppe",
@@ -25,7 +25,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Glaring Perch",
             "primeLocation": "The Azim Steppe",
@@ -33,7 +33,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Abalathian Pipira",
             "primeLocation": "The Lochs",
@@ -41,7 +41,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Steel Loach",
             "primeLocation": "The Lochs",
@@ -49,7 +49,7 @@
             "type": "Spearfishing",
             "bait": "Small"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Ivory Sole",
             "primeLocation": "The Lochs",
@@ -57,7 +57,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Motley Beakfish",
             "primeLocation": "The Ruby Sea",
@@ -65,7 +65,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Thousandfang",
             "primeLocation": "The Ruby Sea",
@@ -73,7 +73,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Ichthyosaur",
             "primeLocation": "Yanxia",
@@ -81,7 +81,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Sailfin",
             "primeLocation": "Yanxia",
@@ -89,7 +89,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Fangshi",
             "primeLocation": "Yanxia",
@@ -97,7 +97,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Flamefish",
             "primeLocation": "The Azim Steppe",
@@ -105,7 +105,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Fickle Krait",
             "primeLocation": "The Azim Steppe",
@@ -113,7 +113,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Eternal Eye",
             "primeLocation": "The Azim Steppe",
@@ -121,7 +121,7 @@
             "type": "Spearfishing",
             "bait": "Small"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Soul of the Stallion",
             "primeLocation": "The Azim Steppe",
@@ -129,7 +129,7 @@
             "type": "Spearfishing",
             "bait": "Small"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Flood Tuna",
             "primeLocation": "The Lochs",
@@ -137,7 +137,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Mercenary Crab",
             "primeLocation": "The Lochs",
@@ -145,7 +145,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Ashfish",
             "primeLocation": "The Lochs",
@@ -153,7 +153,7 @@
             "type": "Spearfishing",
             "bait": "Small"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Silken Sunfish",
             "primeLocation": "The Lochs",
@@ -161,7 +161,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Mosasaur",
             "primeLocation": "The Lochs",
@@ -169,7 +169,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Tiny Tatsunoko",
             "primeLocation": "The Ruby Sea",
@@ -177,7 +177,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Ichimonji",
             "primeLocation": "The Ruby Sea",
@@ -185,7 +185,7 @@
             "type": "Spearfishing",
             "bait": "Large"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Snailfish",
             "primeLocation": "The Ruby Sea",
@@ -193,7 +193,7 @@
             "type": "Spearfishing",
             "bait": "Normal"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Grey Carp",
             "primeLocation": "Lakeland",
@@ -201,5 +201,5 @@
             "type": "Spearfishing",
             "bait": "Large"
         }
-    ]
+    }
 }

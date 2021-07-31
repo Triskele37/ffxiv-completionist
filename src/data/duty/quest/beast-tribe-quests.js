@@ -31,15 +31,21 @@ export const Duty_Quests_Beast_Tribe = function(parent) {
 
 function buildBeastTribe(parent, basePath) {
     const group = DataGroup.fromJSON(parent, `${basePath}/index`);
+    group.tasks = {};
 
     const mainGroup = DataGroup.fromJSON(group, `${basePath}/main-quests`);
-    mainGroup.tasks.forEach((t) => t.type = "Main");
+    for(const id in mainGroup.tasks) {
+        group.tasks[id] = mainGroup.tasks[id];
+        group.tasks[id].type = "Main";
+        group.tasks[id]._parent = group;
+    }
 
     const dailyGroup = DataGroup.fromJSON(group, `${basePath}/daily-quests`);
-    dailyGroup.tasks.forEach((t) => t.type = "Daily");
-
-    group.tasks = [...mainGroup.tasks, ...dailyGroup.tasks];
-    group.tasks.forEach((t) => t._parent = group);
+    for(const id in dailyGroup.tasks) {
+        group.tasks[id] = dailyGroup.tasks[id];
+        group.tasks[id].type = "Daily";
+        group.tasks[id]._parent = group;
+    }
 
     return group;
 }

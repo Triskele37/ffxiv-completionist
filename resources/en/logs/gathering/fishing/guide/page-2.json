@@ -1,7 +1,7 @@
 {
     "groupName": "Page 2",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Pebble Crab",
             "primeLocation": "Lower La Noscea",
@@ -9,7 +9,7 @@
             "type": "Coastlines",
             "bait": "Rat Tail"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Mudskipper",
             "primeLocation": "Western Thanalan",
@@ -17,7 +17,7 @@
             "type": "Lakes",
             "bait": "Bloodworm"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Rainbow Trout",
             "primeLocation": "North Shroud",
@@ -25,7 +25,7 @@
             "type": "Rivers",
             "bait": "Bloodworm"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "River Crab",
             "primeLocation": "East Shroud",
@@ -33,7 +33,7 @@
             "type": "Rivers",
             "bait": "Bloodworm"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Tiger Cod",
             "primeLocation": "Lower La Noscea",
@@ -41,7 +41,7 @@
             "type": "Coastlines",
             "bait": "Goby Ball"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Ala Mhigan Fighting Fish",
             "primeLocation": "The Black Shroud",
@@ -49,7 +49,7 @@
             "type": "Lakes",
             "bait": "Midge Basket"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Helmet Crab",
             "primeLocation": "Western La Noscea",
@@ -57,7 +57,7 @@
             "type": "Coastlines",
             "bait": "Rat Tail"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Faerie Bass",
             "primeLocation": "Western Thanalan",
@@ -65,7 +65,7 @@
             "type": "Lakes",
             "bait": "Butterworm"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Acorn Snail",
             "primeLocation": "Eastern Thanalan",
@@ -73,7 +73,7 @@
             "type": "Rivers",
             "bait": "Midge Basket"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Rothlyt Oyster",
             "primeLocation": "Lower La Noscea",
@@ -81,7 +81,7 @@
             "type": "Coastlines",
             "bait": "Rat Tail"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Dark Sleeper",
             "primeLocation": "North Shroud",
@@ -89,7 +89,7 @@
             "type": "Rivers",
             "bait": "Floating Minnow"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "La Noscean Perch",
             "primeLocation": "Middle La Noscea",
@@ -97,7 +97,7 @@
             "type": "Rivers",
             "bait": "Bass Ball"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Navigator's Dagger",
             "primeLocation": "Western La Noscea",
@@ -105,7 +105,7 @@
             "type": "Deep Sea",
             "bait": "Rat Tail"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Moat Carp",
             "primeLocation": "Gridania",
@@ -113,7 +113,7 @@
             "type": "Lakes",
             "bait": "Crow Fly"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Angelfish",
             "primeLocation": "Middle La Noscea",
@@ -121,7 +121,7 @@
             "type": "Deep Sea",
             "bait": "Rat Tail"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Copperfish",
             "primeLocation": "Western Thanalan",
@@ -129,7 +129,7 @@
             "type": "Lakes",
             "bait": "Midge Basket"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Bluebell Salmon",
             "primeLocation": "East Shroud",
@@ -137,7 +137,7 @@
             "type": "Rivers",
             "bait": "Midge Basket"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Razor Clam",
             "primeLocation": "Western La Noscea",
@@ -145,7 +145,7 @@
             "type": "Coastlines",
             "bait": "Rat Tail"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Mudcrab",
             "primeLocation": "Eastern Thanalan",
@@ -153,7 +153,7 @@
             "type": "Rivers",
             "bait": "Streamer"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Blue Octopus",
             "primeLocation": "Limsa Lominsa",
@@ -161,7 +161,7 @@
             "type": "Deep Sea",
             "bait": "Ocean Cloud"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Tri-colored Carp",
             "primeLocation": "Central Shroud",
@@ -169,7 +169,7 @@
             "type": "Rivers",
             "bait": "Crow Fly"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Eunuch Crayfish",
             "primeLocation": "Western Thanalan",
@@ -177,7 +177,7 @@
             "type": "Rivers",
             "bait": "Copperfish"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Jade Eel",
             "primeLocation": "Upper La Noscea",
@@ -185,7 +185,7 @@
             "type": "Rivers",
             "bait": "Crow Fly"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Blowfish",
             "primeLocation": "Eastern La Noscea",
@@ -193,7 +193,7 @@
             "type": "Coastlines",
             "bait": "Floating Minnow"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Pond Mussel",
             "primeLocation": "Upper La Noscea",
@@ -201,5 +201,5 @@
             "type": "Lakes",
             "bait": "Brass Spoon Lure"
         }
-    ]
+    }
 }

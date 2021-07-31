@@ -1,12 +1,16 @@
 <template>
     <div v-if="!!columnConfig">
         <div class="task-table-toolbar">
-            <span v-if="hasTasks && !tasks[0].isNumericCompletion">
+            <span v-if="hasTasks && !group.isNumericCompletion">
                 <quick-mark-dropdown :filtered-tasks="filteredTasks"/>
             </span>
 
-            <span v-if="hasTasks && !tasks[0].isNumericCompletion">
-                <selection-action-dropdown :group="group" :filtered-tasks="filteredTasks" v-on:select-change="onSelectChange"/>
+            <span v-if="hasTasks && !group.isNumericCompletion">
+                <selection-action-dropdown
+                    :group="group"
+                    :filtered-tasks="filteredTasks"
+                    v-on:select-change="onSelectChange"
+                />
             </span>
 
             <span v-if="group.isCustomGroup">
@@ -14,7 +18,7 @@
             </span>
 
             <span class="row-count">
-                {{filteredTasks.length}} Rows displayed
+                {{Object.keys(filteredTasks).length}} Rows displayed
             </span>
         </div>
 
@@ -24,7 +28,7 @@
                     @filter-change="onFilterChange"
                     :column-config="columnConfig"
                     :uniqueValues="uniqueValues"
-                    :is-numeric-completion="tasks[0].isNumericCompletion"
+                    :is-numeric-completion="group.isNumericCompletion"
                 />
                 <task-table-data-row
                     :key="rerenderKey"
@@ -59,8 +63,7 @@
         },
         props: {
             columnConfig: Array,
-            group: Object,
-            tasks: Array,
+            group: Object
         },
         data: () => ({
             filters: {
@@ -82,13 +85,15 @@
         },
         computed: {
             hasTasks: function() {
-                return this.tasks && this.tasks.length > 0;
+                return this.group.tasks && this.group.taskCount > 0;
             },
             uniqueValues: function() {
                 const uniqueValues = {};
 
                 // Grab unique values from the filtered task list
-                this.filteredTasks.forEach((task) => {
+                for(const id in this.filteredTasks) {
+                    const task = this.filteredTasks[id];
+
                     this.columnConfig.forEach(({ key }) => {
                         if(!uniqueValues[key]) uniqueValues[key] = [];
 
@@ -97,7 +102,7 @@
                             uniqueValues[key].push(value);
                         }
                     });
-                });
+                }
 
                 // Sort the unique values for pretty filter dropdowns
                 this.columnConfig.forEach((column) => {
@@ -113,18 +118,22 @@
                 return uniqueValues;
             },
             filteredTasks: function() {
-                let filtered = this.tasks.concat();
+                let filtered = Object.assign({}, this.group.tasks);
 
                 // Completion filters
-                if(this.hasTasks && !this.tasks[0].isNumericCompletion) {
-                    filtered = filtered.filter(({ completionFlag }) => {
-                        switch(completionFlag) {
-                            case "Y": return this.filters.completion.completed;
-                            case "N": return this.filters.completion.incomplete;
-                            case "X": return this.filters.completion.excluded;
-                            default: return this.filters.completion.incomplete;
+                if(!this.group.isNumericCompletion) {
+                    for(const id in this.group.tasks) {
+                        let filterOut = false;
+
+                        switch(this.group.tasks[id].completionFlag) {
+                            case "Y": filterOut = !this.filters.completion.completed; break;
+                            case "N": filterOut = !this.filters.completion.incomplete; break;
+                            case "X": filterOut = !this.filters.completion.excluded; break;
+                            default: filterOut = !this.filters.completion.incomplete; break;
                         }
-                    });
+
+                        if(filterOut) delete filtered[id];
+                    }
                 }
 
                 // Column filters
@@ -133,15 +142,19 @@
                     const filter = this.filters[key];
 
                     if(filter) {
-                        if(filter.filterType === 'search') {
-                            filtered = filtered.filter((task) =>
-                                !!task[key] && task[key].toString().toLowerCase().includes(filter.value.toLowerCase())
-                            );
-                        }
-                        else {
-                            filtered = filtered.filter((task) =>
-                                task[key] === filter.value
-                            );
+                        for(const id in this.group.tasks) {
+                            const task = this.group.tasks[id];
+                            let filterOut = false;
+
+                            if(filter.filterType === 'search') {
+                                const val = task[key].toString().toLowerCase();
+                                filterOut = val === filter.value.toLowerCase();
+                            }
+                            else {
+                                filterOut = task[key] === filter.value;
+                            }
+
+                            if(filterOut) delete this.group.tasks[id];
                         }
                     }
                 }

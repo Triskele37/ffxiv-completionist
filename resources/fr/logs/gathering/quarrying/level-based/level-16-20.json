@@ -1,26 +1,26 @@
 {
     "groupName": "16-20",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Pierre calcaire",
             "zone": "Noscea occidentale",
             "closestAetheryte": "Port-aux-Ales",
             "nodeTimer": ""
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Mudstone",
             "zone": "Noscea occidentale",
             "closestAetheryte": "Port-aux-Ales",
             "nodeTimer": ""
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Matière carbonique grade I",
             "zone": "Noscea centrale",
             "closestAetheryte": "Le Martinet -> Noscea centrale",
             "nodeTimer": ""
         }
-    ]
+    }
 }

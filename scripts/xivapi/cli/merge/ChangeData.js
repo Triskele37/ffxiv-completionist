@@ -30,8 +30,8 @@ class ChangeData {
     }
 
     setAppTaskInfo(tasks) {
-        this.appTask = tasks.find((appTask) => this.cacheTask.ID === appTask.id);
-        this.appIndex = tasks.findIndex((appTask) => this.cacheTask.ID === appTask.id);
+        this.appTask = tasks[this.cacheTask.ID];
+        this.appIndex = Object.keys(tasks).indexOf(this.cacheTask.ID);
     }
 
     setTaskKeyInfo(appKey) {
@@ -69,11 +69,7 @@ class ChangeData {
 
         const group = JSON.parse(fs.readFileSync(path, 'utf8'));
 
-        group.tasks.forEach((task) => {
-            if(task.id === this.appTask.id) {
-                task[this.appKey] = utils.safeTrim(this.cacheTask[this.cacheKey]);
-            }
-        });
+        group.tasks[this.appTask.id][this.appKey] = utils.safeTrim(this.cacheTask[this.cacheKey]);
 
         fs.writeFileSync(path, JSON.stringify(group, null, 4));
     }
@@ -94,11 +90,17 @@ class ChangeData {
                 group = JSON.parse(fs.readFileSync(path, 'utf8'));
 
                 // Attempt to insert the task into the right sort order
-                if(group.tasks.length > cacheIndex) {
-                    group.tasks.splice(cacheIndex, 0, task);
+                if(Object.keys(group.tasks).length > cacheIndex) {
+                    const oldTasks = group.tasks;
+                    group.tasks = {};
+
+                    Object.keys(oldTasks).forEach((id, index) => {
+                        if(index === cacheIndex) group.tasks[task.id] = task;
+                        group.tasks[id] = oldTasks[id];
+                    });
                 }
                 else {
-                    group.tasks.push(task);
+                    group.tasks[task.id] = task;
                 }
             }
             else {

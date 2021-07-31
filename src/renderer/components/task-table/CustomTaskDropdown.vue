@@ -51,7 +51,7 @@ import { searchData } from "../../pages/search-data";
 export default {
     name: 'add-custom-task',
     props: {
-        filteredTasks: Array
+        filteredTasks: Object
     },
     data: () => ({
         customData: data.getSubGroup("custom"),
@@ -69,41 +69,45 @@ export default {
         addCustomTask: function() {
             // Prevent short names
             if(this.newTaskName.length < 3) return;
-            const customTasks = getPlayerStore().get('custom') || [];
+            const customTasks = getPlayerStore().get('custom') || {};
 
             // Get next safe ID
             let nextId = 0;
-            while(!!customTasks.find((t) => t.id === nextId)) nextId++;
+            while(!!customTasks[nextId]) nextId++;
 
             // Update store with custom name & notes
-            getPlayerStore().set('custom', [...customTasks, {
-                id: nextId,
-                name: this.newTaskName,
-                notes: this.newTaskNotes
-            }]);
+            getPlayerStore().set('custom', {
+                ...customTasks,
+                [nextId]: {
+                    id: nextId,
+                    name: this.newTaskName,
+                    notes: this.newTaskNotes
+                }
+            });
 
             // Update data with new custom task
-            this.customData.tasks.push(new Task({
+            this.customData.tasks[nextId] = new Task({
                 id: nextId,
                 name: this.newTaskName,
                 notes: this.newTaskNotes
-            }, this.customData));
+            }, this.customData);
+
+            // Generate new object reference so reload triggers
+            this.customData.tasks = Object.assign({}, this.customData.tasks);
         },
         mergeCustomTasks: function() {
             // Don't merge without items
-            if(this.customData.tasks.length < 1) return;
+            if(this.customData.taskCount < 1) return;
 
             // Replace dropdown with merge window
             this.mergingOpen = true;
             this.dropdownOpen = false;
 
             // Search for matches and filter out the matching itself
-            this.mergeTask = this.customData.tasks[this.mergeIndex];
+            this.mergeTask = this.customData.getTaskAtIndex(this.mergeIndex);
 
             this.mergeMatches = searchData(this.mergeTask.name, true);
             this.mergeMatches = this.mergeMatches.filter((m) => m.pathString !== 'Overall > Custom');
-
-            if(this.mergeMatches.length) console.log(this.mergeMatches[0]);
 
             if(this.mergeMatches.length) {
                 this.mergeInfo = `${this.mergeMatches.length} matches found`;
@@ -117,7 +121,7 @@ export default {
                 match.path.shift(); // Remove the 'Overall' step
 
                 const group = data.getChildGroupFromPath(match.path, true);
-                const task = group.tasks.find((t) => t.name === this.mergeTask.name);
+                const task = group.tasks[this.mergeTask.id];
                 task.setCompletionFlag(this.mergeTask.completionFlag);
                 this.removeCustomTask(this.mergeTask);
                 this.mergeIndex--;
@@ -127,7 +131,7 @@ export default {
         goToNextMerge: function() {
             this.mergeIndex++;
 
-            if(this.mergeIndex > this.customData.tasks.length - 1) this.exitMerge();
+            if(this.mergeIndex > this.customData.taskCount - 1) this.exitMerge();
             else this.mergeCustomTasks();
         },
         exitMerge: function() {
@@ -135,17 +139,20 @@ export default {
             this.mergeIndex = 0;
         },
         removeSelectedCustomTasks: function() {
-            this.filteredTasks.forEach((task) => {
-                if(task.selected) this.removeCustomTask(task);
-            });
+            for(const id in this.filteredTasks) {
+                if(this.filteredTasks[id].selected) {
+                    this.removeCustomTask(this.filteredTasks[id]);
+                }
+            }
         },
         removeCustomTask: function(task) {
             const store = getPlayerStore();
-            const customTasks = store.get('custom') || [];
+            const customTasks = store.get('custom') || {};
 
             // Find & Remove from store
-            const storeIndex = customTasks.findIndex((c) => c.name === task.name);
-            customTasks.splice(storeIndex, 1);
+            for(const id in customTasks) {
+                if(id === task.id.toString()) delete customTasks[id];
+            }
 
             // Update Store
             store.delete(task.fullStorageKey);
@@ -155,8 +162,10 @@ export default {
             task.setCompletionFlag('N');
 
             // Find & Remove from data
-            const groupIndex = this.customData.tasks.findIndex((c) => c.name === task.name);
-            this.customData.tasks.splice(groupIndex, 1);
+            delete this.customData.tasks[task.id];
+
+            // Generate new object reference so reload triggers
+            this.customData.tasks = Object.assign({}, this.customData.tasks);
         }
     }
 }

@@ -22,7 +22,13 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
+                console.time("test");
                 const chainedTasks = this.task.changeCompletionFlag(flag);
+                console.timeEnd("test");
+
+                // 3247ms pre change
+                // 40ms post change
+
                 console.log(chainedTasks.map(
                     (change) => `${change.task.name} > ${change.flag} (${change.task._parent.groupPath.join(' > ')})`
                 ));

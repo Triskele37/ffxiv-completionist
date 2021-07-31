@@ -15,10 +15,9 @@ function diveForSave(currentGroup) {
         });
     }
 
-    if(currentGroup.tasks) {
-        currentGroup.tasks.forEach((task) => {
-            currentLevel[task.storageKey] = task.completionFlag;
-        });
+    for(const id in currentGroup.tasks) {
+        const task = currentGroup.tasks[id];
+        currentLevel[task.storageKey] = task.completionFlag;
     }
 
     return currentLevel;

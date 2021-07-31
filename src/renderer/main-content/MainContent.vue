@@ -45,10 +45,9 @@
             <template v-if="showShowAllButton && showAll">
                 <show-all-section :group="selectedGroup" />
             </template>
-            <template v-else-if="selectedGroup.tasks">
+            <template v-else-if="selectedGroup.taskCount !== null">
                 <task-table
                     :group="selectedGroup"
-                    :tasks="selectedGroup.tasks"
                     :column-config="selectedGroup.columnConfig"
                 />
             </template>

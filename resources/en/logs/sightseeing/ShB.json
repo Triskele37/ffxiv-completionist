@@ -1,7 +1,7 @@
 {
     "groupName": "ShB",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "The Rotunda",
             "zone": "The Crystarium",
@@ -10,7 +10,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Musica Universalis",
             "zone": "The Crystarium",
@@ -19,7 +19,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "The Cabinet of Curiosity",
             "zone": "The Crystarium",
@@ -28,7 +28,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Rapture",
             "zone": "The Crystarium",
@@ -37,7 +37,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Temenos Rookery",
             "zone": "The Crystarium",
@@ -46,7 +46,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "The Glory Gate",
             "zone": "Eulmore",
@@ -55,7 +55,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "The Derelicts",
             "zone": "Eulmore",
@@ -64,7 +64,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Eulmoran Army Headquarters",
             "zone": "Eulmore",
@@ -73,7 +73,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "The Beehive",
             "zone": "Eulmore",
@@ -82,7 +82,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Fort Jobb",
             "zone": "Lakeland",
@@ -91,7 +91,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Radisca's Round",
             "zone": "Lakeland",
@@ -100,7 +100,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Laxan Loft",
             "zone": "Lakeland",
@@ -109,7 +109,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "The Ostall Imperative",
             "zone": "Lakeland",
@@ -118,7 +118,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "The Hour of Certain Durance",
             "zone": "Lakeland",
@@ -127,7 +127,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Sullen",
             "zone": "Lakeland",
@@ -136,7 +136,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Cracked Shell Beach",
             "zone": "Kholusia",
@@ -145,7 +145,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "White Oil Falls",
             "zone": "Kholusia",
@@ -154,7 +154,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Gatetown",
             "zone": "Kholusia",
@@ -163,7 +163,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Wright",
             "zone": "Kholusia",
@@ -172,7 +172,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "The Ladder",
             "zone": "Kholusia",
@@ -181,7 +181,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Tomra",
             "zone": "Kholusia",
@@ -190,7 +190,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "The Duergar's Tewel",
             "zone": "Kholusia",
@@ -199,7 +199,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "The Red Serai",
             "zone": "Amh Araeng",
@@ -208,7 +208,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Mord Souq",
             "zone": "Amh Araeng",
@@ -217,7 +217,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "The Pristine Palace of Amh Malik",
             "zone": "Amh Araeng",
@@ -226,7 +226,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x25": {
             "id": 25,
             "name": "Mount Biran Mines",
             "zone": "Amh Araeng",
@@ -235,7 +235,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x26": {
             "id": 26,
             "name": "Twine",
             "zone": "Amh Araeng",
@@ -244,7 +244,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x27": {
             "id": 27,
             "name": "Kelk",
             "zone": "Amh Araeng",
@@ -253,7 +253,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x28": {
             "id": 28,
             "name": "Lydha Lran",
             "zone": "Il Mheg",
@@ -262,7 +262,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x29": {
             "id": 29,
             "name": "The Bookman's Shelves",
             "zone": "Il Mheg",
@@ -271,7 +271,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x30": {
             "id": 30,
             "name": "Pla Enni",
             "zone": "Il Mheg",
@@ -280,7 +280,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x31": {
             "id": 31,
             "name": "Deepwood Swim",
             "zone": "Il Mheg",
@@ -289,7 +289,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x32": {
             "id": 32,
             "name": "Lyhe Ghiah",
             "zone": "Il Mheg",
@@ -298,7 +298,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x33": {
             "id": 33,
             "name": "Saint Fathric's Temple",
             "zone": "Il Mheg",
@@ -307,7 +307,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x34": {
             "id": 34,
             "name": "Fort Gohn",
             "zone": "The Rak'tika Greatwood",
@@ -316,7 +316,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x35": {
             "id": 35,
             "name": "Fruit of the Protector",
             "zone": "The Rak'tika Greatwood",
@@ -325,7 +325,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x36": {
             "id": 36,
             "name": "The Covered Halls of Dwatl",
             "zone": "The Rak'tika Greatwood",
@@ -334,7 +334,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x37": {
             "id": 37,
             "name": "Lozatl's Conquest",
             "zone": "The Rak'tika Greatwood",
@@ -343,7 +343,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x38": {
             "id": 38,
             "name": "Fanow",
             "zone": "The Rak'tika Greatwood",
@@ -352,7 +352,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x39": {
             "id": 39,
             "name": "The Morning Stars",
             "zone": "The Rak'tika Greatwood",
@@ -361,7 +361,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x40": {
             "id": 40,
             "name": "The Ondo Cups",
             "zone": "The Tempest",
@@ -370,7 +370,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x41": {
             "id": 41,
             "name": "The Workbench",
             "zone": "The Tempest",
@@ -379,7 +379,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x42": {
             "id": 42,
             "name": "Where the Dry Return",
             "zone": "The Tempest",
@@ -388,7 +388,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x43": {
             "id": 43,
             "name": "Purpure",
             "zone": "The Tempest",
@@ -397,7 +397,7 @@
             "time": "X",
             "emote": "Lookout"
         },
-        {
+        "x44": {
             "id": 44,
             "name": "Amaurot",
             "zone": "The Tempest",
@@ -406,5 +406,5 @@
             "time": "X",
             "emote": "Lookout"
         }
-    ]
+    }
 }

@@ -1,7 +1,7 @@
 {
     "groupName": "Page 2",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Carpe à grosse tête",
             "primeLocation": "Yanxia",
@@ -9,7 +9,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Palourde zeni",
             "primeLocation": "Yanxia",
@@ -17,7 +17,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Nécrophage",
             "primeLocation": "Mer de Rubis",
@@ -25,7 +25,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Carangue rônin",
             "primeLocation": "Mer de Rubis",
@@ -33,7 +33,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Garouga enchanteur",
             "primeLocation": "Mer de Rubis",
@@ -41,7 +41,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Turbo cornu",
             "primeLocation": "Mer de Rubis",
@@ -49,7 +49,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Étoile de rubis",
             "primeLocation": "Mer de Rubis",
@@ -57,7 +57,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Crabe gantelet",
             "primeLocation": "Yanxia",
@@ -65,7 +65,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Gobie ermite",
             "primeLocation": "Yanxia",
@@ -73,7 +73,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Épine céleste",
             "primeLocation": "Yanxia",
@@ -81,7 +81,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Calmar-crayon",
             "primeLocation": "Mer de Rubis",
@@ -89,7 +89,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Faux chinchard",
             "primeLocation": "Mer de Rubis",
@@ -97,7 +97,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Crabe des neiges",
             "primeLocation": "Mer de Rubis",
@@ -105,7 +105,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Lates aux yeux rouges",
             "primeLocation": "Mer de Rubis",
@@ -113,7 +113,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Bouvière ordinaire",
             "primeLocation": "Yanxia",
@@ -121,7 +121,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Morue des cinquante étés",
             "primeLocation": "Yanxia",
@@ -129,7 +129,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Mulet de Nagxia",
             "primeLocation": "Yanxia",
@@ -137,7 +137,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Tunique rouge",
             "primeLocation": "Mer de Rubis",
@@ -145,7 +145,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Crevette tigrée de Yanxia",
             "primeLocation": "Yanxia",
@@ -153,7 +153,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Palourde tengu",
             "primeLocation": "Yanxia",
@@ -161,7 +161,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Turbo étoilé",
             "primeLocation": "Yanxia",
@@ -169,7 +169,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Tassergal",
             "primeLocation": "Yanxia",
@@ -177,7 +177,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Grenouille-taureau des steppes",
             "primeLocation": "Steppe d'Azim",
@@ -185,7 +185,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Poisson-chat de cavalerie",
             "primeLocation": "Steppe d'Azim",
@@ -193,7 +193,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Perche franche",
             "primeLocation": "Steppe d'Azim",
@@ -201,5 +201,5 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         }
-    ]
+    }
 }

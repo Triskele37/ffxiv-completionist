@@ -1,21 +1,29 @@
 {
     "key": "amh-araeng",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "1",
-            "cNext": [1]
+            "cNext": [
+                1
+            ]
         },
-        {
+        "x1": {
             "id": 1,
             "name": "2",
-            "cPrev": [0],
-            "cNext": [2]
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
         },
-        {
+        "x2": {
             "id": 2,
             "name": "3",
-            "cPrev": [1]
+            "cPrev": [
+                1
+            ]
         }
-    ]
+    }
 }

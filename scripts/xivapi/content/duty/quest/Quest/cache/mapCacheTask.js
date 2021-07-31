@@ -26,6 +26,7 @@ module.exports = function mapCacheTask(apiObj) {
     };
 };
 
+//TODO: optimize targeting by prefixing all ids
 function buildQuestChainProps(apiObj) {
     const chains = {};
 

@@ -17,19 +17,13 @@ export const loadJson = function(path, lang) {
 
     if(fs.existsSync(`${commonPrefix}/${path}.json`)) {
         const { tasks: commonTasks, ...other } = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`).toString());
-        langJson = { ...other, ...langJson };
+        langJson = { ...other, ...langJson }; //TODO: wut did I do here
 
-        if(commonTasks) {
-            for(let i = 0; i < commonTasks.length; i++) {
-                for(let j = 0; j < langJson.tasks.length; j++) {
-                    if(langJson.tasks[j].id === commonTasks[i].id) {
-                        langJson.tasks[j] = {
-                            ...langJson.tasks[j],
-                            ...commonTasks[i]
-                        };
-                    }
-                }
-            }
+        for(const id in commonTasks) {
+            langJson.tasks[id] = {
+                ...commonTasks[id],
+                ...langJson.tasks[id]
+            };
         }
     }
 

@@ -1,514 +1,787 @@
 {
     "key": "anima",
     "chains": [
-        [0, 1, 2, 3, 4, 5, 6, 7],
-        [8, 9, 10, 11, 12, 13, 14, 15],
-        [16, 17, 18, 19, 20, 21, 22, 23],
-        [24, 25, 26, 27, 28, 29, 30, 31],
-        [32, 33, 34, 35, 36, 37, 38, 39],
-        [40, 41, 42, 43, 44, 45, 46, 47],
-        [48, 49, 50, 51, 52, 53, 54, 55],
-        [56, 57, 58, 59, 60, 61, 62, 63],
-        [64, 65, 66, 67, 68, 69, 70, 71],
-        [72, 73, 74, 75, 76, 77, 78, 79],
-        [80, 81, 82, 83, 84, 85, 86, 87],
-        [88, 89, 90, 91, 92, 93, 94, 95],
-        [96, 97, 98, 99, 100, 101, 102, 103]
+        [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+        ],
+        [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+        ],
+        [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+        ],
+        [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+        ],
+        [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+        ],
+        [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+        ],
+        [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+        ],
+        [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+        ],
+        [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+        ],
+        [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+        ],
+        [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+        ]
     ],
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "iLevel": "170"
         },
-        {
+        "x1": {
             "id": 1,
             "iLevel": "200"
         },
-        {
+        "x2": {
             "id": 2,
             "iLevel": "210",
-            "cSiblings": ["achievement.1418"]
+            "cSiblings": [
+                "achievement.1418"
+            ]
         },
-        {
+        "x3": {
             "id": 3,
             "iLevel": "230",
-            "cSiblings": ["achievement.1511"]
+            "cSiblings": [
+                "achievement.1511"
+            ]
         },
-        {
+        "x4": {
             "id": 4,
             "iLevel": "240",
-            "cSiblings": ["achievement.1617"]
+            "cSiblings": [
+                "achievement.1617"
+            ]
         },
-        {
+        "x5": {
             "id": 5,
             "iLevel": "260",
-            "cSiblings": ["achievement.1679"]
+            "cSiblings": [
+                "achievement.1679"
+            ]
         },
-        {
+        "x6": {
             "id": 6,
             "iLevel": "270",
-            "cSiblings": ["achievement.1707"]
+            "cSiblings": [
+                "achievement.1707"
+            ]
         },
-        {
+        "x7": {
             "id": 7,
             "iLevel": "275",
-            "cSiblings": ["achievement.1720"]
+            "cSiblings": [
+                "achievement.1720"
+            ]
         },
-        {
+        "x8": {
             "id": 8,
             "iLevel": "170"
         },
-        {
+        "x9": {
             "id": 9,
             "iLevel": "200"
         },
-        {
+        "x10": {
             "id": 10,
             "iLevel": "210",
-            "cSiblings": ["achievement.1410"]
+            "cSiblings": [
+                "achievement.1410"
+            ]
         },
-        {
+        "x11": {
             "id": 11,
             "iLevel": "230",
-            "cSiblings": ["achievement.1503"]
+            "cSiblings": [
+                "achievement.1503"
+            ]
         },
-        {
+        "x12": {
             "id": 12,
             "iLevel": "240",
-            "cSiblings": ["achievement.1609"]
+            "cSiblings": [
+                "achievement.1609"
+            ]
         },
-        {
+        "x13": {
             "id": 13,
             "iLevel": "260",
-            "cSiblings": ["achievement.1671"]
+            "cSiblings": [
+                "achievement.1671"
+            ]
         },
-        {
+        "x14": {
             "id": 14,
             "iLevel": "270",
-            "cSiblings": ["achievement.1699"]
+            "cSiblings": [
+                "achievement.1699"
+            ]
         },
-        {
+        "x15": {
             "id": 15,
             "iLevel": "275",
-            "cSiblings": ["achievement.1712"]
+            "cSiblings": [
+                "achievement.1712"
+            ]
         },
-        {
+        "x16": {
             "id": 16,
             "iLevel": "170"
         },
-        {
+        "x17": {
             "id": 17,
             "iLevel": "200"
         },
-        {
+        "x18": {
             "id": 18,
             "iLevel": "210",
-            "cSiblings": ["achievement.1412"]
+            "cSiblings": [
+                "achievement.1412"
+            ]
         },
-        {
+        "x19": {
             "id": 19,
             "iLevel": "230",
-            "cSiblings": ["achievement.1505"]
+            "cSiblings": [
+                "achievement.1505"
+            ]
         },
-        {
+        "x20": {
             "id": 20,
             "iLevel": "240",
-            "cSiblings": ["achievement.1611"]
+            "cSiblings": [
+                "achievement.1611"
+            ]
         },
-        {
+        "x21": {
             "id": 21,
             "iLevel": "260",
-            "cSiblings": ["achievement.1673"]
+            "cSiblings": [
+                "achievement.1673"
+            ]
         },
-        {
+        "x22": {
             "id": 22,
             "iLevel": "270",
-            "cSiblings": ["achievement.1701"]
+            "cSiblings": [
+                "achievement.1701"
+            ]
         },
-        {
+        "x23": {
             "id": 23,
             "iLevel": "275",
-            "cSiblings": ["achievement.1714"]
+            "cSiblings": [
+                "achievement.1714"
+            ]
         },
-        {
+        "x24": {
             "id": 24,
             "iLevel": "170"
         },
-        {
+        "x25": {
             "id": 25,
             "iLevel": "200"
         },
-        {
+        "x26": {
             "id": 26,
             "iLevel": "210",
-            "cSiblings": ["achievement.1417"]
+            "cSiblings": [
+                "achievement.1417"
+            ]
         },
-        {
+        "x27": {
             "id": 27,
             "iLevel": "230",
-            "cSiblings": ["achievement.1510"]
+            "cSiblings": [
+                "achievement.1510"
+            ]
         },
-        {
+        "x28": {
             "id": 28,
             "iLevel": "240",
-            "cSiblings": ["achievement.1616"]
+            "cSiblings": [
+                "achievement.1616"
+            ]
         },
-        {
+        "x29": {
             "id": 29,
             "iLevel": "260",
-            "cSiblings": ["achievement.1678"]
+            "cSiblings": [
+                "achievement.1678"
+            ]
         },
-        {
+        "x30": {
             "id": 30,
             "iLevel": "270",
-            "cSiblings": ["achievement.1706"]
+            "cSiblings": [
+                "achievement.1706"
+            ]
         },
-        {
+        "x31": {
             "id": 31,
             "iLevel": "275",
-            "cSiblings": ["achievement.1719"]
+            "cSiblings": [
+                "achievement.1719"
+            ]
         },
-        {
+        "x32": {
             "id": 32,
             "iLevel": "170"
         },
-        {
+        "x33": {
             "id": 33,
             "iLevel": "200"
         },
-        {
+        "x34": {
             "id": 34,
             "iLevel": "210",
-            "cSiblings": ["achievement.1409"]
+            "cSiblings": [
+                "achievement.1409"
+            ]
         },
-        {
+        "x35": {
             "id": 35,
             "iLevel": "230",
-            "cSiblings": ["achievement.1502"]
+            "cSiblings": [
+                "achievement.1502"
+            ]
         },
-        {
+        "x36": {
             "id": 36,
             "iLevel": "240",
-            "cSiblings": ["achievement.1608"]
+            "cSiblings": [
+                "achievement.1608"
+            ]
         },
-        {
+        "x37": {
             "id": 37,
             "iLevel": "260",
-            "cSiblings": ["achievement.1670"]
+            "cSiblings": [
+                "achievement.1670"
+            ]
         },
-        {
+        "x38": {
             "id": 38,
             "iLevel": "270",
-            "cSiblings": ["achievement.1698"]
+            "cSiblings": [
+                "achievement.1698"
+            ]
         },
-        {
+        "x39": {
             "id": 39,
             "iLevel": "275",
-            "cSiblings": ["achievement.1711"]
+            "cSiblings": [
+                "achievement.1711"
+            ]
         },
-        {
+        "x40": {
             "id": 40,
             "iLevel": "170"
         },
-        {
+        "x41": {
             "id": 41,
             "iLevel": "200"
         },
-        {
+        "x42": {
             "id": 42,
             "iLevel": "210",
-            "cSiblings": ["achievement.1416"]
+            "cSiblings": [
+                "achievement.1416"
+            ]
         },
-        {
+        "x43": {
             "id": 43,
             "iLevel": "230",
-            "cSiblings": ["achievement.1509"]
+            "cSiblings": [
+                "achievement.1509"
+            ]
         },
-        {
+        "x44": {
             "id": 44,
             "iLevel": "240",
-            "cSiblings": ["achievement.1615"]
+            "cSiblings": [
+                "achievement.1615"
+            ]
         },
-        {
+        "x45": {
             "id": 45,
             "iLevel": "260",
-            "cSiblings": ["achievement.1677"]
+            "cSiblings": [
+                "achievement.1677"
+            ]
         },
-        {
+        "x46": {
             "id": 46,
             "iLevel": "270",
-            "cSiblings": ["achievement.1705"]
+            "cSiblings": [
+                "achievement.1705"
+            ]
         },
-        {
+        "x47": {
             "id": 47,
             "iLevel": "275",
-            "cSiblings": ["achievement.1718"]
+            "cSiblings": [
+                "achievement.1718"
+            ]
         },
-        {
+        "x48": {
             "id": 48,
             "iLevel": "170"
         },
-        {
+        "x49": {
             "id": 49,
             "iLevel": "200"
         },
-        {
+        "x50": {
             "id": 50,
             "iLevel": "210",
-            "cSiblings": ["achievement.1407"]
+            "cSiblings": [
+                "achievement.1407"
+            ]
         },
-        {
+        "x51": {
             "id": 51,
             "iLevel": "230",
-            "cSiblings": ["achievement.1500"]
+            "cSiblings": [
+                "achievement.1500"
+            ]
         },
-        {
+        "x52": {
             "id": 52,
             "iLevel": "240",
-            "cSiblings": ["achievement.1606"]
+            "cSiblings": [
+                "achievement.1606"
+            ]
         },
-        {
+        "x53": {
             "id": 53,
             "iLevel": "260",
-            "cSiblings": ["achievement.1668"]
+            "cSiblings": [
+                "achievement.1668"
+            ]
         },
-        {
+        "x54": {
             "id": 54,
             "iLevel": "270",
-            "cSiblings": ["achievement.1696"]
+            "cSiblings": [
+                "achievement.1696"
+            ]
         },
-        {
+        "x55": {
             "id": 55,
             "iLevel": "275",
-            "cSiblings": ["achievement.1709"]
+            "cSiblings": [
+                "achievement.1709"
+            ]
         },
-        {
+        "x56": {
             "id": 56,
             "iLevel": "170"
         },
-        {
+        "x57": {
             "id": 57,
             "iLevel": "200"
         },
-        {
+        "x58": {
             "id": 58,
             "iLevel": "210",
-            "cSiblings": ["achievement.1415"]
+            "cSiblings": [
+                "achievement.1415"
+            ]
         },
-        {
+        "x59": {
             "id": 59,
             "iLevel": "230",
-            "cSiblings": ["achievement.1508"]
+            "cSiblings": [
+                "achievement.1508"
+            ]
         },
-        {
+        "x60": {
             "id": 60,
             "iLevel": "240",
-            "cSiblings": ["achievement.1614"]
+            "cSiblings": [
+                "achievement.1614"
+            ]
         },
-        {
+        "x61": {
             "id": 61,
             "iLevel": "260",
-            "cSiblings": ["achievement.1676"]
+            "cSiblings": [
+                "achievement.1676"
+            ]
         },
-        {
+        "x62": {
             "id": 62,
             "iLevel": "270",
-            "cSiblings": ["achievement.1704"]
+            "cSiblings": [
+                "achievement.1704"
+            ]
         },
-        {
+        "x63": {
             "id": 63,
             "iLevel": "275",
-            "cSiblings": ["achievement.1717"]
+            "cSiblings": [
+                "achievement.1717"
+            ]
         },
-        {
+        "x64": {
             "id": 64,
             "iLevel": "170"
         },
-        {
+        "x65": {
             "id": 65,
             "iLevel": "200"
         },
-        {
+        "x66": {
             "id": 66,
             "iLevel": "210",
-            "cSiblings": ["achievement.1406"]
+            "cSiblings": [
+                "achievement.1406"
+            ]
         },
-        {
+        "x67": {
             "id": 67,
             "iLevel": "230",
-            "cSiblings": ["achievement.1499"]
+            "cSiblings": [
+                "achievement.1499"
+            ]
         },
-        {
+        "x68": {
             "id": 68,
             "iLevel": "240",
-            "cSiblings": ["achievement.1605"]
+            "cSiblings": [
+                "achievement.1605"
+            ]
         },
-        {
+        "x69": {
             "id": 69,
             "iLevel": "260",
-            "cSiblings": ["achievement.1667"]
+            "cSiblings": [
+                "achievement.1667"
+            ]
         },
-        {
+        "x70": {
             "id": 70,
             "iLevel": "270",
-            "cSiblings": ["achievement.1695"]
+            "cSiblings": [
+                "achievement.1695"
+            ]
         },
-        {
+        "x71": {
             "id": 71,
             "iLevel": "275",
-            "cSiblings": ["achievement.1708"]
+            "cSiblings": [
+                "achievement.1708"
+            ]
         },
-        {
+        "x72": {
             "id": 72,
             "iLevel": "170"
         },
-        {
+        "x73": {
             "id": 73,
             "iLevel": "200"
         },
-        {
+        "x74": {
             "id": 74,
             "iLevel": "210",
-            "cSiblings": ["achievement.1414"]
+            "cSiblings": [
+                "achievement.1414"
+            ]
         },
-        {
+        "x75": {
             "id": 75,
             "iLevel": "230",
-            "cSiblings": ["achievement.1507"]
+            "cSiblings": [
+                "achievement.1507"
+            ]
         },
-        {
+        "x76": {
             "id": 76,
             "iLevel": "240",
-            "cSiblings": ["achievement.1613"]
+            "cSiblings": [
+                "achievement.1613"
+            ]
         },
-        {
+        "x77": {
             "id": 77,
             "iLevel": "260",
-            "cSiblings": ["achievement.1675"]
+            "cSiblings": [
+                "achievement.1675"
+            ]
         },
-        {
+        "x78": {
             "id": 78,
             "iLevel": "270",
-            "cSiblings": ["achievement.1703"]
+            "cSiblings": [
+                "achievement.1703"
+            ]
         },
-        {
+        "x79": {
             "id": 79,
             "iLevel": "275",
-            "cSiblings": ["achievement.1716"]
+            "cSiblings": [
+                "achievement.1716"
+            ]
         },
-        {
+        "x80": {
             "id": 80,
             "iLevel": "170"
         },
-        {
+        "x81": {
             "id": 81,
             "iLevel": "200"
         },
-        {
+        "x82": {
             "id": 82,
             "iLevel": "210",
-            "cSiblings": ["achievement.1413"]
+            "cSiblings": [
+                "achievement.1413"
+            ]
         },
-        {
+        "x83": {
             "id": 83,
             "iLevel": "230",
-            "cSiblings": ["achievement.1506"]
+            "cSiblings": [
+                "achievement.1506"
+            ]
         },
-        {
+        "x84": {
             "id": 84,
             "iLevel": "240",
-            "cSiblings": ["achievement.1612"]
+            "cSiblings": [
+                "achievement.1612"
+            ]
         },
-        {
+        "x85": {
             "id": 85,
             "iLevel": "260",
-            "cSiblings": ["achievement.1674"]
+            "cSiblings": [
+                "achievement.1674"
+            ]
         },
-        {
+        "x86": {
             "id": 86,
             "iLevel": "270",
-            "cSiblings": ["achievement.1702"]
+            "cSiblings": [
+                "achievement.1702"
+            ]
         },
-        {
+        "x87": {
             "id": 87,
             "iLevel": "275",
-            "cSiblings": ["achievement.1715"]
+            "cSiblings": [
+                "achievement.1715"
+            ]
         },
-        {
+        "x88": {
             "id": 88,
             "iLevel": "170"
         },
-        {
+        "x89": {
             "id": 89,
             "iLevel": "200"
         },
-        {
+        "x90": {
             "id": 90,
             "iLevel": "210",
-            "cSiblings": ["achievement.1408"]
+            "cSiblings": [
+                "achievement.1408"
+            ]
         },
-        {
+        "x91": {
             "id": 91,
             "iLevel": "230",
-            "cSiblings": ["achievement.1501"]
+            "cSiblings": [
+                "achievement.1501"
+            ]
         },
-        {
+        "x92": {
             "id": 92,
             "iLevel": "240",
-            "cSiblings": ["achievement.1607"]
+            "cSiblings": [
+                "achievement.1607"
+            ]
         },
-        {
+        "x93": {
             "id": 93,
             "iLevel": "260",
-            "cSiblings": ["achievement.1669"]
+            "cSiblings": [
+                "achievement.1669"
+            ]
         },
-        {
+        "x94": {
             "id": 94,
             "iLevel": "270",
-            "cSiblings": ["achievement.1697"]
+            "cSiblings": [
+                "achievement.1697"
+            ]
         },
-        {
+        "x95": {
             "id": 95,
             "iLevel": "275",
-            "cSiblings": ["achievement.1710"]
+            "cSiblings": [
+                "achievement.1710"
+            ]
         },
-        {
+        "x96": {
             "id": 96,
             "iLevel": "170"
         },
-        {
+        "x97": {
             "id": 97,
             "iLevel": "200"
         },
-        {
+        "x98": {
             "id": 98,
             "iLevel": "210",
-            "cSiblings": ["achievement.1411"]
+            "cSiblings": [
+                "achievement.1411"
+            ]
         },
-        {
+        "x99": {
             "id": 99,
             "iLevel": "230",
-            "cSiblings": ["achievement.1504"]
+            "cSiblings": [
+                "achievement.1504"
+            ]
         },
-        {
+        "x100": {
             "id": 100,
             "iLevel": "240",
-            "cSiblings": ["achievement.1610"]
+            "cSiblings": [
+                "achievement.1610"
+            ]
         },
-        {
+        "x101": {
             "id": 101,
             "iLevel": "260",
-            "cSiblings": ["achievement.1672"]
+            "cSiblings": [
+                "achievement.1672"
+            ]
         },
-        {
+        "x102": {
             "id": 102,
             "iLevel": "270",
-            "cSiblings": ["achievement.1700"]
+            "cSiblings": [
+                "achievement.1700"
+            ]
         },
-        {
+        "x103": {
             "id": 103,
             "iLevel": "275",
-            "cSiblings": ["achievement.1713"]
+            "cSiblings": [
+                "achievement.1713"
+            ]
         }
-    ]
+    }
 }

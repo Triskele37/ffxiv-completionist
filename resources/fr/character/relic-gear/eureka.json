@@ -1,1445 +1,1445 @@
 {
     "groupName": "Eurêka",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "job": "Astromancien",
             "name": "Pléiade vieillie",
             "requirements": "-"
         },
-        {
+        "x1": {
             "id": 1,
             "job": "Astromancien",
             "name": "Pléiade",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x2": {
             "id": 2,
             "job": "Astromancien",
             "name": "Pléiade +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x3": {
             "id": 3,
             "job": "Astromancien",
             "name": "Pléiade +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x4": {
             "id": 4,
             "job": "Astromancien",
             "name": "Pléiade Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x5": {
             "id": 5,
             "job": "Astromancien",
             "name": "Pléiade Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x6": {
             "id": 6,
             "job": "Astromancien",
             "name": "Pléiade Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x7": {
             "id": 7,
             "job": "Astromancien",
             "name": "Planisphère élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x8": {
             "id": 8,
             "job": "Astromancien",
             "name": "Planisphère élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x9": {
             "id": 9,
             "job": "Astromancien",
             "name": "Planisphère élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x10": {
             "id": 10,
             "job": "Astromancien",
             "name": "Planisphère Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x11": {
             "id": 11,
             "job": "Astromancien",
             "name": "Planisphère Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x12": {
             "id": 12,
             "job": "Astromancien",
             "name": "Planisphère Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x13": {
             "id": 13,
             "job": "Astromancien",
             "name": "Albiréo",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x14": {
             "id": 14,
             "job": "Astromancien",
             "name": "Albiréo Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x15": {
             "id": 15,
             "job": "Astromancien",
             "name": "Albiréo personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x16": {
             "id": 16,
             "job": "Barde",
             "name": "Arc Qui-ne-faut vieilli",
             "requirements": "-"
         },
-        {
+        "x17": {
             "id": 17,
             "job": "Barde",
             "name": "Arc Qui-ne-faut",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x18": {
             "id": 18,
             "job": "Barde",
             "name": "Arc Qui-ne-faut +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x19": {
             "id": 19,
             "job": "Barde",
             "name": "Arc Qui-ne-faut +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x20": {
             "id": 20,
             "job": "Barde",
             "name": "Arc Qui-ne-faut Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x21": {
             "id": 21,
             "job": "Barde",
             "name": "Arc Qui-ne-faut Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x22": {
             "id": 22,
             "job": "Barde",
             "name": "Arc Qui-ne-faut Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x23": {
             "id": 23,
             "job": "Barde",
             "name": "Arc-harpe élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x24": {
             "id": 24,
             "job": "Barde",
             "name": "Arc-harpe élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x25": {
             "id": 25,
             "job": "Barde",
             "name": "Arc-harpe élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x26": {
             "id": 26,
             "job": "Barde",
             "name": "Arc-harpe Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x27": {
             "id": 27,
             "job": "Barde",
             "name": "Arc-harpe Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x28": {
             "id": 28,
             "job": "Barde",
             "name": "Arc-harpe Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x29": {
             "id": 29,
             "job": "Barde",
             "name": "Circinae",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x30": {
             "id": 30,
             "job": "Barde",
             "name": "Circinae Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x31": {
             "id": 31,
             "job": "Barde",
             "name": "Circinea personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x32": {
             "id": 32,
             "job": "Mage noir",
             "name": "Vanargand vieilli",
             "requirements": "-"
         },
-        {
+        "x33": {
             "id": 33,
             "job": "Mage noir",
             "name": "Vanargand",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x34": {
             "id": 34,
             "job": "Mage noir",
             "name": "Vanargand +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x35": {
             "id": 35,
             "job": "Mage noir",
             "name": "Vanargand +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x36": {
             "id": 36,
             "job": "Mage noir",
             "name": "Vanargand Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x37": {
             "id": 37,
             "job": "Mage noir",
             "name": "Vanargand Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x38": {
             "id": 38,
             "job": "Mage noir",
             "name": "Vanargand Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x39": {
             "id": 39,
             "job": "Mage noir",
             "name": "Sceptre élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x40": {
             "id": 40,
             "job": "Mage noir",
             "name": "Sceptre élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x41": {
             "id": 41,
             "job": "Mage noir",
             "name": "Sceptre élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x42": {
             "id": 42,
             "job": "Mage noir",
             "name": "Sceptre Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x43": {
             "id": 43,
             "job": "Mage noir",
             "name": "Sceptre Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x44": {
             "id": 44,
             "job": "Mage noir",
             "name": "Sceptre Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x45": {
             "id": 45,
             "job": "Mage noir",
             "name": "Paikea",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x46": {
             "id": 46,
             "job": "Mage noir",
             "name": "Paikea Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x47": {
             "id": 47,
             "job": "Mage noir",
             "name": "Paikea personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x48": {
             "id": 48,
             "job": "Chevalier noir",
             "name": "Caladbolg vieilli",
             "requirements": "-"
         },
-        {
+        "x49": {
             "id": 49,
             "job": "Chevalier noir",
             "name": "Caladbolg",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x50": {
             "id": 50,
             "job": "Chevalier noir",
             "name": "Caladbolg +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x51": {
             "id": 51,
             "job": "Chevalier noir",
             "name": "Caladbolg +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x52": {
             "id": 52,
             "job": "Chevalier noir",
             "name": "Caladbolg Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x53": {
             "id": 53,
             "job": "Chevalier noir",
             "name": "Caladbolg Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x54": {
             "id": 54,
             "job": "Chevalier noir",
             "name": "Caladbolg Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x55": {
             "id": 55,
             "job": "Chevalier noir",
             "name": "Fendoir élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x56": {
             "id": 56,
             "job": "Chevalier noir",
             "name": "Fendoir élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x57": {
             "id": 57,
             "job": "Chevalier noir",
             "name": "Fendoir élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x58": {
             "id": 58,
             "job": "Chevalier noir",
             "name": "Fendoir Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x59": {
             "id": 59,
             "job": "Chevalier noir",
             "name": "Fendoir Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x60": {
             "id": 60,
             "job": "Chevalier noir",
             "name": "Fendoir Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x61": {
             "id": 61,
             "job": "Chevalier noir",
             "name": "Xiphias",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x62": {
             "id": 62,
             "job": "Chevalier noir",
             "name": "Xiphias Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x63": {
             "id": 63,
             "job": "Chevalier noir",
             "name": "Xiphias personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x64": {
             "id": 64,
             "job": "Chevalier dragon",
             "name": "Ryûnohige vieilli",
             "requirements": "-"
         },
-        {
+        "x65": {
             "id": 65,
             "job": "Chevalier dragon",
             "name": "Ryûnohige",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x66": {
             "id": 66,
             "job": "Chevalier dragon",
             "name": "Ryûnohige +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x67": {
             "id": 67,
             "job": "Chevalier dragon",
             "name": "Ryûnohige +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x68": {
             "id": 68,
             "job": "Chevalier dragon",
             "name": "Ryûnohige Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x69": {
             "id": 69,
             "job": "Chevalier dragon",
             "name": "Ryûnohige Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x70": {
             "id": 70,
             "job": "Chevalier dragon",
             "name": "Ryûnohige Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x71": {
             "id": 71,
             "job": "Chevalier dragon",
             "name": "Lance élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x72": {
             "id": 72,
             "job": "Chevalier dragon",
             "name": "Lance élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x73": {
             "id": 73,
             "job": "Chevalier dragon",
             "name": "Lance élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x74": {
             "id": 74,
             "job": "Chevalier dragon",
             "name": "Lance Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x75": {
             "id": 75,
             "job": "Chevalier dragon",
             "name": "Lance Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x76": {
             "id": 76,
             "job": "Chevalier dragon",
             "name": "Lance Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x77": {
             "id": 77,
             "job": "Chevalier dragon",
             "name": "Daboya",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x78": {
             "id": 78,
             "job": "Chevalier dragon",
             "name": "Daboya Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x79": {
             "id": 79,
             "job": "Chevalier dragon",
             "name": "Daboya personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x80": {
             "id": 80,
             "job": "Machiniste",
             "name": "Outsider vieilli",
             "requirements": "-"
         },
-        {
+        "x81": {
             "id": 81,
             "job": "Machiniste",
             "name": "Outsider",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x82": {
             "id": 82,
             "job": "Machiniste",
             "name": "Outsider +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x83": {
             "id": 83,
             "job": "Machiniste",
             "name": "Outsider +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x84": {
             "id": 84,
             "job": "Machiniste",
             "name": "Outsider Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x85": {
             "id": 85,
             "job": "Machiniste",
             "name": "Outsider Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x86": {
             "id": 86,
             "job": "Machiniste",
             "name": "Outsider Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x87": {
             "id": 87,
             "job": "Machiniste",
             "name": "Haquebute élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x88": {
             "id": 88,
             "job": "Machiniste",
             "name": "Haquebute élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x89": {
             "id": 89,
             "job": "Machiniste",
             "name": "Haquebute élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x90": {
             "id": 90,
             "job": "Machiniste",
             "name": "Haquebute Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x91": {
             "id": 91,
             "job": "Machiniste",
             "name": "Haquebute Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x92": {
             "id": 92,
             "job": "Machiniste",
             "name": "Haquebute Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x93": {
             "id": 93,
             "job": "Machiniste",
             "name": "Mollfrith",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x94": {
             "id": 94,
             "job": "Machiniste",
             "name": "Mollfrith Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x95": {
             "id": 95,
             "job": "Machiniste",
             "name": "Mollfrith personnalisée",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x96": {
             "id": 96,
             "job": "Moine",
             "name": "Chakras Sudarshana vieillis",
             "requirements": "-"
         },
-        {
+        "x97": {
             "id": 97,
             "job": "Moine",
             "name": "Chakras Sudarshana",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x98": {
             "id": 98,
             "job": "Moine",
             "name": "Chakras Sudarshana +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x99": {
             "id": 99,
             "job": "Moine",
             "name": "Chakras Sudarshana +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x100": {
             "id": 100,
             "job": "Moine",
             "name": "Chakras Sudarshana Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x101": {
             "id": 101,
             "job": "Moine",
             "name": "Chakras Sudarshana Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x102": {
             "id": 102,
             "job": "Moine",
             "name": "Chakras Sudarshana Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x103": {
             "id": 103,
             "job": "Moine",
             "name": "Poings élémentaires",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x104": {
             "id": 104,
             "job": "Moine",
             "name": "Poings élémentaires +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x105": {
             "id": 105,
             "job": "Moine",
             "name": "Poings élémentaires +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x106": {
             "id": 106,
             "job": "Moine",
             "name": "Poings Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x107": {
             "id": 107,
             "job": "Moine",
             "name": "Poings Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x108": {
             "id": 108,
             "job": "Moine",
             "name": "Poings Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x109": {
             "id": 109,
             "job": "Moine",
             "name": "Dumuzi",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x110": {
             "id": 110,
             "job": "Moine",
             "name": "Dumuzi Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x111": {
             "id": 111,
             "job": "Moine",
             "name": "Dumuzi personnalisés",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x112": {
             "id": 112,
             "job": "Ninja",
             "name": "Nagi vieillies",
             "requirements": "-"
         },
-        {
+        "x113": {
             "id": 113,
             "job": "Ninja",
             "name": "Nagi",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x114": {
             "id": 114,
             "job": "Ninja",
             "name": "Nagi +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x115": {
             "id": 115,
             "job": "Ninja",
             "name": "Nagi +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x116": {
             "id": 116,
             "job": "Ninja",
             "name": "Nagi Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x117": {
             "id": 117,
             "job": "Ninja",
             "name": "Nagi Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x118": {
             "id": 118,
             "job": "Ninja",
             "name": "Nagi Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x119": {
             "id": 119,
             "job": "Ninja",
             "name": "Couteaux élémentaires",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x120": {
             "id": 120,
             "job": "Ninja",
             "name": "Couteaux élémentaires +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x121": {
             "id": 121,
             "job": "Ninja",
             "name": "Couteaux élémentaires +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x122": {
             "id": 122,
             "job": "Ninja",
             "name": "Couteaux Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x123": {
             "id": 123,
             "job": "Ninja",
             "name": "Couteaux Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x124": {
             "id": 124,
             "job": "Ninja",
             "name": "Couteaux Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x125": {
             "id": 125,
             "job": "Ninja",
             "name": "Kasasagi",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x126": {
             "id": 126,
             "job": "Ninja",
             "name": "Kasasagi Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x127": {
             "id": 127,
             "job": "Ninja",
             "name": "Kasasagi personnalisés",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x128": {
             "id": 128,
             "job": "Paladin",
             "name": "Galatyn vieilli & Evalach vieilli",
             "requirements": "-"
         },
-        {
+        "x129": {
             "id": 129,
             "job": "Paladin",
             "name": "Galatyn & Evalach",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x130": {
             "id": 130,
             "job": "Paladin",
             "name": "Galatyn +1 & Evalach +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x131": {
             "id": 131,
             "job": "Paladin",
             "name": "Galatyn +2 & Evalach +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x132": {
             "id": 132,
             "job": "Paladin",
             "name": "Galatyn Anemos & Evalach Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x133": {
             "id": 133,
             "job": "Paladin",
             "name": "Galatyn Pagos & Evalach Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x134": {
             "id": 134,
             "job": "Paladin",
             "name": "Galatyn Pagos +1 & Evalach Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x135": {
             "id": 135,
             "job": "Paladin",
             "name": "Épée élémentaire & Bouclier élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x136": {
             "id": 136,
             "job": "Paladin",
             "name": "Épée élémentaire +1 & Bouclier élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x137": {
             "id": 137,
             "job": "Paladin",
             "name": "Épée élémentaire +2 & Bouclier élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x138": {
             "id": 138,
             "job": "Paladin",
             "name": "Épée Pyros & Bouclier Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x139": {
             "id": 139,
             "job": "Paladin",
             "name": "Épée Hydatos & Bouclier Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x140": {
             "id": 140,
             "job": "Paladin",
             "name": "Épée Hydatos +1 & Bouclier Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x141": {
             "id": 141,
             "job": "Paladin",
             "name": "Antea & Béllérophon",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x142": {
             "id": 142,
             "job": "Paladin",
             "name": "Antea Eurêka & Béllérophon Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x143": {
             "id": 143,
             "job": "Paladin",
             "name": "Antea personnalisé & Béllérophon personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x144": {
             "id": 144,
             "job": "Mage rouge",
             "name": "Murgleis vieillie",
             "requirements": "-"
         },
-        {
+        "x145": {
             "id": 145,
             "job": "Mage rouge",
             "name": "Murgleis",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x146": {
             "id": 146,
             "job": "Mage rouge",
             "name": "Murgleis +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x147": {
             "id": 147,
             "job": "Mage rouge",
             "name": "Murgleis +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x148": {
             "id": 148,
             "job": "Mage rouge",
             "name": "Murgleis Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x149": {
             "id": 149,
             "job": "Mage rouge",
             "name": "Murgleis Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x150": {
             "id": 150,
             "job": "Mage rouge",
             "name": "Murgleis Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x151": {
             "id": 151,
             "job": "Mage rouge",
             "name": "Estoc élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x152": {
             "id": 152,
             "job": "Mage rouge",
             "name": "Estoc élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x153": {
             "id": 153,
             "job": "Mage rouge",
             "name": "Estoc élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x154": {
             "id": 154,
             "job": "Mage rouge",
             "name": "Estoc Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x155": {
             "id": 155,
             "job": "Mage rouge",
             "name": "Estoc Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x156": {
             "id": 156,
             "job": "Mage rouge",
             "name": "Estoc Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x157": {
             "id": 157,
             "job": "Mage rouge",
             "name": "Brunello",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x158": {
             "id": 158,
             "job": "Mage rouge",
             "name": "Brunello Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x159": {
             "id": 159,
             "job": "Mage rouge",
             "name": "Brunello personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x160": {
             "id": 160,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji vieilli",
             "requirements": "-"
         },
-        {
+        "x161": {
             "id": 161,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x162": {
             "id": 162,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x163": {
             "id": 163,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x164": {
             "id": 164,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x165": {
             "id": 165,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x166": {
             "id": 166,
             "job": "Samouraï",
             "name": "Kiku-Ichimonji Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x167": {
             "id": 167,
             "job": "Samouraï",
             "name": "Lame élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x168": {
             "id": 168,
             "job": "Samouraï",
             "name": "Lame élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x169": {
             "id": 169,
             "job": "Samouraï",
             "name": "Lame élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x170": {
             "id": 170,
             "job": "Samouraï",
             "name": "Lame Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x171": {
             "id": 171,
             "job": "Samouraï",
             "name": "Lame Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x172": {
             "id": 172,
             "job": "Samouraï",
             "name": "Lame Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x173": {
             "id": 173,
             "job": "Samouraï",
             "name": "Torigashira-no-tachi",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x174": {
             "id": 174,
             "job": "Samouraï",
             "name": "Torigashira-no-tachi Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x175": {
             "id": 175,
             "job": "Samouraï",
             "name": "Torigashira-no-tachi personnalisée",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x176": {
             "id": 176,
             "job": "Érudit",
             "name": "Organum vieilli",
             "requirements": "-"
         },
-        {
+        "x177": {
             "id": 177,
             "job": "Érudit",
             "name": "Organum",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x178": {
             "id": 178,
             "job": "Érudit",
             "name": "Organum +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x179": {
             "id": 179,
             "job": "Érudit",
             "name": "Organum +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x180": {
             "id": 180,
             "job": "Érudit",
             "name": "Organum Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x181": {
             "id": 181,
             "job": "Érudit",
             "name": "Organum Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x182": {
             "id": 182,
             "job": "Érudit",
             "name": "Organum Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x183": {
             "id": 183,
             "job": "Érudit",
             "name": "Codex élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x184": {
             "id": 184,
             "job": "Érudit",
             "name": "Codex élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x185": {
             "id": 185,
             "job": "Érudit",
             "name": "Codex élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x186": {
             "id": 186,
             "job": "Érudit",
             "name": "Codex Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x187": {
             "id": 187,
             "job": "Érudit",
             "name": "Codex Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x188": {
             "id": 188,
             "job": "Érudit",
             "name": "Codex Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x189": {
             "id": 189,
             "job": "Érudit",
             "name": "Jebat",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x190": {
             "id": 190,
             "job": "Érudit",
             "name": "Jebat Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x191": {
             "id": 191,
             "job": "Érudit",
             "name": "Jebat personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x192": {
             "id": 192,
             "job": "Invocateur",
             "name": "Lemegeton vieilli",
             "requirements": "-"
         },
-        {
+        "x193": {
             "id": 193,
             "job": "Invocateur",
             "name": "Lemegeton",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x194": {
             "id": 194,
             "job": "Invocateur",
             "name": "Lemegeton +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x195": {
             "id": 195,
             "job": "Invocateur",
             "name": "Lemegeton +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x196": {
             "id": 196,
             "job": "Invocateur",
             "name": "Lemegeton Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x197": {
             "id": 197,
             "job": "Invocateur",
             "name": "Lemegeton Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x198": {
             "id": 198,
             "job": "Invocateur",
             "name": "Lemegeton Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x199": {
             "id": 199,
             "job": "Invocateur",
             "name": "Grimoire élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x200": {
             "id": 200,
             "job": "Invocateur",
             "name": "Grimoire élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x201": {
             "id": 201,
             "job": "Invocateur",
             "name": "Grimoire élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x202": {
             "id": 202,
             "job": "Invocateur",
             "name": "Grimoire Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x203": {
             "id": 203,
             "job": "Invocateur",
             "name": "Grimoire Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x204": {
             "id": 204,
             "job": "Invocateur",
             "name": "Grimoire Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x205": {
             "id": 205,
             "job": "Invocateur",
             "name": "Tuah",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x206": {
             "id": 206,
             "job": "Invocateur",
             "name": "Tuah Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x207": {
             "id": 207,
             "job": "Invocateur",
             "name": "Tuah personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x208": {
             "id": 208,
             "job": "Guerrier",
             "name": "Farsha vieillie",
             "requirements": "-"
         },
-        {
+        "x209": {
             "id": 209,
             "job": "Guerrier",
             "name": "Farsha",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x210": {
             "id": 210,
             "job": "Guerrier",
             "name": "Farsha +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x211": {
             "id": 211,
             "job": "Guerrier",
             "name": "Farsha +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x212": {
             "id": 212,
             "job": "Guerrier",
             "name": "Farsha Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x213": {
             "id": 213,
             "job": "Guerrier",
             "name": "Farsha Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x214": {
             "id": 214,
             "job": "Guerrier",
             "name": "Farsha Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x215": {
             "id": 215,
             "job": "Guerrier",
             "name": "Hache de combat élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x216": {
             "id": 216,
             "job": "Guerrier",
             "name": "Hache de combat élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x217": {
             "id": 217,
             "job": "Guerrier",
             "name": "Hache de combat élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x218": {
             "id": 218,
             "job": "Guerrier",
             "name": "Hache de combat Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x219": {
             "id": 219,
             "job": "Guerrier",
             "name": "Hache de combat Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x220": {
             "id": 220,
             "job": "Guerrier",
             "name": "Hache de combat Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x221": {
             "id": 221,
             "job": "Guerrier",
             "name": "Shamash",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x222": {
             "id": 222,
             "job": "Guerrier",
             "name": "Shamash Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x223": {
             "id": 223,
             "job": "Guerrier",
             "name": "Shamash personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         },
-        {
+        "x224": {
             "id": 224,
             "job": "Mage blanc",
             "name": "Aymur vieilli",
             "requirements": "-"
         },
-        {
+        "x225": {
             "id": 225,
             "job": "Mage blanc",
             "name": "Aymur",
             "requirements": "Cristal instable x100"
         },
-        {
+        "x226": {
             "id": 226,
             "job": "Mage blanc",
             "name": "Aymur +1",
             "requirements": "Cristal instable x400"
         },
-        {
+        "x227": {
             "id": 227,
             "job": "Mage blanc",
             "name": "Aymur +2",
             "requirements": "Cristal instable x800"
         },
-        {
+        "x228": {
             "id": 228,
             "job": "Mage blanc",
             "name": "Aymur Anemos",
             "requirements": "Plume de Pazuzu x3"
         },
-        {
+        "x229": {
             "id": 229,
             "job": "Mage blanc",
             "name": "Aymur Pagos",
             "requirements": "Cristal instable de glace x5"
         },
-        {
+        "x230": {
             "id": 230,
             "job": "Mage blanc",
             "name": "Aymur Pagos +1",
             "requirements": "Cristal instable de glace x10, Cristal Pagos x500"
         },
-        {
+        "x231": {
             "id": 231,
             "job": "Mage blanc",
             "name": "Canne élémentaire",
             "requirements": "Cristal instable de glace x16, Glace de Louhi x5"
         },
-        {
+        "x232": {
             "id": 232,
             "job": "Mage blanc",
             "name": "Canne élémentaire +1",
             "requirements": "Cristal Pyros x150"
         },
-        {
+        "x233": {
             "id": 233,
             "job": "Mage blanc",
             "name": "Canne élémentaire +2",
             "requirements": "Cristal Pyros x200"
         },
-        {
+        "x234": {
             "id": 234,
             "job": "Mage blanc",
             "name": "Canne Pyros",
             "requirements": "Cristal Pyros x300, Braises de Penthésilée x5"
         },
-        {
+        "x235": {
             "id": 235,
             "job": "Mage blanc",
             "name": "Canne Hydatos",
             "requirements": "Cristal Hydatos x50"
         },
-        {
+        "x236": {
             "id": 236,
             "job": "Mage blanc",
             "name": "Canne Hydatos +1",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x237": {
             "id": 237,
             "job": "Mage blanc",
             "name": "Rose Couverte",
             "requirements": "Cristal Hydatos x100"
         },
-        {
+        "x238": {
             "id": 238,
             "job": "Mage blanc",
             "name": "Rose Couverte Eurêka",
             "requirements": "Cristal Hydatos x100, Écaille de dragon de cristal x5"
         },
-        {
+        "x239": {
             "id": 239,
             "job": "Mage blanc",
             "name": "Rose Couverte personnalisé",
             "requirements": "Fragment d'Eurêka x100"
         }
-    ]
+    }
 }

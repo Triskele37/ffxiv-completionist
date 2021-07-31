@@ -1,7 +1,7 @@
 {
     "groupName": "Page 3",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Discus lunaire",
             "primeLocation": "Les Lacs",
@@ -9,7 +9,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Arowana décoloré",
             "primeLocation": "Les Lacs",
@@ -17,7 +17,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Requin salin",
             "primeLocation": "Les Lacs",
@@ -25,7 +25,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Manteau du roi",
             "primeLocation": "Les Lacs",
@@ -33,7 +33,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Lanterne des mers",
             "primeLocation": "Mer de Rubis",
@@ -41,7 +41,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Sériole",
             "primeLocation": "Mer de Rubis",
@@ -49,7 +49,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Saumon masou",
             "primeLocation": "Yanxia",
@@ -57,7 +57,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Crabe yunohana",
             "primeLocation": "Yanxia",
@@ -65,7 +65,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Goujon dotharl",
             "primeLocation": "Steppe d'Azim",
@@ -73,7 +73,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Palourde de rivière",
             "primeLocation": "Steppe d'Azim",
@@ -81,7 +81,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Requin de roseau",
             "primeLocation": "Steppe d'Azim",
@@ -89,7 +89,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Crevette typhon",
             "primeLocation": "Les Lacs",
@@ -97,7 +97,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Huître rocheuse",
             "primeLocation": "Les Lacs",
@@ -105,7 +105,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Oursin salin",
             "primeLocation": "Les Lacs",
@@ -113,7 +113,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Crabe charpentier",
             "primeLocation": "Les Lacs",
@@ -121,7 +121,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Langouste",
             "primeLocation": "Mer de Rubis",
@@ -129,7 +129,7 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Requin-lutin",
             "primeLocation": "Mer de Rubis",
@@ -137,7 +137,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Poisson télescope de Doma",
             "primeLocation": "Yanxia",
@@ -145,7 +145,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Silure draconique",
             "primeLocation": "Yanxia",
@@ -153,7 +153,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Héraut de l'Aube",
             "primeLocation": "Steppe d'Azim",
@@ -161,7 +161,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Escargot salin",
             "primeLocation": "Les Lacs",
@@ -169,7 +169,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Esturgeon blanc",
             "primeLocation": "Les Lacs",
@@ -177,7 +177,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Garoupa géant salin",
             "primeLocation": "Les Lacs",
@@ -185,7 +185,7 @@
             "type": "Pêche au harpon",
             "bait": "Grande"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Platax ombré",
             "primeLocation": "Mer de Rubis",
@@ -193,7 +193,7 @@
             "type": "Pêche au harpon",
             "bait": "Petite"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Pagre de rivière",
             "primeLocation": "Yanxia",
@@ -201,5 +201,5 @@
             "type": "Pêche au harpon",
             "bait": "Moyenne"
         }
-    ]
+    }
 }

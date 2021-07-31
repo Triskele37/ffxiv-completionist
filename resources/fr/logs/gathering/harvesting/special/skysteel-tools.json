@@ -1,7 +1,7 @@
 {
     "groupName": "Skysteel Tools",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Latex d'affinage",
             "zone": "L'Écume des cieux d'Abalathia",
@@ -9,7 +9,7 @@
             "nodeTimer": "",
             "closestAetheryte": "Camp de Cime-des-nuages"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Sable fossilisé d'affinage",
             "zone": "L'Écume des cieux d'Abalathia",
@@ -17,7 +17,7 @@
             "nodeTimer": "",
             "closestAetheryte": "Camp de Cime-des-nuages"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Ambre d'affinage",
             "zone": "Hautes terres du Coerthas occidental",
@@ -25,7 +25,7 @@
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Joyau rare d'affinage",
             "zone": "Hautes terres du Coerthas occidental",
@@ -33,5 +33,5 @@
             "nodeTimer": "",
             "closestAetheryte": "La Penne -> Hautes terres du Coerthas occidental"
         }
-    ]
+    }
 }

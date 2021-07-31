@@ -1,45 +1,45 @@
 {
     "groupName": "Tank",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Avoid Area of Effect Attacks",
             "role": "Tank"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Execute a Combo to Increase Enmity",
             "role": "Tank"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Execute a Combo in Battle",
             "role": "Tank"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Accrue Enmity from Multiple Targets",
             "role": "Tank"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Engage Multiple Targets",
             "role": "Tank"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Execute a Ranged Attack to Increase Enmity",
             "role": "Tank"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Engage Enemy Reinforcements",
             "role": "Tank"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Final Exercise",
             "role": "Tank"
         }
-    ]
+    }
 }

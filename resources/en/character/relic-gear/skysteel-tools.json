@@ -1,401 +1,401 @@
 {
     "groupName": "Skysteel Tools",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "job": "Carpenter",
             "name": "Skysteel Saw",
             "requirements": "80,000 gil"
         },
-        {
+        "x1": {
             "id": 1,
             "job": "Carpenter",
             "name": "Skysteel Saw +1",
             "requirements": "Oddly Specific Petrified Orb HQ x20"
         },
-        {
+        "x2": {
             "id": 2,
             "job": "Carpenter",
             "name": "Dragonsung Saw",
             "requirements": "Oddly Specific Shaft HQ x30"
         },
-        {
+        "x3": {
             "id": 3,
             "job": "Carpenter",
             "name": "Augmented Dragonsung Saw",
             "requirements": "Carpenter's Gobbiegoo x90"
         },
-        {
+        "x4": {
             "id": 4,
             "job": "Carpenter",
             "name": "Skysung Saw",
             "requirements": "Highly Viscous Carpenter's Gobbiegoo x105"
         },
-        {
+        "x5": {
             "id": 5,
             "job": "Carpenter",
             "name": "Skybuilders' Saw",
             "requirements": "Oddly Delicate Saw Part x60"
         },
-        {
+        "x6": {
             "id": 6,
             "job": "Blacksmith",
             "name": "Skysteel Cross-pein Hammer",
             "requirements": "80,000 gil"
         },
-        {
+        "x7": {
             "id": 7,
             "job": "Blacksmith",
             "name": "Skysteel Cross-pein Hammer +1",
             "requirements": "Oddly Specific Rivets HQ x20"
         },
-        {
+        "x8": {
             "id": 8,
             "job": "Blacksmith",
             "name": "Dragonsung Cross-pein Hammer",
             "requirements": "Oddly Specific Fitting HQ x30"
         },
-        {
+        "x9": {
             "id": 9,
             "job": "Blacksmith",
             "name": "Augmented Dragonsung Cross-pein Hammer",
             "requirements": "Blacksmith's Gobbiegoo x90"
         },
-        {
+        "x10": {
             "id": 10,
             "job": "Blacksmith",
             "name": "Skysung Cross-pein Hammer",
             "requirements": "Highly Viscous Blacksmith's Gobbiegoo x105"
         },
-        {
+        "x11": {
             "id": 11,
             "job": "Blacksmith",
             "name": "Skybuilders' Cross-pein Hammer",
             "requirements": "Oddly Delicate Cross-pein Hammer Part x60"
         },
-        {
+        "x12": {
             "id": 12,
             "job": "Armorer",
             "name": "Skysteel Raising Hammer",
             "requirements": "80,000 gil"
         },
-        {
+        "x13": {
             "id": 13,
             "job": "Armorer",
             "name": "Skysteel Raising Hammer +1",
             "requirements": "Oddly Specific Wire HQ x20"
         },
-        {
+        "x14": {
             "id": 14,
             "job": "Armorer",
             "name": "Dragonsung Raising Hammer",
             "requirements": "Oddly Specific Chainmail Sheet HQ x30"
         },
-        {
+        "x15": {
             "id": 15,
             "job": "Armorer",
             "name": "Augmented Dragonsung Raising Hammer",
             "requirements": "Armorer's Gobbiegoo x90"
         },
-        {
+        "x16": {
             "id": 16,
             "job": "Armorer",
             "name": "Skysung Raising Hammer",
             "requirements": "Highly Viscous Armorer's Gobbiegoo x105"
         },
-        {
+        "x17": {
             "id": 17,
             "job": "Armorer",
             "name": "Skybuilders' Raising Hammer",
             "requirements": "Oddly Delicate Raising Hammer Part x60"
         },
-        {
+        "x18": {
             "id": 18,
             "job": "Goldsmith",
             "name": "Skysteel Lapidary Hammer",
             "requirements": "80,000 gil"
         },
-        {
+        "x19": {
             "id": 19,
             "job": "Goldsmith",
             "name": "Skysteel Lapidary Hammer +1",
             "requirements": "Oddly Specific Whetstone HQ x20"
         },
-        {
+        "x20": {
             "id": 20,
             "job": "Goldsmith",
             "name": "Dragonsung Lapidary Hammer",
             "requirements": "Oddly Specific Gemstone HQ x30"
         },
-        {
+        "x21": {
             "id": 21,
             "job": "Goldsmith",
             "name": "Augmented Dragonsung Lapidary Hammer",
             "requirements": "Goldsmith's Gobbiegoo x90"
         },
-        {
+        "x22": {
             "id": 22,
             "job": "Goldsmith",
             "name": "Skysung Lapidary Hammer",
             "requirements": "Highly Viscous Goldsmith's Gobbiegoo x105"
         },
-        {
+        "x23": {
             "id": 23,
             "job": "Goldsmith",
             "name": "Skybuilders' Lapidary Hammer",
             "requirements": "Oddly Delicate Lapidary Hammer Part x60"
         },
-        {
+        "x24": {
             "id": 24,
             "job": "Leatherworker",
             "name": "Skysteel Round Knife",
             "requirements": "80,000 gil"
         },
-        {
+        "x25": {
             "id": 25,
             "job": "Leatherworker",
             "name": "Skysteel Round Knife +1",
             "requirements": "Oddly Specific Leather HQ x20"
         },
-        {
+        "x26": {
             "id": 26,
             "job": "Leatherworker",
             "name": "Dragonsung Round Knife",
             "requirements": "Oddly Specific Vellum HQ x30"
         },
-        {
+        "x27": {
             "id": 27,
             "job": "Leatherworker",
             "name": "Augmented Dragonsung Round Knife",
             "requirements": "Leatherworker's Gobbiegoo x90"
         },
-        {
+        "x28": {
             "id": 28,
             "job": "Leatherworker",
             "name": "Skysung Round Knife",
             "requirements": "Highly Viscous Leatherworker's Gobbiegoo x105"
         },
-        {
+        "x29": {
             "id": 29,
             "job": "Leatherworker",
             "name": "Skybuilders' Round Knife",
             "requirements": "Oddly Delicate Round Knife Part x60"
         },
-        {
+        "x30": {
             "id": 30,
             "job": "Weaver",
             "name": "Skysteel Needle",
             "requirements": "80,000 gil"
         },
-        {
+        "x31": {
             "id": 31,
             "job": "Weaver",
             "name": "Skysteel Needle +1",
             "requirements": "Oddly Specific Moonbeam Silk HQ x20"
         },
-        {
+        "x32": {
             "id": 32,
             "job": "Weaver",
             "name": "Dragonsung Needle",
             "requirements": "Oddly Specific Velvet HQ x30"
         },
-        {
+        "x33": {
             "id": 33,
             "job": "Weaver",
             "name": "Augmented Dragonsung Needle",
             "requirements": "Weaver's Gobbiegoo x90"
         },
-        {
+        "x34": {
             "id": 34,
             "job": "Weaver",
             "name": "Skysung Needle",
             "requirements": "Highly Viscous Weaver's Gobbiegoo x105"
         },
-        {
+        "x35": {
             "id": 35,
             "job": "Weaver",
             "name": "Skybuilders' Needle",
             "requirements": "Oddly Delicate Needle Part x60"
         },
-        {
+        "x36": {
             "id": 36,
             "job": "Alchemist",
             "name": "Skysteel Alembic",
             "requirements": "80,000 gil"
         },
-        {
+        "x37": {
             "id": 37,
             "job": "Alchemist",
             "name": "Skysteel Alembic +1",
             "requirements": "Oddly Specific Synthetic Resin HQ x20"
         },
-        {
+        "x38": {
             "id": 38,
             "job": "Alchemist",
             "name": "Dragonsung Alembic",
             "requirements": "Oddly Specific Glass HQ x30"
         },
-        {
+        "x39": {
             "id": 39,
             "job": "Alchemist",
             "name": "Augmented Dragonsung Alembic",
             "requirements": "Alchemist's Gobbiegoo x90"
         },
-        {
+        "x40": {
             "id": 40,
             "job": "Alchemist",
             "name": "Skysung Alembic",
             "requirements": "Highly Viscous Alchemist's Gobbiegoo x105"
         },
-        {
+        "x41": {
             "id": 41,
             "job": "Alchemist",
             "name": "Skybuilders' Alembic",
             "requirements": "Oddly Delicate Alembic Part x60"
         },
-        {
+        "x42": {
             "id": 42,
             "job": "Culinarian",
             "name": "Skysteel Frypan",
             "requirements": "80,000 gil"
         },
-        {
+        "x43": {
             "id": 43,
             "job": "Culinarian",
             "name": "Skysteel Frypan +1",
             "requirements": "Oddly Specific Seed Extract HQ x20"
         },
-        {
+        "x44": {
             "id": 44,
             "job": "Culinarian",
             "name": "Dragonsung Frypan",
             "requirements": "Oddly Specific Seed Flour HQ x30"
         },
-        {
+        "x45": {
             "id": 45,
             "job": "Culinarian",
             "name": "Augmented Dragonsung Frypan",
             "requirements": "Culinarian's Gobbiegoo x90"
         },
-        {
+        "x46": {
             "id": 46,
             "job": "Culinarian",
             "name": "Skysung Frypan",
             "requirements": "Highly Viscous Culinarian's Gobbiegoo x105"
         },
-        {
+        "x47": {
             "id": 47,
             "job": "Culinarian",
             "name": "Skybuilders' Frypan",
             "requirements": "Oddly Delicate Frypan Part x60"
         },
-        {
+        "x48": {
             "id": 48,
             "job": "Miner",
             "name": "Skysteel Pickaxe",
             "requirements": "80,000 gil"
         },
-        {
+        "x49": {
             "id": 49,
             "job": "Miner",
             "name": "Skysteel Pickaxe +1",
             "requirements": "Oddly Specific Obsidian HQ x340, Oddly Specific Mineral Sand x120"
         },
-        {
+        "x50": {
             "id": 50,
             "job": "Miner",
             "name": "Dragonsung Pickaxe",
             "requirements": "Oddly Specific Dark Matter HQ x510, Oddly Specific Striking Stone x180"
         },
-        {
+        "x51": {
             "id": 51,
             "job": "Miner",
             "name": "Augmented Dragonsung Pickaxe",
             "requirements": "Miner's Gobbiegoo x50, Oddly Specific Landborne Aethersand x180"
         },
-        {
+        "x52": {
             "id": 52,
             "job": "Miner",
             "name": "Skysung Pickaxe",
             "requirements": "Highly Viscous Miner's Gobbiegoo x60, Oddly Specific Primordial Asphaltum x200"
         },
-        {
+        "x53": {
             "id": 53,
             "job": "Miner",
             "name": "Skybuilders' Pickaxe",
             "requirements": "Oddly Delicate Pickaxe Part x250, Inconceivably Delicate Pickaxe Part x25"
         },
-        {
+        "x54": {
             "id": 54,
             "job": "Botanist",
             "name": "Skysteel Hatchet",
             "requirements": "80,000 gil"
         },
-        {
+        "x55": {
             "id": 55,
             "job": "Botanist",
             "name": "Skysteel Hatchet +1",
             "requirements": "Oddly Specific Latex HQ x340, Oddly Specific Fossil Dust x120"
         },
-        {
+        "x56": {
             "id": 56,
             "job": "Botanist",
             "name": "Dragonsung Hatchet",
             "requirements": "Oddly Specific Amber HQ x510, Oddly Specific Bauble x180"
         },
-        {
+        "x57": {
             "id": 57,
             "job": "Botanist",
             "name": "Augmented Dragonsung Hatchet",
             "requirements": "Botanist's Gobbiegoo x50, Oddly Specific Leafborne Aethersand x180"
         },
-        {
+        "x58": {
             "id": 58,
             "job": "Botanist",
             "name": "Skysung Hatchet",
             "requirements": "Highly Viscous Botanist's Gobbiegoo x60, Oddly Specific Primordial Resin x200"
         },
-        {
+        "x59": {
             "id": 59,
             "job": "Botanist",
             "name": "Skybuilders' Hatchet",
             "requirements": "Oddly Delicate Hatchet Part x250, Inconceivably Delicate Hatchet Part x25"
         },
-        {
+        "x60": {
             "id": 60,
             "job": "Fisher",
             "name": "Skysteel Fishing Rod",
             "requirements": "80,000 gil"
         },
-        {
+        "x61": {
             "id": 61,
             "job": "Fisher",
             "name": "Skysteel Fishing Rod +1",
             "requirements": "Thinker's Coral HQ x40"
         },
-        {
+        "x62": {
             "id": 62,
             "job": "Fisher",
             "name": "Dragonsung Fishing Rod",
             "requirements": "Dragonspine HQ x60"
         },
-        {
+        "x63": {
             "id": 63,
             "job": "Fisher",
             "name": "Augmented Dragonsung Fishing Rod",
             "requirements": "Fisher's Gobbiegoo x6"
         },
-        {
+        "x64": {
             "id": 64,
             "job": "Fisher",
             "name": "Skysung Fishing Rod",
             "requirements": "Highly Viscous Fisher's Gobbiegoo x7"
         },
-        {
+        "x65": {
             "id": 65,
             "job": "Fisher",
             "name": "Skybuilders' Fishing Rod",
             "requirements": "Oddly Delicate Fishing Rod Part x200, Oddly Delicate Fishing Reel Part x200"
         }
-    ]
+    }
 }

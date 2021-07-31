@@ -1,26 +1,26 @@
 {
     "groupName": "Hingashi",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Jetées de Kugane",
             "zone": "Kugane",
             "location": "Jetée n°2 (12,10.5)",
             "type": "Eau salée"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Shirogane",
             "zone": "Shirogane",
             "location": "Shirogane (8,14)",
             "type": "Eau salée"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Canaux de Shirogane",
             "zone": "Shirogane",
             "location": "Kobai Goten (10,11)",
             "type": "Eau douce"
         }
-    ]
+    }
 }

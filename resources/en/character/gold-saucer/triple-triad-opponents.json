@@ -10,8 +10,8 @@
         "quest": "Quest",
         "patch": "Patch"
     },
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Triple Triad Master",
             "zone": "The Gold Saucer",
@@ -20,7 +20,7 @@
             "drops": "Spriggan",
             "quest": ""
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Baderon",
             "zone": "Limsa Lominsa Upper Decks",
@@ -29,7 +29,7 @@
             "drops": "Baderon Tenfingers, Sahagin",
             "quest": "A Wild Rose by Any Other Name"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Drery",
             "zone": "Amh Araeng",
@@ -38,7 +38,7 @@
             "drops": "Evil Weapon, Gigantender",
             "quest": "Mystery Miners"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Ercanbald",
             "zone": "Rhalgr's Reach",
@@ -47,7 +47,7 @@
             "drops": "Griffin, M'naago",
             "quest": "A Haven for the Bold"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "F'hobhas",
             "zone": "Central Thanalan",
@@ -56,7 +56,7 @@
             "drops": "Mutamix Bubblypots",
             "quest": ""
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Fufulupa",
             "zone": "Western Thanalan",
@@ -65,7 +65,7 @@
             "drops": "Chimera, Thancred",
             "quest": "A Wild Rose by Any Other Name"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Glynard",
             "zone": "The Crystarium",
@@ -74,7 +74,7 @@
             "drops": "Amaro",
             "quest": "Warrior of Darkness"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Guhtwint of the Three Diamonds",
             "zone": "The Gold Saucer",
@@ -83,7 +83,7 @@
             "drops": "Chocobo, Scarface Bugaal Ja",
             "quest": ""
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Gyoei",
             "zone": "Yanxia",
@@ -92,7 +92,7 @@
             "drops": "Namazu, Great Gold Whisker",
             "quest": "Criminal Phrenology"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Ibenart",
             "zone": "Kholusia",
@@ -101,7 +101,7 @@
             "drops": "Lord and Lady Chai",
             "quest": "That None Shall Ever Again"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Joellaut",
             "zone": "Coerthas Central Highlands",
@@ -110,7 +110,7 @@
             "drops": "Alphinaud and Alisaie, Ixal",
             "quest": ""
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Jonas of the Three Spades",
             "zone": "The Gold Saucer",
@@ -119,7 +119,7 @@
             "drops": "Ixal, Moogle",
             "quest": ""
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Kotokaze",
             "zone": "Kugane",
@@ -128,7 +128,7 @@
             "drops": "Kotokaze",
             "quest": "By The Grace of Lord Lolorito"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Maisenta",
             "zone": "New Gridania",
@@ -137,7 +137,7 @@
             "drops": "Coblyn, Sylph",
             "quest": ""
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Marcechamp",
             "zone": "The Dravanian Forelands",
@@ -146,7 +146,7 @@
             "drops": "Ysayle",
             "quest": "Gifts for the Outcasts"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Memeroon",
             "zone": "Upper La Noscea",
@@ -155,7 +155,7 @@
             "drops": "Amalj'aa, Manxome Molaa Ja Ja, Memeroon, Tonberry",
             "quest": ""
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Mimidoa",
             "zone": "Lower La Noscea",
@@ -164,7 +164,7 @@
             "drops": "Biggs and Wedge, Siren",
             "quest": "History Repeating"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Momodi",
             "zone": "Ul'dah - Steps of Nald",
@@ -173,7 +173,7 @@
             "drops": "Momodi Modi",
             "quest": "A Wild Rose by Any Other Name"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Mother Miounne",
             "zone": "New Gridania",
@@ -182,7 +182,7 @@
             "drops": "Goobbue, Mother Miounne",
             "quest": "A Wild Rose by Any Other Name"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Prideful Stag",
             "zone": "The Triple Triad Battlehall",
@@ -191,7 +191,7 @@
             "drops": "Lost Lamb",
             "quest": ""
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Roger",
             "zone": "Central Thanalan",
@@ -200,7 +200,7 @@
             "drops": "Morbol, Pudding",
             "quest": ""
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Saushs Koal",
             "zone": "The Tempest",
@@ -209,7 +209,7 @@
             "drops": "Grenoldt",
             "quest": "Pearls of the Deep"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Seika",
             "zone": "Idyllshire",
@@ -218,7 +218,7 @@
             "drops": "Crawler, Poroggo, Roundrox",
             "quest": "Enigma"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Trachtoum",
             "zone": "Lower La Noscea",
@@ -227,7 +227,7 @@
             "drops": "Moogle, Titan",
             "quest": "All Good Things"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Wymond",
             "zone": "Ul'dah - Steps of Nald",
@@ -236,7 +236,7 @@
             "drops": "Coblyn, Lolorito Nanarito",
             "quest": ""
         },
-        {
+        "x25": {
             "id": 25,
             "name": "Wyra \"Greenhands\" Lyehga",
             "zone": "The Triple Triad Battlehall",
@@ -245,7 +245,7 @@
             "drops": "Apkallu",
             "quest": ""
         },
-        {
+        "x26": {
             "id": 26,
             "name": "Aurifort of the Three Clubs",
             "zone": "The Gold Saucer",
@@ -254,7 +254,7 @@
             "drops": "Goobbue, Scarface Bugaal Ja",
             "quest": ""
         },
-        {
+        "x27": {
             "id": 27,
             "name": "Botan",
             "zone": "Kugane",
@@ -263,7 +263,7 @@
             "drops": "Happy Bunny, Louhi, Pazuzu, Yukinko",
             "quest": "And We Shall Call It Pyros"
         },
-        {
+        "x28": {
             "id": 28,
             "name": "Cobleva",
             "zone": "Lakeland",
@@ -272,7 +272,7 @@
             "drops": "Dwarf, Rolling Tankard",
             "quest": "Tanks for the Memory"
         },
-        {
+        "x29": {
             "id": 29,
             "name": "Dominiac",
             "zone": "Coerthas Western Highlands",
@@ -281,7 +281,7 @@
             "drops": "Deepeye, Griffin",
             "quest": "A War Without End"
         },
-        {
+        "x30": {
             "id": 30,
             "name": "Droyn",
             "zone": "Ul'dah - Steps of Thal",
@@ -290,7 +290,7 @@
             "drops": "Azulmagia, Siegfried",
             "quest": "Blue Cheese"
         },
-        {
+        "x31": {
             "id": 31,
             "name": "Eo Sigun",
             "zone": "Il Mheg",
@@ -299,7 +299,7 @@
             "drops": "Nu Mou, Porxie",
             "quest": "Manic Pixie Dream Realm"
         },
-        {
+        "x32": {
             "id": 32,
             "name": "Garima",
             "zone": "The Fringes",
@@ -308,7 +308,7 @@
             "drops": "Ananta, Qiqirn Meateater",
             "quest": "Delicate as a Flower"
         },
-        {
+        "x33": {
             "id": 33,
             "name": "Gyuf Uin",
             "zone": "Il Mheg",
@@ -317,7 +317,7 @@
             "drops": "Feo-Ul",
             "quest": "Acht-la Ormh Inn"
         },
-        {
+        "x34": {
             "id": 34,
             "name": "Hargra",
             "zone": "The Rak'tika Greatwood",
@@ -326,7 +326,7 @@
             "drops": "Runar, Shadowbringers Y'shtola",
             "quest": "An Express Delivery"
         },
-        {
+        "x35": {
             "id": 35,
             "name": "Helmhart",
             "zone": "Eastern Thanalan",
@@ -335,7 +335,7 @@
             "drops": "Gerolt, Ultros and Typhon",
             "quest": ""
         },
-        {
+        "x36": {
             "id": 36,
             "name": "Hetsukaze",
             "zone": "Kugane",
@@ -344,7 +344,7 @@
             "drops": "Ejika Tsunjika, Penthesilea, Dvergr, Provenance Watcher",
             "quest": "And We Shall Call It Hydatos"
         },
-        {
+        "x37": {
             "id": 37,
             "name": "Hokushin",
             "zone": "Kugane",
@@ -353,7 +353,7 @@
             "drops": "Karakuri Hanya, Yojimbo & Daigoro",
             "quest": "Good Swords, Good Dogs"
         },
-        {
+        "x38": {
             "id": 38,
             "name": "House Fortemps Manservant",
             "zone": "Fortemps Manor",
@@ -362,7 +362,7 @@
             "drops": "Artoirel de Fortemps, Emmanellain de Fortemps, Honoroit",
             "quest": "Heavensward"
         },
-        {
+        "x39": {
             "id": 39,
             "name": "Idle Imperial",
             "zone": "Azys La",
@@ -371,7 +371,7 @@
             "drops": "Curator, Hilda, Regula van Hydrus, Tiamat",
             "quest": "The First Flight of the Excelsior"
         },
-        {
+        "x40": {
             "id": 40,
             "name": "Kaizan",
             "zone": "The Ruby Sea",
@@ -380,7 +380,7 @@
             "drops": "Rasho",
             "quest": "A Dance with Snakes"
         },
-        {
+        "x41": {
             "id": 41,
             "name": "Lamlyn",
             "zone": "Lakeland",
@@ -389,7 +389,7 @@
             "drops": "Lyna",
             "quest": "Reassuring the Masses"
         },
-        {
+        "x42": {
             "id": 42,
             "name": "Linu Vali",
             "zone": "The Sea of Clouds",
@@ -398,7 +398,7 @@
             "drops": "Bismarck, Brachiosaur, Waukkeon",
             "quest": "The Nest of Honor"
         },
-        {
+        "x43": {
             "id": 43,
             "name": "Mordyn",
             "zone": "Limsa Lominsa Upper Decks",
@@ -407,7 +407,7 @@
             "drops": "Carvallain de Gorgagne, Merlwyb Bloefhiswyn, Kraken",
             "quest": "Storming the Hull"
         },
-        {
+        "x44": {
             "id": 44,
             "name": "Nell Half-Full",
             "zone": "The Triple Triad Battlehall",
@@ -416,7 +416,7 @@
             "drops": "Brendt, Brennan, & Bremondt",
             "quest": ""
         },
-        {
+        "x45": {
             "id": 45,
             "name": "Noes",
             "zone": "Old Gridania",
@@ -425,7 +425,7 @@
             "drops": "Gaelicat, Kuribu",
             "quest": ""
         },
-        {
+        "x46": {
             "id": 46,
             "name": "O'kalkaya",
             "zone": "Limsa Lominsa Upper Decks",
@@ -434,7 +434,7 @@
             "drops": "Rhoswen, Merlwyb Bloefhiswyn, Mistbeard",
             "quest": "Storming the Hull"
         },
-        {
+        "x47": {
             "id": 47,
             "name": "Piralnaut",
             "zone": "East Shroud",
@@ -443,7 +443,7 @@
             "drops": "Frixio, Succubus",
             "quest": ""
         },
-        {
+        "x48": {
             "id": 48,
             "name": "Redard",
             "zone": "The Rak'tika Greatwood",
@@ -452,7 +452,7 @@
             "drops": "Batsquatch, Qitari",
             "quest": "The Stewards of Note"
         },
-        {
+        "x49": {
             "id": 49,
             "name": "Swift",
             "zone": "Ul'dah - Steps of Nald",
@@ -461,7 +461,7 @@
             "drops": "Alphinaud and Alisaie, Ifrit, Pipin Tarupin, Raubahn Aldynn",
             "quest": "For Coin and Country"
         },
-        {
+        "x50": {
             "id": 50,
             "name": "Tsuzura",
             "zone": "The Ruby Sea",
@@ -470,7 +470,7 @@
             "drops": "Kojin",
             "quest": "Our Most Venerated Ancestor"
         },
-        {
+        "x51": {
             "id": 51,
             "name": "Ushiogi",
             "zone": "The Ruby Sea",
@@ -479,7 +479,7 @@
             "drops": "Hatamoto, Hiruko, Wanyudo and Katasharin",
             "quest": "On The Shoulders of Giants"
         },
-        {
+        "x52": {
             "id": 52,
             "name": "Vath Deftarm",
             "zone": "The Dravanian Forelands",
@@ -488,7 +488,7 @@
             "drops": "Ravana, Coeurlregina, Fat Chocobo",
             "quest": "A Symbiotic Friendship"
         },
-        {
+        "x53": {
             "id": 53,
             "name": "Yellow Moon",
             "zone": "Ul'dah - Steps of Thal",
@@ -497,7 +497,7 @@
             "drops": "Yugiri Mistwalker",
             "quest": ""
         },
-        {
+        "x54": {
             "id": 54,
             "name": "Yusui",
             "zone": "The Ruby Sea",
@@ -506,7 +506,7 @@
             "drops": "Tansui",
             "quest": "Boys with Boats"
         },
-        {
+        "x55": {
             "id": 55,
             "name": "Arsieu",
             "zone": "???",
@@ -515,7 +515,7 @@
             "drops": "Adrammelech, Dawon",
             "quest": "The Lady of Blades"
         },
-        {
+        "x56": {
             "id": 56,
             "name": "Buscarron",
             "zone": "South Shroud",
@@ -524,7 +524,7 @@
             "drops": "Demon Wall, Papalymo and Yda, Raya-O-Senna and A-Ruhn-Senna",
             "quest": "Into the Beast's Maw"
         },
-        {
+        "x57": {
             "id": 57,
             "name": "Flichoirel the Lordling",
             "zone": "The Triple Triad Battlehall",
@@ -533,7 +533,7 @@
             "drops": "Colibri, Nael van Darnus",
             "quest": ""
         },
-        {
+        "x58": {
             "id": 58,
             "name": "Furtive Former Imperial",
             "zone": "???",
@@ -542,7 +542,7 @@
             "drops": "Sapphire Weapon",
             "quest": "Sleep Now in Sapphire"
         },
-        {
+        "x59": {
             "id": 59,
             "name": "Gegeruju",
             "zone": "Eastern La Noscea",
@@ -551,7 +551,7 @@
             "drops": "Minfilia, Y'shtola",
             "quest": "All Good Things"
         },
-        {
+        "x60": {
             "id": 60,
             "name": "Gibrillont",
             "zone": "Foundation",
@@ -560,7 +560,7 @@
             "drops": "Estinien",
             "quest": "The Better Half"
         },
-        {
+        "x61": {
             "id": 61,
             "name": "Grewenn",
             "zone": "Eulmore",
@@ -569,7 +569,7 @@
             "drops": "Jongleurs of Eulmore, Ran'jit",
             "quest": "Shadowbringers"
         },
-        {
+        "x62": {
             "id": 62,
             "name": "Hab",
             "zone": "Southern Thanalan",
@@ -578,7 +578,7 @@
             "drops": "Godbert Manderville, Hildibrand and Nashu Mhakaracca, Thancred",
             "quest": "Zombies Are People Too"
         },
-        {
+        "x63": {
             "id": 63,
             "name": "Hachinan",
             "zone": "Yanxia",
@@ -587,7 +587,7 @@
             "drops": "Asahi sas Brutus, Zenos yae Galvus",
             "quest": "The Primary Agreement"
         },
-        {
+        "x64": {
             "id": 64,
             "name": "Hanagasa",
             "zone": "Kugane",
@@ -596,7 +596,7 @@
             "drops": "Argath Thadalfus, Rofocale, Ultima, the High Seraph, Yiazmat",
             "quest": "The City of Lost Angels"
         },
-        {
+        "x65": {
             "id": 65,
             "name": "Imperial Deserter",
             "zone": "The Lochs",
@@ -605,7 +605,7 @@
             "drops": "Fordola rem Lupis, Grynewaht, Yotsuyu",
             "quest": "Stormblood"
         },
-        {
+        "x66": {
             "id": 66,
             "name": "Indolent Imperial",
             "zone": "Mor Dhona",
@@ -614,7 +614,7 @@
             "drops": "Gaius van Baelsar, Livia sas Junius, Nero tol Scaeva, Rhitahtyn sas Arvina",
             "quest": ""
         },
-        {
+        "x67": {
             "id": 67,
             "name": "Ironworks Hand",
             "zone": "Rhalgr's Reach",
@@ -623,7 +623,7 @@
             "drops": "Alpha, Omega, Shinryu",
             "quest": "To Kweh Under Distant Skies"
         },
-        {
+        "x68": {
             "id": 68,
             "name": "Kikimo",
             "zone": "Kugane",
@@ -632,7 +632,7 @@
             "drops": "Hancock",
             "quest": "By The Grace of Lord Lolorito"
         },
-        {
+        "x69": {
             "id": 69,
             "name": "King Elmer III",
             "zone": "The Gold Saucer",
@@ -641,7 +641,7 @@
             "drops": "Bahamut, Godbert Manderville",
             "quest": ""
         },
-        {
+        "x70": {
             "id": 70,
             "name": "Kiuka",
             "zone": "The Doman Enclave",
@@ -650,7 +650,7 @@
             "drops": "Hien",
             "quest": ""
         },
-        {
+        "x71": {
             "id": 71,
             "name": "Klynthota",
             "zone": "Mor Dhona",
@@ -659,7 +659,7 @@
             "drops": "Cloud of Darkness, Phlegethon, Xande, Unei & Doga",
             "quest": "The Light of Hope"
         },
-        {
+        "x72": {
             "id": 72,
             "name": "Landenel",
             "zone": "South Shroud",
@@ -668,7 +668,7 @@
             "drops": "Odin, Titan",
             "quest": "All Good Things"
         },
-        {
+        "x73": {
             "id": 73,
             "name": "Laniaitte",
             "zone": "The Sea of Clouds",
@@ -677,7 +677,7 @@
             "drops": "Dhalmel, Paissa",
             "quest": "Honoring the Past"
         },
-        {
+        "x74": {
             "id": 74,
             "name": "Lewto-Sue",
             "zone": "Amh Araeng",
@@ -686,7 +686,7 @@
             "drops": "Gaia, Ryne",
             "quest": "Where I Belong"
         },
-        {
+        "x75": {
             "id": 75,
             "name": "Marcette",
             "zone": "Central Shroud",
@@ -695,7 +695,7 @@
             "drops": "Frixio, Garuda",
             "quest": ""
         },
-        {
+        "x76": {
             "id": 76,
             "name": "Marielle",
             "zone": "The Sea of Clouds",
@@ -704,7 +704,7 @@
             "drops": "Count Edmont de Fortemps, Laniaitte de Haillenarte",
             "quest": "A Reward Long in Coming"
         },
-        {
+        "x77": {
             "id": 77,
             "name": "Masatsuchi",
             "zone": "Yanxia",
@@ -713,7 +713,7 @@
             "drops": "Koja, Lupin",
             "quest": "Tiger Blood"
         },
-        {
+        "x78": {
             "id": 78,
             "name": "Master Mogzin",
             "zone": "The Churning Mists",
@@ -722,7 +722,7 @@
             "drops": "Good King Moggle Mog XII, Kal Myhk, Hraesvelgr, Darkscale",
             "quest": "The Zenith of Craftsmanship"
         },
-        {
+        "x79": {
             "id": 79,
             "name": "Mero Roggo",
             "zone": "The Dravanian Hinterlands",
@@ -731,7 +731,7 @@
             "drops": "Byblos, Calcabrina, Strix, Stormblood Alphinaud and Alisaie",
             "quest": "Prelude in Violet"
         },
-        {
+        "x80": {
             "id": 80,
             "name": "Midnight Dew",
             "zone": "Idyllshire",
@@ -740,7 +740,7 @@
             "drops": "Matoya, Belladonna",
             "quest": "Over My Dead Gobbie"
         },
-        {
+        "x81": {
             "id": 81,
             "name": "Mogmill",
             "zone": "The Churning Mists",
@@ -749,7 +749,7 @@
             "drops": "Gnath, Moglin, Vanu Vanu, Vedrfolnir",
             "quest": "A Secret from Everyone"
         },
-        {
+        "x82": {
             "id": 82,
             "name": "Munglig",
             "zone": "The Azim Steppe",
@@ -758,7 +758,7 @@
             "drops": "Sadu, Mammoth",
             "quest": "The Undying Ones"
         },
-        {
+        "x83": {
             "id": 83,
             "name": "Nigen",
             "zone": "The Azim Steppe",
@@ -767,7 +767,7 @@
             "drops": "Cirina, Mammoth",
             "quest": "And Dzo It Goes"
         },
-        {
+        "x84": {
             "id": 84,
             "name": "Ogodei",
             "zone": "The Azim Steppe",
@@ -776,7 +776,7 @@
             "drops": "Magnai, Mammoth",
             "quest": "A Warm Welcome"
         },
-        {
+        "x85": {
             "id": 85,
             "name": "Ourdilic",
             "zone": "Coerthas Central Highlands",
@@ -785,7 +785,7 @@
             "drops": "Behemoth, Blue Dragon, Ahriman",
             "quest": ""
         },
-        {
+        "x86": {
             "id": 86,
             "name": "R'ashaht Rhiki",
             "zone": "Limsa Lominsa Upper Decks",
@@ -794,7 +794,7 @@
             "drops": "Leviathan, Merlwyb Bloefhiswyn, Y'shtola",
             "quest": "For Coin and Country"
         },
-        {
+        "x87": {
             "id": 87,
             "name": "Redbill Storeboy",
             "zone": "Idyllshire",
@@ -803,7 +803,7 @@
             "drops": "Calofisteri, Diabolos Hollow, Echidna, Ferdiad",
             "quest": "A Redbill Farewell"
         },
-        {
+        "x88": {
             "id": 88,
             "name": "Rowena",
             "zone": "Mor Dhona",
@@ -812,7 +812,7 @@
             "drops": "Gerolt, Louisoix Leveilleur",
             "quest": "The Weaponsmith of Legend"
         },
-        {
+        "x89": {
             "id": 89,
             "name": "Ruhtwyda of the Three Hearts",
             "zone": "The Gold Saucer",
@@ -821,7 +821,7 @@
             "drops": "Godbert Manderville, Urianger",
             "quest": ""
         },
-        {
+        "x90": {
             "id": 90,
             "name": "Sezul Totoloc",
             "zone": "North Shroud",
@@ -830,7 +830,7 @@
             "drops": "Behemoth, Biggs and Wedge, Cid Garlond, Tozol Huatotl",
             "quest": "Spread Your Wings and Soar"
         },
-        {
+        "x101": {
             "id": 101,
             "name": "Sladkey",
             "zone": "???",
@@ -839,7 +839,7 @@
             "drops": "4th-make Shemhazai, 4th-make Cuchulainn",
             "quest": "March of the Bloody Queen"
         },
-        {
+        "x91": {
             "id": 91,
             "name": "Tapklix",
             "zone": "The Dravanian Hinterlands",
@@ -848,7 +848,7 @@
             "drops": "Alexander Prime, Brute Justice, Roundrox",
             "quest": "A Gob in the Machine"
         },
-        {
+        "x92": {
             "id": 92,
             "name": "Umber Torrent",
             "zone": "The Lochs",
@@ -857,7 +857,7 @@
             "drops": "Arenvald Lentinus, Phoebad",
             "quest": "Return of the Bull"
         },
-        {
+        "x93": {
             "id": 93,
             "name": "Voracious Vath",
             "zone": "The Dravanian Forelands",
@@ -866,7 +866,7 @@
             "drops": "Bandersnatch, Coeurlregina",
             "quest": "Yellow Stones"
         },
-        {
+        "x94": {
             "id": 94,
             "name": "Wawalago",
             "zone": "Limsa Lominsa Lower Decks",
@@ -875,7 +875,7 @@
             "drops": "Lucia goe Junius",
             "quest": ""
         },
-        {
+        "x95": {
             "id": 95,
             "name": "Yayake",
             "zone": "Ul'dah - Steps of Nald",
@@ -884,7 +884,7 @@
             "drops": "Aymeric, Vicegerent to the Warden",
             "quest": ""
         },
-        {
+        "x96": {
             "id": 96,
             "name": "Elaisse",
             "zone": "The Pillars",
@@ -893,7 +893,7 @@
             "drops": "Archaeornis, Gibrillont",
             "quest": "Caught in the Act"
         },
-        {
+        "x97": {
             "id": 97,
             "name": "Hall Overseer",
             "zone": "The Triple Triad Battlehall",
@@ -902,7 +902,7 @@
             "drops": "Terra Branford, Magitek Collosus",
             "quest": ""
         },
-        {
+        "x98": {
             "id": 98,
             "name": "Isobe",
             "zone": "The Ruby Sea",
@@ -911,7 +911,7 @@
             "drops": "Ango, Hisui and Kurenai",
             "quest": "The Two Princesses of Sui-no-Sato"
         },
-        {
+        "x99": {
             "id": 99,
             "name": "Lewena",
             "zone": "The Gold Saucer",
@@ -920,7 +920,7 @@
             "drops": "Bartz Klauser, Onion Knight, Terra Branford",
             "quest": ""
         },
-        {
+        "x100": {
             "id": 100,
             "name": "Vorsaile Heuloix",
             "zone": "New Gridania",
@@ -929,5 +929,5 @@
             "drops": "Kan-E-Senna, Papalymo and Yda, Ramuh, Good King Moggle Mog XII",
             "quest": "For Coin and Country"
         }
-    ]
+    }
 }

@@ -1,7 +1,7 @@
 {
     "groupName": "Page 5",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Loche dorée",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -9,7 +9,7 @@
             "type": "Lacs",
             "bait": "Ver de ruche"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Poisson tempête",
             "primeLocation": "Thanalan méridional",
@@ -17,7 +17,7 @@
             "type": "Dune de sable",
             "bait": "Sangsue des sables"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Anguille de Nald'thal",
             "primeLocation": "Thanalan oriental",
@@ -25,7 +25,7 @@
             "type": "Rivières",
             "bait": "Ver de ruche"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Truite écarlate",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -33,7 +33,7 @@
             "type": "Rivières",
             "bait": "Ver de ruche"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Discus",
             "primeLocation": "Noscea orientale",
@@ -41,7 +41,7 @@
             "type": "Rivières",
             "bait": "Ver de ruche"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Limace fourmilion",
             "primeLocation": "Thanalan méridional",
@@ -49,7 +49,7 @@
             "type": "Dune de sable",
             "bait": "Sangsue des sables"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Corail rouge",
             "primeLocation": "Noscea orientale",
@@ -57,7 +57,7 @@
             "type": "Côtes",
             "bait": "Boulette de hareng"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Truite d'airain",
             "primeLocation": "Haute-Noscea",
@@ -65,7 +65,7 @@
             "type": "Lacs",
             "bait": "Cuiller en mithril"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Escargot infernal",
             "primeLocation": "Thanalan méridional",
@@ -73,7 +73,7 @@
             "type": "Lacs",
             "bait": "Ver huhu"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Raie des dunes",
             "primeLocation": "Thanalan méridional",
@@ -81,7 +81,7 @@
             "type": "Dune de sable",
             "bait": "Poisson tempête"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Requin argenté",
             "primeLocation": "Noscea centrale",
@@ -89,7 +89,7 @@
             "type": "Pleine mer",
             "bait": "Gobie de Merlthor"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Pléco royal",
             "primeLocation": "Noscea orientale",
@@ -97,7 +97,7 @@
             "type": "Lacs",
             "bait": "Ver huhu"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Grondin éclair",
             "primeLocation": "Noscea orientale",
@@ -105,7 +105,7 @@
             "type": "Rivières",
             "bait": "Cuiller en mithril"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Carpe dragon",
             "primeLocation": "Haute-Noscea",
@@ -113,7 +113,7 @@
             "type": "Rivières",
             "bait": "Cyprin cuivré"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Poisson couteau",
             "primeLocation": "Thanalan oriental",
@@ -121,7 +121,7 @@
             "type": "Rivières",
             "bait": "Ver huhu"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Thazard noir",
             "primeLocation": "Noscea occidental",
@@ -129,7 +129,7 @@
             "type": "Pleine mer",
             "bait": "Gobie de Merlthor"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Poisson cherche-pluie",
             "primeLocation": "Gridania",
@@ -137,7 +137,7 @@
             "type": "Rivières",
             "bait": "Ver huhu"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Anguille racine",
             "primeLocation": "Forêt du nord",
@@ -145,7 +145,7 @@
             "type": "Rivières",
             "bait": "Mouche vautour"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Chabot",
             "primeLocation": "Haute-Noscea",
@@ -153,7 +153,7 @@
             "type": "Rivières",
             "bait": "Leurre hélice"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Huître aux lèvres noires",
             "primeLocation": "Noscea occidental",
@@ -161,7 +161,7 @@
             "type": "Côtes",
             "bait": "Amorçoir à krill"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Brochet du sud",
             "primeLocation": "Forêt du nord",
@@ -169,7 +169,7 @@
             "type": "Lacs",
             "bait": "Mouche vautour"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Brochet du nord",
             "primeLocation": "Hautes terres du Coerthas central",
@@ -177,7 +177,7 @@
             "type": "Rivières",
             "bait": "Grenouille sèche"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Tétrodon kobold",
             "primeLocation": "Noscea orientale",
@@ -185,7 +185,7 @@
             "type": "Rivières",
             "bait": "Cuiller arc-en-ciel"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Nautile",
             "primeLocation": "Brumée",
@@ -193,7 +193,7 @@
             "type": "Côtes",
             "bait": "Sardine sélénite"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Poisson-archer",
             "primeLocation": "Noscea orientale",
@@ -201,5 +201,5 @@
             "type": "Lacs",
             "bait": "Ver luisant"
         }
-    ]
+    }
 }

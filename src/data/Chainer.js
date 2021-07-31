@@ -170,10 +170,10 @@ export class Chainer {
         // Raw ID link
         if(typeof link === "number") {
             // Attempt to find the task in the immediate group first
-            chainTask = (this.task._parent.tasks || []).find((t) => t.id === link);
+            chainTask = (this.task._parent.tasks || {})[`x${link}`];
 
             // Otherwise brute force search the task
-            if(!chainTask) chainTask = this.overall.getTaskByID(link);
+            if(!chainTask) chainTask = this.task._parent.getTaskByID(link);
         }
         // String path link
         else {
@@ -181,7 +181,7 @@ export class Chainer {
             const linkedID = parseInt(linkedPath.pop());
             const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
 
-            chainTask = (linkedGroup || []).tasks.find((t) => t.id === linkedID);
+            chainTask = (linkedGroup || []).tasks[`x${linkedID}`];
         }
 
         if(!chainTask) {

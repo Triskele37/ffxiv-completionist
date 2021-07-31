@@ -1,7 +1,7 @@
 {
     "groupName": "SB",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Castellum Velodyna",
             "zone": "Les Marges",
@@ -10,7 +10,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Gyr Kehim",
             "zone": "Les Marges",
@@ -19,7 +19,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Le Schisme",
             "zone": "Les Marges",
@@ -28,7 +28,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Castum Oriens",
             "zone": "Les Marges",
@@ -37,7 +37,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Ternebois",
             "zone": "Les Marges",
@@ -46,7 +46,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Djanan Qhat",
             "zone": "Les Marges",
@@ -55,7 +55,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Les Rochers d'aguet",
             "zone": "Les Marges",
@@ -64,7 +64,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Pleur caché",
             "zone": "Les Pics",
@@ -73,7 +73,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Âtrefroid",
             "zone": "Les Pics",
@@ -82,7 +82,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Le Secours de Nyunkrepf",
             "zone": "Les Pics",
@@ -91,7 +91,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Ala Gannha",
             "zone": "Les Pics",
@@ -100,7 +100,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Specula Imperatoris",
             "zone": "Les Pics",
@@ -109,7 +109,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Les bras du rachat",
             "zone": "Les Pics",
@@ -118,7 +118,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "La Ziggourat",
             "zone": "Les Pics",
@@ -127,7 +127,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "L'Emprise",
             "zone": "Les Pics",
@@ -136,7 +136,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Ala Mhigo",
             "zone": "Les Lacs",
@@ -145,7 +145,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Le Faubourg mhigois",
             "zone": "Les Lacs",
@@ -154,7 +154,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Gardesud",
             "zone": "Les Lacs",
@@ -163,7 +163,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "L'Audience divine",
             "zone": "Les Lacs",
@@ -172,7 +172,7 @@
             "time": "X",
             "emote": "Prier"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Les canneaux souterrains",
             "zone": "Les Lacs",
@@ -181,7 +181,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Porta Praetoria",
             "zone": "Les Lacs",
@@ -190,7 +190,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "La caserne du Sekiseigumi",
             "zone": "Kugane",
@@ -199,7 +199,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "L'auberge du Bokairo",
             "zone": "Kugane",
@@ -208,7 +208,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Kogane-dori",
             "zone": "Kugane",
@@ -217,7 +217,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Les ruelles de Kogane-dori",
             "zone": "Kugane",
@@ -226,7 +226,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x25": {
             "id": 25,
             "name": "Le Shiokaze",
             "zone": "Kugane",
@@ -235,7 +235,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x26": {
             "id": 26,
             "name": "Tamamizu",
             "zone": "Mer de Rubis",
@@ -244,7 +244,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x27": {
             "id": 27,
             "name": "Okinoiwa",
             "zone": "Mer de Rubis",
@@ -253,7 +253,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x28": {
             "id": 28,
             "name": "le Pilier des Cieux",
             "zone": "Mer de Rubis",
@@ -262,7 +262,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x29": {
             "id": 29,
             "name": "Sakazuki",
             "zone": "Mer de Rubis",
@@ -271,7 +271,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x30": {
             "id": 30,
             "name": "L'Île de Zekki",
             "zone": "Mer de Rubis",
@@ -280,7 +280,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x31": {
             "id": 31,
             "name": "Isari",
             "zone": "Mer de Rubis",
@@ -289,7 +289,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x32": {
             "id": 32,
             "name": "Le Compas de l'Hirondelle",
             "zone": "Yanxia",
@@ -298,7 +298,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x33": {
             "id": 33,
             "name": "Castrum Fluminis",
             "zone": "Yanxia",
@@ -307,7 +307,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x34": {
             "id": 34,
             "name": "Namai",
             "zone": "Yanxia",
@@ -316,7 +316,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x35": {
             "id": 35,
             "name": "Le lac aux Prismes",
             "zone": "Yanxia",
@@ -325,7 +325,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x36": {
             "id": 36,
             "name": "Le Château de Doma",
             "zone": "Yanxia",
@@ -334,7 +334,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x37": {
             "id": 37,
             "name": "Les portes lune de Dairyu",
             "zone": "Yanxia",
@@ -343,7 +343,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x38": {
             "id": 38,
             "name": "Le manoir des Yuzuka",
             "zone": "Yanxia",
@@ -352,7 +352,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x39": {
             "id": 39,
             "name": "Ceol Aen",
             "zone": "Steppe d'Azim",
@@ -361,7 +361,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x40": {
             "id": 40,
             "name": "Dotharl Khaa",
             "zone": "Steppe d'Azim",
@@ -370,7 +370,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x41": {
             "id": 41,
             "name": "Le Trône du Crépuscule",
             "zone": "Steppe d'Azim",
@@ -379,7 +379,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x42": {
             "id": 42,
             "name": "Le Ralliement",
             "zone": "Steppe d'Azim",
@@ -388,7 +388,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x43": {
             "id": 43,
             "name": "Chakha Zoh",
             "zone": "Steppe d'Azim",
@@ -397,7 +397,7 @@
             "time": "X",
             "emote": "Prier"
         },
-        {
+        "x44": {
             "id": 44,
             "name": "Le Trône de l'Aube",
             "zone": "Steppe d'Azim",
@@ -406,7 +406,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x45": {
             "id": 45,
             "name": "Statue du Destructeur",
             "zone": "L'Étendue de Rhalgr",
@@ -415,7 +415,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x46": {
             "id": 46,
             "name": "Tempête de sang",
             "zone": "L'Étendue de Rhalgr",
@@ -424,7 +424,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x47": {
             "id": 47,
             "name": "Bâillement",
             "zone": "Les Marges",
@@ -433,7 +433,7 @@
             "time": "18h-5h",
             "emote": "Scruter"
         },
-        {
+        "x48": {
             "id": 48,
             "name": "Ala Ghiri",
             "zone": "Les Pics",
@@ -442,7 +442,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x49": {
             "id": 49,
             "name": "Specula Imperatoris (2)",
             "zone": "Les Pics",
@@ -451,7 +451,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x50": {
             "id": 50,
             "name": "Statue engloutie du Destructeur",
             "zone": "Les Lacs",
@@ -460,7 +460,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x51": {
             "id": 51,
             "name": "Faubourg mhigois (2)",
             "zone": "Les Lacs",
@@ -469,7 +469,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x52": {
             "id": 52,
             "name": "Statue de Zuiko",
             "zone": "Kugane",
@@ -478,7 +478,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x53": {
             "id": 53,
             "name": "Quartier de Rakuza",
             "zone": "Kugane",
@@ -487,7 +487,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x54": {
             "id": 54,
             "name": "Place Tenkonto",
             "zone": "Kugane",
@@ -496,7 +496,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x55": {
             "id": 55,
             "name": "Kugane Ofunakura",
             "zone": "Kugane",
@@ -505,7 +505,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x56": {
             "id": 56,
             "name": "Palais aux Marées violettes",
             "zone": "Mer de Rubis",
@@ -514,7 +514,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x57": {
             "id": 57,
             "name": "Côte orientale d'Othard",
             "zone": "Mer de Rubis",
@@ -523,7 +523,7 @@
             "time": "5h-8h",
             "emote": "Scruter"
         },
-        {
+        "x58": {
             "id": 58,
             "name": "L'Entorse",
             "zone": "Mer de Rubis",
@@ -532,7 +532,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x59": {
             "id": 59,
             "name": "Contre-torpilleur hypersonique impérial L-XXIII",
             "zone": "Yanxia",
@@ -541,7 +541,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x60": {
             "id": 60,
             "name": "Mol Iloh",
             "zone": "Steppe d'Azim",
@@ -550,7 +550,7 @@
             "time": "X",
             "emote": "Scruter"
         },
-        {
+        "x61": {
             "id": 61,
             "name": "Moai",
             "zone": "Steppe d'Azim",
@@ -559,5 +559,5 @@
             "time": "X",
             "emote": "Scruter"
         }
-    ]
+    }
 }

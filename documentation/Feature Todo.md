@@ -37,7 +37,6 @@
 * Connect all task dependencies of next/previous
     Companion Skills
     Hall of the Novice
-    Quests
     Mounts
     Minions
     Orchestrion
@@ -56,9 +55,3 @@
     - beast tribe quest achievement siblings (quests & rep based quests)
     - quest achievement siblings
     - how to handle all resplendent achievement between each crafter
-    - clean up previous "quest" shorthand
-
-* cPrevAny & cPrevAll?
-
-* remove "chains" property
-* automate quest chains

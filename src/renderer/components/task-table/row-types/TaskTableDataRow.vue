@@ -1,8 +1,8 @@
 <template>
     <tbody>
         <tr
-            v-for="task, index in tasks"
-            :key="`${task.name}-${index}`"
+            v-for="(task, id) in tasks"
+            :key="`${task.name}-${id}`"
             :class="{
                 selected: !!task.selected
             }"
@@ -39,7 +39,7 @@
         name: 'task-table-data-row',
         props: {
             columnConfig: Array,
-            tasks: Array,
+            tasks: Object,
         },
         components: {
             'completion-number-cell': NumericCompleteCell,

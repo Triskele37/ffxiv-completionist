@@ -1,7 +1,7 @@
 {
     "groupName": "Page 14",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Grass Carp",
             "primeLocation": "The Dravanian Forelands",
@@ -9,7 +9,7 @@
             "type": "Rivers",
             "bait": "Stonefly Nymph"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Pipira Pira",
             "primeLocation": "The Dravanian Forelands",
@@ -17,7 +17,7 @@
             "type": "Rivers",
             "bait": "Goblin Jig"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Dravanian Squeaker",
             "primeLocation": "The Churning Mists",
@@ -25,7 +25,7 @@
             "type": "Lakes",
             "bait": "Stonefly Nymph"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Kissing Fish",
             "primeLocation": "The Churning Mists",
@@ -33,7 +33,7 @@
             "type": "Rivers",
             "bait": "Purse Web Spider"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Mitre Slug",
             "primeLocation": "The Sea of Clouds",
@@ -41,7 +41,7 @@
             "type": "Cloudfishing",
             "bait": "Red Balloon"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Lava Crab",
             "primeLocation": "The Dravanian Forelands",
@@ -49,7 +49,7 @@
             "type": "Hellfishing",
             "bait": "Magma Worm"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Storm Core",
             "primeLocation": "The Sea of Clouds",
@@ -57,7 +57,7 @@
             "type": "Cloudfishing",
             "bait": "Red Balloon"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Scholar Sculpin",
             "primeLocation": "The Dravanian Hinterlands",
@@ -65,7 +65,7 @@
             "type": "Lakes",
             "bait": "Stonefly Nymph"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Gigant Grouper",
             "primeLocation": "Coerthas Western Highlands",
@@ -73,7 +73,7 @@
             "type": "Lakes",
             "bait": "Goblin Jig"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Vanuhead",
             "primeLocation": "The Sea of Clouds",
@@ -81,7 +81,7 @@
             "type": "Rivers",
             "bait": "Bullfrog"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Marble Oscar",
             "primeLocation": "The Dravanian Forelands",
@@ -89,7 +89,7 @@
             "type": "Lakes",
             "bait": "Purse Web Spider"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Lungfish",
             "primeLocation": "Azys Lla",
@@ -97,7 +97,7 @@
             "type": "Lakes",
             "bait": "Aether Eye"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Tigerfish",
             "primeLocation": "The Dravanian Hinterlands",
@@ -105,7 +105,7 @@
             "type": "Lakes",
             "bait": "Bullfrog"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Sky Faerie",
             "primeLocation": "The Sea of Clouds",
@@ -113,7 +113,7 @@
             "type": "Cloudfishing",
             "bait": "Red Balloon"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Granite Crab",
             "primeLocation": "The Dravanian Forelands",
@@ -121,7 +121,7 @@
             "type": "Hellfishing",
             "bait": "Magma Worm"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Aithon's Colt",
             "primeLocation": "The Dravanian Forelands",
@@ -129,7 +129,7 @@
             "type": "Hellfishing",
             "bait": "Magma Worm"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Shipworm",
             "primeLocation": "The Dravanian Hinterlands",
@@ -137,7 +137,7 @@
             "type": "Rivers",
             "bait": "Goblin Jig"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Hedgemole Cricket",
             "primeLocation": "The Dravanian Hinterlands",
@@ -145,7 +145,7 @@
             "type": "Rivers",
             "bait": "Purse Web Spider"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Mogpom",
             "primeLocation": "The Churning Mists",
@@ -153,7 +153,7 @@
             "type": "Lakes",
             "bait": "Goblin Jig"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Magma Tree",
             "primeLocation": "The Dravanian Forelands",
@@ -161,7 +161,7 @@
             "type": "Hellfishing",
             "bait": "Magma Worm"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Cloud Rider",
             "primeLocation": "The Churning Mists",
@@ -169,7 +169,7 @@
             "type": "Cloudfishing",
             "bait": "Red Balloon"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Dravanian Bass",
             "primeLocation": "The Dravanian Forelands",
@@ -177,7 +177,7 @@
             "type": "Rivers",
             "bait": "Blueclaw Shrimp"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Coerthan Puffer",
             "primeLocation": "Coerthas Western Highlands",
@@ -185,7 +185,7 @@
             "type": "Lakes",
             "bait": "Stonefly Nymph"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Snowcaller",
             "primeLocation": "Coerthas Western Highlands",
@@ -193,7 +193,7 @@
             "type": "Lakes",
             "bait": "Ice Faerie"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Dragonhead",
             "primeLocation": "The Dravanian Forelands",
@@ -201,5 +201,5 @@
             "type": "Rivers",
             "bait": "Bladed Steel Jig"
         }
-    ]
+    }
 }

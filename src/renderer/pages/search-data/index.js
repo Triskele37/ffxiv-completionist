@@ -22,11 +22,13 @@ function searchGroupForTerm(group, searchTerm, strict) {
     }
 
     // Search current group
-    if(group.tasks && group.tasks.length) {
-        group.tasks.forEach((task) => {
-            if(task.name && namesFuzzyMatch(searchTerm, task.name, strict)) matches.push([...group.groupPath, task.name]);
-            if(task.Name && namesFuzzyMatch(searchTerm, task.Name, strict)) matches.push([...group.groupPath, task.Name]);
-        });
+    if(!!group.taskCount) {
+        for(const id in group.tasks) {
+            const taskName = group.tasks[id].name;
+            if(taskName && namesFuzzyMatch(searchTerm, taskName, strict)) {
+                matches.push([...group.groupPath, taskName]);
+            }
+        }
     }
 
     return matches;
@@ -50,7 +52,7 @@ function groupMatches(matches) {
         const lastMatch = groupedMatches[groupedMatches.length - 1];
 
         if(lastMatch && arrayEquals(lastMatch.path, match)) {
-            lastMatch.tasks.push(task);
+            lastMatch.tasks[task.id] = task;
         }
         else {
             groupedMatches.push({
@@ -68,7 +70,8 @@ function cleanGroupedMatches(matches) {
     matches.forEach((match) => {
         match.pathString = match.path.join(' > ');
 
-        match.matchesString = match.tasks.length > 1 ? `(${match.tasks.length}) ` : '';
+        const taskCount = Object.keys(match.tasks).length;
+        match.matchesString = taskCount > 1 ? `(${taskCount}) ` : '';
         match.matchesString += match.tasks.join(', ');
     });
 

@@ -1,529 +1,841 @@
 {
     "key": "beast-tribe-reputation",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "reputationToCap": "150",
-            "cNext": [1]
+            "cNext": [
+                1
+            ]
         },
-        {
+        "x1": {
             "id": 1,
             "reputationToCap": "360",
-            "cPrev": [0],
-            "cNext": [2]
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
         },
-        {
+        "x2": {
             "id": 2,
             "reputationToCap": "510",
-            "cPrev": [1],
-            "cNext": [3]
+            "cPrev": [
+                1
+            ],
+            "cNext": [
+                3
+            ]
         },
-        {
+        "x3": {
             "id": 3,
             "reputationToCap": "-",
-            "cPrev": [2],
-            "cNext": [4]
+            "cPrev": [
+                2
+            ],
+            "cNext": [
+                4
+            ]
         },
-        {
+        "x4": {
             "id": 4,
             "reputationToCap": "-",
-            "cPrev": [3]
+            "cPrev": [
+                3
+            ]
         },
-        {
+        "x5": {
             "id": 5,
             "reputationToCap": "150",
-            "cNext": [6]
+            "cNext": [
+                6
+            ]
         },
-        {
+        "x6": {
             "id": 6,
             "reputationToCap": "360",
-            "cPrev": [5],
-            "cNext": [7]
+            "cPrev": [
+                5
+            ],
+            "cNext": [
+                7
+            ]
         },
-        {
+        "x7": {
             "id": 7,
             "reputationToCap": "510",
-            "cPrev": [6],
-            "cNext": [8]
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
         },
-        {
+        "x8": {
             "id": 8,
             "reputationToCap": "-",
-            "cPrev": [7],
-            "cNext": [9]
+            "cPrev": [
+                7
+            ],
+            "cNext": [
+                9
+            ]
         },
-        {
+        "x9": {
             "id": 9,
             "reputationToCap": "-",
-            "cPrev": [8]
+            "cPrev": [
+                8
+            ]
         },
-        {
+        "x10": {
             "id": 10,
             "reputationToCap": "150",
-            "cNext": [11]
+            "cNext": [
+                11
+            ]
         },
-        {
+        "x11": {
             "id": 11,
             "reputationToCap": "360",
-            "cPrev": [10],
-            "cNext": [12]
+            "cPrev": [
+                10
+            ],
+            "cNext": [
+                12
+            ]
         },
-        {
+        "x12": {
             "id": 12,
             "reputationToCap": "510",
-            "cPrev": [11],
-            "cNext": [13]
+            "cPrev": [
+                11
+            ],
+            "cNext": [
+                13
+            ]
         },
-        {
+        "x13": {
             "id": 13,
             "reputationToCap": "-",
-            "cPrev": [12],
-            "cNext": [14]
+            "cPrev": [
+                12
+            ],
+            "cNext": [
+                14
+            ]
         },
-        {
+        "x14": {
             "id": 14,
             "reputationToCap": "-",
-            "cPrev": [13]
+            "cPrev": [
+                13
+            ]
         },
-        {
+        "x15": {
             "id": 15,
             "reputationToCap": "150",
-            "cNext": [16]
+            "cNext": [
+                16
+            ]
         },
-        {
+        "x16": {
             "id": 16,
             "reputationToCap": "360",
-            "cPrev": [15],
-            "cNext": [17]
+            "cPrev": [
+                15
+            ],
+            "cNext": [
+                17
+            ]
         },
-        {
+        "x17": {
             "id": 17,
             "reputationToCap": "510",
-            "cPrev": [16],
-            "cNext": [18]
+            "cPrev": [
+                16
+            ],
+            "cNext": [
+                18
+            ]
         },
-        {
+        "x18": {
             "id": 18,
             "reputationToCap": "-",
-            "cPrev": [17],
-            "cNext": [19]
+            "cPrev": [
+                17
+            ],
+            "cNext": [
+                19
+            ]
         },
-        {
+        "x19": {
             "id": 19,
             "reputationToCap": "-",
-            "cPrev": [18]
+            "cPrev": [
+                18
+            ]
         },
-        {
+        "x20": {
             "id": 20,
             "reputationToCap": "150",
-            "cNext": [21]
+            "cNext": [
+                21
+            ]
         },
-        {
+        "x21": {
             "id": 21,
             "reputationToCap": "360",
-            "cPrev": [20],
-            "cNext": [22]
+            "cPrev": [
+                20
+            ],
+            "cNext": [
+                22
+            ]
         },
-        {
+        "x22": {
             "id": 22,
             "reputationToCap": "510",
-            "cPrev": [21],
-            "cNext": [23]
+            "cPrev": [
+                21
+            ],
+            "cNext": [
+                23
+            ]
         },
-        {
+        "x23": {
             "id": 23,
             "reputationToCap": "720",
-            "cPrev": [22],
-            "cNext": [24]
+            "cPrev": [
+                22
+            ],
+            "cNext": [
+                24
+            ]
         },
-        {
+        "x24": {
             "id": 24,
             "reputationToCap": "990",
-            "cPrev": [23],
-            "cNext": [25]
+            "cPrev": [
+                23
+            ],
+            "cNext": [
+                25
+            ]
         },
-        {
+        "x25": {
             "id": 25,
             "reputationToCap": "1320",
-            "cPrev": [24],
-            "cNext": [26]
+            "cPrev": [
+                24
+            ],
+            "cNext": [
+                26
+            ]
         },
-        {
+        "x26": {
             "id": 26,
             "reputationToCap": "-",
-            "cPrev": [25],
-            "cNext": [27]
+            "cPrev": [
+                25
+            ],
+            "cNext": [
+                27
+            ]
         },
-        {
+        "x27": {
             "id": 27,
             "reputationToCap": "-",
-            "cPrev": [26]
+            "cPrev": [
+                26
+            ]
         },
-        {
+        "x28": {
             "id": 28,
             "reputationToCap": "150",
-            "cNext": [29]
+            "cNext": [
+                29
+            ]
         },
-        {
+        "x29": {
             "id": 29,
             "reputationToCap": "360",
-            "cPrev": [28],
-            "cNext": [30]
+            "cPrev": [
+                28
+            ],
+            "cNext": [
+                30
+            ]
         },
-        {
+        "x30": {
             "id": 30,
             "reputationToCap": "510",
-            "cPrev": [29],
-            "cNext": [31]
+            "cPrev": [
+                29
+            ],
+            "cNext": [
+                31
+            ]
         },
-        {
+        "x31": {
             "id": 31,
             "reputationToCap": "720",
-            "cPrev": [30],
-            "cNext": [32]
+            "cPrev": [
+                30
+            ],
+            "cNext": [
+                32
+            ]
         },
-        {
+        "x32": {
             "id": 32,
             "reputationToCap": "990",
-            "cPrev": [31],
-            "cNext": [33]
+            "cPrev": [
+                31
+            ],
+            "cNext": [
+                33
+            ]
         },
-        {
+        "x33": {
             "id": 33,
             "reputationToCap": "1320",
-            "cPrev": [32],
-            "cNext": [34]
+            "cPrev": [
+                32
+            ],
+            "cNext": [
+                34
+            ]
         },
-        {
+        "x34": {
             "id": 34,
             "reputationToCap": "1730",
-            "cPrev": [33],
-            "cNext": [35]
+            "cPrev": [
+                33
+            ],
+            "cNext": [
+                35
+            ]
         },
-        {
+        "x35": {
             "id": 35,
             "reputationToCap": "-",
-            "cPrev": [34],
-            "cNext": [36]
+            "cPrev": [
+                34
+            ],
+            "cNext": [
+                36
+            ]
         },
-        {
+        "x36": {
             "id": 36,
             "reputationToCap": "-",
-            "cPrev": [35]
+            "cPrev": [
+                35
+            ]
         },
-        {
+        "x37": {
             "id": 37,
             "reputationToCap": "510",
-            "cNext": [38]
+            "cNext": [
+                38
+            ]
         },
-        {
+        "x38": {
             "id": 38,
             "reputationToCap": "720",
-            "cPrev": [37],
-            "cNext": [39]
+            "cPrev": [
+                37
+            ],
+            "cNext": [
+                39
+            ]
         },
-        {
+        "x39": {
             "id": 39,
             "reputationToCap": "990",
-            "cPrev": [38],
-            "cNext": [40]
+            "cPrev": [
+                38
+            ],
+            "cNext": [
+                40
+            ]
         },
-        {
+        "x40": {
             "id": 40,
             "reputationToCap": "1320",
-            "cPrev": [39],
-            "cNext": [41]
+            "cPrev": [
+                39
+            ],
+            "cNext": [
+                41
+            ]
         },
-        {
+        "x41": {
             "id": 41,
             "reputationToCap": "1730",
-            "cPrev": [40],
-            "cNext": [42]
+            "cPrev": [
+                40
+            ],
+            "cNext": [
+                42
+            ]
         },
-        {
+        "x42": {
             "id": 42,
             "reputationToCap": "-",
-            "cPrev": [41],
-            "cNext": [43]
+            "cPrev": [
+                41
+            ],
+            "cNext": [
+                43
+            ]
         },
-        {
+        "x43": {
             "id": 43,
             "reputationToCap": "-",
-            "cPrev": [42]
+            "cPrev": [
+                42
+            ]
         },
-        {
+        "x44": {
             "id": 44,
             "reputationToCap": "150",
-            "cNext": [45]
+            "cNext": [
+                45
+            ]
         },
-        {
+        "x45": {
             "id": 45,
             "reputationToCap": "360",
-            "cPrev": [44],
-            "cNext": [46]
+            "cPrev": [
+                44
+            ],
+            "cNext": [
+                46
+            ]
         },
-        {
+        "x46": {
             "id": 46,
             "reputationToCap": "510",
-            "cPrev": [45],
-            "cNext": [47]
+            "cPrev": [
+                45
+            ],
+            "cNext": [
+                47
+            ]
         },
-        {
+        "x47": {
             "id": 47,
             "reputationToCap": "720",
-            "cPrev": [46],
-            "cNext": [48]
+            "cPrev": [
+                46
+            ],
+            "cNext": [
+                48
+            ]
         },
-        {
+        "x48": {
             "id": 48,
             "reputationToCap": "990",
-            "cPrev": [47],
-            "cNext": [49]
+            "cPrev": [
+                47
+            ],
+            "cNext": [
+                49
+            ]
         },
-        {
+        "x49": {
             "id": 49,
             "reputationToCap": "1320",
-            "cPrev": [48],
-            "cNext": [50]
+            "cPrev": [
+                48
+            ],
+            "cNext": [
+                50
+            ]
         },
-        {
+        "x50": {
             "id": 50,
             "reputationToCap": "1730",
-            "cPrev": [49],
-            "cNext": [51]
+            "cPrev": [
+                49
+            ],
+            "cNext": [
+                51
+            ]
         },
-        {
+        "x51": {
             "id": 51,
             "reputationToCap": "-",
-            "cPrev": [50],
-            "cNext": [52]
+            "cPrev": [
+                50
+            ],
+            "cNext": [
+                52
+            ]
         },
-        {
+        "x52": {
             "id": 52,
             "reputationToCap": "-",
-            "cPrev": [51]
+            "cPrev": [
+                51
+            ]
         },
-        {
+        "x53": {
             "id": 53,
             "reputationToCap": "510",
-            "cNext": [54]
+            "cNext": [
+                54
+            ]
         },
-        {
+        "x54": {
             "id": 54,
             "reputationToCap": "720",
-            "cPrev": [53],
-            "cNext": [55]
+            "cPrev": [
+                53
+            ],
+            "cNext": [
+                55
+            ]
         },
-        {
+        "x55": {
             "id": 55,
             "reputationToCap": "990",
-            "cPrev": [54],
-            "cNext": [56]
+            "cPrev": [
+                54
+            ],
+            "cNext": [
+                56
+            ]
         },
-        {
+        "x56": {
             "id": 56,
             "reputationToCap": "1320",
-            "cPrev": [55],
-            "cNext": [57]
+            "cPrev": [
+                55
+            ],
+            "cNext": [
+                57
+            ]
         },
-        {
+        "x57": {
             "id": 57,
             "reputationToCap": "1730",
-            "cPrev": [56],
-            "cNext": [58]
+            "cPrev": [
+                56
+            ],
+            "cNext": [
+                58
+            ]
         },
-        {
+        "x58": {
             "id": 58,
             "reputationToCap": "-",
-            "cPrev": [57],
-            "cNext": [59]
+            "cPrev": [
+                57
+            ],
+            "cNext": [
+                59
+            ]
         },
-        {
+        "x59": {
             "id": 59,
             "reputationToCap": "-",
-            "cPrev": [58]
+            "cPrev": [
+                58
+            ]
         },
-        {
+        "x60": {
             "id": 60,
             "reputationToCap": "510",
-            "cNext": [61]
+            "cNext": [
+                61
+            ]
         },
-        {
+        "x61": {
             "id": 61,
             "reputationToCap": "720",
-            "cPrev": [60],
-            "cNext": [62]
+            "cPrev": [
+                60
+            ],
+            "cNext": [
+                62
+            ]
         },
-        {
+        "x62": {
             "id": 62,
             "reputationToCap": "990",
-            "cPrev": [61],
-            "cNext": [63]
+            "cPrev": [
+                61
+            ],
+            "cNext": [
+                63
+            ]
         },
-        {
+        "x63": {
             "id": 63,
             "reputationToCap": "1320",
-            "cPrev": [62],
-            "cNext": [64]
+            "cPrev": [
+                62
+            ],
+            "cNext": [
+                64
+            ]
         },
-        {
+        "x64": {
             "id": 64,
             "reputationToCap": "1730",
-            "cPrev": [63],
-            "cNext": [65]
+            "cPrev": [
+                63
+            ],
+            "cNext": [
+                65
+            ]
         },
-        {
+        "x65": {
             "id": 65,
             "reputationToCap": "-",
-            "cPrev": [64],
-            "cNext": [66]
+            "cPrev": [
+                64
+            ],
+            "cNext": [
+                66
+            ]
         },
-        {
+        "x66": {
             "id": 66,
             "reputationToCap": "-",
-            "cPrev": [65]
+            "cPrev": [
+                65
+            ]
         },
-        {
+        "x67": {
             "id": 67,
             "reputationToCap": "510",
-            "cNext": [68]
+            "cNext": [
+                68
+            ]
         },
-        {
+        "x68": {
             "id": 68,
             "reputationToCap": "720",
-            "cPrev": [67],
-            "cNext": [69]
+            "cPrev": [
+                67
+            ],
+            "cNext": [
+                69
+            ]
         },
-        {
+        "x69": {
             "id": 69,
             "reputationToCap": "990",
-            "cPrev": [68],
-            "cNext": [70]
+            "cPrev": [
+                68
+            ],
+            "cNext": [
+                70
+            ]
         },
-        {
+        "x70": {
             "id": 70,
             "reputationToCap": "1320",
-            "cPrev": [69],
-            "cNext": [71]
+            "cPrev": [
+                69
+            ],
+            "cNext": [
+                71
+            ]
         },
-        {
+        "x71": {
             "id": 71,
             "reputationToCap": "1730",
-            "cPrev": [70],
-            "cNext": [72]
+            "cPrev": [
+                70
+            ],
+            "cNext": [
+                72
+            ]
         },
-        {
+        "x72": {
             "id": 72,
             "reputationToCap": "-",
-            "cPrev": [71],
-            "cNext": [73]
+            "cPrev": [
+                71
+            ],
+            "cNext": [
+                73
+            ]
         },
-        {
+        "x73": {
             "id": 73,
             "reputationToCap": "-",
-            "cPrev": [72]
+            "cPrev": [
+                72
+            ]
         },
-        {
+        "x74": {
             "id": 74,
             "reputationToCap": "510",
-            "cNext": [75]
+            "cNext": [
+                75
+            ]
         },
-        {
+        "x75": {
             "id": 75,
             "reputationToCap": "720",
-            "cPrev": [74],
-            "cNext": [76]
+            "cPrev": [
+                74
+            ],
+            "cNext": [
+                76
+            ]
         },
-        {
+        "x76": {
             "id": 76,
             "reputationToCap": "990",
-            "cPrev": [75],
-            "cNext": [77]
+            "cPrev": [
+                75
+            ],
+            "cNext": [
+                77
+            ]
         },
-        {
+        "x77": {
             "id": 77,
             "reputationToCap": "1320",
-            "cPrev": [76],
-            "cNext": [78]
+            "cPrev": [
+                76
+            ],
+            "cNext": [
+                78
+            ]
         },
-        {
+        "x78": {
             "id": 78,
             "reputationToCap": "1730",
-            "cPrev": [77],
-            "cNext": [79]
+            "cPrev": [
+                77
+            ],
+            "cNext": [
+                79
+            ]
         },
-        {
+        "x79": {
             "id": 79,
             "reputationToCap": "-",
-            "cPrev": [78]
+            "cPrev": [
+                78
+            ]
         },
-        {
+        "x80": {
             "id": 80,
             "reputationToCap": "510",
-            "cNext": [81]
+            "cNext": [
+                81
+            ]
         },
-        {
+        "x81": {
             "id": 81,
             "reputationToCap": "720",
-            "cPrev": [80],
-            "cNext": [82]
+            "cPrev": [
+                80
+            ],
+            "cNext": [
+                82
+            ]
         },
-        {
+        "x82": {
             "id": 82,
             "reputationToCap": "990",
-            "cPrev": [81],
-            "cNext": [83]
+            "cPrev": [
+                81
+            ],
+            "cNext": [
+                83
+            ]
         },
-        {
+        "x83": {
             "id": 83,
             "reputationToCap": "1320",
-            "cPrev": [82],
-            "cNext": [84]
+            "cPrev": [
+                82
+            ],
+            "cNext": [
+                84
+            ]
         },
-        {
+        "x84": {
             "id": 84,
             "reputationToCap": "1730",
-            "cPrev": [83],
-            "cNext": [85]
+            "cPrev": [
+                83
+            ],
+            "cNext": [
+                85
+            ]
         },
-        {
+        "x85": {
             "id": 85,
             "reputationToCap": "-",
-            "cPrev": [84]
+            "cPrev": [
+                84
+            ]
         },
-        {
+        "x86": {
             "id": 86,
             "reputationToCap": "510",
-            "cNext": [87]
+            "cNext": [
+                87
+            ]
         },
-        {
+        "x87": {
             "id": 87,
             "reputationToCap": "720",
-            "cPrev": [86],
-            "cNext": [88]
+            "cPrev": [
+                86
+            ],
+            "cNext": [
+                88
+            ]
         },
-        {
+        "x88": {
             "id": 88,
             "reputationToCap": "990",
-            "cPrev": [87],
-            "cNext": [89]
+            "cPrev": [
+                87
+            ],
+            "cNext": [
+                89
+            ]
         },
-        {
+        "x89": {
             "id": 89,
             "reputationToCap": "1320",
-            "cPrev": [88],
-            "cNext": [90]
+            "cPrev": [
+                88
+            ],
+            "cNext": [
+                90
+            ]
         },
-        {
+        "x90": {
             "id": 90,
             "reputationToCap": "1730",
-            "cPrev": [89],
-            "cNext": [91]
+            "cPrev": [
+                89
+            ],
+            "cNext": [
+                91
+            ]
         },
-        {
+        "x91": {
             "id": 91,
             "reputationToCap": "-",
-            "cPrev": [90]
+            "cPrev": [
+                90
+            ]
         }
-    ]
+    }
 }

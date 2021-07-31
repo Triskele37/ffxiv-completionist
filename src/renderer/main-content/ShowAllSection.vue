@@ -27,13 +27,21 @@
     };
 
     function diveForTasks(group) {
-        let tasks = [];
+        let tasks = {};
 
-        if(group.tasks) tasks = tasks.concat(group.tasks);
+        if(group.tasks) {
+            tasks = {
+                ...tasks,
+                ...group.tasks
+            };
+        }
 
         if(group.subGroups) {
             group.subGroups.forEach((subGroup) => {
-                tasks = tasks.concat(diveForTasks(subGroup));
+                tasks = {
+                    ...tasks,
+                    ...diveForTasks(subGroup)
+                }
             });
         }
 

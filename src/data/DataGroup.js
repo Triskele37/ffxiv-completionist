@@ -14,7 +14,7 @@ export class DataGroup {
     columnConfig;
     _defaultCompletion = 'N';
     _isCraftingLogGroup = false;
-    tasks;
+    tasks = {};
 
     _isNumericCompletion = false; // Used for numeric completions
     numericDecimal = 0;
@@ -73,16 +73,16 @@ export class DataGroup {
 
     //------------------------------------------------------------------ Post-Construction Inits
     initializeTasks(tasks) {
-        this.tasks = tasks.map((task) => {
-            const taskObj = new Task(task, this);
+        for(const id in tasks) {
+            const taskObj = new Task(tasks[id], this);
 
             // Allow groups to have default flags for all child tasks
             if(!taskObj.defaultCompletion) taskObj.setCompletionFlag(this.defaultCompletion);
             // Prioritize task level defaults
             else taskObj.setCompletionFlag(taskObj.defaultCompletion);
 
-            return taskObj;
-        });
+            this.tasks[id] = taskObj;
+        }
 
         return this;
     }
@@ -90,11 +90,11 @@ export class DataGroup {
     //------------------------------------------------------------------ Task Totals
     // Total count of all tasks of this group & children
     get total() {
-        let totalTasks = this.tasks ? this.tasks.length : 0;
+        let totalTasks = this.tasks ? this.taskCount : 0;
 
         if(this._isNumericCompletion) {
             totalTasks = 0;
-            this.tasks.forEach((task) => totalTasks += task.maxValue - task.minValue);
+            Object.values(this.tasks).forEach((task) => totalTasks += task.maxValue - task.minValue);
         }
 
         if(this.subGroups) {
@@ -119,6 +119,7 @@ export class DataGroup {
     }
 
     updateCompleted(mod) {
+        if(!mod && mod !== 0) debugger;
         this.totalCompleted += mod;
         if(this._parent) this._parent.updateCompleted(mod);
     }
@@ -132,7 +133,7 @@ export class DataGroup {
         return (this._parent ? this._parent.fullStorageKey + '.' : '') + this.storageKey;
     }
 
-    //------------------------------------------------------------------ Groups
+    //#region------------------------------------------------------------------ Groups
     get groupPath() {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name]
     }
@@ -155,11 +156,8 @@ export class DataGroup {
     }
 
     getChildGroupWithTaskID(taskID) {
-        if(this.tasks) {
-            for(let i = 0; i < this.tasks.length; i++) {
-                if(this.tasks[i].id === taskID) return this;
-            }
-        }
+        if(this.tasks[taskID]) return this.tasks[taskID];
+        if(this.tasks[`x${taskID}`]) return this.tasks[`x${taskID}`];
 
         if(this.subGroups) {
             for(let i = 0; i < this.subGroups.length; i++) {
@@ -179,13 +177,28 @@ export class DataGroup {
         }
         return null;
     }
+    //#endregion
 
     //------------------------------------------------------------------ Tasks
+    get taskCount() {
+        return this.tasks ? Object.keys(this.tasks).length : null;
+    }
+
+    getTaskAtIndex(index) {
+        const id = Object.keys(this.tasks)[index];
+        return this.tasks[id];
+    }
+
+    getIndexOfTask(taskId) {
+        return Object.keys(this.tasks).findIndex(
+            (t) => t.id === taskId || t.id === `x${taskId}`
+        );
+    }
+
     // Looks for a task ID going upward
     getTaskByID(taskID) {
-        for(let i = 0; i < (this.tasks || []).length; i++) {
-            if(this.tasks[i].id === taskID) return this.tasks[i];
-        }
+        if(this.tasks[taskID]) return this.tasks[taskID];
+        if(this.tasks[`x${taskID}`]) return this.tasks[`x${taskID}`];
 
         for(let i = 0; i < (this.subGroups || []).length; i++) {
             const task = this.subGroups[i].getDeepTaskByID(taskID);
@@ -197,9 +210,8 @@ export class DataGroup {
 
     // Looks for a task ID going downward
     getDeepTaskByID(taskID) {
-        for(let i = 0; i < (this.tasks || []).length; i++) {
-            if(this.tasks[i].id === taskID) return this.tasks[i];
-        }
+        if(this.tasks[taskID]) return this.tasks[taskID];
+        if(this.tasks[`x${taskID}`]) return this.tasks[`x${taskID}`];
 
         for(let i = 0; i < (this.subGroups || []).length; i++) {
             const task = this.subGroups[i].getDeepTaskByID(taskID);
@@ -221,11 +233,9 @@ export class DataGroup {
             this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = value);
         }
 
-        if(this.tasks) {
-            this.tasks.forEach((task) => {
-                if(!task.defaultCompletion) task.setCompletionFlag(value);
-            });
-        }
+        for(const id in this.tasks) {
+            if(this.tasks[id].defaultCompletion) this.tasks[id].setCompletionFlag(value);
+        };
     }
 
     //------------------------------------------------------------------ Numeric Completion
@@ -236,7 +246,9 @@ export class DataGroup {
     set isNumericCompletion(value) {
         this._isNumericCompletion = value;
 
-        if(this.tasks) this.tasks.forEach((task) => task.isNumericCompletion = value);
+        for(const id in this.tasks) {
+            this.tasks[id].isNumericCompletion = value;
+        }
     }
 
     //------------------------------------------------------------------ Craft Group

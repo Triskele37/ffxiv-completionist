@@ -1,33 +1,33 @@
 {
     "groupName": "Dravanian Folklore",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Vieux camphrier",
             "zone": "L'Écume des cieux de Dravania",
             "closestAetheryte": "Zénith",
             "nodeTimer": "Légendaire (08:00 / 20:00), Débloqué par Légendes géologiques de Dravania"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Sève cristallisée",
             "zone": "L'Écume des cieux de Dravania",
             "closestAetheryte": "Zénith",
             "nodeTimer": "Débloqué par Légendes géologiques de Dravania"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Champignon brun",
             "zone": "L'Écume des cieux de Dravania",
             "closestAetheryte": "Zénith",
             "nodeTimer": "Légendaire (10:00 / 22:00), Débloqué par Légendes géologiques de Dravania"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Rondin de teck",
             "zone": "Arrière-pays dravanien",
             "closestAetheryte": "Idyllée -> Arrière-pays dravanien",
             "nodeTimer": "Légendaire (00:00 / 12:00), Débloqué par Légendes géologiques de Dravania"
         }
-    ]
+    }
 }

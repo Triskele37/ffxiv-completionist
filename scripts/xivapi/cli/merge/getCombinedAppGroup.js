@@ -15,20 +15,19 @@ module.exports = function getCombinedAppGroup(appPath, lang) {
     if(!langGroup && comnGroup) return comnGroup; // lang doesn't exist
 
     // Both exist
-    langGroup.tasks.forEach((langTask) => {
-        const comnIndex = comnGroup.tasks.findIndex((comnTask) => comnTask.id === langTask.id);
-
+    Object.keys(langGroup.tasks).forEach((id) => {
         // Find the matching task and remove it from the common group
-        if(comnIndex !== -1) {
-            const comnTask = comnGroup.tasks.splice(comnIndex, 1)[0];
+        const comnTask = comnGroup.tasks[id];
+        if(comnTask) {
+            delete comnGroup.tasks[id];
 
             // Add common keys to lang task
             Object.keys(comnTask).forEach((commonKey) => {
                 if(commonKey === "id") return;
 
                 // Only add new keys
-                if(!langTask[commonKey]) {
-                    langTask[commonKey] = comnTask[commonKey];
+                if(!langGroup.tasks[id][commonKey]) {
+                    langGroup.tasks[id][commonKey] = comnTask[commonKey];
                 }
                 else {
                     console.error(`Duplicate key in lang & common: ${commonKey}`);
@@ -38,7 +37,10 @@ module.exports = function getCombinedAppGroup(appPath, lang) {
     });
 
     // Add tasks that may only exist in common
-    langGroup.tasks = [...langGroup.tasks, ...comnGroup.tasks];
+    //TODO: should this ever happen?
+    Object.keys(comnGroup.tasks).forEach((id) => {
+        langGroup.tasks[id] = comnGroup.tasks[id];
+    });
 
     // At this point langGroup is combined with the commonGroup
     return langGroup;

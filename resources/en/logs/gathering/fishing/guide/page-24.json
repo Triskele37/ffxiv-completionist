@@ -1,7 +1,7 @@
 {
     "groupName": "Page 24",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Yellow Prismfish",
             "primeLocation": "Yanxia",
@@ -9,7 +9,7 @@
             "type": "Lakes",
             "bait": "Stonefly Larva"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Blue Prismfish",
             "primeLocation": "Yanxia",
@@ -17,7 +17,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Bull's Bite",
             "primeLocation": "The Peaks",
@@ -25,7 +25,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Peeping Pisces",
             "primeLocation": "The Peaks",
@@ -33,7 +33,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Gigant Bass",
             "primeLocation": "The Peaks",
@@ -41,7 +41,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Daio Squid",
             "primeLocation": "The Ruby Sea",
@@ -49,7 +49,7 @@
             "type": "Deep Sea",
             "bait": "Bream Lure"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Koromo Octopus",
             "primeLocation": "The Ruby Sea",
@@ -57,7 +57,7 @@
             "type": "Deep Sea",
             "bait": "Bream Lure"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Glass Tuna",
             "primeLocation": "Kugane",
@@ -65,7 +65,7 @@
             "type": "Deep Sea",
             "bait": "Ruby Shrimp"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Raitonfish",
             "primeLocation": "Yanxia",
@@ -73,7 +73,7 @@
             "type": "Rivers",
             "bait": "Midge Larva"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "Eastern Pike",
             "primeLocation": "The Peaks",
@@ -81,7 +81,7 @@
             "type": "Rivers",
             "bait": "Suspending Minnow"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Rock Saltfish",
             "primeLocation": "The Lochs",
@@ -89,7 +89,7 @@
             "type": "Salt Lakes",
             "bait": "Silkworm"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Tawny Wench Shark",
             "primeLocation": "The Ruby Sea",
@@ -97,7 +97,7 @@
             "type": "Deep Sea",
             "bait": "Blue Bobbit"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Zekki Grouper",
             "primeLocation": "The Ruby Sea",
@@ -105,7 +105,7 @@
             "type": "Deep Sea",
             "bait": "Ruby Shrimp"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Saltshield Snapper",
             "primeLocation": "The Lochs",
@@ -113,7 +113,7 @@
             "type": "Salt Lakes",
             "bait": "Silkworm"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Meditator",
             "primeLocation": "The Peaks",
@@ -121,7 +121,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Stonytongue",
             "primeLocation": "The Peaks",
@@ -129,7 +129,7 @@
             "type": "Lakes",
             "bait": "Stonefly Larva"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Scimitarfish",
             "primeLocation": "The Peaks",
@@ -137,7 +137,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Blockhead",
             "primeLocation": "The Ruby Sea",
@@ -145,7 +145,7 @@
             "type": "Deep Sea",
             "bait": "Ruby Shrimp"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Kotsu Zetsu",
             "primeLocation": "Yanxia",
@@ -153,7 +153,7 @@
             "type": "Rivers",
             "bait": "Suspending Minnow"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Pandamoth",
             "primeLocation": "Yanxia",
@@ -161,7 +161,7 @@
             "type": "Lakes",
             "bait": "Stonefly Larva"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Liopleurodon",
             "primeLocation": "The Ruby Sea",
@@ -169,7 +169,7 @@
             "type": "Deep Sea",
             "bait": "Ruby Shrimp"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Ala Mhigan Ribbon",
             "primeLocation": "The Peaks",
@@ -177,7 +177,7 @@
             "type": "Lakes",
             "bait": "Suspending Minnow"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Seraphim",
             "primeLocation": "Yanxia",
@@ -185,7 +185,7 @@
             "type": "Rivers",
             "bait": "Stonefly Larva"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Blackfin Snake Eel",
             "primeLocation": "The Ruby Sea",
@@ -193,7 +193,7 @@
             "type": "Deep Sea",
             "bait": "Blue Bobbit/Ruby Shrimp"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Sweatfish",
             "primeLocation": "The Azim Steppe",
@@ -201,5 +201,5 @@
             "type": "Lakes",
             "bait": "Stonefly Larva"
         }
-    ]
+    }
 }

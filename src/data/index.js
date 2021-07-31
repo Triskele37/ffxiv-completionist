@@ -19,14 +19,3 @@ data.subGroups = [
 ];
 
 export { data };
-
-// logSubs(data, 0);
-// function logSubs(group, degree) {
-//     if(group.subGroups) {
-//         const spaces = new Array(degree).fill('    ').join('');
-//         group.subGroups.forEach((sg) => {
-//             console.log(spaces + sg.name);
-//             logSubs(sg, degree + 1);
-//         });
-//     }
-// }

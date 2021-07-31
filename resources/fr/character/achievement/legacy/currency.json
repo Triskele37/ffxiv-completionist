@@ -1,42 +1,42 @@
 {
     "groupName": "Currency",
-    "tasks": [
-        {
+    "tasks": {
+        "x120": {
             "description": "Gagner un total de 1 000 gils en vainquant des ennemis.",
             "id": 120,
             "name": "Argent trop cher I",
             "Order": 0
         },
-        {
+        "x121": {
             "description": "Gagner un total de 10 000 gils en vainquant des ennemis.",
             "id": 121,
             "name": "Argent trop cher II",
             "Order": 0
         },
-        {
+        "x122": {
             "description": "Gagner un total de 100 000 gils en vainquant des ennemis.",
             "id": 122,
             "name": "Argent trop cher III",
             "Order": 0
         },
-        {
+        "x123": {
             "description": "Gagner un total de 1 000 000 gils en vainquant des ennemis.",
             "id": 123,
             "name": "Argent trop cher IV",
             "Order": 0
         },
-        {
+        "x124": {
             "description": "Gagner un total de 10 000 000 gils en vainquant des ennemis.",
             "id": 124,
             "name": "Argent trop cher V",
             "Order": 0
         },
-        {
+        "x125": {
             "reward": "Le Détrousseur / La Détrousseuse",
             "description": "Gagner un total de 100 000 000 gils en vainquant des ennemis.",
             "id": 125,
             "name": "Le bonheur est dans le blé",
             "Order": 0
         }
-    ]
+    }
 }

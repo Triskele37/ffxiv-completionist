@@ -1,7 +1,7 @@
 {
     "groupName": "Page 1",
-    "tasks": [
-        {
+    "tasks": {
+        "x0": {
             "id": 0,
             "name": "Malm Kelp",
             "primeLocation": "Limsa Lominsa",
@@ -9,7 +9,7 @@
             "type": "Coastlines",
             "bait": "Pill Bug"
         },
-        {
+        "x1": {
             "id": 1,
             "name": "Crayfish",
             "primeLocation": "Gridania",
@@ -17,7 +17,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x2": {
             "id": 2,
             "name": "Chub",
             "primeLocation": "Middle La Noscea",
@@ -25,7 +25,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x3": {
             "id": 3,
             "name": "Merlthor Goby",
             "primeLocation": "Limsa Lominsa",
@@ -33,7 +33,7 @@
             "type": "Coastlines",
             "bait": "Goby Ball"
         },
-        {
+        "x4": {
             "id": 4,
             "name": "Lominsan Anchovy",
             "primeLocation": "Limsa Lominsa",
@@ -41,7 +41,7 @@
             "type": "Coastlines",
             "bait": "Lugworm"
         },
-        {
+        "x5": {
             "id": 5,
             "name": "Striped Goby",
             "primeLocation": "Central Shroud",
@@ -49,7 +49,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x6": {
             "id": 6,
             "name": "Dwarf Catfish",
             "primeLocation": "Middle La Noscea",
@@ -57,7 +57,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x7": {
             "id": 7,
             "name": "Finger Shrimp",
             "primeLocation": "Limsa Lominsa",
@@ -65,7 +65,7 @@
             "type": "Deep Sea",
             "bait": "Lugworm"
         },
-        {
+        "x8": {
             "id": 8,
             "name": "Bone Crayfish",
             "primeLocation": "Western Thanalan",
@@ -73,7 +73,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x9": {
             "id": 9,
             "name": "White Coral",
             "primeLocation": "Middle La Noscea",
@@ -81,7 +81,7 @@
             "type": "Coastlines",
             "bait": "Goby Ball"
         },
-        {
+        "x10": {
             "id": 10,
             "name": "Princess Trout",
             "primeLocation": "Middle La Noscea",
@@ -89,7 +89,7 @@
             "type": "Rivers",
             "bait": "Moth Pupa"
         },
-        {
+        "x11": {
             "id": 11,
             "name": "Ocean Cloud",
             "primeLocation": "Limsa Lominsa",
@@ -97,7 +97,7 @@
             "type": "Coastlines",
             "bait": "Pill Bug"
         },
-        {
+        "x12": {
             "id": 12,
             "name": "Dusk Goby",
             "primeLocation": "Lower La Noscea",
@@ -105,7 +105,7 @@
             "type": "Rivers",
             "bait": "Crayfish Ball"
         },
-        {
+        "x13": {
             "id": 13,
             "name": "Sea Cucumber",
             "primeLocation": "Middle La Noscea",
@@ -113,7 +113,7 @@
             "type": "Coastlines",
             "bait": "Pill Bug"
         },
-        {
+        "x14": {
             "id": 14,
             "name": "Harbor Herring",
             "primeLocation": "Limsa Lominsa",
@@ -121,7 +121,7 @@
             "type": "Coastlines",
             "bait": "Pill Bug"
         },
-        {
+        "x15": {
             "id": 15,
             "name": "Pipira",
             "primeLocation": "Gridania",
@@ -129,7 +129,7 @@
             "type": "Rivers",
             "bait": "Midge Basket"
         },
-        {
+        "x16": {
             "id": 16,
             "name": "Crimson Crayfish",
             "primeLocation": "Lower La Noscea",
@@ -137,7 +137,7 @@
             "type": "Rivers",
             "bait": "Bloodworm"
         },
-        {
+        "x17": {
             "id": 17,
             "name": "Vongola Clam",
             "primeLocation": "Lower La Noscea",
@@ -145,7 +145,7 @@
             "type": "Coastlines",
             "bait": "Pill Bug"
         },
-        {
+        "x18": {
             "id": 18,
             "name": "Gudgeon",
             "primeLocation": "Gridania",
@@ -153,7 +153,7 @@
             "type": "Rivers",
             "bait": "Crayfish Ball"
         },
-        {
+        "x19": {
             "id": 19,
             "name": "Coral Butterfly",
             "primeLocation": "Limsa Lominsa",
@@ -161,7 +161,7 @@
             "type": "Coastlines",
             "bait": "Goby Ball"
         },
-        {
+        "x20": {
             "id": 20,
             "name": "Brass Loach",
             "primeLocation": "Central Shroud",
@@ -169,7 +169,7 @@
             "type": "Lakes",
             "bait": "Crayfish Ball"
         },
-        {
+        "x21": {
             "id": 21,
             "name": "Moraby Flounder",
             "primeLocation": "Lower La Noscea",
@@ -177,7 +177,7 @@
             "type": "Coastlines",
             "bait": "Goby Ball"
         },
-        {
+        "x22": {
             "id": 22,
             "name": "Maiden Carp",
             "primeLocation": "Gridania",
@@ -185,7 +185,7 @@
             "type": "Rivers",
             "bait": "Crayfish Ball"
         },
-        {
+        "x23": {
             "id": 23,
             "name": "Abalathian Smelt",
             "primeLocation": "Coerthas Central Highlands",
@@ -193,7 +193,7 @@
             "type": "Rivers",
             "bait": "Honey Worm"
         },
-        {
+        "x24": {
             "id": 24,
             "name": "Blindfish",
             "primeLocation": "Lower La Noscea",
@@ -201,5 +201,5 @@
             "type": "Lakes",
             "bait": "Spinnerbait"
         }
-    ]
+    }
 }
