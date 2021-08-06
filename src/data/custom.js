@@ -5,7 +5,7 @@ export const Custom = function(parent) {
     const data = DataGroup.fromJSON(parent, "./custom");
     data.isCustomGroup = true;
 
-    const customTasks = getPlayerStore().get('custom') || [];
+    const customTasks = getPlayerStore().get('custom') || {};
     data.initializeTasks(customTasks);
 
     return data;

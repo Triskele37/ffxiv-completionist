@@ -1,5 +1,8 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
+- Settings
+    - Move Starting Class logic here
+    - Add other config.json settings
 - Chaining
     - achievement/battle/battle hunt logs
     - quest achievement siblings
@@ -8,15 +11,11 @@
 - Editing of Custom Task values (maybe order)
 - Trust Levels
 - Lucis & Resplendent relics
-- Toggle between dropdown & text filter for applicable columns
 
 **Change**
-- Convert existing custom tasks in saves to new format!!!
 
 **Fix**
-- achievement/exploration/duty contains diadem achievements
 - several console logs left in, id column left in
-- Tables in groups with sub groups overflows page
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**

@@ -19,34 +19,23 @@
         </th>
 
         <th v-for="column in columnConfig">
-            <div>
-                <span v-if="column.filterable" class="filter-column">
-                    <select
-                        class="xiv-select"
-                        v-if="!filters[column.key]"
-                        @change="addFilter($event, column)"
-                    >
-                        <option></option>
-                        <option v-for="uniqueValue in uniqueValues[column.key]">
-                            {{displayedFilterValue(uniqueValue)}}
-                        </option>
-                    </select>
-
-                    <div
-                        class="applied-filter"
-                        v-if="!!filters[column.key]"
-                        @click="removeFilter(column.key)"
-                    >
-                        {{displayedFilterValue(filters[column.key].value)}}
-                    </div>
-                </span>
-                <span v-else class="search-column">
-                    <input
-                        class="xiv-input"
-                        placeholder="..."
-                        @keyup="modifySearch($event, column)"
-                    />
-                </span>
+            <div class="column-search">
+                <input
+                    @keyup="modifySearch($event, column)"
+                    @search="modifySearch($event, column)"
+                    @keydown="onDatalistClick($event)"
+                    placeholder="..."
+                    class="xiv-combo"
+                    :list="column.key"
+                    type="search"
+                />
+                <datalist :id="column.key" v-if="column.filterable">
+                    <option>Blank</option>
+                    <option v-for="uniqueValue in uniqueValues[column.key]"
+                            @click="test($event)">
+                        {{displayedFilterValue(uniqueValue)}}
+                    </option>
+                </datalist>
             </div>
             <div>
                 {{column.header}}
@@ -96,33 +85,24 @@
                     default: return filterValue;
                 }
             },
-            addFilter: function($event, column) {
-                const value = $event.target.value === "Blank" ? "" : $event.target.value;
-
-                // New Filter
-                this.filters[column.key] = {
-                    key: column.key,
-                    filterType: column.filterType,
-                    value
-                };
-
-                this.filters = Object.assign({}, this.filters);
-                this.$emit('filter-change', this.filters);
-            },
-            removeFilter: function(key) {
-                this.filters[key] = null;
-
-                this.filters = Object.assign({}, this.filters);
-                this.$emit('filter-change', this.filters);
-            },
             modifySearch: function($event, column) {
                 const value = $event.target.value;
 
+                // No keycode means the x was clicked
+                if(!$event.which) {
+                    $event.target.blur();
+                    return;
+                }
+
+                // Don't run filter unnecessarily
+                if(this.filters[column.key] && this.filters[column.key].value === value) {
+                    return;
+                }
+
                 if(value) {
-                    // Modify or Add Search Filter
+                    // Add/Modify Search Filter
                     this.filters[column.key] = {
                         key: column.key,
-                        filterType: 'search',
                         value
                     };
                 }
@@ -131,8 +111,14 @@
                     this.filters[column.key] = null;
                 }
 
+
                 this.filters = Object.assign({}, this.filters);
                 this.$emit('filter-change', this.filters);
+            },
+            onDatalistClick($event) {
+                // Datalist clicks fire keydown on their parent input
+                // if which is undefined, it was from datalist
+                if(!$event.which) $event.target.blur();
             }
         }
     };
@@ -148,7 +134,11 @@
         }
     }
 
-    .filter-column {
+    .column-search {
+        .xiv-combo {
+            width: 95%;
+        }
+
         .applied-filter {
             cursor: pointer;
 
@@ -156,10 +146,6 @@
                 background-color: rgba(0, 0, 0, 0.1);
             }
         }
-    }
-
-    .search-column .xiv-input {
-        width: 95%;
     }
 }
 </style>

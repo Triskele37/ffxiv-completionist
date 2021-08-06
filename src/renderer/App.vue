@@ -18,6 +18,7 @@
 <script>
 import '../styles/global.scss';
 import '../styles/button.scss';
+import '../styles/combo.scss';
 import '../styles/dropdown.scss';
 import '../styles/input.scss';
 import '../styles/table.scss';

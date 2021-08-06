@@ -1,5 +1,5 @@
 <template>
-    <div v-if="!!columnConfig">
+    <div v-if="!!columnConfig" class="task-table-container">
         <div class="task-table-toolbar">
             <span v-if="hasTasks && !group.isNumericCompletion">
                 <quick-mark-dropdown :filtered-tasks="filteredTasks"/>
@@ -136,17 +136,17 @@
                                     default: removeFromFiltered = !filter.incomplete; break;
                                 }
                             }
+                            // Blank value search
+                            else if(filter.value === 'Blank') {
+                                removeFromFiltered = !!filtered[id][key];
+                            }
                             // Column value fuzzy search filter
-                            else if(filter.filterType === 'search') {
+                            else {
                                 let safeValue = filtered[id][key];
                                 if(safeValue === null || safeValue === undefined) safeValue = '';
 
                                 const columnValue = safeValue.toString().toLowerCase();
                                 removeFromFiltered = !columnValue.includes(filter.value.toLowerCase());
-                            }
-                            // Column value strict search filter
-                            else {
-                                removeFromFiltered = filtered[id][key] !== filter.value;
                             }
 
                             if(removeFromFiltered) {
@@ -171,6 +171,11 @@
 </script>
 
 <style lang="scss">
+.task-table-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .task-table-toolbar {
     & > span {
         display: inline-block;
@@ -182,9 +187,10 @@
 }
 
 .task-table-scroll-container {
-    overflow-y: auto;
     display: inline-block;
-    height: 83vh;
+    overflow-y: auto;
+
+    height: 100%;
     width: 100%;
 }
 </style>

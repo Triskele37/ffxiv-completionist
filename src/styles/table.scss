@@ -25,6 +25,8 @@
 
     //---------------------- Table Cell ----------------------
     th, td {
+        max-width: 25vw;
+
         &.centered {
             text-align: center;
         }
@@ -37,7 +39,6 @@
         border-left: none;
 
         background-color: $blue-2;
-        max-width: 25vw;
         padding: 0 5px;
         position: sticky;
         top: 0;
@@ -52,8 +53,7 @@
 
     //---------------------- Table Data ----------------------
     td {
-        max-width: 25vw;
-        padding: 5px 10px;
+        padding: 3px 6px;
         white-space: normal;
     }
 }

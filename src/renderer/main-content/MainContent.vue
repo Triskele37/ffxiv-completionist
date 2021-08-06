@@ -106,7 +106,10 @@
 @import '../../styles/colors';
 
 #main-content {
-    height: calc(100% - 160px);
+    display: flex;
+    flex-direction: column;
+
+    height: calc(100% - 140px);
     margin: 10px;
 
     .group-summary-section {
