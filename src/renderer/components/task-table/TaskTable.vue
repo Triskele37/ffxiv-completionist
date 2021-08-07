@@ -37,6 +37,7 @@
                 <task-table-data-row
                     :key="rerenderKey"
                     :column-config="columnConfig"
+                    :enable-drag="group.draggable"
                     :tasks="filteredTasks"
                 />
             </table>

@@ -7,6 +7,7 @@ export const Custom = function(parent) {
         notes: { editable: true }
     });
     data.isCustomGroup = true;
+    data.draggable = true;
 
     const customTasks = getPlayerStore().get('custom') || {};
     data.initializeTasks(customTasks);
