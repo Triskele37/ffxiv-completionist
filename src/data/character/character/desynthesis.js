@@ -6,7 +6,6 @@ export const Character_Character_Desynthesis = function(parent) {
     });
 
     group.isNumericCompletion = true;
-    group.defaultCompletion = "0";
     group.numericDecimal = 2;
 
     return group;

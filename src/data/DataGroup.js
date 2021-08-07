@@ -43,6 +43,9 @@ export class DataGroup {
             this.defaultCompletion = this._parent.defaultCompletion;
         }
 
+        // Apply group level properties
+        if(json.defaultCompletion) this.defaultCompletion = json.defaultCompletion;
+
         if(json.headers) {
             const columnConfig = [];
             Object.keys(json.headers).forEach((key) => {

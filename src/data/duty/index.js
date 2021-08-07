@@ -10,13 +10,17 @@ import { Duty_Exploratory_Missions } from "./exploratory-missions";
 export const Duty = function(parent) {
     const group = DataGroup.fromJSON(parent, "./duty/index");
 
+    const trust = DataGroup.fromJSON(group, `./duty/trust`);
+    trust.isNumericCompletion = true;
+
     group.subGroups = [
         Duty_Collection(group),
         Duty_Quests(group),
         Duty_Duty_Raid_Finder(group),
+        trust,
         Duty_Hall_of_the_Novice(group),
         Duty_FATEs(group),
-        Duty_Exploratory_Missions(group),
+        Duty_Exploratory_Missions(group)
     ];
 
     return group;
