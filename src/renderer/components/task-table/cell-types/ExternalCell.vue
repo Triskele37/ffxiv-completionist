@@ -29,7 +29,7 @@
     const { shell } = require('electron');
 
     export default {
-        name: 'external-data',
+        name: 'external-link-cell',
         props: {
             taskName: String
         },

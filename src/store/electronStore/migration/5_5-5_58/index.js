@@ -26,7 +26,7 @@ export const migrate_5_5_to_5_58 = () => {
         // Update custom meta data
         const customMeta = {};
         Object.keys(oldFlags)
-            .forEach((id) => customMeta[id] = { id, ...oldCustom.shift() });
+            .forEach((id) => customMeta[`x${id}`] = { id, ...oldCustom.shift() });
         getPlayerStore().set('custom', customMeta);
 
         // Update custom flag storage

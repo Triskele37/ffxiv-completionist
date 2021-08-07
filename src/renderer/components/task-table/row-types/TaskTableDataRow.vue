@@ -22,16 +22,22 @@
                     centered: !!column.centered
                 }"
             >
-                {{task[column.key]}}
+                <template v-if="column.editable && task.selected">
+                    <edit-cell :taskKey="column.key" :task="task"/>
+                </template>
+                <template v-else>
+                    {{task[column.key]}}
+                </template>
             </td>
 
-            <external-cell :taskName="task.name" />
+            <external-link-cell :taskName="task.name" />
         </tr>
     </tbody>
 </template>
 
 <script>
     import CompleteCell from '../cell-types/CompleteCell';
+    import EditCell from '../cell-types/EditCell';
     import NumericCompleteCell from '../cell-types/NumericCompleteCell';
     import ExternalCell from '../cell-types/ExternalCell';
 
@@ -42,9 +48,10 @@
             tasks: Object,
         },
         components: {
-            'completion-number-cell': NumericCompleteCell,
             'completion-flag-cell': CompleteCell,
-            'external-cell': ExternalCell,
+            'edit-cell': EditCell,
+            'completion-number-cell': NumericCompleteCell,
+            'external-link-cell': ExternalCell,
         },
         methods: {
             onClick: function($event, task) {

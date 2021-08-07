@@ -8,7 +8,6 @@
     - quest achievement siblings
     - verify achievement chaining
 - Favorites - Pin groups and tasks
-- Editing of Custom Task values (maybe order)
 - Trust Levels
 
 **Change**

@@ -66,15 +66,15 @@ export default {
         addCustomTask: function() {
             // Prevent short names
             if(this.newTaskName.length < 3) return;
-            const customTasks = getPlayerStore().get('custom') || {};
+            const customMeta = getPlayerStore().get('custom') || {};
 
             // Get next safe ID
             let nextId = 0;
-            while(!!customTasks[nextId]) nextId++;
+            while(!!customMeta[`${nextId}`]) nextId++;
 
             // Update store with custom name & notes
             getPlayerStore().set('custom', {
-                ...customTasks,
+                ...customMeta,
                 [nextId]: {
                     id: nextId,
                     name: this.newTaskName,
