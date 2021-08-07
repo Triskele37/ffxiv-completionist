@@ -12,7 +12,9 @@ export const Character_Relic_Gear = function(parent) {
         DataGroup.fromJSON(group, `${basePath}/anima`),
         DataGroup.fromJSON(group, `${basePath}/eureka`),
         DataGroup.fromJSON(group, `${basePath}/resistance`),
+        DataGroup.fromJSON(group, `${basePath}/lucis-tools`),
         DataGroup.fromJSON(group, `${basePath}/skysteel-tools`),
+        DataGroup.fromJSON(group, `${basePath}/resplendent-tools`),
     ];
 
     return group;

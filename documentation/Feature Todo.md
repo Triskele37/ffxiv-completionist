@@ -10,7 +10,6 @@
 - Favorites - Pin groups and tasks
 - Editing of Custom Task values (maybe order)
 - Trust Levels
-- Lucis & Resplendent relics
 
 **Change**
 
@@ -20,6 +19,7 @@
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
 - Armoire section
+- Make ID column a setting in development only
 
 **Change**
 - Move relic gear to top-level Equipment category in prep for Armoire & all glam

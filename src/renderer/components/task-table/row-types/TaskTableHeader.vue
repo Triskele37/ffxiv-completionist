@@ -88,12 +88,6 @@
             modifySearch: function($event, column) {
                 const value = $event.target.value;
 
-                // No keycode means the x was clicked
-                if(!$event.which) {
-                    $event.target.blur();
-                    return;
-                }
-
                 // Don't run filter unnecessarily
                 if(this.filters[column.key] && this.filters[column.key].value === value) {
                     return;
@@ -111,9 +105,14 @@
                     this.filters[column.key] = null;
                 }
 
-
                 this.filters = Object.assign({}, this.filters);
                 this.$emit('filter-change', this.filters);
+
+                // No keycode means the x was clicked
+                if(!$event.which && !value) {
+                    $event.target.blur();
+                    return;
+                }
             },
             onDatalistClick($event) {
                 // Datalist clicks fire keydown on their parent input

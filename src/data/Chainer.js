@@ -240,6 +240,7 @@ export class Chainer {
             case "konogg": path = "duty.collection"; break;
 
             case "quest": path = "duty.quests"; break;
+            case "jobQuest": path = "duty.quests.class--job"; break;
             case "sidequest": path = "duty.quests.sidequests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
