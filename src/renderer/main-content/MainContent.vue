@@ -22,10 +22,9 @@
                     />
                 </div>
 
-                <div class="section-actions">
+                <div class="section-actions" v-if="showShowAllButton">
                     <button
                         class="xiv-button"
-                        v-if="showShowAllButton"
                         @click="toggleShowAll"
                     >
                         {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
