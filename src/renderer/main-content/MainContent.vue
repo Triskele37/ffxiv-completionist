@@ -33,12 +33,14 @@
                 </div>
             </template>
             <template v-else>
-                <button
-                    class="xiv-button exit-all-button"
-                    @click="toggleShowAll"
-                >
-                    Exit All Task View
-                </button>
+                <div class="section-actions">
+                    <button
+                        class="xiv-button exit-all-button"
+                        @click="toggleShowAll"
+                    >
+                        Exit All Task View
+                    </button>
+                </div>
             </template>
 
             <!----------- Task Tables (base & show all) ----------->
@@ -113,16 +115,21 @@
     margin: 10px;
 
     .group-summary-section {
+        // wraps summaries each 3
         display: flex;
         flex-wrap: wrap;
+
+        // gives height so tables w/ summaries display properly
+        min-height: fit-content;
     }
 
     .section-actions {
+        align-self: flex-end;
+        margin-bottom: -27px;
         text-align: center;
     }
 
     .exit-all-button {
-        float: right;
         margin-right: 20px;
     }
 }
