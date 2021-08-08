@@ -12,6 +12,7 @@
             "cExclude": [65645, 66106],
             "cExclusive": [
                 "sidequest.65575",
+                "levequest.546",
                 65564,
                 65737,
                 65981,
@@ -33,7 +34,7 @@
                 65984,
                 65985,
                 66043,
-                66209,
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "sidequest.65575",
                 "sidequest.65537",
                 "sidequest.65573",
@@ -52,7 +53,7 @@
         "x65564": {
             "id": 65564,
             "level": 4,
-            "cPrevAny": [
+            "cPrev": [
                 65660
             ],
             "cNext": [
@@ -264,7 +265,7 @@
                 65970,
                 67677,
                 67960,
-                66210,
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 68669,
                 68743,
                 69499,
@@ -275,8 +276,8 @@
                 65985
             ]
         },
-        "x66209": {
-            "id": 66209,
+        "x66210": {
+            "id": 66210,
             "level": 15,
             "cNext": [
                 66746,
@@ -286,7 +287,7 @@
                 66678
             ],
             "cPrev": [
-                66064
+                66043
             ]
         }
     }

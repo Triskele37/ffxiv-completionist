@@ -22,11 +22,7 @@
         methods: {
             onTaskCompleteClick: function() {
                 const flag = this.task.completionFlag === "Y" ? "N" : "Y";
-
-                const timerName = `Chain timer ${this.task.id} > ${flag}`;
-                console.time(timerName);
                 this.task.changeCompletionFlag(flag, true);
-                console.timeEnd(timerName);
 
                 applyDataToStore(data);
             },

@@ -6,7 +6,7 @@ export class ChangeStore {
     version;
     isTesting;
 
-    constructor(version, isTesting) {
+    constructor(version, disableTesting) {
         console.log(`Migrating to ${version}`);
 
         // Create the initial `overall` object for new users
@@ -18,7 +18,7 @@ export class ChangeStore {
         this.version = version;
 
         // Testing flag that allows migration to run more than once
-        this.isTesting = isTesting;
+        this.isTesting = process.env.NODE_ENV === 'development' && !disableTesting;
     }
 
     // Function to run when finished migrating that actually commits the changes

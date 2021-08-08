@@ -12,6 +12,7 @@
             "cExclude": [65660, 66106],
             "cExclusive": [
                 "sidequest.65643",
+                "levequest.556",
                 65998,
                 65999,
                 66079,
@@ -33,7 +34,7 @@
                 66226,
                 66081,
                 66082,
-                66210,
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
                 "sidequest.65643",
                 "sidequest.65647",
                 "sidequest.65648",
@@ -63,7 +64,7 @@
                 66008,
                 65999
             ],
-            "cPrevAny": [
+            "cPrev": [
                 65645
             ]
         },
@@ -268,7 +269,7 @@
             "id": 66082,
             "level": 15,
             "cNext": [
-                66210,
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
                 65970,
                 67677,
                 67960,
@@ -290,7 +291,8 @@
                 "sidequest.66681",
                 "sidequest.66746",
                 "sidequest.66967"
-            ]
+            ],
+            "cPrev": [66082]
         }
     }
 }

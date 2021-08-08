@@ -1,8 +1,5 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
-- Settings
-    - Move Starting Class logic here
-    - Add other config.json settings
 - Chaining
     - achievement/battle/battle hunt logs
     - quest achievement siblings
@@ -12,24 +9,27 @@
 **Change**
 
 **Fix**
-- several console logs left in, id column left in
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
 - Armoire section
-- Make ID column a setting in development only
+- Mac Support (dependent on angular-electron upgrade)
+- Toolset to allow translation of single words/phrases and shove those in resources
 
 **Change**
+- electron-vue to angular-electron
+- PrimeNG for UI components and app theme
+- Move language change into settings page
 - Move relic gear to top-level Equipment category in prep for Armoire & all glam
 - Remove Total_Items from xivapi configs and create function to combine all
   existing ids in cache then compare against pulled list of ids
 - Get Recipe data independent of RecipeNotebookList
   so that a fresh cache isn't necessary each update
 - Move quasi-quests into the group they would be in
+- Rename "Overall" to "FFXIV Completionist" regarding crumbs
 
 **Fix**
 - Class quests are mixed between the deprecated and in-game actuals
-- Call of the Sea usage (66210 - gridania limsa, 66209 - uldah)
 - Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 - Leve Issue/Start zones, follow up with XIVAPI
 - Quest/67635 is the only one without an NPC via XIVAPI (Tobana)

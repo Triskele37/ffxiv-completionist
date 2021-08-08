@@ -7,6 +7,9 @@ export const getters = {
             return true;
         }
 
+        // Only instance of duplicate quest ids in the game
+        if(id === 66210) return false;
+
         // Matches embedded chained tasks
         for(const path in state.chainedTasks) {
             if(state.chainedTasks[path][`x${id}`]) {

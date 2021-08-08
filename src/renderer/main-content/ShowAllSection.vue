@@ -21,8 +21,6 @@
         },
         computed: {
             allChildTasks: function() {
-                // const fuck = diveForTasks(this.group, 'x0');
-                // console.log(fuck);
                 return diveForTasks(this.group);
             },
         },

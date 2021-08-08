@@ -12,25 +12,11 @@
             class="xiv-dropdown-body"
             v-if="dropdownOpen"
         >
-            <!-- Dropdown Content Header -->
-            <button
-                @click="onToggleChainingEnabled()"
-                class="xiv-dropdown-li"
-            >
-                Chaining is: {{chainingEnabled ? 'Enabled' : 'Disabled'}}.
-                &nbsp;Click here to toggle.
-            </button>
-            <button
-                @click="nukeSaveData()"
-                class="xiv-dropdown-li"
-            >
-                THIS SHOULD NOT BE IN PROD
-            </button>
-
             <!-- Dropdown Content Body with Data -->
             <template v-if="!!chainStart">
                 <!-- Undo Button -->
                 <button
+                    v-if="!disableUndo"
                     @click="onUndoLastChain()"
                     class="xiv-dropdown-li"
                 >
@@ -45,7 +31,7 @@
                 >
                     {{chainStart.path}}
                     <br/>
-                    Last action of marking "{{chainStart.task.name}}" as
+                    Marking "{{chainStart.task.name}}" as
                     "<span :class="[chainStart.toFlag]">
                         {{chainStart.toFlag}}
                     </span>" chained to {{chainedTaskCount}} other items
@@ -101,7 +87,7 @@
             <!-- Dropdown Content Body with no Data -->
             <template v-else>
                 <button class="xiv-dropdown-li">
-                    Previous action did not cause a chain
+                    No chain information to display
                 </button>
             </template>
         </div>
@@ -117,6 +103,9 @@ import { data } from "../../../data";
 
 export default {
     name: 'chain-dropdown',
+    props: {
+        disableUndo: Boolean
+    },
     data: () => ({
         dropdownOpen: false,
         chainingEnabled: eStore.get('chaining-enabled'),
@@ -131,23 +120,8 @@ export default {
         })
     },
     methods: {
-        nukeSaveData: function() {
-            diveNuke(data);
-
-            function diveNuke(group) {
-                for(const id in group.tasks) {
-                    group.tasks[id].setCompletionFlag("N");
-                }
-
-                (group.subGroups || []).forEach((subGroup) => diveNuke(subGroup));
-            }
-        },
         groupChainLength: function(group) {
             return !group ? 0 : Object.keys(group).length;
-        },
-        onToggleChainingEnabled: function() {
-            eStore.set('chaining-enabled', !eStore.get('chaining-enabled'));
-            this.chainingEnabled = eStore.get('chaining-enabled');
         },
         onToggleShowChainedGroup: function(group) {
             if(group.show === undefined) {

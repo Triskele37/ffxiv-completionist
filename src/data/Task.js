@@ -77,7 +77,15 @@ export class Task {
             return;
         }
 
-        if(this.completionFlag === flag) return; // MUI IMPORTANTE
+        // Don't continue if the current flag is already whats being pushed
+        if(this.completionFlag === flag) {
+            // Clear the chainstore in the event the first chain is blocked
+            if(firstInChain) vStore.commit('chain/CLEAR_CHAIN');
+
+            return;
+        }
+
+        // Don't continue if this task has already been chained through
         if(!firstInChain && vStore.getters["chain/idExistsInStore"](this.id, firstInChain)) return;
 
         const fromFlag = this.completionFlag;

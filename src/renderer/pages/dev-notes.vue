@@ -5,11 +5,21 @@
 
         <br/>
 
+        <h3>Official Release Coming Soon</h3>
+        <p>Version 0.5.58 will be the last beta release</p>
+        <p>
+            The next major version of the app will drop sometime after Endwalker and
+            will contain a massive UI overhaul alongside an internal one.
+        </p>
+        <p>Please look forward to it.</p>
+
+        <br/>
+
         <h3>Features being considered, planned, or worked on</h3>
         <ul>
+            <li>Mac Support</li>
             <li>Methods of pulling data from XIVAPI while maintaining app data integrity</li>
             <li>Further translation support</li>
-            <li>Auto-completion of related items</li>
             <li>Armoire section</li>
             <li>Customizable themes</li>
             <li>Syncing data available on your character from Lodestone</li>
@@ -19,10 +29,8 @@
 
         <h3>Known Issues</h3>
         <ul>
-            <li>Many ARR quests have the wrong level (please provide feedback to help, there is a lot of em)</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
             <li>application is not code signed</li>
-            <li>Quest restrictions based on starting zone are not automatic</li>
         </ul>
     </div>
 </template>

@@ -242,6 +242,7 @@ export class Chainer {
             case "quest": path = "duty.quests"; break;
             case "jobQuest": path = "duty.quests.class--job"; break;
             case "sidequest": path = "duty.quests.sidequests"; break;
+            case "levequest": path = "duty.quests.levequests"; break;
 
             case "arrRelic": path = "character.relic-gear.zodiac"; break;
             case "hwRelic": path = "character.relic-gear.anima"; break;
