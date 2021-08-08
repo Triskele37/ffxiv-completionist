@@ -36,7 +36,7 @@
                 </template>
             </td>
 
-            <external-link-cell :taskName="task.name" />
+            <external-link-cell :task="task"/>
         </tr>
     </tbody>
 </template>

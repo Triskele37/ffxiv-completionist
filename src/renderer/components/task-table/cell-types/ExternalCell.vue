@@ -31,14 +31,25 @@
     export default {
         name: 'external-link-cell',
         props: {
-            taskName: String
+            task: Object
         },
         methods: {
             gotoGamerEscape: function () {
-                shell.openExternal('https://ffxiv.gamerescape.com/wiki/' + this.taskName.replace(/ /g, '_'));
+                let name = this.task.name.replace(/ /g, '_');
+                name = this.overrideForGamerEscape(name);
+
+                shell.openExternal(`https://ffxiv.gamerescape.com/wiki/${name}`);
+            },
+            overrideForGamerEscape: function(name) {
+                const match = (n, id) => this.task.name === n && this.task.id === id;
+
+                if(match('Mending Fences', 143)) return `${name}_(Levequest)`
+
+                return name;
             },
             gotoGarlandTools: function () {
-                shell.openExternal('https://www.garlandtools.org/db/#search/' + this.taskName.replace(/ /g, '%20'));
+                const name = this.task.name.replace(/ /g, '%20');
+                shell.openExternal(`https://www.garlandtools.org/db/#search/${name}`);
             }
         }
     };
