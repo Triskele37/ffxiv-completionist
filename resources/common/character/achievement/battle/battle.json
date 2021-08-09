@@ -12,17 +12,6 @@
             1336
         ],
         [
-            [
-                2343,
-                2344,
-                2345,
-                2346,
-                2347,
-                2348
-            ],
-            2349
-        ],
-        [
             803,
             804,
             805,
@@ -30,11 +19,6 @@
             807,
             1353,
             1354
-        ],
-        [
-            808,
-            809,
-            810
         ],
         [
             885,
@@ -87,37 +71,6 @@
             2452,
             2453,
             2728
-        ],
-        [
-            [
-                2461,
-                2462,
-                2463
-            ],
-            2474
-        ],
-        [
-            [
-                2471,
-                2472,
-                2473
-            ],
-            2475
-        ],
-        [
-            [
-                2474,
-                2475
-            ],
-            2476
-        ],
-        [
-            [
-                2736,
-                2737,
-                2738
-            ],
-            2739
         ]
     ],
     "tasks": {
@@ -167,82 +120,98 @@
         "x728": {
             "id": 728,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.gladiator"
         },
         "x729": {
             "id": 729,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.pugilist"
         },
         "x730": {
             "id": 730,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.marauder"
         },
         "x731": {
             "id": 731,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.lancer"
         },
         "x732": {
             "id": 732,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.archer"
         },
         "x1051": {
             "id": 1051,
             "points": 20,
-            "patch": "2.4"
+            "patch": "2.4",
+            "cAll": "hl.rogue"
         },
         "x733": {
             "id": 733,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.conjurer"
         },
         "x734": {
             "id": 734,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.thaumaturge"
         },
         "x735": {
             "id": 735,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cAll": "hl.arcanist"
         },
         "x792": {
             "id": 792,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.coerthas.central-highlands.36"]
         },
         "x793": {
             "id": 793,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.the-black-shroud.0"]
         },
         "x794": {
             "id": 794,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.thanalan.northern.8"]
         },
         "x795": {
             "id": 795,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.coerthas.central-highlands.20"]
         },
         "x796": {
             "id": 796,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.la-noscea.eastern.8"]
         },
         "x797": {
             "id": 797,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.the-black-shroud.east-shroud.7"]
         },
         "x798": {
             "id": 798,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.thanalan.northern.11"]
         },
         "x799": {
             "id": 799,
@@ -257,175 +226,196 @@
         "x801": {
             "id": 801,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.thanalan.eastern.9"]
         },
         "x802": {
             "id": 802,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["duty.fates.la-noscea.upper.1"]
         },
         "x1359": {
             "id": 1359,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.dravania.the-dravanian-forelands.24"]
         },
         "x1360": {
             "id": 1360,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.dravania.the-churning-mists.28"]
         },
         "x1361": {
             "id": 1361,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.coerthas.western-highlands.17"]
         },
         "x1362": {
             "id": 1362,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.dravania.the-dravanian-forelands.16"]
         },
         "x1363": {
             "id": 1363,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.dravania.the-dravanian-hinterlands.19"]
         },
         "x1364": {
             "id": 1364,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.dravania.the-churning-mists.20"]
         },
         "x1365": {
             "id": 1365,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": ["duty.fates.abalathias-spine.the-sea-of-clouds.9"]
         },
         "x1923": {
             "id": 1923,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.gyr-abania.the-fringes.12"]
         },
         "x1924": {
             "id": 1924,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.gyr-abania.the-peaks.27"]
         },
         "x1925": {
             "id": 1925,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.gyr-abania.the-lochs.27"]
         },
         "x1926": {
             "id": 1926,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.othard.the-ruby-sea.14"]
         },
         "x1927": {
             "id": 1927,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.othard.yanxia.36"]
         },
         "x1928": {
             "id": 1928,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.othard.the-azim-steppe.30"]
         },
         "x1929": {
             "id": 1929,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.othard.yanxia.37"]
         },
         "x1930": {
             "id": 1930,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.gyr-abania.the-lochs.34"]
         },
         "x1931": {
             "id": 1931,
             "points": 10,
-            "patch": "4.0"
+            "patch": "4.0",
+            "cPrev": ["duty.fates.othard.the-azim-steppe.4"]
         },
         "x2337": {
             "id": 2337,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.lakeland.5"]
         },
         "x2338": {
             "id": 2338,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.amh-araeng.13"]
         },
         "x2339": {
             "id": 2339,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.il-mheg.13"]
         },
         "x2340": {
             "id": 2340,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.the-raktika-greatwood.17"]
         },
         "x2341": {
             "id": 2341,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.kholusia.15"]
         },
         "x2342": {
             "id": 2342,
             "points": 10,
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["duty.fates.norvrandt.the-tempest.14"]
         },
         "x2343": {
             "id": 2343,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.lakeland.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.2"]
         },
         "x2344": {
             "id": 2344,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.kholusia.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.5"]
         },
         "x2345": {
             "id": 2345,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.amh-araeng.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.8"]
         },
         "x2346": {
             "id": 2346,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.il-mheg.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.11"]
         },
         "x2347": {
             "id": 2347,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.the-raktika-greatwood.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.14"]
         },
         "x2348": {
             "id": 2348,
             "points": 10,
             "patch": "5.0",
-            "cSiblings": [
-                "travel.shared-fate.the-tempest.2"
-            ]
+            "cCombo": [2349],
+            "cSiblings": ["travel.shared-fate.17"]
         },
         "x2349": {
             "id": 2349,
             "points": 20,
             "patch": "5.0",
+            "cPrev": [
+                2343, 2344, 2345, 2346, 2347, 2348
+            ],
             "cSiblings": [
                 "title.459"
             ]
@@ -475,6 +465,7 @@
             "id": 808,
             "points": 5,
             "patch": "2.1",
+            "cNext": [809],
             "cSiblings": [
                 "character.companion.companion-rank.0"
             ]
@@ -483,6 +474,8 @@
             "id": 809,
             "points": 10,
             "patch": "2.1",
+            "cPrev": [808],
+            "cNext": [810],
             "cSiblings": [
                 "character.companion.companion-rank.4"
             ]
@@ -491,6 +484,7 @@
             "id": 810,
             "points": 20,
             "patch": "2.1",
+            "cPrev": [809],
             "cSiblings": [
                 "character.companion.companion-rank.9"
             ]
@@ -742,17 +736,20 @@
         "x2461": {
             "id": 2461,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2474]
         },
         "x2462": {
             "id": 2462,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2474]
         },
         "x2463": {
             "id": 2463,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2474]
         },
         "x2464": {
             "id": 2464,
@@ -795,22 +792,27 @@
         "x2471": {
             "id": 2471,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2475]
         },
         "x2472": {
             "id": 2472,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2475]
         },
         "x2473": {
             "id": 2473,
             "points": 5,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cCombo": [2475]
         },
         "x2474": {
             "id": 2474,
             "points": 10,
             "patch": "5.18",
+            "cPrev": [2461, 2462, 2463],
+            "cCombo": [2476],
             "cSiblings": [
                 "title.484"
             ]
@@ -819,6 +821,8 @@
             "id": 2475,
             "points": 10,
             "patch": "5.18",
+            "cPrev": [2471, 2472, 2473],
+            "cCombo": [2476],
             "cSiblings": [
                 "title.485"
             ]
@@ -826,7 +830,8 @@
         "x2476": {
             "id": 2476,
             "points": 10,
-            "patch": "5.18"
+            "patch": "5.18",
+            "cPrev": [2474, 2475]
         },
         "x2729": {
             "points": 5,
@@ -866,22 +871,26 @@
         "x2736": {
             "points": 5,
             "id": 2736,
-            "patch": "5.45"
+            "patch": "5.45",
+            "cCombo": [2739]
         },
         "x2737": {
             "points": 5,
             "id": 2737,
-            "patch": "5.45"
+            "patch": "5.45",
+            "cCombo": [2739]
         },
         "x2738": {
             "points": 5,
             "id": 2738,
-            "patch": "5.45"
+            "patch": "5.45",
+            "cCombo": [2739]
         },
         "x2739": {
             "points": 10,
             "id": 2739,
             "patch": "5.45",
+            "cPrev": [2736, 2737, 2738],
             "cSiblings": [
                 "title.552"
             ]

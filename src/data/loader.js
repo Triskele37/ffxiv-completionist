@@ -13,18 +13,29 @@ export const loadJson = function(path, lang) {
         commonPrefix = `./resources/common`;
     }
 
-    let langJson = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`).toString());
+    let langJson;
+    try {
+        langJson = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`).toString());
 
-    if(fs.existsSync(`${commonPrefix}/${path}.json`)) {
-        const { tasks: commonTasks, ...other } = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`).toString());
-        langJson = { ...other, ...langJson }; //TODO: wut did I do here
+        if(fs.existsSync(`${commonPrefix}/${path}.json`)) {
+            try {
+                const { tasks: commonTasks, ...other } = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`).toString());
+                langJson = { ...other, ...langJson }; //TODO: wut did I do here
 
-        for(const id in commonTasks) {
-            langJson.tasks[id] = {
-                ...commonTasks[id],
-                ...langJson.tasks[id]
-            };
+                for(const id in commonTasks) {
+                    langJson.tasks[id] = {
+                        ...commonTasks[id],
+                        ...langJson.tasks[id]
+                    };
+                }
+            }
+            catch(e) {
+                console.error(`Error in ${commonPrefix}/${path}.json`, e);
+            }
         }
+    }
+    catch(e) {
+        console.error(`Error in ${langPrefix}/${path}.json`, e);
     }
 
     return langJson;

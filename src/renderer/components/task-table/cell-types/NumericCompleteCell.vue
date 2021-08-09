@@ -51,7 +51,7 @@
                 if(newValue > this.task.maxValue) newValue = this.task.maxValue;
 
                 // Update the new value
-                this.task.setCompletionNumber(newValue);
+                this.task.changeCompletionNumber(newValue, true);
                 getPlayerStore().set(this.task.fullStorageKey, newValue.toString());
 
                 // Force validation changes to update the UI

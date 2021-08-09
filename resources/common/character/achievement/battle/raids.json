@@ -111,7 +111,8 @@
         "x747": {
             "id": 747,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["raid.arr.4"]
         },
         "x748": {
             "id": 748,
@@ -126,12 +127,14 @@
         "x883": {
             "id": 883,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["raid.arr.17"]
         },
         "x887": {
             "id": 887,
             "points": 5,
-            "patch": "2.2"
+            "patch": "2.2",
+            "cSiblings": ["raid.arr.8"]
         },
         "x888": {
             "id": 888,
@@ -146,13 +149,15 @@
         "x995": {
             "id": 995,
             "points": 10,
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["raid.arr.18"]
         },
         "x997": {
             "id": 997,
             "points": 10,
             "patch": "2.3",
             "cSiblings": [
+                "raid.arr.13",
                 "title.167"
             ]
         },
@@ -161,6 +166,7 @@
             "points": 10,
             "patch": "2.3",
             "cSiblings": [
+                "raid.arr.14",
                 "title.168"
             ]
         },
@@ -169,6 +175,7 @@
             "points": 10,
             "patch": "2.3",
             "cSiblings": [
+                "raid.arr.15",
                 "title.169"
             ]
         },
@@ -177,13 +184,15 @@
             "points": 10,
             "patch": "2.3",
             "cSiblings": [
+                "raid.arr.16",
                 "title.170"
             ]
         },
         "x1040": {
             "id": 1040,
             "points": 5,
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["raid.arr.12"]
         },
         "x1041": {
             "id": 1041,
@@ -198,12 +207,14 @@
         "x1068": {
             "id": 1068,
             "points": 20,
-            "patch": "2.5"
+            "patch": "2.5",
+            "cSiblings": ["raid.arr.19"]
         },
         "x1228": {
             "id": 1228,
             "points": 5,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["raid.hw.3"]
         },
         "x1229": {
             "id": 1229,
@@ -218,7 +229,8 @@
         "x1231": {
             "id": 1231,
             "points": 5,
-            "patch": "3.05"
+            "patch": "3.05",
+            "cSiblings": ["raid.hw.7"]
         },
         "x1232": {
             "id": 1232,
@@ -233,12 +245,14 @@
         "x1399": {
             "id": 1399,
             "points": 10,
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["raid.hw.24"]
         },
         "x1476": {
             "id": 1476,
             "points": 5,
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["raid.hw.11"]
         },
         "x1477": {
             "id": 1477,
@@ -253,7 +267,8 @@
         "x1479": {
             "id": 1479,
             "points": 5,
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["raid.hw.15"]
         },
         "x1480": {
             "id": 1480,
@@ -268,12 +283,14 @@
         "x1574": {
             "id": 1574,
             "points": 10,
-            "patch": "3.3"
+            "patch": "3.3",
+            "cSiblings": ["raid.hw.25"]
         },
         "x1639": {
             "id": 1639,
             "points": 5,
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["raid.hw.19"]
         },
         "x1640": {
             "id": 1640,
@@ -288,7 +305,8 @@
         "x1642": {
             "id": 1642,
             "points": 5,
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["raid.hw.23"]
         },
         "x1643": {
             "id": 1643,
@@ -303,12 +321,14 @@
         "x1689": {
             "id": 1689,
             "points": 10,
-            "patch": "3.5"
+            "patch": "3.5",
+            "cSiblings": ["raid.hw.26"]
         },
         "x1895": {
             "id": 1895,
             "points": 5,
-            "patch": "4.01"
+            "patch": "4.01",
+            "cSiblings": ["raid.sb.3"]
         },
         "x1896": {
             "id": 1896,
@@ -323,7 +343,8 @@
         "x1898": {
             "id": 1898,
             "points": 5,
-            "patch": "4.01"
+            "patch": "4.01",
+            "cSiblings": ["raid.sb.7"]
         },
         "x1899": {
             "id": 1899,
@@ -338,20 +359,23 @@
         "x1992": {
             "id": 1992,
             "points": 5,
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["raid.sb.26"]
         },
         "x1993": {
             "id": 1993,
             "points": 10,
             "patch": "4.11",
             "cSiblings": [
+                "raid.sb.8",
                 "title.138"
             ]
         },
         "x2024": {
             "id": 2024,
             "points": 5,
-            "patch": "4.2"
+            "patch": "4.2",
+            "cSiblings": ["raid.sb.12"]
         },
         "x2025": {
             "id": 2025,
@@ -366,7 +390,8 @@
         "x2027": {
             "id": 2027,
             "points": 5,
-            "patch": "4.2"
+            "patch": "4.2",
+            "cSiblings": ["raid.sb.16"]
         },
         "x2028": {
             "id": 2028,
@@ -381,20 +406,23 @@
         "x2106": {
             "id": 2106,
             "points": 5,
-            "patch": "4.3"
+            "patch": "4.3",
+            "cSiblings": ["raid.sb.27"]
         },
         "x2107": {
             "id": 2107,
             "points": 10,
             "patch": "4.31",
             "cSiblings": [
+                "raid.sb.17",
                 "title.397"
             ]
         },
         "x2118": {
             "id": 2118,
             "points": 5,
-            "patch": "4.4"
+            "patch": "4.4",
+            "cSiblings": ["raid.sb.21"]
         },
         "x2119": {
             "id": 2119,
@@ -409,7 +437,8 @@
         "x2121": {
             "id": 2121,
             "points": 5,
-            "patch": "4.4"
+            "patch": "4.4",
+            "cSiblings": ["raid.sb.25"]
         },
         "x2122": {
             "id": 2122,
@@ -424,12 +453,14 @@
         "x2164": {
             "id": 2164,
             "points": 5,
-            "patch": "4.5"
+            "patch": "4.5",
+            "cSiblings": ["raid.sb.28"]
         },
         "x2409": {
             "id": 2409,
             "points": 5,
-            "patch": "5.01"
+            "patch": "5.01",
+            "cSiblings": ["raid.shb.3"]
         },
         "x2410": {
             "id": 2410,
@@ -444,7 +475,8 @@
         "x2412": {
             "id": 2412,
             "points": 5,
-            "patch": "5.05"
+            "patch": "5.05",
+            "cSiblings": ["raid.shb.7"]
         },
         "x2413": {
             "id": 2413,
@@ -459,20 +491,23 @@
         "x2443": {
             "id": 2443,
             "points": 5,
-            "patch": "5.1"
+            "patch": "5.1",
+            "cSiblings": ["raid.shb.9"]
         },
         "x2444": {
             "id": 2444,
             "points": 10,
             "patch": "5.11",
             "cSiblings": [
+                "raid.shb.8",
                 "title.480"
             ]
         },
         "x2591": {
             "id": 2591,
             "points": 5,
-            "patch": "5.2"
+            "patch": "5.2",
+            "cSiblings": ["raid.shb.13"]
         },
         "x2592": {
             "id": 2592,
@@ -487,7 +522,8 @@
         "x2594": {
             "id": 2594,
             "points": 5,
-            "patch": "5.2"
+            "patch": "5.2",
+            "cSiblings": ["raid.shb.17"]
         },
         "x2595": {
             "id": 2595,
@@ -502,12 +538,14 @@
         "x2622": {
             "id": 2622,
             "points": 5,
-            "patch": "5.3"
+            "patch": "5.3",
+            "cSiblings": ["raid.shb.18"]
         },
         "x2719": {
             "id": 2719,
             "points": 5,
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": ["raid.shb.22"]
         },
         "x2720": {
             "id": 2720,
@@ -522,7 +560,8 @@
         "x2722": {
             "id": 2722,
             "points": 5,
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": ["raid.shb.26"]
         },
         "x2723": {
             "id": 2723,
@@ -537,7 +576,8 @@
         "x2847": {
             "id": 2847,
             "points": 5,
-            "patch": "5.5"
+            "patch": "5.5",
+            "cSiblings": ["raid.shb.27"]
         }
     }
 }

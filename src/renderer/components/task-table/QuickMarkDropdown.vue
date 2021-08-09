@@ -73,7 +73,7 @@ export default {
             for(const id in this.filteredTasks) {
                 const task = this.filteredTasks[id];
 
-                if(from === '$' && task.selected || task.completionFlag === from) {
+                if((from === '$' && task.selected) || task.completionFlag === from) {
                     this.lastChanged.push({ task, oldFlag: task.completionFlag });
 
                     task.changeCompletionFlag(to, first);

@@ -1,26 +1,28 @@
 import { ChangeStore } from "../ChangeStore";
+import { getPlayerStore } from "../../index";
 
 import { migrate_5_55_titles } from "./title";
 import { migrate_5_55_barding } from "./barding";
 import { migrate_5_55_emotes } from "./emote";
-import { getPlayerStore } from "../../index";
+import { migrate_5_58_shared_fate } from "./shared-fate";
 
 export const migrate_5_5_to_5_58 = () => {
-    const overall = new ChangeStore('0.5.58');
+    const store = new ChangeStore('0.5.58');
 
     // Fixing bug from last build
-    overall.changeKey("duty.quests.other", "undefined", "quasi-quests");
+    store.changeKey("duty.quests.other", "undefined", "quasi-quests");
 
     // Fixing mixup of final quest in starting questline
     const seventhUmbral = "duty.quests.main-scenario.seventh-umbral-era";
-    overall.changeKey(`${seventhUmbral}.gridania`, 66209, 66210);
-    overall.changeKey(`${seventhUmbral}.uldah`, 66210, 66209);
+    store.changeKey(`${seventhUmbral}.gridania`, 66209, 66210);
+    store.changeKey(`${seventhUmbral}.uldah`, 66210, 66209);
 
     // Sections where ids have to be completely re-mapped
     if(process.env.NODE_ENV !== 'development') {
-        migrate_5_58_titles(overall);
-        migrate_5_58_barding(overall);
-        migrate_5_58_emotes(overall);
+        migrate_5_58_titles(store);
+        migrate_5_58_barding(store);
+        migrate_5_58_emotes(store);
+        migrate_5_58_shared_fate(store);
     }
 
     //------------------------------------------------------------------ Custom Task Reformat
@@ -28,7 +30,7 @@ export const migrate_5_5_to_5_58 = () => {
 
     // Perform once
     if(Array.isArray(oldCustom)) {
-        const oldFlags = overall.oldStore.custom;
+        const oldFlags = store.oldStore.custom;
 
         // Update custom meta data
         const customMeta = {};
@@ -42,5 +44,5 @@ export const migrate_5_5_to_5_58 = () => {
         getPlayerStore().set('overall.custom', customFlag);
     }
 
-    overall.write();
+    store.write();
 };

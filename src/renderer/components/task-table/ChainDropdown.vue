@@ -67,7 +67,7 @@
                         <button
                             class="xiv-dropdown-li chained-task"
                             disabled
-                            v-if="group.show"
+                            v-if="group.show && !!change.task"
                             v-for="(change, id) in group"
                         >
                             <span :class="[change.fromFlag]">
@@ -108,7 +108,6 @@ export default {
     },
     data: () => ({
         dropdownOpen: false,
-        chainingEnabled: eStore.get('chaining-enabled'),
         undoNotClicked: true,
         doNotify: false
     }),
@@ -161,14 +160,26 @@ export default {
                 }
             }
 
-            // Commit the undo to Vuex and Estore
+            // Commit the undo to Vuex and store
             this.$store.commit('chain/CLEAR_CHAIN');
             applyDataToStore(data);
         }
     },
     watch: {
         chainedTasks: function() {
+            this.undoNotClicked = true;
             this.doNotify = !!Object.keys(this.chainedTasks).length;
+
+            // Auto-open small chains
+            if(this.chainedTaskCount < eStore.get('chain-min-threshold')) {
+                for(let key in this.chainedTasks) {
+                    Object.defineProperty(this.chainedTasks[key], 'show', {
+                        enumerable: false,
+                        writable: true,
+                        value: true
+                    });
+                }
+            }
         }
     }
 };

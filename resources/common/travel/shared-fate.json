@@ -1,0 +1,73 @@
+{
+    "key": "shared-fate",
+    "chains": [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [9, 10, 11],
+        [12, 13, 14],
+        [15, 16, 17]
+    ],
+    "tasks": {
+        "x0": {
+            "id": 0
+        },
+        "x1": {
+            "id": 1
+        },
+        "x2": {
+            "id": 2,
+            "cSiblings": ["achievement.2343"]
+        },
+        "x3": {
+            "id": 3
+        },
+        "x4": {
+            "id": 4
+        },
+        "x5": {
+            "id": 5,
+            "cSiblings": ["achievement.2344"]
+        },
+        "x6": {
+            "id": 6
+        },
+        "x7": {
+            "id": 7
+        },
+        "x8": {
+            "id": 8,
+            "cSiblings": ["achievement.2345"]
+        },
+        "x9": {
+            "id": 9
+        },
+        "x10": {
+            "id": 10
+        },
+        "x11": {
+            "id": 11,
+            "cSiblings": ["achievement.2346"]
+        },
+        "x12": {
+            "id": 12
+        },
+        "x13": {
+            "id": 13
+        },
+        "x14": {
+            "id": 14,
+            "cSiblings": ["achievement.2347"]
+        },
+        "x15": {
+            "id": 15
+        },
+        "x16": {
+            "id": 16
+        },
+        "x17": {
+            "id": 17,
+            "cSiblings": ["achievement.2348"]
+        }
+    }
+}

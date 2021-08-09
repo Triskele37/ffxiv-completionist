@@ -1,9 +1,12 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Chaining
-    - achievement/battle/battle hunt logs
-    - quest achievement siblings
-    - verify achievement chaining
+    - Finalize Achievement > Items
+    - Finalize Achievement > Craft/Gather
+    - Finalize Achievement > Quests
+    - Finalize Achievement > Exploration
+    - Finalize Achievement > GC
+    - Run through every section and test
 - Favorites - Pin groups and tasks
 
 **Change**
@@ -15,8 +18,10 @@
 - Armoire section
 - Mac Support (dependent on angular-electron upgrade)
 - Toolset to allow translation of single words/phrases and shove those in resources
+- notification bubbles to any unread instructions (use config store)
 
 **Change**
+- remove group level chain prop
 - electron-vue to angular-electron
 - PrimeNG for UI components and app theme
 - Move language change into settings page
@@ -27,6 +32,7 @@
   so that a fresh cache isn't necessary each update
 - Move quasi-quests into the group they would be in
 - Rename "Overall" to "FFXIV Completionist" regarding crumbs
+- detach lang specific resources to a download after installation
 
 **Fix**
 - Class quests are mixed between the deprecated and in-game actuals

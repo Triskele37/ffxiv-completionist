@@ -13,7 +13,9 @@ const eStore = new Store();
 // Set the default store location
 setDefault('store-name', 'completion');
 setDefault('store-loc', appImport.getPath('userData'));
+setDefault('starting-class', '');
 setDefault('chaining-enabled', false);
+setDefault('chain-min-threshold', 10);
 setDefault('table-filters', {
     completed: true,
     incomplete: true,

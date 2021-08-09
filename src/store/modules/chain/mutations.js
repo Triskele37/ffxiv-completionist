@@ -27,15 +27,16 @@ function pushChained(state, chained) {
     if(!state.chainedTasks[path]) state.chainedTasks[path] = {};
 
     // Init first time a task is hit
-    if(!state.chainedTasks[path][`x${chained.task.id}`]) {
-        state.chainedTasks[path][`x${chained.task.id}`] = {
+    const id = `x${chained.task.id}`;
+    if(!state.chainedTasks[path][id]) {
+        state.chainedTasks[path][id] = {
             ...chained,
             count: 1
         };
     }
     else {
         // Indicate if a task is chained through multiple times
-        state.chainedTasks[path][`x${chained.task.id}`].count++;
+        state.chainedTasks[path][id].count++;
     }
 
     state.chainedTasks = Object.assign({}, state.chainedTasks);

@@ -9,23 +9,31 @@ export class Task {
     chains; // array of related tasks to chain completion marking
 
     completionFlag = "N";
-
-    cPrev; // Tasks that must be completed if this one is
-    cNext; // Tasks that cannot be completed without this one
-    cSiblings; // Tasks that should mirror this one's completion
-    cExclude; // Tasks that should be excluded if this is marked Y
-    cExclusive; // hack for starting city spaghetti
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
+
+    // Chaining Properties
+    cPrev; // Tasks that must be completed if this one is
+    cPrevAt; // cPrev for numeric completion tasks
+    cPrevAny; // Tasks that, if any are completed, complete this one
+    cAll; // Shorthand for cPrev where link is a group
+    cNext; // Tasks that cannot be completed without this one
+    cSiblings; // Tasks that should mirror this one's completion
+    cSiblingsAt; // cSiblings for numeric completion tasks
+    cCombo; // Tasks that should be checked when this one is marked
+    cComboAt; // cCombo for numeric completion tasks
+    cExclude; // Tasks that should be excluded if this is marked Y
+    cExclusive; // hack for starting city spaghetti
 
     constructor(task, parent) {
         // Map properties of task to this class
         const keys = Object.keys(task);
         keys.forEach((key) => {
             this[key] = task[key];
-
-            if(parent.isNumericCompletion) this.isNumericCompletion = true;
         });
+
+        if(parent.isNumericCompletion) this.isNumericCompletion = true;
+        if(parent.cCombo) this.cCombo = parent.cCombo;
 
         // Attach parent
         this._parent = parent;
@@ -70,27 +78,50 @@ export class Task {
     //#endregion
 
     //#region------------------------------------------------------------------ Chaining
-    changeCompletionFlag(flag, firstInChain) {
+    changeCompletionFlag(toFlag, firstInChain) {
+        if(this.shouldChain(firstInChain, toFlag)) {
+            const fromFlag = this.completionFlag;
+            this.setCompletionFlag(toFlag);
+
+            this.chain(firstInChain, fromFlag, toFlag);
+        }
+    }
+
+    changeCompletionNumber(toNum, firstInChain) {
+        if(this.shouldChain(firstInChain, toNum)) {
+            const fromNum = this.completionFlag;
+            this.setCompletionNumber(toNum);
+
+            this.chain(firstInChain, fromNum, toNum);
+        }
+    }
+
+    // Checks performed before setting the new flag and chaining
+    shouldChain(firstInChain, toFlag) {
         // Dodge all of this if chaining is disabled
         if(!eStore.get('chaining-enabled')) {
-            this.setCompletionFlag(flag);
-            return;
+            this.setCompletionNumber(toFlag);
+            return false;
         }
 
-        // Don't continue if the current flag is already whats being pushed
-        if(this.completionFlag === flag) {
+        // Don't continue if the current number is already whats being pushed
+        if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
             if(firstInChain) vStore.commit('chain/CLEAR_CHAIN');
-
-            return;
+            return false;
         }
 
         // Don't continue if this task has already been chained through
-        if(!firstInChain && vStore.getters["chain/idExistsInStore"](this.id, firstInChain)) return;
+        //TODO: ids are not unique between different groups
+        // if(!firstInChain && vStore.getters["chain/idExistsInStore"](this.id, toFlag)) {
+        //     return false;
+        // }
 
-        const fromFlag = this.completionFlag;
-        this.setCompletionFlag(flag);
+        return true;
+    }
 
+    // Chaining logic that occurs after the flag has been updated
+    chain(firstInChain, fromFlag, toFlag) {
         // Commit this task to the stored chain
         if(firstInChain) {
             vStore.commit('chain/START_CHAIN', {
@@ -107,7 +138,7 @@ export class Task {
         }
 
         // Return a list of chained tasks including this one
-        const chainer = new Chainer(this, flag);
+        const chainer = new Chainer(this, toFlag);
         chainer.triggerChains();
     }
     //#endregion

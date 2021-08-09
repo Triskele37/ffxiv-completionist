@@ -23,6 +23,9 @@ export class DataGroup {
     totalCompleted = 0; // The total of completed tasks of this and children
     totalExcluded = 0;  // The total of excluded tasks of this and children
 
+    // Group level props to pass to tasks (see Task)
+    cCombo;
+
     // an array of different tasks that should be chained
     // used within the same group
     chains;
@@ -55,6 +58,8 @@ export class DataGroup {
             this._columnConfig = columnConfig;
         }
 
+        // Chain inheritance
+        if(json.cCombo) this.cCombo = json.cCombo;
         if(json.chains) this.chains = json.chains;
 
         if(json.tasks) this.initializeTasks(json.tasks);

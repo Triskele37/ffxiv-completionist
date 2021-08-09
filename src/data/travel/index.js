@@ -4,7 +4,6 @@ import { Travel_Aether_Currents } from "./aether-currents";
 import { Travel_Aetherytes } from "./aetherytes";
 import { Travel_Mount_Speed } from "./mount-speed";
 import { Travel_Porters } from "./porters";
-import { Travel_Shared_FATE } from "./shared-fate";
 
 export const Travel = function(parent) {
     const group = DataGroup.fromJSON(parent, "./travel/index");
@@ -14,7 +13,7 @@ export const Travel = function(parent) {
         Travel_Aetherytes(group),
         Travel_Mount_Speed(group),
         Travel_Porters(group),
-        Travel_Shared_FATE(group),
+        DataGroup.fromJSON(parent, "./travel/shared-fate"),
     ];
 
     return group;

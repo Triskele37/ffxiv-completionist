@@ -1,7 +1,7 @@
 import {vStore} from "../../index";
 
 export const getters = {
-    idExistsInStore: (state) => (id) => {
+    idExistsInStore: (state) => (id, toFlag) => {
         // Matches start task
         if(state.chainStart && state.chainStart.task && state.chainStart.task.id === id) {
             return true;
@@ -12,7 +12,13 @@ export const getters = {
 
         // Matches embedded chained tasks
         for(const path in state.chainedTasks) {
-            if(state.chainedTasks[path][`x${id}`]) {
+            const change = state.chainedTasks[path][`x${id}`];
+            if(!!change) {
+                if(change.task.isNumericCompletion) {
+                    // Allow numeric tasks to chain through if toFlag is greater
+                    return parseInt(change.fromFlag) >= parseInt(toFlag);
+                }
+
                 return true;
             }
         }

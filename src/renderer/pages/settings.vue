@@ -11,13 +11,14 @@
                 <label>{{settings.storeLocation.value}}</label>
             </div>
             <div class="setting">
-                <label>Starting Class:</label>
+                <label title="Changing this value excludes innaccessible quests">
+                    Starting Class:
+                </label>
                 <select
                     class="xiv-select"
                     :value="settings.startingClass.value"
                     @change="onChangeStartingClass($event, settings.startingClass.key)"
                 >
-                    <option></option>
                     <option>Gladiator</option>
                     <option>Marauder</option>
                     <option>Arcanist</option>
@@ -65,13 +66,31 @@
 
         <div class="settings-group">
             <label class="setting-header">Chaining</label>
-            <div class="setting">
+            <div
+                class="setting"
+                title="Allow or disallow tasks from auto-marking other related tasks"
+            >
                 <label>Chaining Enabled:</label>
                 <input
                     class="setting-input"
                     type="checkbox"
-                    :value="settings.chainingEnabled.value"
+                    :checked="settings.chainingEnabled.value"
                     @change="onChangeBoolSetting($event, settings.chainingEnabled.key)"
+                />
+            </div>
+            <div
+                class="setting"
+                title="Chain window will auto-collapse groups when the total chain count hits this number"
+            >
+                <label>Chain Min Threshold:</label>
+                <input
+                    class="setting-input xiv-input"
+                    type="number"
+                    min="1"
+                    max="999"
+                    step="1"
+                    :value="settings.chainMinThreshold.value"
+                    @change="onChangeNumSetting($event, settings.chainMinThreshold)"
                 />
             </div>
         </div>
@@ -101,6 +120,7 @@
                     excluded: { key: 'table-filters.excluded', value: null }
                 },
                 chainingEnabled: { key: 'chaining-enabled', value: null },
+                chainMinThreshold: { key: 'chain-min-threshold', value: null }
             }
         }),
         created: function() {
@@ -118,6 +138,16 @@
             },
             onChangeBoolSetting: function($event, path) {
                 eStore.set(path, $event.target.checked);
+            },
+            onChangeNumSetting: function($event, setting) {
+                let newValue = parseInt($event.target.value);
+                if(newValue < $event.target.min) newValue = $event.target.min;
+                else if(newValue > $event.target.max) newValue = $event.target.max;
+
+                eStore.set(setting.key, newValue);
+                setting.value = newValue;
+
+                this.$forceUpdate(); // Shows when invalid inputs are changed
             },
             onChangeStartingClass: function($event, path) {
                 this.onChangeStringSetting($event, path);
@@ -177,6 +207,10 @@
 
             .xiv-select {
                 width: unset;
+            }
+
+            .xiv-input {
+                width: 50px;
             }
 
             .chain-dropdown {

@@ -91,11 +91,20 @@ export class ChangeStore {
         const group = dive(groupPath, this.newStore);
         if(!!group) delete group[taskKey];
     }
+
+    // Change helper when group is removed
+    deleteGroup(groupPath) {
+        const groupPathArr = groupPath.split('.');
+        const groupToDelete = groupPathArr.pop();
+
+        const groupToDeleteParent = dive(groupPathArr, this.newStore);
+        if(!!groupToDeleteParent) delete groupToDeleteParent[groupToDelete];
+    }
 }
 
 // Dives a given path, creating objects along the way, returning the final object
 function dive(path, store) {
-    const pathSegments = path.split('.');
+    const pathSegments = typeof path === 'string' ? path.split('.') : path;
 
     let cur = store;
     for(let i = 0; i < pathSegments.length; i++) {
