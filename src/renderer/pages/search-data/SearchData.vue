@@ -5,7 +5,13 @@
                 <p>Enter your search term below</p>
                 <div class="search-line">
                     <status-indicator :status="status"/>
-                    <input class="xiv-input" v-model="searchTerm" @keypress="searchOnEnter" placeholder="..."/>
+                    <input
+                        class="xiv-input"
+                        placeholder="..."
+                        ref="searchInput"
+                        v-model="searchTerm"
+                        @keypress="searchOnEnter"
+                    />
                     <button @click="onSearch">Search</button>
                 </div>
                 {{ info }}
@@ -45,6 +51,11 @@ export default {
         info: '',
         matches: []
     }),
+    mounted: function() {
+        // Auto-focus search input when search content is initialized
+        //NOTE: Does NOT auto-focus in development if search is already open
+        this.$refs.searchInput.focus();
+    },
     methods: {
         searchOnEnter: function($event) {
             if ($event.code === 'Enter') this.onSearch();
