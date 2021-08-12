@@ -1,62 +1,35 @@
 {
     "key": "blacksmith",
-    "chains": [
-        [
-            [
-                143,
-                144,
-                145,
-                146,
-                147
-            ],
-            148
-        ],
-        [
-            698,
-            699,
-            700,
-            1279,
-            1722,
-            2167
-        ],
-        [
-            753,
-            754,
-            755,
-            1314,
-            1322
-        ],
-        [
-            2492,
-            2493,
-            2494
-        ]
-    ],
     "tasks": {
         "x143": {
             "id": 143,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cCombo": [148]
         },
         "x144": {
             "id": 144,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cCombo": [148]
         },
         "x145": {
             "id": 145,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cCombo": [148]
         },
         "x146": {
             "id": 146,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cCombo": [148]
         },
         "x147": {
             "id": 147,
             "points": 10,
             "patch": "2.0",
+            "cCombo": [148],
             "cSiblings": [
                 "title.18"
             ]
@@ -64,7 +37,8 @@
         "x148": {
             "id": 148,
             "points": 30,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [143, 144, 145, 146, 147]
         },
         "x1302": {
             "id": 1302,
@@ -84,57 +58,75 @@
         "x698": {
             "id": 698,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cNext": [699]
         },
         "x699": {
             "id": 699,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [698],
+            "cNext": [700]
         },
         "x700": {
             "id": 700,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [699],
+            "cNext": [1279]
         },
         "x1279": {
             "id": 1279,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": [700],
+            "cNext": [1722]
         },
         "x1722": {
             "id": 1722,
             "points": 10,
-            "patch": "3.5"
+            "patch": "3.5",
+            "cPrev": [1279],
+            "cNext": [2167]
         },
         "x2167": {
             "id": 2167,
             "points": 10,
-            "patch": "4.5"
+            "patch": "4.5",
+            "cPrev": [1722]
         },
         "x753": {
             "id": 753,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cNext": [754]
         },
         "x754": {
             "id": 754,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [753],
+            "cNext": [755]
         },
         "x755": {
             "id": 755,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [754],
+            "cNext": [1314]
         },
         "x1314": {
             "id": 1314,
             "points": 10,
-            "patch": "3.0"
+            "patch": "3.0",
+            "cPrev": [755],
+            "cNext": [1322]
         },
         "x1322": {
             "id": 1322,
             "points": 10,
             "patch": "3.0",
+            "cPrev": [1314],
             "cSiblings": [
                 "title.254"
             ]
@@ -142,17 +134,23 @@
         "x2492": {
             "id": 2492,
             "points": 5,
-            "patch": "5.21"
+            "patch": "5.21",
+            "cNext": [2493],
+            "cCombo": [2522]
         },
         "x2493": {
             "id": 2493,
             "points": 5,
-            "patch": "5.21"
+            "patch": "5.21",
+            "cPrev": [2492],
+            "cNext": [2494]
         },
         "x2494": {
             "id": 2494,
             "points": 10,
             "patch": "5.21",
+            "cPrev": [2493],
+            "cCombo": [2524],
             "cSiblings": [
                 "title.491"
             ]

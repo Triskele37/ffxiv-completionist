@@ -85,7 +85,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.45",
+                "bsf.events.45",
                 "title.542"
             ]
         },
@@ -95,7 +95,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.47",
+                "bsf.events.47",
                 "title.543"
             ]
         },
@@ -105,7 +105,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.46",
+                "bsf.events.46",
                 "title.544"
             ]
         },
@@ -124,7 +124,7 @@
             "points": 10,
             "patch": "5.35",
             "cNext": [2681],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.0"]
+            "cSiblings": ["bsf.duties.0"]
         },
         "x2681": {
             "id": 2681,
@@ -195,7 +195,7 @@
             "id": 2762,
             "patch": "5.45",
             "cNext": [2763],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.1"]
+            "cSiblings": ["bsf.duties.1"]
         },
         "x2763": {
             "points": 10,
@@ -215,7 +215,7 @@
             "id": 2765,
             "patch": "5.45",
             "cNext": [2766],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.2"]
+            "cSiblings": ["bsf.duties.2"]
         },
         "x2766": {
             "points": 10,
@@ -239,7 +239,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.82",
+                "bsf.events.82",
                 "title.586"
             ]
         },
@@ -249,7 +249,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.63",
+                "bsf.events.63",
                 "title.587"
             ]
         },
@@ -259,7 +259,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.78",
+                "bsf.events.78",
                 "title.588"
             ]
         },
@@ -287,7 +287,7 @@
             "points": 10,
             "patch": "5.55",
             "cNext": [2875],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.3"]
+            "cSiblings": ["bsf.duties.3"]
         },
         "x2875": {
             "id": 2875,
@@ -309,6 +309,13 @@
             "id": 2882,
             "points": 10,
             "patch": "5.55",
+            "cPrevAt": {
+                "10": [
+                    "bsf.resistance-honors.0",
+                    "bsf.resistance-honors.1",
+                    "bsf.resistance-honors.2"
+                ]
+            },
             "cSiblings": [
                 "title.591"
             ]
@@ -317,7 +324,7 @@
             "id": 2883,
             "points": 10,
             "patch": "5.55",
-            "cAll": "duty.exploratory-missions.the-bozjan-southern-front.lost-actions"
+            "cPrev": ["bsf.lost-actions.all"]
         }
     }
 }

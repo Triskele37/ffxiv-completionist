@@ -1,17 +1,14 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Chaining
-    - Finalize Achievement > Items
-    - Finalize Achievement > Craft/Gather
-    - Finalize Achievement > Quests
-    - Finalize Achievement > Exploration
-    - Finalize Achievement > GC
+    - Finalize Achievement > Quests > Quests & Seasonal
     - Run through every section and test
 - Favorites - Pin groups and tasks
 
 **Change**
 
 **Fix**
+fr shb trials has duplicate headers
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**

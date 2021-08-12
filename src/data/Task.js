@@ -9,6 +9,7 @@ export class Task {
     chains; // array of related tasks to chain completion marking
 
     completionFlag = "N";
+    defaultCompletion; // Set by DataGroup
     // minValue = 0; // Define this for numeric completion tasks
     // maxValue = 42; // Define this for numeric completion tasks
 
@@ -16,7 +17,6 @@ export class Task {
     cPrev; // Tasks that must be completed if this one is
     cPrevAt; // cPrev for numeric completion tasks
     cPrevAny; // Tasks that, if any are completed, complete this one
-    cAll; // Shorthand for cPrev where link is a group
     cNext; // Tasks that cannot be completed without this one
     cSiblings; // Tasks that should mirror this one's completion
     cSiblingsAt; // cSiblings for numeric completion tasks
@@ -33,7 +33,7 @@ export class Task {
         });
 
         if(parent.isNumericCompletion) this.isNumericCompletion = true;
-        if(parent.cCombo) this.cCombo = parent.cCombo;
+        if(parent.cCombo) this.cCombo = this.cCombo ? this.cCombo.concat(parent.cCombo) : parent.cCombo;
 
         // Attach parent
         this._parent = parent;
@@ -62,13 +62,14 @@ export class Task {
 
     setCompletionNumber(newValue) {
         let previousValue = this.completionFlag;
+        if(isNaN(newValue)) newValue = isNaN(this.defaultCompletion) ? 0 : this.defaultCompletion;
         this.completionFlag = newValue.toString();
 
         // Restrict values to the minimum defined on the task
         if(parseFloat(previousValue) < this.minValue) previousValue = this.minValue.toString();
 
         // Prevent negative progression
-        if(isNaN(previousValue) || newValue < this.minValue) {
+        if(isNaN(previousValue) || isNaN(newValue) || newValue < this.minValue) {
             this._parent.updateCompleted(0);
         }
         else {

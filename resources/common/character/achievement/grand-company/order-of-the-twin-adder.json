@@ -1,36 +1,5 @@
 {
     "key": "order-of-the-twin-adder",
-    "chains": [
-        [
-            534,
-            535,
-            536,
-            537
-        ],
-        [
-            546,
-            547,
-            548,
-            549
-        ],
-        [
-            558,
-            559,
-            560,
-            561
-        ],
-        [
-            570,
-            571,
-            572,
-            573
-        ],
-        [
-            689,
-            690,
-            691
-        ]
-    ],
     "tasks": {
         "x528": {
             "id": 528,
@@ -40,17 +9,22 @@
         "x534": {
             "id": 534,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext":  [535]
         },
         "x535": {
             "id": 535,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev":  [534],
+            "cNext":  [536]
         },
         "x536": {
             "id": 536,
             "points": 10,
             "patch": "2.0",
+            "cPrev":  [535],
+            "cNext":  [537],
             "cSiblings": [
                 "title.90"
             ]
@@ -58,22 +32,28 @@
         "x537": {
             "id": 537,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [536]
         },
         "x546": {
             "id": 546,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [547]
         },
         "x547": {
             "id": 547,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [546],
+            "cNext": [548]
         },
         "x548": {
             "id": 548,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [547],
+            "cNext": [549],
             "cSiblings": [
                 "title.93"
             ]
@@ -81,22 +61,28 @@
         "x549": {
             "id": 549,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [548]
         },
         "x558": {
             "id": 558,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [559]
         },
         "x559": {
             "id": 559,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [558],
+            "cNext": [560]
         },
         "x560": {
             "id": 560,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [559],
+            "cNext": [561],
             "cSiblings": [
                 "title.96"
             ]
@@ -104,22 +90,28 @@
         "x561": {
             "id": 561,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [560]
         },
         "x570": {
             "id": 570,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [571]
         },
         "x571": {
             "id": 571,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [570],
+            "cNext": [572]
         },
         "x572": {
             "id": 572,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [571],
+            "cNext": [573],
             "cSiblings": [
                 "title.99"
             ]
@@ -127,27 +119,33 @@
         "x573": {
             "id": 573,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [572]
         },
         "x689": {
             "id": 689,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cNext": [690]
         },
         "x690": {
             "id": 690,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [689],
+            "cNext": [691]
         },
         "x691": {
             "id": 691,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [690]
         },
         "x737": {
             "id": 737,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["hl.order-of-the-twin-adder.all"]
         }
     }
 }
