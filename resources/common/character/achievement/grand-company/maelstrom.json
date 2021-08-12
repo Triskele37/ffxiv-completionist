@@ -1,36 +1,5 @@
 {
     "key": "maelstrom",
-    "chains": [
-        [
-            530,
-            531,
-            532,
-            533
-        ],
-        [
-            542,
-            543,
-            544,
-            545
-        ],
-        [
-            554,
-            555,
-            556,
-            557
-        ],
-        [
-            566,
-            567,
-            568,
-            569
-        ],
-        [
-            686,
-            687,
-            688
-        ]
-    ],
     "tasks": {
         "x527": {
             "id": 527,
@@ -40,17 +9,22 @@
         "x530": {
             "id": 530,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [531]
         },
         "x531": {
             "id": 531,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [530],
+            "cNext": [532]
         },
         "x532": {
             "id": 532,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [531],
+            "cNext": [533],
             "cSiblings": [
                 "title.89"
             ]
@@ -58,22 +32,28 @@
         "x533": {
             "id": 533,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [532]
         },
         "x542": {
             "id": 542,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [543]
         },
         "x543": {
             "id": 543,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [542],
+            "cNext": [544]
         },
         "x544": {
             "id": 544,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [543],
+            "cNext": [545],
             "cSiblings": [
                 "title.92"
             ]
@@ -81,22 +61,28 @@
         "x545": {
             "id": 545,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [544]
         },
         "x554": {
             "id": 554,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [555]
         },
         "x555": {
             "id": 555,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [554],
+            "cNext": [556]
         },
         "x556": {
             "id": 556,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [555],
+            "cNext": [557],
             "cSiblings": [
                 "title.95"
             ]
@@ -104,22 +90,28 @@
         "x557": {
             "id": 557,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [556]
         },
         "x566": {
             "id": 566,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cNext": [567]
         },
         "x567": {
             "id": 567,
             "points": 5,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [566],
+            "cNext": [568]
         },
         "x568": {
             "id": 568,
             "points": 10,
             "patch": "2.0",
+            "cPrev": [567],
+            "cNext": [569],
             "cSiblings": [
                 "title.98"
             ]
@@ -127,27 +119,33 @@
         "x569": {
             "id": 569,
             "points": 20,
-            "patch": "2.0"
+            "patch": "2.0",
+            "cPrev": [568]
         },
         "x686": {
             "id": 686,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cNext": [687]
         },
         "x687": {
             "id": 687,
             "points": 5,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [686],
+            "cNext": [688]
         },
         "x688": {
             "id": 688,
             "points": 10,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [687]
         },
         "x736": {
             "id": 736,
             "points": 20,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": ["hl.maelstrom.all"]
         }
     }
 }

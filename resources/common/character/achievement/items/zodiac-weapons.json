@@ -1,21 +1,39 @@
 {
     "key": "zodiac-weapons",
-    "chains": [
-        [
-            1054,
-            1081
-        ]
-    ],
     "tasks": {
         "x1054": {
             "id": 1054,
             "points": 10,
-            "patch": "2.45"
+            "patch": "2.45",
+            "cPrevAny": [
+                "arrRelic.6",
+                "arrRelic.14",
+                "arrRelic.22",
+                "arrRelic.30",
+                "arrRelic.38",
+                "arrRelic.46",
+                "arrRelic.54",
+                "arrRelic.62",
+                "arrRelic.70",
+                "arrRelic.78"
+            ]
         },
         "x1081": {
             "id": 1081,
             "points": 20,
             "patch": "2.51",
+            "cPrevAny": [
+                "arrRelic.7",
+                "arrRelic.15",
+                "arrRelic.23",
+                "arrRelic.31",
+                "arrRelic.39",
+                "arrRelic.47",
+                "arrRelic.55",
+                "arrRelic.63",
+                "arrRelic.71",
+                "arrRelic.79"
+            ],
             "cSiblings": [
                 "title.193"
             ]

@@ -53,10 +53,6 @@ export class Chainer {
 
         // cPrevAny cannot be chained
 
-        if(!!this.task.cAll && this.flag === "Y") {
-            this.applyAllChain();
-        }
-
         if(!!this.task.cNext && this.flag === "N") {
             this.applyChainedFlag(this.task.cNext);
         }
@@ -97,93 +93,57 @@ export class Chainer {
     }
 
     // Generic Chain
-    applyChainedFlag(chainedTasks) {
+    applyChainedFlag(cList) {
         const originalFlag = this.flag;
-        chainedTasks.forEach(
-            (link) => this.applyFlagToTask(originalFlag, this.getTaskFromLink(link))
-        );
+        this.getAllTasksFor(cList).forEach((task) => this.applyFlagToTask(originalFlag, task));
     }
 
-    applyChainedNumber(chainedTasks, num) {
-        chainedTasks.forEach(
-            (link) => this.applyNumberToTask(num, this.getTaskFromLink(link))
-        );
-    }
-
-    // All Chain (shorthand for cPrev with many targets in the same group)
-    applyAllChain() {
-        const linkedPath = this.task.cAll.split(".");
-        const linkedGroup = this.mapGroupLink(linkedPath, 'all');
-
-        for(let taskKey in linkedGroup.tasks) {
-            this.applyFlagToTask("Y", linkedGroup.tasks[taskKey]);
-        }
+    applyChainedNumber(cList, num) {
+        this.getAllTasksFor(cList).forEach((task) => this.applyNumberToTask(num, task));
     }
 
     // Combo Chain
     applyComboChain(comboAt) {
         const cCombo = !comboAt ? this.task.cCombo : this.task.cComboAt[comboAt];
 
-        cCombo.forEach((link) => {
-            const comboTask = this.getTaskFromLink(link);
-
+        this.getAllTasksFor(cCombo).forEach((comboTask) => {
             if(comboTask.cPrev) {
                 // Task requires all previous tasks
-                const allComplete = comboTask.cPrev.reduce((acc, pLink) => {
-                    const preReqTask = this.getTaskFromLink(pLink);
-                    return acc && preReqTask.completionFlag === "Y";
-                }, true);
+                const allComplete = this.getAllTasksFor(comboTask.cPrev)
+                    .reduce((acc, task) => acc && task.completionFlag === 'Y', true);
 
-                if(allComplete) this.applyFlagToTask("Y", comboTask);
-                else this.applyFlagToTask("N", comboTask);
+                if(allComplete) this.applyFlagToTask('Y', comboTask);
+                else this.applyFlagToTask('N', comboTask);
             }
             else if(comboTask.cPrevAt && comboTask.cPrevAt[comboAt]) {
                 // Task requires all previous tasks
-                const allComplete = comboTask.cPrevAt[comboAt].reduce((acc, pLink) => {
-                    const preReqTask = this.getTaskFromLink(pLink);
-                    return acc && parseInt(preReqTask.completionFlag) >= parseInt(comboAt);
-                }, true);
+                const allComplete = this.getAllTasksFor(comboTask.cPrevAt[comboAt])
+                    .reduce((acc, task) => acc && (parseInt(task.completionFlag) >= parseInt(comboAt)), true);
 
-                if(allComplete) this.applyFlagToTask("Y", comboTask);
-                else this.applyFlagToTask("N", comboTask);
+                if(allComplete) this.applyFlagToTask('Y', comboTask);
+                else this.applyFlagToTask('N', comboTask);
             }
             else if(comboTask.cPrevAny) {
                 // Task requires any of a previous task
-                const anyComplete = comboTask.cPrevAny.reduce((acc, pLink) => {
-                    const preReqTask = this.getTaskFromLink(pLink);
-                    return acc || preReqTask.completionFlag === "Y";
-                }, false);
+                const anyComplete = this.getAllTasksFor(comboTask.cPrevAny)
+                    .reduce((acc, task) => acc || (task.completionFlag === 'Y'), false);
 
-                if(anyComplete) this.applyFlagToTask("Y", comboTask);
-                else this.applyFlagToTask("N", comboTask);
-            }
-            else if(comboTask.cAll) {
-                const allGroup = this.mapGroupLink(comboTask.cAll, 'all');
-                const allComplete = Object.keys(allGroup.tasks).reduce((acc, taskKey) => {
-                    return acc && allGroup.tasks[taskKey].completionFlag === "Y";
-                }, true);
-
-                if(allComplete) this.applyFlagToTask("Y", comboTask);
-                else this.applyFlagToTask("N", comboTask);
+                if(anyComplete) this.applyFlagToTask('Y', comboTask);
+                else this.applyFlagToTask('N', comboTask);
             }
         });
     }
 
     // Exclude Chain
     applyExclusionChain() {
-        const isNum = typeof this.task.cExclude === "number";
-        const excludes = isNum ? [this.task.cExclude] : this.task.cExclude;
-
-        excludes.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
-            // Exclude the chain task if this one is marked Y
+        this.getAllTasksFor(this.task.cExclude).forEach((task) => {
+            // Exclude the task if the chaining one is marked Y
             if(this.task.completionFlag === "Y") {
-                this.applyFlagToTask("X", chainTask);
+                this.applyFlagToTask("X", task);
             }
-            // Unexclude chain task if this one is unmarked Y
-            else if(this.task.completionFlag === "N" && chainTask.completionFlag === "X") {
-                this.applyFlagToTask("N", chainTask);
+            // Unexclude task if the chaining one is unmarked Y
+            else if(this.task.completionFlag === "N" && task.completionFlag === "X") {
+                this.applyFlagToTask("N", task);
             }
             else if(this.task.completionFlag === "X") {
                 // merp
@@ -193,16 +153,14 @@ export class Chainer {
 
     // Exclusive Chain
     applyExclusiveChain() {
-        this.task.cExclusive.forEach((link) => {
-            const chainTask = this.getTaskFromLink(link);
-
+        this.getAllTasksFor(this.task.cExclusive).forEach((chainTask) => {
             if(this.flag === "X") {
                 this.applyFlagToTask("X", chainTask);
             }
             else if(this.flag === "N") {
                 // A breakage here means the starting city quests lost their cExcludes
-                this.task.cExclude.forEach(
-                    (el) => this.applyFlagToTask("N", this.getTaskFromLink(el))
+                this.getAllTasksFor(this.task.cExclude).forEach(
+                    (task) => this.applyFlagToTask("N", task)
                 );
                 this.applyFlagToTask("N", chainTask);
             }
@@ -269,6 +227,81 @@ export class Chainer {
         }
     }
 
+    getAllTasksFor(pLinkList) {
+        const list = Array.isArray(pLinkList) ? pLinkList : [pLinkList];
+
+        return list.reduce((acc, pLink) => {
+            const path = typeof pLink === 'string' ? pLink.split('.') : [pLink];
+            const id = path.pop().toString();
+
+            if(id === 'all' || id.includes('-')) { // task range link
+                const group = this.mapGroupLink(path, id);
+                const range = id === 'all' ? [-1, Infinity] : id.split('-').map((n) => parseInt(n));
+
+                Object.keys(group.tasks).forEach((taskKey) => {
+                    const taskId = group.tasks[taskKey].id;
+                    if(taskId >= range[0] && taskId <= range[1]) {
+                        acc.push(group.tasks[taskKey]);
+                    }
+                });
+            }
+            else { // single task link
+                acc.push(this.getTaskFromLink(pLink));
+            }
+
+            return acc;
+        }, []);
+    }
+
+    // Returns the group for a chain task, allowing shorthand for some groups
+    mapGroupLink(linkedPath, linkedID) {
+        // Allow linkedPath to be passed as a dot string or already split array of path
+        if(typeof linkedPath === 'string') linkedPath = linkedPath.split('.');
+
+        // Order these by largest section
+        let expandedPath;
+        switch(linkedPath[0]) {
+            case 'quest': expandedPath = 'duty.quests'; break;
+            case 'achievement': expandedPath = 'character.achievements'; break;
+            case 'jobQuest': expandedPath = 'duty.quests.class--job'; break;
+            case 'sidequest': expandedPath = 'duty.quests.sidequests'; break;
+            case 'levequest': expandedPath = 'duty.quests.levequests'; break;
+            case 'title': expandedPath = 'character.character.title'; break;
+            case 'emote': expandedPath = 'social.emotes'; break;
+            case 'hl': expandedPath = 'logs.hunting-log'; break;
+            case 'hunt': expandedPath = 'duty.dutyraid-finder.the-hunt'; break;
+            case 'trial': expandedPath = 'duty.dutyraid-finder.trials'; break;
+            case 'raid': expandedPath = 'duty.dutyraid-finder.raids'; break;
+            case 'dungeon': expandedPath = 'duty.dutyraid-finder.dungeons'; break;
+            case 'bsf': expandedPath = 'duty.exploratory-missions.the-bozjan-southern-front'; break;
+            case 'beastRep': expandedPath = 'character.character.beast-tribe-reputation'; break;
+            case 'arrRelic': expandedPath = 'character.relic-gear.zodiac'; break;
+            case 'lucis': expandedPath = 'character.relic-gear.lucis-tools'; break;
+            case 'hwRelic': expandedPath = 'character.relic-gear.anima'; break;
+            case 'sbRelic': expandedPath = 'character.relic-gear.eureka'; break;
+            case 'shbRelic': expandedPath = 'character.relic-gear.resistance'; break;
+            case 'skyRelic': expandedPath = 'character.relic-gear.skysteel-tools'; break;
+            case 'ss': expandedPath = 'logs.sightseeing-log'; break;
+            case 'fr': expandedPath = 'duty.collection.field-record'; break;
+            case 'job': expandedPath = 'character.character.classes--jobs'; break;
+            case 'konogg': expandedPath = 'duty.collection'; break;
+        }
+
+        // Not using shorthand path
+        if(!expandedPath) return this.overall.getChildGroupFromPath(linkedPath);
+
+        // Add remaining path segments back to expandedPath
+        if(linkedPath.length > 1) expandedPath += `.${linkedPath.slice(1).join('.')}`;
+
+        // Determine if the link is for a range or singular task
+        //   range links must path to a specific group
+        //   single task links can be an incomplete path
+        const isRangeLink = linkedID === 'all' || linkedID.toString().includes('-');
+
+        const group = this.overall.getChildGroupFromPath(expandedPath);
+        return isRangeLink ? group : group.getChildGroupWithTaskID(linkedID);
+    }
+
     getTaskFromLink(link) {
         let chainTask;
 
@@ -296,46 +329,5 @@ export class Chainer {
         return chainTask;
     }
 
-    // Returns the group for a chain task, allowing shorthand for some groups
-    mapGroupLink(linkedPath, linkedID) {
-        if(typeof linkedPath === 'string') linkedPath = linkedPath.split('.');
-
-        let expandedPath;
-        const replaceShorthand = (expanded) => expandedPath = expanded;
-
-        // Order these by largest section
-        switch(linkedPath[0]) {
-            case 'quest': expandedPath = 'duty.quests'; break;
-            case 'achievement': expandedPath = 'character.achievements'; break;
-            case 'jobQuest': expandedPath = 'duty.quests.class--job'; break;
-            case 'sidequest': expandedPath = 'duty.quests.sidequests'; break;
-            case 'levequest': expandedPath = 'duty.quests.levequests'; break;
-            case 'title': expandedPath = 'character.character.title'; break;
-            case 'emote': expandedPath = 'social.emotes'; break;
-            case 'hl': expandedPath = 'logs.hunting-log'; break;
-            case 'hunt': expandedPath = 'duty.dutyraid-finder.the-hunt'; break;
-            case 'trial': expandedPath = 'duty.dutyraid-finder.trials'; break;
-            case 'raid': expandedPath = 'duty.dutyraid-finder.raids'; break;
-            case 'dungeon': expandedPath = 'duty.dutyraid-finder.dungeons'; break;
-            case 'beastRep': expandedPath = 'character.character.beast-tribe-reputation'; break;
-            case 'arrRelic': expandedPath = 'character.relic-gear.zodiac'; break;
-            case 'hwRelic': expandedPath = 'character.relic-gear.anima'; break;
-            case 'sbRelic': expandedPath = 'character.relic-gear.eureka'; break;
-            case 'shbRelic': expandedPath = 'character.relic-gear.resistance'; break;
-            case 'skyRelic': expandedPath = 'character.relic-gear.skysteel-tools'; break;
-            case 'job': expandedPath = 'character.character.classes--jobs'; break;
-            case 'konogg': expandedPath = 'duty.collection'; break;
-        }
-
-        // Not using shorthand path
-        if(!expandedPath) {
-            return this.overall.getChildGroupFromPath(linkedPath);
-        }
-
-        // Using shorthand path
-        if(linkedPath.length > 1) expandedPath += `.${linkedPath.slice(1).join('.')}`;
-        const group = this.overall.getChildGroupFromPath(expandedPath);
-        return (linkedID === 'all') ? group : group.getChildGroupWithTaskID(linkedID);
-    }
     //#endregion
 }
