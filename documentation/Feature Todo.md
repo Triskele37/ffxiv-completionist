@@ -1,7 +1,7 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Chaining
-    - Finalize Achievement > Quests > Quests & Seasonal
+    - Finalize Achievement > Quests > Seasonal
     - Run through every section and test
 - Favorites - Pin groups and tasks
 
@@ -18,6 +18,7 @@ fr shb trials has duplicate headers
 - notification bubbles to any unread instructions (use config store)
 
 **Change**
+- Searching UX
 - remove group level chain prop
 - electron-vue to angular-electron
 - PrimeNG for UI components and app theme
