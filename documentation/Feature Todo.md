@@ -1,7 +1,6 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Chaining
-    - Finalize Achievement > Quests > Seasonal
     - Run through every section and test
 - Favorites - Pin groups and tasks
 
