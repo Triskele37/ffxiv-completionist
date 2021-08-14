@@ -175,7 +175,7 @@
         },
         watch: {
             group: function(oldGroup, newGroup) {
-                if(oldGroup.name !== newGroup.name) {
+                if(newGroup && oldGroup.name !== newGroup.name) {
                     this.$refs.taskTable.scrollTop = 0;
                 }
             }

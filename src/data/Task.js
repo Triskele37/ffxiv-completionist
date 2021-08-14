@@ -79,31 +79,31 @@ export class Task {
 
     //#region------------------------------------------------------------------ Chaining
     changeCompletionFlag(toFlag, firstInChain) {
-        if(this.shouldChain(firstInChain, toFlag)) {
+        // Dodge all of this if chaining is disabled
+        if(!eStore.get('chaining-enabled')) {
+            this.setCompletionFlag(toFlag);
+        }
+        else if(this.shouldChain(firstInChain, toFlag)) {
             const fromFlag = this.completionFlag;
             this.setCompletionFlag(toFlag);
-
             this.chain(firstInChain, fromFlag, toFlag);
         }
     }
 
     changeCompletionNumber(toNum, firstInChain) {
-        if(this.shouldChain(firstInChain, toNum)) {
+        // Dodge all of this if chaining is disabled
+        if(!eStore.get('chaining-enabled')) {
+            this.setCompletionNumber(toFlag);
+        }
+        else if(this.shouldChain(firstInChain, toNum)) {
             const fromNum = this.completionFlag;
             this.setCompletionNumber(toNum);
-
             this.chain(firstInChain, fromNum, toNum);
         }
     }
 
     // Checks performed before setting the new flag and chaining
     shouldChain(firstInChain, toFlag) {
-        // Dodge all of this if chaining is disabled
-        if(!eStore.get('chaining-enabled')) {
-            this.setCompletionNumber(toFlag);
-            return false;
-        }
-
         // Don't continue if the current number is already whats being pushed
         if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
