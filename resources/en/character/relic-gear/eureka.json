@@ -2,1441 +2,1201 @@
     "groupName": "Eureka",
     "tasks": {
         "x0": {
-            "id": 0,
             "job": "Astrologian",
             "name": "Antiquated Pleiades",
             "requirements": "-"
         },
         "x1": {
-            "id": 1,
             "job": "Astrologian",
             "name": "Pleiades",
             "requirements": "Protean Crystal x100"
         },
         "x2": {
-            "id": 2,
             "job": "Astrologian",
             "name": "Pleiades +1",
             "requirements": "Protean Crystal x400"
         },
         "x3": {
-            "id": 3,
             "job": "Astrologian",
             "name": "Pleiades +2",
             "requirements": "Protean Crystal x800"
         },
         "x4": {
-            "id": 4,
             "job": "Astrologian",
             "name": "Pleiades Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x5": {
-            "id": 5,
             "job": "Astrologian",
             "name": "Pleiades Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x6": {
-            "id": 6,
             "job": "Astrologian",
             "name": "Pleiades Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x7": {
-            "id": 7,
             "job": "Astrologian",
             "name": "Elemental Astrometer",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x8": {
-            "id": 8,
             "job": "Astrologian",
             "name": "Elemental Astrometer +1",
             "requirements": "Pyros Crystal x150"
         },
         "x9": {
-            "id": 9,
             "job": "Astrologian",
             "name": "Elemental Astrometer +2",
             "requirements": "Pyros Crystal x200"
         },
         "x10": {
-            "id": 10,
             "job": "Astrologian",
             "name": "Pyros Astrometer",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x11": {
-            "id": 11,
             "job": "Astrologian",
             "name": "Hydatos Astrometer",
             "requirements": "Hydatos Crystal x50"
         },
         "x12": {
-            "id": 12,
             "job": "Astrologian",
             "name": "Hydatos Astrometer +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x13": {
-            "id": 13,
             "job": "Astrologian",
             "name": "Albireo",
             "requirements": "Hydatos Crystal x100"
         },
         "x14": {
-            "id": 14,
             "job": "Astrologian",
             "name": "Albireo Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x15": {
-            "id": 15,
             "job": "Astrologian",
             "name": "Albireo Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x16": {
-            "id": 16,
             "job": "Bard",
             "name": "Antiquated Failnaught",
             "requirements": "-"
         },
         "x17": {
-            "id": 17,
             "job": "Bard",
             "name": "Failnaught",
             "requirements": "Protean Crystal x100"
         },
         "x18": {
-            "id": 18,
             "job": "Bard",
             "name": "Failnaught +1",
             "requirements": "Protean Crystal x400"
         },
         "x19": {
-            "id": 19,
             "job": "Bard",
             "name": "Failnaught +2",
             "requirements": "Protean Crystal x800"
         },
         "x20": {
-            "id": 20,
             "job": "Bard",
             "name": "Failnaught Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x21": {
-            "id": 21,
             "job": "Bard",
             "name": "Failnaught Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x22": {
-            "id": 22,
             "job": "Bard",
             "name": "Failnaught Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x23": {
-            "id": 23,
             "job": "Bard",
             "name": "Elemental Harp Bow",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x24": {
-            "id": 24,
             "job": "Bard",
             "name": "Elemental Harp Bow +1",
             "requirements": "Pyros Crystal x150"
         },
         "x25": {
-            "id": 25,
             "job": "Bard",
             "name": "Elemental Harp Bow +2",
             "requirements": "Pyros Crystal x200"
         },
         "x26": {
-            "id": 26,
             "job": "Bard",
             "name": "Pyros Harp Bow",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x27": {
-            "id": 27,
             "job": "Bard",
             "name": "Hydatos Harp Bow",
             "requirements": "Hydatos Crystal x50"
         },
         "x28": {
-            "id": 28,
             "job": "Bard",
             "name": "Hydatos Harp Bow +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x29": {
-            "id": 29,
             "job": "Bard",
             "name": "Circinae",
             "requirements": "Hydatos Crystal x100"
         },
         "x30": {
-            "id": 30,
             "job": "Bard",
             "name": "Circinae Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x31": {
-            "id": 31,
             "job": "Bard",
             "name": "Circinae Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x32": {
-            "id": 32,
             "job": "Black Mage",
             "name": "Antiquated Vanargand",
             "requirements": "-"
         },
         "x33": {
-            "id": 33,
             "job": "Black Mage",
             "name": "Vanargand",
             "requirements": "Protean Crystal x100"
         },
         "x34": {
-            "id": 34,
             "job": "Black Mage",
             "name": "Vanargand +1",
             "requirements": "Protean Crystal x400"
         },
         "x35": {
-            "id": 35,
             "job": "Black Mage",
             "name": "Vanargand +2",
             "requirements": "Protean Crystal x800"
         },
         "x36": {
-            "id": 36,
             "job": "Black Mage",
             "name": "Vanargand Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x37": {
-            "id": 37,
             "job": "Black Mage",
             "name": "Vanargand Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x38": {
-            "id": 38,
             "job": "Black Mage",
             "name": "Vanargand Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x39": {
-            "id": 39,
             "job": "Black Mage",
             "name": "Elemental Rod",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x40": {
-            "id": 40,
             "job": "Black Mage",
             "name": "Elemental Rod +1",
             "requirements": "Pyros Crystal x150"
         },
         "x41": {
-            "id": 41,
             "job": "Black Mage",
             "name": "Elemental Rod +2",
             "requirements": "Pyros Crystal x200"
         },
         "x42": {
-            "id": 42,
             "job": "Black Mage",
             "name": "Pyros Rod",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x43": {
-            "id": 43,
             "job": "Black Mage",
             "name": "Hydatos Rod",
             "requirements": "Hydatos Crystal x50"
         },
         "x44": {
-            "id": 44,
             "job": "Black Mage",
             "name": "Hydatos Rod +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x45": {
-            "id": 45,
             "job": "Black Mage",
             "name": "Paikea",
             "requirements": "Hydatos Crystal x100"
         },
         "x46": {
-            "id": 46,
             "job": "Black Mage",
             "name": "Paikea Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x47": {
-            "id": 47,
             "job": "Black Mage",
             "name": "Paikea Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x48": {
-            "id": 48,
             "job": "Dark Knight",
             "name": "Antiquated Caladbolg",
             "requirements": "-"
         },
         "x49": {
-            "id": 49,
             "job": "Dark Knight",
             "name": "Caladbolg",
             "requirements": "Protean Crystal x100"
         },
         "x50": {
-            "id": 50,
             "job": "Dark Knight",
             "name": "Caladbolg +1",
             "requirements": "Protean Crystal x400"
         },
         "x51": {
-            "id": 51,
             "job": "Dark Knight",
             "name": "Caladbolg +2",
             "requirements": "Protean Crystal x800"
         },
         "x52": {
-            "id": 52,
             "job": "Dark Knight",
             "name": "Caladbolg Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x53": {
-            "id": 53,
             "job": "Dark Knight",
             "name": "Caladbolg Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x54": {
-            "id": 54,
             "job": "Dark Knight",
             "name": "Caladbolg Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x55": {
-            "id": 55,
             "job": "Dark Knight",
             "name": "Elemental Guillotine",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x56": {
-            "id": 56,
             "job": "Dark Knight",
             "name": "Elemental Guillotine +1",
             "requirements": "Pyros Crystal x150"
         },
         "x57": {
-            "id": 57,
             "job": "Dark Knight",
             "name": "Elemental Guillotine +2",
             "requirements": "Pyros Crystal x200"
         },
         "x58": {
-            "id": 58,
             "job": "Dark Knight",
             "name": "Pyros Guillotine",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x59": {
-            "id": 59,
             "job": "Dark Knight",
             "name": "Hydatos Guillotine",
             "requirements": "Hydatos Crystal x50"
         },
         "x60": {
-            "id": 60,
             "job": "Dark Knight",
             "name": "Hydatos Guillotine +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x61": {
-            "id": 61,
             "job": "Dark Knight",
             "name": "Xiphias",
             "requirements": "Hydatos Crystal x100"
         },
         "x62": {
-            "id": 62,
             "job": "Dark Knight",
             "name": "Xiphias Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x63": {
-            "id": 63,
             "job": "Dark Knight",
             "name": "Xiphias Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x64": {
-            "id": 64,
             "job": "Dragoon",
             "name": "Antiquated Ryunohige",
             "requirements": "-"
         },
         "x65": {
-            "id": 65,
             "job": "Dragoon",
             "name": "Ryunohige",
             "requirements": "Protean Crystal x100"
         },
         "x66": {
-            "id": 66,
             "job": "Dragoon",
             "name": "Ryunohige +1",
             "requirements": "Protean Crystal x400"
         },
         "x67": {
-            "id": 67,
             "job": "Dragoon",
             "name": "Ryunohige +2",
             "requirements": "Protean Crystal x800"
         },
         "x68": {
-            "id": 68,
             "job": "Dragoon",
             "name": "Ryunohige Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x69": {
-            "id": 69,
             "job": "Dragoon",
             "name": "Ryunohige Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x70": {
-            "id": 70,
             "job": "Dragoon",
             "name": "Ryunohige Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x71": {
-            "id": 71,
             "job": "Dragoon",
             "name": "Elemental Lance",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x72": {
-            "id": 72,
             "job": "Dragoon",
             "name": "Elemental Lance +1",
             "requirements": "Pyros Crystal x150"
         },
         "x73": {
-            "id": 73,
             "job": "Dragoon",
             "name": "Elemental Lance +2",
             "requirements": "Pyros Crystal x200"
         },
         "x74": {
-            "id": 74,
             "job": "Dragoon",
             "name": "Pyros Lance",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x75": {
-            "id": 75,
             "job": "Dragoon",
             "name": "Hydatos Lance",
             "requirements": "Hydatos Crystal x50"
         },
         "x76": {
-            "id": 76,
             "job": "Dragoon",
             "name": "Hydatos Lance +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x77": {
-            "id": 77,
             "job": "Dragoon",
             "name": "Daboya",
             "requirements": "Hydatos Crystal x100"
         },
         "x78": {
-            "id": 78,
             "job": "Dragoon",
             "name": "Daboya Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x79": {
-            "id": 79,
             "job": "Dragoon",
             "name": "Daboya Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x80": {
-            "id": 80,
             "job": "Machinist",
             "name": "Antiquated Outsider",
             "requirements": "-"
         },
         "x81": {
-            "id": 81,
             "job": "Machinist",
             "name": "Outsider",
             "requirements": "Protean Crystal x100"
         },
         "x82": {
-            "id": 82,
             "job": "Machinist",
             "name": "Outsider +1",
             "requirements": "Protean Crystal x400"
         },
         "x83": {
-            "id": 83,
             "job": "Machinist",
             "name": "Outsider +2",
             "requirements": "Protean Crystal x800"
         },
         "x84": {
-            "id": 84,
             "job": "Machinist",
             "name": "Outsider Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x85": {
-            "id": 85,
             "job": "Machinist",
             "name": "Outsider Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x86": {
-            "id": 86,
             "job": "Machinist",
             "name": "Outsider Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x87": {
-            "id": 87,
             "job": "Machinist",
             "name": "Elemental Handgonne",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x88": {
-            "id": 88,
             "job": "Machinist",
             "name": "Elemental Handgonne +1",
             "requirements": "Pyros Crystal x150"
         },
         "x89": {
-            "id": 89,
             "job": "Machinist",
             "name": "Elemental Handgonne +2",
             "requirements": "Pyros Crystal x200"
         },
         "x90": {
-            "id": 90,
             "job": "Machinist",
             "name": "Pyros Handgonne",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x91": {
-            "id": 91,
             "job": "Machinist",
             "name": "Hydatos Handgonne",
             "requirements": "Hydatos Crystal x50"
         },
         "x92": {
-            "id": 92,
             "job": "Machinist",
             "name": "Hydatos Handgonne +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x93": {
-            "id": 93,
             "job": "Machinist",
             "name": "Mollfrith",
             "requirements": "Hydatos Crystal x100"
         },
         "x94": {
-            "id": 94,
             "job": "Machinist",
             "name": "Mollfrith Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x95": {
-            "id": 95,
             "job": "Machinist",
             "name": "Mollfrith Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x96": {
-            "id": 96,
             "job": "Monk",
             "name": "Antiquated Sudarshana Chakra",
             "requirements": "-"
         },
         "x97": {
-            "id": 97,
             "job": "Monk",
             "name": "Sudarshana Chakra",
             "requirements": "Protean Crystal x100"
         },
         "x98": {
-            "id": 98,
             "job": "Monk",
             "name": "Sudarshana Chakra +1",
             "requirements": "Protean Crystal x400"
         },
         "x99": {
-            "id": 99,
             "job": "Monk",
             "name": "Sudarshana Chakra +2",
             "requirements": "Protean Crystal x800"
         },
         "x100": {
-            "id": 100,
             "job": "Monk",
             "name": "Sudarshana Chakra Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x101": {
-            "id": 101,
             "job": "Monk",
             "name": "Sudarshana Chakra Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x102": {
-            "id": 102,
             "job": "Monk",
             "name": "Sudarshana Chakra Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x103": {
-            "id": 103,
             "job": "Monk",
             "name": "Elemental Knuckles",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x104": {
-            "id": 104,
             "job": "Monk",
             "name": "Elemental Knuckles +1",
             "requirements": "Pyros Crystal x150"
         },
         "x105": {
-            "id": 105,
             "job": "Monk",
             "name": "Elemental Knuckles +2",
             "requirements": "Pyros Crystal x200"
         },
         "x106": {
-            "id": 106,
             "job": "Monk",
             "name": "Pyros Knuckles",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x107": {
-            "id": 107,
             "job": "Monk",
             "name": "Hydatos Knuckles",
             "requirements": "Hydatos Crystal x50"
         },
         "x108": {
-            "id": 108,
             "job": "Monk",
             "name": "Hydatos Knuckles +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x109": {
-            "id": 109,
             "job": "Monk",
             "name": "Dumuzis",
             "requirements": "Hydatos Crystal x100"
         },
         "x110": {
-            "id": 110,
             "job": "Monk",
             "name": "Dumuzis Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x111": {
-            "id": 111,
             "job": "Monk",
             "name": "Dumuzis Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x112": {
-            "id": 112,
             "job": "Ninja",
             "name": "Antiquated Nagi",
             "requirements": "-"
         },
         "x113": {
-            "id": 113,
             "job": "Ninja",
             "name": "Nagi",
             "requirements": "Protean Crystal x100"
         },
         "x114": {
-            "id": 114,
             "job": "Ninja",
             "name": "Nagi +1",
             "requirements": "Protean Crystal x400"
         },
         "x115": {
-            "id": 115,
             "job": "Ninja",
             "name": "Nagi +2",
             "requirements": "Protean Crystal x800"
         },
         "x116": {
-            "id": 116,
             "job": "Ninja",
             "name": "Nagi Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x117": {
-            "id": 117,
             "job": "Ninja",
             "name": "Nagi Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x118": {
-            "id": 118,
             "job": "Ninja",
             "name": "Nagi Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x119": {
-            "id": 119,
             "job": "Ninja",
             "name": "Elemental Knives",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x120": {
-            "id": 120,
             "job": "Ninja",
             "name": "Elemental Knives +1",
             "requirements": "Pyros Crystal x150"
         },
         "x121": {
-            "id": 121,
             "job": "Ninja",
             "name": "Elemental Knives +2",
             "requirements": "Pyros Crystal x200"
         },
         "x122": {
-            "id": 122,
             "job": "Ninja",
             "name": "Pyros Knives",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x123": {
-            "id": 123,
             "job": "Ninja",
             "name": "Hydatos Knives",
             "requirements": "Hydatos Crystal x50"
         },
         "x124": {
-            "id": 124,
             "job": "Ninja",
             "name": "Hydatos Knives +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x125": {
-            "id": 125,
             "job": "Ninja",
             "name": "Kasasagi",
             "requirements": "Hydatos Crystal x100"
         },
         "x126": {
-            "id": 126,
             "job": "Ninja",
             "name": "Kasasagi Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x127": {
-            "id": 127,
             "job": "Ninja",
             "name": "Kasasagi Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x128": {
-            "id": 128,
             "job": "Paladin",
             "name": "Antiquated Galatyn & Antiquated Evalach",
             "requirements": "-"
         },
         "x129": {
-            "id": 129,
             "job": "Paladin",
             "name": "Galatyn & Evalach",
             "requirements": "Protean Crystal x100"
         },
         "x130": {
-            "id": 130,
             "job": "Paladin",
             "name": "Galatyn +1 & Evalach +1",
             "requirements": "Protean Crystal x400"
         },
         "x131": {
-            "id": 131,
             "job": "Paladin",
             "name": "Galatyn +2 & Evalach +2",
             "requirements": "Protean Crystal x800"
         },
         "x132": {
-            "id": 132,
             "job": "Paladin",
             "name": "Galatyn Anemos & Evalach Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x133": {
-            "id": 133,
             "job": "Paladin",
             "name": "Galatyn Pagos & Evalach Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x134": {
-            "id": 134,
             "job": "Paladin",
             "name": "Galatyn Pagos +1 & Evalach Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x135": {
-            "id": 135,
             "job": "Paladin",
             "name": "Elemental Sword & Elemental Shield",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x136": {
-            "id": 136,
             "job": "Paladin",
             "name": "Elemental Sword +1 & Elemental Shield +1",
             "requirements": "Pyros Crystal x150"
         },
         "x137": {
-            "id": 137,
             "job": "Paladin",
             "name": "Elemental Sword +2 & Elemental Shield +2",
             "requirements": "Pyros Crystal x200"
         },
         "x138": {
-            "id": 138,
             "job": "Paladin",
             "name": "Pyros Sword & Pyros Shield",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x139": {
-            "id": 139,
             "job": "Paladin",
             "name": "Hydatos Sword & Hydatos Shield",
             "requirements": "Hydatos Crystal x50"
         },
         "x140": {
-            "id": 140,
             "job": "Paladin",
             "name": "Hydatos Sword +1 & Hydatos Shield +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x141": {
-            "id": 141,
             "job": "Paladin",
             "name": "Antea & Bellerophon",
             "requirements": "Hydatos Crystal x100"
         },
         "x142": {
-            "id": 142,
             "job": "Paladin",
             "name": "Antea Eureka & Bellerophon Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x143": {
-            "id": 143,
             "job": "Paladin",
             "name": "Antea Physeos & Bellerophon Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x144": {
-            "id": 144,
             "job": "Red Mage",
             "name": "Antiquated Murgleis",
             "requirements": "-"
         },
         "x145": {
-            "id": 145,
             "job": "Red Mage",
             "name": "Murgleis",
             "requirements": "Protean Crystal x100"
         },
         "x146": {
-            "id": 146,
             "job": "Red Mage",
             "name": "Murgleis +1",
             "requirements": "Protean Crystal x400"
         },
         "x147": {
-            "id": 147,
             "job": "Red Mage",
             "name": "Murgleis +2",
             "requirements": "Protean Crystal x800"
         },
         "x148": {
-            "id": 148,
             "job": "Red Mage",
             "name": "Murgleis Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x149": {
-            "id": 149,
             "job": "Red Mage",
             "name": "Murgleis Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x150": {
-            "id": 150,
             "job": "Red Mage",
             "name": "Murgleis Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x151": {
-            "id": 151,
             "job": "Red Mage",
             "name": "Elemental Tuck",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x152": {
-            "id": 152,
             "job": "Red Mage",
             "name": "Elemental Tuck +1",
             "requirements": "Pyros Crystal x150"
         },
         "x153": {
-            "id": 153,
             "job": "Red Mage",
             "name": "Elemental Tuck +2",
             "requirements": "Pyros Crystal x200"
         },
         "x154": {
-            "id": 154,
             "job": "Red Mage",
             "name": "Pyros Tuck",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x155": {
-            "id": 155,
             "job": "Red Mage",
             "name": "Hydatos Tuck",
             "requirements": "Hydatos Crystal x50"
         },
         "x156": {
-            "id": 156,
             "job": "Red Mage",
             "name": "Hydatos Tuck +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x157": {
-            "id": 157,
             "job": "Red Mage",
             "name": "Brunello",
             "requirements": "Hydatos Crystal x100"
         },
         "x158": {
-            "id": 158,
             "job": "Red Mage",
             "name": "Brunello Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x159": {
-            "id": 159,
             "job": "Red Mage",
             "name": "Brunello Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x160": {
-            "id": 160,
             "job": "Samurai",
             "name": "Antiquated Kiku-ichimonji",
             "requirements": "-"
         },
         "x161": {
-            "id": 161,
             "job": "Samurai",
             "name": "Kiku-ichimonji",
             "requirements": "Protean Crystal x100"
         },
         "x162": {
-            "id": 162,
             "job": "Samurai",
             "name": "Kiku-ichimonji +1",
             "requirements": "Protean Crystal x400"
         },
         "x163": {
-            "id": 163,
             "job": "Samurai",
             "name": "Kiku-ichimonji +2",
             "requirements": "Protean Crystal x800"
         },
         "x164": {
-            "id": 164,
             "job": "Samurai",
             "name": "Kiku-ichimonji Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x165": {
-            "id": 165,
             "job": "Samurai",
             "name": "Kiku-ichimonji Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x166": {
-            "id": 166,
             "job": "Samurai",
             "name": "Kiku-ichimonji Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x167": {
-            "id": 167,
             "job": "Samurai",
             "name": "Elemental Blade",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x168": {
-            "id": 168,
             "job": "Samurai",
             "name": "Elemental Blade +1",
             "requirements": "Pyros Crystal x150"
         },
         "x169": {
-            "id": 169,
             "job": "Samurai",
             "name": "Elemental Blade +2",
             "requirements": "Pyros Crystal x200"
         },
         "x170": {
-            "id": 170,
             "job": "Samurai",
             "name": "Pyros Blade",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x171": {
-            "id": 171,
             "job": "Samurai",
             "name": "Hydatos Blade",
             "requirements": "Hydatos Crystal x50"
         },
         "x172": {
-            "id": 172,
             "job": "Samurai",
             "name": "Hydatos Blade +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x173": {
-            "id": 173,
             "job": "Samurai",
             "name": "Torigashira",
             "requirements": "Hydatos Crystal x100"
         },
         "x174": {
-            "id": 174,
             "job": "Samurai",
             "name": "Torigashira Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x175": {
-            "id": 175,
             "job": "Samurai",
             "name": "Torigashira Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x176": {
-            "id": 176,
             "job": "Scholar",
             "name": "Antiquated Organum",
             "requirements": "-"
         },
         "x177": {
-            "id": 177,
             "job": "Scholar",
             "name": "Organum",
             "requirements": "Protean Crystal x100"
         },
         "x178": {
-            "id": 178,
             "job": "Scholar",
             "name": "Organum +1",
             "requirements": "Protean Crystal x400"
         },
         "x179": {
-            "id": 179,
             "job": "Scholar",
             "name": "Organum +2",
             "requirements": "Protean Crystal x800"
         },
         "x180": {
-            "id": 180,
             "job": "Scholar",
             "name": "Organum Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x181": {
-            "id": 181,
             "job": "Scholar",
             "name": "Organum Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x182": {
-            "id": 182,
             "job": "Scholar",
             "name": "Organum Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x183": {
-            "id": 183,
             "job": "Scholar",
             "name": "Elemental Codex",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x184": {
-            "id": 184,
             "job": "Scholar",
             "name": "Elemental Codex +1",
             "requirements": "Pyros Crystal x150"
         },
         "x185": {
-            "id": 185,
             "job": "Scholar",
             "name": "Elemental Codex +2",
             "requirements": "Pyros Crystal x200"
         },
         "x186": {
-            "id": 186,
             "job": "Scholar",
             "name": "Pyros Codex",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x187": {
-            "id": 187,
             "job": "Scholar",
             "name": "Hydatos Codex",
             "requirements": "Hydatos Crystal x50"
         },
         "x188": {
-            "id": 188,
             "job": "Scholar",
             "name": "Hydatos Codex +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x189": {
-            "id": 189,
             "job": "Scholar",
             "name": "Jebat",
             "requirements": "Hydatos Crystal x100"
         },
         "x190": {
-            "id": 190,
             "job": "Scholar",
             "name": "Jebat Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x191": {
-            "id": 191,
             "job": "Scholar",
             "name": "Jebat Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x192": {
-            "id": 192,
             "job": "Summoner",
             "name": "Antiquated Lemegeton",
             "requirements": "-"
         },
         "x193": {
-            "id": 193,
             "job": "Summoner",
             "name": "Lemegeton",
             "requirements": "Protean Crystal x100"
         },
         "x194": {
-            "id": 194,
             "job": "Summoner",
             "name": "Lemegeton +1",
             "requirements": "Protean Crystal x400"
         },
         "x195": {
-            "id": 195,
             "job": "Summoner",
             "name": "Lemegeton +2",
             "requirements": "Protean Crystal x800"
         },
         "x196": {
-            "id": 196,
             "job": "Summoner",
             "name": "Lemegeton Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x197": {
-            "id": 197,
             "job": "Summoner",
             "name": "Lemegeton Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x198": {
-            "id": 198,
             "job": "Summoner",
             "name": "Lemegeton Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x199": {
-            "id": 199,
             "job": "Summoner",
             "name": "Elemental Grimoire",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x200": {
-            "id": 200,
             "job": "Summoner",
             "name": "Elemental Grimoire +1",
             "requirements": "Pyros Crystal x150"
         },
         "x201": {
-            "id": 201,
             "job": "Summoner",
             "name": "Elemental Grimoire +2",
             "requirements": "Pyros Crystal x200"
         },
         "x202": {
-            "id": 202,
             "job": "Summoner",
             "name": "Pyros Grimoire",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x203": {
-            "id": 203,
             "job": "Summoner",
             "name": "Hydatos Grimoire",
             "requirements": "Hydatos Crystal x50"
         },
         "x204": {
-            "id": 204,
             "job": "Summoner",
             "name": "Hydatos Grimoire +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x205": {
-            "id": 205,
             "job": "Summoner",
             "name": "Tuah",
             "requirements": "Hydatos Crystal x100"
         },
         "x206": {
-            "id": 206,
             "job": "Summoner",
             "name": "Tuah Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x207": {
-            "id": 207,
             "job": "Summoner",
             "name": "Tuah Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x208": {
-            "id": 208,
             "job": "Warrior",
             "name": "Antiquated Farsha",
             "requirements": "-"
         },
         "x209": {
-            "id": 209,
             "job": "Warrior",
             "name": "Farsha",
             "requirements": "Protean Crystal x100"
         },
         "x210": {
-            "id": 210,
             "job": "Warrior",
             "name": "Farsha +1",
             "requirements": "Protean Crystal x400"
         },
         "x211": {
-            "id": 211,
             "job": "Warrior",
             "name": "Farsha +2",
             "requirements": "Protean Crystal x800"
         },
         "x212": {
-            "id": 212,
             "job": "Warrior",
             "name": "Farsha Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x213": {
-            "id": 213,
             "job": "Warrior",
             "name": "Farsha Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x214": {
-            "id": 214,
             "job": "Warrior",
             "name": "Farsha Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x215": {
-            "id": 215,
             "job": "Warrior",
             "name": "Elemental Battleaxe",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x216": {
-            "id": 216,
             "job": "Warrior",
             "name": "Elemental Battleaxe +1",
             "requirements": "Pyros Crystal x150"
         },
         "x217": {
-            "id": 217,
             "job": "Warrior",
             "name": "Elemental Battleaxe +2",
             "requirements": "Pyros Crystal x200"
         },
         "x218": {
-            "id": 218,
             "job": "Warrior",
             "name": "Pyros Battleaxe",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x219": {
-            "id": 219,
             "job": "Warrior",
             "name": "Hydatos Battleaxe",
             "requirements": "Hydatos Crystal x50"
         },
         "x220": {
-            "id": 220,
             "job": "Warrior",
             "name": "Hydatos Battleaxe +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x221": {
-            "id": 221,
             "job": "Warrior",
             "name": "Shamash",
             "requirements": "Hydatos Crystal x100"
         },
         "x222": {
-            "id": 222,
             "job": "Warrior",
             "name": "Shamash Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x223": {
-            "id": 223,
             "job": "Warrior",
             "name": "Shamash Physeos",
             "requirements": "Eureka Fragment x100"
         },
         "x224": {
-            "id": 224,
             "job": "White Mage",
             "name": "Antiquated Aymur",
             "requirements": "-"
         },
         "x225": {
-            "id": 225,
             "job": "White Mage",
             "name": "Aymur",
             "requirements": "Protean Crystal x100"
         },
         "x226": {
-            "id": 226,
             "job": "White Mage",
             "name": "Aymur +1",
             "requirements": "Protean Crystal x400"
         },
         "x227": {
-            "id": 227,
             "job": "White Mage",
             "name": "Aymur +2",
             "requirements": "Protean Crystal x800"
         },
         "x228": {
-            "id": 228,
             "job": "White Mage",
             "name": "Aymur Anemos",
             "requirements": "Pazuzu Feather x3"
         },
         "x229": {
-            "id": 229,
             "job": "White Mage",
             "name": "Aymur Pagos",
             "requirements": "Frosted Protean Crystal x5"
         },
         "x230": {
-            "id": 230,
             "job": "White Mage",
             "name": "Aymur Pagos +1",
             "requirements": "Frosted Protean Crystal x10, Pagos Crystal x500"
         },
         "x231": {
-            "id": 231,
             "job": "White Mage",
             "name": "Elemental Cane",
             "requirements": "Frosted Protean Crystal x16, Louhi Ice x5"
         },
         "x232": {
-            "id": 232,
             "job": "White Mage",
             "name": "Elemental Cane +1",
             "requirements": "Pyros Crystal x150"
         },
         "x233": {
-            "id": 233,
             "job": "White Mage",
             "name": "Elemental Cane +2",
             "requirements": "Pyros Crystal x200"
         },
         "x234": {
-            "id": 234,
             "job": "White Mage",
             "name": "Pyros Cane",
             "requirements": "Pyros Crystal x300, Penthesilea's Flame x5"
         },
         "x235": {
-            "id": 235,
             "job": "White Mage",
             "name": "Hydatos Cane",
             "requirements": "Hydatos Crystal x50"
         },
         "x236": {
-            "id": 236,
             "job": "White Mage",
             "name": "Hydatos Cane +1",
             "requirements": "Hydatos Crystal x100"
         },
         "x237": {
-            "id": 237,
             "job": "White Mage",
             "name": "Rose Couverte",
             "requirements": "Hydatos Crystal x100"
         },
         "x238": {
-            "id": 238,
             "job": "White Mage",
             "name": "Rose Couverte Eureka",
             "requirements": "Hydatos Crystal x100, Crystalline Scale x5"
         },
         "x239": {
-            "id": 239,
             "job": "White Mage",
             "name": "Rose Couverte Physeos",
             "requirements": "Eureka Fragment x100"

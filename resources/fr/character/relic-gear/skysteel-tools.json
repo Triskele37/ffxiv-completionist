@@ -2,397 +2,331 @@
     "groupName": "Skysteel Tools",
     "tasks": {
         "x0": {
-            "id": 0,
             "job": "Menuisier",
             "name": "Scie de Cielacier",
             "requirements": "80.000 gils"
         },
         "x1": {
-            "id": 1,
             "job": "Menuisier",
             "name": "Scie de Cielacier +1",
             "requirements": "Bille de bois pétrifié d'affinage HQ x20"
         },
         "x2": {
-            "id": 2,
             "job": "Menuisier",
             "name": "Scie du chant des dragons",
             "requirements": "Hampe d'affinage HQ x30"
         },
         "x3": {
-            "id": 3,
             "job": "Menuisier",
             "name": "Scie du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de menuisier x90"
         },
         "x4": {
-            "id": 4,
             "job": "Menuisier",
             "name": "Scie du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de menuisier x105"
         },
         "x5": {
-            "id": 5,
             "job": "Menuisier",
             "name": "Scie de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de menuisier x60"
         },
         "x6": {
-            "id": 6,
             "job": "Forgeron",
             "name": "Marteau à panne croisée de Cielacier",
             "requirements": "80.000 gils"
         },
         "x7": {
-            "id": 7,
             "job": "Forgeron",
             "name": "Marteau à panne croisée de Cielacier +1",
             "requirements": "Fil de fer d'affinage HQ x20"
         },
         "x8": {
-            "id": 8,
             "job": "Forgeron",
             "name": "Marteau à panne croisée du chant des dragons",
             "requirements": "Cadène d'affiange HQ x30"
         },
         "x9": {
-            "id": 9,
             "job": "Forgeron",
             "name": "Marteau à panne croisée du chant des dragons amélioré",
             "requirements": "Composants pour affinage d'outil de Cielacier de forgeron x90"
         },
         "x10": {
-            "id": 10,
             "job": "Forgeron",
             "name": "Marteau à panne croisée du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de forgeron x105"
         },
         "x11": {
-            "id": 11,
             "job": "Forgeron",
             "name": "Marteau à panne croisée de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de forgeron x60"
         },
         "x12": {
-            "id": 12,
             "job": "Armurier",
             "name": "Marteau de batteur de Cielacier",
             "requirements": "80.000 gils"
         },
         "x13": {
-            "id": 13,
             "job": "Armurier",
             "name": "Marteau de batteur de Cielacier +1",
             "requirements": "Fil de fer d'affinage HQ x20"
         },
         "x14": {
-            "id": 14,
             "job": "Armurier",
             "name": "Marteau de batteur du chant des dragons",
             "requirements": "Cadène d'affinage HQ x30"
         },
         "x15": {
-            "id": 15,
             "job": "Armurier",
             "name": "Marteau de batteur du chant des dragons amélioré",
             "requirements": "Composants pour affinage d'outil de Cielacier d'armurier x90"
         },
         "x16": {
-            "id": 16,
             "job": "Armurier",
             "name": "Marteau de batteur du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier d'armurier x105"
         },
         "x17": {
-            "id": 17,
             "job": "Armurier",
             "name": "Marteau de batteur de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier d'armurier x60"
         },
         "x18": {
-            "id": 18,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire de Cielacier",
             "requirements": "80.000 gils"
         },
         "x19": {
-            "id": 19,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire de Cielacier +1",
             "requirements": "Pierre à aiguiser d'affinage HQ x20"
         },
         "x20": {
-            "id": 20,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire du chant des dragons",
             "requirements": "Perle d'affinage HQ x30"
         },
         "x21": {
-            "id": 21,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire du chant des dragons amélioré",
             "requirements": "Composants pour affinage d'outil de Cielacier d'orfèvre x90"
         },
         "x22": {
-            "id": 22,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier d'orfèvre x105"
         },
         "x23": {
-            "id": 23,
             "job": "Orfèvre",
             "name": "Marteau de lapidaire de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier d'orfèvre x60"
         },
         "x24": {
-            "id": 24,
             "job": "Tanneur",
             "name": "Couteau arrondi de Cielacier",
             "requirements": "80.000 gils"
         },
         "x25": {
-            "id": 25,
             "job": "Tanneur",
             "name": "Couteau arrondi de Cielacier +1",
             "requirements": "Cuir d'affinage HQ x20"
         },
         "x26": {
-            "id": 26,
             "job": "Tanneur",
             "name": "Couteau arrondi du chant des dragons",
             "requirements": "Parchemin d'affinage HQ x30"
         },
         "x27": {
-            "id": 27,
             "job": "Tanneur",
             "name": "Couteau arrondi du chant des dragons amélioré",
             "requirements": "Composants pour affinage d'outil de Cielacier de tanneur x90"
         },
         "x28": {
-            "id": 28,
             "job": "Tanneur",
             "name": "Couteau arrondi du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de tanneur x105"
         },
         "x29": {
-            "id": 29,
             "job": "Tanneur",
             "name": "Couteau arrondi de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de tanneur x60"
         },
         "x30": {
-            "id": 30,
             "job": "Couturier",
             "name": "Aiguille de Cielacier",
             "requirements": "80.000 gils"
         },
         "x31": {
-            "id": 31,
             "job": "Couturier",
             "name": "Aiguille de Cielacier +1",
             "requirements": "Fil de soie du clair de lune d'affinage HQ x20"
         },
         "x32": {
-            "id": 32,
             "job": "Couturier",
             "name": "Aiguille du chant des dragons",
             "requirements": "Velour d'affinage HQ x30"
         },
         "x33": {
-            "id": 33,
             "job": "Couturier",
             "name": "Aiguille du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de couturier x90"
         },
         "x34": {
-            "id": 34,
             "job": "Couturier",
             "name": "Aiguille du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de couturier x105"
         },
         "x35": {
-            "id": 35,
             "job": "Couturier",
             "name": "Aiguille de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de couturier x60"
         },
         "x36": {
-            "id": 36,
             "job": "Alchimiste",
             "name": "Alambic de Cielacier",
             "requirements": "80.000 gils"
         },
         "x37": {
-            "id": 37,
             "job": "Alchimiste",
             "name": "Alambic de Cielacier +1",
             "requirements": "Résine synthétique d'affinage HQ x20"
         },
         "x38": {
-            "id": 38,
             "job": "Alchimiste",
             "name": "Alambic du chant des dragons",
             "requirements": "Plaque de verre d'affinage HQ x30"
         },
         "x39": {
-            "id": 39,
             "job": "Alchimiste",
             "name": "Alambic du chant des dragons amélioré",
             "requirements": "Composants pour affinage d'outil de Cielacier d'alchimiste x90"
         },
         "x40": {
-            "id": 40,
             "job": "Alchimiste",
             "name": "Alambic du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier d'alchimiste x105"
         },
         "x41": {
-            "id": 41,
             "job": "Alchimiste",
             "name": "Alambic de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier d'alchimiste x60"
         },
         "x42": {
-            "id": 42,
             "job": "Cuisinier",
             "name": "Poêle à frire de Cielacier",
             "requirements": "80.000 gils"
         },
         "x43": {
-            "id": 43,
             "job": "Cuisinier",
             "name": "Poêle à frire de Cielacier +1",
             "requirements": "Huile de graines d'affinage HQ x20"
         },
         "x44": {
-            "id": 44,
             "job": "Cuisinier",
             "name": "Poêle à frire du chant des dragons",
             "requirements": "Poudre de graines d'affinage HQ x30"
         },
         "x45": {
-            "id": 45,
             "job": "Cuisinier",
             "name": "Poêle à frire du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de cuisinier x90"
         },
         "x46": {
-            "id": 46,
             "job": "Cuisinier",
             "name": "Poêle à frire du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de cuisinier x105"
         },
         "x47": {
-            "id": 47,
             "job": "Cuisinier",
             "name": "Poêle à frire de la forge céleste",
             "requirements": "60 Composant pour affinage final d'outil de Cielacier de cuisinier x60"
         },
         "x48": {
-            "id": 48,
             "job": "Mineur",
             "name": "Pioche de Cielacier",
             "requirements": "80.000 gils"
         },
         "x49": {
-            "id": 49,
             "job": "Mineur",
             "name": "Pioche de Cielacier +1",
             "requirements": "Éclat d'obsidienne d'affinage HQ x340, Poudre minérale d'affinage x120"
         },
         "x50": {
-            "id": 50,
             "job": "Mineur",
             "name": "Pioche du chant des dragons",
             "requirements": "Matière sombre d'affinage HQ x510, Braise d'affinage x180"
         },
         "x51": {
-            "id": 51,
             "job": "Mineur",
             "name": "Pioche du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de mineur x50, Sable éthéréen tellurique d'affinage x180"
         },
         "x52": {
-            "id": 52,
             "job": "Mineur",
             "name": "Pioche du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de mineur x60, Bitume ancien d'affinage x200"
         },
         "x53": {
-            "id": 53,
             "job": "Mineur",
             "name": "Pioche de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de mineur x250, Composants auxiliaires pour affinage final d'outil de Cielacier de mineur x25"
         },
         "x54": {
-            "id": 54,
             "job": "Botaniste",
             "name": "Hachette de Cielacier",
             "requirements": "80.000 gils"
         },
         "x55": {
-            "id": 55,
             "job": "Botaniste",
             "name": "Hachette de Cielacier +1",
             "requirements": "Latex d'affinage HQ x640, Sable fossilisé d'affinage x120"
         },
         "x56": {
-            "id": 56,
             "job": "Botaniste",
             "name": "Hachette du chant des dragons",
             "requirements": "Ambre d'affinage HQ x510, Joyau rare d'affinage x180"
         },
         "x57": {
-            "id": 57,
             "job": "Botaniste",
             "name": "Hachette du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de botaniste x50, Sable éthéréen végétal d'affinage x180"
         },
         "x58": {
-            "id": 58,
             "job": "Botaniste",
             "name": "Hachette du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de botaniste x60, Résine ancienne d'affinage x200"
         },
         "x59": {
-            "id": 59,
             "job": "Botaniste",
             "name": "Hachette de la forge céleste",
             "requirements": "Composants pour affinage final d'outil de Cielacier de botaniste x250, Composants auxiliaires pour affinage final d'outil de Cielacier de botaniste x25"
         },
         "x60": {
-            "id": 60,
             "job": "Pêcheur",
             "name": "Canne à pêche de Cielacier",
             "requirements": "80.000 gils"
         },
         "x61": {
-            "id": 61,
             "job": "Pêcheur",
             "name": "Canne à pêche de Cielacier +1",
             "requirements": "Corail sapient HQ x40"
         },
         "x62": {
-            "id": 62,
             "job": "Pêcheur",
             "name": "Canne à pêche du chant des dragons",
             "requirements": "Coquillage draconique HQ x30"
         },
         "x63": {
-            "id": 63,
             "job": "Pêcheur",
             "name": "Canne à pêche du chant des dragons améliorée",
             "requirements": "Composants pour affinage d'outil de Cielacier de pêcheur x6"
         },
         "x64": {
-            "id": 64,
             "job": "Pêcheur",
             "name": "Canne à pêche du chant céleste",
             "requirements": "Composants annexes pour affinage d'outil de Cielacier de pêcheur x7"
         },
         "x65": {
-            "id": 65,
             "job": "Pêcheur",
             "name": "Canne à pêche de la forge céleste",
             "requirements": "Composants pour affinage final de hampe d'outil de Cielacier de pêcheur x200, Composants pour affinage final de moulinet d'outil de Cielacier de pêcheur x200"

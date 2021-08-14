@@ -7,595 +7,496 @@
     },
     "tasks": {
         "x0": {
-            "id": 0,
             "name": "Lost Focus",
             "category": "Offensive",
             "fragment": "Violence"
         },
         "x1": {
-            "id": 1,
             "name": "Lost Font of Magic",
             "category": "Offensive",
             "fragment": "Sagacity"
         },
         "x2": {
-            "id": 2,
             "name": "Lost Font of Power",
             "category": "Offensive",
             "fragment": "Sagacity"
         },
         "x3": {
-            "id": 3,
             "name": "Lost Slash",
             "category": "Offensive",
             "fragment": "Violence"
         },
         "x4": {
-            "id": 4,
             "name": "Lost Death",
             "category": "Offensive",
             "fragment": "Violence"
         },
         "x5": {
-            "id": 5,
             "name": "Banner of Noble Ends",
             "category": "Offensive",
             "fragment": "Resolve"
         },
         "x6": {
-            "id": 6,
             "name": "Banner of Honored Sacrifice",
             "category": "Offensive",
             "fragment": "Resolve"
         },
         "x7": {
-            "id": 7,
             "name": "Banner of Honed Acuity",
             "category": "Offensive",
             "fragment": "Resolve"
         },
         "x8": {
-            "id": 8,
             "name": "Lost Fair Trade",
             "category": "Offensive",
             "fragment": "Caprice"
         },
         "x9": {
-            "id": 9,
             "name": "Lost Flare Star",
             "category": "Offensive",
             "fragment": "Clarity"
         },
         "x84": {
-            "id": 84,
             "name": "Lost Chainspell",
             "category": "Offensive",
             "fragment": "Artistry"
         },
         "x85": {
-            "id": 85,
             "name": "Lost Assassination",
             "category": "Offensive",
             "fragment": "Artistry"
         },
         "x10": {
-            "id": 10,
             "name": "Lost Manawall",
             "category": "Defensive",
             "fragment": "Caution"
         },
         "x11": {
-            "id": 11,
             "name": "Banner of Tireless Conviction",
             "category": "Defensive",
             "fragment": "Resolve"
         },
         "x12": {
-            "id": 12,
             "name": "Banner of Firm Resolve",
             "category": "Defensive",
             "fragment": "Resolve"
         },
         "x13": {
-            "id": 13,
             "name": "Lost Incense",
             "category": "Defensive",
             "fragment": "Caution"
         },
         "x86": {
-            "id": 86,
             "name": "Lost Excellence",
             "category": "Defensive",
             "fragment": "Heroism"
         },
         "x87": {
-            "id": 87,
             "name": "Lost Blood Rage",
             "category": "Defensive",
             "fragment": "Cunning"
         },
         "x14": {
-            "id": 14,
             "name": "Banner of Solemn Clarity",
             "category": "Restorative",
             "fragment": "Resolve"
         },
         "x15": {
-            "id": 15,
             "name": "Lost Cure",
             "category": "Restorative",
             "fragment": "Caution"
         },
         "x16": {
-            "id": 16,
             "name": "Lost Cure II",
             "category": "Restorative",
             "fragment": "Compassion"
         },
         "x17": {
-            "id": 17,
             "name": "Lost Cure III",
             "category": "Restorative",
             "fragment": "Caution"
         },
         "x18": {
-            "id": 18,
             "name": "Lost Cure IV",
             "category": "Restorative",
             "fragment": "Compassion"
         },
         "x19": {
-            "id": 19,
             "name": "Lost Arise",
             "category": "Restorative",
             "fragment": "Compassion"
         },
         "x20": {
-            "id": 20,
             "name": "Lost Sacrifice",
             "category": "Restorative",
             "fragment": "Loss"
         },
         "x88": {
-            "id": 88,
             "name": "Lost Reraise",
             "category": "Restorative",
             "fragment": "Hope"
         },
         "x89": {
-            "id": 89,
             "name": "Lost Full Cure",
             "category": "Restorative",
             "fragment": "Revelation"
         },
         "x21": {
-            "id": 21,
             "name": "Lost Spellforge",
             "category": "Beneficial",
             "fragment": "Ingenuity"
         },
         "x22": {
-            "id": 22,
             "name": "Lost Steelsting",
             "category": "Beneficial",
             "fragment": "Ingenuity"
         },
         "x23": {
-            "id": 23,
             "name": "Lost Protect",
             "category": "Beneficial",
             "fragment": "Caution"
         },
         "x24": {
-            "id": 24,
             "name": "Lost Shell",
             "category": "Beneficial",
             "fragment": "Caution"
         },
         "x25": {
-            "id": 25,
             "name": "Lost Reflect",
             "category": "Beneficial",
             "fragment": "Support"
         },
         "x26": {
-            "id": 26,
             "name": "Lost Stoneskin",
             "category": "Beneficial",
             "fragment": "Support"
         },
         "x27": {
-            "id": 27,
             "name": "Lost Bravery",
             "category": "Beneficial",
             "fragment": "Support"
         },
         "x28": {
-            "id": 28,
             "name": "Lost Aethershield",
             "category": "Beneficial",
             "fragment": "Fortitude"
         },
         "x29": {
-            "id": 29,
             "name": "Lost Dervish",
             "category": "Beneficial",
             "fragment": "Finesse"
         },
         "x90": {
-            "id": 90,
             "name": "Lost Stoneskin II",
             "category": "Beneficial",
             "fragment": "Ferocity"
         },
         "x91": {
-            "id": 91,
             "name": "Lost Protect II",
             "category": "Beneficial",
             "fragment": "Desperation"
         },
         "x92": {
-            "id": 92,
             "name": "Lost Shell II",
             "category": "Beneficial",
             "fragment": "Desperation"
         },
         "x93": {
-            "id": 93,
             "name": "Lost Bubble",
             "category": "Beneficial",
             "fragment": "Tenacity"
         },
         "x30": {
-            "id": 30,
             "name": "Lost Stealth",
             "category": "Tactical",
             "fragment": "Caution"
         },
         "x31": {
-            "id": 31,
             "name": "Lost Swift",
             "category": "Tactical",
             "fragment": "Ingenuity"
         },
         "x32": {
-            "id": 32,
             "name": "Lost Font of Skill",
             "category": "Tactical",
             "fragment": "Sagacity"
         },
         "x33": {
-            "id": 33,
             "name": "Mimic",
             "category": "Tactical",
             "fragment": "Caprice"
         },
         "x34": {
-            "id": 34,
             "name": "Lost Perception",
             "category": "Tactical",
             "fragment": "Observation"
         },
         "x94": {
-            "id": 94,
             "name": "Lost Impetus",
             "category": "Tactical",
             "fragment": "Inspiration"
         },
         "x35": {
-            "id": 35,
             "name": "Lost Paralyze III",
             "category": "Detrimental",
             "fragment": "Ingenuity"
         },
         "x36": {
-            "id": 36,
             "name": "Lost Banish III",
             "category": "Detrimental",
             "fragment": "Ingenuity"
         },
         "x37": {
-            "id": 37,
             "name": "Lost Dispel",
             "category": "Detrimental",
             "fragment": "Ingenuity"
         },
         "x38": {
-            "id": 38,
             "name": "Lost Rend Armor",
             "category": "Detrimental",
             "fragment": "Contention"
         },
         "x39": {
-            "id": 39,
             "name": "Lost Seraph Strike",
             "category": "Detrimental",
             "fragment": "Divinity"
         },
         "x95": {
-            "id": 95,
             "name": "Lost Burst",
             "category": "Detrimental",
             "fragment": "Rage"
         },
         "x96": {
-            "id": 96,
             "name": "Lost Rampage",
             "category": "Detrimental",
             "fragment": "Ferocity"
         },
         "x40": {
-            "id": 40,
             "name": "Dynamis Dice",
             "category": "Item-Related",
             "fragment": "Caprice"
         },
         "x41": {
-            "id": 41,
             "name": "Resistance Phoenix",
             "category": "Item-Related",
             "fragment": "Preparation"
         },
         "x42": {
-            "id": 42,
             "name": "Resistance Reraiser",
             "category": "Item-Related",
             "fragment": "Care"
         },
         "x43": {
-            "id": 43,
             "name": "Resistance Potion Kit",
             "category": "Item-Related",
             "fragment": "Care"
         },
         "x44": {
-            "id": 44,
             "name": "Resistance Ether Kit",
             "category": "Item-Related",
             "fragment": "Care"
         },
         "x45": {
-            "id": 45,
             "name": "Resistance Medikit",
             "category": "Item-Related",
             "fragment": "Compassion"
         },
         "x46": {
-            "id": 46,
             "name": "Resistance Potion",
             "category": "Item-Related",
             "fragment": "Preparation"
         },
         "x47": {
-            "id": 47,
             "name": "Essence of the Aetherweaver",
             "category": "Item-Related",
             "fragment": "Skill"
         },
         "x48": {
-            "id": 48,
             "name": "Essence of the Martialist",
             "category": "Item-Related",
             "fragment": "Skill"
         },
         "x49": {
-            "id": 49,
             "name": "Essence of the Savior",
             "category": "Item-Related",
             "fragment": "Skill"
         },
         "x50": {
-            "id": 50,
             "name": "Essence of the Veteran",
             "category": "Item-Related",
             "fragment": "Skill"
         },
         "x51": {
-            "id": 51,
             "name": "Essence of the Platebearer",
             "category": "Item-Related",
             "fragment": "Skill"
         },
         "x52": {
-            "id": 52,
             "name": "Essence of the Guardian",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x53": {
-            "id": 53,
             "name": "Essence of the Ordained",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x54": {
-            "id": 54,
             "name": "Essence of the Skirmisher",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x55": {
-            "id": 55,
             "name": "Essence of the Watcher",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x56": {
-            "id": 56,
             "name": "Essence of the Profane",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x57": {
-            "id": 57,
             "name": "Essence of the Irregular",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x58": {
-            "id": 58,
             "name": "Essence of the Breathtaker",
             "category": "Item-Related",
             "fragment": "Awakening"
         },
         "x59": {
-            "id": 59,
             "name": "Essence of the Bloodsucker",
             "category": "Item-Related",
             "fragment": "Superstition"
         },
         "x60": {
-            "id": 60,
             "name": "Essence of the Beast",
             "category": "Item-Related",
             "fragment": "Superstition"
         },
         "x61": {
-            "id": 61,
             "name": "Essence of the Templar",
             "category": "Item-Related",
             "fragment": "Superstition"
         },
         "x62": {
-            "id": 62,
             "name": "Deep Essence of the Aetherweaver",
             "category": "Item-Related",
             "fragment": "Mastery"
         },
         "x63": {
-            "id": 63,
             "name": "Deep Essence of the Martialist",
             "category": "Item-Related",
             "fragment": "Mastery"
         },
         "x64": {
-            "id": 64,
             "name": "Deep Essence of the Savior",
             "category": "Item-Related",
             "fragment": "Mastery"
         },
         "x65": {
-            "id": 65,
             "name": "Deep Essence of the Veteran",
             "category": "Item-Related",
             "fragment": "Mastery"
         },
         "x66": {
-            "id": 66,
             "name": "Deep Essence of the Platebearer",
             "category": "Item-Related",
             "fragment": "Mastery"
         },
         "x67": {
-            "id": 67,
             "name": "Deep Essence of the Guardian",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x68": {
-            "id": 68,
             "name": "Deep Essence of the Ordained",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x69": {
-            "id": 69,
             "name": "Deep Essence of the Skirmisher",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x70": {
-            "id": 70,
             "name": "Deep Essence of the Watcher",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x71": {
-            "id": 71,
             "name": "Deep Essence of the Profane",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x72": {
-            "id": 72,
             "name": "Deep Essence of the Irregular",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x73": {
-            "id": 73,
             "name": "Deep Essence of the Breathtaker",
             "category": "Item-Related",
             "fragment": "Becoming"
         },
         "x74": {
-            "id": 74,
             "name": "Deep Essence of the Bloodsucker",
             "category": "Item-Related",
             "fragment": "Transcendence"
         },
         "x75": {
-            "id": 75,
             "name": "Deep Essence of the Beast",
             "category": "Item-Related",
             "fragment": "Transcendence"
         },
         "x76": {
-            "id": 76,
             "name": "Deep Essence of the Templar",
             "category": "Item-Related",
             "fragment": "Transcendence"
         },
         "x77": {
-            "id": 77,
             "name": "Pure Essence of the Gambler",
             "category": "Item-Related",
             "fragment": "Deception"
         },
         "x78": {
-            "id": 78,
             "name": "Pure Essence of the Elder",
             "category": "Item-Related",
             "fragment": "Clarity"
         },
         "x79": {
-            "id": 79,
             "name": "Pure Essence of the Duelist",
             "category": "Item-Related",
             "fragment": "Contention"
         },
         "x80": {
-            "id": 80,
             "name": "Pure Essence of the Fiendhunter",
             "category": "Item-Related",
             "fragment": "Finesse"
         },
         "x81": {
-            "id": 81,
             "name": "Pure Essence of the Indomitable",
             "category": "Item-Related",
             "fragment": "Fortitude"
         },
         "x82": {
-            "id": 82,
             "name": "Pure Essence of the Divine",
             "category": "Item-Related",
             "fragment": "Divinity"
         },
         "x97": {
-            "id": 97,
             "name": "Lodestone",
             "category": "Item-Related",
             "fragment": "History"
         },
         "x98": {
-            "id": 98,
             "name": "Light Curtain",
             "category": "Item-Related",
             "fragment": "Moonlight"
         },
         "x99": {
-            "id": 99,
             "name": "Resistance Elixir",
             "category": "Item-Related",
             "fragment": "Cunning, Heroism, Revelation"

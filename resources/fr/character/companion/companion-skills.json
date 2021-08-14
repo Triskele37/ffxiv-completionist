@@ -9,210 +9,180 @@
     },
     "tasks": {
         "x0": {
-            "id": 0,
             "name": "Choco-saut",
             "tree": "Défense",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
         "x1": {
-            "id": 1,
             "name": "Force améliorée",
             "tree": "Défense",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
         "x2": {
-            "id": 2,
             "name": "PV améliorés",
             "tree": "Défense",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
         "x3": {
-            "id": 3,
             "name": "Choco-serres",
             "tree": "Défense",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : inflige Lenteur 20% (Durée : 12s)"
         },
         "x4": {
-            "id": 4,
             "name": "Précision améliorée",
             "tree": "Défense",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
         "x5": {
-            "id": 5,
             "name": "Critique amélioré",
             "tree": "Défense",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
         "x6": {
-            "id": 6,
             "name": "Choco-garde",
             "tree": "Défense",
             "type": "Technique d'arme",
             "description": "Réduit de 15% les dégâts subis par le compagnon (Durée : 15s)"
         },
         "x7": {
-            "id": 7,
             "name": "Force améliorée",
             "tree": "Défense",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
         "x8": {
-            "id": 8,
             "name": "PV améliorés",
             "tree": "Défense",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 10%"
         },
         "x9": {
-            "id": 9,
             "name": "Choco-frappe",
             "tree": "Défense",
             "type": "Technique d'arme",
             "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissant : 150). Effet additionnel : augmente l'inimitié du compagnon"
         },
         "x10": {
-            "id": 10,
             "name": "Choco-taillade",
             "tree": "Attaque",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 150)"
         },
         "x11": {
-            "id": 11,
             "name": "Force améliorée",
             "tree": "Attaque",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 5%"
         },
         "x12": {
-            "id": 12,
             "name": "PV améliorés",
             "tree": "Attaque",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         "x13": {
-            "id": 13,
             "name": "Choco-bec",
             "tree": "Attaque",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : dégats périodiques (Puissance : 20 / Durée : 18s)"
         },
         "x14": {
-            "id": 14,
             "name": "Précision améliorée",
             "tree": "Attaque",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
         "x15": {
-            "id": 15,
             "name": "Critique amélioré",
             "tree": "Attaque",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
         "x16": {
-            "id": 16,
             "name": "Choco-ruée",
             "tree": "Attaque",
             "type": "Technique d'arme",
             "description": "Effectue une attaque physique sur la cible (Puissance : 130). Effet additionnel : Étourdissement (Durée: 5s)"
         },
         "x17": {
-            "id": 17,
             "name": "Force améliorée",
             "tree": "Attaque",
             "type": "Trait",
             "description": "La force du compagnon est augmentée de 10%"
         },
         "x18": {
-            "id": 18,
             "name": "Vitesse améliorée",
             "tree": "Attaque",
             "type": "Trait",
             "description": "La vitesse d'attaque du compagnon est augmentée de 10%"
         },
         "x19": {
-            "id": 19,
             "name": "Choco-explosion",
             "tree": "Attaque",
             "type": "Technique d'arme",
             "description": "Effectue une attaque dans une zone en éventail vers la cible (Puissance : 170)"
         },
         "x20": {
-            "id": 20,
             "name": "Choco-récup",
             "tree": "Soin",
             "type": "Technique d'arme",
             "description": "Restaure périodiquement les PV de la cible (Puissance : 25 / Durée : 18s)"
         },
         "x21": {
-            "id": 21,
             "name": "Esprit amélioré",
             "tree": "Soin",
             "type": "Trait",
             "description": "L'esprit du compagnon est augmenté de 10%"
         },
         "x22": {
-            "id": 22,
             "name": "PV améliorés",
             "tree": "Soin",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         "x23": {
-            "id": 23,
             "name": "Choco-soin",
             "tree": "Soin",
             "type": "Technique d'arme",
             "description": "Restaure les PV de la cible (Puissance : 300)"
         },
         "x24": {
-            "id": 24,
             "name": "Précision améliorée",
             "tree": "Soin",
             "type": "Trait",
             "description": "La précision du compagnon est augmentée de 5%"
         },
         "x25": {
-            "id": 25,
             "name": "Critique amélioré",
             "tree": "Soin",
             "type": "Trait",
             "description": "Le critique du compagnon est augmenté de 15%"
         },
         "x26": {
-            "id": 26,
             "name": "Choco-ardeur",
             "tree": "Soin",
             "type": "Technique d'arme",
             "description": "Augmente de 30% les PV restaurés par les sorts curatifs du compagnon (Durée : 30s)"
         },
         "x27": {
-            "id": 27,
             "name": "Esprit amélioré",
             "tree": "Soin",
             "type": "Trait",
             "description": "L'esprit du compagnon est augmenté de 15%"
         },
         "x28": {
-            "id": 28,
             "name": "PV améliorés",
             "tree": "Soin",
             "type": "Trait",
             "description": "Les PV maximums du compagnon sont augmentés de 5%"
         },
         "x29": {
-            "id": 29,
             "name": "Choco-médica",
             "tree": "Soin",
             "type": "Technique d'arme",

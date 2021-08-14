@@ -9,798 +9,684 @@
     },
     "tasks": {
         "x101": {
-            "id": 101,
             "name": "Step Dance",
             "command": "/stepdance, /sdance",
             "category": "Quest",
             "source": "Good for What Ales You (Level 14 La Noscea Sidequest)"
         },
         "x102": {
-            "id": 102,
             "name": "Harvest Dance",
             "command": "/harvestdance, /hdance",
             "category": "Quest",
             "source": "Saw That One Coming (Level 14 Black Shroud Sidequest)"
         },
         "x103": {
-            "id": 103,
             "name": "Ball Dance",
             "command": "/balldance, /bdance",
             "category": "Quest",
             "source": "Help Me, Lord of the Dance (Level 14 Thanalan Sidequest)"
         },
         "x104": {
-            "id": 104,
             "name": "Manderville Dance",
             "command": "/mandervilledance, /mdance",
             "category": "Quest",
             "source": "The Hammer (Level 50 Side Story Quest)"
         },
         "x109": {
-            "id": 109,
             "name": "Bomb Dance",
             "command": "/bombdance",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x110": {
-            "id": 110,
             "name": "Huzzah",
             "command": "/huzzah, /hurray",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x113": {
-            "id": 113,
             "name": "Embrace",
             "command": "/embrace",
             "category": "Premium",
             "source": "The Ties That Bind (Level 1 Other Quest)"
         },
         "x114": {
-            "id": 114,
             "name": "Most Gentlemanly",
             "command": "/hildibrand, /hildy",
             "category": "Quest",
             "source": "Her Last Vow (Level 50 Side Story Quest)"
         },
         "x115": {
-            "id": 115,
             "name": "Fist Bump",
             "command": "/fistbump, /brofist, /fist",
             "category": "Event",
             "source": "Recruit a Friend Campaign reward"
         },
         "x118": {
-            "id": 118,
             "name": "Thavnairian Dance",
             "command": "/thavdance, /tdance",
             "category": "Purchase",
             "source": "80,000 MGP"
         },
         "x119": {
-            "id": 119,
             "name": "Gold Dance",
             "command": "/golddance, /gdance",
             "category": "Purchase",
             "source": "80,000 MGP"
         },
         "x120": {
-            "id": 120,
             "name": "Sundrop Dance",
             "command": "/sundropdance, /sundance",
             "category": "Quest",
             "source": "Sundrop the Beat (Level 50 Beast Tribe Quest)"
         },
         "x121": {
-            "id": 121,
             "name": "Battle Stance",
             "command": "/battlestance, /bstance",
             "category": "Quest",
             "source": "Causes and Costs (Level 60 Main Scenario Quest)"
         },
         "x122": {
-            "id": 122,
             "name": "Victory",
             "command": "/victorypose, /vpose",
             "category": "Quest",
             "source": "A Spectacle for the Ages (Level 60 Main Scenario Quest)"
         },
         "x123": {
-            "id": 123,
             "name": "Backflip",
             "command": "/backflip, /bflip",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x124": {
-            "id": 124,
             "name": "Eastern Greeting",
             "command": "/easterngreeting, /egreeting",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x125": {
-            "id": 125,
             "name": "Eureka",
             "command": "/eureka",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x126": {
-            "id": 126,
             "name": "Moogle Dance",
             "command": "/mogdance",
             "category": "Quest",
             "source": "Piecing Together the Past (Level 50 Beast Tribe Quest)"
         },
         "x127": {
-            "id": 127,
             "name": "Haurchefant",
             "command": "/haurchefant, /hknight",
             "category": "Quest",
             "source": "The Burdens We Bear (Level 60 Side Story Quest)"
         },
         "x128": {
-            "id": 128,
             "name": "Eastern Stretch",
             "command": "/easternstretch, /estretch",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x129": {
-            "id": 129,
             "name": "Eastern Dance",
             "command": "/easterndance, /edance",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x130": {
-            "id": 130,
             "name": "Red Ranger Pose A",
             "command": "/redrangerposea, /rrpa, /rangerpose1r, /rpose1r",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x131": {
-            "id": 131,
             "name": "Black Ranger Pose A",
             "command": "/blackrangerposea, /brpa, /rangerpose2r, /rpose2r",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x132": {
-            "id": 132,
             "name": "Yellow Ranger Pose A",
             "command": "/yellowrangerposea, /yrpa, /rangerpose3r, /rpose3r",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x134": {
-            "id": 134,
             "name": "Red Ranger Pose B",
             "command": "/redrangerposeb, /rrpb, /rangerpose1l, /rpose1l",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x135": {
-            "id": 135,
             "name": "Black Ranger Pose B",
             "command": "/blackrangerposeb, /brpb, /rangerpose2l, /rpose2l",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x136": {
-            "id": 136,
             "name": "Yellow Ranger Pose B",
             "command": "/yellowrangerposeb, /yrpb, /rangerpose3l, /rpose3l",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x138": {
-            "id": 138,
             "name": "Zantetsuken",
             "command": "/zantetsuken, /ztk",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Odin"
         },
         "x142": {
-            "id": 142,
             "name": "Pretty Please",
             "command": "/prettyplease, /pplease",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x143": {
-            "id": 143,
             "name": "Play Dead",
             "command": "/playdead, /pdead",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x144": {
-            "id": 144,
             "name": "Diamond Dust",
             "command": "/iceheart",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Shiva"
         },
         "x145": {
-            "id": 145,
             "name": "Moonlift Dance",
             "command": "/moonlift",
             "category": "Quest",
             "source": "Eternity, Loyalty, Honesty (Level 60 Side Story Quest)"
         },
         "x146": {
-            "id": 146,
             "name": "Dote",
             "command": "/dote",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x148": {
-            "id": 148,
             "name": "Spectacles",
             "command": "/spectacles",
             "category": "Quest",
             "source": "Letters from No One (Level 60 Side Story Quest)"
         },
         "x149": {
-            "id": 149,
             "name": "Songbird",
             "command": "/songbird",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x151": {
-            "id": 151,
             "name": "Water Flip",
             "command": "/waterflip",
             "category": "Quest",
             "source": "In Soroban We Trust (Level 63 Main Scenario Quest)"
         },
         "x153": {
-            "id": 153,
             "name": "Power Up",
             "command": "/powerup",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x154": {
-            "id": 154,
             "name": "Eastern Bow",
             "command": "/easternbow, /ebow",
             "category": "Quest",
             "source": "Confederate Consternation (Level 62 Main Scenario Quest)"
         },
         "x155": {
-            "id": 155,
             "name": "Squats",
             "command": "/squats",
             "category": "Achievement",
             "source": "Dear Leader I"
         },
         "x156": {
-            "id": 156,
             "name": "Push-ups",
             "command": "/pushups",
             "category": "Achievement",
             "source": "Dear Leader I"
         },
         "x157": {
-            "id": 157,
             "name": "Sit-ups",
             "command": "/situps",
             "category": "Achievement",
             "source": "Dear Leader I"
         },
         "x158": {
-            "id": 158,
             "name": "Breath Control",
             "command": "/breathcontrol",
             "category": "Achievement",
             "source": "Dear Leader I"
         },
         "x164": {
-            "id": 164,
             "name": "Attention",
             "command": "/attention",
             "category": "Purchase",
             "source": "40,000 Company Seals"
         },
         "x165": {
-            "id": 165,
             "name": "At Ease",
             "command": "/atease",
             "category": "Purchase",
             "source": "40,000 Company Seals"
         },
         "x166": {
-            "id": 166,
             "name": "Box",
             "command": "/box",
             "category": "Quest",
             "source": "Arenvald's Adventure (Level 70 Main Scenario Quest)"
         },
         "x167": {
-            "id": 167,
             "name": "Ritual Prayer",
             "command": "/ritualprayer",
             "category": "Purchase",
             "source": "Shikitahe - Tamamizu - 3 Kojin Sango"
         },
         "x169": {
-            "id": 169,
             "name": "Tremble",
             "command": "/tremble",
             "category": "Purchase",
             "source": "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
         },
         "x170": {
-            "id": 170,
             "name": "Winded",
             "command": "/winded",
             "category": "Purchase",
             "source": "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs"
         },
         "x171": {
-            "id": 171,
             "name": "Aback",
             "command": "/aback",
             "category": "Purchase",
             "source": "Kasumi - The Gold Saucer - 5,000 Gil"
         },
         "x172": {
-            "id": 172,
             "name": "Greeting",
             "command": "/greet",
             "category": "Quest",
             "source": "Tidings from the East (Level 70 Main Scenario Quest)"
         },
         "x173": {
-            "id": 173,
             "name": "Box Step",
             "command": "/2legit, /boxstep",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x174": {
-            "id": 174,
             "name": "Side Step",
             "command": "/sidestep",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x175": {
-            "id": 175,
             "name": "Ultima",
             "command": "/ultima",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Ultima, the High Seraph"
         },
         "x176": {
-            "id": 176,
             "name": "Yol Dance",
             "command": "/yoldance",
             "category": "Purchase",
             "source": "Gyosho - Dhoro Iloh - 8 Namazu Koban"
         },
         "x178": {
-            "id": 178,
             "name": "Splash",
             "command": "/splash",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x180": {
-            "id": 180,
             "name": "Sweat",
             "command": "/tillyoubleed, /sweat",
             "category": "Purchase",
             "source": "Confederate Custodian - Crick - 10 Empyrean Potsherds"
         },
         "x181": {
-            "id": 181,
             "name": "Shiver",
             "command": "/shiver",
             "category": "Exploratory Mission",
             "source": "Cold-warped Lockbox - Eureka Pagos"
         },
         "x182": {
-            "id": 182,
             "name": "Elucidate",
             "command": "/elucidate",
             "category": "Purchase",
             "source": "15,000 Wolf Marks"
         },
         "x183": {
-            "id": 183,
             "name": "Ponder",
             "command": "/makeyougohmmm, /ponder",
             "category": "Quest",
             "source": "Emissary of the Dawn (Level 70 Main Scenario Quest)"
         },
         "x185": {
-            "id": 185,
             "name": "Get Fantasy",
             "command": "/getfantasy",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x186": {
-            "id": 186,
             "name": "Popoto Step",
             "command": "/popotostep",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x187": {
-            "id": 187,
             "name": "Hum",
             "command": "/hum",
             "category": "Quest",
             "source": "The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)"
         },
         "x188": {
-            "id": 188,
             "name": "Confirm",
             "command": "/confirm",
             "category": "Treasure Hunt",
             "source": "The Lost Canals Of Uznair, The Hidden Canals Of Uznair, The Shifting Altars Of Uznair"
         },
         "x189": {
-            "id": 189,
             "name": "Scheme",
             "command": "/scheme",
             "category": "Exploratory Mission",
             "source": "Heat-warped Lockbox - Eureka Pyros"
         },
         "x190": {
-            "id": 190,
             "name": "Endure",
             "command": "/endure",
             "category": "Quest",
             "source": "The Call (Level 70 Main Scenario Quest)"
         },
         "x191": {
-            "id": 191,
             "name": "Tomestone",
             "command": "/tomestone",
             "category": "Other",
             "source": "Available if registered in the Companion app"
         },
         "x192": {
-            "id": 192,
             "name": "Heel Toe",
             "command": "/heeltoe",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x193": {
-            "id": 193,
             "name": "Goobbue Do",
             "command": "/mysterymachine, /goobbuedo",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x194": {
-            "id": 194,
             "name": "Gratuity",
             "command": "/makeithail, /gratuity",
             "category": "Quest",
             "source": "What a Wonder-full World (Level 70 Side Story Quest)"
         },
         "x195": {
-            "id": 195,
             "name": "Fist Pump",
             "command": "/fistpump",
             "category": "Exploratory Mission",
             "source": "Moisture-warped Lockbox - Eureka Hydatos"
         },
         "x196": {
-            "id": 196,
             "name": "Reprimand",
             "command": "/youknowyourname, /reprimand",
             "category": "Purchase",
             "source": "15,000 Wolf Marks"
         },
         "x197": {
-            "id": 197,
             "name": "Senor Sabotender",
             "command": "/sabotender",
             "category": "Event",
             "source": "The Make It Rain Campaign (2019)"
         },
         "x198": {
-            "id": 198,
             "name": "Manderville Mambo",
             "command": "/mandervillemambo, /mmambo",
             "category": "Purchase",
             "source": "Don't Do the Dewprism (Level 70 Side Story Quest)"
         },
         "x199": {
-            "id": 199,
             "name": "Lali-ho",
             "command": "/laliho",
             "category": "Quest",
             "source": "Learning to Lali-ho (Level 70 Kholusia Sidequest)"
         },
         "x200": {
-            "id": 200,
             "name": "Simulation M",
             "command": "/simulationm",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Omega"
         },
         "x201": {
-            "id": 201,
             "name": "Simulation F",
             "command": "/simulationf",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Omega"
         },
         "x202": {
-            "id": 202,
             "name": "Toast",
             "command": "/toast",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x203": {
-            "id": 203,
             "name": "Lean",
             "command": "/lean",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x204": {
-            "id": 204,
             "name": "Headache",
             "command": "/headache",
             "category": "Purchase",
             "source": "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)"
         },
         "x205": {
-            "id": 205,
             "name": "Snap",
             "command": "/snap",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x207": {
-            "id": 207,
             "name": "Read",
             "command": "/read",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x208": {
-            "id": 208,
             "name": "Insist",
             "command": "/insist",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x209": {
-            "id": 209,
             "name": "Consider",
             "command": "/consider, /hmm",
             "category": "Event",
             "source": "The Make It Rain Campaign (2020)"
         },
         "x210": {
-            "id": 210,
             "name": "Wasshoi",
             "command": "/wasshoi",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x211": {
-            "id": 211,
             "name": "Flower Shower",
             "command": "/flowershower, /petals",
             "category": "",
             "source": ""
         },
         "x212": {
-            "id": 212,
             "name": "Flame Dance",
             "command": "/flamedance",
             "category": "Event",
             "source": "Moonfire Faire (2020)"
         },
         "x213": {
-            "id": 213,
             "name": "High Five",
             "command": "/highfive, /hifive",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x214": {
-            "id": 214,
             "name": "Guard",
             "command": "/guard",
             "category": "Purchase",
             "source": "50 Bozjan Clusters"
         },
         "x215": {
-            "id": 215,
             "name": "Malevolence",
             "command": "/malevolence",
             "category": "Purchase",
             "source": "50 Bozjan Clusters"
         },
         "x216": {
-            "id": 216,
             "name": "Bee's Knees",
             "command": "/beesknees",
             "category": "Purchase",
             "source": "80,000 MGP"
         },
         "x217": {
-            "id": 217,
             "name": "Lali Hop",
             "command": "/lalihop",
             "category": "Purchase",
             "source": "8 Hammered Frogments"
         },
         "x220": {
-            "id": 220,
             "name": "Eat Rice Ball",
             "command": "/eatriceball, /riceball",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x221": {
-            "id": 221,
             "name": "Eat Apple",
             "command": "/eatapple, /apple",
             "category": "Purchase",
             "source": "Kupo of Fortune"
         },
         "x222": {
-            "id": 222,
             "name": "Wring Hands",
             "command": "/wringhands",
             "category": "Exploratory Mission",
             "source": "Zadnor Lockbox"
         },
         "x223": {
-            "id": 223,
             "name": "Sweep Up",
             "command": "/sweep, /broom",
             "category": "Purchase",
             "source": "1,800 Skybuilders' Scrips"
         },
         "x224": {
-            "id": 224,
             "name": "Paint It Black",
             "command": "/paintblack",
             "category": "Treasure Hunt",
             "source": "The Shifting Oubliettes of Lyhe Ghiah"
         },
         "x225": {
-            "id": 225,
             "name": "Paint It Red",
             "command": "/paintred",
             "category": "Treasure Hunt",
             "source": "The Shifting Oubliettes of Lyhe Ghiah"
         },
         "x226": {
-            "id": 226,
             "name": "Paint It Yellow",
             "command": "/paintyellow",
             "category": "Treasure Hunt",
             "source": "The Shifting Oubliettes of Lyhe Ghiah"
         },
         "x227": {
-            "id": 227,
             "name": "Paint It Blue",
             "command": "/paintblue",
             "category": "Treasure Hunt",
             "source": "The Shifting Oubliettes of Lyhe Ghiah"
         },
         "x229": {
-            "id": 229,
             "name": "Pantomime",
             "command": "/pantomime, /mime",
             "category": "",
             "source": ""
         },
         "x230": {
-            "id": 230,
             "name": "Vexed",
             "command": "/vexed",
             "category": "Event",
             "source": "The Make It Rain Campaign (2021)"
         },
         "x231": {
-            "id": 231,
             "name": "Shush",
             "command": "/shush, /shh",
             "category": "Quest",
             "source": "Death Unto Dawn (Level 80 Main Scenario Quest)"
         },
         "x232": {
-            "id": 232,
             "name": "Eat Pizza",
             "command": "/eatpizza, /pizza",
             "category": "",
             "source": ""
         },
         "x59": {
-            "id": 59,
             "name": "Imperial Salute",
             "command": "/imperialsalute",
             "category": "Quest",
             "source": "Acting the Part (Level 45 Main Scenario Quest)"
         },
         "x62": {
-            "id": 62,
             "name": "Megaflare",
             "command": "/megaflare",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x63": {
-            "id": 63,
             "name": "Crimson Lotus",
             "command": "/crimsonlotus",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x64": {
-            "id": 64,
             "name": "Charmed",
             "command": "/charmed",
             "category": "Purchase",
             "source": "Madhura - Castellum Velodyna - 5 Ananta Dreamstaffs"
         },
         "x65": {
-            "id": 65,
             "name": "Cheer On",
             "command": "/cheeron",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x66": {
-            "id": 66,
             "name": "Cheer Wave",
             "command": "/cheerwave, /hiphophurray",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x67": {
-            "id": 67,
             "name": "Cheer Jump",
             "command": "/cheerjump, /jumparound",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
         "x81": {
-            "id": 81,
             "name": "Big Grin",
             "command": "/biggrin",
             "category": "Purchase",
             "source": "20,000 MGP"
         },
         "x82": {
-            "id": 82,
             "name": "Reflect",
             "command": "/reflect",
             "category": "Purchase",
             "source": "10,000 Company Seals"
         },
         "x85": {
-            "id": 85,
             "name": "Throw",
             "command": "/throw",
             "category": "Quest",
             "source": "Toss Fit Workout (Level 36 Coerthas Sidequest)"
         },
         "x206": {
-            "id": 206,
             "name": "Eat Bread",
             "command": "/bread, /breakfast",
             "category": "Purchase",
