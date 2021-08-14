@@ -6,16 +6,9 @@
         <br/>
 
         <h2>Search Columns</h2>
-        <p>If a column in the table is searchable, it will have the text field with 3 dots above the column header</p>
-        <p>You can type into this field to search for items in that column</p>
+        <p>At the top of each column is a combo input used to search/filter that column</p>
+        <p>This input allows free-text, and in certain columns a dropdown of unique values</p>
         <p>This search is case-insensitive and matches anywhere within the text for that column</p>
-
-        <br/>
-
-        <h2>Filter Columns</h2>
-        <p>If a column in the table is filterable, it will have a dropdown with a triangle above the column header</p>
-        <p>You can click on this dropdown to get a unique list of items in that column to filter by</p>
-        <p>Clicking on the dropdown again will remove the currently applied filter</p>
 
         <br/>
 
@@ -33,10 +26,10 @@
 
         <br/>
 
-        <h2>Links (work in progress)</h2>
+        <h2>Links</h2>
         <p>To the right of most items is a link to "Gamer Escape" and "Garland Tools"</p>
-        <p>All these links do is fire a search at those sites, so not all items will come up with what you'd expect</p>
-
+        <p>These links attempt to generate their own url based on the task they're for</p>
+        <p>If you see a link that doesn't navigate to the correct content, please report it so it can be fixed</p>
     </div>
 </template>
 

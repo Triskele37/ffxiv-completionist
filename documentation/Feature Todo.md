@@ -1,15 +1,14 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
-- Favorites - Pin groups and tasks
 
 **Change**
 
 **Fix**
 fr shb trials has duplicate headers
-Scholar/Summoner levels don't tie together properly
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
+- Favorites - Pin groups and tasks
 - Armoire section
 - Mac Support (dependent on angular-electron upgrade)
 - Toolset to allow translation of single words/phrases and shove those in resources
@@ -33,6 +32,7 @@ Scholar/Summoner levels don't tie together properly
 - detach lang specific resources to a download after installation
 
 **Fix**
+- Scholar/Summoner levels don't tie together properly
 - Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 - Leve Issue/Start zones, follow up with XIVAPI
 - Quest/67635 is the only one without an NPC via XIVAPI (Tobana)

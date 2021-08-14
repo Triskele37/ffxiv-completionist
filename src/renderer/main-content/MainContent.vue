@@ -5,9 +5,12 @@
             <landing-page/>
         </div>
         <!----------- Selected Custom Component ----------->
-        <template v-else-if="selectedGroup.component">
+        <div
+            class="custom-group-component"
+            v-else-if="selectedGroup.component"
+        >
             <component v-bind:is="selectedGroup.component"></component>
-        </template>
+        </div>
         <template v-else-if="selectedGroup.text">
             {{selectedGroup.text}}
         </template>
@@ -112,6 +115,11 @@
 
     height: calc(100% - 140px);
     margin: 10px;
+
+    .custom-group-component {
+        overflow-y: auto;
+        white-space: normal;
+    }
 
     .group-summary-section {
         // wraps summaries each 3

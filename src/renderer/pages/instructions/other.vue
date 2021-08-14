@@ -12,14 +12,14 @@
 
         <br/>
 
-        <h2>Translations</h2>
+        <h2>Localization</h2>
         <p>Under the "Settings" menu item at the top of the app there is an option to change languages</p>
-        <p>Note that not all things are currently translated as this is a work in progress</p>
+        <p>French localization is a work-in-progress but is nearing completion</p>
 
         <br/>
 
         <h2>Feedback</h2>
-        <p>Any feedback for the app can be communicated through discord here: https://discord.gg/C5KmN2s</p>
+        <p>Any feedback for the app can be communicated through discord here: https://discord.gg/Hern5M33U2</p>
         <p>Feedback can mean a number of things:</p>
         <ul>
             <li>Bugs with the app</li>

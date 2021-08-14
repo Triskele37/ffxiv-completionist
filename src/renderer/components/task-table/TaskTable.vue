@@ -26,7 +26,7 @@
             </span>
         </div>
 
-        <div class="task-table-scroll-container">
+        <div class="task-table-scroll-container" ref="taskTable">
             <table class="xiv-table" v-if="hasTasks">
                 <task-table-header
                     @filter-change="onFilterChange"
@@ -166,6 +166,13 @@
             },
             onSelectChange: function() {
                 this.rerenderKey++;
+            }
+        },
+        watch: {
+            group: function(oldGroup, newGroup) {
+                if(oldGroup.name !== newGroup.name) {
+                    this.$refs.taskTable.scrollTop = 0;
+                }
             }
         }
     }

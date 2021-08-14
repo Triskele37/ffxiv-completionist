@@ -14,17 +14,14 @@
         <h2>Load Character</h2>
         <p>Under the same menu you can also load an existing character</p>
         <p>(this does NOT overwrite your currently active save)</p>
+        <p>This is also not necessary unless you're switching between multiple saves</p>
 
         <br/>
 
         <h2>Files</h2>
-        <p>This app relies on 2+ files to handle your save data. A "config.json" file and your completion save/s (by default called "completion.json")</p>
-        <p>Initially they can be found in "C:/Users/YOURNAME/AppData/Roaming/ffxiv-completionist"</p>
-        <p>If you have moved your save and lost track of where it is, you can check "config.json" for the location</p>
-        <ul>
-            <li>Changing the "version" value in your completion save manually will cause issues when updating to new app versions</li>
-            <li>Entering invalid data into any fields in either file type will more than likely lead to breaking the app</li>
-        </ul>
+        <p>This app relies on 2+ files to handle your save data. A "config.json" file and your completion save/s</p>
+        <p>You can check your current save's name and location in the settings menu</p>
+        <p>NOTE: Modifying these files manually will likely lead to unexpected issues</p>
 
         <br/>
 
@@ -34,7 +31,7 @@
         <ol>
             <li>Locate your completion save file</li>
             <li><b>Copy</b> it to a safe location</li>
-            <li>Don't attempt to load it via the app</li>
+            <li>Don't load this backup with the app directly, always make copies beforehand</li>
         </ol>
 
         <br/>
@@ -42,7 +39,6 @@
         <h4>Final Note</h4>
         <p>Completion is saved as soon as items are marked</p>
         <p>Completion is migrated between versions of the app, sometimes things will need to be manually reviewed (these will be noted in the version history)</p>
-        <p>The app seems to REALLY not like the save file being manually modified while the app is open, doing so will likely result in losing that save</p>
     </div>
 </template>
 

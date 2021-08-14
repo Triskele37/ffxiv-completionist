@@ -30,12 +30,14 @@
 
         <h2>Custom Tasks</h2>
         <p>An area where you can enter in tasks that the app does not have in it along with notes on each one</p>
+        <p>Created custom tasks can be edited by selecting or dragging their row</p>
         <p>Custom Tasks also has the ability to merge into the app, allowing for easier updates after patches</p>
         <p>Notes about merging:</p>
         <ul>
             <li>Merge searches are case-insensitive and ignores anything that isn't a letter or number</li>
             <li>Merge searches look for the whole name of your task, partials will not be displayed</li>
             <li>Upon clicking one of the matches for your merge, that Custom Task will be removed along with its notes</li>
+            <li>Auto-merge of single match tasks does all of the above without further input</li>
         </ul>
 
         <h2>Calculations</h2>
