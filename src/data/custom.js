@@ -27,7 +27,7 @@ export const Custom = function(parent) {
             acc[`x${t.id}`] = t;
             return acc;
         }, {});
-        console.log(fixedTasks);
+
         data.initializeTasks(fixedTasks);
     }
 

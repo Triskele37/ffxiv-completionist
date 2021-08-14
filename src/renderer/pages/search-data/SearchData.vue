@@ -75,7 +75,7 @@ export default {
             // Timeout allows UI to update
             setTimeout(() => {
                 this.matches = searchData(this.searchTerm);
-                console.log(this.matches);
+
                 if(this.matches.length > 0) {
                     this.status = 'success';
                     this.info = `${this.matches.length} tasks found`;
