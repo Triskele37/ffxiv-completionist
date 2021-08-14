@@ -51,6 +51,8 @@
 
 <style lang="scss">
 .show-all-section {
+    display: flex;
+    flex-direction: column;
     width: calc(100% - 20px);
 }
 </style>

@@ -13,7 +13,7 @@ export const Travel = function(parent) {
         Travel_Aetherytes(group),
         Travel_Mount_Speed(group),
         Travel_Porters(group),
-        DataGroup.fromJSON(parent, "./travel/shared-fate"),
+        DataGroup.fromJSON(group, "./travel/shared-fate"),
     ];
 
     return group;

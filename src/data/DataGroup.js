@@ -96,7 +96,7 @@ export class DataGroup {
         if(!this._columnConfig) return this._columnConfig;
 
         // Add an ID column when in development
-        if(process.env.NODE_ENV === 'development') {
+        if(eStore.get('id-column-enabled') && process.env.NODE_ENV === 'development') {
             if(!this._columnConfig[0].key !== "id") {
                 return this._columnConfig ? [{
                     header: "ID",

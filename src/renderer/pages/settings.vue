@@ -94,6 +94,24 @@
                 />
             </div>
         </div>
+
+        <template v-if="devMode">
+            <div class="settings-group">
+                <label class="setting-header">Developer Settings</label>
+                <div
+                    class="setting"
+                    title="Enable/Disable ID columns in all tables"
+                >
+                    <label>ID Columns:</label>
+                    <input
+                        class="setting-input"
+                        type="checkbox"
+                        :checked="settings.idColumnEnabled.value"
+                        @change="onChangeBoolSetting($event, settings.idColumnEnabled.key)"
+                    />
+                </div>
+            </div>
+        </template>
     </div>
 </template>
 
@@ -109,6 +127,7 @@
             'chain-dropdown': ChainDropdown
         },
         data: () => ({
+            devMode: process.env.NODE_ENV === 'development',
             settings: {
                 storeName: { key: 'store-name', value: null },
                 storeLocation: { key: 'store-loc', value: null },
@@ -120,7 +139,8 @@
                     excluded: { key: 'table-filters.excluded', value: null }
                 },
                 chainingEnabled: { key: 'chaining-enabled', value: null },
-                chainMinThreshold: { key: 'chain-min-threshold', value: null }
+                chainMinThreshold: { key: 'chain-min-threshold', value: null },
+                idColumnEnabled: { key: 'id-column-enabled', value: false }
             }
         }),
         created: function() {
