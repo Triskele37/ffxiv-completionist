@@ -2,34 +2,29 @@
     "key": "materia",
     "tasks": {
         "x296": {
-            "id": 296,
             "points": 5,
             "patch": "2.0",
             "cNext": [297]
         },
         "x297": {
-            "id": 297,
             "points": 5,
             "patch": "2.0",
             "cPrev": [296],
             "cNext": [298]
         },
         "x298": {
-            "id": 298,
             "points": 5,
             "patch": "2.0",
             "cPrev": [297],
             "cNext": [299]
         },
         "x299": {
-            "id": 299,
             "points": 5,
             "patch": "2.0",
             "cPrev": [298],
             "cNext": [300]
         },
         "x300": {
-            "id": 300,
             "points": 10,
             "patch": "2.0",
             "cPrev": [299],
@@ -39,80 +34,68 @@
             ]
         },
         "x1333": {
-            "id": 1333,
             "points": 10,
             "patch": "3.0",
             "cPrev": [300],
             "cNext": [1334]
         },
         "x1334": {
-            "id": 1334,
             "points": 10,
             "patch": "3.0",
             "cPrev": [1333],
             "cNext": [1905]
         },
         "x1905": {
-            "id": 1905,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1334]
         },
         "x301": {
-            "id": 301,
             "points": 10,
             "patch": "2.0",
             "cNext": [302]
         },
         "x302": {
-            "id": 302,
             "points": 20,
             "patch": "2.0",
             "cPrev": [301],
             "cNext": [303]
         },
         "x303": {
-            "id": 303,
             "points": 30,
             "patch": "2.0",
             "cPrev": [302],
             "cNext": [304]
         },
         "x304": {
-            "id": 304,
             "points": 40,
             "patch": "2.0",
             "cPrev": [303]
         },
         "x305": {
-            "id": 305,
             "points": 5,
             "patch": "2.0",
             "cNext": [306]
         },
         "x306": {
-            "id": 306,
             "points": 5,
             "patch": "2.0",
             "cPrev": [305],
             "cNext": [307]
         },
         "x307": {
-            "id": 307,
             "points": 5,
             "patch": "2.0",
             "cPrev": [306],
             "cNext": [308]
         },
         "x308": {
-            "id": 308,
             "points": 5,
             "patch": "2.0",
             "cPrev": [307],
             "cNext": [309]
         },
         "x309": {
-            "id": 309,
             "points": 10,
             "patch": "2.0",
             "cPrev": [308],
@@ -122,13 +105,11 @@
             ]
         },
         "x1335": {
-            "id": 1335,
             "points": 10,
             "patch": "3.0",
             "cPrev": [309]
         },
         "x927": {
-            "id": 927,
             "points": 10,
             "patch": "2.25"
         }

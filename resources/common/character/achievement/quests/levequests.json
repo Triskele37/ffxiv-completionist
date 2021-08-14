@@ -2,41 +2,35 @@
     "key": "levequests",
     "tasks": {
         "x323": {
-            "id": 323,
             "points": 5,
             "patch": "2.0",
             "cNext": [324]
         },
         "x324": {
-            "id": 324,
             "points": 5,
             "patch": "2.0",
             "cPrev": [323],
             "cNext": [325]
         },
         "x325": {
-            "id": 325,
             "points": 5,
             "patch": "2.0",
             "cPrev": [324],
             "cNext": [326]
         },
         "x326": {
-            "id": 326,
             "points": 5,
             "patch": "2.0",
             "cPrev": [325],
             "cNext": [327]
         },
         "x327": {
-            "id": 327,
             "points": 5,
             "patch": "2.0",
             "cPrev": [326],
             "cNext": [328]
         },
         "x328": {
-            "id": 328,
             "points": 10,
             "patch": "2.0",
             "cPrev": [327],
@@ -44,54 +38,46 @@
             "cSiblings": ["t.50"]
         },
         "x329": {
-            "id": 329,
             "points": 20,
             "patch": "2.0",
             "cPrev": [328],
             "cNext": [1338]
         },
         "x1338": {
-            "id": 1338,
             "points": 20,
             "patch": "3.0",
             "cPrev": [329]
         },
         "x330": {
-            "id": 330,
             "points": 5,
             "patch": "2.0",
             "cNext": [331]
         },
         "x331": {
-            "id": 331,
             "points": 5,
             "patch": "2.0",
             "cPrev": [330],
             "cNext": [332]
         },
         "x332": {
-            "id": 332,
             "points": 5,
             "patch": "2.0",
             "cPrev": [331],
             "cNext": [333]
         },
         "x333": {
-            "id": 333,
             "points": 5,
             "patch": "2.0",
             "cPrev": [332],
             "cNext": [334]
         },
         "x334": {
-            "id": 334,
             "points": 5,
             "patch": "2.0",
             "cPrev": [333],
             "cNext": [335]
         },
         "x335": {
-            "id": 335,
             "points": 10,
             "patch": "2.0",
             "cPrev": [334],
@@ -99,54 +85,46 @@
             "cSiblings": ["t.51"]
         },
         "x336": {
-            "id": 336,
             "points": 20,
             "patch": "2.0",
             "cPrev": [335],
             "cNext": [1339]
         },
         "x1339": {
-            "id": 1339,
             "points": 20,
             "patch": "3.0",
             "cPrev": [336]
         },
         "x601": {
-            "id": 601,
             "points": 5,
             "patch": "2.1",
             "cNext": [602]
         },
         "x602": {
-            "id": 602,
             "points": 5,
             "patch": "2.1",
             "cPrev": [601],
             "cNext": [603]
         },
         "x603": {
-            "id": 603,
             "points": 5,
             "patch": "2.1",
             "cPrev": [602],
             "cNext": [604]
         },
         "x604": {
-            "id": 604,
             "points": 5,
             "patch": "2.1",
             "cPrev": [603],
             "cNext": [605]
         },
         "x605": {
-            "id": 605,
             "points": 5,
             "patch": "2.1",
             "cPrev": [604],
             "cNext": [606]
         },
         "x606": {
-            "id": 606,
             "points": 10,
             "patch": "2.1",
             "cPrev": [605],
@@ -154,480 +132,408 @@
             "cSiblings": ["t.108"]
         },
         "x607": {
-            "id": 607,
             "points": 20,
             "patch": "2.1",
             "cPrev": [606],
             "cNext": [1340]
         },
         "x1340": {
-            "id": 1340,
             "points": 20,
             "patch": "3.0",
             "cPrev": [607]
         },
         "x608": {
-            "id": 608,
             "points": 5,
             "patch": "2.1",
             "cNext": [609]
         },
         "x609": {
-            "id": 609,
             "points": 5,
             "patch": "2.1",
             "cPrev": [608],
             "cNext": [610]
         },
         "x610": {
-            "id": 610,
             "points": 10,
             "patch": "2.1",
             "cPrev": [609],
             "cNext": [1341]
         },
         "x1341": {
-            "id": 1341,
             "points": 10,
             "patch": "3.0",
             "cPrev": [610]
         },
         "x611": {
-            "id": 611,
             "points": 5,
             "patch": "2.1",
             "cNext": [612]
         },
         "x612": {
-            "id": 612,
             "points": 5,
             "patch": "2.1",
             "cPrev": [611],
             "cNext": [613]
         },
         "x613": {
-            "id": 613,
             "points": 10,
             "patch": "2.1",
             "cPrev": [612],
             "cNext": [1342]
         },
         "x1342": {
-            "id": 1342,
             "points": 10,
             "patch": "3.0",
             "cPrev": [613],
             "cNext": [1859]
         },
         "x1859": {
-            "id": 1859,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1342],
             "cNext": [2357]
         },
         "x2357": {
-            "id": 2357,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1859]
         },
         "x614": {
-            "id": 614,
             "points": 5,
             "patch": "2.1",
             "cNext": [615]
         },
         "x615": {
-            "id": 615,
             "points": 5,
             "patch": "2.1",
             "cPrev": [614],
             "cNext": [616]
         },
         "x616": {
-            "id": 616,
             "points": 10,
             "patch": "2.1",
             "cPrev": [615],
             "cNext": [1343]
         },
         "x1343": {
-            "id": 1343,
             "points": 10,
             "patch": "3.0",
             "cPrev": [616],
             "cNext": [1860]
         },
         "x1860": {
-            "id": 1860,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1343],
             "cNext": [2358]
         },
         "x2358": {
-            "id": 2358,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1860]
         },
         "x617": {
-            "id": 617,
             "points": 5,
             "patch": "2.1",
             "cNext": [618]
         },
         "x618": {
-            "id": 618,
             "points": 5,
             "patch": "2.1",
             "cPrev": [617],
             "cNext": [619]
         },
         "x619": {
-            "id": 619,
             "points": 10,
             "patch": "2.1",
             "cPrev": [618],
             "cNext": [1344]
         },
         "x1344": {
-            "id": 1344,
             "points": 10,
             "patch": "3.0",
             "cPrev": [619],
             "cNext": [1861]
         },
         "x1861": {
-            "id": 1861,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1344],
             "cNext": [2359]
         },
         "x2359": {
-            "id": 2359,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1861]
         },
         "x620": {
-            "id": 620,
             "points": 5,
             "patch": "2.1",
             "cNext": [621]
         },
         "x621": {
-            "id": 621,
             "points": 5,
             "patch": "2.1",
             "cPrev": [620],
             "cNext": [622]
         },
         "x622": {
-            "id": 622,
             "points": 10,
             "patch": "2.1",
             "cPrev": [621],
             "cNext": [1345]
         },
         "x1345": {
-            "id": 1345,
             "points": 10,
             "patch": "3.0",
             "cPrev": [622],
             "cNext": [1862]
         },
         "x1862": {
-            "id": 1862,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1345],
             "cNext": [2360]
         },
         "x2360": {
-            "id": 2360,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1862]
         },
         "x623": {
-            "id": 623,
             "points": 5,
             "patch": "2.1",
             "cNext": [624]
         },
         "x624": {
-            "id": 624,
             "points": 5,
             "patch": "2.1",
             "cPrev": [623],
             "cNext": [625]
         },
         "x625": {
-            "id": 625,
             "points": 10,
             "patch": "2.1",
             "cPrev": [624],
             "cNext": [1346]
         },
         "x1346": {
-            "id": 1346,
             "points": 10,
             "patch": "3.0",
             "cPrev": [625],
             "cNext": [1863]
         },
         "x1863": {
-            "id": 1863,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1346],
             "cNext": [2361]
         },
         "x2361": {
-            "id": 2361,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1863]
         },
         "x626": {
-            "id": 626,
             "points": 5,
             "patch": "2.1",
             "cNext": [627]
         },
         "x627": {
-            "id": 627,
             "points": 5,
             "patch": "2.1",
             "cPrev": [626],
             "cNext": [628]
         },
         "x628": {
-            "id": 628,
             "points": 10,
             "patch": "2.1",
             "cPrev": [627],
             "cNext": [1347]
         },
         "x1347": {
-            "id": 1347,
             "points": 10,
             "patch": "3.0",
             "cPrev": [628],
             "cNext": [1864]
         },
         "x1864": {
-            "id": 1864,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1347],
             "cNext": [2362]
         },
         "x2362": {
-            "id": 2362,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1864]
         },
         "x629": {
-            "id": 629,
             "points": 5,
             "patch": "2.1",
             "cNext": [630]
         },
         "x630": {
-            "id": 630,
             "points": 5,
             "patch": "2.1",
             "cPrev": [629],
             "cNext": [631]
         },
         "x631": {
-            "id": 631,
             "points": 10,
             "patch": "2.1",
             "cPrev": [630],
             "cNext": [1348]
         },
         "x1348": {
-            "id": 1348,
             "points": 10,
             "patch": "3.0",
             "cPrev": [631],
             "cNext": [1865]
         },
         "x1865": {
-            "id": 1865,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1348],
             "cNext": [2363]
         },
         "x2363": {
-            "id": 2363,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1865]
         },
         "x632": {
-            "id": 632,
             "points": 5,
             "patch": "2.1",
             "cNext": [633]
         },
         "x633": {
-            "id": 633,
             "points": 5,
             "patch": "2.1",
             "cPrev": [632],
             "cNext": [634]
         },
         "x634": {
-            "id": 634,
             "points": 10,
             "patch": "2.1",
             "cPrev": [633],
             "cNext": [1349]
         },
         "x1349": {
-            "id": 1349,
             "points": 10,
             "patch": "3.0",
             "cPrev": [634],
             "cNext": [1866]
         },
         "x1866": {
-            "id": 1866,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1349],
             "cNext": [2364]
         },
         "x2364": {
-            "id": 2364,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1866]
         },
         "x635": {
-            "id": 635,
             "points": 5,
             "patch": "2.1",
             "cNext": [636]
         },
         "x636": {
-            "id": 636,
             "points": 5,
             "patch": "2.1",
             "cPrev": [635],
             "cNext": [637]
         },
         "x637": {
-            "id": 637,
             "points": 10,
             "patch": "2.1",
             "cPrev": [636],
             "cNext": [1350]
         },
         "x1350": {
-            "id": 1350,
             "points": 10,
             "patch": "3.0",
             "cPrev": [637],
             "cNext": [1868]
         },
         "x1868": {
-            "id": 1868,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1350],
             "cNext": [2366]
         },
         "x2366": {
-            "id": 2366,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1868]
         },
         "x638": {
-            "id": 638,
             "points": 5,
             "patch": "2.1",
             "cNext": [639]
         },
         "x639": {
-            "id": 639,
             "points": 5,
             "patch": "2.1",
             "cPrev": [638],
             "cNext": [640]
         },
         "x640": {
-            "id": 640,
             "points": 10,
             "patch": "2.1",
             "cPrev": [639],
             "cNext": [1351]
         },
         "x1351": {
-            "id": 1351,
             "points": 10,
             "patch": "3.0",
             "cPrev": [640],
             "cNext": [1867]
         },
         "x1867": {
-            "id": 1867,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1351],
             "cNext": [2365]
         },
         "x2365": {
-            "id": 2365,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1867]
         },
         "x641": {
-            "id": 641,
             "points": 5,
             "patch": "2.1",
             "cNext": [642]
         },
         "x642": {
-            "id": 642,
             "points": 5,
             "patch": "2.1",
             "cPrev": [641],
             "cNext": [643]
         },
         "x643": {
-            "id": 643,
             "points": 10,
             "patch": "2.1",
             "cPrev": [642],
             "cNext": [1352]
         },
         "x1352": {
-            "id": 1352,
             "points": 10,
             "patch": "3.0",
             "cPrev": [643],
             "cNext": [1869]
         },
         "x1869": {
-            "id": 1869,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1352],
             "cNext": [2367]
         },
         "x2367": {
-            "id": 2367,
             "points": 10,
             "patch": "5.0",
             "cPrev": [1869]

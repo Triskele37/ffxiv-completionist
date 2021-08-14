@@ -2,13 +2,11 @@
     "key": "all-disciplines",
     "tasks": {
         "x2522": {
-            "id": 2522,
             "points": 5,
             "patch": "5.21",
             "cPrevAny": [2489, 2492, 2495, 2498, 2501, 2504, 2507, 2510]
         },
         "x2524": {
-            "id": 2524,
             "points": 10,
             "patch": "5.21",
             "cPrev": [2491, 2494, 2497, 2500, 2503, 2506, 2509, 2512],
@@ -18,13 +16,11 @@
             ]
         },
         "x2523": {
-            "id": 2523,
             "points": 5,
             "patch": "5.21",
             "cPrevAny": [2513, 2516, 2519]
         },
         "x2525": {
-            "id": 2525,
             "points": 10,
             "patch": "5.21",
             "cPrev": [2515, 2518, 2521],
@@ -34,45 +30,38 @@
             ]
         },
         "x2526": {
-            "id": 2526,
             "points": 20,
             "patch": "5.21",
             "cPrev": [2524, 2525]
         },
         "x2550": {
-            "id": 2550,
             "points": 5,
             "patch": "5.21",
             "cNext": [2551]
         },
         "x2551": {
-            "id": 2551,
             "points": 5,
             "patch": "5.21",
             "cPrev": [2550],
             "cNext": [2552]
         },
         "x2552": {
-            "id": 2552,
             "points": 10,
             "patch": "5.21",
             "cPrev": [2551]
         },
         "x2538": {
-            "id": 2538,
             "points": 5,
             "patch": "5.21",
             "cNext": [2539]
         },
         "x2539": {
-            "id": 2539,
             "points": 5,
             "patch": "5.21",
             "cPrev": [2538],
             "cNext": [2540]
         },
         "x2540": {
-            "id": 2540,
             "points": 10,
             "patch": "5.21",
             "cPrev": [2539],
@@ -81,12 +70,10 @@
             ]
         },
         "x2890": {
-            "id": 2890,
             "points": 5,
             "patch": "5.5"
         },
         "x2487": {
-            "id": 2487,
             "points": 10,
             "patch": "5.21",
             "defaultCompletion": "X",
@@ -95,7 +82,6 @@
             ]
         },
         "x2488": {
-            "id": 2488,
             "points": 10,
             "patch": "5.21",
             "defaultCompletion": "X",
@@ -104,7 +90,6 @@
             ]
         },
         "x2712": {
-            "id": 2712,
             "points": 10,
             "patch": "5.31",
             "defaultCompletion": "X",
@@ -113,7 +98,6 @@
             ]
         },
         "x2713": {
-            "id": 2713,
             "points": 10,
             "patch": "5.31",
             "defaultCompletion": "X",
@@ -123,7 +107,6 @@
         },
         "x2785": {
             "points": 10,
-            "id": 2785,
             "patch": "5.41",
             "defaultCompletion": "X",
             "cSiblings": [
@@ -132,7 +115,6 @@
         },
         "x2786": {
             "points": 10,
-            "id": 2786,
             "patch": "5.41",
             "defaultCompletion": "X",
             "cSiblings": [
@@ -140,7 +122,6 @@
             ]
         },
         "x2829": {
-            "id": 2829,
             "points": 20,
             "patch": "5.5",
             "cSiblings": [

@@ -2,25 +2,21 @@
     "key": "immortal-flames",
     "tasks": {
         "x529": {
-            "id": 529,
             "points": 5,
             "patch": "2.0"
         },
         "x538": {
-            "id": 538,
             "points": 5,
             "patch": "2.0",
             "cNext": [539]
         },
         "x539": {
-            "id": 539,
             "points": 5,
             "patch": "2.0",
             "cPrev": [538],
             "cNext": [540]
         },
         "x540": {
-            "id": 540,
             "points": 10,
             "patch": "2.0",
             "cPrev": [539],
@@ -30,26 +26,22 @@
             ]
         },
         "x541": {
-            "id": 541,
             "points": 20,
             "patch": "2.0",
             "cPrev": [540]
         },
         "x550": {
-            "id": 550,
             "points": 5,
             "patch": "2.0",
             "cNext": [551]
         },
         "x551": {
-            "id": 551,
             "points": 5,
             "patch": "2.0",
             "cPrev": [550],
             "cNext": [552]
         },
         "x552": {
-            "id": 552,
             "points": 10,
             "patch": "2.0",
             "cPrev": [551],
@@ -59,26 +51,22 @@
             ]
         },
         "x553": {
-            "id": 553,
             "points": 20,
             "patch": "2.0",
             "cPrev": [552]
         },
         "x562": {
-            "id": 562,
             "points": 5,
             "patch": "2.0",
             "cNext": [563]
         },
         "x563": {
-            "id": 563,
             "points": 5,
             "patch": "2.0",
             "cPrev": [562],
             "cNext": [564]
         },
         "x564": {
-            "id": 564,
             "points": 10,
             "patch": "2.0",
             "cPrev": [563],
@@ -88,26 +76,22 @@
             ]
         },
         "x565": {
-            "id": 565,
             "points": 20,
             "patch": "2.0",
             "cPrev": [564]
         },
         "x574": {
-            "id": 574,
             "points": 5,
             "patch": "2.0",
             "cNext": [575]
         },
         "x575": {
-            "id": 575,
             "points": 5,
             "patch": "2.0",
             "cPrev": [574],
             "cNext": [576]
         },
         "x576": {
-            "id": 576,
             "points": 10,
             "patch": "2.0",
             "cPrev": [575],
@@ -117,32 +101,27 @@
             ]
         },
         "x577": {
-            "id": 577,
             "points": 20,
             "patch": "2.0",
             "cPrev": [576]
         },
         "x692": {
-            "id": 692,
             "points": 5,
             "patch": "2.1",
             "cNext": [693]
         },
         "x693": {
-            "id": 693,
             "points": 5,
             "patch": "2.1",
             "cPrev": [692],
             "cNext": [694]
         },
         "x694": {
-            "id": 694,
             "points": 10,
             "patch": "2.1",
             "cPrev": [693]
         },
         "x738": {
-            "id": 738,
             "points": 20,
             "patch": "2.1",
             "cPrev": ["hl.immortal-flames.all"]

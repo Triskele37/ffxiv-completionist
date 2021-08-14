@@ -2,7 +2,6 @@
     "key": "general",
     "tasks": {
         "x44": {
-            "id": 44,
             "points": 20,
             "patch": "2.0",
             "cCombo": [56],
@@ -20,7 +19,6 @@
             }
         },
         "x55": {
-            "id": 55,
             "points": 20,
             "patch": "2.0",
             "cCombo": [56],
@@ -37,14 +35,12 @@
             }
         },
         "x56": {
-            "id": 56,
             "points": 30,
             "patch": "2.0",
             "cPrev": [44, 55],
             "cCombo": [1190]
         },
         "x1188": {
-            "id": 1188,
             "points": 20,
             "patch": "3.0",
             "cCombo": [1190],
@@ -65,7 +61,6 @@
             }
         },
         "x1189": {
-            "id": 1189,
             "points": 20,
             "patch": "3.0",
             "cCombo": [1190],
@@ -83,14 +78,12 @@
             }
         },
         "x1190": {
-            "id": 1190,
             "points": 30,
             "patch": "3.0",
             "cPrev": [56, 1188, 1189],
             "cCombo": [1834]
         },
         "x1832": {
-            "id": 1832,
             "points": 20,
             "patch": "4.0",
             "cCombo": [1834],
@@ -112,7 +105,6 @@
             }
         },
         "x1833": {
-            "id": 1833,
             "points": 20,
             "patch": "4.0",
             "cCombo": [1834],
@@ -131,14 +123,12 @@
             }
         },
         "x1834": {
-            "id": 1834,
             "points": 30,
             "patch": "4.0",
             "cPrev": [1190, 1832, 1833],
             "cCombo": [2277]
         },
         "x2275": {
-            "id": 2275,
             "points": 20,
             "patch": "5.0",
             "cCombo": [2277],
@@ -162,7 +152,6 @@
             }
         },
         "x2276": {
-            "id": 2276,
             "points": 20,
             "patch": "5.0",
             "cCombo": [2277],
@@ -181,13 +170,11 @@
             }
         },
         "x2277": {
-            "id": 2277,
             "points": 30,
             "patch": "5.0",
             "cPrev": [1834, 2275, 2276]
         },
         "x97": {
-            "id": 97,
             "points": 20,
             "patch": "2.0",
             "cSiblings": [
@@ -207,7 +194,6 @@
             }
         },
         "x113": {
-            "id": 113,
             "points": 20,
             "patch": "2.0",
             "cSiblings": [
@@ -222,7 +208,6 @@
             }
         },
         "x1276": {
-            "id": 1276,
             "points": 20,
             "patch": "3.0",
             "cSiblings": [
@@ -242,7 +227,6 @@
             }
         },
         "x1277": {
-            "id": 1277,
             "points": 20,
             "patch": "3.0",
             "cSiblings": [
@@ -257,7 +241,6 @@
             }
         },
         "x1846": {
-            "id": 1846,
             "points": 20,
             "patch": "4.0",
             "cSiblings": [
@@ -277,7 +260,6 @@
             }
         },
         "x1847": {
-            "id": 1847,
             "points": 20,
             "patch": "4.0",
             "cSiblings": [
@@ -292,7 +274,6 @@
             }
         },
         "x2278": {
-            "id": 2278,
             "points": 20,
             "patch": "5.0",
             "cSiblings": [
@@ -312,7 +293,6 @@
             }
         },
         "x2279": {
-            "id": 2279,
             "points": 20,
             "patch": "5.0",
             "cSiblings": [
@@ -327,188 +307,160 @@
             }
         },
         "x912": {
-            "id": 912,
             "points": 5,
             "patch": "2.2",
             "cNext": [913]
         },
         "x913": {
-            "id": 913,
             "points": 5,
             "patch": "2.2",
             "cPrev": [912],
             "cNext": [914]
         },
         "x914": {
-            "id": 914,
             "points": 10,
             "patch": "2.2",
             "cPrev": [913],
             "cNext": [915]
         },
         "x915": {
-            "id": 915,
             "points": 20,
             "patch": "2.2",
             "cPrev": [914]
         },
         "x1020": {
-            "id": 1020,
             "points": 5,
             "patch": "2.3"
         },
         "x1157": {
-            "id": 1157,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.coerthas-western-highlands.all"]
         },
         "x1158": {
-            "id": 1158,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.the-dravanian-forelands.all"]
         },
         "x1159": {
-            "id": 1159,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.the-dravanian-hinterlands.all"]
         },
         "x1160": {
-            "id": 1160,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.the-churning-mists.all"]
         },
         "x1161": {
-            "id": 1161,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.the-sea-of-clouds.all"]
         },
         "x1162": {
-            "id": 1162,
             "points": 5,
             "patch": "3.0",
             "cCombo": [1163],
             "cPrev": ["travel.aether-currents.hw.azys-lla.all"]
         },
         "x1163": {
-            "id": 1163,
             "points": 10,
             "patch": "3.0",
             "cPrev": [1157, 1158, 1159, 1160, 1161, 1162]
         },
         "x1870": {
-            "id": 1870,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.the-fringes.all"]
         },
         "x1871": {
-            "id": 1871,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.the-peaks.all"]
         },
         "x1872": {
-            "id": 1872,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.the-lochs.all"]
         },
         "x1873": {
-            "id": 1873,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.the-ruby-sea.all"]
         },
         "x1874": {
-            "id": 1874,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.yanxia.all"]
         },
         "x1875": {
-            "id": 1875,
             "points": 5,
             "patch": "4.0",
             "cCombo": [1876],
             "cPrev": ["travel.aether-currents.sb.the-azim-steppe.all"]
         },
         "x1876": {
-            "id": 1876,
             "points": 10,
             "patch": "4.0",
             "cPrev": [1870, 1871, 1872, 1873, 1874, 1875]
         },
         "x2329": {
-            "id": 2329,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.lakeland.all"]
         },
         "x2330": {
-            "id": 2330,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.kholusia.all"]
         },
         "x2331": {
-            "id": 2331,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.amh-araeng.all"]
         },
         "x2332": {
-            "id": 2332,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.il-mheg.all"]
         },
         "x2333": {
-            "id": 2333,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.the-raktika-greatwood.all"]
         },
         "x2334": {
-            "id": 2334,
             "points": 5,
             "patch": "5.0",
             "cCombo": [2335],
             "cPrev": ["travel.aether-currents.shb.the-tempest.all"]
         },
         "x2335": {
-            "id": 2335,
             "points": 10,
             "patch": "5.0",
             "cPrev": [2329, 2330, 2331, 2332, 2333, 2334]
         },
         "x1472": {
-            "id": 1472,
             "points": 5,
             "patch": "3.15",
             "cNext": [1473]
         },
         "x1473": {
-            "id": 1473,
             "points": 5,
             "patch": "3.15",
             "cPrev": [1472],
@@ -518,14 +470,12 @@
             ]
         },
         "x1474": {
-            "id": 1474,
             "points": 5,
             "patch": "3.15",
             "cPrev": [1473],
             "cNext": [1475]
         },
         "x1475": {
-            "id": 1475,
             "points": 5,
             "patch": "3.15",
             "cPrev": [1474],
@@ -535,26 +485,22 @@
             ]
         },
         "x1603": {
-            "id": 1603,
             "points": 10,
             "patch": "3.3",
             "cPrev": [1475],
             "cNext": [1604]
         },
         "x1604": {
-            "id": 1604,
             "points": 20,
             "patch": "3.3",
             "cPrev": [1603]
         },
         "x1648": {
-            "id": 1648,
             "points": 5,
             "patch": "3.4",
             "cNext": [1649]
         },
         "x1649": {
-            "id": 1649,
             "points": 5,
             "patch": "3.4",
             "cPrev": [1648],
@@ -564,35 +510,30 @@
             ]
         },
         "x1650": {
-            "id": 1650,
             "points": 5,
             "patch": "3.4",
             "cPrev": [1649],
             "cNext": [1651]
         },
         "x1651": {
-            "id": 1651,
             "points": 5,
             "patch": "3.4",
             "cPrev": [1650],
             "cNext": [1652]
         },
         "x1652": {
-            "id": 1652,
             "points": 5,
             "patch": "3.4",
             "cPrev": [1651],
             "cNext": [1653]
         },
         "x1653": {
-            "id": 1653,
             "points": 5,
             "patch": "3.4",
             "cPrev": [1652],
             "cNext": [1654]
         },
         "x1654": {
-            "id": 1654,
             "points": 10,
             "patch": "3.4",
             "cPrev": [1653],
@@ -601,13 +542,11 @@
             ]
         },
         "x2634": {
-            "id": 2634,
             "points": 5,
             "patch": "5.3",
             "cNext": [2635]
         },
         "x2635": {
-            "id": 2635,
             "points": 5,
             "patch": "5.3",
             "cPrev": [2634],
@@ -617,14 +556,12 @@
             ]
         },
         "x2636": {
-            "id": 2636,
             "points": 5,
             "patch": "5.3",
             "cPrev": [2635],
             "cNext": [2637]
         },
         "x2637": {
-            "id": 2637,
             "points": 10,
             "patch": "5.3",
             "cPrev": [2636],
@@ -633,34 +570,29 @@
             ]
         },
         "x1774": {
-            "id": 1774,
             "points": 5,
             "patch": "3.55b",
             "cNext": [1775]
         },
         "x1775": {
-            "id": 1775,
             "points": 5,
             "patch": "3.55b",
             "cPrev": [1774],
             "cNext": [1776]
         },
         "x1776": {
-            "id": 1776,
             "points": 5,
             "patch": "3.55b",
             "cPrev": [1775],
             "cNext": [1777]
         },
         "x1777": {
-            "id": 1777,
             "points": 5,
             "patch": "3.55b",
             "cPrev": [1776],
             "cNext": [1778]
         },
         "x1778": {
-            "id": 1778,
             "points": 10,
             "patch": "3.55b",
             "cPrev": [1777],
@@ -669,34 +601,29 @@
             ]
         },
         "x1969": {
-            "id": 1969,
             "points": 5,
             "patch": "4.1",
             "cNext": [1970]
         },
         "x1970": {
-            "id": 1970,
             "points": 5,
             "patch": "4.1",
             "cPrev": [1969],
             "cNext": [1971]
         },
         "x1971": {
-            "id": 1971,
             "points": 5,
             "patch": "4.1",
             "cPrev": [1970],
             "cNext": [1972]
         },
         "x1972": {
-            "id": 1972,
             "points": 5,
             "patch": "4.1",
             "cPrev": [1971],
             "cNext": [1973]
         },
         "x1973": {
-            "id": 1973,
             "points": 10,
             "patch": "4.1",
             "cPrev": [1972],
@@ -705,34 +632,29 @@
             ]
         },
         "x2067": {
-            "id": 2067,
             "points": 5,
             "patch": "4.3",
             "cNext": [2068]
         },
         "x2068": {
-            "id": 2068,
             "points": 5,
             "patch": "4.3",
             "cPrev": [2067],
             "cNext": [2069]
         },
         "x2069": {
-            "id": 2069,
             "points": 5,
             "patch": "4.3",
             "cPrev": [2068],
             "cNext": [2070]
         },
         "x2070": {
-            "id": 2070,
             "points": 5,
             "patch": "4.3",
             "cPrev": [2069],
             "cNext": [2071]
         },
         "x2071": {
-            "id": 2071,
             "points": 10,
             "patch": "4.3",
             "cPrev": [2070],
@@ -741,34 +663,29 @@
             ]
         },
         "x2183": {
-            "id": 2183,
             "points": 5,
             "patch": "4.5",
             "cNext": [2184]
         },
         "x2184": {
-            "id": 2184,
             "points": 5,
             "patch": "4.5",
             "cPrev": [2183],
             "cNext": [2185]
         },
         "x2185": {
-            "id": 2185,
             "points": 5,
             "patch": "4.5",
             "cPrev": [2184],
             "cNext": [2186]
         },
         "x2186": {
-            "id": 2186,
             "points": 5,
             "patch": "4.5",
             "cPrev": [2185],
             "cNext": [2187]
         },
         "x2187": {
-            "id": 2187,
             "points": 10,
             "patch": "4.5",
             "cPrev": [2186],
@@ -777,34 +694,29 @@
             ]
         },
         "x2425": {
-            "id": 2425,
             "points": 5,
             "patch": "5.1",
             "cNext": [2426]
         },
         "x2426": {
-            "id": 2426,
             "points": 5,
             "patch": "5.1",
             "cPrev": [2425],
             "cNext": [2427]
         },
         "x2427": {
-            "id": 2427,
             "points": 5,
             "patch": "5.1",
             "cPrev": [2426],
             "cNext": [2428]
         },
         "x2428": {
-            "id": 2428,
             "points": 5,
             "patch": "5.1",
             "cPrev": [2427],
             "cNext": [2429]
         },
         "x2429": {
-            "id": 2429,
             "points": 10,
             "patch": "5.1",
             "cPrev": [2428],
@@ -813,34 +725,29 @@
             ]
         },
         "x2623": {
-            "id": 2623,
             "points": 5,
             "patch": "5.3",
             "cNext": [2624]
         },
         "x2624": {
-            "id": 2624,
             "points": 5,
             "patch": "5.3",
             "cPrev": [2623],
             "cNext": [2625]
         },
         "x2625": {
-            "id": 2625,
             "points": 5,
             "patch": "5.3",
             "cPrev": [2624],
             "cNext": [2626]
         },
         "x2626": {
-            "id": 2626,
             "points": 5,
             "patch": "5.3",
             "cPrev": [2625],
             "cNext": [2627]
         },
         "x2627": {
-            "id": 2627,
             "points": 10,
             "patch": "5.3",
             "cPrev": [2626],
@@ -849,34 +756,29 @@
             ]
         },
         "x2835": {
-            "id": 2835,
             "points": 5,
             "patch": "5.5",
             "cNext": [2836]
         },
         "x2836": {
-            "id": 2836,
             "points": 5,
             "patch": "5.5",
             "cPrev": [2835],
             "cNext": [2837]
         },
         "x2837": {
-            "id": 2837,
             "points": 5,
             "patch": "5.5",
             "cPrev": [2836],
             "cNext": [2838]
         },
         "x2838": {
-            "id": 2838,
             "points": 5,
             "patch": "5.5",
             "cPrev": [2837],
             "cNext": [2839]
         },
         "x2839": {
-            "id": 2839,
             "points": 10,
             "patch": "5.5",
             "cPrev": [2838],
@@ -885,20 +787,17 @@
             ]
         },
         "x2001": {
-            "id": 2001,
             "points": 5,
             "patch": "4.2",
             "cNext": [2002]
         },
         "x2002": {
-            "id": 2002,
             "points": 5,
             "patch": "4.2",
             "cPrev": [2001],
             "cNext": [2003]
         },
         "x2003": {
-            "id": 2003,
             "points": 10,
             "patch": "4.2",
             "cPrev": [2002],
@@ -907,34 +806,29 @@
             ]
         },
         "x2080": {
-            "id": 2080,
             "points": 5,
             "patch": "4.3",
             "cNext": [2081]
         },
         "x2081": {
-            "id": 2081,
             "points": 10,
             "patch": "4.3",
             "cPrev": [2080],
             "cNext": [2129]
         },
         "x2129": {
-            "id": 2129,
             "points": 10,
             "patch": "4.4",
             "cPrev": [2081],
             "cNext": [2130]
         },
         "x2130": {
-            "id": 2130,
             "points": 10,
             "patch": "4.4",
             "cPrev": [2129],
             "cNext": [2131]
         },
         "x2131": {
-            "id": 2131,
             "points": 20,
             "patch": "4.4",
             "cPrev": [2130],
@@ -943,7 +837,6 @@
             ]
         },
         "x2336": {
-            "id": 2336,
             "points": 20,
             "patch": "5.0",
             "cSiblings": [

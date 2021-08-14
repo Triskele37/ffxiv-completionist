@@ -5,7 +5,7 @@ export const migrate_5_58_shared_fate = (store) => {
 
     const changeAndMove = (zone, oldId, newId) => {
         store.changeKey(zone, oldId, newId);
-        store.moveTask(zone, sharedFate, newId);
+        store.moveTask(zone, sharedFate, newId, true);
     };
 
     // Update with new IDs & remove subGroups

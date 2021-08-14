@@ -1,9 +1,9 @@
 import { ChangeStore } from "../ChangeStore";
-import { getPlayerStore } from "../../index";
+import {eStore, getPlayerStore} from "../../index";
 
-import { migrate_5_55_titles } from "./title";
-import { migrate_5_55_barding } from "./barding";
-import { migrate_5_55_emotes } from "./emote";
+import { migrate_5_58_titles } from "./title";
+import { migrate_5_58_barding } from "./barding";
+import { migrate_5_58_emotes } from "./emote";
 import { migrate_5_58_shared_fate } from "./shared-fate";
 
 export const migrate_5_5_to_5_58 = () => {
@@ -18,7 +18,7 @@ export const migrate_5_5_to_5_58 = () => {
     store.changeKey(`${seventhUmbral}.uldah`, 66210, 66209);
 
     // Sections where ids have to be completely re-mapped
-    if(process.env.NODE_ENV !== 'development') {
+    if(process.env.NODE_ENV !== 'development' || eStore.get('run-volatile')) {
         migrate_5_58_titles(store);
         migrate_5_58_barding(store);
         migrate_5_58_emotes(store);

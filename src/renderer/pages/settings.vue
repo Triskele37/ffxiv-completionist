@@ -110,6 +110,30 @@
                         @change="onChangeBoolSetting($event, settings.idColumnEnabled.key)"
                     />
                 </div>
+                <div
+                    class="setting"
+                    title="Enable/Disable maintaining original store version after a migration"
+                >
+                    <label>Maintain Version:</label>
+                    <input
+                        class="setting-input"
+                        type="checkbox"
+                        :checked="settings.maintainMigrationVersion.value"
+                        @change="onChangeBoolSetting($event, settings.maintainMigrationVersion.key)"
+                    />
+                </div>
+                <div
+                    class="setting"
+                    title="Run volatile migration blocks on next reload then reset"
+                >
+                    <label>Run Volatile Once:</label>
+                    <input
+                        class="setting-input"
+                        type="checkbox"
+                        :checked="settings.runVolatileMigrationsOnce.value"
+                        @change="onChangeBoolSetting($event, settings.runVolatileMigrationsOnce.key)"
+                    />
+                </div>
             </div>
         </template>
     </div>
@@ -129,18 +153,22 @@
         data: () => ({
             devMode: process.env.NODE_ENV === 'development',
             settings: {
-                storeName: { key: 'store-name', value: null },
-                storeLocation: { key: 'store-loc', value: null },
-                startingClass: { key: 'starting-class', value: null },
-                lang: { key: 'lang', value: null },
+                storeName: { key: 'store-name' },
+                storeLocation: { key: 'store-loc' },
+                startingClass: { key: 'starting-class' },
+                lang: { key: 'lang' },
                 tableFilters: {
-                    completed: { key: 'table-filters.completed', value: null },
-                    incomplete: { key: 'table-filters.incomplete', value: null },
-                    excluded: { key: 'table-filters.excluded', value: null }
+                    completed: { key: 'table-filters.completed' },
+                    incomplete: { key: 'table-filters.incomplete' },
+                    excluded: { key: 'table-filters.excluded' }
                 },
-                chainingEnabled: { key: 'chaining-enabled', value: null },
-                chainMinThreshold: { key: 'chain-min-threshold', value: null },
-                idColumnEnabled: { key: 'id-column-enabled', value: false }
+                chainingEnabled: { key: 'chaining-enabled' },
+                chainMinThreshold: { key: 'chain-min-threshold' },
+
+                // Developer settings
+                idColumnEnabled: { key: 'id-column-enabled' },
+                maintainMigrationVersion: { key: 'maintain-version' },
+                runVolatileMigrationsOnce: { key: 'run-volatile' }
             }
         }),
         created: function() {

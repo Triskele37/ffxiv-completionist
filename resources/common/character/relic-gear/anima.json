@@ -2,677 +2,573 @@
     "key": "anima",
     "tasks": {
         "x0": {
-            "id": 0,
             "iLevel": "170",
             "cNext": [1]
         },
         "x1": {
-            "id": 1,
             "iLevel": "200",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
-            "id": 2,
             "iLevel": "210",
             "cPrev": [1],
             "cNext": [3],
             "cSiblings": ["a.1418"]
         },
         "x3": {
-            "id": 3,
             "iLevel": "230",
             "cPrev": [2],
             "cNext": [4],
             "cSiblings": ["a.1511"]
         },
         "x4": {
-            "id": 4,
             "iLevel": "240",
             "cPrev": [3],
             "cNext": [5],
             "cSiblings": ["a.1617"]
         },
         "x5": {
-            "id": 5,
             "iLevel": "260",
             "cPrev": [4],
             "cNext": [6],
             "cSiblings": ["a.1679"]
         },
         "x6": {
-            "id": 6,
             "iLevel": "270",
             "cPrev": [5],
             "cNext": [7],
             "cSiblings": ["a.1707"]
         },
         "x7": {
-            "id": 7,
             "iLevel": "275",
             "cPrev": [6],
             "cSiblings": ["a.1720"]
         },
         "x8": {
-            "id": 8,
             "iLevel": "170",
             "cNext": [9]
         },
         "x9": {
-            "id": 9,
             "iLevel": "200",
             "cPrev": [8],
             "cNext": [10]
         },
         "x10": {
-            "id": 10,
             "iLevel": "210",
             "cPrev": [9],
             "cNext": [11],
             "cSiblings": ["a.1410"]
         },
         "x11": {
-            "id": 11,
             "iLevel": "230",
             "cPrev": [10],
             "cNext": [12],
             "cSiblings": ["a.1503"]
         },
         "x12": {
-            "id": 12,
             "iLevel": "240",
             "cPrev": [11],
             "cNext": [13],
             "cSiblings": ["a.1609"]
         },
         "x13": {
-            "id": 13,
             "iLevel": "260",
             "cPrev": [12],
             "cNext": [14],
             "cSiblings": ["a.1671"]
         },
         "x14": {
-            "id": 14,
             "iLevel": "270",
             "cPrev": [13],
             "cNext": [15],
             "cSiblings": ["a.1699"]
         },
         "x15": {
-            "id": 15,
             "iLevel": "275",
             "cPrev": [14],
             "cSiblings": ["a.1712"]
         },
         "x16": {
-            "id": 16,
             "iLevel": "170",
             "cNext": [17]
         },
         "x17": {
-            "id": 17,
             "iLevel": "200",
             "cPrev": [16],
             "cNext": [18]
         },
         "x18": {
-            "id": 18,
             "iLevel": "210",
             "cPrev": [17],
             "cNext": [19],
             "cSiblings": ["a.1412"]
         },
         "x19": {
-            "id": 19,
             "iLevel": "230",
             "cPrev": [18],
             "cNext": [20],
             "cSiblings": ["a.1505"]
         },
         "x20": {
-            "id": 20,
             "iLevel": "240",
             "cPrev": [19],
             "cNext": [21],
             "cSiblings": ["a.1611"]
         },
         "x21": {
-            "id": 21,
             "iLevel": "260",
             "cPrev": [20],
             "cNext": [22],
             "cSiblings": ["a.1673"]
         },
         "x22": {
-            "id": 22,
             "iLevel": "270",
             "cPrev": [21],
             "cNext": [23],
             "cSiblings": ["a.1701"]
         },
         "x23": {
-            "id": 23,
             "iLevel": "275",
             "cPrev": [22],
             "cSiblings": ["a.1714"]
         },
         "x24": {
-            "id": 24,
             "iLevel": "170",
             "cNext": [25]
         },
         "x25": {
-            "id": 25,
             "iLevel": "200",
             "cPrev": [24],
             "cNext": [26]
         },
         "x26": {
-            "id": 26,
             "iLevel": "210",
             "cPrev": [25],
             "cNext": [27],
             "cSiblings": ["a.1417"]
         },
         "x27": {
-            "id": 27,
             "iLevel": "230",
             "cPrev": [26],
             "cNext": [28],
             "cSiblings": ["a.1510"]
         },
         "x28": {
-            "id": 28,
             "iLevel": "240",
             "cPrev": [27],
             "cNext": [29],
             "cSiblings": ["a.1616"]
         },
         "x29": {
-            "id": 29,
             "iLevel": "260",
             "cPrev": [28],
             "cNext": [30],
             "cSiblings": ["a.1678"]
         },
         "x30": {
-            "id": 30,
             "iLevel": "270",
             "cPrev": [29],
             "cNext": [31],
             "cSiblings": ["a.1706"]
         },
         "x31": {
-            "id": 31,
             "iLevel": "275",
             "cPrev": [30],
             "cSiblings": ["a.1719"]
         },
         "x32": {
-            "id": 32,
             "iLevel": "170",
             "cNext": [33]
         },
         "x33": {
-            "id": 33,
             "iLevel": "200",
             "cPrev": [32],
             "cNext": [34]
         },
         "x34": {
-            "id": 34,
             "iLevel": "210",
             "cPrev": [33],
             "cNext": [35],
             "cSiblings": ["a.1409"]
         },
         "x35": {
-            "id": 35,
             "iLevel": "230",
             "cPrev": [34],
             "cNext": [36],
             "cSiblings": ["a.1502"]
         },
         "x36": {
-            "id": 36,
             "iLevel": "240",
             "cPrev": [35],
             "cNext": [37],
             "cSiblings": ["a.1608"]
         },
         "x37": {
-            "id": 37,
             "iLevel": "260",
             "cPrev": [36],
             "cNext": [38],
             "cSiblings": ["a.1670"]
         },
         "x38": {
-            "id": 38,
             "iLevel": "270",
             "cPrev": [37],
             "cNext": [39],
             "cSiblings": ["a.1698"]
         },
         "x39": {
-            "id": 39,
             "iLevel": "275",
             "cPrev": [38],
             "cSiblings": ["a.1711"]
         },
         "x40": {
-            "id": 40,
             "iLevel": "170",
             "cNext": [41]
         },
         "x41": {
-            "id": 41,
             "iLevel": "200",
             "cPrev": [40],
             "cNext": [42]
         },
         "x42": {
-            "id": 42,
             "iLevel": "210",
             "cPrev": [41],
             "cNext": [43],
             "cSiblings": ["a.1416"]
         },
         "x43": {
-            "id": 43,
             "iLevel": "230",
             "cPrev": [42],
             "cNext": [44],
             "cSiblings": ["a.1509"]
         },
         "x44": {
-            "id": 44,
             "iLevel": "240",
             "cPrev": [43],
             "cNext": [45],
             "cSiblings": ["a.1615"]
         },
         "x45": {
-            "id": 45,
             "iLevel": "260",
             "cPrev": [44],
             "cNext": [46],
             "cSiblings": ["a.1677"]
         },
         "x46": {
-            "id": 46,
             "iLevel": "270",
             "cPrev": [45],
             "cNext": [47],
             "cSiblings": ["a.1705"]
         },
         "x47": {
-            "id": 47,
             "iLevel": "275",
             "cPrev": [46],
             "cSiblings": ["a.1718"]
         },
         "x48": {
-            "id": 48,
             "iLevel": "170",
             "cNext": [49]
         },
         "x49": {
-            "id": 49,
             "iLevel": "200",
             "cPrev": [48],
             "cNext": [50]
         },
         "x50": {
-            "id": 50,
             "iLevel": "210",
             "cPrev": [49],
             "cNext": [51],
             "cSiblings": ["a.1407"]
         },
         "x51": {
-            "id": 51,
             "iLevel": "230",
             "cPrev": [50],
             "cNext": [52],
             "cSiblings": ["a.1500"]
         },
         "x52": {
-            "id": 52,
             "iLevel": "240",
             "cPrev": [51],
             "cNext": [53],
             "cSiblings": ["a.1606"]
         },
         "x53": {
-            "id": 53,
             "iLevel": "260",
             "cPrev": [52],
             "cNext": [54],
             "cSiblings": ["a.1668"]
         },
         "x54": {
-            "id": 54,
             "iLevel": "270",
             "cPrev": [53],
             "cNext": [55],
             "cSiblings": ["a.1696"]
         },
         "x55": {
-            "id": 55,
             "iLevel": "275",
             "cPrev": [54],
             "cSiblings": ["a.1709"]
         },
         "x56": {
-            "id": 56,
             "iLevel": "170",
             "cNext": [57]
         },
         "x57": {
-            "id": 57,
             "iLevel": "200",
             "cPrev": [56],
             "cNext": [58]
         },
         "x58": {
-            "id": 58,
             "iLevel": "210",
             "cPrev": [57],
             "cNext": [59],
             "cSiblings": ["a.1415"]
         },
         "x59": {
-            "id": 59,
             "iLevel": "230",
             "cPrev": [58],
             "cNext": [60],
             "cSiblings": ["a.1508"]
         },
         "x60": {
-            "id": 60,
             "iLevel": "240",
             "cPrev": [59],
             "cNext": [61],
             "cSiblings": ["a.1614"]
         },
         "x61": {
-            "id": 61,
             "iLevel": "260",
             "cPrev": [60],
             "cNext": [62],
             "cSiblings": ["a.1676"]
         },
         "x62": {
-            "id": 62,
             "iLevel": "270",
             "cPrev": [61],
             "cNext": [63],
             "cSiblings": ["a.1704"]
         },
         "x63": {
-            "id": 63,
             "iLevel": "275",
             "cPrev": [62],
             "cSiblings": ["a.1717"]
         },
         "x64": {
-            "id": 64,
             "iLevel": "170",
             "cNext": [65]
         },
         "x65": {
-            "id": 65,
             "iLevel": "200",
             "cPrev": [64],
             "cNext": [66]
         },
         "x66": {
-            "id": 66,
             "iLevel": "210",
             "cPrev": [65],
             "cNext": [67],
             "cSiblings": ["a.1406"]
         },
         "x67": {
-            "id": 67,
             "iLevel": "230",
             "cPrev": [66],
             "cNext": [68],
             "cSiblings": ["a.1499"]
         },
         "x68": {
-            "id": 68,
             "iLevel": "240",
             "cPrev": [67],
             "cNext": [69],
             "cSiblings": ["a.1605"]
         },
         "x69": {
-            "id": 69,
             "iLevel": "260",
             "cPrev": [68],
             "cNext": [70],
             "cSiblings": ["a.1667"]
         },
         "x70": {
-            "id": 70,
             "iLevel": "270",
             "cPrev": [69],
             "cNext": [71],
             "cSiblings": ["a.1695"]
         },
         "x71": {
-            "id": 71,
             "iLevel": "275",
             "cPrev": [70],
             "cSiblings": ["a.1708"]
         },
         "x72": {
-            "id": 72,
             "iLevel": "170",
             "cNext": [73]
         },
         "x73": {
-            "id": 73,
             "iLevel": "200",
             "cPrev": [72],
             "cNext": [74]
         },
         "x74": {
-            "id": 74,
             "iLevel": "210",
             "cPrev": [73],
             "cNext": [75],
             "cSiblings": ["a.1414"]
         },
         "x75": {
-            "id": 75,
             "iLevel": "230",
             "cPrev": [74],
             "cNext": [76],
             "cSiblings": ["a.1507"]
         },
         "x76": {
-            "id": 76,
             "iLevel": "240",
             "cPrev": [75],
             "cNext": [77],
             "cSiblings": ["a.1613"]
         },
         "x77": {
-            "id": 77,
             "iLevel": "260",
             "cPrev": [76],
             "cNext": [78],
             "cSiblings": ["a.1675"]
         },
         "x78": {
-            "id": 78,
             "iLevel": "270",
             "cPrev": [77],
             "cNext": [79],
             "cSiblings": ["a.1703"]
         },
         "x79": {
-            "id": 79,
             "iLevel": "275",
             "cPrev": [78],
             "cSiblings": ["a.1716"]
         },
         "x80": {
-            "id": 80,
             "iLevel": "170",
             "cNext": [81]
         },
         "x81": {
-            "id": 81,
             "iLevel": "200",
             "cPrev": [80],
             "cNext": [82]
         },
         "x82": {
-            "id": 82,
             "iLevel": "210",
             "cPrev": [81],
             "cNext": [83],
             "cSiblings": ["a.1413"]
         },
         "x83": {
-            "id": 83,
             "iLevel": "230",
             "cPrev": [82],
             "cNext": [84],
             "cSiblings": ["a.1506"]
         },
         "x84": {
-            "id": 84,
             "iLevel": "240",
             "cPrev": [83],
             "cNext": [85],
             "cSiblings": ["a.1612"]
         },
         "x85": {
-            "id": 85,
             "iLevel": "260",
             "cPrev": [84],
             "cNext": [86],
             "cSiblings": ["a.1674"]
         },
         "x86": {
-            "id": 86,
             "iLevel": "270",
             "cPrev": [85],
             "cNext": [87],
             "cSiblings": ["a.1702"]
         },
         "x87": {
-            "id": 87,
             "iLevel": "275",
             "cPrev": [86],
             "cSiblings": ["a.1715"]
         },
         "x88": {
-            "id": 88,
             "iLevel": "170",
             "cNext": [89]
         },
         "x89": {
-            "id": 89,
             "iLevel": "200",
             "cPrev": [88],
             "cNext": [90]
         },
         "x90": {
-            "id": 90,
             "iLevel": "210",
             "cPrev": [89],
             "cNext": [91],
             "cSiblings": ["a.1408"]
         },
         "x91": {
-            "id": 91,
             "iLevel": "230",
             "cPrev": [90],
             "cNext": [92],
             "cSiblings": ["a.1501"]
         },
         "x92": {
-            "id": 92,
             "iLevel": "240",
             "cPrev": [91],
             "cNext": [93],
             "cSiblings": ["a.1607"]
         },
         "x93": {
-            "id": 93,
             "iLevel": "260",
             "cPrev": [92],
             "cNext": [94],
             "cSiblings": ["a.1669"]
         },
         "x94": {
-            "id": 94,
             "iLevel": "270",
             "cPrev": [93],
             "cNext": [95],
             "cSiblings": ["a.1697"]
         },
         "x95": {
-            "id": 95,
             "iLevel": "275",
             "cPrev": [94],
             "cSiblings": ["a.1710"]
         },
         "x96": {
-            "id": 96,
             "iLevel": "170",
             "cNext": [97]
         },
         "x97": {
-            "id": 97,
             "iLevel": "200",
             "cPrev": [96],
             "cNext": [98]
         },
         "x98": {
-            "id": 98,
             "iLevel": "210",
             "cPrev": [97],
             "cNext": [99],
             "cSiblings": ["a.1411"]
         },
         "x99": {
-            "id": 99,
             "iLevel": "230",
             "cPrev": [98],
             "cNext": [100],
             "cSiblings": ["a.1504"]
         },
         "x100": {
-            "id": 100,
             "iLevel": "240",
             "cPrev": [99],
             "cNext": [101],
             "cSiblings": ["a.1610"]
         },
         "x101": {
-            "id": 101,
             "iLevel": "260",
             "cPrev": [100],
             "cNext": [102],
             "cSiblings": ["a.1672"]
         },
         "x102": {
-            "id": 102,
             "iLevel": "270",
             "cPrev": [101],
             "cNext": [103],
             "cSiblings": ["a.1700"]
         },
         "x103": {
-            "id": 103,
             "iLevel": "275",
             "cPrev": [102],
             "cSiblings": ["a.1713"]

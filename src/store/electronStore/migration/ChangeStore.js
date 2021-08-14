@@ -1,4 +1,4 @@
-import { getPlayerStore } from "../index";
+import {eStore, getPlayerStore} from "../index";
 
 export class ChangeStore {
     newStore;
@@ -6,7 +6,7 @@ export class ChangeStore {
     version;
     isTesting;
 
-    constructor(version, disableTesting) {
+    constructor(version) {
         console.log(`Migrating to ${version}`);
 
         // Create the initial `overall` object for new users
@@ -18,18 +18,23 @@ export class ChangeStore {
         this.version = version;
 
         // Testing flag that allows migration to run more than once
-        this.isTesting = process.env.NODE_ENV === 'development' && !disableTesting;
+        this.isTesting = eStore.get('maintain-version');
     }
 
     // Function to run when finished migrating that actually commits the changes
     write() {
         getPlayerStore().set('overall', this.newStore);
         if(!this.isTesting) getPlayerStore().set('version', this.version);
+
+        // Reset volatile setting
+        if(process.env.NODE_ENV === 'development') {
+            eStore.set('run-volatile', false);
+        }
     }
 
     // Change Helper when task is in same group
-    changeKey(groupPath, oldTaskKey, newTaskKey) {
-        const oldGroup = dive(groupPath, this.oldStore);
+    changeKey(groupPath, oldTaskKey, newTaskKey, newToNew) {
+        const oldGroup = dive(groupPath, newToNew ? this.newStore : this.oldStore);
         const newGroup = dive(groupPath, this.newStore);
 
         // Only attempt to apply the change if there was an old value
@@ -40,8 +45,8 @@ export class ChangeStore {
     }
 
     // Change helper when task is in different group
-    moveTask(oldGroupPath, newGroupPath, taskKey) {
-        const oldGroup = dive(oldGroupPath, this.oldStore);
+    moveTask(oldGroupPath, newGroupPath, taskKey, newToNew) {
+        const oldGroup = dive(oldGroupPath, newToNew ? this.newStore : this.oldStore);
         const newGroup = dive(newGroupPath, this.newStore);
 
         if(!!oldGroup && !!oldGroup[taskKey]) {
@@ -58,8 +63,8 @@ export class ChangeStore {
     }
 
     // Change helper to move an entire group of tasks
-    moveGroup(oldGroupPath, newGroupPath) {
-        const oldGroup = dive(oldGroupPath, this.oldStore);
+    moveGroup(oldGroupPath, newGroupPath, newToNew) {
+        const oldGroup = dive(oldGroupPath, newToNew ? this.newStore : this.oldStore);
 
         if(!!oldGroup) {
             // Place the group in the new store where its being moved
