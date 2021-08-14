@@ -32,6 +32,7 @@
         <p>The dropdown will pulse if the most recently marked task chained to other tasks</p>
         <p>You can navigate to the group a chained task is in using the dropdown</p>
         <p>An undo is available for the most recently chained tasks</p>
+        <p>NOTE: Undo is not available for chains from custom tasks or setting your starting class</p>
 
         <br/>
 

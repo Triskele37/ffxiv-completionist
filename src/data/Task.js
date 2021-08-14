@@ -93,7 +93,7 @@ export class Task {
     changeCompletionNumber(toNum, firstInChain) {
         // Dodge all of this if chaining is disabled
         if(!eStore.get('chaining-enabled')) {
-            this.setCompletionNumber(toFlag);
+            this.setCompletionNumber(toNum);
         }
         else if(this.shouldChain(firstInChain, toNum)) {
             const fromNum = this.completionFlag;

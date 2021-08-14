@@ -38,6 +38,11 @@ export const loadJson = function(path, lang) {
                 for(const id in langJson.tasks) {
                     // Remove the leading "x" and cast to int
                     langJson.tasks[id].id = parseInt(id.substr(1));
+
+                    // Removes tasks with 'hidden' so placeholders can be in resources
+                    if(langJson.tasks[id].hidden) {
+                        delete langJson.tasks[id];
+                    }
                 }
             }
             catch(e) {

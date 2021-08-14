@@ -31,6 +31,7 @@ fr shb trials has duplicate headers
 - detach lang specific resources to a download after installation
 
 **Fix**
+- Save automatically puts "N" for every item, making defaultCompletion not work
 - Scholar/Summoner levels don't tie together properly
 - Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 - Leve Issue/Start zones, follow up with XIVAPI

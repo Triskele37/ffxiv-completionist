@@ -208,7 +208,7 @@ export default {
     .chain-scroll-container {
         overflow-y: auto;
         height: 50vh;
-        width: 30vw;
+        min-width: 30vw;
     }
 
     .group-nav-arrow {

@@ -30,6 +30,7 @@
 
         <h3>Known Issues</h3>
         <ul>
+            <li>Tasks that should have been default excluded will not be excluded when app data is corrected</li>
             <li>Scholar & Summoner levels don't chain eachother</li>
             <li>Leve Issue/Start zones are incorrect</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>

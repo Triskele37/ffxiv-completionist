@@ -14,7 +14,7 @@
             </span>
 
             <span v-if="hasTasks">
-                <chain-dropdown></chain-dropdown>
+                <chain-dropdown :disable-undo="group.isCustomGroup"></chain-dropdown>
             </span>
 
             <span v-if="group.isCustomGroup">
@@ -175,7 +175,9 @@
         },
         watch: {
             group: function(oldGroup, newGroup) {
-                if(newGroup && oldGroup.name !== newGroup.name) {
+                const isValidGroupChange = newGroup && oldGroup.name !== newGroup.name;
+
+                if(isValidGroupChange && this.$refs.taskTable) {
                     this.$refs.taskTable.scrollTop = 0;
                 }
             }
