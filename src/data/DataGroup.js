@@ -26,11 +26,6 @@ export class DataGroup {
     // Group level props to pass to tasks (see Task)
     cCombo;
 
-    // an array of different tasks that should be chained
-    // used within the same group
-    chains;
-    // [1, 2, 3] - simple chain
-    // [[1, 2], 3] - combination chain (1 & 2) completes 3
     //#endregion
 
     //#region------------------------------------------------------------------ Construction
@@ -60,7 +55,6 @@ export class DataGroup {
 
         // Chain inheritance
         if(json.cCombo) this.cCombo = json.cCombo;
-        if(json.chains) this.chains = json.chains;
 
         if(json.tasks) this.initializeTasks(json.tasks);
 

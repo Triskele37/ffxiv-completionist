@@ -1,40 +1,51 @@
 {
     "key": "tank",
-    "chains": [
-        [0, 1, 2, 3, 4, 5, 6, 7]
-    ],
     "tasks": {
         "x0": {
             "id": 0,
-            "level": "15"
+            "level": "15",
+            "cNext": [1]
         },
         "x1": {
             "id": 1,
-            "level": "15"
+            "level": "15",
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "id": 2,
-            "level": "15"
+            "level": "15",
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "id": 3,
-            "level": "15"
+            "level": "15",
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "id": 4,
-            "level": "15"
+            "level": "15",
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "id": 5,
-            "level": "15"
+            "level": "15",
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "id": 6,
-            "level": "15"
+            "level": "15",
+            "cPrev": [5],
+            "cNext": [7]
         },
         "x7": {
             "id": 7,
-            "level": "15"
+            "level": "15",
+            "cPrev": [6]
         }
     }
 }

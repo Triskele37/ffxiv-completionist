@@ -1,175 +1,143 @@
 {
     "key": "general",
-    "chains": [
-        [
-            813,
-            814,
-            815,
-            816,
-            817,
-            818
-        ],
-        [
-            833,
-            834,
-            835,
-            836,
-            837,
-            838
-        ],
-        [
-            823,
-            824,
-            825,
-            826,
-            827,
-            828
-        ]
-    ],
     "tasks": {
         "x813": {
             "id": 813,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.112"
-            ]
+            "cNext": [814],
+            "cSiblings": ["t.112"]
         },
         "x814": {
             "id": 814,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.113"
-            ]
+            "cPrev": [813],
+            "cNext": [815],
+            "cSiblings": ["t.113"]
         },
         "x815": {
             "id": 815,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.114"
-            ]
+            "cPrev": [814],
+            "cNext": [816],
+            "cSiblings": ["t.114"]
         },
         "x816": {
             "id": 816,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.115"
-            ]
+            "cPrev": [815],
+            "cNext": [817],
+            "cSiblings": ["t.115"]
         },
         "x817": {
             "id": 817,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.116"
-            ]
+            "cPrev": [816],
+            "cNext": [818],
+            "cSiblings": ["t.116"]
         },
         "x818": {
             "id": 818,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.117"
-            ]
+            "cPrev": [817],
+            "cSiblings": ["t.117"]
         },
         "x833": {
             "id": 833,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.122"
-            ]
+            "cNext": [834],
+            "cSiblings": ["t.122"]
         },
         "x834": {
             "id": 834,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.123"
-            ]
+            "cPrev": [833],
+            "cNext": [835],
+            "cSiblings": ["t.123"]
         },
         "x835": {
             "id": 835,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.124"
-            ]
+            "cPrev": [834],
+            "cNext": [836],
+            "cSiblings": ["t.124"]
         },
         "x836": {
             "id": 836,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.125"
-            ]
+            "cPrev": [835],
+            "cNext": [837],
+            "cSiblings": ["t.125"]
         },
         "x837": {
             "id": 837,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.126"
-            ]
+            "cPrev": [836],
+            "cNext": [838],
+            "cSiblings": ["t.126"]
         },
         "x838": {
             "id": 838,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.127"
-            ]
+            "cPrev": [837],
+            "cSiblings": ["t.127"]
         },
         "x823": {
             "id": 823,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.132"
-            ]
+            "cNext": [824],
+            "cSiblings": ["t.132"]
         },
         "x824": {
             "id": 824,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.133"
-            ]
+            "cPrev": [823],
+            "cNext": [825],
+            "cSiblings": ["t.133"]
         },
         "x825": {
             "id": 825,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.134"
-            ]
+            "cPrev": [824],
+            "cNext": [826],
+            "cSiblings": ["t.134"]
         },
         "x826": {
             "id": 826,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.135"
-            ]
+            "cPrev": [825],
+            "cNext": [827],
+            "cSiblings": ["t.135"]
         },
         "x827": {
             "id": 827,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.136"
-            ]
+            "cPrev": [826],
+            "cNext": [828],
+            "cSiblings": ["t.136"]
         },
         "x828": {
             "id": 828,
             "points": 5,
             "patch": "2.1",
-            "cSiblings": [
-                "t.137"
-            ]
+            "cPrev": [827],
+            "cSiblings": ["t.137"]
         },
         "x1771": {
             "id": 1771,

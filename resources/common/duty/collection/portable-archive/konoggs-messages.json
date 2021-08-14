@@ -1,37 +1,44 @@
 {
     "key": "konoggs-messages",
-    "chains": [
-        [0, 1, 2, 3, 4, 5]
-    ],
     "tasks": {
         "x0": {
             "id": 0,
             "patch": "5.5",
+            "cNext": [1],
             "cSiblings": ["q.69580"]
         },
         "x1": {
             "id": 1,
             "patch": "5.5",
+            "cPrev": [0],
+            "cNext": [2],
             "cSiblings": ["q.69581"]
         },
         "x2": {
             "id": 2,
             "patch": "5.5",
+            "cPrev": [1],
+            "cNext": [3],
             "cSiblings": ["q.69582"]
         },
         "x3": {
             "id": 3,
             "patch": "5.5",
+            "cPrev": [2],
+            "cNext": [4],
             "cSiblings": ["q.69583"]
         },
         "x4": {
             "id": 4,
             "patch": "5.5",
+            "cPrev": [3],
+            "cNext": [5],
             "cSiblings": ["q.69584"]
         },
         "x5": {
             "id": 5,
             "patch": "5.5",
+            "cPrev": [4],
             "cSiblings": ["q.69585"]
         }
     }

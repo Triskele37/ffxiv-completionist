@@ -6,7 +6,6 @@ export class Task {
     name;
     id; // Its assumed that an id is passed with every task
     _parent;
-    chains; // array of related tasks to chain completion marking
 
     completionFlag = "N";
     defaultCompletion; // Set by DataGroup

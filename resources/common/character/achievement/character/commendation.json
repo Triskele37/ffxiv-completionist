@@ -1,54 +1,53 @@
 {
     "key": "commendation",
-    "chains": [
-        [
-            858,
-            859,
-            860,
-            861,
-            862,
-            1035,
-            1036
-        ]
-    ],
     "tasks": {
         "x858": {
             "id": 858,
             "points": 0,
             "patch": "2.1",
-            "cSiblings": [
-                "t.144"
-            ]
+            "cNext": [859],
+            "cSiblings": ["t.144"]
         },
         "x859": {
             "id": 859,
             "points": 0,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [858],
+            "cNext": [860]
         },
         "x860": {
             "id": 860,
             "points": 0,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [859],
+            "cNext": [861]
         },
         "x861": {
             "id": 861,
             "points": 0,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [860],
+            "cNext": [862]
         },
         "x862": {
             "id": 862,
             "points": 0,
-            "patch": "2.1"
+            "patch": "2.1",
+            "cPrev": [861],
+            "cNext": [1035]
         },
         "x1035": {
             "id": 1035,
             "points": 0,
-            "patch": "2.4"
+            "patch": "2.4",
+            "cPrev": [862],
+            "cNext": [1036]
         },
         "x1036": {
             "id": 1036,
             "points": 0,
-            "patch": "2.4"
+            "patch": "2.4",
+            "cPrev": [1035]
         }
     }
 }

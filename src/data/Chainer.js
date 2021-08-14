@@ -1,31 +1,12 @@
 export class Chainer {
     _overall;
-    chains = [];
     task = null;
     flag = null;
 
-    //#region------------------------------------------------------------------ Constructor
     constructor(task, flag) {
         this.task = task;
         this.flag = flag;
-
-        // Isolate the group chains containing this task id
-        this.isolateGroupLevelChains(task, flag);
     }
-
-    isolateGroupLevelChains(task) {
-        if(task._parent.chains) {
-            task._parent.chains.forEach((chain) => {
-                if(chain.indexOf(task.id) !== -1) {
-                    this.chains.push(chain);
-                }
-                else if(Array.isArray(chain[0]) && chain[0].indexOf(task.id) !== -1) {
-                    this.chains.push(chain);
-                }
-            });
-        }
-    }
-    //#endregion
 
     //#region------------------------------------------------------------------ Getters
     get overall() {
@@ -85,10 +66,6 @@ export class Chainer {
 
         if(!!this.task.cExclusive) {
             this.applyExclusiveChain();
-        }
-
-        if(this.chains.length) {
-            this.triggerGroupLevelChains();
         }
     }
 
@@ -170,45 +147,6 @@ export class Chainer {
         });
     }
 
-    // Shorthand Chains
-    triggerGroupLevelChains() {
-        this.chains.forEach((chain) => {
-            // Simple chain
-            if(!Array.isArray(chain[0])) {
-                const indexInChain = chain.indexOf(this.task.id);
-                if(indexInChain !== 0 && this.flag === "Y") {
-                    const prevChain = chain.slice(0, indexInChain);
-                    this.applyChainedFlag(prevChain);
-                }
-
-                if(indexInChain !== chain.length - 1 && this.flag === "N") {
-                    const nextChain = chain.slice(indexInChain + 1, chain.length);
-                    this.applyChainedFlag(nextChain);
-                }
-            }
-            // Pre-task chain
-            else if(this.flag === "Y") {
-                if(chain[1] === this.task.id) {
-                    // The post-task is completed, trickel flag down
-                    this.applyChainedFlag(chain[0]);
-                }
-                else {
-                    // A pre-task is completed, check others to potentially complete post-task
-                    let preTasksCompleted = true;
-                    chain[0].forEach((preTaskLink) => {
-                        const chainTask = this.getTaskFromLink(preTaskLink);
-                        if(chainTask.completionFlag !== "Y") preTasksCompleted = false;
-                    });
-                    if(preTasksCompleted) this.applyChainedFlag([chain[1]]);
-                }
-            }
-            else if(this.flag === "N") {
-                if(chain[1] !== this.task.id) {
-                    this.applyChainedFlag([chain[1]]);
-                }
-            }
-        });
-    }
     //#endregion
 
     //#region------------------------------------------------------------------ Helpers
