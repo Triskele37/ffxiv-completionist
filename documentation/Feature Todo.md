@@ -17,7 +17,6 @@ fr shb trials has duplicate headers
 
 **Change**
 - Searching UX
-- remove group level chain prop
 - electron-vue to angular-electron
 - PrimeNG for UI components and app theme
 - Remove native toolbar

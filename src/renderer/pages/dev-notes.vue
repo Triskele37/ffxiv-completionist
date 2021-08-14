@@ -18,8 +18,9 @@
         <h3>Features being considered, planned, or worked on</h3>
         <ul>
             <li>Mac Support</li>
-            <li>Methods of pulling data from XIVAPI while maintaining app data integrity</li>
             <li>Further translation support</li>
+            <li>Favorites/Pinning for tasks and groups</li>
+            <li>Search UX overhaul</li>
             <li>Armoire section</li>
             <li>Customizable themes</li>
             <li>Syncing data available on your character from Lodestone</li>
@@ -29,6 +30,8 @@
 
         <h3>Known Issues</h3>
         <ul>
+            <li>Scholar & Summoner levels don't chain eachother</li>
+            <li>Leve Issue/Start zones are incorrect</li>
             <li>"Show All Tasks" button laggy for groups with massive data sets</li>
             <li>application is not code signed</li>
         </ul>

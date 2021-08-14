@@ -21,8 +21,8 @@
                 <custom-task-dropdown :filtered-tasks="filteredTasks"/>
             </span>
 
-            <span v-if="hasTasks" class="row-count">
-                {{Object.keys(filteredTasks).length}} Rows displayed
+            <span v-if="hasTasks" class="row-count" :title="(totalTasks - displayedTasks) + ' Hidden'">
+                {{displayedTasks}} Rows displayed
             </span>
         </div>
 
@@ -80,6 +80,8 @@
                     excluded: eStore.get("table-filters.excluded"),
                 }
             },
+            displayedTasks: 0,
+            totalTasks: 0,
             rerenderKey: 0
         }),
         computed: {
@@ -157,6 +159,9 @@
                     }
                 }
 
+                this.displayedTasks = Object.keys(filtered).length;
+                this.totalTasks = Object.keys(this.tasks).length;
+
                 return filtered;
             }
         },
@@ -191,6 +196,7 @@
 
     .row-count {
         margin-left: 5px;
+        cursor: default;
     }
 }
 
