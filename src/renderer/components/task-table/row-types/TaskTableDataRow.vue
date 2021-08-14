@@ -29,7 +29,11 @@
                 }"
             >
                 <template v-if="column.editable && task.selected">
-                    <edit-cell :taskKey="column.key" :task="task"/>
+                    <edit-cell
+                        :taskKey="column.key"
+                        :task="task"
+                        v-on:deselect-task="onDeselectTask"
+                    />
                 </template>
                 <template v-else>
                     {{task[column.key]}}
@@ -72,6 +76,10 @@
                     task.selected = !task.selected;
                     this.$forceUpdate();
                 }
+            },
+            onDeselectTask: function(task) {
+                task.selected = false;
+                this.$forceUpdate();
             },
             onRowDragStart: function(task) {
                 this.draggedId = task.id;

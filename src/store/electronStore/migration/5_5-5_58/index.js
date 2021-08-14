@@ -30,17 +30,36 @@ export const migrate_5_5_to_5_58 = () => {
 
     // Perform once
     if(Array.isArray(oldCustom)) {
-        const oldFlags = store.oldStore.custom;
-
         // Update custom meta data
+        const errorMeta = [];
+        let highestId = 0;
+
         const customMeta = {};
-        Object.keys(oldFlags)
-            .forEach((id) => customMeta[`x${id}`] = { id, ...oldCustom.shift() });
+        oldCustom.forEach((meta) => {
+            if(meta.id === undefined) errorMeta.push(meta);
+            else {
+                if(meta.id > highestId) highestId = meta.id;
+                customMeta[`x${meta.id}`] = { name: meta.name, notes: meta.notes };
+            }
+        });
+
+        // Assign a new ID to meta created before 0.5.55b
+        highestId++;
+        errorMeta.forEach((meta, index) => {
+            const newId = highestId + index;
+            customMeta[`x${newId}`] = meta;
+        });
+
         getPlayerStore().set('custom', customMeta);
 
         // Update custom flag storage
+        const oldFlags = getPlayerStore().get('overall.custom');
+        if(oldFlags.undefined) delete oldFlags.undefined;
+
         const customFlag = {};
-        Object.keys(oldFlags).forEach((id) => customFlag[`x${id}`] = oldFlags[id]);
+        Object.keys(oldFlags).forEach((id) => {
+            customFlag[`x${id}`] = oldFlags[id]
+        });
         getPlayerStore().set('overall.custom', customFlag);
     }
 

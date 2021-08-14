@@ -175,7 +175,7 @@ export class DataGroup {
 
         // Pop off the first part of the path and dive
         const nextStep = path.shift();
-        return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path);
+        return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path, byName);
     }
 
     getChildGroupWithTaskID(taskID) {

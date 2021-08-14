@@ -14,7 +14,7 @@
                     />
                     <button @click="onSearch">Search</button>
                 </div>
-                {{ info }}
+                {{info}}
             </div>
             <div class="section-container">
                 <ul>
@@ -32,8 +32,8 @@
                     <th>Group</th>
                 </tr>
                 <tr v-for="match in matches" @click="onJumpToGroup(match)">
-                    <td>{{ match.matchesString }}</td>
-                    <td>{{ match.pathString }}</td>
+                    <td>{{match.matchesString}}</td>
+                    <td>{{match.path}}</td>
                 </tr>
             </table>
         </div>
@@ -58,11 +58,11 @@ export default {
     },
     methods: {
         searchOnEnter: function($event) {
-            if ($event.code === 'Enter') this.onSearch();
+            if($event.code === 'Enter') this.onSearch();
         },
         onSearch: function() {
             const testTerm = this.searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
-            if (testTerm.length < 3) {
+            if(testTerm.length < 3) {
                 this.status = 'failure';
                 this.info = 'Please enter at least 3 characters';
                 return;
@@ -75,18 +75,19 @@ export default {
             // Timeout allows UI to update
             setTimeout(() => {
                 this.matches = searchData(this.searchTerm);
-
-                if (this.matches.length > 0) {
+                console.log(this.matches);
+                if(this.matches.length > 0) {
                     this.status = 'success';
                     this.info = `${this.matches.length} tasks found`;
-                } else {
+                }
+                else {
                     this.status = 'failure';
                     this.info = 'No tasks found';
                 }
             }, 250);
         },
         onJumpToGroup: function(match) {
-            this.$store.commit('navigation/SET_BREADCRUMBS', match.path);
+            this.$store.commit('navigation/SET_BREADCRUMBS', match.path.split(' > '));
         }
     }
 };

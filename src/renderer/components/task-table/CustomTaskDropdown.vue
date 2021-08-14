@@ -24,6 +24,7 @@
                 {{mergeTask.notes}}<br/><br/>
                 {{mergeInfo}}
             </div>
+            <button class="xiv-dropdown-li" @click="autoMergeSingleMatches">Auto-Merge Tasks with One Match</button>
             <button class="xiv-dropdown-li" @click="goToNextMerge">Skip</button>
             <button class="xiv-dropdown-li" @click="exitMerge">Exit</button>
             <template v-if="mergeMatches.length > 0">
@@ -32,10 +33,15 @@
                     class="xiv-dropdown-li"
                     @click="confirmCurrentMerge(match)"
                 >
-                    {{match.pathString}}
+                    {{match.path}}
                 </button>
             </template>
         </div>
+        <div
+            class="auto-merge-modal"
+            v-if="autoMerge"
+            @click="modalNoNo"
+        ></div>
     </div>
 </template>
 
@@ -44,6 +50,7 @@ import { data } from "../../../data";
 import { Task } from "../../../data/Task";
 import { getPlayerStore } from "../../../store/electronStore";
 import { searchData } from "../../pages/search-data";
+import { applyDataToStore } from "../../../store/electronStore/applyDataToStore";
 
 export default {
     name: 'add-custom-task',
@@ -57,10 +64,12 @@ export default {
         newTaskNotes: '',
 
         mergingOpen: false,
+        autoMerge: false,
         mergeIndex: 0,
         mergeInfo: '',
         mergeMatches: [],
-        mergeTask: {}
+        mergeTask: {},
+        tasksToRemove: []
     }),
     methods: {
         addCustomTask: function() {
@@ -104,7 +113,9 @@ export default {
             this.mergeTask = this.customData.getTaskAtIndex(this.mergeIndex);
 
             this.mergeMatches = searchData(this.mergeTask.name, true);
-            this.mergeMatches = this.mergeMatches.filter((m) => m.pathString !== 'Overall > Custom');
+            this.mergeMatches = this.mergeMatches.filter(
+                (m) => m.path.indexOf('Overall > Custom') === -1
+            );
 
             if(this.mergeMatches.length) {
                 this.mergeInfo = `${this.mergeMatches.length} matches found`;
@@ -112,15 +123,39 @@ export default {
             else {
                 this.mergeInfo = 'No match found';
             }
+
+            if(this.autoMerge) {
+                setTimeout(() => {
+                    if(this.mergeMatches.length === 1) {
+                        this.confirmCurrentMerge(this.mergeMatches[0]);
+                    }
+                    else {
+                        this.goToNextMerge();
+                    }
+                }, 50);
+            }
+        },
+        autoMergeSingleMatches: function() {
+            this.autoMerge = true;
+            this.mergeCustomTasks();
         },
         confirmCurrentMerge: function(match) {
-            if(match.path[0] === 'Overall') {
-                match.path.shift(); // Remove the 'Overall' step
+            const pathSegments = match.path.split(' > ');
 
-                const group = data.getChildGroupFromPath(match.path, true);
-                const task = group.tasks[this.mergeTask.id];
-                task.setCompletionFlag(this.mergeTask.completionFlag);
-                this.removeCustomTask(this.mergeTask);
+            if(pathSegments[0] === 'Overall') {
+                pathSegments.shift(); // Remove the 'Overall' step
+
+                // Should never end up with a duplicate match in the same group
+                const task = data
+                    .getChildGroupFromPath(pathSegments, true)
+                    .getTaskByID(match.tasks[0].id);
+
+                task.changeCompletionFlag(this.mergeTask.completionFlag);
+
+                this.removeCustomTask_UI(this.mergeTask);
+                this.tasksToRemove.push(this.mergeTask);
+
+                // Offset index and goto next
                 this.mergeIndex--;
                 this.goToNextMerge();
             }
@@ -128,41 +163,76 @@ export default {
         goToNextMerge: function() {
             this.mergeIndex++;
 
-            if(this.mergeIndex > this.customData.taskCount - 1) this.exitMerge();
+            if(this.mergeIndex > this.customData.taskCount - 1) {
+                this.autoMerge = false;
+                this.exitMerge();
+            }
             else this.mergeCustomTasks();
         },
         exitMerge: function() {
             this.mergingOpen = false;
             this.mergeIndex = 0;
+            applyDataToStore(data);
+            this.syncCustomStore();
         },
         removeSelectedCustomTasks: function() {
             for(const id in this.filteredTasks) {
                 if(this.filteredTasks[id].selected) {
-                    this.removeCustomTask(this.filteredTasks[id]);
+                    this.removeCustomTask_UI(this.filteredTasks[id]);
+                    this.removeCustomTask_Store(this.filteredTasks[id]);
                 }
             }
         },
-        removeCustomTask: function(task) {
+        removeCustomTask_UI: function(task) {
+            // Update displayed completion
+            task.setCompletionFlag('N');
+
+            // Find & Remove from data
+            delete this.customData.tasks[`x${task.id}`];
+
+            // Generate new object reference so reload triggers
+            this.customData.tasks = Object.assign({}, this.customData.tasks);
+        },
+        removeCustomTask_Store: function(task) {
             const store = getPlayerStore();
             const customTasks = store.get('custom') || {};
 
             // Find & Remove from store
             for(const id in customTasks) {
-                if(id === task.id.toString()) delete customTasks[id];
+                if(id === `x${task.id}`) {
+                    delete customTasks[id];
+                    break;
+                }
             }
 
             // Update Store
             store.delete(task.fullStorageKey);
             store.set('custom', customTasks);
+        },
+        modalNoNo: function($event) {
+            $event.preventDefault();
+            $event.stopPropagation();
+        },
+        syncCustomStore: function() {
+            // Ugly shim to allow auto-merge not to run into locked files
+            const store = getPlayerStore();
+            const data = store.get();
 
-            // Update displayed completion
-            task.setCompletionFlag('N');
+            this.tasksToRemove.forEach((t) => {
+                // Remove task meta
+                for(const id in data.custom || {}) {
+                    if(id === `x${t.id}`) {
+                        delete data.custom[id];
+                        break;
+                    }
+                }
 
-            // Find & Remove from data
-            delete this.customData.tasks[task.id];
+                // Remove task flags
+                delete data.overall.custom[t.id];
+            });
 
-            // Generate new object reference so reload triggers
-            this.customData.tasks = Object.assign({}, this.customData.tasks);
+            store.set('custom', data.custom);
+            store.set('overall.custom', data.overall.custom)
         }
     }
 }
@@ -170,6 +240,17 @@ export default {
 
 <style lang="scss">
 .add-custom-task-container {
+    .auto-merge-modal {
+        background-color: black;
+        position: absolute;
+        z-index: 9999;
+        opacity: 0.25;
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        top: 0;
+    }
+
     .new-task-dropdown-li {
         padding: 5px 0;
     }

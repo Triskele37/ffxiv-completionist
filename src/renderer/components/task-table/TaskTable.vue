@@ -13,7 +13,7 @@
                 />
             </span>
 
-            <span v-if="hasTasks && !group.isCustomGroup">
+            <span v-if="hasTasks">
                 <chain-dropdown></chain-dropdown>
             </span>
 

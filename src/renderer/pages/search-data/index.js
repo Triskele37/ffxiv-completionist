@@ -26,7 +26,11 @@ function searchGroupForTerm(group, searchTerm, strict) {
         for(const id in group.tasks) {
             const taskName = group.tasks[id].name;
             if(taskName && namesFuzzyMatch(searchTerm, taskName, strict)) {
-                matches.push([...group.groupPath, taskName]);
+                matches.push({
+                    path: group.groupPath.join(' > '),
+                    name: taskName,
+                    id: id
+                });
             }
         }
     }
@@ -48,16 +52,21 @@ function namesFuzzyMatch(searchTerm, taskName, strict) {
 function groupMatches(matches) {
     const groupedMatches = [];
     matches.forEach((match) => {
-        const task = match.pop();
         const lastMatch = groupedMatches[groupedMatches.length - 1];
 
-        if(lastMatch && arrayEquals(lastMatch.path, match)) {
-            lastMatch.tasks[task.id] = task;
+        if(lastMatch && lastMatch.path === match.path) {
+            lastMatch.tasks.push({
+                id: match.id,
+                name: match.name
+            });
         }
         else {
             groupedMatches.push({
-                path: match,
-                tasks: [task]
+                path: match.path,
+                tasks: [{
+                    id: match.id,
+                    name: match.name
+                }]
             });
         }
     });
@@ -68,11 +77,9 @@ function groupMatches(matches) {
 //----------------------------------------------------------------------------- Clean Matches
 function cleanGroupedMatches(matches) {
     matches.forEach((match) => {
-        match.pathString = match.path.join(' > ');
-
-        const taskCount = Object.keys(match.tasks).length;
+        const taskCount = match.tasks.length;
         match.matchesString = taskCount > 1 ? `(${taskCount}) ` : '';
-        match.matchesString += match.tasks.join(', ');
+        match.matchesString += match.tasks.map((t) => t.name).join(', ');
     });
 
     return matches;

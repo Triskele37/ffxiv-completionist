@@ -10,7 +10,26 @@ export const Custom = function(parent) {
     data.draggable = true;
 
     const customTasks = getPlayerStore().get('custom') || {};
-    data.initializeTasks(customTasks);
+
+    // Have to temporarily keep this in until everyone is off 0.5.55
+    if(!Array.isArray(customTasks)) {
+        Object.keys(customTasks).forEach((key) => {
+            customTasks[key].id = parseInt(key.substr(1));
+        });
+        data.initializeTasks(customTasks);
+    }
+    else {
+        let highestId = customTasks.length - 1;
+        customTasks.forEach((meta) => {
+            if(meta.id === undefined) meta.id = highestId++;
+        });
+        const fixedTasks = customTasks.reduce((acc, t) => {
+            acc[`x${t.id}`] = t;
+            return acc;
+        }, {});
+        console.log(fixedTasks);
+        data.initializeTasks(fixedTasks);
+    }
 
     return data;
 };
