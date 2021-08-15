@@ -63,9 +63,11 @@
                 return this.breadcrumbs[this.degree] === this.group.name;
             },
             buttonStyle: function() {
+                const degMod = (this.degree + 4);
+                const opacity = degMod >= 10 ? 1 : `0.${degMod}`;
+
                 return {
-                    // 'filter': `brightness(${100 - this.degree * 30}%)`,
-                    'background-color': `rgba(0, 0, 0, 0.${this.degree * 2})`,
+                    'background-color': `rgba(0, 0, 0, ${opacity})`,
                     'padding-left': `${(this.degree * 5) + 5}px`
                 };
             }

@@ -169,17 +169,6 @@ export default {
         chainedTasks: function() {
             this.undoNotClicked = true;
             this.doNotify = !!Object.keys(this.chainedTasks).length;
-
-            // Auto-open small chains
-            if(this.chainedTaskCount < eStore.get('chain-min-threshold')) {
-                for(let key in this.chainedTasks) {
-                    Object.defineProperty(this.chainedTasks[key], 'show', {
-                        enumerable: false,
-                        writable: true,
-                        value: true
-                    });
-                }
-            }
         }
     }
 };

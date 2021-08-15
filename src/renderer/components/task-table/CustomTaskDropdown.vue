@@ -65,6 +65,7 @@ export default {
 
         mergingOpen: false,
         autoMerge: false,
+        mergeFirstInChain: false,
         mergeIndex: 0,
         mergeInfo: '',
         mergeMatches: [],
@@ -79,20 +80,17 @@ export default {
 
             // Get next safe ID
             let nextId = 0;
-            while(!!customMeta[`${nextId}`]) nextId++;
+            while(!!customMeta[`x${nextId}`]) nextId++;
+            const nextKey = `x${nextId}`
 
             // Update store with custom name & notes
-            getPlayerStore().set('custom', {
-                ...customMeta,
-                [nextId]: {
-                    id: nextId,
-                    name: this.newTaskName,
-                    notes: this.newTaskNotes
-                }
+            getPlayerStore().set(`custom.${nextKey}`, {
+                name: this.newTaskName,
+                notes: this.newTaskNotes
             });
 
             // Update data with new custom task
-            this.customData.tasks[nextId] = new Task({
+            this.customData.tasks[nextKey] = new Task({
                 id: nextId,
                 name: this.newTaskName,
                 notes: this.newTaskNotes
@@ -134,9 +132,14 @@ export default {
                     }
                 }, 50);
             }
+            else {
+                this.mergeFirstInChain = true;
+            }
         },
         autoMergeSingleMatches: function() {
             this.autoMerge = true;
+            this.mergeFirstInChain = true;
+            this.$store.commit('chain/CLEAR_CHAIN');
             this.mergeCustomTasks();
         },
         confirmCurrentMerge: function(match) {
@@ -150,7 +153,13 @@ export default {
                     .getChildGroupFromPath(pathSegments, true)
                     .getTaskByID(match.tasks[0].id);
 
-                task.changeCompletionFlag(this.mergeTask.completionFlag);
+                if(task.completionFlag !== this.mergeTask.completionFlag) {
+                    task.changeCompletionFlag(
+                        this.mergeTask.completionFlag,
+                        this.mergeFirstInChain
+                    );
+                    this.mergeFirstInChain = false;
+                }
 
                 this.removeCustomTask_UI(this.mergeTask);
                 this.tasksToRemove.push(this.mergeTask);
@@ -188,6 +197,7 @@ export default {
             task.setCompletionFlag('N');
 
             // Find & Remove from data
+            console.log(task.id);
             delete this.customData.tasks[`x${task.id}`];
 
             // Generate new object reference so reload triggers

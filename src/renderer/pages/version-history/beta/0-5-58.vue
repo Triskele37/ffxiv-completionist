@@ -23,6 +23,7 @@
             <li>Changed how Show All affects the page</li>
             <li>Changed column filters to be a combo input</li>
             <li>Changed numeric completion gradient to be less poopy</li>
+            <li>Fixed issue where Nav Bar displayed deeply nested groups incorrectly</li>
         </ul>
 
         <h2>Data</h2>
