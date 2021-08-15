@@ -12,6 +12,13 @@ export const migrate_5_5_to_5_58 = () => {
     // Fixing bug from last build
     store.changeKey("duty.quests.other", "undefined", "quasi-quests");
 
+    // Class Starting Quest Fixes
+    const classJob = "duty.quests.class--job";
+    store.changeKey(`${classJob}.disciple-of-war.pugilist`, 66069, 66068);
+    store.changeKey(`${classJob}.disciple-of-war.marauder`, 65847, 65846);
+    store.changeKey(`${classJob}.disciple-of-magic.thaumaturge`, 65881, 65880);
+    store.changeKey(`${classJob}.disciple-of-magic.arcanist`, 65989, 65988);
+
     // Fixing mixup of final quest in starting questline
     const seventhUmbral = "duty.quests.main-scenario.seventh-umbral-era";
     store.changeKey(`${seventhUmbral}.gridania`, 66209, 66210);
