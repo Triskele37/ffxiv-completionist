@@ -3,6 +3,7 @@
         <h1>Version 0.5.58 - (FINAL Beta)</h1>
 
         <p>Please see instructions on new feature functionality</p>
+        <p>Chaining is not enabled by default, you can change this in settings</p>
 
         <h2>Tasks that need manual review</h2>
         <ul>

@@ -119,6 +119,7 @@
     .custom-group-component {
         overflow-y: auto;
         white-space: normal;
+        padding-right: 10px;
     }
 
     .group-summary-section {
