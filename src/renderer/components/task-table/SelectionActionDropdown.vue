@@ -14,7 +14,7 @@
             <button class="xiv-dropdown-li" @click="onSelectChange(null)">Invert Selection</button>
 
             <template v-if="group.isCraftingLogGroup">
-              <button class="xiv-dropdown-li" @click="openInGardland()">Open Selected Recipes in Gardland Tools</button>
+              <button class="xiv-dropdown-li" @click="openInGarland()">Open Selected Recipes in Garland Tools</button>
               <button class="xiv-dropdown-li" @click="openInTeamcraft()">Open Selected Recipes in Teamcraft</button>
             </template>
         </div>
@@ -53,12 +53,12 @@ export default {
 
             this.$emit('select-change');
         },
-        openInGardland: function() {
+        openInGarland: function() {
             const ids = this.selectedIds();
 
             if(ids.length) {
                 const baseUrl = "https://www.garlandtools.org/db/#group";
-                const idsString = ids.map((id) => `item/${id}`).join("|");
+                const idsString = ids.map((id) => `item/${id.substr(1)}`).join("|");
 
                 // Create a pretty group name
                 let parent = this.group._parent;
@@ -73,7 +73,7 @@ export default {
 
             if(ids.length) {
                 const baseUrl = "https://www.ffxivteamcraft.com/import";
-                const idsString = ids.map((id) => `${id},null,1`).join(";");
+                const idsString = ids.map((id) => `${id.substr(1)},null,1`).join(";");
 
                 shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
             }
