@@ -36,8 +36,17 @@ export default {
     methods: {
         selectedIds: function() {
             const selectedIds = [];
-            for(const id in this.filteredTasks) {
-                if(this.filteredTasks[id].selected) selectedIds.push(id);
+            for(let id in this.filteredTasks) {
+                if(this.filteredTasks[id].selected) {
+                    if(typeof id === 'string') {
+                        // For show all ids: 0x1x12345
+                        while(id.indexOf('x') !== -1) {
+                            id = id.substr(id.indexOf('x') + 1);
+                        }
+                    }
+
+                    selectedIds.push(id);
+                }
             }
             return selectedIds;
         },
@@ -58,7 +67,7 @@ export default {
 
             if(ids.length) {
                 const baseUrl = "https://www.garlandtools.org/db/#group";
-                const idsString = ids.map((id) => `item/${id.substr(1)}`).join("|");
+                const idsString = ids.map((id) => `item/${id}`).join("|");
 
                 // Create a pretty group name
                 let parent = this.group._parent;
@@ -73,7 +82,7 @@ export default {
 
             if(ids.length) {
                 const baseUrl = "https://www.ffxivteamcraft.com/import";
-                const idsString = ids.map((id) => `${id.substr(1)},null,1`).join(";");
+                const idsString = ids.map((id) => `${id},null,1`).join(";");
 
                 shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
             }
