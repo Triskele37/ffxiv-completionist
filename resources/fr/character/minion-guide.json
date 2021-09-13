@@ -2,50 +2,51 @@
     "groupName": "Mascottes",
     "headers": {
         "name": "Mascotte",
-        "category": "Category",
+        "category": "Catégorie",
         "source": "Source",
+        "moreSources": "Sources Additionnelles",
         "patch": "Patch"
     },
     "tasks": {
         "x0": {
             "name": "Automate 2B",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du boss final: \"Base militaire des Pantins\""
+            "category": "Raid",
+            "source": "Base militaire des Pantins"
         },
         "x1": {
             "name": "Automate 2P",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du boss final: \"Base militaire des Pantins\""
+            "category": "Raid",
+            "source": "Base militaire des Pantins"
         },
         "x392": {
-            "name": "9S Automaton",
+            "name": "Automate 9S",
             "category": "Raid",
-            "source": "The Tower At Paradigm's Breach"
+            "source": "La tour de la Contingence"
         },
         "x2": {
             "name": "Loutre aloha",
             "category": "Expédition",
-            "source": "Expédition en Mer des Noyades 7"
+            "source": "Expédition sous-marine"
         },
         "x3": {
             "name": "Sphère de guidage",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire niveau 60: \"Le musée des machines\""
+            "category": "Quête",
+            "source": "Le musée des machines"
         },
         "x4": {
             "name": "Melon allagois",
-            "category": "Jardinage",
+            "category": "Autre",
             "source": "Jardinage"
         },
         "x5": {
-            "name": "Amaro Hatchling",
+            "name": "Bébé amaro",
             "category": "FATE",
-            "source": "400 Bicolor Gemstones (The Crystarium)"
+            "source": "400 Gemme Bicolore (Cristarium)"
         },
         "x6": {
             "name": "Poupée ascienne",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Anamnesis Anydre\""
+            "category": "Donjon",
+            "source": "Anamnesis Anydre"
         },
         "x7": {
             "name": "Ange de la résurrection",
@@ -54,33 +55,34 @@
         },
         "x8": {
             "name": "Esprit synthétique",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire niveau 60: \"Un esprit qui fait le corps\""
+            "category": "Quête",
+            "source": "Un esprit qui fait le corps"
         },
         "x393": {
-            "name": "Anteater",
-            "category": "Purchase",
-            "source": "400 Faux Leaves"
+            "name": "Tamandua",
+            "category": "Achat",
+            "source": "400 Foliole irréelle"
         },
         "x9": {
             "name": "Tatou-boule",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Le Puits de Malikah\""
+            "category": "Donjon",
+            "source": "Le Puits de Malikah"
         },
         "x10": {
             "name": "Fretin assassin",
-            "category": "Fabrication",
-            "source": "Obtention par le recyclage d'un betta assassin"
+            "category": "Autre",
+            "source": "Recyclage d'un betta assassin"
         },
         "x11": {
             "name": "Atomos atrophié",
-            "category": "Fabrication",
-            "source": "Recette d'Alchimiste niveau 60★"
+            "category": "Artisanat",
+            "source": "Recette d'Alchimiste",
+            "moreSources": "Kupo de la Fortune"
         },
         "x12": {
             "name": "Namazu nain festif",
             "category": "Achat",
-            "source": "Vendu par Gyosho pour 7 Kobans Namazu en atteignant le rang 7 de réputation"
+            "source": "Gyosho - Dhoro Iloh - 7 Kobans Namazu"
         },
         "x13": {
             "name": "Aurélie polype",
@@ -89,13 +91,13 @@
         },
         "x14": {
             "name": "Axolotl",
-            "category": "Tâche d'exploration du servant",
-            "source": "Expédition sous-marine ou Tâche d'exploration du servant"
+            "category": "Exploration",
+            "source": "Expédition sous-marine, Tâche d'exploration du servant"
         },
         "x15": {
             "name": "Bébé chauve-souris",
             "category": "Achat",
-            "source": "Vendu par Nonoroon Renigle-nid pour 2.400 gils au Hameau des Malheureuses en Haute-Noscea (11.8,24.7)"
+            "source": "Nonoroon Renigle-nid - Hameau des Malheureuses - 2.400 gil"
         },
         "x16": {
             "name": "Bébéhémoth",
@@ -105,52 +107,54 @@
         "x17": {
             "name": "Bébé brachiosaure",
             "category": "Achat",
-            "source": "Vendu par Enie pour 800 Assignats d'Azurée"
+            "source": "800 Assignats d'Azurée",
+            "moreSources": "Pillier des Cieux"
         },
         "x18": {
             "name": "Fungus miniature",
-            "category": "Récompense d'ALÉA",
-            "source": "Complétion de l'ALÉA: \"Défi: Laurence pas ravie\" avec médaille d'or en Forêt de l'est (23,29)"
+            "category": "ALÉA",
+            "source": "Défi: Laurence pas ravie"
         },
         "x19": {
             "name": "Bébé gremlin",
-            "category": "Bonus de précommande",
+            "category": "Premium",
             "source": "Précommande de Shadowbringers"
         },
         "x20": {
             "name": "Bébé opo-opo",
-            "category": "Instance",
-            "source": "Trouver dans le coffre du dernier boss du Bivouac de Brayflox (brutal)"
+            "category": "Donjon",
+            "source": "Bivouac de Brayflox (brutal)",
+            "moreSources": "Palais des morts, Aquapole"
         },
         "x21": {
             "name": "Bébé raptor",
             "category": "Achat",
-            "source": "Vendu par le Marchand de Rambourg pour 2.400 gils si l'ALÉA \"Nid de guêpes: colonisation\" a été réussi"
+            "source": "Marchand de Rambourg - Guêpier des Ventrerouge - 2.400 gils"
         },
         "x22": {
             "name": "Bout-de-cochon",
-            "category": "Tâche de servant",
-            "source": "Exploration sous-marines ou servants"
+            "category": "Exploration",
+            "source": "Expédition sous-marine, Tâche d'exploration du servant"
         },
         "x23": {
             "name": "Œil apprivoisé",
-            "category": "Haut fait",
-            "source": "Échangeable avec Jonathas pour 2 Jeton de hauts fait en Vieille Gridania"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jeton de haut fait"
         },
         "x24": {
             "name": "Prince bébéhémoth",
             "category": "Achat",
-            "source": "Vendu par Ardolain pour 400 Insignes Centurio"
+            "source": "400 Insignes Centurio"
         },
         "x394": {
-            "name": "Benben Stone",
+            "name": "Benben",
             "category": "Expédition",
             "source": "Expédition sous-marine - The Devil's Crypt"
         },
         "x25": {
             "name": "Mini-pudding",
-            "category": "Instance",
-            "source": "Obtention aléatoire dans un coffre du donjon: \"Le Palais de Vagabond\""
+            "category": "Donjon",
+            "source": "Le Palais de Vagabond"
         },
         "x26": {
             "name": "Ornithorynque nain",
@@ -160,37 +164,40 @@
         "x27": {
             "name": "Bébé chocobo noir",
             "category": "Haut fait",
-            "source": "Échangeable avec Jonathas pour 2 Jeton de hauts fait en Vieille Gridania"
+            "source": "Jonathas - Vieille Gridania - 2 Jeton de haut fait"
         },
         "x28": {
             "name": "Coeurl noir",
             "category": "Achat",
-            "source": "Vendu par le Préposé aux lots pour 20.000 PGS au Gold Saucer"
+            "source": "20.000 PGS"
         },
         "x29": {
             "name": "Kuro shiba",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Holminster\""
+            "category": "Donjon",
+            "source": "Holminster"
         },
         "x30": {
             "name": "Blizzaria",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)"
         },
         "x31": {
             "name": "Oiseau bleu",
-            "category": "Chasse au trésor",
-            "source": "Obtenu a l'aide d'une vielle carte en peau de peiste"
+            "category": "Donjon sans fond",
+            "source": "Le Palais des morts",
+            "moreSources": "Vieille carte en peau de peiste, Vieille carte en peau de dragon, Aquapole"
         },
         "x32": {
             "name": "Bunbuku",
-            "category": "Instance/Tâche de servant",
-            "source": "Trésor énigmatique de rang I du Pilier des cieux, Tâche d'exploration du servant"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant",
+            "moreSources": "Pilier des Cieux"
         },
         "x33": {
             "name": "Poisson-bombo",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le donjon: \"Le Palais aux Marées violettes\""
+            "category": "Donjon",
+            "source": "Le Palais aux Marées violettes",
+            "moreSources": "Palais des Cieux"
         },
         "x34": {
             "name": "Y'shtola miniature (premier reflet)",
@@ -204,123 +211,126 @@
         },
         "x36": {
             "name": "Brina",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"L'Antitour\""
+            "category": "Donjon",
+            "source": "L'Antitour"
         },
         "x37": {
             "name": "Bufflon",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 50: \"Un petit coup de main\""
+            "category": "Quête",
+            "source": "Un petit coup de main"
         },
         "x38": {
             "name": "Chiot bulldog",
-            "category": "Récompense de quête",
-            "source": "Obtenu rarement dans le coffre du dernier boss du donjon: \"La Muraille de Baelsar\""
+            "category": "Donjon",
+            "source": "La Muraille de Baelsar",
+            "moreSources": "Kupo de la Fortune"
         },
         "x39": {
             "name": "Couple de papillons",
-            "category": "Achat",
-            "source": "Vendu par Nacille pour 400 Gemmes bicolores à Fanow"
+            "category": "ALÉA",
+            "source": "400 Gemme Bicolore (Rak'tika)"
         },
         "x40": {
             "name": "Bébé Byakko",
-            "category": "Fabrication",
-            "source": "Recette de Menuisier niveau 60★"
+            "category": "Artisanat",
+            "source": "Recette de Menuisier"
         },
         "x41": {
             "name": "Mini-pampa",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire: \"De piquants compagnons\" en Thanalan méridional"
+            "category": "Quête",
+            "source": "De piquants compagnons"
         },
         "x42": {
             "name": "Poupée Cait Sith",
-            "category": "Bonus de précommande",
+            "category": "Premium",
             "source": "Précommande de FFXIV: ARR (édition complète ou standard)"
         },
         "x43": {
             "name": "Tentacule minuscule",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le coffre du dernier boss du donjon: \"L'Île de Crèvecarène (brutal)\""
+            "category": "Donjon",
+            "source": "L'Île de Crèvecarène (brutal)"
         },
         "x44": {
             "name": "Calca",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"L'Antitour\""
+            "category": "Donjon",
+            "source": "L'Antitour",
+            "moreSources": "ALÉA \"Creepy Doll\" - Eurêka Pyros"
         },
         "x45": {
             "name": "Bébé cabiaï",
-            "category": "Instance",
-            "source": "Les Canaux perdus d'Uznair"
+            "category": "Chasse aux trésors",
+            "source": "Les Canaux perdus d'Uznair, Les Canaux cachés d'Uznair, Le Temple sacré d'Uznair"
         },
         "x46": {
             "name": "Bébé chocobo des mers",
-            "category": "Pêche",
-            "source": "Pêche à l'Île de l'Éternel été (nord)"
+            "category": "Récolte",
+            "source": "Récolte du pêcheur",
+            "moreSources": "Pilier des Cieux"
         },
         "x47": {
             "name": "Cerbère chiot",
             "category": "Achat",
-            "source": "Vendu par Enie pour 1200 Assignats d'Azurée à Azurée"
+            "source": "1.200 Assignats d'Azurée"
         },
         "x48": {
             "name": "Caméléon",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"L'Enchevêtrement des Qitari\""
+            "category": "Donjon",
+            "source": "L'Enchevêtrement des Qitari"
         },
         "x49": {
             "name": "Bombino",
             "category": "Achat",
-            "source": "Vendu par Bango Zango à Limsa Lominsa, Roarich à Ul'dah ou Maisenta dans la Nouvelle Gridania pour 2.400 gils"
+            "source": "Marchande de mascottes - Gold Saucer - 2,400 Gil"
         },
         "x50": {
             "name": "Chigoe apprivoisé",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire: \"Rassurer Yoenne\" donné par Yoenne en Forêt du sud, Moulin de la Carrière"
+            "category": "Quête",
+            "source": "Rassurer Yoenne"
         },
         "x51": {
             "name": "Bébé chocobo noir volant",
-            "category": "Bonus de précommande",
-            "source": "Précommande de FFXIV: HW"
+            "category": "Premium",
+            "source": "Précommande de FFXIV: Heavensward"
         },
         "x52": {
             "name": "Jeune clionide",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Akadaemia Anydre\""
+            "category": "Donjon",
+            "source": "Akadaemia Anydre"
         },
         "x53": {
             "name": "Brouette mécanique",
-            "category": "Fabrication",
-            "source": "Recette de Menuisier niveau 60"
+            "category": "Artisanat",
+            "source": "Recette de Menuisier"
         },
         "x54": {
             "name": "Lanterne mécanique",
             "category": "Achat",
-            "source": "Vendu par le Sergent du Maelstrom à la Jetée de l'Antre des loups pour 15.000 Marques de loup"
+            "source": "15.000 Marques de loup"
         },
         "x55": {
             "name": "Mini-Gémellia",
             "category": "Haut fait",
-            "source": "Obtenir le haut fait: \"Élève-officier CdM I\""
+            "source": "Élève-officier CdM I"
         },
         "x56": {
             "name": "Larve de coblyn",
-            "category": "Minage",
-            "source": "Point de récolte intact, Mineur niveau 46-50"
+            "category": "Récolte",
+            "source": "Récolte du Mineur"
         },
         "x57": {
             "name": "Joli coeurl",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire: \"Le félin orphelin\" donné par Skribyld à Port-aux-Âles"
+            "category": "Quête",
+            "source": "Le félin orphelin"
         },
         "x58": {
             "name": "Mini-vertu",
-            "category": "Instance",
-            "source": "L'Arsenal de Baldesion"
+            "category": "Mission d'exploration",
+            "source": "L'Arsenal de Baldesion - Eurêka Hydatos"
         },
         "x59": {
             "name": "Bâtisseur n°8",
-            "category": "Instance",
-            "source": "Obtention dans le coffre final du raid en alliance: \"Le Phare de Ridorana\""
+            "category": "Raid",
+            "source": "Le Phare de Ridorana"
         },
         "x60": {
             "name": "Œil du Cirque",
@@ -329,47 +339,47 @@
         },
         "x61": {
             "name": "Pousse de Cassie",
-            "category": "Instance",
-            "source": "Obtenu rarement dans les coffres verrouillés dans l'Eurêka: Pagos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé de Pagos - Eurêka: Pagos"
         },
         "x62": {
             "name": "Ultragokin Justice",
             "category": "Achat",
-            "source": "Vendu par Maudlin Latool Ja à Ul'dah pour 400 Insignes alliés (MBU niveau 60 requis)"
+            "source": "Maudlin Latool Ja - Ul'dah - 400 Insignes alliés"
         },
         "x63": {
             "name": "Dáinsleif F1",
-            "category": "Bozja",
-            "source": "Southern Front Lockbox"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé du Front sud de Bozja"
         },
         "x64": {
             "name": "Damona",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x65": {
             "name": "Cadeau ambulant",
-            "category": "Autre",
-            "source": "Participer à une Cérémonie du lien Éternel de niveau Or ou Platine"
+            "category": "Premium",
+            "source": "Participer à une Cérémonie du lien Éternel"
         },
         "x66": {
             "name": "Bloc démonique",
-            "category": "Instance",
-            "source": "Obtention dans le premier coffre du donjon: \"Le Château d'Amdapor\""
+            "category": "Donjon",
+            "source": "Le Château d'Amdapor"
         },
         "x67": {
             "name": "Bébé dhalmel",
-            "category": "Instance",
-            "source": "Terre interdite, Eurêka Pyros"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé de Pyros, Coffre roussi - Eurêka Pyros"
         },
         "x395": {
-            "name": "Dolphin Calf",
-            "category": "Achievement",
-            "source": "Double-backwards Somersault"
+            "name": "Bébé dauphin",
+            "category": "Haut fait",
+            "source": "Salut, et encore merci pour le poisson"
         },
         "x68": {
             "name": "Domakin",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Expédition sous-marine, Tâche d'exploration du servant"
         },
         "x69": {
@@ -379,18 +389,18 @@
         },
         "x70": {
             "name": "Nouvelle Alisaie miniature",
-            "category": "Autre",
-            "source": "Récompense pour 2 Lignes dans le Carnet de Khloé. Station mog: 5 USD / 3.5 EUR"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x71": {
             "name": "Nouvel Estinien miniature",
             "category": "Achat",
-            "source": "Vendu par Enie pour 1200 Assignats d'Azurée à Azurée"
+            "source": "1200 Assignats d'Azurée"
         },
         "x72": {
             "name": "Nouveau Raubahn miniature",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 70: \"Retour au bercail\""
+            "category": "Quête",
+            "source": "Retour au bercail"
         },
         "x73": {
             "name": "Nouvelle Tataru miniature",
@@ -399,8 +409,8 @@
         },
         "x74": {
             "name": "Nouveau Thancred miniature",
-            "category": "Autre",
-            "source": "Récompense pour 2 Lignes dans le Carnet de Khloé. Station mog: 5 USD / 3.5 EUR"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x75": {
             "name": "Nouvelle Y'shtola miniature",
@@ -414,168 +424,173 @@
         },
         "x77": {
             "name": "Drippy",
-            "category": "Dungeon",
-            "source": "Matoya's Relict"
+            "category": "Donjon",
+            "source": "L'Atelier abandonné de Matoya"
         },
         "x78": {
             "name": "Lapin mutin",
             "category": "Achat",
-            "source": "Vendu par Auriana pour 3 Mémoquartz allagois poétique. Obtention lors de l'évènement: \"La chasse aux Prœufs (2016)\""
+            "source": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétique",
+            "moreSources": "La chasse aux Prœufs (2016)"
         },
         "x79": {
             "name": "Lapin nain",
-            "category": "Instance",
-            "source": "Obtention dans l'instance: \"Aquapolis\""
+            "category": "Donjon sans fond",
+            "source": "Pilier des Cieux",
+            "moreSources": "Kupo de la Fortune, Aquapole"
         },
         "x80": {
             "name": "Mini-Éden",
-            "category": "Instance",
-            "source": "Obtention dans le raid normal: \"L'Éveil d'Éden - Inhumation\""
+            "category": "Raid",
+            "source": "L'Éveil d'Éden - Inhumation"
         },
         "x81": {
             "name": "Chevalier aubergine",
-            "category": "Jardinage",
-            "source": "Jardinage: Croisement entre Carotte de Krakka avec de l'Anis étoilé OU Aubergine du mage avec une Mandragore"
+            "category": "Autre",
+            "source": "Jardinage"
         },
         "x82": {
             "name": "Enkidu",
-            "category": "Instance",
-            "source": "Obtention dans le défi: \"Revanche au vieux château\""
+            "category": "Défi",
+            "source": "Revanche au vieux château"
         },
         "x83": {
             "name": "Nécromancienne évanescente",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 80: \"Des Guerriers pas comme les autres\""
+            "category": "Quête",
+            "source": "Des Guerriers pas comme les autres"
         },
         "x84": {
             "name": "Chiot fantasmagorique",
-            "category": "PvP",
-            "source": "Obtenit le haut fait: \"Traiteur pour festin III\""
+            "category": "Haut fait",
+            "source": "Traiteur pour festin III"
         },
         "x85": {
             "name": "Gros minou",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Expédition sous-marine"
         },
         "x86": {
             "name": "Faust articulé",
-            "category": "Instance",
-            "source": "Obtention dans le raid normal: \"Alexandre - Le Fardeau du Fils (sadique)\""
+            "category": "Raid",
+            "source": "Alexandre - Le Fardeau du Fils (sadique)"
         },
         "x87": {
             "name": "Bébé Fenrir",
-            "category": "PvP",
-            "source": "Obtention aléatoire à la fin des matchs de The Feast"
+            "category": "Autre",
+            "source": "Feast: obtention aléatoire"
         },
         "x88": {
             "name": "Bébé chocobo des Immortels",
             "category": "Achat",
-            "source": "Achat pour 20.000 sceaux de compagnie uldien"
+            "source": "20.000 sceaux de compagnie uldien"
         },
         "x89": {
             "name": "Apkallu nain",
             "category": "Haut fait",
-            "source": "Trouver les 80 entrées du Carnet d'exploration ARR"
+            "source": "Argonaute d'Éorzéa"
         },
         "x90": {
             "name": "Dodu dodo",
             "category": "Achat",
-            "source": "Vendu par Auriana pour 3 Mémoquartz allagois poétique"
+            "source": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétique"
         },
         "x91": {
             "name": "Haine pardonnée",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Mont Gulg\""
+            "category": "Donjon",
+            "source": "Mont Gulg"
         },
         "x92": {
             "name": "Bébé renard",
             "category": "Achat",
-            "source": "Vendu par Eschina pour 3 Fragments de la Roche meurtrière"
+            "source": "Eschina - L'Étendue de Rhalgr - 3 Fragments de la Roche meurtrière"
         },
         "x93": {
             "name": "Lézard à collerette",
-            "category": "Achat",
-            "source": "Vendu par la Fournisseuse de la Confédération pour 10 Tessons de poterie empyréennes"
+            "category": "Donjon sans fond",
+            "source": "Fournisseuse de la Confédération - L'Entorse - 10 Tessons de poterie empyréennes"
         },
         "x94": {
             "name": "Gaélichaton",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"Sohm Al\""
+            "category": "Donjon",
+            "source": "Sohm Al",
+            "moreSources": "Palais des Morts, Kupo de la Fortune, Aquapole"
         },
         "x95": {
             "name": "Baron ail",
-            "category": "Jardinage",
-            "source": "Jardinage: Croisement entre de l'Ail garlemaldais et une Mandragore"
+            "category": "Autre",
+            "source": "Jardinage"
         },
         "x96": {
             "name": "Gestahl",
-            "category": "Instance/Tâche de servant",
-            "source": "Trésor énigmatique de grade I du Pilier des cieux, Tâche d'exploration du servant"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant",
+            "moreSources": "Pilier des Cieux"
         },
         "x97": {
             "name": "Ghido",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le donjon: \"La Mer du Chant des sirènes\""
+            "category": "Donjon",
+            "source": "La Mer du Chant des sirènes",
+            "moreSources": "Pilier des Cieux"
         },
         "x98": {
             "name": "Castor géant",
             "category": "Achat",
-            "source": "Échangeable contre une Ailes de Titania"
+            "source": "Castor géant - Il Mheg - 1 Ailes de Titania"
         },
         "x99": {
             "name": "Têtard géant",
-            "category": "Pêche",
-            "source": "Poisson rare en pêchant au Mur incandescent dans le Thanalan oriental (28-25) avec une Grenouille sèche"
+            "category": "Récolte",
+            "source": "Récolter par le Pêcheur"
         },
         "x100": {
             "name": "Gigi",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête des aventures d'Hildibrand: \"Chacun son meilleur jour\""
+            "category": "Quête",
+            "source": "Chacun son meilleur jour"
         },
         "x101": {
-            "name": "Golden Beaver",
-            "category": "Treasure Hunt",
-            "source": "The Shifting Oubliettes Of Lyhe Ghiah"
+            "name": "Castor doré",
+            "category": "Chasse aux trésors",
+            "source": "Le Jardin secret du Lyhe Ghiah"
         },
         "x102": {
             "name": "Chariot de mine mécanique",
-            "category": "Récompense d'ALÉA",
-            "source": "Complétion de l'ALÉA: \"Défi: mangeur de terre gardée\" avec la meilleure évaluation possible"
+            "category": "ALÉA",
+            "source": "ALÉA: \"Défi: mangeur de terre gardée\""
         },
         "x103": {
             "name": "Goobbue goulu",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 33: \"Un pied de vigne ambulant\""
+            "category": "Quête",
+            "source": "Un pied de vigne ambulant"
         },
         "x104": {
             "name": "Golem graveleux",
-            "category": "Fabrication",
-            "source": "Recette d'Orfèvrier niveau 50"
+            "category": "Artisanat",
+            "source": "Recette d'Orfèvrier"
         },
         "x105": {
             "name": "Bébé griffon",
             "category": "Achat",
-            "source": "Vendu par Ardolain contre 400 Insignes Centurio"
+            "source": "400 Insignes Centurio"
         },
         "x396": {
-            "name": "Gull",
-            "category": "Achievement",
-            "source": "Mine, Mine, Mine"
+            "name": "Goé",
+            "category": "Haut fait",
+            "source": "Mouette mouette avec les mouettes"
         },
         "x106": {
             "name": "Bébé chocobo grassouillet",
             "category": "Achat",
-            "source": "Vendu par le Préposé aux lots pour 20.000 PGS au Gold Saucer"
+            "source": "20.000 PGS"
         },
         "x107": {
             "name": "Hectoculus monoculaire",
-            "category": "Achat",
-            "source": "Vendu par E-Una-Kotor contre 3 Tessons de poterie gelmorraine au Moulin de la Carrière"
+            "category": "Donjon sans fond",
+            "source": "E-Una-Kotor - Moulin de la Carrière - 3 Tesson de poterie gelmorraine"
         },
         "x108": {
             "name": "Hérisson mignon",
-            "category": "Instance",
-            "source": "Obtention dans le Temple sacré d'Uznair/Canaux perdus d'Uznair"
+            "category": "Chasse aux trésors",
+            "source": "Temple sacré d'Uznair, Canaux perdus d'Uznair, Canaux cachés d'Uznair"
         },
         "x109": {
             "name": "Carbuncle héliodore",
@@ -584,8 +599,8 @@
         },
         "x110": {
             "name": "Chiot des enfers",
-            "category": "PvP",
-            "source": "Complétion du haut fait: \"Prédateur dans l'âme III\""
+            "category": "Haut fait",
+            "source": "Prédateur dans l'âme III"
         },
         "x111": {
             "name": "Bébé bonhomme de neige",
@@ -594,43 +609,44 @@
         },
         "x112": {
             "name": "Hovernyan",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x113": {
             "name": "Buse chasseuse",
-            "category": "Instance",
-            "source": "Obtention dans les coffres d'argent dans \"Le Diadème\""
+            "category": "Achat",
+            "source": "800 Assignats d'Azurée",
+            "moreSources": "Pilier des Cieux"
         },
         "x114": {
             "name": "Bébé imp",
-            "category": "Récompense d'ALÉA",
-            "source": "Complétion de l'ALÉA: \"Go, Go, Gorgimera\" avec la meilleure évaluation possible"
+            "category": "ALÉA",
+            "source": "ALÉA: \"Go, Go, Gorgimera\""
         },
         "x115": {
             "name": "Nain d'acier",
-            "category": "Fabrication",
-            "source": "Recette d'Armurier niveau 60★"
+            "category": "Artisanat",
+            "source": "Recette d'Armurier"
         },
         "x116": {
             "name": "Grenouilleur A",
-            "category": "Achat",
-            "source": "Vendu par Fazard pour 6 Rouages du Formidable à Eulmore"
+            "category": "ALÉA",
+            "source": "Fazard - Eulmore - 6 Rouages du Formidable"
         },
         "x117": {
             "name": "Poupée Ivon le Coeurl",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le coffre du dernier boss du donjon: \"Le Temple du Poing\""
+            "category": "Donjon",
+            "source": "Le Temple du Poing"
         },
         "x118": {
             "name": "Jibanyan",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x119": {
             "name": "Mini-mini-mandragore",
-            "category": "Botanique",
-            "source": "Cueilli par un Botaniste niveau 46-50"
+            "category": "Récolte",
+            "source": "Récolter par le Botaniste"
         },
         "x120": {
             "name": "Bébé koala",
@@ -640,52 +656,54 @@
         "x121": {
             "name": "Komainu",
             "category": "Haut fait",
-            "source": "Échangeable avec Jonathas contre 2 Jetons de hauts faits"
+            "source": "Jonathas - Vielle Gridania - 2 Jetons de hauts faits"
         },
         "x122": {
             "name": "Komajiro",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x123": {
             "name": "Komasan",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x124": {
             "name": "Pon-korpokkur",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le coffre du dernier boss du donjon: \"L'Arboretum Sainte-Mocianne\""
+            "category": "Donjon",
+            "source": "L'Arboretum Sainte-Mocianne",
+            "moreSources": "Pilier des Cieux"
         },
         "x125": {
             "name": "Kyubi",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x126": {
             "name": "Laladile",
             "category": "Haut fait",
-            "source": "Obtenir le haut fait: \"Maître artisan d'Azurée\""
+            "source": "Maître artisan d'Azurée"
         },
         "x127": {
             "name": "Nain lali-ho",
-            "category": "Achat",
-            "source": "Vendu par Mizutt pour 8 Médailles naines"
+            "category": "Tribus barbares",
+            "source": "8 Médailles naines"
         },
         "x128": {
             "name": "Petit panda roux",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"L'Aire\""
+            "category": "Donjon",
+            "source": "L'Aire",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x129": {
             "name": "Enfeuillé miniature",
-            "category": "Achat",
-            "source": "Vendu par Sul Lad pour 400 gemmes bicolores à Lydha Lran"
+            "category": "ALÉA",
+            "source": "400 gemmes bicolores (Il Mheg)"
         },
         "x130": {
             "name": "Mini-Leannan Sith",
-            "category": "Instance",
-            "source": "Obtenu rarement dans les coffres du donjon: \"Le Cosmos coruscant\""
+            "category": "Donjon",
+            "source": "Le Cosmos coruscant"
         },
         "x131": {
             "name": "Fantôme joyeux",
@@ -699,83 +717,83 @@
         },
         "x133": {
             "name": "Petit yéti",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Tâche d'exploration du servant"
         },
         "x134": {
             "name": "Lord Ananta",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x135": {
             "name": "Lord Enma",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x136": {
             "name": "Balai enchanté",
-            "category": "Fabrication",
-            "source": "Recette du Menuisier niveau 50★★★"
+            "category": "Artisanat",
+            "source": "Recette du Menuisier"
         },
         "x137": {
             "name": "Seau d'eau magique",
-            "category": "Pêche",
-            "source": "Pêcher dans le Malétang (berge sud) avec Casaquage activé et une Sangsue bestiale comme appât"
+            "category": "Récolte",
+            "source": "Récolter par le Pêcheur"
         },
         "x138": {
             "name": "Vengeur magitek S1",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le coffre du dernier boss du donjon: \"Castrum Abania\""
+            "category": "Donjon",
+            "source": "Castrum Abania"
         },
         "x139": {
-            "name": "Magitek Helldiver F1",
+            "name": "Plongeur infernal S1",
             "category": "Bozja",
-            "source": "Castrum Lacus Litore"
+            "source": "Castrum Lacus Litore - Front sud de Bozja"
         },
         "x397": {
-            "name": "Magitek Predator F1",
-            "category": "Dungeon",
-            "source": "Paglth'an"
+            "name": "Prédateur magitek S1",
+            "category": "Donjon",
+            "source": "La grande prairie de Paglth'an"
         },
         "x140": {
             "name": "Malone",
             "category": "Haut fait",
-            "source": "Obtention du haut fait: \"Maître récolteur d'Azurée\""
+            "source": "Maître récolteur d'Azurée"
         },
         "x141": {
             "name": "Mame shiba",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Tâche d'exploration du servant"
         },
         "x142": {
             "name": "Pantin P001",
             "category": "Achat",
-            "source": "Vendu par Bango Zango à Limsa Lominsa, Roarich à Ul'dah ou Maisenta dans la Nouvelle Gridania"
+            "source": "Marchande de mascottes - Gold Saucer - 2,400 Gil"
         },
         "x143": {
             "name": "Pantin P003G",
             "category": "Haut fait",
-            "source": "Parler à Jonathas dans la Vieille Gridania après avoir obtenu le haut fait: \"Carnet de chasse: Deux Vipères\""
+            "source": "Carnet de chasse: Deux Vipères"
         },
         "x144": {
             "name": "Pantin P003L",
             "category": "Haut fait",
-            "source": "Parler à Jonathas dans la Vieille Gridania après avoir obtenu le haut fait: \"Carnet de chasse: Maelstrom\""
+            "source": "Carnet de chasse: Maelstrom"
         },
         "x145": {
             "name": "Pantin P003U",
             "category": "Haut fait",
-            "source": "Parler à Jonathas dans la Vieille Gridania après avoir obtenu le haut fait: \"Carnet de chasse: Immortels\""
+            "source": "Carnet de chasse: Immortels"
         },
         "x146": {
             "name": "Reine mandragore",
-            "category": "Jardinage",
-            "source": "Croisement entre Mandragore et Lys de Nymeia"
+            "category": "Autre",
+            "source": "Jardinage"
         },
         "x147": {
             "name": "Corniot",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x148": {
             "name": "Suricate",
@@ -784,48 +802,50 @@
         },
         "x149": {
             "name": "Mini-gigapampa",
-            "category": "Achat",
-            "source": "Vendu en Amh Araeng pour 400 gemmes bicolores"
+            "category": "ALÉA",
+            "source": "400 gemmes bicolores (Amh Araeng)"
         },
         "x150": {
             "name": "Midgardsormr",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale: \"Le Gardien du lac\""
+            "category": "Quête",
+            "source": "Le Gardien du lac"
         },
         "x151": {
             "name": "Taupe trapue",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire: \"Taupologie\""
+            "category": "Quête",
+            "source": "Taupologie"
         },
         "x152": {
             "name": "Wagonnet mécanique",
-            "category": "Instance/Tâche de servant",
-            "source": "Trésor énigmatique de grade I du Pilier des cieux, Tâche d'exploration du servant"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant",
+            "moreSources": "Pilier des Cieux"
         },
         "x153": {
             "name": "Mini-cavalier blanc",
             "category": "Achat",
-            "source": "Vendu par Enie pour 1.200 Assignats d'Azurée à Azurée"
+            "source": "1.200 Assignats d'Azurée"
         },
         "x154": {
             "name": "Héros de la Lumière",
             "category": "Haut fait",
-            "source": "Échangé par Jonathas pour 2 Jetons de hauts faits en Vieille Gridania"
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x155": {
             "name": "Transporteur miniature",
             "category": "Achat",
-            "source": "Vendu pour 15.000 Marques de loup"
+            "source": "15.000 Marques de loup"
         },
         "x156": {
             "name": "Gentil flagelleur",
-            "category": "Instance/Tâche de servant",
-            "source": "Obtention dans :\"Aquapolis\" ou dans: \"Donjon sans fond: Palais des morts\" dans des Trésors mystérieux de grade 1 ou Tâche de servant"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x157": {
             "name": "Grynewaht miniature",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le donjon: \" Le Château de Doma\""
+            "category": "Donjon",
+            "source": "Le Château de Doma"
         },
         "x158": {
             "name": "Maquette de l'Entreprise",
@@ -834,28 +854,29 @@
         },
         "x159": {
             "name": "Micro-drone magitek",
-            "category": "Fabrication",
-            "source": "Recette du Forgeron niveau 50★★★★"
+            "category": "Artisanat",
+            "source": "Recette du Forgeron"
         },
         "x160": {
             "name": "Maquette magitek",
-            "category": "Fabrication",
-            "source": "Recette de l'Orfévrier niveau 50"
+            "category": "Artisanat",
+            "source": "Recette de l'Orfévrier"
         },
         "x161": {
             "name": "Petit Qitian Dasheng",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le donjon: \"Le Compas de l'Hirondelle\""
+            "category": "Donjon",
+            "source": "Le Compas de l'Hirondelle"
         },
         "x162": {
             "name": "Bulbe de morbol",
-            "category": "Instance",
-            "source": "Obtention dans le troisième coffre du donjon: \"Le Val d'Aurum\""
+            "category": "Donjon",
+            "source": "Le Val d'Aurum"
         },
         "x163": {
             "name": "Morpho",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"Les Vestiges de la cité d'Amdapor (brutal)\""
+            "category": "Donjon",
+            "source": "Les Vestiges de la cité d'Amdapor (brutal)",
+            "moreSources": "Pilier des Cieux, Kupo de la Fortune"
         },
         "x164": {
             "name": "Œuf bouffon",
@@ -863,23 +884,24 @@
             "source": "Boutique en ligne Final Fantasy XIV"
         },
         "x165": {
-            "name": "Much-coveted Mora",
-            "category": "Achievement",
-            "source": "On a Boat IV"
+            "name": "Momo Ramora",
+            "category": "Haut fait",
+            "source": "Grand pêcheur IV"
         },
         "x166": {
             "name": "Pâté de boue",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du boss final du donjon: \"L'Arboretum Sainte-Mocianne (brutal)\""
+            "category": "Donjon",
+            "source": "L'Arboretum Sainte-Mocianne (brutal)"
         },
         "x167": {
             "name": "Mini-momie",
-            "category": "Instance",
-            "source": "Obtention rare dans le coffre du boss final du donjon: \"Le Temple enseveli de Qarn (brutal)\""
+            "category": "Donjon",
+            "source": "Le Temple enseveli de Qarn (brutal)",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x168": {
             "name": "Arme mystique",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Tâche d'exploration du servant"
         },
         "x169": {
@@ -889,68 +911,73 @@
         },
         "x170": {
             "name": "Ourson de Nanakko",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 50★★★★"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x171": {
             "name": "Nanka narquois",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du boss fianl du donjon: \"L'Île de CrèveCarène\""
+            "category": "Donjon",
+            "source": "L'Île de CrèveCarène"
         },
         "x172": {
             "name": "Noko",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x173": {
             "name": "Écureuil grignoteur",
-            "category": "Chasse au trésor",
-            "source": "Obtention avec l'objet: \"Carte secrète en cuir\", Obtention dans l'instance: \"L'Aquapolis\""
+            "category": "Donjon sans fond",
+            "source": "Palais des morts",
+            "moreSources": "Carte secrète en cuir, Aquapole"
         },
         "x174": {
             "name": "Loutre choute",
-            "category": "Instance/Tâche de servant",
-            "source": "Trésor énigmatique de grade I / grade II du Pilier des cieux, Tâche d'exploration du servant"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant",
+            "moreSources": "Pilier des Cieux"
         },
         "x175": {
             "name": "Mini-Oméga",
-            "category": "Instance",
-            "source": "Obtention dans le raid normal: \"Alphastice V4.0\""
+            "category": "Raid",
+            "source": "Alphastice V4.0"
         },
         "x176": {
             "name": "Prince oignon",
-            "category": "Jardinage",
-            "source": "Jardinage: Croisement entre une Rose d'Azeyma et une Carotte de Krakka OU entre une Carotte de Krakka et une Mandragore"
+            "category": "Autre",
+            "source": "Jardinage"
         },
         "x177": {
             "name": "Bébé hibou",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"Le Continuum fractal\""
+            "category": "Donjon",
+            "source": "Le Continuum fractal",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x178": {
             "name": "Page 63",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"La Grande bibliothèque de Gubal\""
+            "category": "Donjon",
+            "source": "La Grande bibliothèque de Gubal",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x179": {
             "name": "Petiot païssa",
-            "category": "Chasse au trésor",
-            "source": "Carte en peau de dragon, L'instance:\" L'Aquapolis\", Trésor mystérieux de grade 1 du Palais des Morts"
+            "category": "Achat",
+            "source": "800 Assignats d'Azurée",
+            "moreSources": "Palais des Morts, Vieille carte en peau de dragon, Aquapole"
         },
         "x180": {
             "name": "Païssa cuisinier",
-            "category": "Kupo de la Fortune",
+            "category": "Achat",
             "source": "Prix du Kupo de la Fortune à Azurée"
         },
         "x181": {
             "name": "Païssa couturier",
-            "category": "Kupo de la Fortune",
-            "source": "Prix du Kupo de la Fortune à Azurée"
+            "category": "Achat",
+            "source": "Kupo de la Fortune"
         },
         "x182": {
             "name": "Felyne",
-            "category": "Récompense de quête",
-            "source": "Récompense de la quête: \"Le roi des cieux\" (Partenariat MHW)"
+            "category": "Quête",
+            "source": "Le roi des cieux"
         },
         "x183": {
             "name": "Petit panda pataud",
@@ -959,13 +986,13 @@
         },
         "x184": {
             "name": "Poulain pégase",
-            "category": "Récompense d'ALÉA",
-            "source": "Vendu par Enie pour 800 Assignats d'Azurée"
+            "category": "Achat",
+            "source": "800 Assignats d'Azurée"
         },
         "x185": {
             "name": "Manchot prince",
             "category": "Haut fait",
-            "source": "Complétion du haut fait: \"Grand mini-stratège\""
+            "source": "Grand mini-stratège"
         },
         "x186": {
             "name": "Carbuncle péridot",
@@ -974,58 +1001,58 @@
         },
         "x187": {
             "name": "Petit Pteranodon",
-            "category": "Skybuilders",
+            "category": "Achat",
             "source": "Kupo of Fortune"
         },
         "x188": {
             "name": "Porcelet promeneur",
             "category": "Achat",
-            "source": "Vendu par le préposé aux lots pour 30.000 PGS au Gold Saucer"
+            "source": "30.000 PGS"
         },
         "x189": {
             "name": "Coussin moelleux",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 50★★★"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x190": {
             "name": "Pod 054",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du raid alliance: \"La réplique de l'usine désaffectée\""
+            "category": "Raid",
+            "source": "La réplique de l'usine désaffectée"
         },
         "x191": {
             "name": "Pod 316",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du raid alliance: \"La réplique de l'usine désaffectée\""
+            "category": "Raid",
+            "source": "La réplique de l'usine désaffectée"
         },
         "x192": {
             "name": "Poogie",
-            "category": "Achat",
-            "source": "Vendu par le Forgeron itinérant pour 5 Écailles Rathalos +"
+            "category": "Défi",
+            "source": "Chasse au Rathalos (extrême)"
         },
         "x193": {
             "name": "Poro Roggo",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 60: \"La voix de la planète\""
+            "category": "Quête",
+            "source": "La voix de la planète"
         },
         "x194": {
             "name": "Prince bébé chocobo",
             "category": "Haut fait",
-            "source": "Complétion du haut-fait: \"Laisser une bonne impression II\""
+            "source": "Laisser une bonne impression II"
         },
         "x195": {
             "name": "Mini moai",
-            "category": "Fabrication",
-            "source": "Recette du Forgeron niveau 70★★"
+            "category": "Artisanat",
+            "source": "Recette du Forgeron"
         },
         "x196": {
             "name": "Puk potelé",
-            "category": "Récompense d'ALÉA",
-            "source": "Complétion de l'ALÉA :\" L'Œil de la Tête\" avec médaille d'or"
+            "category": "ALÉA",
+            "source": "ALÉA :\" L'Œil de la Tête\""
         },
         "x197": {
             "name": "Nuage noir miniature",
-            "category": "Instance",
-            "source": "Obtenu de le raid alliance: \"La Tour de Cristal - Monde des Ténèbres\""
+            "category": "Raide",
+            "source": "La Tour de Cristal - Monde des Ténèbres"
         },
         "x198": {
             "name": "Majordome citrouille",
@@ -1034,98 +1061,100 @@
         },
         "x199": {
             "name": "Moineau voyageur",
-            "category": "Instance",
-            "source": "Obtention rare dans le donjon: \"La Force de Bardam\""
+            "category": "Donjon",
+            "source": "La Force de Bardam",
+            "moreSources": "Pilier des Cieux"
         },
         "x200": {
             "name": "Robonyan F-Type",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x201": {
             "name": "Bébé phoque",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"La Cité engloutie de Skalla\""
+            "category": "Donjon",
+            "source": "La Cité engloutie de Skalla"
         },
         "x202": {
             "name": "Renard des sables",
             "category": "Achat",
-            "source": "Vendu par \"Président\" pour 400 Folioles irréelles"
+            "source": "400 Folioles irréelles"
         },
         "x203": {
-            "name": "Save the Princess",
-            "category": "Instance",
-            "source": "Delubrum Reginae (Savage)"
+            "name": "Garde-la-Princesse",
+            "category": "Raid",
+            "source": "Delubrum Reginae (Sadique)"
         },
         "x204": {
             "name": "Paonne vermillon",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 70★★★"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x205": {
             "name": "Dragonnet azur",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 70★★★★"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x398": {
-            "name": "Senorita Sabotender",
-            "category": "Event",
-            "source": "The Make It Rain Campaign (2021)"
+            "name": "Señorita Pampa",
+            "category": "Évènement",
+            "source": "Le festival du Gold Saucer (2021)"
         },
         "x206": {
             "name": "Bébé chocobo des Deux Vipères",
             "category": "Achat",
-            "source": "Achat pour 20.000 sceaux de compagnie gridanien"
+            "source": "20.000 Sceaux de compagnie gridanien"
         },
         "x207": {
-            "name": "Set of Primogs",
+            "name": "Fanfare des Primogs",
             "category": "Premium",
-            "source": "Item code included with Before the Fall Original Soundtrack"
+            "source": "Bonus d'achat du CD :\"Before the Fall Original Soundtrack\""
         },
         "x208": {
             "name": "Marcassin",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"Xelphatol\""
+            "category": "Donjon",
+            "source": "Xelphatol",
+            "moreSources": "Pilier des Cieux"
         },
         "x209": {
             "name": "Poussin oculus",
             "category": "Haut fait",
-            "source": "Complétion du haut-fait: \"Tactique des mascottes II\""
+            "source": "Tactique des mascottes II"
         },
         "x210": {
             "name": "Sous-marin de classe Rémora",
-            "category": "Expédition",
+            "category": "Exploration",
             "source": "Expédition du sous-marine"
         },
         "x211": {
             "name": "Bec-en-sabot",
             "category": "Instance",
-            "source": "Obtention dans le donjon: \"Amaurote\""
+            "source": "Amaurote"
         },
         "x212": {
             "name": "Shogunyan",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x213": {
             "name": "Mésange à longue queue",
-            "category": "Expédition",
+            "category": "Exploration",
             "source": "Expédition du sous-marine"
         },
         "x214": {
             "name": "Mini-gluant",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Les Mines de Clochecuivre (brutal)\""
+            "category": "Donjon",
+            "source": "Les Mines de Clochecuivre (brutal)"
         },
         "x399": {
-            "name": "Smaller Stubby",
+            "name": "Forme de vie mécanique",
             "category": "Raid",
-            "source": "The Tower At Paradigm's Breach"
+            "source": "La tour de la Contigence"
         },
         "x215": {
             "name": "Coquépique",
-            "category": "Récompense d'ALÉA",
-            "source": "Complétion de l'ALÉA: \"Cancer, le casque de mort\" avec médaille d'or"
+            "category": "ALÉA",
+            "source": "ALÉA: \"Cancer, le casque de mort\""
         },
         "x216": {
             "name": "Edward miniature",
@@ -1134,28 +1163,28 @@
         },
         "x217": {
             "name": "Gobblindé G-VII à vapeur",
-            "category": "Fabrication",
-            "source": "Recette de l'Armurier niveau 60★"
+            "category": "Artisanat",
+            "source": "Recette de l'Armurier"
         },
         "x218": {
             "name": "Bébé chocobo du Maelstrom",
             "category": "Achat",
-            "source": "Achat pour 20.000 Sceaux de compagnies limséen"
+            "source": "20.000 Sceaux de compagnies limséen"
         },
         "x219": {
             "name": "Talos d'or",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Lyhe Ghiah\""
+            "category": "Chasse aux trésors",
+            "source": "Donjon hypogéen du Lyhe Ghiah"
         },
         "x220": {
-            "name": "Syldrion-class Insubmersible",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages - Sea of Jade 4"
+            "name": "Sous-marin aérien de classe Syldra",
+            "category": "Exploration",
+            "source": "Expédition du sous'marin"
         },
         "x221": {
             "name": "Mog dàoshi",
             "category": "Achat",
-            "source": "Vendu par le Mog itinérant pout 140 gils"
+            "source": "Mog itinérant"
         },
         "x222": {
             "name": "Belin bêlant",
@@ -1164,163 +1193,168 @@
         },
         "x223": {
             "name": "Poupée Tengu",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Tâche d'exploration du servant"
         },
         "x224": {
             "name": "Grand Serpent des Qitari ?",
-            "category": "Achat",
-            "source": "Vendu par Yuqurl Manl pour 8 Pièce-châtaignes Qitari"
+            "category": "Tribus barbares",
+            "source": "Yuqurl Manl - Rak'tika - 8 Pièce-châtaignes Qitari"
         },
         "x225": {
             "name": "Grand Serpent de Hopl ?",
-            "category": "Achat",
-            "source": "Vendu par Yuqurl Manl pour 8 Pièce-châtaignes Qitari"
+            "category": "Tribus barbares",
+            "source": "Yuqurl Manl - Rak'tika - 8 Pièce-châtaignes Qitari"
         },
         "x226": {
             "name": "Namazu nain doré",
-            "category": "Instance",
+            "category": "Chasse aux trésors",
             "source": "Les Canaux cachés d'Uznair"
         },
         "x227": {
             "name": "Serpent marin de Ronka ?",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête secondaire niveau 70: \"Tous unis pour Ronka\""
+            "category": "Quête",
+            "source": "Tous unis pour Ronka"
         },
         "x228": {
             "name": "Requin commandeur",
             "category": "Haut fait",
-            "source": "Complétion du haut fait: \"Ratisseur des océans I\""
+            "source": "Ratisseur des océans I"
         },
         "x229": {
             "name": "Prince d'Anemos",
-            "category": "Récompense d'ALÉA",
-            "source": "Obtention aléatoire de l'ALÉA: \" Défi: Le Seigneur De La Terre Interdite\" dans Eurêka Anemos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé d'Anemos, ALÉA: \"Défi: Le Seigneur De La Terre Interdite\" - Eurêka Anemos"
         },
         "x230": {
             "name": "Perroquet taciturne",
-            "category": "Instance",
-            "source": "Obtention aléatoire du donjon: \"Sastasha (brutal)\""
+            "category": "Donjon",
+            "source": "Sastasha (brutal)",
+            "moreSources": "Aquapole"
         },
         "x231": {
             "name": "Clochette",
-            "category": "Achat",
-            "source": "Vendu par Fathard pour 6 Cornes d'Archaeotania"
+            "category": "ALÉA",
+            "source": "Fathard - Eulmore - 6 Cornes d'Archaeotania"
         },
         "x232": {
             "name": "Bulbe miniature",
-            "category": "Chasse au trésor",
-            "source": "Rare récompense des cartes au trésor"
+            "category": "Donjon sans fond",
+            "source": "Palais des morts",
+            "moreSources": "Vieille carte en peau de crapaud, Aquapole"
         },
         "x233": {
             "name": "Échevore nain",
-            "category": "Instance",
-            "source": "Obtention dans le donjon: \"Dohn Mheg\""
+            "category": "Donjon",
+            "source": "Dohn Mheg"
         },
         "x234": {
             "name": "Écureuil nain",
             "category": "Achat",
-            "source": "Vendu par Chachamun pour 2.400 gils après complétion de l'ALÉA: \"Assaut sur le Viaduc: Acte III\" avec médaille d'or"
+            "source": "Chachamun - Bois du Renouveau - 2.400 gils"
         },
         "x235": {
             "name": "Petit tapir",
-            "category": "Tâche de servant",
+            "category": "Exploration",
             "source": "Tâche d'exploration du servant"
         },
         "x236": {
             "name": "Hippocampoupon",
-            "category": "Pêche",
-            "source": "Obtenu à la pêche au harpon en Mer de Rubis"
+            "category": "Récolte",
+            "source": "Récolter par le Pêcheur",
+            "moreSources": "Pilier des Cieux"
         },
         "x237": {
             "name": "Tortue naine",
-            "category": "Pêche",
-            "source": "Utiliser un Krill polaire dans les Atolls de sel en Basse-Noscea"
+            "category": "Récolte",
+            "source": "Récolter par le Pêcheur"
         },
         "x238": {
             "name": "Roi tomate",
-            "category": "Jardinage",
-            "source": "Jardinage: Croisement entre une Tomate Dzemael et une Mandragore OU une Carotte Krakka et un Genêt OU Une Jute et une Carotte Krakka"
+            "category": "Autre",
+            "source": "Jardinage"
         },
         "x239": {
             "name": "Tora-jiro",
             "category": "Achat",
-            "source": "Vendu par Estril à Kugane pour 800 Insignes Centurio"
+            "source": "800 Insignes Centurio"
         },
         "x240": {
             "name": "Alexander articulé",
-            "category": "Instance",
-            "source": "Obtention dans le raid normal: \"Alexander - L'Âme du Créateur\""
+            "category": "Raid",
+            "source": "Alexander - L'Âme du Créateur, Alexander - L'Âme du Créateur (Sadique)"
         },
         "x241": {
             "name": "Coffre au trésor mécanique",
             "category": "Achat",
-            "source": "Vendu par le Responsable de la Chasse pour 440 Insignes alliés"
+            "source": "440 Insignes alliés"
         },
         "x242": {
             "name": "Trike",
-            "category": "Skybuilders",
-            "source": "Kupo of Fortune"
+            "category": "Achat",
+            "source": "Kupo de la Fortune"
         },
         "x243": {
             "name": "Vilain petit canard",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"Nalloncques\""
+            "category": "Donjon",
+            "source": "Nalloncques",
+            "moreSources": "Palais des Morts, Kupo de la Fortune, Aquapole"
         },
         "x244": {
             "name": "Bébé licorne",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du donjon: \"La Voûte\""
+            "category": "Donjon",
+            "source": "La Voûte",
+            "moreSources": "Palais des Morts, Aquapole"
         },
         "x245": {
             "name": "Lapin malchanceux",
             "category": "Achat",
-            "source": "Vendu par le préposé aux lots pour 30.000 PGS au Gold Saucer"
+            "source": "30.000 PGS"
         },
         "x246": {
             "name": "Usapyon",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x247": {
             "name": "Octorgone",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x400": {
-            "name": "Wanderer's Campfire",
-            "category": "Crafting",
-            "source": "Crafted by Alchemist"
+            "name": "Feu de camp de voyageur",
+            "category": "Artisanat",
+            "source": "Recette de l'Alchimiste"
         },
         "x248": {
             "name": "Petit kappa",
             "category": "Achat",
-            "source": "Vendu par le préposé aux lots pour 10.000 PGS au Gold Saucer"
+            "source": "10.000 PGS"
         },
         "x249": {
             "name": "Bébé chocobo",
             "category": "Achat",
-            "source": "Vendu par Bango Zango à Limsa Lominsa, Roarich à Ul'dah ou Maisenta à New Gridania"
+            "source": "Marchande de mascottes - Gold Saucer - 2.400 Gil"
         },
         "x250": {
-            "name": "Weatherproof Gaelicat",
-            "category": "Skybuilders",
-            "source": "Kupo of Fortune"
+            "name": "Gaélichat emmitouflé",
+            "category": "Achat",
+            "source": "Kupo de la Fortune"
         },
         "x251": {
             "name": "Whisper",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x252": {
             "name": "Fouine blanche",
-            "category": "Instance",
-            "source": "Obtention dans le dernier coffre du donjon: \"Le Couvercle des Enfers\""
+            "category": "Donjon",
+            "source": "Le Couvercle des Enfers"
         },
         "x253": {
             "name": "Faon aux yeux de biche",
             "category": "Achat",
-            "source": "Vendu par Auriana pour 3 Mémoquartz allagois poétique"
+            "source": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétique"
         },
         "x254": {
             "name": "Aerith miniature",
@@ -1329,13 +1363,13 @@
         },
         "x255": {
             "name": "Aéronef mécanique",
-            "category": "Récompense de quête",
-            "source": "Complétion d'une des quêtes principales suivantes : \"L'Émissaire de Gridania\" / \"L'Émissaire de Limsa Lominsa\" / \"L'Émissaire d'Ul'dah\""
+            "category": "Quête",
+            "source": "L'Émissaire de Gridania, L'Émissaire de Limsa Lominsa, L'Émissaire d'Ul'dah"
         },
         "x256": {
             "name": "Mini-bouquetin",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 50"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x257": {
             "name": "Alisaie miniature",
@@ -1344,37 +1378,37 @@
         },
         "x258": {
             "name": "Alpha mécanique",
-            "category": "Récompense de quête",
-            "source": "Quête Post-Alphastice 4.0"
+            "category": "Quête",
+            "source": "Le grand envol"
         },
         "x259": {
             "name": "Alphinaud miniature",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 51: \"À la recherche de Cœur-de-glace\""
+            "category": "Quête",
+            "source": "À la recherche de Cœur-de-glace"
         },
         "x260": {
             "name": "Amalj'aa mécanique",
-            "category": "Achat",
-            "source": "Vendu par le Vendeur amalj'aa pour 25.000 gils"
+            "category": "Tribus barbares",
+            "source": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 Gil"
         },
         "x261": {
             "name": "Poupée ananta",
-            "category": "Achat",
-            "source": "Vendu par Madhura pour 7 Barettes béatifiques ananta"
+            "category": "Tribus barbares",
+            "source": "Madhura - Castellum Velodyna - 7 Barettes béatifiques ananta"
         },
         "x262": {
             "name": "Ardbert miniature",
-            "category": "Évènement saisonnier",
-            "source": "Complétion de la quête d'évènement: \"Les jeunes hommes de la fête de la Commémoration\""
+            "category": "Évènement",
+            "source": "La fête de la Commémoration (2020)"
         },
         "x263": {
             "name": "Aymeric miniature",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 60: \"Un chant pour l'avenir\""
+            "category": "Quête",
+            "source": "Un chant pour l'avenir"
         },
         "x264": {
             "name": "Bébé Bahamut",
-            "category": "Bonus d'achat",
+            "category": "Premium",
             "source": "Bonus d'achat de: \"Final Fantasy XIV: A Realm Reborn Original Soundtrack\""
         },
         "x265": {
@@ -1384,34 +1418,34 @@
         },
         "x266": {
             "name": "Petit Bismarck",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 60★",
-            "moreSources": ""
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x267": {
             "name": "Siman mécanique",
-            "category": "Évènement saisonnier",
-            "source": "Complétion de la quête d'évènement: \"Les créatures de granit\""
+            "category": "Évènement",
+            "source": "Golems hors du Commun"
         },
         "x268": {
             "name": "Poupée Calofisteri",
-            "category": "Instance",
-            "source": "Obtention de le coffre du dernier boss du raid alliance: \"La Cité défendue de Mhach\""
+            "category": "Raid",
+            "source": "La Cité défendue de Mhach"
         },
         "x269": {
             "name": "Marionnette majorette",
             "category": "Achat",
-            "source": "Vendu par le Sergent du Maelstrom à la Jetée de l'Antre des loups pour 15.000 Marques de loup"
+            "source": "15.000 Marques de loup"
         },
         "x270": {
             "name": "Chimère mécanique",
-            "category": "Fabrication",
-            "source": "Recette du Couturier niveau 70★"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x271": {
             "name": "Cid miniature",
-            "category": "Récompense de quête",
-            "source": "Complétion de la quête principale niveau 57: \"Une impérieuse présence\""
+            "category": "Quête",
+            "source": "Une impérieuse présence"
         },
         "x272": {
             "name": "Cirina miniature",
@@ -1426,11 +1460,11 @@
         "x274": {
             "name": "Curseur flottant",
             "category": "Haut fait",
-            "source": "Échangé par Jonathas pour 2 Jetons de hauts faits en Vieille Gridania"
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x275": {
             "name": "Dalamud mécanique",
-            "category": "Bonus d'achat",
+            "category": "Premium",
             "source": "Bonus d'achat: \"Before Meteor Blu-Ray Soundtrack\""
         },
         "x276": {
@@ -1440,13 +1474,13 @@
         },
         "x277": {
             "name": "Dezul miniature",
-            "category": "Achat",
-            "source": "Vendu par le Vendeur Ixali en Forêt du Nord pour 25.000 gils"
+            "category": "Tribus barbares",
+            "source": "Vendeur Ixali - Forêt du Nord - 25.000 Gil"
         },
         "x278": {
             "name": "Mini-dragonnet",
-            "category": "Achat",
-            "source": "Vendu par Mogmul Mogbelly pour 30.000 gils"
+            "category": "Tribus barbares",
+            "source": "Mogmul - Bahrr Lehs - 30.000 Gil"
         },
         "x279": {
             "name": "Dulia-Chai miniature",
@@ -1455,21 +1489,21 @@
         },
         "x280": {
             "name": "Dullahan nain",
-            "category": "Fabrication",
-            "source": "Recette niveau 50 d'Armurier"
+            "category": "Artisanat",
+            "source": "Recette d'Armurier"
         },
         "x281": {
             "name": "Echidna miniature",
-            "category": "Instance",
-            "source": "Obtention dans le coffre du dernier boss du raid alliance: \"L'Arche du néant\""
+            "category": "Raid",
+            "source": "L'Arche du néant"
         },
         "x282": {
             "name": "Edda miniature",
-            "category": "Instance",
-            "source": "Obtention dans les Trésors mystérieux de grade II du Palais des Morts"
+            "category": "Donjon sans fond",
+            "source": "Palais des Morts"
         },
         "x401": {
-            "name": "Wind-up Edge",
+            "name": "Edge miniature",
             "category": "Premium",
             "source": "Digital Fan Festival (2021)"
         },
@@ -1480,78 +1514,79 @@
         },
         "x284": {
             "name": "Poupée elvaan",
-            "category": "Récompense d'ALÉA",
-            "source": "FATE \"You Do Know Jack\" - Eureka Pyros"
+            "category": "Mission d'exploration",
+            "source": "ALÉA \"Jack le Bucheron\" - Eurêka Pyros"
         },
         "x285": {
             "name": "Estinien miniature",
-            "category": "Autre",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x286": {
             "name": "Exdeath miniature",
-            "category": "Instance",
-            "source": "Deltascape V4.0 / Deltascape V4.0 (Savage)"
+            "category": "Raid",
+            "source": "Deltascape V4.0, Deltascape V4.0 (Savage)"
         },
         "x287": {
             "name": "Fafnir mécanique",
-            "category": "Récompense d'ALÉA",
-            "source": "Anemos Lockbox / FATE \"Wine and Honey\" - Eureka Anemos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé d'Anemos, ALÉA \"Défi: Le Dragon Démentiel\" - Eurêka Anemos"
         },
         "x288": {
             "name": "Firion miniature",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x289": {
             "name": "Poupée de maître fondateur",
-            "category": "Achat",
-            "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 Gil"
         },
         "x290": {
             "name": "Fran miniature",
             "category": "Premium",
-            "source": "Shadowbringers Collector's Edition"
+            "source": "Shadowbringers Édition Collector"
         },
         "x291": {
             "name": "Fuath miniature",
-            "category": "Chasse au trésor",
-            "source": "The Dungeons of Lyhe Ghiah"
+            "category": "Chasse aux trésors",
+            "source": "Donjon hypogéen du Lyhe Ghiah"
         },
         "x292": {
-            "name": "Wind-up Gaia",
+            "name": "Gaïa miniature",
             "category": "Raid",
-            "source": "Eden's Promise: Eternity / Eden's Promise: Eternity (Savage)"
+            "source": "La Promesse d'Éden : Éternité / La Promesse d'Éden : Éternité (Sadique)"
         },
         "x293": {
             "name": "G'raha Tia miniature",
-            "category": "Récompense de quête",
-            "source": "Shadowbringers"
+            "category": "Quête",
+            "source": "Porteurs d'ombre"
         },
         "x294": {
             "name": "Petite Garuda",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x295": {
             "name": "Hildibrand miniature",
-            "category": "Récompense de quête",
-            "source": "Her Last Vow"
+            "category": "Quête",
+            "source": "Boucler la boucle"
         },
         "x296": {
             "name": "Pantin Gilgamesh",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x297": {
             "name": "Poupée gnathe",
             "category": "Achat",
-            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
+            "source": "Camelot - Loth ast Vath - 30,000 Gil"
         },
         "x298": {
             "name": "Gobelin articulé",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x299": {
             "name": "Gosetsu miniature",
@@ -1566,22 +1601,22 @@
         "x407": {
             "name": "Gunnhildr miniature",
             "category": "Achat",
-            "source": "100 Bozjan Clusters"
+            "source": "100 Cristaux bozjiens"
         },
         "x301": {
             "name": "Haurchefant miniature",
-            "category": "Récompense de quête",
-            "source": "As Goes Light, So Goes Darkness"
+            "category": "Quête",
+            "source": "Entre Lumière et Ténèbres"
         },
         "x302": {
             "name": "Hien miniature",
-            "category": "Autre",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x303": {
             "name": "Hobgobelin miniature",
-            "category": "Tâche de servant",
-            "source": "Highland Exploration XXV / Quick Exploration"
+            "category": "Exploration",
+            "source": "Tâche d'exploration du servant"
         },
         "x304": {
             "name": "Hraesvelgr miniature",
@@ -1595,52 +1630,53 @@
         },
         "x306": {
             "name": "Petit Ifrit",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x307": {
             "name": "Gobelin de la Mimine bleue",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x308": {
             "name": "Ixal mécanique",
             "category": "Achat",
-            "source": "Ixali Vendor - Ehcatl - 25,000 Gil"
+            "source": "Vendeur ixal - Ehcatl - 25,000 Gil"
         },
         "x309": {
             "name": "Petit Ixion",
-            "category": "Récompense d'ALÉA",
-            "source": "Eschina - Rhalgr's Reach - 5 Ixion Horns (FATE \"A Horse Outside\")"
+            "category": "AALÉA",
+            "source": "Eschina - L'Étendue de Rhalgr - 5 Cornes d'Ixion"
         },
         "x310": {
             "name": "Kaïn miniature",
             "category": "Premium",
-            "source": "Heavensward Collector's Edition"
+            "source": "Heavensward Édition Collector"
         },
         "x311": {
             "name": "Kefka miniature",
-            "category": "Instance",
-            "source": "Sigmascape V4.0 / Sigmascape V4.0 (Savage)"
+            "category": "Raid",
+            "source": "Sigmastice v4.0 / Sigmastice v4.0 (Sadique)"
         },
         "x312": {
             "name": "Khloe miniature",
-            "category": "Autre",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x313": {
             "name": "Poupée kobolde",
-            "category": "Achat",
-            "source": "Kobold Vendor - 789th Order Dig - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur kobold - Carrière du 789e ordre - 25,000 Gil"
         },
         "x314": {
             "name": "Poupée kobolde n°2",
-            "category": "Achat",
-            "source": "Kobold Vendor - 789th Order Dig - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur kobold - Carrière du 789e ordre - 25,000 Gil"
         },
         "x315": {
             "name": "Kojin miniature",
-            "category": "Achat",
+            "category": "Tribus barbares",
             "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
         },
         "x316": {
@@ -1650,23 +1686,25 @@
         },
         "x317": {
             "name": "Petite Lakshmi",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x318": {
             "name": "Dirigeant miniature",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x319": {
             "name": "Petit Léviathan",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x320": {
             "name": "Louisoix miniature",
             "category": "Haut fait",
-            "source": "Out of a Bind I"
+            "source": "Jusqu'au fond de l'Abîme I"
         },
         "x321": {
             "name": "Lulu miniature",
@@ -1674,9 +1712,9 @@
             "source": "Boutique en ligne Final Fantasy XIV"
         },
         "x402": {
-            "name": "Wind-up Lyna",
+            "name": "Lyna miniature",
             "category": "Premium",
-            "source": "Item code included with Death Unto Dawn Original Soundtrack"
+            "source": "Bonus d'achat du CD: \"Death Unto Dawn Original Soundtrack\""
         },
         "x322": {
             "name": "Lyse miniature",
@@ -1685,18 +1723,18 @@
         },
         "x323": {
             "name": "Magnai miniature",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x324": {
             "name": "Matanga mécanique",
-            "category": "Chasse au trésor",
-            "source": "The Hidden Canals of Uznair"
+            "category": "Chasse aux trésors",
+            "source": "Canaux cachés d'Uznair"
         },
         "x325": {
             "name": "Croque-viande mécanique",
             "category": "Achat",
-            "source": "800 Centurio Seals"
+            "source": "800 Insignes Centurio"
         },
         "x326": {
             "name": "Minfillia miniature",
@@ -1705,83 +1743,83 @@
         },
         "x327": {
             "name": "Poupée Mithra",
-            "category": "Récompense d'ALÉA",
-            "source": "Anemos Lockbox / FATE \"Short Serket 2\" - Eureka Anemos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé d'Anemos / ALÉA \"Défi: Le Scorpion Mythique\" - Eurêka Anemos"
         },
         "x328": {
             "name": "Moenbryda miniature",
-            "category": "Récompense de quête",
-            "source": "An Ending to Mark a New Beginning"
+            "category": "Quête",
+            "source": "Les gardiens des âmes"
         },
         "x329": {
             "name": "Poupée mog",
             "category": "Premium",
-            "source": "A Realm Reborn Collector's Edition"
+            "source": "A Realm Reborn Édition Collector"
         },
         "x330": {
             "name": "Lune mécanique",
-            "category": "Autre",
-            "source": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir"
+            "category": "Achat",
+            "source": "Pot magique - Les Îles d'Ombra - 1 Super élixir"
         },
         "x331": {
             "name": "Mystel miniature",
-            "category": "Récompense de quête",
-            "source": "Unto the Morrow"
+            "category": "Quête",
+            "source": "Demain t'appartient"
         },
         "x332": {
             "name": "Namazu mécanique",
-            "category": "Chasse au trésor",
-            "source": "Timeworn Gazelleskin Map"
+            "category": "Chasse aux trésors",
+            "source": "Vieille carte en peau de gazelle"
         },
         "x333": {
             "name": "Nanamo miniature",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x334": {
             "name": "Nero tol Scaeva miniature",
             "category": "Achat",
-            "source": "30,000 MGP"
+            "source": "30.000 PGS"
         },
         "x335": {
             "name": "Nidhogg miniature",
             "category": "Premium",
-            "source": "Item code included with The Far Edge of Fate Original Soundtrack"
+            "source": "Bonus d'achat du CD : \"The Far Edge of Fate Original Soundtrack\""
         },
         "x336": {
             "name": "Nu Mou miniature",
             "category": "Achat",
-            "source": "800 Sacks of Nuts"
+            "source": "800 Insignes Kupo"
         },
         "x337": {
             "name": "Odin mécanique",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x338": {
             "name": "Ohl Deeh miniature",
-            "category": "Achat",
-            "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Mogmul - Bahrr Lehs - 30,000 Gil"
         },
         "x339": {
             "name": "Oméga-F miniature",
-            "category": "Récompense de quête",
-            "source": "1 Khloe's Silver Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite d'argent de Khloe"
         },
         "x340": {
             "name": "Oméga-M miniature",
-            "category": "Récompense de quête",
-            "source": "1 Khloe's Silver Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite d'argent de Khloe"
         },
         "x341": {
             "name": "Poupée chevalier oignon",
-            "category": "Instance",
-            "source": "Syrcus Tower"
+            "category": "Raid",
+            "source": "La Tour de Cristal - Tour de Syrcus"
         },
         "x403": {
-            "name": "Wind-up Palom",
+            "name": "Palom miniature",
             "category": "Premium",
-            "source": "Endwalker Pre-order"
+            "source": "Précommande d'Endwalker"
         },
         "x342": {
             "name": "Papalymo miniature",
@@ -1790,48 +1828,50 @@
         },
         "x343": {
             "name": "Pixie miniature",
-            "category": "Achat",
-            "source": "Jul Oul - Il Mheg - 8 Fae Fancy"
+            "category": "Tribus barbares",
+            "source": "Jul Oul - Il Mheg - 8 Cristal illusoire pixie"
         },
         "x344": {
             "name": "Poupée qalyana",
-            "category": "Achat",
-            "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs"
+            "category": "Tribus barbares",
+            "source": "Madhura - Castellum Velodyna - 7 Barrette béatifique ananta"
         },
         "x345": {
             "name": "Qiqirn mécanique",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x346": {
             "name": "Petit Ramuh",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x347": {
             "name": "Ramza miniature",
-            "category": "Instance",
-            "source": "The Orbonne Monastery"
+            "category": "Raid",
+            "source": "Le Monastère d'Orbonne"
         },
         "x348": {
             "name": "Petit Ravana",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x349": {
             "name": "Mage rouge mécanique",
-            "category": "Bonus de précommande",
-            "source": "Stormblood Pre-order"
+            "category": "Premium",
+            "source": "Précommande de Stormblood"
         },
         "x350": {
             "name": "Kojin rouge mécanique",
-            "category": "Achat",
-            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+            "category": "Tribus barbares",
+            "source": "Shikitahe - Tamamizu - 5 Sango Kojin"
         },
         "x351": {
             "name": "Relm miniature",
             "category": "Premium",
-            "source": "Item code included with The Art of Ishgard: Stone and Steel"
+            "source": "Bonus d'achat de l'artbook: \"The Art of Ishgard: Stone and Steel\""
         },
         "x352": {
             "name": "Rikku miniature",
@@ -1839,49 +1879,49 @@
             "source": "Boutique en ligne Final Fantasy XIV"
         },
         "x404": {
-            "name": "Wind-up Rosa",
+            "name": "Rosa miniature",
             "category": "Premium",
             "source": "Digital Fan Festival (2021)"
         },
         "x405": {
-            "name": "Wind-up Runar",
+            "name": "Runar miniature",
             "category": "Premium",
-            "source": "Item code included with The Art of Reflection -Histories Unwritten- Artbook"
+            "source": "Bonus d'achat de l'artbook: \"The Art of Reflection -Histories Unwritten- Artbook\""
         },
         "x406": {
-            "name": "Wind-up Rydia",
+            "name": "Rydia miniature",
             "category": "Premium",
             "source": "Digital Fan Festival (2021)"
         },
         "x353": {
             "name": "Ryne miniature",
-            "category": "Instance",
-            "source": "Eden's Verse: Refulgence / Eden's Verse: Refulgence (Savage)"
+            "category": "Raid",
+            "source": "Les Accords d'Éden - Éclat, Les Accords d'Éden - Éclat (Sadique)"
         },
         "x354": {
             "name": "Sadu miniature",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x355": {
             "name": "Pantin sahuagin",
-            "category": "Achat",
-            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur sahuagin - Couvée de Novv - 25.000 Gil"
         },
         "x356": {
             "name": "Mini-sasquatch",
             "category": "Achat",
-            "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds"
+            "source": "E-Una-Kotor - Moulin de la Carrière - 3 Tesson de poterie gelmorraine"
         },
         "x357": {
             "name": "Scáthach miniature",
-            "category": "Instance",
+            "category": "Raid",
             "source": "Dun Scaith"
         },
         "x358": {
             "name": "Démon des mers mécanique",
-            "category": "Achat",
-            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur sahuagin - Couvée de Novv - 25.000 Gil"
         },
         "x359": {
             "name": "Poupée Shantotto",
@@ -1890,43 +1930,45 @@
         },
         "x360": {
             "name": "Mini-Shinryu",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver"
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x361": {
             "name": "Petite Shiva",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x362": {
             "name": "Poupée succube",
             "category": "Achat",
-            "source": "500 Allied Seals"
+            "source": "500 Insignes alliés"
         },
         "x363": {
             "name": "Soleil mécanique",
             "category": "Achat",
-            "source": "Magic Pot - The Isles of Umbra - 1 Elixir"
+            "source": "Pot magique - Les Îles d'Ombra - 1 Élixir"
         },
         "x364": {
             "name": "Petit Susano",
             "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x365": {
             "name": "Suzaku mécanique",
             "category": "Premium",
-            "source": "Item code included with Shadowbringers Original Soundtrack"
+            "source": "Bonus d'achat du CD: \"Shadowbringers Original Soundtrack\""
         },
         "x366": {
             "name": "Sylphe nain",
-            "category": "Achat",
-            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur sylphe - Le Refuge - 25.000 Gil"
         },
         "x367": {
             "name": "Poupée Tarutaru",
-            "category": "Instance",
-            "source": "Pagos Lockbox - Eureka Pagos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé de Pagos - Eurêka Pagos"
         },
         "x368": {
             "name": "Tataru miniature",
@@ -1945,23 +1987,25 @@
         },
         "x371": {
             "name": "Petit Titan",
-            "category": "Fabrication",
-            "source": "Crafted by Weaver / Heaven-on-High"
+            "category": "Artisanat",
+            "source": "Recette du Couturier",
+            "moreSources": "Pilier des Cieux"
         },
         "x372": {
             "name": "Tomberry mécanique",
-            "category": "Chasse au trésor",
-            "source": "The Palace of the Dead / Timeworn Boarskin Map / The Aquapolis"
+            "category": "Donjon sans fond",
+            "source": "Palais des Morts",
+            "moreSources": "Vieille carte en peau de sanglier, Aquapole"
         },
         "x373": {
             "name": "Poupée Tsukuyomi",
             "category": "Premium",
-            "source": "Item code included with Stormblood Original Soundtrack"
+            "source": "Bonus d'achat du CD: \"Stormblood Original Soundtrack\""
         },
         "x374": {
             "name": "Orthros articulé",
             "category": "Défi",
-            "source": "The Dragon's Neck"
+            "source": "Le Col du dragon"
         },
         "x375": {
             "name": "Urianger miniature",
@@ -1970,23 +2014,23 @@
         },
         "x376": {
             "name": "Poupée vathe",
-            "category": "Achat",
-            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Camelot - Loth ast Vath - 30.000 Gil"
         },
         "x377": {
             "name": "Poupée de méchant Sylphe",
-            "category": "Achat",
-            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Vendeur sylphe - Le Refuge - 25.000 Gil"
         },
         "x378": {
             "name": "Guerrier de la Lumière",
-            "category": "Haut fait",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "category": "Achat",
+            "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x379": {
             "name": "Mascotte blindée",
-            "category": "Instance",
-            "source": "The Ghimlyt Dark"
+            "category": "Donjon",
+            "source": "Les Ténèbres de Ghimlyt"
         },
         "x380": {
             "name": "Y'shtola miniature",
@@ -2001,7 +2045,7 @@
         "x382": {
             "name": "Yotsuyu miniature",
             "category": "Premium",
-            "source": "Item code included with Art of the Revolution: Western Memories"
+            "source": "Bonus d'achat de l'artbook: \"Art of the Revolution: Western Memories\""
         },
         "x383": {
             "name": "Yugiri miniature",
@@ -2015,38 +2059,38 @@
         },
         "x385": {
             "name": "Zhloe miniature",
-            "category": "Récompense de quête",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+            "category": "Carnet de Khloe",
+            "source": "1 Certificat de mérite de bronze de Khloe"
         },
         "x386": {
             "name": "Poupée zundu",
-            "category": "Achat",
-            "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil"
+            "category": "Tribus barbares",
+            "source": "Luna Vanu - Ok' Gundu Nakki - 30.000 Gil"
         },
         "x387": {
             "name": "Bébé chacal",
-            "category": "Récompense de quête",
-            "source": "Man's Best Friend"
+            "category": "Quête",
+            "source": "Le chacal amical"
         },
         "x388": {
             "name": "Ko-yukinko",
-            "category": "Instance",
-            "source": "Hydatos Lockbox / Moisture-warped Lockbox - Eureka Hydatos"
+            "category": "Mission d'exploration",
+            "source": "Coffre verrouillé d'Hydatos, Coffre rouillé - Eurêka Hydatos"
         },
         "x389": {
             "name": "Zazel",
-            "category": "Évènement saisonnier",
-            "source": "Obtention lors de l'évènement :\"Yo-Kai Watch: Adoptez-en un, adoptez les tous !\""
+            "category": "Évènement",
+            "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x390": {
             "name": "Coussin zabuton moelleux",
-            "category": "Achat",
-            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+            "category": "Tribus barbares",
+            "source": "Shikitahe - Tamamizu - 5 Sango Kojin"
         },
         "x391": {
             "name": "Poussin zu",
             "category": "Achat",
-            "source": "10,000 MGP"
+            "source": "10.000 PGS"
         }
     }
 }
