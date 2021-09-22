@@ -1,0 +1,14 @@
+.task-table-body {
+    tr[draggable="true"] {
+        &.dropTarget {
+            filter: drop-shadow(0 0 5px #bec2cb);
+        }
+
+        &:active {
+            cursor: pointer;
+        }
+
+        //TODO cursor: -webkit-grab;
+        cursor: grab;
+    }
+}

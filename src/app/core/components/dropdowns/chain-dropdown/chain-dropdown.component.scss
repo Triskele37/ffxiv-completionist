@@ -1,0 +1,70 @@
+@import '../../../../../styles/colors';
+
+.chain-dropdown {
+    button:focus {
+        outline: none;
+    }
+
+    &.do-notify {
+        animation: chainNotificationPulse 2s infinite;
+
+        // Fixes issue where popup goes behind table header
+        position: relative;
+        z-index: 1;
+    }
+
+    .xiv-dropdown-body {
+        overflow: hidden;
+    }
+
+    .chain-scroll-container {
+        overflow-y: auto;
+        height: 50vh;
+        min-width: 30vw;
+    }
+
+    .group-nav-arrow {
+        position: relative;
+        margin-top: -6px;
+        font-size: 24px;
+        float: right;
+
+        &.arrows-adjust {
+            margin-right: 20px;
+            margin-top: -11px;
+        }
+    }
+
+    .chained-task {
+        border: none;
+        margin-left: 25px;
+        padding: 0;
+        width: fit-content;
+    }
+
+    .Y, .N, .X {
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .Y { background-color: $state_completed; }
+    .N { background-color: $state_incomplete; }
+    .X {
+        background-color: $state_excluded;
+        color: black;
+    }
+}
+
+@keyframes chainNotificationPulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}

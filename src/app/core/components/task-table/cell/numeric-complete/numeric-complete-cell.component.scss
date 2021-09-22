@@ -1,0 +1,30 @@
+@import 'src/styles/colors';
+
+.completion-flag-cell {
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    width: 99px;
+
+    &:hover {
+        border: 1px solid white;
+    }
+
+    .numeric-input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        color: $blue-1;
+        margin: 5px 2.5% 10px 2.5%;
+        width: 95%;
+    }
+
+    .percentage {
+        color: $blue-1;
+        float: right;
+        font-size: 8pt;
+        margin-top: -8px;
+    }
+}

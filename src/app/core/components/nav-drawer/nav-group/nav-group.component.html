@@ -1,0 +1,24 @@
+<div
+    #container
+    class="nav-group"
+    [style.height]="height"
+    [ngClass]="{ collapsed: !show }"
+>
+    <div
+        class="nav-bar-button"
+        (click)="selectGroup(degree)"
+        [title]="group.name"
+        [style]="buttonStyle"
+    >
+        {{group.name}}
+    </div>
+
+    <template *ngIf="group.subGroups">
+        <xiv-nav-group
+            *ngFor="let subGroup in group.subGroups"
+            [show]="showChildren"
+            [degree]="degree + 1"
+            [group]="subGroup"
+        ></xiv-nav-group>
+    </template>
+</div>

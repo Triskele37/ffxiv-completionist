@@ -1,0 +1,74 @@
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { shell } from '@electron/remote';
+
+import { DataGroup } from '../../../../domain/DataGroup';
+import { Task } from '../../../../domain/Task';
+
+@Component({
+    selector: 'xiv-select-dropdown',
+    templateUrl: './select-dropdown.component.html'
+})
+export class SelectDropdownComponent {
+    @Input() group: DataGroup;
+    @Input() filteredTasks: { [key: string]: Task };
+    @Output() selectChange = new EventEmitter<void>();
+
+    dropdownOpen = false;
+
+    selectedIds() {
+        const selectedIds = [];
+        for(let id in this.filteredTasks) {
+            if(this.filteredTasks[id].selected) {
+                if(typeof id === 'string') {
+                    // For show all ids: 0x1x12345
+                    while(id.indexOf('x') !== -1) {
+                        id = id.substr(id.indexOf('x') + 1);
+                    }
+                }
+
+                selectedIds.push(id);
+            }
+        }
+        return selectedIds;
+    }
+
+    onSelectChange(select) {
+        for(const id in this.filteredTasks) {
+            if(select === null) {
+                this.filteredTasks[id].selected = !this.filteredTasks[id].selected;
+            }
+            else {
+                this.filteredTasks[id].selected = select;
+            }
+        }
+
+        this.selectChange.emit();
+    }
+
+    openInGarland() {
+        const ids = this.selectedIds();
+
+        if(ids.length) {
+            const baseUrl = 'https://www.garlandtools.org/db/#group';
+            const idsString = ids.map((id) => `item/${id}`).join('|');
+
+            // Create a pretty group name
+            let parent = this.group._parent;
+            while(parent._parent.isCraftingLogGroup) parent = parent._parent;
+            const encodedGroupName = `${parent.name} > ${this.group.name}`.replace(' ', '%20');
+
+            shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
+        }
+    }
+
+    openInTeamcraft() {
+        const ids = this.selectedIds();
+
+        if(ids.length) {
+            const baseUrl = 'https://www.ffxivteamcraft.com/import';
+            const idsString = ids.map((id) => `${id},null,1`).join(';');
+
+            shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
+        }
+    }
+}

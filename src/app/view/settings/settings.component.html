@@ -1,0 +1,138 @@
+<div class="settings-page">
+    <div class="settings-group">
+        <label class="setting-header">Character</label>
+        <div class="setting">
+            <label>Save File Name:</label>
+            <label>{{settings.storeName.value}}</label>
+        </div>
+        <div class="setting">
+            <label>Save File Location:</label>
+            <label>{{settings.storeLocation.value}}</label>
+        </div>
+        <div class="setting">
+            <label title="Changing this value excludes innaccessible quests">
+                Starting Class:
+            </label>
+            <select
+                class="xiv-select"
+                [value]="settings.startingClass.value"
+                (change)="onChangeStartingClass($event, settings.startingClass.key)"
+            >
+                <option>Gladiator</option>
+                <option>Marauder</option>
+                <option>Arcanist</option>
+                <option>Archer</option>
+                <option>Lancer</option>
+                <option>Pugilist</option>
+                <option>Rogue</option>
+                <option>Thaumaturge</option>
+                <option>Conjurer</option>
+            </select>
+            <xiv-chain-dropdown [disableUndo]="true"></xiv-chain-dropdown>
+        </div>
+    </div>
+
+    <div class="settings-group">
+        <label class="setting-header">Table Filters</label>
+        <div class="setting">
+            <label>Show Completed:</label>
+            <input
+                class="setting-input"
+                type="checkbox"
+                [checked]="settings.tableFilters.completed.value"
+                (change)="onChangeBoolSetting($event, settings.tableFilters.completed.key)"
+            />
+        </div>
+        <div class="setting">
+            <label>Show Incomplete:</label>
+            <input
+                class="setting-input"
+                type="checkbox"
+                [checked]="settings.tableFilters.incomplete.value"
+                (change)="onChangeBoolSetting($event, settings.tableFilters.incomplete.key)"
+            />
+        </div>
+        <div class="setting">
+            <label>Show Excluded:</label>
+            <input
+                class="setting-input"
+                type="checkbox"
+                [checked]="settings.tableFilters.excluded.value"
+                (change)="onChangeBoolSetting($event, settings.tableFilters.excluded.key)"
+            />
+        </div>
+    </div>
+
+    <div class="settings-group">
+        <label class="setting-header">Chaining</label>
+        <div
+            class="setting"
+            title="Allow or disallow tasks from auto-marking other related tasks"
+        >
+            <label>Chaining Enabled:</label>
+            <input
+                class="setting-input"
+                type="checkbox"
+                [checked]="settings.chainingEnabled.value"
+                (change)="onChangeBoolSetting($event, settings.chainingEnabled.key)"
+            />
+        </div>
+        <div
+            class="setting"
+            title="Chain window will auto-collapse groups when the total chain count hits this number"
+        >
+            <label>Chain Min Threshold:</label>
+            <input
+                class="setting-input xiv-input"
+                type="number"
+                min="1"
+                max="999"
+                step="1"
+                [value]="settings.chainMinThreshold.value"
+                (change)="onChangeNumSetting($event, settings.chainMinThreshold)"
+            />
+        </div>
+    </div>
+
+    <template *ngIf="devMode">
+        <div class="settings-group">
+            <label class="setting-header">Developer Settings</label>
+            <div
+                class="setting"
+                title="Enable/Disable ID columns in all tables"
+            >
+                <label>ID Columns:</label>
+                <input
+                    class="setting-input"
+                    type="checkbox"
+                    [checked]="settings.idColumnEnabled.value"
+                    (change)="onChangeBoolSetting($event, settings.idColumnEnabled.key)"
+                />
+            </div>
+            <div
+                class="setting"
+                title="Enable/Disable maintaining original store version after a migration"
+            >
+                <label>Maintain Version:</label>
+                <input
+                    class="setting-input"
+                    type="checkbox"
+                    [checked]="settings.maintainMigrationVersion.value"
+                    (change)="onChangeBoolSetting($event, settings.maintainMigrationVersion.key)"
+                />
+            </div>
+            <div
+                class="setting"
+                title="Run volatile migration blocks on next reload then reset"
+            >
+                <label>Run Volatile Once:</label>
+                <input
+                    class="setting-input"
+                    type="checkbox"
+                    [checked]="settings.runVolatileMigrationsOnce.value"
+                    (change)="onChangeBoolSetting($event, settings.runVolatileMigrationsOnce.key)"
+                />
+            </div>
+        </div>
+    </template>
+</div>

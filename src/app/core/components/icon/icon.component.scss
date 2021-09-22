@@ -1,0 +1,9 @@
+@import 'src/styles/colors';
+
+.icon-container {
+    &.complete { color: $state_completed; }
+    &.incomplete { color: $state_incomplete; }
+    &.exclude { color: $state_excluded; }
+    &.selected { color: $state_selected; }
+    &.chain { color: #00dddd; }
+}

@@ -1,0 +1,25 @@
+#app {
+    height: 100%;
+    width: 100%;
+
+    white-space: nowrap;
+
+    #loading-modal {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 99999;
+
+        text-align: center;
+        padding: 25% 0;
+    }
+
+    #right-container {
+        display: inline-block;
+        height: 100%;
+        margin: -1px 0 0 -4px;
+        width: calc(100% - 250px);
+        vertical-align: top;
+    }
+}

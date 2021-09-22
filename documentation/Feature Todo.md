@@ -1,4 +1,21 @@
 ------------------------------------------------------------------ Current Release ToDo
+**NOTES**
+Removed additionalColumnConfig when adding fromDefinition
+removed strict dependency on resource structure to xivapi
+
+need to completely re-implement electron-store
+    don't use conf either
+
+possible required polyfills
+    path
+    fs
+    util
+    crypto
+    assert
+    os
+
+gut additional package.json dependencies if possible
+
 **Add**
 
 **Change**

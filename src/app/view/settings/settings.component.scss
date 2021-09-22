@@ -1,0 +1,32 @@
+.settings-page {
+    .setting-header {
+        display: block;
+        margin-top: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .settings-group {
+        width: fit-content;
+    }
+
+    .setting {
+        height: 20px;
+
+        .setting-input {
+            float: right;
+        }
+
+        .xiv-select {
+            width: unset;
+        }
+
+        .xiv-input {
+            width: 50px;
+        }
+
+        .chain-dropdown {
+            display: inline-block;
+        }
+    }
+}

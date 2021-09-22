@@ -1,0 +1,53 @@
+<div *ngIf="!!columnConfig" class="task-table-container">
+    <div class="task-table-toolbar">
+        <span *ngIf="hasTasks && !group.isNumericCompletion">
+            <xiv-quick-mark-dropdown
+                [filteredTasks]="filteredTasks"
+            ></xiv-quick-mark-dropdown>
+        </span>
+
+        <span *ngIf="hasTasks && !group.isNumericCompletion">
+            <xiv-select-dropdown
+                [group]="group"
+                [filteredTasks]="filteredTasks"
+                (selectChange)="onSelectChange()"
+            ></xiv-select-dropdown>
+        </span>
+
+        <span *ngIf="hasTasks">
+            <xiv-chain-dropdown
+                [disableUndo]="group.isCustomGroup"
+            ></xiv-chain-dropdown>
+        </span>
+
+        <span *ngIf="group.isCustomGroup">
+            <xiv-custom-task-dropdown
+                [filteredTasks]="filteredTasks"
+            ></xiv-custom-task-dropdown>
+        </span>
+
+        <span
+            *ngIf="hasTasks"
+            class="row-count"
+            [title]="(totalTasks - displayedTasks) + ' Hidden'"
+        >
+            {{displayedTasks}} Rows displayed
+        </span>
+    </div>
+
+    <div class="task-table-scroll-container" #taskTable>
+        <table class="xiv-table" *ngIf="hasTasks">
+            <xiv-header-row
+                (filterChange)="onFilterChange($event)"
+                [columnConfig]="columnConfig"
+                [uniqueValues]="uniqueValues"
+                [isNumericCompletion]="group.isNumericCompletion"
+            ></xiv-header-row>
+            <xiv-data-row
+                [columnConfig]="columnConfig"
+                [enableDrag]="group.draggable"
+                [tasks]="filteredTasks"
+            ></xiv-data-row>
+        </table>
+    </div>
+</div>

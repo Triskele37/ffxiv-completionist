@@ -1,0 +1,82 @@
+<div
+    class="add-custom-task-container"
+    (mouseenter)="dropdownOpen = true"
+    (mouseleave)="dropdownOpen = false"
+>
+    <div class="xiv-dropdown-arrow">
+        <icon name="plus" size="16"></icon>
+    </div>
+    <div *ngIf="dropdownOpen && !mergingOpen" class="xiv-dropdown-body">
+        <div class="xiv-dropdown-li new-task-dropdown-li">
+            <input
+                class="xiv-input"
+                [(ngModel)]="newTaskName"
+                placeholder="Enter Custom Task Name Here"
+            />
+        </div>
+        <div class="xiv-dropdown-li new-task-dropdown-li">
+            <input
+                class="xiv-input"
+                [(ngModel)]="newTaskNotes"
+                placeholder="Enter Custom Task Notes Here"
+            />
+        </div>
+        <button
+            class="xiv-dropdown-li"
+            (click)="addCustomTask()"
+        >
+            Add Custom Task
+        </button>
+        <button
+            class="xiv-dropdown-li"
+            (click)="mergeCustomTasks()"
+        >
+            Merge Custom Tasks into App
+        </button>
+        <button
+            class="xiv-dropdown-li"
+            (click)="removeSelectedCustomTasks()"
+        >
+            Remove Selected Tasks
+        </button>
+    </div>
+    <div class="xiv-dropdown-body" *ngIf="mergingOpen">
+        <div class="xiv-dropdown-li merge-custom-tasks-dropdown-item">
+            {{mergeTask.name}}<br/>
+            {{mergeTask.notes}}<br/><br/>
+            {{mergeInfo}}
+        </div>
+        <button
+            class="xiv-dropdown-li"
+            (click)="autoMergeSingleMatches()"
+        >
+            Auto-Merge Tasks with One Match
+        </button>
+        <button
+            class="xiv-dropdown-li"
+            (click)="goToNextMerge()"
+        >
+            Skip
+        </button>
+        <button
+            class="xiv-dropdown-li"
+            (click)="exitMerge()"
+        >
+            Exit
+        </button>
+        <template *ngIf="mergeMatches.length > 0">
+            <button
+                *ngFor="let match in mergeMatches"
+                class="xiv-dropdown-li"
+                (click)="confirmCurrentMerge(match)"
+            >
+                {{match.path}}
+            </button>
+        </template>
+    </div>
+    <div
+        class="auto-merge-modal"
+        *ngIf="autoMerge"
+        (click)="modalNoNo()"
+    ></div>
+</div>

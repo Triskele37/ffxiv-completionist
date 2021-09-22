@@ -1,0 +1,94 @@
+<div
+    class="chain-dropdown action-dropdown-container"
+    [ngClass]="{ 'do-notify': doNotify }"
+    (mouseenter)="dropdownOpen = true; doNotify = false;"
+    (mouseleave)="dropdownOpen = false"
+>
+    <div class="xiv-dropdown-arrow">
+        <icon name="chain" size="16"></icon>
+    </div>
+    <div
+        class="xiv-dropdown-body"
+        *ngIf="dropdownOpen"
+    >
+        <!-- Dropdown Content Body with Data -->
+        <template *ngIf="!!chainStart; else noInfo">
+            <!-- Undo Button -->
+            <button
+                *ngIf="!disableUndo"
+                (click)="onUndoLastChain()"
+                class="xiv-dropdown-li"
+            >
+                {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
+            </button>
+
+            <!-- Recent Action Info -->
+            <div
+                class="xiv-dropdown-li"
+                (click)="onNavigateToGroup(chainStart.path)"
+                title="Navigate to this group"
+            >
+                {{chainStart.path}}
+                <br/>
+                Marking "{{chainStart.task.name}}" as
+                "<span [ngClass]="[chainStart.toFlag]">
+                    {{chainStart.toFlag}}
+                </span>" chained to {{chainedTaskCount}} other items
+                <span class="group-nav-arrow arrows-adjust">
+                    &#8614;
+                </span>
+            </div>
+
+            <!-- Dropdown Content Scroller -->
+            <div class="chain-scroll-container">
+                <button
+                    class="xiv-dropdown-li"
+                    *ngFor="let (group, path) of chainedTasks"
+                >
+                    <!-- Group Content Header -->
+                    <div>
+                        <span
+                            (click)="onToggleShowChainedGroup(group)"
+                            title="Toggle this group's visibility"
+                        >
+                            {{path.replace('Overall > ', '')}} ({{groupChainLength(group)}})
+                        </span>
+                        <span
+                            (click)="onNavigateToGroup(path)"
+                            title="Navigate to this group"
+                            class="group-nav-arrow"
+                        >
+                            &#8614;
+                        </span>
+                    </div>
+
+                    <!-- Group Content Items -->
+                    <template *ngIf="group.show && !!change.task">
+                        <button
+                            class="xiv-dropdown-li chained-task"
+                            disabled
+                            *ngFor="(change, id) in group"
+                        >
+                        <span [ngClass]="[change.fromFlag]">
+                            {{change.fromFlag}}
+                        </span>
+                            &nbsp;>&nbsp;
+                            <span [ngClass]="[change.task.completionFlag]">
+                            {{change.task.completionFlag}}
+                        </span>
+                            &nbsp;-&nbsp;
+                            {{change.task.name}}
+                        </button>
+                    </template>
+                </button>
+            </div>
+        </template>
+
+        <!-- Dropdown Content Body with no Data -->
+        <template #noInfo>
+            <button class="xiv-dropdown-li">
+                No chain information to display
+            </button>
+        </template>
+    </div>
+</div>

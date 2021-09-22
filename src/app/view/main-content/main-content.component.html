@@ -1,0 +1,76 @@
+<div id="main-content" *ngIf="!!selectedGroup">
+    <!----------- Landing Page / Fallback ----------->
+    <div *ngIf="selectedGroup.noContent || !selectedGroup; else customGroup">
+        <xiv-landing-page></xiv-landing-page>
+    </div>
+
+    <!----------- Custom Component Group ----------->
+    <template #customGroup>
+        <div
+            *ngIf="selectedGroup.component; else textGroup"
+            class="custom-group-component"
+        >
+            <component v-bind:is="selectedGroup.component"></component>
+        </div>
+    </template>
+
+    <template #textGroup>
+        <span *ngIf="selectedGroup.text; else tableGroup">
+            {{selectedGroup.text}}
+        </span>
+    </template>
+
+    <!----------- Summary & Task Table ----------->
+    <template #tableGroup>
+        <template *ngIf="!showAll">
+            <div *ngIf="selectedGroup.subGroups" class="group-summary-section">
+                <xiv-summary-line
+                    *ngFor="let subGroup in selectedGroup.subGroups"
+                    [group]="subGroup"
+                ></xiv-summary-line>
+            </div>
+
+            <div class="section-actions" *ngIf="isShowAllVisible">
+                <button
+                    class="xiv-button"
+                    (click)="toggleShowAll()"
+                >
+                    {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
+                </button>
+            </div>
+        </template>
+
+        <template *ngIf="showAll">
+            <div class="section-actions">
+                <button
+                    class="xiv-button exit-all-button"
+                    (click)="toggleShowAll()"
+                >
+                    Exit All Task View
+                </button>
+            </div>
+        </template>
+
+        <!----------- Task Tables (show all & base) ----------->
+        <template *ngIf="isShowAllVisible && showAll; else baseTable">
+            <xiv-show-all-section [group]="selectedGroup"></xiv-show-all-section>
+        </template>
+
+        <template #baseTable>
+            <xiv-task-table
+                *ngIf="selectedGroup.taskCount !== null"
+                [group]="selectedGroup"
+                [columnConfig]="selectedGroup.columnConfig"
+                [tasks]="selectedGroup.tasks"
+            ></xiv-task-table>
+        </template>
+    </template>
+</div>
+
+<!--<div class="container">-->
+<!--    <h1 class="title">-->
+<!--        {{ 'PAGES.HOME.TITLE' | translate }}-->
+<!--    </h1>-->
+
+<!--    <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>-->
+<!--</div>-->

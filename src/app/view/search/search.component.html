@@ -1,0 +1,42 @@
+<div id="search-data-container">
+    <div>
+        <div class="section-container">
+            <p>Enter your search term below</p>
+            <div class="search-line">
+                <xiv-status-indicator [status]="status"></xiv-status-indicator>
+                <input
+                    #searchInput
+                    class="xiv-input"
+                    placeholder="..."
+                    [(ngModel)]="searchTerm"
+                    (keydown.enter)="searchOnEnter()"
+                />
+                <button (click)="onSearch()">Search</button>
+            </div>
+            {{info}}
+        </div>
+        <div class="section-container">
+            <ul>
+                <li>This search is case insensitive and returns partial results</li>
+                <li>It ignores any character other than letters and numbers</li>
+                <li>Requires at least 3 characters to run</li>
+                <li>Click on the result row to jump to that section</li>
+            </ul>
+        </div>
+    </div>
+    <div class="output">
+        <table class="xiv-table" *ngIf="status === 'success'">
+            <tr>
+                <th>Match/es</th>
+                <th>Group</th>
+            </tr>
+            <tr
+                *ngFor="let match in matches"
+                (click)="onJumpToGroup(match)"
+            >
+                <td>{{match.matchesString}}</td>
+                <td>{{match.path}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

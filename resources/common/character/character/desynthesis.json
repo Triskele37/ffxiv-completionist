@@ -1,6 +1,8 @@
 {
     "key": "desynthesis",
-    "defaultCompletion": "0",
+    "defaultValue": 0,
+    "isNumericCompletion": true,
+    "numericDecimal": 2,
     "tasks": {
         "x0": {
             "patch": "2.0",

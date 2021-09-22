@@ -1,0 +1,24 @@
+.add-custom-task-container {
+    .auto-merge-modal {
+        background-color: black;
+        position: absolute;
+        z-index: 9999;
+        opacity: 0.25;
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        top: 0;
+    }
+
+    .new-task-dropdown-li {
+        padding: 5px 0;
+    }
+
+    .merge-custom-tasks-dropdown-item {
+        width: unset;
+    }
+
+    .xiv-input {
+        width: 300px;
+    }
+}

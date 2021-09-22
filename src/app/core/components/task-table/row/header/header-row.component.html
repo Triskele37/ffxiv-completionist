@@ -1,0 +1,55 @@
+<tr class="task-table-header">
+    <th class="completion-column">
+        <template *ngIf="!isNumericCompletion; else numericColumn">
+            <span (click)="onFilterCompletion('Y')">
+                <icon
+                    [ngClass]="{ enabledFilter: filters.completion.completed }"
+                    name="complete"
+                ></icon>
+            </span>
+            <span (click)="onFilterCompletion('N')">
+                <icon
+                    [ngClass]="{ enabledFilter: filters.completion.incomplete }"
+                    name="incomplete"
+                ></icon>
+            </span>
+            <br/>
+            <span (click)="onFilterCompletion('X')">
+                <icon
+                    [ngClass]="{ enabledFilter: filters.completion.excluded }"
+                    name="exclude"
+                ></icon>
+            </span>
+        </template>
+        <template #numericColumn>
+            #
+        </template>
+    </th>
+
+    <th *ngFor="let column in columnConfig">
+        <div class="column-search">
+            <input
+                (keyup)="modifySearch($event, column)"
+                (search)="modifySearch($event, column)"
+                (keydown)="onDatalistClick($event)"
+                placeholder="..."
+                class="xiv-combo"
+                [list]="column.key"
+                type="search"
+            />
+            <datalist [id]="column.key" *ngIf="column.filterable">
+                <option>Blank</option>
+                <option
+                    *ngFor="let uniqueValue in uniqueValues[column.key]"
+                >
+                    {{displayedFilterValue(uniqueValue)}}
+                </option>
+            </datalist>
+        </div>
+        <div>
+            {{column.header}}
+        </div>
+    </th>
+
+    <th>Links</th>
+</tr>

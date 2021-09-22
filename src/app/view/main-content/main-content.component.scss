@@ -1,0 +1,34 @@
+@import '../../../styles/colors';
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+
+    height: calc(100% - 140px);
+    margin: 10px;
+
+    .custom-group-component {
+        overflow-y: auto;
+        white-space: normal;
+        padding-right: 10px;
+    }
+
+    .group-summary-section {
+        // wraps summaries each 3
+        display: flex;
+        flex-wrap: wrap;
+
+        // gives height so tables w/ summaries display properly
+        min-height: fit-content;
+    }
+
+    .section-actions {
+        align-self: flex-end;
+        margin-bottom: -27px;
+        text-align: center;
+    }
+
+    .exit-all-button {
+        margin-right: 20px;
+    }
+}

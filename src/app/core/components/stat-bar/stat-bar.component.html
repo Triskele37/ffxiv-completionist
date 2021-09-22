@@ -1,0 +1,12 @@
+<div id="stat-bar">
+    <xiv-summary-line
+        [group]="allData"
+        [isBig]="true"
+    ></xiv-summary-line>
+
+    <xiv-summary-line
+        *ngIf="showSelectedGroupLine"
+        [group]="selectedGroup"
+        [isBig]="true"
+    ></xiv-summary-line>
+</div>

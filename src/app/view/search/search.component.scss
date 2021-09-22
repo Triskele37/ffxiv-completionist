@@ -1,0 +1,18 @@
+#search-data-container {
+    margin-right: 20px;
+    height: 100%;
+    width: 100%;
+
+    .section-container {
+        display: inline-block;
+        //vertical-align: top;
+    }
+
+    .search-line {
+        margin: 10px 0;
+    }
+
+    .output {
+        margin-top: 20px;
+    }
+}

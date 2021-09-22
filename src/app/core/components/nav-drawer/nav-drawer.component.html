@@ -1,0 +1,16 @@
+<span id="nav-drawer">
+    <!---------------------- Main Menu ---------------------->
+    <xiv-nav-group
+        [show]="true"
+        [degree]="1"
+        [group]="mainMenu"
+    ></xiv-nav-group>
+
+    <!---------------------- Data Nav ---------------------->
+    <xiv-nav-group
+        *ngFor="let subGroup in allData.subGroups"
+        [show]="true"
+        [degree]="1"
+        [group]="subGroup"
+    ></xiv-nav-group>
+</span>

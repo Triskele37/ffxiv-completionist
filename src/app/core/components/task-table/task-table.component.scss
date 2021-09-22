@@ -1,0 +1,23 @@
+.task-table-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-table-toolbar {
+    & > span {
+        display: inline-block;
+    }
+
+    .row-count {
+        margin-left: 5px;
+        cursor: default;
+    }
+}
+
+.task-table-scroll-container {
+    display: inline-block;
+    overflow-y: auto;
+
+    height: 100%;
+    width: 100%;
+}

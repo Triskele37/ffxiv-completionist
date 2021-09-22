@@ -1,0 +1,16 @@
+<template>
+    <td
+        class="completion-flag-cell noSelect"
+        [style]="gradientBackground"
+        [title]="tooltip"
+    >
+        <input
+            class="numeric-input"
+            type="number"
+            [step]="step"
+            [value]="value"
+            (blur)="onTaskValueChange($event)"
+        />
+        <span class="percentage">{{percentage}}%</span>
+    </td>
+</template>

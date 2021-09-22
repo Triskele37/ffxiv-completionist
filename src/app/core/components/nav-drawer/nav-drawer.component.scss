@@ -1,0 +1,11 @@
+@import 'src/styles/colors';
+
+#nav-drawer {
+    background-color: $blue-3;
+    display: inline-block;
+
+    height: 100%;
+    width: 250px;
+
+    overflow-x: hidden;
+}

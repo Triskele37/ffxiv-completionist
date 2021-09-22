@@ -1,0 +1,10 @@
+<span class="edit-cell">
+    <textarea
+        #editInput
+        class="xiv-input noSelect"
+        rows="1"
+        (change)="onEditTaskValue($event)"
+        (keydown)="onResizeTextArea($event)"
+        [value]="task[taskKey]"
+    ></textarea>
+</span>

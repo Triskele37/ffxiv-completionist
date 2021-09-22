@@ -1,0 +1,26 @@
+@import 'src/styles/colors';
+
+.completion-flag-cell {
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    width: 30px;
+
+    &:hover {
+        border: 1px solid white;
+    }
+
+    &.completion-flag-cell-Y {
+        background-color: $state_completed;
+    }
+
+    &.completion-flag-cell-N {
+        background-color: $state_incomplete;
+    }
+
+    &.completion-flag-cell-X {
+        background-color: $state_excluded;
+    }
+}

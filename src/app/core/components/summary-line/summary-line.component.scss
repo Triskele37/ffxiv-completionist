@@ -1,0 +1,56 @@
+@import 'src/styles/colors';
+
+.summary-line {
+    background-color: $state_incomplete;
+    position: relative;
+    margin: 5px 10px;
+
+    border: 1px outset;
+    overflow: hidden;
+
+    &.excluded {
+        background-color: #333;
+    }
+
+    &.big {
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        height: 40px;
+        width: calc(100% - 20px);
+    }
+
+    &:not(.big) {
+        border-radius: 7.5px;
+        cursor: pointer;
+        display: inline-block;
+        height: 20px;
+        width: calc(33% - 20px);
+    }
+
+    .summary-info {
+        position: absolute;
+        top: 1px;
+        width: calc(100% - 10px);
+        z-index: 10;
+
+        &.big {
+            left: unset;
+            transform: translate(-50%, 0);
+        }
+
+        &:not(.big) {
+            left: 5px;
+        }
+    }
+
+    .progress-line {
+        background-color: $state_completed;
+        display: inline-block;
+        position: relative;
+        height: 100%;
+        z-index: 5;
+        float: left;
+        transition: width 0.5s;
+    }
+}

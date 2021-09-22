@@ -1,0 +1,23 @@
+.task-table-header {
+    .completion-column span {
+        cursor: pointer;
+
+        .enabledFilter {
+            filter: drop-shadow(2px 2px 0px black);
+        }
+    }
+
+    .column-search {
+        .xiv-combo {
+            width: 95%;
+        }
+
+        .applied-filter {
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
