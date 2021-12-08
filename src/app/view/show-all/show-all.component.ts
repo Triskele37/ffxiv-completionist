@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
-import { DataGroup } from '../../domain/DataGroup';
-import { Task } from '../../domain/Task';
+import { DataGroup } from '@domain/DataGroup';
+import { Task } from '@domain/Task';
 
 @Component({
     selector: 'xiv-show-all-section',

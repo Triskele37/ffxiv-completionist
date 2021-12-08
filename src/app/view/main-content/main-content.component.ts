@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NavigationService } from '../../core/services/navigation/navigation.service';
-import { DataGroup } from '../../domain/DataGroup';
+import { DataGroup } from '@domain/DataGroup';
+import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
     selector: 'xiv-main-content',

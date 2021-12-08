@@ -1,4 +1,4 @@
-import { DataGroup } from '../domain/DataGroup';
+import { DataGroup } from '@domain/DataGroup';
 
 import { CHARACTER_DEFINITION } from './definitions/character';
 import { DUTY_DEFINITION } from './definitions/duty';

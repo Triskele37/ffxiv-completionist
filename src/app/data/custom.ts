@@ -1,5 +1,5 @@
-import { DataGroup } from '../domain/DataGroup';
-import { pStore } from '../core/services/store/store.service';
+import { DataGroup } from '@domain/DataGroup';
+import { pStore } from '@service/store/store.service';
 
 export function Custom(parent): DataGroup {
     const data = DataGroup.fromJSON(parent, './custom');

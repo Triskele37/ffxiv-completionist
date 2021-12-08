@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 
-import { NavigationService } from '../../core/services/navigation/navigation.service';
-import { SearchService } from '../../core/services/search/search.service';
+import { NavigationService } from '@service/navigation/navigation.service';
+import { SearchService } from '@service/search/search.service';
 
 @Component({
     selector: 'xiv-search-results',

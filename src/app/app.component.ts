@@ -3,8 +3,8 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { APP_CONFIG } from '../environments/environment';
 
-import { ElectronService } from './core/services/electron/electron.service';
-import { StoreService } from './core/services/store/store.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { StoreService } from '@service/store/store.service';
 
 @Component({
     selector: 'xiv-root',

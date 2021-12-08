@@ -1,5 +1,5 @@
-import { eStore } from '../core/services/store/store.service';
-import { ChainService } from '../core/services/chain/chain.service';
+import { eStore } from '@service/store/store.service';
+import { ChainService } from '@service/chain/chain.service';
 
 import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';

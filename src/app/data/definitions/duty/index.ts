@@ -1,4 +1,4 @@
-import { GroupDefinition } from '../../../domain/Definition';
+import { GroupDefinition } from '@domain/Definition';
 import { QUEST_DEFINITION } from './quest';
 import { Duty_Guildhests } from './guildhests';
 

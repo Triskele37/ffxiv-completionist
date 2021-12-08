@@ -7,9 +7,10 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { NavDrawerModule } from './core/components/nav-drawer/nav-drawer.module';
-import { StatBarModule } from './core/components/stat-bar/stat-bar.module';
-import { BreadcrumbsModule } from './core/components/breadcrumbs/breadcrumbs.module';
+// App
+import { NavDrawerModule } from '@component/nav-drawer/nav-drawer.module';
+import { StatBarModule } from '@component/stat-bar/stat-bar.module';
+import { BreadcrumbsModule } from '@component/breadcrumbs/breadcrumbs.module';
 import { MainContentModule } from './view/main-content/main-content.module';
 
 import { AppComponent } from './app.component';

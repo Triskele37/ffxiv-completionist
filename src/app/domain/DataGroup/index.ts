@@ -1,5 +1,5 @@
-import { eStore } from '../../core/services/store/store.service';
-import { loadJson } from '../../data/loader';
+import { loadJson } from '@data/loader';
+import { eStore } from '@service/store/store.service';
 import { GroupDefinition } from '../Definition';
 
 import { Groupable } from './Groupable';

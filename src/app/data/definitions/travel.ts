@@ -1,4 +1,4 @@
-import { GroupDefinition } from '../../domain/Definition';
+import { GroupDefinition } from '@domain/Definition';
 
 export const TRAVEL_DEFINITION: GroupDefinition = {
     path: 'travel',

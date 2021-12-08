@@ -1,4 +1,4 @@
-import { GroupDefinition } from '../../../domain/Definition';
+import { GroupDefinition } from '@domain/Definition';
 
 export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
     path: 'crafting',

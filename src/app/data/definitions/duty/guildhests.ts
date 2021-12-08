@@ -1,4 +1,4 @@
-import { DataGroup } from '../../../domain/DataGroup';
+import { DataGroup } from '@domain/DataGroup';
 
 export const Duty_Guildhests = function(parent: DataGroup, path: string) {
     const group = DataGroup.fromJSON(parent, `${path}/index`);

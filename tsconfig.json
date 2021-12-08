@@ -21,8 +21,13 @@
             "dom"
         ],
         "paths": {
-            "@components/*": ["src/app/core/components/*"],
-            "@services/*": ["src/app/core/services/*"]
+            "@component/*": ["src/app/core/component/*"],
+            "@data": ["src/app/data"],
+            "@data/*": ["src/app/data/*"],
+            "@domain/*": ["src/app/domain/*"],
+            "@service/*": ["src/app/core/service/*"],
+            "fs": ["src/shims/fs"],
+            "path": ["src/shims/path"]
         }
     },
     "include": [

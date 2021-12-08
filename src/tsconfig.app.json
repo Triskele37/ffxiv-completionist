@@ -3,8 +3,16 @@
     "compilerOptions": {
         "outDir": "../out-tsc/app",
         "module": "es2015",
-        "baseUrl": "",
-        "types": []
+        "baseUrl": ".",
+        "types": [],
+        "paths": {
+            "@component/*": ["app/core/component/*"],
+            "@data": ["app/data"],
+            "@data/*": ["app/data/*"],
+            "@domain/*": ["app/domain/*"],
+            "@service/*": ["app/core/service/*"],
+            "fs": ["shims/fs"]
+        }
     },
     "files": [
         "main.ts",

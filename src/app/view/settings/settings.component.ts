@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { data } from '../../data';
-
-import { StoreService } from '../../core/services/store/store.service';
+import { data } from '@data';
+import { StoreService } from '@service/store/store.service';
 
 @Component({
     selector: 'xiv-settings',
