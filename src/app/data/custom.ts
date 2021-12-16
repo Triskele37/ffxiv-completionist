@@ -1,12 +1,12 @@
 import { DataGroup } from '@domain/DataGroup';
-import { pStore } from '@service/store/store.service';
+import { StoreService } from '@service/store/store.service';
 
 export function Custom(parent): DataGroup {
     const data = DataGroup.fromJSON(parent, './custom');
     data.isCustomGroup = true;
     data.draggable = true;
 
-    const customTasks = pStore().get('custom') || {};
+    const customTasks = StoreService.pStore.get('custom') || {};
 
     // Have to temporarily keep this in until everyone is off 0.5.55
     if(!Array.isArray(customTasks)) {

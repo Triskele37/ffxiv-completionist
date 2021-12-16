@@ -1,4 +1,3 @@
-import { eStore } from '@service/store/store.service';
 import { Task } from '../Task';
 
 export class BaseGroup {

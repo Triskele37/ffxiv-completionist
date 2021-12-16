@@ -1,4 +1,4 @@
-import { pStore } from '../../store.service';
+import { StoreService } from '../../store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrate_5_58_titles } from './title';
@@ -33,7 +33,7 @@ export function migrate_5_5_to_5_58(): void {
     }
 
     //------------------------------------------------------------------ Custom Task Reformat
-    const oldCustom = pStore().get('custom');
+    const oldCustom = StoreService.pStore.get('custom');
 
     // Perform once
     if(Array.isArray(oldCustom)) {
@@ -57,17 +57,17 @@ export function migrate_5_5_to_5_58(): void {
             customMeta[`x${newId}`] = meta;
         });
 
-        pStore().set('custom', customMeta);
+        StoreService.pStore.set('custom', customMeta);
 
         // Update custom flag storage
-        const oldFlags: any = pStore().get('overall.custom');
+        const oldFlags: any = StoreService.pStore.get('overall.custom');
         if(oldFlags.undefined) delete oldFlags.undefined;
 
         const customFlag = {};
         Object.keys(oldFlags).forEach((id) => {
             customFlag[`x${id}`] = oldFlags[id];
         });
-        pStore().set('overall.custom', customFlag);
+        StoreService.pStore.set('overall.custom', customFlag);
     }
 
     store.write();

@@ -1,6 +1,7 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "outDir": "./dist/out-tsc",
         "module": "es2020",
@@ -11,6 +12,9 @@
         "experimentalDecorators": true,
         "allowJs": true,
         "target": "es5",
+        "types": [
+            "node"
+        ],
         "typeRoots": [
             "node_modules/@types"
         ],

@@ -1,4 +1,4 @@
-import { eStore } from '@service/store/store.service';
+import { StoreService } from '@service/store/store.service';
 import { Extendable } from './BaseGroup';
 
 export function Configable<T extends Extendable>(Base: T) {
@@ -15,7 +15,7 @@ export function Configable<T extends Extendable>(Base: T) {
             if(!this._columnConfig) return this._columnConfig;
 
             // Add an ID column when in development
-            if(eStore.get('id-column-enabled') && process.env.NODE_ENV === 'development') {
+            if(StoreService.eStore.get('id-column-enabled') && process.env.NODE_ENV === 'development') {
                 if(this._columnConfig[0].key !== 'id') {
                     return this._columnConfig ? [{
                         header: 'ID',

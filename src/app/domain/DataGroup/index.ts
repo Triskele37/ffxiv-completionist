@@ -1,5 +1,5 @@
 import { loadJson } from '@data/loader';
-import { eStore } from '@service/store/store.service';
+import { StoreService } from '@service/store/store.service';
 import { GroupDefinition } from '../Definition';
 
 import { Groupable } from './Groupable';
@@ -16,7 +16,7 @@ export class DataGroup extends Countable(Configable(Taskable(Groupable(BaseGroup
     constructor(json, parent) {
         super(json, parent);
 
-        this.lang = parent?.lang || eStore.get('lang');
+        this.lang = parent?.lang || StoreService.eStore.get('lang');
 
         // Inherit things
         if(this._parent) {
@@ -48,7 +48,7 @@ export class DataGroup extends Countable(Configable(Taskable(Groupable(BaseGroup
     }
 
     static fromJSON(parent, path): DataGroup {
-        const json = loadJson(path, parent?.lang || eStore.get('lang'));
+        const json = loadJson(path, parent?.lang || StoreService.eStore.get('lang'));
         return new DataGroup(json, parent);
     }
 

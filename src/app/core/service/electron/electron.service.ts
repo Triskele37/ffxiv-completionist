@@ -11,11 +11,12 @@ import * as fs from 'fs';
     providedIn: 'root'
 })
 export class ElectronService {
+    static remote: typeof remote = window?.process?.type ? window.require('@electron/remote') : null;
+    static fs: typeof fs = window?.process?.type ? window.require('fs') : null;
+
     ipcRenderer: typeof ipcRenderer;
     webFrame: typeof webFrame;
-    remote: typeof remote;
     childProcess: typeof childProcess;
-    fs: typeof fs;
 
     constructor() {
         // Conditional imports
@@ -24,12 +25,12 @@ export class ElectronService {
             this.webFrame = window.require('electron').webFrame;
 
             this.childProcess = window.require('child_process');
-            this.fs = window.require('fs');
+            // this.fs = window.require('fs');
 
             // If you want to use a NodeJS 3rd party deps in Renderer process (like @electron/remote),
             // it must be declared in dependencies of both package.json (in root and app folders)
             // If you want to use remote object in renderer process, please set enableRemoteModule to true in main.ts
-            this.remote = window.require('@electron/remote');
+            // this.remote = window.require('@electron/remote');
         }
     }
 

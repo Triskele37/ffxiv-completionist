@@ -1,4 +1,4 @@
-import { eStore } from '@service/store/store.service';
+import { StoreService } from '@service/store/store.service';
 import { ChainService } from '@service/chain/chain.service';
 
 import { DataGroup } from './DataGroup';
@@ -154,7 +154,7 @@ export class Task {
 
     changeCompletionFlag(toFlag, firstInChain?: boolean) {
         // Dodge all of this if chaining is disabled
-        if(!eStore.get('chaining-enabled')) {
+        if(!StoreService.eStore.get('chaining-enabled')) {
             this.setCompletionFlag(toFlag);
         }
         else if(this.shouldChain(firstInChain, toFlag)) {
@@ -190,7 +190,7 @@ export class Task {
 
     changeCompletionNumber(toNum, firstInChain?: boolean) {
         // Dodge all of this if chaining is disabled
-        if(!eStore.get('chaining-enabled')) {
+        if(!StoreService.eStore.get('chaining-enabled')) {
             this.setCompletionNumber(toNum);
         }
         else if(this.shouldChain(firstInChain, toNum)) {

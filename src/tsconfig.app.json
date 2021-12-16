@@ -11,7 +11,8 @@
             "@data/*": ["app/data/*"],
             "@domain/*": ["app/domain/*"],
             "@service/*": ["app/core/service/*"],
-            "fs": ["shims/fs"]
+            "fs": ["shims/fs"],
+            "path": ["shims/path"]
         }
     },
     "files": [
@@ -19,6 +20,7 @@
         "polyfills.ts"
     ],
     "include": [
+        "shims/*.ts",
         "**/*.d.ts"
     ],
     "exclude": [

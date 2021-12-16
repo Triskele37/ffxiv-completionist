@@ -1,31 +1,31 @@
 import { Injectable } from '@angular/core';
-import { app, remote } from 'electron';
 
 import { data } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { ElectronService } from '@service/electron/electron.service';
 
 import { migrateData } from './migration';
 import { Store } from './Store';
 import { ConfigStore, SaveStore } from './Store.d';
 
-// determine which import has app since both Main and Renderer processes hit this code
-const appImport = !!app ? app : remote.app;
-
-export const eStore: Store<ConfigStore> = new Store();
-export const pStore = (): Store<SaveStore> => new Store(
-    eStore.get('store-loc'),
-    eStore.get('store-name')
-);
+console.log(ElectronService.remote.app.getPath('userData'));
 
 @Injectable({
     providedIn: 'root'
 })
 export class StoreService {
-    eStore: Store<ConfigStore> = eStore;
+    static eStore: Store<ConfigStore> = new Store(
+        ElectronService.remote.app.getPath('userData')
+    );
 
-    constructor() {
+    static pStore: Store<SaveStore> = new Store(
+        StoreService.eStore.get('store-loc'),
+        StoreService.eStore.get('store-name')
+    );
+
+    constructor(private svcElectron: ElectronService) {
         this.setDefaultConfig('store-name', 'completion');
-        this.setDefaultConfig('store-loc', appImport.getPath('userData'));
+        this.setDefaultConfig('store-loc', ElectronService.remote.app.getPath('userData'));
         this.setDefaultConfig('starting-class', '');
         this.setDefaultConfig('chaining-enabled', false);
         this.setDefaultConfig('chain-min-threshold', 10);
@@ -42,14 +42,17 @@ export class StoreService {
     }
 
     setDefaultConfig(key: string, defaultValue: any): void {
-        if(this.eStore.get(key) === undefined) {
-            this.eStore.set(key, defaultValue);
+        if(StoreService.eStore.get(key) === undefined) {
+            StoreService.eStore.set(key, defaultValue);
         }
     }
 
-    //TODO: make like eStore and listen for eStore changes
+    get eStore(): Store<ConfigStore> {
+        return StoreService.eStore;
+    }
+
     get pStore(): Store<SaveStore> {
-        return pStore();
+        return StoreService.pStore;
     }
 
     applyStoreToData(): void {

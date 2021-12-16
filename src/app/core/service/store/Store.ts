@@ -1,3 +1,5 @@
+import { ElectronService } from '@service/electron/electron.service';
+
 export class Store<StoreType> {
     data: StoreType;
     path: string;
@@ -6,6 +8,11 @@ export class Store<StoreType> {
     constructor(path?: string, name?: string) {
         this.path = path ? path : '';
         this.name = name ? name : 'config.json';
+
+        if(this.name.substr(-5) !== '.json') this.name += '.json';
+
+        const file = ElectronService.fs.readFileSync(`${this.path}\\${this.name}`, 'utf8');
+        this.data = JSON.parse(file);
     }
 
     get(path: string): any {

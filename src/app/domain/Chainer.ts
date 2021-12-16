@@ -218,7 +218,7 @@ export class Chainer {
                 expandedPath = 'duty.quests';
                 break;
             case 'a':
-                expandedPath = 'character.achievements';
+                expandedPath = 'character.achievement';
                 break;
             case 't':
                 expandedPath = 'character.character.title';
