@@ -1,8 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { shell } from '@electron/remote';
 
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
+import { ElectronService } from '@service/electron/electron.service';
 
 @Component({
     selector: 'xiv-select-dropdown',
@@ -14,6 +14,9 @@ export class SelectDropdownComponent {
     @Output() selectChange = new EventEmitter<void>();
 
     dropdownOpen = false;
+
+    constructor(private svcElectron: ElectronService) {
+    }
 
     selectedIds() {
         const selectedIds = [];
@@ -57,7 +60,7 @@ export class SelectDropdownComponent {
             while(parent._parent.isCraftingLogGroup) parent = parent._parent;
             const encodedGroupName = `${parent.name} > ${this.group.name}`.replace(' ', '%20');
 
-            shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
+            ElectronService.remote.shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
         }
     }
 
@@ -68,7 +71,7 @@ export class SelectDropdownComponent {
             const baseUrl = 'https://www.ffxivteamcraft.com/import';
             const idsString = ids.map((id) => `${id},null,1`).join(';');
 
-            shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
+            ElectronService.remote.shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
         }
     }
 }

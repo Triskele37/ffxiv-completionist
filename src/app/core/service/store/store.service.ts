@@ -23,7 +23,7 @@ export class StoreService {
         StoreService.eStore.get('store-name')
     );
 
-    constructor(private svcElectron: ElectronService) {
+    constructor() {
         this.setDefaultConfig('store-name', 'completion');
         this.setDefaultConfig('store-loc', ElectronService.remote.app.getPath('userData'));
         this.setDefaultConfig('starting-class', '');

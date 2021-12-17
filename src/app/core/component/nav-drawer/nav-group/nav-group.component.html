@@ -15,7 +15,7 @@
 
     <template *ngIf="group.subGroups">
         <xiv-nav-group
-            *ngFor="let subGroup in group.subGroups"
+            *ngFor="let subGroup of group.subGroups"
             [show]="showChildren"
             [degree]="degree + 1"
             [group]="subGroup"

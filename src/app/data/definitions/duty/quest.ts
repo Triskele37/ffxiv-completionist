@@ -199,7 +199,7 @@ export const QUEST_DEFINITION = {
                 'kobold',
                 'sahagin',
                 'ixal',
-                'vanu-quests',
+                'vanu-vanu',
                 'vath',
                 'moogle',
                 'kojin',

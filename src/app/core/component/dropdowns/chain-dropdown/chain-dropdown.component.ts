@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
 import { StoreService } from '@service/store/store.service';
+import { ChainedTasks } from '@service/chain/types';
 
 @Component({
     selector: 'xiv-chain-dropdown',
@@ -17,7 +18,7 @@ export class ChainDropdownComponent implements OnInit {
     doNotify = false;
 
     chainedTaskCount;
-    chainedTasks;
+    chainedTasks: ChainedTasks;
     chainStart;
 
     constructor(

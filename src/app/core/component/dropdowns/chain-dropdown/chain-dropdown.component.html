@@ -43,18 +43,18 @@
             <div class="chain-scroll-container">
                 <button
                     class="xiv-dropdown-li"
-                    *ngFor="let (group, path) of chainedTasks"
+                    *ngFor="let task of chainedTasks | keyvalue"
                 >
                     <!-- Group Content Header -->
                     <div>
                         <span
-                            (click)="onToggleShowChainedGroup(group)"
+                            (click)="onToggleShowChainedGroup(task.key)"
                             title="Toggle this group's visibility"
                         >
-                            {{path.replace('Overall > ', '')}} ({{groupChainLength(group)}})
+                            {{task.value.path.replace('Overall > ', '')}} ({{groupChainLength(task.key)}})
                         </span>
                         <span
-                            (click)="onNavigateToGroup(path)"
+                            (click)="onNavigateToGroup(task.value.path)"
                             title="Navigate to this group"
                             class="group-nav-arrow"
                         >
@@ -63,21 +63,21 @@
                     </div>
 
                     <!-- Group Content Items -->
-                    <template *ngIf="group.show && !!change.task">
+                    <template *ngFor="let item of task.value | keyvalue">
                         <button
+                            *ngIf="task.key.show && !!item.value.task"
                             class="xiv-dropdown-li chained-task"
                             disabled
-                            *ngFor="(change, id) in group"
                         >
-                        <span [ngClass]="[change.fromFlag]">
-                            {{change.fromFlag}}
-                        </span>
+                            <span [ngClass]="[item.value.fromFlag]">
+                                {{item.value.fromFlag}}
+                            </span>
                             &nbsp;>&nbsp;
-                            <span [ngClass]="[change.task.completionFlag]">
-                            {{change.task.completionFlag}}
-                        </span>
+                            <span [ngClass]="[item.value.task.completionFlag]">
+                                {{item.value.task.completionFlag}}
+                            </span>
                             &nbsp;-&nbsp;
-                            {{change.task.name}}
+                            {{item.value.task.name}}
                         </button>
                     </template>
                 </button>
