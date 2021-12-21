@@ -1,0 +1,15 @@
+
+.p-toolbar {
+    background: var(--surface-a);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: var(--content-padding);
+    border-radius: 4px;
+}
+
+.p-toolbar .p-toolbar-separator {
+    margin: 0 0.5rem;
+}
+
+.p-toolbar {
+    border: 0 none;
+}

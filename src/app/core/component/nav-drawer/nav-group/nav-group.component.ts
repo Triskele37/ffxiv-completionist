@@ -14,7 +14,12 @@ export class NavGroupComponent implements OnInit, OnChanges {
     @Input() degree: number;
     @Input() group: DataGroup;
 
-    @ViewChild('container') container;
+    _container;
+    @ViewChild('container', { static: false }) set container(value) {
+        if(!value) return;
+        this._container = value;
+        this.setHeight();
+    };
 
     height = '';
     timeout = null;
@@ -42,7 +47,7 @@ export class NavGroupComponent implements OnInit, OnChanges {
 
     ngOnChanges(changes: SimpleChanges) {
         if(changes.show) {
-            this.height = `${this.container.scrollHeight}px`;
+            this.setHeight();
             clearTimeout(this.timeout);
 
             this.timeout = setTimeout(() => {
@@ -54,5 +59,9 @@ export class NavGroupComponent implements OnInit, OnChanges {
     selectGroup(degree) {
         this.svcNavigation.setCrumbAt(degree, this.group.name);
         this.svcNavigation.setSelectedGroup(this.group);
+    }
+
+    setHeight() {
+        this.height = `${this._container?.scrollHeight || 0}px`;
     }
 }

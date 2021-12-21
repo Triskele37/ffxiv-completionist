@@ -4,7 +4,7 @@
     (mouseleave)="dropdownOpen = false"
 >
     <div class="xiv-dropdown-arrow">
-        <icon name="selected" size="16"></icon>
+        <xiv-icon name="selected" size="16"></xiv-icon>
     </div>
     <div *ngIf="dropdownOpen" class="xiv-dropdown-body">
         <button class="xiv-dropdown-li" [disabled]="true">Selection Actions Menu</button>
@@ -12,9 +12,9 @@
         <button class="xiv-dropdown-li" (click)="onSelectChange(false)">Deselect All Tasks</button>
         <button class="xiv-dropdown-li" (click)="onSelectChange(null)">Invert Selection</button>
 
-        <template *ngIf="group.isCraftingLogGroup">
+        <ng-template *ngIf="group.isCraftingLogGroup">
             <button class="xiv-dropdown-li" (click)="openInGarland()">Open Selected Recipes in Garland Tools</button>
             <button class="xiv-dropdown-li" (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</button>
-        </template>
+        </ng-template>
     </div>
 </div>

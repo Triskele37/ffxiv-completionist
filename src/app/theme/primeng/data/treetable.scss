@@ -1,0 +1,250 @@
+
+.p-treetable .p-paginator-top {
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+.p-treetable .p-paginator-bottom {
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+.p-treetable .p-treetable-header {
+    background: var(--surface-a);
+    color: var(--text-color);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-width: 0 0 1px 0;
+    padding: var(--content-padding) var(--content-padding);
+    font-weight: 500;
+}
+
+.p-treetable .p-treetable-footer {
+    background: var(--surface-a);
+    color: var(--text-color);
+    border: 1px solid #404040;
+    border-width: 0 0 1px 0;
+    padding: var(--content-padding) var(--content-padding);
+    font-weight: 500;
+}
+
+.p-treetable .p-treetable-thead > tr > th {
+    text-align: left;
+    padding: var(--content-padding) var(--content-padding);
+    border: 1px solid #404040;
+    border-width: 0 0 1px 0;
+    font-weight: 500;
+    color: var(--text-color);
+    background: var(--surface-a);
+    transition: none;
+}
+
+.p-treetable .p-treetable-tfoot > tr > td {
+    text-align: left;
+    padding: var(--content-padding) var(--content-padding);
+    border: 1px solid 3404040;
+    border-width: 0 0 1px 0;
+    font-weight: 500;
+    color: var(--text-color);
+    background: var(--surface-a);
+}
+
+.p-treetable .p-sortable-column {
+    outline-color: transparent;
+}
+
+.p-treetable .p-sortable-column .p-sortable-column-icon {
+    color: var(--text-color-secondary);
+    margin-left: 0.5rem;
+}
+
+.p-treetable .p-sortable-column .p-sortable-column-badge {
+    border-radius: 50%;
+    height: 1.143rem;
+    min-width: 1.143rem;
+    line-height: 1.143rem;
+    color: #CE93D8;
+    background: rgba(206, 147, 216, 0.16);
+    margin-left: 0.5rem;
+}
+
+.p-treetable .p-sortable-column:not(.p-highlight):hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-color);
+}
+
+.p-treetable .p-sortable-column:not(.p-highlight):hover .p-sortable-column-icon {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.p-treetable .p-sortable-column.p-highlight {
+    background: var(--surface-a);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.p-treetable .p-sortable-column.p-highlight .p-sortable-column-icon {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.p-treetable .p-treetable-tbody > tr {
+    background: var(--surface-a);
+    color: rgba(255, 255, 255, 0.87);
+    transition: none;
+    outline-color: transparent;
+}
+
+.p-treetable .p-treetable-tbody > tr > td {
+    text-align: left;
+    border: 1px solid #404040;
+    border-width: 0 0 1px 0;
+    padding: var(--content-padding) var(--content-padding);
+}
+
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-right: 0.5rem;
+}
+
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover {
+    color: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox {
+    margin-right: 0.5rem;
+}
+
+.p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox .p-indeterminate .p-checkbox-icon {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.p-treetable .p-treetable-tbody > tr.p-highlight {
+    background: rgba(206, 147, 216, 0.16);
+    color: #CE93D8;
+}
+
+.p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler {
+    color: #CE93D8;
+}
+
+.p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler:hover {
+    color: #CE93D8;
+}
+
+.p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover .p-treetable-toggler {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.p-treetable .p-column-resizer-helper {
+    background: #CE93D8;
+}
+
+.p-treetable .p-treetable-scrollable-header,
+.p-treetable .p-treetable-scrollable-footer {
+    background: var(--surface-a);
+}
+
+.p-treetable .p-treetable-loading-icon {
+    font-size: 2rem;
+}
+
+.p-treetable.p-treetable-gridlines .p-datatable-header {
+    border-width: 1px 1px 0 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-footer {
+    border-width: 0 1px 1px 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-top {
+    border-width: 0 1px 0 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-bottom {
+    border-width: 0 1px 1px 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-thead > tr > th {
+    border-width: 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-tbody > tr > td {
+    border-width: 1px;
+}
+
+.p-treetable.p-treetable-gridlines .p-treetable-tfoot > tr > td {
+    border-width: 1px;
+}
+
+.p-treetable.p-treetable-sm .p-treetable-header {
+    padding: 0.875rem 0.875rem;
+}
+
+.p-treetable.p-treetable-sm .p-treetable-thead > tr > th {
+    padding: 0.5rem 0.5rem;
+}
+
+.p-treetable.p-treetable-sm .p-treetable-tbody > tr > td {
+    padding: 0.5rem 0.5rem;
+}
+
+.p-treetable.p-treetable-sm .p-treetable-tfoot > tr > td {
+    padding: 0.5rem 0.5rem;
+}
+
+.p-treetable.p-treetable-sm .p-treetable-footer {
+    padding: 0.5rem 0.5rem;
+}
+
+.p-treetable.p-treetable-lg .p-treetable-header {
+    padding: 1.25rem 1.25rem;
+}
+
+.p-treetable.p-treetable-lg .p-treetable-thead > tr > th {
+    padding: 1.25rem 1.25rem;
+}
+
+.p-treetable.p-treetable-lg .p-treetable-tbody > tr > td {
+    padding: 1.25rem 1.25rem;
+}
+
+.p-treetable.p-treetable-lg .p-treetable-tfoot > tr > td {
+    padding: 1.25rem 1.25rem;
+}
+
+.p-treetable.p-treetable-lg .p-treetable-footer {
+    padding: 1.25rem 1.25rem;
+}
+
+.p-treetable .p-sortable-column {
+    outline: 0 none;
+}
+
+.p-treetable .p-sortable-column:focus {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.p-treetable .p-treetable-tbody > tr {
+    outline: 0 none;
+}
+
+.p-treetable .p-treetable-tbody > tr:not(.p-highlight):focus {
+    background-color: rgba(255, 255, 255, 0.03);
+}

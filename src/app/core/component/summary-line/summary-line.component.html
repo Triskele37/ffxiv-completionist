@@ -4,20 +4,20 @@
     [title]="tooltip"
     (click)="onClick()"
 >
-    <template *ngIf="isBig; else normalSize">
+    <ng-container *ngIf="isBig; else normalSize">
         <span class="summary-info big">
             {{group.name}}
             <br />
             {{percentComplete}}
         </span>
-    </template>
-    <template #normalSize>
+    </ng-container>
+    <ng-template #normalSize>
         <span class="summary-info">
             <span>{{group.name}}</span>
             <span style="float: right;">
                 {{percentComplete}}
             </span>
         </span>
-    </template>
+    </ng-template>
     <span class="progress-line" [style]="completeBarStyle"></span>
 </div>

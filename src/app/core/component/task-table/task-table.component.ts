@@ -22,6 +22,7 @@ export class TaskTableComponent implements OnChanges {
     hasTasks: boolean;
     uniqueValues: any;
     filteredTasks: { [key: string]: Task };
+    filteredTasksArr: Task[];
 
     filters = {
         completion: {}
@@ -35,7 +36,7 @@ export class TaskTableComponent implements OnChanges {
         const { columnConfig, group, tasks } = changes;
 
         if(group) {
-            const isValidGroupChange = group.currentValue && group.previousValue.name !== group.currentValue.name;
+            const isValidGroupChange = group.currentValue && group.previousValue?.name !== group.currentValue?.name;
 
             if(isValidGroupChange && this.taskTableRef) {
                 this.taskTableRef.nativeElement.scrollTop = 0;
@@ -47,6 +48,7 @@ export class TaskTableComponent implements OnChanges {
         if(columnConfig || group || tasks) {
             this.uniqueValues = this._uniqueValues;
             this.filteredTasks = this._filteredTasks;
+            this.filteredTasksArr = Object.values(this.filteredTasks);
         }
     }
 
@@ -71,7 +73,7 @@ export class TaskTableComponent implements OnChanges {
             if(this.filteredTasks.hasOwnProperty(id)) {
                 const task = this.filteredTasks[id];
 
-                this.columnConfig.forEach(({ key }) => {
+                this.columnConfig?.forEach(({ key }) => {
                     if(!uniqueValues[key]) uniqueValues[key] = [];
 
                     const value = !task[key] && task[key] !== 0 ? '' : task[key];
@@ -83,7 +85,7 @@ export class TaskTableComponent implements OnChanges {
         }
 
         // Sort the unique values for pretty filter dropdowns
-        this.columnConfig.forEach((column) => {
+        this.columnConfig?.forEach((column) => {
             if(!uniqueValues[column.key]) return;
             if(column.filterType === 'number') {
                 uniqueValues[column.key].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));

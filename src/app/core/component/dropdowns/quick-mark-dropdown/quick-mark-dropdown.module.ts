@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { IconModule } from '@component/icon/icon.module';
 import { QuickMarkDropdownComponent } from './quick-mark-dropdown.component';
 
 @NgModule({
@@ -8,7 +9,9 @@ import { QuickMarkDropdownComponent } from './quick-mark-dropdown.component';
         QuickMarkDropdownComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+
+        IconModule
     ],
     exports: [
         QuickMarkDropdownComponent

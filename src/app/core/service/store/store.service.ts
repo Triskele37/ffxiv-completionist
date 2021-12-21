@@ -8,8 +8,6 @@ import { migrateData } from './migration';
 import { Store } from './Store';
 import { ConfigStore, SaveStore } from './Store.d';
 
-console.log(ElectronService.remote.app.getPath('userData'));
-
 @Injectable({
     providedIn: 'root'
 })

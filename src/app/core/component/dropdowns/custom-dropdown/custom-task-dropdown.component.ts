@@ -167,7 +167,6 @@ export class CustomTaskDropdownComponent {
         task.setCompletionFlag('N');
 
         // Find & Remove from data
-        console.log(task.id);
         delete this.customData.tasks[`x${task.id}`];
 
         // Generate new object reference so reload triggers

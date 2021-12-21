@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { IconModule } from '@component/icon/icon.module';
 import { SelectDropdownComponent } from './select-dropdown.component';
 
 @NgModule({
@@ -8,7 +9,9 @@ import { SelectDropdownComponent } from './select-dropdown.component';
         SelectDropdownComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+
+        IconModule
     ],
     exports: [
         SelectDropdownComponent

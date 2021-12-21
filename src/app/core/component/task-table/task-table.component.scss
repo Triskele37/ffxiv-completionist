@@ -1,3 +1,5 @@
+@import './colors';
+
 .task-table-container {
     display: flex;
     flex-direction: column;
@@ -20,4 +22,56 @@
 
     height: 100%;
     width: 100%;
+}
+
+::ng-deep .p-datatable {
+    //---------------------- Table Row ----------------------
+    tr {
+        cursor: pointer;
+
+        &:nth-child(even) {
+            background-color: $blue-3;
+        }
+
+        &.selected td:not(.noSelect) {
+            background-color: $state_selected;
+        }
+
+        &.selected:nth-child(even) td:not(.noSelect) {
+            background-color: $state_selected-2;
+        }
+    }
+
+    //---------------------- Table Cell ----------------------
+    th, td {
+        max-width: 25vw;
+
+        &.centered {
+            text-align: center;
+        }
+    }
+
+    //---------------------- Table Header ----------------------
+    th {
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+
+        background-color: $blue-2;
+        padding: 0 5px;
+        position: sticky;
+        top: 0;
+
+        cursor: context-menu;
+        user-select: none;
+
+        &:hover {
+            //background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    //---------------------- Table Data ----------------------
+    td {
+        white-space: normal;
+    }
 }

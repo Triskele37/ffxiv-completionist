@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-import { StoreService } from '../store/store.service';
-import { data } from '../../../data';
+import { data } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { StoreService } from '../store/store.service';
 import { MainMenu } from '../../../view/main-menu';
 
 @Injectable({

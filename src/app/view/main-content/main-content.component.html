@@ -5,27 +5,27 @@
     </div>
 
     <!----------- Custom Component Group ----------->
-    <template #customGroup>
+    <ng-template #customGroup>
         <div
             *ngIf="selectedGroup.component; else textGroup"
             class="custom-group-component"
         >
             <component v-bind:is="selectedGroup.component"></component>
         </div>
-    </template>
+    </ng-template>
 
-    <template #textGroup>
+    <ng-template #textGroup>
         <span *ngIf="selectedGroup.text; else tableGroup">
             {{selectedGroup.text}}
         </span>
-    </template>
+    </ng-template>
 
     <!----------- Summary & Task Table ----------->
-    <template #tableGroup>
-        <template *ngIf="!showAll">
+    <ng-template #tableGroup>
+        <ng-template *ngIf="!showAll">
             <div *ngIf="selectedGroup.subGroups" class="group-summary-section">
                 <xiv-summary-line
-                    *ngFor="let subGroup in selectedGroup.subGroups"
+                    *ngFor="let subGroup of selectedGroup.subGroups"
                     [group]="subGroup"
                 ></xiv-summary-line>
             </div>
@@ -38,9 +38,9 @@
                     {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
                 </button>
             </div>
-        </template>
+        </ng-template>
 
-        <template *ngIf="showAll">
+        <ng-template *ngIf="showAll">
             <div class="section-actions">
                 <button
                     class="xiv-button exit-all-button"
@@ -49,22 +49,22 @@
                     Exit All Task View
                 </button>
             </div>
-        </template>
+        </ng-template>
 
         <!----------- Task Tables (show all & base) ----------->
-        <template *ngIf="isShowAllVisible && showAll; else baseTable">
+        <ng-template *ngIf="isShowAllVisible && showAll; else baseTable">
             <xiv-show-all-section [group]="selectedGroup"></xiv-show-all-section>
-        </template>
+        </ng-template>
 
-        <template #baseTable>
+        <ng-template #baseTable>
             <xiv-task-table
                 *ngIf="selectedGroup.taskCount !== null"
                 [group]="selectedGroup"
                 [columnConfig]="selectedGroup.columnConfig"
                 [tasks]="selectedGroup.tasks"
             ></xiv-task-table>
-        </template>
-    </template>
+        </ng-template>
+    </ng-template>
 </div>
 
 <!--<div class="container">-->

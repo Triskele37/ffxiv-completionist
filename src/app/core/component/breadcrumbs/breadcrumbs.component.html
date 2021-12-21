@@ -1,6 +1,6 @@
 <div id="breadcrumbs">
     <span
-        *ngFor="let crumb in breadcrumbs; let i = index"
+        *ngFor="let crumb of breadcrumbs; let i = index"
         (click)="onClickCrumb(i)"
     >
         <span class="breadcrumb">{{crumb}}</span>

@@ -4,7 +4,7 @@
     (mouseleave)="dropdownOpen = false"
 >
     <div class="xiv-dropdown-arrow">
-        <icon name="plus" size="16"></icon>
+        <xiv-icon name="plus" size="16"></xiv-icon>
     </div>
     <div *ngIf="dropdownOpen && !mergingOpen" class="xiv-dropdown-body">
         <div class="xiv-dropdown-li new-task-dropdown-li">
@@ -64,15 +64,15 @@
         >
             Exit
         </button>
-        <template *ngIf="mergeMatches.length > 0">
+        <ng-template *ngIf="mergeMatches.length > 0">
             <button
-                *ngFor="let match in mergeMatches"
+                *ngFor="let match of mergeMatches"
                 class="xiv-dropdown-li"
                 (click)="confirmCurrentMerge(match)"
             >
                 {{match.path}}
             </button>
-        </template>
+        </ng-template>
     </div>
     <div
         class="auto-merge-modal"

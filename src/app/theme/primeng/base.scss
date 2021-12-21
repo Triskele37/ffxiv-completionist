@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.p-error {
+    color: #f44435;
+}
+
+.p-text-secondary {
+    color: var(--text-color-secondary);
+}
+
+.pi {
+    font-size: 1rem;
+}
+
+::-webkit-input-placeholder {
+    color: var(--text-color-secondary);
+}
+
+:-moz-placeholder {
+    color: var(--text-color-secondary);
+}
+
+::-moz-placeholder {
+    color: var(--text-color-secondary);
+}
+
+:-ms-input-placeholder {
+    color: var(--text-color-secondary);
+}

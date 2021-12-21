@@ -1,0 +1,12 @@
+
+.p-terminal {
+    background: var(--surface-a);
+    color: rgba(255, 255, 255, 0.87);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: var(--content-padding);
+}
+
+.p-terminal .p-terminal-input {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}

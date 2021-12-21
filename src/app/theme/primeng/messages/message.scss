@@ -1,0 +1,105 @@
+
+.p-message {
+    margin: var(--content-padding) 0;
+    border-radius: 4px;
+}
+
+.p-message .p-message-wrapper {
+    padding: 1.25rem 1.5rem;
+}
+
+.p-message .p-message-close {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: transparent;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.p-message .p-message-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.p-message .p-message-close:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.p-message.p-message-info {
+    background: #B3E5FC;
+    border: solid transparent;
+    border-width: 0 0 0 0;
+    color: #01579B;
+}
+
+.p-message.p-message-info .p-message-icon {
+    color: #01579B;
+}
+
+.p-message.p-message-info .p-message-close {
+    color: #01579B;
+}
+
+.p-message.p-message-success {
+    background: #C8E6C9;
+    border: solid transparent;
+    border-width: 0 0 0 0;
+    color: #1B5E20;
+}
+
+.p-message.p-message-success .p-message-icon {
+    color: #1B5E20;
+}
+
+.p-message.p-message-success .p-message-close {
+    color: #1B5E20;
+}
+
+.p-message.p-message-warn {
+    background: #FFECB3;
+    border: solid transparent;
+    border-width: 0 0 0 0;
+    color: #7f6003;
+}
+
+.p-message.p-message-warn .p-message-icon {
+    color: #7f6003;
+}
+
+.p-message.p-message-warn .p-message-close {
+    color: #7f6003;
+}
+
+.p-message.p-message-error {
+    background: #FFCDD2;
+    border: solid transparent;
+    border-width: 0 0 0 0;
+    color: #B71C1C;
+}
+
+.p-message.p-message-error .p-message-icon {
+    color: #B71C1C;
+}
+
+.p-message.p-message-error .p-message-close {
+    color: #B71C1C;
+}
+
+.p-message .p-message-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.p-message .p-message-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.p-message .p-message-summary {
+    font-weight: 700;
+}
+
+.p-message .p-message-detail {
+    margin-left: 0.5rem;
+}

@@ -1,32 +1,32 @@
 <tr class="task-table-header">
     <th class="completion-column">
-        <template *ngIf="!isNumericCompletion; else numericColumn">
+        <ng-template *ngIf="!isNumericCompletion; else numericColumn">
             <span (click)="onFilterCompletion('Y')">
-                <icon
+                <xiv-icon
                     [ngClass]="{ enabledFilter: filters.completion.completed }"
                     name="complete"
-                ></icon>
+                ></xiv-icon>
             </span>
             <span (click)="onFilterCompletion('N')">
-                <icon
+                <xiv-icon
                     [ngClass]="{ enabledFilter: filters.completion.incomplete }"
                     name="incomplete"
-                ></icon>
+                ></xiv-icon>
             </span>
             <br/>
             <span (click)="onFilterCompletion('X')">
-                <icon
+                <xiv-icon
                     [ngClass]="{ enabledFilter: filters.completion.excluded }"
                     name="exclude"
-                ></icon>
+                ></xiv-icon>
             </span>
-        </template>
-        <template #numericColumn>
+        </ng-template>
+        <ng-template #numericColumn>
             #
-        </template>
+        </ng-template>
     </th>
 
-    <th *ngFor="let column in columnConfig">
+    <th *ngFor="let column of columnConfig">
         <div class="column-search">
             <input
                 (keyup)="modifySearch($event, column)"
@@ -34,13 +34,13 @@
                 (keydown)="onDatalistClick($event)"
                 placeholder="..."
                 class="xiv-combo"
-                [list]="column.key"
                 type="search"
             />
+<!--            [list]="column.key"-->
             <datalist [id]="column.key" *ngIf="column.filterable">
                 <option>Blank</option>
                 <option
-                    *ngFor="let uniqueValue in uniqueValues[column.key]"
+                    *ngFor="let uniqueValue of uniqueValues[column.key]"
                 >
                     {{displayedFilterValue(uniqueValue)}}
                 </option>

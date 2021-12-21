@@ -5,14 +5,14 @@
     (mouseleave)="dropdownOpen = false"
 >
     <div class="xiv-dropdown-arrow">
-        <icon name="chain" size="16"></icon>
+        <xiv-icon name="chain" size="16"></xiv-icon>
     </div>
     <div
         class="xiv-dropdown-body"
         *ngIf="dropdownOpen"
     >
         <!-- Dropdown Content Body with Data -->
-        <template *ngIf="!!chainStart; else noInfo">
+        <ng-template *ngIf="!!chainStart; else noInfo">
             <!-- Undo Button -->
             <button
                 *ngIf="!disableUndo"
@@ -63,7 +63,7 @@
                     </div>
 
                     <!-- Group Content Items -->
-                    <template *ngFor="let item of task.value | keyvalue">
+                    <ng-template *ngFor="let item of task.value | keyvalue">
                         <button
                             *ngIf="task.key.show && !!item.value.task"
                             class="xiv-dropdown-li chained-task"
@@ -79,16 +79,16 @@
                             &nbsp;-&nbsp;
                             {{item.value.task.name}}
                         </button>
-                    </template>
+                    </ng-template>
                 </button>
             </div>
-        </template>
+        </ng-template>
 
         <!-- Dropdown Content Body with no Data -->
-        <template #noInfo>
+        <ng-template #noInfo>
             <button class="xiv-dropdown-li">
                 No chain information to display
             </button>
-        </template>
+        </ng-template>
     </div>
 </div>

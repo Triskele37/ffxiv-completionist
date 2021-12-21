@@ -31,7 +31,7 @@
                 <th>Group</th>
             </tr>
             <tr
-                *ngFor="let match in matches"
+                *ngFor="let match of matches"
                 (click)="onJumpToGroup(match)"
             >
                 <td>{{match.matchesString}}</td>

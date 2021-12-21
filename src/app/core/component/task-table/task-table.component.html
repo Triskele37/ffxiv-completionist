@@ -36,18 +36,26 @@
     </div>
 
     <div class="task-table-scroll-container" #taskTable>
-        <table class="xiv-table" *ngIf="hasTasks">
-            <xiv-header-row
-                (filterChange)="onFilterChange($event)"
-                [columnConfig]="columnConfig"
-                [uniqueValues]="uniqueValues"
-                [isNumericCompletion]="group.isNumericCompletion"
-            ></xiv-header-row>
-            <xiv-data-row
-                [columnConfig]="columnConfig"
-                [enableDrag]="group.draggable"
-                [tasks]="filteredTasks"
-            ></xiv-data-row>
-        </table>
+        <p-table
+            *ngIf="hasTasks"
+            styleClass="p-datatable-striped"
+            [value]="filteredTasksArr"
+        >
+            <ng-template pTemplate="header">
+                <xiv-header-row
+                    [columnConfig]="columnConfig"
+                    [uniqueValues]="uniqueValues"
+                    [isNumericCompletion]="group.isNumericCompletion"
+                    (filterChange)="onFilterChange($event)"
+                ></xiv-header-row>
+            </ng-template>
+            <ng-template pTemplate="body" let-task>
+                <xiv-data-row
+                    [columnConfig]="columnConfig"
+                    [enableDrag]="group.draggable"
+                    [task]="task"
+                ></xiv-data-row>
+            </ng-template>
+        </p-table>
     </div>
 </div>

@@ -1,49 +1,46 @@
-<tbody class="task-table-body">
-    <tr
-        *ngFor="let task of tasks"
-        [draggable]="enableDrag && !debounceDrag"
-        [ngClass]="{
-            selected: !!task.selected,
-            dropTarget: !!task.dropTarget
-        }"
-        (click)="onClick($event, task)"
-        (dragstart)="enableDrag && onRowDragStart(task)"
-        (dragover)="enableDrag && onRowDragOver($event, task)"
-        (dragleave)="enableDrag && onRowDragLeave($event, task)"
-        (drop)="enableDrag && onDragDrop(task)"
-    >
-        <template *ngIf="!task.isNumericCompletion; else numericCell">
-            <xiv-complete-cell
-                [task]="task"
-                [flag]="task.completionFlag"
-            ></xiv-complete-cell>
-        </template>
-        <template #numericCell>
-            <xiv-numeric-complete-cell
-                [task]="task"
-                [value]="task.completionFlag"
-            ></xiv-numeric-complete-cell>
-        </template>
-
-        <td
-            class="data-cell"
-            *ngFor="let column of columnConfig"
-            [ngClass]="{ centered: !!column.centered }"
-        >
-            <template *ngIf="column.editable && task.selected; else staticCell">
-                <xiv-edit-cell
-                    [taskKey]="column.key"
-                    [task]="task"
-                    (deselectTask)="onDeselectTask"
-                ></xiv-edit-cell>
-            </template>
-            <template #staticCell>
-                {{task[column.key]}}
-            </template>
-        </td>
-
-        <xiv-external-cell
+<tr
+    [draggable]="enableDrag && !debounceDrag"
+    [ngClass]="{
+        selected: !!task.selected,
+        dropTarget: !!task.dropTarget
+    }"
+    (click)="onClick($event)"
+    (dragstart)="enableDrag && onRowDragStart()"
+    (dragover)="enableDrag && onRowDragOver($event)"
+    (dragleave)="enableDrag && onRowDragLeave($event)"
+    (drop)="enableDrag && onDragDrop()"
+>
+    <ng-template *ngIf="!task.isNumericCompletion; else numericCell">
+        <xiv-complete-cell
             [task]="task"
-        ></xiv-external-cell>
-    </tr>
-</tbody>
+            [flag]="task.completionFlag"
+        ></xiv-complete-cell>
+    </ng-template>
+    <ng-template #numericCell>
+        <xiv-numeric-complete-cell
+            [task]="task"
+            [value]="task.completionFlag"
+        ></xiv-numeric-complete-cell>
+    </ng-template>
+
+    <td
+        class="data-cell"
+        *ngFor="let column of columnConfig"
+        [ngClass]="{ centered: !!column.centered }"
+    >
+        <ng-template *ngIf="column.editable && task.selected; else staticCell">
+            <xiv-edit-cell
+                [taskKey]="column.key"
+                [task]="task"
+                (deselectTask)="onDeselectTask"
+            ></xiv-edit-cell>
+        </ng-template>
+        <ng-template #staticCell>
+            {{task[column.key]}}
+        </ng-template>
+    </td>
+
+    <xiv-external-cell
+        [task]="task"
+    ></xiv-external-cell>
+</tr>

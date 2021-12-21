@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TableModule } from 'primeng/table';
 
 import { ChainDropdownModule } from '../dropdowns/chain-dropdown/chain-dropdown.module';
 import { CustomTaskDropdownModule } from '../dropdowns/custom-dropdown/custom-task-dropdown.module';
@@ -14,6 +16,9 @@ import { TaskTableComponent } from './task-table.component';
         TaskTableComponent,
     ],
     imports: [
+        CommonModule,
+        TableModule,
+
         ChainDropdownModule,
         CustomTaskDropdownModule,
         QuickMarkDropdownModule,

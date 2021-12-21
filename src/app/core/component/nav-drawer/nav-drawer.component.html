@@ -8,7 +8,7 @@
 
     <!---------------------- Data Nav ---------------------->
     <xiv-nav-group
-        *ngFor="let subGroup in allData.subGroups"
+        *ngFor="let subGroup of allData.subGroups"
         [show]="true"
         [degree]="1"
         [group]="subGroup"
