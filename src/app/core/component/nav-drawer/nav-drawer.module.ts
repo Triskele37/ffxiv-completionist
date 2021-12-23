@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PanelMenuModule } from 'primeng/panelmenu';
+import { SlideMenuModule } from 'primeng/slidemenu';
 
 import { NavDrawerComponent } from './nav-drawer.component';
-import { NavGroupComponent } from './nav-group/nav-group.component';
 
 @NgModule({
     declarations: [
-        NavDrawerComponent,
-        NavGroupComponent
+        NavDrawerComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        PanelMenuModule,
+        SlideMenuModule
     ],
     exports: [
         NavDrawerComponent

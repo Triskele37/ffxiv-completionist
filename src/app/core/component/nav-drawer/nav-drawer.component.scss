@@ -1,11 +1,22 @@
-@import 'src/styles/colors';
-
 #nav-drawer {
-    background-color: $blue-3;
     display: inline-block;
 
     height: 100%;
     width: 250px;
 
     overflow-x: hidden;
+
+    ::ng-deep {
+        .p-panelmenu {
+            .p-panelmenu-panel,
+            .p-panelmenu-panel .p-panelmenu-header > a {
+                border-radius: 0;
+            }
+
+            .p-panelmenu-header-link,
+            .p-menuitem-link {
+                padding: 5px;
+            }
+        }
+    }
 }
