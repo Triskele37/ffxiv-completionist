@@ -4,7 +4,7 @@
     display: inline-block;
     height: 15px;
     width: 15px;
-    background-color: $state_excluded;
+    background-color: var(--excluded);
     border-radius: 50%;
     margin-bottom: -3px;
 
@@ -14,11 +14,11 @@
     }
 
     &.success {
-        background-color: $state_completed;
+        background-color: var(--completed);
     }
 
     &.failure {
-        background-color: $state_incomplete;
+        background-color: var(--incomplete);
     }
 }
 

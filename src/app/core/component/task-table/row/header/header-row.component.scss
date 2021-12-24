@@ -1,12 +1,17 @@
 :host {
-    display: table-row;
+    display: contents;
 
     .task-table-header {
-        .completion-column span {
-            cursor: pointer;
+        .completion-column {
+            text-align: center;
+            vertical-align: middle;
 
-            .enabledFilter {
-                filter: drop-shadow(2px 2px 0px black);
+            span {
+                cursor: pointer;
+
+                .enabledFilter {
+                    filter: drop-shadow(2px 2px 0px black);
+                }
             }
         }
 
@@ -22,6 +27,10 @@
                     background-color: rgba(0, 0, 0, 0.1);
                 }
             }
+        }
+
+        th {
+            z-index: 2;
         }
     }
 }

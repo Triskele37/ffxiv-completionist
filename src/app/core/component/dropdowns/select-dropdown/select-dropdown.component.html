@@ -1,21 +1,27 @@
-<p-button
-    icon="material-icons mi-touch-app"
+<span
+    #container
     (mouseenter)="overlayPanel.show($event)"
-></p-button>
+    (mouseleave)="overlayPanel.hide()"
+>
+    <p-button styleClass="p-button-sm" icon="material-icons mi-touch-app"></p-button>
 
-<p-overlayPanel #overlayPanel styleClass="overlay-dropdown">
-    <span
-        class="option-container"
-        (mouseleave)="overlayPanel.hide()"
+    <p-overlayPanel
+        #overlayPanel
+        styleClass="overlay-dropdown"
+        [appendTo]="container"
     >
-        <p-button [disabled]="true">Selection Actions Menu</p-button>
-        <p-button (click)="onSelectChange(true)">Select All Tasks</p-button>
-        <p-button (click)="onSelectChange(false)">Deselect All Tasks</p-button>
-        <p-button (click)="onSelectChange(null)">Invert Selection</p-button>
+        <span
+            class="option-container"
+        >
+            <p-button [disabled]="true">Selection Actions Menu</p-button>
+            <p-button (click)="onSelectChange(true)">Select All Tasks</p-button>
+            <p-button (click)="onSelectChange(false)">Deselect All Tasks</p-button>
+            <p-button (click)="onSelectChange(null)">Invert Selection</p-button>
 
-        <ng-template *ngIf="group.isCraftingLogGroup">
-            <p-button (click)="openInGarland()">Open Selected Recipes in Garland Tools</p-button>
-            <p-button (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</p-button>
-        </ng-template>
-    </span>
-</p-overlayPanel>
+            <ng-template *ngIf="group.isCraftingLogGroup">
+                <p-button (click)="openInGarland()">Open Selected Recipes in Garland Tools</p-button>
+                <p-button (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</p-button>
+            </ng-template>
+        </span>
+    </p-overlayPanel>
+</span>

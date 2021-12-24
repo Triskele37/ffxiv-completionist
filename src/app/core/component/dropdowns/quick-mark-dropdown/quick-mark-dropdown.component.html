@@ -1,59 +1,63 @@
-<p-button
-    icon="material-icons mi-rule"
+<span
+    #container
     (mouseenter)="overlayPanel.show($event)"
-></p-button>
+    (mouseleave)="overlayPanel.hide()"
+>
+    <p-button styleClass="p-button-sm" icon="material-icons mi-rule"></p-button>
 
-<p-overlayPanel #overlayPanel styleClass="overlay-dropdown">
-    <span
-        class="option-container"
-        (mouseleave)="overlayPanel.hide()"
+    <p-overlayPanel
+        #overlayPanel
+        styleClass="overlay-dropdown"
+        [appendTo]="container"
     >
-        <p-button
-            [disabled]="lastChanged.length === 0"
-            (click)="onUndoLastChange()"
-        >
-            <ng-template *ngIf="lastChanged.length; else noUndo">
-                Undo Last Quick-Mark
-            </ng-template>
-            <ng-template #noUndo>
-                Quick-Mark Menu
-            </ng-template>
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('N', 'Y')">
-            (<i class="i-incomplete"></i>  <i class="i-arrow"></i> <i class="i-complete"></i>)
-            Mark Incomplete as Complete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('N', 'X')">
-            (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-            Mark Incomplete as Excluded
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('Y', 'N')">
-            (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-            Mark Complete as Incomplete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('Y', 'X')">
-            (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-            Mark Complete as Excluded
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('X', 'N')">
-            (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-            Mark Excluded as Incomplete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('X', 'Y')">
-            (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-            Mark Excluded as Complete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('$', 'Y')">
-            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-            Mark Selected as Complete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('$', 'N')">
-            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-            Mark Selected as Incomplete
-        </p-button>
-        <p-button (click)="onChangeTaskCompletion('$', 'X')">
-            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-            Mark Selected as Excluded
-        </p-button>
-    </span>
-</p-overlayPanel>
+        <span class="option-container">
+            <p-button
+                [disabled]="lastChanged.length === 0"
+                (click)="onUndoLastChange()"
+            >
+                <ng-container *ngIf="lastChanged.length; else noUndo">
+                    Undo Last Quick-Mark
+                </ng-container>
+                <ng-template #noUndo>
+                    Quick-Mark Menu
+                </ng-template>
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('N', 'Y')">
+                (<i class="i-incomplete"></i>  <i class="i-arrow"></i> <i class="i-complete"></i>)
+                Mark Incomplete as Complete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('N', 'X')">
+                (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
+                Mark Incomplete as Excluded
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('Y', 'N')">
+                (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
+                Mark Complete as Incomplete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('Y', 'X')">
+                (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
+                Mark Complete as Excluded
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('X', 'N')">
+                (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
+                Mark Excluded as Incomplete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('X', 'Y')">
+                (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
+                Mark Excluded as Complete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('$', 'Y')">
+                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
+                Mark Selected as Complete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('$', 'N')">
+                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
+                Mark Selected as Incomplete
+            </p-button>
+            <p-button (click)="onChangeTaskCompletion('$', 'X')">
+                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
+                Mark Selected as Excluded
+            </p-button>
+        </span>
+    </p-overlayPanel>
+</span>

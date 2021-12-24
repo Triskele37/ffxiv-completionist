@@ -39,6 +39,8 @@ export class DataGroup extends Countable(Configable(Taskable(Groupable(BaseGroup
             this._columnConfig = columnConfig;
         }
 
+        this.isNumericCompletion = !!json.isNumericCompletion;
+
         // Chain inheritance
         if(json.cCombo) this.cCombo = json.cCombo;
 

@@ -1,9 +1,8 @@
 :host {
-    display: table-row;
-    width: 100%;
+    display: contents;
 
-    tr {
-        width: 100%;
+    .data-cell {
+        vertical-align: middle;
     }
 
     tr[draggable="true"] {

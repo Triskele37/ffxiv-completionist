@@ -38,7 +38,7 @@
     transition: none;
 }
 
-.p-treetable .p-treetable-tfoot > tr > td {
+.p-treetable .p-treetable-tfoot > tr td {
     text-align: left;
     padding: var(--content-padding) var(--content-padding);
     border: 1px solid 3404040;
@@ -92,14 +92,14 @@
     outline-color: transparent;
 }
 
-.p-treetable .p-treetable-tbody > tr > td {
+.p-treetable .p-treetable-tbody > tr td {
     text-align: left;
     border: 1px solid #404040;
     border-width: 0 0 1px 0;
     padding: var(--content-padding) var(--content-padding);
 }
 
-.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler {
+.p-treetable .p-treetable-tbody > tr td .p-treetable-toggler {
     width: 2.5rem;
     height: 2.5rem;
     color: rgba(255, 255, 255, 0.6);
@@ -110,23 +110,23 @@
     margin-right: 0.5rem;
 }
 
-.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover {
+.p-treetable .p-treetable-tbody > tr td .p-treetable-toggler:enabled:hover {
     color: rgba(255, 255, 255, 0.6);
     border-color: transparent;
     background: rgba(255, 255, 255, 0.04);
 }
 
-.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:focus {
+.p-treetable .p-treetable-tbody > tr td .p-treetable-toggler:focus {
     outline: 0 none;
     outline-offset: 0;
     box-shadow: none;
 }
 
-.p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox {
+.p-treetable .p-treetable-tbody > tr td p-treetablecheckbox .p-checkbox {
     margin-right: 0.5rem;
 }
 
-.p-treetable .p-treetable-tbody > tr > td p-treetablecheckbox .p-checkbox .p-indeterminate .p-checkbox-icon {
+.p-treetable .p-treetable-tbody > tr td p-treetablecheckbox .p-checkbox .p-indeterminate .p-checkbox-icon {
     color: rgba(255, 255, 255, 0.87);
 }
 
@@ -185,11 +185,11 @@
     border-width: 1px;
 }
 
-.p-treetable.p-treetable-gridlines .p-treetable-tbody > tr > td {
+.p-treetable.p-treetable-gridlines .p-treetable-tbody > tr td {
     border-width: 1px;
 }
 
-.p-treetable.p-treetable-gridlines .p-treetable-tfoot > tr > td {
+.p-treetable.p-treetable-gridlines .p-treetable-tfoot > tr td {
     border-width: 1px;
 }
 
@@ -201,11 +201,11 @@
     padding: 0.5rem 0.5rem;
 }
 
-.p-treetable.p-treetable-sm .p-treetable-tbody > tr > td {
+.p-treetable.p-treetable-sm .p-treetable-tbody > tr td {
     padding: 0.5rem 0.5rem;
 }
 
-.p-treetable.p-treetable-sm .p-treetable-tfoot > tr > td {
+.p-treetable.p-treetable-sm .p-treetable-tfoot > tr td {
     padding: 0.5rem 0.5rem;
 }
 
@@ -221,11 +221,11 @@
     padding: 1.25rem 1.25rem;
 }
 
-.p-treetable.p-treetable-lg .p-treetable-tbody > tr > td {
+.p-treetable.p-treetable-lg .p-treetable-tbody > tr td {
     padding: 1.25rem 1.25rem;
 }
 
-.p-treetable.p-treetable-lg .p-treetable-tfoot > tr > td {
+.p-treetable.p-treetable-lg .p-treetable-tfoot > tr td {
     padding: 1.25rem 1.25rem;
 }
 

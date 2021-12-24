@@ -1,15 +1,26 @@
 import { Component, Input } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 import { Task } from '@domain/Task';
 import { ElectronService } from '@service/electron/electron.service';
 
 @Component({
-    selector: 'xiv-external-cell',
-    templateUrl: './external-cell.component.html',
-    styleUrls: ['./external-cell.component.scss']
+    selector: 'xiv-actions-cell',
+    templateUrl: './actions-cell.component.html',
+    styleUrls: ['./actions-cell.component.scss']
 })
-export class ExternalCellComponent {
+export class ActionsCellComponent {
     @Input() task: Task;
+
+    items: MenuItem[] = [{
+        tooltipOptions: { tooltipLabel: 'Gamer Escape', tooltipPosition: 'top' },
+        icon: 'gamer-icon',
+        command: () => this.gotoGamerEscape()
+    }, {
+        tooltipOptions: { tooltipLabel: 'Garland Tools', tooltipPosition: 'top' },
+        icon: 'garland-icon',
+        command: () => this.gotoGarlandTools()
+    }];
 
     gotoGamerEscape() {
         let name = this.task.name.replace(/ /g, '_');

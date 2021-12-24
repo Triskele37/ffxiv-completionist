@@ -1,35 +1,31 @@
 <div *ngIf="!!columnConfig" class="task-table-container">
     <div class="task-table-toolbar">
-        <span *ngIf="hasTasks && !group.isNumericCompletion">
-            <xiv-quick-mark-dropdown
-                [filteredTasks]="filteredTasks"
-            ></xiv-quick-mark-dropdown>
-        </span>
+        <xiv-quick-mark-dropdown
+            *ngIf="hasTasks && !group.isNumericCompletion"
+            [filteredTasks]="filteredTasks"
+        ></xiv-quick-mark-dropdown>
 
-        <span *ngIf="hasTasks && !group.isNumericCompletion">
-            <xiv-select-dropdown
-                [group]="group"
-                [filteredTasks]="filteredTasks"
-                (selectChange)="onSelectChange()"
-            ></xiv-select-dropdown>
-        </span>
+        <xiv-select-dropdown
+            *ngIf="hasTasks && !group.isNumericCompletion"
+            [group]="group"
+            [filteredTasks]="filteredTasks"
+            (selectChange)="onSelectChange()"
+        ></xiv-select-dropdown>
 
-        <span *ngIf="hasTasks">
-            <xiv-chain-dropdown
-                [disableUndo]="group.isCustomGroup"
-            ></xiv-chain-dropdown>
-        </span>
+        <xiv-chain-dropdown
+            *ngIf="hasTasks"
+            [disableUndo]="group.isCustomGroup"
+        ></xiv-chain-dropdown>
 
-        <span *ngIf="group.isCustomGroup">
-            <xiv-custom-task-dropdown
-                [filteredTasks]="filteredTasks"
-            ></xiv-custom-task-dropdown>
-        </span>
+        <xiv-custom-task-dropdown
+            *ngIf="group.isCustomGroup"
+            [filteredTasks]="filteredTasks"
+        ></xiv-custom-task-dropdown>
 
         <span
             *ngIf="hasTasks"
             class="row-count"
-            [title]="(totalTasks - displayedTasks) + ' Hidden'"
+            [pTooltip]="(totalTasks - displayedTasks) + ' Hidden'"
         >
             {{displayedTasks}} Rows displayed
         </span>

@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewChild } from '@angular/core';
+import { OverlayPanel } from 'primeng/overlaypanel';
 
 import { data } from '@data';
 import { Task } from '@domain/Task';
@@ -9,21 +10,25 @@ import { StoreService } from '@service/store/store.service';
 @Component({
     selector: 'xiv-custom-task-dropdown',
     templateUrl: './custom-task-dropdown.component.html',
-    styleUrls: ['./custom-task-dropdown.component.scss']
+    styleUrls: [
+        '../dropdown.scss',
+        './custom-task-dropdown.component.scss'
+    ]
 })
 export class CustomTaskDropdownComponent {
     @Input() filteredTasks: { [key: string]: Task };
 
-    customData;
-    dropdownOpen = false;
-    newTaskName = '';
-    newTaskNotes = '';
+    @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
+    @ViewChild('mergeOverlayPanel') mergeOverlayPanel: OverlayPanel;
 
-    mergingOpen = false;
-    autoMerge = false;
-    mergeFirstInChain = false;
-    mergeIndex = 0;
-    mergeInfo = '';
+    customData;
+    newTaskName: string = '';
+    newTaskNotes: string = '';
+
+    autoMerge: boolean = false;
+    mergeFirstInChain: boolean = false;
+    mergeIndex: number = 0;
+    mergeInfo: string = '';
     mergeMatches = [];
     mergeTask: Task = {} as Task;
     tasksToRemove = [];
@@ -68,8 +73,8 @@ export class CustomTaskDropdownComponent {
         if(this.customData.taskCount < 1) return;
 
         // Replace dropdown with merge window
-        this.mergingOpen = true;
-        this.dropdownOpen = false;
+        this.overlayPanel.hide();
+        this.mergeOverlayPanel.show(null);
 
         // Search for matches and filter out the matching itself
         this.mergeTask = this.customData.getTaskAtIndex(this.mergeIndex);
@@ -147,7 +152,7 @@ export class CustomTaskDropdownComponent {
     }
 
     exitMerge() {
-        this.mergingOpen = false;
+        this.mergeOverlayPanel.hide();
         this.mergeIndex = 0;
         this.svcStore.applyDataToStore();
         this.syncCustomStore();

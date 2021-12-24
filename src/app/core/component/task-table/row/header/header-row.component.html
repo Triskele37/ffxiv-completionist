@@ -1,6 +1,6 @@
 <tr class="task-table-header">
     <th class="completion-column">
-        <ng-template *ngIf="!isNumericCompletion; else numericColumn">
+        <ng-container *ngIf="!isNumericCompletion; else numericColumn">
             <span (click)="onFilterCompletion('Y')">
                 <xiv-icon
                     [ngClass]="{ enabledFilter: filters.completion.completed }"
@@ -20,7 +20,7 @@
                     name="exclude"
                 ></xiv-icon>
             </span>
-        </ng-template>
+        </ng-container>
         <ng-template #numericColumn>
             #
         </ng-template>
@@ -51,5 +51,5 @@
         </div>
     </th>
 
-    <th>Links</th>
+    <th></th>
 </tr>

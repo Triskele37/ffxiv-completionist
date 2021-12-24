@@ -10,12 +10,12 @@
     (dragleave)="enableDrag && onRowDragLeave($event)"
     (drop)="enableDrag && onDragDrop()"
 >
-    <ng-template *ngIf="!task.isNumericCompletion; else numericCell">
+    <ng-container *ngIf="!task.isNumericCompletion; else numericCell">
         <xiv-complete-cell
             [task]="task"
             [flag]="task.completionFlag"
         ></xiv-complete-cell>
-    </ng-template>
+    </ng-container>
     <ng-template #numericCell>
         <xiv-numeric-complete-cell
             [task]="task"
@@ -28,19 +28,19 @@
         *ngFor="let column of columnConfig"
         [ngClass]="{ centered: !!column.centered }"
     >
-        <ng-template *ngIf="column.editable && task.selected; else staticCell">
+        <ng-container *ngIf="column.editable && task.selected; else staticCell">
             <xiv-edit-cell
                 [taskKey]="column.key"
                 [task]="task"
                 (deselectTask)="onDeselectTask"
             ></xiv-edit-cell>
-        </ng-template>
+        </ng-container>
         <ng-template #staticCell>
             {{task[column.key]}}
         </ng-template>
     </td>
 
-    <xiv-external-cell
+    <xiv-actions-cell
         [task]="task"
-    ></xiv-external-cell>
+    ></xiv-actions-cell>
 </tr>

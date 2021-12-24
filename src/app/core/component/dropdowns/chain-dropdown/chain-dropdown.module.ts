@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
+import { TooltipModule } from 'primeng/tooltip';
 
-import { IconModule } from '@component/icon/icon.module';
 import { ChainDropdownComponent } from './chain-dropdown.component';
 
 @NgModule({
@@ -10,8 +12,9 @@ import { ChainDropdownComponent } from './chain-dropdown.component';
     ],
     imports: [
         CommonModule,
-
-        IconModule
+        ButtonModule,
+        OverlayPanelModule,
+        TooltipModule
     ],
     exports: [
         ChainDropdownComponent

@@ -1,8 +1,17 @@
 ::ng-deep .overlay-dropdown {
+    margin-top: 0 !important;
+
+    &::before, &::after {
+        content: none !important;
+    }
+
     .p-overlaypanel-content {
-        display: flex;
-        flex-direction: column;
         padding: 0;
+
+        .option-container {
+            display: flex;
+            flex-direction: column;
+        }
 
         p-button {
             &:first-child .p-button {

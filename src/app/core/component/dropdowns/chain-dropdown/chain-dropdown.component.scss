@@ -47,10 +47,10 @@
         padding: 3px;
     }
 
-    .Y { background-color: $state_completed; }
-    .N { background-color: $state_incomplete; }
+    .Y { background-color: var(--completed); }
+    .N { background-color: var(--incomplete); }
     .X {
-        background-color: $state_excluded;
+        background-color: var(--excluded);
         color: black;
     }
 }

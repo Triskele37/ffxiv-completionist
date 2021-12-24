@@ -8,7 +8,10 @@ import { ChainedTasks } from '@service/chain/types';
 @Component({
     selector: 'xiv-chain-dropdown',
     templateUrl: './chain-dropdown.component.html',
-    styleUrls: ['./chain-dropdown.component.scss']
+    styleUrls: [
+        '../dropdown.scss',
+        './chain-dropdown.component.scss'
+    ]
 })
 export class ChainDropdownComponent implements OnInit {
     @Input() disableUndo: boolean;

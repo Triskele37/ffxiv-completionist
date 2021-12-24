@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 
-import { CompleteCellComponent } from './complete/complete-cell.component';
-import { EditCellComponent } from './edit/edit-cell.component';
-import { ExternalCellComponent } from './external/external-cell.component';
-import { NumericCompleteCellComponent } from './numeric-complete/numeric-complete-cell.component';
+import { CompleteCellModule } from './complete/complete-cell.module';
+import { EditCellModule } from './edit/edit-cell.module';
+import { ActionsCellModule } from './actions/actions-cell.module';
+import { NumericCompleteCellModule } from './numeric-complete/numeric-complete-cell.module';
 
 @NgModule({
-    declarations: [
-        CompleteCellComponent,
-        EditCellComponent,
-        ExternalCellComponent,
-        NumericCompleteCellComponent,
+    imports: [
+        CompleteCellModule,
+        EditCellModule,
+        ActionsCellModule,
+        NumericCompleteCellModule,
     ],
     exports: [
-        CompleteCellComponent,
-        EditCellComponent,
-        ExternalCellComponent,
-        NumericCompleteCellComponent,
+        CompleteCellModule,
+        EditCellModule,
+        ActionsCellModule,
+        NumericCompleteCellModule,
     ]
 })
 export class CellModule {

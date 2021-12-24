@@ -26,6 +26,8 @@ export class BreadcrumbsComponent implements OnInit {
     }
 
     onItemClick($event) {
-        this.svcNavigation.popCrumbsUntil($event.item.data.index);
+        if($event.item.label !== this.items[0].label) {
+            this.svcNavigation.popCrumbsUntil($event.item.data.index);
+        }
     }
 }

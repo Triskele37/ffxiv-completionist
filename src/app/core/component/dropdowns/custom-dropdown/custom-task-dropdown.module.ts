@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { IconModule } from '@component/icon/icon.module';
 import { CustomTaskDropdownComponent } from './custom-task-dropdown.component';
 
 @NgModule({
@@ -12,8 +14,9 @@ import { CustomTaskDropdownComponent } from './custom-task-dropdown.component';
     imports: [
         CommonModule,
         FormsModule,
-
-        IconModule
+        ButtonModule,
+        InputTextModule,
+        OverlayPanelModule
     ],
     exports: [
         CustomTaskDropdownComponent

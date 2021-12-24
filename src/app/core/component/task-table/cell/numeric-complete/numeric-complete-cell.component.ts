@@ -65,8 +65,5 @@ export class NumericCompleteCellComponent implements OnChanges {
         // Update the new value
         this.task.changeCompletionNumber(newValue, true);
         this.svcStore.pStore.set(this.task.fullStorageKey, newValue.toString());
-
-        // Force validation changes to update the UI
-        //TODO this.$forceUpdate();
     }
 }

@@ -1,7 +1,7 @@
 @import 'src/styles/colors';
 
 .summary-line {
-    background-color: $state_incomplete;
+    background-color: var(--incomplete);
     position: relative;
     margin: 5px 10px;
 
@@ -45,7 +45,7 @@
     }
 
     .progress-line {
-        background-color: $state_completed;
+        background-color: var(--completed);
         display: inline-block;
         position: relative;
         height: 100%;

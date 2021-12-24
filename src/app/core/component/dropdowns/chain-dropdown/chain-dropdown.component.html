@@ -1,94 +1,93 @@
-<div
-    class="chain-dropdown action-dropdown-container"
-    [ngClass]="{ 'do-notify': doNotify }"
-    (mouseenter)="dropdownOpen = true; doNotify = false;"
-    (mouseleave)="dropdownOpen = false"
+<span
+    #container
+    (mouseenter)="overlayPanel.show($event); doNotify = false;"
+    (mouseleave)="overlayPanel.hide()"
 >
-    <div class="xiv-dropdown-arrow">
-        <xiv-icon name="chain" size="16"></xiv-icon>
-    </div>
-    <div
-        class="xiv-dropdown-body"
-        *ngIf="dropdownOpen"
+    <p-button
+        styleClass="p-button-sm"
+        icon="material-icons mi-link"
+        [ngClass]="{ 'do-notify': doNotify }"
+    ></p-button>
+
+    <p-overlayPanel
+        #overlayPanel
+        styleClass="overlay-dropdown"
+        [appendTo]="container"
     >
-        <!-- Dropdown Content Body with Data -->
-        <ng-template *ngIf="!!chainStart; else noInfo">
-            <!-- Undo Button -->
-            <button
-                *ngIf="!disableUndo"
-                (click)="onUndoLastChain()"
-                class="xiv-dropdown-li"
-            >
-                {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
-            </button>
-
-            <!-- Recent Action Info -->
-            <div
-                class="xiv-dropdown-li"
-                (click)="onNavigateToGroup(chainStart.path)"
-                title="Navigate to this group"
-            >
-                {{chainStart.path}}
-                <br/>
-                Marking "{{chainStart.task.name}}" as
-                "<span [ngClass]="[chainStart.toFlag]">
-                    {{chainStart.toFlag}}
-                </span>" chained to {{chainedTaskCount}} other items
-                <span class="group-nav-arrow arrows-adjust">
-                    &#8614;
-                </span>
-            </div>
-
-            <!-- Dropdown Content Scroller -->
-            <div class="chain-scroll-container">
-                <button
-                    class="xiv-dropdown-li"
-                    *ngFor="let task of chainedTasks | keyvalue"
+        <span class="option-container">
+            <!-- Dropdown Content Body with Data -->
+            <ng-container *ngIf="!!chainStart; else noInfo">
+                <!-- Undo Button -->
+                <p-button
+                    *ngIf="!disableUndo"
+                    (click)="onUndoLastChain()"
                 >
-                    <!-- Group Content Header -->
-                    <div>
-                        <span
-                            (click)="onToggleShowChainedGroup(task.key)"
-                            title="Toggle this group's visibility"
-                        >
-                            {{task.value.path.replace('Overall > ', '')}} ({{groupChainLength(task.key)}})
-                        </span>
-                        <span
-                            (click)="onNavigateToGroup(task.value.path)"
-                            title="Navigate to this group"
-                            class="group-nav-arrow"
-                        >
-                            &#8614;
-                        </span>
-                    </div>
+                    {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
+                </p-button>
 
-                    <!-- Group Content Items -->
-                    <ng-template *ngFor="let item of task.value | keyvalue">
-                        <button
-                            *ngIf="task.key.show && !!item.value.task"
-                            class="xiv-dropdown-li chained-task"
-                            disabled
-                        >
-                            <span [ngClass]="[item.value.fromFlag]">
-                                {{item.value.fromFlag}}
-                            </span>
-                            &nbsp;>&nbsp;
-                            <span [ngClass]="[item.value.task.completionFlag]">
-                                {{item.value.task.completionFlag}}
-                            </span>
-                            &nbsp;-&nbsp;
-                            {{item.value.task.name}}
-                        </button>
-                    </ng-template>
-                </button>
-            </div>
-        </ng-template>
+                <!-- Recent Action Info -->
+                <div
+                    pTooltip="Navigate to this group"
+                    (click)="onNavigateToGroup(chainStart.path)"
+                >
+                    {{chainStart.path}}
+                    <br/>
 
-        <!-- Dropdown Content Body with no Data -->
-        <ng-template #noInfo>
-            <button class="xiv-dropdown-li">
-                No chain information to display
-            </button>
-        </ng-template>
-    </div>
-</div>
+                    Marking "{{chainStart.task.name}}"&nbsp;
+                    as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
+                    chained to {{chainedTaskCount}} other items
+
+                    <span class="group-nav-arrow arrows-adjust">&#8614;</span>
+                </div>
+
+                <!-- Dropdown Content Scroller -->
+                <div class="chain-scroll-container">
+                    <p-button *ngFor="let task of chainedTasks | keyvalue">
+                        <!-- Group Content Header -->
+                        <div>
+                            <span
+                                pTooltip="Toggle this group's visibility"
+                                (click)="onToggleShowChainedGroup(task.key)"
+                            >
+                                {{task.value.path.replace('Overall > ', '')}} ({{groupChainLength(task.key)}})
+                            </span>
+                            <span
+                                class="group-nav-arrow"
+                                pTooltip="Navigate to this group"
+                                (click)="onNavigateToGroup(task.value.path)"
+                            >
+                                &#8614;
+                            </span>
+                        </div>
+
+                        <!-- Group Content Items -->
+                        <ng-container *ngFor="let item of task.value | keyvalue">
+                            <p-button
+                                *ngIf="task.key.show && !!item.value.task"
+                                class="xiv-dropdown-li chained-task"
+                                [disabled]="true"
+                            >
+                                <span [ngClass]="[item.value.fromFlag]">
+                                    {{item.value.fromFlag}}
+                                </span>
+                                &nbsp;>&nbsp;
+                                <span [ngClass]="[item.value.task.completionFlag]">
+                                    {{item.value.task.completionFlag}}
+                                </span>
+                                &nbsp;-&nbsp;
+                                {{item.value.task.name}}
+                            </p-button>
+                        </ng-container>
+                    </p-button>
+                </div>
+            </ng-container>
+
+            <!-- Dropdown Content Body with no Data -->
+            <ng-template #noInfo>
+                <p-button>
+                    No chain information to display
+                </p-button>
+            </ng-template>
+        </span>
+    </p-overlayPanel>
+</span>

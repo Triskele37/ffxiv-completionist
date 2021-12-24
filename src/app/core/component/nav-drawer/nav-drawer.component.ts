@@ -18,12 +18,19 @@ export class NavDrawerComponent implements OnInit {
     }
 
     ngOnInit() {
+        // Build the initial menu items
         data.subGroups.forEach((group) => this.items.push(this.addSubGroup(group)));
+
+        // Expand to the saved selected group
+        this.expandItems(this.items, this.svcNavigation.selectedGroup$.value.groupPath.slice(1));
 
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
-            this.collapseItems(this.items, group.groupPath.slice(1));
-            this.items = [...this.items];
+            const path = group.groupPath;
+            if(path) {
+                this.collapseItems(this.items, path.slice(1));
+                this.items = [...this.items];
+            }
         });
     }
 
@@ -44,6 +51,16 @@ export class NavDrawerComponent implements OnInit {
         items.forEach((menuItem) => {
             if(menuItem.label !== name) menuItem.expanded = false;
             if(menuItem.items) this.collapseItems(menuItem.items, [...path]);
+        });
+    }
+
+    private expandItems(items: MenuItem[], path: string[]): void {
+        const name = path.shift();
+        items.forEach((menuItem) => {
+            if(menuItem.label === name) {
+                menuItem.expanded = true;
+                if(path.length) this.expandItems(menuItem.items, [...path]);
+            }
         });
     }
 }

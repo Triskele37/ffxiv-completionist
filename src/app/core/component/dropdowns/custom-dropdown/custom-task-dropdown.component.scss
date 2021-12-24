@@ -1,4 +1,8 @@
-.add-custom-task-container {
+.custom-task-dropdown-container {
+    .option-container {
+        width: 300px;
+    }
+
     .auto-merge-modal {
         background-color: black;
         position: absolute;
@@ -10,15 +14,15 @@
         top: 0;
     }
 
-    .new-task-dropdown-li {
+    .task-property-input {
         padding: 5px 0;
+
+        input {
+            width: 100%;
+        }
     }
 
     .merge-custom-tasks-dropdown-item {
         width: unset;
-    }
-
-    .xiv-input {
-        width: 300px;
     }
 }

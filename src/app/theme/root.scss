@@ -48,6 +48,12 @@
 
     --maskbg: rgba(0, 0, 0, 0.32);
     --focus-ring: none;
+
+    --selected: #b86132;
+    --selected-2: #75330f;
+    --incomplete: #75190f;
+    --completed: #0f7538;
+    --excluded: #aaa;
 }
 
 :root {
