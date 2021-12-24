@@ -1,0 +1,47 @@
+@import '~material-icons/iconfont/material-icons';
+@import '~material-icons/css/material-icons.css';
+
+.i-complete {
+    @extend .material-icons;
+    color: green;
+
+    &::before {
+        content: "\e5ca"; // .mi-check
+    }
+}
+
+.i-incomplete {
+    @extend .material-icons;
+    color: red;
+
+    &::before {
+        content: "\e5cd"; // .mi-close
+    }
+}
+
+.i-exclude {
+    @extend .material-icons;
+    color: gray;
+
+    &::before {
+        content: "\e5cd"; // .mi-close
+    }
+}
+
+.i-selected {
+    @extend .material-icons;
+    color: orange;
+
+    &::before {
+        content: "\e913"; // .mi-touch-app
+    }
+}
+
+.i-arrow {
+    @extend .material-icons;
+    color: gray;
+
+    &::before {
+        content: "\e941"; // .mi-arrow-right-alt
+    }
+}

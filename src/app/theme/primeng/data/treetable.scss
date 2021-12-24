@@ -62,7 +62,7 @@
     height: 1.143rem;
     min-width: 1.143rem;
     line-height: 1.143rem;
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
     margin-left: 0.5rem;
 }
@@ -132,15 +132,15 @@
 
 .p-treetable .p-treetable-tbody > tr.p-highlight {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler:hover {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover {
@@ -153,7 +153,7 @@
 }
 
 .p-treetable .p-column-resizer-helper {
-    background: #CE93D8;
+    background: var(--primary-color);
 }
 
 .p-treetable .p-treetable-scrollable-header,

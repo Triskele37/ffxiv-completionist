@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';
@@ -8,8 +8,14 @@ import { SearchService } from '@service/search/search.service';
     templateUrl: './search.component.html',
     styleUrls: ['./search.component.scss']
 })
-export class SearchComponent implements OnInit {
-    @ViewChild('searchInput') searchInput;
+export class SearchComponent {
+    @ViewChild('searchInput', { static: false }) set searchInput(ref) {
+        if(!ref) return;
+
+        // Auto-focus search input when search content is initialized
+        //NOTE: May not auto-focus if search is already open
+        ref.nativeElement.focus();
+    };
 
     searchTerm = '';
     status = '';
@@ -20,12 +26,6 @@ export class SearchComponent implements OnInit {
         private svcNavigation: NavigationService,
         private svcSearch: SearchService
     ) {
-    }
-
-    ngOnInit() {
-        // Auto-focus search input when search content is initialized
-        //NOTE: May not auto-focus if search is already open
-        this.searchInput.nativeElement.focus();
     }
 
     searchOnEnter() {

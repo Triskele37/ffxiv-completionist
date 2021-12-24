@@ -31,7 +31,7 @@
 
 .p-steps .p-steps-item.p-highlight .p-steps-number {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-steps .p-steps-item.p-highlight .p-steps-title {
@@ -101,7 +101,7 @@
 }
 
 .p-steps .p-steps-item.p-highlight .p-steps-number {
-    background-color: #CE93D8;
+    background-color: var(--primary-color);
     color: var(--primary-color-text);
 }
 

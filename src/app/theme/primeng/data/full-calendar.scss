@@ -27,7 +27,7 @@
 .fc.fc-unthemed .fc-view-container .fc-event {
     background: rgba(206, 147, 216, 0.16);
     border: 1px solid rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .fc.fc-unthemed .fc-view-container .fc-divider {
@@ -37,7 +37,7 @@
 
 .fc.fc-unthemed .fc-toolbar .fc-button {
     color: var(--primary-color-text);
-    background: #CE93D8;
+    background: var(--primary-color);
     border: 0 none;
     font-size: 1rem;
     transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -209,13 +209,13 @@
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-block-event {
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
     border-color: rgba(206, 147, 216, 0.16);
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-block-event .fc-event-main {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event .fc-daygrid-event-dot {
@@ -234,7 +234,7 @@
 
 .fc.fc-theme-standard .fc-toolbar .fc-button {
     color: var(--primary-color-text);
-    background: #CE93D8;
+    background: var(--primary-color);
     border: 0 none;
     font-size: 1rem;
     transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -262,7 +262,7 @@
 .fc.fc-theme-standard .fc-toolbar .fc-button:disabled {
     opacity: 0.38;
     color: var(--primary-color-text);
-    background: #CE93D8;
+    background: var(--primary-color);
     border: 0 none;
 }
 

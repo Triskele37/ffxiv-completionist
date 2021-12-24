@@ -84,7 +84,7 @@
 .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
     background: rgba(206, 147, 216, 0.16);
     border-color: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {

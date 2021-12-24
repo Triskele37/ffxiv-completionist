@@ -1,55 +1,59 @@
-<div
-    class="action-dropdown-container"
-    (mouseenter)="dropdownOpen = true"
-    (mouseleave)="dropdownOpen = false"
->
-    <div class="xiv-dropdown-arrow">
-        <xiv-icon name="arrow" size="16"></xiv-icon>
-    </div>
-    <div *ngIf="dropdownOpen" class="xiv-dropdown-body">
-        <button
+<p-button
+    icon="material-icons mi-rule"
+    (mouseenter)="overlayPanel.show($event)"
+></p-button>
+
+<p-overlayPanel #overlayPanel styleClass="overlay-dropdown">
+    <span
+        class="option-container"
+        (mouseleave)="overlayPanel.hide()"
+    >
+        <p-button
             [disabled]="lastChanged.length === 0"
-            class="xiv-dropdown-li"
             (click)="onUndoLastChange()"
         >
-            <ng-template *ngIf="lastChanged.length; else noUndo">Undo Last Quick-Mark</ng-template>
-            <ng-template #noUndo>Quick-Mark Menu</ng-template>
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('N', 'Y')">
-            (<xiv-icon name="incomplete"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="complete"></xiv-icon>)
+            <ng-template *ngIf="lastChanged.length; else noUndo">
+                Undo Last Quick-Mark
+            </ng-template>
+            <ng-template #noUndo>
+                Quick-Mark Menu
+            </ng-template>
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('N', 'Y')">
+            (<i class="i-incomplete"></i>  <i class="i-arrow"></i> <i class="i-complete"></i>)
             Mark Incomplete as Complete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('N', 'X')">
-            (<xiv-icon name="incomplete"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="exclude"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('N', 'X')">
+            (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
             Mark Incomplete as Excluded
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('Y', 'N')">
-            (<xiv-icon name="complete"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="incomplete"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('Y', 'N')">
+            (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
             Mark Complete as Incomplete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('Y', 'X')">
-            (<xiv-icon name="complete"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="exclude"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('Y', 'X')">
+            (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
             Mark Complete as Excluded
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('X', 'N')">
-            (<xiv-icon name="exclude"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="incomplete"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('X', 'N')">
+            (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
             Mark Excluded as Incomplete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('X', 'Y')">
-            (<xiv-icon name="exclude"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="complete"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('X', 'Y')">
+            (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
             Mark Excluded as Complete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('$', 'Y')">
-            (<xiv-icon name="selected"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="complete"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('$', 'Y')">
+            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
             Mark Selected as Complete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('$', 'N')">
-            (<xiv-icon name="selected"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="incomplete"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('$', 'N')">
+            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
             Mark Selected as Incomplete
-        </button>
-        <button class="xiv-dropdown-li" (click)="onChangeTaskCompletion('$', 'X')">
-            (<xiv-icon name="selected"></xiv-icon> <xiv-icon name="arrow"></xiv-icon> <xiv-icon name="exclude"></xiv-icon>)
+        </p-button>
+        <p-button (click)="onChangeTaskCompletion('$', 'X')">
+            (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
             Mark Selected as Excluded
-        </button>
-    </div>
-</div>
+        </p-button>
+    </span>
+</p-overlayPanel>

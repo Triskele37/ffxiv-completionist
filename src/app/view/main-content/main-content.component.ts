@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ComponentFactoryResolver, OnInit, ViewChild } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
+
+import { AnchorDirective } from './anchor.directive';
 
 @Component({
     selector: 'xiv-main-content',
@@ -14,7 +16,18 @@ export class MainContentComponent implements OnInit {
     showAll: boolean = false;
     isShowAllVisible: boolean = false;
 
-    constructor(private svcNavigation: NavigationService) {
+    _anchor: AnchorDirective;
+    @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
+        if(!ref) return;
+        this._anchor = ref;
+
+        this.loadComponent();
+    };
+
+    constructor(
+        private cfr: ComponentFactoryResolver,
+        private svcNavigation: NavigationService
+    ) {
     }
 
     ngOnInit(): void {
@@ -22,10 +35,25 @@ export class MainContentComponent implements OnInit {
             this.selectedGroup = selectedGroup;
             this.showAll = false;
             this.isShowAllVisible = !!selectedGroup?.subGroups?.columnConfig;
+
+            if(selectedGroup?.component) this.loadComponent();
         });
     }
 
     toggleShowAll() {
         this.showAll = !this.showAll;
+    }
+
+    loadComponent() {
+        if(this._anchor) {
+            const componentFactory = this.cfr.resolveComponentFactory(this.selectedGroup.component);
+            const { viewContainerRef } = this._anchor;
+            viewContainerRef.clear();
+            const component = viewContainerRef.createComponent(componentFactory);
+            component.changeDetectorRef.detectChanges();
+        }
+        else {
+            setTimeout(this.loadComponent.bind(this), 100);
+        }
     }
 }

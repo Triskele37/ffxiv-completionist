@@ -6,7 +6,11 @@ import { ElectronService } from '@service/electron/electron.service';
 
 @Component({
     selector: 'xiv-select-dropdown',
-    templateUrl: './select-dropdown.component.html'
+    templateUrl: './select-dropdown.component.html',
+    styleUrls: [
+        '../dropdown.scss',
+        './select-dropdown.component.scss'
+    ]
 })
 export class SelectDropdownComponent {
     @Input() group: DataGroup;

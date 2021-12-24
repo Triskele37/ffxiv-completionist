@@ -12,18 +12,18 @@ import { MainMenu } from '../../../view/main-menu';
     styleUrls: ['./nav-drawer.component.scss']
 })
 export class NavDrawerComponent implements OnInit {
-    mainMenu = MainMenu;
-
-    items: MenuItem[] = [
-        this.addSubGroup(MainMenu)
-    ];
+    items: MenuItem[] = [this.addSubGroup(MainMenu)];
 
     constructor(private svcNavigation: NavigationService) {
     }
 
     ngOnInit() {
-        data.subGroups.forEach((group) => {
-            this.items.push(this.addSubGroup(group));
+        data.subGroups.forEach((group) => this.items.push(this.addSubGroup(group)));
+
+        // Collapse all groups not in the direct path of the selected group
+        this.svcNavigation.selectedGroup$.subscribe((group) => {
+            this.collapseItems(this.items, group.groupPath.slice(1));
+            this.items = [...this.items];
         });
     }
 
@@ -31,16 +31,19 @@ export class NavDrawerComponent implements OnInit {
         const item: MenuItem = { label: group.name };
 
         if(group.subGroups) {
-            item.items = group.subGroups.map(
-                (subGroup) => this.addSubGroup(subGroup, depth + 1)
-            );
+            item.items = group.subGroups.map((g) => this.addSubGroup(g, depth + 1));
         }
 
-        item.command = () => {
-            this.svcNavigation.setCrumbAt(depth, group.name);
-            this.svcNavigation.setSelectedGroup(group);
-        };
+        item.command = () => this.svcNavigation.setCrumbAt(depth, group.name);
 
         return item;
+    }
+
+    private collapseItems(items: MenuItem[], path: string[]): void {
+        const name = path.shift();
+        items.forEach((menuItem) => {
+            if(menuItem.label !== name) menuItem.expanded = false;
+            if(menuItem.items) this.collapseItems(menuItem.items, [...path]);
+        });
     }
 }

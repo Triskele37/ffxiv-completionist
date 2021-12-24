@@ -39,7 +39,7 @@
 }
 
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
-    background: #CE93D8;
+    background: var(--primary-color);
 }
 
 .p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {

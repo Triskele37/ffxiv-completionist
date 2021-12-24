@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { IconModule } from '@component/icon/icon.module';
 import { SelectDropdownComponent } from './select-dropdown.component';
 
 @NgModule({
@@ -10,8 +11,8 @@ import { SelectDropdownComponent } from './select-dropdown.component';
     ],
     imports: [
         CommonModule,
-
-        IconModule
+        ButtonModule,
+        OverlayPanelModule,
     ],
     exports: [
         SelectDropdownComponent

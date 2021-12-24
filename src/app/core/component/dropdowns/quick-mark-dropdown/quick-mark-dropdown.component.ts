@@ -3,7 +3,11 @@ import { StoreService } from '@service/store/store.service';
 
 @Component({
     selector: 'xiv-quick-mark-dropdown',
-    templateUrl: './quick-mark-dropdown.component.html'
+    templateUrl: './quick-mark-dropdown.component.html',
+    styleUrls: [
+        '../dropdown.scss',
+        './quick-mark-dropdown.component.scss'
+    ]
 })
 export class QuickMarkDropdownComponent {
     @Input() filteredTasks;

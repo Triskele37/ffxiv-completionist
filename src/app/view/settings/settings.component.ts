@@ -9,7 +9,7 @@ import { StoreService } from '@service/store/store.service';
     styleUrls: ['./settings.component.scss']
 })
 export class SettingsComponent implements OnInit {
-    devMode = process.env.NODE_ENV === 'development';
+    devMode: boolean = false;
     settings: Settings = {
         storeName: { key: 'store-name' },
         storeLocation: { key: 'store-loc' },
@@ -33,16 +33,25 @@ export class SettingsComponent implements OnInit {
     }
 
     ngOnInit() {
-        const diveSettings = (obj) => {
-            for(const key in obj) {
-                if(obj.hasOwnProperty(key)) {
-                    if(obj[key].key) obj[key].value = this.svcStore.eStore.get(obj[key].key);
-                    else diveSettings(obj[key]);
-                }
-            }
-        };
+        const loadSetting = (obj) => obj.value = this.svcStore.eStore.get(obj.key);
 
-        diveSettings(this.settings);
+        loadSetting(this.settings.storeName);
+        loadSetting(this.settings.storeLocation);
+        loadSetting(this.settings.startingClass);
+        loadSetting(this.settings.lang);
+        loadSetting(this.settings.tableFilters.completed);
+        loadSetting(this.settings.tableFilters.incomplete);
+        loadSetting(this.settings.tableFilters.excluded);
+        loadSetting(this.settings.chainingEnabled);
+        loadSetting(this.settings.chainMinThreshold);
+
+        if(process.env.NODE_ENV === 'development') {
+            this.devMode = true;
+
+            loadSetting(this.settings.idColumnEnabled);
+            loadSetting(this.settings.maintainMigrationVersion);
+            loadSetting(this.settings.runVolatileMigrationsOnce);
+        }
     }
 
     onChangeStringSetting($event, path) {
@@ -60,8 +69,6 @@ export class SettingsComponent implements OnInit {
 
         this.svcStore.eStore.set(setting.key, newValue);
         setting.value = newValue;
-
-        //TODO this.$forceUpdate(); // Shows when invalid inputs are changed
     }
 
     onChangeStartingClass($event, path) {

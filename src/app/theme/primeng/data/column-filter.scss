@@ -27,7 +27,7 @@
 
 .p-column-filter-menu-button.p-column-filter-menu-button-active, .p-column-filter-menu-button.p-column-filter-menu-button-active:hover {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-column-filter-menu-button:focus {
@@ -82,7 +82,7 @@
 }
 
 .p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item.p-highlight {
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
 }
 

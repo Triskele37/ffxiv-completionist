@@ -1,9 +1,6 @@
-<div id="breadcrumbs">
-    <span
-        *ngFor="let crumb of breadcrumbs; let i = index"
-        (click)="onClickCrumb(i)"
-    >
-        <span class="breadcrumb">{{crumb}}</span>
-        <span>{{i < breadcrumbs.length - 1 ? '  >  ' : ''}}</span>
-    </span>
+<div class="breadcrumb-container">
+    <p-breadcrumb
+        [model]="items"
+        (onItemClick)="onItemClick($event)"
+    ></p-breadcrumb>
 </div>

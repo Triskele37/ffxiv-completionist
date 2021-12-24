@@ -10,7 +10,7 @@
             *ngIf="selectedGroup.component; else textGroup"
             class="custom-group-component"
         >
-            <component v-bind:is="selectedGroup.component"></component>
+            <ng-template anchor></ng-template>
         </div>
     </ng-template>
 

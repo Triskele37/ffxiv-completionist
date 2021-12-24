@@ -39,10 +39,7 @@ export class Store<StoreType> {
 
         obj[key] = value;
 
-        ElectronService.fs.writeFileSync(
-            `${this.path}\\${this.name}`,
-            JSON.stringify(this.data, null, 4)
-        );
+        this.save();
     }
 
     delete(path: string) {
@@ -57,6 +54,13 @@ export class Store<StoreType> {
 
         delete obj[key];
 
-        //TODO: save
+        this.save();
+    }
+
+    private save() {
+        ElectronService.fs.writeFileSync(
+            `${this.path}\\${this.name}`,
+            JSON.stringify(this.data, null, 4)
+        );
     }
 }

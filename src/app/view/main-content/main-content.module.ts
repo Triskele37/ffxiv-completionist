@@ -5,12 +5,15 @@ import { MainContentComponent } from './main-content.component';
 
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
 import { TaskTableModule } from '@component/task-table/task-table.module';
+
+import { AnchorDirective } from './anchor.directive';
 import { LandingPageModule } from '../landing-page';
 import { ShowAllModule } from '../show-all/show-all.module';
 
 @NgModule({
     declarations: [
-        MainContentComponent
+        MainContentComponent,
+        AnchorDirective
     ],
     imports: [
         CommonModule,

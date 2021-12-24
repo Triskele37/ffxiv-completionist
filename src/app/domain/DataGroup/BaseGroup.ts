@@ -7,6 +7,9 @@ export class BaseGroup {
     subGroups;  // Child groups of this group
     tasks: { [key: string]: Task } = {};
 
+    component;
+    text;
+
     constructor(json, parent) {
         this.name = json.groupName;
         this._key = json.key;

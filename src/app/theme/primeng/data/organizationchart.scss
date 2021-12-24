@@ -6,7 +6,7 @@
 
 .p-organizationchart .p-organizationchart-node-content.p-highlight {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-organizationchart .p-organizationchart-node-content.p-highlight .p-node-toggler i {

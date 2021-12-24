@@ -62,7 +62,7 @@
 
 .p-galleria .p-galleria-indicators .p-galleria-indicator.p-highlight button {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-galleria.p-galleria-indicators-bottom .p-galleria-indicator, .p-galleria.p-galleria-indicators-top .p-galleria-indicator {
@@ -87,7 +87,7 @@
 
 .p-galleria.p-galleria-indicator-onitem .p-galleria-indicators .p-galleria-indicator.p-highlight button {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-galleria .p-galleria-thumbnail-container {

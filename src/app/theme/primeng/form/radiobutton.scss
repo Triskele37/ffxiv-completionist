@@ -22,25 +22,25 @@
     outline: 0 none;
     outline-offset: 0;
     box-shadow: none;
-    border-color: #CE93D8;
+    border-color: var(--primary-color);
 }
 
 .p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
     width: 10px;
     height: 10px;
     transition-duration: 0.2s;
-    background-color: #CE93D8;
+    background-color: var(--primary-color);
 }
 
 .p-radiobutton .p-radiobutton-box.p-highlight {
-    border-color: #CE93D8;
+    border-color: var(--primary-color);
     background: var(--surface-b);
 }
 
 .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
-    border-color: #CE93D8;
+    border-color: var(--primary-color);
     background: var(--surface-b);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
@@ -81,7 +81,7 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled).p-focus {
-    border-color: #CE93D8;
+    border-color: var(--primary-color);
 }
 
 .p-radiobutton:not(.p-radiobutton-disabled):hover {

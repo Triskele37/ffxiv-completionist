@@ -1,20 +1,21 @@
-<div
-    class="action-dropdown-container"
-    (mouseenter)="dropdownOpen = true"
-    (mouseleave)="dropdownOpen = false"
->
-    <div class="xiv-dropdown-arrow">
-        <xiv-icon name="selected" size="16"></xiv-icon>
-    </div>
-    <div *ngIf="dropdownOpen" class="xiv-dropdown-body">
-        <button class="xiv-dropdown-li" [disabled]="true">Selection Actions Menu</button>
-        <button class="xiv-dropdown-li" (click)="onSelectChange(true)">Select All Tasks</button>
-        <button class="xiv-dropdown-li" (click)="onSelectChange(false)">Deselect All Tasks</button>
-        <button class="xiv-dropdown-li" (click)="onSelectChange(null)">Invert Selection</button>
+<p-button
+    icon="material-icons mi-touch-app"
+    (mouseenter)="overlayPanel.show($event)"
+></p-button>
+
+<p-overlayPanel #overlayPanel styleClass="overlay-dropdown">
+    <span
+        class="option-container"
+        (mouseleave)="overlayPanel.hide()"
+    >
+        <p-button [disabled]="true">Selection Actions Menu</p-button>
+        <p-button (click)="onSelectChange(true)">Select All Tasks</p-button>
+        <p-button (click)="onSelectChange(false)">Deselect All Tasks</p-button>
+        <p-button (click)="onSelectChange(null)">Invert Selection</p-button>
 
         <ng-template *ngIf="group.isCraftingLogGroup">
-            <button class="xiv-dropdown-li" (click)="openInGarland()">Open Selected Recipes in Garland Tools</button>
-            <button class="xiv-dropdown-li" (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</button>
+            <p-button (click)="openInGarland()">Open Selected Recipes in Garland Tools</p-button>
+            <p-button (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</p-button>
         </ng-template>
-    </div>
-</div>
+    </span>
+</p-overlayPanel>

@@ -61,17 +61,17 @@
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
     background: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-tree-toggler,
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-treenode-icon {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-tree-toggler:hover,
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-treenode-icon:hover {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover {
@@ -121,11 +121,11 @@
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content.p-highlight {
     background-color: rgba(206, 147, 216, 0.16);
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content.p-highlight .p-treenode-icon {
-    color: #CE93D8;
+    color: var(--primary-color);
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-tree-toggler {

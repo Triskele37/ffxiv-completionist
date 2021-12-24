@@ -77,9 +77,7 @@ export class NavigationService {
             breadcrumbs.pop();
         }
 
-        this.breadcrumbs$.next(breadcrumbs);
-        this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
-        this.svcStore.eStore.set('last-breadcrumbs', breadcrumbs);
+        this.setBreadcrumbs(breadcrumbs);
     }
 
     setCrumbAt(degree: number, groupName: string): void {
@@ -88,15 +86,13 @@ export class NavigationService {
             breadcrumbs.push(this.breadcrumbs$.value[i]);
         }
 
-        this.breadcrumbs$.next([...breadcrumbs, groupName]);
-        this.svcStore.eStore.set('last-breadcrumbs', breadcrumbs);
+        this.setBreadcrumbs([...breadcrumbs, groupName]);
     }
 
     setBreadcrumbs(breadcrumbs: string[]): void {
         this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
-
-        this.svcStore.eStore.set('last-breadcrumbs', breadcrumbs);
+        this.svcStore.eStore.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 
     //#endregion

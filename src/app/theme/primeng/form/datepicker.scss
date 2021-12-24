@@ -65,7 +65,7 @@
     outline: 0 none;
     outline-offset: 0;
     box-shadow: none;
-    border-color: #CE93D8;
+    border-color: var(--primary-color);
 }
 
 .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
@@ -99,7 +99,7 @@
 }
 
 .p-datepicker table td > span.p-highlight {
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
 }
 
@@ -116,7 +116,7 @@
 }
 
 .p-datepicker table td.p-datepicker-today > span.p-highlight {
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
 }
 
@@ -183,7 +183,7 @@
 }
 
 .p-datepicker .p-monthpicker .p-monthpicker-month.p-highlight {
-    color: #CE93D8;
+    color: var(--primary-color);
     background: rgba(206, 147, 216, 0.16);
 }
 
