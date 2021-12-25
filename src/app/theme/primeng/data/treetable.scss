@@ -63,7 +63,7 @@
     min-width: 1.143rem;
     line-height: 1.143rem;
     color: var(--primary-color);
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     margin-left: 0.5rem;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .p-treetable .p-treetable-tbody > tr.p-highlight {
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 

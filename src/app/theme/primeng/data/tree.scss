@@ -60,7 +60,7 @@
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 
@@ -120,7 +120,7 @@
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content.p-highlight {
-    background-color: rgba(206, 147, 216, 0.16);
+    background-color: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 
@@ -162,5 +162,5 @@
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content:focus.p-highlight {
-    background: rgba(206, 147, 216, 0.24);
+    background: rgba(var(--primary-color-rgb), 0.24);
 }

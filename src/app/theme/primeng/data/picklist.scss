@@ -63,7 +63,7 @@
 
 .p-picklist .p-picklist-list .p-picklist-item.p-highlight {
     color: var(--primary-color);
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-picklist .p-picklist-list .p-picklist-empty-message {
@@ -90,5 +90,5 @@
 }
 
 .p-picklist .p-picklist-list .p-picklist-item:focus.p-highlight {
-    background: rgba(206, 147, 216, 0.24);
+    background: rgba(var(--primary-color-rgb), 0.24);
 }

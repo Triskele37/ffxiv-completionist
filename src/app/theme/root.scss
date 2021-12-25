@@ -1,5 +1,13 @@
+@function hexToRGB($hex) {
+    @return red($hex), green($hex), blue($hex);
+}
+
 :root {
-    --primary-color: #0f4c75;
+    --primary-color-rgb: hexToRGB(var(--primary-color));
+    --primary-color: #0f4c75; //CE93D8
+    --primary-color-2: #3282B8;
+    --primary-color-3: #bbe1fa;
+
     --primary-color-text: #121212;
     --text-color: rgba(255, 255, 255, 0.87);
     --text-color-secondary: rgba(255, 255, 255, 0.6);

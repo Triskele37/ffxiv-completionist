@@ -47,7 +47,7 @@
 }
 
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 

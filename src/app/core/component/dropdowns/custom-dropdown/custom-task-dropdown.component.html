@@ -4,7 +4,10 @@
     (mouseenter)="overlayPanel.show($event)"
     (mouseleave)="overlayPanel.hide()"
 >
-    <p-button styleClass="p-button-sm" icon="material-icons mi-add"></p-button>
+    <p-button
+        styleClass="p-button-outlined"
+        icon="material-icons mi-add"
+    ></p-button>
 
     <div
         *ngIf="autoMerge"

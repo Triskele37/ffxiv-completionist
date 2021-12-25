@@ -73,7 +73,7 @@
 
 .p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item.p-highlight {
     color: var(--primary-color);
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item:not(.p-highlight):not(.p-disabled):hover {
@@ -115,7 +115,7 @@ p-cascadeselect.ng-dirty.ng-invalid > .p-cascadeselect {
 }
 
 .p-cascadeselect-item .p-ink {
-    background-color: rgba(206, 147, 216, 0.16);
+    background-color: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-input-filled .p-cascadeselect {

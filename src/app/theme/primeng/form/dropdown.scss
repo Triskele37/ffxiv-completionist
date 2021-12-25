@@ -96,7 +96,7 @@
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
     color: var(--primary-color);
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
@@ -148,7 +148,7 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 .p-dropdown-item .p-ink {
-    background-color: rgba(206, 147, 216, 0.16);
+    background-color: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-input-filled .p-dropdown {

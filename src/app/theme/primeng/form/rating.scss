@@ -43,7 +43,7 @@
 }
 
 .p-rating .p-rating-icon:focus {
-    background: rgba(206, 147, 216, 0.12);
+    background: rgba(var(--primary-color-rgb), 0.12);
 }
 
 .p-rating .p-rating-icon.p-rating-cancel:focus {

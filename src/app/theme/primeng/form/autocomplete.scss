@@ -36,7 +36,7 @@
 .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-token {
     padding: 0.5rem var(--content-padding);
     margin-right: 0.5rem;
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
     border-radius: 4px;
 }
@@ -82,7 +82,7 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item.p-highlight {
     color: var(--primary-color);
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-empty-message {

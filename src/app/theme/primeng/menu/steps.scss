@@ -30,7 +30,7 @@
 }
 
 .p-steps .p-steps-item.p-highlight .p-steps-number {
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 

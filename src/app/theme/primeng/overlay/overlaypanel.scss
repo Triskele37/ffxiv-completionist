@@ -24,7 +24,7 @@
 }
 
 .p-overlaypanel .p-overlaypanel-close:enabled:hover {
-    background: rgba(206, 147, 216, 0.92);
+    background: rgba(var(--primary-color-rgb), 0.92);
     color: var(--primary-color-text);
 }
 

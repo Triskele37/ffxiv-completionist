@@ -66,7 +66,7 @@
             min-width: 1.143rem;
             line-height: 1.143rem;
             color: var(--primary-color);
-            background: rgba(206, 147, 216, 0.16);
+            background: rgba(var(--primary-color-rgb), 0.16);
             margin-left: 0.5rem;
         }
 
@@ -112,7 +112,7 @@
             outline: 0 none;
 
             &.p-highlight {
-                background: rgba(206, 147, 216, 0.16);
+                background: rgba(var(--primary-color-rgb), 0.16);
                 color: var(--primary-color);
             }
 
@@ -121,11 +121,11 @@
             }
 
             &.p-datatable-dragpoint-top td {
-                box-shadow: inset 0 2px 0 0 rgba(206, 147, 216, 0.16);
+                box-shadow: inset 0 2px 0 0 rgba(var(--primary-color-rgb), 0.16);
             }
 
             &.p-datatable-dragpoint-bottom td {
-                box-shadow: inset 0 -2px 0 0 rgba(206, 147, 216, 0.16);
+                box-shadow: inset 0 -2px 0 0 rgba(var(--primary-color-rgb), 0.16);
             }
 
             td {
@@ -222,18 +222,20 @@
     }
 
     &.p-datatable-striped {
-        .p-datatable-tbody tr:nth-child(even) {
-            background: rgba(255, 255, 255, 0.02);
+        .p-datatable-tbody > *:nth-child(even) {
+            &, & tr {
+                background: var(--surface-c);
 
-            &.p-highlight {
-                background: rgba(206, 147, 216, 0.16);
-                color: var(--primary-color);
-
-                .p-row-toggler {
+                &.p-highlight {
+                    background: rgba(var(--primary-color-rgb), 0.16);
                     color: var(--primary-color);
 
-                    &:hover {
+                    .p-row-toggler {
                         color: var(--primary-color);
+
+                        &:hover {
+                            color: var(--primary-color);
+                        }
                     }
                 }
             }

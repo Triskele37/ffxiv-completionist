@@ -129,7 +129,7 @@ p-chips.ng-dirty.ng-invalid .p-chips .p-chips-multiple-container:not(.p-disabled
 .p-chips .p-chips-multiple-container .p-chips-token {
     padding: 0.5rem var(--content-padding);
     margin-right: 0.5rem;
-    background: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
     border-radius: 4px;
 }

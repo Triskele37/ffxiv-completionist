@@ -82,8 +82,8 @@
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
-    background: rgba(206, 147, 216, 0.16);
-    border-color: rgba(206, 147, 216, 0.16);
+    background: rgba(var(--primary-color-rgb), 0.16);
+    border-color: rgba(var(--primary-color-rgb), 0.16);
     color: var(--primary-color);
 }
 
@@ -102,5 +102,5 @@
 }
 
 .p-paginator .p-paginator-element:focus.p-highlight {
-    background: rgba(206, 147, 216, 0.24);
+    background: rgba(var(--primary-color-rgb), 0.24);
 }

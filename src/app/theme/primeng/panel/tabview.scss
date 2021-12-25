@@ -30,7 +30,7 @@
 }
 
 .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
-    background: rgba(206, 147, 216, 0.04);
+    background: rgba(var(--primary-color-rgb), 0.04);
     border-color: rgba(255, 255, 255, 0.12);
     color: var(--text-color-secondary);
 }
@@ -86,11 +86,11 @@
 }
 
 .p-tabview .p-tabview-nav li .p-tabview-nav-link > .p-ink {
-    background-color: rgba(206, 147, 216, 0.16);
+    background-color: rgba(var(--primary-color-rgb), 0.16);
 }
 
 .p-tabview .p-tabview-nav li .p-tabview-nav-link:focus {
-    background-color: rgba(206, 147, 216, 0.12);
+    background-color: rgba(var(--primary-color-rgb), 0.12);
 }
 
 .p-tabview .p-tabview-nav .p-tabview-ink-bar {
