@@ -18,7 +18,7 @@ export type ChainedTasks = {
 };
 
 // Necessary to allow index signature and known props
-type ChainedGroup = ChainedGroupTasks | ChainedGroupProps;
+export type ChainedGroup = ChainedGroupTasks | ChainedGroupProps;
 
 // Index signature for each task
 interface ChainedGroupTasks {

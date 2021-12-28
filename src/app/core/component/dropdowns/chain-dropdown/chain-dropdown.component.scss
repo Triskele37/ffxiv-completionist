@@ -1,6 +1,4 @@
-@import '../../../../../styles/colors';
-
-.chain-dropdown {
+.chain-dropdown-container {
     button:focus {
         outline: none;
     }
@@ -21,6 +19,17 @@
         overflow-y: auto;
         height: 50vh;
         min-width: 30vw;
+
+        ::ng-deep .chain-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .chained-task {
+                margin-left: 25px;
+                padding: 0;
+            }
+        }
     }
 
     .group-nav-arrow {
@@ -33,13 +42,6 @@
             margin-right: 20px;
             margin-top: -11px;
         }
-    }
-
-    .chained-task {
-        border: none;
-        margin-left: 25px;
-        padding: 0;
-        width: fit-content;
     }
 
     .Y, .N, .X {

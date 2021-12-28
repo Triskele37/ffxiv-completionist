@@ -63,8 +63,6 @@ export class ChainDropdownComponent implements OnInit {
         else {
             group.show = !group.show;
         }
-
-        //TODO this.$forceUpdate();
     }
 
     onNavigateToGroup(path) {
