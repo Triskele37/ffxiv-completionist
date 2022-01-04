@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Task } from '@domain/Task';
 import { StoreService } from '@service/store/store.service';
@@ -12,6 +12,7 @@ export class DataRowComponent {
     @Input() columnConfig: any[];
     @Input() enableDrag: boolean = false;
     @Input() task: Task;
+    @Output() completionChange = new EventEmitter<void>();
 
     draggedId = null;
     debounceDrag = false;
@@ -22,7 +23,6 @@ export class DataRowComponent {
     onClick($event) {
         if(!this.parentHasClass($event.target, 'noSelect')) {
             this.task.selected = !this.task.selected;
-            //TODO this.$forceUpdate();
         }
     }
 
@@ -33,7 +33,6 @@ export class DataRowComponent {
 
     onDeselectTask(task) {
         task.selected = false;
-        //TODO this.$forceUpdate();
     }
 
     //#region----------------------------------------------------------- Drag
@@ -46,13 +45,11 @@ export class DataRowComponent {
 
         if(!this.task.dropTarget && this.task.id !== this.draggedId) {
             this.task.dropTarget = true;
-            //TODO this.$forceUpdate();
         }
     }
 
     onRowDragLeave($event) {
         this.task.dropTarget = false;
-        //TODO this.$forceUpdate();
     }
 
     onDragDrop() {

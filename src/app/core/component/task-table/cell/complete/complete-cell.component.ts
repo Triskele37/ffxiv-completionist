@@ -1,7 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Task } from '@domain/Task';
 import { StoreService } from '@service/store/store.service';
+
+type Flag = 'Y' | 'N' | 'X';
 
 @Component({
     selector: 'xiv-complete-cell',
@@ -10,7 +12,8 @@ import { StoreService } from '@service/store/store.service';
 })
 export class CompleteCellComponent {
     @Input() task: Task;
-    @Input() flag: string;
+    @Input() flag: Flag;
+    @Output() onChange = new EventEmitter<void>();
 
     constructor(private svcStore: StoreService) {
     }
@@ -18,7 +21,7 @@ export class CompleteCellComponent {
     onTaskCompleteClick() {
         const flag = this.task.completionFlag === 'Y' ? 'N' : 'Y';
         this.task.changeCompletionFlag(flag, true);
-        this.svcStore.applyDataToStore();
+        this.changeCompletion();
     }
 
     onExcludeTaskClick($event) {
@@ -26,6 +29,11 @@ export class CompleteCellComponent {
 
         const flag = this.task.completionFlag === 'X' ? 'N' : 'X';
         this.task.setCompletionFlag(flag);
+        this.changeCompletion();
+    }
+
+    changeCompletion() {
         this.svcStore.applyDataToStore();
+        this.onChange.emit();
     }
 }

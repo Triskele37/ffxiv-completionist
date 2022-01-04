@@ -1,63 +1,97 @@
-// import * as fs from 'fs';
 const fs = window.require('fs');
 
 type Lang = 'en' | 'fr';
 export function loadJson(path: string, lang: Lang) {
-    if(!lang) lang = 'en';
+    const [langPrefix, commonPrefix] = getPrefixes(lang || 'en');
 
-    let langPrefix: string;
-    let commonPrefix: string;
-    if(process.env.NODE_ENV === 'production') {
-        langPrefix = `${process.resourcesPath}/resources/${lang}`;
-        commonPrefix = `${process.resourcesPath}/resources/common`;
-    }
-    else {
-        langPrefix = `./resources/${lang}`;
-        commonPrefix = `./resources/common`;
-    }
-
-    let langJson: any;
+    let finalJson: any;
     try {
-        langJson = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`).toString());
+        const common = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`, 'utf8'));
+        const locale = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`, 'utf8'));
 
-        if(fs.existsSync(`${commonPrefix}/${path}.json`)) {
-            try {
-                const commonFile = fs.readFileSync(`${commonPrefix}/${path}.json`);
-                const { tasks: commonTasks, ...commonProps } = JSON.parse(commonFile.toString());
+        try {
+            // Destructure headers and tasks so they aren't mapped
+            const { headers: cHeaders, tasks: cTasks, ...cProps } = common;
+            const { headers: lHeaders, tasks: lTasks, ...lProps } = locale;
 
-                // Map group-level common props
-                langJson = { ...commonProps, ...langJson }; //TODO: wut did I do here
+            // Map group-level common props
+            finalJson = {
+                ...cProps, // map common props onto final json
+                ...lProps // allow locale to override common
+            };
 
-                // Map task-level common props
-                for(const id in commonTasks) {
-                    if(commonTasks.hasOwnProperty(id)) {
-                        langJson.tasks[id] = {
-                            id: parseInt(id.substr(1), 10),
-                            ...commonTasks[id],
-                            ...langJson.tasks[id]
-                        };
-                    }
-                }
-
-                // Map ids
-                for(const id in langJson.tasks) {
-                    if(langJson.tasks.hasOwnProperty(id)) {
-                        // Remove the leading "x" and cast to int
-                        langJson.tasks[id].id = parseInt(id.substr(1), 10);
-
-                        // Removes tasks with 'hidden' so placeholders can be in resources
-                        if(langJson.tasks[id].hidden) {
-                            delete langJson.tasks[id];
-                        }
-                    }
-                }
-            } catch(e) {
-                console.error(`Error in ${commonPrefix}/${path}.json`, e);
-            }
+            finalJson.headers = mapHeaders(common, locale);
+            finalJson.tasks = mapTasks(common, locale);
         }
-    } catch(e) {
+        catch(e) {
+            console.error(`Error in ${commonPrefix}/${path}.json`, e);
+        }
+    }
+    catch(e) {
         console.error(`Error in ${langPrefix}/${path}.json`, e);
     }
 
-    return langJson;
+    return finalJson;
+}
+
+// Get the path prefixes based on environment
+function getPrefixes(lang: Lang) {
+    if(process.env.NODE_ENV === 'production') {
+        return [
+            `${process.resourcesPath}/resources/${lang}`,
+            `${process.resourcesPath}/resources/common`
+        ];
+    }
+    else {
+        return [
+            `./resources/${lang}`,
+            `./resources/common`
+        ];
+    }
+}
+
+function mapHeaders(common, locale) {
+    if(!common.headers && !locale.headers) return null;
+    const headers: any = {};
+
+    Object.keys(locale.headers).forEach((key) => {
+        headers[key] = { header: locale.headers[key] };
+
+        if(common.headers?.[key]) {
+            headers[key] = {
+                ...headers[key],
+                ...common.headers[key]
+            };
+        }
+    });
+
+    return headers;
+}
+
+function mapTasks(common, locale) {
+    const tasks: any = {};
+
+    // Map task-level common props
+    for(const id in common.tasks) {
+        if(common.tasks.hasOwnProperty(id)) {
+            tasks[id] = {
+                id: parseInt(id.substr(1), 10),
+                ...common.tasks[id],
+                ...locale.tasks[id]
+            };
+        }
+    }
+
+    // Map ids
+    for(const id in tasks) {
+        if(tasks.hasOwnProperty(id)) {
+            // Remove the leading "x" and cast to int
+            tasks[id].id = parseInt(id.substr(1), 10);
+
+            // Removes tasks with 'hidden' so placeholders can be in resources
+            if(tasks[id].hidden) delete tasks[id];
+        }
+    }
+
+    return tasks;
 }

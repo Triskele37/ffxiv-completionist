@@ -28,15 +28,8 @@ export class DataGroup extends Countable(Configable(Taskable(Groupable(BaseGroup
         if(json.defaultCompletion) this.defaultCompletion = json.defaultCompletion;
 
         if(json.headers) {
-            const columnConfig = [];
-            Object.keys(json.headers).forEach((key) => {
-                columnConfig.push({
-                    key,
-                    header: json.headers[key]
-                });
-            });
-
-            this._columnConfig = columnConfig;
+            this._columnConfig = Object.keys(json.headers)
+                .map((key) => ({ key, ...json.headers[key] }));
         }
 
         this.isNumericCompletion = !!json.isNumericCompletion;

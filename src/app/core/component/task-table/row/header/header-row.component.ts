@@ -51,39 +51,24 @@ export class HeaderRowComponent implements OnInit {
         }
     }
 
-    modifySearch($event, column) {
-        const value = $event.target.value;
-
-        // Don't run filter unnecessarily
-        if(this.filters[column.key] && this.filters[column.key].value === value) {
-            return;
-        }
-
-        if(value) {
-            // Add/Modify Search Filter
-            this.filters[column.key] = {
-                key: column.key,
-                value
-            };
-        }
-        else {
-            // Remove Filter
-            this.filters[column.key] = null;
-        }
-
-        this.filters = Object.assign({}, this.filters);
-        this.filterChange.emit(this.filters);
-
-        // No keycode means the x was clicked
-        if(!$event.which && !value) {
-            $event.target.blur();
-            return;
-        }
+    onFilterKeyup($event, column) {
+        this.modifySearch($event.target.value, column);
     }
 
-    onDatalistClick($event) {
-        // Datalist clicks fire keydown on their parent input
-        // if which is undefined, it was from datalist
-        if(!$event.which) $event.target.blur();
+    onFilterDropdownChange($event, column) {
+        this.modifySearch($event.value, column);
+    }
+
+    modifySearch(value, column) {
+        // Don't run filter unnecessarily
+        if(this.filters[column.key]?.value === value) return;
+
+        // If a value exists the filter is being added or modified, otherwise null it out
+        this.filters[column.key] = !value ? null : {
+            key: column.key,
+            value
+        };
+
+        this.filterChange.emit(this.filters);
     }
 }

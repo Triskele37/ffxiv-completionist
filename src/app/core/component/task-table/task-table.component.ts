@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
@@ -13,7 +13,6 @@ export class TaskTableComponent implements OnChanges {
     @Input() columnConfig: any[];
     @Input() group: DataGroup;
     @Input() tasks: { [key: string]: Task };
-    @ViewChild('taskTable') taskTableRef: ElementRef;
 
     displayedTasks = 0;
     totalTasks = 0;
@@ -35,25 +34,22 @@ export class TaskTableComponent implements OnChanges {
     ngOnChanges(changes: SimpleChanges) {
         const { columnConfig, group, tasks } = changes;
 
-        if(group) {
-            const isValidGroupChange = group.currentValue && group.previousValue?.name !== group.currentValue?.name;
-
-            if(isValidGroupChange && this.taskTableRef) {
-                this.taskTableRef.nativeElement.scrollTop = 0;
-            }
-        }
-
         if(tasks) this.hasTasks = this._hasTasks;
 
         if(columnConfig || group || tasks) {
-            this.uniqueValues = this._uniqueValues;
-            this.filteredTasks = this._filteredTasks;
-            this.filteredTasksArr = Object.values(this.filteredTasks);
+            this.updateFilteredTasks();
         }
+    }
+
+    updateFilteredTasks() {
+        this.filteredTasks = this._filteredTasks;
+        this.filteredTasksArr = Object.values(this.filteredTasks);
+        this.uniqueValues = this._uniqueValues;
     }
 
     onFilterChange(filters) {
         this.filters = filters;
+        this.updateFilteredTasks();
     }
 
     onSelectChange() {

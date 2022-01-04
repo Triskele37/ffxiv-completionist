@@ -1,55 +1,67 @@
 <tr class="task-table-header">
+    <!-- Completion Header -->
     <th class="completion-column">
         <ng-container *ngIf="!isNumericCompletion; else numericColumn">
-            <span (click)="onFilterCompletion('Y')">
-                <xiv-icon
-                    [ngClass]="{ enabledFilter: filters.completion.completed }"
-                    name="complete"
-                ></xiv-icon>
-            </span>
-            <span (click)="onFilterCompletion('N')">
-                <xiv-icon
-                    [ngClass]="{ enabledFilter: filters.completion.incomplete }"
-                    name="incomplete"
-                ></xiv-icon>
-            </span>
+            <i
+                class="i-complete"
+                [ngClass]="{ enabled: filters.completion.completed }"
+                (click)="onFilterCompletion('Y')"
+            ></i>
+
+            <i
+                class="i-incomplete"
+                [ngClass]="{ enabled: filters.completion.incomplete }"
+                (click)="onFilterCompletion('N')"
+            ></i>
+
             <br/>
-            <span (click)="onFilterCompletion('X')">
-                <xiv-icon
-                    [ngClass]="{ enabledFilter: filters.completion.excluded }"
-                    name="exclude"
-                ></xiv-icon>
-            </span>
+
+            <i
+                class="i-exclude"
+                [ngClass]="{ enabled: filters.completion.excluded }"
+                (click)="onFilterCompletion('X')"
+            ></i>
         </ng-container>
         <ng-template #numericColumn>
             #
         </ng-template>
     </th>
 
+    <!-- Data Headers -->
     <th *ngFor="let column of columnConfig">
-        <div class="column-search">
-            <input
-                (keyup)="modifySearch($event, column)"
-                (search)="modifySearch($event, column)"
-                (keydown)="onDatalistClick($event)"
-                placeholder="..."
-                class="xiv-combo"
-                type="search"
-            />
-<!--            [list]="column.key"-->
-            <datalist [id]="column.key" *ngIf="column.filterable">
-                <option>Blank</option>
-                <option
-                    *ngFor="let uniqueValue of uniqueValues[column.key]"
-                >
-                    {{displayedFilterValue(uniqueValue)}}
-                </option>
-            </datalist>
-        </div>
-        <div>
+        <div
+            class="column-name"
+            [pSortableColumn]="column.key"
+        >
             {{column.header}}
+            <p-sortIcon [field]="column.key"></p-sortIcon>
+        </div>
+        <div class="column-filter p-input-icon-right">
+            <ng-container *ngIf="column.filterable; else inputFilter">
+                <p-dropdown
+                    [editable]="true"
+                    [options]="uniqueValues[column.key]"
+                    [showClear]="true"
+                    appendTo="body"
+                    (keyup)="onFilterKeyup($event, column)"
+                    (onChange)="onFilterDropdownChange($event, column)"
+                >
+                    <!--                <option>Blank</option>-->
+                    <ng-template pTemplate="item" let-item>
+                        {{displayedFilterValue(item)}}
+                    </ng-template>
+                </p-dropdown>
+            </ng-container>
+
+            <ng-template #inputFilter>
+                <input
+                    pInputText
+                    (keyup)="onFilterKeyup($event, column)"
+                />
+            </ng-template>
         </div>
     </th>
 
+    <!-- Row Action Header -->
     <th></th>
 </tr>

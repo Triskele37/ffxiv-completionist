@@ -34,7 +34,7 @@
         </span>
     </div>
 
-    <div class="task-table-scroll-container" #taskTable>
+    <div class="task-table-scroll-container">
         <p-table
             *ngIf="hasTasks"
             styleClass="p-datatable-striped"
@@ -53,6 +53,7 @@
                     [columnConfig]="columnConfig"
                     [enableDrag]="group.draggable"
                     [task]="task"
+                    (completionChange)="updateFilteredTasks()"
                 ></xiv-data-row>
             </ng-template>
         </p-table>

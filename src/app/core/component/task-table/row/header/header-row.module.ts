@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DropdownModule } from 'primeng/dropdown';
+import { InputTextModule } from 'primeng/inputtext';
+import { TableModule } from 'primeng/table';
 
-import { IconModule } from '@component/icon/icon.module';
 import { HeaderRowComponent } from './header-row.component';
 
 @NgModule({
@@ -10,8 +12,9 @@ import { HeaderRowComponent } from './header-row.component';
     ],
     imports: [
         CommonModule,
-
-        IconModule
+        DropdownModule,
+        InputTextModule,
+        TableModule
     ],
     exports: [
         HeaderRowComponent

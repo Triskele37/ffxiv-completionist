@@ -3,33 +3,33 @@
 
     .task-table-header {
         .completion-column {
-            text-align: center;
+            padding: calc(var(--content-padding) / 2);
             vertical-align: middle;
+            text-align: center;
 
-            span {
+            .i-complete, .i-incomplete, .i-exclude {
                 cursor: pointer;
 
-                .enabledFilter {
-                    filter: drop-shadow(2px 2px 0px black);
+                &.enabled {
+                    filter: drop-shadow(2px 2px 0px var(--primary-color));
                 }
             }
         }
 
-        .column-search {
-            .xiv-combo {
-                width: 95%;
-            }
+        .column-name {
+            text-align: center;
+        }
 
-            .applied-filter {
-                cursor: pointer;
-
-                &:hover {
-                    background-color: rgba(0, 0, 0, 0.1);
+        .column-filter {
+            ::ng-deep {
+                .p-inputtext {
+                    height: 25px;
                 }
             }
         }
 
         th {
+            // Scrolls row-action-icon behind th
             z-index: 2;
         }
     }
