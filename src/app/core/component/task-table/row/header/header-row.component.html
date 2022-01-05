@@ -36,7 +36,7 @@
             {{column.header}}
             <p-sortIcon [field]="column.key"></p-sortIcon>
         </div>
-        <div class="column-filter p-input-icon-right">
+        <div class="column-filter">
             <ng-container *ngIf="column.filterable; else inputFilter">
                 <p-dropdown
                     [editable]="true"
