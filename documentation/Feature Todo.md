@@ -68,3 +68,20 @@ fr shb trials has duplicate headers
 - Remove ENpcResident from xivapi script
 
 **Fix**
+
+------------------------------------------------------------------ Chains
+Oh, Beehive Yourself should grant Satisfaction Guaranteed-Shirr I
+    all other first quests for custom deliveries too
+Lighting the Way should grant Bio-Doma V (and Philanthropist?)
+Manderville Mambo from Don't Do the Dewprism
+Shadow Walk With Me should chain Tales to be Told
+
+------------------------------------------------------------------ Check
+Double check Amalj'aa "The Gland That Feeds You" is Recognized (46)
+Double check app opens at exact size closed through config
+Clear completion of Vintage Bow in carpenter log, add note to changelog
+Clear completion of Astrolabe in goldsmith log, add note to changelog
+Clear completion of Felt Coif of Gathering in weaver log, add note to changelog
+Double check Leve locations, update Leve names
+Lend Me Your Ears Already (removed quest, did the app keep legacy quests?)
+White Oak Branch moved from logging 70 to logging 75 log
