@@ -1,5 +1,18 @@
 {
     "key": "companion-skills",
+    "headers": {
+        "tree": {
+            "filterable": true,
+            "width": 140
+        },
+        "spCost": {
+            "width": 100
+        },
+        "type": {
+            "filterable": true,
+            "width": 160
+        }
+    },
     "tasks": {
         "x0": {
             "spCost": "1",

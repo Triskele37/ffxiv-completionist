@@ -1,3 +1,11 @@
 {
-    "key": "levequests"
+    "key": "levequests",
+    "headers": {
+        "issueLocation": {
+            "filterable": true
+        },
+        "leveZone": {
+            "filterable": true
+        }
+    }
 }

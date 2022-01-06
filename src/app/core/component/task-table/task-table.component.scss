@@ -47,7 +47,7 @@
 
         //---------------------- Table Cell ----------------------
         th, td {
-            max-width: 25vw;
+            max-width: 20vw;
 
             &.centered {
                 text-align: center;
@@ -75,7 +75,10 @@
 
         //---------------------- Table Data ----------------------
         td {
-            white-space: normal;
+            //white-space: normal;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
     }
 }

@@ -27,7 +27,7 @@ fr shb trials has duplicate headers
 **Add**
 - Favorites - Pin groups and tasks
 - Armoire section
-- Mac Support (dependent on angular-electron upgrade)
+- Mac Support
 - Toolset to allow translation of single words/phrases and shove those in resources
 - notification bubbles to any unread instructions (use config store)
 - Custom application container, specifically title bar
@@ -85,3 +85,5 @@ Clear completion of Felt Coif of Gathering in weaver log, add note to changelog
 Double check Leve locations, update Leve names
 Lend Me Your Ears Already (removed quest, did the app keep legacy quests?)
 White Oak Branch moved from logging 70 to logging 75 log
+Triple Triad Opponents layout is jacked
+guildhest missing ilvl

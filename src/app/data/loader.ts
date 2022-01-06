@@ -55,7 +55,7 @@ function mapHeaders(common, locale) {
     const headers: any = {};
 
     Object.keys(locale.headers).forEach((key) => {
-        headers[key] = { header: locale.headers[key] };
+        headers[key] = { key, header: locale.headers[key] };
 
         if(common.headers?.[key]) {
             headers[key] = {
@@ -63,9 +63,27 @@ function mapHeaders(common, locale) {
                 ...common.headers[key]
             };
         }
+
+        applyStaticHeaderProps(headers, key);
     });
 
     return headers;
+}
+
+function applyStaticHeaderProps(headers, key) {
+    switch(key) {
+        case 'category':
+            headers[key].filterable = true;
+            // headers[key].width = 250;
+            break;
+        case 'patch':
+            headers[key].filterable = true;
+            headers[key].width = 110;
+            break;
+        case 'zone':
+            headers[key].filterable = true;
+            break;
+    }
 }
 
 function mapTasks(common, locale) {

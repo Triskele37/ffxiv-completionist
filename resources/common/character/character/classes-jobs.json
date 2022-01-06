@@ -2,6 +2,11 @@
     "key": "classes--jobs",
     "defaultValue": 0,
     "isNumericCompletion": true,
+    "headers": {
+        "role": {
+            "filterable": true
+        }
+    },
     "tasks": {
         "x0": {
             "patch": "2.0",

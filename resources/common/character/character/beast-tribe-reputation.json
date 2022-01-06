@@ -1,5 +1,10 @@
 {
     "key": "beast-tribe-reputation",
+    "headers": {
+        "expansion": {
+            "filterable": true
+        }
+    },
     "tasks": {
         "x0": {
             "reputationToCap": "150",

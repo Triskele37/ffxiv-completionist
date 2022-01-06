@@ -18,13 +18,32 @@
 
         .column-name {
             text-align: center;
+
+            ::ng-deep {
+                .p-sortable-column-icon {
+                    margin-left: unset;
+                }
+            }
         }
 
         .column-filter {
             ::ng-deep {
-                .p-inputtext {
-                    height: 25px;
+                .dropdown-filter, .text-filter {
+                    margin-top: 3px;
+                    height: 27px;
                     width: 100%;
+                }
+
+                .p-inputtext {
+                    padding-right: unset;
+                }
+
+                .p-dropdown-clear-icon {
+                    right: 24px;
+                }
+
+                .p-dropdown-trigger {
+                    width: 24px;
                 }
             }
         }

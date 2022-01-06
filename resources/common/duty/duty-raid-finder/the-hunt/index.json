@@ -1,3 +1,11 @@
 {
-    "key": "the-hunt"
+    "key": "the-hunt",
+    "headers": {
+        "rank": {
+            "filterable": true
+        },
+        "location": {
+            "filterable": true
+        }
+    }
 }

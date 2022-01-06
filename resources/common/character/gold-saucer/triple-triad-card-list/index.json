@@ -1,3 +1,14 @@
 {
-    "key": "triple-triad-card-list"
+    "key": "triple-triad-card-list",
+    "headers": {
+        "number": {
+            "width": 90
+        },
+        "rarity": {
+            "filterable": true
+        },
+        "type": {
+            "filterable": true
+        }
+    }
 }

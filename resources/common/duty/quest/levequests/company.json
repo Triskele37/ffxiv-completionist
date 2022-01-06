@@ -1,5 +1,16 @@
 {
     "key": "grand-company",
+    "headers": {
+        "issueLocation": {
+            "filterable": true
+        },
+        "leveZone": {
+            "filterable": true
+        },
+        "company": {
+            "filterable": true
+        }
+    },
     "tasks": {
         "x794": {
             "level": 20

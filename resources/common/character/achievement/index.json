@@ -1,3 +1,9 @@
 {
-    "key": "achievements"
+    "key": "achievements",
+    "headers": {
+        "points": {
+            "filterable": true,
+            "width": 100
+        }
+    }
 }

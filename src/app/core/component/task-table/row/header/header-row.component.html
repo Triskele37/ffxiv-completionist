@@ -28,7 +28,10 @@
     </th>
 
     <!-- Data Headers -->
-    <th *ngFor="let column of columnConfig">
+    <th
+        *ngFor="let column of columnConfig"
+        [style.width.px]="column.width"
+    >
         <div
             class="column-name"
             [pSortableColumn]="column.key"
@@ -39,6 +42,7 @@
         <div class="column-filter">
             <ng-container *ngIf="column.filterable; else inputFilter">
                 <p-dropdown
+                    styleClass="dropdown-filter"
                     [editable]="true"
                     [options]="uniqueValues[column.key]"
                     [showClear]="true"
@@ -55,6 +59,7 @@
 
             <ng-template #inputFilter>
                 <input
+                    class="text-filter"
                     pInputText
                     (keyup)="onFilterKeyup($event, column)"
                 />

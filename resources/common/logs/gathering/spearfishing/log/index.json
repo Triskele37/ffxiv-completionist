@@ -1,3 +1,8 @@
 {
-    "key": "log"
+    "key": "log",
+    "headers": {
+        "type": {
+            "filterable": true
+        }
+    }
 }
