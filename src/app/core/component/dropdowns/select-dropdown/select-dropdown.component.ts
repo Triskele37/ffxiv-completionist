@@ -18,7 +18,7 @@ export class SelectDropdownComponent {
     @Output() selectChange = new EventEmitter<void>();
     isVisible: boolean = false;
 
-    constructor() {
+    constructor(private svcElectron: ElectronService) {
     }
 
     onMouseEnter(): void {
@@ -71,7 +71,7 @@ export class SelectDropdownComponent {
             while(parent._parent.isCraftingLogGroup) parent = parent._parent;
             const encodedGroupName = `${parent.name} > ${this.group.name}`.replace(' ', '%20');
 
-            ElectronService.remote.shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
+            this.svcElectron.remote.shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
         }
     }
 
@@ -82,7 +82,7 @@ export class SelectDropdownComponent {
             const baseUrl = 'https://www.ffxivteamcraft.com/import';
             const idsString = ids.map((id) => `${id},null,1`).join(';');
 
-            ElectronService.remote.shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
+            this.svcElectron.remote.shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
         }
     }
 }

@@ -1,9 +1,14 @@
 #app {
+    $left-container-size: 250px;
+
     height: 100%;
     width: 100%;
 
     overflow: hidden;
     white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
 
     #loading-modal {
         background-color: rgba(0, 0, 0, 0.5);
@@ -16,11 +21,16 @@
         padding: 25% 0;
     }
 
-    #right-container {
-        display: inline-block;
+    .left-container {
+        padding-top: 33px;
+        width: $left-container-size;
+    }
+
+    .right-container {
+        display: flex;
+        flex-direction: column;
+
+        width: calc(100% - #{$left-container-size});
         height: 100%;
-        margin: -1px 0 0 -4px;
-        width: calc(100% - 250px);
-        vertical-align: top;
     }
 }

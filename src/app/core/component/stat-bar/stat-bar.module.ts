@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ContextMenuModule } from 'primeng/contextmenu';
 
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
 import { StatBarComponent } from './stat-bar.component';
@@ -10,6 +11,7 @@ import { StatBarComponent } from './stat-bar.component';
     ],
     imports: [
         CommonModule,
+        ContextMenuModule,
 
         SummaryLineModule
     ],

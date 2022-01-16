@@ -3,7 +3,7 @@
 
     .summary-line {
         position: relative;
-        border: 1px outset;
+        border: 1px outset var(--primary-color);
         overflow: hidden;
         margin: 5px 10px;
 
@@ -26,10 +26,8 @@
         // Large variant
         &.big {
             border-radius: 20px;
-            display: block;
             text-align: center;
             height: 40px;
-            width: calc(100% - 20px);
 
             .summary-info {
                 left: unset;

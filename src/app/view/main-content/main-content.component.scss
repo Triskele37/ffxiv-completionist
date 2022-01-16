@@ -1,12 +1,24 @@
 @import '../../../styles/colors';
 
+:host {
+    display: contents;
+}
+
 .main-content {
-    height: calc(100% - 160px);
     margin: 10px;
 
+    // Ensures this container becomes scrollable
+    min-height: 0;
+
     .custom-group-component {
-        overflow-y: auto;
+        // Prevent x overflow
         white-space: normal;
+
+        // Scrollbar
+        overflow-y: auto;
+        height: 100%;
+
+        // Space on right when viewport is smaller
         padding-right: 10px;
     }
 
@@ -14,9 +26,6 @@
         // wraps summaries each 3
         display: flex;
         flex-wrap: wrap;
-
-        // gives height so tables w/ summaries display properly
-        min-height: fit-content;
     }
 
     .section-actions {

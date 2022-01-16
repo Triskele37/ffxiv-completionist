@@ -14,7 +14,7 @@ export class ChainService {
     chainedTasks$ = new BehaviorSubject<ChainedTasks>({});
     chainStart$ = new BehaviorSubject<ChainStart>(null);
 
-    constructor() {
+    constructor(private svcConfig: ConfigStoreService) {
         ChainService.Instance = this;
     }
 
@@ -91,7 +91,7 @@ export class ChainService {
         }
 
         // Update show prop for all chained tasks
-        const show = this.chainedTaskCount$.value < ConfigStoreService.get('chain-min-threshold');
+        const show = this.chainedTaskCount$.value < this.svcConfig.get('chain-min-threshold');
         for(const key in chainedTasks) {
             if(chainedTasks.hasOwnProperty(key)) {
                 chainedTasks[key].show = show;

@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 import { Completion } from '@constant';
-import { data } from '@data';
+import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
@@ -35,11 +35,12 @@ export class CustomTaskDropdownComponent {
     tasksToRemove: Task[] = [];
 
     constructor(
+        private svcData: DataService,
         private svcChain: ChainService,
         private svcSearch: SearchService,
         private svcSaveStore: SaveStoreService,
     ) {
-        this.customData = data.getSubGroup('custom');
+        this.customData = this.svcData.data.getSubGroup('custom');
     }
 
     //#region------------------------------------------------------- Common
@@ -149,7 +150,7 @@ export class CustomTaskDropdownComponent {
     exitMerge(): void {
         this.isMergeVisible = false;
         this.mergeIndex = 0;
-        this.svcSaveStore.applyDataToStore();
+        this.svcData.applyDataToStore();
         this.syncCustomStore();
     }
 
@@ -160,7 +161,7 @@ export class CustomTaskDropdownComponent {
             pathSegments.shift(); // Remove the 'Overall' step
 
             // Should never end up with a duplicate match in the same group
-            const task = data
+            const task = this.svcData.data
                 .getChildGroupFromPath(pathSegments, true)
                 .getTaskById(match.tasks[0].id);
 

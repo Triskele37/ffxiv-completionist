@@ -1,5 +1,4 @@
 import { Completion, CompletionFlag } from '@constant';
-import { ConfigStoreService } from '@service/store/config-store.service';
 import { ChainService } from '@service/chain/chain.service';
 
 import { DataGroup } from './DataGroup';
@@ -18,6 +17,8 @@ export interface Task {
 }
 
 export class Task {
+    static chainingEnabled: boolean;
+
     //#region--------------------------------- Standard Props
     id: number;
     name: string;
@@ -173,7 +174,7 @@ export class Task {
 
     changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): void {
         // Dodge all of this if chaining is disabled
-        if(!ConfigStoreService.get('chaining-enabled')) {
+        if(!Task.chainingEnabled) {
             this.setCompletionFlag(toFlag);
         }
         else if(this.shouldChain(firstInChain, toFlag)) {
@@ -209,7 +210,7 @@ export class Task {
 
     changeCompletionNumber(toNum: string, firstInChain?: boolean) {
         // Dodge all of this if chaining is disabled
-        if(!ConfigStoreService.get('chaining-enabled')) {
+        if(!Task.chainingEnabled) {
             this.setCompletionNumber(toNum);
         }
         else if(this.shouldChain(firstInChain, toNum)) {

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-import { data } from '@data';
+import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { UIGroup } from '@domain/UIGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -14,9 +14,12 @@ export class NavigationService {
     selectedGroup$ = new BehaviorSubject<UIGroup | DataGroup>(null);
     breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
 
-    constructor() {
+    constructor(
+        private svcData: DataService,
+        private svcConfig: ConfigStoreService
+    ) {
         // Load previous breadcrumb state
-        const initialBreadcrumbs = ConfigStoreService.get('last-breadcrumbs') as string[];
+        const initialBreadcrumbs = this.svcConfig.get('last-breadcrumbs') as string[];
         if(initialBreadcrumbs) this.setBreadcrumbs(initialBreadcrumbs);
     }
 
@@ -25,11 +28,11 @@ export class NavigationService {
 
         if(breadcrumbs.length === 1) {
             if(breadcrumbs[0] === 'FFXIV Completionist') return MainMenu;
-            else return data;
+            else return this.svcData.data;
         }
 
         let navGroup: DataGroup = {
-            subGroups: [MainMenu, ...data.subGroups]
+            subGroups: [MainMenu, ...this.svcData.data.subGroups]
         } as DataGroup;
 
         for(let i = 1; i < breadcrumbs.length && navGroup; i++) {
@@ -58,7 +61,7 @@ export class NavigationService {
     pushCrumb(crumb: string): void {
         const newBreadcrumbs = [...this.breadcrumbs$.value, crumb];
         this.breadcrumbs$.next(newBreadcrumbs);
-        ConfigStoreService.set('last-breadcrumbs', newBreadcrumbs);
+        this.svcConfig.set('last-breadcrumbs', newBreadcrumbs);
 
         // also set the selected group to match
         const selectedGroup = this.selectedGroup$.value;
@@ -81,6 +84,12 @@ export class NavigationService {
         this.setBreadcrumbs(breadcrumbs);
     }
 
+    popOne(): void {
+        const breadcrumbs = this.breadcrumbs$.value;
+        breadcrumbs.pop();
+        this.setBreadcrumbs(breadcrumbs);
+    }
+
     setCrumbAt(degree: number, groupName: string): void {
         const breadcrumbs = [];
         for(let i = 0; i < degree; i++) {
@@ -93,7 +102,7 @@ export class NavigationService {
     setBreadcrumbs(breadcrumbs: string[]): void {
         this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
-        ConfigStoreService.set('last-breadcrumbs', this.breadcrumbs$.value);
+        this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 
     //#endregion

@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { TableModule } from 'primeng/table';
+import { TooltipModule } from 'primeng/tooltip';
 
-import { StatusIndicatorModule } from '@component/status-indicator/status-indicator.module';
 import { SearchComponent } from './search.component';
 
 @NgModule({
@@ -12,8 +15,10 @@ import { SearchComponent } from './search.component';
     imports: [
         CommonModule,
         FormsModule,
-
-        StatusIndicatorModule,
+        ButtonModule,
+        InputTextModule,
+        TableModule,
+        TooltipModule,
     ],
     exports: [
         SearchComponent

@@ -10,6 +10,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 // App
 import { NavDrawerModule } from '@component/nav-drawer/nav-drawer.module';
+import { SearchBarModule } from '@component/search-bar/search-bar.module';
 import { StatBarModule } from '@component/stat-bar/stat-bar.module';
 import { BreadcrumbsModule } from '@component/breadcrumbs/breadcrumbs.module';
 import { MainContentModule } from './view/main-content/main-content.module';
@@ -36,6 +37,7 @@ const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader => new Transla
         }),
 
         NavDrawerModule,
+        SearchBarModule,
         StatBarModule,
         BreadcrumbsModule,
         MainContentModule,

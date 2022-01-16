@@ -1,12 +1,13 @@
 import { DataGroup } from '@domain/DataGroup';
 import { SaveStoreService } from '@service/store/save-store.service';
+import { ElectronService } from '@service/electron/electron.service';
 
-export function Custom(parent): DataGroup {
-    const data = DataGroup.fromJSON(parent, './custom');
+export function Custom(svcElectron: ElectronService, svcSaveStore: SaveStoreService, parent): DataGroup {
+    const data = DataGroup.fromJSON(svcElectron, parent, './custom');
     data.isCustomGroup = true;
     data.draggable = true;
 
-    const customTasks = SaveStoreService.store.get('custom') || {};
+    const customTasks = svcSaveStore.store.get('custom') || {};
 
     // Have to temporarily keep this in until everyone is off 0.5.55
     if(!Array.isArray(customTasks)) {

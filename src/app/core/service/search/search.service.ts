@@ -1,32 +1,65 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
-import { data } from '../../../data';
+import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { NavigationService } from '@service/navigation/navigation.service';
 
-import { Match, MatchGroup } from './types';
+import { Match, MatchGroup, Status } from './types';
 
 @Injectable({
     providedIn: 'root'
 })
 export class SearchService {
-    static cleanMatchGroups(matches: MatchGroup[]): MatchGroup[] {
-        matches.forEach((match) => {
-            const taskCount = match.tasks.length;
-            match.matchesString = taskCount > 1 ? `(${taskCount}) ` : '';
-            match.matchesString += match.tasks.map((t) => t.name).join(', ');
-        });
-
-        return matches;
+    constructor(
+        private svcData: DataService,
+        private svcNavigation: NavigationService
+    ) {
     }
 
+    //#region------------------------------------------------------- App Search
+    searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
+    searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
+    searchMatches$: BehaviorSubject<MatchGroup[]> = new BehaviorSubject<MatchGroup[]>([]);
+
+    doAppSearch(searchTerm: string): void {
+        searchTerm = searchTerm?.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+
+        if(!searchTerm || searchTerm.length < 3) {
+            this.searchStatus$.next(Status.Failure);
+            this.searchError$.next('Please enter at least 3 characters');
+        }
+        else {
+            // Timeout allows UI to update
+            // setTimeout(() => {
+            const matches: MatchGroup[] = this.searchData(searchTerm);
+
+            if(matches.length > 0) {
+                this.searchStatus$.next(Status.Success);
+                this.searchError$.next(null);
+                this.searchMatches$.next(matches);
+
+                this.svcNavigation.setBreadcrumbs(['Overall', 'FFXIV Completionist', 'Search']);
+            }
+            else {
+                this.searchStatus$.next(Status.Failure);
+                this.searchError$.next('No tasks found');
+            }
+            // }, 250);
+        }
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Reuseable Search Logic
     searchData(searchTerm: string, strict: boolean = false): MatchGroup[] {
-        const matches = this.searchGroupForTerm(data, searchTerm, strict);
+        const matches = this.searchGroupForTerm(this.svcData.data, searchTerm, strict);
         const matchGroups = this.groupMatches(matches);
 
         return SearchService.cleanMatchGroups(matchGroups);
     }
 
-    searchGroupForTerm(group: DataGroup, searchTerm: string, strict: boolean): Match[] {
+    private searchGroupForTerm(group: DataGroup, searchTerm: string, strict: boolean): Match[] {
         const matches: Match[] = [];
 
         // Recurse downward
@@ -41,7 +74,7 @@ export class SearchService {
             for(const id in group.tasks) {
                 if(group.tasks.hasOwnProperty(id)) {
                     const taskName = group.tasks[id].name;
-                    if(taskName && this.namesFuzzyMatch(searchTerm, taskName, strict)) {
+                    if(taskName && SearchService.namesFuzzyMatch(searchTerm, taskName, strict)) {
                         matches.push({
                             path: group.groupPath.join(' > '),
                             name: taskName,
@@ -53,16 +86,6 @@ export class SearchService {
         }
 
         return matches;
-    }
-
-    // Fuzzy matches search term against task name or if task name includes search term
-    namesFuzzyMatch(searchTerm: string, taskName: string, strict: boolean): boolean {
-        const fuzzySearchTerm = searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
-        const fuzzyTaskName = taskName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
-
-        if(fuzzySearchTerm === fuzzyTaskName) return true;
-
-        return !strict && fuzzyTaskName.includes(fuzzySearchTerm);
     }
 
     private groupMatches(matches: Match[]): MatchGroup[] {
@@ -90,4 +113,29 @@ export class SearchService {
 
         return groupedMatches;
     }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Helpers
+    private static cleanMatchGroups(matches: MatchGroup[]): MatchGroup[] {
+        matches.forEach((match) => {
+            const taskCount = match.tasks.length;
+            match.matchesString = taskCount > 1 ? `(${taskCount}) ` : '';
+            match.matchesString += match.tasks.map((t) => t.name).join(', ');
+        });
+
+        return matches;
+    }
+
+    // Fuzzy matches search term against task name or if task name includes search term
+    private static namesFuzzyMatch(searchTerm: string, taskName: string, strict: boolean): boolean {
+        const fuzzySearchTerm = searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+        const fuzzyTaskName = taskName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+
+        if(fuzzySearchTerm === fuzzyTaskName) return true;
+
+        return !strict && fuzzyTaskName.includes(fuzzySearchTerm);
+    }
+
+    //#endregion
 }

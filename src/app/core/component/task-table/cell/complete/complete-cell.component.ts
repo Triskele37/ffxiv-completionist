@@ -1,8 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Completion } from '@constant';
+import { DataService } from '@data';
 import { Task } from '@domain/Task';
-import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-complete-cell',
@@ -14,7 +14,7 @@ export class CompleteCellComponent {
     @Input() flag: Completion;
     @Output() onChange = new EventEmitter<void>();
 
-    constructor(private svcStore: SaveStoreService) {
+    constructor(private svcData: DataService) {
     }
 
     onTaskCompleteClick() {
@@ -32,7 +32,7 @@ export class CompleteCellComponent {
     }
 
     changeCompletion() {
-        this.svcStore.applyDataToStore();
+        this.svcData.applyDataToStore();
         this.onChange.emit();
     }
 }

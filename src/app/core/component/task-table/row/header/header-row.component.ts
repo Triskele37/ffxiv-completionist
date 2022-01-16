@@ -25,15 +25,16 @@ export class HeaderRowComponent implements OnInit {
         }
     };
 
-    constructor() {
-        const filters = ConfigStoreService.get('table-filters');
+    constructor(private svcConfig: ConfigStoreService) {
+    }
+
+    ngOnInit() {
+        const filters = this.svcConfig.get('table-filters');
 
         this.filters.completion.completed = !!filters.completed;
         this.filters.completion.incomplete = !!filters.incomplete;
         this.filters.completion.excluded = !!filters.excluded;
-    }
 
-    ngOnInit() {
         this.filterChange.emit(this.filters);
     }
 
@@ -41,7 +42,7 @@ export class HeaderRowComponent implements OnInit {
         const key = value === Completion.Y ? 'completed' :
             value === Completion.N ? 'incomplete' : 'excluded';
         this.filters.completion[key] = !this.filters.completion[key];
-        ConfigStoreService.set(`table-filters.${key}`, this.filters.completion[key]);
+        this.svcConfig.set(`table-filters.${key}`, this.filters.completion[key]);
 
         this.filters = Object.assign({}, this.filters);
         this.filterChange.emit(this.filters);

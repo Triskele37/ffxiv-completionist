@@ -1,8 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Completion } from '@constant';
+import { DataService } from '@data';
 import { Task, TaskMap } from '@domain/Task';
-import { SaveStoreService } from '@service/store/save-store.service';
 
 type History = {
     tasks: TaskHistory[];
@@ -34,7 +34,7 @@ export class QuickMarkDropdownComponent {
     N = Completion.N;
     X = Completion.X;
 
-    constructor(private svcStore: SaveStoreService) {
+    constructor(private svcData: DataService) {
     }
 
     onMouseEnter(): void {
@@ -67,7 +67,7 @@ export class QuickMarkDropdownComponent {
         if(history.tasks.length) {
             this.onMark.emit();
             this.history.push(history);
-            this.svcStore.applyDataToStore();
+            this.svcData.applyDataToStore();
         }
     }
 
@@ -81,6 +81,6 @@ export class QuickMarkDropdownComponent {
         });
 
         this.onMark.emit();
-        this.svcStore.applyDataToStore();
+        this.svcData.applyDataToStore();
     }
 }

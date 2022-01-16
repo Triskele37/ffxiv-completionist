@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Completion } from '@constant';
-import { data } from '@data';
+import { DataService } from '@data';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-settings',
@@ -11,7 +10,6 @@ import { SaveStoreService } from '@service/store/save-store.service';
     styleUrls: ['./settings.component.scss']
 })
 export class SettingsComponent implements OnInit {
-    devMode: boolean = false;
     settings: Settings = {
         storeName: { key: 'store-name' },
         storeLocation: { key: 'store-loc' },
@@ -24,18 +22,16 @@ export class SettingsComponent implements OnInit {
         },
         chainingEnabled: { key: 'chaining-enabled' },
         chainMinThreshold: { key: 'chain-min-threshold' },
-
-        // Developer settings
-        idColumnEnabled: { key: 'id-column-enabled' },
-        maintainMigrationVersion: { key: 'maintain-version' },
-        runVolatileMigrationsOnce: { key: 'run-volatile' }
     };
 
-    constructor(private svcSaveStore: SaveStoreService) {
+    constructor(
+        private svcData: DataService,
+        private svcConfigStore: ConfigStoreService,
+    ) {
     }
 
     ngOnInit() {
-        const loadSetting = (obj) => obj.value = ConfigStoreService.get(obj.key);
+        const loadSetting = (obj) => obj.value = this.svcConfigStore.get(obj.key);
 
         loadSetting(this.settings.storeName);
         loadSetting(this.settings.storeLocation);
@@ -46,22 +42,14 @@ export class SettingsComponent implements OnInit {
         loadSetting(this.settings.tableFilters.excluded);
         loadSetting(this.settings.chainingEnabled);
         loadSetting(this.settings.chainMinThreshold);
-
-        if(process.env.NODE_ENV === 'development') {
-            this.devMode = true;
-
-            loadSetting(this.settings.idColumnEnabled);
-            loadSetting(this.settings.maintainMigrationVersion);
-            loadSetting(this.settings.runVolatileMigrationsOnce);
-        }
     }
 
     onChangeStringSetting($event, path) {
-        ConfigStoreService.set(path, $event.target.value);
+        this.svcConfigStore.set(path, $event.target.value);
     }
 
     onChangeBoolSetting($event, path) {
-        ConfigStoreService.set(path, $event.target.checked);
+        this.svcConfigStore.set(path, $event.target.checked);
     }
 
     onChangeNumSetting($event, setting) {
@@ -69,7 +57,7 @@ export class SettingsComponent implements OnInit {
         if(newValue < $event.target.min) newValue = $event.target.min;
         else if(newValue > $event.target.max) newValue = $event.target.max;
 
-        ConfigStoreService.set(setting.key, newValue);
+        this.svcConfigStore.set(setting.key, newValue);
         setting.value = newValue;
     }
 
@@ -79,7 +67,7 @@ export class SettingsComponent implements OnInit {
         const startingClass = $event.target.value;
         const baseQuestPath = 'duty.quests.main-scenario.seventh-umbral-era';
 
-        const getTask = (taskPath, id) => data.getChildGroupFromPath(taskPath).tasks[id];
+        const getTask = (taskPath, id) => this.svcData.data.getChildGroupFromPath(taskPath).tasks[id];
 
         const gridania = getTask(`${baseQuestPath}.gridania`, 'x65660');
         const limsa = getTask(`${baseQuestPath}.limsa-lominsa`, 'x65645');
@@ -103,7 +91,7 @@ export class SettingsComponent implements OnInit {
             //     gridania.changeCompletionFlag(Completion.N, true);
         }
 
-        this.svcSaveStore.applyDataToStore();
+        this.svcData.applyDataToStore();
     }
 }
 

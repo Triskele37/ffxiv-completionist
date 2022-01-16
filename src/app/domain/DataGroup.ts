@@ -3,13 +3,15 @@ import { debounceTime } from 'rxjs/operators';
 
 import { Completion, CompletionFlag, Lang } from '@constant';
 import { loadJson } from '@data/loader';
-import { ConfigStoreService } from '@service/store/config-store.service';
+import { ElectronService } from '@service/electron/electron.service';
 
 import { GroupDefinition } from './Definition';
 import { Column } from './Column';
 import { Task } from './Task';
 
 export class DataGroup {
+    static lang: Lang;
+
     _key: string; // key used for storage
     name: string;
     _parent: DataGroup; // A reference to the parent group
@@ -32,7 +34,7 @@ export class DataGroup {
         this._key = json.key;
         this._parent = parent;
 
-        this.lang = parent?.lang || ConfigStoreService.get('lang');
+        this.lang = parent?.lang || DataGroup.lang;
 
         // Inherit things
         if(this._parent) {
@@ -58,34 +60,34 @@ export class DataGroup {
         return this;
     }
 
-    static fromJSON(parent, path): DataGroup {
-        const json = loadJson(path, parent?.lang || ConfigStoreService.get('lang'));
+    static fromJSON(svcElectron: ElectronService, parent, path): DataGroup {
+        const json = loadJson(svcElectron, path, parent?.lang || DataGroup.lang);
         return new DataGroup(json, parent);
     }
 
-    static fromDefinition(parent: DataGroup, definition: GroupDefinition): DataGroup {
+    static fromDefinition(svcElectron: ElectronService, parent: DataGroup, definition: GroupDefinition): DataGroup {
         if(definition.subGroups) {
             if(Array.isArray(definition.subGroups)) {
-                const group = DataGroup.fromJSON(parent, `${definition.path}/index`);
+                const group = DataGroup.fromJSON(svcElectron, parent, `${definition.path}/index`);
 
                 group.subGroups = definition.subGroups.map((subGroup) => {
                     if(typeof subGroup === 'string') {
-                        return DataGroup.fromJSON(group, `${definition.path}/${subGroup}`);
+                        return DataGroup.fromJSON(svcElectron, group, `${definition.path}/${subGroup}`);
                     }
                     else {
                         subGroup.path = `${definition.path}/${subGroup.path}`;
-                        return DataGroup.fromDefinition(group, subGroup);
+                        return DataGroup.fromDefinition(svcElectron, group, subGroup);
                     }
                 });
 
                 return group;
             }
             else {
-                return definition.subGroups(parent, definition.path);
+                return definition.subGroups(svcElectron, parent, definition.path);
             }
         }
         else {
-            return DataGroup.fromJSON(parent, definition.path);
+            return DataGroup.fromJSON(svcElectron, parent, definition.path);
         }
     }
 

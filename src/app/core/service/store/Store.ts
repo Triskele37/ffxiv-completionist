@@ -4,15 +4,23 @@ export class Store<StoreType> {
     data: StoreType;
     path: string;
     name: string;
+    ipcGetEvent: 'get-config' | 'get-save';
+    ipcSaveEvent: 'set-config' | 'set-save';
+    svcElectron: ElectronService;
 
-    constructor(path?: string, name?: string) {
-        this.path = path ? path : '';
-        this.name = name ? name : 'config.json';
+    constructor(
+        electronService: ElectronService,
+        ipcGetEvent: 'get-config' | 'get-save',
+        ipcSaveEvent: 'set-config' | 'set-save'
+    ) {
+        this.svcElectron = electronService;
+        this.ipcGetEvent = ipcGetEvent;
+        this.ipcSaveEvent = ipcSaveEvent;
+        this.load();
+    }
 
-        if(this.name.substr(-5) !== '.json') this.name += '.json';
-
-        const file = ElectronService.fs.readFileSync(`${this.path}\\${this.name}`, 'utf8');
-        this.data = JSON.parse(file);
+    load() {
+        this.data = this.svcElectron.ipcRenderer.sendSync(this.ipcGetEvent);
     }
 
     get(path?: string): any {
@@ -42,7 +50,7 @@ export class Store<StoreType> {
         this.save();
     }
 
-    delete(path: string) {
+    delete(path: string): void {
         const segments = path.split('.');
         const key = segments.pop();
 
@@ -58,9 +66,6 @@ export class Store<StoreType> {
     }
 
     private save() {
-        ElectronService.fs.writeFileSync(
-            `${this.path}\\${this.name}`,
-            JSON.stringify(this.data, null, 4)
-        );
+        this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
     }
 }

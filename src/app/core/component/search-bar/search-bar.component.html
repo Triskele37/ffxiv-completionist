@@ -1,0 +1,23 @@
+<p-button
+    label="FFXIV Completionist"
+    class="home-button"
+    (onClick)="onHomeClick()"
+></p-button>
+
+<div
+    class="search-bar"
+    [pTooltip]="svcSearch.searchError$ | async"
+>
+    <input
+        pInputText
+        placeholder="..."
+        [ngClass]="svcSearch.searchStatus$ | async"
+        [(ngModel)]="searchTerm"
+        (keydown.enter)="searchOnEnter()"
+    />
+
+    <p-button
+        icon="material-icons mi-search"
+        (onClick)="onSearch()"
+    ></p-button>
+</div>

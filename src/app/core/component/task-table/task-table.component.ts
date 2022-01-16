@@ -31,8 +31,11 @@ export class TaskTableComponent implements OnChanges {
         completion: {}
     };
 
-    constructor(private svcSaveStore: SaveStoreService) {
-        this.filters.completion = ConfigStoreService.get('table-filters');
+    constructor(
+        private svcConfig: ConfigStoreService,
+        private svcSaveStore: SaveStoreService
+    ) {
+        this.filters.completion = this.svcConfig.get('table-filters');
     }
 
     ngOnChanges(changes: SimpleChanges) {

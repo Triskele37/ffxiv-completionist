@@ -1,31 +1,33 @@
-import { app, Menu } from "electron";
-
-import { createNewStore } from './createNewStore';
-import { moveStoreLocation } from "./moveStoreLocation";
-import { changeLanguage } from "./changeLanguage";
-
-// Determine environment
-const isMac = process.platform === 'darwin';
-
-export const setupMenu = (mainWindow) => {
-    const menuTemplate = [
-        ...(isMac ? [APP_MENU] : []),
-        FILE_MENU,
-        PROGRESS_MENU(mainWindow),
-        VIEW_MENU,
-        SETTINGS_MENU(mainWindow),
-        DEVELOPER_MENU,
-    ];
-
-    const menu = Menu.buildFromTemplate(menuTemplate);
-    Menu.setApplicationMenu(menu);
+"use strict";
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
 };
-
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.addMenuItems = void 0;
+var electron_1 = require("electron");
+var modifyStore_1 = require("./modifyStore");
+var changeLanguage_1 = require("./changeLanguage");
+// Determine environment
+var isMac = process.platform === 'darwin';
+var addMenuItems = function (window) {
+    var menuTemplate = __spreadArray(__spreadArray([], (isMac ? [APP_MENU] : [])), [
+        FILE_MENU,
+        PROGRESS_MENU(window),
+        VIEW_MENU,
+        SETTINGS_MENU(window),
+        DEVELOPER_MENU,
+    ]);
+    var menu = electron_1.Menu.buildFromTemplate(menuTemplate);
+    electron_1.Menu.setApplicationMenu(menu);
+};
+exports.addMenuItems = addMenuItems;
 //------------------------------------------------------------------
 // Mac App Menu
 //------------------------------------------------------------------
-const APP_MENU = {
-    label: app.name,
+var APP_MENU = {
+    label: electron_1.app.name,
     submenu: [
         { role: 'about' },
         { type: 'separator' },
@@ -38,32 +40,29 @@ const APP_MENU = {
         { role: 'quit' }
     ]
 };
-
 //------------------------------------------------------------------
 // File Menu
 //------------------------------------------------------------------
-const FILE_MENU = {
+var FILE_MENU = {
     label: 'File',
     submenu: [
         isMac ? { role: 'close' } : { role: 'quit' }
     ]
 };
-
 //------------------------------------------------------------------
 // Progress Menu
 //------------------------------------------------------------------
-const PROGRESS_MENU = (mainWindow) => ({
+var PROGRESS_MENU = function (mainWindow) { return ({
     label: 'Progress',
     submenu: [
-        { label: 'New Character', click: createNewStore(mainWindow) },
-        { label: 'Load Character', click: moveStoreLocation(mainWindow) },
+        { label: 'New Character', click: modifyStore_1.createNewStore(mainWindow) },
+        { label: 'Load Character', click: modifyStore_1.moveStoreLocation(mainWindow) },
     ]
-});
-
+}); };
 //------------------------------------------------------------------
 // View Menu
 //------------------------------------------------------------------
-const VIEW_MENU = {
+var VIEW_MENU = {
     label: 'View',
     submenu: [
         { role: 'resetzoom' },
@@ -73,21 +72,19 @@ const VIEW_MENU = {
         { role: 'togglefullscreen' }
     ]
 };
-
 //------------------------------------------------------------------
 // Settings Menu
 //------------------------------------------------------------------
-const SETTINGS_MENU = (mainWindow) => ({
+var SETTINGS_MENU = function (mainWindow) { return ({
     label: 'Settings',
     submenu: [
-        { label: 'Change Language', click: changeLanguage(mainWindow) }
+        { label: 'Change Language', click: changeLanguage_1.changeLanguage(mainWindow) }
     ]
-});
-
+}); };
 //------------------------------------------------------------------
 // Developer Menu
 //------------------------------------------------------------------
-const DEVELOPER_MENU = {
+var DEVELOPER_MENU = {
     label: 'Developer',
     submenu: [
         { role: 'reload' },
@@ -95,3 +92,4 @@ const DEVELOPER_MENU = {
         { role: 'toggledevtools' },
     ]
 };
+//# sourceMappingURL=menuBar.js.map

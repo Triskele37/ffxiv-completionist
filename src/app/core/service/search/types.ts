@@ -1,3 +1,8 @@
+export enum Status {
+    Success = 'success',
+    Failure = 'failure'
+}
+
 export type Match = {
     id: string;
     name: string;

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
-import { data } from '@data';
+import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { UIGroup } from '@domain/UIGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -17,12 +17,15 @@ type Group = UIGroup | DataGroup;
 export class NavDrawerComponent implements OnInit {
     items: MenuItem[] = [this.addSubGroup(MainMenu)];
 
-    constructor(private svcNavigation: NavigationService) {
+    constructor(
+        private svcData: DataService,
+        private svcNavigation: NavigationService
+    ) {
     }
 
     ngOnInit() {
         // Build the initial menu items
-        data.subGroups.forEach((group) => this.items.push(this.addSubGroup(group)));
+        this.svcData.data.subGroups.forEach((group) => this.items.push(this.addSubGroup(group)));
 
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
@@ -48,7 +51,18 @@ export class NavDrawerComponent implements OnInit {
         }
 
         // The callback when the MenuItem is clicked
-        item.command = () => this.svcNavigation.setCrumbAt(depth, group.name);
+        item.command = () => {
+            const currentPath = this.svcNavigation.breadcrumbs$.value.join('.');
+            const groupPath = group.groupPath.join('.');
+
+            if(currentPath === groupPath) {
+                // Current selected group was clicked again, close
+                this.svcNavigation.popOne();
+            }
+            else {
+                this.svcNavigation.setCrumbAt(depth, group.name);
+            }
+        };
 
         return item;
     }

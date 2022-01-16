@@ -6,8 +6,8 @@ import { migrate_5_58_barding } from './barding';
 import { migrate_5_58_emotes } from './emote';
 import { migrate_5_58_shared_fate } from './shared-fate';
 
-export function migrate_5_5_to_5_58(): void {
-    const store = new ChangeStore('0.5.58');
+export function migrate_5_5_to_5_58(svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcSaveStore, '0.5.58');
 
     // Fixing bug from last build
     store.changeKey('duty.quests.other', 'undefined', 'quasi-quests');
@@ -33,7 +33,7 @@ export function migrate_5_5_to_5_58(): void {
     }
 
     //------------------------------------------------------------------ Custom Task Reformat
-    const oldCustom = SaveStoreService.store.get('custom');
+    const oldCustom = svcSaveStore.store.get('custom');
 
     // Perform once
     if(Array.isArray(oldCustom)) {
@@ -57,17 +57,17 @@ export function migrate_5_5_to_5_58(): void {
             customMeta[`x${newId}`] = meta;
         });
 
-        SaveStoreService.store.set('custom', customMeta);
+        svcSaveStore.store.set('custom', customMeta);
 
         // Update custom flag storage
-        const oldFlags: any = SaveStoreService.store.get('overall.custom');
+        const oldFlags: any = svcSaveStore.store.get('overall.custom');
         if(oldFlags.undefined) delete oldFlags.undefined;
 
         const customFlag = {};
         Object.keys(oldFlags).forEach((id) => {
             customFlag[`x${id}`] = oldFlags[id];
         });
-        SaveStoreService.store.set('overall.custom', customFlag);
+        svcSaveStore.store.set('overall.custom', customFlag);
     }
 
     store.write();

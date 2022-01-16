@@ -4,7 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { APP_CONFIG } from '../environments/environment';
 
 import { ElectronService } from '@service/electron/electron.service';
-import { SaveStoreService } from '@service/store/save-store.service';
+import { DataService } from '@data';
 
 @Component({
     selector: 'xiv-root',
@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     constructor(
         private electronService: ElectronService,
         private translate: TranslateService,
-        private svcStore: SaveStoreService
+        private svcData: DataService
     ) {
         this.translate.setDefaultLang('en');
 
@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
         this.loading = true;
 
         try {
-            this.svcStore.initializeData();
+            this.svcData.initializeData();
             this.loading = false;
         }
         catch(e) {

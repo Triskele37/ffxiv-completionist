@@ -1,18 +1,16 @@
-#search-data-container {
+.search-data-container {
     margin-right: 20px;
     height: 100%;
     width: 100%;
 
     .section-container {
+        // Prevents some janky-ness
         display: inline-block;
-        //vertical-align: top;
     }
 
-    .search-line {
-        margin: 10px 0;
-    }
-
-    .output {
-        margin-top: 20px;
+    // Allow columns to resize, but not too much
+    .results ::ng-deep td {
+        width: 40%;
+        &:first-child { width: 60% }
     }
 }

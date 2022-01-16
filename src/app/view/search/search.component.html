@@ -1,42 +1,38 @@
-<div id="search-data-container">
-    <div>
-        <div class="section-container">
-            <p>Enter your search term below</p>
-            <div class="search-line">
-                <xiv-status-indicator [status]="status"></xiv-status-indicator>
-                <input
-                    #searchInput
-                    class="xiv-input"
-                    placeholder="..."
-                    [(ngModel)]="searchTerm"
-                    (keydown.enter)="searchOnEnter()"
-                />
-                <button (click)="onSearch()">Search</button>
-            </div>
-            {{info}}
-        </div>
-        <div class="section-container">
-            <ul>
-                <li>This search is case insensitive and returns partial results</li>
-                <li>It ignores any character other than letters and numbers</li>
-                <li>Requires at least 3 characters to run</li>
-                <li>Click on the result row to jump to that section</li>
-            </ul>
-        </div>
+<div class="search-data-container">
+    <div class="section-container">
+        <ul>
+            <li>This search is case insensitive and returns partial results</li>
+            <li>It ignores any character other than letters and numbers</li>
+            <li>Requires at least 3 characters to run</li>
+            <li>Click on the result row to jump to that section</li>
+        </ul>
     </div>
-    <div *ngIf="status === 'success'" class="output">
-        <table class="xiv-table">
-            <tr>
-                <th>Match/es</th>
-                <th>Group</th>
-            </tr>
-            <tr
-                *ngFor="let match of matches"
-                (click)="onJumpToGroup(match)"
-            >
-                <td>{{match.matchesString}}</td>
-                <td>{{match.path}}</td>
-            </tr>
-        </table>
+
+    <div *ngIf="(svcSearch.searchStatus$ | async) === Status.Success" class="results">
+        <p-table [value]="svcSearch.searchMatches$ | async">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>{{(svcSearch.searchMatches$ | async).length}} Match/es</th>
+                    <th pSortableColumn="path">
+                        Group
+                        <p-sortIcon field="path"></p-sortIcon>
+                    </th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-match>
+                <tr>
+                    <td>{{match.matchesString}}</td>
+                    <td>
+                        <p-button
+                            styleClass="p-button-info p-button-text"
+                            pTooltip="Navigate to this group"
+                            tooltipPosition="left"
+                            [label]="match.path"
+                            (onClick)="onJumpToGroup(match)"
+                        ></p-button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
     </div>
 </div>

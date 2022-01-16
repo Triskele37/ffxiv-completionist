@@ -1,9 +1,9 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
+import { DataService } from '@data';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
-import { SaveStoreService } from '@service/store/save-store.service';
 import { ChainedGroup, ChainedTasks, ChainStart } from '@service/chain/types';
 
 @Component({
@@ -27,9 +27,9 @@ export class ChainDropdownComponent implements OnInit {
     chainStart: ChainStart;
 
     constructor(
+        private svcData: DataService,
         private svcNavigation: NavigationService,
         private svcChain: ChainService,
-        private svcStore: SaveStoreService,
     ) {
     }
 
@@ -105,6 +105,6 @@ export class ChainDropdownComponent implements OnInit {
 
         // Commit the undo to chain service and store
         this.svcChain.clearChain();
-        this.svcStore.applyDataToStore();
+        this.svcData.applyDataToStore();
     }
 }

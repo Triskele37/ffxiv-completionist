@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
-import { data } from '@data';
+import { DataService } from '@data';
+import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
@@ -8,26 +10,36 @@ import { NavigationService } from '@service/navigation/navigation.service';
     templateUrl: './stat-bar.component.html',
     styleUrls: ['./stat-bar.component.scss']
 })
-export class StatBarComponent {
-    allData = data;
-    selectedGroup;
+export class StatBarComponent implements OnInit {
+    // Group given to the 1st summary line
+    allData: DataGroup;
 
-    showSelectedGroupLine: boolean = false;
+    // Group given to the 2nd summary line
+    group: DataGroup;
 
-    constructor(private svcNavigation: NavigationService) {
-        this.svcNavigation.selectedGroup$.subscribe((selectedGroup) => {
-            this.selectedGroup = selectedGroup;
+    // Flag to hide the 2nd summary line
+    hideGroupLine: boolean = false;
 
-            this.showSelectedGroupLine = this.shouldShowSelectedGroupLine;
+    // Actions available when right clicking either bar
+    contextMenuItems: MenuItem[] = [{
+        label: 'Toggle Group Line',
+        command: this.toggleGroupLine.bind(this)
+    }];
+
+    constructor(
+        private svcData: DataService,
+        private svcNavigation: NavigationService
+    ) {
+    }
+
+    ngOnInit() {
+        this.allData = this.svcData.data;
+        this.svcNavigation.selectedGroup$.subscribe((group) => {
+            this.group = (group instanceof DataGroup) ? group : null;
         });
     }
 
-    get shouldShowSelectedGroupLine() {
-        if(!this.selectedGroup) return false;
-        else if(this.selectedGroup === this.allData) return false;
-        else if(this.selectedGroup.percentComplete === undefined) return false;
-        else if(this.selectedGroup.percentComplete === null) return false;
-
-        return true;
+    private toggleGroupLine() {
+        this.hideGroupLine = !this.hideGroupLine;
     }
 }

@@ -1,13 +1,13 @@
-const fs = window.require('fs');
+import { ElectronService } from '@service/electron/electron.service';
 
 type Lang = 'en' | 'fr';
-export function loadJson(path: string, lang: Lang) {
+export function loadJson(svcElectron: ElectronService, path: string, lang: Lang) {
     const [langPrefix, commonPrefix] = getPrefixes(lang || 'en');
 
     let finalJson: any;
     try {
-        const common = JSON.parse(fs.readFileSync(`${commonPrefix}/${path}.json`, 'utf8'));
-        const locale = JSON.parse(fs.readFileSync(`${langPrefix}/${path}.json`, 'utf8'));
+        const common = svcElectron.ipcRenderer.sendSync('load-json', `${commonPrefix}/${path}.json`);
+        const locale = svcElectron.ipcRenderer.sendSync('load-json', `${langPrefix}/${path}.json`);
 
         try {
             // Destructure headers and tasks so they aren't mapped

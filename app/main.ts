@@ -3,6 +3,10 @@ import * as path from 'path';
 import * as fs from 'fs';
 import * as url from 'url';
 
+import { initActions } from './main/actions';
+import { initializeConfigStore } from './main/actions/onGetConfig';
+import { initializePlayerStore } from './main/actions/onGetSave';
+
 // Initialize remote module
 //TODO: potentially remove as its a work-around for adhearing to main/renderer division
 require('@electron/remote/main').initialize();
@@ -22,9 +26,9 @@ function createWindow(): BrowserWindow {
         height: size.height,
         webPreferences: {
             nodeIntegration: true,
-            allowRunningInsecureContent: isServe,
-            contextIsolation: false,  // false if you want to run e2e test with Spectron
-            enableRemoteModule: true // true if you want to run e2e test with Spectron or use remote module in renderer context (ie. Angular)
+            enableRemoteModule: true, // true if you want to run e2e test with Spectron or use remote module in renderer context (ie. Angular)
+            // Necessary for ElectronService to function
+            contextIsolation: false,
         },
     });
 
@@ -51,13 +55,27 @@ function createWindow(): BrowserWindow {
         }));
     }
 
-    // Emitted when the window is closed.
+    // window.on('ready-to-show', () => {
+    //     window.show();
+    //     if(window.isMaximized) window.maximize();
+    // });
+    //
+    // // Capture window state before close
+    // window.on('close', () => {
+    //     saveWindowState(window);
+    // });
+
+    // Emitted when the window is closed
     window.on('closed', () => {
         // Dereference the window object, usually you would store window
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
         window = null;
     });
+
+    initializeConfigStore();
+    initializePlayerStore();
+    initActions();
 
     return window;
 }
@@ -87,6 +105,7 @@ try {
     });
 
 } catch(e) {
+    console.log(e);
     // Catch Error
     // throw e;
 }

@@ -1,39 +1,30 @@
-import { ConfigStoreService } from '../config-store.service';
 import { SaveStoreService } from '../save-store.service';
 
 type ID = number | string;
 
 export class ChangeStore {
+    svcSaveStore: SaveStoreService;
     newStore: any;
     oldStore: any;
 
     version: string;
-    isTesting: boolean;
 
-    constructor(version: string) {
+    constructor(svcSaveStore: SaveStoreService, version: string) {
         console.log(`Migrating to ${version}`);
+        this.svcSaveStore = svcSaveStore;
 
         // Create the initial `overall` object for new users
-        if(!SaveStoreService.store.get('overall')) SaveStoreService.store.set('overall', {});
+        if(!this.svcSaveStore.store.get('overall')) this.svcSaveStore.store.set('overall', {});
 
         // Create class properties
-        this.oldStore = Object.assign(SaveStoreService.store.get('overall'), {});
-        this.newStore = Object.assign(SaveStoreService.store.get('overall'), {});
+        this.oldStore = Object.assign(this.svcSaveStore.store.get('overall'), {});
+        this.newStore = Object.assign(this.svcSaveStore.store.get('overall'), {});
         this.version = version;
-
-        // Testing flag that allows migration to run more than once
-        this.isTesting = !!ConfigStoreService.get('maintain-version');
     }
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
-        SaveStoreService.store.set('overall', this.newStore);
-        if(!this.isTesting) SaveStoreService.store.set('version', this.version);
-
-        // Reset volatile setting
-        if(process.env.NODE_ENV === 'development') {
-            ConfigStoreService.set('run-volatile', false);
-        }
+        this.svcSaveStore.store.set('overall', this.newStore);
     }
 
     // Change Helper when task is in same group

@@ -16,18 +16,3 @@ p-button {
 }
 
 //---------------------- Scrollbar Override ----------------------
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: $blue-1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: $blue-3;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: $blue-2;
-}

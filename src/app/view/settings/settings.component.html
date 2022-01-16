@@ -93,44 +93,4 @@
             />
         </div>
     </div>
-
-    <div *ngIf="devMode" class="settings-group">
-        <label class="setting-header">Developer Settings</label>
-        <div
-            class="setting"
-            title="Enable/Disable ID columns in all tables"
-        >
-            <label>ID Columns:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.idColumnEnabled.value"
-                (change)="onChangeBoolSetting($event, settings.idColumnEnabled.key)"
-            />
-        </div>
-        <div
-            class="setting"
-            title="Enable/Disable maintaining original store version after a migration"
-        >
-            <label>Maintain Version:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.maintainMigrationVersion.value"
-                (change)="onChangeBoolSetting($event, settings.maintainMigrationVersion.key)"
-            />
-        </div>
-        <div
-            class="setting"
-            title="Run volatile migration blocks on next reload then reset"
-        >
-            <label>Run Volatile Once:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.runVolatileMigrationsOnce.value"
-                (change)="onChangeBoolSetting($event, settings.runVolatileMigrationsOnce.key)"
-            />
-        </div>
-    </div>
 </div>
