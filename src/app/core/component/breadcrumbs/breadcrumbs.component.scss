@@ -1,9 +1,6 @@
 .breadcrumb-container {
-    ::ng-deep {
-        .p-breadcrumb {
-            .p-menuitem-link {
-                cursor: pointer;
-            }
-        }
+    // Make cursor a pointer when hovering a breadcrumb MenuItem
+    ::ng-deep .p-breadcrumb .p-menuitem-link {
+        cursor: pointer;
     }
 }

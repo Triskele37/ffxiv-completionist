@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-import { StoreService } from '../store/store.service';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { ChainTask, ChainStart, ChainedTasks } from './types';
 
 @Injectable({
@@ -14,10 +14,9 @@ export class ChainService {
     chainedTasks$ = new BehaviorSubject<ChainedTasks>({});
     chainStart$ = new BehaviorSubject<ChainStart>(null);
 
-    constructor(private svcStore: StoreService) {
+    constructor() {
         ChainService.Instance = this;
     }
-
 
     idExistsInStore(id: number, toFlag: string): boolean {
         // Matches start task
@@ -92,7 +91,7 @@ export class ChainService {
         }
 
         // Update show prop for all chained tasks
-        const show = this.chainedTaskCount$.value < this.svcStore.eStore.get('chain-min-threshold');
+        const show = this.chainedTaskCount$.value < ConfigStoreService.get('chain-min-threshold');
         for(const key in chainedTasks) {
             if(chainedTasks.hasOwnProperty(key)) {
                 chainedTasks[key].show = show;

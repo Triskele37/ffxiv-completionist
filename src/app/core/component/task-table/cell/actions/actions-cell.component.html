@@ -1,8 +1,34 @@
 <td class="actions-cell noSelect">
-    <p-speedDial
-        [model]="items"
-        direction="left"
-        pTooltip="Row Actions"
+    <p-button
+        class="action-dial"
+        styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
+        [icon]="expanded ? 'pi pi-chevron-right' : 'pi pi-chevron-left'"
+        [pTooltip]="expanded ? '' : 'Row Actions'"
         tooltipPosition="left"
-    ></p-speedDial>
+        (onClick)="expanded = !expanded"
+    ></p-button>
+
+    <div *ngIf="expanded" class="actions">
+        <div
+            *ngIf="task._parent.draggable"
+            class="action pi pi-bars"
+            pTooltip="Reorder Row"
+            tooltipPosition="top"
+            [pReorderableRowHandle]="rowIndex"
+        ></div>
+
+        <div
+            class="action gamer-icon"
+            pTooltip="Gamer Escape"
+            tooltipPosition="top"
+            (click)="gotoGamerEscape()"
+        ></div>
+
+        <div
+            class="action garland-icon"
+            pTooltip="Garland Tools"
+            tooltipPosition="top"
+            (click)="gotoGarlandTools()"
+        ></div>
+    </div>
 </td>

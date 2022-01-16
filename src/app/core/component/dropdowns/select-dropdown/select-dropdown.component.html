@@ -1,21 +1,15 @@
 <span
-    #container
-    (mouseenter)="overlayPanel.show($event)"
-    (mouseleave)="overlayPanel.hide()"
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
 >
     <p-button
         styleClass="p-button-outlined"
         icon="material-icons mi-touch-app"
     ></p-button>
 
-    <p-overlayPanel
-        #overlayPanel
-        styleClass="overlay-dropdown"
-        [appendTo]="container"
-    >
-        <span
-            class="option-container"
-        >
+    <div *ngIf="isVisible" class="overlay-panel">
+        <span class="content">
             <p-button [disabled]="true">Selection Actions Menu</p-button>
             <p-button (click)="onSelectChange(true)">Select All Tasks</p-button>
             <p-button (click)="onSelectChange(false)">Deselect All Tasks</p-button>
@@ -26,5 +20,5 @@
                 <p-button (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</p-button>
             </ng-template>
         </span>
-    </p-overlayPanel>
+    </div>
 </span>

@@ -1,28 +1,22 @@
-<div id="main-content" *ngIf="!!selectedGroup">
+<div class="main-content" *ngIf="selectedGroup">
     <!----------- Landing Page / Fallback ----------->
-    <div *ngIf="selectedGroup.noContent || !selectedGroup; else customGroup">
+    <ng-container *ngIf="selectedGroup.noContent || !selectedGroup; else customGroup">
         <xiv-landing-page></xiv-landing-page>
-    </div>
+    </ng-container>
 
     <!----------- Custom Component Group ----------->
     <ng-template #customGroup>
         <div
-            *ngIf="selectedGroup.component; else textGroup"
+            *ngIf="selectedGroup.component; else tableGroup"
             class="custom-group-component"
         >
             <ng-template anchor></ng-template>
         </div>
     </ng-template>
 
-    <ng-template #textGroup>
-        <span *ngIf="selectedGroup.text; else tableGroup">
-            {{selectedGroup.text}}
-        </span>
-    </ng-template>
-
     <!----------- Summary & Task Table ----------->
     <ng-template #tableGroup>
-        <ng-template *ngIf="!showAll">
+        <ng-container *ngIf="!showAll">
             <div *ngIf="selectedGroup.subGroups" class="group-summary-section">
                 <xiv-summary-line
                     *ngFor="let subGroup of selectedGroup.subGroups"
@@ -31,36 +25,34 @@
             </div>
 
             <div class="section-actions" *ngIf="isShowAllVisible">
-                <button
+                <p-button
                     class="xiv-button"
-                    (click)="toggleShowAll()"
-                >
-                    {{showAll ? 'Hide All Tasks' : 'Show All Tasks'}}
-                </button>
+                    [label]="showAll ? 'Hide All Tasks' : 'Show All Tasks'"
+                    (onClick)="toggleShowAll()"
+                ></p-button>
             </div>
-        </ng-template>
+        </ng-container>
 
-        <ng-template *ngIf="showAll">
+        <ng-container *ngIf="showAll">
             <div class="section-actions">
-                <button
-                    class="xiv-button exit-all-button"
-                    (click)="toggleShowAll()"
-                >
-                    Exit All Task View
-                </button>
+                <p-button
+                    class="xiv-button"
+                    label="Exit All Task View"
+                    (onClick)="toggleShowAll()"
+                ></p-button>
             </div>
-        </ng-template>
+        </ng-container>
 
         <!----------- Task Tables (show all & base) ----------->
-        <ng-template *ngIf="isShowAllVisible && showAll; else baseTable">
+        <ng-container *ngIf="isShowAllVisible && showAll; else baseTable">
             <xiv-show-all-section [group]="selectedGroup"></xiv-show-all-section>
-        </ng-template>
+        </ng-container>
 
         <ng-template #baseTable>
             <xiv-task-table
                 *ngIf="selectedGroup.taskCount !== null"
                 [group]="selectedGroup"
-                [columnConfig]="selectedGroup.columnConfig"
+                [columns]="selectedGroup.columns"
                 [tasks]="selectedGroup.tasks"
             ></xiv-task-table>
         </ng-template>

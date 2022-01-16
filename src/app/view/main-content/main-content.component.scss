@@ -1,9 +1,6 @@
 @import '../../../styles/colors';
 
-#main-content {
-    display: flex;
-    flex-direction: column;
-
+.main-content {
     height: calc(100% - 160px);
     margin: 10px;
 
@@ -23,12 +20,7 @@
     }
 
     .section-actions {
-        align-self: flex-end;
-        margin-bottom: -27px;
-        text-align: center;
-    }
-
-    .exit-all-button {
-        margin-right: 20px;
+        position: absolute;
+        right: 100px;
     }
 }

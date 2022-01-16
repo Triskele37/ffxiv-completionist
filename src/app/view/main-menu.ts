@@ -4,22 +4,16 @@ import { SearchComponent } from './search/search.component';
 import { VersionHistory } from './version-history';
 import { SettingsComponent } from './settings/settings.component';
 
-import { DataGroup } from '@domain/DataGroup';
+import { UIGroup } from '@domain/UIGroup';
 
-export const MainMenu: DataGroup = {
+export const MainMenu: UIGroup = new UIGroup({
     name: 'FFXIV Completionist',
     noContent: true,
     subGroups: [
         Instructions,
         DevNotes,
-        {
-            name: 'Search',
-            component: SearchComponent
-        },
+        { name: 'Search', component: SearchComponent },
         VersionHistory,
-        {
-            name: 'Settings',
-            component: SettingsComponent
-        },
-    ],
-} as DataGroup;
+        { name: 'Settings', component: SettingsComponent }
+    ]
+}, null);

@@ -1,8 +1,11 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
+import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
+import { Column } from '@domain/Column';
 import { Task } from '@domain/Task';
-import { StoreService } from '@service/store/store.service';
+import { ConfigStoreService } from '@service/store/config-store.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-task-table',
@@ -10,13 +13,14 @@ import { StoreService } from '@service/store/store.service';
     styleUrls: ['./task-table.component.scss']
 })
 export class TaskTableComponent implements OnChanges {
-    @Input() columnConfig: any[];
+    @Input() columns: Column[];
     @Input() group: DataGroup;
     @Input() tasks: { [key: string]: Task };
+    @Input() groupRows: boolean;
 
+    debounceDrag: boolean;
     displayedTasks = 0;
     totalTasks = 0;
-    rerenderKey = 0;
 
     hasTasks: boolean;
     uniqueValues: any;
@@ -27,16 +31,16 @@ export class TaskTableComponent implements OnChanges {
         completion: {}
     };
 
-    constructor(private svcStore: StoreService) {
-        this.filters.completion = this.svcStore.eStore.get('table-filters');
+    constructor(private svcSaveStore: SaveStoreService) {
+        this.filters.completion = ConfigStoreService.get('table-filters');
     }
 
     ngOnChanges(changes: SimpleChanges) {
-        const { columnConfig, group, tasks } = changes;
+        const { columns, group, tasks } = changes;
 
         if(tasks) this.hasTasks = this._hasTasks;
 
-        if(columnConfig || group || tasks) {
+        if(columns || group || tasks) {
             this.updateFilteredTasks();
         }
     }
@@ -52,8 +56,44 @@ export class TaskTableComponent implements OnChanges {
         this.updateFilteredTasks();
     }
 
-    onSelectChange() {
-        this.rerenderKey++;
+    onRowReorder($event: { dragIndex: number; dropIndex: number }): void {
+        // Bail if nothing moved
+        if($event.dragIndex === $event.dropIndex) return;
+
+        // Grab original data
+        const draggedTask = this.filteredTasksArr[$event.dragIndex];
+        const customFlags = this.svcSaveStore.get('overall.custom');
+        const customMeta = this.svcSaveStore.get('custom');
+        const taskKeys = Object.keys(customMeta);
+        const draggedKey = `x${draggedTask.id}`;
+
+        // Insert the dragged task and remove its original
+        if($event.dragIndex < $event.dropIndex) {
+            taskKeys.splice($event.dropIndex + 1, 0, draggedKey);
+            taskKeys.splice($event.dragIndex, 1);
+        }
+        else {
+            taskKeys.splice($event.dropIndex, 0, draggedKey);
+            taskKeys.splice($event.dragIndex + 1, 1);
+        }
+
+        // Reorder saved
+        const newTasks = {}, newFlags = {}, newMeta = {};
+        taskKeys.forEach((key) => {
+            newTasks[key] = this.tasks[key];
+            newFlags[key.substr(1)] = customFlags[key.substr(1)];
+            newMeta[key] = customMeta[key];
+        });
+
+        // Assign re-ordered objects, save to file
+        const firstId = Object.keys(this.tasks)[0];
+        this.tasks[firstId]._parent.tasks = newTasks;
+        this.svcSaveStore.set('overall.custom', newFlags);
+        this.svcSaveStore.set('custom', newMeta);
+
+        // Debounce dragging since its tied to file write
+        this.debounceDrag = true;
+        setTimeout(() => this.debounceDrag = false, 1000);
     }
 
     //#region----------------------------------------------------------- Computed
@@ -69,7 +109,7 @@ export class TaskTableComponent implements OnChanges {
             if(this.filteredTasks.hasOwnProperty(id)) {
                 const task = this.filteredTasks[id];
 
-                this.columnConfig?.forEach(({ key }) => {
+                this.columns?.forEach(({ key }) => {
                     if(!uniqueValues[key]) uniqueValues[key] = [];
 
                     const value = !task[key] && task[key] !== 0 ? '' : task[key];
@@ -81,7 +121,7 @@ export class TaskTableComponent implements OnChanges {
         }
 
         // Sort the unique values for pretty filter dropdowns
-        this.columnConfig?.forEach((column) => {
+        this.columns?.forEach((column) => {
             if(!uniqueValues[column.key]) return;
             if(column.filterType === 'number') {
                 uniqueValues[column.key].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
@@ -97,7 +137,7 @@ export class TaskTableComponent implements OnChanges {
     get _filteredTasks() {
         const filtered = Object.assign({}, this.tasks);
         const hotwire = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
-        hotwire.push(...this.columnConfig);
+        hotwire.push(...this.columns);
 
         for(const { key } of hotwire) {
             const filter = this.filters[key];
@@ -110,9 +150,9 @@ export class TaskTableComponent implements OnChanges {
                         // Completion filters
                         if(key === 'completion') {
                             switch(this.tasks[id].completionFlag) {
-                                case 'Y': removeFromFiltered = !filter.completed; break;
-                                case 'N': removeFromFiltered = !filter.incomplete; break;
-                                case 'X': removeFromFiltered = !filter.excluded; break;
+                                case Completion.Y: removeFromFiltered = !filter.completed; break;
+                                case Completion.N: removeFromFiltered = !filter.incomplete; break;
+                                case Completion.X: removeFromFiltered = !filter.excluded; break;
                                 default: removeFromFiltered = !filter.incomplete; break;
                             }
                         }

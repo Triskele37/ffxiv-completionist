@@ -1,6 +1,8 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
-import { StoreService } from '@service/store/store.service';
+import { Completion } from '@constant';
+import { Column } from '@domain/Column';
+import { ConfigStoreService } from '@service/store/config-store.service';
 
 @Component({
     selector: 'xiv-header-row',
@@ -9,9 +11,11 @@ import { StoreService } from '@service/store/store.service';
 })
 export class HeaderRowComponent implements OnInit {
     @Input() isNumericCompletion: boolean;
-    @Input() columnConfig: any[];
+    @Input() columns: Column[];
     @Input() uniqueValues;
     @Output() filterChange = new EventEmitter<any>();
+
+    Completion = Completion;
 
     filters = {
         completion: {
@@ -21,8 +25,8 @@ export class HeaderRowComponent implements OnInit {
         }
     };
 
-    constructor(private svcStore: StoreService) {
-        const filters = this.svcStore.eStore.get('table-filters');
+    constructor() {
+        const filters = ConfigStoreService.get('table-filters');
 
         this.filters.completion.completed = !!filters.completed;
         this.filters.completion.incomplete = !!filters.incomplete;
@@ -33,10 +37,11 @@ export class HeaderRowComponent implements OnInit {
         this.filterChange.emit(this.filters);
     }
 
-    onFilterCompletion(value) {
-        const key = (value === 'Y') ? 'completed' : (value === 'N') ? 'incomplete' : 'excluded';
+    onFilterCompletion(value: Completion): void {
+        const key = value === Completion.Y ? 'completed' :
+            value === Completion.N ? 'incomplete' : 'excluded';
         this.filters.completion[key] = !this.filters.completion[key];
-        this.svcStore.eStore.set(`table-filters.${key}`, this.filters.completion[key]);
+        ConfigStoreService.set(`table-filters.${key}`, this.filters.completion[key]);
 
         this.filters = Object.assign({}, this.filters);
         this.filterChange.emit(this.filters);

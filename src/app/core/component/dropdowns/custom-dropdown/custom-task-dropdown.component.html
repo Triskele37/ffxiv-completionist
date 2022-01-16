@@ -1,8 +1,7 @@
 <span
-    #container
-    class="custom-task-dropdown-container"
-    (mouseenter)="overlayPanel.show($event)"
-    (mouseleave)="overlayPanel.hide()"
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
 >
     <p-button
         styleClass="p-button-outlined"
@@ -15,12 +14,8 @@
         (click)="modalNoNo($event)"
     ></div>
 
-    <p-overlayPanel
-        #overlayPanel
-        styleClass="overlay-dropdown"
-        [appendTo]="container"
-    >
-        <span class="option-container">
+    <div *ngIf="isVisible && !isMergeVisible" class="overlay-panel">
+        <span class="content">
             <div class="task-property-input">
                 <input
                     type="text"
@@ -41,32 +36,30 @@
             <p-button label="Merge Custom Tasks into App" (onClick)="mergeCustomTasks()"></p-button>
             <p-button label="Remove Selected Tasks" (click)="removeSelectedCustomTasks()"></p-button>
         </span>
-    </p-overlayPanel>
+    </div>
 
-    <p-overlayPanel
-        #mergeOverlayPanel
-        styleClass="overlay-dropdown"
-        [appendTo]="container"
-    >
-        <span class="option-container">
-            <div class="merge-custom-tasks-dropdown-item">
+    <div *ngIf="isMergeVisible" class="overlay-panel">
+        <span class="content">
+            <div class="merge-details">
                 {{mergeTask.name}}<br/>
                 {{mergeTask.notes}}<br/><br/>
                 {{mergeInfo}}
             </div>
+
             <p-button
                 label="Auto-Merge Tasks with One Match"
                 (onClick)="autoMergeSingleMatches()"
             ></p-button>
             <p-button label="Skip" (onClick)="goToNextMerge()"></p-button>
             <p-button label="Exit" (onClick)="exitMerge()"></p-button>
-            <ng-template *ngIf="mergeMatches.length > 0">
+
+            <ng-container *ngIf="mergeMatches.length > 0">
                 <p-button
                     *ngFor="let match of mergeMatches"
                     [label]="match.path"
                     (onClick)="confirmCurrentMerge(match)"
                 ></p-button>
-            </ng-template>
+            </ng-container>
         </span>
-    </p-overlayPanel>
+    </div>
 </span>

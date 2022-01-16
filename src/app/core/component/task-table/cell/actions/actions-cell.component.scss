@@ -1,49 +1,45 @@
 :host {
-    $button-size: 20px;
+    $button-size: 25px;
 
     display: contents;
 
     .actions-cell {
         width: 45px;
 
-        .img {
-            cursor: pointer;
+        .action-dial ::ng-deep .p-button {
+            height: $button-size;
+            width: $button-size;
         }
 
-        ::ng-deep .p-speeddial {
-            right: 10px;
-            align-items: center;
+        .actions {
+            position: absolute;
+            display: flex;
+            right: 50px;
+            margin-top: -$button-size;
 
-            .p-speeddial-button {
+            .action {
+                background-color: var(--primary-color);
+                border: 1px solid var(--primary-color);
+                border-radius: 50%;
+
+                // Size & Spacing
                 height: $button-size;
                 width: $button-size;
+                margin: 0 5px;
 
-                .p-button-icon {
-                    font-size: 1rem;
+                // Center non-icon actions
+                justify-content: center;
+                align-items: center;
+                display: flex;
+
+                &.garland-icon {
+                    background: url('../../../../../../assets/icons/garland.png');
+                    background-size: cover;
                 }
-            }
 
-            .p-speeddial-list {
-                .p-speeddial-item {
-                    .p-speeddial-action {
-                        background-color: var(--primary-color);
-                        height: $button-size;
-                        width: $button-size;
-
-                        .garland-icon {
-                            background: url('../../../../../../assets/icons/garland.png');
-                            background-size: cover;
-                            height: $button-size;
-                            width: $button-size;
-                        }
-
-                        .gamer-icon {
-                            background: url('../../../../../../assets/icons/gamerescape.png');
-                            background-size: cover;
-                            height: $button-size;
-                            width: $button-size;
-                        }
-                    }
+                &.gamer-icon {
+                    background: url('../../../../../../assets/icons/gamerescape.png');
+                    background-size: cover;
                 }
             }
         }

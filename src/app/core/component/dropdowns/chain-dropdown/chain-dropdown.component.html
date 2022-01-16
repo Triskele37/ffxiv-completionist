@@ -1,8 +1,7 @@
 <span
-    #container
-    class="chain-dropdown-container"
-    (mouseenter)="overlayPanel.show($event); doNotify = false;"
-    (mouseleave)="overlayPanel.hide()"
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
 >
     <p-button
         styleClass="p-button-outlined"
@@ -10,65 +9,67 @@
         [ngClass]="{ 'do-notify': doNotify }"
     ></p-button>
 
-    <p-overlayPanel
-        #overlayPanel
-        styleClass="overlay-dropdown"
-        [appendTo]="container"
-    >
-        <span class="option-container">
-            <!-- Dropdown Content Body with Data -->
-            <ng-container *ngIf="!!chainStart; else noInfo">
-                <!-- Undo Button -->
+    <div *ngIf="isVisible" class="overlay-panel">
+        <!-- Dropdown Content Body with no Data -->
+        <div *ngIf="!chainStart" class="content">
+            <p-button label="No chain information to display"></p-button>
+        </div>
+
+        <!-- Dropdown Content Body with Data -->
+        <span *ngIf="chainStart" class="content">
+            <!-- Undo Button -->
+            <p-button
+                *ngIf="!disableUndo"
+                [label]="!undoVerified ? 'Undo last action' : 'Are you sure?'"
+                (onClick)="onUndoLastChain()"
+            ></p-button>
+
+            <!-- Recent Action Info -->
+            <span class="p-buttonset">
                 <p-button
-                    *ngIf="!disableUndo"
-                    (click)="onUndoLastChain()"
+                    styleClass="chain-task-path"
+                    [disabled]="true"
                 >
-                    {{undoNotClicked ? 'Undo last action' : 'Are you sure?'}}
+                    <div>{{chainStart.path}}</div>
+                    <div>
+                        Marking "{{chainStart.task.name}}"&nbsp;
+                        as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
+                        chained to {{chainedTaskCount}} other items
+                    </div>
                 </p-button>
-
-                <!-- Recent Action Info -->
-                <div
+                <p-button
+                    icon="material-icons mi-navigate-next"
                     pTooltip="Navigate to this group"
-                    (click)="onNavigateToGroup(chainStart.path)"
-                >
-                    {{chainStart.path}}
-                    <br/>
+                    tooltipPosition="left"
+                    styleClass="chain-task-nav"
+                    (onClick)="onNavigateToGroup(chainStart.path)"
+                ></p-button>
+            </span>
 
-                    Marking "{{chainStart.task.name}}"&nbsp;
-                    as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
-                    chained to {{chainedTaskCount}} other items
+            <!-- Chained Groups Scroll Container -->
+            <div class="chain-scroll-container">
+                <ng-container *ngFor="let group of chainedTasks | keyvalue">
+                    <span class="p-buttonset">
+                        <p-button
+                            label="{{group.key}} ({{groupChainLength(group.value)}})"
+                            styleClass="group-path"
+                            (onClick)="onToggleShowChainedGroup(group.value)"
+                        ></p-button>
+                        <p-button
+                            icon="material-icons mi-navigate-next"
+                            pTooltip="Navigate to this group"
+                            tooltipPosition="left"
+                            styleClass="group-nav"
+                            (onClick)="onNavigateToGroup(group.key)"
+                        ></p-button>
+                    </span>
 
-                    <span class="group-nav-arrow arrows-adjust">&#8614;</span>
-                </div>
-
-                <!-- Dropdown Content Scroller -->
-                <div class="chain-scroll-container">
-                    <p-button
-                        styleClass="chain-group"
-                        *ngFor="let group of chainedTasks | keyvalue"
-                    >
-                        <!-- Group Content Header -->
-                        <div>
-                            <span
-                                pTooltip="Toggle this group's visibility"
-                                (click)="onToggleShowChainedGroup(group.value)"
-                            >
-                                {{group.key}} ({{groupChainLength(group.value)}})
-                            </span>
-                            <span
-                                class="group-nav-arrow"
-                                pTooltip="Navigate to this group"
-                                (click)="onNavigateToGroup(group.key)"
-                            >
-                                &#8614;
-                            </span>
-                        </div>
-
-                        <!-- Group Content Items -->
+                    <!-- Group Content Items -->
+                    <ng-container *ngIf="group.value.show">
                         <ng-container *ngFor="let item of group.value | keyvalue">
                             <p-button
-                                *ngIf="group.value.show && !!item.value.task"
-                                styleClass="chained-task"
+                                *ngIf="item.value.task"
+                                class="chained-task"
                                 [disabled]="true"
                             >
                                 <span [ngClass]="[item.value.fromFlag]">
@@ -82,16 +83,9 @@
                                 {{item.value.task.name}}
                             </p-button>
                         </ng-container>
-                    </p-button>
-                </div>
-            </ng-container>
-
-            <!-- Dropdown Content Body with no Data -->
-            <ng-template #noInfo>
-                <p-button>
-                    No chain information to display
-                </p-button>
-            </ng-template>
+                    </ng-container>
+                </ng-container>
+            </div>
         </span>
-    </p-overlayPanel>
+    </div>
 </span>

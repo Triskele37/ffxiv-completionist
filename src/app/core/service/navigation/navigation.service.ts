@@ -3,23 +3,24 @@ import { BehaviorSubject } from 'rxjs';
 
 import { data } from '@data';
 import { DataGroup } from '@domain/DataGroup';
-import { StoreService } from '../store/store.service';
+import { UIGroup } from '@domain/UIGroup';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { MainMenu } from '../../../view/main-menu';
 
 @Injectable({
     providedIn: 'root'
 })
 export class NavigationService {
-    selectedGroup$ = new BehaviorSubject<DataGroup>(null);
+    selectedGroup$ = new BehaviorSubject<UIGroup | DataGroup>(null);
     breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
 
-    constructor(private svcStore: StoreService) {
+    constructor() {
         // Load previous breadcrumb state
-        const initialBreadcrumbs = this.svcStore.eStore.get('last-breadcrumbs') as string[];
-        if(!!initialBreadcrumbs) this.setBreadcrumbs(initialBreadcrumbs);
+        const initialBreadcrumbs = ConfigStoreService.get('last-breadcrumbs') as string[];
+        if(initialBreadcrumbs) this.setBreadcrumbs(initialBreadcrumbs);
     }
 
-    getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | null {
+    getGroupFromBreadcrumbs(breadcrumbs: string[]): UIGroup | DataGroup {
         if(!breadcrumbs) return null;
 
         if(breadcrumbs.length === 1) {
@@ -38,7 +39,7 @@ export class NavigationService {
         return navGroup;
     }
 
-    diveForGroup(group: DataGroup, targetName: string): DataGroup | null {
+    diveForGroup(group: DataGroup, targetName: string): DataGroup {
         for(const subGroup of group.subGroups) {
             if(subGroup.name === targetName) return subGroup;
         }
@@ -57,7 +58,7 @@ export class NavigationService {
     pushCrumb(crumb: string): void {
         const newBreadcrumbs = [...this.breadcrumbs$.value, crumb];
         this.breadcrumbs$.next(newBreadcrumbs);
-        this.svcStore.eStore.set('last-breadcrumbs', newBreadcrumbs);
+        ConfigStoreService.set('last-breadcrumbs', newBreadcrumbs);
 
         // also set the selected group to match
         const selectedGroup = this.selectedGroup$.value;
@@ -92,7 +93,7 @@ export class NavigationService {
     setBreadcrumbs(breadcrumbs: string[]): void {
         this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
-        this.svcStore.eStore.set('last-breadcrumbs', this.breadcrumbs$.value);
+        ConfigStoreService.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 
     //#endregion

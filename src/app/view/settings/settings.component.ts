@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Completion } from '@constant';
 import { data } from '@data';
-import { StoreService } from '@service/store/store.service';
+import { ConfigStoreService } from '@service/store/config-store.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-settings',
@@ -29,11 +31,11 @@ export class SettingsComponent implements OnInit {
         runVolatileMigrationsOnce: { key: 'run-volatile' }
     };
 
-    constructor(private svcStore: StoreService) {
+    constructor(private svcSaveStore: SaveStoreService) {
     }
 
     ngOnInit() {
-        const loadSetting = (obj) => obj.value = this.svcStore.eStore.get(obj.key);
+        const loadSetting = (obj) => obj.value = ConfigStoreService.get(obj.key);
 
         loadSetting(this.settings.storeName);
         loadSetting(this.settings.storeLocation);
@@ -55,11 +57,11 @@ export class SettingsComponent implements OnInit {
     }
 
     onChangeStringSetting($event, path) {
-        this.svcStore.eStore.set(path, $event.target.value);
+        ConfigStoreService.set(path, $event.target.value);
     }
 
     onChangeBoolSetting($event, path) {
-        this.svcStore.eStore.set(path, $event.target.checked);
+        ConfigStoreService.set(path, $event.target.checked);
     }
 
     onChangeNumSetting($event, setting) {
@@ -67,7 +69,7 @@ export class SettingsComponent implements OnInit {
         if(newValue < $event.target.min) newValue = $event.target.min;
         else if(newValue > $event.target.max) newValue = $event.target.max;
 
-        this.svcStore.eStore.set(setting.key, newValue);
+        ConfigStoreService.set(setting.key, newValue);
         setting.value = newValue;
     }
 
@@ -85,23 +87,23 @@ export class SettingsComponent implements OnInit {
 
         switch(startingClass) {
             case 'Archer': case 'Lancer': case 'Conjurer':
-                gridania.changeCompletionFlag('Y', true);
-                gridania.setCompletionFlag('N');
+                gridania.changeCompletionFlag(Completion.Y, true);
+                gridania.setCompletionFlag(Completion.N);
                 break;
             case 'Marauder': case 'Arcanist': case 'Rogue':
-                limsa.changeCompletionFlag('Y', true);
-                limsa.setCompletionFlag('N');
+                limsa.changeCompletionFlag(Completion.Y, true);
+                limsa.setCompletionFlag(Completion.N);
                 break;
             case 'Gladiator': case 'Pugilist': case 'Thaumaturge':
-                uldah.changeCompletionFlag('Y', true);
-                uldah.setCompletionFlag('N');
+                uldah.changeCompletionFlag(Completion.Y, true);
+                uldah.setCompletionFlag(Completion.N);
                 break;
-            default:
-                gridania.changeCompletionFlag('Y', true);
-                gridania.changeCompletionFlag('N', true);
+            // default: TODO: why was there a default
+            //     gridania.changeCompletionFlag(Completion.Y, true);
+            //     gridania.changeCompletionFlag(Completion.N, true);
         }
 
-        this.svcStore.applyDataToStore();
+        this.svcSaveStore.applyDataToStore();
     }
 }
 

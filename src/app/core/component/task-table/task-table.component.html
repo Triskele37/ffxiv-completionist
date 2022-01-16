@@ -1,16 +1,16 @@
-<div *ngIf="!!columnConfig" class="task-table-container">
+<div *ngIf="!!columns" class="task-table-container">
     <div class="task-table-toolbar">
         <span class="p-buttonset">
             <xiv-quick-mark-dropdown
                 *ngIf="hasTasks && !group.isNumericCompletion"
                 [filteredTasks]="filteredTasks"
+                (onMark)="updateFilteredTasks()"
             ></xiv-quick-mark-dropdown>
 
             <xiv-select-dropdown
                 *ngIf="hasTasks && !group.isNumericCompletion"
                 [group]="group"
                 [filteredTasks]="filteredTasks"
-                (selectChange)="onSelectChange()"
             ></xiv-select-dropdown>
 
             <xiv-chain-dropdown
@@ -39,19 +39,38 @@
             *ngIf="hasTasks"
             styleClass="p-datatable-striped"
             [value]="filteredTasksArr"
+            dataKey="storageGroup"
+            [rowGroupMode]="groupRows ? 'subheader' : null"
+            groupRowsBy="storageGroup"
+            (onRowReorder)="onRowReorder($event)"
         >
             <ng-template pTemplate="header">
                 <xiv-header-row
-                    [columnConfig]="columnConfig"
+                    [columns]="columns"
                     [uniqueValues]="uniqueValues"
                     [isNumericCompletion]="group.isNumericCompletion"
                     (filterChange)="onFilterChange($event)"
                 ></xiv-header-row>
             </ng-template>
-            <ng-template pTemplate="body" let-task>
+            <ng-template pTemplate="groupheader" let-task let-expanded="expanded">
+                <tr pRowGroupHeader>
+                    <td>
+                        <p-button
+                            styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
+                            [pRowToggler]="task"
+                            [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                        ></p-button>
+                    </td>
+                    <td [colSpan]="columns.length + 1">
+                        {{task | groupName}}
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template [pTemplate]="groupRows ? 'rowexpansion' : 'body'" let-task let-rowIndex="rowIndex">
                 <xiv-data-row
-                    [columnConfig]="columnConfig"
-                    [enableDrag]="group.draggable"
+                    [dragEnabled]="group.draggable && !debounceDrag"
+                    [rowIndex]="rowIndex"
+                    [columns]="columns"
                     [task]="task"
                     (completionChange)="updateFilteredTasks()"
                 ></xiv-data-row>

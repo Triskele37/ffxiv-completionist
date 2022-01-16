@@ -1,9 +1,5 @@
-.chain-dropdown-container {
-    button:focus {
-        outline: none;
-    }
-
-    &.do-notify {
+.overlay-container {
+    .do-notify ::ng-deep .mi-link {
         animation: chainNotificationPulse 2s infinite;
 
         // Fixes issue where popup goes behind table header
@@ -11,49 +7,79 @@
         z-index: 1;
     }
 
-    .xiv-dropdown-body {
-        overflow: hidden;
-    }
+    .overlay-panel {
+        .content {
+            .group-nav-arrow {
+                position: relative;
+                margin-top: -6px;
+                font-size: 24px;
+                float: right;
 
-    .chain-scroll-container {
-        overflow-y: auto;
-        height: 50vh;
-        min-width: 30vw;
+                &.arrows-adjust {
+                    margin-right: 20px;
+                    margin-top: -11px;
+                }
+            }
 
-        ::ng-deep .chain-group {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+            .p-buttonset {
+                width: 100%;
+            }
 
-            .chained-task {
-                margin-left: 25px;
-                padding: 0;
+            ::ng-deep p-button .p-button {
+                &.chain-task-path {
+                    height: 50px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: calc(100% - 38px);
+                }
+
+                &.chain-task-nav {
+                    height: 50px;
+                    width: 38px;
+                }
+
+                &.group-path {
+                    height: 38px;
+                    width: calc(100% - 38px);
+                    text-align: left;
+                }
+
+                &.group-nav {
+                    width: 38px;
+                }
+            }
+
+            .chained-task ::ng-deep {
+                width: 100%;
+
+                .p-button {
+                    padding: 0 0 0 25px;
+                    width: 100%;
+                }
+            }
+
+            .chain-scroll-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                overflow-y: auto;
+                height: 50vh;
+                min-width: 30vw;
+            }
+
+            .Y, .N, .X {
+                display: inline-block;
+                padding: 3px;
+            }
+
+            .Y { background-color: var(--completed); }
+            .N { background-color: var(--incomplete); }
+            .X {
+                background-color: var(--excluded);
+                color: black;
             }
         }
-    }
-
-    .group-nav-arrow {
-        position: relative;
-        margin-top: -6px;
-        font-size: 24px;
-        float: right;
-
-        &.arrows-adjust {
-            margin-right: 20px;
-            margin-top: -11px;
-        }
-    }
-
-    .Y, .N, .X {
-        display: inline-block;
-        padding: 3px;
-    }
-
-    .Y { background-color: var(--completed); }
-    .N { background-color: var(--incomplete); }
-    .X {
-        background-color: var(--excluded);
-        color: black;
     }
 }
 
@@ -63,7 +89,7 @@
     }
 
     50% {
-        transform: scale(1);
+        transform: scale(1.2);
     }
 
     100% {

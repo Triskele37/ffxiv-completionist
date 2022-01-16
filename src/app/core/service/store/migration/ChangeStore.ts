@@ -1,4 +1,5 @@
-import { StoreService } from '../store.service';
+import { ConfigStoreService } from '../config-store.service';
+import { SaveStoreService } from '../save-store.service';
 
 type ID = number | string;
 
@@ -13,25 +14,25 @@ export class ChangeStore {
         console.log(`Migrating to ${version}`);
 
         // Create the initial `overall` object for new users
-        if(!StoreService.pStore.get('overall')) StoreService.pStore.set('overall', {});
+        if(!SaveStoreService.store.get('overall')) SaveStoreService.store.set('overall', {});
 
         // Create class properties
-        this.oldStore = Object.assign(StoreService.pStore.get('overall'), {});
-        this.newStore = Object.assign(StoreService.pStore.get('overall'), {});
+        this.oldStore = Object.assign(SaveStoreService.store.get('overall'), {});
+        this.newStore = Object.assign(SaveStoreService.store.get('overall'), {});
         this.version = version;
 
         // Testing flag that allows migration to run more than once
-        this.isTesting = !!StoreService.eStore.get('maintain-version');
+        this.isTesting = !!ConfigStoreService.get('maintain-version');
     }
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
-        StoreService.pStore.set('overall', this.newStore);
-        if(!this.isTesting) StoreService.pStore.set('version', this.version);
+        SaveStoreService.store.set('overall', this.newStore);
+        if(!this.isTesting) SaveStoreService.store.set('version', this.version);
 
         // Reset volatile setting
         if(process.env.NODE_ENV === 'development') {
-            StoreService.eStore.set('run-volatile', false);
+            ConfigStoreService.set('run-volatile', false);
         }
     }
 

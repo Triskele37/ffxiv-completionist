@@ -1,56 +1,80 @@
-@import 'src/styles/colors';
+:host {
+    display: contents;
 
-.summary-line {
-    background-color: var(--incomplete);
-    position: relative;
-    margin: 5px 10px;
-
-    border: 1px outset;
-    overflow: hidden;
-
-    &.excluded {
-        background-color: #333;
-    }
-
-    &.big {
-        border-radius: 20px;
-        display: block;
-        text-align: center;
-        height: 40px;
-        width: calc(100% - 20px);
-    }
-
-    &:not(.big) {
-        border-radius: 7.5px;
-        cursor: pointer;
-        display: inline-block;
-        height: 20px;
-        width: calc(33% - 20px);
-    }
-
-    .summary-info {
-        position: absolute;
-        top: 1px;
-        width: calc(100% - 10px);
-        z-index: 10;
-
-        &.big {
-            left: unset;
-            transform: translate(-50%, 0);
-        }
-
-        &:not(.big) {
-            left: 5px;
-        }
-    }
-
-    .progress-line {
-        background-color: var(--completed);
-        display: inline-block;
+    .summary-line {
         position: relative;
-        height: 100%;
-        z-index: 5;
-        float: left;
-        transition: width 0.5s;
+        border: 1px outset;
+        overflow: hidden;
+        margin: 5px 10px;
+
+        // Contain background in pseudo so filter won't apply to text color when excluded
+        &:before {
+            background-color: var(--incomplete);
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 100%;
+            content: '';
+        }
+
+        // Entire group is excluded
+        &.excluded:before {
+            background-color: var(--excluded);
+            filter: brightness(50%);
+        }
+
+        // Large variant
+        &.big {
+            border-radius: 20px;
+            display: block;
+            text-align: center;
+            height: 40px;
+            width: calc(100% - 20px);
+
+            .summary-info {
+                left: unset;
+                transform: translate(-50%, 0);
+
+                .group-name, .percent-complete {
+                    display: block;
+                }
+            }
+        }
+
+        // Small variant
+        &:not(.big) {
+            border-radius: 7.5px;
+            cursor: pointer;
+            display: inline-block;
+            height: 20px;
+            width: calc(33% - 20px);
+
+            .summary-info {
+                left: 5px;
+
+                .percent-complete {
+                    float: right;
+                }
+            }
+        }
+
+        // Common
+        .summary-info {
+            position: absolute;
+            top: 1px;
+            width: calc(100% - 10px);
+            z-index: 10;
+        }
+
+        // Overlays green on completed % of container
+        .progress-line {
+            background-color: var(--completed);
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            z-index: 5;
+            float: left;
+            transition: width 0.5s;
+        }
     }
 }

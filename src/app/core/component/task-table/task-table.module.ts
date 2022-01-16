@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
+
+import { GroupNameModule } from '../../pipe/group-name.pipe';
 
 import { ChainDropdownModule } from '../dropdowns/chain-dropdown/chain-dropdown.module';
 import { CustomTaskDropdownModule } from '../dropdowns/custom-dropdown/custom-task-dropdown.module';
@@ -18,6 +21,7 @@ import { TaskTableComponent } from './task-table.component';
     ],
     imports: [
         CommonModule,
+        ButtonModule,
         TableModule,
         TooltipModule,
 
@@ -27,6 +31,8 @@ import { TaskTableComponent } from './task-table.component';
         SelectDropdownModule,
         HeaderRowModule,
         DataRowModule,
+
+        GroupNameModule
     ],
     exports: [
         TaskTableComponent,

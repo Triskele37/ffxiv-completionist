@@ -15,8 +15,8 @@ export class Store<StoreType> {
         this.data = JSON.parse(file);
     }
 
-    get(path: string): any {
-        const segments = path.split('.');
+    get(path?: string): any {
+        const segments = path?.split('.') || [];
 
         let obj = this.data;
         for(const segment of segments) {

@@ -1,10 +1,16 @@
-import { StoreService } from '@service/store/store.service';
+import { Completion, CompletionFlag } from '@constant';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { ChainService } from '@service/chain/chain.service';
 
 import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';
 import { Chainer } from './Chainer';
 
+export type TaskMap = {
+    [id: string]: Task;
+};
+
+//TODO: raw input json types
 // Hack to allow any task property without explicit declaration here
 // consider creating classes and extending Task onto them
 export interface Task {
@@ -13,16 +19,16 @@ export interface Task {
 
 export class Task {
     //#region--------------------------------- Standard Props
-    id;
-    name;
-    _parent;
+    id: number;
+    name: string;
+    _parent: DataGroup;
 
     // Flag Props
-    completionFlag: string = 'N';
-    defaultCompletion: string;
+    completionFlag: CompletionFlag = Completion.N;
+    defaultCompletion: CompletionFlag;
 
     // UI Props
-    selected;
+    selected: boolean;
 
     //#endregion
 
@@ -78,12 +84,12 @@ export class Task {
         this.deepConcatWithParent('cComboAt', parent);
     }
 
-    //#region------------------------------------------------------------------ Inheritance
-    private inheritFromParent(key: keyof Task, parent: any): void {
+    //#region------------------------------------------------------- Inheritance
+    private inheritFromParent(key: keyof Task, parent: DataGroup): void {
         if(parent[key] && this[key] === undefined) this[key] = parent[key];
     }
 
-    private concatWithParent(key: keyof Task, parent: any): void {
+    private concatWithParent(key: keyof Task, parent: DataGroup): void {
         if(parent[key]) {
             if(!this[key]) this[key] = parent[key]; // Exists only on parent
             else { // Exists on both
@@ -100,7 +106,7 @@ export class Task {
         }
     }
 
-    private deepConcatWithParent(key: keyof Task, parent: any): void {
+    private deepConcatWithParent(key: keyof Task, parent: DataGroup): void {
         if(parent[key]) {
             if(!this[key]) this[key] = parent[key]; // Exists only on parent
             else { // Exists on both
@@ -124,37 +130,50 @@ export class Task {
 
     //#endregion
 
-    //#region------------------------------------------------------------------ Storage Key
-    get storageKey() {
-        return (this.id !== undefined && this.id !== null) ? this.id : -1;
+    //#region------------------------------------------------------- Storage Key
+    get storageKey(): string {
+        return `${this.id ?? -1}`;
     }
 
-    get fullStorageKey() {
+    get storageGroup(): string { // IS used in task-table
+        return this._parent.fullStorageKey;
+    }
+
+    get fullStorageKey(): string {
         return `${this._parent.fullStorageKey}.${this.storageKey}`;
     }
 
     //#endregion
 
-    //#region------------------------------------------------------------------ Flag Mutation
-    setCompletionFlag(flag: string): void {
+    setCompletion(flag: CompletionFlag): void {
+        if((Object.values(Completion) as string[]).includes(flag)) {
+            this.setCompletionFlag(flag as Completion);
+        }
+        else {
+            this.setCompletionNumber(flag);
+        }
+    }
+
+    //#region------------------------------------------------------- Flag Mutation
+    setCompletionFlag(flag: Completion): void {
         // Do nothing if the flag isn't changing
         if(this.completionFlag === flag) return; // MUI IMPORTANTE
 
         // Update excluded count if changing to or from X
-        if(this.completionFlag === 'X') this._parent.updateExcluded(-1);
-        else if(flag === 'X') this._parent.updateExcluded(1);
+        if(this.completionFlag === Completion.X) this._parent.updateExcluded(-1);
+        else if(flag === Completion.X) this._parent.updateExcluded(1);
 
         // Update completed count if changing to or from Y
-        if(this.completionFlag === 'Y') this._parent.updateCompleted(-1);
-        else if(flag === 'Y') this._parent.updateCompleted(1);
+        if(this.completionFlag === Completion.Y) this._parent.updateCompleted(-1);
+        else if(flag === Completion.Y) this._parent.updateCompleted(1);
 
         // Update the task's flag (needs to be last)
         this.completionFlag = flag;
     }
 
-    changeCompletionFlag(toFlag, firstInChain?: boolean) {
+    changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): void {
         // Dodge all of this if chaining is disabled
-        if(!StoreService.eStore.get('chaining-enabled')) {
+        if(!ConfigStoreService.get('chaining-enabled')) {
             this.setCompletionFlag(toFlag);
         }
         else if(this.shouldChain(firstInChain, toFlag)) {
@@ -166,10 +185,10 @@ export class Task {
 
     //#endregion
 
-    //#region------------------------------------------------------------------ Numeric Mutation
+    //#region------------------------------------------------------- Numeric Mutation
     setCompletionNumber(value: string | number) {
-        let previousValue = parseFloat(this.completionFlag);
-        let newValue = typeof value === 'string' ? parseFloat(value) : value;
+        let previousValue: number = parseFloat(this.completionFlag);
+        let newValue: number = typeof value === 'string' ? parseFloat(value) : value;
 
         if(isNaN(newValue)) newValue = isNaN(this.defaultValue) ? 0 : this.defaultValue;
         this.completionFlag = newValue.toString();
@@ -188,9 +207,9 @@ export class Task {
         }
     }
 
-    changeCompletionNumber(toNum, firstInChain?: boolean) {
+    changeCompletionNumber(toNum: string, firstInChain?: boolean) {
         // Dodge all of this if chaining is disabled
-        if(!StoreService.eStore.get('chaining-enabled')) {
+        if(!ConfigStoreService.get('chaining-enabled')) {
             this.setCompletionNumber(toNum);
         }
         else if(this.shouldChain(firstInChain, toNum)) {
@@ -202,9 +221,9 @@ export class Task {
 
     //#endregion
 
-    //#region------------------------------------------------------------------ Chaining
+    //#region------------------------------------------------------- Chaining
     // Checks performed before setting the new flag and chaining
-    shouldChain(firstInChain, toFlag) {
+    shouldChain(firstInChain: boolean, toFlag: CompletionFlag): boolean {
         // Don't continue if the current number is already whats being pushed
         if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
@@ -222,7 +241,7 @@ export class Task {
     }
 
     // Chaining logic that occurs after the flag has been updated
-    chain(firstInChain, fromFlag, toFlag) {
+    chain(firstInChain: boolean, fromFlag: CompletionFlag, toFlag: CompletionFlag): void {
         // Commit this task to the stored chain
         if(firstInChain) {
             ChainService.Instance.startChain({
@@ -239,7 +258,7 @@ export class Task {
         }
 
         // Return a list of chained tasks including this one
-        const chainer = new Chainer(this as any, toFlag);
+        const chainer = new Chainer(this, toFlag);
         chainer.triggerChains();
     }
 

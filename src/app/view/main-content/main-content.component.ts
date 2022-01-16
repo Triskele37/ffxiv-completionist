@@ -1,6 +1,7 @@
 import { Component, ComponentFactoryResolver, OnInit, ViewChild } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
+import { UIGroup } from '@domain/UIGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 import { AnchorDirective } from './anchor.directive';
@@ -12,7 +13,7 @@ import { AnchorDirective } from './anchor.directive';
 })
 export class MainContentComponent implements OnInit {
     //TODO: allData: data
-    selectedGroup: DataGroup;
+    selectedGroup: UIGroup | DataGroup;
     showAll: boolean = false;
     isShowAllVisible: boolean = false;
 
@@ -34,9 +35,15 @@ export class MainContentComponent implements OnInit {
         this.svcNavigation.selectedGroup$.subscribe((selectedGroup) => {
             this.selectedGroup = selectedGroup;
             this.showAll = false;
-            this.isShowAllVisible = !!selectedGroup?.subGroups?.columnConfig;
 
-            if(selectedGroup?.component) this.loadComponent();
+            if(selectedGroup instanceof DataGroup) {
+                this.isShowAllVisible = !!(selectedGroup?.subGroups && selectedGroup.columns);
+            }
+            else {
+                this.isShowAllVisible = false;
+
+                if(selectedGroup?.component) this.loadComponent();
+            }
         });
     }
 
@@ -46,9 +53,10 @@ export class MainContentComponent implements OnInit {
 
     loadComponent() {
         if(this._anchor) {
-            const componentFactory = this.cfr.resolveComponentFactory(this.selectedGroup.component);
             const { viewContainerRef } = this._anchor;
             viewContainerRef.clear();
+
+            const componentFactory = this.cfr.resolveComponentFactory((this.selectedGroup as UIGroup).component);
             const component = viewContainerRef.createComponent(componentFactory);
             component.changeDetectorRef.detectChanges();
         }

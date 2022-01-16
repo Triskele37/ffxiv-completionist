@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { MenuItem } from 'primeng/api';
 
 import { Task } from '@domain/Task';
 import { ElectronService } from '@service/electron/electron.service';
@@ -11,16 +10,8 @@ import { ElectronService } from '@service/electron/electron.service';
 })
 export class ActionsCellComponent {
     @Input() task: Task;
-
-    items: MenuItem[] = [{
-        tooltipOptions: { tooltipLabel: 'Gamer Escape', tooltipPosition: 'top' },
-        icon: 'gamer-icon',
-        command: () => this.gotoGamerEscape()
-    }, {
-        tooltipOptions: { tooltipLabel: 'Garland Tools', tooltipPosition: 'top' },
-        icon: 'garland-icon',
-        command: () => this.gotoGarlandTools()
-    }];
+    @Input() rowIndex: number;
+    expanded: boolean;
 
     gotoGamerEscape() {
         let name = this.task.name.replace(/ /g, '_');

@@ -1,5 +1,5 @@
-.custom-task-dropdown-container {
-    .option-container {
+.overlay-container {
+    .content {
         width: 300px;
     }
 
@@ -22,7 +22,8 @@
         }
     }
 
-    .merge-custom-tasks-dropdown-item {
+    .merge-details {
+        padding: 5px;
         width: unset;
     }
 }

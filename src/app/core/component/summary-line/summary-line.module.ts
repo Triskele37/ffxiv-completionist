@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TooltipModule } from 'primeng/tooltip';
 
 import { SummaryLineComponent } from './summary-line.component';
 
@@ -8,7 +9,8 @@ import { SummaryLineComponent } from './summary-line.component';
         SummaryLineComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        TooltipModule
     ],
     exports: [
         SummaryLineComponent

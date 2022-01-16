@@ -1,14 +1,10 @@
 <tr
-    [draggable]="enableDrag && !debounceDrag"
+    [pReorderableRow]="rowIndex"
+    [pReorderableRowDisabled]="!dragEnabled"
     [ngClass]="{
-        selected: !!task.selected,
-        dropTarget: !!task.dropTarget
+        selected: task.selected
     }"
     (click)="onClick($event)"
-    (dragstart)="enableDrag && onRowDragStart()"
-    (dragover)="enableDrag && onRowDragOver($event)"
-    (dragleave)="enableDrag && onRowDragLeave($event)"
-    (drop)="enableDrag && onDragDrop()"
 >
     <ng-container *ngIf="!task.isNumericCompletion; else numericCell">
         <xiv-complete-cell
@@ -26,14 +22,13 @@
 
     <td
         class="data-cell"
-        *ngFor="let column of columnConfig"
-        [ngClass]="{ centered: !!column.centered }"
+        *ngFor="let column of columns"
+        [ngClass]="{ centered: column.centered }"
     >
-        <ng-container *ngIf="column.editable && task.selected; else staticCell">
+        <ng-container *ngIf="column.editable; else staticCell">
             <xiv-edit-cell
-                [taskKey]="column.key"
                 [task]="task"
-                (deselectTask)="onDeselectTask(task)"
+                [key]="column.key"
             ></xiv-edit-cell>
         </ng-container>
         <ng-template #staticCell>
@@ -43,5 +38,6 @@
 
     <xiv-actions-cell
         [task]="task"
+        [rowIndex]="rowIndex"
     ></xiv-actions-cell>
 </tr>

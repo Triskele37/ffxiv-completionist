@@ -5,13 +5,13 @@
             <i
                 class="i-complete"
                 [ngClass]="{ enabled: filters.completion.completed }"
-                (click)="onFilterCompletion('Y')"
+                (click)="onFilterCompletion(Completion.Y)"
             ></i>
 
             <i
                 class="i-incomplete"
                 [ngClass]="{ enabled: filters.completion.incomplete }"
-                (click)="onFilterCompletion('N')"
+                (click)="onFilterCompletion(Completion.N)"
             ></i>
 
             <br/>
@@ -19,7 +19,7 @@
             <i
                 class="i-exclude"
                 [ngClass]="{ enabled: filters.completion.excluded }"
-                (click)="onFilterCompletion('X')"
+                (click)="onFilterCompletion(Completion.X)"
             ></i>
         </ng-container>
         <ng-template #numericColumn>
@@ -29,7 +29,7 @@
 
     <!-- Data Headers -->
     <th
-        *ngFor="let column of columnConfig"
+        *ngFor="let column of columns"
         [style.width.px]="column.width"
     >
         <div
@@ -50,7 +50,6 @@
                     (keyup)="onFilterKeyup($event, column)"
                     (onChange)="onFilterDropdownChange($event, column)"
                 >
-                    <!--                <option>Blank</option>-->
                     <ng-template pTemplate="item" let-item>
                         {{displayedFilterValue(item)}}
                     </ng-template>

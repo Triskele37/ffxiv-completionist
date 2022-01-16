@@ -1,33 +1,34 @@
-::ng-deep .overlay-dropdown {
-    margin-top: 0 !important;
+.overlay-container {
+    position: relative;
 
-    &::before, &::after {
-        content: none !important;
-    }
+    .overlay-panel {
+        background: var(--surface-f);
+        position: absolute;
+        z-index: 1000;
+        left: 0;
 
-    .p-overlaypanel-content {
-        padding: 0;
-
-        .option-container {
+        .content {
             display: flex;
             flex-direction: column;
-        }
 
-        p-button {
-            &:first-child .p-button {
-                border-top-left-radius: var(--border-radius);
-                border-top-right-radius: var(--border-radius);
+            ::ng-deep > p-button {
+                // Round the first button's upper corners
+                &:first-child .p-button {
+                    border-top-left-radius: var(--border-radius);
+                    border-top-right-radius: var(--border-radius);
+                }
+
+                // Round the last button's lower corners
+                &:last-child .p-button {
+                    border-bottom-left-radius: var(--border-radius);
+                    border-bottom-right-radius: var(--border-radius);
+                }
+
+                .p-button {
+                    border-radius: 0;
+                    width: 100%;
+                }
             }
-
-            &:last-child .p-button {
-                border-bottom-left-radius: var(--border-radius);
-                border-bottom-right-radius: var(--border-radius);
-            }
-        }
-
-        .p-button {
-            border-radius: 0;
-            width: 100%;
         }
     }
 }

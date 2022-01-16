@@ -1,11 +1,13 @@
-import { Component, Input, ViewChild } from '@angular/core';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { Component, Input } from '@angular/core';
 
+import { Completion } from '@constant';
 import { data } from '@data';
+import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { SearchService } from '@service/search/search.service';
-import { StoreService } from '@service/store/store.service';
+import { MatchGroup } from '@service/search/types';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-custom-task-dropdown',
@@ -17,11 +19,10 @@ import { StoreService } from '@service/store/store.service';
 })
 export class CustomTaskDropdownComponent {
     @Input() filteredTasks: { [key: string]: Task };
+    isVisible: boolean = false;
+    isMergeVisible: boolean = false;
 
-    @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
-    @ViewChild('mergeOverlayPanel') mergeOverlayPanel: OverlayPanel;
-
-    customData;
+    customData: DataGroup;
     newTaskName: string = '';
     newTaskNotes: string = '';
 
@@ -29,22 +30,34 @@ export class CustomTaskDropdownComponent {
     mergeFirstInChain: boolean = false;
     mergeIndex: number = 0;
     mergeInfo: string = '';
-    mergeMatches = [];
+    mergeMatches: MatchGroup[] = [];
     mergeTask: Task = {} as Task;
-    tasksToRemove = [];
+    tasksToRemove: Task[] = [];
 
     constructor(
         private svcChain: ChainService,
         private svcSearch: SearchService,
-        private svcStore: StoreService,
+        private svcSaveStore: SaveStoreService,
     ) {
         this.customData = data.getSubGroup('custom');
     }
 
-    addCustomTask() {
+    //#region------------------------------------------------------- Common
+    onMouseEnter(): void {
+        if(!this.isMergeVisible) this.isVisible = true;
+    }
+
+    onMouseLeave(): void {
+        this.isVisible = false;
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Base Events
+    addCustomTask(): void {
         // Prevent short names
         if(this.newTaskName.length < 3) return;
-        const customMeta = this.svcStore.pStore.get('custom') || {};
+        const customMeta = this.svcSaveStore.get('custom') || {};
 
         // Get next safe ID
         let nextId = 0;
@@ -52,7 +65,7 @@ export class CustomTaskDropdownComponent {
         const nextKey = `x${nextId}`;
 
         // Update store with custom name & notes
-        this.svcStore.pStore.set(`custom.${nextKey}`, {
+        this.svcSaveStore.set(`custom.${nextKey}`, {
             name: this.newTaskName,
             notes: this.newTaskNotes
         });
@@ -64,25 +77,23 @@ export class CustomTaskDropdownComponent {
             notes: this.newTaskNotes
         }, this.customData);
 
-        // Generate new object reference so reload triggers
+        // Generate new object reference so bindings update
         this.customData.tasks = Object.assign({}, this.customData.tasks);
     }
 
-    mergeCustomTasks() {
+    mergeCustomTasks(): void {
         // Don't merge without items
         if(this.customData.taskCount < 1) return;
 
-        // Replace dropdown with merge window
-        this.overlayPanel.hide();
-        this.mergeOverlayPanel.show(null);
+        // Switch displayed overlay
+        this.isVisible = false;
+        this.isMergeVisible = true;
 
-        // Search for matches and filter out the matching itself
+        // Search for matches and filter out matching itself
         this.mergeTask = this.customData.getTaskAtIndex(this.mergeIndex);
-
-        this.mergeMatches = this.svcSearch.searchData(this.mergeTask.name, true);
-        this.mergeMatches = this.mergeMatches.filter(
-            (m) => m.path.indexOf('Overall > Custom') === -1
-        );
+        this.mergeMatches = this.svcSearch
+            .searchData(this.mergeTask.name, true)
+            .filter((m) => m.path.indexOf('Overall > Custom') === -1);
 
         if(this.mergeMatches.length) {
             this.mergeInfo = `${this.mergeMatches.length} matches found`;
@@ -106,14 +117,43 @@ export class CustomTaskDropdownComponent {
         }
     }
 
-    autoMergeSingleMatches() {
+    removeSelectedCustomTasks(): void {
+        for(const id in this.filteredTasks) {
+            if(this.filteredTasks[id].selected) {
+                this.removeCustomTask_UI(this.filteredTasks[id]);
+                this.removeCustomTask_Store(this.filteredTasks[id]);
+            }
+        }
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Merge Events
+    autoMergeSingleMatches(): void {
         this.autoMerge = true;
         this.mergeFirstInChain = true;
         this.svcChain.clearChain();
         this.mergeCustomTasks();
     }
 
-    confirmCurrentMerge(match) {
+    goToNextMerge(): void {
+        this.mergeIndex++;
+
+        if(this.mergeIndex > this.customData.taskCount - 1) {
+            this.autoMerge = false;
+            this.exitMerge();
+        }
+        else this.mergeCustomTasks();
+    }
+
+    exitMerge(): void {
+        this.isMergeVisible = false;
+        this.mergeIndex = 0;
+        this.svcSaveStore.applyDataToStore();
+        this.syncCustomStore();
+    }
+
+    confirmCurrentMerge(match: MatchGroup): void {
         const pathSegments = match.path.split(' > ');
 
         if(pathSegments[0] === 'Overall') {
@@ -122,11 +162,11 @@ export class CustomTaskDropdownComponent {
             // Should never end up with a duplicate match in the same group
             const task = data
                 .getChildGroupFromPath(pathSegments, true)
-                .getTaskByID(match.tasks[0].id);
+                .getTaskById(match.tasks[0].id);
 
             if(task.completionFlag !== this.mergeTask.completionFlag) {
                 task.changeCompletionFlag(
-                    this.mergeTask.completionFlag,
+                    this.mergeTask.completionFlag as Completion,
                     this.mergeFirstInChain
                 );
                 this.mergeFirstInChain = false;
@@ -141,46 +181,26 @@ export class CustomTaskDropdownComponent {
         }
     }
 
-    goToNextMerge() {
-        this.mergeIndex++;
-
-        if(this.mergeIndex > this.customData.taskCount - 1) {
-            this.autoMerge = false;
-            this.exitMerge();
-        }
-        else this.mergeCustomTasks();
+    modalNoNo($event): void {
+        $event.preventDefault();
+        $event.stopPropagation();
     }
 
-    exitMerge() {
-        this.mergeOverlayPanel.hide();
-        this.mergeIndex = 0;
-        this.svcStore.applyDataToStore();
-        this.syncCustomStore();
-    }
+    //#endregion
 
-    removeSelectedCustomTasks() {
-        for(const id in this.filteredTasks) {
-            if(this.filteredTasks[id].selected) {
-                this.removeCustomTask_UI(this.filteredTasks[id]);
-                this.removeCustomTask_Store(this.filteredTasks[id]);
-            }
-        }
-    }
-
-    removeCustomTask_UI(task) {
+    removeCustomTask_UI(task: Task): void {
         // Update displayed completion
-        task.setCompletionFlag('N');
+        task.setCompletionFlag(Completion.N);
 
         // Find & Remove from data
         delete this.customData.tasks[`x${task.id}`];
 
-        // Generate new object reference so reload triggers
+        // Generate new object reference so bindings update
         this.customData.tasks = Object.assign({}, this.customData.tasks);
     }
 
-    removeCustomTask_Store(task) {
-        const store = this.svcStore.pStore;
-        const customTasks = store.get('custom') || {};
+    removeCustomTask_Store(task: Task): void {
+        const customTasks = this.svcSaveStore.get('custom') || {};
 
         // Find & Remove from store
         for(const id in customTasks) {
@@ -191,34 +211,28 @@ export class CustomTaskDropdownComponent {
         }
 
         // Update Store
-        store.delete(task.fullStorageKey);
-        store.set('custom', customTasks);
+        this.svcSaveStore.delete(task.fullStorageKey);
+        this.svcSaveStore.set('custom', customTasks);
     }
 
-    modalNoNo($event) {
-        $event.preventDefault();
-        $event.stopPropagation();
-    }
-
-    syncCustomStore() {
+    syncCustomStore(): void {
         // Ugly shim to allow auto-merge not to run into locked files
-        const store = this.svcStore.pStore;
-        const storeData = store.data;
+        const store = this.svcSaveStore.get();
 
         this.tasksToRemove.forEach((t) => {
             // Remove task meta
-            for(const id in storeData.custom || {}) {
-                if(storeData.hasOwnProperty(id) && id === `x${t.id}`) {
-                    delete storeData.custom[id];
+            for(const id in store.custom || {}) {
+                if(store.custom.hasOwnProperty(id) && id === `x${t.id}`) {
+                    delete store.custom[`x${t.id}`];
                     break;
                 }
             }
 
             // Remove task flags
-            delete storeData.overall.custom[t.id];
+            delete store.overall.custom[t.id];
         });
 
-        store.set('custom', storeData.custom);
-        store.set('overall.custom', storeData.overall.custom);
+        this.svcSaveStore.set('custom', store.custom);
+        this.svcSaveStore.set('overall.custom', store.overall.custom);
     }
 }

@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -6,45 +7,44 @@ import { NavigationService } from '@service/navigation/navigation.service';
 @Component({
     selector: 'xiv-summary-line',
     templateUrl: './summary-line.component.html',
-    styleUrls: ['./summary-line.component.scss']
+    styleUrls: ['./summary-line.component.scss'],
 })
 export class SummaryLineComponent implements OnChanges {
     @Input() group: DataGroup;
-    @Input() isBig;
+    @Input() isBig: boolean;
 
-    completeBarStyle;
+    subscription: Subscription;
     percentComplete: string;
     tooltip: string;
 
     constructor(private svcNavigation: NavigationService) {
     }
 
-    ngOnChanges(change) {
-        if(change.group) {
-            const { percentComplete } = this.group;
-
-            this.completeBarStyle = { width: `${percentComplete}%` };
-            this.percentComplete = percentComplete ? `${percentComplete}%` : 'N/A';
-            this.updateTooltip();
+    ngOnChanges(changes: SimpleChanges) {
+        if(changes.group) {
+            this.update();
+            this.subscription?.unsubscribe();
+            this.subscription = this.group.onUpdated$.subscribe(this.update.bind(this));
         }
     }
 
-    updateTooltip() {
-        const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
+    update() {
+        this.percentComplete = this.group.percentComplete;
+        this.updateTooltip();
+    }
 
+    private updateTooltip(): void {
+        const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
         const remaining = (total - totalExcluded) - totalCompleted;
 
-        let tooltip = `${totalCompleted}/${displayTotal}\n`;
-        tooltip += `${remaining.toFixed(0)} Remaining\n`;
-        tooltip += `${totalExcluded} Excluded`;
-
-        this.tooltip = tooltip;
+        // Linebreaks are respected here
+        this.tooltip = `${totalCompleted}/${displayTotal}
+            ${remaining.toFixed(0)} Remaining
+            ${totalExcluded} Excluded`;
     }
 
-    onClick() {
+    onClick(): void {
         // Don't allow the stat bar summaries to modify breadcrumbs
-        if(!this.isBig) {
-            this.svcNavigation.pushCrumb(this.group.name);
-        }
+        if(!this.isBig) this.svcNavigation.pushCrumb(this.group.name);
     }
 }

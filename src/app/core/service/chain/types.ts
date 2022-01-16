@@ -4,7 +4,7 @@ import { Task } from '@domain/Task';
 export type ChainTask = {
     task: Task;
     fromFlag: string;
-    toFlag?: string;
+    toFlag: string;
 };
 
 // The first task to start a chain
@@ -18,7 +18,7 @@ export type ChainedTasks = {
 };
 
 // Necessary to allow index signature and known props
-export type ChainedGroup = ChainedGroupTasks | ChainedGroupProps;
+export type ChainedGroup = ChainedGroupTasks & ChainedGroupProps;
 
 // Index signature for each task
 interface ChainedGroupTasks {
@@ -27,7 +27,7 @@ interface ChainedGroupTasks {
 
 // Known props of a ChainedGroup
 interface ChainedGroupProps {
-    show: boolean;
+    show?: boolean;
 }
 
 // Tasks that are affected by a chain

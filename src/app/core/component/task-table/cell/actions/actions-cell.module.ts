@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SpeedDialModule } from 'primeng/speeddial';
+import { ButtonModule } from 'primeng/button';
+import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
 import { ActionsCellComponent } from './actions-cell.component';
@@ -11,8 +12,9 @@ import { ActionsCellComponent } from './actions-cell.component';
     ],
     imports: [
         CommonModule,
-        SpeedDialModule,
-        TooltipModule
+        ButtonModule,
+        TableModule,
+        TooltipModule,
     ],
     exports: [
         ActionsCellComponent

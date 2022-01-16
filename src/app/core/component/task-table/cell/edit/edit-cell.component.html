@@ -1,10 +1,17 @@
-<span class="edit-cell">
+<span *ngIf="task.selected; else staticValue" class="edit-cell">
     <textarea
         #editInput
-        class="xiv-input noSelect"
+        pInputTextarea
+        class="noSelect"
         rows="1"
-        (change)="onEditTaskValue($event)"
-        (keydown)="onResizeTextArea($event)"
-        [value]="task[taskKey]"
+        [value]="task[key]"
+        (change)="onTextAreaChange($event)"
+        (keyup)="onTextAreaKeyup($event)"
     ></textarea>
 </span>
+
+<ng-template #staticValue>
+    <div (click)="onCellClick()">
+        {{task[key]}}
+    </div>
+</ng-template>

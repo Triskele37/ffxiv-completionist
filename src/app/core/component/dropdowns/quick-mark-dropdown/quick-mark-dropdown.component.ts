@@ -1,5 +1,19 @@
-import { Component, Input } from '@angular/core';
-import { StoreService } from '@service/store/store.service';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+
+import { Completion } from '@constant';
+import { Task, TaskMap } from '@domain/Task';
+import { SaveStoreService } from '@service/store/save-store.service';
+
+type History = {
+    tasks: TaskHistory[];
+    from: string;
+    to: string;
+};
+
+type TaskHistory = {
+    task: Task;
+    flag: Completion;
+};
 
 @Component({
     selector: 'xiv-quick-mark-dropdown',
@@ -10,40 +24,63 @@ import { StoreService } from '@service/store/store.service';
     ]
 })
 export class QuickMarkDropdownComponent {
-    @Input() filteredTasks;
+    @Input() filteredTasks: TaskMap;
+    @Output() onMark = new EventEmitter<void>();
+    history: History[] = [];
+    isVisible: boolean = false;
 
-    dropdownOpen = false;
-    lastChanged = [];
+    // Expose constants to template
+    Y = Completion.Y;
+    N = Completion.N;
+    X = Completion.X;
 
-    constructor(private svcStore: StoreService) {
+    constructor(private svcStore: SaveStoreService) {
     }
 
-    onChangeTaskCompletion(from, to) {
-        this.lastChanged = [];
+    onMouseEnter(): void {
+        this.isVisible = true;
+    }
 
-        let first = true;
-        for(const id in this.filteredTasks) {
-            if(this.filteredTasks.hasOwnProperty(id)) {
-                const task = this.filteredTasks[id];
+    onMouseLeave(): void {
+        this.isVisible = false;
+    }
 
-                if((from === '$' && task.selected) || task.completionFlag === from) {
-                    this.lastChanged.push({ task, oldFlag: task.completionFlag });
+    /** Change all tasks in filteredTasks with 'from' flag to 'to' flag
+     * passing null to 'from' matches selected tasks
+     * */
+    onChangeTaskCompletion(from: Completion, to: Completion): void {
+        const history: History = { from: from || 'selected', to, tasks: [] };
 
-                    task.changeCompletionFlag(to, first);
-                    first = false;
-                }
+        Object.keys(this.filteredTasks).forEach((id) => {
+            const task = this.filteredTasks[id];
+
+            if((!from && task.selected) || (from && task.completionFlag === from)) {
+                history.tasks.push({
+                    task,
+                    flag: task.completionFlag as Completion
+                });
+
+                task.changeCompletionFlag(to, history.tasks.length === 1);
             }
-        }
-
-        this.svcStore.applyDataToStore();
-    }
-
-    onUndoLastChange() {
-        this.lastChanged.forEach((changed, index) => {
-            changed.task.changeCompletionFlag(changed.oldFlag, index === 0);
         });
 
+        if(history.tasks.length) {
+            this.onMark.emit();
+            this.history.push(history);
+            this.svcStore.applyDataToStore();
+        }
+    }
+
+    onUndoLastChange(): void {
+        const history = this.history.pop();
+
+        history.tasks.forEach((changed, index) => {
+            if(changed.task.completionFlag !== changed.flag) {
+                changed.task.changeCompletionFlag(changed.flag, index === 0);
+            }
+        });
+
+        this.onMark.emit();
         this.svcStore.applyDataToStore();
-        this.lastChanged = [];
     }
 }

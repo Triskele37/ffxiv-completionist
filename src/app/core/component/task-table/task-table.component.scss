@@ -30,7 +30,19 @@
     ::ng-deep .p-datatable {
         //---------------------- Table Row ----------------------
         tr {
-            cursor: pointer;
+            &:not(.p-rowgroup-header) {
+                cursor: pointer;
+            }
+
+            &.p-rowgroup-header td {
+                padding: 0;
+
+                .p-button {
+                    margin-left: calc(50% - 1rem);
+                    height: 2rem;
+                    width: 2rem;
+                }
+            }
 
             &:nth-child(even) {
                 background-color: $blue-3;

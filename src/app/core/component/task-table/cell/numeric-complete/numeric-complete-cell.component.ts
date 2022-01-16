@@ -3,7 +3,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Task } from '@domain/Task';
 import { rygGradient } from '../../../../../../styles/gradients';
 
-import { StoreService } from '@service/store/store.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
     selector: 'xiv-numeric-complete-cell',
@@ -19,7 +19,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     percentage: string;
     gradientBackground;
 
-    constructor(private svcStore: StoreService) {
+    constructor(private svcStore: SaveStoreService) {
     }
 
     ngOnChanges(changes: SimpleChanges) {
@@ -63,7 +63,7 @@ export class NumericCompleteCellComponent implements OnChanges {
         if(newValue > this.task.maxValue) newValue = this.task.maxValue;
 
         // Update the new value
-        this.task.changeCompletionNumber(newValue, true);
-        this.svcStore.pStore.set(this.task.fullStorageKey, newValue.toString());
+        this.task.changeCompletionNumber(newValue.toString(), true);
+        this.svcStore.set(this.task.fullStorageKey, newValue.toString());
     }
 }

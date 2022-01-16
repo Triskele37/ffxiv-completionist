@@ -1,7 +1,8 @@
 <div class="show-all-section">
     <xiv-task-table
+        [groupRows]="true"
         [group]="group"
-        [columnConfig]="group.columnConfig"
-        [tasks]="allChildTasks"
+        [columns]="group.columns"
+        [tasks]="tasks"
     ></xiv-task-table>
 </div>

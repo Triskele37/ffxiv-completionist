@@ -1,9 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { OverlayPanel } from 'primeng/overlaypanel';
 
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
-import { StoreService } from '@service/store/store.service';
-import { ChainedTasks } from '@service/chain/types';
+import { SaveStoreService } from '@service/store/save-store.service';
+import { ChainedGroup, ChainedTasks, ChainStart } from '@service/chain/types';
 
 @Component({
     selector: 'xiv-chain-dropdown',
@@ -15,19 +16,20 @@ import { ChainedTasks } from '@service/chain/types';
 })
 export class ChainDropdownComponent implements OnInit {
     @Input() disableUndo: boolean;
+    @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
+    isVisible: boolean = false;
 
-    dropdownOpen = false;
-    undoNotClicked = false;
-    doNotify = false;
+    undoVerified: boolean = false;
+    doNotify: boolean = false;
 
-    chainedTaskCount;
+    chainedTaskCount: number;
     chainedTasks: ChainedTasks;
-    chainStart;
+    chainStart: ChainStart;
 
     constructor(
         private svcNavigation: NavigationService,
         private svcChain: ChainService,
-        private svcStore: StoreService,
+        private svcStore: SaveStoreService,
     ) {
     }
 
@@ -39,7 +41,7 @@ export class ChainDropdownComponent implements OnInit {
         this.svcChain.chainedTasks$.subscribe((tasks) => {
             this.chainedTasks = tasks;
 
-            this.undoNotClicked = true;
+            this.undoVerified = false;
             this.doNotify = !!Object.keys(this.chainedTasks).length;
         });
 
@@ -48,11 +50,20 @@ export class ChainDropdownComponent implements OnInit {
         });
     }
 
-    groupChainLength(group) {
+    onMouseEnter(): void {
+        this.isVisible = true;
+        this.doNotify = false;
+    }
+
+    onMouseLeave(): void {
+        this.isVisible = false;
+    }
+
+    groupChainLength(group: ChainedGroup): number {
         return !group ? 0 : Object.keys(group).length;
     }
 
-    onToggleShowChainedGroup(group) {
+    onToggleShowChainedGroup(group: ChainedGroup): void {
         if(group.show === undefined) {
             Object.defineProperty(group, 'show', {
                 enumerable: false,
@@ -65,36 +76,34 @@ export class ChainDropdownComponent implements OnInit {
         }
     }
 
-    onNavigateToGroup(path) {
+    onNavigateToGroup(path: string): void {
         let safePath = path.split(' > ');
         if(safePath[0] !== 'Overall') safePath = ['Overall', ...safePath];
 
         this.svcNavigation.setBreadcrumbs(safePath);
     }
 
-    onUndoLastChain() {
+    onUndoLastChain(): number {
         // Allow for oopsie clicks
-        if(this.undoNotClicked) {
-            this.undoNotClicked = false;
-            return;
-        }
-        this.undoNotClicked = true;
-        this.dropdownOpen = false;
+        this.undoVerified = !this.undoVerified;
+        if(!this.undoVerified) return;
+        this.isVisible = false;
 
         // Do the actual undo
-        this.chainStart.task.setCompletionFlag(this.chainStart.fromFlag);
+        this.chainStart.task.setCompletion(this.chainStart.fromFlag);
+
         for(const groupPath in this.chainedTasks) {
             if(this.chainedTasks.hasOwnProperty(groupPath)) {
                 for(const id in this.chainedTasks[groupPath]) {
                     if(this.chainedTasks[groupPath].hasOwnProperty(id)) {
                         const change = this.chainedTasks[groupPath][id];
-                        change.task.setCompletionFlag(change.fromFlag);
+                        change.task.setCompletion(change.fromFlag);
                     }
                 }
             }
         }
 
-        // Commit the undo to Vuex and store
+        // Commit the undo to chain service and store
         this.svcChain.clearChain();
         this.svcStore.applyDataToStore();
     }

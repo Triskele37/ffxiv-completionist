@@ -1,12 +1,8 @@
-.edit-cell {
-    .xiv-input {
-        box-sizing: border-box;
-        overflow: hidden;
-        font-family: unset;
-        font-size: 16px;
-        resize: none;
-        width: 90%;
-
+.edit-cell ::ng-deep {
+    .p-inputtextarea {
         margin: 0 0 -4px -2px;
+        overflow: hidden;
+        resize: none;
+        width: 100%;
     }
 }

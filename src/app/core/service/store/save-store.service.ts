@@ -2,36 +2,23 @@ import { Injectable } from '@angular/core';
 
 import { data } from '@data';
 import { DataGroup } from '@domain/DataGroup';
-import { ElectronService } from '@service/electron/electron.service';
 
+import { ConfigStoreService } from './config-store.service';
 import { migrateData } from './migration';
 import { Store } from './Store';
-import { ConfigStore, SaveStore } from './Store.d';
+import { SaveStore } from './Store.d';
 
 @Injectable({
     providedIn: 'root'
 })
-export class StoreService {
-    static eStore: Store<ConfigStore> = new Store(
-        ElectronService.remote.app.getPath('userData')
-    );
-
-    static pStore: Store<SaveStore> = new Store(
-        StoreService.eStore.get('store-loc'),
-        StoreService.eStore.get('store-name')
+export class SaveStoreService {
+    static store: Store<SaveStore> = new Store(
+        ConfigStoreService.get('store-loc'),
+        ConfigStoreService.get('store-name')
     );
 
     constructor() {
-        this.setDefaultConfig('store-name', 'completion');
-        this.setDefaultConfig('store-loc', ElectronService.remote.app.getPath('userData'));
-        this.setDefaultConfig('starting-class', '');
-        this.setDefaultConfig('chaining-enabled', false);
-        this.setDefaultConfig('chain-min-threshold', 10);
-        this.setDefaultConfig('table-filters', {
-            completed: true,
-            incomplete: true,
-            excluded: true
-        });
+
     }
 
     initializeData(): void {
@@ -39,28 +26,25 @@ export class StoreService {
         this.applyStoreToData();
     }
 
-    setDefaultConfig(key: string, defaultValue: any): void {
-        if(StoreService.eStore.get(key) === undefined) {
-            StoreService.eStore.set(key, defaultValue);
-        }
+    get(path?: string): any {
+        return SaveStoreService.store.get(path);
     }
 
-    get eStore(): Store<ConfigStore> {
-        return StoreService.eStore;
+    set(path: string, value: any): void {
+        SaveStoreService.store.set(path, value);
     }
 
-    get pStore(): Store<SaveStore> {
-        return StoreService.pStore;
+    delete(path: string) {
+        SaveStoreService.store.delete(path);
     }
 
-    applyStoreToData(): void {
-        if(this.pStore.get[data.storageKey]) {
-            diveForLoad(data, this.pStore.get[data.storageKey]);
-        }
+    private applyStoreToData(): void {
+        const dataToLoad = this.get(data.storageKey);
+        if(dataToLoad) diveForLoad(data, dataToLoad);
     }
 
     applyDataToStore(): void {
-        this.pStore.set(data.storageKey, diveForSave(data));
+        this.set(data.storageKey, diveForSave(data));
     }
 }
 

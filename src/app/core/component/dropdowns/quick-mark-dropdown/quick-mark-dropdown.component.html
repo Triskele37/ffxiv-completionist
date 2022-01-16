@@ -1,66 +1,67 @@
 <span
-    #container
-    (mouseenter)="overlayPanel.show($event)"
-    (mouseleave)="overlayPanel.hide()"
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
 >
     <p-button
         styleClass="p-button-outlined"
         icon="material-icons mi-rule"
     ></p-button>
 
-    <p-overlayPanel
-        #overlayPanel
-        styleClass="overlay-dropdown"
-        [appendTo]="container"
-    >
-        <span class="option-container">
-            <p-button
-                [disabled]="lastChanged.length === 0"
-                (click)="onUndoLastChange()"
-            >
-                <ng-container *ngIf="lastChanged.length; else noUndo">
-                    Undo Last Quick-Mark
-                </ng-container>
-                <ng-template #noUndo>
-                    Quick-Mark Menu
-                </ng-template>
-            </p-button>
-            <p-button (click)="onChangeTaskCompletion('N', 'Y')">
-                (<i class="i-incomplete"></i>  <i class="i-arrow"></i> <i class="i-complete"></i>)
+    <div *ngIf="isVisible" class="overlay-panel">
+        <span class="content">
+            <p-button label="Quick-Mark Menu" [disabled]="true"></p-button>
+
+            <p-button (click)="onChangeTaskCompletion(N, Y)">
+                (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
                 Mark Incomplete as Complete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('N', 'X')">
+
+            <p-button (click)="onChangeTaskCompletion(N, X)">
                 (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
                 Mark Incomplete as Excluded
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('Y', 'N')">
+
+            <p-button (click)="onChangeTaskCompletion(Y, N)">
                 (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
                 Mark Complete as Incomplete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('Y', 'X')">
+
+            <p-button (click)="onChangeTaskCompletion(Y, X)">
                 (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
                 Mark Complete as Excluded
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('X', 'N')">
+
+            <p-button (click)="onChangeTaskCompletion(X, N)">
                 (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
                 Mark Excluded as Incomplete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('X', 'Y')">
+
+            <p-button (click)="onChangeTaskCompletion(X, Y)">
                 (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
                 Mark Excluded as Complete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('$', 'Y')">
+
+            <p-button (click)="onChangeTaskCompletion(null, Y)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
                 Mark Selected as Complete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('$', 'N')">
+
+            <p-button (click)="onChangeTaskCompletion(null, N)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
                 Mark Selected as Incomplete
             </p-button>
-            <p-button (click)="onChangeTaskCompletion('$', 'X')">
+
+            <p-button (click)="onChangeTaskCompletion(null, X)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
                 Mark Selected as Excluded
             </p-button>
+
+            <p-button
+                *ngIf="history.length"
+                label="Undo Last Quick-Mark"
+                (onClick)="onUndoLastChange()"
+            ></p-button>
         </span>
-    </p-overlayPanel>
+    </div>
 </span>

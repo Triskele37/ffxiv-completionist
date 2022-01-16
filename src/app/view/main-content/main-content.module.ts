@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { MainContentComponent } from './main-content.component';
+import { ButtonModule } from 'primeng/button';
 
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
 import { TaskTableModule } from '@component/task-table/task-table.module';
@@ -10,6 +9,8 @@ import { AnchorDirective } from './anchor.directive';
 import { LandingPageModule } from '../landing-page';
 import { ShowAllModule } from '../show-all/show-all.module';
 
+import { MainContentComponent } from './main-content.component';
+
 @NgModule({
     declarations: [
         MainContentComponent,
@@ -17,6 +18,7 @@ import { ShowAllModule } from '../show-all/show-all.module';
     ],
     imports: [
         CommonModule,
+        ButtonModule,
 
         SummaryLineModule,
         LandingPageModule,

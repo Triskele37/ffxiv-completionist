@@ -16,10 +16,17 @@ export class SelectDropdownComponent {
     @Input() group: DataGroup;
     @Input() filteredTasks: { [key: string]: Task };
     @Output() selectChange = new EventEmitter<void>();
+    isVisible: boolean = false;
 
-    dropdownOpen = false;
+    constructor() {
+    }
 
-    constructor(private svcElectron: ElectronService) {
+    onMouseEnter(): void {
+        this.isVisible = true;
+    }
+
+    onMouseLeave(): void {
+        this.isVisible = false;
     }
 
     selectedIds() {

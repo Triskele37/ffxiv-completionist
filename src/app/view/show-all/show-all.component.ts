@@ -10,11 +10,12 @@ import { Task } from '@domain/Task';
 })
 export class ShowAllComponent implements OnChanges {
     @Input() group: DataGroup;
-    allChildTasks: { [key: string]: Task };
+
+    tasks: { [key: string]: Task };
 
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group) {
-            this.allChildTasks = diveForTasks(this.group);
+            this.tasks = diveForTasks(this.group);
         }
     }
 }

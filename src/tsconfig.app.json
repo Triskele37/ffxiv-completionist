@@ -6,6 +6,7 @@
         "baseUrl": ".",
         "types": [],
         "paths": {
+            "@constant": ["app/constant"],
             "@component/*": ["app/core/component/*"],
             "@data": ["app/data"],
             "@data/*": ["app/data/*"],

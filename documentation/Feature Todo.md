@@ -22,6 +22,7 @@ gut additional package.json dependencies if possible
 
 **Fix**
 fr shb trials has duplicate headers
+bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
