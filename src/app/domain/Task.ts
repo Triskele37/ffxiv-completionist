@@ -175,22 +175,27 @@ export class Task {
         else if(flag === Completion.Y) this._parent.updateCompleted(1);
     }
 
-    changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): void {
+    // returns whether the task chained
+    changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): boolean {
         // Dodge all of this if chaining is disabled
         if(!Task.chainingEnabled || !this.hasChainProps()) {
             this.setCompletionFlag(toFlag);
+            return false;
         }
         else if(this.shouldChain(firstInChain, toFlag)) {
             const fromFlag = this.completionFlag;
             this.setCompletionFlag(toFlag);
             this.chain(firstInChain, fromFlag, toFlag);
+            return true;
         }
+
+        return false;
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Numeric Mutation
-    setCompletionNumber(value: string | number) {
+    setCompletionNumber(value: string | number): void {
         let previousValue: number = parseFloat(this.completionFlag);
         let newValue: number = typeof value === 'string' ? parseFloat(value) : value;
 
@@ -211,16 +216,21 @@ export class Task {
         }
     }
 
-    changeCompletionNumber(toNum: string, firstInChain?: boolean) {
+    // returns whether the task chained
+    changeCompletionNumber(toNum: string, firstInChain?: boolean): boolean {
         // Dodge all of this if chaining is disabled
         if(!Task.chainingEnabled || !this.hasChainProps()) {
             this.setCompletionNumber(toNum);
+            return false;
         }
         else if(this.shouldChain(firstInChain, toNum)) {
             const fromNum = this.completionFlag;
             this.setCompletionNumber(toNum);
             this.chain(firstInChain, fromNum, toNum);
+            return true;
         }
+
+        return false;
     }
 
     //#endregion

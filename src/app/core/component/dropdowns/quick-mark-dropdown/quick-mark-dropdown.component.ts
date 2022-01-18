@@ -51,6 +51,7 @@ export class QuickMarkDropdownComponent {
     onChangeTaskCompletion(from: Completion, to: Completion): void {
         const history: History = { from: from || 'selected', to, tasks: [] };
 
+        let first = true;
         this.tasks.forEach((task) => {
             if((!from && task.selected) || (from && task.completionFlag === from)) {
                 history.tasks.push({
@@ -58,7 +59,7 @@ export class QuickMarkDropdownComponent {
                     flag: task.completionFlag as Completion
                 });
 
-                task.changeCompletionFlag(to, history.tasks.length === 1);
+                first = !task.changeCompletionFlag(to, first) && first;
             }
         });
 
@@ -72,9 +73,10 @@ export class QuickMarkDropdownComponent {
     onUndoLastChange(): void {
         const history = this.history.pop();
 
+        let first = true;
         history.tasks.forEach((changed, index) => {
             if(changed.task.completionFlag !== changed.flag) {
-                changed.task.changeCompletionFlag(changed.flag, index === 0);
+                first = !changed.task.changeCompletionFlag(changed.flag, first) && first;
             }
         });
 

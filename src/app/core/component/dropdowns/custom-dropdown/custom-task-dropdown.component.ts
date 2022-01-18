@@ -166,11 +166,10 @@ export class CustomTaskDropdownComponent {
                 .getTaskById(match.tasks[0].id);
 
             if(task.completionFlag !== this.mergeTask.completionFlag) {
-                task.changeCompletionFlag(
+                this.mergeFirstInChain = !task.changeCompletionFlag(
                     this.mergeTask.completionFlag as Completion,
                     this.mergeFirstInChain
-                );
-                this.mergeFirstInChain = false;
+                ) && this.mergeFirstInChain;
             }
 
             this.removeCustomTask_UI(this.mergeTask);
