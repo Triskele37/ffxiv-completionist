@@ -19,6 +19,7 @@ function initializeConfigStore() {
     }
     setDefaultConfig('store-name', 'completion');
     setDefaultConfig('store-loc', electron_1.app.getPath('userData'));
+    setDefaultConfig('lang', 'en');
     setDefaultConfig('starting-class', '');
     setDefaultConfig('chaining-enabled', false);
     setDefaultConfig('chain-history-limit', 10);
@@ -28,6 +29,8 @@ function initializeConfigStore() {
         incomplete: true,
         excluded: true
     });
+    setDefaultConfig('bookmarked-groups', []);
+    setDefaultConfig('bookmarked-tasks', []);
     setDefaultConfig('last-breadcrumbs', ['Overall', 'FFXIV Completionist']);
 }
 exports.initializeConfigStore = initializeConfigStore;

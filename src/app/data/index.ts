@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { AsyncSubject } from 'rxjs';
 
 import { DataGroup } from '@domain/DataGroup';
 import { ElectronService } from '@service/electron/electron.service';
@@ -9,31 +10,37 @@ import { DUTY_DEFINITION } from './definitions/duty';
 import { LOGS_DEFINITION } from './definitions/logs';
 import { TRAVEL_DEFINITION } from './definitions/travel';
 import { SOCIAL_DEFINITION } from './definitions/social';
-import { Custom } from './custom';
 
 @Injectable({ providedIn: 'root' })
 export class DataService {
     data: DataGroup;
+    whenLoaded$: AsyncSubject<void> = new AsyncSubject<void>();
 
     constructor(
         private svcElectron: ElectronService,
         private svcSaveStore: SaveStoreService,
     ) {
-        this.data = DataGroup.fromJSON(svcElectron, null, './index');
+        DataGroup.svcElectron = this.svcElectron;
+        this.data = DataGroup.fromJSON(null, './index');
 
         this.data.subGroups = [
-            DataGroup.fromDefinition(svcElectron, this.data, CHARACTER_DEFINITION),
-            DataGroup.fromDefinition(svcElectron, this.data, DUTY_DEFINITION),
-            DataGroup.fromDefinition(svcElectron, this.data, LOGS_DEFINITION),
-            DataGroup.fromDefinition(svcElectron, this.data, TRAVEL_DEFINITION),
-            DataGroup.fromDefinition(svcElectron, this.data, SOCIAL_DEFINITION),
-            Custom(svcElectron, svcSaveStore, this.data),
+            // Bookmarks added in svcBookmarks
+            DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION),
+            DataGroup.fromDefinition(this.data, DUTY_DEFINITION),
+            DataGroup.fromDefinition(this.data, LOGS_DEFINITION),
+            DataGroup.fromDefinition(this.data, TRAVEL_DEFINITION),
+            DataGroup.fromDefinition(this.data, SOCIAL_DEFINITION),
+            // Custom Tasks added in svcCustomTasks
         ];
     }
 
+    // Must be called after all groups are attached
     initializeData(): void {
         this.svcSaveStore.migrateData();
         this.applyStoreToData();
+
+        this.whenLoaded$.next();
+        this.whenLoaded$.complete();
     }
 
     private applyStoreToData(): void {

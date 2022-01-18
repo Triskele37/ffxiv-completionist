@@ -1,6 +1,7 @@
 import { Completion, CompletionFlag } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
 
+import { GroupLinkPipe } from '../core/pipe/group-link.pipe';
 import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';
 import { Chainer } from './Chainer';
@@ -81,6 +82,10 @@ export class Task {
         this.deepConcatWithParent('cComboAt', parent);
     }
 
+    get groupLink(): string {
+        return new GroupLinkPipe().transform(this);
+    }
+
     //#region------------------------------------------------------- Inheritance
     private inheritFromParent(key: keyof Task, parent: DataGroup): void {
         if(parent[key] && this[key] === undefined) this[key] = parent[key];
@@ -153,24 +158,26 @@ export class Task {
 
     //#region------------------------------------------------------- Flag Mutation
     setCompletionFlag(flag: Completion): void {
+        const fromFlag = this.completionFlag;
+
         // Do nothing if the flag isn't changing
-        if(this.completionFlag === flag) return; // MUI IMPORTANTE
+        if(fromFlag === flag) return; // MUI IMPORTANTE
+
+        // Update the task's flag
+        this.completionFlag = flag;
 
         // Update excluded count if changing to or from X
-        if(this.completionFlag === Completion.X) this._parent.updateExcluded(-1);
+        if(fromFlag === Completion.X) this._parent.updateExcluded(-1);
         else if(flag === Completion.X) this._parent.updateExcluded(1);
 
         // Update completed count if changing to or from Y
-        if(this.completionFlag === Completion.Y) this._parent.updateCompleted(-1);
+        if(fromFlag === Completion.Y) this._parent.updateCompleted(-1);
         else if(flag === Completion.Y) this._parent.updateCompleted(1);
-
-        // Update the task's flag (needs to be last)
-        this.completionFlag = flag;
     }
 
     changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): void {
         // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled) {
+        if(!Task.chainingEnabled || !this.hasChainProps()) {
             this.setCompletionFlag(toFlag);
         }
         else if(this.shouldChain(firstInChain, toFlag)) {
@@ -206,7 +213,7 @@ export class Task {
 
     changeCompletionNumber(toNum: string, firstInChain?: boolean) {
         // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled) {
+        if(!Task.chainingEnabled || !this.hasChainProps()) {
             this.setCompletionNumber(toNum);
         }
         else if(this.shouldChain(firstInChain, toNum)) {
@@ -220,8 +227,8 @@ export class Task {
 
     //#region------------------------------------------------------- Chaining
     // Checks performed before setting the new flag and chaining
-    shouldChain(firstInChain: boolean, toFlag: CompletionFlag): boolean {
-        // Don't continue if the current number is already whats being pushed
+    private shouldChain(firstInChain: boolean, toFlag: CompletionFlag): boolean {
+        // Don't continue if the current flag hasn't changed
         if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
             if(firstInChain) ChainService.Instance.undoCurrentChain();
@@ -234,8 +241,18 @@ export class Task {
         return !ChainService.Instance.taskAlreadyChained(this, toFlag);
     }
 
+    private hasChainProps(): boolean {
+        return (
+            this.cPrev ?? this.cPrevAt ?? this.cPrevAny ??
+            this.cNext ??
+            this.cSiblings ?? this.cSiblingsAt ??
+            this.cCombo ?? this.cComboAt ??
+            this.cExclude ?? this.cExclusive ?? false
+        ) !== false;
+    }
+
     // Chaining logic that occurs after the flag has been updated
-    chain(firstInChain: boolean, fromFlag: CompletionFlag, toFlag: CompletionFlag): void {
+    private chain(firstInChain: boolean, fromFlag: CompletionFlag, toFlag: CompletionFlag): void {
         // Commit this task to the stored chain
         if(firstInChain) {
             ChainService.Instance.startChain({

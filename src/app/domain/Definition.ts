@@ -6,4 +6,4 @@ export interface GroupDefinition {
     subGroups: (string | GroupDefinition)[] | DataGroupFactorySignature;
 }
 
-type DataGroupFactorySignature = (svcElectron: ElectronService, parent: DataGroup, path: string) => DataGroup;
+type DataGroupFactorySignature = (parent: DataGroup, path: string) => DataGroup;

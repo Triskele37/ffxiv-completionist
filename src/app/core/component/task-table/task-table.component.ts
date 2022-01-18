@@ -149,8 +149,9 @@ export class TaskTableComponent implements OnInit, OnChanges {
                 }
                 else {
                     // Column value fuzzy search filter
-                    const columnValue = (task[key] ?? '').toString().toLowerCase();
-                    return columnValue.includes(filter.value.toLowerCase());
+                    const value = task[key] ?? '';
+                    const fuzzyValue = value.toString().toLowerCase();
+                    return fuzzyValue.includes(filter.value.toLowerCase());
                 }
             });
         });

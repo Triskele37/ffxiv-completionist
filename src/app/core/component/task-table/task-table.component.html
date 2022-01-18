@@ -40,11 +40,11 @@
         <p-table
             *ngIf="hasTasks"
             styleClass="p-datatable-striped"
-            dataKey="storageGroup"
+            dataKey="fullStorageKey"
             [value]="filteredTasks"
 
             [rowGroupMode]="groupRows ? 'subheader' : null"
-            groupRowsBy="storageGroup"
+            [groupRowsBy]="groupRows ? 'storageGroup' : null"
 
             [virtualScroll]="groupRows"
             scrollHeight="800px"
@@ -67,7 +67,7 @@
                         ></p-button>
                     </td>
                     <td [colSpan]="group.columns.length + 1">
-                        {{task | groupName}}
+                        {{task | groupLink}}
                     </td>
                 </tr>
             </ng-template>

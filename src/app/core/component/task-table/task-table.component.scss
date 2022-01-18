@@ -28,12 +28,6 @@
     }
 
     ::ng-deep .p-datatable {
-        .cdk-virtual-scroll-viewport, .cdk-virtual-scroll-content-wrapper {
-            //display: flex;
-            //flex: 1;
-            //flex-direction: column;
-        }
-
         //---------------------- Table Row ----------------------
         tr {
             cursor: pointer;

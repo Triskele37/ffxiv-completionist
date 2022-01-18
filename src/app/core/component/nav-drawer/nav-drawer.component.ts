@@ -27,7 +27,7 @@ export class NavDrawerComponent implements OnInit {
 
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
-            let path = group.groupPath;
+            let path = group?.groupPath;
             if(path) {
                 if(group instanceof DataGroup) path = path.slice(1);
 

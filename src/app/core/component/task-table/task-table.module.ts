@@ -4,7 +4,7 @@ import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { GroupNameModule } from '../../pipe/group-name.pipe';
+import { GroupLinkModule } from '../../pipe/group-link.pipe';
 
 import { ChainDropdownModule } from '../dropdowns/chain-dropdown/chain-dropdown.module';
 import { CustomTaskDropdownModule } from '../dropdowns/custom-dropdown/custom-task-dropdown.module';
@@ -32,7 +32,7 @@ import { TaskTableComponent } from './task-table.component';
         HeaderRowModule,
         DataRowModule,
 
-        GroupNameModule
+        GroupLinkModule
     ],
     exports: [
         TaskTableComponent,

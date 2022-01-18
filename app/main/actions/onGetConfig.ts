@@ -30,6 +30,9 @@ export function initializeConfigStore() {
         excluded: true
     });
 
+    setDefaultConfig('bookmarked-groups', []);
+    setDefaultConfig('bookmarked-tasks', []);
+
     setDefaultConfig('last-breadcrumbs', ['Overall', 'FFXIV Completionist']);
 }
 

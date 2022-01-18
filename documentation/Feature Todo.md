@@ -17,6 +17,7 @@ gut additional package.json dependencies if possible
   - New/Load & Lang to settings
 
 **Fix**
+- Go through all files & verify stuff
 - Disable sorting on all task view
 - add nav to group in all task view
 - Build pathing issue to resources "../resources/resources/common/./index.json"

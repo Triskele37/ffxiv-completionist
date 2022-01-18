@@ -11,6 +11,7 @@ import { DataRowComponent } from './data-row.component';
     ],
     imports: [
         CommonModule,
+
         CellModule,
         TableModule,
     ],

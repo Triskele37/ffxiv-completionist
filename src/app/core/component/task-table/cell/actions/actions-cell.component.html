@@ -8,27 +8,26 @@
         (onClick)="expanded = !expanded"
     ></p-button>
 
-    <div *ngIf="expanded" class="actions">
-        <div
+    <div *ngIf="expanded" class="actions noSelect">
+        <xiv-gamer-escape-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-gamer-escape-action>
+
+        <xiv-garland-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-garland-action>
+
+        <xiv-bookmark-action
+            *ngIf="!task._parent.isCustomGroup && !task._parent._isNumericCompletion"
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-bookmark-action>
+
+        <xiv-drag-action
             *ngIf="task._parent.draggable"
-            class="action pi pi-bars"
-            pTooltip="Reorder Row"
-            tooltipPosition="top"
-            [pReorderableRowHandle]="rowIndex"
-        ></div>
-
-        <div
-            class="action gamer-icon"
-            pTooltip="Gamer Escape"
-            tooltipPosition="top"
-            (click)="gotoGamerEscape()"
-        ></div>
-
-        <div
-            class="action garland-icon"
-            pTooltip="Garland Tools"
-            tooltipPosition="top"
-            (click)="gotoGarlandTools()"
-        ></div>
+            [rowIndex]="rowIndex"
+        ></xiv-drag-action>
     </div>
 </td>

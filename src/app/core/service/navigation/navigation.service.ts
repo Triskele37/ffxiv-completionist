@@ -20,7 +20,11 @@ export class NavigationService {
     ) {
         // Load previous breadcrumb state
         const initialBreadcrumbs = this.svcConfig.get('last-breadcrumbs') as string[];
-        if(initialBreadcrumbs) this.setBreadcrumbs(initialBreadcrumbs);
+        if(initialBreadcrumbs) {
+            this.svcData.whenLoaded$.subscribe(
+                () => this.setBreadcrumbs(initialBreadcrumbs)
+            );
+        }
     }
 
     getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | UIGroup {

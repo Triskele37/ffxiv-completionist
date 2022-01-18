@@ -1,4 +1,4 @@
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 import { Completion, CompletionFlag, Lang } from '@constant';
@@ -10,6 +10,7 @@ import { Column } from './Column';
 import { Task } from './Task';
 
 export class DataGroup {
+    static svcElectron: ElectronService;
     static lang: Lang;
 
     _key: string; // key used for storage
@@ -21,12 +22,13 @@ export class DataGroup {
     cCombo; //TODO:
 
     isCustomGroup: boolean;
+    isBookmarkGroup: boolean;
     isCraftingLogGroup: boolean = false;
     draggable: boolean;
     columns: Column[];
 
-    private updated$ = new Subject<void>();
-    onUpdated$ = this.updated$.pipe(debounceTime(250));
+    updated$: Subject<void> = new Subject<void>();
+    onUpdated$: Observable<void> = this.updated$.pipe(debounceTime(250));
 
     constructor(json, parent: DataGroup) {
         this.name = json.groupName;
@@ -58,34 +60,34 @@ export class DataGroup {
         return this;
     }
 
-    static fromJSON(svcElectron: ElectronService, parent: DataGroup, path: string): DataGroup {
-        const json = loadJson(svcElectron, path, DataGroup.lang);
+    static fromJSON(parent: DataGroup, path: string): DataGroup {
+        const json = loadJson(DataGroup.svcElectron, path, DataGroup.lang);
         return new DataGroup(json, parent);
     }
 
-    static fromDefinition(svcElectron: ElectronService, parent: DataGroup, definition: GroupDefinition): DataGroup {
+    static fromDefinition(parent: DataGroup, definition: GroupDefinition): DataGroup {
         if(definition.subGroups) {
             if(Array.isArray(definition.subGroups)) {
-                const group = DataGroup.fromJSON(svcElectron, parent, `${definition.path}/index`);
+                const group = DataGroup.fromJSON(parent, `${definition.path}/index`);
 
                 group.subGroups = definition.subGroups.map((subGroup) => {
                     if(typeof subGroup === 'string') {
-                        return DataGroup.fromJSON(svcElectron, group, `${definition.path}/${subGroup}`);
+                        return DataGroup.fromJSON(group, `${definition.path}/${subGroup}`);
                     }
                     else {
                         subGroup.path = `${definition.path}/${subGroup.path}`;
-                        return DataGroup.fromDefinition(svcElectron, group, subGroup);
+                        return DataGroup.fromDefinition(group, subGroup);
                     }
                 });
 
                 return group;
             }
             else {
-                return definition.subGroups(svcElectron, parent, definition.path);
+                return definition.subGroups(parent, definition.path);
             }
         }
         else {
-            return DataGroup.fromJSON(svcElectron, parent, definition.path);
+            return DataGroup.fromJSON(parent, definition.path);
         }
     }
 
@@ -210,9 +212,9 @@ export class DataGroup {
             Object.values(this.tasks).forEach((task) => totalTasks += task.maxValue - task.minValue);
         }
 
-        if(this.subGroups) {
-            this.subGroups.forEach((subGroup) => totalTasks += subGroup.total);
-        }
+        this.subGroups?.forEach((subGroup) => {
+            if(!subGroup.isBookmarkGroup) totalTasks += subGroup.total;
+        });
 
         return totalTasks;
     }
@@ -236,14 +238,18 @@ export class DataGroup {
     updateExcluded(mod: number): void {
         this.totalExcluded += mod;
         this.updated$.next();
-        if(this._parent) this._parent.updateExcluded(mod);
+
+        // Update existing parent's total count if this isn't a bookmark group
+        if(!this.isBookmarkGroup) this._parent?.updateExcluded(mod);
     }
 
     // Propagate a completed change up through parent groups
     updateCompleted(mod: number): void {
         this.totalCompleted += mod;
         this.updated$.next();
-        if(this._parent) this._parent.updateCompleted(mod);
+
+        // Update existing parent's total count if this isn't a bookmark group
+        if(!this.isBookmarkGroup) this._parent?.updateCompleted(mod);
     }
 
     //#endregion

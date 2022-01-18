@@ -3,17 +3,17 @@ import { NgModule, Pipe, PipeTransform } from '@angular/core';
 import { Task } from '@domain/Task';
 
 @Pipe({
-    name: 'groupName'
+    name: 'groupLink'
 })
-export class GroupNamePipe implements PipeTransform {
+export class GroupLinkPipe implements PipeTransform {
     transform(task: Task): string {
         return task._parent.groupPath.join(' > ');
     }
 }
 
 @NgModule({
-    declarations: [GroupNamePipe],
-    exports: [GroupNamePipe]
+    declarations: [GroupLinkPipe],
+    exports: [GroupLinkPipe]
 })
-export class GroupNameModule {
+export class GroupLinkModule {
 }

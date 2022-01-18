@@ -16,32 +16,6 @@
             display: flex;
             right: 50px;
             margin-top: -$button-size;
-
-            .action {
-                background-color: var(--primary-color);
-                border: 1px solid var(--primary-color);
-                border-radius: 50%;
-
-                // Size & Spacing
-                height: $button-size;
-                width: $button-size;
-                margin: 0 5px;
-
-                // Center non-icon actions
-                justify-content: center;
-                align-items: center;
-                display: flex;
-
-                &.garland-icon {
-                    background: url('../../../../../../assets/icons/garland.png');
-                    background-size: cover;
-                }
-
-                &.gamer-icon {
-                    background: url('../../../../../../assets/icons/gamerescape.png');
-                    background-size: cover;
-                }
-            }
         }
     }
 }

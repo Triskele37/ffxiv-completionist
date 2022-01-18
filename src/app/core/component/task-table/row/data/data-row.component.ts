@@ -21,10 +21,10 @@ export class DataRowComponent {
         }
     }
 
+    //NOTE: parent chain is broken if element is inside an *ngIf or ng-container
     parentHasClass(element: Element, className: string): boolean {
         if(element.classList?.contains(className)) return true;
         if(!element.parentNode) return false;
         return this.parentHasClass(element.parentNode as Element, className);
     }
-
 }

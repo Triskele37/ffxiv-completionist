@@ -1,0 +1,7 @@
+<div
+    class="action material-icons"
+    [ngClass]="isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add'"
+    [pTooltip]="isBookmarked ? 'Unbookmark Task' : 'Bookmark Task'"
+    tooltipPosition="top"
+    (click)="toggleBookmark()"
+></div>

@@ -25,12 +25,19 @@
         *ngFor="let column of columns"
         [ngClass]="{ centered: column.centered }"
     >
-        <ng-container *ngIf="column.editable; else staticCell">
-            <xiv-edit-cell
+        <xiv-edit-cell
+            *ngIf="column.editable; else linkCell"
+            [task]="task"
+            [key]="column.key"
+        ></xiv-edit-cell>
+
+        <ng-template #linkCell>
+            <xiv-link-cell
+                *ngIf="column.key === 'groupLink'; else staticCell"
                 [task]="task"
-                [key]="column.key"
-            ></xiv-edit-cell>
-        </ng-container>
+            ></xiv-link-cell>
+        </ng-template>
+
         <ng-template #staticCell>
             {{task[column.key]}}
         </ng-template>
