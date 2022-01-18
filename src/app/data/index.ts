@@ -57,6 +57,9 @@ function diveForSave(group: DataGroup): any {
     const subGroupOrTasks = {};
 
     group.subGroups?.forEach((subGroup) => {
+        // Don't save anything from bookmarks
+        if(subGroup.isBookmarkGroup) return;
+
         subGroupOrTasks[subGroup.storageKey] = diveForSave(subGroup);
     });
 

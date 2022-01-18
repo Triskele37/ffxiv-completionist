@@ -1,6 +1,6 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
-- Favorites - Pin groups and tasks
+- bookmark groups
 - Attempt to get CSP working
 
 ----- Chains
