@@ -21,8 +21,21 @@ export class SettingsComponent implements OnInit {
             excluded: { key: 'table-filters.excluded' }
         },
         chainingEnabled: { key: 'chaining-enabled' },
-        chainMinThreshold: { key: 'chain-min-threshold' },
+        chainHistoryLimit: { key: 'chain-history-limit', min: 0, max: 99 },
+        chainMinThreshold: { key: 'chain-min-threshold', min: 1, max: 999 },
     };
+
+    startingClasses: string[] = [
+        'Arcanist',
+        'Archer',
+        'Conjurer',
+        'Gladiator',
+        'Lancer',
+        'Marauder',
+        'Pugilist',
+        'Rogue',
+        'Thaumaturge',
+    ];
 
     constructor(
         private svcData: DataService,
@@ -31,49 +44,50 @@ export class SettingsComponent implements OnInit {
     }
 
     ngOnInit() {
-        const loadSetting = (obj) => obj.value = this.svcConfigStore.get(obj.key);
+        const load = (obj) => {
+            if(obj.key) obj.value = this.svcConfigStore.get(obj.key);
+            else Object.keys(obj).forEach((key) => load(obj[key]));
+        };
 
-        loadSetting(this.settings.storeName);
-        loadSetting(this.settings.storeLocation);
-        loadSetting(this.settings.startingClass);
-        loadSetting(this.settings.lang);
-        loadSetting(this.settings.tableFilters.completed);
-        loadSetting(this.settings.tableFilters.incomplete);
-        loadSetting(this.settings.tableFilters.excluded);
-        loadSetting(this.settings.chainingEnabled);
-        loadSetting(this.settings.chainMinThreshold);
+        load(this.settings);
     }
 
-    onChangeStringSetting($event, path) {
-        this.svcConfigStore.set(path, $event.target.value);
+    onChangeStringSetting(setting: StringSetting): void {
+        this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeBoolSetting($event, path) {
-        this.svcConfigStore.set(path, $event.target.checked);
+    onChangeBoolSetting(setting: BoolSetting): void {
+        this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeNumSetting($event, setting) {
-        let newValue = parseInt($event.target.value, 10);
-        if(newValue < $event.target.min) newValue = $event.target.min;
-        else if(newValue > $event.target.max) newValue = $event.target.max;
+    onChangeNumSetting(setting: NumberSetting): void {
+        if(setting.value < setting.min) setting.value = setting.min;
+        else if(setting.value > setting.max) setting.value = setting.max;
 
-        this.svcConfigStore.set(setting.key, newValue);
-        setting.value = newValue;
+        this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeStartingClass($event, path) {
-        this.onChangeStringSetting($event, path);
+    onChangeStartingClass(): void {
+        this.onChangeStringSetting(this.settings.startingClass);
+        this.chainStartingClass();
+    }
 
-        const startingClass = $event.target.value;
+    onChainingEnabledChange(): void {
+        this.onChangeBoolSetting(this.settings.chainingEnabled);
+        if(this.settings.chainingEnabled.value) this.chainStartingClass();
+    }
+
+    chainStartingClass(): void {
         const baseQuestPath = 'duty.quests.main-scenario.seventh-umbral-era';
 
-        const getTask = (taskPath, id) => this.svcData.data.getChildGroupFromPath(taskPath).tasks[id];
+        const getTask = (taskPath: string, id: number) =>
+            this.svcData.data.getChildGroupFromPath(taskPath).getTaskById(id);
 
-        const gridania = getTask(`${baseQuestPath}.gridania`, 'x65660');
-        const limsa = getTask(`${baseQuestPath}.limsa-lominsa`, 'x65645');
-        const uldah = getTask(`${baseQuestPath}.uldah`, 'x66106');
+        const gridania = getTask(`${baseQuestPath}.gridania`, 65660);
+        const limsa = getTask(`${baseQuestPath}.limsa-lominsa`, 65645);
+        const uldah = getTask(`${baseQuestPath}.uldah`, 66106);
 
-        switch(startingClass) {
+        switch(this.settings.startingClass.value) {
             case 'Archer': case 'Lancer': case 'Conjurer':
                 gridania.changeCompletionFlag(Completion.Y, true);
                 gridania.setCompletionFlag(Completion.N);
@@ -95,10 +109,35 @@ export class SettingsComponent implements OnInit {
     }
 }
 
-type KeyType = string;
-type ValueType = any;
 interface Settings {
-    [key: string]: KeyType | ValueType | Settings;
-    key?: KeyType;
-    value?: ValueType;
+    storeName: StringSetting;
+    storeLocation: StringSetting;
+    startingClass: StringSetting;
+    lang: StringSetting;
+    tableFilters: {
+        completed: BoolSetting;
+        incomplete: BoolSetting;
+        excluded: BoolSetting;
+    };
+    chainingEnabled: BoolSetting;
+    chainHistoryLimit: NumberSetting;
+    chainMinThreshold: NumberSetting;
 }
+
+type Setting = {
+    key: string;
+};
+
+type StringSetting = Setting & {
+    value?: string;
+};
+
+type BoolSetting = Setting & {
+    value?: boolean;
+};
+
+type NumberSetting = Setting & {
+    value?: number;
+    min: number;
+    max: number;
+};

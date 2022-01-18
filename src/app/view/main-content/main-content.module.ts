@@ -23,7 +23,7 @@ import { MainContentComponent } from './main-content.component';
         SummaryLineModule,
         LandingPageModule,
         ShowAllModule,
-        TaskTableModule
+        TaskTableModule,
     ],
     exports: [
         MainContentComponent

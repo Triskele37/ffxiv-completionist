@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
+import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { ChainTask, ChainStart, ChainedTasks } from './types';
+import { ChainedGroup, ChainStart, ChainedTask, ChainHistory } from './types';
 
 @Injectable({
     providedIn: 'root'
@@ -10,101 +11,133 @@ import { ChainTask, ChainStart, ChainedTasks } from './types';
 export class ChainService {
     static Instance;
 
+    private history: ChainHistory[] = [];
+    private historyDisabled: boolean;
+
     chainedTaskCount$ = new BehaviorSubject<number>(0);
-    chainedTasks$ = new BehaviorSubject<ChainedTasks>({});
+    chainedGroups$ = new BehaviorSubject<ChainedGroup[]>([]);
     chainStart$ = new BehaviorSubject<ChainStart>(null);
 
     constructor(private svcConfig: ConfigStoreService) {
         ChainService.Instance = this;
     }
 
-    idExistsInStore(id: number, toFlag: string): boolean {
-        // Matches start task
-        if(this.chainStart$.value?.task?.id === id) {
-            return true;
-        }
-
-        // Only instance of duplicate quest ids in the game
-        if(id === 66210) return false;
-
-        // Matches embedded chained tasks
-        const chainedTasks = this.chainedTasks$.value;
-        for(const path in chainedTasks) {
-            if(chainedTasks.hasOwnProperty(path)) {
-                const change = chainedTasks[path][`x${id}`];
-
-                if(!!change) {
-                    if(change.task.isNumericCompletion) {
-                        // Allow numeric tasks to chain through if toFlag is greater
-                        const fromNum = parseInt(change.fromFlag, 10);
-                        const toNum = parseInt(toFlag, 10);
-                        return fromNum >= toNum;
-                    }
-
-                    return true;
-                }
-            }
-        }
-
-        return false;
-    }
-
-    startChain({ task, fromFlag, toFlag }: ChainTask): void {
+    //#region------------------------------------------------------- Active Chain
+    startChain({ task, fromFlag, toFlag }: ChainedTask): void {
         const path = task._parent.groupPath;
         path.shift();
 
+        this.addHistory();
+
         this.chainStart$.next({
+            historyDisabled: this.historyDisabled,
             task,
             fromFlag,
             toFlag,
             path: path.join(' > ')
         });
-        this.chainedTasks$.next({});
+
+        this.chainedGroups$.next([]);
         this.chainedTaskCount$.next(0);
     }
 
-    pushChained(chained: ChainTask): void {
+    taskAlreadyChained(task: Task, toFlag: string): boolean {
+        // Matches start task
+        if(this.chainStart$.value?.task?.fullStorageKey === task.fullStorageKey) return true;
+
+        // Matches embedded chained tasks
+        return this.chainedGroups$.value.some((chainedGroup) => {
+            const change = chainedGroup.tasks.find(
+                (t) => t.task.fullStorageKey === task.fullStorageKey
+            );
+
+            if(change?.task.isNumericCompletion) {
+                // Allow numeric tasks to chain through if toFlag is greater
+                const fromNum = parseInt(change.fromFlag, 10);
+                const toNum = parseInt(toFlag, 10);
+                return fromNum >= toNum;
+            }
+
+            return !!change;
+        });
+    }
+
+    pushChained(chained: ChainedTask): void {
         const path = chained.task._parent.groupPath.join(' > ');
-        const chainedTasks = this.chainedTasks$.value;
+        const chainedGroups = [...this.chainedGroups$.value];
+        let chainedGroup = chainedGroups.find((g) => g.path === path);
 
         // Init first time a group is hit
-        if(!chainedTasks[path]) {
-            chainedTasks[path] = {};
-            Object.defineProperty(chainedTasks[path], 'show', {
-                enumerable: false,
-                writable: true,
-                value: true
-            });
+        if(!chainedGroup) {
+            chainedGroup = { path, tasks: [], show: true };
+            chainedGroups.push(chainedGroup);
         }
 
-        // Init first time a task is hit
-        const id = `x${chained.task.id}`;
-        if(!chainedTasks[path][id]) {
-            chainedTasks[path][id] = {
-                ...chained,
-                count: 1
-            };
+        // Look for this task in the group
+        let chainedTask = chainedGroup.tasks.find((t) => t.task.id === chained.task.id);
+        if(!chainedTask) {
+            // Init first time a task is hit
+            chainedTask = { ...chained, count: 1 };
+            chainedGroup.tasks.push(chainedTask);
         }
         else {
             // Indicate if a task is chained through multiple times
-            chainedTasks[path][id].count++;
+            chainedTask.count++;
         }
 
         // Update show prop for all chained tasks
         const show = this.chainedTaskCount$.value < this.svcConfig.get('chain-min-threshold');
-        for(const key in chainedTasks) {
-            if(chainedTasks.hasOwnProperty(key)) {
-                chainedTasks[key].show = show;
-            }
-        }
+        chainedGroups.forEach((g) => g.show = show);
 
-        this.chainedTasks$.next(chainedTasks);
+        this.chainedGroups$.next(chainedGroups);
         this.chainedTaskCount$.next(this.chainedTaskCount$.value + 1);
     }
 
-    clearChain(): void {
-        this.chainStart$.next(null);
-        this.chainedTasks$.next({});
-        this.chainedTaskCount$.next(0);
+    //#endregion
+
+    //#region------------------------------------------------------- Chain History
+    addHistory() {
+        if(
+            this.svcConfig.get('chain-history-limit') > this.history.length && // Chain limit won't be exceeded
+            !this.chainStart$.value?.historyDisabled && // Initial task didn't disable history
+            this.chainedTaskCount$.value // There are tasks chained
+        ) {
+            this.history.push({
+                chainStart: this.chainStart$.value,
+                chainedGroups: this.chainedGroups$.value,
+                chainedTaskCount: this.chainedTaskCount$.value
+            });
+        }
     }
+
+    setHistoryDisabled(historyDisabled: boolean): void {
+        this.historyDisabled = historyDisabled;
+    }
+
+    undoCurrentChain() {
+        const chainStart = this.chainStart$.value;
+        const chainedGroups = this.chainedGroups$.value;
+
+        chainStart.task.setCompletion(chainStart.fromFlag);
+        chainedGroups.forEach((chainedGroup) => {
+            chainedGroup.tasks.forEach((chainedTask) => {
+                chainedTask.task.setCompletion(chainedTask.fromFlag);
+            });
+        });
+
+        if(this.history.length) {
+            const history = this.history.pop();
+            this.chainStart$.next(history.chainStart);
+            this.chainedGroups$.next(history.chainedGroups);
+            this.chainedTaskCount$.next(history.chainedTaskCount);
+        }
+        else {
+            this.chainStart$.next(null);
+            this.chainedGroups$.next([]);
+            this.chainedTaskCount$.next(0);
+        }
+    }
+
+    //#endregion
+
 }

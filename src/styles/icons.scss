@@ -30,7 +30,7 @@
 
 .i-selected {
     @extend .material-icons;
-    color: var(--selected);
+    color: var(--text-color-secondary);
 
     &::before {
         content: "\e913"; // .mi-touch-app
@@ -39,7 +39,7 @@
 
 .i-arrow {
     @extend .material-icons;
-    color: var(--excluded);
+    color: var(--text-color-secondary);
 
     &::before {
         content: "\e941"; // .mi-arrow-right-alt

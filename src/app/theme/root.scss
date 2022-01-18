@@ -1,12 +1,8 @@
-@function hexToRGB($hex) {
-    @return red($hex), green($hex), blue($hex);
-}
-
 :root {
-    --primary-color-rgb: hexToRGB(var(--primary-color));
     --primary-color: #0f4c75; //CE93D8
-    --primary-color-2: #3282B8;
-    --primary-color-3: #bbe1fa;
+    //--primary-color-2: #3282B8;
+    --primary-color-light: #3282B8;
+    --primary-color-rgb: 15, 76, 117;
 
     --primary-color-text: #121212;
     --text-color: rgba(255, 255, 255, 0.87);
@@ -58,8 +54,8 @@
     --maskbg: rgba(0, 0, 0, 0.32);
     --focus-ring: none;
 
-    --selected: #b86132;
-    --selected-2: #75330f;
+    --selected: rgba(var(--primary-color-rgb), 0.5);
+    --selected-2: rgba(var(--primary-color-rgb), 0.3);
     --incomplete: #75190f;
     --completed: #0f7538;
     --excluded: #aaa;

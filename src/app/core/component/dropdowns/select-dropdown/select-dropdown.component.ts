@@ -14,8 +14,9 @@ import { ElectronService } from '@service/electron/electron.service';
 })
 export class SelectDropdownComponent {
     @Input() group: DataGroup;
-    @Input() filteredTasks: { [key: string]: Task };
+    @Input() tasks: Task[];
     @Output() selectChange = new EventEmitter<void>();
+
     isVisible: boolean = false;
 
     constructor(private svcElectron: ElectronService) {
@@ -29,37 +30,23 @@ export class SelectDropdownComponent {
         this.isVisible = false;
     }
 
-    selectedIds() {
-        const selectedIds = [];
-        for(let id in this.filteredTasks) {
-            if(this.filteredTasks[id].selected) {
-                if(typeof id === 'string') {
-                    // For show all ids: 0x1x12345
-                    while(id.indexOf('x') !== -1) {
-                        id = id.substr(id.indexOf('x') + 1);
-                    }
-                }
-
-                selectedIds.push(id);
-            }
-        }
-        return selectedIds;
+    private selectedIds(): number[] {
+        return this.tasks
+            .filter((t) => t.selected)
+            .map((t) => t.id);
     }
 
-    onSelectChange(select) {
-        for(const id in this.filteredTasks) {
-            if(select === null) {
-                this.filteredTasks[id].selected = !this.filteredTasks[id].selected;
-            }
-            else {
-                this.filteredTasks[id].selected = select;
-            }
-        }
+    // Passing null means 'invert' selected value
+    onSelectChange(select: boolean | null): void {
+        this.tasks.forEach((task) => {
+            if(select === null) task.selected = !task.selected;
+            else task.selected = select;
+        });
 
         this.selectChange.emit();
     }
 
-    openInGarland() {
+    openInGarland(): void {
         const ids = this.selectedIds();
 
         if(ids.length) {
@@ -68,14 +55,17 @@ export class SelectDropdownComponent {
 
             // Create a pretty group name
             let parent = this.group._parent;
-            while(parent._parent.isCraftingLogGroup) parent = parent._parent;
+            while(parent._parent._parent?.isCraftingLogGroup) {
+                parent = parent._parent;
+            }
+
             const encodedGroupName = `${parent.name} > ${this.group.name}`.replace(' ', '%20');
 
             this.svcElectron.remote.shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
         }
     }
 
-    openInTeamcraft() {
+    openInTeamcraft(): void {
         const ids = this.selectedIds();
 
         if(ids.length) {

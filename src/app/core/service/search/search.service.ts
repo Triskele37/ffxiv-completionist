@@ -70,20 +70,15 @@ export class SearchService {
         }
 
         // Search current group
-        if(!!group.taskCount) {
-            for(const id in group.tasks) {
-                if(group.tasks.hasOwnProperty(id)) {
-                    const taskName = group.tasks[id].name;
-                    if(taskName && SearchService.namesFuzzyMatch(searchTerm, taskName, strict)) {
-                        matches.push({
-                            path: group.groupPath.join(' > '),
-                            name: taskName,
-                            id
-                        });
-                    }
-                }
+        group.tasks.forEach(({ id, name }) => {
+            if(name && SearchService.namesFuzzyMatch(searchTerm, name, strict)) {
+                matches.push({
+                    path: group.groupPath.join(' > '),
+                    name,
+                    id
+                });
             }
-        }
+        });
 
         return matches;
     }

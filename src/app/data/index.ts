@@ -49,43 +49,32 @@ export class DataService {
 function diveForSave(group: DataGroup): any {
     const subGroupOrTasks = {};
 
-    if(group.subGroups) {
-        group.subGroups.forEach((subGroup) => {
-            subGroupOrTasks[subGroup.storageKey] = diveForSave(subGroup);
-        });
-    }
+    group.subGroups?.forEach((subGroup) => {
+        subGroupOrTasks[subGroup.storageKey] = diveForSave(subGroup);
+    });
 
-    for(const id in group.tasks) {
-        if(group.tasks.hasOwnProperty(id)) {
-            const task = group.tasks[id];
-            subGroupOrTasks[task.storageKey] = task.completionFlag;
-        }
-    }
+    group.tasks?.forEach((task) => {
+        subGroupOrTasks[task.storageKey] = task.completionFlag;
+    });
 
     return subGroupOrTasks;
 }
 
 function diveForLoad(group: DataGroup, storeGroup: any): void {
-    if(group.subGroups) {
-        group.subGroups.forEach((subGroup) => {
-            if(storeGroup[subGroup.storageKey]) {
-                diveForLoad(subGroup, storeGroup[subGroup.storageKey]);
+    group.subGroups?.forEach((subGroup) => {
+        if(storeGroup[subGroup.storageKey]) {
+            diveForLoad(subGroup, storeGroup[subGroup.storageKey]);
+        }
+    });
+
+    group.tasks?.forEach((task) => {
+        if(storeGroup[task.storageKey]) {
+            if(!group.isNumericCompletion) {
+                task.setCompletionFlag(storeGroup[task.storageKey]);
             }
-        });
-    }
-
-    for(const id in group.tasks) {
-        if(group.tasks.hasOwnProperty(id)) {
-            const task = group.tasks[id];
-
-            if(storeGroup[task.storageKey]) {
-                if(!group.isNumericCompletion) {
-                    task.setCompletionFlag(storeGroup[task.storageKey]);
-                }
-                else {
-                    task.setCompletionNumber(storeGroup[task.storageKey]);
-                }
+            else {
+                task.setCompletionNumber(storeGroup[task.storageKey]);
             }
         }
-    }
+    });
 }

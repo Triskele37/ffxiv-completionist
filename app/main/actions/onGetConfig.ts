@@ -10,18 +10,27 @@ export function onGetConfig() {
 }
 
 export function initializeConfigStore() {
-    store.config = JSON.parse(fs.readFileSync(paths.config, 'utf8'));
+    if(fs.existsSync(paths.config)) {
+        store.config = JSON.parse(fs.readFileSync(paths.config, 'utf8'));
+    }
+    else {
+        store.config = {};
+    }
 
     setDefaultConfig('store-name', 'completion');
     setDefaultConfig('store-loc', app.getPath('userData'));
+    setDefaultConfig('lang', 'en');
     setDefaultConfig('starting-class', '');
     setDefaultConfig('chaining-enabled', false);
+    setDefaultConfig('chain-history-limit', 10);
     setDefaultConfig('chain-min-threshold', 10);
     setDefaultConfig('table-filters', {
         completed: true,
         incomplete: true,
         excluded: true
     });
+
+    setDefaultConfig('last-breadcrumbs', ['Overall', 'FFXIV Completionist']);
 }
 
 function setDefaultConfig(key: string, defaultValue: any): void {

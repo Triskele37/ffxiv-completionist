@@ -4,7 +4,7 @@ export enum Status {
 }
 
 export type Match = {
-    id: string;
+    id: number;
     name: string;
     path: string;
 };
@@ -16,6 +16,6 @@ export type MatchGroup = {
 };
 
 type MatchGroupTask = {
-    id: string;
+    id: number;
     name: string;
 };

@@ -1,47 +1,47 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
-import { Column } from '@domain/Column';
 import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
+
+type UniqueValues = {
+    [column: string]: string[];
+};
 
 @Component({
     selector: 'xiv-task-table',
     templateUrl: 'task-table.component.html',
     styleUrls: ['./task-table.component.scss']
 })
-export class TaskTableComponent implements OnChanges {
-    @Input() columns: Column[];
+export class TaskTableComponent implements OnInit, OnChanges {
     @Input() group: DataGroup;
-    @Input() tasks: { [key: string]: Task };
+    @Input() tasks: Task[];
     @Input() groupRows: boolean;
 
     debounceDrag: boolean;
-    displayedTasks = 0;
-    totalTasks = 0;
 
-    hasTasks: boolean;
-    uniqueValues: any;
-    filteredTasks: { [key: string]: Task };
-    filteredTasksArr: Task[];
+    uniqueValues: UniqueValues;
+    filteredTasks: Task[];
 
     filters = {
         completion: {}
     };
 
     constructor(
+        private cdr: ChangeDetectorRef,
         private svcConfig: ConfigStoreService,
         private svcSaveStore: SaveStoreService
     ) {
         this.filters.completion = this.svcConfig.get('table-filters');
     }
 
+    ngOnInit() {
+    }
+
     ngOnChanges(changes: SimpleChanges) {
         const { columns, group, tasks } = changes;
-
-        if(tasks) this.hasTasks = this._hasTasks;
 
         if(columns || group || tasks) {
             this.updateFilteredTasks();
@@ -50,8 +50,8 @@ export class TaskTableComponent implements OnChanges {
 
     updateFilteredTasks() {
         this.filteredTasks = this._filteredTasks;
-        this.filteredTasksArr = Object.values(this.filteredTasks);
         this.uniqueValues = this._uniqueValues;
+        // this.cdr.detectChanges();
     }
 
     onFilterChange(filters) {
@@ -63,34 +63,28 @@ export class TaskTableComponent implements OnChanges {
         // Bail if nothing moved
         if($event.dragIndex === $event.dropIndex) return;
 
-        // Grab original data
-        const draggedTask = this.filteredTasksArr[$event.dragIndex];
-        const customFlags = this.svcSaveStore.get('overall.custom');
-        const customMeta = this.svcSaveStore.get('custom');
-        const taskKeys = Object.keys(customMeta);
-        const draggedKey = `x${draggedTask.id}`;
-
-        // Insert the dragged task and remove its original
+        // Move the dragged task in the tasks array
         if($event.dragIndex < $event.dropIndex) {
-            taskKeys.splice($event.dropIndex + 1, 0, draggedKey);
-            taskKeys.splice($event.dragIndex, 1);
+            const task = this.tasks.splice($event.dragIndex, 1)[0];
+            this.tasks.splice($event.dropIndex, 0, task);
         }
         else {
-            taskKeys.splice($event.dropIndex, 0, draggedKey);
-            taskKeys.splice($event.dragIndex + 1, 1);
+            const task = this.tasks.splice($event.dragIndex, 1)[0];
+            this.tasks.splice($event.dropIndex, 0, task);
         }
 
         // Reorder saved
-        const newTasks = {}, newFlags = {}, newMeta = {};
-        taskKeys.forEach((key) => {
-            newTasks[key] = this.tasks[key];
-            newFlags[key.substr(1)] = customFlags[key.substr(1)];
+        const customFlags = this.svcSaveStore.get('overall.custom');
+        const customMeta = this.svcSaveStore.get('custom');
+        const newFlags = {}, newMeta = {};
+
+        this.tasks.forEach((task) => {
+            const key = `x${task.id}`;
+            newFlags[task.id] = customFlags[task.id];
             newMeta[key] = customMeta[key];
         });
 
         // Assign re-ordered objects, save to file
-        const firstId = Object.keys(this.tasks)[0];
-        this.tasks[firstId]._parent.tasks = newTasks;
         this.svcSaveStore.set('overall.custom', newFlags);
         this.svcSaveStore.set('custom', newMeta);
 
@@ -100,88 +94,66 @@ export class TaskTableComponent implements OnChanges {
     }
 
     //#region----------------------------------------------------------- Computed
-    get _hasTasks() {
-        return this.tasks && Object.keys(this.tasks).length > 0;
+    get hasTasks(): boolean {
+        return !!this.tasks?.length;
     }
 
-    get _uniqueValues() {
-        const uniqueValues = {};
+    get _uniqueValues(): UniqueValues {
+        const unique: UniqueValues = {};
 
         // Grab unique values from the filtered task list
-        for(const id in this.filteredTasks) {
-            if(this.filteredTasks.hasOwnProperty(id)) {
-                const task = this.filteredTasks[id];
+        this.group.columns?.forEach(({ key, ...column }) => {
+            if(!column.filterable) return;
+            if(!unique[key]) unique[key] = [];
 
-                this.columns?.forEach(({ key }) => {
-                    if(!uniqueValues[key]) uniqueValues[key] = [];
+            // Grab unique values
+            this.filteredTasks.forEach((task) => {
+                const value = task[key] ?? '';
+                if(!unique[key].includes(value)) unique[key].push(value);
+            });
 
-                    const value = !task[key] && task[key] !== 0 ? '' : task[key];
-                    if(uniqueValues[key].indexOf(value) === -1) {
-                        uniqueValues[key].push(value);
-                    }
-                });
-            }
-        }
-
-        // Sort the unique values for pretty filter dropdowns
-        this.columns?.forEach((column) => {
-            if(!uniqueValues[column.key]) return;
+            // Sort
             if(column.filterType === 'number') {
-                uniqueValues[column.key].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+                unique[key].sort((a, b) =>
+                    parseInt(a, 10) - parseInt(b, 10)
+                );
             }
             else {
-                uniqueValues[column.key].sort();
+                unique[key].sort();
             }
         });
 
-        return uniqueValues;
+        return unique;
     }
 
-    get _filteredTasks() {
-        const filtered = Object.assign({}, this.tasks);
-        const hotwire = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
-        hotwire.push(...this.columns);
+    get _filteredTasks(): Task[] {
+        let filtered = [...this.tasks];
 
-        for(const { key } of hotwire) {
+        // Add completion as a column to non-numeric groups
+        const columns = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
+        columns.push(...this.group.columns);
+
+        columns.forEach(({ key }) => {
             const filter = this.filters[key];
+            if(!filter) return;
 
-            if(filter) {
-                for(const id in filtered) {
-                    if(filtered.hasOwnProperty(id)) {
-                        let removeFromFiltered = false;
-
-                        // Completion filters
-                        if(key === 'completion') {
-                            switch(this.tasks[id].completionFlag) {
-                                case Completion.Y: removeFromFiltered = !filter.completed; break;
-                                case Completion.N: removeFromFiltered = !filter.incomplete; break;
-                                case Completion.X: removeFromFiltered = !filter.excluded; break;
-                                default: removeFromFiltered = !filter.incomplete; break;
-                            }
-                        }
-                        // Blank value search
-                        else if(filter.value === 'Blank') {
-                            removeFromFiltered = !!filtered[id][key];
-                        }
-                        // Column value fuzzy search filter
-                        else {
-                            let safeValue = filtered[id][key];
-                            if(safeValue === null || safeValue === undefined) safeValue = '';
-
-                            const columnValue = safeValue.toString().toLowerCase();
-                            removeFromFiltered = !columnValue.includes(filter.value.toLowerCase());
-                        }
-
-                        if(removeFromFiltered) {
-                            delete filtered[id];
-                        }
+            filtered = filtered.filter((task) => {
+                if(key === 'completion') {
+                    // Completion filters
+                    switch(task.completionFlag) {
+                        case Completion.Y: return filter.completed;
+                        case Completion.N: return filter.incomplete;
+                        case Completion.X: return filter.excluded;
+                        default: return filter.incomplete;
                     }
                 }
-            }
-        }
-
-        this.displayedTasks = Object.keys(filtered).length;
-        this.totalTasks = Object.keys(this.tasks).length;
+                else {
+                    // Column value fuzzy search filter
+                    const columnValue = (task[key] ?? '').toString().toLowerCase();
+                    return columnValue.includes(filter.value.toLowerCase());
+                }
+            });
+        });
 
         return filtered;
     }

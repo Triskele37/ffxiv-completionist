@@ -203,10 +203,9 @@ export class Chainer {
                     id.split('-').map((n) => parseInt(n, 10));
 
                 // Include tasks that fall into 'range' (inclusive)
-                Object.keys(group.tasks).forEach((taskKey) => {
-                    const taskId = group.tasks[taskKey].id;
-                    if(taskId >= range[0] && taskId <= range[1]) {
-                        acc.push(group.tasks[taskKey]);
+                group.tasks.forEach((task) => {
+                    if(task.id >= range[0] && task.id <= range[1]) {
+                        acc.push(task);
                     }
                 });
             }
@@ -220,7 +219,7 @@ export class Chainer {
     }
 
     // Returns the group for a chain task, allowing shorthand for some groups
-    private mapGroupLink(linkedPath: Links, linkedID: string): DataGroup {
+    private mapGroupLink(linkedPath: Links, linkedId: string): DataGroup {
         // Allow linkedPath to be passed as a dot string or already split array of path
         if(!Array.isArray(linkedPath)) {
             linkedPath = (typeof linkedPath === 'string') ? linkedPath.split('.') : [linkedPath];
@@ -241,10 +240,13 @@ export class Chainer {
         // Determine if the link is for a range or singular task
         //   range links must path to a specific group
         //   single task links can be an incomplete path
-        const isRangeLink = linkedID === 'all' || linkedID.includes('-');
+        const isRangeLink = linkedId === 'all' || linkedId.includes('-');
 
         const group = this.overall.getChildGroupFromPath(expandedPath);
-        return isRangeLink ? group : group.getChildGroupWithTaskID(linkedID);
+        if(isRangeLink) return group;
+
+        const id = parseInt(linkedId, 10);
+        return group.getChildGroupWithTaskID(id);
     }
 
     private getTaskFromLink(link: Link): Task {
@@ -258,9 +260,10 @@ export class Chainer {
         else {
             const linkedPath = link.split('.');
             const linkedID = linkedPath.pop();
-            const linkedGroup = this.mapGroupLink(linkedPath, linkedID);
+            const linkedGroup: DataGroup = this.mapGroupLink(linkedPath, linkedID);
 
-            chainTask = (linkedGroup || {}).tasks[`x${linkedID}`];
+            const id = parseInt(linkedID, 10);
+            chainTask = linkedGroup?.getTaskById(id);
         }
 
         if(!chainTask) {

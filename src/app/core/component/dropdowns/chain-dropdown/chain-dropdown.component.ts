@@ -1,10 +1,10 @@
-import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
 import { DataService } from '@data';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
-import { ChainedGroup, ChainedTasks, ChainStart } from '@service/chain/types';
+import { ChainedGroup, ChainStart } from '@service/chain/types';
 
 @Component({
     selector: 'xiv-chain-dropdown',
@@ -14,7 +14,7 @@ import { ChainedGroup, ChainedTasks, ChainStart } from '@service/chain/types';
         './chain-dropdown.component.scss'
     ]
 })
-export class ChainDropdownComponent implements OnInit {
+export class ChainDropdownComponent implements OnInit, OnChanges, OnDestroy {
     @Input() disableUndo: boolean;
     @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
     isVisible: boolean = false;
@@ -23,7 +23,7 @@ export class ChainDropdownComponent implements OnInit {
     doNotify: boolean = false;
 
     chainedTaskCount: number;
-    chainedTasks: ChainedTasks;
+    chainedGroups: ChainedGroup[];
     chainStart: ChainStart;
 
     constructor(
@@ -33,16 +33,16 @@ export class ChainDropdownComponent implements OnInit {
     ) {
     }
 
+    //#region------------------------------------------------------- Life-cycle
     ngOnInit() {
         this.svcChain.chainedTaskCount$.subscribe((count) => {
             this.chainedTaskCount = count;
+            this.doNotify = count > 0;
         });
 
-        this.svcChain.chainedTasks$.subscribe((tasks) => {
-            this.chainedTasks = tasks;
-
+        this.svcChain.chainedGroups$.subscribe((groups) => {
+            this.chainedGroups = groups;
             this.undoVerified = false;
-            this.doNotify = !!Object.keys(this.chainedTasks).length;
         });
 
         this.svcChain.chainStart$.subscribe((task) => {
@@ -50,6 +50,17 @@ export class ChainDropdownComponent implements OnInit {
         });
     }
 
+    ngOnChanges(changes: SimpleChanges) {
+        this.svcChain.setHistoryDisabled(!!changes.disableUndo.currentValue);
+    }
+
+    ngOnDestroy() {
+        this.svcChain.setHistoryDisabled(false);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Template Actions
     onMouseEnter(): void {
         this.isVisible = true;
         this.doNotify = false;
@@ -59,21 +70,8 @@ export class ChainDropdownComponent implements OnInit {
         this.isVisible = false;
     }
 
-    groupChainLength(group: ChainedGroup): number {
-        return !group ? 0 : Object.keys(group).length;
-    }
-
     onToggleShowChainedGroup(group: ChainedGroup): void {
-        if(group.show === undefined) {
-            Object.defineProperty(group, 'show', {
-                enumerable: false,
-                writable: true,
-                value: true
-            });
-        }
-        else {
-            group.show = !group.show;
-        }
+        group.show = !group.show;
     }
 
     onNavigateToGroup(path: string): void {
@@ -85,26 +83,17 @@ export class ChainDropdownComponent implements OnInit {
 
     onUndoLastChain(): number {
         // Allow for oopsie clicks
-        this.undoVerified = !this.undoVerified;
-        if(!this.undoVerified) return;
-        this.isVisible = false;
-
-        // Do the actual undo
-        this.chainStart.task.setCompletion(this.chainStart.fromFlag);
-
-        for(const groupPath in this.chainedTasks) {
-            if(this.chainedTasks.hasOwnProperty(groupPath)) {
-                for(const id in this.chainedTasks[groupPath]) {
-                    if(this.chainedTasks[groupPath].hasOwnProperty(id)) {
-                        const change = this.chainedTasks[groupPath][id];
-                        change.task.setCompletion(change.fromFlag);
-                    }
-                }
-            }
+        if(!this.undoVerified) {
+            this.undoVerified = true;
+            return;
         }
 
-        // Commit the undo to chain service and store
-        this.svcChain.clearChain();
+        this.undoVerified = false;
+
+        // Fire undo and apply changes to save
+        this.svcChain.undoCurrentChain();
         this.svcData.applyDataToStore();
     }
+
+    //#endregion
 }

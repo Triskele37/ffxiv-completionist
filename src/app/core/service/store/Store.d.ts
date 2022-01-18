@@ -12,6 +12,7 @@ export type ConfigStore = {
     };
 
     'chaining-enabled': boolean;
+    'chain-history-limit': number;
     'chain-min-threshold': number;
 
     'id-column-enabled': boolean;

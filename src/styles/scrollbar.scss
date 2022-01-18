@@ -3,14 +3,15 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(var(--primary-color-rgb), 0.9);
+    background: var(--surface-a);
+    border: 1px solid var(--primary-color-text);
 }
 
 ::-webkit-scrollbar-thumb {
     background: var(--primary-color);
+    border: 1px solid var(--primary-color-text);
 
     &:hover {
-        //background: rgba(var(--primary-color-rgb), 0.8);
-        filter: brightness(90%);
+        background: rgba(var(--primary-color-rgb), 0.9);
     }
 }

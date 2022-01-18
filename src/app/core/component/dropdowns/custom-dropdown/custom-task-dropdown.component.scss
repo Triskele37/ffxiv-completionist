@@ -1,29 +1,50 @@
+// Shared class between add and merge overlays
 .overlay-container {
-    .content {
+    .add-overlay .content {
         width: 300px;
+
+        .task-property-input {
+            padding: 5px;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    .merge-overlay .content {
+        // So overlay can grow with long group paths on merge
+        min-width: 300px;
+
+        .merge-details {
+            padding: 5px;
+
+            // Wrapping for long notes
+            white-space: initial;
+            max-height: 150px;
+            overflow: auto;
+        }
+
+        .p-buttonset {
+            ::ng-deep .p-button {
+                width: 50%;
+            }
+        }
+
+        ::ng-deep .p-divider {
+            margin: 5px 0;
+            user-select: none;
+        }
     }
 
     .auto-merge-modal {
         background-color: black;
-        position: absolute;
+        position: fixed;
         z-index: 9999;
         opacity: 0.25;
         height: 100vh;
         width: 100vw;
         left: 0;
         top: 0;
-    }
-
-    .task-property-input {
-        padding: 5px;
-
-        input {
-            width: 100%;
-        }
-    }
-
-    .merge-details {
-        padding: 5px;
-        width: unset;
     }
 }

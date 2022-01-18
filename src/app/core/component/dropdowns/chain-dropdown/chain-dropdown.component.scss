@@ -1,51 +1,39 @@
 .overlay-container {
+    $nav-arrow-width: 38px;
+
     .do-notify ::ng-deep .mi-link {
         animation: chainNotificationPulse 2s infinite;
-
-        // Fixes issue where popup goes behind table header
-        position: relative;
-        z-index: 1;
     }
 
     .overlay-panel {
         .content {
-            .group-nav-arrow {
-                position: relative;
-                margin-top: -6px;
-                font-size: 24px;
-                float: right;
-
-                &.arrows-adjust {
-                    margin-right: 20px;
-                    margin-top: -11px;
-                }
-            }
-
             .p-buttonset {
                 width: 100%;
-            }
 
-            ::ng-deep p-button .p-button {
-                &.chain-task-path {
+                // Chain start summary specific
+                &.chain-start ::ng-deep .p-button {
                     height: 50px;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    width: calc(100% - 38px);
                 }
 
-                &.chain-task-nav {
-                    height: 50px;
-                    width: 38px;
-                }
-
-                &.group-path {
+                // Chain group specific
+                &.chain-group ::ng-deep .p-button {
                     height: 38px;
-                    width: calc(100% - 38px);
-                    text-align: left;
                 }
 
-                &.group-nav {
-                    width: 38px;
+                // Common
+                ::ng-deep .p-button {
+                    &.path {
+                        width: calc(100% - #{$nav-arrow-width});
+
+                        // Wrap lines, left align, vertical center
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                    }
+
+                    &.nav {
+                        width: $nav-arrow-width;
+                    }
                 }
             }
 
@@ -55,6 +43,10 @@
                 .p-button {
                     padding: 0 0 0 25px;
                     width: 100%;
+
+                    .task-name {
+                        padding-left: 10px;
+                    }
                 }
             }
 
@@ -65,7 +57,7 @@
 
                 overflow-y: auto;
                 height: 50vh;
-                min-width: 30vw;
+                min-width: 700px;
             }
 
             .Y, .N, .X {
@@ -81,6 +73,10 @@
             }
         }
     }
+}
+
+::ng-deep .chain-navigate-tooltip {
+    margin-left: 10px;
 }
 
 @keyframes chainNotificationPulse {

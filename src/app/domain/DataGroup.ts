@@ -16,13 +16,12 @@ export class DataGroup {
     name: string;
     _parent: DataGroup; // A reference to the parent group
     subGroups: DataGroup[];  // Child groups of this group
-
-    // All task ids of 'tasks' are prefixed with an 'x' to ensure order
-    tasks: { [id: string]: Task } = {};
+    tasks: Task[] = [];
 
     cCombo; //TODO:
 
     isCustomGroup: boolean;
+    isCraftingLogGroup: boolean = false;
     draggable: boolean;
     columns: Column[];
 
@@ -33,8 +32,6 @@ export class DataGroup {
         this.name = json.groupName;
         this._key = json.key;
         this._parent = parent;
-
-        this.lang = parent?.lang || DataGroup.lang;
 
         // Inherit things
         if(this._parent) {
@@ -51,6 +48,7 @@ export class DataGroup {
         }
 
         this.isNumericCompletion = !!json.isNumericCompletion;
+        this.isCraftingLogGroup = !!(json.isCraftingLogGroup ?? parent?.isCraftingLogGroup);
 
         // Chain inheritance
         if(json.cCombo) this.cCombo = json.cCombo;
@@ -60,8 +58,8 @@ export class DataGroup {
         return this;
     }
 
-    static fromJSON(svcElectron: ElectronService, parent, path): DataGroup {
-        const json = loadJson(svcElectron, path, parent?.lang || DataGroup.lang);
+    static fromJSON(svcElectron: ElectronService, parent: DataGroup, path: string): DataGroup {
+        const json = loadJson(svcElectron, path, DataGroup.lang);
         return new DataGroup(json, parent);
     }
 
@@ -91,19 +89,17 @@ export class DataGroup {
         }
     }
 
-    initializeTasks(tasks) {
-        for(const id in tasks) {
-            if(tasks.hasOwnProperty(id)) {
-                const taskObj = new Task(tasks[id], this);
+    initializeTasks(tasks): DataGroup {
+        Object.keys(tasks).forEach((id) => {
+            const task = new Task(tasks[id], this);
 
-                // Allow groups to have default flags for all child tasks
-                if(!taskObj.defaultCompletion) taskObj.setCompletion(this.defaultCompletion);
-                // Prioritize task level defaults
-                else taskObj.setCompletion(taskObj.defaultCompletion);
+            // Allow groups to have default flags for all child tasks
+            if(!task.defaultCompletion) task.setCompletion(this.defaultCompletion);
+            // Prioritize task level defaults
+            else task.setCompletion(task.defaultCompletion);
 
-                this.tasks[id] = taskObj;
-            }
-        }
+            this.tasks.push(task);
+        });
 
         return this;
     }
@@ -140,12 +136,13 @@ export class DataGroup {
         return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path, byName);
     }
 
-    getChildGroupWithTaskID(taskID: string): DataGroup {
-        if(this.tasks[taskID] || this.tasks[`x${ taskID }`]) return this;
+    getChildGroupWithTaskID(taskId: number): DataGroup {
+        const task = this.tasks.find((t) => t.id === taskId);
+        if(task) return this;
 
         if(this.subGroups) {
             for(const item of this.subGroups) {
-                const hit = item.getChildGroupWithTaskID(taskID);
+                const hit = item.getChildGroupWithTaskID(taskId);
                 if(hit) return hit;
             }
         }
@@ -165,33 +162,29 @@ export class DataGroup {
     //#endregion
 
     //#region------------------------------------------------------- Task Handling
-    getTaskAtIndex(index: number): Task {
-        const id = Object.keys(this.tasks)[index];
-        return this.tasks[id];
-    }
-
     getIndexOfTask(taskId: number): number {
-        return Object.values(this.tasks).findIndex((t) => t.id === taskId);
+        return this.tasks.findIndex((t) => t.id === taskId);
     }
 
     /** Recursively searches ALL data starting at this group
      * Checks this group and all subGroups first then moves to parent
      * 'hit' prevents searching the same group multiple times
      * */
-    getTaskById(taskId: string | number, hit: string[] = []): Task {
+    getTaskById(taskId: number, hit: string[] = []): Task {
         // Bail if recursion already hit this group
         if(hit?.includes(this.fullStorageKey)) return null;
 
         // Check immediate task collection
-        if(this.tasks[taskId]) return this.tasks[taskId];
-        if(this.tasks[`x${taskId}`]) return this.tasks[`x${taskId}`];
+        const task = this.tasks.find((t) => t.id === taskId);
+        if(task) return task;
+
         hit.push(this.fullStorageKey);
 
         // Recurse through subGroups
         if(this.subGroups) {
             for(const group of this.subGroups) {
-                const task = group.getTaskById(taskId, hit);
-                if(task) return task;
+                const subTask = group.getTaskById(taskId, hit);
+                if(subTask) return subTask;
             }
         }
 
@@ -208,13 +201,9 @@ export class DataGroup {
     // The total of excluded tasks of this and children
     totalExcluded: number = 0;
 
-    get taskCount(): number {
-        return this.tasks ? Object.keys(this.tasks).length : null;
-    }
-
     // Total count of all tasks of this group & children
     get total(): number {
-        let totalTasks = this.tasks ? this.taskCount : 0;
+        let totalTasks = this.tasks?.length ||  0;
 
         if(this._isNumericCompletion) {
             totalTasks = 0;
@@ -285,11 +274,9 @@ export class DataGroup {
             this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = value);
         }
 
-        for(const id in this.tasks) {
-            if(this.tasks.hasOwnProperty(id) && this.tasks[id].defaultCompletion) {
-                this.tasks[id].setCompletion(value);
-            }
-        }
+        this.tasks.forEach((task) => {
+            if(task.defaultCompletion) task.setCompletion(value);
+        });
     }
 
     //#endregion
@@ -304,39 +291,8 @@ export class DataGroup {
 
     set isNumericCompletion(value: boolean) {
         this._isNumericCompletion = value;
-        Object.values(this.tasks).forEach((task) => task.isNumericCompletion = value);
+        this.tasks.forEach((task) => task.isNumericCompletion = value);
     }
-
-    //#endregion
-
-    //#region--------------------------------- Language
-    _lang: Lang = Lang.EN;
-
-    get lang(): Lang {
-        return this._lang;
-    }
-
-    set lang(newLang: Lang) {
-        this._lang = newLang;
-        (this.subGroups || []).forEach((subGroup) => subGroup.lang = newLang);
-    }
-
-    //#endregion
-
-    //#region--------------------------------- Crafting Group
-    _isCraftingLogGroup: boolean = false;
-
-    get isCraftingLogGroup(): boolean {
-        return this._isCraftingLogGroup;
-    }
-
-    // for now requires being set after subGroups are added
-    set isCraftingLogGroup(value: boolean) {
-        this._isCraftingLogGroup = value;
-        (this.subGroups || []).forEach((sg) => sg.isCraftingLogGroup = value);
-    }
-
-    //#endregion
 
     //#endregion
 

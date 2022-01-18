@@ -14,11 +14,10 @@
         (click)="modalNoNo($event)"
     ></div>
 
-    <div *ngIf="isVisible && !isMergeVisible" class="overlay-panel">
+    <div *ngIf="isVisible && !isMergeVisible" class="overlay-panel add-overlay">
         <span class="content">
             <div class="task-property-input">
                 <input
-                    type="text"
                     pInputText
                     placeholder="Enter Custom Task Name Here"
                     [(ngModel)]="newTaskName"
@@ -26,34 +25,35 @@
             </div>
             <div class="task-property-input">
                 <input
-                    type="text"
                     pInputText
                     placeholder="Enter Custom Task Notes Here"
                     [(ngModel)]="newTaskNotes"
                 />
             </div>
-            <p-button label="Add Custom Task" (onClick)="addCustomTask()"></p-button>
-            <p-button label="Merge Custom Tasks into App" (onClick)="mergeCustomTasks()"></p-button>
+
+            <p-button label="Add Task" (onClick)="addCustomTask()"></p-button>
+            <p-button label="Auto-Merge Tasks with One Match" (onClick)="autoMergeSingleMatches()"></p-button>
+            <p-button label="Merge Tasks into App" (onClick)="mergeCustomTasks()"></p-button>
             <p-button label="Remove Selected Tasks" (click)="removeSelectedCustomTasks()"></p-button>
         </span>
     </div>
 
-    <div *ngIf="isMergeVisible" class="overlay-panel">
+    <div *ngIf="isMergeVisible" class="overlay-panel merge-overlay">
         <span class="content">
             <div class="merge-details">
+                {{mergeInfo}}<br/><br/>
                 {{mergeTask.name}}<br/>
-                {{mergeTask.notes}}<br/><br/>
-                {{mergeInfo}}
+                {{mergeTask.notes}}
             </div>
 
-            <p-button
-                label="Auto-Merge Tasks with One Match"
-                (onClick)="autoMergeSingleMatches()"
-            ></p-button>
-            <p-button label="Skip" (onClick)="goToNextMerge()"></p-button>
-            <p-button label="Exit" (onClick)="exitMerge()"></p-button>
+            <span class="p-buttonset">
+                <p-button label="Skip" (onClick)="goToNextMerge()"></p-button>
+                <p-button label="Exit" (onClick)="exitMerge()"></p-button>
+            </span>
 
             <ng-container *ngIf="mergeMatches.length > 0">
+                <p-divider align="center">Select a match</p-divider>
+
                 <p-button
                     *ngFor="let match of mergeMatches"
                     [label]="match.path"

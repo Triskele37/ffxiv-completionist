@@ -11,20 +11,20 @@
 
     &:enabled {
         &:hover {
-            background: var(--primary-color-3);
+            background: var(--primary-color-light);
             color: var(--primary-color-text);
             border-color: transparent;
         }
 
         &:active {
-            //background: rgba(var(--primary-color-rgb), 0.68);
+            background: rgba(var(--primary-color-rgb), 0.68);
             //background: var(--primary-color-2);
-            //color: var(--primary-color-text);
-            //border-color: transparent;
+            color: var(--primary-color-text);
+            border-color: transparent;
         }
 
         &:focus {
-            //background: rgba(var(--primary-color-rgb), 0.76);
+            background: rgba(var(--primary-color-rgb), 0.76);
         }
     }
 

@@ -11,7 +11,7 @@ import { MainMenu } from '../../../view/main-menu';
     providedIn: 'root'
 })
 export class NavigationService {
-    selectedGroup$ = new BehaviorSubject<UIGroup | DataGroup>(null);
+    selectedGroup$ = new BehaviorSubject<DataGroup | UIGroup>(null);
     breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
 
     constructor(
@@ -23,7 +23,7 @@ export class NavigationService {
         if(initialBreadcrumbs) this.setBreadcrumbs(initialBreadcrumbs);
     }
 
-    getGroupFromBreadcrumbs(breadcrumbs: string[]): UIGroup | DataGroup {
+    getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | UIGroup {
         if(!breadcrumbs) return null;
 
         if(breadcrumbs.length === 1) {

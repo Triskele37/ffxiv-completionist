@@ -1,3 +1,8 @@
 .content {
     width: 200px;
+
+    ::ng-deep .p-divider {
+        margin: 5px 0;
+        user-select: none;
+    }
 }

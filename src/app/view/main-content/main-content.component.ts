@@ -1,10 +1,10 @@
 import { Component, ComponentFactoryResolver, OnInit, ViewChild } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
-import { UIGroup } from '@domain/UIGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 import { AnchorDirective } from './anchor.directive';
+import { UIGroup } from '@domain/UIGroup';
 
 @Component({
     selector: 'xiv-main-content',
@@ -12,10 +12,10 @@ import { AnchorDirective } from './anchor.directive';
     styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-    //TODO: allData: data
-    selectedGroup: UIGroup | DataGroup;
-    showAll: boolean = false;
     isShowAllVisible: boolean = false;
+    showAll: boolean = false;
+
+    selectedGroup: DataGroup | UIGroup;
 
     _anchor: AnchorDirective;
     @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
@@ -36,13 +36,13 @@ export class MainContentComponent implements OnInit {
             this.selectedGroup = selectedGroup;
             this.showAll = false;
 
-            if(selectedGroup instanceof DataGroup) {
-                this.isShowAllVisible = !!(selectedGroup?.subGroups && selectedGroup.columns);
-            }
-            else {
+            if(selectedGroup instanceof UIGroup) {
                 this.isShowAllVisible = false;
 
                 if(selectedGroup?.component) this.loadComponent();
+            }
+            else if(selectedGroup instanceof DataGroup) {
+                this.isShowAllVisible = !!(selectedGroup?.subGroups && selectedGroup.columns);
             }
         });
     }

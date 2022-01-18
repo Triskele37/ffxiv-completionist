@@ -28,11 +28,15 @@
     }
 
     ::ng-deep .p-datatable {
+        .cdk-virtual-scroll-viewport, .cdk-virtual-scroll-content-wrapper {
+            //display: flex;
+            //flex: 1;
+            //flex-direction: column;
+        }
+
         //---------------------- Table Row ----------------------
         tr {
-            &:not(.p-rowgroup-header) {
-                cursor: pointer;
-            }
+            cursor: pointer;
 
             &.p-rowgroup-header td {
                 padding: 0;
@@ -47,54 +51,42 @@
                     width: 2rem;
                 }
             }
-
-            &:nth-child(even) {
-                background-color: $blue-3;
-            }
-
-            &.selected td:not(.noSelect) {
-                background-color: var(--selected);
-            }
-
-            &.selected:nth-child(even) td:not(.noSelect) {
-                background-color: var(--selected-2);
-            }
         }
 
-        //---------------------- Table Cell ----------------------
+        //---------------------- Common ----------------------
         th, td {
             max-width: 20vw;
+        }
+
+        //---------------------- Table Header ----------------------
+        th {
+            position: sticky;
+            top: 0;
+
+            cursor: context-menu;
+            user-select: none;
+        }
+
+        //---------------------- Table Data ----------------------
+        td {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
 
             &.centered {
                 text-align: center;
             }
         }
 
-        //---------------------- Table Header ----------------------
-        th {
-            border: 1px solid black;
-            border-top: none;
-            border-left: none;
-
-            background-color: $blue-2;
-            padding: 0 5px;
-            position: sticky;
-            top: 0;
-
-            cursor: context-menu;
-            user-select: none;
-
-            &:hover {
-                //background-color: rgba(0, 0, 0, 0.1);
+        //---------------------- Selection ----------------------
+        .p-datatable-tbody {
+            :nth-child(odd) .selected td:not(.noSelect) {
+                background-color: var(--selected);
             }
-        }
 
-        //---------------------- Table Data ----------------------
-        td {
-            //white-space: normal;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
+            :nth-child(even) .selected td:not(.noSelect) {
+                background-color: var(--selected-2);
+            }
         }
     }
 }

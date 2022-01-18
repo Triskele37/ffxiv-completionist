@@ -17,6 +17,11 @@ gut additional package.json dependencies if possible
   - New/Load & Lang to settings
 
 **Fix**
+- Disable sorting on all task view
+- add nav to group in all task view
+- Build pathing issue to resources "../resources/resources/common/./index.json"
+- Build does not produce an .exe and misses including resources
+- Clean up injection spaghetti from electron main process change
 - Save automatically puts "N" for every item, making defaultCompletion not work
 - Scholar/Summoner levels don't tie together properly
 - Achievement _error 683 & 685 Mapping Binding Coil IV & VI

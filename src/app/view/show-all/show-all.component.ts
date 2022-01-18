@@ -11,7 +11,7 @@ import { Task } from '@domain/Task';
 export class ShowAllComponent implements OnChanges {
     @Input() group: DataGroup;
 
-    tasks: { [key: string]: Task };
+    tasks: Task[];
 
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group) {
@@ -20,27 +20,13 @@ export class ShowAllComponent implements OnChanges {
     }
 }
 
-function diveForTasks(group) {
-    const tasks = {};
-
+function diveForTasks(group: DataGroup): Task[] {
     // add current group's tasks
-    for(const id in group.tasks) {
-        if(group.tasks.hasOwnProperty(id)) {
-            tasks[id] = group.tasks[id];
-        }
-    }
+    const tasks: Task[] = [...group.tasks];
 
     // dive for more child tasks
-    (group.subGroups || []).forEach((subGroup) => {
-        const subGroupTasks = diveForTasks(subGroup);
-
-        for(const id in subGroupTasks) {
-            if(subGroupTasks.hasOwnProperty(id)) {
-                let prefix = 0;
-                while(!!tasks[`x${prefix}${id}`]) prefix++;
-                tasks[`x${prefix}${id}`] = subGroupTasks[id];
-            }
-        }
+    group.subGroups?.forEach((subGroup) => {
+        tasks.push(...diveForTasks(subGroup));
     });
 
     return tasks;

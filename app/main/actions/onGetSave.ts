@@ -15,5 +15,11 @@ export function initializePlayerStore() {
     const file = (store.config['store-name'] || 'completion') + '.json';
 
     paths.save = path.join(base, file);
-    store.save = JSON.parse(fs.readFileSync(paths.save, 'utf8'));
+
+    if(fs.existsSync(paths.save)) {
+        store.save = JSON.parse(fs.readFileSync(paths.save, 'utf8'));
+    }
+    else {
+        store.save = {};
+    }
 }

@@ -19,68 +19,76 @@
         <span *ngIf="chainStart" class="content">
             <!-- Undo Button -->
             <p-button
-                *ngIf="!disableUndo"
-                [label]="!undoVerified ? 'Undo last action' : 'Are you sure?'"
+                *ngIf="!chainStart.historyDisabled"
+                [label]="!undoVerified ? 'Undo This Chain' : 'Are you sure?'"
                 (onClick)="onUndoLastChain()"
             ></p-button>
 
             <!-- Recent Action Info -->
-            <span class="p-buttonset">
+            <span class="p-buttonset chain-start">
                 <p-button
-                    styleClass="chain-task-path"
+                    styleClass="path"
                     [disabled]="true"
                 >
-                    <div>{{chainStart.path}}</div>
-                    <div>
-                        Marking "{{chainStart.task.name}}"&nbsp;
-                        as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
-                        chained to {{chainedTaskCount}} other items
-                    </div>
+                    <ng-template pTemplate="content">
+                        <div>{{chainStart.path}}</div>
+                        <div>
+                            Marking "{{chainStart.task.name}}"&nbsp;
+                            as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
+                            chained to {{chainedTaskCount}} other items
+                        </div>
+                    </ng-template>
                 </p-button>
                 <p-button
+                    styleClass="nav"
                     icon="material-icons mi-navigate-next"
                     pTooltip="Navigate to this group"
-                    tooltipPosition="left"
-                    styleClass="chain-task-nav"
+                    tooltipPosition="right"
                     (onClick)="onNavigateToGroup(chainStart.path)"
                 ></p-button>
             </span>
 
             <!-- Chained Groups Scroll Container -->
             <div class="chain-scroll-container">
-                <ng-container *ngFor="let group of chainedTasks | keyvalue">
-                    <span class="p-buttonset">
+                <ng-container *ngFor="let group of chainedGroups">
+                    <!-- Group header button -->
+                    <span class="p-buttonset chain-group">
                         <p-button
-                            label="{{group.key}} ({{groupChainLength(group.value)}})"
-                            styleClass="group-path"
-                            (onClick)="onToggleShowChainedGroup(group.value)"
-                        ></p-button>
+                            styleClass="path"
+                            (onClick)="onToggleShowChainedGroup(group)"
+                        >
+                            <ng-template pTemplate="content">
+                                {{group.path}} ({{group.tasks.length}})
+                            </ng-template>
+                        </p-button>
                         <p-button
+                            styleClass="nav"
                             icon="material-icons mi-navigate-next"
                             pTooltip="Navigate to this group"
-                            tooltipPosition="left"
-                            styleClass="group-nav"
-                            (onClick)="onNavigateToGroup(group.key)"
+                            tooltipPosition="right"
+                            tooltipStyleClass="chain-navigate-tooltip"
+                            (onClick)="onNavigateToGroup(group.path)"
                         ></p-button>
                     </span>
 
                     <!-- Group Content Items -->
-                    <ng-container *ngIf="group.value.show">
-                        <ng-container *ngFor="let item of group.value | keyvalue">
+                    <ng-container *ngIf="group.show">
+                        <ng-container *ngFor="let task of group.tasks">
                             <p-button
-                                *ngIf="item.value.task"
+                                *ngIf="task.task"
                                 class="chained-task"
                                 [disabled]="true"
                             >
-                                <span [ngClass]="[item.value.fromFlag]">
-                                    {{item.value.fromFlag}}
-                                </span>
-                                &nbsp;>&nbsp;
-                                <span [ngClass]="[item.value.task.completionFlag]">
-                                    {{item.value.task.completionFlag}}
-                                </span>
-                                &nbsp;-&nbsp;
-                                {{item.value.task.name}}
+                                <ng-template pTemplate="content">
+                                    <span [ngClass]="task.fromFlag">
+                                        {{task.fromFlag}}
+                                    </span>
+                                    <i class="material-icons mi-arrow-right-alt"></i>
+                                    <span [ngClass]="task.task.completionFlag">
+                                        {{task.task.completionFlag}}
+                                    </span>
+                                    <span class="task-name">{{task.task.name}}</span>
+                                </ng-template>
                             </p-button>
                         </ng-container>
                     </ng-container>

@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { Task, TaskMap } from '@domain/Task';
+import { Task } from '@domain/Task';
 
 type History = {
     tasks: TaskHistory[];
@@ -24,7 +24,7 @@ type TaskHistory = {
     ]
 })
 export class QuickMarkDropdownComponent {
-    @Input() filteredTasks: TaskMap;
+    @Input() tasks: Task[];
     @Output() onMark = new EventEmitter<void>();
     history: History[] = [];
     isVisible: boolean = false;
@@ -51,9 +51,7 @@ export class QuickMarkDropdownComponent {
     onChangeTaskCompletion(from: Completion, to: Completion): void {
         const history: History = { from: from || 'selected', to, tasks: [] };
 
-        Object.keys(this.filteredTasks).forEach((id) => {
-            const task = this.filteredTasks[id];
-
+        this.tasks.forEach((task) => {
             if((!from && task.selected) || (from && task.completionFlag === from)) {
                 history.tasks.push({
                     task,

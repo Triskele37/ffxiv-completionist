@@ -1,32 +1,51 @@
 .settings-page {
-    .setting-header {
-        display: block;
-        margin-top: 20px;
-        font-weight: bold;
-        text-decoration: underline;
-    }
-
-    .settings-group {
-        width: fit-content;
-    }
+    // Ensure the chain dropdown has room to display
+    min-height: 650px;
 
     .setting {
-        height: 20px;
+        display: flex;
+        align-items: center;
+        height: 38px;
 
-        .setting-input {
-            float: right;
+        &.bool {
+            width: 200px;
         }
 
-        .xiv-select {
-            width: unset;
+        &.number {
+            width: 300px;
         }
 
-        .xiv-input {
-            width: 50px;
-        }
-
-        .chain-dropdown {
+        label:first-child {
             display: inline-block;
+            padding-right: 10px;
+            text-align: right;
+            width: 175px;
+        }
+
+        ::ng-deep .p-inputnumber input {
+            width: 60px;
+        }
+
+        &.starting-class {
+            width: 375px;
+
+            ::ng-deep .p-dropdown {
+                height: 38px;
+                width: 150px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            ::ng-deep .overlay-container {
+                .overlay-panel {
+                    left: -185px;
+                }
+
+                .p-button {
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+            }
         }
     }
 }

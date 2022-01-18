@@ -7,8 +7,6 @@ import { UIGroup } from '@domain/UIGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { MainMenu } from '../../../view/main-menu';
 
-type Group = UIGroup | DataGroup;
-
 @Component({
     selector: 'xiv-nav-drawer',
     templateUrl: './nav-drawer.component.html',
@@ -40,7 +38,7 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Builds a MenuItem for all data groups
-    private addSubGroup(group: Group, depth: number = 1): MenuItem {
+    private addSubGroup(group: DataGroup | UIGroup, depth: number = 1): MenuItem {
         const item: MenuItem = { label: group.name };
 
         // Add "sub" MenuItems if this group has subGroups

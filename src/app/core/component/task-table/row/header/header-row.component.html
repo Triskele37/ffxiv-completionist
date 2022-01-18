@@ -1,7 +1,7 @@
 <tr class="task-table-header">
     <!-- Completion Header -->
     <th class="completion-column">
-        <ng-container *ngIf="!isNumericCompletion; else numericColumn">
+        <ng-container *ngIf="!group.isNumericCompletion; else numericColumn">
             <i
                 class="i-complete"
                 [ngClass]="{ enabled: filters.completion.completed }"
@@ -29,15 +29,19 @@
 
     <!-- Data Headers -->
     <th
-        *ngFor="let column of columns"
+        *ngFor="let column of group.columns"
         [style.width.px]="column.width"
     >
         <div
             class="column-name"
             [pSortableColumn]="column.key"
+            [pSortableColumnDisabled]="group.isCustomGroup"
         >
             {{column.header}}
-            <p-sortIcon [field]="column.key"></p-sortIcon>
+            <p-sortIcon
+                *ngIf="!group.isCustomGroup"
+                [field]="column.key"
+            ></p-sortIcon>
         </div>
         <div class="column-filter">
             <ng-container *ngIf="column.filterable; else inputFilter">

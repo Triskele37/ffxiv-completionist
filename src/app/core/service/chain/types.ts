@@ -1,40 +1,32 @@
 import { Task } from '@domain/Task';
 
-// Tasks as used by the chain service
-export type ChainTask = {
+// Each unique group containing chained tasks
+export type ChainedGroup = {
+    path: string;
+    tasks: ChainedTask[];
+    show?: boolean;
+};
+
+// Shared between ChainStart and ChainedTask
+type TaskBase = {
     task: Task;
     fromFlag: string;
     toFlag: string;
 };
 
 // The first task to start a chain
-export type ChainStart = ChainTask & {
+export type ChainStart = TaskBase & {
+    historyDisabled: boolean;
     path: string;
 };
 
-// All tasks affected by a chain grouped by their group path
-export type ChainedTasks = {
-    [key: string]: ChainedGroup;
+// Tasks that are affected by a chain
+export type ChainedTask = TaskBase & {
+    count?: number;
 };
 
-// Necessary to allow index signature and known props
-export type ChainedGroup = ChainedGroupTasks & ChainedGroupProps;
-
-// Index signature for each task
-interface ChainedGroupTasks {
-    [key: string]: ChainedTask;
-}
-
-// Known props of a ChainedGroup
-interface ChainedGroupProps {
-    show?: boolean;
-}
-
-// Tasks that are affected by a chain
-type ChainedTask = {
-    task: Task;
-    fromFlag: string;
-    toFlag: string;
-
-    count: number;
+export type ChainHistory = {
+    chainedTaskCount: number;
+    chainStart: ChainStart;
+    chainedGroups: ChainedGroup[];
 };

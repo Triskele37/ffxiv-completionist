@@ -1,26 +1,27 @@
-<div *ngIf="!!columns" class="task-table-container">
+<div *ngIf="group.columns" class="task-table-container">
     <div class="task-table-toolbar">
         <span class="p-buttonset">
-            <xiv-quick-mark-dropdown
-                *ngIf="hasTasks && !group.isNumericCompletion"
-                [filteredTasks]="filteredTasks"
-                (onMark)="updateFilteredTasks()"
-            ></xiv-quick-mark-dropdown>
+            <ng-container *ngIf="hasTasks && !group._isNumericCompletion">
+                <xiv-quick-mark-dropdown
+                    [tasks]="filteredTasks"
+                    (onMark)="updateFilteredTasks()"
+                ></xiv-quick-mark-dropdown>
 
-            <xiv-select-dropdown
-                *ngIf="hasTasks && !group.isNumericCompletion"
-                [group]="group"
-                [filteredTasks]="filteredTasks"
-            ></xiv-select-dropdown>
+                <xiv-select-dropdown
+                    [group]="group"
+                    [tasks]="filteredTasks"
+                ></xiv-select-dropdown>
+            </ng-container>
 
-            <xiv-chain-dropdown
-                *ngIf="hasTasks"
-                [disableUndo]="group.isCustomGroup"
-            ></xiv-chain-dropdown>
+            <ng-container *ngIf="hasTasks">
+                <xiv-chain-dropdown
+                    [disableUndo]="group.isCustomGroup"
+                ></xiv-chain-dropdown>
+            </ng-container>
 
             <xiv-custom-task-dropdown
                 *ngIf="group.isCustomGroup"
-                [filteredTasks]="filteredTasks"
+                [tasks]="filteredTasks"
             ></xiv-custom-task-dropdown>
         </span>
 
@@ -28,40 +29,44 @@
             *ngIf="hasTasks"
             class="row-count"
             tooltipPosition="top"
-            [pTooltip]="(totalTasks - displayedTasks) + ' Hidden'"
+            pTooltip="{{tasks.length - filteredTasks.length}} Hidden"
         >
-            {{displayedTasks}} Rows displayed
+            {{filteredTasks.length}} Rows displayed
         </span>
     </div>
 
     <div class="task-table-scroll-container">
+        <!-- TODO: responsive virtual scroll height -->
         <p-table
             *ngIf="hasTasks"
             styleClass="p-datatable-striped"
-            [value]="filteredTasksArr"
             dataKey="storageGroup"
+            [value]="filteredTasks"
+
             [rowGroupMode]="groupRows ? 'subheader' : null"
             groupRowsBy="storageGroup"
+
+            [virtualScroll]="groupRows"
+            scrollHeight="800px"
+
             (onRowReorder)="onRowReorder($event)"
         >
             <ng-template pTemplate="header">
                 <xiv-header-row
-                    [columns]="columns"
+                    [group]="group"
                     [uniqueValues]="uniqueValues"
-                    [isNumericCompletion]="group.isNumericCompletion"
                     (filterChange)="onFilterChange($event)"
                 ></xiv-header-row>
             </ng-template>
             <ng-template pTemplate="groupheader" let-task let-expanded="expanded">
-                <tr pRowGroupHeader>
+                <tr pRowGroupHeader [pRowToggler]="task">
                     <td>
                         <p-button
                             styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
-                            [pRowToggler]="task"
                             [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
                         ></p-button>
                     </td>
-                    <td [colSpan]="columns.length + 1">
+                    <td [colSpan]="group.columns.length + 1">
                         {{task | groupName}}
                     </td>
                 </tr>
@@ -70,7 +75,7 @@
                 <xiv-data-row
                     [dragEnabled]="group.draggable && !debounceDrag"
                     [rowIndex]="rowIndex"
-                    [columns]="columns"
+                    [columns]="group.columns"
                     [task]="task"
                     (completionChange)="updateFilteredTasks()"
                 ></xiv-data-row>

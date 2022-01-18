@@ -50,9 +50,8 @@
 
         <ng-template #baseTable>
             <xiv-task-table
-                *ngIf="selectedGroup.taskCount !== null"
+                *ngIf="selectedGroup.tasks"
                 [group]="selectedGroup"
-                [columns]="selectedGroup.columns"
                 [tasks]="selectedGroup.tasks"
             ></xiv-task-table>
         </ng-template>

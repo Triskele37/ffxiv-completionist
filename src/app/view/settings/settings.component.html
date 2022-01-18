@@ -1,96 +1,112 @@
 <div class="settings-page">
-    <div class="settings-group">
-        <label class="setting-header">Character</label>
-        <div class="setting">
-            <label>Save File Name:</label>
-            <label>{{settings.storeName.value}}</label>
-        </div>
-        <div class="setting">
-            <label>Save File Location:</label>
-            <label>{{settings.storeLocation.value}}</label>
-        </div>
-        <div class="setting">
-            <label title="Changing this value excludes innaccessible quests">
-                Starting Class:
-            </label>
-            <select
-                class="xiv-select"
-                [value]="settings.startingClass.value"
-                (change)="onChangeStartingClass($event, settings.startingClass.key)"
+    <p-tabView>
+        <p-tabPanel header="Character">
+            <div class="setting starting-class">
+                <span
+                    pTooltip="Changing this value excludes innaccessible content"
+                    tooltipPosition="right"
+                >
+                    <label>Starting Class:</label>
+                    <p-dropdown
+                        placeholder="Select Class"
+                        [(ngModel)]="settings.startingClass.value"
+                        [options]="startingClasses"
+                        (onChange)="onChangeStartingClass()"
+                    ></p-dropdown>
+                </span>
+
+                <xiv-chain-dropdown [disableUndo]="true"></xiv-chain-dropdown>
+            </div>
+            <div class="setting">
+                <label>Save File Location:</label>
+                <label>{{settings.storeLocation.value}}</label>
+            </div>
+            <div class="setting">
+                <label>Save File Name:</label>
+                <label>{{settings.storeName.value}}.json</label>
+            </div>
+        </p-tabPanel>
+
+        <p-tabPanel header="Table">
+            <div
+                class="setting bool"
+                pTooltip="Whether completed items are shown in tables"
+                tooltipPosition="right"
             >
-                <option>Gladiator</option>
-                <option>Marauder</option>
-                <option>Arcanist</option>
-                <option>Archer</option>
-                <option>Lancer</option>
-                <option>Pugilist</option>
-                <option>Rogue</option>
-                <option>Thaumaturge</option>
-                <option>Conjurer</option>
-            </select>
-            <xiv-chain-dropdown [disableUndo]="true"></xiv-chain-dropdown>
-        </div>
-    </div>
+                <label>Show Completed:</label>
+                <p-checkbox
+                    [binary]="true"
+                    [(ngModel)]="settings.tableFilters.completed.value"
+                    (onChange)="onChangeBoolSetting(settings.tableFilters.completed)"
+                ></p-checkbox>
+            </div>
+            <div
+                class="setting bool"
+                pTooltip="Whether non-completed items are shown in tables"
+                tooltipPosition="right"
+            >
+                <label>Show Incomplete:</label>
+                <p-checkbox
+                    [binary]="true"
+                    [(ngModel)]="settings.tableFilters.incomplete.value"
+                    (onChange)="onChangeBoolSetting(settings.tableFilters.incomplete)"
+                ></p-checkbox>
+            </div>
+            <div
+                class="setting bool"
+                pTooltip="Whether excluded items are shown in tables"
+                tooltipPosition="right"
+            >
+                <label>Show Excluded:</label>
+                <p-checkbox
+                    [binary]="true"
+                    [(ngModel)]="settings.tableFilters.excluded.value"
+                    (onChange)="onChangeBoolSetting(settings.tableFilters.excluded)"
+                ></p-checkbox>
+            </div>
+        </p-tabPanel>
 
-    <div class="settings-group">
-        <label class="setting-header">Table Filters</label>
-        <div class="setting">
-            <label>Show Completed:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.tableFilters.completed.value"
-                (change)="onChangeBoolSetting($event, settings.tableFilters.completed.key)"
-            />
-        </div>
-        <div class="setting">
-            <label>Show Incomplete:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.tableFilters.incomplete.value"
-                (change)="onChangeBoolSetting($event, settings.tableFilters.incomplete.key)"
-            />
-        </div>
-        <div class="setting">
-            <label>Show Excluded:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.tableFilters.excluded.value"
-                (change)="onChangeBoolSetting($event, settings.tableFilters.excluded.key)"
-            />
-        </div>
-    </div>
-
-    <div class="settings-group">
-        <label class="setting-header">Chaining</label>
-        <div
-            class="setting"
-            title="Allow or disallow tasks from auto-marking other related tasks"
-        >
-            <label>Chaining Enabled:</label>
-            <input
-                class="setting-input"
-                type="checkbox"
-                [checked]="settings.chainingEnabled.value"
-                (change)="onChangeBoolSetting($event, settings.chainingEnabled.key)"
-            />
-        </div>
-        <div
-            class="setting"
-            title="Chain window will auto-collapse groups when the total chain count hits this number"
-        >
-            <label>Chain Min Threshold:</label>
-            <input
-                class="setting-input xiv-input"
-                type="number"
-                min="1"
-                max="999"
-                step="1"
-                [value]="settings.chainMinThreshold.value"
-                (change)="onChangeNumSetting($event, settings.chainMinThreshold)"
-            />
-        </div>
-    </div>
+        <p-tabPanel header="Chaining">
+            <div
+                class="setting bool"
+                pTooltip="Allow or disallow tasks from auto-marking other related tasks"
+                tooltipPosition="right"
+            >
+                <label>Chaining Enabled:</label>
+                <p-checkbox
+                    [binary]="true"
+                    [(ngModel)]="settings.chainingEnabled.value"
+                    (onChange)="onChainingEnabledChange()"
+                ></p-checkbox>
+            </div>
+            <div
+                class="setting number"
+                pTooltip="The amount of chains to keep in history to allow undos"
+                tooltipPosition="right"
+            >
+                <label>Chain History Limit:</label>
+                <p-inputNumber
+                    [(ngModel)]="settings.chainHistoryLimit.value"
+                    [showButtons]="true"
+                    [min]="settings.chainHistoryLimit.min"
+                    [max]="settings.chainHistoryLimit.max"
+                    (onInput)="onChangeNumSetting(settings.chainHistoryLimit)"
+                ></p-inputNumber>
+            </div>
+            <div
+                class="setting number"
+                pTooltip="Chain overlay will auto-collapse groups when the total chained items hits this number"
+                tooltipPosition="right"
+            >
+                <label>Chain Min Threshold:</label>
+                <p-inputNumber
+                    [(ngModel)]="settings.chainMinThreshold.value"
+                    [showButtons]="true"
+                    [min]="settings.chainMinThreshold.min"
+                    [max]="settings.chainMinThreshold.max"
+                    (onInput)="onChangeNumSetting(settings.chainMinThreshold)"
+                ></p-inputNumber>
+            </div>
+        </p-tabPanel>
+    </p-tabView>
 </div>

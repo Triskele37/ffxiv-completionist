@@ -18,7 +18,7 @@ import { SaveStoreService } from '@service/store/save-store.service';
     ]
 })
 export class CustomTaskDropdownComponent {
-    @Input() filteredTasks: { [key: string]: Task };
+    @Input() tasks: Task[];
     isVisible: boolean = false;
     isMergeVisible: boolean = false;
 
@@ -72,26 +72,26 @@ export class CustomTaskDropdownComponent {
         });
 
         // Update data with new custom task
-        this.customData.tasks[nextKey] = new Task({
+        this.customData.tasks.push(new Task({
             id: nextId,
             name: this.newTaskName,
             notes: this.newTaskNotes
-        }, this.customData);
+        }, this.customData));
 
         // Generate new object reference so bindings update
-        this.customData.tasks = Object.assign({}, this.customData.tasks);
+        this.customData.tasks = [...this.customData.tasks];
     }
 
     mergeCustomTasks(): void {
         // Don't merge without items
-        if(this.customData.taskCount < 1) return;
+        if(this.customData.tasks.length < 1) return;
 
         // Switch displayed overlay
         this.isVisible = false;
         this.isMergeVisible = true;
 
         // Search for matches and filter out matching itself
-        this.mergeTask = this.customData.getTaskAtIndex(this.mergeIndex);
+        this.mergeTask = this.customData.tasks[this.mergeIndex];
         this.mergeMatches = this.svcSearch
             .searchData(this.mergeTask.name, true)
             .filter((m) => m.path.indexOf('Overall > Custom') === -1);
@@ -119,12 +119,12 @@ export class CustomTaskDropdownComponent {
     }
 
     removeSelectedCustomTasks(): void {
-        for(const id in this.filteredTasks) {
-            if(this.filteredTasks[id].selected) {
-                this.removeCustomTask_UI(this.filteredTasks[id]);
-                this.removeCustomTask_Store(this.filteredTasks[id]);
-            }
-        }
+        this.tasks
+            .filter((t) => t.selected)
+            .forEach((task) => {
+                this.removeCustomTask_UI(task);
+                this.removeCustomTask_Store(task);
+            });
     }
 
     //#endregion
@@ -133,14 +133,14 @@ export class CustomTaskDropdownComponent {
     autoMergeSingleMatches(): void {
         this.autoMerge = true;
         this.mergeFirstInChain = true;
-        this.svcChain.clearChain();
+        // this.svcChain.clearChain(); //TODO: still necessary with chain history?
         this.mergeCustomTasks();
     }
 
     goToNextMerge(): void {
         this.mergeIndex++;
 
-        if(this.mergeIndex > this.customData.taskCount - 1) {
+        if(this.mergeIndex > this.customData.tasks.length - 1) {
             this.autoMerge = false;
             this.exitMerge();
         }
@@ -194,10 +194,11 @@ export class CustomTaskDropdownComponent {
         task.setCompletionFlag(Completion.N);
 
         // Find & Remove from data
-        delete this.customData.tasks[`x${task.id}`];
+        const index = this.customData.tasks.findIndex((t) => t.id === task.id);
+        this.customData.tasks.splice(index, 1);
 
         // Generate new object reference so bindings update
-        this.customData.tasks = Object.assign({}, this.customData.tasks);
+        this.customData.tasks = [...this.customData.tasks];
     }
 
     removeCustomTask_Store(task: Task): void {

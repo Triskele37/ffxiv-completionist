@@ -5,10 +5,6 @@ import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';
 import { Chainer } from './Chainer';
 
-export type TaskMap = {
-    [id: string]: Task;
-};
-
 //TODO: raw input json types
 // Hack to allow any task property without explicit declaration here
 // consider creating classes and extending Task onto them
@@ -228,17 +224,14 @@ export class Task {
         // Don't continue if the current number is already whats being pushed
         if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
-            if(firstInChain) ChainService.Instance.clearChain();
+            if(firstInChain) ChainService.Instance.undoCurrentChain();
             return false;
         }
 
-        // Don't continue if this task has already been chained through
-        //TODO: ids are not unique between different groups
-        // if(!firstInChain && vStore.getters["chain/idExistsInStore"](this.id, toFlag)) {
-        //     return false;
-        // }
+        if(firstInChain) return true;
 
-        return true;
+        // Don't continue if this task has already been chained through
+        return !ChainService.Instance.taskAlreadyChained(this, toFlag);
     }
 
     // Chaining logic that occurs after the flag has been updated

@@ -11,7 +11,7 @@ import { Task } from '@domain/Task';
 })
 export class CompleteCellComponent {
     @Input() task: Task;
-    @Input() flag: Completion;
+    @Input() flag: Completion | string;
     @Output() onChange = new EventEmitter<void>();
 
     constructor(private svcData: DataService) {

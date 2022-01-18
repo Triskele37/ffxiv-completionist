@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 import { Completion } from '@constant';
-import { Column } from '@domain/Column';
+import { DataGroup } from '@domain/DataGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 @Component({
@@ -10,8 +10,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
     styleUrls: ['./header-row.component.scss']
 })
 export class HeaderRowComponent implements OnInit {
-    @Input() isNumericCompletion: boolean;
-    @Input() columns: Column[];
+    @Input() group: DataGroup;
     @Input() uniqueValues;
     @Output() filterChange = new EventEmitter<any>();
 

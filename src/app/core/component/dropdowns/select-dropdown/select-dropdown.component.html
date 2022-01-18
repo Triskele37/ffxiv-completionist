@@ -10,15 +10,26 @@
 
     <div *ngIf="isVisible" class="overlay-panel">
         <span class="content">
-            <p-button [disabled]="true">Selection Actions Menu</p-button>
-            <p-button (click)="onSelectChange(true)">Select All Tasks</p-button>
-            <p-button (click)="onSelectChange(false)">Deselect All Tasks</p-button>
-            <p-button (click)="onSelectChange(null)">Invert Selection</p-button>
+            <p-button label="Selection Actions Menu" [disabled]="true"></p-button>
+            <p-button label="Select All Tasks" (onClick)="onSelectChange(true)"></p-button>
+            <p-button label="Deselect All Tasks" (onClick)="onSelectChange(false)"></p-button>
+            <p-button label="Invert Selection" (onClick)="onSelectChange(null)"></p-button>
 
-            <ng-template *ngIf="group.isCraftingLogGroup">
-                <p-button (click)="openInGarland()">Open Selected Recipes in Garland Tools</p-button>
-                <p-button (click)="openInTeamcraft()">Open Selected Recipes in Teamcraft</p-button>
-            </ng-template>
+            <ng-container *ngIf="group.isCraftingLogGroup">
+                <p-divider align="center">
+                    Selected Actions
+                </p-divider>
+
+                <p-button
+                    label="Open in Garland Tools"
+                    (onClick)="openInGarland()"
+                ></p-button>
+
+                <p-button
+                    label="Open in Teamcraft"
+                    (onClick)="openInTeamcraft()"
+                ></p-button>
+            </ng-container>
         </span>
     </div>
 </span>

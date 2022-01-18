@@ -11,17 +11,24 @@ function onGetConfig() {
 }
 exports.onGetConfig = onGetConfig;
 function initializeConfigStore() {
-    store_1.store.config = JSON.parse(fs.readFileSync(store_1.paths.config, 'utf8'));
+    if (fs.existsSync(store_1.paths.config)) {
+        store_1.store.config = JSON.parse(fs.readFileSync(store_1.paths.config, 'utf8'));
+    }
+    else {
+        store_1.store.config = {};
+    }
     setDefaultConfig('store-name', 'completion');
     setDefaultConfig('store-loc', electron_1.app.getPath('userData'));
     setDefaultConfig('starting-class', '');
     setDefaultConfig('chaining-enabled', false);
+    setDefaultConfig('chain-history-limit', 10);
     setDefaultConfig('chain-min-threshold', 10);
     setDefaultConfig('table-filters', {
         completed: true,
         incomplete: true,
         excluded: true
     });
+    setDefaultConfig('last-breadcrumbs', ['Overall', 'FFXIV Completionist']);
 }
 exports.initializeConfigStore = initializeConfigStore;
 function setDefaultConfig(key, defaultValue) {

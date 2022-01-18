@@ -15,7 +15,12 @@ function initializePlayerStore() {
     var base = store_1.store.config['store-loc'] || electron_1.app.getPath('userData');
     var file = (store_1.store.config['store-name'] || 'completion') + '.json';
     store_1.paths.save = path.join(base, file);
-    store_1.store.save = JSON.parse(fs.readFileSync(store_1.paths.save, 'utf8'));
+    if (fs.existsSync(store_1.paths.save)) {
+        store_1.store.save = JSON.parse(fs.readFileSync(store_1.paths.save, 'utf8'));
+    }
+    else {
+        store_1.store.save = {};
+    }
 }
 exports.initializePlayerStore = initializePlayerStore;
 //# sourceMappingURL=onGetSave.js.map
