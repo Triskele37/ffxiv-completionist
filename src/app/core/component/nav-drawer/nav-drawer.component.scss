@@ -17,6 +17,12 @@
             .p-panelmenu-header, .p-menuitem {
                 box-shadow: inset 2px -1px 2px 0 var(--primary-color);
             }
+
+            // Hide the main menu's expand icon so its not visible behind
+            // the search button when it is clicked
+            .p-panelmenu-panel:first-child .p-panelmenu-header .p-panelmenu-icon {
+                display: none;
+            }
         }
     }
 }
