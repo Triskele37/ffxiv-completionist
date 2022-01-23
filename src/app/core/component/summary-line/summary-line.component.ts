@@ -1,6 +1,7 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Subscription } from 'rxjs';
 
+import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
@@ -17,7 +18,10 @@ export class SummaryLineComponent implements OnChanges {
     percentComplete: string;
     tooltip: string;
 
-    constructor(private svcNavigation: NavigationService) {
+    constructor(
+        private svcData: DataService,
+        private svcNavigation: NavigationService
+    ) {
     }
 
     ngOnChanges(changes: SimpleChanges) {
@@ -35,12 +39,16 @@ export class SummaryLineComponent implements OnChanges {
 
     private updateTooltip(): void {
         const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
-        const remaining = (total - totalExcluded) - totalCompleted;
+        const remaining: number = (total - totalExcluded) - totalCompleted;
+        const weight: number = (displayTotal / this.svcData.data.displayTotal) * 100;
 
-        // Linebreaks are respected here
-        this.tooltip = `${totalCompleted}/${displayTotal}
-            ${remaining.toFixed(0)} Remaining
-            ${totalExcluded} Excluded`;
+        // Build tooltip line by line
+        this.tooltip = `${totalCompleted} / ${displayTotal}`;
+        this.tooltip += `\nRemaining: ${remaining.toFixed(0)}`;
+        this.tooltip += `\nExcluded: ${totalExcluded}`;
+
+        // Don't add weight for overall
+        if(weight !== 100) this.tooltip += `\n\nWeight: ${weight.toFixed(3)}%`;
     }
 
     onClick(): void {
