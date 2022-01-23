@@ -1,7 +1,10 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
-- bookmark groups
 - Attempt to get CSP working
+- theme customize
+- search other columns
+- indicate completion in search results
+- modal when new/load save so its clear input is blocked
 
 ----- Chains
 Oh, Beehive Yourself should grant Satisfaction Guaranteed-Shirr I
@@ -9,20 +12,17 @@ all other first quests for custom deliveries too
 Lighting the Way should grant Bio-Doma V (and Philanthropist?)
 Manderville Mambo from Don't Do the Dewprism
 Shadow Walk With Me should chain Tales to be Told
+beast tribe quest recipe chaining
+lvl 70 antiquated weapon chain to job quests
+chain dungeons to quests requiring them
 
 **Change**
-gut additional package.json dependencies if possible
-- Searching UX
+- emotes by in-game tabs
 - Remove native toolbar
-  - New/Load & Lang to settings
 
 **Fix**
-- Go through all files & verify stuff
-- Disable sorting on all task view
-- add nav to group in all task view
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
-- Clean up injection spaghetti from electron main process change
 - Save automatically puts "N" for every item, making defaultCompletion not work
 - Scholar/Summoner levels don't tie together properly
 - Achievement _error 683 & 685 Mapping Binding Coil IV & VI
@@ -43,6 +43,14 @@ Lend Me Your Ears Already (removed quest, did the app keep legacy quests?)
 White Oak Branch moved from logging 70 to logging 75 log
 Triple Triad Opponents layout is jacked
 guildhest missing ilvl
+
+**Completed**
+- Group & Task Bookmarks
+- ctrl+f/cmd+f focus search input
+- Sortable Columns
+- Toggle summary-line visibility
+- Navigation History
+- Weight Calculation in Group
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
@@ -69,6 +77,9 @@ guildhest missing ilvl
 - "Legacy Quest" section for removed quests
 - xivapi CLI option to re-cache only content with app/cache diffs
 - "MERGE_WHEN_NEW" set of keys for xivapi content
+- patch column everywhere
+- auto-updater?
+- "spotlight" when searching (scroll to maybe?)
 
 **Change**
 - Remove ENpcResident from xivapi script

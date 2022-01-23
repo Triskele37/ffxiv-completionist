@@ -1,83 +1,18 @@
-import { app, BrowserWindow, screen } from 'electron';
-import * as path from 'path';
-import * as fs from 'fs';
-import * as url from 'url';
+import { app } from 'electron';
 
+import { windowStore } from './main/store/window';
 import { initActions } from './main/actions';
-import { initializeConfigStore } from './main/actions/onGetConfig';
-import { initializePlayerStore } from './main/actions/onGetSave';
 
 // Initialize remote module
 //TODO: potentially remove as its a work-around for adhearing to main/renderer division
 require('@electron/remote/main').initialize();
 
-let window: BrowserWindow = null;
 const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
 
-function createWindow(): BrowserWindow {
-    const size = screen.getPrimaryDisplay().workAreaSize;
-
-    // Create the browser window.
-    window = new BrowserWindow({
-        x: 0,
-        y: 0,
-        width: size.width,
-        height: size.height,
-        webPreferences: {
-            nodeIntegration: true,
-            enableRemoteModule: true, // true if you want to run e2e test with Spectron or use remote module in renderer context (ie. Angular)
-            // Necessary for ElectronService to function
-            contextIsolation: false,
-        },
-    });
-
-    if(isServe) {
-        window.webContents.openDevTools();
-        require('electron-reload')(__dirname, {
-            electron: require(path.join(__dirname, '/../node_modules/electron'))
-        });
-        window.loadURL('http://localhost:4200');
-    }
-    else {
-        // Path when running electron executable
-        let pathIndex = './index.html';
-
-        if(fs.existsSync(path.join(__dirname, '../dist/index.html'))) {
-            // Path when running electron in local folder
-            pathIndex = '../dist/index.html';
-        }
-
-        window.loadURL(url.format({
-            pathname: path.join(__dirname, pathIndex),
-            protocol: 'file:',
-            slashes: true
-        }));
-    }
-
-    // window.on('ready-to-show', () => {
-    //     window.show();
-    //     if(window.isMaximized) window.maximize();
-    // });
-    //
-    // // Capture window state before close
-    // window.on('close', () => {
-    //     saveWindowState(window);
-    // });
-
-    // Emitted when the window is closed
-    window.on('closed', () => {
-        // Dereference the window object, usually you would store window
-        // in an array if your app supports multi windows, this is the time
-        // when you should delete the corresponding element.
-        window = null;
-    });
-
-    initializeConfigStore();
-    initializePlayerStore();
+function createWindow() {
+    windowStore.create(isServe);
     initActions();
-
-    return window;
 }
 
 try {
@@ -99,7 +34,7 @@ try {
     app.on('activate', () => {
         // On OS X it's common to re-create a window in the app when the
         // dock icon is clicked and there are no other windows open.
-        if(window === null) {
+        if(windowStore.window === null) {
             createWindow();
         }
     });

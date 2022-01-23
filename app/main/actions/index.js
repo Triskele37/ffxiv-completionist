@@ -1,17 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initActions = void 0;
-var onLoadJson_1 = require("./onLoadJson");
-var onGetConfig_1 = require("./onGetConfig");
-var onSetConfig_1 = require("./onSetConfig");
-var onGetSave_1 = require("./onGetSave");
-var onSetSave_1 = require("./onSetSave");
+var electron_1 = require("electron");
+var fs = require("fs");
+var config_1 = require("../store/config");
+var player_1 = require("../store/player");
+var saveLocation_1 = require("./saveLocation");
 function initActions() {
-    onLoadJson_1.onLoadJson();
-    onGetConfig_1.onGetConfig();
-    onSetConfig_1.onSetConfig();
-    onGetSave_1.onGetSave();
-    onSetSave_1.onSetSave();
+    electron_1.ipcMain.on('get-config', config_1.configStore.get);
+    electron_1.ipcMain.on('set-config', config_1.configStore.set);
+    electron_1.ipcMain.on('get-save', player_1.playerStore.get);
+    electron_1.ipcMain.on('set-save', player_1.playerStore.set);
+    electron_1.ipcMain.on('new-save', saveLocation_1.newSave);
+    electron_1.ipcMain.on('load-save', saveLocation_1.loadSave);
+    electron_1.ipcMain.on('load-json', function (event, path) {
+        event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
+    });
 }
 exports.initActions = initActions;
 //# sourceMappingURL=index.js.map

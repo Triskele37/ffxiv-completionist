@@ -1,0 +1,42 @@
+<div
+    class="setting bool"
+    pTooltip="Allow or disallow tasks from auto-marking other related tasks"
+    tooltipPosition="right"
+>
+    <label>Chaining Enabled:</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.chainingEnabled.value"
+        (onChange)="parent.onChainingEnabledChange()"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting number"
+    pTooltip="The amount of chains to keep in history to allow undos"
+    tooltipPosition="right"
+>
+    <label>Chain History Limit:</label>
+    <p-inputNumber
+        [(ngModel)]="settings.chainHistoryLimit.value"
+        [showButtons]="true"
+        [min]="settings.chainHistoryLimit.min"
+        [max]="settings.chainHistoryLimit.max"
+        (onInput)="parent.onChangeNumSetting(settings.chainHistoryLimit)"
+    ></p-inputNumber>
+</div>
+
+<div
+    class="setting number"
+    pTooltip="Chain overlay will auto-collapse groups when the total chained items hits this number"
+    tooltipPosition="right"
+>
+    <label>Chain Min Threshold:</label>
+    <p-inputNumber
+        [(ngModel)]="settings.chainMinThreshold.value"
+        [showButtons]="true"
+        [min]="settings.chainMinThreshold.min"
+        [max]="settings.chainMinThreshold.max"
+        (onInput)="parent.onChangeNumSetting(settings.chainMinThreshold)"
+    ></p-inputNumber>
+</div>

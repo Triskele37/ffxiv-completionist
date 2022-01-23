@@ -1,0 +1,49 @@
+<div class="setting">
+    <label>Language:</label>
+    <p-dropdown
+        optionValue="short"
+        optionLabel="long"
+        [options]="languages"
+        [(ngModel)]="settings.lang.value"
+        (onChange)="onChangeLanguage()"
+    ></p-dropdown>
+</div>
+
+<div class="setting starting-class">
+    <span
+        pTooltip="Changing this value excludes innaccessible content"
+        tooltipPosition="right"
+    >
+        <label>Starting Class:</label>
+        <p-dropdown
+            placeholder="Select Class"
+            [options]="startingClasses"
+            [(ngModel)]="settings.startingClass.value"
+            (onChange)="onChangeStartingClass()"
+        ></p-dropdown>
+    </span>
+
+    <xiv-chain-overlay [disableUndo]="true"></xiv-chain-overlay>
+</div>
+
+<div class="setting">
+    <label>Save File Location:</label>
+    <label>{{settings.storeLocation.value}}</label>
+</div>
+
+<div class="setting">
+    <label>Save File Name:</label>
+    <label>{{settings.storeName.value}}.json</label>
+</div>
+
+<span class="p-buttonset">
+    <p-button
+        label="Create New Save"
+        (onClick)="onNewSaveClick()"
+    ></p-button>
+
+    <p-button
+        label="Load Existing Save"
+        (onClick)="onLoadSaveClick()"
+    ></p-button>
+</span>

@@ -4,11 +4,10 @@ import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { GroupLinkModule } from '../../pipe/group-link.pipe';
-
 import { TaskTableToolbarModule } from './toolbar/task-table-toolbar.module';
 import { HeaderRowModule } from './row/header/header-row.module';
 import { DataRowModule } from './row/data/data-row.module';
+import { LinkCellModule } from './cell/link/link-cell.module';
 import { TaskTableComponent } from './task-table.component';
 
 @NgModule({
@@ -24,8 +23,7 @@ import { TaskTableComponent } from './task-table.component';
         TaskTableToolbarModule,
         HeaderRowModule,
         DataRowModule,
-
-        GroupLinkModule,
+        LinkCellModule,
     ],
     exports: [
         TaskTableComponent,

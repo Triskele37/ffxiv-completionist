@@ -1,0 +1,38 @@
+<div
+    class="setting bool"
+    pTooltip="Whether completed items are shown in tables"
+    tooltipPosition="right"
+>
+    <label>Show Completed:</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.completed.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.completed)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    pTooltip="Whether non-completed items are shown in tables"
+    tooltipPosition="right"
+>
+    <label>Show Incomplete:</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.incomplete.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.incomplete)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    pTooltip="Whether excluded items are shown in tables"
+    tooltipPosition="right"
+>
+    <label>Show Excluded:</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.excluded.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.excluded)"
+    ></p-checkbox>
+</div>

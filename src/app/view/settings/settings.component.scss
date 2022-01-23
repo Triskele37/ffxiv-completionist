@@ -2,7 +2,7 @@
     // Ensure the chain overlay has room to display
     min-height: 650px;
 
-    .setting {
+    ::ng-deep .setting {
         display: flex;
         align-items: center;
         height: 38px;

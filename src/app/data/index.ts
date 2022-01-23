@@ -10,6 +10,7 @@ import { DUTY_DEFINITION } from './definitions/duty';
 import { LOGS_DEFINITION } from './definitions/logs';
 import { TRAVEL_DEFINITION } from './definitions/travel';
 import { SOCIAL_DEFINITION } from './definitions/social';
+import { ConfigStoreService } from '@service/store/config-store.service';
 
 @Injectable({ providedIn: 'root' })
 export class DataService {
@@ -18,6 +19,7 @@ export class DataService {
 
     constructor(
         private svcElectron: ElectronService,
+        private svcConfigStore: ConfigStoreService, // needs to be here to load lang right
         private svcSaveStore: SaveStoreService,
     ) {
         DataGroup.svcElectron = this.svcElectron;

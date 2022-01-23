@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
-import { Completion } from '@constant';
-import { DataService } from '@data';
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { CharacterSettingsComponent } from './character/character-settings.component';
+import * as Settings from './settings.d';
 
 @Component({
     selector: 'xiv-settings',
@@ -10,7 +10,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
     styleUrls: ['./settings.component.scss']
 })
 export class SettingsComponent implements OnInit {
-    settings: Settings = {
+    settings: Settings.Settings = {
         storeName: { key: 'store-name' },
         storeLocation: { key: 'store-loc' },
         startingClass: { key: 'starting-class' },
@@ -25,22 +25,9 @@ export class SettingsComponent implements OnInit {
         chainMinThreshold: { key: 'chain-min-threshold', min: 1, max: 999 },
     };
 
-    startingClasses: string[] = [
-        'Arcanist',
-        'Archer',
-        'Conjurer',
-        'Gladiator',
-        'Lancer',
-        'Marauder',
-        'Pugilist',
-        'Rogue',
-        'Thaumaturge',
-    ];
+    @ViewChild('characterSettings') characterSettings: CharacterSettingsComponent;
 
-    constructor(
-        private svcData: DataService,
-        private svcConfigStore: ConfigStoreService,
-    ) {
+    constructor(private svcConfigStore: ConfigStoreService) {
     }
 
     ngOnInit() {
@@ -52,92 +39,25 @@ export class SettingsComponent implements OnInit {
         load(this.settings);
     }
 
-    onChangeStringSetting(setting: StringSetting): void {
+    onChangeStringSetting(setting: Settings.StringSetting): void {
         this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeBoolSetting(setting: BoolSetting): void {
+    onChangeBoolSetting(setting: Settings.BoolSetting): void {
         this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeNumSetting(setting: NumberSetting): void {
+    onChangeNumSetting(setting: Settings.NumberSetting): void {
         if(setting.value < setting.min) setting.value = setting.min;
         else if(setting.value > setting.max) setting.value = setting.max;
 
         this.svcConfigStore.set(setting.key, setting.value);
     }
 
-    onChangeStartingClass(): void {
-        this.onChangeStringSetting(this.settings.startingClass);
-        this.chainStartingClass();
-    }
-
     onChainingEnabledChange(): void {
         this.onChangeBoolSetting(this.settings.chainingEnabled);
-        if(this.settings.chainingEnabled.value) this.chainStartingClass();
-    }
-
-    chainStartingClass(): void {
-        const baseQuestPath = 'duty.quests.main-scenario.seventh-umbral-era';
-
-        const getTask = (taskPath: string, id: number) =>
-            this.svcData.data.getChildGroupFromPath(taskPath).getTaskById(id);
-
-        const gridania = getTask(`${baseQuestPath}.gridania`, 65660);
-        const limsa = getTask(`${baseQuestPath}.limsa-lominsa`, 65645);
-        const uldah = getTask(`${baseQuestPath}.uldah`, 66106);
-
-        switch(this.settings.startingClass.value) {
-            case 'Archer': case 'Lancer': case 'Conjurer':
-                gridania.changeCompletionFlag(Completion.Y, true);
-                gridania.setCompletionFlag(Completion.N);
-                break;
-            case 'Marauder': case 'Arcanist': case 'Rogue':
-                limsa.changeCompletionFlag(Completion.Y, true);
-                limsa.setCompletionFlag(Completion.N);
-                break;
-            case 'Gladiator': case 'Pugilist': case 'Thaumaturge':
-                uldah.changeCompletionFlag(Completion.Y, true);
-                uldah.setCompletionFlag(Completion.N);
-                break;
-            // default: TODO: why was there a default
-            //     gridania.changeCompletionFlag(Completion.Y, true);
-            //     gridania.changeCompletionFlag(Completion.N, true);
+        if(this.settings.chainingEnabled.value) {
+            this.characterSettings.chainStartingClass();
         }
-
-        this.svcData.applyDataToStore();
     }
 }
-
-interface Settings {
-    storeName: StringSetting;
-    storeLocation: StringSetting;
-    startingClass: StringSetting;
-    lang: StringSetting;
-    tableFilters: {
-        completed: BoolSetting;
-        incomplete: BoolSetting;
-        excluded: BoolSetting;
-    };
-    chainingEnabled: BoolSetting;
-    chainHistoryLimit: NumberSetting;
-    chainMinThreshold: NumberSetting;
-}
-
-type Setting = {
-    key: string;
-};
-
-type StringSetting = Setting & {
-    value?: string;
-};
-
-type BoolSetting = Setting & {
-    value?: boolean;
-};
-
-type NumberSetting = Setting & {
-    value?: number;
-    min: number;
-    max: number;
-};

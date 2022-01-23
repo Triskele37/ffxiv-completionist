@@ -39,7 +39,7 @@
                         ></p-button>
                     </td>
                     <td [colSpan]="group.columns.length + 1">
-                        {{task | groupLink}}
+                        <xiv-link-cell [task]="task"></xiv-link-cell>
                     </td>
                 </tr>
             </ng-template>

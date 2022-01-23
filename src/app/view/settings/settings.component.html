@@ -1,112 +1,22 @@
 <div class="settings-page">
     <p-tabView>
         <p-tabPanel header="Character">
-            <div class="setting starting-class">
-                <span
-                    pTooltip="Changing this value excludes innaccessible content"
-                    tooltipPosition="right"
-                >
-                    <label>Starting Class:</label>
-                    <p-dropdown
-                        placeholder="Select Class"
-                        [(ngModel)]="settings.startingClass.value"
-                        [options]="startingClasses"
-                        (onChange)="onChangeStartingClass()"
-                    ></p-dropdown>
-                </span>
-
-                <xiv-chain-overlay [disableUndo]="true"></xiv-chain-overlay>
-            </div>
-            <div class="setting">
-                <label>Save File Location:</label>
-                <label>{{settings.storeLocation.value}}</label>
-            </div>
-            <div class="setting">
-                <label>Save File Name:</label>
-                <label>{{settings.storeName.value}}.json</label>
-            </div>
+            <xiv-character-settings
+                #characterSettings
+                [settings]="settings"
+            ></xiv-character-settings>
         </p-tabPanel>
 
         <p-tabPanel header="Table">
-            <div
-                class="setting bool"
-                pTooltip="Whether completed items are shown in tables"
-                tooltipPosition="right"
-            >
-                <label>Show Completed:</label>
-                <p-checkbox
-                    [binary]="true"
-                    [(ngModel)]="settings.tableFilters.completed.value"
-                    (onChange)="onChangeBoolSetting(settings.tableFilters.completed)"
-                ></p-checkbox>
-            </div>
-            <div
-                class="setting bool"
-                pTooltip="Whether non-completed items are shown in tables"
-                tooltipPosition="right"
-            >
-                <label>Show Incomplete:</label>
-                <p-checkbox
-                    [binary]="true"
-                    [(ngModel)]="settings.tableFilters.incomplete.value"
-                    (onChange)="onChangeBoolSetting(settings.tableFilters.incomplete)"
-                ></p-checkbox>
-            </div>
-            <div
-                class="setting bool"
-                pTooltip="Whether excluded items are shown in tables"
-                tooltipPosition="right"
-            >
-                <label>Show Excluded:</label>
-                <p-checkbox
-                    [binary]="true"
-                    [(ngModel)]="settings.tableFilters.excluded.value"
-                    (onChange)="onChangeBoolSetting(settings.tableFilters.excluded)"
-                ></p-checkbox>
-            </div>
+            <xiv-table-settings
+                [settings]="settings"
+            ></xiv-table-settings>
         </p-tabPanel>
 
         <p-tabPanel header="Chaining">
-            <div
-                class="setting bool"
-                pTooltip="Allow or disallow tasks from auto-marking other related tasks"
-                tooltipPosition="right"
-            >
-                <label>Chaining Enabled:</label>
-                <p-checkbox
-                    [binary]="true"
-                    [(ngModel)]="settings.chainingEnabled.value"
-                    (onChange)="onChainingEnabledChange()"
-                ></p-checkbox>
-            </div>
-            <div
-                class="setting number"
-                pTooltip="The amount of chains to keep in history to allow undos"
-                tooltipPosition="right"
-            >
-                <label>Chain History Limit:</label>
-                <p-inputNumber
-                    [(ngModel)]="settings.chainHistoryLimit.value"
-                    [showButtons]="true"
-                    [min]="settings.chainHistoryLimit.min"
-                    [max]="settings.chainHistoryLimit.max"
-                    (onInput)="onChangeNumSetting(settings.chainHistoryLimit)"
-                ></p-inputNumber>
-            </div>
-            <div
-                class="setting number"
-                pTooltip="Chain overlay will auto-collapse groups when the total chained items hits this number"
-                tooltipPosition="right"
-            >
-                <label>Chain Min Threshold:</label>
-                <p-inputNumber
-                    [(ngModel)]="settings.chainMinThreshold.value"
-                    [showButtons]="true"
-                    [min]="settings.chainMinThreshold.min"
-                    [max]="settings.chainMinThreshold.max"
-                    (onInput)="onChangeNumSetting(settings.chainMinThreshold)"
-                ></p-inputNumber>
-            </div>
+            <xiv-chain-settings
+                [settings]="settings"
+            ></xiv-chain-settings>
         </p-tabPanel>
     </p-tabView>
 </div>

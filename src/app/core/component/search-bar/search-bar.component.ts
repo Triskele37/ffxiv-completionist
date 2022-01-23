@@ -28,7 +28,7 @@ export class SearchBarComponent {
     }
 
     onHomeClick(): void {
-        this.svcNavigation.setCrumbAt(1, MainMenu.name);
+        this.svcNavigation.setSelectedGroup(MainMenu);
     }
 
     searchOnEnter(): void {

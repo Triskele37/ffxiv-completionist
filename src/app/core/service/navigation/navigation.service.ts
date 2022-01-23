@@ -37,9 +37,9 @@ export class NavigationService {
             else return this.svcData.data;
         }
 
-        return breadcrumbs.slice(1).reduce(
+        return breadcrumbs.reduce(
             (acc, crumb) => acc.subGroups.find((g) => g.name === crumb),
-            { subGroups: [MainMenu, ...this.svcData.data.subGroups] } as DataGroup
+            { subGroups: [MainMenu, this.svcData.data] } as DataGroup
         );
     }
 
@@ -83,15 +83,6 @@ export class NavigationService {
         }
 
         this.setBreadcrumbs(breadcrumbs);
-    }
-
-    setCrumbAt(degree: number, groupName: string): void {
-        const breadcrumbs = [];
-        for(let i = 0; i < degree; i++) {
-            breadcrumbs.push(this.breadcrumbs$.value[i]);
-        }
-
-        this.setBreadcrumbs([...breadcrumbs, groupName]);
     }
 
     // All breadcrumb setting should flow through this function
