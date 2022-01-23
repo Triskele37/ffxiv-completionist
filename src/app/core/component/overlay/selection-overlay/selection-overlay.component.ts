@@ -5,14 +5,14 @@ import { Task } from '@domain/Task';
 import { ElectronService } from '@service/electron/electron.service';
 
 @Component({
-    selector: 'xiv-select-dropdown',
-    templateUrl: './select-dropdown.component.html',
+    selector: 'xiv-selection-overlay',
+    templateUrl: './selection-overlay.component.html',
     styleUrls: [
-        '../dropdown.scss',
-        './select-dropdown.component.scss'
+        '../overlay.scss',
+        './selection-overlay.component.scss'
     ]
 })
-export class SelectDropdownComponent {
+export class SelectionOverlayComponent {
     @Input() group: DataGroup;
     @Input() tasks: Task[];
     @Output() selectChange = new EventEmitter<void>();

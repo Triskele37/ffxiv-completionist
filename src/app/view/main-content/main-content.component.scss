@@ -14,7 +14,7 @@
 
         // Scrollbar
         overflow-y: auto;
-        height: 100%;
+        height: calc(100vh - 104px);
 
         // Space on right when viewport is smaller
         padding-right: 10px;

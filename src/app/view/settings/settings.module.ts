@@ -7,7 +7,7 @@ import { InputNumberModule } from 'primeng/inputnumber';
 import { TabViewModule } from 'primeng/tabview';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { ChainDropdownModule } from '@component/dropdowns/chain-dropdown/chain-dropdown.module';
+import { ChainOverlayModule } from '@component/overlay/chain-overlay/chain-overlay.module';
 
 import { SettingsComponent } from './settings.component';
 
@@ -24,7 +24,7 @@ import { SettingsComponent } from './settings.component';
         TabViewModule,
         TooltipModule,
 
-        ChainDropdownModule
+        ChainOverlayModule
     ],
     exports: [
         SettingsComponent

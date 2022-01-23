@@ -37,23 +37,10 @@ export class NavigationService {
             else return this.svcData.data;
         }
 
-        let navGroup: DataGroup = {
-            subGroups: [MainMenu, ...this.svcData.data.subGroups]
-        } as DataGroup;
-
-        for(let i = 1; i < breadcrumbs.length && navGroup; i++) {
-            navGroup = this.diveForGroup(navGroup, breadcrumbs[i]);
-        }
-
-        return navGroup;
-    }
-
-    diveForGroup(group: DataGroup, targetName: string): DataGroup {
-        for(const subGroup of group.subGroups) {
-            if(subGroup.name === targetName) return subGroup;
-        }
-
-        return null;
+        return breadcrumbs.slice(1).reduce(
+            (acc, crumb) => acc.subGroups.find((g) => g.name === crumb),
+            { subGroups: [MainMenu, ...this.svcData.data.subGroups] } as DataGroup
+        );
     }
 
     addGroupHistory() {
@@ -77,19 +64,16 @@ export class NavigationService {
     }
 
     // All group setting should flow through this function
-    setSelectedGroup(breadcrumbs: string[]): void {
-        this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
+    setSelectedGroup(group: DataGroup | UIGroup): void {
+        this.breadcrumbs$.next(group.groupPath);
+        this.selectedGroup$.next(group);
         this.addGroupHistory();
+        this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 
     //#endregion
 
     //#region------------------------------------------------ Breadcrumbs
-    pushCrumb(crumb: string): void {
-        const newBreadcrumbs = [...this.breadcrumbs$.value, crumb];
-        this.setBreadcrumbs(newBreadcrumbs);
-    }
-
     popCrumbsUntil(index: number): void {
         // Step backward through breadcrumbs, pop until index is hit
         const breadcrumbs = this.breadcrumbs$.value;
@@ -98,12 +82,6 @@ export class NavigationService {
             breadcrumbs.pop();
         }
 
-        this.setBreadcrumbs(breadcrumbs);
-    }
-
-    popOne(): void {
-        const breadcrumbs = this.breadcrumbs$.value;
-        breadcrumbs.pop();
         this.setBreadcrumbs(breadcrumbs);
     }
 
@@ -119,7 +97,8 @@ export class NavigationService {
     // All breadcrumb setting should flow through this function
     setBreadcrumbs(breadcrumbs: string[]): void {
         this.breadcrumbs$.next(breadcrumbs);
-        this.setSelectedGroup(breadcrumbs);
+        this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
+        this.addGroupHistory();
         this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 

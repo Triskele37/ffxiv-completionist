@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { QuickMarkDropdownComponent } from './quick-mark-dropdown.component';
+import { QuickMarkOverlayComponent } from './quick-mark-overlay.component';
 
 @NgModule({
     declarations: [
-        QuickMarkDropdownComponent
+        QuickMarkOverlayComponent
     ],
     imports: [
         CommonModule,
@@ -15,8 +15,8 @@ import { QuickMarkDropdownComponent } from './quick-mark-dropdown.component';
         OverlayPanelModule
     ],
     exports: [
-        QuickMarkDropdownComponent
+        QuickMarkOverlayComponent
     ]
 })
-export class QuickMarkDropdownModule {
+export class QuickMarkOverlayModule {
 }

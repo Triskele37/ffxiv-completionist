@@ -134,8 +134,8 @@ export class DataGroup {
         if(path.length === 0) return this;
 
         // Pop off the first part of the path and dive
-        const nextStep = path.shift();
-        return this.getSubGroup(nextStep, byName).getChildGroupFromPath(path, byName);
+        const subGroup = this.getSubGroup(path.shift(), byName);
+        return subGroup?.getChildGroupFromPath(path, byName);
     }
 
     getChildGroupWithTaskID(taskId: number): DataGroup {
@@ -206,15 +206,14 @@ export class DataGroup {
     // Total count of all tasks of this group & children
     get total(): number {
         let totalTasks = this.tasks?.length ||  0;
+        if(this.isBookmarkGroup) return totalTasks;
 
         if(this._isNumericCompletion) {
             totalTasks = 0;
             Object.values(this.tasks).forEach((task) => totalTasks += task.maxValue - task.minValue);
         }
 
-        this.subGroups?.forEach((subGroup) => {
-            if(!subGroup.isBookmarkGroup) totalTasks += subGroup.total;
-        });
+        this.subGroups?.forEach((subGroup) => totalTasks += subGroup.total);
 
         return totalTasks;
     }
@@ -236,20 +235,20 @@ export class DataGroup {
 
     // Propagate an excluded change up through parent groups
     updateExcluded(mod: number): void {
+        if(this.isBookmarkGroup) return;
+
         this.totalExcluded += mod;
         this.updated$.next();
-
-        // Update existing parent's total count if this isn't a bookmark group
-        if(!this.isBookmarkGroup) this._parent?.updateExcluded(mod);
+        this._parent?.updateExcluded(mod);
     }
 
     // Propagate a completed change up through parent groups
     updateCompleted(mod: number): void {
+        if(this.isBookmarkGroup) return;
+
         this.totalCompleted += mod;
         this.updated$.next();
-
-        // Update existing parent's total count if this isn't a bookmark group
-        if(!this.isBookmarkGroup) this._parent?.updateCompleted(mod);
+        this._parent?.updateCompleted(mod);
     }
 
     //#endregion

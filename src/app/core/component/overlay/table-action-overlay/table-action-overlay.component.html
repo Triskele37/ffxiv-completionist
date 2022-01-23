@@ -1,0 +1,23 @@
+<span
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+>
+    <p-button
+        styleClass="p-button-outlined"
+        icon="material-icons mi-tune"
+    ></p-button>
+
+    <div *ngIf="isVisible" class="overlay-panel">
+        <span class="content">
+            <p-button label="Table Actions" [disabled]="true"></p-button>
+
+            <p-button
+                *ngIf="!group.isBookmarkGroup && !group.isCustomGroup"
+                [label]="isBookmarked ? 'Unbookmark Group' : 'Bookmark Group'"
+                [icon]="'material-icons ' + (isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add')"
+                (onClick)="bookmarkGroup()"
+            ></p-button>
+        </span>
+    </div>
+</span>

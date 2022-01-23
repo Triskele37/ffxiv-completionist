@@ -14,6 +14,6 @@ export class LinkCellComponent {
     }
 
     onClickLink(): void {
-        this.svcNavigation.setBreadcrumbs(this.task._parent.groupPath);
+        this.svcNavigation.setSelectedGroup(this.task._parent);
     }
 }

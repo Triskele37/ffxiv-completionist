@@ -45,6 +45,6 @@ export class SummaryLineComponent implements OnChanges {
 
     onClick(): void {
         // Don't allow the stat bar summaries to modify breadcrumbs
-        if(!this.isBig) this.svcNavigation.pushCrumb(this.group.name);
+        if(!this.isBig) this.svcNavigation.setSelectedGroup(this.group);
     }
 }

@@ -6,11 +6,7 @@ import { TooltipModule } from 'primeng/tooltip';
 
 import { GroupLinkModule } from '../../pipe/group-link.pipe';
 
-import { ChainDropdownModule } from '../dropdowns/chain-dropdown/chain-dropdown.module';
-import { CustomTaskDropdownModule } from '../dropdowns/custom-dropdown/custom-task-dropdown.module';
-import { QuickMarkDropdownModule } from '../dropdowns/quick-mark-dropdown/quick-mark-dropdown.module';
-import { SelectDropdownModule } from '../dropdowns/select-dropdown/select-dropdown.module';
-
+import { TaskTableToolbarModule } from './toolbar/task-table-toolbar.module';
 import { HeaderRowModule } from './row/header/header-row.module';
 import { DataRowModule } from './row/data/data-row.module';
 import { TaskTableComponent } from './task-table.component';
@@ -25,14 +21,11 @@ import { TaskTableComponent } from './task-table.component';
         TableModule,
         TooltipModule,
 
-        ChainDropdownModule,
-        CustomTaskDropdownModule,
-        QuickMarkDropdownModule,
-        SelectDropdownModule,
+        TaskTableToolbarModule,
         HeaderRowModule,
         DataRowModule,
 
-        GroupLinkModule
+        GroupLinkModule,
     ],
     exports: [
         TaskTableComponent,

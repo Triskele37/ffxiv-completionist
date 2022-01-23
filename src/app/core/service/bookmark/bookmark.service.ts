@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
 
+import { Completion } from '@constant';
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { Completion } from '@constant';
 
 /** Handles Group and Task bookmarks
  *
@@ -14,7 +15,9 @@ import { Completion } from '@constant';
     providedIn: 'root'
 })
 export class BookmarkService {
-    private group: DataGroup;
+    group: DataGroup;
+
+    onGroupUpdated$ = new Subject<void>();
 
     constructor(
         private svcData: DataService,
@@ -25,11 +28,29 @@ export class BookmarkService {
     initializeBookmarks(): void {
         this.group = DataGroup.fromJSON(this.svcData.data, './bookmarks');
         this.group.isBookmarkGroup = true;
+        this.group.subGroups = [];
 
         this.svcData.data.subGroups.unshift(this.group);
 
         this.initializeBookmarkTasks();
         this.initializeBookmarkGroups();
+    }
+
+    // Returns whether something is in the store
+    isBookmarked(item: DataGroup | Task): boolean {
+        const configKey = (item instanceof DataGroup) ? 'bookmarked-groups' : 'bookmarked-tasks';
+        const bookmarks = this.svcConfig.get(configKey);
+        return bookmarks.includes(item.fullStorageKey);
+    }
+
+    // Returns whether the item is now in the store
+    toggleBookmark(item: DataGroup | Task): boolean {
+        if(item instanceof DataGroup) {
+            return this.toggleBookmarkGroup(item);
+        }
+        else {
+            return this.toggleBookmarkTask(item);
+        }
     }
 
     //#region------------------------------------------------------- Tasks
@@ -38,7 +59,7 @@ export class BookmarkService {
             // Calculate the path and id
             const path: string[] = fullStorageKey.split('.');
             const id: number = parseInt(path.pop(), 10);
-            path.shift();
+            path.shift(); // Remove 'Overall' step
 
             // Add the task to this group
             const group: DataGroup = this.svcData.data.getChildGroupFromPath(path);
@@ -47,11 +68,11 @@ export class BookmarkService {
         });
 
         // Re-count totals if data changes
-        this.svcData.data.onUpdated$.subscribe(() => this.evaluateCounts());
-        this.evaluateCounts();
+        this.svcData.data.onUpdated$.subscribe(() => this.evaluateTaskCounts());
+        this.evaluateTaskCounts();
     }
 
-    private evaluateCounts(): void {
+    private evaluateTaskCounts(): void {
         this.group.totalCompleted = 0;
         this.group.totalExcluded = 0;
 
@@ -63,27 +84,21 @@ export class BookmarkService {
         this.group.updated$.next();
     }
 
-    // Returns whether the task is in the store
-    isBookmarked(task: Task): boolean {
-        const bookmarks = this.svcConfig.get('bookmarked-tasks');
-        return bookmarks.includes(task.fullStorageKey);
-    }
-
     // Returns whether the task is now in the store
-    toggleBookmark(task: Task): boolean {
+    private toggleBookmarkTask(task: Task): boolean {
         const store = this.svcConfig.get('bookmarked-tasks');
 
         const addBookmark = !store.includes(task.fullStorageKey);
-        if(addBookmark) this.addBookmark(store, task);
-        else this.removeBookmark(store, task);
+        if(addBookmark) this.addBookmarkTask(store, task);
+        else this.removeBookmarkTask(store, task);
 
-        this.evaluateCounts();
+        this.evaluateTaskCounts();
         this.svcConfig.set('bookmarked-tasks', store);
 
         return addBookmark;
     }
 
-    private addBookmark(store, task: Task): void {
+    private addBookmarkTask(store, task: Task): void {
         // Sync store
         store.push(task.fullStorageKey);
 
@@ -91,7 +106,7 @@ export class BookmarkService {
         this.group.tasks.push(task);
     }
 
-    private removeBookmark(store, task: Task): void {
+    private removeBookmarkTask(store, task: Task): void {
         // Sync store
         store.splice(store.indexOf(task.fullStorageKey), 1);
 
@@ -107,7 +122,48 @@ export class BookmarkService {
 
     //#region------------------------------------------------------- Groups
     private initializeBookmarkGroups(): void {
+        this.svcConfig.get('bookmarked-groups').forEach((fullStorageKey) => {
+            const path: string[] = fullStorageKey.split('.');
+            path.shift(); // Remove 'Overall' step
 
+            // Add the bookmarked group to this group
+            const group: DataGroup = this.svcData.data.getChildGroupFromPath(path);
+            if(group) this.group.subGroups.push(group);
+        });
+    }
+
+    // Returns whether the group is now in the store
+    private toggleBookmarkGroup(group: DataGroup): boolean {
+        const store = this.svcConfig.get('bookmarked-groups');
+
+        const addBookmark = !store.includes(group.fullStorageKey);
+        if(addBookmark) this.addBookmarkGroup(store, group);
+        else this.removeBookmarkGroup(store, group);
+
+        this.svcConfig.set('bookmarked-groups', store);
+        this.onGroupUpdated$.next();
+
+        return addBookmark;
+    }
+
+    private addBookmarkGroup(store, group: DataGroup): void {
+        // Sync store
+        store.push(group.fullStorageKey);
+
+        // Sync app data
+        this.group.subGroups.push(group);
+    }
+
+    private removeBookmarkGroup(store, group: DataGroup): void {
+        // Sync store
+        store.splice(store.indexOf(group.fullStorageKey), 1);
+
+        // Sync app data
+        const appIndex = this.group.subGroups.findIndex(
+            (g) => g.fullStorageKey === group.fullStorageKey
+        );
+        this.group.subGroups.splice(appIndex, 1);
+        this.group.subGroups = [...this.group.subGroups];
     }
 
     //#endregion

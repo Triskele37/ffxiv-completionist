@@ -8,16 +8,6 @@
         flex-direction: column;
         height: 100%;
 
-        .task-table-toolbar {
-            display: flex;
-            align-items: center;
-
-            .row-count {
-                margin-left: 5px;
-                cursor: default;
-            }
-        }
-
         .task-table-scroll-container {
             display: inline-block;
             overflow-y: auto;

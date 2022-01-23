@@ -1,43 +1,14 @@
 <div *ngIf="group.columns" class="task-table-container">
-    <div class="task-table-toolbar">
-        <span class="p-buttonset">
-            <ng-container *ngIf="hasTasks && !group._isNumericCompletion">
-                <xiv-quick-mark-dropdown
-                    [tasks]="filteredTasks"
-                    (onMark)="updateFilteredTasks()"
-                ></xiv-quick-mark-dropdown>
-
-                <xiv-select-dropdown
-                    [group]="group"
-                    [tasks]="filteredTasks"
-                ></xiv-select-dropdown>
-            </ng-container>
-
-            <ng-container *ngIf="hasTasks">
-                <xiv-chain-dropdown
-                    [disableUndo]="group.isCustomGroup"
-                ></xiv-chain-dropdown>
-            </ng-container>
-
-            <xiv-custom-task-dropdown
-                *ngIf="group.isCustomGroup"
-                [tasks]="filteredTasks"
-            ></xiv-custom-task-dropdown>
-        </span>
-
-        <span
-            *ngIf="hasTasks"
-            class="row-count"
-            tooltipPosition="top"
-            pTooltip="{{tasks.length - filteredTasks.length}} Hidden"
-        >
-            {{filteredTasks.length}} Rows displayed
-        </span>
-    </div>
+    <xiv-task-table-toolbar
+        [group]="group"
+        [tasks]="filteredTasks"
+        [totalTasks]="tasks?.length"
+        (onDataChange)="updateFilteredTasks()"
+    ></xiv-task-table-toolbar>
 
     <div class="task-table-scroll-container">
         <p-table
-            *ngIf="hasTasks"
+            *ngIf="!!tasks?.length"
             #taskTable
             styleClass="p-datatable-striped"
             dataKey="_parent.fullStorageKey"

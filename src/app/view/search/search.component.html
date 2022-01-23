@@ -9,7 +9,10 @@
     </div>
 
     <div *ngIf="(svcSearch.searchStatus$ | async) === Status.Success" class="results">
-        <p-table [value]="svcSearch.searchMatches$ | async">
+        <p-table
+            [value]="svcSearch.searchMatches$ | async"
+            styleClass="p-datatable-striped"
+        >
             <ng-template pTemplate="header">
                 <tr>
                     <th>{{(svcSearch.searchMatches$ | async).length}} Match/es</th>

@@ -6,11 +6,11 @@ import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { CustomTaskDropdownComponent } from './custom-task-dropdown.component';
+import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
 
 @NgModule({
     declarations: [
-        CustomTaskDropdownComponent
+        CustomTaskOverlayComponent
     ],
     imports: [
         CommonModule,
@@ -21,8 +21,8 @@ import { CustomTaskDropdownComponent } from './custom-task-dropdown.component';
         OverlayPanelModule
     ],
     exports: [
-        CustomTaskDropdownComponent
+        CustomTaskOverlayComponent
     ]
 })
-export class CustomTaskDropdownModule {
+export class CustomTaskOverlayModule {
 }

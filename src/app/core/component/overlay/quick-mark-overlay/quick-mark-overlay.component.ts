@@ -16,14 +16,14 @@ type TaskHistory = {
 };
 
 @Component({
-    selector: 'xiv-quick-mark-dropdown',
-    templateUrl: './quick-mark-dropdown.component.html',
+    selector: 'xiv-quick-mark-overlay',
+    templateUrl: './quick-mark-overlay.component.html',
     styleUrls: [
-        '../dropdown.scss',
-        './quick-mark-dropdown.component.scss'
+        '../overlay.scss',
+        './quick-mark-overlay.component.scss'
     ]
 })
-export class QuickMarkDropdownComponent {
+export class QuickMarkOverlayComponent {
     @Input() tasks: Task[];
     @Output() onMark = new EventEmitter<void>();
     history: History[] = [];

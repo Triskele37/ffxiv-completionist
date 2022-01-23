@@ -4,11 +4,11 @@ import { ButtonModule } from 'primeng/button';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { ChainDropdownComponent } from './chain-dropdown.component';
+import { ChainOverlayComponent } from './chain-overlay.component';
 
 @NgModule({
     declarations: [
-        ChainDropdownComponent
+        ChainOverlayComponent
     ],
     imports: [
         CommonModule,
@@ -17,8 +17,8 @@ import { ChainDropdownComponent } from './chain-dropdown.component';
         TooltipModule
     ],
     exports: [
-        ChainDropdownComponent
+        ChainOverlayComponent
     ]
 })
-export class ChainDropdownModule {
+export class ChainOverlayModule {
 }

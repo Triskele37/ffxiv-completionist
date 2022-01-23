@@ -10,14 +10,14 @@ import { MatchGroup } from '@service/search/types';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
-    selector: 'xiv-custom-task-dropdown',
-    templateUrl: './custom-task-dropdown.component.html',
+    selector: 'xiv-custom-task-overlay',
+    templateUrl: './custom-task-overlay.component.html',
     styleUrls: [
-        '../dropdown.scss',
-        './custom-task-dropdown.component.scss'
+        '../overlay.scss',
+        './custom-task-overlay.component.scss'
     ]
 })
-export class CustomTaskDropdownComponent {
+export class CustomTaskOverlayComponent {
     @Input() tasks: Task[];
     isVisible: boolean = false;
     isMergeVisible: boolean = false;

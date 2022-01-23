@@ -1,0 +1,9 @@
+.task-table-toolbar {
+    display: flex;
+    align-items: center;
+
+    .row-count {
+        margin-left: var(--content-padding);
+        cursor: default;
+    }
+}

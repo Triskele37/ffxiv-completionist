@@ -24,7 +24,7 @@
                 ></xiv-summary-line>
             </div>
 
-            <div class="section-actions" *ngIf="isShowAllVisible">
+            <div class="section-actions" *ngIf="isShowAllVisible && !selectedGroup.isBookmarkGroup">
                 <p-button
                     class="xiv-button"
                     [label]="showAll ? 'Hide All Tasks' : 'Show All Tasks'"

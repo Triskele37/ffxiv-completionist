@@ -4,6 +4,7 @@ import { MenuItem } from 'primeng/api';
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { UIGroup } from '@domain/UIGroup';
+import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { MainMenu } from '../../../view/main-menu';
 
@@ -17,6 +18,7 @@ export class NavDrawerComponent implements OnInit {
 
     constructor(
         private svcData: DataService,
+        private svcBookmark: BookmarkService,
         private svcNavigation: NavigationService
     ) {
     }
@@ -35,6 +37,17 @@ export class NavDrawerComponent implements OnInit {
                 this.items = [...this.items];
             }
         });
+
+        this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
+    }
+
+    private updateBookmarkGroup() {
+        const bookmarksIndex = this.items.findIndex(
+            (item) => item.label === this.svcBookmark.group.name
+        );
+
+        this.items[bookmarksIndex] = this.addSubGroup(this.svcBookmark.group);
+        this.items = [...this.items];
     }
 
     // Recursive: Builds a MenuItem for all data groups
@@ -42,7 +55,7 @@ export class NavDrawerComponent implements OnInit {
         const item: MenuItem = { label: group.name };
 
         // Add "sub" MenuItems if this group has subGroups
-        if(group.subGroups) {
+        if(group.subGroups?.length) {
             item.items = group.subGroups.map(
                 (g) => this.addSubGroup(g, depth + 1)
             );
@@ -50,16 +63,10 @@ export class NavDrawerComponent implements OnInit {
 
         // The callback when the MenuItem is clicked
         item.command = () => {
-            const currentPath = this.svcNavigation.breadcrumbs$.value.join('.');
-            const groupPath = group.groupPath.join('.');
+            const selectedGroup = this.svcNavigation.selectedGroup$.value;
+            const sameGroup = selectedGroup.groupPath.join('.') === group.groupPath.join('.');
 
-            if(currentPath === groupPath) {
-                // Current selected group was clicked again, close
-                this.svcNavigation.popOne();
-            }
-            else {
-                this.svcNavigation.setCrumbAt(depth, group.name);
-            }
+            this.svcNavigation.setSelectedGroup(sameGroup ? group._parent : group);
         };
 
         return item;

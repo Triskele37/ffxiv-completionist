@@ -7,14 +7,14 @@ import { ChainService } from '@service/chain/chain.service';
 import { ChainedGroup, ChainStart } from '@service/chain/types';
 
 @Component({
-    selector: 'xiv-chain-dropdown',
-    templateUrl: './chain-dropdown.component.html',
+    selector: 'xiv-chain-overlay',
+    templateUrl: './chain-overlay.component.html',
     styleUrls: [
-        '../dropdown.scss',
-        './chain-dropdown.component.scss'
+        '../overlay.scss',
+        './chain-overlay.component.scss'
     ]
 })
-export class ChainDropdownComponent implements OnInit, OnChanges, OnDestroy {
+export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     @Input() disableUndo: boolean;
     @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
     isVisible: boolean = false;

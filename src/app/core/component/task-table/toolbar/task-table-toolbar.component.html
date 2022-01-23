@@ -1,0 +1,39 @@
+<div class="task-table-toolbar">
+    <span class="p-buttonset">
+        <ng-container *ngIf="totalTasks">
+            <ng-container *ngIf="!group._isNumericCompletion">
+                <xiv-quick-mark-overlay
+                    [tasks]="tasks"
+                    (onMark)="onDataChange.emit()"
+                ></xiv-quick-mark-overlay>
+
+                <xiv-selection-overlay
+                    [group]="group"
+                    [tasks]="tasks"
+                ></xiv-selection-overlay>
+            </ng-container>
+
+            <xiv-chain-overlay
+                [disableUndo]="group.isCustomGroup"
+            ></xiv-chain-overlay>
+
+            <xiv-table-action-overlay
+                [group]="group"
+            ></xiv-table-action-overlay>
+        </ng-container>
+
+        <xiv-custom-task-overlay
+            *ngIf="group.isCustomGroup"
+            [tasks]="tasks"
+        ></xiv-custom-task-overlay>
+    </span>
+
+    <span
+        *ngIf="totalTasks"
+        class="row-count"
+        tooltipPosition="top"
+        pTooltip="{{totalTasks - tasks.length}} Hidden"
+    >
+        {{tasks.length}} Rows displayed
+    </span>
+</div>
