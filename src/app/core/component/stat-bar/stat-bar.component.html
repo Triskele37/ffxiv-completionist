@@ -1,16 +1,18 @@
 <div #statBar class="stat-bar">
     <xiv-summary-line
+        *ngIf="!hideOverall"
         [group]="allData"
         [isBig]="true"
     ></xiv-summary-line>
 
     <xiv-summary-line
-        *ngIf="!hideGroupLine && group?._parent"
+        *ngIf="!hideGroup && group?._parent"
         [group]="group"
         [isBig]="true"
     ></xiv-summary-line>
 
     <p-contextMenu
+        *ngIf="!!this.group?._parent"
         [target]="statBar"
         [model]="contextMenuItems"
     ></p-contextMenu>

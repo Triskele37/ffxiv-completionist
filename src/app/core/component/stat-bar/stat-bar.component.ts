@@ -5,6 +5,11 @@ import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
+enum Lines {
+    Overall = 0,
+    Group = 1
+}
+
 @Component({
     selector: 'xiv-stat-bar',
     templateUrl: './stat-bar.component.html',
@@ -13,17 +18,20 @@ import { NavigationService } from '@service/navigation/navigation.service';
 export class StatBarComponent implements OnInit {
     // Group given to the 1st summary line
     allData: DataGroup;
+    hideOverall: boolean = false;
 
     // Group given to the 2nd summary line
     group: DataGroup;
-
-    // Flag to hide the 2nd summary line
-    hideGroupLine: boolean = false;
+    hideGroup: boolean = false;
 
     // Actions available when right clicking either bar
     contextMenuItems: MenuItem[] = [{
-        label: 'Toggle Group Line',
-        command: this.toggleGroupLine.bind(this)
+        label: 'Hide Overall',
+        command: this.toggleOverall.bind(this),
+        state: { hide: false }
+    }, {
+        label: 'Hide Group Line',
+        command: this.toggleGroup.bind(this)
     }];
 
     constructor(
@@ -36,10 +44,44 @@ export class StatBarComponent implements OnInit {
         this.allData = this.svcData.data;
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             this.group = (group instanceof DataGroup) ? group : null;
+
+            if(!this.group?._parent) {
+                // Overall can't be hidden if there is no sub group
+                this.hideOverall = false;
+            }
+            else {
+                // Reapply overall as hidden if it was before navigating to the overall page
+                this.hideOverall = this.contextMenuItems[Lines.Overall].state.hide;
+            }
+
+            this.updateContextMenuItems();
         });
     }
 
-    private toggleGroupLine() {
-        this.hideGroupLine = !this.hideGroupLine;
+    private toggleOverall() {
+        this.hideOverall = !this.hideOverall;
+        this.contextMenuItems[Lines.Overall].state = { hide: this.hideOverall };
+        this.updateContextMenuItems();
+    }
+
+    private toggleGroup() {
+        this.hideGroup = !this.hideGroup;
+        this.updateContextMenuItems();
+    }
+
+    private updateContextMenuItems() {
+        const overall = this.contextMenuItems[Lines.Overall];
+        const group = this.contextMenuItems[Lines.Group];
+
+        // Overall
+        overall.label = this.hideOverall ? 'Show Overall Line' : 'Hide Overall Line';
+        overall.disabled = this.hideGroup;
+
+        // Group
+        group.label = this.hideGroup ? 'Show Group Line' : 'Hide Group Line';
+        group.disabled = this.hideOverall;
+
+        // Force pContextMenu to update
+        this.contextMenuItems = [...this.contextMenuItems];
     }
 }
