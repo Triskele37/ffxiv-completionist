@@ -9,6 +9,7 @@
     [pTooltip]="svcSearch.searchError$ | async"
 >
     <input
+        #searchInput
         pInputText
         placeholder="..."
         [ngClass]="svcSearch.searchStatus$ | async"
