@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Table } from 'primeng/table';
 
@@ -70,6 +70,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     };
 
     constructor(
+        private cdr: ChangeDetectorRef,
         private svcConfig: ConfigStoreService,
         private svcSaveStore: SaveStoreService
     ) {
@@ -79,6 +80,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
+            this.cdr.detectChanges();
         }
     }
 

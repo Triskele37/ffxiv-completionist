@@ -11,8 +11,9 @@ import { MainMenu } from '../../../view/main-menu';
     providedIn: 'root'
 })
 export class NavigationService {
-    selectedGroup$ = new BehaviorSubject<DataGroup | UIGroup>(null);
     breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
+    selectedGroup$ = new BehaviorSubject<DataGroup | UIGroup>(null);
+    groupHistory$ = new BehaviorSubject<string[]>([]);
 
     constructor(
         private svcData: DataService,
@@ -27,6 +28,7 @@ export class NavigationService {
         }
     }
 
+    //#region------------------------------------------------ Selected Group
     getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | UIGroup {
         if(!breadcrumbs) return null;
 
@@ -54,9 +56,30 @@ export class NavigationService {
         return null;
     }
 
-    //#region------------------------------------------------ Selected Group
-    setSelectedGroup(group: DataGroup): void {
-        this.selectedGroup$.next(group);
+    addGroupHistory() {
+        if(!this.selectedGroup$.value) return; // Must exist
+        if(this.selectedGroup$.value instanceof UIGroup) return; // Must be DataGroup
+        if(!this.selectedGroup$.value.tasks.length) return; // Must have tasks
+
+        // Push a pretty history string
+        const path = this.selectedGroup$.value.groupPath.join(' > ');
+        const newHistory = this.groupHistory$.value;
+        newHistory.unshift(path);
+
+        // Remove older duplicate (check index 0 because we just added it)
+        const lastIndex = this.groupHistory$.value.lastIndexOf(path);
+        if(lastIndex !== 0) newHistory.splice(lastIndex, 1);
+
+        // Limit to 10 historical groups
+        if(newHistory.length > 10) newHistory.pop();
+
+        this.groupHistory$.next(newHistory);
+    }
+
+    // All group setting should flow through this function
+    setSelectedGroup(breadcrumbs: string[]): void {
+        this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
+        this.addGroupHistory();
     }
 
     //#endregion
@@ -64,17 +87,7 @@ export class NavigationService {
     //#region------------------------------------------------ Breadcrumbs
     pushCrumb(crumb: string): void {
         const newBreadcrumbs = [...this.breadcrumbs$.value, crumb];
-        this.breadcrumbs$.next(newBreadcrumbs);
-        this.svcConfig.set('last-breadcrumbs', newBreadcrumbs);
-
-        // also set the selected group to match
-        const selectedGroup = this.selectedGroup$.value;
-        for(const subGroup of selectedGroup.subGroups) {
-            if(subGroup.name === crumb) {
-                this.selectedGroup$.next(subGroup);
-                break;
-            }
-        }
+        this.setBreadcrumbs(newBreadcrumbs);
     }
 
     popCrumbsUntil(index: number): void {
@@ -103,9 +116,10 @@ export class NavigationService {
         this.setBreadcrumbs([...breadcrumbs, groupName]);
     }
 
+    // All breadcrumb setting should flow through this function
     setBreadcrumbs(breadcrumbs: string[]): void {
         this.breadcrumbs$.next(breadcrumbs);
-        this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
+        this.setSelectedGroup(breadcrumbs);
         this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
     }
 

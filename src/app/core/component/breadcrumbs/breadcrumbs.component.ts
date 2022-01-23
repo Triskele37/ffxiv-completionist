@@ -20,7 +20,7 @@ export class BreadcrumbsComponent implements OnInit, OnDestroy {
     items: MenuItem[] = [];
     private sub: Subscription;
 
-    constructor(private svcNavigation: NavigationService) {
+    constructor(public svcNavigation: NavigationService) {
     }
 
     ngOnInit() {
@@ -30,6 +30,11 @@ export class BreadcrumbsComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         this.sub.unsubscribe();
+    }
+
+    goToHistory(groupLink: string): void {
+        const breadcrumbs: string[] = groupLink.split(' > ');
+        this.svcNavigation.setBreadcrumbs(breadcrumbs);
     }
 
     // Handler for when breadcrumbs$ changes

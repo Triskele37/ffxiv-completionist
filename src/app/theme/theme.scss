@@ -1,2 +1,10 @@
 @import './root';
 @import './primeng';
+
+// App specific overrides
+
+.p-button {
+    &.p-button-link {
+        color: var(--primary-color-light);
+    }
+}

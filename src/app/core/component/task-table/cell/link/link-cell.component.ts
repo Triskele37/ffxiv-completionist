@@ -5,8 +5,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
     selector: 'xiv-link-cell',
-    templateUrl: './link-cell.component.html',
-    styleUrls: ['./link-cell.component.scss']
+    templateUrl: './link-cell.component.html'
 })
 export class LinkCellComponent {
     @Input() task: Task;

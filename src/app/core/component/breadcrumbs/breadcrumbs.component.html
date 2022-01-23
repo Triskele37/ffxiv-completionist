@@ -1,6 +1,24 @@
 <div class="breadcrumb-container">
+    <p-button
+        icon="material-icons mi-history"
+        (onClick)="op.toggle($event)"
+    ></p-button>
+
     <p-breadcrumb
         [model]="items"
         (onItemClick)="onItemClick($event)"
     ></p-breadcrumb>
 </div>
+
+<p-overlayPanel #op>
+    <span>History:</span>
+    <div class="history-links">
+        <p-button
+            *ngFor="let group of svcNavigation.groupHistory$ | async"
+            styleClass="p-button-link"
+            pTooltip="Navigate to this group"
+            [label]="group"
+            (onClick)="goToHistory(group)"
+        ></p-button>
+    </div>
+</p-overlayPanel>

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { ButtonModule } from 'primeng/button';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
 
 import { BreadcrumbsComponent } from './breadcrumbs.component';
 
@@ -10,7 +12,9 @@ import { BreadcrumbsComponent } from './breadcrumbs.component';
     ],
     imports: [
         CommonModule,
-        BreadcrumbModule
+        BreadcrumbModule,
+        ButtonModule,
+        OverlayPanelModule
     ],
     exports: [
         BreadcrumbsComponent
