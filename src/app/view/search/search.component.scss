@@ -4,13 +4,41 @@
     width: 100%;
 
     .section-container {
-        // Prevents some janky-ness
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     // Allow columns to resize, but not too much
-    .results ::ng-deep td {
-        width: 40%;
-        &:first-child { width: 60% }
+    .results ::ng-deep {
+        .p-rowgroup-header td {
+            padding: 0;
+
+            &:first-child {
+                width: 30px;
+            }
+
+            // the expand toggle button
+            .p-button.p-button-text {
+                margin-left: calc(50% - 1rem);
+                height: 2rem;
+                width: 2rem;
+            }
+        }
+    }
+
+    .result-row td {
+        &:first-child {
+            user-select: none;
+            text-align: center;
+
+            &.Y, &.N, &.X {
+                color: var(--primary-color-text);
+            }
+
+            &.Y { background-color: var(--completed); }
+            &.N { background-color: var(--incomplete); }
+            &.X { background-color: var(--excluded); }
+        }
     }
 }

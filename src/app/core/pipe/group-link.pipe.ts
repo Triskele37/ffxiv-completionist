@@ -7,7 +7,6 @@ import { Task } from '@domain/Task';
 })
 export class GroupLinkPipe implements PipeTransform {
     transform(task: Task): string {
-        console.log(task._parent.groupPath);
         return task._parent.groupPath.join(' > ');
     }
 }

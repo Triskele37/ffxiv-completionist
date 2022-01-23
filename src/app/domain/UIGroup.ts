@@ -2,6 +2,7 @@ type Config = {
     name: string;
     component?: any;
     noContent?: boolean;
+    visible?: boolean;
     subGroups?: Config[];
 };
 
@@ -9,6 +10,7 @@ export class UIGroup {
     name: string;
     noContent: boolean;
     component: any;
+    visible: boolean; // Whether to hide in the nav-drawer
 
     _parent: UIGroup;
     subGroups: UIGroup[];
@@ -23,6 +25,7 @@ export class UIGroup {
         ) || null;
 
         this.noContent = !!config.noContent;
+        this.visible = config.visible !== false;
     }
 
     get groupPath(): string[] {

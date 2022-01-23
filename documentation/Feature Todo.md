@@ -2,9 +2,6 @@
 **Add**
 - Attempt to get CSP working
 - theme customize
-- search other columns
-- indicate completion in search results
-- modal when new/load save so its clear input is blocked
 
 ----- Chains
 Oh, Beehive Yourself should grant Satisfaction Guaranteed-Shirr I
@@ -43,14 +40,6 @@ Lend Me Your Ears Already (removed quest, did the app keep legacy quests?)
 White Oak Branch moved from logging 70 to logging 75 log
 Triple Triad Opponents layout is jacked
 guildhest missing ilvl
-
-**Completed**
-- Group & Task Bookmarks
-- ctrl+f/cmd+f focus search input
-- Sortable Columns
-- Toggle summary-line visibility
-- Navigation History
-- Weight Calculation in Group
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**

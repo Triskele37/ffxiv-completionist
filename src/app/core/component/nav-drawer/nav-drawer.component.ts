@@ -54,6 +54,9 @@ export class NavDrawerComponent implements OnInit {
     private addSubGroup(group: DataGroup | UIGroup, depth: number = 1): MenuItem {
         const item: MenuItem = { label: group.name };
 
+        // Allow UI groups to hide themselves
+        if(group instanceof UIGroup) item.visible = group.visible;
+
         // Add "sub" MenuItems if this group has subGroups
         if(group.subGroups?.length) {
             item.items = group.subGroups.map(

@@ -1,8 +1,7 @@
-import { Instructions } from './instructions';
-import { DevNotes } from './dev-notes';
+import { InstructionsComponent } from './main-menu/instructions/instructions.component';
 import { SearchComponent } from './search/search.component';
-import { VersionHistory } from './version-history';
-import { SettingsComponent } from './settings/settings.component';
+import { PatchNotesComponent } from './main-menu/patch-notes/patch-notes.component';
+import { SettingsComponent } from './main-menu/settings/settings.component';
 
 import { UIGroup } from '@domain/UIGroup';
 
@@ -10,10 +9,9 @@ export const MainMenu: UIGroup = new UIGroup({
     name: 'FFXIV Completionist',
     noContent: true,
     subGroups: [
-        Instructions,
-        DevNotes,
-        { name: 'Search', component: SearchComponent },
-        VersionHistory,
-        { name: 'Settings', component: SettingsComponent }
+        { name: 'Instructions', component: InstructionsComponent },
+        { name: 'Patch Notes', component: PatchNotesComponent },
+        { name: 'Settings', component: SettingsComponent },
+        { name: 'Search', component: SearchComponent, visible: false }
     ]
 }, null);

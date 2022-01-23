@@ -1,0 +1,35 @@
+.settings-page {
+    // Ensure the chain overlay has room to display
+    min-height: 650px;
+
+    ::ng-deep .setting {
+        display: flex;
+        align-items: center;
+        height: 38px;
+
+        &.bool {
+            width: 200px;
+        }
+
+        &.number {
+            width: 300px;
+        }
+
+        label:first-child {
+            display: inline-block;
+            padding-right: 10px;
+            text-align: right;
+            width: 175px;
+        }
+
+        .p-dropdown {
+            align-items: center;
+            height: 38px;
+            width: 150px;
+        }
+
+        .p-inputnumber input {
+            width: 60px;
+        }
+    }
+}

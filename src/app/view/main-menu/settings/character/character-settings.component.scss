@@ -1,0 +1,21 @@
+.setting.starting-class {
+    width: 375px;
+
+    ::ng-deep {
+        .p-dropdown {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .overlay-container {
+            .overlay-panel {
+                left: -185px;
+            }
+
+            .p-button {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+}

@@ -6,6 +6,8 @@ import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 
+import { GroupLinkModule } from '../../../pipe/group-link.pipe';
+
 import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
 
 @NgModule({
@@ -18,7 +20,9 @@ import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
         ButtonModule,
         DividerModule,
         InputTextModule,
-        OverlayPanelModule
+        OverlayPanelModule,
+
+        GroupLinkModule
     ],
     exports: [
         CustomTaskOverlayComponent

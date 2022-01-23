@@ -3,9 +3,19 @@ import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 
-import { Match, MatchGroup, Status } from './types';
+export enum Status {
+    Success = 'success',
+    Failure = 'failure'
+}
+
+export type Match = {
+    header: string;
+    key: string;
+    task: Task;
+};
 
 @Injectable({
     providedIn: 'root'
@@ -18,118 +28,91 @@ export class SearchService {
     }
 
     //#region------------------------------------------------------- App Search
+    searchTerm: string;
+    expanded: boolean;
+
     searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
     searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
-    searchMatches$: BehaviorSubject<MatchGroup[]> = new BehaviorSubject<MatchGroup[]>([]);
+    searchMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
+
+    toggleSearchDepth(): void {
+        if(!this.searchTerm) return;
+
+        this.expanded = !this.expanded;
+        this.doAppSearch(this.searchTerm);
+    }
 
     doAppSearch(searchTerm: string): void {
-        searchTerm = searchTerm?.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+        this.searchTerm = searchTerm?.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-        if(!searchTerm || searchTerm.length < 3) {
+        if(!this.searchTerm || this.searchTerm.length < 3) {
             this.searchStatus$.next(Status.Failure);
             this.searchError$.next('Please enter at least 3 characters');
         }
         else {
-            // Timeout allows UI to update
-            // setTimeout(() => {
-            const matches: MatchGroup[] = this.searchData(searchTerm);
+            const matches: Match[] = this.searchData(searchTerm, this.expanded, false);
 
             if(matches.length > 0) {
                 this.searchStatus$.next(Status.Success);
                 this.searchError$.next(null);
                 this.searchMatches$.next(matches);
 
-                this.svcNavigation.setBreadcrumbs(['Overall', 'FFXIV Completionist', 'Search']);
+                this.svcNavigation.setBreadcrumbs(['FFXIV Completionist', 'Search']);
             }
             else {
                 this.searchStatus$.next(Status.Failure);
                 this.searchError$.next('No tasks found');
             }
-            // }, 250);
         }
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Reuseable Search Logic
-    searchData(searchTerm: string, strict: boolean = false): MatchGroup[] {
-        const matches = this.searchGroupForTerm(this.svcData.data, searchTerm, strict);
-        const matchGroups = this.groupMatches(matches);
-
-        return SearchService.cleanMatchGroups(matchGroups);
+    searchData(searchTerm: string, expanded: boolean, strict: boolean): Match[] {
+        return this.searchGroupForTerm(this.svcData.data, searchTerm, expanded, strict);
     }
 
-    private searchGroupForTerm(group: DataGroup, searchTerm: string, strict: boolean): Match[] {
+    private searchGroupForTerm(group: DataGroup, searchTerm: string, expanded: boolean, strict: boolean): Match[] {
         const matches: Match[] = [];
 
         // Recurse downward
-        if(group.subGroups && group.subGroups.length) {
-            group.subGroups.forEach((subGroup) =>
-                matches.push(...this.searchGroupForTerm(subGroup, searchTerm, strict))
-            );
-        }
+        group.subGroups?.forEach((subGroup) =>
+            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, strict))
+        );
 
         // Search current group
-        group.tasks.forEach(({ id, name }) => {
-            if(name && SearchService.namesFuzzyMatch(searchTerm, name, strict)) {
-                matches.push({
-                    path: group.groupPath.join(' > '),
-                    name,
-                    id
+        group.tasks.forEach((task) => {
+            if(!expanded) { // name only search
+                if(task.name && SearchService.fuzzyMatch(searchTerm, task.name, strict)) {
+                    matches.push({ header: 'Name', key: 'name', task });
+                }
+            }
+            else { // all column search
+                task._parent.columns?.forEach(({ key, header }) => {
+                    if(!task[key]) return;
+
+                    if(SearchService.fuzzyMatch(searchTerm, task[key], strict)) {
+                        matches.push({ header, key, task });
+                    }
                 });
             }
         });
 
         return matches;
-    }
-
-    private groupMatches(matches: Match[]): MatchGroup[] {
-        const groupedMatches: MatchGroup[] = [];
-
-        matches.forEach((match) => {
-            const lastMatch = groupedMatches[groupedMatches.length - 1];
-
-            if(lastMatch && lastMatch.path === match.path) {
-                lastMatch.tasks.push({
-                    id: match.id,
-                    name: match.name
-                });
-            }
-            else {
-                groupedMatches.push({
-                    path: match.path,
-                    tasks: [{
-                        id: match.id,
-                        name: match.name
-                    }]
-                });
-            }
-        });
-
-        return groupedMatches;
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Helpers
-    private static cleanMatchGroups(matches: MatchGroup[]): MatchGroup[] {
-        matches.forEach((match) => {
-            const taskCount = match.tasks.length;
-            match.matchesString = taskCount > 1 ? `(${taskCount}) ` : '';
-            match.matchesString += match.tasks.map((t) => t.name).join(', ');
-        });
-
-        return matches;
-    }
-
     // Fuzzy matches search term against task name or if task name includes search term
-    private static namesFuzzyMatch(searchTerm: string, taskName: string, strict: boolean): boolean {
+    private static fuzzyMatch(searchTerm: string, value: number | string, strict: boolean): boolean {
         const fuzzySearchTerm = searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
-        const fuzzyTaskName = taskName.toLowerCase().replace(/[^a-z0-9 ]/g, '');
+        const fuzzyTaskValue = value.toString().toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-        if(fuzzySearchTerm === fuzzyTaskName) return true;
+        if(fuzzySearchTerm === fuzzyTaskValue) return true;
 
-        return !strict && fuzzyTaskName.includes(fuzzySearchTerm);
+        return !strict && fuzzyTaskValue.includes(fuzzySearchTerm);
     }
 
     //#endregion

@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 
-import { InstructionsModule } from './instructions';
-import { DevNotesModule } from './dev-notes';
+import { InstructionsModule } from './main-menu/instructions/instructions.module';
+import { PatchNotesModule } from './main-menu/patch-notes/patch-notes.module';
+import { SettingsModule } from './main-menu/settings/settings.module';
 import { SearchModule } from './search/search.module';
-import { SettingsModule } from './settings/settings.module';
 
 /** This module needs to import any dynamically injected components
  * that exist in the MainMenu so that they are included in the build
@@ -11,15 +11,15 @@ import { SettingsModule } from './settings/settings.module';
 @NgModule({
     imports: [
         InstructionsModule,
-        DevNotesModule,
-        SearchModule,
+        PatchNotesModule,
         SettingsModule,
+        SearchModule,
     ],
     exports: [
         InstructionsModule,
-        DevNotesModule,
-        SearchModule,
+        PatchNotesModule,
         SettingsModule,
+        SearchModule,
     ]
 })
 export class ViewModule {

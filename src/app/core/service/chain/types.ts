@@ -11,7 +11,7 @@ export type ChainedGroup = {
 type TaskBase = {
     task: Task;
     fromFlag: string;
-    toFlag: string;
+    toFlag?: string;
 };
 
 // The first task to start a chain

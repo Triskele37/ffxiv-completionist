@@ -6,6 +6,8 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
+import { LinkCellModule } from '@component/task-table/cell/link/link-cell.module';
+import { GroupLinkModule } from '../../core/pipe/group-link.pipe';
 import { SearchComponent } from './search.component';
 
 @NgModule({
@@ -19,6 +21,9 @@ import { SearchComponent } from './search.component';
         InputTextModule,
         TableModule,
         TooltipModule,
+
+        LinkCellModule,
+        GroupLinkModule,
     ],
     exports: [
         SearchComponent

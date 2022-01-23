@@ -1,39 +1,49 @@
 <div class="search-data-container">
     <div class="section-container">
-        <ul>
-            <li>This search is case insensitive and returns partial results</li>
-            <li>It ignores any character other than letters and numbers</li>
-            <li>Requires at least 3 characters to run</li>
-            <li>Click on the result row to jump to that section</li>
-        </ul>
+        <p-button
+            [label]="svcSearch.expanded ? 'Search Name Columns' : 'Search All Columns'"
+            (onClick)="expandSearch()"
+        ></p-button>
+
+        <br/>
+
+        <div>{{(svcSearch.searchMatches$ | async).length}} Match/es</div>
     </div>
 
     <div *ngIf="(svcSearch.searchStatus$ | async) === Status.Success" class="results">
         <p-table
+            #resultsTable
             [value]="svcSearch.searchMatches$ | async"
+            rowGroupMode="subheader"
+            groupRowsBy="task._parent.fullStorageKey"
+            dataKey="task._parent.fullStorageKey"
             styleClass="p-datatable-striped"
         >
             <ng-template pTemplate="header">
                 <tr>
-                    <th>{{(svcSearch.searchMatches$ | async).length}} Match/es</th>
-                    <th pSortableColumn="path">
-                        Group
-                        <p-sortIcon field="path"></p-sortIcon>
-                    </th>
+                    <th>Complete</th>
+                    <th *ngIf="svcSearch.expanded">Column</th>
+                    <th>Value</th>
                 </tr>
             </ng-template>
-            <ng-template pTemplate="body" let-match>
-                <tr>
-                    <td>{{match.matchesString}}</td>
+            <ng-template pTemplate="groupheader" let-match let-expanded="expanded">
+                <tr pRowGroupHeader [pRowToggler]="match">
                     <td>
                         <p-button
-                            styleClass="p-button-info p-button-text"
-                            pTooltip="Navigate to this group"
-                            tooltipPosition="left"
-                            [label]="match.path"
-                            (onClick)="onJumpToGroup(match)"
+                            styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
+                            [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
                         ></p-button>
                     </td>
+                    <td [colSpan]="svcSearch.expanded ? 2 : 1">
+                        <xiv-link-cell [task]="match.task"></xiv-link-cell>
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="rowexpansion" let-match>
+                <tr class="result-row">
+                    <td [ngClass]="match.task.completionFlag">{{match.task.completionFlag}}</td>
+                    <td *ngIf="svcSearch.expanded">{{match.header}}</td>
+                    <td>{{match.task[match.key]}}</td>
                 </tr>
             </ng-template>
         </p-table>

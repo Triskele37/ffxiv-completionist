@@ -80,13 +80,13 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
-            this.cdr.detectChanges();
         }
     }
 
     updateFilteredTasks() {
         this.filteredTasks = this._filteredTasks;
         this.uniqueValues = this._uniqueValues;
+        this.cdr.detectChanges();
     }
 
     onFilterChange(filters) {

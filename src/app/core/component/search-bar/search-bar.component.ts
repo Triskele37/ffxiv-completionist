@@ -36,6 +36,7 @@ export class SearchBarComponent {
     }
 
     onSearch(): void {
+        this.svcSearch.expanded = false;
         this.svcSearch.doAppSearch(this.searchTerm);
     }
 }

@@ -5,8 +5,7 @@ import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
-import { SearchService } from '@service/search/search.service';
-import { MatchGroup } from '@service/search/types';
+import { Match, SearchService } from '@service/search/search.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
@@ -30,7 +29,7 @@ export class CustomTaskOverlayComponent {
     mergeFirstInChain: boolean = false;
     mergeIndex: number = 0;
     mergeInfo: string = '';
-    mergeMatches: MatchGroup[] = [];
+    mergeMatches: Match[] = [];
     mergeTask: Task = {} as Task;
     tasksToRemove: Task[] = [];
 
@@ -93,8 +92,11 @@ export class CustomTaskOverlayComponent {
         // Search for matches and filter out matching itself
         this.mergeTask = this.customData.tasks[this.mergeIndex];
         this.mergeMatches = this.svcSearch
-            .searchData(this.mergeTask.name, true)
-            .filter((m) => m.path.indexOf('Overall > Custom') === -1);
+            .searchData(this.mergeTask.name, false, true)
+            .filter((match) =>
+                !match.task._parent.isBookmarkGroup &&
+                !match.task._parent.isCustomGroup
+            );
 
         if(this.mergeMatches.length) {
             this.mergeInfo = `${this.mergeMatches.length} matches found`;
@@ -106,7 +108,7 @@ export class CustomTaskOverlayComponent {
         if(this.autoMerge) {
             setTimeout(() => {
                 if(this.mergeMatches.length === 1) {
-                    this.confirmCurrentMerge(this.mergeMatches[0]);
+                    this.confirmCurrentMerge(this.mergeMatches[0].task);
                 }
                 else {
                     this.goToNextMerge();
@@ -154,31 +156,21 @@ export class CustomTaskOverlayComponent {
         this.syncCustomStore();
     }
 
-    confirmCurrentMerge(match: MatchGroup): void {
-        const pathSegments = match.path.split(' > ');
-
-        if(pathSegments[0] === 'Overall') {
-            pathSegments.shift(); // Remove the 'Overall' step
-
-            // Should never end up with a duplicate match in the same group
-            const task = this.svcData.data
-                .getChildGroupFromPath(pathSegments, true)
-                .getTaskById(match.tasks[0].id);
-
-            if(task.completionFlag !== this.mergeTask.completionFlag) {
-                this.mergeFirstInChain = !task.changeCompletionFlag(
-                    this.mergeTask.completionFlag as Completion,
-                    this.mergeFirstInChain
-                ) && this.mergeFirstInChain;
-            }
-
-            this.removeCustomTask_UI(this.mergeTask);
-            this.tasksToRemove.push(this.mergeTask);
-
-            // Offset index and goto next
-            this.mergeIndex--;
-            this.goToNextMerge();
+    confirmCurrentMerge(match: Task): void {
+        // Update the completion flag if it has changed
+        if(match.completionFlag !== this.mergeTask.completionFlag) {
+            this.mergeFirstInChain = !match.changeCompletionFlag(
+                this.mergeTask.completionFlag as Completion,
+                this.mergeFirstInChain
+            ) && this.mergeFirstInChain;
         }
+
+        this.removeCustomTask_UI(this.mergeTask);
+        this.tasksToRemove.push(this.mergeTask);
+
+        // Offset index and goto next
+        this.mergeIndex--;
+        this.goToNextMerge();
     }
 
     modalNoNo($event): void {

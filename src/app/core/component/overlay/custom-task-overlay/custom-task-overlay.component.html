@@ -10,7 +10,7 @@
 
     <div
         *ngIf="autoMerge"
-        class="auto-merge-modal"
+        class="xiv-modal"
         (click)="modalNoNo($event)"
     ></div>
 
@@ -56,8 +56,8 @@
 
                 <p-button
                     *ngFor="let match of mergeMatches"
-                    [label]="match.path"
-                    (onClick)="confirmCurrentMerge(match)"
+                    [label]="match.task | groupLink"
+                    (onClick)="confirmCurrentMerge(match.task)"
                 ></p-button>
             </ng-container>
         </span>

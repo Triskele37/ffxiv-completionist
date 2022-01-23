@@ -1,0 +1,55 @@
+<div class="section">
+    <div class="header">Overview</div>
+    <div>The app creates a save with a default name in a default location</div>
+    <div>The currently active save can be viewed in the settings page</div>
+</div>
+
+<div class="section">
+    <div class="header">New Character</div>
+    <div>In the settings page additional save files can be created</div>
+    <div>When clicked, the file name and location can be customized</div>
+</div>
+
+<div class="section">
+    <div class="header">Load Character</div>
+    <div>In the settings page an existing save file from the app can be loaded</div>
+    <div>Use this action if the save file has been moved manually</div>
+</div>
+
+<div class="section">
+    <div class="header">Files</div>
+    <div>The app relies on 2+ files to handle save data</div>
+    <ul>
+        <li>"config.json": Holds configuration data for the app itself</li>
+        <li>"completion.json": Holds save data for characters, can be renamed to anything</li>
+    </ul>
+    <div>NOTE: Modifying these files manually may lead to unexpected issues, especially with the app open</div>
+</div>
+
+<div class="section">
+    <div class="header">"Backup"</div>
+    <div>It is highly recommended to backup the completion save either manually or automatically</div>
+    <div>This is especially important when updating the app to a new version</div>
+    <br/>
+    <div>Example of manual backup:</div>
+    <ol>
+        <li>Locate the completion save file</li>
+        <li><b>Copy</b> it to a safe location</li>
+        <li>Don't load this backup with the app</li>
+    </ol>
+    <div>Example of automatic backup:</div>
+    <ol>
+        <li>Ensure the app is closed</li>
+        <li>Move the completion save file to a folder that is automatically cloud saved</li>
+        <li>Use the "Load Character" action to load from the new location</li>
+    </ol>
+</div>
+
+<div class="section">
+    <div class="header">Final Notes</div>
+    <div>Completion is saved as soon as items are marked</div>
+    <div>Completion is migrated between versions of the app</div>
+    <ul>
+        <li>Sometimes Patch Notes will indicate items that need to be manually reviewed</li>
+    </ul>
+</div>

@@ -4,7 +4,7 @@
     display: contents;
 
     .completion-flag-cell {
-        color: black;
+        color: var(--primary-color-text);
         cursor: pointer;
         text-align: center;
         vertical-align: middle;

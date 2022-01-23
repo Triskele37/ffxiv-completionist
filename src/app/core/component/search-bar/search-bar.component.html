@@ -11,7 +11,7 @@
     <input
         #searchInput
         pInputText
-        placeholder="..."
+        placeholder="Search"
         [ngClass]="svcSearch.searchStatus$ | async"
         [(ngModel)]="searchTerm"
         (keydown.enter)="searchOnEnter()"
