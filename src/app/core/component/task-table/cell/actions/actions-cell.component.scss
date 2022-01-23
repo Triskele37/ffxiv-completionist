@@ -16,6 +16,24 @@
             display: flex;
             right: 50px;
             margin-top: -$button-size;
+            z-index: 1;
+            cursor: default;
+
+            > * {
+                position: relative;
+
+                &:not(:last-child):after {
+                    content: "";
+                    background-color: rgba(var(--primary-color-rgb), 0.4);
+                    width: 35px;
+                    height: $button-size;
+
+                    top: 0;
+                    left: calc(35px / 2);
+                    position: absolute;
+                    z-index: -1;
+                }
+            }
         }
     }
 }

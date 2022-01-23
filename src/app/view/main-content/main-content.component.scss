@@ -5,10 +5,8 @@
 }
 
 .main-content {
+    height: 100%;
     margin: 10px;
-
-    // Ensures this container becomes scrollable
-    min-height: 0;
 
     .custom-group-component {
         // Prevent x overflow

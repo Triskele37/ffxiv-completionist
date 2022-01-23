@@ -36,18 +36,19 @@
     </div>
 
     <div class="task-table-scroll-container">
-        <!-- TODO: responsive virtual scroll height -->
         <p-table
             *ngIf="hasTasks"
+            #taskTable
             styleClass="p-datatable-striped"
-            dataKey="fullStorageKey"
+            dataKey="_parent.fullStorageKey"
             [value]="filteredTasks"
 
             [rowGroupMode]="groupRows ? 'subheader' : null"
-            [groupRowsBy]="groupRows ? 'storageGroup' : null"
+            [groupRowsBy]="groupRows ? '_parent.fullStorageKey' : null"
 
-            [virtualScroll]="groupRows"
-            scrollHeight="800px"
+            [virtualScroll]="true"
+            [virtualRowHeight]="40"
+            scrollHeight="100%"
 
             (onRowReorder)="onRowReorder($event)"
         >

@@ -14,4 +14,10 @@ $button-size: 25px;
     justify-content: center;
     align-items: center;
     display: flex;
+
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--primary-color-light);
+    }
 }

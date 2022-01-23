@@ -1,10 +1,13 @@
-import { ChangeDetectorRef, Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { Table } from 'primeng/table';
 
 import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
+import { debounceTime } from 'rxjs/operators';
 
 type UniqueValues = {
     [column: string]: string[];
@@ -15,10 +18,47 @@ type UniqueValues = {
     templateUrl: 'task-table.component.html',
     styleUrls: ['./task-table.component.scss']
 })
-export class TaskTableComponent implements OnInit, OnChanges {
+export class TaskTableComponent implements OnChanges, OnDestroy {
     @Input() group: DataGroup;
     @Input() tasks: Task[];
     @Input() groupRows: boolean;
+
+    //#region----------------------------------------------------------- Fix virtual header
+    private scrolledSub: Subscription;
+    private _taskTable: Table;
+
+    @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
+        if(!ref) return;
+        this._taskTable = ref;
+
+        // Bail if the table does not have virtual scroll
+        if(!ref.virtualScrollBody) return;
+        this.scrolledSub?.unsubscribe();
+
+        //@ts-ignore
+        ref.virtualScrollBody._elementScrolled
+            .pipe(debounceTime(10))
+            .subscribe(() => {
+                const transform: number = parseInt(
+                    //@ts-ignore
+                    this._taskTable.virtualScrollBody._renderedContentTransform
+                        .replace('translateY(', '')
+                        .replace('px)', ''),
+                    10
+                );
+
+                const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
+                for(const header of headers) {
+                    header.style.top = `${-transform}px`;
+                }
+            });
+    }
+
+    ngOnDestroy() {
+        this.scrolledSub?.unsubscribe();
+    }
+
+    //#endregion
 
     debounceDrag: boolean;
 
@@ -30,20 +70,14 @@ export class TaskTableComponent implements OnInit, OnChanges {
     };
 
     constructor(
-        private cdr: ChangeDetectorRef,
         private svcConfig: ConfigStoreService,
         private svcSaveStore: SaveStoreService
     ) {
         this.filters.completion = this.svcConfig.get('table-filters');
     }
 
-    ngOnInit() {
-    }
-
     ngOnChanges(changes: SimpleChanges) {
-        const { columns, group, tasks } = changes;
-
-        if(columns || group || tasks) {
+        if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
         }
     }
@@ -51,7 +85,6 @@ export class TaskTableComponent implements OnInit, OnChanges {
     updateFilteredTasks() {
         this.filteredTasks = this._filteredTasks;
         this.uniqueValues = this._uniqueValues;
-        // this.cdr.detectChanges();
     }
 
     onFilterChange(filters) {
@@ -141,10 +174,14 @@ export class TaskTableComponent implements OnInit, OnChanges {
                 if(key === 'completion') {
                     // Completion filters
                     switch(task.completionFlag) {
-                        case Completion.Y: return filter.completed;
-                        case Completion.N: return filter.incomplete;
-                        case Completion.X: return filter.excluded;
-                        default: return filter.incomplete;
+                        case Completion.Y:
+                            return filter.completed;
+                        case Completion.N:
+                            return filter.incomplete;
+                        case Completion.X:
+                            return filter.excluded;
+                        default:
+                            return filter.incomplete;
                     }
                 }
                 else {

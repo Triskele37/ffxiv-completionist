@@ -28,6 +28,8 @@
     }
 
     ::ng-deep .p-datatable {
+        height: 100%;
+
         //---------------------- Table Row ----------------------
         tr {
             cursor: pointer;

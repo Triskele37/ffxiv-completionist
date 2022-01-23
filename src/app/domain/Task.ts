@@ -137,10 +137,6 @@ export class Task {
         return `${this.id ?? -1}`;
     }
 
-    get storageGroup(): string { // IS used in task-table
-        return this._parent.fullStorageKey;
-    }
-
     get fullStorageKey(): string {
         return `${this._parent.fullStorageKey}.${this.storageKey}`;
     }
